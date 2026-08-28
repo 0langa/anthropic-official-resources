@@ -9,6 +9,7 @@ on:
       - 'sources.json'
       - 'pilot-urls.json'
       - '.github/workflows/validate.yml'
+      - '.gitattributes'
   workflow_dispatch:
 permissions:
   contents: read

@@ -31,6 +31,8 @@ Authenticate Git normally for the private repository; never put a token in this 
 
 Progress is printed per page and logged in `.cache/logs`. Ctrl+C checkpoints the run. Repeat `Populate` to resume. A process lock prevents two local writers. There is no need to keep a chat or model running.
 
+Git attributes preserve archived bytes on Windows. For a clone created before this safeguard, Setup repairs CRLF conversion only when converting back to LF exactly reproduces the stored SHA-256. Substantive local edits are never repaired or overwritten by that check.
+
 ## Pipeline behavior
 
 1. Discover public sitemap/llms indexes, configured roots, and links encountered in retrieved pages. Use the current inventory immediately; review is not required.

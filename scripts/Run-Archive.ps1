@@ -32,7 +32,7 @@ if ($Mode -eq 'Setup' -or -not (Test-Path $ArchivePython)) {
         throw 'Install Python 3.12 (with the py launcher) or uv, then run this command again.'
     }
     Invoke-Checked $ArchivePython @('-m','playwright','install','chromium')
-    Invoke-Checked $ArchivePython @('tools/pipeline.py','verify')
+    Invoke-Checked $ArchivePython @('tools/pipeline.py','verify','--repair-line-endings')
     if ($Mode -eq 'Setup') { exit 0 }
 }
 

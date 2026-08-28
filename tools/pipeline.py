@@ -26,6 +26,21 @@ def read_json(path, default=None):
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else (default if default is not None else {})
 
 
+def repair_checkout_line_endings(archive):
+    """Only repair CRLF conversion when the result exactly matches the stored hash."""
+    repaired = 0
+    for record in archive.records.values():
+        path = (archive.root / record["path"]).resolve()
+        if not path.is_relative_to(archive.root.resolve()) or not path.is_file():
+            continue
+        raw = path.read_bytes()
+        normalized = raw.replace(b"\r\n", b"\n")
+        if raw != normalized and digest(raw) != record["sha256"] and digest(normalized) == record["sha256"]:
+            write(path, normalized)
+            repaired += 1
+    return repaired
+
+
 def remove_record(archive, url):
     record = archive.records.pop(url, None)
     candidates = [local_path(url, "html", "index.html"), local_path(url, "html", "rendered.html")]
@@ -477,11 +492,15 @@ def main(argv=None):
     parser.add_argument("--browser", choices=["auto", "always", "never"], default="auto")
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--max-seconds", type=int, default=0)
+    parser.add_argument("--repair-line-endings", action="store_true", help="With verify: repair only proven Git CRLF conversion, never substantive edits")
     args = parser.parse_args(argv)
     if args.limit < 0 or args.max_seconds < 0:
         parser.error("Limits must be non-negative")
     archive = Archive(args.root.resolve())
     if args.command == "verify":
+        if args.repair_line_endings:
+            with exclusive_run(archive.root):
+                print(f"Repaired checkout line endings: {repair_checkout_line_endings(archive)}")
         failures = verify(archive)
         failures.extend("Non-English manifest URL: " + u for u in archive.records if not is_english_url(u))
         for name in ("resource-urls.txt", "missing-urls.txt", "discovered-urls.txt", "asset-urls.txt", "external-media-urls.txt"):

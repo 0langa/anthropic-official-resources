@@ -14,7 +14,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 from archive_http import HTTP, FetchError, Response, retry_delay
 from extraction import extract_html, validate_markdown
 from mirror import Archive, digest, dump, local_path, normalize, verify, write
-from pipeline import Runner, cleanup, exclusive_run
+from pipeline import Runner, cleanup, exclusive_run, repair_checkout_line_endings
 from scope import is_english_url
 
 
@@ -112,6 +112,16 @@ class ScopeTests(unittest.TestCase):
                 with self.assertRaises(RuntimeError):
                     with exclusive_run(root): pass
             with exclusive_run(root): pass
+    def test_checkout_repair_only_changes_proven_line_endings(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);a=archive(root,"https://example.org");url="https://example.org/en/page"
+            body="# Original\n\n"+PARAGRAPH+"\n"
+            a.accept(url,body,url);path=root/a.records[url]["path"]
+            path.write_bytes(body.replace("\n","\r\n").encode())
+            self.assertEqual(repair_checkout_line_endings(a),1);self.assertEqual(verify(a),[])
+            path.write_bytes(b"User edited this file\r\n")
+            self.assertEqual(repair_checkout_line_endings(a),0)
+            self.assertEqual(path.read_bytes(),b"User edited this file\r\n")
 
 
 class ExtractionTests(unittest.TestCase):

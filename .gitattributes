@@ -1,0 +1,6 @@
+# Code/config use LF; archived source bytes must never be rewritten by Git.
+* text=auto eol=lf
+content/** -text
+html/** -text
+assets/** -text
+source-bundles/** -text
