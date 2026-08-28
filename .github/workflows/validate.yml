@@ -1,0 +1,93 @@
+name: Validate archive pipeline
+on:
+  push:
+    paths:
+      - 'tools/**'
+      - 'tests/**'
+      - 'scripts/**'
+      - 'requirements*.txt'
+      - 'sources.json'
+      - 'pilot-urls.json'
+      - '.github/workflows/validate.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: archive-validation-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  tests:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    env:
+      ARCHIVE_BROWSER_TESTS: '1'
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - if: runner.os == 'Linux'
+        run: python -m playwright install --with-deps chromium
+      - if: runner.os == 'Windows'
+        run: python -m playwright install chromium
+      - run: python -m unittest discover -s tests -v
+      - run: python tools/pipeline.py verify
+      - if: runner.os == 'Windows'
+        name: Parse Windows launcher
+        shell: pwsh
+        run: |
+          $tokens = $null
+          $errors = $null
+          [System.Management.Automation.Language.Parser]::ParseFile("$PWD/scripts/Run-Archive.ps1", [ref]$tokens, [ref]$errors) | Out-Null
+          if ($errors.Count) { $errors | Format-List; exit 1 }
+  live-pilot:
+    needs: tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python -m playwright install --with-deps chromium
+      - name: Run bounded live acceptance pilot
+        id: pilot
+        continue-on-error: true
+        run: python tools/pilot.py --merge
+      - name: Verify retained content
+        if: always()
+        run: python tools/pipeline.py verify
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: live-pilot-report
+          path: reports/
+      - name: Publish pilot report and actual retrieved content
+        if: always() && github.ref == 'refs/heads/main'
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for directory in content inventory html source-bundles reports; do
+            if [ -d "$directory" ]; then git add -- "$directory"; fi
+          done
+          if ! git diff --cached --quiet; then
+            git commit -m 'test: record live archive pilot and retrieved pages'
+            git push
+          fi
+      - name: Pilot acceptance gate
+        if: always()
+        run: python -c "import json; r=json.load(open('reports/live-pilot.json')); assert r['passed'] and not r['integrity_failures'], 'Live pilot has unresolved pages; inspect reports/live-pilot.json'"

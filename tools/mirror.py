@@ -17,6 +17,7 @@ import urllib.parse
 import urllib.request
 import urllib.robotparser
 import xml.etree.ElementTree as ET
+from scope import clean_url, is_english_url
 
 USER_AGENT = "AnthropicResourceArchive/1.0 (personal documentation backup)"
 MAX_BYTES = 100 * 1024 * 1024
@@ -46,13 +47,13 @@ def write(path, data):
 
 def normalize(url, base=""):
     try:
-        p = urllib.parse.urlsplit(urllib.parse.urljoin(base, html.unescape(url)))
+        p = urllib.parse.urlsplit(clean_url(urllib.parse.urljoin(base, html.unescape(url))))
         port = p.port
     except (ValueError, TypeError):
         return None
     if p.scheme not in {"http", "https"} or not p.hostname or p.username or p.password:
         return None
-    if port not in {None, 80, 443}:
+    if port not in {None, 80, 443} and p.hostname not in {"localhost", "127.0.0.1", "::1"}:
         return None
     parts = p.path.split("/")
     if any(urllib.parse.unquote(x) in {".", ".."} or "\\" in urllib.parse.unquote(x) for x in parts):
@@ -81,7 +82,8 @@ def local_path(url, area="content", filename="index.md"):
         parts.append("__query_" + digest(p.query)[:16])
     if p.path != "/" and p.path.endswith("/") and filename == "index.md":
         filename = "directory-index.md"
-    return Path(area, p.netloc, *parts, filename)
+    host = p.netloc.replace(":", "%3A")
+    return Path(area, host, *parts, filename)
 
 
 def parse_platform_export(text):
@@ -257,17 +259,21 @@ class Fetcher:
 class Archive:
     def __init__(self, root):
         self.root=Path(root)
-        self.config=json.loads((self.root/"sources.json").read_text())
+        self.config=json.loads((self.root/"sources.json").read_text(encoding="utf-8"))
         path=self.root/"inventory/manifest.json"
-        self.records=json.loads(path.read_text()) if path.exists() else {}
+        self.records=json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
         path=self.root/"inventory/discovered-urls.txt"
-        self.discovered=set(path.read_text().splitlines()) if path.exists() else set()
+        self.discovered=set(path.read_text(encoding="utf-8").splitlines()) if path.exists() else set()
         errors=self.root/"inventory/errors.json"
-        self.errors=json.loads(errors.read_text()) if errors.exists() else {}
+        self.errors=json.loads(errors.read_text(encoding="utf-8")) if errors.exists() else {}
         state=self.root/"inventory/check-state.json"
-        self.checked=json.loads(state.read_text()) if state.exists() else {}
+        self.checked=json.loads(state.read_text(encoding="utf-8")) if state.exists() else {}
+        state=self.root/"inventory/page-state.json"
+        page_state=json.loads(state.read_text(encoding="utf-8")) if state.exists() else {}
+        self.excluded={u for u,v in page_state.items() if v.get("status")=="non_english"}
 
     def allowed(self,url):
+        if not normalize(url) or not is_english_url(url) or url in self.excluded:return False
         p=urllib.parse.urlsplit(url)
         if re.search(r"[{}<>]", urllib.parse.unquote(p.path)):
             return False
@@ -283,10 +289,12 @@ class Archive:
 
     def discover(self,urls):
         for url in urls:
-            if u:=normalize(url): self.discovered.add(u)
+            if (u:=normalize(url)) and is_english_url(u) and page_url(u) not in self.excluded: self.discovered.add(page_url(u))
 
     def accept(self,url,body,source,kind="markdown",notes=None,title=None):
         url=page_url(normalize(url))
+        if not is_english_url(url) or not is_english_url(source):
+            raise ValueError("Non-English resource excluded")
         if not body or len(body.strip())<30:raise ValueError("Empty or suspiciously short page")
         if re.search(r"^\s*<!doctype html|^\s*<html\b",body,re.I) and kind=="native-markdown":raise ValueError("HTML returned for Markdown endpoint")
         path=local_path(url)
@@ -299,7 +307,8 @@ class Archive:
     def import_export(self,text,url,kind):
         parser=parse_platform_export if kind=="platform" else parse_code_export
         pages=parser(text)
-        self.last_export_urls={page for page,_,_ in pages}
+        pages=[(page,title,body) for page,title,body in pages if is_english_url(page) and self.allowed(page_url(page))]
+        self.last_export_urls={page_url(page) for page,_,_ in pages}
         for page,title,body in pages:
             self.accept(page,body,url,"native-markdown",["Contains upstream MDX/components; Markdown is not a visual website replica."],title)
         return len(pages)
@@ -325,6 +334,7 @@ class Archive:
         return sorted({page_url(u) for u in self.discovered if self.allowed(page_url(u)) and page_url(u) not in self.records})
 
     def save(self):
+        self.discovered={page_url(u) for value in self.discovered if (u:=normalize(value)) and is_english_url(u) and page_url(u) not in self.excluded}
         folder=self.root/"inventory"
         dump(folder/"manifest.json",self.records)
         dump(folder/"check-state.json",self.checked)
@@ -333,7 +343,7 @@ class Archive:
         write(folder/"asset-urls.txt","\n".join(assets)+"\n")
         media=sorted(u for u in self.discovered if re.search(r"youtube(?:-nocookie)?\.com|youtu\.be|vimeo\.com|wistia\.",u))
         write(folder/"external-media-urls.txt","\n".join(media)+"\n")
-        expected=sorted({page_url(u) for u in self.discovered if self.allowed(page_url(u))}|set(self.records))
+        expected=sorted({page_url(u) for u in self.discovered if self.allowed(page_url(u))}|{u for u in self.records if is_english_url(u)})
         write(folder/"resource-urls.txt","\n".join(expected)+"\n")
         missing=[u for u in expected if u not in self.records]
         write(folder/"missing-urls.txt","\n".join(missing)+("\n" if missing else ""))
@@ -463,6 +473,12 @@ def download_assets(archive,args):
 
 
 def main():
+    # Compatibility entrypoint: all user-facing commands use the v2 pipeline.
+    from pipeline import main as pipeline_main
+    return pipeline_main()
+
+
+def legacy_main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("command",choices=["sync","verify","report","assets"])
     parser.add_argument("--root",type=Path,default=Path(__file__).resolve().parents[1])

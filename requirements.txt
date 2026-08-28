@@ -1,1 +1,5 @@
-# Python 3.11+ standard library only. No pip installation or LLM required.
+# Python 3.12. No API keys, Docker, LLMs, or hosted scraper subscription.
+beautifulsoup4==4.13.5
+markdownify==1.2.0
+playwright==1.62.0
+psutil==7.0.0

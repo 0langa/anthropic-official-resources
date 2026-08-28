@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "roots": [
     "https://platform.claude.com/docs",
     "https://academy.claude.com/",
@@ -22,8 +22,14 @@
     "https://claude.com/resources"
   ],
   "exports": [
-    {"url": "https://platform.claude.com/llms-full.txt", "format": "platform"},
-    {"url": "https://code.claude.com/docs/llms-full.txt", "format": "code"}
+    {
+      "url": "https://platform.claude.com/llms-full.txt",
+      "format": "platform"
+    },
+    {
+      "url": "https://code.claude.com/docs/llms-full.txt",
+      "format": "code"
+    }
   ],
   "indexes": [
     "https://platform.claude.com/sitemap.xml",
@@ -37,6 +43,33 @@
     "https://claude.com/sitemap.xml"
   ],
   "exclude_path_regex": "(?:^|/)(?:login|logout|auth|api/auth|verify|account|search)(?:/|$)",
-  "asset_hosts": ["academy.claude.com", "platform.claude.com", "code.claude.com", "support.claude.com", "www.anthropic.com", "anthropic.com", "claude.com", "cdn.prod.website-files.com", "assets.anthropic.com", "assets.claude.com", "www-cdn.anthropic.com", "mintcdn.com", "mintlify.s3.us-west-1.amazonaws.com"],
-  "discovery_note": "Public resources only. All discovered languages retained. Private learner state, authentication, verification records, and third-party sites are outside the archival boundary. Unlinked and undiscoverable URLs cannot be certified absent."
+  "asset_hosts": [
+    "academy.claude.com",
+    "platform.claude.com",
+    "code.claude.com",
+    "support.claude.com",
+    "www.anthropic.com",
+    "anthropic.com",
+    "claude.com",
+    "cdn.prod.website-files.com",
+    "assets.anthropic.com",
+    "assets.claude.com",
+    "www-cdn.anthropic.com",
+    "mintcdn.com",
+    "mintlify.s3.us-west-1.amazonaws.com"
+  ],
+  "discovery_note": "English public resources only. Locale path/query filtering is automatic; HTML language declarations are checked on retrieval. Unprefixed URLs are candidates, not proof of English content. No manual URL review required.",
+  "language": "en",
+  "pipeline": {
+    "request_delay_seconds": 1.0,
+    "timeout_seconds": 45,
+    "max_retries": 3,
+    "browser_workers": 1,
+    "minimum_free_memory_mb": 2048,
+    "max_page_bytes": 52428800,
+    "max_asset_bytes": 104857600,
+    "max_browser_tabs_per_page": 40,
+    "checkpoint_pages": 10,
+    "max_consecutive_host_errors": 5
+  }
 }
