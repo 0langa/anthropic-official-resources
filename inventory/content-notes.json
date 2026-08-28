@@ -2638,8 +2638,5 @@
   ],
   "https://support.claude.com/en/articles/10065433-install-claude-desktop": [
     "Native source; upstream MDX components retained."
-  ],
-  "https://www.anthropic.com/research/AI-assistance-coding-skills": [
-    "3 document/script/API requests blocked by scope or robots policy; inspect rendered output."
   ]
 }

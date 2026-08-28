@@ -1,7 +1,7 @@
 {
   "integrity_failures": [],
   "meaning": "Passing verifies only these live sample pages and the listed assertions, not every URL or all media.",
-  "passed": false,
+  "passed": true,
   "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
   "python": "3.12.14",
   "results": [
@@ -21,7 +21,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953588,
+        "checked_at": 1787954292,
         "http_status": 200,
         "message": "Native Markdown validated",
         "status": "complete"
@@ -44,7 +44,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953580,
+        "checked_at": 1787954284,
         "http_status": 200,
         "message": "Native Markdown validated",
         "status": "complete"
@@ -67,7 +67,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953578,
+        "checked_at": 1787954279,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -81,6 +81,7 @@
         "minimum_characters": true,
         "required_text": true,
         "retrieved": true,
+        "substantive_transcript_captured": true,
         "text_extraction_complete": true
       },
       "contains": [
@@ -89,9 +90,10 @@
       ],
       "minimum_characters": 1000,
       "passed": true,
+      "require_transcript": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953588,
+        "checked_at": 1787954291,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -114,7 +116,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953595,
+        "checked_at": 1787954298,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -137,7 +139,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953583,
+        "checked_at": 1787954286,
         "http_status": 200,
         "message": "Native Markdown validated",
         "status": "complete"
@@ -160,7 +162,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953582,
+        "checked_at": 1787954285,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -183,7 +185,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953585,
+        "checked_at": 1787954288,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -197,19 +199,19 @@
         "minimum_characters": true,
         "required_text": true,
         "retrieved": true,
-        "text_extraction_complete": false
+        "text_extraction_complete": true
       },
       "contains": [
         "coding"
       ],
       "minimum_characters": 500,
-      "passed": false,
+      "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953592,
+        "checked_at": 1787954295,
         "http_status": 200,
-        "message": "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/v1/projects/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/settings, https://assets.claude.ai/sdk/antalytics/latest.umd.js, https://www.googletagmanager.com/gtm.js",
-        "status": "partial"
+        "message": "HTML content and available panels extracted",
+        "status": "complete"
       },
       "url": "https://www.anthropic.com/research/AI-assistance-coding-skills"
     },
@@ -229,7 +231,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953579,
+        "checked_at": 1787954280,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -237,5 +239,5 @@
       "url": "https://claude.com/blog/best-practices-for-prompt-engineering"
     }
   ],
-  "tested_at_utc": "2026-08-28T21:46:35Z"
+  "tested_at_utc": "2026-08-28T21:58:18Z"
 }

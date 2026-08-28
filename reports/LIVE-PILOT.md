@@ -1,6 +1,6 @@
 # Live pilot
 
-Passed: **9/10**
+Passed: **10/10**
 
 | Category | Result | Characters | URL |
 | --- | --- | ---: | --- |
@@ -12,7 +12,7 @@ Passed: **9/10**
 | Help Center article | PASS | 6782 | https://support.claude.com/en/articles/10065433-install-claude-desktop |
 | Cookbook | PASS | 36847 | https://platform.claude.com/cookbook/capabilities-classification-guide |
 | Engineering | PASS | 21456 | https://www.anthropic.com/engineering/building-effective-agents |
-| Research | partial | 16534 | https://www.anthropic.com/research/AI-assistance-coding-skills |
+| Research | PASS | 16534 | https://www.anthropic.com/research/AI-assistance-coding-skills |
 | Claude blog | PASS | 28298 | https://claude.com/blog/best-practices-for-prompt-engineering |
 
 Passing verifies only these live sample pages and the listed assertions, not every URL or all media.

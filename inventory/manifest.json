@@ -112,7 +112,8 @@
     "source_url": "https://academy.claude.com/courses/claude-code-101/how-claude-code-works",
     "status": "archived",
     "text_validation": "complete",
-    "title": "How Claude Code works · Claude Code 101 · Claude Academy"
+    "title": "How Claude Code works · Claude Code 101 · Claude Academy",
+    "transcript_characters": 5781
   },
   "https://academy.claude.com/help/mcp": {
     "content_notes": [],
@@ -9846,16 +9847,14 @@
     "title": "Building Effective AI Agents \\ Anthropic"
   },
   "https://www.anthropic.com/research/AI-assistance-coding-skills": {
-    "content_notes": [
-      "3 document/script/API requests blocked by scope or robots policy; inspect rendered output."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
-    "path": "content/www.anthropic.com/research/AI-assistance-coding-skills/index.md",
-    "sha256": "1cd35d24828dd624341c9bffa1991c1f7c40dc3788cce20e14ac21b12e434345",
+    "path": "content/www.anthropic.com/research/AI-assistance-coding-skills/index--0fdcee56178e3cbc.md",
+    "sha256": "b5bad2af2ff75645b843f81c27c8c9c689d41b4c67d8eab6b6a3fcee1870648b",
     "source_url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "How AI assistance impacts the formation of coding skills \\ Anthropic"
   }
 }
