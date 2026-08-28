@@ -7,5 +7,7 @@
   ],
   "comparison": "Exact after trimming boundary whitespace",
   "remote_workflow_verified": false,
-  "full_website_coverage_verified": false
+  "full_website_coverage_verified": false,
+  "published_commit_verified": "a960ae9bf8c37d6c365558adc1262e36cc1243c6",
+  "remote_git_blob_hashes_matched": 915
 }

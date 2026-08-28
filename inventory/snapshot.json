@@ -3,6 +3,7 @@
   "code_export_pages": 191,
   "complete": false,
   "direct_http_error": "HTTP 403 in authoring environment",
+  "final_bulk_retry": "HTTP 504: MCP request timed out; no crawl ID or additional page data returned",
   "individual_scrape_limit": "10 requests per minute",
   "platform_export_generated": "2026-08-28T17:15:13.958Z",
   "platform_export_pages": 688,
