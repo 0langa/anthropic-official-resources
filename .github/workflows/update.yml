@@ -1,0 +1,53 @@
+name: Update official resources
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: official-resource-update
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test synchronizer
+        run: python -m unittest discover -s tests -v
+      - name: Refresh and resume
+        id: refresh
+        shell: bash
+        run: |
+          set +e
+          python tools/mirror.py sync --max-seconds 5400
+          first=$?
+          python tools/mirror.py sync --resume --max-seconds 12000
+          second=$?
+          echo "first=$first" >> "$GITHUB_OUTPUT"
+          echo "second=$second" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: Verify local integrity
+        run: python tools/mirror.py verify
+      - name: Commit retrieved changes and coverage
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for directory in content inventory html source-bundles assets; do
+            if [ -d "$directory" ]; then git add -- "$directory"; fi
+          done
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh official resources and coverage'
+            git push
+          fi
+      - name: Report remaining gaps
+        run: |
+          cat inventory/COVERAGE.md >> "$GITHUB_STEP_SUMMARY"
+          python tools/mirror.py report

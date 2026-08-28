@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "roots": [
+    "https://platform.claude.com/docs",
+    "https://academy.claude.com/",
+    "https://code.claude.com/docs",
+    "https://platform.claude.com/cookbook",
+    "https://support.claude.com/",
+    "https://www.anthropic.com/engineering",
+    "https://www.anthropic.com/research",
+    "https://www.anthropic.com/learn",
+    "https://www.anthropic.com/resources",
+    "https://www.anthropic.com/webinars",
+    "https://www.anthropic.com/news",
+    "https://www.anthropic.com/system-cards",
+    "https://www.anthropic.com/constitution",
+    "https://www.anthropic.com/transparency",
+    "https://www.anthropic.com/economic-index",
+    "https://www.anthropic.com/ai-fluency",
+    "https://www.anthropic.com/building-effective-ai-agents",
+    "https://claude.com/blog",
+    "https://claude.com/resources"
+  ],
+  "exports": [
+    {"url": "https://platform.claude.com/llms-full.txt", "format": "platform"},
+    {"url": "https://code.claude.com/docs/llms-full.txt", "format": "code"}
+  ],
+  "indexes": [
+    "https://platform.claude.com/sitemap.xml",
+    "https://platform.claude.com/llms.txt",
+    "https://academy.claude.com/sitemap.xml",
+    "https://code.claude.com/sitemap.xml",
+    "https://code.claude.com/docs/llms.txt",
+    "https://support.claude.com/sitemap.xml",
+    "https://support.claude.com/llms.txt",
+    "https://www.anthropic.com/sitemap.xml",
+    "https://claude.com/sitemap.xml"
+  ],
+  "exclude_path_regex": "(?:^|/)(?:login|logout|auth|api/auth|verify|account|search)(?:/|$)",
+  "asset_hosts": ["academy.claude.com", "platform.claude.com", "code.claude.com", "support.claude.com", "www.anthropic.com", "anthropic.com", "claude.com", "cdn.prod.website-files.com", "assets.anthropic.com", "assets.claude.com", "www-cdn.anthropic.com", "mintcdn.com", "mintlify.s3.us-west-1.amazonaws.com"],
+  "discovery_note": "Public resources only. All discovered languages retained. Private learner state, authentication, verification records, and third-party sites are outside the archival boundary. Unlinked and undiscoverable URLs cannot be certified absent."
+}

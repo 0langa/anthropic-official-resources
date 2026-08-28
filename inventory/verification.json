@@ -1,0 +1,11 @@
+{
+  "unit_tests_passed": 11,
+  "local_page_hashes_verified": 892,
+  "live_native_markdown_comparisons": [
+    "https://platform.claude.com/docs/en/home.md",
+    "https://platform.claude.com/docs/en/get-started.md"
+  ],
+  "comparison": "Exact after trimming boundary whitespace",
+  "remote_workflow_verified": false,
+  "full_website_coverage_verified": false
+}

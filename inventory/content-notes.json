@@ -1,0 +1,2642 @@
+{
+  "https://academy.claude.com/courses/claude-code-101/how-claude-code-works": [
+    "Public lesson transcript extracted; embedded video is linked, not copied."
+  ],
+  "https://code.claude.com/docs/en/accessibility": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/admin-setup": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/advisor": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/agent-loop": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/claude-code-features": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/cost-tracking": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/custom-tools": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/examples": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/file-checkpointing": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/hooks": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/hosting": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/mcp": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/migration-guide": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/modifying-system-prompts": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/observability": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/permissions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/plugins": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/python": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/quickstart": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/secure-deployment": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/session-storage": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/sessions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/skills": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/streaming-output": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/streaming-vs-single-mode": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/structured-outputs": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/subagents": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/todo-tracking": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/tool-search": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/troubleshooting": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/typescript": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/typescript-v2-preview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/user-input": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-teams": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-view": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agents": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/amazon-bedrock": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/analytics": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/artifacts": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/authentication": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/auto-mode-config": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/best-practices": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/champion-kit": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/changelog": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/channels": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/channels-reference": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/checkpointing": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/chrome": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/claude-apps-gateway": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/claude-apps-gateway-config": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/claude-apps-gateway-deploy": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/claude-apps-gateway-on-aws": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/claude-apps-gateway-on-gcp": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/claude-apps-gateway-spend-limits": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/claude-code-on-the-web": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/claude-directory": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/claude-platform-on-aws": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/claude-security": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/claude-tag": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/cli-reference": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/cloud-environments": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/code-review": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/commands": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/common-workflows": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/communications-kit": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/computer-use": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/context-window": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/corporate-launcher": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/costs": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/cross-session-messaging": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/data-usage": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/debug-your-config": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/deep-links": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/desktop": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/desktop-ios-simulator": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/desktop-linux": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/desktop-quickstart": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/desktop-scheduled-tasks": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/desktop-wsl": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/devcontainer": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/discover-plugins": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/env-vars": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/errors": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/fast-mode": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/feature-availability": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/features-overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/fullscreen": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/gateways": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/github-actions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/github-actions-cloud-providers": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/github-enterprise-server": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/gitlab-ci-cd": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/glossary": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/goal": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/google-vertex-ai": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/headless": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/hooks": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/hooks-guide": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/how-claude-code-works": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/interactive-mode": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/jetbrains": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/keybindings": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/large-codebases": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/legal-and-compliance": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/llm-gateway": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/llm-gateway-connect": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/llm-gateway-protocol": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/llm-gateway-rollout": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/managed-mcp": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/managed-settings": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/mcp": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/mcp-quickstart": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/memory": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/microsoft-foundry": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/mobile": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/model-config": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/monitoring-usage": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/network-config": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/output-styles": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/permission-modes": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/permissions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/platforms": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugin-dependencies": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugin-hints": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugin-marketplaces": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugin-relevance": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins-reference": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/prompt-caching": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/prompt-library": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/quickstart": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/remote-control": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/routines": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/sandbox-environments": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/sandboxing": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/scheduled-tasks": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/security": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/security-guidance": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/self-hosted-environments": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/self-hosted-environments-configuration": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/self-hosted-environments-deploy": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/self-hosted-environments-identity": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/self-hosted-environments-quickstart": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/self-hosted-environments-reference": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/self-hosted-environments-testing": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/server-managed-settings": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/sessions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/settings": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/settings-example": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/settings-reference": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/setup": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/skills": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/slack": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/statusline": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/sub-agents": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/terminal-config": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/third-party-integrations": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/tools-reference": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/troubleshoot-install": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/troubleshooting": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/ultrareview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/voice-dictation": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/vs-code": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/web-quickstart": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w13": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w14": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w15": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w16": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w17": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w18": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w19": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w20": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w21": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w22": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w23": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w24": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w25": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w26": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w27": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w28": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w29": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w30": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w32": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w33": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w34": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/index": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/workflows": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/worktrees": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/zero-data-retention": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/additional-resources": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/glossary": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/model-deprecations": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/models/choosing-a-model": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/models/migration-guide": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/models/model-ids-and-versions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/pricing": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/use-case-guides/content-moderation": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/use-case-guides/customer-support-chat": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/use-case-guides/legal-summarization": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/use-case-guides/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/use-case-guides/ticket-routing": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/claude-api-skill": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/enterprise": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/quickstart": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/mcp-connector": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/concepts": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/console": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/deploy-compose": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/deploy-helm": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/quickstart": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/reference": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/security": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/troubleshooting": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/remote-mcp-servers": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/bash-tool": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-tool": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/build-a-tool-using-agent": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/define-tools": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/handle-tool-calls": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/how-tool-use-works": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/manage-tool-context": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/parallel-tool-use": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/server-tools": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/strict-tool-use": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-combinations": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-reference": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-runner": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-use-with-prompt-caching": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/troubleshooting-tool-use": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics/artifacts": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics/artifacts/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics/chat_projects": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics/chat_projects/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics/connectors": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics/connectors/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics/cost": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics/cost/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics/cost/list_by_user": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics/plugins": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics/plugins/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics/retrieve_summaries": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics/skills": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics/skills/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics/usage": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics/usage/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics/usage/list_by_user": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics/users": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/analytics/users/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/api_keys": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/api_keys/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/api_keys/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/api_keys/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/cost_report": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/cost_report/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/external_keys": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/external_keys/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/external_keys/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/external_keys/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/external_keys/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/external_keys/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/external_keys/validate": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/federation_issuers": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/federation_issuers/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/federation_issuers/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/federation_issuers/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/federation_issuers/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/federation_issuers/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/federation_rules": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/federation_rules/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/federation_rules/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/federation_rules/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/federation_rules/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/federation_rules/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/federation_rules/workspaces": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/federation_rules/workspaces/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/federation_rules/workspaces/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/federation_rules/workspaces/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/invites": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/invites/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/invites/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/invites/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/invites/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/mcp_tunnels": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/mcp_tunnels/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/mcp_tunnels/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/mcp_tunnels/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/mcp_tunnels/reveal_token": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/mcp_tunnels/rotate_token": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/mcp_tunnels/tunnel_certificates": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/mcp_tunnels/tunnel_certificates/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/mcp_tunnels/tunnel_certificates/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/mcp_tunnels/tunnel_certificates/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/mcp_tunnels/tunnel_certificates/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/organizations": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/organizations/me": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/rate_limits": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/rate_limits/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/rbac_groups": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/rbac_groups/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/rbac_groups/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/rbac_groups/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/rbac_groups/members": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/rbac_groups/members/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/rbac_groups/members/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/rbac_groups/members/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/rbac_groups/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/rbac_groups/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/rbac_roles": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/rbac_roles/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/rbac_roles/permissions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/rbac_roles/permissions/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/rbac_roles/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/service_accounts": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/service_accounts/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/service_accounts/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/service_accounts/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/service_accounts/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/service_accounts/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/service_accounts/workspaces": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/service_accounts/workspaces/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/service_accounts/workspaces/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/service_accounts/workspaces/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/spend_limits": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/spend_limits/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/spend_limits/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/spend_limits/increase_requests": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/spend_limits/increase_requests/approve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/spend_limits/increase_requests/deny": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/spend_limits/increase_requests/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/spend_limits/increase_requests/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/spend_limits/list_effective": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/spend_limits/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/usage_report": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/usage_report/retrieve_claude_code": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/usage_report/retrieve_messages": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/users": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/users/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/users/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/users/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/users/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces/members": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces/members/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces/members/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces/members/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces/members/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces/members/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces/rate_limits": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces/rate_limits/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces/service_accounts": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces/service_accounts/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces/service_accounts/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces/service_accounts/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces/service_accounts/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces/service_accounts/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin/workspaces/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta-headers": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/agents": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/agents/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/agents/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/agents/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/agents/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/agents/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/agents/versions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/agents/versions/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/deployment_runs": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/deployment_runs/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/deployment_runs/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/deployments": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/deployments/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/deployments/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/deployments/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/deployments/pause": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/deployments/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/deployments/run": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/deployments/unpause": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/deployments/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/dreams": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/dreams/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/dreams/cancel": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/dreams/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/dreams/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/dreams/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/environments": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/environments/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/environments/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/environments/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/environments/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/environments/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/environments/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/environments/work": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/environments/work/ack": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/environments/work/heartbeat": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/environments/work/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/environments/work/poll": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/environments/work/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/environments/work/stats": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/environments/work/stop": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/environments/work/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/files": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/files/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/files/download": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/files/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/files/retrieve_metadata": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/files/upload": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/memories": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/memories/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/memories/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/memories/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/memories/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/memories/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/memory_versions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/memory_versions/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/memory_versions/redact": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/memory_versions/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/messages": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/messages/batches": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/messages/batches/cancel": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/messages/batches/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/messages/batches/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/messages/batches/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/messages/batches/results": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/messages/batches/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/messages/count_tokens": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/messages/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/models": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/models/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/models/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/api_keys": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/api_keys/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/api_keys/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/api_keys/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/external_keys": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/external_keys/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/external_keys/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/external_keys/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/external_keys/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/external_keys/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/external_keys/validate": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/federation": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/federation/issuers": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/federation/issuers/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/federation/issuers/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/federation/issuers/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/federation/issuers/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/federation/issuers/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/federation/rules": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/federation/rules/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/federation/rules/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/federation/rules/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/federation/rules/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/federation/rules/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/federation/rules/workspaces": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/federation/rules/workspaces/add": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/federation/rules/workspaces/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/federation/rules/workspaces/remove": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/invites": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/invites/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/invites/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/invites/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/invites/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/rate_limits": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/rate_limits/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/service_accounts": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/service_accounts/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/service_accounts/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/service_accounts/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/service_accounts/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/service_accounts/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/service_accounts/workspaces": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/service_accounts/workspaces/add": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/service_accounts/workspaces/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/service_accounts/workspaces/remove": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/users": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/users/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/users/remove": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/users/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/users/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/members": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/members/add": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/members/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/members/remove": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/members/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/members/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/rate_limits": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/rate_limits/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/service_accounts": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/service_accounts/add": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/service_accounts/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/service_accounts/remove": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/service_accounts/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/service_accounts/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/events": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/events/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/events/send": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/events/stream": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/resources": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/resources/add": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/resources/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/resources/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/resources/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/resources/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/threads": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/threads/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/threads/events": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/threads/events/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/threads/events/stream": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/threads/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/threads/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/skills": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/skills/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/skills/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/skills/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/skills/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/skills/versions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/skills/versions/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/skills/versions/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/skills/versions/download": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/skills/versions/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/skills/versions/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/tunnels": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/tunnels/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/tunnels/certificates": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/tunnels/certificates/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/tunnels/certificates/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/tunnels/certificates/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/tunnels/certificates/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/tunnels/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/tunnels/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/tunnels/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/tunnels/reveal_token": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/tunnels/rotate_token": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/user_profiles": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/user_profiles/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/user_profiles/create_enrollment_url": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/user_profiles/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/user_profiles/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/user_profiles/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/vaults": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/vaults/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/vaults/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/vaults/credentials": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/vaults/credentials/archive": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/vaults/credentials/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/vaults/credentials/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/vaults/credentials/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/vaults/credentials/mcp_oauth_validate": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/vaults/credentials/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/vaults/credentials/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/vaults/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/vaults/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/vaults/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/vaults/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/webhooks": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/claude-code/routines-fire": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/claude-platform-on-aws-iam-actions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/completions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/completions/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/activities": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/activities/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/artifacts": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/artifacts/download": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/artifacts/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/chats": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/chats/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/chats/files": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/chats/files/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/chats/files/download": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/chats/files/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/chats/generated_files": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/chats/generated_files/download": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/chats/generated_files/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/chats/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/chats/messages": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/chats/messages/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/projects": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/projects/attachments": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/projects/attachments/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/projects/collaborators": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/projects/collaborators/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/projects/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/projects/documents": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/projects/documents/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/projects/documents/metadata": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/projects/documents/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/projects/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/projects/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/sessions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/sessions/local": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/sessions/local/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/sessions/local/messages": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/sessions/local/messages/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/sessions/local/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/sessions/remote": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/sessions/remote/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/sessions/remote/messages": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/apps/sessions/remote/messages/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/code": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/code/artifacts": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/code/artifacts/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/code/artifacts/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/code/artifacts/retrieve_version": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/groups": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/groups/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/groups/members": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/groups/members/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/groups/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/organizations": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/organizations/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/organizations/roles": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/organizations/roles/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/organizations/roles/permissions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/organizations/roles/permissions/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/organizations/roles/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/organizations/settings": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/organizations/settings/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/organizations/users": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/organizations/users/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/errors": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/files": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/files/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/files/download": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/files/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/files/retrieve_metadata": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/files/upload": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/ip-addresses": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/messages": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/messages/batches": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/messages/batches/cancel": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/messages/batches/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/messages/batches/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/messages/batches/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/messages/batches/results": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/messages/batches/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/messages/count_tokens": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/messages/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/models": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/models/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/models/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/rate-limits": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/service-tiers": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/skills": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/skills/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/skills/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/skills/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/skills/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/skills/versions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/skills/versions/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/skills/versions/delete": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/skills/versions/list": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/skills/versions/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/supported-regions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/versioning": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/batch-processing": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/cache-diagnostics": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/citations": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-legacy": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/compaction": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/context-editing": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/context-windows": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/effort": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/embeddings": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/extended-thinking": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/fallback-credit": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/fast-mode": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/files": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-effort-example": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/multilingual-support": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/pdf-support": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/prompt-caching": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-4-8": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/search-results": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/skills-guide": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/streaming": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/structured-outputs": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/task-budgets": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/thinking": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/thinking-tool-workflows": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/thinking-troubleshooting": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/token-counting": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/vision": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/vision-coordinates": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/working-with-messages": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/claude_api_primer": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/cli-sdks-libraries/cli/authentication": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/cli-sdks-libraries/cli/quickstart": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/cli-sdks-libraries/cli/scripting": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/cli-sdks-libraries/cli/using": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/openai-sdk": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/cli-sdks-libraries/middleware": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/cli-sdks-libraries/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/csharp": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/go": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/java": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/php": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/python": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/ruby": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/typescript": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/get-api-key": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/get-started": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/home": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/intro": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/access-transparency": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/admin-api": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/admin-api-keys": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/analytics-api": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/api-and-data-retention": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/app-attest": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/authentication": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/cmek": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/cmek-aws-kms": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/cmek-azure-key-vault": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/cmek-google-cloud-kms": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/compliance-activity-feed": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/compliance-api": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/compliance-api-access": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/compliance-content-data": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/compliance-errors": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/compliance-faq": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/compliance-integration-patterns": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/compliance-org-data": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/compliance-sessions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/data-residency": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/inference-hooks": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/inference-hooks-configuration": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/inference-hooks-endpoint": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/rate-limits-api": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/spend-limits-api": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/usage-cost-api": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/user-management": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/wif-admin-api": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/wif-providers/aws": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/wif-providers/azure": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/wif-providers/gcp": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/wif-providers/github-actions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/wif-providers/kubernetes": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/wif-providers/okta": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/wif-providers/spiffe": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/wif-reference": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/workload-identity-federation": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/workspaces": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/agent-setup": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/budgets": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/cloud-sandboxes-reference": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/define-outcomes": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/dreams": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/environments": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/events-and-streaming": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/files": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/github": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/mcp-connector": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/memory": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/migration": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/onboarding": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/permission-policies": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/quickstart": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/reference": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/scheduled-deployments": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-security": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/session-operations": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/sessions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/skills": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/tools": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/vaults": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/webhooks": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/fable-5/introducing-claude-fable-5-and-claude-mythos-5": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/fable-5/migration-guide": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/fable-5/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/haiku-4-5/migration-guide": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/haiku-4-5/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/mythos-5/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/opus-4-5/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/opus-4-6/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/opus-4-7/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/opus-4-8/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/opus-5/migration-guide": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/opus-5/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/opus-5/whats-new-opus-5": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/sonnet-4-5/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/sonnet-4-6/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/sonnet-5/migration-guide": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/sonnet-5/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/sonnet-5/whats-new-sonnet-5": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-3": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-3-5": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-4-5": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-3": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-1": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-5": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-6": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-7": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-8": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-5": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-3-5": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-3-7": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4-5": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4-6": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/resources/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/test-and-evaluate/develop-tests": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-latency": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-prompt-leak": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ]
+}

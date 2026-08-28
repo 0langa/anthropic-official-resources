@@ -1,0 +1,11 @@
+{
+  "bulk_crawl_error": "HTTP 429",
+  "code_export_pages": 191,
+  "complete": false,
+  "direct_http_error": "HTTP 403 in authoring environment",
+  "individual_scrape_limit": "10 requests per minute",
+  "platform_export_generated": "2026-08-28T17:15:13.958Z",
+  "platform_export_pages": 688,
+  "retrieval_date": "2026-08-28",
+  "transport": "Firecrawl connector, maxAge=0"
+}

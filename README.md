@@ -40,12 +40,15 @@ Requires Python 3.11+ and an internet connection. No API key, subscription, pip 
 python tools/mirror.py sync --resume
 python tools/mirror.py sync
 python tools/mirror.py verify
+python tools/mirror.py assets
 python -m unittest discover -s tests -v
 ```
 
 `sync --resume` populates missing pages while refreshing the two official exports. Plain `sync` also refreshes previously archived pages. Each run rediscovers sitemap indexes, llms indexes, configured roots, and linked resource pages. Conditional requests use ETag/Last-Modified where supplied, and byte-identical files are not rewritten. There is no blanket exclusion of translated languages.
 
 Requests are sequential by default. 429/temporary server errors retry with bounded backoff; robots.txt is honored by direct retrieval. The cache is local and ignored by Git. Files are written atomically. Progress is checkpointed every ten pages. `--limit N` or `--max-seconds N` explicitly bounds a run; a bounded run is not a completeness claim. `--max-errors 30` stops a failing run safely. On deletion/404, old content is retained with an error rather than silently destroyed; review `errors.json` before treating retained content as current.
+
+`assets` is optional and downloads only explicitly linked files on configured content hosts. It does not fetch third-party videos or convert PDF/image contents to Markdown. The daily workflow updates textual pages, not asset binaries. Per-URL check state prevents each bounded daily run from always beginning at the same page; pages omitted from a newer full-text export are rechecked individually.
 
 Exit codes: `0` means no missing discovered pages and no live retrieval errors for sync/report; `1` means a verification failure or fatal exception; `2` means the archive remains incomplete. Even exit 0 does not certify dynamic/media fidelity or discovery of unlinked pages. `verify` checks local hashes and path collisions only; it is not a live completeness check.
 
