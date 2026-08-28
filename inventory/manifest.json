@@ -122,6 +122,30 @@
     "status": "archived",
     "title": "Use Claude Academy from Claude · Claude Academy"
   },
+  "https://academy.claude.com/tutorials/building-a-powerpoint-with-claude": {
+    "content_notes": [
+      "2 document/script/API requests blocked by scope or robots policy; inspect rendered output."
+    ],
+    "format": "browser-html",
+    "language": "en",
+    "path": "content/academy.claude.com/tutorials/building-a-powerpoint-with-claude/index.md",
+    "sha256": "1e8f84948c868133543e1e4fef38ffb16237a921bbe67bbf19a1d681c823f9c2",
+    "source_url": "https://academy.claude.com/tutorials/building-a-powerpoint-with-claude",
+    "status": "archived",
+    "text_validation": "partial",
+    "title": "Building a PowerPoint with Claude · Claude Academy"
+  },
+  "https://claude.com/blog/best-practices-for-prompt-engineering": {
+    "content_notes": [],
+    "format": "html-derived",
+    "language": "en",
+    "path": "content/claude.com/blog/best-practices-for-prompt-engineering/index.md",
+    "sha256": "0ff16b4709df1e4c94df7c7c634ad3a0c1573a457f23262cd75afb77b297d6c8",
+    "source_url": "https://claude.com/blog/best-practices-for-prompt-engineering",
+    "status": "archived",
+    "text_validation": "complete",
+    "title": "Prompt engineering best practices for 2026 | Claude by Anthropic"
+  },
   "https://code.claude.com/docs/en/accessibility": {
     "content_notes": [
       "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -1444,14 +1468,13 @@
   },
   "https://code.claude.com/docs/en/overview": {
     "content_notes": [
-      "Contains upstream MDX/components; Markdown is not a visual website replica."
+      "Native source; upstream MDX components retained."
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/overview/index.md",
-    "sha256": "baa1e8d76f3f2b0abfc09a589221d5f0ecf8b5d922388e466e95a647e5fa7846",
-    "source_url": "https://code.claude.com/docs/llms-full.txt",
-    "status": "archived",
-    "title": "Overview"
+    "sha256": "0d69a0a482304465ee648063bf4b88d2e8511aa9d348ad4fcee98f04b3bf7e2d",
+    "source_url": "https://code.claude.com/docs/en/overview.md",
+    "status": "archived"
   },
   "https://code.claude.com/docs/en/permission-modes": {
     "content_notes": [
@@ -2222,6 +2245,17 @@
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Zero data retention"
+  },
+  "https://platform.claude.com/cookbook/capabilities-classification-guide": {
+    "content_notes": [],
+    "format": "html-derived",
+    "language": "en",
+    "path": "content/platform.claude.com/cookbook/capabilities-classification-guide/index.md",
+    "sha256": "1300bdf54241d84846a33fe7fd28675731b98af3d7e92d41167a815102e9557f",
+    "source_url": "https://platform.claude.com/cookbook/capabilities-classification-guide",
+    "status": "archived",
+    "text_validation": "complete",
+    "title": "Classification with Claude | Claude Cookbook"
   },
   "https://platform.claude.com/docs/en/about-claude/additional-resources": {
     "content_notes": [
@@ -8517,14 +8551,13 @@
   },
   "https://platform.claude.com/docs/en/get-started": {
     "content_notes": [
-      "Contains upstream MDX/components; Markdown is not a visual website replica."
+      "Native source; upstream MDX components retained."
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/get-started/index.md",
     "sha256": "d65f1b8265b31c2bc1efb2f8dd0c0e86f16c6e956bcabbc70f11c5467aa2359f",
-    "source_url": "https://platform.claude.com/llms-full.txt",
-    "status": "archived",
-    "title": "Get started with Claude"
+    "source_url": "https://platform.claude.com/docs/en/get-started.md",
+    "status": "archived"
   },
   "https://platform.claude.com/docs/en/home": {
     "content_notes": [
@@ -9790,5 +9823,39 @@
     "source_url": "https://platform.claude.com/llms-full.txt",
     "status": "archived",
     "title": "Reduce prompt leak"
+  },
+  "https://support.claude.com/en/articles/10065433-install-claude-desktop": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/support.claude.com/en/articles/10065433-install-claude-desktop/index.md",
+    "sha256": "3b1276e778ae412978a5c172ecf62dd66e4628cb67204ee9bd3e78cd31b419bf",
+    "source_url": "https://support.claude.com/en/articles/10065433-install-claude-desktop.md",
+    "status": "archived"
+  },
+  "https://www.anthropic.com/engineering/building-effective-agents": {
+    "content_notes": [],
+    "format": "html-derived",
+    "language": "en",
+    "path": "content/www.anthropic.com/engineering/building-effective-agents/index.md",
+    "sha256": "2b2359bf706e3bebd8c28327ec06e6ac91df948fdc17a8d34cc05c5f914fc998",
+    "source_url": "https://www.anthropic.com/engineering/building-effective-agents",
+    "status": "archived",
+    "text_validation": "complete",
+    "title": "Building Effective AI Agents \\ Anthropic"
+  },
+  "https://www.anthropic.com/research/AI-assistance-coding-skills": {
+    "content_notes": [
+      "3 document/script/API requests blocked by scope or robots policy; inspect rendered output."
+    ],
+    "format": "browser-html",
+    "language": "en",
+    "path": "content/www.anthropic.com/research/AI-assistance-coding-skills/index.md",
+    "sha256": "1cd35d24828dd624341c9bffa1991c1f7c40dc3788cce20e14ac21b12e434345",
+    "source_url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
+    "status": "archived",
+    "text_validation": "partial",
+    "title": "How AI assistance impacts the formation of coding skills \\ Anthropic"
   }
 }

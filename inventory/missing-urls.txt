@@ -208,6 +208,7 @@ https://academy.claude.com/courses/claude-101/what-s-next
 https://academy.claude.com/courses/claude-101/working-with-skills
 https://academy.claude.com/courses/claude-101/your-first-conversation-with-claude
 https://academy.claude.com/courses/claude-code-101
+https://academy.claude.com/courses/claude-code-101/badge
 https://academy.claude.com/courses/claude-code-101/code-review
 https://academy.claude.com/courses/claude-code-101/context-management
 https://academy.claude.com/courses/claude-code-101/course-quiz
@@ -459,6 +460,7 @@ https://academy.claude.com/courses/teaching-ai-fluency/how-do-we-assess-the-4ds
 https://academy.claude.com/courses/teaching-ai-fluency/the-delegation-diligence-loop
 https://academy.claude.com/courses/teaching-ai-fluency/the-description-discernment-loop
 https://academy.claude.com/courses/teaching-ai-fluency/welcome-approaches-to-teaching-ai-fluency
+https://academy.claude.com/favicon.ico
 https://academy.claude.com/help/faq
 https://academy.claude.com/mcp
 https://academy.claude.com/mcp(opens
@@ -476,10 +478,10 @@ https://academy.claude.com/products/cowork/tutorials
 https://academy.claude.com/products/platform
 https://academy.claude.com/products/tag
 https://academy.claude.com/start
+https://academy.claude.com/start)[All
 https://academy.claude.com/tutorials
 https://academy.claude.com/tutorials/a-discussion-guide-for-the-ai-fluency-index
 https://academy.claude.com/tutorials/best-practices-using-claude-tag
-https://academy.claude.com/tutorials/building-a-powerpoint-with-claude
 https://academy.claude.com/tutorials/can-you-trust-what-ai-tells-you
 https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat
 https://academy.claude.com/tutorials/choosing-the-right-claude-model
@@ -541,6 +543,7 @@ https://academy.claude.com/tutorials/tasks-to-try-with-claude-tag-in-your-worksp
 https://academy.claude.com/tutorials/teach-claude-your-way-of-working-using-skills
 https://academy.claude.com/tutorials/the-4-ds-of-ai-fluency-behavioral-indicators
 https://academy.claude.com/tutorials/the-4-properties-of-ai
+https://academy.claude.com/tutorials/the-4-properties-of-ai)[
 https://academy.claude.com/tutorials/the-ai-fluency-index
 https://academy.claude.com/tutorials/tokens-and-embeddings
 https://academy.claude.com/tutorials/troubleshooting-skills
@@ -751,8 +754,13 @@ https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-cod
 https://claude.com/blog/ai-code-migration
 https://claude.com/blog/auto-mode
 https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude
-https://claude.com/blog/best-practices-for-prompt-engineering
+https://claude.com/blog/best-practices-for-prompt-engineering)How
+https://claude.com/blog/best-practices-for-prompt-engineering)Next
+https://claude.com/blog/best-practices-for-prompt-engineering)Prev
+https://claude.com/blog/best-practices-for-prompt-engineering)Self-service
+https://claude.com/blog/best-practices-for-prompt-engineering)Subscribe
 https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them
+https://claude.com/blog/category/agents
 https://claude.com/blog/ciso-guide-to-agentic-ai
 https://claude.com/blog/claude-model-and-effort-level-in-claude-code
 https://claude.com/blog/getting-started-with-loops
@@ -762,14 +770,23 @@ https://claude.com/blog/how-anthropic-uses-claude-cybersecurity
 https://claude.com/blog/how-anthropic-uses-claude-legal
 https://claude.com/blog/how-anthropic-uses-claude-marketing
 https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start
+https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate
+https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate)How
+https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude
+https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How
 https://claude.com/blog/improved-web-search-with-dynamic-filtering
 https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills
 https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything
+https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions
+https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions)Self-service
 https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more
 https://claude.com/blog/the-advisor-strategy
+https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models
 https://claude.com/blog/whats-new-in-claude-managed-agents
 https://claude.com/resources
+https://claude.com/resources/tutorials
 https://claude.com/resources/tutorials/claude-enterprise-administrator-guide
+https://claude.com/resources/use-cases
 https://code.claude.com/docs
 https://code.claude.com/docs/_llms/cn
 https://code.claude.com/docs/_llms/de
@@ -813,7 +830,8 @@ https://code.claude.com/docs/mcp
 https://code.claude.com/docs/quickstart
 https://platform.claude.com/cookbook
 https://platform.claude.com/cookbook/
-https://platform.claude.com/cookbook/capabilities-classification-guide
+https://platform.claude.com/cookbook/)[View
+https://platform.claude.com/cookbook/?category=RAG+%26+Retrieval
 https://platform.claude.com/cookbook/capabilities-content-moderation-guide
 https://platform.claude.com/cookbook/capabilities-contextual-embeddings-guide
 https://platform.claude.com/cookbook/capabilities-knowledge-graph-guide
@@ -829,6 +847,7 @@ https://platform.claude.com/cookbook/claude-agent-sdk-05-building-a-session-brow
 https://platform.claude.com/cookbook/claude-agent-sdk-06-the-vulnerability-detection-agent
 https://platform.claude.com/cookbook/claude-agent-sdk-07-hosting-the-agent
 https://platform.claude.com/cookbook/claude-agent-sdk-08-dynamic-workflows
+https://platform.claude.com/cookbook/claude-favicon.ico
 https://platform.claude.com/cookbook/coding-prompting-for-frontend-aesthetics
 https://platform.claude.com/cookbook/cost-optimization-cost-optimization
 https://platform.claude.com/cookbook/evals-agentic-search-reproduce-agentic-search-benchmarks
@@ -917,6 +936,7 @@ https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-6
 https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-7
 https://platform.claude.com/docs/en/agent-sdk/migration-guide
 https://platform.claude.com/docs/en/agent-sdk/migration-guide](https://platform.claude.com/docs/en/agent-sdk/migration-guide
+https://platform.claude.com/docs/en/agent-sdk/overview
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/DOCX-JS
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/EXAMPLES
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/FORMS
@@ -1044,6 +1064,7 @@ https://platform.claude.com/docs/en/manage-claude/workspaces)-level
 https://platform.claude.com/docs/en/managed-agents/2000
 https://platform.claude.com/docs/en/managed-agents/agent-setup)**:
 https://platform.claude.com/docs/en/managed-agents/environments)**:
+https://platform.claude.com/docs/en/managed-agents/overview)*
 https://platform.claude.com/docs/en/managed-agents/sessions)**:
 https://platform.claude.com/docs/en/mcp
 https://platform.claude.com/docs/en/release-notes/api
@@ -1057,7 +1078,6 @@ https://support.claude.com/en/articles/10015870-what-certifications-has-anthropi
 https://support.claude.com/en/articles/10023638-why-am-i-receiving-an-output-blocked-by-content-filtering-policy-error
 https://support.claude.com/en/articles/10023646-i-think-a-user-is-infringing-my-copyright-or-other-intellectual-property-how-do-i-report-it
 https://support.claude.com/en/articles/10035659-where-can-i-learn-more-about-anthropic-s-privacy-practices
-https://support.claude.com/en/articles/10065433-install-claude-desktop
 https://support.claude.com/en/articles/10065434-use-dictation-on-claude-mobile
 https://support.claude.com/en/articles/10166901-use-google-workspace-connectors
 https://support.claude.com/en/articles/10167454-use-the-github-integration
@@ -1086,6 +1106,7 @@ https://support.claude.com/en/articles/10684626-enable-and-use-web-search
 https://support.claude.com/en/articles/10684638-report-block-and-remove-content-from-claude
 https://support.claude.com/en/articles/10769299-how-to-use-claude-in-your-preferred-language
 https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop
+https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)**
 https://support.claude.com/en/articles/11049741-what-is-the-max-plan
 https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan
 https://support.claude.com/en/articles/11049762-choose-a-claude-plan
@@ -1199,6 +1220,8 @@ https://support.claude.com/en/articles/13200993-restrict-access-to-claude-with-i
 https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans
 https://support.claude.com/en/articles/13325567-account-management-faqs
 https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork
+https://support.claude.com/en/articles/13345190-get-started-with-cowork
+https://support.claude.com/en/articles/13345190-get-started-with-cowork)**
 https://support.claude.com/en/articles/13346458-customizing-your-console-appearance-settings
 https://support.claude.com/en/articles/13346720-export-your-organization-s-data
 https://support.claude.com/en/articles/13364135-use-claude-cowork-safely
@@ -1471,7 +1494,6 @@ https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues
 https://www.anthropic.com/engineering/advanced-tool-use
 https://www.anthropic.com/engineering/april-23-postmortem
 https://www.anthropic.com/engineering/building-c-compiler
-https://www.anthropic.com/engineering/building-effective-agents
 https://www.anthropic.com/engineering/claude-code-auto-mode
 https://www.anthropic.com/engineering/claude-code-best-practices
 https://www.anthropic.com/engineering/claude-code-sandboxing
@@ -1488,6 +1510,7 @@ https://www.anthropic.com/engineering/harness-design-long-running-apps
 https://www.anthropic.com/engineering/how-we-contain-claude
 https://www.anthropic.com/engineering/infrastructure-noise
 https://www.anthropic.com/engineering/managed-agents
+https://www.anthropic.com/engineering/managed-agents)*
 https://www.anthropic.com/engineering/multi-agent-research-system
 https://www.anthropic.com/engineering/swe-bench-sonnet
 https://www.anthropic.com/engineering/writing-tools-for-agents
@@ -1768,6 +1791,7 @@ https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zea
 https://www.anthropic.com/news/third-party-testing
 https://www.anthropic.com/news/thoughts-on-america-s-ai-action-plan
 https://www.anthropic.com/news/tino-cuellar
+https://www.anthropic.com/news/tool-use-ga
 https://www.anthropic.com/news/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models
 https://www.anthropic.com/news/towards-understanding-sycophancy-in-language-models
 https://www.anthropic.com/news/uk-ai-safety-summit
@@ -1786,7 +1810,6 @@ https://www.anthropic.com/news/zoom-partnership-and-investment
 https://www.anthropic.com/research
 https://www.anthropic.com/research/2028-ai-leadership
 https://www.anthropic.com/research/81k-economics
-https://www.anthropic.com/research/AI-assistance-coding-skills
 https://www.anthropic.com/research/Claude-accelerates-protein-design
 https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench
 https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment

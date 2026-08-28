@@ -2,6 +2,9 @@
   "https://academy.claude.com/courses/claude-code-101/how-claude-code-works": [
     "Public lesson transcript extracted; embedded video is linked, not copied."
   ],
+  "https://academy.claude.com/tutorials/building-a-powerpoint-with-claude": [
+    "2 document/script/API requests blocked by scope or robots policy; inspect rendered output."
+  ],
   "https://code.claude.com/docs/en/accessibility": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
@@ -363,7 +366,7 @@
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://code.claude.com/docs/en/overview": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/permission-modes": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -2292,7 +2295,7 @@
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://platform.claude.com/docs/en/get-started": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/home": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -2638,5 +2641,11 @@
   ],
   "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-prompt-leak": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://support.claude.com/en/articles/10065433-install-claude-desktop": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://www.anthropic.com/research/AI-assistance-coding-skills": [
+    "3 document/script/API requests blocked by scope or robots policy; inspect rendered output."
   ]
 }

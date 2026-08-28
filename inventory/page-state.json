@@ -1,0 +1,58 @@
+{
+  "https://academy.claude.com/tutorials/building-a-powerpoint-with-claude": {
+    "attempts": 1,
+    "checked_at": 1787953295,
+    "http_status": 200,
+    "message": "2 document/script/API requests blocked by scope or robots policy; inspect rendered output.",
+    "status": "partial"
+  },
+  "https://claude.com/blog/best-practices-for-prompt-engineering": {
+    "attempts": 1,
+    "checked_at": 1787953278,
+    "http_status": 200,
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
+  },
+  "https://code.claude.com/docs/en/overview": {
+    "attempts": 1,
+    "checked_at": 1787953279,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/cookbook/capabilities-classification-guide": {
+    "attempts": 1,
+    "checked_at": 1787953281,
+    "http_status": 200,
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/get-started": {
+    "attempts": 1,
+    "checked_at": 1787953288,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://support.claude.com/en/articles/10065433-install-claude-desktop": {
+    "attempts": 1,
+    "checked_at": 1787953282,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://www.anthropic.com/engineering/building-effective-agents": {
+    "attempts": 1,
+    "checked_at": 1787953284,
+    "http_status": 200,
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
+  },
+  "https://www.anthropic.com/research/AI-assistance-coding-skills": {
+    "attempts": 1,
+    "checked_at": 1787953292,
+    "http_status": 200,
+    "message": "3 document/script/API requests blocked by scope or robots policy; inspect rendered output.",
+    "status": "partial"
+  }
+}

@@ -2,8 +2,8 @@
   "integrity_failures": [],
   "meaning": "Passing verifies only these live sample pages and the listed assertions, not every URL or all media.",
   "passed": false,
-  "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
-  "python": "3.12.13",
+  "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+  "python": "3.12.14",
   "results": [
     {
       "category": "Platform native Markdown",
@@ -21,7 +21,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787952809,
+        "checked_at": 1787953288,
         "http_status": 200,
         "message": "Native Markdown validated",
         "status": "complete"
@@ -44,7 +44,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787952755,
+        "checked_at": 1787953279,
         "http_status": 200,
         "message": "Native Markdown validated",
         "status": "complete"
@@ -67,16 +67,16 @@
       "passed": false,
       "state": {
         "attempts": 1,
-        "checked_at": 1787952728,
+        "checked_at": 1787953277,
         "http_status": 200,
-        "message": "Browser failed: BrowserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-linux64/chrome-headless-shell",
+        "message": "1 document/script/API requests blocked by scope or robots policy; inspect rendered output.",
         "status": "partial"
       },
       "url": "https://academy.claude.com/"
     },
     {
       "category": "Academy lesson and transcript",
-      "characters": 3034,
+      "characters": 11768,
       "checks": {
         "minimum_characters": true,
         "required_text": true,
@@ -91,16 +91,16 @@
       "passed": false,
       "state": {
         "attempts": 1,
-        "checked_at": 1787952802,
+        "checked_at": 1787953288,
         "http_status": 200,
-        "message": "Browser failed: 'NoneType' object has no attribute 'new_context'; Transcript control present, but transcript capture could not be confirmed.",
+        "message": "2 document/script/API requests blocked by scope or robots policy; inspect rendered output.",
         "status": "partial"
       },
       "url": "https://academy.claude.com/courses/claude-code-101/how-claude-code-works"
     },
     {
       "category": "Academy tutorial",
-      "characters": 542,
+      "characters": 766,
       "checks": {
         "minimum_characters": true,
         "required_text": true,
@@ -114,9 +114,9 @@
       "passed": false,
       "state": {
         "attempts": 1,
-        "checked_at": 1787952822,
+        "checked_at": 1787953295,
         "http_status": 200,
-        "message": "Browser failed: 'NoneType' object has no attribute 'new_context'",
+        "message": "2 document/script/API requests blocked by scope or robots policy; inspect rendered output.",
         "status": "partial"
       },
       "url": "https://academy.claude.com/tutorials/building-a-powerpoint-with-claude"
@@ -137,7 +137,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787952782,
+        "checked_at": 1787953282,
         "http_status": 200,
         "message": "Native Markdown validated",
         "status": "complete"
@@ -160,7 +160,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787952768,
+        "checked_at": 1787953281,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -183,7 +183,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787952795,
+        "checked_at": 1787953284,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -192,7 +192,7 @@
     },
     {
       "category": "Research",
-      "characters": 16522,
+      "characters": 16534,
       "checks": {
         "minimum_characters": true,
         "required_text": true,
@@ -206,9 +206,9 @@
       "passed": false,
       "state": {
         "attempts": 1,
-        "checked_at": 1787952815,
+        "checked_at": 1787953292,
         "http_status": 200,
-        "message": "Browser failed: 'NoneType' object has no attribute 'new_context'",
+        "message": "3 document/script/API requests blocked by scope or robots policy; inspect rendered output.",
         "status": "partial"
       },
       "url": "https://www.anthropic.com/research/AI-assistance-coding-skills"
@@ -229,7 +229,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787952742,
+        "checked_at": 1787953278,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -237,5 +237,5 @@
       "url": "https://claude.com/blog/best-practices-for-prompt-engineering"
     }
   ],
-  "tested_at_utc": "2026-08-28T21:33:42Z"
+  "tested_at_utc": "2026-08-28T21:41:35Z"
 }
