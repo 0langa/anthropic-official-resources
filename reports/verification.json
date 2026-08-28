@@ -1,0 +1,31 @@
+{
+  "archived_pages": 898,
+  "ci_run": "https://github.com/0langa/anthropic-official-resources/actions/runs/33214650661",
+  "english_resource_candidates": 3102,
+  "fresh_export_pages_with_changed_bytes": 1,
+  "full_archive_complete": false,
+  "hash_failures": [],
+  "limitations": [
+    "Textual content tested; videos/audio remain links and quiz states are not fully captured.",
+    "No manual URL review performed.",
+    "Scheduled production workflow is configured; its first scheduled run has not been verified."
+  ],
+  "linux_tests": "passed",
+  "live_discovery": {
+    "index_errors": 0,
+    "native_pages": 879,
+    "time_budget_hit": false
+  },
+  "live_page_pilot": {
+    "academy_transcript_assertion": "passed",
+    "passed": 10,
+    "total": 10
+  },
+  "local_hashes_verified": 898,
+  "missing_pages": 2204,
+  "pipeline_commit": "ec3930a5b3f38abd0268157e84f677cd277e3d89",
+  "tested_at_utc": "2026-08-28T22:07:49Z",
+  "tests_per_os": 31,
+  "windows_launcher": "passed",
+  "windows_tests": "passed"
+}

@@ -1,0 +1,10 @@
+{
+  "elapsed_seconds": 120.71,
+  "english_resource_candidates": 2843,
+  "errors": {},
+  "http_requests": 17,
+  "native_pages_imported": 879,
+  "scope": "Live native exports and configured sitemap/llms discovery; no browser/page crawl in this check",
+  "tested_at_utc": "2026-08-28T22:02:14Z",
+  "time_budget_hit": false
+}

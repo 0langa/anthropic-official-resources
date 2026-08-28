@@ -1469,13 +1469,14 @@
   },
   "https://code.claude.com/docs/en/overview": {
     "content_notes": [
-      "Native source; upstream MDX components retained."
+      "Contains upstream MDX/components; Markdown is not a visual website replica."
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/overview/index.md",
-    "sha256": "0d69a0a482304465ee648063bf4b88d2e8511aa9d348ad4fcee98f04b3bf7e2d",
-    "source_url": "https://code.claude.com/docs/en/overview.md",
-    "status": "archived"
+    "sha256": "baa1e8d76f3f2b0abfc09a589221d5f0ecf8b5d922388e466e95a647e5fa7846",
+    "source_url": "https://code.claude.com/docs/llms-full.txt",
+    "status": "archived",
+    "title": "Overview"
   },
   "https://code.claude.com/docs/en/permission-modes": {
     "content_notes": [
@@ -8552,13 +8553,14 @@
   },
   "https://platform.claude.com/docs/en/get-started": {
     "content_notes": [
-      "Native source; upstream MDX components retained."
+      "Contains upstream MDX/components; Markdown is not a visual website replica."
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/get-started/index.md",
     "sha256": "d65f1b8265b31c2bc1efb2f8dd0c0e86f16c6e956bcabbc70f11c5467aa2359f",
-    "source_url": "https://platform.claude.com/docs/en/get-started.md",
-    "status": "archived"
+    "source_url": "https://platform.claude.com/llms-full.txt",
+    "status": "archived",
+    "title": "Get started with Claude"
   },
   "https://platform.claude.com/docs/en/home": {
     "content_notes": [

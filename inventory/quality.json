@@ -1,0 +1,9 @@
+{
+  "archived_without_pipeline_validation": 11,
+  "complete_definition": "Fetched textual representation passed automated extraction checks; not a guarantee of media/interactive fidelity.",
+  "language_policy": "English locale paths and declared English HTML; undeclared language is reported, not guessed.",
+  "statuses": {
+    "complete": 887
+  },
+  "unresolved_urls": []
+}
