@@ -80,8 +80,13 @@ def local_path(url, area="content", filename="index.md"):
     parts = ["%" + x.encode().hex() if reserved.match(x) or x.endswith(".") else x for x in parts]
     if p.query:
         parts.append("__query_" + digest(p.query)[:16])
-    if p.path != "/" and p.path.endswith("/") and filename == "index.md":
-        filename = "directory-index.md"
+    if p.path != "/" and p.path.endswith("/"):
+        filename = "directory-" + filename
+    # Case-sensitive URL variants must coexist on Windows. Keep the URL folders
+    # and distinguish the leaf filename deterministically on every platform.
+    if any(c.isupper() for c in p.path):
+        leaf = Path(filename)
+        filename = leaf.stem + "--" + digest(url)[:16] + leaf.suffix
     host = p.netloc.replace(":", "%3A")
     return Path(area, host, *parts, filename)
 
@@ -298,7 +303,13 @@ class Archive:
         if not body or len(body.strip())<30:raise ValueError("Empty or suspiciously short page")
         if re.search(r"^\s*<!doctype html|^\s*<html\b",body,re.I) and kind=="native-markdown":raise ValueError("HTML returned for Markdown endpoint")
         path=local_path(url)
+        if any(u != url and r["path"].casefold() == path.as_posix().casefold() for u,r in self.records.items()):
+            raise ValueError("Refusing to overwrite another URL's archive path")
+        old_path = self.records.get(url,{}).get("path")
         write(self.root/path,body)
+        if old_path and old_path != path.as_posix() and not any(u != url and r["path"].casefold() == old_path.casefold() for u,r in self.records.items()):
+            old_file = (self.root/old_path).resolve()
+            if old_file.is_relative_to(self.root.resolve()):old_file.unlink(missing_ok=True)
         record={"path":path.as_posix(),"sha256":digest(body),"source_url":source,"format":kind,"status":"archived","content_notes":notes or []}
         if title:record["title"]=title
         self.records[url]=record;self.discovered.add(url);self.errors.pop(url,None)

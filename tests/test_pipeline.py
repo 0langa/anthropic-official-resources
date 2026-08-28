@@ -91,6 +91,10 @@ class ScopeTests(unittest.TestCase):
         self.assertEqual(normalize("https://example.org/page):"),"https://example.org/page")
         self.assertEqual(normalize("https://example.org/page?utm_source=a&version=2#x"),"https://example.org/page?version=2")
         self.assertNotEqual(normalize("https://example.org/page?version=1"),normalize("https://example.org/page?version=2"))
+    def test_case_and_trailing_slash_paths_do_not_collide_on_windows(self):
+        for area,name in [("content","index.md"),("html","index.html"),("html","rendered.html"),("html","network.json")]:
+            self.assertNotEqual(local_path("https://example.org/EXAMPLES",area,name).as_posix().casefold(),local_path("https://example.org/examples",area,name).as_posix().casefold())
+            self.assertNotEqual(local_path("https://example.org/page/",area,name),local_path("https://example.org/page",area,name))
     def test_cleanup_removes_files_and_persists_english_policy(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory); a=archive(root,"https://example.org")
@@ -131,6 +135,11 @@ class ExtractionTests(unittest.TestCase):
         self.assertTrue(optional_embed("https://www.youtube-nocookie.com/embed/example"))
         self.assertFalse(optional_embed("https://content.example.org/lesson.js"))
         self.assertFalse(optional_embed("https://youtube.com.example.org/lesson.js"))
+        self.assertTrue(optional_embed("https://a-cdn.anthropic.com/v1/projects/example/settings"))
+        self.assertTrue(optional_embed("https://assets.claude.ai/sdk/antalytics/latest.umd.js"))
+        self.assertTrue(optional_embed("https://www.googletagmanager.com/gtm.js"))
+        self.assertFalse(optional_embed("https://assets.claude.ai/lessons/content.js"))
+        self.assertFalse(optional_embed("https://a-cdn.anthropic.com/v1/lessons/example"))
     def test_nested_content_code_tables_hidden_and_absolute_links(self):
         raw='<html lang="en"><title>Example</title><main><article><p>Inner</p></article><p>AFTER ARTICLE</p><pre><code>x = 1\n  y = 2</code></pre><div hidden>Hidden panel</div><a href="/asset.pdf">PDF</a><table><tr><td colspan="2">Both</td></tr></table></main></html>'
         result=extract_html(raw,"https://example.org/page")
@@ -245,6 +254,7 @@ class BrowserIntegrationTests(unittest.TestCase):
             self.assertEqual(runner.state[url]["status"],"complete",runner.state[url])
             body=(root/a.records[url]["path"]).read_text(encoding="utf-8")
             self.assertIn("UNIQUE TRANSCRIPT TEXT",body)
+            self.assertGreater(a.records[url].get("transcript_characters",0),40)
             self.assertIn("Hidden detail retained",body)
             self.assertIn("ACCORDION GENERATED TEXT",body)
             self.assertTrue((root/local_path(url,"html","rendered.html")).exists())

@@ -72,6 +72,8 @@ A `complete` page status means that the retrieved **textual representation** pas
 
 URL folder order follows the source. Filesystem-unsafe names are escaped. Distinct trailing-slash pages use `directory-index.md`; query variants use a stable hash directory. Exact URLs remain in the manifest. The archive is not an offline reconstruction of a site's application/backend. Original source content can contain links to translations; those links are not rewritten into invented English URLs, but translated pages are excluded from the active inventories and downloaded content.
 
+Uppercase URL paths add a stable URL hash to the leaf filename so case-sensitive variants cannot overwrite each other on Windows. This also applies to raw HTML. Known video players, the support-chat widget and identified analytics SDKs remain blocked intentionally; their omission does not fail textual extraction. Unknown blocked content dependencies still do, and `html/**/network.json` records the distinction.
+
 ## Other platforms and testing
 
 Install `requirements.txt` into a Python 3.12 environment, then run `python -m playwright install chromium` (`--with-deps` may be needed on Linux). Commands are `python tools/pipeline.py sync --resume`, `sync`, `verify`, `report` and `assets`. The old `tools/mirror.py` CLI delegates to the same pipeline.

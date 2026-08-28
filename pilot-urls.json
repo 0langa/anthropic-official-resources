@@ -2,7 +2,7 @@
   {"category":"Platform native Markdown","url":"https://platform.claude.com/docs/en/get-started","minimum_characters":500,"contains":["Claude"]},
   {"category":"Claude Code native Markdown","url":"https://code.claude.com/docs/en/overview","minimum_characters":500,"contains":["Claude Code"]},
   {"category":"Academy index","url":"https://academy.claude.com/","minimum_characters":300,"contains":["Claude"]},
-  {"category":"Academy lesson and transcript","url":"https://academy.claude.com/courses/claude-code-101/how-claude-code-works","minimum_characters":1000,"contains":["agentic loop","transcript"]},
+  {"category":"Academy lesson and transcript","url":"https://academy.claude.com/courses/claude-code-101/how-claude-code-works","minimum_characters":1000,"contains":["agentic loop","transcript"],"require_transcript":true},
   {"category":"Academy tutorial","url":"https://academy.claude.com/tutorials/building-a-powerpoint-with-claude","minimum_characters":300,"contains":["Claude"]},
   {"category":"Help Center article","url":"https://support.claude.com/en/articles/10065433-install-claude-desktop","minimum_characters":300,"contains":["Claude"]},
   {"category":"Cookbook","url":"https://platform.claude.com/cookbook/capabilities-classification-guide","minimum_characters":500,"contains":["classification"]},

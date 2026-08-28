@@ -36,6 +36,8 @@ def main():
             checks={'retrieved':bool(record),'minimum_characters':len(text)>=item.get('minimum_characters',150),
                     'required_text':all(term.lower() in text.lower() for term in item.get('contains',[])),
                     'text_extraction_complete':state['status']=='complete'}
+            if item.get('require_transcript'):
+                checks['substantive_transcript_captured'] = bool(record and record.get('transcript_characters',0)>=500)
             results.append({**item,'state':state,'checks':checks,'characters':len(text),'passed':all(checks.values())})
         report={'tested_at_utc':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),
                 'platform':platform.platform(),'python':platform.python_version(),'results':results,
@@ -56,8 +58,9 @@ def main():
                     continue
                 if existing and runner.state[url]['status']=='partial':
                     continue
+                source=temporary/record['path']
+                destination.accept(url,source.read_bytes().decode('utf-8'),record['source_url'],record['format'],record.get('content_notes'),record.get('title'))
                 destination.records[url]=record
-                source=temporary/record['path'];write(root/record['path'],source.read_bytes())
                 page_state[url]=runner.state[url];destination.checked[url]=runner.state[url]['checked_at']
                 if runner.state[url]['status']=='complete':destination.errors.pop(url,None)
                 else:destination.errors[url]=runner.state[url]['message']

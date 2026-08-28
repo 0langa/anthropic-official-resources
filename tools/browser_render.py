@@ -25,9 +25,13 @@ class Rendered:
 
 
 def optional_embed(url):
-    """Omit video players/support widgets, never unknown content dependencies."""
-    host = urlsplit(url).hostname or ""
-    return host == "widget.intercom.io" or any(host == suffix or host.endswith("." + suffix) for suffix in (
+    """Omit known players/widgets/analytics, never unknown content dependencies."""
+    parsed = urlsplit(url)
+    host = parsed.hostname or ""
+    analytics = ((host == "www.googletagmanager.com" and parsed.path in {"/gtm.js", "/gtag/js"}) or
+                 (host == "assets.claude.ai" and parsed.path.startswith("/sdk/antalytics/")) or
+                 (host == "a-cdn.anthropic.com" and bool(re.fullmatch(r"/v1/projects/[^/]+/settings", parsed.path))))
+    return analytics or host == "widget.intercom.io" or any(host == suffix or host.endswith("." + suffix) for suffix in (
         "youtube.com", "youtube-nocookie.com", "vimeo.com", "wistia.com", "wistia.net"))
 
 
@@ -77,7 +81,7 @@ class Browser:
             if host not in self.http.hosts or not is_english_url(target):
                 audit.append({"url": urlunsplit(urlsplit(target)._replace(query="", fragment="")),
                               "type": request.resource_type,
-                              "reason": "optional_media_or_support_widget" if optional_embed(target) else "outside_scope"})
+                              "reason": "optional_media_widget_or_analytics" if optional_embed(target) else "outside_scope"})
                 if request.resource_type in {"document", "script", "xhr", "fetch"}:
                     if not optional_embed(target):
                         blocked.add(urlunsplit(urlsplit(target)._replace(query="", fragment="")))

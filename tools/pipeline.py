@@ -361,11 +361,14 @@ class Runner:
                         browser_issues.append(str(exc))
                     except Exception as exc:
                         browser_issues.append("Browser failed: " + str(exc).splitlines()[0])
+            transcript_characters = 0
             for label, panel in panels:
                 extra = extract_html("<html lang='en'><main>" + panel + "</main></html>", final)
                 links.update(extra.links)
                 if extra.markdown.strip() and re.sub(r"\s+", " ", extra.markdown).strip() not in re.sub(r"\s+", " ", body):
                     body += "\n\n## " + (label or "Additional panel") + "\n\n" + extra.markdown
+                    if "transcript" in label.lower():
+                        transcript_characters = max(transcript_characters, len(extra.markdown.strip()))
             if p.hostname == "academy.claude.com":
                 bundles = set(bundles) | {u for u in extracted.links if "/content/" in u and urlsplit(u).path.endswith(".js")}
                 for bundle in sorted(bundles):
@@ -375,6 +378,7 @@ class Runner:
                         for transcript in extract_transcripts(source.text):
                             if re.sub(r"\s+", " ", transcript).strip() not in re.sub(r"\s+", " ", body):
                                 body += "\n\n## Video transcript\n\n" + transcript + "\n"
+                                transcript_characters = max(transcript_characters, len(transcript.strip()))
                     except Exception as exc:
                         browser_issues.append("Lesson bundle unavailable: " + str(exc))
                 if re.search(r"\btranscript\b", raw, re.I) and not any("transcript" in label.lower() for label, _ in panels) and "## Video transcript" not in body:
@@ -389,6 +393,8 @@ class Runner:
                 self.a.accept(url, body, final, "browser-html" if rendered else "html-derived", notes, extracted.title)
                 self.a.records[url]["language"] = extracted.language
                 self.a.records[url]["text_validation"] = status
+                if transcript_characters:
+                    self.a.records[url]["transcript_characters"] = transcript_characters
             message = "; ".join(browser_issues) if browser_issues else "HTML content and available panels extracted"
         self.a.discover(links)
         if final != url:
