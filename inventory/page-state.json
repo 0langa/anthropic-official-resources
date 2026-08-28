@@ -1,49 +1,63 @@
 {
+  "https://academy.claude.com/": {
+    "attempts": 1,
+    "checked_at": 1787953578,
+    "http_status": 200,
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
+  },
+  "https://academy.claude.com/courses/claude-code-101/how-claude-code-works": {
+    "attempts": 1,
+    "checked_at": 1787953588,
+    "http_status": 200,
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
+  },
   "https://academy.claude.com/tutorials/building-a-powerpoint-with-claude": {
     "attempts": 1,
-    "checked_at": 1787953295,
+    "checked_at": 1787953595,
     "http_status": 200,
-    "message": "2 document/script/API requests blocked by scope or robots policy; inspect rendered output.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://claude.com/blog/best-practices-for-prompt-engineering": {
     "attempts": 1,
-    "checked_at": 1787953278,
+    "checked_at": 1787953579,
     "http_status": 200,
     "message": "HTML content and available panels extracted",
     "status": "complete"
   },
   "https://code.claude.com/docs/en/overview": {
     "attempts": 1,
-    "checked_at": 1787953279,
+    "checked_at": 1787953580,
     "http_status": 200,
     "message": "Native Markdown validated",
     "status": "complete"
   },
   "https://platform.claude.com/cookbook/capabilities-classification-guide": {
     "attempts": 1,
-    "checked_at": 1787953281,
+    "checked_at": 1787953582,
     "http_status": 200,
     "message": "HTML content and available panels extracted",
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/get-started": {
     "attempts": 1,
-    "checked_at": 1787953288,
+    "checked_at": 1787953588,
     "http_status": 200,
     "message": "Native Markdown validated",
     "status": "complete"
   },
   "https://support.claude.com/en/articles/10065433-install-claude-desktop": {
     "attempts": 1,
-    "checked_at": 1787953282,
+    "checked_at": 1787953583,
     "http_status": 200,
     "message": "Native Markdown validated",
     "status": "complete"
   },
   "https://www.anthropic.com/engineering/building-effective-agents": {
     "attempts": 1,
-    "checked_at": 1787953284,
+    "checked_at": 1787953585,
     "http_status": 200,
     "message": "HTML content and available panels extracted",
     "status": "complete"

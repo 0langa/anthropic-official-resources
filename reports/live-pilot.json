@@ -21,7 +21,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953288,
+        "checked_at": 1787953588,
         "http_status": 200,
         "message": "Native Markdown validated",
         "status": "complete"
@@ -44,7 +44,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953279,
+        "checked_at": 1787953580,
         "http_status": 200,
         "message": "Native Markdown validated",
         "status": "complete"
@@ -58,19 +58,19 @@
         "minimum_characters": true,
         "required_text": true,
         "retrieved": true,
-        "text_extraction_complete": false
+        "text_extraction_complete": true
       },
       "contains": [
         "Claude"
       ],
       "minimum_characters": 300,
-      "passed": false,
+      "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953277,
+        "checked_at": 1787953578,
         "http_status": 200,
-        "message": "1 document/script/API requests blocked by scope or robots policy; inspect rendered output.",
-        "status": "partial"
+        "message": "HTML content and available panels extracted",
+        "status": "complete"
       },
       "url": "https://academy.claude.com/"
     },
@@ -81,20 +81,20 @@
         "minimum_characters": true,
         "required_text": true,
         "retrieved": true,
-        "text_extraction_complete": false
+        "text_extraction_complete": true
       },
       "contains": [
         "agentic loop",
         "transcript"
       ],
       "minimum_characters": 1000,
-      "passed": false,
+      "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953288,
+        "checked_at": 1787953588,
         "http_status": 200,
-        "message": "2 document/script/API requests blocked by scope or robots policy; inspect rendered output.",
-        "status": "partial"
+        "message": "HTML content and available panels extracted",
+        "status": "complete"
       },
       "url": "https://academy.claude.com/courses/claude-code-101/how-claude-code-works"
     },
@@ -105,19 +105,19 @@
         "minimum_characters": true,
         "required_text": true,
         "retrieved": true,
-        "text_extraction_complete": false
+        "text_extraction_complete": true
       },
       "contains": [
         "Claude"
       ],
       "minimum_characters": 300,
-      "passed": false,
+      "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953295,
+        "checked_at": 1787953595,
         "http_status": 200,
-        "message": "2 document/script/API requests blocked by scope or robots policy; inspect rendered output.",
-        "status": "partial"
+        "message": "HTML content and available panels extracted",
+        "status": "complete"
       },
       "url": "https://academy.claude.com/tutorials/building-a-powerpoint-with-claude"
     },
@@ -137,7 +137,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953282,
+        "checked_at": 1787953583,
         "http_status": 200,
         "message": "Native Markdown validated",
         "status": "complete"
@@ -160,7 +160,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953281,
+        "checked_at": 1787953582,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -183,7 +183,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953284,
+        "checked_at": 1787953585,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -206,9 +206,9 @@
       "passed": false,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953292,
+        "checked_at": 1787953592,
         "http_status": 200,
-        "message": "3 document/script/API requests blocked by scope or robots policy; inspect rendered output.",
+        "message": "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/v1/projects/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/settings, https://assets.claude.ai/sdk/antalytics/latest.umd.js, https://www.googletagmanager.com/gtm.js",
         "status": "partial"
       },
       "url": "https://www.anthropic.com/research/AI-assistance-coding-skills"
@@ -229,7 +229,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787953278,
+        "checked_at": 1787953579,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -237,5 +237,5 @@
       "url": "https://claude.com/blog/best-practices-for-prompt-engineering"
     }
   ],
-  "tested_at_utc": "2026-08-28T21:41:35Z"
+  "tested_at_utc": "2026-08-28T21:46:35Z"
 }

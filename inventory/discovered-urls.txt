@@ -8,6 +8,7 @@ http://[::1]:/
 http://claude.ai/
 http://claude.ai/redirect/website.v1.1b85f628-9831-4539-a491-9ecce4f128b4
 http://claude.ai/redirect/website.v1.b8a64084-5d00-47f0-8dd6-e4e48e8f0327
+http://claude.ai/redirect/website.v1.dea863eb-79c7-4b19-ae3c-49a23023dd5b
 http://claude.com/pricing
 http://github.com/
 http://localhost/

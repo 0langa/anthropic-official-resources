@@ -1,12 +1,13 @@
 {
   "https://academy.claude.com/": {
     "content_notes": [],
-    "format": "firecrawl-markdown",
-    "lesson_bundles": [],
+    "format": "browser-html",
+    "language": "en",
     "path": "content/academy.claude.com/index.md",
-    "sha256": "60263f4c95811b7b1d662aea32f4d9e521238d3617c7fd5ecb23996e0778dfcb",
+    "sha256": "7878090f3d2f4fedbf3f0eaa14dde8bd36fe03c338d8c9d04501d0b9cdddfc11",
     "source_url": "https://academy.claude.com/",
     "status": "archived",
+    "text_validation": "complete",
     "title": "Claude Academy · Learn to work and build with Claude"
   },
   "https://academy.claude.com/all": {
@@ -103,14 +104,15 @@
     "title": "AI Capabilities and Limitations · Claude Academy"
   },
   "https://academy.claude.com/courses/claude-code-101/how-claude-code-works": {
-    "content_notes": [
-      "Public lesson transcript extracted; embedded video is linked, not copied."
-    ],
-    "format": "firecrawl-markdown",
+    "content_notes": [],
+    "format": "browser-html",
+    "language": "en",
     "path": "content/academy.claude.com/courses/claude-code-101/how-claude-code-works/index.md",
-    "sha256": "bf6dcda757de28cc10b7c06685e39c246c6d1ab2efa62f3640e8b18d2887b6b4",
+    "sha256": "4c478cb933bb826d1418b81f14f190ae5e6b80c888f094c8a80f9c7ec4ec79e5",
     "source_url": "https://academy.claude.com/courses/claude-code-101/how-claude-code-works",
-    "status": "archived"
+    "status": "archived",
+    "text_validation": "complete",
+    "title": "How Claude Code works · Claude Code 101 · Claude Academy"
   },
   "https://academy.claude.com/help/mcp": {
     "content_notes": [],
@@ -123,16 +125,14 @@
     "title": "Use Claude Academy from Claude · Claude Academy"
   },
   "https://academy.claude.com/tutorials/building-a-powerpoint-with-claude": {
-    "content_notes": [
-      "2 document/script/API requests blocked by scope or robots policy; inspect rendered output."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/tutorials/building-a-powerpoint-with-claude/index.md",
     "sha256": "1e8f84948c868133543e1e4fef38ffb16237a921bbe67bbf19a1d681c823f9c2",
     "source_url": "https://academy.claude.com/tutorials/building-a-powerpoint-with-claude",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Building a PowerPoint with Claude · Claude Academy"
   },
   "https://claude.com/blog/best-practices-for-prompt-engineering": {
