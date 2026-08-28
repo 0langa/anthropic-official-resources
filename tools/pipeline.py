@@ -16,7 +16,7 @@ from urllib.parse import urlsplit, urlunsplit
 import xml.etree.ElementTree as ET
 
 from mirror import Archive, ASSET_EXTS, digest, dump, extract_transcripts, local_path, normalize, page_url, urls_in, verify, write
-from scope import is_english_url
+from scope import is_english_url, non_english_locale
 
 ROOT = Path(__file__).resolve().parents[1]
 GOOD = {"complete", "redirect"}
@@ -301,6 +301,8 @@ class Runner:
         if not self.a.allowed(final):
             raise FetchError("Redirect outside resource scope: " + final, "out_of_scope")
         raw = response.text
+        if any(key.lower() == "content-language" and any(non_english_locale(v) for v in value.split(",")) for key,value in response.headers.items()):
+            raise FetchError("Response declares a non-English language", "non_english")
         html_content = "html" in response.content_type.lower() or bool(re.match(r"\s*(<!doctype html|<html\b)", raw, re.I))
         links, notes = set(), []
         if not html_content:
@@ -362,7 +364,7 @@ class Runner:
                 if re.search(r"\btranscript\b", raw, re.I) and not any("transcript" in label.lower() for label, _ in panels) and "## Video transcript" not in body:
                     browser_issues.append("Transcript control present, but transcript capture could not be confirmed.")
                 if "quiz" in p.path:
-                    notes.append("Quiz UI text retained; answer submission, hidden feedback and learner state excluded.")
+                    browser_issues.append("Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.")
             validate_markdown(body)
             notes.extend(browser_issues)
             status = "partial" if browser_issues else "complete"

@@ -3,7 +3,6 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 import re
-import time
 from urllib.parse import urlsplit
 
 import psutil
@@ -30,11 +29,13 @@ class Browser:
         self.driver = self.browser = None
 
     def close(self):
-        if self.browser:
-            self.browser.close()
-        if self.driver:
-            self.driver.stop()
-        self.browser = self.driver = None
+        try:
+            if self.browser:
+                self.browser.close()
+        finally:
+            if self.driver:
+                self.driver.stop()
+            self.browser = self.driver = None
 
     def render(self, url):
         self.http.allowed(url)
@@ -43,7 +44,11 @@ class Browser:
             raise FetchError(f"Only {free_mb:.0f} MB memory available; resume when >=2 GB is free", "deferred")
         if not self.driver:
             self.driver = sync_playwright().start()
-            self.browser = self.driver.chromium.launch(headless=True)
+            try:
+                self.browser = self.driver.chromium.launch(headless=True)
+            except Exception as exc:
+                self.close()
+                raise FetchError("Chromium could not start: " + str(exc).splitlines()[0], "deferred") from exc
         context = self.browser.new_context(locale="en-US", user_agent=USER_AGENT,
                                            accept_downloads=False, service_workers="block")
         notes, bundles, blocked = [], set(), set()
@@ -92,6 +97,23 @@ class Browser:
             except Exception:
                 notes.append("Network did not become idle within 8 seconds; content may still be loading.")
             page.evaluate("document.querySelectorAll('details').forEach(x => x.open = true)")
+            accordions = page.locator('main button[aria-expanded="false"][aria-controls]:not([aria-haspopup]), article button[aria-expanded="false"][aria-controls]:not([aria-haspopup])')
+            accordion_count = accordions.count()
+            for _ in range(min(accordion_count, 40)):
+                if not accordions.count():
+                    break
+                control = accordions.first
+                label = control.inner_text().strip()
+                if re.search(r"\b(sign.?in|log.?in|submit|enroll|register|delete|purchase)\b", label, re.I):
+                    notes.append("Unexpanded control requires a non-reading action.")
+                    break
+                try:
+                    control.click()
+                except Exception:
+                    notes.append("Could not expand content control: " + label[:80])
+                    break
+            if accordion_count > 40:
+                notes.append("Accordion safety limit reached; some content may remain collapsed.")
             # Bounded lazy-load scroll; capture all DOM text, including offscreen content.
             previous = 0
             for _ in range(8):
@@ -101,6 +123,8 @@ class Browser:
                 previous = height
                 page.evaluate("window.scrollTo(0, document.documentElement.scrollHeight)")
                 page.wait_for_timeout(350)
+            else:
+                notes.append("Lazy-loading scroll limit reached; additional content may remain unloaded.")
             initial = page.content()
             inspect_html(initial, page.url)
             panels, seen = [], set()
@@ -121,6 +145,10 @@ class Browser:
                 try:
                     tab.click()
                     page.wait_for_timeout(300)
+                    try:
+                        page.wait_for_load_state("networkidle", timeout=5000)
+                    except Exception:
+                        notes.append(f"Tab {label!r} did not become idle; panel completeness is uncertain.")
                     visible = page.locator('[role="tabpanel"]:visible')
                     if visible.count():
                         fragments = [visible.nth(i).evaluate("el => el.outerHTML") for i in range(visible.count())]

@@ -2,7 +2,6 @@
 import argparse
 from contextlib import contextmanager
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
-import json
 import os
 from pathlib import Path
 import sys
@@ -46,6 +45,7 @@ def fixture_server():
                 <div aria-label="Video companion content" role="radiogroup">
                 <span role="radio" tabindex="0" onclick="document.querySelector('#panel').innerHTML='<p>UNIQUE TRANSCRIPT TEXT with all the extra information in the lesson.</p>'">Transcript</span></div>
                 <div id="panel" role="tabpanel">Summary content</div><details><summary>More</summary>Hidden detail retained.</details>
+                <button aria-expanded="false" aria-controls="faq" onclick="this.setAttribute('aria-expanded','true');document.querySelector('#faq').innerHTML='ACCORDION GENERATED TEXT'">Read more</button><div id="faq"></div>
                 </main></html>'''
             elif self.path == "/page":
                 headers["ETag"] = f'"{state["version"]}"'
@@ -131,6 +131,12 @@ class ExtractionTests(unittest.TestCase):
 
 
 class HttpIntegrationTests(unittest.TestCase):
+    def test_response_size_guard(self):
+        with fixture_server() as (base,state), tempfile.TemporaryDirectory() as directory:
+            http=HTTP(Path(directory),{"127.0.0.1"},{"request_delay_seconds":0,"max_retries":0})
+            with self.assertRaises(FetchError) as caught:http.get(base+"/page",max_bytes=40)
+            self.assertEqual(caught.exception.status,"partial")
+
     def test_robots_redirect_scope_cache_update_and_404(self):
         with fixture_server() as (base,state), tempfile.TemporaryDirectory() as directory:
             http=HTTP(Path(directory),{"127.0.0.1"},{"request_delay_seconds":0,"max_retries":0})
@@ -149,6 +155,32 @@ class HttpIntegrationTests(unittest.TestCase):
 
 
 class PipelineIntegrationTests(unittest.TestCase):
+    def test_native_markdown_and_header_language_guard(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);a=archive(root,"https://platform.claude.com")
+            url="https://platform.claude.com/docs/en/example";runner=Runner(a,options())
+            response=Response(("# Example\n"+PARAGRAPH).encode(),url+".md","text/markdown",{"Content-Language":"en"})
+            with patch.object(runner.http,"get",return_value=response):
+                self.assertEqual(runner.scrape(url)[0],"complete")
+            response.headers["Content-Language"]="de"
+            with patch.object(runner.http,"get",return_value=response):
+                with self.assertRaises(FetchError) as caught:runner.scrape(url)
+                self.assertEqual(caught.exception.status,"non_english")
+    def test_http_block_does_not_trigger_browser_bypass(self):
+        with tempfile.TemporaryDirectory() as directory:
+            a=archive(Path(directory),"https://platform.claude.com");runner=Runner(a,options(browser="auto"))
+            with patch.object(runner.http,"get",side_effect=FetchError("Forbidden","blocked",403)) as get:
+                with self.assertRaises(FetchError):runner.scrape("https://platform.claude.com/docs/en/example")
+                self.assertEqual(get.call_count,1)
+                self.assertIsNone(runner.browser)
+    def test_partial_refresh_preserves_previous_complete_copy(self):
+        with fixture_server() as (base,state), tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);a=archive(root,base);url=base+"/dynamic"
+            old="# Previous complete copy\n"+PARAGRAPH
+            a.accept(url,old,url,"native-markdown")
+            runner=Runner(a,options());runner.run()
+            self.assertEqual(runner.state[url]["status"],"partial")
+            self.assertEqual((root/a.records[url]["path"]).read_text(encoding="utf-8"),old)
     def test_download_resume_refresh_and_retain_on_failure(self):
         with fixture_server() as (base,state), tempfile.TemporaryDirectory() as directory:
             root=Path(directory);a=archive(root,base);url=base+"/page";a.discover([url])
@@ -176,6 +208,7 @@ class PipelineIntegrationTests(unittest.TestCase):
             root=Path(directory);a=archive(root,base);url=base+"/page"
             runner=Runner(a,options());status,message,links,code=runner.scrape(url)
             runner.event(url,status,message,links,code)
+            with runner.journal.open("a",encoding="utf-8") as handle:handle.write('{"interrupted":')
             recovered=Runner(Archive(root),options(resume=True))
             self.assertIn(url,recovered.a.records);self.assertEqual(recovered.state[url]["status"],"complete")
             self.assertEqual(verify(recovered.a),[])
@@ -197,6 +230,7 @@ class BrowserIntegrationTests(unittest.TestCase):
             body=(root/a.records[url]["path"]).read_text(encoding="utf-8")
             self.assertIn("UNIQUE TRANSCRIPT TEXT",body)
             self.assertIn("Hidden detail retained",body)
+            self.assertIn("ACCORDION GENERATED TEXT",body)
             self.assertTrue((root/local_path(url,"html","rendered.html")).exists())
 
 

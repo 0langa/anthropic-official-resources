@@ -5,3 +5,5 @@ __pycache__/
 .env
 *.log
 incoming/
+.ruff_cache/
+.pytest_cache/

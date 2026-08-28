@@ -1,0 +1,241 @@
+{
+  "integrity_failures": [],
+  "meaning": "Passing verifies only these live sample pages and the listed assertions, not every URL or all media.",
+  "passed": false,
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+  "python": "3.12.13",
+  "results": [
+    {
+      "category": "Platform native Markdown",
+      "characters": 19458,
+      "checks": {
+        "minimum_characters": true,
+        "required_text": true,
+        "retrieved": true,
+        "text_extraction_complete": true
+      },
+      "contains": [
+        "Claude"
+      ],
+      "minimum_characters": 500,
+      "passed": true,
+      "state": {
+        "attempts": 1,
+        "checked_at": 1787952809,
+        "http_status": 200,
+        "message": "Native Markdown validated",
+        "status": "complete"
+      },
+      "url": "https://platform.claude.com/docs/en/get-started"
+    },
+    {
+      "category": "Claude Code native Markdown",
+      "characters": 16615,
+      "checks": {
+        "minimum_characters": true,
+        "required_text": true,
+        "retrieved": true,
+        "text_extraction_complete": true
+      },
+      "contains": [
+        "Claude Code"
+      ],
+      "minimum_characters": 500,
+      "passed": true,
+      "state": {
+        "attempts": 1,
+        "checked_at": 1787952755,
+        "http_status": 200,
+        "message": "Native Markdown validated",
+        "status": "complete"
+      },
+      "url": "https://code.claude.com/docs/en/overview"
+    },
+    {
+      "category": "Academy index",
+      "characters": 2878,
+      "checks": {
+        "minimum_characters": true,
+        "required_text": true,
+        "retrieved": true,
+        "text_extraction_complete": false
+      },
+      "contains": [
+        "Claude"
+      ],
+      "minimum_characters": 300,
+      "passed": false,
+      "state": {
+        "attempts": 1,
+        "checked_at": 1787952728,
+        "http_status": 200,
+        "message": "Browser failed: BrowserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-linux64/chrome-headless-shell",
+        "status": "partial"
+      },
+      "url": "https://academy.claude.com/"
+    },
+    {
+      "category": "Academy lesson and transcript",
+      "characters": 3034,
+      "checks": {
+        "minimum_characters": true,
+        "required_text": true,
+        "retrieved": true,
+        "text_extraction_complete": false
+      },
+      "contains": [
+        "agentic loop",
+        "transcript"
+      ],
+      "minimum_characters": 1000,
+      "passed": false,
+      "state": {
+        "attempts": 1,
+        "checked_at": 1787952802,
+        "http_status": 200,
+        "message": "Browser failed: 'NoneType' object has no attribute 'new_context'; Transcript control present, but transcript capture could not be confirmed.",
+        "status": "partial"
+      },
+      "url": "https://academy.claude.com/courses/claude-code-101/how-claude-code-works"
+    },
+    {
+      "category": "Academy tutorial",
+      "characters": 542,
+      "checks": {
+        "minimum_characters": true,
+        "required_text": true,
+        "retrieved": true,
+        "text_extraction_complete": false
+      },
+      "contains": [
+        "Claude"
+      ],
+      "minimum_characters": 300,
+      "passed": false,
+      "state": {
+        "attempts": 1,
+        "checked_at": 1787952822,
+        "http_status": 200,
+        "message": "Browser failed: 'NoneType' object has no attribute 'new_context'",
+        "status": "partial"
+      },
+      "url": "https://academy.claude.com/tutorials/building-a-powerpoint-with-claude"
+    },
+    {
+      "category": "Help Center article",
+      "characters": 6782,
+      "checks": {
+        "minimum_characters": true,
+        "required_text": true,
+        "retrieved": true,
+        "text_extraction_complete": true
+      },
+      "contains": [
+        "Claude"
+      ],
+      "minimum_characters": 300,
+      "passed": true,
+      "state": {
+        "attempts": 1,
+        "checked_at": 1787952782,
+        "http_status": 200,
+        "message": "Native Markdown validated",
+        "status": "complete"
+      },
+      "url": "https://support.claude.com/en/articles/10065433-install-claude-desktop"
+    },
+    {
+      "category": "Cookbook",
+      "characters": 36847,
+      "checks": {
+        "minimum_characters": true,
+        "required_text": true,
+        "retrieved": true,
+        "text_extraction_complete": true
+      },
+      "contains": [
+        "classification"
+      ],
+      "minimum_characters": 500,
+      "passed": true,
+      "state": {
+        "attempts": 1,
+        "checked_at": 1787952768,
+        "http_status": 200,
+        "message": "HTML content and available panels extracted",
+        "status": "complete"
+      },
+      "url": "https://platform.claude.com/cookbook/capabilities-classification-guide"
+    },
+    {
+      "category": "Engineering",
+      "characters": 21456,
+      "checks": {
+        "minimum_characters": true,
+        "required_text": true,
+        "retrieved": true,
+        "text_extraction_complete": true
+      },
+      "contains": [
+        "agents"
+      ],
+      "minimum_characters": 1000,
+      "passed": true,
+      "state": {
+        "attempts": 1,
+        "checked_at": 1787952795,
+        "http_status": 200,
+        "message": "HTML content and available panels extracted",
+        "status": "complete"
+      },
+      "url": "https://www.anthropic.com/engineering/building-effective-agents"
+    },
+    {
+      "category": "Research",
+      "characters": 16522,
+      "checks": {
+        "minimum_characters": true,
+        "required_text": true,
+        "retrieved": true,
+        "text_extraction_complete": false
+      },
+      "contains": [
+        "coding"
+      ],
+      "minimum_characters": 500,
+      "passed": false,
+      "state": {
+        "attempts": 1,
+        "checked_at": 1787952815,
+        "http_status": 200,
+        "message": "Browser failed: 'NoneType' object has no attribute 'new_context'",
+        "status": "partial"
+      },
+      "url": "https://www.anthropic.com/research/AI-assistance-coding-skills"
+    },
+    {
+      "category": "Claude blog",
+      "characters": 28298,
+      "checks": {
+        "minimum_characters": true,
+        "required_text": true,
+        "retrieved": true,
+        "text_extraction_complete": true
+      },
+      "contains": [
+        "prompt"
+      ],
+      "minimum_characters": 500,
+      "passed": true,
+      "state": {
+        "attempts": 1,
+        "checked_at": 1787952742,
+        "http_status": 200,
+        "message": "HTML content and available panels extracted",
+        "status": "complete"
+      },
+      "url": "https://claude.com/blog/best-practices-for-prompt-engineering"
+    }
+  ],
+  "tested_at_utc": "2026-08-28T21:33:42Z"
+}

@@ -5,7 +5,6 @@ import argparse
 import json
 from pathlib import Path
 import platform
-import shutil
 import sys
 import tempfile
 import time

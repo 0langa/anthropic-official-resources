@@ -5,7 +5,7 @@ import mirror as m
 
 class Tests(unittest.TestCase):
  def test_path(self):
-  self.assertEqual(str(m.local_path('https://academy.claude.com/courses/a/b')),'content/academy.claude.com/courses/a/b/index.md')
+  self.assertEqual(m.local_path('https://academy.claude.com/courses/a/b').as_posix(),'content/academy.claude.com/courses/a/b/index.md')
   self.assertNotEqual(m.local_path('https://a.org/?a=1'),m.local_path('https://a.org/?a=2'))
  def test_unsafe(self):
   for u in ['file:///etc/passwd','https://a.org/%2e%2e/a','https://user:pass@a.org/','https://a.org:port/a']:
