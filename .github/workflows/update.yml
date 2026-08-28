@@ -20,7 +20,7 @@ jobs:
           cache: pip
       - run: python -m pip install -r requirements.txt
       - run: python -m playwright install --with-deps chromium
-      - uses: actions/cache@v4
+      - uses: actions/cache/restore@v4
         with:
           path: .cache/http-v2
           key: archive-http-${{ github.run_id }}
@@ -54,6 +54,12 @@ jobs:
         if: always()
         shell: bash
         run: cat inventory/COVERAGE.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Preserve conditional HTTP cache even when coverage has gaps
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .cache/http-v2
+          key: archive-http-${{ github.run_id }}
       - name: Fail visibly if archive still has gaps
         if: steps.sync.outputs.result != '0'
         run: python -c "raise SystemExit('Coverage or validation gaps remain; see inventory reports')"

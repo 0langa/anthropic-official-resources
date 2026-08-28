@@ -350,6 +350,7 @@ class Runner:
                             raise FetchError("Browser navigated outside resource scope", "out_of_scope")
                         extracted = extract_html(rendered.html, final, response.headers)
                         write(self.a.root / local_path(url, "html", "rendered.html"), rendered.html)
+                        dump(self.a.root / local_path(url, "html", "network.json"), rendered.resource_audit)
                         links.update(extracted.links)
                         body = extracted.markdown
                         panels, bundles = rendered.panels, rendered.bundles

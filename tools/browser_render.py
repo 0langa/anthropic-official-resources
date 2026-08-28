@@ -3,7 +3,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 import re
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, urlunsplit
 
 import psutil
 from playwright.sync_api import sync_playwright
@@ -21,6 +21,14 @@ class Rendered:
     panels: list = field(default_factory=list)
     bundles: list = field(default_factory=list)
     notes: list = field(default_factory=list)
+    resource_audit: list = field(default_factory=list)
+
+
+def optional_embed(url):
+    """Omit video players/support widgets, never unknown content dependencies."""
+    host = urlsplit(url).hostname or ""
+    return host == "widget.intercom.io" or any(host == suffix or host.endswith("." + suffix) for suffix in (
+        "youtube.com", "youtube-nocookie.com", "vimeo.com", "wistia.com", "wistia.net"))
 
 
 class Browser:
@@ -51,7 +59,7 @@ class Browser:
                 raise FetchError("Chromium could not start: " + str(exc).splitlines()[0], "deferred") from exc
         context = self.browser.new_context(locale="en-US", user_agent=USER_AGENT,
                                            accept_downloads=False, service_workers="block")
-        notes, bundles, blocked = [], set(), set()
+        notes, bundles, blocked, audit = [], set(), set(), []
         timeout = self.settings.get("timeout_seconds", 45) * 1000
         context.set_default_timeout(min(timeout, 5000))
         context.set_default_navigation_timeout(timeout)
@@ -67,14 +75,19 @@ class Browser:
                 route.abort()
                 return
             if host not in self.http.hosts or not is_english_url(target):
+                audit.append({"url": urlunsplit(urlsplit(target)._replace(query="", fragment="")),
+                              "type": request.resource_type,
+                              "reason": "optional_media_or_support_widget" if optional_embed(target) else "outside_scope"})
                 if request.resource_type in {"document", "script", "xhr", "fetch"}:
-                    blocked.add(target)
+                    if not optional_embed(target):
+                        blocked.add(urlunsplit(urlsplit(target)._replace(query="", fragment="")))
                 route.abort()
                 return
             try:
                 self.http.allowed(target)
             except FetchError:
-                blocked.add(target)
+                blocked.add(urlunsplit(urlsplit(target)._replace(query="", fragment="")))
+                audit.append({"url": urlunsplit(urlsplit(target)._replace(query="", fragment="")), "type":request.resource_type, "reason":"robots_policy"})
                 route.abort()
                 return
             if host == "academy.claude.com" and "/content/" in target and urlsplit(target).path.endswith(".js"):
@@ -162,7 +175,7 @@ class Browser:
                 except Exception as exc:
                     notes.append(f"Could not read tab {label!r}: {type(exc).__name__}")
             if blocked:
-                notes.append(f"{len(blocked)} document/script/API requests blocked by scope or robots policy; inspect rendered output.")
-            return Rendered(initial, page.url, panels, sorted(bundles), notes)
+                notes.append("Content dependencies blocked by scope or robots policy: " + ", ".join(sorted(blocked)))
+            return Rendered(initial, page.url, panels, sorted(bundles), notes, audit)
         finally:
             context.close()

@@ -125,6 +125,12 @@ class ScopeTests(unittest.TestCase):
 
 
 class ExtractionTests(unittest.TestCase):
+    def test_only_known_optional_embeds_are_nonblocking(self):
+        from browser_render import optional_embed
+        self.assertTrue(optional_embed("https://widget.intercom.io/widget/example"))
+        self.assertTrue(optional_embed("https://www.youtube-nocookie.com/embed/example"))
+        self.assertFalse(optional_embed("https://content.example.org/lesson.js"))
+        self.assertFalse(optional_embed("https://youtube.com.example.org/lesson.js"))
     def test_nested_content_code_tables_hidden_and_absolute_links(self):
         raw='<html lang="en"><title>Example</title><main><article><p>Inner</p></article><p>AFTER ARTICLE</p><pre><code>x = 1\n  y = 2</code></pre><div hidden>Hidden panel</div><a href="/asset.pdf">PDF</a><table><tr><td colspan="2">Both</td></tr></table></main></html>'
         result=extract_html(raw,"https://example.org/page")
