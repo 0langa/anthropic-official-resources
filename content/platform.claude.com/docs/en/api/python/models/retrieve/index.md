@@ -1,0 +1,330 @@
+# Get a Model
+
+`models.retrieve(model_id, **kwargs)  -> ModelInfo`
+
+**GET** `/v1/models/{model_id}`
+
+Get a specific model.
+
+The Models API response can be used to determine information about a specific model or resolve a model alias to a model ID.
+
+## Parameters
+
+- `model_id: str`
+
+  Model identifier or alias.
+
+- `betas: Optional[List[AnthropicBetaParam]]`
+
+  Optional header to specify the beta version(s) you want to use.
+
+  - `str`
+
+  - `Literal["message-batches-2024-09-24", "prompt-caching-2024-07-31", "computer-use-2024-10-22", 38 more]`
+
+    - `"message-batches-2024-09-24"`
+
+    - `"prompt-caching-2024-07-31"`
+
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+## Returns
+
+- `class ModelInfo: …`
+
+  - `id: str`
+
+    Unique model identifier.
+
+  - `capabilities: Optional[ModelCapabilities]`
+
+    Model capability information.
+
+    - `batch: CapabilitySupport`
+
+      Whether the model supports the Batch API.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `citations: CapabilitySupport`
+
+      Whether the model supports citation generation.
+
+    - `code_execution: CapabilitySupport`
+
+      Whether the model supports code execution tools.
+
+    - `context_management: ContextManagementCapability`
+
+      Context management support and available strategies.
+
+      - `clear_thinking_20251015: Optional[CapabilitySupport]`
+
+        Indicates whether a capability is supported.
+
+      - `clear_tool_uses_20250919: Optional[CapabilitySupport]`
+
+        Indicates whether a capability is supported.
+
+      - `compact_20260112: Optional[CapabilitySupport]`
+
+        Indicates whether a capability is supported.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `effort: EffortCapability`
+
+      Effort (reasoning_effort) support and available levels.
+
+      - `high: CapabilitySupport`
+
+        Whether the model supports high effort level.
+
+      - `low: CapabilitySupport`
+
+        Whether the model supports low effort level.
+
+      - `max: CapabilitySupport`
+
+        Whether the model supports max effort level.
+
+      - `medium: CapabilitySupport`
+
+        Whether the model supports medium effort level.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+      - `xhigh: Optional[CapabilitySupport]`
+
+        Indicates whether a capability is supported.
+
+    - `image_input: CapabilitySupport`
+
+      Whether the model accepts image content blocks.
+
+    - `pdf_input: CapabilitySupport`
+
+      Whether the model accepts PDF content blocks.
+
+    - `structured_outputs: CapabilitySupport`
+
+      Whether the model supports structured output / JSON mode / strict tool schemas.
+
+    - `thinking: ThinkingCapability`
+
+      Thinking capability and supported type configurations.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+      - `types: ThinkingTypes`
+
+        Supported thinking type configurations.
+
+        - `adaptive: CapabilitySupport`
+
+          Whether the model supports thinking with type 'adaptive' (auto).
+
+        - `enabled: CapabilitySupport`
+
+          Whether the model supports thinking with type 'enabled'.
+
+  - `created_at: datetime`
+
+    RFC 3339 datetime string representing the time at which the model was released. May be set to an epoch value if the release date is unknown.
+
+    format: date-time
+
+  - `display_name: str`
+
+    A human-readable name for the model.
+
+  - `max_input_tokens: Optional[int]`
+
+    Maximum input context window size in tokens for this model.
+
+  - `max_tokens: Optional[int]`
+
+    Maximum value for the `max_tokens` parameter when using this model.
+
+  - `type: Literal["model"]`
+
+    Object type.
+
+    For Models, this is always `"model"`.
+
+    default: model
+
+## Example
+
+```python
+import os
+from anthropic import Anthropic
+
+client = Anthropic(
+    api_key=os.environ.get(
+        "ANTHROPIC_API_KEY"
+    ),  # This is the default and can be omitted
+)
+model_info = client.models.retrieve(
+    model_id="model_id",
+)
+print(model_info.id)
+```
+
+### Response (200)
+
+```json
+{
+  "id": "claude-opus-5",
+  "capabilities": {
+    "batch": {
+      "supported": true
+    },
+    "citations": {
+      "supported": true
+    },
+    "code_execution": {
+      "supported": true
+    },
+    "context_management": {
+      "clear_thinking_20251015": {
+        "supported": true
+      },
+      "clear_tool_uses_20250919": {
+        "supported": true
+      },
+      "compact_20260112": {
+        "supported": true
+      },
+      "supported": true
+    },
+    "effort": {
+      "high": {
+        "supported": true
+      },
+      "low": {
+        "supported": true
+      },
+      "max": {
+        "supported": true
+      },
+      "medium": {
+        "supported": true
+      },
+      "supported": true,
+      "xhigh": {
+        "supported": true
+      }
+    },
+    "image_input": {
+      "supported": true
+    },
+    "pdf_input": {
+      "supported": true
+    },
+    "structured_outputs": {
+      "supported": true
+    },
+    "thinking": {
+      "supported": true,
+      "types": {
+        "adaptive": {
+          "supported": true
+        },
+        "enabled": {
+          "supported": true
+        }
+      }
+    }
+  },
+  "created_at": "2026-07-24T00:00:00Z",
+  "display_name": "Claude Opus 5",
+  "max_input_tokens": 0,
+  "max_tokens": 0,
+  "type": "model"
+}
+```

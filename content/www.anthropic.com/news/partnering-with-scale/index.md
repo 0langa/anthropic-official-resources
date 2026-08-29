@@ -1,0 +1,39 @@
+Announcements
+
+# Partnering with Scale to Bring Generative AI to Enterprises
+
+Apr 26, 2023
+
+![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdf9f22e51ec2857161c30f0aa5f7c04eef0a84e0-5760x3240.png&w=3840&q=75)
+
+We are pleased to announce our partnership with [Scale](https://scale.com/), a leading platform for building, deploying and managing Generative AI applications. Scale customers will now be able to use Claude, our conversational AI assistant based on research into training helpful, honest, and harmless systems.
+
+Moving beyond experiments into real-world applications of AI requires resourcing and deep expertise. Businesses can now create applications on top of Claude using Scale's [robust deployment and management functionality](https://scale.com/generative-ai-platform).
+
+This partnership lets customers leverage Scale's services such as expert prompt engineering and model validation in order to improve performance and identify weaknesses. In addition, Scale’s enterprise-grade security will be available through a customer’s private AWS environment. Lastly, Scale’s data connectors will allow customers to import proprietary data sources like databases, Confluence, Google Drive and Outlook to work with Claude at scale.
+
+Dario Amodei, CEO of Anthropic, says, “Partnering with Scale allows us to bring our useful model, Claude, to more customers in a thoughtful, scalable way. By combining Scale's AI engineering capabilities with our values-based model development approach, customers now have more assistance as they build and deploy Generative AI applications. I'm excited about this partnership and the work we'll do together to positively shape the future of AI.”
+
+By combining Anthropic's Claude model and [Constitutional AI](https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback?token=91dScZBi-mOLCL2ht2JRXNaLktnej22N) system with Scale's robust tooling and functionality, customers gain an enterprise-ready solution to work with Generative AI. We look forward to sharing more details on our partnership to responsibly bring Claude to more organizations.
+
+The future of AI is collaborative. We are excited to collaborate with Scale.
+
+## Related content
+
+### Previewing the Model Hardware Standard
+
+We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.
+
+[Read more](https://www.anthropic.com/news/model-hardware-standard-research-preview)
+
+### Expanding our support for scientists
+
+Starting today, 10,000 scientists around the world can get Claude at no cost to start. Verified principal investigators qualify for a Claude Team subscription plan and then add their research team to Standard seats for free, or Premium seats for $15 per month, for up to a year.
+
+[Read more](https://www.anthropic.com/news/expanding-support-for-scientists)
+
+### Funding better evaluations of AI’s impact on wellbeing
+
+We’re launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.
+
+[Read more](https://www.anthropic.com/news/wellbeing-research-grants)

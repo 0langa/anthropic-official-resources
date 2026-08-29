@@ -1,0 +1,307 @@
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
+
+# Claude for the legal industry
+
+We're releasing 20+ new MCP connectors that link Claude to the software that the legal industry runs on and 12 new plugins tailored to specific legal work and practice areas.
+
+- Category
+
+  [Product announcements](https://claude.com/blog/category/announcements)
+- Product
+
+  [Claude Cowork](https://claude.com/product/cowork)
+- Date
+
+  May 12, 2026
+- Reading time
+
+  5
+
+  min
+- Share
+
+  [Copy link](https://claude.com/blog/claude-for-the-legal-industry)
+
+  https://claude.com/blog/claude-for-the-legal-industry
+
+Earlier this year we released our first legal plugin, and in the months since, legal professionals have become the most engaged Claude Cowork users of any knowledge-work function. We’re now building on that with a much larger set of tools.
+
+Legal work runs on a specific technology stack: contract lifecycle systems, research platforms, document management, e-discovery, data rooms, firm-specific precedents, and much more. Claude now connects to all of it through several key building blocks. First, [MCP connectors](https://claude.ai/directory/connectors) bring your legal work (the documents, communications, and records tied to specific matters) into Claude. Secondly, practice-area plugins package the tasks that lawyers run most often. And finally, because both are built on open protocols, firms and in-house teams can customize Claude to match the way they actually practice.
+
+Today we’re introducing 20+ new MCP connectors that link Claude to the software the legal industry already relies on, and 12 new plugins tailored to specific legal work and practice areas. And finally, we're partnering with the Free Law Project, the Justice Technology Association, and others working to put legal help within reach of people who can’t currently access it.
+
+‍
+
+Embedded media: https://www.youtube.com/embed/7-1tNo8HAwk
+
+## Claude works where legal teams work
+
+Claude meets legal teams where they are, working directly inside Microsoft Word, Outlook, Excel, and PowerPoint while carrying context across all four apps. A redline finished in Word doesn’t need to be re-explained when it becomes a cover note in Outlook, a closing checklist in Excel, or a board summary in PowerPoint.
+
+In **Word**, Claude skills—reusable instructions that encode a team's playbooks and standards—handle drafting, redlining, and clause-by-clause comparisons against those playbooks, tracking every change and explaining the reasoning behind it. They also take on the rote work in between every turn: scrubbing internal comments before a draft goes to the counterparty, running a final formatting check on an execution copy, and pulling fallback language from approved playbooks.
+
+In **Outlook**, Claude triages incoming matter work: flagging contract requests, drafting responses and cover notes, and scheduling follow-ups so nothing pile ups.
+
+In **Claude Cowork**, the same connectors and plugins are available for work that spans many documents: triaging a batch of contracts, clearing a product feature for launch, and drafting a note on regulatory developments for the board. Scheduled tasks can automate recurring work such as weekly regulatory update sweeps or intake triage.
+
+And with **Projects**, matter teams get a persistent workspace where precedents and prior drafts are retained across every conversation.
+
+## New connectors across the legal stack
+
+New MCP connectors let Claude interact with the systems that legal teams already rely on.
+
+**Contract lifecycle and drafting**
+
+- **Definely**, which gives live, deterministic access to contract structure for review: resolve definitions, validate cross-references, map dependencies, and run structural diffs to see how edits propagate across an agreement;**‍**
+- **Docusign,** which connects Claude to your agreement data so you can quickly surface key terms like renewal dates and obligations, and orchestrate agreement workflows across the contract lifecycle, from drafting through signature and post signature management;
+- **Ironclad**, which lets Claude access your contract repository and workflows and ask questions about contracts in plain language, with results automatically scoped to each user's permissions.
+
+**Deal rooms and transaction documents**:
+
+- **Box**, which connects Claude to content stored in Box to search and access files, query documents, create or update content, and extract metadata fields, while enforcing existing Box security and access policies;
+- **Datasite**, which connects Claude to your Datasite virtual data room—the secure workspace where thousands of M&A deals are facilitated annually—to set up folder structures, invite users, search documents, track buyer Q&A, and audit data room readiness.
+
+**Document management:**
+
+- **iManage,** a knowledge work platform, gives Claude permission-bound, auditable access to governed iManage content, including matter history, documents, and institutional knowledge, eliminating the need for bulk exports or custom integrations;**‍**
+- **NetDocuments**, which lets Claude search and retrieve documents from your NetDocuments repository and draft new documents based on your precedents, with full respect for your organization's permissions and governance policies.
+
+**Expert networks and skills:**
+
+- **Lawve AI,** which offers a curated library of legal AI skills written by practicing lawyers, in-house counsel, and legal technologists, searchable from inside Claude;
+- **The L Suite,** which offers two MCP connectors from their leading in-house counsel community: (1) Lloyd, which allows The L Suite members to connect Claude with the Braintrust member platform; and (2) TopCounsel, which helps any in-house counsel find the right outside counsel for a specific matter based on The L Suite's proprietary dataset and ranking algorithm.
+
+**E-discovery and review:**
+
+- **Consilio**, which puts a client’s own live matters and Consilio’s Aurora Legal AI at Claude's fingertips, with every response scoped to what the user is already entitled to see;
+- **Everlaw**, which provides a litigation platform, lets Claude search, organize, and retrieve documents from Everlaw projects using metadata, keywords, and document types, with direct review links;
+- **Relativity**, which lets Claude stand up matters, shape workspace schema, govern access, and analyze usage in its AI platform for legal data intelligence, RelativityOne.
+
+**Fiduciary-grade workflows:**
+
+- **Thomson Reuters,** which connects Claude to CoCounsel Legal, a fiduciary-grade system for end-to-end drafting, research, review, and validation across all major practice areas, serving as an AI assistant for high-stakes legal work, grounded in Westlaw primary law, Practical Law guidance, KeyCite, and your own documents, with transparent and verifiable outputs.
+
+**Legal research and case law:**
+
+- **Legal Data Hunter**, which gives Claude access to the world's fastest growing legal corpus: 31M+ documents from 160+ jurisdictions, including EU consolidated law, case law from supreme and constitutional courts, and official doctrine;
+- **Midpage**, which connects Claude to a database of case law for complex legal research, opinion review, and work product, with everything hyperlinked to real sources for easy verification;
+- **Trellis**, which gives Claude direct access to the largest state trial-court dataset in the US, including dockets, rulings, verdicts, and filings, for judge and opposing-counsel analytics and motion drafting.
+
+**Legal AI assistants:**
+
+- **Harvey**, which brings Harvey's legal intelligence into Claude, supporting general legal inquiries, analysis over Vault projects, and research questions for select knowledge sources;
+- **Solve Intelligence**, which connects Claude to patent and non-patent literature, legal texts, SEP technical standards, and the open web for prior-art search, claim mapping, and patent drafting.
+
+**Public service**
+
+- **BoardWise**, which guides licensed professionals facing state board matters: helping them understand deadlines, navigate their situation, and draft structured response letters tailored to their jurisdiction;
+- **Courtroom5**, which provides legal guidance to the roughly 80% of civil litigants who appear in court without an attorney, with jurisdiction-aware case intake, deadline calculation, and next-step guidance across all 50 states;
+- **Descrybe**, which gives Claude legal-research tools for working with primary law: search cases by concept or citation, check treatment status, find citing authorities, and verify quoted language;
+- **Free Law Project**, which connects Claude to CourtListener's millions of US court opinions, PACER dockets, judge profiles, oral arguments, and citation data.
+
+## Practice-area plugins
+
+Legal work looks different depending on the seat you're in. We're releasing 12 practice-area plugins (download them from the Legal Marketplace, [here](https://github.com/anthropics/claude-for-legal)), each built around a specific legal role. Every plugin starts with a short setup interview that learns your practice: your playbook, your escalation chain, your risk calibration, your house style, so Claude’s answers are not generic but rather tailored for your team. These include:
+
+- **Commercial Legal** reviews vendor agreements and NDAs against your playbooks and routes escalations with a plain-language summary for business stakeholders.
+- **Corporate Legal** handles M&A: diligence across the data room, disclosure schedules, board consents, and the closing checklist. It can be configured for board work, public-company governance, or entity compliance.
+- **Employment Legal** covers hires, terminations, worker classification, leave deadlines, and investigations, and drafts policies with state-specific rules built in.
+- **Privacy Legal** reviews DPAs against your playbook, triages PIAs and DPIAs, prepares DSAR responses within statutory timelines, and flags gaps between written policy and actual practice.
+- **Product Legal** runs launch reviews against your internal framework, checks marketing claims for substantiation, and answers risk questions from teams across the business.
+- **Regulatory Legal** monitors regulatory developments, filters them to your materiality threshold, compares new rules against your policy library, and tracks gaps and comment deadlines.
+- **AI Governance Legal** triages AI use cases against your governance tiers, runs impact assessments, reviews vendor AI terms, and can draft a starting AI policy.
+- **IP Legal** conducts trademark clearance and freedom-to-operate triage, drafts and responds to cease-and-desist letters, handles DMCA takedowns and open-source compliance, and screens invention disclosures.
+- **Litigation Legal** manages matter intake and portfolio tracking, legal holds, demand letters, subpoena triage, chronologies, deposition preparation, privilege logs, and brief drafting.
+- **Law Student** provides Socratic drilling, case briefs, IRAC grading, and bar preparation with jurisdiction-specific distinctions.
+- **Legal Clinic** manages client intake, deadline tracking, case memos, and the supervisor review queue.
+- **Legal Builder Hub** finds and installs community-built legal skills from public registries, running a security review, license check, and freshness check on every install and update.
+
+Each agent template can be installed in Cowork or Claude Code with a click, and produces outputs that match institutional drafting standards. [A subset of these](https://github.com/anthropics/claude-for-legal) (Commercial Legal, Corporate Legal, Litigation Legal, Product Legal, Litigation Legal) are also available as cookbooks that can be deployed as Managed Agents in the Claude Platform for programmatic use. Teams can layer on their own precedents and playbooks to customize the skills.
+
+Every legal organization works differently, and no single set of plugins can cover every practice. The plugin and skill ecosystem are open protocols, and early contributors including **Box, Legal Quants, Lawve AI**, and **Thomson Reuters** have already shipped skills, plugins, and style conventions of their own. Any partner can submit connectors and skills through the [Directory](https://preview.claude.ai/local_sessions/link).
+
+## Democratizing access to legal services with AI
+
+Legal services are out of reach for many people and small businesses, and the gap is widening. We’re working with the **Free Law Project**, **Justice Technology Association** and other legal aid and Public Service organizations to help make legal services more affordable and available.
+
+Qualifying legal aid clinics, public defenders, and nonprofit legal services organizations can gain access to significantly discounted pricing through the [Claude for Nonprofits program](https://claude.com/solutions/nonprofits). Free and low-cost tools from BoardWise, Courtroom5, Descrybe, and Free Law Project are available to Claude users via MCP connectors as well.
+
+> "Most people don't know they have legal rights until it's too late to use them. Claude can now meet them where they are — in the moment they're scared and searching for answers."  **- Sonja Ebron, CEO & Co-Founder, Courtroom5**
+
+## Trusted across the legal industry
+
+Firms and in-house teams have moved from testing Claude to running their practice on it — and the legal tools they rely on are increasingly built on Claude too. At our [Briefing: Enterprise Agents](https://www.anthropic.com/events/the-briefing-enterprise-agents-virtual-event) in February, Thomson Reuters showcased CoCounsel rebuilt on the Claude Agent SDK; with today's release, that integration runs both ways. Harvey, Solve Intelligence, and others below are doing the same.
+
+These updates build on Claude Opus 4.7, our most capable publicly available model for legal reasoning and long-document work.
+
+Here’s what legal teams and ecosystem partners have told us about working with Claude:
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a628c786b09b4f2392e96f3_logo_freshfields-light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a628c8a7203c6cb4010f6a4_logo_freshfields-dark.svg)
+
+“Our approach in the Freshfields Lab has always been to build on the best available technology. Claude’s capabilities have become an essential part of our proprietary AI-powered solutions. With this collaboration, we are going further: co-developing agentic workflows with Anthropic that can handle multi-step legal tasks end-to-end. For our clients, that translates into faster, more precise and more scalable legal services.”
+
+Gerrit Beckhaus, Partner and Co-Head
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68f679a0b07cb25d6830bc76_accenture_logo.svg.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68f679a262980d8650836fd9_accenture_logo.svg-1.svg)
+
+"My legal team at Accenture put Claude to work on everyday legal matters, and we have been very excited to see how productivity gains could be realized."
+
+Mindy Lok, Global IP Legal Lead and Legal Chief Technology Officer
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68ba1577e91d8296653388ca_Group%202055245285.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a186e574d077d020536326e_thomson_reuters_logo_white.svg)
+
+“The future of AI won’t be defined by where the work happens, it will be defined by whether the results can be trusted. In professional settings, that means AI grounded in authoritative content, validated for accuracy, and built with security at its core. That is the next frontier of trusted AI, and it’s where Thomson Reuters is leading through our work with Anthropic.”
+
+Joel Hron, CTO
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a01e520b1800d099e9e6a42_website-logo%201.png)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a01e541e1978bdf4a9c1cf9_logo_customer-dark-mode%20(13).png)
+
+"I built our litigation platform on Claude with virtually no coding background — I needed it for a real trial. The breakthrough was treating Claude like a member of the case team: onboard it with chronology, key excerpts, and themes the way you'd onboard a partner joining mid-case. The work product is far beyond what I would've done on my own — probably ever."
+
+Christopher D. Kercher, Partner, Founder & Head of AI & Data Analytics
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68c024045f129ad1fd87a3d7_Group.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68c0240a3029ad76b17b6e21_Clip%20path%20group.svg)
+
+“Legal is one of the most compelling industries for AI transformation, which is why we're excited to deepen our partnership with Anthropic. Claude Opus 4.7 scored 90.9% on Harvey's BigLaw Bench, the highest of any Claude model, and the Harvey for Claude Connector brings our legal intelligence directly into Claude.”
+
+Winston Weinberg, CEO & Co-Founder
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a276efd30d797636373e936_logo_crosby-legal-light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a276f22ffe36ff8dedff1ca_logo_crosby-legal-dark.svg)
+
+“Claude for Word brings the power of Claude's agents inside of lawyers' critical daily workflows. This frees up our team to focus on what matters most: lawyers applying expert judgment to complex edge cases, and engineers using rich context to build self-improving systems for clients.”
+
+Ryan Daniels, Co-Founder & CEO
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a04ae8eb86a40abc34d785a_legora-light-mode.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a04ae92b4eb674358e3cada_legora-dark-mode.svg)
+
+“Opus 4.7 is a step forward in reasoning for complex legal work — stronger consistency across long documents, better handling of nuanced instructions, and improved reliability in high-stakes workflows. Anthropic builds the underlying intelligence; Legora turns it into production-ready systems, embedding Claude into the workflows, safeguards, and interfaces lawyers can trust in practice. That combination is what drives real impact for legal professionals."
+
+Jake Lauritzen, CTO
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a01e607791f5220ab098d3a_image%201488.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a01e60c0ae105684d61876b_logo_customer-dark-mode%20(12)%201.svg)
+
+“At Holland & Knight, we appreciate that Everlaw is working with Anthropic and offering access to their tool through an MCP. We are applying Claude’s capabilities across many litigation workflows and see significant potential in realizing them in the right context. Everlaw allows us to bring the right evidence into the equation, unlocking additional power.”
+
+Manfred Gabriel, Partner
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a5e5b97ed26f0736cd8ef5b_evenup_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a5e5b9a67ae5f64f19fc17e_evenup_dark.svg)
+
+“PI law presents some of the toughest challenges for AI: reasoning across large volumes of medical records and billing data, identifying critical facts, and executing complex workflows with consistency and accuracy. Claude Opus 4.8 delivers a new level of reasoning, reliability, and long-context performance. EvenUp adds proprietary PI data, domain expertise, and purpose-built workflows on top.”
+
+Rami Karabibar, CEO and CoFounder
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69a1f5b54d02bb219730f388_logo_solveintelligence-light-mode.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69a1f5b87bdeab28825abf01_logo_solveintelligence-dark-mode.svg)
+
+“We're seeing major improvements in Claude Opus 4.7's multimodal understanding, from reading chemical structures to interpreting complex technical diagrams. The higher resolution support is helping Solve Intelligence build best-in-class tools for life sciences patent workflows, from drafting and prosecution to infringement detection and invalidity charting.”
+
+Sanj Ahilan, Chief Research Officer
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69ebbdde1a3d17f2d9e91607_eve-light-mode.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69ebbde617bb08ba0d0157b8_eve-dark-mode.svg)
+
+"We evaluate every model against 24+ legal-specific scorers — citation accuracy, ungrounded case quotes, memory leakage, refusal correctness — because in litigation, an authoritative-sounding hallucination is worse than no answer. Claude wins our internal bake-offs every time on the metrics that matter for legal work, particularly grounding and citation faithfulness. That's why the highest-stakes parts of our pipeline run on Anthropic."
+
+Jay Madheswaran, CEO and Co-Founder
+
+[Prev](https://claude.com/blog/claude-for-the-legal-industry)Prev
+
+0/5
+
+[Next](https://claude.com/blog/claude-for-the-legal-industry)Next
+
+eBook
+
+##
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+
+Embedded media:
+
+## Getting started
+
+The [new connectors](https://claude.ai/directory/connectors) and [practice-area plugins](https://github.com/anthropics/claude-for-legal) are open source and available in Claude Cowork. Enterprise admins can enable them in your workspace settings. [Learn more here](http://www.claude.com/solutions/legal) or [contact our sales team](https://claude.com/contact-sales).
+
+Register for our [launch webinar](http://website.anthropic.com/webinars/how-legal-teams-put-claude-to-work) to see the new features in action – we'll share live product walkthroughs, and cover how law firms and in-house teams can get the most out of Claude and the connected ecosystem. Builders can also explore community-maintained skills via Legal Quants and Lawvable.
+
+For legal aid and access-to-justice organizations who are interested in partnering, get in touch via our [Nonprofits program](https://claude.com/solutions/nonprofits).
+
+‍
+
+FAQ
+
+No items found.
+
+## Related posts
+
+Explore more product news and best practices for teams building with Claude.
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a90479f5433ec75978f1e8a_Object-Apple.svg)
+
+Aug 28, 2026
+
+### Claude for Teachers, now available for U.S. K-12 schools and districts
+
+Product announcements
+
+[Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/claude-for-the-legal-industry)Claude for Teachers, now available for U.S. K-12 schools and districts
+
+[Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts)Claude for Teachers, now available for U.S. K-12 schools and districts
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg)
+
+Aug 26, 2026
+
+### Claude gets its own browser in Cowork
+
+Product announcements
+
+[Claude gets its own browser in Cowork](https://claude.com/blog/claude-for-the-legal-industry)Claude gets its own browser in Cowork
+
+[Claude gets its own browser in Cowork](https://claude.com/blog/cowork-built-in-browser)Claude gets its own browser in Cowork
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
+
+Aug 26, 2026
+
+### Claude in Chrome is generally available
+
+Product announcements
+
+[Claude in Chrome is generally available](https://claude.com/blog/claude-for-the-legal-industry) Claude in Chrome is generally available
+
+[Claude in Chrome is generally available](https://claude.com/blog/claude-in-chrome-generally-available) Claude in Chrome is generally available
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+
+Aug 11, 2026
+
+### Compliance API coverage extends to Claude Cowork and Claude Code
+
+Enterprise AI
+
+[Compliance API coverage extends to Claude Cowork and Claude Code](https://claude.com/blog/claude-for-the-legal-industry)Compliance API coverage extends to Claude Cowork and Claude Code
+
+[Compliance API coverage extends to Claude Cowork and Claude Code](https://claude.com/blog/compliance-api-cowork-and-claude-code)Compliance API coverage extends to Claude Cowork and Claude Code
+
+## Transform how your organization operates with Claude
+
+See pricing
+
+[See pricing](https://claude.com/pricing)See pricing
+
+Contact sales
+
+[Contact sales](https://claude.com/contact-sales)Contact sales
+
+Get the developer newsletter
+
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+
+[Subscribe](https://claude.com/blog/claude-for-the-legal-industry)Subscribe
+
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+
+Thank you! You’re subscribed.
+
+Sorry, there was a problem with your submission, please try again later.

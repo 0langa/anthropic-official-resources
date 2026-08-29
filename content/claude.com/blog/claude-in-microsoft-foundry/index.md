@@ -1,0 +1,157 @@
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3f14a08cb97bf1b16d40ef_ObjectClouds.svg)
+
+# Claude in Microsoft Foundry is now generally available
+
+- Category
+
+  [Product announcements](https://claude.com/blog/category/announcements)
+- Product
+
+  [Claude Platform](https://claude.com/platform/api)
+- Date
+
+  June 29, 2026
+- Reading time
+
+  5
+
+  min
+- Share
+
+  [Copy link](https://claude.com/blog/claude-in-microsoft-foundry)
+
+  https://claude.com/blog/claude-in-microsoft-foundry
+
+Starting today, Claude models are generally available in Microsoft Foundry, hosted on Azure. Claude runs in your Azure environment with the authentication, billing, and governance controls your teams already use. You can choose where inference is processed, including a US data zone for teams with data residency requirements. Anthropic operates the inference and is the data processor.
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a204b023a1098addb579701_6a204a9b15a9f95c27630dc2_NVIDIA_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a2859e3adf1957b476f9302_NVIDIA_dark.svg)
+
+“At NVIDIA, we use autonomous AI agents every day to help our teams move faster and think bigger. Claude models bring strong reasoning, coding and enterprise capabilities that are valuable for complex technical work. With Claude now available in Microsoft Foundry running on NVIDIA GB300 GPUs, more organizations can run advanced, specialized AI agents with the performance, scale and security needed for production.”
+
+Justin Boitano, VP and GM Enterprise Computing
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f26e70e1444e31742ca027_logo_boltupdatedlogo-light-mode.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f26e76cdf0245458a77c3f_logo_boltupdatedlogo-dark-mode.svg)
+
+"Running Claude models on Azure has given us the sustained throughput and reliability our enterprise customers expect. The combination of frontier model quality and enterprise-grade infrastructure is what makes Bolt viable for the Fortune 500."
+
+Gary Ballabio, VP Partnerships
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4294731824c4a56d179e38_everstar_logo_text_black_transparent.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a429480abcaaadc64e5a626_everstar_logo_text_white_transparent.svg)
+
+"Between Anthropic and Azure, we get the best capabilities in the world and we get the best security in the world. And that's exactly what nuclear needs. It's how we compressed a safety analysis that would have taken 200 human days into a single day."
+
+Matt Huang, Founding Product Lead
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3ff92789d8b7fe87033d56_momentic_Logo_OffBlackonTransparent.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3ff9309a1295ecd91d8e21_momentic_Logo_OffWhiteonTransparent.svg)
+
+"Our customers describe their tests in plain English, and Momentic runs through the interface to verify everything works before a release ships. We found Claude Opus especially suited to this, and running it on Azure Foundry we now serve millions of tokens per minute with the reliability our customers depend on."
+
+Jeff An, Co-founder & CTO
+
+[Prev](https://claude.com/blog/claude-in-microsoft-foundry)Prev
+
+0/5
+
+[Next](https://claude.com/blog/claude-in-microsoft-foundry)Next
+
+eBook
+
+##
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+
+Embedded media:
+
+### **Build with Claude through your Azure account**
+
+To start, Claude Opus 4.8 and Claude Haiku 4.5 are available in the Messages API, with core capabilities like prompt caching and extended thinking to support use cases ranging from coding and agentic work to complex reasoning. We'll continue expanding what's available in Foundry over time.
+
+Claude in Microsoft Foundry is Azure-native, working with your existing Azure identity, networking, and governance controls. You receive a single consolidated invoice, and for eligible customers with a Microsoft Enterprise Agreement, Claude usage draws down a Microsoft Azure commitment.
+
+### **Run Claude in Azure, operated by Anthropic**
+
+There are two ways to run Claude in Microsoft Foundry. Choose *hosted on Azure*when running in your Azure environment matters, with Azure authentication, billing, governance, and a US data zone. Choose *hosted on Anthropic* (previously the Foundry Preview) when you need the full set of API features or a model that is not yet available on Azure. Over time, we aim to have feature and model parity between the hosted on Azure offering and the Anthropic-hosted one.
+
+### **Get started**
+
+Claude in Microsoft Foundry is generally available today. To get started, open [Claude in Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-claude?tabs=python) or explore the [documentation](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry).
+
+FAQ
+
+No items found.
+
+## Related posts
+
+Explore more product news and best practices for teams building with Claude.
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a90479f5433ec75978f1e8a_Object-Apple.svg)
+
+Aug 28, 2026
+
+### Claude for Teachers, now available for U.S. K-12 schools and districts
+
+Product announcements
+
+[Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/claude-in-microsoft-foundry)Claude for Teachers, now available for U.S. K-12 schools and districts
+
+[Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts)Claude for Teachers, now available for U.S. K-12 schools and districts
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg)
+
+Aug 26, 2026
+
+### Claude gets its own browser in Cowork
+
+Product announcements
+
+[Claude gets its own browser in Cowork](https://claude.com/blog/claude-in-microsoft-foundry)Claude gets its own browser in Cowork
+
+[Claude gets its own browser in Cowork](https://claude.com/blog/cowork-built-in-browser)Claude gets its own browser in Cowork
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
+
+Aug 26, 2026
+
+### Claude in Chrome is generally available
+
+Product announcements
+
+[Claude in Chrome is generally available](https://claude.com/blog/claude-in-microsoft-foundry) Claude in Chrome is generally available
+
+[Claude in Chrome is generally available](https://claude.com/blog/claude-in-chrome-generally-available) Claude in Chrome is generally available
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+
+Aug 11, 2026
+
+### Compliance API coverage extends to Claude Cowork and Claude Code
+
+Enterprise AI
+
+[Compliance API coverage extends to Claude Cowork and Claude Code](https://claude.com/blog/claude-in-microsoft-foundry)Compliance API coverage extends to Claude Cowork and Claude Code
+
+[Compliance API coverage extends to Claude Cowork and Claude Code](https://claude.com/blog/compliance-api-cowork-and-claude-code)Compliance API coverage extends to Claude Cowork and Claude Code
+
+## Transform how your organization operates with Claude
+
+See pricing
+
+[See pricing](https://claude.com/pricing)See pricing
+
+Contact sales
+
+[Contact sales](https://claude.com/contact-sales)Contact sales
+
+Get the developer newsletter
+
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+
+[Subscribe](https://claude.com/blog/claude-in-microsoft-foundry)Subscribe
+
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+
+Thank you! You’re subscribed.
+
+Sorry, there was a problem with your submission, please try again later.

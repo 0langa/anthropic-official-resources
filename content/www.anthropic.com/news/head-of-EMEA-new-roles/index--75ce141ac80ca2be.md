@@ -1,0 +1,37 @@
+Announcements
+
+# Anthropic appoints Guillaume Princen as Head of EMEA and announces 100+ new roles across the region
+
+Apr 8, 2025
+
+Anthropic today announced the appointment of Guillaume Princen as Head of EMEA. The company also revealed plans to expand across Europe, including its existing Dublin and London offices, creating more than 100 new roles across multiple functions this year.
+
+Guillaume brings a wealth of experience in scaling technology companies across markets. He was Stripe's first employee outside the United States when he joined in 2014. During his seven years there, he built and scaled Stripe's European operations, opening 12 offices and leading Stripe's successful expansion in Europe. Most recently served as CEO of Mooncard, the European expense management platform. Princen’s diverse background encompasses engineering, strategic consulting at McKinsey & Company, and active involvement in the European technology startup ecosystem as both an investor and advisor.
+
+“Our expansion across Europe and the UK comes at a critical moment when businesses need advanced AI capabilities that also prioritize security and privacy,” said **Guillaume Princen, Head of EMEA at Anthropic**. “European organizations are increasingly choosing Claude for its intelligence, speed, and industry-leading coding abilities, while consumers—particularly the tastemakers—are drawn to its certain *je ne sais quoi* in conversation and thoughtful design. To meet this remarkable demand, we're creating over 100 new roles this year dedicated to supporting our growing European customer base and ensuring our approach to responsible AI development continues to align with the region's high expectations.”
+
+Over the next year Anthropic intends to hire a variety of roles across sales, engineering, research, and business operations, primarily across its Dublin and London offices. Today's announcement builds on Anthropic's growing European footprint, which expanded earlier this year with the opening of a small research-focused office in Zurich led by AI scientist Neil Houlsby.
+
+**Daniela Amodei, President and co-founder of Anthropic, said**: “EMEA has been central to our vision from the beginning. Since launching Claude in Europe last year, we've seen rapid organic growth amongst businesses and consumers alike, confirming the region’s strategic importance to Anthropic's future. We've long planned to deepen our investment here, and finding the right leadership in Guillaume was the critical piece that allowed us to move forward with the thoughtful expansion we envision. Guillaume brings invaluable expertise in scaling businesses across diverse EMEA markets and his commitment to responsible innovation made him a natural choice to lead this next phase of our growth. Our focus remains on serving the thriving startup ecosystem while continuing to deliver Claude's capabilities to major enterprises across the region—providing the advanced performance, security, and reliability that leading organizations need to transform how they work with AI.”
+
+For more information about current career opportunities at Anthropic visit [anthropic.com/careers](http://anthropic.com/careers).
+
+## Related content
+
+### Previewing the Model Hardware Standard
+
+We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.
+
+[Read more](https://www.anthropic.com/news/model-hardware-standard-research-preview)
+
+### Expanding our support for scientists
+
+Starting today, 10,000 scientists around the world can get Claude at no cost to start. Verified principal investigators qualify for a Claude Team subscription plan and then add their research team to Standard seats for free, or Premium seats for $15 per month, for up to a year.
+
+[Read more](https://www.anthropic.com/news/expanding-support-for-scientists)
+
+### Funding better evaluations of AI’s impact on wellbeing
+
+We’re launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.
+
+[Read more](https://www.anthropic.com/news/wellbeing-research-grants)

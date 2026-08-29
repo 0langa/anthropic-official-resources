@@ -1,0 +1,67 @@
+Announcements
+
+# Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem
+
+Jun 17, 2026
+
+![Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem](https://www-cdn.anthropic.com/images/4zrzovbb/website/ffc0d7957a232518519f13c0d64896921ea215e2-1000x1000.svg)
+
+We’ve just opened our [Seoul office](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea). Alongside it, we’re announcing new partnerships across the Korean AI ecosystem, with the enterprises, startups, and researchers behind some of the most ambitious uses of Claude. We’ve also signed a Memorandum of Understanding (MOU) with Korea’s Ministry of Science and ICT to advance AI safety.
+
+“What I see in Korea are teams who understand that innovation and safety are two sides of the same coin,” said KiYoung Choi, Representative Director of Korea at Anthropic. “Korean organizations are building with Claude to bring the benefits of AI to millions around the world. Opening an office in Seoul gives a long-term home to our work alongside the people shaping Korean leadership in AI.”
+
+This week, senior leaders from Anthropic traveled to Seoul to open the office and meet with partners, customers, and developers building with Claude.
+
+## **Supporting Korea’s AI ambitions**
+
+## 
+
+Anthropic has signed an MOU with Korea’s Ministry of Science and ICT to support the safe and responsible adoption of AI across the public sector. Together, we’ll collaborate on AI safety and cybersecurity, including evaluating model safety in the Korean language with the Korea AI Safety Institute, and exchanging information on AI-enabled cyber threats.
+
+## Expanding our work with enterprises and startups
+
+From [WRTN](https://claude.com/customers/wrtn) to [Law&Company](https://claude.com/customers/law-and-company), Korean organizations have been working with Claude for years. Today, we are sharing new examples of how Claude is running across the Korean economy.
+
+Some of the deepest adoption is happening among developers. NAVER, a leader in cloud and AI innovation in Asia, has recently deployed Claude Code across its entire engineering organization. Thousands of NAVER engineers are now using Claude Code to diversify their coding tools and maximize coding productivity. At global online game company Nexon, engineering teams use Claude Code to write, review, and ship code for live-service games played by millions around the world.
+
+Korea’s largest business groups are also deploying Claude. LG CNS, the IT services arm of LG Group, is rolling out Claude to thousands of employees, who are using it to develop software and deliver technology solutions for clients. It will also deploy Claude across LG Group. Hanwha Solutions—the energy, chemicals, and advanced materials arm of Hanwha—is bringing Claude to global employees through AWS Bedrock, meeting strict in-region data-residency and security requirements. Samsung SDS, the IT services arm of Samsung Group, is deploying Claude to employees across Samsung Electronics. Teams are using Claude—including Claude Cowork and Claude Code—to advance day-to-day knowledge work, agentic workflows, and software development at scale.
+
+And startups are building Claude directly into their products. Channel Corp uses Claude to power Channel Talk, its customer AI platform that resolves customer inquiries and analyzes service and sales data to deliver business insights—used by over 230,000 companies across Korea, Japan, and the United States.
+
+## Supporting research and beneficial deployments
+
+Our work in Korea also reaches beyond the private sector. To deepen ties with the academic research community, we will work with the National AI Research Lab (NAIRL), a consortium spanning KAIST, Korea University, Yonsei University, and POSTECH. Anthropic will provide Claude access to up to 60 NAIRL-affiliated researchers, supporting work on AI safety, model evaluation, alignment, robustness, and broader frontier AI research.
+
+In the nonprofit sector, Good Neighbors Korea—a child rights specialist NGO—is deploying Claude to help staff analyze program outcomes, navigate social welfare law and internal guidelines, and cut down on the administrative work that keeps them from the field.
+
+“Good Neighbors Korea is exploring how responsible AI transformation can support frontline social workers, protect vulnerable populations, and strengthen service delivery,” said Jeongsun Park, Chief Administrative Officer, Good Neighbors Korea. “As we deploy Claude across our organization, we expect the efficiency gains to free our staff from administrative workload so they can focus more on what matters most: serving vulnerable children and communities.”
+
+## Building with the developer community
+
+According to our latest [Economic Index](https://www.anthropic.com/economic-index), Korea is among the top dozen countries in the world for Claude.ai use, much of it concentrated in technical and creative work. It is also home to one of our most active developer communities, with startups building for global markets from day one. To support them, [Claude for Startups](https://claude.com/programs/startups) is live in Korea, and [Claude Meetups](https://claude.com/community) have drawn hundreds of Korean developers since September 2025.
+
+This week, we co-hosted [Claude Build Day](https://luma.com/ht1jlnwy) with BASS Ventures, bringing together more than 100 Korean founders and developers with engineering, product, and startup leaders from Anthropic for an afternoon of hands-on building. We will also co-host a [Push to Prod](https://luma.com/elhey8nv) hackathon with Replit, Korea Investment Partners, and Korea Investment Accelerator. Startup teams will build with Claude Code and get mentorship from Anthropic and Replit engineers.
+
+Our Seoul office—led by [KiYoung Choi](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea), who brings three decades of experience leading technology businesses across Korea—is now open and hiring across a range of roles. To learn more about joining the team, visit our [careers page](https://www.anthropic.com/careers).
+
+*Updated June 18 to add details on MOU with the Korean government.*
+
+## Related content
+
+### Previewing the Model Hardware Standard
+
+We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.
+
+[Read more](https://www.anthropic.com/news/model-hardware-standard-research-preview)
+
+### Expanding our support for scientists
+
+Starting today, 10,000 scientists around the world can get Claude at no cost to start. Verified principal investigators qualify for a Claude Team subscription plan and then add their research team to Standard seats for free, or Premium seats for $15 per month, for up to a year.
+
+[Read more](https://www.anthropic.com/news/expanding-support-for-scientists)
+
+### Funding better evaluations of AI’s impact on wellbeing
+
+We’re launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.
+
+[Read more](https://www.anthropic.com/news/wellbeing-research-grants)

@@ -139,7 +139,12 @@ Spawn 4 teammates to refactor these modules in parallel. Use Sonnet for
 each teammate.
 ```
 
-When your prompt doesn't name a model for a teammate, Claude Code runs the teammate on the lead's current model, unless [`CLAUDE_CODE_SUBAGENT_MODEL`](/docs/en/model-config#environment-variables) is set.
+Claude Code picks each teammate's model from the first of these that applies:
+
+1. [`CLAUDE_CODE_SUBAGENT_MODEL`](/docs/en/model-config#environment-variables), when it's set to anything other than `inherit`.
+2. The model your spawn prompt names for that teammate.
+3. For an in-process teammate spawned from a [subagent definition](#use-subagent-definitions-for-teammates), the definition's `model`.
+4. The lead's current model.
 
 <Note>
   `teammateDefaultModel` was removed in v2.1.234; Claude Code ignores a leftover value. Name the model in your prompt or set `CLAUDE_CODE_SUBAGENT_MODEL` instead.
@@ -252,17 +257,19 @@ There is no project-level equivalent of the team config. A file like `.claude/te
 
 When spawning a teammate, you can reference a [subagent](/docs/en/sub-agents) type from any [subagent scope](/docs/en/sub-agents#choose-the-subagent-scope): project, user, plugin, or CLI-defined. This lets you define a role once, such as a security-reviewer or test-runner, and reuse it both as a delegated subagent and as an agent team teammate.
 
-To use a subagent definition, mention it by name when asking Claude to spawn the teammate:
+To use a subagent definition, name it when you ask Claude to spawn the teammate:
 
 ```text wrap theme={null}
 Spawn a teammate using the security-reviewer agent type to audit the auth module.
 ```
 
-The teammate honors that definition's `tools` allowlist and `model`, and for an in-process teammate Claude Code appends the definition's body to the teammate's system prompt as additional instructions rather than replacing it. For an in-process teammate, Claude Code adds `SendMessage` to that allowlist. In a [session that has the Task tools](/docs/en/tools-reference#task-tool-availability), Claude Code adds `TaskCreate`, `TaskGet`, `TaskList`, and `TaskUpdate` to it too.
+Claude Code reads the subagent definition you named and applies these parts of it to the teammate. Where a part depends on the teammate's [display mode](#choose-a-display-mode), the entry says so:
 
-<Note>
-  The `skills` and `mcpServers` frontmatter fields in a subagent definition are not applied when that definition runs as an in-process teammate. In-process teammates load skills and MCP servers from your project and user settings, the same as a regular session.
-</Note>
+* **`tools`**: Claude Code limits the teammate to the tools in the definition's `tools` list. For an in-process teammate, Claude Code adds `SendMessage` to that list, and in a [session that has the Task tools](/docs/en/tools-reference#task-tool-availability) it adds `TaskCreate`, `TaskGet`, `TaskList`, and `TaskUpdate` too.
+* **`model`**: for an in-process teammate, Claude Code uses the definition's `model` when neither `CLAUDE_CODE_SUBAGENT_MODEL` nor your spawn prompt names a model. A split-pane teammate doesn't use the definition's `model`. See [how Claude Code picks a teammate's model](#specify-teammates-and-models).
+* **Body**: for an in-process teammate, Claude Code appends the definition's body to its default system prompt as additional instructions. For a split-pane teammate, Claude Code uses the body in place of its default system prompt.
+* **`skills`**: Claude Code doesn't apply the definition's `skills` to a teammate in either display mode. The teammate loads skills from your project and user settings.
+* **`mcpServers`**: for a split-pane teammate, Claude Code applies the definition's `mcpServers` under the [rules for that field](/docs/en/sub-agents#scope-mcp-servers-to-a-subagent), which cover a session started with `--agent` as well. An in-process teammate ignores the field and loads MCP servers from your project and user settings.
 
 ### Permissions
 
@@ -286,7 +293,7 @@ Each teammate has its own context window. When spawned, a teammate loads the sam
 **How teammates share information:**
 
 * **Automatic message delivery**: when teammates send messages, they're delivered automatically to recipients. The lead doesn't need to poll for updates.
-* **Idle notifications**: when a teammate finishes and stops, it automatically notifies the lead. The notification doesn't carry the teammate's output; a teammate shares results by messaging the lead or updating the shared task list. As of v2.1.198, a teammate whose turn ends on an API error notifies the lead that it failed and includes the error text, instead of appearing to finish normally.
+* **Idle notifications**: when a teammate finishes and stops, it automatically notifies the lead and includes its final answer in the notification. A teammate whose turn ends on an API error notifies the lead that it failed and includes the error text.
 * **Shared task list**: [agents that have the Task tools](/docs/en/tools-reference#task-tool-availability) can see task status and claim available work.
 * **Teammate messaging**: send a message to one specific teammate by name. To reach everyone, send one message per recipient.
 
@@ -403,12 +410,9 @@ If teammates aren't appearing after you ask Claude to spawn them:
 
 ### Claude spawns teammates instead of subagents
 
-While agent teams are enabled, a subagent that Claude names in the lead's session launches as a teammate. Claude [can name subagents on its own](#how-claude-starts-agent-teams), so this can happen during delegation you never framed as team work. Subagents and teammates report back differently:
+While agent teams are enabled, a subagent that Claude names in the lead's session launches as a teammate. Claude [can name subagents on its own](#how-claude-starts-agent-teams), so this can happen during delegation you never framed as team work.
 
-* **Subagents**: Claude receives the subagent's result when it completes.
-* **Teammates**: the [idle notification](#context-and-communication) reports that the teammate stopped, without its output.
-
-An orchestration flow that waits on subagent results can stall. To make named subagents launch as subagents again, turn agent teams off by setting `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS` to `0`:
+To make named subagents launch as subagents again, turn agent teams off by setting `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS` to `0`:
 
 ```json settings.json theme={null}
 {

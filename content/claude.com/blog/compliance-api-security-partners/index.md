@@ -1,0 +1,148 @@
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+
+# Claude now works with more security and compliance tools
+
+- Category
+
+  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
+- Product
+
+  [Claude Enterprise](https://claude.com/solutions/enterprise)
+
+  [Claude Platform](https://claude.com/platform/api)
+- Date
+
+  May 21, 2026
+- Reading time
+
+  5
+
+  min
+- Share
+
+  [Copy link](https://claude.com/blog/compliance-api-security-partners)
+
+  https://claude.com/blog/compliance-api-security-partners
+
+***Update****: We've expanded to over 60 top security and compliance partner integrations, see the full list in our* [*Help Center*](https://support.claude.com/en/articles/15167101-get-started-with-claude-compliance-api-integrations)*.*
+
+‍
+
+Today we're introducing 28 integrations with notable security and compliance tools. Now IT and security teams can govern Claude across our platform and suite of products, the same way they govern other applications in their stack.
+
+## How it works
+
+All of these new integrations are powered by the Claude Compliance API, which gives enterprise security and compliance teams programmatic access to two types of data:
+
+- **Conversation content from Claude Enterprise** — including chats, uploaded files, and projects — so admin teams can apply the same security, monitoring and DLP policies to Claude that they already use for other workplace applications.
+- **Activity events across both Claude Enterprise and the Claude Platform** — user logins, admin actions, and configuration changes — so security teams get a unified view of how Claude is used across the organization.
+
+## Claude Compliance API integrations
+
+Integrations are available now from over 60 top security and compliance providers across the categories enterprises rely on — spanning DLP, SASE, data security, SIEM and security operations, identity, eDiscovery, AI security posture management, and AI observability and telemetry infrastructure.
+
+New integrations include: [Air](https://www.air.security/claude-air-integration), [Akto](https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/anthropic-connector), [Artemis Security](https://artemissecurity.com/company-news/secure-your-enterprise-ai-artemis-now-integrates-with-anthropic-compliance-api-and-telemetry/), [Axonius](https://docs.axonius.com/docs/anthropic), [Bay](https://bay.security/use-cases/platform/claude), [Beacon Security](https://beacon.security/beacon-for-anthropic-compliance-api), [Bloom Security](https://bloom.security/anthropic-compliance-api-integration), [Bold Security](https://www.bold.security/blog/bold-security-extends-ai-data-protection-through-claudes-compliance-api), [Brava Security](https://brava.security/integrations/anthropic-claude), [C1.ai](https://www.c1.ai/docs/baton/claude-enterprise), [Check Point](https://sc1.checkpoint.com/documents/Infinity_Portal/WebAdminGuides/EN/Workforce-AI-Security-Admin-Guide/Topics-Workforce-AI-Security-AG/Integration-_laude-Enterprise.htm?tocpath=Integrations%7C_____2), [Cloudflare](http://blog.cloudflare.com/casb-anthropic-integration), [Cribl](https://cribl.io/news/essential-visibility-for-claude-enterprise-cribl-stream-integrates-with-the-claude-compliance-api/), [CrowdStrike](https://www.crowdstrike.com/en-us/press-releases/crowdstrike-delivers-visibility-and-monitoring-for-claude-activity/), [Cyera](https://www.cyera.com/blog/cyera-and-anthropic-integrate-to-bring-real-time-ai-security-to-claude-enterprise), [Dash Security](https://dash.security/integrations/claude-enterprise), [Datadog](https://docs.datadoghq.com/integrations/anthropic_compliance_logs/), [Daylight](https://daylight.ai/claude-enterprise-detection), [Elastic](https://www.elastic.co/docs/reference/integrations/anthropic), [Exaforce](https://www.exaforce.com/blogs/anthropic-integration), [ForceAI Security](https://forceaisecurity.com/documents/claude-compliance-integration), [Forcepoint](https://forcepoint.com/blog/insights/forcepoint-claude-compliance-api), [Fortinet](https://www.fortinet.com/anthropic), [Geordie AI](http://www.geordie.ai/resources/geordie-extends-agentic-ai-security-and-governance-coverage-through-claude-compliance-api), [Grip Security](https://help.grip.security/docs/anthropic-claude-compliance-api-integration-with-grip-security-1), [Harmonic Security](https://docs.harmonicsecurity.app/integration-guides/configure-anthropic-compliance-api-connector), [IBM Guardium](https://www.ibm.com/products/guardium), [Island](https://www.island.io/blog/island-integrates-with-the-claude-compliance-api), [Linx Security](https://docs.linxsecurity.io/connectors/connectors-library/anthropic/claude.ai), [Microsoft Purview](https://www.microsoft.com/en-us/security/business/microsoft-purview), [Mimecast](http://mimecast.com/use-cases/ai-governance/), [Mint Security](https://docs.mint.security/integrations/claude/claude), [Netskope](https://www.netskope.com/press-releases/netskope-announces-integration-with-claudes-compliance-api-to-strengthen-data-security-and-governance), [Nightfall AI](https://help.nightfall.ai/nightfall-for-anthropic-claude/nightfall-for-claude-enterprise-compliance-api), [Okta](http://www.okta.com/newsroom/articles/okta-identity-security-posture-management-integrates-with-anthropics-new-compliance-api), [Onyx Security](https://onyx.security/integrations/anthropic), [Opsin](https://www.opsinsecurity.com/claude-integration), [Palo Alto Networks](https://www.paloaltonetworks.com/blog/cloud-security/claude-security-integration-ai-governance), [Pluto Security](https://pluto.security/blog/claude-enterprise-meets-ai-security-platform/), [Proofpoint](https://www.proofpoint.com/us/blog/information-protection/governing-claude-you-govern-your-people-claude-compliance-api), [Reco](https://readme.reco.ai/docs/data_source_id_anthropic_compliance), [Relativity](https://help.relativity.com/RelativityOne/Content/Collect/Data_sources/Claude.htm), [ReliaQuest](https://reliaquest.com/news-and-press/reliaquest-greymatter-now-integrates-with-claude-compliance-api), [Rubrik](https://www.rubrik.com/blog/company/26/5/monitor-claude-with-rubrik-agent-cloud-and-the-claude-compliance-api), [Safeguard](https://safeguard.sh/mcp/claude), [SailPoint](https://www.sailpoint.com/press-releases/sailpoint-announces-claude-compliance-integration-anthropic), [Saviynt](https://exchange.saviynt.com/products/claude-enterprise), [SentinelOne](https://sentinelone.com/blog/sentinelone-and-claude-integrations-for-ai-visibility-governance-and-defense), [Sentra](https://sentra.io/guides/sentra-claude-enterprise-integration-guide), [Smarsh](https://www.smarsh.com/channel/claude-enterprise/), [Snyk](https://snyk.io/blog/claude-enterprise-integration-desktop-expansion/), [Sumo Logic](https://www.sumologic.com/blog/sumo-logic-claude-compliance-api-integration), [Sysdig](https://www.sysdig.com/integrations/anthropic), [Tenable](https://www.tenable.com/), [Theta Lake](https://thetalake.com/integrations/anthropic/), [Token Security](https://www.token.security/blog/token-security-brings-anthropic-claude-compliance-api-into-its-identity-control-plane), [Torch Security](https://www.torch.security/integrations/claude/), [Trellix](https://trellix.com/platform/wise/), [TrendAI](https://www.trendmicro.com/en_us/research/26/f/governing-claude-enterprise.html), [Varonis](https://www.varonis.com/blog/claude-compliance-api-integration), [Wiz](https://www.wiz.io/blog/claude-wiz-integration) (now part of Google Cloud), [Zenity](https://zenity.io/use-cases/platform/claude-enterprise), and [Zscaler](https://www.zscaler.com/products-and-solutions/data-security).
+
+For organizations already using one of these security and compliance platforms, enabling coverage over your Claude usage is straightforward: connect and configure your Claude instance, and the data flows into the same dashboards and alerting workflows you use for everything else.
+
+## Getting started
+
+**For Claude customers:** To connect your Claude instance to a supported partner platform, visit our [Help Center](https://support.claude.com/en/articles/15167101-get-started-with-claude-compliance-api-integrations) and review the Compliance API documentation for [Claude Enterprise](https://support.claude.com/en/articles/13015708-access-the-compliance-api) and the [Claude Platform](https://platform.claude.com/docs/en/manage-claude/compliance-api).
+
+**For security partners:** If you're a security, compliance, or IT platform that has built a Compliance API integration, [apply here](https://forms.gle/1rkBcdwwR5bLLD82A) to join the network.
+
+No items found.
+
+[Prev](https://claude.com/blog/compliance-api-security-partners)Prev
+
+0/5
+
+[Next](https://claude.com/blog/compliance-api-security-partners)Next
+
+eBook
+
+##
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+
+Embedded media:
+
+FAQ
+
+No items found.
+
+## Related posts
+
+Explore more product news and best practices for teams building with Claude.
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
+
+Aug 28, 2026
+
+### How Anthropic employees use Claude Tag
+
+Enterprise AI
+
+[How Anthropic employees use Claude Tag](https://claude.com/blog/compliance-api-security-partners)How Anthropic employees use Claude Tag
+
+[How Anthropic employees use Claude Tag](https://claude.com/blog/how-anthropic-employees-use-claude-tag)How Anthropic employees use Claude Tag
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+
+Aug 21, 2026
+
+### The AI-Native SDLC playbook
+
+Enterprise AI
+
+[The AI-Native SDLC playbook](https://claude.com/blog/compliance-api-security-partners)The AI-Native SDLC playbook
+
+[The AI-Native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-Native SDLC playbook
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+
+Aug 11, 2026
+
+### Compliance API coverage extends to Claude Cowork and Claude Code
+
+Enterprise AI
+
+[Compliance API coverage extends to Claude Cowork and Claude Code](https://claude.com/blog/compliance-api-security-partners)Compliance API coverage extends to Claude Cowork and Claude Code
+
+[Compliance API coverage extends to Claude Cowork and Claude Code](https://claude.com/blog/compliance-api-cowork-and-claude-code)Compliance API coverage extends to Claude Cowork and Claude Code
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22727482c9ba6a02e71_1576ae23eaf481f33bd36ab468171cc69d12361a-1000x1000.svg)
+
+Aug 25, 2026
+
+### Bain & Company joins the Claude Partner Network as a Global Premier partner
+
+Enterprise AI
+
+[Bain & Company joins the Claude Partner Network as a Global Premier partner](https://claude.com/blog/compliance-api-security-partners)Bain & Company joins the Claude Partner Network as a Global Premier partner
+
+[Bain & Company joins the Claude Partner Network as a Global Premier partner](https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner)Bain & Company joins the Claude Partner Network as a Global Premier partner
+
+## Transform how your organization operates with Claude
+
+See pricing
+
+[See pricing](https://claude.com/pricing)See pricing
+
+Contact sales
+
+[Contact sales](https://claude.com/contact-sales)Contact sales
+
+Get the developer newsletter
+
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+
+[Subscribe](https://claude.com/blog/compliance-api-security-partners)Subscribe
+
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+
+Thank you! You’re subscribed.
+
+Sorry, there was a problem with your submission, please try again later.

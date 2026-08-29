@@ -1,0 +1,64 @@
+var e=`---
+kind: widget-copy
+---
+
+{/* Learner-facing copy for SettingPrecedence.tsx (see academy-web
+    src/components/mdx/WidgetCopy.tsx). Keys are machine identifiers —
+    translate ONLY the text between the tags. \`{name}\` tokens are runtime
+    placeholders and must survive verbatim: slash commands, flags, setting
+    keys and level names are product syntax filled in by the widget, and
+    the config snippets themselves stay in the widget. */}
+
+<Copy k="kicker">Which setting wins</Copy>
+<Copy k="title">
+  Turn layers on and pick a level for each to see which one takes effect.
+</Copy>
+
+<Copy k="layer.env.title">Environment variable</Copy>
+<Copy k="layer.env.name">environment variable</Copy>
+<Copy k="layer.env.note">
+  Wins over everything below, even a running skill or subagent that sets its
+  own.
+</Copy>
+<Copy k="layer.frontmatter.title">Skill or subagent frontmatter</Copy>
+<Copy k="layer.frontmatter.name">skill or subagent frontmatter</Copy>
+<Copy k="layer.frontmatter.note">
+  Only while that skill or subagent is running.
+</Copy>
+<Copy k="layer.session.title">Set during this session</Copy>
+<Copy k="layer.session.name">set during this session</Copy>
+<Copy k="layer.session.note">
+  What you last set in the session you are in. {effort} and {model} also save
+  {low} through {xhigh} for next time; {flag} and {max} end with the session.
+</Copy>
+<Copy k="layer.settings.title">{key} in settings</Copy>
+<Copy k="layer.settings.name">{key} in settings</Copy>
+<Copy k="layer.settings.note">
+  The level a new session starts at. Takes {low} through {xhigh}, not {max}.
+</Copy>
+<Copy k="layer.aria.level">Layer {n} level</Copy>
+<Copy k="layer.aria.switch">Layer {n} on</Copy>
+<Copy k="layer.off">off</Copy>
+
+<Copy k="default.title">Model default</Copy>
+<Copy k="default.note">
+  What you get when nothing above is set. {cmd} resets you to it.
+</Copy>
+<Copy k="default.always">always on</Copy>
+<Copy k="default.value">model default</Copy>
+
+<Copy k="status.winner">In effect</Copy>
+<Copy k="status.shadowed">Overridden by layer {n}</Copy>
+<Copy k="status.off">Not set</Copy>
+
+<Copy k="result.heading">Effort in effect right now</Copy>
+<Copy k="result.from">resolved from layer {n}, {name}</Copy>
+<Copy k="result.nothing">nothing set above</Copy>
+<Copy k="ignored">{list} {label}</Copy>
+<Copy k="ignored.label">ignored</Copy>
+<Copy k="ignored.item">{level} from layer {n}</Copy>
+<Copy k="cap">
+  An organization cap, if you have one, trims the levels available at every
+  layer. The order stays the same.
+</Copy>
+`;export{e as default};

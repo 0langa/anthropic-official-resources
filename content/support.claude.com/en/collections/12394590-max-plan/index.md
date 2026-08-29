@@ -1,0 +1,7 @@
+# Max plan
+
+2 articles
+
+[What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
+
+[How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)

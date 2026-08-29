@@ -1,0 +1,11 @@
+Quiz 7 of 8 · Claude with Amazon BedrockQuiz on Model Context Protocol
+
+# Quiz on Model Context Protocol
+
+Quiz 76 min
+
+## Sign in to take the quiz
+
+Quizzes are graded on your account so your progress and completion-badge eligibility are saved. Sign in with your Claude account to start.
+
+[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-amazon-bedrock%2Fquiz-on-model-context-protocol)

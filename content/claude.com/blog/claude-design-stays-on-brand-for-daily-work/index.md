@@ -1,0 +1,201 @@
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
+
+# Claude Design now stays on brand for daily work
+
+- Category
+
+  [Product announcements](https://claude.com/blog/category/announcements)
+- Product
+
+  [Claude Design](https://claude.com/product/design)
+
+  [Claude Code](https://claude.com/product/claude-code)
+- Date
+
+  June 17, 2026
+- Reading time
+
+  5
+
+  min
+- Share
+
+  [Copy link](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)
+
+  https://claude.com/blog/claude-design-stays-on-brand-for-daily-work
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a32d4f7ae9712d1f8ef661e_Claude-Design-beta-static.webp)
+
+[Claude Design](https://claude.com/product/design) now sticks to your design system across projects, works fluidly with Claude Code, lets you edit directly on the canvas, and connects to more tools you already use. It has a new home in the sidebar on the Claude desktop app; https://claude.com/product/design
+
+Our goal remains the same as before: letting you explore more directions than a deadline usually allows and making the handoff to polish or build as seamless as possible. That goal now serves a lot more people. Over one million people used Claude Design in its first week, and your feedback is shaping what we build next.
+
+## Build with your design system components
+
+We rebuilt the design system import to give you more flexibility and increase precision. Bring in one or several design systems from a GitHub repo, design files, or raw uploads. Claude builds with your components, checks its output against your design system, and makes corrections before you see it. For larger teams, a new admin role can approve one standard system and lock down edits, so the work always matches your company guidelines.
+
+## Move between design and code
+
+It's now easier to move between working in Claude Design and Claude Code while keeping your work synced, with updates rolling out today. Use /design-sync to pull in your design system, so everything you build in Claude Design starts from your existing components. When a design is ready to become software, you can hand it off to Claude Code, which continues from your existing work instead of starting over from a screenshot.
+
+Prefer to begin in Claude Code? You can create, edit, and sync design projects without leaving the terminal using /design. Import a design into your codebase, turn your code into a live prototype, or let Claude carry a project all the way through.
+
+> "Claude design gives me the intelligence of frontier models with the functionality & capabilities of tried & true design tools. Anytime I'm working on design directions for Tenex's site, new brand assets, or presentations, Claude Design is the first place I go. The combination of approachable UX with strong taste & design instinct is why it's become a core part of my tech stack. And then the hand-off between Claude Design and Claude Code makes the process of prototype to production seamless."   
+>   
+> - Alex Lieberman, Cofounder, Morning Brew & Tenex
+
+## Steadier for daily work
+
+Our new editor gives you direct, fine-grained control over every element of your designs. New, rich layout controls let you drag, resize, and align elements. Hundreds of stability fixes make the editor hold up under real use.
+
+Claude Design also now shares usage limits with chat, Claude Cowork, and Claude Code, so most people will get much more headroom to create, and those hitting limits will do so less often. The average turn now uses fewer tokens to achieve the same results, and errors are down sharply.
+
+## From the canvas to the tools you use
+
+Export reliably to PDF and PowerPoint or send your work to the apps you already use—the list of connectors now includes Adobe, Base44, Canva, Gamma, Lovable, Miro, Replit, Vercel and Wix, with more destinations coming soon.
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5ad4f0fb6998a6283f1dd_Replit_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5ad55e5f775cb92a97c52_Replit_dark.svg)
+
+“Replit and Anthropic share a belief that anyone, anywhere should be able to bring their ideas to life with AI. Our mutual goal is to meet builders wherever ideas begin. The Claude Design MCP integration is a natural next step: builders can now design on-brand apps in Claude Design and build, refine, and ship them in Replit, all in one seamless experience.”
+
+Michele Catasta, President & Head of AI
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68bb5f628079049002c70825_Lovable-light-theme.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68bb5f6571ade0cef16d3413_Lovable-dark-theme.svg)
+
+"At Lovable, we believe the people closest to a problem should have the power to solve it themselves. Through our partnership with Claude Design, we're excited to see even more people sketching out solutions for the world around them. Now they can seamlessly bring those ideas to life inside Lovable as production-ready applications."
+
+Fabian Hedin, Co-founder
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68bb5eb091e9b1deda6f7435_Gamma-light-theme.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68bb5eb921a69f6d1bc0efb1_Gamma-dark-theme.svg)
+
+“Generating a deck is the easy part now; making it yours has always been the hard part. Connecting Claude Design to Gamma closes that gap, we built this with Anthropic so anything you design in Claude can move straight into Gamma, fully editable, the moment you want to take it further.”
+
+Jon Noronha, Co-founder
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6952bab10409176786d3ff57_Wix%20logoW_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6952bab40b2f8edf129df088_Wix%20logoB_dark.svg)
+
+“Wix has always been a home for designers - we're now excited to be taking that one step further with Anthropic. Claude Design connects seamlessly to Wix Headless, giving designers a straight path to Wix's backend infrastructure without leaving their creative process. The design community can now take their UX vision from first sketch to a fully functional, scalable product - exactly the way they imagined it.”
+
+Hagit Kauffman, VP of Brand and Design
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a32f3c077a6f746c3b8bd0a_adobe-logo_color.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a32f3c3f6940852aa73fd76_adobe-logo_white.svg)
+
+"Adobe’s mission is to empower everyone to create — wherever they choose to work. We're excited to build on our Anthropic collaboration, making it possible for anyone to start their concepts in Claude and use the Adobe for creativity connector to take social posts, presentations, flyers and more from draft to done in Adobe Express. Marketers can also turn an idea from Claude Design into a personalized, on-brand website or email campaign ready to deliver to customers in just a few clicks with Adobe Experience Manager and Adobe Journey Optimizer."
+
+Govind Balakrishnan, Senior Vice President, Express Product Group, Creativity & Productivity
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a32e4d71f0791469e8be823_miro_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a32e4d885a6b7820d8a4630_miro_dark.svg)
+
+"Miro is where teams come together to turn ideas into impactful decisions, on a shared canvas built for collaboration. Connecting with Claude Design means a concept can land on that canvas early, ready for the whole team to refine and build on together. It's been great working with Anthropic to make that first step from idea to alignment feel effortless."
+
+Jeff Chow, Chief Product and Technology Officer
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5ae5cc28a7f003e87512b_Vercel_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5ae58a9b3ff9512c20db4_Vercel_dark.svg)
+
+“At Vercel, we're focused on shortening the path from idea to production. That's why we like Claude Design. Designers and developers can take a first concept all the way to a polished, on-brand interface, then push it straight to Vercel to ship.”
+
+Andrew Qu, Chief of Software
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5a94f6f82b1f84f489887_Canva_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5a94baddb6685c1e5410d_Canva_dark.svg)
+
+"We've loved partnering with Anthropic and seeing how users turn an initial prompt in Claude Design, into real, usable work inside Canva's AI and design platform. Design is deeply human. People don't just want faster ways to create, they want their work to feel personalized and full of intent. Canva brings that layer to the process, helping people move from idea to outcome while staying in control of the design. We're excited to keep building on this."
+
+Cameron Adams, Co-founder and CPO
+
+[Prev](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Prev
+
+0/5
+
+[Next](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Next
+
+eBook
+
+##
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+
+Embedded media:
+
+## Getting started
+
+Claude Design is in beta on Claude Pro, Max, Team, and Enterprise plans and included with your subscription. It’s turned off by default for Enterprise users; admins can enable it in organization settings, and work is shareable only within your organization. Find it at [claude.ai/design](https://claude.ai/design) or in the sidebar on the desktop app. Bring in your design system and create. No ideas? Ask for three directions on your next landing page, and pick the one worth refining.
+
+FAQ
+
+No items found.
+
+## Related posts
+
+Explore more product news and best practices for teams building with Claude.
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a90479f5433ec75978f1e8a_Object-Apple.svg)
+
+Aug 28, 2026
+
+### Claude for Teachers, now available for U.S. K-12 schools and districts
+
+Product announcements
+
+[Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Claude for Teachers, now available for U.S. K-12 schools and districts
+
+[Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts)Claude for Teachers, now available for U.S. K-12 schools and districts
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg)
+
+Aug 26, 2026
+
+### Claude gets its own browser in Cowork
+
+Product announcements
+
+[Claude gets its own browser in Cowork](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Claude gets its own browser in Cowork
+
+[Claude gets its own browser in Cowork](https://claude.com/blog/cowork-built-in-browser)Claude gets its own browser in Cowork
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
+
+Aug 26, 2026
+
+### Claude in Chrome is generally available
+
+Product announcements
+
+[Claude in Chrome is generally available](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work) Claude in Chrome is generally available
+
+[Claude in Chrome is generally available](https://claude.com/blog/claude-in-chrome-generally-available) Claude in Chrome is generally available
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+
+Aug 11, 2026
+
+### Compliance API coverage extends to Claude Cowork and Claude Code
+
+Enterprise AI
+
+[Compliance API coverage extends to Claude Cowork and Claude Code](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Compliance API coverage extends to Claude Cowork and Claude Code
+
+[Compliance API coverage extends to Claude Cowork and Claude Code](https://claude.com/blog/compliance-api-cowork-and-claude-code)Compliance API coverage extends to Claude Cowork and Claude Code
+
+## Transform how your organization operates with Claude
+
+See pricing
+
+[See pricing](https://claude.com/pricing)See pricing
+
+Contact sales
+
+[Contact sales](https://claude.com/contact-sales)Contact sales
+
+Get the developer newsletter
+
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+
+[Subscribe](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Subscribe
+
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+
+Thank you! You’re subscribed.
+
+Sorry, there was a problem with your submission, please try again later.

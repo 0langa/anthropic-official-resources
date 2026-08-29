@@ -1,4 +1,473 @@
 {
+  "https://academy.claude.com/courses/ai-capabilities-and-limitations/course-quiz": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/ai-fluency-for-builders/course-quiz": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/ai-fluency-for-creative-work/ai-roles-as-delegation-outcomes": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/ai-fluency-for-creative-work/course-quiz": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/ai-fluency-for-creative-work/description-and-discernment": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/ai-fluency-for-creative-work/putting-it-all-together": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/ai-fluency-for-creative-work/the-production-lens": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/ai-fluency-for-k-12-educators/course-quiz": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/ai-fluency-for-nonprofits/course-quiz": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/ai-fluency-for-nonprofits/data-analysis-with-ai": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/ai-fluency-for-nonprofits/researching-with-ai": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/ai-fluency-for-nonprofits/the-4d-framework": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/ai-fluency-for-nonprofits/understanding-privacy-and-data": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/ai-fluency-for-nonprofits/workflow-augmentation": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/ai-fluency-for-nonprofits/writing-with-ai": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/ai-fluency-for-small-businesses/ai-fluency-for-small-businesses": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/ai-fluency-for-small-businesses/course-quiz": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/ai-fluency-for-small-businesses/researching-with-ai": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/ai-fluency-for-small-businesses/tying-it-all-together": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/ai-fluency-for-small-businesses/using-data-with-ai": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/ai-native-sdlc-playbook/give-claude-a-feedback-loop": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/building-with-the-claude-api/quiz-on-accessing-claude-with-the-api": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/building-with-the-claude-api/quiz-on-agents-and-workflows": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/building-with-the-claude-api/quiz-on-features-of-claude": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/building-with-the-claude-api/quiz-on-model-context-protocol": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/building-with-the-claude-api/quiz-on-prompt-engineering-techniques": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/building-with-the-claude-api/quiz-on-prompt-evaluation": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/building-with-the-claude-api/quiz-on-tool-use-with-claude": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-code-101/badge": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://academy.claude.com/courses/claude-code-101/course-quiz": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-code-in-action/course-quiz": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-code-in-action/steering-long-sessions": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/claude-platform-101/claude-platform-101-quiz": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-platform-101/your-first-api-call": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/claude-with-amazon-bedrock/final-assessment-quiz": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-with-amazon-bedrock/quiz-on-features-of-claude": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-with-amazon-bedrock/quiz-on-model-context-protocol": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-with-amazon-bedrock/quiz-on-prompt-engineering": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-with-amazon-bedrock/quiz-on-prompt-evaluations": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-with-amazon-bedrock/quiz-on-retrieval-augmented-generation": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-with-amazon-bedrock/quiz-on-tool-use": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-with-amazon-bedrock/quiz-on-working-with-the-api": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/final-assessment-quiz": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/quiz-on-accessing-claude-with-the-api": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/quiz-on-agents-and-workflows": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/quiz-on-features-of-claude": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/quiz-on-model-context-protocol": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/quiz-on-prompt-engineering-techniques": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/quiz-on-prompt-evaluation": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/quiz-on-retrieval-augmented-generation": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/quiz-on-tool-use-with-claude": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/certificate-quiz": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/introduction-to-claude-cowork/badge": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://academy.claude.com/courses/introduction-to-claude-cowork/quiz-on-claude-cowork": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
+  "https://academy.claude.com/courses/teaching-ai-fluency/ai-s-impact-and-your-discipline": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/teaching-ai-fluency/designing-assignments-for-ai-fluency": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/teaching-ai-fluency/how-do-we-assess-the-4ds": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/teaching-ai-fluency/the-delegation-diligence-loop": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/teaching-ai-fluency/the-description-discernment-loop": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/courses/teaching-ai-fluency/welcome-approaches-to-teaching-ai-fluency": [
+    "Transcript control present, but transcript capture could not be confirmed."
+  ],
+  "https://academy.claude.com/products/claude/courses": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://academy.claude.com/products/claude/tutorials": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://academy.claude.com/products/code/courses": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://academy.claude.com/products/code/tutorials": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://academy.claude.com/products/cowork/tutorials": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://claude.com/blog": [
+    "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js, https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+  ],
+  "https://claude.com/blog/agent-identity-access-model": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/agent-view-in-claude-code": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/analysis-tool": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/artifacts-in-claude-code": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/automate-security-reviews-with-claude-code": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous": [
+    "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js, https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+  ],
+  "https://claude.com/blog/build-artifacts": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/build-responsive-web-layouts": [
+    "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js, https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+  ],
+  "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/building-verification-loops-in-claude-code-with-skills": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/building-with-claude-managed-agents": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/claude-and-slack": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/claude-builds-visuals": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/claude-code-and-slack": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/claude-code-desktop-redesign": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/claude-code-on-the-web": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/claude-code-remote-mcp": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/claude-excel-powerpoint-updates": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/claude-for-chrome": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/claude-for-the-legal-industry": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/claude-managed-agents": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/claude-powered-artifacts": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/claude-security-public-beta": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/code-review": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/connectors-directory": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/connectors-for-everyday-life": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/context-management": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/cowork-built-in-browser": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/cowork-chrome-side-panel": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/cowork-for-enterprise": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/cowork-plugins-across-enterprise": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/cowork-web-mobile": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/create-files": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/dispatch-and-computer-use": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/enterprise-managed-auth": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/evaluate-prompts": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/how-anthropic-uses-claude-cybersecurity": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/how-anthropic-uses-claude-legal": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/how-anthropic-uses-claude-marketing": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/integrate-apis-seamlessly": [
+    "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js, https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+  ],
+  "https://claude.com/blog/integrations": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/interactive-tools-in-claude": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/introduction-to-agentic-coding": [
+    "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js, https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+  ],
+  "https://claude.com/blog/key-benefits-transitioning-agentic-coding": [
+    "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js, https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+  ],
+  "https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/memory": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/optimize-code-performance-quickly": [
+    "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js, https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+  ],
+  "https://claude.com/blog/opus-4-6-finance": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/organization-skills-and-directory": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/preview-review-and-merge-with-claude-code": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/product-development-in-the-agentic-era": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/product-management-on-the-ai-exponential": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/productivity-platforms": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/prompt-generator": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/prompt-improver": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/research": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/running-an-ai-native-engineering-org": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/scaling-agentic-coding": [
+    "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js, https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+  ],
+  "https://claude.com/blog/self-serve-enterprise": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/skills": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/skills-explained": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/team-plan-and-ios": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/think-through-hard-problems-in-voice-mode": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/tool-use-ga": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/web-search-api": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/what-is-model-context-protocol": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js, https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+  ],
+  "https://claude.com/blog/working-at-the-frontier-cursor": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/blog/your-thinking-partner": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://code.claude.com/docs/_llms/cn": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://code.claude.com/docs/_llms/de": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://code.claude.com/docs/_llms/es": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://code.claude.com/docs/_llms/fr": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://code.claude.com/docs/_llms/id": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://code.claude.com/docs/_llms/it": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://code.claude.com/docs/_llms/jp": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://code.claude.com/docs/_llms/ko": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://code.claude.com/docs/_llms/pt-br": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://code.claude.com/docs/_llms/ru": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://code.claude.com/docs/_llms/zh-hant": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://code.claude.com/docs/en": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://code.claude.com/docs/en/accessibility": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
@@ -7,6 +476,9 @@
   ],
   "https://code.claude.com/docs/en/advisor": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk": [
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/agent-sdk/agent-loop": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -125,6 +597,15 @@
   "https://code.claude.com/docs/en/auto-mode-config": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://code.claude.com/docs/en/azure-ai-foundry": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://code.claude.com/docs/en/bedrock-vertex": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://code.claude.com/docs/en/bedrock-vertex-proxies": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://code.claude.com/docs/en/best-practices": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
@@ -179,8 +660,14 @@
   "https://code.claude.com/docs/en/claude-tag": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://code.claude.com/docs/en/claude_code_docs_map": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://code.claude.com/docs/en/cli-reference": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/cli-usage": [
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/cloud-environments": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -266,6 +753,9 @@
   "https://code.claude.com/docs/en/gateways": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://code.claude.com/docs/en/getting-started": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://code.claude.com/docs/en/github-actions": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
@@ -298,6 +788,12 @@
   ],
   "https://code.claude.com/docs/en/how-claude-code-works": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/iam": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://code.claude.com/docs/en/ide-integrations": [
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/interactive-mode": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -464,6 +960,9 @@
   "https://code.claude.com/docs/en/slack": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://code.claude.com/docs/en/slash-commands": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://code.claude.com/docs/en/statusline": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
@@ -473,8 +972,14 @@
   "https://code.claude.com/docs/en/terminal-config": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://code.claude.com/docs/en/terminal-guide": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://code.claude.com/docs/en/third-party-integrations": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/tools": [
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/tools-reference": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -484,6 +989,9 @@
   ],
   "https://code.claude.com/docs/en/troubleshooting": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/ultraplan": [
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/ultrareview": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -496,6 +1004,12 @@
   ],
   "https://code.claude.com/docs/en/web-quickstart": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/web-scheduled-tasks": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://code.claude.com/docs/en/whats-new": [
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w13": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -572,6 +1086,15 @@
   "https://code.claude.com/docs/en/zero-data-retention": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://code.claude.com/docs/mcp": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://code.claude.com/docs/quickstart": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs": [
+    "Content dependencies blocked by scope or robots policy: https://js.hcaptcha.com/1/api.js, https://s-cdn.anthropic.com/s.js"
+  ],
   "https://platform.claude.com/docs/en/about-claude/additional-resources": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
@@ -581,8 +1104,14 @@
   "https://platform.claude.com/docs/en/about-claude/model-deprecations": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://platform.claude.com/docs/en/about-claude/models": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/about-claude/models/choosing-a-model": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5": [
+    "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/about-claude/models/migration-guide": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -592,6 +1121,15 @@
   ],
   "https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/models/overview": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-6": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-7": [
+    "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/about-claude/pricing": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -739,6 +1277,33 @@
   ],
   "https://platform.claude.com/docs/en/api/admin": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/admin-api/apikeys/list-api-keys": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/admin-api/invites/get-invite": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/admin-api/organization/get-me": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/admin-api/usage-cost/get-cost-report": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/admin-api/usage-cost/get-messages-usage-report": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/admin-api/users/get-user": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/admin-api/workspace_members/get-workspace-member": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/admin-api/workspaces/get-workspace": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/admin-api/workspaces/list-workspaces": [
+    "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/admin/analytics": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -1799,11 +2364,32 @@
   "https://platform.claude.com/docs/en/api/beta/webhooks": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://platform.claude.com/docs/en/api/canceling-message-batches": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/claude-code/routines-fire": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://platform.claude.com/docs/en/api/claude-platform-on-aws-iam-actions": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/cli/beta/environments": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/cli/beta/memory_stores": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/cli/beta/sessions/events/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/cli/beta/sessions/threads": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/cli/messages/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/client-sdks": [
+    "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/completions": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -1997,6 +2583,9 @@
   "https://platform.claude.com/docs/en/api/compliance/organizations/users/list": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://platform.claude.com/docs/en/api/deleting-message-batches": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/errors": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
@@ -2018,11 +2607,182 @@
   "https://platform.claude.com/docs/en/api/files/upload": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://platform.claude.com/docs/en/api/handling-stop-reasons": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/admin": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/admin/analytics/skills/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/admin/cost_report/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/admin/usage_report/retrieve_messages": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/files": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/files/delete": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/files/download": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/files/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/files/retrieve_metadata": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/files/upload": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/messages": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/messages/count_tokens": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/messages/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/models": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/models/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/models/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/skills": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/skills/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/skills/delete": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/skills/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/skills/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/tunnels": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/tunnels/archive": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/tunnels/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/tunnels/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/tunnels/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/tunnels/reveal_token": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/tunnels/rotate_token": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/user_profiles": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/user_profiles/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/user_profiles/create_enrollment_url": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/user_profiles/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/user_profiles/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/user_profiles/update": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/webhooks": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/webhooks/unwrap": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/completions": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/completions/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/compliance": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/compliance/activities": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/artifacts/download": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/delete": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/files/delete": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/generated_files/download": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/messages": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/collaborators": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/remote/messages": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations/settings": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/files/upload": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/messages/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/models": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/models/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/ip-addresses": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://platform.claude.com/docs/en/api/listing-message-batches": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/messages": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/messages-count-tokens": [
+    "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/messages/batches": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -2054,6 +2814,9 @@
   "https://platform.claude.com/docs/en/api/models": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://platform.claude.com/docs/en/api/models-list": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/models/list": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
@@ -2063,8 +2826,14 @@
   "https://platform.claude.com/docs/en/api/overview": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://platform.claude.com/docs/en/api/python/models/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/rate-limits": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/retrieving-message-batches": [
+    "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/service-tiers": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -2105,6 +2874,9 @@
   "https://platform.claude.com/docs/en/api/versioning": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/build-with-claude/batch-processing": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
@@ -2113,6 +2885,9 @@
   ],
   "https://platform.claude.com/docs/en/build-with-claude/citations": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/claude-code-analytics-api": [
+    "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -2177,6 +2952,9 @@
   "https://platform.claude.com/docs/en/build-with-claude/prompt-caching": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering": [
+    "Content dependencies blocked by scope or robots policy: https://s-cdn.anthropic.com/s.js"
+  ],
   "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
@@ -2228,6 +3006,9 @@
   "https://platform.claude.com/docs/en/build-with-claude/token-counting": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://platform.claude.com/docs/en/build-with-claude/usage-cost-api": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/build-with-claude/vision": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
@@ -2236,6 +3017,9 @@
   ],
   "https://platform.claude.com/docs/en/build-with-claude/working-with-messages": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/workspaces": [
+    "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/claude_api_primer": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -2555,8 +3339,14 @@
   "https://platform.claude.com/docs/en/models/sonnet-5/whats-new-sonnet-5": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://platform.claude.com/docs/en/release-notes/api": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/release-notes/overview": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts": [
+    "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -2636,7 +3426,1347 @@
   "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-prompt-leak": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://platform.claude.com/docs/videos/ant-cli-demo.webm": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10015870-what-certifications-has-anthropic-obtained": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10023638-why-am-i-receiving-an-output-blocked-by-content-filtering-policy-error": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10023646-i-think-a-user-is-infringing-my-copyright-or-other-intellectual-property-how-do-i-report-it": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10035659-where-can-i-learn-more-about-anthropic-s-privacy-practices": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/10065433-install-claude-desktop": [
     "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10065434-use-dictation-on-claude-mobile": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10166901-use-google-workspace-connectors": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10167454-use-the-github-integration": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10185996-how-to-change-your-pro-plan-from-monthly-to-annual-billing": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10186004-api-console-roles-and-permissions": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10263469-use-claude-app-intents-shortcuts-and-widgets-on-ios": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10280779-how-do-i-learn-more-about-amazon-and-anthropic-s-strategic-collaboration": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10280783-where-do-i-find-claude-in-amazon-bedrock-documentation": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10280791-what-aws-regions-are-claude-models-available-in-amazon-bedrock": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10302511-access-claude-for-ios-on-your-lock-screen-control-center-and-action-button": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10310342-how-do-i-log-out-of-all-active-sessions": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10366376-how-can-i-delete-my-claude-console-account": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10366389-how-can-i-get-higher-rate-limits-on-the-claude-api": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10366421-how-does-claude-handle-mathematical-equations-and-calculations": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10366432-i-m-getting-an-api-connection-error-how-can-i-fix-it": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10416553-official-anthropic-marketing-email-addresses": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10440198-configure-custom-data-retention-controls-for-enterprise-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10504844-manage-user-feedback-settings-on-team-and-enterprise-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10504853-manage-user-feedback-settings-on-claude-console": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10534883-use-the-claude-widget-on-android": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10593882-share-and-unshare-chats": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10684626-enable-and-use-web-search": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10684638-report-block-and-remove-content-from-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10769299-how-to-use-claude-in-your-preferred-language": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)**": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11049741-what-is-the-max-plan": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11049762-choose-a-claude-plan": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11088861-use-research-on-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11095361-when-should-i-use-web-search-extended-thinking-and-research": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11101966-use-voice-mode": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11107691-why-is-a-coupon-or-promotion-not-available-for-my-account": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11139094-get-started-with-claude-for-education-at-your-university-for-owners-admins": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11139144-use-claude-for-education-at-your-university": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11174108-about-the-development-partner-program": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11174660-online-safety-contacts": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11199177-anthropic-s-ai-for-science-program": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11408405-claude-4-invite-contest": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11427875-public-vulnerability-reporting": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11595103-designated-point-of-contact-for-users-in-the-eu": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11596036-anthropic-connectors-directory-faq": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11697081-anthropic-mcp-directory-terms-and-conditions": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11697096-anthropic-mcp-directory-policy": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11725091-when-to-use-desktop-and-web-connectors": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11725453-set-up-the-claude-lti-in-canvas-by-instructure": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11818288-why-am-i-being-asked-to-verify-my-payment-method": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11825384-how-to-update-claude-for-ios": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11825394-how-to-update-claude-for-android": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11869619-use-claude-with-ios-apps": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11869629-use-claude-with-android-apps": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/11940350-claude-code-model-configuration": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12004354-purchase-and-manage-seats-on-team-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12005017-using-agents-according-to-our-usage-policy": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12012173-getting-started-with-claude-in-chrome": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12053672-what-happens-to-a-user-s-data-when-they-are-removed-from-a-team-or-enterprise-organization": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12083917-change-your-team-plan-from-monthly-to-annual-billing": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12109679-creating-a-new-account-after-deletion": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12119250-model-safety-bug-bounty-program": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12138966-release-notes": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12157520-claude-code-usage-analytics": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12260368-use-incognito-chats": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12293051-use-claude-in-xcode": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12304248-manage-api-key-environment-variables-in-claude-code": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12335811-report-a-concern-australian-dis-standard-compliance": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12386328-request-a-refund-for-a-paid-claude-plan": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12386420-claude-code-faq": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12449294-understanding-sonnet-4-5-s-api-safety-filters": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12466728-troubleshoot-claude-error-messages": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12489464-use-enterprise-search": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12512176-what-are-skills": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12512180-use-skills-in-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12512180-using-skills-in-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12512198-creating-custom-skills": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12512198-how-to-create-custom-skills": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12542951-set-up-the-microsoft-365-connector": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12592343-enabling-and-using-the-desktop-extension-allowlist": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12618689-claude-code-on-the-web": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12622667-enterprise-configuration": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12622667-enterprise-configuration-for-claude-desktop": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12738598-adapt-to-new-model-personas-after-deprecations": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12864745-use-claude-in-microsoft-foundry": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12938695-how-to-redeem-a-claude-gift-subscription": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12997503-team-plan-billing-faqs": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13015708-access-the-compliance-api": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13047024-how-to-get-support-for-claude-for-government": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13117299-minimum-age-requirement-access-restriction": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13124001-managing-your-active-sessions": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13132885-setting-up-single-sign-on-sso": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13145338-anthropic-software-directory-terms": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13163631-configuring-session-security-settings": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13163666-holiday-2025-usage-promotion": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13171706-crisis-helpline-support-in-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13198485-enforce-network-level-access-control-with-tenant-restrictions": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13200993-restrict-access-to-claude-with-ip-allowlisting": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13325567-account-management-faqs": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13345190-get-started-with-cowork": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13345190-get-started-with-cowork)**": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13346458-customizing-your-console-appearance-settings": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13346720-export-your-organization-s-data": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13364135-use-claude-cowork-safely": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13371040-log-in-to-your-console-account": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13393991-purchase-and-manage-seats-on-enterprise-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13403291-how-can-i-check-connectivity-to-the-claude-api": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13443687-switching-to-a-different-identity-provider-idp": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13443764-inviting-members-to-the-claude-console": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13641943-visual-and-interactive-content": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13663666-use-visual-and-interactive-content-on-team-and-enterprise-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13756069-public-sector-faqs": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13776697-join-an-organization-via-invite-link": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13799932-manage-groups-and-group-spend-limits-on-enterprise-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13837433": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13837433-manage-plugins-for-your-organization": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13837440-use-plugins-in-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13917817-google-workspace-sso-scim-email-mismatch": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13917829-microsoft-entra-id-sso-scim-email-mismatch": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13917840-okta-sso-scim-email-mismatch": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13917861-onelogin-sso-scim-email-mismatch": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13917875-ping-identity-sso-scim-email-mismatch": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13917884-google-workspace-sso-setup": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13917889-microsoft-entra-id-sso-setup": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13917894-okta-sso-setup": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13917899-onelogin-sso-setup": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13917902-ping-identity-sso-setup": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13930452-manage-custom-roles-on-enterprise-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13930458-set-up-role-based-permissions-on-enterprise-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13947068": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/13979539-custom-visuals-in-chat-and-cowork": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14051822-notice-regarding-consumption-tax-jct-for-japanese-customers": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14128542": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14128775-claude-code-on-console-to-enterprise-migration": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14233555-set-up-code-review-for-claude-code": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14246112-buy-usage-bundles": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14328960-identity-verification-on-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14447276-configure-a-custom-opentelemetry-collector-for-office-agents": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14499648-how-scim-sync-works-for-enterprise-organizations": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14503520-available-beta-and-research-preview-features": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14503590-get-started-with-claude-for-government": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14503613-sso-login": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14503643-set-up-scim-in-claude-for-government": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14503675-organization-instructions-in-claude-for-government": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14503689-mcp-connectors": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14503703-mcp-individual-connectors": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14503775-mcp-web-search": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14503794-model-availability-in-claude-for-government": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14503804-classification-banner-in-claude-for-government": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14546867-set-organization-instructions": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14552382-your-first-day-in-claude-code": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14552646-troubleshoot-claude-code-installation-and-authentication": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14553240-give-claude-context-claude-md-and-better-prompts": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14553413-claude-code-cheatsheet": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14553517-claude-code-common-developer-use-cases": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14554000-claude-code-power-user-tips": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14554922-claude-code-user-faq": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14555399-claude-code-champion-kit": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14555877-claude-code-communications-kit": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14604406-claude-design-admin-guide-for-team-and-enterprise-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14604416-get-started-with-claude-design": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14625619-claim-and-migrate-accounts-on-your-domain": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14625626-respond-to-an-enterprise-domain-claim-on-your-claude-account": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14661296-use-claude-security": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14729294-open-claude-desktop-with-a-link": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14729354-use-analytics-chat-to-ask-claude-about-usage": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14730684-how-claude-suggests-connected-apps": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14793921-find-and-join-a-console-organization": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/14898120-open-the-claude-mobile-app-with-a-link": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15167101-get-started-with-claude-compliance-api-integrations": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15171100-age-assurance-on-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15183774-connect-to-microsoft-365": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15263885-designate-support-contacts-for-human-support": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15282265-claude-enterprise-activation-promo-for-claude-code-and-cowork": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15330088-set-a-default-model-for-your-organization": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15330651-claude-enterprise-admin-api-reference-guide": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-5": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15402193-restrict-verified-domain-connectors-to-your-enterprise": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15422948-enable-us-only-inference-for-your-organization": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15424964-claude-fable-5-on-your-plan": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15425695": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15425695-covered-models": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15425996-data-retention-practices-for-covered-models": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15455031-covered-models-under-a-business-associate-agreement-baa": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15505325-what-are-customer-managed-encryption-keys-cmek": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15537633-authorize-mcp-connectors-for-your-entire-organization": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15591275-child-safety-guidance-for-developers": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15594475-what-is-claude-tag": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15672559-see-your-monthly-recap": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15672868-set-break-reminders-and-quiet-hours": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15694740-manage-model-access-for-your-organization": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15707726-using-claude-for-legal-work-privilege-confidentiality-and-how-to-think-about-configuration": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15811196-what-to-expect-with-claude-cowork-in-the-cloud": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15862783-claude-fable-5-one-time-free-credits-promotion": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15924927-use-claude-code-cli-with-a-screen-reader": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15926041-claude-for-teachers-your-data-and-our-terms": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15927065-get-started-with-skill-and-plugin-scanning": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15936181-get-started-with-1password-for-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/16049681-why-claude-switched-models-in-your-conversation-with-opus-5": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/16059458-inference-hooks-overview": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/16559896-set-up-claude-for-teachers-for-your-school-or-district": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/16563838-get-started-with-claude-science": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/16607400-use-the-built-in-browser-in-claude-cowork": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/16607638-understanding-your-pro-or-max-plan-invoices": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/16607668-understanding-your-team-plan-invoices": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/16608069-understanding-your-claude-api-invoices": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/16634237-claude-team-plan-for-scientists": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/16635803-set-up-browser-use-in-claude-cowork-for-team-and-enterprise-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/7996853-introduction-to-prompt-design": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/7996862-how-do-i-view-and-sign-your-data-processing-addendum-dpa": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/7996906-report-block-and-remove-content-from-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/7996918-what-is-amazon-bedrock": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/7996920-how-do-i-get-access-to-claude-in-amazon-bedrock": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/7996921-i-use-claude-in-amazon-bedrock-who-do-i-contact-for-customer-support-inquiries": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8106465-our-approach-to-user-safety": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8114487-what-interfaces-can-i-use-to-access-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8114490-where-can-i-find-your-api-documentation": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8114491-get-started-with-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8114518-claude-s-response-to-my-prompt-is-too-brief": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8114523-how-can-i-learn-more-about-claude-api-pricing": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8114527-i-m-encountering-429-errors-and-i-m-worried-my-rate-limit-is-too-low-what-should-i-do": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8114531-i-created-a-claude-console-organization-how-do-i-start-using-the-claude-api": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8114533-i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8114535-where-can-i-go-for-claude-api-support-and-assistance": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8116515-where-is-the-claude-api-supported": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8230524-delete-or-rename-a-conversation": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8241126-upload-files-to-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8241188-claude-is-producing-links-that-don-t-work-and-falsely-claiming-that-it-has-sent-emails-or-produced-external-documents-what-s-going-on": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8241216-i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8241253-safeguards-warnings-and-appeals": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8287232-verify-your-phone-number": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8325606-what-is-the-pro-plan": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8325609-how-do-i-sign-up-for-the-pro-plan": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8325617-cancel-your-pro-or-max-subscription": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8325618-paid-plan-billing-faqs": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8384961-what-should-i-do-if-i-suspect-my-api-key-has-been-compromised": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8452276-how-do-i-change-the-email-address-associated-with-my-account": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8461763-where-can-i-access-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8606378-how-do-i-use-playground": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8606378-how-do-i-use-the-playground": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8606378-how-do-i-use-the-workbench": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8887527-customizing-your-appearance-settings": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8987200-can-i-use-the-claude-api-for-individual-use": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8987223-can-i-have-a-claude-account-and-a-console-account": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9002504-can-claude-produce-images": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9015913-how-to-get-support": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9020328-csam-detection-and-reporting": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9028421-delete-your-claude-account": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9035075-law-enforcement-requests": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9190861-terms-of-service-updates": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9199617-api-safeguards-tools": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9205721-why-am-i-receiving-an-output-blocked-by-content-filtering-policy-error": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9264813-consumer-terms-of-service-updates": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9266462-install-claude-for-ios": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9266495-how-do-i-sign-up-for-claude-pro-on-the-claude-app-for-ios": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9266767-what-is-the-team-plan": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9267247-get-started-with-the-team-plan": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9267276-roles-and-permissions": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9267289-how-is-my-team-plan-bill-calculated": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9267323-cancel-your-organization-s-team-plan-subscription": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9267385-does-anthropic-act-as-a-data-processor-or-controller": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9267387-how-can-i-access-the-personal-information-that-anthropic-has-on-my-account": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9301722-updates-to-our-acceptable-use-policy-now-usage-policy-consumer-terms-of-service-and-privacy-policy": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9402418-why-was-my-card-declined": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9450526-export-your-claude-data": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9517075-what-are-projects": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9519189-manage-project-visibility-and-sharing": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9519291-what-is-anthropic-s-policy-for-handling-governmental-requests-for-user-information": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9528712-exceptions-to-our-usage-policy": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9534590-cost-and-usage-reporting-in-the-claude-console": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9547008-publish-and-share-artifacts": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9612887-install-claude-for-android": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9612892-how-do-i-sign-up-for-claude-pro-on-claude-for-android": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9796617-can-you-delete-data-that-i-sent-via-team-and-enterprise-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9797557-usage-limit-best-practices": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9876003-i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-do-i-have-to-pay-separately-to-use-the-claude-api-and-console": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9889408-add-or-update-your-paid-claude-account-s-tax-or-vat-id": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9889428-add-or-update-your-claude-console-organization-s-tax-or-vat-id": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9927533-disable-public-projects-for-your-organization": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9927624-add-or-update-your-team-plan-s-tax-or-vat-id": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9970975-access-audit-logs": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://www.anthropic.com/engineering/harness-design-long-running-apps": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Could not read tab 'Sprite editor': TimeoutError",
+    "Could not read tab 'AI game design': TimeoutError",
+    "Could not read tab 'AI game design': TimeoutError",
+    "Could not read tab 'Game play': TimeoutError"
+  ],
+  "https://www.anthropic.com/news/analysis-tool": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/news/anthropic-economic-index-connector": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/news/anthropic-interviewer": [
+    "Could not read tab 'Creatives': TimeoutError",
+    "Could not read tab 'Scientists': TimeoutError",
+    "Could not read tab 'Computer & Math': TimeoutError",
+    "Could not read tab 'Art, Design, & Media': TimeoutError",
+    "Could not read tab 'Business & Financial': TimeoutError",
+    "Could not read tab 'Office & Admin': TimeoutError",
+    "Could not read tab 'Sales': TimeoutError",
+    "Could not read tab 'Visual artists': TimeoutError",
+    "Could not read tab 'Craftspeople': TimeoutError",
+    "Could not read tab 'Designers': TimeoutError",
+    "Could not read tab 'Filmmakers': TimeoutError",
+    "Could not read tab 'Game developers': TimeoutError",
+    "Could not read tab 'Physicists': TimeoutError",
+    "Could not read tab 'Chemical engineers': TimeoutError",
+    "Could not read tab 'Data scientists': TimeoutError",
+    "Could not read tab 'Mechanical engineers': TimeoutError"
+  ],
+  "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/news/claude-fable-5-mythos-5": [
+    "Could not read tab 'Fluid with Classical EDM': TimeoutError"
+  ],
+  "https://www.anthropic.com/news/claude-opus-4-5": [
+    "Could not read tab 'Aider Polyglot': TimeoutError",
+    "Could not read tab 'Vending-Bench': TimeoutError"
+  ],
+  "https://www.anthropic.com/news/claude-opus-4-6": [
+    "Could not read tab 'Agentic search': TimeoutError",
+    "Could not read tab 'Coding': TimeoutError",
+    "Could not read tab 'Reasoning': TimeoutError",
+    "Could not read tab 'Long-context reasoning': TimeoutError",
+    "Could not read tab 'Multilingual coding': TimeoutError",
+    "Could not read tab 'Long-term coherence': TimeoutError",
+    "Could not read tab 'Cybersecurity': TimeoutError",
+    "Could not read tab 'Life sciences': TimeoutError"
+  ],
+  "https://www.anthropic.com/news/claude-opus-4-7": [
+    "Could not read tab 'Document reasoning': TimeoutError",
+    "Could not read tab 'Long-context reasoning': TimeoutError",
+    "Could not read tab 'Biology': TimeoutError"
+  ],
+  "https://www.anthropic.com/news/claude-opus-5": [
+    "Could not read tab 'CursorBench': TimeoutError",
+    "Could not read tab 'AA Coding Agent Index': TimeoutError",
+    "Could not read tab 'GDPval-AA v2': TimeoutError",
+    "Could not read tab 'OSWorld 2.0': TimeoutError",
+    "Could not read tab 'HLE': TimeoutError",
+    "Could not read tab 'AutomationBench': TimeoutError",
+    "Could not read tab 'DeepSearchQA': TimeoutError",
+    "Could not read tab 'Cell artifact': TimeoutError"
+  ],
+  "https://www.anthropic.com/news/claude-sonnet-4-5": [
+    "Could not read tab 'Law': TimeoutError",
+    "Could not read tab 'Medicine': TimeoutError",
+    "Could not read tab 'STEM': TimeoutError"
+  ],
+  "https://www.anthropic.com/news/evaluate-prompts": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/news/github-copilot": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/news/healthcare-life-sciences": [
+    "Could not read tab 'SpatialBench: Spatial biology analysis by LatchBio': TimeoutError"
+  ],
+  "https://www.anthropic.com/news/introducing-claude-for-education": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/news/model-hardware-standard-research-preview": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/news/prompt-generator": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/news/skills": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/news/tool-use-ga": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/research/Claude-accelerates-protein-design": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench": [
+    "Could not read tab 'Example 2': TimeoutError",
+    "Could not read tab 'Example 2': TimeoutError",
+    "Could not read tab 'Example 2': TimeoutError",
+    "Could not read tab 'Example 3': TimeoutError",
+    "Could not read tab 'Example 2': TimeoutError",
+    "Could not read tab 'Example 3': TimeoutError",
+    "Content dependencies blocked by scope or robots policy: https://js.hsforms.net/forms/embed/v2.js"
+  ],
+  "https://www.anthropic.com/research/anthropic-interviewer": [
+    "Could not read tab 'Creatives': TimeoutError",
+    "Could not read tab 'Scientists': TimeoutError",
+    "Could not read tab 'Computer & Math': TimeoutError",
+    "Could not read tab 'Art, Design, & Media': TimeoutError",
+    "Could not read tab 'Business & Financial': TimeoutError",
+    "Could not read tab 'Office & Admin': TimeoutError",
+    "Could not read tab 'Sales': TimeoutError",
+    "Could not read tab 'Visual artists': TimeoutError",
+    "Could not read tab 'Craftspeople': TimeoutError",
+    "Could not read tab 'Designers': TimeoutError",
+    "Could not read tab 'Filmmakers': TimeoutError",
+    "Could not read tab 'Game developers': TimeoutError",
+    "Could not read tab 'Physicists': TimeoutError",
+    "Could not read tab 'Chemical engineers': TimeoutError",
+    "Could not read tab 'Data scientists': TimeoutError",
+    "Could not read tab 'Mechanical engineers': TimeoutError",
+    "Could not read tab 'Astronomers': TimeoutError"
+  ],
+  "https://www.anthropic.com/research/attack-navigator": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Content dependencies blocked by scope or robots policy: https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html, https://js.hsforms.net/forms/embed/v2.js"
+  ],
+  "https://www.anthropic.com/research/claude-opus-5": [
+    "Could not read tab 'CursorBench': TimeoutError",
+    "Could not read tab 'AA Coding Agent Index': TimeoutError",
+    "Could not read tab 'GDPval-AA v2': TimeoutError",
+    "Could not read tab 'HLE': TimeoutError",
+    "Could not read tab 'AutomationBench': TimeoutError",
+    "Could not read tab 'DeepSearchQA': TimeoutError",
+    "Could not read tab 'Cell artifact': TimeoutError"
+  ],
+  "https://www.anthropic.com/research/claude-plays-robotics": [
+    "Content dependencies blocked by scope or robots policy: https://js.hsforms.net/forms/embed/v2.js"
+  ],
+  "https://www.anthropic.com/research/claude-sonnet-5": [
+    "Could not read tab 'Agentic computer use': TimeoutError"
+  ],
+  "https://www.anthropic.com/research/claude-values-models-languages": [
+    "Could not read tab '': TimeoutError",
+    "Could not read tab '': TimeoutError"
+  ],
+  "https://www.anthropic.com/research/cyber-toolkits-update": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/research/economic-index-geography": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/research/project-fetch-phase-two": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/research/project-fetch-robot-dog": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/research/project-pilot": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/research/property-based-testing": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/research/smart-contracts": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/research/team/frontier-red-team": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/webinars/best-practices-for-claude-in-excel-and-powerpoint": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://www.anthropic.com/webinars/building-on-the-claude-platform-claude-fable-5-and-model-orchestration-patterns": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://www.anthropic.com/webinars/claude-code-for-data-engineering": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://www.anthropic.com/webinars/claude-code-foundations": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://www.anthropic.com/webinars/claude-code-live": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://www.anthropic.com/webinars/claude-for-marketing-ops-and-analytics": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://www.anthropic.com/webinars/claude-for-nonprofits-moving-your-workflow-beyond-chat": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://www.anthropic.com/webinars/claude-it-setup-for-nonprofits": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://www.anthropic.com/webinars/claude-science-ama-how-to-accelerate-scientific-discovery": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://www.anthropic.com/webinars/cowork-workshop-foundations": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://www.anthropic.com/webinars/enterprise-transformation-with-claude-on-aws-three-paths-to-production": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://www.anthropic.com/webinars/future-of-ai-at-work-introducing-cowork": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://www.anthropic.com/webinars/getting-started-with-claude-design": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://www.anthropic.com/webinars/how-to-control-costs-and-show-roi-for-claude-code-on-google-cloud": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://www.anthropic.com/webinars/rebroadcast-claude-on-google-cloud-monitoring-and-securing-agents-at-scale": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://www.anthropic.com/webinars/scaling-development-with-remote-agents-augment-code": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://www.anthropic.com/webinars/securing-governing-claude-the-compliance-api-and-security-integrations": [
+    "No semantic main/article element; full body retained."
   ]
 }
