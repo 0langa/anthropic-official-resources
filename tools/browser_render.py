@@ -3,6 +3,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 import re
+import time
 from urllib.parse import urlsplit, urlunsplit
 
 import psutil
@@ -49,11 +50,25 @@ class Browser:
                 self.driver.stop()
             self.browser = self.driver = None
 
+    def ensure_memory(self):
+        minimum = self.settings.get("minimum_free_memory_mb", 2048)
+        free_mb = psutil.virtual_memory().available / (1024 ** 2)
+        # A persistent Chromium instance consumes part of the safety reserve.
+        # Recycle it before deciding the host cannot render another page.
+        if self.driver and free_mb < minimum:
+            self.close()
+            for _ in range(5):
+                free_mb = psutil.virtual_memory().available / (1024 ** 2)
+                if free_mb >= minimum:
+                    break
+                time.sleep(0.2)
+        if free_mb < minimum:
+            required = f"{minimum / 1024:g} GB" if minimum >= 1024 else f"{minimum:g} MB"
+            raise FetchError(f"Only {free_mb:.0f} MB memory available; resume when >={required} is free", "deferred")
+
     def render(self, url):
         self.http.allowed(url)
-        free_mb = psutil.virtual_memory().available / (1024 ** 2)
-        if free_mb < self.settings.get("minimum_free_memory_mb", 2048):
-            raise FetchError(f"Only {free_mb:.0f} MB memory available; resume when >=2 GB is free", "deferred")
+        self.ensure_memory()
         if not self.driver:
             self.driver = sync_playwright().start()
             try:

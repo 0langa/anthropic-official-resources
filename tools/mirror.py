@@ -23,6 +23,7 @@ USER_AGENT = "AnthropicResourceArchive/1.0 (personal documentation backup)"
 MAX_BYTES = 100 * 1024 * 1024
 TRANSIENT = {429, 500, 502, 503, 504}
 ASSET_EXTS = {".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp", ".avif", ".pdf", ".zip", ".ipynb", ".csv", ".json", ".txt", ".vtt", ".srt"}
+NON_PAGE_EXTS = ASSET_EXTS | {".ico", ".woff", ".woff2", ".ttf", ".otf", ".eot", ".mp3", ".mp4", ".webm", ".wav", ".m4a", ".mov", ".wasm", ".webmanifest", ".map"}
 
 
 def digest(data):
@@ -41,7 +42,16 @@ def write(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_name(path.name + ".tmp")
     tmp.write_bytes(raw)
-    tmp.replace(path)
+    for attempt in range(5):
+        try:
+            tmp.replace(path)
+            break
+        except PermissionError:
+            if attempt == 4:
+                raise
+            # Windows antivirus/indexers can briefly hold the destination
+            # between the comparison and atomic replacement.
+            time.sleep(0.05 * (2 ** attempt))
     return True
 
 
@@ -276,16 +286,32 @@ class Archive:
         state=self.root/"inventory/page-state.json"
         page_state=json.loads(state.read_text(encoding="utf-8")) if state.exists() else {}
         self.excluded={u for u,v in page_state.items() if v.get("status")=="non_english"}
+        locations = list(self.config.get("roots", [])) + list(self.config.get("indexes", []))
+        locations += [item.get("url", "") for item in self.config.get("exports", []) if isinstance(item, dict)]
+        self.https_hosts = {urllib.parse.urlsplit(url).hostname for url in locations
+                            if urllib.parse.urlsplit(url).scheme == "https"}
+
+    def canonical(self, url):
+        url = normalize(url)
+        if not url:
+            return None
+        parsed = urllib.parse.urlsplit(url)
+        if parsed.scheme == "http" and parsed.hostname in self.https_hosts:
+            netloc = parsed.hostname if parsed.port in {None, 80} else parsed.netloc
+            url = urllib.parse.urlunsplit(parsed._replace(scheme="https", netloc=netloc))
+        return page_url(url)
 
     def allowed(self,url):
-        if not normalize(url) or not is_english_url(url) or url in self.excluded:return False
+        url = normalize(url)
+        if not url or not is_english_url(url) or url in self.excluded:return False
         p=urllib.parse.urlsplit(url)
+        if p.scheme == "http" and p.hostname in self.https_hosts:return False
         if re.search(r"[{}<>]", urllib.parse.unquote(p.path)):
             return False
         if re.search(self.config["exclude_path_regex"],p.path):return False
         if p.path.endswith((".js",".css",".xml",".txt")):return False
         if "/assets/" in p.path:return False
-        if Path(p.path).suffix.lower() in ASSET_EXTS:return False
+        if Path(p.path).suffix.lower() in NON_PAGE_EXTS:return False
         for root in self.config["roots"]:
             q=urllib.parse.urlsplit(root)
             prefix=q.path.rstrip("/")
@@ -294,10 +320,10 @@ class Archive:
 
     def discover(self,urls):
         for url in urls:
-            if (u:=normalize(url)) and is_english_url(u) and page_url(u) not in self.excluded: self.discovered.add(page_url(u))
+            if (u:=self.canonical(url)) and is_english_url(u) and u not in self.excluded: self.discovered.add(u)
 
     def accept(self,url,body,source,kind="markdown",notes=None,title=None):
-        url=page_url(normalize(url))
+        url=self.canonical(url)
         if not is_english_url(url) or not is_english_url(source):
             raise ValueError("Non-English resource excluded")
         if not body or len(body.strip())<30:raise ValueError("Empty or suspiciously short page")
@@ -345,7 +371,7 @@ class Archive:
         return sorted({page_url(u) for u in self.discovered if self.allowed(page_url(u)) and page_url(u) not in self.records})
 
     def save(self):
-        self.discovered={page_url(u) for value in self.discovered if (u:=normalize(value)) and is_english_url(u) and page_url(u) not in self.excluded}
+        self.discovered={u for value in self.discovered if (u:=self.canonical(value)) and is_english_url(u) and u not in self.excluded}
         folder=self.root/"inventory"
         dump(folder/"manifest.json",self.records)
         dump(folder/"check-state.json",self.checked)

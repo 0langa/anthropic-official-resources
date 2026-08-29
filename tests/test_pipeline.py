@@ -2,11 +2,13 @@
 import argparse
 from contextlib import contextmanager
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+import json
 import os
 from pathlib import Path
 import sys
 import tempfile
 import threading
+from types import SimpleNamespace
 import unittest
 from unittest.mock import patch
 
@@ -83,12 +85,16 @@ def options(**kwargs):
 
 class ScopeTests(unittest.TestCase):
     def test_language_policy(self):
-        for path in ["/docs/de/page","/zh-CN/courses/a","/pt-BR/articles/a","/page?locale=ja","/page?language=fr-CA"]:
+        for path in ["/docs/de/page","/docs/_llms/de","/docs/_llms/cn","/docs/_llms/jp","/docs/_llms/pt-br","/zh-CN/courses/a","/pt-BR/articles/a","/page?locale=ja","/page?language=fr-CA"]:
             self.assertFalse(is_english_url("https://example.org"+path),path)
-        for path in ["/docs/en/page","/en-US/articles/a","/engineering/design","/api/de","/page?locale=en"]:
+        for path in ["/docs/en/page","/docs/_llms","/docs/_llms/en","/docs/_llms/en-US","/en-US/articles/a","/engineering/design","/api/de","/page?locale=en"]:
             self.assertTrue(is_english_url("https://example.org"+path),path)
     def test_normalize_without_losing_meaningful_query(self):
         self.assertEqual(normalize("https://example.org/page):"),"https://example.org/page")
+        self.assertEqual(normalize("https://example.org/page)[All"),"https://example.org/page")
+        self.assertEqual(normalize("https://example.org/page](https://example.org/page"),"https://example.org/page")
+        self.assertEqual(normalize("https://example.org/page?color=Newest)Anthropic’s"),"https://example.org/page?color=Newest")
+        self.assertEqual(normalize("https://example.org/page_(one)"),"https://example.org/page_(one)")
         self.assertEqual(normalize("https://example.org/page?utm_source=a&version=2#x"),"https://example.org/page?version=2")
         self.assertNotEqual(normalize("https://example.org/page?version=1"),normalize("https://example.org/page?version=2"))
     def test_case_and_trailing_slash_paths_do_not_collide_on_windows(self):
@@ -98,17 +104,37 @@ class ScopeTests(unittest.TestCase):
     def test_cleanup_removes_files_and_persists_english_policy(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory); a=archive(root,"https://example.org")
-            bad="https://example.org/de/page";good="https://example.org/en/page"
+            bad="https://example.org/de/page";binary="https://example.org/font.woff2";good="https://example.org/en/page"
             a.accept(good,"# English\n"+PARAGRAPH,good)
             path=local_path(bad);write(root/path,"German")
             a.records[bad]={"path":path.as_posix(),"sha256":digest("German"),"source_url":bad}
-            a.discovered.update([bad,good,good+"#fragment"])
+            a.accept(binary,"# Misclassified font\n"+PARAGRAPH,binary)
+            binary_path=root/a.records[binary]["path"]
+            dump(root/"inventory/page-state.json", {good:{"status":"complete"},binary:{"status":"complete"}})
+            a.discovered.update([bad,binary,good,good+"#fragment"])
             result=cleanup(a)
-            self.assertEqual(result["removed_archived_pages"],1)
+            self.assertEqual(result["removed_archived_pages"],2)
+            self.assertEqual(result["removed_out_of_scope_records"],1)
             self.assertFalse((root/path).exists())
+            self.assertFalse(binary_path.exists())
             self.assertEqual(set(a.records),{good})
+            self.assertEqual(set(json.loads((root/"inventory/page-state.json").read_text(encoding="utf-8"))),{good})
             a.discover([bad]);self.assertNotIn(bad,a.discovered)
             self.assertEqual(verify(a),[])
+    def test_binary_static_files_are_not_page_candidates(self):
+        with tempfile.TemporaryDirectory() as directory:
+            a=archive(Path(directory),"https://example.org")
+            self.assertTrue(a.allowed("https://example.org/guide"))
+            for path in ["/favicon.ico","/font.woff2","/video.webm","/bundle.wasm","/download.pdf"]:
+                self.assertFalse(a.allowed("https://example.org"+path),path)
+    def test_http_links_on_https_hosts_canonicalize_before_queueing(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            dump(root/"sources.json",{"roots":["https://example.org/docs"],"indexes":[],"exports":[],"asset_hosts":[],"exclude_path_regex":r"/login(?:/|$)","pipeline":{}})
+            a=Archive(root);a.discover(["http://example.org/docs/page"])
+            self.assertEqual(a.discovered,{"https://example.org/docs/page"})
+            self.assertFalse(a.allowed("http://example.org/docs/page"))
+            self.assertTrue(a.allowed("https://example.org/docs/page"))
     def test_lock_excludes_other_writer_and_releases(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory)
@@ -129,6 +155,17 @@ class ScopeTests(unittest.TestCase):
 
 
 class ExtractionTests(unittest.TestCase):
+    def test_browser_recycles_before_memory_deferral(self):
+        from browser_render import Browser
+        browser=Browser(None,{"minimum_free_memory_mb":2048});browser.driver=object()
+        def close():browser.driver=browser.browser=None
+        memory=[SimpleNamespace(available=1500*1024**2),SimpleNamespace(available=2500*1024**2)]
+        with patch.object(browser,"close",side_effect=close) as recycled, patch("browser_render.psutil.virtual_memory",side_effect=memory):
+            browser.ensure_memory()
+        recycled.assert_called_once()
+        with patch("browser_render.psutil.virtual_memory",return_value=SimpleNamespace(available=1500*1024**2)):
+            with self.assertRaises(FetchError) as caught:browser.ensure_memory()
+        self.assertEqual(caught.exception.status,"deferred")
     def test_only_known_optional_embeds_are_nonblocking(self):
         from browser_render import optional_embed
         self.assertTrue(optional_embed("https://widget.intercom.io/widget/example"))

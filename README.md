@@ -4,7 +4,7 @@
 
 **Verified 2026-08-28 UTC:** 31 tests passed on Windows and Linux, the PowerShell launcher ran successfully, and all ten live textual-page checks passed, including Academy transcript capture. Live discovery also imported 879 official export pages without index errors. See [verification evidence](reports/VERIFICATION.md). These checks do not mean that every discovered page has already been downloaded.
 
-This is a deterministic archive of public English documentation and learning resources. It needs no Firecrawl account, API key, Docker, or LLM. Windows 11 with 16 GB total RAM is supported by the design: HTTP requests and at most one isolated Chromium page run sequentially. The browser defers work when less than 2 GB of system memory is available. Installation and live behavior must still be verified on the actual host.
+This is a deterministic archive of public English documentation and learning resources. It needs no Firecrawl account, API key, Docker, or LLM. Windows 11 with 16 GB total RAM is supported by the design: HTTP requests and at most one isolated Chromium page run sequentially. The browser recycles its process under memory pressure and defers work when less than 2 GB of system memory is available. Performance benchmarking on the owner's active Windows host remains paused until the host is otherwise idle, and full website coverage remains unresolved until population finishes.
 
 ## Windows quick start
 

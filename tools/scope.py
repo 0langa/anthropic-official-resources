@@ -18,6 +18,14 @@ def non_english_locale(value):
 def is_english_url(url):
     p = urlsplit(url)
     parts = [unquote(x) for x in p.path.split("/") if x]
+    # Claude Code's generated language indexes use /docs/_llms/<locale>.
+    # Some of those locale slugs are aliases (cn, jp), so the generic ISO
+    # locale detector below cannot identify them reliably. In this explicit
+    # language namespace, only English variants belong in this archive.
+    if len(parts) > 2 and parts[:2] == ["docs", "_llms"]:
+        locale = parts[2].strip().replace("_", "-").lower()
+        if locale != "en" and not locale.startswith("en-"):
+            return False
     position = 1 if parts and parts[0] == "docs" else 0
     if len(parts) > position and non_english_locale(parts[position]):
         return False
@@ -27,8 +35,22 @@ def is_english_url(url):
 def clean_url(url):
     """Remove extraction punctuation/tracking only; preserve meaningful queries/case/slashes."""
     url = html.unescape(url.strip())
-    # Markdown link punctuation accidentally included by the previous regex.
-    url = re.sub(r"\):?$", "", url) if url.endswith(("):" , ")")) and url.count(")") > url.count("(") else url
+    # A previous Markdown extractor sometimes joined the visible destination
+    # and its repeated link target as `destination](destination`.
+    if "](" in url:
+        url = url.split("](", 1)[0]
+    # Markdown link punctuation/labels accidentally included by earlier broad
+    # extraction regexes. Cut at the first unmatched closing parenthesis while
+    # preserving legitimate balanced parentheses inside a URL.
+    depth = 0
+    for index, character in enumerate(url):
+        if character == "(":
+            depth += 1
+        elif character == ")":
+            if depth == 0:
+                url = url[:index]
+                break
+            depth -= 1
     p = urlsplit(url)
     query = [(k, v) for k, v in parse_qsl(p.query, keep_blank_values=True)
              if not k.lower().startswith("utm_") and k.lower() not in TRACKING_KEYS]

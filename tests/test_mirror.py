@@ -1,5 +1,6 @@
 import sys, tempfile, unittest
 from pathlib import Path
+from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'tools'))
 import mirror as m
 
@@ -22,6 +23,16 @@ class Tests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as d:
    p=Path(d)/'x';self.assertTrue(m.write(p,'same'));t=p.stat().st_mtime_ns
    self.assertFalse(m.write(p,'same'));self.assertEqual(t,p.stat().st_mtime_ns)
+ def test_atomic_write_retries_transient_windows_contention(self):
+  with tempfile.TemporaryDirectory() as d:
+   p=Path(d)/'x';original=Path.replace;attempts=[]
+   def flaky(source,target):
+    attempts.append(source)
+    if len(attempts)<3:raise PermissionError('temporarily locked')
+    return original(source,target)
+   with patch.object(Path,'replace',flaky),patch.object(m.time,'sleep') as sleep:
+    self.assertTrue(m.write(p,'value'))
+   self.assertEqual(p.read_text(),'value');self.assertEqual(len(attempts),3);self.assertEqual(sleep.call_count,2)
  def test_manifest(self):
   with tempfile.TemporaryDirectory() as d:
    root=Path(d);m.dump(root/'sources.json',{'roots':['https://a.org/'],'exclude_path_regex':'/auth'})

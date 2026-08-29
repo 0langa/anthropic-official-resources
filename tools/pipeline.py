@@ -43,7 +43,8 @@ def repair_checkout_line_endings(archive):
 
 def remove_record(archive, url):
     record = archive.records.pop(url, None)
-    candidates = [local_path(url, "html", "index.html"), local_path(url, "html", "rendered.html")]
+    candidates = [local_path(url, "html", "index.html"), local_path(url, "html", "rendered.html"),
+                  local_path(url, "html", "network.json")]
     if record:
         candidates.append(Path(record["path"]))
     for relative in candidates:
@@ -55,9 +56,14 @@ def remove_record(archive, url):
 
 
 def cleanup(archive):
-    """Remove translations from active state/files; Git history remains untouched."""
+    """Remove non-English/out-of-scope pages; Git history remains untouched."""
     before = set(archive.discovered)
-    removed_records = [url for url in archive.records if not is_english_url(url) or not is_english_url(archive.records[url].get("source_url", url))]
+    non_english_records = [url for url in archive.records
+                           if not is_english_url(url)
+                           or not is_english_url(archive.records[url].get("source_url", url))]
+    out_of_scope_records = [url for url in archive.records
+                            if url not in non_english_records and not archive.allowed(url)]
+    removed_records = non_english_records + out_of_scope_records
     for url in removed_records:
         remove_record(archive, url)
     archive.discovered = set()
@@ -69,7 +75,15 @@ def cleanup(archive):
         path = archive.root / "inventory" / name
         if path.exists():
             data = read_json(path)
-            dump(path, {key: value for key, value in data.items() if is_english_url(key)})
+            cleaned = {}
+            for key, value in data.items():
+                url = page_url(normalize(key))
+                if not url or not is_english_url(url):
+                    continue
+                if name in {"page-state.json", "aliases.json"} and not archive.allowed(url):
+                    continue
+                cleaned[url] = value
+            dump(path, cleaned)
     # Include orphaned translated files, not only entries currently in the manifest.
     deleted_files = 0
     for area in ("content", "html", "assets", "source-bundles"):
@@ -87,6 +101,7 @@ def cleanup(archive):
                 path.rmdir()
     report = archive.save()
     result = {"removed_non_english_urls": sum(not is_english_url(u) for u in before),
+              "removed_out_of_scope_records": len(out_of_scope_records),
               "normalized_duplicate_urls": len(before) - sum(not is_english_url(u) for u in before) - len(archive.discovered),
               "removed_archived_pages": len(removed_records), "removed_orphan_files": deleted_files,
               "english_candidate_pages": report["discovered_pages"], "archived_pages": report["archived_pages"]}
@@ -510,12 +525,15 @@ def main(argv=None):
                 print(f"Repaired checkout line endings: {repair_checkout_line_endings(archive)}")
         failures = verify(archive)
         failures.extend("Non-English manifest URL: " + u for u in archive.records if not is_english_url(u))
+        failures.extend("Out-of-scope manifest URL: " + u for u in archive.records if not archive.allowed(u))
         for name in ("resource-urls.txt", "missing-urls.txt", "discovered-urls.txt", "asset-urls.txt", "external-media-urls.txt"):
             path = archive.root/"inventory"/name
             if path.exists():
                 lines = path.read_text(encoding="utf-8").splitlines()
                 if len(lines) != len(set(lines)) or any(not is_english_url(u) for u in lines):
                     failures.append("Duplicates or non-English URLs in " + name)
+                if name in {"resource-urls.txt", "missing-urls.txt"} and any(not archive.allowed(u) for u in lines):
+                    failures.append("Out-of-scope page URLs in " + name)
         print(json.dumps({"verified_files":len(archive.records), "failures":failures}, indent=2))
         return 1 if failures else 0
     if args.command == "report":
