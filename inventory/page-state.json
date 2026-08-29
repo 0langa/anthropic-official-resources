@@ -3359,13 +3359,6 @@
     "message": "Transcript control present, but transcript capture could not be confirmed.",
     "status": "partial"
   },
-  "https://academy.claude.com/favicon.ico": {
-    "attempts": 1,
-    "checked_at": 1788005168,
-    "http_status": null,
-    "message": "Unexpected non-text content type: image/vnd.microsoft.icon",
-    "status": "partial"
-  },
   "https://academy.claude.com/help/faq": {
     "attempts": 1,
     "checked_at": 1788005173,
@@ -3479,13 +3472,6 @@
     "status": "complete"
   },
   "https://academy.claude.com/start": {
-    "attempts": 1,
-    "checked_at": 1788005254,
-    "http_status": null,
-    "message": "Disallowed by robots.txt",
-    "status": "blocked"
-  },
-  "https://academy.claude.com/start)[All": {
     "attempts": 1,
     "checked_at": 1788005267,
     "http_status": null,
@@ -3801,41 +3787,6 @@
     "status": "complete"
   },
   "https://claude.com/blog/best-practices-for-prompt-engineering": {
-    "attempts": 2,
-    "checked_at": 1788003740,
-    "http_status": 200,
-    "message": "HTML content and available panels extracted",
-    "status": "complete"
-  },
-  "https://claude.com/blog/best-practices-for-prompt-engineering)How": {
-    "attempts": 1,
-    "checked_at": 1788002040,
-    "http_status": 404,
-    "message": "HTTP 404: https://claude.com/blog/best-practices-for-prompt-engineering)How",
-    "status": "gone"
-  },
-  "https://claude.com/blog/best-practices-for-prompt-engineering)Next": {
-    "attempts": 1,
-    "checked_at": 1788002046,
-    "http_status": 404,
-    "message": "HTTP 404: https://claude.com/blog/best-practices-for-prompt-engineering)Next",
-    "status": "gone"
-  },
-  "https://claude.com/blog/best-practices-for-prompt-engineering)Prev": {
-    "attempts": 1,
-    "checked_at": 1788002058,
-    "http_status": 404,
-    "message": "HTTP 404: https://claude.com/blog/best-practices-for-prompt-engineering)Prev",
-    "status": "gone"
-  },
-  "https://claude.com/blog/best-practices-for-prompt-engineering)Self-service": {
-    "attempts": 1,
-    "checked_at": 1788002064,
-    "http_status": 404,
-    "message": "HTTP 404: https://claude.com/blog/best-practices-for-prompt-engineering)Self-service",
-    "status": "gone"
-  },
-  "https://claude.com/blog/best-practices-for-prompt-engineering)Subscribe": {
     "attempts": 1,
     "checked_at": 1788002072,
     "http_status": 404,
@@ -4656,13 +4607,6 @@
   },
   "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate": {
     "attempts": 1,
-    "checked_at": 1788002977,
-    "http_status": 200,
-    "message": "HTML content and available panels extracted",
-    "status": "complete"
-  },
-  "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate)How": {
-    "attempts": 1,
     "checked_at": 1788003032,
     "http_status": 404,
     "message": "HTTP 404: https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate)How",
@@ -4711,13 +4655,6 @@
     "status": "complete"
   },
   "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude": {
-    "attempts": 1,
-    "checked_at": 1788003098,
-    "http_status": 200,
-    "message": "HTML content and available panels extracted",
-    "status": "complete"
-  },
-  "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How": {
     "attempts": 1,
     "checked_at": 1788003106,
     "http_status": 404,
@@ -5034,13 +4971,6 @@
   },
   "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions": {
     "attempts": 1,
-    "checked_at": 1788003422,
-    "http_status": 200,
-    "message": "HTML content and available panels extracted",
-    "status": "complete"
-  },
-  "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions)Self-service": {
-    "attempts": 1,
     "checked_at": 1788003428,
     "http_status": 404,
     "message": "HTTP 404: https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions)Self-service",
@@ -5340,83 +5270,6 @@
     "message": "HTML content and available panels extracted",
     "status": "complete"
   },
-  "https://code.claude.com/docs/_llms/cn": {
-    "attempts": 1,
-    "checked_at": 1788001834,
-    "http_status": 200,
-    "message": "Native Markdown validated",
-    "status": "complete"
-  },
-  "https://code.claude.com/docs/_llms/de": {
-    "attempts": 1,
-    "checked_at": 1788001843,
-    "http_status": 200,
-    "message": "Native Markdown validated",
-    "status": "complete"
-  },
-  "https://code.claude.com/docs/_llms/es": {
-    "attempts": 1,
-    "checked_at": 1788001861,
-    "http_status": 200,
-    "message": "Native Markdown validated",
-    "status": "complete"
-  },
-  "https://code.claude.com/docs/_llms/fr": {
-    "attempts": 1,
-    "checked_at": 1788001871,
-    "http_status": 200,
-    "message": "Native Markdown validated",
-    "status": "complete"
-  },
-  "https://code.claude.com/docs/_llms/id": {
-    "attempts": 1,
-    "checked_at": 1788001878,
-    "http_status": 200,
-    "message": "Native Markdown validated",
-    "status": "complete"
-  },
-  "https://code.claude.com/docs/_llms/it": {
-    "attempts": 1,
-    "checked_at": 1788001886,
-    "http_status": 200,
-    "message": "Native Markdown validated",
-    "status": "complete"
-  },
-  "https://code.claude.com/docs/_llms/jp": {
-    "attempts": 1,
-    "checked_at": 1788001896,
-    "http_status": 200,
-    "message": "Native Markdown validated",
-    "status": "complete"
-  },
-  "https://code.claude.com/docs/_llms/ko": {
-    "attempts": 1,
-    "checked_at": 1788001903,
-    "http_status": 200,
-    "message": "Native Markdown validated",
-    "status": "complete"
-  },
-  "https://code.claude.com/docs/_llms/pt-br": {
-    "attempts": 1,
-    "checked_at": 1788001913,
-    "http_status": 200,
-    "message": "Native Markdown validated",
-    "status": "complete"
-  },
-  "https://code.claude.com/docs/_llms/ru": {
-    "attempts": 1,
-    "checked_at": 1788001923,
-    "http_status": 200,
-    "message": "Native Markdown validated",
-    "status": "complete"
-  },
-  "https://code.claude.com/docs/_llms/zh-hant": {
-    "attempts": 1,
-    "checked_at": 1788001930,
-    "http_status": 200,
-    "message": "Native Markdown validated",
-    "status": "complete"
-  },
   "https://code.claude.com/docs/en": {
     "attempts": 1,
     "checked_at": 1788001939,
@@ -5677,13 +5530,6 @@
     "status": "complete"
   },
   "https://code.claude.com/docs/en/agent-view": {
-    "attempts": 2,
-    "checked_at": 1788001778,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://code.claude.com/docs/en/agent-view](https://code.claude.com/docs/en/agent-view": {
     "attempts": 1,
     "checked_at": 1788001953,
     "http_status": 404,
@@ -5733,13 +5579,6 @@
     "status": "complete"
   },
   "https://code.claude.com/docs/en/azure-ai-foundry": {
-    "attempts": 1,
-    "checked_at": 1788001958,
-    "http_status": 200,
-    "message": "Native Markdown validated",
-    "status": "complete"
-  },
-  "https://code.claude.com/docs/en/azure-ai-foundry](https://code.claude.com/docs/en/azure-ai-foundry": {
     "attempts": 1,
     "checked_at": 1788001964,
     "http_status": 404,
@@ -6076,13 +5915,6 @@
     "status": "gone"
   },
   "https://code.claude.com/docs/en/fast-mode": {
-    "attempts": 2,
-    "checked_at": 1788001778,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://code.claude.com/docs/en/fast-mode](https://code.claude.com/docs/en/fast-mode": {
     "attempts": 1,
     "checked_at": 1788002003,
     "http_status": 404,
@@ -6181,11 +6013,11 @@
     "status": "complete"
   },
   "https://code.claude.com/docs/en/hooks": {
-    "attempts": 2,
-    "checked_at": 1788001778,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
+    "attempts": 1,
+    "checked_at": 1788002041,
+    "http_status": 404,
+    "message": "HTTP 404: https://code.claude.com/docs/en/hooks](https://code.claude.com/docs/en/hooks",
+    "status": "gone"
   },
   "https://code.claude.com/docs/en/hooks-guide": {
     "attempts": 2,
@@ -6193,13 +6025,6 @@
     "http_status": 200,
     "message": "Native official export",
     "status": "complete"
-  },
-  "https://code.claude.com/docs/en/hooks](https://code.claude.com/docs/en/hooks": {
-    "attempts": 1,
-    "checked_at": 1788002041,
-    "http_status": 404,
-    "message": "HTTP 404: https://code.claude.com/docs/en/hooks](https://code.claude.com/docs/en/hooks",
-    "status": "gone"
   },
   "https://code.claude.com/docs/en/how-claude-code-works": {
     "attempts": 2,
@@ -6237,13 +6062,6 @@
     "status": "complete"
   },
   "https://code.claude.com/docs/en/keybindings": {
-    "attempts": 2,
-    "checked_at": 1788001778,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://code.claude.com/docs/en/keybindings](https://code.claude.com/docs/en/keybindings": {
     "attempts": 1,
     "checked_at": 1788002065,
     "http_status": 404,
@@ -6321,13 +6139,6 @@
     "status": "complete"
   },
   "https://code.claude.com/docs/en/memory": {
-    "attempts": 2,
-    "checked_at": 1788001778,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://code.claude.com/docs/en/memory](https://code.claude.com/docs/en/memory": {
     "attempts": 1,
     "checked_at": 1788002074,
     "http_status": 404,
@@ -6370,13 +6181,6 @@
     "status": "complete"
   },
   "https://code.claude.com/docs/en/output-styles": {
-    "attempts": 2,
-    "checked_at": 1788001778,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://code.claude.com/docs/en/output-styles](https://code.claude.com/docs/en/output-styles": {
     "attempts": 1,
     "checked_at": 1788002084,
     "http_status": 404,
@@ -6440,11 +6244,11 @@
     "status": "complete"
   },
   "https://code.claude.com/docs/en/plugins": {
-    "attempts": 2,
-    "checked_at": 1788001778,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
+    "attempts": 1,
+    "checked_at": 1788002106,
+    "http_status": 404,
+    "message": "HTTP 404: https://code.claude.com/docs/en/plugins](https://code.claude.com/docs/en/plugins",
+    "status": "gone"
   },
   "https://code.claude.com/docs/en/plugins-reference": {
     "attempts": 2,
@@ -6452,13 +6256,6 @@
     "http_status": 200,
     "message": "Native official export",
     "status": "complete"
-  },
-  "https://code.claude.com/docs/en/plugins](https://code.claude.com/docs/en/plugins": {
-    "attempts": 1,
-    "checked_at": 1788002106,
-    "http_status": 404,
-    "message": "HTTP 404: https://code.claude.com/docs/en/plugins](https://code.claude.com/docs/en/plugins",
-    "status": "gone"
   },
   "https://code.claude.com/docs/en/prompt-caching": {
     "attempts": 2,
@@ -6622,13 +6419,6 @@
     "status": "complete"
   },
   "https://code.claude.com/docs/en/setup": {
-    "attempts": 2,
-    "checked_at": 1788001778,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://code.claude.com/docs/en/setup](https://code.claude.com/docs/en/setup": {
     "attempts": 1,
     "checked_at": 1788002125,
     "http_status": 404,
@@ -6966,13 +6756,6 @@
   },
   "https://platform.claude.com/cookbook/": {
     "attempts": 1,
-    "checked_at": 1788001838,
-    "http_status": 200,
-    "message": "HTML content and available panels extracted",
-    "status": "complete"
-  },
-  "https://platform.claude.com/cookbook/)[View": {
-    "attempts": 1,
     "checked_at": 1788001843,
     "http_status": null,
     "message": "'ascii' codec can't encode character '\\ue09a' in position 16: ordinal not in range(128)",
@@ -7096,13 +6879,6 @@
     "http_status": 200,
     "message": "HTML content and available panels extracted",
     "status": "complete"
-  },
-  "https://platform.claude.com/cookbook/claude-favicon.ico": {
-    "attempts": 1,
-    "checked_at": 1788001980,
-    "http_status": null,
-    "message": "Unexpected non-text content type: image/vnd.microsoft.icon",
-    "status": "partial"
   },
   "https://platform.claude.com/cookbook/coding-prompting-for-frontend-aesthetics": {
     "attempts": 1,
@@ -7729,13 +7505,6 @@
   },
   "https://platform.claude.com/docs/en/about-claude/models/overview": {
     "attempts": 1,
-    "checked_at": 1788002637,
-    "http_status": 200,
-    "message": "Native Markdown validated",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/about-claude/models/overview)**": {
-    "attempts": 1,
     "checked_at": 1788002643,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/about-claude/models/overview)**",
@@ -7799,13 +7568,6 @@
   },
   "https://platform.claude.com/docs/en/agent-sdk/migration-guide": {
     "attempts": 1,
-    "checked_at": 1788002660,
-    "http_status": 200,
-    "message": "HTML content and available panels extracted",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/agent-sdk/migration-guide](https://platform.claude.com/docs/en/agent-sdk/migration-guide": {
-    "attempts": 1,
     "checked_at": 1788002664,
     "http_status": 200,
     "message": "HTML content and available panels extracted",
@@ -7868,13 +7630,6 @@
     "status": "gone"
   },
   "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)**:": {
     "attempts": 1,
     "checked_at": 1788002713,
     "http_status": 404,
@@ -7882,13 +7637,6 @@
     "status": "gone"
   },
   "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/claude-api-skill": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/claude-api-skill):**": {
     "attempts": 1,
     "checked_at": 1788002718,
     "http_status": 404,
@@ -8001,13 +7749,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/overview": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/overview)**": {
     "attempts": 1,
     "checked_at": 1788002776,
     "http_status": 404,
@@ -8078,13 +7819,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool)**": {
     "attempts": 1,
     "checked_at": 1788002783,
     "http_status": 404,
@@ -11340,13 +11074,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/api/files/upload": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/api/files/upload)**:": {
     "attempts": 1,
     "checked_at": 1788002972,
     "http_status": 404,
@@ -11761,13 +11488,6 @@
   },
   "https://platform.claude.com/docs/en/api/messages-count-tokens": {
     "attempts": 1,
-    "checked_at": 1788003435,
-    "http_status": 200,
-    "message": "Native Markdown validated",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/api/messages-count-tokens)**:": {
-    "attempts": 1,
     "checked_at": 1788003441,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/api/messages-count-tokens)**:",
@@ -11788,13 +11508,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/api/messages/batches/create": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/api/messages/batches/create)**:": {
     "attempts": 1,
     "checked_at": 1788003449,
     "http_status": 404,
@@ -11837,13 +11550,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/api/messages/create": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/api/messages/create)**:": {
     "attempts": 1,
     "checked_at": 1788003457,
     "http_status": 404,
@@ -11865,13 +11571,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/api/models/list": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/api/models/list)**:": {
     "attempts": 1,
     "checked_at": 1788003470,
     "http_status": 404,
@@ -11935,13 +11634,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/api/skills/create": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/api/skills/create)**:": {
     "attempts": 1,
     "checked_at": 1788003502,
     "http_status": 404,
@@ -12026,13 +11718,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/build-with-claude/batch-processing": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/build-with-claude/batch-processing):**": {
     "attempts": 1,
     "checked_at": 1788003524,
     "http_status": 404,
@@ -12047,13 +11732,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/build-with-claude/citations": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/build-with-claude/citations):**": {
     "attempts": 1,
     "checked_at": 1788003529,
     "http_status": 404,
@@ -12068,13 +11746,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock):**": {
     "attempts": 1,
     "checked_at": 1788003543,
     "http_status": 404,
@@ -12082,13 +11753,6 @@
     "status": "gone"
   },
   "https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry)**": {
     "attempts": 1,
     "checked_at": 1788003550,
     "http_status": 404,
@@ -12110,20 +11774,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws)**": {
-    "attempts": 1,
-    "checked_at": 1788003555,
-    "http_status": 404,
-    "message": "HTTP 404: https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws)**",
-    "status": "gone"
-  },
-  "https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws):**": {
     "attempts": 1,
     "checked_at": 1788003562,
     "http_status": 404,
@@ -12152,13 +11802,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/build-with-claude/effort": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/build-with-claude/effort):**": {
     "attempts": 1,
     "checked_at": 1788003568,
     "http_status": 404,
@@ -12250,13 +11893,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/build-with-claude/prompt-caching": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/build-with-claude/prompt-caching):**": {
     "attempts": 1,
     "checked_at": 1788003581,
     "http_status": 404,
@@ -12334,13 +11970,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/build-with-claude/streaming": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/build-with-claude/streaming):**": {
     "attempts": 1,
     "checked_at": 1788003598,
     "http_status": 404,
@@ -12362,13 +11991,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/build-with-claude/thinking": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/build-with-claude/thinking):**": {
     "attempts": 1,
     "checked_at": 1788003605,
     "http_status": 404,
@@ -12397,13 +12019,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/build-with-claude/token-counting": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/build-with-claude/token-counting):**": {
     "attempts": 1,
     "checked_at": 1788003620,
     "http_status": 404,
@@ -12551,13 +12166,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/python": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/python)**": {
     "attempts": 1,
     "checked_at": 1788003650,
     "http_status": 404,
@@ -12887,13 +12495,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/manage-claude/workspaces": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/manage-claude/workspaces)-level": {
     "attempts": 1,
     "checked_at": 1788003665,
     "http_status": 404,
@@ -12908,13 +12509,6 @@
     "status": "gone"
   },
   "https://platform.claude.com/docs/en/managed-agents/agent-setup": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/managed-agents/agent-setup)**:": {
     "attempts": 1,
     "checked_at": 1788003679,
     "http_status": 404,
@@ -12950,13 +12544,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/managed-agents/environments": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/managed-agents/environments)**:": {
     "attempts": 1,
     "checked_at": 1788003684,
     "http_status": 404,
@@ -13020,13 +12607,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/managed-agents/overview": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/managed-agents/overview)*": {
     "attempts": 1,
     "checked_at": 1788003691,
     "http_status": 404,
@@ -13083,13 +12663,6 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/managed-agents/sessions": {
-    "attempts": 2,
-    "checked_at": 1788001776,
-    "http_status": 200,
-    "message": "Native official export",
-    "status": "complete"
-  },
-  "https://platform.claude.com/docs/en/managed-agents/sessions)**:": {
     "attempts": 1,
     "checked_at": 1788003696,
     "http_status": 404,
@@ -13474,13 +13047,6 @@
     "message": "Native official export",
     "status": "complete"
   },
-  "https://platform.claude.com/docs/videos/ant-cli-demo.webm": {
-    "attempts": 1,
-    "checked_at": 1788003741,
-    "http_status": 200,
-    "message": "Native Markdown validated",
-    "status": "complete"
-  },
   "https://support.claude.com/": {
     "attempts": 1,
     "checked_at": 1788001828,
@@ -13727,13 +13293,6 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop": {
-    "attempts": 1,
-    "checked_at": 1788002141,
-    "http_status": 200,
-    "message": "Native Markdown validated",
-    "status": "complete"
-  },
-  "https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)**": {
     "attempts": 1,
     "checked_at": 1788002158,
     "http_status": 304,
@@ -14532,13 +14091,6 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/13345190-get-started-with-cowork": {
-    "attempts": 1,
-    "checked_at": 1788003051,
-    "http_status": 304,
-    "message": "Native Markdown validated",
-    "status": "complete"
-  },
-  "https://support.claude.com/en/articles/13345190-get-started-with-cowork)**": {
     "attempts": 1,
     "checked_at": 1788003077,
     "http_status": 304,
@@ -16563,13 +16115,6 @@
   },
   "https://www.anthropic.com/engineering/managed-agents": {
     "attempts": 1,
-    "checked_at": 1788002047,
-    "http_status": 200,
-    "message": "HTML content and available panels extracted",
-    "status": "complete"
-  },
-  "https://www.anthropic.com/engineering/managed-agents)*": {
-    "attempts": 1,
     "checked_at": 1788002060,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/engineering/managed-agents)*",
@@ -17214,13 +16759,6 @@
   },
   "https://www.anthropic.com/news/claude-code-plugins": {
     "attempts": 1,
-    "checked_at": 1788002725,
-    "http_status": 304,
-    "message": "HTML content and available panels extracted",
-    "status": "complete"
-  },
-  "https://www.anthropic.com/news/claude-code-plugins](https://www.anthropic.com/news/claude-code-plugins": {
-    "attempts": 1,
     "checked_at": 1788002733,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/news/claude-code-plugins](https:/www.anthropic.com/news/claude-code-plugins",
@@ -17255,13 +16793,6 @@
     "status": "complete"
   },
   "https://www.anthropic.com/news/claude-fable-5-mythos-5": {
-    "attempts": 1,
-    "checked_at": 1788002771,
-    "http_status": 200,
-    "message": "Could not read tab 'Fluid with Classical EDM': TimeoutError",
-    "status": "partial"
-  },
-  "https://www.anthropic.com/news/claude-fable-5-mythos-5](https://www.anthropic.com/news/claude-fable-5-mythos-5": {
     "attempts": 1,
     "checked_at": 1788002778,
     "http_status": 404,
@@ -17368,13 +16899,6 @@
   },
   "https://www.anthropic.com/news/claude-opus-4-5": {
     "attempts": 1,
-    "checked_at": 1788002878,
-    "http_status": 200,
-    "message": "Could not read tab 'Aider Polyglot': TimeoutError; Could not read tab 'Vending-Bench': TimeoutError",
-    "status": "partial"
-  },
-  "https://www.anthropic.com/news/claude-opus-4-5](https://www.anthropic.com/news/claude-opus-4-5": {
-    "attempts": 1,
     "checked_at": 1788002884,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/news/claude-opus-4-5](https:/www.anthropic.com/news/claude-opus-4-5",
@@ -17444,13 +16968,6 @@
     "status": "complete"
   },
   "https://www.anthropic.com/news/claude-sonnet-5": {
-    "attempts": 1,
-    "checked_at": 1788003087,
-    "http_status": 200,
-    "message": "HTML content and available panels extracted",
-    "status": "complete"
-  },
-  "https://www.anthropic.com/news/claude-sonnet-5](https://www.anthropic.com/news/claude-sonnet-5": {
     "attempts": 1,
     "checked_at": 1788003093,
     "http_status": 404,
@@ -19166,13 +18683,6 @@
     "status": "complete"
   },
   "https://www.anthropic.com/research/end-subset-conversations": {
-    "attempts": 1,
-    "checked_at": 1788004702,
-    "http_status": 200,
-    "message": "HTML content and available panels extracted",
-    "status": "complete"
-  },
-  "https://www.anthropic.com/research/end-subset-conversations](https://www.anthropic.com/research/end-subset-conversations": {
     "attempts": 1,
     "checked_at": 1788004709,
     "http_status": 404,

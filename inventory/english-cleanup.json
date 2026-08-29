@@ -1,8 +1,9 @@
 {
-  "archived_pages": 892,
-  "english_candidate_pages": 2869,
-  "normalized_duplicate_urls": 1578,
-  "removed_archived_pages": 0,
-  "removed_non_english_urls": 13078,
-  "removed_orphan_files": 0
+  "archived_pages": 2758,
+  "english_candidate_pages": 3537,
+  "normalized_duplicate_urls": 4130,
+  "removed_archived_pages": 12,
+  "removed_non_english_urls": 11,
+  "removed_orphan_files": 0,
+  "removed_out_of_scope_records": 1
 }

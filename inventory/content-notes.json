@@ -432,39 +432,6 @@
   "https://claude.com/blog/your-thinking-partner": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
-  "https://code.claude.com/docs/_llms/cn": [
-    "Native source; upstream MDX components retained."
-  ],
-  "https://code.claude.com/docs/_llms/de": [
-    "Native source; upstream MDX components retained."
-  ],
-  "https://code.claude.com/docs/_llms/es": [
-    "Native source; upstream MDX components retained."
-  ],
-  "https://code.claude.com/docs/_llms/fr": [
-    "Native source; upstream MDX components retained."
-  ],
-  "https://code.claude.com/docs/_llms/id": [
-    "Native source; upstream MDX components retained."
-  ],
-  "https://code.claude.com/docs/_llms/it": [
-    "Native source; upstream MDX components retained."
-  ],
-  "https://code.claude.com/docs/_llms/jp": [
-    "Native source; upstream MDX components retained."
-  ],
-  "https://code.claude.com/docs/_llms/ko": [
-    "Native source; upstream MDX components retained."
-  ],
-  "https://code.claude.com/docs/_llms/pt-br": [
-    "Native source; upstream MDX components retained."
-  ],
-  "https://code.claude.com/docs/_llms/ru": [
-    "Native source; upstream MDX components retained."
-  ],
-  "https://code.claude.com/docs/_llms/zh-hant": [
-    "Native source; upstream MDX components retained."
-  ],
   "https://code.claude.com/docs/en": [
     "Native source; upstream MDX components retained."
   ],
@@ -3425,9 +3392,6 @@
   ],
   "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-prompt-leak": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
-  ],
-  "https://platform.claude.com/docs/videos/ant-cli-demo.webm": [
-    "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/10015870-what-certifications-has-anthropic-obtained": [
     "Native source; upstream MDX components retained."

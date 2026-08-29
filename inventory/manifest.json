@@ -8698,116 +8698,6 @@
     "text_validation": "complete",
     "title": "Overview - Claude Code Docs"
   },
-  "https://code.claude.com/docs/_llms/cn": {
-    "content_notes": [
-      "Native source; upstream MDX components retained."
-    ],
-    "format": "native-markdown",
-    "path": "content/code.claude.com/docs/_llms/cn/index.md",
-    "sha256": "c21523e1d2a3f3e6cf1be0c7aa3a96543e362b5e58241cd67606ef3daab00524",
-    "source_url": "https://code.claude.com/docs/_llms/cn.md",
-    "status": "archived"
-  },
-  "https://code.claude.com/docs/_llms/de": {
-    "content_notes": [
-      "Native source; upstream MDX components retained."
-    ],
-    "format": "native-markdown",
-    "path": "content/code.claude.com/docs/_llms/de/index.md",
-    "sha256": "2c74b65d50a18e591fbd9e92a4200e5efe7184f417d205257480540e8fa4b77b",
-    "source_url": "https://code.claude.com/docs/_llms/de.md",
-    "status": "archived"
-  },
-  "https://code.claude.com/docs/_llms/es": {
-    "content_notes": [
-      "Native source; upstream MDX components retained."
-    ],
-    "format": "native-markdown",
-    "path": "content/code.claude.com/docs/_llms/es/index.md",
-    "sha256": "696ba86af7b24ea83731736b1014855d58e05b0c553dc380985981d161effafc",
-    "source_url": "https://code.claude.com/docs/_llms/es.md",
-    "status": "archived"
-  },
-  "https://code.claude.com/docs/_llms/fr": {
-    "content_notes": [
-      "Native source; upstream MDX components retained."
-    ],
-    "format": "native-markdown",
-    "path": "content/code.claude.com/docs/_llms/fr/index.md",
-    "sha256": "ee8875d516845dabab67a37ccb8247efbc2db42ccdd358bce425bd6d89d74a7f",
-    "source_url": "https://code.claude.com/docs/_llms/fr.md",
-    "status": "archived"
-  },
-  "https://code.claude.com/docs/_llms/id": {
-    "content_notes": [
-      "Native source; upstream MDX components retained."
-    ],
-    "format": "native-markdown",
-    "path": "content/code.claude.com/docs/_llms/id/index.md",
-    "sha256": "61435011f51d02b5b6a783c2258a7315f12eec681686e42c1d5b56c5a7b7c4e3",
-    "source_url": "https://code.claude.com/docs/_llms/id.md",
-    "status": "archived"
-  },
-  "https://code.claude.com/docs/_llms/it": {
-    "content_notes": [
-      "Native source; upstream MDX components retained."
-    ],
-    "format": "native-markdown",
-    "path": "content/code.claude.com/docs/_llms/it/index.md",
-    "sha256": "cc93e456f8d699d518ac28a4f812abaca0adaad566556481d844909738ab65b6",
-    "source_url": "https://code.claude.com/docs/_llms/it.md",
-    "status": "archived"
-  },
-  "https://code.claude.com/docs/_llms/jp": {
-    "content_notes": [
-      "Native source; upstream MDX components retained."
-    ],
-    "format": "native-markdown",
-    "path": "content/code.claude.com/docs/_llms/jp/index.md",
-    "sha256": "0967881fa0732088c0a64c8c8a856b2b65480700beb2b13fc5e1d77d7661c148",
-    "source_url": "https://code.claude.com/docs/_llms/jp.md",
-    "status": "archived"
-  },
-  "https://code.claude.com/docs/_llms/ko": {
-    "content_notes": [
-      "Native source; upstream MDX components retained."
-    ],
-    "format": "native-markdown",
-    "path": "content/code.claude.com/docs/_llms/ko/index.md",
-    "sha256": "653f4e2ac281b454d9f6bc7ba5f4478a1c53896567ebc98fce76185104db545e",
-    "source_url": "https://code.claude.com/docs/_llms/ko.md",
-    "status": "archived"
-  },
-  "https://code.claude.com/docs/_llms/pt-br": {
-    "content_notes": [
-      "Native source; upstream MDX components retained."
-    ],
-    "format": "native-markdown",
-    "path": "content/code.claude.com/docs/_llms/pt-br/index.md",
-    "sha256": "fbf7cdd4fd63a4f87a8bbe0846a7517fed97ad2fb19ffe04421ddddb7e73e93b",
-    "source_url": "https://code.claude.com/docs/_llms/pt-br.md",
-    "status": "archived"
-  },
-  "https://code.claude.com/docs/_llms/ru": {
-    "content_notes": [
-      "Native source; upstream MDX components retained."
-    ],
-    "format": "native-markdown",
-    "path": "content/code.claude.com/docs/_llms/ru/index.md",
-    "sha256": "f12d9b0fb2a6acc384ec124d5f333b3b71d89dd2ecb3466ff530791ea2d6c5b6",
-    "source_url": "https://code.claude.com/docs/_llms/ru.md",
-    "status": "archived"
-  },
-  "https://code.claude.com/docs/_llms/zh-hant": {
-    "content_notes": [
-      "Native source; upstream MDX components retained."
-    ],
-    "format": "native-markdown",
-    "path": "content/code.claude.com/docs/_llms/zh-hant/index.md",
-    "sha256": "83103e8cc2b06c850a2a974a74a433e2bc167c2a9c75f776ec9ccf4152c22cb6",
-    "source_url": "https://code.claude.com/docs/_llms/zh-hant.md",
-    "status": "archived"
-  },
   "https://code.claude.com/docs/en": {
     "content_notes": [
       "Native source; upstream MDX components retained."
@@ -20662,16 +20552,6 @@
     "source_url": "https://platform.claude.com/llms-full.txt",
     "status": "archived",
     "title": "Reduce prompt leak"
-  },
-  "https://platform.claude.com/docs/videos/ant-cli-demo.webm": {
-    "content_notes": [
-      "Native source; upstream MDX components retained."
-    ],
-    "format": "native-markdown",
-    "path": "content/platform.claude.com/docs/videos/ant-cli-demo.webm/index.md",
-    "sha256": "e00af461b5a6a42e08553daf0e02d3711ee9ba82fc459f0357ed5c6c928b1f70",
-    "source_url": "https://platform.claude.com/docs/videos/ant-cli-demo.webm",
-    "status": "archived"
   },
   "https://support.claude.com/": {
     "content_notes": [],
