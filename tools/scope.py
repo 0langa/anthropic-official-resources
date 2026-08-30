@@ -7,7 +7,7 @@ from urllib.parse import parse_qsl, unquote, urlencode, urlsplit, urlunsplit
 
 LANGUAGES = frozenset("ar bg ca cs da de el es et fa fi fr he hi hr hu id it ja ko lt lv ms nl no pl pt ro ru sk sl sv th tr uk vi zh".split())
 LANGUAGE_KEYS = {"lang", "language", "locale", "hl"}
-TRACKING_KEYS = {"fbclid", "gclid", "msclkid"}
+TRACKING_KEYS = {"color", "fbclid", "gclid", "msclkid", "ref", "wtime"}
 
 
 def non_english_locale(value):
@@ -52,7 +52,20 @@ def clean_url(url):
                 break
             depth -= 1
     p = urlsplit(url)
-    query = [(k, v) for k, v in parse_qsl(p.query, keep_blank_values=True)
-             if not k.lower().startswith("utm_") and k.lower() not in TRACKING_KEYS]
-    query_string = urlencode(query) if len(query) != len(parse_qsl(p.query, keep_blank_values=True)) else p.query
+    original_query = parse_qsl(p.query, keep_blank_values=True)
+    query = []
+    for key, value in original_query:
+        lowered = key.lower().lstrip(";")
+        navigation_filter = (
+            p.hostname == "academy.claude.com" and lowered in {"color", "kind", "product", "department"}
+        ) or (
+            p.hostname == "platform.claude.com" and p.path.rstrip("/") == "/cookbook" and lowered == "category"
+        ) or (
+            p.hostname == "claude.com" and p.path.rstrip("/") == "/blog"
+            and (lowered == "color" or lowered.endswith("_page"))
+        )
+        if lowered.startswith("utm_") or lowered in TRACKING_KEYS or navigation_filter:
+            continue
+        query.append((key, value))
+    query_string = urlencode(query) if len(query) != len(original_query) else p.query
     return urlunsplit((p.scheme.lower(), p.netloc.lower(), p.path or "/", query_string, ""))

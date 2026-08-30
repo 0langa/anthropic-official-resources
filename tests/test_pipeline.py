@@ -93,10 +93,14 @@ class ScopeTests(unittest.TestCase):
         self.assertEqual(normalize("https://example.org/page):"),"https://example.org/page")
         self.assertEqual(normalize("https://example.org/page)[All"),"https://example.org/page")
         self.assertEqual(normalize("https://example.org/page](https://example.org/page"),"https://example.org/page")
-        self.assertEqual(normalize("https://example.org/page?color=Newest)Anthropic’s"),"https://example.org/page?color=Newest")
+        self.assertEqual(normalize("https://example.org/page?color=Newest)Anthropic’s"),"https://example.org/page")
         self.assertEqual(normalize("https://example.org/page_(one)"),"https://example.org/page_(one)")
         self.assertEqual(normalize("https://example.org/page?utm_source=a&version=2#x"),"https://example.org/page?version=2")
         self.assertNotEqual(normalize("https://example.org/page?version=1"),normalize("https://example.org/page?version=2"))
+        self.assertEqual(normalize("https://academy.claude.com/all?kind=course&product=api"),"https://academy.claude.com/all")
+        self.assertEqual(normalize("https://platform.claude.com/cookbook/?category=Agent+Patterns"),"https://platform.claude.com/cookbook/")
+        self.assertEqual(normalize("https://claude.com/blog?b7eea976_page=2"),"https://claude.com/blog")
+        self.assertEqual(normalize("https://example.org/page?ref=tracker&wtime=10"),"https://example.org/page")
     def test_case_and_trailing_slash_paths_do_not_collide_on_windows(self):
         for area,name in [("content","index.md"),("html","index.html"),("html","rendered.html"),("html","network.json")]:
             self.assertNotEqual(local_path("https://example.org/EXAMPLES",area,name).as_posix().casefold(),local_path("https://example.org/examples",area,name).as_posix().casefold())
@@ -127,6 +131,39 @@ class ScopeTests(unittest.TestCase):
             self.assertTrue(a.allowed("https://example.org/guide"))
             for path in ["/favicon.ico","/font.woff2","/video.webm","/bundle.wasm","/download.pdf"]:
                 self.assertFalse(a.allowed("https://example.org"+path),path)
+            for path in ["/bad path","/bad%20path","/broken(opens","/agent-","/bad%EF%BF%BD"]:
+                self.assertFalse(a.allowed("https://example.org"+path),path)
+    def test_cleanup_keeps_opaque_hashed_source_bundles(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);a=archive(root,"https://academy.claude.com")
+            bundle="https://academy.claude.com/assets/v1/content/courses/claude-with-google-cloud-s-vertex-ai/lessons/06-temperature-jv9o1v5x.js"
+            path=local_path(bundle,"source-bundles","source.js")
+            self.assertEqual(path.parts[2],"de")
+            write(root/path,"export const retained = true;")
+            cleanup(a)
+            self.assertTrue((root/path).exists())
+    def test_cleanup_removes_legacy_alias_without_deleting_canonical_html(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);a=archive(root,"https://example.org")
+            canonical="https://example.org/page";legacy=canonical+"?ref=tracker"
+            a.accept(canonical,"# Canonical\n"+PARAGRAPH,canonical)
+            canonical_html=local_path(canonical,"html","index.html")
+            write(root/canonical_html,"canonical html")
+            legacy_content=Path("content/example.org/page/__query_legacy/directory-index.md")
+            legacy_html=[Path("html/example.org/page/__query_legacy")/name for name in
+                         ("directory-index.html","directory-rendered.html","directory-network.json")]
+            write(root/legacy_content,"legacy duplicate")
+            for path in legacy_html:write(root/path,"legacy html")
+            stale_extra=legacy_html[0].parent/"stale-extra.html";write(root/stale_extra,"orphan")
+            a.records[legacy]={"path":legacy_content.as_posix(),"sha256":digest("legacy duplicate"),"source_url":legacy}
+            a.discovered.add(legacy)
+            result=cleanup(a)
+            self.assertEqual(result["removed_noncanonical_records"],1)
+            self.assertEqual(set(a.records),{canonical})
+            self.assertTrue((root/canonical_html).exists())
+            self.assertFalse((root/legacy_content).exists())
+            self.assertTrue(all(not (root/path).exists() for path in legacy_html))
+            self.assertFalse((root/stale_extra).exists())
     def test_http_links_on_https_hosts_canonicalize_before_queueing(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory)

@@ -197,6 +197,9 @@
   "https://claude.com/blog": [
     "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js, https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
   ],
+  "https://claude.com/blog/": [
+    "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+  ],
   "https://claude.com/blog/agent-identity-access-model": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
@@ -3405,7 +3408,13 @@
   "https://support.claude.com/en/articles/10035659-where-can-i-learn-more-about-anthropic-s-privacy-practices": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/10065433": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/10065433-install-claude-desktop": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/10065433-installing-claude-desktop": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/10065434-use-dictation-on-claude-mobile": [
@@ -3490,9 +3499,6 @@
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop": [
-    "Native source; upstream MDX components retained."
-  ],
-  "https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)**": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/11049741-what-is-the-max-plan": [
@@ -3829,9 +3835,6 @@
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/13345190-get-started-with-cowork": [
-    "Native source; upstream MDX components retained."
-  ],
-  "https://support.claude.com/en/articles/13345190-get-started-with-cowork)**": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/13346458-customizing-your-console-appearance-settings": [

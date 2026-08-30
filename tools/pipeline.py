@@ -43,10 +43,21 @@ def repair_checkout_line_endings(archive):
 
 def remove_record(archive, url):
     record = archive.records.pop(url, None)
-    candidates = [local_path(url, "html", "index.html"), local_path(url, "html", "rendered.html"),
-                  local_path(url, "html", "network.json")]
+    candidates = []
     if record:
-        candidates.append(Path(record["path"]))
+        content_path = Path(record["path"])
+        candidates.append(content_path)
+        if content_path.parts and content_path.parts[0] == "content":
+            html_folder = Path("html", *content_path.parts[1:-1])
+            index_stem = content_path.stem
+            rendered_stem = index_stem.replace("index", "rendered", 1)
+            network_stem = index_stem.replace("index", "network", 1)
+            candidates.extend((html_folder / (index_stem + ".html"),
+                               html_folder / (rendered_stem + ".html"),
+                               html_folder / (network_stem + ".json")))
+    else:
+        candidates.extend((local_path(url, "html", "index.html"), local_path(url, "html", "rendered.html"),
+                           local_path(url, "html", "network.json")))
     for relative in candidates:
         target = (archive.root / relative).resolve()
         if target.is_relative_to(archive.root.resolve()) and target.is_file():
@@ -61,34 +72,75 @@ def cleanup(archive):
     non_english_records = [url for url in archive.records
                            if not is_english_url(url)
                            or not is_english_url(archive.records[url].get("source_url", url))]
+    noncanonical_records = [url for url in archive.records
+                            if url not in non_english_records and archive.canonical(url) != url]
     out_of_scope_records = [url for url in archive.records
-                            if url not in non_english_records and not archive.allowed(url)]
-    removed_records = non_english_records + out_of_scope_records
+                            if url not in non_english_records
+                            and url not in noncanonical_records and not archive.allowed(url)]
+    removed_records = non_english_records + noncanonical_records + out_of_scope_records
     for url in removed_records:
         remove_record(archive, url)
     archive.discovered = set()
     archive.discover(before)
     for attr in ("errors", "checked"):
-        setattr(archive, attr, {page_url(u): value for key, value in getattr(archive, attr).items()
-                              if (u := normalize(key)) and is_english_url(u)})
+        cleaned = {}
+        for key, value in getattr(archive, attr).items():
+            if (u := archive.canonical(key)) and is_english_url(u):
+                cleaned.setdefault(u, value)
+        setattr(archive, attr, cleaned)
     for name in ("page-state.json", "asset-manifest.json", "asset-errors.json", "aliases.json"):
         path = archive.root / "inventory" / name
         if path.exists():
             data = read_json(path)
             cleaned = {}
             for key, value in data.items():
-                url = page_url(normalize(key))
+                url = archive.canonical(key)
                 if not url or not is_english_url(url):
                     continue
                 if name in {"page-state.json", "aliases.json"} and not archive.allowed(url):
                     continue
-                cleaned[url] = value
+                cleaned.setdefault(url, value)
             dump(path, cleaned)
+    # Remove stale query snapshots only when no surviving manifest record
+    # references their content/HTML directory. Query directories are generated
+    # output; KEEP still blocks removal.
+    active_query_dirs = set()
+    for record in archive.records.values():
+        content_path = Path(record["path"])
+        if any(part.startswith("__query_") for part in content_path.parts):
+            active_query_dirs.add((archive.root / content_path.parent).resolve())
+            if content_path.parts and content_path.parts[0] == "content":
+                active_query_dirs.add((archive.root / Path("html", *content_path.parts[1:-1])).resolve())
+    removed_orphan_query_files = 0
+    for area in ("content", "html"):
+        folder = archive.root / area
+        if not folder.exists():
+            continue
+        for query_folder in sorted(folder.rglob("__query_*"), key=lambda path: len(path.parts), reverse=True):
+            target = query_folder.resolve()
+            if (not target.is_relative_to(archive.root.resolve()) or target in active_query_dirs
+                    or any(path.name == "KEEP" for path in query_folder.rglob("KEEP"))):
+                continue
+            for path in query_folder.rglob("*"):
+                if path.is_file():
+                    path.unlink()
+                    removed_orphan_query_files += 1
+            for path in sorted((p for p in query_folder.rglob("*") if p.is_dir()),
+                               key=lambda p: len(p.parts), reverse=True):
+                if not any(path.iterdir()):
+                    path.rmdir()
+            if query_folder.exists() and not any(query_folder.iterdir()):
+                query_folder.rmdir()
     # Include orphaned translated files, not only entries currently in the manifest.
     deleted_files = 0
     for area in ("content", "html", "assets", "source-bundles"):
         folder = archive.root / area
         if not folder.exists():
+            continue
+        # Hashed lesson-bundle paths are opaque URL keys. Their two-character
+        # fanout directories can coincidentally equal locale codes (de, fr,
+        # etc.), so URL-language inference cannot be applied to this area.
+        if area == "source-bundles":
             continue
         for path in folder.rglob("*"):
             if path.is_file():
@@ -101,7 +153,9 @@ def cleanup(archive):
                 path.rmdir()
     report = archive.save()
     result = {"removed_non_english_urls": sum(not is_english_url(u) for u in before),
+              "removed_noncanonical_records": len(noncanonical_records),
               "removed_out_of_scope_records": len(out_of_scope_records),
+              "removed_orphan_query_files": removed_orphan_query_files,
               "normalized_duplicate_urls": len(before) - sum(not is_english_url(u) for u in before) - len(archive.discovered),
               "removed_archived_pages": len(removed_records), "removed_orphan_files": deleted_files,
               "english_candidate_pages": report["discovered_pages"], "archived_pages": report["archived_pages"]}

@@ -5978,6 +5978,19 @@
     "text_validation": "partial",
     "title": "Blog | Claude by Anthropic"
   },
+  "https://claude.com/blog/": {
+    "content_notes": [
+      "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+    ],
+    "format": "browser-html",
+    "language": "en",
+    "path": "content/claude.com/blog/directory-index.md",
+    "sha256": "5b8a4939d018e5ed793c4795db59649864057a5667deebe32bdaee0d646dd465",
+    "source_url": "https://claude.com/blog/?color=Newest",
+    "status": "archived",
+    "text_validation": "partial",
+    "title": "Blog | Claude by Anthropic"
+  },
   "https://claude.com/blog/1m-context": {
     "content_notes": [],
     "format": "html-derived",
@@ -11000,17 +11013,6 @@
     "text_validation": "complete",
     "title": "Claude Cookbook"
   },
-  "https://platform.claude.com/cookbook/?category=RAG+%26+Retrieval": {
-    "content_notes": [],
-    "format": "browser-html",
-    "language": "en",
-    "path": "content/platform.claude.com/cookbook/__query_54d95521a3419d22/directory-index.md",
-    "sha256": "e982d9d735c4dec753b6bb110b2d80def313470642e4c00464e7a1f08cc5a23a",
-    "source_url": "https://platform.claude.com/cookbook/?category=RAG+%26+Retrieval",
-    "status": "archived",
-    "text_validation": "complete",
-    "title": "Claude Cookbook"
-  },
   "https://platform.claude.com/cookbook/capabilities-classification-guide": {
     "content_notes": [],
     "format": "html-derived",
@@ -12256,17 +12258,6 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/platform.claude.com/docs/en/agent-sdk/migration-guide/index.md",
-    "sha256": "69c20916537eac6bf27f4736a141232393a963a7bde8e172dc4075050871d4f5",
-    "source_url": "https://code.claude.com/docs/en/agent-sdk",
-    "status": "archived",
-    "text_validation": "complete",
-    "title": "Agent SDK overview - Claude Code Docs"
-  },
-  "https://platform.claude.com/docs/en/agent-sdk/migration-guide](https://platform.claude.com/docs/en/agent-sdk/migration-guide": {
-    "content_notes": [],
-    "format": "html-derived",
-    "language": "en",
-    "path": "content/platform.claude.com/docs/en/agent-sdk/migration-guide%5D%28https%3A/platform.claude.com/docs/en/agent-sdk/migration-guide/index.md",
     "sha256": "69c20916537eac6bf27f4736a141232393a963a7bde8e172dc4075050871d4f5",
     "source_url": "https://code.claude.com/docs/en/agent-sdk",
     "status": "archived",
@@ -20624,12 +20615,32 @@
     "source_url": "https://support.claude.com/en/articles/10035659-where-can-i-learn-more-about-anthropic-s-privacy-practices.md",
     "status": "archived"
   },
+  "https://support.claude.com/en/articles/10065433": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/support.claude.com/en/articles/10065433/index.md",
+    "sha256": "3b1276e778ae412978a5c172ecf62dd66e4628cb67204ee9bd3e78cd31b419bf",
+    "source_url": "https://support.claude.com/en/articles/10065433-install-claude-desktop.md",
+    "status": "archived"
+  },
   "https://support.claude.com/en/articles/10065433-install-claude-desktop": {
     "content_notes": [
       "Native source; upstream MDX components retained."
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/10065433-install-claude-desktop/index.md",
+    "sha256": "3b1276e778ae412978a5c172ecf62dd66e4628cb67204ee9bd3e78cd31b419bf",
+    "source_url": "https://support.claude.com/en/articles/10065433-install-claude-desktop.md",
+    "status": "archived"
+  },
+  "https://support.claude.com/en/articles/10065433-installing-claude-desktop": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/support.claude.com/en/articles/10065433-installing-claude-desktop/index.md",
     "sha256": "3b1276e778ae412978a5c172ecf62dd66e4628cb67204ee9bd3e78cd31b419bf",
     "source_url": "https://support.claude.com/en/articles/10065433-install-claude-desktop.md",
     "status": "archived"
@@ -20910,16 +20921,6 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop/index.md",
-    "sha256": "74d2d438ac9e587dd8dfd36a26714a0e2f7963312502e774abbd46ad6497704b",
-    "source_url": "https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop.md",
-    "status": "archived"
-  },
-  "https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)**": {
-    "content_notes": [
-      "Native source; upstream MDX components retained."
-    ],
-    "format": "native-markdown",
-    "path": "content/support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop%29%2A%2A/index.md",
     "sha256": "74d2d438ac9e587dd8dfd36a26714a0e2f7963312502e774abbd46ad6497704b",
     "source_url": "https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop.md",
     "status": "archived"
@@ -22051,16 +22052,6 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13345190-get-started-with-cowork/index.md",
-    "sha256": "8087b10425fb0ff63ad9af09b71997b0e70795fd13dd9cb4a3fc24b760a282a4",
-    "source_url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork.md",
-    "status": "archived"
-  },
-  "https://support.claude.com/en/articles/13345190-get-started-with-cowork)**": {
-    "content_notes": [
-      "Native source; upstream MDX components retained."
-    ],
-    "format": "native-markdown",
-    "path": "content/support.claude.com/en/articles/13345190-get-started-with-cowork%29%2A%2A/index.md",
     "sha256": "8087b10425fb0ff63ad9af09b71997b0e70795fd13dd9cb4a3fc24b760a282a4",
     "source_url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork.md",
     "status": "archived"
@@ -24722,6 +24713,17 @@
     "status": "archived",
     "text_validation": "complete",
     "title": "An update on recent Claude Code quality reports \\ Anthropic"
+  },
+  "https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk": {
+    "content_notes": [],
+    "format": "html-derived",
+    "language": "en",
+    "path": "content/www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk/index.md",
+    "sha256": "3793193068d8f2db8506a14635fe9a9007aa729d1c788dc97962668b782b0b13",
+    "source_url": "https://claude.com/blog/building-agents-with-the-claude-agent-sdk",
+    "status": "archived",
+    "text_validation": "complete",
+    "title": "Building agents with the Claude Agent SDK | Claude by Anthropic"
   },
   "https://www.anthropic.com/engineering/building-c-compiler": {
     "content_notes": [],

@@ -964,6 +964,7 @@ https://academy.claude.com/assets/v1/thumbnail.dark-cuim3wx2.png
 https://academy.claude.com/assets/v1/thumbnail.dark-cux4sb8w.png
 https://academy.claude.com/assets/v1/thumbnail.dark-czljv6z8.png
 https://academy.claude.com/assets/v1/thumbnail.dark-d3fzwdg7.png
+https://academy.claude.com/assets/v1/thumbnail.dark-d9qi1x8j.png
 https://academy.claude.com/assets/v1/thumbnail.dark-dfk17yqf.png
 https://academy.claude.com/assets/v1/thumbnail.dark-dh3ezc7v.png
 https://academy.claude.com/assets/v1/thumbnail.dark-dhnab57m.png
@@ -1114,6 +1115,7 @@ https://academy.claude.com/assets/v1/thumbnail.dark-nmenq2sv.png
 https://academy.claude.com/assets/v1/thumbnail.dark-no82k858.png
 https://academy.claude.com/assets/v1/thumbnail.dark-noyiroch.png
 https://academy.claude.com/assets/v1/thumbnail.dark-nq1i2588.png
+https://academy.claude.com/assets/v1/thumbnail.dark-nqcpfb77.png
 https://academy.claude.com/assets/v1/thumbnail.dark-nqgcnxqq.png
 https://academy.claude.com/assets/v1/thumbnail.dark-nsjpa7is.png
 https://academy.claude.com/assets/v1/thumbnail.dark-nuxa5e6m.png
@@ -1160,6 +1162,7 @@ https://academy.claude.com/assets/v1/thumbnail.light-cb32kcve.png
 https://academy.claude.com/assets/v1/thumbnail.light-cfvv79hl.png
 https://academy.claude.com/assets/v1/thumbnail.light-ch4hj0py.png
 https://academy.claude.com/assets/v1/thumbnail.light-cnu2p8qc.png
+https://academy.claude.com/assets/v1/thumbnail.light-cq67r4kj.png
 https://academy.claude.com/assets/v1/thumbnail.light-ctra72zy.png
 https://academy.claude.com/assets/v1/thumbnail.light-cx9tbvoi.png
 https://academy.claude.com/assets/v1/thumbnail.light-d0jwbpi2.png
@@ -1189,6 +1192,7 @@ https://academy.claude.com/assets/v1/thumbnail.light-en74js1a.png
 https://academy.claude.com/assets/v1/thumbnail.light-epz8s4e9.png
 https://academy.claude.com/assets/v1/thumbnail.light-f1byetgm.png
 https://academy.claude.com/assets/v1/thumbnail.light-f1fouzqt.png
+https://academy.claude.com/assets/v1/thumbnail.light-f5mix6nn.png
 https://academy.claude.com/assets/v1/thumbnail.light-f5rr63un.png
 https://academy.claude.com/assets/v1/thumbnail.light-f5u6vtsc.png
 https://academy.claude.com/assets/v1/thumbnail.light-f72xos2e.png

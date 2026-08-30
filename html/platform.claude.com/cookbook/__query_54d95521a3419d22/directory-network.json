@@ -1,7 +1,0 @@
-[
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "fetch",
-    "url": "https://a-cdn.anthropic.com/v1/projects/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/settings"
-  }
-]

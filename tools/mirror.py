@@ -312,8 +312,13 @@ class Archive:
         url = normalize(url)
         if not url or not is_english_url(url) or url in self.excluded:return False
         p=urllib.parse.urlsplit(url)
+        decoded_path = urllib.parse.unquote(p.path)
         if p.scheme == "http" and p.hostname in self.https_hosts:return False
-        if re.search(r"[{}<>]", urllib.parse.unquote(p.path)):
+        if (re.search(r"[{}<>\[\]]", decoded_path)
+                or any(character.isspace() or ord(character) < 32 for character in decoded_path)
+                or "\ufffd" in decoded_path
+                or re.search(r"\(opens?$", decoded_path, re.I)
+                or decoded_path.endswith("-")):
             return False
         if re.search(self.config["exclude_path_regex"],p.path):return False
         if p.path.endswith((".js",".css",".xml",".txt")):return False
