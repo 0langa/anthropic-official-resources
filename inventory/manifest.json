@@ -2768,12 +2768,12 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/claude-code-101/how-claude-code-works/index.md",
-    "sha256": "33e29e372f54aefbda8cd529b033882b9b043a99ed0830211e715ce6977c2a70",
+    "sha256": "94caaed0a34c1abe29cc8d5f107892fcf86e7a4baf92785e4c3a477c53393a93",
     "source_url": "https://academy.claude.com/courses/claude-code-101/how-claude-code-works",
     "status": "archived",
     "text_validation": "complete",
     "title": "How Claude Code works · Claude Code 101 · Claude Academy",
-    "transcript_characters": 6532
+    "transcript_characters": 2431
   },
   "https://academy.claude.com/courses/claude-code-101/installing-claude-code": {
     "content_notes": [],
@@ -38229,7 +38229,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/research/AI-assistance-coding-skills/index--0fdcee56178e3cbc.md",
-    "sha256": "6e472abcea3e08e83e69904a2f388a3e1a9c0d87099f6ffdd4a5ee578b60c723",
+    "sha256": "a2ee97af676d01e62541c8c4339ddd6988f89cbc9fec63a12a7a8222285f9e52",
     "source_url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
     "status": "archived",
     "text_validation": "complete",
