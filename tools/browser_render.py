@@ -32,6 +32,7 @@ def optional_embed(url):
     analytics = ((host == "www.googletagmanager.com" and parsed.path in {"/gtm.js", "/gtag/js"}) or
                  (host == "assets.claude.ai" and parsed.path.startswith("/sdk/antalytics/")) or
                  (host == "a-cdn.anthropic.com" and bool(re.fullmatch(r"/v1/projects/[^/]+/settings", parsed.path))) or
+                 (host == "a-cdn.anthropic.com" and bool(re.fullmatch(r"/analytics\.js/v1/[^/]+/analytics\.min\.js", parsed.path))) or
                  (host == "s-cdn.anthropic.com" and parsed.path == "/s.js") or
                  (host == "js.hcaptcha.com" and parsed.path == "/1/api.js") or
                  (host == "js.hsforms.net" and parsed.path == "/forms/embed/v2.js") or

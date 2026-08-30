@@ -223,6 +223,7 @@ class ExtractionTests(unittest.TestCase):
         self.assertFalse(optional_embed("https://content.example.org/lesson.js"))
         self.assertFalse(optional_embed("https://youtube.com.example.org/lesson.js"))
         self.assertTrue(optional_embed("https://a-cdn.anthropic.com/v1/projects/example/settings"))
+        self.assertTrue(optional_embed("https://a-cdn.anthropic.com/analytics.js/v1/example/analytics.min.js"))
         self.assertTrue(optional_embed("https://assets.claude.ai/sdk/antalytics/latest.umd.js"))
         self.assertTrue(optional_embed("https://www.googletagmanager.com/gtm.js"))
         self.assertTrue(optional_embed("https://s-cdn.anthropic.com/s.js"))
@@ -232,6 +233,7 @@ class ExtractionTests(unittest.TestCase):
         self.assertFalse(optional_embed("https://assets.claude.ai/lessons/content.js"))
         self.assertFalse(optional_embed("https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html"))
         self.assertFalse(optional_embed("https://a-cdn.anthropic.com/v1/lessons/example"))
+        self.assertFalse(optional_embed("https://a-cdn.anthropic.com/analytics.js/v1/example/content.js"))
     def test_nested_content_code_tables_hidden_and_absolute_links(self):
         raw='<html lang="en"><title>Example</title><main><article><p>Inner</p></article><p>AFTER ARTICLE</p><pre><code>x = 1\n  y = 2</code></pre><div hidden>Hidden panel</div><a href="/asset.pdf">PDF</a><table><tr><td colspan="2">Both</td></tr></table></main></html>'
         result=extract_html(raw,"https://example.org/page")
@@ -335,6 +337,15 @@ class PipelineIntegrationTests(unittest.TestCase):
             runner=Runner(a,options());runner.run()
             self.assertEqual(runner.state[url]["status"],"partial")
             resumed=Runner(Archive(root),options(resume=True));self.assertIn(url,resumed.candidates())
+    def test_checkpoint_reports_current_partial_state(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);a=archive(root,"https://example.org");url="https://example.org/page"
+            a.accept(url,"# Retained copy\n"+PARAGRAPH,url)
+            runner=Runner(a,options())
+            runner.state[url]={"status":"partial","checked_at":1,"attempts":1,"message":"quality note","http_status":200}
+            report=runner.checkpoint()
+            self.assertEqual(report["retained_partial_pages"],1)
+            self.assertEqual(json.loads((root/"inventory/coverage.json").read_text())["retained_partial_pages"],1)
 
 
 @unittest.skipUnless(os.environ.get("ARCHIVE_BROWSER_TESTS")=="1","Set ARCHIVE_BROWSER_TESTS=1 after installing Chromium")

@@ -271,9 +271,10 @@ class Runner:
         self.events.append({"url": url, **state})
 
     def checkpoint(self):
-        report = self.a.save()
         dump(self.a.root / "inventory/page-state.json", self.state)
         dump(self.a.root / "inventory/aliases.json", self.aliases)
+        # Coverage reads page-state; persist current events before deriving reports.
+        report = self.a.save()
         # All derived state is durable before truncating the recovery journal.
         write(self.journal, "")
         quality = {"statuses": dict(Counter(v["status"] for v in self.state.values())),
