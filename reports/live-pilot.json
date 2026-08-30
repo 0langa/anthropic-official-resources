@@ -21,7 +21,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1788061638,
+        "checked_at": 1788066640,
         "http_status": 200,
         "message": "Native Markdown validated",
         "status": "complete"
@@ -44,7 +44,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1788061629,
+        "checked_at": 1788066632,
         "http_status": 200,
         "message": "Native Markdown validated",
         "status": "complete"
@@ -67,7 +67,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1788061627,
+        "checked_at": 1788066629,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -93,7 +93,7 @@
       "require_transcript": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1788061637,
+        "checked_at": 1788066640,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -116,7 +116,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1788061644,
+        "checked_at": 1788066647,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -139,7 +139,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1788061632,
+        "checked_at": 1788066635,
         "http_status": 200,
         "message": "Native Markdown validated",
         "status": "complete"
@@ -162,7 +162,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1788061631,
+        "checked_at": 1788066633,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -185,7 +185,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1788061634,
+        "checked_at": 1788066636,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -208,7 +208,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1788061641,
+        "checked_at": 1788066644,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -231,7 +231,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1788061628,
+        "checked_at": 1788066631,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -239,5 +239,5 @@
       "url": "https://claude.com/blog/best-practices-for-prompt-engineering"
     }
   ],
-  "tested_at_utc": "2026-08-30T03:47:25Z"
+  "tested_at_utc": "2026-08-30T05:10:47Z"
 }

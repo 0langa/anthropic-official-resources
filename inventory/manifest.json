@@ -13463,14 +13463,13 @@
   },
   "https://code.claude.com/docs/en/overview": {
     "content_notes": [
-      "Contains upstream MDX/components; Markdown is not a visual website replica."
+      "Native source; upstream MDX components retained."
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/overview/index.md",
-    "sha256": "558e90267d2788068997cd4fa8a7824ac754e8438817bd7c37e649fae2cb3e53",
-    "source_url": "https://code.claude.com/docs/llms-full.txt",
-    "status": "archived",
-    "title": "Overview"
+    "sha256": "295c5a56b733060475aaaf3fc8bfa0d39d97684f04892cac38747be5aa849290",
+    "source_url": "https://code.claude.com/docs/en/overview.md",
+    "status": "archived"
   },
   "https://code.claude.com/docs/en/permission-modes": {
     "content_notes": [
@@ -26640,14 +26639,13 @@
   },
   "https://platform.claude.com/docs/en/get-started": {
     "content_notes": [
-      "Contains upstream MDX/components; Markdown is not a visual website replica."
+      "Native source; upstream MDX components retained."
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/get-started/index.md",
     "sha256": "d65f1b8265b31c2bc1efb2f8dd0c0e86f16c6e956bcabbc70f11c5467aa2359f",
-    "source_url": "https://platform.claude.com/llms-full.txt",
-    "status": "archived",
-    "title": "Get started with Claude"
+    "source_url": "https://platform.claude.com/docs/en/get-started.md",
+    "status": "archived"
   },
   "https://platform.claude.com/docs/en/home": {
     "content_notes": [
@@ -38266,7 +38264,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/research/AI-assistance-coding-skills/index--0fdcee56178e3cbc.md",
-    "sha256": "a2ee97af676d01e62541c8c4339ddd6988f89cbc9fec63a12a7a8222285f9e52",
+    "sha256": "eaeaa4967911c191fd5663e8ea7edb196a818a1398c3b454df9e65c1cc714471",
     "source_url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
     "status": "archived",
     "text_validation": "complete",
