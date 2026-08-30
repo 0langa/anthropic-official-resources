@@ -98,6 +98,13 @@ def local_path(url, area="content", filename="index.md"):
         leaf = Path(filename)
         filename = leaf.stem + "--" + digest(url)[:16] + leaf.suffix
     host = p.netloc.replace(":", "%3A")
+    # Public lesson-bundle URLs can exceed Windows checkout limits when their
+    # full Academy component hierarchy is mirrored. Bundle contents are opaque
+    # source data, so use a stable URL-derived key instead of nesting every URL
+    # segment. Other archive paths remain human-readable.
+    if area == "source-bundles":
+        key = digest(url)[:32]
+        return Path(area, host, key[:2], key + Path(filename).suffix)
     return Path(area, host, *parts, filename)
 
 

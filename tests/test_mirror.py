@@ -8,6 +8,13 @@ class Tests(unittest.TestCase):
  def test_path(self):
   self.assertEqual(m.local_path('https://academy.claude.com/courses/a/b').as_posix(),'content/academy.claude.com/courses/a/b/index.md')
   self.assertNotEqual(m.local_path('https://a.org/?a=1'),m.local_path('https://a.org/?a=2'))
+ def test_source_bundle_path_is_bounded_for_windows_checkout(self):
+  base='https://academy.claude.com/assets/v1/content/courses/'+'long-course/'*20+'Component-copy.js'
+  first=m.local_path(base,'source-bundles','source.js')
+  second=m.local_path(base+'?version=2','source-bundles','source.js')
+  self.assertLess(len(first.as_posix()),100)
+  self.assertNotEqual(first,second)
+  self.assertEqual(first.parts[:2],('source-bundles','academy.claude.com'))
  def test_unsafe(self):
   for u in ['file:///etc/passwd','https://a.org/%2e%2e/a','https://user:pass@a.org/','https://a.org:port/a']:
    self.assertIsNone(m.normalize(u))
