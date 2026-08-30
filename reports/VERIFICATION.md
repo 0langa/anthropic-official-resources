@@ -16,7 +16,7 @@ Every currently discovered, allowed, reachable English resource has an archived 
 | Retained partial evidence | 36 archived: 35 public quiz UIs plus 1 external interactive research embed |
 | Merged archive integrity | 3,737 page hashes verified; zero failures |
 
-[Successful CI run](https://github.com/0langa/anthropic-official-resources/actions/runs/33290964023) tested population commit `1db60fe09779241538752b494566dac3118bab6a` on Windows and Linux, ran real Chromium on both, verified retained content, and published live-pilot evidence in commit `7eafb6e`.
+[Successful CI run](https://github.com/0langa/anthropic-official-resources/actions/runs/33290964023) tested population commit `1db60feb9d8d87d00ddf086578d71f9f3dd784ff` on Windows and Linux, ran real Chromium on both, verified retained content, and published live-pilot evidence in commit `7eafb6e`.
 
 Machine-readable evidence: [verification.json](verification.json), [live-pilot.json](live-pilot.json), [discovery-pilot.json](discovery-pilot.json), [inventory-audit.json](inventory-audit.json).
 
