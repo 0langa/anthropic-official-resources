@@ -167,3 +167,5 @@ The board cares most about program satisfaction, completion rates, and demonstra
 Design these with consulting-firm quality and use colors that feel professional but warm (we're a health nonprofit, not a corporate consultancy).
 
 Try in Claude
+
+Was this helpful?

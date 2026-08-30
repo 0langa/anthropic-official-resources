@@ -134,3 +134,5 @@ I'm preparing for our board meeting and need to show how our growth compares to 
 • Save the chart and a summary to my desktop folder.
 
 Try in Cowork
+
+Was this helpful?

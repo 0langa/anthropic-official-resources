@@ -293,3 +293,5 @@ Your workspace
 A complete on-brand content set for every brief — so you start at review, not at zero.
 
 [Next: Repurpose content across channels](https://academy.claude.com/use-cases/repurpose-content)
+
+Was this helpful?

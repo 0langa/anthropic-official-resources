@@ -47,9 +47,9 @@ Before configuring your Identity Provider (IdP), you must verify ownership of yo
 
 3. Wait for the DNS propagation. Once the platform detects the record, the domain status will update to “**Verified**.”
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256015862/476131c3139aec4db01b96127544/10c7a165-8b26-4443-b064-9d659659c65e?expires=1788065100&amp;signature=c2dfd33d8bcc1a41febede85ca58e67e6159d348eed689d147d2a4d26651d48f&amp;req=diIiEMl%2FmIlZW%2FMW1HO4zdpfuCKIHFaO006zz1SmF9XLCfu%2BULJeSPgPB61L%0Ayiz0t1lqnw6P2wYp0vk%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256015862/476131c3139aec4db01b96127544/10c7a165-8b26-4443-b064-9d659659c65e?expires=1788087600&amp;signature=59937c358ff3d88060bedc701210aa4c961d2c62d08e49d9fcfc0ba5da0e7703&amp;req=diIiEMl%2FmIlZW%2FMW1HO4zdpfuCKIElSJ006zz1SmF9UF1WLHfyD5Ewqkpeqe%0A1hB1Zeo0PhZpyzyX0%2Bk%3D%0A)
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256025910/a82e2de9382824fa9db7666f67c4/CleanShot%2B2026-04-09%2Bat%2B16_25_20-402x.png?expires=1788065100&amp;signature=c7b8054307993ce55b1d9712173d963d2d65b03b1efe37003d6879ef750339a8&amp;req=diIiEMl8mIheWfMW1HO4zV%2BGnRE%2FRbpGx57dwYq5DdKHdPiE6iPrzNGSip%2FA%0ALLb1NBH4f%2F85%2FxDUUqs%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256025910/a82e2de9382824fa9db7666f67c4/CleanShot%2B2026-04-09%2Bat%2B16_25_20-402x.png?expires=1788087600&amp;signature=36e26b49e51f7b42891512f63cd6659c3e6b75cc8fc94db4be9c3c3f4f93dc82&amp;req=diIiEMl8mIheWfMW1HO4zV%2BGnRE%2FS7hBx57dwYq5DdLb%2BUJwsISghrrOq2Dz%0AgbK3JsY0Rtcba5ubrJg%3D%0A)
 
 **Important:** Each domain can only have one identity provider. If multiple organizations share a single login domain, IT administrators from both organizations will be able to modify login settings. Contact **[Anthropic Support](https://claude.fedstart.com/support)** for assistance with multi-organization setups. For more details about multi-organization setups, see our **[SCIM provisioning guide](https://support.claude.com/en/articles/14503643-set-up-scim-in-claude-for-government)**.
 
@@ -77,7 +77,7 @@ Once your SAML application is set up in your IdP, provide Anthropic with the det
 
 - Claims Information — Attribute mappings for user name and email.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256004522/a97b91092b393e93b2d7779f63e6/2db86a6d-1582-419e-925e-cbc914468fa1?expires=1788065100&amp;signature=a277c228c6610e43039cf599ec6709deaa7f2bae9bedf7bad75a9f421ad9a929&amp;req=diIiEMl%2BmYRdW%2FMW1HO4zQE9Jr%2B2%2FBH6bfNHh%2Fvd8OFEkOdCOl49Eg40VyDp%0AOYWQqueR6dfvQ%2Bc4Yg4%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256004522/a97b91092b393e93b2d7779f63e6/2db86a6d-1582-419e-925e-cbc914468fa1?expires=1788087600&amp;signature=a2da4d9660098db60d791a8ebf52f88ee0a6af88e6b06720c20b5e7a570f8d5f&amp;req=diIiEMl%2BmYRdW%2FMW1HO4zQE9Jr%2B28hP9bfNHh%2Fvd8OELembvgYsUg%2Fsr0Tza%0AfueRl13n4%2FkrwJo7Ca0%3D%0A)
 
 **Tip:** Using a metadata XML file: Most IdPs let you download a metadata.xml file. Upload it on the identity settings page to auto-fill the Signing Certificate, IdP Entity ID, and SSO URL. Some IdPs (like Entra ID) also include claims information in the metadata file; if present, the system will suggest field mappings automatically.
 

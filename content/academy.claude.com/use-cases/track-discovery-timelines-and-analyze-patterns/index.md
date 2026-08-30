@@ -127,3 +127,5 @@ Create a chronological timeline with document citations, analyze patterns around
 This needs to be a top of class legal document with exceptional formatting and structure. Opt for elevated, elegant typography, tight spacing, and muted color instead of using your default styling. Take your time developing an extremely high quality legal document that has coherent structure, and articulate legal expertise throughout.
 
 Try in Claude
+
+Was this helpful?

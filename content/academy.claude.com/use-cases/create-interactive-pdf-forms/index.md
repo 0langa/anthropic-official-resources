@@ -134,3 +134,5 @@ Create an interactive PDF registration form with these sections:
 Use a professional color scheme with a branded header. The event is "2025 Innovation Summit" at San Francisco Convention Center, June 15-17. Include contact info: [events@innovationsummit.com(opens in new tab)](mailto:events@innovationsummit.com).
 
 Try in Claude
+
+Was this helpful?

@@ -11,3 +11,5 @@ Learn how to use Claude's Research feature for practical planning tasks. Availab
 Embedded media: https://www.youtube-nocookie.com/embed/R-KJgjIrh24?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=R-KJgjIrh24)
+
+Was this helpful?

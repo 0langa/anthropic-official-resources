@@ -13,3 +13,5 @@ Embedded media: https://www.youtube-nocookie.com/embed/005JLRt3gXI?enablejsapi=1
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=005JLRt3gXI)
 
 *Learn more: [AI Fluency(opens in new tab)](https://academy.claude.com/collections/ai-fluency)*
+
+Was this helpful?

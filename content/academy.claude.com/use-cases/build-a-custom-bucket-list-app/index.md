@@ -117,3 +117,5 @@ Include: Experiences by category; saving certain experiences to "My List"; toggl
 Populate it with beautiful life experiences to browse. Then, add in some additional fun surprises!
 
 Try in Claude
+
+Was this helpful?

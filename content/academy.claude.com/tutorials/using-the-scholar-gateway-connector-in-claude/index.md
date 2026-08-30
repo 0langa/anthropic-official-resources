@@ -63,3 +63,5 @@ Technical details of the Scholar Gateway integration can be found in [Wiley’s 
 
 - Enhanced literature review when planning experiments and research plans, to efficiently identify, summarize, and evaluate relevant literature as individual articles or in aggregation, enabling new ways of doing research and delivering reliable and cited insights in seconds.
 - Information on latest research in a certain field of medicine or pharmaceuticals.
+
+Was this helpful?

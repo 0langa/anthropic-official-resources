@@ -143,3 +143,5 @@ Research dessert options that fit those criteriasave recipe opping list to my No
 To ensure correct formatting in my notes, using HTML tags to create natural line breaks. Use abbreviations and concise language so the note isn't overly long.
 
 Try in Claude
+
+Was this helpful?

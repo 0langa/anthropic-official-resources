@@ -135,3 +135,5 @@ Sources:
 Find the main themes and patterns across all sources — what keeps coming up? Give me counts by source, cross-platform patterns, and representative quotes. Then prioritize into product ideas based on frequency and business impact.
 
 Try in Cowork
+
+Was this helpful?

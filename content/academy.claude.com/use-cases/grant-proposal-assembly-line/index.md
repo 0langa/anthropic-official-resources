@@ -265,3 +265,5 @@ Create templates and tracking tools:
 Make this a true assembly line where I can produce proposals 60% faster by mixing and matching proven content.
 
 Try in Claude
+
+Was this helpful?

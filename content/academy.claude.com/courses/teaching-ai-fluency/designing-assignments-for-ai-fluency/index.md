@@ -82,6 +82,8 @@ Continue your conversation from Exercise 1 about assessment design:
 
 In the next lesson, we'll examine AI's specific impact on curriculum, pedagogy, and assessment in your field.
 
+Was this helpful?
+
 
 ## Transcript
 

@@ -291,3 +291,5 @@ Your workspace
 Every call gets a one-page prep sheet built from current deal data, with the asks to make and the likely objections already answered.
 
 [Next: Pipeline reviews](https://academy.claude.com/use-cases/pipeline-review)
+
+Was this helpful?

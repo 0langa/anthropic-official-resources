@@ -306,3 +306,5 @@ Your workspace
 Every role you open gets the same structured intake and a complete spec in your standard format, with open questions listed for the recruiter — ready before the first call.
 
 [Next: Interview debrief synthesis](https://academy.claude.com/use-cases/interview-debrief)
+
+Was this helpful?

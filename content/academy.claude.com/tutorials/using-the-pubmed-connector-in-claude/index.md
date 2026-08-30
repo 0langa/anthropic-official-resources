@@ -268,3 +268,5 @@ All data comes from official NCBI sources, but may not reflect the most current/
 ## Need More Help?[](https://academy.claude.com/tutorials/using-the-pubmed-connector-in-claude)
 
 If you're experiencing issues with the PubMed integration or have questions not covered here, please [contact Claude support(opens in new tab)](https://support.claude.com/en/articles/9015913-how-to-get-support) or visit our help center for additional troubleshooting guides.
+
+Was this helpful?

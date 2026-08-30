@@ -153,3 +153,5 @@ What eligibility criteria do Phase 2 NASH trials typically use? Show me HbA1c cu
 Open in Claude
 
 Learn more at How to use the Clinical Trial Protocol skill with Claude
+
+Was this helpful?

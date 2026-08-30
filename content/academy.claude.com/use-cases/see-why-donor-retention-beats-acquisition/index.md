@@ -93,3 +93,5 @@ Try it on whatever fundraising math isn't landing as a spreadsheet. Tell Claude 
 Everyone keeps telling me donor retention matters more than acquisition and I understand the argument but I don't really get it. Show me. Start with 100 donors and let me play with the numbers. I want to drag things and watch what happens.
 
 Try in Claude
+
+Was this helpful?

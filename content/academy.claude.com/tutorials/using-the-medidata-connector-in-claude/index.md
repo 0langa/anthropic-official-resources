@@ -77,3 +77,5 @@ Technical details of the Medidata integration can be found in Medidata’s MCP S
 - “How do I configure edit checks for Rave EDC?”
 - “When is the last release of Clinical Data Studio and what features did it include?”
 - “We need to import external lab data into Data Connect. How do I do this and ensure alignment with our SOPs?”
+
+Was this helpful?

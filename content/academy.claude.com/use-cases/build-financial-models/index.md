@@ -174,3 +174,5 @@ Key questions to address: How do returns look if growth slows to 25% or 20%? Wha
 Create an Excel model with scenarios (base, upside, downside), sensitivity analysis on growth and exit multiple, risk assessment focusing on customer concentration, and a comps table showing where public companies trade. Use sophisticated private equity formatting with premium visual quality, an intentional color scheme, working formulas, frozen panes, and conditional formatting.
 
 Try in Claude
+
+Was this helpful?

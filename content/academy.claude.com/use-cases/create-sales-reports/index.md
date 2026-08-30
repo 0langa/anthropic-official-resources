@@ -147,3 +147,5 @@ Show me:
 Create this as a professional document with clean serif fonts, information dense with tight spacing, proper text hierarchy, and embedded charts PNGs that seamlessly integrate into the layout as opposed to looking pasted in. Use proper business style. Opt out of using your default styles.
 
 Try in Claude
+
+Was this helpful?

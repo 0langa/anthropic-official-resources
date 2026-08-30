@@ -283,3 +283,5 @@ Generate the on-brand asset from your encoded system
 Open](https://claude.ai/design)
 
 [Next: Design system drift review](https://academy.claude.com/use-cases/design-police)
+
+Was this helpful?

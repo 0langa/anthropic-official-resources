@@ -11,3 +11,5 @@ Claude for PowerPoint can pull in data from outside sources and help you analyze
 Embedded media: https://www.youtube-nocookie.com/embed/gRLMG5YNNTo?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=gRLMG5YNNTo)
+
+Was this helpful?

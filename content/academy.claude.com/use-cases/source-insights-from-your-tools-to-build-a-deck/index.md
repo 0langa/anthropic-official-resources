@@ -145,3 +145,5 @@ Start with the Q3 project tracker in my local files; it has the key people, chan
 The board needs to understand whether the consolidation bet is paying off despite the churn. Create a PowerPoint deck (12–15 slides) with speaker notes, an Excel data appendix, and a two-page Word brief. Make an argument, not a summary.
 
 Try in Cowork
+
+Was this helpful?

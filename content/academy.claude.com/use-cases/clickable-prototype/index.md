@@ -275,3 +275,5 @@ Bring the prototype into Figma as on-brand frames
 Open](https://claude.ai/design)
 
 [Next: Competitive teardown and heuristic audit](https://academy.claude.com/use-cases/design-heuristic-audit)
+
+Was this helpful?

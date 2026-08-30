@@ -129,3 +129,5 @@ I’m 52, hoping to retire at 62. My partner and I have about $1.2M across a 401
 I’ve uploaded our tax returns, investment statements, Social Security estimates, and budget. Where does this plan break and what are the highest-leverage moves?
 
 Try in Claude
+
+Was this helpful?

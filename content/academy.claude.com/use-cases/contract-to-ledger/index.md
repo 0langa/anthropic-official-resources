@@ -185,3 +185,5 @@ Review and adjust the intake sheet in place
 Install](https://claude.com/claude-for-excel)
 
 [Next: SOX controls documentation](https://academy.claude.com/use-cases/sox-controls-doc)
+
+Was this helpful?

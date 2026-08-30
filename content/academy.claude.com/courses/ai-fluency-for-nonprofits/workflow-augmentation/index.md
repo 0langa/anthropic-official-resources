@@ -79,6 +79,8 @@ Choose one task from your "AI can handle" or "AI can assist" categories that wou
 
 In the next lesson, we'll discuss strategies for integrating AI into your organization thoughtfully and sustainably—from addressing concerns about AI dependency to building an AI policy that reflects your values.
 
+Was this helpful?
+
 
 ## Transcript
 

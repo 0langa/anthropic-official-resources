@@ -160,3 +160,5 @@ I want the skill to have reference files that Claude consults:
 The goal is that when I ask "create a sales dashboard" or "make a presentation deck," Claude automatically thinks like a design director who wouldn't accept generic output. The user sees only the polished result unless they specifically ask to see the design thinking process. Help me create this skill with all the necessary reference files.
 
 Try in Claude
+
+Was this helpful?

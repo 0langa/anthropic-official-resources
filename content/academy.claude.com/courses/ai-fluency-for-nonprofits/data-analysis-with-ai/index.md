@@ -86,6 +86,8 @@ Evaluate AI's analysis:
 
 In the next lesson, we'll look at workflow automation—how to apply these same principles when AI handles routine tasks on your behalf, freeing up your time for higher-impact work.
 
+Was this helpful?
+
 
 ## Transcript
 

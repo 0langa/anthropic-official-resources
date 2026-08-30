@@ -97,3 +97,5 @@ Try it on the dataset you've been meaning to look at — upload the CSV, ask wha
 Show me what this data is telling me. I'm looking for the strongest relationships in here. Can you give me a correlation matrix and let me click into any pair to see the scatter? Flag anything that surprises you. Don't hold back on making this readable; I'm presenting this to a committee.
 
 Try in Claude
+
+Was this helpful?

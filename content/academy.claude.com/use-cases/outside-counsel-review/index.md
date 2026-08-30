@@ -270,3 +270,5 @@ Your workspace
 Off-pattern entries and matters drifting against budget surface monthly with the driver named, so the relationship-partner conversation runs on substance instead of a spreadsheet hunt.
 
 [Next: Regulatory and compliance](https://academy.claude.com/use-cases/regulatory-analysis)
+
+Was this helpful?

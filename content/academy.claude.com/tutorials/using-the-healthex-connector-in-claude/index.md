@@ -137,3 +137,5 @@ Chats that use the HealthEx integration are never used to train our models. We�
 **Empowering you, not replacing your doctor**
 
 Claude is designed to help you better understand and take ownership of your healthcare journey — not to provide medical advice, diagnoses, or treatment recommendations. Always consult your physician for medical decisions.
+
+Was this helpful?

@@ -118,3 +118,5 @@ Pull our HubSpot closed-lost deals from the last 6 months where DataGuard, Backu
 Then, build a React-based competitive intelligence dashboard with a list view showing all three competitors and detailed battlecards for each. Build it like a modern analytics dashboard - clean, flat, metric-dense, with that tech meets creative minimalism. Think calculator app but for competitive intelligence.
 
 Try in Claude
+
+Was this helpful?

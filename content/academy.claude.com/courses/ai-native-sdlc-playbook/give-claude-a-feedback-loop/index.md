@@ -59,3 +59,5 @@ If a test fails, fix the code, not the test.
 
 - **Leading indicator**: First-pass CI success rate for agent-written changes, which the CI system already supports.
 - **Lagging indicator**: Review time per PR (from the PR metadata), which should fall once the tests catch what reviewers used to catch, and the change failure rate from an incident tracker.
+
+Was this helpful?

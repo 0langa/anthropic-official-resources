@@ -112,3 +112,5 @@ I'm a math professor converting my handwritten integration notes into a professi
 Craft a professional-looking LaTeX document, resembling a published textbook page with colored boxes and precise equations, then convert it to PDF.
 
 Try in Claude
+
+Was this helpful?

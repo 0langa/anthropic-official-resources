@@ -138,3 +138,5 @@ Read everything and tell me what patterns you're seeing:
 Create a data workbook (Excel) organizing all the feedback by theme with filters so I can dig into specific issues. Include the source for each piece of feedback (Intercom, NPS, or interview) and use professional formatting with frozen headers
 
 Try in Claude
+
+Was this helpful?

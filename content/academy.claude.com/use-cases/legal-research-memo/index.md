@@ -304,3 +304,5 @@ Your workspace
 Research questions come back as a structured, cited memo in your house format. Your review starts at checking the authorities, not finding them.
 
 [Next: M&A diligence](https://academy.claude.com/use-cases/data-room-diligence)
+
+Was this helpful?

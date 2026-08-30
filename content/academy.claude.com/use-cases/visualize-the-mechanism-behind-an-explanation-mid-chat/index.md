@@ -93,3 +93,5 @@ Try it on whatever concept isn't clicking — say where you're stuck and let Cla
 I'm learning orbital mechanics and I understand that the planet speeds up when it's close to the sun and slows down when it's far. But I don't understand why that trade-off exists. Why can't it just go fast the whole time? Help me understand with a well crafted, interactive, dynamic visualization.
 
 Try in Claude
+
+Was this helpful?

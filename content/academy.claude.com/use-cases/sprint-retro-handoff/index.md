@@ -263,3 +263,5 @@ The sprint retro and on-call handoff are drafted from the closed cycle and chann
 You did this for one sprint. The same approach covers incident postmortems, release notes, and the weekly status summary — each one becomes a skill your team runs the same way.
 
 [Next: Draft the incident postmortem](https://academy.claude.com/use-cases/incident-postmortem)
+
+Was this helpful?

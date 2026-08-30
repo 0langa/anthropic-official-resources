@@ -97,3 +97,5 @@ Try it on the budget question you've been re-cutting in a spreadsheet. Type your
 We might lose our $400K federal grant next year. Current budget is about $2.1M: Roughly 60% programs, 25% ops, 15% fundraising. Show me three scenarios side by side: We lose the grant, we stay flat, it grows a bit. I want to flip between dollars and percentages, and if I click a scenario give me the one-line version of what it actually means.
 
 Try in Claude
+
+Was this helpful?

@@ -195,3 +195,5 @@ Our volunteers range from college students to retirees. Most commit 2-4 hours pe
 Create professional, comprehensive documents that make our volunteer program feel organized and legitimate. Use clear formatting, maintain a warm but professional tone, and include practical guidance that both volunteers and staff can follow easily. Make these documents detailed enough to use immediately without extensive revision.
 
 Try in Claude
+
+Was this helpful?

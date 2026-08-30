@@ -97,3 +97,5 @@ Try it on the program you run but have never drawn. Describe it in a sentence or
 I run a youth mentoring program. We pair high schoolers with adult mentors for weekly meetings over a year, and the goal is higher graduation rates. Show me our theory of change, and I want to be able to click the arrows between boxes to see what assumption each one is riding on. Where are the weak links?
 
 Try in Claude
+
+Was this helpful?

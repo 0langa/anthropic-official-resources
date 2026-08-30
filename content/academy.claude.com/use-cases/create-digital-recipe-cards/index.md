@@ -125,3 +125,5 @@ Create an interactive recipe artifact (for digital sharing). Include:
 • The original handwritten recipe displayed at the end in a museum-quality frame.
 
 Try in Claude
+
+Was this helpful?

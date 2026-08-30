@@ -125,3 +125,5 @@ If Claude asks for permission on every dashboard page, go to Settings → Permis
 Claude in Chrome is available to all paid plan users. Install the extension, log into your analytics tools, and describe the metrics you need. Claude navigates the dashboards and compiles a summary ready to paste into your team update.
 
 [Try in Claude(opens in new tab)](https://claude.com/download)
+
+Was this helpful?

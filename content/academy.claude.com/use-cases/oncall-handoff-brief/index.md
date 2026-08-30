@@ -175,3 +175,5 @@ The handoff is written and posted with each item's status, cause, and what to wa
 You did this for one rotation. The same approach covers incident postmortems, release summaries, and the weekly ops review — each one a skill in your team's plugin, run the same way every time.
 
 [Next: Draft the incident postmortem](https://academy.claude.com/use-cases/incident-postmortem)
+
+Was this helpful?

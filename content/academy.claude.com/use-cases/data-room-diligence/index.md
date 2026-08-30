@@ -217,3 +217,5 @@ Your workspace
 The whole data room is read, categorized, and summarized with a citation on every line. Associate hours go to judgment on the material issues instead of page-turning, and the deal team works from one index that stays current as the room fills.
 
 [Next: Contract redlining](https://academy.claude.com/use-cases/contract-playbook-review)
+
+Was this helpful?

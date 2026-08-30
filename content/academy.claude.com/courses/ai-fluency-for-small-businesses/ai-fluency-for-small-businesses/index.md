@@ -64,6 +64,8 @@ New to Claude? No worries! We'll provide clear guidance with each exercise to he
 
 In the next lesson, you'll learn the 4D Framework — the four competencies at the heart of effective AI collaboration.
 
+Was this helpful?
+
 
 ## Transcript
 

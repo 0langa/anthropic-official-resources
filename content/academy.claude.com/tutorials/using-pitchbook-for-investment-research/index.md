@@ -103,3 +103,5 @@ Discover unexpected connections between companies, investors, and professionals 
 ## Contact[](https://academy.claude.com/tutorials/using-pitchbook-for-investment-research)
 
 If you are having trouble completing the PitchBook Premium integration, you can contact [support@pitchbook.com(opens in new tab)](mailto:support@pitchbook.com) for help.
+
+Was this helpful?

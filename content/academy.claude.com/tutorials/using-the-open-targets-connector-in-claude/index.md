@@ -101,3 +101,5 @@ Are there known safety events associated with targeting PTGS2?
 Open in Claude
 
 - The Platform provides comprehensive safety information from multiple sources, which the user can explore in more detail, and compare information for different targets.
+
+Was this helpful?

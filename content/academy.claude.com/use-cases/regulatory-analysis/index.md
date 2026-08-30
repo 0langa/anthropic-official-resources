@@ -297,3 +297,5 @@ Your workspace
 New regulations are read against your own products and policies, with a specific action and deadline for each provision that applies — ready to assign instead of research.
 
 [Next: Legal research](https://academy.claude.com/use-cases/legal-research-memo)
+
+Was this helpful?

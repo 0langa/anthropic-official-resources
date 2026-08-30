@@ -141,3 +141,5 @@ I'm new to Claude. How can I use you most efficiently? Can you give me 5 example
 I’ve given you access to my docs (I think) to help you understand better what I do. Thanks!
 
 Try in Claude
+
+Was this helpful?

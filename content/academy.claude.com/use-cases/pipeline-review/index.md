@@ -192,3 +192,5 @@ Every deal is scored against your own criteria with the at-risk ones explained, 
 You did this for pipeline review. The same approach covers forecast roll-ups, renewal-risk checks, and account health — each one becomes a skill your team runs the same way.
 
 [Next: Account tracking](https://academy.claude.com/use-cases/account-tracking)
+
+Was this helpful?

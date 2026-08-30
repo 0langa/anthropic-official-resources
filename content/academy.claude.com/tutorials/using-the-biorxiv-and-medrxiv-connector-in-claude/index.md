@@ -151,3 +151,5 @@ Analyze preprint submission trends and usage statistics for platform growth over
 
 
 Open in Claude
+
+Was this helpful?

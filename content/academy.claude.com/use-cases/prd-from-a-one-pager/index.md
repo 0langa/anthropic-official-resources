@@ -143,3 +143,5 @@ Your workspace
 Spec writing starts from a structured draft in your template with the open questions flagged, so you spend your time reviewing instead of writing from scratch.
 
 [Next: User story breakdown](https://academy.claude.com/use-cases/launch-readiness)
+
+Was this helpful?

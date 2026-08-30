@@ -147,3 +147,5 @@ I've uploaded our NDA playbook, our standard mutual NDA template, and our list o
 Then help me craft optimized project instructions I can paste into the custom instructions field—instructions that tell Claude to reference the standards guide and apply our approach.
 
 Try in Claude
+
+Was this helpful?

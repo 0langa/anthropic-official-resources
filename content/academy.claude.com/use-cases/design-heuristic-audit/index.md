@@ -195,3 +195,5 @@ Turn the teardown into the on-brand competitive deck
 Open](https://claude.ai/design)
 
 [Next: Synthesize user interviews into findings](https://academy.claude.com/use-cases/uxr-synthesis)
+
+Was this helpful?

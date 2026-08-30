@@ -135,3 +135,5 @@ Pull the relevant information to build out these slides: Make sure to include ex
 Design direction: Clean and professional, but not sterile. I want something modern and approachable while still appropriate for hospital executives. Use premium typography (not default fonts) and our brand colors from the logo I'm uploading. Make sure text is conservatively sized so nothing gets cut off, and verify that no elements overlap.
 
 Try in Claude
+
+Was this helpful?

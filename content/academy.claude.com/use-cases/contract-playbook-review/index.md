@@ -318,3 +318,5 @@ Draft the redline as tracked changes
 Install](https://claude.com/download)
 
 [Next: Outside counsel management](https://academy.claude.com/use-cases/outside-counsel-review)
+
+Was this helpful?

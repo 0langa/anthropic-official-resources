@@ -303,3 +303,5 @@ Your workspace
 Every meeting on next week's calendar has its context gathered and an agenda drafted in one document, with the ones needing real preparation flagged. `/start` produces it the same way each week.
 
 [Next: My voice skill](https://academy.claude.com/use-cases/my-voice)
+
+Was this helpful?

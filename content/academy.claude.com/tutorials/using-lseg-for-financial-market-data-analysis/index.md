@@ -144,3 +144,5 @@ I’m looking at pricing a currency swap. Get me the current EUR/USD spot rate a
 - Define valuation dates when working with forward curves
 - Understand curve conventions (SOFR, ESTR, AONIA) for different currencies
 - Cross-reference data across tools to validate analysis
+
+Was this helpful?

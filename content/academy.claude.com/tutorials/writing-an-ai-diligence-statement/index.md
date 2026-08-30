@@ -97,3 +97,5 @@ A few practical steps for organizations:
 Writing AI diligence statements and taking full responsibility for AI’s outputs is a key component of AI Fluency. Normalizing this practice will help ensure we all build intentional relationships with AI use in a variety of settings.
 
 *This tutorial is part of the AI Fluency effort at Anthropic. It was designed to help professionals develop practical, responsible approaches to AI collaboration. Learn more at* [*Claude Academy*(opens in new tab)](https://academy.claude.com/courses/ai-fluency-framework-foundations)*.*
+
+Was this helpful?

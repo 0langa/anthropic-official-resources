@@ -133,3 +133,5 @@ I have 100+ documents for our upcoming SOC 2 audit in this folder. Right now the
 Our audit scope covers security, availability, and confidentiality. The audit period is January through December 2024.
 
 Try in Cowork
+
+Was this helpful?

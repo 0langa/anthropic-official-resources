@@ -187,3 +187,5 @@ Your workspace
 After every webinar, `/draft-content` writes a set of channel-specific drafts in your voice to the same folder — ready to review and publish instead of write from scratch.
 
 [Next: Blog post from outline](https://academy.claude.com/use-cases/on-brand-content)
+
+Was this helpful?

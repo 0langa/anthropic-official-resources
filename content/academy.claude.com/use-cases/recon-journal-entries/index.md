@@ -185,3 +185,5 @@ Review the breaks and reconcile in the workbook
 Install](https://claude.com/claude-for-excel)
 
 [Next: Explain a variance](https://academy.claude.com/use-cases/explain-a-variance)
+
+Was this helpful?

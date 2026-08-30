@@ -159,3 +159,5 @@ Claude would then provide a counterparty risk assessment including current credi
 
   - Example: “Find Moody’s research on renewable energy sector credit trends”
 - Rating scorecards provide methodology transparency: Review scorecards to understand how Moody’s weighs different factors in their rating assessment, which can inform your own credit analysis framework.
+
+Was this helpful?

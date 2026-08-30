@@ -76,6 +76,8 @@ Start a conversation with Claude (or continue from previous lessons):
 
 In the next lesson, we'll focus on applying your disciplinary knowledge to make the AI Fluency Framework specific to your field. You'll work with colleagues to develop discipline-specific applications of the 4Ds.
 
+Was this helpful?
+
 
 ## Transcript
 

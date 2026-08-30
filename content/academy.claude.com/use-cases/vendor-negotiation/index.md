@@ -263,3 +263,5 @@ Every material change in the renewal is documented with your position on it, and
 You did this for one renewal. The same approach covers SOW reviews, contract amendments, and price-increase notices — each one becomes a skill your team runs the same way.
 
 [Next: Screen a vendor for risk](https://academy.claude.com/use-cases/vendor-risk-review)
+
+Was this helpful?

@@ -183,3 +183,5 @@ Validate the numbers in a workbook
 Install](https://claude.com/claude-for-excel)
 
 [Next: Metrics deep-dive → narrative](https://academy.claude.com/use-cases/metrics-narrative)
+
+Was this helpful?

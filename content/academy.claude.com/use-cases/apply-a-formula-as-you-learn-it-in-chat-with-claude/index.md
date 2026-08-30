@@ -93,3 +93,5 @@ Try it on any formula you can do but don't yet have a feel for — regression, p
 I'm learning linear regression and I can do the formula but I don't get it. Can you give me something where I can mess with the data points myself and watch what happens to the line? I want to actually feel why one weird point can throw the whole thing off. Can you help me visualize?
 
 Try in Claude
+
+Was this helpful?

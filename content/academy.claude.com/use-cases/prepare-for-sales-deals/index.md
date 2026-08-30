@@ -118,3 +118,5 @@ Can you pull similar healthcare deals we've closed in the last year or two? I wa
 Create an artifact I can scan before my next call to feel the most prepared. This artifact should follow top-tier design standards. Create a industry-leading MedTech company meets top creative agency aesthetic.
 
 Try in Claude
+
+Was this helpful?

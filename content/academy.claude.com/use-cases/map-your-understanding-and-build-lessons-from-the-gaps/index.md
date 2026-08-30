@@ -132,3 +132,5 @@ I keep running into “Bayesian reasoning” in things I read—essays, podcasts
 Help me understand this. A good explanation is one I could redo with different numbers on my own, so check my reasoning as we go and I’ll tell you what lands and what doesn’t. Then build me an interactive lesson, a workbook I can use to audit which signals in my hiring pipeline actually predict success, and a concept map connecting it to what I’ll encounter next. I’ve attached our hiring pipeline export, applications through 12-month retention, so you can work from our real numbers.
 
 Try in Claude
+
+Was this helpful?

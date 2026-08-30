@@ -175,3 +175,5 @@ You have a complete RFC draft in your template, with prior art and trade-offs fi
 You did this for one proposal. The same approach covers API changes, schema migrations, and architecture decisions — each one becomes a skill your team runs the same way.
 
 [Next: Build an "Ask the Company" agent](https://academy.claude.com/use-cases/ask-the-company)
+
+Was this helpful?

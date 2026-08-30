@@ -201,3 +201,5 @@ Polish the board pages
 Install](https://claude.com/claude-for-powerpoint)
 
 [Next: Forecast and scenario modeling](https://academy.claude.com/use-cases/forecast-scenarios)
+
+Was this helpful?

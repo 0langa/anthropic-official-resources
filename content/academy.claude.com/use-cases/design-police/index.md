@@ -191,3 +191,5 @@ Redraw the flagged screens with on-system components
 Open](https://claude.ai/design)
 
 [Next: Encode the brand as a skill](https://academy.claude.com/use-cases/brand-guidelines-skill)
+
+Was this helpful?

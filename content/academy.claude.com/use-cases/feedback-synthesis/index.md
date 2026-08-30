@@ -307,3 +307,5 @@ Your workspace
 Feedback from all your sources is organized into a ranked one-page brief, each theme counted, quoted, and checked against the roadmap — ready to act on instead of sort through.
 
 [Next: Metrics deep-dive to narrative](https://academy.claude.com/use-cases/metrics-narrative)
+
+Was this helpful?

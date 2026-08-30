@@ -130,3 +130,5 @@ Claude in Chrome is available to all paid subscribers. Install the extension and
 I need to organize my Google Drive by reviewing all files and creating a logical folder structure.
 
 Get Claude in Chrome
+
+Was this helpful?

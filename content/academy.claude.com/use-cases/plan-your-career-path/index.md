@@ -161,3 +161,5 @@ Action Tracker (Google Doc): Forward-looking planner showing what to do next. In
 Skills Portfolio Log (Excel): Backward-looking evidence bank showing what I've done. Log completed projects with metrics, skills inventory with proof points, quantified achievements, learning completions, and STAR stories tagged by competency. Built for mining resume bullets and cover letters.
 
 Try in Claude
+
+Was this helpful?

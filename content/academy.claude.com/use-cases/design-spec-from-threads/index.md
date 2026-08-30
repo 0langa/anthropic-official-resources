@@ -193,3 +193,5 @@ Lay the spec out as an on-brand one-pager
 Open](https://claude.ai/design)
 
 [Next: Clickable prototype from real components](https://academy.claude.com/use-cases/clickable-prototype)
+
+Was this helpful?

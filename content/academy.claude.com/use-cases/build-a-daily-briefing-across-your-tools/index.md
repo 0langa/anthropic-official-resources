@@ -132,3 +132,5 @@ Structure it as:
 For urgent items, pull the deeper context: who's involved, what's been discussed, what's still unresolved.
 
 Try in Cowork
+
+Was this helpful?

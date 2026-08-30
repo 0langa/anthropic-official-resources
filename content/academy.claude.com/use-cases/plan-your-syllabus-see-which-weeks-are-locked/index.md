@@ -89,3 +89,5 @@ Try it on the syllabus where the middle keeps moving around — attach it, ask w
 I'm building a 15-week Intro to Macro syllabus and I keep second-guessing the order. Can you map out which topics actually depend on which — like, what do they need to get first before the later stuff makes sense? I want to see where I have flexibility and where the sequence is locked. If I click a topic, tell me if there's another common way to order it.
 
 Try in Claude
+
+Was this helpful?

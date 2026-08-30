@@ -295,3 +295,5 @@ Your workspace
 Every draft Cowork writes for you now loads `/my-voice` first, so it matches how you actually write — you spend your review on the content, not on making it sound like you.
 
 [Next: Thread to decision doc](https://academy.claude.com/use-cases/thread-to-decision)
+
+Was this helpful?

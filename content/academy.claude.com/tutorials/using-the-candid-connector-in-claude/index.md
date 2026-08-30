@@ -138,3 +138,5 @@ Try searching by EIN, alternate names or acronyms, or broadening your search ter
 - Search queries are used only to retrieve relevant results
 
 For Candid-specific questions, email [partnerships@candid.org(opens in new tab)](mailto:partnerships@candid.org).
+
+Was this helpful?

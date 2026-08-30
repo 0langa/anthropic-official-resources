@@ -140,3 +140,5 @@ All content should feel cohesive to my brand but fitting for the platform. To be
 Create a beautiful interactive artifact first so I can review everything in one place. Match the design style that I included in the attached screenshots. Also, provide individual files for each format.
 
 Try in Claude
+
+Was this helpful?

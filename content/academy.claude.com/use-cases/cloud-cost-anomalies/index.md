@@ -185,3 +185,5 @@ Cloud spend is checked against trend with each anomaly traced to a cause, costed
 You did this for one cloud account. The same approach covers other providers, SaaS tool spend, and per-team budget checks — each one becomes a skill your team runs the same way.
 
 [Next: Build an "Ask the Company" agent](https://academy.claude.com/use-cases/ask-the-company)
+
+Was this helpful?

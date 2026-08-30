@@ -131,3 +131,5 @@ I always forget stocking stuffers until the last minute and end up panic-buying 
 Can you put this together in a shopping list I can reference?
 
 Try in Claude
+
+Was this helpful?

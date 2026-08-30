@@ -185,3 +185,5 @@ You have a one-page briefing ready each morning and an end-of-day record of what
 You did this for the daily briefing. The same approach covers a weekly look-ahead, pre-meeting briefs, and project status checks — each one becomes a skill in your team's shared set.
 
 [Next: Prep call look-ahead](https://academy.claude.com/use-cases/week-ahead-prep)
+
+Was this helpful?

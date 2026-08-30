@@ -145,3 +145,5 @@ For the report, I need:
 Make this board-ready and donor-worthy. Use sophisticated design that matches the quality of professional nonprofit reports—this goes to foundation program officers who see dozens of these. Include charts and visual elements that make the data immediately clear. The tone should be confident about our achievements while staying authentic and mission-focused.
 
 Try in Claude
+
+Was this helpful?

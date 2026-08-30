@@ -147,3 +147,5 @@ Business relationship mapping through Kensho provides insights into operational 
 - Be specific about which financial statement items you need from the 200+ available metrics
 - Consider using LTM periods for companies with significant seasonality
 - Remember that business relationship data comes from disclosed sources and may not capture all partnerships
+
+Was this helpful?

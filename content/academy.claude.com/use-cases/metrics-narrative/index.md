@@ -297,3 +297,5 @@ Your workspace
 The metric move is explained in writing with its driver and likely cause identified, plus the charts that support it — ready to act on rather than investigate.
 
 [Next: Launch readiness sweep](https://academy.claude.com/use-cases/launch-readiness)
+
+Was this helpful?

@@ -201,3 +201,5 @@ Every account in your renewal window has a risk score, the signal behind it, and
 You did this for one renewal cycle. The same approach covers expansion reviews, forecast risk, and QBR prep — each one a skill in your team's plugin, run the same way every time.
 
 [Next: Account tracking and health](https://academy.claude.com/use-cases/account-tracking)
+
+Was this helpful?

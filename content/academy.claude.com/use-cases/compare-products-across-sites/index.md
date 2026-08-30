@@ -163,3 +163,5 @@ If you research products regularly, save your workflow as a shortcut by clicking
 I'm trying to decide between a few laptops and I have the product pages open in different tabs. Can you look at each one, pull out the specs, and put them in a Google Doc so I can compare them side by side?
 
 Get Claude in Chrome
+
+Was this helpful?

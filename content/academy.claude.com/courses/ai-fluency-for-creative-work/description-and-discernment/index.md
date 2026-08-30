@@ -151,6 +151,8 @@ Your answers will appear here once you start filling in the workbook.
 
 You now have a described practice and explicit standards. The next lesson points that toolkit at an actual decision: for one real piece of work, whether AI belongs, where, and what responsibilities follow.
 
+Was this helpful?
+
 
 ## Transcript
 

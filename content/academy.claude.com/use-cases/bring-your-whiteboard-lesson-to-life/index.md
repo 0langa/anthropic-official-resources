@@ -97,3 +97,5 @@ Try it on whatever you're planning to teach — attach your sketch, say where st
 I'm prepping to teach supply and demand equilibrium next week. Here's the sketch I've been using — students tend to follow the crossing but not why the price goes there. What's a better way to frame it? And is there a way to show them the pressure toward equilibrium, not just the intersection?
 
 Try in Claude
+
+Was this helpful?

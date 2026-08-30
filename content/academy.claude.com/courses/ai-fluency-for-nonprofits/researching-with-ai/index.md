@@ -79,6 +79,8 @@ Share your prompt with AI and review the response. Apply Discernment:
 
 In the next lesson, we'll explore these same Description and Discernment skills in a different context: writing with AI. You'll see how the loop works when you're creating content rather than gathering information.
 
+Was this helpful?
+
 
 ## Transcript
 

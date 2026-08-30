@@ -316,3 +316,5 @@ Your workspace
 You did this for one campaign. The same approach covers email performance, organic social, and landing-page conversion — each one becomes a skill your team runs the same way.
 
 [Next: Build a campaign brief](https://academy.claude.com/use-cases/campaign-brief)
+
+Was this helpful?

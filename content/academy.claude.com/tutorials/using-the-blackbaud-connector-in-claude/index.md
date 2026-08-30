@@ -106,3 +106,5 @@ Find all constituents named Williams in our database.
 - Combine multiple requests when helpful
 - Review AI-generated communications before sending, especially with sensitive donor data
 - Claude only accesses data your Blackbaud account authorizes
+
+Was this helpful?

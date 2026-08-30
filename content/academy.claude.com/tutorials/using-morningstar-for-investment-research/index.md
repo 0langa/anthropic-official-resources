@@ -132,3 +132,5 @@ Sustainable investing research taps into Morningstar's thematic content on ESG s
 - Note that research content reflects Morningstar's analytical views, not real-time market consensus.
 - Be aware that data is retrieved one security at a time, so complex portfolio analyses may take multiple steps.
 - Remember that Morningstar's ratings and estimates are based on fundamental analysis and may differ from market sentiment.
+
+Was this helpful?

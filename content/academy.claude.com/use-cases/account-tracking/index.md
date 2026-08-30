@@ -314,3 +314,5 @@ Your workspace
 Every account in your book has a current health summary — scored the same way, written to its folder, with the next actions already named.
 
 [Next: Transcript theme extractor](https://academy.claude.com/use-cases/transcript-themes)
+
+Was this helpful?

@@ -175,3 +175,5 @@ The customer-facing incident review is drafted from the source record with impac
 You did this for one incident. The same approach covers internal retros, status-page updates, and SLA-credit summaries — each one becomes a skill your team runs the same way.
 
 [Next: Turn the thread into a decision doc(opens in new tab)](https://academy.claude.com/use-cases/thread-to-decision)
+
+Was this helpful?

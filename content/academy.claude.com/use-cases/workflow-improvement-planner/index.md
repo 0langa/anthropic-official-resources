@@ -144,3 +144,5 @@ Make this comprehensive enough that when I complete it, it provides me with a fi
 Format this as a well-designed artifact that's easy to fill out—with clear sections, fill-in-the-blank areas, and helpful prompts that make sure I don't miss important details.
 
 Try in Claude
+
+Was this helpful?

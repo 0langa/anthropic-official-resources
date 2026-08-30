@@ -129,3 +129,5 @@ Search PubMed for the most relevant papers from the last 5 years and create a st
 Organize everything into a beautifully designed Word document that serves as my research roadmap—something that feels like a premium research tool with clear visual hierarchy, color-coding by study type, and space for my notes as I work through the papers.
 
 Try in Claude
+
+Was this helpful?

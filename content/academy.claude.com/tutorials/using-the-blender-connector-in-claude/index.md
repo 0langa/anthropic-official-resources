@@ -94,3 +94,5 @@ For each mesh in the scene, report its polygon count alongside how large it appe
 - **Does the connector work on claude.ai in the browser?** — No. The connector needs Blender running on the same machine as Claude, so it requires Claude Desktop.
 - **Does Claude edit my .blend file directly?** — Claude operates on the open scene through Blender's Python API. Changes apply to your session and are written to disk when you save in Blender.
 - **Do I need to know Python?** — No. You describe what you want and Claude writes and runs the Python. You can ask to see the code first if you want to review it or learn from it.
+
+Was this helpful?

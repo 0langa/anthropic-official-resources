@@ -125,3 +125,5 @@ Save this to my Notes app as "Knee Strengthening Routine" so I can pull it up on
 Format for Apple Notes on my phone. Use HTML <br> tags in order to create natural line breaks. Use abbreviations and keep it scannable - clear headers, quick reference info only, cut verbose explanations. Optimize for mobile, not desktop.
 
 Try in Claude
+
+Was this helpful?

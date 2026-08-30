@@ -132,3 +132,5 @@ Claude keeps scanning even when you switch to other tabs—as long as Chrome is 
 Find emails I likely don't need so I can review and bulk delete.
 
 Get Claude in Chrome
+
+Was this helpful?

@@ -65,6 +65,8 @@ Continue the conversation from Exercise 1, and let your AI partner know that you
 
 In the next lesson, we'll explore the Description-Discernment loop, which focuses on the moment-to-moment craft of building cognitive environments where humans and AI work together effectively.
 
+Was this helpful?
+
 
 ## Transcript
 

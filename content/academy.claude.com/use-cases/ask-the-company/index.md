@@ -177,3 +177,5 @@ Internal questions get a sourced answer from across your wiki, code, and warehou
 You did this for everyday engineering questions. The same approach covers on-call runbook lookup, data-catalog search, and new-hire onboarding — each one becomes a skill in your team's shared plugin.
 
 [Next: Write the design doc or RFC](https://academy.claude.com/use-cases/design-doc)
+
+Was this helpful?

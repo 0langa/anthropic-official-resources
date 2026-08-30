@@ -93,3 +93,5 @@ Try it on the decision you've been re-sorting — describe the tradeoffs you're 
 I'm planning grant submissions for next year and there are a lot of funders to choose between. Can you show me the tradeoffs in a way I can actually see — like, which ones are long shots for big money versus safer bets for smaller awards? Flag anything with a deadline coming up soon.
 
 Try in Claude
+
+Was this helpful?

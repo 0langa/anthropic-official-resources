@@ -90,3 +90,5 @@ Claude accesses Benevity's database in real time. Organization profiles are upda
 ### Does it include international organizations?[](https://academy.claude.com/tutorials/using-the-benevity-connector-in-claude)
 
 Yes. The database includes nonprofit organizations worldwide.
+
+Was this helpful?

@@ -155,6 +155,8 @@ Saved in this browser only. Copy your policy into your own document to keep it.
 
 Next you will take a short assessment to earn your certificate.
 
+Was this helpful?
+
 
 ## Transcript
 

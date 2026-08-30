@@ -120,3 +120,5 @@ Get started with Dispatch: download the Claude desktop app and the Claude mobile
 Jamie just asked me on Slack for the latest Q2 budget spreadsheet. Find it in my Documents/Finance folder on my computer — the file with “Q2” and “budget” in the name. Post it to Jamie in the #proj-planning Slack channel. Add a note that the tab labeled “Revised” has the current numbers.
 
 Try in Cowork
+
+Was this helpful?

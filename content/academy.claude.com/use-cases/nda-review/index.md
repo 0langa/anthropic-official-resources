@@ -277,3 +277,5 @@ Your workspace
 Each incoming NDA is screened against your playbook, with non-standard terms listed and everything else cleared for signature — review starts at the exceptions, not the full document.
 
 [Next: Contract review against your playbook](https://academy.claude.com/use-cases/contract-playbook-review)
+
+Was this helpful?

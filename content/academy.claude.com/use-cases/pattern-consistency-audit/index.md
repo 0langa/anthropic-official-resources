@@ -177,3 +177,5 @@ Mock the reuse option directly in your design file
 Open](https://claude.ai/design)
 
 [Next: Heuristic audit a flow](https://academy.claude.com/use-cases/design-heuristic-audit)
+
+Was this helpful?

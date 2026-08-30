@@ -323,3 +323,5 @@ Your workspace
 Launch readiness is one current checklist with each item owned, blockers named, and a go/no-go call — ready to review instead of compile across systems.
 
 [Next: PRD from a problem statement](https://academy.claude.com/use-cases/prd-from-a-one-pager)
+
+Was this helpful?

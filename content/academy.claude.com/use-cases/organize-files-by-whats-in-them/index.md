@@ -121,3 +121,5 @@ The next time your desktop gets cluttered, open Cowork and let it handle the sor
 Please help organize my desktop. Evaluate all of the scattered files and organize based on the contents inside of them.
 
 Try in Cowork
+
+Was this helpful?

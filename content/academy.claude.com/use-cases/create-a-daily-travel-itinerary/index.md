@@ -117,3 +117,5 @@ Create a Word document designed for mobile use: day-by-day timing, addresses, al
 Design this document like something a top-tier travel agency produces Think high-end travel magazine meets bespoke concierge service, not generic travel guide. Use a sophisticated color system, elegant typography, and organized text that feels expensive. Make every design choice serve both aesthetics and utility.
 
 Try in Claude
+
+Was this helpful?

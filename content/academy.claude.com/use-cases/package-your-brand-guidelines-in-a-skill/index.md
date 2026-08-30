@@ -249,3 +249,5 @@ Application Rules:
 Create a complete skill with proper structure that I can use whenever I need brand-consistent presentations. Include the SKILL.md file with clear instructions for when to use it and how it applies the styling.
 
 Try in Claude
+
+Was this helpful?

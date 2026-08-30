@@ -115,3 +115,5 @@ Before clicking "send," "publish," "post," "submit," or similar action buttons, 
 Install the Claude in Chrome extension and watch Claude scan tomorrow's meetings, find what you need to know, and fix what's missing—prep done before tomorrow arrives.
 
 [Try in Claude(opens in new tab)](https://claude.com/download)
+
+Was this helpful?

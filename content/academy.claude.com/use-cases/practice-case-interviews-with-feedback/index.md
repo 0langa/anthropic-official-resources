@@ -131,3 +131,5 @@ I'm practicing for consulting interviews. Set up this practice scenario for me�
 After I finish my analysis and write my recommendation, I'll share it for feedback. Review it like a senior partner would: check my numbers, evaluate my logic, and tell me specifically what needs improvement.
 
 Try in Claude
+
+Was this helpful?

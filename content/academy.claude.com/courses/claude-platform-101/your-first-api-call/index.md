@@ -112,3 +112,5 @@ In a real product, this same `messages.create` shape is the engine behind someth
 - Add a **system prompt** to shape Claude's behavior.
 - The response `content` is an array of blocks — loop and check each block's `type`.
 - From here, everything builds on this pattern.
+
+Was this helpful?

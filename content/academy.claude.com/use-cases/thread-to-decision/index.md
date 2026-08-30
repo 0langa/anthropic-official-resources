@@ -309,3 +309,5 @@ Decisions from long discussions are logged in a consistent format with owners an
 You did this for one thread. The same approach covers meeting notes, incident reviews, and project retros — each one a skill your team runs the same way.
 
 [Next: Prep call look-ahead](https://academy.claude.com/use-cases/week-ahead-prep)
+
+Was this helpful?

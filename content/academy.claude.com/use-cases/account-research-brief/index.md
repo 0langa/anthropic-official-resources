@@ -263,3 +263,5 @@ Your workspace
 You have a current one-page brief for each account that combines your own history with recent public changes and where you fit. Prep is reading a page, not assembling one.
 
 [Next: Call prep](https://academy.claude.com/use-cases/call-prep-sheet)
+
+Was this helpful?

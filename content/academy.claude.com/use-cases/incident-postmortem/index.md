@@ -175,3 +175,5 @@ You have a postmortem drafted from the incident record, with an owner on every a
 You did this for one incident. The same approach covers on-call handoffs, runbook updates, and sprint retros — each one a skill your team runs the same way.
 
 [Next: Sprint retro and on-call handoff](https://academy.claude.com/use-cases/sprint-retro-handoff)
+
+Was this helpful?

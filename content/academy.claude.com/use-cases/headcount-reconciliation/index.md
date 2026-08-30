@@ -185,3 +185,5 @@ Pivot the differences by department in place
 Install](https://claude.com/claude-for-excel)
 
 [Next: Forecast and scenario modeling](https://academy.claude.com/use-cases/forecast-scenarios)
+
+Was this helpful?

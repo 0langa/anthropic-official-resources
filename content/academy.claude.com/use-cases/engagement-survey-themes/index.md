@@ -297,3 +297,5 @@ Open-text survey responses are themed, segmented, and anonymized into a one-page
 You did this for one engagement survey. The same approach works for exit-interview notes, onboarding feedback, and pulse-survey comments — each one becomes a skill your team runs the same way.
 
 [Next: Performance review administrator](https://academy.claude.com/use-cases/performance-review-admin)
+
+Was this helpful?

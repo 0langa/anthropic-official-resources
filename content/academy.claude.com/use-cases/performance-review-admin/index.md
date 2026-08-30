@@ -187,3 +187,5 @@ Every manager writes reviews against your framework, in your template, through o
 You did this for performance reviews. The same approach works for promotion cases, onboarding plans, and improvement plans — each one becomes a skill in your team's plugin that managers run the same way.
 
 [Next: Engagement survey to action plan](https://academy.claude.com/use-cases/engagement-survey-themes)
+
+Was this helpful?

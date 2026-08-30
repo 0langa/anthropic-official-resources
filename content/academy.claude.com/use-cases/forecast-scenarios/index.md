@@ -181,3 +181,5 @@ Running `/financial-statements` each period gives you a forecast that's current 
 You did this for one forecast. The same approach covers cash-flow projections, department budgets, and the long-range plan — each one becomes a skill your team runs the same way.
 
 [Next: Explain a variance](https://academy.claude.com/use-cases/explain-a-variance)
+
+Was this helpful?

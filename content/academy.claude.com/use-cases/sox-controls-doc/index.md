@@ -305,3 +305,5 @@ Your workspace
 Each process has audit-ready documentation in your standard format, with control gaps and segregation-of-duties issues already flagged for follow-up.
 
 [Next: Prep an audit request](https://academy.claude.com/use-cases/explain-a-variance)
+
+Was this helpful?

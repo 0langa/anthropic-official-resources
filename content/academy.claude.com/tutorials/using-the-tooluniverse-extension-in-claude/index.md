@@ -255,3 +255,5 @@ Documentation is available at [ToolUniverse Documentation(opens in new tab)](htt
 **Community Resources**
 
 Access community resources through our [Slack Community(opens in new tab)](https://join.slack.com/t/tooluniversehq/shared_invite/zt-3dic3eoio-5xxoJch7TLNibNQn5_AREQ) for peer support and collaboration, and [GitHub Issues(opens in new tab)](https://github.com/mims-harvard/ToolUniverse) for reporting bugs and requesting features.
+
+Was this helpful?

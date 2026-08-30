@@ -167,3 +167,5 @@ A Canva slide deck outline with clean visuals, data charts, and transitions—we
 Speaker notes document with minimalist design, box structures, muted color palette, and clean sans-serif hierarchy. Add elements like a split workspace/reference column layout and use a functional modernist aesthetic so this document is easy to use while preparing.
 
 Try in Claude
+
+Was this helpful?

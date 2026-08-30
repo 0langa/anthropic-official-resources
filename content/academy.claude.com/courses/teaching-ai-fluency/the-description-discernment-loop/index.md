@@ -74,6 +74,8 @@ Continue the conversation from Exercise 2, and let your AI partner know that you
 
 In the next lesson, we'll explore how to assess AI Fluency in your students. You'll learn to apply outcome, process, and reflection-based assessment strategies and create rubrics that capture the 4D competencies.
 
+Was this helpful?
+
 
 ## Transcript
 

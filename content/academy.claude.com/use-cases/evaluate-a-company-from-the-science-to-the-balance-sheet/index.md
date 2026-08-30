@@ -157,3 +157,5 @@ Evaluate the science and trial design. Build a risk-adjusted pipeline valuation.
 Produce a research memo and a downloadable model. Tell me what I should be worried about that I haven't asked about.
 
 Try in Claude
+
+Was this helpful?

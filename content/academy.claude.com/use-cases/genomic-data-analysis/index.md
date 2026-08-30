@@ -168,3 +168,5 @@ Whether you're exploring differential expression, validating findings against li
 My colleagues recently published the attached single-cell dataset that describes gene expression differences between adult and pediatric liver samples with a focus on the immune system. I would like to explore these samples but focus on the parenchymal cells and differences between adult and pediatric liver. Can you help me first go through the differentially expressed genes and create a heatmap and then also identify pathways or sets of genes that are enriched in each sample?
 
 Try in Claude
+
+Was this helpful?

@@ -133,3 +133,5 @@ Use color-coding or visual indicators to help me spot patterns quickly (like hea
 Make it look really polished and professional - something I'd feel confident sharing with my travel group. The layout should be clean and sophisticated - think premium travel magazine quality, not a basic spreadsheet. I want all five destinations visible at once so I can compare them easily.
 
 Try in Claude
+
+Was this helpful?

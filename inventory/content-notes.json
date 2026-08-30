@@ -831,7 +831,7 @@
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://code.claude.com/docs/en/overview": [
-    "Native source; upstream MDX components retained."
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://code.claude.com/docs/en/permission-modes": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -4248,7 +4248,7 @@
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://platform.claude.com/docs/en/get-started": [
-    "Native source; upstream MDX components retained."
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://platform.claude.com/docs/en/home": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -6309,13 +6309,20 @@
     "Native source; upstream MDX components retained."
   ],
   "https://www.anthropic.com/engineering/harness-design-long-running-apps": [
-    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Could not read tab 'Sprite editor': TimeoutError",
+    "Could not read tab 'Game play': TimeoutError",
+    "Could not read tab 'Sprite editor': TimeoutError",
+    "Could not read tab 'Game play': TimeoutError"
   ],
   "https://www.anthropic.com/news/analysis-tool": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/news/anthropic-economic-index-connector": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/news/anthropic-public-record": [
+    "Could not read tab 'Integrated users': TimeoutError"
   ],
   "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -6334,6 +6341,17 @@
   ],
   "https://www.anthropic.com/news/claude-for-chrome": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/news/claude-opus-4-5": [
+    "Could not read tab 'BrowseComp-Plus': TimeoutError"
+  ],
+  "https://www.anthropic.com/news/claude-opus-4-6": [
+    "Could not read tab 'Coding': TimeoutError",
+    "Could not read tab 'Long-term coherence': TimeoutError"
+  ],
+  "https://www.anthropic.com/news/claude-opus-5": [
+    "Could not read tab 'AA Coding Agent Index': TimeoutError",
+    "Could not read tab 'DeepSearchQA': TimeoutError"
   ],
   "https://www.anthropic.com/news/connectors-directory": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -6386,9 +6404,24 @@
   "https://www.anthropic.com/research/Claude-accelerates-protein-design": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://www.anthropic.com/research/anthropic-interviewer": [
+    "Could not read tab 'Scientists': TimeoutError",
+    "Could not read tab 'Art, Design, & Media': TimeoutError",
+    "Could not read tab 'Game developers': TimeoutError",
+    "Could not read tab 'Astronomers': TimeoutError"
+  ],
   "https://www.anthropic.com/research/attack-navigator": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
     "Content dependencies blocked by scope or robots policy: https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html"
+  ],
+  "https://www.anthropic.com/research/claude-opus-5": [
+    "Could not read tab 'CursorBench': TimeoutError",
+    "Could not read tab 'HLE': TimeoutError",
+    "Could not read tab 'DeepSearchQA': TimeoutError",
+    "Could not read tab 'Cell artifact': TimeoutError"
+  ],
+  "https://www.anthropic.com/research/claude-values-models-languages": [
+    "Could not read tab '': TimeoutError"
   ],
   "https://www.anthropic.com/research/cyber-toolkits-update": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."

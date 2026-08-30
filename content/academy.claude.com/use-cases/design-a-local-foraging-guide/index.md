@@ -111,3 +111,5 @@ What it should do:
 Design: Quiet and organic. Warm cream, muted sage, soft olive. Think field journal meets editorial magazine—sophisticated but approachable. Smooth transitions, rounded corners, good type hierarchy.
 
 Try in Claude
+
+Was this helpful?

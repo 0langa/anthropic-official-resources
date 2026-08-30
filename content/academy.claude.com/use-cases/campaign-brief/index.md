@@ -295,3 +295,5 @@ Your workspace
 You start each campaign with a brief and kickoff deck already drafted in your template and voice — ready to review instead of write.
 
 [Next: Create on-brand content](https://academy.claude.com/use-cases/on-brand-content)
+
+Was this helpful?

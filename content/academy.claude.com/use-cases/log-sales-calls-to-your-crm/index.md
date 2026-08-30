@@ -151,3 +151,5 @@ Once you have an activity log format that works, save the prompt as a shortcut b
 Claude in Chrome is available to all paid plan users. Install the extension, log into Google Calendar and Salesforce, and ask Claude to log today's calls. It works with your existing browser sessions—no integrations to configure.
 
 [Try in Claude(opens in new tab)](https://claude.com/download)
+
+Was this helpful?

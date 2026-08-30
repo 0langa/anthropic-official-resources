@@ -131,3 +131,5 @@ Include data visualizations where useful. Use a dense but readable layout. Pack 
 Go for a British newspaper aesthetic: no gradients, shadows, rounded corners, or bright colors. Print-like typography with tight leading. Include institutional publishing elements—standfirsts, pull quotes with left borders, desk attributions, sourced charts using Chart.js. This should look hand-crafted by an editorial designer. Include substantive developments formatted like a real publication I'd read on Sunday evening.
 
 Try in Claude
+
+Was this helpful?

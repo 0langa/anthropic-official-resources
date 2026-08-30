@@ -93,6 +93,8 @@ Did your initial prompt give AI enough context to be useful? What would you revi
 
 In the next lesson, we'll explore the outer loop of Delegation and Diligence by analyzing data with AI.
 
+Was this helpful?
+
 
 ## Transcript
 

@@ -325,3 +325,5 @@ Your workspace
 You have a complete, consistent offer package for each finalist — drafted from your approved terms and templates, ready for your review before anything goes to the candidate.
 
 [Next: Onboarding plan](https://academy.claude.com/use-cases/open-new-role)
+
+Was this helpful?

@@ -110,7 +110,7 @@ Your personal GitHub token is verified to confirm you have access, then Cowork u
 
 An initial sync runs automatically when you connect a repository. After that, organization owners can opt-in to continued automatic updates per marketplace by going to **[Organization settings > Plugins](https://claude.ai/admin-settings/plugins)**, clicking the menu button in the upper right corner of the marketplace, then toggling "Sync automatically" on:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2193200015/a239033a9ab19fbd39f1a0d9edce/CleanShot+2026-03-23+at+11_41_31%402x.png?expires=1788065100&amp;signature=0d15f60a8f0412b0b44d3a0236fd161a0c85d4acfb1a19b7f239e75e53f38bce&amp;req=diEuFct%2BnYFeXPMW1HO4zUYv5tX5x3oVRDH%2FtUo5ov4x9uX80KH0MSbcIuYD%0AAH7gTHzjRf%2BTbZQAUE0%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2193200015/a239033a9ab19fbd39f1a0d9edce/CleanShot+2026-03-23+at+11_41_31%402x.png?expires=1788087600&amp;signature=2597b1fde9a39ce78004ea67786cc18ceb3fd3f19400cace1a9a4fc892fc5b07&amp;req=diEuFct%2BnYFeXPMW1HO4zUYv5tX5yXgSRDH%2FtUo5ov43zbHZc%2BCMFnBM3HOk%0AziV9ap4qpqnGOGEFVUk%3D%0A)
 
 Enabling automatic sync creates a webhook on the connected repository. The person turning the toggle on must have admin-level access to that repository on GitHub. This is checked through their personal GitHub connection, which is separate from the Claude GitHub App installation. Without admin access, the page shows "Cannot access repository. Ensure the repository exists and the Claude GitHub App is installed," even when the App is installed correctly and manual updates work.
 

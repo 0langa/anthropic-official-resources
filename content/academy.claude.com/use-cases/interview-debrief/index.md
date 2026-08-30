@@ -298,3 +298,5 @@ panel starts from the same summary and uses the time to decide instead of
 re-reading scorecards.
 
 [Next: Offer process](https://academy.claude.com/use-cases/offer-process)
+
+Was this helpful?

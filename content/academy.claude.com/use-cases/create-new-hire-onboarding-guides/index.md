@@ -149,3 +149,5 @@ To find relevant information, search my Google Calendar for onboarding events, h
 Make it information-dense but beautifully organized—a senior designer should look at this and think "they have great taste here." Use sophisticated typography and layout, not generic HR formatting. She should be able to scan it quickly but find everything she needs.
 
 Try in Claude
+
+Was this helpful?

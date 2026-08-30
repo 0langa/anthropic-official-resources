@@ -40,7 +40,7 @@ If your work involves a physical machine, Claude keeps working while you step aw
 
 Claude asks for your permission before accessing each application. You’ll see a prompt and must approve before Claude can interact with that app. Some apps are off-limits by default.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2193297849/243cf7bd2386d92a253c2cec7d32/46cb6fcb-c0ee-4d1c-9974-9c1c1058c81c?expires=1788057900&amp;signature=6cc69c0592061ba69b8f0e14504a351422cdce046427c900cf00dc92d3b3eb28&amp;req=diEuFct3molbUPMW1HO4za8%2BRnSCRieVOFMEfKzd96pgj2c0B1pnL8QjW8qH%0ARaEmhzujS59kQP599LI%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2193297849/243cf7bd2386d92a253c2cec7d32/46cb6fcb-c0ee-4d1c-9974-9c1c1058c81c?expires=1788085800&amp;signature=2a25a9175ad0a396218a1d62e24accabc9847bc14de8a83059cffb5b2ef9d67a&amp;req=diEuFct3molbUPMW1HO4za8%2BRnSCSyWUOFMEfKzd96oXLvwnryTKeMhL%2FVKV%0AkDcOD%2FXvgHtFpJpxkTM%3D%0A)
 
 Claude is trained to avoid risky operations—like transferring funds, modifying or deleting files, or handling sensitive data—and to flag signs of prompt injection. However, these safeguards aren't perfect, and Claude may occasionally act outside these boundaries.
 
@@ -128,7 +128,7 @@ To start using computer use:
 
 3. Find the **Computer use** toggle and turn it on:
 
-  ![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2193911341/630e6df3b08b27d1c7b4f1ca6a1f/image.png?expires=1788057900&amp;signature=fdc99f5a28276cee009a9729dcca579bf5cbf85dce4928af436ab9cce6ba006e&amp;req=diEuFcB%2FnIJbWPMW1HO4zR8GoUx8QE05jdPXX%2BaSOrHSxby1%2FBMTChKM4iY1%0AN3fW%0A)
+  ![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2193911341/630e6df3b08b27d1c7b4f1ca6a1f/image.png?expires=1788085800&amp;signature=77d8ea7b2a76a389168261feae0da7c307edded4718461c696459619c39b68a6&amp;req=diEuFcB%2FnIJbWPMW1HO4zR8GoUx8TU84jdPXX%2BaSOrHlttPnb2iaOoPwnmG%2F%0AjwS%2F%0A)
 
 4. Open Cowork or Claude Code in the desktop app and start a session.
 

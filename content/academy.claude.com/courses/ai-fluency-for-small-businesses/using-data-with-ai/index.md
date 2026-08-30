@@ -85,6 +85,8 @@ Your Delegation move — deciding what data is appropriate to bring to AI and wh
 
 In the next lesson, we'll put all four dimensions of the 4D Framework together to automate a full business workflow from start to finish.
 
+Was this helpful?
+
 
 ## Transcript
 

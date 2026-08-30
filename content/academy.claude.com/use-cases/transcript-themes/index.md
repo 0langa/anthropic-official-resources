@@ -287,3 +287,5 @@ Your workspace
 What customers are saying across your calls is organized into themes, each counted, quoted, and attributed to accounts — a one-page brief ready to share instead of assemble by hand.
 
 [Next: Account research](https://academy.claude.com/use-cases/account-research-brief)
+
+Was this helpful?

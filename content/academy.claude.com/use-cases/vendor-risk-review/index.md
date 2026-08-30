@@ -305,3 +305,5 @@ Your workspace
 Each vendor is scored against your framework with a recommendation, required mitigations, and a source citation for every finding — ready for a decision instead of another read-through.
 
 [Next: Contract review against your playbook](https://academy.claude.com/use-cases/contract-playbook-review)
+
+Was this helpful?

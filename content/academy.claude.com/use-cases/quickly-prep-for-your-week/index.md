@@ -174,3 +174,5 @@ From my Outlook inbox and summarize any weekend emails I need to handle, any thr
 Create an overview document of my must-dos, daily structure, preparation I still need to do, blocks of time I need for deep work, and email triage of high-priority vs can-wait.
 
 Try in Claude
+
+Was this helpful?

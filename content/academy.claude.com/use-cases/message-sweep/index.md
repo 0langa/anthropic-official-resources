@@ -291,3 +291,5 @@ Your workspace
 `/start` groups your unreads across Slack, Teams, and email by topic, with drafts ready for the messages that need a reply — one list to act on instead of three apps to check.
 
 [Next: Prep call look-ahead](https://academy.claude.com/use-cases/week-ahead-prep)
+
+Was this helpful?

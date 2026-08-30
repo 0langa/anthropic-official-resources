@@ -181,3 +181,5 @@ Your workspace
 Your position against named competitors is documented with each gap identified and sourced — ready to prioritize instead of research.
 
 [Next: Feedback synthesis to prioritized themes](https://academy.claude.com/use-cases/feedback-synthesis)
+
+Was this helpful?

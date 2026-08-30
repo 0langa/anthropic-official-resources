@@ -97,3 +97,5 @@ Try it on the campaign number someone floated in a board meeting. Type the goal 
 We're thinking about a $2M capital campaign. Show me what the gift pyramid needs to look like, meaning how many donors at each tier and how many qualified prospects I'd realistically need behind each one. Let me drag the goal and watch the shape change, and flag the tiers where I'm probably thin.
 
 Try in Claude
+
+Was this helpful?

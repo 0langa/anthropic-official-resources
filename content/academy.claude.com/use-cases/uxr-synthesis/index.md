@@ -279,3 +279,5 @@ Turn the findings into the on-brand readout deck
 Open](https://claude.ai/design)
 
 [Next: Design spec from scattered threads](https://academy.claude.com/use-cases/design-spec-from-threads)
+
+Was this helpful?

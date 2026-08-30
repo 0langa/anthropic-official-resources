@@ -86,6 +86,8 @@ Start a conversation with Claude (for convenience, we will refer to Claude in ma
 
 In the next lesson, we'll explore the Delegation-Diligence loop, a framework for responsible design and decision-making in AI collaboration.
 
+Was this helpful?
+
 
 ## Transcript
 

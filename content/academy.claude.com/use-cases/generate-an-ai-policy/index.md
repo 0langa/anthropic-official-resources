@@ -234,3 +234,5 @@ Ethical considerations:
 I need a comprehensive policy document (Word) and a simpler version for our website (md). Make these professional and board-ready with sophisticated formatting.
 
 Try in Claude
+
+Was this helpful?

@@ -11,3 +11,5 @@ Learn what skills are in Claude Code and how they extend Claude's capabilities w
 Embedded media: https://www.youtube-nocookie.com/embed/bjdBVZa66oU?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=bjdBVZa66oU)
+
+Was this helpful?

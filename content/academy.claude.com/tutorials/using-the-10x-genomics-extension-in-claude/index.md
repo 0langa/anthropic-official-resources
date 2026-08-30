@@ -89,3 +89,5 @@ Sample prompts and prompting best practices can be found in the [10x Genomics MC
 - [10x Cloud Analysis support(opens in new tab)](https://www.10xgenomics.com/support/software/cloud-analysis/latest)
 - [Cell Ranger documentation(opens in new tab)](https://www.10xgenomics.com/support/software/cell-ranger/latest)
 - [10x Genomics MCP Server Documentation(opens in new tab)](https://www.10xgenomics.com/support/software/cloud-analysis/latest/tutorials/cloud-mcp-server)
+
+Was this helpful?

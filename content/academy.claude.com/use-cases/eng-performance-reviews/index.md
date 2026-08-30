@@ -173,3 +173,5 @@ Each report has a review draft with evidence linked for every claim and the plac
 You did this for one review cycle. The same approach covers promotion packets, calibration prep, and peer-feedback summaries — each one becomes a skill your team runs the same way.
 
 [Next: Draft the incident postmortem](https://academy.claude.com/use-cases/incident-postmortem)
+
+Was this helpful?

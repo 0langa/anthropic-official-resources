@@ -121,3 +121,5 @@ Can you help me visualize this so we can see the whole system in one view and un
 Create a Sankey flow diagram with organic curved paths. Make it screenshot-worthy with professional, bold typography and a natural color palette. Enable interactive zoom and pan with smooth Bezier curves. Apply Tufte-level information design.
 
 Try in Claude
+
+Was this helpful?

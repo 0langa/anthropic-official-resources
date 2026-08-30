@@ -143,3 +143,5 @@ Flag:
 Group by violation type. For each one give me filename, issue, guideline value, asset value, and confidence. End with how many assets passed all checks.
 
 Try in Cowork
+
+Was this helpful?

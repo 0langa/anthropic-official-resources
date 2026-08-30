@@ -120,3 +120,5 @@ Create a redlined version that protects us from getting locked into something we
 Create a new file that is an exact copy of the contract with track changes enabled. The redlines should show deletions (strikethrough red text) and insertions (underlined colored text). Use a script to create real comments or suggestions in the margins of the doc for each edit explaining the issue. Flag anything that could bite us later.
 
 Try in Claude
+
+Was this helpful?

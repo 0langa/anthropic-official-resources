@@ -307,3 +307,5 @@ Your workspace
 You did this for one competitor. The same approach covers your whole competitive set — one folder per name, one scheduled refresh, one consistent answer for the field.
 
 [Next: Build a campaign brief](https://academy.claude.com/use-cases/campaign-brief)
+
+Was this helpful?

@@ -97,3 +97,5 @@ Try it on the literature that's stopped making sense as a whole — attach what 
 I've read 20 papers on AI in K-12 and I've lost the thread. Can you map out who's actually agreeing with who and where the real disagreements are? I can't tell anymore which papers are building on each other and which are talking past each other. If I click into a group, give me the short version of what they've got and what they're missing.
 
 Try in Claude
+
+Was this helpful?
