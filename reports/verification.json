@@ -2,13 +2,14 @@
   "actionable_missing_pages": 0,
   "actionable_population_complete": true,
   "archived_pages": 3737,
-  "ci_run": "https://github.com/0langa/anthropic-official-resources/actions/runs/33290964023",
+  "ci_run": "https://github.com/0langa/anthropic-official-resources/actions/runs/33294301959",
   "english_resource_candidates": 3823,
   "exact_website_replica": false,
   "hash_failures": [],
   "limitations": [
     "Discovery cannot prove that unlinked pages do not exist.",
     "Videos/audio remain links; hidden quiz responses and private learner state are not accessed.",
+    "Fourteen retained pages report timed-out optional tab reads.",
     "One retained research page depends on an external interactive embed."
   ],
   "linux_tests": "passed",
@@ -24,16 +25,17 @@
   },
   "local_hashes_verified": 3737,
   "missing_pages": 86,
-  "pipeline_commit": "1db60feb9d8d87d00ddf086578d71f9f3dd784ff",
-  "retained_partial_pages": 36,
+  "pipeline_commit": "316fdc94116cdbb8ae72c128780399744311d78a",
+  "retained_partial_pages": 50,
   "terminal_pages": 86,
   "terminal_statuses": {
     "blocked": 3,
     "gone": 57,
     "out_of_scope": 26
   },
-  "tested_at_utc": "2026-08-30T03:47:25Z",
-  "tests_per_os": 41,
+  "tested_at_utc": "2026-08-30T05:18:48Z",
+  "tests_per_os": 43,
+  "updater_run": "https://github.com/0langa/anthropic-official-resources/actions/runs/33291341252",
   "windows_launcher": "passed",
   "windows_tests": "passed"
 }

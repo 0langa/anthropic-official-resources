@@ -43,10 +43,11 @@ Done condition: no valid reachable English resource remains unarchived. Terminal
 - Browser fixes captured Academy transcript panels on pages without `<main>`, removed plain-word transcript false positives, and treated exact presentation/form/analytics scripts as optional without allowlisting substantive external artifacts.
 - Current coverage: 3737 archived / 3823 discovered / 86 terminal unarchived / 0 actionable missing.
 - Terminal evidence: 57 gone, 26 cross-scope redirects, 3 robots-blocked.
-- Retained partial quality: 35 quiz UIs with hidden answers/private learner state intentionally untouched; 1 externally embedded interactive research artifact.
-- Final local gates: 41 tests passed including real Chromium; 3737 hashes verified; report exits 0; code/docs whitespace check clean.
+- Retained partial quality after fresh refresh: 35 quiz UIs with hidden answers/private learner state intentionally untouched; 14 optional tab-read timeouts; 1 externally embedded interactive research artifact.
+- Final local gates: 43 tests passed with current local Chromium retry deferred by the 2 GB free-memory safety gate; 3737 hashes verified; report exits 0; code/docs whitespace check clean. Earlier local real-Chromium gate passed before the active render workload reduced free memory.
 - Publication commit `1db60fe` pushed; CI report commit `7eafb6e` fast-forwarded.
-- Validation run `33290964023` passed 41 tests on Windows and Linux, real Chromium on both, launcher parse/run, 3737-file verification, and live pilot 10/10.
+- Full updater run `33291341252` completed its one-hour refresh, verified integrity, committed current content, and passed the zero-actionable gap gate.
+- Final validation run `33294301959` passed 43 tests on Windows and Linux, real Chromium on both, launcher parse/run, 3737-file verification, and live pilot 10/10; CI report commit `371cbbca` fast-forwarded.
 
 ## Next safe action
 

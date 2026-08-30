@@ -6,17 +6,18 @@ Every currently discovered, allowed, reachable English resource has an archived 
 
 | Check | Result |
 | --- | --- |
-| Windows unit/integration tests | 41 passed, including real Chromium |
-| Linux unit/integration tests | 41 passed, including real Chromium |
+| Windows unit/integration tests | 43 passed, including real Chromium |
+| Linux unit/integration tests | 43 passed, including real Chromium |
 | PowerShell launcher | Parse and actual Verify-mode execution passed in Windows CI |
 | Live textual-page pilot | 10/10 passed across Platform, Claude Code, Academy, support, cookbook, engineering, research and Claude blog |
 | Academy transcript | Substantial newly captured transcript text asserted, beyond checking for a Transcript label |
 | Published inventory | 3,823 discovered pages; 3,737 archived; zero actionable missing |
 | Terminal URL evidence | 86 unarchived: 57 gone, 26 outside configured resource scope, 3 robots-blocked |
-| Retained partial evidence | 36 archived: 35 public quiz UIs plus 1 external interactive research embed |
+| Retained partial evidence | 50 archived: 35 public quiz UIs, 14 optional tab-read timeouts, 1 external interactive research embed |
 | Merged archive integrity | 3,737 page hashes verified; zero failures |
+| Full updater | One-hour refresh passed integrity and zero-actionable gap gates; generated commit `a0886222` |
 
-[Successful CI run](https://github.com/0langa/anthropic-official-resources/actions/runs/33290964023) tested population commit `1db60feb9d8d87d00ddf086578d71f9f3dd784ff` on Windows and Linux, ran real Chromium on both, verified retained content, and published live-pilot evidence in commit `7eafb6e`.
+[Successful CI run](https://github.com/0langa/anthropic-official-resources/actions/runs/33294301959) tested final population/quality commit `316fdc94116cdbb8ae72c128780399744311d78a` on Windows and Linux, ran real Chromium on both, verified retained content, and published live-pilot evidence in commit `371cbbca`. [Successful full updater run](https://github.com/0langa/anthropic-official-resources/actions/runs/33291341252) refreshed the inventory and passed its completion gate.
 
 Machine-readable evidence: [verification.json](verification.json), [live-pilot.json](live-pilot.json), [discovery-pilot.json](discovery-pilot.json), [inventory-audit.json](inventory-audit.json).
 
@@ -30,7 +31,7 @@ Native exports and direct HTTP are preferred. One Playwright browser handles dyn
 
 The pipeline preserves previous successful copies on fetch failures, journals progress, retries partial pages, enforces English scope, respects robots policy, and records unresolved outcomes. Windows line endings, case-only URL variants and trailing-slash raw-file collisions are covered by safeguards and tests.
 
-Videos/audio remain links. Hidden quiz responses and private learner state are not accessed. One Attack Navigator page retains its public wrapper while its cross-scope interactive embed remains external. GitHub Actions uses the account's existing minutes; local runs incur no hosted scraping fee.
+Videos/audio remain links. Hidden quiz responses and private learner state are not accessed. Fourteen pages retain their main textual content but report timed-out optional tab reads; local retry was deferred by the 2 GB free-memory safety gate while another workload was active. One Attack Navigator page retains its public wrapper while its cross-scope interactive embed remains external. GitHub Actions uses the account's existing minutes; local runs incur no hosted scraping fee.
 
 ## Maintain the population locally
 

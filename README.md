@@ -2,7 +2,7 @@
 
 **Status: actionable population complete; full website replication is not certified.** All 3,737 currently discovered, allowed, reachable English pages have archived records. Another 86 discovered URLs are explicitly terminal: 57 gone, 26 redirected outside configured resource scope, and 3 blocked by robots policy. Current evidence is in [inventory/COVERAGE.md](inventory/COVERAGE.md).
 
-**Verified 2026-08-30 UTC:** 41 tests passed on Windows and Linux, including real Chromium; the PowerShell launcher ran successfully; all 3,737 retained page hashes verified; and all ten live textual-page checks passed, including Academy transcript capture. See [verification evidence](reports/VERIFICATION.md). These checks establish current actionable population, not exhaustive discovery or full website replication.
+**Verified 2026-08-30 UTC:** 43 tests passed on Windows and Linux, including real Chromium; the PowerShell launcher ran successfully; all 3,737 retained page hashes verified; all ten live textual-page checks passed, including Academy transcript capture; and a full one-hour updater run passed its zero-actionable gap gate. See [verification evidence](reports/VERIFICATION.md). These checks establish current actionable population, not exhaustive discovery or full website replication.
 
 This is a deterministic archive of public English documentation and learning resources. It needs no Firecrawl account, API key, Docker, or LLM. Windows 11 with 16 GB total RAM is supported by the design: HTTP requests and at most one isolated Chromium page run sequentially. The browser recycles its process under memory pressure and defers work when less than 2 GB of system memory is available. Performance benchmarking on the owner's active Windows host remains paused until the host is otherwise idle. Discovery cannot prove that unlinked pages do not exist.
 
@@ -47,7 +47,7 @@ Git attributes preserve archived bytes on Windows. For a clone created before th
 
 English HTML language declarations are checked, including unprefixed pages that turn out to be translations. A page with no language declaration is recorded as `unknown`, not falsely certified English. No translated URLs are invented by replacing locale prefixes. English discovery continues automatically.
 
-A `complete` page status means that the retrieved **textual representation** passed automated checks. It does not assert that every video, interactive state, hidden quiz response or linked asset was copied. `partial`, `blocked`, `gone`, `failed`, `deferred`, `non_english` and `out_of_scope` distinguish outcomes. Current retained partials are 35 public quiz pages whose hidden answers/learner state were intentionally not accessed, plus one research page whose substantive interactive artifact is an external embed. External video links and media caveats remain visible.
+A `complete` page status means that the retrieved **textual representation** passed automated checks. It does not assert that every video, interactive state, hidden quiz response or linked asset was copied. `partial`, `blocked`, `gone`, `failed`, `deferred`, `non_english` and `out_of_scope` distinguish outcomes. Current retained partials are 35 public quiz pages whose hidden answers/learner state were intentionally not accessed, 14 pages with timed-out optional tab reads, and one research page whose substantive interactive artifact is an external embed. External video links and media caveats remain visible.
 
 ## Files and reports
 
