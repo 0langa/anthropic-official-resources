@@ -130,3 +130,5 @@ The habit worth keeping goes beyond skills themselves: whenever you hand Claude 
 - [Skill authoring best practices(opens in new tab)](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices) - Learn the principles behind effective Skills
 - [Agent skills overview(opens in new tab)](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - Understand how Skills work under the hood
 - [Skill cookbooks(opens in new tab)](https://platform.claude.com/cookbook) - Working examples you can adapt
+
+Was this helpful?

@@ -124,3 +124,5 @@ The habit to keep: describe the job, let Claude pick the skill, and check the re
 - [Using Claude for your small business(opens in new tab)](https://academy.claude.com/tutorials/using-claude-for-your-small-business) — four workflows the plugin runs end to end
 - [How to customize plugins in Cowork(opens in new tab)](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork) — make the skills run from your context
 - [What are skills(opens in new tab)](https://academy.claude.com/tutorials/what-are-skills) — how skills work in Claude
+
+Was this helpful?

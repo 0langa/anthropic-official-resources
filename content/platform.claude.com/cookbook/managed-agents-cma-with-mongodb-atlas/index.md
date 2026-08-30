@@ -1,4 +1,4 @@
-[Claude Managed Agents](https://platform.claude.com/cookbook/?category=Claude+Managed+Agents)[RAG & Retrieval](https://platform.claude.com/cookbook/?category=RAG+%26+Retrieval)[Integrations](https://platform.claude.com/cookbook/?category=Integrations)[Tools](https://platform.claude.com/cookbook/?category=Tools)
+[Claude Managed Agents](https://platform.claude.com/cookbook/)[RAG & Retrieval](https://platform.claude.com/cookbook/)[Integrations](https://platform.claude.com/cookbook/)[Tools](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/managed_agents/CMA_with_mongodb_atlas.ipynb)
 

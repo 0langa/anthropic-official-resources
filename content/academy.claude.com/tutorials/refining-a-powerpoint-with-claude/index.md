@@ -11,3 +11,5 @@ Claude for PowerPoint lets you refine and elevate slides without leaving the app
 Embedded media: https://www.youtube-nocookie.com/embed/TkSZqH0n7m0?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=TkSZqH0n7m0)
+
+Was this helpful?

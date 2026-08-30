@@ -51,3 +51,5 @@ Claude for Financial Services includes specialized training and support designed
 For questions about Claude for Financial Services, [contact our Sales team(opens in new tab)](https://claude.com/contact-sales).
 
 **Note:** Claude for Financial Services is built for research and analysis - not investment advice.
+
+Was this helpful?

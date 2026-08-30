@@ -125,3 +125,5 @@ When you arrive, the data is there and the candidates are named. The focus call 
 - [AI Fluency: Framework and Foundations(opens in new tab)](https://academy.claude.com/courses/ai-fluency-framework-foundations). The full AI fluency course for effective, efficient, and ethical AI use.
 - [The 4 Ds of AI Fluency(opens in new tab)](https://academy.claude.com/tutorials/the-4-ds-of-ai-fluency-behavioral-indicators). The practical skills and mental models behind building AI fluency.
 - [Use Cowork safely(opens in new tab)](https://support.claude.com/en/articles/13364135-use-cowork-safely). Access, approvals, and what Claude can see.
+
+Was this helpful?

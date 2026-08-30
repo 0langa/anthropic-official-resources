@@ -1,4 +1,4 @@
-[RAG & Retrieval](https://platform.claude.com/cookbook/?category=RAG+%26+Retrieval)[Responses](https://platform.claude.com/cookbook/?category=Responses)
+[RAG & Retrieval](https://platform.claude.com/cookbook/)[Responses](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/capabilities/summarization/guide.ipynb)
 

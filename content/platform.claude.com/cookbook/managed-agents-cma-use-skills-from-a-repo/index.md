@@ -1,4 +1,4 @@
-[Claude Managed Agents](https://platform.claude.com/cookbook/?category=Claude+Managed+Agents)[Skills](https://platform.claude.com/cookbook/?category=Skills)
+[Claude Managed Agents](https://platform.claude.com/cookbook/)[Skills](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/managed_agents/CMA_use_skills_from_a_repo.ipynb)
 

@@ -50,7 +50,7 @@ In Claude Academy, all educational materials are designed to be broadly accessib
 
 ### AI education should increase human agency
 
-Learning to use AI well should open up new doors and opportunities for students. Our learning materials are designed to help learners solve the problems they care about most. Instead of simply offering learning that shows you how to use our products and features, our education is centered on the problems you face at work and in life. Of note, our educational materials also encourage mindfulness about continuing to practice skills that matter to you in order to prevent skill atrophy. For example, this [collection of legal use cases](https://academy.claude.com/use-cases?department=legal) teaches you how to use Claude while also offering you the chance to reflect on what tasks should stay with you.
+Learning to use AI well should open up new doors and opportunities for students. Our learning materials are designed to help learners solve the problems they care about most. Instead of simply offering learning that shows you how to use our products and features, our education is centered on the problems you face at work and in life. Of note, our educational materials also encourage mindfulness about continuing to practice skills that matter to you in order to prevent skill atrophy. For example, this [collection of legal use cases](https://academy.claude.com/use-cases) teaches you how to use Claude while also offering you the chance to reflect on what tasks should stay with you.
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a869c873ac9215b510583a4_5917bf5c.png)
 

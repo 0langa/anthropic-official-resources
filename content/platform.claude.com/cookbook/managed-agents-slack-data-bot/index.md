@@ -1,4 +1,4 @@
-[Claude Managed Agents](https://platform.claude.com/cookbook/?category=Claude+Managed+Agents)[Integrations](https://platform.claude.com/cookbook/?category=Integrations)
+[Claude Managed Agents](https://platform.claude.com/cookbook/)[Integrations](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/managed_agents/slack_data_bot.ipynb)
 

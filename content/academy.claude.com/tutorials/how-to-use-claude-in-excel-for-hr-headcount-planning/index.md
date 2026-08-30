@@ -120,3 +120,5 @@ Claude in Excel is available in beta on Max, Team, and Enterprise plans.
 
 - [Claude in Excel help article(opens in new tab)](https://support.claude.com/en/articles/12650343-claude-in-excel)
 - [What is the Max plan?(opens in new tab)](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
+
+Was this helpful?

@@ -1,4 +1,4 @@
-[Integrations](https://platform.claude.com/cookbook/?category=Integrations)
+[Integrations](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/third_party/Wikipedia/wikipedia-search-cookbook.ipynb)
 

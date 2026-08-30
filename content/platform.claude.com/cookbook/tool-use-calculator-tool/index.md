@@ -1,4 +1,4 @@
-[Tools](https://platform.claude.com/cookbook/?category=Tools)
+[Tools](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/calculator_tool.ipynb)
 

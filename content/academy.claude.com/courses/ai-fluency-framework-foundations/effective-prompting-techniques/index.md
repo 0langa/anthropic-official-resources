@@ -71,31 +71,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 9 of 14 · AI Fluency: Framework & FoundationsEffective prompting techniques
-
-# Effective prompting techniques
-
-Lesson 915 min
-
-In this lessonBy the end, you’ll be able to
-
-- Understand what prompt engineering is and why it matters for productive AI collaboration
-- Apply six foundational prompting techniques to improve your AI interactions
-- Identify common patterns that lead to successful AI interactions
-- Troubleshoot and refine prompts when AI responses don't meet your needs
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-framework-foundations%2Feffective-prompting-techniques)
-
-## Effective Prompting Techniques[](https://academy.claude.com/courses/ai-fluency-framework-foundations/effective-prompting-techniques)
-
-Embedded media: https://www.youtube-nocookie.com/embed/2YCaBqP8muw?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-Effective Prompting Techniques
-
-SummaryTranscript
-
 Let's explore one of the most practical skills when working with AI: crafting effective prompts. This might sound technical or complicated, and some guides certainly make it seem that way. But at its heart, it's surprisingly straightforward. Prompting is simply how we apply this course's description competency in practice, clearly communicating what we want, how we want it done, and how we want to interact with our AI assistant throughout the entire process. Think of prompting like explaining a task to a helpful new colleague who's eager to assist, but needs clear directions and expectation setting to do their best work. We'll be using Claude throughout this section, but these tips can be carried over to many other AI systems.
 
 You might have heard the term prompt engineering tossed around. Prompt engineering is simply the practice of designing effective instructions for AI systems like Claude. It's about crafting your questions and providing context in ways that help AI assistants understand exactly what you want. What's fascinating is that effective prompting blends familiar human communication skills with a few considerations specific to AI. Many principles that make for good human conversations, such as being clear, providing relevant context, and giving concrete examples, also apply when working with AI. Yet there are differences, such as being more explicit about things humans could naturally infer, and accommodating the AI's limited context window, and sometimes, depending on the AI you're working with, using specific formatting that machines can easily process. As AI assistants continue to evolve, prompting best practices evolve too. What works with today's AI systems may be different from what works with tomorrow's. Experimentation is key to discovering what works best for your specific needs.
@@ -121,40 +96,6 @@ Effective prompting is iterative and experimental. AI systems and best practices
 As you apply these techniques in practice, here's some guidance to recap. Some patterns consistently work well: starting with a clear task overview statement, including format specifications and examples, setting explicit constraints or requirements, and providing rich and relevant background information. And common mistakes to avoid are: assuming that Claude can read your mind, or overloading a single prompt or conversation with multiple unrelated tasks, being too vague about what success looks like, and not providing feedback on previous responses.
 
 To recap, effective communication with AI systems like Claude combines timeless human communication principles with AI-specific techniques. The approaches we've covered will serve you well across different AI systems. These six principles, together with the secret weapon of asking Claude for help, form a solid toolkit for applying the description competency to your AI interactions. Iteration and practice here is the key to swift improvement and mastery. Remember that prompt engineering is an evolving practice. As models improve, some specific techniques become less necessary. However, these principles of good communication are still relevant even if the way we apply them changes. Maintain a spirit of experimentation and adapt your approach based on your results.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=2YCaBqP8muw)
-
-## Key takeaways[](https://academy.claude.com/courses/ai-fluency-framework-foundations/effective-prompting-techniques)
-
-- Effective prompting combines clear communication principles with AI-specific techniques
-- Six foundational prompting techniques:
-  - Give context: Be specific about what you want, why you want it, and relevant background
-  - Show examples: Demonstrate the output style or format you're looking for
-  - Specify constraints: Clearly define format, length, and other output requirements
-  - Break complex tasks into steps: Guide the AI through multi-step reasoning
-  - Ask the AI to think first: Give space for the AI to work through its process
-  - Define the AI's role or tone: Specify how you want the AI to communicate
-- The "secret weapon": Ask the AI itself to help improve your prompt
-- Successful prompting is iterative (and perhaps also collaborative with the AI!). Expect to refine your approach based on results
-- Common successful patterns include providing clear task overviews, format specifications, explicit constraints, and relevant background information
-
-## Exercises[](https://academy.claude.com/courses/ai-fluency-framework-foundations/effective-prompting-techniques)
-
-### Reflection[](https://academy.claude.com/courses/ai-fluency-framework-foundations/effective-prompting-techniques)
-
-Before moving on, take a moment to consider:
-
-- Which of the six prompting techniques do you think would most enhance your current AI interactions?
-- Think of a recent AI interaction that didn't meet your needs. Which techniques might have improved the outcome?
-- How does understanding these prompting techniques connect to the Description competency from the AI Fluency Framework?
-
-If you like, revisit Bad Prompt Makeover from the previous lesson to give these prompting principles a workout.
-
-## What’s next[](https://academy.claude.com/courses/ai-fluency-framework-foundations/effective-prompting-techniques)
-
-In the next lesson, we'll explore Discernment, the third core AI Fluency competency. Both this Deep Dive and the lesson preceding it focused on how to communicate effectively with AI and how to practice good Description. Discernment addresses the equally important challenge of thoughtfully evaluating what AI produces in response—the other half of the conversation!
-
-Was this helpful?
 
 
 ## Video transcript

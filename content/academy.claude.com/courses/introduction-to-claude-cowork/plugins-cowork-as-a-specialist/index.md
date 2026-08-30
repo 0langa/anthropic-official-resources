@@ -112,6 +112,11 @@ You've now made Cowork yours for one piece of your work. The next module is abou
 Was this helpful?
 
 
+## Transcript
+
+This lesson's video contains no spoken narration (screen demonstration with background audio only).
+
+
 ## Experiment Readout
 end-to-end pipeline
 

@@ -172,3 +172,5 @@ The habit worth keeping: before you type the first prompt, name what the task ne
 ## Get started[](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)
 
 - [Download Claude for Mac or Windows(opens in new tab)](https://claude.com/download)
+
+Was this helpful?

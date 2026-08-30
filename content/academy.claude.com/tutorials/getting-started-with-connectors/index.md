@@ -11,3 +11,5 @@ Learn how to supercharge Claude by connecting the tools you already use. This tu
 Embedded media: https://www.youtube-nocookie.com/embed/\_jjSS0qGFbI?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=_jjSS0qGFbI)
+
+Was this helpful?

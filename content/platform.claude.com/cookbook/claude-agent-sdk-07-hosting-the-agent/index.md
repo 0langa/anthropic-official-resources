@@ -1,4 +1,4 @@
-[Claude Agent SDK](https://platform.claude.com/cookbook/?category=Claude+Agent+SDK)
+[Claude Agent SDK](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/claude_agent_sdk/07_Hosting_the_agent.ipynb)
 

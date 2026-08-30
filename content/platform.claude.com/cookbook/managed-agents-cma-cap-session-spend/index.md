@@ -1,4 +1,4 @@
-[Claude Managed Agents](https://platform.claude.com/cookbook/?category=Claude+Managed+Agents)[Observability](https://platform.claude.com/cookbook/?category=Observability)
+[Claude Managed Agents](https://platform.claude.com/cookbook/)[Observability](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/managed_agents/CMA_cap_session_spend.ipynb)
 

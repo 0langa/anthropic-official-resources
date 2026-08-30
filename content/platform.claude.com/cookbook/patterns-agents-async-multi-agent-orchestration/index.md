@@ -1,4 +1,4 @@
-[Agent Patterns](https://platform.claude.com/cookbook/?category=Agent+Patterns)
+[Agent Patterns](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/patterns/agents/async_multi_agent_orchestration.ipynb)
 

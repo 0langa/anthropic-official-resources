@@ -342,3 +342,5 @@ Reveal answers
 *Next: [choose an effort level in Cowork and Chat(opens in new tab)](https://academy.claude.com/tutorials/how-to-select-the-right-effort-setting-for-claude-cowork-and-chat) · [in Claude Code(opens in new tab)](https://academy.claude.com/tutorials/choosing-the-right-effort-level-in-claude-code)*
 
 *Learn more: [AI Fluency(opens in new tab)](https://academy.claude.com/collections/ai-fluency) · [AI capabilities and limitations(opens in new tab)](https://academy.claude.com/courses/ai-capabilities-and-limitations)*
+
+Was this helpful?

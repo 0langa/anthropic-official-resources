@@ -69,7 +69,7 @@ Researchers can use Claude to plan literature reviews and verify data analysis.
 
 ## Explore more[](https://academy.claude.com/courses/claude-101/claude-in-action-use-cases-by-role)
 
-These examples are just the beginning. Visit the [Use Case Gallery(opens in new tab)](https://academy.claude.com/all?kind=use-case) to browse the full collection and find inspiration for how Claude can help with your specific work.
+These examples are just the beginning. Visit the [Use Case Gallery(opens in new tab)](https://academy.claude.com/all) to browse the full collection and find inspiration for how Claude can help with your specific work.
 
 ## What's next[](https://academy.claude.com/courses/claude-101/claude-in-action-use-cases-by-role)
 

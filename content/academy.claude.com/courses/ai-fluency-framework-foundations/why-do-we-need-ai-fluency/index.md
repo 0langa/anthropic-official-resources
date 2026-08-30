@@ -38,29 +38,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 2 of 14 · AI Fluency: Framework & FoundationsWhy do we need AI Fluency?
-
-# Why do we need AI Fluency?
-
-Lesson 27 min
-
-In this lessonBy the end, you’ll be able to
-
-- Understand what AI Fluency means and why it matters in today's rapidly evolving technological landscape
-- Recognize three emerging ways we collaborate with AI: Automation, Augmentation, and Agency
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-framework-foundations%2Fwhy-do-we-need-ai-fluency)
-
-## Why do we need AI Fluency?[](https://academy.claude.com/courses/ai-fluency-framework-foundations/why-do-we-need-ai-fluency)
-
-Embedded media: https://www.youtube-nocookie.com/embed/4szRHy\_CT7s?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-Why do we need AI Fluency?
-
-SummaryTranscript
-
 Let's begin our exploration of the AI Fluency Framework that is central to our learning over the rest of this course. What does it really mean to be fluent with AI? Why does it matter?
 
 We're living in a fascinating moment of technological change, one that brings both excitement and uncertainty. AI is reshaping how we communicate, create, learn, and solve problems in both our work and personal lives. Many of us now have versatile assistants and virtual collaborators at our fingertips that can help with writing, brainstorming, researching, decision-making, and much more. But here's the thing. Having these powerful systems doesn't automatically mean we know how to make the most of them or to engage with them responsibly. Think about a time when you got an unexpected response from an AI and you weren't sure how to proceed, or when you struggled to explain exactly what you needed and left the interaction feeling frustrated. Or perhaps you've wondered if the information you're sharing is being properly protected. All of these moments highlight the gaps between simply having access to AI and truly being fluent with it. So how do we move beyond just knowing a few prompt tricks to developing a thoughtful and responsible approach that will continue to serve us well as AI keeps evolving?
@@ -76,10 +53,6 @@ The third mode is agency, where AI works independently on your behalf. For insta
 None of these approaches are inherently better than the others. They serve different purposes and excel in different situations. In fact, you might even use all three in a single project. While many start with automation, we found that augmentation and agency are approaches that really take advantage of the unique capabilities of AI, and that these modes often lead to the most creative and effective solutions. Understanding these differences helps us recognize that AI isn't just a tool. It's a technology that can act as a tool, but also as a medium, or as a partner, or co-creator, and sometimes all of these at once. And this shift from mere tool to powerful collaborator gives technology a new role to play in our creative and problem-solving work, which means we also have new roles and need to adapt and develop new skills.
 
 These skills are what we describe in the AI Fluency Framework. Whichever way you engage with AI, there are four key areas of competence to develop and master. They form the core of the AI Fluency Framework, which we'll explore over the rest of this course.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=4szRHy_CT7s)
-
-Was this helpful?
 
 
 ## Video transcript

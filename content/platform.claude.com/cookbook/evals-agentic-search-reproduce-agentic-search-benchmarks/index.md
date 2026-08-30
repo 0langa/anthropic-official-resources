@@ -1,4 +1,4 @@
-[Evals](https://platform.claude.com/cookbook/?category=Evals)[Tools](https://platform.claude.com/cookbook/?category=Tools)
+[Evals](https://platform.claude.com/cookbook/)[Tools](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/evals/agentic_search/reproduce_agentic_search_benchmarks.ipynb)
 

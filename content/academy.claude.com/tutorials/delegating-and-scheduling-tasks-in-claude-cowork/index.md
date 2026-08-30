@@ -11,3 +11,5 @@ Claude Cowork lets you delegate complete, multi-step work. You can work alongsid
 Embedded media: https://www.youtube-nocookie.com/embed/tYOI-WoLS\_o?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=tYOI-WoLS_o)
+
+Was this helpful?

@@ -107,29 +107,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 7 of 7 · Teaching AI FluencyApplying discipline expertise to AI Fluency
-
-# Applying discipline expertise to AI Fluency
-
-Lesson 725 min
-
-In this lessonBy the end, you’ll be able to
-
-- Apply your disciplinary expertise to create field-specific applications of the 4Ds
-- Collaborate with colleagues to build shared understanding of AI Fluency in your department
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fteaching-ai-fluency%2Fapplying-discipline-expertise-to-ai-fluency)
-
-## Applying discipline expertise to AI Fluency[](https://academy.claude.com/courses/teaching-ai-fluency/applying-discipline-expertise-to-ai-fluency)
-
-Embedded media: https://www.youtube-nocookie.com/embed/BUj8mjy6oxI?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-Applying discipline expertise to AI Fluency
-
-SummaryTranscript
-
 Let's talk about how your deep discipline knowledge can shape the AI fluency framework for your specific context. Interestingly enough, everything we'll discuss can happen without touching an AI system. We're building human capacity and helping students and ourselves articulate what we know, how we know it, and why it matters. This foundational work is what makes us irreplaceable and keeps humans in the loop, so to speak.
 
 Think of it this way: you can't partner with AI in your field effectively until you can articulate what quality looks like, how experts communicate, what problems matter, and what standards apply. Let's explore how the 4Ds can help develop this crucial awareness.
@@ -177,70 +154,3 @@ Throughout this course, we've explored teaching and assessing through the AI flu
 Your expertise—your ability to recognize quality, communicate precisely, decompose problems, and uphold values—that is what makes you essential. By making this expertise explicit and teachable, you're giving students the foundation they need to thrive. The future needs humans who can think critically, communicate clearly, collaborate wisely, and act responsibly.
 
 You're not preparing your students to be replaced by AI. You're preparing them to be irreplaceable. We appreciate you taking this journey with us.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=BUj8mjy6oxI)
-
-## Key takeaways[](https://academy.claude.com/courses/teaching-ai-fluency/applying-discipline-expertise-to-ai-fluency)
-
-- Making tacit disciplinary knowledge (e.g. best practices, ethics, research genres, etc.) explicit prepares students for effective AI collaboration
-- Each of the 4Ds requires discipline-specific interpretation and application
-- Collaborative work with colleagues builds shared understanding and stronger frameworks
-- Students who understand quality, methods, and ethics in your field can better direct AI
-- The goal is preparing students to be irreplaceable by developing uniquely human capabilities
-
-## Exercises[](https://academy.claude.com/courses/teaching-ai-fluency/applying-discipline-expertise-to-ai-fluency)
-
-For our final exercise we’re going to give our AI partners a break and just talk to our human colleagues!
-
-However, having all participants work through the exercise from the previous lesson individually will facilitate these conversations.
-
-### Working through the 4D framework with your colleagues
-
-In whatever manner makes sense for your context, schedule some organized time to work through the 4D framework with your colleagues.
-
-Here are some suggested topics to help guide your discussion:
-
-*For Discernment - "What does quality look like in our field?"*
-
-- Work together to articulate what excellence means in your discipline beyond vague terms
-- Identify specific features that distinguish outstanding work from mediocre work
-- Discuss how to teach students to recognize these quality markers
-- Document criteria that could help students evaluate both human and AI-generated work
-
-*For Description - "How do we communicate in our discipline?"*
-
-- Map the key products in your field with precision (e.g. not just "reports" but specific artefacts and why they matter)
-- Document the thought processes experts use when approaching problems in your field
-- Identify the behavioral norms and conventions that define professional practice
-- Explore how to make these communication patterns explicit for students
-
-*For Delegation - "What work happens in our field?"*
-
-- Break down typical tasks in your discipline into component parts
-- Identify which elements require human judgment, creativity, or expertise
-- Discuss where AI could automate, augment, or act as an agent
-- Create decision frameworks for when and how to involve AI in disciplinary work
-
-*For Diligence - "What are our field's values and standards?"*
-
-- Codify ethical frameworks specific to your discipline
-- Clarify transparency norms and disclosure expectations
-- Discuss accountability standards and professional responsibilities
-- Consider how these apply when AI is involved in the work
-
-*Building a shared document:*
-
-- Compile the discipline-specific interpretations of each D
-- Include concrete examples from your field for each competency
-- Add teaching strategies that colleagues suggest for developing these competencies
-- Identify areas where you have consensus and where perspectives differ
-- Consider how to share this work with students to make AI Fluency concrete
-- Discuss how to integrate these discipline-specific 4Ds into curriculum
-- Consider how to assess whether these frameworks are helping students
-- Agree on next steps to continue the discussion and implement new initiatives
-
-## What's next[](https://academy.claude.com/courses/teaching-ai-fluency/applying-discipline-expertise-to-ai-fluency)
-
-You've completed our teaching AI Fluency course! Take the final quiz in the next lesson to earn a completion badge.
-
-Was this helpful?

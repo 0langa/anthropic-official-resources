@@ -1,4 +1,4 @@
-[Integrations](https://platform.claude.com/cookbook/?category=Integrations)[Multimodal](https://platform.claude.com/cookbook/?category=Multimodal)
+[Integrations](https://platform.claude.com/cookbook/)[Multimodal](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/third_party/Deepgram/prerecorded_audio.ipynb)
 

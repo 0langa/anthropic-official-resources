@@ -134,3 +134,5 @@ The customize session ends with a packaged `.plugin` file you can pass around.
 - [**Get started in Cowork in three steps**(opens in new tab)](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps) — install your first plugin with `/setup-cowork`.
 - [**Build a plugin from scratch**(opens in new tab)](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork) — when the pre-built plugins don't cover your workflow.
 - [**Use plugins in Cowork**(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-cowork) — install, enable, and manage plugins.
+
+Was this helpful?

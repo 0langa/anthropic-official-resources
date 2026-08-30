@@ -11,3 +11,5 @@ Debug and fix common issues with Claude Code skills, from configuration errors t
 Embedded media: https://www.youtube-nocookie.com/embed/YBa1cwaG7is?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=YBa1cwaG7is)
+
+Was this helpful?

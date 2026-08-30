@@ -43,3 +43,5 @@ Learn about [provisioning and managing skills for your organization(opens in new
 2. From [Claude.ai(opens in new tab)](http://claude.ai/), navigate to Settings > Capabilities > Skills (if Skills is not available, contact your team admin)
 3. Click “Upload skill”
 4. Upload the skill zip file
+
+Was this helpful?

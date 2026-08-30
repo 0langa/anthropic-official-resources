@@ -76,3 +76,5 @@ Type `/` for the starting prompts your plugin installed, or browse [Cowork use c
 - [**Customize Cowork**(opens in new tab)](https://academy.claude.com/tutorials/customize-claude-cowork) — add the skills and plugins for your role.
 - [**Use plugins in Cowork**(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-cowork) — install, update, and see what a plugin adds to a session.
 - [**Use Cowork safely**(opens in new tab)](https://support.claude.com/en/articles/13364135-use-cowork-safely) — what Cowork can access and how approvals work.
+
+Was this helpful?

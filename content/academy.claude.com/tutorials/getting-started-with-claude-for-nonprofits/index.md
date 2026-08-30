@@ -89,3 +89,5 @@ Visit the [use case library(opens in new tab)](https://academy.claude.com/all) a
 - **Team plan option greyed out:** Make sure you're signed in to the correct account and have admin permissions
 - **Email domain questions:** All team members don't need the same domain. Learn about [allowed email domains(opens in new tab)](https://support.claude.com/en/articles/13325567-account-management-faqs).
 - **Connecting tools:** Learn how to [browse and connect tools from the directory(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory).
+
+Was this helpful?

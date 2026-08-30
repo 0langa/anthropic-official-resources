@@ -198,3 +198,5 @@ A 30-day cash chart, a ranked overdue list with payment history, a reminder for 
 - [How to customize plugins in Cowork(opens in new tab)](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork) — make the skills run from your context
 - [What are skills(opens in new tab)](https://academy.claude.com/tutorials/what-are-skills) — how skills work in Claude
 - [AI Fluency for Small Business(opens in new tab)](https://academy.claude.com/courses/ai-fluency-for-small-businesses) — a free course on running a small business with AI
+
+Was this helpful?

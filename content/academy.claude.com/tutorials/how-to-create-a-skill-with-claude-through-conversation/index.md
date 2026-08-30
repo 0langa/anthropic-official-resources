@@ -100,3 +100,5 @@ These are executable code files that Claude can run to handle complex operations
 - [Skill authoring best practices(opens in new tab)](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)
 - [Skill cookbooks(opens in new tab)](https://platform.claude.com/cookbook)
 - [Agent skills overview(opens in new tab)](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)
+
+Was this helpful?

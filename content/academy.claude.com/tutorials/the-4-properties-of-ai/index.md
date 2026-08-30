@@ -139,3 +139,5 @@ Work through each property with hands-on exercises, videos, and real examples in
 [Take the course](https://academy.claude.com/courses/ai-capabilities-and-limitations)
 
 About 90 minutes
+
+Was this helpful?

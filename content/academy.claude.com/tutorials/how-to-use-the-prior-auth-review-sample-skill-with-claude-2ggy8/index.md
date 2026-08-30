@@ -54,3 +54,5 @@ Command
 `/plugin marketplace add anthropics/healthcare`
 
 `/plugin install prior-auth-review@healthcare`
+
+Was this helpful?

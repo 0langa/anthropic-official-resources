@@ -62,28 +62,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 5 of 14 · AI Fluency: Framework & FoundationsCapabilities & limitations
-
-# Capabilities & limitations
-
-Lesson 59 min
-
-In this lessonBy the end, you’ll be able to
-
-- Identify major capabilities and limitations of current generative AI
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-framework-foundations%2Fcapabilities-limitations)
-
-## Capabilities & limitations[](https://academy.claude.com/courses/ai-fluency-framework-foundations/capabilities-limitations)
-
-Embedded media: https://www.youtube-nocookie.com/embed/W5cga7xipRI?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-Capabilities & limitations · 7 min
-
-SummaryTranscript
-
 Let's now examine what generative AI can and cannot do, focusing on LLMs such as Claude. Think of this as getting to know a new colleague: understanding their strengths and limitations helps you collaborate more effectively.
 
 To start, we'll focus on what these systems do remarkably well. You might be amazed at how versatile modern language models can be. They're skilled with language in ways that seemed impossible just a few years ago: crafting emails that capture your voice, condensing lengthy reports into clear summaries, translating between languages, and explaining complex topics across countless fields from microbiology to marketing strategy. What's particularly notable is how these models can shift between different tasks without needing additional training. The very same system that helps you write poetry or brainstorm ideas for your birthday party can turn around and help you understand quantum computing concepts or analyze quarterly business trends, all through simple conversation. These models can also maintain the thread of a conversation, remembering what you discussed earlier, and building upon it. If you mention your project deadline in passing, for example, and refer back to it later within the conversation, the AI typically understands what you're talking about, much like a human conversation partner would. Many modern LLMs can now also reach beyond their own knowledge by connecting to external tools and information sources, allowing them to search the web, process files, or even use other applications to enhance their capabilities. This dramatically expands what they can help with.
@@ -99,35 +77,6 @@ Additionally, while these models are improving rapidly, they've historically sho
 The field of generative AI is rapidly evolving. Researchers are working to address current limitations through techniques like retrieval-augmented generation, which connects models to external knowledge and data sources, as well as expanding their ability to use tools and improving their reasoning capabilities. That said, some limitations will likely remain for the foreseeable future, even if we don't know exactly what those limitations will be.
 
 Understanding what AI can or cannot do is essential for AI fluency, and helps you determine when and how to best incorporate these systems effectively into your work and daily life. The most effective applications will leverage the complementary strengths of humans and AI. We bring critical thinking, judgment, creativity, and ethical oversight that AI may struggle to replicate, while AI offers speed, scale, pattern recognition, and ability to process vast amounts of information. These complementary strengths will evolve as the technology evolves. That's why continued learning and experimentation are so valuable. They help you stay abreast of these changes and discover new possibilities. In these exercises across this course, you'll have a chance to explore these concepts firsthand through conversations with Claude. This direct experience will help you develop an intuitive feel for what generative AI can do, can't do, and how best to work with it.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=W5cga7xipRI)
-
-## Key takeaways[](https://academy.claude.com/courses/ai-fluency-framework-foundations/capabilities-limitations)
-
-- Generative AI creates new content (text, images, code) rather than just analyzing existing data
-- Modern systems like LLMs were made possible by three key developments:
-  - Algorithmic and architectural breakthroughs (especially the transformer architecture)
-  - Vast amounts of digital training data
-  - Dramatic increases in computational power
-- Generative AI learns through two stages: pre-training (analyzing patterns across billions of examples) and fine-tuning (learning to follow instructions and provide helpful responses)
-- Current capabilities include versatility across tasks, conversational awareness, and the ability to connect with external tools
-- Current limitations include knowledge cutoff dates, potential for hallucinations, context window constraints, and challenges with complex reasoning
-- The most effective applications combine human and AI strengths, with humans providing critical thinking, judgment, creativity, and ethical oversight
-
-## Exercises[](https://academy.claude.com/courses/ai-fluency-framework-foundations/capabilities-limitations)
-
-### Reflection[](https://academy.claude.com/courses/ai-fluency-framework-foundations/capabilities-limitations)
-
-Before moving on, take a moment to consider:
-
-- How does understanding the technical foundations of generative AI (like training data and pre-training/fine-tuning) change how you think about working with these systems?
-- What ethical considerations come to mind after learning about how these systems work and their current limitations?
-
-## What's next[](https://academy.claude.com/courses/ai-fluency-framework-foundations/capabilities-limitations)
-
-In the next lesson, we'll take a closer look at the first of the 4D competencies: Delegation. You'll learn how to make strategic decisions about dividing work between yourself and AI based on understanding both your goals and AI capabilities. This foundation will help you thoughtfully determine when and how to bring AI into your creative and problem-solving processes.
-
-Was this helpful?
 
 
 ## Video transcript

@@ -30,7 +30,7 @@ Admin setup](https://academy.claude.com/products/cowork/setup)
 
 ## Try a task
 
-[View all](https://academy.claude.com/all?kind=use-case&product=cowork)
+[View all](https://academy.claude.com/all)
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
@@ -74,7 +74,7 @@ Use case·Marketing·10 min](https://academy.claude.com/use-cases/campaign-brief
 
 ## Learn more
 
-[View all](https://academy.claude.com/all?product=cowork)
+[View all](https://academy.claude.com/all)
 
 - [Delegating your first task in Claude CoworkTutorial4 min
 
@@ -117,7 +117,7 @@ Use case·Marketing·10 min](https://academy.claude.com/use-cases/campaign-brief
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all?kind=use-case&product=cowork)[Tutorials17 tutorials](https://academy.claude.com/all?kind=tutorial&product=cowork)[Courses1 course](https://academy.claude.com/all?kind=course&product=cowork)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Marketing
@@ -154,7 +154,7 @@ Admin setup](https://academy.claude.com/products/cowork/setup)
 
 ## Try a marketing task
 
-[View all](https://academy.claude.com/all?kind=use-case&product=cowork&department=marketing)
+[View all](https://academy.claude.com/all)
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
@@ -198,7 +198,7 @@ Use case·Marketing·10 min](https://academy.claude.com/use-cases/repurpose-cont
 
 ## Learn more
 
-[View all](https://academy.claude.com/all?product=cowork)
+[View all](https://academy.claude.com/all)
 
 - [Delegating your first task in Claude CoworkTutorial4 min
 
@@ -241,7 +241,7 @@ Use case·Marketing·10 min](https://academy.claude.com/use-cases/repurpose-cont
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all?kind=use-case&product=cowork)[Tutorials17 tutorials](https://academy.claude.com/all?kind=tutorial&product=cowork)[Courses1 course](https://academy.claude.com/all?kind=course&product=cowork)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Product
@@ -278,7 +278,7 @@ Admin setup](https://academy.claude.com/products/cowork/setup)
 
 ## Try a product task
 
-[View all](https://academy.claude.com/all?kind=use-case&product=cowork&department=product)
+[View all](https://academy.claude.com/all)
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
@@ -322,7 +322,7 @@ Use case·Research·15 min](https://academy.claude.com/use-cases/surface-themes-
 
 ## Learn more
 
-[View all](https://academy.claude.com/all?product=cowork)
+[View all](https://academy.claude.com/all)
 
 - [Delegating your first task in Claude CoworkTutorial4 min
 
@@ -365,7 +365,7 @@ Use case·Research·15 min](https://academy.claude.com/use-cases/surface-themes-
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all?kind=use-case&product=cowork)[Tutorials17 tutorials](https://academy.claude.com/all?kind=tutorial&product=cowork)[Courses1 course](https://academy.claude.com/all?kind=course&product=cowork)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Engineering
@@ -402,7 +402,7 @@ Admin setup](https://academy.claude.com/products/cowork/setup)
 
 ## Try an engineering task
 
-[View all](https://academy.claude.com/all?kind=use-case&product=cowork&department=engineering)
+[View all](https://academy.claude.com/all)
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
@@ -446,7 +446,7 @@ Use case·Engineering·10 min](https://academy.claude.com/use-cases/design-doc)
 
 ## Learn more
 
-[View all](https://academy.claude.com/all?product=cowork)
+[View all](https://academy.claude.com/all)
 
 - [Delegating your first task in Claude CoworkTutorial4 min
 
@@ -489,7 +489,7 @@ Use case·Engineering·10 min](https://academy.claude.com/use-cases/design-doc)
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all?kind=use-case&product=cowork)[Tutorials17 tutorials](https://academy.claude.com/all?kind=tutorial&product=cowork)[Courses1 course](https://academy.claude.com/all?kind=course&product=cowork)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## HR
@@ -526,7 +526,7 @@ Admin setup](https://academy.claude.com/products/cowork/setup)
 
 ## Try an HR task
 
-[View all](https://academy.claude.com/all?kind=use-case&product=cowork&department=hr)
+[View all](https://academy.claude.com/all)
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
@@ -564,7 +564,7 @@ Use case·HR·10 min](https://academy.claude.com/use-cases/performance-review-ad
 
 ## Learn more
 
-[View all](https://academy.claude.com/all?product=cowork)
+[View all](https://academy.claude.com/all)
 
 - [Delegating your first task in Claude CoworkTutorial4 min
 
@@ -607,7 +607,7 @@ Use case·HR·10 min](https://academy.claude.com/use-cases/performance-review-ad
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all?kind=use-case&product=cowork)[Tutorials17 tutorials](https://academy.claude.com/all?kind=tutorial&product=cowork)[Courses1 course](https://academy.claude.com/all?kind=course&product=cowork)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Finance
@@ -644,7 +644,7 @@ Admin setup](https://academy.claude.com/products/cowork/setup)
 
 ## Try a finance task
 
-[View all](https://academy.claude.com/all?kind=use-case&product=cowork&department=finance)
+[View all](https://academy.claude.com/all)
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
@@ -688,7 +688,7 @@ Use case·Finance·10 min](https://academy.claude.com/use-cases/recon-journal-en
 
 ## Learn more
 
-[View all](https://academy.claude.com/all?product=cowork)
+[View all](https://academy.claude.com/all)
 
 - [Delegating your first task in Claude CoworkTutorial4 min
 
@@ -731,7 +731,7 @@ Use case·Finance·10 min](https://academy.claude.com/use-cases/recon-journal-en
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all?kind=use-case&product=cowork)[Tutorials17 tutorials](https://academy.claude.com/all?kind=tutorial&product=cowork)[Courses1 course](https://academy.claude.com/all?kind=course&product=cowork)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Operations
@@ -768,7 +768,7 @@ Admin setup](https://academy.claude.com/products/cowork/setup)
 
 ## Try an operations task
 
-[View all](https://academy.claude.com/all?kind=use-case&product=cowork&department=operations)
+[View all](https://academy.claude.com/all)
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
@@ -806,7 +806,7 @@ Use case·Operations·10 min](https://academy.claude.com/use-cases/vendor-risk-r
 
 ## Learn more
 
-[View all](https://academy.claude.com/all?product=cowork)
+[View all](https://academy.claude.com/all)
 
 - [Delegating your first task in Claude CoworkTutorial4 min
 
@@ -849,7 +849,7 @@ Use case·Operations·10 min](https://academy.claude.com/use-cases/vendor-risk-r
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all?kind=use-case&product=cowork)[Tutorials17 tutorials](https://academy.claude.com/all?kind=tutorial&product=cowork)[Courses1 course](https://academy.claude.com/all?kind=course&product=cowork)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Data
@@ -886,7 +886,7 @@ Admin setup](https://academy.claude.com/products/cowork/setup)
 
 ## Try a data task
 
-[View all](https://academy.claude.com/all?kind=use-case&product=cowork&department=data)
+[View all](https://academy.claude.com/all)
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
@@ -900,7 +900,7 @@ Use case·Data·10 min](https://academy.claude.com/use-cases/answer-the-adhoc)
 
 ## Learn more
 
-[View all](https://academy.claude.com/all?product=cowork)
+[View all](https://academy.claude.com/all)
 
 - [Delegating your first task in Claude CoworkTutorial4 min
 
@@ -943,7 +943,7 @@ Use case·Data·10 min](https://academy.claude.com/use-cases/answer-the-adhoc)
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all?kind=use-case&product=cowork)[Tutorials17 tutorials](https://academy.claude.com/all?kind=tutorial&product=cowork)[Courses1 course](https://academy.claude.com/all?kind=course&product=cowork)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Design
@@ -980,7 +980,7 @@ Admin setup](https://academy.claude.com/products/cowork/setup)
 
 ## Try a design task
 
-[View all](https://academy.claude.com/all?kind=use-case&product=cowork&department=design)
+[View all](https://academy.claude.com/all)
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
@@ -1024,7 +1024,7 @@ Use case·Design·15 min](https://academy.claude.com/use-cases/brand-guidelines-
 
 ## Learn more
 
-[View all](https://academy.claude.com/all?product=cowork)
+[View all](https://academy.claude.com/all)
 
 - [Delegating your first task in Claude CoworkTutorial4 min
 
@@ -1067,7 +1067,7 @@ Use case·Design·15 min](https://academy.claude.com/use-cases/brand-guidelines-
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all?kind=use-case&product=cowork)[Tutorials17 tutorials](https://academy.claude.com/all?kind=tutorial&product=cowork)[Courses1 course](https://academy.claude.com/all?kind=course&product=cowork)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Legal
@@ -1104,7 +1104,7 @@ Admin setup](https://academy.claude.com/products/cowork/setup)
 
 ## Try a legal task
 
-[View all](https://academy.claude.com/all?kind=use-case&product=cowork&department=legal)
+[View all](https://academy.claude.com/all)
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
@@ -1148,7 +1148,7 @@ Use case·Legal·15 min](https://academy.claude.com/use-cases/prep-scattered-doc
 
 ## Learn more
 
-[View all](https://academy.claude.com/all?product=cowork)
+[View all](https://academy.claude.com/all)
 
 - [Delegating your first task in Claude CoworkTutorial4 min
 
@@ -1191,7 +1191,7 @@ Use case·Legal·15 min](https://academy.claude.com/use-cases/prep-scattered-doc
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all?kind=use-case&product=cowork)[Tutorials17 tutorials](https://academy.claude.com/all?kind=tutorial&product=cowork)[Courses1 course](https://academy.claude.com/all?kind=course&product=cowork)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Sales
@@ -1228,7 +1228,7 @@ Admin setup](https://academy.claude.com/products/cowork/setup)
 
 ## Try a sales task
 
-[View all](https://academy.claude.com/all?kind=use-case&product=cowork&department=sales)
+[View all](https://academy.claude.com/all)
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
@@ -1272,7 +1272,7 @@ Use case·Sales·10 min](https://academy.claude.com/use-cases/transcript-themes)
 
 ## Learn more
 
-[View all](https://academy.claude.com/all?product=cowork)
+[View all](https://academy.claude.com/all)
 
 - [Delegating your first task in Claude CoworkTutorial4 min
 
@@ -1315,7 +1315,7 @@ Use case·Sales·10 min](https://academy.claude.com/use-cases/transcript-themes)
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all?kind=use-case&product=cowork)[Tutorials17 tutorials](https://academy.claude.com/all?kind=tutorial&product=cowork)[Courses1 course](https://academy.claude.com/all?kind=course&product=cowork)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Research
@@ -1352,7 +1352,7 @@ Admin setup](https://academy.claude.com/products/cowork/setup)
 
 ## Try a research task
 
-[View all](https://academy.claude.com/all?kind=use-case&product=cowork&department=research)
+[View all](https://academy.claude.com/all)
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
@@ -1366,7 +1366,7 @@ Use case·Research·15 min](https://academy.claude.com/use-cases/surface-themes-
 
 ## Learn more
 
-[View all](https://academy.claude.com/all?product=cowork)
+[View all](https://academy.claude.com/all)
 
 - [Delegating your first task in Claude CoworkTutorial4 min
 
@@ -1409,7 +1409,7 @@ Use case·Research·15 min](https://academy.claude.com/use-cases/surface-themes-
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all?kind=use-case&product=cowork)[Tutorials17 tutorials](https://academy.claude.com/all?kind=tutorial&product=cowork)[Courses1 course](https://academy.claude.com/all?kind=course&product=cowork)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Education
@@ -1446,7 +1446,7 @@ Admin setup](https://academy.claude.com/products/cowork/setup)
 
 ## Try an education task
 
-[View all](https://academy.claude.com/all?kind=use-case&product=cowork&department=education)
+[View all](https://academy.claude.com/all)
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
@@ -1460,7 +1460,7 @@ Use case·Education·15 min](https://academy.claude.com/use-cases/adapt-a-standa
 
 ## Learn more
 
-[View all](https://academy.claude.com/all?product=cowork)
+[View all](https://academy.claude.com/all)
 
 - [Delegating your first task in Claude CoworkTutorial4 min
 
@@ -1503,7 +1503,7 @@ Use case·Education·15 min](https://academy.claude.com/use-cases/adapt-a-standa
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all?kind=use-case&product=cowork)[Tutorials17 tutorials](https://academy.claude.com/all?kind=tutorial&product=cowork)[Courses1 course](https://academy.claude.com/all?kind=course&product=cowork)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Personal
@@ -1540,7 +1540,7 @@ Admin setup](https://academy.claude.com/products/cowork/setup)
 
 ## Try a personal task
 
-[View all](https://academy.claude.com/all?kind=use-case&product=cowork&department=personal)
+[View all](https://academy.claude.com/all)
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
@@ -1554,7 +1554,7 @@ Use case·Personal·15 min](https://academy.claude.com/use-cases/organize-files-
 
 ## Learn more
 
-[View all](https://academy.claude.com/all?product=cowork)
+[View all](https://academy.claude.com/all)
 
 - [Delegating your first task in Claude CoworkTutorial4 min
 
@@ -1597,4 +1597,4 @@ Use case·Personal·15 min](https://academy.claude.com/use-cases/organize-files-
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all?kind=use-case&product=cowork)[Tutorials17 tutorials](https://academy.claude.com/all?kind=tutorial&product=cowork)[Courses1 course](https://academy.claude.com/all?kind=course&product=cowork)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)

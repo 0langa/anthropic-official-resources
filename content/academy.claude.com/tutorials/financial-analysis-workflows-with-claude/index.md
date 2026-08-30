@@ -183,3 +183,5 @@ Create an interactive artifact showing: portfolio summary with weighted returns 
 - See [Prompting Strategies for Financial Analysis(opens in new tab)](https://support.claude.com/en/articles/12220277-prompting-strategies-for-financial-analysis) for techniques to optimize your workflows.
 - Test workflows with smaller datasets before scaling to full analyses.
 - Save successful prompt sequences as templates for recurring analyses.
+
+Was this helpful?

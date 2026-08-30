@@ -1,4 +1,4 @@
-[Responses](https://platform.claude.com/cookbook/?category=Responses)[Skills](https://platform.claude.com/cookbook/?category=Skills)
+[Responses](https://platform.claude.com/cookbook/)[Skills](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ipynb)
 

@@ -109,3 +109,5 @@ This tutorial shows one use case: validating an ASC 606 revenue model with recon
 
 - [Claude in Excel help article(opens in new tab)](https://support.claude.com/en/articles/12650343-claude-in-excel)
 - [What is the Max plan?(opens in new tab)](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
+
+Was this helpful?

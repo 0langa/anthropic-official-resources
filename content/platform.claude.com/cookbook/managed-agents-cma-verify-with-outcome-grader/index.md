@@ -1,4 +1,4 @@
-[Claude Managed Agents](https://platform.claude.com/cookbook/?category=Claude+Managed+Agents)[Evals](https://platform.claude.com/cookbook/?category=Evals)
+[Claude Managed Agents](https://platform.claude.com/cookbook/)[Evals](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/managed_agents/CMA_verify_with_outcome_grader.ipynb)
 

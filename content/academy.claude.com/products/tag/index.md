@@ -26,7 +26,7 @@ claude.com
 
 ## Learn more
 
-[View all](https://academy.claude.com/all?product=tag)
+[View all](https://academy.claude.com/all)
 
 - [How Claude Tag works claude.com
 
@@ -89,4 +89,4 @@ claude.com
 
 ## Browse it all
 
-[Tutorials2 tutorials](https://academy.claude.com/all?kind=tutorial&product=tag)[Claude Tag docs claude.com (opens in new tab)](https://claude.com/docs/claude-tag/overview)[Introducing Claude Tag www.anthropic.com (opens in new tab)](https://www.anthropic.com/news/introducing-claude-tag)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Tutorials2 tutorials](https://academy.claude.com/all)[Claude Tag docs claude.com (opens in new tab)](https://claude.com/docs/claude-tag/overview)[Introducing Claude Tag www.anthropic.com (opens in new tab)](https://www.anthropic.com/news/introducing-claude-tag)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)

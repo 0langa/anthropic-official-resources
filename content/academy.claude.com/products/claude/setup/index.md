@@ -20,7 +20,7 @@ Plan training](https://academy.claude.com/tutorials/claude-enterprise-adminis
 
 Self-paced courses your team can take on their own time. Send the catalog alongside your launch comms so everyone has a place to keep learning.
 
-Browse courses](https://academy.claude.com/all?kind=course)
+Browse courses](https://academy.claude.com/all)
 
 ## Learn more
 

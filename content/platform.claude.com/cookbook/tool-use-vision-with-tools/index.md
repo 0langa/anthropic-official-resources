@@ -1,4 +1,4 @@
-[Multimodal](https://platform.claude.com/cookbook/?category=Multimodal)[Tools](https://platform.claude.com/cookbook/?category=Tools)
+[Multimodal](https://platform.claude.com/cookbook/)[Tools](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/vision_with_tools.ipynb)
 

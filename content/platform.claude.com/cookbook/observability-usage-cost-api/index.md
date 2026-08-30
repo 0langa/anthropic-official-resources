@@ -1,4 +1,4 @@
-[Observability](https://platform.claude.com/cookbook/?category=Observability)
+[Observability](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/observability/usage_cost_api.ipynb)
 

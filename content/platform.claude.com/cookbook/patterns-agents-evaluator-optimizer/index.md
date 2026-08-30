@@ -1,4 +1,4 @@
-[Agent Patterns](https://platform.claude.com/cookbook/?category=Agent+Patterns)[Evals](https://platform.claude.com/cookbook/?category=Evals)
+[Agent Patterns](https://platform.claude.com/cookbook/)[Evals](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/patterns/agents/evaluator_optimizer.ipynb)
 

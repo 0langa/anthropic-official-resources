@@ -1,26 +1,17 @@
-# Create Skill
+---
+title: Create Skill
+url: https://platform.claude.com/docs/en/api/skills/create
+---
 
-**POST** `/v1/skills`
+## Create Skill
+
+**post** `/v1/skills`
 
 Create Skill
 
-## Body parameters (form-data)
+### Returns
 
-- `files: array of string`
-
-  Files to upload for the skill.
-
-  All files must be in the same top-level directory and must include a SKILL.md file at the root of that directory.
-
-- `display_name: optional string or null`
-
-  Human-readable, single-line label for the Skill. Maximum 255 characters.
-  Always set: derived from the SKILL.md frontmatter `name` when omitted at
-  creation. Not unique.
-
-## Returns
-
-- `Skill object`
+- `Skill object { id, created_at, display_name, 4 more }`
 
   - `id: string`
 
@@ -31,8 +22,6 @@ Create Skill
   - `created_at: string`
 
     ISO 8601 timestamp of when the skill was created.
-
-    format: date-time
 
   - `display_name: string`
 
@@ -80,17 +69,15 @@ Create Skill
 
     For Skills, this is always `"skill"`.
 
-    default: skill
+    - `"skill"`
 
   - `updated_at: string`
 
     ISO 8601 timestamp of when the skill was last updated.
 
-    format: date-time
+### Example
 
-## Example
-
-```bash
+```http
 curl https://api.anthropic.com/v1/skills \
     -H 'Content-Type: multipart/form-data' \
     -H 'anthropic-version: 2023-06-01' \
@@ -98,7 +85,7 @@ curl https://api.anthropic.com/v1/skills \
     -F files='["Example data"]'
 ```
 
-### Response (200)
+#### Response
 
 ```json
 {

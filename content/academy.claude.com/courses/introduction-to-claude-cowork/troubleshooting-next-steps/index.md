@@ -59,6 +59,6 @@ A few learning paths worth knowing about:
 - [**AI Fluency: Framework & Foundations**(opens in new tab)](https://academy.claude.com/courses/ai-fluency-framework-foundations)**.** The foundations of working effectively with AI — prompting, evaluating output, knowing when AI is and isn't the right tool.
 - [**AI Capabilities and Limitations**(opens in new tab)](https://academy.claude.com/courses/ai-capabilities-and-limitations)**.** A deeper survey of what generative AI tools can do across modalities and surfaces.
 - [**Claude 101**(opens in new tab)](https://academy.claude.com/courses/claude-101)**.** The companion course on using Claude across all surfaces.
-- [**Claude use-case library**(opens in new tab)](https://academy.claude.com/all?kind=use-case)**.** Filter to Claude Cowork for ideas and inspiration on what to delegate next.
+- [**Claude use-case library**(opens in new tab)](https://academy.claude.com/all)**.** Filter to Claude Cowork for ideas and inspiration on what to delegate next.
 
 Was this helpful?

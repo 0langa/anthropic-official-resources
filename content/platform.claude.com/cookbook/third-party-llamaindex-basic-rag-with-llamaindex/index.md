@@ -1,4 +1,4 @@
-[Integrations](https://platform.claude.com/cookbook/?category=Integrations)[RAG & Retrieval](https://platform.claude.com/cookbook/?category=RAG+%26+Retrieval)
+[Integrations](https://platform.claude.com/cookbook/)[RAG & Retrieval](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/third_party/LlamaIndex/Basic_RAG_With_LlamaIndex.ipynb)
 

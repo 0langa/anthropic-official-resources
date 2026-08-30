@@ -128,3 +128,5 @@ For more on voice mode, the [help center article(opens in new tab)](https://supp
 ## Get started[](https://academy.claude.com/tutorials/how-to-choose-between-voice-mode-and-dictation)
 
 Next time you're about to type a long message to Claude, try using dictation to speak it instead. And next time you catch yourself wishing you could talk something through, open voice mode and think out loud. If you're unsure which one to use, think about what sort of output you want back. If it's text you can read and reuse, that's dictation. If it's a conversation, that's voice mode. Either way, Claude keeps up as you do your best thinking.
+
+Was this helpful?

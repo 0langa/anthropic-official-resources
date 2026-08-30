@@ -1,4 +1,4 @@
-[Tools](https://platform.claude.com/cookbook/?category=Tools)[RAG & Retrieval](https://platform.claude.com/cookbook/?category=RAG+%26+Retrieval)
+[Tools](https://platform.claude.com/cookbook/)[RAG & Retrieval](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/tool_search_with_embeddings.ipynb)
 

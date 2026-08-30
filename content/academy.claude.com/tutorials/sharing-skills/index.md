@@ -11,3 +11,5 @@ Learn how to share your Claude Code skills with teammates and the community.
 Embedded media: https://www.youtube-nocookie.com/embed/OCBi3eScNLk?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=OCBi3eScNLk)
+
+Was this helpful?

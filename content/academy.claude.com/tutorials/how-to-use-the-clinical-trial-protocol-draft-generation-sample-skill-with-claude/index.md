@@ -52,3 +52,5 @@ Command
 `/plugin marketplace add anthropics/life-sciences`
 
 `/plugin install clinical-trial-protocol@life-sciences`
+
+Was this helpful?

@@ -1,4 +1,4 @@
-[Thinking](https://platform.claude.com/cookbook/?category=Thinking)[Tools](https://platform.claude.com/cookbook/?category=Tools)
+[Thinking](https://platform.claude.com/cookbook/)[Tools](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/extended_thinking/extended_thinking_with_tool_use.ipynb)
 

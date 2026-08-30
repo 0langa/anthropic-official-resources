@@ -37,29 +37,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 4 of 14 · AI Fluency: Framework & FoundationsGenerative AI fundamentals
-
-# Generative AI fundamentals
-
-Lesson 46 min
-
-In this lessonBy the end, you’ll be able to
-
-- Define generative AI and how it differs from other AI types
-- Recognize the key characteristics and technological foundations of generative AI
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-framework-foundations%2Fgenerative-ai-fundamentals)
-
-## Generative AI fundamentals[](https://academy.claude.com/courses/ai-fluency-framework-foundations/generative-ai-fundamentals)
-
-Embedded media: https://www.youtube-nocookie.com/embed/RyvXxApfHkk?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-Generative AI fundamentals
-
-SummaryTranscript
-
 Hi, my name is Drew Bent, and I'm a teacher, programmer, and member of technical staff at Anthropic. Welcome to our exploration of generative AI. In this video, we'll dive into what generative AI actually is, how it works under the hood, and the technological breakthroughs that made these systems possible. You might interact with generative AI daily without fully understanding what's happening behind the scenes. Let's change that.
 
 Generative AI refers to artificial intelligence systems that can create new content rather than just analyzing existing data. For example, while traditional AI might classify emails as spam or not spam based on patterns, generative AI can write a completely new email for you. The first approach analyzes and categorizes. The second creates something new that didn't exist before. This represents a fundamental shift in AI capabilities. Large language models, or LLMs, like Anthropic's Claude models, are a prominent type of generative AI. They're called language models because they're trained to predict and generate human language, and large because they contain billions of parameters, mathematical values that determine how the model processes information, somewhat like synaptic connections in your brain.
@@ -73,10 +50,6 @@ Let's peek under the hood at how these systems actually work. During initial tra
 Once models are trained, they are then deployed for you to interact with. When you interact with Claude or another LLM, you're providing a prompt, which is text that the model reads and then continues from based on patterns it learned during training. The model isn't retrieving pre-written answers from a database. Instead, it's generating new text that statistically follows from what you've written. There's also a practical limit to how much information an LLM can consider at once, known as the context window. Think of this as the AI's working memory. The context window includes your prompts, the AI responses, and any other information you've shared in your conversation. While AI companies continue to grow the context window to allow for longer context documents and conversations, these limits remind us that these systems don't have unlimited access to information and cannot use content beyond its current context window without specialized tools like web search.
 
 Bringing this together, the three characteristics that make modern generative AI so powerful include: first, its ability to process vast amounts of information during training, allowing it to learn complex and nuanced patterns in language and knowledge. Second, its in-context learning ability. LLMs can adapt to new tasks based on instructions or examples in your prompt without requiring additional training. And third, emergent capabilities that arise from scale. As these models grow larger, they develop abilities that weren't explicitly designed into them, sometimes surprising even their creators. In the next video, we'll explore what these systems can and can't do well, along with their most common or valuable applications.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=RyvXxApfHkk)
-
-Was this helpful?
 
 
 ## Video transcript

@@ -135,3 +135,5 @@ Review this vendor agreement. Our standard on indemnification is capped at 2x co
 - [Getting started with Cowork(opens in new tab)](https://support.claude.com/en/articles/13345190-getting-started-with-cowork)
 - [Using plugins in Cowork(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-cowork)
 - [Browse plugins(opens in new tab)](https://claude.com/plugins)
+
+Was this helpful?

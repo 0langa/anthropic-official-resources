@@ -80,3 +80,5 @@ These plugins are designed as starting points. You can customize them to match y
 ## Learn more[](https://academy.claude.com/tutorials/install-financial-services-plugins-for-cowork)
 
 See our blog post for more information: [**Cowork and plugins for finance**(opens in new tab)](https://claude.com/blog/cowork-plugins-finance).
+
+Was this helpful?

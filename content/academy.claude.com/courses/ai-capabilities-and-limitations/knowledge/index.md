@@ -95,31 +95,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 6 of 13 · AI Capabilities and LimitationsKnowledge
-
-# Knowledge
-
-Lesson 625 min
-
-In this lessonBy the end, you’ll be able to
-
-- Explain how an AI model's knowledge is formed during training and why it has a fixed cutoff
-- Predict which topics sit in the capability zone (frequent, recent-in-training, consistent) versus the edge (rare, post-cutoff, niche, contested)
-- Identify staleness, uneven coverage, inherited bias, and source amnesia as characteristic knowledge failures
-- Recognize web search, retrieval/RAG, and tool use as the product features that address this limitation
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-capabilities-and-limitations%2Fknowledge)
-
-## Understanding knowledge gaps in AI models[](https://academy.claude.com/courses/ai-capabilities-and-limitations/knowledge)
-
-Embedded media: https://www.youtube-nocookie.com/embed/iSLdQXeKbHs?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-Knowledge · 5 min
-
-SummaryTranscript
-
 Hi, my name is David and I'm on the safety team here at Anthropic. Today I'm going to talk to you about what AI models actually know, and just as importantly, what they don't. We'll explore where AI's knowledge comes from, why it has sharp edges, and how you can predict which topics are going to be reliable for you, and which ones aren't.
 
 A model like Claude has been exposed to more data than any human could digest in many lifetimes. That makes it feel like it knows everything, but it doesn't. Generative AI models have predictable knowledge gaps.
@@ -149,67 +124,3 @@ Here's how to protect yourself. Verify anything time-sensitive. Assume the model
 Understanding the knowledge property directly shapes two of the four AI Fluency competencies. Delegation — before you hand a task to the model, ask yourself, is this a domain the model knows well, or one where you need to bring the knowledge yourself through context, documents, or search? Discernment — when you get an answer back, you now know which of these claims need independent verification. Anything in the model's weak zone, recent, rare, or local, warrants a second look.
 
 The model's knowledge is broad, deep, frozen, and imperfect all at once. Once you can see where the edges are, you stop being surprised by them.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=iSLdQXeKbHs)
-
-## What the model read, and when it stopped reading[](https://academy.claude.com/courses/ai-capabilities-and-limitations/knowledge)
-
-Before you read
-
-You ask AI to **explain a news event from last week**. How closely do you need to check the result? Pick a spot on the continuum, then lock in your guess.
-
-![](https://academy.claude.com/assets/v1/pictoGlobe-m728bgxx.png)
-
-### Knowledge
-
-What does AI actually know?
-
-CapabilityLimitation
-
-Trust itSpot-checkCheck detailsVerify carefullyHigh risk
-
-Pick a stop, then lock in your guess. The lesson opens up once you do.
-
-Lock in my guess
-
-## Key takeaways[](https://academy.claude.com/courses/ai-capabilities-and-limitations/knowledge)
-
-- **What generative AI knows** comes entirely from training data and is frozen at the knowledge cutoff. Without tools, it has no access to any information after that date.
-  - **Capability zone:** topics that appeared frequently, recently (within training), and consistently in training data.
-  - **Limitation zone:** rare, post-cutoff, niche, local, or contested topics.
-  - **Characteristic failures:** staleness, uneven coverage, inherited bias in what counts as "default" or "normal," and inability to attribute where knowledge came from.
-  - **Web search, retrieval (RAG/MCPs), and tool use** exist specifically to patch these gaps by giving the model access to information it was never trained on.
-- **4D connection:** Knowledge unevenness is core to Delegation. Understanding where the model is well-stocked versus thin tells you when to hand off, when to supply context yourself, and when to go elsewhere.
-
-## Exercises[](https://academy.claude.com/courses/ai-capabilities-and-limitations/knowledge)
-
-### The Outsider Test
-
-Why? You know the model's knowledge is broad but frozen, shaped by whatever was in its training data. Now you're going to map exactly where it's well-stocked and where it's thin in your specific domain.
-
-Return to your task list and select one task. Relative to that task, write down:
-
-- Two topics that are mainstream, well-documented, and stable. The kind of thing any informed colleague would know.
-- Two topics that are niche, local, recent, or rapidly evolving. Industry-specific jargon, regional regulations, something that changed in the last year.
-- One "default assumption" that outsiders to your field often get wrong. (Who the typical customer is. What a "standard" case looks like. Which tool people actually use vs. the one that gets press.)
-
-Now run three probes:
-
-1. **Probe 1: Coverage.** Ask about one mainstream topic and one niche topic from your list. Compare the depth and accuracy. Pay attention to whether the AI signals uncertainty differently between the two, or whether both answers come with the same confident tone.
-2. **Probe 2: Staleness.** Ask about something you know has changed recently in your field: a regulation update, a tool release, a leadership change, a revised standard. Does the AI acknowledge the cutoff? Present stale information as current? Decline to answer? Note what happens.
-3. **Probe 3: Default assumptions.** Without naming your assumption directly, ask a question that would reveal whether the AI defaults to the outsider's view. For example, if your field's "standard" customer is different from what most people assume, ask the AI to describe the typical customer. Note what it treats as normal.
-
-Go back to your task list and add a second annotation: for each task, flag whether you can lean on the model's knowledge, or whether you need to bring the knowledge yourself via context, documents, or search.
-
-**Stretch goal:** Re-run the staleness probe with web search enabled. Compare what changes. This is retrieval in action.
-
-## Lesson reflection[](https://academy.claude.com/courses/ai-capabilities-and-limitations/knowledge)
-
-- What's one area of your work where you now realize you need to supply context rather than assume the model has it?
-- Did the default-assumption probe surface anything that surprised you?
-
-## What's next[](https://academy.claude.com/courses/ai-capabilities-and-limitations/knowledge)
-
-Knowledge covers what the model absorbed during training. Working Memory covers what it's paying attention to right now: your prompt, your documents, your conversation. This property has the hardest edge of all four.
-
-Was this helpful?

@@ -30,7 +30,7 @@ Admin setup](https://academy.claude.com/products/claude/setup)
 
 ## Try a task
 
-[View all](https://academy.claude.com/all?kind=use-case&product=chat)
+[View all](https://academy.claude.com/all)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-jiiwmich.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kfwebxwg.png)
 
@@ -72,7 +72,7 @@ Use case·Education·15 min](https://academy.claude.com/use-cases/bring-your-whi
 
 ## Learn more
 
-[View all](https://academy.claude.com/all?kind=tutorial&product=chat)
+[View all](https://academy.claude.com/all)
 
 - [Choosing the right Claude model: Haiku, Sonnet, Opus, or FableTutorial5 min
 
@@ -95,4 +95,4 @@ Use case·Education·15 min](https://academy.claude.com/use-cases/bring-your-whi
 
 ## Browse it all
 
-[Use cases70 use cases](https://academy.claude.com/all?kind=use-case&product=chat)[Tutorials64 tutorials](https://academy.claude.com/all?kind=tutorial&product=chat)[Courses13 courses](https://academy.claude.com/all?kind=course&product=chat)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases70 use cases](https://academy.claude.com/all)[Tutorials64 tutorials](https://academy.claude.com/all)[Courses13 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)

@@ -139,3 +139,5 @@ Here's how a product team might use Claude Design from idea to implementation:
 8. **Engineer uses Claude Code** to implement the feature, starting from the prototype rather than from scratch
 
 **Have questions about Claude Design prototypes?** Reach out to your Design Team or try building a prototype yourself – most people find the workflow intuitive once they create their first one.
+
+Was this helpful?

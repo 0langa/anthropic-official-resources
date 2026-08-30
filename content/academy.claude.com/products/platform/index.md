@@ -20,7 +20,7 @@ Course·10 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduct
 
 ## Learn more
 
-[View all](https://academy.claude.com/all?product=api)
+[View all](https://academy.claude.com/all)
 
 - [Model Context Protocol: Advanced TopicsCourse11 lessons · 1 quiz
 
@@ -64,4 +64,4 @@ Course·10 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduct
 
 ## Browse it all
 
-[Tutorials1 tutorial](https://academy.claude.com/all?kind=tutorial&product=api)[Courses6 courses](https://academy.claude.com/all?kind=course&product=api)[API reference docs platform.claude.com (opens in new tab)](https://platform.claude.com/docs/en/api/overview)[Claude cookbooks platform.claude.com (opens in new tab)](https://platform.claude.com/cookbook)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Tutorials1 tutorial](https://academy.claude.com/all)[Courses6 courses](https://academy.claude.com/all)[API reference docs platform.claude.com (opens in new tab)](https://platform.claude.com/docs/en/api/overview)[Claude cookbooks platform.claude.com (opens in new tab)](https://platform.claude.com/cookbook)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)

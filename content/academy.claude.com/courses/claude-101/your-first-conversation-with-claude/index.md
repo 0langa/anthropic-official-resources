@@ -160,7 +160,7 @@ There are two features that help Claude work better for you over time to increas
 
 ## Put it into practice[](https://academy.claude.com/courses/claude-101/your-first-conversation-with-claude)
 
-Before moving on, try prompting Claude with a question or task. If you need an idea to get started, feel free to explore our [use-case gallery(opens in new tab)](https://academy.claude.com/all?kind=use-case).
+Before moving on, try prompting Claude with a question or task. If you need an idea to get started, feel free to explore our [use-case gallery(opens in new tab)](https://academy.claude.com/all).
 
 ## What's next[](https://academy.claude.com/courses/claude-101/your-first-conversation-with-claude)
 

@@ -26,7 +26,7 @@ Plan enablement](https://academy.claude.com/tutorials/scaling-workflows-with-
 
 Self-paced courses your team can take on their own time. Send the catalog alongside your launch comms so everyone has a place to keep learning.
 
-Browse courses](https://academy.claude.com/all?kind=course)[### Explore AI Fluency behaviors
+Browse courses](https://academy.claude.com/all)[### Explore AI Fluency behaviors
 
 The 4 Ds — Delegation, Description, Discernment, Diligence. What fluent Cowork use looks like, so you can coach toward it.
 

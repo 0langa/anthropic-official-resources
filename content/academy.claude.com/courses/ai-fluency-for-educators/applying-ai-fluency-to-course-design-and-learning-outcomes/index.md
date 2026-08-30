@@ -126,31 +126,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 3 of 4 · AI Fluency for educatorsApplying AI Fluency to course design and learning outcomes
-
-# Applying AI Fluency to course design and learning outcomes
-
-Lesson 320 min
-
-In this lessonBy the end, you’ll be able to
-
-- Apply all 4Ds systematically to course design
-- Move from high-level planning to specific learning objectives
-- Build coherent course structures through AI collaboration
-- Maintain pedagogical integrity while leveraging AI capabilities
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-educators%2Fapplying-ai-fluency-to-course-design-and-learning-outcomes)
-
-## Applying AI Fluency to course design and learning outcomes[](https://academy.claude.com/courses/ai-fluency-for-educators/applying-ai-fluency-to-course-design-and-learning-outcomes)
-
-Embedded media: https://www.youtube-nocookie.com/embed/cVFLuBbnbMo?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-Applying AI Fluency to course design and learning outcomes · 10 min
-
-SummaryTranscript
-
 Hello, I'm Joe Feller. Let's explore how AI fluency can transform your course and lesson design process. The key to human AI partnership is building rich, shared context, helping AI process exactly what you're trying to achieve in your course or lesson. This turns AI from a generic assistant into a collaborator who responds to your specific teaching context, your constraints, and your pedagogical vision. That's because one of AI's most transformative capabilities for educators is holding large contexts in mind while helping us think through interconnected decisions. When you do this well, AI becomes less like a generic assistant and more like a colleague who gets your teaching approach.
 
 Let's forget about AI for a moment. When designing a course, we generally engage in three fundamental pieces of work. We identify the content and concepts that are essential for our students, considering who they are, what they need to learn, and how to structure it for their success. We also map out the learning journey, deciding how topics will build on each other to support student learning over the course of a single session or the whole term. And we articulate specific learning objectives that capture what students should be able to do after a given session or by the end of the course. Now let's explore how building a genuine collaborative partnership with AI can transform, not just streamline, these three tasks.
@@ -176,91 +151,6 @@ Let's revisit diligence one more time, because it is so important to education. 
 Good news. This collaborative approach can save time. Better news, that's just the beginning. Because the real power of fluent AI collaboration comes from surfacing hidden assumptions and blind spots in our own thinking. It comes from discovering creative connections between concepts that we otherwise might have missed and maintaining coherence while exploring new ideas or building personal competencies that get stronger with practice. The four Ds aren't a checklist. They're a framework for building genuine cognitive partnership, where your pedagogical and subject matter expertise guides collaborative exploration, resulting in courses that serve students better than either you or the AI could have designed alone.
 
 This context-building approach works for any substantial planning task, including creating new courses from scratch, updating existing courses, planning curriculum sequences, and developing learning pathways. The key is starting with the big picture, building and maintaining context as you work down through the details. In our next lesson, we'll explore how this established context can transform the creation of learning materials and assessments. But first, practice the approach yourself with the exercises we've provided. And remember, yes, with this workflow, you're planning a course. But more importantly, you're building a thinking partnership and a set of skills that will enhance your entire pedagogical practice.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=cVFLuBbnbMo)
-
-## Key takeaways[](https://academy.claude.com/courses/ai-fluency-for-educators/applying-ai-fluency-to-course-design-and-learning-outcomes)
-
-- Context-building transforms generic AI into a teaching and thinking partner who understands your approach, vision and needs
-- Each of the 4Ds plays a specific role in course design collaboration
-- The goal is enhancement, not just efficiency. We want better teaching and learning, not just faster planning
-- Your pedagogical and subject matter expertise guides the entire process
-
-## Exercises[](https://academy.claude.com/courses/ai-fluency-for-educators/applying-ai-fluency-to-course-design-and-learning-outcomes)
-
-### Complete Course Design Workflow
-
-Estimated time: 50 minutes.
-
-Re-using your Teaching Context document from Lesson 1 as part of your initial prompt, work through a partial/full course (re)design process. You can also share this course's video transcripts with your AI partner (see Lesson resources).
-
-### Stage 1: Planning Your Approach
-
-Before starting with AI, clarify for yourself:
-
-- Which course or unit are you designing or redesigning?
-- What work needs to be done? (content selection, sequencing, objectives, etc.)
-- What aspects require your expertise vs. where might AI help?
-
-### Stage 2: Initiating Collaboration
-
-**Starting the conversation:**
-
-- Begin a new conversation with Claude or an AI assistant of your choice
-- Share your Teaching Context document from Lesson 1
-- Explain which course you're working on and what you're trying to accomplish
-
-**Making your description rich:**
-
-- Don't just name the course—explain the specific challenges
-- Share what makes this course unique (student needs, prerequisites, outcomes)
-- Describe your vision for what success looks like
-- Explain your delegation thinking—what you want to collaborate on and why
-
-**Setting up the partnership:**
-
-- Invite the AI to ask clarifying questions
-- Share any constraints (time, resources, institutional requirements)
-- Indicate whether you're starting fresh or revising existing material
-
-### Stage 3: Build the conversation through Description & Discernment
-
-Work through relevant course elements, applying Discernment throughout and revising your Description though ongoing conversation:
-
-**Content Identification:**
-
-- Ask the AI to suggest topics and concepts based on your context
-- For each suggestion, evaluate: Does this serve YOUR students?
-- **Always explain your reasoning back to the AI**—why something works or doesn't
-- Build on good ideas, redirect weak ones
-
-**Learning Journey Mapping:**
-
-- Work together to sequence 3-4 class sessions
-- Ask the AI to take on your students' perspective at transition points
-- Explore: "What might confuse students here?" "What scaffolding is needed?"
-- Discuss how each session builds on the previous one
-
-**Learning Objectives:**
-
-- Transform your content map into specific, measurable objectives
-- Check alignment with your institutional requirements
-- Ensure objectives ladder up to broader course goals
-- Have the AI help you spot gaps or redundancies
-
-### Stage 4: Documentation & Reflection
-
-- Verify for accuracy, citations, etc.
-- Document key decisions and your reasoning
-- Note which AI suggestions you rejected and why
-- Create a brief statement about AI's role in your planning
-- Consider how you might share this process with students or colleagues
-
-## What's next[](https://academy.claude.com/courses/ai-fluency-for-educators/applying-ai-fluency-to-course-design-and-learning-outcomes)
-
-In the next lesson, we'll explore creating learning materials and assignments with AI. You'll discover how the context you've built makes material creation more coherent and effective, from lecture slides to assessments, while addressing the challenge of maintaining academic integrity when students also have access to AI.
-
-Was this helpful?
 
 
 ## Video transcript

@@ -130,3 +130,5 @@ Supply chain analysis through FactSet can show dependencies that may not be appa
 - Note that some data has reporting lags—ownership is quarterly, insider transactions have filing delays
 - For complex analyses, start with a subset of companies before expanding scope
 - Be aware that relationship and ownership data reflects disclosed information and may not be complete
+
+Was this helpful?

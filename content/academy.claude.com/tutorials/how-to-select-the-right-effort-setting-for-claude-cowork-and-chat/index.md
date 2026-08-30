@@ -138,3 +138,5 @@ Once Claude responds, watch for signs that the effort setting does or doesn't ma
 - [**Choosing the right effort level in Claude Code**(opens in new tab)](https://academy.claude.com/tutorials/choosing-the-right-effort-level-in-claude-code): the same setting in Claude Code, with `/effort`, the settings that control it, and a worked example.
 - [**Choosing a Claude model and effort level in Claude Code**(opens in new tab)](https://claude.com/blog/claude-model-and-effort-level-in-claude-code): the concepts behind model choice and effort, from the Claude Code team.
 - [**Claude models explained**(opens in new tab)](https://claude.com/blog/claude-models-explained): how the Claude models differ and how to choose one for your use case.
+
+Was this helpful?

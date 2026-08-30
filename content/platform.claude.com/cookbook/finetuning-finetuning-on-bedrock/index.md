@@ -1,4 +1,4 @@
-[Fine-Tuning](https://platform.claude.com/cookbook/?category=Fine-Tuning)
+[Fine-Tuning](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/finetuning/finetuning_on_bedrock.ipynb)
 

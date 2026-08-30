@@ -63,7 +63,7 @@ The framework below is flexible and self-paced. Move through the phases at whate
 
 #### Key resources
 
-- [Use case library(opens in new tab)](https://academy.claude.com/all?kind=use-case)
+- [Use case library(opens in new tab)](https://academy.claude.com/all)
 - [How to access audit logs(opens in new tab)](https://support.claude.com/en/articles/9970975-how-to-access-audit-logs)
 - [Claude artifact inspiration gallery(opens in new tab)](https://claude.ai/artifacts?category=learn)
 - [MCP connector directory(opens in new tab)](https://claude.com/connectors)

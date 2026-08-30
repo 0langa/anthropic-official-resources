@@ -134,6 +134,11 @@ In the next lesson, you'll walk through delegating that task end to end — from
 Was this helpful?
 
 
+## Transcript
+
+This lesson's video contains no spoken narration (screen demonstration with background audio only).
+
+
 ## File-based
 
 Pattern 2

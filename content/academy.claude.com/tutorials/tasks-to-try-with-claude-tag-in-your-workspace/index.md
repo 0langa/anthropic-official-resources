@@ -121,3 +121,5 @@ List who is blocked and on what
 - [Admin setup guide(opens in new tab)](https://claude.com/docs/claude-tag/admins/setup-overview): Connecting tools, scoping access per channel, spend controls.
 - [Security and data handling(opens in new tab)](https://claude.com/docs/claude-tag/concepts/security-and-data): How Claude's access is scoped and what stays in your workspace.
 - [Help center(opens in new tab)](https://support.claude.com/): Troubleshooting and account questions.
+
+Was this helpful?

@@ -42,12 +42,12 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
-    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js"
+    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
   },
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
-    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js"
   },
   {
     "reason": "optional_media_widget_or_analytics",
@@ -83,5 +83,20 @@
     "reason": "optional_media_widget_or_analytics",
     "type": "stylesheet",
     "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://assets.claude.ai/sdk/antalytics/latest.umd.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://www.googletagmanager.com/gtm.js"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "script",
+    "url": "https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js"
   }
 ]

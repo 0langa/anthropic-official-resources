@@ -83,30 +83,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 9 of 10 · AI Fluency for pK–12 EducatorsTying it all together
-
-# Tying it all together
-
-Lesson 920 min
-
-In this lessonBy the end, you’ll be able to
-
-- Apply all four Ds in a single real workflow
-- Navigate between loops dynamically
-- Own the full process
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-k-12-educators%2Ftying-it-all-together)
-
-## Tying it all together[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/tying-it-all-together)
-
-Embedded media: https://www.youtube-nocookie.com/embed/u73we40yeuA?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-Tying it all together · 8 min
-
-SummaryTranscript
-
 Let's consider an end-to-end task. Perhaps you're preparing a lesson for your students or a training for other teachers. In this lesson, we're going to use all four dimensions of the 4D Framework together on exactly that kind of task. This is where the pieces stop being separate skills you practice one at a time, and they start working as one system. Delegation, Description, Discernment, and Diligence in sequence on something real.
 
 Marcus is a teacher trainer supporting a cohort of first-year teachers heading into their second semester. He's been asked to put together a session on differentiated instruction—what it is, how to actually do it, and what it looks like when it's working. He's got two weeks and limited prep time. His educators teach secondary and high school, serving students with a variety of needs. The teachers are exhausted but motivated, which means they'll show up and they'll try, but they have zero patience for theory that doesn't translate into something that they can use on Monday morning. Marcus knows this because he was them not that long ago.
@@ -150,52 +126,3 @@ The total time from blank page to finished session plan was about two hours spre
 That's the 4D Framework running end-to-end on a real task. The Delegation told him what to hand off and what to keep. Description got him a draft that was worth editing. Discernment caught what didn't fit before anyone else saw it. And Diligence made sure the final product was his, with his judgment and his name on it.
 
 In a moment, you'll pick a real task from your own work and you'll run it through the same loop. No scaffolding, no hints about which D you're in at any given moment. Just you, the process, and something you actually need to get done. You're ready. Let's go.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=u73we40yeuA)
-
-## Key takeaways[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/tying-it-all-together)
-
-- **The full 4D workflow can be applied to the work you do every day.**
-- **You belong in the loop.** The work isn't "done" when the AI finishes.
-- **The skill you build here is owning the process,** not the output.
-- **The 4Ds become invisible when they're used well.**
-
-## Exercises[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/tying-it-all-together)
-
-### End-to-end 4D workflow
-
-You've practiced each of the four Ds separately. Now put them together on a real task from your own work. The goal: a completed, usable output you own, and a record of how you got there.
-
-*Part I: Choose your task* (in your own notes)
-
-Pick a substantive, real task from your own work—due in the next week or two—that AI might genuinely help with. Before you start, note what "done" looks like, which parts AI can help with and which stay yours, and confirm you've stripped any student, staff, or personnel data and picked an appropriate tool.
-
-*Part II: Run the full workflow*
-
-Work through the task with AI, taking notes as you go:
-
-1. What did you ask AI to do, and how did you frame it? Did you revise your prompt?
-2. What did the output get right? What was wrong, thin, or missing?
-3. What did you keep, change, or throw out—and why?
-4. What did you add that only you could provide?
-5. Would you put your name on the final output? Do you need to be transparent with anyone about how it was produced?
-
-*Part III: Debrief* (in your own notes)
-
-With a completed output in hand, reflect:
-
-- How did each competency—Delegation, Description, Discernment, Diligence—play out? Where did you loop back or change course?
-- Which Part II question did you write the most about, and which felt hardest? What does that tell you about where your instincts are strongest, and where you still have room to grow?
-
-Bring your log to a colleague and debrief—not to compare outputs, but to share processes.
-
-## Lesson reflection[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/tying-it-all-together)
-
-- Looking back at the full workflow you just ran: where did the process feel natural, and where did it still feel effortful or uncertain? What does that tell you about where you still want to grow?
-- At the start of this course, how would you have described your relationship to AI tools? How would you describe it now, and what specifically changed?
-
-## What's next[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/tying-it-all-together)
-
-In the next lesson, we'll close out the course with a final build exercise and resources for continuing your practice.
-
-Was this helpful?

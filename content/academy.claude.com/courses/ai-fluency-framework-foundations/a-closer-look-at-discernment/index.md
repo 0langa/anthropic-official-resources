@@ -125,30 +125,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 10 of 14 · AI Fluency: Framework & FoundationsA closer look at Discernment
-
-# A closer look at Discernment
-
-Lesson 1020 min
-
-In this lessonBy the end, you’ll be able to
-
-- Understand how to evaluate AI outputs and processes thoughtfully
-- Develop critical thinking skills for your AI interactions
-- Learn to identify and address quality concerns in your AI interactions
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-framework-foundations%2Fa-closer-look-at-discernment)
-
-## A Closer Look at Discernment[](https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-discernment)
-
-Embedded media: https://www.youtube-nocookie.com/embed/Y0KidGr9Z2Y?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-A closer look at Discernment
-
-SummaryTranscript
-
 In this video, we'll dig deeper into the AI fluency competency of discernment. AI fluency means working with AI effectively, efficiently, ethically, and safely. Discernment is specifically about evaluating AI outputs, processes, and behaviors, essentially your quality control system for AI collaboration.
 
 Discernment is your ability to critically evaluate what AI produces, how it produces it, and how it behaves. It's kind of the flip side of description. If description is about clearly communicating what you want, discernment is about deciding whether what you get back actually meets your needs. Developing your discernment helps you identify when AI outputs are valuable versus problematic, recognize strengths and limitations, and determine when outputs are ready to use or need more work. Doing this well requires both domain expertise, in other words, knowing enough to judge quality, and an understanding of how AI systems work, including their typical shortcomings. Remember, even the most advanced AI systems can make reasoning errors, produce factual mistakes, or act in unexpected ways. Your capacity for discernment acts as an essential safeguard.
@@ -162,95 +138,6 @@ It's also often valuable to evaluate and guide how the AI behaves during your in
 Of course, discernment doesn't end with evaluation. You also need to provide feedback in order to improve what an AI delivers going forward. When you identify problems in AI outputs, effective feedback includes specifying what the problem is, clearly explaining why it is a problem, providing concrete suggestions for improvement, and revising your instructions or examples. In other words, when discernment flags a problem, better description is often the solution. But this isn't always the case. Sometimes you may need to rethink your delegation decisions, because you might be using the wrong tool or approaching the problem in entirely the wrong way.
 
 To recap, product, process, and performance discernment combine to form the discernment competency. Discernment works hand-in-hand with description. While description focuses on communicating your needs to AI, discernment evaluates how well those needs were met. Together, they form a continuous loop of instruction and evaluation that drives quality. By developing your discernment skills, you ensure that your AI collaboration remains guided by human judgment, a critical element of truly effective AI fluency.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=Y0KidGr9Z2Y)
-
-Together, these skills help ensure that your AI collaboration remains guided by thoughtful human judgment.
-
-## Key takeaways[](https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-discernment)
-
-- Discernment is your ability to thoughtfully evaluate what AI produces, how it produces it, and how it behaves
-- Product Discernment focuses on evaluating the quality of actual outputs (accuracy, appropriateness, coherence, relevance)
-- Process Discernment involves assessing how the AI arrived at its output, looking for logical errors, attention gaps, or inappropriate reasoning
-- Performance Discernment evaluates how the AI behaves within the collaboration process itself, considering whether its communication style is effective for your needs
-- Discernment works hand-in-hand with Description in a continuous feedback loop
-- Even the most advanced AI systems benefit from human judgment and oversight
-
-## Exercises[](https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-discernment)
-
-### Expert Discernment: Evaluating AI Responses in Your Domain
-
-#### Activity Goal
-
-Practice Product, Process, and Performance Discernment by evaluating AI-generated content in a domain where you have expertise, recognizing how your knowledge enhances your ability to critically assess AI outputs.
-
-#### Instructions
-
-**Step 1: Return to Your Area of Expertise**
-
-Recall the topic you discussed with Claude in the earlier exercise (Lesson 2, Exercise 2: "Explore something you love"). This was a topic where you had strong knowledge and passion.
-
-**Step 2: Ask for Multiple Explanations**
-
-Start a new conversation with Claude and ask it to generate three different explanations or analyses about a specific aspect of your expert topic. For example:
-
-- If your topic was photography, you might ask for three different explanations of depth of field
-- If your topic was cooking, you might ask for three different analyses of fermentation techniques
-- If your topic was history, you might ask for three different perspectives on a specific historical event
-
-**Step 3: Apply Your Expert Discernment**
-
-Drawing on your expertise, carefully evaluate each explanation provided by Claude:
-
-**Product Discernment:**
-
-- Which explanation contains the most accurate information?
-- Are there any factual errors or misconceptions?
-- Is the level of detail appropriate for someone learning about this topic?
-
-**Process Discernment:**
-
-- Does Claude follow logical reasoning in each explanation?
-- Are there gaps in its analysis or thinking process?
-- Does Claude make appropriate connections between concepts?
-
-**Performance Discernment:**
-
-- Was Claude attentive to your specific question and responsive to feedback and direction?
-- Is terminology used appropriately for the topic?
-- How does the tone and style affect the clarity of the explanation?
-
-**Step 4: Provide Feedback and Refinement**
-
-Based on your evaluation:
-
-1. Identify the strongest explanation and specifically tell Claude specifically why it's effective
-2. Identify the weakest explanation and provide specific feedback on what makes it problematic
-3. Work with Claude to create an improved version that addresses the issues you identified
-
-**Step 5: Reflection**
-
-Discuss with Claude (in the same chat):
-
-- What specific knowledge did you have that allowed you to identify strengths or weaknesses?
-- How might someone without your expertise struggle to discern the quality of these explanations?
-- What does this experience teach you about the relationship between domain knowledge and effective Discernment?
-
-**For a more playful Discernment workout, you might want to try some of the “Game Night” suggestions in the final lesson ("Additional Activities").**
-
-### Reflection[](https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-discernment)
-
-Before moving on, take a moment to consider:
-
-- Which type of Discernment (Product, Process, or Performance) do you find most challenging to apply, and why?
-- How does Discernment complement Description? How do they work together?
-- What signals or patterns might indicate that an AI output requires closer scrutiny?
-
-## What’s next[](https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-discernment)
-
-In the next lesson, you'll have the opportunity to apply both Description and Discernment skills to your overarching course project. You'll put into practice what you've learned about effectively communicating with AI and critically evaluating its outputs to produce results that leverage the best of both human and AI capabilities.
-
-Was this helpful?
 
 
 ## Video transcript

@@ -166,7 +166,7 @@ Deploying Claude is a technical milestone, but adoption depends on whether peopl
 Direct users to these Anthropic-provided learning resources:
 
 - [Claude Academy(opens in new tab)](https://academy.claude.com/) — Interactive courses covering Claude fundamentals, prompt engineering, and advanced features
-- [Use Case Library(opens in new tab)](https://academy.claude.com/all?kind=use-case) — Curated examples of Claude applications across different business functions
+- [Use Case Library(opens in new tab)](https://academy.claude.com/all) — Curated examples of Claude applications across different business functions
 - [Help Center(opens in new tab)](https://support.claude.com/) — Comprehensive documentation and FAQs on Claude Enterprise
 - [Docs Site(opens in new tab)](https://platform.claude.com/docs/en/home) — Comprehensive support for Claude Code and API use
 

@@ -23,3 +23,5 @@ Command
 `/plugin marketplace add anthropics/life-sciences`
 
 `/plugin install nextflow-development@life-sciences`
+
+Was this helpful?

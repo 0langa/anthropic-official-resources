@@ -88,31 +88,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 4 of 13 · AI Capabilities and LimitationsNext Token Prediction
-
-# Next Token Prediction
-
-Lesson 420 min
-
-In this lessonBy the end, you’ll be able to
-
-- Explain Next Token Prediction as the core mechanism of generative AI and why it produces both fluency and hallucination
-- Locate tasks on the Next Token Prediction continuum (well-worn path vs. novel territory)
-- Identify specificity (names, dates, citations, statistics) as the zone where fabrication concentrates
-- Recognize product features (citations, uncertainty signaling, constrained generation, generator-verifier pattern) that are mitigations for this limitation
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-capabilities-and-limitations%2Fnext-token-prediction)
-
-## How AI models use next token prediction[](https://academy.claude.com/courses/ai-capabilities-and-limitations/next-token-prediction)
-
-Embedded media: https://www.youtube-nocookie.com/embed/kl0gunXTvyk?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-Next Token Prediction · 4 min
-
-SummaryTranscript
-
 Hi, my name is David and I'm on the safety team here at Anthropic. Today I'm here to talk to you about next token prediction, which is a core property that determines where AI answers actually come from. We'll look at what's really happening when AI responds to you and why the same mechanism that produces fluent writing can also produce fabricated facts, and how to tell which zone your task lands in.
 
 If you understand one thing about how generative AI works, let it be this: The operation at the heart of these systems is prediction. Given everything that's been written so far, predict what comes next, one fragment at a time. Generative AI is generating an answer, composing it word by word based on what tends to follow what. It's closer to an extraordinarily sophisticated autocomplete than to a search engine. And that distinction matters, because a citation that looks like a real citation can satisfy a pattern just as well as one pointing to a paper that actually exists.
@@ -132,61 +107,3 @@ When working with AI outputs, keep these in mind. A confident tone does not sign
 Ask where on the continuum your task sits. Well-worn paths are safer handoffs. Thin paths need more scrutiny. Lean on product surfaces. If your tool offers citations or source grounding, use them. The model can't reliably tell grounded from invented. You have to do that part.
 
 Understanding next token prediction sits at the heart of Discernment in the 4D Framework. You can't evaluate an output well without understanding that it was generated or composed to fit a shape. It also informs Delegation. Tasks deep in the capability zone are safer handoffs. Tasks near the edge deserve more of your attention on the back end. With this knowledge at hand, AI becomes predictable rather than surprising.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=kl0gunXTvyk)
-
-## Autocomplete at scale[](https://academy.claude.com/courses/ai-capabilities-and-limitations/next-token-prediction)
-
-Before you read
-
-You ask AI to **summarize a long report**. How closely do you need to check the result? Pick a spot on the continuum, then lock in your guess.
-
-![](https://academy.claude.com/assets/v1/pictoInference-erlax6xg.png)
-
-### Next Token Prediction
-
-Where do AI answers come from?
-
-CapabilityLimitation
-
-Trust itSpot-checkCheck detailsVerify carefullyHigh risk
-
-Pick a stop, then lock in your guess. The lesson opens up once you do.
-
-Lock in my guess
-
-## Key takeaways[](https://academy.claude.com/courses/ai-capabilities-and-limitations/next-token-prediction)
-
-- **Next Token Prediction** refers to the fact that generative AI writes answers word by word based on what tends to follow what.
-  - **Capability zone:** tasks that resemble patterns the model has seen many times (summarizing, reformatting, explaining common concepts).
-  - **Limitation zone:** novel or sparse territory, and anywhere the task requires distinguishing "true" from "sounds true."
-  - **Fabrication concentrates in specificity:** names, dates, statistics, citations, URLs, quotes. The more precise a claim, the more it warrants verification.
-  - **Product features** like citations, uncertainty signaling, constrained generation, and generator-verifier loops exist specifically to push this limitation further out.
-- **4D connection:** Next Token Prediction is the foundation of Discernment. Knowing the output was generated tells you exactly what kind of scrutiny to apply.
-
-## Exercises[](https://academy.claude.com/courses/ai-capabilities-and-limitations/next-token-prediction)
-
-### The Verification Test
-
-Why? You now know that the same generative process that makes AI fluent is the one that makes it fabricate. Time to see that on your own turf, in a domain where you'll catch it.
-
-Go back to your task list and pick the task where you're most confident in your domain expertise. You need a topic where you're the expert, because you need to be able to verify what comes back. Write down five specific, checkable facts from that domain: a person's job title, a publication date, a statistic, a product specification, a direct quote, a URL. Things you know to be accurate and can confirm independently.
-
-Now run three probes:
-
-1. **Probe 1: The capability zone.** Ask the AI to explain or summarize a well-known concept in your domain. Something popular and well-documented. Note the fluency. Spot-check the content. This is what the capability zone feels like: smooth, confident, and largely accurate.
-2. **Probe 2: Specificity under pressure.** Ask the AI to provide five checkable specifics in your domain: cite three sources, name an author, give exact figures, provide a URL. Verify every one. Score it out of five: how many were fully accurate? If it fabricates, note how confident it sounded doing it.
-3. **Probe 3: Sampling in action.** Run the exact same specific-facts request in a fresh conversation. Compare the two outputs. What stayed consistent? What changed? The variation you see is Next Token Prediction's sampling at work.
-
-**Stretch goal:** Re-run Probe 2 in a tool with citations enabled (like Research mode in Claude). Score it again. Does having sources to check change the score?
-
-## Lesson reflection[](https://academy.claude.com/courses/ai-capabilities-and-limitations/next-token-prediction)
-
-- Would you have caught fabrications in a domain you didn't know well?
-- Look at your task list: which tasks sit mostly in the capability zone, and which push into specificity that needs verification?
-
-## What's next[](https://academy.claude.com/courses/ai-capabilities-and-limitations/next-token-prediction)
-
-Next Token Prediction explains how the AI generates. Next we look at what it's generating *from*: the Knowledge property. What does the model actually know, where does that knowledge come from, and where are the gaps?
-
-Was this helpful?

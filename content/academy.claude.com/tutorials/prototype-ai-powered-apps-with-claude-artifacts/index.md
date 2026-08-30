@@ -111,3 +111,5 @@ In simplest terms, when someone uses your Claude-powered app:
 - Their API usage counts against *their* subscription, not yours
 - You pay nothing for their usage
 - No one needs to manage API keys
+
+Was this helpful?

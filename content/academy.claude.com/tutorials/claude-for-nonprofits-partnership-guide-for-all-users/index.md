@@ -36,7 +36,7 @@ Welcome to the Claude for nonprofits community. This guide is a pathway to help 
 
 ### Key resources[](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-guide-for-all-users)
 
-- [Use case library(opens in new tab)](https://academy.claude.com/all?kind=use-case)
+- [Use case library(opens in new tab)](https://academy.claude.com/all)
 - [Claude artifact inspiration gallery(opens in new tab)](https://claude.ai/artifacts?category=learn)
 - [MCP connector directory(opens in new tab)](https://claude.com/connectors)
 

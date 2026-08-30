@@ -109,3 +109,5 @@ Slides are exportable in the following ways:
 - Hand off to Claude Code
 
 **Have questions about Claude Design presentations?** Reach out to your Design Team or try building a deck yourself – most people find the workflow intuitive once they create their first one.
+
+Was this helpful?

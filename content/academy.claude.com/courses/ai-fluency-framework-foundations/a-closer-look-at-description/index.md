@@ -75,30 +75,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 8 of 14 · AI Fluency: Framework & FoundationsA closer look at Description
-
-# A closer look at Description
-
-Lesson 815 min
-
-In this lessonBy the end, you’ll be able to
-
-- Understand how to effectively communicate your intentions to AI systems
-- Recognize the importance of clear, purposeful communication
-- Develop skills in three types of Description: Product, Process, and Performance
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-framework-foundations%2Fa-closer-look-at-description)
-
-## A closer look at description[](https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-description)
-
-Embedded media: https://www.youtube-nocookie.com/embed/DmgujoZ1mmk?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-A closer look at Description · 4 min
-
-SummaryTranscript
-
 In this video, we'll dig deeper into the AI fluency competency of description. AI fluency means working with an AI effectively, efficiently, ethically, and safely. Description is about communicating with AI, which is the core of most human-AI interaction.
 
 Description goes far beyond just writing clever prompts. It's about communicating with the AI to explain tasks, ask questions, provide context, and otherwise guide the interaction. It's about being able to steer a conversation that is going wrong. It's about guiding an AI's thought process or logical reasoning. And it's about building a kind of thinking environment where both you and the AI can each do your best work. Think of it as building a bridge between your intentions and the AI's capabilities.
@@ -120,43 +96,3 @@ When you next sit down with AI, think first, what kind of thinking partner do yo
 We call this third concept performance description, the ability to define the behavioral aspects of an AI interaction.
 
 You should now have a better sense of how product description, process description, and performance description combine to form the description competency. When you develop your capacity for description, you transform AI from generic assistance into finely tuned thinking partners that can truly meet your needs.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=DmgujoZ1mmk)
-
-We also emphasize that AI can't read your mind, and how the quality of your results often comes down to how clearly you articulate your needs, preferred approach, and desired interaction style.
-
-## Key takeaways[](https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-description)
-
-- Description is about communicating with AI in ways that create a productive collaborative environment
-- Product Description involves clearly defining what you want in terms of outputs, format, audience, and style
-- Process Description guides how the AI approaches your request, which can be as important as specifying the end goal
-- Performance Description defines behavioral aspects like whether the AI should be concise or detailed, challenging or supportive
-- AI systems are interactive partners, not databases or vending machines
-- Clear communication up front saves time and leads to better results
-
-## Exercises[](https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-description)
-
-### Bad Prompt Makeover
-
-**Instructions:**
-
-1. Ask Claude to challenge you with some poorly written prompts for you to improve.
-2. Apply your Description thinking to improve each one, considering:
-   - Clear product description (what exactly you want)
-   - Process guidance (how you want Claude to approach it)
-   - Performance specifications (how you want Claude to behave during your collaboration)
-3. Have a chat about the before/after versions with Claude and ask for feedback on how your improved descriptions would help it provide better responses.
-4. After about 5 minutes, switch roles and provide bad prompts for Claude to fix. Notice what information Claude tends to add and how it organizes this information.
-
-### Reflection[](https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-description)
-
-Before moving on, take a moment to consider:
-
-- Which component of Description (product, process, or performance) do you think you might be overlooking in your current AI interactions?
-- Think about a recent AI interaction that didn't quite meet your expectations. How might better description skills have improved the outcome?
-
-## What’s next[](https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-description)
-
-In the next lesson, we'll take a deeper dive into effective prompting techniques. You'll learn what prompt engineering is and why it matters, apply six foundational techniques for getting better results from AI, and practice troubleshooting and refining prompts when responses don't meet your needs.
-
-Was this helpful?

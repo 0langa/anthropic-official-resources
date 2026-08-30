@@ -92,31 +92,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 8 of 13 · AI Capabilities and LimitationsWorking Memory
-
-# Working Memory
-
-Lesson 825 min
-
-In this lessonBy the end, you’ll be able to
-
-- Explain the context window as a fixed-size container and what that implies for long documents, long conversations, and cross-session memory
-- Recognize the "cliff" nature of this property compared to the gradual degradation of others
-- Apply context-as-leverage strategies: front-loading important material, chunking long work, re-supplying critical context
-- Recognize memory, compaction, projects/workspaces, and larger windows as product features addressing this limitation
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-capabilities-and-limitations%2Fworking-memory)
-
-## How the context window affects generative AI outputs[](https://academy.claude.com/courses/ai-capabilities-and-limitations/working-memory)
-
-Embedded media: https://www.youtube-nocookie.com/embed/QJjt4wF4iHM?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-Working Memory · 6 min
-
-SummaryTranscript
-
 Hi there, my name's Matt and I'm on the user research team at Anthropic. Today I'm here to talk to you about the context window, which is how AI models manage what they're paying attention to right now. We'll look at what actually fits inside that window, what happens when it fills up or empties out, and how to structure your work so you stay on the good side of those limits. It's a lot like how working memory functions in humans.
 
 When you're working with AI, everything sits inside one fixed-sized workspace called the context window. Your instructions, Claude's prior responses, the documents you uploaded, the back and forth conversation. All of it lives in one finite container, and the model can only attend to what's inside. Importantly, the context window has a hard size limit. Once a conversation or a set of documents exceeds what the window can hold, something falls off. Usually it's the oldest material, and usually it happens silently. The model doesn't stop and announce that it dropped your first three messages. It just keeps going with whatever's left.
@@ -140,64 +115,3 @@ Here are some signs you're approaching the edge of the context window. A very lo
 Here are some techniques to stay on the good side of the cliff. Lead with what matters. For long documents, put the most important material near the top, rather than burying it on page 12. Chunk long work into passes. Process a big document in sections, rather than one giant upload. Use product features that save your context. Use things like projects or skills that save your context for common areas you want to work in. If quality degrades over a long conversation, start fresh. That slippage is often a context limit rather than a capability limit. A new chat with a short summary of where you were can outperform pushing through.
 
 Working memory is the mechanism that makes description work. Everything you describe to an AI, your instructions, your constraints, your examples, has to live inside this window to have any effect. Understanding the window's size, its edges, and its reset behavior is what tells you how to structure a prompt, when to restate critical context, and what's actually worth uploading versus what you can leave out.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=QJjt4wF4iHM)
-
-## The context window: AI's working memory[](https://academy.claude.com/courses/ai-capabilities-and-limitations/working-memory)
-
-Before you read
-
-You ask AI to **review a 50-page contract**. How closely do you need to check the result? Pick a spot on the continuum, then lock in your guess.
-
-![](https://academy.claude.com/assets/v1/pictoChip-n1862015.png)
-
-### Working Memory
-
-What is the AI paying attention to right now?
-
-CapabilityLimitation
-
-Trust itSpot-checkCheck detailsVerify carefullyHigh risk
-
-Pick a stop, then lock in your guess. The lesson opens up once you do.
-
-Lock in my guess
-
-## Key takeaways[](https://academy.claude.com/courses/ai-capabilities-and-limitations/working-memory)
-
-- **Working Memory** is the fact that the AI model has a fixed context window that it can attend to.
-  - **Capability zone:** your material fits comfortably, the session is current, you're supplying relevant context.
-  - **Limitation zone:** very long documents or conversations, expecting continuity across sessions, burying critical info in the middle of long input.
-  - **This property has a cliff** rather than a gradient. Silent truncation is the failure mode, and you won't always be warned.
-  - **The model doesn't learn from your corrections.** It only responds to what's currently in context.
-  - **Memory features, compaction, projects, larger windows, and multi-agent workflows** all exist to push this cliff further out.
-- **4D connection:** Working Memory is what Description acts on. Knowing how the window works tells you how to structure context, when to front-load, and when to start fresh.
-
-## Exercises[](https://academy.claude.com/courses/ai-capabilities-and-limitations/working-memory)
-
-### The Before-and-After
-
-Why? Context is leverage. The same task, with the right context supplied, can go from a mediocre first draft to something genuinely useful. This exercise makes that concrete.
-
-Pick a task from your Lesson 1 list that benefits from context only you hold: a style guide, a past example of good work, a set of constraints specific to your role or audience. Write down in two or three lines what "good" looks like for this task's output, described clearly enough that a stranger could evaluate it.
-
-Now run three probes:
-
-1. **Probe 1: Cold start vs. context.** Ask for your task with zero context. Just the bare request. Save the output. Then start a fresh conversation and run the same task, this time supplying your style guide, past example, or constraints upfront. Compare both outputs against your "good" definition. Measure the gap.
-2. **Probe 2: Lost in the middle.** Take a longer document (or paste together a few paragraphs of reference material). Bury one specific, important instruction in the middle of it. Ask a question whose correct answer depends on that buried instruction. Did the AI catch it? Now move that instruction to the very top and ask again. Compare.
-3. **Probe 3: The blank slate.** Have a short exchange where you teach the AI something specific about your work context, or correct it on something it got wrong. Then open a brand-new conversation and ask a question that assumes it remembers what you taught it. Watch it start from zero.
-
-Go back to your task list and add a third annotation: which tasks need standing context set up (a project, saved instructions, uploaded reference docs) to be worth running, and which work fine cold?
-
-**Stretch goal:** If your tool has memory or project features, set one up with the context from Probe 1. Run the task again. Compare effort and quality against the cold-start version.
-
-## Lesson reflection[](https://academy.claude.com/courses/ai-capabilities-and-limitations/working-memory)
-
-- How much did front-loading context change output quality? Was the gap bigger than you expected?
-- What's one piece of standing context you'll set up this week to stop re-explaining yourself?
-
-## What's next[](https://academy.claude.com/courses/ai-capabilities-and-limitations/working-memory)
-
-The final property: Steerability. How much are you actually in control when you give instructions, and where does that control break down?
-
-Was this helpful?

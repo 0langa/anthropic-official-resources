@@ -1,4 +1,4 @@
-[Tools](https://platform.claude.com/cookbook/?category=Tools)
+[Tools](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/programmatic_tool_calling_ptc.ipynb)
 

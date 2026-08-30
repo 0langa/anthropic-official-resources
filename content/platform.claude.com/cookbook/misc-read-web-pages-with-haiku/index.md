@@ -1,4 +1,4 @@
-[RAG & Retrieval](https://platform.claude.com/cookbook/?category=RAG+%26+Retrieval)
+[RAG & Retrieval](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/read_web_pages_with_haiku.ipynb)
 

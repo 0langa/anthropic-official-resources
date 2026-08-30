@@ -1,4 +1,4 @@
-[Tools](https://platform.claude.com/cookbook/?category=Tools)[Agent Patterns](https://platform.claude.com/cookbook/?category=Agent+Patterns)
+[Tools](https://platform.claude.com/cookbook/)[Agent Patterns](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/context_engineering/context_engineering_tools.ipynb)
 

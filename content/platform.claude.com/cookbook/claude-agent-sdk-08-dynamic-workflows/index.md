@@ -1,4 +1,4 @@
-[Claude Agent SDK](https://platform.claude.com/cookbook/?category=Claude+Agent+SDK)[Agent Patterns](https://platform.claude.com/cookbook/?category=Agent+Patterns)
+[Claude Agent SDK](https://platform.claude.com/cookbook/)[Agent Patterns](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/claude_agent_sdk/08_Dynamic_workflows.ipynb)
 

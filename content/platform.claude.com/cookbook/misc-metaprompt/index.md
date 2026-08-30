@@ -1,4 +1,4 @@
-[Responses](https://platform.claude.com/cookbook/?category=Responses)
+[Responses](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/metaprompt.ipynb)
 

@@ -43,3 +43,5 @@ Command
 `/plugin marketplace add anthropics/life-sciences`
 
 `/plugin install scientific-problem-selection@life-sciences`
+
+Was this helpful?

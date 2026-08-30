@@ -63,22 +63,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 4 of 12 · Claude Code 101Your first prompt
-
-# Your first prompt
-
-Lesson 46 min
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-code-101%2Fyour-first-prompt)
-
-Embedded media: https://www.youtube-nocookie.com/embed/gbetp6D7J\_Q?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-Your first prompt
-
-SummaryTranscript
-
 You talk to Claude Code like you would talk to any AI assistant. When entering your prompt, here are some things that you can consider that can both protect and make things easier for you.
 
 You can choose whether Claude auto accepts every file change it suggests or require it to ask you for explicit permission each time. With Shift plus Tab, you can cycle between both modes. In Auto Accept mode, it will automatically approve an edit or creation of a file, but still ask your permission to run commands. There isn't a right or wrong way. It's just whatever you feel the most comfortable with.
@@ -90,48 +74,6 @@ So, why don't we give it a try? I have an application here that desperately need
 And, let's let Claude plan this out. And after reviewing, I think it looks pretty good. At the end of all this, we can see explicitly what Claude did and how it came to its conclusion. And, the dark mode is looking pretty good. Awesome.
 
 When using Claude Code, try to be as descriptive as possible with your prompt. If you want to stay in the loop at every step, you can do that. Use plan mode to let Claude get a little bit more in the nitty gritty with what you want to achieve before executing on that plan.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=gbetp6D7J_Q)
-
-## Choosing a Permission Mode[](https://academy.claude.com/courses/claude-code-101/your-first-prompt)
-
-You can choose how much oversight to keep while Claude works. Press `Shift + Tab` to cycle between modes.
-
-- **Manual mode:** Claude asks permission each time it wants to edit a file or run a command.
-- **Auto-accept mode:** File edits are automatically approved, but commands still require your permission.
-- **Auto mode:** Claude works without permission prompts while a background safety check screens each action; when something is blocked, Claude usually finds a safer approach or asks you for the go-ahead.
-
-There's no right or wrong answer — it's whatever you're comfortable with.
-
-![Claude Code in auto-accept mode, reading files and working through a task](https://academy.claude.com/assets/media/03c5a203be29e0bc03bd7b3fd14794232c15a9a6e1ecf583dcf6372ead0afab5.jpg)
-
-## Plan Mode[](https://academy.claude.com/courses/claude-code-101/your-first-prompt)
-
-Within the `Shift + Tab` menu is **Plan Mode**. Plan mode takes your prompt and uses read-only tools to analyze your codebase and research your suggested implementation. It will ask clarifying questions along the way, then return a detailed plan it can execute.
-
-Plan mode is great for planning complex changes or doing a safe code review. Many times you'll be asking Claude to handle multi-step implementations toward a feature, and this is exactly where Plan Mode excels.
-
-![Claude Code with plan mode on, showing the status bar indicator](https://academy.claude.com/assets/media/fb00d337c540c5c34581d96aeef29834c7ceb70bed2bec918a77d1043b310899.jpg)
-
-## Example: Add a Dark Mode Toggle[](https://academy.claude.com/courses/claude-code-101/your-first-prompt)
-
-Let's walk through an example. Say you have an application that needs a dark mode toggle. Open the root directory of your project and run `claude`. Press `Shift + Tab` a couple of times to enter Plan Mode, then write a prompt like:
-
-My app needs a dark mode implemented across the entire app. Can you create a toggle switch on the header that allows a user to toggle between light mode and dark mode? I need you to find a good contrast color that works based on my existing light theme.
-
-
-
-Open in Claude Code
-
-![Entering the dark mode prompt in Claude Code with plan mode enabled](https://academy.claude.com/assets/media/39b0125f002f95b0b05695f9426a1596afca1f307fa8458efb2d92e46661dac3.jpg)
-
-Let Claude plan it out. After reviewing the plan, if it looks good, accept it and let Claude work through it — depending on your permission mode, it may check in with you along the way. At the end, you can see exactly what Claude did and how it reached its conclusions.
-
-## Recap[](https://academy.claude.com/courses/claude-code-101/your-first-prompt)
-
-When using Claude Code, try to be as descriptive as possible with your prompt. If you want to stay in the loop at every step, you can. Use Plan Mode to let Claude dig into the details of what you want to achieve before executing on any code.
-
-Was this helpful?
 
 
 ## Video transcript

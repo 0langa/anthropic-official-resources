@@ -88,30 +88,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 6 of 8 · AI Fluency for Creative WorkDelegation and Diligence
-
-# Delegation and Diligence
-
-Lesson 645 min
-
-In this lessonBy the end, you’ll be able to
-
-- Apply Delegation — Problem Awareness, Platform Awareness, and Task Delegation — to a real project
-- Work through the Diligence checks: Creation, Transparency, and Deployment
-- Recognize the common pitfalls related to AI use, and know when to delegate and when not to
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-creative-work%2Fdelegation-and-diligence)
-
-## Delegation and Diligence[](https://academy.claude.com/courses/ai-fluency-for-creative-work/delegation-and-diligence)
-
-Embedded media: https://www.youtube-nocookie.com/embed/X2P5Vp\_veSk?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-Delegation and Diligence · 10 min
-
-SummaryTranscript
-
 Up to this point, the course has been building your analytical toolkit. The creative value lens, the production lens, and an articulated picture of your own practice with standards attached. This module is where that toolkit gets pointed at an actual decision. We will break Delegation and Diligence into their working parts, walk one designer's decision end-to-end, and explore common pitfalls so you can see the entire process before applying it to your own work.
 
 The 4D Framework breaks Delegation into three subcomponents. Problem awareness is derived from the articulation work you just completed. You already know what your practice is, what your standards are, and what a given piece of work is for. Platform awareness is understanding the AI tools you're considering, what the tools actually do, what their outputs look like, what tendencies they have, what they're good at, and where their limits show up. Platform awareness comes before task delegation, because you cannot decide what to delegate to a tool until you understand the tool. A tool's tendencies and limits are part of its platform, and the analysis of those tendencies is part of Delegation.
@@ -137,64 +113,3 @@ The second is skill atrophy and dependence. You direct, AI executes, and executi
 If you're reaching for AI because you're unsure what you want to make, that's a signal to step back, not delegate. Choosing no AI for parts of your practice is a completely valid outcome of this thinking. So is heavy AI involvement. What matters is that you decided on purpose.
 
 You now have all the tools you need to make intentional, ethical, and safe decisions about when and how to use AI in your work. Remember, you are in the driver's seat, and your every decision about when and where to use AI is yours to make.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=X2P5Vp_veSk)
-
-## Key takeaways[](https://academy.claude.com/courses/ai-fluency-for-creative-work/delegation-and-diligence)
-
-- Problem Awareness comes first: be clear on the problem you are actually solving before reaching for a tool. Platform Awareness comes next: you cannot decide what to hand to a tool you do not understand. Then Task Delegation assigns the work, and Creation, Transparency, and Deployment Diligence help you delegate responsibly.
-- Check finished work against your standards.
-- Convergence and skill atrophy are the long-term pitfalls; reaching for AI when you do not know what you want is the immediate one.
-
-## Exercises[](https://academy.claude.com/courses/ai-fluency-for-creative-work/delegation-and-diligence)
-
-### The Decision Memo[](https://academy.claude.com/courses/ai-fluency-for-creative-work/delegation-and-diligence)
-
-Run one real project through the full outer loop and produce a one-page decision you can stand behind. The starting position is no AI; the analysis determines whether and how you opt in.
-
-#### Part I: Name the project
-
-In one paragraph: what the work is for, your standards for it, and which Value Lens dimensions carry the most weight.
-
-#### Part II: Problem Awareness
-
-Before choosing a tool, get clear on the problem itself. What are you actually trying to solve at this stage? What would a good outcome look like — and is this a problem where AI genuinely helps, or one better handled another way? Misreading the problem is the most common reason a Delegation goes wrong.
-
-#### Part III: Platform Awareness
-
-Reconsider the tool from your Production Lens audit: what can it do, and where could it help here? If you do not know it well enough to say, that is your answer: you are not ready to delegate to it yet.
-
-#### Part IV: Task Delegation
-
-Stage by stage, decide where AI fits and where it does not, then run each through the three Diligence checks (Creation, Transparency, Deployment).
-
-Stage of the project
-
-AI involvement (what, exactly?)
-
-Rationale (which lens, which standard?)
-
-×
-
-×
-
-+ Add a stage
-
-#### Part V (reach goal)
-
-Test your plan on a finished project whose standards you already know. Were your instincts right? What surprised you?
-
-Copy my answersDownload as HTML
-
-Your answers save in this browser only. They are not saved to your Academy account and do not move to another device. Use Copy my answers, or Download as HTML to save a styled copy, to keep them in your own files.
-
-## Lesson reflection[](https://academy.claude.com/courses/ai-fluency-for-creative-work/delegation-and-diligence)
-
-- If a peer challenged a Delegation call, could you defend it?
-- Which Diligence check did you find yourself wanting to skip, and what does that tell you?
-
-## What's next[](https://academy.claude.com/courses/ai-fluency-for-creative-work/delegation-and-diligence)
-
-Delegation decisions tend to collect around five recognizable roles. The next lesson gives you the vocabulary and asks where your own practice already sits.
-
-Was this helpful?

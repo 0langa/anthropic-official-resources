@@ -65,30 +65,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 1 of 8 · AI Fluency for Creative WorkWelcome to AI Fluency for creative work
-
-# Welcome to AI Fluency for creative work
-
-Lesson 115 min
-
-In this lessonBy the end, you’ll be able to
-
-- Understand who this course is for and what it will and won't do
-- Recognize the course's central stance: begin without AI, and let analysis determine whether and how to opt in
-- Name the concerns this course is designed to help you navigate
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-creative-work%2Fwelcome-to-ai-fluency-for-creative-work)
-
-## Welcome to AI Fluency for Creative Work[](https://academy.claude.com/courses/ai-fluency-for-creative-work/welcome-to-ai-fluency-for-creative-work)
-
-Embedded media: https://www.youtube-nocookie.com/embed/9kIBuFtX5Vs?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-Welcome to AI Fluency for Creative Work · 5 min
-
-SummaryTranscript
-
 Hi, I'm Rick Dakan. I teach creative technology at Ringling College of Art and Design. And I'm one of the authors of this course, AI Fluency for creative work.
 
 This course is for people who create things. Illustrators, writers, designers, filmmakers, game developers, musicians, performers. If your work involves a creative practice, and you are trying to figure out what generative AI means for your craft, your livelihood, and your sense of self as a creator, this course is for you.
@@ -120,41 +96,3 @@ The course also does not promise that the answers are simple. They are not. Diff
 The work of being a creator in the age of AI is real work. The framework does not eliminate that work. It helps you do a deep analysis of your values and practice. Where the analysis takes you can offer a thoughtful, strong path to follow. And as new technologies emerge and the chaotic creative world changes over and over, it gives you tools to rely on as your practice changes to meet the new reality.
 
 Thank you for joining us, and now let's begin.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=9kIBuFtX5Vs)
-
-## Key takeaways[](https://academy.claude.com/courses/ai-fluency-for-creative-work/welcome-to-ai-fluency-for-creative-work)
-
-- The starting place is no AI; using the tools in this course, you determine whether and how to use AI in your practice.
-- "No AI" and "AI integration" are both legitimate outcomes. What matters is that the outcome is the result of analysis, not a default.
-- The work of the course is upstream of prompting: by the time you write a prompt, the important decisions have already been made.
-
-The course builds in stages, each adding a tool you will use on your own work.
-
-## Exercises[](https://academy.claude.com/courses/ai-fluency-for-creative-work/welcome-to-ai-fluency-for-creative-work)
-
-### Starting Position Snapshot
-
-Before you work through the course, capture where you stand today. In a few honest notes, describe your current relationship to AI in your creative work, name which of the five concerns resonates most and the experience or fear behind it, and write one sentence on what you want to be able to do by the end. You will return to this snapshot in the final lesson to see what changed.
-
-**Your gut stance.** In one paragraph, describe your current relationship to AI in your creative work: curious, hostile, already using it, avoiding it, conflicted, whatever is true. Don't polish it.
-
-**Part I: Which concern is yours?** The video named five patterns. Which resonates most, and what specific experience or fear sits behind it?
-
-- Authenticity anxiety
-- Dependence
-- Settling for good enough
-- Slop fatigue and guilt by association
-- "What I do is worthless"
-
-**Part II: What you want.** Write one sentence: "By the end of this course, I want to be able to..."
-
-## Lesson reflection[](https://academy.claude.com/courses/ai-fluency-for-creative-work/welcome-to-ai-fluency-for-creative-work)
-
-- Where did your current stance on AI come from: analysis, experience, or the surrounding discourse?
-
-## What's next[](https://academy.claude.com/courses/ai-fluency-for-creative-work/welcome-to-ai-fluency-for-creative-work)
-
-In the next lesson, we pick up the first analytical tool: the Creative Value Lens, which gives you vocabulary for what your work is for.
-
-Was this helpful?

@@ -206,3 +206,5 @@ The specific criteria ensure Claude identifies companies that match your investm
 - For recurring analyses, establish a consistent prompt structure you can reuse.
 
 These strategies help you get the most value from Claude's financial analysis capabilities while avoiding common pitfalls. As you develop experience with the system, you'll identify prompt patterns that work well for your specific analytical needs.
+
+Was this helpful?

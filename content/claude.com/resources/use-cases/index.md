@@ -6,7 +6,7 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 ## Claude.ai
 
-[View all](https://academy.claude.com/all?kind=use-case&product=chat)
+[View all](https://academy.claude.com/all)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-d2q52a81.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-oqcjuafg.png)
 
@@ -36,7 +36,7 @@ Product·15 min](https://academy.claude.com/use-cases/analyze-patterns-in-user-f
 
 ## Claude Cowork
 
-[View all](https://academy.claude.com/all?kind=use-case&product=cowork)
+[View all](https://academy.claude.com/all)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-mtc5a1pi.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ha2dvss7.png)
 
@@ -66,7 +66,7 @@ Engineering·10 min](https://academy.claude.com/use-cases/incident-postmortem)
 
 ## More ways to use Claude
 
-[View all](https://academy.claude.com/all?kind=use-case)
+[View all](https://academy.claude.com/all)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-kwid434h.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-oxk6j3m6.png)
 
@@ -206,7 +206,7 @@ Research·15 min](https://academy.claude.com/use-cases/surface-themes-from-all-y
 
 ## More ways to use Claude
 
-[View all](https://academy.claude.com/all?kind=use-case&department=product)
+[View all](https://academy.claude.com/all)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-ng2ge73r.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-d3fzwdg7.png)
 
@@ -225,7 +225,7 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 ## Claude Cowork
 
-[View all](https://academy.claude.com/all?kind=use-case&product=cowork&department=engineering)
+[View all](https://academy.claude.com/all)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-fnbe9wym.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nsjpa7is.png)
 
@@ -333,7 +333,7 @@ Finance·15 min](https://academy.claude.com/use-cases/understand-and-extend-an-i
 
 ## Claude Cowork
 
-[View all](https://academy.claude.com/all?kind=use-case&product=cowork&department=finance)
+[View all](https://academy.claude.com/all)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-d27lxpfj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ia2n89lp.png)
 
@@ -425,7 +425,7 @@ Data·10 min](https://academy.claude.com/use-cases/answer-the-adhoc)
 
 ## More ways to use Claude
 
-[View all](https://academy.claude.com/all?kind=use-case&department=data)
+[View all](https://academy.claude.com/all)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-ng2ge73r.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-d3fzwdg7.png)
 
@@ -456,7 +456,7 @@ Marketing·20 min](https://academy.claude.com/use-cases/package-your-brand-guide
 
 ## Claude Cowork
 
-[View all](https://academy.claude.com/all?kind=use-case&product=cowork&department=design)
+[View all](https://academy.claude.com/all)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-dk9zo6ae.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-e548vu0j.png)
 
@@ -511,7 +511,7 @@ Legal·15 min](https://academy.claude.com/use-cases/track-discovery-timelines-an
 
 ## Claude Cowork
 
-[View all](https://academy.claude.com/all?kind=use-case&product=cowork&department=legal)
+[View all](https://academy.claude.com/all)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-hd3p5r1z.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ci2tqnmp.png)
 
@@ -598,7 +598,7 @@ Sales·10 min](https://academy.claude.com/use-cases/transcript-themes)
 
 ## More ways to use Claude
 
-[View all](https://academy.claude.com/all?kind=use-case&department=sales)
+[View all](https://academy.claude.com/all)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-en74js1a.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ora2nm1q.png)
 
@@ -658,7 +658,7 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 ## Claude.ai
 
-[View all](https://academy.claude.com/all?kind=use-case&product=chat&department=education)
+[View all](https://academy.claude.com/all)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-o7v3ovgz.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dqa49rlu.png)
 
@@ -705,7 +705,7 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 ## Claude.ai
 
-[View all](https://academy.claude.com/all?kind=use-case&product=chat&department=personal)
+[View all](https://academy.claude.com/all)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-ktp24exx.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gapzxql3.png)
 
@@ -743,7 +743,7 @@ Personal·15 min](https://academy.claude.com/use-cases/organize-files-by-whats-i
 
 ## More ways to use Claude
 
-[View all](https://academy.claude.com/all?kind=use-case&department=personal)
+[View all](https://academy.claude.com/all)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-lufo6zn0.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cuim3wx2.png)
 

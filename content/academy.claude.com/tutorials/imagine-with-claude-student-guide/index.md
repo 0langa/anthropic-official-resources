@@ -86,7 +86,7 @@ I keep getting distance-vs-speed graph questions wrong on tests. Give me one pra
 
 One minute on the clock — answer the way you would on a test, then we'll unpack what it was doing.
 
-Practice · Q10:59
+Practice · Q10:60
 
 010203040500481216time (min)km
 
@@ -205,3 +205,5 @@ Each of these is a complete use case with a tested prompt, a chat-window view of
 - [Plan your syllabus in chat with Claude — see which weeks are locked(opens in new tab)](https://academy.claude.com/use-cases/plan-your-syllabus-see-which-weeks-are-locked)
 
 Next time something isn't clicking, ask Claude to imagine it with you. Claude draws it, and the conversation continues from there.
+
+Was this helpful?

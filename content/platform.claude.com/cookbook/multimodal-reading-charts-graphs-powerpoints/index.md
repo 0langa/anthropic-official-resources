@@ -1,4 +1,4 @@
-[Multimodal](https://platform.claude.com/cookbook/?category=Multimodal)
+[Multimodal](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/multimodal/reading_charts_graphs_powerpoints.ipynb)
 

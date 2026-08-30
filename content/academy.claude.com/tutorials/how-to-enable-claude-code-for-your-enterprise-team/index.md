@@ -68,3 +68,5 @@ Claude Code transforms how your development teams work by combining the conversa
 This integrated approach means faster prototyping, more efficient debugging, and better code quality across your organization.
 
 Plus, by managing seats centrally, you maintain control over access and costs while giving your teams the AI assistance they need to excel. As your needs evolve, you can instantly adjust seat assignments to match project demands, ensuring the right people have the right tools at the right time.
+
+Was this helpful?

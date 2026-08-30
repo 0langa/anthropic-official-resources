@@ -63,30 +63,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 5 of 10 · AI Fluency for pK–12 EducatorsAI capabilities and limitations
-
-# AI capabilities and limitations
-
-Lesson 525 min
-
-In this lessonBy the end, you’ll be able to
-
-- Define generative AI and how it differs from other AI types
-- Recognize the key characteristics and technological foundations of generative AI
-- Identify major capabilities and limitations of current generative AI
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-k-12-educators%2Fai-capabilities-and-limitations)
-
-## What is generative AI?[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/ai-capabilities-and-limitations)
-
-Embedded media: https://www.youtube-nocookie.com/embed/BbcjcnQwseo?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-AI capabilities and limitations · 12 min
-
-SummaryTranscript
-
 Hi, my name is Kyra, and I'm on the education team at Anthropic. Welcome to our exploration of generative AI. In this video, we'll dive into what generative AI actually is and the technological breakthroughs that made these systems possible. Then we'll look at what generative AI does well and how it falls short. You might interact with generative AI daily without fully understanding what's happening behind the scenes. Let's change that.
 
 Generative AI refers to artificial intelligence systems that can create new content rather than just analyzing existing data. For example, while traditional AI might classify emails as spam or not spam based on patterns, generative AI can write a completely new email for you. The first approach analyzes and categorizes. The second creates something new that didn't exist before. This represents a fundamental shift in AI capabilities.
@@ -134,35 +110,3 @@ The field of generative AI is rapidly evolving. Researchers are working to addre
 Understanding what AI can and cannot do is essential for AI fluency and helps you determine when and how to best incorporate these systems into your work and daily life. The most effective applications will leverage the complementary strengths of humans and AI. We bring critical thinking, judgment, creativity, and ethical oversight that AI may struggle to replicate. AI offers speed, scale, pattern recognition, and the ability to process vast amounts of information. These complementary strengths will evolve as the technology evolves. That's why continued learning and experimentation are so valuable. They help you stay abreast of these changes and discover new possibilities.
 
 In the exercises across this course, you'll have a chance to explore these concepts firsthand through conversations with AI. This direct experience will help you develop an intuitive feel for what generative AI can do, can't do, and how to best work with it.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=BbcjcnQwseo)
-
-## Key takeaways[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/ai-capabilities-and-limitations)
-
-- **Generative AI creates new content** (text, images, code) rather than just retrieving or analyzing existing data.
-- **AI is trained on massive amounts of text and refined to follow instructions,** which is why it can discuss almost any topic but can also sound confident when it's wrong.
-- **Current capabilities** include versatility across tasks, conversational awareness, and the ability to connect with external tools.
-- **Current limitations** include knowledge cutoff dates, potential for hallucinations, context window constraints, and challenges with complex reasoning.
-- **The most effective applications combine human and AI strengths.** Humans provide the critical thinking, judgment, creativity, and ethical oversight that AI can't.
-
-## Exercises[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/ai-capabilities-and-limitations)
-
-### Testing the edges
-
-Build a firsthand gut check of what AI does well and where it falls down, on a topic you can actually verify.
-
-Pick a topic you know cold—one where you'd spot an error instantly—and open a chat with Claude. Run these three quick tests, jotting a few notes as you go:
-
-1. **Versatility.** Ask AI to explain your topic three ways in one response: for a 2nd grader, a 7th grader, and a new teacher. Did the audience shifts land? Push it on the part of your topic that's trickiest to explain.
-2. **Hallucination.** Ask for 2–3 specific resources (a book, a video, a curriculum) for teaching your topic. Spot-check at least one—does it exist?
-3. **Knowledge cutoff + reasoning.** Ask something time-sensitive or local (this year's testing window, a recently revised standard). Does it caveat, or present stale info as current? Then ask it to clear up a common misconception about your topic—does it tackle the real confusion, or just restate the fact?
-
-## Lesson reflection[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/ai-capabilities-and-limitations)
-
-- Now that you understand how AI works—from training data to its tendency to sound confident when wrong—name one task you'll hand off and one you'll verify.
-
-## What's next[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/ai-capabilities-and-limitations)
-
-In the next lesson, we'll start to explore the Description-Discernment loop.
-
-Was this helpful?

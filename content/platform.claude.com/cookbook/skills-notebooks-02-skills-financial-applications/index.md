@@ -1,4 +1,4 @@
-[Skills](https://platform.claude.com/cookbook/?category=Skills)
+[Skills](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/skills/notebooks/02_skills_financial_applications.ipynb)
 

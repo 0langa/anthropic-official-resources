@@ -152,3 +152,5 @@ Claude would provide a comprehensive summary of all project deliverables with ke
 - Remember that all access respects your Egnyte permissions. Claude can only access files and folders you have permission to view, ensuring security and proper access control.
 - For complex analyses involving multiple documents, consider providing folder paths or specific file IDs to help Claude locate the right content efficiently.
 - When working with large document sets, use filters and metadata to narrow results before asking Claude to analyze or summarize content.
+
+Was this helpful?

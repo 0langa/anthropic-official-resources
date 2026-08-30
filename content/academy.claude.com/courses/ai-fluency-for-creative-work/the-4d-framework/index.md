@@ -70,32 +70,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 4 of 8 · AI Fluency for Creative WorkThe 4D Framework
-
-# The 4D Framework
-
-Lesson 425 min
-
-In this lessonBy the end, you’ll be able to
-
-- Describe the four AI Fluency competencies
-- Recognize the Two Nested Loops and how both loops work in action
-- Understand how this course uses the loops differently: the inner loop to articulate your own practice, the outer loop to make decisions about AI's role in it
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-creative-work%2Fthe-4d-framework)
-
-*Already taken AI Fluency: Framework and Foundations? The video will be familiar and you are welcome to skim it. The exercise is new and specific to creative practice, and we recommend doing it even if you skip the video, as the next lessons build directly on it.*
-
-## The 4D Framework[](https://academy.claude.com/courses/ai-fluency-for-creative-work/the-4d-framework)
-
-Embedded media: https://www.youtube-nocookie.com/embed/eNNSZhk\_W74?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-The 4D Framework · 12 min
-
-SummaryTranscript
-
 We want you to build lasting AI Fluency. That means giving you the tools to use AI efficiently, ethically, and safely, no matter what challenges you might face. In this video, we'll walk through the 4D Framework. Four interconnected competencies that, when combined, transform how you work with AI.
 
 To help you apply this framework, we'll look at two modes of interaction with AI. The first mode is likely the one you're familiar with. How to engage with AI effectively on a day-to-day basis. This is the inner loop of Description and Discernment. You describe what you want AI to help you with, and then you discern if it meets your expectations. This is a critically important skill set when learning AI, but it's not sufficient on its own.
@@ -127,44 +101,3 @@ The 4Ds come alive when you use them together. Writing a strategic plan? Use Del
 This framework is about making you more effective at the work that matters. Work that requires human judgment, creativity, and deep understanding of your context. Throughout this course, you'll apply these competencies to real challenges. Drafting communications, analyzing complex information, automating routine tasks, and building sustainable AI workflows. The skills you take away will serve you as AI continues to evolve.
 
 You can learn more about AI Fluency in Anthropic Academy, and we'll continue to share our research on this topic on Anthropic's blog.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=eNNSZhk_W74)
-
-## Key takeaways[](https://academy.claude.com/courses/ai-fluency-for-creative-work/the-4d-framework)
-
-- AI Fluency is interacting with AI systems in ways that are effective, efficient, ethical, and safe.
-- The 4D Framework is four interlocking competencies: Delegation, Description, Discernment, and Diligence.
-- The competencies form Two Nested Loops: Description and Discernment run inside the work; Delegation and Diligence run around it.
-
-## Exercises[](https://academy.claude.com/courses/ai-fluency-for-creative-work/the-4d-framework)
-
-### Part I: The Loops in Motion[](https://academy.claude.com/courses/ai-fluency-for-creative-work/the-4d-framework)
-
-Watch the Two Nested Loops play out in a real creative project. Step through six moments with Maya as she develops a mini-comic, name the competency each one shows and then see how the inner and outer loops nest. Finish by finding the same loops in a collaboration of your own.
-
-Your map: 0 of 6 placed
-
-Before you start
-
-Quick reminders. The **inner loop** is *Description ↔ Discernment*: describing the behaviors and outputs you want and evaluating what comes back. The **outer loop** is *Delegation ↔ Diligence*: defining goals, deciding how work should be distributed and owning the result. Fluent AI use involves constant engagements at both levels of decision making.
-
-Start →
-
-### Part II: Now find your own loops[](https://academy.claude.com/courses/ai-fluency-for-creative-work/the-4d-framework)
-
-This is the part you do. Think of a collaboration of your own: with an AI system, with a human (an editor, printer, contractor, co-writer), or one of each.
-
-1. Where do you run the inner loop: describing what you want, evaluating what comes back, refining? Where does that loop break down?
-2. Where does the outer loop operate: the decisions about what gets handed over and what stays yours, and the responsibilities you carry when the work goes into the world?
-3. How do the two loops interact in your practice?
-4. If you compared a human collaboration with an AI one, what did the human collaborator do that you had to do yourself?
-
-## Lesson reflection[](https://academy.claude.com/courses/ai-fluency-for-creative-work/the-4d-framework)
-
-- In your own collaboration, which loop runs more deliberately, and which mostly runs on instinct?
-
-## What's next[](https://academy.claude.com/courses/ai-fluency-for-creative-work/the-4d-framework)
-
-In the next lesson, we put the inner loop to work on your own practice. You will describe what you make, how you make it, and how you work, then convert those descriptions into standards you can evaluate against.
-
-Was this helpful?

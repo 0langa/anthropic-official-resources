@@ -75,3 +75,5 @@ To make ongoing use easier, you can:
 
 
 For more information and FAQ, please visit our [support center.(opens in new tab)](https://support.claude.com/en/articles/14661296-use-claude-security)
+
+Was this helpful?

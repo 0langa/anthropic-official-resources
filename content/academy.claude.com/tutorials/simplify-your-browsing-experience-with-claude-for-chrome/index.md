@@ -131,3 +131,5 @@ For safety, Claude cannot access financial services, adult content, or pirated c
 ## Ready to practice?[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
 
 Claude in your browser represents an early step in our work on AI that can handle increasingly complex workflows and work seamlessly where you do. Try our [interactive demo(opens in new tab)](https://claude.ai/chrome/installed) to build confidence before working with real tasks.
+
+Was this helpful?

@@ -53,7 +53,7 @@ Here's a few things Claude excels at:
 - **Problem-solving and reasoning**: Claude handles complex cognitive tasks, mathematical problems, strategic thinking and analysis, and research. Claude can respond near-instantly or take time to reason first — a capability called Thinking. When a problem calls for careful analysis, Claude can work through it step by step before it answers.
 - **Learning new things**: Whether you're learning a new skill, exploring unfamiliar domains, or working through complex challenges, Claude can adapt to your learning style and pace. Learning mode is a new Claude experience that guides your reasoning process rather than providing answers, helping develop critical thinking skills.
 
-Get inspired on ways to use Claude in your specific function by exploring our [use-case gallery(opens in new tab)](https://academy.claude.com/all?kind=use-case). For a deeper dive into what AI can (and can't) do, see our [AI Capabilities(opens in new tab)](https://academy.claude.com/courses/ai-capabilities-and-limitations) course.
+Get inspired on ways to use Claude in your specific function by exploring our [use-case gallery(opens in new tab)](https://academy.claude.com/all). For a deeper dive into what AI can (and can't) do, see our [AI Capabilities(opens in new tab)](https://academy.claude.com/courses/ai-capabilities-and-limitations) course.
 
 ## Ways to access Claude[](https://academy.claude.com/courses/claude-101/what-is-claude)
 

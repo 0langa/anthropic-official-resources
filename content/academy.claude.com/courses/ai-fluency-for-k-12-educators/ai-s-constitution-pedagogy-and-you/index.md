@@ -73,30 +73,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 8 of 10 · AI Fluency for pK–12 EducatorsAI's constitution, pedagogy, and you
-
-# AI's constitution, pedagogy, and you
-
-Lesson 820 min
-
-In this lessonBy the end, you’ll be able to
-
-- Recognize the differences between model personalities
-- Communicate what the usage of LLMs means for you and your work as an educator
-- Revisit and refine the AI values you set earlier in this course
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-k-12-educators%2Fai-s-constitution-pedagogy-and-you)
-
-## AI's constitution, pedagogy, and you[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/ai-s-constitution-pedagogy-and-you)
-
-Embedded media: https://www.youtube-nocookie.com/embed/hez\_t50rEAY?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-AI's constitution, pedagogy, and you · 6 min
-
-SummaryTranscript
-
 You use at least one AI model by now, maybe a couple. One gave you a super structured, detailed breakdown, and another felt almost chatty. One hedged everything with disclaimers, and another seemed like it was just going for it. We'll look at why models behave differently, what that means for how you work, and then you'll revisit your exercise from lesson one to build something that you'll use going forward: a personal AI value document, a short, honest document that keeps you in the driver seat. Let's go.
 
 AI models aren't blank slates that just process your prompt and spin out an answer. They're trained on massive amounts of data, and they're also shaped by the teams that build them through a process called pre-training and fine-tuning. That shaping process encodes value. How cautious should the model be, how confident, how creative, how willing to push back if something feels off. Smart labs make different choices in how they conduct pre-training and fine-tuning, and those choices show up in the model's voice, its defaults, and how it handles ambiguity.
@@ -120,45 +96,3 @@ Three, your boundaries. Where won't you use AI even when it would be faster? Wha
 One more thing before you start. Your values and beliefs may shift. The tools are evolving. Your work is evolving. A boundary that felt firm six months ago might soften as you understand the tool better. Something that felt fine might start to feel uncomfortable once you see the downstream effects. That's okay. That's actually the point. Build it once, revisit it every few months. The act of revisiting is where the value lives.
 
 In a moment, you'll revisit your values using that three-part structure we described. Don't aim for perfect. A rough draft that actually reflects how you work beats a polished one you don't recognize. The fact that you're doing this at all—thinking critically, setting your own terms, building a framework—that's actually what we hope you bring back to your students. Not here is how to use AI, but here's how to think about using AI.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=hez_t50rEAY)
-
-## Key takeaways[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/ai-s-constitution-pedagogy-and-you)
-
-- **Be clear about what you will and won't do with AI.** Stated values help you hold your non-negotiables.
-- **Different models have different personalities** and suit different tasks.
-- **AI is not the pedagogy—you are.** Your values keep you in the driver's seat.
-
-## Exercises[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/ai-s-constitution-pedagogy-and-you)
-
-### Build your personal AI value document
-
-A personal set of AI values only works if it reflects how you actually work, not generic best practices. You'll build a real first draft, grounded in your own context.
-
-*Part I: Draft your value document*
-
-1. **Pull up your context document**—the one you started in *The 4D Framework* and added your ethical commitments to in *Ethics & responsible AI use*.
-2. **Ask AI to turn it into a short, clean AI value document** with three sections: Intentions, Principles, and Boundaries. Make sure it captures the 2–3 rules you want to hold yourself to and the one kind of work you'll always do yourself.
-3. **Make it yours.** Read it carefully, fix what doesn't sound like you, add what's missing, cut what's not true.
-
-*Part II: Commit to keeping it alive*
-
-AI ethics and practice aren't something you "finish." Add one concrete step you'll take this year to stay thoughtful as AI evolves—for example:
-
-- Following trusted researchers or educator voices
-- Revisiting district guidance each semester
-- Debriefing AI use with colleagues
-- Testing new tools only in low-risk contexts first
-
-*Stretch goal:* Share your AI values with a colleague—not for approval, but to compare. Where do your value sets differ, and what does that tell you about how context and role shape values?
-
-## Lesson reflection[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/ai-s-constitution-pedagogy-and-you)
-
-- AI is not the pedagogy—you are. Which principle or boundary in your value document will most keep you in the driver's seat?
-- If a new teacher asked how you think about using AI in your work, what's the one sentence from your document you'd share first?
-
-## What's next[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/ai-s-constitution-pedagogy-and-you)
-
-In the next lesson, you'll put everything together in a complete end-to-end 4D workflow on a real task from your own work.
-
-Was this helpful?

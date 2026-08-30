@@ -95,29 +95,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 6 of 10 · AI Fluency for pK–12 EducatorsCreating high quality AI outputs
-
-# Creating high quality AI outputs
-
-Lesson 625 min
-
-In this lessonBy the end, you’ll be able to
-
-- Use Description skills to guide AI in creating differentiated instructional materials
-- Use Discernment skills to evaluate AI-generated materials for accuracy, reading level, and alignment to your learning objectives
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-k-12-educators%2Fcreating-high-quality-ai-outputs-in-your-teaching-practice)
-
-## Creating high quality AI outputs in your teaching practice[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/creating-high-quality-ai-outputs-in-your-teaching-practice)
-
-Embedded media: https://www.youtube-nocookie.com/embed/p-j2xKehTK4?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-Creating high quality AI outputs · 10 min
-
-SummaryTranscript
-
 Teachers spend huge amounts of time gathering and creating instructional materials: leveled texts, practice sets, discussion questions, exemplars, scaffolds for students who need more support, extensions for students who need more challenge. AI can dramatically accelerate this process, but only if you know how to guide it effectively and evaluate what it gives you.
 
 In this video, we're going to walk through the description-discernment loop in practice and explore what it looks like to use AI for planning and materials creation in a K-12 classroom. Recall that the description-discernment loop guides the day-to-day interactions with AI. It's basically you ask AI something, check if what you got back is actually useful and accurate, and then use what you learned to ask better questions. You keep going back and forth like this until you're confident that what you've created accomplishes your goal. But let's not just talk about it. Let's see it in practice.
@@ -151,67 +128,3 @@ But here's what's important: she's not using AI to replace her pedagogical judgm
 So let's pull out the essential lessons from Ms. Okover's process. First, effective description provides context. She didn't just ask for a science reading. She explained her grade level, her standard, her students' reading range, and the summative task the passage needed to support. That context helped the AI produce something relevant. Second, discernment is not optional. You must evaluate AI outputs critically, especially when accuracy and developmental appropriateness matter. Flag specific claims, notice gaps, check the reading level, and ask whether this actually serves your learning objective. Third, the description-discernment loop is iterative. Your first prompt rarely gives you everything you need. Use what you learn from evaluating one response to craft better, more targeted follow-ups. Fourth, upload context whenever you can. Past materials, rubrics, and exemplars help AI understand your voice, your standards, and your students, which leads to stronger outputs from the start. And finally, AI accelerates your work, but it doesn't replace expertise. Ms. Okover still needs to apply her pedagogical judgment to every material she puts in front of her kids. AI got her a workable draft quickly, and that's valuable, but she's still the teacher.
 
 Thanks for learning with me today. In our next lesson, we'll bring our exploration to the outer loop: delegation-diligence.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=p-j2xKehTK4)
-
-
-### The Description ↔ Discernment loop
-
-Fluent AI use happens in a tight loop: you describe what you want, the model responds, you discern what's useful, and you describe again, sharper this time.
-
-DescriptionCommunicate the vision so the model can act on it.
-
-DiscernmentJudge what came back, and feed that judgment forward.
-
-Describe what good looks like.Clear, specific prompting that turns your vision into terms the model can act on.
-
-PromptInner LoopRefine
-
-Judge what came back.Judge what comes back—quality, relevance, bias—so your next prompt is sharper.
-
-Quick check
-
-Up front, you tell AI your students read below grade level and need key vocabulary defined in context. Which move is that?
-
-DescriptionDiscernment
-
-## Key takeaways[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/creating-high-quality-ai-outputs-in-your-teaching-practice)
-
-- **Effective Description provides specific context.** The more you share about you, your students' needs, and your teaching habits, the better.
-- **Discernment isn't optional.** Evaluate outputs when accuracy matters—flag claims to verify or ask for citations.
-- **The loop is iterative.** Your first prompt rarely nails it; refine using what each response teaches you.
-- **AI accelerates, but doesn't replace expertise.** You're still the decision-maker.
-- **Upload past materials.** Your unit plans, rubrics, or strong examples help AI match your voice and rigor.
-
-## Exercises[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/creating-high-quality-ai-outputs-in-your-teaching-practice)
-
-### Differentiated materials challenge
-
-Apply Description and Discernment to create a piece of differentiated instructional material for a real upcoming lesson, just like Ms. Okafor did.
-
-*Part I: Describe*
-
-1. **Pick something you'll actually use and need**—some ideas: a read-aloud with discussion questions, a leveled text, a math station, a visual support, a practice set, a center activity.
-2. **Draft a Description prompt** that names the standard or learning target it supports, the range of learners in your room, at least one specific accommodation need, and what students will do with it.
-
-*Part II: Discern*
-
-1. **Share your prompt** with an AI tool and review the output against Ms. Okafor's Discernment checklist:
-   - Is the content accurate for your subject area?
-   - Did it land at the right level for your learners, with key vocabulary or concepts introduced and supported?
-   - Does it support what students will do with it and where the lesson needs to go?
-   - Would anything land badly with your specific students?
-2. **Write one concrete revision prompt** (not "make it better," but e.g. "shorten the steps in the center directions and add a picture cue for each one"), submit it, and compare the revision to the original.
-
-*Stretch goal:* Build your revised material into a student-facing-quality product (lesson guide, center, project, worksheet) with clear directions, objectives, scaffolds, and a check for understanding—running the Description-Discernment loop until it's something you'd stand behind.
-
-## Lesson reflection[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/creating-high-quality-ai-outputs-in-your-teaching-practice)
-
-- How did giving AI rich context about your students and goals change its output, compared to a generic request?
-- What's one discernment check you'll always run before putting an AI-made material in front of students?
-
-## What's next[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/creating-high-quality-ai-outputs-in-your-teaching-practice)
-
-In the next lesson, we'll put Delegation and Diligence into practice with a data-analysis scenario. This includes how to decide what AI should touch, how to protect student information, and how to validate results before you trust them.
-
-Was this helpful?

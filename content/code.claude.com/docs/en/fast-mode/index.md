@@ -1,10 +1,7 @@
-> ## Documentation Index
-> Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt
-> Use this file to discover all available pages before exploring further.
-
 # Speed up responses with fast mode
+Source: https://code.claude.com/docs/en/fast-mode
 
-> Get faster Opus responses in Claude Code by toggling fast mode.
+Get faster Opus responses in Claude Code by toggling fast mode.
 
 <Note>
   Fast mode is in [research preview](#research-preview). The feature, pricing, and availability may change based on feedback.

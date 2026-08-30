@@ -1,4 +1,4 @@
-[Agent Patterns](https://platform.claude.com/cookbook/?category=Agent+Patterns)[Tools](https://platform.claude.com/cookbook/?category=Tools)[Multimodal](https://platform.claude.com/cookbook/?category=Multimodal)
+[Agent Patterns](https://platform.claude.com/cookbook/)[Tools](https://platform.claude.com/cookbook/)[Multimodal](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/capabilities/content_moderation/guide.ipynb)
 

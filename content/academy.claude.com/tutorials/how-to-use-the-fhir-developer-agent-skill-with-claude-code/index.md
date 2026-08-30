@@ -21,3 +21,5 @@ Command
 `/plugin marketplace add anthropics/healthcare`
 
 `/plugin install fhir-developer@healthcare`
+
+Was this helpful?

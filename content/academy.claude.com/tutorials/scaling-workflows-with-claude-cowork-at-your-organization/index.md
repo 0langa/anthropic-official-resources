@@ -256,3 +256,5 @@ Lasting adoption means Claude Cowork is already running when users sit down in t
 **Where do I go for help with desktop app installation or connector setup?** See the [Claude Cowork Enterprise Admin Guide(opens in new tab)](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide), which covers desktop app deployment, connector configuration, and org architecture setup.
 
 *Further reading:* [*Cowork Enterprise Admin Settings*(opens in new tab)](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide) *·*[*Provision and manage Skills for your organization*(opens in new tab)](https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization) *·* [*Manage Cowork plugins for your organizations*(opens in new tab)](https://support.claude.com/en/articles/13837433-manage-cowork-plugins-for-your-organization) *·* [*Schedule recurring tasks in Cowork*(opens in new tab)](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-cowork)
+
+Was this helpful?

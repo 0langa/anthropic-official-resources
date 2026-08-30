@@ -1,4 +1,4 @@
-[Responses](https://platform.claude.com/cookbook/?category=Responses)[Tools](https://platform.claude.com/cookbook/?category=Tools)
+[Responses](https://platform.claude.com/cookbook/)[Tools](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/extracting_structured_json.ipynb)
 

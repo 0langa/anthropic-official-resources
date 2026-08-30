@@ -132,3 +132,5 @@ Search Chronograph’s help center for articles about [topic] or How do I [perfo
 - Search the help center for platform-specific guidance before asking general questions
 
 **Note:** Claude currently cannot access documents, custom fields, or metrics that require a Primary Metric Type label.
+
+Was this helpful?

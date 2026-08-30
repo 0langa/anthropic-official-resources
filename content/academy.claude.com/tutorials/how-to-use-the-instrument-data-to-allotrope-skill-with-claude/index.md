@@ -43,3 +43,5 @@ Command
 `/plugin marketplace add anthropics/life-sciences`
 
 `/plugin install instrument-data-to-allotrope@life-sciences`
+
+Was this helpful?

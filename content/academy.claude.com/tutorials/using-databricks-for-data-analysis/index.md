@@ -152,3 +152,5 @@ Claude might then respond with a breach risk analysis, organized by company and 
 - Remember that all data access permissions follow your Unity Catalog permissions. Claude can only access the data that you can access.
 - Custom functions provide consistent calculations. Consider adding UC Functions for calculating standardized metrics.
 - Complex analyses may require multiple steps. Ask for a plan first and review Claude's proposed approach.
+
+Was this helpful?

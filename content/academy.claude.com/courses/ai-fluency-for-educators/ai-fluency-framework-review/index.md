@@ -54,29 +54,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 2 of 4 · AI Fluency for educatorsAI Fluency Framework review
-
-# AI Fluency Framework review
-
-Lesson 210 min
-
-In this lessonBy the end, you’ll be able to
-
-- Define what AI Fluency means
-- Define each of the 4Ds —Delegation, Description, Discernment, and Diligence
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-educators%2Fai-fluency-framework-review)
-
-## AI Fluency Framework review[](https://academy.claude.com/courses/ai-fluency-for-educators/ai-fluency-framework-review)
-
-Embedded media: https://www.youtube-nocookie.com/embed/7tR7modJioQ?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-AI Fluency Framework review · 13 min
-
-SummaryTranscript
-
 You've probably tried AI, maybe to help with an essay, solve a problem, or just explore what it can do. You've probably even found a few applications you really love and work with often. But there's a difference between using AI and being fluent with it. In this video, we'll explore AI fluency, using AI effectively, efficiently, ethically, and safely. We're talking about skills that go beyond any specific tool or clever prompt. Skills that lead to genuine mastery that will serve you, whether you're working with today's AI or whatever comes next.
 
 We'll walk through the 4D framework, four competencies that we hope will transform how you work with AI. Whether you're gathering information, collaborating on projects, or even setting up AI systems to work independently on your behalf, these skills will make you more effective. This video provides just a high-level overview of the framework, and we encourage you to explore the richer insights and exercises for each competency available in our AI Fluency Framework and Foundations course.
@@ -122,24 +99,6 @@ Finally, there's deployment diligence, which means taking ownership of what we c
 The 4Ds really come alive when you use them together, and like anything, they improve with practice. You may be watching this video as part of an online course, in school, or for your own learning. But trying it out in practice is where you likely really start understanding what we mean and how the 4Ds can change how you work with AI. Each time you thoughtfully delegate work, carefully and clearly describe your needs, critically evaluate and discern outputs, and diligently take responsibility for the results, your fluency grows.
 
 Our hope is that the 4Ds remain relevant even as AI technology evolves. New capabilities will come, but the need for strategic thinking, clear communication, critical evaluation, and ethical responsibility will endure. Start practicing with your next AI interaction. Notice which D you're using. Try being more intentional about each one. You'll be surprised how quickly your AI collaborations improve. That's the framework. Now go make it yours.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=7tR7modJioQ)
-
-This video is just an introduction to the framework, for the full breakdown, check out our [AI Fluency: Framework & Foundations course(opens in new tab)](https://academy.claude.com/courses/ai-fluency-framework-foundations).
-
-## Key takeaways[](https://academy.claude.com/courses/ai-fluency-for-educators/ai-fluency-framework-review)
-
-- The 4Ds work together to create genuine AI Fluency
-- Augmentation (working with AI to enhance our work) is more powerful than automation (AI simply doing work for you)
-- Description and Discernment form a continuous improvement loop
-- Each D has three sub-components that address different aspects of AI interaction
-- These skills remain relevant regardless of how AI technology evolves
-
-## What's next[](https://academy.claude.com/courses/ai-fluency-for-educators/ai-fluency-framework-review)
-
-In the next lesson, we'll apply AI Fluency to course design and learning outcomes. You'll learn to use AI as a collaborative partner for identifying essential content, mapping learning journeys, and articulating clear objectives—all while maintaining your pedagogical vision and expertise at the center of the process.
-
-Was this helpful?
 
 
 ## Video transcript

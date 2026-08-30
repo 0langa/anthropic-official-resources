@@ -944,6 +944,8 @@ Use this prompt to analyze your recent Claude conversations through the lens of 
 
 Opens a new Claude conversation with the prompt filled in. Works best with Claude’s [memory tools](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context) enabled.
 
+Was this helpful?
+
 
 ## 
 Description
@@ -1886,6 +1888,8 @@ Use this prompt to analyze your recent Claude conversations through the lens of 
 Open in Claude
 
 Opens a new Claude conversation with the prompt filled in. Works best with Claude’s [memory tools](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context) enabled.
+
+Was this helpful?
 
 
 ## 
@@ -2830,6 +2834,8 @@ Use this prompt to analyze your recent Claude conversations through the lens of 
 
 Opens a new Claude conversation with the prompt filled in. Works best with Claude’s [memory tools](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context) enabled.
 
+Was this helpful?
+
 
 ## 
 Discernment
@@ -3773,6 +3779,8 @@ Use this prompt to analyze your recent Claude conversations through the lens of 
 
 Opens a new Claude conversation with the prompt filled in. Works best with Claude’s [memory tools](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context) enabled.
 
+Was this helpful?
+
 
 ## 
 Diligence
@@ -4715,3 +4723,5 @@ Use this prompt to analyze your recent Claude conversations through the lens of 
 Open in Claude
 
 Opens a new Claude conversation with the prompt filled in. Works best with Claude’s [memory tools](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context) enabled.
+
+Was this helpful?

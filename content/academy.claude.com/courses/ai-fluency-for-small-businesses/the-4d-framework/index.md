@@ -79,29 +79,6 @@ Was this helpful?
 
 ## Transcript
 
-Lesson 2 of 9 · AI Fluency for Small BusinessesThe 4D Framework
-
-# The 4D Framework
-
-Lesson 220 min
-
-In this lessonBy the end, you’ll be able to
-
-- Explain how the AI Fluency Framework (4Ds) can be applied to your work
-- Define each of the 4Ds — Delegation, Description, Discernment, and Diligence
-
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-small-businesses%2Fthe-4d-framework)
-
-## Introducing the 4D Framework for AI Fluency[](https://academy.claude.com/courses/ai-fluency-for-small-businesses/the-4d-framework)
-
-Embedded media: https://www.youtube-nocookie.com/embed/0i0bkTKHYSY?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
-
-Introducing the 4D Framework for AI Fluency · 7 min
-
-SummaryTranscript
-
 We want you to build lasting AI fluency. That means giving you the tools to use AI efficiently, ethically, and safely, no matter what challenges you might face. In this video, we'll walk through the 4D Framework for interconnected competencies that, when combined, transform how you work with AI.
 
 To help you apply this framework, we'll look at two modes of interaction with AI. The first mode is likely the one you're familiar with: how to engage with AI effectively on a day-to-day basis. This is the inner loop of description and discernment. You describe what you want AI to help you with, and then you discern if it meets your expectations. This is a critically important skill set when learning AI, but it's not sufficient on its own.
@@ -131,54 +108,3 @@ Delegation and diligence work together as a loop. The thoughtful choices you mak
 The 4Ds come alive when you use them together. Writing a strategic plan? Use delegation to decide what AI handles versus what you bring yourself. Use strong description to guide the AI's work, apply discernment to evaluate the results, and practice diligence throughout by choosing appropriate tools, being transparent about AI's role, and taking responsibility for accuracy. This framework is about making you more effective at the work that matters: work that requires human judgment, creativity, and deep understanding of your context.
 
 Throughout this course, you'll apply these competencies to real challenges—drafting communications, analyzing complex information, automating routine tasks, and building sustainable AI workflows. The skills you take away will serve you as AI continues to evolve. You can learn more about AI fluency in Anthropic Academy and we'll continue to share our research on this topic on Anthropic's blog.
-
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=0i0bkTKHYSY)
-
-## Key takeaways[](https://academy.claude.com/courses/ai-fluency-for-small-businesses/the-4d-framework)
-
-- The **4D Framework** has two loops: the **inner loop** (Description & Discernment) guides your day-to-day AI interactions, while the **outer loop** (Delegation & Diligence) guides broader decisions about when and how to use AI.
-- **Delegation** — decide what AI handles and what stays with you.
-- **Description** — communicate clearly what you need and how you want AI to approach it.
-- **Discernment** — evaluate what AI gives back before acting on it.
-- **Diligence** — take full responsibility for how you use AI and own the final result.
-
-## Exercises[](https://academy.claude.com/courses/ai-fluency-for-small-businesses/the-4d-framework)
-
-### Map your context to the 4Ds
-
-Pull out the context document you built in the previous lesson. This exercise uses it to show you which competencies you'll need most — and gets you into a real interaction before the next lesson.
-
-**Part I: Tag your document**
-
-Read through your context document and mark each goal, concern, or task with the competency it most relates to:
-
-- **Delegation** — decisions about what AI should and shouldn't handle in your business
-- **Description** — questions about how to communicate what you need clearly
-- **Discernment** — concerns about evaluating or trusting what AI gives back
-- **Diligence** — questions about responsibility, verification, or transparency with customers or staff
-
-Which competency shows up most? That's where your attention is already focused — and usually where you'll see the fastest gains.
-
-**Part II: Try one**
-
-From your context document, pick one task that came up — something real and waiting for you. Before opening AI, write down:
-
-- Which competencies apply? (Most real tasks involve more than one.)
-- What does "good enough" look like for this output?
-
-Then take one round with AI on that task. Don't aim for a finished product — just get a useful starting point.
-
-**Part III: Reflect**
-
-Look at what you got back. Which competency felt natural? Which caught you off guard? Note one thing you'd do differently on the next pass.
-
-## Lesson reflection[](https://academy.claude.com/courses/ai-fluency-for-small-businesses/the-4d-framework)
-
-- Were you surprised by which competency dominated your mapped questions? What does that tell you?
-- How might the two loops have changed a recent AI interaction you had?
-
-## What's next[](https://academy.claude.com/courses/ai-fluency-for-small-businesses/the-4d-framework)
-
-In the next lesson, we'll look at how generative AI works — what it can and can't do — so you can put the 4D Framework into practice with clear-eyed expectations.
-
-Was this helpful?

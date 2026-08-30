@@ -1,4 +1,4 @@
-[Integrations](https://platform.claude.com/cookbook/?category=Integrations)[Agent Patterns](https://platform.claude.com/cookbook/?category=Agent+Patterns)[Tools](https://platform.claude.com/cookbook/?category=Tools)
+[Integrations](https://platform.claude.com/cookbook/)[Agent Patterns](https://platform.claude.com/cookbook/)[Tools](https://platform.claude.com/cookbook/)
 
 [View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/third_party/LlamaIndex/ReAct_Agent.ipynb)
 
