@@ -29,6 +29,14 @@ Done condition: no valid reachable English resource remains unarchived. Terminal
 - Verification: `git diff --check` clean; 38 unit tests passed (1 local Chromium skip); 2758 archive files verified; zero failures.
 - Publication: pending fast-forward push and remote CI.
 
+## Cycle 2 - first full population batch
+
+- Remote validation run `33286135407` passed Windows, Linux, archive verification, and live Chromium pilot; CI report commit `45c402f` fast-forwarded.
+- One-hour browser-enabled resume processed 1030 URLs. Recursive discovery expanded beyond the original 653-page queue.
+- Coverage moved from 2758 / 3411 / 653 to 3561 / 3823 / 262: 803 additional pages archived while 412 new candidates were discovered.
+- Terminal and quality evidence retained for gone pages, robots blocks, cross-scope redirects, interactive quiz state, missing video transcripts, optional third-party dependencies, and timed-out interactive tabs.
+- Cleanup changed no records or files; all 3561 archived files passed hash verification with zero failures. Publication pending.
+
 ## Next safe action
 
-Commit and push cycle 1. Wait for remote CI, fast-forward any CI-generated report commit, then run a one-hour browser-enabled sync batch.
+Verify and publish cycle 2. Then run another bounded resume batch over 262 remaining candidates and resolve residual partial/terminal classifications.

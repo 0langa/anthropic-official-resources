@@ -1,0 +1,42 @@
+import{Hf as e,Wf as t}from"../../../content-es-meta-mstc7yuz.js";var n=e();function r(e){let r={a:"a",em:"em",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",ul:"ul",...t(),...e.components},{Connectors:i,CoworkPrompt:o,CoworkResponse:s,TryIn:c,Video:l}=r;return i||a("Connectors",!0),o||a("CoworkPrompt",!0),s||a("CoworkResponse",!0),c||a("TryIn",!0),l||a("Video",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(l,{youtubeId:"fVIV-L49eBs",title:"Handle a request while away from your keyboard result"}),`
+`,(0,n.jsx)(r.h2,{id:"1-describe-the-task",children:"1. Describe the task"}),`
+`,(0,n.jsx)(r.p,{children:"Work does not pause when you step away from your computer. A teammate asks for a file. A client sends a question that requires information from a document on your computer. A deadline moves up. Dispatch lets you respond using everything on your computer, from your phone."}),`
+`,(0,n.jsxs)(r.p,{children:["This works when your computer is awake and the Claude desktop app is running. The keep-awake toggle in ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/13947068-assign-tasks-to-claude-from-anywhere-in-cowork",children:"Dispatch settings"})," prevents your computer from sleeping when you step out. Turn it on once and your computer stays reachable whether you are in a car, at a coffee shop, on a plane with wifi, or simply across the office without your laptop."]}),`
+`,(0,n.jsx)(r.p,{children:"Dispatch is also useful when your computer is nearby but your phone is more practical. In tight spaces, on a call, or when opening a laptop would be awkward, you can send a quick instruction from your phone and Claude handles the rest on your computer."}),`
+`,(0,n.jsx)(r.p,{children:"A teammate asks for a budget spreadsheet over Slack. From your phone, you tell Claude where the file is and where to send it — Claude finds it and posts it with your note."}),`
+`,(0,n.jsx)(o,{children:(0,n.jsx)(r.p,{children:"Jamie just asked me on Slack for the latest Q2 budget spreadsheet. Find it in my Documents/Finance folder on my computer — the file with “Q2” and “budget” in the name. Post it to Jamie in the #proj-planning Slack channel. Add a note that the tab labeled “Revised” has the current numbers."})}),`
+`,(0,n.jsx)(r.h2,{id:"2-give-claude-context",children:"2. Give Claude context"}),`
+`,(0,n.jsxs)(r.p,{children:["Claude reads the file from your computer and posts it through the ",(0,n.jsx)(r.a,{href:"https://claude.com/connectors/slack",children:"Slack connector"}),". No file uploads, no cloud sync — Claude reads the document in place on your machine and sends it through the connected tool."]}),`
+`,(0,n.jsx)(r.h3,{id:"required-context",children:"Required context"}),`
+`,(0,n.jsx)(r.p,{children:"For this task, Claude needs access to your local files and one connector:"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"Local files — to find and read the spreadsheet in your Documents/Finance folder."}),`
+`,(0,n.jsx)(r.li,{children:"Slack — to post the file and your note to the #proj-planning channel."}),`
+`]}),`
+`,(0,n.jsx)(i,{items:[{slug:"slack"}]}),`
+`,(0,n.jsx)(r.h2,{id:"3-what-claude-creates",children:"3. What Claude creates"}),`
+`,(0,n.jsxs)(r.p,{children:["Claude locates the file, prepares the message, and — if you have Slack set to ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities",children:"needs-approval"})," for sending — shows you the message before posting. Here is what the exchange looks like on your phone:"]}),`
+`,(0,n.jsxs)(s,{children:[(0,n.jsxs)(r.p,{children:["I found ",(0,n.jsx)(r.strong,{children:"Q2-Budget-Revised-v3.xlsx"})," in Documents/Finance."]}),(0,n.jsxs)(r.p,{children:["Before I post, here is the message I will send to ",(0,n.jsx)(r.strong,{children:"#proj-planning"}),":"]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:"Hi Jamie — here is the Q2 budget spreadsheet you asked for. The tab labeled “Revised” has the latest numbers."})}),(0,n.jsx)(r.p,{children:"[Attached: Q2-Budget-Revised-v3.xlsx]"}),(0,n.jsx)(r.p,{children:"Should I go ahead and post this?"})]}),`
+`,(0,n.jsx)(r.h2,{id:"4-follow-up-prompts",children:"4. Follow up prompts"}),`
+`,(0,n.jsx)(r.p,{children:"Continue the conversation with Claude to refine, expand, or explore further."}),`
+`,(0,n.jsx)(r.h3,{id:"draft-a-reply-with-approval-before-sending",children:"Draft a reply with approval before sending"}),`
+`,(0,n.jsx)(r.p,{children:"Claude can draft messages using files on your computer, then wait for your approval before sending. This keeps you in control of what goes out while Claude does the research and writing."}),`
+`,(0,n.jsx)(o,{children:(0,n.jsx)(r.p,{children:"Draft a reply to the client email about pricing. Use the proposal in my Documents folder for the numbers, but don't send until I approve."})}),`
+`,(0,n.jsx)(r.h3,{id:"pick-up-the-thread-on-your-laptop",children:"Pick up the thread on your laptop"}),`
+`,(0,n.jsx)(r.p,{children:"When you get back to your desk, continue in the same Dispatch conversation. Claude remembers everything it did while you were away — what it found, what it sent, and any requests that came in."}),`
+`,(0,n.jsx)(o,{children:(0,n.jsx)(r.p,{children:"I'm back at my desk. Show me what you sent and any other requests that came in while I was out."})}),`
+`,(0,n.jsx)(r.h3,{id:"use-computer-use-to-reach-a-desktop-app",children:"Use computer use to reach a desktop app"}),`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork",children:"Computer use"})," lets Claude operate desktop applications that have no connector and no web version. If the information you need lives in a native desktop app, Claude can open it and pull what you need."]}),`
+`,(0,n.jsx)(o,{children:(0,n.jsx)(r.p,{children:"There's a report I need from the analytics dashboard app on my computer. Open it and screenshot the Q1 summary."})}),`
+`,(0,n.jsx)(r.h2,{id:"5-tricks-tips-and-troubleshooting",children:"5. Tricks, tips, and troubleshooting"}),`
+`,(0,n.jsx)(r.h3,{id:"set-send-permissions-to-needs-approval",children:"Set send permissions to needs-approval"}),`
+`,(0,n.jsx)(r.p,{children:"For connectors like Slack and Gmail, set send access to needs-approval. Claude drafts the message and shows it to you before posting or emailing — so nothing goes out without your sign-off."}),`
+`,(0,n.jsx)(r.h3,{id:"turn-on-keep-awake-before-stepping-away",children:"Turn on keep-awake before stepping away"}),`
+`,(0,n.jsx)(r.p,{children:"The keep-awake toggle prevents your computer from sleeping while you are out. Turn it on before you leave so Claude can respond to requests on your machine at any time."}),`
+`,(0,n.jsx)(r.h3,{id:"files-stay-local-when-claude-reads-them",children:"Files stay local when Claude reads them"}),`
+`,(0,n.jsx)(r.p,{children:"Claude reads documents in place on your computer. When it posts a file to Slack or references data in an email, the source document stays on your machine — nothing gets uploaded to a cloud service."}),`
+`,(0,n.jsx)(r.h3,{id:"computer-use-is-a-separate-toggle",children:"Computer use is a separate toggle"}),`
+`,(0,n.jsx)(r.p,{children:"Computer use is off by default and must be enabled in Dispatch settings. Claude asks for your approval before controlling each new application."}),`
+`,(0,n.jsx)(r.h2,{id:"6-ready-to-try-for-yourself",children:"6. Ready to try for yourself?"}),`
+`,(0,n.jsx)(r.p,{children:"Get started with Dispatch: download the Claude desktop app and the Claude mobile app, open Claude Cowork, and tap Dispatch in the sidebar"}),`
+`,(0,n.jsx)(c,{surfaces:["cowork"],children:(0,n.jsx)(r.p,{children:"Jamie just asked me on Slack for the latest Q2 budget spreadsheet. Find it in my Documents/Finance folder on my computer — the file with “Q2” and “budget” in the name. Post it to Jamie in the #proj-planning Slack channel. Add a note that the tab labeled “Revised” has the current numbers."})})]})}function i(e={}){let{wrapper:i}={...t(),...e.components};return i?(0,n.jsx)(i,{...e,children:(0,n.jsx)(r,{...e})}):r(e)}function a(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{i as default};

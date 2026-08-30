@@ -1,0 +1,34 @@
+import{Hf as e,Wf as t}from"../../../content-es-meta-mstc7yuz.js";import{t as n}from"../../../correlation-matrix-lz2ukf66.js";var r=e();function i(e){let i={h2:"h2",h3:"h3",p:"p",...t(),...e.components},{ChatAttachments:a,ChatPrompt:s,ChatResponse:c,Image:l,TryIn:u,Video:d}=i;return a||o("ChatAttachments",!0),s||o("ChatPrompt",!0),c||o("ChatResponse",!0),l||o("Image",!0),u||o("TryIn",!0),d||o("Video",!0),(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(d,{youtubeId:"Ii99RU3mOJM",title:"Chart your data in conversation with Claude demo"}),`
+`,(0,r.jsx)(i.h2,{id:"1-describe-the-task",children:"1. Describe the task"}),`
+`,(0,r.jsx)(i.p,{children:"You have data and want to see what's in it before you start working. Ask Claude, and the chart comes back with a read on what stands out — from there you work through it together."}),`
+`,(0,r.jsx)(i.p,{children:"Here a researcher has survey data on study habits and GPA before a committee meeting. Claude builds a clickable matrix, opens scatters on demand, and flags two findings worth a closer look."}),`
+`,(0,r.jsx)(s,{children:(0,r.jsx)(i.p,{children:"Show me what this data is telling me. I'm looking for the strongest relationships in here. Can you give me a correlation matrix and let me click into any pair to see the scatter? Flag anything that surprises you. Don't hold back on making this readable; I'm presenting this to a committee."})}),`
+`,(0,r.jsx)(i.h2,{id:"2-give-claude-context",children:"2. Give Claude context"}),`
+`,(0,r.jsx)(i.p,{children:'The CSV is the context. Two lines in the prompt shape what comes back: "flag anything that surprises you" asks Claude to bring a read alongside the chart, and naming the audience ("for a committee") shapes how much the labels assume.'}),`
+`,(0,r.jsx)(i.h3,{id:"required-context",children:"Required context"}),`
+`,(0,r.jsx)(i.p,{children:"Upload the CSV."}),`
+`,(0,r.jsx)(a,{items:[{name:"Survey responses",fileType:"CSV"}]}),`
+`,(0,r.jsx)(i.h2,{id:"3-what-claude-creates",children:"3. What Claude creates"}),`
+`,(0,r.jsx)(i.p,{children:"Claude builds the grid, then calls out what stands out. The clickable matrix shows every pair; below it Claude flags which cells cut against the expected story. The flags are worth checking — a striking cell can be real, or a confound, or a quirk of this sample, and the chart makes all three look the same. The follow-ups below are how you figure out which."}),`
+`,(0,r.jsx)(c,{children:(0,r.jsx)(l,{src:n,alt:"Claude's response with a clickable correlation matrix for the survey data: summary cards for students, average GPA, sleep, and attendance, a five-by-five grid of correlation cells with a legend, and two flagged findings — attendance outpredicts study hours on GPA, and screen time barely touches GPA directly"})}),`
+`,(0,r.jsx)(i.h2,{id:"4-follow-up-prompts",children:"4. Follow up prompts"}),`
+`,(0,r.jsx)(i.p,{children:"Continue the conversation with Claude to refine, expand, or explore further."}),`
+`,(0,r.jsx)(i.h3,{id:"click-into-the-visual-to-go-deeper-on-one-piece",children:"Click into the visual to go deeper on one piece"}),`
+`,(0,r.jsx)(i.p,{children:"Click any cell in the matrix and Claude opens a scatter for that pair below — the grid stays, the detail expands beneath. You can ask Claude to split that scatter by a third variable to see if the relationship holds."}),`
+`,(0,r.jsx)(s,{children:(0,r.jsx)(i.p,{children:"Split the attendance-GPA relationship by study hours. For students in the top quartile of study time, does attendance still predict GPA?"})}),`
+`,(0,r.jsx)(i.h3,{id:"ask-claude-to-write-up-what-the-chart-showed",children:"Ask Claude to write up what the chart showed"}),`
+`,(0,r.jsx)(i.p,{children:"Claude writes the report paragraph based on what the chart showed — including where to hedge — and you edit from there."}),`
+`,(0,r.jsx)(s,{children:(0,r.jsx)(i.p,{children:"Write the paragraph about attendance and GPA for my report, based on what the chart shows. Flag where I should hedge."})}),`
+`,(0,r.jsx)(i.h3,{id:"ask-claude-to-turn-the-chart-into-a-quiz",children:"Ask Claude to turn the chart into a quiz"}),`
+`,(0,r.jsx)(i.p,{children:"Claude picks cells from the matrix, you say what you'd conclude, and it catches overclaims before the committee does."}),`
+`,(0,r.jsx)(s,{children:(0,r.jsx)(i.p,{children:"Quiz me on the matrix. Show me a few cells and ask what I'd conclude — catch me if I read causation into a confound."})}),`
+`,(0,r.jsx)(i.h2,{id:"5-tricks-tips-and-troubleshooting",children:"5. Tricks, tips, and troubleshooting"}),`
+`,(0,r.jsx)(i.h3,{id:"how-you-word-your-prompt-shapes-what-you-get",children:"How you word your prompt shapes what you get"}),`
+`,(0,r.jsx)(i.p,{children:`Adding "flag anything that surprises you" gets interpretation alongside the chart — which cells deserve attention, which cut against the expected story. Without that line, you get the matrix and do the reading yourself. Works on any data you're about to write about: results before a report, exported analytics before a status doc.`}),`
+`,(0,r.jsx)(i.h3,{id:"check-the-visual-against-your-own-understanding",children:"Check the visual against your own understanding"}),`
+`,(0,r.jsx)(i.p,{children:"The pattern Claude flagged is a starting point. A striking cell can be real, or a confound, or a quirk of the sample — the chart makes all three look the same. The follow-ups are where you figure out which, and you're the one deciding what holds up."}),`
+`,(0,r.jsx)(i.h3,{id:"what-to-do-with-the-visual-next",children:"What to do with the visual next"}),`
+`,(0,r.jsx)(i.p,{children:"Hover for options: copy as image for slides, or Save as Artifact if you want something interactive to share with collaborators. Or ask Claude to write the report paragraph from what the chart showed — that's the piece you bring to the committee."}),`
+`,(0,r.jsx)(i.h2,{id:"6-ready-to-try-for-yourself",children:"6. Ready to try for yourself?"}),`
+`,(0,r.jsx)(i.p,{children:"Try it on the dataset you've been meaning to look at — upload the CSV, ask what's in it, and let the first chart show you where to dig. Web or desktop at claude.ai."}),`
+`,(0,r.jsx)(u,{surfaces:["chat"],children:(0,r.jsx)(i.p,{children:"Show me what this data is telling me. I'm looking for the strongest relationships in here. Can you give me a correlation matrix and let me click into any pair to see the scatter? Flag anything that surprises you. Don't hold back on making this readable; I'm presenting this to a committee."})})]})}function a(e={}){let{wrapper:n}={...t(),...e.components};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}function o(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{a as default};

@@ -30,14 +30,14 @@
     "url": "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js"
   },
   {
-    "reason": "robots_policy",
-    "type": "script",
-    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js"
-  },
-  {
     "reason": "outside_scope",
     "type": "script",
     "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+  },
+  {
+    "reason": "robots_policy",
+    "type": "script",
+    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js"
   },
   {
     "reason": "robots_policy",
@@ -110,6 +110,11 @@
     "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js"
   },
   {
+    "reason": "outside_scope",
+    "type": "script",
+    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+  },
+  {
     "reason": "robots_policy",
     "type": "script",
     "url": "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js"
@@ -128,11 +133,6 @@
     "reason": "robots_policy",
     "type": "script",
     "url": "https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js"
-  },
-  {
-    "reason": "outside_scope",
-    "type": "script",
-    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
   },
   {
     "reason": "robots_policy",

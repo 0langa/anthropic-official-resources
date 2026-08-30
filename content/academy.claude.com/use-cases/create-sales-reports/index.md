@@ -1,0 +1,149 @@
+# Create sales reports
+
+Pull metrics from your CRM, analyze trends, and generate polished reports with data visualizations and strategic insights—all without manual data formatting.
+
+15 minSalesClaude.ai
+
+Try in ClaudeCopy prompt
+
+![](https://academy.claude.com/assets/v1/thumbnail.light-nm3ukauo.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-m8atnx4w.png)
+
+![Create sales reports result](https://academy.claude.com/assets/v1/create-sales-reports-tco4ryx7.png)
+
+## 1. Describe the task[](https://academy.claude.com/use-cases/create-sales-reports)
+
+Claude's ability to pull live data from your CRM and synthesize it with your business context enables you to generate full reports in minutes.
+
+Connect your CRM and tell Claude what timeframe, metrics, and segments you want analyzed. Describe your audience and any specific questions the report should answer.
+
+I need a Q4 sales report for our exec team meeting next week. Pull October through December from HubSpot.
+
+Show me:
+
+- Total revenue vs Q3—how much did we grow, and was it from more deals or bigger deals?
+- Break it down by segment: Enterprise, Mid-Market, and SMB. For each one, show revenue, number of deals, and win rate
+- How long are sales cycles taking now compared to Q3?
+- Current pipeline value and health
+- Top 3 reps by revenue with their numbers
+- What's actually working and what needs to change
+
+Create this as a professional document with clean serif fonts, information dense with tight spacing, proper text hierarchy, and embedded charts PNGs that seamlessly integrate into the layout as opposed to looking pasted in. Use proper business style. Opt out of using your default styles.
+
+
+
+Open in Claude
+
+## 2. Give Claude context[](https://academy.claude.com/use-cases/create-sales-reports)
+
+Connect your CRM using [connectors(opens in new tab)](https://claude.ai/customize/connectors) so Claude can pull current sales data directly, eliminating manual exports and ensuring the report reflects your latest metrics.
+
+### Required context[](https://academy.claude.com/use-cases/create-sales-reports)
+
+In Settings > Capabilities, find and enable your [HubSpot(opens in new tab)](https://mcp.hubspot.com/anthropic) connector. Once connected, Claude can read sales data and pull metrics on demand without you exporting files or copying data manually. Add any additional context your CRM doesn't capture to help Claude conduct analysis more tailored to your business.
+
+
+
+HubSpot
+
+[Connect](https://claude.ai/directory/hubspot)
+
+Browse all connectors[Open in Claude](https://claude.ai/customize/connectors)
+
+
+
+Q4 Sales Goals documentFILE
+
+## 3. What Claude creates[](https://academy.claude.com/use-cases/create-sales-reports)
+
+Claude analyzes your sales performance data to create a document with an executive summary, data tables showing key metrics with visual indicators, segment-by-segment breakdowns, trend analysis, and actionable recommendations.
+
+I pulled your Q4 data from HubSpot and created a professional sales report. Here's what stands out:
+
+**The numbers:**
+
+- Revenue: $2.8M (up 18% from Q3)
+- 47 deals closed, $59,500 average value
+- Enterprise drove 62% of revenue—that's where the momentum is
+- Sales cycles got 8 days faster
+- SMB win rates dropped from 24% to 19%—this needs attention
+
+**What's in the report:**
+
+- Executive summary with the key takeaways
+- Revenue trend chart showing the month-by-month climb
+- Segment comparison bar chart (Enterprise, Mid-Market, SMB)
+- Metrics table showing Q4 vs Q3 with color coding
+- Analysis of what's working and what's not
+- Top 3 rep performance
+- Specific recommendations for Q1
+
+**View your sales performance report**
+
+The report is professionally designed and ready to download and edit. You can share it directly or ask me to adjust the visualizations or analysis.
+
+## 4. Follow up prompts[](https://academy.claude.com/use-cases/create-sales-reports)
+
+Continue the conversation with Claude to refine, expand, or explore further.
+
+### Test your understanding[](https://academy.claude.com/use-cases/create-sales-reports)
+
+After generating the report, ask Claude to question you on the findings. This ensures you've absorbed the analysis and understand the overall picture.
+
+Quiz me on the findings from this report like your manager. In addition to just the numbers, test me with questions about trends, what's driving them, and why it matters.
+
+
+
+Open in Claude
+
+### Combine internal data with external intelligence[](https://academy.claude.com/use-cases/create-sales-reports)
+
+Enable Research and request market context for Claude to compare your data with current market intelligence.
+
+Pull my metrics, then research industry benchmarks for SaaS companies our size. How do we compare on win rate and sales cycle?
+
+
+
+Open in Claude
+
+### Deep dive by segment[](https://academy.claude.com/use-cases/create-sales-reports)
+
+After reading the report, zoom in on an area of particular interest to analyze specific findings and implications.
+
+Take the Enterprise segment data and create a detailed analysis document. Break down performance by rep, identify which industries or company sizes are converting best, and analyze deal characteristics for our highest-value wins. I want to understand what's making Enterprise work so we can replicate it.
+
+
+
+Open in Claude
+
+## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/create-sales-reports)
+
+### Request professional formatting[](https://academy.claude.com/use-cases/create-sales-reports)
+
+Ask Claude for "professional design" or "sophisticated formatting" and specify you want documents with visual hierarchy, strategic color accents, and proper whitespace. Claude can generate charts and graphs directly from your numbers and embed them into your report, so trends and comparisons are immediately visible without switching to separate files. You can also request companion spreadsheets with editable charts and visualizations that refer to the data in your document.
+
+### Stay current with live information[](https://academy.claude.com/use-cases/create-sales-reports)
+
+Unlike uploaded CSV files (static snapshots), [connectors(opens in new tab)](https://claude.com/blog/what-is-model-context-protocol) allow Claude to access current data from your tools. Ask Claude to pull the latest Q4 data from HubSpot whenever you need an update, and generate a report with the latest numbers without re-exporting files.
+
+### Expand analysis across tools[](https://academy.claude.com/use-cases/create-sales-reports)
+
+If you store market research in Google Drive or track initiatives in Asana, add those connectors so Claude can correlate additional factors with sales performance. For example: pull competitive intelligence from Drive while analyzing win rates to understand what's influencing deals, or cross-reference Asana milestones with pipeline velocity to see how product launches affect sales momentum.
+
+## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/create-sales-reports)
+
+Connect your CRM, describe the information you need to display, and let Claude handle the analysis and formatting work.
+
+I need a Q4 sales report for our exec team meeting next week. Pull October through December from HubSpot.
+
+Show me:
+
+• Total revenue vs Q3—how much did we grow, and was it from more deals or bigger deals?
+• Break it down by segment: Enterprise, Mid-Market, and SMB. For each one, show revenue, number of deals, and win rate
+• How long are sales cycles taking now compared to Q3?
+• Current pipeline value and health
+• Top 3 reps by revenue with their numbers
+• What's actually working and what needs to change
+
+Create this as a professional document with clean serif fonts, information dense with tight spacing, proper text hierarchy, and embedded charts PNGs that seamlessly integrate into the layout as opposed to looking pasted in. Use proper business style. Opt out of using your default styles.
+
+Try in Claude

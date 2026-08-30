@@ -1,0 +1,119 @@
+# Build a custom bucket list
+
+Turn any tracker, organizer, or goal system you've imagined into a working interactive tool. Describe what you want and watch Claude build it.
+
+15 minPersonalClaude.ai
+
+Try in ClaudeCopy prompt
+
+![](https://academy.claude.com/assets/v1/thumbnail.light-hlfboz7l.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-x6agz3n5.png)
+
+![Build a custom bucket list result](https://academy.claude.com/assets/v1/build-a-custom-bucket-list-app-dmmmw0gr.png)[Open artifact](https://claude.ai/public/artifacts/9bb7b6aa-88d1-4a1b-83f6-256750f8acd6)
+
+## 1. Describe the task[](https://academy.claude.com/use-cases/build-a-custom-bucket-list-app)
+
+Claude can build custom interactive tools tailored to your individual goals. Describe the experience and interface you want and Claude designs a custom app with the features and feel you have in mind.
+
+Tell Claude what you want to track, organize, or build, and how you want it to look and feel.
+
+I want to create an interactive "bucket list builder" that feels like browsing a beautiful, high-end boutique, but for life experiences instead of products.
+
+**The concept:** Transform "I should make a future goals list" into something more joyful. Instead of just a normal list, I want an experience.
+
+**Design:** This needs to look like a world-class iOS app. Clean, intentional graphic design. Every detail (typography, spacing, hierarchy) should feel curated and thought-through. The end result should be stunning.
+
+**Include:** Experiences by category; saving certain experiences to "My List"; toggles between browsing and viewing saved items, satisfying interactions when selecting items.
+
+Populate it with beautiful life experiences to browse. Then, add in some additional fun surprises!
+
+
+
+Open in Claude
+
+## 2. Give Claude context[](https://academy.claude.com/use-cases/build-a-custom-bucket-list-app)
+
+Claude can build interactive apps directly in conversation. No uploads or external tools needed. For more sophisticated designs, giving Claude direction about the aesthetic you want produces dramatically better results.
+
+### Required context[](https://academy.claude.com/use-cases/build-a-custom-bucket-list-app)
+
+## 3. What Claude creates[](https://academy.claude.com/use-cases/build-a-custom-bucket-list-app)
+
+Claude builds a fully interactive application matching your specifications, browsable, clickable, and styled to your design standards.
+
+I've created your bucket list builder with that high-end boutique feel. Here's what I built:
+
+**Design approach:** Clean iOS-style aesthetics with SF Pro typography sensibility, generous whitespace, and subtle elevation changes on hover. The color palette stays neutral (#1C1C1E, #8E8E93, #F2F2F7) so the experience descriptions become the color, through imagination.
+
+**Features:**
+
+- Category filtering across Wonder, Adventure, Craft, and Achievement
+- Toggle between Browse and My List views, each experience card shows timeframe and relative cost, and smooth hover states and satisfying save interactions
+- Various curated experiences from Northern Lights to Japanese tea ceremonies
+
+Click any card to add it to your list. The saved count updates automatically. Try filtering by category, then switching to My List to see your curated collection.
+
+Want me to adjust the styling, add more experiences, or change how the categories work?
+
+## 4. Follow up prompts[](https://academy.claude.com/use-cases/build-a-custom-bucket-list-app)
+
+Continue the conversation with Claude to refine, expand, or explore further.
+
+### Turn dreams into plans[](https://academy.claude.com/use-cases/build-a-custom-bucket-list-app)
+
+Make the app a launchpad, not just a list. Add a button that generates a ready-to-use prompt for a future Claude conversation, pre-filled with context about the experience you want to pursue.
+
+Add a 'Make this happen' button on each saved card. When I click it, show me a prompt I can copy into a new Claude chat. The prompt should include the experience name and my description, then ask Claude to help me research to help me accomplish it.
+
+
+
+Open in Claude
+
+### Receive suggestions for what's next[](https://academy.claude.com/use-cases/build-a-custom-bucket-list-app)
+
+Embed Claude's intelligence directly in your app. Artifacts can call Claude to analyze your choices and generate fresh recommendations on the fly. This isn't static logic—it's Claude thinking inside your tool.
+
+Add a 'Surprise me with something new' button. When I tap it, have the app send my saved experiences to Claude and ask it to suggest one I haven't considered—something that fits the patterns in what I've chosen and show Claude's reasoning.
+
+
+
+Open in Claude
+
+### Add animation and personalization[](https://academy.claude.com/use-cases/build-a-custom-bucket-list-app)
+
+Motion and small personal touches make the difference between a prototype and something you want to use. Ask for intro animations, hover effects, or a setup screen that tailors the experience to you.
+
+Add a first-time setup that asks my name and birthday. Use my name in the header and calculate my age somewhere subtle. When I mark something complete, animate the card to explode into hundreds of tiny, dissolving particles that keep the card's colors. Make it satisfying.
+
+
+
+Open in Claude
+
+## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/build-a-custom-bucket-list-app)
+
+### Use pictures as quick references[](https://academy.claude.com/use-cases/build-a-custom-bucket-list-app)
+
+Upload a screenshot of an app you love. "Make it feel like this" gives Claude more to work with than describing aesthetics from scratch. You can also screenshot your artifact and circle something specific: "This part. Fix this."
+
+### Your artifact can think[](https://academy.claude.com/use-cases/build-a-custom-bucket-list-app)
+
+Artifacts can call Claude directly—not just display static content. This means your app can analyze what you've saved, generate personalized suggestions, write custom text, or respond to what you're doing. Ask Claude to "embed AI in the app" or "have the app call Claude" when you want your tool to reason, not just display.
+
+### Reuse what works[](https://academy.claude.com/use-cases/build-a-custom-bucket-list-app)
+
+Once you have an aesthetic you like, ask Claude to apply it elsewhere. "Use this same design system for a reading list tracker" or "Make me a gift ideas app with this exact visual style." You've already done the hard work of defining the feel.
+
+## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/build-a-custom-bucket-list-app)
+
+Create interactive tools with custom interfaces, tailored to how you like to explore and learn. Describe and refine your ideas with Claude to make tools useful for you.
+
+I want to create an interactive "bucket list builder" that feels like browsing a beautiful, high-end boutique, but for life experiences instead of products.
+
+The concept: Transform "I should make a future goals list" into something more joyful. Instead of just a normal list, I want an experience.
+
+Design: This needs to look like a world-class iOS app. Clean, intentional graphic design. Every detail (typography, spacing, hierarchy) should feel curated and thought-through. The end result should be stunning.
+
+Include: Experiences by category; saving certain experiences to "My List"; toggles between browsing and viewing saved items, satisfying interactions when selecting items.
+
+Populate it with beautiful life experiences to browse. Then, add in some additional fun surprises!
+
+Try in Claude

@@ -1,7 +1,10 @@
-# Output styles
-Source: https://code.claude.com/docs/en/output-styles
+> ## Documentation Index
+> Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt
+> Use this file to discover all available pages before exploring further.
 
-Adapt Claude Code for uses beyond software engineering
+# Output styles
+
+> Adapt Claude Code for uses beyond software engineering
 
 Output styles change how Claude responds, not what Claude knows. They modify the system prompt to set role, tone, and output format. Use one when you keep re-prompting for the same voice or format every turn, or when you want Claude to act as something other than a software engineer.
 
@@ -111,11 +114,11 @@ Token usage depends on the style. Adding instructions to the system prompt incre
 
 Several features customize how Claude Code behaves. Output styles modify the system prompt directly and apply to every response. The others add instructions without changing the default system prompt, or scope them to a specific task.
 
-| Feature                       | How it works                                                 | Use it when                                                             |
-| :---------------------------- | :----------------------------------------------------------- | :---------------------------------------------------------------------- |
-| Output styles                 | Modifies the system prompt                                   | You want a different role, tone, or default response format every turn  |
+| Feature                  | How it works                                                 | Use it when                                                             |
+| :----------------------- | :----------------------------------------------------------- | :---------------------------------------------------------------------- |
+| Output styles            | Modifies the system prompt                                   | You want a different role, tone, or default response format every turn  |
 | [CLAUDE.md](/docs/en/memory)  | Adds a user message after the system prompt                  | Claude should always know your project conventions and codebase context |
-| `--append-system-prompt`      | Appends to the system prompt without removing anything       | You want a one-off addition for a single invocation                     |
+| `--append-system-prompt` | Appends to the system prompt without removing anything       | You want a one-off addition for a single invocation                     |
 | [Agents](/docs/en/sub-agents) | Runs a subagent with its own system prompt, model, and tools | You want a separately scoped helper for a focused task                  |
 | [Skills](/docs/en/skills)     | Loads task-specific instructions when invoked or relevant    | You have a reusable workflow                                            |
 

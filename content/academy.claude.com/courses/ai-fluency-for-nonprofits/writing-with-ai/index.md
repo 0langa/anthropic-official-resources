@@ -85,8 +85,6 @@ Share your prompt with AI and review the draft. Apply Discernment:
 
 In the next lesson, we'll explore AI Privacy in an attempt to better understand what happens to the data you share with AI.
 
-Was this helpful?
-
 
 ## Exercise 2
 

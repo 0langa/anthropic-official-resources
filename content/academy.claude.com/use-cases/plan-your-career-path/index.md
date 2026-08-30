@@ -1,0 +1,163 @@
+# Plan your career path
+
+Map the jobs you want to a career plan—skill gaps, timelines, people to contact, and specific next steps.
+
+15 minEducationClaude.ai
+
+Try in ClaudeCopy prompt
+
+![](https://academy.claude.com/assets/v1/thumbnail.light-b4hv41sc.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-it72wa8i.png)
+
+![Plan your career path result](https://academy.claude.com/assets/v1/plan-your-career-path-iar8vg4f.png)
+
+## 1. Describe the task[](https://academy.claude.com/use-cases/plan-your-career-path)
+
+Claude brings deep knowledge of job markets, industry trajectories, and skill trends that aren't obvious from job postings alone. Paired with your resume and goals, this expands your career horizons while developing the strategic thinking skills to navigate future transitions.
+
+Tell Claude about your career goals and provide your resume—it will map out a strategic path forward.
+
+I'm a sophomore at UC Berkeley targeting these roles:
+
+- Associate Product Manager at a music streaming company - `https://musicstreaming.com/careers/apm`
+- Product Designer at a design collaboration platform - `https://designplatform.com/careers/designer`
+- UX Researcher at a travel platform - `https://travelplatform.com/careers/researcher`
+
+After analyzing my resume against these roles, build:
+
+**Action Tracker (Google Doc):** Forward-looking planner showing what to do next. Include skill gaps with projects to build, timeline with semester/year/grad milestones, networking targets, learning roadmap, and local resources. Tight spacing, scannable, built for weekly planning.
+
+**Skills Portfolio Log (Excel):** Backward-looking evidence bank showing what I've done. Log completed projects with metrics, skills inventory with proof points, quantified achievements, learning completions, and STAR stories tagged by competency. Built for mining resume bullets and cover letters.
+
+
+
+Open in Claude
+
+## 2. Give Claude context[](https://academy.claude.com/use-cases/plan-your-career-path)
+
+Equip Claude with your career materials and enable the tools it needs to analyze real-time job markets and provide strategic, personalized recommendations.
+
+### Required context[](https://academy.claude.com/use-cases/plan-your-career-path)
+
+Toggle on the Google Drive integration to give Claude access to your resume.
+
+The [Google Drive integration(opens in new tab)](https://support.claude.com/en/articles/10166901-using-the-google-drive-integration) grants Claude access to your resume as a working document, ensuring it's always updated with your current information, rather than uploading it as a static PDF.
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)
+
+ResumeDOC
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)
+
+Google Drive
+
+[Connect](https://claude.ai/directory/google-drive-drivemcp)
+
+Browse all connectors[Open in Claude](https://claude.ai/customize/connectors)
+
+### Optional context[](https://academy.claude.com/use-cases/plan-your-career-path)
+
+Make sure [Web Search(opens in new tab)](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search) is enabled so Claude can search the web for current information.
+
+## 3. What Claude creates[](https://academy.claude.com/use-cases/plan-your-career-path)
+
+Claude will analyze your resume against your target jobs and create two planning documents: an action-oriented roadmap and a detailed skills tracking system—both professionally formatted and built for ongoing use.
+
+Perfect! I've created a complete career planning system for you. Here's what I built:
+
+**Career Action Tracker (DOCX)** Forward-looking planning tool - Dense, scannable, built for weekly review:
+
+- **Target Roles Analysis:** Side-by-side gap analysis for APM (music streaming), Product Designer, and UX Researcher positions with color-coded priority levels
+- **Skill-Building Projects:** 5 concrete projects with timelines and status tracking:
+  - Music Mood Predictor (Python/ML - Feb-Mar 2025)
+  - SQL for Product Analytics (Jan-Feb 2025)
+  - PRD: Campus Discovery Feed (Mar 2025)
+  - Design System Component (Apr 2025)
+  - Travel Survey Research (Summer 2025)
+- **Timeline & Milestones:** Semester-by-semester roadmap from Spring 2025 → Graduation May 2027 with critical deadlines
+- **Networking Strategy:** Target companies (Spotify, Figma, Airbnb, SoundCloud) with specific contact angles and status tracking
+- **Learning Roadmap:** 5 key topics (SQL, PRDs, A/B testing, Statistics, Design Systems) with time estimates and checkboxes
+- **Local Resources:** Berkeley-specific on-campus resources and Bay Area networking events
+
+**Skills Portfolio Log (XLSX)** Backward-looking evidence bank - 5 comprehensive tabs:
+
+- **Project Log:** 5 completed projects with metrics, tools, deliverables, team size, and portfolio links
+- **Skills Inventory:** 19 skills across categories with proficiency levels (color-coded), proof points, and evidence. Includes: Design Tools (Figma, XD, Miro, Canva), Research Methods (interviews, usability testing, surveys), Technical Skills (Python, SQL, JavaScript, HTML/CSS), Soft Skills (presentation, collaboration, writing)
+- **Quantified Achievements:** 12 resume-ready bullets with context and metrics
+- **STAR Stories:** 7 detailed behavioral interview stories mapped to competencies (Problem Solving, Leadership, Ambiguity, Collaboration, Feedback, Data-Driven, Initiative)
+- **Learning Log:** 12 completed/in-progress courses, books, and workshops with dates and certifications
+
+Both documents are **dense, functional, and interconnected** - the tracker tells you what to build next, the portfolio logs what you've already done for easy mining when writing applications.
+
+**View your Career Action Tracker**
+
+## 4. Follow up prompts[](https://academy.claude.com/use-cases/plan-your-career-path)
+
+Continue the conversation with Claude to refine, expand, or explore further.
+
+### Prepare for coffee chats[](https://academy.claude.com/use-cases/plan-your-career-path)
+
+Come prepared with informed questions and connect your experience to what matters for that conversation. Ask Claude to help research the role context, company, and industry.
+
+I'm meeting a product manager from the streaming company next week. Research the company's product philosophy and competitive positioning, and then create a prep sheet with questions to help me understand their challenges, as well as aspects of my background that are important to highlight.
+
+
+
+Open in Claude
+
+### Draft differentiated application materials[](https://academy.claude.com/use-cases/plan-your-career-path)
+
+Claude can teach you how to adapt your materials for different roles and what makes them effective.
+
+Using my portfolio log, show me how to adapt my resume for PM, design, and research roles—what should I emphasize for each?
+
+
+
+Open in Claude
+
+### Update with new goals[](https://academy.claude.com/use-cases/plan-your-career-path)
+
+Claude can revise your career plan when priorities shift or new opportunities emerge, maintaining the structure while adapting content to changed circumstances.
+
+I just discovered UX writing roles that combine my interests. Can you analyze this job posting and update my action plan to include this career path?
+
+
+
+Open in Claude
+
+## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/plan-your-career-path)
+
+### Understand AI's role in your target career[](https://academy.claude.com/use-cases/plan-your-career-path)
+
+While exploring your career path, learn how AI is already reshaping that field. The [Anthropic Economic Index(opens in new tab)](https://www.anthropic.com/economic-index) lets you see AI adoption patterns across hundreds of occupations—revealing whether people in your target roles are using AI to augment their work (collaborating with AI as a thinking partner) or automate tasks (delegating routine work entirely).
+
+Understanding this distinction helps you build the right skills: roles heavy on augmentation require strong judgment and creative direction, while automation-focused work demands technical fluency in managing AI systems. Use the job explorer to investigate your target occupations, then ask Claude to help you identify which skills will matter most as AI transforms the field.
+
+### Use styles in your career conversations[](https://academy.claude.com/use-cases/plan-your-career-path)
+
+Create a custom [style(opens in new tab)](https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features) to shape how Claude engages with your questions. For example, set a style that responds like a career counselor—when you express doubts, Claude asks clarifying questions; when you propose ideas, Claude helps you think through trade-offs. This back-and-forth refines both the plan and your own thinking. Go to "Use style" in the search and tools menu, then "Create & edit styles" to describe the kind of conversational partner you need for career decisions.
+
+### Track your ongoing career work[](https://academy.claude.com/use-cases/plan-your-career-path)
+
+Create a [Project(opens in new tab)](https://support.claude.com/en/articles/9517075-what-are-projects) and upload your resume, action tracker, and skills log once to the Project Knowledge. Every conversation in that Project automatically has access to everything—you won't need to re-upload or re-explain context. Claude's [Memory(opens in new tab)](https://support.claude.com/en/articles/11817273-using-claude-s-chat-search-and-memory-to-build-on-previous-context) feature allows it to learn from your conversations within a project, remembering your career priorities, target roles, and preferences to build upon previous discussions.
+
+### Research your target roles and companies[](https://academy.claude.com/use-cases/plan-your-career-path)
+
+Use [Web Search(opens in new tab)](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search) when you need quick, specific answers to ground your planning—like details on target companies, recent industry events, or potential skill-building programs. For more in-depth analysis, enable [Research(opens in new tab)](https://support.claude.com/en/articles/11088861-using-research-on-claude) in the chat settings. Rather than piecing together information yourself, Research searches across your tools and the web to deliver a thorough report with source citations.
+
+## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/plan-your-career-path)
+
+Work with Claude to discover how to navigate your ideal career path and create a plan tailored to your experience and goals.
+
+I'm a sophomore at UC Berkeley targeting these roles:
+
+• Associate Product Manager at a music streaming company - `https://musicstreaming.com/careers/apm`
+• Product Designer at a design collaboration platform - `https://designplatform.com/careers/designer`
+• UX Researcher at a travel platform - `https://travelplatform.com/careers/researcher`
+
+After analyzing my resume against these roles, build:
+
+Action Tracker (Google Doc): Forward-looking planner showing what to do next. Include skill gaps with projects to build, timeline with semester/year/grad milestones, networking targets, learning roadmap, and local resources. Tight spacing, scannable, built for weekly planning.
+
+Skills Portfolio Log (Excel): Backward-looking evidence bank showing what I've done. Log completed projects with metrics, skills inventory with proof points, quantified achievements, learning completions, and STAR stories tagged by competency. Built for mining resume bullets and cover letters.
+
+Try in Claude

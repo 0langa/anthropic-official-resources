@@ -1,3 +1,13 @@
+# AI Capabilities and Limitations
+
+Build an accurate mental model of what large language models can and cannot do: next-token prediction, knowledge, working memory, steerability, and context limits.
+
+13 lessons3.5 hr1 quizCompletion badge
+
+[Start course](https://academy.claude.com/courses/ai-capabilities-and-limitations/intro-to-ai-capabilities-and-limitations)[Sign in to save progress](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-capabilities-and-limitations)
+
+![](https://academy.claude.com/assets/v1/thumbnail.light-mroir6wr.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dzjj3djt.png)
+
 13 lessons · 1 quizAI Capabilities and Limitations
 
 What you’ll learnBy the end of this course, you’ll be able to
@@ -19,11 +29,11 @@ We organize the course around four properties that shape what an AI system can a
 
 The final section looks at what happens when these properties collide — because in real use, they always do. A long document pushes against working memory while also straying into knowledge the model doesn't have; a vague instruction tests steerability at the same moment next-token prediction is reaching for whatever sounds most plausible. We close with a practical diagnostic: how to look at an unexpected output, recognize which kind of unexpected it is, locate roughly where on the capability-to-limitation continuum your task landed, and respond with a targeted fix instead of a generic retry.
 
-## Recommended prerequisites
+## Recommended prerequisites[](https://academy.claude.com/courses/ai-capabilities-and-limitations)
 
 None. This course assumes no technical background and no prior experience with AI tools. If you've already completed AI Fluency: Framework & Foundations, you'll recognize where each property connects to the 4Ds — but it's not required.
 
-## Who this is for
+## Who this is for[](https://academy.claude.com/courses/ai-capabilities-and-limitations)
 
 Anyone who uses, or is about to start using, generative AI in their work or studies and wants to understand why it behaves the way it does. Educators, students, knowledge workers, and team leads will all find the same core model useful, because the properties it describes don't change across use cases.
 
@@ -31,7 +41,7 @@ Anyone who uses, or is about to start using, generative AI in their work or stud
 
 ### Getting started
 
-3lessons
+3 lessons
 
 The word 'AI' covers a lot of ground. This section narrows it to the kind of system you'll actually be working with — large language models — and explains how two training stages, pretraining and fine-tuning, turn a raw text predictor into the helpful assistant you interact with. Along the way you'll meet the four-property framework that organizes the rest of the course.
 
@@ -39,7 +49,7 @@ The word 'AI' covers a lot of ground. This section narrows it to the kind of sys
 
 ### Next Token Prediction
 
-2lessons
+2 lessons
 
 Every answer an AI gives is built one token at a time, by predicting what should come next. This section shows what that means in practice: why the model is excellent at well-worn paths like summarizing or reformatting, why it can produce things that sound true but aren't, and how to recognize when a task is pushing into territory where prediction alone isn't enough.
 
@@ -47,7 +57,7 @@ Every answer an AI gives is built one token at a time, by predicting what should
 
 ### Knowledge
 
-2lessons
+2 lessons
 
 A model knows what was in its training data — frequently, recently, and consistently. This section unpacks what that implies: it's strong on mainstream topics and popular languages, weaker on anything rare, recent, niche, or contested. You'll practice judging where a question sits on that spectrum, so you know when to trust the answer and when to bring your own sources.
 
@@ -55,7 +65,7 @@ A model knows what was in its training data — frequently, recently, and consis
 
 ### Working Memory
 
-2lessons
+2 lessons
 
 The context window is the model's working memory: everything it can pay attention to right now, and nothing else. This section covers what fits, what quietly falls off the edge, why attention isn't uniform across a long document, and why a fresh session doesn't remember the last one. You'll learn to size up a task against the window before you start, instead of discovering the limit mid-conversation.
 
@@ -63,7 +73,7 @@ The context window is the model's working memory: everything it can pay attentio
 
 ### Steerability
 
-2lessons
+2 lessons
 
 Your instructions are how you steer — but not all instructions land equally. Short, concrete, verifiable asks ('respond as a table', 'under 100 words') work reliably; long reasoning chains, abstract requests, and demands for native precision are where steering starts to slip. This section helps you tell the difference and rewrite a wobbly instruction into one the model can actually follow.
 
@@ -71,7 +81,7 @@ Your instructions are how you steer — but not all instructions land equally. S
 
 ### Putting it all together and next steps
 
-3lessons
+3 lessons
 
 Real tasks rarely test one property at a time. A long contract review strains working memory while reaching past the model's knowledge; a vague creative brief tests steerability right where next-token prediction wants to fill in something plausible. This section shows you how the four properties collide, and gives you a diagnostic for any unexpected output: name which property is in play, place the task on its spectrum, and apply a targeted fix instead of just trying again.
 

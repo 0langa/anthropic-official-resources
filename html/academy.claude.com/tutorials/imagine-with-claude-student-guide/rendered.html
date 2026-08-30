@@ -1,0 +1,827 @@
+<!DOCTYPE html><html data-ip-country="DE" lang="en" data-mode="light" class="antialiased" style="--academy-header-h: 57px;"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Opt out of the Antspace Orbit bar on internal deploys — it overlays
+         the app's fixed header. Inert everywhere else. -->
+    <meta name="antspace-header" content="off">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <!-- Fallback; routes set their own title via TanStack head() — see src/lib/head.ts -->
+    <title>Visuals that appear as you study with Claude · Claude Academy</title><meta property="og:type" content="website"><meta property="og:url" content="https://academy.claude.com/tutorials/imagine-with-claude-student-guide"><meta name="description" content="A guide for students. What the feature is, how to use it well, and what it can do for your coursework."><meta property="og:description" content="A guide for students. What the feature is, how to use it well, and what it can do for your coursework."><meta property="og:title" content="Visuals that appear as you study with Claude · Claude Academy"><meta property="og:site_name" content="Claude Academy"><meta property="og:image" content="https://academy.claude.com/og/tutorials/imagine-with-claude-student-guide.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" data-academy-prerender="" href="https://academy.claude.com/tutorials/imagine-with-claude-student-guide">
+    
+    <!-- academy-theme-init Vite plugin injects the first-paint theme script here -->
+    <script type="module" crossorigin="" src="/assets/v1/index-in04i2i6.js"></script>
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/rolldown-runtime-kx061hj1.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/zod-gxe4kxys.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/content-es-meta-mstc7yuz.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/cn-i2kcdeju.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/backgroundImport-k6wrl6qg.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/preload-helper-dtg3ti5m.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/labels-mf3jq3mc.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/router-l6chxoka.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/CdsRoot-ovdy64yv.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/Icon-fyk6kbhs.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useQuery-lv3u5kr4.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/basePath-nbhphrod.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/academyClient-pfs738kz.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/flags-ehe19qmt.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/config-hmach85u.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/locale-ndpaao6h.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/loader-5rf23fwf.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/courses-in533fu8.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/timestamp-kp07ka0b.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/dashboard-cu7ub8p8.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/with-selector-wrtakigb.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useStore-6uvopxsr.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/ClientOnly-i40j1125.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/react-dom-mf4wm3ih.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/link-nuiygz46.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useMatch-mzpvk5d8.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useParams-iezrfsvx.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useSearch-h2y8yswj.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useNavigate-nsofa2ov.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/route-ed0llilg.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/lazyRouteComponent-jkfrehxm.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useRouterState-mjwadnuf.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/usePrefersReducedMotion-embr6a3m.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/google-drive-f1bosyml.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/claudeLinks-gmp2db9t.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/dist-cj5vve0p.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/typeableSelector-lvef9sz7.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useMultiClickSelectionGuard-m6i41kh3.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/trigger-context-d7k40152.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/Button-f43equga.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/react-intl-kh28rhc2.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/analytics-gti3jxoy.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/dynamicMessage-ewkgd4px.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/context-h5j1ejfl.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/Skeleton-c0j3kf9v.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/ArticleSkeleton-niw5aret.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/WidgetCopy-euw81nec.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/ResourceWidget-nuzfsw0z.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useStableHandler-pfbzvvy7.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/growthbook-dm2s7lya.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/featureFlags-ozdgio91.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/localizeHref-fpi8psjz.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useIsoLayoutEffect-b4k37b7y.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useButton-kw7knk97.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/shadowDom-k5zmurc9.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/textLinkColor-gnsnnh2j.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/TextLink-j3qngzeo.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/InlineLink-oaab1476.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useValueAsRef-lbqpfs2y.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/composite-nng7h1sr.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/stateAttributesMapping-nt95xuxt.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useBaseUiId-crjig2fv.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/visuallyHidden-ogw3hixi.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/CdsPortal-lqpplgk2.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useTimeout-hbc3akrz.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/surfacePaint-m2a24liz.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/desktopTitlebarInset-d23xkaeu.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useTransitionStatus-onfyr6ko.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/NullStore-ejm8nb28.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/DirectionContext-lx5chyvr.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/usePositioner-ouy8zfju.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/mergeRefs-hkt4okdf.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/CdsLayer-is4dwpwb.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/Tooltip-b3inquzz.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useValueChanged-kdxwgk27.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useOpenInteractionType-dy0ci4z3.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/inertValue-jssun85x.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useControlled-nlvb2q9x.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useCompositeListItem-0dukegzq.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/FormContext-htsul02p.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useLabelableId-hmpdiaee.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/serializeValue-eb0uf5i4.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/inert-k3780yje.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/classes-cazkun8c.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/FieldControl-k8v74ohq.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/TextInput-d5rwc41r.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/Badge-omnwuo6f.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/checkMark-kfhntusj.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/Combobox-lakkdlwn.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/composite-i0ykyg90.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/capturedFinalFocus-eqouyr9v.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/Dialog-coxrnym5.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/thumbnails-mxd9grjf.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/CompositeRoot-noelxlql.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/Tabs-n5jqrrky.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/Banner-dglb4021.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/tutorials-difqc7vi.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/Checkbox-bey3dhni.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/FieldsetRootContext-luot4hni.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/RadioGroup-js0vyq75.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/ChoiceCard-jezptmmx.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/Pictogram-lrwfepki.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/tokens-o4vxp7c2.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/FullPageLoading-b88opg92.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/HandWave-fz5uf76l.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/HandHeart-f36bacd9.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/ObjectBookApple-ggdmoext.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/ObjectBuilding-jnbku04m.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/ObjectStore-olm4kprq.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/ObjectCodeTerminal-b0h0aujw.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/ObjectDocument-ot6sgo95.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/ObjectShield-c2o2n63o.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/collections-fo448o98.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/ObjectDialogue-gvefoqqd.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/hubs-iu4ttvon.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/ObjectCompass-hwunsbei.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/GoldMedal-jrc3wyj6.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/search-o30hailj.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/library-kj8xnddz.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/swatches-f1dyzfxk.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/Card-lywk7csx.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/Avatar-dhf9ci2z.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/types-cxdsons3.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/ContentThumb-kjc4izfw.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/ContentCard-mui4os95.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/retry-jg1m2vsh.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/api-fhf61oup.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/progress-m2uvlizi.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/viewedState-okf63cbz.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/KindCards-ix7dbq99.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/ContentHeader-cpx4sbwu.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/nav-ctpfae1y.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/bannerSlot-mp9gz4gk.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/HubShell-iui75b39.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/canonicalBase-npuy57l4.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/embedContract-hy56hyn4.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/head-gh4po186.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/prerender-c3iv8573.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/localeRedirect-hkt9ln0h.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/guards-grct8up4.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/curation-kg783q8x.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/products-mih0f4vj.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/resource-pages-bozx4hh9.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/FilterCombobox-on2ns7hh.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/LibraryBrowser-fs4y7sxg.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/SectionHeader-dh2do6o8.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/PageLayout-hlv48kno.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/deployment-wizard-d8wbzodh.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/Breadcrumbs-n2h2f6uq.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/Stepper-o5inbszx.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useLocalStorageState-eohmr1e7.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/useChecklistState-os396c7r.js">
+    <link rel="modulepreload" crossorigin="" href="/assets/v1/searchSlug-dw0jwkrl.js">
+    <link rel="stylesheet" crossorigin="" href="/assets/v1/Icon-omr1u4i4.css">
+    <link rel="stylesheet" crossorigin="" href="/assets/v1/index-e7lgofhf.css">
+    <script>(function(){try{var d,p=location.pathname.split("/").map(function(s){try{s=decodeURI(s)}catch(e){}return s.replace(/[\x00-\x1f\x7f]/g,"")}).filter(Boolean).join("/");if(/^(?:learn\/)?embed\//i.test(p)){d=/[?&]mode=dark(?:&|$)/.test(location.search)}else{var s=localStorage.getItem("academy-theme");d=s==="dark"||(s!=="light"&&matchMedia("(prefers-color-scheme: dark)").matches)}document.documentElement.setAttribute("data-mode",d?"dark":"light")}catch(e){}})()</script>
+  <link rel="modulepreload" as="script" crossorigin="" href="https://academy.claude.com/assets/v1/initDatadog-bw6icndu.js"><link rel="modulepreload" as="script" crossorigin="" href="https://academy.claude.com/assets/v1/sanitizeReportedError-vt5t1vno.js"><link rel="modulepreload" as="script" crossorigin="" href="https://academy.claude.com/assets/v1/_slug-f013cvvi.js"><link rel="modulepreload" as="script" crossorigin="" href="https://academy.claude.com/assets/v1/TutorialDetailPage-g8xqkkk6.js"><link rel="modulepreload" as="script" crossorigin="" href="https://academy.claude.com/assets/v1/engagement-eax22fvl.js"><link rel="modulepreload" as="script" crossorigin="" href="https://academy.claude.com/assets/v1/ContentFeedbackBar-iczhpvcd.js"><link rel="modulepreload" as="script" crossorigin="" href="https://academy.claude.com/assets/v1/ArticleLayout-izk9h3mj.js"><link rel="modulepreload" as="script" crossorigin="" href="https://academy.claude.com/assets/v1/ContentHero-gfs8c0f9.js"><link rel="modulepreload" as="script" crossorigin="" href="https://academy.claude.com/assets/v1/content/tutorials/imagine-with-claude-student-guide/index-o78r3ock.js"><link rel="modulepreload" as="script" crossorigin="" href="https://academy.claude.com/assets/v1/main-nyf1m6wo.js"><link rel="modulepreload" as="script" crossorigin="" href="https://academy.claude.com/assets/v1/content/tutorials/imagine-with-claude-student-guide/components/Embed1-i1kv1dpn.js"><link rel="modulepreload" as="script" crossorigin="" href="https://academy.claude.com/assets/v1/_shared-d0qp8gkw.js"><link rel="modulepreload" as="script" crossorigin="" href="https://academy.claude.com/assets/v1/content/tutorials/imagine-with-claude-student-guide/components/Embed2-o2w46cf0.js"><link rel="modulepreload" as="script" crossorigin="" href="https://academy.claude.com/assets/v1/content/tutorials/imagine-with-claude-student-guide/components/Embed3-okxtg9e2.js"><link rel="modulepreload" as="script" crossorigin="" href="https://academy.claude.com/assets/v1/content/tutorials/imagine-with-claude-student-guide/components/Embed4-hr4kb4lx.js"><link rel="modulepreload" as="script" crossorigin="" href="https://academy.claude.com/assets/v1/content/tutorials/imagine-with-claude-student-guide/components/Embed5-nhsuqmuw.js"></head>
+  <body>
+    <div id="root"><div class="cds-root text-primary min-h-dvh bg-page" data-density="comfortable" data-platform="web" data-font="anthropic" data-page-bg="surface-0" style="font-size:var(--cds-font-size-body);--cds-page-bg:var(--cds-surface-0)"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Claude Academy","item":"https://academy.claude.com/"},{"@type":"ListItem","position":2,"name":"Tutorials","item":"https://academy.claude.com/tutorials"},{"@type":"ListItem","position":3,"name":"Visuals that appear as you study with Claude","item":"https://academy.claude.com/tutorials/imagine-with-claude-student-guide"}]}</script><div class="flex min-h-screen flex-col"><style>:root{--hero-dot:rgba(0,0,0,.12)}[data-mode="dark"]{--hero-dot:rgba(255,255,255,.08)}.swatch-peach{--swatch-0:#ffffff;--swatch-25:#fcf5f2;--swatch-50:#f9ebe5;--swatch-75:#f5e2d8;--swatch-100:#f1d8cb;--swatch-150:#e8c6b4;--swatch-200:#d7b6a5;--swatch-250:#c6a695;--swatch-300:#b69787;--swatch-350:#a68878;--swatch-400:#96796a;--swatch-450:#876b5c;--swatch-500:#775d4e;--swatch-550:#684f41;--swatch-600:#5a4134;--swatch-650:#4c3428;--swatch-700:#3e281b;--swatch-750:#311c10;--swatch-800:#221108;--swatch-850:#110905;--swatch-900:#030303;--swatch-band:#ebc9b7;--swatch-seal:#f9ebe5}[data-mode="dark"] .swatch-peach{--swatch-band:#513127;--swatch-seal:#c6a695}.swatch-cactus{--swatch-0:#ffffff;--swatch-25:#f4f8f6;--swatch-50:#e9f0ee;--swatch-75:#dee9e5;--swatch-100:#d4e2dd;--swatch-150:#bfd3cc;--swatch-200:#aec3bc;--swatch-250:#9fb3ad;--swatch-300:#90a49d;--swatch-350:#81948e;--swatch-400:#72857f;--swatch-450:#637770;--swatch-500:#556862;--swatch-550:#485a54;--swatch-600:#3a4c47;--swatch-650:#2d3f39;--swatch-700:#21322d;--swatch-750:#152521;--swatch-800:#0e1815;--swatch-850:#080c0b;--swatch-900:#030303;--swatch-band:#bcd1ca;--swatch-seal:#e9f0ee}[data-mode="dark"] .swatch-cactus{--swatch-band:#1b4337;--swatch-seal:#9fb3ad}.swatch-heather{--swatch-0:#ffffff;--swatch-25:#f6f6f9;--swatch-50:#eeeef4;--swatch-75:#e6e5ee;--swatch-100:#dddde8;--swatch-150:#cdccdc;--swatch-200:#bdbccc;--swatch-250:#adacbc;--swatch-300:#9d9cad;--swatch-350:#8e8d9d;--swatch-400:#7f7e8e;--swatch-450:#71707f;--swatch-500:#626170;--swatch-550:#545362;--swatch-600:#474654;--swatch-650:#3a3946;--swatch-700:#2d2c39;--swatch-750:#21202c;--swatch-800:#16151d;--swatch-850:#0b0b0e;--swatch-900:#030303;--swatch-band:#cbcadb;--swatch-seal:#eeeef4}[data-mode="dark"] .swatch-heather{--swatch-band:#393653;--swatch-seal:#adacbc}</style><header class="fixed inset-x-0 top-0 z-30 flex flex-none flex-col border-b bg-surface-0 px-lg"><div class="flex h-14 flex-none items-center justify-between gap-md"><div class="flex min-w-0 flex-none items-center gap-sm"><a href="/" class="min-w-0"><div data-cds="ProductLogo" class="inline-flex flex-col items-start" style="gap:4px"><div class="flex items-start" style="font-size:21px;gap:0.3em"><svg data-cds="Spark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="21" height="21" fill="var(--cds-clay, #d97757)" class="shrink-0" aria-hidden="true"><path d="m19.6 66.5 19.7-11 .3-1-.3-.5h-1l-3.3-.2-11.2-.3L14 53l-9.5-.5-2.4-.5L0 49l.2-1.5 2-1.3 2.9.2 6.3.5 9.5.6 6.9.4L38 49.1h1.6l.2-.7-.5-.4-.4-.4L29 41l-10.6-7-5.6-4.1-3-2-1.5-2-.6-4.2 2.7-3 3.7.3.9.2 3.7 2.9 8 6.1L37 36l1.5 1.2.6-.4.1-.3-.7-1.1L33 25l-6-10.4-2.7-4.3-.7-2.6c-.3-1-.4-2-.4-3l3-4.2L28 0l4.2.6L33.8 2l2.6 6 4.1 9.3L47 29.9l2 3.8 1 3.4.3 1h.7v-.5l.5-7.2 1-8.7 1-11.2.3-3.2 1.6-3.8 3-2L61 2.6l2 2.9-.3 1.8-1.1 7.7L59 27.1l-1.5 8.2h.9l1-1.1 4.1-5.4 6.9-8.6 3-3.5L77 13l2.3-1.8h4.3l3.1 4.7-1.4 4.9-4.4 5.6-3.7 4.7-5.3 7.1-3.2 5.7.3.4h.7l12-2.6 6.4-1.1 7.6-1.3 3.5 1.6.4 1.6-1.4 3.4-8.2 2-9.6 2-14.3 3.3-.2.1.2.3 6.4.6 2.8.2h6.8l12.6 1 3.3 2 1.9 2.7-.3 2-5.1 2.6-6.8-1.6-16-3.8-5.4-1.3h-.8v.4l4.6 4.5 8.3 7.5L89 80.1l.5 2.4-1.3 2-1.4-.2-9.2-7-3.6-3-8-6.8h-.5v.7l1.8 2.7 9.8 14.7.5 4.5-.7 1.4-2.6 1-2.7-.6-5.8-8-6-9-4.7-8.2-.5.4-2.9 30.2-1.3 1.5-3 1.2-2.5-2-1.4-3 1.4-6.2 1.6-8 1.3-6.4 1.2-7.9.7-2.6v-.2H49L43 72l-9 12.3-7.2 7.6-1.7.7-3-1.5.3-2.8L24 86l10-12.8 6-7.9 4-4.6-.1-.5h-.3L17.2 77.4l-4.7.6-2-2 .2-3 1-1 8-5.5Z"></path></svg><div class="flex flex-col items-start" style="gap:4px"><span class="whitespace-nowrap font-voice leading-none text-primary" style="font-size:21px;font-weight:500;margin-left:-0.1em;font-optical-sizing:auto;font-feature-settings:&quot;ss01&quot; 1, &quot;dlig&quot; 1">Claude Academy</span></div></div></div></a></div><nav aria-label="Primary" class="items-center gap-xs hidden min-w-0 flex-1 justify-center lg:flex"><a href="/collections/ai-fluency" class="flex h-control items-center whitespace-nowrap rounded px-2.5 text-body transition-colors duration-fast text-secondary hover:bg-fill-ghost-hover hover:text-primary">AI Fluency</a><button type="button" tabindex="0" data-base-ui-click-trigger="" id="base-ui-_R_v9acq_" aria-haspopup="dialog" aria-expanded="false" class="flex h-control items-center whitespace-nowrap rounded px-2.5 text-body transition-colors duration-fast text-secondary hover:bg-fill-ghost-hover hover:text-primary gap-1 data-[popup-open]:bg-fill-ghost-hover data-[popup-open]:text-primary">Products<span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" class="text-muted" aria-hidden="true"></span></button><button type="button" tabindex="0" data-base-ui-click-trigger="" id="base-ui-_R_vpacq_" aria-haspopup="dialog" aria-expanded="false" class="flex h-control items-center whitespace-nowrap rounded px-2.5 text-body transition-colors duration-fast bg-fill-ghost-hover font-medium text-primary gap-1 data-[popup-open]:bg-fill-ghost-hover data-[popup-open]:text-primary">Resources<span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" class="text-muted" aria-hidden="true"></span></button></nav><div class="flex min-w-0 items-center gap-xs"><button type="button" aria-label="Search or ask (Ctrl+K)" class="flex h-control items-center rounded px-2 text-secondary transition-colors duration-fast hover:bg-fill-ghost-hover hover:text-primary sm:min-w-56 sm:max-w-80 sm:gap-sm sm:border sm:bg-surface-1 sm:px-2.5 lg:min-w-0 lg:max-w-none lg:gap-0 lg:border-0 lg:bg-transparent lg:px-2 2xl:min-w-56 2xl:max-w-80 2xl:gap-sm 2xl:border 2xl:bg-surface-1 2xl:px-2.5" tabindex="0" data-base-ui-click-trigger="" id="base-ui-_R_1stacq_" aria-haspopup="dialog" aria-expanded="false"><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:20px;font-weight:433.3" class="flex-none" aria-hidden="true"></span><span class="hidden min-w-0 flex-1 truncate text-left text-body sm:inline lg:hidden 2xl:inline">Search or ask</span><span data-cds="Shortcut" data-variant="keycap" class="shrink-0 items-center gap-[2px] text-caption hidden sm:inline-flex lg:hidden 2xl:inline-flex"><kbd class="inline-flex shrink-0 items-center justify-center h-[calc(1em+6px)] rounded-[var(--cds-keycap-radius,4px)] [color:var(--cds-shortcut-cap-ink)] bg-[color:var(--cds-shortcut-cap-fill)] border border-[color:var(--cds-shortcut-cap-line)] font-inherit [line-height:1] min-w-[calc(1em+6px)] px-[3px]">Ctrl</kbd><kbd class="inline-flex shrink-0 items-center justify-center h-[calc(1em+6px)] rounded-[var(--cds-keycap-radius,4px)] [color:var(--cds-shortcut-cap-ink)] bg-[color:var(--cds-shortcut-cap-fill)] border border-[color:var(--cds-shortcut-cap-line)] font-inherit [line-height:1] w-[calc(1em+6px)] px-0">K</kbd></span></button><a data-cds="Button" href="/login?returnTo=https%3A%2F%2Facademy.claude.com%2Ftutorials%2Fimagine-with-claude-student-guide" class="cds-reset group/btn relative isolate inline-flex shrink-0 items-center justify-center gap-1.5 whitespace-nowrap select-none cursor-[var(--cds-cursor-interactive)] aria-disabled:cursor-default data-[disabled]:cursor-default border-0 outline-none focus-visible:outline-hidden [&amp;[data-initial-focus]:focus]:outline-hidden rounded h-control font-sans text-body [&amp;:disabled:not([aria-busy])]:opacity-disabled disabled:pointer-events-none transition-shadow duration-fast text-primary font-normal aria-pressed:text-accent focus-visible:shadow-focus [&amp;[data-initial-focus]:focus]:shadow-focus px-md"><span aria-hidden="true" class="absolute -z-[1] rounded-[inherit] inset-0 cds-btn-squish"><span data-cds-part="paint" class="absolute inset-0 rounded-[inherit] transition-[background-color,box-shadow,color] duration-fast ease-out group-focus-visible/btn:shadow-[inset_0_0_0_1px_var(--cds-page-bg)] group-[[data-initial-focus]:focus]/btn:shadow-[inset_0_0_0_1px_var(--cds-page-bg)] bg-fill-secondary group-hover/btn:bg-fill-secondary-hover group-[[aria-haspopup][aria-expanded=true]]/btn:bg-fill-secondary-hover group-aria-pressed/btn:bg-accent group-hover/btn:group-aria-pressed/btn:bg-accent shadow-field group-aria-pressed/btn:shadow-field-pressed group-focus-visible/btn:group-aria-pressed/btn:shadow-[inset_0_0_0_1px_var(--cds-page-bg)]"></span></span><span class="inline-flex min-w-0 items-center gap-1 ">Sign in</span></a></div></div><div class="flex h-11 flex-none items-center gap-xs lg:hidden"><nav aria-label="Primary" class="items-center gap-xs hidden min-w-0 md:flex -ml-2.5"><a href="/collections/ai-fluency" class="flex h-control items-center whitespace-nowrap rounded px-2.5 text-body transition-colors duration-fast text-secondary hover:bg-fill-ghost-hover hover:text-primary">AI Fluency</a><button type="button" tabindex="0" data-base-ui-click-trigger="" id="base-ui-_R_1uaacq_" aria-haspopup="dialog" aria-expanded="false" class="flex h-control items-center whitespace-nowrap rounded px-2.5 text-body transition-colors duration-fast text-secondary hover:bg-fill-ghost-hover hover:text-primary gap-1 data-[popup-open]:bg-fill-ghost-hover data-[popup-open]:text-primary">Products<span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" class="text-muted" aria-hidden="true"></span></button><button type="button" tabindex="0" data-base-ui-click-trigger="" id="base-ui-_R_1vaacq_" aria-haspopup="dialog" aria-expanded="false" class="flex h-control items-center whitespace-nowrap rounded px-2.5 text-body transition-colors duration-fast bg-fill-ghost-hover font-medium text-primary gap-1 data-[popup-open]:bg-fill-ghost-hover data-[popup-open]:text-primary">Resources<span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" class="text-muted" aria-hidden="true"></span></button></nav><span class="flex min-w-0 md:hidden"><button type="button" data-cds="Button" data-cds-ghost="" data-size="sm" class="cds-reset group/btn relative isolate inline-flex shrink-0 items-center justify-center gap-1.5 whitespace-nowrap select-none cursor-[var(--cds-cursor-interactive)] aria-disabled:cursor-default data-[disabled]:cursor-default border-0 outline-none focus-visible:outline-hidden [&amp;[data-initial-focus]:focus]:outline-hidden rounded h-control font-sans text-body [&amp;:disabled:not([aria-busy])]:opacity-disabled disabled:pointer-events-none transition-shadow duration-fast text-primary font-normal aria-pressed:text-accent focus-visible:shadow-focus [&amp;[data-initial-focus]:focus]:shadow-focus px-md -ml-2.5" tabindex="0" aria-haspopup="menu" id="base-ui-_R_deacq_" aria-expanded="false"><span aria-hidden="true" class="absolute -z-[1] rounded-[inherit] inset-0 cds-btn-squish"><span data-cds-part="paint" class="absolute inset-0 rounded-[inherit] transition-[background-color,box-shadow,color] duration-fast ease-out group-focus-visible/btn:shadow-[inset_0_0_0_1px_var(--cds-page-bg)] group-[[data-initial-focus]:focus]/btn:shadow-[inset_0_0_0_1px_var(--cds-page-bg)] bg-transparent group-hover/btn:bg-fill-ghost-hover group-[[aria-haspopup][aria-expanded=true]]/btn:bg-fill-ghost-hover group-aria-pressed/btn:bg-accent group-hover/btn:group-aria-pressed/btn:bg-accent "></span></span><span class="inline-flex min-w-0 items-center gap-1 ">Tutorials<span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:12px;font-weight:577.8" class="shrink-0 opacity-60" aria-hidden="true"></span></span></button></span></div></header><div class="flex min-h-screen flex-1 flex-col pt-[var(--academy-header-h,3.5rem)]"><main class="flex w-full flex-1 flex-col bg-surface-0"><!--$--><!--$--><header class="swatch-peach"><div class="academy-hero-ground relative overflow-hidden"><div data-banner-slot="hero"><div role="status" tabindex="-1" class="outline-none"></div></div><div class="relative mx-auto flex w-full max-w-screen-2xl gap-8 px-4 pb-8 pt-6 sm:px-6 lg:px-8 lg:pb-14 lg:pt-9 lg:min-h-85"><div class="relative z-[1] mx-auto flex w-full min-w-0 max-w-3xl flex-col"><div class="mb-6 lg:mb-11"><nav aria-label="Breadcrumb" class="text-body text-secondary"><ol class="hidden flex-wrap items-center gap-xs sm:flex"><li class="flex min-w-0 items-center gap-xs"><a href="/" class="font-medium outline-none transition-colors duration-fast hover:text-primary focus-visible:shadow-focus -mx-1 flex min-w-0 items-center gap-xs rounded px-1 "><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" aria-hidden="true"></span><span class="truncate">Academy</span></a></li><li class="flex min-w-0 items-center gap-xs"><span aria-hidden="true" class="text-muted">/</span><a class="font-medium outline-none transition-colors duration-fast hover:text-primary focus-visible:shadow-focus truncate  active" href="/tutorials" data-status="active" aria-current="page">Tutorials</a></li></ol><a class="font-medium outline-none transition-colors duration-fast hover:text-primary focus-visible:shadow-focus -mx-1 flex min-w-0 items-center gap-xs rounded px-1 sm:hidden active" href="/tutorials" data-status="active" aria-current="page"><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" aria-hidden="true"></span><span class="truncate">Tutorials</span></a></nav></div><div class="flex flex-col gap-5"><div class="flex flex-col gap-3.5"><h1 class="academy-hero-title font-heading text-pretty tracking-tight text-primary [font-feature-settings:'ss01']">Visuals that appear as you study with Claude</h1><p class="academy-hero-lede max-w-[44em] text-pretty text-secondary">A guide for students. What the feature is, how to use it well, and what it can do for your coursework.</p></div><div class="flex flex-wrap items-center gap-1.5 pt-1"><span class="inline-flex h-7 items-center gap-1.5 rounded-full border px-2.5 text-body text-secondary border-swatch-0/35 bg-swatch-0/12 dark:border-swatch-0/10 dark:bg-swatch-0/4"><span class="inline-flex text-primary"><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" aria-hidden="true"></span></span>10 min</span><span class="inline-flex h-7 items-center gap-1.5 rounded-full border px-2.5 text-body text-secondary border-swatch-0/35 bg-swatch-0/12 dark:border-swatch-0/10 dark:bg-swatch-0/4"><span class="inline-flex text-primary"><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" aria-hidden="true"></span></span>Claude.ai</span></div><div class="flex flex-wrap items-center gap-2.5 pt-2"><a href="https://claude.ai/new" target="_blank" rel="noopener" data-cds="Button" data-size="lg" class="cds-reset group/btn relative isolate inline-flex shrink-0 items-center justify-center gap-1.5 whitespace-nowrap select-none cursor-[var(--cds-cursor-interactive)] aria-disabled:cursor-default data-[disabled]:cursor-default border-0 outline-none focus-visible:outline-hidden [&amp;[data-initial-focus]:focus]:outline-hidden rounded h-control font-sans text-body [&amp;:disabled:not([aria-busy])]:opacity-disabled disabled:pointer-events-none transition-shadow duration-fast text-on-primary font-medium [--cds-shortcut-cap-ink:currentColor] focus-visible:shadow-focus [&amp;[data-initial-focus]:focus]:shadow-focus px-md"><span aria-hidden="true" class="absolute -z-[1] rounded-[inherit] inset-[0.5px] cds-btn-squish"><span data-cds-part="paint" class="absolute inset-0 rounded-[inherit] transition-[background-color,box-shadow,color] duration-fast ease-out group-focus-visible/btn:shadow-[inset_0_0_0_1px_var(--cds-page-bg)] group-[[data-initial-focus]:focus]/btn:shadow-[inset_0_0_0_1px_var(--cds-page-bg)] bg-fill-primary group-hover/btn:bg-fill-primary-hover group-[[aria-haspopup][aria-expanded=true]]/btn:bg-fill-primary-hover group-aria-pressed/btn:bg-accent group-hover/btn:group-aria-pressed/btn:bg-accent "></span></span><span class="inline-flex min-w-0 items-center gap-1 ">Open Claude<span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:20px;font-weight:433.3" class="-me-1" aria-hidden="true"></span></span></a></div></div></div><div aria-hidden="true" class="pointer-events-none relative hidden w-72 shrink-0 self-stretch lg:block"><div class="absolute -bottom-8 -top-6 left-1/2 -translate-x-1/2 lg:-bottom-14 lg:-top-9 w-104"><div class="absolute inset-0" style="background-image:radial-gradient(var(--hero-dot) 1px, transparent 1px);background-size:14px 14px;background-position:7px 7px;inset:0 -120px;mask-image:radial-gradient(ellipse 70% 120% at 50% 100%, #000 22%, transparent 74%)"></div><img src="/assets/v1/thumbnail.light-m2mff15b.png" alt="" loading="lazy" decoding="async" fetchpriority="high" class="absolute h-auto dark:hidden bottom-0 left-1/2 w-[86%] -translate-x-1/2"><img src="/assets/v1/thumbnail.dark-lc54n5dd.png" alt="" loading="lazy" decoding="async" fetchpriority="high" class="absolute hidden h-auto dark:block bottom-0 left-1/2 w-[86%] -translate-x-1/2"></div></div></div></div></header><div class="mx-auto flex w-full max-w-screen-2xl gap-8 px-4 py-8 sm:px-6 lg:px-8 lg:py-12"><div class="mx-auto flex w-full min-w-0 max-w-3xl flex-col gap-xl"><article class="mdx-article flex flex-col gap-md"><!--$--><p class="text-base leading-relaxed text-secondary">Some things land faster drawn than said, and a good teacher knows when to reach for the whiteboard.</p>
+<p class="text-base leading-relaxed text-secondary">Now, Claude can do that too. When a visual is the clearer answer to what you asked, Claude builds one as part of its response. The visual sits alongside the text, shaped directly to your ask — a diagram you click into as Claude explains, a chart you filter while you ask follow-ups, something that plays when the concept is a sound.</p>
+<p class="text-base leading-relaxed text-secondary">The visual streams in alongside the text and the conversation keeps going. You can adjust it, click into what's still unclear, or ask a follow-up and Claude draws the next one. If something turns out worth keeping, there's a one-click path to save it for later.</p>
+<p class="text-base leading-relaxed text-secondary"><strong>You don't need to do anything special.</strong> Claude decides when a visual would help. You can also ask to explicitly trigger it — any version of "draw this," "show me," or "can I see that" works.</p>
+<h3 id="what-this-is-practically" class="group/heading pt-2 font-heading text-lg font-semibold scroll-mt-[calc(var(--academy-header-h,3.5rem)+1.5rem)]">What this is, practically<a href="#what-this-is-practically" aria-hidden="true" tabindex="-1" class="pointer-events-none -mr-6 inline-flex select-none pl-2 align-middle text-muted opacity-0 transition-opacity duration-fast max-lg:hidden pointer-coarse:hidden group-hover/heading:pointer-events-auto group-hover/heading:opacity-100 hover:text-primary"><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" aria-hidden="true"></span></a></h3>
+<ul class="flex list-disc flex-col gap-xs pl-lg">
+<li class="text-base leading-relaxed text-secondary"><strong>Appears as part of Claude's answer</strong> — in the flow of the conversation, not a side panel. If you've used <a data-cds="TextLink" aria-describedby="_R_1i2rj6icq_" href="https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them" target="_blank" rel="noopener" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary">Artifacts<span id="_R_1i2rj6icq_" hidden="" class="sr-only">(opens in new tab)</span></a>, this is the lighter version.</li>
+<li class="text-base leading-relaxed text-secondary"><strong>Interactive, often.</strong> Sliders, draggable points, buttons, interactive elements, and even sound.</li>
+<li class="text-base leading-relaxed text-secondary"><strong>Built from what you gave it</strong> — can use context from the conversation, files you uploaded, or what Claude knows about you.</li>
+<li class="text-base leading-relaxed text-secondary"><strong>Diagrams, charts, tools</strong> — not image generation.</li>
+<li class="text-base leading-relaxed text-secondary"><strong>Web and desktop</strong>, all plans while in beta.</li>
+</ul>
+<h2 id="a-few-moments-where-this-may-help-you" class="group/heading mt-12 font-heading text-[1.375rem] font-medium tracking-tight first:mt-0 scroll-mt-[calc(var(--academy-header-h,3.5rem)+1.5rem)]">A few moments where this may help you<a href="#a-few-moments-where-this-may-help-you" aria-hidden="true" tabindex="-1" class="pointer-events-none -mr-6 inline-flex select-none pl-2 align-middle text-muted opacity-0 transition-opacity duration-fast max-lg:hidden pointer-coarse:hidden group-hover/heading:pointer-events-auto group-hover/heading:opacity-100 hover:text-primary"><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" aria-hidden="true"></span></a></h2>
+<p class="text-base leading-relaxed text-secondary">Here's what it looks like in practice — the prompt, the response, and the visual appearing mid-answer.</p>
+<h3 id="seeing-the-explanation-drawn-out" class="group/heading pt-2 font-heading text-lg font-semibold scroll-mt-[calc(var(--academy-header-h,3.5rem)+1.5rem)]">Seeing the explanation drawn out<a href="#seeing-the-explanation-drawn-out" aria-hidden="true" tabindex="-1" class="pointer-events-none -mr-6 inline-flex select-none pl-2 align-middle text-muted opacity-0 transition-opacity duration-fast max-lg:hidden pointer-coarse:hidden group-hover/heading:pointer-events-auto group-hover/heading:opacity-100 hover:text-primary"><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" aria-hidden="true"></span></a></h3>
+<p class="text-base leading-relaxed text-secondary">A concept from lecture, a dense passage from a textbook, a thing you keep hearing about but can't picture— drawn so you can see what it actually means.</p>
+<div role="group" aria-label="Interactive exercise" class="my-lg"><div class="iwc not-prose"><style>
+.iwc {
+  --color-text-primary: #2c2c2a;
+  --color-text-secondary: #6b6b68;
+  --color-text-tertiary: #9a9993;
+  --color-text-success: #0F6E56;
+  --color-text-danger: #A32D2D;
+  --color-text-warning: #854F0B;
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #f5f4ed;
+  --color-background-tertiary: #faf9f5;
+  --color-background-success: #E1F5EE;
+  --color-background-danger: #FAECE7;
+  --color-background-warning: #FAEEDA;
+  --color-border-primary: #c8c7c0;
+  --color-border-secondary: rgba(0,0,0,0.15);
+  --color-border-tertiary: rgba(0,0,0,0.08);
+  --color-border-success: #5DCAA5;
+  --color-border-danger: #F09595;
+  --border-radius-sm: 6px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-xl: 16px;
+  --font-sans: "anthropic-sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: "anthropic-serif", Georgia, "Times New Roman", serif;
+  --font-mono: "anthropic-mono", "SF Mono", Monaco, Consolas, monospace;
+  --p: var(--color-text-primary);
+  --s: var(--color-text-secondary);
+  --t: var(--color-text-tertiary);
+  --bg2: var(--color-background-secondary);
+  --b: var(--color-border-secondary);
+  --chat-user-bg: #f0efe8;
+  --chat-window-border: rgba(0,0,0,0.06);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "kern" 1, "liga" 1;
+  font-family: var(--font-serif);
+  color: var(--color-text-primary);
+}
+.iwc .embed-wrap { max-width: 720px; margin: 0 auto; }
+.iwc .chat-window {
+  background: #ffffff;
+  border: 1px solid var(--chat-window-border);
+  border-radius: var(--border-radius-xl);
+  padding: 1.5rem 1.5rem 1.75rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03), 0 2px 8px rgba(0,0,0,0.02);
+}
+.iwc .user-message {
+  background: var(--chat-user-bg);
+  border-radius: 12px;
+  padding: 10px 14px 10px 10px;
+  margin: 0 0 1.5rem auto;
+  max-width: min(75ch, 85%);
+  width: fit-content;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.625;
+  color: var(--color-text-primary);
+}
+.iwc .claude-explanation {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  line-height: 1.65;
+  letter-spacing: -0.005em;
+  color: var(--color-text-primary);
+  margin: 0 0 1rem;
+}
+.iwc .imagine-visual + .claude-explanation { margin-top: 1.125rem; }
+.iwc .claude-explanation p { margin: 0 0 0.75rem; }
+.iwc .claude-explanation p:last-child { margin-bottom: 0; }
+.iwc .claude-explanation strong { font-weight: 600; }
+.iwc .claude-explanation em { font-style: italic; }
+.iwc .imagine-visual {
+  margin: 1rem 0;
+  font-family: var(--font-sans);
+  line-height: 1.55;
+  position: relative;
+}
+.iwc .imagine-visual > svg { display: block; width: 100%; height: auto; shape-rendering: geometricPrecision; }
+.iwc .t  { font-family: var(--font-sans); font-size: 14px; fill: var(--p); }
+.iwc .ts { font-family: var(--font-sans); font-size: 12px; fill: var(--s); }
+.iwc .th { font-family: var(--font-sans); font-size: 14px; fill: var(--p); font-weight: 600; }
+.iwc .box { fill: var(--bg2); stroke: var(--b); }
+.iwc .arr { stroke: var(--t); fill: none; stroke-width: 1.5; }
+.iwc .node { cursor: pointer; transition: filter 0.12s ease; }
+.iwc .node:hover rect, .iwc .node:hover .box { filter: brightness(0.97); }
+.iwc .node:hover text { opacity: 0.8; }
+.iwc .c-purple rect { fill: #EEEDFE; stroke: #534AB7; }
+.iwc .iwc-btn {
+  background: var(--color-background-tertiary);
+  border: 0.5px solid var(--color-border-secondary);
+  color: var(--color-text-primary);
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius-md);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.iwc .iwc-btn:hover { background: var(--color-background-secondary); }
+</style><div class="embed-wrap"><div class="chat-window"><div class="user-message">Turkish is supposedly agglutinative — suffixes stack up. I get that in principle but I can't picture how one word ends up meaning a whole sentence. Build me an example step by step so I can see each piece doing its job.</div><div class="claude-response"><div class="claude-explanation"><p>Here's one word — <em>görüşemeyecekmişiz</em> — that means "apparently we won't be able to see each other." It's one word because Turkish adds each grammatical piece as its own suffix, in a fixed slot, and the pieces don't fuse into each other the way English irregulars do.</p><p>Watch it build, one morpheme at a time. The root is <em>gör</em>, "see":</p></div><div class="imagine-visual" role="img" aria-label="Turkish word built from six stacked suffixes"><svg width="100%" viewBox="0 0 680 475"><g><text class="ts" x="53" y="20" text-anchor="middle" fill="#185FA5">root verb</text><g><rect x="20" y="28" width="66" height="34" rx="6" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"></rect><text class="th" x="53" y="49" text-anchor="middle" fill="#185FA5">gör</text></g><text class="ts" x="20" y="80">"see"</text></g><g><text class="ts" x="117" y="95" text-anchor="middle" fill="#0F6E56">reciprocal</text><g><rect x="20" y="103" width="66" height="34" rx="6" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"></rect><text class="th" x="53" y="124" text-anchor="middle" fill="#185FA5">gör</text></g><g><rect x="88" y="103" width="58" height="34" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"></rect><text class="th" x="117" y="124" text-anchor="middle" fill="#0F6E56">üş</text></g><text class="ts" x="20" y="155">"see each other"</text></g><g><text class="ts" x="181" y="170" text-anchor="middle" fill="#993C1D">negative ability</text><g><rect x="20" y="178" width="66" height="34" rx="6" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"></rect><text class="th" x="53" y="199" text-anchor="middle" fill="#185FA5">gör</text></g><g><rect x="88" y="178" width="58" height="34" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"></rect><text class="th" x="117" y="199" text-anchor="middle" fill="#0F6E56">üş</text></g><g><rect x="148" y="178" width="66" height="34" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"></rect><text class="th" x="181" y="199" text-anchor="middle" fill="#993C1D">eme</text></g><text class="ts" x="20" y="230">"not be able to see each other"</text></g><g><text class="ts" x="258" y="245" text-anchor="middle" fill="#854F0B">future tense</text><g><rect x="20" y="253" width="66" height="34" rx="6" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"></rect><text class="th" x="53" y="274" text-anchor="middle" fill="#185FA5">gör</text></g><g><rect x="88" y="253" width="58" height="34" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"></rect><text class="th" x="117" y="274" text-anchor="middle" fill="#0F6E56">üş</text></g><g><rect x="148" y="253" width="66" height="34" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"></rect><text class="th" x="181" y="274" text-anchor="middle" fill="#993C1D">eme</text></g><g><rect x="216" y="253" width="84" height="34" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"></rect><text class="th" x="258" y="274" text-anchor="middle" fill="#854F0B">yecek</text></g><text class="ts" x="20" y="305">"will not be able to see each other"</text></g><g><text class="ts" x="335" y="320" text-anchor="middle" fill="#534AB7">evidential (hearsay)</text><g><rect x="20" y="328" width="66" height="34" rx="6" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"></rect><text class="th" x="53" y="349" text-anchor="middle" fill="#185FA5">gör</text></g><g><rect x="88" y="328" width="58" height="34" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"></rect><text class="th" x="117" y="349" text-anchor="middle" fill="#0F6E56">üş</text></g><g><rect x="148" y="328" width="66" height="34" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"></rect><text class="th" x="181" y="349" text-anchor="middle" fill="#993C1D">eme</text></g><g><rect x="216" y="328" width="84" height="34" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"></rect><text class="th" x="258" y="349" text-anchor="middle" fill="#854F0B">yecek</text></g><g><rect x="302" y="328" width="66" height="34" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"></rect><text class="th" x="335" y="349" text-anchor="middle" fill="#534AB7">miş</text></g><text class="ts" x="20" y="380">"apparently will not be able to see each other"</text></g><g><text class="ts" x="398" y="395" text-anchor="middle" fill="#993556">1st person plural</text><g><rect x="20" y="403" width="66" height="34" rx="6" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"></rect><text class="th" x="53" y="424" text-anchor="middle" fill="#185FA5">gör</text></g><g><rect x="88" y="403" width="58" height="34" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"></rect><text class="th" x="117" y="424" text-anchor="middle" fill="#0F6E56">üş</text></g><g><rect x="148" y="403" width="66" height="34" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"></rect><text class="th" x="181" y="424" text-anchor="middle" fill="#993C1D">eme</text></g><g><rect x="216" y="403" width="84" height="34" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"></rect><text class="th" x="258" y="424" text-anchor="middle" fill="#854F0B">yecek</text></g><g><rect x="302" y="403" width="66" height="34" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"></rect><text class="th" x="335" y="424" text-anchor="middle" fill="#534AB7">miş</text></g><g><rect x="370" y="403" width="56" height="34" rx="6" fill="#FBEAF0" stroke="#993556" stroke-width="0.5"></rect><text class="th" x="398" y="424" text-anchor="middle" fill="#993556">iz</text></g><text class="ts" x="20" y="455">"apparently we will not be able to see each other"</text></g></svg></div><div class="claude-explanation"><p>That's what "agglutinative" means in practice: each suffix does one job, the order is fixed, and the boundaries stay clean. Once you know the slots — reciprocal, ability, tense, evidentiality, person — you can read a word back off like a formula, and you can build new ones by filling the slots differently.</p></div></div></div></div></div></div>
+<h3 id="interacting-with-the-concept-in-chat" class="group/heading pt-2 font-heading text-lg font-semibold scroll-mt-[calc(var(--academy-header-h,3.5rem)+1.5rem)]">Interacting with the concept in chat<a href="#interacting-with-the-concept-in-chat" aria-hidden="true" tabindex="-1" class="pointer-events-none -mr-6 inline-flex select-none pl-2 align-middle text-muted opacity-0 transition-opacity duration-fast max-lg:hidden pointer-coarse:hidden group-hover/heading:pointer-events-auto group-hover/heading:opacity-100 hover:text-primary"><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" aria-hidden="true"></span></a></h3>
+<p class="text-base leading-relaxed text-secondary">Some things you need to hear, or change, or click. Claude builds the interactive version so you're doing, not just reading.</p>
+<div role="group" aria-label="Interactive exercise" class="my-lg"><div class="iwc not-prose"><style>
+.iwc {
+  --color-text-primary: #2c2c2a;
+  --color-text-secondary: #6b6b68;
+  --color-text-tertiary: #9a9993;
+  --color-text-success: #0F6E56;
+  --color-text-danger: #A32D2D;
+  --color-text-warning: #854F0B;
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #f5f4ed;
+  --color-background-tertiary: #faf9f5;
+  --color-background-success: #E1F5EE;
+  --color-background-danger: #FAECE7;
+  --color-background-warning: #FAEEDA;
+  --color-border-primary: #c8c7c0;
+  --color-border-secondary: rgba(0,0,0,0.15);
+  --color-border-tertiary: rgba(0,0,0,0.08);
+  --color-border-success: #5DCAA5;
+  --color-border-danger: #F09595;
+  --border-radius-sm: 6px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-xl: 16px;
+  --font-sans: "anthropic-sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: "anthropic-serif", Georgia, "Times New Roman", serif;
+  --font-mono: "anthropic-mono", "SF Mono", Monaco, Consolas, monospace;
+  --p: var(--color-text-primary);
+  --s: var(--color-text-secondary);
+  --t: var(--color-text-tertiary);
+  --bg2: var(--color-background-secondary);
+  --b: var(--color-border-secondary);
+  --chat-user-bg: #f0efe8;
+  --chat-window-border: rgba(0,0,0,0.06);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "kern" 1, "liga" 1;
+  font-family: var(--font-serif);
+  color: var(--color-text-primary);
+}
+.iwc .embed-wrap { max-width: 720px; margin: 0 auto; }
+.iwc .chat-window {
+  background: #ffffff;
+  border: 1px solid var(--chat-window-border);
+  border-radius: var(--border-radius-xl);
+  padding: 1.5rem 1.5rem 1.75rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03), 0 2px 8px rgba(0,0,0,0.02);
+}
+.iwc .user-message {
+  background: var(--chat-user-bg);
+  border-radius: 12px;
+  padding: 10px 14px 10px 10px;
+  margin: 0 0 1.5rem auto;
+  max-width: min(75ch, 85%);
+  width: fit-content;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.625;
+  color: var(--color-text-primary);
+}
+.iwc .claude-explanation {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  line-height: 1.65;
+  letter-spacing: -0.005em;
+  color: var(--color-text-primary);
+  margin: 0 0 1rem;
+}
+.iwc .imagine-visual + .claude-explanation { margin-top: 1.125rem; }
+.iwc .claude-explanation p { margin: 0 0 0.75rem; }
+.iwc .claude-explanation p:last-child { margin-bottom: 0; }
+.iwc .claude-explanation strong { font-weight: 600; }
+.iwc .claude-explanation em { font-style: italic; }
+.iwc .imagine-visual {
+  margin: 1rem 0;
+  font-family: var(--font-sans);
+  line-height: 1.55;
+  position: relative;
+}
+.iwc .imagine-visual > svg { display: block; width: 100%; height: auto; shape-rendering: geometricPrecision; }
+.iwc .t  { font-family: var(--font-sans); font-size: 14px; fill: var(--p); }
+.iwc .ts { font-family: var(--font-sans); font-size: 12px; fill: var(--s); }
+.iwc .th { font-family: var(--font-sans); font-size: 14px; fill: var(--p); font-weight: 600; }
+.iwc .box { fill: var(--bg2); stroke: var(--b); }
+.iwc .arr { stroke: var(--t); fill: none; stroke-width: 1.5; }
+.iwc .node { cursor: pointer; transition: filter 0.12s ease; }
+.iwc .node:hover rect, .iwc .node:hover .box { filter: brightness(0.97); }
+.iwc .node:hover text { opacity: 0.8; }
+.iwc .c-purple rect { fill: #EEEDFE; stroke: #534AB7; }
+.iwc .iwc-btn {
+  background: var(--color-background-tertiary);
+  border: 0.5px solid var(--color-border-secondary);
+  color: var(--color-text-primary);
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius-md);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.iwc .iwc-btn:hover { background: var(--color-background-secondary); }
+</style><div class="embed-wrap"><div class="chat-window" style="overflow-x: hidden;"><style>
+.iwc #cm_sld_row { display:flex; gap:18px; max-width:420px; margin:1rem auto 0; }
+.iwc .cm_sld {
+  -webkit-appearance:none; appearance:none; flex:1; height:3px;
+  background:rgba(0,0,0,0.06); border-radius:2px; outline:none;
+}
+.iwc .cm_sld::-webkit-slider-thumb {
+  -webkit-appearance:none; width:16px; height:16px; border-radius:50%;
+  border:2px solid var(--color-background-primary);
+  box-shadow:0 0 0 0.5px rgba(0,0,0,0.18), 0 1px 2px rgba(0,0,0,0.1);
+  cursor:grab; transition:transform .12s;
+}
+.iwc .cm_sld:active::-webkit-slider-thumb { cursor:grabbing; transform:scale(1.15); }
+.iwc .cm_sld::-moz-range-thumb {
+  width:14px; height:14px; border-radius:50%;
+  border:2px solid var(--color-background-primary);
+  box-shadow:0 0 0 0.5px rgba(0,0,0,0.18); cursor:grab;
+}
+.iwc .cm_sld_r::-webkit-slider-thumb { background:#ff2828; }
+.iwc .cm_sld_g::-webkit-slider-thumb { background:#28e828; }
+.iwc .cm_sld_b::-webkit-slider-thumb { background:#2848ff; }
+.iwc .cm_sld_r::-moz-range-thumb { background:#ff2828; }
+.iwc .cm_sld_g::-moz-range-thumb { background:#28e828; }
+.iwc .cm_sld_b::-moz-range-thumb { background:#2848ff; }
+</style><div class="user-message">Wait — red + green light makes yellow on a screen, but red + green paint makes brown. Why does mixing colors work completely differently depending on whether it's light or paint?</div><div class="claude-response"><div class="claude-explanation"><p>Short answer: <strong>light adds, paint subtracts.</strong> A screen stacks light on light — more mixing means more energy hitting your eye, trending toward white. Paint is a <em>filter</em> — each pigment steals wavelengths, and stacking filters means <em>less</em> light surviving to reach your eye.</p></div><div class="imagine-visual" role="img" aria-label="Additive versus subtractive color mixing"><svg width="100%" viewBox="0 0 680 310" style="display: block;"><defs><marker id="cm_arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="var(--t)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></marker><clipPath id="cm_cl"><rect x="40" y="38" width="280" height="166" rx="12"></rect></clipPath><clipPath id="cm_cp"><rect x="360" y="38" width="280" height="166" rx="12"></rect></clipPath></defs><text class="th" x="180" y="24" text-anchor="middle">Light (screen)</text><text class="th" x="500" y="24" text-anchor="middle">Paint (pigment)</text><rect x="40" y="38" width="280" height="166" rx="12" fill="#1a1a1a" stroke="var(--t)" stroke-width="0.5"></rect><text class="ts" x="180" y="56" text-anchor="middle" fill="#888">Starts black — each color adds</text><g clip-path="url(#cm_cl)"><circle cx="156" cy="118" r="44" fill="#ff2828" opacity="0.645" style="mix-blend-mode: screen; transition: opacity 0.1s linear;"></circle><circle cx="204" cy="118" r="44" fill="#28e828" opacity="0.645" style="mix-blend-mode: screen; transition: opacity 0.1s linear;"></circle><circle cx="180" cy="152" r="44" fill="#2848ff" opacity="0.645" style="mix-blend-mode: screen; transition: opacity 0.1s linear;"></circle></g><rect x="360" y="38" width="280" height="166" rx="12" fill="#f5f3ed" stroke="var(--t)" stroke-width="0.5"></rect><text class="ts" x="500" y="56" text-anchor="middle" fill="#666">Starts white — each color absorbs</text><g clip-path="url(#cm_cp)"><circle cx="476" cy="118" r="44" fill="#ff2828" opacity="0.66" style="mix-blend-mode: multiply; transition: opacity 0.1s linear;"></circle><circle cx="524" cy="118" r="44" fill="#28e828" opacity="0.66" style="mix-blend-mode: multiply; transition: opacity 0.1s linear;"></circle><circle cx="500" cy="152" r="44" fill="#2848ff" opacity="0.66" style="mix-blend-mode: multiply; transition: opacity 0.1s linear;"></circle></g><line x1="180" y1="208" x2="180" y2="232" stroke="var(--t)" stroke-width="1.5" marker-end="url(#cm_arrow)"></line><line x1="500" y1="208" x2="500" y2="232" stroke="var(--t)" stroke-width="1.5" marker-end="url(#cm_arrow)"></line><rect x="80" y="242" width="200" height="50" rx="8" class="box" stroke-width="0.5"></rect><text class="th" x="180" y="260" text-anchor="middle" dominant-baseline="central">Overlap → white</text><text class="ts" x="180" y="278" text-anchor="middle" dominant-baseline="central">More light = brighter</text><rect x="400" y="242" width="200" height="50" rx="8" class="box" stroke-width="0.5"></rect><text class="th" x="500" y="260" text-anchor="middle" dominant-baseline="central">Overlap → near-black</text><text class="ts" x="500" y="278" text-anchor="middle" dominant-baseline="central">More filters = dimmer</text></svg><div id="cm_sld_row"><input class="cm_sld cm_sld_r" min="0" max="100" step="1" aria-label="Red" type="range" value="75"><input class="cm_sld cm_sld_g" min="0" max="100" step="1" aria-label="Green" type="range" value="75"><input class="cm_sld cm_sld_b" min="0" max="100" step="1" aria-label="Blue" type="range" value="75"></div><div style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 1rem; justify-content: center;"><button type="button" class="iwc-btn">Why brown, not black? →</button><button type="button" class="iwc-btn">Why printers use CMYK →</button></div></div><div class="claude-explanation"><p>The key is <strong>what you're starting from.</strong> A screen starts at black — every subpixel adds photons until you've got white. Paper starts at white — every pigment steals wavelengths until you're left with muddy brown, because real pigments aren't perfect filters.</p></div></div><div aria-live="polite" style="position: fixed; bottom: 1.5rem; left: 50%; transform: translateX(-50%); background: rgb(44, 44, 42); color: rgb(250, 249, 245); padding: 0.6rem 1rem; border-radius: 8px; font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; font-size: 13px; z-index: 9999; opacity: 0; transition: opacity 0.2s; pointer-events: none; max-width: 80%; text-align: center;"></div></div></div></div></div>
+<h3 id="visualizing-how-things-connect" class="group/heading pt-2 font-heading text-lg font-semibold scroll-mt-[calc(var(--academy-header-h,3.5rem)+1.5rem)]">Visualizing how things connect<a href="#visualizing-how-things-connect" aria-hidden="true" tabindex="-1" class="pointer-events-none -mr-6 inline-flex select-none pl-2 align-middle text-muted opacity-0 transition-opacity duration-fast max-lg:hidden pointer-coarse:hidden group-hover/heading:pointer-events-auto group-hover/heading:opacity-100 hover:text-primary"><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" aria-hidden="true"></span></a></h3>
+<p class="text-base leading-relaxed text-secondary">Some concepts are spatial — things connect, one number feeds into another. Text forces you to hold it all in your head. Claude draws the connections so you can trace them.</p>
+<div role="group" aria-label="Interactive exercise" class="my-lg"><div class="iwc not-prose"><style>
+.iwc {
+  --color-text-primary: #2c2c2a;
+  --color-text-secondary: #6b6b68;
+  --color-text-tertiary: #9a9993;
+  --color-text-success: #0F6E56;
+  --color-text-danger: #A32D2D;
+  --color-text-warning: #854F0B;
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #f5f4ed;
+  --color-background-tertiary: #faf9f5;
+  --color-background-success: #E1F5EE;
+  --color-background-danger: #FAECE7;
+  --color-background-warning: #FAEEDA;
+  --color-border-primary: #c8c7c0;
+  --color-border-secondary: rgba(0,0,0,0.15);
+  --color-border-tertiary: rgba(0,0,0,0.08);
+  --color-border-success: #5DCAA5;
+  --color-border-danger: #F09595;
+  --border-radius-sm: 6px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-xl: 16px;
+  --font-sans: "anthropic-sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: "anthropic-serif", Georgia, "Times New Roman", serif;
+  --font-mono: "anthropic-mono", "SF Mono", Monaco, Consolas, monospace;
+  --p: var(--color-text-primary);
+  --s: var(--color-text-secondary);
+  --t: var(--color-text-tertiary);
+  --bg2: var(--color-background-secondary);
+  --b: var(--color-border-secondary);
+  --chat-user-bg: #f0efe8;
+  --chat-window-border: rgba(0,0,0,0.06);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "kern" 1, "liga" 1;
+  font-family: var(--font-serif);
+  color: var(--color-text-primary);
+}
+.iwc .embed-wrap { max-width: 720px; margin: 0 auto; }
+.iwc .chat-window {
+  background: #ffffff;
+  border: 1px solid var(--chat-window-border);
+  border-radius: var(--border-radius-xl);
+  padding: 1.5rem 1.5rem 1.75rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03), 0 2px 8px rgba(0,0,0,0.02);
+}
+.iwc .user-message {
+  background: var(--chat-user-bg);
+  border-radius: 12px;
+  padding: 10px 14px 10px 10px;
+  margin: 0 0 1.5rem auto;
+  max-width: min(75ch, 85%);
+  width: fit-content;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.625;
+  color: var(--color-text-primary);
+}
+.iwc .claude-explanation {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  line-height: 1.65;
+  letter-spacing: -0.005em;
+  color: var(--color-text-primary);
+  margin: 0 0 1rem;
+}
+.iwc .imagine-visual + .claude-explanation { margin-top: 1.125rem; }
+.iwc .claude-explanation p { margin: 0 0 0.75rem; }
+.iwc .claude-explanation p:last-child { margin-bottom: 0; }
+.iwc .claude-explanation strong { font-weight: 600; }
+.iwc .claude-explanation em { font-style: italic; }
+.iwc .imagine-visual {
+  margin: 1rem 0;
+  font-family: var(--font-sans);
+  line-height: 1.55;
+  position: relative;
+}
+.iwc .imagine-visual > svg { display: block; width: 100%; height: auto; shape-rendering: geometricPrecision; }
+.iwc .t  { font-family: var(--font-sans); font-size: 14px; fill: var(--p); }
+.iwc .ts { font-family: var(--font-sans); font-size: 12px; fill: var(--s); }
+.iwc .th { font-family: var(--font-sans); font-size: 14px; fill: var(--p); font-weight: 600; }
+.iwc .box { fill: var(--bg2); stroke: var(--b); }
+.iwc .arr { stroke: var(--t); fill: none; stroke-width: 1.5; }
+.iwc .node { cursor: pointer; transition: filter 0.12s ease; }
+.iwc .node:hover rect, .iwc .node:hover .box { filter: brightness(0.97); }
+.iwc .node:hover text { opacity: 0.8; }
+.iwc .c-purple rect { fill: #EEEDFE; stroke: #534AB7; }
+.iwc .iwc-btn {
+  background: var(--color-background-tertiary);
+  border: 0.5px solid var(--color-border-secondary);
+  color: var(--color-text-primary);
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius-md);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.iwc .iwc-btn:hover { background: var(--color-background-secondary); }
+</style><div class="embed-wrap"><div class="chat-window"><div class="user-message">I keep memorizing that depreciation gets added back on the cash flow statement, but I don't get why. Show me what's actually happening between net income and the operating section — I want to see the connection, not just the rule.</div><div class="claude-response"><div class="claude-explanation"><p>The cash flow statement's operating section is a <em>reconciliation</em> — a bridge between two numbers. That makes it inherently spatial: there's a starting point (net income), an endpoint (cash), and every line in between is a correction with a specific source. Text explanations force you to hold the income statement, the balance sheet, and the cash flow statement in your head simultaneously. A marked-up visual lets you <em>see</em> the arrows between them.</p></div><div class="imagine-visual" role="img" aria-label="Income statement linked to cash from operations with annotations"><svg width="100%" viewBox="0 0 680 660"><defs><marker id="redarrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#A32D2D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></marker></defs><g class="c-purple"><rect x="30" y="20" width="300" height="150" rx="10" stroke-width="0.5"></rect><text class="th" x="50" y="46">Income statement (accrual)</text><text class="ts" x="50" y="72">Revenue</text><text class="ts" x="310" y="72" text-anchor="end">$50,000</text><text class="ts" x="50" y="92">COGS</text><text class="ts" x="310" y="92" text-anchor="end">(30,000)</text><text class="ts" x="50" y="112">Depreciation</text><text class="ts" x="310" y="112" text-anchor="end">(3,000)</text><text class="ts" x="50" y="132">Other expenses</text><text class="ts" x="310" y="132" text-anchor="end">(5,000)</text><line x1="50" y1="142" x2="310" y2="142" stroke="var(--t)" stroke-width="0.5"></line><text class="th" x="50" y="160">Net income</text><text class="th" x="310" y="160" text-anchor="end">$12,000</text></g><rect x="30" y="220" width="300" height="260" rx="10" fill="var(--bg2)" stroke="var(--b)" stroke-width="0.5"></rect><text class="th" x="50" y="248">Cash from operating activities</text><text class="t" x="50" y="280">Net income</text><text class="t" x="310" y="280" text-anchor="end">$12,000</text><line x1="50" y1="294" x2="310" y2="294" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="2 3"></line><text class="ts" x="50" y="314">Adjustments to reconcile to cash:</text><g class="node"><rect x="44" y="322" width="272" height="24" rx="4" fill="#FAEEDA"></rect><text class="t" x="58" y="338">+ Depreciation</text><text class="t" x="310" y="338" text-anchor="end" fill="#3B6D11">+3,000</text></g><g class="node"><rect x="44" y="352" width="272" height="24" rx="4" fill="#FAECE7"></rect><text class="t" x="58" y="368">− Increase in A/R</text><text class="t" x="310" y="368" text-anchor="end" fill="#A32D2D">−4,000</text></g><text class="t" x="58" y="398">− Increase in inventory</text><text class="t" x="310" y="398" text-anchor="end" fill="#A32D2D">−2,000</text><g class="node"><rect x="44" y="412" width="272" height="24" rx="4" fill="#EAF3DE"></rect><text class="t" x="58" y="428">+ Increase in A/P</text><text class="t" x="310" y="428" text-anchor="end" fill="#3B6D11">+1,500</text></g><line x1="50" y1="446" x2="310" y2="446" stroke="var(--p)" stroke-width="1"></line><text class="th" x="50" y="468">Net cash from operations</text><text class="th" x="310" y="468" text-anchor="end">$10,500</text><path d="M 180 172 L 180 218" fill="none" stroke="#A32D2D" stroke-width="2" marker-end="url(#redarrow)"></path><text x="190" y="200" font-family="&quot;anthropic-sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="12" font-weight="500" fill="#A32D2D">step 1: start with</text><text x="190" y="214" font-family="&quot;anthropic-sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="12" font-weight="500" fill="#A32D2D">accrual profit</text><ellipse cx="265" cy="108" rx="58" ry="12" fill="none" stroke="#A32D2D" stroke-width="2" stroke-dasharray="4 3"></ellipse><path d="M 332 108 Q 360 108 360 334 Q 360 334 324 334" fill="none" stroke="#A32D2D" stroke-width="2" marker-end="url(#redarrow)"></path><text x="378" y="94" font-family="&quot;anthropic-sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="12" font-weight="500" fill="#A32D2D">this $3k reduced</text><text x="378" y="110" font-family="&quot;anthropic-sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="12" font-weight="500" fill="#A32D2D">profit on paper</text><text x="378" y="126" font-family="&quot;anthropic-sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="12" font-weight="500" fill="#A32D2D">but NO cash moved.</text><text x="378" y="148" font-family="&quot;anthropic-sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="12" font-weight="500" fill="#A32D2D">ADD BACK to undo</text><text x="378" y="164" font-family="&quot;anthropic-sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="12" font-weight="500" fill="#A32D2D">the subtraction.</text><text x="378" y="218" font-family="&quot;anthropic-sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="12" font-weight="500" fill="#A32D2D">A/R ↑ $4k means:</text><text x="378" y="234" font-family="&quot;anthropic-sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="12" font-weight="500" fill="#A32D2D">$4k of that $50k</text><text x="378" y="250" font-family="&quot;anthropic-sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="12" font-weight="500" fill="#A32D2D">revenue is still an</text><text x="378" y="266" font-family="&quot;anthropic-sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="12" font-weight="500" fill="#A32D2D">IOU, not cash.</text><text x="378" y="288" font-family="&quot;anthropic-sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="12" font-weight="500" fill="#A32D2D">Net income overstates</text><text x="378" y="304" font-family="&quot;anthropic-sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="12" font-weight="500" fill="#A32D2D">cash. SUBTRACT.</text><path d="M 374 260 Q 360 260 360 364 Q 360 364 324 364" fill="none" stroke="#A32D2D" stroke-width="2" marker-end="url(#redarrow)"></path><text x="378" y="370" font-family="&quot;anthropic-sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="12" font-weight="500" fill="#A32D2D">A/P ↑ $1.5k: expense</text><text x="378" y="386" font-family="&quot;anthropic-sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="12" font-weight="500" fill="#A32D2D">booked, bill not paid.</text><text x="378" y="402" font-family="&quot;anthropic-sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="12" font-weight="500" fill="#A32D2D">Cash still here. ADD.</text><text x="378" y="420" font-family="&quot;anthropic-sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="12" font-weight="500" fill="#A32D2D">(mirror of A/R)</text><path d="M 374 394 Q 360 394 360 424 Q 360 424 324 424" fill="none" stroke="#A32D2D" stroke-width="2" marker-end="url(#redarrow)"></path><text x="378" y="466" font-family="&quot;anthropic-sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="12" font-weight="500" fill="#A32D2D">accrual $12k →</text><text x="378" y="482" font-family="&quot;anthropic-sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="12" font-weight="500" fill="#A32D2D">actual cash $10.5k</text><rect x="30" y="520" width="620" height="120" rx="10" fill="var(--bg2)" stroke="var(--b)" stroke-width="0.5"></rect><text class="th" x="50" y="548">The only rule you need</text><text x="50" y="574" class="ts">Non-cash expense (depreciation, amortization, stock comp) → always ADD BACK</text><text x="50" y="598" class="ts">Operating ASSET (A/R, inventory, prepaid) goes UP → SUBTRACT (cash tied up)</text><text x="50" y="622" class="ts">Operating LIABILITY (A/P, accrued wages) goes UP → ADD (cash still in pocket)</text></svg></div><div class="claude-explanation"><p>Every adjustment line answers the same question: <em>did accrual accounting get ahead of (or behind) the actual cash?</em> Stop memorizing signs — ask "did this help or hurt my bank balance compared to what the income statement claims?" and the sign follows automatically.</p></div></div><div aria-live="polite" style="position: fixed; bottom: 1.5rem; left: 50%; transform: translateX(-50%); background: rgb(44, 44, 42); color: rgb(250, 249, 245); padding: 0.6rem 1rem; border-radius: 8px; font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; font-size: 13px; z-index: 9999; opacity: 0; transition: opacity 0.2s; pointer-events: none; max-width: 80%; text-align: center;"></div></div></div></div></div>
+<div role="group" aria-label="Interactive exercise" class="my-lg"><div class="iwc not-prose"><style>
+.iwc {
+  --color-text-primary: #2c2c2a;
+  --color-text-secondary: #6b6b68;
+  --color-text-tertiary: #9a9993;
+  --color-text-success: #0F6E56;
+  --color-text-danger: #A32D2D;
+  --color-text-warning: #854F0B;
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #f5f4ed;
+  --color-background-tertiary: #faf9f5;
+  --color-background-success: #E1F5EE;
+  --color-background-danger: #FAECE7;
+  --color-background-warning: #FAEEDA;
+  --color-border-primary: #c8c7c0;
+  --color-border-secondary: rgba(0,0,0,0.15);
+  --color-border-tertiary: rgba(0,0,0,0.08);
+  --color-border-success: #5DCAA5;
+  --color-border-danger: #F09595;
+  --border-radius-sm: 6px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-xl: 16px;
+  --font-sans: "anthropic-sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: "anthropic-serif", Georgia, "Times New Roman", serif;
+  --font-mono: "anthropic-mono", "SF Mono", Monaco, Consolas, monospace;
+  --p: var(--color-text-primary);
+  --s: var(--color-text-secondary);
+  --t: var(--color-text-tertiary);
+  --bg2: var(--color-background-secondary);
+  --b: var(--color-border-secondary);
+  --chat-user-bg: #f0efe8;
+  --chat-window-border: rgba(0,0,0,0.06);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "kern" 1, "liga" 1;
+  font-family: var(--font-serif);
+  color: var(--color-text-primary);
+}
+.iwc .embed-wrap { max-width: 720px; margin: 0 auto; }
+.iwc .chat-window {
+  background: #ffffff;
+  border: 1px solid var(--chat-window-border);
+  border-radius: var(--border-radius-xl);
+  padding: 1.5rem 1.5rem 1.75rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03), 0 2px 8px rgba(0,0,0,0.02);
+}
+.iwc .user-message {
+  background: var(--chat-user-bg);
+  border-radius: 12px;
+  padding: 10px 14px 10px 10px;
+  margin: 0 0 1.5rem auto;
+  max-width: min(75ch, 85%);
+  width: fit-content;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.625;
+  color: var(--color-text-primary);
+}
+.iwc .claude-explanation {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  line-height: 1.65;
+  letter-spacing: -0.005em;
+  color: var(--color-text-primary);
+  margin: 0 0 1rem;
+}
+.iwc .imagine-visual + .claude-explanation { margin-top: 1.125rem; }
+.iwc .claude-explanation p { margin: 0 0 0.75rem; }
+.iwc .claude-explanation p:last-child { margin-bottom: 0; }
+.iwc .claude-explanation strong { font-weight: 600; }
+.iwc .claude-explanation em { font-style: italic; }
+.iwc .imagine-visual {
+  margin: 1rem 0;
+  font-family: var(--font-sans);
+  line-height: 1.55;
+  position: relative;
+}
+.iwc .imagine-visual > svg { display: block; width: 100%; height: auto; shape-rendering: geometricPrecision; }
+.iwc .t  { font-family: var(--font-sans); font-size: 14px; fill: var(--p); }
+.iwc .ts { font-family: var(--font-sans); font-size: 12px; fill: var(--s); }
+.iwc .th { font-family: var(--font-sans); font-size: 14px; fill: var(--p); font-weight: 600; }
+.iwc .box { fill: var(--bg2); stroke: var(--b); }
+.iwc .arr { stroke: var(--t); fill: none; stroke-width: 1.5; }
+.iwc .node { cursor: pointer; transition: filter 0.12s ease; }
+.iwc .node:hover rect, .iwc .node:hover .box { filter: brightness(0.97); }
+.iwc .node:hover text { opacity: 0.8; }
+.iwc .c-purple rect { fill: #EEEDFE; stroke: #534AB7; }
+.iwc .iwc-btn {
+  background: var(--color-background-tertiary);
+  border: 0.5px solid var(--color-border-secondary);
+  color: var(--color-text-primary);
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius-md);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.iwc .iwc-btn:hover { background: var(--color-background-secondary); }
+</style><div class="embed-wrap"><div class="chat-window"><div class="user-message">I know "every student read a book" has two readings but when I write both out in English they look identical. Visualize where the two meanings actually diverge, because it's clearly not in the words.</div><div class="claude-response"><div class="claude-explanation"><p>You've hit on exactly why linguists reach for logic notation — English word order flattens something that's actually <em>nested</em>. The divergence lives in which quantifier wraps around which.</p><p>"Every" and "a" are both quantifiers, and quantifiers <em>nest</em>. The sentence gives you the pieces but doesn't tell you which one wraps the other. That's the fork:</p></div><div class="imagine-visual" role="img" aria-label="Two readings of quantifier scope"><svg width="100%" viewBox="0 0 680 440"><defs><marker id="ling_arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="var(--t)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></marker></defs><text class="th" x="170" y="30" text-anchor="middle" fill="#534AB7">∀x ∃y [read(x, y)]</text><text class="ts" x="170" y="50" text-anchor="middle">"every" scopes over "a"</text><rect x="30" y="70" width="280" height="340" rx="12" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"></rect><g><circle cx="90" cy="130" r="18" fill="#CECBF6" stroke="#534AB7" stroke-width="0.5"></circle><text class="ts" x="90" y="134" text-anchor="middle" fill="#3C3489">s₁</text><rect x="230" y="116" width="50" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"></rect><text class="ts" x="255" y="134" text-anchor="middle" fill="#085041">b₁</text><line x1="108" y1="130" x2="226" y2="130" class="arr" marker-end="url(#ling_arrow)"></line></g><g><circle cx="90" cy="210" r="18" fill="#CECBF6" stroke="#534AB7" stroke-width="0.5"></circle><text class="ts" x="90" y="214" text-anchor="middle" fill="#3C3489">s₂</text><rect x="230" y="196" width="50" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"></rect><text class="ts" x="255" y="214" text-anchor="middle" fill="#085041">b₂</text><line x1="108" y1="210" x2="226" y2="210" class="arr" marker-end="url(#ling_arrow)"></line></g><g><circle cx="90" cy="290" r="18" fill="#CECBF6" stroke="#534AB7" stroke-width="0.5"></circle><text class="ts" x="90" y="294" text-anchor="middle" fill="#3C3489">s₃</text><rect x="230" y="276" width="50" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"></rect><text class="ts" x="255" y="294" text-anchor="middle" fill="#085041">b₃</text><line x1="108" y1="290" x2="226" y2="290" class="arr" marker-end="url(#ling_arrow)"></line></g><text x="170" y="350" class="ts" text-anchor="middle" fill="#534AB7">Each student picks their own book.</text><text x="170" y="368" class="ts" text-anchor="middle" fill="#534AB7">Could be 3 different books.</text><text class="ts" x="170" y="390" text-anchor="middle" font-style="italic">Weaker — true in more worlds</text><text class="th" x="510" y="30" text-anchor="middle" fill="#D85A30">∃y ∀x [read(x, y)]</text><text class="ts" x="510" y="50" text-anchor="middle">"a" scopes over "every"</text><rect x="370" y="70" width="280" height="340" rx="12" fill="#FAECE7" stroke="#D85A30" stroke-width="0.5"></rect><circle cx="430" cy="130" r="18" fill="#F5C4B3" stroke="#D85A30" stroke-width="0.5"></circle><text class="ts" x="430" y="134" text-anchor="middle" fill="#712B13">s₁</text><circle cx="430" cy="210" r="18" fill="#F5C4B3" stroke="#D85A30" stroke-width="0.5"></circle><text class="ts" x="430" y="214" text-anchor="middle" fill="#712B13">s₂</text><circle cx="430" cy="290" r="18" fill="#F5C4B3" stroke="#D85A30" stroke-width="0.5"></circle><text class="ts" x="430" y="294" text-anchor="middle" fill="#712B13">s₃</text><rect x="570" y="196" width="50" height="28" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"></rect><text class="ts" x="595" y="214" text-anchor="middle" fill="#085041">b</text><line x1="448" y1="132" x2="566" y2="204" class="arr" marker-end="url(#ling_arrow)"></line><line x1="448" y1="210" x2="566" y2="210" class="arr" marker-end="url(#ling_arrow)"></line><line x1="448" y1="288" x2="566" y2="216" class="arr" marker-end="url(#ling_arrow)"></line><text x="510" y="350" class="ts" text-anchor="middle" fill="#D85A30">One specific book exists</text><text x="510" y="368" class="ts" text-anchor="middle" fill="#D85A30">that all of them read.</text><text class="ts" x="510" y="390" text-anchor="middle" font-style="italic">Stronger — entails the left reading</text></svg></div><div class="claude-explanation"><p>The real divergence is in <strong>which quantifier gets to pick first</strong>. ∀∃ hands each student the existential separately — nothing forces them to agree. ∃∀ picks the book <em>once</em>, up front, and that single choice has to work for everyone. English defaults to the weak one and lets context drag the strong one out when it's needed.</p></div></div></div></div></div></div>
+<h3 id="practicing-what-you-just-learned" class="group/heading pt-2 font-heading text-lg font-semibold scroll-mt-[calc(var(--academy-header-h,3.5rem)+1.5rem)]">Practicing what you just learned<a href="#practicing-what-you-just-learned" aria-hidden="true" tabindex="-1" class="pointer-events-none -mr-6 inline-flex select-none pl-2 align-middle text-muted opacity-0 transition-opacity duration-fast max-lg:hidden pointer-coarse:hidden group-hover/heading:pointer-events-auto group-hover/heading:opacity-100 hover:text-primary"><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" aria-hidden="true"></span></a></h3>
+<p class="text-base leading-relaxed text-secondary">Stay hands-on while you study — the quiz appears right where you're learning, so you're trying things while the idea is fresh.</p>
+<div role="group" aria-label="Interactive exercise" class="my-lg"><div class="iwc not-prose"><style>
+.iwc {
+  --color-text-primary: #2c2c2a;
+  --color-text-secondary: #6b6b68;
+  --color-text-tertiary: #9a9993;
+  --color-text-success: #0F6E56;
+  --color-text-danger: #A32D2D;
+  --color-text-warning: #854F0B;
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #f5f4ed;
+  --color-background-tertiary: #faf9f5;
+  --color-background-success: #E1F5EE;
+  --color-background-danger: #FAECE7;
+  --color-background-warning: #FAEEDA;
+  --color-border-primary: #c8c7c0;
+  --color-border-secondary: rgba(0,0,0,0.15);
+  --color-border-tertiary: rgba(0,0,0,0.08);
+  --color-border-success: #5DCAA5;
+  --color-border-danger: #F09595;
+  --border-radius-sm: 6px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-xl: 16px;
+  --font-sans: "anthropic-sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: "anthropic-serif", Georgia, "Times New Roman", serif;
+  --font-mono: "anthropic-mono", "SF Mono", Monaco, Consolas, monospace;
+  --p: var(--color-text-primary);
+  --s: var(--color-text-secondary);
+  --t: var(--color-text-tertiary);
+  --bg2: var(--color-background-secondary);
+  --b: var(--color-border-secondary);
+  --chat-user-bg: #f0efe8;
+  --chat-window-border: rgba(0,0,0,0.06);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "kern" 1, "liga" 1;
+  font-family: var(--font-serif);
+  color: var(--color-text-primary);
+}
+.iwc .embed-wrap { max-width: 720px; margin: 0 auto; }
+.iwc .chat-window {
+  background: #ffffff;
+  border: 1px solid var(--chat-window-border);
+  border-radius: var(--border-radius-xl);
+  padding: 1.5rem 1.5rem 1.75rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03), 0 2px 8px rgba(0,0,0,0.02);
+}
+.iwc .user-message {
+  background: var(--chat-user-bg);
+  border-radius: 12px;
+  padding: 10px 14px 10px 10px;
+  margin: 0 0 1.5rem auto;
+  max-width: min(75ch, 85%);
+  width: fit-content;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.625;
+  color: var(--color-text-primary);
+}
+.iwc .claude-explanation {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  line-height: 1.65;
+  letter-spacing: -0.005em;
+  color: var(--color-text-primary);
+  margin: 0 0 1rem;
+}
+.iwc .imagine-visual + .claude-explanation { margin-top: 1.125rem; }
+.iwc .claude-explanation p { margin: 0 0 0.75rem; }
+.iwc .claude-explanation p:last-child { margin-bottom: 0; }
+.iwc .claude-explanation strong { font-weight: 600; }
+.iwc .claude-explanation em { font-style: italic; }
+.iwc .imagine-visual {
+  margin: 1rem 0;
+  font-family: var(--font-sans);
+  line-height: 1.55;
+  position: relative;
+}
+.iwc .imagine-visual > svg { display: block; width: 100%; height: auto; shape-rendering: geometricPrecision; }
+.iwc .t  { font-family: var(--font-sans); font-size: 14px; fill: var(--p); }
+.iwc .ts { font-family: var(--font-sans); font-size: 12px; fill: var(--s); }
+.iwc .th { font-family: var(--font-sans); font-size: 14px; fill: var(--p); font-weight: 600; }
+.iwc .box { fill: var(--bg2); stroke: var(--b); }
+.iwc .arr { stroke: var(--t); fill: none; stroke-width: 1.5; }
+.iwc .node { cursor: pointer; transition: filter 0.12s ease; }
+.iwc .node:hover rect, .iwc .node:hover .box { filter: brightness(0.97); }
+.iwc .node:hover text { opacity: 0.8; }
+.iwc .c-purple rect { fill: #EEEDFE; stroke: #534AB7; }
+.iwc .iwc-btn {
+  background: var(--color-background-tertiary);
+  border: 0.5px solid var(--color-border-secondary);
+  color: var(--color-text-primary);
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius-md);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.iwc .iwc-btn:hover { background: var(--color-background-secondary); }
+</style><div class="embed-wrap"><div class="chat-window"><style>
+.iwc .gq_mode_btn {
+  font-family: var(--font-sans); font-size: 12px; padding: 5px 12px;
+  background: transparent; border: 0.5px solid var(--color-border-secondary);
+  border-radius: var(--border-radius-sm); cursor: pointer;
+  color: var(--color-text-primary); transition: background .15s, border-color .15s;
+}
+.iwc .gq_mode_btn[data-active="1"] {
+  background: var(--color-background-primary);
+  border-color: var(--color-border-primary); font-weight: 500;
+}
+.iwc .gq_mode_btn:hover { border-color: var(--color-border-primary); }
+.iwc .gq_opt {
+  display: flex; align-items: flex-start; gap: 10px; padding: 10px 12px;
+  background: var(--color-background-primary);
+  border: 0.5px solid var(--color-border-tertiary);
+  border-radius: var(--border-radius-md); margin-bottom: 6px;
+  cursor: pointer; transition: all .12s; font-family: var(--font-sans);
+}
+.iwc .gq_opt:hover { border-color: var(--color-border-secondary); }
+.iwc .gq_bub {
+  width: 22px; height: 22px; border-radius: 50%;
+  border: 1.5px solid var(--color-border-secondary);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 12px; font-weight: 500; flex-shrink: 0;
+}
+</style><div class="user-message">I keep getting distance-vs-speed graph questions wrong on tests. Give me one practice question that targets that confusion — something I'll want to answer fast and then find out where my instinct was off.</div><div class="claude-response"><div class="claude-explanation" style="margin-bottom: 1rem;"><p>One minute on the clock — answer the way you would on a test, then we'll unpack what it was doing.</p></div><div class="imagine-visual" role="img" aria-label="Distance over time graph with multiple-choice question"><div style="background: rgb(245, 244, 237); border-radius: 16px; padding: 1.25rem; font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;"><div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; font-size: 12px;"><span style="color: rgb(107, 107, 104); font-weight: 500; text-transform: uppercase; letter-spacing: 0.04em;">Practice · Q1</span><span style="font-family: anthropic-mono, &quot;SF Mono&quot;, Monaco, Consolas, monospace; color: rgb(107, 107, 104); font-size: 13px;">0:59</span></div><div style="background: rgb(255, 255, 255); border-radius: 8px; padding: 0.75rem 0.75rem 0.5rem; margin-bottom: 1rem;"><svg width="100%" viewBox="0 0 680 230" style="display: block;"><line x1="44" y1="12" x2="44" y2="198" stroke="var(--t)" stroke-width="0.5"></line><line x1="44" y1="198" x2="664" y2="198" stroke="var(--t)" stroke-width="0.5"></line><g><line x1="44" y1="198" x2="44" y2="202" stroke="var(--t)" stroke-width="0.5"></line><text x="44" y="214" class="ts" text-anchor="middle">0</text></g><g><line x1="168" y1="198" x2="168" y2="202" stroke="var(--t)" stroke-width="0.5"></line><text x="168" y="214" class="ts" text-anchor="middle">10</text></g><g><line x1="292" y1="198" x2="292" y2="202" stroke="var(--t)" stroke-width="0.5"></line><text x="292" y="214" class="ts" text-anchor="middle">20</text></g><g><line x1="416" y1="198" x2="416" y2="202" stroke="var(--t)" stroke-width="0.5"></line><text x="416" y="214" class="ts" text-anchor="middle">30</text></g><g><line x1="540" y1="198" x2="540" y2="202" stroke="var(--t)" stroke-width="0.5"></line><text x="540" y="214" class="ts" text-anchor="middle">40</text></g><g><line x1="664" y1="198" x2="664" y2="202" stroke="var(--t)" stroke-width="0.5"></line><text x="664" y="214" class="ts" text-anchor="middle">50</text></g><g><line x1="40" y1="198" x2="44" y2="198" stroke="var(--t)" stroke-width="0.5"></line><text x="36" y="202" class="ts" text-anchor="end">0</text></g><g><line x1="40" y1="151.5" x2="44" y2="151.5" stroke="var(--t)" stroke-width="0.5"></line><text x="36" y="155.5" class="ts" text-anchor="end">4</text></g><g><line x1="40" y1="105" x2="44" y2="105" stroke="var(--t)" stroke-width="0.5"></line><text x="36" y="109" class="ts" text-anchor="end">8</text></g><g><line x1="40" y1="58.5" x2="44" y2="58.5" stroke="var(--t)" stroke-width="0.5"></line><text x="36" y="62.5" class="ts" text-anchor="end">12</text></g><g><line x1="40" y1="12" x2="44" y2="12" stroke="var(--t)" stroke-width="0.5"></line><text x="36" y="16" class="ts" text-anchor="end">16</text></g><text x="354" y="228" class="ts" text-anchor="middle">time (min)</text><text x="10" y="22" class="ts">km</text><path d="M44 198 168 128.25 292 81.75 416 58.5 540 55.01249999999999 664 35.25 " fill="none" stroke="var(--p)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="44" cy="198" r="4" fill="var(--p)" style="cursor: pointer;"></circle><circle cx="168" cy="128.25" r="4" fill="var(--p)" style="cursor: pointer;"></circle><circle cx="292" cy="81.75" r="4" fill="var(--p)" style="cursor: pointer;"></circle><circle cx="416" cy="58.5" r="4" fill="var(--p)" style="cursor: pointer;"></circle><circle cx="540" cy="55.01249999999999" r="4" fill="var(--p)" style="cursor: pointer;"></circle><circle cx="664" cy="35.25" r="4" fill="var(--p)" style="cursor: pointer;"></circle></svg></div><div style="font-family: anthropic-serif, Georgia, &quot;Times New Roman&quot;, serif; font-size: 15px; line-height: 1.6; margin-bottom: 1rem; color: rgb(44, 44, 42);">The graph shows the <strong>total distance</strong> a cyclist has traveled over 50 minutes. During which 10-minute interval was the cyclist traveling <strong>fastest</strong>?</div><div style="margin-bottom: 0.75rem;"><div class="gq_opt" role="button" tabindex="0" aria-pressed="false"><div class="gq_bub">A</div><div style="font-size: 14px; padding-top: 1px;">0–10 minutes<div style="font-size: 12px; margin-top: 4px; display: none; line-height: 1.5; color: rgb(15, 110, 86);">Steepest segment = biggest rise per 10 min. Speed is slope, not height.</div></div></div><div class="gq_opt" role="button" tabindex="0" aria-pressed="false"><div class="gq_bub">B</div><div style="font-size: 14px; padding-top: 1px;">10–20 minutes<div style="font-size: 12px; margin-top: 4px; display: none; line-height: 1.5; color: rgb(163, 45, 45);">Less steep than 0–10. Still climbing, just slower.</div></div></div><div class="gq_opt" role="button" tabindex="0" aria-pressed="false"><div class="gq_bub">C</div><div style="font-size: 14px; padding-top: 1px;">30–40 minutes<div style="font-size: 12px; margin-top: 4px; display: none; line-height: 1.5; color: rgb(163, 45, 45);">Nearly flat — distance barely changes. Speed is almost zero. Slowest interval.</div></div></div><div class="gq_opt" role="button" tabindex="0" aria-pressed="false"><div class="gq_bub">D</div><div style="font-size: 14px; padding-top: 1px;">40–50 minutes<div style="font-size: 12px; margin-top: 4px; display: none; line-height: 1.5; color: rgb(163, 45, 45);">Graph is highest here — but that means most total distance, not fastest. You read value instead of slope.</div></div></div></div><div style="display: flex; align-items: center; gap: 12px;"><button type="button" style="border: 0.5px solid rgb(200, 199, 192); background: rgb(255, 255, 255); color: rgb(44, 44, 42); padding: 9px 18px; border-radius: 8px; cursor: pointer; font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; font-size: 14px; font-weight: 500; transition: background 0.15s, transform 0.1s, border-color 0.15s; transform: translateX(0px);">Check answer</button><span style="font-size: 13px; color: rgb(154, 153, 147); opacity: 0; transition: opacity 0.2s;">Pick one first</span></div></div></div></div><div aria-live="polite" style="position: fixed; bottom: 1.5rem; left: 50%; transform: translateX(-50%); background: rgb(44, 44, 42); color: rgb(250, 249, 245); padding: 0.6rem 1rem; border-radius: 8px; font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; font-size: 13px; z-index: 9999; opacity: 0; transition: opacity 0.2s; pointer-events: none; max-width: 80%; text-align: center;"></div></div></div></div></div>
+<h2 id="things-to-try-out-while-studying-with-claude" class="group/heading mt-12 font-heading text-[1.375rem] font-medium tracking-tight first:mt-0 scroll-mt-[calc(var(--academy-header-h,3.5rem)+1.5rem)]">Things to try out while studying with Claude<a href="#things-to-try-out-while-studying-with-claude" aria-hidden="true" tabindex="-1" class="pointer-events-none -mr-6 inline-flex select-none pl-2 align-middle text-muted opacity-0 transition-opacity duration-fast max-lg:hidden pointer-coarse:hidden group-hover/heading:pointer-events-auto group-hover/heading:opacity-100 hover:text-primary"><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" aria-hidden="true"></span></a></h2>
+<h3 id="1-see-the-mechanism-behind-an-explanation" class="group/heading pt-2 font-heading text-lg font-semibold scroll-mt-[calc(var(--academy-header-h,3.5rem)+1.5rem)]">1. See the mechanism behind an explanation<a href="#1-see-the-mechanism-behind-an-explanation" aria-hidden="true" tabindex="-1" class="pointer-events-none -mr-6 inline-flex select-none pl-2 align-middle text-muted opacity-0 transition-opacity duration-fast max-lg:hidden pointer-coarse:hidden group-hover/heading:pointer-events-auto group-hover/heading:opacity-100 hover:text-primary"><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" aria-hidden="true"></span></a></h3>
+<p class="text-base leading-relaxed text-secondary">When a concept has moving parts — a cycle, a cascade, a sequence that fires in order — a static diagram shows you one frame of it. Ask Claude, and you can turn the explanation into something more alive and interactive.</p>
+<ul class="flex list-disc flex-col gap-xs pl-lg">
+<li class="text-base leading-relaxed text-secondary"><em>"Show me how mechanism works, step by step — I want to watch it move, not just read the steps"</em></li>
+<li class="text-base leading-relaxed text-secondary"><em>"Walk me through one pass of this process. I want to see what happens at each stage"</em></li>
+<li class="text-base leading-relaxed text-secondary"><em>"A concept from class has moving parts I can't picture. Draw where each piece goes"</em></li>
+</ul>
+<p class="text-base leading-relaxed text-secondary"><strong>See it in action:</strong> <a data-cds="TextLink" aria-describedby="_R_3crj6icq_" href="/use-cases/visualize-the-mechanism-behind-an-explanation-mid-chat" target="_blank" rel="noopener" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary">Visualize the mechanism behind an explanation mid-chat →<span id="_R_3crj6icq_" hidden="" class="sr-only">(opens in new tab)</span></a></p>
+<h3 id="2-see-the-thing-you-cant-picture" class="group/heading pt-2 font-heading text-lg font-semibold scroll-mt-[calc(var(--academy-header-h,3.5rem)+1.5rem)]">2. See the thing you can't picture<a href="#2-see-the-thing-you-cant-picture" aria-hidden="true" tabindex="-1" class="pointer-events-none -mr-6 inline-flex select-none pl-2 align-middle text-muted opacity-0 transition-opacity duration-fast max-lg:hidden pointer-coarse:hidden group-hover/heading:pointer-events-auto group-hover/heading:opacity-100 hover:text-primary"><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" aria-hidden="true"></span></a></h3>
+<p class="text-base leading-relaxed text-secondary">Some passages describe a structure, a sequence, a shape and assume you can picture it. When you can't, paste the text. Claude draws the thing the words refer to. The explanation stays the same; what you get is the picture that was missing.</p>
+<ul class="flex list-disc flex-col gap-xs pl-lg">
+<li class="text-base leading-relaxed text-secondary"><em>"Here's a passage I can't picture. Draw what it's describing so I can see it."</em></li>
+<li class="text-base leading-relaxed text-secondary"><em>"I keep rereading this and it's not landing. Show me what this concept actually looks like."</em></li>
+<li class="text-base leading-relaxed text-secondary"><em>"The textbook explains this in words. I need the diagram it didn't include."</em></li>
+</ul>
+<p class="text-base leading-relaxed text-secondary"><strong>See it in action:</strong> <a data-cds="TextLink" aria-describedby="_R_3erj6icq_" href="/use-cases/plan-your-syllabus-see-which-weeks-are-locked" target="_blank" rel="noopener" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary">Plan your course from its syllabus→<span id="_R_3erj6icq_" hidden="" class="sr-only">(opens in new tab)</span></a></p>
+<h3 id="3-apply-a-concept-as-you-learn-it" class="group/heading pt-2 font-heading text-lg font-semibold scroll-mt-[calc(var(--academy-header-h,3.5rem)+1.5rem)]">3. Apply a concept as you learn it<a href="#3-apply-a-concept-as-you-learn-it" aria-hidden="true" tabindex="-1" class="pointer-events-none -mr-6 inline-flex select-none pl-2 align-middle text-muted opacity-0 transition-opacity duration-fast max-lg:hidden pointer-coarse:hidden group-hover/heading:pointer-events-auto group-hover/heading:opacity-100 hover:text-primary"><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" aria-hidden="true"></span></a></h3>
+<p class="text-base leading-relaxed text-secondary">Sometimes the way to learn a thing is to practice it — try it, get it wrong, see why. Ask Claude for something interactive and you get a tool to practice on with the explanation right there as you go: a simulation where you change the inputs, a quiz that shows you where you're off, a problem that responds while you work it.</p>
+<ul class="flex list-disc flex-col gap-xs pl-lg">
+<li class="text-base leading-relaxed text-secondary"><em>"I get this concept on paper. Give me something interactive so I can try it and see what changes."</em></li>
+<li class="text-base leading-relaxed text-secondary"><em>"Explain this topic, then let me put it in my own words. Show me where I've got it wrong."</em></li>
+<li class="text-base leading-relaxed text-secondary"><em>"Quiz me on this concept — I want to find the gaps before the exam does."</em></li>
+</ul>
+<p class="text-base leading-relaxed text-secondary"><strong>See it in action:</strong> <a data-cds="TextLink" aria-describedby="_R_3grj6icq_" href="/use-cases/apply-a-formula-as-you-learn-it-in-chat-with-claude" target="_blank" rel="noopener" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary">Apply a formula as you learn it →<span id="_R_3grj6icq_" hidden="" class="sr-only">(opens in new tab)</span></a></p>
+<h3 id="4-work-through-your-own-material" class="group/heading pt-2 font-heading text-lg font-semibold scroll-mt-[calc(var(--academy-header-h,3.5rem)+1.5rem)]">4. Work through your own material<a href="#4-work-through-your-own-material" aria-hidden="true" tabindex="-1" class="pointer-events-none -mr-6 inline-flex select-none pl-2 align-middle text-muted opacity-0 transition-opacity duration-fast max-lg:hidden pointer-coarse:hidden group-hover/heading:pointer-events-auto group-hover/heading:opacity-100 hover:text-primary"><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" aria-hidden="true"></span></a></h3>
+<p class="text-base leading-relaxed text-secondary">Bring what you have — lab data, lecture notes, a difficult problem. As you chat with Claude, a visual appears built around the topic: a chart to dig into together, a map of your notes, a quiz, a correction.</p>
+<ul class="flex list-disc flex-col gap-xs pl-lg">
+<li class="text-base leading-relaxed text-secondary"><em>"Here's my [data / notes / draft]. Help me see what's in it before I write anything up."</em></li>
+<li class="text-base leading-relaxed text-secondary"><em>"These are my notes so far. Map how the ideas connect so I can see what's still missing."</em></li>
+<li class="text-base leading-relaxed text-secondary"><em>"I know something's wrong in here: [upload]. Walk me through where I went off."</em></li>
+</ul>
+<p class="text-base leading-relaxed text-secondary"><strong>See it in action:</strong> <a data-cds="TextLink" aria-describedby="_R_3irj6icq_" href="/use-cases/chart-your-data-before-you-commit" target="_blank" rel="noopener" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary">Chart your data before you commit →<span id="_R_3irj6icq_" hidden="" class="sr-only">(opens in new tab)</span></a> · <a data-cds="TextLink" aria-describedby="_R_5irj6icq_" href="/use-cases/map-your-lit-review-mid-conversation" target="_blank" rel="noopener" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary">Map your lit review mid-conversation →<span id="_R_5irj6icq_" hidden="" class="sr-only">(opens in new tab)</span></a></p>
+<h2 id="what-you-can-do-with-what-claude-draws" class="group/heading mt-12 font-heading text-[1.375rem] font-medium tracking-tight first:mt-0 scroll-mt-[calc(var(--academy-header-h,3.5rem)+1.5rem)]">What you can do with what Claude draws<a href="#what-you-can-do-with-what-claude-draws" aria-hidden="true" tabindex="-1" class="pointer-events-none -mr-6 inline-flex select-none pl-2 align-middle text-muted opacity-0 transition-opacity duration-fast max-lg:hidden pointer-coarse:hidden group-hover/heading:pointer-events-auto group-hover/heading:opacity-100 hover:text-primary"><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" aria-hidden="true"></span></a></h2>
+<p class="text-base leading-relaxed text-secondary"><strong>Make it interactive —</strong> If what you got is static and you want it to move, say so — "let me adjust this" or "make it interactive" is enough.</p>
+<p class="text-base leading-relaxed text-secondary"><strong>Go deeper —</strong> Buttons at the bottom of a visual send a follow-up. Click one and a new visual appears below. The first one stays, so you scroll between them. What you see in the first visual can shape the follow up questions for what you learn next.</p>
+<p class="text-base leading-relaxed text-secondary"><strong>Adjust</strong> <strong>—</strong> The first version is a starting point. Say what's missing, or what's too simple, or what's off and Claude redraws. Add a layer, make the practice harder, fix the formatting if it came back cramped. The visual can evolve with the conversation.</p>
+<p class="text-base leading-relaxed text-secondary"><strong>Evaluate</strong> <strong>—</strong> Look at what Claude drew with some skepticism. It's built for your question, not pulled from a verified source, so it can be wrong in ways a textbook figure usually isn't. Checking it is good for you: spotting an error means you understand well enough to notice one. Not being sure tells you where your grasp is still shaky. Both leave you better off than taking the picture at face value.</p>
+<p class="text-base leading-relaxed text-secondary"><strong>Save it.</strong> To keep or build on your visual, hover over what Claude drew and a few options appear in the corner.</p>
+<ul class="flex list-disc flex-col gap-xs pl-lg">
+<li class="text-base leading-relaxed text-secondary"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Copy as image</code> — snapshot for notes or slides. The move most of the time.</li>
+<li class="text-base leading-relaxed text-secondary"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Save as artifact</code> — when you'd reopen the interactive version or share it. The whiteboard becomes a document.</li>
+<li class="text-base leading-relaxed text-secondary"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Download</code> — source code (.svg or .html).</li>
+</ul>
+<p class="text-base leading-relaxed text-secondary"><strong>Take it further.</strong> Ask Claude to help you write up what clicked from the visual in a doc for your notes. Explain it to someone else to test whether it stuck. Or ask Claude to map what you now understand and what's still fuzzy; articulating one gap often surfaces the next. Either way, check the content against a real source before treating it as authoritative.</p>
+<h2 id="a-few-practical-things" class="group/heading mt-12 font-heading text-[1.375rem] font-medium tracking-tight first:mt-0 scroll-mt-[calc(var(--academy-header-h,3.5rem)+1.5rem)]">A few practical things<a href="#a-few-practical-things" aria-hidden="true" tabindex="-1" class="pointer-events-none -mr-6 inline-flex select-none pl-2 align-middle text-muted opacity-0 transition-opacity duration-fast max-lg:hidden pointer-coarse:hidden group-hover/heading:pointer-events-auto group-hover/heading:opacity-100 hover:text-primary"><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" aria-hidden="true"></span></a></h2>
+<ul class="flex list-disc flex-col gap-xs pl-lg">
+<li class="text-base leading-relaxed text-secondary">If you expected a visual and didn't get one, any version of "show me" or "visualize this" brings one in.</li>
+<li class="text-base leading-relaxed text-secondary">If the visual renders oddly — overlapping elements, cut-off labels — ask Claude to fix the formatting.</li>
+<li class="text-base leading-relaxed text-secondary">Works on <a data-cds="TextLink" aria-describedby="_R_mnrj6icq_" href="https://claude.ai" target="_blank" rel="noopener" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary">claude.ai<span id="_R_mnrj6icq_" hidden="" class="sr-only">(opens in new tab)</span></a> web and the desktop apps. Not on mobile yet.</li>
+</ul>
+<h2 id="go-deeper-the-full-set-of-walkthroughs" class="group/heading mt-12 font-heading text-[1.375rem] font-medium tracking-tight first:mt-0 scroll-mt-[calc(var(--academy-header-h,3.5rem)+1.5rem)]">Go deeper — the full set of walkthroughs<a href="#go-deeper-the-full-set-of-walkthroughs" aria-hidden="true" tabindex="-1" class="pointer-events-none -mr-6 inline-flex select-none pl-2 align-middle text-muted opacity-0 transition-opacity duration-fast max-lg:hidden pointer-coarse:hidden group-hover/heading:pointer-events-auto group-hover/heading:opacity-100 hover:text-primary"><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:16px;font-weight:533.3" aria-hidden="true"></span></a></h2>
+<p class="text-base leading-relaxed text-secondary">Each of these is a complete use case with a tested prompt, a chat-window view of what Claude builds, follow-ups, and tips.</p>
+<p class="text-base leading-relaxed text-secondary"><strong>For students:</strong></p>
+<ul class="flex list-disc flex-col gap-xs pl-lg">
+<li class="text-base leading-relaxed text-secondary"><a data-cds="TextLink" aria-describedby="_R_2prj6icq_" href="/use-cases/visualize-the-mechanism-behind-an-explanation-mid-chat" target="_blank" rel="noopener" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary">Visualize the mechanism behind an explanation mid-chat<span id="_R_2prj6icq_" hidden="" class="sr-only">(opens in new tab)</span></a></li>
+<li class="text-base leading-relaxed text-secondary"><a data-cds="TextLink" aria-describedby="_R_4prj6icq_" href="/use-cases/apply-a-formula-as-you-learn-it-in-chat-with-claude" target="_blank" rel="noopener" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary">Apply a formula as you learn it, in chat with Claude<span id="_R_4prj6icq_" hidden="" class="sr-only">(opens in new tab)</span></a></li>
+</ul>
+<p class="text-base leading-relaxed text-secondary"><strong>For your own work and research:</strong></p>
+<ul class="flex list-disc flex-col gap-xs pl-lg">
+<li class="text-base leading-relaxed text-secondary"><a data-cds="TextLink" aria-describedby="_R_2qrj6icq_" href="/use-cases/chart-your-data-before-you-commit" target="_blank" rel="noopener" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary">Chart your data in conversation with Claude before you commit to a reading<span id="_R_2qrj6icq_" hidden="" class="sr-only">(opens in new tab)</span></a></li>
+<li class="text-base leading-relaxed text-secondary"><a data-cds="TextLink" aria-describedby="_R_4qrj6icq_" href="/use-cases/map-your-lit-review-mid-conversation" target="_blank" rel="noopener" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary">Map your lit review mid-conversation to surface the underlying debate<span id="_R_4qrj6icq_" hidden="" class="sr-only">(opens in new tab)</span></a></li>
+<li class="text-base leading-relaxed text-secondary"><a data-cds="TextLink" aria-describedby="_R_6qrj6icq_" href="/use-cases/work-through-grant-options-in-chat-with-claude" target="_blank" rel="noopener" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary">Work through grant options in chat with Claude<span id="_R_6qrj6icq_" hidden="" class="sr-only">(opens in new tab)</span></a></li>
+</ul>
+<p class="text-base leading-relaxed text-secondary"><strong>For teaching and planning:</strong></p>
+<ul class="flex list-disc flex-col gap-xs pl-lg">
+<li class="text-base leading-relaxed text-secondary"><a data-cds="TextLink" aria-describedby="_R_2rrj6icq_" href="/use-cases/bring-your-whiteboard-lesson-to-life" target="_blank" rel="noopener" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary">Bring your whiteboard lesson to life in conversation with Claude<span id="_R_2rrj6icq_" hidden="" class="sr-only">(opens in new tab)</span></a></li>
+<li class="text-base leading-relaxed text-secondary"><a data-cds="TextLink" aria-describedby="_R_4rrj6icq_" href="/use-cases/plan-your-syllabus-see-which-weeks-are-locked" target="_blank" rel="noopener" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary">Plan your syllabus in chat with Claude — see which weeks are locked<span id="_R_4rrj6icq_" hidden="" class="sr-only">(opens in new tab)</span></a></li>
+</ul>
+<p class="text-base leading-relaxed text-secondary">Next time something isn't clicking, ask Claude to imagine it with you. Claude draws it, and the conversation continues from there.</p><!--/$--></article></div><nav aria-label="On this page" class="thin-scrollbar sticky top-[var(--academy-header-h,3.5rem)] hidden max-h-[calc(100vh-var(--academy-header-h,3.5rem))] w-72 shrink-0 self-start overflow-y-auto py-8 lg:block"><ul class="relative space-y-1 text-sm"><span aria-hidden="true" class="absolute left-0 w-0.5 rounded-full bg-fill-primary transition-all duration-200 ease-out" style="top: 128px; height: 28px;"></span><li><a href="#a-few-moments-where-this-may-help-you" class="block py-1 pl-3 transition-colors duration-200 hover:text-primary text-secondary">A few moments where this may help you</a></li><li><a href="#things-to-try-out-while-studying-with-claude" class="block py-1 pl-3 transition-colors duration-200 hover:text-primary text-secondary">Things to try out while studying with Claude</a></li><li><a href="#what-you-can-do-with-what-claude-draws" class="block py-1 pl-3 transition-colors duration-200 hover:text-primary text-secondary">What you can do with what Claude draws</a></li><li><a href="#a-few-practical-things" class="block py-1 pl-3 transition-colors duration-200 hover:text-primary text-secondary">A few practical things</a></li><li><a href="#go-deeper-the-full-set-of-walkthroughs" class="block py-1 pl-3 transition-colors duration-200 hover:text-primary font-medium text-primary" aria-current="location">Go deeper — the full set of walkthroughs</a></li></ul></nav></div><!--/$--><!--/$--></main><footer class="border-t"><div class="mx-auto flex w-full max-w-screen-2xl flex-wrap items-center justify-between gap-md px-md py-6 lg:px-lg"><span class="text-footnote text-muted">© <!-- -->2026<!-- --> <!-- -->Anthropic PBC</span><div class="flex flex-wrap items-center gap-lg"><ul role="list" class="flex flex-wrap items-center gap-lg"><li><button type="button" data-testid="footer-privacy-choices" class="cursor-pointer rounded text-footnote text-muted outline-none transition-colors duration-fast hover:text-primary focus-visible:shadow-focus">Privacy choices</button></li><li><a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener" class="rounded text-footnote text-muted outline-none transition-colors duration-fast hover:text-primary focus-visible:shadow-focus">Privacy policy</a></li><li><a href="https://www.anthropic.com/legal/aup" target="_blank" rel="noopener" class="rounded text-footnote text-muted outline-none transition-colors duration-fast hover:text-primary focus-visible:shadow-focus">Usage policy</a></li></ul><span class="flex items-center gap-sm"><button type="button" data-cds="Button" data-cds-icon-only="" data-cds-ghost="" data-size="sm" class="cds-reset group/btn relative isolate inline-flex shrink-0 items-center justify-center gap-1.5 whitespace-nowrap select-none cursor-[var(--cds-cursor-interactive)] aria-disabled:cursor-default data-[disabled]:cursor-default border-0 outline-none focus-visible:outline-hidden [&amp;[data-initial-focus]:focus]:outline-hidden rounded h-control font-sans text-body [&amp;:disabled:not([aria-busy])]:opacity-disabled disabled:pointer-events-none transition-shadow duration-fast text-primary font-normal aria-pressed:text-accent focus-visible:shadow-focus [&amp;[data-initial-focus]:focus]:shadow-focus aspect-square w-control px-0" aria-label="Switch to dark theme" data-cds-tooltip-pending=""><span aria-hidden="true" class="absolute -z-[1] rounded-[inherit] inset-0 cds-btn-squish"><span data-cds-part="paint" class="absolute inset-0 rounded-[inherit] transition-[background-color,box-shadow,color] duration-fast ease-out group-focus-visible/btn:shadow-[inset_0_0_0_1px_var(--cds-page-bg)] group-[[data-initial-focus]:focus]/btn:shadow-[inset_0_0_0_1px_var(--cds-page-bg)] bg-transparent group-hover/btn:bg-fill-ghost-hover group-[[aria-haspopup][aria-expanded=true]]/btn:bg-fill-ghost-hover group-aria-pressed/btn:bg-accent group-hover/btn:group-aria-pressed/btn:bg-accent "></span></span><span class="inline-flex min-w-0 items-center gap-1 "><span data-cds="Icon" style="font-family:var(--font-anthropicons, Anthropicons-Variable);font-feature-settings:&quot;liga&quot; 0;font-optical-sizing:auto;font-style:normal;font-variation-settings:normal;line-height:1;width:1em;height:1em;display:flex;align-items:center;justify-content:center;flex-shrink:0;user-select:none;font-size:20px;font-weight:433.3" aria-hidden="true"></span></span></button></span></div></div></footer></div></div><aside role="complementary" aria-label="Cookie settings" data-testid="consent-banner" class="fixed bottom-4 right-4 max-h-[calc(100dvh-2rem)] w-[calc(100vw-2rem)] max-w-md overflow-auto rounded-2xl border border-stroke-1 bg-surface-1 p-6 shadow-lg" style="z-index: 50;"><div class="mb-2 flex items-start justify-between gap-2"><h2 class="text-lg font-medium text-content-0">Cookie settings</h2></div><p class="mb-4 text-sm text-content-1">We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our <a data-cds="TextLink" href="https://www.anthropic.com/legal/cookies" target="_blank" rel="noreferrer" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary">Cookie Policy</a>.</p><div class="grid grid-cols-2 gap-2"><button type="button" data-cds="Button" class="cds-reset group/btn relative isolate inline-flex shrink-0 items-center justify-center gap-1.5 whitespace-nowrap select-none cursor-[var(--cds-cursor-interactive)] aria-disabled:cursor-default data-[disabled]:cursor-default border-0 outline-none focus-visible:outline-hidden [&amp;[data-initial-focus]:focus]:outline-hidden rounded h-control font-sans text-body [&amp;:disabled:not([aria-busy])]:opacity-disabled disabled:pointer-events-none transition-shadow duration-fast text-primary font-normal aria-pressed:text-accent focus-visible:shadow-focus [&amp;[data-initial-focus]:focus]:shadow-focus px-md col-span-2" data-testid="consent-customize"><span aria-hidden="true" class="absolute -z-[1] rounded-[inherit] inset-0 cds-btn-squish"><span data-cds-part="paint" class="absolute inset-0 rounded-[inherit] transition-[background-color,box-shadow,color] duration-fast ease-out group-focus-visible/btn:shadow-[inset_0_0_0_1px_var(--cds-page-bg)] group-[[data-initial-focus]:focus]/btn:shadow-[inset_0_0_0_1px_var(--cds-page-bg)] bg-fill-secondary group-hover/btn:bg-fill-secondary-hover group-[[aria-haspopup][aria-expanded=true]]/btn:bg-fill-secondary-hover group-aria-pressed/btn:bg-accent group-hover/btn:group-aria-pressed/btn:bg-accent shadow-field group-aria-pressed/btn:shadow-field-pressed group-focus-visible/btn:group-aria-pressed/btn:shadow-[inset_0_0_0_1px_var(--cds-page-bg)]"></span></span><span class="inline-flex min-w-0 items-center gap-1 ">Customize cookie settings</span></button><button type="button" data-cds="Button" class="cds-reset group/btn relative isolate inline-flex shrink-0 items-center justify-center gap-1.5 whitespace-nowrap select-none cursor-[var(--cds-cursor-interactive)] aria-disabled:cursor-default data-[disabled]:cursor-default border-0 outline-none focus-visible:outline-hidden [&amp;[data-initial-focus]:focus]:outline-hidden rounded h-control font-sans text-body [&amp;:disabled:not([aria-busy])]:opacity-disabled disabled:pointer-events-none transition-shadow duration-fast text-primary font-normal aria-pressed:text-accent focus-visible:shadow-focus [&amp;[data-initial-focus]:focus]:shadow-focus px-md" data-testid="consent-reject"><span aria-hidden="true" class="absolute -z-[1] rounded-[inherit] inset-0 cds-btn-squish"><span data-cds-part="paint" class="absolute inset-0 rounded-[inherit] transition-[background-color,box-shadow,color] duration-fast ease-out group-focus-visible/btn:shadow-[inset_0_0_0_1px_var(--cds-page-bg)] group-[[data-initial-focus]:focus]/btn:shadow-[inset_0_0_0_1px_var(--cds-page-bg)] bg-fill-secondary group-hover/btn:bg-fill-secondary-hover group-[[aria-haspopup][aria-expanded=true]]/btn:bg-fill-secondary-hover group-aria-pressed/btn:bg-accent group-hover/btn:group-aria-pressed/btn:bg-accent shadow-field group-aria-pressed/btn:shadow-field-pressed group-focus-visible/btn:group-aria-pressed/btn:shadow-[inset_0_0_0_1px_var(--cds-page-bg)]"></span></span><span class="inline-flex min-w-0 items-center gap-1 ">Reject all</span></button><button type="button" data-cds="Button" class="cds-reset group/btn relative isolate inline-flex shrink-0 items-center justify-center gap-1.5 whitespace-nowrap select-none cursor-[var(--cds-cursor-interactive)] aria-disabled:cursor-default data-[disabled]:cursor-default border-0 outline-none focus-visible:outline-hidden [&amp;[data-initial-focus]:focus]:outline-hidden rounded h-control font-sans text-body [&amp;:disabled:not([aria-busy])]:opacity-disabled disabled:pointer-events-none transition-shadow duration-fast text-primary font-normal aria-pressed:text-accent focus-visible:shadow-focus [&amp;[data-initial-focus]:focus]:shadow-focus px-md" data-testid="consent-accept"><span aria-hidden="true" class="absolute -z-[1] rounded-[inherit] inset-0 cds-btn-squish"><span data-cds-part="paint" class="absolute inset-0 rounded-[inherit] transition-[background-color,box-shadow,color] duration-fast ease-out group-focus-visible/btn:shadow-[inset_0_0_0_1px_var(--cds-page-bg)] group-[[data-initial-focus]:focus]/btn:shadow-[inset_0_0_0_1px_var(--cds-page-bg)] bg-fill-secondary group-hover/btn:bg-fill-secondary-hover group-[[aria-haspopup][aria-expanded=true]]/btn:bg-fill-secondary-hover group-aria-pressed/btn:bg-accent group-hover/btn:group-aria-pressed/btn:bg-accent shadow-field group-aria-pressed/btn:shadow-field-pressed group-focus-visible/btn:group-aria-pressed/btn:shadow-[inset_0_0_0_1px_var(--cds-page-bg)]"></span></span><span class="inline-flex min-w-0 items-center gap-1 ">Accept all</span></button></div></aside></div></div>
+  
+
+</body></html>

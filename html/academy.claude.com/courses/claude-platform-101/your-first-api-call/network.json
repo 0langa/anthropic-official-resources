@@ -1,11 +1,6 @@
 [
   {
     "reason": "optional_media_widget_or_analytics",
-    "type": "script",
-    "url": "https://widget.intercom.io/widget/lupk8zyo"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
     "type": "document",
     "url": "https://www.youtube-nocookie.com/embed/j0ftK_R5DTs"
   }

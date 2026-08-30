@@ -87,8 +87,6 @@ For your chosen scenario, identify:
 
 In the next lesson, we'll put these privacy practices into action as we explore data analysis with AI—learning how to spot patterns, generate insights, and strengthen your programs while keeping sensitive information protected.
 
-Was this helpful?
-
 
 ## Exercise 2
 

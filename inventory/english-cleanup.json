@@ -1,11 +1,11 @@
 {
-  "archived_pages": 2758,
-  "english_candidate_pages": 3411,
+  "archived_pages": 3561,
+  "english_candidate_pages": 3823,
   "normalized_duplicate_urls": 0,
   "removed_archived_pages": 0,
   "removed_non_english_urls": 0,
   "removed_noncanonical_records": 0,
   "removed_orphan_files": 0,
-  "removed_orphan_query_files": 12,
+  "removed_orphan_query_files": 0,
   "removed_out_of_scope_records": 0
 }

@@ -99,8 +99,6 @@ Your answers save in this browser only. They are not stored in Claude Academy an
 
 The final lesson assembles everything you have built, the articulation, the lens analyses, the decision memo, and the role map, into the culminating artifact of the course: your personal AI use policy.
 
-Was this helpful?
-
 
 ## Consultant
 

@@ -4,17 +4,17 @@ Claude Academy is Anthropic’s free learning site for Claude. The Claude Academ
 
 ## What the connector does
 
-The connector is a Model Context Protocol (MCP) server at`https://academy.claude.com/mcp` with three read-only tools. Ask for a course on a topic, browse what is available for a product, or open a tutorial and work through it with Claude. Every answer links back toacademy.claude.com so you can continue on the site.
+The connector is a Model Context Protocol (MCP) server at `https://academy.claude.com/mcp` with three read-only tools. Ask for a course on a topic, browse what is available for a product, or open a tutorial and work through it with Claude. Every answer links back to academy.claude.com so you can continue on the site.
 
-### Search Claude Academy`search_academy`
+### Search Claude Academy `search_academy`
 
 Keyword search across courses, lessons, tutorials and use cases, optionally limited to one kind of content or one product. Returns ranked results with links.
 
-### Get a Claude Academy item`get_content`
+### Get a Claude Academy item `get_content`
 
 Reads one item by its Academy path or URL. Tutorials and use cases come back in full; a course returns its summary, objectives and ordered lesson list; a lesson returns its summary, objectives and outline — read the lesson itself on the site.
 
-### List Claude Academy content`list_content`
+### List Claude Academy content `list_content`
 
 Lists everything published on Academy, optionally filtered by kind or product. Courses show their lesson count; lessons are listed only when you ask for kind=lesson (or through their course).
 
@@ -47,15 +47,20 @@ It is a standard Streamable HTTP server. Opening [https://academy.claude.com/mcp
 ## Try these prompts
 
 - “Search Claude Academy for courses about building MCP servers and give me the links.”
-search\_academy
+
+  search\_academy
 - “List every Academy tutorial for Claude Cowork.”
-list\_content
+
+  list\_content
 - “Open the Academy tutorial at https://academy.claude.com/tutorials/creating-your-first-skill and walk me through it step by step.”
-get\_content
+
+  get\_content
 - “What does the Claude Code 101 course cover? Show me its lesson list.”
-get\_content
+
+  get\_content
 - “Which Academy courses are about AI fluency for educators?”
-search\_academy
+
+  search\_academy
 
 ## Troubleshooting
 
@@ -73,11 +78,11 @@ By design: lessons return their summary, objectives and outline; tutorials and u
 
 ### “not\_found” or “invalid\_path” when opening a URL
 
-Reading an item uses the path of the link you give, for example`/tutorials/…`, `/courses/…` or`/use-cases/…` on academy.claude.com, or the full URL starting with https://; a typo gives not\_found. Check the link, or search first and use a result’s URL.
+Reading an item uses the path of the link you give, for example `/tutorials/…`, `/courses/…` or `/use-cases/…` on academy.claude.com, or the full URL starting with https://; a typo gives not\_found. Check the link, or search first and use a result’s URL.
 
 ### My progress, badges and certificates are missing
 
-The connector only reads public learning content. Sign in atacademy.claude.com for your progress, badges and certificates.
+The connector only reads public learning content. Sign in at academy.claude.com for your progress, badges and certificates.
 
 ## Privacy
 
@@ -88,3 +93,9 @@ Anthropic’s [Privacy Policy(opens in new tab)](https://www.anthropic.com/legal
 ## Support
 
 Questions or problems with the connector: use the support messenger in the corner of any Academy page, or start with the [Claude Academy FAQ](https://academy.claude.com/help/faq). Found a mistake in a course or tutorial Claude read to you? Send us the page and the snippet through the messenger and we will route it to the content team.
+
+
+
+For developers
+
+The server is stateless and POST-only; one request is one JSON-RPC message, and auth-discovery probes get a JSON 404 because there is no authentication.

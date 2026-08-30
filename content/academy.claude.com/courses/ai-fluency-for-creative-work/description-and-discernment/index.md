@@ -150,5 +150,3 @@ Your answers will appear here once you start filling in the workbook.
 ## What's next[](https://academy.claude.com/courses/ai-fluency-for-creative-work/description-and-discernment)
 
 You now have a described practice and explicit standards. The next lesson points that toolkit at an actual decision: for one real piece of work, whether AI belongs, where, and what responsibilities follow.
-
-Was this helpful?

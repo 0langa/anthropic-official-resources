@@ -1,7 +1,10 @@
-# Advanced setup
-Source: https://code.claude.com/docs/en/setup
+> ## Documentation Index
+> Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt
+> Use this file to discover all available pages before exploring further.
 
-System requirements, platform-specific installation, version management, and uninstallation for Claude Code.
+# Advanced setup
+
+> System requirements, platform-specific installation, version management, and uninstallation for Claude Code.
 
 This page covers system requirements, platform-specific installation details, updates, and uninstallation. For a guided walkthrough of your first session, see the [quickstart](/docs/en/quickstart). If you've never used a terminal before, see the [terminal guide](/docs/en/terminal-guide).
 
@@ -38,19 +41,19 @@ To install Claude Code, use one of the following methods:
   <Tab title="Native Install (Recommended)">
     **macOS, Linux, WSL:**
 
-    ```bash theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null}
+    ```bash theme={null}
     curl -fsSL https://claude.ai/install.sh | bash
     ```
 
     **Windows PowerShell:**
 
-    ```powershell theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null}
+    ```powershell theme={null}
     irm https://claude.ai/install.ps1 | iex
     ```
 
     **Windows CMD:**
 
-    ```batch theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null}
+    ```batch theme={null}
     curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
     ```
 
@@ -66,7 +69,7 @@ To install Claude Code, use one of the following methods:
   </Tab>
 
   <Tab title="Homebrew">
-    ```bash theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null}
+    ```bash theme={null}
     brew install --cask claude-code
     ```
 
@@ -78,7 +81,7 @@ To install Claude Code, use one of the following methods:
   </Tab>
 
   <Tab title="WinGet">
-    ```powershell theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null}
+    ```powershell theme={null}
     winget install Anthropic.ClaudeCode
     ```
 
@@ -105,10 +108,10 @@ If you encounter any issues during installation, see [Troubleshoot installation 
 You can run Claude Code natively on Windows or inside WSL. Pick based on where your projects are located and which features you need:
 
 | Option         | Requires                                                               | [Sandboxing](/docs/en/sandboxing) | When to use                                     |
-| -------------- | ---------------------------------------------------------------------- | --------------------------------- | ----------------------------------------------- |
-| Native Windows | None; [Git for Windows](https://git-scm.com/downloads/win) is optional | Not supported                     | Windows-native projects and tools               |
-| WSL 2          | WSL 2 enabled                                                          | Supported                         | Linux toolchains or sandboxed command execution |
-| WSL 1          | WSL 1 enabled                                                          | Not supported                     | If WSL 2 is unavailable                         |
+| -------------- | ---------------------------------------------------------------------- | ---------------------------- | ----------------------------------------------- |
+| Native Windows | None; [Git for Windows](https://git-scm.com/downloads/win) is optional | Not supported                | Windows-native projects and tools               |
+| WSL 2          | WSL 2 enabled                                                          | Supported                    | Linux toolchains or sandboxed command execution |
+| WSL 1          | WSL 1 enabled                                                          | Not supported                | If WSL 2 is unavailable                         |
 
 **Option 1: Native Windows**
 

@@ -75,8 +75,6 @@ Start a new conversation with Claude or continue the conversation from Lesson 1:
 
 In the next lesson, we'll focus on designing assignments that help students both develop and demonstrate AI Fluency.
 
-Was this helpful?
-
 
 ## Exercise 2
 

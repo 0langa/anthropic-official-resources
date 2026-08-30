@@ -96,5 +96,3 @@ Handling long Claude Code sessions comes down to a handful of habits:
 5. Run parallel work in worktrees.
 
 Do that, and you can trust a long run without babysitting every step of it.
-
-Was this helpful?

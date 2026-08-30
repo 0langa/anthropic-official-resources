@@ -62,8 +62,6 @@ Why? This exercise reveals which AI competencies you're already thinking about a
 
 In the next lesson, we'll put Description and Discernment into practice as you learn to research and write effectively with AI—skills that apply directly to grant proposals, donor communications, and program materials.
 
-Was this helpful?
-
 
 ## Exercise 2
 

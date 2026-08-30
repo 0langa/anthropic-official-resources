@@ -71,8 +71,6 @@ Your answers save in this browser only. They are not stored in your Academy acco
 
 You now have both lenses to analyze your creative practice. The next lesson introduces the 4D Framework.
 
-Was this helpful?
-
 
 ## Part II
 

@@ -154,5 +154,3 @@ Saved in this browser only. Copy your policy into your own document to keep it.
 ## What's next[](https://academy.claude.com/courses/ai-fluency-for-creative-work/putting-it-all-together)
 
 Next you will take a short assessment to earn your certificate.
-
-Was this helpful?
