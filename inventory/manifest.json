@@ -458,17 +458,16 @@
     "title": "AI Fluency for Creative Work · Claude Academy"
   },
   "https://academy.claude.com/courses/ai-fluency-for-creative-work/ai-roles-as-delegation-outcomes": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/ai-fluency-for-creative-work/ai-roles-as-delegation-outcomes/index.md",
-    "sha256": "b5baf19f363152f23779aed16affa71acbf7eacd78301361fe1828342136cbd0",
+    "sha256": "e9dd15cbef709a374d2b5af7fc7b5f6d81b4b9ef92cec1cf9e9bf0530c515802",
     "source_url": "https://academy.claude.com/courses/ai-fluency-for-creative-work/ai-roles-as-delegation-outcomes",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "AI roles as Delegation outcomes · AI Fluency for Creative Work · Claude Academy"
+    "text_validation": "complete",
+    "title": "AI roles as Delegation outcomes · AI Fluency for Creative Work · Claude Academy",
+    "transcript_characters": 5825
   },
   "https://academy.claude.com/courses/ai-fluency-for-creative-work/badge": {
     "content_notes": [
@@ -509,30 +508,28 @@
     "transcript_characters": 10131
   },
   "https://academy.claude.com/courses/ai-fluency-for-creative-work/description-and-discernment": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/ai-fluency-for-creative-work/description-and-discernment/index.md",
-    "sha256": "9528c689b4733fff2dd1e238d0d1b4494276bac9b72c1d59a75e5aca476208ab",
+    "sha256": "87f22fdad9ebb6bb440cf7204532d71307e4cd4dda80cb3a2f7f2731f3eadcd6",
     "source_url": "https://academy.claude.com/courses/ai-fluency-for-creative-work/description-and-discernment",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "Description and Discernment · AI Fluency for Creative Work · Claude Academy"
+    "text_validation": "complete",
+    "title": "Description and Discernment · AI Fluency for Creative Work · Claude Academy",
+    "transcript_characters": 7369
   },
   "https://academy.claude.com/courses/ai-fluency-for-creative-work/putting-it-all-together": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/ai-fluency-for-creative-work/putting-it-all-together/index.md",
-    "sha256": "7bfb8134a065ab821a818c37a41b9a698823bb10d794512d0d1247db7d34812e",
+    "sha256": "1a75197d1709b4341ed5ac6c1425f76e9df0d1f94a8fe4b06938190f5bc2d5df",
     "source_url": "https://academy.claude.com/courses/ai-fluency-for-creative-work/putting-it-all-together",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "Putting it all together · AI Fluency for Creative Work · Claude Academy"
+    "text_validation": "complete",
+    "title": "Putting it all together · AI Fluency for Creative Work · Claude Academy",
+    "transcript_characters": 7312
   },
   "https://academy.claude.com/courses/ai-fluency-for-creative-work/the-4d-framework": {
     "content_notes": [],
@@ -559,17 +556,16 @@
     "transcript_characters": 9987
   },
   "https://academy.claude.com/courses/ai-fluency-for-creative-work/the-production-lens": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/ai-fluency-for-creative-work/the-production-lens/index.md",
-    "sha256": "0e5d5e1da42b24064bf9fdf990f3f37ad2ff8735e9422a201f7e54733318fb46",
+    "sha256": "74d2fe8cabb4064c7ed7feda0c36e83e336c4c5a4ad12716dc60de737d8485c3",
     "source_url": "https://academy.claude.com/courses/ai-fluency-for-creative-work/the-production-lens",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "The production lens · AI Fluency for Creative Work · Claude Academy"
+    "text_validation": "complete",
+    "title": "The production lens · AI Fluency for Creative Work · Claude Academy",
+    "transcript_characters": 7118
   },
   "https://academy.claude.com/courses/ai-fluency-for-creative-work/welcome-to-ai-fluency-for-creative-work": {
     "content_notes": [],
@@ -859,17 +855,16 @@
     "title": "Course Quiz · AI Fluency for nonprofits · Claude Academy"
   },
   "https://academy.claude.com/courses/ai-fluency-for-nonprofits/data-analysis-with-ai": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/ai-fluency-for-nonprofits/data-analysis-with-ai/index.md",
-    "sha256": "0ec799294c808e9fb3315b99744894a821a69ec72e78c7f7fe86534852f29a4c",
+    "sha256": "714659bb25c5f7d3824fb6f18ac586ad8b6b544125e96b425b2508649304ed80",
     "source_url": "https://academy.claude.com/courses/ai-fluency-for-nonprofits/data-analysis-with-ai",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "Data analysis with AI · AI Fluency for nonprofits · Claude Academy"
+    "text_validation": "complete",
+    "title": "Data analysis with AI · AI Fluency for nonprofits · Claude Academy",
+    "transcript_characters": 6988
   },
   "https://academy.claude.com/courses/ai-fluency-for-nonprofits/integration": {
     "content_notes": [],
@@ -896,43 +891,40 @@
     "transcript_characters": 8428
   },
   "https://academy.claude.com/courses/ai-fluency-for-nonprofits/researching-with-ai": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/ai-fluency-for-nonprofits/researching-with-ai/index.md",
-    "sha256": "2c9801d92aa774520c43d8f5d5fa4a51c43024cb9218271e5bdf057535a44326",
+    "sha256": "37b5293315719f08a9e10a64e4955bc82ecfa75153f717bbdc3a05171928d260",
     "source_url": "https://academy.claude.com/courses/ai-fluency-for-nonprofits/researching-with-ai",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "Researching with AI · AI Fluency for nonprofits · Claude Academy"
+    "text_validation": "complete",
+    "title": "Researching with AI · AI Fluency for nonprofits · Claude Academy",
+    "transcript_characters": 6875
   },
   "https://academy.claude.com/courses/ai-fluency-for-nonprofits/the-4d-framework": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/ai-fluency-for-nonprofits/the-4d-framework/index.md",
-    "sha256": "2f74c7f93196a88f690e990224f98c8f10b706ad9d380477eebb18e867c0f142",
+    "sha256": "55c2c4867c0364abf755bd2e80da8f5c3ff5d5d8e9c2a304968dcf61721c3c6c",
     "source_url": "https://academy.claude.com/courses/ai-fluency-for-nonprofits/the-4d-framework",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "The 4D Framework · AI Fluency for nonprofits · Claude Academy"
+    "text_validation": "complete",
+    "title": "The 4D Framework · AI Fluency for nonprofits · Claude Academy",
+    "transcript_characters": 5446
   },
   "https://academy.claude.com/courses/ai-fluency-for-nonprofits/understanding-privacy-and-data": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/ai-fluency-for-nonprofits/understanding-privacy-and-data/index.md",
-    "sha256": "8f45049bd9629ef2bd16531e946754a9f0b74aa830863985756b2379128e885e",
+    "sha256": "c841df13266ba70f16f323aa411b060816ec4e2da3e792126e8d285b6477fd8f",
     "source_url": "https://academy.claude.com/courses/ai-fluency-for-nonprofits/understanding-privacy-and-data",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "Understanding privacy and data · AI Fluency for nonprofits · Claude Academy"
+    "text_validation": "complete",
+    "title": "Understanding privacy and data · AI Fluency for nonprofits · Claude Academy",
+    "transcript_characters": 9896
   },
   "https://academy.claude.com/courses/ai-fluency-for-nonprofits/welcome-to-ai-fluency-for-nonprofits": {
     "content_notes": [],
@@ -947,30 +939,28 @@
     "transcript_characters": 8319
   },
   "https://academy.claude.com/courses/ai-fluency-for-nonprofits/workflow-augmentation": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/ai-fluency-for-nonprofits/workflow-augmentation/index.md",
-    "sha256": "37546cea0942eb34e305d258d9e1c345c0559662a443129094c91d664e8da7f1",
+    "sha256": "d8955c4778ea7af937fc8846f57a202a85adb57c24d9bb7d1f9cda5e1d66befc",
     "source_url": "https://academy.claude.com/courses/ai-fluency-for-nonprofits/workflow-augmentation",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "Workflow augmentation · AI Fluency for nonprofits · Claude Academy"
+    "text_validation": "complete",
+    "title": "Workflow augmentation · AI Fluency for nonprofits · Claude Academy",
+    "transcript_characters": 5752
   },
   "https://academy.claude.com/courses/ai-fluency-for-nonprofits/writing-with-ai": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/ai-fluency-for-nonprofits/writing-with-ai/index.md",
-    "sha256": "1fb89689286baaba5bf2f86762f3e3cd793eee948ce9a60be5e466ed79ee7a6e",
+    "sha256": "c7d54829b71928ad82c9ce854d81df3fa6e9143cb867c7c2d97b90e26b32495f",
     "source_url": "https://academy.claude.com/courses/ai-fluency-for-nonprofits/writing-with-ai",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "Writing with AI · AI Fluency for nonprofits · Claude Academy"
+    "text_validation": "complete",
+    "title": "Writing with AI · AI Fluency for nonprofits · Claude Academy",
+    "transcript_characters": 6332
   },
   "https://academy.claude.com/courses/ai-fluency-for-pk-12-train-the-trainer": {
     "content_notes": [],
@@ -1064,17 +1054,16 @@
     "transcript_characters": 17316
   },
   "https://academy.claude.com/courses/ai-fluency-for-small-businesses/ai-fluency-for-small-businesses": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/ai-fluency-for-small-businesses/ai-fluency-for-small-businesses/index.md",
-    "sha256": "db2bf80727cd0625c0672921e707235fa91f8ad139019936c8fb671b91e3023e",
+    "sha256": "905b43cc0328b049d1523b8119562c4c7565f21168d0dc044e390b195bc05ae3",
     "source_url": "https://academy.claude.com/courses/ai-fluency-for-small-businesses/ai-fluency-for-small-businesses",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "AI Fluency for small businesses · AI Fluency for Small Businesses · Claude Academy"
+    "text_validation": "complete",
+    "title": "AI Fluency for small businesses · AI Fluency for Small Businesses · Claude Academy",
+    "transcript_characters": 4112
   },
   "https://academy.claude.com/courses/ai-fluency-for-small-businesses/badge": {
     "content_notes": [
@@ -1138,17 +1127,16 @@
     "transcript_characters": 8194
   },
   "https://academy.claude.com/courses/ai-fluency-for-small-businesses/researching-with-ai": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/ai-fluency-for-small-businesses/researching-with-ai/index.md",
-    "sha256": "718c8960794451384486e2c62a7e19cd109ceb9c9ae20f233cab3571a3037dc6",
+    "sha256": "a227f1262a4fdeca9f2c38eb45a95ff3545bc29f285a1f8d909200ba99e834a9",
     "source_url": "https://academy.claude.com/courses/ai-fluency-for-small-businesses/researching-with-ai",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "Refining with AI · AI Fluency for Small Businesses · Claude Academy"
+    "text_validation": "complete",
+    "title": "Refining with AI · AI Fluency for Small Businesses · Claude Academy",
+    "transcript_characters": 5795
   },
   "https://academy.claude.com/courses/ai-fluency-for-small-businesses/the-4d-framework": {
     "content_notes": [],
@@ -1163,30 +1151,28 @@
     "transcript_characters": 10334
   },
   "https://academy.claude.com/courses/ai-fluency-for-small-businesses/tying-it-all-together": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/ai-fluency-for-small-businesses/tying-it-all-together/index.md",
-    "sha256": "c71c54f9f6b79677decdf8d405cd51c6986e47aeb9ddb670997767a0dbe0cf6d",
+    "sha256": "29b47eb64f947d523f8fc74c87554dcd981f6dac2fe0436e7d76b8ea5171991d",
     "source_url": "https://academy.claude.com/courses/ai-fluency-for-small-businesses/tying-it-all-together",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "Tying it all together · AI Fluency for Small Businesses · Claude Academy"
+    "text_validation": "complete",
+    "title": "Tying it all together · AI Fluency for Small Businesses · Claude Academy",
+    "transcript_characters": 8981
   },
   "https://academy.claude.com/courses/ai-fluency-for-small-businesses/using-data-with-ai": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/ai-fluency-for-small-businesses/using-data-with-ai/index.md",
-    "sha256": "1eede4d8b7e4001fffad34f4a3ec3070d785767e1135df65126beaf02a64a81a",
+    "sha256": "6d00099417afa705fef95703c6cded8f964f6e69af2fe916d5f580cb47cee6bd",
     "source_url": "https://academy.claude.com/courses/ai-fluency-for-small-businesses/using-data-with-ai",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "Transparent AI use · AI Fluency for Small Businesses · Claude Academy"
+    "text_validation": "complete",
+    "title": "Transparent AI use · AI Fluency for Small Businesses · Claude Academy",
+    "transcript_characters": 6274
   },
   "https://academy.claude.com/courses/ai-fluency-for-students": {
     "content_notes": [],
@@ -1585,16 +1571,14 @@
     "title": "Continuous evals in CI · The AI-Native SDLC Playbook · Claude Academy"
   },
   "https://academy.claude.com/courses/ai-native-sdlc-playbook/give-claude-a-feedback-loop": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/ai-native-sdlc-playbook/give-claude-a-feedback-loop/index.md",
     "sha256": "fbc2133a2997c2531e400b0653b2b2b01a036ec0d33e69e05c07c5559820556f",
     "source_url": "https://academy.claude.com/courses/ai-native-sdlc-playbook/give-claude-a-feedback-loop",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Give Claude a feedback loop · The AI-Native SDLC Playbook · Claude Academy"
   },
   "https://academy.claude.com/courses/ai-native-sdlc-playbook/hooks-as-approval-gates": {
@@ -2990,16 +2974,14 @@
     "title": "Routines and headless · Claude Code in Action · Claude Academy"
   },
   "https://academy.claude.com/courses/claude-code-in-action/steering-long-sessions": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/claude-code-in-action/steering-long-sessions/index.md",
     "sha256": "6f66e96ee8b6f67276d3b3c2e0a01b68969118189b900685c042ece81690378f",
     "source_url": "https://academy.claude.com/courses/claude-code-in-action/steering-long-sessions",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Steering long sessions · Claude Code in Action · Claude Academy"
   },
   "https://academy.claude.com/courses/claude-code-in-action/trust-it-verifying-unsupervised-runs": {
@@ -3194,16 +3176,14 @@
     "title": "What is tool use? · Claude Platform 101 · Claude Academy"
   },
   "https://academy.claude.com/courses/claude-platform-101/your-first-api-call": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/claude-platform-101/your-first-api-call/index.md",
     "sha256": "32304f890c20c5f656ab6c8352d22b0c495373cbe53d161d69883d8afee8bb7a",
     "source_url": "https://academy.claude.com/courses/claude-platform-101/your-first-api-call",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Your first API call · Claude Platform 101 · Claude Academy"
   },
   "https://academy.claude.com/courses/claude-with-amazon-bedrock": {
@@ -5785,17 +5765,16 @@
     "title": "Teaching AI Fluency · Claude Academy"
   },
   "https://academy.claude.com/courses/teaching-ai-fluency/ai-s-impact-and-your-discipline": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/teaching-ai-fluency/ai-s-impact-and-your-discipline/index.md",
-    "sha256": "9a965494ff5355caff7e3f81a66d51f3007d13014524fdc99c53e66ff3b71293",
+    "sha256": "a485786784c13de4fa03176e8c735e1f4cabe14f6f927a35e88a646d2e17067a",
     "source_url": "https://academy.claude.com/courses/teaching-ai-fluency/ai-s-impact-and-your-discipline",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "AI's impact and your discipline · Teaching AI Fluency · Claude Academy"
+    "text_validation": "complete",
+    "title": "AI's impact and your discipline · Teaching AI Fluency · Claude Academy",
+    "transcript_characters": 8291
   },
   "https://academy.claude.com/courses/teaching-ai-fluency/applying-discipline-expertise-to-ai-fluency": {
     "content_notes": [],
@@ -5834,69 +5813,64 @@
     "title": "Course quiz · Teaching AI Fluency · Claude Academy"
   },
   "https://academy.claude.com/courses/teaching-ai-fluency/designing-assignments-for-ai-fluency": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/teaching-ai-fluency/designing-assignments-for-ai-fluency/index.md",
-    "sha256": "b4ade69c9937e064db5f2eb708f8feb58a4d13d04c2960ef1bb6e44b74627037",
+    "sha256": "714a6c5e07f0a7b5e6df408c3219ddbfb5017ccd4bfd21ef0542baa150b85d69",
     "source_url": "https://academy.claude.com/courses/teaching-ai-fluency/designing-assignments-for-ai-fluency",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "Designing assignments for AI Fluency · Teaching AI Fluency · Claude Academy"
+    "text_validation": "complete",
+    "title": "Designing assignments for AI Fluency · Teaching AI Fluency · Claude Academy",
+    "transcript_characters": 7958
   },
   "https://academy.claude.com/courses/teaching-ai-fluency/how-do-we-assess-the-4ds": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/teaching-ai-fluency/how-do-we-assess-the-4ds/index.md",
-    "sha256": "3d17b30eae2cfe10c2dbcbce78f6c7182d7b1bf489a6127e3305b1f060b20432",
+    "sha256": "c6b35fb18193af44c9033d85bce1c8eaca2fdec96e95f5e2e6508f06984757f2",
     "source_url": "https://academy.claude.com/courses/teaching-ai-fluency/how-do-we-assess-the-4ds",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "How do we assess the 4Ds? · Teaching AI Fluency · Claude Academy"
+    "text_validation": "complete",
+    "title": "How do we assess the 4Ds? · Teaching AI Fluency · Claude Academy",
+    "transcript_characters": 7197
   },
   "https://academy.claude.com/courses/teaching-ai-fluency/the-delegation-diligence-loop": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/teaching-ai-fluency/the-delegation-diligence-loop/index.md",
-    "sha256": "6ee545c89abce68a2643850156d7bb452efc2e8d2f3c0ea4adbd17e6cfc0a7e0",
+    "sha256": "9209b1a402de27d96bca54f472bb05bd3dfb8fb6844d427d38fececb1bf08b99",
     "source_url": "https://academy.claude.com/courses/teaching-ai-fluency/the-delegation-diligence-loop",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "The Delegation-Diligence loop · Teaching AI Fluency · Claude Academy"
+    "text_validation": "complete",
+    "title": "The Delegation-Diligence loop · Teaching AI Fluency · Claude Academy",
+    "transcript_characters": 7682
   },
   "https://academy.claude.com/courses/teaching-ai-fluency/the-description-discernment-loop": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/teaching-ai-fluency/the-description-discernment-loop/index.md",
-    "sha256": "4aed2f7e5cc7140d4ad26ae61db09a6993928efaa5a212f0e998e1de34292bc0",
+    "sha256": "b8745a89b7e13dd23b0600b8cc1c49a4cfe48a3e7b8471c4f29f3802b0d819b2",
     "source_url": "https://academy.claude.com/courses/teaching-ai-fluency/the-description-discernment-loop",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "The Description-Discernment loop · Teaching AI Fluency · Claude Academy"
+    "text_validation": "complete",
+    "title": "The Description-Discernment loop · Teaching AI Fluency · Claude Academy",
+    "transcript_characters": 11255
   },
   "https://academy.claude.com/courses/teaching-ai-fluency/welcome-approaches-to-teaching-ai-fluency": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/teaching-ai-fluency/welcome-approaches-to-teaching-ai-fluency/index.md",
-    "sha256": "ae2e4c4b709185936bee04bdcc6cc25ec2136f743e29c31de96e105504f73304",
+    "sha256": "b993e609ddc1d11e9416e93298602975f84ab074efeb61efba683435cb9b14f8",
     "source_url": "https://academy.claude.com/courses/teaching-ai-fluency/welcome-approaches-to-teaching-ai-fluency",
     "status": "archived",
-    "text_validation": "partial",
-    "title": "Welcome & approaches to teaching AI Fluency · Teaching AI Fluency · Claude Academy"
+    "text_validation": "complete",
+    "title": "Welcome & approaches to teaching AI Fluency · Teaching AI Fluency · Claude Academy",
+    "transcript_characters": 7696
   },
   "https://academy.claude.com/help/faq": {
     "content_notes": [],
@@ -6950,16 +6924,14 @@
     "title": "Use artifacts to visualize and create AI apps without ever writing a line of code · Claude Academy"
   },
   "https://academy.claude.com/tutorials/using-aiera-for-earnings-intelligence-and-market-analysis": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/tutorials/using-aiera-for-earnings-intelligence-and-market-analysis/index.md",
     "sha256": "e1ec30f255c9d57ec5cb69ee89587b9348583b7c179f760ae1c9ac002b92fd87",
     "source_url": "https://academy.claude.com/tutorials/using-aiera-for-earnings-intelligence-and-market-analysis",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Using Aiera for earnings intelligence and market analysis · Claude Academy"
   },
   "https://academy.claude.com/tutorials/using-chronograph-for-portfolio-monitoring": {
@@ -7007,16 +6979,14 @@
     "title": "Using Claude Cowork for marketing ops: run a weekly review that preps itself · Claude Academy"
   },
   "https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research/index.md",
     "sha256": "e4a2ce7088a88aab23ef974927e8888cb9486d3eef479eaa3af7c557ad3fa921",
     "source_url": "https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Using Claude Cowork for sales: research any account before the first call · Claude Academy"
   },
   "https://academy.claude.com/tutorials/using-claude-design-for-presentations-and-slide-decks": {
@@ -7537,16 +7507,14 @@
     "title": "Account research · Claude Academy"
   },
   "https://academy.claude.com/use-cases/account-tracking": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/use-cases/account-tracking/index.md",
     "sha256": "0e84be9205e7742a6c2c11f8a12424cd1f0837e002666a7b64cd648f73f098d4",
     "source_url": "https://academy.claude.com/use-cases/account-tracking",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Account tracking · Claude Academy"
   },
   "https://academy.claude.com/use-cases/ad-performance-recap": {
@@ -8144,16 +8112,14 @@
     "title": "Draft a credit memo from spreads and statements with Claude for Excel · Claude Academy"
   },
   "https://academy.claude.com/use-cases/draft-investment-memos": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/use-cases/draft-investment-memos/index.md",
     "sha256": "15e3f319234026cdc162a86ca96ea35838f69c16e155bf6c8a7702e490c5c47d",
     "source_url": "https://academy.claude.com/use-cases/draft-investment-memos",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Draft investment memos · Claude Academy"
   },
   "https://academy.claude.com/use-cases/elevate-claudes-design-using-skills": {
@@ -8476,16 +8442,14 @@
     "title": "On-call handoff brief · Claude Academy"
   },
   "https://academy.claude.com/use-cases/open-new-role": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/use-cases/open-new-role/index.md",
     "sha256": "c93665c214bd7cdad997e61742a2d480597b6546b6bb1f1291fa2aa34c828cc1",
     "source_url": "https://academy.claude.com/use-cases/open-new-role",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Open a new role · Claude Academy"
   },
   "https://academy.claude.com/use-cases/organize-files-by-whats-in-them": {
@@ -8632,16 +8596,14 @@
     "title": "Practice case interviews with feedback · Claude Academy"
   },
   "https://academy.claude.com/use-cases/prd-from-a-one-pager": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/use-cases/prd-from-a-one-pager/index.md",
     "sha256": "92df43bad546333e9a16a11ae42780c22b5ccfddadb13b2555f157d9c489b351",
     "source_url": "https://academy.claude.com/use-cases/prd-from-a-one-pager",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "PRD from a problem statement · Claude Academy"
   },
   "https://academy.claude.com/use-cases/preclinical-study-analysis": {
@@ -8766,16 +8728,14 @@
     "title": "Renewal risk audit · Claude Academy"
   },
   "https://academy.claude.com/use-cases/repurpose-content": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/use-cases/repurpose-content/index.md",
     "sha256": "038b1533d1f125a255fba072e6be39b7f2b218972c023f13a3e84a48587e850a",
     "source_url": "https://academy.claude.com/use-cases/repurpose-content",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Repurpose content across channels · Claude Academy"
   },
   "https://academy.claude.com/use-cases/research-and-compare-travel-destinations": {
@@ -8944,16 +8904,14 @@
     "title": "Track discovery timelines and analyze patterns · Claude Academy"
   },
   "https://academy.claude.com/use-cases/transcript-themes": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/use-cases/transcript-themes/index.md",
     "sha256": "9e9ffe374c458f5e4e8c216c052e517adb11a298bdbfba006b2a1dcfa4120eda",
     "source_url": "https://academy.claude.com/use-cases/transcript-themes",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Transcript theme extractor · Claude Academy"
   },
   "https://academy.claude.com/use-cases/turn-emails-into-an-event-tracker": {
@@ -9023,29 +8981,25 @@
     "title": "Understand and extend an inherited spreadsheet · Claude Academy"
   },
   "https://academy.claude.com/use-cases/update-your-financial-model-after-earnings": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/use-cases/update-your-financial-model-after-earnings/index.md",
     "sha256": "9ac9b9dfaddc557f73621eec3715127f9a4f829526990ce515362bd805feb775",
     "source_url": "https://academy.claude.com/use-cases/update-your-financial-model-after-earnings",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Update your financial model after earnings · Claude Academy"
   },
   "https://academy.claude.com/use-cases/uxr-synthesis": {
-    "content_notes": [
-      "Transcript control present, but transcript capture could not be confirmed."
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/use-cases/uxr-synthesis/index.md",
     "sha256": "0fa5c4e141719c04050f49a37f65c90144b6805c8a6ae605303189202e0a7266",
     "source_url": "https://academy.claude.com/use-cases/uxr-synthesis",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Synthesize user interviews into findings · Claude Academy"
   },
   "https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel": {
@@ -9183,29 +9137,25 @@
     "title": "All resources · Claude Academy"
   },
   "https://claude.com/blog": {
-    "content_notes": [
-      "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/claude.com/blog/index.md",
     "sha256": "0d0b0b87f8b0de54132eb2e116e30c6ece16d3981faff7dbed3c7caef6cfd6d3",
     "source_url": "https://claude.com/blog",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Blog | Claude by Anthropic"
   },
   "https://claude.com/blog/": {
-    "content_notes": [
-      "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/claude.com/blog/directory-index.md",
     "sha256": "02cb52e117cbd5db2653c8dee8160c0b0ba37969566c48b46998cd9a83788890",
     "source_url": "https://claude.com/blog/",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Blog | Claude by Anthropic"
   },
   "https://claude.com/blog/1m-context": {
@@ -9494,16 +9444,14 @@
     "title": "Best practices for using Claude Opus 4.7 with Claude Code | Claude by Anthropic"
   },
   "https://claude.com/blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous": {
-    "content_notes": [
-      "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/claude.com/blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous/index.md",
     "sha256": "cb273abb0a34c65deb1c6215d3522edf5533308e5bfb9d33f8c03f168c481b7a",
     "source_url": "https://claude.com/blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Beyond permission prompts: making Claude Code more secure and autonomous | Claude by Anthropic"
   },
   "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government": {
@@ -9553,16 +9501,14 @@
     "title": "Turn ideas into interactive AI-powered apps | Claude by Anthropic"
   },
   "https://claude.com/blog/build-responsive-web-layouts": {
-    "content_notes": [
-      "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/claude.com/blog/build-responsive-web-layouts/index.md",
     "sha256": "9d21ccf35534dfd7101cd614a5dca45b7a02b15fcfd2678ab071bc0e5a362c74",
     "source_url": "https://claude.com/blog/build-responsive-web-layouts",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Build responsive web layouts | Claude by Anthropic"
   },
   "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp": {
@@ -10980,16 +10926,14 @@
     "title": "Improving skill-creator: Test, measure, and refine Agent Skills | Claude by Anthropic"
   },
   "https://claude.com/blog/integrate-apis-seamlessly": {
-    "content_notes": [
-      "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/claude.com/blog/integrate-apis-seamlessly/index.md",
     "sha256": "8221298b1339e450df7043253586cc9e0e360bf089e7816b6f1deb62d3680727",
     "source_url": "https://claude.com/blog/integrate-apis-seamlessly",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "How to integrate APIs seamlessly | Claude by Anthropic"
   },
   "https://claude.com/blog/integrations": {
@@ -11063,29 +11007,25 @@
     "title": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud | Claude by Anthropic"
   },
   "https://claude.com/blog/introduction-to-agentic-coding": {
-    "content_notes": [
-      "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/claude.com/blog/introduction-to-agentic-coding/index.md",
     "sha256": "a764ca98dc33d2afeefca044a1b479521de777041d1f413f8eb2830b2e6d5bb8",
     "source_url": "https://claude.com/blog/introduction-to-agentic-coding",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Introduction to agentic coding | Claude by Anthropic"
   },
   "https://claude.com/blog/key-benefits-transitioning-agentic-coding": {
-    "content_notes": [
-      "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/claude.com/blog/key-benefits-transitioning-agentic-coding/index.md",
     "sha256": "909d4973b9d115720fc6fc43563b5789af1fef098a3b3125e3cd3a36076b26ef",
     "source_url": "https://claude.com/blog/key-benefits-transitioning-agentic-coding",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "The key benefits of transitioning to agentic coding | Claude by Anthropic"
   },
   "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills": {
@@ -11260,16 +11200,14 @@
     "title": "Onboarding Claude Code like a new developer: Lessons from 17 years of development | Claude by Anthropic"
   },
   "https://claude.com/blog/optimize-code-performance-quickly": {
-    "content_notes": [
-      "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/claude.com/blog/optimize-code-performance-quickly/index.md",
     "sha256": "8f0bb92d66b82f0b817a4d7c21af3e76971aae2188a8fd951d30100dd59b64a6",
     "source_url": "https://claude.com/blog/optimize-code-performance-quickly",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Optimize code performance quickly | Claude by Anthropic"
   },
   "https://claude.com/blog/opus-4-6-finance": {
@@ -11436,16 +11374,14 @@
     "title": "Running an AI-native engineering org | Claude by Anthropic"
   },
   "https://claude.com/blog/scaling-agentic-coding": {
-    "content_notes": [
-      "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/claude.com/blog/scaling-agentic-coding/index.md",
     "sha256": "5b93f6726d02246de1d654e723a091d70b5d2521b6a368ec76bffc92412f7e6a",
     "source_url": "https://claude.com/blog/scaling-agentic-coding",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "How to scale agentic coding across your engineering organization | Claude by Anthropic"
   },
   "https://claude.com/blog/seeing-like-an-agent": {
@@ -11761,8 +11697,7 @@
   },
   "https://claude.com/blog/what-is-model-context-protocol": {
     "content_notes": [
-      "Embedded media URLs preserved; video/audio binaries are not mirrored.",
-      "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+      "Embedded media URLs preserved; video/audio binaries are not mirrored."
     ],
     "format": "browser-html",
     "language": "en",
@@ -11770,7 +11705,7 @@
     "sha256": "233bdf69773a976df920b91dc44e9675f71284276226c3eab49f1c3403082100",
     "source_url": "https://claude.com/blog/what-is-model-context-protocol",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "What is Model Context Protocol? Connect AI to your world | Claude by Anthropic"
   },
   "https://claude.com/blog/whats-new-in-claude-managed-agents": {
@@ -12078,6 +12013,17 @@
     "path": "content/claude.com/resources/use-cases/index.md",
     "sha256": "712e20a8d5f516d4a791390998c37aadd814e42b5252f7393f3d7f0bdc72d9b9",
     "source_url": "https://academy.claude.com/use-cases?department=personal",
+    "status": "archived",
+    "text_validation": "complete",
+    "title": "Use cases · Claude Academy"
+  },
+  "https://claude.com/resources/use-cases/category/nonprofits": {
+    "content_notes": [],
+    "format": "browser-html",
+    "language": "en",
+    "path": "content/claude.com/resources/use-cases/category/nonprofits/index.md",
+    "sha256": "37b514418c244d9bc0722fe635131e35eb6e3a6e80d2878ac87b94473d541ecb",
+    "source_url": "https://academy.claude.com/use-cases",
     "status": "archived",
     "text_validation": "complete",
     "title": "Use cases · Claude Academy"
@@ -15422,16 +15368,14 @@
     "title": "Using vision with tools | Claude Cookbook"
   },
   "https://platform.claude.com/docs": {
-    "content_notes": [
-      "Content dependencies blocked by scope or robots policy: https://js.hcaptcha.com/1/api.js, https://s-cdn.anthropic.com/s.js"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/platform.claude.com/docs/index.md",
     "sha256": "417ef76250db5609e89378aba848f9f852de3475c0cfa373907d6ea9afd3f66c",
     "source_url": "https://platform.claude.com/docs/en/home",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Documentation - Claude Platform Docs"
   },
   "https://platform.claude.com/docs/en/about-claude/additional-resources": {
@@ -23407,6 +23351,136 @@
     "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/federation/rules/list.md",
     "status": "archived"
   },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/federation/rules/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/federation/rules/retrieve/index.md",
+    "sha256": "aad26091422c2e82af976c55a3eadfc9183a0085a1fe5dfb7fd36fa2bdb880bd",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/federation/rules/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/federation/rules/update": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/federation/rules/update/index.md",
+    "sha256": "bb0d386047c7d0f992695b43b29367decd8aac5a566333543e2bb388e8781797",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/federation/rules/update.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/federation/rules/workspaces": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/federation/rules/workspaces/index.md",
+    "sha256": "dd9fecf0bb29aea1372c60707b7708739d1b9b7eb5ea1c7653e14c9d96298659",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/federation/rules/workspaces.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/federation/rules/workspaces/add": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/federation/rules/workspaces/add/index.md",
+    "sha256": "be6286d210e053850a11042e649fc3bc20c26d75b13c4bbcff545f2a90cb1d70",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/federation/rules/workspaces/add.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/federation/rules/workspaces/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/federation/rules/workspaces/list/index.md",
+    "sha256": "6a9f12b08602fa0adad589cb8c62d6bac4414a30de32d489676330ad964f48bb",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/federation/rules/workspaces/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/federation/rules/workspaces/remove": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/federation/rules/workspaces/remove/index.md",
+    "sha256": "203a4343d179ecd5068cae12001209290a77efa1f1489b6c8e4658cf3c67cb14",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/federation/rules/workspaces/remove.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/invites": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/invites/index.md",
+    "sha256": "89329dda310c70dfa08ac466073a98aa684cb808b8834eb73df336b98793aca5",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/invites.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/invites/create": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/invites/create/index.md",
+    "sha256": "bfbc4c895780b80767d2d2d6fa7b2fcfb72496667419f3a3b12a90cc0af15e1e",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/invites/create.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/invites/delete": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/invites/delete/index.md",
+    "sha256": "83ae545e676eea1ed6bc93f704401370a16160511ee7cf49c200d48d4e770ac4",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/invites/delete.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/invites/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/invites/list/index.md",
+    "sha256": "611d23fcf3c97614440e2864498fe6b4ddb3be18ff6b616ece147a8155385325",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/invites/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/invites/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/invites/retrieve/index.md",
+    "sha256": "b0fe9458ac360679238f7d86ca3ddaff29c9d3c11ebc3ba141fc32e19b6621df",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/invites/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rate_limits": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/rate_limits/index.md",
+    "sha256": "84aeb42a4d69b0945b150776ae906a0577fcc92f5a713c6f733b56b237caf5f5",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/rate_limits.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rate_limits/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/rate_limits/list/index.md",
+    "sha256": "63f973767971680754046b7c3d3f42416e79101f9834bea8f0612f09d5cedcf7",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/rate_limits/list.md",
+    "status": "archived"
+  },
   "https://platform.claude.com/docs/en/api/http/beta/organization/retrieve": {
     "content_notes": [
       "Native source; upstream MDX components retained."
@@ -23415,6 +23489,596 @@
     "path": "content/platform.claude.com/docs/en/api/http/beta/organization/retrieve/index.md",
     "sha256": "8cf57b8e06dcc897d4439e9809e6b2fe9ec2ef89b341185dbb9f8f1007286fae",
     "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/service_accounts/index.md",
+    "sha256": "8dd91cf5b3929dd11ebfbfe9127e517749fbf49028fbbf3231b0b941374762be",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/archive": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/service_accounts/archive/index.md",
+    "sha256": "c2197dc5246a84090b319be84c4037b2996f949645aa2a7fcf063925bea05439",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/archive.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/create": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/service_accounts/create/index.md",
+    "sha256": "0d8d4380bef3b13683bbe7c196e080f1014468c82eaeff6842b356e92027c2a4",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/create.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/service_accounts/list/index.md",
+    "sha256": "694ec802dbc41f0da9f5bbfcef92fc9aa7d46f6ed54eccac0d926f4df599aa61",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/service_accounts/retrieve/index.md",
+    "sha256": "4aa8fb2400e09cbb5b79f2eab10916b5beb59cebbdf0eeee3f9398bb3a91f422",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/update": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/service_accounts/update/index.md",
+    "sha256": "3efba23cacb4b0de306264abbc39a2483f975fa1fb17d5d9cd4dd03b85ea3ffc",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/update.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/workspaces": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/service_accounts/workspaces/index.md",
+    "sha256": "81bac26989ee5b14e9dd25737f2e6bea6c01fa2c27aa5354a831f286b0d6fd33",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/workspaces.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/workspaces/add": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/service_accounts/workspaces/add/index.md",
+    "sha256": "d153a23c54484ecc2a3e9f75a20c8119580500d05af101cc89e0eb939d435ad2",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/workspaces/add.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/workspaces/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/service_accounts/workspaces/list/index.md",
+    "sha256": "6fa133e4d802ea408ddebfaeba93d5021b281961520a43520143c0cf73dd9b13",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/workspaces/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/workspaces/remove": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/service_accounts/workspaces/remove/index.md",
+    "sha256": "ee3c3449d8f1c7d1e20d83a6a275c75fb193ef9a2ea70ada8799d7bd38517fd0",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/workspaces/remove.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/users": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/users/index.md",
+    "sha256": "6b7038d800adb5fe6241eea544117ab39f1fe82840d06e913a0b2139f2c40ac4",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/users.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/users/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/users/list/index.md",
+    "sha256": "a68cad64ca481597d3e16f16dcd358390fecab16aa41d2c9518930fed87090f0",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/users/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/users/remove": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/users/remove/index.md",
+    "sha256": "3d3550735db23eeb97a264918779ac5b343b87872b2780e5d2763c46ab3e823f",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/users/remove.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/users/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/users/retrieve/index.md",
+    "sha256": "8b4a796e1fdc4ecf71d21ef2e3413251c8d17c5a5d991e84563b3774de74661f",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/users/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/users/update": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/users/update/index.md",
+    "sha256": "f01392be981edbc85b2cfdf7b08579a5aed0873d81b8a97e5160a8ed73be2c12",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/users/update.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/index.md",
+    "sha256": "3fe99a3b0f1dca5f33048e6014678435133149dda68b4b1b062f777e620bca2b",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/archive": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/archive/index.md",
+    "sha256": "d01d0c8d1ad24ab66045172cbb38b49d14346c6e58c96eaeefd2aa1bc18a5cc8",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/archive.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/create": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/create/index.md",
+    "sha256": "e3a5644ed5a68442283d0b75274cf9a5f7e409cedac1341d299bc9351e92c2ce",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/create.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/list/index.md",
+    "sha256": "beaf0d5d6ccc3cfa00360c14404b52676dba935d2a7f5da8d77fff6c7cd64cf0",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/members": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/index.md",
+    "sha256": "ffb12675329c74f020b08fa8fe2dcced0922768c64acb4d5143e7f656c6f1a15",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/members.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/add": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/add/index.md",
+    "sha256": "5dcbdc6cc2c875226f521beeb9cb010737081ddb726412c5464a2a9767d8fe7e",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/add.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/list/index.md",
+    "sha256": "0d932d6e24a202617da8106f93898643b94f95c4bc42e3f41416f9ca8cb2e203",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/remove": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/remove/index.md",
+    "sha256": "fbdb508628c802a8b00e639afa1009e5198ac08d71f1aa2038db4a8807421dd3",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/remove.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/retrieve/index.md",
+    "sha256": "abbb2bb065480fb7ffd84fc09224e6be87a6b4ccdc5e8a5ea70033daedae72d3",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/update": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/update/index.md",
+    "sha256": "d9ab55219bd41e1be2694ae36327d1ab4783ac69af3c9f6de56beaa580d09efd",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/update.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/rate_limits": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/rate_limits/index.md",
+    "sha256": "c851d005cce34a15ee4b67735f42e3bece6683dc76946df35bccde4795f817c0",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/rate_limits.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/rate_limits/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/rate_limits/list/index.md",
+    "sha256": "707aee0647bee7addd75c3b694d0a331bcb24aa52f9f340369e727b8041b5406",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/rate_limits/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/retrieve/index.md",
+    "sha256": "45a6ca5fd06fc2b71a0fb7c0f4efdb4dc5b2c9fb2e643e30375b32680887cd69",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/index.md",
+    "sha256": "25d426701f5634f100dfc8348a0a906be95067824c7ae3291fa0182ac3b673f9",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/add": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/add/index.md",
+    "sha256": "4c1eec98d1f77e9b25e7ea28b3e143231dd69175c03e1837bc78e54b1c59c610",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/add.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/list/index.md",
+    "sha256": "9be90fd518eb385e75a80cb339b7d535080083b611bb3245d057b040990f470e",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/remove": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/remove/index.md",
+    "sha256": "4608834fd230e1d9b42bee49efb3177a4c75cfad6f3acf54fde50db6668a544e",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/remove.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/retrieve/index.md",
+    "sha256": "d7eea6b078241a54fa97c1c159b6e31bca27409cb342a7b194b4b82a75ab1aa3",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/update": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/update/index.md",
+    "sha256": "eb9c656255418455659b91e39b299348833980b58a1c2bd1255507d8b8563ab7",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/update.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/update": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/organization/workspaces/update/index.md",
+    "sha256": "57e9c792e369c8951ece98828ed8ab54f99849260787d8472414fecaee97395c",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/update.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/index.md",
+    "sha256": "d9ac5362487cc14733dd1283b875dbf1735dc58c5309ce5940d07a199c85a8f2",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/archive": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/archive/index.md",
+    "sha256": "c59ba605bb4cf3768d4248c49b2adda23c326c307cc3ee686798e7e589632bc8",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/archive.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/create": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/create/index.md",
+    "sha256": "88bdd56f18b845dd6b56c31c2238b6744f3fe0677b22b6b58e7d9260fc3b7d4b",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/create.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/delete": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/delete/index.md",
+    "sha256": "e17074689dcf118c75bb74a33799efaf1af46686d34b2b266316471245d61df0",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/delete.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/events": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/events/index.md",
+    "sha256": "99855359220b1ef4de0e54ca6e52f3731a3061d05c704c31eaeedb5cbf62ebfd",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/events.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/events/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/events/list/index.md",
+    "sha256": "3c36addb20e9c16942499c7f20d6c7959c1f183551b429f2a47a12062855bac7",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/events/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/events/send": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/events/send/index.md",
+    "sha256": "a1ccb3a964c8623cbb09928ae31f419fdf2c2563ad18d305df00202de3c99ecc",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/events/send.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/events/stream": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/events/stream/index.md",
+    "sha256": "73aa967aee0cb02934bf4a9bc61ff000b995998c26f67d65a12840e70f0c70e9",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/events/stream.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/list/index.md",
+    "sha256": "f13884581af59a3c8545467d93c10b12f0fd5fe6b4fc4ad034502ead4bb4c3b9",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/resources": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/resources/index.md",
+    "sha256": "3cfd29d8b541348f2bf701611522d2dc4161727494e6d618ba26325c408894a5",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/resources.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/resources/add": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/resources/add/index.md",
+    "sha256": "fcb3c0b2e87f022c6bda07a5d9de856d63605ebb96d1a5a604801249e7960e31",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/resources/add.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/resources/delete": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/resources/delete/index.md",
+    "sha256": "fa87b496f584cfb3b1e1fda08565617bbb0d80919cfd7879a4777effbeef5637",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/resources/delete.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/resources/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/resources/list/index.md",
+    "sha256": "3df6b3d94ab28f165ef9a3221f7dff7c01ddea8f36943deb4c7c8ec91c387b73",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/resources/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/resources/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/resources/retrieve/index.md",
+    "sha256": "f26498999a086416bee18eec3513563247d03add29c8e15d58d39475c3291825",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/resources/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/resources/update": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/resources/update/index.md",
+    "sha256": "8a092cee0ad834340fe602077a8debc5569457540b3096b31116dfa671562546",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/resources/update.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/retrieve/index.md",
+    "sha256": "a0d0af0205d3044c5cbb42d7f4036d595e33014601cbdf25e1ce6bb972a2b63d",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/threads": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/threads/index.md",
+    "sha256": "d6bb60beeb37a52fd6c567352e2706c8e368cf528c5fca99ba35107e19e543f3",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/threads.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/threads/archive": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/threads/archive/index.md",
+    "sha256": "5ddeb30542a959b7272d95511e5ab3fea79c75a7d8516223e128b8a9a032d567",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/threads/archive.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/threads/events": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/threads/events/index.md",
+    "sha256": "63d79c8baacb366ee72930f586b0ecf0240a84b8a139e7e7e4361a3107265816",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/threads/events.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/threads/events/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/threads/events/list/index.md",
+    "sha256": "a6a70cdd96e4ba69c2e25cc709ed12ca01a6bc1d500ba8e5e0631ea4d30717f5",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/threads/events/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/threads/events/stream": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/threads/events/stream/index.md",
+    "sha256": "2caea13ee2f9eec89a84bd3e5cc9c3ce3f2f8370094aaee99060d1ea3e7eb775",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/threads/events/stream.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/threads/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/threads/list/index.md",
+    "sha256": "41ad5c8f7b216485dc0a45401ba102f4148df62edf3334e60af29018c68a2673",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/threads/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/threads/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/threads/retrieve/index.md",
+    "sha256": "f5dc6750597cc7b7a7b4f78b08c964ff5592ff6a44d5237bffd7f013c124ab5d",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/threads/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/update": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/sessions/update/index.md",
+    "sha256": "c2789678220be5a23e2421f37e06f7175126d4dc3c168cbc067c2623bb5d55e4",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/sessions/update.md",
     "status": "archived"
   },
   "https://platform.claude.com/docs/en/api/http/beta/skills": {
@@ -23467,6 +24131,66 @@
     "source_url": "https://platform.claude.com/docs/en/api/http/beta/skills/retrieve.md",
     "status": "archived"
   },
+  "https://platform.claude.com/docs/en/api/http/beta/skills/versions": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/skills/versions/index.md",
+    "sha256": "2999f47442edc0f7cbdc55e8657a59052167505e2dd30b05fe7c5b1c3a6ebd2c",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/skills/versions.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/skills/versions/create": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/skills/versions/create/index.md",
+    "sha256": "c46476cac38857b6820267a34ad69074a169cad8f3af9442782e7295d8a461a7",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/skills/versions/create.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/skills/versions/delete": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/skills/versions/delete/index.md",
+    "sha256": "513c51ad5f62dc137ffb0e97ea1ed951601e493b4abd05a5d1659c75585716f2",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/skills/versions/delete.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/skills/versions/download": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/skills/versions/download/index.md",
+    "sha256": "1eacc855ac53e0ea40468e950b520aef47c9bf92675d00e97cbfae21a0539a15",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/skills/versions/download.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/skills/versions/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/skills/versions/list/index.md",
+    "sha256": "a8c1c13e51ea5bc662eeab771642186fc5797e94e8f303ba04907a7e5bad8b37",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/skills/versions/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/skills/versions/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/skills/versions/retrieve/index.md",
+    "sha256": "5025844c42d6a6c6476949f8c6efe686f4faefccd105917bc9f4e3c288b41c29",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/skills/versions/retrieve.md",
+    "status": "archived"
+  },
   "https://platform.claude.com/docs/en/api/http/beta/tunnels": {
     "content_notes": [
       "Native source; upstream MDX components retained."
@@ -23485,6 +24209,56 @@
     "path": "content/platform.claude.com/docs/en/api/http/beta/tunnels/archive/index.md",
     "sha256": "fc2a99286367ece014d506ce4634efe916d60e449b2ce8aa1986662db1caaea3",
     "source_url": "https://platform.claude.com/docs/en/api/http/beta/tunnels/archive.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/tunnels/certificates": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/tunnels/certificates/index.md",
+    "sha256": "1ef4eefe9dbaa91a969975ed871254e5f835270b6390e8f41c05b86596a078af",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/tunnels/certificates.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/tunnels/certificates/archive": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/tunnels/certificates/archive/index.md",
+    "sha256": "5333ecfda14a1e0d9ed0137d765f522f628f85f4c24c823d9c9e230ad478180d",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/tunnels/certificates/archive.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/tunnels/certificates/create": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/tunnels/certificates/create/index.md",
+    "sha256": "16d9c09ccd92cb3b55a512ef715795636d96edf4650409a3e9902e06e58379f7",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/tunnels/certificates/create.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/tunnels/certificates/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/tunnels/certificates/list/index.md",
+    "sha256": "697a949f09f6af0cecbb4a63ddb27331668d1db57a1a6f9642109eb5aba80003",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/tunnels/certificates/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/tunnels/certificates/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/tunnels/certificates/retrieve/index.md",
+    "sha256": "68966fc7dad6cea356959e76abddd88c7f707e581e0fab958294ca47e1c99bdf",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/tunnels/certificates/retrieve.md",
     "status": "archived"
   },
   "https://platform.claude.com/docs/en/api/http/beta/tunnels/create": {
@@ -23597,6 +24371,156 @@
     "source_url": "https://platform.claude.com/docs/en/api/http/beta/user_profiles/update.md",
     "status": "archived"
   },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/vaults/index.md",
+    "sha256": "eb370ffdc89e6a1b12fcd44d72b3f5c9fcf65c35d7a21487d4ad28ed914c3502",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/vaults.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/archive": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/vaults/archive/index.md",
+    "sha256": "e29effe7ce3867a01b2999ded34ab43b5410ddb08db1d551c92920449250b651",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/vaults/archive.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/create": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/vaults/create/index.md",
+    "sha256": "0ac53df8d40c8d1640db84cd86779412f701e5532f352afffc7db950beae70bb",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/vaults/create.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/vaults/credentials/index.md",
+    "sha256": "325c5151f6ab14186d6c7b75073676faba917ce081287d268bc85f8251fdac02",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/archive": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/vaults/credentials/archive/index.md",
+    "sha256": "0c47c0dc7c56cd31fc1a6163e069cfa3738c17f1587da52e404105eca93b41b7",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/archive.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/create": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/vaults/credentials/create/index.md",
+    "sha256": "ceb78abdbb53707977e4f01c87401811c84da217bdee2009dbe57670734657b3",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/create.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/delete": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/vaults/credentials/delete/index.md",
+    "sha256": "e16a938fecd62bc222a2007264292c539704f39442a09a13e29f5238752fcb6c",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/delete.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/vaults/credentials/list/index.md",
+    "sha256": "d4d795a2d133db3e35ca32d2cffc482b245c51e70140af01da93eef6b74a298d",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/mcp_oauth_validate": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/vaults/credentials/mcp_oauth_validate/index.md",
+    "sha256": "fe7f00927eeefdd17222fcdb2bb08ba70f920f08e47590fc8877b5ce13592436",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/mcp_oauth_validate.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/vaults/credentials/retrieve/index.md",
+    "sha256": "555ea36af79a5baba0670010b943a47dd6ecca189bfc0780f26e0d2315063347",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/update": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/vaults/credentials/update/index.md",
+    "sha256": "eca9754b8788864d7cf694188f8432947b8f17a3472b42203e3382c74be20b18",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/update.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/delete": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/vaults/delete/index.md",
+    "sha256": "773128e05b7e891e21818d5275923d6bbc794bf2618e799d5401ef28cc797208",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/vaults/delete.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/vaults/list/index.md",
+    "sha256": "3abacb82eb2d32eeea614689800aa55d6c94cde177a86b630666ff7ce07acd81",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/vaults/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/vaults/retrieve/index.md",
+    "sha256": "be10f99d487a4490f20baa1cd71cd28a1705a48b17ce0bd792af5fdc3dc6a531",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/vaults/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/update": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/beta/vaults/update/index.md",
+    "sha256": "98d4b9c672066c145ae6ff6109e5a286d1bf6311b5abddbf9d2fd9e3d4d3aebd",
+    "source_url": "https://platform.claude.com/docs/en/api/http/beta/vaults/update.md",
+    "status": "archived"
+  },
   "https://platform.claude.com/docs/en/api/http/beta/webhooks": {
     "content_notes": [
       "Native source; upstream MDX components retained."
@@ -23667,6 +24591,36 @@
     "source_url": "https://platform.claude.com/docs/en/api/http/compliance/activities.md",
     "status": "archived"
   },
+  "https://platform.claude.com/docs/en/api/http/compliance/activities/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/activities/list/index.md",
+    "sha256": "7c1cc1cad76fcc953cf621831d8ca5a5a0aa034b907ff10fdaa4a52ab2a73b90",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/activities/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/index.md",
+    "sha256": "6b72a5136144230246ddb1841370ec2d061327952ca5a3a5b93d0b65126b2650",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/artifacts": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/artifacts/index.md",
+    "sha256": "220812d3fe54e46f0b1229484d1d823654d696639251284c909e21267a4ef863",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/artifacts.md",
+    "status": "archived"
+  },
   "https://platform.claude.com/docs/en/api/http/compliance/apps/artifacts/download": {
     "content_notes": [
       "Native source; upstream MDX components retained."
@@ -23675,6 +24629,26 @@
     "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/artifacts/download/index.md",
     "sha256": "f722bcccd2e98bc632700eb1a91abcbff25927c98f0d7b607188d9be4f6f333e",
     "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/artifacts/download.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/artifacts/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/artifacts/retrieve/index.md",
+    "sha256": "91d32db39bc6ea2c1ec737bb8743a723399cb0fb4a743c534621ac030f1ed89e",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/artifacts/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/chats/index.md",
+    "sha256": "3174e70f5badc7a9b728078b1805c08dff90c791e328bb035b2f3514885a9aa2",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/chats.md",
     "status": "archived"
   },
   "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/delete": {
@@ -23687,6 +24661,16 @@
     "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/delete.md",
     "status": "archived"
   },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/files": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/chats/files/index.md",
+    "sha256": "aa8df280d3c8ac3876b34ee03e1e1e7b57e301efe2817f3a7d82a5c6a6fb7a5f",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/files.md",
+    "status": "archived"
+  },
   "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/files/delete": {
     "content_notes": [
       "Native source; upstream MDX components retained."
@@ -23695,6 +24679,36 @@
     "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/chats/files/delete/index.md",
     "sha256": "7c878e4b2ed58b00dd044a62ae8b5289cf7617dd090621f56c4c2d2dce430c68",
     "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/files/delete.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/files/download": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/chats/files/download/index.md",
+    "sha256": "2bb758e06ddc7bb1e193157fe8599f5ee645848261ae3f5911224e1c7bb2ac80",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/files/download.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/files/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/chats/files/retrieve/index.md",
+    "sha256": "25c36d1139bd942ea2045486c787963b9f3ffd1479fda120634bfd8e5c8fb44a",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/files/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/generated_files": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/chats/generated_files/index.md",
+    "sha256": "d2f96fea5c2fae6c0f49ea1e50bea2d69f99f36dfc780a440826559e734f8aae",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/generated_files.md",
     "status": "archived"
   },
   "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/generated_files/download": {
@@ -23707,6 +24721,26 @@
     "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/generated_files/download.md",
     "status": "archived"
   },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/generated_files/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/chats/generated_files/retrieve/index.md",
+    "sha256": "e871fc5540779d645e1e2485e32e5b6412fddabcb545598cb014ce44fc5aac9f",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/generated_files/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/chats/list/index.md",
+    "sha256": "ef9c118b0cbf5f93749b8ff01b86b11483fe9ddae10deaedfb0055215cc42e5d",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/list.md",
+    "status": "archived"
+  },
   "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/messages": {
     "content_notes": [
       "Native source; upstream MDX components retained."
@@ -23715,6 +24749,46 @@
     "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/chats/messages/index.md",
     "sha256": "fc71b9c8298fa0ebdb4ced35de2fe1a1748ff8d243dd9e7518f6430c26285ec3",
     "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/messages.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/messages/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/chats/messages/list/index.md",
+    "sha256": "5092c9d227e3f37adb1cc7f5f41eefb1fcb7a038fabafcc56f9f9fd10672209f",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/messages/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/projects/index.md",
+    "sha256": "2478ae706417b3ea968b8c9c44de2cc4c2bcf0d9354d855e89a2d925bbd63ae8",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/projects.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/attachments": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/projects/attachments/index.md",
+    "sha256": "27fd174467e59b257b117e56e70da24e67a4befe34864d94b9a75c6b31f86abd",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/attachments.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/attachments/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/projects/attachments/list/index.md",
+    "sha256": "074c05a2a2cd8ab82b54b5105862d1e01c6b2af4646cffa69b75a28dc6d90190",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/attachments/list.md",
     "status": "archived"
   },
   "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/collaborators": {
@@ -23727,6 +24801,166 @@
     "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/collaborators.md",
     "status": "archived"
   },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/collaborators/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/projects/collaborators/list/index.md",
+    "sha256": "754d2c2566c80edd698ca3ac12a9dad3871e10efac7f79328bdf95159d0dce99",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/collaborators/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/delete": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/projects/delete/index.md",
+    "sha256": "53d36287c0d931eedf23dcac2fb6686e054a8ab009dee90131b3ce4b90c0689c",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/delete.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/documents": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/projects/documents/index.md",
+    "sha256": "de1ed224e98f4a6d0ca451b12d3b24115d3cad3ce610bb81dec48bfc8b989e0b",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/documents.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/documents/delete": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/projects/documents/delete/index.md",
+    "sha256": "95ec3b45fe3ccd5e442dbd6a60bc31151ccc5e3ee68f0d45393370a852469117",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/documents/delete.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/documents/metadata": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/projects/documents/metadata/index.md",
+    "sha256": "19f54c2cbd256578ab9c5c637e4d3950d20a7168441ede21abb552bcac1059df",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/documents/metadata.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/documents/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/projects/documents/retrieve/index.md",
+    "sha256": "f318795dcac14b96e5f7a83fbada57ebf52000c8b23c0ab964201f6c06d23304",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/documents/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/projects/list/index.md",
+    "sha256": "01bf76c67b1e1af3987b38a7df6f6eb433ea27adb9ab4a80db775e2a5ec99937",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/projects/retrieve/index.md",
+    "sha256": "102d0fe38090e7d81802d6cb4cbe442c6e9574ca26dc3cb1f0905ed6ea65ace9",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/sessions/index.md",
+    "sha256": "c1531aa29c0b2b68884a94e1b87a44712ef301943fd96fdb410b5a30dfcac263",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/local": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/sessions/local/index.md",
+    "sha256": "033f25fe3155093bf35de64613d125e06b969fea46bf27e70e720071ebf0e040",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/local.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/local/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/sessions/local/list/index.md",
+    "sha256": "6ea685a88846f7a2f3518b88b7d440b383c8fe1c240260df196d5e0785dae796",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/local/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/local/messages": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/sessions/local/messages/index.md",
+    "sha256": "0ad5ccbfc17417e56e1d5a096217b66206d720a9e3e364e16afea5cc96663d59",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/local/messages.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/local/messages/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/sessions/local/messages/list/index.md",
+    "sha256": "8d1141cf6136c919a3666e5483a93f08c162ee72030faf42e9c457e79efb8484",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/local/messages/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/local/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/sessions/local/retrieve/index.md",
+    "sha256": "94578a677dce9a7da0d62c02507af19e03f260ff90b4ceb049ebdf20aa401595",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/local/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/remote": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/sessions/remote/index.md",
+    "sha256": "10b9b2a4d95db148f175fb09e8aff06c7d6def2fa39f9351709e96133ad75e8e",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/remote.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/remote/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/sessions/remote/list/index.md",
+    "sha256": "81a7435121055a7d88e9ce931a0a6c909b9c93918d71f51d1adb9c4cba7e73cd",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/remote/list.md",
+    "status": "archived"
+  },
   "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/remote/messages": {
     "content_notes": [
       "Native source; upstream MDX components retained."
@@ -23735,6 +24969,186 @@
     "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/sessions/remote/messages/index.md",
     "sha256": "f44184be3dca7a6147453c49385c903aa2798ec8e25374915c75bae2d527cd4a",
     "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/remote/messages.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/remote/messages/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/apps/sessions/remote/messages/list/index.md",
+    "sha256": "70100b7e0b22cee768271522ab487b3a721ff384c8539a28c074651be3f24cd6",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/remote/messages/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/code": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/code/index.md",
+    "sha256": "b5a47337f228b8612cfe36e5965e1eb5be6dd519e413f0ca54feb265918d6bf6",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/code.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/code/artifacts": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/code/artifacts/index.md",
+    "sha256": "f93e1607b27b0c307e1fd1cf5a02812ef03d654d253fdceea7e94e8ec1fc040d",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/code/artifacts.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/code/artifacts/delete": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/code/artifacts/delete/index.md",
+    "sha256": "93d52a8c7f4c8c303050233a36c4f292674be19482d1d31594abfafe4f828936",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/code/artifacts/delete.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/code/artifacts/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/code/artifacts/list/index.md",
+    "sha256": "5a702316b5de973165fe13d9c22e06c7a7680cb84957d31bb4ddfac9525c0669",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/code/artifacts/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/code/artifacts/retrieve_version": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/code/artifacts/retrieve_version/index.md",
+    "sha256": "78a02deaed72f0f64929625dbc686fcd4e32b9341f0619e02360d3f634ee7ea1",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/code/artifacts/retrieve_version.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/groups": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/groups/index.md",
+    "sha256": "b248693d991a06c31daef18dd6350f7d56aca221a51c78820a432bb746cee12c",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/groups.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/groups/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/groups/list/index.md",
+    "sha256": "d066bc386af1d19c6623b624d35569e740816492d017da9127b07cd7d815adc5",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/groups/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/groups/members": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/groups/members/index.md",
+    "sha256": "fe68ce3fafe8f29220b1b6cf3be577145dbb2c829ae4bdb939e8af19769bdf81",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/groups/members.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/groups/members/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/groups/members/list/index.md",
+    "sha256": "e3aee18e81ba28e6159942c4734c2530dc63e66a6f9ddfd49af54d69eb3f79d5",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/groups/members/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/groups/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/groups/retrieve/index.md",
+    "sha256": "f461c25ffee570d21ce0dddab06e6b0f667c8523787ec08feb9e1addbf72c033",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/groups/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/organizations/index.md",
+    "sha256": "4d2ca393be20e478c0157c9a5fd7854b44b15d77f9849844084dfecfac9becde",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/organizations.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/organizations/list/index.md",
+    "sha256": "535d681ad4ba7228a3db2ddda97b1f0336c186c76ac5358d03cdaad3e4018370",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/organizations/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations/roles": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/organizations/roles/index.md",
+    "sha256": "0212524b4be6fc5865b2ea5afc224e61f6461e59634a04e9d06882d76da3fea1",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/organizations/roles.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations/roles/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/organizations/roles/list/index.md",
+    "sha256": "4dbcc97b7f991ce67e51780c48d95adb95969b352c059f31bf7eb5f6353dfa05",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/organizations/roles/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations/roles/permissions": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/organizations/roles/permissions/index.md",
+    "sha256": "f33418d39d8ff2e81eeb58b535178593796846a936d2e27096f3d35f705990f7",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/organizations/roles/permissions.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations/roles/permissions/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/organizations/roles/permissions/list/index.md",
+    "sha256": "6b1a07b7d4abcd5c7590d4f09369f7e8e8f9729703401c15286df2a310c28b3d",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/organizations/roles/permissions/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations/roles/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/organizations/roles/retrieve/index.md",
+    "sha256": "a29e8998b6091a327eff5aef23dbbb973a05ba708bcdf2947afe88092a779743",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/organizations/roles/retrieve.md",
     "status": "archived"
   },
   "https://platform.claude.com/docs/en/api/http/compliance/organizations/settings": {
@@ -23747,6 +25161,86 @@
     "source_url": "https://platform.claude.com/docs/en/api/http/compliance/organizations/settings.md",
     "status": "archived"
   },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations/settings/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/organizations/settings/retrieve/index.md",
+    "sha256": "1ad972d32124bc764bb0d5dbcf0d72ae68cfc3829317932182f891efcfad393b",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/organizations/settings/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations/users": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/organizations/users/index.md",
+    "sha256": "681d9ba85c67f795515294bbf1b0de386512c66ba04adccd9be527cbf68a0fa3",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/organizations/users.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations/users/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/compliance/organizations/users/list/index.md",
+    "sha256": "5cb91e1935b816b570a053be4d03c335a2a6cde3db814a4c2120bc131c6f1c20",
+    "source_url": "https://platform.claude.com/docs/en/api/http/compliance/organizations/users/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/files": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/files/index.md",
+    "sha256": "2a8425f3dba8939e8bdef73aea0f3495385c5c10a5cec69abc37c093cd1b6ccd",
+    "source_url": "https://platform.claude.com/docs/en/api/http/files.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/files/delete": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/files/delete/index.md",
+    "sha256": "b1fb42bf78020e0fb5be73c70ca270181d8ba52004ee806a874294dbb395570f",
+    "source_url": "https://platform.claude.com/docs/en/api/http/files/delete.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/files/download": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/files/download/index.md",
+    "sha256": "01bc82427ee76635c85636fbe82e008bd153689b7ad6a756ae0eacf68bc56e66",
+    "source_url": "https://platform.claude.com/docs/en/api/http/files/download.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/files/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/files/list/index.md",
+    "sha256": "2c5a9147a8a24c90b781b2eb280a721f51cfe878a75e50eecd288506c4e60cca",
+    "source_url": "https://platform.claude.com/docs/en/api/http/files/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/files/retrieve_metadata": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/files/retrieve_metadata/index.md",
+    "sha256": "ce64b228ba313432d962dd7e61a4e9527cc428dfa0f4d68458cf4aeccef76d10",
+    "source_url": "https://platform.claude.com/docs/en/api/http/files/retrieve_metadata.md",
+    "status": "archived"
+  },
   "https://platform.claude.com/docs/en/api/http/files/upload": {
     "content_notes": [
       "Native source; upstream MDX components retained."
@@ -23755,6 +25249,96 @@
     "path": "content/platform.claude.com/docs/en/api/http/files/upload/index.md",
     "sha256": "3bdcbab410a2b6f85ba56da7793e0480e145c5bd2bdf24634c4bf7fb4b20bb0a",
     "source_url": "https://platform.claude.com/docs/en/api/http/files/upload.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/messages": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/messages/index.md",
+    "sha256": "06d2647d4219d84af453cd1d38c4b550054c1c458257679755f54cc489dca016",
+    "source_url": "https://platform.claude.com/docs/en/api/http/messages.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/messages/batches": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/messages/batches/index.md",
+    "sha256": "d7f0c5261cd60abfc66b935864512aef6469deb3bb5dd783e030aebf4db8d279",
+    "source_url": "https://platform.claude.com/docs/en/api/http/messages/batches.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/messages/batches/cancel": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/messages/batches/cancel/index.md",
+    "sha256": "4c6094d5c5eebd8e4f237aae1a1c8876260bb607aff7d70c0f404c4c90592f5e",
+    "source_url": "https://platform.claude.com/docs/en/api/http/messages/batches/cancel.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/messages/batches/create": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/messages/batches/create/index.md",
+    "sha256": "c6d4d994265c20db089d10a78a0d3c421e69d387bb726a0208e2d91cb818ffa6",
+    "source_url": "https://platform.claude.com/docs/en/api/http/messages/batches/create.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/messages/batches/delete": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/messages/batches/delete/index.md",
+    "sha256": "3bde5bdb9d1c2fa55f86850c3680da86e8691e9709f97f96381dda103c92a6d6",
+    "source_url": "https://platform.claude.com/docs/en/api/http/messages/batches/delete.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/messages/batches/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/messages/batches/list/index.md",
+    "sha256": "858d747e15cfa64b2c8e2d740a280523dfd69c9f36c496d4397596875acb3fd9",
+    "source_url": "https://platform.claude.com/docs/en/api/http/messages/batches/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/messages/batches/results": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/messages/batches/results/index.md",
+    "sha256": "5c45590d7e06b81d59592bedd3670ddd5ef41486e81914b80c9df85c57170453",
+    "source_url": "https://platform.claude.com/docs/en/api/http/messages/batches/results.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/messages/batches/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/messages/batches/retrieve/index.md",
+    "sha256": "5275e8b3455be532c1d3333710e4e7219070ef9c194d938a71c552a103467fad",
+    "source_url": "https://platform.claude.com/docs/en/api/http/messages/batches/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/messages/count_tokens": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/messages/count_tokens/index.md",
+    "sha256": "8f31dae3425bad9622af4173db5b719b3cff2bf2f7477d87fdd106fca2afb279",
+    "source_url": "https://platform.claude.com/docs/en/api/http/messages/count_tokens.md",
     "status": "archived"
   },
   "https://platform.claude.com/docs/en/api/http/messages/create": {
@@ -23777,6 +25361,16 @@
     "source_url": "https://platform.claude.com/docs/en/api/http/models.md",
     "status": "archived"
   },
+  "https://platform.claude.com/docs/en/api/http/models/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/models/list/index.md",
+    "sha256": "4f4933230f01febc0a7374d0400c6e91e8fd88158c1de7c6533fe8fee4223b77",
+    "source_url": "https://platform.claude.com/docs/en/api/http/models/list.md",
+    "status": "archived"
+  },
   "https://platform.claude.com/docs/en/api/http/models/retrieve": {
     "content_notes": [
       "Native source; upstream MDX components retained."
@@ -23785,6 +25379,106 @@
     "path": "content/platform.claude.com/docs/en/api/http/models/retrieve/index.md",
     "sha256": "6ba36e6a33be24a05aef968d4d28092dc513aca5e43980d082bb9aedf0296f44",
     "source_url": "https://platform.claude.com/docs/en/api/http/models/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/skills/index.md",
+    "sha256": "d30631d95c4d969cd4f1ef29d0b123613ad76e03966fc9d1aaca8a182a56444b",
+    "source_url": "https://platform.claude.com/docs/en/api/http/skills.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills/create": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/skills/create/index.md",
+    "sha256": "6bf4d97b15fa329a6767e372b0ed0f8f220bd23925213405693c2262a73851c0",
+    "source_url": "https://platform.claude.com/docs/en/api/http/skills/create.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills/delete": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/skills/delete/index.md",
+    "sha256": "959979e853ea9ddbbe10ff1924443f8cba77f5b427e44bcdd29b9987afcc73de",
+    "source_url": "https://platform.claude.com/docs/en/api/http/skills/delete.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/skills/list/index.md",
+    "sha256": "913b478131a1bbbee4de41f02c6f8c2996b7080056df0541d023eeb953b32e1a",
+    "source_url": "https://platform.claude.com/docs/en/api/http/skills/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/skills/retrieve/index.md",
+    "sha256": "c3f600a0d7b20b7a675b03f5c4e00cfabe8aa6960d6ab4a8fc21f249de48260c",
+    "source_url": "https://platform.claude.com/docs/en/api/http/skills/retrieve.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills/versions": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/skills/versions/index.md",
+    "sha256": "88c0eb8d0489af58246c3deeed02d535ee54256c4671501448d49f20d15fffc6",
+    "source_url": "https://platform.claude.com/docs/en/api/http/skills/versions.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills/versions/create": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/skills/versions/create/index.md",
+    "sha256": "885e796c5f935c5c35f2fb2e4e8c5e0c74e958d4cf0c611e87ec825f3ede9109",
+    "source_url": "https://platform.claude.com/docs/en/api/http/skills/versions/create.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills/versions/delete": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/skills/versions/delete/index.md",
+    "sha256": "cd7760fda0ed620b52017aa2a567ba7aa206511c821953920d87258dec533984",
+    "source_url": "https://platform.claude.com/docs/en/api/http/skills/versions/delete.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills/versions/list": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/skills/versions/list/index.md",
+    "sha256": "fdf2427971488c6f67d9984845f67683d28131dfbe251495c0246bc90365da94",
+    "source_url": "https://platform.claude.com/docs/en/api/http/skills/versions/list.md",
+    "status": "archived"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills/versions/retrieve": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/platform.claude.com/docs/en/api/http/skills/versions/retrieve/index.md",
+    "sha256": "b09f2f9bddf2e87cf35f280ef554a067e23db33c3efe4e641f3f0102be2c6633",
+    "source_url": "https://platform.claude.com/docs/en/api/http/skills/versions/retrieve.md",
     "status": "archived"
   },
   "https://platform.claude.com/docs/en/api/ip-addresses": {
@@ -24470,16 +26164,14 @@
     "status": "archived"
   },
   "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering": {
-    "content_notes": [
-      "Content dependencies blocked by scope or robots policy: https://s-cdn.anthropic.com/s.js"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/platform.claude.com/docs/en/build-with-claude/prompt-engineering/index.md",
     "sha256": "04e759b492ab0efd789afb73ffd6dcf51e1f3ab930f71b0614847d8ad7b80366",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Prompt engineering overview - Claude Platform Docs"
   },
   "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices": {
@@ -26649,16 +28341,14 @@
     "status": "archived"
   },
   "https://support.claude.com/en/articles/10574485-using-extended-thinking": {
-    "content_notes": [
-      "Content dependencies blocked by scope or robots policy: https://static.intercomassets.com/_next/static/chunks/0f5396a4-fde11be1c3fd610f.js, https://static.intercomassets.com/_next/static/chunks/2478-fd05cb20e00c7a4f.js, https://static.intercomassets.com/_next/static/chunks/2908.0e8ebf8668fb50e0.js, https://static.intercomassets.com/_next/static/chunks/3389.f65224705a41e569.js, https://static.intercomassets.com/_next/static/chunks/3973.225000cff94811d5.js, https://static.intercomassets.com/_next/static/chunks/4125-559539645ba18ad2.js, https://static.intercomassets.com/_next/static/chunks/6537-0a6d2df5baa3a730.js, https://static.intercomassets.com/_next/static/chunks/6623.34f6dc7624158101.js, https://static.intercomassets.com/_next/static/chunks/7630-b412efb1262bbd16.js, https://static.intercomassets.com/_next/static/chunks/8703-86e01196ed8de39a.js, https://static.intercomassets.com/_next/static/chunks/8785-99b6c7987859135e.js, https://static.intercomassets.com/_next/static/chunks/8869-3c80f1b01e362c59.js, https://static.intercomassets.com/_next/static/chunks/b263e433-fd82b1f7f91af3c5.js, https://static.intercomassets.com/_next/static/chunks/framework-e17a833229380640.js, https://static.intercomassets.com/_next/static/chunks/main-a2dbd992512d2929.js, https://static.intercomassets.com/_next/static/chunks/pages/%5BhelpCenterIdentifier%5D/%5Blocale%5D/articles/%5BarticleSlug%5D-1f878c176a3deba4.js, https://static.intercomassets.com/_next/static/chunks/pages/_app-4dbe6534ad6fc7fa.js, https://static.intercomassets.com/_next/static/chunks/webpack-516ae6bb8c35849a.js, https://static.intercomassets.com/_next/static/rahLQHxlJWAS-egupA9MU/_buildManifest.js, https://static.intercomassets.com/_next/static/rahLQHxlJWAS-egupA9MU/_ssgManifest.js"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/support.claude.com/en/articles/10574485-using-extended-thinking/index.md",
     "sha256": "43d0491a78bcdac4241d3f4b8a5a77efed28df7a158fdeae16e95002655a1aa6",
     "source_url": "https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Change the model, effort, and thinking settings | Anthropic Help Center"
   },
   "https://support.claude.com/en/articles/10593882-share-and-unshare-chats": {
@@ -29087,16 +30777,14 @@
     "status": "archived"
   },
   "https://support.claude.com/en/articles/13694757-get-started-with-the-claude-enterprise-analytics-api": {
-    "content_notes": [
-      "Content dependencies blocked by scope or robots policy: https://s-cdn.anthropic.com/s.js"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/support.claude.com/en/articles/13694757-get-started-with-the-claude-enterprise-analytics-api/index.md",
     "sha256": "0651b98649fc731e760cbcd5ccf9eed9766c1dfaac2f7ccb60ef7b96ed917ae0",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/analytics-api",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Analytics APIs - Claude Platform Docs"
   },
   "https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide": {
@@ -33512,16 +35200,14 @@
     "title": "Anthropic and Infosys collaborate to build AI agents for telecommunications and other regulated industries \\ Anthropic"
   },
   "https://www.anthropic.com/news/anthropic-interviewer": {
-    "content_notes": [
-      "Could not read tab 'Sales': TimeoutError"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/news/anthropic-interviewer/index.md",
-    "sha256": "e95bb5fa4a2f26d35f1a878d87f79510131bf6b2b28a20d2856f37a44d86aefd",
+    "sha256": "4771c1cdbf3d5e67bc3a1d4c30a076705c13056225ba87480ff4d58b45987d83",
     "source_url": "https://www.anthropic.com/news/anthropic-interviewer",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Introducing Anthropic Interviewer \\ Anthropic"
   },
   "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure": {
@@ -34318,16 +36004,14 @@
     "title": "Claude Opus 4.1 \\ Anthropic"
   },
   "https://www.anthropic.com/news/claude-opus-4-5": {
-    "content_notes": [
-      "Could not read tab 'BrowseComp-Plus': TimeoutError"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-opus-4-5/index.md",
-    "sha256": "c0a4a6bf3607f77c60ed408a5d77adc9dfba1d0f77bf1a88a887ef8c3db68a63",
+    "sha256": "01727c4b448c00bcfc8829c2ae22de364cd798571c24dad64f75f0a59bd42884",
     "source_url": "https://www.anthropic.com/news/claude-opus-4-5",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Introducing Claude Opus 4.5 \\ Anthropic"
   },
   "https://www.anthropic.com/news/claude-opus-4-6": {
@@ -34342,16 +36026,14 @@
     "title": "Claude Opus 4.6 \\ Anthropic"
   },
   "https://www.anthropic.com/news/claude-opus-4-7": {
-    "content_notes": [
-      "Could not read tab 'Vision': TimeoutError"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-opus-4-7/index.md",
     "sha256": "2f3b4e26d0618e21daa642625849ff62b0eab070aba964a87b3e509fbe7df017",
     "source_url": "https://www.anthropic.com/news/claude-opus-4-7",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Introducing Claude Opus 4.7 \\ Anthropic"
   },
   "https://www.anthropic.com/news/claude-opus-4-8": {
@@ -34366,16 +36048,14 @@
     "title": "Introducing Claude Opus 4.8 \\ Anthropic"
   },
   "https://www.anthropic.com/news/claude-opus-5": {
-    "content_notes": [
-      "Could not read tab 'AA Coding Agent Index': TimeoutError"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-opus-5/index.md",
-    "sha256": "5ca25fe68757c0c2a4900fa81ecc969879137dac22a99f217de1601b59bc02f2",
+    "sha256": "493301089949ae5db394f03915f63095ea527a92a065886541f550223a676cab",
     "source_url": "https://www.anthropic.com/news/claude-opus-5",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Introducing Claude Opus 5 \\ Anthropic"
   },
   "https://www.anthropic.com/news/claude-partner-network": {
@@ -35126,16 +36806,14 @@
     "title": "Anthropic appoints Hidetoshi Tojo as Head of Japan and announces hiring plans  \\ Anthropic"
   },
   "https://www.anthropic.com/news/healthcare-life-sciences": {
-    "content_notes": [
-      "Could not read tab 'SpatialBench: Spatial biology analysis by LatchBio': TimeoutError"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/news/healthcare-life-sciences/index.md",
-    "sha256": "edaa2cabc4c753e4def68fc73757c1f99d2dfd51dda937d52ab15a8579273b5d",
+    "sha256": "f5c67c9603a9c7b0f850fe64ac4a8ee9b62b131f2a07e825b8cf167869cb111b",
     "source_url": "https://www.anthropic.com/news/healthcare-life-sciences",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Advancing Claude in healthcare and the life sciences \\ Anthropic"
   },
   "https://www.anthropic.com/news/higher-limits-spacex": {
@@ -36582,16 +38260,14 @@
     "title": "How Claude is accelerating protein design and analytical chemistry \\ Anthropic"
   },
   "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench": {
-    "content_notes": [
-      "Content dependencies blocked by scope or robots policy: https://js.hsforms.net/forms/embed/v2.js"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench/index--6c5ade233b3666fd.md",
     "sha256": "aa01f1afe25ad99cf474226b205710195cbee51a2569c8e58791e3e55ae1b32e",
     "source_url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench \\ Anthropic"
   },
   "https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment": {
@@ -36683,19 +38359,14 @@
     "title": "Focus areas for The Anthropic Institute \\ Anthropic"
   },
   "https://www.anthropic.com/research/anthropic-interviewer": {
-    "content_notes": [
-      "Could not read tab 'Scientists': TimeoutError",
-      "Could not read tab 'Craftspeople': TimeoutError",
-      "Could not read tab 'Designers': TimeoutError",
-      "Could not read tab 'Physicists': TimeoutError"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/research/anthropic-interviewer/index.md",
-    "sha256": "1af07cae96418dcfa7cdde45d79b498db7f0601ea708487061fd7d867e02b8d8",
+    "sha256": "4771c1cdbf3d5e67bc3a1d4c30a076705c13056225ba87480ff4d58b45987d83",
     "source_url": "https://www.anthropic.com/research/anthropic-interviewer",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Introducing Anthropic Interviewer \\ Anthropic"
   },
   "https://www.anthropic.com/research/assistant-axis": {
@@ -36712,7 +38383,7 @@
   "https://www.anthropic.com/research/attack-navigator": {
     "content_notes": [
       "Embedded media URLs preserved; video/audio binaries are not mirrored.",
-      "Content dependencies blocked by scope or robots policy: https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html, https://js.hsforms.net/forms/embed/v2.js"
+      "Content dependencies blocked by scope or robots policy: https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html"
     ],
     "format": "browser-html",
     "language": "en",
@@ -36944,17 +38615,14 @@
     "title": "Introducing Claude Opus 4.8 \\ Anthropic"
   },
   "https://www.anthropic.com/research/claude-opus-5": {
-    "content_notes": [
-      "Could not read tab 'AA Coding Agent Index': TimeoutError",
-      "Could not read tab 'HLE': TimeoutError"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/research/claude-opus-5/index.md",
-    "sha256": "62d23f31a48e5c3923ec5ec95a4d1527f38fcfba2b69a615e2c931f68965332b",
+    "sha256": "abef833498a1b0d10044a859ea3441cb743eed9156464b8e3abd5f2a5d2ea6ef",
     "source_url": "https://www.anthropic.com/research/claude-opus-5",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "Introducing Claude Opus 5 \\ Anthropic"
   },
   "https://www.anthropic.com/research/claude-personal-guidance": {
@@ -36969,16 +38637,14 @@
     "title": "How people ask Claude for personal guidance \\ Anthropic"
   },
   "https://www.anthropic.com/research/claude-plays-robotics": {
-    "content_notes": [
-      "Content dependencies blocked by scope or robots policy: https://js.hsforms.net/forms/embed/v2.js"
-    ],
+    "content_notes": [],
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/research/claude-plays-robotics/index.md",
     "sha256": "ed156af89461b8b896ef97311c36016914276d55bdc29338ffd743762b88fa73",
     "source_url": "https://www.anthropic.com/research/claude-plays-robotics",
     "status": "archived",
-    "text_validation": "partial",
+    "text_validation": "complete",
     "title": "How Claude performs on robotics tasks \\ Anthropic"
   },
   "https://www.anthropic.com/research/claude-sonnet-4-6": {

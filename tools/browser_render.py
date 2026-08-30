@@ -31,7 +31,16 @@ def optional_embed(url):
     host = parsed.hostname or ""
     analytics = ((host == "www.googletagmanager.com" and parsed.path in {"/gtm.js", "/gtag/js"}) or
                  (host == "assets.claude.ai" and parsed.path.startswith("/sdk/antalytics/")) or
-                 (host == "a-cdn.anthropic.com" and bool(re.fullmatch(r"/v1/projects/[^/]+/settings", parsed.path))))
+                 (host == "a-cdn.anthropic.com" and bool(re.fullmatch(r"/v1/projects/[^/]+/settings", parsed.path))) or
+                 (host == "s-cdn.anthropic.com" and parsed.path == "/s.js") or
+                 (host == "js.hcaptcha.com" and parsed.path == "/1/api.js") or
+                 (host == "js.hsforms.net" and parsed.path == "/forms/embed/v2.js") or
+                 (host == "static.intercomassets.com" and parsed.path.startswith("/_next/static/")) or
+                 (host == "cdn.jsdelivr.net" and (parsed.path.startswith("/npm/@finsweet/attributes@") or parsed.path.startswith("/npm/swiper@"))) or
+                 (host == "cdn.prod.website-files.com" and ("/css/claude-brand." in parsed.path or "/js/claude-brand." in parsed.path or "/gsap/" in parsed.path)) or
+                 (host == "cdnjs.cloudflare.com" and parsed.path.startswith("/ajax/libs/lottie-web/")) or
+                 (host == "d3e54v103j8qbb.cloudfront.net" and parsed.path.startswith("/js/jquery-")) or
+                 (host == "unpkg.com" and parsed.path.startswith("/@dotlottie/player-component@")))
     return analytics or host == "widget.intercom.io" or any(host == suffix or host.endswith("." + suffix) for suffix in (
         "youtube.com", "youtube-nocookie.com", "vimeo.com", "wistia.com", "wistia.net"))
 
@@ -93,13 +102,16 @@ class Browser:
             if request.resource_type in {"image", "media", "font"}:
                 route.abort()
                 return
+            if optional_embed(target):
+                audit.append({"url": urlunsplit(urlsplit(target)._replace(query="", fragment="")),
+                              "type": request.resource_type, "reason": "optional_media_widget_or_analytics"})
+                route.abort()
+                return
             if host not in self.http.hosts or not is_english_url(target):
                 audit.append({"url": urlunsplit(urlsplit(target)._replace(query="", fragment="")),
-                              "type": request.resource_type,
-                              "reason": "optional_media_widget_or_analytics" if optional_embed(target) else "outside_scope"})
+                              "type": request.resource_type, "reason": "outside_scope"})
                 if request.resource_type in {"document", "script", "xhr", "fetch"}:
-                    if not optional_embed(target):
-                        blocked.add(urlunsplit(urlsplit(target)._replace(query="", fragment="")))
+                    blocked.add(urlunsplit(urlsplit(target)._replace(query="", fragment="")))
                 route.abort()
                 return
             try:
@@ -160,7 +172,25 @@ class Browser:
             initial = page.content()
             inspect_html(initial, page.url)
             panels, seen = [], set()
-            tabs = page.locator('main [role="tab"], article [role="tab"], [aria-label="Video companion content"] [role="radio"]')
+            video_controls = page.locator('[aria-label="Video companion content"] [role="radio"]')
+            for index in range(min(video_controls.count(), 4)):
+                control = video_controls.nth(index)
+                if not control.is_visible() or not control.is_enabled():
+                    continue
+                label = control.inner_text().strip()
+                try:
+                    control.click()
+                    page.wait_for_timeout(300)
+                    companion = control.locator("xpath=ancestor::*[@aria-label='Video companion content']/../following-sibling::*[1]")
+                    container = companion if companion.count() else page.locator("body")
+                    fragment = container.first.evaluate("el => el.outerHTML")
+                    key = digest(fragment)
+                    if key not in seen:
+                        panels.append((label, fragment))
+                        seen.add(key)
+                except Exception as exc:
+                    notes.append(f"Could not read video companion {label!r}: {type(exc).__name__}")
+            tabs = page.locator('main [role="tab"], article [role="tab"]')
             if not tabs.count():
                 tabs = page.locator('[role="tab"]')
             cap = self.settings.get("max_browser_tabs_per_page", 40)
@@ -185,7 +215,8 @@ class Browser:
                     if visible.count():
                         fragments = [visible.nth(i).evaluate("el => el.outerHTML") for i in range(visible.count())]
                     else:
-                        fragments = [page.locator("main").inner_html()] if page.locator("main").count() else []
+                        container = page.locator("main") if page.locator("main").count() else page.locator("body")
+                        fragments = [container.inner_html()] if container.count() else []
                     for fragment in fragments:
                         key = digest(fragment)
                         if key not in seen:

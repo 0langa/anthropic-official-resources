@@ -86,6 +86,39 @@ Your Delegation move — deciding what data is appropriate to bring to AI and wh
 In the next lesson, we'll put all four dimensions of the 4D Framework together to automate a full business workflow from start to finish.
 
 
+## Transcript
+
+Hi, welcome to this lesson on the Delegation Diligence Loop. This is all about deciding what tasks are best for AI and what tasks are still best for your team. I'm really excited to be joined by Mac today to talk about his business and how he decides what jobs AI is best for and what jobs require human oversight.
+
+Let's start with the most interesting story I think you've told me since we met, which is you decided to give a lot of your phone support to AI, but that it wasn't an easy, simple decision. So walk me through how you made that decision to give that task to AI and what implementation decisions you made along the way to make sure it feels really good to your business and your customers.
+
+That's definitely the biggest place where we've adopted AI and it's customer facing. As we were scaling our business, we suddenly hit this wall where we could not handle the volume of calls we were getting. That was causing customer dissatisfaction. And our number one complaint was customers saying, hey, I'm trying to call someone, I can't get through to anybody. And we thought, how do we fix this? We want to give people answers.
+
+So we first rolled out AI that kind of answered. It was almost like a glorified voicemail. It answered, it took their information and said, somebody will get back to you. We quickly realized that that upset people even more. Then we ran into the issue of, okay, well now it's got to answer, it's got to give them answers to questions that they have. What can it answer? What can't it answer? That's where we learned pretty quickly that without proper guardrails, it will start to hallucinate. It gave customers completely made up addresses twice, just, you know, randomly.
+
+So we learned throughout this experience, we've got to really give it guardrails and tell it what it can and can't do. What it has been great at is as we've taught it more and more and we've given it good information that it can get back to the customer, we've found what are the main things that the customers want to ask that they want a quick answer to, and what are the things that they actually want a human for. We've gotten more adoption. More people are using it. More people are happy with it.
+
+And the other thing too is we let them know up front what it can and can't do. So early on, it would just answer the phone. It's like, hey, thank you for calling Mac's. How can I help you today? And we got a lot of frustration from that. So now it says, hey, I'm Mac's virtual assistant. I can do X, Y, and Z for you. Would you like me to help you with that? And it will remind them one time before they go to a human, one last time and say, hey, I can answer quicker before you're held on hold. And we've found that that made a huge difference for our customer base because there are some people still really averse to talking with AI. I think everybody will come around eventually, but we still want those customers to be able to say, hey, I can ask for a human. But when we shoved it down their throat, that's where we really ran into some issues.
+
+So it sounds like you had a lot of learning along the way as you figured out what to delegate to AI and what to hold back. Any ideas or recommendations you would have for someone just starting on that journey?
+
+I would really say to a small business owner or anybody trying to use AI customer service or a chatbot or something like that is make sure you get that feedback right away. Ask it to analyze the calls that it's taken and tell you where are the points of frustration. Take those points of frustration and tweak it. And it's going to take multiple changes, but ultimately you get it better and better to where now we have 50% of our calls are handled by AI, and most of the people are really happy that they get quick answers to their questions.
+
+Is there anything that you specifically have decided in your business is not for AI, but as you've gone through your Delegation Diligence Loop, you've said, we don't use AI for this?
+
+When it comes to management, when it comes to having the human oversight, I don't see a foreseeable future where we just let AI go rogue or do its own thing. AI helps us figure out where to get our supply from, what to pay for it. It really helps us with the data. But we need that human connection. We still have that supply chain manager that's going to talk to our suppliers, going to talk to our vendors or our manufacturers, and keep that connection. And when it comes to critical thinking, AI doesn't necessarily have the way or the know-how to do that. And that's where we really need the human oversight and management.
+
+Judgment, relationships, expertise on your business. These are all things that we need humans for. Thanks Mac. Thanks for having me.
+
+That's the Delegation Diligence Loop at work. It's critical to choose the right tasks for AI and to responsibly disclose AI's use at the right times. When working with AI, protect yourself by being intentional about what you choose to use AI for. Breaking your task down to understand what information AI actually needs versus what you're including out of habit. Reading the terms and conditions for your AI tool and plan type. You can drop them into an AI conversation and ask questions to understand them faster.
+
+If you're using AI to help you analyze data or insights that you get from your experiments, always strip customer names, addresses, and contact info from your data set before uploading, even if you're using a tool with strong privacy protections.
+
+To build confidence in AI's capabilities, start with a specific task you do regularly that takes significant time. Find past examples where you already completed the task and know the right answers. Work with AI to reproduce your past results and systematically compare. Note what AI gets right, what it needs more context for, and what it misses entirely. Refine your approach and test again before applying to a new situation. If you can't validate accurate results after several attempts, don't delegate that task.
+
+Safe and effective work with AI comes down to two things. Protect what needs protecting before you start, and validate what AI can do before you rely on it. The Delegation Diligence Loop gives you a framework for both.
+
+
 ## Exercise 2
 
 ### Validate with AI

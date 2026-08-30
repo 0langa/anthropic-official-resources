@@ -15,7 +15,7 @@ import time
 from urllib.parse import urlsplit, urlunsplit
 import xml.etree.ElementTree as ET
 
-from mirror import Archive, ASSET_EXTS, digest, dump, extract_transcripts, local_path, normalize, page_url, urls_in, verify, write
+from mirror import Archive, ASSET_EXTS, TERMINAL_STATUSES, digest, dump, extract_transcripts, local_path, normalize, page_url, urls_in, verify, write
 from scope import is_english_url, non_english_locale
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -24,6 +24,10 @@ GOOD = {"complete", "redirect"}
 
 def read_json(path, default=None):
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else (default if default is not None else {})
+
+
+def has_transcript_control(raw):
+    return bool(re.search(r">\s*Transcript\s*<", raw, re.I))
 
 
 def repair_checkout_line_endings(archive):
@@ -85,7 +89,8 @@ def cleanup(archive):
     for attr in ("errors", "checked"):
         cleaned = {}
         for key, value in getattr(archive, attr).items():
-            if (u := archive.canonical(key)) and is_english_url(u):
+            if ((u := archive.canonical(key)) and is_english_url(u) and archive.allowed(u)
+                    and (u in archive.discovered or u in archive.records)):
                 cleaned.setdefault(u, value)
         setattr(archive, attr, cleaned)
     for name in ("page-state.json", "asset-manifest.json", "asset-errors.json", "aliases.json"):
@@ -274,6 +279,12 @@ class Runner:
         quality = {"statuses": dict(Counter(v["status"] for v in self.state.values())),
                    "archived_without_pipeline_validation": sum(u not in self.state for u in self.a.records),
                    "unresolved_urls": sorted(u for u,v in self.state.items() if v["status"] not in GOOD and v["status"] != "non_english"),
+                   "actionable_unresolved_urls": sorted(u for u,v in self.state.items()
+                                                        if v["status"] not in GOOD | TERMINAL_STATUSES | {"non_english", "partial"}),
+                   "terminal_unarchived_urls": sorted(u for u,v in self.state.items()
+                                                       if v["status"] in TERMINAL_STATUSES and u not in self.a.records),
+                   "retained_partial_urls": sorted(u for u,v in self.state.items()
+                                                   if v["status"] == "partial" and u in self.a.records),
                    "language_policy": "English locale paths and declared English HTML; undeclared language is reported, not guessed.",
                    "complete_definition": "Fetched textual representation passed automated extraction checks; not a guarantee of media/interactive fidelity."}
         dump(self.a.root / "inventory/quality.json", quality)
@@ -450,7 +461,7 @@ class Runner:
                                 transcript_characters = max(transcript_characters, len(transcript.strip()))
                     except Exception as exc:
                         browser_issues.append("Lesson bundle unavailable: " + str(exc))
-                if re.search(r"\btranscript\b", raw, re.I) and not any("transcript" in label.lower() for label, _ in panels) and "## Video transcript" not in body:
+                if has_transcript_control(raw) and not any("transcript" in label.lower() for label, _ in panels) and "## Video transcript" not in body:
                     browser_issues.append("Transcript control present, but transcript capture could not be confirmed.")
                 if "quiz" in p.path:
                     browser_issues.append("Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.")
@@ -580,20 +591,20 @@ def main(argv=None):
         failures = verify(archive)
         failures.extend("Non-English manifest URL: " + u for u in archive.records if not is_english_url(u))
         failures.extend("Out-of-scope manifest URL: " + u for u in archive.records if not archive.allowed(u))
-        for name in ("resource-urls.txt", "missing-urls.txt", "discovered-urls.txt", "asset-urls.txt", "external-media-urls.txt"):
+        for name in ("resource-urls.txt", "missing-urls.txt", "actionable-missing-urls.txt", "discovered-urls.txt", "asset-urls.txt", "external-media-urls.txt"):
             path = archive.root/"inventory"/name
             if path.exists():
                 lines = path.read_text(encoding="utf-8").splitlines()
                 if len(lines) != len(set(lines)) or any(not is_english_url(u) for u in lines):
                     failures.append("Duplicates or non-English URLs in " + name)
-                if name in {"resource-urls.txt", "missing-urls.txt"} and any(not archive.allowed(u) for u in lines):
+                if name in {"resource-urls.txt", "missing-urls.txt", "actionable-missing-urls.txt"} and any(not archive.allowed(u) for u in lines):
                     failures.append("Out-of-scope page URLs in " + name)
         print(json.dumps({"verified_files":len(archive.records), "failures":failures}, indent=2))
         return 1 if failures else 0
     if args.command == "report":
         report = archive.save()
         print(json.dumps(report, indent=2))
-        return 2 if report["missing_pages"] or archive.errors else 0
+        return 2 if report["actionable_missing_pages"] else 0
     with exclusive_run(archive.root):
         result = cleanup(archive)
         if args.command == "cleanup":
@@ -604,9 +615,10 @@ def main(argv=None):
             return assets(archive,args)
         runner = Runner(archive,args)
         report = runner.run()
-        print(json.dumps({k:report[k] for k in ("archived_pages","discovered_pages","missing_pages")},indent=2))
-        unresolved = any(v["status"] not in GOOD and v["status"] != "non_english" for v in runner.state.values())
-        return 2 if report["missing_pages"] or archive.errors or unresolved else 0
+        print(json.dumps({k:report[k] for k in ("archived_pages","discovered_pages","missing_pages","actionable_missing_pages","terminal_pages")},indent=2))
+        actionable_unresolved = any(v["status"] not in GOOD | TERMINAL_STATUSES | {"non_english", "partial"}
+                                    for v in runner.state.values())
+        return 2 if report["actionable_missing_pages"] or actionable_unresolved else 0
 
 
 if __name__ == "__main__":

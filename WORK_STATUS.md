@@ -37,6 +37,15 @@ Done condition: no valid reachable English resource remains unarchived. Terminal
 - Terminal and quality evidence retained for gone pages, robots blocks, cross-scope redirects, interactive quiz state, missing video transcripts, optional third-party dependencies, and timed-out interactive tabs.
 - Cleanup changed no records or files; all 3561 archived files passed hash verification with zero failures. Publication pending.
 
+## Cycle 3 - recursive completion and quality resolution
+
+- Second sweep archived the recursively discovered Platform HTTP API tree and retried every terminal/partial URL.
+- Browser fixes captured Academy transcript panels on pages without `<main>`, removed plain-word transcript false positives, and treated exact presentation/form/analytics scripts as optional without allowlisting substantive external artifacts.
+- Current coverage: 3737 archived / 3823 discovered / 86 terminal unarchived / 0 actionable missing.
+- Terminal evidence: 57 gone, 26 cross-scope redirects, 3 robots-blocked.
+- Retained partial quality: 35 quiz UIs with hidden answers/private learner state intentionally untouched; 1 externally embedded interactive research artifact.
+- Final local gates: 41 tests passed including real Chromium; 3737 hashes verified; report exits 0; code/docs whitespace check clean. Remote CI, documentation evidence, and publication pending.
+
 ## Next safe action
 
-Verify and publish cycle 2. Then run another bounded resume batch over 262 remaining candidates and resolve residual partial/terminal classifications.
+Run final full gates, publish code/data/docs, wait for Windows/Linux/live Chromium CI, fast-forward its report commit, then publish final verification evidence.

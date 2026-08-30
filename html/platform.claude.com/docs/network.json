@@ -1,17 +1,17 @@
 [
   {
-    "reason": "outside_scope",
+    "reason": "optional_media_widget_or_analytics",
     "type": "script",
     "url": "https://s-cdn.anthropic.com/s.js"
-  },
-  {
-    "reason": "outside_scope",
-    "type": "script",
-    "url": "https://js.hcaptcha.com/1/api.js"
   },
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
     "url": "https://widget.intercom.io/widget/lupk8zyo"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://js.hcaptcha.com/1/api.js"
   }
 ]

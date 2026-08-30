@@ -1,6 +1,6 @@
 [
   {
-    "reason": "outside_scope",
+    "reason": "optional_media_widget_or_analytics",
     "type": "script",
     "url": "https://js.hsforms.net/forms/embed/v2.js"
   },

@@ -1,10 +1,10 @@
 # Anthropic official resources — English archive
 
-**Status: partially populated. The pipeline exists; full website coverage is not certified.** Current counts are in [inventory/COVERAGE.md](inventory/COVERAGE.md). Live acceptance results are in [reports/LIVE-PILOT.md](reports/LIVE-PILOT.md) when a pilot has run.
+**Status: actionable population complete; full website replication is not certified.** All 3,737 currently discovered, allowed, reachable English pages have archived records. Another 86 discovered URLs are explicitly terminal: 57 gone, 26 redirected outside configured resource scope, and 3 blocked by robots policy. Current evidence is in [inventory/COVERAGE.md](inventory/COVERAGE.md).
 
 **Verified 2026-08-28 UTC:** 31 tests passed on Windows and Linux, the PowerShell launcher ran successfully, and all ten live textual-page checks passed, including Academy transcript capture. Live discovery also imported 879 official export pages without index errors. See [verification evidence](reports/VERIFICATION.md). These checks do not mean that every discovered page has already been downloaded.
 
-This is a deterministic archive of public English documentation and learning resources. It needs no Firecrawl account, API key, Docker, or LLM. Windows 11 with 16 GB total RAM is supported by the design: HTTP requests and at most one isolated Chromium page run sequentially. The browser recycles its process under memory pressure and defers work when less than 2 GB of system memory is available. Performance benchmarking on the owner's active Windows host remains paused until the host is otherwise idle, and full website coverage remains unresolved until population finishes.
+This is a deterministic archive of public English documentation and learning resources. It needs no Firecrawl account, API key, Docker, or LLM. Windows 11 with 16 GB total RAM is supported by the design: HTTP requests and at most one isolated Chromium page run sequentially. The browser recycles its process under memory pressure and defers work when less than 2 GB of system memory is available. Performance benchmarking on the owner's active Windows host remains paused until the host is otherwise idle. Discovery cannot prove that unlinked pages do not exist.
 
 ## Windows quick start
 
@@ -47,7 +47,7 @@ Git attributes preserve archived bytes on Windows. For a clone created before th
 
 English HTML language declarations are checked, including unprefixed pages that turn out to be translations. A page with no language declaration is recorded as `unknown`, not falsely certified English. No translated URLs are invented by replacing locale prefixes. English discovery continues automatically.
 
-A `complete` page status means that the retrieved **textual representation** passed automated checks. It does not assert that every video, interactive state, hidden quiz response or linked asset was copied. `partial`, `blocked`, `gone`, `failed`, `deferred`, `non_english` and `out_of_scope` distinguish unresolved outcomes. External video links and media caveats remain visible.
+A `complete` page status means that the retrieved **textual representation** passed automated checks. It does not assert that every video, interactive state, hidden quiz response or linked asset was copied. `partial`, `blocked`, `gone`, `failed`, `deferred`, `non_english` and `out_of_scope` distinguish outcomes. Current retained partials are 35 public quiz pages whose hidden answers/learner state were intentionally not accessed, plus one research page whose substantive interactive artifact is an external embed. External video links and media caveats remain visible.
 
 ## Files and reports
 
@@ -60,6 +60,8 @@ A `complete` page status means that the retrieved **textual representation** pas
 | `inventory/resource-urls.txt` | Deduplicated English resource candidates |
 | `inventory/discovered-urls.txt` | English/unprefixed discovered links, including external references |
 | `inventory/missing-urls.txt` | Resource candidates without an archived page |
+| `inventory/actionable-missing-urls.txt` | Unarchived candidates that still require retrieval; empty at current completion checkpoint |
+| `inventory/terminal-urls.json` | Checked evidence for gone, robots-blocked and cross-scope URLs |
 | `inventory/manifest.json` | Exact source URLs, paths, SHA-256 hashes and extraction notes |
 | `inventory/page-state.json` | Last pipeline outcome and check time per URL |
 | `inventory/quality.json` | Validation gaps, including archived pages not yet checked by the new pipeline |
@@ -84,7 +86,7 @@ Install `requirements.txt` into a Python 3.12 environment, then run `python -m p
 
 `python tools/pilot.py --merge` tests the actual public URLs in `pilot-urls.json`. Its assertions and failures are saved even when only some sources work. `python tools/pipeline.py sync --urls path/to/urls.txt --no-discovery` supports a temporary input list without replacing the main inventory.
 
-Exit codes: `0` = requested operation passed its checks; `1` = fatal/integrity error; `2` = explicit coverage/quality gaps; `130` = interrupted. A bounded successful retrieval is not full archive completion. Review the report's scope before treating any exit code as evidence of a complete website dump.
+Exit codes: `0` = requested operation passed its checks and no actionable URL remains; `1` = fatal/integrity error; `2` = actionable coverage/quality gaps; `130` = interrupted. Terminal URLs and retained partial records remain visible without making a truthful population checkpoint fail. A bounded successful retrieval is not full archive completion. Review report scope before treating any exit code as evidence of a complete website dump.
 
 ## Scheduled updates and CI
 

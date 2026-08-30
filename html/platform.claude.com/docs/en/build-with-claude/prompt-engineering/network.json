@@ -1,6 +1,6 @@
 [
   {
-    "reason": "outside_scope",
+    "reason": "optional_media_widget_or_analytics",
     "type": "script",
     "url": "https://s-cdn.anthropic.com/s.js"
   },

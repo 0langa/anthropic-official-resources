@@ -1,87 +1,87 @@
 [
   {
-    "reason": "robots_policy",
+    "reason": "optional_media_widget_or_analytics",
     "type": "stylesheet",
     "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css"
   },
   {
-    "reason": "outside_scope",
+    "reason": "optional_media_widget_or_analytics",
     "type": "stylesheet",
     "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
   },
   {
-    "reason": "outside_scope",
+    "reason": "optional_media_widget_or_analytics",
     "type": "script",
     "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js"
   },
   {
-    "reason": "outside_scope",
-    "type": "script",
-    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
-  },
-  {
-    "reason": "outside_scope",
-    "type": "script",
-    "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js"
-  },
-  {
-    "reason": "robots_policy",
-    "type": "script",
-    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js"
-  },
-  {
-    "reason": "robots_policy",
-    "type": "script",
-    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js"
-  },
-  {
-    "reason": "robots_policy",
-    "type": "script",
-    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js"
-  },
-  {
-    "reason": "robots_policy",
-    "type": "script",
-    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js"
-  },
-  {
-    "reason": "robots_policy",
-    "type": "script",
-    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js"
-  },
-  {
-    "reason": "robots_policy",
-    "type": "script",
-    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js"
-  },
-  {
-    "reason": "robots_policy",
-    "type": "script",
-    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js"
-  },
-  {
-    "reason": "robots_policy",
-    "type": "script",
-    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js"
-  },
-  {
-    "reason": "outside_scope",
-    "type": "script",
-    "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
-  },
-  {
-    "reason": "outside_scope",
-    "type": "script",
-    "url": "https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"
-  },
-  {
-    "reason": "robots_policy",
+    "reason": "optional_media_widget_or_analytics",
     "type": "stylesheet",
     "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css"
   },
   {
-    "reason": "outside_scope",
+    "reason": "optional_media_widget_or_analytics",
     "type": "stylesheet",
     "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"
   }
 ]

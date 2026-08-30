@@ -48,6 +48,16 @@ class Tests(unittest.TestCase):
    self.assertEqual(a.save()['missing_pages'],1)
    (root/a.records['https://a.org/page']['path']).write_text('corrupt')
    self.assertTrue(m.verify(a))
+ def test_terminal_urls_are_not_actionable_missing(self):
+  with tempfile.TemporaryDirectory() as d:
+   root=Path(d);m.dump(root/'sources.json',{'roots':['https://a.org/'],'exclude_path_regex':'/auth'})
+   a=m.Archive(root);gone='https://a.org/gone';failed='https://a.org/failed';a.discover([gone,failed])
+   m.dump(root/'inventory/page-state.json',{gone:{'status':'gone','http_status':404,'message':'HTTP 404'},failed:{'status':'failed','message':'timeout'}})
+   report=a.save()
+   self.assertEqual(report['missing_pages'],2);self.assertEqual(report['terminal_pages'],1)
+   self.assertEqual(report['actionable_missing_pages'],1);self.assertFalse(report['actionable_population_complete'])
+   self.assertEqual((root/'inventory/actionable-missing-urls.txt').read_text().splitlines(),[failed])
+   self.assertEqual(set(m.json.loads((root/'inventory/terminal-urls.json').read_text())),{gone})
  def test_count_guard(self):
   with self.assertRaises(ValueError):m.parse_platform_export('Total pages included: 3')
 

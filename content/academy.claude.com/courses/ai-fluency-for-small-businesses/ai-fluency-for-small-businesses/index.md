@@ -65,6 +65,29 @@ New to Claude? No worries! We'll provide clear guidance with each exercise to he
 In the next lesson, you'll learn the 4D Framework — the four competencies at the heart of effective AI collaboration.
 
 
+## Transcript
+
+Hi, I'm Kristen, and I'm on the education team at Anthropic. Hi, I'm Brian, and I lead product partnership innovation at PayPal. Welcome to the AI Fluency for Small Businesses course brought to you by Anthropic and PayPal.
+
+We're thrilled to be working with Anthropic to bring educational materials to small businesses like yourself and provide tangible ways for you to integrate AI into your day-to-day. If you run a small business, whether that's a restaurant, cleaning service, a retail shop, a design studio, or a contracting company, you already know what it means to do everything at once. You're writing customer emails between appointments, posting to social media from the parking lot, updating your service menu at 11 p.m., and making judgment calls all day long with no margin for error.
+
+If you're here, you're probably curious about what AI can actually do for a business like yours. But from conversations with thousands of small business owners, we know there's a real gap between occasionally using AI and truly getting meaningful time back without adding any additional risk to your business. That takes a more intentional approach. So if you feel like you need a more grounded approach before you lean in on AI, you're definitely not alone.
+
+This course is built for you. Small business owners who want to close the gap between casual AI use and real responsible productivity. It draws on research from the business community plus expertise from Anthropic's research team. In the lessons ahead, we're not going to hand you magic prompts or show you disconnected demos. Instead, we're going to focus on something we call AI fluency. The ability to work with AI in ways that are effective, efficient, ethical, and safe.
+
+AI fluency includes the practical skills, knowledge, instincts, and values that help you adapt as these tools change while keeping the quality and trust your business was built on. So whatever's in front of you, a tricky customer reply, a job posting, a seasonal promotion, a vendor negotiation, you can size up whether AI should touch it, how much, and where you still need to be the one holding the pen.
+
+At the center of this course is the 4D Framework created by professors Joe Feller and Rick Dakan in partnership with Anthropic. It's made up of four competencies: Delegation, Description, Discernment, and Diligence. These work together as the foundation of AI fluency. Think of them as connected skills that support every interaction you have with AI.
+
+Throughout the course, you'll see how these competencies work in loops. The Delegation-Diligence loop helps you make clear-headed, responsible calls about when and how to bring AI into your business and how to stay accountable for those calls. The Description-Discernment loop helps you get more out of each interaction through real back and forth, the same way you'd work with a capable employee who still needs direction.
+
+We'll walk through each competency and show you how to apply it to the work that actually fills your day. Customer emails, product and service descriptions, social media content, job postings, vendor communication, marketing copy, employee onboarding materials, and more. Each lesson includes practical exercises pulled from real small business scenarios so you can see these skills working in a context that you recognize.
+
+What's different about small business AI use is that your name is on everything. There's no legal department, no PR team, no layer between you and the customer. Every hour you save, every draft you speed up, every task you hand off still has to sound like you, be accurate about your services, and hold up if a customer pushes back. This course will help you evaluate AI through that lens. Not just can AI do this, but should AI do this, and does that output actually meet the standard I put my name on.
+
+By the end of this course, you'll be able to approach AI with confidence and a clear head. You'll know how to use it to get valuable time back while protecting the voice, the accuracy, and the customer trust that keeps your business running. Let's get started.
+
+
 ## Exercise 2
 
 ### Defining your values

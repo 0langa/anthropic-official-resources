@@ -59,9 +59,12 @@ http://claude.ai/create/enterprise
 http://claude.ai/directory
 http://claude.ai/directory/connectors
 http://claude.ai/redirect/website.v1.00bee23b-b37c-4892-a13e-259e20eab9fa
+http://claude.ai/redirect/website.v1.00bee23b-b37c-4892-a13e-259e20eab9fa/interviewer
 http://claude.ai/redirect/website.v1.12a7b97a-9820-48e3-905f-e6dd4d28ade5
 http://claude.ai/redirect/website.v1.13952f4b-f0e6-4d55-85c9-75517949bf36
+http://claude.ai/redirect/website.v1.1428d816-2557-42a8-8ccb-62b45d719f7d
 http://claude.ai/redirect/website.v1.154b8610-1f1f-4c87-a0c9-fc7c7b2982c2
+http://claude.ai/redirect/website.v1.154b8610-1f1f-4c87-a0c9-fc7c7b2982c2/interviewer
 http://claude.ai/redirect/website.v1.154b8610-1f1f-4c87-a0c9-fc7c7b2982c2/labs-verification/attestation
 http://claude.ai/redirect/website.v1.1b85f628-9831-4539-a491-9ecce4f128b4
 http://claude.ai/redirect/website.v1.204ac141-73c7-4029-896e-7090ae46a761
@@ -70,6 +73,7 @@ http://claude.ai/redirect/website.v1.24267f76-3063-43e0-9113-1a4a7391d4c8
 http://claude.ai/redirect/website.v1.27f37dd7-96cb-48a3-95ab-7fe4ee357926
 http://claude.ai/redirect/website.v1.27f37dd7-96cb-48a3-95ab-7fe4ee357926/interviewer
 http://claude.ai/redirect/website.v1.2abace89-47cb-4d84-ab0a-fb8d83a98fdf
+http://claude.ai/redirect/website.v1.2c5a0584-9a11-4457-a937-ecf7ef9139f0
 http://claude.ai/redirect/website.v1.2e8f38dc-7891-4b1f-9e56-a030800666ed
 http://claude.ai/redirect/website.v1.30b1b1cd-dc3f-4327-9a94-a0ed71a1e8a5
 http://claude.ai/redirect/website.v1.34f38ae6-c4d2-45e4-bce9-2bf98dd02792
@@ -77,6 +81,7 @@ http://claude.ai/redirect/website.v1.39cfe83b-2144-4b05-8008-f2c3eb39e6ed
 http://claude.ai/redirect/website.v1.39cfe83b-2144-4b05-8008-f2c3eb39e6ed/admin-settings/claude-in-slack
 http://claude.ai/redirect/website.v1.39cfe83b-2144-4b05-8008-f2c3eb39e6ed/code
 http://claude.ai/redirect/website.v1.41f13440-4c42-4ca0-879c-eb8c5b65d598
+http://claude.ai/redirect/website.v1.41f13440-4c42-4ca0-879c-eb8c5b65d598/interviewer
 http://claude.ai/redirect/website.v1.44c0eb22-52fb-4019-b1ae-1d39d1d74b77
 http://claude.ai/redirect/website.v1.57171ce3-da26-4fdc-9552-d3326814c315
 http://claude.ai/redirect/website.v1.5a6d88ab-7bcd-4069-826e-655e730ddc54
@@ -94,6 +99,7 @@ http://claude.ai/redirect/website.v1.ab29ef53-c098-41c0-a26e-c8726e2118a5/interv
 http://claude.ai/redirect/website.v1.b8a64084-5d00-47f0-8dd6-e4e48e8f0327
 http://claude.ai/redirect/website.v1.bdb29daa-1a07-41ec-87f6-579dc33634bd
 http://claude.ai/redirect/website.v1.c25665d1-8f08-42b8-b62d-a081c1db06f8
+http://claude.ai/redirect/website.v1.c25665d1-8f08-42b8-b62d-a081c1db06f8/interviewer
 http://claude.ai/redirect/website.v1.cc393553-921b-42e7-8b77-196f591e2d79
 http://claude.ai/redirect/website.v1.cf21eb1a-8233-4365-bbe5-15e9bfdf0662
 http://claude.ai/redirect/website.v1.d024338d-482c-47bc-8ce8-70e05a8f56b9
@@ -7088,14 +7094,18 @@ https://claude.ai/recents
 https://claude.ai/redirect/website.v1.00bee23b-b37c-4892-a13e-259e20eab9fa/chrome
 https://claude.ai/redirect/website.v1.00bee23b-b37c-4892-a13e-259e20eab9fa/download
 https://claude.ai/redirect/website.v1.00bee23b-b37c-4892-a13e-259e20eab9fa/imagine
+https://claude.ai/redirect/website.v1.00bee23b-b37c-4892-a13e-259e20eab9fa/interviewer
 https://claude.ai/redirect/website.v1.00bee23b-b37c-4892-a13e-259e20eab9fa/settings/connectors
 https://claude.ai/redirect/website.v1.13952f4b-f0e6-4d55-85c9-75517949bf36/constitutional-classifiers
+https://claude.ai/redirect/website.v1.154b8610-1f1f-4c87-a0c9-fc7c7b2982c2/interviewer
 https://claude.ai/redirect/website.v1.154b8610-1f1f-4c87-a0c9-fc7c7b2982c2/settings/connectors
 https://claude.ai/redirect/website.v1.154b8610-1f1f-4c87-a0c9-fc7c7b2982c2/settings/data-privacy-controls
 https://claude.ai/redirect/website.v1.24267f76-3063-43e0-9113-1a4a7391d4c8
 https://claude.ai/redirect/website.v1.27f37dd7-96cb-48a3-95ab-7fe4ee357926/interviewer
 https://claude.ai/redirect/website.v1.27f37dd7-96cb-48a3-95ab-7fe4ee357926/new
 https://claude.ai/redirect/website.v1.2abace89-47cb-4d84-ab0a-fb8d83a98fdf/settings/connectors
+https://claude.ai/redirect/website.v1.2e8f38dc-7891-4b1f-9e56-a030800666ed/chrome
+https://claude.ai/redirect/website.v1.2e8f38dc-7891-4b1f-9e56-a030800666ed/download
 https://claude.ai/redirect/website.v1.39cfe83b-2144-4b05-8008-f2c3eb39e6ed/directory/connectors/adobe-creativity
 https://claude.ai/redirect/website.v1.39cfe83b-2144-4b05-8008-f2c3eb39e6ed/directory/connectors/ant.dir.gh.ableton.ableton-knowledge
 https://claude.ai/redirect/website.v1.39cfe83b-2144-4b05-8008-f2c3eb39e6ed/directory/connectors/ant.dir.gh.autodesk.fusion-mcp
@@ -7108,6 +7118,7 @@ https://claude.ai/redirect/website.v1.39cfe83b-2144-4b05-8008-f2c3eb39e6ed/direc
 https://claude.ai/redirect/website.v1.41f13440-4c42-4ca0-879c-eb8c5b65d598
 https://claude.ai/redirect/website.v1.41f13440-4c42-4ca0-879c-eb8c5b65d598/chrome
 https://claude.ai/redirect/website.v1.41f13440-4c42-4ca0-879c-eb8c5b65d598/download
+https://claude.ai/redirect/website.v1.41f13440-4c42-4ca0-879c-eb8c5b65d598/interviewer
 https://claude.ai/redirect/website.v1.41f13440-4c42-4ca0-879c-eb8c5b65d598/settings/billing?action=subscribe
 https://claude.ai/redirect/website.v1.44c0eb22-52fb-4019-b1ae-1d39d1d74b77
 https://claude.ai/redirect/website.v1.44c0eb22-52fb-4019-b1ae-1d39d1d74b77/public/artifacts/5a020adb-ab65-4637-bcf0-79e6d20c58d2
@@ -7129,8 +7140,12 @@ https://claude.ai/redirect/website.v1.94e4e9ed-8565-4ae2-a7ab-978c068f3d66
 https://claude.ai/redirect/website.v1.94e4e9ed-8565-4ae2-a7ab-978c068f3d66/chrome
 https://claude.ai/redirect/website.v1.94e4e9ed-8565-4ae2-a7ab-978c068f3d66/download
 https://claude.ai/redirect/website.v1.94e4e9ed-8565-4ae2-a7ab-978c068f3d66/imagine
+https://claude.ai/redirect/website.v1.94e4e9ed-8565-4ae2-a7ab-978c068f3d66/settings/connectors
+https://claude.ai/redirect/website.v1.9753fcaf-621d-46da-bd2e-f1e39af650ac/chrome
+https://claude.ai/redirect/website.v1.9753fcaf-621d-46da-bd2e-f1e39af650ac/download
 https://claude.ai/redirect/website.v1.ab29ef53-c098-41c0-a26e-c8726e2118a5
 https://claude.ai/redirect/website.v1.ab29ef53-c098-41c0-a26e-c8726e2118a5/interviewer
+https://claude.ai/redirect/website.v1.c25665d1-8f08-42b8-b62d-a081c1db06f8/interviewer
 https://claude.ai/redirect/website.v1.cf21eb1a-8233-4365-bbe5-15e9bfdf0662/public/artifacts/cbfddf51-ab0d-45a9-913b-163ae2dd4126
 https://claude.ai/redirect/website.v1.d024338d-482c-47bc-8ce8-70e05a8f56b9
 https://claude.ai/redirect/website.v1.dea863eb-79c7-4b19-ae3c-49a23023dd5b

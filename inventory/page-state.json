@@ -91,8 +91,8 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/ai-capabilities-and-limitations/course-quiz": {
-    "attempts": 2,
-    "checked_at": 1788057029,
+    "attempts": 4,
+    "checked_at": 1788060542,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
@@ -224,8 +224,8 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-builders/course-quiz": {
-    "attempts": 2,
-    "checked_at": 1788057034,
+    "attempts": 4,
+    "checked_at": 1788060560,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
@@ -280,11 +280,11 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-creative-work/ai-roles-as-delegation-outcomes": {
-    "attempts": 2,
-    "checked_at": 1788057047,
+    "attempts": 4,
+    "checked_at": 1788060584,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-creative-work/badge": {
     "attempts": 1,
@@ -294,8 +294,8 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-creative-work/course-quiz": {
-    "attempts": 2,
-    "checked_at": 1788057052,
+    "attempts": 4,
+    "checked_at": 1788060597,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
@@ -308,18 +308,18 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-creative-work/description-and-discernment": {
-    "attempts": 2,
-    "checked_at": 1788057062,
+    "attempts": 4,
+    "checked_at": 1788060615,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-creative-work/putting-it-all-together": {
-    "attempts": 2,
-    "checked_at": 1788057076,
+    "attempts": 4,
+    "checked_at": 1788060637,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-creative-work/the-4d-framework": {
     "attempts": 1,
@@ -336,11 +336,11 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-creative-work/the-production-lens": {
-    "attempts": 2,
-    "checked_at": 1788057085,
+    "attempts": 4,
+    "checked_at": 1788060657,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-creative-work/welcome-to-ai-fluency-for-creative-work": {
     "attempts": 1,
@@ -434,8 +434,8 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-k-12-educators/course-quiz": {
-    "attempts": 2,
-    "checked_at": 1788057091,
+    "attempts": 4,
+    "checked_at": 1788060668,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
@@ -504,18 +504,18 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-nonprofits/course-quiz": {
-    "attempts": 2,
-    "checked_at": 1788057096,
+    "attempts": 4,
+    "checked_at": 1788060675,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/ai-fluency-for-nonprofits/data-analysis-with-ai": {
-    "attempts": 2,
-    "checked_at": 1788057103,
+    "attempts": 5,
+    "checked_at": 1788060186,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-nonprofits/integration": {
     "attempts": 1,
@@ -532,25 +532,25 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-nonprofits/researching-with-ai": {
-    "attempts": 2,
-    "checked_at": 1788057110,
+    "attempts": 4,
+    "checked_at": 1788060684,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-nonprofits/the-4d-framework": {
-    "attempts": 2,
-    "checked_at": 1788057116,
+    "attempts": 4,
+    "checked_at": 1788060694,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-nonprofits/understanding-privacy-and-data": {
-    "attempts": 2,
-    "checked_at": 1788057123,
+    "attempts": 4,
+    "checked_at": 1788060706,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-nonprofits/welcome-to-ai-fluency-for-nonprofits": {
     "attempts": 1,
@@ -560,18 +560,18 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-nonprofits/workflow-augmentation": {
-    "attempts": 2,
-    "checked_at": 1788057131,
+    "attempts": 4,
+    "checked_at": 1788060715,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-nonprofits/writing-with-ai": {
-    "attempts": 2,
-    "checked_at": 1788057138,
+    "attempts": 4,
+    "checked_at": 1788060726,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-pk-12-train-the-trainer": {
     "attempts": 1,
@@ -630,11 +630,11 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-small-businesses/ai-fluency-for-small-businesses": {
-    "attempts": 2,
-    "checked_at": 1788057148,
+    "attempts": 4,
+    "checked_at": 1788060750,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-small-businesses/badge": {
     "attempts": 1,
@@ -651,8 +651,8 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-small-businesses/course-quiz": {
-    "attempts": 2,
-    "checked_at": 1788057154,
+    "attempts": 4,
+    "checked_at": 1788060766,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
@@ -672,11 +672,11 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-small-businesses/researching-with-ai": {
-    "attempts": 2,
-    "checked_at": 1788057162,
+    "attempts": 4,
+    "checked_at": 1788060774,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-small-businesses/the-4d-framework": {
     "attempts": 1,
@@ -686,18 +686,18 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-small-businesses/tying-it-all-together": {
-    "attempts": 2,
-    "checked_at": 1788057169,
+    "attempts": 4,
+    "checked_at": 1788060781,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-small-businesses/using-data-with-ai": {
-    "attempts": 2,
-    "checked_at": 1788057177,
+    "attempts": 4,
+    "checked_at": 1788060793,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/ai-fluency-for-students": {
     "attempts": 1,
@@ -938,11 +938,11 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/ai-native-sdlc-playbook/give-claude-a-feedback-loop": {
-    "attempts": 2,
-    "checked_at": 1788057183,
+    "attempts": 5,
+    "checked_at": 1788061226,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/ai-native-sdlc-playbook/hooks-as-approval-gates": {
     "attempts": 1,
@@ -1344,50 +1344,50 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/building-with-the-claude-api/quiz-on-accessing-claude-with-the-api": {
-    "attempts": 2,
-    "checked_at": 1788057188,
+    "attempts": 4,
+    "checked_at": 1788060815,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/building-with-the-claude-api/quiz-on-agents-and-workflows": {
-    "attempts": 2,
-    "checked_at": 1788057192,
+    "attempts": 4,
+    "checked_at": 1788060820,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/building-with-the-claude-api/quiz-on-features-of-claude": {
-    "attempts": 2,
-    "checked_at": 1788057197,
+    "attempts": 4,
+    "checked_at": 1788060825,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/building-with-the-claude-api/quiz-on-model-context-protocol": {
-    "attempts": 2,
-    "checked_at": 1788057202,
+    "attempts": 4,
+    "checked_at": 1788060830,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/building-with-the-claude-api/quiz-on-prompt-engineering-techniques": {
-    "attempts": 2,
-    "checked_at": 1788057210,
+    "attempts": 4,
+    "checked_at": 1788060835,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/building-with-the-claude-api/quiz-on-prompt-evaluation": {
-    "attempts": 2,
-    "checked_at": 1788057215,
+    "attempts": 4,
+    "checked_at": 1788060840,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/building-with-the-claude-api/quiz-on-tool-use-with-claude": {
-    "attempts": 2,
-    "checked_at": 1788057220,
+    "attempts": 4,
+    "checked_at": 1788060848,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
@@ -1666,8 +1666,8 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/claude-code-101/course-quiz": {
-    "attempts": 2,
-    "checked_at": 1788057225,
+    "attempts": 4,
+    "checked_at": 1788060853,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
@@ -1764,8 +1764,8 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/claude-code-in-action/course-quiz": {
-    "attempts": 2,
-    "checked_at": 1788057231,
+    "attempts": 4,
+    "checked_at": 1788060859,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
@@ -1806,11 +1806,11 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/claude-code-in-action/steering-long-sessions": {
-    "attempts": 2,
-    "checked_at": 1788057236,
+    "attempts": 5,
+    "checked_at": 1788061232,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/claude-code-in-action/trust-it-verifying-unsupervised-runs": {
     "attempts": 1,
@@ -1869,8 +1869,8 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/claude-platform-101/claude-platform-101-quiz": {
-    "attempts": 2,
-    "checked_at": 1788057240,
+    "attempts": 4,
+    "checked_at": 1788060868,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
@@ -1932,11 +1932,11 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/claude-platform-101/your-first-api-call": {
-    "attempts": 2,
-    "checked_at": 1788057247,
+    "attempts": 5,
+    "checked_at": 1788061239,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/claude-with-amazon-bedrock": {
     "attempts": 1,
@@ -2100,8 +2100,8 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/claude-with-amazon-bedrock/final-assessment-quiz": {
-    "attempts": 2,
-    "checked_at": 1788057252,
+    "attempts": 4,
+    "checked_at": 1788060880,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
@@ -2296,50 +2296,50 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/claude-with-amazon-bedrock/quiz-on-features-of-claude": {
-    "attempts": 2,
-    "checked_at": 1788057257,
+    "attempts": 4,
+    "checked_at": 1788060886,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/claude-with-amazon-bedrock/quiz-on-model-context-protocol": {
-    "attempts": 2,
-    "checked_at": 1788057264,
+    "attempts": 4,
+    "checked_at": 1788060890,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/claude-with-amazon-bedrock/quiz-on-prompt-engineering": {
-    "attempts": 2,
-    "checked_at": 1788057269,
+    "attempts": 4,
+    "checked_at": 1788060896,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/claude-with-amazon-bedrock/quiz-on-prompt-evaluations": {
-    "attempts": 2,
-    "checked_at": 1788057274,
+    "attempts": 4,
+    "checked_at": 1788060904,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/claude-with-amazon-bedrock/quiz-on-retrieval-augmented-generation": {
-    "attempts": 2,
-    "checked_at": 1788057279,
+    "attempts": 4,
+    "checked_at": 1788060909,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/claude-with-amazon-bedrock/quiz-on-tool-use": {
-    "attempts": 2,
-    "checked_at": 1788057284,
+    "attempts": 4,
+    "checked_at": 1788060914,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/claude-with-amazon-bedrock/quiz-on-working-with-the-api": {
-    "attempts": 2,
-    "checked_at": 1788057289,
+    "attempts": 4,
+    "checked_at": 1788060919,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
@@ -2611,8 +2611,8 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/final-assessment-quiz": {
-    "attempts": 2,
-    "checked_at": 1788057294,
+    "attempts": 4,
+    "checked_at": 1788060923,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
@@ -2786,57 +2786,57 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/quiz-on-accessing-claude-with-the-api": {
-    "attempts": 2,
-    "checked_at": 1788057299,
+    "attempts": 4,
+    "checked_at": 1788060929,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/quiz-on-agents-and-workflows": {
-    "attempts": 2,
-    "checked_at": 1788057305,
+    "attempts": 4,
+    "checked_at": 1788060934,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/quiz-on-features-of-claude": {
-    "attempts": 2,
-    "checked_at": 1788057310,
+    "attempts": 4,
+    "checked_at": 1788060939,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/quiz-on-model-context-protocol": {
-    "attempts": 2,
-    "checked_at": 1788057318,
+    "attempts": 4,
+    "checked_at": 1788060945,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/quiz-on-prompt-engineering-techniques": {
-    "attempts": 2,
-    "checked_at": 1788057322,
+    "attempts": 4,
+    "checked_at": 1788060950,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/quiz-on-prompt-evaluation": {
-    "attempts": 2,
-    "checked_at": 1788057327,
+    "attempts": 4,
+    "checked_at": 1788060958,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/quiz-on-retrieval-augmented-generation": {
-    "attempts": 2,
-    "checked_at": 1788057332,
+    "attempts": 4,
+    "checked_at": 1788060963,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
   },
   "https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/quiz-on-tool-use-with-claude": {
-    "attempts": 2,
-    "checked_at": 1788057338,
+    "attempts": 4,
+    "checked_at": 1788060968,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
@@ -3024,8 +3024,8 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/certificate-quiz": {
-    "attempts": 2,
-    "checked_at": 1788057343,
+    "attempts": 4,
+    "checked_at": 1788060973,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
@@ -3241,8 +3241,8 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/introduction-to-claude-cowork/quiz-on-claude-cowork": {
-    "attempts": 2,
-    "checked_at": 1788057347,
+    "attempts": 4,
+    "checked_at": 1788060978,
     "http_status": 200,
     "message": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "status": "partial"
@@ -3535,11 +3535,11 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/teaching-ai-fluency/ai-s-impact-and-your-discipline": {
-    "attempts": 2,
-    "checked_at": 1788057355,
+    "attempts": 4,
+    "checked_at": 1788060986,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/teaching-ai-fluency/applying-discipline-expertise-to-ai-fluency": {
     "attempts": 1,
@@ -3563,43 +3563,43 @@
     "status": "complete"
   },
   "https://academy.claude.com/courses/teaching-ai-fluency/designing-assignments-for-ai-fluency": {
-    "attempts": 2,
-    "checked_at": 1788057363,
+    "attempts": 4,
+    "checked_at": 1788060994,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/teaching-ai-fluency/how-do-we-assess-the-4ds": {
-    "attempts": 2,
-    "checked_at": 1788057371,
+    "attempts": 4,
+    "checked_at": 1788061002,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/teaching-ai-fluency/the-delegation-diligence-loop": {
-    "attempts": 2,
-    "checked_at": 1788057379,
+    "attempts": 4,
+    "checked_at": 1788061009,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/teaching-ai-fluency/the-description-discernment-loop": {
-    "attempts": 2,
-    "checked_at": 1788057387,
+    "attempts": 4,
+    "checked_at": 1788061016,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/courses/teaching-ai-fluency/welcome-approaches-to-teaching-ai-fluency": {
-    "attempts": 2,
-    "checked_at": 1788057393,
+    "attempts": 4,
+    "checked_at": 1788061026,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/dashboard": {
-    "attempts": 1,
-    "checked_at": 1788057463,
+    "attempts": 3,
+    "checked_at": 1788060348,
     "http_status": null,
     "message": "Disallowed by robots.txt",
     "status": "blocked"
@@ -3619,8 +3619,8 @@
     "status": "complete"
   },
   "https://academy.claude.com/mcp": {
-    "attempts": 2,
-    "checked_at": 1788056979,
+    "attempts": 4,
+    "checked_at": 1788060328,
     "http_status": null,
     "message": "Disallowed by robots.txt",
     "status": "blocked"
@@ -3703,8 +3703,8 @@
     "status": "complete"
   },
   "https://academy.claude.com/products/code/webinars": {
-    "attempts": 1,
-    "checked_at": 1788057478,
+    "attempts": 3,
+    "checked_at": 1788060353,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/products/code/webinars",
     "status": "gone"
@@ -3787,8 +3787,8 @@
     "status": "complete"
   },
   "https://academy.claude.com/start": {
-    "attempts": 2,
-    "checked_at": 1788056979,
+    "attempts": 4,
+    "checked_at": 1788060339,
     "http_status": null,
     "message": "Disallowed by robots.txt",
     "status": "blocked"
@@ -4277,11 +4277,11 @@
     "status": "complete"
   },
   "https://academy.claude.com/tutorials/using-aiera-for-earnings-intelligence-and-market-analysis": {
-    "attempts": 1,
-    "checked_at": 1788055580,
+    "attempts": 4,
+    "checked_at": 1788061152,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/tutorials/using-chronograph-for-portfolio-monitoring": {
     "attempts": 1,
@@ -4312,11 +4312,11 @@
     "status": "complete"
   },
   "https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research": {
-    "attempts": 1,
-    "checked_at": 1788055612,
+    "attempts": 4,
+    "checked_at": 1788061157,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/tutorials/using-claude-design-for-presentations-and-slide-decks": {
     "attempts": 1,
@@ -4648,11 +4648,11 @@
     "status": "complete"
   },
   "https://academy.claude.com/use-cases/account-tracking": {
-    "attempts": 1,
-    "checked_at": 1788055948,
+    "attempts": 4,
+    "checked_at": 1788061166,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/use-cases/ad-performance-recap": {
     "attempts": 1,
@@ -5033,11 +5033,11 @@
     "status": "complete"
   },
   "https://academy.claude.com/use-cases/draft-investment-memos": {
-    "attempts": 1,
-    "checked_at": 1788056336,
+    "attempts": 4,
+    "checked_at": 1788061171,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/use-cases/elevate-claudes-design-using-skills": {
     "attempts": 1,
@@ -5243,11 +5243,11 @@
     "status": "complete"
   },
   "https://academy.claude.com/use-cases/open-new-role": {
-    "attempts": 1,
-    "checked_at": 1788056573,
+    "attempts": 4,
+    "checked_at": 1788061179,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/use-cases/organize-files-by-whats-in-them": {
     "attempts": 1,
@@ -5341,11 +5341,11 @@
     "status": "complete"
   },
   "https://academy.claude.com/use-cases/prd-from-a-one-pager": {
-    "attempts": 1,
-    "checked_at": 1788056678,
+    "attempts": 4,
+    "checked_at": 1788061187,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/use-cases/preclinical-study-analysis": {
     "attempts": 1,
@@ -5425,11 +5425,11 @@
     "status": "complete"
   },
   "https://academy.claude.com/use-cases/repurpose-content": {
-    "attempts": 1,
-    "checked_at": 1788056756,
+    "attempts": 4,
+    "checked_at": 1788061196,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/use-cases/research-and-compare-travel-destinations": {
     "attempts": 1,
@@ -5537,11 +5537,11 @@
     "status": "complete"
   },
   "https://academy.claude.com/use-cases/transcript-themes": {
-    "attempts": 1,
-    "checked_at": 1788056858,
+    "attempts": 4,
+    "checked_at": 1788061204,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/use-cases/turn-emails-into-an-event-tracker": {
     "attempts": 1,
@@ -5586,18 +5586,18 @@
     "status": "complete"
   },
   "https://academy.claude.com/use-cases/update-your-financial-model-after-earnings": {
-    "attempts": 1,
-    "checked_at": 1788056893,
+    "attempts": 4,
+    "checked_at": 1788061209,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/use-cases/uxr-synthesis": {
-    "attempts": 1,
-    "checked_at": 1788056904,
+    "attempts": 4,
+    "checked_at": 1788061217,
     "http_status": 200,
-    "message": "Transcript control present, but transcript capture could not be confirmed.",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel": {
     "attempts": 1,
@@ -5684,18 +5684,18 @@
     "status": "complete"
   },
   "https://claude.com/blog": {
-    "attempts": 2,
-    "checked_at": 1788054634,
-    "http_status": 200,
-    "message": "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js",
-    "status": "partial"
+    "attempts": 4,
+    "checked_at": 1788060469,
+    "http_status": 304,
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://claude.com/blog/": {
-    "attempts": 2,
-    "checked_at": 1788054938,
+    "attempts": 4,
+    "checked_at": 1788060643,
     "http_status": 304,
-    "message": "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://claude.com/blog/1m-context": {
     "attempts": 1,
@@ -5873,11 +5873,11 @@
     "status": "complete"
   },
   "https://claude.com/blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous": {
-    "attempts": 2,
-    "checked_at": 1788054658,
-    "http_status": 200,
-    "message": "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js",
-    "status": "partial"
+    "attempts": 4,
+    "checked_at": 1788060501,
+    "http_status": 304,
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government": {
     "attempts": 1,
@@ -5908,11 +5908,11 @@
     "status": "complete"
   },
   "https://claude.com/blog/build-responsive-web-layouts": {
-    "attempts": 2,
-    "checked_at": 1788054689,
-    "http_status": 200,
-    "message": "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js",
-    "status": "partial"
+    "attempts": 6,
+    "checked_at": 1788060275,
+    "http_status": 304,
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp": {
     "attempts": 1,
@@ -6006,29 +6006,29 @@
     "status": "complete"
   },
   "https://claude.com/blog/category/agents": {
-    "attempts": 2,
-    "checked_at": 1788054580,
+    "attempts": 4,
+    "checked_at": 1788060439,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/blog-category/agents",
     "status": "out_of_scope"
   },
   "https://claude.com/blog/category/announcements": {
-    "attempts": 1,
-    "checked_at": 1788054233,
+    "attempts": 3,
+    "checked_at": 1788060330,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/blog-category/announcements",
     "status": "out_of_scope"
   },
   "https://claude.com/blog/category/claude-code": {
-    "attempts": 1,
-    "checked_at": 1788054250,
+    "attempts": 3,
+    "checked_at": 1788060341,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/blog-category/claude-code",
     "status": "out_of_scope"
   },
   "https://claude.com/blog/category/enterprise-ai": {
-    "attempts": 1,
-    "checked_at": 1788054266,
+    "attempts": 3,
+    "checked_at": 1788060349,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/blog-category/enterprise-ai",
     "status": "out_of_scope"
@@ -6440,8 +6440,8 @@
     "status": "complete"
   },
   "https://claude.com/blog/cowork-research-preview": {
-    "attempts": 1,
-    "checked_at": 1788054314,
+    "attempts": 3,
+    "checked_at": 1788060355,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/product/cowork",
     "status": "out_of_scope"
@@ -6482,8 +6482,8 @@
     "status": "complete"
   },
   "https://claude.com/blog/docx-js.md": {
-    "attempts": 1,
-    "checked_at": 1788054326,
+    "attempts": 3,
+    "checked_at": 1788060368,
     "http_status": 404,
     "message": "HTTP 404: https://claude.com/blog/docx-js.md",
     "status": "gone"
@@ -6811,11 +6811,11 @@
     "status": "complete"
   },
   "https://claude.com/blog/integrate-apis-seamlessly": {
-    "attempts": 2,
-    "checked_at": 1788054756,
-    "http_status": 200,
-    "message": "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js",
-    "status": "partial"
+    "attempts": 4,
+    "checked_at": 1788060525,
+    "http_status": 304,
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://claude.com/blog/integrations": {
     "attempts": 1,
@@ -6860,18 +6860,18 @@
     "status": "complete"
   },
   "https://claude.com/blog/introduction-to-agentic-coding": {
-    "attempts": 2,
-    "checked_at": 1788054789,
-    "http_status": 200,
-    "message": "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js",
-    "status": "partial"
+    "attempts": 4,
+    "checked_at": 1788060546,
+    "http_status": 304,
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://claude.com/blog/key-benefits-transitioning-agentic-coding": {
-    "attempts": 2,
-    "checked_at": 1788054813,
-    "http_status": 200,
-    "message": "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js",
-    "status": "partial"
+    "attempts": 4,
+    "checked_at": 1788060564,
+    "http_status": 304,
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills": {
     "attempts": 1,
@@ -6979,18 +6979,18 @@
     "status": "complete"
   },
   "https://claude.com/blog/ooxml.md": {
-    "attempts": 1,
-    "checked_at": 1788054355,
+    "attempts": 3,
+    "checked_at": 1788060376,
     "http_status": 404,
     "message": "HTTP 404: https://claude.com/blog/ooxml.md",
     "status": "gone"
   },
   "https://claude.com/blog/optimize-code-performance-quickly": {
-    "attempts": 2,
-    "checked_at": 1788054843,
-    "http_status": 200,
-    "message": "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js",
-    "status": "partial"
+    "attempts": 4,
+    "checked_at": 1788060588,
+    "http_status": 304,
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://claude.com/blog/opus-4-6-finance": {
     "attempts": 1,
@@ -7049,8 +7049,8 @@
     "status": "complete"
   },
   "https://claude.com/blog/prompt-engineering-best-practices": {
-    "attempts": 1,
-    "checked_at": 1788054371,
+    "attempts": 3,
+    "checked_at": 1788060391,
     "http_status": 404,
     "message": "HTTP 404: https://claude.com/blog/prompt-engineering-best-practices",
     "status": "gone"
@@ -7091,11 +7091,11 @@
     "status": "complete"
   },
   "https://claude.com/blog/scaling-agentic-coding": {
-    "attempts": 2,
-    "checked_at": 1788054872,
-    "http_status": 200,
-    "message": "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js",
-    "status": "partial"
+    "attempts": 4,
+    "checked_at": 1788060601,
+    "http_status": 304,
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://claude.com/blog/seeing-like-an-agent": {
     "attempts": 1,
@@ -7287,11 +7287,11 @@
     "status": "complete"
   },
   "https://claude.com/blog/what-is-model-context-protocol": {
-    "attempts": 2,
-    "checked_at": 1788054904,
-    "http_status": 200,
-    "message": "Content dependencies blocked by scope or robots policy: https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js, https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.487802517.min.css, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/js/claude-brand.0bac9fa5.d54d5e4dee708bad.js, https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js, https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js, https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js, https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js, https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js",
-    "status": "partial"
+    "attempts": 4,
+    "checked_at": 1788060622,
+    "http_status": 304,
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://claude.com/blog/whats-new-in-claude-managed-agents": {
     "attempts": 1,
@@ -7378,8 +7378,8 @@
     "status": "complete"
   },
   "https://claude.com/resources": {
-    "attempts": 2,
-    "checked_at": 1788054589,
+    "attempts": 4,
+    "checked_at": 1788060452,
     "http_status": null,
     "message": "Request or redirect outside configured hosts",
     "status": "out_of_scope"
@@ -7483,8 +7483,8 @@
     "status": "complete"
   },
   "https://claude.com/resources/tutorials/using-research-and-google-workspace": {
-    "attempts": 1,
-    "checked_at": 1788054549,
+    "attempts": 3,
+    "checked_at": 1788060402,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/tutorials/using-research-and-google-workspace",
     "status": "gone"
@@ -7497,11 +7497,11 @@
     "status": "complete"
   },
   "https://claude.com/resources/use-cases/category/nonprofits": {
-    "attempts": 1,
-    "checked_at": 1788054559,
-    "http_status": 404,
-    "message": "HTTP 404: https://academy.claude.com/use-cases/category/nonprofits",
-    "status": "gone"
+    "attempts": 3,
+    "checked_at": 1788060428,
+    "http_status": 200,
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://code.claude.com/docs": {
     "attempts": 1,
@@ -8148,8 +8148,8 @@
     "status": "complete"
   },
   "https://code.claude.com/docs/en/examples": {
-    "attempts": 3,
-    "checked_at": 1788054236,
+    "attempts": 5,
+    "checked_at": 1788060333,
     "http_status": 404,
     "message": "HTTP 404: https://code.claude.com/docs/en/examples",
     "status": "gone"
@@ -8519,8 +8519,8 @@
     "status": "complete"
   },
   "https://code.claude.com/docs/en/reference": {
-    "attempts": 3,
-    "checked_at": 1788054251,
+    "attempts": 5,
+    "checked_at": 1788060343,
     "http_status": 404,
     "message": "HTTP 404: https://code.claude.com/docs/en/reference",
     "status": "gone"
@@ -9002,15 +9002,15 @@
     "status": "complete"
   },
   "https://platform.claude.com/cookbook/URL": {
-    "attempts": 1,
-    "checked_at": 1788054238,
+    "attempts": 3,
+    "checked_at": 1788060334,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/cookbook/URL",
     "status": "gone"
   },
   "https://platform.claude.com/cookbook/block": {
-    "attempts": 1,
-    "checked_at": 1788054252,
+    "attempts": 3,
+    "checked_at": 1788060343,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/cookbook/block",
     "status": "gone"
@@ -9674,11 +9674,11 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs": {
-    "attempts": 2,
-    "checked_at": 1788054961,
+    "attempts": 4,
+    "checked_at": 1788060737,
     "http_status": 200,
-    "message": "Content dependencies blocked by scope or robots policy: https://js.hcaptcha.com/1/api.js, https://s-cdn.anthropic.com/s.js",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://platform.claude.com/docs/en/about-claude/additional-resources": {
     "attempts": 2,
@@ -9842,50 +9842,50 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/DOCX-JS": {
-    "attempts": 2,
-    "checked_at": 1788054473,
+    "attempts": 4,
+    "checked_at": 1788060378,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/DOCX-JS",
     "status": "gone"
   },
   "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/EXAMPLES": {
-    "attempts": 2,
-    "checked_at": 1788054482,
+    "attempts": 4,
+    "checked_at": 1788060393,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/EXAMPLES",
     "status": "gone"
   },
   "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/FORMS": {
-    "attempts": 2,
-    "checked_at": 1788054498,
+    "attempts": 4,
+    "checked_at": 1788060403,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/FORMS",
     "status": "gone"
   },
   "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/OOXML": {
-    "attempts": 2,
-    "checked_at": 1788054508,
+    "attempts": 4,
+    "checked_at": 1788060430,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/OOXML",
     "status": "gone"
   },
   "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/REDLINING": {
-    "attempts": 2,
-    "checked_at": 1788054524,
+    "attempts": 4,
+    "checked_at": 1788060440,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/REDLINING",
     "status": "gone"
   },
   "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/REFERENCE": {
-    "attempts": 2,
-    "checked_at": 1788054535,
+    "attempts": 4,
+    "checked_at": 1788060454,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/REFERENCE",
     "status": "gone"
   },
   "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/advanced": {
-    "attempts": 2,
-    "checked_at": 1788054550,
+    "attempts": 4,
+    "checked_at": 1788060471,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/advanced",
     "status": "gone"
@@ -9905,8 +9905,8 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/details": {
-    "attempts": 2,
-    "checked_at": 1788054561,
+    "attempts": 4,
+    "checked_at": 1788060502,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/details",
     "status": "gone"
@@ -9919,8 +9919,8 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/examples": {
-    "attempts": 2,
-    "checked_at": 1788054582,
+    "attempts": 4,
+    "checked_at": 1788060526,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/examples",
     "status": "gone"
@@ -9940,36 +9940,36 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference": {
-    "attempts": 2,
-    "checked_at": 1788054591,
+    "attempts": 4,
+    "checked_at": 1788060548,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference",
     "status": "gone"
   },
   "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/finance": {
-    "attempts": 2,
-    "checked_at": 1788054635,
+    "attempts": 4,
+    "checked_at": 1788060565,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/finance",
     "status": "gone"
   },
   "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/marketing": {
-    "attempts": 2,
-    "checked_at": 1788054660,
+    "attempts": 4,
+    "checked_at": 1788060590,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/marketing",
     "status": "gone"
   },
   "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/product": {
-    "attempts": 2,
-    "checked_at": 1788054690,
+    "attempts": 4,
+    "checked_at": 1788060602,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/product",
     "status": "gone"
   },
   "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/sales": {
-    "attempts": 2,
-    "checked_at": 1788054702,
+    "attempts": 4,
+    "checked_at": 1788060624,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/sales",
     "status": "gone"
@@ -15021,9 +15021,513 @@
     "message": "Native Markdown validated",
     "status": "complete"
   },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/federation/rules/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788058130,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/federation/rules/update": {
+    "attempts": 1,
+    "checked_at": 1788058140,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/federation/rules/workspaces": {
+    "attempts": 1,
+    "checked_at": 1788058147,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/federation/rules/workspaces/add": {
+    "attempts": 1,
+    "checked_at": 1788058151,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/federation/rules/workspaces/list": {
+    "attempts": 1,
+    "checked_at": 1788058168,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/federation/rules/workspaces/remove": {
+    "attempts": 1,
+    "checked_at": 1788058176,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/invites": {
+    "attempts": 1,
+    "checked_at": 1788058192,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/invites/create": {
+    "attempts": 1,
+    "checked_at": 1788058200,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/invites/delete": {
+    "attempts": 1,
+    "checked_at": 1788058215,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/invites/list": {
+    "attempts": 1,
+    "checked_at": 1788058226,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/invites/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788058239,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rate_limits": {
+    "attempts": 1,
+    "checked_at": 1788058275,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rate_limits/list": {
+    "attempts": 1,
+    "checked_at": 1788058320,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
   "https://platform.claude.com/docs/en/api/http/beta/organization/retrieve": {
     "attempts": 1,
     "checked_at": 1788003176,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts": {
+    "attempts": 1,
+    "checked_at": 1788058352,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/archive": {
+    "attempts": 1,
+    "checked_at": 1788058386,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/create": {
+    "attempts": 1,
+    "checked_at": 1788058418,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/list": {
+    "attempts": 1,
+    "checked_at": 1788058459,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788058490,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/update": {
+    "attempts": 1,
+    "checked_at": 1788058539,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/workspaces": {
+    "attempts": 1,
+    "checked_at": 1788058573,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/workspaces/add": {
+    "attempts": 1,
+    "checked_at": 1788058625,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/workspaces/list": {
+    "attempts": 1,
+    "checked_at": 1788058640,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/workspaces/remove": {
+    "attempts": 1,
+    "checked_at": 1788058649,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/users": {
+    "attempts": 1,
+    "checked_at": 1788058657,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/users/list": {
+    "attempts": 1,
+    "checked_at": 1788058665,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/users/remove": {
+    "attempts": 1,
+    "checked_at": 1788058676,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/users/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788058685,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/users/update": {
+    "attempts": 1,
+    "checked_at": 1788058694,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces": {
+    "attempts": 1,
+    "checked_at": 1788058704,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/archive": {
+    "attempts": 1,
+    "checked_at": 1788058717,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/create": {
+    "attempts": 1,
+    "checked_at": 1788058732,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/list": {
+    "attempts": 1,
+    "checked_at": 1788058740,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/members": {
+    "attempts": 1,
+    "checked_at": 1788058752,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/add": {
+    "attempts": 1,
+    "checked_at": 1788058764,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/list": {
+    "attempts": 1,
+    "checked_at": 1788058776,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/remove": {
+    "attempts": 1,
+    "checked_at": 1788058781,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788058791,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/members/update": {
+    "attempts": 1,
+    "checked_at": 1788058801,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/rate_limits": {
+    "attempts": 1,
+    "checked_at": 1788058807,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/rate_limits/list": {
+    "attempts": 1,
+    "checked_at": 1788058812,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788058818,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts": {
+    "attempts": 1,
+    "checked_at": 1788058826,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/add": {
+    "attempts": 1,
+    "checked_at": 1788058831,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/list": {
+    "attempts": 1,
+    "checked_at": 1788058839,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/remove": {
+    "attempts": 1,
+    "checked_at": 1788058844,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788058849,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/service_accounts/update": {
+    "attempts": 1,
+    "checked_at": 1788058859,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/organization/workspaces/update": {
+    "attempts": 1,
+    "checked_at": 1788058864,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions": {
+    "attempts": 1,
+    "checked_at": 1788058869,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/archive": {
+    "attempts": 1,
+    "checked_at": 1788058874,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/create": {
+    "attempts": 1,
+    "checked_at": 1788058880,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/delete": {
+    "attempts": 1,
+    "checked_at": 1788058889,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/events": {
+    "attempts": 1,
+    "checked_at": 1788058895,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/events/list": {
+    "attempts": 1,
+    "checked_at": 1788058900,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/events/send": {
+    "attempts": 1,
+    "checked_at": 1788058905,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/events/stream": {
+    "attempts": 1,
+    "checked_at": 1788058910,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/list": {
+    "attempts": 1,
+    "checked_at": 1788058921,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/resources": {
+    "attempts": 1,
+    "checked_at": 1788058926,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/resources/add": {
+    "attempts": 1,
+    "checked_at": 1788058931,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/resources/delete": {
+    "attempts": 1,
+    "checked_at": 1788058936,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/resources/list": {
+    "attempts": 1,
+    "checked_at": 1788058943,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/resources/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788058952,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/resources/update": {
+    "attempts": 1,
+    "checked_at": 1788058957,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788058962,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/threads": {
+    "attempts": 1,
+    "checked_at": 1788058967,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/threads/archive": {
+    "attempts": 1,
+    "checked_at": 1788058972,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/threads/events": {
+    "attempts": 1,
+    "checked_at": 1788058986,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/threads/events/list": {
+    "attempts": 1,
+    "checked_at": 1788058994,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/threads/events/stream": {
+    "attempts": 1,
+    "checked_at": 1788059002,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/threads/list": {
+    "attempts": 1,
+    "checked_at": 1788059010,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/threads/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788059017,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/sessions/update": {
+    "attempts": 1,
+    "checked_at": 1788059028,
     "http_status": 200,
     "message": "Native Markdown validated",
     "status": "complete"
@@ -15063,6 +15567,48 @@
     "message": "Native Markdown validated",
     "status": "complete"
   },
+  "https://platform.claude.com/docs/en/api/http/beta/skills/versions": {
+    "attempts": 1,
+    "checked_at": 1788059029,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/skills/versions/create": {
+    "attempts": 1,
+    "checked_at": 1788059030,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/skills/versions/delete": {
+    "attempts": 1,
+    "checked_at": 1788059031,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/skills/versions/download": {
+    "attempts": 1,
+    "checked_at": 1788059032,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/skills/versions/list": {
+    "attempts": 1,
+    "checked_at": 1788059033,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/skills/versions/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788059034,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
   "https://platform.claude.com/docs/en/api/http/beta/tunnels": {
     "attempts": 1,
     "checked_at": 1788003232,
@@ -15073,6 +15619,41 @@
   "https://platform.claude.com/docs/en/api/http/beta/tunnels/archive": {
     "attempts": 1,
     "checked_at": 1788003237,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/tunnels/certificates": {
+    "attempts": 1,
+    "checked_at": 1788059035,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/tunnels/certificates/archive": {
+    "attempts": 1,
+    "checked_at": 1788059036,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/tunnels/certificates/create": {
+    "attempts": 1,
+    "checked_at": 1788059040,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/tunnels/certificates/list": {
+    "attempts": 1,
+    "checked_at": 1788059041,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/tunnels/certificates/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788059042,
     "http_status": 200,
     "message": "Native Markdown validated",
     "status": "complete"
@@ -15154,6 +15735,111 @@
     "message": "Native Markdown validated",
     "status": "complete"
   },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults": {
+    "attempts": 1,
+    "checked_at": 1788059043,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/archive": {
+    "attempts": 1,
+    "checked_at": 1788059044,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/create": {
+    "attempts": 1,
+    "checked_at": 1788059046,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials": {
+    "attempts": 1,
+    "checked_at": 1788059046,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/archive": {
+    "attempts": 1,
+    "checked_at": 1788059047,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/create": {
+    "attempts": 1,
+    "checked_at": 1788059050,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/delete": {
+    "attempts": 1,
+    "checked_at": 1788059051,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/list": {
+    "attempts": 1,
+    "checked_at": 1788059055,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/mcp_oauth_validate": {
+    "attempts": 1,
+    "checked_at": 1788059056,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788059057,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/credentials/update": {
+    "attempts": 1,
+    "checked_at": 1788059058,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/delete": {
+    "attempts": 1,
+    "checked_at": 1788059059,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/list": {
+    "attempts": 1,
+    "checked_at": 1788059060,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788059061,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/beta/vaults/update": {
+    "attempts": 1,
+    "checked_at": 1788059062,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
   "https://platform.claude.com/docs/en/api/http/beta/webhooks": {
     "attempts": 1,
     "checked_at": 1788003310,
@@ -15203,9 +15889,44 @@
     "message": "Native Markdown validated",
     "status": "complete"
   },
+  "https://platform.claude.com/docs/en/api/http/compliance/activities/list": {
+    "attempts": 1,
+    "checked_at": 1788059064,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps": {
+    "attempts": 1,
+    "checked_at": 1788059064,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/artifacts": {
+    "attempts": 1,
+    "checked_at": 1788059068,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
   "https://platform.claude.com/docs/en/api/http/compliance/apps/artifacts/download": {
     "attempts": 1,
     "checked_at": 1788003343,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/artifacts/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788059069,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats": {
+    "attempts": 1,
+    "checked_at": 1788059070,
     "http_status": 200,
     "message": "Native Markdown validated",
     "status": "complete"
@@ -15217,9 +15938,37 @@
     "message": "Native Markdown validated",
     "status": "complete"
   },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/files": {
+    "attempts": 1,
+    "checked_at": 1788059071,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
   "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/files/delete": {
     "attempts": 1,
     "checked_at": 1788003357,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/files/download": {
+    "attempts": 1,
+    "checked_at": 1788059072,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/files/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788059073,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/generated_files": {
+    "attempts": 1,
+    "checked_at": 1788059074,
     "http_status": 200,
     "message": "Native Markdown validated",
     "status": "complete"
@@ -15231,9 +15980,51 @@
     "message": "Native Markdown validated",
     "status": "complete"
   },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/generated_files/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788059075,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/list": {
+    "attempts": 1,
+    "checked_at": 1788059076,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
   "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/messages": {
     "attempts": 1,
     "checked_at": 1788003372,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/messages/list": {
+    "attempts": 1,
+    "checked_at": 1788059077,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects": {
+    "attempts": 1,
+    "checked_at": 1788059081,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/attachments": {
+    "attempts": 1,
+    "checked_at": 1788059082,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/attachments/list": {
+    "attempts": 1,
+    "checked_at": 1788059083,
     "http_status": 200,
     "message": "Native Markdown validated",
     "status": "complete"
@@ -15245,9 +16036,247 @@
     "message": "Native Markdown validated",
     "status": "complete"
   },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/collaborators/list": {
+    "attempts": 1,
+    "checked_at": 1788059084,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/delete": {
+    "attempts": 1,
+    "checked_at": 1788059085,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/documents": {
+    "attempts": 1,
+    "checked_at": 1788059086,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/documents/delete": {
+    "attempts": 1,
+    "checked_at": 1788059088,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/documents/metadata": {
+    "attempts": 1,
+    "checked_at": 1788059088,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/documents/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788059089,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/list": {
+    "attempts": 1,
+    "checked_at": 1788059090,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/projects/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788059095,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions": {
+    "attempts": 1,
+    "checked_at": 1788059096,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/local": {
+    "attempts": 1,
+    "checked_at": 1788059097,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/local/list": {
+    "attempts": 1,
+    "checked_at": 1788059097,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/local/messages": {
+    "attempts": 1,
+    "checked_at": 1788059099,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/local/messages/list": {
+    "attempts": 1,
+    "checked_at": 1788059100,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/local/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788059101,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/remote": {
+    "attempts": 1,
+    "checked_at": 1788059101,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/remote/list": {
+    "attempts": 1,
+    "checked_at": 1788059105,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
   "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/remote/messages": {
     "attempts": 1,
     "checked_at": 1788003383,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/sessions/remote/messages/list": {
+    "attempts": 1,
+    "checked_at": 1788059105,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/code": {
+    "attempts": 1,
+    "checked_at": 1788059109,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/code/artifacts": {
+    "attempts": 1,
+    "checked_at": 1788059110,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/code/artifacts/delete": {
+    "attempts": 1,
+    "checked_at": 1788059111,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/code/artifacts/list": {
+    "attempts": 1,
+    "checked_at": 1788059114,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/code/artifacts/retrieve_version": {
+    "attempts": 1,
+    "checked_at": 1788059115,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/groups": {
+    "attempts": 1,
+    "checked_at": 1788059116,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/groups/list": {
+    "attempts": 1,
+    "checked_at": 1788059117,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/groups/members": {
+    "attempts": 1,
+    "checked_at": 1788059118,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/groups/members/list": {
+    "attempts": 1,
+    "checked_at": 1788059119,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/groups/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788059120,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations": {
+    "attempts": 1,
+    "checked_at": 1788059124,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations/list": {
+    "attempts": 1,
+    "checked_at": 1788059125,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations/roles": {
+    "attempts": 1,
+    "checked_at": 1788059126,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations/roles/list": {
+    "attempts": 1,
+    "checked_at": 1788059127,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations/roles/permissions": {
+    "attempts": 1,
+    "checked_at": 1788059128,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations/roles/permissions/list": {
+    "attempts": 1,
+    "checked_at": 1788059129,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations/roles/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788059130,
     "http_status": 200,
     "message": "Native Markdown validated",
     "status": "complete"
@@ -15259,9 +16288,128 @@
     "message": "Native Markdown validated",
     "status": "complete"
   },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations/settings/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788059131,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations/users": {
+    "attempts": 1,
+    "checked_at": 1788059132,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/compliance/organizations/users/list": {
+    "attempts": 1,
+    "checked_at": 1788059133,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/files": {
+    "attempts": 1,
+    "checked_at": 1788059136,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/files/delete": {
+    "attempts": 1,
+    "checked_at": 1788059138,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/files/download": {
+    "attempts": 1,
+    "checked_at": 1788059139,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/files/list": {
+    "attempts": 1,
+    "checked_at": 1788059140,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/files/retrieve_metadata": {
+    "attempts": 1,
+    "checked_at": 1788059141,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
   "https://platform.claude.com/docs/en/api/http/files/upload": {
     "attempts": 1,
     "checked_at": 1788003406,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/messages": {
+    "attempts": 1,
+    "checked_at": 1788059143,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/messages/batches": {
+    "attempts": 1,
+    "checked_at": 1788059143,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/messages/batches/cancel": {
+    "attempts": 1,
+    "checked_at": 1788059144,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/messages/batches/create": {
+    "attempts": 1,
+    "checked_at": 1788059145,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/messages/batches/delete": {
+    "attempts": 1,
+    "checked_at": 1788059146,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/messages/batches/list": {
+    "attempts": 1,
+    "checked_at": 1788059150,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/messages/batches/results": {
+    "attempts": 1,
+    "checked_at": 1788059151,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/messages/batches/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788059152,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/messages/count_tokens": {
+    "attempts": 1,
+    "checked_at": 1788059153,
     "http_status": 200,
     "message": "Native Markdown validated",
     "status": "complete"
@@ -15280,9 +16428,86 @@
     "message": "Native Markdown validated",
     "status": "complete"
   },
+  "https://platform.claude.com/docs/en/api/http/models/list": {
+    "attempts": 1,
+    "checked_at": 1788059154,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
   "https://platform.claude.com/docs/en/api/http/models/retrieve": {
     "attempts": 1,
     "checked_at": 1788003422,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills": {
+    "attempts": 1,
+    "checked_at": 1788059155,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills/create": {
+    "attempts": 1,
+    "checked_at": 1788059156,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills/delete": {
+    "attempts": 1,
+    "checked_at": 1788059157,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills/list": {
+    "attempts": 1,
+    "checked_at": 1788059158,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788059159,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills/versions": {
+    "attempts": 1,
+    "checked_at": 1788059163,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills/versions/create": {
+    "attempts": 1,
+    "checked_at": 1788059164,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills/versions/delete": {
+    "attempts": 1,
+    "checked_at": 1788059165,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills/versions/list": {
+    "attempts": 1,
+    "checked_at": 1788059166,
+    "http_status": 200,
+    "message": "Native Markdown validated",
+    "status": "complete"
+  },
+  "https://platform.claude.com/docs/en/api/http/skills/versions/retrieve": {
+    "attempts": 1,
+    "checked_at": 1788059167,
     "http_status": 200,
     "message": "Native Markdown validated",
     "status": "complete"
@@ -15449,8 +16674,8 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/api/sessions-retrieve": {
-    "attempts": 2,
-    "checked_at": 1788054734,
+    "attempts": 4,
+    "checked_at": 1788060645,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/api/sessions-retrieve",
     "status": "gone"
@@ -15666,8 +16891,8 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/build-with-claude/err": {
-    "attempts": 2,
-    "checked_at": 1788054758,
+    "attempts": 4,
+    "checked_at": 1788060658,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/build-with-claude/err",
     "status": "gone"
@@ -15750,11 +16975,11 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering": {
-    "attempts": 2,
-    "checked_at": 1788055240,
+    "attempts": 4,
+    "checked_at": 1788060758,
     "http_status": 200,
-    "message": "Content dependencies blocked by scope or robots policy: https://s-cdn.anthropic.com/s.js",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices": {
     "attempts": 2,
@@ -15981,15 +17206,15 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/12": {
-    "attempts": 2,
-    "checked_at": 1788054790,
+    "attempts": 4,
+    "checked_at": 1788060670,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/12",
     "status": "gone"
   },
   "https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/any": {
-    "attempts": 2,
-    "checked_at": 1788054814,
+    "attempts": 4,
+    "checked_at": 1788060677,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/any",
     "status": "gone"
@@ -16044,8 +17269,8 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/docs/build-with-claude/tool-useAnthropic": {
-    "attempts": 2,
-    "checked_at": 1788054847,
+    "attempts": 4,
+    "checked_at": 1788060688,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/build-with-claude/tool-useAnthropic",
     "status": "gone"
@@ -16359,8 +17584,8 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/managed-agents/2000": {
-    "attempts": 2,
-    "checked_at": 1788054874,
+    "attempts": 4,
+    "checked_at": 1788060699,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/en/managed-agents/2000",
     "status": "gone"
@@ -16562,8 +17787,8 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/mcp": {
-    "attempts": 2,
-    "checked_at": 1788054885,
+    "attempts": 4,
+    "checked_at": 1788060707,
     "http_status": null,
     "message": "Request or redirect outside configured hosts",
     "status": "out_of_scope"
@@ -16709,8 +17934,8 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/release-notes/claude-code": {
-    "attempts": 2,
-    "checked_at": 1788054905,
+    "attempts": 4,
+    "checked_at": 1788060716,
     "http_status": null,
     "message": "Request or redirect outside configured hosts",
     "status": "out_of_scope"
@@ -16912,22 +18137,22 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/videos/1": {
-    "attempts": 1,
-    "checked_at": 1788054431,
+    "attempts": 3,
+    "checked_at": 1788060350,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/videos/1",
     "status": "gone"
   },
   "https://platform.claude.com/docs/videos/3": {
-    "attempts": 1,
-    "checked_at": 1788054447,
+    "attempts": 3,
+    "checked_at": 1788060356,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/videos/3",
     "status": "gone"
   },
   "https://platform.claude.com/docs/videos/a": {
-    "attempts": 1,
-    "checked_at": 1788054457,
+    "attempts": 3,
+    "checked_at": 1788060370,
     "http_status": 404,
     "message": "HTTP 404: https://platform.claude.com/docs/videos/a",
     "status": "gone"
@@ -16954,8 +18179,8 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles": {
-    "attempts": 1,
-    "checked_at": 1788057466,
+    "attempts": 3,
+    "checked_at": 1788060775,
     "http_status": 404,
     "message": "HTTP 404: https://support.claude.com/en/articles",
     "status": "gone"
@@ -17171,8 +18396,8 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/10389539-using-the-google-docs-integration": {
-    "attempts": 1,
-    "checked_at": 1788054318,
+    "attempts": 3,
+    "checked_at": 1788060337,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/tutorials/using-the-google-docs-integration",
     "status": "gone"
@@ -17248,11 +18473,11 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/10574485-using-extended-thinking": {
-    "attempts": 1,
-    "checked_at": 1788054406,
+    "attempts": 3,
+    "checked_at": 1788060798,
     "http_status": 200,
-    "message": "Content dependencies blocked by scope or robots policy: https://static.intercomassets.com/_next/static/chunks/0f5396a4-fde11be1c3fd610f.js, https://static.intercomassets.com/_next/static/chunks/2478-fd05cb20e00c7a4f.js, https://static.intercomassets.com/_next/static/chunks/2908.0e8ebf8668fb50e0.js, https://static.intercomassets.com/_next/static/chunks/3389.f65224705a41e569.js, https://static.intercomassets.com/_next/static/chunks/3973.225000cff94811d5.js, https://static.intercomassets.com/_next/static/chunks/4125-559539645ba18ad2.js, https://static.intercomassets.com/_next/static/chunks/6537-0a6d2df5baa3a730.js, https://static.intercomassets.com/_next/static/chunks/6623.34f6dc7624158101.js, https://static.intercomassets.com/_next/static/chunks/7630-b412efb1262bbd16.js, https://static.intercomassets.com/_next/static/chunks/8703-86e01196ed8de39a.js, https://static.intercomassets.com/_next/static/chunks/8785-99b6c7987859135e.js, https://static.intercomassets.com/_next/static/chunks/8869-3c80f1b01e362c59.js, https://static.intercomassets.com/_next/static/chunks/b263e433-fd82b1f7f91af3c5.js, https://static.intercomassets.com/_next/static/chunks/framework-e17a833229380640.js, https://static.intercomassets.com/_next/static/chunks/main-a2dbd992512d2929.js, https://static.intercomassets.com/_next/static/chunks/pages/%5BhelpCenterIdentifier%5D/%5Blocale%5D/articles/%5BarticleSlug%5D-1f878c176a3deba4.js, https://static.intercomassets.com/_next/static/chunks/pages/_app-4dbe6534ad6fc7fa.js, https://static.intercomassets.com/_next/static/chunks/webpack-516ae6bb8c35849a.js, https://static.intercomassets.com/_next/static/rahLQHxlJWAS-egupA9MU/_buildManifest.js, https://static.intercomassets.com/_next/static/rahLQHxlJWAS-egupA9MU/_ssgManifest.js",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://support.claude.com/en/articles/10593882-share-and-unshare-chats": {
     "attempts": 1,
@@ -17556,15 +18781,15 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/11506255-get-started-with-claude-in-slack": {
-    "attempts": 1,
-    "checked_at": 1788054703,
+    "attempts": 3,
+    "checked_at": 1788060347,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/claude-tag/overview",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack": {
-    "attempts": 1,
-    "checked_at": 1788054736,
+    "attempts": 3,
+    "checked_at": 1788060352,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/claude-tag/overview",
     "status": "out_of_scope"
@@ -18053,8 +19278,8 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/12306336-claude-for-chrome-release-notes": {
-    "attempts": 1,
-    "checked_at": 1788055368,
+    "attempts": 3,
+    "checked_at": 1788060361,
     "http_status": 404,
     "message": "HTTP 404: https://support.claude.com/en/articles/12306336-claude-for-chrome-release-notes",
     "status": "gone"
@@ -18123,8 +19348,8 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/12461605-using-claude-in-slack": {
-    "attempts": 1,
-    "checked_at": 1788055444,
+    "attempts": 3,
+    "checked_at": 1788060370,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/claude-tag/overview",
     "status": "out_of_scope"
@@ -18333,22 +19558,22 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/12650343-claude-in-excel": {
-    "attempts": 1,
-    "checked_at": 1788055564,
+    "attempts": 3,
+    "checked_at": 1788060382,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/excel",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/12650343-use-claude-for-excel": {
-    "attempts": 2,
-    "checked_at": 1788056770,
+    "attempts": 4,
+    "checked_at": 1788060677,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/excel",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/12650343-using-claude-in-excel": {
-    "attempts": 1,
-    "checked_at": 1788055570,
+    "attempts": 3,
+    "checked_at": 1788060396,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/excel",
     "status": "out_of_scope"
@@ -18949,22 +20174,22 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/13521390-use-claude-for-powerpoint": {
-    "attempts": 2,
-    "checked_at": 1788056775,
+    "attempts": 4,
+    "checked_at": 1788060688,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/powerpoint",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/13521390-use-claude-in-powerpoint": {
-    "attempts": 1,
-    "checked_at": 1788055836,
+    "attempts": 3,
+    "checked_at": 1788060408,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/powerpoint",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/13521390-using-claude-in-powerpoint": {
-    "attempts": 1,
-    "checked_at": 1788055842,
+    "attempts": 3,
+    "checked_at": 1788060430,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/powerpoint",
     "status": "out_of_scope"
@@ -19012,25 +20237,25 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/13694757-access-engagement-and-adoption-data-with-the-analytics-api": {
-    "attempts": 1,
-    "checked_at": 1788055869,
+    "attempts": 3,
+    "checked_at": 1788060445,
     "http_status": 404,
     "message": "HTTP 404: https://support.claude.com/en/articles/13694757-access-engagement-and-adoption-data-with-the-analytics-api",
     "status": "gone"
   },
   "https://support.claude.com/en/articles/13694757-claude-enterprise-analytics-api-access-engagement-and-adoption-data": {
-    "attempts": 1,
-    "checked_at": 1788057494,
+    "attempts": 3,
+    "checked_at": 1788060783,
     "http_status": 404,
     "message": "HTTP 404: https://support.claude.com/en/articles/13694757-claude-enterprise-analytics-api-access-engagement-and-adoption-data",
     "status": "gone"
   },
   "https://support.claude.com/en/articles/13694757-get-started-with-the-claude-enterprise-analytics-api": {
-    "attempts": 1,
-    "checked_at": 1788055879,
+    "attempts": 3,
+    "checked_at": 1788060810,
     "http_status": 200,
-    "message": "Content dependencies blocked by scope or robots policy: https://s-cdn.anthropic.com/s.js",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide": {
     "attempts": 1,
@@ -19166,22 +20391,22 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/13892150-work-across-apps-with-cowork": {
-    "attempts": 1,
-    "checked_at": 1788055957,
+    "attempts": 3,
+    "checked_at": 1788060455,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/work-across-apps",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/13892150-work-across-excel-powerpoint-and-word": {
-    "attempts": 1,
-    "checked_at": 1788055963,
+    "attempts": 3,
+    "checked_at": 1788060476,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/work-across-apps",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/13892150-work-across-microsoft-365-apps": {
-    "attempts": 2,
-    "checked_at": 1788056779,
+    "attempts": 4,
+    "checked_at": 1788060700,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/work-across-apps",
     "status": "out_of_scope"
@@ -19327,15 +20552,15 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms": {
-    "attempts": 2,
-    "checked_at": 1788056785,
+    "attempts": 4,
+    "checked_at": 1788060709,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/third-party-platforms",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/13945233-use-claude-in-excel-and-powerpoint-with-an-llm-gateway": {
-    "attempts": 1,
-    "checked_at": 1788056027,
+    "attempts": 3,
+    "checked_at": 1788060503,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/third-party-platforms",
     "status": "out_of_scope"
@@ -19467,8 +20692,8 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/14465370-use-claude-for-word": {
-    "attempts": 2,
-    "checked_at": 1788056790,
+    "attempts": 4,
+    "checked_at": 1788060719,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/word",
     "status": "out_of_scope"
@@ -19502,8 +20727,8 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents": {
-    "attempts": 2,
-    "checked_at": 1788056798,
+    "attempts": 4,
+    "checked_at": 1788060743,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/dictation",
     "status": "out_of_scope"
@@ -19789,8 +21014,8 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/14855664-use-claude-for-outlook": {
-    "attempts": 2,
-    "checked_at": 1788056806,
+    "attempts": 4,
+    "checked_at": 1788060761,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/outlook",
     "status": "out_of_scope"
@@ -19887,8 +21112,8 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion": {
-    "attempts": 1,
-    "checked_at": 1788056132,
+    "attempts": 3,
+    "checked_at": 1788060532,
     "http_status": 404,
     "message": "HTTP 404: https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion",
     "status": "gone"
@@ -20328,8 +21553,8 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data": {
-    "attempts": 2,
-    "checked_at": 1788056814,
+    "attempts": 4,
+    "checked_at": 1788060767,
     "http_status": 404,
     "message": "HTTP 404: https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data",
     "status": "gone"
@@ -21210,8 +22435,8 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/9945615-intro-to-artifacts": {
-    "attempts": 1,
-    "checked_at": 1788056556,
+    "attempts": 3,
+    "checked_at": 1788060549,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/tutorials/intro-to-artifacts",
     "status": "gone"
@@ -21224,29 +22449,29 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/9945670-using-the-github-integration": {
-    "attempts": 1,
-    "checked_at": 1788056575,
+    "attempts": 3,
+    "checked_at": 1788060571,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/tutorials/using-the-github-integration",
     "status": "gone"
   },
   "https://support.claude.com/en/articles/9945689-claude-for-engineering": {
-    "attempts": 1,
-    "checked_at": 1788056582,
+    "attempts": 3,
+    "checked_at": 1788060592,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/tutorials/claude-for-engineering",
     "status": "gone"
   },
   "https://support.claude.com/en/articles/9945697-claude-for-marketing": {
-    "attempts": 1,
-    "checked_at": 1788056589,
+    "attempts": 3,
+    "checked_at": 1788060604,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/tutorials/claude-for-marketing",
     "status": "gone"
   },
   "https://support.claude.com/en/articles/9945703-claude-for-sales": {
-    "attempts": 1,
-    "checked_at": 1788056598,
+    "attempts": 3,
+    "checked_at": 1788060626,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/tutorials/claude-for-sales",
     "status": "gone"
@@ -21266,15 +22491,15 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/9998942-claude-for-human-resources": {
-    "attempts": 1,
-    "checked_at": 1788056614,
+    "attempts": 3,
+    "checked_at": 1788060647,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/tutorials/claude-for-human-resources",
     "status": "gone"
   },
   "https://support.claude.com/en/articles/9999062-claude-for-product-management": {
-    "attempts": 1,
-    "checked_at": 1788056621,
+    "attempts": 3,
+    "checked_at": 1788060660,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/tutorials/claude-for-product-management",
     "status": "gone"
@@ -21308,8 +22533,8 @@
     "status": "complete"
   },
   "https://support.claude.com/en/collections/13972013-claude-for-financial-services": {
-    "attempts": 1,
-    "checked_at": 1788056648,
+    "attempts": 3,
+    "checked_at": 1788060671,
     "http_status": 404,
     "message": "HTTP 404: https://support.claude.com/en/collections/13972013-claude-for-financial-services",
     "status": "gone"
@@ -21644,15 +22869,15 @@
     "status": "complete"
   },
   "https://www.anthropic.com/ai-fluency": {
-    "attempts": 2,
-    "checked_at": 1788054990,
+    "attempts": 4,
+    "checked_at": 1788060383,
     "http_status": null,
     "message": "Request or redirect outside configured hosts",
     "status": "out_of_scope"
   },
   "https://www.anthropic.com/building-effective-ai-agents": {
-    "attempts": 2,
-    "checked_at": 1788054997,
+    "attempts": 4,
+    "checked_at": 1788060396,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/building-effective-ai-agents",
     "status": "gone"
@@ -21728,8 +22953,8 @@
     "status": "complete"
   },
   "https://www.anthropic.com/engineering/building-effective-mcp-servers": {
-    "attempts": 2,
-    "checked_at": 1788055023,
+    "attempts": 4,
+    "checked_at": 1788060445,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/engineering/building-effective-mcp-servers",
     "status": "gone"
@@ -21854,8 +23079,8 @@
     "status": "complete"
   },
   "https://www.anthropic.com/engineering/prompt-engineering-overview": {
-    "attempts": 2,
-    "checked_at": 1788055033,
+    "attempts": 4,
+    "checked_at": 1788060455,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/engineering/prompt-engineering-overview",
     "status": "gone"
@@ -22183,11 +23408,11 @@
     "status": "complete"
   },
   "https://www.anthropic.com/news/anthropic-interviewer": {
-    "attempts": 2,
-    "checked_at": 1788055088,
+    "attempts": 4,
+    "checked_at": 1788060492,
     "http_status": 200,
-    "message": "Could not read tab 'Sales': TimeoutError",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure": {
     "attempts": 1,
@@ -22687,11 +23912,11 @@
     "status": "complete"
   },
   "https://www.anthropic.com/news/claude-opus-4-5": {
-    "attempts": 2,
-    "checked_at": 1788055146,
+    "attempts": 3,
+    "checked_at": 1788058330,
     "http_status": 200,
-    "message": "Could not read tab 'BrowseComp-Plus': TimeoutError",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://www.anthropic.com/news/claude-opus-4-6": {
     "attempts": 2,
@@ -22701,11 +23926,11 @@
     "status": "complete"
   },
   "https://www.anthropic.com/news/claude-opus-4-7": {
-    "attempts": 2,
-    "checked_at": 1788055187,
+    "attempts": 3,
+    "checked_at": 1788058366,
     "http_status": 200,
-    "message": "Could not read tab 'Vision': TimeoutError",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://www.anthropic.com/news/claude-opus-4-8": {
     "attempts": 1,
@@ -22715,11 +23940,11 @@
     "status": "complete"
   },
   "https://www.anthropic.com/news/claude-opus-5": {
-    "attempts": 2,
-    "checked_at": 1788055210,
+    "attempts": 3,
+    "checked_at": 1788058399,
     "http_status": 200,
-    "message": "Could not read tab 'AA Coding Agent Index': TimeoutError",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://www.anthropic.com/news/claude-partner-network": {
     "attempts": 1,
@@ -23191,11 +24416,11 @@
     "status": "complete"
   },
   "https://www.anthropic.com/news/healthcare-life-sciences": {
-    "attempts": 2,
-    "checked_at": 1788055268,
+    "attempts": 3,
+    "checked_at": 1788058431,
     "http_status": 200,
-    "message": "Could not read tab 'SpatialBench: Spatial biology analysis by LatchBio': TimeoutError",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://www.anthropic.com/news/higher-limits-spacex": {
     "attempts": 1,
@@ -23380,8 +24605,8 @@
     "status": "complete"
   },
   "https://www.anthropic.com/news/max-plan": {
-    "attempts": 1,
-    "checked_at": 1788054475,
+    "attempts": 3,
+    "checked_at": 1788060339,
     "http_status": 404,
     "message": "HTTP 404: https://claude.com/blog/max-plan",
     "status": "gone"
@@ -23576,8 +24801,8 @@
     "status": "complete"
   },
   "https://www.anthropic.com/news/project-glasswing": {
-    "attempts": 1,
-    "checked_at": 1788054500,
+    "attempts": 3,
+    "checked_at": 1788060348,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/news/project-glasswing",
     "status": "gone"
@@ -24080,8 +25305,8 @@
     "status": "complete"
   },
   "https://www.anthropic.com/research/2": {
-    "attempts": 1,
-    "checked_at": 1788054584,
+    "attempts": 3,
+    "checked_at": 1788060353,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/research/2",
     "status": "gone"
@@ -24122,11 +25347,11 @@
     "status": "complete"
   },
   "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench": {
-    "attempts": 2,
-    "checked_at": 1788055289,
+    "attempts": 4,
+    "checked_at": 1788060514,
     "http_status": 200,
-    "message": "Content dependencies blocked by scope or robots policy: https://js.hsforms.net/forms/embed/v2.js",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment": {
     "attempts": 1,
@@ -24185,15 +25410,15 @@
     "status": "complete"
   },
   "https://www.anthropic.com/research/anthropic-interviewer": {
-    "attempts": 2,
-    "checked_at": 1788055333,
+    "attempts": 3,
+    "checked_at": 1788058512,
     "http_status": 200,
-    "message": "Could not read tab 'Scientists': TimeoutError; Could not read tab 'Craftspeople': TimeoutError; Could not read tab 'Designers': TimeoutError; Could not read tab 'Physicists': TimeoutError",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://www.anthropic.com/research/anthropic.com/research/anthropic-economic-index-january-2026-report": {
-    "attempts": 1,
-    "checked_at": 1788054638,
+    "attempts": 3,
+    "checked_at": 1788060362,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/research/anthropic.com/research/anthropic-economic-index-january-2026-report",
     "status": "gone"
@@ -24206,10 +25431,10 @@
     "status": "complete"
   },
   "https://www.anthropic.com/research/attack-navigator": {
-    "attempts": 2,
-    "checked_at": 1788055362,
+    "attempts": 7,
+    "checked_at": 1788060555,
     "http_status": 200,
-    "message": "Content dependencies blocked by scope or robots policy: https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html, https://js.hsforms.net/forms/embed/v2.js",
+    "message": "Content dependencies blocked by scope or robots policy: https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html",
     "status": "partial"
   },
   "https://www.anthropic.com/research/auditing-hidden-objectives": {
@@ -24353,11 +25578,11 @@
     "status": "complete"
   },
   "https://www.anthropic.com/research/claude-opus-5": {
-    "attempts": 2,
-    "checked_at": 1788055389,
+    "attempts": 3,
+    "checked_at": 1788058590,
     "http_status": 200,
-    "message": "Could not read tab 'AA Coding Agent Index': TimeoutError; Could not read tab 'HLE': TimeoutError",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://www.anthropic.com/research/claude-personal-guidance": {
     "attempts": 1,
@@ -24367,11 +25592,11 @@
     "status": "complete"
   },
   "https://www.anthropic.com/research/claude-plays-robotics": {
-    "attempts": 2,
-    "checked_at": 1788055401,
+    "attempts": 4,
+    "checked_at": 1788060538,
     "http_status": 200,
-    "message": "Content dependencies blocked by scope or robots policy: https://js.hsforms.net/forms/embed/v2.js",
-    "status": "partial"
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://www.anthropic.com/research/claude-sonnet-4-6": {
     "attempts": 1,
@@ -24444,8 +25669,8 @@
     "status": "complete"
   },
   "https://www.anthropic.com/research/cqz@anthropic.com": {
-    "attempts": 1,
-    "checked_at": 1788054668,
+    "attempts": 3,
+    "checked_at": 1788060370,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/research/cqz@anthropic.com",
     "status": "gone"
@@ -25277,8 +26502,8 @@
     "status": "complete"
   },
   "https://www.anthropic.com/resources": {
-    "attempts": 2,
-    "checked_at": 1788055004,
+    "attempts": 4,
+    "checked_at": 1788060408,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/resources",
     "status": "gone"
@@ -25326,8 +26551,8 @@
     "status": "complete"
   },
   "https://www.anthropic.com/webinars": {
-    "attempts": 2,
-    "checked_at": 1788055013,
+    "attempts": 4,
+    "checked_at": 1788060431,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/webinars",
     "status": "gone"

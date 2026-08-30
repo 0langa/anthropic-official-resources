@@ -24,6 +24,7 @@ MAX_BYTES = 100 * 1024 * 1024
 TRANSIENT = {429, 500, 502, 503, 504}
 ASSET_EXTS = {".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp", ".avif", ".pdf", ".zip", ".ipynb", ".csv", ".json", ".txt", ".vtt", ".srt"}
 NON_PAGE_EXTS = ASSET_EXTS | {".ico", ".woff", ".woff2", ".ttf", ".otf", ".eot", ".mp3", ".mp4", ".webm", ".wav", ".m4a", ".mov", ".wasm", ".webmanifest", ".map"}
+TERMINAL_STATUSES = {"blocked", "gone", "out_of_scope"}
 
 
 def digest(data):
@@ -396,6 +397,14 @@ class Archive:
         write(folder/"resource-urls.txt","\n".join(expected)+"\n")
         missing=[u for u in expected if u not in self.records]
         write(folder/"missing-urls.txt","\n".join(missing)+("\n" if missing else ""))
+        page_state = json.loads((folder/"page-state.json").read_text(encoding="utf-8")) if (folder/"page-state.json").exists() else {}
+        terminal = {u:{key:value for key,value in page_state.get(u,{}).items()
+                       if key in {"status","message","http_status","checked_at","attempts"}}
+                    for u in missing if page_state.get(u,{}).get("status") in TERMINAL_STATUSES}
+        actionable_missing = [u for u in missing if u not in terminal]
+        retained_partial = sorted(u for u in self.records if page_state.get(u,{}).get("status") == "partial")
+        write(folder/"actionable-missing-urls.txt","\n".join(actionable_missing)+("\n" if actionable_missing else ""))
+        dump(folder/"terminal-urls.json",terminal)
         dump(folder/"errors.json",self.errors)
         by_host={}
         for u in expected:
@@ -403,9 +412,21 @@ class Archive:
             entry=by_host.setdefault(host,{"discovered_pages":0,"archived_pages":0})
             entry["discovered_pages"]+=1;entry["archived_pages"]+=u in self.records
         issues={u:r["content_notes"] for u,r in self.records.items() if r.get("content_notes")}
-        report={"discovered_pages":len(expected),"archived_pages":len(self.records),"missing_pages":len(missing),"by_host":by_host,"page_inventory_complete":not missing and not self.errors,"exact_website_replica":False,"live_errors":self.errors,"limitations":["Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.","Native Markdown/MDX and extracted Markdown do not reproduce application behavior.","Videos, interactive quizzes, account state, and assets require separate verification.","A multi-request snapshot is not an atomic point-in-time copy."],"pages_with_content_notes":len(issues)}
+        terminal_counts = {status:sum(value.get("status") == status for value in terminal.values())
+                           for status in sorted(TERMINAL_STATUSES)}
+        report={"discovered_pages":len(expected),"archived_pages":len(self.records),"missing_pages":len(missing),
+                "actionable_missing_pages":len(actionable_missing),"terminal_pages":len(terminal),
+                "terminal_statuses":terminal_counts,"retained_partial_pages":len(retained_partial),
+                "by_host":by_host,"page_inventory_complete":not missing and not self.errors,
+                "actionable_population_complete":not actionable_missing,
+                "exact_website_replica":False,"live_errors":self.errors,"limitations":["Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.","Native Markdown/MDX and extracted Markdown do not reproduce application behavior.","Videos, interactive quizzes, account state, and assets require separate verification.","A multi-request snapshot is not an atomic point-in-time copy."],"pages_with_content_notes":len(issues)}
         dump(folder/"coverage.json",report);dump(folder/"content-notes.json",issues)
-        lines=["# Coverage report","",f"Archived pages: **{len(self.records)}**",f"Discovered resource pages: **{len(expected)}**",f"Missing pages: **{len(missing)}**","","**Not a certified 1:1 website replica.** See `missing-urls.txt`, `errors.json`, and `content-notes.json`.","","| Host | Archived | Discovered |","| --- | ---: | ---: |"]
+        terminal_summary = ", ".join(f"{status.replace('_',' ')} {count}" for status,count in terminal_counts.items() if count) or "none"
+        lines=["# Coverage report","",f"Archived pages: **{len(self.records)}**",f"Discovered resource pages: **{len(expected)}**",
+               f"Unarchived pages: **{len(missing)}**",f"Actionable missing pages: **{len(actionable_missing)}**",
+               f"Terminal unarchived pages: **{len(terminal)}** ({terminal_summary})",
+               f"Archived pages retained with partial quality notes: **{len(retained_partial)}**","",
+               "**Actionable population complete** means every currently discovered, allowed, reachable English page has an archived record. It does not certify a 1:1 website replica or undiscoverable pages. See `actionable-missing-urls.txt`, `terminal-urls.json`, `errors.json`, and `content-notes.json`.","","| Host | Archived | Discovered |","| --- | ---: | ---: |"]
         lines += [f"| {h} | {v['archived_pages']} | {v['discovered_pages']} |" for h,v in sorted(by_host.items())]
         write(folder/"COVERAGE.md","\n".join(lines)+"\n")
         return report

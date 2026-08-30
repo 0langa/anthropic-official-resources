@@ -84,6 +84,11 @@ def options(**kwargs):
 
 
 class ScopeTests(unittest.TestCase):
+    def test_transcript_control_detection_ignores_plain_mentions(self):
+        from pipeline import has_transcript_control
+        self.assertTrue(has_transcript_control('<span role="radio">Transcript</span>'))
+        self.assertFalse(has_transcript_control('<p>The session transcript is retained.</p>'))
+        self.assertFalse(has_transcript_control('<h2>Source-linked transcripts</h2>'))
     def test_language_policy(self):
         for path in ["/docs/de/page","/docs/_llms/de","/docs/_llms/cn","/docs/_llms/jp","/docs/_llms/pt-br","/zh-CN/courses/a","/pt-BR/articles/a","/page?locale=ja","/page?language=fr-CA"]:
             self.assertFalse(is_english_url("https://example.org"+path),path)
@@ -164,6 +169,14 @@ class ScopeTests(unittest.TestCase):
             self.assertFalse((root/legacy_content).exists())
             self.assertTrue(all(not (root/path).exists() for path in legacy_html))
             self.assertFalse((root/stale_extra).exists())
+    def test_cleanup_drops_stale_invalid_error_keys(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);a=archive(root,"https://example.org")
+            current="https://example.org/current";a.discover([current])
+            a.errors={current:"timeout","https://example.org/favicon.ico":"not text",
+                      "https://example.org/bad path":"invalid","https://example.org/stale":"old"}
+            cleanup(a)
+            self.assertEqual(a.errors,{current:"timeout"})
     def test_http_links_on_https_hosts_canonicalize_before_queueing(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory)
@@ -212,7 +225,12 @@ class ExtractionTests(unittest.TestCase):
         self.assertTrue(optional_embed("https://a-cdn.anthropic.com/v1/projects/example/settings"))
         self.assertTrue(optional_embed("https://assets.claude.ai/sdk/antalytics/latest.umd.js"))
         self.assertTrue(optional_embed("https://www.googletagmanager.com/gtm.js"))
+        self.assertTrue(optional_embed("https://s-cdn.anthropic.com/s.js"))
+        self.assertTrue(optional_embed("https://js.hsforms.net/forms/embed/v2.js"))
+        self.assertTrue(optional_embed("https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"))
+        self.assertTrue(optional_embed("https://static.intercomassets.com/_next/static/chunks/main.js"))
         self.assertFalse(optional_embed("https://assets.claude.ai/lessons/content.js"))
+        self.assertFalse(optional_embed("https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html"))
         self.assertFalse(optional_embed("https://a-cdn.anthropic.com/v1/lessons/example"))
     def test_nested_content_code_tables_hidden_and_absolute_links(self):
         raw='<html lang="en"><title>Example</title><main><article><p>Inner</p></article><p>AFTER ARTICLE</p><pre><code>x = 1\n  y = 2</code></pre><div hidden>Hidden panel</div><a href="/asset.pdf">PDF</a><table><tr><td colspan="2">Both</td></tr></table></main></html>'
