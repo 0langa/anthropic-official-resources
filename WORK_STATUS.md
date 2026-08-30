@@ -15,9 +15,9 @@ Finish public English Anthropic resource population. Archive every valid reachab
 - Remaining state: 737 never attempted, 27 gone, 12 out of scope, 3 robots blocked
 - Validation run `33282662498`: Windows and Linux passed 36 tests including Chromium; 2758 files verified; live pilot passed 10/10.
 
-## Active item
+## Completion state
 
-Run bounded local sync batches with browser rendering enabled. After each material gain: verify archive integrity, update this ledger, commit, and push with a fast-forward check.
+Population objective complete at current public-discovery checkpoint. Maintenance workflow can discover or refresh future upstream changes.
 
 Done condition: no valid reachable English resource remains unarchived. Terminal URLs must be explicitly classified and excluded from actionable coverage without hiding their evidence.
 
@@ -44,8 +44,10 @@ Done condition: no valid reachable English resource remains unarchived. Terminal
 - Current coverage: 3737 archived / 3823 discovered / 86 terminal unarchived / 0 actionable missing.
 - Terminal evidence: 57 gone, 26 cross-scope redirects, 3 robots-blocked.
 - Retained partial quality: 35 quiz UIs with hidden answers/private learner state intentionally untouched; 1 externally embedded interactive research artifact.
-- Final local gates: 41 tests passed including real Chromium; 3737 hashes verified; report exits 0; code/docs whitespace check clean. Remote CI, documentation evidence, and publication pending.
+- Final local gates: 41 tests passed including real Chromium; 3737 hashes verified; report exits 0; code/docs whitespace check clean.
+- Publication commit `1db60fe` pushed; CI report commit `7eafb6e` fast-forwarded.
+- Validation run `33290964023` passed 41 tests on Windows and Linux, real Chromium on both, launcher parse/run, 3737-file verification, and live pilot 10/10.
 
 ## Next safe action
 
-Run final full gates, publish code/data/docs, wait for Windows/Linux/live Chromium CI, fast-forward its report commit, then publish final verification evidence.
+Normal maintenance only: let scheduled updater discover upstream changes, then require same zero-actionable and integrity gates before any newer completion claim.
