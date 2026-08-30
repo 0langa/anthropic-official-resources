@@ -67,6 +67,7 @@ http://claude.ai/redirect/website.v1.216ed11b-57b1-46de-b6eb-a360ff206293
 http://claude.ai/redirect/website.v1.24267f76-3063-43e0-9113-1a4a7391d4c8
 http://claude.ai/redirect/website.v1.27f37dd7-96cb-48a3-95ab-7fe4ee357926
 http://claude.ai/redirect/website.v1.27f37dd7-96cb-48a3-95ab-7fe4ee357926/interviewer
+http://claude.ai/redirect/website.v1.2abace89-47cb-4d84-ab0a-fb8d83a98fdf
 http://claude.ai/redirect/website.v1.39cfe83b-2144-4b05-8008-f2c3eb39e6ed
 http://claude.ai/redirect/website.v1.39cfe83b-2144-4b05-8008-f2c3eb39e6ed/admin-settings/claude-in-slack
 http://claude.ai/redirect/website.v1.39cfe83b-2144-4b05-8008-f2c3eb39e6ed/code
@@ -1171,6 +1172,7 @@ https://academy.claude.com/assets/v1/Avatar-dhf9ci2z.js
 https://academy.claude.com/assets/v1/Avatar-l23fn1jm.js
 https://academy.claude.com/assets/v1/Badge-h5wpm2dk.js
 https://academy.claude.com/assets/v1/Badge-omnwuo6f.js
+https://academy.claude.com/assets/v1/BadgeCoinStack-lpb40lxf.js
 https://academy.claude.com/assets/v1/BadgeCoinStack-m9zg25oa.js
 https://academy.claude.com/assets/v1/BadgeSeal-fnzm5dtw.js
 https://academy.claude.com/assets/v1/BadgeStage-rl8rkkx9.js
@@ -1249,6 +1251,7 @@ https://academy.claude.com/assets/v1/HandHeart-hqdzd4nq.js
 https://academy.claude.com/assets/v1/HandWave-fz5uf76l.js
 https://academy.claude.com/assets/v1/HandWave-g6fuwejl.js
 https://academy.claude.com/assets/v1/HelpArticle-ieazyw30.js
+https://academy.claude.com/assets/v1/HomePage-bcp47uii.js
 https://academy.claude.com/assets/v1/HomePage-cilvlk31.js
 https://academy.claude.com/assets/v1/HubSections-etg90fl7.js
 https://academy.claude.com/assets/v1/HubShell-ijzdlp0l.js
@@ -1647,6 +1650,7 @@ https://academy.claude.com/assets/v1/content/courses/claude-101/lessons/14-certi
 https://academy.claude.com/assets/v1/content/courses/claude-code-101/course-faxdwq0a.js
 https://academy.claude.com/assets/v1/content/courses/claude-code-101/lessons/01-what-is-claude-code/index-b17829rz.js
 https://academy.claude.com/assets/v1/content/courses/claude-code-101/lessons/02-how-claude-code-works/index-eu3vdr9n.js
+https://academy.claude.com/assets/v1/content/courses/claude-code-101/lessons/02-how-claude-code-works/index-i70n3zsz.js
 https://academy.claude.com/assets/v1/content/courses/claude-code-101/lessons/03-installing-claude-code/index-gvs481a3.js
 https://academy.claude.com/assets/v1/content/courses/claude-code-101/lessons/04-your-first-prompt/index-bgv7btjt.js
 https://academy.claude.com/assets/v1/content/courses/claude-code-101/lessons/05-the-explore-plan-code-commit-workflow/index-mipilhxs.js
@@ -1954,6 +1958,7 @@ https://academy.claude.com/assets/v1/content/courses/teaching-ai-fluency/lessons
 https://academy.claude.com/assets/v1/content/tutorials/a-discussion-guide-for-the-ai-fluency-index/index-fbufb3mm.js
 https://academy.claude.com/assets/v1/content/tutorials/best-practices-using-claude-tag/index-lfuvwajf.js
 https://academy.claude.com/assets/v1/content/tutorials/building-a-powerpoint-with-claude/index-k55fn5qe.js
+https://academy.claude.com/assets/v1/content/tutorials/building-a-powerpoint-with-claude/index-pfvt8ji9.js
 https://academy.claude.com/assets/v1/content/tutorials/can-you-trust-what-ai-tells-you/index-iwoj1xlb.js
 https://academy.claude.com/assets/v1/content/tutorials/choosing-between-claude-cowork-or-chat/components/Embed1-j8q84xkt.js
 https://academy.claude.com/assets/v1/content/tutorials/choosing-between-claude-cowork-or-chat/components/Embed2-d9a2dadz.js
@@ -2139,6 +2144,7 @@ https://academy.claude.com/assets/v1/route-ms3pv361.js
 https://academy.claude.com/assets/v1/router-l6chxoka.js
 https://academy.claude.com/assets/v1/router-m1yr2ncw.js
 https://academy.claude.com/assets/v1/routes-ev973hod.js
+https://academy.claude.com/assets/v1/routes-mrnbwqtq.js
 https://academy.claude.com/assets/v1/salesforce-pfuj73ef.js
 https://academy.claude.com/assets/v1/sanitizeReportedError-iw5vit1l.js
 https://academy.claude.com/assets/v1/sanitizeReportedError-vt5t1vno.js
@@ -2156,6 +2162,7 @@ https://academy.claude.com/assets/v1/shapes-bkuhe0qf.png
 https://academy.claude.com/assets/v1/skills-jgfwojra.js
 https://academy.claude.com/assets/v1/slack-mv4y72g9.js
 https://academy.claude.com/assets/v1/space-separated-tokens-k0qz1v94.js
+https://academy.claude.com/assets/v1/startCompleted-nyj5a9gl.js
 https://academy.claude.com/assets/v1/stateAttributesMapping-heuxtesg.js
 https://academy.claude.com/assets/v1/stateAttributesMapping-nt95xuxt.js
 https://academy.claude.com/assets/v1/steerability-mrakjhny.js

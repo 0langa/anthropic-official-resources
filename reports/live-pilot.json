@@ -21,7 +21,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787954292,
+        "checked_at": 1788048754,
         "http_status": 200,
         "message": "Native Markdown validated",
         "status": "complete"
@@ -30,7 +30,7 @@
     },
     {
       "category": "Claude Code native Markdown",
-      "characters": 16615,
+      "characters": 16619,
       "checks": {
         "minimum_characters": true,
         "required_text": true,
@@ -44,7 +44,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787954284,
+        "checked_at": 1788048746,
         "http_status": 200,
         "message": "Native Markdown validated",
         "status": "complete"
@@ -67,7 +67,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787954279,
+        "checked_at": 1788048742,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -76,7 +76,7 @@
     },
     {
       "category": "Academy lesson and transcript",
-      "characters": 11768,
+      "characters": 13270,
       "checks": {
         "minimum_characters": true,
         "required_text": true,
@@ -93,7 +93,7 @@
       "require_transcript": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787954291,
+        "checked_at": 1788048754,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -116,7 +116,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787954298,
+        "checked_at": 1788048761,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -139,7 +139,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787954286,
+        "checked_at": 1788048748,
         "http_status": 200,
         "message": "Native Markdown validated",
         "status": "complete"
@@ -162,7 +162,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787954285,
+        "checked_at": 1788048747,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -185,7 +185,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787954288,
+        "checked_at": 1788048750,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -208,7 +208,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787954295,
+        "checked_at": 1788048758,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -231,7 +231,7 @@
       "passed": true,
       "state": {
         "attempts": 1,
-        "checked_at": 1787954280,
+        "checked_at": 1788048744,
         "http_status": 200,
         "message": "HTML content and available panels extracted",
         "status": "complete"
@@ -239,5 +239,5 @@
       "url": "https://claude.com/blog/best-practices-for-prompt-engineering"
     }
   ],
-  "tested_at_utc": "2026-08-28T21:58:18Z"
+  "tested_at_utc": "2026-08-30T00:12:41Z"
 }

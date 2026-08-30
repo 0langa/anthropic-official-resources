@@ -1,7 +1,7 @@
 {
   "https://academy.claude.com/": {
     "attempts": 1,
-    "checked_at": 1787954279,
+    "checked_at": 1788048742,
     "http_status": 200,
     "message": "HTML content and available panels extracted",
     "status": "complete"
@@ -1513,7 +1513,7 @@
   },
   "https://academy.claude.com/courses/claude-code-101/how-claude-code-works": {
     "attempts": 1,
-    "checked_at": 1787954291,
+    "checked_at": 1788048754,
     "http_status": 200,
     "message": "HTML content and available panels extracted",
     "status": "complete"
@@ -3501,7 +3501,7 @@
   },
   "https://academy.claude.com/tutorials/building-a-powerpoint-with-claude": {
     "attempts": 1,
-    "checked_at": 1787954298,
+    "checked_at": 1788048761,
     "http_status": 200,
     "message": "HTML content and available panels extracted",
     "status": "complete"
@@ -3788,10 +3788,10 @@
   },
   "https://claude.com/blog/best-practices-for-prompt-engineering": {
     "attempts": 1,
-    "checked_at": 1788002072,
-    "http_status": 404,
-    "message": "HTTP 404: https://claude.com/blog/best-practices-for-prompt-engineering)Subscribe",
-    "status": "gone"
+    "checked_at": 1788048744,
+    "http_status": 200,
+    "message": "HTML content and available panels extracted",
+    "status": "complete"
   },
   "https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code": {
     "attempts": 1,
@@ -6188,10 +6188,10 @@
     "status": "gone"
   },
   "https://code.claude.com/docs/en/overview": {
-    "attempts": 2,
-    "checked_at": 1788001778,
+    "attempts": 1,
+    "checked_at": 1788048746,
     "http_status": 200,
-    "message": "Native official export",
+    "message": "Native Markdown validated",
     "status": "complete"
   },
   "https://code.claude.com/docs/en/permission-modes": {
@@ -6769,8 +6769,8 @@
     "status": "complete"
   },
   "https://platform.claude.com/cookbook/capabilities-classification-guide": {
-    "attempts": 2,
-    "checked_at": 1788003746,
+    "attempts": 1,
+    "checked_at": 1788048747,
     "http_status": 200,
     "message": "HTML content and available panels extracted",
     "status": "complete"
@@ -12201,10 +12201,10 @@
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/get-started": {
-    "attempts": 2,
-    "checked_at": 1788001776,
+    "attempts": 1,
+    "checked_at": 1788048754,
     "http_status": 200,
-    "message": "Native official export",
+    "message": "Native Markdown validated",
     "status": "complete"
   },
   "https://platform.claude.com/docs/en/home": {
@@ -13097,8 +13097,8 @@
     "status": "complete"
   },
   "https://support.claude.com/en/articles/10065433-install-claude-desktop": {
-    "attempts": 2,
-    "checked_at": 1788004810,
+    "attempts": 1,
+    "checked_at": 1788048748,
     "http_status": 200,
     "message": "Native Markdown validated",
     "status": "complete"
@@ -16002,8 +16002,8 @@
     "status": "complete"
   },
   "https://www.anthropic.com/engineering/building-effective-agents": {
-    "attempts": 2,
-    "checked_at": 1788005368,
+    "attempts": 1,
+    "checked_at": 1788048750,
     "http_status": 200,
     "message": "HTML content and available panels extracted",
     "status": "complete"
@@ -18187,7 +18187,7 @@
   },
   "https://www.anthropic.com/research/AI-assistance-coding-skills": {
     "attempts": 1,
-    "checked_at": 1787954295,
+    "checked_at": 1788048758,
     "http_status": 200,
     "message": "HTML content and available panels extracted",
     "status": "complete"

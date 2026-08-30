@@ -1,7 +1,10 @@
-# Overview
-Source: https://code.claude.com/docs/en/overview
+> ## Documentation Index
+> Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt
+> Use this file to discover all available pages before exploring further.
 
-Claude Code is an agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools. Available in your terminal, IDE, desktop app, and browser.
+# Overview
+
+> Claude Code is an agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools. Available in your terminal, IDE, desktop app, and browser.
 
 Claude Code is an AI-powered coding assistant that helps you build features, fix bugs, and automate development tasks. It understands your entire codebase and can work across multiple files and tools to get things done.
 
@@ -217,17 +220,17 @@ Each [surface](/docs/en/glossary#surface) connects to the same underlying Claude
 
 Beyond the [Terminal](/docs/en/quickstart), [VS Code](/docs/en/vs-code), [JetBrains](/docs/en/jetbrains), [Desktop](/docs/en/desktop), and [Web](/docs/en/claude-code-on-the-web) surfaces above, Claude Code integrates with CI/CD, chat, and browser workflows:
 
-| I want to...                                                                    | Best option                                                                                                             |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| Continue a local session from my phone or another device                        | [Remote Control](/docs/en/remote-control)                                                                               |
-| Push events from Telegram, Discord, iMessage, or my own webhooks into a session | [Channels](/docs/en/channels)                                                                                           |
+| I want to...                                                                    | Best option                                                                                                   |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Continue a local session from my phone or another device                        | [Remote Control](/docs/en/remote-control)                                                                          |
+| Push events from Telegram, Discord, iMessage, or my own webhooks into a session | [Channels](/docs/en/channels)                                                                                      |
 | Start a task locally, continue on mobile                                        | [`claude --cloud`](/docs/en/claude-code-on-the-web#from-terminal-to-web), then the [Claude mobile app](/docs/en/mobile) |
 | Run Claude on a recurring schedule                                              | [Routines](/docs/en/routines) or [Desktop scheduled tasks](/docs/en/desktop-scheduled-tasks)                            |
 | Automate PR reviews and issue triage                                            | [GitHub Actions](/docs/en/github-actions) or [GitLab CI/CD](/docs/en/gitlab-ci-cd)                                      |
-| Get automatic code review on every PR                                           | [GitHub Code Review](/docs/en/code-review)                                                                              |
-| Route bug reports from Slack to pull requests                                   | [Slack](/docs/en/slack)                                                                                                 |
-| Debug live web applications                                                     | [Chrome](/docs/en/chrome)                                                                                               |
-| Build custom agents for your own workflows                                      | [Agent SDK](/docs/en/agent-sdk/overview)                                                                                |
+| Get automatic code review on every PR                                           | [GitHub Code Review](/docs/en/code-review)                                                                         |
+| Route bug reports from Slack to pull requests                                   | [Slack](/docs/en/slack)                                                                                            |
+| Debug live web applications                                                     | [Chrome](/docs/en/chrome)                                                                                          |
+| Build custom agents for your own workflows                                      | [Agent SDK](/docs/en/agent-sdk/overview)                                                                           |
 
 ## Next steps
 
@@ -236,7 +239,7 @@ Once you've installed Claude Code, these guides help you go deeper.
 * [Quickstart](/docs/en/quickstart): walk through your first real task, from exploring a codebase to committing a fix
 * [Store instructions and memories](/docs/en/memory): give Claude persistent instructions with CLAUDE.md files and auto memory
 * [Common workflows](/docs/en/common-workflows) and [best practices](/docs/en/best-practices): patterns for getting the most out of Claude Code
-* [A harness for every task](https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code): how the Claude Code team uses [dynamic workflows](/docs/en/workflows) to orchestrate subagents at scale
+* [A harness for every task](https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code): how the Claude Code team uses [dynamic workflows](/docs/en/workflows) to orchestrate many subagents at once
 * [Settings](/docs/en/settings): customize Claude Code for your workflow
 * [Troubleshooting](/docs/en/troubleshooting): solutions for common issues
 * [code.claude.com](https://code.claude.com/): demos, pricing, and product details
