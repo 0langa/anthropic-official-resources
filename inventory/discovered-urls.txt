@@ -68,6 +68,7 @@ http://claude.ai/redirect/website.v1.24267f76-3063-43e0-9113-1a4a7391d4c8
 http://claude.ai/redirect/website.v1.27f37dd7-96cb-48a3-95ab-7fe4ee357926
 http://claude.ai/redirect/website.v1.27f37dd7-96cb-48a3-95ab-7fe4ee357926/interviewer
 http://claude.ai/redirect/website.v1.2abace89-47cb-4d84-ab0a-fb8d83a98fdf
+http://claude.ai/redirect/website.v1.30b1b1cd-dc3f-4327-9a94-a0ed71a1e8a5
 http://claude.ai/redirect/website.v1.39cfe83b-2144-4b05-8008-f2c3eb39e6ed
 http://claude.ai/redirect/website.v1.39cfe83b-2144-4b05-8008-f2c3eb39e6ed/admin-settings/claude-in-slack
 http://claude.ai/redirect/website.v1.39cfe83b-2144-4b05-8008-f2c3eb39e6ed/code

@@ -1,7 +1,7 @@
 {
   "https://academy.claude.com/": {
     "attempts": 1,
-    "checked_at": 1788048742,
+    "checked_at": 1788054074,
     "http_status": 200,
     "message": "HTML content and available panels extracted",
     "status": "complete"
@@ -1520,7 +1520,7 @@
   },
   "https://academy.claude.com/courses/claude-code-101/how-claude-code-works": {
     "attempts": 1,
-    "checked_at": 1788048754,
+    "checked_at": 1788054084,
     "http_status": 200,
     "message": "HTML content and available panels extracted",
     "status": "complete"
@@ -3501,7 +3501,7 @@
   },
   "https://academy.claude.com/tutorials/building-a-powerpoint-with-claude": {
     "attempts": 1,
-    "checked_at": 1788048761,
+    "checked_at": 1788054090,
     "http_status": 200,
     "message": "HTML content and available panels extracted",
     "status": "complete"
@@ -3795,7 +3795,7 @@
   },
   "https://claude.com/blog/best-practices-for-prompt-engineering": {
     "attempts": 1,
-    "checked_at": 1788048744,
+    "checked_at": 1788054075,
     "http_status": 200,
     "message": "HTML content and available panels extracted",
     "status": "complete"
@@ -6196,7 +6196,7 @@
   },
   "https://code.claude.com/docs/en/overview": {
     "attempts": 1,
-    "checked_at": 1788048746,
+    "checked_at": 1788054076,
     "http_status": 200,
     "message": "Native Markdown validated",
     "status": "complete"
@@ -6770,7 +6770,7 @@
   },
   "https://platform.claude.com/cookbook/capabilities-classification-guide": {
     "attempts": 1,
-    "checked_at": 1788048747,
+    "checked_at": 1788054078,
     "http_status": 200,
     "message": "HTML content and available panels extracted",
     "status": "complete"
@@ -12195,7 +12195,7 @@
   },
   "https://platform.claude.com/docs/en/get-started": {
     "attempts": 1,
-    "checked_at": 1788048754,
+    "checked_at": 1788054084,
     "http_status": 200,
     "message": "Native Markdown validated",
     "status": "complete"
@@ -13098,7 +13098,7 @@
   },
   "https://support.claude.com/en/articles/10065433-install-claude-desktop": {
     "attempts": 1,
-    "checked_at": 1788048748,
+    "checked_at": 1788054079,
     "http_status": 200,
     "message": "Native Markdown validated",
     "status": "complete"
@@ -16017,7 +16017,7 @@
   },
   "https://www.anthropic.com/engineering/building-effective-agents": {
     "attempts": 1,
-    "checked_at": 1788048750,
+    "checked_at": 1788054080,
     "http_status": 200,
     "message": "HTML content and available panels extracted",
     "status": "complete"
@@ -18215,7 +18215,7 @@
   },
   "https://www.anthropic.com/research/AI-assistance-coding-skills": {
     "attempts": 1,
-    "checked_at": 1788048758,
+    "checked_at": 1788054088,
     "http_status": 200,
     "message": "HTML content and available panels extracted",
     "status": "complete"

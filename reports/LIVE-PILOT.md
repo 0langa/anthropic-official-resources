@@ -10,7 +10,7 @@ Passed: **10/10**
 | Academy lesson and transcript | PASS | 13270 | https://academy.claude.com/courses/claude-code-101/how-claude-code-works |
 | Academy tutorial | PASS | 766 | https://academy.claude.com/tutorials/building-a-powerpoint-with-claude |
 | Help Center article | PASS | 6782 | https://support.claude.com/en/articles/10065433-install-claude-desktop |
-| Cookbook | PASS | 36847 | https://platform.claude.com/cookbook/capabilities-classification-guide |
+| Cookbook | PASS | 36820 | https://platform.claude.com/cookbook/capabilities-classification-guide |
 | Engineering | PASS | 21456 | https://www.anthropic.com/engineering/building-effective-agents |
 | Research | PASS | 16534 | https://www.anthropic.com/research/AI-assistance-coding-skills |
 | Claude blog | PASS | 28298 | https://claude.com/blog/best-practices-for-prompt-engineering |
