@@ -16,7 +16,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 from archive_http import HTTP, FetchError, Response, retry_delay
 from extraction import extract_html, validate_markdown
 from mirror import Archive, digest, dump, local_path, normalize, verify, write
-from pipeline import Runner, cleanup, exclusive_run, repair_checkout_line_endings
+from pipeline import Runner, cleanup, exclusive_run, reconcile_optional_partial_states, repair_checkout_line_endings
 from scope import is_english_url
 
 
@@ -274,6 +274,20 @@ class HttpIntegrationTests(unittest.TestCase):
 
 
 class PipelineIntegrationTests(unittest.TestCase):
+    def test_reconcile_known_optional_dependency_partial(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);a=archive(root,"https://claude.com");url="https://claude.com/blog/example"
+            a.accept(url,"# Retained copy\n"+PARAGRAPH,url)
+            dependency="https://a-cdn.anthropic.com/analytics.js/v1/example/analytics.min.js"
+            state={url:{"status":"partial","message":"Content dependencies blocked by scope or robots policy: "+dependency}}
+            a.errors[url]=state[url]["message"]
+            self.assertEqual(reconcile_optional_partial_states(a,state),1)
+            self.assertEqual(state[url]["status"],"complete")
+            self.assertNotIn(url,a.errors)
+            substantive="https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html"
+            state[url]={"status":"partial","message":"Content dependencies blocked by scope or robots policy: "+substantive}
+            self.assertEqual(reconcile_optional_partial_states(a,state),0)
+            self.assertEqual(state[url]["status"],"partial")
     def test_native_markdown_and_header_language_guard(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory);a=archive(root,"https://platform.claude.com")

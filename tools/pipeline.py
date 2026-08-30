@@ -70,6 +70,25 @@ def remove_record(archive, url):
     archive.errors.pop(url, None)
 
 
+def reconcile_optional_partial_states(archive, state):
+    """Clear dependency-only partial notes when every dependency is now known optional."""
+    from browser_render import optional_embed
+    prefix = "Content dependencies blocked by scope or robots policy: "
+    reconciled = 0
+    for url, item in state.items():
+        message = item.get("message", "")
+        if item.get("status") != "partial" or url not in archive.records or not message.startswith(prefix):
+            continue
+        dependencies = [value.strip() for value in message[len(prefix):].split(",") if value.strip()]
+        if not dependencies or not all(optional_embed(value) for value in dependencies):
+            continue
+        item["status"] = "complete"
+        item["message"] = "Known optional media, widget, or analytics dependencies omitted."
+        archive.errors.pop(url, None)
+        reconciled += 1
+    return reconciled
+
+
 def cleanup(archive):
     """Remove non-English/out-of-scope pages; Git history remains untouched."""
     before = set(archive.discovered)
@@ -106,6 +125,10 @@ def cleanup(archive):
                     continue
                 cleaned.setdefault(url, value)
             dump(path, cleaned)
+    state_path = archive.root / "inventory/page-state.json"
+    page_state = read_json(state_path)
+    reconciled_optional_partials = reconcile_optional_partial_states(archive, page_state)
+    dump(state_path, page_state)
     # Remove stale query snapshots only when no surviving manifest record
     # references their content/HTML directory. Query directories are generated
     # output; KEEP still blocks removal.
@@ -161,6 +184,7 @@ def cleanup(archive):
               "removed_noncanonical_records": len(noncanonical_records),
               "removed_out_of_scope_records": len(out_of_scope_records),
               "removed_orphan_query_files": removed_orphan_query_files,
+              "reconciled_optional_partial_states": reconciled_optional_partials,
               "normalized_duplicate_urls": len(before) - sum(not is_english_url(u) for u in before) - len(archive.discovered),
               "removed_archived_pages": len(removed_records), "removed_orphan_files": deleted_files,
               "english_candidate_pages": report["discovered_pages"], "archived_pages": report["archived_pages"]}

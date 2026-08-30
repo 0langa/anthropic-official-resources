@@ -5687,15 +5687,15 @@
     "attempts": 5,
     "checked_at": 1788063747,
     "http_status": 304,
-    "message": "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js",
-    "status": "partial"
+    "message": "Known optional media, widget, or analytics dependencies omitted.",
+    "status": "complete"
   },
   "https://claude.com/blog/": {
     "attempts": 5,
     "checked_at": 1788063802,
     "http_status": 200,
-    "message": "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js",
-    "status": "partial"
+    "message": "Known optional media, widget, or analytics dependencies omitted.",
+    "status": "complete"
   },
   "https://claude.com/blog/1m-context": {
     "attempts": 2,
@@ -5876,8 +5876,8 @@
     "attempts": 5,
     "checked_at": 1788063752,
     "http_status": 304,
-    "message": "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js",
-    "status": "partial"
+    "message": "Known optional media, widget, or analytics dependencies omitted.",
+    "status": "complete"
   },
   "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government": {
     "attempts": 2,
@@ -5911,8 +5911,8 @@
     "attempts": 7,
     "checked_at": 1788063724,
     "http_status": 304,
-    "message": "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js",
-    "status": "partial"
+    "message": "Known optional media, widget, or analytics dependencies omitted.",
+    "status": "complete"
   },
   "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp": {
     "attempts": 2,
@@ -6814,8 +6814,8 @@
     "attempts": 5,
     "checked_at": 1788063759,
     "http_status": 304,
-    "message": "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js",
-    "status": "partial"
+    "message": "Known optional media, widget, or analytics dependencies omitted.",
+    "status": "complete"
   },
   "https://claude.com/blog/integrations": {
     "attempts": 2,
@@ -6863,15 +6863,15 @@
     "attempts": 5,
     "checked_at": 1788063765,
     "http_status": 304,
-    "message": "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js",
-    "status": "partial"
+    "message": "Known optional media, widget, or analytics dependencies omitted.",
+    "status": "complete"
   },
   "https://claude.com/blog/key-benefits-transitioning-agentic-coding": {
     "attempts": 5,
     "checked_at": 1788063773,
     "http_status": 304,
-    "message": "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js",
-    "status": "partial"
+    "message": "Known optional media, widget, or analytics dependencies omitted.",
+    "status": "complete"
   },
   "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills": {
     "attempts": 2,
@@ -6989,8 +6989,8 @@
     "attempts": 5,
     "checked_at": 1788063779,
     "http_status": 304,
-    "message": "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js",
-    "status": "partial"
+    "message": "Known optional media, widget, or analytics dependencies omitted.",
+    "status": "complete"
   },
   "https://claude.com/blog/opus-4-6-finance": {
     "attempts": 2,
@@ -7094,8 +7094,8 @@
     "attempts": 5,
     "checked_at": 1788063787,
     "http_status": 304,
-    "message": "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js",
-    "status": "partial"
+    "message": "Known optional media, widget, or analytics dependencies omitted.",
+    "status": "complete"
   },
   "https://claude.com/blog/seeing-like-an-agent": {
     "attempts": 2,
@@ -7290,8 +7290,8 @@
     "attempts": 5,
     "checked_at": 1788063793,
     "http_status": 304,
-    "message": "Content dependencies blocked by scope or robots policy: https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js",
-    "status": "partial"
+    "message": "Known optional media, widget, or analytics dependencies omitted.",
+    "status": "complete"
   },
   "https://claude.com/blog/whats-new-in-claude-managed-agents": {
     "attempts": 2,
