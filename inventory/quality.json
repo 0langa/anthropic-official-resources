@@ -48,15 +48,16 @@
     "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
     "https://www.anthropic.com/research/anthropic-interviewer",
     "https://www.anthropic.com/research/attack-navigator",
+    "https://www.anthropic.com/research/claude-fable-5-mythos-5",
     "https://www.anthropic.com/research/claude-opus-5",
     "https://www.anthropic.com/research/claude-values-models-languages"
   ],
   "statuses": {
     "blocked": 3,
-    "complete": 3691,
+    "complete": 3690,
     "gone": 57,
     "out_of_scope": 26,
-    "partial": 46
+    "partial": 47
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/dashboard",
@@ -274,6 +275,7 @@
     "https://www.anthropic.com/research/anthropic-interviewer",
     "https://www.anthropic.com/research/anthropic.com/research/anthropic-economic-index-january-2026-report",
     "https://www.anthropic.com/research/attack-navigator",
+    "https://www.anthropic.com/research/claude-fable-5-mythos-5",
     "https://www.anthropic.com/research/claude-opus-5",
     "https://www.anthropic.com/research/claude-values-models-languages",
     "https://www.anthropic.com/research/cqz@anthropic.com",
