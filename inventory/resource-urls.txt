@@ -3073,6 +3073,7 @@ https://support.claude.com/en/articles/16608069-understanding-your-claude-api-in
 https://support.claude.com/en/articles/16634237-claude-team-plan-for-scientists
 https://support.claude.com/en/articles/16635803
 https://support.claude.com/en/articles/16635803-set-up-browser-use-in-claude-cowork-for-team-and-enterprise-plans
+https://support.claude.com/en/articles/16764810-assign-a-program-to-workspaces-in-claude-console
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer
@@ -3491,6 +3492,7 @@ https://www.anthropic.com/news/higher-limits-spacex
 https://www.anthropic.com/news/how-ai-is-transforming-work-at-anthropic
 https://www.anthropic.com/news/how-anthropic-teams-use-claude-code
 https://www.anthropic.com/news/how-people-use-claude-for-support-advice-and-companionship
+https://www.anthropic.com/news/improving-alignment-security-efforts
 https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards
 https://www.anthropic.com/news/introducing-anthropic-labs
 https://www.anthropic.com/news/introducing-anthropic-transparency-hub

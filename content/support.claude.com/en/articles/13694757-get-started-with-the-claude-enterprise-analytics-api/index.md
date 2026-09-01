@@ -19,9 +19,9 @@ Anthropic provides two analytics APIs, and which one you use depends on which Cl
 
 The two APIs use different key types, created in different places by different roles. This page describes which API fits your organization and how to create the right key.
 
-##  Which API do you need?
+## Which API do you need?
 
-<table class="w-full border-collapse"><thead class=""><tr class="border-b-0.5 last:border-b-0"><th class="p-2 pt-0 first:pl-0 last:pr-0 text-left font-semibold text-primary border-b-0.5">API</th><th class="p-2 pt-0 first:pl-0 last:pr-0 text-left font-semibold text-primary border-b-0.5">Key type</th><th class="p-2 pt-0 first:pl-0 last:pr-0 text-left font-semibold text-primary border-b-0.5">Created in</th><th class="p-2 pt-0 first:pl-0 last:pr-0 text-left font-semibold text-primary border-b-0.5">Who can create it</th><th class="p-2 pt-0 first:pl-0 last:pr-0 text-left font-semibold text-primary border-b-0.5">What it covers</th></tr></thead><tbody class=""><tr class="border-b-0.5 last:border-b-0"><td class="p-2 first:pl-0 last:pr-0 text-secondary"><strong class="font-semibold">Claude Code Analytics API</strong></td><td class="p-2 first:pl-0 last:pr-0 text-secondary">Admin API key (<code class="relative inline bg-neutral-30 px-2 py-0.5 rounded text-body font-mono break-words box-decoration-clone">sk-ant-admin01-...</code>)</td><td class="p-2 first:pl-0 last:pr-0 text-secondary"><a class="inline-link" href="https://platform.claude.com/settings/admin-keys" rel="noopener noreferrer" target="_blank">Claude Console &gt; Settings &gt; Admin keys</a></td><td class="p-2 first:pl-0 last:pr-0 text-secondary">Organization admin</td><td class="p-2 first:pl-0 last:pr-0 text-secondary">Daily Claude Code metrics per user: sessions, lines of code, commits, pull requests, tool acceptance, and estimated cost by model</td></tr><tr class="border-b-0.5 last:border-b-0"><td class="p-2 first:pl-0 last:pr-0 text-secondary"><strong class="font-semibold">Claude Enterprise Analytics API</strong></td><td class="p-2 first:pl-0 last:pr-0 text-secondary">Analytics API key</td><td class="p-2 first:pl-0 last:pr-0 text-secondary"><a class="inline-link" href="https://claude.ai/admin-settings/api-access" rel="noopener noreferrer" target="_blank">claude.ai &gt; Organization settings &gt; API</a></td><td class="p-2 first:pl-0 last:pr-0 text-secondary">Primary owner</td><td class="p-2 first:pl-0 last:pr-0 text-secondary">Organization-wide engagement and adoption (user activity, active-user summaries, project, skill, and connector usage), plus cost and usage reports</td></tr></tbody></table>
+<table><thead><tr><th>API</th><th>Key type</th><th>Created in</th><th>Who can create it</th><th>What it covers</th></tr></thead><tbody><tr><td class=""><strong>Claude Code Analytics API</strong></td><td class="">Admin API key (<code>sk-ant-admin01-...</code>)</td><td class=""><a href="https://platform.claude.com/settings/admin-keys" rel="noopener noreferrer" target="_blank">Claude Console &gt; Settings &gt; Admin keys</a></td><td class="whitespace-nowrap [&amp;_code]:whitespace-nowrap">Organization admin</td><td class="">Daily Claude Code metrics per user: sessions, lines of code, commits, pull requests, tool acceptance, and estimated cost by model</td></tr><tr><td class=""><strong>Claude Enterprise Analytics API</strong></td><td class="whitespace-nowrap [&amp;_code]:whitespace-nowrap">Analytics API key</td><td class=""><a href="https://claude.ai/admin-settings/api-access" rel="noopener noreferrer" target="_blank">claude.ai &gt; Organization settings &gt; API</a></td><td class="whitespace-nowrap [&amp;_code]:whitespace-nowrap">Primary owner</td><td class="">Organization-wide engagement and adoption (user activity, active-user summaries, project, skill, and connector usage), plus cost and usage reports</td></tr></tbody></table>
 
 The key types are not interchangeable: an Admin API key cannot call the Claude Enterprise Analytics API, and an Analytics API key cannot call the Admin API. Both APIs appear under the [Admin API reference](https://platform.claude.com/docs/en/api/admin), but they are separate APIs with separate key types. If your organization uses both the Claude Platform and Claude Enterprise, you can provision both keys and use each API for its own data.
 
@@ -33,18 +33,18 @@ Looking for API usage and cost data rather than product analytics? See the [Usag
 
 If you want to view engagement and adoption data in the product rather than programmatically, use the [Analytics dashboard](https://claude.ai/analytics/activity) in claude.ai. For governance and auditing use cases (individual user actions, raw activity events, conversation content), see the [Compliance API](https://platform.claude.com/docs/en/manage-claude/compliance-api-access).
 
-##  Get access to the Claude Code Analytics API
+## Get access to the Claude Code Analytics API
 
 The Claude Code Analytics API is available to every organization with access to the [Admin API](https://platform.claude.com/docs/en/manage-claude/admin-api), and is free to use.
 
 1. 1
 
-   Create an Admin API key
+   ### Create an Admin API key
 
    Follow the steps in [Create an Admin API key](https://platform.claude.com/docs/en/manage-claude/admin-api-keys).
 2. 2
 
-   Call the API
+   ### Call the API
 
    Pass the key in the `x-api-key` header:
 
@@ -58,23 +58,23 @@ The Claude Code Analytics API is available to every organization with access to 
 
 For the available metrics, request parameters, and response schema, see the [Claude Code Analytics API guide](https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api) and the [API reference](https://platform.claude.com/docs/en/api/admin/usage_report/retrieve_claude_code).
 
-##  Get access to the Claude Enterprise Analytics API
+## Get access to the Claude Enterprise Analytics API
 
 The Claude Enterprise Analytics API is available to Claude Enterprise organizations. Engagement and adoption data is available on all Enterprise plans. The cost and usage endpoints apply to usage-based Enterprise plans; for seat-based Enterprise plans, they reflect usage credits only.
 
 1. 1
 
-   Sign in as the primary owner
+   ### Sign in as the primary owner
 
    Only the primary owner of the organization can enable API access and create Analytics API keys.
 2. 2
 
-   Enable API access and create a key
+   ### Enable API access and create a key
 
    Go to [claude.ai > Organization settings > API](https://claude.ai/admin-settings/api-access) and enable public API access, then create an Analytics API key. Keys carry the `read:analytics` scope. Copy the displayed secret and store it in your secrets manager.
 3. 3
 
-   Call the API
+   ### Call the API
 
    Pass the key in the `x-api-key` header. Endpoints live under `https://api.anthropic.com/v1/organizations/analytics/`. For request examples, parameters, and response schemas, see the [Claude Enterprise Analytics API reference](https://platform.claude.com/docs/en/api/admin/analytics).
 
@@ -87,7 +87,7 @@ The Claude Enterprise Analytics API provides:
 
 For endpoint details, parameters, and response schemas, see the [Claude Enterprise Analytics API reference](https://platform.claude.com/docs/en/api/admin/analytics). The following sections cover data freshness, metric definitions, and operational guidance that apply across those endpoints.
 
-##  Data availability and freshness
+## Data availability and freshness
 
 Claude Enterprise Analytics API data is available for dates on or after January 1, 2026.
 
@@ -99,7 +99,7 @@ Claude Enterprise Analytics API data is available for dates on or after January 
 
 Cost and usage responses include a `data_refreshed_at` timestamp. When `ending_at` is omitted (the default is the current time), the response includes a tail of data after `data_refreshed_at` that is incomplete. For stable results across repeated calls, set `ending_at` to a value at or before a previously returned `data_refreshed_at`.
 
-##  How metrics are defined
+## How metrics are defined
 
 **Active users.** A user counts as active for a day if any of the following is true: they sent at least one chat message in Claude, they had at least one Claude Code session (local or remote) associated with your Claude Enterprise organization that included tool use or git activity, or they had at least one Cowork session with tool use or message activity.
 
@@ -107,7 +107,7 @@ Cost and usage responses include a `data_refreshed_at` timestamp. When `ending_a
 
 **Connector names.** Connector names are normalized across sources. For example, `Atlassian MCP server`, `mcp-atlassian`, and `atlassian_MCP` all appear as `atlassian` in the connector usage endpoint.
 
-##  Working with the API
+## Working with the API
 
 **Pagination cursors are bound to the query that issued them.** On the cost and usage endpoints, do not change query parameters mid-sequence: if you change `products[]`, `group_by[]`, `order_by`, the date range, or any filter and pass an old cursor, the request returns a 400 error. To change parameters, restart from the first page without a cursor.
 
@@ -117,11 +117,11 @@ Cost and usage responses include a `data_refreshed_at` timestamp. When `ending_a
 
 **Rate limits apply at the organization level**, not per key, with a default of 60 requests per minute across all endpoints in this API. If that is not sufficient for your use case, contact your Anthropic account team to discuss adjusting the limit.
 
-##  Known limitations
+## Known limitations
 
 If your organization uses Claude Code through Amazon Bedrock, the Claude Enterprise Analytics API does not return Claude Code activity for that usage.
 
-##  Next steps
+## Next steps
 
 [Claude Code Analytics API](https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api)
 

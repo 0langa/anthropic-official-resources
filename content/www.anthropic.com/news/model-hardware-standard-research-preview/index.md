@@ -89,6 +89,10 @@ We thank everyone who has contributed to this work so far, including, but not li
 
 ## Related content
 
+### Improving our alignment and security efforts
+
+[Read more](https://www.anthropic.com/news/improving-alignment-security-efforts)
+
 ### Expanding our support for scientists
 
 Starting today, 10,000 scientists around the world can get Claude at no cost to start. Verified principal investigators qualify for a Claude Team subscription plan and then add their research team to Standard seats for free, or Premium seats for $15 per month, for up to a year.
@@ -100,9 +104,3 @@ Starting today, 10,000 scientists around the world can get Claude at no cost to 
 We’re launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.
 
 [Read more](https://www.anthropic.com/news/wellbeing-research-grants)
-
-### How Claude’s text watermark works
-
-In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.
-
-[Read more](https://www.anthropic.com/news/claude-text-watermark)

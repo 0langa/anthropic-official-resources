@@ -296,6 +296,8 @@ You can also set `ANTHROPIC_CUSTOM_HEADERS` in the `env` block of a settings fil
 }
 ```
 
+Routing and tenant header names like these count as [headers that need approval](/docs/en/server-managed-settings#environment-variables-and-the-approval-dialog). When the headers come from a project settings file, Claude Code applies them under the [rules for when it applies `env` values](/docs/en/settings-reference#when-claude-code-applies-env-values).
+
 ### Add gateway models to the model picker
 
 With model discovery enabled, Claude Code queries the gateway for its model list at startup and adds those names to the `/model` picker alongside the built-in entries. If you or your administrator set `replaceBuiltInOptions` in a [`modelPicker`](/docs/en/settings-reference#modelpicker) lineup, Claude Code hides the discovered names too. It keeps a row for the model the session is already using.
@@ -349,7 +351,9 @@ The helper is any shell command that prints the current credential to stdout. Cl
   </Tab>
 </Tabs>
 
-Claude Code caches the helper's output for five minutes by default and re-runs it when a request returns HTTP 401. To change the cache lifetime, set `CLAUDE_CODE_API_KEY_HELPER_TTL_MS` in milliseconds, for example `CLAUDE_CODE_API_KEY_HELPER_TTL_MS=900000` for 15 minutes.
+Claude Code caches the helper's output for five minutes by default and re-runs the helper after the cache lifetime elapses. To change the lifetime, set `CLAUDE_CODE_API_KEY_HELPER_TTL_MS` in milliseconds, for example `CLAUDE_CODE_API_KEY_HELPER_TTL_MS=900000` for 15 minutes.
+
+See [`apiKeyHelper`](/docs/en/settings-reference#apikeyhelper) for the other cases in which Claude Code re-runs the helper.
 
 The helper's value is sent in both the `Authorization` and `x-api-key` headers, so it works whichever header your gateway reads.
 

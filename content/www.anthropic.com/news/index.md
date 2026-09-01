@@ -4,7 +4,7 @@
 - Non-media inquiries[How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)
 - Media assets[Download press kit](https://anthropic.com/press-kit)
 
-![Previewing the Model Hardware Standard](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5008271abbababe59f4fbb01998697f7dd0b5b60-1280x720.jpg&w=3840&q=75)
+![Previewing the Model Hardware Standard](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4f4a9cb2998f860f4fe6055b07d32a5edd7036cc-1280x720.jpg&w=3840&q=75)
 
 [## Previewing the Model Hardware Standard
 
@@ -36,6 +36,9 @@ Search
 
 DateCategoryTitle
 
+- [Aug 31, 2026
+
+  Improving our alignment and security efforts](https://www.anthropic.com/news/improving-alignment-security-efforts)
 - [Aug 27, 2026Announcements
 
   Previewing the Model Hardware Standard](https://www.anthropic.com/news/model-hardware-standard-research-preview)
@@ -63,8 +66,7 @@ DateCategoryTitle
 - [Jul 27, 2026Announcements
 
   Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients](https://www.anthropic.com/news/cognizant-anthropic)
-- [Jul 24, 2026Product
-
-  Introducing Claude Opus 5](https://www.anthropic.com/news/claude-opus-5)
 
 [See more](https://www.anthropic.com/news)
+
+![Improving our alignment and security efforts](https://www-cdn.anthropic.com/images/4zrzovbb/website/6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)

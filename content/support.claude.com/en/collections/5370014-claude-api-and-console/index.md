@@ -2,11 +2,11 @@
 
 Build with the Claude API and manage keys, usage, and billing in the Console.
 
-37 articles
+38 articles
 
 ## Collections
 
-[Using the Claude API and Console15 articles](https://support.claude.com/en/collections/9811457-using-the-claude-api-and-console)
+[Using the Claude API and Console16 articles](https://support.claude.com/en/collections/9811457-using-the-claude-api-and-console)
 
 [Claude API Usage and Best Practices6 articles](https://support.claude.com/en/collections/9811458-claude-api-usage-and-best-practices)
 

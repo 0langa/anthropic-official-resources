@@ -27,6 +27,11 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
+    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
     "url": "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js"
   },
   {
@@ -67,12 +72,12 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
-    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"
   },
   {
     "reason": "optional_media_widget_or_analytics",
-    "type": "script",
-    "url": "https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"
+    "type": "stylesheet",
+    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.696fc825458d8f0b3c8da7fc.f6b9c98d7.min.css"
   },
   {
     "reason": "optional_media_widget_or_analytics",
@@ -98,6 +103,11 @@
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
     "url": "https://a-cdn.anthropic.com/analytics.js/v1/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/analytics.min.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://assets.claude.ai/sdk/antalytics/latest.umd.js"
   },
   {
     "reason": "optional_media_widget_or_analytics",
@@ -147,6 +157,11 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
+    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
     "url": "https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js"
   },
   {
@@ -167,12 +182,12 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
-    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"
   },
   {
     "reason": "optional_media_widget_or_analytics",
-    "type": "script",
-    "url": "https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"
+    "type": "stylesheet",
+    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.696fc825458d8f0b3c8da7fc.f6b9c98d7.min.css"
   },
   {
     "reason": "optional_media_widget_or_analytics",

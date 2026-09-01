@@ -12,7 +12,7 @@ Learn when prompt engineering is the right solution, and find Claude prompting t
 
 
 
-##  Before prompt engineering
+## Before prompt engineering
 
 This guide assumes that you have:
 
@@ -36,14 +36,14 @@ For model-specific tuning guidance for Claude's latest models, start here.
 
 ---
 
-##  When to prompt engineer
+## When to prompt engineer
 
 This guide focuses on success criteria that are controllable through prompt engineering.
 Not every success criteria or failing eval is best solved by prompt engineering. For example, you can sometimes improve latency and cost more easily by selecting a different model.
 
 ---
 
-##  How to prompt engineer
+## How to prompt engineer
 
 All prompting techniques (from clarity and examples to XML structuring, role prompting, thinking, and prompt chaining) are covered in [Prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices). That's the living reference; start there.
 
@@ -51,7 +51,7 @@ For general prompt engineering craft beyond Claude-specific techniques, see the 
 
 ---
 
-##  Prompt engineering tutorial
+## Prompt engineering tutorial
 
 If you're an interactive learner, you can start with the interactive tutorials instead!
 

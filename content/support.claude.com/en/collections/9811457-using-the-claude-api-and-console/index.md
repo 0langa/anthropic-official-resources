@@ -1,6 +1,6 @@
 # Using the Claude API and Console
 
-15 articles
+16 articles
 
 [How can I access the Claude API?](https://support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api)
 
@@ -31,3 +31,5 @@
 [Inviting members to the Claude Console](https://support.claude.com/en/articles/13443764-inviting-members-to-the-claude-console)
 
 [Find and join a Console organization](https://support.claude.com/en/articles/14793921-find-and-join-a-console-organization)
+
+[Assign a program to workspaces in Claude Console](https://support.claude.com/en/articles/16764810-assign-a-program-to-workspaces-in-claude-console)
