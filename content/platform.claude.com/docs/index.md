@@ -133,17 +133,17 @@ Choose the right model for your use case.
 
 ![](https://platform.claude.com/images/dashboard-discovery/head.svg)
 
-### [Fable 5](https://platform.claude.com/docs/en/models/fable-5/overview)
+### [Fable 5.1](https://platform.claude.com/docs/en/models/fable-5-1/overview)
+
+New
 
 Most capableResearchMulti-day tasks
 
-Next-generation intelligence for long-running agents
+For demanding reasoning and long-horizon agentic work
 
 ![](https://platform.claude.com/images/dashboard-discovery/cursor.svg)
 
 ### [Opus 5](https://platform.claude.com/docs/en/models/opus-5/overview)
-
-New
 
 Complex projectsAgentsCoding
 
@@ -171,7 +171,7 @@ Resources
 
 
 
-[Courses](https://anthropic.skilljar.com/)
+[Courses](https://academy.claude.com/courses)
 
 Interactive courses to master Claude.
 

@@ -66,7 +66,7 @@ Before conducting a run of an evaluation, evaluation partners should:
 
 Every prompt should state what is in and out of scope for the exercise, including the targets, permitted actions, and network boundaries (i.e. what the model should and shouldn’t access). Boundaries should be phrased as instructions (e.g. “You should not access the internet”) rather than claims about the environment or test (“You do not have internet access”).
 
-### **Real time monitoring**
+### **Real-time monitoring**
 
 Evaluators should also run continuous monitoring over the model’s thinking, actions, and network activity using a model- or rule-based monitor that has been provided with the scope of the exercise. If a run violates this scope, the monitor should flag this to a human and end the exercise.
 
@@ -78,7 +78,7 @@ Containment and monitoring are critical for catching instances in which models t
 
 ### **Environment and state of knowledge of our models during evaluation**
 
-Our alignment assessment is still ongoing, but our preliminary investigation points to two main alignment failures, both of which we’ve described in [previous](https://www-cdn.anthropic.com/57a52ea7d8f0e54e8a542e908266086df425cdf5/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf) system cards. One is motivated reasoning: the models were initially told their environments were simulated, but when they later encountered evidence that they were connected to the real internet, they may have interpreted that evidence in a way that allowed them to maintain that belief. The second is recklessness: the model was willing to take harmful actions on the real internet in pursuit of the narrow goal of solving a cybersecurity evaluation. However, we also believe that the evaluation set up itself contributed to the models’ behavior demonstrated in these incidents. Claude was explicitly told that it had no internet access, despite the internet being available, which may have led it to question whether the systems it saw were real. And in one case, the fictional target shared a name with a real website, making it more difficult to separate what was intended to be in-scope within the exercise.
+Our alignment assessment is still ongoing, but our preliminary investigation points to two main alignment failures, both of which we’ve described in [previous](https://www-cdn.anthropic.com/57a52ea7d8f0e54e8a542e908266086df425cdf5/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf) system cards. One is motivated reasoning: the models were initially told their environments were simulated, but when they later encountered evidence that they were connected to the real internet, they may have interpreted that evidence in a way that allowed them to maintain that belief. The second is recklessness: the model was willing to take harmful actions on the real internet in pursuit of the narrow goal of solving a cybersecurity evaluation. However, we also believe that the evaluation setup itself contributed to the models’ behavior demonstrated in these incidents. Claude was explicitly told that it had no internet access, despite the internet being available, which may have led it to question whether the systems it saw were real. And in one case, the fictional target shared a name with a real website, making it more difficult to separate what was intended to be in-scope within the exercise.
 
 Our conclusions depend on several questions we haven’t fully answered, including the extent to which the models determined they had access to the real internet (even if they didn’t initially know this), whether they knowingly disregarded signs that elements of their environments were real, and whether the fact that in several cases they failed to stop the exercise followed from motivated reasoning. We're applying a range of techniques to answer these questions, including resampling the models while making targeted changes to the environment and using interpretability methods to directly inspect their internal state.
 
@@ -90,7 +90,7 @@ Below we discuss our efforts, going back to several months before the incidents,
 
 We have historically been concerned about RL training environments that incentivize cheating, and have taken various measures to filter out or fix such environments.
 
-In February, we rolled back three days of training on the Mythos Preview reinforcement learning run after seeing signs of reward-hacking (when a model finds ways to fool its training process and earn rewards without completing the assigned task). We noticed the model writing notes to “the reviewer” in its code comments and replies, including on tasks where no reviewer had ever been mentioned—an undesirable generalization from environments where the prompt did include a reviewer. It also kept gaming a reward intended to incentivize honesty by piling on disclaimers or caveats.5 Rolling back the three days let us resume training from a checkpoint before this behavior had been learned, and we made changes to the environments to prevent the model learning them again.
+In February, we rolled back three days of training on the Mythos Preview reinforcement learning run after seeing signs of reward hacking (when a model finds ways to fool its training process and earn rewards without completing the assigned task). We noticed the model writing notes to “the reviewer” in its code comments and replies, including on tasks where no reviewer had ever been mentioned—an undesirable generalization from environments where the prompt did include a reviewer. It also kept gaming a reward intended to incentivize honesty by piling on disclaimers or caveats.5 Rolling back the three days let us resume training from a checkpoint before this behavior had been learned, and we made changes to the environments to prevent the model learning them again.
 
 We have been building tools for monitoring undesirable behaviors models learn in RL since Claude Sonnet 3.7 (which had a propensity to reward hack that we did not detect until late in training). We put significant effort into making sure our tooling evolved with each model generation, from a handful of classifiers to an automated review of all environments before and during training runs, but by spring 2026 that system was under strain. We were producing RL environments at a more rapid pace than ever, faster than our systems could vet them. Flagged environments required a human to adjudicate, and reward hacks and misconfigurations started outpacing our ability to filter or fix them.
 
@@ -104,13 +104,13 @@ However, our efforts have not been perfect. In some cases, we found that human r
 
 We suspect that our heavy investment in quality control of RL environments may have prevented more severe alignment incidents, and conversely that the imperfections in these efforts may have contributed to the incidents we have identified to date.
 
-To see what a model trained without these protections would do, we deliberately trained an Opus-class model on 80 different real RL environments that were either reward-hacked during at least one real training run and identified by monitoring, or were found to be hackable during environment quality review. The resulting model displays a strong motivation to achieve high scores on tasks, and a willingness to perform potentially-harmful actions in pursuit of task success. Our accompanying [Alignment Science blog post](https://alignment.anthropic.com/2026/reward-seeker/) discusses this experiment at greater length, but we summarize it briefly here.
+To see what a model trained without these protections would do, we deliberately trained an Opus-class model on 80 different real RL environments that were either reward-hacked during at least one real training run and identified by monitoring, or were found to be hackable during environment quality review. The resulting model displays a strong motivation to achieve high scores on tasks, and a willingness to perform potentially harmful actions in pursuit of task success. Our accompanying [Alignment Science blog post](https://alignment.anthropic.com/2026/reward-seeker/) discusses this experiment at greater length, but we summarize it briefly here.
 
 We tested the deliberately misaligned model in a range of evaluations, including simulated scenarios that draw on aspects of the UK AISI cybersecurity incidents involving Claude and the OpenAI/Hugging Face incident (we are grateful to OpenAI for sharing details about this publicly). During these evaluations where all tool calls were simulated by another LLM, the model we trained to reward hack displayed a propensity to break out of its simulated sandbox and attack simulated internal and simulated third-party infrastructure. It was also willing to tamper with its own reward function, give advice on the construction of bioweapons to satisfy a grader, and repeatedly try to get around deployment safety monitoring in order to cheat on a task.
 
 We then ran the same cybersecurity simulations on the model as it was before the reward-hacking training, and on several of our publicly available models. None engaged in the same degree of misaligned behaviors. Our conclusion is that the presence of substantial reward hacking in training can cause models to be willing to perform long sequences of potentially harmful real-world actions in pursuit of task success.
 
-We think the substantial investment we made this spring into monitoring and reducing reward hacking is a major reason our production models are unlikely to engage in more dangerous reward seeking. In our accompanying [Alignment Science blog post](https://alignment.anthropic.com/2026/reward-seeker/), we also found evidence that alignment training environments can substantially reduce reward hacking and reward seeking behaviors. But, as evidenced by the incidents we reported on July 30, our process isn’t perfect and our models are not perfectly aligned.
+We think the substantial investment we made this spring into monitoring and reducing reward hacking is a major reason our production models are unlikely to engage in more dangerous reward seeking. In our accompanying [Alignment Science blog post](https://alignment.anthropic.com/2026/reward-seeker/), we also found evidence that alignment training environments can substantially reduce reward hacking and reward-seeking behaviors. But, as evidenced by the incidents we reported on July 30, our process isn’t perfect and our models are not perfectly aligned.
 
 To be clear, we do not believe that cheating in training environments is the sole cause of alignment issues, or even of the specific alignment issues present in our incidents or those of other frontier AI companies. Solving alignment will involve addressing a very wide range of potential problems, and future alignment incidents may involve different behaviors and different causes from those we have seen so far.
 
@@ -135,7 +135,7 @@ We also temporarily reassigned a portion of the company to these efforts. Roughl
 
 Alongside the reallocation of resources towards security, we continued building out containment and monitoring for internal agent use. Our training and evaluation workloads have typically run in sandboxes isolated from our production systems. Since developing Claude Mythos Preview, we have used our models to probe for any weaknesses in those sandboxes. We described our offline monitoring of internal coding agents in our [April alignment risk update](https://www-cdn.anthropic.com/3edfc1a7f947aa81841cf88305cb513f184c36ae/Alignment%20Risk%20Update_%20Claude%20Mythos%20Preview%20(Redacted,%20April%2010).pdf), and our [August Risk Report](https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf) covers that system in more detail, along with the interventions that run alongside it. These include sandboxing or auto-mode classifiers on the most autonomous forms of internal agent use, and automated review of infrastructure code changes before they merge.
 
-What this work missed was evaluations—and third-party evaluations above all. We did monitor some high-risk evaluations including in real-time, but generally we only conducted automated reviews on a sample of transcripts after the fact.
+What this work missed was evaluations—and third-party evaluations above all. We did monitor some high-risk evaluations including in real time, but generally we only conducted automated reviews on a sample of transcripts after the fact.
 
 The July incidents have stressed that the urgency of improving our cybersecurity defenses is even higher than we previously believed. We are redoubling our efforts in this direction and will say more in our next Risk Report.
 
@@ -144,11 +144,15 @@ The July incidents have stressed that the urgency of improving our cybersecurity
 1. We’ve verified the classifier would have flagged the incidents described in our July 30 report.
 2. None of these findings came from our internal dedicated offensive-cyber evaluation suites, which run with no network access at all.
 3. High-risk cyber evaluations include those where Claude is given an ambiguously scoped, offensive task, like penetration testing.
-4. Ultimately, a model that acts outside its intended scope on such a challenge is a problem of alignment; an aligned model should stop or report to humans that the task can’t be completed as specified. We are continuing to train this behavior directly, but a defense in depth approach means not relying on alignment alone.
+4. Ultimately, a model that acts outside its intended scope on such a challenge is a problem of alignment; an aligned model should stop or report to humans that the task can’t be completed as specified. We are continuing to train this behavior directly, but a defense-in-depth approach means not relying on alignment alone.
 5. We’ve publicly discussed two other categories of reward hacking in the [Mythos Preview system card](https://www-cdn.anthropic.com/8b8380204f74670be75e81c820ca8dda846ab289.pdf), including one where the model utilizes low-level computer process data in order to escalate its permissions, and another where it circumvents network restrictions in its training environment to download data that lets it shortcut the assigned task.
 6. These mitigations have not been wholly sufficient; we discuss further instances of training on chain of thought in more detail in our [August Risk Report](https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf), Section 5.2.3.
 
 ## Related content
+
+### Developing Enterprise Frontier Safeguards with our customers
+
+[Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)
 
 ### Previewing the Model Hardware Standard
 
@@ -161,9 +165,3 @@ We’re opening a research preview of the Model Hardware Standard (MHS), a share
 Starting today, 10,000 scientists around the world can get Claude at no cost to start. Verified principal investigators qualify for a Claude Team subscription plan and then add their research team to Standard seats for free, or Premium seats for $15 per month, for up to a year.
 
 [Read more](https://www.anthropic.com/news/expanding-support-for-scientists)
-
-### Funding better evaluations of AI’s impact on wellbeing
-
-We’re launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.
-
-[Read more](https://www.anthropic.com/news/wellbeing-research-grants)

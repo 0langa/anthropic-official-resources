@@ -508,6 +508,12 @@
 
     - [List Organization Rate Limits](/docs/en/api/http/beta/organization/rate_limits/list.md)
 
+  - [Compliance Settings](/docs/en/api/http/beta/organization/compliance_settings.md)
+
+    - [Get Compliance Settings](/docs/en/api/http/beta/organization/compliance_settings/retrieve.md)
+
+    - [Update Compliance Settings](/docs/en/api/http/beta/organization/compliance_settings/update.md)
+
 ## [Admin](/docs/en/api/http/admin.md)
 
 - [Organizations](/docs/en/api/http/admin/organizations.md)

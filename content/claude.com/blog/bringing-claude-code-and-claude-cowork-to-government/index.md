@@ -86,6 +86,18 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+
+Aug 20, 2026
+
+### The Claude Code guide for startups
+
+Claude Code
+
+[The Claude Code guide for startups](https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government)The Claude Code guide for startups
+
+[The Claude Code guide for startups](https://claude.com/blog/claude-code-guide-for-startups)The Claude Code guide for startups
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a90479f5433ec75978f1e8a_Object-Apple.svg)
 
 Aug 28, 2026
@@ -121,18 +133,6 @@ Product announcements
 [Claude in Chrome is generally available](https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government) Claude in Chrome is generally available
 
 [Claude in Chrome is generally available](https://claude.com/blog/claude-in-chrome-generally-available) Claude in Chrome is generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-Native SDLC playbook
-
-Enterprise AI
-
-[The AI-Native SDLC playbook](https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government)The AI-Native SDLC playbook
-
-[The AI-Native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-Native SDLC playbook
 
 ## Transform how your organization operates with Claude
 

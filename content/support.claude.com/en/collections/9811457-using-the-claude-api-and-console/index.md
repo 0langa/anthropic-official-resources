@@ -1,4 +1,4 @@
-# Using the Claude API and Console
+# Use the Claude API and Console
 
 16 articles
 

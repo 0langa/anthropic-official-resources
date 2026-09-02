@@ -1931,6 +1931,15 @@
   "https://platform.claude.com/docs/en/api/beta/organization/api_keys/update": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://platform.claude.com/docs/en/api/beta/organization/compliance_settings": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/compliance_settings/retrieve": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/compliance_settings/update": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
   "https://platform.claude.com/docs/en/api/beta/organization/external_keys": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
@@ -4124,6 +4133,9 @@
   "https://platform.claude.com/docs/en/build-with-claude/pdf-support": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
   "https://platform.claude.com/docs/en/build-with-claude/prompt-caching": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
@@ -4134,6 +4146,9 @@
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-4-8": [
@@ -4460,6 +4475,15 @@
   "https://platform.claude.com/docs/en/managed-agents/webhooks": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://platform.claude.com/docs/en/models/fable-5-1/migration-guide": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/fable-5-1/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
   "https://platform.claude.com/docs/en/models/fable-5/introducing-claude-fable-5-and-claude-mythos-5": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
@@ -4473,6 +4497,9 @@
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://platform.claude.com/docs/en/models/haiku-4-5/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/models/mythos-5-1/overview": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://platform.claude.com/docs/en/models/mythos-5/overview": [
@@ -4527,6 +4554,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5-1": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-3": [
@@ -5741,6 +5771,9 @@
   "https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-5": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-5-or-fable-5-1": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/15402193-restrict-verified-domain-connectors-to-your-enterprise": [
     "Native source; upstream MDX components retained."
   ],
@@ -5754,6 +5787,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/15424964-claude-fable-5-on-your-plan": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/15424964-claude-fable-models-on-your-plan": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/15425695": [
@@ -5913,6 +5949,12 @@
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/16635803-set-up-browser-use-in-claude-cowork-for-team-and-enterprise-plans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/16761192-preserved-thinking-changing-how-the-messages-api-handles-thinking-blocks-to-protect-against-distillation": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/16764810-assign-a-program-to-workspaces-in-claude-console": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [
@@ -6310,11 +6352,9 @@
   ],
   "https://www.anthropic.com/engineering/harness-design-long-running-apps": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
-    "Could not read tab 'Game play': TimeoutError",
     "Could not read tab 'Sprite editor': TimeoutError",
-    "Could not read tab 'AI game design': TimeoutError",
-    "Could not read tab 'AI game design': TimeoutError",
-    "Could not read tab 'Game play': TimeoutError"
+    "Could not read tab 'Sprite editor': TimeoutError",
+    "Could not read tab 'AI game design': TimeoutError"
   ],
   "https://www.anthropic.com/news/analysis-tool": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -6365,21 +6405,24 @@
   ],
   "https://www.anthropic.com/news/claude-opus-4-6": [
     "Could not read tab 'Agentic search': TimeoutError",
-    "Could not read tab 'Reasoning': TimeoutError",
+    "Could not read tab 'Coding': TimeoutError",
     "Could not read tab 'Long-context reasoning': TimeoutError",
-    "Could not read tab 'Multilingual coding': TimeoutError",
-    "Could not read tab 'Long-term coherence': TimeoutError",
+    "Could not read tab 'Cybersecurity': TimeoutError",
     "Could not read tab 'Life sciences': TimeoutError"
+  ],
+  "https://www.anthropic.com/news/claude-opus-4-7": [
+    "Could not read tab 'Biology': TimeoutError",
+    "Could not read tab 'Coding': TimeoutError"
   ],
   "https://www.anthropic.com/news/claude-opus-5": [
     "Could not read tab 'CursorBench': TimeoutError",
-    "Could not read tab 'AA Coding Agent Index': TimeoutError",
-    "Could not read tab 'GDPval-AA v2': TimeoutError",
     "Could not read tab 'OSWorld 2.0': TimeoutError",
-    "Could not read tab 'HLE': TimeoutError",
     "Could not read tab 'AutomationBench': TimeoutError",
-    "Could not read tab 'DeepSearchQA': TimeoutError",
     "Could not read tab 'Cell artifact': TimeoutError"
+  ],
+  "https://www.anthropic.com/news/claude-sonnet-4-5": [
+    "Could not read tab 'Medicine': TimeoutError",
+    "Could not read tab 'STEM': TimeoutError"
   ],
   "https://www.anthropic.com/news/connectors-directory": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -6395,6 +6438,9 @@
   ],
   "https://www.anthropic.com/news/github-copilot": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/news/healthcare-life-sciences": [
+    "Could not read tab 'Key life sciences tasks': TimeoutError"
   ],
   "https://www.anthropic.com/news/introducing-claude-for-education": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -6450,9 +6496,9 @@
     "Could not read tab 'Sales': TimeoutError",
     "Could not read tab 'Visual artists': TimeoutError",
     "Could not read tab 'Craftspeople': TimeoutError",
-    "Could not read tab 'Designers': TimeoutError",
     "Could not read tab 'Filmmakers': TimeoutError",
     "Could not read tab 'Game developers': TimeoutError",
+    "Could not read tab 'Physicists': TimeoutError",
     "Could not read tab 'Chemical engineers': TimeoutError",
     "Could not read tab 'Data scientists': TimeoutError",
     "Could not read tab 'Mechanical engineers': TimeoutError",
@@ -6467,14 +6513,14 @@
     "Could not read tab 'Fluid with Classical EDM': TimeoutError"
   ],
   "https://www.anthropic.com/research/claude-opus-5": [
-    "Could not read tab 'CursorBench': TimeoutError",
+    "Could not read tab 'AA Coding Agent Index': TimeoutError",
     "Could not read tab 'GDPval-AA v2': TimeoutError",
+    "Could not read tab 'HLE': TimeoutError",
+    "Could not read tab 'AutomationBench': TimeoutError",
     "Could not read tab 'DeepSearchQA': TimeoutError",
     "Could not read tab 'Cell artifact': TimeoutError"
   ],
   "https://www.anthropic.com/research/claude-values-models-languages": [
-    "Could not read tab '': TimeoutError",
-    "Could not read tab '': TimeoutError",
     "Could not read tab '': TimeoutError",
     "Could not read tab '': TimeoutError"
   ],

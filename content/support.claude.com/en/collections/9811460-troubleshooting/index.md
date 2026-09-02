@@ -1,4 +1,4 @@
-# Troubleshooting
+# API troubleshooting
 
 5 articles
 

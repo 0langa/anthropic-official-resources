@@ -4,15 +4,19 @@
 - Non-media inquiries[How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)
 - Media assets[Download press kit](https://anthropic.com/press-kit)
 
-![Previewing the Model Hardware Standard](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4f4a9cb2998f860f4fe6055b07d32a5edd7036cc-1280x720.jpg&w=3840&q=75)
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F4zrzovbb%2Fwebsite%2Fd337d7c546fdeabce5d41ecd2b96ea385bb5f223-2880x1620.jpg&w=3840&q=75)
 
-[## Previewing the Model Hardware Standard
+[## Introducing Claude Fable 5.1 and Claude Mythos 5.1
 
-AnnouncementsAug 27, 2026
+[AnnouncementsSep 1, 2026
 
-We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.](https://www.anthropic.com/news/model-hardware-standard-research-preview)
+Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.](https://www.anthropic.com/claude-fable-and-mythos-5-1)](https://www.anthropic.com/claude-fable-and-mythos-5-1)
 
-[AnnouncementsAug 14, 2026
+[AnnouncementsAug 27, 2026
+
+#### Previewing the Model Hardware Standard
+
+We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.](https://www.anthropic.com/news/model-hardware-standard-research-preview)[AnnouncementsAug 14, 2026
 
 #### How Claude’s text watermark works
 
@@ -24,11 +28,7 @@ Opus 5 is a step change improvement for the Opus tier powering long-running agen
 
 #### The Making of Claude Code
 
-The inside story of how Claude Code went from an internal CLI to Anthropic's coding agent, told by researchers, engineers and early users who built it.](https://www.anthropic.com/features/making-of-claude-code)[ProductJun 30, 2026
-
-#### Introducing Claude Sonnet 5
-
-Sonnet 5 delivers frontier performance across coding, agents, and professional work at scale.](https://www.anthropic.com/news/claude-sonnet-5)
+The inside story of how Claude Code went from an internal CLI to Anthropic's coding agent, told by researchers, engineers and early users who built it.](https://www.anthropic.com/features/making-of-claude-code)
 
 ## News
 
@@ -36,6 +36,9 @@ Search
 
 DateCategoryTitle
 
+- [Sep 1, 2026Announcements
+
+  Developing Enterprise Frontier Safeguards with our customers](https://www.anthropic.com/news/enterprise-frontier-safeguards)
 - [Aug 31, 2026
 
   Improving our alignment and security efforts](https://www.anthropic.com/news/improving-alignment-security-efforts)
@@ -63,10 +66,7 @@ DateCategoryTitle
 - [Jul 27, 2026Announcements
 
   Our position on open-weights models](https://www.anthropic.com/news/position-open-weights-models)
-- [Jul 27, 2026Announcements
-
-  Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients](https://www.anthropic.com/news/cognizant-anthropic)
 
 [See more](https://www.anthropic.com/news)
 
-![Improving our alignment and security efforts](https://www-cdn.anthropic.com/images/4zrzovbb/website/6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+![Developing Enterprise Frontier Safeguards with our customers](https://www-cdn.anthropic.com/images/4zrzovbb/website/60d57c0d0bf031e140de678692f7c3ef2d885ce3-1000x1000.svg)

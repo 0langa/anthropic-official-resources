@@ -261,6 +261,18 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+
+Aug 20, 2026
+
+### The Claude Code guide for startups
+
+Claude Code
+
+[The Claude Code guide for startups](https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle)The Claude Code guide for startups
+
+[The Claude Code guide for startups](https://claude.com/blog/claude-code-guide-for-startups)The Claude Code guide for startups
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
 
 Aug 28, 2026
@@ -296,18 +308,6 @@ Enterprise AI
 [The AI-Native SDLC playbook](https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle)The AI-Native SDLC playbook
 
 [The AI-Native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-Native SDLC playbook
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
-
-Aug 11, 2026
-
-### Compliance API coverage extends to Claude Cowork and Claude Code
-
-Enterprise AI
-
-[Compliance API coverage extends to Claude Cowork and Claude Code](https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle)Compliance API coverage extends to Claude Cowork and Claude Code
-
-[Compliance API coverage extends to Claude Cowork and Claude Code](https://claude.com/blog/compliance-api-cowork-and-claude-code)Compliance API coverage extends to Claude Cowork and Claude Code
 
 ## Transform how your organization operates with Claude
 

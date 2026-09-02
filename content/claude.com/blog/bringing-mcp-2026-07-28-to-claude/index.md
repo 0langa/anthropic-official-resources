@@ -42,7 +42,7 @@ Companies across the ecosystem have been building on the new spec alongside the 
 
 Josh Clemm, VP of Engineering
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a689e68f0c0711f4b55978e_intuit-blue.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a689e68f0c0711f4b55978e_intuit-blue.svg)
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a9771254c4225f0bc16623e_intuit-color.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a9771288cd6fb2332ebeabe_intuit-white.svg)
 
 "MCP is the industry standard for connecting AI agents to tools and data, and Intuit is proud to support the new MCP 2026-07-28 spec. The stateless protocol core and extensions framework, including MCP Apps and Tasks, let our technologists and customers build and connect agentic experiences at enterprise scale, and allow Intuit to continue delivering trusted financial intelligence experiences to its 100 million consumers and businesses, wherever they choose to work."
 

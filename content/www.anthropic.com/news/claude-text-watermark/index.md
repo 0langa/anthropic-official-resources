@@ -77,7 +77,7 @@ We’re implementing watermarking to comply with the EU AI Act. Anthropic, along
 
 ### **How do I check if a piece of text was written by Claude?**
 
-We will soon be offering a watermark detection API. We’re in the process of working out the details of its implementation.
+We are releasing a detection API in private preview. It is currently available to eligible organizations as required under EU law (such as regulators, law enforcement, media, fact-checkers, independent researchers, educational organizations, and EU civil society groups). It is also available for enterprises who are similarly obligated to verify watermarking for their own compliance with the Act. We plan to expand access to the detection API over time. You can register interest in access [here](https://forms.gle/9tGA33hPJJwtHsMk9).
 
 ### **What about images and other files?**
 
@@ -109,6 +109,8 @@ AI detection software uses a different method, because the companies that provid
 
 No. A watermark only helps test whether Claude might have produced or processed the content. It doesn’t say anything about ownership or authorship, and doesn’t change a user’s rights under our terms. We only apply the watermark when Claude was involved in processing the content or file.
 
+*Updated Sep 1, 2026:* Provided up to date information on the watermarking detection API.
+
 #### Footnotes
 
 1. Or, you might say, nubilous—which is also a synonym for “obscure.”
@@ -116,7 +118,13 @@ No. A watermark only helps test whether Claude might have produced or processed 
 
 ## Related content
 
+### Developing Enterprise Frontier Safeguards with our customers
+
+[Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)
+
 ### Improving our alignment and security efforts
+
+On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.
 
 [Read more](https://www.anthropic.com/news/improving-alignment-security-efforts)
 
@@ -125,9 +133,3 @@ No. A watermark only helps test whether Claude might have produced or processed 
 We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.
 
 [Read more](https://www.anthropic.com/news/model-hardware-standard-research-preview)
-
-### Expanding our support for scientists
-
-Starting today, 10,000 scientists around the world can get Claude at no cost to start. Verified principal investigators qualify for a Claude Team subscription plan and then add their research team to Standard seats for free, or Premium seats for $15 per month, for up to a year.
-
-[Read more](https://www.anthropic.com/news/expanding-support-for-scientists)

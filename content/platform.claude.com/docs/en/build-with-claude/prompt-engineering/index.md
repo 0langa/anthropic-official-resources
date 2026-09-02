@@ -70,7 +70,3 @@ A lighter-weight version of the prompt engineering tutorial, as an interactive s
 Was this page helpful?
 
 
-
-Prompt engineering overview/
-
-Before prompt engineering
