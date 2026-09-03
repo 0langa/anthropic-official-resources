@@ -73,7 +73,7 @@ The issues uncovered by PVT and automated testing directly shape our efforts to 
 - **Auditing platform use:** As a result of model testing, we have a more granular view into areas where we might need to reinforce our automated enforcement tools with manual audits of potentially violative model prompts. Users confirmed to be engaging in activity that violated our [Usage Policy](https://www.anthropic.com/legal/aup) were offboarded from all Claude services.
 - **Training our automated policy enforcement tooling:** Our automated enforcement tooling includes a fine-tuned version of Claude that evaluates model prompts and completions against our [Usage Policy](https://www.anthropic.com/legal/aup) in real-time. That evaluation then informs subsequent automated or manual enforcement actions.
 - **Updating our automated policy enforcement tooling:** As we refine our [Usage Policy](https://www.anthropic.com/legal/aup) based on insights from Policy Vulnerability Testing, we regularly retrain our automated enforcement tooling. This helps keep it aligned with our current policies, improving its ability to identify content that may violate our policies.
-- **Detecting and redirecting elections-related queries:** We also bolster our fine-tuning efforts to refer people to authoritative sources with our automated enforcement tooling. When our tooling detects that a user might be asking time-sensitive questions about elections on [claude.ai](http://claude.ai/redirect/website.v1.775f3bcc-7818-459d-af9a-593c8f989c7a), we serve a pop-up banner offering to redirect US-based users to [TurboVote](https://anthropic.turbovote.org/) (a resource from the nonpartisan organization [Democracy Works](https://www.democracy.works/)), and EU-based voters to [instructions from the European Parliament](https://elections.europa.eu/en/).
+- **Detecting and redirecting elections-related queries:** We also bolster our fine-tuning efforts to refer people to authoritative sources with our automated enforcement tooling. When our tooling detects that a user might be asking time-sensitive questions about elections on [claude.ai](http://claude.ai/redirect/website.v1.30830eac-c032-4155-ae1a-92fc6e003464), we serve a pop-up banner offering to redirect US-based users to [TurboVote](https://anthropic.turbovote.org/) (a resource from the nonpartisan organization [Democracy Works](https://www.democracy.works/)), and EU-based voters to [instructions from the European Parliament](https://elections.europa.eu/en/).
 
 ## We also use these testing methods to measure the efficacy of our interventions
 
@@ -91,7 +91,7 @@ To evaluate whether this change had a positive effect, we used an automated eval
 
 ### Case Study #3: Fine-tuning intervention improves model suggestions to refer to authoritative sources
 
-The testing outlined above also informed our second priority mitigation: models should refer people to authoritative sources when asked about questions that may lead to outdated or inaccurate information. We did this both through model fine-tuning, as well as changes to our [claude.ai](http://claude.ai/redirect/website.v1.775f3bcc-7818-459d-af9a-593c8f989c7a) user interface.
+The testing outlined above also informed our second priority mitigation: models should refer people to authoritative sources when asked about questions that may lead to outdated or inaccurate information. We did this both through model fine-tuning, as well as changes to our [claude.ai](http://claude.ai/redirect/website.v1.30830eac-c032-4155-ae1a-92fc6e003464) user interface.
 
 To evaluate the efficacy of our fine-tuning intervention, we compared a legacy version of our model that was not fine-tuned to refer people to reliable sources (Claude 2) and one that was (Claude 3 Opus). We did this using an automated evaluation for accuracy on EU election information, and also calculated how often the model referred people to reliable sources when appropriate. We find that the fine-tuning led to a 10.4% improvement in how often the model refers people to authoritative sources of information in questions where it is appropriate to do so.
 
@@ -110,7 +110,13 @@ This process provides us with a more comprehensive understanding of our models t
 
 ## Related content
 
+### Developing Enterprise Frontier Safeguards with our customers
+
+[Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)
+
 ### Improving our alignment and security efforts
+
+On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.
 
 [Read more](https://www.anthropic.com/news/improving-alignment-security-efforts)
 
@@ -119,9 +125,3 @@ This process provides us with a more comprehensive understanding of our models t
 We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.
 
 [Read more](https://www.anthropic.com/news/model-hardware-standard-research-preview)
-
-### Expanding our support for scientists
-
-Starting today, 10,000 scientists around the world can get Claude at no cost to start. Verified principal investigators qualify for a Claude Team subscription plan and then add their research team to Standard seats for free, or Premium seats for $15 per month, for up to a year.
-
-[Read more](https://www.anthropic.com/news/expanding-support-for-scientists)

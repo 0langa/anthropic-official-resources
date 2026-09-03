@@ -1,4 +1,4 @@
-# API Prompt Design
+# API prompt design
 
 3 articles
 

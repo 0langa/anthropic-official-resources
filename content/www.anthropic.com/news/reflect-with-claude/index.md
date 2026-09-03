@@ -49,11 +49,17 @@ We built this tool to be a reflection of how you use Claude. For some users, thi
 
 ## Getting started
 
-This tool is currently available in beta for Free, Pro, and Max users who have memory turned on. Open [Settings in Claude](https://claude.ai/redirect/website.v1.cc53048d-3cf1-4a94-9db9-f6a2233c3172/settings/reflect) on the web or the desktop app, and select the option to reflect on your usage to generate your report. If you can't generate a report, it may be because you don’t have [Memory](https://claude.ai/redirect/website.v1.cc53048d-3cf1-4a94-9db9-f6a2233c3172/settings/capabilities?modal=memory) turned on. Reflecting on your Cowork conversations will be available soon.
+This tool is currently available in beta for Free, Pro, and Max users who have memory turned on. Open [Settings in Claude](https://claude.ai/redirect/website.v1.011805d6-439b-4dbd-9531-88e492b3291c/settings/reflect) on the web or the desktop app, and select the option to reflect on your usage to generate your report. If you can't generate a report, it may be because you don’t have [Memory](https://claude.ai/redirect/website.v1.011805d6-439b-4dbd-9531-88e492b3291c/settings/capabilities?modal=memory) turned on. Reflecting on your Cowork conversations will be available soon.
 
 ## Related content
 
+### Developing Enterprise Frontier Safeguards with our customers
+
+[Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)
+
 ### Improving our alignment and security efforts
+
+On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.
 
 [Read more](https://www.anthropic.com/news/improving-alignment-security-efforts)
 
@@ -62,9 +68,3 @@ This tool is currently available in beta for Free, Pro, and Max users who have m
 We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.
 
 [Read more](https://www.anthropic.com/news/model-hardware-standard-research-preview)
-
-### Expanding our support for scientists
-
-Starting today, 10,000 scientists around the world can get Claude at no cost to start. Verified principal investigators qualify for a Claude Team subscription plan and then add their research team to Standard seats for free, or Premium seats for $15 per month, for up to a year.
-
-[Read more](https://www.anthropic.com/news/expanding-support-for-scientists)

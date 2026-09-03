@@ -4,7 +4,7 @@
 
 64 tutorials
 
-[![](https://academy.claude.com/assets/v1/thumbnail.light-lt9nrti0.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ky864f9i.png)
+[![](https://academy.claude.com/assets/v1/thumbnail.light-bb0g5i6x.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j090lkdj.png)
 
 ## Choosing the right Claude model: Haiku, Sonnet, Opus, or Fable
 

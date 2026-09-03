@@ -1,127 +1,119 @@
-# Use live artifacts in Claude Cowork
+# Use artifacts in Claude Cowork
 
-This article explains how to use live artifacts in **[Claude Cowork](https://claude.com/product/cowork)**. Live artifacts are persistent, interactive HTML dashboards that Claude builds for you. They refresh with current data from your connected apps and appear alongside your chat artifacts in the Artifacts view on Claude Desktop.
+We've recently updated live artifacts to an updated artifacts system. New artifacts created on or after August 19, 2026 use Claude's updated artifacts system: they're saved to your account, can be shared with people in your organization, and open on the web.
 
-## Availability
+Live artifacts created before August 19, 2026 stay in the Artifacts view and keep working. You can still view them, but you can no longer edit them in place. Learn more in the section **[What happens to your existing live artifacts](#h_f13d109966)**.
 
-Live artifacts are available on paid Claude plans (Pro, Max, Team, Enterprise) on:
+Claude can build interactive artifacts in Cowork such as dashboards, trackers, reference pages, and comparison tools shaped around your work. New artifacts created in Cowork use Claude's updated artifacts system: they're saved to your account, can be shared with people in your organization, and open on the web. Every artifact you create is saved to the Artifacts view in your Cowork sidebar, marked with a "Cowork" label.
 
-- **Claude Desktop for macOS**
+The updated artifacts system is generally available to Pro, Max, Team, and Enterprise plans on Cowork in Claude Desktop and Cowork in the cloud. Using Cowork on Claude Desktop requires the latest version of the app. Download or update at **[claude.com/download](http://claude.com/download)**.
 
-- **Claude Desktop for Windows**
-
-- **Claude Desktop for Linux (beta)**
-
-Using Cowork on Claude Desktop requires the latest version of the app. Download or update at **[claude.com/download](https://claude.com/download)**.
-
-**Note:** Live artifacts are available on the desktop app only. They don't appear in the Artifacts view on web or mobile.
+If your organization uses customer-managed encryption keys (CMEK), zero data retention (ZDR), or a HIPAA readiness configuration, you'll keep using live artifacts. The updated artifacts system isn't currently available for these configurations.
 
 ---
 
-## What are live artifacts?
+## What’s new
 
-A live artifact is a persistent, interactive HTML page that Claude creates for you in Cowork, shaped around your specific work. It might be a tracker, a dashboard, a comparison tool, or a reference. Every live artifact you create is saved to the Artifacts view in your Cowork sidebar, marked with a "Cowork" label.
+Artifacts created on or after August 19, 2026 have the following new features:
 
-Live artifacts differ from **[artifacts in chat](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)** in a few ways:
+- **Shareable.** Share an artifact with specific people or everyone in your organization.
 
-- **They live on their own.** You don’t have to find the chat they came from. Every live artifact shows up in the “Live artifacts” tab in your Cowork sidebar.
+- **Available on the web.** Open artifacts from the Artifacts view on Claude Desktop and the web.
 
-- **They refresh with current data.** When you open a live artifact, it can pull from your connected apps and local files so the view reflects today, not the day it was built.
+- **Connected.** Artifacts can use your connected apps and ask Claude questions. Artifacts that use connected apps or ask Claude questions can only be shared within your organization.
 
-- **They keep their history.** Each update saves a version. You can review how the artifact has evolved and restore an earlier version.
-
-Artifacts you create in chat and in Cowork appear together in the Artifacts view. Live artifacts show a "Cowork" label so you can tell them apart from chat artifacts, and because they're desktop-only, they appear in the Artifacts view on Claude Desktop only.
+- **Versioned.** Every update saves a new version. Share the latest version or a specific one.
 
 ---
 
-## Create a live artifact
+## Create an artifact
 
-There are two ways to create a live artifact in Cowork.
+There are two ways to create an artifact in Cowork: from a Cowork session or from the Artifacts view.
 
-### From a Cowork task
+### From a Cowork session
 
 Ask Claude to build what you need. A few examples:
 
-- “Build me a dashboard that shows open tasks by project, pulling from Asana and Linear.”
+- "Build me a dashboard that shows open tasks by project, pulling from Asana and Linear."
 
-- “Create a tracker that monitors my top five competitors: recent releases, blog posts, pricing changes.”
+- "Create a tracker that monitors my top five competitors: recent releases, blog posts, pricing changes."
 
-- “Put together a morning brief with my Slack mentions, today’s calendar, and open pull requests.”
+- "Put together a morning brief with my Slack mentions, today's calendar, and open pull requests."
 
 When you describe the artifact, mention the connected apps or local files Claude should use. The result saves automatically to the Artifacts view.
 
 ### From the Artifacts view
 
-1. Open Cowork on Claude Desktop and select "Artifacts" from the sidebar.
+1. Open Cowork and select "Artifacts" from the sidebar.
 
-2. Click “New artifact” in the top right.
-
-3. Select "Create Cowork artifact."
+2. Click "New artifact" in the top right.
 
 A new session opens with a starting prompt, and Claude asks a few questions about your connectors and what you want to build.
 
-**Note:** In the Artifacts view, live artifacts are labeled "Cowork."
-
 ---
 
-## Open and refresh an artifact
+## Open and update an artifact
 
 To reopen an artifact, select "Artifacts" from the Cowork sidebar and click the one you want. Use the "Filter by" dropdown at the top right to narrow the view.
 
-When you open a live artifact, it pulls fresh data from your connected apps. Most of the time you won’t need to refresh manually, as a short cache holds recent data so the artifact loads quickly, and it re-queries your connected apps on its own. If you want to force new data, use the refresh button in the artifact’s header.
+To change an artifact you own, paste its link into any session or ask Claude to look up your artifacts, then ask Claude to make changes. Each change saves a new version. Open version history to compare an earlier version with the current one or restore it.
 
 ---
 
-## Version history
+## Share an artifact
 
-Each time you iterate on a live artifact with Claude, the previous version is saved. Open the artifact’s version history to:
-
-- See how the artifact has changed over time.
-
-- Compare an earlier version with the current one.
-
-- Restore an earlier version if an update didn’t work out.
-
----
-
-## Share a live artifact
-
-Sharing live artifacts is available on Team and Enterprise plans. On Pro and Max plans, live artifacts can't be shared or published.
-
-You can share a live artifact with other people in your Claude organization:
+You can share an artifact with other people in your Claude organization:
 
 1. Open the artifact you want to share.
 
-2. In the artifact's header, click the "Share" button
+2. Select "Share."
 
-3. Click "Share & copy link" and copy the link.
+3. Choose who can view:
 
-4. Send the link to people in your organization. The artifact opens in the Claude Desktop app.
+  1. Team and Enterprise plans can select: "Only people with access," "Everyone in your organization," or "Anyone with the link" (not available for artifacts that use connected apps or ask Claude questions). An Owner or Primary Owner needs to toggle on **External sharing** in **Organization settings > Artifacts** in order to select "Anyone with the link."
 
-If someone shares a live artifact with you, open the link on a computer with Claude Desktop installed. You can also click "Import from link" at the top of the Artifacts view and paste the link.
+  2. Pro and Max plans can select: "Only you" or "Anyone with the link."
+
+4. Choose the latest or a specific version, then copy the link. Viewers see it with their own access to connected apps.
 
 How sharing works:
 
-- **Sharing stays within your organization.** There are no external or public links and no per-person recipient selection. Anyone in your organization who has the link can open the artifact.
+- **By default, sharing stays within your organization.** An Owner or Primary Owner can enable external sharing ("Anyone with the link") in **Organization settings › Artifacts**.
 
 - **Shared artifacts use the viewer's access, not yours.** When someone opens your artifact, it connects to their connectors and data sources. If they don't have access to an underlying data source, that part of the artifact shows an error instead of your data.
+
+- **Information stored in an artifact can be shared too.** Artifact creators can decide which information stored in an artifact is shared along with the artifact (like global items in a task tracker) and which are private to each user of the artifact (like personal to-dos). Before entering sensitive information, consider whether the artifact uses shared storage.
+
+**Important:** Only open shared artifacts from people you trust. You're bringing someone else's code and content into your own conversation, so treat it the way you'd treat a file from an unknown sender. If you aren't sure about the source, don't use it.
 
 ---
 
 ## Example use cases
 
-- **Persistent team dashboard:** A weekly metrics view that pulls from your connected analytics tools and spreadsheets. Built once, refreshed every time you open it.
+- **Persistent team dashboard:** A weekly metrics view that pulls from your connected analytics tools and spreadsheets. Built once, it pulls fresh data from your connected apps each time you open it (based on your own access).
 
-- **Working project tracker:** A tracker pulling from Linear, Slack, and your calendar. Close the session, open it next week, and it's refreshed with current data.
+- **Working project tracker:** A tracker pulling from Linear, Slack, and your calendar. Close the session, open it next week, and it pulls fresh data from your connected apps each time you open it (based on your own access).
 
-- **Competitive intelligence:** A dashboard that tracks what your top competitors are shipping. Built in one session, updated from any future thread.
+- **Competitive intelligence:** A dashboard that tracks what your top competitors are shipping. Built in one session, updated from future sessions. Only the artifact's owner, and any editors they add (Team and Enterprise), can update it. Everyone else you share it with can view it but not edit it.
 
-- **Morning brief:** A single page with your Slack mentions, today’s calendar, and open pull requests. Open it each morning to see the current state.
+- **Morning brief:** A single page with your Slack mentions, today's calendar, and open pull requests. Open it each morning to see the current state.
 
 ---
 
 ## Current limitations
 
-- **Local, not remote.** Live artifacts live on your computer. If you switch devices, they don’t come with you.
+Before an artifact uses your connected apps, Claude shows which connectors and tools it will use and asks you to allow them. You can turn individual tools off and your choice is saved for that artifact until you change it. It doesn't prompt again for each call.
 
-- **Live artifacts use your connectors without asking.** Live artifacts can only use the connectors you approved during creation or update. However, artifacts don't ask for permission before using connectors, even if your session mode would normally require approval. Use care when creating live artifacts that use connectors that can make changes to your data.
+Each person who opens the artifact approves and uses their own connected apps, never the creator's. Connector tools that require per-action approval aren't available to artifacts.
+
+---
+
+## What happens to your existing live artifacts
+
+You can no longer create live artifacts starting August 19, 2026. Live artifacts created before August 19, 2026 stay in the Artifacts view and keep working. You can still view them, but you can no longer edit them in place**.** To make changes, click **Share** on the live artifact and you'll have the option to republish it as a new artifact, which you can then edit like any other artifact.
+
+Sharing a live artifact still works the way it always has:
+
+- **Sharing stays within your organization.** There are no external or public links and no per-person recipient selection. Anyone in your organization who has the link can open the artifact.
+
+- **Shared artifacts use the viewer's access, not yours.** When someone opens your artifact, it connects to their connectors and data sources. If they don't have access to an underlying data source, that part of the artifact shows an error instead of your data.

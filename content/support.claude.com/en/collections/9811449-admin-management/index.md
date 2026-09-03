@@ -1,6 +1,6 @@
 # Admin management
 
-22 articles
+23 articles
 
 [Roles and permissionsRoles and permissions that can be set for members of your plan](https://support.claude.com/en/articles/9267276-roles-and-permissions)
 
@@ -45,3 +45,5 @@
 [Restrict verified-domain connectors to your Enterprise](https://support.claude.com/en/articles/15402193-restrict-verified-domain-connectors-to-your-enterprise)
 
 [Manage model access for your organization](https://support.claude.com/en/articles/15694740-manage-model-access-for-your-organization)
+
+[Create surveys for your organization](https://support.claude.com/en/articles/16764057-create-surveys-for-your-organization)

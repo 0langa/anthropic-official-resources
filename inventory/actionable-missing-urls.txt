@@ -1,8 +1,2 @@
-https://platform.claude.com/docs/en/api/http/beta/organization/compliance_settings
-https://platform.claude.com/docs/en/api/http/beta/organization/compliance_settings/retrieve
-https://platform.claude.com/docs/en/api/http/beta/organization/compliance_settings/update
-https://platform.claude.com/docs/en/build-with-claude/watermark-detection
-https://support.claude.com/en/articles/15330089
-https://support.claude.com/en/collections/19737224-api-and-distillation
-https://support.claude.com/en/collections/9811457-use-the-claude-api-and-console
-https://support.claude.com/en/collections/9811460-api-troubleshooting
+https://support.claude.com/en/articles/14729249-use-artifacts-in-claude-cowork
+https://support.claude.com/en/articles/16764057

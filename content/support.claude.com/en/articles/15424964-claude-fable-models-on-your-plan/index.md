@@ -38,7 +38,7 @@ You can access Claude Fable 5 and Fable 5.1 on:
 
 - Claude Tag
 
-In Claude on the web, Claude Desktop, and Claude Mobile, select "Fable 5" or “Fable 5.1” from the model picker. In Claude Code, Fable 5 requires version 2.1.170 or later and Fable 5.1 requires version 2.1.250 or later. To use Fable models in Claude Cowork, you need to be on the latest version of Claude Desktop.
+In Claude on the web, Claude Desktop, and Claude Mobile, select "Fable 5" or “Fable 5.1” from the model picker. In Claude Code, Fable 5 requires version 2.1.170 or later and Fable 5.1 requires version 2.1.255 or later. To use Fable models in Claude Cowork, you need to be on the latest version of Claude Desktop.
 
 ## When you reach your Fable usage limit
 
@@ -56,7 +56,7 @@ Check the following:
 
 - You’re on a paid Claude plan. Fable 5 isn’t available on the Free plan.
 
-- If you’re using Claude Code, you’re on version 2.1.170 or later for Fable 5, or 2.1.250 or later for Fable 5.1.
+- If you’re using Claude Code, you’re on version 2.1.170 or later for Fable 5, or 2.1.255 or later for Fable 5.1.
 
 - If you’re using Cowork, you’re on the latest version of Claude Desktop.
 

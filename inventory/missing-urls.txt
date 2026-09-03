@@ -30,9 +30,6 @@ https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/fina
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/marketing
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/product
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/sales
-https://platform.claude.com/docs/en/api/http/beta/organization/compliance_settings
-https://platform.claude.com/docs/en/api/http/beta/organization/compliance_settings/retrieve
-https://platform.claude.com/docs/en/api/http/beta/organization/compliance_settings/update
 https://platform.claude.com/docs/en/api/sessions-retrieve
 https://platform.claude.com/docs/en/build-with-claude/err
 https://platform.claude.com/docs/en/build-with-claude/watermark-detection
@@ -66,9 +63,11 @@ https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-wit
 https://support.claude.com/en/articles/13945233-use-claude-in-excel-and-powerpoint-with-an-llm-gateway
 https://support.claude.com/en/articles/14465370-use-claude-for-word
 https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents
+https://support.claude.com/en/articles/14729249-use-artifacts-in-claude-cowork
 https://support.claude.com/en/articles/14855664-use-claude-for-outlook
 https://support.claude.com/en/articles/15330089
 https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion
+https://support.claude.com/en/articles/16764057
 https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data
 https://support.claude.com/en/articles/9945615-intro-to-artifacts
 https://support.claude.com/en/articles/9945670-using-the-github-integration
@@ -78,9 +77,6 @@ https://support.claude.com/en/articles/9945703-claude-for-sales
 https://support.claude.com/en/articles/9998942-claude-for-human-resources
 https://support.claude.com/en/articles/9999062-claude-for-product-management
 https://support.claude.com/en/collections/13972013-claude-for-financial-services
-https://support.claude.com/en/collections/19737224-api-and-distillation
-https://support.claude.com/en/collections/9811457-use-the-claude-api-and-console
-https://support.claude.com/en/collections/9811460-api-troubleshooting
 https://www.anthropic.com/ai-fluency
 https://www.anthropic.com/building-effective-ai-agents
 https://www.anthropic.com/engineering/building-effective-mcp-servers

@@ -1,36 +1,38 @@
 # Welcome to Claude Academy
 
-Resources for everyone — whether you’re exploring AI, getting started with Claude, or rolling it out to your team.
+Learn to use AI safely, effectively, and with intention. Free courses, tutorials, and use cases from Anthropic’s education team.
 
 [Get started](https://academy.claude.com/start)[All resources](https://academy.claude.com/all)
 
-## Learn the Claude products
+## Go deeper with Claude
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-iznp6akh.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hh3at4r1.png)
 
 ### Claude.ai
 
-Learn to think through problems, draft documents, and analyze data in conversation with Claude.](https://academy.claude.com/products/claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-it98jcz1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nkhyzydu.png)
+Your thinking partner for big ambitions: work through a problem, pressure-test a draft, or make sense of a dataset in conversation.](https://academy.claude.com/products/claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-it98jcz1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nkhyzydu.png)
 
 ### Claude Cowork
 
-Learn to hand off whole tasks and get polished deliverables back, for yourself and your team.](https://academy.claude.com/products/cowork)[![](https://academy.claude.com/assets/v1/thumbnail.dark-oiww3nbb.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-oiww3nbb.png)
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.](https://academy.claude.com/products/cowork)[![](https://academy.claude.com/assets/v1/thumbnail.dark-oiww3nbb.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-oiww3nbb.png)
 
 ### Claude Code
 
-Learn to build, debug, and ship with Claude Code in your terminal, IDE, and browser.](https://academy.claude.com/products/code)[![](https://academy.claude.com/assets/v1/thumbnail.dark-cdigm2ac.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cdigm2ac.png)
+Build software with Claude. Plan, write, debug and ship wherever you code.](https://academy.claude.com/products/code)[![](https://academy.claude.com/assets/v1/thumbnail.dark-cdigm2ac.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cdigm2ac.png)
 
 ### Claude Tag
 
-Learn to tag Claude into your team's channels and hand it work everyone can follow.](https://academy.claude.com/products/tag)[![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)
+For work that belongs to the team. Tag Claude in Slack, delegate in the open, and keep everyone in the loop.](https://academy.claude.com/products/tag)[![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)
 
 ### Claude Platform
 
-Learn to build Claude into your products with the API, Claude Console, and MCP.](https://academy.claude.com/products/platform)
+Build Claude into your products. Go from first call to production with the API, Claude Console, and MCP.](https://academy.claude.com/products/platform)
 
-## Learn AI fundamentals with AI Fluency
+## Develop AI Fluency
 
 [More about AI Fluency](https://academy.claude.com/collections/ai-fluency)
+
+Mindsets and mental models that hold up as models and features change
 
 [### AI Fluency: Framework & Foundations
 

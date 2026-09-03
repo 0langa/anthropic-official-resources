@@ -877,6 +877,7 @@ https://claude.com/blog/claude-design-stays-on-brand-for-daily-work
 https://claude.com/blog/claude-enterprise-inference-hooks
 https://claude.com/blog/claude-excel-powerpoint-updates
 https://claude.com/blog/claude-for-chrome
+https://claude.com/blog/claude-for-commerce-agents
 https://claude.com/blog/claude-for-enterprise
 https://claude.com/blog/claude-for-foundation-models
 https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts
@@ -1023,6 +1024,7 @@ https://claude.com/blog/subagents-in-claude-code
 https://claude.com/blog/team-plan-and-ios
 https://claude.com/blog/the-advisor-strategy
 https://claude.com/blog/the-ai-native-sdlc-playbook
+https://claude.com/blog/the-anatomy-of-effective-commerce-agents
 https://claude.com/blog/the-claude-cowork-product-guide
 https://claude.com/blog/the-founders-playbook
 https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry
@@ -3008,6 +3010,7 @@ https://support.claude.com/en/articles/14625626
 https://support.claude.com/en/articles/14625626-respond-to-an-enterprise-domain-claim-on-your-claude-account
 https://support.claude.com/en/articles/14661296-use-claude-security
 https://support.claude.com/en/articles/14729249
+https://support.claude.com/en/articles/14729249-use-artifacts-in-claude-cowork
 https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork
 https://support.claude.com/en/articles/14729294-open-claude-desktop-with-a-link
 https://support.claude.com/en/articles/14729354-use-analytics-chat-to-ask-claude-about-usage
@@ -3091,6 +3094,8 @@ https://support.claude.com/en/articles/16634237-claude-team-plan-for-scientists
 https://support.claude.com/en/articles/16635803
 https://support.claude.com/en/articles/16635803-set-up-browser-use-in-claude-cowork-for-team-and-enterprise-plans
 https://support.claude.com/en/articles/16761192-preserved-thinking-changing-how-the-messages-api-handles-thinking-blocks-to-protect-against-distillation
+https://support.claude.com/en/articles/16764057
+https://support.claude.com/en/articles/16764057-create-surveys-for-your-organization
 https://support.claude.com/en/articles/16764810-assign-a-program-to-workspaces-in-claude-console
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design

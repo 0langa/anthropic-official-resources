@@ -18,7 +18,7 @@ You’re always in control of this setting and whether we use your data in this 
 
 In-app notification for existing Claude app users
 
-Starting today, we’re rolling out notifications so you can review these updates and manage your settings. If you’re an existing user, you have until October 8, 2025 to accept the updated Consumer Terms and make your decision. If you choose to accept the new policies now, they will go into effect immediately. These updates will apply only to new or resumed chats and coding sessions. After October 8, you’ll need to make your selection on the model training setting in order to continue using Claude. You can change your choice in your [Privacy Settings](https://claude.ai/redirect/website.v1.10565c38-3742-4a11-b5f3-2ea8822366b4/settings/data-privacy-controls) at any time.
+Starting today, we’re rolling out notifications so you can review these updates and manage your settings. If you’re an existing user, you have until October 8, 2025 to accept the updated Consumer Terms and make your decision. If you choose to accept the new policies now, they will go into effect immediately. These updates will apply only to new or resumed chats and coding sessions. After October 8, you’ll need to make your selection on the model training setting in order to continue using Claude. You can change your choice in your [Privacy Settings](https://claude.ai/redirect/website.v1.d90395cc-1679-4e55-9adf-e55adc4b84ff/settings/data-privacy-controls) at any time.
 
 ## Extended data retention
 
@@ -72,7 +72,13 @@ You can always update your selection in your Privacy Settings. If you decide to 
 
 ## Related content
 
+### Developing Enterprise Frontier Safeguards with our customers
+
+[Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)
+
 ### Improving our alignment and security efforts
+
+On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.
 
 [Read more](https://www.anthropic.com/news/improving-alignment-security-efforts)
 
@@ -81,9 +87,3 @@ You can always update your selection in your Privacy Settings. If you decide to 
 We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.
 
 [Read more](https://www.anthropic.com/news/model-hardware-standard-research-preview)
-
-### Expanding our support for scientists
-
-Starting today, 10,000 scientists around the world can get Claude at no cost to start. Verified principal investigators qualify for a Claude Team subscription plan and then add their research team to Standard seats for free, or Premium seats for $15 per month, for up to a year.
-
-[Read more](https://www.anthropic.com/news/expanding-support-for-scientists)

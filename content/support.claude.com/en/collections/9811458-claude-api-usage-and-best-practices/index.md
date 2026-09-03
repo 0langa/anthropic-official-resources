@@ -1,4 +1,4 @@
-# Claude API Usage and Best Practices
+# Claude API usage and best practices
 
 6 articles
 

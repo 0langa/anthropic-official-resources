@@ -1,6 +1,6 @@
 # Manage model access for your organization
 
-This guide explains how to control which Claude models members of your organization can use, and how to cap the effort level each role can select per model. You can manage model access for your whole organization or for specific custom roles.
+This guide explains how to control which Claude models members of your organization can use, and how to cap the effort level members can select on each model. Model access and effort limits can be set for your whole organization or for specific custom roles.
 
 Model access settings are available for Enterprise plan organizations. Primary Owners, Owners, and members whose custom role grants the Identity & Access permission can manage them in **[Organization settings > Models](https://claude.ai/admin-settings/models)**.
 
@@ -10,21 +10,21 @@ To set the model new conversations start on, see **[Set a default model for your
 
 ## How model access works
 
-Model access is determined at two levels:
+Model access and effort limits are determined at two levels:
 
-- **Organization level:** each model is enabled or disabled for everyone in your organization. Disabling a model here removes it for every member, including Owners and Admins.
+- **Organization level:** each model is enabled or disabled for everyone in your organization. Disabling a model here removes it for every member, including Owners and Admins. You can also set a maximum effort level for each enabled model, which applies to every member.
 
-- **Custom role level:** for members on custom roles, each role grants access to a subset of the models enabled at the organization level. A role can also cap the maximum effort level members can select on each model.
+- **Custom role level:** for members on custom roles, each role grants access to a subset of the models enabled at the organization level. A role can also cap the maximum effort level members can select on each model, at or below the organization's cap for that model.
 
-The organization setting is the ceiling, so a role can’t grant access to a model that’s disabled for the organization. When the feature first becomes available, every model is enabled at both levels, so nothing changes for your members until you adjust these settings.
+The organization setting is the ceiling. A role can't grant access to a model that's disabled for the organization, and a role can't allow an effort level higher than the organization's cap. When the feature first becomes available, every model is enabled and set to its highest effort level at both levels, so nothing changes for your members until you adjust these settings.
 
 **Note:** Haiku models are always available to every member and can’t be disabled. This guarantees members always have at least one model to fall back to.
 
 ## Who each level affects
 
-- Disabling a model at the organization level affects every member, including Primary Owners, Owners, Admins, and Users.
+- Disabling a model or capping its effort level at the organization level affects every member, including Primary Owners, Owners, Admins, and Users.
 
-- Role-level model access and effort limits affect only members whose role is set to “Custom.” Members with the User, Admin, or Owner roles can use every model enabled at the organization level, at any effort level.
+- Role-level model access and effort limits affect only members whose role is set to "Custom." Members with the User, Admin, or Owner roles can use every model enabled at the organization level, up to the organization's effort cap for that model.
 
 ---
 
@@ -42,9 +42,25 @@ The organization setting is the ceiling, so a role can’t grant access to a mod
 
 If any custom role uses the model you’re disabling as its default, you’ll be prompted to change that role’s default before the change can be saved.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514693921/02ea72756f5163f14e5d158516dc/69102088-cd86-498e-97aa-c8a6e0004419?expires=1788259500&amp;signature=d7b29aabbb8a47dab2b4dcb1415e447c6115442d383d69ba5beb89602faadb20&amp;req=diUmEs93nohdWPMW1HO4zXlxEu%2B7UthSQf5Pb7M2Q0urqDyA7zLFLDYre%2F%2F7%0AQUV0GcqrRNBvuPNeGEQ%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514693921/02ea72756f5163f14e5d158516dc/69102088-cd86-498e-97aa-c8a6e0004419?expires=1788428700&amp;signature=58a350f1836441cec9728be9ff260a00c9d096bc0580614226fa9dcef1be327e&amp;req=diUmEs93nohdWPMW1HO4zXlxEu%2B9VdlQQf5Pb7M2Q0twju%2FLu2CG3557sbsq%0AsgnLjf57SP7lqovbeQY%3D%0A)
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514693922/bfc5de6626eb19dca1d7caf818ca/c3cd8bb6-f86c-4d01-92da-6ae4ca966662?expires=1788259500&amp;signature=0f66ead83e06fe6feb3e16e05da6b1137e545cbec4c1c68bcffbf3f8fa63957d&amp;req=diUmEs93nohdW%2FMW1HO4zTqNsYHHQ1FSAod9uc510lzShQH%2FTppTvowlM%2BxP%0ANcfCPOq2hlrp6p8Srus%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514693922/bfc5de6626eb19dca1d7caf818ca/c3cd8bb6-f86c-4d01-92da-6ae4ca966662?expires=1788428700&amp;signature=476c367d42021f0e5a6934263688e86bd4950a58e525da7fbf00e524fb4aab05&amp;req=diUmEs93nohdW%2FMW1HO4zTqNsYHBRFBQAod9uc510lzVSXta4I93Kc%2FRh43o%0AoB0yN3O9sTUymnysb6g%3D%0A)
+
+---
+
+## Limit the maximum effort level for your organization
+
+Effort limits determine how much computation members can apply per response on each model. Higher effort levels produce more thorough responses but consume more usage. An organization-level effort cap applies to every member and is the highest level any custom role can allow.
+
+1. Navigate to **[Organization settings > Model](https://claude.ai/admin-settings/models)**[s](https://claude.ai/admin-settings/models).
+
+2. Under **Model access**, find the model you want to change.
+
+3. Click the effort level dropdown to select the maximum level.
+
+4. Click "Save."
+
+If any custom role has an effort cap higher than the new organization cap for that model, the role's cap is lowered to match. Members see only effort levels at or below the organization cap in their model menu. Available effort levels differ depending on the model, and some models don't support effort level settings at all. For an explanation of each level, see **[Change the model, effort, and thinking settings](https://support.claude.com/en/articles/8664678)**.
 
 ---
 
@@ -62,7 +78,7 @@ If any custom role uses the model you’re disabling as its default, you’ll be
 
 Only models the role grants access to can be selected as that role’s default model.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514693923/880665a87dbd4776cf19d6063a37/29d30c6d-f9fc-408c-8c72-4320c6d88d14?expires=1788259500&amp;signature=a0a66311c2e7b1f2ae39c8e2793e6198a9cdd0a8ad50c91861d8451819f78a34&amp;req=diUmEs93nohdWvMW1HO4zYj9Sf0B6Ii4XsqpNqvyFRJUrElle%2Bm8w9O94Jsw%0AcO3n8WnKFcfwTnc43bs%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514693923/880665a87dbd4776cf19d6063a37/29d30c6d-f9fc-408c-8c72-4320c6d88d14?expires=1788428700&amp;signature=5cf885fc73df237b732450392131959824f1d2041b6ef85fd4201a187e742ccb&amp;req=diUmEs93nohdWvMW1HO4zYj9Sf0H74m6XsqpNqvyFRJd0ErkMKIjPKvnETXz%0ARsvEGl2GfiqCM2mG9ds%3D%0A)
 
 ---
 
@@ -80,7 +96,7 @@ Effort limits determine how much computation members on a role can apply per res
 
 5. Click "Save" to save your changes.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514693927/7a25673b3b075d72adb3cdc371e3/d2d7cd8d-a713-4e91-a706-f589ac46a9fe?expires=1788259500&amp;signature=1c2da6bdcedb0ff8fda325be11becee26e81ac08ed1d5bd17cfbc968322cc08e&amp;req=diUmEs93nohdXvMW1HO4ze1xBju%2BdrAcDeA1RkowXUEdQcyO1nvddHRVcY4m%0AkyGuJVgkv3U8hKK0p1c%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514693927/7a25673b3b075d72adb3cdc371e3/d2d7cd8d-a713-4e91-a706-f589ac46a9fe?expires=1788428700&amp;signature=6a8852849501b78ceef6833248dcbf93171028d79179043aa4fe57dbea11a376&amp;req=diUmEs93nohdXvMW1HO4ze1xBju4cbEeDeA1RkowXUFtdnkePv9MNaL2CpJ8%0AJ9OWuk%2BW7cN5bVQ32d8%3D%0A)
 
 Members on the role see only effort levels at or below the cap in their model menu. Note that available effort levels differ depending on the model, and some models don’t support effort level settings at all. For an explanation of each level, see **[Change the model, effort, and thinking settings](https://support.claude.com/en/articles/8664678)**.
 
@@ -92,7 +108,7 @@ If a member belongs to multiple groups with different custom roles, model settin
 
 - **Model access is additive.** The member can use every model granted by any of their roles, as long as it’s enabled at the organization level.
 
-- **Effort limits take the highest cap.** For each model, the member gets the highest maximum effort level any of their roles allows.
+- **Effort limits take the highest cap.** For each model, the member gets the highest maximum effort level any of their roles allows, never exceeding the organization's cap for that model.
 
 For how default models are chosen across multiple roles, see **[Set a default model for your organization](https://support.claude.com/en/articles/15330088)**.
 
@@ -102,11 +118,11 @@ For details on creating roles and assigning them to groups, see **[Manage custom
 
 ## What users see
 
-In every covered product, the model picker shows only the models the member has access to. Effort levels above a role’s cap don’t appear in the effort menu.
+In every covered product, the model picker shows only the models the member has access to. Effort levels above the organization's cap, or above a role's cap, don't appear in the effort menu.
 
 Model availability also depends on the product. Each product supports a different set of models, so an enabled model appears only in the products that support it.
 
-If you disable a model a member is using in an open conversation or session, that conversation falls back to the member’s default model the next time they open it. If the member sends a message while you’re making the change, they’ll see an error that the model isn’t available and be prompted to switch.
+If you disable a model a member is using in an open conversation or session, that conversation falls back to the member's default model the next time they open it. If the member sends a message while you're making the change, they'll see an error that the model isn't available and be prompted to switch. If you lower a model's effort cap while a member has a higher level selected, their next message on that model uses the new maximum.
 
 ---
 

@@ -1,0 +1,5 @@
+# API and distillation
+
+1 article
+
+[Preserved thinking: changing how the Messages API handles thinking blocks to protect against distillation](https://support.claude.com/en/articles/16761192-preserved-thinking-changing-how-the-messages-api-handles-thinking-blocks-to-protect-against-distillation)

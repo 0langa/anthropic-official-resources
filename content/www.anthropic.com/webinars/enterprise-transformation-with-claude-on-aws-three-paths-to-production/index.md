@@ -20,17 +20,26 @@ Sep 16, 2026
 
 PT
 
-# Enterprise Transformation with Claude on AWS: Three Paths to Production
+# Enterprise Transformation with Claude on AWS: Paths to Production
 
-Claude writes and ships code, and works through multi-step engineering tasks, the workload that raises questions in a security review before it reaches production. On AWS, that review is already answered.
+There's no single path to running Claude on AWS. What you build depends on what your compliance team needs, what your engineers are already using, and how many people across your company need access. This webinar walks through the multiple ways to get there.
 
-Claude Enterprise in AWS Marketplace rolls out to your workforce with SSO built in. Claude in Amazon Bedrock puts AWS in the data processor role when your data policy requires it. Claude Platform on AWS gives builders new Claude capabilities the same day they ship. We'll demo each path, with customer examples matched to the problem it solves.
+- **Build on Claude Platform on AWS:** Access the full Anthropic API, with AWS handling billing and sign-in. Built for teams that want frontier developer features from day one.
+- **Build on Claude on Amazon Bedrock:** Claude served by AWS, so AWS stays the sole data processor, which matters for regulated industries, strict data residency, and VPC-isolated workloads.
+- **Roll out Claude Enterprise in AWS Marketplace:** The full product with SSO, admin controls, and native integrations with seat and usage billed through AWS.
+- **Deploy Claude Desktop on Amazon Bedrock:** The desktop app pointed at your own Bedrock, so prompts and outputs stay inside your AWS boundary.
 
 ## Featuring
 
 ![](https://cdn.prod.website-files.com/67ed58c92cfedc451ebbbca1/6a88b6f8fc59f4b221a2a239_jamal-arif.jpg)
 
 ### Jamal Arif
+
+Member of Technical Staff @ Anthropic
+
+![](https://cdn.prod.website-files.com/67ed58c92cfedc451ebbbca1/6a9886d71adbc518b6d308f9_Scott.jpeg)
+
+### Scott Munson
 
 Member of Technical Staff @ Anthropic
 
@@ -42,9 +51,9 @@ Worldwide Tech Lead for Anthropic Partnership @ AWS
 
 ## What you’ll learn
 
-- Which of the three AWS paths fits your team, based on procurement, data policy, or release speed
-- What a live Claude Code session looks like running through each of the three paths
-- How three different customers actually use Claude Enterprise, Bedrock, and Claude Platform on AWS, and what problem each one was solving
+- *Which path fits which workload and why most enterprises end up running more than one*
+- *What Claude Code looks like live on each path*
+- *How real customers chose, what they were solving, and what shipped*
 
 ## Register now to attend
 

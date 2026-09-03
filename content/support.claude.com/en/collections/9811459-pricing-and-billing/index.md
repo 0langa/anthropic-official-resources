@@ -1,4 +1,4 @@
-# Pricing and Billing
+# Pricing and billing
 
 4 articles
 

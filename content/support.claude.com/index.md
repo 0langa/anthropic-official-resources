@@ -38,7 +38,7 @@ Compare paid plans, manage your subscription, and understand usage limits.
 
 Set up your workspace, add seats, and administer Claude across your organization.
 
-66 articles
+67 articles
 
 ![](https://downloads.intercomcdn.com/i/hc/icons/v3/lupk8zyo/938304/5ffb4feea1e2b255910fc58e99d4/141413.svg)
 
@@ -86,7 +86,7 @@ Take Claude with you on iOS and Android.
 
 Build with the Claude API and manage keys, usage, and billing in the Console.
 
-38 articles
+39 articles
 
 ![](https://downloads.intercomcdn.com/i/hc/icons/v3/lupk8zyo/938310/fc1b2b288ad56a87197b85e8d8bc/141413.svg)
 

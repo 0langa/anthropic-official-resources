@@ -1,6 +1,6 @@
 # Claude Cowork
 
-Learn to hand off whole tasks and get polished deliverables back, for yourself and your team.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
 
 ## Start here
 
@@ -124,7 +124,7 @@ Use case·Marketing·10 min](https://academy.claude.com/use-cases/campaign-brief
 
 # Claude Cowork
 
-Learn to hand off whole tasks and get polished deliverables back, for yourself and your team.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
 
 ## Start here
 
@@ -248,7 +248,7 @@ Use case·Marketing·10 min](https://academy.claude.com/use-cases/repurpose-cont
 
 # Claude Cowork
 
-Learn to hand off whole tasks and get polished deliverables back, for yourself and your team.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
 
 ## Start here
 
@@ -372,7 +372,7 @@ Use case·Research·15 min](https://academy.claude.com/use-cases/surface-themes-
 
 # Claude Cowork
 
-Learn to hand off whole tasks and get polished deliverables back, for yourself and your team.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
 
 ## Start here
 
@@ -496,7 +496,7 @@ Use case·Engineering·10 min](https://academy.claude.com/use-cases/design-doc)
 
 # Claude Cowork
 
-Learn to hand off whole tasks and get polished deliverables back, for yourself and your team.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
 
 ## Start here
 
@@ -614,7 +614,7 @@ Use case·HR·10 min](https://academy.claude.com/use-cases/performance-review-ad
 
 # Claude Cowork
 
-Learn to hand off whole tasks and get polished deliverables back, for yourself and your team.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
 
 ## Start here
 
@@ -738,7 +738,7 @@ Use case·Finance·10 min](https://academy.claude.com/use-cases/recon-journal-en
 
 # Claude Cowork
 
-Learn to hand off whole tasks and get polished deliverables back, for yourself and your team.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
 
 ## Start here
 
@@ -856,7 +856,7 @@ Use case·Operations·10 min](https://academy.claude.com/use-cases/vendor-risk-r
 
 # Claude Cowork
 
-Learn to hand off whole tasks and get polished deliverables back, for yourself and your team.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
 
 ## Start here
 
@@ -950,7 +950,7 @@ Use case·Data·10 min](https://academy.claude.com/use-cases/answer-the-adhoc)
 
 # Claude Cowork
 
-Learn to hand off whole tasks and get polished deliverables back, for yourself and your team.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
 
 ## Start here
 
@@ -1074,7 +1074,7 @@ Use case·Design·15 min](https://academy.claude.com/use-cases/brand-guidelines-
 
 # Claude Cowork
 
-Learn to hand off whole tasks and get polished deliverables back, for yourself and your team.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
 
 ## Start here
 
@@ -1198,7 +1198,7 @@ Use case·Legal·15 min](https://academy.claude.com/use-cases/prep-scattered-doc
 
 # Claude Cowork
 
-Learn to hand off whole tasks and get polished deliverables back, for yourself and your team.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
 
 ## Start here
 
@@ -1322,7 +1322,7 @@ Use case·Sales·10 min](https://academy.claude.com/use-cases/transcript-themes)
 
 # Claude Cowork
 
-Learn to hand off whole tasks and get polished deliverables back, for yourself and your team.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
 
 ## Start here
 
@@ -1416,7 +1416,7 @@ Use case·Research·15 min](https://academy.claude.com/use-cases/surface-themes-
 
 # Claude Cowork
 
-Learn to hand off whole tasks and get polished deliverables back, for yourself and your team.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
 
 ## Start here
 
@@ -1510,7 +1510,7 @@ Use case·Education·15 min](https://academy.claude.com/use-cases/adapt-a-standa
 
 # Claude Cowork
 
-Learn to hand off whole tasks and get polished deliverables back, for yourself and your team.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
 
 ## Start here
 

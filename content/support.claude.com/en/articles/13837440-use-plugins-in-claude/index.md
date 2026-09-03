@@ -40,7 +40,7 @@ In Cowork, open the "Cowork" tab first, then open **Customize**.
 
 You can also upload a custom plugin file if you built one yourself or received one from a colleague. On Claude Desktop and in Cowork, plugins you add yourself are saved locally to your computer.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2100409211/fc01614dde1a616fa31ffaa9cb04/47bacf5b-a810-45b5-a468-9769f1a58ef8?expires=1788342300&amp;signature=21b38d53a5c392a77bd19313db7fa618ded4538396c5b0f39dc79128961e32c3&amp;req=diEnFs1%2BlINeWPMW1HO4zZF3Ih3eN%2FdWxakFVfq5WwzA5ovbHt8w8IuJ6fPE%0A%2BWAZ5OT8j1DyKb7hwFw%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2100409211/fc01614dde1a616fa31ffaa9cb04/47bacf5b-a810-45b5-a468-9769f1a58ef8?expires=1788431400&amp;signature=f4471df4867e627b52fb01b999816de6960ad319e4349d2017b2cf8d3d161389&amp;req=diEnFs1%2BlINeWPMW1HO4zZF3Ih3ZMPRRxakFVfq5Wwxn0S99arx20rbusoGQ%0AWTOEzRyIe%2F14%2B3qMMX0%3D%0A)
 
 If you're on the Enterprise plan and your organization has skill scanning turned on, plugins are checked for malicious content when they're installed or updated. A plugin with malicious content is blocked, and one that may carry risk shows a caution banner. Learn more about **[skill and plugin scanning](https://support.claude.com/en/articles/15927065)**.
 
@@ -50,7 +50,7 @@ If you're on the Enterprise plan and your organization has skill scanning turned
 
 Each plugin you install adds skills you can use while working with Claude. Type "/" or click the "+" button to see the available skills from your installed plugins, in chat and in Cowork. Click any skill to see its details.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2157396844/4a790e10f5b88df770783df1d7e9/image.png?expires=1788342300&amp;signature=a3c1a82f01285bcff549a402fa8ae2c6c6c6ba95aca454b0c39ab13a15926095&amp;req=diEiEcp3m4lbXfMW1HO4zf4NBP7%2Fh0KXmKUxugP2BQu14pzU2BLtPjIF4wSp%0Ai1f0wPw%2FFOKjfNvDsPw%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2157396844/4a790e10f5b88df770783df1d7e9/image.png?expires=1788431400&amp;signature=25a5e88a77710e8446da97157f021e28edc7fd2a5e66125e9a867c320fdb05e1&amp;req=diEiEcp3m4lbXfMW1HO4zf4NBP74gEGQmKUxugP2BQteQZedCB52lekCrHg0%0AvYuqWSUiR6LuzVwaj1I%3D%0A)
 
 ---
 

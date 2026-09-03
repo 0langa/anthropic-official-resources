@@ -20,6 +20,22 @@ A small set of “sector programs”—programs that partner with employers in a
 
 Their central recommendation is to invest now in demonstrating, evaluating, and scaling the most promising programs, including through an effort to rapidly expand a leading program for a specific group of workers and rigorously measure the results. Our [Economic Futures Research Fund](https://www.anthropic.com/news/economic-futures-research-fund-agenda) is designed to fund investigations into questions like these.
 
+## Citation
+
+```
+@techreport{roodman2026training,
+  author      = {Roodman, David and Massenkoff, Maxim},
+  title       = {An Evidence Review of Subsidized Job Training},
+  institution = {The Anthropic Institute},
+  type        = {Working Paper},
+  number      = {2026-01},
+  year        = {2026},
+  url         = {https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs}
+}
+```
+
+Copy
+
 ## Related content
 
 ### Automated researchers can reliably mitigate alignment failures

@@ -76,7 +76,7 @@ The Claude Enterprise Analytics API is available to Claude Enterprise organizati
 
    ### Call the API
 
-   Pass the key in the `x-api-key` header. Endpoints live under `https://api.anthropic.com/v1/organizations/analytics/`. For request examples, parameters, and response schemas, see the [Claude Enterprise Analytics API reference](https://platform.claude.com/docs/en/api/admin/analytics).
+   Pass the key in the `x-api-key` header and include the [`anthropic-version`](https://platform.claude.com/docs/en/api/versioning) header on every request. Endpoints live under `https://api.anthropic.com/v1/organizations/analytics/`. For request examples, parameters, and response schemas, see the [Claude Enterprise Analytics API reference](https://platform.claude.com/docs/en/api/admin/analytics).
 
 The Claude Enterprise Analytics API provides:
 
@@ -117,6 +117,10 @@ Cost and usage responses include a `data_refreshed_at` timestamp. When `ending_a
 
 **Rate limits apply at the organization level**, not per key, with a default of 60 requests per minute across all endpoints in this API. If that is not sufficient for your use case, contact your Anthropic account team to discuss adjusting the limit.
 
+## Versioning
+
+Send the `anthropic-version` header on every request; see [API versions](https://platform.claude.com/docs/en/api/versioning) for the available versions.
+
 ## Known limitations
 
 If your organization uses Claude Code through Amazon Bedrock, the Claude Enterprise Analytics API does not return Claude Code activity for that usage.
@@ -142,7 +146,3 @@ Audit and compliance data uses its own key types.
 Was this page helpful?
 
 
-
-Analytics APIs/
-
-Which API do you need?
