@@ -1304,6 +1304,7 @@ https://platform.claude.com/cookbook/claude-agent-sdk-05-building-a-session-brow
 https://platform.claude.com/cookbook/claude-agent-sdk-06-the-vulnerability-detection-agent
 https://platform.claude.com/cookbook/claude-agent-sdk-07-hosting-the-agent
 https://platform.claude.com/cookbook/claude-agent-sdk-08-dynamic-workflows
+https://platform.claude.com/cookbook/claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer
 https://platform.claude.com/cookbook/coding-prompting-for-frontend-aesthetics
 https://platform.claude.com/cookbook/cost-optimization-cost-optimization
 https://platform.claude.com/cookbook/evals-agentic-search-reproduce-agentic-search-benchmarks

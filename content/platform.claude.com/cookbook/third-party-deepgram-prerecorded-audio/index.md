@@ -40,13 +40,13 @@ Note: You can run a cell by clicking the play button on the left or by clicking 
 
 
 
-! pip install requests ffmpeg-python
+%pip install requests ffmpeg-python
 
-! pip install deepgram-sdk --upgrade
+%pip install deepgram-sdk --upgrade
 
-! pip install requests
+%pip install requests
 
-! pip install anthropic
+%pip install anthropic
 
 #  Step 2: Audio URL files
 
@@ -239,7 +239,7 @@ formatted\_messages = [{"role": "user", "content": message\_text}]
 
 response = client.messages.create(
 
-model="claude-opus-4-1",
+model="claude-opus-4-8",
 
 max\_tokens=1000,
 

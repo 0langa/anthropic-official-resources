@@ -62,19 +62,19 @@ You'll also need API keys from [Anthropic(opens in new tab)](https://www.anthrop
 
 ## setup
 
-!pip install anthropic
+%pip install anthropic
 
-!pip install voyageai
+%pip install voyageai
 
-!pip install pandas
+%pip install pandas
 
-!pip install numpy
+%pip install numpy
 
-!pip install matplotlib
+%pip install matplotlib
 
-!pip install seaborn
+%pip install seaborn
 
-!pip install -U scikit-learn
+%pip install -U scikit-learn
 
 
 

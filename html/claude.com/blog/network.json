@@ -37,17 +37,17 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
+    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
     "url": "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js"
   },
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
     "url": "https://cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "script",
-    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
   },
   {
     "reason": "optional_media_widget_or_analytics",
@@ -132,6 +132,11 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
+    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
     "url": "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js"
   },
   {
@@ -158,11 +163,6 @@
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
     "url": "https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "script",
-    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
   },
   {
     "reason": "optional_media_widget_or_analytics",

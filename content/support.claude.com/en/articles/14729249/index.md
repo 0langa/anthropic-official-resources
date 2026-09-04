@@ -62,7 +62,7 @@ To change an artifact you own, paste its link into any session or ask Claude to 
 
 ## Share an artifact
 
-You can share an artifact with other people in your Claude organization:
+You can share an artifact with specific people, your organization, or, if enabled, anyone with the link.
 
 1. Open the artifact you want to share.
 
@@ -74,7 +74,7 @@ You can share an artifact with other people in your Claude organization:
 
   2. Pro and Max plans can select: "Only you" or "Anyone with the link."
 
-4. Choose the latest or a specific version, then copy the link. Viewers see it with their own access to connected apps.
+4. Choose the latest or a specific version, then copy the link. When you make changes, the link doesn't update until you select "Latest" under **Shared version**. A link to a specific version always shows that version. Viewers see it with their own access to connected apps.
 
 How sharing works:
 
@@ -110,7 +110,9 @@ Each person who opens the artifact approves and uses their own connected apps, n
 
 ## What happens to your existing live artifacts
 
-You can no longer create live artifacts starting August 19, 2026. Live artifacts created before August 19, 2026 stay in the Artifacts view and keep working. You can still view them, but you can no longer edit them in place**.** To make changes, click **Share** on the live artifact and you'll have the option to republish it as a new artifact, which you can then edit like any other artifact.
+You can no longer create live artifacts starting August 19, 2026. Live artifacts created before August 19, 2026 stay in the Artifacts view and keep working. You can still view them, but you can no longer edit them in place**.** To make changes, click "Share" on the live artifact and you'll have the option to republish it as a new artifact, which you can then edit like any other artifact.
+
+If you already shared the live artifact, the republish dialog shows its existing link. Select select "Latest" under **Shared version** to publish the new version to that link. People who have the link see the new version without needing a new link.
 
 Sharing a live artifact still works the way it always has:
 

@@ -16,6 +16,7 @@ https://code.claude.com/docs/en/examples
 https://code.claude.com/docs/en/reference
 https://platform.claude.com/cookbook/URL
 https://platform.claude.com/cookbook/block
+https://platform.claude.com/cookbook/claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/DOCX-JS
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/EXAMPLES
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/FORMS
@@ -63,11 +64,9 @@ https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-wit
 https://support.claude.com/en/articles/13945233-use-claude-in-excel-and-powerpoint-with-an-llm-gateway
 https://support.claude.com/en/articles/14465370-use-claude-for-word
 https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents
-https://support.claude.com/en/articles/14729249-use-artifacts-in-claude-cowork
 https://support.claude.com/en/articles/14855664-use-claude-for-outlook
 https://support.claude.com/en/articles/15330089
 https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion
-https://support.claude.com/en/articles/16764057
 https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data
 https://support.claude.com/en/articles/9945615-intro-to-artifacts
 https://support.claude.com/en/articles/9945670-using-the-github-integration

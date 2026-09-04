@@ -1,2 +1,1 @@
-https://support.claude.com/en/articles/14729249-use-artifacts-in-claude-cowork
-https://support.claude.com/en/articles/16764057
+https://platform.claude.com/cookbook/claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer

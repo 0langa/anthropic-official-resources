@@ -133,6 +133,8 @@ Choose the right model for your use case.
 
 ![](https://platform.claude.com/images/dashboard-discovery/head.svg)
 
+![](https://platform.claude.com/images/dashboard-discovery/head.svg)
+
 ### [Fable 5.1](https://platform.claude.com/docs/en/models/fable-5-1/overview)
 
 New
@@ -140,6 +142,8 @@ New
 Most capableResearchMulti-day tasks
 
 For demanding reasoning and long-horizon agentic work
+
+![](https://platform.claude.com/images/dashboard-discovery/cursor.svg)
 
 ![](https://platform.claude.com/images/dashboard-discovery/cursor.svg)
 
@@ -151,11 +155,15 @@ For complex agentic coding and enterprise work
 
 ![](https://platform.claude.com/images/dashboard-discovery/bubble.svg)
 
+![](https://platform.claude.com/images/dashboard-discovery/bubble.svg)
+
 ### [Sonnet 5](https://platform.claude.com/docs/en/models/sonnet-5/overview)
 
 Everyday tasksWritingCost-efficient
 
 The best combination of speed and intelligence
+
+![](https://platform.claude.com/images/dashboard-discovery/bird.svg)
 
 ![](https://platform.claude.com/images/dashboard-discovery/bird.svg)
 

@@ -28,11 +28,11 @@ In this notebook, we delve into addressing complex queries that extend over vari
 
 
 
-!pip install llama-index
+%pip install llama-index
 
-!pip install llama-index-llms-anthropic
+%pip install llama-index-llms-anthropic
 
-!pip install llama-index-embeddings-huggingface
+%pip install llama-index-embeddings-huggingface
 
 ###  Setup API Key
 
@@ -54,7 +54,7 @@ from llama\_index.llms.anthropic import Anthropic
 
 
 
-llm = Anthropic(temperature=0.0, model="claude-opus-4-1")
+llm = Anthropic(temperature=0.0, model="claude-opus-4-8")
 
 embed\_model = HuggingFaceEmbedding(model\_name="BAAI/bge-base-en-v1.5")
 

@@ -52,7 +52,7 @@ Chat and Cowork share one home on every surface. In the message box, select “C
 
 - **Projects.** From a project, you can start a chat or a Cowork session, and Claude uses the project's knowledge as context. If a project is tied to a local folder, it supports Cowork sessions only. Cowork uses one project at a time and won't change a project's contents, so add anything you want to keep to the project yourself.
 
-- **Artifacts.** Artifacts Claude creates in chat or Cowork show up in one artifacts view and are saved there. Live artifacts stay on the desktop app only.
+- **Artifacts.** Artifacts Claude creates in chat or Cowork show up in one artifacts view and are saved there. Artifacts created on or after August 19, 2026 are available on the desktop app and web. Live artifacts created before that date are available on the desktop app only.
 
 - **Recent history and search.** Both carry across chat and Cowork.
 

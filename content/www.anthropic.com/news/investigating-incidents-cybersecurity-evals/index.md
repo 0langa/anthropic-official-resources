@@ -1,3 +1,5 @@
+Announcements
+
 # Investigating three real-world incidents in our cybersecurity evaluations
 
 Jul 30, 2026

@@ -32,7 +32,7 @@ In this notebook, we'll walk you through the process of finetuning Claude 3 Haik
 
 
 
-!pip install boto3
+%pip install boto3
 
 
 

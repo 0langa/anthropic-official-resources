@@ -54,14 +54,15 @@
     "https://www.anthropic.com/research/attack-navigator",
     "https://www.anthropic.com/research/claude-fable-5-mythos-5",
     "https://www.anthropic.com/research/claude-opus-5",
+    "https://www.anthropic.com/research/claude-sonnet-5",
     "https://www.anthropic.com/research/claude-values-models-languages"
   ],
   "statuses": {
     "blocked": 3,
-    "complete": 3711,
+    "complete": 3712,
     "gone": 59,
     "out_of_scope": 26,
-    "partial": 51
+    "partial": 52
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/dashboard",
@@ -289,6 +290,7 @@
     "https://www.anthropic.com/research/attack-navigator",
     "https://www.anthropic.com/research/claude-fable-5-mythos-5",
     "https://www.anthropic.com/research/claude-opus-5",
+    "https://www.anthropic.com/research/claude-sonnet-5",
     "https://www.anthropic.com/research/claude-values-models-languages",
     "https://www.anthropic.com/research/cqz@anthropic.com",
     "https://www.anthropic.com/resources",
