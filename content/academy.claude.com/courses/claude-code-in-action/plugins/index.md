@@ -8,7 +8,7 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-code-in-action%2Fplugins)
 
-Embedded media: https://www.youtube-nocookie.com/embed/k4kZwJ0FtX0?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+Embedded media: https://www.youtube-nocookie.com/embed/DJNaTOFIQPs?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 Plugins
 
@@ -23,7 +23,7 @@ There are two sides to this, and we'll cover both. First, using plugins
 that other people publish. Second, packaging your own once you've built
 something worth sharing.
 
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=k4kZwJ0FtX0)
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=DJNaTOFIQPs)
 
 ## What a plugin is[](https://academy.claude.com/courses/claude-code-in-action/plugins)
 

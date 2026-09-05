@@ -1,3 +1,4 @@
+https://academy.claude.com/courses/building-effective-human-agent-teams/badge
 https://academy.claude.com/dashboard
 https://academy.claude.com/mcp
 https://academy.claude.com/products/code/webinars
@@ -16,7 +17,6 @@ https://code.claude.com/docs/en/examples
 https://code.claude.com/docs/en/reference
 https://platform.claude.com/cookbook/URL
 https://platform.claude.com/cookbook/block
-https://platform.claude.com/cookbook/claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/DOCX-JS
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/EXAMPLES
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/FORMS
@@ -45,6 +45,7 @@ https://platform.claude.com/docs/videos/3
 https://platform.claude.com/docs/videos/a
 https://support.claude.com/en/articles
 https://support.claude.com/en/articles/10389539-using-the-google-docs-integration
+https://support.claude.com/en/articles/10593882
 https://support.claude.com/en/articles/11506255-get-started-with-claude-in-slack
 https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack
 https://support.claude.com/en/articles/12306336-claude-for-chrome-release-notes
@@ -67,6 +68,8 @@ https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents
 https://support.claude.com/en/articles/14855664-use-claude-for-outlook
 https://support.claude.com/en/articles/15330089
 https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion
+https://support.claude.com/en/articles/16762437
+https://support.claude.com/en/articles/16824617-turn-on-data-retention-for-a-workspace-in-a-zero-data-retention-organization
 https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data
 https://support.claude.com/en/articles/9945615-intro-to-artifacts
 https://support.claude.com/en/articles/9945670-using-the-github-integration

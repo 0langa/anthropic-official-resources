@@ -8,95 +8,445 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-e6bs284y.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-m8ta2480.png)
 
-# Clickable prototype from real components
+**Cobalt — Web**×
 
-Reads your spec and component library, writes a clickable HTML prototype you can open in a browser.
++
 
-## Ask in plain English
+T
 
-Point Cowork at the prototype folder and describe the flow you want clickable.
+Northloop*/***Cobalt — Web**▾
 
-/design-handoffDesign
+*MO***Share**90%
+
+LayersAssets
+
+Pages+
+
+Cover
+
+Onboarding
+
+✓Settings
+
+Components
+
+Archive
+
+Layers
+
+Invite flow
+
+Invite 1 — Members
+
+Invite 2 — Add emails
+
+Invite 3 — Roles (B)
+
+Invite 4 — Sent
+
+Settings / Billing
+
+Settings / Security
+
+Section: Invite flow
+
+Invite 1 — Members
+
+CCobalt/Northloop›Workspace settings›**Members**Search people, settings`⌘K`PN
+
+*N*
+
+**Northloop**Team plan
+
+▼
+
+Workspace
+
+General
+
+Members*6*
+
+Billing
+
+Security
+
+Integrations
+
+Your account
+
+Profile
+
+Notifications
+
+6 of 10 seats usedManage plan
+
+Members
+
+6 of 10 seats used. Owners and admins can invite.
+
+Export CSVInvite people
+
+Search membersAll*6*Active*5*Pending*1*All roles▼
+
+<table class="mem"><thead><tr><th style="width:16px"><span class="cb"></span></th><th>Name</th><th>Role</th><th>Status</th><th>Last active</th><th></th></tr></thead><tbody><tr style="opacity: 1;"><td><span class="cb"></span></td><td><span class="who"><em style="background:#0ea5e9;">PN</em><span><b>Priya Nair</b><span>priya@northloop.io</span></span></span></td><td><span class="role own">Owner</span></td><td><span class="stt"><i></i>Active</span></td><td class="la">Active now</td><td class="mo">⋯</td></tr><tr style="opacity: 1;"><td><span class="cb"></span></td><td><span class="who"><em style="background:#f59e0b;">TR</em><span><b>Tomás Reyes</b><span>tomas@northloop.io</span></span></span></td><td><span class="role adm">Admin</span></td><td><span class="stt"><i></i>Active</span></td><td class="la">2 h ago</td><td class="mo">⋯</td></tr><tr style="opacity: 1;"><td><span class="cb"></span></td><td><span class="who"><em style="background:#10b981;">MC</em><span><b>Mei Chen</b><span>mei@northloop.io</span></span></span></td><td><span class="role">Member</span></td><td><span class="stt"><i></i>Active</span></td><td class="la">Yesterday</td><td class="mo">⋯</td></tr><tr style="opacity: 1;"><td><span class="cb"></span></td><td><span class="who"><em style="background:#8b5cf6;">JA</em><span><b>Jonah Adler</b><span>jonah@northloop.io</span></span></span></td><td><span class="role">Member</span></td><td><span class="stt"><i></i>Active</span></td><td class="la">3 days ago</td><td class="mo">⋯</td></tr><tr style="opacity: 1;"><td><span class="cb"></span></td><td><span class="who"><em style="background:#ef4444;">SB</em><span><b>Sadé Bankole</b><span>sade@northloop.io</span></span></span></td><td><span class="role bil">Billing</span></td><td><span class="stt"><i></i>Active</span></td><td class="la">25 Aug</td><td class="mo">⋯</td></tr><tr style="opacity: 1;"><td><span class="cb"></span></td><td><span class="who"><em style="background:#9ca3af;opacity:.55">LF</em><span><b>Luca Ferri</b><span>luca@northloop.io</span></span></span></td><td><span class="role">Member</span></td><td><span class="stt pd"><i></i>Pending</span></td><td class="la">Invited, pending</td><td class="mo">⋯</td></tr></tbody></table>
+
+v1, built 28 Aug from invite-flow-spec.docx Variant**A****B**
+
+Invite 2 — Add emails
+
+CCobalt/Northloop›Workspace settings›**Members**Search people, settings`⌘K`PN
+
+*N*
+
+**Northloop**Team plan
+
+▼
+
+Workspace
+
+General
+
+Members*6*
+
+Billing
+
+Security
+
+Integrations
+
+Your account
+
+Profile
+
+Notifications
+
+6 of 10 seats usedManage plan
+
+Members
+
+6 of 10 seats used. Owners and admins can invite.
+
+Export CSVInvite people
+
+Search membersAll*6*Active*5*Pending*1*All roles▼
+
+<table class="mem"><thead><tr><th style="width:16px"><span class="cb"></span></th><th>Name</th><th>Role</th><th>Status</th><th>Last active</th><th></th></tr></thead><tbody><tr style="opacity: 1;"><td><span class="cb"></span></td><td><span class="who"><em style="background:#0ea5e9;">PN</em><span><b>Priya Nair</b><span>priya@northloop.io</span></span></span></td><td><span class="role own">Owner</span></td><td><span class="stt"><i></i>Active</span></td><td class="la">Active now</td><td class="mo">⋯</td></tr><tr style="opacity: 1;"><td><span class="cb"></span></td><td><span class="who"><em style="background:#f59e0b;">TR</em><span><b>Tomás Reyes</b><span>tomas@northloop.io</span></span></span></td><td><span class="role adm">Admin</span></td><td><span class="stt"><i></i>Active</span></td><td class="la">2 h ago</td><td class="mo">⋯</td></tr><tr style="opacity: 1;"><td><span class="cb"></span></td><td><span class="who"><em style="background:#10b981;">MC</em><span><b>Mei Chen</b><span>mei@northloop.io</span></span></span></td><td><span class="role">Member</span></td><td><span class="stt"><i></i>Active</span></td><td class="la">Yesterday</td><td class="mo">⋯</td></tr><tr style="opacity: 1;"><td><span class="cb"></span></td><td><span class="who"><em style="background:#8b5cf6;">JA</em><span><b>Jonah Adler</b><span>jonah@northloop.io</span></span></span></td><td><span class="role">Member</span></td><td><span class="stt"><i></i>Active</span></td><td class="la">3 days ago</td><td class="mo">⋯</td></tr><tr style="opacity: 1;"><td><span class="cb"></span></td><td><span class="who"><em style="background:#ef4444;">SB</em><span><b>Sadé Bankole</b><span>sade@northloop.io</span></span></span></td><td><span class="role bil">Billing</span></td><td><span class="stt"><i></i>Active</span></td><td class="la">25 Aug</td><td class="mo">⋯</td></tr><tr style="opacity: 1;"><td><span class="cb"></span></td><td><span class="who"><em style="background:#9ca3af;opacity:.55">LF</em><span><b>Luca Ferri</b><span>luca@northloop.io</span></span></span></td><td><span class="role">Member</span></td><td><span class="stt pd"><i></i>Pending</span></td><td class="la">Invited, pending</td><td class="mo">⋯</td></tr></tbody></table>
+
+v1, built 28 Aug from invite-flow-spec.docx Variant**A****B**
+
+**Invite people to Northloop**They’ll get an email with a link that expires in 7 days.
+
+×
+
+Email addresses*Comma or Enter to add*
+
+dev@northloop.io**×**hana@northloop.io**×**ops@northloop.io**×**
+
+Role for each person*3 people*
+
+*D*dev@northloop.ioMember▼
+
+*H*hana@northloop.ioAdmin▼
+
+*O*ops@northloop.ioMember▼
+
+3 invites, 1 seat left after sendingCancelSend 3 invites
+
+Variant**A****B**A: role per row. B: separate Choose roles step. From invite-flow-spec.docx §3.
+
+Invite 3 — Roles (B)
+
+CCobalt/Northloop›Workspace settings›**Invite people**Search people, settings`⌘K`PN
+
+*N*
+
+**Northloop**Team plan
+
+▼
+
+Workspace
+
+General
+
+Members*6*
+
+Billing
+
+Security
+
+Integrations
+
+Your account
+
+Profile
+
+Notifications
+
+6 of 10 seats usedManage plan
+
+Invite people, step 2 of 2
+
+Choose roles
+
+dev@northloop.ioMember▼
+
+hana@northloop.ioAdmin▼
+
+ops@northloop.ioMember▼
+
+BackSend 3 invites
+
+v1, built 28 Aug from invite-flow-spec.docx Variant**A****B**
+
+Invite 4 — Sent
+
+CCobalt/Northloop›Workspace settings›**Members**Search people, settings`⌘K`PN
+
+*N*
+
+**Northloop**Team plan
+
+▼
+
+Workspace
+
+General
+
+Members*9*
+
+Billing
+
+Security
+
+Integrations
+
+Your account
+
+Profile
+
+Notifications
+
+9 of 10 seats usedManage plan
+
+Members
+
+9 of 10 seats used.
+
+Invite people
+
+<table class="mem"><thead><tr><th style="width:16px"><span class="cb"></span></th><th>Name</th><th>Role</th><th>Status</th><th>Last active</th><th></th></tr></thead><tbody><tr style="opacity: 1;"><td><span class="cb"></span></td><td><span class="who"><em style="background:#0ea5e9;">PN</em><span><b>Priya Nair</b><span>priya@northloop.io</span></span></span></td><td><span class="role own">Owner</span></td><td><span class="stt"><i></i>Active</span></td><td class="la">Active now</td><td class="mo">⋯</td></tr><tr style="opacity: 1;"><td><span class="cb"></span></td><td><span class="who"><em style="background:#f59e0b;">TR</em><span><b>Tomás Reyes</b><span>tomas@northloop.io</span></span></span></td><td><span class="role adm">Admin</span></td><td><span class="stt"><i></i>Active</span></td><td class="la">2 h ago</td><td class="mo">⋯</td></tr><tr style="opacity: 1;"><td><span class="cb"></span></td><td><span class="who"><em style="background:#10b981;">MC</em><span><b>Mei Chen</b><span>mei@northloop.io</span></span></span></td><td><span class="role">Member</span></td><td><span class="stt"><i></i>Active</span></td><td class="la">Yesterday</td><td class="mo">⋯</td></tr><tr style="opacity: 1;"><td><span class="cb"></span></td><td><span class="who"><em style="background:#9ca3af;opacity:.55">D</em><span><b>dev</b><span>dev@northloop.io</span></span></span></td><td><span class="role">Member</span></td><td><span class="stt pd"><i></i>Pending</span></td><td class="la">Invited, pending</td><td class="mo">⋯</td></tr><tr style="opacity: 1;"><td><span class="cb"></span></td><td><span class="who"><em style="background:#9ca3af;opacity:.55">H</em><span><b>hana</b><span>hana@northloop.io</span></span></span></td><td><span class="role">Member</span></td><td><span class="stt pd"><i></i>Pending</span></td><td class="la">Invited, pending</td><td class="mo">⋯</td></tr><tr style="opacity: 1;"><td><span class="cb"></span></td><td><span class="who"><em style="background:#9ca3af;opacity:.55">O</em><span><b>ops</b><span>ops@northloop.io</span></span></span></td><td><span class="role">Member</span></td><td><span class="stt pd"><i></i>Pending</span></td><td class="la">Invited, pending</td><td class="mo">⋯</td></tr></tbody></table>
+
+v1, built 28 Aug from invite-flow-spec.docx Variant**A****B**
+
+✓  3 invites sent
+
+DesignPrototype90%
+
+Section
+
+Frames4
+
+Prototype
+
+InteractionsNone
+
+Flow starting point—
+
+Build a clickable prototype
+
+You need a version of a new flow that people can actually click through.
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%230ACF83'%20d='M8%2024a4%204%200%200%200%204-4v-4H8a4%204%200%200%200%200%208Z'/%3e%3cpath%20fill='%23A259FF'%20d='M4%2012a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23F24E1E'%20d='M4%204a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23FF7262'%20d='M12%200h4a4%204%200%200%201%200%208h-4V0Z'/%3e%3cpath%20fill='%231ABCFE'%20d='M20%2012a4%204%200%201%201-8%200%204%204%200%200%201%208%200Z'/%3e%3c/svg%3e)
+
+Figma
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23181717'%20d='M12%20.3a12%2012%200%200%200-3.8%2023.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73%201.2.09%201.84%201.24%201.84%201.24%201.07%201.83%202.81%201.3%203.49%201%20.11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93%200-1.31.47-2.38%201.24-3.22-.13-.3-.54-1.52.11-3.18%200%200%201.01-.32%203.3%201.23a11.5%2011.5%200%200%201%206%200c2.29-1.55%203.3-1.23%203.3-1.23.65%201.66.24%202.88.12%203.18.77.84%201.23%201.91%201.23%203.22%200%204.61-2.8%205.63-5.48%205.92.43.37.81%201.1.81%202.22v3.29c0%20.32.22.7.82.58A12%2012%200%200%200%2012%20.3'/%3e%3c/svg%3e)
+
+GitHub
 
 Prototypes / Invite-Flow
 
-## Cowork reads your real library
+Spec, tokens, stylesheet
 
-The skill pulls the spec and published components, then builds each screen from real parts.
+Folder
 
-Working on clickable prototype
+invite-flow-spec.docx
 
-Reading invite-flow-spec.docx
+Four screens, two role variants
 
-Result
+DOCX
 
-Reading Figma — published components
+tokens.json
 
-Result
+With design-system.css
 
-Reading design-system.css + tokens.json
+JSON
 
-Result
+Design
 
-Building 4 screens with wired navigation
+/design-handoff
 
-Result
+/design-system
 
-Writing prototype/index.html
+/ux-copy
 
-Result
+How can I help you today?
 
-#### Progress
+**/**design-handoff Build a clickable HTML prototype of the flow in this folder. Use only our design system library's components. Wire up the navigation, use realistic placeholder data, and write it to prototype/index.html so I can click through in a browser.
 
-1
+Reading invite-flow-spec.docx0s
 
-Read the flow spec
+Read4 sources
 
-2
+Readinvite-flow-spec.docx, 4 screens
 
-Load component library
+Readtokens.json and design-system.css
 
-3
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%230ACF83'%20d='M8%2024a4%204%200%200%200%204-4v-4H8a4%204%200%200%200%200%208Z'/%3e%3cpath%20fill='%23A259FF'%20d='M4%2012a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23F24E1E'%20d='M4%204a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23FF7262'%20d='M12%200h4a4%204%200%200%201%200%208h-4V0Z'/%3e%3cpath%20fill='%231ABCFE'%20d='M20%2012a4%204%200%201%201-8%200%204%204%200%200%201%208%200Z'/%3e%3c/svg%3e)ReadInvite flow frames in Cobalt — Web, 4 frames
 
-Build each screen
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23181717'%20d='M12%20.3a12%2012%200%200%200-3.8%2023.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73%201.2.09%201.84%201.24%201.84%201.24%201.07%201.83%202.81%201.3%203.49%201%20.11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93%200-1.31.47-2.38%201.24-3.22-.13-.3-.54-1.52.11-3.18%200%200%201.01-.32%203.3%201.23a11.5%2011.5%200%200%201%206%200c2.29-1.55%203.3-1.23%203.3-1.23.65%201.66.24%202.88.12%203.18.77.84%201.23%201.91%201.23%203.22%200%204.61-2.8%205.63-5.48%205.92.43.37.81%201.1.81%202.22v3.29c0%20.32.22.7.82.58A12%2012%200%200%200%2012%20.3'/%3e%3c/svg%3e)Readcobalt/ui components, 7 used
 
-4
+Build the role dropdown, the separate step, or both?
 
-Wire the navigation
+Both, with a switch to compare
 
-5
+Only the dropdown per row
 
-Write prototype to folder
+Only the separate step
 
-## A prototype you can click through
+Both, with a switch to compare
 
-Real components, wired navigation, realistic data — written back to the folder.
+Both, with a switch to compare.
 
-**4 screens built** from the spec — invite list, compose modal, role picker, and confirmation. Every element is a component from your published library; nothing was invented.
+Used 4 sources45s
 
-**Navigation is wired.** Send Invite opens the compose modal, picking a role advances to confirmation, and the back link returns to the list with state intact.
+I built prototype/index.html from seven @cobalt/ui components with tokens.json and design-system.css unchanged, and wired all four screens: Members → Invite → Roles → Sent work, and Back keeps what you typed. Both role variants are in it behind the A/B switch, as you chose, with realistic member data.
 
-Filled with **realistic placeholder data** — names, emails, and role labels that read like the product. Open it in a browser and click through.
+invite-flow-prototype
 
-prototype/index.html
+Interactive artifact
 
-Document · HTML · 38 KB
+Download
 
-## Rebuild it whenever the spec moves
+**invite-flow-prototype**
 
-Schedule the skill and the prototype rebuilds from the folder each morning, no request needed.
+*Copy*Publish
 
-Prototypes
+CCobalt/Northloop›Workspace settings›**Members**Search people, settings`⌘K`PN
 
-Scheduled
+*N*
 
-Daily prototype rebuild
+**Northloop**Team plan
 
-Runs `/design-handoff` against Prototypes/Invite-Flow and rebuilds the clickable HTML with a bumped version stamp.
+▼
 
-Weekdays at **7 am**
+Workspace
 
-Every morning, the clickable prototype matches whatever’s in the spec — ready to put in front of users.
+General
+
+Members*6*
+
+Billing
+
+Security
+
+Integrations
+
+Your account
+
+Profile
+
+Notifications
+
+6 of 10 seats usedManage plan
+
+Members
+
+6 of 10 seats used. Owners and admins can invite.
+
+Export CSVInvite people
+
+Search membersAll*6*Active*5*Pending*1*All roles▼
+
+<table class="mem"><thead><tr><th style="width:16px"><span class="cb"></span></th><th>Name</th><th>Role</th><th>Status</th><th>Last active</th><th></th></tr></thead><tbody><tr><td><span class="cb"></span></td><td><span class="who"><em style="background:#0ea5e9;">PN</em><span><b>Priya Nair</b><span>priya@northloop.io</span></span></span></td><td><span class="role own">Owner</span></td><td><span class="stt"><i></i>Active</span></td><td class="la">Active now</td><td class="mo">⋯</td></tr><tr><td><span class="cb"></span></td><td><span class="who"><em style="background:#f59e0b;">TR</em><span><b>Tomás Reyes</b><span>tomas@northloop.io</span></span></span></td><td><span class="role adm">Admin</span></td><td><span class="stt"><i></i>Active</span></td><td class="la">2 h ago</td><td class="mo">⋯</td></tr><tr><td><span class="cb"></span></td><td><span class="who"><em style="background:#10b981;">MC</em><span><b>Mei Chen</b><span>mei@northloop.io</span></span></span></td><td><span class="role">Member</span></td><td><span class="stt"><i></i>Active</span></td><td class="la">Yesterday</td><td class="mo">⋯</td></tr><tr><td><span class="cb"></span></td><td><span class="who"><em style="background:#8b5cf6;">JA</em><span><b>Jonah Adler</b><span>jonah@northloop.io</span></span></span></td><td><span class="role">Member</span></td><td><span class="stt"><i></i>Active</span></td><td class="la">3 days ago</td><td class="mo">⋯</td></tr><tr><td><span class="cb"></span></td><td><span class="who"><em style="background:#ef4444;">SB</em><span><b>Sadé Bankole</b><span>sade@northloop.io</span></span></span></td><td><span class="role bil">Billing</span></td><td><span class="stt"><i></i>Active</span></td><td class="la">25 Aug</td><td class="mo">⋯</td></tr><tr><td><span class="cb"></span></td><td><span class="who"><em style="background:#9ca3af;opacity:.55">LF</em><span><b>Luca Ferri</b><span>luca@northloop.io</span></span></span></td><td><span class="role">Member</span></td><td><span class="stt pd"><i></i>Pending</span></td><td class="la">Invited, pending</td><td class="mo">⋯</td></tr></tbody></table>
+
+v1, built 28 Aug from invite-flow-spec.docx Variant**A****B**
+
+**Invite people to Northloop**They’ll get an email with a link that expires in 7 days.
+
+×
+
+Email addresses*Comma or Enter to add*
+
+dev@northloop.io**×**hana@northloop.io**×**ops@northloop.io**×**
+
+Role for each person*3 people*
+
+*D*dev@northloop.ioMember▼
+
+*H*hana@northloop.ioAdmin▼
+
+*O*ops@northloop.ioMember▼
+
+3 invites, 1 seat left after sendingCancelSend 3 invites
+
+Variant**A****B**A: role per row. B: separate Choose roles step. From invite-flow-spec.docx §3.
+
+Every control is a library component, and the navigation between screens works.
+
+Both options sit in one prototype, so a participant can try each.
+
+**/schedule** Weekdays at 7am: if the spec or the Figma frames changed, rebuild prototype/index.html from library components only and bump the version stamp.
+
+**Prototype rebuild**Weekdays at 7:00 AM
+
+Each run
+
+Checks Prototypes / Invite-Flow and the Figma file for changes
+
+Rebuilds prototype/index.html from library components only
+
+Bumps the version stamp*so testers know which build they saw*
+
+Claude Academy
+
+
+
+0:03 / 0:561×
+
+Illustration. Product screens are simplified.
+
+Build a clickable prototype
+
+You need a version of a new flow that people can actually click through.
+
+With the Design plugin’s handoff skill, give the spec and tokens, and allow only library components.
+
+Claude reads the spec, your tokens, the design frames and the component code first.
+
+Wherever a decision is yours to make, Claude asks instead of guessing.
+
+Claude tells you what it built, then gives you a page for the browser.
+
+Every control is a library component, and the navigation between screens works.
+
+Both options sit in one prototype, so a participant can try each.
+
+You can schedule a rebuild each morning so the prototype follows the spec.
+
+You can test a prototype that behaves like the real product.
+
+Build a clickable HTML prototype of the flow in this folder. Use only our design system library's components. Wire up the navigation, use realistic placeholder data, and write it to prototype/index.html so I can click through in a browser.
+
+Build the role dropdown, the separate step, or both? Both, with a switch to compare / Only the dropdown per row / Only the separate step
+
+I built prototype/index.html from seven @cobalt/ui components with tokens.json and design-system.css unchanged, and wired all four screens: Members → Invite → Roles → Sent work, and Back keeps what you typed. Both role variants are in it behind the A/B switch, as you chose, with realistic member data.
+
+invite-flow-prototype
+
+Skill: /design-handoff (Design)
+
+Connectors: Figma, GitHub
 
 ## Set up[](https://academy.claude.com/use-cases/clickable-prototype)
 

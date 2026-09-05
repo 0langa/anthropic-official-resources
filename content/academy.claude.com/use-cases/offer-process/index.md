@@ -8,147 +8,248 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-jslgxynt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-fx1l2f4o.png)
 
-# Offer process
+Prepare a job offer
 
-Cowork reads candidate details and your template, then drafts the email, offer, and deck.
+Your finalist’s pay is approved and you need the offer ready to send.
 
-## Ask in plain English
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23F25022'%20d='M1%201h10.5v10.5H1z'/%3e%3cpath%20fill='%237FBA00'%20d='M12.5%201H23v10.5H12.5z'/%3e%3cpath%20fill='%2300A4EF'%20d='M1%2012.5h10.5V23H1z'/%3e%3cpath%20fill='%23FFB900'%20d='M12.5%2012.5H23V23H12.5z'/%3e%3c/svg%3e)
 
-Point Cowork at the role’s offers folder and describe the package you need.
-
-/offer-packageHuman Resources
+Microsoft 365
 
 Hiring / Senior-PM-Growth / offers
 
-## Cowork assembles the package
+4 files
 
-Candidate summary, template, and comp from the folder, letter staged in DocuSign.
-
-Working on offer package
-
-Google Drive · read candidate-summary-ARivera.pdf
-
-Result
-
-Google Drive · read offer-letter-template and benefits-overview-2026
-
-Result
-
-Filling offer fields against approved L5 comp · drafting candidate email
-
-Result
-
-ds
-
-DocuSign · staged offer-ARivera.docx envelope (draft, not sent)
-
-Result
-
-Created offer-call-deck.html
-
-offer-call-deck.html
-
-Done
-
-#### Progress
-
-1
-
-Read candidate summary from folder
-
-2
-
-Read template and approved comp
-
-3
-
-Fill offer and draft email
-
-4
-
-Stage letter for signature
-
-5
-
-Build offer-call deck
-
-#### Senior-PM-Growth / offers
-
-offer-letter-template.docx
-
-candidate-summary-ARivera.pdf
+Folder
 
 comp-approval.xlsx
 
-benefits-overview-2026.pdf
+Approved terms
 
-#### Context
+XLSX
 
-Connectors
+candidate-summary-ARivera.pdf
 
-Google Drive
+Panel notes
 
-dsDocuSign
+PDF
 
-## Ready for the offer call
+Human Resources
 
-A screenshare deck with the role, the numbers, and why you’re excited — plus the filled offer and email draft in the folder.
+/comp-analysis
 
-Offer · Senior Product Manager, Growth
+/draft-offer
 
-Welcome, Ana Rivera
+/recruiting-pipeline
 
-Base
+How can I help you today?
 
-$185,000
+**/**draft-offer Prepare our finalist's offer package. Fill the offer fields for my review, draft a warm email that sets up the call, and build a short deck for the call: the role, the numbers, and why we're excited about them.
 
-Equity
+Reading the candidate summary0s
 
-14,000 RSUs
+Read4 sources
 
-Sign-on
+Readcandidate-summary-ARivera.pdf
 
-$15,000
+Readoffer-letter-template.docx, 14 fields
 
-Target start
+Readcomp-approval.xlsx, approved 23 Apr
 
-May 18, 2026
+Readbenefits-overview-2026.pdf
 
-Why we’re excited
+Should the sign-on bonus be in the first offer?
 
-Ran activation experiments at Harbor that lifted day-7 retention 6 points
+Hold it back for the call
 
-Led a four-PM growth pod — the same remit this role carries
+Include it now
 
-Panel called out sharp product judgment and clear written narratives
+Hold it back for the call
 
-1 / 6 · offer-call-deck.html
+Hold it for the call.
 
-Offer letter — A. Rivera
+Used 4 sources43s
 
-Document · DOCX · filled, for review
+I filled your template’s 14 fields from the 23 April approval ($192,000 base, 15% bonus, 4,800 RSUs, start 18 May) and built the six-slide deck on the same figures. The sign-on is held back for the call, as you said.
 
-Candidate email — A. Rivera
+offer-letter-ARivera.docx
 
-Document · Draft · sets up the call
+Document
 
-## Make it run on every finalist
+Download
 
-Customize the skill once, then trigger it whenever a candidate reaches Offer.
+offer-call-ARivera.pptx
 
-/schedule
+Presentation
 
-Hiring
+Download
 
-Scheduled
+offer-letter-ARivera.docx
 
-Offer package on stage change
+HomeInsertDrawDesignLayoutReferencesReviewView
 
-Runs `/offer-package` each weekday morning for any candidate who moved to Offer overnight and writes the email, filled offer, and deck to the role’s offers folder.
+**Filled for your review**Draft · nothing sent to the candidate · delete this panel before sending
 
-Weekdays at **9am** · checks the hiring folder for new **Offer-stage** candidates
+<table class="rvt"><tbody><tr><td>Source</td><td>14 template fields filled from comp-approval.xlsx (Req R-2026-031, <span class="pill g">Approved</span> 23 Apr 2026: Dana Whitfield, VP Product · Marcus Osei, Finance) and candidate-summary-ARivera.pdf</td></tr>
+<tr><td>Base vs band</td><td><div class="band"><i style="left:72.7%"></i></div><div class="bl"><span>$176,000</span><span>Band L5-PM · offer $192,000, 73rd percentile</span><span>$198,000</span></div></td></tr></tbody></table>
 
-Every finalist gets a complete offer package the moment they reach the Offer stage.
+Kitewell
+
+Kitewell, Inc.  
+500 Howard Street, San Francisco, CA 94105
+
+April 28, 2026
+
+Dear Ana,
+
+On behalf of Kitewell, Inc., I am delighted to offer you the position of **Senior Product Manager, Growth**, reporting to Dana Whitfield, VP Product, based in our San Francisco office (hybrid). Your anticipated start date is **Monday, May 18, 2026**.
+
+## Compensation
+
+<table class="comp"><thead><tr><th>Element</th><th class="r">Amount</th><th>Terms</th></tr></thead><tbody>
+<tr><td>Base salary</td><td class="r">$192,000</td><td>Per year, paid semi-monthly</td></tr>
+<tr><td>Annual bonus</td><td class="r">$28,800</td><td>Target 15% of base salary, shown at target, under the Kitewell Bonus Plan; first eligible for the 2026 plan year on a pro-rated basis</td></tr>
+<tr><td>Equity</td><td class="r">4,800 RSUs</td><td>Restricted stock units vesting over four years with a one-year cliff and quarterly thereafter, subject to approval by the Board of Directors</td></tr>
+<tr><td>Benefits</td><td class="r">From start date</td><td>Medical, dental and vision from your start date; 401(k) with 4% match; details in the enclosed 2026 Benefits Overview</td></tr></tbody>
+<tfoot><tr><td>First-year cash at target</td><td class="r">$220,800</td><td>Base + bonus</td></tr></tfoot></table>
+
+This offer is contingent on completion of a background check and verification of your eligibility to work in the United States. Your employment with Kitewell is at will, which means that either you or Kitewell may end the employment relationship at any time, with or without cause or notice.
+
+This offer remains open until **May 5, 2026**. To accept, please sign below and return a copy to me.
+
+Sincerely,  
+Maya Chen  
+Senior Recruiter, Kitewell
+
+<table class="acc"><tbody><tr><td><i></i>Accepted: Ana Rivera</td><td><i></i>Date</td></tr></tbody></table>
+
+Page 1 of 41,286 wordsEnglish (US)Focus90%
+
+Every number in the letter comes from the approval you attached.
+
+![](https://academy.claude.com/assets/v1/google-slides-89ww9gcq.svg)offer-call-ARivera.pptx
+
+HomeInsertDrawDesignTransitionsAnimationsSlide ShowReviewView
+
+Layout
+
+Aptos
+
+18
+
+1
+
+Ana, we’d love you to join Kitewell
+
+Offer conversation · April 2026
+
+2
+
+The role: Senior PM, Growth
+
+3
+
+Why we’re excited about you
+
+4
+
+Your offer
+
+$192,000
+
+5
+
+Benefits and your first 90 days
+
+6
+
+Next steps
+
+Why we’re excited about you
+
+You have already done the job we’re hiring for.
+
+- 1
+
+  At Harbor you ran the activation experiments that lifted day-7 retention from 41% to 47%, which is the metric this team owns.
+
+  Portfolio review with Luis, 14 Apr
+- 2
+
+  You led a four-PM growth pod through a replatform, which is the remit here from day one.
+
+  Hiring-manager interview with Dana, 9 Apr
+- 3
+
+  Every interviewer noted the same two things: clear written narratives, and sharp calls on what not to build.
+
+  Panel debrief, 21 Apr
+
+From your conversations with Dana, Luis, Preethi and Sam, April 2026 · candidate-summary-ARivera.pdf3 of 6
+
+Slide 3 of 6English (US)Notes▭ ▤ ▦— ◯ +  68%
+
+Claude writes why you want this candidate from your own interview notes.
+
+Claude wants to use **Create draft** from Microsoft 365
+
+To **Ana Rivera** · Kitewell: good news, and a call this week?
+
+Hi Ana, the panel came away excited and I’d love to walk you through an offer; could we find 30 minutes Wednesday or Thursday, with Dana joining? Talk soon, Maya
+
+Allow onceAlways allowDeny
+
+Saved to Outlook drafts, not sent
+
+**Offer package on stage change**Weekdays at 9:00 AM
+
+Each run
+
+Checks the hiring folder for candidates moved to Offer
+
+Runs /draft-offer and writes the package to that role’s folder
+
+Sends nothing to the candidate*until you approve*
+
+Claude Academy
+
+
+
+0:03 / 0:561×
+
+Illustration. Product screens are simplified.
+
+Prepare a job offer
+
+Your finalist’s pay is approved and you need the offer ready to send.
+
+Using the Human Resources plugin’s draft offer skill, ask for the letter, email and deck together.
+
+Claude reads the candidate summary, your template, the approved numbers and the benefits sheet.
+
+Claude checks with you before it decides anything that is your call.
+
+Claude tells you what it filled in, then gives you the letter and deck.
+
+Every number in the letter comes from the approval you attached.
+
+Claude writes why you want this candidate from your own interview notes.
+
+You approve the email draft first, and can schedule a package for each new finalist.
+
+The offer letter goes out correct and consistent, after you review it.
+
+Prepare our finalist's offer package. Fill the offer fields for my review, draft a warm email that sets up the call, and build a short deck for the call: the role, the numbers, and why we're excited about them.
+
+Should the sign-on bonus be in the first offer? Hold it back for the call / Include it now
+
+I filled your template’s 14 fields from the 23 April approval ($192,000 base, 15% bonus, 4,800 RSUs, start 18 May) and built the six-slide deck on the same figures. The sign-on is held back for the call, as you said.
+
+offer-letter-ARivera.docx, offer-call-ARivera.pptx
+
+Skill: /draft-offer (Human Resources)
+
+Connectors: Microsoft 365
 
 ## 1. Set up[](https://academy.claude.com/use-cases/offer-process)
 

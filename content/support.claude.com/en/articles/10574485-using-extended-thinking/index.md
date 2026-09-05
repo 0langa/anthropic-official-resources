@@ -1,6 +1,6 @@
 # Change the model, effort, and thinking settings
 
-Updated yesterday
+Updated this week
 
 Copy for LLM
 

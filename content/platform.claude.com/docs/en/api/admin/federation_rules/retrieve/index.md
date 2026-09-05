@@ -7,6 +7,8 @@ url: https://platform.claude.com/docs/en/api/admin/federation_rules/retrieve
 
 **get** `/v1/organizations/federation_rules/{federation_rule_id}`
 
+**Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
+
 Retrieve a federation rule by its ID (`fdrl_...`).
 
 ### Path Parameters
@@ -151,7 +153,7 @@ Retrieve a federation rule by its ID (`fdrl_...`).
 ```http
 curl https://api.anthropic.com/v1/organizations/federation_rules/$FEDERATION_RULE_ID \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_OAUTH_TOKEN"
+    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
 ```
 
 #### Response

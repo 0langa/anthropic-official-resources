@@ -8,133 +8,282 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-lfte5epc.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ljg8b3c8.png)
 
-# The competitive comparison doc
+Build the competitive comparison
 
-Reads their materials against your positioning and outputs a sales deck and Excel matrix.
-
-## Ask in plain English
-
-Point Cowork at the competitive folder and ask for a verdict on every row, in both formats sales needs.
-
-Competitive / Acme
-
-## Cowork reads both sides
-
-Their pricing page and datasheet, your positioning and last quarter’s deck — every row gets a call.
-
-Running `/competitor-compare` for Acme
-
-Read acme.com pricing page — three tiers, usage add-ons priced per seat
-
-Result
-
-Reading acme-datasheet.pdf — feature claims, limits, fine print
-
-Result
+Sales wants to know how you compare with a competitor.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)
 
-Google Drive · read our-positioning.docx and comparison-q1.pptx
-
-Result
+Google Drive
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)
 
-Slack · read the #competitive thread that asked for the comparison
-
-Result
-
-Scoring 31 rows win / lose / draw against our positioning
-
-Result
-
-Created acme-comparison-deck.pptx and acme-feature-matrix.xlsx
-
-acme-feature-matrix.xlsx
-
-Done
-
-#### Progress
-
-1
-
-Read the competitor’s materials
-
-2
-
-Read positioning and last deck
-
-3
-
-Call win / lose / draw per row
-
-4
-
-Build the sales deck
-
-5
-
-Write the matrix to folder
-
-#### Competitive / Acme
-
-PDFacme-pricing-page.pdf
-
-PDFacme-datasheet.pdf
-
-DOCour-positioning.docx
-
-PPTcomparison-q1.pptx
-
-#### Context
-
-Connectors
-
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)Google Drive
-
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)Slack
-
-## A verdict on every row
-
-The deck and the matrix land in the folder — win, lose, or draw, argued in your language.
-
-WIN 14 · DRAW 9 · LOSE 8 Acme · Feature comparison · Apr 28
-
-We win on implementation time, admin controls, and everything governance — their own datasheet caps audit logs at 30 days. They win on entry price and prebuilt integrations. The middle nine rows are a draw that comes down to deployment model.
-
-**Deck:** twelve slides for sales — the win story up front, draw rows framed as questions to ask, and talk tracks for the eight rows where they beat us.
-
-**Matrix:** all 31 rows in Excel with one verdict and the source per row — filter to “lose” before any deal where price comes up.
-
-Acme comparison deck
-
-Presentation · PowerPoint · Competitive / Acme
-
-Acme feature matrix
-
-Workbook · Excel · Competitive / Acme
-
-## Keep it current every quarter
-
-Schedule the rerun — the deck and matrix refresh whenever their pricing or datasheet moves.
+Slack
 
 Competitive / Acme
 
-Scheduled
+Folder on this Mac
 
-Quarterly competitive refresh
+Folder
 
-Runs `/competitor-compare` against Acme’s latest public materials, rebuilds the deck and the matrix, and posts any changed verdicts to #competitive.
+acme-datasheet.pdf
 
-First **Monday of the quarter at 7:00 AM**
+14 pages
 
-Sales walks in with a verdict on every row — and the matrix to back it up.
+PDF
+
+Marketing
+
+/campaign-plan
+
+/competitive-brief
+
+/draft-content
+
+How can I help you today?
+
+**/**competitive-brief Acme vs us, from their site, pricing page and datasheet plus our positioning doc: where we win, where they win, and where it's a draw. Give me a PowerPoint deck for sales and an Excel matrix, feature by feature.
+
+Reading acme-cloud.example/pricing0s
+
+Read5 sources
+
+Readacme-cloud.example/pricing
+
+Readacme-datasheet.pdf
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)Readpositioning-v7
+
+![](https://academy.claude.com/assets/v1/google-slides-89ww9gcq.svg)Readcomparison-Q1.pptx
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)Read#competitive
+
+Who is this comparison deck for?
+
+An enterprise security buyer
+
+A mid-market operations lead
+
+An enterprise security buyer
+
+An enterprise security buyer
+
+Used 5 sources43s
+
+I compared Acme’s site, pricing page and datasheet with positioning-v7 across 31 features, scored for an enterprise security buyer as you chose, and built the 12-slide deck and the matrix. The deck leads with the strongest wins and gives sales a talk track for each loss; every matrix row names its source page.
+
+acme-comparison-deck.pptx
+
+Presentation
+
+Download
+
+acme-feature-matrix.xlsx
+
+Spreadsheet
+
+Download
+
+![](https://academy.claude.com/assets/v1/google-slides-89ww9gcq.svg)acme-comparison-deck.pptx
+
+HomeInsertDrawDesignTransitionsAnimationsSlide ShowReviewView
+
+Layout
+
+Aptos
+
+18
+
+1
+
+Acme vs us: where we win, where they win, and where it is a draw
+
+For an enterprise security buyer · Q3 2026
+
+2
+
+Twelve features scored: we win six, draw three, lose three
+
+3
+
+Where we win
+
+We keep every audit event. Acme keeps 30 days.
+
+4
+
+Where we win
+
+Custom admin roles, not two fixed ones
+
+5
+
+Where we win
+
+Live in two weeks, not six to ten
+
+6
+
+Where we win
+
+SSO on every plan. Acme sells it on Enterprise only.
+
+7
+
+A draw
+
+Three draws to concede cleanly: API, mobile, residency
+
+8
+
+Where they win
+
+Acme is $6 a seat cheaper. Compare year one, not list price.
+
+9
+
+Where they win
+
+Acme lists 140 integrations. Six are the ones they use.
+
+10
+
+Where they win
+
+Acme has a free tier. Our trials convert around day nine.
+
+11
+
+The talk track: each objection, one answer, one source
+
+12
+
+What to re-check next quarter, and who owns it
+
+Sources · acme-cloud.example · datasheet · positioning-v7 · comparison-Q1 · #competitive
+
+Where we win · 1 of 4
+
+We keep every audit event.  
+Acme keeps 30 days.
+
+On Acme’s Starter and Team plans, an audit log older than a month is gone. Ours stays on every plan, which is the first thing a security review asks for.
+
+**Say it this way.** “Your SOC 2 auditor will ask for twelve months of access history. With us that is one export. On Acme’s Team plan it does not exist.”
+
+Months of audit history a customer can export
+
+Acme Starter
+
+from $12 a seat
+
+30 days
+
+Acme Team
+
+from $12 a seat
+
+30 days
+
+Acme Enterprise
+
+custom pricing
+
+1 year
+
+Us, every plan
+
+from $18 a seat
+
+No limit
+
+month 1month 12
+
+Sourcesacme-datasheet.pdf, p.4 “Data retention”|acme-cloud.example/pricing, 14 Aug 2026|positioning-v7, “What we say first”
+
+Acme vs us · Q3 20263 of 12
+
+Slide 3 of 12English (US)Notes▭ ▤ ▦— ◯ +  68%
+
+Each slide says where its claim came from.
+
+![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)acme-feature-matrix.xlsx
+
+HomeInsertDrawPage LayoutFormulasDataReviewView
+
+Aptos Narrow
+
+11
+
+General
+
+E10
+
+fx
+
+acme-cloud.example/pricing
+
+<table><thead><tr><th class="rh"></th><th style="width:250px">A</th><th style="width:190px">B</th><th style="width:190px">C</th><th style="width:100px">D</th><th style="width:220px">E</th><th style="width:330px">F</th></tr></thead><tbody><tr class="ttlr" style="opacity: 0;"><td class="rh">1</td><td colspan="6" style="font:700 15px -apple-system,Aptos,system-ui;color:#1f2328;height:30px;border-color:transparent transparent #e6e6e6">Acme vs us — feature matrix<span style="font-weight:400;color:#6b7280;margin-left:10px">31 features · for an enterprise security buyer · sources per row</span></td></tr><tr class="hdr" style="opacity: 0;"><td class="rh" style="opacity: 1;">2</td><td style="opacity: 1;">Feature<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td style="opacity: 1;">Acme<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td style="opacity: 1;">Us<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td style="opacity: 1;">Verdict<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td style="opacity: 1;">Source<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td style="opacity: 1;">Note for sales<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td></tr><tr class="r0" style="opacity: 0;"><td class="rh" style="opacity: 1;">3</td><td class="c0" style="opacity: 1;">Audit log retention</td><td class="c1" style="opacity: 1;">30 days</td><td class="c2" style="opacity: 1;">Unlimited</td><td class="c3" style="opacity: 1;"><span class="vw w">WIN</span></td><td class="c4" style="opacity: 1;">datasheet p.4</td><td class="c5" style="opacity: 1;">Lead with this in security reviews</td></tr><tr class="r1 band" style="opacity: 0;"><td class="rh" style="opacity: 1;">4</td><td class="c0" style="opacity: 1;">SSO / SAML</td><td class="c1" style="opacity: 1;">Enterprise tier only</td><td class="c2" style="opacity: 1;">All plans</td><td class="c3" style="opacity: 1;"><span class="vw w">WIN</span></td><td class="c4" style="opacity: 1;">acme-cloud.example/pricing</td><td class="c5" style="opacity: 1;">Confirm the buyer’s tier first</td></tr><tr class="r2" style="opacity: 0;"><td class="rh" style="opacity: 1;">5</td><td class="c0" style="opacity: 1;">Admin roles</td><td class="c1" style="opacity: 1;">2 fixed roles</td><td class="c2" style="opacity: 1;">Custom roles</td><td class="c3" style="opacity: 1;"><span class="vw w">WIN</span></td><td class="c4" style="opacity: 1;">datasheet p.7</td><td class="c5" style="opacity: 1;">Offer the custom-roles demo</td></tr><tr class="r3 band" style="opacity: 0;"><td class="rh" style="opacity: 1;">6</td><td class="c0" style="opacity: 1;">Time to go live</td><td class="c1" style="opacity: 1;">6–10 weeks</td><td class="c2" style="opacity: 1;">2 weeks</td><td class="c3" style="opacity: 1;"><span class="vw w">WIN</span></td><td class="c4" style="opacity: 1;">positioning-v7</td><td class="c5" style="opacity: 1;">Cite the median go-live</td></tr><tr class="r4" style="opacity: 0;"><td class="rh" style="opacity: 1;">7</td><td class="c0" style="opacity: 1;">API coverage</td><td class="c1" style="opacity: 1;">REST</td><td class="c2" style="opacity: 1;">REST + webhooks</td><td class="c3" style="opacity: 1;"><span class="vw d">DRAW</span></td><td class="c4" style="opacity: 1;">datasheet p.9</td><td class="c5" style="opacity: 1;">Ask which endpoints matter</td></tr><tr class="r5 band" style="opacity: 0;"><td class="rh" style="opacity: 1;">8</td><td class="c0" style="opacity: 1;">Mobile apps</td><td class="c1" style="opacity: 1;">iOS, Android</td><td class="c2" style="opacity: 1;">iOS, Android</td><td class="c3" style="opacity: 1;"><span class="vw d">DRAW</span></td><td class="c4" style="opacity: 1;">acme-cloud.example/product</td><td class="c5" style="opacity: 1;">Parity; ask about offline use</td></tr><tr class="r6" style="opacity: 0;"><td class="rh" style="opacity: 1;">9</td><td class="c0" style="opacity: 1;">Data residency</td><td class="c1" style="opacity: 1;">US, EU</td><td class="c2" style="opacity: 1;">US, EU</td><td class="c3" style="opacity: 1;"><span class="vw d">DRAW</span></td><td class="c4" style="opacity: 1;">datasheet p.2</td><td class="c5" style="opacity: 1;">Ask where their auditors sit</td></tr><tr class="r7 band" style="opacity: 0;"><td class="rh" style="opacity: 1;">10</td><td class="c0" style="opacity: 1;">Entry price per seat</td><td class="c1" style="opacity: 1;">$12</td><td class="c2" style="opacity: 1;">$18</td><td class="c3" style="opacity: 1;"><span class="vw l">LOSE</span></td><td class="c4" style="opacity: 1;">acme-cloud.example/pricing</td><td class="c5" style="opacity: 1;">Compare year-one total</td></tr><tr class="r8" style="opacity: 0;"><td class="rh" style="opacity: 1;">11</td><td class="c0" style="opacity: 1;">Prebuilt integrations</td><td class="c1" style="opacity: 1;">140</td><td class="c2" style="opacity: 1;">60</td><td class="c3" style="opacity: 1;"><span class="vw l">LOSE</span></td><td class="c4" style="opacity: 1;">acme-cloud.example/integrations</td><td class="c5" style="opacity: 1;">List the six they already use</td></tr><tr class="r9 band" style="opacity: 0;"><td class="rh" style="opacity: 1;">12</td><td class="c0" style="opacity: 1;">Free tier</td><td class="c1" style="opacity: 1;">Yes</td><td class="c2" style="opacity: 1;">14-day trial</td><td class="c3" style="opacity: 1;"><span class="vw l">LOSE</span></td><td class="c4" style="opacity: 1;">acme-cloud.example/pricing</td><td class="c5" style="opacity: 1;">Trials convert around day nine</td></tr><tr class="r10" style="opacity: 0;"><td class="rh" style="opacity: 1;">13</td><td class="c0" style="opacity: 1;">Uptime SLA</td><td class="c1" style="opacity: 1;">99.9%</td><td class="c2" style="opacity: 1;">99.95%</td><td class="c3" style="opacity: 1;"><span class="vw w">WIN</span></td><td class="c4" style="opacity: 1;">datasheet p.11</td><td class="c5" style="opacity: 1;">Credits apply automatically</td></tr><tr class="r11 band"><td class="rh">14</td><td class="c0">Support hours</td><td class="c1">Business hours</td><td class="c2">24/7 from Team</td><td class="c3"><span class="vw w">WIN</span></td><td class="c4">positioning-v7</td><td class="c5">24/7 from the Team plan up</td></tr><tr><td class="rh">15</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">16</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">17</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">18</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">19</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">20</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+
+MatrixSourcesChanges since Q1Talk tracks+Ready  ·  Count: 31
+
+Every row has a verdict and a source.
+
+Run this again on the first Monday of each month and post what changed to #competitive.
+
+**Competitive comparison**First Monday of each month
+
+Each run
+
+Updates the deck and the matrix
+
+Drafts a post to #competitive*for you to review*
+
+Claude Academy
+
+
+
+0:03 / 0:561×
+
+Illustration. Product screens are simplified.
+
+Build the competitive comparison
+
+Sales wants to know how you compare with a competitor.
+
+Using the Marketing plugin’s competitive brief skill, ask who wins where, as a deck and matrix.
+
+Claude reads their public pages and your own documents.
+
+Claude asks you first wherever your judgment is needed.
+
+Claude tells you what it compared, then gives you the deck and matrix.
+
+Each slide says where its claim came from.
+
+Every row has a verdict and a source.
+
+You can put the same request on a schedule and review what Claude drafts.
+
+Sales can answer how you compare, and the answer stays current.
+
+Acme vs us, from their site, pricing page and datasheet plus our positioning doc: where we win, where they win, and where it's a draw. Give me a PowerPoint deck for sales and an Excel matrix, feature by feature.
+
+Who is this comparison deck for? An enterprise security buyer / A mid-market operations lead
+
+I compared Acme’s site, pricing page and datasheet with positioning-v7 across 31 features, scored for an enterprise security buyer as you chose, and built the 12-slide deck and the matrix. The deck leads with the strongest wins and gives sales a talk track for each loss; every matrix row names its source page.
+
+acme-comparison-deck.pptx, acme-feature-matrix.xlsx
+
+Skill: /competitive-brief (Marketing)
+
+Connectors: Google Drive, Slack
 
 ## Set up[](https://academy.claude.com/use-cases/competitor-comparison)
 
 ### Try a plugin[](https://academy.claude.com/use-cases/competitor-comparison)
 
-The Marketing plugin ships with `/competitor-compare` as a starting point, already structured to read a competitor's public materials against your positioning and write the win/lose/draw breakdown. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Marketing plugin ships with `/competitive-brief` as a starting point, already structured to read a competitor's public materials against your positioning and write the win/lose/draw breakdown. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
 
 
 
@@ -246,7 +395,7 @@ Here's the competitor's site, pricing page, and recent announcements, plus our p
 
 A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /competitor-compare skill with my feedback.
+Make what we've done in this task so far into a skill, or edit the /competitive-brief skill with my feedback.
 
 
 
@@ -262,7 +411,7 @@ Make what we've done in this task so far into a skill, or edit the /competitor-c
 
 Competitors ship and reprice without telling you. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill re-reads their public pages, refreshes the matrix, and flags what changed since last time.
 
-**/schedule** First Monday of each month, run /competitor-compare against the sources in this folder, refresh the Excel matrix, and post a summary of what changed to #competitive.
+**/schedule** First Monday of each month, run /competitive-brief against the sources in this folder, refresh the Excel matrix, and post a summary of what changed to #competitive.
 
 
 
@@ -272,19 +421,19 @@ Competitors ship and reprice without telling you. Type `/schedule` in the prompt
 
 Monthly competitor refresh
 
-Runs `/competitor-compare` against the sources in this folder, refreshes the Excel matrix, and posts a summary of what changed to #competitive.
+Runs `/competitive-brief` against the sources in this folder, refreshes the Excel matrix, and posts a summary of what changed to #competitive.
 
 Every **first Monday of the month**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/competitor-comparison)
 
-Your customized `/competitor-compare` now carries your positioning, your deck template, and your matrix columns. Share it so PMM, sales enablement, and the field answer the same competitor question the same way.
+Your customized `/competitive-brief` now carries your positioning, your deck template, and your matrix columns. Share it so PMM, sales enablement, and the field answer the same competitor question the same way.
 
 
 
 Share the skill
 
-In Cowork, open **Skills** → `/competitor-compare` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your positioning and templates baked in, so they don't repeat Steps 1-3.
+In Cowork, open **Skills** → `/competitive-brief` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your positioning and templates baked in, so they don't repeat Steps 1-3.
 
 ## Going forward[](https://academy.claude.com/use-cases/competitor-comparison)
 
@@ -302,7 +451,7 @@ Your workspace
 
 Competitive / Acme
 
-`/competitor-compare` turns the next "how do we stack up against X" into a deck and a matrix in one pass — grounded in your positioning, not theirs.
+`/competitive-brief` turns the next "how do we stack up against X" into a deck and a matrix in one pass — grounded in your positioning, not theirs.
 
 You did this for one competitor. The same approach covers your whole competitive set — one folder per name, one scheduled refresh, one consistent answer for the field.
 

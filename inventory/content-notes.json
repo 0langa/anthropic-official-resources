@@ -53,6 +53,9 @@
   "https://academy.claude.com/courses/ai-native-sdlc-playbook/complete": [
     "No semantic main/article element; full body retained."
   ],
+  "https://academy.claude.com/courses/building-effective-human-agent-teams/course-quiz": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
   "https://academy.claude.com/courses/building-with-the-claude-api/badge": [
     "No semantic main/article element; full body retained."
   ],
@@ -4148,6 +4151,9 @@
   "https://platform.claude.com/docs/en/build-with-claude/prompt-caching": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
@@ -4221,6 +4227,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/claude_api_primer": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://platform.claude.com/docs/en/cli-sdks-libraries/cli/apply": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://platform.claude.com/docs/en/cli-sdks-libraries/cli/authentication": [
@@ -5966,6 +5975,12 @@
   "https://support.claude.com/en/articles/16761192-preserved-thinking-changing-how-the-messages-api-handles-thinking-blocks-to-protect-against-distillation": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/16762437-public-links-for-shared-chats": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/16762496-share-a-chat-with-specific-people": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/16764057": [
     "Native source; upstream MDX components retained."
   ],
@@ -6370,7 +6385,7 @@
   ],
   "https://www.anthropic.com/engineering/harness-design-long-running-apps": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
-    "Could not read tab 'Sprite editor': TimeoutError"
+    "Could not read tab 'Game play': TimeoutError"
   ],
   "https://www.anthropic.com/news/analysis-tool": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -6397,9 +6412,6 @@
     "Could not read tab 'Mechanical engineers': TimeoutError",
     "Could not read tab 'Astronomers': TimeoutError"
   ],
-  "https://www.anthropic.com/news/anthropic-public-record": [
-    "Could not read tab 'Support for gov involvement': TimeoutError"
-  ],
   "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
@@ -6416,39 +6428,31 @@
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/news/claude-fable-5-mythos-5": [
-    "Could not read tab 'Factorio': TimeoutError",
     "Could not read tab 'Fluid with Classical EDM': TimeoutError"
   ],
   "https://www.anthropic.com/news/claude-for-chrome": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/news/claude-opus-4-5": [
-    "Could not read tab 'Aider Polyglot': TimeoutError",
     "Could not read tab 'Vending-Bench': TimeoutError"
   ],
   "https://www.anthropic.com/news/claude-opus-4-6": [
-    "Could not read tab 'Agentic search': TimeoutError",
     "Could not read tab 'Reasoning': TimeoutError",
     "Could not read tab 'Long-context reasoning': TimeoutError",
-    "Could not read tab 'Multilingual coding': TimeoutError",
-    "Could not read tab 'Long-term coherence': TimeoutError",
-    "Could not read tab 'Cybersecurity': TimeoutError",
-    "Could not read tab 'Life sciences': TimeoutError"
+    "Could not read tab 'Long-term coherence': TimeoutError"
   ],
   "https://www.anthropic.com/news/claude-opus-4-7": [
-    "Could not read tab 'Vision': TimeoutError"
+    "Could not read tab 'Long-context reasoning': TimeoutError"
   ],
   "https://www.anthropic.com/news/claude-opus-5": [
-    "Could not read tab 'CursorBench': TimeoutError",
     "Could not read tab 'AA Coding Agent Index': TimeoutError",
-    "Could not read tab 'GDPval-AA v2': TimeoutError",
-    "Could not read tab 'OSWorld 2.0': TimeoutError",
     "Could not read tab 'HLE': TimeoutError",
     "Could not read tab 'AutomationBench': TimeoutError",
     "Could not read tab 'DeepSearchQA': TimeoutError",
     "Could not read tab 'Cell artifact': TimeoutError"
   ],
   "https://www.anthropic.com/news/claude-sonnet-4-5": [
+    "Could not read tab 'Medicine': TimeoutError",
     "Could not read tab 'STEM': TimeoutError"
   ],
   "https://www.anthropic.com/news/connectors-directory": [
@@ -6465,9 +6469,6 @@
   ],
   "https://www.anthropic.com/news/github-copilot": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
-  ],
-  "https://www.anthropic.com/news/healthcare-life-sciences": [
-    "Could not read tab 'Key life sciences tasks': TimeoutError"
   ],
   "https://www.anthropic.com/news/introducing-claude-for-education": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -6537,6 +6538,7 @@
     "Content dependencies blocked by scope or robots policy: https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html"
   ],
   "https://www.anthropic.com/research/claude-fable-5-mythos-5": [
+    "Could not read tab 'VibeCAD': TimeoutError",
     "Could not read tab 'Fluid with Classical EDM': TimeoutError"
   ],
   "https://www.anthropic.com/research/claude-opus-5": [
@@ -6555,6 +6557,9 @@
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/research/economic-index-geography": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/research/formalizing-fermats-last-theorem": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/research/project-fetch-phase-two": [

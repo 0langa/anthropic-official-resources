@@ -8,11 +8,255 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-pbyyssck.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-oj6tpm7w.png)
 
-# Write the design doc or RFC
+Write the design doc or RFC
 
-Reads your template and prior RFCs, writes a structured proposal with approaches and trade-offs filled in.
+You need to turn rough notes into a design doc your team can review.
 
-Every one-pager becomes a structured RFC before architecture review.
+Confluence
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23181717'%20d='M12%20.3a12%2012%200%200%200-3.8%2023.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73%201.2.09%201.84%201.24%201.84%201.24%201.07%201.83%202.81%201.3%203.49%201%20.11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93%200-1.31.47-2.38%201.24-3.22-.13-.3-.54-1.52.11-3.18%200%200%201.01-.32%203.3%201.23a11.5%2011.5%200%200%201%206%200c2.29-1.55%203.3-1.23%203.3-1.23.65%201.66.24%202.88.12%203.18.77.84%201.23%201.91%201.23%203.22%200%204.61-2.8%205.63-5.48%205.92.43.37.81%201.1.81%202.22v3.29c0%20.32.22.7.82.58A12%2012%200%200%200%2012%20.3'/%3e%3c/svg%3e)
+
+GitHub
+
+RFCs / 0087-streaming-events
+
+Template, notes, pipeline diagram
+
+Folder
+
+notes-streaming-migration.md
+
+Eleven bullets
+
+MD
+
+rfc-template.md
+
+Nine sections
+
+MD
+
+Engineering
+
+/architecture
+
+/documentation
+
+/system-design
+
+How can I help you today?
+
+**RFC-0072: Kafka as the platform event bus - Platform Engineering - Confluence**×
+
++
+
+←→↻
+
+northloop.atlassian.net/wiki/spaces/PLAT/pages/210437/RFC-0072+Kafka+as+the+platform+event+bus
+
+*MO*⋮
+
+**Confluence**HomeRecentSpacesTeamsAppsCreateSearch*DA*
+
+PE**Platform Engineering**
+
+Overview
+
+Blog
+
+PAGES
+
+Runbooks
+
+Architecture decisions
+
+ADR-019 Analytics batch window
+
+RFCs
+
+RFC-0061 Kinesis for clickstream
+
+RFC-0072 Kafka as the platform event bus
+
+RFC-0079 Service mesh rollout
+
+Platform Engineering / RFCs
+
+# RFC-0072: Kafka as the platform event bus
+
+*MO*Owned by M. Oduya. Last updated 14 Nov 2025. 6 min readACCEPTED
+
+## Context
+
+Three teams need to publish domain events other services consume (payments-ledger first, then orders and identity). Point-to-point queues have grown to eleven; there is no replay and no shared schema. RFC-0061 evaluated Kinesis for clickstream in March and was rejected on resharding at peak and cost.
+
+## Decision
+
+Run Amazon MSK as the platform event bus: 3 brokers, kafka.m5.large, eu-west-1, 7-day retention, schema registry owned by Platform (open: hand to Data Platform in H2?). First tenant payments-ledger, January 2026. New tenants onboard through platform/kafka-config with a topic naming convention and a partition budget.
+
+## Consequences
+
+Platform carries broker on-call. Consumers that need under a minute of freshness (Growth activation, analytics ingestion) should evaluate this bus before proposing new infrastructure; capacity today is sized for ledger plus two tenants at roughly 20k messages/s sustained, so a high-volume tenant means a partition and broker review.
+
+**/**system-design RFC for moving our event pipeline to streaming. Look up prior art and constraints, then draft in our template with two or three approaches and trade-offs, a recommendation and open questions. I'll fill in the parts only I know.
+
+Reading the template and your notes0s
+
+Read4 sources
+
+Readrfc-template.md and notes-streaming-migration.md
+
+Searchedevent pipeline and streaming, 3 pages
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23181717'%20d='M12%20.3a12%2012%200%200%200-3.8%2023.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73%201.2.09%201.84%201.24%201.84%201.24%201.07%201.83%202.81%201.3%203.49%201%20.11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93%200-1.31.47-2.38%201.24-3.22-.13-.3-.54-1.52.11-3.18%200%200%201.01-.32%203.3%201.23a11.5%2011.5%200%200%201%206%200c2.29-1.55%203.3-1.23%203.3-1.23.65%201.66.24%202.88.12%203.18.77.84%201.23%201.91%201.23%203.22%200%204.61-2.8%205.63-5.48%205.92.43.37.81%201.1.81%202.22v3.29c0%20.32.22.7.82.58A12%2012%200%200%200%2012%20.3'/%3e%3c/svg%3e)Readevent-loader and kafka-config repos
+
+Openedcurrent-pipeline-diagram.png
+
+Draft the rollout sections for you, or leave them empty?
+
+Leave them for me
+
+Draft something I’ll correct
+
+Leave them for me
+
+Leave them for me.
+
+Used 4 sources44s
+
+I read your notes and template, searched Confluence and the two repos for prior art, and drafted RFC-0087 with three approaches and trade-offs, citing RFC-0072, RFC-0061 and ADR-019. Recommendation is A, phased; Rollout plan and Operational impact are titled and left for you, and three open questions are listed.
+
+0087-streaming-events.md
+
+Document
+
+Download
+
+**0087-streaming-events.md**MDSaved to RFCs / 0087-streaming-events
+
+# RFC-0087. Event pipeline: batch to streaming
+
+Status: Draft. Author: D. Achterberg, Data Platform. Reviewers: Platform Eng, Growth Eng. 28 Aug 2026. Template: rfc-template.md.
+
+## 1 Problem
+
+`event_loader_nightly` (data-platform/event-loader) lands about 1.8 billion product events a day in the warehouse once a night inside the 02:00–06:00 UTC window ADR-019. Consumers read data 4–6 hours old at best; last month the run took 3 h 41 m of its 4 h window. Growth’s activation triggers need events under a minute old.
+
+## 3 Prior art
+
+RFC-0072 Kafka as the platform event bus accepted Nov 2025: MSK, 3 brokers, first tenant payments-ledger. RFC-0061 Kinesis for clickstream rejected Mar 2025: resharding at peak, cost. event-loader README documents the 4–6 h lag; owner Data Platform.
+
+## 4 Approaches
+
+<table class="appr" style="font-size:13.5px"><thead><tr><th></th><th>A. Kafka (MSK, RFC-0072) + Flink</th><th>B. Kinesis + Firehose</th><th>C. Micro-batch every 5 min</th></tr></thead><tbody><tr><td style="color:rgba(20,20,19,.58)">p95 freshness</td><td>under 60 s</td><td>60–90 s (Firehose buffer)</td><td>7–9 min</td></tr><tr><td style="color:rgba(20,20,19,.58)">New things we run</td><td>one Flink job (Data Platform)</td><td>none</td><td>none</td></tr><tr><td style="color:rgba(20,20,19,.58)">Added cost / month</td><td>≈ $3.9k</td><td>≈ $6.2k at 21k events/s</td><td>≈ $0.4k</td></tr><tr><td style="color:rgba(20,20,19,.58)">At 55k events/s peak</td><td>double partitions; pattern proven on ledger</td><td>55 shards plus resharding, RFC-0061’s blocker</td><td>warehouse load inside the ADR-019 window</td></tr><tr><td style="color:rgba(20,20,19,.58)">Meets Growth’s under 1 min</td><td>yes</td><td>marginal</td><td>no</td></tr><tr><td style="color:rgba(20,20,19,.58)">Prior art</td><td><span class="lk" style="color:#1264a3;background:rgba(18,100,163,.07);border-radius:4px;padding:0 5px;white-space:nowrap;font-size:.92em">RFC-0072</span></td><td><span class="lk" style="color:#1264a3;background:rgba(18,100,163,.07);border-radius:4px;padding:0 5px;white-space:nowrap;font-size:.92em">RFC-0061</span></td><td><span class="lk" style="color:#1264a3;background:rgba(18,100,163,.07);border-radius:4px;padding:0 5px;white-space:nowrap;font-size:.92em">ADR-019</span></td></tr></tbody></table>
+
+## 5 Recommendation
+
+A, phased: dual-write for two weeks, cut activation events over first, retire the nightly DAG after a parity report.
+
+## 6 Rollout and migration plan
+
+*Left for you: sequencing and staffing are not in the wiki or the repo.*
+
+## 7 Operational impact and on-call
+
+*Left for you: Platform carries broker on-call today (RFC-0072); who carries the Flink job is your call.*
+
+## 8 Open questions
+
+- Who owns the schema registry, Platform or Data Platform?
+- Flink on EKS or managed?
+- Dedupe key for mobile events that arrive offline-late.
+
+Each approach is weighed against the others and links to earlier proposals.
+
+**0087-streaming-events.md**MDSaved to RFCs / 0087-streaming-events
+
+# RFC-0087. Event pipeline: batch to streaming
+
+Status: Draft. Author: D. Achterberg, Data Platform. Reviewers: Platform Eng, Growth Eng. 28 Aug 2026. Template: rfc-template.md.
+
+## 1 Problem
+
+`event_loader_nightly` (data-platform/event-loader) lands about 1.8 billion product events a day in the warehouse once a night inside the 02:00–06:00 UTC window ADR-019. Consumers read data 4–6 hours old at best; last month the run took 3 h 41 m of its 4 h window. Growth’s activation triggers need events under a minute old.
+
+## 3 Prior art
+
+RFC-0072 Kafka as the platform event bus accepted Nov 2025: MSK, 3 brokers, first tenant payments-ledger. RFC-0061 Kinesis for clickstream rejected Mar 2025: resharding at peak, cost. event-loader README documents the 4–6 h lag; owner Data Platform.
+
+## 4 Approaches
+
+<table class="appr" style="font-size:13.5px"><thead><tr><th></th><th>A. Kafka (MSK, RFC-0072) + Flink</th><th>B. Kinesis + Firehose</th><th>C. Micro-batch every 5 min</th></tr></thead><tbody><tr><td style="color:rgba(20,20,19,.58)">p95 freshness</td><td>under 60 s</td><td>60–90 s (Firehose buffer)</td><td>7–9 min</td></tr><tr><td style="color:rgba(20,20,19,.58)">New things we run</td><td>one Flink job (Data Platform)</td><td>none</td><td>none</td></tr><tr><td style="color:rgba(20,20,19,.58)">Added cost / month</td><td>≈ $3.9k</td><td>≈ $6.2k at 21k events/s</td><td>≈ $0.4k</td></tr><tr><td style="color:rgba(20,20,19,.58)">At 55k events/s peak</td><td>double partitions; pattern proven on ledger</td><td>55 shards plus resharding, RFC-0061’s blocker</td><td>warehouse load inside the ADR-019 window</td></tr><tr><td style="color:rgba(20,20,19,.58)">Meets Growth’s under 1 min</td><td>yes</td><td>marginal</td><td>no</td></tr><tr><td style="color:rgba(20,20,19,.58)">Prior art</td><td><span class="lk" style="color:#1264a3;background:rgba(18,100,163,.07);border-radius:4px;padding:0 5px;white-space:nowrap;font-size:.92em">RFC-0072</span></td><td><span class="lk" style="color:#1264a3;background:rgba(18,100,163,.07);border-radius:4px;padding:0 5px;white-space:nowrap;font-size:.92em">RFC-0061</span></td><td><span class="lk" style="color:#1264a3;background:rgba(18,100,163,.07);border-radius:4px;padding:0 5px;white-space:nowrap;font-size:.92em">ADR-019</span></td></tr></tbody></table>
+
+## 5 Recommendation
+
+A, phased: dual-write for two weeks, cut activation events over first, retire the nightly DAG after a parity report.
+
+## 6 Rollout and migration plan
+
+*Left for you: sequencing and staffing are not in the wiki or the repo.*
+
+## 7 Operational impact and on-call
+
+*Left for you: Platform carries broker on-call today (RFC-0072); who carries the Flink job is your call.*
+
+## 8 Open questions
+
+- Who owns the schema registry, Platform or Data Platform?
+- Flink on EKS or managed?
+- Dedupe key for mobile events that arrive offline-late.
+
+**/schedule** Weekdays at 9am: if there is a new notes file in RFCs / inbox, look up prior art and draft it in rfc-template.md the same way, my sections left empty.
+
+**RFC inbox drafts**Weekdays at 9:00 AM
+
+Each run
+
+Checks RFCs / inbox for new notes files
+
+Looks up prior art in Confluence and GitHub
+
+Writes a numbered draft in the template*your sections left empty*
+
+Claude Academy
+
+
+
+0:03 / 0:551×
+
+Illustration. Product screens are simplified.
+
+Write the design doc or RFC
+
+You need to turn rough notes into a design doc your team can review.
+
+Using the Engineering plugin’s system design skill, ask for prior art and trade-offs before the draft.
+
+Claude reads your notes and template, then searches the wiki and code for earlier decisions.
+
+When something is yours to decide, Claude stops and asks.
+
+Claude tells you what it found, then gives you the draft RFC.
+
+Each approach is weighed against the others and links to earlier proposals.
+
+The parts you kept are titled and empty for reviewers to see.
+
+You can schedule the same draft for every new notes file in the inbox folder.
+
+Your team gets a complete design doc and reviews the decision, not the writing.
+
+RFC for moving our event pipeline to streaming. Look up prior art and constraints, then draft in our template with two or three approaches and trade-offs, a recommendation and open questions. I'll fill in the parts only I know.
+
+Draft the rollout sections for you, or leave them empty? Leave them for me / Draft something I’ll correct
+
+I read your notes and template, searched Confluence and the two repos for prior art, and drafted RFC-0087 with three approaches and trade-offs, citing RFC-0072, RFC-0061 and ADR-019. Recommendation is A, phased; Rollout plan and Operational impact are titled and left for you, and three open questions are listed.
+
+0087-streaming-events.md
+
+Skill: /system-design (Engineering)
+
+Connectors: Confluence, GitHub
 
 ## Set up[](https://academy.claude.com/use-cases/design-doc)
 

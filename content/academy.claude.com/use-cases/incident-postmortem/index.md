@@ -8,11 +8,271 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-fnbe9wym.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nsjpa7is.png)
 
-# Draft the incident postmortem
+Draft the incident postmortem
 
-Reads the incident channel and alerts, writes the blameless postmortem with timeline and owned action items.
+The incident is over and you need to write the postmortem.
 
-After every incident, the postmortem draft is in the folder before the review.
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)
+
+Slack
+
+PagerDuty
+
+2026-04-22 checkout 5xx
+
+3 files
+
+Folder
+
+postmortem-template.md
+
+Team template
+
+MD
+
+Engineering
+
+/debug
+
+/deploy-checklist
+
+/incident-response
+
+How can I help you today?
+
+M
+
+Meridian
+
+Channels
+
+# eng-announce
+
+# payments-sre
+
+# inc-2026-04-22-checkout-5xx
+
+# support-escalations
+
+Direct messages
+
+Marco Alvarez
+
+Priya Nair
+
+**# inc-2026-04-22-checkout-5xx**14 members
+
+PagerDutyAPP*14:07*
+
+**Triggered** #48213 checkout-service: HTTP 5xx rate 8.4% (threshold 5% for 3 min). Assigned to Priya Nair. Acknowledged 14:09
+
+PN
+
+Priya Nair*14:12*
+
+Looking. 5xx on roughly 24% of checkout requests, p95 at 9.2 s, all `PoolTimeoutError: could not acquire connection within 8000 ms`. The dashboard link in the runbook 404s, using the service overview.
+
+MA
+
+Marco Alvarez*14:15*
+
+Taking IC. Calling it SEV2: checkout is degraded, not down. @Dana Kim can you put a notice on the status page?
+
+PN
+
+Priya Nair*14:21*
+
+Orders DB looks healthy and its connection count is flat, so this is on our side of the pool. What changed on checkout-service since 13:30?
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23181717'%20d='M12%20.3a12%2012%200%200%200-3.8%2023.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73%201.2.09%201.84%201.24%201.84%201.24%201.07%201.83%202.81%201.3%203.49%201%20.11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93%200-1.31.47-2.38%201.24-3.22-.13-.3-.54-1.52.11-3.18%200%200%201.01-.32%203.3%201.23a11.5%2011.5%200%200%201%206%200c2.29-1.55%203.3-1.23%203.3-1.23.65%201.66.24%202.88.12%203.18.77.84%201.23%201.91%201.23%203.22%200%204.61-2.8%205.63-5.48%205.92.43.37.81%201.1.81%202.22v3.29c0%20.32.22.7.82.58A12%2012%200%200%200%2012%20.3'/%3e%3c/svg%3e)
+
+deploy-botAPP*14:22*
+
+checkout-service, last 2 production deploys: `13:31` release 2026.04.22-r3 (canary 13:05, prod 13:31, clean) and `14:02` config cfg-7f3c “pool sizing for canary profile” (prod, no canary stage)
+
+MA
+
+Marco Alvarez*14:26*
+
+r3 sat on canary for 26 minutes with no errors. cfg-7f3c went straight to prod and touches pool sizing. Revert the config first; if that doesn’t move the graph we roll back r3.
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23181717'%20d='M12%20.3a12%2012%200%200%200-3.8%2023.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73%201.2.09%201.84%201.24%201.84%201.24%201.07%201.83%202.81%201.3%203.49%201%20.11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93%200-1.31.47-2.38%201.24-3.22-.13-.3-.54-1.52.11-3.18%200%200%201.01-.32%203.3%201.23a11.5%2011.5%200%200%201%206%200c2.29-1.55%203.3-1.23%203.3-1.23.65%201.66.24%202.88.12%203.18.77.84%201.23%201.91%201.23%203.22%200%204.61-2.8%205.63-5.48%205.92.43.37.81%201.1.81%202.22v3.29c0%20.32.22.7.82.58A12%2012%200%200%200%2012%20.3'/%3e%3c/svg%3e)
+
+deploy-botAPP*14:41*
+
+checkout-service: revert of cfg-7f3c deployed to production (3/3 regions)
+
+PN
+
+Priya Nair*14:44*
+
+Pool is recovering. 5xx down to 3% and dropping, p95 back under 1 s.
+
+PagerDutyAPP*14:49*
+
+**Resolved** #48213 checkout-service: HTTP 5xx rate 0.2%, below threshold for 5 min. Open for 42 min.
+
+MA
+
+Marco Alvarez*14:56*
+
+Resolved as of 14:49. On Priya’s graph the errors start climbing at 14:04, three minutes before the page, so impact starts at 14:04 or 14:07 depending on how we count. Review is Thursday, I own the doc.
+
+DK
+
+Dana Kim*15:20*
+
+Status page set to resolved. Final support count is 62 tickets, all tagged INC-48213. Peak on the shared graph was 31% at 14:16 if you need it for the doc.
+
+Message #inc-2026-04-22-checkout-5xx
+
+**/**incident-response From #inc-2026-04-22-checkout-5xx and the PagerDuty timeline, reconstruct what happened with timestamps, then draft the postmortem in our template: impact, root cause, contributing factors, and action items with an owner on each. Be blameless. Draft a channel note linking it.
+
+Reading #inc-2026-04-22-checkout-5xx0s
+
+Read4 sources
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)Read#inc-2026-04-22-checkout-5xx
+
+ReadIncident #48213 timeline
+
+Readpostmortem-template.md
+
+Readerror-rate-graph.png
+
+When did the incident start: first errors or the alert?
+
+14:04, first errors on the graph
+
+14:07, when the alert fired
+
+14:04, first errors on the graph
+
+14:04, from the first errors.
+
+Used 4 sources44s
+
+I rebuilt the incident from the channel and the PagerDuty timeline as 13 timestamped entries, counted impact from 14:04, and gave all five action items an owner and a date. Two numbers I am unsure of are under Open questions, and the channel note waits for your approval.
+
+checkout-5xx-postmortem-2026-04-22.md
+
+Document
+
+Download
+
+inc-48213-action-items.csv
+
+Spreadsheet
+
+Download
+
+**checkout-5xx-postmortem-2026-04-22.md**MDSaved to Incidents / 2026-04-22-checkout-5xx
+
+# Postmortem: checkout 5xx errors, 22 April 2026
+
+**SEV2***Incident* #48213*Impact window* `14:04–14:49` UTC (45 min)*Detected* by alert at `14:07`*Incident commander* Marco Alvarez*Status* Draft for review Thu 24 Apr*Template* Blameless format v3
+
+## Summary
+
+A config change shrank checkout-service’s database connection pool far below afternoon load. About a quarter of checkouts failed for 45 minutes until it was reverted.
+
+## Customer impact
+
+- **4,350 of ~18,900** checkout requests returned 5xx (23%, peak 31% at 14:16)
+- **~310 orders** not completed, about $18,000 at $58 average order value
+- **62 support tickets** tagged INC-48213; ~1,870 signed-in customers affected
+
+## Timeline (UTC) 13 entries · shaded rows are the impact window
+
+<table class="tl"><tbody><tr><th style="width:58px">Time</th><th>Event</th><th style="width:118px">Source</th></tr><tr><td>14:02</td><td>Config change cfg-7f3c deployed to production, no canary stage</td><td>deploy-bot</td></tr><tr class="iw"><td>14:04</td><td>5xx rate begins climbing</td><td>error-rate graph</td></tr><tr class="iw"><td>14:07</td><td>Alert #48213 triggers at 8.4% 5xx</td><td>PagerDuty</td></tr><tr class="iw"><td>14:09</td><td>On-call acknowledges</td><td>PagerDuty</td></tr><tr class="iw"><td>14:12</td><td>Errors identified as pool timeouts; runbook dashboard link broken</td><td>channel</td></tr><tr class="iw"><td>14:15</td><td>Incident commander assigned, SEV2 declared, status page requested</td><td>channel</td></tr><tr class="iw"><td>14:16</td><td>Peak error rate 31%</td><td>error-rate graph</td></tr><tr class="iw"><td>14:22</td><td>Recent deploys listed; cfg-7f3c identified as untested on canary</td><td>deploy-bot</td></tr><tr class="iw"><td>14:26</td><td>Decision: revert cfg-7f3c before considering a release rollback</td><td>channel</td></tr><tr class="iw"><td>14:41</td><td>Revert live in all three regions</td><td>deploy-bot</td></tr><tr class="iw"><td>14:44</td><td>5xx at 3% and falling</td><td>channel</td></tr><tr class="iw"><td>14:49</td><td>Alert resolves; end of impact window</td><td>PagerDuty</td></tr><tr><td>15:20</td><td>Status page resolved; 62 tickets counted</td><td>channel</td></tr></tbody></table>
+
+## Root cause
+
+cfg-7f3c set `db.pool.max` to 20 connections per instance, a value meant for the canary profile. The canary and production profiles read the same key, so production picked it up at 14:02. At ~420 requests a minute the pool was exhausted within two minutes; requests waited the full 8-second acquire timeout and returned 5xx until the revert at 14:41 let the pool refill.
+
+## Contributing factors
+
+1. Config changes deploy without the canary stage that releases use.
+2. The pool-saturation alert exists on the orders database but not on checkout-service, so detection waited for the 5xx alert.
+3. The runbook’s dashboard link pointed at a retired dashboard.
+4. An 8 s acquire timeout turns pool pressure into slow failures rather than fast ones.
+
+## What went well
+
+- The alert fired within three minutes of first errors.
+- The deploy-bot listing made the untested change obvious within 15 minutes of the page.
+- Reverting first avoided an unnecessary release rollback.
+
+## Action items 5, each with an owner and a date
+
+<table class="ai"><tbody><tr><th style="width:20px">#</th><th>Action</th><th style="width:150px">Owner</th><th style="width:58px">Due</th><th style="width:82px">Addresses</th></tr><tr><td>1</td><td>Send config changes through the same canary stage as releases</td><td>Marco Alvarez (Platform)</td><td>6 May</td><td><span class="pill k">Factor 1</span></td></tr><tr><td>2</td><td>Add a pool-saturation alert on checkout-service at 80% for 2 min</td><td>Priya Nair (SRE)</td><td>29 Apr</td><td><span class="pill k">Factor 2</span></td></tr><tr><td>3</td><td>Split canary and production pool settings into separate keys</td><td>Luis Romero (Checkout)</td><td>13 May</td><td><span class="pill b">Root cause</span></td></tr><tr><td>4</td><td>Fix runbook dashboard links and add a weekly link check</td><td>Dana Kim (On-call tooling)</td><td>25 Apr</td><td><span class="pill k">Factor 3</span></td></tr><tr><td>5</td><td>Lower the acquire timeout and fail fast when the pool is saturated</td><td>Luis Romero (Checkout)</td><td>20 May</td><td><span class="pill k">Factor 4</span></td></tr></tbody></table>
+
+## Open questions
+
+- “Orders not completed” assumes no retries after 14:49; confirm against next-day orders before the review.
+- The 1,870 customer count covers signed-in sessions only; guest checkouts are not in the logs I had.
+
+Every timeline entry comes from a message or an alert.
+
+Every action item already has an owner and a date.
+
+Claude wants to use **Send message draft** from Slack
+
+To **#inc-2026-04-22-checkout-5xx**
+
+Postmortem draft for INC-48213: checkout-5xx-postmortem-2026-04-22.md in the incident folder. Impact 14:04–14:49 UTC, root cause cfg-7f3c pool setting, five action items with owners; please comment in the doc before Thursday’s review.
+
+Allow onceAlways allowDeny
+
+Draft saved in Slack for you to send
+
+**Postmortem first draft**Weekdays at 6:00 PM
+
+Each run
+
+Drafts a postmortem for each resolved incident
+
+Saves it to the incident folder*for review*
+
+Claude Academy
+
+
+
+0:03 / 0:561×
+
+Illustration. Product screens are simplified.
+
+Draft the incident postmortem
+
+The incident is over and you need to write the postmortem.
+
+Using the Engineering plugin’s incident response skill, ask for a timestamped sequence and owned action items.
+
+Claude reads the channel, the alert timeline and your template.
+
+When something is yours to decide, Claude stops and asks.
+
+Claude says what it rebuilt and gives you the postmortem and a draft note.
+
+Every timeline entry comes from a message or an alert.
+
+Every action item already has an owner and a date.
+
+You approve the channel note first, and can schedule a first draft after every incident.
+
+The postmortem is written from what actually happened, ready to review.
+
+From #inc-2026-04-22-checkout-5xx and the PagerDuty timeline, reconstruct what happened with timestamps, then draft the postmortem in our template: impact, root cause, contributing factors, and action items with an owner on each. Be blameless. Draft a channel note linking it.
+
+When did the incident start: first errors or the alert? 14:04, first errors on the graph / 14:07, when the alert fired
+
+I rebuilt the incident from the channel and the PagerDuty timeline as 13 timestamped entries, counted impact from 14:04, and gave all five action items an owner and a date. Two numbers I am unsure of are under Open questions, and the channel note waits for your approval.
+
+checkout-5xx-postmortem-2026-04-22.md, inc-48213-action-items.csv
+
+Skill: /incident-response (Engineering)
+
+Connectors: Slack, PagerDuty
 
 ## Set up[](https://academy.claude.com/use-cases/incident-postmortem)
 

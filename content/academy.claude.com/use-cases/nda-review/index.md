@@ -8,95 +8,183 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-dydenpqj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jd1jgfwn.png)
 
-# NDA review
+Intake
 
-Reads incoming contract drafts and your playbook, writes which terms to accept or change.
+<table><thead><tr><td>Name</td></tr></thead><tbody><tr class="" style="opacity: 0; transform: translateY(0px);"><td><span class="pdf"></span>Kestrel Analytics - Mutual NDA (v2).pdf</td></tr><tr class="alt" style="opacity: 0; transform: translateY(-58px);"><td><span class="pdf"></span>MNDA_Halvorsen-Robotics_2026-08-27.pdf</td></tr><tr class="" style="opacity: 0; transform: translateY(-116px);"><td><span class="pdf"></span>Brightline Logistics Confidentiality Agreement.pdf</td></tr><tr class="alt" style="opacity: 0; transform: translateY(-174px);"><td><span class="pdf"></span>Corvid Labs NDA - their paper.pdf</td></tr><tr class="" style="opacity: 1; transform: translateY(-232px);"><td><span class="pdf"></span>Northwind Traders - Mutual NDA (our form, signed by them).pdf</td></tr><tr class="alt" style="opacity: 1; transform: translateY(-232px);"><td><span class="pdf"></span>Osprey Payments One-Way NDA.pdf</td></tr><tr class="" style="opacity: 1; transform: translateY(-232px);"><td><span class="pdf"></span>Scan - Meridian Health Partners NDA.pdf</td></tr><tr class="alt" style="opacity: 1; transform: translateY(-232px);"><td><span class="pdf"></span>Sable &amp; Finch LLP - NDA for evaluation.pdf</td></tr><tr class="" style="opacity: 1; transform: translateY(-232px);"><td><span class="pdf"></span>Tidewater Energy MNDA rev3 clean.pdf</td></tr><tr class="alt" style="opacity: 1; transform: translateY(-232px);"><td><span class="pdf"></span>Quill &amp; Ledger - our MNDA with their edits.pdf</td></tr><tr class="" style="opacity: 1; transform: translateY(-232px);"><td><span class="pdf"></span>Alder Street Studio NDA.pdf</td></tr><tr class="alt" style="opacity: 1; transform: translateY(-232px);"><td><span class="pdf"></span>Fenwick Mobility - Mutual NDA (our form).pdf</td></tr><tr class="" style="opacity: 1; transform: translateY(-232px);"><td><span class="pdf"></span>Greywake Maritime NDA 2026.pdf</td></tr><tr class="alt" style="opacity: 1; transform: translateY(-232px);"><td><span class="pdf"></span>Ironbark Foods - MNDA (our form).pdf</td></tr><tr class="" style="opacity: 1; transform: translateY(-232px);"><td><span class="pdf"></span>Larkspur Bio - CDA draft 4.pdf</td></tr><tr class="alt" style="opacity: 1; transform: translateY(-232px);"><td><span class="pdf"></span>Marlow &amp; Pike NDA (their paper).pdf</td></tr></tbody></table>
 
-## Point Cowork at the inbound draft
+37 items
 
-The folder already holds the counterparty’s NDA, your playbook, and your standard template.
+Triage incoming NDAs
 
-/reviewCommercial Legal
+NDAs keep coming in, and only the unusual ones need a lawyer’s time.
 
-Contracts / NDAs-Inbound
+Intake
 
-## Cowork reads each clause against your positions
+40 PDFs
 
-The Progress card in the right rail tracks each step as it completes.
+Folder
 
-Reviewing NDA against playbook
+nda-playbook.pdf
 
-Reading mutual-nda-northwind.docx
+12 positions
 
-Result
+PDF
 
-Reading nda-playbook.pdf
+standard-mutual-nda.docx
 
-Result
-
-Reading standard-mutual-nda.docx
-
-Result
-
-Comparing clauses against playbook
-
-Result
-
-Writing nda-review-2026-04.docx
-
-Result
-
-#### Progress
-
-1
-
-Read the inbound draft
-
-2
-
-Read playbook and template
-
-3
-
-Compare each clause
-
-4
-
-Write summary to folder
-
-## The flagged terms, ready for your call
-
-Each item names the clause, what they’re asking for, and your position.
-
-**Term (3.2)** — five years with auto-renew, against our three-year mutual standard. Push back to three years with opt-in renewal only; this is a routine ask and our fallback position holds.
-
-**Confidential Information (1.1)** — broad catch-all with no marking requirement. Accept the catch-all but add our standard carve-outs for residuals and independently developed material.
-
-**Limitation of liability (7.1)** — uncapped indirect damages. Cap at twelve months’ fees. Red-flag clause; escalate to counsel if they won’t move on the cap.
+Our form
 
 DOCX
 
-Northwind NDA — flagged terms
+Commercial Legal
 
-Document · DOCX · 18 KB
+/escalation-flagger
 
-Saved to Contracts / NDAs-Inbound
+/review
 
-## Make it run every weekday
+/stakeholder-summary
 
-Type `/schedule` and the customized skill triages each morning’s new drafts before you open your inbox.
+How can I help you today?
 
-Contracts
+**/**review Triage every NDA in Intake against our NDA playbook. For each criterion, mark whether the paper meets our standard. If everything passes, mark it cleared for signature; otherwise list only the exceptions with a one-line reason each, in one sheet.
 
-Scheduled
+Reading nda-playbook.pdf0s
 
-Morning NDA triage
+Read5 sources
 
-Each weekday morning, checks NDAs-Inbound for new drafts, runs `/review` on each, and writes a flagged-terms summary to the same folder.
+Readnda-playbook.pdf
 
-Weekdays at **9:00 AM** — checks NDAs-Inbound for new files
+Readstandard-mutual-nda.docx
 
-Every new NDA is screened against your playbook — cleared ones route to signature, exceptions reach counsel.
+ReadNDAs / Intake — 40 PDFs
+
+Checkedeach agreement against 12 positions
+
+![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)Checkednda-triage.xlsx
+
+Flag residuals clauses for a lawyer, or accept narrow ones?
+
+Flag them for a lawyer
+
+Accept if limited to unaided memory
+
+Flag them for a lawyer
+
+Flag them for a lawyer.
+
+Used 5 sources43s
+
+I checked the 40 NDAs in Intake against the 12 positions in your playbook: 31 are cleared for signature, 7 need counsel on a clause, and 2 should not be signed. Each exception is one line with its clause and the playbook section.
+
+nda-triage-2026-08-27.xlsx
+
+Spreadsheet
+
+Download
+
+Kestrel Analytics - Mutual NDA (v2).pdf
+
+PDF
+
+Download
+
+![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)nda-triage-2026-08-27.xlsx
+
+HomeInsertDrawPage LayoutFormulasDataReviewView
+
+Aptos Narrow
+
+11
+
+General
+
+E4
+
+fx
+
+Term 5 years; confidentiality survives in perpetuity
+
+<table><thead><tr><th class="rh"></th><th style="width:210px">A</th><th style="width:150px">B</th><th style="width:100px">C</th><th style="width:420px">D</th><th style="width:110px">E</th><th style="width:170px">F</th><th style="width:190px">G</th></tr></thead><tbody><tr class="ttlr"><td class="rh">1</td><td colspan="7" style="font:700 15px -apple-system,Aptos,system-ui;color:#1f2328;height:30px;border-color:transparent transparent #e6e6e6">NDA intake triage — 27 Aug 2026<span style="font-weight:400;color:#6b7280;margin-left:10px">40 agreements checked against nda-playbook.pdf</span></td></tr><tr class="hdr"><td class="rh" style="opacity: 1;">2</td><td style="opacity: 1;">Counterparty<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td style="opacity: 1;">Paper<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td style="opacity: 1;">Result<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td style="opacity: 1;">Exception<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td style="opacity: 1;">Clause<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td style="opacity: 1;">Playbook<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td style="opacity: 1;">Next step<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td></tr><tr class="r0"><td class="rh" style="opacity: 1;">3</td><td class="c0" style="opacity: 1;">Corvid Labs</td><td class="c1" style="opacity: 1;">Theirs</td><td class="c2" style="opacity: 1;"><span class="vw r">RED</span></td><td class="c3" style="opacity: 1;">Feedback clause assigns IP in derivatives to discloser</td><td class="c4" style="opacity: 1;">§11.2</td><td class="c5" style="opacity: 1;">§7 No IP terms</td><td class="c6" style="opacity: 1;">To GC — do not sign</td></tr><tr class="r1 band"><td class="rh" style="opacity: 1;">4</td><td class="c0" style="opacity: 1;">Osprey Payments</td><td class="c1" style="opacity: 1;">Theirs, one-way</td><td class="c2" style="opacity: 1;"><span class="vw r">RED</span></td><td class="c3" style="opacity: 1;">12-month non-compete on recipient</td><td class="c4" style="opacity: 1;">§9.1</td><td class="c5" style="opacity: 1;">§9 Covenants</td><td class="c6" style="opacity: 1;">To GC — do not sign</td></tr><tr class="r2"><td class="rh" style="opacity: 1;">5</td><td class="c0" style="opacity: 1;">Kestrel Analytics</td><td class="c1" style="opacity: 1;">Theirs</td><td class="c2" style="opacity: 1;"><span class="vw y">YELLOW</span></td><td class="c3" style="opacity: 1;">Term 5 years; confidentiality survives in perpetuity</td><td class="c4" style="opacity: 1;">§8.1, §8.3</td><td class="c5" style="opacity: 1;">§5 Term, §6 Survival</td><td class="c6" style="opacity: 1;">Counsel</td></tr><tr class="r3 band"><td class="rh" style="opacity: 1;">6</td><td class="c0" style="opacity: 1;">Halvorsen Robotics</td><td class="c1" style="opacity: 1;">Theirs</td><td class="c2" style="opacity: 1;"><span class="vw y">YELLOW</span></td><td class="c3" style="opacity: 1;">Governing law Singapore, not on approved list</td><td class="c4" style="opacity: 1;">§14</td><td class="c5" style="opacity: 1;">§11 Law and venue</td><td class="c6" style="opacity: 1;">Counsel</td></tr><tr class="r4"><td class="rh" style="opacity: 1;">7</td><td class="c0" style="opacity: 1;">Brightline Logistics</td><td class="c1" style="opacity: 1;">Theirs</td><td class="c2" style="opacity: 1;"><span class="vw y">YELLOW</span></td><td class="c3" style="opacity: 1;">Compelled-disclosure carve-out missing</td><td class="c4" style="opacity: 1;">§3</td><td class="c5" style="opacity: 1;">§4 Carve-outs</td><td class="c6" style="opacity: 1;">Counsel</td></tr><tr class="r5 band"><td class="rh" style="opacity: 1;">8</td><td class="c0" style="opacity: 1;">Meridian Health Partners</td><td class="c1" style="opacity: 1;">Theirs (scan)</td><td class="c2" style="opacity: 1;"><span class="vw y">YELLOW</span></td><td class="c3" style="opacity: 1;">Employee non-solicit, 24 months</td><td class="c4" style="opacity: 1;">§10</td><td class="c5" style="opacity: 1;">§9 Covenants</td><td class="c6" style="opacity: 1;">Counsel</td></tr><tr class="r6"><td class="rh" style="opacity: 1;">9</td><td class="c0" style="opacity: 1;">Sable &amp; Finch LLP</td><td class="c1" style="opacity: 1;">Theirs</td><td class="c2" style="opacity: 1;"><span class="vw y">YELLOW</span></td><td class="c3" style="opacity: 1;">Residuals clause — playbook silent, flagged per your answer</td><td class="c4" style="opacity: 1;">§6.4</td><td class="c5" style="opacity: 1;">Added to profile</td><td class="c6" style="opacity: 1;">Counsel</td></tr><tr class="r7 band"><td class="rh" style="opacity: 1;">10</td><td class="c0" style="opacity: 1;">Tidewater Energy</td><td class="c1" style="opacity: 1;">Theirs</td><td class="c2" style="opacity: 1;"><span class="vw y">YELLOW</span></td><td class="c3" style="opacity: 1;">One-sided attorneys’ fees; residuals clause flagged per your answer</td><td class="c4" style="opacity: 1;">§13.2, §5.2</td><td class="c5" style="opacity: 1;">§10 Fees</td><td class="c6" style="opacity: 1;">Counsel</td></tr><tr class="r8"><td class="rh" style="opacity: 1;">11</td><td class="c0" style="opacity: 1;">Quill &amp; Ledger</td><td class="c1" style="opacity: 1;">Ours, their edits</td><td class="c2" style="opacity: 1;"><span class="vw y">YELLOW</span></td><td class="c3" style="opacity: 1;">Marking requirement with 30-day written confirmation</td><td class="c4" style="opacity: 1;">§1.3</td><td class="c5" style="opacity: 1;">§3 Marking</td><td class="c6" style="opacity: 1;">Counsel</td></tr><tr class="r9 band"><td class="rh" style="opacity: 1;">12</td><td class="c0" style="opacity: 1;">Northwind Traders</td><td class="c1" style="opacity: 1;">Ours</td><td class="c2" style="opacity: 1;"><span class="vw g">GREEN</span></td><td class="c3" style="opacity: 1;">—</td><td class="c4" style="opacity: 1;">—</td><td class="c5" style="opacity: 1;">12 of 12</td><td class="c6" style="opacity: 1;">Cleared for signature</td></tr><tr class="r10"><td class="rh" style="opacity: 1;">13</td><td class="c0" style="opacity: 1;">Alder Street Studio</td><td class="c1" style="opacity: 1;">Theirs</td><td class="c2" style="opacity: 1;"><span class="vw g">GREEN</span></td><td class="c3" style="opacity: 1;">—</td><td class="c4" style="opacity: 1;">—</td><td class="c5" style="opacity: 1;">12 of 12</td><td class="c6" style="opacity: 1;">Cleared for signature</td></tr><tr class="r11 band"><td class="rh" style="opacity: 1;">14</td><td class="c0" style="opacity: 1;">Fenwick Mobility</td><td class="c1" style="opacity: 1;">Ours</td><td class="c2" style="opacity: 1;"><span class="vw g">GREEN</span></td><td class="c3" style="opacity: 1;">—</td><td class="c4" style="opacity: 1;">—</td><td class="c5" style="opacity: 1;">12 of 12</td><td class="c6" style="opacity: 1;">Cleared for signature</td></tr><tr class="r12"><td class="rh" style="opacity: 1;">15</td><td class="c0" style="opacity: 1;">Greywake Maritime</td><td class="c1" style="opacity: 1;">Theirs</td><td class="c2" style="opacity: 1;"><span class="vw g">GREEN</span></td><td class="c3" style="opacity: 1;">—</td><td class="c4" style="opacity: 1;">—</td><td class="c5" style="opacity: 1;">12 of 12</td><td class="c6" style="opacity: 1;">Cleared for signature</td></tr><tr class="r13 band"><td class="rh" style="opacity: 1;">16</td><td class="c0" style="opacity: 1;">Ironbark Foods</td><td class="c1" style="opacity: 1;">Ours</td><td class="c2" style="opacity: 1;"><span class="vw g">GREEN</span></td><td class="c3" style="opacity: 1;">—</td><td class="c4" style="opacity: 1;">—</td><td class="c5" style="opacity: 1;">12 of 12</td><td class="c6" style="opacity: 1;">Cleared for signature</td></tr><tr><td class="rh">17</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">18</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">19</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">20</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">21</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">22</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+
+TriageExceptions (11)Playbook checksRun log+Ready  ·  Count: 40
+
+Each document gets one verdict, so the routine ones clear immediately.
+
+Kestrel Analytics - Mutual NDA (v2).pdf — page 3 of 6
+
+###### 7. Return of Materials.
+
+7.1 Upon the Disclosing Party’s written request, the Receiving Party shall promptly return or destroy all Confidential Information in tangible form, save that the Receiving Party may retain copies held in automatic electronic archives made in the ordinary course, which shall remain subject to this Agreement.
+
+###### 8. Term; Survival.
+
+8.1 This Agreement shall commence on the Effective Date and continue for a period of five (5) years, unless earlier terminated by either Party on thirty (30) days’ written notice.
+
+8.2 Termination shall not relieve either Party of obligations accrued prior to the effective date of termination.
+
+8.3 Notwithstanding Section 8.1, the Receiving Party’s obligations under Sections 2 through 6 with respect to Confidential Information disclosed during the Term shall survive in perpetuity.
+
+###### 9. No License.
+
+9.1 Nothing in this Agreement grants the Receiving Party any right, title or license in or to the Confidential Information except the limited right to use it for the Purpose.
+
+9.2 All Confidential Information remains the property of the Disclosing Party.
+
+###### 10. Remedies.
+
+10.1 The Parties agree that damages may not be an adequate remedy for breach of this Agreement and that the Disclosing Party shall be entitled to seek injunctive relief in addition to any other remedy available at law.
+
+3
+
+Each exception points to the exact clause to read.
+
+Run this every weekday morning on new files in Intake and post the exceptions for counsel.
+
+**NDA intake triage**Weekdays at 9:00 AM
+
+Each run
+
+Adds new NDAs to the triage sheet
+
+Drafts the exceptions post for counsel*for you to review*
+
+Claude Academy
+
+
+
+0:03 / 0:561×
+
+Illustration. Product screens are simplified.
+
+Triage incoming NDAs
+
+NDAs keep coming in, and only the unusual ones need a lawyer’s time.
+
+Using the Commercial Legal plugin’s review skill, give Claude the folder and ask for exceptions only.
+
+Claude reads your playbook first, then checks every agreement against each position.
+
+Wherever a decision is yours to make, Claude asks instead of guessing.
+
+Claude tells you what it checked, then gives you the triage sheet.
+
+Each document gets one verdict, so the routine ones clear immediately.
+
+Each exception points to the exact clause to read.
+
+You can put the same check on a schedule for new files in the folder.
+
+Routine NDAs clear quickly, and you only read the unusual ones.
+
+Triage every NDA in Intake against our NDA playbook. For each criterion, mark whether the paper meets our standard. If everything passes, mark it cleared for signature; otherwise list only the exceptions with a one-line reason each, in one sheet.
+
+Flag residuals clauses for a lawyer, or accept narrow ones? Flag them for a lawyer / Accept if limited to unaided memory
+
+I checked the 40 NDAs in Intake against the 12 positions in your playbook: 31 are cleared for signature, 7 need counsel on a clause, and 2 should not be signed. Each exception is one line with its clause and the playbook section.
+
+nda-triage-2026-08-27.xlsx, Kestrel Analytics - Mutual NDA (v2).pdf
+
+Skill: /review (Commercial Legal)
 
 ## Set up[](https://academy.claude.com/use-cases/nda-review)
 

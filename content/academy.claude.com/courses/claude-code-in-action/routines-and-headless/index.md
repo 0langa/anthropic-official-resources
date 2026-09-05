@@ -8,7 +8,7 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-code-in-action%2Froutines-and-headless)
 
-Embedded media: https://www.youtube-nocookie.com/embed/b9TCW-pdzDA?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+Embedded media: https://www.youtube-nocookie.com/embed/7u366zBuUTM?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 Routines and headless
 
@@ -23,7 +23,7 @@ Anthropic's managed infrastructure. On the other end you have headless mode
 and the Agent SDK, which run Claude Code from your own code. Let's start
 with the end where you build the least.
 
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=b9TCW-pdzDA)
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=7u366zBuUTM)
 
 ## Routines: a saved prompt that runs in the cloud[](https://academy.claude.com/courses/claude-code-in-action/routines-and-headless)
 

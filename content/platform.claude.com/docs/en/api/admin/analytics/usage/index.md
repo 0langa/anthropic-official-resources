@@ -32,6 +32,24 @@ key with the `read:analytics` scope.
 
   - `"1m"`
 
+- `claude_tag_categories: optional array of "dm" or "engaged" or "monitoring" or 2 more`
+
+  Filter to Claude Tag (Claude in Slack) usage in specific spend categories. Usage with no category never matches. `dm` usage is reported under the user's product rather than `claude-tag`, so combining this filter with `products[]=claude-tag` excludes it. Use `group_by[]=claude_tag_category` to break out per-category values.
+
+  - `"dm"`
+
+  - `"engaged"`
+
+  - `"monitoring"`
+
+  - `"proactive"`
+
+  - `"scheduled"`
+
+- `claude_tag_user_ids: optional array of string`
+
+  Filter to Claude Tag (Claude in Slack) usage attributed to specific Slack users, by Slack user ID (for example `U0123ABCDEF`), not claude.ai user ID. Usage that is not Claude Tag, and Claude Tag usage not attributed to a single user, never matches. Use `group_by[]=claude_tag_user_id` to break out per-user values.
+
 - `context_windows: optional array of "0-200k" or "200k-1M"`
 
   Filter to specific context-window pricing tiers. Use `group_by[]=context_window` to break out per-tier values.
@@ -44,9 +62,13 @@ key with the `read:analytics` scope.
 
   End of range, exclusive. When omitted, defaults to the earlier of now and `starting_at` + 31 days. The range may span at most 31 days.
 
-- `group_by: optional array of "context_window" or "inference_geo" or "model" or 4 more`
+- `group_by: optional array of "claude_tag_category" or "claude_tag_user_id" or "context_window" or 6 more`
 
   Dimensions to break each time bucket out by. Defaults to no grouping (one total per bucket). Each bucket reports at most its top 100 groups; a group beyond that cap has no row in that bucket (there is no remainder row), so grouped buckets are not exhaustive when a dimension has more than 100 distinct values.
+
+  - `"claude_tag_category"`
+
+  - `"claude_tag_user_id"`
 
   - `"context_window"`
 
@@ -134,7 +156,7 @@ key with the `read:analytics` scope.
 
       End of the time bucket (exclusive) in RFC 3339 format.
 
-    - `results: array of object { cache_creation, cache_read_input_tokens, context_window, 10 more }`
+    - `results: array of object { cache_creation, cache_read_input_tokens, claude_tag_category, 12 more }`
 
       Rows for this time bucket. Empty when the bucket has no data; otherwise a single combined row when `group_by[]` is omitted, or one row per group (subject to the per-bucket group cap described on the `group_by[]` parameter).
 
@@ -153,6 +175,24 @@ key with the `read:analytics` scope.
       - `cache_read_input_tokens: number`
 
         The number of input tokens read from the cache.
+
+      - `claude_tag_category: "dm" or "engaged" or "monitoring" or 2 more or null`
+
+        Claude Tag (Claude in Slack) spend category: `engaged` (a person addressed Claude in a channel or thread), `proactive` (Claude responded without being addressed), `scheduled` (a scheduled routine ran), `monitoring` (Claude watching a channel it was asked to monitor), or `dm` (direct messages with Claude). Populated only when `claude_tag_category` is in `group_by[]`; null for usage that is not Claude Tag. Direct-message usage is billed to the individual user and is reported under that user's product, not under `claude-tag`. New categories may be added over time.
+
+        - `"dm"`
+
+        - `"engaged"`
+
+        - `"monitoring"`
+
+        - `"proactive"`
+
+        - `"scheduled"`
+
+      - `claude_tag_user_id: string or null`
+
+        Slack user ID (for example `U0123ABCDEF`) of the member the Claude Tag (Claude in Slack) usage is attributed to, not a claude.ai user ID. Populated only when `claude_tag_user_id` is in `group_by[]`; null for usage that is not Claude Tag and for Claude Tag usage that is not attributed to a single user (for example `monitoring`, and `proactive` usage Claude initiated), so per-user rows can sum to less than the Claude Tag total. Cannot be combined with `group_by[]=rbac_group_id` or the `rbac_group_ids[]` filter.
 
       - `context_window: "0-200k" or "200k-1M" or null`
 
@@ -256,6 +296,8 @@ curl https://api.anthropic.com/v1/organizations/analytics/usage_report \
             "ephemeral_5m_input_tokens": 500
           },
           "cache_read_input_tokens": 0,
+          "claude_tag_category": "dm",
+          "claude_tag_user_id": "U0123ABCDEF",
           "context_window": "0-200k",
           "inference_geo": "global",
           "model": "claude-opus-5",
@@ -311,6 +353,24 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 
   - `"1m"`
 
+- `claude_tag_categories: optional array of "dm" or "engaged" or "monitoring" or 2 more`
+
+  Filter to Claude Tag (Claude in Slack) usage in specific spend categories. Usage with no category never matches. `dm` usage is reported under the user's product rather than `claude-tag`, so combining this filter with `products[]=claude-tag` excludes it. Use `group_by[]=claude_tag_category` to break out per-category values.
+
+  - `"dm"`
+
+  - `"engaged"`
+
+  - `"monitoring"`
+
+  - `"proactive"`
+
+  - `"scheduled"`
+
+- `claude_tag_user_ids: optional array of string`
+
+  Filter to Claude Tag (Claude in Slack) usage attributed to specific Slack users, by Slack user ID (for example `U0123ABCDEF`), not claude.ai user ID. Usage that is not Claude Tag, and Claude Tag usage not attributed to a single user, never matches. Use `group_by[]=claude_tag_user_id` to break out per-user values.
+
 - `context_windows: optional array of "0-200k" or "200k-1M"`
 
   Filter to specific context-window pricing tiers. Use `group_by[]=context_window` to break out per-tier values.
@@ -327,9 +387,13 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 
   If true, omit rows for users who are deleted (`deleted: true`). A page may contain fewer than `limit` rows; use `has_more` and `next_page` to paginate as usual.
 
-- `group_by: optional array of "context_window" or "inference_geo" or "model" or 4 more`
+- `group_by: optional array of "claude_tag_category" or "claude_tag_user_id" or "context_window" or 6 more`
 
   Break each actor's row out by the given dimensions. Accepts the same values as the bucketed `/usage_report` endpoint. `limit` bounds (actor × time bucket × dimension) rows — with dimensions or `bucket_width` present, one actor may span several rows.
+
+  - `"claude_tag_category"`
+
+  - `"claude_tag_user_id"`
 
   - `"context_window"`
 
@@ -429,7 +493,7 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 
 - `UserUsage object { data, data_refreshed_at, has_more, 2 more }`
 
-  - `data: array of object { actor, cache_creation, cache_read_input_tokens, 14 more }`
+  - `data: array of object { actor, cache_creation, cache_read_input_tokens, 16 more }`
 
     Rows for this page, ranked by `order_by` in the `order` direction. One row per user, or several per user when `group_by[]` or `bucket_width` breaks that user's usage or cost out across rows. Rows split out by `cost_type` or `token_type` (cost endpoint only) stay adjacent and are ranked as one unit.
 
@@ -474,6 +538,24 @@ organizations on a Claude Enterprise plan. Requires an API key with the
     - `cache_read_input_tokens: number`
 
       The number of input tokens read from the cache.
+
+    - `claude_tag_category: "dm" or "engaged" or "monitoring" or 2 more or null`
+
+      Claude Tag (Claude in Slack) spend category: `engaged` (a person addressed Claude in a channel or thread), `proactive` (Claude responded without being addressed), `scheduled` (a scheduled routine ran), `monitoring` (Claude watching a channel it was asked to monitor), or `dm` (direct messages with Claude). Populated only when `claude_tag_category` is in `group_by[]`; null for usage that is not Claude Tag. Direct-message usage is billed to the individual user and is reported under that user's product, not under `claude-tag`. New categories may be added over time.
+
+      - `"dm"`
+
+      - `"engaged"`
+
+      - `"monitoring"`
+
+      - `"proactive"`
+
+      - `"scheduled"`
+
+    - `claude_tag_user_id: string or null`
+
+      Slack user ID (for example `U0123ABCDEF`) of the member the Claude Tag (Claude in Slack) usage is attributed to, not a claude.ai user ID. Populated only when `claude_tag_user_id` is in `group_by[]`; null for usage that is not Claude Tag and for Claude Tag usage that is not attributed to a single user (for example `monitoring`, and `proactive` usage Claude initiated), so per-user rows can sum to less than the Claude Tag total. Cannot be combined with `group_by[]=rbac_group_id` or the `rbac_group_ids[]` filter.
 
     - `context_window: "0-200k" or "200k-1M" or null`
 
@@ -589,6 +671,8 @@ curl https://api.anthropic.com/v1/organizations/analytics/user_usage_report \
         "ephemeral_5m_input_tokens": 500
       },
       "cache_read_input_tokens": 3200000,
+      "claude_tag_category": "dm",
+      "claude_tag_user_id": "U0123ABCDEF",
       "context_window": "0-200k",
       "ending_at": "2019-12-27T18:11:19.117Z",
       "inference_geo": "global",
@@ -628,7 +712,7 @@ curl https://api.anthropic.com/v1/organizations/analytics/user_usage_report \
 
       End of the time bucket (exclusive) in RFC 3339 format.
 
-    - `results: array of object { cache_creation, cache_read_input_tokens, context_window, 10 more }`
+    - `results: array of object { cache_creation, cache_read_input_tokens, claude_tag_category, 12 more }`
 
       Rows for this time bucket. Empty when the bucket has no data; otherwise a single combined row when `group_by[]` is omitted, or one row per group (subject to the per-bucket group cap described on the `group_by[]` parameter).
 
@@ -647,6 +731,24 @@ curl https://api.anthropic.com/v1/organizations/analytics/user_usage_report \
       - `cache_read_input_tokens: number`
 
         The number of input tokens read from the cache.
+
+      - `claude_tag_category: "dm" or "engaged" or "monitoring" or 2 more or null`
+
+        Claude Tag (Claude in Slack) spend category: `engaged` (a person addressed Claude in a channel or thread), `proactive` (Claude responded without being addressed), `scheduled` (a scheduled routine ran), `monitoring` (Claude watching a channel it was asked to monitor), or `dm` (direct messages with Claude). Populated only when `claude_tag_category` is in `group_by[]`; null for usage that is not Claude Tag. Direct-message usage is billed to the individual user and is reported under that user's product, not under `claude-tag`. New categories may be added over time.
+
+        - `"dm"`
+
+        - `"engaged"`
+
+        - `"monitoring"`
+
+        - `"proactive"`
+
+        - `"scheduled"`
+
+      - `claude_tag_user_id: string or null`
+
+        Slack user ID (for example `U0123ABCDEF`) of the member the Claude Tag (Claude in Slack) usage is attributed to, not a claude.ai user ID. Populated only when `claude_tag_user_id` is in `group_by[]`; null for usage that is not Claude Tag and for Claude Tag usage that is not attributed to a single user (for example `monitoring`, and `proactive` usage Claude initiated), so per-user rows can sum to less than the Claude Tag total. Cannot be combined with `group_by[]=rbac_group_id` or the `rbac_group_ids[]` filter.
 
       - `context_window: "0-200k" or "200k-1M" or null`
 
@@ -732,7 +834,7 @@ curl https://api.anthropic.com/v1/organizations/analytics/user_usage_report \
 
 - `UserUsage object { data, data_refreshed_at, has_more, 2 more }`
 
-  - `data: array of object { actor, cache_creation, cache_read_input_tokens, 14 more }`
+  - `data: array of object { actor, cache_creation, cache_read_input_tokens, 16 more }`
 
     Rows for this page, ranked by `order_by` in the `order` direction. One row per user, or several per user when `group_by[]` or `bucket_width` breaks that user's usage or cost out across rows. Rows split out by `cost_type` or `token_type` (cost endpoint only) stay adjacent and are ranked as one unit.
 
@@ -777,6 +879,24 @@ curl https://api.anthropic.com/v1/organizations/analytics/user_usage_report \
     - `cache_read_input_tokens: number`
 
       The number of input tokens read from the cache.
+
+    - `claude_tag_category: "dm" or "engaged" or "monitoring" or 2 more or null`
+
+      Claude Tag (Claude in Slack) spend category: `engaged` (a person addressed Claude in a channel or thread), `proactive` (Claude responded without being addressed), `scheduled` (a scheduled routine ran), `monitoring` (Claude watching a channel it was asked to monitor), or `dm` (direct messages with Claude). Populated only when `claude_tag_category` is in `group_by[]`; null for usage that is not Claude Tag. Direct-message usage is billed to the individual user and is reported under that user's product, not under `claude-tag`. New categories may be added over time.
+
+      - `"dm"`
+
+      - `"engaged"`
+
+      - `"monitoring"`
+
+      - `"proactive"`
+
+      - `"scheduled"`
+
+    - `claude_tag_user_id: string or null`
+
+      Slack user ID (for example `U0123ABCDEF`) of the member the Claude Tag (Claude in Slack) usage is attributed to, not a claude.ai user ID. Populated only when `claude_tag_user_id` is in `group_by[]`; null for usage that is not Claude Tag and for Claude Tag usage that is not attributed to a single user (for example `monitoring`, and `proactive` usage Claude initiated), so per-user rows can sum to less than the Claude Tag total. Cannot be combined with `group_by[]=rbac_group_id` or the `rbac_group_ids[]` filter.
 
     - `context_window: "0-200k" or "200k-1M" or null`
 

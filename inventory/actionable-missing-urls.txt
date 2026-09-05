@@ -1,1 +1,4 @@
-https://platform.claude.com/cookbook/claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer
+https://academy.claude.com/courses/building-effective-human-agent-teams/badge
+https://support.claude.com/en/articles/10593882
+https://support.claude.com/en/articles/16762437
+https://support.claude.com/en/articles/16824617-turn-on-data-retention-for-a-workspace-in-a-zero-data-retention-organization

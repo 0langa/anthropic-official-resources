@@ -8,118 +8,262 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-finygjm8.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gwhtyq3v.png)
 
-## Legal research
+Search
 
-Surfaces the relevant case law and regulatory guidance, then drafts a structured memo with citations.
+New Mail
 
-### Ask in plain English
+daniel.okafor@ashgrovemed.com
 
-State the question and the format you need — the skill handles where to look.
+Inbox*7*
 
-/research-memoPersonal skill
+Drafts*3*
 
-Legal / Research-Memos
+Archive
 
-### Cowork surfaces and reads the authority
+Sent
 
-Thomson Reuters for primary sources, your prior memos for the format, every proposition cited.
+Deleted Items
 
-Running /research-memo
+Junk Email
 
-Thomson Reuters · pulled 14 relevant authorities
+Groups
 
-Result
+Finance — Close
 
-Thomson Reuters · pulled regulatory guidance and secondary sources
+AP Approvals
 
-Result
+**Inbox**FocusedOther
 
-iM
+Today
 
-iManage · read 3 prior memos for house format
+*ML*
 
-Result
+**Maya Lindqvist**9:14 AM
 
-Grouping discussion by authority and weight
+Norwell won’t pick up our defense on the Dorsey claim
 
-Result
+Dan, Norwell’s carrier wrote back Friday refusing our tender.
 
-Microsoft 365 · wrote research-memo-draft.docx with citations
+*CI*
 
-Result
+**Contracts intake**8:51 AM
 
-Created research-memo-2026-05-15.docx
+New request: Halvorsen Robotics reseller agreement
 
-Done
+Submitted by Priya Nair (Sales Ops). Requested turnaround
 
-#### Progress
+*OP*
 
-1
+**Owen Park**8:07 AM
 
-Surface relevant authorities
+Re: Board consent, Series C secondary
 
-2
+Signed pages attached. I’ll hold the originals until
 
-Read prior memos for format
+*D*
 
-3
+**DocuSign**Yesterday
 
-Draft memo grouped by authority
+Completed: Brightline Logistics MSA amendment 2
 
-4
+All parties have signed. You can view the completed
 
-Write memo to folder
+*RC*
 
-#### Legal / Research-Memos
+**Rina Castellanos**Yesterday
 
-DOCmemo-template-house.docx
+Dorsey v. Ashgrove: scheduling order
 
-DOCprior-memo-unfair-competition.docx
+Response now due September 12. Calendar invite to follow for
 
-research-question.txt
+**Reply****Reply All****Forward****Archive****Delete****Flag**···
 
-#### Context
+## Norwell won’t pick up our defense on the Dorsey claim: do we have to fund this ourselves?
 
-Connectors
+*ML*
 
-Thomson Reuters
+**Maya Lindqvist**<maya.lindqvist@ashgrovemed.com>
 
-Microsoft 365
+To: Daniel Okafor
 
-iMiManage
+Mon 8/24/2026 9:14 AM
 
-### A structured memo, every proposition cited
+**Norwell MSA (executed 2024).pdf**412 KB
 
-Question presented, short answer, the discussion grouped by authority — in your house format.
+*▾*
 
-Question Presented
+**Dorsey complaint.pdf**1.1 MB
 
-Whether a California court is likely to enforce the post-employment non-compete in §7.2 of the Acme employment agreement against a former engineer now resident in Texas.
+*▾*
 
-Short Answer
+Dan,
 
-**No.** California courts will refuse to enforce §7.2 under Bus. & Prof. Code §16600 regardless of the Texas choice-of-law clause. *Edwards v. Arthur Andersen LLP*, 44 Cal. 4th 937 (2008); *Application Grp., Inc. v. Hunter Grp., Inc.*, 61 Cal. App. 4th 881 (1998). The narrow trade-secret exception is unlikely to apply on these facts. See Discussion §II.
+Norwell’s carrier wrote back Friday refusing our tender. They say they only owe us anything if Norwell is found negligent, and that the clause doesn’t cover us where the complaint says we were also at fault.
 
-Research memo — non-compete enforceability
+Our response in the Dorsey case is due Sept 12. Can you tell me where we stand by Thursday? MSA and the complaint attached.
 
-Document · DOCX · 28 KB · written to Legal / Research-Memos
+Maya
 
-### Clear the research queue every morning
+Maya Lindqvist · VP Operations · Ashgrove Medical Devices, Inc.
 
-Questions land in the queue folder; the cited memo is waiting before you open the matter.
+Write a legal research memo
 
-Legal / Research-Queue
+A colleague has emailed you a legal question and needs a cited memo.
 
-Scheduled
+Research / Norwell-Indemnity-Tender
 
-Research-queue memos
+4 files
 
-Weekday mornings, runs `/research-memo` on each new question in Legal/Research-Queue and writes the cited memo to the requesting matter folder.
+Folder
 
-Weekdays at **7 am** — checks Legal/Research-Queue for new questions
+research-request-and-facts.docx
 
-A structured memo with citations, not a list of links  
-— drafted before the question reaches the matter.
+Maya’s question and the facts
+
+DOCX
+
+memo-template-house-format.docx
+
+House format
+
+DOCX
+
+Litigation Legal
+
+/brief-section-drafter
+
+/chronology
+
+/matter-briefing
+
+How can I help you today?
+
+**/**brief-section-drafter Research this question. Surface case law and regulatory guidance via Thomson Reuters and draft a research memo: question presented, short answer, discussion grouped by authority, and open issues. Cite every proposition to the source you relied on.
+
+Reading the matter folder0s
+
+Read4 sources
+
+Read4 files in Research / Norwell-Indemnity-Tender
+
+Searched2 prior memos on indemnity tenders
+
+Searchedduty to defend: 8 authorities
+
+Searchedanti-indemnity statute: 2 results
+
+Search the web where your research service has nothing?
+
+No, list it as open
+
+Yes, and tag it to verify
+
+No, list it as open
+
+No, list it as an open issue.
+
+Used 4 sources43s
+
+I searched CoCounsel and two prior memos in iManage and drafted the memo in your house format: every proposition is cited and tagged by source, ten from CoCounsel, none from model knowledge. Four open issues are listed; the anti-indemnity point stays open as you asked.
+
+Research memo - Norwell indemnity tender.docx
+
+Document
+
+Download
+
+Research memo - Norwell indemnity tender.docx
+
+HomeInsertDrawDesignLayoutReferencesReviewView
+
+Privileged & Confidential · Attorney Work ProductDraft 1 · not for distribution
+
+Memorandum
+
+<table class="cap"><tbody><tr><td>To</td><td>Maya Lindqvist, VP Operations</td></tr><tr><td>From</td><td>Daniel Okafor, Senior Counsel, Commercial (draft)</td></tr><tr><td>Date</td><td>August 28, 2026</td></tr><tr><td>Re</td><td>Norwell Facilities Services, tender of defense and indemnity in <i>Dorsey v. Ashgrove Medical Devices, Inc.</i>, No. 26-CV-04418 (Colum. Super. Ct.)</td></tr></tbody></table>
+
+## *I.*Questions presented
+
+1. Under Franklin law, which governs the MSA (§ 14.3), does § 9.2 oblige Norwell to assume Ashgrove’s defense of the *Dorsey* action upon tender, before any finding that Norwell was negligent?
+2. Does § 9.2 require Norwell to indemnify Ashgrove for any share of a judgment attributed to Ashgrove’s own negligence?
+
+## *II.*Short answers
+
+**1. Yes, most likely.** A promise to “defend, indemnify and hold harmless” carries a duty to defend that arises when a covered claim is tendered, not when fault is later determined. Fr. Civ. Code § 2778(4) [CoCounsel]; *Crane v. Wexford Constr. Co.*, 41 Fr. 4th 512, 521–23 (2011) [CoCounsel] (the duty is triggered by tender of a claim “embraced by the indemnity,” whether or not the indemnitor is ultimately found negligent). The *Dorsey* complaint pleads injuries “arising out of” Norwell’s floor-care services (Compl. ¶¶ 14–19) [user provided], which places it within § 9.2 as written. Norwell’s refusal is a present breach, and Ashgrove’s reasonable defense costs from the July 31 tender forward are recoverable as damages. *Pell Logistics, Inc. v. Sandor Prop. Mgmt., LLC*, 102 Fr. App. 3d 77, 85–86 (2019) [CoCounsel]; see 2023 memo re Bayline Security tender, Part II [iManage, prior memo].
+
+**2. Not in full.** Franklin applies the express-negligence rule: an indemnitee recovers for its own active negligence only where the clause says so in specific terms, and general “any and all claims … arising out of or relating to” language does not. *Harrow v. Delacroix Indus., Inc.*, 88 Fr. App. 3d 240, 247–49 (2016) [CoCounsel]. Ashgrove still recovers for Norwell’s share and for passive negligence such as failure to discover the hazard, *Minton v. Carroway Foods Co.*, 95 Fr. App. 3d 610, 618 (2018) [CoCounsel]; whether the signage allegation is active or passive is Open Issue 2.
+
+## *III.*Facts (as provided)
+
+Ashgrove engaged Norwell for floor care at the Brookline distribution center under the 2024 MSA (§§ 9–10 indemnity; § 14.3 Franklin law). On July 2, 2026 a visitor slipped in a corridor Norwell had serviced that morning; the *Dorsey* complaint names Ashgrove only and alleges wet flooring and missing signage. Ashgrove tendered on July 31; Norwell’s carrier declined on August 21.
+
+## *IV.*Discussion
+
+<table class="toc"><tbody><tr><td>A.</td><td>Norwell’s duty to defend arose on tender</td><td>1. Fr. Civ. Code § 2778 · 2. Franklin Supreme Court · 3. Court of Appeal, incl. <i>Oakhurst Devs. v. Trilane Elec.</i>, 76 Fr. App. 3d 1002 (2014), distinguished</td></tr><tr><td>B.</td><td>Indemnity for Ashgrove’s own negligence</td><td>1. The express-negligence rule · 2. Active and passive negligence on these facts · 3. The carrier’s obligations on tender, Fr. Admin. Code tit. 12, § 410.7 and Ins. Comm’r Bulletin 2020-3</td></tr><tr><td>C.</td><td>The anti-indemnity statute</td><td>Unresolved; see Open Issue 1</td></tr></tbody></table>
+
+## *V.*Open issues
+
+**1. Anti-indemnity statute.** Fr. Civ. Code § 2790 [CoCounsel] voids provisions in “construction contracts” that indemnify a party against its own active negligence. Whether a recurring facilities-services agreement is a construction contract for this purpose is unsettled: the search returned the statute and one unpublished trial-court order, *Redfern v. Castellan Bldg. Servs.*, No. 22-CV-1187 (Fr. Super. Ct. Mar. 4, 2024) [CoCounsel, unpublished; not citable, Fr. R. Ct. 9.402], and no appellate authority. Per your instruction this point was not supplemented from web or model sources. [CITE NEEDED: resolve before relying on Part II.A; if § 2790 applies, Short Answer 2 stands but the route to it changes.]
+
+**2. Active or passive.** Turns on who owned signage under SOW Ex. B, which is not in the folder [VERIFY: SOW allocates signage to Vendor].
+
+**3. Fee recovery procedure** in the Columbia court is not analyzed; Franklin law governs substance only (§ 14.3).
+
+**4. Carrier response clock.** Tit. 12, § 410.7(b) requires a written acceptance or denial stating grounds within forty days of tender; July 31 + 40 days = September 9, 2026 [VERIFY: tender date from carrier letter].
+
+**Drafting notes for the reviewing attorney**Citations found: 13. 10 [CoCounsel] (5 cases, 2 statutes, 1 regulation, 1 bulletin, 1 unpublished order), 2 [iManage, prior memo], 1 [user provided]; 0 from model knowledge; 1 [CITE NEEDED], 2 [VERIFY]. All authorities need a currency check before the memo is sent. Draft only.
+
+Page 1 of 41,286 wordsEnglish (US)Focus90%
+
+Every claim is cited to where Claude found it.
+
+What Claude could not support is listed as open, not guessed.
+
+Make what we’ve done in this task into a skill called /research-memo, with my house format, citation style and jurisdictions built in.
+
+**/research-memo**Drafts a cited research memo in the house format from a request in the folder, and lists unsupported points as open issues.
+
+ReadsWorking folderCoCounsel LegaliManage
+
+Shared withYour legal team can view
+
+Claude Academy
+
+
+
+0:03 / 0:561×
+
+Illustration. Product screens are simplified.
+
+Write a legal research memo
+
+A colleague has emailed you a legal question and needs a cited memo.
+
+Name the research service and memo sections for the drafting skill, with every proposition cited.
+
+Claude reads the request and your prior memos, then searches the research service for authority.
+
+Claude asks you first wherever your judgment is needed.
+
+Claude tells you what it searched and cited, then gives you the research memo.
+
+Every claim is cited to where Claude found it.
+
+What Claude could not support is listed as open, not guessed.
+
+Save the run as a skill with your format and jurisdictions, then share it with the team.
+
+Your colleague gets a cited memo, after you have checked each source.
+
+Research this question. Surface case law and regulatory guidance via Thomson Reuters and draft a research memo: question presented, short answer, discussion grouped by authority, and open issues. Cite every proposition to the source you relied on.
+
+Search the web where your research service has nothing? No, list it as open / Yes, and tag it to verify
+
+I searched CoCounsel and two prior memos in iManage and drafted the memo in your house format: every proposition is cited and tagged by source, ten from CoCounsel, none from model knowledge. Four open issues are listed; the anti-indemnity point stays open as you asked.
+
+Research memo - Norwell indemnity tender.docx
+
+Skill: /brief-section-drafter (Litigation Legal)
 
 ## Set up[](https://academy.claude.com/use-cases/legal-research-memo)
 

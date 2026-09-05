@@ -62,7 +62,7 @@ The recording of this webinar is not available yet.
 
 ## Thank you for registering to watch
 
-[Watch webinar](https://www.anthropic.com/webinars/rebroadcast-claude-on-google-cloud-monitoring-and-securing-agents-at-scale)Watch webinar
+[Watch webinar](https://anthropic.ondemand.goldcast.io/on-demand/4c49d05a-b396-4b06-a6e1-2abe077ec059)Watch webinar
 
 Watch webinar
 

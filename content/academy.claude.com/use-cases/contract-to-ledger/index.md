@@ -8,9 +8,147 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-h97eje0w.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-b4zgvlm6.png)
 
-### Contract to ledger extraction
+Get signed contracts into the ledger
 
-Reads executed contracts, fills the rev-rec intake sheet, flags non-standard deals for review.
+This week’s signed contracts need to go into the ledger under your policy.
+
+Revenue / Intake / 2026-W35
+
+12 contracts
+
+Folder
+
+revrec-intake-template.xlsx
+
+Your columns
+
+XLSX
+
+asc606-policy.md
+
+Standard patterns
+
+MD
+
+Finance
+
+/close-management
+
+/journal-entry
+
+/reconciliation
+
+How can I help you today?
+
+**/**journal-entry Extract the ASC 606 fields (performance obligations, standalone selling price, contract term, billing schedule, variable consideration) from every executed contract into the rev-rec intake sheet, and flag any that don't match a standard pattern for my review before booking.
+
+Reading asc606-policy.md0s
+
+Read5 sources
+
+Readasc606-policy.md
+
+Readrevrec-intake-template.xlsx
+
+ReadRevenue / Intake — 12 contracts
+
+Checkedeach contract against the policy
+
+Checkedrevrec-intake-2026-W35.xlsx
+
+For contracts that auto-renew, which length do I record?
+
+Initial term, flag the renewal
+
+Include the first renewal period
+
+Initial term, flag the renewal
+
+The initial term, and flag the renewal.
+
+Used 5 sources44s
+
+I read the 12 executed contracts into your intake sheet as 21 obligation lines and checked each against the policy: 8 are standard and ready to book, 4 are held for you. The Exceptions tab lists each with its clause, policy section and the decision needed.
+
+revrec-intake-2026-W35.xlsx
+
+Spreadsheet
+
+Download
+
+![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)revrec-intake-2026-W35.xlsx
+
+HomeInsertDrawPage LayoutFormulasDataReviewView
+
+Aptos Narrow
+
+11
+
+General
+
+F4
+
+fx
+
+=ROUND($D$3\*E4/SUM($E$3:$E$5),0)
+
+<table><thead><tr><th class="rh"></th><th style="width:210px">A</th><th style="width:330px">B</th><th style="width:230px">C</th><th style="width:110px">D</th><th style="width:110px">E</th><th style="width:120px">F</th><th style="width:150px">G</th><th style="width:150px">H</th></tr></thead><tbody><tr class="hdr"><td class="rh">1</td><td>Customer<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Performance obligation<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Term<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>TCV<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>SSP<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Allocated<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Status<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Ref<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td></tr><tr class="r0" style="opacity: 0;"><td class="rh">2</td><td class="c0">Northwind Traders</td><td class="c1">Platform subscription, 250 seats</td><td class="c2">36 mo from 1 Sep 2026</td><td class="num c3">684,000</td><td class="num c4">648,000</td><td class="num c5">568,246</td><td class="c6">Ready to book</td><td class="c7">§2.1; OF-1 Sched. A</td></tr><tr class="r1 band" style="opacity: 0;"><td class="rh">3</td><td class="c0"></td><td class="c1">Implementation services</td><td class="c2"></td><td class="num c3"></td><td class="num c4">60,000</td><td class="num c5">52,615</td><td class="c6">Ready to book</td><td class="c7">§5.2; OF-1 line 2</td></tr><tr class="r2" style="opacity: 0;"><td class="rh">4</td><td class="c0"></td><td class="c1">Premium support</td><td class="c2"></td><td class="num c3"></td><td class="num c4">72,000</td><td class="num c5">63,139</td><td class="c6">Ready to book</td><td class="c7">§5.4</td></tr><tr class="r3 band" style="opacity: 0;"><td class="rh">5</td><td class="c0">Helio Labs</td><td class="c1">API usage, $15,000 monthly minimum</td><td class="c2">12 mo from 1 Sep 2026</td><td class="num c3">180,000</td><td class="num c4">180,000</td><td class="num c5">180,000</td><td class="c6" style="background: rgb(243, 234, 209); color: rgb(138, 106, 31); font-weight: 600;">Review</td><td class="c7">§3.4; Exh. B §2</td></tr><tr class="r4" style="opacity: 0;"><td class="rh">6</td><td class="c0">Brightline Logistics</td><td class="c1">Fleet subscription, 80 vehicles</td><td class="c2">12 mo from 15 Sep 2026</td><td class="num c3">96,000</td><td class="num c4">96,000</td><td class="num c5">96,000</td><td class="c6">Ready to book</td><td class="c7">§1; §4</td></tr><tr class="r5 band" style="opacity: 0;"><td class="rh">7</td><td class="c0">Corvid Analytics</td><td class="c1">Platform subscription</td><td class="c2">24 mo from 1 Oct 2026</td><td class="num c3">312,000</td><td class="num c4">288,000</td><td class="num c5">277,333</td><td class="c6">Ready to book</td><td class="c7">§2; §6.1</td></tr><tr class="r6" style="opacity: 0;"><td class="rh">8</td><td class="c0"></td><td class="c1">Implementation, fixed fee (SOW-1)</td><td class="c2"></td><td class="num c3"></td><td class="num c4">36,000</td><td class="num c5">34,667</td><td class="c6">Ready to book</td><td class="c7">SOW-1 §3</td></tr><tr class="r7 band" style="opacity: 0;"><td class="rh">9</td><td class="c0">Meridian Health Partners</td><td class="c1">Clinical platform subscription</td><td class="c2">36 mo initial; yearly renewal flagged</td><td class="num c3">540,000</td><td class="num c4">504,000</td><td class="num c5">467,629</td><td class="c6" style="background: rgb(243, 234, 209); color: rgb(138, 106, 31); font-weight: 600;">Review</td><td class="c7">§2.2; §9.1</td></tr><tr class="r8" style="opacity: 0;"><td class="rh">10</td><td class="c0"></td><td class="c1">Onboarding and training, 12 sessions</td><td class="c2"></td><td class="num c3"></td><td class="num c4">24,000</td><td class="num c5">22,268</td><td class="c6" style="background: rgb(243, 234, 209); color: rgb(138, 106, 31); font-weight: 600;">Review</td><td class="c7">Sched. 1</td></tr><tr class="r9 band" style="opacity: 0;"><td class="rh">11</td><td class="c0"></td><td class="c1">Priority support</td><td class="c2"></td><td class="num c3"></td><td class="num c4">54,000</td><td class="num c5">50,103</td><td class="c6" style="background: rgb(243, 234, 209); color: rgb(138, 106, 31); font-weight: 600;">Review</td><td class="c7">§7.3</td></tr><tr class="r10" style="opacity: 0;"><td class="rh">12</td><td class="c0">Osprey Payments</td><td class="c1">Payments platform subscription</td><td class="c2">12 mo from 1 Sep 2026</td><td class="num c3">150,000</td><td class="num c4">120,000</td><td class="num c5">120,000</td><td class="c6" style="background: rgb(243, 234, 209); color: rgb(138, 106, 31); font-weight: 600;">Review</td><td class="c7">§3</td></tr><tr class="r11 band" style="opacity: 0;"><td class="rh">13</td><td class="c0"></td><td class="c1">Prepaid transaction credits, expire at term end</td><td class="c2"></td><td class="num c3"></td><td class="num c4">30,000</td><td class="num c5">30,000</td><td class="c6" style="background: rgb(243, 234, 209); color: rgb(138, 106, 31); font-weight: 600;">Review</td><td class="c7">§5.3</td></tr><tr class="r12" style="opacity: 0;"><td class="rh">14</td><td class="c0">Tidewater Energy</td><td class="c1">40 added seats, co-terminous (Amend. 2)</td><td class="c2">10 mo from 1 Sep 2026</td><td class="num c3">38,000</td><td class="num c4">38,000</td><td class="num c5">38,000</td><td class="c6" style="background: rgb(243, 234, 209); color: rgb(138, 106, 31); font-weight: 600;">Review</td><td class="c7">Amend. 2 §1–2</td></tr><tr class="r13 band" style="opacity: 0;"><td class="rh">15</td><td class="c0">Alder Street Studio</td><td class="c1">Team subscription, 30 seats</td><td class="c2">12 mo from 1 Sep 2026</td><td class="num c3">21,600</td><td class="num c4">21,600</td><td class="num c5">21,600</td><td class="c6">Ready to book</td><td class="c7">OF §1</td></tr><tr><td class="rh">16</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">17</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">18</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">19</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">20</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">21</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+
+IntakeExceptions (4)SSP tableRun log+Ready  ·  Sum: 2,340,200
+
+Each line is filled into your columns and points to its clause.
+
+Standard ones go through; anything unusual waits for your decision.
+
+Run this every weekday at 5 pm: check Revenue / Intake for contracts added since the last run, append their lines to the intake sheet and send the exception list to #revenue-ops.
+
+**Contract intake to rev-rec**Weekdays at 5:00 PM
+
+Each run
+
+Extracts the fields from contracts added since the last run
+
+Appends their lines to the intake sheet
+
+Drafts the exception list for #revenue-ops*for you to send*
+
+Claude Academy
+
+
+
+0:03 / 0:561×
+
+Illustration. Product screens are simplified.
+
+Get signed contracts into the ledger
+
+This week’s signed contracts need to go into the ledger under your policy.
+
+Using the Finance plugin’s journal entry skill, name your fields and ask for non-standard terms first.
+
+Claude reads your policy and template first, then every contract in the folder.
+
+When something is yours to decide, Claude stops and asks.
+
+Claude tells you what it flagged, then gives you the intake sheet.
+
+Each line is filled into your columns and points to its clause.
+
+Standard ones go through; anything unusual waits for your decision.
+
+You can schedule the same extraction each weekday for contracts added to the folder.
+
+Routine contracts are ready for the ledger, and you only review the unusual ones.
+
+Extract the ASC 606 fields (performance obligations, standalone selling price, contract term, billing schedule, variable consideration) from every executed contract into the rev-rec intake sheet, and flag any that don't match a standard pattern for my review before booking.
+
+For contracts that auto-renew, which length do I record? Initial term, flag the renewal / Include the first renewal period
+
+I read the 12 executed contracts into your intake sheet as 21 obligation lines and checked each against the policy: 8 are standard and ready to book, 4 are held for you. The Exceptions tab lists each with its clause, policy section and the decision needed.
+
+revrec-intake-2026-W35.xlsx
+
+Skill: /journal-entry (Finance)
 
 ## Set up[](https://academy.claude.com/use-cases/contract-to-ledger)
 

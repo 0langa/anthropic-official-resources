@@ -16,7 +16,7 @@ Log in with the [`ant` CLI](https://platform.claude.com/docs/en/cli-sdks-librari
 
 ```bash CLI
 ant auth login --profile admin --scope "org:admin"
-export ANTHROPIC_OAUTH_TOKEN=$(ant auth print-credentials --profile admin --access-token)
+export ANTHROPIC_AUTH_TOKEN=$(ant auth print-credentials --profile admin --access-token)
 ```
 
 Interactive tokens are short-lived; if requests start returning 401, re-run the export command (it refreshes the token automatically).
@@ -43,7 +43,7 @@ One Console-created rule is enough to put the rest of your federation configurat
   </Step>
 
   <Step title="Manage issuers and workspace-scoped rules through the API">
-    With the minted token in `ANTHROPIC_OAUTH_TOKEN`, the workload creates and manages your federation configuration using the endpoints on this page.
+    With the minted token in `ANTHROPIC_AUTH_TOKEN`, the workload creates and manages your federation configuration using the endpoints on this page.
   </Step>
 </Steps>
 
@@ -56,7 +56,7 @@ All endpoints live under `https://api.anthropic.com/v1/organizations/`. Every re
 ```bash cURL
 curl --fail-with-body -sS "https://api.anthropic.com/v1/organizations/service_accounts" \
   -H "anthropic-version: 2023-06-01" \
-  -H "authorization: Bearer $ANTHROPIC_OAUTH_TOKEN"
+  -H "authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
 ```
 
 Admin API keys are not accepted on these endpoints; the Admin API page's `x-api-key` examples do not apply here.
@@ -69,7 +69,7 @@ A [service account](https://platform.claude.com/docs/en/manage-claude/workload-i
 # Create a service account
 curl --fail-with-body -sS "https://api.anthropic.com/v1/organizations/service_accounts" \
   -H "anthropic-version: 2023-06-01" \
-  -H "authorization: Bearer $ANTHROPIC_OAUTH_TOKEN" \
+  -H "authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
   -H "content-type: application/json" \
   -d '{
     "name": "inference-worker",
@@ -79,12 +79,12 @@ curl --fail-with-body -sS "https://api.anthropic.com/v1/organizations/service_ac
 # List service accounts
 curl --fail-with-body -sS "https://api.anthropic.com/v1/organizations/service_accounts?limit=20" \
   -H "anthropic-version: 2023-06-01" \
-  -H "authorization: Bearer $ANTHROPIC_OAUTH_TOKEN"
+  -H "authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
 
 # Archive a service account
 curl --fail-with-body -sS -X POST "https://api.anthropic.com/v1/organizations/service_accounts/svac_.../archive" \
   -H "anthropic-version: 2023-06-01" \
-  -H "authorization: Bearer $ANTHROPIC_OAUTH_TOKEN"
+  -H "authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
 ```
 
 The create endpoint returns the new service account:
@@ -118,7 +118,7 @@ A [federation issuer](https://platform.claude.com/docs/en/manage-claude/workload
 # Register an issuer (GitHub Actions, with JWKS discovery)
 curl --fail-with-body -sS "https://api.anthropic.com/v1/organizations/federation_issuers" \
   -H "anthropic-version: 2023-06-01" \
-  -H "authorization: Bearer $ANTHROPIC_OAUTH_TOKEN" \
+  -H "authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
   -H "content-type: application/json" \
   -d '{
     "name": "github-actions",
@@ -129,12 +129,12 @@ curl --fail-with-body -sS "https://api.anthropic.com/v1/organizations/federation
 # List issuers
 curl --fail-with-body -sS "https://api.anthropic.com/v1/organizations/federation_issuers?limit=20" \
   -H "anthropic-version: 2023-06-01" \
-  -H "authorization: Bearer $ANTHROPIC_OAUTH_TOKEN"
+  -H "authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
 
 # Archive an issuer
 curl --fail-with-body -sS -X POST "https://api.anthropic.com/v1/organizations/federation_issuers/fdis_.../archive" \
   -H "anthropic-version: 2023-06-01" \
-  -H "authorization: Bearer $ANTHROPIC_OAUTH_TOKEN"
+  -H "authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
 ```
 
 To read or update a single issuer, use `GET` and `POST` on `/v1/organizations/federation_issuers/{issuer_id}`. An OAuth caller cannot update an issuer that backs a rule whose `oauth_scope` is anything other than `workspace:developer` or `workspace:inference`; see [Permissions and constraints](https://platform.claude.com/docs/en/manage-claude/wif-admin-api#permissions-and-constraints).
@@ -149,7 +149,7 @@ A [federation rule](https://platform.claude.com/docs/en/manage-claude/workload-i
 # Create a rule (GitHub Actions deploys from the main branch)
 curl --fail-with-body -sS "https://api.anthropic.com/v1/organizations/federation_rules" \
   -H "anthropic-version: 2023-06-01" \
-  -H "authorization: Bearer $ANTHROPIC_OAUTH_TOKEN" \
+  -H "authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
   -H "content-type: application/json" \
   -d '{
     "name": "gha-deploy",
@@ -170,12 +170,12 @@ curl --fail-with-body -sS "https://api.anthropic.com/v1/organizations/federation
 # List rules, optionally filtered by issuer
 curl --fail-with-body -sS "https://api.anthropic.com/v1/organizations/federation_rules?issuer_id=fdis_..." \
   -H "anthropic-version: 2023-06-01" \
-  -H "authorization: Bearer $ANTHROPIC_OAUTH_TOKEN"
+  -H "authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
 
 # Archive a rule
 curl --fail-with-body -sS -X POST "https://api.anthropic.com/v1/organizations/federation_rules/fdrl_.../archive" \
   -H "anthropic-version: 2023-06-01" \
-  -H "authorization: Bearer $ANTHROPIC_OAUTH_TOKEN"
+  -H "authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
 ```
 
 The list endpoint returns a page of rules and the cursor for the next page:

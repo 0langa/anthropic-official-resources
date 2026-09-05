@@ -8,7 +8,7 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-code-in-action%2Fgithub-actions-and-code-review)
 
-Embedded media: https://www.youtube-nocookie.com/embed/gIVt\_iqmACw?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+Embedded media: https://www.youtube-nocookie.com/embed/nVGcWczH8fk?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 GitHub Actions and Code Review
 
@@ -19,7 +19,7 @@ problems. One is a managed service you turn on. The other is a GitHub
 Action you wire up yourself. Let's walk through both and figure out when to
 reach for each.
 
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=gIVt_iqmACw)
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=nVGcWczH8fk)
 
 ## The managed path: Code Review[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
 

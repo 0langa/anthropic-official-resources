@@ -38,7 +38,7 @@ Log in with the [`ant` CLI](https://platform.claude.com/docs/en/cli-sdks-librari
 
 ```bash CLI
 ant auth login --profile admin --scope "org:admin"
-export ANTHROPIC_OAUTH_TOKEN=$(ant auth print-credentials --profile admin --access-token)
+export ANTHROPIC_AUTH_TOKEN=$(ant auth print-credentials --profile admin --access-token)
 ```
 
 Interactive tokens are short-lived. If requests start returning 401, re-run the `export` command to refresh the token.
@@ -48,7 +48,7 @@ Call the Admin API with the exported token:
 ```bash cURL
 curl --fail-with-body -sS "https://api.anthropic.com/v1/organizations/me" \
   --header "anthropic-version: 2023-06-01" \
-  --header "authorization: Bearer $ANTHROPIC_OAUTH_TOKEN"
+  --header "authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
 ```
 
 An `org:admin` token grants access to the whole organization, regardless of the workspace the underlying profile or [federation rule](https://platform.claude.com/docs/en/manage-claude/admin-api#federation-rules) is bound to.

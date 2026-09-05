@@ -8,9 +8,315 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-g1uo6xw3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hq8pagpq.png)
 
-# Design spec from scattered threads
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)#checkout-redesign
 
-Reads the threads, notes, and screenshots — writes one structured spec with every decision sourced.
+Nadia Okonjo, 22 Apr
+
+Let’s go with B, the single page. A fixes the form but keeps the two extra page loads.
+
+kickoff-notes.docx
+
+Decisions, 14 Apr
+
+Account stays required at checkout: fraud screening and order lookup depend on it (Jordan)
+
+current-flow-screens.png
+
+Current checkout, screens 2–4
+
+6 required fields before any progress
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23000'%20d='M4.46%204.44c.74.6%201.02.56%202.42.46l13.18-.79c.28%200%20.05-.28-.05-.32l-2.19-1.58c-.42-.33-.98-.7-2.05-.6L2.99%202.53c-.46.05-.56.28-.37.46l1.84%201.45Zm.8%203.1v13.87c0%20.74.37%201.02%201.21.98l14.49-.84c.84-.05.93-.56.93-1.16V6.6c0-.6-.23-.93-.74-.88l-15.14.88c-.56.05-.75.33-.75.93Zm14.3.74c.1.42%200%20.84-.42.89l-.7.14v10.24c-.6.33-1.16.51-1.63.51-.74%200-.93-.23-1.49-.93l-4.56-7.16v6.93l1.44.33s0%20.84-1.16.84l-3.21.18c-.1-.18%200-.65.33-.74l.84-.23V9.98l-1.16-.1c-.1-.42.14-1.02.79-1.07l3.44-.23%204.75%207.25V9.42l-1.21-.14c-.1-.51.28-.88.74-.93l3.21-.18Z'/%3e%3c/svg%3e)Notion
+
+Checkout PRD (draft)
+
+Status: In review. Goals edited 21 Apr
+
+Turn scattered threads into a design spec
+
+Your design decisions are scattered across threads, and you need one spec.
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)
+
+Slack
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23000'%20d='M4.46%204.44c.74.6%201.02.56%202.42.46l13.18-.79c.28%200%20.05-.28-.05-.32l-2.19-1.58c-.42-.33-.98-.7-2.05-.6L2.99%202.53c-.46.05-.56.28-.37.46l1.84%201.45Zm.8%203.1v13.87c0%20.74.37%201.02%201.21.98l14.49-.84c.84-.05.93-.56.93-1.16V6.6c0-.6-.23-.93-.74-.88l-15.14.88c-.56.05-.75.33-.75.93Zm14.3.74c.1.42%200%20.84-.42.89l-.7.14v10.24c-.6.33-1.16.51-1.63.51-.74%200-.93-.23-1.49-.93l-4.56-7.16v6.93l1.44.33s0%20.84-1.16.84l-3.21.18c-.1-.18%200-.65.33-.74l.84-.23V9.98l-1.16-.1c-.1-.42.14-1.02.79-1.07l3.44-.23%204.75%207.25V9.42l-1.21-.14c-.1-.51.28-.88.74-.93l3.21-.18Z'/%3e%3c/svg%3e)
+
+Notion
+
+Design / Checkout-Redesign
+
+3 files
+
+Folder
+
+kickoff-notes.docx
+
+14 Apr kickoff
+
+DOCX
+
+spec-template.docx
+
+Team template
+
+DOCX
+
+Design
+
+/design-critique
+
+/design-handoff
+
+/research-synthesis
+
+How can I help you today?
+
+M
+
+Northwind
+
+Channels
+
+# design-crit
+
+# mobile-web
+
+# checkout-redesign
+
+# growth-analytics
+
+Direct messages
+
+Nadia Okonjo
+
+Tomás Reyes
+
+**# checkout-redesign**9 members
+
+CA
+
+Chris Adebayo*16 Apr*
+
+Mobile web checkout, last 30 days to 15 Apr: of everyone who opens the cart, 71% get past sign-in, 45% past shipping address, 38% past payment and 32% place an order. Desktop ends at 51%. Address is the worst single screen: 37% of the people who reach it leave there. funnel-mobile-30d.png
+
+LV
+
+Lena Vogel*20 Apr*
+
+Two directions are in the Figma file. A keeps the three steps and trims the address form. B is one page with inline validation and the order summary pinned. Current flow attached for comparison. current-flow-screens.png 6 replies
+
+NO
+
+Nadia Okonjo*22 Apr*
+
+Let’s go with B, the single page. A fixes the form but keeps the two extra page loads that Chris’s numbers say we pay for. Promo codes stay as they are, that’s a separate project.
+
+TR
+
+Tomás Reyes*22 Apr*
+
+Works for eng. One ask: on phones narrower than 380 the pinned summary eats the keyboard space, so collapse it by default there. Lena Vogel: Agreed, collapsed with the total still visible.
+
+TR
+
+Tomás Reyes*23 Apr*
+
+Constraint to write down: card number, expiry and CVC stay inside the payment provider’s hosted fields, so inline validation for those comes from their SDK events, not ours. Address lookup is fine, the contract covers mobile web.
+
+NO
+
+Nadia Okonjo*24 Apr*
+
+Reopening one thing: guest checkout. 29% of carts die at sign-in. If people can check out with just an email and find their order from a link, most of that step goes away. @Jordan Blake can you weigh in before Thursday? 3 replies. Tomás Reyes: Roughly two sprints including order lookup by email. Fine by me if Risk is OK.
+
+Message #checkout-redesign
+
+**/**design-handoff Assemble everything in this folder, #checkout-redesign and the Checkout PRD draft in Notion into a single design spec: problem, goals, constraints, proposed solution, open questions, out of scope. Quote the source for any decision already made and flag anything contradictory. What did we already decide on checkout?
+
+Reading #checkout-redesign0s
+
+Read5 sources
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)Read#checkout-redesign
+
+Readkickoff-notes.docx
+
+Openedcurrent-flow-screens.png
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23000'%20d='M4.46%204.44c.74.6%201.02.56%202.42.46l13.18-.79c.28%200%20.05-.28-.05-.32l-2.19-1.58c-.42-.33-.98-.7-2.05-.6L2.99%202.53c-.46.05-.56.28-.37.46l1.84%201.45Zm.8%203.1v13.87c0%20.74.37%201.02%201.21.98l14.49-.84c.84-.05.93-.56.93-1.16V6.6c0-.6-.23-.93-.74-.88l-15.14.88c-.56.05-.75.33-.75.93Zm14.3.74c.1.42%200%20.84-.42.89l-.7.14v10.24c-.6.33-1.16.51-1.63.51-.74%200-.93-.23-1.49-.93l-4.56-7.16v6.93l1.44.33s0%20.84-1.16.84l-3.21.18c-.1-.18%200-.65.33-.74l.84-.23V9.98l-1.16-.1c-.1-.42.14-1.02.79-1.07l3.44-.23%204.75%207.25V9.42l-1.21-.14c-.1-.51.28-.88.74-.93l3.21-.18Z'/%3e%3c/svg%3e)ReadCheckout PRD (draft)
+
+Readspec-template.docx
+
+Did the April thread actually decide on guest checkout?
+
+No, list it as open
+
+Yes, record it as decided
+
+No, list it as open
+
+No, list it as an open question.
+
+Used 5 sources41s
+
+I read #checkout-redesign, the kickoff notes, the screenshots and the PRD draft and wrote the spec in your section order: six decisions quoted with who and where, one conflict flagged. Guest checkout is under Open questions with both sources quoted, beside two things I could not confirm.
+
+checkout-redesign-spec.docx
+
+Document
+
+Download
+
+# Checkout redesign, mobile web Design spec
+
+<table class="props"><tbody><tr><td>Status</td><td><span class="pill y">Draft</span> for design review Thu 30 Apr 2026</td></tr><tr><td>Owner</td><td>Lena Vogel</td></tr><tr><td>Sources</td><td>#checkout-redesign (14–24 Apr) · kickoff-notes.docx · current-flow-screens.png · Checkout PRD (draft)</td></tr><tr><td>Sections</td><td>In the order asked: Problem, Goals, Constraints, Proposed solution, Open questions, Out of scope, then the decision log</td></tr><tr><td>Coverage</td><td>6 decisions sourced · 3 open questions</td></tr></tbody></table>
+
+## Problem
+
+On mobile web, 32 of every 100 opened carts become orders; on desktop it is 51. The largest single loss is the shipping-address screen, where 37% of people who reach it leave: the current form asks for six required fields across three screens before any progress is shown (current-flow-screens.png, screens 2–4). Sign-in is the second loss at 29%.
+
+## Goals
+
+- Raise mobile cart-to-order from 32% to 40% by end of Q3 PRD draft, Goals.
+- Raise address-step completion from 63% to 80%; no increase in payment-step errors.
+- Measured on the existing checkout funnel dashboard, 30-day window.
+
+## Constraints
+
+- Card fields remain in the provider’s hosted fields; their validation comes from SDK events Tomás, 23 Apr.
+- No order-API changes this quarter kickoff notes. US, CA and UK address formats PRD draft. WCAG 2.2 AA.
+- Ships behind a flag at 10%, then 50%.
+
+## Proposed solution
+
+**Direction B:** a single checkout page with address lookup on the first address line, inline validation on every field we own, express wallet buttons at the top, and a persistent order summary, collapsed by default on phones narrower than 380 pt with the total visible. Screens: Figma “Checkout B” frames 1–7.
+
+## Open questions
+
+1. **Guest checkout — sources conflict; not treated as decided (per your answer).**
+
+   > “Account stays required at checkout — fraud screening and order lookup depend on it (Jordan).”kickoff-notes.docx, 14 Apr, Decisions
+
+   > “Reopening one thing: guest checkout. 29% of carts die at sign-in…”#checkout-redesign, 24 Apr, Nadia Okonjo
+
+   > “Roughly two sprints including order lookup by email. Fine by me if Risk is OK.”Tomás Reyes, same thread
+
+   Jordan Blake has not replied; thread not closed. **Needs:** Jordan and Maya, at or before review. If adopted, Goals and Out of scope change.
+2. Express wallet placement: the screenshot annotation asks “wallets above the fold?” but I found no discussion of it. Flagged as unconfirmed. **Needs:** Lena.
+3. Funnel figures run to 15 Apr. **Needs:** Chris to refresh before Thursday.
+
+## Out of scope
+
+Desktop checkout. Promo-code entry Maya, 22 Apr: “a separate project”. Saved cards and wallet management. Post-purchase pages.
+
+## Decision log 6 decisions, each with the message it came from
+
+<table class="dl"><tbody><tr><th style="width:24px">#</th><th style="width:210px">Decision</th><th>Source, quoted</th></tr><tr><td>1</td><td>Direction B, single-page checkout</td><td><blockquote class="sq">“Let’s go with B, the single page. A fixes the form but keeps the two extra page loads that Chris’s numbers say we pay for.”<cite>Nadia Okonjo, #checkout-redesign, 22 Apr</cite></blockquote></td></tr><tr><td>2</td><td>Order summary collapsed by default under 380 pt, total visible</td><td><blockquote class="sq">“collapse it by default there — Agreed, collapsed with the total still visible.”<cite>Tomás Reyes and Lena Vogel, thread, 22 Apr</cite></blockquote></td></tr><tr><td>3</td><td>Card fields stay in the provider’s hosted fields</td><td><blockquote class="sq">“card number, expiry and CVC stay inside the payment provider’s hosted fields”<cite>Tomás Reyes, #checkout-redesign, 23 Apr</cite></blockquote></td></tr><tr><td>4</td><td>Address lookup on mobile web</td><td><blockquote class="sq">“Address lookup is fine, the contract covers mobile web.”<cite>Tomás Reyes, 23 Apr; kickoff notes, Ideas</cite></blockquote></td></tr><tr><td>5</td><td>Promo-code entry unchanged</td><td><blockquote class="sq">“Promo codes stay as they are, that’s a separate project.”<cite>Nadia Okonjo, 22 Apr</cite></blockquote></td></tr><tr><td>6</td><td>Success metric is mobile cart-to-order rate, target 40%</td><td><blockquote class="sq">“Primary metric: mobile cart→order, 32% → 40% by end of Q3”<cite>Checkout PRD (draft), Goals, edited 21 Apr</cite></blockquote></td></tr></tbody></table>
+
+Each decision quotes the message it came from.
+
+# Checkout redesign, mobile web Design spec
+
+<table class="props"><tbody><tr><td>Status</td><td><span class="pill y">Draft</span> for design review Thu 30 Apr 2026</td></tr><tr><td>Owner</td><td>Lena Vogel</td></tr><tr><td>Sources</td><td>#checkout-redesign (14–24 Apr) · kickoff-notes.docx · current-flow-screens.png · Checkout PRD (draft)</td></tr><tr><td>Sections</td><td>In the order asked: Problem, Goals, Constraints, Proposed solution, Open questions, Out of scope, then the decision log</td></tr><tr><td>Coverage</td><td>6 decisions sourced · 3 open questions</td></tr></tbody></table>
+
+## Problem
+
+On mobile web, 32 of every 100 opened carts become orders; on desktop it is 51. The largest single loss is the shipping-address screen, where 37% of people who reach it leave: the current form asks for six required fields across three screens before any progress is shown (current-flow-screens.png, screens 2–4). Sign-in is the second loss at 29%.
+
+## Goals
+
+- Raise mobile cart-to-order from 32% to 40% by end of Q3 PRD draft, Goals.
+- Raise address-step completion from 63% to 80%; no increase in payment-step errors.
+- Measured on the existing checkout funnel dashboard, 30-day window.
+
+## Constraints
+
+- Card fields remain in the provider’s hosted fields; their validation comes from SDK events Tomás, 23 Apr.
+- No order-API changes this quarter kickoff notes. US, CA and UK address formats PRD draft. WCAG 2.2 AA.
+- Ships behind a flag at 10%, then 50%.
+
+## Proposed solution
+
+**Direction B:** a single checkout page with address lookup on the first address line, inline validation on every field we own, express wallet buttons at the top, and a persistent order summary, collapsed by default on phones narrower than 380 pt with the total visible. Screens: Figma “Checkout B” frames 1–7.
+
+## Open questions
+
+1. **Guest checkout — sources conflict; not treated as decided (per your answer).**
+
+   > “Account stays required at checkout — fraud screening and order lookup depend on it (Jordan).”kickoff-notes.docx, 14 Apr, Decisions
+
+   > “Reopening one thing: guest checkout. 29% of carts die at sign-in…”#checkout-redesign, 24 Apr, Nadia Okonjo
+
+   > “Roughly two sprints including order lookup by email. Fine by me if Risk is OK.”Tomás Reyes, same thread
+
+   Jordan Blake has not replied; thread not closed. **Needs:** Jordan and Maya, at or before review. If adopted, Goals and Out of scope change.
+2. Express wallet placement: the screenshot annotation asks “wallets above the fold?” but I found no discussion of it. Flagged as unconfirmed. **Needs:** Lena.
+3. Funnel figures run to 15 Apr. **Needs:** Chris to refresh before Thursday.
+
+## Out of scope
+
+Desktop checkout. Promo-code entry Maya, 22 Apr: “a separate project”. Saved cards and wallet management. Post-purchase pages.
+
+## Decision log 6 decisions, each with the message it came from
+
+<table class="dl"><tbody><tr><th style="width:24px">#</th><th style="width:210px">Decision</th><th>Source, quoted</th></tr><tr><td>1</td><td>Direction B, single-page checkout</td><td><blockquote class="sq">“Let’s go with B, the single page. A fixes the form but keeps the two extra page loads that Chris’s numbers say we pay for.”<cite>Nadia Okonjo, #checkout-redesign, 22 Apr</cite></blockquote></td></tr><tr><td>2</td><td>Order summary collapsed by default under 380 pt, total visible</td><td><blockquote class="sq">“collapse it by default there — Agreed, collapsed with the total still visible.”<cite>Tomás Reyes and Lena Vogel, thread, 22 Apr</cite></blockquote></td></tr><tr><td>3</td><td>Card fields stay in the provider’s hosted fields</td><td><blockquote class="sq">“card number, expiry and CVC stay inside the payment provider’s hosted fields”<cite>Tomás Reyes, #checkout-redesign, 23 Apr</cite></blockquote></td></tr><tr><td>4</td><td>Address lookup on mobile web</td><td><blockquote class="sq">“Address lookup is fine, the contract covers mobile web.”<cite>Tomás Reyes, 23 Apr; kickoff notes, Ideas</cite></blockquote></td></tr><tr><td>5</td><td>Promo-code entry unchanged</td><td><blockquote class="sq">“Promo codes stay as they are, that’s a separate project.”<cite>Nadia Okonjo, 22 Apr</cite></blockquote></td></tr><tr><td>6</td><td>Success metric is mobile cart-to-order rate, target 40%</td><td><blockquote class="sq">“Primary metric: mobile cart→order, 32% → 40% by end of Q3”<cite>Checkout PRD (draft), Goals, edited 21 Apr</cite></blockquote></td></tr></tbody></table>
+
+Run this every weekday at 8am until the review: re-read the channel and the folder, update the spec, and list decisions that changed at the top.
+
+**Spec freshness pass**Weekdays at 8:00 AM
+
+Each run
+
+Re-reads #checkout-redesign and the project folder
+
+Updates the spec and lists changed decisions at the top
+
+Re-checks the open questions*for you to review*
+
+Claude Academy
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23000'%20d='M4.46%204.44c.74.6%201.02.56%202.42.46l13.18-.79c.28%200%20.05-.28-.05-.32l-2.19-1.58c-.42-.33-.98-.7-2.05-.6L2.99%202.53c-.46.05-.56.28-.37.46l1.84%201.45Zm.8%203.1v13.87c0%20.74.37%201.02%201.21.98l14.49-.84c.84-.05.93-.56.93-1.16V6.6c0-.6-.23-.93-.74-.88l-15.14.88c-.56.05-.75.33-.75.93Zm14.3.74c.1.42%200%20.84-.42.89l-.7.14v10.24c-.6.33-1.16.51-1.63.51-.74%200-.93-.23-1.49-.93l-4.56-7.16v6.93l1.44.33s0%20.84-1.16.84l-3.21.18c-.1-.18%200-.65.33-.74l.84-.23V9.98l-1.16-.1c-.1-.42.14-1.02.79-1.07l3.44-.23%204.75%207.25V9.42l-1.21-.14c-.1-.51.28-.88.74-.93l3.21-.18Z'/%3e%3c/svg%3e)
+
+
+
+0:03 / 0:561×
+
+Illustration. Product screens are simplified.
+
+Turn scattered threads into a design spec
+
+Your design decisions are scattered across threads, and you need one spec.
+
+Give the handoff skill your section order, and ask where each decision came from.
+
+Claude reads the project channel, the files in your folder and the requirements draft.
+
+Wherever a decision is yours to make, Claude asks instead of guessing.
+
+You get the spec, with what Claude read and quoted at the top.
+
+Each decision quotes the message it came from.
+
+Where sources disagree, both are quoted as an open question.
+
+On a weekday schedule, Claude re-reads the channel and lists decisions that changed overnight.
+
+Your team reviews one spec instead of rereading every thread.
+
+Assemble everything in this folder, #checkout-redesign and the Checkout PRD draft in Notion into a single design spec: problem, goals, constraints, proposed solution, open questions, out of scope. Quote the source for any decision already made and flag anything contradictory. What did we already decide on checkout?
+
+Did the April thread actually decide on guest checkout? No, list it as open / Yes, record it as decided
+
+I read #checkout-redesign, the kickoff notes, the screenshots and the PRD draft and wrote the spec in your section order: six decisions quoted with who and where, one conflict flagged. Guest checkout is under Open questions with both sources quoted, beside two things I could not confirm.
+
+checkout-redesign-spec.docx
+
+Skill: /design-handoff (Design)
+
+Connectors: Slack, Notion
 
 ## Set up[](https://academy.claude.com/use-cases/design-spec-from-threads)
 

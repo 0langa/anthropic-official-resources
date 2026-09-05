@@ -8,9 +8,192 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-d27lxpfj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ia2n89lp.png)
 
-# Forecast & scenario modeling
+Build forecast scenarios
 
-Reads your financial data and model, runs three cases, and writes the planning memo.
+Leadership asks for three forecast cases and the reasons behind each one.
+
+Planning / FY-forecast
+
+4 files
+
+Folder
+
+driver-model-FY27.xlsx
+
+Driver model
+
+XLSX
+
+assumptions-Q1.docx
+
+Last quarter’s memo
+
+DOCX
+
+Finance
+
+/close-management
+
+/financial-statements
+
+/variance-analysis
+
+How can I help you today?
+
+**/**financial-statements Pull the latest actuals into the driver model, extend it four quarters, and run base, upside, and downside scenarios. For each, list which assumptions changed and by how much, then write a one-page memo explaining what drives the difference.
+
+Reading the Q2 close export0s
+
+Read4 sources
+
+Readnetsuite-actuals-Q2-FY27.csv
+
+Readdriver-model-FY27.xlsx
+
+Readheadcount-plan.xlsx
+
+Readassumptions-Q1.docx
+
+Which assumptions should change between the three cases?
+
+Win rate, churn and hiring pace
+
+All six, including pricing and expansion
+
+Win rate, churn and hiring pace
+
+Win rate, churn and hiring pace only.
+
+Used 4 sources42s
+
+I rebased the model on the Q2 close ($40.0M opening ARR) and ran base, upside and downside four quarters out: they end $7.0M apart, differing only in win rate, churn and hiring. The memo sizes each changed assumption, in last quarter’s format.
+
+driver-model-FY27.xlsx
+
+Spreadsheet
+
+Download
+
+assumptions-memo-Q3-FY27
+
+Document
+
+Download
+
+![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)driver-model-FY27.xlsx
+
+HomeInsertDrawPage LayoutFormulasDataReviewView
+
+Aptos Narrow
+
+11
+
+General
+
+C14
+
+fx
+
+=C10+C11+C12+C13
+
+<table><thead><tr><th class="rh"></th><th style="width:400px">A</th><th style="width:180px">B</th><th style="width:140px">C</th><th style="width:140px">D</th><th style="width:150px">E</th><th style="width:600px">F</th></tr></thead><tbody><tr class="ttlr"><td class="rh">1</td><td colspan="6" style="font:700 15px -apple-system,Aptos,system-ui;color:#1f2328;height:30px;border-color:transparent transparent #e6e6e6">FY27 re-forecast — Q3 FY27 to Q2 FY28, three cases ($K)<span style="font-weight:400;color:#6b7280;margin-left:10px">Opening ARR = Q2 FY27 close, ledger export of 28 Aug 2026</span></td></tr><tr class="hdr"><td class="rh">2</td><td>Driver / line<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Q2 FY27 actual<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Base<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Upside<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Downside<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Note<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td></tr><tr class="r0"><td class="rh">3</td><td class="c0" style="font-weight: 600;">Assumptions, next four quarters</td><td class="num c1" style="font-weight: 600;"></td><td class="num c2" style="font-weight: 600;"></td><td class="num c3" style="font-weight: 600;"></td><td class="num c4" style="font-weight: 600;"></td><td class="c5" style="font-weight: 600;"></td></tr><tr class="r1 band"><td class="rh">4</td><td class="c0">Pipeline per ramped AE, per quarter</td><td class="num c1">400</td><td class="num c2" style="background: rgb(255, 248, 219);">400</td><td class="num c3" style="background: rgb(255, 248, 219);">400</td><td class="num c4" style="background: rgb(255, 248, 219);">400</td><td class="c5">held</td></tr><tr class="r2"><td class="rh">5</td><td class="c0">Win rate</td><td class="num c1">25%</td><td class="num c2" style="background: rgb(255, 248, 219);">25%</td><td class="num c3" style="background: rgb(255, 248, 219);">28%</td><td class="num c4" style="background: rgb(255, 248, 219);">20%</td><td class="c5">flexed — new packaging from Q4 / longer enterprise cycles</td></tr><tr class="r3 band"><td class="rh">6</td><td class="c0">AE hires (headcount plan: 6 in Q3)</td><td class="num c1">—</td><td class="num c2" style="background: rgb(255, 248, 219);">6</td><td class="num c3" style="background: rgb(255, 248, 219);">6</td><td class="num c4" style="background: rgb(255, 248, 219);">0</td><td class="c5">flexed — downside = hiring freeze</td></tr><tr class="r4"><td class="rh">7</td><td class="c0">Gross churn, % of opening ARR</td><td class="num c1">8.0%</td><td class="num c2" style="background: rgb(255, 248, 219);">8.0%</td><td class="num c3" style="background: rgb(255, 248, 219);">6.0%</td><td class="num c4" style="background: rgb(255, 248, 219);">13.0%</td><td class="c5">flexed — downside loses two at-risk renewals (2,000)</td></tr><tr class="r5 band"><td class="rh">8</td><td class="c0">Gross expansion, % of opening ARR</td><td class="num c1">12.0%</td><td class="num c2" style="background: rgb(255, 248, 219);">12.0%</td><td class="num c3" style="background: rgb(255, 248, 219);">12.0%</td><td class="num c4" style="background: rgb(255, 248, 219);">12.0%</td><td class="c5">held</td></tr><tr class="r6"><td class="rh">9</td><td class="c0">List price change</td><td class="num c1">0%</td><td class="num c2" style="background: rgb(255, 248, 219);">0%</td><td class="num c3" style="background: rgb(255, 248, 219);">0%</td><td class="num c4" style="background: rgb(255, 248, 219);">0%</td><td class="c5">held</td></tr><tr class="r7 band"><td class="rh">10</td><td class="c0" style="font-weight: 600;">Opening ARR (Q2 FY27 close)</td><td class="num c1" style="font-weight: 600;">40,000</td><td class="num c2" style="font-weight: 600;">40,000</td><td class="num c3" style="font-weight: 600;">40,000</td><td class="num c4" style="font-weight: 600;">40,000</td><td class="c5" style="font-weight: 600;">netsuite-actuals-Q2-FY27.csv</td></tr><tr class="r8"><td class="rh">11</td><td class="c0">New ARR</td><td class="num c1">2,200</td><td class="num c2">10,000</td><td class="num c3">11,200</td><td class="num c4">7,040</td><td class="c5">= AE-quarters × row 4 × row 5</td></tr><tr class="r9 band"><td class="rh">12</td><td class="c0">Expansion</td><td class="num c1">1,150</td><td class="num c2">4,800</td><td class="num c3">4,800</td><td class="num c4">4,800</td><td class="c5"></td></tr><tr class="r10"><td class="rh">13</td><td class="c0">Churn</td><td class="num c1">(790)</td><td class="num c2">(3,200)</td><td class="num c3">(2,400)</td><td class="num c4">(5,200)</td><td class="c5"></td></tr><tr class="r11 band"><td class="rh">14</td><td class="c0" style="font-weight: 600;">Ending ARR (Q2 FY28)</td><td class="num c1" style="font-weight: 600;">40,000</td><td class="num c2" style="font-weight: 600;">51,600</td><td class="num c3" style="font-weight: 600;">53,600</td><td class="num c4" style="font-weight: 600;">46,640</td><td class="c5" style="font-weight: 600;"></td></tr><tr class="r12"><td class="rh">15</td><td class="c0">Growth vs opening</td><td class="num c1">—</td><td class="num c2">29.0%</td><td class="num c3">34.0%</td><td class="num c4">16.6%</td><td class="c5"></td></tr><tr class="r13 band"><td class="rh">16</td><td class="c0">vs Base</td><td class="num c1">—</td><td class="num c2">—</td><td class="num c3">+2,000</td><td class="num c4">(4,960)</td><td class="c5"></td></tr><tr class="r14"><td class="rh">17</td><td class="c0">Ramped AE-quarters in window</td><td class="num c1">—</td><td class="num c2">100</td><td class="num c3">100</td><td class="num c4">88</td><td class="c5">22 ramped today; Q3 hires ramp two quarters</td></tr><tr class="r15 band"><td class="rh">18</td><td class="c0">Implied net retention</td><td class="num c1">104%</td><td class="num c2">104%</td><td class="num c3">106%</td><td class="num c4">99%</td><td class="c5">= 1 + row 8 − row 7</td></tr><tr><td class="rh">19</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">20</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">21</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">22</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">23</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">24</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+
+DriversActualsForecastScenariosLog+Ready  ·
+
+The cases differ only in the assumptions you named.
+
+**assumptions-memo-Q3-FY27**
+
+FileEditViewInsertFormatToolsExtensionsHelp
+
+Share*▾*EB
+
+Assumptions memo
+
+# FY27 re-forecast: three cases for Q3 FY27 – Q2 FY28
+
+<table class="hdr"><tbody><tr><td>To</td><td>Leadership team</td><td>Date</td><td>28 August 2026</td></tr><tr><td>From</td><td>FP&amp;A</td><td>Model</td><td>driver-model-FY27.xlsx, Scenarios tab</td></tr><tr><td>Re</td><td>Base, upside and downside on the Q2 FY27 close</td><td>Format</td><td>Follows assumptions-Q1.docx</td></tr></tbody></table>
+
+## Summary
+
+Opening ARR is $40.0M at the Q2 close. Base ends Q2 FY28 at $51.6M (+29%), upside at $53.6M (+34%), downside at $46.6M (+17%). All three run on the same driver model; they differ only in win rate, churn and hiring pace, as agreed.
+
+<table class="cases"><tbody><tr><td class="base"><span>Base</span><b>$51.6M</b><i>ending ARR Q2 FY28 · +29% on $40.0M</i></td><td class="upside"><span>Upside</span><b>$53.6M</b><i>ending ARR Q2 FY28 · +34% on $40.0M</i></td><td class="downside"><span>Downside</span><b>$46.6M</b><i>ending ARR Q2 FY28 · +17% on $40.0M</i></td></tr></tbody></table>
+
+## What we held at plan
+
+Pipeline per ramped AE at $400K a quarter, gross expansion at 12% of opening ARR, list price unchanged. These are identical in every case.
+
+## What differs between the cases
+
+<table class="dt"><thead><tr><th class="as">Assumption</th><th class="c base">Base</th><th class="c upside">Upside</th><th class="c downside">Downside</th><th>Why</th></tr></thead><tbody><tr><td class="as">Win rate</td><td class="c">25%</td><td class="c up">28%</td><td class="c dn">20%</td><td class="why">Upside assumes the Q4 packaging change lifts conversion three points; downside assumes enterprise cycles lengthen.</td></tr><tr><td class="as">AE hires in Q3</td><td class="c">6</td><td class="c up">6</td><td class="c dn">0</td><td class="why">Downside is a hiring freeze; upside does not assume extra capacity.</td></tr><tr><td class="as">Gross churn, % of opening ARR</td><td class="c">8%</td><td class="c up">6%</td><td class="c dn">13%</td><td class="why">Downside loses both at-risk enterprise renewals ($2.0M).</td></tr><tr class="tot"><td class="as">Ending ARR vs Base ($K)</td><td class="c">—</td><td class="c up">+2,000</td><td class="c dn">(4,960)</td><td class="why">Spread between upside and downside: $7.0M.</td></tr></tbody></table>
+
+## What drives the difference
+
+The $7.0M spread between upside and downside is mostly two things. Retention is $2.8M of it: the downside case loses the two enterprise renewals flagged at risk in July ($2.0M), and the upside case assumes churn two points better than plan ($0.8M). Win rate is $3.2M: every point of win rate on a $40M pipeline is worth $0.4M of new ARR, and the cases sit eight points apart. The hiring freeze accounts for the remaining $1.0M, and only because the six Q3 hires would have been ramped for the last two quarters of the window; a freeze that starts later than October costs almost nothing inside this forecast.
+
+<table class="brg"><tbody><tr><td>Retention<b>$2.8M</b></td><td>Win rate<b>$3.2M</b></td><td>Hiring pace<b>$1.0M</b></td><td class="t">Upside − downside<b>$7.0M</b></td></tr></tbody></table>
+
+## What would change our view
+
+- Q3 win rate below 23% two months in: move to the downside hiring plan.
+- Either at-risk renewal signs: downside churn drops to 10.5%.
+
+## Actuals rebased
+
+Q2 FY27 closed at $40.0M ending ARR: 22 ramped AEs, win rate 25%, quarterly churn 2.0%. The Forecast tab now starts from these figures.
+
+The memo says which assumption drives each gap.
+
+Run this every Monday: if newly closed actuals are in Planning / FY-forecast, roll the model forward, rerun the three cases on the drivers we chose and save the memo beside it.
+
+**Monthly re-forecast**Mondays at 9:00 AM
+
+Each run
+
+Rolls the driver model forward on the new close
+
+Reruns base, upside and downside on your chosen drivers
+
+Saves the memo beside the model*for you to review*
+
+Claude Academy
+
+
+
+0:03 / 0:561×
+
+Illustration. Product screens are simplified.
+
+Build forecast scenarios
+
+Leadership asks for three forecast cases and the reasons behind each one.
+
+Name your three cases for the financial statements skill and say which assumptions change.
+
+Claude reads the closed actuals first, then your model, hiring plan and last memo.
+
+When something is yours to decide, Claude stops and asks.
+
+You get the workbook and a memo, with what Claude changed at the top.
+
+The cases differ only in the assumptions you named.
+
+The memo says which assumption drives each gap.
+
+You can put it on a schedule, and Claude runs the cases again whenever new actuals close.
+
+Leadership sees three cases on one model, with your reasons attached.
+
+Pull the latest actuals into the driver model, extend it four quarters, and run base, upside, and downside scenarios. For each, list which assumptions changed and by how much, then write a one-page memo explaining what drives the difference.
+
+Which assumptions should change between the three cases? Win rate, churn and hiring pace / All six, including pricing and expansion
+
+I rebased the model on the Q2 close ($40.0M opening ARR) and ran base, upside and downside four quarters out: they end $7.0M apart, differing only in win rate, churn and hiring. The memo sizes each changed assumption, in last quarter’s format.
+
+driver-model-FY27.xlsx, assumptions-memo-Q3-FY27
+
+Skill: /financial-statements (Finance)
 
 ## Set up[](https://academy.claude.com/use-cases/forecast-scenarios)
 

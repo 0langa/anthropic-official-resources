@@ -8,121 +8,255 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-jabaz0im.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nbrkrt31.png)
 
-# Slack and Teams message sweep
+C
 
-Reads messages from Slack, Teams, and Gmail, groups by topic, and drafts replies.
+Corliss
 
-## Ask in plain English
+Threads3
 
-Connect Slack, Teams, and Gmail, then describe the sweep you want.
+Activity9
 
-/message-sweepProductivity
+Channels
 
-Notes / Inbox-Sweeps
+# launch-atlas4
 
-## Cowork reads every inbox
+# cs-escalations2
 
-Connectors pull live unreads and the skill groups them across apps by topic.
+# vendor-mgmt
 
-Running `/message-sweep` across 3 connectors
+# team-offsite
+
+# general
+
+# programs1
+
+# random
+
+Direct messages
+
+Priya Nair2
+
+Sam Oyelaran2
+
+Jordan Ames1
+
+Dan Okafor (Brightwave)
+
+Leadership
+
+**# launch-atlas**31 members
+
+ML
+
+Maya Lindqvist*Fri 4:55 PM*
+
+Thanks all. Load test results Monday, then we lock the date.
+
+New messages
+
+JA
+
+Jordan Ames*5:48 PM*
+
+Load test topped out at 3.1k concurrent and we said 5k. I don’t think 12 May is safe. Proposing we move go-live to Mon 19 May. @Maya your call.
+
+SO
+
+Sam Oyelaran*6:02 PM*
+
+Customer webinar is booked for the 13th, fyi. If we slip a week I need to know by Wednesday to rebook the speakers.
+
+JA
+
+Jordan Ames*6:20 PM*
+
+Also: infra can give us the bigger pool from the 15th, which is another reason for the 19th.
+
+PN
+
+Priya Nair*7:41 AM*
+
++1 to 19 May from CS. Two onboarding calls are pencilled for the 12th; easy to move if we decide today.
+
+Message #launch-atlas
+
+Catch up on unread messages
+
+You come back to a pile of unread messages across chat and mail.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)
 
-Slack · read 11 unread DMs and @mentions
-
-Result
+Slack
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23F25022'%20d='M1%201h10.5v10.5H1z'/%3e%3cpath%20fill='%237FBA00'%20d='M12.5%201H23v10.5H12.5z'/%3e%3cpath%20fill='%2300A4EF'%20d='M1%2012.5h10.5V23H1z'/%3e%3cpath%20fill='%23FFB900'%20d='M12.5%2012.5H23V23H12.5z'/%3e%3c/svg%3e)
 
-Microsoft Teams · pulled 7 items from activity feed
+Microsoft 365
 
-Result
-
-Gmail · scanned 23 inbox threads from last 24h
-
-Result
-
-Comparing against participants and subject lines — grouping 41 messages into 6 topics, sorting reply / read / FYI.
-
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)
-
-Slack · drafted 3 replies under three sentences
-
-Result
-
-Created sweep-2026-04-27.md
-
-Done
-
-#### Progress
-
-1
-
-Read unreads from each app
-
-2
-
-Group by topic, not by app
-
-3
-
-Sort reply / read / FYI
-
-4
-
-Draft replies ≤ 3 sentences
-
-5
-
-Save sweep to folder
-
-#### Notes / Inbox-Sweeps
-
-sweep-2026-04-24.md
-
-sweep-2026-04-23.md
-
-#### Context
-
-Connectors
-
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)Slack
-
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23F25022'%20d='M1%201h10.5v10.5H1z'/%3e%3cpath%20fill='%237FBA00'%20d='M12.5%201H23v10.5H12.5z'/%3e%3cpath%20fill='%2300A4EF'%20d='M1%2012.5h10.5V23H1z'/%3e%3cpath%20fill='%23FFB900'%20d='M12.5%2012.5H23V23H12.5z'/%3e%3c/svg%3e)Microsoft Teams
+![](data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_4766_38693)'%3e%3cpath%20d='M11.9091%2034H16.3636V23.6969L10%2019.1515V32.1818C10%2033.1879%2010.8559%2034%2011.9091%2034Z'%20fill='%234285F4'/%3e%3cpath%20d='M31.6364%2034H36.0909C37.1473%2034%2038%2033.1848%2038%2032.1818V19.1515L31.6364%2023.6969'%20fill='%2334A853'/%3e%3cpath%20d='M31.6364%2015.8182V23.6969L38%2019.1515V16.7272C38%2014.4788%2035.305%2013.1969%2033.4182%2014.5454'%20fill='%23FBBC04'/%3e%3cpath%20d='M16.3636%2023.697V15.8182L24%2021.2727L31.6364%2015.8182V23.697L24%2029.1515'%20fill='%23EA4335'/%3e%3cpath%20d='M10%2016.7272V19.1515L16.3636%2023.6969V15.8182L14.5818%2014.5454C12.6918%2013.1969%2010%2014.4788%2010%2016.7272Z'%20fill='%23C5221F'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_4766_38693'%3e%3crect%20width='28'%20height='20'%20fill='white'%20transform='translate(10%2014)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e)
 
 Gmail
 
-## One list, sorted by what needs you
+Productivity
 
-Topics span apps; replies are drafted and waiting for an edit-and-send.
+/start
 
-Needs reply**Q2 budget reforecast** — Priya in #finance-ops, Dan over email, same ask. “Yes — reforecast goes to Ravi Thursday. I’ll fold the new headcount line in before then; flag anything else by EOD Wed.”
+/task-management
 
-Needs reply**Northwind renewal timing** — Marcus DM’d in Slack, Elena pinged the same thread in Teams. “Legal has the redlines; we’re targeting signature by May 6. I’ll loop you both when the clean copy is back.”
+/update
 
-Read**June offsite logistics** — 6 messages in #team-offsite. Hotel block confirmed, agenda draft linked, no action for you yet.
+How can I help you today?
 
-FYI3 more topics — release notes, IT maintenance window, Kira’s PTO heads-up. Summarised in the file.
+C
 
-Inbox sweep — Q2 reforecast, Northwind renewal
+Corliss
 
-Document · MD · 3 KB · saved to Inbox-Sweeps
+Threads3
 
-## Have it waiting at 8am
+Activity9
 
-Schedule the customized skill — the sweep arrives as a Slack DM before you open anything.
+Channels
 
-Notes / Inbox-Sweeps
+# launch-atlas4
 
-Scheduled
+# cs-escalations2
 
-Morning message sweep
+# vendor-mgmt
 
-Runs `/message-sweep` against Slack, Teams, and Gmail and writes the topic-grouped list with drafts to you as a Slack DM.
+# team-offsite
 
-Every **weekday** at **8:00am**
+# general
 
-Every morning, your unreads arrive sorted by topic with reply drafts already written.
+# programs1
+
+# random
+
+Direct messages
+
+Priya Nair2
+
+Sam Oyelaran2
+
+Jordan Ames1
+
+Dan Okafor (Brightwave)
+
+Leadership
+
+**# launch-atlas**31 members
+
+ML
+
+Maya Lindqvist*Fri 4:55 PM*
+
+Thanks all. Load test results Monday, then we lock the date.
+
+New messages
+
+JA
+
+Jordan Ames*5:48 PM*
+
+Load test topped out at 3.1k concurrent and we said 5k. I don’t think 12 May is safe. Proposing we move go-live to Mon 19 May. @Maya your call.
+
+SO
+
+Sam Oyelaran*6:02 PM*
+
+Customer webinar is booked for the 13th, fyi. If we slip a week I need to know by Wednesday to rebook the speakers.
+
+JA
+
+Jordan Ames*6:20 PM*
+
+Also: infra can give us the bigger pool from the 15th, which is another reason for the 19th.
+
+PN
+
+Priya Nair*7:41 AM*
+
++1 to 19 May from CS. Two onboarding calls are pencilled for the 12th; easy to move if we decide today.
+
+Message #launch-atlas
+
+**/**start Sweep my unread Slack DMs and mentions, Teams activity and Gmail since yesterday. Group everything by topic, not by app. Say whether each topic needs a reply, reading, or is FYI, and draft replies of three sentences or fewer.
+
+Reading Slack0s
+
+Read5 sources
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)Readunread DMs and mentions: 14
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23F25022'%20d='M1%201h10.5v10.5H1z'/%3e%3cpath%20fill='%237FBA00'%20d='M12.5%201H23v10.5H12.5z'/%3e%3cpath%20fill='%2300A4EF'%20d='M1%2012.5h10.5V23H1z'/%3e%3cpath%20fill='%23FFB900'%20d='M12.5%2012.5H23V23H12.5z'/%3e%3c/svg%3e)ReadTeams activity since yesterday: 9
+
+![](data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_4766_38693)'%3e%3cpath%20d='M11.9091%2034H16.3636V23.6969L10%2019.1515V32.1818C10%2033.1879%2010.8559%2034%2011.9091%2034Z'%20fill='%234285F4'/%3e%3cpath%20d='M31.6364%2034H36.0909C37.1473%2034%2038%2033.1848%2038%2032.1818V19.1515L31.6364%2023.6969'%20fill='%2334A853'/%3e%3cpath%20d='M31.6364%2015.8182V23.6969L38%2019.1515V16.7272C38%2014.4788%2035.305%2013.1969%2033.4182%2014.5454'%20fill='%23FBBC04'/%3e%3cpath%20d='M16.3636%2023.697V15.8182L24%2021.2727L31.6364%2015.8182V23.697L24%2029.1515'%20fill='%23EA4335'/%3e%3cpath%20d='M10%2016.7272V19.1515L16.3636%2023.6969V15.8182L14.5818%2014.5454C12.6918%2013.1969%2010%2014.4788%2010%2016.7272Z'%20fill='%23C5221F'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_4766_38693'%3e%3crect%20width='28'%20height='20'%20fill='white'%20transform='translate(10%2014)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e)Readunread inbox threads: 18
+
+Read41 messages into 7 topics
+
+Read4 replies, none sent
+
+Used 5 sources34s
+
+- Needs reply**Brightwave quote, 12% up**: Dan’s email, Priya’s DM, Finance’s ping, one item.
+- ReadKestrel’s security questionnaire; the Fairmont recap. FYIJune offsite; nine notifications.
+- Four drafts are saved for your approval; nothing is sent.
+
+Messages about one thing become one item, so you reply once.
+
+Claude wants to use **Create draft** from Gmail
+
+To **Dan Okafor** · Cc Priya Nair · Re: Brightwave renewal, revised quote attached
+
+Hi Dan, 12% is more than we planned; could you hold this year’s rate on a two-year term? If I have that option by Wednesday, it goes to Finance Thursday.
+
+Allow onceAlways allowDeny
+
+Saved to Gmail drafts, not sent
+
+**Morning message sweep**Weekdays at 8:00 AM
+
+Each run
+
+Groups what is unread in Slack, Teams and Gmail by topic
+
+Saves reply drafts in Slack and Gmail*nothing sent*
+
+Sends you the list as a direct message
+
+Claude Academy
+
+
+
+0:03 / 0:521×
+
+Illustration. Product screens are simplified.
+
+Catch up on unread messages
+
+You come back to a pile of unread messages across chat and mail.
+
+Run the start skill and ask for your unreads grouped by topic, with short draft replies.
+
+Claude reads what is unread in each connected app, then merges messages about one thing.
+
+Claude reads what is unread in each connected app, then merges messages about one thing.
+
+Claude tells you what needs you, then gives you the replies to send.
+
+Messages about one thing become one item, so you reply once.
+
+Drafts wait for your approval, and only you send them.
+
+Approve each draft, then schedule the sweep for weekday mornings.
+
+You start the day knowing what needs a reply, with drafts ready.
+
+Sweep my unread Slack DMs and mentions, Teams activity and Gmail since yesterday. Group everything by topic, not by app. Say whether each topic needs a reply, reading, or is FYI, and draft replies of three sentences or fewer.
+
+Needs replyBrightwave quote, 12% up: Dan’s email, Priya’s DM, Finance’s ping, one item. / ReadKestrel’s security questionnaire; the Fairmont recap. FYIJune offsite; nine notifications. / Four drafts are saved for your approval; nothing is sent.
+
+Skill: /start (Productivity)
+
+Connectors: Slack, Microsoft 365, Gmail
 
 ## Set up[](https://academy.claude.com/use-cases/message-sweep)
 

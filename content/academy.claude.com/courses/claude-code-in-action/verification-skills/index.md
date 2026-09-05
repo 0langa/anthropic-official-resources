@@ -8,7 +8,7 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-code-in-action%2Fverification-skills)
 
-Embedded media: https://www.youtube-nocookie.com/embed/soLPOXXAc1w?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+Embedded media: https://www.youtube-nocookie.com/embed/rJOmCMeYTuo?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 Verification skills
 
@@ -18,7 +18,7 @@ this lesson we look at one specific job that skills are great for:
 verifying your own work. If there's one skill worth building first, this
 is it.
 
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=soLPOXXAc1w)
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=rJOmCMeYTuo)
 
 ## Why a verification skill is the one to build first[](https://academy.claude.com/courses/claude-code-in-action/verification-skills)
 

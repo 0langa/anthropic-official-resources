@@ -8,9 +8,213 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-xxhorrny.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kkbwysr5.png)
 
-# Daily bookends
+Morning and evening briefs
 
-Reads your calendar, inbox, and Slack, writes a one-page briefing every morning and a wrap every evening.
+You want to start the day knowing what needs you first.
+
+![](data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M31.3678%2016.6324L24.7365%2015.8956L16.6315%2016.6324L15.8945%2024.0006L16.6313%2031.3688L23.9996%2032.2899L31.3678%2031.3688L32.1046%2023.8165L31.3678%2016.6324Z'%20fill='white'/%3e%3cpath%20d='M19.6541%2028.0627C19.1033%2027.6906%2018.722%2027.1472%2018.5138%2026.4288L19.7922%2025.902C19.9083%2026.3441%2020.1109%2026.6867%2020.4001%2026.9298C20.6875%2027.173%2021.0375%2027.2927%2021.4464%2027.2927C21.8646%2027.2927%2022.2238%2027.1656%2022.524%2026.9114C22.8241%2026.6571%2022.9753%2026.3329%2022.9753%2025.9406C22.9753%2025.5391%2022.8168%2025.2111%2022.5%2024.957C22.1832%2024.7029%2021.7853%2024.5757%2021.3101%2024.5757H20.5714V23.3103H21.2345C21.6434%2023.3103%2021.9879%2023.1998%2022.2679%2022.9787C22.5479%2022.7577%2022.6879%2022.4556%2022.6879%2022.0706C22.6879%2021.728%2022.5626%2021.4553%2022.3121%2021.2509C22.0617%2021.0465%2021.7447%2020.9434%2021.3598%2020.9434C20.984%2020.9434%2020.6855%2021.0429%2020.4645%2021.2436C20.2434%2021.4444%2020.0831%2021.6912%2019.9819%2021.9823L18.7165%2021.4555C18.8841%2020.9802%2019.1918%2020.5602%2019.643%2020.1973C20.0943%2019.8345%2020.6708%2019.652%2021.3708%2019.652C21.8884%2019.652%2022.3544%2019.7516%2022.7671%2019.9523C23.1797%2020.1531%2023.5039%2020.4313%2023.7379%2020.7849C23.9718%2021.1403%2024.0878%2021.5383%2024.0878%2021.9803C24.0878%2022.4316%2023.9792%2022.8129%2023.7618%2023.126C23.5444%2023.4392%2023.2773%2023.6786%2022.9605%2023.8463V23.9218C23.3786%2024.0968%2023.7194%2024.3639%2023.9883%2024.7231C24.2554%2025.0823%2024.3898%2025.5115%2024.3898%2026.0126C24.3898%2026.5136%2024.2627%2026.9612%2024.0085%2027.3536C23.7542%2027.746%2023.4024%2028.0554%2022.9567%2028.2801C22.5091%2028.5048%2022.0063%2028.619%2021.4481%2028.619C20.8016%2028.6208%2020.2048%2028.4348%2019.6541%2028.0627Z'%20fill='%231A73E8'/%3e%3cpath%20d='M27.4998%2021.7203L26.1035%2022.7353L25.4017%2021.6706L27.9198%2019.8543H28.8851V28.4216H27.4998V21.7203Z'%20fill='%231A73E8'/%3e%3cpath%20d='M31.3684%2038.0006L37.9997%2031.3693L34.6841%2029.8958L31.3684%2031.3693L29.8948%2034.685L31.3684%2038.0006Z'%20fill='%23EA4335'/%3e%3cpath%20d='M15.1578%2034.6838L16.6314%2037.9994H31.3677V31.3681H16.6314L15.1578%2034.6838Z'%20fill='%2334A853'/%3e%3cpath%20d='M12.2104%2010C10.9892%2010%2010%2010.9892%2010%2012.2104V31.3676L13.3156%2032.8412L16.6313%2031.3676V16.6313H31.3676L32.8412%2013.3156L31.3678%2010H12.2104Z'%20fill='%234285F4'/%3e%3cpath%20d='M10%2031.3681V35.789C10%2037.0103%2010.9892%2037.9994%2012.2104%2037.9994H16.6313V31.3681H10Z'%20fill='%23188038'/%3e%3cpath%20d='M31.3685%2016.6311V31.3674H37.9998V16.6311L34.6841%2015.1575L31.3685%2016.6311Z'%20fill='%23FBBC04'/%3e%3cpath%20d='M37.9998%2016.6313V12.2104C37.9998%2010.9891%2037.0106%2010%2035.7894%2010H31.3685V16.6313H37.9998Z'%20fill='%231967D2'/%3e%3c/svg%3e)
+
+Google Calendar
+
+![](data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_4766_38693)'%3e%3cpath%20d='M11.9091%2034H16.3636V23.6969L10%2019.1515V32.1818C10%2033.1879%2010.8559%2034%2011.9091%2034Z'%20fill='%234285F4'/%3e%3cpath%20d='M31.6364%2034H36.0909C37.1473%2034%2038%2033.1848%2038%2032.1818V19.1515L31.6364%2023.6969'%20fill='%2334A853'/%3e%3cpath%20d='M31.6364%2015.8182V23.6969L38%2019.1515V16.7272C38%2014.4788%2035.305%2013.1969%2033.4182%2014.5454'%20fill='%23FBBC04'/%3e%3cpath%20d='M16.3636%2023.697V15.8182L24%2021.2727L31.6364%2015.8182V23.697L24%2029.1515'%20fill='%23EA4335'/%3e%3cpath%20d='M10%2016.7272V19.1515L16.3636%2023.6969V15.8182L14.5818%2014.5454C12.6918%2013.1969%2010%2014.4788%2010%2016.7272Z'%20fill='%23C5221F'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_4766_38693'%3e%3crect%20width='28'%20height='20'%20fill='white'%20transform='translate(10%2014)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e)
+
+Gmail
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)
+
+Slack
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%20100%20100'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%235E6AD2'%20d='M1.225%2061.523c-.222-.949.908-1.546%201.597-.857l36.512%2036.512c.689.689.092%201.819-.857%201.597a50.06%2050.06%200%200%201-37.252-37.252Zm-1.22-13.59a.98.98%200%200%200%20.283.724l50.055%2050.055a.98.98%200%200%200%20.724.283%2049.9%2049.9%200%200%200%208.636-1.518.976.976%200%200%200%20.462-1.647L2.17%2038.835a.976.976%200%200%200-1.647.462%2049.9%2049.9%200%200%200-1.518%208.636Zm4.194-17.443a.988.988%200%200%200%20.184%201.152l63.975%2063.975a.988.988%200%200%200%201.152.184%2050.4%2050.4%200%200%200%206.08-3.495.993.993%200%200%200%20.161-1.53L9.224%2024.249a.993.993%200%200%200-1.53.161%2050.4%2050.4%200%200%200-3.495%206.08Zm9.723-13.067a.99.99%200%200%201-.026-1.377C23.068%206.08%2036.765-.002%2051.888-.002c27.59%200%2049.957%2022.367%2049.957%2049.957%200%2015.123-6.082%2028.82-16.048%2038.013a.99.99%200%200%201-1.377-.026z'/%3e%3c/svg%3e)
+
+Linear
+
+Daily
+
+2 files
+
+Folder
+
+2026-04-27.md
+
+Yesterday’s page
+
+MD
+
+priorities.md
+
+This quarter
+
+MD
+
+Productivity
+
+/start
+
+/task-management
+
+/update
+
+How can I help you today?
+
+**/**start Run my morning briefing: what's on fire, what's due, who's waiting on me, and the three things to do first. Keep it under a page. Tonight I'll run /update for the wrap: done, slipped, and what tomorrow opens with.
+
+Reading today’s calendar0s
+
+Read5 sources
+
+![](data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M31.3678%2016.6324L24.7365%2015.8956L16.6315%2016.6324L15.8945%2024.0006L16.6313%2031.3688L23.9996%2032.2899L31.3678%2031.3688L32.1046%2023.8165L31.3678%2016.6324Z'%20fill='white'/%3e%3cpath%20d='M19.6541%2028.0627C19.1033%2027.6906%2018.722%2027.1472%2018.5138%2026.4288L19.7922%2025.902C19.9083%2026.3441%2020.1109%2026.6867%2020.4001%2026.9298C20.6875%2027.173%2021.0375%2027.2927%2021.4464%2027.2927C21.8646%2027.2927%2022.2238%2027.1656%2022.524%2026.9114C22.8241%2026.6571%2022.9753%2026.3329%2022.9753%2025.9406C22.9753%2025.5391%2022.8168%2025.2111%2022.5%2024.957C22.1832%2024.7029%2021.7853%2024.5757%2021.3101%2024.5757H20.5714V23.3103H21.2345C21.6434%2023.3103%2021.9879%2023.1998%2022.2679%2022.9787C22.5479%2022.7577%2022.6879%2022.4556%2022.6879%2022.0706C22.6879%2021.728%2022.5626%2021.4553%2022.3121%2021.2509C22.0617%2021.0465%2021.7447%2020.9434%2021.3598%2020.9434C20.984%2020.9434%2020.6855%2021.0429%2020.4645%2021.2436C20.2434%2021.4444%2020.0831%2021.6912%2019.9819%2021.9823L18.7165%2021.4555C18.8841%2020.9802%2019.1918%2020.5602%2019.643%2020.1973C20.0943%2019.8345%2020.6708%2019.652%2021.3708%2019.652C21.8884%2019.652%2022.3544%2019.7516%2022.7671%2019.9523C23.1797%2020.1531%2023.5039%2020.4313%2023.7379%2020.7849C23.9718%2021.1403%2024.0878%2021.5383%2024.0878%2021.9803C24.0878%2022.4316%2023.9792%2022.8129%2023.7618%2023.126C23.5444%2023.4392%2023.2773%2023.6786%2022.9605%2023.8463V23.9218C23.3786%2024.0968%2023.7194%2024.3639%2023.9883%2024.7231C24.2554%2025.0823%2024.3898%2025.5115%2024.3898%2026.0126C24.3898%2026.5136%2024.2627%2026.9612%2024.0085%2027.3536C23.7542%2027.746%2023.4024%2028.0554%2022.9567%2028.2801C22.5091%2028.5048%2022.0063%2028.619%2021.4481%2028.619C20.8016%2028.6208%2020.2048%2028.4348%2019.6541%2028.0627Z'%20fill='%231A73E8'/%3e%3cpath%20d='M27.4998%2021.7203L26.1035%2022.7353L25.4017%2021.6706L27.9198%2019.8543H28.8851V28.4216H27.4998V21.7203Z'%20fill='%231A73E8'/%3e%3cpath%20d='M31.3684%2038.0006L37.9997%2031.3693L34.6841%2029.8958L31.3684%2031.3693L29.8948%2034.685L31.3684%2038.0006Z'%20fill='%23EA4335'/%3e%3cpath%20d='M15.1578%2034.6838L16.6314%2037.9994H31.3677V31.3681H16.6314L15.1578%2034.6838Z'%20fill='%2334A853'/%3e%3cpath%20d='M12.2104%2010C10.9892%2010%2010%2010.9892%2010%2012.2104V31.3676L13.3156%2032.8412L16.6313%2031.3676V16.6313H31.3676L32.8412%2013.3156L31.3678%2010H12.2104Z'%20fill='%234285F4'/%3e%3cpath%20d='M10%2031.3681V35.789C10%2037.0103%2010.9892%2037.9994%2012.2104%2037.9994H16.6313V31.3681H10Z'%20fill='%23188038'/%3e%3cpath%20d='M31.3685%2016.6311V31.3674H37.9998V16.6311L34.6841%2015.1575L31.3685%2016.6311Z'%20fill='%23FBBC04'/%3e%3cpath%20d='M37.9998%2016.6313V12.2104C37.9998%2010.9891%2037.0106%2010%2035.7894%2010H31.3685V16.6313H37.9998Z'%20fill='%231967D2'/%3e%3c/svg%3e)Readtoday, 6 meetings
+
+![](data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_4766_38693)'%3e%3cpath%20d='M11.9091%2034H16.3636V23.6969L10%2019.1515V32.1818C10%2033.1879%2010.8559%2034%2011.9091%2034Z'%20fill='%234285F4'/%3e%3cpath%20d='M31.6364%2034H36.0909C37.1473%2034%2038%2033.1848%2038%2032.1818V19.1515L31.6364%2023.6969'%20fill='%2334A853'/%3e%3cpath%20d='M31.6364%2015.8182V23.6969L38%2019.1515V16.7272C38%2014.4788%2035.305%2013.1969%2033.4182%2014.5454'%20fill='%23FBBC04'/%3e%3cpath%20d='M16.3636%2023.697V15.8182L24%2021.2727L31.6364%2015.8182V23.697L24%2029.1515'%20fill='%23EA4335'/%3e%3cpath%20d='M10%2016.7272V19.1515L16.3636%2023.6969V15.8182L14.5818%2014.5454C12.6918%2013.1969%2010%2014.4788%2010%2016.7272Z'%20fill='%23C5221F'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_4766_38693'%3e%3crect%20width='28'%20height='20'%20fill='white'%20transform='translate(10%2014)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e)Readmail since yesterday’s wrap, 11 threads
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)Readyour mentions and DMs, 8
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%20100%20100'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%235E6AD2'%20d='M1.225%2061.523c-.222-.949.908-1.546%201.597-.857l36.512%2036.512c.689.689.092%201.819-.857%201.597a50.06%2050.06%200%200%201-37.252-37.252Zm-1.22-13.59a.98.98%200%200%200%20.283.724l50.055%2050.055a.98.98%200%200%200%20.724.283%2049.9%2049.9%200%200%200%208.636-1.518.976.976%200%200%200%20.462-1.647L2.17%2038.835a.976.976%200%200%200-1.647.462%2049.9%2049.9%200%200%200-1.518%208.636Zm4.194-17.443a.988.988%200%200%200%20.184%201.152l63.975%2063.975a.988.988%200%200%200%201.152.184%2050.4%2050.4%200%200%200%206.08-3.495.993.993%200%200%200%20.161-1.53L9.224%2024.249a.993.993%200%200%200-1.53.161%2050.4%2050.4%200%200%200-3.495%206.08Zm9.723-13.067a.99.99%200%200%201-.026-1.377C23.068%206.08%2036.765-.002%2051.888-.002c27.59%200%2049.957%2022.367%2049.957%2049.957%200%2015.123-6.082%2028.82-16.048%2038.013a.99.99%200%200%201-1.377-.026z'/%3e%3c/svg%3e)Readissues assigned to you or blocked on you, 5
+
+Read2026-04-27.md, yesterday’s wrap
+
+Used 5 sources34s
+
+I read today’s six meetings, 11 mail threads, 8 mentions, 5 issues and last night’s wrap into Tuesday’s page: two on fire, three due, three people waiting, three to do first. The incident goes first, and two items are carried from last night’s wrap.
+
+2026-04-28.md
+
+Document
+
+Download
+
+**2026-04-28**MDDaily
+
+# Tue 28 Apr · morning
+
+**Six meetings**, first at 9:00 · **2 on fire** · **3 due** · **3 people waiting on you**  
+From Calendar, Gmail (11 new), Slack (8 mentions), Linear (5 issues) and yesterday’s wrap · written 8:00 am
+
+## Do first
+
+1. `before standup`Assign HAL-482 and reply in the Meridian Dental thread; Marco is on call this week.`Linear · #payments-alerts`
+2. `before 11:30`Read Lena’s retry-policy RFC so sprint planning has the decision.`#payments-eng · HAL-467`
+3. `by noon`Send Jordan the two questionnaire sections; last year’s answers are in priorities.md under “reusable docs”.`Gmail`
+
+## On fire
+
+- **Duplicate charges, Meridian Dental** `HAL-482` `Urgent, unassigned`14 invoices charged twice; support opened it at 11:52 pm. Three messages in #payments-alerts overnight, last from June at 12:20 am: “looks like the retry job re-ran the 6 pm batch.” No reply to the customer since.
+- **Security questionnaire, Corvant (prospect)** `due today`Jordan’s second mail (7:12 am): their procurement call is tomorrow and he needs your two sections today, not end of month.
+
+## Due today and tomorrow
+
+- `Wed 5 pm`**Q2 headcount plan to Finance**`Carried from Monday’s wrap`Nadia’s mail; also in priorities.md. Not started.
+- `overdue`**Scorecard for Tom Reyes**`Carried from Monday’s wrap`Monday’s interview; due Mon 6 pm, and the debrief is Wed 10:00.
+- `1:00`**Retry-policy decision for sprint planning**HAL-467, or the sprint starts without it.
+
+## Waiting on you
+
+- **Lena**, review of the retry-policy RFC`HAL-467 · Blocked 2 days`Asked twice in #payments-eng.
+- **Marco**, approve his access request for the payments-prod dashboard`HAL-475 · 1 day`
+- **Sam Whitaker**, a yes or no on the 12 June offsite date`DM · Friday`
+
+## Later today
+
+- `9:00`Standup
+- `10:00`Vendor security review
+- `11:30`Lena / Ravi
+- `1:00`Sprint planning
+- `3:00`Interview panel, Sr Backend · Amira leads
+- `4:30`Priya / Ravi
+
+⚑ Not sure: Jordan’s first mail said “end of month”, today’s says “Tuesday”; I’ve treated today as the deadline.
+
+Claude names three things to do first and where each came from.
+
+**2026-04-28**MDDaily
+
+# Tue 28 Apr · morning
+
+**Six meetings**, first at 9:00 · **2 on fire** · **3 due** · **3 people waiting on you**  
+From Calendar, Gmail (11 new), Slack (8 mentions), Linear (5 issues) and yesterday’s wrap · written 8:00 am
+
+## Do first
+
+1. `before standup`Assign HAL-482 and reply in the Meridian Dental thread; Marco is on call this week.`Linear · #payments-alerts`
+2. `before 11:30`Read Lena’s retry-policy RFC so sprint planning has the decision.`#payments-eng · HAL-467`
+3. `by noon`Send Jordan the two questionnaire sections; last year’s answers are in priorities.md under “reusable docs”.`Gmail`
+
+## On fire
+
+- **Duplicate charges, Meridian Dental** `HAL-482` `Urgent, unassigned`14 invoices charged twice; support opened it at 11:52 pm. Three messages in #payments-alerts overnight, last from June at 12:20 am: “looks like the retry job re-ran the 6 pm batch.” No reply to the customer since.
+- **Security questionnaire, Corvant (prospect)** `due today`Jordan’s second mail (7:12 am): their procurement call is tomorrow and he needs your two sections today, not end of month.
+
+## Due today and tomorrow
+
+- `Wed 5 pm`**Q2 headcount plan to Finance**`Carried from Monday’s wrap`Nadia’s mail; also in priorities.md. Not started.
+- `overdue`**Scorecard for Tom Reyes**`Carried from Monday’s wrap`Monday’s interview; due Mon 6 pm, and the debrief is Wed 10:00.
+- `1:00`**Retry-policy decision for sprint planning**HAL-467, or the sprint starts without it.
+
+## Waiting on you
+
+- **Lena**, review of the retry-policy RFC`HAL-467 · Blocked 2 days`Asked twice in #payments-eng.
+- **Marco**, approve his access request for the payments-prod dashboard`HAL-475 · 1 day`
+- **Sam Whitaker**, a yes or no on the 12 June offsite date`DM · Friday`
+
+## Later today
+
+- `9:00`Standup
+- `10:00`Vendor security review
+- `11:30`Lena / Ravi
+- `1:00`Sprint planning
+- `3:00`Interview panel, Sr Backend · Amira leads
+- `4:30`Priya / Ravi
+
+⚑ Not sure: Jordan’s first mail said “end of month”, today’s says “Tuesday”; I’ve treated today as the deadline.
+
+Run the morning briefing every weekday at 8:00am and the wrap at 6:00pm, both into Daily/<today>.md.
+
+**Daily briefing and wrap**Weekdays at 8:00 AM and 6:00 PM
+
+Each run
+
+Writes today’s page with three things to do first
+
+Appends the evening wrap to the same page
+
+Carries what slipped into tomorrow’s opener*for you to decide*
+
+Claude Academy
+
+
+
+0:03 / 0:521×
+
+Illustration. Product screens are simplified.
+
+Morning and evening briefs
+
+You want to start the day knowing what needs you first.
+
+Name the sections you want from the start skill, and run the wrap again tonight.
+
+Claude reads today’s calendar, new mail, your mentions, your tracker and yesterday’s page.
+
+Claude reads today’s calendar, new mail, your mentions, your tracker and yesterday’s page.
+
+Claude tells you what is due and waiting, then gives you today’s page.
+
+Claude names three things to do first and where each came from.
+
+What slipped yesterday is carried in from last night’s wrap.
+
+Schedule both runs, and each workday starts and ends on one page.
+
+You start and end each day knowing what needs you.
+
+Run my morning briefing: what's on fire, what's due, who's waiting on me, and the three things to do first. Keep it under a page. Tonight I'll run /update for the wrap: done, slipped, and what tomorrow opens with.
+
+I read today’s six meetings, 11 mail threads, 8 mentions, 5 issues and last night’s wrap into Tuesday’s page: two on fire, three due, three people waiting, three to do first. The incident goes first, and two items are carried from last night’s wrap.
+
+2026-04-28.md
+
+Skill: /start (Productivity)
+
+Connectors: Google Calendar, Gmail, Slack, Linear
 
 ## Set up[](https://academy.claude.com/use-cases/morning-evening)
 

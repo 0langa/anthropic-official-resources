@@ -192,7 +192,7 @@ Use case·Marketing·10 min](https://academy.claude.com/use-cases/ad-performance
 
 ## Repurpose content across channels
 
-Social threads, email copy, and PowerPoint, Word, and Excel deliverables from one blog post.
+A blog post, a LinkedIn thread, and short social posts from one webinar, each in your voice.
 
 Use case·Marketing·10 min](https://academy.claude.com/use-cases/repurpose-content)
 

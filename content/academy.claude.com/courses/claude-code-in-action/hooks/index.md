@@ -8,7 +8,7 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-code-in-action%2Fhooks)
 
-Embedded media: https://www.youtube-nocookie.com/embed/8ALu1dk681s?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+Embedded media: https://www.youtube-nocookie.com/embed/1m0huCacWPs?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 Hooks
 
@@ -22,7 +22,7 @@ usually listens" into "Claude can't skip it."
 
 That's the whole pitch. Now let's look at how it actually works.
 
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=8ALu1dk681s)
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=1m0huCacWPs)
 
 ## The hook events[](https://academy.claude.com/courses/claude-code-in-action/hooks)
 

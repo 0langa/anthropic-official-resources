@@ -6,115 +6,257 @@ Where the panel agreed, where they split, what to resolve.
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-off27hqc.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-esddo3nx.png)
 
-# Interview debrief synthesis
+Interview scorecardHiring / Senior-PM-Growth / scorecards
 
-Reads interviewer scorecards and writes the hiring brief before your meeting starts.
+# Onsite 1: Product leadership
 
-## Ask in plain English
+<table class="sc-m"><tbody><tr style="opacity: 1;"><th>Candidate</th><td><b>Adaeze Rivera</b> · Senior Product Manager, Growth (L5)</td></tr><tr style="opacity: 1;"><th>Interviewer</th><td>Priya Natarajan, hiring manager</td></tr><tr style="opacity: 1;"><th>Interview</th><td>Mon 27 Apr 2026 · 60 minutes · onsite 1 of 5</td></tr><tr style="opacity: 1;"><th>Submitted</th><td>Mon 27 Apr, 5:40 PM</td></tr><tr class="rec" style="opacity: 1;"><th>Recommendation</th><td><b>Strong yes</b> <span class="scale">(scale: Strong yes · Yes · No · Strong no)</span></td></tr></tbody></table>
 
-Point Cowork at the role’s debrief folder and describe the brief you need.
+## Ratings against the rubric
+
+Senior PM competencies v3, scale 1–4; – = planned for this interview but not rated.
+
+<table class="sc-r"><thead><tr><th>Competency (L5)</th><th class="c">Rating</th><th>Evidence</th></tr></thead><tbody><tr style="opacity: 1;"><td>Product sense</td><td class="c">4</td><td>Walked through the marketplace relaunch end to end; clear on why the first pricing test failed and what she changed.</td></tr><tr style="opacity: 1;"><td>Customer insight</td><td class="c">3</td><td>Cited the seller interviews behind the relaunch; less depth on the buyer side.</td></tr><tr style="opacity: 1;"><td>Execution</td><td class="c">4</td><td>Sequenced the relaunch in three releases and named what she cut to hold the date.</td></tr><tr style="opacity: 1;"><td>Communication</td><td class="c">4</td><td>Structured and concise; answered the question that was asked.</td></tr><tr style="opacity: 1;"><td>Stakeholder influence</td><td class="c">4</td><td>Brought a reluctant sales lead round on the pricing change. Reference: “wins over sceptical engineers.”</td></tr><tr style="opacity: 1;"><td>Leadership and team building</td><td class="c">3</td><td>Manages two PMs today; examples were about hiring more than developing people.</td></tr><tr style="opacity: 1;"><td>Data fluency</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Experiment design</td><td class="c">–</td><td>undefined</td></tr></tbody></table>
+
+## Notes for the panel
+
+Moves fast in ambiguity: she took the relaunch from a one-line brief to a live pricing test in two weeks, and was precise about why the first test failed. The “wins over sceptical engineers” line comes from her former director’s reference rather than anything I tested in the room. Strongest product-leadership conversation I have had for this role.
+
+Submitted in Hiring · visible to the panel after all five scorecards are in
+
+Interview scorecardHiring / Senior-PM-Growth / scorecards
+
+# Onsite 2: Product sense
+
+<table class="sc-m"><tbody><tr style="opacity: 1;"><th>Candidate</th><td><b>Adaeze Rivera</b> · Senior Product Manager, Growth (L5)</td></tr><tr style="opacity: 1;"><th>Interviewer</th><td>Marcus Hale, peer pm</td></tr><tr style="opacity: 1;"><th>Interview</th><td>Mon 27 Apr 2026 · 60 minutes · onsite 2 of 5</td></tr><tr style="opacity: 1;"><th>Submitted</th><td>Mon 27 Apr, 6:15 PM</td></tr><tr class="rec" style="opacity: 1;"><th>Recommendation</th><td><b>Yes</b> <span class="scale">(scale: Strong yes · Yes · No · Strong no)</span></td></tr></tbody></table>
+
+## Ratings against the rubric
+
+Senior PM competencies v3, scale 1–4; – = planned for this interview but not rated.
+
+<table class="sc-r"><thead><tr><th>Competency (L5)</th><th class="c">Rating</th><th>Evidence</th></tr></thead><tbody><tr style="opacity: 1;"><td>Product sense</td><td class="c">4</td><td>Strong instinct for the user problem; pushed back well on my framing of the onboarding case.</td></tr><tr style="opacity: 1;"><td>Customer insight</td><td class="c">4</td><td>Reframed the onboarding case around the activation drop she would verify first.</td></tr><tr style="opacity: 1;"><td>Execution</td><td class="c">3</td><td>Reasonable plan for the case; light on how she would staff and sequence it.</td></tr><tr style="opacity: 1;"><td>Communication</td><td class="c">3</td><td>Clear, occasionally long; needed one prompt to land the recommendation.</td></tr><tr style="opacity: 1;"><td>Stakeholder influence</td><td class="c">3</td><td>Aligned design and data on a roadmap change last year (a different example from the migration).</td></tr><tr style="opacity: 1;"><td>Leadership and team building</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Data fluency</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Experiment design</td><td class="c">–</td><td>undefined</td></tr></tbody></table>
+
+## Notes for the panel
+
+Moves fast in ambiguity: she had a testable hypothesis for the onboarding case inside ten minutes and defended it when I pushed on the framing. Execution answers were thinner than the product ones. I would be glad to work alongside her.
+
+Submitted in Hiring · visible to the panel after all five scorecards are in
+
+Interview scorecardHiring / Senior-PM-Growth / scorecards
+
+# Onsite 3: Execution
+
+<table class="sc-m"><tbody><tr style="opacity: 1;"><th>Candidate</th><td><b>Adaeze Rivera</b> · Senior Product Manager, Growth (L5)</td></tr><tr style="opacity: 1;"><th>Interviewer</th><td>Lena Vogt, engineering partner</td></tr><tr style="opacity: 1;"><th>Interview</th><td>Tue 28 Apr 2026 · 60 minutes · onsite 3 of 5</td></tr><tr style="opacity: 1;"><th>Submitted</th><td>Tue 28 Apr, 4:05 PM</td></tr><tr class="rec" style="opacity: 1;"><th>Recommendation</th><td><b>No</b> <span class="scale">(scale: Strong yes · Yes · No · Strong no)</span></td></tr></tbody></table>
+
+## Ratings against the rubric
+
+Senior PM competencies v3, scale 1–4; – = planned for this interview but not rated.
+
+<table class="sc-r"><thead><tr><th>Competency (L5)</th><th class="c">Rating</th><th>Evidence</th></tr></thead><tbody><tr style="opacity: 1;"><td>Product sense</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Customer insight</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Execution</td><td class="c">3</td><td>Platform migration slipped a quarter under her; owned it, but I did not hear what she would do differently.</td></tr><tr style="opacity: 1;"><td>Communication</td><td class="c">3</td><td>Direct and honest about the slip; explains trade-offs in terms engineers use.</td></tr><tr style="opacity: 1;"><td>Stakeholder influence</td><td class="c">2</td><td>On the migration, engineering concerns surfaced late and were escalated rather than resolved. Same example as above.</td></tr><tr style="opacity: 1;"><td>Leadership and team building</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Data fluency</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Experiment design</td><td class="c">–</td><td>undefined</td></tr></tbody></table>
+
+## Notes for the panel
+
+My concern is that she may trade quality for speed. I am inferring that from the platform-migration story rather than from something I observed directly, and it is one example. I would want a reference call with her engineering lead on that project before I would move from No.
+
+Submitted in Hiring · visible to the panel after all five scorecards are in
+
+Interview scorecardHiring / Senior-PM-Growth / scorecards
+
+# Onsite 4: Customer insight
+
+<table class="sc-m"><tbody><tr style="opacity: 1;"><th>Candidate</th><td><b>Adaeze Rivera</b> · Senior Product Manager, Growth (L5)</td></tr><tr style="opacity: 1;"><th>Interviewer</th><td>Sam Oduya, design partner</td></tr><tr style="opacity: 1;"><th>Interview</th><td>Tue 28 Apr 2026 · 60 minutes · onsite 4 of 5</td></tr><tr style="opacity: 1;"><th>Submitted</th><td>Tue 28 Apr, 5:30 PM</td></tr><tr class="rec" style="opacity: 1;"><th>Recommendation</th><td><b>Yes</b> <span class="scale">(scale: Strong yes · Yes · No · Strong no)</span></td></tr></tbody></table>
+
+## Ratings against the rubric
+
+Senior PM competencies v3, scale 1–4; – = planned for this interview but not rated.
+
+<table class="sc-r"><thead><tr><th>Competency (L5)</th><th class="c">Rating</th><th>Evidence</th></tr></thead><tbody><tr style="opacity: 1;"><td>Product sense</td><td class="c">3</td><td>Frames problems well; solutions came quickly and were mostly sound.</td></tr><tr style="opacity: 1;"><td>Customer insight</td><td class="c">4</td><td>Grounded every answer in a specific customer conversation; good on research trade-offs.</td></tr><tr style="opacity: 1;"><td>Execution</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Communication</td><td class="c">4</td><td>Listens closely; played my questions back before answering.</td></tr><tr style="opacity: 1;"><td>Stakeholder influence</td><td class="c">2</td><td>Her platform-migration example: design was brought in after scope was set, which she acknowledged.</td></tr><tr style="opacity: 1;"><td>Leadership and team building</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Data fluency</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Experiment design</td><td class="c">–</td><td>undefined</td></tr></tbody></table>
+
+## Notes for the panel
+
+Moves fast in ambiguity: when the brief changed mid-quarter she ran a five-customer concept test inside a week and used it to reset scope. The 2 on stakeholder influence rests on one project (the migration); it does not change my overall Yes.
+
+Submitted in Hiring · visible to the panel after all five scorecards are in
+
+Interview scorecardHiring / Senior-PM-Growth / scorecards
+
+# Onsite 5: Data and experimentation
+
+<table class="sc-m"><tbody><tr style="opacity: 1;"><th>Candidate</th><td><b>Adaeze Rivera</b> · Senior Product Manager, Growth (L5)</td></tr><tr style="opacity: 1;"><th>Interviewer</th><td>Tomás Ferreira, analytics lead</td></tr><tr style="opacity: 1;"><th>Interview</th><td>Wed 29 Apr 2026 · 60 minutes · onsite 5 of 5</td></tr><tr style="opacity: 1;"><th>Submitted</th><td>Wed 29 Apr, 6:50 PM</td></tr><tr class="rec" style="opacity: 1;"><th>Recommendation</th><td><b>Yes</b> <span class="scale">(scale: Strong yes · Yes · No · Strong no)</span></td></tr></tbody></table>
+
+## Ratings against the rubric
+
+Senior PM competencies v3, scale 1–4; – = planned for this interview but not rated.
+
+<table class="sc-r"><thead><tr><th>Competency (L5)</th><th class="c">Rating</th><th>Evidence</th></tr></thead><tbody><tr style="opacity: 1;"><td>Product sense</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Customer insight</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Execution</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Communication</td><td class="c">3</td><td>Clear storyteller; the marketplace-launch account was easy to follow.</td></tr><tr style="opacity: 1;"><td>Stakeholder influence</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Leadership and team building</td><td class="c">3</td><td>Thoughtful on team dynamics after the relaunch; one example of coaching a junior PM.</td></tr><tr style="opacity: 1;"><td>Data fluency</td><td class="c">–</td><td>Not reached. The hour went to the launch story and team dynamics; the metrics case was not run.</td></tr><tr style="opacity: 1;"><td>Experiment design</td><td class="c">–</td><td>Comfortable with experiment design at a high level; we ran out of time before the metrics deep-dive. Not rated.</td></tr></tbody></table>
+
+## Notes for the panel
+
+We spent the hour on the marketplace-launch story and team dynamics and did not reach the metrics case, so data fluency and experiment design are unrated here. If the panel wants that evidence before deciding, I can do a 45-minute follow-up on those two competencies this week.
+
+Submitted in Hiring · visible to the panel after all five scorecards are in
+
+Prepare the interview debrief
+
+Five interviewers scored a candidate, and the debrief is tomorrow.
 
 Hiring / Senior-PM-Growth / debrief
 
-## Cowork reads every scorecard
+3 files
 
-The skill pulls feedback from your ATS, checks it against the rubric, and tracks the plan as it runs.
-
-Working on debrief brief
-
-Google Drive · read 5 scorecards for A. Rivera
-
-Result
-
-Reading competency-rubric.pdf
-
-Result
-
-Reading interview-plan.docx
-
-Result
-
-Comparing scorecards against the role rubric
-
-Result
-
-Google Drive · created debrief-brief-ARivera.docx
-
-debrief-brief-ARivera.docx
-
-Done
-
-#### Progress
-
-1
-
-Read scorecards from the role folder
-
-2
-
-Read rubric and interview plan
-
-3
-
-Map convergence and splits
-
-4
-
-Flag gaps and open questions
-
-5
-
-Write brief to role folder
-
-#### Senior-PM-Growth / debrief
+Folder
 
 scorecards-export-ARivera.csv
 
+5 scorecards
+
+CSV
+
 competency-rubric.pdf
 
-interview-plan.docx
+8 competencies at L5
 
-#### Context
+PDF
 
-Connectors
+Human Resources
 
-Google Drive
+/draft-offer
 
-## The brief the panel walks in reading
+/interview-prep
 
-Convergence, splits, signal strength, gaps, and the questions to resolve — no hire call.
+/recruiting-pipeline
 
-Debrief brief — A. RiveraSenior PM, Growth · 5 interviewers
+How can I help you today?
 
-**Converged** All five rated *Product Sense* and *Customer Empathy* at 4. Four of five rated *Execution* at 4.
+**/**recruiting-pipeline Synthesize the scorecards into the debrief brief: where the panel converged, where they split, which signals are strong versus anecdotal, which competencies weren't covered, and three questions to resolve. Do not recommend hire or no-hire; the panel decides.
 
-**Split** *Stakeholder Influence* — HM and peer PM scored 4; both cross-functional partners scored 2, each pointing to the platform-migration story.
+Reading 5 scorecards0s
 
-**Signal strength** “Ships fast under ambiguity” appears in three scorecards — strong. “May trade quality for speed” is one interviewer’s aside — anecdotal.
+Read4 sources
 
-**Not covered** No interviewer tested *Data Fluency* or *Experimentation Design*; both are L5 must-haves on the rubric.
+Readscorecards-export-ARivera.csv, 5 scorecards
 
-**For the room** ① Is the stakeholder split about the candidate or the project? ② How do we weigh missing data-fluency signal at L5? ③ Does the speed concern warrant a reference check?
+Readcompetency-rubric.pdf, 8 competencies at L5
 
-Debrief brief — A. Rivera
+Readinterview-plan.docx, who covers what
 
-Document · DOCX · 21 KB · Hiring / Senior-PM-Growth / debrief
+Read20 ratings by competency against the plan
 
-## Runs when the last scorecard lands
+Used 4 sources34s
 
-Customize the rubric and convergence rule once, then schedule it — the brief is waiting before debrief starts.
+I lined up the five scorecards against the eight L5 competencies and the interview plan: the panel converges on four, splits on stakeholder influence, and nobody assessed data fluency or experiment design. The brief ends with three questions and, as you asked, makes no recommendation.
 
-Hiring
+Debrief brief — A. Rivera.docx
 
-Scheduled
+Document
 
-Debrief brief on scorecard complete
+Download
 
-Runs `/debrief` each weekday morning against any candidate with all scorecards in the hiring folder and writes the brief to that role’s debrief folder in Drive.
+# Debrief brief — Adaeze Rivera
 
-Weekdays at **9am** · checks the hiring folder for complete scorecard sets
+Senior Product Manager, Growth (L5) · onsite loop of five
 
-Every candidate, the debrief brief is in the folder before the panel meets.
+<table class="meta-tbl kv"><tbody><tr><td>Debrief</td><td>Thu 30 Apr, 2:00–2:30 PM</td><td>Prepared for</td><td>Jordan Akers, Recruiting</td></tr><tr><td>Scorecards</td><td>5 of 5 submitted (27–29 Apr)</td><td>Rubric</td><td>Senior PM competencies v3 (8 at L5)</td></tr></tbody></table>
+
+**Recommendation: None — the panel decides.** This brief lines up the evidence; the hiring call is made in the room.
+
+## Where the panel converged, and where it split
+
+Ratings as submitted, scale 1–4 per the rubric; – = not assessed in that interview.
+
+<table class="grid"><thead><tr><th>Competency (L5)</th><th>Natarajan<span>HM</span></th><th>Hale<span>PM</span></th><th>Vogt<span>Eng</span></th><th>Oduya<span>Design</span></th><th>Ferreira<span>Analytics</span></th><th class="rd">Read</th></tr></thead><tbody><tr class="g0"><td>Product sense</td><td class="rt">4</td><td class="rt">4</td><td class="rt nil">–</td><td class="rt">3</td><td class="rt nil">–</td><td class="rd">Converged, strong</td></tr><tr class="g1"><td>Customer insight</td><td class="rt">3</td><td class="rt">4</td><td class="rt nil">–</td><td class="rt">4</td><td class="rt nil">–</td><td class="rd">Converged</td></tr><tr class="g2"><td>Execution</td><td class="rt">4</td><td class="rt">3</td><td class="rt">3</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rd">Converged</td></tr><tr class="g3"><td>Communication</td><td class="rt">4</td><td class="rt">3</td><td class="rt">3</td><td class="rt">4</td><td class="rt">3</td><td class="rd">Converged</td></tr><tr class="g4 split"><td>Stakeholder influence</td><td class="rt">4</td><td class="rt">3</td><td class="rt">2</td><td class="rt">2</td><td class="rt nil">–</td><td class="rd"><b>Split — see question 1</b></td></tr><tr class="g5"><td>Leadership and team building</td><td class="rt">3</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rt">3</td><td class="rd">Thin, two raters</td></tr><tr class="g6 nc"><td>Data fluency</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rd"><b>Not covered</b> (planned for Onsite 5)</td></tr><tr class="g7 nc"><td>Experiment design</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rd"><b>Not covered</b> (planned for Onsite 5)</td></tr></tbody></table>
+
+**20 ratings across 6 of 8 competencies.** Onsite 5 was planned to cover data fluency and experiment design; the scorecard notes the hour went to the marketplace-launch story and team dynamics and the metrics case was not reached.
+
+## Strong signals and one-offs
+
+<table class="sig"><thead><tr><th>Signal</th><th>Appears in</th><th>Evidence</th></tr></thead><tbody><tr><td>“Moves fast in ambiguity”</td><td>3 scorecards: Natarajan, Hale, Oduya</td><td>Three different examples, each observed in the interview</td></tr><tr><td>“May trade quality for speed”</td><td>1 scorecard: Vogt</td><td>Inferred from the platform-migration story rather than observed</td></tr><tr><td>“Wins over sceptical engineers”</td><td>1 scorecard: Natarajan</td><td>A reference’s phrase about a previous role; nobody on this loop tested it directly</td></tr></tbody></table>
+
+## For the debrief
+
+1. Stakeholder influence is the only split, and both 2s cite the same example (the platform migration that slipped a quarter). Is the concern about how the candidate handled that project, or about the project? Natarajan and Hale rated the same competency 4 and 3 from different examples.
+2. Nobody assessed data fluency or experiment design, and both are must-haves at L5 in the rubric. Decide without that evidence, or schedule a 45-minute follow-up with Ferreira before deciding?
+3. “May trade quality for speed” appears once, in Vogt’s notes; “moves fast in ambiguity” appears in three scorecards with three examples. Does the single concern change the read on execution, and would a reference call answer it?
+
+*This brief organizes the panel’s evidence. It does not recommend hire or no-hire; that decision is the panel’s.*
+
+Every rating sits side by side, so splits and gaps stand out.
+
+# Debrief brief — Adaeze Rivera
+
+Senior Product Manager, Growth (L5) · onsite loop of five
+
+<table class="meta-tbl kv"><tbody><tr><td>Debrief</td><td>Thu 30 Apr, 2:00–2:30 PM</td><td>Prepared for</td><td>Jordan Akers, Recruiting</td></tr><tr><td>Scorecards</td><td>5 of 5 submitted (27–29 Apr)</td><td>Rubric</td><td>Senior PM competencies v3 (8 at L5)</td></tr></tbody></table>
+
+**Recommendation: None — the panel decides.** This brief lines up the evidence; the hiring call is made in the room.
+
+## Where the panel converged, and where it split
+
+Ratings as submitted, scale 1–4 per the rubric; – = not assessed in that interview.
+
+<table class="grid"><thead><tr><th>Competency (L5)</th><th>Natarajan<span>HM</span></th><th>Hale<span>PM</span></th><th>Vogt<span>Eng</span></th><th>Oduya<span>Design</span></th><th>Ferreira<span>Analytics</span></th><th class="rd">Read</th></tr></thead><tbody><tr class="g0"><td>Product sense</td><td class="rt">4</td><td class="rt">4</td><td class="rt nil">–</td><td class="rt">3</td><td class="rt nil">–</td><td class="rd">Converged, strong</td></tr><tr class="g1"><td>Customer insight</td><td class="rt">3</td><td class="rt">4</td><td class="rt nil">–</td><td class="rt">4</td><td class="rt nil">–</td><td class="rd">Converged</td></tr><tr class="g2"><td>Execution</td><td class="rt">4</td><td class="rt">3</td><td class="rt">3</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rd">Converged</td></tr><tr class="g3"><td>Communication</td><td class="rt">4</td><td class="rt">3</td><td class="rt">3</td><td class="rt">4</td><td class="rt">3</td><td class="rd">Converged</td></tr><tr class="g4 split"><td>Stakeholder influence</td><td class="rt">4</td><td class="rt">3</td><td class="rt">2</td><td class="rt">2</td><td class="rt nil">–</td><td class="rd"><b>Split — see question 1</b></td></tr><tr class="g5"><td>Leadership and team building</td><td class="rt">3</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rt">3</td><td class="rd">Thin, two raters</td></tr><tr class="g6 nc"><td>Data fluency</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rd"><b>Not covered</b> (planned for Onsite 5)</td></tr><tr class="g7 nc"><td>Experiment design</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rt nil">–</td><td class="rd"><b>Not covered</b> (planned for Onsite 5)</td></tr></tbody></table>
+
+**20 ratings across 6 of 8 competencies.** Onsite 5 was planned to cover data fluency and experiment design; the scorecard notes the hour went to the marketplace-launch story and team dynamics and the metrics case was not reached.
+
+## Strong signals and one-offs
+
+<table class="sig"><thead><tr><th>Signal</th><th>Appears in</th><th>Evidence</th></tr></thead><tbody><tr><td>“Moves fast in ambiguity”</td><td>3 scorecards: Natarajan, Hale, Oduya</td><td>Three different examples, each observed in the interview</td></tr><tr><td>“May trade quality for speed”</td><td>1 scorecard: Vogt</td><td>Inferred from the platform-migration story rather than observed</td></tr><tr><td>“Wins over sceptical engineers”</td><td>1 scorecard: Natarajan</td><td>A reference’s phrase about a previous role; nobody on this loop tested it directly</td></tr></tbody></table>
+
+## For the debrief
+
+1. Stakeholder influence is the only split, and both 2s cite the same example (the platform migration that slipped a quarter). Is the concern about how the candidate handled that project, or about the project? Natarajan and Hale rated the same competency 4 and 3 from different examples.
+2. Nobody assessed data fluency or experiment design, and both are must-haves at L5 in the rubric. Decide without that evidence, or schedule a 45-minute follow-up with Ferreira before deciding?
+3. “May trade quality for speed” appears once, in Vogt’s notes; “moves fast in ambiguity” appears in three scorecards with three examples. Does the single concern change the read on execution, and would a reference call answer it?
+
+*This brief organizes the panel’s evidence. It does not recommend hire or no-hire; that decision is the panel’s.*
+
+Run this every weekday morning: for any candidate in Hiring whose last scorecard came in, write the debrief brief to that role’s folder, never with a recommendation.
+
+**Debrief brief when scorecards are in**Weekdays at 9:00 AM
+
+Each run
+
+Checks Hiring for candidates with every scorecard submitted
+
+Reads the scorecards against that role’s rubric and plan
+
+Writes the brief to the role’s debrief folder*never adds a recommendation*
+
+Claude Academy
+
+
+
+0:03 / 0:531×
+
+Illustration. Product screens are simplified.
+
+Prepare the interview debrief
+
+Five interviewers scored a candidate, and the debrief is tomorrow.
+
+With the Human Resources plugin’s recruiting skill, ask where the panel agrees and where it splits.
+
+Claude reads every scorecard against your rubric and the interview plan for the role.
+
+Claude reads every scorecard against your rubric and the interview plan for the role.
+
+You get the debrief brief, with what Claude found at the top.
+
+Every rating sits side by side, so splits and gaps stand out.
+
+The brief ends with questions and leaves the decision to the panel.
+
+You can schedule the brief for when a candidate’s last scorecard comes in.
+
+The panel sees the same evidence and makes the hiring call together.
+
+Synthesize the scorecards into the debrief brief: where the panel converged, where they split, which signals are strong versus anecdotal, which competencies weren't covered, and three questions to resolve. Do not recommend hire or no-hire; the panel decides.
+
+I lined up the five scorecards against the eight L5 competencies and the interview plan: the panel converges on four, splits on stakeholder influence, and nobody assessed data fluency or experiment design. The brief ends with three questions and, as you asked, makes no recommendation.
+
+Debrief brief — A. Rivera.docx
+
+Skill: /recruiting-pipeline (Human Resources)
 
 ## 1. Set up[](https://academy.claude.com/use-cases/interview-debrief)
 

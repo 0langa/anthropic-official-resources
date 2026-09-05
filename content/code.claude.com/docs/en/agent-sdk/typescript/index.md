@@ -1263,6 +1263,10 @@ type SDKResultMessage =
       ttft_stream_ms?: number;
       user_message_uuid?: string;
       request_sent_wall_ms?: number;
+      first_content_frame_ms?: number;
+      first_stream_post_ms?: number;
+      first_stream_post_ack_ms?: number;
+      first_stream_post_wall_ms?: number;
       total_cost_usd: number;
       usage: NonNullableUsage;
       modelUsage: { [modelName: string]: ModelUsage };
@@ -1310,6 +1314,8 @@ Several fields on the result carry diagnostic detail beyond `subtype`:
 * `ttft_stream_ms`: time in milliseconds until the first `message_start` stream event, when the response stream opens. Lower than `ttft_ms`; the gap between the two is time spent streaming the first message. Present on the success arm only.
 * `user_message_uuid`: the `uuid` of the message you sent that started this turn. See [`user_message_uuid`](#user_message_uuid) for which results carry it.
 * `request_sent_wall_ms`: epoch milliseconds at which Claude Code dispatched the API request, for joins against server-side timestamps. Present on the success arm only, together with `user_message_uuid`, when `is_error` is false.
+* `first_content_frame_ms`: time in milliseconds until the first `content_block_start` or `content_block_delta` stream event, counting thinking blocks as content. Present on the success arm only, when `is_error` is false. Requires Agent SDK v0.3.260 or later.
+* `first_stream_post_ms`, `first_stream_post_ack_ms`, `first_stream_post_wall_ms`: timings for uploading the turn's first stream event. Claude Code records them only in sessions it streams to claude.ai, such as [cloud sessions](/docs/en/claude-code-on-the-web), and the results `query()` yields don't carry them. Requires Agent SDK v0.3.260 or later.
 * `usage`: main agent loop only. Excludes subagent and auxiliary model calls, and is per-turn in streaming-input sessions. Prefer `modelUsage` for token/cost accounting.
 * `modelUsage`: per-model totals for every model call made through the query pipeline during this `query()` call, including the main loop, subagents, and internal calls such as compaction and Workflow agents. Helper calls outside that pipeline, such as the permission classifier and token-counting requests, are excluded. In streaming-input sessions the totals are cumulative across turns, so read the latest result rather than summing across results. See [Track costs in streaming input mode](/docs/en/agent-sdk/cost-tracking#track-costs-in-streaming-input-mode) for resets and [Recover totals after a session crash](/docs/en/agent-sdk/cost-tracking#recover-totals-after-a-session-crash) for zeroed results.
 * `total_cost_usd`: cumulative estimated cost in USD for this `query()` call, covering the same calls as `modelUsage` and reset at the same points. It is an estimate, not a billing statement. See [Track cost and usage](/docs/en/agent-sdk/cost-tracking) for accuracy caveats.
@@ -1343,10 +1349,11 @@ When a `PreToolUse` hook returns `permissionDecision: "defer"`, the result has `
 
 #### `user_message_uuid`
 
-The `uuid` of the [`SDKUserMessage`](#sdkusermessage) that started the turn, echoed so you can match Claude Code's reply to the message you sent. Claude Code echoes it only if you set `uuid` on that message. The field is optional on `SDKUserMessage`, and a string prompt passed to `query()` carries none. When you set it, Claude Code echoes it on two kinds of frame:
+The `uuid` of the [`SDKUserMessage`](#sdkusermessage) that started the turn, echoed so you can match Claude Code's reply to the message you sent. Claude Code echoes it only if you set `uuid` on that message. The field is optional on `SDKUserMessage`, and a string prompt passed to `query()` carries none. When you set it, Claude Code echoes it on these frames:
 
 * **The result**: on the success arm with `is_error` false, together with `request_sent_wall_ms`, which requires Agent SDK v0.3.216 or later. On an error result that answers a message you sent, Claude Code echoes the field alone, which requires Agent SDK v0.3.246 or later.
-* **The turn's first reply**: the first [assistant message](#sdkassistantmessage), or with `includePartialMessages` the first [stream event](#sdkpartialassistantmessage) whose `event.type` isn't `ping`, so you can bind the reply before the result arrives. When a turn streams nothing, Claude Code sets it on the first assistant message instead. One frame per turn carries it. Requires Agent SDK v0.3.246 or later.
+* **The turn's first reply**: the first [assistant message](#sdkassistantmessage), or with `includePartialMessages` the first [stream event](#sdkpartialassistantmessage) whose `event.type` isn't `ping`, so you can bind the reply before the result arrives. When a turn streams nothing, Claude Code sets it on the first assistant message instead. One reply frame per turn carries it. Requires Agent SDK v0.3.246 or later.
+* **Every [`thinking_tokens`](#sdkthinkingtokensmessage) frame of the turn**: so you can attribute thinking progress to the message you sent without waiting for the turn's first reply. Requires Agent SDK v0.3.260 or later.
 
 Claude Code omits the field in these cases:
 
@@ -4933,6 +4940,7 @@ type SDKThinkingTokensMessage = {
   subtype: "thinking_tokens";
   estimated_tokens: number;
   estimated_tokens_delta: number;
+  user_message_uuid?: string;
   uuid: UUID;
   session_id: string;
 };

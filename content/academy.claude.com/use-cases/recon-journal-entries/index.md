@@ -8,9 +8,213 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-nhxr907i.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ci4exa6p.png)
 
-# Reconcile and draft the journal entries
+![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)subledger-EMEA-mar.xlsx
 
-Reads both subledgers and the FX sheet, writes the recon workbook and the JE draft.
+HomeInsertDrawPage LayoutFormulasDataReviewView
+
+Aptos Narrow
+
+11
+
+General
+
+E415
+
+fx
+
+=SUMME(E2:E413)
+
+<table><thead><tr><th class="rh"></th><th style="width: 211px;">A</th><th style="width: 186px;">B</th><th style="width: 298px;">C</th><th style="width: 298px;">D</th><th style="width:220px">E</th></tr></thead><tbody><tr class="hdr" style="opacity: 1;"><td class="rh">1</td><td>Beleg<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Datum<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Vendor<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Reference<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>EUR<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td></tr><tr class="r0" style="opacity: 1;"><td class="rh">2</td><td class="c0">5100018994</td><td class="c1">26.03.2026</td><td class="c2">Halden Instruments Inc.</td><td class="c3">PO 4500099853</td><td class="num c4">14,985.00</td></tr><tr class="r1 band" style="opacity: 1;"><td class="rh">3</td><td class="c0">5100019002</td><td class="c1">27.03.2026</td><td class="c2">Halden Instruments Inc.</td><td class="c3">PO 4500099860</td><td class="num c4">22,310.40</td></tr><tr class="r2" style="opacity: 1;"><td class="rh">4</td><td class="c0">5100019010</td><td class="c1">27.03.2026</td><td class="c2">Halden Instruments Inc.</td><td class="c3">PO 4500099866</td><td class="num c4">5,206.55</td></tr><tr class="r3 band" style="opacity: 1;"><td class="rh">5</td><td class="c0">5100019017</td><td class="c1">28.03.2026</td><td class="c2">Halden Instruments Inc.</td><td class="c3">PO 4500099871</td><td class="num c4">6,920.00</td></tr><tr class="r4" style="opacity: 1;"><td class="rh">6</td><td class="c0">5100019023</td><td class="c1">28.03.2026</td><td class="c2">Halden Instruments Inc.</td><td class="c3">PO 4500099880</td><td class="num c4">11,460.50</td></tr><tr class="r5 band" style="opacity: 1;"><td class="rh">7</td><td class="c0">5100019031</td><td class="c1">31.03.2026</td><td class="c2">Halden Instruments Inc.</td><td class="c3">PO 4500099931</td><td class="num c4">3,275.80</td></tr><tr class="r6" style="opacity: 1;"><td class="rh">8</td><td class="c0">5100019036</td><td class="c1">31.03.2026</td><td class="c2">Halden Instruments Inc.</td><td class="c3">PO 4500099940</td><td class="num c4">7,842.25</td></tr><tr class="r7 band" style="opacity: 1;"><td class="rh">9</td><td class="c0"><b>Total, 412 open items</b></td><td class="c1"></td><td class="c2">Due to US01</td><td class="c3"></td><td class="num c4"><b>1,071,940.00</b></td></tr><tr style="opacity: 1;"><td class="rh">10</td><td></td><td></td><td></td><td></td><td></td></tr><tr style="opacity: 1;"><td class="rh">11</td><td></td><td></td><td></td><td></td><td></td></tr><tr style="opacity: 1;"><td class="rh">12</td><td></td><td></td><td></td><td></td><td></td></tr><tr style="opacity: 1;"><td class="rh">13</td><td></td><td></td><td></td><td></td><td></td></tr><tr style="opacity: 1;"><td class="rh">14</td><td></td><td></td><td></td><td></td><td></td></tr><tr style="opacity: 1;"><td class="rh">15</td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+
+Open items+Ready  ·  Count: 412
+
+![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)subledger-US-mar.xlsx
+
+HomeInsertDrawPage LayoutFormulasDataReviewView
+
+Aptos Narrow
+
+11
+
+General
+
+G435
+
+fx
+
+=SUM(G2:G433)
+
+<table><thead><tr><th class="rh"></th><th style="width: 188px;">A</th><th style="width: 201px;">B</th><th style="width: 314px;">C</th><th style="width: 289px;">D</th><th style="width:80px">E</th><th style="width:200px">F</th><th style="width:220px">G</th></tr></thead><tbody><tr class="hdr" style="opacity: 1;"><td class="rh">1</td><td>Doc no.<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Doc date<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Customer<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Reference<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Curr<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Amount (doc)<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Amount USD<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td></tr><tr class="r0" style="opacity: 1;"><td class="rh">2</td><td class="c0">US-24455</td><td class="c1">27-Mar-2026</td><td class="c2">Halden Instruments GmbH</td><td class="c3">PO 4500099871</td><td class="c4">EUR</td><td class="num c5">6,920.00</td><td class="num c6">7,502.66</td></tr><tr class="r1 band" style="opacity: 1;"><td class="rh">3</td><td class="c0">US-24458</td><td class="c1">28-Mar-2026</td><td class="c2">Halden Instruments GmbH</td><td class="c3">PO 4500099880</td><td class="c4">EUR</td><td class="num c5">11,460.50</td><td class="num c6">12,425.47</td></tr><tr class="r2" style="opacity: 1;"><td class="rh">4</td><td class="c0">US-24460</td><td class="c1">29-Mar-2026</td><td class="c2">Halden Instruments GmbH</td><td class="c3">PO 4500099902</td><td class="c4">EUR</td><td class="num c5">18,240.00</td><td class="num c6">19,775.81</td></tr><tr class="r3 band" style="opacity: 1;"><td class="rh">5</td><td class="c0">US-24461</td><td class="c1">30-Mar-2026</td><td class="c2">Halden Instruments GmbH</td><td class="c3">PO 4500099915</td><td class="c4">EUR</td><td class="num c5">9,615.00</td><td class="num c6">10,424.58</td></tr><tr class="r4" style="opacity: 1;"><td class="rh">6</td><td class="c0">US-24463</td><td class="c1">30-Mar-2026</td><td class="c2">Halden Instruments GmbH</td><td class="c3">SVC-2026-03</td><td class="c4">EUR</td><td class="num c5">12,380.00</td><td class="num c6">13,422.40</td></tr><tr class="r5 band" style="opacity: 1;"><td class="rh">7</td><td class="c0">US-24464</td><td class="c1">31-Mar-2026</td><td class="c2">Halden Instruments GmbH</td><td class="c3">PO 4500099931</td><td class="c4">EUR</td><td class="num c5">3,275.80</td><td class="num c6">3,551.62</td></tr><tr class="r6" style="opacity: 1;"><td class="rh">8</td><td class="c0">US-24466</td><td class="c1">31-Mar-2026</td><td class="c2">Halden Instruments GmbH</td><td class="c3">PO 4500099940</td><td class="c4">EUR</td><td class="num c5">7,842.25</td><td class="num c6">8,502.57</td></tr><tr class="r7 band" style="opacity: 1;"><td class="rh">9</td><td class="c0">US-24467</td><td class="c1">31-Mar-2026</td><td class="c2">Halden Instruments GmbH</td><td class="c3">PO 4500099947</td><td class="c4">EUR</td><td class="num c5">4,310.00</td><td class="num c6">4,672.90</td></tr><tr class="r8" style="opacity: 1;"><td class="rh">10</td><td class="c0"><b>Total, 432 open items</b></td><td class="c1"></td><td class="c2">Due from DE02</td><td class="c3"></td><td class="c4"></td><td class="num c5"><b>1,189,227.50</b></td><td class="num c6"><b>1,289,360.46</b></td></tr><tr style="opacity: 1;"><td class="rh">11</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="opacity: 1;"><td class="rh">12</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="opacity: 1;"><td class="rh">13</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="opacity: 1;"><td class="rh">14</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="opacity: 1;"><td class="rh">15</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="opacity: 1;"><td class="rh">16</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+
+Open items+Ready  ·  Count: 432
+
+Reconcile and draft the journal entries
+
+Your two ledgers don’t agree and you need the entries that fix it.
+
+FY26-Close / Intercompany / March
+
+4 files
+
+Folder
+
+fx-rates-mar-2026.xlsx
+
+Month-end and average
+
+XLSX
+
+JE-template.xlsx
+
+Your columns
+
+XLSX
+
+Finance
+
+/close-management
+
+/journal-entry
+
+/reconciliation
+
+How can I help you today?
+
+**/**journal-entry Reconcile March intercompany across both subledgers. Normalize FX to USD at the month-end rate, fuzzy-match by amount and reference, sort differences into timing, rounding and true breaks. Draft a JE per true break with Dr/Cr, memo and support reference.
+
+Reading subledger-US-mar.xlsx0s
+
+Read5 sources
+
+Readsubledger-US-mar.xlsx
+
+Readsubledger-EMEA-mar.xlsx
+
+Readfx-rates-mar-2026.xlsx
+
+ReadJE-template.xlsx
+
+Checkedboth ledgers in USD at the month-end rate
+
+Below what amount is a difference just rounding?
+
+Under $25 is rounding, no entry
+
+One clean-up entry for all
+
+Under $25 is rounding, no entry
+
+Under $25 is rounding; leave those out.
+
+Used 5 sources43s
+
+I matched 412 line pairs at the 31 March rate and explained the full $124,054.49 difference: 18 timing items, 7 rounding under $25, and 3 true breaks, each with a draft entry. Each entry balances; I would post JE-0327 and JE-0328, hold JE-0329, and nothing posts until you approve.
+
+intercompany-recon-mar-2026.xlsx
+
+Spreadsheet
+
+Download
+
+JE-draft-mar-2026.xlsx
+
+Spreadsheet
+
+Download
+
+![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)intercompany-recon-mar-2026.xlsx
+
+HomeInsertDrawPage LayoutFormulasDataReviewView
+
+Aptos Narrow
+
+11
+
+General
+
+G3
+
+fx
+
+Q1 management-fee true-up; not on IC agreement schedule B; DE02 disputes
+
+<table><thead><tr><th class="rh"></th><th style="width:120px">A</th><th style="width:140px">B</th><th style="width:150px">C</th><th style="width:130px">D</th><th style="width:130px">E</th><th style="width:130px">F</th><th style="width:470px">G</th><th style="width:290px">H</th></tr></thead><tbody><tr class="ttlr"><td class="rh">1</td><td colspan="8" style="font:700 15px -apple-system,Aptos,system-ui;color:#1f2328;height:30px;border-color:transparent transparent #e6e6e6">Intercompany reconciliation, US01 and DE02, March 2026<span style="font-weight:400;color:#6b7280;margin-left:10px">USD at month-end 1.0871 from fx-rates-mar-2026.xlsx; matched by amount ±$25 and reference</span></td></tr><tr class="hdr"><td class="rh">2</td><td>Class<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>US01 doc<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>DE02 doc<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>EUR (US01)<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>EUR (DE02)<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Diff USD<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Why<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Action<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td></tr><tr class="r0"><td class="rh">3</td><td class="c0" style="font-weight: 600; color: rgb(154, 59, 46);">True break</td><td class="c1">US-24391</td><td class="c2">AP 5100018831</td><td class="num c3">22,540.00</td><td class="num c4">0.00</td><td class="num c5">24,503.23</td><td class="c6">Posted to trade AP in DE02 (vendor 70412), not intercompany</td><td class="c7">JE-0327 reclass in DE02</td></tr><tr class="r1 band"><td class="rh">4</td><td class="c0" style="font-weight: 600; color: rgb(154, 59, 46);">True break</td><td class="c1">US-24418</td><td class="c2">none</td><td class="num c3">13,136.00</td><td class="num c4">0.00</td><td class="num c5">14,280.15</td><td class="c6">Q1 management-fee true-up; not on IC agreement schedule B; DE02 disputes</td><td class="c7">JE-0329, hold for decision</td></tr><tr class="r2"><td class="rh">5</td><td class="c0" style="font-weight: 600; color: rgb(154, 59, 46);">True break</td><td class="c1">all open items</td><td class="c2">none</td><td class="num c3"></td><td class="num c4"></td><td class="num c5">(3,448.76)</td><td class="c6">US01 revaluation run used 1.0842; month-end rate is 1.0871</td><td class="c7">JE-0328 revalue in US01</td></tr><tr class="r3 band"><td class="rh">6</td><td class="c0" style="font-weight: 600; color: rgb(138, 106, 31);">Timing</td><td class="c1">US-24460</td><td class="c2">pending</td><td class="num c3">18,240.00</td><td class="num c4">0.00</td><td class="num c5">19,828.70</td><td class="c6">Shipped 29 Mar; DE02 goods receipt posted 2 Apr</td><td class="c7">Clears in April, no entry</td></tr><tr class="r4"><td class="rh">7</td><td class="c0" style="font-weight: 600; color: rgb(138, 106, 31);">Timing</td><td class="c1">US-24461</td><td class="c2">pending</td><td class="num c3">9,615.00</td><td class="num c4">0.00</td><td class="num c5">10,452.47</td><td class="c6">Invoice dated 30 Mar, received 1 Apr</td><td class="c7">Clears in April, no entry</td></tr><tr class="r5 band"><td class="rh">8</td><td class="c0" style="font-weight: 600; color: rgb(138, 106, 31);">Timing</td><td class="c1">US-24463</td><td class="c2">pending</td><td class="num c3">12,380.00</td><td class="num c4">0.00</td><td class="num c5">13,458.30</td><td class="c6">March service period; DE02 accrues in April</td><td class="c7">Clears in April, no entry</td></tr><tr class="r6"><td class="rh">9</td><td class="c0" style="font-weight: 600; color: rgb(138, 106, 31);">Timing</td><td class="c1">US-24455</td><td class="c2">pending</td><td class="num c3">6,920.00</td><td class="num c4">0.00</td><td class="num c5">7,522.73</td><td class="c6">In approval queue at DE02 on 31 Mar</td><td class="c7">Clears in April, no entry</td></tr><tr class="r7 band"><td class="rh">10</td><td class="c0" style="font-weight: 600; color: rgb(138, 106, 31);">Timing</td><td class="c1">US-24467</td><td class="c2">pending</td><td class="num c3">4,310.00</td><td class="num c4">0.00</td><td class="num c5">4,685.40</td><td class="c6">Invoice dated 31 Mar</td><td class="c7">Clears in April, no entry</td></tr><tr class="r8"><td class="rh">11</td><td class="c0" style="font-weight: 600; color: rgb(95, 99, 104);">Rounding</td><td class="c1">US-24102</td><td class="c2">4500098812</td><td class="num c3">12,449.60</td><td class="num c4">12,450.00</td><td class="num c5">(0.43)</td><td class="c6">DE02 posts at PO price, rounded</td><td class="c7">Under $25, no entry (per your answer)</td></tr><tr class="r9 band"><td class="rh">12</td><td class="c0" style="font-weight: 600; color: rgb(95, 99, 104);">Rounding</td><td class="c1">US-24177</td><td class="c2">4500099031</td><td class="num c3">8,318.25</td><td class="num c4">8,325.00</td><td class="num c5">(7.34)</td><td class="c6">PO unit price rounded</td><td class="c7">Under $25, no entry (per your answer)</td></tr><tr class="r10"><td class="rh">13</td><td class="c0" style="font-weight: 600; color: rgb(95, 99, 104);">Rounding</td><td class="c1">US-24230</td><td class="c2">4500099402</td><td class="num c3">27,884.10</td><td class="num c4">27,900.00</td><td class="num c5">(17.28)</td><td class="c6">PO unit price rounded</td><td class="c7">Under $25, no entry (per your answer)</td></tr><tr class="r11 band"><td class="rh">14</td><td class="c0" style="font-weight: 600; color: rgb(95, 99, 104);">Rounding</td><td class="c1">US-24288</td><td class="c2">4500099517</td><td class="num c3">5,206.55</td><td class="num c4">5,210.00</td><td class="num c5">(3.75)</td><td class="c6">PO unit price rounded</td><td class="c7">Under $25, no entry (per your answer)</td></tr><tr><td class="rh">15</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">16</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">17</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">18</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">19</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">20</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+
+SummaryBreaksMatchedFX ratesRun log+Ready  ·  Count: 28
+
+Every difference is sorted into your categories.
+
+![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)JE-draft-mar-2026.xlsx
+
+HomeInsertDrawPage LayoutFormulasDataReviewView
+
+Aptos Narrow
+
+11
+
+General
+
+D4
+
+fx
+
+3448.76
+
+<table><thead><tr><th class="rh"></th><th style="width:92px">A</th><th style="width:74px">B</th><th style="width:333px">C</th><th style="width:111px">D</th><th style="width:111px">E</th><th style="width:398px">F</th><th style="width:306px">G</th><th style="width:185px">H</th></tr></thead><tbody><tr class="ttlr"><td class="rh">1</td><td colspan="8" style="font:700 15px -apple-system,Aptos,system-ui;color:#1f2328;height:30px;border-color:transparent transparent #e6e6e6">Draft journal entries, intercompany March 2026<span style="font-weight:400;color:#6b7280;margin-left:10px">prepared 2 Apr 2026, status: for review</span></td></tr><tr class="hdr"><td class="rh">2</td><td>JE no.<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Entity<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Account<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Debit<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Credit<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Memo<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Support<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Status<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td></tr><tr class="r0"><td class="rh">3</td><td class="c0">JE-0327</td><td class="c1">DE02</td><td class="c2">200100 Accounts payable, trade (vendor 70412)</td><td class="num c3">22,540.00</td><td class="num c4"></td><td class="c5">Reclass invoice US-24391 from trade AP to intercompany payable US01</td><td class="c6">subledger-EMEA-mar.xlsx, AP detail row 144; invoice US-24391</td><td class="c7" style="background: rgb(243, 234, 209); color: rgb(138, 106, 31); font-weight: 600;">For review</td></tr><tr class="r1 band"><td class="rh">4</td><td class="c0">JE-0327</td><td class="c1">DE02</td><td class="c2">281000 Intercompany payable, US01</td><td class="num c3"></td><td class="num c4">22,540.00</td><td class="c5"></td><td class="c6"></td><td class="c7"></td></tr><tr class="r2"><td class="rh">5</td><td class="c0">JE-0328</td><td class="c1">US01</td><td class="c2">128100 Intercompany receivable, DE02</td><td class="num c3">3,448.76</td><td class="num c4"></td><td class="c5">Revalue EUR 1,189,227.50 receivable at month-end 1.0871; March revaluation run used 1.0842</td><td class="c6">fx-rates-mar-2026.xlsx, EUR row; subledger-US-mar.xlsx total</td><td class="c7" style="background: rgb(243, 234, 209); color: rgb(138, 106, 31); font-weight: 600;">For review, reverses 1 Apr</td></tr><tr class="r3 band"><td class="rh">6</td><td class="c0">JE-0328</td><td class="c1">US01</td><td class="c2">799200 Unrealized FX gain/loss</td><td class="num c3"></td><td class="num c4">3,448.76</td><td class="c5"></td><td class="c6"></td><td class="c7"></td></tr><tr class="r4"><td class="rh">7</td><td class="c0">JE-0329</td><td class="c1">US01</td><td class="c2">460500 Intercompany management-fee income</td><td class="num c3">14,280.15</td><td class="num c4"></td><td class="c5">Reverse Q1 true-up US-24418 pending agreement with DE02; not on IC agreement 2025-IC-04 schedule B</td><td class="c6">invoice US-24418; IC agreement 2025-IC-04</td><td class="c7" style="background: rgb(243, 234, 209); color: rgb(138, 106, 31); font-weight: 600;">For review, recommend hold</td></tr><tr class="r5 band"><td class="rh">8</td><td class="c0">JE-0329</td><td class="c1">US01</td><td class="c2">128100 Intercompany receivable, DE02</td><td class="num c3"></td><td class="num c4">14,280.15</td><td class="c5"></td><td class="c6"></td><td class="c7"></td></tr><tr class="r6"><td class="rh">9</td><td class="c0"></td><td class="c1"></td><td class="c2"><b>Totals (template check row, mixed currency)</b></td><td class="num c3"><b>40,268.91</b></td><td class="num c4"><b>40,268.91</b></td><td class="c5"></td><td class="c6"></td><td class="c7"></td></tr><tr><td class="rh">10</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">11</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">12</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">13</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">14</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">15</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+
+JE draftNetSuite importSupport+Ready  ·  Sum: 40,268.91
+
+Each draft entry balances and waits for you to post it.
+
+Run this every Monday: if new subledger exports are in the Intercompany folder, run /journal-entry against them and write the recon workbook and JE draft there. Nothing posts without my review.
+
+**Intercompany recon and JE draft**Mondays at 9:00 AM
+
+Each run
+
+Matches both ledgers at the month-end rate
+
+Classifies the breaks in your categories
+
+Writes the recon workbook and JE draft to the folder*nothing posts without your review*
+
+Claude Academy
+
+
+
+0:03 / 0:561×
+
+Illustration. Product screens are simplified.
+
+Reconcile and draft the journal entries
+
+Your two ledgers don’t agree and you need the entries that fix it.
+
+Tell the journal entry skill how to match and sort differences, and what each entry needs.
+
+Claude reads both ledgers and your rate sheet, then matches line by line in one currency.
+
+Claude checks with you before it decides anything that is your call.
+
+Claude tells you what matched, then gives you the two workbooks.
+
+Every difference is sorted into your categories.
+
+Each draft entry balances and waits for you to post it.
+
+Schedule it, and Claude runs the match again whenever new ledger exports arrive in the folder.
+
+Your two ledgers agree, and you review each entry before it posts.
+
+Reconcile March intercompany across both subledgers. Normalize FX to USD at the month-end rate, fuzzy-match by amount and reference, sort differences into timing, rounding and true breaks. Draft a JE per true break with Dr/Cr, memo and support reference.
+
+Below what amount is a difference just rounding? Under $25 is rounding, no entry / One clean-up entry for all
+
+I matched 412 line pairs at the 31 March rate and explained the full $124,054.49 difference: 18 timing items, 7 rounding under $25, and 3 true breaks, each with a draft entry. Each entry balances; I would post JE-0327 and JE-0328, hold JE-0329, and nothing posts until you approve.
+
+intercompany-recon-mar-2026.xlsx, JE-draft-mar-2026.xlsx
+
+Skill: /journal-entry (Finance)
 
 ## Set up[](https://academy.claude.com/use-cases/recon-journal-entries)
 

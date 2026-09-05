@@ -8,7 +8,7 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-code-in-action%2Fa-claude-md-that-follows)
 
-Embedded media: https://www.youtube-nocookie.com/embed/sfE5UQEumdM?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+Embedded media: https://www.youtube-nocookie.com/embed/o9-NIQF9tNw?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 A CLAUDE.md that follows
 
@@ -24,7 +24,7 @@ the less reliably Claude follows any single rule. So the goal isn't to write
 down everything. The goal is to keep the file tight. The leaner the file,
 the more of it Claude actually follows.
 
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=sfE5UQEumdM)
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=o9-NIQF9tNw)
 
 ## First, ask if CLAUDE.md is even the right tool[](https://academy.claude.com/courses/claude-code-in-action/a-claude-md-that-follows)
 

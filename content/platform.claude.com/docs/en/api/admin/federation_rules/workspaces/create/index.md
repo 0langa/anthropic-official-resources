@@ -7,6 +7,8 @@ url: https://platform.claude.com/docs/en/api/admin/federation_rules/workspaces/c
 
 **post** `/v1/organizations/federation_rules/{federation_rule_id}/workspaces`
 
+**Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
+
 Enable a federation rule for a workspace.
 
 Idempotent; re-enabling returns the existing enablement. The rule and
@@ -14,9 +16,9 @@ workspace must both belong to your organization. Membership of the
 rule's target service account in this workspace is not checked at
 enablement: token exchange into this workspace is rejected unless the
 target is a member (it is implicitly a member of the default workspace).
-Archived rules are rejected with 400. OAuth callers may only manage rules whose
-`oauth_scope` is `workspace:developer` or `workspace:inference`; other
-scopes require a Console session. Admin API keys are not accepted.
+Archived rules are rejected with 400. OAuth callers may only manage rules
+whose `oauth_scope` is `workspace:developer` or `workspace:inference`;
+other scopes require a Console session.
 
 ### Path Parameters
 
@@ -70,7 +72,7 @@ scopes require a Console session. Admin API keys are not accepted.
 curl https://api.anthropic.com/v1/organizations/federation_rules/$FEDERATION_RULE_ID/workspaces \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_OAUTH_TOKEN" \
+    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
     -d '{
           "workspace_id": "workspace_id"
         }'

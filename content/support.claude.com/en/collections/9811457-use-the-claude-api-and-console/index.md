@@ -1,6 +1,6 @@
 # Use the Claude API and Console
 
-16 articles
+17 articles
 
 [How can I access the Claude API?](https://support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api)
 
@@ -33,3 +33,5 @@
 [Find and join a Console organization](https://support.claude.com/en/articles/14793921-find-and-join-a-console-organization)
 
 [Assign a program to workspaces in Claude Console](https://support.claude.com/en/articles/16764810-assign-a-program-to-workspaces-in-claude-console)
+
+[Turn on data retention for a Workspace in a zero data retention organization](https://support.claude.com/en/articles/16824617-turn-on-data-retention-for-a-workspace-in-a-zero-data-retention-organization)

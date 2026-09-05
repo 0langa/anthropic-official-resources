@@ -8,116 +8,238 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-hd3p5r1z.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ci2tqnmp.png)
 
-## Contract review against your playbook
+Halyard-MSA-v3-counterparty.docx
 
-Reads your contract and playbook, scores each clause, and drafts fixes for the gaps.
+HomeInsertDrawDesignLayoutReferencesReviewView
 
-### Ask in plain English
+Halyard Data Systems, Inc.
 
-Point Cowork at the matter folder and describe the review you need.
+1200 Harbor Boulevard, Suite 400 · Oakland, California 94607 · legal@halyarddata.com
 
-/contract-reviewLegal
+Halyard Legal  
+Draft for discussion, 14 April 2026
 
-Contracts / Acme-MSA
+MASTER SERVICES AGREEMENT
 
-### Cowork walks every clause
+Halyard Agreement No. MSA-2026-0417
 
-Reads the incoming paper and your playbook side by side, scoring each clause as it goes.
+This Master Services Agreement (the “**Agreement**”) is entered into as of  , 2026 (the “**Effective Date**”) by and between **Halyard Data Systems, Inc.**, a Delaware corporation with offices at 1200 Harbor Boulevard, Suite 400, Oakland, California 94607 (“**Halyard**”), and **Corwin Logistics, Inc.**, a Delaware corporation with offices at 55 Foundry Street, Columbus, Ohio 43215 (“**Customer**”). Halyard and Customer are each a “**Party**” and together the “**Parties**”.
 
-Running /contract-review
+RECITALS
 
-Ironclad · pulled Acme MSA v3 from matter #2041
+WHEREAS, Halyard provides managed data-platform services, including hosting, pipeline operations and related professional services, to business customers under written statements of work; and
 
-Result
+WHEREAS, Customer wishes to procure such services for its freight-visibility and warehouse-reporting systems, and Halyard is willing to provide them, on the terms and conditions set out in this Agreement and in one or more Statements of Work executed under it;
 
-Google Drive · read contract-playbook-2026.pdf
+NOW, THEREFORE, in consideration of the mutual covenants and agreements contained herein, and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the Parties agree as follows:
 
-Result
+1. DEFINITIONS
 
-Reading fallback-positions.pdf
+1.1 “**Affiliate**” means any entity that directly or indirectly controls, is controlled by, or is under common control with a Party, where “control” means ownership of more than fifty percent (50%) of the voting securities of such entity or the power to direct its management and policies.
 
-Result
+1.2 “**Authorized User**” means an employee or contractor of Customer or its Affiliates whom Customer permits to access the Services under Section 2.2, up to the number of seats stated in the applicable Statement of Work.
 
-Comparing 23 clauses against playbook standard
+1.3 “**Customer Data**” means all data, content and materials, in any form, that Customer or its Authorized Users submit to, store in, or generate through the Services, including personal data as defined in Exhibit A (Data Processing Addendum), but excluding Usage Data.
 
-Result
+1.4 “**Deliverables**” means the reports, configurations, scripts and other work product that Halyard is expressly required to deliver to Customer under a Statement of Work, excluding the Services, the Halyard Platform and any Halyard Materials.
 
-Microsoft 365 · wrote tracked-change redlines to Acme-MSA-v3.docx
+1.5 “**Documentation**” means the user guides, service descriptions and technical specifications for the Services that Halyard makes generally available to its customers, as updated from time to time, provided that no update shall materially reduce the functionality described as of the Effective Date.
 
-Result
+1.6 “**Fees**” means the amounts payable by Customer for the Services and Deliverables as set out in the applicable Statement of Work, together with any amounts payable under Sections 4.3 to 4.5.
 
-Created Acme-MSA-clause-review.docx
+1.7 “**Halyard Materials**” means the Halyard Platform, the Documentation, and all software, tools, templates, methodologies, know-how and other materials owned or licensed by Halyard prior to the Effective Date or developed independently of this Agreement, and all modifications and derivatives thereof.
 
-Done
+1.8 “**Order Form**” means an ordering document executed by both Parties that references this Agreement and specifies the Services, the Subscription Term, fees and any usage limits.
 
-#### Progress
+1.9 “**Personal Data**” means any information relating to an identified or identifiable natural person that Halyard processes on behalf of Customer in the course of providing the Services.
 
-1
+1.10 “**Professional Services**” means implementation, configuration, migration, training or other services described in a Statement of Work, excluding the subscription Services.
 
-Read playbook and incoming paper
+1.11 “**Service Levels**” means the availability and support commitments set out in Schedule B, as amended from time to time in accordance with Section 3.4.
 
-2
+1.12 “**Statement of Work**” or “**SOW**” means a document executed by both Parties describing Professional Services, deliverables, milestones, acceptance criteria and fees.
 
-Walk every clause against standard
+1.13 “**Subscription Term**” means the period specified in the applicable Order Form during which Customer may access the Services, including any renewal period under Section 5.2.
 
-3
+**2. SERVICES**
 
-Draft redlines and rationale
+2.1 **Scope of Services.** Subject to this Agreement and the applicable Order Form, Halyard will make the Services available to Customer and its Authorized Users during the Subscription Term, and will perform the Professional Services described in each Statement of Work.
 
-4
+2.2 **Authorized Users.** Customer may permit up to the number of Authorized Users stated in the Order Form to access the Services. Customer is responsible for each Authorized User’s compliance with this Agreement and will promptly notify Halyard of any unauthorized access of which it becomes aware.
 
-Write review to matter folder
+2.3 **Changes to the Services.** Halyard may modify the Services from time to time, provided that no modification materially reduces the core functionality described in the Documentation during the then-current Subscription Term.
 
-#### Contracts / Acme-MSA
+Halyard MSA v7.2ConfidentialPage 1 of 411
 
-DOCAcme-MSA-v3-counterparty.docx
+Page 1 of 418,412 wordsEnglish (US)Focus90%
 
-PDFcontract-playbook-2026.pdf
+Redline a contract against your playbook
 
-PDFfallback-positions.pdf
+You need to review a long incoming agreement against your playbook.
 
-#### Context
+Halyard-MSA-v3-counterparty.docx
 
-Connectors
+Their paper, 41 pages
 
-Google Workspace
+DOCX
 
-Microsoft 365
+contract-playbook-2026.pdf
 
-Ironclad
+Purchasing side, 16 positions
 
-### Clause-by-clause, scored against your standard
+PDF
 
-Every deviation called out with a redline and counsel-ready rationale.
+Contracts / Halyard-MSA
 
-Reviewed **23 clauses** · 14 green · 6 yellow · 3 red
+Working folder
 
-RED**§8.2 Limitation of Liability** — caps at 1× fees; playbook floor is 2× with carve-outs. *Redline:* raise cap to 2× annual fees and exclude breaches of §6 (Confidentiality) and §11 (IP Indemnity).
+Folder
 
-YELLOW**§11.4 Indemnification** — mutual, but no third-party IP carve-out. *Redline:* add “including third-party IP claims arising from Licensor materials.” Fallback: cap IP indemnity at 3× fees.
+Commercial Legal
 
-YELLOW**§5.3 Auto-Renewal** — 60-day opt-out vs our 30-day standard. *Redline:* “either party may terminate on thirty (30) days’ written notice prior to the renewal date.”
+/amendment-history
 
-Acme MSA clause review
+/review
 
-Document · DOCX · 34 KB · written to Contracts / Acme-MSA
+/stakeholder-summary
 
-### Run it on every new contract
+How can I help you today?
 
-Paper arrives, the first-pass review is already waiting in the counterparty folder.
+**/**review Review this MSA clause by clause against our contract playbook. Mark each clause green, yellow or red with a one-line reason, and where it's yellow or red draft the redline as a tracked change with the rationale for opposing counsel.
 
-Contracts
+Reading contract-playbook-2026.pdf0s
 
-Scheduled
+Read4 sources
 
-First-pass contract review
+Readcontract-playbook-2026.pdf, 16 positions
 
-Each weekday at 9am, checks Contracts/Intake for new files, runs `/contract-review` on each one, and writes the clause table and redlined draft to a counterparty subfolder.
+ReadHalyard-MSA-v3-counterparty.docx, 41 pages
 
-Weekdays at **9 am** — checks Contracts/Intake for new files
+ReadExhibits A to C: DPA, SLA and SOW 1
 
-Every incoming contract lands with a clause-by-clause review   
- and suggested changes ready before the first read.
+Checked31 clauses against 16 positions
+
+Are you the customer in this contract, buying from Halyard?
+
+Yes, Halyard is the vendor
+
+No, we are the vendor
+
+Yes, Halyard is the vendor
+
+Yes, Halyard is the vendor.
+
+Used 4 sources44s
+
+I reviewed the 31 clauses of Halyard’s 41-page MSA against your 16 purchasing-side playbook positions: 22 pass, 6 are worth pushing, and 3 cannot go back as drafted. Each redline is a tracked change citing the playbook; with three reds on a $540,000 SOW, the General Counsel signs off first.
+
+<table class="mini"><thead><tr><th>§</th><th>Clause</th><th class="rh">Rating</th><th>Ask</th></tr></thead><tbody><tr><td class="num">5.4</td><td><b>Early termination</b></td><td class="rt"><span style="display:inline-block;min-width:58px;text-align:center;padding:1px 8px;border-radius:6px;font-weight:500;font-size:.86em;background:#fbe5e1;color:#8e2a12">Red</span></td><td>Strike the remaining-fees charge; convenience termination on 30 days</td></tr><tr><td class="num">10.1</td><td><b>Halyard IP indemnity</b></td><td class="rt"><span style="display:inline-block;min-width:58px;text-align:center;padding:1px 8px;border-radius:6px;font-weight:500;font-size:.86em;background:#fbe5e1;color:#8e2a12">Red</span></td><td>All IP rights, worldwide; cover documented combinations</td></tr><tr><td class="num">11.2</td><td><b>Liability cap</b></td><td class="rt"><span style="display:inline-block;min-width:58px;text-align:center;padding:1px 8px;border-radius:6px;font-weight:500;font-size:.86em;background:#fbe5e1;color:#8e2a12">Red</span></td><td>24 months’ fees; carve-outs restored; 3× for data incidents</td></tr><tr><td class="num">4.2</td><td><b>Invoicing and payment</b></td><td class="rt"><span style="display:inline-block;min-width:58px;text-align:center;padding:1px 8px;border-radius:6px;font-weight:500;font-size:.86em;background:#fbf0cf;color:#6e5400">Yellow</span></td><td>Net 15 → net 45 (fallback net 30)</td></tr><tr><td class="num">4.5</td><td><b>Fee adjustments</b></td><td class="rt"><span style="display:inline-block;min-width:58px;text-align:center;padding:1px 8px;border-radius:6px;font-weight:500;font-size:.86em;background:#fbf0cf;color:#6e5400">Yellow</span></td><td>7% a year → CPI, capped at 3%</td></tr><tr><td class="num">5.2</td><td><b>Renewal</b></td><td class="rt"><span style="display:inline-block;min-width:58px;text-align:center;padding:1px 8px;border-radius:6px;font-weight:500;font-size:.86em;background:#fbf0cf;color:#6e5400">Yellow</span></td><td>Notice 60 → 30 days, plus a renewal reminder from Halyard</td></tr><tr><td class="num">6.4</td><td><b>Confidentiality period</b></td><td class="rt"><span style="display:inline-block;min-width:58px;text-align:center;padding:1px 8px;border-radius:6px;font-weight:500;font-size:.86em;background:#fbf0cf;color:#6e5400">Yellow</span></td><td>3 → 5 years; trade secrets for as long as they qualify</td></tr><tr><td class="num">7.3</td><td><b>Security incident notice</b></td><td class="rt"><span style="display:inline-block;min-width:58px;text-align:center;padding:1px 8px;border-radius:6px;font-weight:500;font-size:.86em;background:#fbf0cf;color:#6e5400">Yellow</span></td><td>Add a 48-hour outer limit</td></tr><tr><td class="num">13.7</td><td><b>Publicity</b></td><td class="rt"><span style="display:inline-block;min-width:58px;text-align:center;padding:1px 8px;border-radius:6px;font-weight:500;font-size:.86em;background:#fbf0cf;color:#6e5400">Yellow</span></td><td>Name or logo only with prior written consent</td></tr></tbody></table>
+
+Halyard-MSA-v3-redline.docx
+
+Document
+
+Download
+
+Halyard-MSA-review-memo.docx
+
+Document
+
+Download
+
+Halyard-MSA-v3-redline.docx
+
+HomeInsertDrawDesignLayoutReferencesReviewView
+
+Halyard MSA (rev. 2026.2) — Corwin Logistics redline, 28 August 2026Confidential
+
+## 5.Term and Termination
+
+5.1**Term.** This Agreement commences on the Effective Date and continues for thirty-six (36) months (the “**Initial Term**”), unless earlier terminated in accordance with this Section 5.
+
+5.2**Renewal.** Upon expiration of the Initial Term, this Agreement and each Statement of Work then in effect shall automatically renew for successive periods of twelve (12) months (each, a “**Renewal Term**”) unless either Party gives written notice of non-renewal at least ~~sixty (60)~~ thirty (30) days prior to the end of the then-current term. Halyard shall give Customer written notice of each upcoming renewal, and of any adjustment to the Fees proposed under Section 4.5, no earlier than ninety (90) and no later than forty-five (45) days before the end of the then-current term; if Halyard does not give that notice, Customer may terminate the Renewal Term at any time on thirty (30) days’ written notice without charge.
+
+C**Claude**2 min ago
+
+Yellow**P-5 Renewal.**
+
+Your standard is renewal by written agreement; the fallback accepts auto-renewal if the notice window is 60 days or less and the vendor sends a reminder. Halyard’s draft is inside the fallback on the window but has no reminder, so this is a first-round ask rather than a blocker.
+
+**Fallback:** if they hold at sixty days, P-5 lets you accept it provided the reminder sentence stays.
+
+ReplyResolve
+
+5.3**Termination for Cause.** Either Party may terminate this Agreement or any Statement of Work upon written notice if the other Party materially breaches this Agreement and fails to cure such breach within thirty (30) days after receiving written notice describing the breach in reasonable detail.
+
+5.4**~~Early Termination~~ Termination for Convenience.** Customer may ~~not~~ terminate this Agreement or any Statement of Work for convenience ~~during the Initial Term~~ on thirty (30) days’ prior written notice to Halyard. If this Agreement or any Statement of Work is terminated prior to the end of the then-current term for any reason other than Halyard’s uncured material breach under Section 5.3, Customer shall pay Halyard, within thirty (30) days after the effective date of termination, ~~an amount equal to the Fees that would have become payable under each terminated Statement of Work for the remainder of such term~~ the Fees for Services performed through the effective date of termination, together with any non-cancelable third-party costs that Halyard incurred with Customer’s prior written approval.
+
+C**Claude**2 min ago
+
+Red**P-6 Termination (never accept).**
+
+A charge equal to the fees for the rest of the term: under SOW 1 that is up to 24 × $45,000 = **$1,080,000** if you exit after the first year. I inserted your standard position: convenience termination on 30 days’ notice, paying for work performed plus approved non-cancelable costs.
+
+**Approval:** the playbook gives no fallback here; if Halyard insists on any termination charge, P-6 routes it to the General Counsel.
+
+ReplyResolve
+
+5.5**Effect of Termination.** Upon expiration or termination for any reason, (a) all rights granted to Customer under the terminated Statement(s) of Work shall cease, (b) Halyard shall make Customer Data available for export for thirty (30) days and thereafter delete it and certify deletion in writing, and (c) Sections 1, 4 (as to amounts accrued), 6, 8, 10, 11 and 13 shall survive.
+
+## 6.Confidentiality
+
+6.1**Definition.** “**Confidential Information**” means all non-public information disclosed by one Party to the other in connection with this Agreement that is marked confidential or that a reasonable person would understand to be confidential, including the terms of this Agreement, Customer Data and the Halyard Materials.
+
+Page 6 of 4118,904 wordsTrack Changes: OnAll MarkupEnglish (US)Focus90%
+
+Each proposed change has your playbook’s reason written beside it.
+
+When your rules require sign-off, Claude names who must approve.
+
+Edit the /review skill with what we did here and share it with the legal team.
+
+**/review**Reviews an agreement clause by clause against the team playbook and drafts each redline as a tracked change with the position and fallback beside it.
+
+ReadsWorking foldercontract-playbook-2026.pdf
+
+Shared withYour legal team can view
+
+Claude Academy
+
+
+
+0:03 / 0:561×
+
+Illustration. Product screens are simplified.
+
+Redline a contract against your playbook
+
+You need to review a long incoming agreement against your playbook.
+
+Using the Commercial Legal plugin’s review skill, ask Claude to rate each clause and redline departures.
+
+Claude reads your playbook first, then compares every clause in the agreement against it.
+
+Wherever a decision is yours to make, Claude asks instead of guessing.
+
+Claude tells you what it flagged, then gives you the redlined agreement.
+
+Each proposed change has your playbook’s reason written beside it.
+
+When your rules require sign-off, Claude names who must approve.
+
+Share the skill so every reviewer on the team checks contracts against the same positions.
+
+Every risky clause comes with a suggested edit, and you decide each one.
+
+Review this MSA clause by clause against our contract playbook. Mark each clause green, yellow or red with a one-line reason, and where it's yellow or red draft the redline as a tracked change with the rationale for opposing counsel.
+
+Are you the customer in this contract, buying from Halyard? Yes, Halyard is the vendor / No, we are the vendor
+
+I reviewed the 31 clauses of Halyard’s 41-page MSA against your 16 purchasing-side playbook positions: 22 pass, 6 are worth pushing, and 3 cannot go back as drafted. Each redline is a tracked change citing the playbook; with three reds on a $540,000 SOW, the General Counsel signs off first.§ClauseRatingAsk5.4Early terminationRedStrike the remaining-fees charge; convenience termination on 30 days10.1Halyard IP indemnityRedAll IP rights, worldwide; cover documented combinations11.2Liability capRed24 months’ fees; carve-outs restored; 3× for data incidents4.2Invoicing and paymentYellowNet 15 → net 45 (fallback net 30)4.5Fee adjustmentsYellow7% a year → CPI, capped at 3%5.2RenewalYellowNotice 60 → 30 days, plus a renewal reminder from Halyard6.4Confidentiality periodYellow3 → 5 years; trade secrets for as long as they qualify7.3Security incident noticeYellowAdd a 48-hour outer limit13.7PublicityYellowName or logo only with prior written consent
+
+Halyard-MSA-v3-redline.docx, Halyard-MSA-review-memo.docx
+
+Skill: /review (Commercial Legal)
 
 ## Set up[](https://academy.claude.com/use-cases/contract-playbook-review)
 

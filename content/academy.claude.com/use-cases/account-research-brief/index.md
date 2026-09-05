@@ -8,91 +8,275 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-mtc5a1pi.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ha2dvss7.png)
 
-# Account research brief
+Research an account before a call
 
-Cowork pulls Salesforce, recent news, and your call notes and writes a one-page brief.
+You have a customer call tomorrow and need a one-page brief on the account.
 
-## Describe the brief you want
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)
 
-Point at the target list and name the sources — the Sales plugin recognizes the task.
+Salesforce
 
-Q2-Territory
+Accounts / Northwind
 
-## Cowork pulls the signals together
+3 files
 
-Target list, Salesforce history, Gong calls, public news — cross-referenced in one pass.
+Folder
 
-Researching account from connected sources
+last-call-notes.docx
 
-Reading target-accounts-Q2.xlsx
+12 Mar call
 
-Result
+DOCX
 
-Searching Salesforce account history
+northwind-10K-FY25.pdf
 
-Result
+Annual report
 
-Pulling prior calls from Gong
+PDF
 
-Result
+Sales
 
-Researching news and hiring signals
+/account-research
 
-Result
+/call-prep
 
-Writing account-research-brief-2026-04.docx
+/draft-outreach
 
-Result
+How can I help you today?
 
-Done
+Search...
 
-#### Progress
+*SR*
 
-1
+**CRM**Home*▾*Opportunities*▾*Accounts*▾*Contacts*▾*Leads*▾*Reports*▾*Dashboards*▾*
 
-Read the target list
+Account**Northwind Traders**
 
-2
+**+ Follow****Edit****New Contact****New Opportunity****▾**
 
-Pull CRM and call history
+Type**Prospect**
 
-3
+Industry**Food & Beverage Distribution**
 
-Research public signals
+Employees**6,400**
 
-4
+Annual Revenue**$2.31B**
 
-Write brief to folder
+Account Owner**Sam Reyes**
 
-## The brief, in your folder
+RelatedDetailsNews
 
-What’s changed, where you left off, and who to reach first.
+**Opportunities (1)**New
 
-**Recent signals.** New CRO hired in February from a direct competitor; eleven RevOps roles posted since. Series C closed in March — press release leads with EMEA expansion.
+<table><thead><tr><th>Opportunity Name</th><th>Stage</th><th>Amount</th><th>Close Date</th></tr></thead><tbody><tr class="opp0"><td><a><span class="nm" style="position:relative;display:inline-block">Northwind – demand planning pilot<span class="sw"></span></span></a></td><td>Closed Lost</td><td class="num">$185,000</td><td>11/14/2025</td></tr></tbody></table>
 
-**Our history.** Two closed-lost in 2024, both stalled at security review. Last Gong call flagged SOC 2 as the blocker — that shipped on our side in Q4.
+View All
 
-**Reach first.** Maya Chen (new CRO — warm intro via your Northwind champion), David Okafor (VP RevOps, owns the open roles), Priya Shah (security lead from the 2024 review).
+**Contacts (3)**New
 
-Account brief — Maya Chen
+*LO*
 
-Document · DOCX · 18 KB · Q2-Territory
+Lena OkaforDirector, Supply Chain Operations
 
-## Make it run every Monday
+*MH*
 
-Type `/schedule` and the customized skill works through your list before the prospecting block.
+Marcus HaleIT Security Manager
 
-Q2-Territory
+*PN*
 
-Scheduled
+Priya NairVP Finance
 
-Weekly account briefs
+View All
 
-Runs `/account-research` on the next five untouched accounts in your Q2 target list and writes each brief to the territory folder.
+**Cases (0)**New
 
-Every **Monday at 8:00 AM**
+ActivityChatter
 
-Five briefs in your folder before Monday’s call block.
+**Log a Call****New Task****New Event****Email**
+
+Filters: All time · All activities · All types
+
+Upcoming & Overdue
+
+No activities to show.
+
+Earlier
+
+**Logged a call: Lena Okafor, revisit after H1; asked for our SOC 2 Type II status**Mar 12, 2026
+
+**Email: Loss follow-up sent to Lena Okafor**Nov 18, 2025
+
+**Opportunity closed lost: security review (SOC 2 Type II not available)**Nov 14, 2025
+
+**/**account-research Build a one-page brief on Northwind. Pull from Salesforce, news, the 10-K, exec LinkedIn posts, and our call notes. Cover what they do, what's changed in the last quarter, where we fit, and three openers for the first call.
+
+Reading the Salesforce account0s
+
+Read5 sources
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)ReadNorthwind Traders account and activity
+
+Readlast-call-notes.docx and account-plan.docx
+
+Readnorthwind-10K-FY25.pdf
+
+SearchedNorthwind Traders news since June
+
+ReadLinkedIn posts by Northwind executives
+
+Used 5 sources34s
+
+I read the account in Salesforce, your call notes, the 10-K, and news and executive posts since June, and wrote the one-page brief: five dated changes and three openers. One thing I could not confirm is flagged: whether the planning budget now sits with the new COO.
+
+Northwind Traders - account brief
+
+Document
+
+Download
+
+**Northwind Traders - account brief**
+
+FileEditViewInsertFormatToolsExtensionsHelp
+
+Share*▾*EB
+
+Account brief · intro call
+
+# Northwind Traders
+
+Intro call Fri 29 Aug, 10:00 · Dana Whitfield, COO · prepared for Sam Reyes
+
+Sources: Salesforce, last-call-notes.docx, account-plan.docx, northwind-10K-FY25.pdf, news and LinkedIn since 1 June
+
+<table class="fx"><tbody><tr><td>FY25 revenue</td><td>$2.31B</td></tr><tr><td>Gross margin</td><td>15.3%</td></tr><tr><td>Distribution centers</td><td>38, in 31 states</td></tr><tr><td>Employees</td><td>about 6,400</td></tr><tr><td>COO</td><td>Dana Whitfield (16 Jun)</td></tr><tr><td>Our champion</td><td>Lena Okafor, still in role</td></tr></tbody></table>
+
+## What they do
+
+Specialty food and beverage distributor serving independent restaurants and regional grocers in 31 states; FY25 revenue $2.31B, gross margin 15.3%, 38 distribution centers, about 6,400 employees (10-K, Item 1 p. 4; Item 7 p. 41). Spoilage and inventory write-downs are listed as a principal risk (Item 1A p. 19).
+
+## Where we left off
+
+Our demand-planning pilot ($185K) closed lost on 14 Nov 2025 at their security review: infosec required a SOC 2 Type II report we did not yet have, and FY26 planning spend was then frozen (Salesforce). Champion Lena Okafor, Director of Supply Chain Operations, is still in role; on 12 Mar she asked us to come back “once SOC 2 is done and after the half” (last-call-notes.docx). Our SOC 2 Type II report was issued 22 May 2026 (account-plan.docx).
+
+## What’s changed since June
+
+- **16 Jun**Dana Whitfield joined as COO from a national broadline distributor; her remit covers DC operations and planning (press release; LinkedIn)
+- **8 Jul**Closed the acquisition of Tidewater Provisions: six DCs in the Southeast running a different warehouse system, integration planned through FY27 (8-K filed 8 Jul)
+- **6 Aug**Q2 FY26 results: revenue $612M, up 9% on the year; gross margin 14.2%, down 110 bps, which the CFO attributed to spoilage and write-downs; “inventory accuracy” named a second-half priority (earnings release and call)
+- **19 Aug**Whitfield on LinkedIn: “Our goal is to cut shrink in half within two years. That starts with forecasting we can trust at the DC level.” (412 reactions) (LinkedIn)
+- **Since 1 Jun**14 supply-chain roles posted, including Director of Demand Planning and two inventory analysts (careers page, checked 27 Aug)
+
+## Where we fit
+
+DC-level demand forecasting and replenishment for perishables; two distributor customers of similar size cut shrink 25–40% in year one. Runs across mixed warehouse systems, which matters while Tidewater is integrated. SOC 2 Type II is now in hand, which removes last year’s blocker.
+
+## Three openers
+
+1. Ties to where we left off: the security review“We stalled at your security review last year. Our SOC 2 Type II report came through in May; I can send it to Marcus Hale before we go further.”
+2. Ties to 6 Aug and 19 Aug: margin and shrink“On the Q2 call your CFO tied the margin dip to spoilage, and you’ve put a public target on shrink. Where does DC-level forecasting sit in that plan?”
+3. Ties to 8 Jul: the Tidewater integration“Tidewater adds six DCs on a different warehouse system. How are you planning inventory across both while the integration runs?”
+
+## Not confirmed
+
+Whether the FY26 planning budget moved under the COO or is still frozen under Finance; the careers count may include reposted roles.
+
+Each change is dated and sourced, so you can check it first.
+
+**Northwind Traders - account brief**
+
+FileEditViewInsertFormatToolsExtensionsHelp
+
+Share*▾*EB
+
+Account brief · intro call
+
+# Northwind Traders
+
+Intro call Fri 29 Aug, 10:00 · Dana Whitfield, COO · prepared for Sam Reyes
+
+Sources: Salesforce, last-call-notes.docx, account-plan.docx, northwind-10K-FY25.pdf, news and LinkedIn since 1 June
+
+<table class="fx"><tbody><tr><td>FY25 revenue</td><td>$2.31B</td></tr><tr><td>Gross margin</td><td>15.3%</td></tr><tr><td>Distribution centers</td><td>38, in 31 states</td></tr><tr><td>Employees</td><td>about 6,400</td></tr><tr><td>COO</td><td>Dana Whitfield (16 Jun)</td></tr><tr><td>Our champion</td><td>Lena Okafor, still in role</td></tr></tbody></table>
+
+## What they do
+
+Specialty food and beverage distributor serving independent restaurants and regional grocers in 31 states; FY25 revenue $2.31B, gross margin 15.3%, 38 distribution centers, about 6,400 employees (10-K, Item 1 p. 4; Item 7 p. 41). Spoilage and inventory write-downs are listed as a principal risk (Item 1A p. 19).
+
+## Where we left off
+
+Our demand-planning pilot ($185K) closed lost on 14 Nov 2025 at their security review: infosec required a SOC 2 Type II report we did not yet have, and FY26 planning spend was then frozen (Salesforce). Champion Lena Okafor, Director of Supply Chain Operations, is still in role; on 12 Mar she asked us to come back “once SOC 2 is done and after the half” (last-call-notes.docx). Our SOC 2 Type II report was issued 22 May 2026 (account-plan.docx).
+
+## What’s changed since June
+
+- **16 Jun**Dana Whitfield joined as COO from a national broadline distributor; her remit covers DC operations and planning (press release; LinkedIn)
+- **8 Jul**Closed the acquisition of Tidewater Provisions: six DCs in the Southeast running a different warehouse system, integration planned through FY27 (8-K filed 8 Jul)
+- **6 Aug**Q2 FY26 results: revenue $612M, up 9% on the year; gross margin 14.2%, down 110 bps, which the CFO attributed to spoilage and write-downs; “inventory accuracy” named a second-half priority (earnings release and call)
+- **19 Aug**Whitfield on LinkedIn: “Our goal is to cut shrink in half within two years. That starts with forecasting we can trust at the DC level.” (412 reactions) (LinkedIn)
+- **Since 1 Jun**14 supply-chain roles posted, including Director of Demand Planning and two inventory analysts (careers page, checked 27 Aug)
+
+## Where we fit
+
+DC-level demand forecasting and replenishment for perishables; two distributor customers of similar size cut shrink 25–40% in year one. Runs across mixed warehouse systems, which matters while Tidewater is integrated. SOC 2 Type II is now in hand, which removes last year’s blocker.
+
+## Three openers
+
+1. Ties to where we left off: the security review“We stalled at your security review last year. Our SOC 2 Type II report came through in May; I can send it to Marcus Hale before we go further.”
+2. Ties to 6 Aug and 19 Aug: margin and shrink“On the Q2 call your CFO tied the margin dip to spoilage, and you’ve put a public target on shrink. Where does DC-level forecasting sit in that plan?”
+3. Ties to 8 Jul: the Tidewater integration“Tidewater adds six DCs on a different warehouse system. How are you planning inventory across both while the integration runs?”
+
+## Not confirmed
+
+Whether the FY26 planning budget moved under the COO or is still frozen under Finance; the careers count may include reposted roles.
+
+Run this every Monday at 7am on the next five accounts in my target list and save each brief to its folder under Accounts.
+
+**Weekly account briefs**Mondays at 7:00 AM
+
+Each run
+
+Reads Salesforce and each account folder
+
+Searches news and executive posts
+
+Writes one brief per account*for the next five on your list*
+
+Claude Academy
+
+
+
+0:03 / 0:531×
+
+Illustration. Product screens are simplified.
+
+Research an account before a call
+
+You have a customer call tomorrow and need a one-page brief on the account.
+
+Using the Sales plugin’s account research skill, name your sources and ask for call openers.
+
+Claude reads where you left off in the CRM first, then the filing, news and executive posts.
+
+Claude reads where you left off in the CRM first, then the filing, news and executive posts.
+
+Claude tells you what it read and found, then gives you the one-page brief.
+
+Each change is dated and sourced, so you can check it first.
+
+Each opener ties to something recent and to where you left off.
+
+You can schedule it weekly so the next briefs are ready before your prospecting block.
+
+You walk into the call knowing what changed and what to ask.
+
+Build a one-page brief on Northwind. Pull from Salesforce, news, the 10-K, exec LinkedIn posts, and our call notes. Cover what they do, what's changed in the last quarter, where we fit, and three openers for the first call.
+
+I read the account in Salesforce, your call notes, the 10-K, and news and executive posts since June, and wrote the one-page brief: five dated changes and three openers. One thing I could not confirm is flagged: whether the planning budget now sits with the new COO.
+
+Northwind Traders - account brief
+
+Skill: /account-research (Sales)
+
+Connectors: Salesforce
 
 ## Set up[](https://academy.claude.com/use-cases/account-research-brief)
 

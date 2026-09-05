@@ -1,0 +1,50 @@
+import{$f as e,Zf as t}from"../../../content-es-meta-er8sy6l1.js";var n=t();function r(t){let r={a:"a",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",ul:"ul",...e(),...t.components},{ChatAttachments:i,ChatPrompt:o,ChatResponse:s,Connectors:c,Image:l,TryIn:u}=r;return i||a("ChatAttachments",!0),o||a("ChatPrompt",!0),s||a("ChatResponse",!0),c||a("Connectors",!0),l||a("Image",!0),u||a("TryIn",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(l,{src:"./analyze-patterns-in-user-feedback.png",alt:"Analyze patterns in user feedback result",preview:!0}),`
+`,(0,n.jsx)(r.h2,{id:"1-describe-the-task",children:"1. Describe the task"}),`
+`,(0,n.jsx)(r.p,{children:"Claude can read through all your customer feedback to aggregate and analyze your data in one place. Let Claude do the exhaustive reading and sorting so you can spend time focusing on improving user experience."}),`
+`,(0,n.jsx)(r.p,{children:"Tell Claude which feedback sources to analyze and the questions you're trying to answer. Claude reads all your data at once and identifies themes across hundreds of comments. It then synthesizes everything into workbooks that make qualitative feedback actionable."}),`
+`,(0,n.jsxs)(o,{children:[(0,n.jsx)(r.p,{children:"Pull all Intercom conversations from the past 90 days. I'm also uploading our Q2 NPS survey responses (CSV) and notes from six user interviews we did last month (PDFs)."}),(0,n.jsx)(r.p,{children:"Read everything and tell me what patterns you're seeing:"}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"What issues keep showing up across different feedback sources?"}),`
+`,(0,n.jsx)(r.li,{children:"When people ask for different things, are they actually pointing to the same underlying need?"}),`
+`,(0,n.jsx)(r.li,{children:"Which complaints seem most urgent based on how users describe them?"}),`
+`,(0,n.jsx)(r.li,{children:"What's worth prioritizing vs what's noise?"}),`
+`]}),(0,n.jsx)(r.p,{children:"Create a data workbook (Excel) organizing all the feedback by theme with filters so I can dig into specific issues. Include the source for each piece of feedback (Intercom, NPS, or interview) and use professional formatting with frozen headers"})]}),`
+`,(0,n.jsx)(r.h2,{id:"2-give-claude-context",children:"2. Give Claude context"}),`
+`,(0,n.jsx)(r.p,{children:"Connect tools where your support and feedback lives using connectors so Claude can access and analyze your data."}),`
+`,(0,n.jsx)(r.h3,{id:"required-context",children:"Required context"}),`
+`,(0,n.jsxs)(r.p,{children:["In ",(0,n.jsx)(r.a,{href:"https://claude.ai/customize/connectors",children:"Settings > Connectors"}),", find and enable your ",(0,n.jsx)(r.a,{href:"https://claude.ai/directory/intercom",children:"Intercom"})," connector."]}),`
+`,(0,n.jsx)(r.p,{children:"Upload supplementary feedback that lives outside your tools—NPS responses, interview transcripts, feedback forms, user research notes."}),`
+`,(0,n.jsx)(r.p,{children:"Click the (+) button in the chat bar to browse through your files, or alternatively, drag and drop files into the chat box area."}),`
+`,(0,n.jsx)(c,{surface:"chat",items:[{slug:"intercom"}]}),`
+`,(0,n.jsx)(i,{items:[{name:"Customer feedback data",fileType:"XSLX"},{name:"User transcripts",fileType:"PDF"}]}),`
+`,(0,n.jsx)(r.h2,{id:"3-what-claude-creates",children:"3. What Claude creates"}),`
+`,(0,n.jsx)(r.p,{children:"Claude connects dots between your feedback sources and organizes everything into data workbooks that make qualitative feedback actionable."}),`
+`,(0,n.jsxs)(s,{children:[(0,n.jsx)(r.p,{children:"I've analyzed 347 feedback points across your support tickets, NPS responses, and interview transcripts."}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Spreadsheet Data Breakdown:"})}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"The theme classification tab lets you audit Claude's work—see which feedback got tagged with which themes, check if anything was miscategorized, identify edge cases. This is your validation layer before presenting findings to stakeholders."}),`
+`,(0,n.jsx)(r.li,{children:"Trend analysis reveals velocity and direction. A complaint that appeared 5 times three months ago but 40 times last month tells a different story than one that's been steady. Claude tracks both the absolute numbers and the rate of change."}),`
+`,(0,n.jsx)(r.li,{children:"The quote repository is for persuasion—when you're pitching a roadmap item to leadership or writing a PRD, you need user voice, not summary statistics. This tab gives you the most representative, compelling quotes for each theme."}),`
+`,(0,n.jsx)(r.li,{children:"Feature request tracker helps you group related asks, estimate impact, and build a case for why something deserves prioritization (or doesn't)."}),`
+`]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"View your data workbook"})})]}),`
+`,(0,n.jsx)(r.h2,{id:"4-follow-up-prompts",children:"4. Follow up prompts"}),`
+`,(0,n.jsx)(r.p,{children:"Continue the conversation with Claude to refine, expand, or explore further."}),`
+`,(0,n.jsx)(r.h3,{id:"improve-the-file-output",children:"Improve the file output"}),`
+`,(0,n.jsx)(r.p,{children:"Claude responds to design language and quality cues by applying sophisticated formatting, typography, and visual elements. Review first outputs, then request elevated quality with specific design direction."}),`
+`,(0,n.jsx)(o,{children:(0,n.jsx)(r.p,{children:"Add visual polish to these files. For the document, refine with premium typography, sophisticated color schemes, and tighter formatting. For the spreadsheet, add charts to visualize trends, comparison tables, and callout boxes for key insights."})}),`
+`,(0,n.jsx)(r.h3,{id:"compare-segments",children:"Compare segments"}),`
+`,(0,n.jsx)(r.p,{children:"Break analysis down by meaningful groups to see how patterns differ. Claude identifies which issues matter most to specific segments, helping you prioritize high-value users or unique needs."}),`
+`,(0,n.jsx)(o,{children:(0,n.jsx)(r.p,{children:"Take the top three pain points and show me how they differ between enterprise and SMB customers. Are we solving the right problems for our highest-value segment?"})}),`
+`,(0,n.jsx)(r.h3,{id:"create-a-repeatable-workflow",children:"Create a repeatable workflow"}),`
+`,(0,n.jsxs)(r.p,{children:["Turn workflows you’ve refined into reusable ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/12512176-what-are-skills",children:"skills"})," that bundle your instructions, templates, and preferences. Skills eliminate repetitive explanations and ensure consistent outputs for tasks you do regularly."]}),`
+`,(0,n.jsx)(o,{children:(0,n.jsx)(r.p,{children:"Help me create a skill for analyzing user feedback. I want to capture where I pull data from, my analysis methodology, and the output structure I prefer—so I can reuse this process without re-explaining it every time."})}),`
+`,(0,n.jsx)(r.h2,{id:"5-tricks-tips-and-troubleshooting",children:"5. Tricks, tips, and troubleshooting"}),`
+`,(0,n.jsx)(r.h3,{id:"work-with-messy-data",children:"Work with messy data"}),`
+`,(0,n.jsx)(r.p,{children:"Don't spend time formatting feedback into perfect columns before uploading. Claude handles messy data, like mixed formats, incomplete fields, typos, even handwritten notes you've transcribed. Focus your energy on collecting comprehensive feedback, not cleaning it."}),`
+`,(0,n.jsx)(r.h3,{id:"watch-for-echo-chamber-effects",children:"Watch for echo chamber effects"}),`
+`,(0,n.jsx)(r.p,{children:`Claude will tell you what's in the data, but you need to interpret whether the sample represents your actual user base. Power users may leave more feedback than typical users. Enterprise customers have dedicated account managers to channel complaints. Promoters write thoughtful NPS comments while detractors just pick a number. Ask Claude: "What's the breakdown of feedback by user segment? Are we over-indexed on hearing from any particular group?"`}),`
+`,(0,n.jsx)(r.h3,{id:"combine-with-quantitative-data-for-the-full-picture",children:"Combine with quantitative data for the full picture"}),`
+`,(0,n.jsx)(r.p,{children:`Feedback tells you what users say; usage data tells you what they do. The most powerful insights come from connecting both. Upload your feedback analysis to a Claude Project along with usage analytics, then ask: "Users complain about Feature X being slow, but our logs show it averages a fast response time. What's actually happening?"`}),`
+`,(0,n.jsx)(r.h2,{id:"6-ready-to-try-for-yourself",children:"6. Ready to try for yourself?"}),`
+`,(0,n.jsx)(r.p,{children:"Collaborate with Claude to source and analyze user feedback, so you can get to insights and actions quicker."}),`
+`,(0,n.jsxs)(u,{surfaces:["chat"],children:[(0,n.jsx)(r.p,{children:"Pull all Intercom conversations from the past 90 days. I'm also uploading our Q2 NPS survey responses (CSV) and notes from six user interviews we did last month (PDFs)."}),(0,n.jsx)(r.p,{children:"Read everything and tell me what patterns you're seeing:"}),(0,n.jsx)(r.p,{children:`• What issues keep showing up across different feedback sources?
+• When people ask for different things, are they actually pointing to the same underlying need?
+• Which complaints seem most urgent based on how users describe them?
+• What's worth prioritizing vs what's noise?`}),(0,n.jsx)(r.p,{children:"Create a data workbook (Excel) organizing all the feedback by theme with filters so I can dig into specific issues. Include the source for each piece of feedback (Intercom, NPS, or interview) and use professional formatting with frozen headers"})]})]})}function i(t={}){let{wrapper:i}={...e(),...t.components};return i?(0,n.jsx)(i,{...t,children:(0,n.jsx)(r,{...t})}):r(t)}function a(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{i as default};

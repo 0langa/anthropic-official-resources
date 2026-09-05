@@ -8,123 +8,191 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-jpnl9xn4.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cdz8tber.png)
 
-# My voice skill
+Write in my voice
 
-Reads your sent Gmail and Slack, writes a one-page profile of how you write.
+You want every draft Claude writes for you to sound like you.
 
-## Ask in plain English
+![](data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_4766_38693)'%3e%3cpath%20d='M11.9091%2034H16.3636V23.6969L10%2019.1515V32.1818C10%2033.1879%2010.8559%2034%2011.9091%2034Z'%20fill='%234285F4'/%3e%3cpath%20d='M31.6364%2034H36.0909C37.1473%2034%2038%2033.1848%2038%2032.1818V19.1515L31.6364%2023.6969'%20fill='%2334A853'/%3e%3cpath%20d='M31.6364%2015.8182V23.6969L38%2019.1515V16.7272C38%2014.4788%2035.305%2013.1969%2033.4182%2014.5454'%20fill='%23FBBC04'/%3e%3cpath%20d='M16.3636%2023.697V15.8182L24%2021.2727L31.6364%2015.8182V23.697L24%2029.1515'%20fill='%23EA4335'/%3e%3cpath%20d='M10%2016.7272V19.1515L16.3636%2023.6969V15.8182L14.5818%2014.5454C12.6918%2013.1969%2010%2014.4788%2010%2016.7272Z'%20fill='%23C5221F'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_4766_38693'%3e%3crect%20width='28'%20height='20'%20fill='white'%20transform='translate(10%2014)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e)
 
-Connect Gmail and Slack, then describe the profile you want and where to save it.
+Gmail
 
-Personal / Writing-Samples
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)
 
-## Cowork reads what you’ve already sent
+Slack
 
-Gmail and Slack are the corpus; the Progress card tracks the plan as it runs.
+How can I help you today?
 
-Building your voice profile
+**Sent – sam@alderway.com**×
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/699d2af055fa3d5b7187ca31_Gmail.svg)
++
 
-Gmail · read 412 sent emails from the last 90 days
+←→↻
 
-Result
+mail.alderway.com/sent
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690ac11074040a8d303e83a5_Slack.jpg)
+*SO*⋮
 
-Slack · read 1,847 messages across 23 channels
+*SO*
 
-Result
+**Sam Okafor**sam@alderway.com
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69dabb6920c993d72e04f80a_google-drive.svg)
+Compose
 
-Google Drive · pulled all-hands-update-feb.docx
+Inbox*12*
 
-Result
+Starred
 
-Comparing tone, openers, sign-offs, repeated phrases
+Snoozed
 
-Result
+Sent
 
-Created my-voice-profile.md
+Drafts*3*
 
-my-voice-profile.md
+More
 
-Done · saved as personal skill `/my-voice`
+Labels
 
-#### Progress
+Vendors
 
-1
+Ops leads
 
-Read sent mail
+Sentin:sentSearch mail1–50 of 412‹›
 
-2
+Select·Newest first ▾·Last 90 days: **412 sent**
 
-Read Slack and Drive
+☆
 
-3
+*To:* Priya NatarajanAug 27
 
-Profile the patterns
+**Q3 vendor review: can you own the Brightline section?** — Can you take the Brightline section for Thursday? Short version below, longer context under it. — S
 
-4
+☆
 
-Write the profile
+*To:* finance-opsAug 27
 
-5
+**Heads up: PO cutoff moves to the 25th** — Folks — from September the PO cutoff is the 25th, not the 28th. Two reasons…
 
-Save as `/my-voice`
+☆
 
-#### Personal / Writing-Samples
+*To:* Marcus LeeAug 26
 
-my-voice-profile.md
+**Re: warehouse headcount ask** — Quick one — I’d rather we ask for two now and backfill the third in Q4. Happy to be wrong here if…
 
-DOCall-hands-update-feb.docx
+☆
 
-#### Context
+*To:* Dana WhitfieldAug 26
 
-Connectors
+**Following up on Tuesday** — Thanks for Tuesday, Dana. Three things we agreed, so your team and mine work from the same list: 1)…
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/699d2af055fa3d5b7187ca31_Gmail.svg)Gmail
+☆
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690ac11074040a8d303e83a5_Slack.jpg)Slack
+*To:* ops-leadsAug 25
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69dabb6920c993d72e04f80a_google-drive.svg)Google Drive
+**Friday standup canceled, notes instead** — Folks — no standup Friday. Drop your two lines in the thread by noon and I’ll…
 
-## A one-page profile of how you write
+☆
 
-Every observation backed by a line you actually sent — saved as a skill so future drafts load it first.
+*To:* Jo ParkAug 25
 
-**Openers** — you lead with the ask, context second. 78% of your emails open with a verb: “Can you…”, “Quick one —”, “Heads up:”. You never open with “Hope you’re well.”
+**Re: returns policy draft** — This is close. Two edits: lead with what changes for the customer, and cut the history paragraph…
 
-**Tone** — direct and warm, never formal. “Let’s just ship it and see” appears six times; “happy to be wrong here” four times when you’re pushing back.
+☆
 
-**Word choice** — “folks” not “team” (41 vs 0). Em-dashes over semicolons. Slack asks open with “quick q —” almost every time.
+*To:* Chris AdlerAug 24
 
-**Sign-off** — first initial only on internal mail; “thanks!” with the exclamation on external. No “Best,” ever.
+**Decision needed by Weds: second 3PL** — Can you decide by Wednesday whether we sign Brightline as a second 3PL? My recommendation is yes; the one risk is…
 
-**Avoids** — never “per my last email”, never bullet lists under three items, never the passive voice in an opener.
+☆
 
-SKILL
+*To:* Elena VargaAug 22
 
-/my-voice
+**Re: depot onboarding checklist** — Let’s just ship it and see. If the depot leads push back we’ll hear it in week one. — S
 
-Saved as skill · Personal skill · Saved to Customize → Skills
+☆
 
-## Refresh it as your writing shifts
+*To:* Dana WhitfieldAug 21
 
-Schedule a monthly re-read so the profile keeps up — your hand-added rules stay intact.
+**Re: revised SLA language** — Thanks! This works for us with one change to 4.2, happy to walk your team through it. Sam
 
-Personal
+☆
 
-Scheduled
+*To:* all-opsAug 20
 
-Refresh `/my-voice`
+**August update: what moved, what didn’t** — Folks — four things this month. 1) Returns backlog is cleared…
 
-Runs `/my-voice` against the last 90 days of sent mail and Slack and writes the merged profile back to the skill, preserving your hand-added rules.
+Q3 vendor review: can you own the Brightline section?Sent
 
-**Monthly** on the 1st
+*SO*
 
-Every draft Cowork writes from now on picks up your tone, your structures, your sign-off.
+**Sam Okafor**to Priya Natarajan
+
+*Aug 27*
+
+Can you take the Brightline section for Thursday? Short version below, longer context under it. — S
+
+Read my sent messages and tell me about my tone and writing style.
+
+Reading your sent mail0s
+
+Read3 sources
+
+![](data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_4766_38693)'%3e%3cpath%20d='M11.9091%2034H16.3636V23.6969L10%2019.1515V32.1818C10%2033.1879%2010.8559%2034%2011.9091%2034Z'%20fill='%234285F4'/%3e%3cpath%20d='M31.6364%2034H36.0909C37.1473%2034%2038%2033.1848%2038%2032.1818V19.1515L31.6364%2023.6969'%20fill='%2334A853'/%3e%3cpath%20d='M31.6364%2015.8182V23.6969L38%2019.1515V16.7272C38%2014.4788%2035.305%2013.1969%2033.4182%2014.5454'%20fill='%23FBBC04'/%3e%3cpath%20d='M16.3636%2023.697V15.8182L24%2021.2727L31.6364%2015.8182V23.697L24%2029.1515'%20fill='%23EA4335'/%3e%3cpath%20d='M10%2016.7272V19.1515L16.3636%2023.6969V15.8182L14.5818%2014.5454C12.6918%2013.1969%2010%2014.4788%2010%2016.7272Z'%20fill='%23C5221F'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_4766_38693'%3e%3crect%20width='28'%20height='20'%20fill='white'%20transform='translate(10%2014)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e)ReadSent, last 90 days: 412 emails
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)Readyour messages in 23 channels: 1,847
+
+Checkedhow you open, close, phrase and sign off
+
+Used 3 sources34s
+
+I read 412 sent emails and 1,847 Slack messages and compared how you open, close, phrase and sign off; each habit below has a count and the lines it came from.
+
+**How you open.** Ask first, context after (71% of emails), as in “Can you take the Brightline section for Thursday?”; group mail opens “Folks —”.
+
+**Shape and words.** Short sentences (median 11 words); “Folks”, not “team”; “happy to be wrong here” upward; signed “— S” inside.
+
+**Less sure.** August mails run a fifth shorter than June’s, which may be the holidays; tell me what I got wrong.
+
+Each habit comes with lines you actually sent, so you can check.
+
+Two fixes: I do say “team” with clients, just not internally, and don’t copy the “Thanks!” habit into drafts. Then save this as a skill called my-voice and use it for anything you draft for me.
+
+**/my-voice**Drafts mail and messages the way you write them: the ask first, short sentences, “Folks” internally, signed — S. Your two rules are on top.
+
+Reads![](data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_4766_38693)'%3e%3cpath%20d='M11.9091%2034H16.3636V23.6969L10%2019.1515V32.1818C10%2033.1879%2010.8559%2034%2011.9091%2034Z'%20fill='%234285F4'/%3e%3cpath%20d='M31.6364%2034H36.0909C37.1473%2034%2038%2033.1848%2038%2032.1818V19.1515L31.6364%2023.6969'%20fill='%2334A853'/%3e%3cpath%20d='M31.6364%2015.8182V23.6969L38%2019.1515V16.7272C38%2014.4788%2035.305%2013.1969%2033.4182%2014.5454'%20fill='%23FBBC04'/%3e%3cpath%20d='M16.3636%2023.697V15.8182L24%2021.2727L31.6364%2015.8182V23.697L24%2029.1515'%20fill='%23EA4335'/%3e%3cpath%20d='M10%2016.7272V19.1515L16.3636%2023.6969V15.8182L14.5818%2014.5454C12.6918%2013.1969%2010%2014.4788%2010%2016.7272Z'%20fill='%23C5221F'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_4766_38693'%3e%3crect%20width='28'%20height='20'%20fill='white'%20transform='translate(10%2014)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e)Gmail![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)Slack
+
+Shared withOnly you
+
+Claude Academy
+
+
+
+0:03 / 0:531×
+
+Illustration. Product screens are simplified.
+
+Write in my voice
+
+You want every draft Claude writes for you to sound like you.
+
+Ask a short, open question about your tone, and point Claude at mail you actually sent.
+
+Claude reads your sent mail and messages, then compares how you open, close and sign off.
+
+Claude tells you what it read, then gives you the profile in the reply.
+
+Each habit comes with lines you actually sent, so you can check.
+
+What Claude is unsure about is said, not guessed.
+
+Correct what it got wrong, then save it as a skill every draft uses.
+
+Drafts Claude writes for you sound like you from the first line.
+
+Read my sent messages and tell me about my tone and writing style.
+
+I read 412 sent emails and 1,847 Slack messages and compared how you open, close, phrase and sign off; each habit below has a count and the lines it came from. How you open. Ask first, context after (71% of emails), as in “Can you take the Brightline section for Thursday?”; group mail opens “Folks —”. Shape and words. Short sentences (median 11 words); “Folks”, not “team”; “happy to be wrong here” upward; signed “— S” inside. Less sure. August mails run a fifth shorter than June’s, which may be the holidays; tell me what I got wrong.
+
+Connectors: Gmail, Slack
 
 ## Set up[](https://academy.claude.com/use-cases/my-voice)
 

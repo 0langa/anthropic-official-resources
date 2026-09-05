@@ -8,123 +8,221 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-gl4mvsbr.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-f2aunmbb.png)
 
-# Metrics deep-dive to narrative
+**Activation · weekly · Tanager metrics**×
 
-Reads your analytics data and the changelog, then writes the what-happened-and-why with charts.
++
 
-## Ask in plain English
+←→↻
 
-Point Cowork at the week’s metrics folder and describe the analysis you need.
+metrics.tanagerhq.com/d/activation-weekly?week=2026-W34
 
-/metrics-narrativeProduct Management
+*ID*⋮
 
-Product / metrics / wk17
+TanagerProduct analytics / Dashboards / **Activation, weekly**Search dashboards and events`/`ID
 
-## Cowork hunts the anomaly
+Dashboards
 
-Segments the funnel, checks what shipped in the same window, and the Progress card tracks the plan.
+Activation, weeklySignups and campaignsWorkspace health
 
-Working on metrics narrative
+Funnels
 
-Reading amplitude-activation-funnel-wk17.csv
+Retention
 
-Result
+Cohorts
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690abdac9a60d37ccbb9f396_Amplitude.jpg)
+Events
 
-Amplitude · segmented day-1 activation by plan × platform × source
+Settings
 
-Result
+Activation, weeklyWeek 34 · Aug 17–23, 2026*▼*All signups*▼*Compare to prior weekTrendLast 8 weeks*▼*
 
-Comparing against wk16 — iOS × paid-social explains 86% of the drop
+Day-1 activation
 
-Result
+**32.9%**▼ 5.3 pts vs last week
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690abff72b804fad37465165_Linear.jpg)
+wk27wk34
 
-Linear · pulled 9 issues shipped Apr 20-24 in Growth
+First project created within 24 hours of signup
 
-Result
+Signups
 
-Reading changelog-apr.md
+**18,400**▲ 8.9%
 
-Result
+wk27wk34
 
-Created narrative-wk17.md + 2 charts
+Back-to-work campaign live from Mon 17
 
-narrative-wk17.md
+Workspace created, day 1
 
-#### Progress
+**72.4%**▼ 6.1 pts
 
-1
+wk27wk34
 
-Read the funnel export
+Step 1 of 2 in the activation funnel
 
-2
+First project from workspace
 
-Segment to the driver
+**46.5%**▬ 0.1 pts
 
-3
+wk27wk34
 
-Compare to last week
+Step 2 of 2 in the activation funnel
 
-4
+Day-7 retention (wk33 cohort)
 
-Check what shipped
+**61.8%**▲ 0.4 pts
 
-5
+Invites sent per new workspace
 
-Write narrative + charts
+**2.3**▬ 0.0
 
-#### Product / metrics / wk17
+**Activation funnel by step**% of signupsW31W32W33W34
 
-amplitude-activation-funnel-wk17.csv
+0%25%50%75%100%Signed up78.5%72.4%Workspace created, day 138.2%32.9%First project, day 1
 
-looker-retention-by-plan.csv
+**Day-1 activation by platform**Week 34 vs 33
 
-changelog-apr.md
+<table class="dseg"><thead><tr><th>Platform</th><th class="r">Signups</th><th class="r">Day-1 activation</th><th class="r">Δ vs W33, pts</th></tr></thead><tbody><tr class="hot" style="opacity: 1;"><td>iOS</td><td class="r">9,016</td><td class="r">30.3%</td><td class="r"><span class="d dn">−11.6</span></td></tr><tr class="" style="opacity: 1;"><td>Android</td><td class="r">3,680</td><td class="r">35.3%</td><td class="r"><span class="d">−0.7</span></td></tr><tr class="" style="opacity: 1;"><td>Web</td><td class="r">5,704</td><td class="r">35.5%</td><td class="r"><span class="d">+0.7</span></td></tr><tr class="tot" style="opacity: 1;"><td>All signups</td><td class="r">18,400</td><td class="r">32.9%</td><td class="r"><span class="d dn">−5.3</span></td></tr></tbody></table>
 
-narrative-wk16.md
+Plan tier and signup source: open in Funnels
 
-#### Context
+Explain why a metric moved
 
-Connectors
+A number on your dashboard fell and you need to explain why.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690abdac9a60d37ccbb9f396_Amplitude.jpg)Amplitude
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%20100%20100'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%235E6AD2'%20d='M1.225%2061.523c-.222-.949.908-1.546%201.597-.857l36.512%2036.512c.689.689.092%201.819-.857%201.597a50.06%2050.06%200%200%201-37.252-37.252Zm-1.22-13.59a.98.98%200%200%200%20.283.724l50.055%2050.055a.98.98%200%200%200%20.724.283%2049.9%2049.9%200%200%200%208.636-1.518.976.976%200%200%200%20.462-1.647L2.17%2038.835a.976.976%200%200%200-1.647.462%2049.9%2049.9%200%200%200-1.518%208.636Zm4.194-17.443a.988.988%200%200%200%20.184%201.152l63.975%2063.975a.988.988%200%200%200%201.152.184%2050.4%2050.4%200%200%200%206.08-3.495.993.993%200%200%200%20.161-1.53L9.224%2024.249a.993.993%200%200%200-1.53.161%2050.4%2050.4%200%200%200-3.495%206.08Zm9.723-13.067a.99.99%200%200%201-.026-1.377C23.068%206.08%2036.765-.002%2051.888-.002c27.59%200%2049.957%2022.367%2049.957%2049.957%200%2015.123-6.082%2028.82-16.048%2038.013a.99.99%200%200%201-1.377-.026z'/%3e%3c/svg%3e)
 
-![](https://www.google.com/s2/favicons?domain=looker.com&sz=64)Looker
+Linear
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690abff72b804fad37465165_Linear.jpg)Linear
+Product / metrics / wk34
 
-## The what-happened-and-why
+Funnel export, changelog, last week’s narrative
 
-Anomaly found, driver isolated to one segment, tied to the ship — with the two charts that prove it.
+Folder
 
-**Day-1 activation fell 14% WoW** (38.2% → 32.9%). The drop is concentrated in iOS × paid-social signups — that cohort fell 31% while every other plan/platform/source cell stayed within ±2%.
+amplitude-activation-funnel-wk34.csv
 
-**It lines up with GROW-1847**, the new tracking-permissions prompt that shipped Tue Apr 21. The prompt fires before first project creation, and 42% of paid-social iOS users bounce at it — they never reach the activation event.
+Export, all signups
 
-**Recommended:** move the prompt behind first project. Charts: *activation-by-segment-wk17.png* shows the isolation; *ios-funnel-before-after.png* shows the new drop-off step.
+CSV
 
-iOS paid-social activation narrative
+narrative-wk33.md
 
-Document · MD · 6 KB · + 2 PNG charts
+Format to match
 
-## Make it run every Monday
+MD
 
-Schedule the customized skill — the narrative is written before standup.
+Product Management
 
-Product / metrics
+/metrics-review
 
-Scheduled
+/stakeholder-update
 
-Weekly metrics narrative
+/write-spec
 
-Every Monday — runs `/metrics-narrative` against the prior week’s Amplitude + Linear data and writes the narrative and charts to Product/metrics/<week>.
+How can I help you today?
 
-Every **Monday** at 7:00am
+**/**metrics-review Find the anomaly in this week's funnel. Segment by plan, platform, and signup source to isolate the driver, check it against what shipped that week, and write the “what happened and why” narrative with the two charts that prove it.
 
-Every Monday the “what happened and why” is already in the folder before standup.
+Reading the funnel export0s
+
+Read4 sources
+
+Readactivation-funnel-wk34.csv
+
+Readchangelog-aug.md
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%20100%20100'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%235E6AD2'%20d='M1.225%2061.523c-.222-.949.908-1.546%201.597-.857l36.512%2036.512c.689.689.092%201.819-.857%201.597a50.06%2050.06%200%200%201-37.252-37.252Zm-1.22-13.59a.98.98%200%200%200%20.283.724l50.055%2050.055a.98.98%200%200%200%20.724.283%2049.9%2049.9%200%200%200%208.636-1.518.976.976%200%200%200%20.462-1.647L2.17%2038.835a.976.976%200%200%200-1.647.462%2049.9%2049.9%200%200%200-1.518%208.636Zm4.194-17.443a.988.988%200%200%200%20.184%201.152l63.975%2063.975a.988.988%200%200%200%201.152.184%2050.4%2050.4%200%200%200%206.08-3.495.993.993%200%200%200%20.161-1.53L9.224%2024.249a.993.993%200%200%200-1.53.161%2050.4%2050.4%200%200%200-3.495%206.08Zm9.723-13.067a.99.99%200%200%201-.026-1.377C23.068%206.08%2036.765-.002%2051.888-.002c27.59%200%2049.957%2022.367%2049.957%2049.957%200%2015.123-6.082%2028.82-16.048%2038.013a.99.99%200%200%201-1.377-.026z'/%3e%3c/svg%3e)Searchedissues shipped to onboarding that week
+
+Readnarrative-wk33.md, format to match
+
+Used 4 sources34s
+
+I segmented week 34’s funnel by plan, platform and source and checked it against what shipped: day-1 activation fell from 38.2% to 32.9%, all in one cell, iOS signups from paid social (41.0% → 25.6%).
+
+Likely cause, medium confidence: GROW-1847 · Linear moved the tracking prompt ahead of workspace setup in iOS 6.12.0; signup-to-workspace fell from 88% to 55% while the next step held.
+
+activation-by-segment
+
+Interactive chart
+
+Download
+
+activation-narrative-wk34.md
+
+Document
+
+Download
+
+Claude ties the drop to one release and says how sure it is.
+
+**activation-by-segment**
+
+*Copy*Publish
+
+## Change in day-1 activation by platform and source, week 34 vs 33
+
+In points. One cell moved; every other cell is within a point, and plan tier explains nothing on its own.
+
+−20−16−12−8−40+4iOS, paid socialundefinediOS, organicundefinedAndroid, paid socialundefinedAndroid, organicundefinedWeb, organicundefinedWeb, referralundefinedno change
+
+## iOS, paid social: step conversion, week 33 vs 34
+
+6,624 signups. The first step broke; the second held.
+
+0%25%50%75%100%Signup → workspace, wk3388%Signup → workspace, wk3455%Workspace → first project, wk3346.6%Workspace → first project, wk3446.5%
+
+Claude checks each segment you named and shows the one that moved.
+
+Run this every Monday at 7am: take last week’s funnel export in Product / metrics, run /metrics-review, check Linear for what shipped, and write the narrative and two charts to that week’s folder. Flag anything that moved more than 10%.
+
+**Weekly metrics narrative**Mondays at 7:00 AM
+
+Each run
+
+Reads last week’s funnel export in Product / metrics
+
+Runs /metrics-review and checks Linear for what shipped
+
+Writes the narrative and two charts to that week’s folder*before your review*
+
+Claude Academy
+
+
+
+0:03 / 0:561×
+
+Illustration. Product screens are simplified.
+
+Explain why a metric moved
+
+A number on your dashboard fell and you need to explain why.
+
+Using the Product Management plugin’s metrics skill, name segments and ask what shipped near the drop.
+
+Claude splits the funnel export by each segment, then checks your tracker for what shipped.
+
+Claude splits the funnel export by each segment, then checks your tracker for what shipped.
+
+Claude tells you what it found, then gives you the write-up with its charts.
+
+Claude ties the drop to one release and says how sure it is.
+
+Claude checks each segment you named and shows the one that moved.
+
+Schedule it weekly, and the write-up and charts are in the folder before your review.
+
+Your team knows what moved the number and why, every week.
+
+Find the anomaly in this week's funnel. Segment by plan, platform, and signup source to isolate the driver, check it against what shipped that week, and write the “what happened and why” narrative with the two charts that prove it.
+
+I segmented week 34’s funnel by plan, platform and source and checked it against what shipped: day-1 activation fell from 38.2% to 32.9%, all in one cell, iOS signups from paid social (41.0% → 25.6%).Likely cause, medium confidence: GROW-1847 · Linear moved the tracking prompt ahead of workspace setup in iOS 6.12.0; signup-to-workspace fell from 88% to 55% while the next step held.
+
+activation-by-segment, activation-narrative-wk34.md
+
+Skill: /metrics-review (Product Management)
+
+Connectors: Linear
 
 ## Set up[](https://academy.claude.com/use-cases/metrics-narrative)
 

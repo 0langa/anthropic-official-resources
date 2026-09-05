@@ -8,9 +8,151 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-mjmk2gjq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bpm7r9eg.png)
 
-### Ask the company
+Confluence
 
-Reads your wiki, code, and warehouse — writes a cited answer to any engineer’s question.
+Order data model (v3)
+
+Last edited 14 March. 21 columns, status values, soft-delete rule.
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23181717'%20d='M12%20.3a12%2012%200%200%200-3.8%2023.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73%201.2.09%201.84%201.24%201.84%201.24%201.07%201.83%202.81%201.3%203.49%201%20.11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93%200-1.31.47-2.38%201.24-3.22-.13-.3-.54-1.52.11-3.18%200%200%201.01-.32%203.3%201.23a11.5%2011.5%200%200%201%206%200c2.29-1.55%203.3-1.23%203.3-1.23.65%201.66.24%202.88.12%203.18.77.84%201.23%201.91%201.23%203.22%200%204.61-2.8%205.63-5.48%205.92.43.37.81%201.1.81%202.22v3.29c0%20.32.22.7.82.58A12%2012%200%200%200%2012%20.3'/%3e%3c/svg%3e)GitHub
+
+orders-service / CODEOWNERS
+
+`/services/orders/ @meridian/commerce-platform`
+
+![](https://academy.claude.com/assets/v1/snowflake-f7euzg40.svg)Snowflake
+
+COMMERCE.PUBLIC.ORDERS
+
+23 columns. 14 downstream views.
+
+team-directory.md
+
+Commerce Platform
+
+Tech lead Priya Raman. #commerce-platform
+
+Build an ‘Ask the company’ agent
+
+Your team keeps asking who owns what, and the answers are scattered.
+
+Confluence
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23181717'%20d='M12%20.3a12%2012%200%200%200-3.8%2023.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73%201.2.09%201.84%201.24%201.84%201.24%201.07%201.83%202.81%201.3%203.49%201%20.11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93%200-1.31.47-2.38%201.24-3.22-.13-.3-.54-1.52.11-3.18%200%200%201.01-.32%203.3%201.23a11.5%2011.5%200%200%201%206%200c2.29-1.55%203.3-1.23%203.3-1.23.65%201.66.24%202.88.12%203.18.77.84%201.23%201.91%201.23%203.22%200%204.61-2.8%205.63-5.48%205.92.43.37.81%201.1.81%202.22v3.29c0%20.32.22.7.82.58A12%2012%200%200%200%2012%20.3'/%3e%3c/svg%3e)
+
+GitHub
+
+![](https://academy.claude.com/assets/v1/snowflake-f7euzg40.svg)
+
+Snowflake
+
+Platform / ask-company
+
+2 reference files
+
+Folder
+
+Engineering
+
+/architecture
+
+/code-review
+
+/documentation
+
+How can I help you today?
+
+**/**documentation Search our wiki, code and warehouse, cite the source for each part, and if you're not sure, tell me who to ask. Who owns the orders table?
+
+Reading service-catalog.yaml0s
+
+Read5 sources
+
+Readservice-catalog.yaml
+
+SearchedConfluence for “orders table”
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23181717'%20d='M12%20.3a12%2012%200%200%200-3.8%2023.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73%201.2.09%201.84%201.24%201.84%201.24%201.07%201.83%202.81%201.3%203.49%201%20.11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93%200-1.31.47-2.38%201.24-3.22-.13-.3-.54-1.52.11-3.18%200%200%201.01-.32%203.3%201.23a11.5%2011.5%200%200%201%206%200c2.29-1.55%203.3-1.23%203.3-1.23.65%201.66.24%202.88.12%203.18.77.84%201.23%201.91%201.23%203.22%200%204.61-2.8%205.63-5.48%205.92.43.37.81%201.1.81%202.22v3.29c0%20.32.22.7.82.58A12%2012%200%200%200%2012%20.3'/%3e%3c/svg%3e)Readorders-service / CODEOWNERS
+
+![](https://academy.claude.com/assets/v1/snowflake-f7euzg40.svg)ReadCOMMERCE.PUBLIC.ORDERS
+
+Readteam-directory.md
+
+Used 5 sources33s
+
+I traced the orders table through your reference files, the wiki, the code and the warehouse, and the five sources agree. **Owner: Commerce Platform.** The `orders` table is written by `orders-service`; CODEOWNERS and the service catalog both name that team. CODEOWNERS · meridian/orders-service service-catalog.yaml
+
+The Confluence schema page is two columns behind the warehouse. Order data model (v3) · Confluence COMMERCE.PUBLIC.ORDERS · Snowflake
+
+For write access or a new column, ask Priya Raman in #commerce-platform, listed as data owner. team-directory.md
+
+The answer names the owner and links every source it used.
+
+**‹****›**
+
+github.com/meridian/orders-service/blob/main/.github/CODEOWNERS
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23181717'%20d='M12%20.3a12%2012%200%200%200-3.8%2023.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73%201.2.09%201.84%201.24%201.84%201.24%201.07%201.83%202.81%201.3%203.49%201%20.11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93%200-1.31.47-2.38%201.24-3.22-.13-.3-.54-1.52.11-3.18%200%200%201.01-.32%203.3%201.23a11.5%2011.5%200%200%201%206%200c2.29-1.55%203.3-1.23%203.3-1.23.65%201.66.24%202.88.12%203.18.77.84%201.23%201.91%201.23%203.22%200%204.61-2.8%205.63-5.48%205.92.43.37.81%201.1.81%202.22v3.29c0%20.32.22.7.82.58A12%2012%200%200%200%2012%20.3'/%3e%3c/svg%3e)meridian/orders-servicePrivate
+
+CodeIssues*14*Pull requests*3*ActionsSecurityInsights
+
+mainorders-service/.github/**CODEOWNERS**
+
+**priya-raman**Add data-platform as co-owner of order migrations8c41e7d · 3 weeks ago
+
+**Code****Blame**CODEOWNERS · 7 lines · 412 Bytes**Raw**
+
+<table class="code"><tbody><tr class="ln l1"><td class="n">1</td><td class="c cm"># Code owners for orders-service. Reviews are required from at least one owner.</td></tr><tr class="ln l2"><td class="n">2</td><td class="c">*                               <span class="at">@meridian/commerce-platform</span></td></tr><tr class="ln l3"><td class="n">3</td><td class="c">/services/orders/               <span class="at">@meridian/commerce-platform</span> <span class="at">@priya-raman</span></td></tr><tr class="ln l4"><td class="n">4</td><td class="c">/services/orders/migrations/    <span class="at">@meridian/commerce-platform</span> <span class="at">@meridian/data-platform</span></td></tr><tr class="ln l5"><td class="n">5</td><td class="c">/clients/inventory/             <span class="at">@meridian/inventory</span></td></tr><tr class="ln l6"><td class="n">6</td><td class="c">/infra/                         <span class="at">@meridian/platform</span></td></tr><tr class="ln l7"><td class="n">7</td><td class="c">/docs/                          <span class="at">@meridian/dev-docs</span></td></tr></tbody></table>
+
+Any source opens to the exact line behind the answer.
+
+Make what we’ve done here into a shared skill called ask-the-company.
+
+**/ask-the-company**Answers engineering questions from the wiki, code and warehouse, and names an owner when unsure.
+
+ReadsWorking folderConfluence![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23181717'%20d='M12%20.3a12%2012%200%200%200-3.8%2023.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73%201.2.09%201.84%201.24%201.84%201.24%201.07%201.83%202.81%201.3%203.49%201%20.11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93%200-1.31.47-2.38%201.24-3.22-.13-.3-.54-1.52.11-3.18%200%200%201.01-.32%203.3%201.23a11.5%2011.5%200%200%201%206%200c2.29-1.55%203.3-1.23%203.3-1.23.65%201.66.24%202.88.12%203.18.77.84%201.23%201.91%201.23%203.22%200%204.61-2.8%205.63-5.48%205.92.43.37.81%201.1.81%202.22v3.29c0%20.32.22.7.82.58A12%2012%200%200%200%2012%20.3'/%3e%3c/svg%3e)GitHub![](https://academy.claude.com/assets/v1/snowflake-f7euzg40.svg)Snowflake
+
+Shared withEveryone in your organization can view
+
+Claude Academy
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23181717'%20d='M12%20.3a12%2012%200%200%200-3.8%2023.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73%201.2.09%201.84%201.24%201.84%201.24%201.07%201.83%202.81%201.3%203.49%201%20.11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93%200-1.31.47-2.38%201.24-3.22-.13-.3-.54-1.52.11-3.18%200%200%201.01-.32%203.3%201.23a11.5%2011.5%200%200%201%206%200c2.29-1.55%203.3-1.23%203.3-1.23.65%201.66.24%202.88.12%203.18.77.84%201.23%201.91%201.23%203.22%200%204.61-2.8%205.63-5.48%205.92.43.37.81%201.1.81%202.22v3.29c0%20.32.22.7.82.58A12%2012%200%200%200%2012%20.3'/%3e%3c/svg%3e)
+
+![](https://academy.claude.com/assets/v1/snowflake-f7euzg40.svg)
+
+
+
+0:03 / 0:561×
+
+Illustration. Product screens are simplified.
+
+Build an ‘Ask the company’ agent
+
+Your team keeps asking who owns what, and the answers are scattered.
+
+Ask the documentation skill one real question, with each source cited and an owner named.
+
+Claude checks each place in turn: your reference files, the wiki, the code and the warehouse.
+
+Claude checks each place in turn: your reference files, the wiki, the code and the warehouse.
+
+You get the answer and the owner, with each source linked.
+
+The answer names the owner and links every source it used.
+
+Any source opens to the exact line behind the answer.
+
+When the answer is right, ask Claude to save it as a skill the whole team can run.
+
+Anyone on the team can ask who owns something and see the proof.
+
+Search our wiki, code and warehouse, cite the source for each part, and if you're not sure, tell me who to ask. Who owns the orders table?
+
+I traced the orders table through your reference files, the wiki, the code and the warehouse, and the five sources agree. Owner: Commerce Platform. The orders table is written by orders-service; CODEOWNERS and the service catalog both name that team. CODEOWNERS · meridian/orders-service service-catalog.yamlThe Confluence schema page is two columns behind the warehouse. Order data model (v3) · Confluence COMMERCE.PUBLIC.ORDERS · SnowflakeFor write access or a new column, ask Priya Raman in #commerce-platform, listed as data owner. team-directory.md
+
+Skill: /documentation (Engineering)
+
+Connectors: Confluence, GitHub, Snowflake
 
 ## Set up[](https://academy.claude.com/use-cases/ask-the-company)
 
@@ -56,7 +198,7 @@ Read code, READMEs, and CODEOWNERS to answer "how does X work" and "who owns X."
 
 [Connect](https://claude.ai/desktop/directory/github)
 
-
+![](https://academy.claude.com/assets/v1/snowflake-f7euzg40.svg)
 
 SnowflakeOptional
 

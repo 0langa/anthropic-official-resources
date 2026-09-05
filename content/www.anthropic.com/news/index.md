@@ -60,7 +60,7 @@ DateCategoryTitle
 - [Aug 4, 2026Announcements
 
   Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer](https://www.anthropic.com/news/tino-cuellar)
-- [Jul 30, 2026
+- [Jul 30, 2026Announcements
 
   Investigating three real-world incidents in our cybersecurity evaluations](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals)
 - [Jul 27, 2026Announcements

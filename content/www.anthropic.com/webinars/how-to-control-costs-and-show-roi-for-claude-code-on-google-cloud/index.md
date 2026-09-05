@@ -59,7 +59,7 @@ The recording of this webinar is not available yet.
 
 ## Thank you for registering to watch
 
-[Watch webinar](https://www.anthropic.com/webinars/how-to-control-costs-and-show-roi-for-claude-code-on-google-cloud)Watch webinar
+[Watch webinar](https://anthropic.ondemand.goldcast.io/on-demand/a4617e0d-1c9f-4009-81be-5576fe7b013d)Watch webinar
 
 Watch webinar
 

@@ -8,99 +8,177 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-ffjdr70o.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bm06b1oh.png)
 
-# Encode the brand as a skill
+Turn brand guidelines into a skill
 
-Reads your brand guidelines and design tokens, writes a shared skill that keeps every team on-brand.
+You want every team’s drafts to follow the brand without your review.
 
-## Ask in plain English
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%230ACF83'%20d='M8%2024a4%204%200%200%200%204-4v-4H8a4%204%200%200%200%200%208Z'/%3e%3cpath%20fill='%23A259FF'%20d='M4%2012a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23F24E1E'%20d='M4%204a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23FF7262'%20d='M12%200h4a4%204%200%200%201%200%208h-4V0Z'/%3e%3cpath%20fill='%231ABCFE'%20d='M20%2012a4%204%200%201%201-8%200%204%204%200%200%201%208%200Z'/%3e%3c/svg%3e)
 
-Point Cowork at the brand folder and describe the skill you want it to build.
+Figma
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23000'%20d='M4.46%204.44c.74.6%201.02.56%202.42.46l13.18-.79c.28%200%20.05-.28-.05-.32l-2.19-1.58c-.42-.33-.98-.7-2.05-.6L2.99%202.53c-.46.05-.56.28-.37.46l1.84%201.45Zm.8%203.1v13.87c0%20.74.37%201.02%201.21.98l14.49-.84c.84-.05.93-.56.93-1.16V6.6c0-.6-.23-.93-.74-.88l-15.14.88c-.56.05-.75.33-.75.93Zm14.3.74c.1.42%200%20.84-.42.89l-.7.14v10.24c-.6.33-1.16.51-1.63.51-.74%200-.93-.23-1.49-.93l-4.56-7.16v6.93l1.44.33s0%20.84-1.16.84l-3.21.18c-.1-.18%200-.65.33-.74l.84-.23V9.98l-1.16-.1c-.1-.42.14-1.02.79-1.07l3.44-.23%204.75%207.25V9.42l-1.21-.14c-.1-.51.28-.88.74-.93l3.21-.18Z'/%3e%3c/svg%3e)
+
+Notion
 
 Brand / System-Source
 
-## Cowork reads the brand system
+3 files
 
-Guidelines, tokens, and the Figma library become one set of rules; the Progress card tracks the plan as it runs.
+Folder
 
-Building the /on-brand skill
+brand-guidelines-2026.pdf
 
-Reading brand-guidelines-2026.pdf
+82 pages
 
-Result
+PDF
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690ac085f91d777702ff6935_Notion%20MCP.jpg)
+tokens.json
 
-Notion · pulled voice-and-tone and brand pages
+24 tokens
 
-Result
+JSON
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690abf35eff31cb9416d9ec4_Figma.jpg)
+Design
 
-Figma · read 84 variables, 12 type styles, 46 components
+/accessibility-review
 
-Result
+/design-system
 
-Reading tokens.json
+/ux-copy
 
-Result
+How can I help you today?
 
-Distilling color, type, spacing, and voice into rules
+**/**design-system Turn the brand docs in this folder into a shared skill called /on-brand. The skill should enforce our color tokens, typography, spacing, and voice rules on any content or UI it generates, and refuse off-brand patterns with a short reason.
 
-Result
+Reading brand-guidelines-2026.pdf0s
 
-Done · saved as shared skill `/on-brand`
+Read6 sources
 
-#### Progress
+Readbrand-guidelines-2026.pdf, 82 pages
 
-1
+Readvoice-and-tone.docx
 
-Read the brand guidelines
+Readtokens.json, 24 tokens
 
-2
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%230ACF83'%20d='M8%2024a4%204%200%200%200%204-4v-4H8a4%204%200%200%200%200%208Z'/%3e%3cpath%20fill='%23A259FF'%20d='M4%2012a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23F24E1E'%20d='M4%204a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23FF7262'%20d='M12%200h4a4%204%200%200%201%200%208h-4V0Z'/%3e%3cpath%20fill='%231ABCFE'%20d='M20%2012a4%204%200%201%201-8%200%204%204%200%200%201%208%200Z'/%3e%3c/svg%3e)ReadMarlow / Brand 2026, 64 variables
 
-Read tokens and Figma library
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23000'%20d='M4.46%204.44c.74.6%201.02.56%202.42.46l13.18-.79c.28%200%20.05-.28-.05-.32l-2.19-1.58c-.42-.33-.98-.7-2.05-.6L2.99%202.53c-.46.05-.56.28-.37.46l1.84%201.45Zm.8%203.1v13.87c0%20.74.37%201.02%201.21.98l14.49-.84c.84-.05.93-.56.93-1.16V6.6c0-.6-.23-.93-.74-.88l-15.14.88c-.56.05-.75.33-.75.93Zm14.3.74c.1.42%200%20.84-.42.89l-.7.14v10.24c-.6.33-1.16.51-1.63.51-.74%200-.93-.23-1.49-.93l-4.56-7.16v6.93l1.44.33s0%20.84-1.16.84l-3.21.18c-.1-.18%200-.65.33-.74l.84-.23V9.98l-1.16-.1c-.1-.42.14-1.02.79-1.07l3.44-.23%204.75%207.25V9.42l-1.21-.14c-.1-.51.28-.88.74-.93l3.21-.18Z'/%3e%3c/svg%3e)ReadBrand hub — Do and don’t gallery
 
-3
+Checkedguidelines against tokens and library
 
-Distill the rules
+Which Ember color is right: tokens.json or the PDF?
 
-4
+tokens.json and Figma, what ships
 
-Write the skill
+The value in the PDF
 
-5
+tokens.json and Figma, what ships
 
-Save as `/on-brand`
+tokens.json and Figma, that is what ships.
 
-## A skill that enforces your system
+Used 6 sources45s
 
-Color, type, spacing, and voice encoded as rules — shared so every team’s Claude loads it first.
+I turned the 82-page guidelines, the voice doc, the 24 tokens in tokens.json and the Figma library into /on-brand, with tokens.json and Figma winning where the PDF is older, as you chose. Here it is run once on the spring-sale banner request:
 
-**Color** — only the 9 brand tokens in tokens.json. Primary actions use `--brand-600`; never raw hex. Refuse anything outside the palette and name the closest token.
+Request: “Homepage banner, bright green button so it pops, add urgency — Don’t miss out!!”
 
-**Type and spacing** — Söhne for UI, Tiempos for headlines. Body 16/24, caption 13/18. Spacing on the 4px grid only; refuse off-grid values.
+**Headline** — The spring bedding edit, 20% off until Sunday  
+**Line** — Percale, linen and washed cotton in five new colors.  
+**Button** — Shop the edit (`ember-600` on `linen-50`)
 
-**Voice** — confident, plain, first person plural. No exclamation marks in product UI. Never “leverage”, “utilize”, “seamless”, or “world-class”.
+The button stays `ember-600`: green is not in the palette, and `moss-500` is for success states (brand-guidelines-2026.pdf p. 16). No exclamation marks or “don’t miss out” (voice-and-tone.docx §3); the real date carries the urgency.
 
-`/on-brand`
+on-brand
 
-Saved as skill · Shared with workspace
+Skill
 
-## Re-sync it as the brand evolves
+Save skill
 
-Schedule a weekly rebuild from the source folder and library — the skill stays current without a ticket.
+An off-brand request comes back corrected, with the rule named.
 
-Brand
+**SKILL.md**MDSaved to Brand / System-Source / on-brand
 
-Scheduled
+on-brand / SKILL.md
 
-Brand skill re-sync
+# on-brand
 
-Re-reads the guidelines folder and Figma library, rebuilds `/on-brand`, and posts a short changelog of what now enforces differently.
+Apply Marlow Home brand rules (color tokens, type, spacing, voice) to any copy or UI you generate. Refuse off-brand patterns with a short reason and the closest compliant option.
 
-**Mondays** at 9 am
+## Sources of truth, in order
 
-Every team’s Claude output — copy, mockups, decks — lands on-brand by default instead of by review.
+tokens.json v3.2 (20 Apr 2026) → Figma “Marlow / Brand 2026” variables → brand-guidelines-2026.pdf → voice-and-tone.docx. Where the PDF and the tokens disagree, the tokens win (confirmed by Brand design, 28 Aug 2026).
+
+## Color — 11 tokens, nothing else
+
+`ember-600 #D94A27` primary action, one per view · `ink-900` text · `linen-50` page · `clay-200` surfaces · `moss-500` success states only · `sun-300` highlight, never text · neutrals `stone-100`–`stone-500`. Name the token in output, never a raw hex. Text and background pairs meet 4.5:1 (guidelines p. 18).
+
+## Type
+
+Fraunces for H1–H2 only; Inter for everything else. Scale 40/44 · 28/34 · 20/28 · 16/24 body · 13/18 caption. Sentence case for headlines and buttons. Two weights per view at most.
+
+## Spacing and radius
+
+4-px grid: 4 8 12 16 24 32 48 64. Radius 6 on controls, 12 on cards, 0 on imagery. Round off-grid requests to the nearest step and say so.
+
+## Voice
+
+Warm, plain, second person (voice-and-tone.docx §1–4). Say the specific thing — thread count, delivery day — not the adjective. No exclamation marks in UI or ads. Never: luxury, elevate, seamless, curated, must-have, “don’t miss out”. Prices “£50”, dates “Sunday 3 May”.
+
+## Refuse, with a reason
+
+If a request breaks a rule above, do not produce that part. Say which rule and where it is written (file, page or section), then give the closest on-brand version. One sentence per refusal.
+
+## Exceptions
+
+Marlow Trade (B2B) uses `slate-700` for primary actions; all else applies. Seasonal palettes need a token added to tokens.json first — flag it, do not improvise one.
+
+Save /on-brand and share it with everyone at Marlow Home, view only; Brand design keeps edit rights.
+
+**/on-brand**Applies Marlow Home color tokens, type, spacing and voice to anything Claude writes or lays out, and refuses off-brand requests with the rule.
+
+ReadsWorking folder![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%230ACF83'%20d='M8%2024a4%204%200%200%200%204-4v-4H8a4%204%200%200%200%200%208Z'/%3e%3cpath%20fill='%23A259FF'%20d='M4%2012a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23F24E1E'%20d='M4%204a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23FF7262'%20d='M12%200h4a4%204%200%200%201%200%208h-4V0Z'/%3e%3cpath%20fill='%231ABCFE'%20d='M20%2012a4%204%200%201%201-8%200%204%204%200%200%201%208%200Z'/%3e%3c/svg%3e)Figma![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23000'%20d='M4.46%204.44c.74.6%201.02.56%202.42.46l13.18-.79c.28%200%20.05-.28-.05-.32l-2.19-1.58c-.42-.33-.98-.7-2.05-.6L2.99%202.53c-.46.05-.56.28-.37.46l1.84%201.45Zm.8%203.1v13.87c0%20.74.37%201.02%201.21.98l14.49-.84c.84-.05.93-.56.93-1.16V6.6c0-.6-.23-.93-.74-.88l-15.14.88c-.56.05-.75.33-.75.93Zm14.3.74c.1.42%200%20.84-.42.89l-.7.14v10.24c-.6.33-1.16.51-1.63.51-.74%200-.93-.23-1.49-.93l-4.56-7.16v6.93l1.44.33s0%20.84-1.16.84l-3.21.18c-.1-.18%200-.65.33-.74l.84-.23V9.98l-1.16-.1c-.1-.42.14-1.02.79-1.07l3.44-.23%204.75%207.25V9.42l-1.21-.14c-.1-.51.28-.88.74-.93l3.21-.18Z'/%3e%3c/svg%3e)Notion
+
+Shared withEveryone in your organization can view
+
+Claude Academy
+
+
+
+0:03 / 0:561×
+
+Illustration. Product screens are simplified.
+
+Turn brand guidelines into a skill
+
+You want every team’s drafts to follow the brand without your review.
+
+Point the Design plugin’s design system skill at your brand folder and ask for a skill.
+
+Claude reads the guidelines, the tokens file and the library before it writes a rule.
+
+Claude asks you first wherever your judgment is needed.
+
+Claude tells you what it built the skill from, then shows one test run.
+
+An off-brand request comes back corrected, with the rule named.
+
+Every refusal gives a reason and where the rule is written.
+
+Share the skill with the workspace so every team drafts from the same rules.
+
+Anyone can draft on brand, and you update the rules in one place.
+
+Turn the brand docs in this folder into a shared skill called /on-brand. The skill should enforce our color tokens, typography, spacing, and voice rules on any content or UI it generates, and refuse off-brand patterns with a short reason.
+
+Which Ember color is right: tokens.json or the PDF? tokens.json and Figma, what ships / The value in the PDF
+
+I turned the 82-page guidelines, the voice doc, the 24 tokens in tokens.json and the Figma library into /on-brand, with tokens.json and Figma winning where the PDF is older, as you chose. Here it is run once on the spring-sale banner request:Request: “Homepage banner, bright green button so it pops, add urgency — Don’t miss out!!”Headline — The spring bedding edit, 20% off until SundayLine — Percale, linen and washed cotton in five new colors.Button — Shop the edit (ember-600 on linen-50)The button stays ember-600: green is not in the palette, and moss-500 is for success states (brand-guidelines-2026.pdf p. 16). No exclamation marks or “don’t miss out” (voice-and-tone.docx §3); the real date carries the urgency.
+
+on-brand
+
+Skill: /design-system (Design)
+
+Connectors: Figma, Notion
 
 ## Set up[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 

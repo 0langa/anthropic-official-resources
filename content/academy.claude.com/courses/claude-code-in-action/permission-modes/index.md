@@ -8,7 +8,7 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-code-in-action%2Fpermission-modes)
 
-Embedded media: https://www.youtube-nocookie.com/embed/Fjg4O-ZcRSU?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+Embedded media: https://www.youtube-nocookie.com/embed/IS6larFJBK8?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 Permission modes
 
@@ -22,7 +22,7 @@ cycle through them: manual, accept edits, and plan. Those cover the
 everyday, hands-on work. The rest of the modes are where hands-off Claude
 Code really lives, and the one to reach for there is auto.
 
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=Fjg4O-ZcRSU)
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=IS6larFJBK8)
 
 ## The six permission modes[](https://academy.claude.com/courses/claude-code-in-action/permission-modes)
 

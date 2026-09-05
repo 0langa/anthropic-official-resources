@@ -8,9 +8,240 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-f72xos2e.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j0qghno4.png)
 
-# Answer the ad-hoc data question
+Search
 
-Reads your warehouse model, runs the SQL, and writes back the plain-English answer.
+New Mail
+
+sam.okafor@corran.com
+
+Inbox*7*
+
+Drafts*3*
+
+Archive
+
+Sent
+
+Deleted Items
+
+Junk Email
+
+Groups
+
+Finance — Close
+
+AP Approvals
+
+**Inbox**FocusedOther
+
+Today
+
+*RL*
+
+**Rosa Lindqvist**9:12 AM
+
+EMEA gross margin: why down this quarter?
+
+Why is gross margin down in EMEA this quarter? The flash has us at
+
+*DP*
+
+**Dev Patel**8:50 AM
+
+Re: churn cohort cut for the QBR
+
+Perfect, that’s the view I needed. One more ask: can we get it by
+
+*S*
+
+**Snowflake**6:02 AM
+
+Task EMEA\_DAILY\_REFRESH succeeded
+
+Task completed in 4m 12s. Rows loaded: 2,418,906
+
+*MR*
+
+**Marta Ruiz**Yesterday
+
+Pricing test readout: which table?
+
+Is FCT\_ORDER\_LINES the right grain for the bundle discount or should I
+
+*FO*
+
+**Finance Ops**Yesterday
+
+Q2 flash pack v3 attached
+
+Attaching v3 with the restated DACH freight line. Board pack locks
+
+**Reply****Reply All****Forward****Archive****Delete****Flag**···
+
+## EMEA gross margin: why down this quarter?
+
+*RL*
+
+**Rosa Lindqvist**<rosa.lindqvist@corran.com>
+
+To: Sam Okafor; Analytics requests
+
+Tue 9:12 AM
+
+Hi Sam,
+
+Why is gross margin down in EMEA this quarter? The flash has us at 58.2% against 61.4% last quarter and I need one line and a chart for Thursday’s board pack.
+
+If it’s the UK bundles again, can you say how much of it that is versus everything else? Happy to take a rough split as long as the query is somewhere I can point the auditors at.
+
+Thanks,  
+Rosa
+
+Rosa Lindqvist · Finance Director, EMEA · Corran
+
+Answer the ad-hoc data question
+
+Finance asks you to explain why a number fell this month.
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23F25022'%20d='M1%201h10.5v10.5H1z'/%3e%3cpath%20fill='%237FBA00'%20d='M12.5%201H23v10.5H12.5z'/%3e%3cpath%20fill='%2300A4EF'%20d='M1%2012.5h10.5V23H1z'/%3e%3cpath%20fill='%23FFB900'%20d='M12.5%2012.5H23V23H12.5z'/%3e%3c/svg%3e)
+
+Microsoft 365
+
+![](https://academy.claude.com/assets/v1/snowflake-f7euzg40.svg)
+
+Snowflake
+
+Analytics / EMEA-margin-question
+
+Schema, metrics library, data dictionary
+
+Folder
+
+finance-schema.sql
+
+FINANCE tables
+
+SQL
+
+metrics-library.md
+
+Certified definitions
+
+MD
+
+Data
+
+/analyze
+
+/explore-data
+
+/write-query
+
+How can I help you today?
+
+**/**write-query Here's the question from Finance: “Why is gross margin down in EMEA this quarter?” Write the SQL to answer it, run it against the warehouse, tell me what's driving the move, and give me the chart spec for the dashboard.
+
+Reading Rosa’s message0s
+
+Read5 sources
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23F25022'%20d='M1%201h10.5v10.5H1z'/%3e%3cpath%20fill='%237FBA00'%20d='M12.5%201H23v10.5H12.5z'/%3e%3cpath%20fill='%2300A4EF'%20d='M1%2012.5h10.5V23H1z'/%3e%3cpath%20fill='%23FFB900'%20d='M12.5%2012.5H23V23H12.5z'/%3e%3c/svg%3e)ReadRosa’s message in the requests thread
+
+Readfinance-schema.sql
+
+Readmetrics-library.md, gross margin (certified)
+
+![](https://academy.claude.com/assets/v1/snowflake-f7euzg40.svg)Queriedmargin by country and product, two quarters
+
+![](https://academy.claude.com/assets/v1/snowflake-f7euzg40.svg)QueriedUK revenue mix by week since launch
+
+Used 5 sources34s
+
+EMEA gross margin fell from 61.4% to 58.2%, Q1 to Q2. I ran the certified margin query on your FINANCE tables for both quarters: 2.4 of the 3.2 points are the UK, where the bundle promotion took hardware from 18% to 31% of revenue and the launch discount added to it.
+
+DACH freight and currency explain the rest, roughly 0.4 points each, and nothing has gone to Rosa yet.
+
+<table class="mini md"><thead><tr><th>Driver</th><th class="num">Effect (pts)</th><th>How we know</th></tr></thead><tbody><tr class="uk"><td>UK hardware mix</td><td class="num">−2.1</td><td>Bundle promo from 30 Mar took hardware to 31% of UK revenue (18% in Q1) at 24% margin against 68% for software; UK margin 60.1% → 53.6%</td></tr><tr class=""><td>DACH freight surcharge</td><td class="num">−0.4</td><td>Carrier surcharge from 1 May added $0.19M to cost of goods on $46.4M revenue</td></tr><tr class=""><td>Currency, rest of EMEA</td><td class="num">−0.4</td><td>USD-priced components billed in weaker local currencies; a residual, so treat it as approximate</td></tr></tbody></table>
+
+The chart splits the fall by driver for the board pack, and the query is saved as it ran so Rosa or the auditors can rerun it.
+
+emea-margin-drivers
+
+Interactive chart
+
+Download
+
+emea-margin-q2.sql
+
+Query
+
+Download
+
+It runs on your tables and metric, so you can rerun it.
+
+**emea-margin-drivers**
+
+*Copy*Publish
+
+## What moved EMEA gross margin, Q1 to Q2 FY26
+
+In percentage points, by country and cause. Six drivers sum to the 3.2-point fall; the line is Q1.
+
+−2.5−2−1.5−1−0.50+0.5UK, hardware mixundefinedDACH, freight surchargeundefinedRest of EMEA, currencyundefinedUK, bundle launch discountundefinedFrance, mixundefinedNordics, April price riseundefinedQ1 = 61.4%
+
+The change is split into its parts; the biggest one stands out.
+
+Run this every hour on weekdays: check Analytics requests for new questions, run /write-query against the warehouse, and save a draft answer to Analytics / Inbox for me to review before anything goes back.
+
+**Analytics requests inbox**Every hour on weekdays
+
+Each run
+
+Checks Analytics requests for new questions
+
+Runs /write-query on each against the warehouse
+
+Writes a draft answer to Analytics / Inbox*for your review*
+
+Claude Academy
+
+Why is gross margin down in EMEA this quarter?
+
+
+
+0:03 / 0:561×
+
+Illustration. Product screens are simplified.
+
+Answer the ad-hoc data question
+
+Finance asks you to explain why a number fell this month.
+
+With the Data plugin’s query skill, paste their question and ask why, with a chart.
+
+Claude reads your schema and metric definitions first, then queries the warehouse.
+
+Claude reads your schema and metric definitions first, then queries the warehouse.
+
+Claude says what it found and gives you the chart and the query.
+
+It runs on your tables and metric, so you can rerun it.
+
+The change is split into its parts; the biggest one stands out.
+
+Schedule it hourly, and each new question has a draft answer waiting for your review.
+
+The person who asked gets a checked answer and can rerun it later.
+
+Here's the question from Finance: “Why is gross margin down in EMEA this quarter?” Write the SQL to answer it, run it against the warehouse, tell me what's driving the move, and give me the chart spec for the dashboard.
+
+EMEA gross margin fell from 61.4% to 58.2%, Q1 to Q2. I ran the certified margin query on your FINANCE tables for both quarters: 2.4 of the 3.2 points are the UK, where the bundle promotion took hardware from 18% to 31% of revenue and the launch discount added to it.DACH freight and currency explain the rest, roughly 0.4 points each, and nothing has gone to Rosa yet.DriverEffect (pts)How we knowUK hardware mix−2.1Bundle promo from 30 Mar took hardware to 31% of UK revenue (18% in Q1) at 24% margin against 68% for software; UK margin 60.1% → 53.6%DACH freight surcharge−0.4Carrier surcharge from 1 May added $0.19M to cost of goods on $46.4M revenueCurrency, rest of EMEA−0.4USD-priced components billed in weaker local currencies; a residual, so treat it as approximateThe chart splits the fall by driver for the board pack, and the query is saved as it ran so Rosa or the auditors can rerun it.
+
+emea-margin-drivers, emea-margin-q2.sql
+
+Skill: /write-query (Data)
+
+Connectors: Microsoft 365, Snowflake
 
 ## Set up[](https://academy.claude.com/use-cases/answer-the-adhoc)
 
@@ -56,7 +287,7 @@ Pull the stakeholder's question from Teams or email and write the answer back as
 
 [Connect](https://claude.ai/desktop/directory/microsoft-365)
 
-
+![](https://academy.claude.com/assets/v1/snowflake-f7euzg40.svg)
 
 SnowflakeOptional
 

@@ -22,7 +22,7 @@ Search for articles...`⌘K`
 
 Get started with Claude across everyday conversations, projects, and files.
 
-79 articles
+81 articles
 
 ![](https://downloads.intercomcdn.com/i/hc/icons/v3/lupk8zyo/938301/38ac2cf80abb9aeb3af2b9bef14b/141413.svg)
 
@@ -30,7 +30,7 @@ Get started with Claude across everyday conversations, projects, and files.
 
 Compare paid plans, manage your subscription, and understand usage limits.
 
-16 articles
+15 articles
 
 ![](https://downloads.intercomcdn.com/i/hc/icons/v3/lupk8zyo/938303/bd2bb85ba160e836164722a24249/141413.svg)
 
@@ -86,7 +86,7 @@ Take Claude with you on iOS and Android.
 
 Build with the Claude API and manage keys, usage, and billing in the Console.
 
-39 articles
+40 articles
 
 ![](https://downloads.intercomcdn.com/i/hc/icons/v3/lupk8zyo/938310/fc1b2b288ad56a87197b85e8d8bc/141413.svg)
 

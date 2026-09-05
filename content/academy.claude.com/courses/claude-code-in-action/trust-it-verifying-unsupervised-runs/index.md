@@ -8,7 +8,7 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-code-in-action%2Ftrust-it-verifying-unsupervised-runs)
 
-Embedded media: https://www.youtube-nocookie.com/embed/lalGZSNhm8E?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+Embedded media: https://www.youtube-nocookie.com/embed/sXonYL7kAoc?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 Trust it: Verifying unsupervised runs
 
@@ -25,7 +25,7 @@ happened, so you have to reconstruct it after the fact.
 
 Here's a way to picture it. The less you watched, the more you verify.
 
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=lalGZSNhm8E)
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=sXonYL7kAoc)
 
 ## Keep unattended runs in auto mode[](https://academy.claude.com/courses/claude-code-in-action/trust-it-verifying-unsupervised-runs)
 

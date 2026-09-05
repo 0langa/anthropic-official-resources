@@ -139,6 +139,14 @@ https://academy.claude.com/courses/ai-native-sdlc-playbook/parallel-sessions-and
 https://academy.claude.com/courses/ai-native-sdlc-playbook/plan-mode
 https://academy.claude.com/courses/ai-native-sdlc-playbook/requirements-and-design
 https://academy.claude.com/courses/ai-native-sdlc-playbook/skills-as-institutional-knowledge
+https://academy.claude.com/courses/building-effective-human-agent-teams
+https://academy.claude.com/courses/building-effective-human-agent-teams/badge
+https://academy.claude.com/courses/building-effective-human-agent-teams/course-quiz
+https://academy.claude.com/courses/building-effective-human-agent-teams/how-multiplayer-agents-differ
+https://academy.claude.com/courses/building-effective-human-agent-teams/organizational-checklist
+https://academy.claude.com/courses/building-effective-human-agent-teams/practical-ways-to-get-started
+https://academy.claude.com/courses/building-effective-human-agent-teams/what-a-strong-team-looks-like
+https://academy.claude.com/courses/building-effective-human-agent-teams/why-multiplayer-ai-matters
 https://academy.claude.com/courses/building-with-the-claude-api
 https://academy.claude.com/courses/building-with-the-claude-api/a-multi-index-rag-pipeline
 https://academy.claude.com/courses/building-with-the-claude-api/a-typical-eval-workflow
@@ -2460,6 +2468,7 @@ https://platform.claude.com/docs/en/build-with-claude/working-with-messages
 https://platform.claude.com/docs/en/build-with-claude/workload-identity-federation
 https://platform.claude.com/docs/en/build-with-claude/workspaces
 https://platform.claude.com/docs/en/claude_api_primer
+https://platform.claude.com/docs/en/cli-sdks-libraries/cli/apply
 https://platform.claude.com/docs/en/cli-sdks-libraries/cli/authentication
 https://platform.claude.com/docs/en/cli-sdks-libraries/cli/quickstart
 https://platform.claude.com/docs/en/cli-sdks-libraries/cli/scripting
@@ -2655,6 +2664,7 @@ https://support.claude.com/en/articles/10504844-managing-user-feedback-settings-
 https://support.claude.com/en/articles/10504853-manage-user-feedback-settings-on-claude-console
 https://support.claude.com/en/articles/10534883-use-the-claude-widget-on-android
 https://support.claude.com/en/articles/10574485-using-extended-thinking
+https://support.claude.com/en/articles/10593882
 https://support.claude.com/en/articles/10593882-share-and-unshare-chats
 https://support.claude.com/en/articles/10684626
 https://support.claude.com/en/articles/10684626-enable-and-use-web-search
@@ -3095,9 +3105,13 @@ https://support.claude.com/en/articles/16634237-claude-team-plan-for-scientists
 https://support.claude.com/en/articles/16635803
 https://support.claude.com/en/articles/16635803-set-up-browser-use-in-claude-cowork-for-team-and-enterprise-plans
 https://support.claude.com/en/articles/16761192-preserved-thinking-changing-how-the-messages-api-handles-thinking-blocks-to-protect-against-distillation
+https://support.claude.com/en/articles/16762437
+https://support.claude.com/en/articles/16762437-public-links-for-shared-chats
+https://support.claude.com/en/articles/16762496-share-a-chat-with-specific-people
 https://support.claude.com/en/articles/16764057
 https://support.claude.com/en/articles/16764057-create-surveys-for-your-organization
 https://support.claude.com/en/articles/16764810-assign-a-program-to-workspaces-in-claude-console
+https://support.claude.com/en/articles/16824617-turn-on-data-retention-for-a-workspace-in-a-zero-data-retention-organization
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer
@@ -3731,6 +3745,7 @@ https://www.anthropic.com/research/exploit-evals
 https://www.anthropic.com/research/exploring-model-welfare
 https://www.anthropic.com/research/features-as-classifiers
 https://www.anthropic.com/research/forecasting-rare-behaviors
+https://www.anthropic.com/research/formalizing-fermats-last-theorem
 https://www.anthropic.com/research/glasswing-initial-update
 https://www.anthropic.com/research/global-workspace
 https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
