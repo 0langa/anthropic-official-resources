@@ -8,125 +8,173 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-d3gaacpk.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ctfjf1cz.png)
 
-# Vendor risk review
+Review a new vendor’s risk
 
-Reads vendor security and contract documents, writes a go/no-go decision memo.
-
-## Ask in plain English
-
-Point Cowork at the vendor folder and describe the review you need.
-
-/vendor-riskOperations
-
-Vendors / Northwind / risk-review
-
-## Cowork reads the packet
-
-SOC 2, questionnaire, DPA, and MSA scored against your framework while the rail tracks the plan.
-
-Running `/vendor-risk` on Northwind
+You need a go or no-go on a new vendor against your risk framework.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)
 
-Google Drive · pulled SOC 2 and questionnaire from Northwind folder
+Google Drive
 
-2 files
+Vendors / Northwind / risk-review
 
-Reading northwind-dpa-and-msa.docx
+4 files
 
-Result
+Folder
 
-Ironclad · matched MSA to executed record IRN-2418
+vendor-risk-framework.pdf
 
-Result
+24 controls, 3 data tiers
 
-Reading vendor-risk-framework.pdf
+PDF
 
-Result
+northwind-soc2-type2.pdf
 
-Comparing against Tier-2 data thresholds — 27 controls
+86 pages
 
-Result
+PDF
 
-Created northwind-risk-memo.docx
+Operations
 
-northwind-risk-memo.docx
+/compliance-tracking
 
-#### Progress
+/risk-assessment
 
-1
+/vendor-review
 
-Read the vendor packet
+How can I help you today?
 
-2
+**/**risk-assessment Score this vendor's SOC 2, security questionnaire, DPA and MSA against our risk framework. Write the review memo with a clear go or no-go and the required mitigations with owners. Cite the source document and section for every finding.
 
-Pull executed contracts
+Reading vendor-risk-framework.pdf0s
 
-3
+Read6 sources
 
-Score against framework
+Readvendor-risk-framework.pdf, 24 controls
 
-4
+Readnorthwind-soc2-type2.pdf, 86 pages
 
-Draft go/no-go + mitigations
+Readsecurity-questionnaire.xlsx, 312 answers
 
-5
+Readnorthwind-dpa-and-msa.docx
 
-Write memo to folder
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)CheckedVendor register: no prior review
 
-#### Northwind / risk-review
+Checked24 controls at Tier 2
 
-PDFnorthwind-soc2-type2.pdf
+What kind of data will Northwind handle for you?
 
-XLSsecurity-questionnaire-responses.xlsx
+Tier 2: customer personal data
 
-DOCnorthwind-dpa-and-msa.docx
+Tier 3: internal business data only
 
-PDFvendor-risk-framework.pdf
+Tier 2: customer personal data
 
-#### Context
+Tier 2, customer personal data, no payments.
 
-Connectors
+Used 6 sources45s
 
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)Google Drive
+I scored the SOC 2 report, the 312 questionnaire answers, the DPA and the MSA against your 24 controls at Tier 2: 68 of 100, a conditional go, 18 controls met. Three gaps must close before customer data moves, each with an owner, and every finding cites its page, row or clause.
 
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23F25022'%20d='M1%201h10.5v10.5H1z'/%3e%3cpath%20fill='%237FBA00'%20d='M12.5%201H23v10.5H12.5z'/%3e%3cpath%20fill='%2300A4EF'%20d='M1%2012.5h10.5V23H1z'/%3e%3cpath%20fill='%23FFB900'%20d='M12.5%2012.5H23V23H12.5z'/%3e%3c/svg%3e)Microsoft 365
+Northwind-vendor-risk-memo.docx
 
-Ironclad
+Document
 
-## The scored memo
+Download
 
-A go/no-go call, the mitigations to close it, and a citation for every finding.
+Northwind-control-scoring.xlsx
 
-Northwind — Vendor Risk ReviewGO · CONDITIONAL
+Spreadsheet
 
-**Tier 2 — Moderate** · 61 / 100 · Approve for production once the three mitigations below close.
+Download
 
-**SSO not enforced** on the admin console — SAML is available but optional for tenant admins. SOC 2 §CC6.1 · Questionnaire Q14 → Require enforcement before go-live. *Owner: Security (D. Okafor)*
+Corwin Logistics · Vendor Review GroupVendor risk memo · 28 August 2026
 
-**Data retention** defaults to indefinite; DPA §8.2 permits a 30-day delete on written request. DPA §8.2 · Questionnaire Q31 → Add the 30-day term to the order form. *Owner: Legal (M. Chen)*
+# Vendor risk review — Northwind Software (Northwind Service Cloud)
 
-**Subprocessor notice** — list last updated 11 months ago and MSA §12 has no change-notice SLA. MSA §12 · SOC 2 §CC9.2 → Add 30-day notice clause. *Owner: Procurement (you)*
+## Requested by
 
-Northwind vendor risk memo
+Customer Support Operations · 28 August 2026
 
-Document · DOCX · 24 KB · Vendors / Northwind / risk-review
+## Data in scope
 
-## Run it on every new vendor
+Customer personal data — names, emails, ticket content; no cardholder or health data · Tier 2 thresholds applied (per your answer)
 
-Schedule it once — the memo drafts itself the moment a packet lands.
+## Documents reviewed
 
-Vendors
+SOC 2 Type II report (1 Oct 2025 – 31 Mar 2026, 86 pp.) · security questionnaire (312 responses, 18 Apr 2026) · DPA and MSA (Northwind paper, 18 Apr 2026) · vendor-risk-framework.pdf v3.1
 
-Scheduled
+## Recommendation
 
-Vendor risk first pass
+**Conditional go 68 / 100 Tier 2 band 60–74.** Approve for contract signature now; do not connect production customer data until required mitigations R1–R3 are evidenced. Deal-breaker controls: 4 of 4 met Met encryption at rest AES-256, SOC 2 p. 36 Met breach notice 48 h, DPA §9.1 Met no sale or model training on Customer Data, MSA §7.4 Met audit right, DPA §11. No prior review of this vendor on the register.
 
-Runs `/vendor-risk` on every new risk-review folder under Vendors and writes the scored memo and mitigation list back to it.
+## Domain scores
 
-**Weekdays at 9am**
+<table class="dom"><thead><tr><th>Domain</th><th class="r">Weight</th><th class="r">Score</th><th></th><th>Controls met</th></tr></thead><tbody><tr><td>Access control</td><td class="r">20</td><td class="r">13</td><td class="m"><span class="mtr"><i style="width:65.0%"></i></span></td><td>4 of 6</td></tr><tr><td>Data protection and privacy</td><td class="r">25</td><td class="r">18</td><td class="m"><span class="mtr"><i style="width:72.0%"></i></span></td><td>5 of 6</td></tr><tr><td>Security operations</td><td class="r">20</td><td class="r">16</td><td class="m"><span class="mtr"><i style="width:80.0%"></i></span></td><td>4 of 5</td></tr><tr><td>Resilience</td><td class="r">15</td><td class="r">12</td><td class="m"><span class="mtr"><i style="width:80.0%"></i></span></td><td>2 of 3</td></tr><tr><td>Legal and subprocessors</td><td class="r">20</td><td class="r">9</td><td class="m"><span class="mtr"><i style="width:45.0%"></i></span></td><td>3 of 4</td></tr><tr class="tot"><td><b>Total</b></td><td class="r"><b>100</b></td><td class="r"><b>68</b></td><td class="m"><span class="mtr"><i style="width:68.0%"></i></span></td><td><b>18 of 24</b> <span class="sub">4 partial, 2 not met</span></td></tr></tbody></table>
 
-Every vendor packet gets a scored go/no-go memo in the folder before the review starts.
+## Required before production data
+
+<table class="req"><thead><tr><th>#</th><th>Finding</th><th class="sh">Source</th><th>Mitigation</th><th>Owner · due</th></tr></thead><tbody><tr><td><b>R1</b></td><td>SSO cannot be enforced for tenant admins; admin MFA is optional</td><td class="src s0">Questionnaire IAM-02, IAM-04 (rows 113, 115); SOC 2 CC6.1, p. 31</td><td>Northwind enables admin SSO enforcement and mandatory MFA on our tenant; tenant policy screenshot as evidence</td><td>Security — D. Okafor<br/><span class="due">Before go-live</span></td></tr><tr><td><b>R2</b></td><td>Backups retained “indefinitely”; DPA deletion duty covers live data only</td><td class="src s1">Questionnaire DAT-09 (row 231); DPA §8.2</td><td>Amend DPA §8.2: backups purged within 90 days of a deletion request</td><td>Legal — M. Chen<br/><span class="due">At signature</span></td></tr><tr><td><b>R3</b></td><td>Subprocessor changes notified “via website”, no objection right; Annex III list dated June 2025</td><td class="src s2">DPA §6.3, Annex III; MSA §12.3; framework L-3</td><td>Amend DPA §6.3: 30 days’ written notice and a right to object; refreshed Annex III</td><td>Legal — M. Chen<br/><span class="due">At signature</span></td></tr></tbody></table>
+
+## Recommended track in register
+
+<table class="req rcm"><tbody><tr><td><b>A1</b></td><td>Auditor exception: 2 of 25 sampled high-severity vulnerabilities remediated outside the 30-day policy</td><td class="src">SOC 2 Section IV, CC7.1, p. 47; management response p. 79</td><td>Quarterly remediation report for the first year</td><td>Security</td></tr><tr><td><b>A2</b></td><td>Last disaster-recovery test evidenced May 2025; the framework asks for annual</td><td class="src">Questionnaire BCP-04, row 268</td><td>Request the 2026 test summary</td><td>Procurement (you)</td></tr></tbody></table>
+
+## Accepted
+
+<table class="req rcm"><tbody><tr><td><b>X1</b></td><td>Hosting is US-only; the framework prefers an EU region option</td><td class="src">Questionnaire DAT-02, row 224</td><td colspan="2">Accepted: no EU data subjects in scope per requester. Revisit if scope changes.</td></tr></tbody></table>
+
+The memo opens with the score and what must close first.
+
+Every finding names its page, row or clause.
+
+Edit the /risk-assessment skill with what we did here and share it with the review group.
+
+**/risk-assessment**Scores a vendor’s audit report, questionnaire and contract terms against the team framework and drafts the decision memo with cited findings and owned mitigations.
+
+ReadsWorking foldervendor-risk-framework.pdf![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)Google Drive
+
+Shared withProcurement, Security and Legal can view
+
+Claude Academy
+
+
+
+0:03 / 0:561×
+
+Illustration. Product screens are simplified.
+
+Review a new vendor’s risk
+
+You need a go or no-go on a new vendor against your risk framework.
+
+Using the Operations plugin’s risk assessment skill, list documents and ask for a score and fixes.
+
+Claude reads your framework first, then checks the evidence and the contract terms against each control.
+
+Wherever a decision is yours to make, Claude asks instead of guessing.
+
+You get the memo and scores, with the score and call at the top.
+
+The memo opens with the score and what must close first.
+
+Every finding names its page, row or clause.
+
+Share the skill, and procurement, security and legal can score every vendor the same way.
+
+You get a cited recommendation on the vendor and make the call.
+
+Score this vendor's SOC 2, security questionnaire, DPA and MSA against our risk framework. Write the review memo with a clear go or no-go and the required mitigations with owners. Cite the source document and section for every finding.
+
+What kind of data will Northwind handle for you? Tier 2: customer personal data / Tier 3: internal business data only
+
+I scored the SOC 2 report, the 312 questionnaire answers, the DPA and the MSA against your 24 controls at Tier 2: 68 of 100, a conditional go, 18 controls met. Three gaps must close before customer data moves, each with an owner, and every finding cites its page, row or clause.
+
+Northwind-vendor-risk-memo.docx, Northwind-control-scoring.xlsx
+
+Skill: /risk-assessment (Operations)
+
+Connectors: Google Drive
 
 ## Set up[](https://academy.claude.com/use-cases/vendor-risk-review)
 

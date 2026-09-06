@@ -1,0 +1,60 @@
+import{$f as e,Zf as t}from"../../../content-es-meta-er8sy6l1.js";var n=t();function r(t){let r={h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",ul:"ul",...e(),...t.components},{ChatAttachments:i,ChatPrompt:o,ChatResponse:s,Image:c,TryIn:l}=r;return i||a("ChatAttachments",!0),o||a("ChatPrompt",!0),s||a("ChatResponse",!0),c||a("Image",!0),l||a("TryIn",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(c,{src:"./verify-statistics-from-raw-data.png",alt:"Statistical reproducibility analysis workbook Claude creates to verify a paper's claims",preview:!0}),`
+`,(0,n.jsx)(r.h2,{id:"1-describe-the-task",children:"1. Describe the task"}),`
+`,(0,n.jsx)(r.p,{children:"Claude's ability to parse manuscripts while simultaneously running statistical analyses on raw data helps you develop a deeper understanding of how to assess research methods and build critical reading skills you'll use throughout your career."}),`
+`,(0,n.jsx)(r.p,{children:"Ask Claude to examine a paper by extracting every statistical claim and rerunning each analysis on the provided data files. This hands-on verification teaches you what to watch for and helps you understand whether the study's conclusions are supported by its data."}),`
+`,(0,n.jsxs)(o,{children:[(0,n.jsx)(r.p,{children:"I'm reading this paper that's central to my literature review, and I want to understand it more deeply before citing it extensively. I've got the published manuscript and their supplementary data files."}),(0,n.jsx)(r.p,{children:"Can you help me verify their statistical claims? Go through the paper systematically and pull out every p-value, mean, standard error, sample size, and test result they report. Then run each analysis yourself using their actual data."}),(0,n.jsx)(r.p,{children:"For each statistical claim, show me three things: what the paper states, what you calculated from their data, and whether these match. Flag any problems you notice - things like using wrong tests for the data type, sample sizes that don't add up, or p-values that seem mathematically questionable."}),(0,n.jsx)(r.p,{children:"Then build me a detailed Excel workbook where I can see your complete verification. Create separate sheets for each analysis showing your calculations step by step, plus a summary sheet highlighting any issues I should understand before relying on this work."}),(0,n.jsx)(r.p,{children:"Make the spreadsheet well-designed and easy to navigate - professional formatting, frozen headers, filtered columns, and clear notes explaining what you found."})]}),`
+`,(0,n.jsx)(r.h2,{id:"2-give-claude-context",children:"2. Give Claude context"}),`
+`,(0,n.jsx)(r.p,{children:"Provide the published manuscript and its underlying raw data so Claude can verify every statistical claim and help you understand how thoroughly the analysis supports the conclusions."}),`
+`,(0,n.jsx)(r.h3,{id:"required-context",children:"Required context"}),`
+`,(0,n.jsx)(r.p,{children:"Click the (+) button in the chat bar to browse through your files or, alternatively, drag and drop the manuscript and any additional data files you want to analyze into the chat box area."}),`
+`,(0,n.jsx)(i,{items:[{name:"Manuscript",fileType:"PDF"},{name:"Data files",fileType:"XSLX"}]}),`
+`,(0,n.jsx)(r.h2,{id:"3-what-claude-creates",children:"3. What Claude creates"}),`
+`,(0,n.jsx)(r.p,{children:"Claude creates a comprehensive audit workbook documenting every statistical check, showing you exactly what to watch for and building your ability to critically evaluate research methods."}),`
+`,(0,n.jsxs)(s,{children:[(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Statistical Reproducibility Check Complete"})}),(0,n.jsx)(r.p,{children:`I've verified the statistical claims in "Effects of Chronic Sleep Deprivation on Spatial Memory and Anxiety-like Behavior in C57BL/6 Mice" against the experimental data. Here's what I found:`}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Verification Summary:"})}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"31 statistical claims checked"}),`
+`,(0,n.jsx)(r.li,{children:"✓ 22 verified correctly"}),`
+`,(0,n.jsx)(r.li,{children:"⚠ 3 minor discrepancies"}),`
+`,(0,n.jsx)(r.li,{children:"✗ 6 require attention"}),`
+`]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Critical Issues to Understand:"})}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"1. Sample Size Discrepancy (throughout manuscript)"})}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"Manuscript states: n=12 per group"}),`
+`,(0,n.jsx)(r.li,{children:"Data shows: n=11 for control group"}),`
+`,(0,n.jsx)(r.li,{children:"Implication: This affects the statistical power and validity of all control group comparisons. The paper should have explained any subject exclusions."}),`
+`]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"2. Unit Conversion Error (Open Field - Total Distance)"})}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"Manuscript reports: 2456 ± 234 cm (control), 1834 ± 187 cm (SD)"}),`
+`,(0,n.jsx)(r.li,{children:"Data shows: 24.43 ± 1.8 meters (control), 18.38 ± 1.1 meters (SD)"}),`
+`,(0,n.jsx)(r.li,{children:"Issue: Values off by factor of 100 - data stored in meters but reported as centimeters"}),`
+`,(0,n.jsx)(r.li,{children:"Why this matters: This type of error suggests inadequate data checking, which raises questions about other results"}),`
+`]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"3. Inappropriate Statistical Test (Corticosterone)"})}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"Issue: Used unpaired t-test for before/after measurements from same mice"}),`
+`,(0,n.jsx)(r.li,{children:"Should use: Paired t-test accounting for baseline values"}),`
+`,(0,n.jsx)(r.li,{children:"Manuscript p-value: 0.003"}),`
+`,(0,n.jsx)(r.li,{children:"Correct paired test: p<0.001"}),`
+`,(0,n.jsx)(r.li,{children:"Implication: The effect is actually stronger than reported, but the methodological choice shows limited statistical understanding"}),`
+`]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"4. P-value Precision Errors"})}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"Target quadrant time: Reports p=0.004, actual p=0.0001"}),`
+`,(0,n.jsx)(r.li,{children:"Day 5 latency: Reports p=0.02, actual p=0.026"}),`
+`,(0,n.jsx)(r.li,{children:"Why this matters: Exact p-values matter for meta-analyses and understanding effect strength"}),`
+`]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"5. Methods Description Inconsistency"})}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:'Methods state "unpaired t-tests for between-group comparisons"'}),`
+`,(0,n.jsx)(r.li,{children:"Problem: Corticosterone data are paired samples (baseline and final from same mice)"}),`
+`,(0,n.jsx)(r.li,{children:"This suggests either unclear writing or misunderstanding of their own analysis"}),`
+`]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"View your statistical audit workbook"})})]}),`
+`,(0,n.jsx)(r.h2,{id:"4-follow-up-prompts",children:"4. Follow up prompts"}),`
+`,(0,n.jsx)(r.p,{children:"Continue the conversation with Claude to refine, expand, or explore further."}),`
+`,(0,n.jsx)(r.h3,{id:"go-beyond-numbers-and-check-the-figures",children:"Go beyond numbers and check the figures"}),`
+`,(0,n.jsx)(r.p,{children:"Verify that visual representations match the underlying data. Claude compares graphs, charts, and tables to raw data values to catch misrepresentations or errors."}),`
+`,(0,n.jsx)(o,{children:(0,n.jsx)(r.p,{children:"Check that all bar heights, error bars, and data points in Figure 2 match the actual data values. Show me any discrepancies."})}),`
+`,(0,n.jsx)(r.h3,{id:"learn-what-to-watch-for-next-time",children:"Learn what to watch for next time"}),`
+`,(0,n.jsx)(r.p,{children:"Claude can explain which red flags are worth investigating when you're reading papers without access to raw data - like methodological inconsistencies, suspiciously round numbers, or statistical choices that don't match study designs."}),`
+`,(0,n.jsx)(o,{children:(0,n.jsx)(r.p,{children:"Based on what we found here, teach me what warning signs I should look for when reading other papers in my field. What patterns suggest I should be skeptical, even when I can't verify the raw data?"})}),`
+`,(0,n.jsx)(r.h3,{id:"draft-reviewer-comments",children:"Draft reviewer comments"}),`
+`,(0,n.jsx)(r.p,{children:"Frame statistical or methodological issues constructively so authors understand what needs fixing without getting defensive. Claude can help balance specificity with encouragement."}),`
+`,(0,n.jsx)(o,{children:(0,n.jsx)(r.p,{children:"Turn these statistical problems into helpful reviewer comments that are clear about what needs correcting but encouraging about how to fix it."})}),`
+`,(0,n.jsx)(r.h2,{id:"5-tricks-tips-and-troubleshooting",children:"5. Tricks, tips, and troubleshooting"}),`
+`,(0,n.jsx)(r.h3,{id:"start-where-you-already-have-domain-expertise",children:"Start where you already have domain expertise"}),`
+`,(0,n.jsx)(r.p,{children:"You'll quickly grasp the best practices for working with Claude by verifying papers in your field, as your expertise will help you discern what is plausible. When Claude flags an issue, your domain knowledge helps you judge whether it's a real error or a misunderstanding of field-specific practice. Conversely, when Claude says everything checks out, you can assess whether it tested the right assumptions."}),`
+`,(0,n.jsx)(r.h3,{id:"open-the-actual-excel-file",children:"Open the actual Excel file"}),`
+`,(0,n.jsx)(r.p,{children:"The preview in chat shows structure, but the real workbook contains working formulas, conditional formatting that highlights issues, dropdown filters for exploring results, and detailed calculation notes. Download and open the file to see how verification works and to learn techniques you can apply when checking other papers."}),`
+`,(0,n.jsx)(r.h2,{id:"6-ready-to-try-for-yourself",children:"6. Ready to try for yourself?"}),`
+`,(0,n.jsx)(r.p,{children:`Upload any paper with its supplementary data files, describe why you're examining it ("I'm considering citing this extensively" or "these results seem surprising and I want to understand them better"), and let Claude help you build the critical analysis skills that strengthen your research.`}),`
+`,(0,n.jsxs)(l,{surfaces:["chat"],children:[(0,n.jsx)(r.p,{children:"I'm reading this paper that's central to my literature review, and I want to understand it more deeply before citing it extensively. I've got the published manuscript and their supplementary data files."}),(0,n.jsx)(r.p,{children:"Can you help me verify their statistical claims? Go through the paper systematically and pull out every p-value, mean, standard error, sample size, and test result they report. Then run each analysis yourself using their actual data."}),(0,n.jsx)(r.p,{children:"For each statistical claim, show me three things: what the paper states, what you calculated from their data, and whether these match. Flag any problems you notice - things like using wrong tests for the data type, sample sizes that don't add up, or p-values that seem mathematically questionable."}),(0,n.jsx)(r.p,{children:"Then build me a detailed Excel workbook where I can see your complete verification. Create separate sheets for each analysis showing your calculations step by step, plus a summary sheet highlighting any issues I should understand before relying on this work."}),(0,n.jsx)(r.p,{children:"Make the spreadsheet well-designed and easy to navigate - professional formatting, frozen headers, filtered columns, and clear notes explaining what you found."})]})]})}function i(t={}){let{wrapper:i}={...e(),...t.components};return i?(0,n.jsx)(i,{...t,children:(0,n.jsx)(r,{...t})}):r(t)}function a(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{i as default};

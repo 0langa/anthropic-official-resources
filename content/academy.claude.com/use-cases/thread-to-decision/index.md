@@ -8,137 +8,411 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-dcudi118.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bcr99b8o.png)
 
-# Thread to decision doc
+M
 
-Reads a thread or email chain and writes a log entry with named owners.
+Meridian
 
-## Ask in plain English
+Channels
 
-Point Cowork at the thread and the chain. Ask for the record, not the recap.
+# finance-close
 
-/decision-logProductivity
+# fp-and-a
 
-Team / Decisions
+# marketing-ops
 
-## Cowork reads the conversation where it happened
+# vendor-ops
 
-Slack thread, email chain, and the running log — separating decision from discussion.
+Direct messages
 
-Running `/decision-log`
+Marco Alvarez
+
+Priya Nair
+
+**# marketing-ops**23 members
+
+DW
+
+Dana Whitfield*Tue 4:02 PM*
+
+September webinar registration pages are live; links in the campaign sheet.
+
+NO
+
+Nadia Okonjo*Wed 9:12 AM*
+
+Castwell renewal quote is in (PDF in Decisions): **$46,200** for next year, up 18% on the same seats. We have until Sep 4 to sign or give notice. The Venora trial ended Friday. Renew or switch? I need a call by Thursday.
+
+*PM**LO*64 repliesLast reply today at 8:30 AM
+
+PM
+
+Priya Menon*Thu 11:20 AM*
+
+Onboarding webinar re-run is booked for Sep 16, invites go out Monday.
+
+LO
+
+Luis Ortega*9:05 AM*
+
+Procurement office hours moved to Tuesdays this month.
+
+Message #marketing-ops
+
+**Thread**# marketing-ops*×*
+
+NO
+
+Nadia Okonjo*Wed 9:12 AM*
+
+Castwell renewal quote is in (PDF in Decisions): **$46,200** for next year, up 18% on the same seats. We have until Sep 4 to sign or give notice. The Venora trial ended Friday. Renew or switch? I need a call by Thursday.
+
+64 replies
+
+PM
+
+Priya Menon*Wed 9:40 AM*
+
+Ran three live sessions on Venora during the trial. Presenter view is clearly better, recording quality the same. Attendee Q&A is worse: no threaded questions, one chat stream. I’d switch if the price is close.
+
+LO
+
+Luis Ortega*Wed 10:05 AM*
+
+Venora’s annual proposal is $34,800 for the same seat count (email chain, Aug 21). Simulive replays are an add-on, +$6,000. Castwell will do 12% if we sign two years.
+
+DW
+
+Dana Whitfield*Wed 10:31 AM*
+
+Switching means rebuilding the 14 registration page templates and the HubSpot sync. Roughly two weeks of my time and I can’t start before Sep 8.
+
+SA
+
+Sam Adler*Wed 11:02 AM*
+
+Does Venora support SSO for panelists, or only attendees? Castwell does both. I can’t find it in their security overview.
+
+NO
+
+Nadia Okonjo*Thu 4:48 PM*
+
+OK, calling it. We switch to Venora on the annual plan from Oct 1, without the simulive add-on for now. Castwell stays for the three September sessions and Luis gives notice before Sep 4. Dana rebuilds the templates by Sep 18, Priya moves presenters over and updates the runbook by Sep 25. I’ll take the add-on to Finance and get a yes/no from Erin by Sep 10.
+
+LO
+
+Luis Ortega*Thu 5:10 PM*
+
+Notice letter goes Monday. Venora order form I can get through procurement by Sep 11.
+
+SA
+
+Sam Adler*8:30 AM*
+
+Still no answer on panelist SSO from anyone. Not a blocker for Oct 1, but I want it written down somewhere.
+
+Reply…Also send to # marketing-ops
+
+Log a decision from a thread
+
+A long thread reached a decision, and your team keeps a decision log.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)
 
-Slack · read 87 replies in #product-decisions
+Slack
 
-Result
-
-Gmail · pulled 12-message chain “Re: Pricing tiers — final?”
-
-Result
-
-Reading vendor-email-chain.pdf
-
-Result
-
-Comparing positions across both chains — Priya’s Apr 23 reply is the final call, Sam’s SSO question never got an answer.
-
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)
-
-Google Docs · appended entry to decision-log
-
-Result
-
-Created decision-log.md (entry 2026-04-27)
-
-#### Progress
-
-1
-
-Read the Slack thread
-
-2
-
-Read the email chain
-
-3
-
-Separate decision from discussion
-
-4
-
-Name owners and dates
-
-5
-
-Append entry to the log
-
-#### Team / Decisions
-
-decision-log.md
-
-pricing-thread-export.txt
-
-vendor-email-chain.pdf
-
-#### Context
-
-Connectors
-
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)Slack
+![](data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_4766_38693)'%3e%3cpath%20d='M11.9091%2034H16.3636V23.6969L10%2019.1515V32.1818C10%2033.1879%2010.8559%2034%2011.9091%2034Z'%20fill='%234285F4'/%3e%3cpath%20d='M31.6364%2034H36.0909C37.1473%2034%2038%2033.1848%2038%2032.1818V19.1515L31.6364%2023.6969'%20fill='%2334A853'/%3e%3cpath%20d='M31.6364%2015.8182V23.6969L38%2019.1515V16.7272C38%2014.4788%2035.305%2013.1969%2033.4182%2014.5454'%20fill='%23FBBC04'/%3e%3cpath%20d='M16.3636%2023.697V15.8182L24%2021.2727L31.6364%2015.8182V23.697L24%2029.1515'%20fill='%23EA4335'/%3e%3cpath%20d='M10%2016.7272V19.1515L16.3636%2023.6969V15.8182L14.5818%2014.5454C12.6918%2013.1969%2010%2014.4788%2010%2016.7272Z'%20fill='%23C5221F'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_4766_38693'%3e%3crect%20width='28'%20height='20'%20fill='white'%20transform='translate(10%2014)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e)
 
 Gmail
 
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)Google Docs
+Marketing Ops / Decisions
 
-## A pinnable decision-log entry
+2 files
 
-The decision, named owners with dates, what’s still open, links back to the source.
+Folder
 
-2026-04-27
+decision-log.md
 
-### Pricing tiers — launch plan
+Running log, 31 KB
 
-Decision
+MD
 
-Ship the three-tier pricing (Starter $29 / Team $79 / Scale custom) on **May 12**. Legacy “Pro” customers grandfather at current rate for 12 months.
+Castwell renewal quote 2027.pdf
 
-Owners
+Vendor quote
 
-Priya K — pricing page copy Apr 30
+PDF
 
-Marcus T — Stripe SKUs + migration script May 5
+Productivity
 
-Dana L — email to legacy Pro customers May 1
+/memory-management
 
-Open
+/task-management
 
-Annual discount 15% vs 20% — Finance to confirm by Apr 29
+/update
 
-Does “Scale” include SSO by default? (Sam raised, no answer in thread)
+How can I help you today?
 
-Sources
+M
 
-#product-decisions · Apr 23 thread · Gmail “Re: Pricing tiers — final?”
+Meridian
 
-Pricing tiers decision log
+Channels
 
-Document · Appended · 31 KB · Team / Decisions
+# finance-close
 
-## Make it run whenever a thread is decided
+# fp-and-a
 
-The skill watches your channels and writes the entry the moment :decided: lands.
+# marketing-ops
 
-Decisions
+# vendor-ops
 
-Scheduled
+Direct messages
 
-Decision-log capture
+Marco Alvarez
 
-When a thread gets :decided: — runs `/decision-log` against #product-decisions and #leadership, and appends the entry to `decision-log.md` in Decisions.
+Priya Nair
 
-When a thread gets **:decided:** in watched channels
+**# marketing-ops**23 members
 
-Every decided thread, the log entry is in the folder before anyone asks what was decided.
+DW
+
+Dana Whitfield*Tue 4:02 PM*
+
+September webinar registration pages are live; links in the campaign sheet.
+
+NO
+
+Nadia Okonjo*Wed 9:12 AM*
+
+Castwell renewal quote is in (PDF in Decisions): **$46,200** for next year, up 18% on the same seats. We have until Sep 4 to sign or give notice. The Venora trial ended Friday. Renew or switch? I need a call by Thursday.
+
+*PM**LO*64 repliesLast reply today at 8:30 AM
+
+PM
+
+Priya Menon*Thu 11:20 AM*
+
+Onboarding webinar re-run is booked for Sep 16, invites go out Monday.
+
+LO
+
+Luis Ortega*9:05 AM*
+
+Procurement office hours moved to Tuesdays this month.
+
+Message #marketing-ops
+
+**Thread**# marketing-ops*×*
+
+NO
+
+Nadia Okonjo*Wed 9:12 AM*
+
+Castwell renewal quote is in (PDF in Decisions): **$46,200** for next year, up 18% on the same seats. We have until Sep 4 to sign or give notice. The Venora trial ended Friday. Renew or switch? I need a call by Thursday.
+
+64 replies
+
+PM
+
+Priya Menon*Wed 9:40 AM*
+
+Ran three live sessions on Venora during the trial. Presenter view is clearly better, recording quality the same. Attendee Q&A is worse: no threaded questions, one chat stream. I’d switch if the price is close.
+
+LO
+
+Luis Ortega*Wed 10:05 AM*
+
+Venora’s annual proposal is $34,800 for the same seat count (email chain, Aug 21). Simulive replays are an add-on, +$6,000. Castwell will do 12% if we sign two years.
+
+DW
+
+Dana Whitfield*Wed 10:31 AM*
+
+Switching means rebuilding the 14 registration page templates and the HubSpot sync. Roughly two weeks of my time and I can’t start before Sep 8.
+
+SA
+
+Sam Adler*Wed 11:02 AM*
+
+Does Venora support SSO for panelists, or only attendees? Castwell does both. I can’t find it in their security overview.
+
+NO
+
+Nadia Okonjo*Thu 4:48 PM*
+
+OK, calling it. We switch to Venora on the annual plan from Oct 1, without the simulive add-on for now. Castwell stays for the three September sessions and Luis gives notice before Sep 4. Dana rebuilds the templates by Sep 18, Priya moves presenters over and updates the runbook by Sep 25. I’ll take the add-on to Finance and get a yes/no from Erin by Sep 10.
+
+LO
+
+Luis Ortega*Thu 5:10 PM*
+
+Notice letter goes Monday. Venora order form I can get through procurement by Sep 11.
+
+SA
+
+Sam Adler*8:30 AM*
+
+Still no answer on panelist SSO from anyone. Not a blocker for Oct 1, but I want it written down somewhere.
+
+Reply…Also send to # marketing-ops
+
+**/**task-management From this thread and the email chain, record what was actually decided, who owns each next step and by when, and what's still open or contested, linked to the source messages. Append to decision-log.md; draft a thread reply I can pin.
+
+Reading the thread in #marketing-ops0s
+
+Read4 sources
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)Readthe thread in #marketing-ops, 64 replies
+
+![](data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_4766_38693)'%3e%3cpath%20d='M11.9091%2034H16.3636V23.6969L10%2019.1515V32.1818C10%2033.1879%2010.8559%2034%2011.9091%2034Z'%20fill='%234285F4'/%3e%3cpath%20d='M31.6364%2034H36.0909C37.1473%2034%2038%2033.1848%2038%2032.1818V19.1515L31.6364%2023.6969'%20fill='%2334A853'/%3e%3cpath%20d='M31.6364%2015.8182V23.6969L38%2019.1515V16.7272C38%2014.4788%2035.305%2013.1969%2033.4182%2014.5454'%20fill='%23FBBC04'/%3e%3cpath%20d='M16.3636%2023.697V15.8182L24%2021.2727L31.6364%2015.8182V23.697L24%2029.1515'%20fill='%23EA4335'/%3e%3cpath%20d='M10%2016.7272V19.1515L16.3636%2023.6969V15.8182L14.5818%2014.5454C12.6918%2013.1969%2010%2014.4788%2010%2016.7272Z'%20fill='%23C5221F'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_4766_38693'%3e%3crect%20width='28'%20height='20'%20fill='white'%20transform='translate(10%2014)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e)ReadRe: Venora annual proposal, 9 messages
+
+ReadCastwell renewal quote 2027.pdf
+
+Readdecision-log.md, to match your entry format
+
+Used 4 sources34s
+
+I read the 64 replies, the email chain and the vendor quote, and appended today’s entry to decision-log.md: Venora from 1 October, five next steps with owners and dates, three items open. The unanswered SSO question is flagged, and the thread reply is drafted for you to pin.
+
+decision-log.md
+
+Document
+
+Download
+
+**decision-log**MDSaved to Marketing Ops / Decisions
+
+**Open**: none remaining; closed 21 Aug when the first biweekly issue went out.
+
+Sources: #marketing-ops thread · 12 Aug “Newsletter cadence” doc
+
+---
+
+## 2026-08-28 · Webinar platform: switch from Castwell to Venora
+
+`Decided` by **Nadia Okonjo**, Thu 27 Aug 4:48 PM · recorded by Claude from the thread and email chain below · **3 items open**
+
+### Decision
+
+Move webinars to Venora on the annual plan ($34,800, same seat count) from **1 Oct 2026**, without the simulive replay add-on for now. Castwell stays in use through 30 Sep for the three September sessions, and Halden gives Castwell notice of non-renewal before the **4 Sep** deadline instead of accepting the $46,200 renewal. thread · Nadia · 27 Aug 4:48 PM
+
+### Why, as stated in the thread
+
+Castwell’s renewal is $46,200, up 18% on unchanged seats Castwell renewal quote 2027.pdf, p.1
+
+Venora’s annual proposal is $34,800 for the same seat count, $11,400 a year lower email · Claire Dufresne · 21 Aug
+
+Presenter view was clearly better in the three trial sessions, and Castwell had the July outage thread · Priya · 26 Aug 9:40 AM thread · 27 Aug 9:05 AM
+
+### Owners
+
+<table class="own grp"><thead><tr><th>Next step</th><th style="width:100px">Owner</th><th style="width:106px">Committed</th><th style="width:166px">Where they said it</th></tr></thead><tbody><tr><td>Send Castwell notice of non-renewal</td><td><b>Luis Ortega</b></td><td><b>Mon 31 Aug</b><span class="sub">deadline 4 Sep</span></td><td class="src">thread, 27 Aug 5:10 PM</td></tr><tr><td>Get the Venora order form through procurement</td><td><b>Luis Ortega</b></td><td><b>Fri 11 Sep</b></td><td class="src">thread, 27 Aug 5:10 PM</td></tr><tr><td>Yes/no from Finance (Erin Blake) on the simulive add-on, +$6,000</td><td><b>Nadia Okonjo</b></td><td><b>Thu 10 Sep</b></td><td class="src">thread, 27 Aug 4:48 PM</td></tr><tr><td>Rebuild the 14 registration templates and the HubSpot sync on Venora</td><td><b>Dana Whitfield</b></td><td><b>Fri 18 Sep</b><span class="sub">starts 8 Sep</span></td><td class="src">thread, 27 Aug 4:55 PM</td></tr><tr><td>Move presenters to Venora and update the webinar runbook</td><td><b>Priya Menon</b></td><td><b>Fri 25 Sep</b></td><td class="src">thread, 27 Aug 4:48 PM (assigned by Nadia; no reply from Priya) ⚑ confirm</td></tr></tbody></table>
+
+### Open 3, each linked to its message
+
+- **Simulive replay add-on**: not decided; Nadia takes it to Finance, answer due 10 Sep. thread · 27 Aug 4:48 PM
+- **Panelist SSO on Venora**: asked by Sam on 26 Aug and put to Venora by email the same day; no answer in either place as of 28 Aug. Sam: not a blocker for 1 Oct. ⚑ I could not find an answer; confirm before presenters are moved. thread · 26 Aug 11:02 AM email · 26 Aug 1:21 PM thread · 28 Aug 8:30 AM
+- **Attendee Q&A format**: Priya noted Venora has no threaded Q&A; nobody responded and no workaround was agreed. thread · 26 Aug 9:40 AM
+
+### Sources
+
+<table class="keyv"><tbody><tr><td>Slack</td><td>#marketing-ops, “Castwell renewal quote is in…”, 26–28 Aug, 64 replies</td></tr><tr><td>Gmail</td><td>“Re: Venora annual proposal for Halden”, 9 messages</td></tr><tr><td>Folder</td><td>Castwell renewal quote 2027.pdf</td></tr></tbody></table>
+
+Every next step has an owner and a committed date.
+
+**decision-log**MDSaved to Marketing Ops / Decisions
+
+**Open**: none remaining; closed 21 Aug when the first biweekly issue went out.
+
+Sources: #marketing-ops thread · 12 Aug “Newsletter cadence” doc
+
+---
+
+## 2026-08-28 · Webinar platform: switch from Castwell to Venora
+
+`Decided` by **Nadia Okonjo**, Thu 27 Aug 4:48 PM · recorded by Claude from the thread and email chain below · **3 items open**
+
+### Decision
+
+Move webinars to Venora on the annual plan ($34,800, same seat count) from **1 Oct 2026**, without the simulive replay add-on for now. Castwell stays in use through 30 Sep for the three September sessions, and Halden gives Castwell notice of non-renewal before the **4 Sep** deadline instead of accepting the $46,200 renewal. thread · Nadia · 27 Aug 4:48 PM
+
+### Why, as stated in the thread
+
+Castwell’s renewal is $46,200, up 18% on unchanged seats Castwell renewal quote 2027.pdf, p.1
+
+Venora’s annual proposal is $34,800 for the same seat count, $11,400 a year lower email · Claire Dufresne · 21 Aug
+
+Presenter view was clearly better in the three trial sessions, and Castwell had the July outage thread · Priya · 26 Aug 9:40 AM thread · 27 Aug 9:05 AM
+
+### Owners
+
+<table class="own grp"><thead><tr><th>Next step</th><th style="width:100px">Owner</th><th style="width:106px">Committed</th><th style="width:166px">Where they said it</th></tr></thead><tbody><tr><td>Send Castwell notice of non-renewal</td><td><b>Luis Ortega</b></td><td><b>Mon 31 Aug</b><span class="sub">deadline 4 Sep</span></td><td class="src">thread, 27 Aug 5:10 PM</td></tr><tr><td>Get the Venora order form through procurement</td><td><b>Luis Ortega</b></td><td><b>Fri 11 Sep</b></td><td class="src">thread, 27 Aug 5:10 PM</td></tr><tr><td>Yes/no from Finance (Erin Blake) on the simulive add-on, +$6,000</td><td><b>Nadia Okonjo</b></td><td><b>Thu 10 Sep</b></td><td class="src">thread, 27 Aug 4:48 PM</td></tr><tr><td>Rebuild the 14 registration templates and the HubSpot sync on Venora</td><td><b>Dana Whitfield</b></td><td><b>Fri 18 Sep</b><span class="sub">starts 8 Sep</span></td><td class="src">thread, 27 Aug 4:55 PM</td></tr><tr><td>Move presenters to Venora and update the webinar runbook</td><td><b>Priya Menon</b></td><td><b>Fri 25 Sep</b></td><td class="src">thread, 27 Aug 4:48 PM (assigned by Nadia; no reply from Priya) ⚑ confirm</td></tr></tbody></table>
+
+### Open 3, each linked to its message
+
+- **Simulive replay add-on**: not decided; Nadia takes it to Finance, answer due 10 Sep. thread · 27 Aug 4:48 PM
+- **Panelist SSO on Venora**: asked by Sam on 26 Aug and put to Venora by email the same day; no answer in either place as of 28 Aug. Sam: not a blocker for 1 Oct. ⚑ I could not find an answer; confirm before presenters are moved. thread · 26 Aug 11:02 AM email · 26 Aug 1:21 PM thread · 28 Aug 8:30 AM
+- **Attendee Q&A format**: Priya noted Venora has no threaded Q&A; nobody responded and no workaround was agreed. thread · 26 Aug 9:40 AM
+
+### Sources
+
+<table class="keyv"><tbody><tr><td>Slack</td><td>#marketing-ops, “Castwell renewal quote is in…”, 26–28 Aug, 64 replies</td></tr><tr><td>Gmail</td><td>“Re: Venora annual proposal for Halden”, 9 messages</td></tr><tr><td>Folder</td><td>Castwell renewal quote 2027.pdf</td></tr></tbody></table>
+
+Claude wants to use **Send message draft** from Slack
+
+To the thread in **#marketing-ops**
+
+Logged in decision-log.md: Venora annual from Oct 1, Castwell notice by Sep 4, next steps with owners. **Open:** simulive add-on, panelist SSO, Q&A format; reply if anything is off.
+
+Allow onceAlways allowDeny
+
+Draft saved in Slack for you to send and pin
+
+**Decision-log capture**Weekdays at 5:00 PM
+
+Each run
+
+Checks #marketing-ops and #leadership for threads marked decided since the last run
+
+Appends an entry per thread to decision-log.md*for you to review*
+
+Claude Academy
+
+
+
+0:03 / 0:551×
+
+Illustration. Product screens are simplified.
+
+Log a decision from a thread
+
+A long thread reached a decision, and your team keeps a decision log.
+
+With the Productivity plugin’s task management skill, paste the thread link and ask what was decided.
+
+Claude reads the whole thread and the email chain, then matches your log’s format.
+
+Claude reads the whole thread and the email chain, then matches your log’s format.
+
+Claude tells you what it recorded, then gives you the log entry.
+
+Every next step has an owner and a committed date.
+
+Anything still undecided is listed with a link to its message.
+
+You approve the thread reply first, and can schedule the same capture for each decided thread.
+
+Decisions made in threads end up in one log, linked to the source.
+
+From this thread and the email chain, record what was actually decided, who owns each next step and by when, and what's still open or contested, linked to the source messages. Append to decision-log.md; draft a thread reply I can pin.
+
+I read the 64 replies, the email chain and the vendor quote, and appended today’s entry to decision-log.md: Venora from 1 October, five next steps with owners and dates, three items open. The unanswered SSO question is flagged, and the thread reply is drafted for you to pin.
+
+decision-log.md
+
+Skill: /task-management (Productivity)
+
+Connectors: Slack, Gmail
 
 ## Set up[](https://academy.claude.com/use-cases/thread-to-decision)
 

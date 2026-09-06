@@ -158,14 +158,16 @@ Each command runs under a timeout, and Claude manages it: when it wants longer t
 
 Claude Code streams a command's output to a working file as the command runs; a command whose output passes 5 GB is killed. When the command finishes, Claude Code reads the output back from that file, up to the read-back window described below. How much of the output reaches Claude inline depends on whether Claude Code treats the result as a failure:
 
-| Result  | What Claude gets                                                                                                                                                                                                               |
-| :------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Valid   | Inline up to roughly 30,000 characters; past that, the path of a file saved to the session directory, truncated past 64 MiB, plus a short preview from the start, and Claude reads or searches the file when it needs the rest |
-| Failure | Inline up to roughly 10,000 characters; past that, a head-and-tail excerpt of that size cut from the read-back window, with no file path                                                                                       |
+| Result  | What Claude gets                                                                                                                                                                                                                             |
+| :------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Valid   | Inline up to roughly 30,000 characters by default; past that, the path of a file saved to the session directory and truncated past 64 MiB, plus a short preview from the start, and Claude reads or searches the file when it needs the rest |
+| Failure | Inline up to roughly 10,000 characters; past that, a head-and-tail excerpt of that size cut from the read-back window, with no file path                                                                                                     |
 
 A command that exits 1 counts as a valid result for the Bash tool only when Claude Code recognizes exit code 1 as a benign outcome for that command: `grep`, `rg`, `egrep`, `fgrep`, `find`, `diff`, `test`, and `[`, plus `git diff` and `git grep`. Every other command that exits 1 counts as a failure, even when exit 1 is a benign informational outcome: no matches for `pgrep` and `jq -e`, files that differ for `cmp`.
 
-[`BASH_MAX_OUTPUT_LENGTH`](/docs/en/env-vars) sets how many characters of output Claude Code reads back from the working file into a command's result: 30,000 by default, up to a hard ceiling of 150,000. Raise it when your commands routinely overflow that window, such as a verbose build or a full test-suite log. Raising it enlarges the read-back window, and the window a failing command's excerpt is cut from. It does not raise the inline ceilings above: a valid result over roughly 30,000 characters arrives as a file path plus preview regardless of this variable.
+[`BASH_MAX_OUTPUT_LENGTH`](/docs/en/env-vars) sets how many characters of output Claude Code reads back from the working file into a command's result: 30,000 by default, up to a hard ceiling of 150,000. Raise it when your commands routinely overflow that window, such as a verbose build or a full test-suite log. Raising it enlarges the read-back window, which is also the window a failing command's excerpt is cut from. It doesn't raise the inline ceilings: a valid result over the inline ceiling arrives as a file path plus preview regardless of this variable.
+
+To change how much of a valid result Claude receives inline, set the [`bashOutputMaxChars`](/docs/en/settings-reference#bashoutputmaxchars) setting instead, up to 128,000 characters. It sizes the inline ceiling and the read-back window together, and Claude Code then ignores `BASH_MAX_OUTPUT_LENGTH`. Requires Claude Code v2.1.261 or later.
 
 ### Background commands
 
@@ -226,7 +228,7 @@ A file that changed on disk after Claude last read it can still be edited when `
 
 Viewing a file with Bash also satisfies the read-before-edit requirement when the command is `cat`, `nl`, `bat`, `batcat`, `head`, `tail`, `sed -n 'X,Yp'`, `grep`, `egrep`, `fgrep`, or `rg` on a single file with no pipes or redirects. Piped output and other Bash commands don't count toward the read-before-edit check.
 
-This affects edit eligibility only, not permissions. [Read and Edit deny rules](/docs/en/permissions#tool-specific-permission-rules) also apply to file commands Claude Code recognizes in Bash, such as `cat`, `head`, `tail`, `sed`, and `grep`, but not to arbitrary subprocesses that read or write files indirectly, like a Python or Node script that opens files itself. The set of commands recognized for deny rules is not the same as the read-before-edit list above: for example, `egrep` and `fgrep` count for read-before-edit but are not checked against Read deny rules. For OS-level enforcement that covers every process, [enable the sandbox](/docs/en/sandboxing).
+Viewing a file with Bash affects edit eligibility only, not permissions. See [Read and Edit permission rules](/docs/en/permissions#read-and-edit) for which Bash commands your `Read` and `Edit` deny rules cover.
 
 ## EndConversation tool behavior
 

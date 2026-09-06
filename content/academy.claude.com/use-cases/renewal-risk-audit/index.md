@@ -8,9 +8,201 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-om42hzcu.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mj4bkeih.png)
 
-# Renewal risk audit
+Find the renewals at risk
 
-Reads CRM, usage, and call sentiment — writes a live risk board for every renewing account.
+You need one current view of which renewals are at risk this quarter.
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)
+
+Salesforce
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20fill='%2303363D'%3e%3cpath%20d='M11%207.7v13.1H.2L11%207.7Z'/%3e%3cpath%20d='M11%203.2a5.4%205.4%200%200%201-10.8%200H11Z'/%3e%3cpath%20d='M13%2016.3V3.2h10.8L13%2016.3Z'/%3e%3cpath%20d='M13%2020.8a5.4%205.4%200%200%201%2010.8%200H13Z'/%3e%3c/g%3e%3c/svg%3e)
+
+Zendesk
+
+Renewals / FY26-Q3
+
+3 files
+
+Folder
+
+qbr-and-call-notes-q2.md
+
+Last-touch sentiment
+
+MD
+
+risk-rubric.md
+
+Your red, yellow and green
+
+MD
+
+Sales
+
+/call-prep
+
+/forecast
+
+/pipeline-review
+
+How can I help you today?
+
+**/**pipeline-review For every account renewing in the next 90 days, score renewal risk red/yellow/green based on product-usage trend, recent sentiment, and open exec commitments. Explain the signal that drove each score, and publish it as a live artifact for leadership.
+
+Pulling the renewal book from Salesforce0s
+
+Read6 sources
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)Queriedrenewals closing by 29 Nov: 38 accounts
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)Readexec commitments and last activity
+
+Readusage-90d-by-account.csv
+
+Readqbr-and-call-notes-q2.md
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20fill='%2303363D'%3e%3cpath%20d='M11%207.7v13.1H.2L11%207.7Z'/%3e%3cpath%20d='M11%203.2a5.4%205.4%200%200%201-10.8%200H11Z'/%3e%3cpath%20d='M13%2016.3V3.2h10.8L13%2016.3Z'/%3e%3cpath%20d='M13%2020.8a5.4%205.4%200%200%201%2010.8%200H13Z'/%3e%3c/g%3e%3c/svg%3e)Readopen and escalated tickets by account
+
+Readrisk-rubric.md, your scoring rules
+
+Used 6 sources34s
+
+I scored the 38 accounts renewing by 29 November ($6.42M) against your rubric: six red ($1.31M), eleven yellow and twenty-one green, each with its driving signal. The board is published to filter and share, with a next action per red and two stale-notes accounts flagged.
+
+Q3 renewal risk — next 90 days
+
+Artifact
+
+Download
+
+**Q3 renewal risk — next 90 days**×
+
++
+
+←→↻
+
+claude.ai/public/artifacts/9c41e7d2-5a0b-4c1e-8f3d-2b7e6a1c9d04
+
+*DC*⋮
+
+Content is user-generated and unverified.**Customize**
+
+Q3 renewal risk — next 90 days
+
+38 accounts renewing 1 Sep – 29 Nov 2026 · $6.42M ARR · scored from Salesforce, usage-90d-by-account.csv, Q2 call notes and Zendesk against risk-rubric.md
+
+Renewing in the next 90 days
+
+**38**accounts · $6.42M
+
+Red
+
+**6**$1.31M
+
+Yellow
+
+**11**$1.87M
+
+Green
+
+**21**$3.24M
+
+New red this week
+
+**1**Alder Street Studio
+
+*Segment* All▼*Owner* All▼*Risk* All▼*Renews* 1 Sep – 29 Nov▼Search accountsSorted by risk, then ARR
+
+<table class="brd"><thead><tr><th class="num">#</th><th>Account</th><th class="num">ARR</th><th>Renews</th><th>Risk</th><th>Driving signal</th><th>Owner</th><th style="width:230px">Next action</th></tr></thead><tbody><tr class="r0 sel"><td class="n">1</td><td class="ac"><b>Halvorsen Robotics</b></td><td class="num">$412,000</td><td style="white-space:nowrap">Oct 14</td><td class="rk"><span class="rp"><b style="background:#f4dfda;color:#9a3b2e">Red</b><span class="m"><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i></span></span></td><td class="sg">Active users down 41% over 60 days; API rate-limit commitment from the May QBR still open</td><td><span class="ow"><i style="background:#5b6b7a">JM</i>J. Mbeki</span></td><td class="">Sponsor call with their CTO this week (J. Mbeki + our VP Eng)</td></tr><tr class="r1"><td class="n">2</td><td class="ac"><b>Meridian Health Partners</b></td><td class="num">$318,000</td><td style="white-space:nowrap">Sep 30</td><td class="rk"><span class="rp"><b style="background:#f4dfda;color:#9a3b2e">Red</b><span class="m"><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i></span></span></td><td class="sg">Champion left in July, successor has not logged in; two escalated tickets open 12+ days</td><td><span class="ow"><i style="background:#7a5c3e">DC</i>D. Cole</span></td><td class="">Intro meeting with the successor; close both tickets first (D. Cole)</td></tr><tr class="r2"><td class="n">3</td><td class="ac"><b>Corvid Labs</b></td><td class="num">$236,000</td><td style="white-space:nowrap">Nov 6</td><td class="rk"><span class="rp"><b style="background:#f4dfda;color:#9a3b2e">Red</b><span class="m"><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i></span></span></td><td class="sg">Seats in use at 38% of contract; procurement asked for downgrade pricing on 21 Aug</td><td><span class="ow"><i style="background:#4e6b58">RI</i>R. Ito</span></td><td class="">Right-size proposal before they anchor (R. Ito + Deal Desk)</td></tr><tr class="r3"><td class="n">4</td><td class="ac"><b>Tidewater Energy</b></td><td class="num">$148,000</td><td style="white-space:nowrap">Oct 2</td><td class="rk"><span class="rp"><b style="background:#f4dfda;color:#9a3b2e">Red</b><span class="m"><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i></span></span></td><td class="sg">No executive contact since March; usage down 23%; call notes older than 60 days ⚑</td><td><span class="ow"><i style="background:#6a4f6b">LO</i>L. Okafor</span></td><td class="">Exec sponsor outreach from our CRO (L. Okafor)</td></tr><tr class="r4"><td class="n">5</td><td class="ac"><b>Alder Street Studio</b><span class="nw">New</span></td><td class="num">$109,000</td><td style="white-space:nowrap">Sep 22</td><td class="rk"><span class="rp"><b style="background:#f4dfda;color:#9a3b2e">Red</b><span class="m"><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i></span></span></td><td class="sg">Budget owner changed 11 Aug; renewal quote unanswered for 19 days</td><td><span class="ow"><i style="background:#7a5c3e">DC</i>D. Cole</span></td><td class="">Call the new budget owner; offer quarterly billing (D. Cole)</td></tr><tr class="r5"><td class="n">6</td><td class="ac"><b>Fenwick Mobility</b></td><td class="num">$87,000</td><td style="white-space:nowrap">Nov 18</td><td class="rk"><span class="rp"><b style="background:#f4dfda;color:#9a3b2e">Red</b><span class="m"><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i><i style="background:#9a3b2e"></i></span></span></td><td class="sg">Usage down 35% since their only integration disconnected on 4 Aug</td><td><span class="ow"><i style="background:#4e6b58">RI</i>R. Ito</span></td><td class="">Support-led reconnect session (R. Ito + Solutions)</td></tr><tr class="r6"><td class="n">7</td><td class="ac"><b>Ironbark Foods</b></td><td class="num">$290,000</td><td style="white-space:nowrap">Sep 18</td><td class="rk"><span class="rp"><b style="background:#f3ead1;color:#8a6a1f">Yellow</b><span class="m"><i style="background:#8a6a1f"></i><i style="background:#8a6a1f"></i><i style="background:#8a6a1f"></i><i style=""></i><i style=""></i></span></span></td><td class="sg">Usage flat, last call positive; one P1 ticket open 16 days</td><td><span class="ow"><i style="background:#5b6b7a">JM</i>J. Mbeki</span></td><td class="na">—</td></tr><tr class="r7"><td class="n">8</td><td class="ac"><b>Quill &amp; Ledger</b></td><td class="num">$214,000</td><td style="white-space:nowrap">Oct 21</td><td class="rk"><span class="rp"><b style="background:#f3ead1;color:#8a6a1f">Yellow</b><span class="m"><i style="background:#8a6a1f"></i><i style="background:#8a6a1f"></i><i style="background:#8a6a1f"></i><i style=""></i><i style=""></i></span></span></td><td class="sg">SSO audit-log commitment open since June; usage steady</td><td><span class="ow"><i style="background:#6a4f6b">LO</i>L. Okafor</span></td><td class="na">—</td></tr><tr class="r8"><td class="n">9</td><td class="ac"><b>Brightline Logistics</b></td><td class="num">$205,000</td><td style="white-space:nowrap">Nov 12</td><td class="rk"><span class="rp"><b style="background:#f3ead1;color:#8a6a1f">Yellow</b><span class="m"><i style="background:#8a6a1f"></i><i style="background:#8a6a1f"></i><i style="background:#8a6a1f"></i><i style=""></i><i style=""></i></span></span></td><td class="sg">Usage up 9%, but admin scored 4 on the last survey; call notes older than 60 days ⚑</td><td><span class="ow"><i style="background:#4e6b58">RI</i>R. Ito</span></td><td class="na">—</td></tr><tr class="r9"><td class="n">10</td><td class="ac"><b>Northwind Traders</b></td><td class="num">$260,000</td><td style="white-space:nowrap">Oct 28</td><td class="rk"><span class="rp"><b style="background:#e3f1e9;color:#1f6b48">Green</b><span class="m"><i style="background:#1f6b48"></i><i style=""></i><i style=""></i><i style=""></i><i style=""></i></span></span></td><td class="sg">Usage up 22%; second team onboarding; no open commitments</td><td><span class="ow"><i style="background:#7a5c3e">DC</i>D. Cole</span></td><td class="na">—</td></tr></tbody></table>
+
+Showing 10 of 38 · reds carry a next action from the rubric’s save plays · ⚑ sentiment source older than 60 days
+
+×
+
+Account 1 of 38
+
+Halvorsen Robotics **Red**
+
+ARR
+:   $412,000
+
+Renews
+:   Oct 14, 2026
+
+Owner
+:   *JM*J. Mbeki
+
+Why red
+
+- Active users down 41% over 60 days
+- API rate-limit commitment from the May QBR still open
+
+Next action
+
+Sponsor call with their CTO this week (J. Mbeki + our VP Eng)
+
+Scored from
+
+Salesforceusage-90d-by-account.csvqbr-and-call-notes-q2.mdZendeskrisk-rubric.md
+
+History
+
+- Rescored Mon 31 Aug, 7:02 AM
+
+Each score names its signal, so a red is something to act on.
+
+Leadership gets one link and can filter by segment, owner or risk.
+
+Run this every Monday at 7am: pull the current 90-day book from Salesforce, rescore it with /pipeline-review against risk-rubric.md, and refresh the board.
+
+**Weekly renewal risk audit**Mondays at 7:00 AM
+
+Each run
+
+Pulls the current 90-day book from Salesforce
+
+Rescores every account and refreshes the board
+
+Marks accounts that turned red since last week*for you to work first*
+
+Claude Academy
+
+
+
+0:03 / 0:551×
+
+Illustration. Product screens are simplified.
+
+Find the renewals at risk
+
+You need one current view of which renewals are at risk this quarter.
+
+Using the Sales plugin’s pipeline review skill, set risk signals and ask what drove each score.
+
+Claude reads the renewal book from the CRM, then checks usage, notes and tickets per account.
+
+Claude reads the renewal book from the CRM, then checks usage, notes and tickets per account.
+
+Claude tells you what it scored and found, then shows you the live board.
+
+Each score names its signal, so a red is something to act on.
+
+Leadership gets one link and can filter by segment, owner or risk.
+
+Schedule it weekly, and the board is rescored from the CRM before your forecast call.
+
+Everyone sees the same list of renewals at risk, and why each one is.
+
+For every account renewing in the next 90 days, score renewal risk red/yellow/green based on product-usage trend, recent sentiment, and open exec commitments. Explain the signal that drove each score, and publish it as a live artifact for leadership.
+
+I scored the 38 accounts renewing by 29 November ($6.42M) against your rubric: six red ($1.31M), eleven yellow and twenty-one green, each with its driving signal. The board is published to filter and share, with a next action per red and two stale-notes accounts flagged.
+
+Q3 renewal risk — next 90 days
+
+Skill: /pipeline-review (Sales)
+
+Connectors: Salesforce, Zendesk
 
 ## 1. Set up[](https://academy.claude.com/use-cases/renewal-risk-audit)
 

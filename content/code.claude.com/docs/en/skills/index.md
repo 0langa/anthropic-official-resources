@@ -161,7 +161,9 @@ Claude Code watches skill directories for file changes. When you add, edit, or r
 
 Project skills load from `.claude/skills/` in the directory where you start Claude Code and in every parent directory up to the repository root. Starting Claude in a subdirectory still picks up skills defined at the root. To load skills from a directory outside that path at startup, pass it with [`--add-dir`](/docs/en/cli-reference). Claude Code reads `.claude/skills/` inside each added directory alongside the project skills. When you [move the session with `/cd`](/docs/en/permissions#move-the-session-to-another-directory) on v2.1.246 or later, Claude Code adds the new directory's project skills.
 
-Skills in nested `.claude/skills/` directories below your starting directory aren't loaded at startup. They load the first time Claude reads or edits a file inside that subdirectory, and stay available for the rest of the session. For example, after Claude edits a file under `packages/frontend/`, skills in `packages/frontend/.claude/skills/` become available. Until then, those skills don't appear in autocomplete and can't be invoked by name.
+Skills in nested `.claude/skills/` directories below your starting directory don't load at startup. They load the first time Claude reads or edits a file in the subdirectory that contains them, and stay available for the rest of the session. For example, after Claude edits a file under `packages/frontend/`, skills in `packages/frontend/.claude/skills/` become available. Until then, those skills don't appear in autocomplete, and you can't invoke them by name.
+
+To load a subdirectory's skills before Claude reads or edits a file there, run `/add-dir` with that subdirectory's path. This requires Claude Code v2.1.257 or later.
 
 <Note>
   Files in `.claude/commands/` support the same [frontmatter](#frontmatter-reference), except `name` and `paths`, which Claude Code ignores in a command file. You invoke a command file by its file name. Skills are recommended since they support additional features like [supporting files](#add-supporting-files).
@@ -649,7 +651,7 @@ Either tool runs the commands the same way it runs Claude's own shell commands. 
 * **Working directory**: Claude Code runs each command in the session shell's current working directory. That directory moves when Claude runs `cd`. Use [`${CLAUDE_SKILL_DIR}` or `${CLAUDE_PROJECT_DIR}`](#available-string-substitutions) in paths that must resolve the same way every time.
 * **stderr**: with the default `bash` shell, Claude Code merges stderr into stdout. Anything the command writes to stderr appears in the injected text.
 * **Timeout**: each command runs under the Bash tool's default 2-minute [timeout](/docs/en/tools-reference#timeout-and-output-limits). When the Bash tool [moves a timed-out command to the background](/docs/en/tools-reference#background-commands), the skill still renders. The injected text reports the move and names the background task and the file collecting the command's output. When the command is one the Bash tool never auto-backgrounds, Claude Code kills it at the timeout. That failure [aborts the invocation](#when-an-injected-command-fails).
-* **Output size**: output past the Bash tool's inline ceiling arrives as a file path plus a short preview, not truncated text. [Output limits](/docs/en/tools-reference#output-limits) covers the ceiling and which variable adjusts which boundary.
+* **Output size**: output past the Bash tool's inline ceiling arrives as a file path plus a short preview, not truncated text. [Output limits](/docs/en/tools-reference#output-limits) covers the ceiling and how to adjust each boundary.
 
 The PowerShell tool applies the same timeout, backgrounding, and output-ceiling behavior to the commands it runs. See the [PowerShell tool](/docs/en/tools-reference#powershell-tool) section for its specifics.
 

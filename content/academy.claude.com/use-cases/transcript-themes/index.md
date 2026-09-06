@@ -8,119 +8,257 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-kzha9gcj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kjzr1f4d.png)
 
-# Transcript theme extractor
+2026-Q2
 
-Reads call transcripts from a folder and writes a one-page themes brief.
+<table><thead><tr><td>Name</td></tr></thead><tbody><tr class="" style="opacity: 0; transform: translateY(0px);"><td><span class="fic gen" data-k="TXT"></span>2026-06-26 Orrin Energy - renewal.txt</td></tr><tr class="alt" style="opacity: 0; transform: translateY(-58px);"><td><span class="fic gen" data-k="TXT"></span>2026-06-24 Larkspur Health - security review.txt</td></tr><tr class="" style="opacity: 0; transform: translateY(-116px);"><td><span class="fic gen" data-k="TXT"></span>2026-06-19 Parallax Freight - QBR.txt</td></tr><tr class="alt" style="opacity: 1; transform: translateY(-174px);"><td><span class="fic gen" data-k="TXT"></span>2026-06-17 Kite Ridge Software - discovery.txt</td></tr><tr class="" style="opacity: 1; transform: translateY(-174px);"><td><span class="fic gen" data-k="TXT"></span>2026-06-12 Dunmore Foods - onboarding check-in.txt</td></tr><tr class="alt" style="opacity: 1; transform: translateY(-174px);"><td><span class="fic gen" data-k="TXT"></span>2026-06-10 Baystone Capital - renewal.txt</td></tr><tr class="" style="opacity: 1; transform: translateY(-174px);"><td><span class="fic gen" data-k="TXT"></span>2026-06-05 Pembrook Insurance - QBR.txt</td></tr><tr class="alt" style="opacity: 1; transform: translateY(-174px);"><td><span class="fic gen" data-k="TXT"></span>2026-06-03 Nettle &amp; Ash - discovery.txt</td></tr><tr class="" style="opacity: 1; transform: translateY(-174px);"><td><span class="fic gen" data-k="TXT"></span>2026-05-29 Greaves Aerospace - technical deep dive.txt</td></tr><tr class="alt" style="opacity: 1; transform: translateY(-174px);"><td><span class="fic gen" data-k="TXT"></span>2026-05-27 Ellery Logistics - QBR.txt</td></tr><tr class="" style="opacity: 1; transform: translateY(-174px);"><td><span class="fic gen" data-k="TXT"></span>2026-05-21 Hollis &amp; Gray - renewal.txt</td></tr><tr class="alt" style="opacity: 1; transform: translateY(-174px);"><td><span class="fic gen" data-k="TXT"></span>2026-05-20 Marlow Instruments - support escalation.txt</td></tr><tr class="" style="opacity: 1; transform: translateY(-174px);"><td><span class="fic gen" data-k="TXT"></span>2026-05-14 Redfern Retail - onboarding check-in.txt</td></tr><tr class="alt" style="opacity: 1; transform: translateY(-174px);"><td><span class="fic gen" data-k="TXT"></span>2026-05-12 Wavell Bio - QBR.txt</td></tr><tr class="" style="opacity: 1; transform: translateY(-174px);"><td><span class="fic gen" data-k="TXT"></span>2026-04-30 Orrin Energy - QBR.txt</td></tr><tr class="alt" style="opacity: 1; transform: translateY(-174px);"><td><span class="fic gen" data-k="TXT"></span>2026-04-28 Baystone Capital - QBR.txt</td></tr></tbody></table>
 
-## Ask in plain English
+39 items
 
-Point Cowork at the quarter’s call folder and describe the brief you need.
+Find the themes across sales calls
 
-/call-themesSales
+You have a quarter of sales call transcripts and need the themes across them.
 
-Calls / 2026-Q1
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)
 
-## Cowork reads the whole quarter
+Salesforce
 
-The skill pulls every transcript, clusters them against your taxonomy, and the rail tracks the plan.
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)
 
-Running `/call-themes` on 28 transcripts
+Google Drive
 
-![](https://www.google.com/s2/favicons?domain=gong.io&sz=64)
+Calls / 2026-Q2
 
-Gong · pulled 28 Q1 transcripts to Calls/2026-Q1
+40 transcripts
 
-Result
+Folder
 
-Reading themes-taxonomy.docx
+themes-taxonomy.docx
 
-Result
+9 themes
 
-Comparing against taxonomy — clustering 28 calls into 7 named themes
+DOCX
 
-Result
+Sales
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69dabb6920c993d72e04f80a_google-drive.svg)
+/account-research
 
-Google Drive · saved brief to Calls / 2026-Q1
+/call-prep
 
-Result
+/call-summary
 
-Created q1-2026-themes-brief.docx
+How can I help you today?
 
-q1-2026-themes-brief.docx
+**/**call-summary Read every transcript in this folder and cluster what customers say into themes. For each theme give the count, the best one-line quote and which accounts said it. Write a one-page themes brief for product and marketing.
 
-Done
+Reading themes-taxonomy.docx0s
 
-#### Progress
+Read4 sources
 
-1
+Readthemes-taxonomy.docx
 
-Pull the quarter’s transcripts
+Read40 transcripts in Calls / 2026-Q2
 
-2
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)Checked31 accounts with segment and renewal
 
-Read the theme taxonomy
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)ReadQ1 call themes brief
 
-3
+Which customer requests should I pass to the product team?
 
-Cluster calls into themes
+ERP sync drops custom fields
 
-4
+Report filters finance needs
 
-Count, quote, attribute
+Audit log export, new this quarter
 
-5
+Submit
 
-Write the themes brief
+ERP sync drops custom fields
 
-#### Calls / 2026-Q1
+ERP sync and audit log export.
 
-northwind-2026-01-14.txt
+Used 4 sources49s
 
-acme-2026-02-03.txt
+I coded the 40 Q2 transcripts against your nine themes: slow first import leads with 14 calls from 12 accounts, and audit log export is a new theme with 9 calls. The two product themes you picked carry their accounts, ARR and Q3 renewals, and the coding sheet traces every call.
 
-globex-2026-03-11.txt
+Q2-call-themes.docx
 
-DOCthemes-taxonomy.docx
+Document
 
-#### Context
+Download
 
-Connectors
+q2-call-coding.xlsx
 
-![](https://www.google.com/s2/favicons?domain=gong.io&sz=64)Gong
+Spreadsheet
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69dabb6920c993d72e04f80a_google-drive.svg)Google Drive
+Download
 
-## The one-page themes brief
+# What customers told us on Q2 calls
 
-Each theme named, counted, quoted, and tied to the accounts that raised it.
+40 calls, 31 accounts, April–June 2026.  
+Prepared 2 July for the Q3 product and marketing planning review.
 
-**Onboarding is the bottleneck**11 of 28 calls“We lost two weeks just getting our data connected before anyone saw value.”Northwind · Acme · Globex · Initech · +7
+Every Q2 call transcript in Calls/2026-Q2, coded to the nine themes in our taxonomy plus one new theme. A theme’s count is the number of calls it came up in and the number of distinct accounts; account data (segment, ARR, renewal) is from Salesforce as of 1 July. Four calls raised no theme.
 
-**SSO & SCIM block expansion**8 of 28 calls“Security won’t approve a wider rollout until SCIM provisioning is in.”Vandelay · Hooli · Stark Industries · +5
+## Top themes
 
-**Usage pricing is hard to forecast**6 of 28 calls“I can’t tell my CFO what next year costs us at this run rate.”Massive Dynamic · Pied Piper · +4
+<table class="rnk"><tbody><tr><th style="width:22px">#</th><th>Theme</th><th style="width:150px">Calls, of 40</th><th class="r" style="width:70px">Accounts</th><th style="width:104px;padding-left:14px">Against Q1</th></tr><tr><td class="rk">1</td><td class="tn">First import takes weeks when the supplier list has to be rebuilt by hand</td><td class="calls"><span class="bar"><i style="width:35%"></i></span><b>14</b></td><td class="r">12</td><td class="q1">up from 9</td></tr><tr><td class="rk">2</td><td class="tn">The ERP sync drops custom fields, so finance stops trusting the numbers</td><td class="calls"><span class="bar"><i style="width:28%"></i></span><b>11</b></td><td class="r">9</td><td class="q1">flat (10)</td></tr><tr><td class="rk">3</td><td class="tn">Reports can’t be filtered by the fields finance actually uses</td><td class="calls"><span class="bar"><i style="width:25%"></i></span><b>10</b></td><td class="r">8</td><td class="q1">down from 15</td></tr><tr><td class="rk">4</td><td class="tn">Audit log export for security reviews</td><td class="calls"><span class="bar"><i style="width:23%"></i></span><b>9</b></td><td class="r">7</td><td class="q1"><b class="nw">new</b></td></tr><tr><td class="rk">5</td><td class="tn">Seat minimums at renewal <span class="see">(see For marketing)</span></td><td class="calls"><span class="bar"><i style="width:20%"></i></span><b>8</b></td><td class="r">8</td><td class="q1">—</td></tr></tbody></table>
 
-Customer call themes brief
+### *1*First import takes weeks when the supplier list has to be rebuilt by hand.
 
-Document · DOCX · 24 KB · Calls / 2026-Q1
+14 of 40 calls, 12 of 31 accounts, up from 9 calls in Q1. Concentrated in mid-market accounts onboarded since January (9 of the 12); all six onboarding check-ins raised it, and it came up unprompted in four QBRs.
 
-## Make it run every quarter
+*“We signed in February and the first real PO went through in April. Most of that was us rebuilding the supplier list by hand.”* Operations director, Dunmore Foods
 
-Customize the taxonomy once, then schedule it — the brief lands the day planning starts.
+*“If you’d given us a template for the vendor master on day one we’d have been live in three weeks, not nine.”* Finance systems lead, Ellery Logistics
 
-Calls
+**Accounts:** Dunmore Foods, Ellery Logistics, Kite Ridge Software, Nettle & Ash, Marlow Instruments, Redfern Retail, Tamsin Hotels, Vantage Dental, Solano Building Supply, Cask & Cooper, Hollis & Gray, Parallax Freight
 
-Scheduled
+### *2*The ERP sync drops custom fields, so finance stops trusting the numbers.
 
-Quarterly call themes
+11 calls, 9 accounts, flat against Q1 (10). NetSuite in 7 accounts, SAP in 2; the field named most is cost center.
 
-Runs `/call-themes` against the previous quarter’s transcript folder under Calls and writes the one-page brief, with what’s new versus last quarter.
+*“Every time the sync runs the cost center comes back blank, and then finance won’t use the spend report.”* RevOps lead, Parallax Freight
 
-First of **every quarter**
+### *3*Reports can’t be filtered by the fields finance actually uses.
 
-Every quarter, the themes brief lands in the folder before planning starts.
+10 calls, 8 accounts, down from 15 in Q1 after the May filters release; remaining asks are saved views and export by cost center.
+
+## For product
+
+<table class="fp"><tbody><tr><th>Theme</th><th class="r" style="width:44px">Calls</th><th class="r" style="width:66px">Accounts</th><th class="r" style="width:78px">Their ARR</th><th style="width:196px;padding-left:14px">Renewing in Q3</th><th>What they ask for</th></tr>
+<tr><td><b>ERP sync drops custom fields</b></td><td class="r">11</td><td class="r">9</td><td class="r">$1.46M</td><td class="rn">3 accounts, $589k: Orrin Energy (Sep), Baystone Capital (Aug), Hollis &amp; Gray (Sep)</td><td>Map custom fields in the sync settings; today only standard fields sync</td></tr>
+<tr><td><b>Audit log export</b> (new)</td><td class="r">9</td><td class="r">7</td><td class="r">$2.02M</td><td class="rn">2 in active security review: Larkspur Health, Pembrook Insurance</td><td>Twelve months of admin audit logs as CSV or via API, self-serve</td></tr></tbody></table>
+
+Report filters (10 calls) is not repeated here: the Q1 brief records it on the H2 roadmap and Q2 mentions fell after the May release. Listed under Also raised.
+
+*“Security asked for twelve months of audit logs in CSV and I ended up screenshotting the admin page.”* IT manager, Larkspur Health
+
+## For marketing
+
+- **Competitor mentions**: 5 calls, 5 accounts (Coupa 3, Procurify 2; price and approval routing are the comparison points).
+- **Support praise usable as proof points, with permission**: 6 calls, 6 accounts. *“Your support team answered on a Sunday during our year-end close.”* Controller, Baystone Capital
+- **Seat minimums at renewal**: 8 calls, 8 accounts, all under 50 seats; for the pricing owner.
+
+## Also raised
+
+Report filters 10 calls (roadmap H2). Approvals on mobile 4. Sandbox before rollout 3. No theme 4 calls.
+
+## New since Q1
+
+Audit log export 0 → 9 calls; onboarding up 9 → 14; report filters down 15 → 10.
+
+Method: every call with its themes, best quote, speaker role and confidence is in q2-call-coding.xlsx (Calls tab, 40 rows; Themes tab, 10 rows).
+
+Each theme shows how many calls raised it, with one quote.
+
+# What customers told us on Q2 calls
+
+40 calls, 31 accounts, April–June 2026.  
+Prepared 2 July for the Q3 product and marketing planning review.
+
+Every Q2 call transcript in Calls/2026-Q2, coded to the nine themes in our taxonomy plus one new theme. A theme’s count is the number of calls it came up in and the number of distinct accounts; account data (segment, ARR, renewal) is from Salesforce as of 1 July. Four calls raised no theme.
+
+## Top themes
+
+<table class="rnk"><tbody><tr><th style="width:22px">#</th><th>Theme</th><th style="width:150px">Calls, of 40</th><th class="r" style="width:70px">Accounts</th><th style="width:104px;padding-left:14px">Against Q1</th></tr><tr><td class="rk">1</td><td class="tn">First import takes weeks when the supplier list has to be rebuilt by hand</td><td class="calls"><span class="bar"><i style="width:35%"></i></span><b>14</b></td><td class="r">12</td><td class="q1">up from 9</td></tr><tr><td class="rk">2</td><td class="tn">The ERP sync drops custom fields, so finance stops trusting the numbers</td><td class="calls"><span class="bar"><i style="width:28%"></i></span><b>11</b></td><td class="r">9</td><td class="q1">flat (10)</td></tr><tr><td class="rk">3</td><td class="tn">Reports can’t be filtered by the fields finance actually uses</td><td class="calls"><span class="bar"><i style="width:25%"></i></span><b>10</b></td><td class="r">8</td><td class="q1">down from 15</td></tr><tr><td class="rk">4</td><td class="tn">Audit log export for security reviews</td><td class="calls"><span class="bar"><i style="width:23%"></i></span><b>9</b></td><td class="r">7</td><td class="q1"><b class="nw">new</b></td></tr><tr><td class="rk">5</td><td class="tn">Seat minimums at renewal <span class="see">(see For marketing)</span></td><td class="calls"><span class="bar"><i style="width:20%"></i></span><b>8</b></td><td class="r">8</td><td class="q1">—</td></tr></tbody></table>
+
+### *1*First import takes weeks when the supplier list has to be rebuilt by hand.
+
+14 of 40 calls, 12 of 31 accounts, up from 9 calls in Q1. Concentrated in mid-market accounts onboarded since January (9 of the 12); all six onboarding check-ins raised it, and it came up unprompted in four QBRs.
+
+*“We signed in February and the first real PO went through in April. Most of that was us rebuilding the supplier list by hand.”* Operations director, Dunmore Foods
+
+*“If you’d given us a template for the vendor master on day one we’d have been live in three weeks, not nine.”* Finance systems lead, Ellery Logistics
+
+**Accounts:** Dunmore Foods, Ellery Logistics, Kite Ridge Software, Nettle & Ash, Marlow Instruments, Redfern Retail, Tamsin Hotels, Vantage Dental, Solano Building Supply, Cask & Cooper, Hollis & Gray, Parallax Freight
+
+### *2*The ERP sync drops custom fields, so finance stops trusting the numbers.
+
+11 calls, 9 accounts, flat against Q1 (10). NetSuite in 7 accounts, SAP in 2; the field named most is cost center.
+
+*“Every time the sync runs the cost center comes back blank, and then finance won’t use the spend report.”* RevOps lead, Parallax Freight
+
+### *3*Reports can’t be filtered by the fields finance actually uses.
+
+10 calls, 8 accounts, down from 15 in Q1 after the May filters release; remaining asks are saved views and export by cost center.
+
+## For product
+
+<table class="fp"><tbody><tr><th>Theme</th><th class="r" style="width:44px">Calls</th><th class="r" style="width:66px">Accounts</th><th class="r" style="width:78px">Their ARR</th><th style="width:196px;padding-left:14px">Renewing in Q3</th><th>What they ask for</th></tr>
+<tr><td><b>ERP sync drops custom fields</b></td><td class="r">11</td><td class="r">9</td><td class="r">$1.46M</td><td class="rn">3 accounts, $589k: Orrin Energy (Sep), Baystone Capital (Aug), Hollis &amp; Gray (Sep)</td><td>Map custom fields in the sync settings; today only standard fields sync</td></tr>
+<tr><td><b>Audit log export</b> (new)</td><td class="r">9</td><td class="r">7</td><td class="r">$2.02M</td><td class="rn">2 in active security review: Larkspur Health, Pembrook Insurance</td><td>Twelve months of admin audit logs as CSV or via API, self-serve</td></tr></tbody></table>
+
+Report filters (10 calls) is not repeated here: the Q1 brief records it on the H2 roadmap and Q2 mentions fell after the May release. Listed under Also raised.
+
+*“Security asked for twelve months of audit logs in CSV and I ended up screenshotting the admin page.”* IT manager, Larkspur Health
+
+## For marketing
+
+- **Competitor mentions**: 5 calls, 5 accounts (Coupa 3, Procurify 2; price and approval routing are the comparison points).
+- **Support praise usable as proof points, with permission**: 6 calls, 6 accounts. *“Your support team answered on a Sunday during our year-end close.”* Controller, Baystone Capital
+- **Seat minimums at renewal**: 8 calls, 8 accounts, all under 50 seats; for the pricing owner.
+
+## Also raised
+
+Report filters 10 calls (roadmap H2). Approvals on mobile 4. Sandbox before rollout 3. No theme 4 calls.
+
+## New since Q1
+
+Audit log export 0 → 9 calls; onboarding up 9 → 14; report filters down 15 → 10.
+
+Method: every call with its themes, best quote, speaker role and confidence is in q2-call-coding.xlsx (Calls tab, 40 rows; Themes tab, 10 rows).
+
+Run this every Monday: if a new quarter folder is in Calls, write its themes brief and coding sheet the same way and add what is new since last quarter.
+
+**Quarterly call themes**Mondays at 9:00 AM
+
+Each run
+
+Checks Calls for a new quarter folder
+
+Codes its transcripts against your taxonomy
+
+Writes the themes brief and coding sheet to that folder*for you to review*
+
+Claude Academy
+
+
+
+0:03 / 0:561×
+
+Illustration. Product screens are simplified.
+
+Find the themes across sales calls
+
+You have a quarter of sales call transcripts and need the themes across them.
+
+Using the Sales plugin’s call summary skill, give your theme list and ask for counts.
+
+Claude reads every transcript against your taxonomy, then matches the accounts in your CRM.
+
+Wherever a decision is yours to make, Claude asks instead of guessing.
+
+Claude tells you what it counted, then gives you the brief and sheet.
+
+Each theme shows how many calls raised it, with one quote.
+
+Each theme lists the accounts that raised it.
+
+You can schedule the same brief to run when a new quarter’s folder appears.
+
+Product hears what customers said most, counted across every call.
+
+Read every transcript in this folder and cluster what customers say into themes. For each theme give the count, the best one-line quote and which accounts said it. Write a one-page themes brief for product and marketing.
+
+Which customer requests should I pass to the product team? ERP sync drops custom fields / Report filters finance needs / Audit log export, new this quarter
+
+I coded the 40 Q2 transcripts against your nine themes: slow first import leads with 14 calls from 12 accounts, and audit log export is a new theme with 9 calls. The two product themes you picked carry their accounts, ARR and Q3 renewals, and the coding sheet traces every call.
+
+Q2-call-themes.docx, q2-call-coding.xlsx
+
+Skill: /call-summary (Sales)
+
+Connectors: Salesforce, Google Drive
 
 ## Set up[](https://academy.claude.com/use-cases/transcript-themes)
 

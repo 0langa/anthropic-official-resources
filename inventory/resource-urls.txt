@@ -3231,6 +3231,7 @@ https://support.claude.com/en/articles/9612892-how-do-i-sign-up-for-claude-pro-o
 https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure
 https://support.claude.com/en/articles/9796617
 https://support.claude.com/en/articles/9796617-can-you-delete-data-that-i-sent-via-team-and-enterprise-plans
+https://support.claude.com/en/articles/9796807
 https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console
 https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan
 https://support.claude.com/en/articles/9797557

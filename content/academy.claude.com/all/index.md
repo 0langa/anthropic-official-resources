@@ -8,7 +8,7 @@ AllCoursesTutorialsUse cases
 
 ProductAll
 
-292 resources
+293 resources
 
 [## AI Capabilities and Limitations
 
@@ -50,7 +50,11 @@ Course·5 lessons · 1 quiz·3 hr](https://academy.claude.com/courses/ai-fluency
 
 Learn to collaborate with AI effectively, efficiently, ethically, and safely using the 4D framework: Delegation, Description, Discernment, and Diligence.
 
-Course·14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)[## Building with the Claude API
+Course·14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)[## Building Effective Human Agent Teams (Beta)
+
+Explore the benefits of moving from single-player to multiplayer AI and learn how to prepare your team for the shift.
+
+Course·5 lessons · 1 quiz·45 min](https://academy.claude.com/courses/building-effective-human-agent-teams)[## Building with the Claude API
 
 The full spectrum of working with Anthropic models using the Claude API: prompting, tool use, RAG, agents, MCP, and production patterns.
 
@@ -102,11 +106,7 @@ Course·4 lessons·45 min](https://academy.claude.com/courses/introduction-to-su
 
 Go beyond MCP basics: sampling, notifications, and roots, with interactive walkthroughs of each protocol flow.
 
-Course·11 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/model-context-protocol-advanced-topics)[## Teaching AI Fluency
-
-Equips academic faculty and instructional designers to teach and assess AI fluency in instructor-led settings. Builds on the 4D AI Fluency Framework with strategies for assessment, assignment design, and discipline-specific application.
-
-Course·7 lessons · 1 quiz·4.5 hr](https://academy.claude.com/courses/teaching-ai-fluency)Load more
+Course·11 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/model-context-protocol-advanced-topics)Load more
 
 
 ## Courses
@@ -121,7 +121,7 @@ AllCoursesTutorialsUse cases
 
 ProductAll
 
-25 courses
+26 courses
 
 [## AI Capabilities and Limitations
 
@@ -163,7 +163,11 @@ Helps students build AI fluency skills for learning, career planning, and academ
 
 Learn to collaborate with AI effectively, efficiently, ethically, and safely using the 4D framework: Delegation, Description, Discernment, and Diligence.
 
-14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)[## Building with the Claude API
+14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)[## Building Effective Human Agent Teams (Beta)
+
+Explore the benefits of moving from single-player to multiplayer AI and learn how to prepare your team for the shift.
+
+5 lessons · 1 quiz·45 min](https://academy.claude.com/courses/building-effective-human-agent-teams)[## Building with the Claude API
 
 The full spectrum of working with Anthropic models using the Claude API: prompting, tool use, RAG, agents, MCP, and production patterns.
 
@@ -215,11 +219,7 @@ Decompose complex tasks across parallel Claude subagents and orchestrate them de
 
 Go beyond MCP basics: sampling, notifications, and roots, with interactive walkthroughs of each protocol flow.
 
-11 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/model-context-protocol-advanced-topics)[## Teaching AI Fluency
-
-Equips academic faculty and instructional designers to teach and assess AI fluency in instructor-led settings. Builds on the 4D AI Fluency Framework with strategies for assessment, assignment design, and discipline-specific application.
-
-7 lessons · 1 quiz·4.5 hr](https://academy.claude.com/courses/teaching-ai-fluency)Load more
+11 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/model-context-protocol-advanced-topics)Load more
 
 
 ## Tutorials

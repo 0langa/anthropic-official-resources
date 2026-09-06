@@ -8,139 +8,177 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-gtq6ufl9.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dqfzjo1d.png)
 
-# SOX & controls documentation
+Document your SOX controls
 
-Reads your walkthrough notes and drafts the process narrative, risk matrix, and flowchart.
-
-## Describe how the process actually runs
-
-Point Cowork at the Controls folder and ask for the three-file package.
-
-/controls-docFinance
-
-Controls / Order-to-Cash
-
-## Cowork reads the walkthrough and builds the package
-
-The skill maps each step to a risk and control while the Progress card tracks the plan.
-
-Running `/controls-doc` on Order-to-Cash
-
-Reading walkthrough-notes-OTC.docx
-
-Result
-
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)
-
-Google Workspace · pulled RCM-template.xlsx from Controls library
-
-Result
+Audit needs your process documented and you only have walkthrough notes.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23F25022'%20d='M1%201h10.5v10.5H1z'/%3e%3cpath%20fill='%237FBA00'%20d='M12.5%201H23v10.5H12.5z'/%3e%3cpath%20fill='%2300A4EF'%20d='M1%2012.5h10.5V23H1z'/%3e%3cpath%20fill='%23FFB900'%20d='M12.5%2012.5H23V23H12.5z'/%3e%3c/svg%3e)
 
-Microsoft 365 · read prior-year-narrative-OTC.pdf from SharePoint
+Microsoft 365
 
-Result
+Controls / Order-to-Cash
 
-Comparing against prior-year controls — 11 steps mapped
+4 items
 
-Result
+Folder
 
-Created OTC-narrative.docx, OTC-RCM.xlsx, OTC-flowchart.png
+Finance
 
-3 files
+/audit-support
 
-Done
+/reconciliation
 
-#### Progress
+/sox-testing
 
-1
+How can I help you today?
 
-Read walkthrough notes
+**/**sox-testing Here's how the process runs. Write the process narrative in our standard format, build the RCM with each risk's control, owner and frequency, and draw the flowchart. Flag any step missing a control or where duties aren't segregated.
 
-2
+Reading walkthrough-notes-OTC.docx0s
 
-Pull template & prior-year
+Read6 sources
 
-3
+Readwalkthrough-notes-OTC.docx
 
-Map risks to controls
+ReadRCM-template.xlsx
 
-4
+Readprior-year-narrative-OTC.pdf
 
-Flag SOD & control gaps
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23F25022'%20d='M1%201h10.5v10.5H1z'/%3e%3cpath%20fill='%237FBA00'%20d='M12.5%201H23v10.5H12.5z'/%3e%3cpath%20fill='%2300A4EF'%20d='M1%2012.5h10.5V23H1z'/%3e%3cpath%20fill='%23FFB900'%20d='M12.5%2012.5H23V23H12.5z'/%3e%3c/svg%3e)OpenedFY25 RCM and the IA controls library
 
-5
+Readsystem-screenshots, 6 images
 
-Write narrative, RCM, flowchart
+Checked11 steps to risks and controls
 
-#### Controls / Order-to-Cash
+Used 6 sources34s
 
-walkthrough-notes-OTC.docx
+I mapped your walkthrough’s 11 steps to 12 controls and wrote the narrative and the matrix under the same OTC-C references, with the flowchart as Appendix A. Three steps are flagged as gaps before internal audit: OTC-C09, OTC-C10 and a proposed OTC-C12.
 
-XLSRCM-template.xlsx
+OTC-RCM-FY26.xlsx
 
-PDFprior-year-narrative-OTC.pdf
+Spreadsheet
 
-system-screenshots/
+Download
 
-#### Context
+OTC-process-narrative-FY26.docx
 
-Connectors
+Document
 
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)Google Workspace
+Download
 
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23F25022'%20d='M1%201h10.5v10.5H1z'/%3e%3cpath%20fill='%237FBA00'%20d='M12.5%201H23v10.5H12.5z'/%3e%3cpath%20fill='%2300A4EF'%20d='M1%2012.5h10.5V23H1z'/%3e%3cpath%20fill='%23FFB900'%20d='M12.5%2012.5H23V23H12.5z'/%3e%3c/svg%3e)Microsoft 365
+![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)OTC-RCM-FY26.xlsx
 
-## The risk-control matrix, with the gap it caught
+HomeInsertDrawPage LayoutFormulasDataReviewView
 
-Narrative, RCM, and flowchart written to the folder — and one segregation-of-duties issue flagged.
+Aptos Narrow
 
-OTC-RCM.xlsxRisk & Control Matrix · Order-to-Cash
+11
 
-RiskControlOwnerFreq
+General
 
-Order entered without credit check**C-01** Auto credit-hold >$50K in NetSuiteAR ManagerPer order
+H12
 
-Goods ship before invoice issued**C-02** Ship-confirm triggers invoice batchControllerDaily
+fx
 
-Cash applied to wrong customer**C-03** Lockbox auto-match, exceptions queuedTreasuryDaily
+G1 — Segregation of duties: the AR Supervisor role can create and approve credit memos under $5,000
 
-**⚠ Step 6** · Same user posts and approves AR adjustmentsNo control — segregation-of-duties gap——
+<table><thead><tr><th class="rh"></th><th style="width:60px">A</th><th style="width:300px">B</th><th style="width:110px">C</th><th style="width:330px">D</th><th style="width:200px">E</th><th style="width:120px">F</th><th style="width:50px">G</th><th style="width:230px">H</th></tr></thead><tbody><tr class="hdr"><td class="rh">1</td><td>Step<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Risk<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Control ID<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Control description<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Owner<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Frequency<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Key<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td>Flag<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td></tr><tr class="r0"><td class="rh">2</td><td class="c0">1</td><td class="c1">Orders accepted from customers without approved credit</td><td class="c2">OTC-C01</td><td class="c3">New accounts and limits above $25,000 approved by Credit Manager in NetSuite; account inactive until approved</td><td class="c4">Credit Manager</td><td class="c5">Per occurrence</td><td class="c6">Y</td><td class="c7"></td></tr><tr class="r1 band"><td class="rh">3</td><td class="c0" style="background: rgb(243, 234, 209);">1</td><td class="c1" style="background: rgb(243, 234, 209);">Unauthorized changes to customer terms, limits or bank details</td><td class="c2" style="background: rgb(243, 234, 209);">OTC-C12</td><td class="c3" style="background: rgb(243, 234, 209);">No control identified — AR roles can edit customer records; proposed: quarterly review of system-notes report</td><td class="c4" style="background: rgb(243, 234, 209);">(Credit Manager)</td><td class="c5" style="background: rgb(243, 234, 209);">(Quarterly)</td><td class="c6" style="background: rgb(243, 234, 209);">N</td><td class="c7" style="background: rgb(243, 234, 209); color: rgb(138, 106, 31); font-weight: 600;">G3 — No control</td></tr><tr class="r2"><td class="rh">4</td><td class="c0">2</td><td class="c1">Sales order does not match customer quote</td><td class="c2">OTC-C02</td><td class="c3">NetSuite matches each order to the Salesforce quote on item, quantity and price; mismatches route to Sales Ops</td><td class="c4">Sales Ops Lead</td><td class="c5">Per order</td><td class="c6">Y</td><td class="c7"></td></tr><tr class="r3 band"><td class="rh">5</td><td class="c0">3</td><td class="c1">Discounts beyond policy granted without approval</td><td class="c2">OTC-C03</td><td class="c3">CPQ requires VP Sales approval above 15% and CFO above 25% before a quote can be sent</td><td class="c4">VP Sales / CFO</td><td class="c5">Per quote</td><td class="c6">Y</td><td class="c7">Thresholds to confirm</td></tr><tr class="r4"><td class="rh">6</td><td class="c0">4</td><td class="c1">Shipment to a customer over limit or past due</td><td class="c2">OTC-C04</td><td class="c3">Order placed on credit hold when open AR plus order exceeds limit or any invoice is 60+ days; release by Credit Manager only</td><td class="c4">Credit Manager</td><td class="c5">Per order</td><td class="c6">Y</td><td class="c7"></td></tr><tr class="r5 band"><td class="rh">7</td><td class="c0">5</td><td class="c1">Revenue billed without evidence of shipment</td><td class="c2">OTC-C05</td><td class="c3">Nightly invoice batch generates invoices only from item-fulfilment records with a carrier tracking number</td><td class="c4">Billing Supervisor</td><td class="c5">Daily</td><td class="c6">Y</td><td class="c7"></td></tr><tr class="r6"><td class="rh">8</td><td class="c0">6</td><td class="c1">Shipments not invoiced, or invoiced late</td><td class="c2">OTC-C06</td><td class="c3">Shipped-not-billed report reviewed and cleared each morning; items older than 2 days investigated</td><td class="c4">Billing Supervisor</td><td class="c5">Daily</td><td class="c6">N</td><td class="c7"></td></tr><tr class="r7 band"><td class="rh">9</td><td class="c0">7</td><td class="c1">Revenue recorded in the wrong period</td><td class="c2">OTC-C07</td><td class="c3">Cut-off test of shipments in the last and first 5 business days; prepared by Revenue Accountant, signed by Assistant Controller</td><td class="c4">Assistant Controller</td><td class="c5">Monthly</td><td class="c6">Y</td><td class="c7"></td></tr><tr class="r8"><td class="rh">10</td><td class="c0">8</td><td class="c1">Cash applied to the wrong customer or invoice</td><td class="c2">OTC-C08</td><td class="c3">Lockbox file auto-matched on invoice number and amount; exceptions cleared within 2 business days</td><td class="c4">AR Specialist</td><td class="c5">Daily</td><td class="c6">N</td><td class="c7"></td></tr><tr class="r9 band"><td class="rh">11</td><td class="c0" style="background: rgb(243, 234, 209);">9</td><td class="c1" style="background: rgb(243, 234, 209);">Unauthorized credit memos reduce receivables</td><td class="c2" style="background: rgb(243, 234, 209);">OTC-C09</td><td class="c3" style="background: rgb(243, 234, 209);">Credit memos under $5,000 approved by AR Supervisor; $5,000 and above by Controller (acting: Assistant Controller)</td><td class="c4" style="background: rgb(243, 234, 209);">AR Supervisor / Asst Controller</td><td class="c5" style="background: rgb(243, 234, 209);">Per memo</td><td class="c6" style="background: rgb(243, 234, 209);">Y</td><td class="c7" style="background: rgb(243, 234, 209); color: rgb(138, 106, 31); font-weight: 600;">G1 — Segregation of duties</td></tr><tr class="r10"><td class="rh">12</td><td class="c0" style="background: rgb(243, 234, 209);">10</td><td class="c1" style="background: rgb(243, 234, 209);">Allowance for doubtful accounts misstated</td><td class="c2" style="background: rgb(243, 234, 209);">OTC-C10</td><td class="c3" style="background: rgb(243, 234, 209);">Monthly aging review and reserve recalculation per policy matrix, approved by Controller</td><td class="c4" style="background: rgb(243, 234, 209);">Asst Controller (acting)</td><td class="c5" style="background: rgb(243, 234, 209);">Monthly</td><td class="c6" style="background: rgb(243, 234, 209);">Y</td><td class="c7" style="background: rgb(243, 234, 209); color: rgb(138, 106, 31); font-weight: 600;">G2 — Not performed Apr–Jul</td></tr><tr class="r11 band"><td class="rh">13</td><td class="c0">11</td><td class="c1">AR subledger does not agree to general ledger</td><td class="c2">OTC-C11</td><td class="c3">Subledger-to-GL reconciliation prepared by Staff Accountant, reviewed by Assistant Controller within 5 business days</td><td class="c4">Assistant Controller</td><td class="c5">Monthly</td><td class="c6">Y</td><td class="c7"></td></tr><tr><td class="rh">14</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">15</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">16</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">17</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">18</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">19</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
-DOCX
+RCMGaps (3)FY25 mappingWalkthrough logLists+Ready  ·  Count: 12
 
-Order-to-Cash process narrative
+Steps with a missing or weak control are flagged in the matrix.
 
-Document · DOCX · 22 KB
+OTC-process-narrative-FY26.docx
 
-XLSX
+HomeInsertDrawDesignLayoutReferencesReviewView
 
-Order-to-Cash risk-control matrix
+<table class="hb"><tbody><tr><td class="ti" colspan="4"><span>Process narrative</span>Order to Cash (Revenue and Accounts Receivable)</td></tr>
+<tr><td><span>Entity</span>Halden Instruments, Inc.</td><td><span>Documentation</span>ICFR, FY26</td><td><span>Reference</span>ICFR-OTC-N-FY26</td><td><span>Version</span>0.1, draft for process-owner review</td></tr>
+<tr><td><span>Prepared by</span>E. Navarro, Internal Controls, 28 Aug 2026</td><td><span>Walkthrough</span>21 Aug 2026</td><td><span>Process owner (reviewer)</span>D. Okafor</td><td><span>Supersedes</span>FY25 narrative dated 9 Mar 2025</td></tr></tbody></table>
 
-Spreadsheet · XLSX · 14 KB
+## *4.8*Cash application step 8
 
-PNG
+The JPMorgan lockbox file is received at 7:00 each morning and loaded to NetSuite, which matches receipts to open invoices on invoice number and amount. Unmatched receipts fall to an exceptions queue worked by the AR Specialist and cleared within two business days **[OTC-C08]**.
 
-Order-to-Cash flowchart
+<table class="ctl"><tbody><tr><td class="id">OTC-C08</td><td class="ds">Lockbox file auto-matched on invoice number and amount; exceptions cleared within 2 business days</td><td class="kv"><span>Owner</span>AR Specialist</td><td class="kv fq"><span>Frequency</span>Daily</td><td class="kv ky"><span>Key</span>No</td></tr></tbody></table>
 
-Document · PNG · 88 KB
+## *4.9*Credit memos and adjustments step 9
 
-## Run it on every walkthrough
+Credit memos for pricing corrections, returns and goodwill adjustments are created in NetSuite by the AR Specialist or the AR Supervisor, with the originating case or RMA number in the memo field. Memos under $5,000 are approved by the AR Supervisor; memos of $5,000 and above route by workflow to the Controller, currently the Assistant Controller in an acting capacity **[OTC-C09]**. Approved memos post to the customer account and appear on the daily credit-memo register.
 
-Customize the skill once, then schedule it — the package drafts whenever a process owner drops notes.
+<table class="ctl"><tbody><tr><td class="id">OTC-C09</td><td class="ds">Credit memos under $5,000 approved by AR Supervisor; $5,000 and above by Controller (acting: Assistant Controller)</td><td class="kv"><span>Owner</span>AR Supervisor / Asst Controller</td><td class="kv fq"><span>Frequency</span>Per memo</td><td class="kv ky"><span>Key</span>Yes</td></tr></tbody></table>
 
-Controls
+**Exception noted***Flag G1 — segregation of duties.* The NetSuite “AR Supervisor” role holds both Create and Approve permissions for credit memos (system screenshot, 21 Aug 2026), so a memo under $5,000 can be raised and approved by the same person. The FY25 narrative (C-08) described Controller approval of all memos; per the walkthrough this changed in March 2026 when the threshold was introduced. See RCM OTC-C09 and section 6.
 
-Scheduled
+## *4.10*Allowance for doubtful accounts step 10
 
-Controls documentation package
+Policy requires a monthly review of the aged receivables listing and recalculation of the reserve using the policy matrix, approved by the Controller **[OTC-C10]**.
 
-Runs `/controls-doc` on every new walkthrough in Controls and writes the narrative, matrix, and flowchart to a process subfolder.
+<table class="ctl"><tbody><tr><td class="id">OTC-C10</td><td class="ds">Monthly aging review and reserve recalculation per policy matrix, approved by Controller</td><td class="kv"><span>Owner</span>Asst Controller (acting)</td><td class="kv fq"><span>Frequency</span>Monthly</td><td class="kv ky"><span>Key</span>Yes</td></tr></tbody></table>
 
-**Weekdays at 9am**
+**Exception noted***Flag G2 — not operating.* The reserve workbook was last updated in March 2026 and no sign-off exists for April to July; the AR Supervisor reviews aging informally. See section 6.
 
-Every walkthrough becomes a process narrative, risk-control matrix, and flowchart — in your format, in under an hour.
+## *4.11*AR reconciliation step 11
+
+The Staff Accountant reconciles the AR subledger to the general ledger within five business days of period end; the Assistant Controller reviews and signs the reconciliation **[OTC-C11]**.
+
+<table class="ctl"><tbody><tr><td class="id">OTC-C11</td><td class="ds">Subledger-to-GL reconciliation prepared by Staff Accountant, reviewed by Assistant Controller within 5 business days</td><td class="kv"><span>Owner</span>Assistant Controller</td><td class="kv fq"><span>Frequency</span>Monthly</td><td class="kv ky"><span>Key</span>Yes</td></tr></tbody></table>
+
+## *5*Key controls summary
+
+Twelve controls are documented for FY26 (nine key). OTC-C03 is new with the CPQ approval rule introduced in February 2026; OTC-C12 is proposed and not yet in operation. Appendix A carries the process flowchart by swimlane.
+
+Page 1 of 41,286 wordsEnglish (US)Focus90%
+
+The narrative uses the same step numbers, so the files agree.
+
+Run this every weekday morning: if there is a new walkthrough file in Controls, run /sox-testing on it and write the narrative, matrix and flowchart to a subfolder named for the process.
+
+**Controls documentation package**Weekdays at 9:00 AM
+
+Each run
+
+Drafts the narrative, matrix and flowchart for each new walkthrough
+
+Lists the flagged gaps at the top of the reply*for you to review*
+
+Claude Academy
+
+
+
+0:03 / 0:561×
+
+Illustration. Product screens are simplified.
+
+Document your SOX controls
+
+Audit needs your process documented and you only have walkthrough notes.
+
+With the Finance plugin’s SOX testing skill, say how the process runs and ask for gaps.
+
+Claude reads your notes, template and last year’s documents, then maps each step to a control.
+
+Claude reads your notes, template and last year’s documents, then maps each step to a control.
+
+Claude tells you what it flagged, then gives you the matrix and narrative.
+
+Steps with a missing or weak control are flagged in the matrix.
+
+The narrative uses the same step numbers, so the files agree.
+
+On a schedule, Claude drafts the package for each new walkthrough added to the folder.
+
+The auditors get complete documentation, with the gaps already flagged for you.
+
+Here's how the process runs. Write the process narrative in our standard format, build the RCM with each risk's control, owner and frequency, and draw the flowchart. Flag any step missing a control or where duties aren't segregated.
+
+I mapped your walkthrough’s 11 steps to 12 controls and wrote the narrative and the matrix under the same OTC-C references, with the flowchart as Appendix A. Three steps are flagged as gaps before internal audit: OTC-C09, OTC-C10 and a proposed OTC-C12.
+
+OTC-RCM-FY26.xlsx, OTC-process-narrative-FY26.docx
+
+Skill: /sox-testing (Finance)
+
+Connectors: Microsoft 365
 
 ## Set up[](https://academy.claude.com/use-cases/sox-controls-doc)
 

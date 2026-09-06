@@ -8,113 +8,199 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-btqx4o1h.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mbqnkmu3.png)
 
-## Regulatory analysis
+eu-ai-act-final-text.pdf
 
-Reads the regulation and your policies, writes what to act on and by when.
+Article 6 — Classification rules for high-risk AI systems
 
-### Ask in plain English
+Official Journal of the European Union, L series, 2024/1689, 12.7.2024
 
-Point Cowork at the regulation folder and describe the applicability call you need.
+product-descriptions.docx
 
-/regulatory-briefLegal
+Helios Match
 
-Regulatory / EU-AI-Act
+Ranks and shortlists applicants for enterprise recruiting teams.
 
-### Cowork reads it against your products
+current-privacy-and-ai-policies.pdf
 
-It pulls your product context and the prior rule, then maps each provision.
+Responsible AI Policy v1.2
 
-Running /regulatory-brief
+3. Model review before release
 
-Reading eu-ai-act-final-text.pdf
+Check what a new regulation requires
 
-Result
+A new regulation is out and you need to know what applies to you.
 
-Google Drive · read product-descriptions and 3 policy docs
-
-Result
-
-Microsoft 365 · pulled prior 2021 proposal from SharePoint
-
-Result
-
-Comparing 47 provisions against our three product lines
-
-Result
-
-Created eu-ai-act-applicability-brief.docx
-
-eu-ai-act-applicability-brief.docx
-
-Done
-
-#### Progress
-
-1
-
-Read the regulation text
-
-2
-
-Pull product context and prior rule
-
-3
-
-Map provisions to our products
-
-4
-
-Write the applicability brief
-
-#### Regulatory / EU-AI-Act
-
-PDFeu-ai-act-final-text.pdf
-
-DOCproduct-descriptions.docx
-
-PDFcurrent-privacy-and-ai-policies.pdf
-
-DOCeu-ai-act-applicability-brief.docx
-
-#### Context
-
-Connectors
-
-Google Drive
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23F25022'%20d='M1%201h10.5v10.5H1z'/%3e%3cpath%20fill='%237FBA00'%20d='M12.5%201H23v10.5H12.5z'/%3e%3cpath%20fill='%2300A4EF'%20d='M1%2012.5h10.5V23H1z'/%3e%3cpath%20fill='%23FFB900'%20d='M12.5%2012.5H23V23H12.5z'/%3e%3c/svg%3e)
 
 Microsoft 365
 
-### The applicability brief
+Regulatory / EU-AI-Act
 
-What changed, which articles apply to your products, and what to do by when — ready to circulate.
+3 files
 
-**Art. 6(2) + Annex III §4(a)** — Helios Match screens job applicants, which the final text now classifies high-risk. Conformity assessment, CE marking, and EU-database registration required before continued placement on market. by 2 Aug 2027
+Folder
 
-**Art. 50(2)** — new since the 2021 draft. Studio’s generated images and audio must carry machine-readable provenance marks plus a user-facing AI disclosure. Earliest of our obligations. by 2 Aug 2026
+eu-ai-act-final-text.pdf
 
-**Art. 11 + Annex IV** — both in-scope products need a maintained technical-documentation pack (training data, testing, risk management). Compile alongside the conformity work; it gates the Art. 6 filing. with Art. 6
+144 pages
 
-**Out of scope** — Atlas Analytics matches no Annex III category and is not a GPAI model. No new obligations; current privacy policy holds.
+PDF
 
-EU AI Act applicability brief
+product-descriptions.docx
 
-Document · DOCX · 24 KB · written to Regulatory / EU-AI-Act
+3 products
 
-### Run it on every new regulation
+DOCX
 
-Schedule the skill on a watch folder and the brief drafts itself the moment a rule drops.
+Regulatory Legal
 
-Regulatory
+/gaps
 
-Scheduled
+/policy-diff
 
-New-regulation applicability brief
+/reg-feed-watcher
 
-Runs `/regulatory-brief` on every new file in Regulatory/Watch and writes the brief and action table to a subfolder named for the regulation.
+How can I help you today?
 
-**Weekdays at 9am**
+**/**policy-diff Read this regulation against our product descriptions and current policies. Draft the compliance brief: what changed from the prior rule, which provisions apply to us and why, and for each what we must do and by when. Save it to the folder for product and compliance leads. Which parts of this apply to us, and by when?
 
-Every regulation that drops, what applies to your products and what to do is written before anyone calls.
+Reading eu-ai-act-final-text.pdf0s
+
+Read6 sources
+
+Readeu-ai-act-final-text.pdf, 113 articles, 13 annexes
+
+Readproduct-descriptions.docx, 3 products
+
+Readcurrent-privacy-and-ai-policies.pdf, 4 policies
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23F25022'%20d='M1%201h10.5v10.5H1z'/%3e%3cpath%20fill='%237FBA00'%20d='M12.5%201H23v10.5H12.5z'/%3e%3cpath%20fill='%2300A4EF'%20d='M1%2012.5h10.5V23H1z'/%3e%3cpath%20fill='%23FFB900'%20d='M12.5%2012.5H23V23H12.5z'/%3e%3c/svg%3e)SearchedAI systems inventory.xlsx on SharePoint
+
+CheckedEUR-Lex text and application dates
+
+Checked38 requirements to 3 products and 4 policies
+
+Will the new ranking model in v5 launch in the EU?
+
+Yes, all regions on 17 November
+
+No, the EU stays on v4
+
+Yes, all regions on 17 November
+
+Yes, every region on 17 November.
+
+Used 6 sources41s
+
+I checked the Regulation’s 38 requirements against your three products and four policies: 17 apply to Helios, 14 to Match as high-risk once v5 ships to EU customers on 17 November. Two calls are flagged for counsel, and 12 dated actions carry owners and the policy section each changes.
+
+EU-AI-Act-applicability-brief.docx
+
+Document
+
+Download
+
+EU-AI-Act-action-table.xlsx
+
+Spreadsheet
+
+Download
+
+EU-AI-Act-applicability-brief.docx
+
+HomeInsertDrawDesignLayoutReferencesReviewView
+
+Privileged and confidential · prepared at the direction of counsel
+
+Regulation (EU) 2024/1689 (AI Act)
+
+# Applicability to Helios products and required actions
+
+<table class="meta-tbl mt"><tbody><tr><td>For</td><td>Product and compliance leads</td><td>From</td><td>Legal (draft for GC review)</td><td>Date</td><td>28 August 2026</td></tr>
+<tr><td>Rule text</td><td colspan="5">eu-ai-act-final-text.pdf (OJ L, 12.7.2024, 144 pp.); application dates per the EUR-Lex consolidated text as at today</td></tr>
+<tr><td>Read against</td><td colspan="5">product-descriptions.docx (3 Mar 2026) · current-privacy-and-ai-policies.pdf (4 policies) · AI systems inventory (SharePoint)</td></tr></tbody></table>
+
+<table class="phs"><tbody><tr><td class=""><b>2 Feb 2025</b>Prohibited practices; AI literacy (Art. 4)<em>in application</em></td><td class=""><b>2 Aug 2025</b>General-purpose model chapter<em>in application; we license models, we do not provide them</em></td><td class="now"><b>2 Aug 2026</b>High-risk regime (Chapter III), Art. 50 transparency, penalties and national enforcement<em>this phase</em></td><td class="nxt"><b>2 Aug 2027</b>Art. 6(1): high-risk safety components of regulated products<em>none of ours</em></td></tr></tbody></table>
+
+<table class="kpi"><tbody><tr><td><b>38</b>requirements extracted</td><td><b>17</b>apply to Helios</td><td><b>19</b>not applicable</td><td class="fg"><b>2</b>flagged for counsel</td></tr></tbody></table>
+
+## *§1*What is new in this phase
+
+Already in application and covered by our January policies: prohibited practices and AI literacy (since 2 Feb 2025 — literacy has a gap, see A11) and the general-purpose model chapter (since 2 Aug 2025 — we license models, we do not provide them). Newly in application from 2 Aug 2026: the high-risk regime (Chapter III), the transparency duties in Art. 50, penalties and national enforcement. Still ahead: high-risk systems that are safety components of regulated products (Art. 6(1), 2 Aug 2027) — none of ours.
+
+## *§2*Applicability by product
+
+<table class="aptab"><tbody><tr><th class="clh">Classification</th><th>Why</th><th class="du">Duties attach</th><th class="cfh">Confidence</th></tr><tr class="ph"><td colspan="4"><b>Helios Match</b><span>Ranks and shortlists applicants for customers’ recruiters</span></td></tr><tr class="ar0"><td class="cl0"><span class="cls hr">High-risk</span></td><td class="why0">Annex III point 4(a): recruitment or selection, including filtering applications and evaluating candidates</td><td class="du">Before the v5 EU release, <b>17 Nov 2026</b> (per your answer); v4 is reached only on a significant design change (Art. 111(2))</td><td class="cf0 cf">High</td></tr><tr class="ph"><td colspan="4"><b>Helios Studio</b><span>Generates marketing images and voice-overs</span></td></tr><tr class="ar1"><td class="cl1"><span class="cls tr">Transparency</span></td><td class="why1">Art. 50(2): outputs marked as artificially generated in a machine-readable way</td><td class="du">2 Aug 2026</td><td class="cf1 cf">High</td></tr><tr class="ph"><td colspan="4"><b>Helios Atlas — assistant</b><span>Answers “how do I” questions in the app</span></td></tr><tr class="ar2"><td class="cl2"><span class="cls tr">Transparency</span></td><td class="why2">Art. 50(1): tell users they are interacting with an AI system</td><td class="du">2 Aug 2026</td><td class="cf2 cf">High</td></tr><tr class="ph"><td colspan="4"><b>Helios Atlas — dashboards</b><span>Team-level headcount and attrition trends, no individual scores</span></td></tr><tr class="ar3"><td class="cl3"><span class="cls nh">Not high-risk as described</span></td><td class="why3">Annex III 4(b) covers evaluating individuals at work; aggregates do not</td><td class="du">—</td><td class="cf3 cf"><b>Medium — flag for counsel:</b> the roadmap item “attrition risk by employee” would bring Atlas under 4(b); review before it is built</td></tr><tr class="ph"><td colspan="4"><b>All staff</b></td></tr><tr class="ar4"><td class="cl4"><span class="cls li">AI literacy</span></td><td class="why4">Art. 4: staff dealing with AI systems have sufficient literacy</td><td class="du">Since 2 Feb 2025</td><td class="cf4 cf">High — gap: no training record</td></tr></tbody></table>
+
+### Provision-to-product matrix the 17 applicable requirements and the two flags, read across
+
+<table class="mx"><tbody><tr><th class="pv">Provision</th><th class="m">Helios Match</th><th class="m">Helios Studio</th><th class="m">Atlas assistant</th><th class="m">Atlas dashboards</th><th class="m">All staff</th></tr><tr><td class="pv"><b>Art. 4</b>AI literacy</td><td class="m na">n/a</td><td class="m na">n/a</td><td class="m na">n/a</td><td class="m na">n/a</td><td class="m ap">Applies</td></tr><tr><td class="pv"><b>Arts. 9–15</b>Risk management, data governance, documentation, logging, oversight, accuracy (A1–A5)</td><td class="m ap v5">Applies from v5<small>17 Nov 2026</small></td><td class="m na">n/a</td><td class="m na">n/a</td><td class="m na">n/a</td><td class="m na">n/a</td></tr><tr><td class="pv"><b>Arts. 17, 43, 47–49</b>Quality system, conformity assessment, declaration, CE marking, registration (A6, A12)</td><td class="m ap v5">Applies from v5<small>17 Nov 2026</small></td><td class="m na">n/a</td><td class="m na">n/a</td><td class="m na">n/a</td><td class="m na">n/a</td></tr><tr><td class="pv"><b>Arts. 72–73</b>Post-market monitoring; serious-incident reporting (A7)</td><td class="m ap v5">Applies from v5<small>17 Nov 2026</small></td><td class="m na">n/a</td><td class="m na">n/a</td><td class="m na">n/a</td><td class="m na">n/a</td></tr><tr><td class="pv"><b>Art. 50(1)</b>Tell users they are interacting with an AI system (A9)</td><td class="m na">n/a</td><td class="m na">n/a</td><td class="m ap">Applies</td><td class="m na">n/a</td><td class="m na">n/a</td></tr><tr><td class="pv"><b>Art. 50(2)</b>Mark outputs as artificially generated (A8)</td><td class="m na">n/a</td><td class="m ap">Applies</td><td class="m na">n/a</td><td class="m na">n/a</td><td class="m na">n/a</td></tr><tr><td class="pv"><b>Annex III 4(b)</b>Evaluating individuals at work (A10)</td><td class="m na">n/a</td><td class="m na">n/a</td><td class="m na">n/a</td><td class="m fl">Not as described<small>flag for counsel</small></td><td class="m na">n/a</td></tr></tbody></table>
+
+**Not applicable as described:** Art. 5 practices (none found in the three products), Chapter V GPAI duties (we are downstream), Art. 27 impact assessment (a deployer duty for public bodies, credit and insurance), Annex I product route. **Second flag for counsel:** whether v5 is a “significant change” is a judgment — treated as yes (conservative).
+
+## *§3*Action table
+
+<table class="act"><tbody><tr><th class="an">#</th><th>Action</th><th class="owh">Owner</th><th class="byh">By</th><th class="prh">Provision</th><th class="poh">Policy / document to change</th></tr><tr class="ac0 mt"><td class="an">A1</td><td>Document Match’s risk-management system (hazards, mitigations, residual risk, testing)</td><td class="ow0 ow">R. Adeyemi</td><td class="by0 by">30 Sep</td><td class="pr">Art. 9</td><td class="po">Responsible AI Policy §3 → new §3A</td></tr><tr class="ac1 mt"><td class="an">A2</td><td>Data-governance record for v5 training, validation and test sets</td><td class="ow1 ow">Data lead</td><td class="by1 by">15 Oct</td><td class="pr">Art. 10</td><td class="po">Model Release Standard, new §5</td></tr><tr class="ac2 mt"><td class="an">A3</td><td>Technical documentation to Annex IV for Match v5</td><td class="ow2 ow">L. Moreau</td><td class="by2 by">31 Oct</td><td class="pr">Art. 11, Annex IV</td><td class="po">New template TD-01</td></tr><tr class="ac3 mt"><td class="an">A4</td><td>Event logging retained; recruiter can override or discard any ranking; no auto-reject by default</td><td class="ow3 ow">T. Brandt</td><td class="by3 by">24 Oct</td><td class="pr">Arts. 12, 14</td><td class="po">Match v5 product spec</td></tr><tr class="ac4 mt"><td class="an">A5</td><td>Instructions for use for deployers; accuracy and robustness statement</td><td class="ow4 ow">T. Brandt, Legal</td><td class="by4 by">31 Oct</td><td class="pr">Arts. 13, 15</td><td class="po">Customer admin guide; release notes</td></tr><tr class="ac5 mt"><td class="an">A6</td><td>Quality-management system; internal-control conformity assessment; EU declaration; CE marking; EU database registration</td><td class="ow5 ow">L. Moreau</td><td class="by5 by">14 Nov</td><td class="pr">Arts. 17, 43(2), 47, 48, 49</td><td class="po">Responsible AI Policy new §6</td></tr><tr class="ac6 mt"><td class="an">A7</td><td>Post-market monitoring plan; serious-incident reporting route (15 days)</td><td class="ow6 ow">L. Moreau, Support</td><td class="by6 by">17 Nov</td><td class="pr">Arts. 72, 73</td><td class="po">Responsible AI Policy new §7; Support runbook</td></tr><tr class="ac7"><td class="an">A8</td><td>Studio: provenance metadata in every generated image and audio file; visible “AI-generated” label option</td><td class="ow7 ow">J. Park</td><td class="by7 by">22 Sep</td><td class="pr">Art. 50(2)</td><td class="po">Studio spec; AI disclosures page</td></tr><tr class="ac8"><td class="an">A9</td><td>Atlas assistant: first-use notice “You’re chatting with an AI assistant”</td><td class="ow8 ow">PM Atlas</td><td class="by8 by">22 Sep</td><td class="pr">Art. 50(1)</td><td class="po">Atlas spec</td></tr><tr class="ac9"><td class="an">A10</td><td>Legal review of “attrition risk by employee” before it enters Q4 planning</td><td class="ow9 ow">General Counsel</td><td class="by9 by">10 Oct</td><td class="pr">Annex III 4(b)</td><td class="po">Roadmap gate</td></tr><tr class="ac10"><td class="an">A11</td><td>Role-based AI-literacy training with a completion record</td><td class="ow10 ow">People team</td><td class="by10 by">31 Oct</td><td class="pr">Art. 4</td><td class="po">People handbook, new §12</td></tr><tr class="ac11"><td class="an">A12</td><td>Confirm Helios Software B.V. as the provider named on declarations and registration</td><td class="ow11 ow">Legal</td><td class="by11 by">31 Oct</td><td class="pr">Arts. 3(3), 47, 49</td><td class="po">Entity register</td></tr></tbody></table>
+
+Dates for A1–A7 work back from the v5 EU release (17 Nov) you confirmed; A8–A9 are past the published application date and ship in the next release. Verify article citations against EUR-Lex before relying on them.
+
+Page 1 of 52,140 wordsEnglish (US)Focus90%
+
+Claude says what applies to each of your products, and why.
+
+Each rule that applies becomes a task with an owner and date.
+
+Run this every weekday: if a new file is in Regulatory / Watch, run the same brief against our product descriptions and policies and save it to a subfolder named for the rule.
+
+**New-regulation applicability brief**Weekdays at 9:00 AM
+
+Each run
+
+Checks Regulatory / Watch for new files
+
+Writes the brief and the action table to a subfolder for the rule
+
+Flags uncertain calls*for counsel to review*
+
+Claude Academy
+
+
+
+0:03 / 0:581×
+
+Illustration. Product screens are simplified.
+
+Check what a new regulation requires
+
+A new regulation is out and you need to know what applies to you.
+
+With the Regulatory Legal plugin’s policy skill, ask what applies and why, and what’s due when.
+
+Claude lists what the rule requires, then checks each requirement against your product descriptions and policies.
+
+When something is yours to decide, Claude stops and asks.
+
+Claude says what applies and why, and gives you the brief and action table.
+
+Claude says what applies to each of your products, and why.
+
+Each rule that applies becomes a task with an owner and date.
+
+You can schedule the same brief for every new rule dropped into a watch folder.
+
+You know which parts of the new rule apply, what to change, and by when.
+
+Read this regulation against our product descriptions and current policies. Draft the compliance brief: what changed from the prior rule, which provisions apply to us and why, and for each what we must do and by when. Save it to the folder for product and compliance leads. Which parts of this apply to us, and by when?
+
+Will the new ranking model in v5 launch in the EU? Yes, all regions on 17 November / No, the EU stays on v4
+
+I checked the Regulation’s 38 requirements against your three products and four policies: 17 apply to Helios, 14 to Match as high-risk once v5 ships to EU customers on 17 November. Two calls are flagged for counsel, and 12 dated actions carry owners and the policy section each changes.
+
+EU-AI-Act-applicability-brief.docx, EU-AI-Act-action-table.xlsx
+
+Skill: /policy-diff (Regulatory Legal)
+
+Connectors: Microsoft 365
 
 ## Set up[](https://academy.claude.com/use-cases/regulatory-analysis)
 

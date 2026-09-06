@@ -8,11 +8,229 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-fxf6oslq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lntba6wn.png)
 
-# PRD from a one-pager
+Write a PRD from a problem statement
 
-Interviews you on the problem, reads your folder, and writes the spec.
+You have a one-page problem statement and need a full PRD.
 
-Every one-pager lands back as a structured spec with open questions flagged for review
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%20100%20100'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%235E6AD2'%20d='M1.225%2061.523c-.222-.949.908-1.546%201.597-.857l36.512%2036.512c.689.689.092%201.819-.857%201.597a50.06%2050.06%200%200%201-37.252-37.252Zm-1.22-13.59a.98.98%200%200%200%20.283.724l50.055%2050.055a.98.98%200%200%200%20.724.283%2049.9%2049.9%200%200%200%208.636-1.518.976.976%200%200%200%20.462-1.647L2.17%2038.835a.976.976%200%200%200-1.647.462%2049.9%2049.9%200%200%200-1.518%208.636Zm4.194-17.443a.988.988%200%200%200%20.184%201.152l63.975%2063.975a.988.988%200%200%200%201.152.184%2050.4%2050.4%200%200%200%206.08-3.495.993.993%200%200%200%20.161-1.53L9.224%2024.249a.993.993%200%200%200-1.53.161%2050.4%2050.4%200%200%200-3.495%206.08Zm9.723-13.067a.99.99%200%200%201-.026-1.377C23.068%206.08%2036.765-.002%2051.888-.002c27.59%200%2049.957%2022.367%2049.957%2049.957%200%2015.123-6.082%2028.82-16.048%2038.013a.99.99%200%200%201-1.377-.026z'/%3e%3c/svg%3e)
+
+Linear
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23000'%20d='M4.46%204.44c.74.6%201.02.56%202.42.46l13.18-.79c.28%200%20.05-.28-.05-.32l-2.19-1.58c-.42-.33-.98-.7-2.05-.6L2.99%202.53c-.46.05-.56.28-.37.46l1.84%201.45Zm.8%203.1v13.87c0%20.74.37%201.02%201.21.98l14.49-.84c.84-.05.93-.56.93-1.16V6.6c0-.6-.23-.93-.74-.88l-15.14.88c-.56.05-.75.33-.75.93Zm14.3.74c.1.42%200%20.84-.42.89l-.7.14v10.24c-.6.33-1.16.51-1.63.51-.74%200-.93-.23-1.49-.93l-4.56-7.16v6.93l1.44.33s0%20.84-1.16.84l-3.21.18c-.1-.18%200-.65.33-.74l.84-.23V9.98l-1.16-.1c-.1-.42.14-1.02.79-1.07l3.44-.23%204.75%207.25V9.42l-1.21-.14c-.1-.51.28-.88.74-.93l3.21-.18Z'/%3e%3c/svg%3e)
+
+Notion
+
+Product / prds
+
+Template and one past PRD
+
+Folder
+
+prd-template.docx
+
+Nine sections
+
+DOCX
+
+PRD-bulk-export.docx
+
+Depth to match
+
+DOCX
+
+Product Management
+
+/roadmap-update
+
+/synthesize-research
+
+/write-spec
+
+How can I help you today?
+
+**/**write-spec Write a PRD for the saved-views problem. Interview me first: who hits it, the constraints, how we'd measure success. Draft in prd-template.docx, call out goals and non-goals, match the depth of PRD-bulk-export.docx, and flag every open question for design review.
+
+Reading prd-template.docx0s
+
+Read4 sources
+
+Readprd-template.docx, 9 sections
+
+ReadPRD-bulk-export.docx, depth reference
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%20100%20100'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%235E6AD2'%20d='M1.225%2061.523c-.222-.949.908-1.546%201.597-.857l36.512%2036.512c.689.689.092%201.819-.857%201.597a50.06%2050.06%200%200%201-37.252-37.252Zm-1.22-13.59a.98.98%200%200%200%20.283.724l50.055%2050.055a.98.98%200%200%200%20.724.283%2049.9%2049.9%200%200%200%208.636-1.518.976.976%200%200%200%20.462-1.647L2.17%2038.835a.976.976%200%200%200-1.647.462%2049.9%2049.9%200%200%200-1.518%208.636Zm4.194-17.443a.988.988%200%200%200%20.184%201.152l63.975%2063.975a.988.988%200%200%200%201.152.184%2050.4%2050.4%200%200%200%206.08-3.495.993.993%200%200%200%20.161-1.53L9.224%2024.249a.993.993%200%200%200-1.53.161%2050.4%2050.4%200%200%200-3.495%206.08Zm9.723-13.067a.99.99%200%200%201-.026-1.377C23.068%206.08%2036.765-.002%2051.888-.002c27.59%200%2049.957%2022.367%2049.957%2049.957%200%2015.123-6.082%2028.82-16.048%2038.013a.99.99%200%200%201-1.377-.026z'/%3e%3c/svg%3e)Read14 issues labeled saved-views
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23000'%20d='M4.46%204.44c.74.6%201.02.56%202.42.46l13.18-.79c.28%200%20.05-.28-.05-.32l-2.19-1.58c-.42-.33-.98-.7-2.05-.6L2.99%202.53c-.46.05-.56.28-.37.46l1.84%201.45Zm.8%203.1v13.87c0%20.74.37%201.02%201.21.98l14.49-.84c.84-.05.93-.56.93-1.16V6.6c0-.6-.23-.93-.74-.88l-15.14.88c-.56.05-.75.33-.75.93Zm14.3.74c.1.42%200%20.84-.42.89l-.7.14v10.24c-.6.33-1.16.51-1.63.51-.74%200-.93-.23-1.49-.93l-4.56-7.16v6.93l1.44.33s0%20.84-1.16.84l-3.21.18c-.1-.18%200-.65.33-.74l.84-.23V9.98l-1.16-.1c-.1-.42.14-1.02.79-1.07l3.44-.23%204.75%207.25V9.42l-1.21-.14c-.1-.51.28-.88.74-.93l3.21-.18Z'/%3e%3c/svg%3e)ReadSaved views discovery notes, 6 interviews
+
+Who should the first version be built for?
+
+Support leads rebuilding filters (9 requests)
+
+Admins wanting one team view (3)
+
+Analysts exporting filtered lists (2)
+
+Support leads rebuilding filters (9 requests)
+
+Support leads.
+
+Used 4 sources52s
+
+I read the 14 requests, asked you about users, constraints and success, and drafted the PRD in prd-template.docx at the bulk-export depth: four goals, three non-goals, nine requirements. Five open questions go to design review; two are answers I assumed, so check those first.
+
+saved-views-prd.docx
+
+Document
+
+Download
+
+saved-views-prd.docx
+
+HomeInsertDrawDesignLayoutReferencesReviewView
+
+# Saved views PRD
+
+<table class="pm"><tbody><tr><td>Author</td><td>Lena Marsh · Quarry, Support Product</td><td>Status</td><td><span class="pill b">Draft — for design review</span></td></tr>
+<tr><td>Last updated</td><td>28 Aug 2026</td><td>Template</td><td>prd-template.docx (9 sections)</td></tr>
+<tr><td>Requests</td><td>Linear label <code>saved-views</code> (14)</td><td>Discovery</td><td>6 interviews (Notion)</td></tr></tbody></table>
+
+## *1*Problem
+
+Support leads on Team and Scale plans rebuild the same four to six filters on the ticket list every morning: queue, priority, SLA state, assignee group. 9 of 14 open requests describe this; in the six discovery interviews the median lead changed filters six times before opening a first ticket, about three minutes a day each across roughly 1,900 weekly active leads.
+
+## *2*Goals and non-goals
+
+### Goals (v1)
+
+1. **G1**Save the current filters and sort as a named view, and reopen it in one click.
+2. **G2**Views persist per user across devices through the user-preferences service.
+3. **G3**Up to ten views per user: rename, reorder, delete.
+4. **G4**Views respect the October permissions model; a view never shows a ticket the user cannot open.
+
+### Non-goals
+
+- Sharing a view with teammates (later version; 3 requests logged: SUP-409, SUP-388, SUP-371).
+- Scheduled or filtered exports (2 requests).
+- Any change to the filter-service backend this quarter.
+
+## *3*Users
+
+<table class="pt"><tbody><tr><td>Primary</td><td>Support leads (v1)</td></tr><tr><td>Secondary</td><td>Admins setting up new agents, served later by sharing</td></tr></tbody></table>
+
+## *4*Requirements
+
+Nine, grouped Create, Manage, Apply; each with behavior, acceptance criteria and edge cases.
+
+<table class="pt req"><tbody><tr><th style="width:84px">Group</th><th style="width:70px">IDs</th><th>Covers</th></tr><tr><td>Create</td><td>R1–R3</td><td>Save the current filters and sort as a named view (G1, G2).</td></tr><tr><td>Manage</td><td>R4–R6</td><td>Up to ten views per user: rename, reorder, delete (G3).</td></tr><tr><td>Apply</td><td>R7–R9</td><td>Reopen a view in one click within the permissions model (G1, G4). <b>R7:</b> applying a view replaces current filters; unsaved changes prompt “Update view / Save as new / Discard”.</td></tr></tbody></table>
+
+## *5*Success metrics
+
+<table class="pt sm"><tbody><tr><th>Metric</th><th class="r" style="width:80px">Baseline</th><th class="r" style="width:96px">Target</th><th style="width:170px">Measured</th></tr><tr><td>Filter changes per session, support leads</td><td class="r">6</td><td class="r">2 or fewer</td><td>Within 30 days of release</td></tr><tr><td>Weekly active leads with at least one saved view</td><td class="r">—</td><td class="r">40%</td><td>By day 60</td></tr></tbody></table>
+
+## *6*Open questions for design review · 5 open, 2 assumed
+
+<table class="oq"><tbody><tr><th style="width:22px">#</th><th>Question</th><th style="width:128px">Owner</th><th style="width:176px">Status</th></tr><tr><td>1</td><td>Where does “Save view” live: the filter bar or the overflow menu?</td><td>Design review</td><td><span class="pill k">Open</span></td></tr><tr><td>2</td><td>Default on load: last-used view or All tickets?</td><td>Design review</td><td><i class="as">Assumed last-used; you didn’t say</i></td></tr><tr><td>3</td><td>What happens to a view when a filter field is retired?</td><td>Design review, Eng</td><td><span class="pill k">Open</span></td></tr><tr><td>4</td><td>Ten-view limit: hard cap or warning?</td><td>Design review</td><td><i class="as">Assumed hard cap; confirm</i></td></tr><tr><td>5</td><td>Duplicate view names: block or auto-suffix?</td><td>Design review</td><td><span class="pill k">Open</span></td></tr></tbody></table>
+
+## *7*Risks
+
+- Preference-service latency on first load.
+- Ten-view cap felt as arbitrary by power users.
+
+Page 1 of 41,412 wordsEnglish (US)Focus90%
+
+Goals and non-goals come from your answers, in your template’s sections.
+
+saved-views-prd.docx
+
+HomeInsertDrawDesignLayoutReferencesReviewView
+
+# Saved views PRD
+
+<table class="pm"><tbody><tr><td>Author</td><td>Lena Marsh · Quarry, Support Product</td><td>Status</td><td><span class="pill b">Draft — for design review</span></td></tr>
+<tr><td>Last updated</td><td>28 Aug 2026</td><td>Template</td><td>prd-template.docx (9 sections)</td></tr>
+<tr><td>Requests</td><td>Linear label <code>saved-views</code> (14)</td><td>Discovery</td><td>6 interviews (Notion)</td></tr></tbody></table>
+
+## *1*Problem
+
+Support leads on Team and Scale plans rebuild the same four to six filters on the ticket list every morning: queue, priority, SLA state, assignee group. 9 of 14 open requests describe this; in the six discovery interviews the median lead changed filters six times before opening a first ticket, about three minutes a day each across roughly 1,900 weekly active leads.
+
+## *2*Goals and non-goals
+
+### Goals (v1)
+
+1. **G1**Save the current filters and sort as a named view, and reopen it in one click.
+2. **G2**Views persist per user across devices through the user-preferences service.
+3. **G3**Up to ten views per user: rename, reorder, delete.
+4. **G4**Views respect the October permissions model; a view never shows a ticket the user cannot open.
+
+### Non-goals
+
+- Sharing a view with teammates (later version; 3 requests logged: SUP-409, SUP-388, SUP-371).
+- Scheduled or filtered exports (2 requests).
+- Any change to the filter-service backend this quarter.
+
+## *3*Users
+
+<table class="pt"><tbody><tr><td>Primary</td><td>Support leads (v1)</td></tr><tr><td>Secondary</td><td>Admins setting up new agents, served later by sharing</td></tr></tbody></table>
+
+## *4*Requirements
+
+Nine, grouped Create, Manage, Apply; each with behavior, acceptance criteria and edge cases.
+
+<table class="pt req"><tbody><tr><th style="width:84px">Group</th><th style="width:70px">IDs</th><th>Covers</th></tr><tr><td>Create</td><td>R1–R3</td><td>Save the current filters and sort as a named view (G1, G2).</td></tr><tr><td>Manage</td><td>R4–R6</td><td>Up to ten views per user: rename, reorder, delete (G3).</td></tr><tr><td>Apply</td><td>R7–R9</td><td>Reopen a view in one click within the permissions model (G1, G4). <b>R7:</b> applying a view replaces current filters; unsaved changes prompt “Update view / Save as new / Discard”.</td></tr></tbody></table>
+
+## *5*Success metrics
+
+<table class="pt sm"><tbody><tr><th>Metric</th><th class="r" style="width:80px">Baseline</th><th class="r" style="width:96px">Target</th><th style="width:170px">Measured</th></tr><tr><td>Filter changes per session, support leads</td><td class="r">6</td><td class="r">2 or fewer</td><td>Within 30 days of release</td></tr><tr><td>Weekly active leads with at least one saved view</td><td class="r">—</td><td class="r">40%</td><td>By day 60</td></tr></tbody></table>
+
+## *6*Open questions for design review · 5 open, 2 assumed
+
+<table class="oq"><tbody><tr><th style="width:22px">#</th><th>Question</th><th style="width:128px">Owner</th><th style="width:176px">Status</th></tr><tr><td>1</td><td>Where does “Save view” live: the filter bar or the overflow menu?</td><td>Design review</td><td><span class="pill k">Open</span></td></tr><tr><td>2</td><td>Default on load: last-used view or All tickets?</td><td>Design review</td><td><i class="as">Assumed last-used; you didn’t say</i></td></tr><tr><td>3</td><td>What happens to a view when a filter field is retired?</td><td>Design review, Eng</td><td><span class="pill k">Open</span></td></tr><tr><td>4</td><td>Ten-view limit: hard cap or warning?</td><td>Design review</td><td><i class="as">Assumed hard cap; confirm</i></td></tr><tr><td>5</td><td>Duplicate view names: block or auto-suffix?</td><td>Design review</td><td><span class="pill k">Open</span></td></tr></tbody></table>
+
+## *7*Risks
+
+- Preference-service latency on first load.
+- Ten-view cap felt as arbitrary by power users.
+
+Page 1 of 41,412 wordsEnglish (US)Focus90%
+
+Claude Academy
+
+
+
+0:03 / 0:481×
+
+Illustration. Product screens are simplified.
+
+Write a PRD from a problem statement
+
+You have a one-page problem statement and need a full PRD.
+
+With the Product Management plugin’s spec skill, have Claude interview you first and name your template.
+
+Claude reads the template, your example and the open requests before it asks anything.
+
+Claude asks you first wherever your judgment is needed.
+
+Claude tells you what it assumed, then gives you the PRD.
+
+Goals and non-goals come from your answers, in your template’s sections.
+
+Each open question has an owner, and Claude’s assumptions are marked.
+
+Design review starts from a full PRD with the open questions marked.
+
+Write a PRD for the saved-views problem. Interview me first: who hits it, the constraints, how we'd measure success. Draft in prd-template.docx, call out goals and non-goals, match the depth of PRD-bulk-export.docx, and flag every open question for design review.
+
+Who should the first version be built for? Support leads rebuilding filters (9 requests) / Admins wanting one team view (3) / Analysts exporting filtered lists (2)
+
+I read the 14 requests, asked you about users, constraints and success, and drafted the PRD in prd-template.docx at the bulk-export depth: four goals, three non-goals, nine requirements. Five open questions go to design review; two are answers I assumed, so check those first.
+
+saved-views-prd.docx
+
+Skill: /write-spec (Product Management)
+
+Connectors: Linear, Notion
 
 ## Set up[](https://academy.claude.com/use-cases/prd-from-a-one-pager)
 

@@ -8,7 +8,7 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-code-in-action%2Fsteering-long-sessions)
 
-Embedded media: https://www.youtube-nocookie.com/embed/l\_4ZYAiyP7U?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+Embedded media: https://www.youtube-nocookie.com/embed/RWH3Z0ROCVc?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 Steering long sessions
 
@@ -21,7 +21,7 @@ The good news is that you have a lot of tools to help Claude during these
 long sessions. It really comes down to two habits: scope the work before
 Claude starts, and steer it while it runs. Let's walk through both.
 
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=l_4ZYAiyP7U)
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=RWH3Z0ROCVc)
 
 ## Scope the work first with plan mode[](https://academy.claude.com/courses/claude-code-in-action/steering-long-sessions)
 

@@ -41,7 +41,7 @@ With SCIM, login and provisioning are separate. Your IdP tells Anthropic who sho
 
 **Important**: Store this key securely. It cannot be retrieved after you leave the page.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256040196/c3b045028c4c2edef9172b6fb424/9a71258e-ae73-41e3-83a2-d24a240ac0ae?expires=1788600600&amp;signature=b6f6d4b1dc457e5db149d3102b53b73b036bc3b571877a588158abdb91679c56&amp;req=diIiEMl6nYBWX%2FMW1HO4zSrRlaQZaTYSyIvvU1hav7ORe7ct6gdU981yknjD%0AJfw1vrk9vLlfZYMD7X8%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256040196/c3b045028c4c2edef9172b6fb424/9a71258e-ae73-41e3-83a2-d24a240ac0ae?expires=1788688800&amp;signature=2a28e5f21cfa1472460b7cbbf161ee002a4d3ba86b467a34c251347c23d7b544&amp;req=diIiEMl6nYBWX%2FMW1HO4zSrRlaQZYT4cyIvvU1hav7NDVw09iUSiy%2FXXK4Vm%0AaLfMi%2FpGA%2Fk8CJAKzow%3D%0A)
 
 ### Step 2: Configure SCIM in your Identity Provider
 
@@ -67,7 +67,7 @@ After enabling the integration in your IdP:
 
 **Warning**: When you fully enable SCIM provisioning, any users who were **not** synced via SCIM will be removed from the organization. Confirm that all expected users appear in the sync before proceeding.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256040198/da9188b8b968d5f900cc08e9ceb2/3814ab37-c3fa-4256-8d16-49c1e1b4c654?expires=1788600600&amp;signature=de529f43cd87b815bb7cf05c8f1983d67f57afaa2cc57f476bb2e7dc7e729d37&amp;req=diIiEMl6nYBWUfMW1HO4zeLvMlBpSkz8oWupW8zJgMrsdl1GLAJqLDFNf0XD%0Ad9gZ2AVqix9xmHOloBc%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256040198/da9188b8b968d5f900cc08e9ceb2/3814ab37-c3fa-4256-8d16-49c1e1b4c654?expires=1788688800&amp;signature=85a2b735e25ea0a767de504e026187bf327764c290d44de9eccd32db23ecf395&amp;req=diIiEMl6nYBWUfMW1HO4zeLvMlBpQkTyoWupW8zJgMpIFqGhDkTYWW%2FTE7BW%0AY9ZA7ltKOPtoHG07k%2F4%3D%0A)
 
 ### Step 4: Map groups to roles and seat tiers
 
@@ -83,7 +83,7 @@ SCIM provisioning uses IdP groups to assign roles and seat tiers within Claude f
 
 3. Save your mappings.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256056441/f7eb09bba549e9861fc81b961cc7/2760fa5b-87bb-491f-9354-ca3cd2bc4475?expires=1788600600&amp;signature=78513bfac1f207e0a2528379c88affff20410b4a3e9f4fac0b5d7b352dc4d6da&amp;req=diIiEMl7m4VbWPMW1HO4zaWhsXskskcdh340B79BYGbY7nb%2BT697NOYjcyA8%0AC4lhOVsJuNgCt6uJxjQ%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256056441/f7eb09bba549e9861fc81b961cc7/2760fa5b-87bb-491f-9354-ca3cd2bc4475?expires=1788688800&amp;signature=40483bb83cdf7b746ae1b963f128db6a9d94ee218e856f7847da211dce921d0f&amp;req=diIiEMl7m4VbWPMW1HO4zaWhsXskuk8Th340B79BYGZ32tAvTl1CAHMlfNax%0AjlJSJrXYjC%2FGBHUwRds%3D%0A)
 
 If you manage multiple organizations under a single parent (see below), each organization maintains its own role and seat tier mappings. Switch between organizations using the organization selector in the bottom-left corner of the page.
 

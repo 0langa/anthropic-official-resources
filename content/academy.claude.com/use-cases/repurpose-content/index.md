@@ -1,6 +1,6 @@
 # Repurpose content across channels
 
-Social threads, email copy, and PowerPoint, Word, and Excel deliverables from one blog post.
+A blog post, a LinkedIn thread, and short social posts from one webinar, each in your voice.
 
 10 minMarketingClaude Cowork
 
@@ -8,9 +8,245 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-f5u6vtsc.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-0bz1039p.png)
 
-# Repurpose a webinar
+Repurpose content across channels
 
-Reads the transcript and slides, then drafts the blog post, thread, and social posts.
+You have one webinar talk and each channel needs its own version of it.
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23000'%20d='M4.46%204.44c.74.6%201.02.56%202.42.46l13.18-.79c.28%200%20.05-.28-.05-.32l-2.19-1.58c-.42-.33-.98-.7-2.05-.6L2.99%202.53c-.46.05-.56.28-.37.46l1.84%201.45Zm.8%203.1v13.87c0%20.74.37%201.02%201.21.98l14.49-.84c.84-.05.93-.56.93-1.16V6.6c0-.6-.23-.93-.74-.88l-15.14.88c-.56.05-.75.33-.75.93Zm14.3.74c.1.42%200%20.84-.42.89l-.7.14v10.24c-.6.33-1.16.51-1.63.51-.74%200-.93-.23-1.49-.93l-4.56-7.16v6.93l1.44.33s0%20.84-1.16.84l-3.21.18c-.1-.18%200-.65.33-.74l.84-.23V9.98l-1.16-.1c-.1-.42.14-1.02.79-1.07l3.44-.23%204.75%207.25V9.42l-1.21-.14c-.1-.51.28-.88.74-.93l3.21-.18Z'/%3e%3c/svg%3e)
+
+Notion
+
+Webinars / aug-beyond-connector-count
+
+5 files
+
+Folder
+
+beyond-connector-count-transcript.txt
+
+58 minutes
+
+TXT
+
+brand-voice-guide.pdf
+
+House voice
+
+PDF
+
+Marketing
+
+/brand-review
+
+/campaign-plan
+
+/draft-content
+
+How can I help you today?
+
+**/**draft-content Draft a blog post, a LinkedIn thread and three short social posts from this webinar. Match the voice of our recent posts and lead each piece with the strongest point from the talk, not a recap of the agenda.
+
+Reading the transcript0s
+
+Read6 sources
+
+Readbeyond-connector-count-transcript.txt, 58 min
+
+Readbeyond-connector-count-slides.pdf, 24 slides
+
+Readattendee-questions.txt, 47 questions
+
+Readbrand-voice-guide.pdf
+
+Readrecent-posts, three published posts
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23000'%20d='M4.46%204.44c.74.6%201.02.56%202.42.46l13.18-.79c.28%200%20.05-.28-.05-.32l-2.19-1.58c-.42-.33-.98-.7-2.05-.6L2.99%202.53c-.46.05-.56.28-.37.46l1.84%201.45Zm.8%203.1v13.87c0%20.74.37%201.02%201.21.98l14.49-.84c.84-.05.93-.56.93-1.16V6.6c0-.6-.23-.93-.74-.88l-15.14.88c-.56.05-.75.33-.75.93Zm14.3.74c.1.42%200%20.84-.42.89l-.7.14v10.24c-.6.33-1.16.51-1.63.51-.74%200-.93-.23-1.49-.93l-4.56-7.16v6.93l1.44.33s0%20.84-1.16.84l-3.21.18c-.1-.18%200-.65.33-.74l.84-.23V9.98l-1.16-.1c-.1-.42.14-1.02.79-1.07l3.44-.23%204.75%207.25V9.42l-1.21-.14c-.1-.51.28-.88.74-.93l3.21-.18Z'/%3e%3c/svg%3e)ReadContent calendar, September
+
+Which point from the talk should lead every piece?
+
+Six deep integrations outran forty
+
+Rollouts stall in month two
+
+Admins decide what survives renewal
+
+Six deep integrations outran forty
+
+Six deep integrations outran forty.
+
+Used 6 sources45s
+
+I read the 58-minute transcript, the slides, the 47 attendee questions and your voice guide, and wrote the blog post, the LinkedIn thread and three short posts to the webinar folder. Each piece opens on the point you picked, and Jonas’s quote needs his sign-off before anything goes out.
+
+beyond-connector-count-post.docx
+
+Document
+
+Download
+
+social-drafts.docx
+
+Document
+
+Download
+
+**beyond-connector-count-post***.DOCX*
+
+FileEditViewInsertFormatToolsExtensionsHelp
+
+Share*▾*EB
+
+Relay blog · From the webinar · 1,040 words · goes out with the recording, Tue 1 Sep
+
+# Six deep integrations outran forty shallow ones
+
+What two hundred Relay rollouts taught us about the first month: the teams that reached steady weekly use fastest connected less, and finished what they connected.
+
+MC**Maya Chen**, Customer Success · Draft for review · recording and slides linked at the end
+
+Across two hundred rollouts between January 2025 and June 2026, the number that predicted steady weekly use was not how many connectors a team switched on in its first month. It was how many of them were deep: writing data back, owned by a named person, and used every week.
+
+## Depth, not count, predicted steady use
+
+Teams with six or fewer deep integrations reached steady weekly use, which we count as 60% of licensed users active three weeks running, in a median of five weeks. Teams with more than twenty took eleven.
+
+Median weeks to steady weekly use, by integrations live at day 30024681012 wk1–6, all deep5 wk · 64 teams7–127 wk · 71 teams13–209 wk · 38 teamsMore than 2011 wk · 27 teams
+
+Source: Relay customer-success data, 200 rollouts, Jan 2025 – Jun 2026 · webinar 12:40–16:05 and slides 9–11
+
+## Month two is where shallow rollouts stall
+
+Alpina Foods had forty connectors live by week three. By month two nobody on the team could say which ones mattered, and weekly use had flattened. What changed was cutting to six.
+
+> “Six that carry the work. The other thirty-four were somebody’s good idea in a kickoff meeting.”
+>
+> Jonas Weber, Alpina Foods · webinar 15:40 · needs Jonas’s sign-off before publishing
+
+## Three checks before you add another connector
+
+1. Does it write data back, or only read?
+2. Does it have a named owner past the kickoff?
+3. Will somebody on the team use it every week?
+
+If the answer to any of the three is no, leave it off for now. The recording answers the twelve questions we did not get to live, starting with Priyanka’s on how we define steady use.
+
+Watch the 58-minute recording
+
+The post leads with the point you chose and cites the chart’s source.
+
+# LinkedIn thread and short posts
+
+Draft · from “Beyond connector count”, the 26 Aug webinar · publish Tue 1 Sep with the recording · voice per brand-voice-guide.pdf: plain, first person, numbers over adjectives
+
+## LinkedIn thread · Maya Chen · 7 posts
+
+1. **1/7**
+
+   Five weeks versus eleven. Across 200 Relay rollouts, teams with six or fewer deep integrations reached steady weekly use in five weeks. Teams with more than twenty took eleven. Depth beat count, every time. ↓
+
+   208 / 3,000
+2. **2/7**
+
+   “Deep” means three things at once: it writes data back, it has a named owner, and somebody uses it every week. Two out of three is a shallow integration with a good excuse.
+
+   172 / 3,000
+3. **3/7**
+
+   Month two is where the shallow rollouts stall. Forty connectors by week three; by week eight nobody can tell you which ones matter.
+
+   131 / 3,000
+4. **4/7**
+
+   Jonas Weber at Alpina Foods cut from forty to six: “Six that carry the work. The other thirty-four were somebody’s good idea in a kickoff meeting.” confirm the quote with Jonas
+
+   147 / 3,000
+5. **5/7**
+
+   Three checks before you add another connector: 1) Does it write data back, or only read? 2) Does it have a named owner past the kickoff? 3) Will somebody on the team use it every week?
+
+   184 / 3,000
+6. **6/7**
+
+   What we count as steady: 60% of licensed users active three weeks running. A high bar, on purpose.
+
+   98 / 3,000
+7. **7/7**
+
+   The full 58-minute talk, the slides and the twelve questions we ran out of time for are in the post. Link in the first comment. link goes in comment 1, not the post
+
+   127 / 3,000
+
+## Short posts · 3
+
+### Relay company page · LinkedIn with the 40-second clip at 13:05
+
+200 rollouts, one pattern. The teams that reached steady weekly use fastest had six deep integrations, not forty shallow ones. Maya Chen explains the three checks in under a minute; full talk in the comments.
+
+208 characters
+
+### X · @relayhq with the chart image
+
+200 rollouts, one pattern: six deep integrations beat forty shallow ones to steady weekly use. 5 weeks vs 11. Maya Chen’s full talk and the three checks ↓
+
+154 / 280
+
+### Relay Community · Announcements pin for two weeks
+
+The recording of “Beyond connector count” is up, with the slides and written answers to the twelve questions we did not reach live. Start with the three checks on page 2 if you are mid-rollout.
+
+193 characters
+
+Run this every Friday at 9am: find the newest transcript in Webinars, run /draft-content with the voice guide, and write the post and social drafts to that webinar’s folder.
+
+**Webinar repurpose drafts**Fridays at 9:00 AM
+
+Each run
+
+Finds the newest transcript in Webinars
+
+Runs /draft-content with your voice guide
+
+Writes the post and social drafts to that webinar’s folder*for you to review*
+
+Claude Academy
+
+
+
+0:03 / 0:551×
+
+Illustration. Product screens are simplified.
+
+Repurpose content across channels
+
+You have one webinar talk and each channel needs its own version of it.
+
+Using the Marketing plugin’s draft content skill, name each format and put the strongest point first.
+
+Claude reads the transcript, slides and questions, then your voice guide and recent posts.
+
+Claude asks you first wherever your judgment is needed.
+
+Claude tells you what it wrote, then gives you the post and the social drafts.
+
+The post leads with the point you chose and cites the chart’s source.
+
+The thread opens on the same line, with three short posts under it.
+
+Schedule it after each webinar, and the drafts are in the folder next morning.
+
+One talk becomes a draft for every channel, in your voice.
+
+Draft a blog post, a LinkedIn thread and three short social posts from this webinar. Match the voice of our recent posts and lead each piece with the strongest point from the talk, not a recap of the agenda.
+
+Which point from the talk should lead every piece? Six deep integrations outran forty / Rollouts stall in month two / Admins decide what survives renewal
+
+I read the 58-minute transcript, the slides, the 47 attendee questions and your voice guide, and wrote the blog post, the LinkedIn thread and three short posts to the webinar folder. Each piece opens on the point you picked, and Jonas’s quote needs his sign-off before anything goes out.
+
+beyond-connector-count-post.docx, social-drafts.docx
+
+Skill: /draft-content (Marketing)
+
+Connectors: Notion
 
 ## Set up[](https://academy.claude.com/use-cases/repurpose-content)
 

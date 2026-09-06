@@ -8,95 +8,213 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-e7bnk7fu.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gpzn7vel.png)
 
-# Synthesize user interviews into findings
+Turn user interviews into findings
 
-Reads every transcript, writes the themed findings doc with attributed quotes.
+Your user interviews are done, and the team needs the findings this week.
 
-## Ask in plain English
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23FCB400'%20d='M11.99%202.07%202.36%206.05c-.54.22-.53.98.01%201.19l9.67%203.83c.83.33%201.75.33%202.58%200l9.67-3.83c.54-.21.55-.97.01-1.19l-9.63-3.98a3.5%203.5%200%200%200-2.68%200Z'/%3e%3cpath%20fill='%2318BFFF'%20d='M12.92%2013.07v9.57c0%20.46.46.77.88.6l10.77-4.18a.64.64%200%200%200%20.41-.6V8.89c0-.46-.46-.77-.88-.6l-10.77%204.18a.64.64%200%200%200-.41.6Z'/%3e%3cpath%20fill='%23F82B60'%20d='M10.4%2013.56.98%2018.11c-.42.2-.98-.1-.98-.58V8.96c0-.17.09-.33.22-.44.14-.12.3-.19.48-.21.15-.02.3%200%20.44.06l9.24%203.66c.51.2.53.93.02%201.53Z'/%3e%3cpath%20fill='%23BA1E45'%20d='m10.4%2013.56-2.8%201.35L.22%208.52c.14-.12.3-.19.48-.21.15-.02.3%200%20.44.06l9.24%203.66c.51.2.53.93.02%201.53Z'/%3e%3c/svg%3e)
 
-Point Cowork at the study folder and describe the synthesis you need.
-
-/research-synthesisDesign
+Airtable
 
 Research / Onboarding-Study-Q2
 
-## Cowork reads every transcript
+12 transcripts and the guide
 
-The skill clusters what participants said and the Progress card tracks the plan as it runs.
+Folder
 
-Working on research synthesis
+discussion-guide.pdf
 
-Reading Airtable research tracker
+5 sections, 14 questions
 
-Result
+PDF
 
-Reading P01-transcript.txt
+Design
 
-Result
+/design-critique
 
-Reading P02-transcript.txt
+/research-synthesis
 
-Result
+/user-research
 
-Clustering observations into themes
+How can I help you today?
 
-Result
+**/**research-synthesis Synthesize the interview transcripts into a research findings doc. Cluster the observations into 5-7 themes, name each plainly, support each with 2-3 verbatim quotes attributed to participant ID, and end with the open questions the team still needs to answer.
 
-Writing onboarding-findings.docx
+Reading the discussion guide0s
 
-Result
+Read4 sources
 
-#### Progress
+Readdiscussion-guide.pdf, 14 questions
 
-1
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23FCB400'%20d='M11.99%202.07%202.36%206.05c-.54.22-.53.98.01%201.19l9.67%203.83c.83.33%201.75.33%202.58%200l9.67-3.83c.54-.21.55-.97.01-1.19l-9.63-3.98a3.5%203.5%200%200%200-2.68%200Z'/%3e%3cpath%20fill='%2318BFFF'%20d='M12.92%2013.07v9.57c0%20.46.46.77.88.6l10.77-4.18a.64.64%200%200%200%20.41-.6V8.89c0-.46-.46-.77-.88-.6l-10.77%204.18a.64.64%200%200%200-.41.6Z'/%3e%3cpath%20fill='%23F82B60'%20d='M10.4%2013.56.98%2018.11c-.42.2-.98-.1-.98-.58V8.96c0-.17.09-.33.22-.44.14-.12.3-.19.48-.21.15-.02.3%200%20.44.06l9.24%203.66c.51.2.53.93.02%201.53Z'/%3e%3cpath%20fill='%23BA1E45'%20d='m10.4%2013.56-2.8%201.35L.22%208.52c.14-.12.3-.19.48-.21.15-.02.3%200%20.44.06l9.24%203.66c.51.2.53.93.02%201.53Z'/%3e%3c/svg%3e)ReadOnboarding study Q2, 12 participants
 
-Read research tracker
+Read12 transcripts in Research / Onboarding-Study-Q2
 
-2
+Readeach participant’s answers to the guide
 
-Read interview transcripts
+Do the few join-notification requests count as a finding?
 
-3
+List it as an open question
 
-Cluster into named themes
+Yes, report it as a finding
 
-4
+List it as an open question
 
-Pull supporting quotes
+Not yet, list it as an open question.
 
-5
+Used 4 sources46s
 
-Write findings to folder
+I read all 12 transcripts against your guide and participant list and grouped them into six findings, each with a participant count and quotes attributed by ID. Four open questions close the doc; the join notifications are the first, kept open as you decided.
 
-## Review-ready findings
+Onboarding-study-Q2-findings.docx
 
-Named themes with verbatim quotes, attributed by participant, saved back to the study folder.
+Document
 
-**Permissions feel like a wall.** Six of eight participants stalled at the access-request step before reaching the product. “I just wanted to see the dashboard, not file a ticket to see the dashboard” (P03).
+Download
 
-**The empty state doesn’t teach.** First-run users could not tell what to do next once they were in. “It said get started but there was literally nothing to click” (P07).
+# Onboarding study, Q2 — findings
 
-**Open questions.** Do returning users hit the same permissions wall, or is this first-session only? Two participants mentioned a workaround the guide didn’t probe.
+Research findings, draft for the Onboarding squad · UX Research
 
-Onboarding study findings
+<table class="meta-tbl study"><tbody><tr><td>Study</td><td>First 14 days for new workspace admins</td><td>Sessions</td><td>12 interviews, 14–25 April 2026</td></tr><tr><td>Participants</td><td>Business plan 7, Enterprise 5 · IDs P01–P12, no names</td><td>Method</td><td>Moderated interviews to discussion-guide.pdf (5 sections, 14 questions)</td></tr><tr><td>Prepared by</td><td>UX Research for the Onboarding squad</td><td>Sources</td><td>12 transcripts · participant roster (Airtable)</td></tr></tbody></table>
 
-Document · DOCX · 24 KB
+Twelve admins walked us through their first two weeks. Six findings follow, ranked by how many participants showed the behavior; each carries two or three verbatim quotes attributed by participant ID, plan and role (no names, per the study protocol). Four open questions close the document; the first is one you chose to keep open rather than report.
 
-## Make it run every interview day
+## Key findings
 
-Customize the format once, then schedule it — the findings update each evening as new sessions land.
+<table class="dt kf"><thead><tr><th class="n">#</th><th>Finding</th><th class="r">Participants (of 12)</th></tr></thead><tbody><tr><td class="n">1</td><td>Admins finish setup alone before they invite anyone</td><td class="r">9</td></tr><tr><td class="n">2</td><td>The permissions step reads as a risk, so people stop and ask IT</td><td class="r">8</td></tr><tr><td class="n">3</td><td>The checklist is used as a map of the product, not as a to-do list</td><td class="r">7</td></tr><tr><td class="n">4</td><td>Connecting the first integration is when the product starts to feel real</td><td class="r">10</td></tr><tr><td class="n">5</td><td>Sample data helps on day one and gets in the way by day five</td><td class="r">6</td></tr><tr><td class="n">6</td><td>On the Business plan, billing questions come up before the product has shown value</td><td class="r">7</td></tr></tbody></table>
 
-Research
+## 1. Admins finish setup alone before they invite anyone 9 of 12
 
-Scheduled
+Nine admins completed every setup step before sending a single invitation; five said they wanted it “ready” first.
 
-Rolling research synthesis
+“I didn’t want people landing in a half-built thing with my name on it.”P01, workspace admin · Enterprise
 
-Runs `/research-synthesis` on any new transcripts in Onboarding-Study-Q2 and updates the findings doc with which themes moved.
+## 2. The permissions step reads as a risk, so people stop and ask IT 8 of 12
 
-Weekdays at **6 pm**
+**8 of 12 participants** paused setup at the roles and invitations screen; all 5 Enterprise admins did, and 3 of 7 on Business. The median pause before they continued was two days.
 
-Close the last interview and the themed findings doc is already drafted.
+“I got to the roles screen and just stopped. If I give someone admin by mistake, that’s a security ticket with my name on it.”P03, workspace admin · Enterprise
+
+“I screenshotted it and sent it to our IT person … he got back to me Thursday. So Tuesday to Thursday I didn’t touch it.”P07, team lead · Business
+
+“It says members can invite members. Can they invite anyone? Like, outside the company?”P11, workspace admin · Business
+
+**What we saw.** The screen is accurate but does not say what each role can do or that invitations are limited to the company domain, so cautious admins treat it as a decision they are not allowed to make. Nobody mentioned the help article linked from the screen.
+
+## 3. The checklist is used as a map of the product, not as a to-do list 7 of 12
+
+Seven participants opened the checklist to see what the product could do and closed it without ticking anything.
+
+“It’s a menu, basically. I read it, I didn’t do it.”P05, team lead · Business
+
+Findings 4–6 continue on page 3.
+
+## Open questions
+
+1. *Kept open per your call.* Four participants (P02, P07, P09, P12) asked, unprompted, to be notified when a teammate accepts an invitation. The guide did not cover notifications, so we do not know how widespread this is — worth two questions in round two before it is treated as a finding.
+2. Do returning admins hit the permissions pause again when they add a second team, or is it a first-week effect only? All 12 sessions were in the first 14 days.
+3. Finding 6 rests on 7 Business-plan participants. Is the early billing anxiety about price, or about not knowing what the trial converts to? The transcripts support both readings.
+4. Two participants (P04, P10) described a workaround for sample data — a second “sandbox” workspace — that the guide did not probe. Is that common enough to design for?
+
+Each finding says how many participants showed it, with their quotes.
+
+# Onboarding study, Q2 — findings
+
+Research findings, draft for the Onboarding squad · UX Research
+
+<table class="meta-tbl study"><tbody><tr><td>Study</td><td>First 14 days for new workspace admins</td><td>Sessions</td><td>12 interviews, 14–25 April 2026</td></tr><tr><td>Participants</td><td>Business plan 7, Enterprise 5 · IDs P01–P12, no names</td><td>Method</td><td>Moderated interviews to discussion-guide.pdf (5 sections, 14 questions)</td></tr><tr><td>Prepared by</td><td>UX Research for the Onboarding squad</td><td>Sources</td><td>12 transcripts · participant roster (Airtable)</td></tr></tbody></table>
+
+Twelve admins walked us through their first two weeks. Six findings follow, ranked by how many participants showed the behavior; each carries two or three verbatim quotes attributed by participant ID, plan and role (no names, per the study protocol). Four open questions close the document; the first is one you chose to keep open rather than report.
+
+## Key findings
+
+<table class="dt kf"><thead><tr><th class="n">#</th><th>Finding</th><th class="r">Participants (of 12)</th></tr></thead><tbody><tr><td class="n">1</td><td>Admins finish setup alone before they invite anyone</td><td class="r">9</td></tr><tr><td class="n">2</td><td>The permissions step reads as a risk, so people stop and ask IT</td><td class="r">8</td></tr><tr><td class="n">3</td><td>The checklist is used as a map of the product, not as a to-do list</td><td class="r">7</td></tr><tr><td class="n">4</td><td>Connecting the first integration is when the product starts to feel real</td><td class="r">10</td></tr><tr><td class="n">5</td><td>Sample data helps on day one and gets in the way by day five</td><td class="r">6</td></tr><tr><td class="n">6</td><td>On the Business plan, billing questions come up before the product has shown value</td><td class="r">7</td></tr></tbody></table>
+
+## 1. Admins finish setup alone before they invite anyone 9 of 12
+
+Nine admins completed every setup step before sending a single invitation; five said they wanted it “ready” first.
+
+“I didn’t want people landing in a half-built thing with my name on it.”P01, workspace admin · Enterprise
+
+## 2. The permissions step reads as a risk, so people stop and ask IT 8 of 12
+
+**8 of 12 participants** paused setup at the roles and invitations screen; all 5 Enterprise admins did, and 3 of 7 on Business. The median pause before they continued was two days.
+
+“I got to the roles screen and just stopped. If I give someone admin by mistake, that’s a security ticket with my name on it.”P03, workspace admin · Enterprise
+
+“I screenshotted it and sent it to our IT person … he got back to me Thursday. So Tuesday to Thursday I didn’t touch it.”P07, team lead · Business
+
+“It says members can invite members. Can they invite anyone? Like, outside the company?”P11, workspace admin · Business
+
+**What we saw.** The screen is accurate but does not say what each role can do or that invitations are limited to the company domain, so cautious admins treat it as a decision they are not allowed to make. Nobody mentioned the help article linked from the screen.
+
+## 3. The checklist is used as a map of the product, not as a to-do list 7 of 12
+
+Seven participants opened the checklist to see what the product could do and closed it without ticking anything.
+
+“It’s a menu, basically. I read it, I didn’t do it.”P05, team lead · Business
+
+Findings 4–6 continue on page 3.
+
+## Open questions
+
+1. *Kept open per your call.* Four participants (P02, P07, P09, P12) asked, unprompted, to be notified when a teammate accepts an invitation. The guide did not cover notifications, so we do not know how widespread this is — worth two questions in round two before it is treated as a finding.
+2. Do returning admins hit the permissions pause again when they add a second team, or is it a first-week effect only? All 12 sessions were in the first 14 days.
+3. Finding 6 rests on 7 Business-plan participants. Is the early billing anxiety about price, or about not knowing what the trial converts to? The transcripts support both readings.
+4. Two participants (P04, P10) described a workaround for sample data — a second “sandbox” workspace — that the guide did not probe. Is that common enough to design for?
+
+Run this every weekday evening: if new transcripts are in the study folder, fold them into the findings doc, note which themes moved, and keep quotes attributed by participant ID.
+
+**Rolling research synthesis**Weekdays at 6:00 PM
+
+Each run
+
+Reads new transcripts against the guide and the roster
+
+Updates the findings doc and notes which themes moved
+
+Keeps every quote attributed by participant ID*no names*
+
+Claude Academy
+
+
+
+0:03 / 0:551×
+
+Illustration. Product screens are simplified.
+
+Turn user interviews into findings
+
+Your user interviews are done, and the team needs the findings this week.
+
+Using the Design plugin’s synthesis skill, ask for themes, quotes tagged by participant, and open questions.
+
+Claude reads your discussion guide and participant list first, then every transcript in the folder.
+
+Claude checks with you before it decides anything that is your call.
+
+Claude tells you what it found, then gives you the findings document.
+
+Each finding says how many participants showed it, with their quotes.
+
+It ends with open questions, including the one you kept open.
+
+You can schedule the synthesis to rerun each evening as new transcripts arrive.
+
+Product gets the findings this week, with every quote traceable.
+
+Synthesize the interview transcripts into a research findings doc. Cluster the observations into 5-7 themes, name each plainly, support each with 2-3 verbatim quotes attributed to participant ID, and end with the open questions the team still needs to answer.
+
+Do the few join-notification requests count as a finding? List it as an open question / Yes, report it as a finding
+
+I read all 12 transcripts against your guide and participant list and grouped them into six findings, each with a participant count and quotes attributed by ID. Four open questions close the doc; the join notifications are the first, kept open as you decided.
+
+Onboarding-study-Q2-findings.docx
+
+Skill: /research-synthesis (Design)
+
+Connectors: Airtable
 
 ## Set up[](https://academy.claude.com/use-cases/uxr-synthesis)
 
