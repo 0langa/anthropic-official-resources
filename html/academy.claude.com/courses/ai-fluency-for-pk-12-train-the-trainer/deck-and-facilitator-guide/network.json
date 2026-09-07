@@ -13,5 +13,10 @@
     "reason": "outside_scope",
     "type": "stylesheet",
     "url": "https://fonts.googleapis.com/css2"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "stylesheet",
+    "url": "https://fonts.googleapis.com/css2"
   }
 ]

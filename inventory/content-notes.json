@@ -6356,6 +6356,9 @@
   "https://support.claude.com/en/articles/9796617-can-you-delete-data-that-i-sent-via-team-and-enterprise-plans": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/9796807": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console": [
     "Native source; upstream MDX components retained."
   ],
@@ -6408,17 +6411,26 @@
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/news/anthropic-interviewer": [
+    "Could not read tab 'Creatives': TimeoutError",
     "Could not read tab 'Scientists': TimeoutError",
+    "Could not read tab 'Computer & Math': TimeoutError",
     "Could not read tab 'Art, Design, & Media': TimeoutError",
     "Could not read tab 'Business & Financial': TimeoutError",
     "Could not read tab 'Office & Admin': TimeoutError",
     "Could not read tab 'Sales': TimeoutError",
+    "Could not read tab 'Visual artists': TimeoutError",
+    "Could not read tab 'Craftspeople': TimeoutError",
     "Could not read tab 'Designers': TimeoutError",
+    "Could not read tab 'Filmmakers': TimeoutError",
     "Could not read tab 'Game developers': TimeoutError",
+    "Could not read tab 'Physicists': TimeoutError",
     "Could not read tab 'Chemical engineers': TimeoutError",
     "Could not read tab 'Data scientists': TimeoutError",
     "Could not read tab 'Mechanical engineers': TimeoutError",
     "Could not read tab 'Astronomers': TimeoutError"
+  ],
+  "https://www.anthropic.com/news/anthropic-public-record": [
+    "Could not read tab 'Support for gov involvement': TimeoutError"
   ],
   "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -6509,6 +6521,9 @@
   "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench": [
     "Could not read tab 'Example 2': TimeoutError",
     "Could not read tab 'Example 2': TimeoutError",
+    "Could not read tab 'Example 2': TimeoutError",
+    "Could not read tab 'Example 3': TimeoutError",
+    "Could not read tab 'Example 2': TimeoutError",
     "Could not read tab 'Example 3': TimeoutError"
   ],
   "https://www.anthropic.com/research/anthropic-interviewer": [
@@ -6529,9 +6544,9 @@
     "Could not read tab 'Fluid with Classical EDM': TimeoutError"
   ],
   "https://www.anthropic.com/research/claude-opus-5": [
-    "Could not read tab 'GDPval-AA v2': TimeoutError",
     "Could not read tab 'OSWorld 2.0': TimeoutError",
     "Could not read tab 'HLE': TimeoutError",
+    "Could not read tab 'AutomationBench': TimeoutError",
     "Could not read tab 'DeepSearchQA': TimeoutError"
   ],
   "https://www.anthropic.com/research/cyber-toolkits-update": [
