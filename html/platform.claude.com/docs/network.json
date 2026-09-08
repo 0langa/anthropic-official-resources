@@ -12,11 +12,11 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
-    "url": "https://js.hcaptcha.com/1/api.js"
+    "url": "https://widget.intercom.io/widget/lupk8zyo"
   },
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
-    "url": "https://widget.intercom.io/widget/lupk8zyo"
+    "url": "https://js.hcaptcha.com/1/api.js"
   }
 ]

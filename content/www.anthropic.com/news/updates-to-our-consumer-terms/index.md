@@ -18,7 +18,7 @@ You’re always in control of this setting and whether we use your data in this 
 
 In-app notification for existing Claude app users
 
-Starting today, we’re rolling out notifications so you can review these updates and manage your settings. If you’re an existing user, you have until October 8, 2025 to accept the updated Consumer Terms and make your decision. If you choose to accept the new policies now, they will go into effect immediately. These updates will apply only to new or resumed chats and coding sessions. After October 8, you’ll need to make your selection on the model training setting in order to continue using Claude. You can change your choice in your [Privacy Settings](https://claude.ai/redirect/website.v1.7c478cee-4e02-43e0-9a5b-352e4e459c27/settings/data-privacy-controls) at any time.
+Starting today, we’re rolling out notifications so you can review these updates and manage your settings. If you’re an existing user, you have until October 8, 2025 to accept the updated Consumer Terms and make your decision. If you choose to accept the new policies now, they will go into effect immediately. These updates will apply only to new or resumed chats and coding sessions. After October 8, you’ll need to make your selection on the model training setting in order to continue using Claude. You can change your choice in your [Privacy Settings](https://claude.ai/redirect/website.v1.a08d4d12-29cf-450c-a8f8-d990e0e5c0da/settings/data-privacy-controls) at any time.
 
 ## Extended data retention
 
