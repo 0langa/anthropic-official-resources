@@ -1,4 +1,4 @@
-Announcements
+AnnouncementsPolicy
 
 # Detecting and countering misuse of AI: August 2025
 

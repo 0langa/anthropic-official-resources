@@ -6,7 +6,7 @@ Dec 2, 2025
 
 ![How AI is transforming work at Anthropic](https://www-cdn.anthropic.com/images/4zrzovbb/website/83d7d2fe412ceb4dfe627f0d5f3d64aff1a3f5db-1000x1000.svg)
 
-Appendix
+Claude Code usage trends
 
 How is AI changing the way we work? Our [previous research](https://www.anthropic.com/economic-index) on AI’s economic impacts looked at the labor market as a whole, covering a variety of different jobs. But what if we studied some of the earliest adopters of AI technology in more detail—namely, us?
 

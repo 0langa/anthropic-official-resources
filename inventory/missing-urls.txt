@@ -10,6 +10,7 @@ https://claude.com/blog/cowork-research-preview
 https://claude.com/blog/docx-js.md
 https://claude.com/blog/ooxml.md
 https://claude.com/blog/prompt-engineering-best-practices
+https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform
 https://claude.com/resources
 https://claude.com/resources/tutorials/using-research-and-google-workspace
 https://code.claude.com/docs/en/examples

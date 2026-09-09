@@ -1017,6 +1017,7 @@ https://claude.com/blog/prompt-caching
 https://claude.com/blog/prompt-engineering-best-practices
 https://claude.com/blog/prompt-generator
 https://claude.com/blog/prompt-improver
+https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform
 https://claude.com/blog/research
 https://claude.com/blog/run-claude-code-sessions-on-your-own-compute
 https://claude.com/blog/running-an-ai-native-engineering-org

@@ -1,4 +1,4 @@
-Announcements
+AnnouncementsPolicy
 
 # Detecting and preventing distillation attacks
 

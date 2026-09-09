@@ -87,7 +87,7 @@ Eric Liu, Product Manager
 
 Yusuke Kaji, General Manager of AI for Business
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a9f74a313910ab8817cae74_asana-logo.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a9f74a6d9ed148a0fd4602c_asana-logo-dark.svg)
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa01f7e645f7fe4aabfb7a4_asana-logo-light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa01f851118c8688fe503ab_asana-logo-dark.svg)
 
 “Claude Managed Agents dramatically accelerated our development of Asana AI Teammates — helping us ship advanced capabilities faster — and freeing us to focus on creating an enterprise-grade multiplayer user experience.”
 

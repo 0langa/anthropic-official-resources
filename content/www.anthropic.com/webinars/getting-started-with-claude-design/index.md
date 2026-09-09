@@ -54,7 +54,7 @@ The recording of this webinar is not available yet.
 
 ## Thank you for registering to watch
 
-[Watch webinar](https://www.anthropic.com/webinars/getting-started-with-claude-design)Watch webinar
+[Watch webinar](https://anthropic.ondemand.goldcast.io/on-demand/27daf206-7c74-4fb7-ada8-22920ee87d2a)Watch webinar
 
 Watch webinar
 

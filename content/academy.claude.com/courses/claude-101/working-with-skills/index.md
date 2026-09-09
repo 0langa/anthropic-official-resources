@@ -126,11 +126,3 @@ In the next set of lessons, you'll start to expand Claude's reach with connector
 For more information on Skills, including how to create your own custom Skills, visit the [Anthropic Help Center(opens in new tab)](https://support.claude.com/en/articles/12512176-what-are-skills).
 
 Was this helpful?
-
-
-## Video transcript
-
-# Claude works with you on slides, spreadsheets, and contract redlines
-
-This lesson's video contains no spoken narration (screen demonstration with background audio only).
-

@@ -4,7 +4,7 @@ Frontier Red Team
 
 Jul 9, 2026
 
-Conclusion
+Latency
 
 *Shmuel Berman, Michael Ilie, Jia Deng, and Daniel Freeman*
 

@@ -74,25 +74,3 @@ Second is that it asks for permission. By default, Claude Code will ask you befo
 Third, it can make mistakes. Just like any tool, Claude Code isn't perfect. It might misunderstand your intent, introduce a new bug, or over-engineer a solution.
 
 Quick recap, Claude Code is an agentic coding tool. It reads your codebase, edits your files, runs commands, and connects to external tools to help you ship faster. You can download it today in your terminal, VS Code, JetBrains, and the Claude Desktop app.
-
-
-## Video transcript
-
-# What is Claude Code?
-
-Claude Code is an agentic coding tool that understands your codebase, edits your files, runs commands, and integrates with your existing developer tools to help you get things done faster. It's available in your terminal, Visual Studio Code, the Claude Desktop app, on the web, and JetBrains IDEs. We'll be using it in the terminal for this video.
-
-If you've ever used Claude.ai, you're probably wondering what the difference is between the two. Unlike Claude.ai, Claude Code has direct access to your files, your terminal, and your entire codebase. So instead of copying and pasting code back and forth, it can go in and do all the work itself.
-
-The easiest differentiator is that Claude Code works as an AI agent. An AI agent is a software that can interact with its environment and perform actions to complete a defined goal. The most basic way this can be done is by having a large language model in a loop in real time. AI agents have access to things like tools, external services, or other AI agents to help it reach its predefined goals.
-
-So what does that actually look like? Well, here's a couple of examples. It can read and understand your codebase. You can ask Claude Code to explain a feature or trace a bug throughout your code. Claude Code can execute your build script, run your tests, install packages, and use the output to decide what to do next. Claude Code can search the web. If it needs documentation on the latest API references, for example, it can do that for you.
-
-To use Claude Code effectively, it's important to know these concepts. First is the context window. Think of this as Claude's working memory. It can hold a lot, but not everything at once. This is where the agentic aspect of it comes in. Finding strategic ways to find the answers within your codebase without storing your entire codebase into context.
-
-Second is that it asks for permission. By default, Claude Code will ask you before running commands or making changes to your codebase. You're always in control, whether that's being more hands-on or passive.
-
-Third, it can make mistakes. Just like any tool, Claude Code isn't perfect. It might misunderstand your intent, introduce a new bug, or over-engineer a solution.
-
-Quick recap, Claude Code is an agentic coding tool. It reads your codebase, edits your files, runs commands, and connects to external tools to help you ship faster. You can download it today in your terminal, VS Code, JetBrains, and the Claude Desktop app.
-

@@ -6,7 +6,7 @@ Feb 18, 2026
 
 ![Measuring AI agent autonomy in practice](https://www-cdn.anthropic.com/images/4zrzovbb/website/9f6a378a1e3592cf8d27447457409ba12284faef-1000x1000.svg)
 
-Looking ahead
+Footnotes
 
 AI agents are here, and already they’re being deployed across contexts that vary widely in consequence, from email triage to [cyber espionage](https://www.anthropic.com/news/disrupting-AI-espionage). Understanding this spectrum is critical for deploying AI safely, yet we know surprisingly little about how people actually use agents in the real world.
 
