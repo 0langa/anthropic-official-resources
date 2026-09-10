@@ -69,11 +69,3 @@ Open one of the M365 apps with a real document you're working on this week. Try 
 You've now seen Cowork everywhere it shows up — the desktop, the browser, and the documents themselves. Module 4 turns to the parts of using Cowork that matter once you're handing it real work: working safely, making sure the things you build behave, and sharing them with your team.
 
 Was this helpful?
-
-
-## Video transcript
-
-# Collaborate with Claude across Microsoft365 apps
-
-This lesson's video contains no spoken narration (screen demonstration with background audio only).
-

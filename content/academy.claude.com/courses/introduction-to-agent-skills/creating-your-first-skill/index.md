@@ -144,25 +144,3 @@ Now let's say you clone a Git repository and have an overlapping skill name. Wel
 To update a skill, edit its SKILL.md file. Simple. To remove one, delete its directory. Restart Claude Code after changes for them to take effect.
 
 Creating a skill means making a directory with a SKILL.md file containing metadata and instructions. Claude loads skill names and descriptions at startup, matches incoming requests against those descriptions, and asks for confirmation before loading the full content. Priority rules handle name conflicts. Enterprise overrides personal. Personal overrides project. Project overrides plugins. Edit the SKILL.md file to update a skill and restart Claude Code for changes to take effect.
-
-
-## Video transcript
-
-# Creating your first skill
-
-So let's create a skill. This skill will teach Claude how we would like it to explain code using visual diagrams and analogies. Then we'll look at what happens under the hood when Claude uses it.
-
-First, let's create a directory for your skill. We're going to be making a personal skill so it'll live in many projects. So it will go in your home directory. Take into consideration that we're creating a directory with the skill name inside of the skills directory.
-
-Now create the skill. The name identifies your skill. The description tells Claude when to use it. This is the matching criteria. And then everything after the second dashes is the instructions that Claude follows.
-
-Claude Code loads skills at startup, so restart your session. Then verify it's available. You should see PR description in the list. Now test it. Make some changes on a branch and say, write a PR description for my changes. Claude will then show you that it's using the PR description skill. After that, it'll check your diff and write a description following your template. Same format every single time.
-
-When Claude Code starts, it scans four locations for skills. Enterprise paths, your personal Claude skills, the project's Claude skills, and installed plugins. It loads only the name and description of each skill, not the full content. This is important later. When you send a request, Claude compares it to the descriptions of your skills. Explain what this function does matches a skill described as explain code with visual diagrams, because the intent overlaps. It will then ask you to confirm loading up the skill. This confirmation step keeps you aware of what context Claude is using. After you confirm, Claude reads the complete file and follows its instructions.
-
-Now let's say you clone a Git repository and have an overlapping skill name. Well, which one wins? Here's the priority list. The highest is Enterprise, which lives in the managed settings. Two is the personal, which lives in your root directory configuration like we're doing right now. Three is the project, which is the .claude directory inside of your repository. And the lowest is the plugins, where you store your plugins that you got online. This lets organizations enforce standards while allowing individual customization through differently named skills. If your company has an enterprise code review skill, and you create a personal code review skill, the enterprise version of that takes precedence. To avoid conflicts, use descriptive names. Instead of review, use frontend PR review or security review.
-
-To update a skill, edit its SKILL.md file. Simple. To remove one, delete its directory. Restart Claude Code after changes for them to take effect.
-
-Creating a skill means making a directory with a SKILL.md file containing metadata and instructions. Claude loads skill names and descriptions at startup, matches incoming requests against those descriptions, and asks for confirmation before loading the full content. Priority rules handle name conflicts. Enterprise overrides personal. Personal overrides project. Project overrides plugins. Edit the SKILL.md file to update a skill and restart Claude Code for changes to take effect.
-

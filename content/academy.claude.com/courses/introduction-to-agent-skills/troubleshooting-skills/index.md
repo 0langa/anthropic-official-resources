@@ -137,27 +137,3 @@ Install the plugin but can't see its skills? Well, clear the cache. Restart Clau
 The skill loads but fails during execution. If your skill uses external packages, they must be installed. Add this info to your description. Scripts need execute permission. Use forward slashes everywhere, even on Windows.
 
 So here's a quick checklist. Not triggering? Well, improve your description and trigger phrases. Not loading? Check your path, file name, YAML syntax. Wrong skill used? Make your descriptions a little bit more distinct. Are you being shadowed? Check the priority and rename if needed. Plugins are missing? Clear your cache and reinstall. Runtime failure? Check dependencies, permissions, and paths.
-
-
-## Video transcript
-
-# Troubleshooting skills
-
-When skills don't work, the problem usually falls into one of a few categories. The skill doesn't trigger, doesn't load, has conflicts, or fails at runtime. But, good news, most fixes are pretty straightforward. Here's some of them.
-
-First thing we can do is try the AgentSkillsVerifier command. Depending on your operating system, installation steps will differ, but we recommend using uv as it's the easiest way to get it installed fast. Once installed, either navigate to your skill directory or run this command from anywhere.
-
-Your skill exists, it passes the validator, but Claude isn't using it when expected. Hmm. Well, the cause is almost always the description. Claude uses semantic matching, so your request needs to overlap with the description's meaning. If there's not enough overlap... No match. Check your description against how you're phrasing requests. Add trigger phrases users would actually say. Test with variations. Help me profile this. Why is this slow? Make this faster. If any failed to trigger, add those keywords to your description.
-
-If your skill doesn't appear when you ask Claude what skills are available, well, check these things. Skills must be in the right location with the right structure. The SKILL.md file must be inside of a named directory, not at a skills root. The file name must be exactly SKILL.md, all caps on the skill, lowercase md. Just crossing things off the list here, okay? Just crossing them off. Run claude --debug to see loading errors. Look for messages mentioning your skill name. Sometimes this will just solve the problem for you.
-
-If Claude uses the wrong skill or seems confused, your descriptions are probably too similar. Make them distinct. Remember, being as specific as possible doesn't just help with Claude deciding when to use your skill, but not conflicting with other similar sounding skills.
-
-If your personal skill is being ignored, an enterprise or higher priority skill might have the same name. So investigate that. If you see an enterprise code review and you also have a personal code review, well, the enterprise one will win every time. So your solution is to rename your skill to something a little bit more distinct. Talk to your admin about the enterprise skill, but you'll have a better chance with number one probably.
-
-Install the plugin but can't see its skills? Well, clear the cache. Restart Claude Code and reinstall. If skills still don't appear, the plugin structure just might be wrong. This is when the validator tool makes sense.
-
-The skill loads but fails during execution. If your skill uses external packages, they must be installed. Add this info to your description. Scripts need execute permission. Use forward slashes everywhere, even on Windows.
-
-So here's a quick checklist. Not triggering? Well, improve your description and trigger phrases. Not loading? Check your path, file name, YAML syntax. Wrong skill used? Make your descriptions a little bit more distinct. Are you being shadowed? Check the priority and rename if needed. Plugins are missing? Clear your cache and reinstall. Runtime failure? Check dependencies, permissions, and paths.
-

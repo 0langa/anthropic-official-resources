@@ -28,7 +28,7 @@ In "Manually approve," Claude checks with you before it acts. What that looks li
 
 Claude creates a plan from your prompt, which you can approve before Claude starts. The plan specifies which websites you're allowing Claude to access, as well as the approach it will follow:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1788862500&amp;signature=6d7092a2a9a9fe4cb894688c1b33e5dc66e1c0638122d97fbcb0d6d9aae40adc&amp;req=dSgjFcp8nYZdXvMW1HO4zYqyZcpF%2BoCygN0ADj5oqFB3jZeXALkmiSWhAfIJ%0ATlW5I3WGch83KKOh9hY%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1789034400&amp;signature=2f7dc1641206f91e947c1a826173fff154e20c93df61231a730f86aa8ef3f72b&amp;req=dSgjFcp8nYZdXvMW1HO4zYqyZctN%2F4azgN0ADj5oqFAw0pDuGypKy%2FO8Cu2w%0A3%2F1LUHxrtfc6fUhzoZ0%3D%0A)
 
 Note that Claude will only use the websites listed in the plan, so you’ll need to manually approve any additional access requests.
 
@@ -62,7 +62,7 @@ When you choose "Skip all approvals," Claude doesn't pause to ask, and nothing c
 
 There are some websites on which Claude requires approval for every action. If you navigate to one of these sites, a **New permissions required** prompt will appear in the extension side panel, Claude Cowork, or Claude Code where Claude will ask for permission before accessing the page or taking any action.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1788862500&amp;signature=a638026308449a0652dcdcb5f6ca217b6534fd2bdb2bdb9b5356047eb41b46a8&amp;req=diYnEsB5nYldXPMW1HO4zZ3Nqm54ji7p7A4lHPBihAUqIL0%2BeL%2F%2BzxbtGUZX%0ANEthfXxG8xTTztFSN5U%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1789034400&amp;signature=85ab30d02a4dd8074a931fa85bf3cbacafabdd7eda3d4b1d560efa279bc1a302&amp;req=diYnEsB5nYldXPMW1HO4zZ3Nqm9wiyjo7A4lHPBihAWPOLxjxcCvoimsbm5g%0AIjtWzbU%2BdWL6Pw28A6c%3D%0A)
 
 ### Permission options
 

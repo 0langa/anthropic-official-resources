@@ -37,7 +37,7 @@ This guide walks you through creating an agent, setting up an environment, start
     For Linux environments, download the release binary directly.
 
     ```bash
-    VERSION=1.29.0
+    VERSION=1.30.0
     OS=$(uname -s | tr '[:upper:]' '[:lower:]')
     case $(uname -m) in
       x86_64) ARCH=amd64 ;;
@@ -163,19 +163,19 @@ export ANTHROPIC_API_KEY="your-api-key-here"
 
       <MultiFileExample language="cli" label="CLI">
         ```bash CLI
-        AGENT_ID=$(ant beta:agents create --transform id --raw-output < coding-assistant.agent.yaml)
-
-        echo "Agent ID: $AGENT_ID"
+        ant apply coding-assistant.md
         ```
 
-        <File filename="coding-assistant.agent.yaml">
-          ```yaml
+        <File filename="coding-assistant.md">
+          ```markdown
+          ---
           name: Coding Assistant
-          model:
-            id: claude-opus-5
-          system: You are a helpful coding assistant. Write clean, well-documented code.
+          model: claude-opus-5
           tools:
             - type: agent_toolset_20260401
+          ---
+
+          You are a helpful coding assistant. Write clean, well-documented code.
           ```
         </File>
       </MultiFileExample>
@@ -336,7 +336,7 @@ export ANTHROPIC_API_KEY="your-api-key-here"
 
     The `agent_toolset_20260401` tool type enables the full set of pre-built agent tools (bash, file operations, web search, and more). See [Tools](https://platform.claude.com/docs/en/managed-agents/tools) for the complete list and per-tool configuration options.
 
-    Save the returned `agent.id`. You'll reference it in every session you create.
+    Save the returned `agent.id` (the CLI's [`ant apply`](https://platform.claude.com/docs/en/cli-sdks-libraries/cli/apply) prints it and records it in `claude-lock.json`). You'll reference it in every session you create.
   </Step>
 
   <Step title="Create an environment">
@@ -368,12 +368,10 @@ export ANTHROPIC_API_KEY="your-api-key-here"
 
       <MultiFileExample language="cli" label="CLI">
         ```bash CLI
-        ENVIRONMENT_ID=$(ant beta:environments create --transform id --raw-output < quickstart.environment.yaml)
-
-        echo "Environment ID: $ENVIRONMENT_ID"
+        ant apply environment.yaml
         ```
 
-        <File filename="quickstart.environment.yaml">
+        <File filename="environment.yaml">
           ```yaml
           name: quickstart-env
           config:
@@ -466,7 +464,7 @@ export ANTHROPIC_API_KEY="your-api-key-here"
       ```
     </CodeGroup>
 
-    Save the returned `environment.id`. You'll reference it in every session you create.
+    Save the returned `environment.id` (also in `claude-lock.json` if you used `ant apply`). You'll reference it in every session you create.
 
     <Tip>
       To run the sandbox on your own infrastructure instead of a cloud sandbox, see 
@@ -625,7 +623,8 @@ export ANTHROPIC_API_KEY="your-api-key-here"
               match event.type:
                   case "agent.message":
                       for block in event.content:
-                          print(block.text, end="")
+                          if block.type == "text":
+                              print(block.text, end="")
                   case "agent.tool_use":
                       print(f"\n[Using tool: {event.name}]")
                   case "session.status_idle":
@@ -655,7 +654,9 @@ export ANTHROPIC_API_KEY="your-api-key-here"
       for await (const event of stream) {
         if (event.type === "agent.message") {
           for (const block of event.content) {
-            process.stdout.write(block.text);
+            if (block.type === "text") {
+              process.stdout.write(block.text);
+            }
           }
         } else if (event.type === "agent.tool_use") {
           console.log(`\n[Using tool: ${event.name}]`);
@@ -696,7 +697,10 @@ export ANTHROPIC_API_KEY="your-api-key-here"
           {
               foreach (var block in message.Content)
               {
-                  Console.Write(block.Text);
+                  if (block.Value is BetaManagedAgentsTextBlock textBlock)
+                  {
+                      Console.Write(textBlock.Text);
+                  }
               }
           }
           else if (ev.Value is BetaManagedAgentsAgentToolUseEvent toolUse)
@@ -739,7 +743,9 @@ export ANTHROPIC_API_KEY="your-api-key-here"
       		switch event := stream.Current().AsAny().(type) {
       		case anthropic.BetaManagedAgentsAgentMessageEvent:
       			for _, block := range event.Content {
-      				fmt.Print(block.Text)
+      				if block.Type == "text" {
+      					fmt.Print(block.Text)
+      				}
       			}
       		case anthropic.BetaManagedAgentsAgentToolUseEvent:
       			fmt.Printf("\n[Using tool: %s]\n", event.Name)
@@ -796,7 +802,10 @@ export ANTHROPIC_API_KEY="your-api-key-here"
       // Process streaming events
       foreach ($stream as $event) {
           match ($event->type) {
-              'agent.message' => print(implode('', array_map(fn($block) => $block->text, $event->content))),
+              'agent.message' => array_walk(
+                  $event->content,
+                  static fn ($block) => $block->type === 'text' ? print($block->text) : null,
+              ),
               'agent.tool_use' => print("\n[Using tool: {$event->name}]\n"),
               'session.status_idle' => print("\n\nAgent finished.\n"),
               default => null,
@@ -823,7 +832,7 @@ export ANTHROPIC_API_KEY="your-api-key-here"
       stream.each do |event|
         case event.type
         in :"agent.message"
-          event.content.each { print it.text }
+          event.content.each { print it.text if it.type == :text }
         in :"agent.tool_use"
           puts "\n[Using tool: #{event.name}]"
         in :"session.status_idle"

@@ -1,6 +1,6 @@
 Announcements
 
-# Claude’s Constitution
+# Claude’s constitution
 
 May 9, 2023
 

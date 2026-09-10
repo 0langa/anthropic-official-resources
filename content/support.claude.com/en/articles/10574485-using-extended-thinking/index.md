@@ -100,6 +100,8 @@ Whichever settings you choose, be specific about your problem or question. Clear
 
 Did this answer your question?
 
+Disappointed ReactionNeutral ReactionSmiley Reaction
+
 ## Related Articles
 
 - [How up-to-date is Claude's training data?](https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)

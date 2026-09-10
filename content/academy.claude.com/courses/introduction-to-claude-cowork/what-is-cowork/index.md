@@ -142,11 +142,3 @@ Was this helpful?
 ## Transcript
 
 This lesson's video contains no spoken narration (screen demonstration with background audio only).
-
-
-## Video transcript
-
-# Introducing Cowork: Claude Code for the rest of your work
-
-This lesson's video contains no spoken narration (screen demonstration with background audio only).
-

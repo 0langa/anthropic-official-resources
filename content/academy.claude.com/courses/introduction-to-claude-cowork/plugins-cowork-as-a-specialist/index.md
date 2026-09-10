@@ -133,11 +133,3 @@ SkillsClick any skill to see what it does.
 Pull experiment exposures and metrics from the warehouse. ›/pull-resultsBreak results down by the cuts that matter (platform, plan, geo). ›/segment-cutsValidate traffic balance, sample ratio, and metric definitions. ›/sanity-checkBuild the lift charts and confidence-interval plots. ›/visualizeDraft the decision memo in the team’s readout format. ›/write-readoutDraft the TL;DR for the experiments channel. ›/ship-summary
 
 Connectors ›BigQuerySlackHex
-
-
-## Video transcript
-
-# Cowork and Plugins: Helping enterprises move faster
-
-This lesson's video contains no spoken narration (screen demonstration with background audio only).
-

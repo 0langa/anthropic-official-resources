@@ -1406,6 +1406,7 @@ https://platform.claude.com/docs/en/about-claude/models/overview
 https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-6
 https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-7
 https://platform.claude.com/docs/en/about-claude/pricing
+https://platform.claude.com/docs/en/about-claude/use-case-guides/commerce-agents
 https://platform.claude.com/docs/en/about-claude/use-case-guides/content-moderation
 https://platform.claude.com/docs/en/about-claude/use-case-guides/customer-support-chat
 https://platform.claude.com/docs/en/about-claude/use-case-guides/legal-summarization
@@ -3670,6 +3671,7 @@ https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-
 https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits
 https://www.anthropic.com/research/agentic-misalignment
 https://www.anthropic.com/research/agents-in-biology
+https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
 https://www.anthropic.com/research/alignment-faking
 https://www.anthropic.com/research/anthropic-economic-index-january-2026-report
 https://www.anthropic.com/research/anthropic-economic-index-september-2025-report

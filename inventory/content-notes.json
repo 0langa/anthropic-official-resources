@@ -1112,6 +1112,9 @@
   "https://platform.claude.com/docs/en/about-claude/pricing": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://platform.claude.com/docs/en/about-claude/use-case-guides/commerce-agents": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
   "https://platform.claude.com/docs/en/about-claude/use-case-guides/content-moderation": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
@@ -6400,9 +6403,7 @@
   ],
   "https://www.anthropic.com/engineering/harness-design-long-running-apps": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
-    "Could not read tab 'Game play': TimeoutError",
-    "Could not read tab 'AI game design': TimeoutError",
-    "Could not read tab 'AI game design': TimeoutError"
+    "Could not read tab 'Game play': TimeoutError"
   ],
   "https://www.anthropic.com/news/analysis-tool": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -6430,8 +6431,7 @@
     "Could not read tab 'Astronomers': TimeoutError"
   ],
   "https://www.anthropic.com/news/anthropic-public-record": [
-    "Could not read tab 'Integrated users': TimeoutError",
-    "Could not read tab 'Support for gov involvement': TimeoutError"
+    "Could not read tab 'Integrated users': TimeoutError"
   ],
   "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -6449,34 +6449,26 @@
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/news/claude-fable-5-mythos-5": [
-    "Could not read tab 'Factorio': TimeoutError",
     "Could not read tab 'Fluid with Classical EDM': TimeoutError"
   ],
   "https://www.anthropic.com/news/claude-for-chrome": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
-  "https://www.anthropic.com/news/claude-opus-4-5": [
-    "Could not read tab 'BrowseComp-Plus': TimeoutError",
-    "Could not read tab 'Vending-Bench': TimeoutError"
-  ],
   "https://www.anthropic.com/news/claude-opus-4-6": [
     "Could not read tab 'Agentic search': TimeoutError",
-    "Could not read tab 'Reasoning': TimeoutError",
-    "Could not read tab 'Long-context reasoning': TimeoutError",
+    "Could not read tab 'Coding': TimeoutError",
     "Could not read tab 'Multilingual coding': TimeoutError",
-    "Could not read tab 'Cybersecurity': TimeoutError",
+    "Could not read tab 'Long-term coherence': TimeoutError",
     "Could not read tab 'Life sciences': TimeoutError"
   ],
   "https://www.anthropic.com/news/claude-opus-4-7": [
-    "Could not read tab 'Long-context reasoning': TimeoutError",
+    "Could not read tab 'Document reasoning': TimeoutError",
     "Could not read tab 'Coding': TimeoutError"
   ],
   "https://www.anthropic.com/news/claude-opus-5": [
     "Could not read tab 'CursorBench': TimeoutError",
-    "Could not read tab 'AA Coding Agent Index': TimeoutError",
-    "Could not read tab 'GDPval-AA v2': TimeoutError",
-    "Could not read tab 'HLE': TimeoutError",
-    "Could not read tab 'DeepSearchQA': TimeoutError"
+    "Could not read tab 'OSWorld 2.0': TimeoutError",
+    "Could not read tab 'AutomationBench': TimeoutError"
   ],
   "https://www.anthropic.com/news/connectors-directory": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -6534,7 +6526,6 @@
     "Could not read tab 'Example 2': TimeoutError",
     "Could not read tab 'Example 2': TimeoutError",
     "Could not read tab 'Example 3': TimeoutError",
-    "Could not read tab 'Example 2': TimeoutError",
     "Could not read tab 'Example 3': TimeoutError"
   ],
   "https://www.anthropic.com/research/anthropic-interviewer": [
@@ -6561,14 +6552,22 @@
     "Content dependencies blocked by scope or robots policy: https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html"
   ],
   "https://www.anthropic.com/research/claude-fable-5-mythos-5": [
-    "Could not read tab 'VibeCAD': TimeoutError"
+    "Could not read tab 'VibeCAD': TimeoutError",
+    "Could not read tab 'Fluid with Classical EDM': TimeoutError"
   ],
   "https://www.anthropic.com/research/claude-opus-5": [
     "Could not read tab 'CursorBench': TimeoutError",
-    "Could not read tab 'AutomationBench': TimeoutError",
+    "Could not read tab 'GDPval-AA v2': TimeoutError",
+    "Could not read tab 'OSWorld 2.0': TimeoutError",
+    "Could not read tab 'HLE': TimeoutError",
+    "Could not read tab 'DeepSearchQA': TimeoutError",
     "Could not read tab 'Cell artifact': TimeoutError"
   ],
+  "https://www.anthropic.com/research/claude-sonnet-5": [
+    "Could not read tab 'Agentic computer use': TimeoutError"
+  ],
   "https://www.anthropic.com/research/claude-values-models-languages": [
+    "Could not read tab '': TimeoutError",
     "Could not read tab '': TimeoutError",
     "Could not read tab '': TimeoutError",
     "Could not read tab '': TimeoutError"

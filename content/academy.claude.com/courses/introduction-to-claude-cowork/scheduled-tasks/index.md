@@ -213,11 +213,3 @@ Gmail
 Slack
 
 Microsoft 365
-
-
-## Video transcript
-
-# Scheduled Tasks in Cowork: Set it once, Claude handles the rest
-
-This lesson's video contains no spoken narration (screen demonstration with background audio only).
-

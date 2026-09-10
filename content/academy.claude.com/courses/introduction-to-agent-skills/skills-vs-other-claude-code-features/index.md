@@ -133,21 +133,3 @@ Hooks fire on events. A hook might run a linter every time Claude saves a file, 
 A typical setup might include a CLAUDE.md file for always-on project standards, skills for task-specific expertise, hooks for automated operations. Each handles its own specialty. Don't force everything into skills when another option fits best. You can use multiple at a time.
 
 Skills provide automatic task-specific expertise. CLAUDE.md is for always-on instructions. Subagents run in isolated contexts. Hooks fire on events. MCP provides external tools. Use skills when you have knowledge that Claude should apply automatically when the topic is relevant and combine them with other features for comprehensive customization.
-
-
-## Video transcript
-
-# Skills vs. other Claude Code features
-
-Claude Code offers several customization options. Skills, CLAUDE.md, subagents, hooks, MCP servers. They solve different problems. Knowing when to use each prevents you from building the wrong thing. So let's run them down.
-
-CLAUDE.md loads into every conversation, always. So if you want Claude to use TypeScript strict mode in this project, then put it in your CLAUDE.md file. Skills load on demand. When Claude matches a request, your PR review checklist doesn't need to be in the context when you're writing new code. It activates when you ask for a review. So use CLAUDE.md for project-wide standards that always apply, constraints like never modify the database schema, framework preferences, and coding style. Then use skills for task-specific expertise, knowledge that's only relevant sometimes, and detailed procedures that would clutter every conversation.
-
-Skills add knowledge to your current conversation. When a skill activates, its instructions join the existing context. Subagents run in a separate context. They receive a task, work on it independently, and return results. They're isolated from the main conversation. Use subagents when you want to delegate a task to a separate execution context. You need different tool access than the main conversation does. You want isolation between delegated work and your main context. Use skills when you want to enhance Claude's knowledge for the current task. The expertise applies throughout a conversation.
-
-Hooks fire on events. A hook might run a linter every time Claude saves a file, or validate input before certain tool calls. They're all event-driven, while skills, they're request-driven. They activate based on what you're asking. So use hooks for operations that should run on every file save, validation before specific tool calls, or automated side effects of Claude's actions. Then use skills for knowledge that informs how Claude handles requests, guidelines that affect Claude's reasoning.
-
-A typical setup might include a CLAUDE.md file for always-on project standards, skills for task-specific expertise, hooks for automated operations. Each handles its own specialty. Don't force everything into skills when another option fits best. You can use multiple at a time.
-
-Skills provide automatic task-specific expertise. CLAUDE.md is for always-on instructions. Subagents run in isolated contexts. Hooks fire on events. MCP provides external tools. Use skills when you have knowledge that Claude should apply automatically when the topic is relevant and combine them with other features for comprehensive customization.
-
