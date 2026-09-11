@@ -1,3 +1,8 @@
+---
+title: Get Token Usage Over Time
+url: https://platform.claude.com/docs/en/api/beta/organization/analytics/usage/list
+---
+
 # Get Token Usage Over Time
 
 **GET** `/v1/organizations/analytics/usage_report`
@@ -169,7 +174,7 @@ key with the `read:analytics` scope.
 
 ## Returns
 
-- `UsageBucket object`
+- `BetaUsageBucket object`
 
   - `data: array of object`
 
@@ -185,7 +190,7 @@ key with the `read:analytics` scope.
 
       Rows for this time bucket. Empty when the bucket has no data; otherwise a single combined row when `group_by[]` is omitted, or one row per group (subject to the per-bucket group cap described on the `group_by[]` parameter).
 
-      - `cache_creation: object`
+      - `cache_creation: BetaCacheCreation`
 
         The number of input tokens for cache creation.
 
@@ -193,9 +198,13 @@ key with the `read:analytics` scope.
 
           The number of input tokens used to create the 1 hour cache entry.
 
+          default: 0, minimum: 0
+
         - `ephemeral_5m_input_tokens: number`
 
           The number of input tokens used to create the 5 minute cache entry.
+
+          default: 0, minimum: 0
 
       - `cache_read_input_tokens: number`
 
@@ -308,7 +317,7 @@ key with the `read:analytics` scope.
 ```bash
 curl https://api.anthropic.com/v1/organizations/analytics/usage_report \
     -H 'anthropic-version: 2023-06-01' \
-    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 ### Response (200)
@@ -321,8 +330,8 @@ curl https://api.anthropic.com/v1/organizations/analytics/usage_report \
       "results": [
         {
           "cache_creation": {
-            "ephemeral_1h_input_tokens": 1000,
-            "ephemeral_5m_input_tokens": 500
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 0
           },
           "cache_read_input_tokens": 0,
           "claude_tag_category": "dm",

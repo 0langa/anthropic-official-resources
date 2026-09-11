@@ -6,7 +6,7 @@ Lesson 7 of 13 · Claude Platform 101Built-in tools
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-platform-101%2Fbuilt-in-tools)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-platform-101%2Fbuilt-in-tools)
 
 Embedded media: https://www.youtube-nocookie.com/embed/pm8iwdSIs3M?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 

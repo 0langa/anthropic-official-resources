@@ -3,15 +3,15 @@ title: List Tunnels
 url: https://platform.claude.com/docs/en/api/beta/tunnels/list
 ---
 
-## List Tunnels
+# List Tunnels
 
-**get** `/v1/tunnels`
+**GET** `/v1/tunnels`
 
 The Tunnels API is in research preview. It requires the `anthropic-beta: mcp-tunnels-2026-06-22` header and may change without a deprecation period. It supersedes the Admin API endpoints at `/v1/organizations/tunnels`, which remain available during a migration window.
 
 Lists tunnels. Results are ordered by creation time, newest first; archived tunnels are excluded unless include_archived is set.
 
-### Query Parameters
+## Query parameters
 
 - `include_archived: optional boolean`
 
@@ -21,11 +21,13 @@ Lists tunnels. Results are ordered by creation time, newest first; archived tunn
 
   Maximum number of tunnels to return per page. Defaults to 20, maximum 1000.
 
+  format: int32
+
 - `page: optional string`
 
   Opaque pagination cursor from a previous `list_tunnels` response.
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -33,7 +35,7 @@ Lists tunnels. Results are ordered by creation time, newest first; archived tunn
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -81,6 +83,8 @@ Lists tunnels. Results are ordered by creation time, newest first; archived tunn
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -123,11 +127,15 @@ Lists tunnels. Results are ordered by creation time, newest first; archived tunn
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+- `"anthropic-workspace-id": optional string`
+
+## Returns
 
 - `data: array of BetaTunnel`
 
   List of tunnels, ordered by created_at descending.
+
+  - `type: "tunnel"`
 
   - `id: string`
 
@@ -137,9 +145,13 @@ Lists tunnels. Results are ordered by creation time, newest first; archived tunn
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `created_at: string`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `display_name: string or null`
 
@@ -149,24 +161,20 @@ Lists tunnels. Results are ordered by creation time, newest first; archived tunn
 
     Anthropic-assigned hostname for the tunnel. MCP server URLs whose host is a subdomain of this value are routed through the tunnel. Globally unique and never reused, even after the tunnel is archived.
 
-  - `type: "tunnel"`
-
-    - `"tunnel"`
-
 - `next_page: string or null`
 
   Pagination cursor for the next page, or null if no more results.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/tunnels \
     -H 'anthropic-version: 2023-06-01' \
     -H 'anthropic-beta: mcp-tunnels-2026-06-22' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

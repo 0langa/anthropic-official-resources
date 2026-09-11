@@ -1,3 +1,8 @@
+---
+title: List RBAC Roles
+url: https://platform.claude.com/docs/en/api/beta/organization/rbac_roles/list
+---
+
 # List RBAC Roles
 
 **GET** `/v1/organizations/rbac_roles`
@@ -22,7 +27,15 @@ The RBAC Roles API is available to Claude Enterprise organizations only.
 
 ## Returns
 
-- `data: array of RbacRole`
+- `data: array of BetaRBACRole`
+
+  - `type: "rbac_role"`
+
+    Object type.
+
+    For RBAC Roles, this is always `"rbac_role"`.
+
+    default: rbac_role
 
   - `id: string`
 
@@ -37,14 +50,6 @@ The RBAC Roles API is available to Claude Enterprise organizations only.
   - `name: string`
 
     Name of the RBAC Role.
-
-  - `type: "rbac_role"`
-
-    Object type.
-
-    For RBAC Roles, this is always `"rbac_role"`.
-
-    default: rbac_role
 
   - `updated_at: string`
 
@@ -66,7 +71,8 @@ The RBAC Roles API is available to Claude Enterprise organizations only.
 ```bash
 curl https://api.anthropic.com/v1/organizations/rbac_roles \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H 'anthropic-beta: ce-user-management-2026-07-13' \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 ### Response (200)

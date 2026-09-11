@@ -3,13 +3,13 @@ title: List Invites
 url: https://platform.claude.com/docs/en/api/beta/organization/invites/list
 ---
 
-## List Invites
+# List Invites
 
-**get** `/v1/organizations/invites`
+**GET** `/v1/organizations/invites`
 
 List the organization's invites.
 
-### Query Parameters
+## Query parameters
 
 - `after_id: optional string`
 
@@ -23,11 +23,15 @@ List the organization's invites.
 
   Filter by the email address the Invite was sent to. Matches the same way as the Users list's `email` filter (normalized, case-insensitive).
 
+  format: email
+
 - `limit: optional number`
 
   Number of items to return per page.
 
   Defaults to `20`. Ranges from `1` to `1000`.
+
+  default: 20, maximum: 1000, minimum: 1
 
 - `roles: optional array of string`
 
@@ -45,9 +49,17 @@ List the organization's invites.
 
   - `"pending"`
 
-### Returns
+## Returns
 
 - `data: array of BetaOrganizationInvite`
+
+  - `type: "invite"`
+
+    Object type.
+
+    For Invites, this is always `"invite"`.
+
+    default: invite
 
   - `id: string`
 
@@ -57,6 +69,8 @@ List the organization's invites.
 
     RFC 3339 datetime string indicating when the Invite was accepted, or null.
 
+    format: date-time
+
   - `email: string`
 
     Email of the User being invited.
@@ -65,9 +79,13 @@ List the organization's invites.
 
     RFC 3339 datetime string indicating when the Invite expires.
 
+    format: date-time
+
   - `invited_at: string`
 
     RFC 3339 datetime string indicating when the Invite was created.
+
+    format: date-time
 
   - `rbac_group_ids: array of string`
 
@@ -107,14 +125,6 @@ List the organization's invites.
 
     - `"pending"`
 
-  - `type: "invite"`
-
-    Object type.
-
-    For Invites, this is always `"invite"`.
-
-    - `"invite"`
-
 - `first_id: string or null`
 
   First ID in the `data` list. Can be used as the `before_id` for the previous page.
@@ -127,15 +137,15 @@ List the organization's invites.
 
   Last ID in the `data` list. Can be used as the `after_id` for the next page.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/invites \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

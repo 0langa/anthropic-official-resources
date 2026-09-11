@@ -1,3 +1,8 @@
+---
+title: Delete External Key
+url: https://platform.claude.com/docs/en/api/beta/organization/external_keys/delete
+---
+
 # Delete External Key
 
 **DELETE** `/v1/organizations/external_keys/{external_key_id}`
@@ -16,13 +21,13 @@ The request is rejected if any workspace still references this config.
 
 ## Returns
 
-- `id: string`
-
-  ID of the deleted External Key.
-
 - `type: "external_key_deleted"`
 
   default: external_key_deleted
+
+- `id: string`
+
+  ID of the deleted External Key.
 
 ## Example
 
@@ -30,7 +35,7 @@ The request is rejected if any workspace still references this config.
 curl https://api.anthropic.com/v1/organizations/external_keys/$EXTERNAL_KEY_ID \
     -X DELETE \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 ### Response (200)

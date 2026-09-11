@@ -1,3 +1,8 @@
+---
+title: HTTP API Reference
+url: https://platform.claude.com/docs/en/api/http
+---
+
 # HTTP API Reference
 
 ## [Shared](/docs/en/api/http/$shared.md)
@@ -372,7 +377,7 @@
 
     - [List API Keys](/docs/en/api/http/beta/organization/api_keys/list.md)
 
-    - [Get API Key](/docs/en/api/http/beta/organization/api_keys/retrieve.md)
+    - [Retrieve API Key (Admin API)](/docs/en/api/http/beta/organization/api_keys/retrieve.md)
 
     - [Update API Key](/docs/en/api/http/beta/organization/api_keys/update.md)
 
@@ -514,271 +519,127 @@
 
     - [Update Compliance Settings](/docs/en/api/http/beta/organization/compliance_settings/update.md)
 
-## [Admin](/docs/en/api/http/admin.md)
+  - [Usage Report](/docs/en/api/http/beta/organization/usage_report.md)
 
-- [Organizations](/docs/en/api/http/admin/organizations.md)
+    - [Get Messages Usage Report](/docs/en/api/http/beta/organization/usage_report/retrieve_messages.md)
 
-  - [Get Current Organization](/docs/en/api/http/admin/organizations/me.md)
+    - [Get Claude Code Usage Report](/docs/en/api/http/beta/organization/usage_report/retrieve_claude_code.md)
 
-- [Invites](/docs/en/api/http/admin/invites.md)
+  - [Cost Report](/docs/en/api/http/beta/organization/cost_report.md)
 
-  - [Create Invite](/docs/en/api/http/admin/invites/create.md)
+    - [Get Cost Report](/docs/en/api/http/beta/organization/cost_report/retrieve.md)
 
-  - [Get Invite](/docs/en/api/http/admin/invites/retrieve.md)
+  - [MCP Tunnels](/docs/en/api/http/beta/organization/mcp_tunnels.md)
 
-  - [List Invites](/docs/en/api/http/admin/invites/list.md)
+    - [List Tunnels](/docs/en/api/http/beta/organization/mcp_tunnels/list.md)
 
-  - [Delete Invite](/docs/en/api/http/admin/invites/delete.md)
+    - [Get Tunnel](/docs/en/api/http/beta/organization/mcp_tunnels/retrieve.md)
 
-- [Users](/docs/en/api/http/admin/users.md)
+    - [Archive Tunnel](/docs/en/api/http/beta/organization/mcp_tunnels/archive.md)
 
-  - [Get User](/docs/en/api/http/admin/users/retrieve.md)
+    - [Reveal Tunnel Token](/docs/en/api/http/beta/organization/mcp_tunnels/reveal_token.md)
 
-  - [List Users](/docs/en/api/http/admin/users/list.md)
+    - [Rotate Tunnel Token](/docs/en/api/http/beta/organization/mcp_tunnels/rotate_token.md)
 
-  - [Update User](/docs/en/api/http/admin/users/update.md)
+    - [Tunnel Certificates](/docs/en/api/http/beta/organization/mcp_tunnels/tunnel_certificates.md)
 
-  - [Remove User](/docs/en/api/http/admin/users/delete.md)
+      - [Create Tunnel Certificate](/docs/en/api/http/beta/organization/mcp_tunnels/tunnel_certificates/create.md)
 
-- [RBAC Groups](/docs/en/api/http/admin/rbac_groups.md)
+      - [List Tunnel Certificates](/docs/en/api/http/beta/organization/mcp_tunnels/tunnel_certificates/list.md)
 
-  - [List RBAC Groups](/docs/en/api/http/admin/rbac_groups/list.md)
+      - [Get Tunnel Certificate](/docs/en/api/http/beta/organization/mcp_tunnels/tunnel_certificates/retrieve.md)
 
-  - [Get RBAC Group](/docs/en/api/http/admin/rbac_groups/retrieve.md)
+      - [Archive Tunnel Certificate](/docs/en/api/http/beta/organization/mcp_tunnels/tunnel_certificates/archive.md)
 
-  - [Create RBAC Group](/docs/en/api/http/admin/rbac_groups/create.md)
+  - [Analytics](/docs/en/api/http/beta/organization/analytics.md)
 
-  - [Update RBAC Group](/docs/en/api/http/admin/rbac_groups/update.md)
+    - [Get Activity Summaries](/docs/en/api/http/beta/organization/analytics/retrieve_summaries.md)
 
-  - [Delete RBAC Group](/docs/en/api/http/admin/rbac_groups/delete.md)
+    - [Usage](/docs/en/api/http/beta/organization/analytics/usage.md)
 
-  - [Members](/docs/en/api/http/admin/rbac_groups/members.md)
+      - [Get Token Usage Over Time](/docs/en/api/http/beta/organization/analytics/usage/list.md)
 
-    - [List RBAC Group Members](/docs/en/api/http/admin/rbac_groups/members/list.md)
+      - [Get Per-User Token Usage](/docs/en/api/http/beta/organization/analytics/usage/list_by_user.md)
 
-    - [Add RBAC Group Member](/docs/en/api/http/admin/rbac_groups/members/create.md)
+    - [Cost](/docs/en/api/http/beta/organization/analytics/cost.md)
 
-    - [Remove RBAC Group Member](/docs/en/api/http/admin/rbac_groups/members/delete.md)
+      - [Get Cost Over Time](/docs/en/api/http/beta/organization/analytics/cost/list.md)
 
-- [RBAC Roles](/docs/en/api/http/admin/rbac_roles.md)
+      - [Get Per-User Cost](/docs/en/api/http/beta/organization/analytics/cost/list_by_user.md)
 
-  - [List RBAC Roles](/docs/en/api/http/admin/rbac_roles/list.md)
+    - [Users](/docs/en/api/http/beta/organization/analytics/users.md)
 
-  - [Get RBAC Role](/docs/en/api/http/admin/rbac_roles/retrieve.md)
+      - [List User Activity](/docs/en/api/http/beta/organization/analytics/users/list.md)
 
-  - [Permissions](/docs/en/api/http/admin/rbac_roles/permissions.md)
+    - [Skills](/docs/en/api/http/beta/organization/analytics/skills.md)
 
-    - [List RBAC Role Permissions](/docs/en/api/http/admin/rbac_roles/permissions/list.md)
+      - [Get Skill Usage](/docs/en/api/http/beta/organization/analytics/skills/list.md)
 
-- [Workspaces](/docs/en/api/http/admin/workspaces.md)
+    - [Connectors](/docs/en/api/http/beta/organization/analytics/connectors.md)
 
-  - [Create Workspace](/docs/en/api/http/admin/workspaces/create.md)
+      - [Get Connector Usage](/docs/en/api/http/beta/organization/analytics/connectors/list.md)
 
-  - [Get Workspace](/docs/en/api/http/admin/workspaces/retrieve.md)
+    - [Chat Projects](/docs/en/api/http/beta/organization/analytics/chat_projects.md)
 
-  - [List Workspaces](/docs/en/api/http/admin/workspaces/list.md)
+      - [Get Chat Project Usage](/docs/en/api/http/beta/organization/analytics/chat_projects/list.md)
 
-  - [Update Workspace](/docs/en/api/http/admin/workspaces/update.md)
+    - [Plugins](/docs/en/api/http/beta/organization/analytics/plugins.md)
 
-  - [Archive Workspace](/docs/en/api/http/admin/workspaces/archive.md)
+      - [Get Plugin Usage](/docs/en/api/http/beta/organization/analytics/plugins/list.md)
 
-  - [Members](/docs/en/api/http/admin/workspaces/members.md)
+    - [Artifacts](/docs/en/api/http/beta/organization/analytics/artifacts.md)
 
-    - [Create Workspace Member](/docs/en/api/http/admin/workspaces/members/create.md)
+      - [Get Artifact Activity](/docs/en/api/http/beta/organization/analytics/artifacts/list.md)
 
-    - [Get Workspace Member](/docs/en/api/http/admin/workspaces/members/retrieve.md)
+  - [Spend Limits](/docs/en/api/http/beta/organization/spend_limits.md)
 
-    - [List Workspace Members](/docs/en/api/http/admin/workspaces/members/list.md)
+    - [Set Spend Limit](/docs/en/api/http/beta/organization/spend_limits/create.md)
 
-    - [Update Workspace Member](/docs/en/api/http/admin/workspaces/members/update.md)
+    - [Get Spend Limit](/docs/en/api/http/beta/organization/spend_limits/retrieve.md)
 
-    - [Delete Workspace Member](/docs/en/api/http/admin/workspaces/members/delete.md)
+    - [Delete Spend Limit](/docs/en/api/http/beta/organization/spend_limits/delete.md)
 
-  - [Rate Limits](/docs/en/api/http/admin/workspaces/rate_limits.md)
+    - [List Effective Spend Limits](/docs/en/api/http/beta/organization/spend_limits/list_effective.md)
 
-    - [List Workspace Rate Limits](/docs/en/api/http/admin/workspaces/rate_limits/list.md)
+    - [Increase Requests](/docs/en/api/http/beta/organization/spend_limits/increase_requests.md)
 
-  - [Service Accounts](/docs/en/api/http/admin/workspaces/service_accounts.md)
+      - [List Spend Limit Increase Requests](/docs/en/api/http/beta/organization/spend_limits/increase_requests/list.md)
 
-    - [Create Service Account Workspace Member](/docs/en/api/http/admin/workspaces/service_accounts/create.md)
+      - [Get Spend Limit Increase Request](/docs/en/api/http/beta/organization/spend_limits/increase_requests/retrieve.md)
 
-    - [Get Service Account Workspace Member](/docs/en/api/http/admin/workspaces/service_accounts/retrieve.md)
+      - [Approve Spend Limit Increase Request](/docs/en/api/http/beta/organization/spend_limits/increase_requests/approve.md)
 
-    - [List Service Account Workspace Members](/docs/en/api/http/admin/workspaces/service_accounts/list.md)
+      - [Deny Spend Limit Increase Request](/docs/en/api/http/beta/organization/spend_limits/increase_requests/deny.md)
 
-    - [Update Service Account Workspace Member](/docs/en/api/http/admin/workspaces/service_accounts/update.md)
+  - [RBAC Groups](/docs/en/api/http/beta/organization/rbac_groups.md)
 
-    - [Delete Service Account Workspace Member](/docs/en/api/http/admin/workspaces/service_accounts/delete.md)
+    - [List RBAC Groups](/docs/en/api/http/beta/organization/rbac_groups/list.md)
 
-- [API Keys](/docs/en/api/http/admin/api_keys.md)
+    - [Get RBAC Group](/docs/en/api/http/beta/organization/rbac_groups/retrieve.md)
 
-  - [Retrieve API Key (Admin API)](/docs/en/api/http/admin/api_keys/retrieve.md)
+    - [Create RBAC Group](/docs/en/api/http/beta/organization/rbac_groups/create.md)
 
-  - [List API Keys](/docs/en/api/http/admin/api_keys/list.md)
+    - [Update RBAC Group](/docs/en/api/http/beta/organization/rbac_groups/update.md)
 
-  - [Update API Key](/docs/en/api/http/admin/api_keys/update.md)
+    - [Delete RBAC Group](/docs/en/api/http/beta/organization/rbac_groups/delete.md)
 
-- [External Keys](/docs/en/api/http/admin/external_keys.md)
+    - [Members](/docs/en/api/http/beta/organization/rbac_groups/members.md)
 
-  - [Create External Key](/docs/en/api/http/admin/external_keys/create.md)
+      - [List RBAC Group Members](/docs/en/api/http/beta/organization/rbac_groups/members/list.md)
 
-  - [List External Keys](/docs/en/api/http/admin/external_keys/list.md)
+      - [Add RBAC Group Member](/docs/en/api/http/beta/organization/rbac_groups/members/create.md)
 
-  - [Get External Key](/docs/en/api/http/admin/external_keys/retrieve.md)
+      - [Remove RBAC Group Member](/docs/en/api/http/beta/organization/rbac_groups/members/delete.md)
 
-  - [Update External Key](/docs/en/api/http/admin/external_keys/update.md)
+  - [RBAC Roles](/docs/en/api/http/beta/organization/rbac_roles.md)
 
-  - [Delete External Key](/docs/en/api/http/admin/external_keys/delete.md)
+    - [List RBAC Roles](/docs/en/api/http/beta/organization/rbac_roles/list.md)
 
-  - [Validate External Key](/docs/en/api/http/admin/external_keys/validate.md)
+    - [Get RBAC Role](/docs/en/api/http/beta/organization/rbac_roles/retrieve.md)
 
-- [Usage Report](/docs/en/api/http/admin/usage_report.md)
+    - [Permissions](/docs/en/api/http/beta/organization/rbac_roles/permissions.md)
 
-  - [Get Messages Usage Report](/docs/en/api/http/admin/usage_report/retrieve_messages.md)
-
-  - [Get Claude Code Usage Report](/docs/en/api/http/admin/usage_report/retrieve_claude_code.md)
-
-- [Cost Report](/docs/en/api/http/admin/cost_report.md)
-
-  - [Get Cost Report](/docs/en/api/http/admin/cost_report/retrieve.md)
-
-- [Analytics](/docs/en/api/http/admin/analytics.md)
-
-  - [Get Activity Summaries](/docs/en/api/http/admin/analytics/retrieve_summaries.md)
-
-  - [Usage](/docs/en/api/http/admin/analytics/usage.md)
-
-    - [Get Token Usage Over Time](/docs/en/api/http/admin/analytics/usage/list.md)
-
-    - [Get Per-User Token Usage](/docs/en/api/http/admin/analytics/usage/list_by_user.md)
-
-  - [Cost](/docs/en/api/http/admin/analytics/cost.md)
-
-    - [Get Cost Over Time](/docs/en/api/http/admin/analytics/cost/list.md)
-
-    - [Get Per-User Cost](/docs/en/api/http/admin/analytics/cost/list_by_user.md)
-
-  - [Users](/docs/en/api/http/admin/analytics/users.md)
-
-    - [List User Activity](/docs/en/api/http/admin/analytics/users/list.md)
-
-  - [Skills](/docs/en/api/http/admin/analytics/skills.md)
-
-    - [Get Skill Usage](/docs/en/api/http/admin/analytics/skills/list.md)
-
-  - [Connectors](/docs/en/api/http/admin/analytics/connectors.md)
-
-    - [Get Connector Usage](/docs/en/api/http/admin/analytics/connectors/list.md)
-
-  - [Chat Projects](/docs/en/api/http/admin/analytics/chat_projects.md)
-
-    - [Get Chat Project Usage](/docs/en/api/http/admin/analytics/chat_projects/list.md)
-
-  - [Plugins](/docs/en/api/http/admin/analytics/plugins.md)
-
-    - [Get Plugin Usage](/docs/en/api/http/admin/analytics/plugins/list.md)
-
-  - [Artifacts](/docs/en/api/http/admin/analytics/artifacts.md)
-
-    - [Get Artifact Activity](/docs/en/api/http/admin/analytics/artifacts/list.md)
-
-- [Spend Limits](/docs/en/api/http/admin/spend_limits.md)
-
-  - [Set Spend Limit](/docs/en/api/http/admin/spend_limits/create.md)
-
-  - [Get Spend Limit](/docs/en/api/http/admin/spend_limits/retrieve.md)
-
-  - [Delete Spend Limit](/docs/en/api/http/admin/spend_limits/delete.md)
-
-  - [List Effective Spend Limits](/docs/en/api/http/admin/spend_limits/list_effective.md)
-
-  - [Increase Requests](/docs/en/api/http/admin/spend_limits/increase_requests.md)
-
-    - [List Spend Limit Increase Requests](/docs/en/api/http/admin/spend_limits/increase_requests/list.md)
-
-    - [Get Spend Limit Increase Request](/docs/en/api/http/admin/spend_limits/increase_requests/retrieve.md)
-
-    - [Approve Spend Limit Increase Request](/docs/en/api/http/admin/spend_limits/increase_requests/approve.md)
-
-    - [Deny Spend Limit Increase Request](/docs/en/api/http/admin/spend_limits/increase_requests/deny.md)
-
-- [Rate Limits](/docs/en/api/http/admin/rate_limits.md)
-
-  - [List Organization Rate Limits](/docs/en/api/http/admin/rate_limits/list.md)
-
-- [Service Accounts](/docs/en/api/http/admin/service_accounts.md)
-
-  - [Create Service Account](/docs/en/api/http/admin/service_accounts/create.md)
-
-  - [Get Service Account](/docs/en/api/http/admin/service_accounts/retrieve.md)
-
-  - [List Service Accounts](/docs/en/api/http/admin/service_accounts/list.md)
-
-  - [Update Service Account](/docs/en/api/http/admin/service_accounts/update.md)
-
-  - [Archive Service Account](/docs/en/api/http/admin/service_accounts/archive.md)
-
-  - [Workspaces](/docs/en/api/http/admin/service_accounts/workspaces.md)
-
-    - [Add Workspace To Service Account](/docs/en/api/http/admin/service_accounts/workspaces/create.md)
-
-    - [List Workspaces For Service Account](/docs/en/api/http/admin/service_accounts/workspaces/list.md)
-
-    - [Remove Workspace From Service Account](/docs/en/api/http/admin/service_accounts/workspaces/delete.md)
-
-- [Federation Issuers](/docs/en/api/http/admin/federation_issuers.md)
-
-  - [Create Federation Issuer](/docs/en/api/http/admin/federation_issuers/create.md)
-
-  - [Get Federation Issuer](/docs/en/api/http/admin/federation_issuers/retrieve.md)
-
-  - [List Federation Issuers](/docs/en/api/http/admin/federation_issuers/list.md)
-
-  - [Update Federation Issuer](/docs/en/api/http/admin/federation_issuers/update.md)
-
-  - [Archive Federation Issuer](/docs/en/api/http/admin/federation_issuers/archive.md)
-
-- [Federation Rules](/docs/en/api/http/admin/federation_rules.md)
-
-  - [Create Federation Rule](/docs/en/api/http/admin/federation_rules/create.md)
-
-  - [Get Federation Rule](/docs/en/api/http/admin/federation_rules/retrieve.md)
-
-  - [List Federation Rules](/docs/en/api/http/admin/federation_rules/list.md)
-
-  - [Update Federation Rule](/docs/en/api/http/admin/federation_rules/update.md)
-
-  - [Archive Federation Rule](/docs/en/api/http/admin/federation_rules/archive.md)
-
-  - [Workspaces](/docs/en/api/http/admin/federation_rules/workspaces.md)
-
-    - [List Federation Rule Workspaces](/docs/en/api/http/admin/federation_rules/workspaces/list.md)
-
-    - [Add Federation Rule Workspace](/docs/en/api/http/admin/federation_rules/workspaces/create.md)
-
-    - [Remove Federation Rule Workspace](/docs/en/api/http/admin/federation_rules/workspaces/delete.md)
-
-- [MCP Tunnels](/docs/en/api/http/admin/mcp_tunnels.md)
-
-  - [Get Tunnel](/docs/en/api/http/admin/mcp_tunnels/retrieve.md)
-
-  - [List Tunnels](/docs/en/api/http/admin/mcp_tunnels/list.md)
-
-  - [Reveal Tunnel Token](/docs/en/api/http/admin/mcp_tunnels/reveal_token.md)
-
-  - [Rotate Tunnel Token](/docs/en/api/http/admin/mcp_tunnels/rotate_token.md)
-
-  - [Archive Tunnel](/docs/en/api/http/admin/mcp_tunnels/archive.md)
-
-  - [Tunnel Certificates](/docs/en/api/http/admin/mcp_tunnels/tunnel_certificates.md)
-
-    - [Create Tunnel Certificate](/docs/en/api/http/admin/mcp_tunnels/tunnel_certificates/create.md)
-
-    - [Get Tunnel Certificate](/docs/en/api/http/admin/mcp_tunnels/tunnel_certificates/retrieve.md)
-
-    - [List Tunnel Certificates](/docs/en/api/http/admin/mcp_tunnels/tunnel_certificates/list.md)
-
-    - [Archive Tunnel Certificate](/docs/en/api/http/admin/mcp_tunnels/tunnel_certificates/archive.md)
+      - [List RBAC Role Permissions](/docs/en/api/http/beta/organization/rbac_roles/permissions/list.md)
 
 ## [Compliance API](/docs/en/api/http/compliance.md)
 

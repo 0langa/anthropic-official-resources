@@ -6,7 +6,7 @@ Lesson 21 of 65 · Claude with Amazon BedrockIntroducing tool use
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-amazon-bedrock%2Fintroducing-tool-use)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fintroducing-tool-use)
 
 Tools allow Claude to access information from the outside world, solving one of its key limitations. By default, Claude only has access to information it was trained on, which means it can't provide current information like today's weather or recent news.
 

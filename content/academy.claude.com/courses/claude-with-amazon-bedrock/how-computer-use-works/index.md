@@ -6,7 +6,7 @@ Lesson 64 of 65 · Claude with Amazon BedrockHow Computer Use works
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-amazon-bedrock%2Fhow-computer-use-works)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fhow-computer-use-works)
 
 Computer use in Claude works exactly like regular tool use - it's built on the same foundation you're already familiar with. The key difference is that instead of calling a weather API or database function, Claude is making requests to control a computer interface.
 

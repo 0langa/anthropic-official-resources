@@ -3,9 +3,9 @@ title: List Federation Issuers
 url: https://platform.claude.com/docs/en/api/beta/organization/federation/issuers/list
 ---
 
-## List Federation Issuers
+# List Federation Issuers
 
-**get** `/v1/organizations/federation_issuers`
+**GET** `/v1/organizations/federation_issuers`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -13,21 +13,25 @@ List federation issuers in your organization.
 
 Archived issuers are excluded unless `include_archived=true`.
 
-### Query Parameters
+## Query parameters
 
 - `include_archived: optional boolean`
 
   Include archived resources. Defaults to false.
 
+  default: false
+
 - `limit: optional number`
 
   Number of results per page.
+
+  default: 20, maximum: 100, minimum: 1
 
 - `page: optional string`
 
   Opaque cursor from a previous response's `next_page`.
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -35,7 +39,7 @@ Archived issuers are excluded unless `include_archived=true`.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -83,6 +87,8 @@ Archived issuers are excluded unless `include_archived=true`.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -125,9 +131,13 @@ Archived issuers are excluded unless `include_archived=true`.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+## Returns
 
 - `data: array of BetaFederationIssuer`
+
+  - `type: "federation_issuer"`
+
+    default: federation_issuer
 
   - `id: string`
 
@@ -136,6 +146,8 @@ Archived issuers are excluded unless `include_archived=true`.
   - `archived_at: string or null`
 
     If set, all rules referencing this issuer reject token exchange.
+
+    format: date-time
 
   - `archived_by_actor_id: string or null`
 
@@ -149,6 +161,8 @@ Archived issuers are excluded unless `include_archived=true`.
 
     When this issuer was created.
 
+    format: date-time
+
   - `created_by_actor_id: string or null`
 
     Tagged ID (`user_`/`svac_`) of the actor that created this issuer.
@@ -161,53 +175,57 @@ Archived issuers are excluded unless `include_archived=true`.
 
     How signing keys are obtained for signature verification.
 
-    - `BetaJWKSDiscovery object { type, ca_cert_pem, discovery_base }`
+    - `BetaJWKSDiscovery object`
 
       JWKS via the issuer's OIDC discovery document.
 
       - `type: "discovery"`
 
-        - `"discovery"`
-
       - `ca_cert_pem: optional string or null`
 
         Optional custom CA (PEM) for TLS verification of the JWKS fetch.
+
+        maxLength: 8192
 
       - `discovery_base: optional string or null`
 
         Set when the discovery URL differs from `issuer_url`.
 
-    - `BetaJWKSExplicitURL object { type, url, ca_cert_pem }`
+    - `BetaJWKSExplicitURL object`
 
       JWKS fetched from a fixed endpoint.
 
       - `type: "explicit_url"`
 
-        - `"explicit_url"`
-
       - `url: string`
 
         JWKS endpoint.
+
+        minLength: 1
 
       - `ca_cert_pem: optional string or null`
 
         Optional custom CA (PEM) for TLS verification of the JWKS fetch.
 
-    - `BetaJWKSInline object { keys, type }`
+        maxLength: 8192
+
+    - `BetaJWKSInline object`
 
       JWKS supplied directly; no network fetch.
+
+      - `type: "inline"`
 
       - `keys: array of map[unknown]`
 
         Inline JWK objects.
 
-      - `type: "inline"`
-
-        - `"inline"`
+        minItems: 1
 
   - `jwks_polling_disabled_at: string or null`
 
     If set, Anthropic's JWKS poller has paused polling for this issuer after repeated fetch failures. Re-enable by sending `jwks_polling_disabled: false` via the issuer update endpoint (POST) once the upstream JWKS endpoint is fixed. An OAuth caller cannot send this when the issuer backs a rule with any scope other than `workspace:developer` or `workspace:inference`; use a Console session.
+
+    format: date-time
 
   - `max_jwt_lifetime_seconds: number`
 
@@ -233,17 +251,19 @@ Archived issuers are excluded unless `include_archived=true`.
 
       When the last successful fetch completed.
 
+      format: date-time
+
     - `next_poll_at: string or null`
 
       When the next fetch is scheduled. Null if paused.
 
-  - `type: "federation_issuer"`
-
-    - `"federation_issuer"`
+      format: date-time
 
   - `updated_at: string`
 
     When this issuer was last updated.
+
+    format: date-time
 
   - `updated_by_actor_id: string or null`
 
@@ -253,15 +273,15 @@ Archived issuers are excluded unless `include_archived=true`.
 
   Opaque cursor for the next page, or null if no more results.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/federation_issuers \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

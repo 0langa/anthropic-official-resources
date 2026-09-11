@@ -3,17 +3,17 @@ title: Add Session Resource
 url: https://platform.claude.com/docs/en/api/beta/sessions/resources/add
 ---
 
-## Add Session Resource
+# Add Session Resource
 
-**post** `/v1/sessions/{session_id}/resources`
+**POST** `/v1/sessions/{session_id}/resources`
 
 Add Session Resource
 
-### Path Parameters
+## Path parameters
 
 - `session_id: string`
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -21,7 +21,7 @@ Add Session Resource
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -69,6 +69,8 @@ Add Session Resource
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -111,23 +113,29 @@ Add Session Resource
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+- `"anthropic-workspace-id": optional string`
+
+## Body parameters
 
 - `file_id: string`
 
   ID of a previously uploaded file.
 
-- `type: "file"`
+  minLength: 1, maxLength: 128
 
-  - `"file"`
+- `type: "file"`
 
 - `mount_path: optional string or null`
 
   Mount path in the container. Defaults to `/mnt/session/uploads/<file_id>`.
 
-### Returns
+  minLength: 1, maxLength: 4096
 
-- `BetaManagedAgentsFileResource object { id, created_at, file_id, 3 more }`
+## Returns
+
+- `BetaManagedAgentsFileResource object`
+
+  - `type: "file"`
 
   - `id: string`
 
@@ -135,21 +143,21 @@ Add Session Resource
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `file_id: string`
 
   - `mount_path: string`
-
-  - `type: "file"`
-
-    - `"file"`
 
   - `updated_at: string`
 
     A timestamp in RFC 3339 format
 
-### Example
+    format: date-time
 
-```http
+## Example
+
+```bash
 curl https://api.anthropic.com/v1/sessions/$SESSION_ID/resources \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -162,7 +170,7 @@ curl https://api.anthropic.com/v1/sessions/$SESSION_ID/resources \
         }'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

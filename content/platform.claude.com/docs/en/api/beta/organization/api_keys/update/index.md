@@ -3,23 +3,25 @@ title: Update API Key
 url: https://platform.claude.com/docs/en/api/beta/organization/api_keys/update
 ---
 
-## Update API Key
+# Update API Key
 
-**post** `/v1/organizations/api_keys/{api_key_id}`
+**POST** `/v1/organizations/api_keys/{api_key_id}`
 
 Update API Key
 
-### Path Parameters
+## Path parameters
 
 - `api_key_id: string`
 
   ID of the API key.
 
-### Body Parameters
+## Body parameters
 
 - `name: optional string or null`
 
   Name of the API key.
+
+  maxLength: 500, minLength: 1
 
 - `status: optional "active" or "archived" or "inactive" or null`
 
@@ -31,9 +33,17 @@ Update API Key
 
   - `"inactive"`
 
-### Returns
+## Returns
 
-- `BetaAPIKey object { id, created_at, created_by, 8 more }`
+- `BetaAPIKey object`
+
+  - `type: "api_key"`
+
+    Object type.
+
+    For API Keys, this is always `"api_key"`.
+
+    default: api_key
 
   - `id: string`
 
@@ -43,15 +53,13 @@ Update API Key
 
     RFC 3339 datetime string indicating when the API Key was created.
 
+    format: date-time
+
   - `created_by: BetaAPIKeyCreatedBy or null`
 
     The ID and type of the actor that created the API key, or `null` when the
     creator is not recorded (legacy, workload-identity-federated, or
     system-created keys).
-
-    - `id: string`
-
-      ID of the actor that created the object.
 
     - `type: "service_account" or "user"`
 
@@ -61,9 +69,15 @@ Update API Key
 
       - `"user"`
 
+    - `id: string`
+
+      ID of the actor that created the object.
+
   - `expires_at: string or null`
 
     RFC 3339 datetime string indicating when the API Key expires, or `null` if it never expires.
+
+    format: date-time
 
   - `name: string`
 
@@ -77,49 +91,49 @@ Update API Key
 
     The principal the API key acts as (a User or a Service Account), or `null` if the API key is not bound to a principal.
 
-    - `BetaAPIKeyUserActor object { type, user_id }`
+    - `BetaAPIKeyUserActor object`
 
       - `type: "user_actor"`
 
         Principal type. Always `"user_actor"` for a User.
 
-        - `"user_actor"`
+        default: user_actor
 
       - `user_id: string`
 
         ID of the User the API key acts as.
 
-    - `BetaAPIKeyServiceAccountActor object { service_account_id, type }`
-
-      - `service_account_id: string`
-
-        ID of the Service Account the API key acts as.
+    - `BetaAPIKeyServiceAccountActor object`
 
       - `type: "service_account_actor"`
 
         Principal type. Always `"service_account_actor"` for a Service Account.
 
-        - `"service_account_actor"`
+        default: service_account_actor
+
+      - `service_account_id: string`
+
+        ID of the Service Account the API key acts as.
 
   - `scope: BetaAPIKeyOrganizationScope or BetaAPIKeyWorkspaceScope`
 
     Where the API key belongs: its Workspace (`{"type": "workspace", "workspace_id": "wrkspc_..."}`, with the Workspace's real ID even when it is the organization's default Workspace), or the organization (`{"type": "organization"}`) for a principal-bound API key that has no Workspace.
 
-    - `BetaAPIKeyOrganizationScope object { type }`
+    - `BetaAPIKeyOrganizationScope object`
 
       - `type: "organization"`
 
         Scope type. Always `"organization"`: the API key has no Workspace. Only a principal-bound API key can have this scope.
 
-        - `"organization"`
+        default: organization
 
-    - `BetaAPIKeyWorkspaceScope object { type, workspace_id }`
+    - `BetaAPIKeyWorkspaceScope object`
 
       - `type: "workspace"`
 
         Scope type. Always `"workspace"`: the API key belongs to one Workspace.
 
-        - `"workspace"`
+        default: workspace
 
       - `workspace_id: string`
 
@@ -137,21 +151,15 @@ Update API Key
 
     - `"inactive"`
 
-  - `type: "api_key"`
-
-    Object type.
-
-    For API Keys, this is always `"api_key"`.
-
-    - `"api_key"`
-
   - `workspace_id: string or null`
+
+    **Deprecated**: Use `scope` instead. `workspace_id` is `null` both for an API key in the default Workspace and for a principal-bound API key that has no Workspace.
 
     Deprecated: use `scope` instead. ID of the Workspace associated with the API key, or `null` if the API key belongs to the default Workspace. Also `null` for a principal-bound API key that has no Workspace; `scope` tells the two apart.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/api_keys/$API_KEY_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -159,7 +167,7 @@ curl https://api.anthropic.com/v1/organizations/api_keys/$API_KEY_ID \
     -d '{}'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

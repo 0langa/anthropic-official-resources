@@ -3,13 +3,13 @@ title: List Users
 url: https://platform.claude.com/docs/en/api/beta/organization/users/list
 ---
 
-## List Users
+# List Users
 
-**get** `/v1/organizations/users`
+**GET** `/v1/organizations/users`
 
 List the organization's members.
 
-### Query Parameters
+## Query parameters
 
 - `after_id: optional string`
 
@@ -23,11 +23,15 @@ List the organization's members.
 
   Filter by user email.
 
+  format: email
+
 - `limit: optional number`
 
   Number of items to return per page.
 
   Defaults to `20`. Ranges from `1` to `1000`.
+
+  default: 20, maximum: 1000, minimum: 1
 
 - `roles: optional array of string`
 
@@ -35,9 +39,17 @@ List the organization's members.
 
   Accepted values depend on the organization type: Console and API organizations accept `user`, `developer`, `billing`, `admin`, and `claude_code_user`; Claude Enterprise organizations accept `user`, `owner`, `primary_owner`, `membership_admin`, and `managed`.
 
-### Returns
+## Returns
 
 - `data: array of BetaOrganizationUser`
+
+  - `type: "user"`
+
+    Object type.
+
+    For Users, this is always `"user"`.
+
+    default: user
 
   - `id: string`
 
@@ -46,6 +58,8 @@ List the organization's members.
   - `added_at: string`
 
     RFC 3339 datetime string indicating when the User joined the Organization.
+
+    format: date-time
 
   - `email: string`
 
@@ -77,14 +91,6 @@ List the organization's members.
 
     - `"user"`
 
-  - `type: "user"`
-
-    Object type.
-
-    For Users, this is always `"user"`.
-
-    - `"user"`
-
 - `first_id: string or null`
 
   First ID in the `data` list. Can be used as the `before_id` for the previous page.
@@ -97,15 +103,15 @@ List the organization's members.
 
   Last ID in the `data` list. Can be used as the `after_id` for the next page.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/users \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

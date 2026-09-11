@@ -8,7 +8,7 @@ AllCoursesTutorialsUse cases
 
 ProductAll
 
-293 resources
+294 resources
 
 [## AI Capabilities and Limitations
 
@@ -234,7 +234,7 @@ AllCoursesTutorialsUse cases
 
 ProductAll
 
-119 tutorials
+120 tutorials
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-blskv34c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bv9w6wt2.png)
 
@@ -242,7 +242,13 @@ ProductAll
 
 Explore how to build AI Fluency within your organization
 
-10 min](https://academy.claude.com/tutorials/a-discussion-guide-for-the-ai-fluency-index)[![](https://academy.claude.com/assets/v1/thumbnail.light-cq67r4kj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-d9qi1x8j.png)
+10 min](https://academy.claude.com/tutorials/a-discussion-guide-for-the-ai-fluency-index)[![](https://academy.claude.com/assets/v1/thumbnail.light-cu6wjiio.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-omuj02iu.png)
+
+## Anthropic Education Report: How people check Claude's work
+
+We asked 129 Claude Academy participants what discernment looks like when they work with Claude. Checking Claude's work usually means verifying it against something external, lack of domain expertise is the biggest barrier, and errors caught too late spur new discernment habits.
+
+10 min](https://academy.claude.com/tutorials/discernment-toolkit)[![](https://academy.claude.com/assets/v1/thumbnail.light-cq67r4kj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-d9qi1x8j.png)
 
 ## Anthropic Education Report: The AI Fluency Index
 
@@ -372,13 +378,7 @@ Learn complete financial analysis workflows using a three-phase approach: retrie
 
 The three setup steps before your first task: open the desktop app, run the guided setup, and point Cowork at where the work lives.
 
-4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-fibnfxv4.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ov8b09q9.png)
-
-## Getting good at Claude: A research-backed curriculum
-
-What research shows about how people get better at working with Claude, and a curriculum model you can adapt for your organization.
-
-6 min](https://academy.claude.com/tutorials/getting-good-at-claude-a-research-backed-curriculum)Load more
+4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)Load more
 
 
 ## Use cases

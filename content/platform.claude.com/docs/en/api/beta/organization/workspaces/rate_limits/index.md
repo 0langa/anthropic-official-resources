@@ -7,7 +7,7 @@ url: https://platform.claude.com/docs/en/api/beta/organization/workspaces/rate_l
 
 ## List Workspace Rate Limits
 
-**get** `/v1/organizations/workspaces/{workspace_id}/rate_limits`
+**GET** `/v1/organizations/workspaces/{workspace_id}/rate_limits`
 
 List rate-limit overrides configured for a workspace.
 
@@ -19,13 +19,13 @@ When `limit` is omitted, every matching entry is returned in a single
 page; when `limit` truncates the result, follow `next_page` to fetch
 the remaining entries.
 
-### Path Parameters
+### Path parameters
 
 - `workspace_id: string`
 
   The ID of the workspace.
 
-### Query Parameters
+### Query parameters
 
 - `group_type: optional "batch" or "files" or "model_group" or 3 more`
 
@@ -49,6 +49,8 @@ the remaining entries.
 
   When omitted, every remaining entry is returned in a single page and `next_page` is `null`.
 
+  maximum: 1000, minimum: 1
+
 - `page: optional string`
 
   Opaque cursor from a previous response's `next_page`.
@@ -58,6 +60,12 @@ the remaining entries.
 - `data: array of BetaWorkspaceRateLimit`
 
   Rate-limit entries for the workspace, one per group that has at least one override.
+
+  - `type: "workspace_rate_limit"`
+
+    Object type. Always `workspace_rate_limit` for workspace rate-limit entries.
+
+    default: workspace_rate_limit
 
   - `group_type: "batch" or "files" or "model_group" or 3 more`
 
@@ -79,13 +87,13 @@ the remaining entries.
 
     The limiter values overridden for this group in this workspace. Limiter types without a workspace override are omitted and inherit the organization value.
 
-    - `org_limit: number or null`
-
-      The organization-level value for the same limiter type, for reference. `null` when the organization has no limit configured for this limiter type.
-
     - `type: string`
 
       The limiter type (for example, `requests_per_minute` or `input_tokens_per_minute`).
+
+    - `org_limit: number or null`
+
+      The organization-level value for the same limiter type, for reference. `null` when the organization has no limit configured for this limiter type.
 
     - `value: number`
 
@@ -99,12 +107,6 @@ the remaining entries.
 
     The `id` of the RateLimit group this override applies to.
 
-  - `type: "workspace_rate_limit"`
-
-    Object type. Always `workspace_rate_limit` for workspace rate-limit entries.
-
-    - `"workspace_rate_limit"`
-
   - `workspace_id: string`
 
     ID of the Workspace this override applies to.
@@ -115,13 +117,13 @@ the remaining entries.
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/rate_limits \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -147,11 +149,17 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/rate_li
 }
 ```
 
-## Domain Types
+## Domain types
 
 ### Beta Workspace Rate Limit
 
-- `BetaWorkspaceRateLimit object { group_type, limits, models, 3 more }`
+- `BetaWorkspaceRateLimit object`
+
+  - `type: "workspace_rate_limit"`
+
+    Object type. Always `workspace_rate_limit` for workspace rate-limit entries.
+
+    default: workspace_rate_limit
 
   - `group_type: "batch" or "files" or "model_group" or 3 more`
 
@@ -173,13 +181,13 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/rate_li
 
     The limiter values overridden for this group in this workspace. Limiter types without a workspace override are omitted and inherit the organization value.
 
-    - `org_limit: number or null`
-
-      The organization-level value for the same limiter type, for reference. `null` when the organization has no limit configured for this limiter type.
-
     - `type: string`
 
       The limiter type (for example, `requests_per_minute` or `input_tokens_per_minute`).
+
+    - `org_limit: number or null`
+
+      The organization-level value for the same limiter type, for reference. `null` when the organization has no limit configured for this limiter type.
 
     - `value: number`
 
@@ -193,27 +201,21 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/rate_li
 
     The `id` of the RateLimit group this override applies to.
 
-  - `type: "workspace_rate_limit"`
-
-    Object type. Always `workspace_rate_limit` for workspace rate-limit entries.
-
-    - `"workspace_rate_limit"`
-
   - `workspace_id: string`
 
     ID of the Workspace this override applies to.
 
 ### Beta Workspace Rate Limit Value
 
-- `BetaWorkspaceRateLimitValue object { org_limit, type, value }`
-
-  - `org_limit: number or null`
-
-    The organization-level value for the same limiter type, for reference. `null` when the organization has no limit configured for this limiter type.
+- `BetaWorkspaceRateLimitValue object`
 
   - `type: string`
 
     The limiter type (for example, `requests_per_minute` or `input_tokens_per_minute`).
+
+  - `org_limit: number or null`
+
+    The organization-level value for the same limiter type, for reference. `null` when the organization has no limit configured for this limiter type.
 
   - `value: number`
 

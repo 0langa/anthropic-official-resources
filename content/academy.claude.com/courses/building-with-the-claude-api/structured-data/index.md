@@ -6,7 +6,7 @@ Lesson 8 of 67 · Building with the Claude APIStructured data
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fbuilding-with-the-claude-api%2Fstructured-data)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fstructured-data)
 
 When you need Claude to generate structured data like JSON, Python code, or bulleted lists, you'll often run into a common problem: Claude wants to be helpful and add explanatory text around your content. While this is usually great, sometimes you need just the raw data with nothing else.
 

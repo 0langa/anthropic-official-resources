@@ -3,21 +3,21 @@ title: Update Work Item
 url: https://platform.claude.com/docs/en/api/beta/environments/work/update
 ---
 
-## Update Work Item
+# Update Work Item
 
-**post** `/v1/environments/{environment_id}/work/{work_id}`
+**POST** `/v1/environments/{environment_id}/work/{work_id}`
 
 Note: these endpoints are called automatically by the pre-built environment worker provided in the SDKs and CLI, for orchestrating sessions with self-hosted sandbox environments. They are included here as a reference; you do not need to invoke them directly.
 
 Update work item metadata with merge semantics.
 
-### Path Parameters
+## Path parameters
 
 - `environment_id: string`
 
 - `work_id: string`
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -25,7 +25,7 @@ Update work item metadata with merge semantics.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -73,6 +73,8 @@ Update work item metadata with merge semantics.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -115,21 +117,29 @@ Update work item metadata with merge semantics.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+- `"anthropic-workspace-id": optional string`
+
+## Body parameters
 
 - `metadata: map[string]`
 
   Metadata patch. Set a key to a string to upsert it, or to null to delete it. Omit the field to preserve existing metadata.
 
-### Returns
+## Returns
 
-- `BetaSelfHostedWork object { id, acknowledged_at, created_at, 10 more }`
+- `BetaSelfHostedWork object`
 
   Work resource representing a unit of work in a self-hosted environment.
 
   Work items are queued when sessions are created or when long-dormant sessions
   receive new messages. The environment worker polls for work to execute in a
   self-hosted sandbox.
+
+  - `type: "work"`
+
+    The type of object (always 'work')
+
+    default: work
 
   - `id: string`
 
@@ -147,15 +157,13 @@ Update work item metadata with merge semantics.
 
     The actual work to be performed
 
-    - `id: string`
-
-      Session identifier (e.g., 'session_...')
-
     - `type: "session"`
 
       Type of work data
 
-      - `"session"`
+    - `id: string`
+
+      Session identifier (e.g., 'session_...')
 
   - `environment_id: string`
 
@@ -199,15 +207,9 @@ Update work item metadata with merge semantics.
 
     RFC 3339 timestamp when work execution stopped
 
-  - `type: "work"`
+## Example
 
-    The type of object (always 'work')
-
-    - `"work"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/environments/$ENVIRONMENT_ID/work/$WORK_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -220,7 +222,7 @@ curl https://api.anthropic.com/v1/environments/$ENVIRONMENT_ID/work/$WORK_ID \
         }'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

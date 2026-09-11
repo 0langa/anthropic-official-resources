@@ -1,30 +1,34 @@
 ---
 title: Get Cost Report
-url: https://platform.claude.com/docs/en/api/admin/cost_report/retrieve
+url: https://platform.claude.com/docs/en/api/beta/organization/cost_report/retrieve
 ---
 
-## Get Cost Report
+# Get Cost Report
 
-**get** `/v1/organizations/cost_report`
+**GET** `/v1/organizations/cost_report`
 
 Get Cost Report
 
-### Query Parameters
+## Query parameters
 
 - `starting_at: string`
 
   Time buckets that start on or after this RFC 3339 timestamp will be returned.
   Each time bucket will be snapped to the start of the minute/hour/day in UTC.
 
+  format: date-time
+
 - `bucket_width: optional "1d"`
 
   Time granularity of the response data.
 
-  - `"1d"`
+  default: 1d
 
 - `ending_at: optional string`
 
   Time buckets that end before this RFC 3339 timestamp will be returned.
+
+  format: date-time
 
 - `group_by: optional array of "description" or "workspace_id"`
 
@@ -38,23 +42,117 @@ Get Cost Report
 
   Maximum number of time buckets to return in the response.
 
+  default: 7, maximum: 31, minimum: 1
+
 - `page: optional string`
 
   Optionally set to the `next_page` token from the previous response.
 
-### Header Parameters
+## Headers
 
-- `"anthropic-beta": optional array of string`
+- `"anthropic-beta": optional array of AnthropicBeta`
 
   Optional header to specify the beta version(s) you want to use.
 
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
+  - `string`
 
-### Returns
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
-- `CostReport object { data, has_more, next_page }`
+    - `"message-batches-2024-09-24"`
 
-  - `data: array of object { ending_at, results, starting_at }`
+    - `"prompt-caching-2024-07-31"`
+
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
+
+## Returns
+
+- `BetaCostReport object`
+
+  - `data: array of object`
 
     List of time buckets for this page, oldest first: one per `bucket_width` interval, including intervals with no costs (their `results` list is empty). A page holds at most `limit` buckets.
 
@@ -62,7 +160,9 @@ Get Cost Report
 
       End of the time bucket (exclusive) in RFC 3339 format.
 
-    - `results: array of object { amount, context_window, cost_type, 7 more }`
+      format: date-time
+
+    - `results: array of object`
 
       List of cost items for this time bucket. There may be multiple items if one or more `group_by[]` parameters are specified.
 
@@ -143,6 +243,8 @@ Get Cost Report
 
       Start of the time bucket (inclusive) in RFC 3339 format.
 
+      format: date-time
+
   - `has_more: boolean`
 
     Indicates if there are more results.
@@ -151,15 +253,15 @@ Get Cost Report
 
     Opaque cursor for the next page, or `null` when `has_more` is false. Pass it as the `page` parameter in the next request.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/cost_report \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

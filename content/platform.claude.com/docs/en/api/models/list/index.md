@@ -3,15 +3,15 @@ title: List Models
 url: https://platform.claude.com/docs/en/api/models/list
 ---
 
-## List Models
+# List Models
 
-**get** `/v1/models`
+**GET** `/v1/models`
 
 List available models.
 
 The Models API response can be used to determine which models are available for use in the API. More recently released models are listed first.
 
-### Query Parameters
+## Query parameters
 
 - `after_id: optional string`
 
@@ -27,7 +27,9 @@ The Models API response can be used to determine which models are available for 
 
   Defaults to `20`. Ranges from `1` to `1000`.
 
-### Header Parameters
+  default: 20, maximum: 1000, minimum: 1
+
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -35,7 +37,7 @@ The Models API response can be used to determine which models are available for 
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -83,6 +85,8 @@ The Models API response can be used to determine which models are available for 
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -125,9 +129,19 @@ The Models API response can be used to determine which models are available for 
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+- `"anthropic-workspace-id": optional string`
+
+## Returns
 
 - `data: array of ModelInfo`
+
+  - `type: "model"`
+
+    Object type.
+
+    For Models, this is always `"model"`.
+
+    default: model
 
   - `id: string`
 
@@ -237,6 +251,8 @@ The Models API response can be used to determine which models are available for 
 
     RFC 3339 datetime string representing the time at which the model was released. May be set to an epoch value if the release date is unknown.
 
+    format: date-time
+
   - `display_name: string`
 
     A human-readable name for the model.
@@ -248,14 +264,6 @@ The Models API response can be used to determine which models are available for 
   - `max_tokens: number or null`
 
     Maximum value for the `max_tokens` parameter when using this model.
-
-  - `type: "model"`
-
-    Object type.
-
-    For Models, this is always `"model"`.
-
-    - `"model"`
 
 - `first_id: string or null`
 
@@ -269,15 +277,15 @@ The Models API response can be used to determine which models are available for 
 
   Last ID in the `data` list. Can be used as the `after_id` for the next page.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/models \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

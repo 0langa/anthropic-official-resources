@@ -6,7 +6,7 @@ Lesson 37 of 67 · Building with the Claude APIBM25 lexical search
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fbuilding-with-the-claude-api%2Fbm25-lexical-search)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fbm25-lexical-search)
 
 When building RAG pipelines, you'll quickly discover that semantic search alone doesn't always return the best results. Sometimes you need exact term matches that semantic search might miss. The solution is to combine semantic search with lexical search using a technique called BM25.
 

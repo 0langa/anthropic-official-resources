@@ -13,7 +13,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-educators%2Fapplying-ai-fluency-to-learning-materials-and-assignments)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-educators%2Fapplying-ai-fluency-to-learning-materials-and-assignments)
 
 ## Applying AI Fluency to learning materials and assignments[](https://academy.claude.com/courses/ai-fluency-for-educators/applying-ai-fluency-to-learning-materials-and-assignments)
 

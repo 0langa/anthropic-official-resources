@@ -6,7 +6,7 @@ Lesson 7 of 67 · Building with the Claude APIResponse streaming
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fbuilding-with-the-claude-api%2Fresponse-streaming)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fresponse-streaming)
 
 When building chat applications with Claude, there's a significant user experience challenge: responses can take 10-30 seconds to generate, leaving users staring at a loading spinner. The solution is response streaming, which lets users see text appear chunk by chunk as Claude generates it, creating a much more responsive feel.
 

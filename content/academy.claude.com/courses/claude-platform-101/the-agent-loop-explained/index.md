@@ -6,7 +6,7 @@ Lesson 4 of 13 · Claude Platform 101The agent loop explained
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-platform-101%2Fthe-agent-loop-explained)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-platform-101%2Fthe-agent-loop-explained)
 
 Embedded media: https://www.youtube-nocookie.com/embed/tBIdyIoCQVU?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 

@@ -12,7 +12,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-builders%2Fdiscernment-for-user-experience)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-builders%2Fdiscernment-for-user-experience)
 
 ## Discernment for user experience[](https://academy.claude.com/courses/ai-fluency-for-builders/discernment-for-user-experience)
 
@@ -118,7 +118,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-builders%2Fdiscernment-for-user-experience)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-builders%2Fdiscernment-for-user-experience)
 
 ## Discernment for user experience[](https://academy.claude.com/courses/ai-fluency-for-builders/discernment-for-user-experience)
 
@@ -216,7 +216,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-builders%2Fdiscernment-for-user-experience)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-builders%2Fdiscernment-for-user-experience)
 
 ## Discernment for user experience[](https://academy.claude.com/courses/ai-fluency-for-builders/discernment-for-user-experience)
 
@@ -312,7 +312,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-builders%2Fdiscernment-for-user-experience)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-builders%2Fdiscernment-for-user-experience)
 
 ## Discernment for user experience[](https://academy.claude.com/courses/ai-fluency-for-builders/discernment-for-user-experience)
 
@@ -412,7 +412,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-builders%2Fdiscernment-for-user-experience)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-builders%2Fdiscernment-for-user-experience)
 
 ## Discernment for user experience[](https://academy.claude.com/courses/ai-fluency-for-builders/discernment-for-user-experience)
 

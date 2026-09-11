@@ -1,13 +1,13 @@
 ---
 title: Rate Limits
-url: https://platform.claude.com/docs/en/api/admin/rate_limits
+url: https://platform.claude.com/docs/en/api/beta/organization/rate_limits
 ---
 
 # Rate Limits
 
 ## List Organization Rate Limits
 
-**get** `/v1/organizations/rate_limits`
+**GET** `/v1/organizations/rate_limits`
 
 List Messages API rate limits for your organization.
 
@@ -19,7 +19,7 @@ When `limit` is omitted, every matching entry is returned in a single
 page; when `limit` truncates the result, follow `next_page` to fetch
 the remaining entries.
 
-### Query Parameters
+### Query parameters
 
 - `group_type: optional "batch" or "files" or "model_group" or 3 more`
 
@@ -43,6 +43,8 @@ the remaining entries.
 
   When omitted, every remaining entry is returned in a single page and `next_page` is `null`.
 
+  maximum: 1000, minimum: 1
+
 - `model: optional string`
 
   Filter to the single entry containing this model. Accepts full model names and aliases. Returns 404 if the model is not found or has no rate limits for this organization.
@@ -53,9 +55,15 @@ the remaining entries.
 
 ### Returns
 
-- `data: array of object { id, group_type, limits, 2 more }`
+- `data: array of BetaOrganizationRateLimit`
 
   Rate-limit entries for the organization, one per group.
+
+  - `type: "rate_limit"`
+
+    Object type. Always `rate_limit` for organization rate-limit entries.
+
+    default: rate_limit
 
   - `id: string`
 
@@ -77,7 +85,7 @@ the remaining entries.
 
     - `"web_search"`
 
-  - `limits: array of object { type, value }`
+  - `limits: array of BetaOrganizationRateLimitValue`
 
     The limiter values that apply to this group.
 
@@ -93,25 +101,19 @@ the remaining entries.
 
     Model names this entry's limits apply to, including aliases. `null` when `group_type` is not `"model_group"`.
 
-  - `type: "rate_limit"`
-
-    Object type. Always `rate_limit` for organization rate-limit entries.
-
-    - `"rate_limit"`
-
 - `next_page: string or null`
 
   Opaque cursor for the next page of results, or `null` when no entries remain beyond this response.
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/rate_limits \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -135,11 +137,17 @@ curl https://api.anthropic.com/v1/organizations/rate_limits \
 }
 ```
 
-## Domain Types
+## Domain types
 
-### Rate Limit List Response
+### Beta Organization Rate Limit
 
-- `RateLimitListResponse object { id, group_type, limits, 2 more }`
+- `BetaOrganizationRateLimit object`
+
+  - `type: "rate_limit"`
+
+    Object type. Always `rate_limit` for organization rate-limit entries.
+
+    default: rate_limit
 
   - `id: string`
 
@@ -161,7 +169,7 @@ curl https://api.anthropic.com/v1/organizations/rate_limits \
 
     - `"web_search"`
 
-  - `limits: array of object { type, value }`
+  - `limits: array of BetaOrganizationRateLimitValue`
 
     The limiter values that apply to this group.
 
@@ -177,8 +185,14 @@ curl https://api.anthropic.com/v1/organizations/rate_limits \
 
     Model names this entry's limits apply to, including aliases. `null` when `group_type` is not `"model_group"`.
 
-  - `type: "rate_limit"`
+### Beta Organization Rate Limit Value
 
-    Object type. Always `rate_limit` for organization rate-limit entries.
+- `BetaOrganizationRateLimitValue object`
 
-    - `"rate_limit"`
+  - `type: string`
+
+    The limiter type (for example, `requests_per_minute` or `input_tokens_per_minute`).
+
+  - `value: number`
+
+    The configured limit value for this limiter type.

@@ -1,37 +1,35 @@
 ---
 title: Update Workspace
-url: https://platform.claude.com/docs/en/api/admin/workspaces/update
+url: https://platform.claude.com/docs/en/api/beta/organization/workspaces/update
 ---
 
-## Update Workspace
+# Update Workspace
 
-**post** `/v1/organizations/workspaces/{workspace_id}`
+**POST** `/v1/organizations/workspaces/{workspace_id}`
 
 Update Workspace
 
-### Path Parameters
+## Path parameters
 
 - `workspace_id: string`
 
-### Body Parameters
+## Body parameters
 
-- `data_residency: optional object { allowed_inference_geos, default_inference_geo }  or null`
+- `data_residency: optional BetaDataResidencyUpdateConfig or null`
 
   Data residency configuration for the workspace.
 
-  - `allowed_inference_geos: optional array of "global" or "us" or "unrestricted" or null`
+  - `allowed_inference_geos: optional array of BetaAllowedInferenceGeo or "unrestricted" or null`
 
     Permitted inference geo values. Use 'unrestricted' to allow all geos, or a list of specific geos.
 
-    - `array of "global" or "us"`
+    - `Geos = array of BetaAllowedInferenceGeo`
 
       - `"global"`
 
       - `"us"`
 
-    - `"unrestricted"`
-
-      - `"unrestricted"`
+    - `Unrestricted = "unrestricted"`
 
   - `default_inference_geo: optional "global" or "us" or null`
 
@@ -44,6 +42,8 @@ Update Workspace
 - `display_color: optional string`
 
   Hex color code representing the Workspace in the Anthropic Console.
+
+  maxLength: 7, pattern: ^#[0-9A-Fa-f]{6}$
 
 - `external_key_id: optional string`
 
@@ -63,13 +63,23 @@ Update Workspace
 
   Name of the Workspace.
 
+  maxLength: 40, minLength: 1
+
 - `tags: optional map[string] or null`
 
   User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
-### Returns
+## Returns
 
-- `Workspace object { id, archived_at, compartment_id, 7 more }`
+- `BetaWorkspace object`
+
+  - `type: "workspace"`
+
+    Object type.
+
+    For Workspaces, this is always `"workspace"`.
+
+    default: workspace
 
   - `id: string`
 
@@ -78,6 +88,8 @@ Update Workspace
   - `archived_at: string or null`
 
     RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
+
+    format: date-time
 
   - `compartment_id: string`
 
@@ -97,7 +109,9 @@ Update Workspace
 
     RFC 3339 datetime string indicating when the Workspace was created.
 
-  - `data_residency: object { allowed_inference_geos, default_inference_geo, workspace_geo }`
+    format: date-time
+
+  - `data_residency: BetaDataResidency`
 
     Data residency configuration.
 
@@ -105,11 +119,9 @@ Update Workspace
 
       Permitted inference geo values. 'unrestricted' means all geos are allowed.
 
-      - `array of string`
+      - `Geos = array of string`
 
-      - `"unrestricted"`
-
-        - `"unrestricted"`
+      - `Unrestricted = "unrestricted"`
 
     - `default_inference_geo: string`
 
@@ -145,21 +157,13 @@ Update Workspace
 
     User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
-  - `type: "workspace"`
+## Example
 
-    Object type.
-
-    For Workspaces, this is always `"workspace"`.
-
-    - `"workspace"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
     -d '{
           "display_color": "#6C5BB9",
           "external_key_id": "ekey_01SDCCSbTxrXDpWc1phhtcfK",
@@ -170,7 +174,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
         }'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

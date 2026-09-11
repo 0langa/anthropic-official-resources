@@ -7,33 +7,41 @@ url: https://platform.claude.com/docs/en/api/compliance/organizations/roles
 
 ## List Compliance Roles
 
-**get** `/v1/compliance/organizations/{org_uuid}/roles`
+**GET** `/v1/compliance/organizations/{org_uuid}/roles`
 
 List Compliance Roles
 
-### Path Parameters
+### Path parameters
 
 - `org_uuid: string`
 
   The organization UUID
 
-### Query Parameters
+### Query parameters
 
 - `limit: optional number`
 
   Maximum results (default: 500, max: 1000)
 
+  default: 500, maximum: 1000, minimum: 1
+
 - `page: optional string`
 
   Opaque pagination token from a previous response's `next_page` field. Pass this to retrieve the next page of results. Clients should treat this value as an opaque string and not attempt to parse or interpret its contents, as the format may change without notice.
 
-### Header Parameters
+### Headers
+
+- `"anthropic-version": optional string`
+
+  The version of the Claude API you want to use.
+
+  Read more about versioning and our version history [here](https://platform.claude.com/docs/en/api/versioning).
 
 - `"x-api-key": optional string`
 
 ### Returns
 
-- `data: array of object { id, created_at, description, 2 more }`
+- `data: array of object`
 
   List of roles
 
@@ -43,7 +51,9 @@ List Compliance Roles
 
   - `created_at: string or null`
 
-    Role creation timestamp (ISO 8601)
+    Role creation timestamp (RFC 3339)
+
+    format: date-time
 
   - `description: string`
 
@@ -55,7 +65,9 @@ List Compliance Roles
 
   - `updated_at: string or null`
 
-    Role last-updated timestamp (ISO 8601)
+    Role last-updated timestamp (RFC 3339)
+
+    format: date-time
 
 - `has_more: boolean`
 
@@ -67,22 +79,22 @@ List Compliance Roles
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/compliance/organizations/$ORG_UUID/roles \
     -H "Authorization: Bearer $ANTHROPIC_COMPLIANCE_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
   "data": [
     {
       "id": "rbac_role_01SGBg3kEnZrdsVR2QmyJbvD",
-      "created_at": "2025-03-12T18:22:41.123456",
+      "created_at": "2025-03-12T18:22:41.123456Z",
       "description": "Full administrative access to organization settings and members",
       "name": "Organization Admin",
-      "updated_at": "2025-03-14T09:05:17.456789"
+      "updated_at": "2025-03-14T09:05:17.456789Z"
     }
   ],
   "has_more": true,
@@ -92,11 +104,11 @@ curl https://api.anthropic.com/v1/compliance/organizations/$ORG_UUID/roles \
 
 ## Get Compliance Role
 
-**get** `/v1/compliance/organizations/{org_uuid}/roles/{role_id}`
+**GET** `/v1/compliance/organizations/{org_uuid}/roles/{role_id}`
 
 Get Compliance Role
 
-### Path Parameters
+### Path parameters
 
 - `org_uuid: string`
 
@@ -106,7 +118,13 @@ Get Compliance Role
 
   The role ID (tagged ID, e.g., rbac_role_abc123)
 
-### Header Parameters
+### Headers
+
+- `"anthropic-version": optional string`
+
+  The version of the Claude API you want to use.
+
+  Read more about versioning and our version history [here](https://platform.claude.com/docs/en/api/versioning).
 
 - `"x-api-key": optional string`
 
@@ -118,7 +136,9 @@ Get Compliance Role
 
 - `created_at: string or null`
 
-  Role creation timestamp (ISO 8601)
+  Role creation timestamp (RFC 3339)
+
+  format: date-time
 
 - `description: string`
 
@@ -130,32 +150,34 @@ Get Compliance Role
 
 - `updated_at: string or null`
 
-  Role last-updated timestamp (ISO 8601)
+  Role last-updated timestamp (RFC 3339)
+
+  format: date-time
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/compliance/organizations/$ORG_UUID/roles/$ROLE_ID \
     -H "Authorization: Bearer $ANTHROPIC_COMPLIANCE_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
   "id": "rbac_role_01SGBg3kEnZrdsVR2QmyJbvD",
-  "created_at": "2025-03-12T18:22:41.123456",
+  "created_at": "2025-03-12T18:22:41.123456Z",
   "description": "Full administrative access to organization settings and members",
   "name": "Organization Admin",
-  "updated_at": "2025-03-14T09:05:17.456789"
+  "updated_at": "2025-03-14T09:05:17.456789Z"
 }
 ```
 
-## Domain Types
+## Domain types
 
 ### Role Retrieve Response
 
-- `RoleRetrieveResponse object { id, created_at, description, 2 more }`
+- `RoleRetrieveResponse object`
 
   Role information for compliance responses.
 
@@ -165,7 +187,9 @@ curl https://api.anthropic.com/v1/compliance/organizations/$ORG_UUID/roles/$ROLE
 
   - `created_at: string or null`
 
-    Role creation timestamp (ISO 8601)
+    Role creation timestamp (RFC 3339)
+
+    format: date-time
 
   - `description: string`
 
@@ -177,11 +201,13 @@ curl https://api.anthropic.com/v1/compliance/organizations/$ORG_UUID/roles/$ROLE
 
   - `updated_at: string or null`
 
-    Role last-updated timestamp (ISO 8601)
+    Role last-updated timestamp (RFC 3339)
+
+    format: date-time
 
 ### Role List Response
 
-- `RoleListResponse object { id, created_at, description, 2 more }`
+- `RoleListResponse object`
 
   Role information for compliance responses.
 
@@ -191,7 +217,9 @@ curl https://api.anthropic.com/v1/compliance/organizations/$ORG_UUID/roles/$ROLE
 
   - `created_at: string or null`
 
-    Role creation timestamp (ISO 8601)
+    Role creation timestamp (RFC 3339)
+
+    format: date-time
 
   - `description: string`
 
@@ -203,17 +231,19 @@ curl https://api.anthropic.com/v1/compliance/organizations/$ORG_UUID/roles/$ROLE
 
   - `updated_at: string or null`
 
-    Role last-updated timestamp (ISO 8601)
+    Role last-updated timestamp (RFC 3339)
 
-# Permissions
+    format: date-time
 
-## List Compliance Role Permissions
+## Roles › Permissions
 
-**get** `/v1/compliance/organizations/{org_uuid}/roles/{role_id}/permissions`
+### List Compliance Role Permissions
+
+**GET** `/v1/compliance/organizations/{org_uuid}/roles/{role_id}/permissions`
 
 List Compliance Role Permissions
 
-### Path Parameters
+#### Path parameters
 
 - `org_uuid: string`
 
@@ -223,23 +253,31 @@ List Compliance Role Permissions
 
   The role ID (tagged ID, e.g., rbac_role_abc123)
 
-### Query Parameters
+#### Query parameters
 
 - `limit: optional number`
 
   Maximum results (default: 500, max: 1000)
 
+  default: 500, maximum: 1000, minimum: 1
+
 - `page: optional string`
 
   Opaque pagination token from a previous response's `next_page` field. Pass this to retrieve the next page of results. Clients should treat this value as an opaque string and not attempt to parse or interpret its contents, as the format may change without notice.
 
-### Header Parameters
+#### Headers
+
+- `"anthropic-version": optional string`
+
+  The version of the Claude API you want to use.
+
+  Read more about versioning and our version history [here](https://platform.claude.com/docs/en/api/versioning).
 
 - `"x-api-key": optional string`
 
-### Returns
+#### Returns
 
-- `data: array of object { action, resource_id, resource_type }`
+- `data: array of object`
 
   List of permissions
 
@@ -263,14 +301,14 @@ List Compliance Role Permissions
 
   Token to retrieve the next page. Use this as the 'page' parameter in your next request
 
-### Example
+#### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/compliance/organizations/$ORG_UUID/roles/$ROLE_ID/permissions \
     -H "Authorization: Bearer $ANTHROPIC_COMPLIANCE_API_KEY"
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -285,23 +323,3 @@ curl https://api.anthropic.com/v1/compliance/organizations/$ORG_UUID/roles/$ROLE
   "next_page": "cGFnZV90b2tlbl9leGFtcGxlXzE3MzQ1Njc4OTA="
 }
 ```
-
-## Domain Types
-
-### Permission List Response
-
-- `PermissionListResponse object { action, resource_id, resource_type }`
-
-  Permission granted by a role.
-
-  - `action: string`
-
-    Action permitted on the resource
-
-  - `resource_id: string`
-
-    Identifier of the resource the permission applies to
-
-  - `resource_type: string`
-
-    Type of resource the permission applies to

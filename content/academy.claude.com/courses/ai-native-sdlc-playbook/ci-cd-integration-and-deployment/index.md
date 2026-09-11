@@ -6,7 +6,7 @@ Lesson 12 of 14 Â· The AI-Native SDLC PlaybookCI/CD integration and deploymentî€
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-native-sdlc-playbook%2Fci-cd-integration-and-deployment)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-native-sdlc-playbook%2Fci-cd-integration-and-deployment)
 
 Run Claude Code non-interactively inside the CI/CD pipeline, sandbox the execution so long-running agents run safely, expose deployment through MCP integrations, and rehearse the rollback paths before the agent ever needs them.
 

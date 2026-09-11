@@ -3,13 +3,13 @@ title: Update Workspace Member
 url: https://platform.claude.com/docs/en/api/beta/organization/workspaces/members/update
 ---
 
-## Update Workspace Member
+# Update Workspace Member
 
-**post** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
+**POST** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
 
 Update Workspace Member
 
-### Path Parameters
+## Path parameters
 
 - `workspace_id: string`
 
@@ -19,7 +19,7 @@ Update Workspace Member
 
   ID of the User.
 
-### Body Parameters
+## Body parameters
 
 - `workspace_role: BetaWorkspaceRole`
 
@@ -35,9 +35,9 @@ Update Workspace Member
 
   - `"workspace_user"`
 
-### Returns
+## Returns
 
-- `BetaWorkspaceMember object { type, user_id, workspace_id, workspace_role }`
+- `BetaWorkspaceMember object`
 
   - `type: "workspace_member"`
 
@@ -45,7 +45,7 @@ Update Workspace Member
 
     For Workspace Members, this is always `"workspace_member"`.
 
-    - `"workspace_member"`
+    default: workspace_member
 
   - `user_id: string`
 
@@ -69,9 +69,9 @@ Update Workspace Member
 
     - `"workspace_user"`
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -81,7 +81,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members
         }'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

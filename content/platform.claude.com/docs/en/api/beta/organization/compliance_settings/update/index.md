@@ -3,9 +3,9 @@ title: Update Compliance Settings
 url: https://platform.claude.com/docs/en/api/beta/organization/compliance_settings/update
 ---
 
-## Update Compliance Settings
+# Update Compliance Settings
 
-**post** `/v1/organizations/compliance_settings`
+**POST** `/v1/organizations/compliance_settings`
 
 Update your organization's Compliance Settings.
 
@@ -22,51 +22,47 @@ provisioning (including re-runs) re-enables the Compliance API even
 after a `disabled` request. Automated provisioning never disables
 compliance settings.
 
-### Body Parameters
+## Body parameters
 
-- `state: BetaComplianceSettingsStateEnabledParam or BetaComplianceSettingsStateDisabledParam`
+- `state: BetaComplianceSettingsStateParam`
 
   Desired state. Accepts the string shorthand "enabled" or "disabled" in place of the object form; the response always returns the canonical object form.
 
-  - `BetaComplianceSettingsStateEnabledParam object { type }`
+  - `BetaComplianceSettingsStateEnabledParam object`
 
     - `type: "enabled"`
 
-      - `"enabled"`
-
-  - `BetaComplianceSettingsStateDisabledParam object { type }`
+  - `BetaComplianceSettingsStateDisabledParam object`
 
     - `type: "disabled"`
 
-      - `"disabled"`
+## Returns
 
-### Returns
-
-- `BetaComplianceSettings object { state, type }`
-
-  - `state: BetaComplianceSettingsStateEnabled or BetaComplianceSettingsStateDisabled`
-
-    Whether the Compliance API is enabled for this organization.
-
-    - `BetaComplianceSettingsStateEnabled object { type }`
-
-      - `type: "enabled"`
-
-        - `"enabled"`
-
-    - `BetaComplianceSettingsStateDisabled object { type }`
-
-      - `type: "disabled"`
-
-        - `"disabled"`
+- `BetaComplianceSettings object`
 
   - `type: "compliance_settings"`
 
-    - `"compliance_settings"`
+    default: compliance_settings
 
-### Example
+  - `state: BetaComplianceSettingsState`
 
-```http
+    Whether the Compliance API is enabled for this organization.
+
+    - `BetaComplianceSettingsStateEnabled object`
+
+      - `type: "enabled"`
+
+        default: enabled
+
+    - `BetaComplianceSettingsStateDisabled object`
+
+      - `type: "disabled"`
+
+        default: disabled
+
+## Example
+
+```bash
 curl https://api.anthropic.com/v1/organizations/compliance_settings \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -78,7 +74,7 @@ curl https://api.anthropic.com/v1/organizations/compliance_settings \
         }'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

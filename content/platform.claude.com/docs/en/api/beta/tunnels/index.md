@@ -7,13 +7,13 @@ url: https://platform.claude.com/docs/en/api/beta/tunnels
 
 ## Create Tunnel
 
-**post** `/v1/tunnels`
+**POST** `/v1/tunnels`
 
 The Tunnels API is in research preview. It requires the `anthropic-beta: mcp-tunnels-2026-06-22` header and may change without a deprecation period. It supersedes the Admin API endpoints at `/v1/organizations/tunnels`, which remain available during a migration window.
 
 Creates a tunnel. Creation allocates a fresh hostname and provisions the tunnel; it is not idempotent. The new tunnel rejects MCP traffic until at least one CA certificate is added.
 
-### Header Parameters
+### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -21,7 +21,7 @@ Creates a tunnel. Creation allocates a fresh hostname and provisions the tunnel;
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -69,6 +69,8 @@ Creates a tunnel. Creation allocates a fresh hostname and provisions the tunnel;
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -111,17 +113,23 @@ Creates a tunnel. Creation allocates a fresh hostname and provisions the tunnel;
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+- `"anthropic-workspace-id": optional string`
+
+### Body parameters
 
 - `display_name: optional string or null`
 
   Optional human-readable name for the tunnel (1-255 characters).
 
+  minLength: 1, maxLength: 255
+
 ### Returns
 
-- `BetaTunnel object { id, archived_at, created_at, 3 more }`
+- `BetaTunnel object`
 
   An MCP tunnel.
+
+  - `type: "tunnel"`
 
   - `id: string`
 
@@ -131,9 +139,13 @@ Creates a tunnel. Creation allocates a fresh hostname and provisions the tunnel;
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `created_at: string`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `display_name: string or null`
 
@@ -143,13 +155,9 @@ Creates a tunnel. Creation allocates a fresh hostname and provisions the tunnel;
 
     Anthropic-assigned hostname for the tunnel. MCP server URLs whose host is a subdomain of this value are routed through the tunnel. Globally unique and never reused, even after the tunnel is archived.
 
-  - `type: "tunnel"`
-
-    - `"tunnel"`
-
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/tunnels \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -158,7 +166,7 @@ curl https://api.anthropic.com/v1/tunnels \
     -d '{}'
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -173,17 +181,17 @@ curl https://api.anthropic.com/v1/tunnels \
 
 ## Get Tunnel
 
-**get** `/v1/tunnels/{tunnel_id}`
+**GET** `/v1/tunnels/{tunnel_id}`
 
 The Tunnels API is in research preview. It requires the `anthropic-beta: mcp-tunnels-2026-06-22` header and may change without a deprecation period. It supersedes the Admin API endpoints at `/v1/organizations/tunnels`, which remain available during a migration window.
 
 Fetches a tunnel by ID.
 
-### Path Parameters
+### Path parameters
 
 - `tunnel_id: string`
 
-### Header Parameters
+### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -191,7 +199,7 @@ Fetches a tunnel by ID.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -239,6 +247,8 @@ Fetches a tunnel by ID.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -281,11 +291,15 @@ Fetches a tunnel by ID.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
+- `"anthropic-workspace-id": optional string`
+
 ### Returns
 
-- `BetaTunnel object { id, archived_at, created_at, 3 more }`
+- `BetaTunnel object`
 
   An MCP tunnel.
+
+  - `type: "tunnel"`
 
   - `id: string`
 
@@ -295,9 +309,13 @@ Fetches a tunnel by ID.
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `created_at: string`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `display_name: string or null`
 
@@ -307,20 +325,16 @@ Fetches a tunnel by ID.
 
     Anthropic-assigned hostname for the tunnel. MCP server URLs whose host is a subdomain of this value are routed through the tunnel. Globally unique and never reused, even after the tunnel is archived.
 
-  - `type: "tunnel"`
-
-    - `"tunnel"`
-
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID \
     -H 'anthropic-version: 2023-06-01' \
     -H 'anthropic-beta: mcp-tunnels-2026-06-22' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -335,13 +349,13 @@ curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID \
 
 ## List Tunnels
 
-**get** `/v1/tunnels`
+**GET** `/v1/tunnels`
 
 The Tunnels API is in research preview. It requires the `anthropic-beta: mcp-tunnels-2026-06-22` header and may change without a deprecation period. It supersedes the Admin API endpoints at `/v1/organizations/tunnels`, which remain available during a migration window.
 
 Lists tunnels. Results are ordered by creation time, newest first; archived tunnels are excluded unless include_archived is set.
 
-### Query Parameters
+### Query parameters
 
 - `include_archived: optional boolean`
 
@@ -351,11 +365,13 @@ Lists tunnels. Results are ordered by creation time, newest first; archived tunn
 
   Maximum number of tunnels to return per page. Defaults to 20, maximum 1000.
 
+  format: int32
+
 - `page: optional string`
 
   Opaque pagination cursor from a previous `list_tunnels` response.
 
-### Header Parameters
+### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -363,7 +379,7 @@ Lists tunnels. Results are ordered by creation time, newest first; archived tunn
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -411,6 +427,8 @@ Lists tunnels. Results are ordered by creation time, newest first; archived tunn
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -453,11 +471,15 @@ Lists tunnels. Results are ordered by creation time, newest first; archived tunn
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
+- `"anthropic-workspace-id": optional string`
+
 ### Returns
 
 - `data: array of BetaTunnel`
 
   List of tunnels, ordered by created_at descending.
+
+  - `type: "tunnel"`
 
   - `id: string`
 
@@ -467,9 +489,13 @@ Lists tunnels. Results are ordered by creation time, newest first; archived tunn
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `created_at: string`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `display_name: string or null`
 
@@ -479,24 +505,20 @@ Lists tunnels. Results are ordered by creation time, newest first; archived tunn
 
     Anthropic-assigned hostname for the tunnel. MCP server URLs whose host is a subdomain of this value are routed through the tunnel. Globally unique and never reused, even after the tunnel is archived.
 
-  - `type: "tunnel"`
-
-    - `"tunnel"`
-
 - `next_page: string or null`
 
   Pagination cursor for the next page, or null if no more results.
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/tunnels \
     -H 'anthropic-version: 2023-06-01' \
     -H 'anthropic-beta: mcp-tunnels-2026-06-22' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -516,17 +538,17 @@ curl https://api.anthropic.com/v1/tunnels \
 
 ## Archive Tunnel
 
-**post** `/v1/tunnels/{tunnel_id}/archive`
+**POST** `/v1/tunnels/{tunnel_id}/archive`
 
 The Tunnels API is in research preview. It requires the `anthropic-beta: mcp-tunnels-2026-06-22` header and may change without a deprecation period. It supersedes the Admin API endpoints at `/v1/organizations/tunnels`, which remain available during a migration window.
 
 Archives a tunnel. Archival is irreversible: every non-archived certificate on the tunnel is archived in the same operation, the hostname is retired and never re-allocated, and the tunnel token is invalidated. Retrying against an already-archived tunnel returns the existing record unchanged.
 
-### Path Parameters
+### Path parameters
 
 - `tunnel_id: string`
 
-### Header Parameters
+### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -534,7 +556,7 @@ Archives a tunnel. Archival is irreversible: every non-archived certificate on t
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -582,6 +604,8 @@ Archives a tunnel. Archival is irreversible: every non-archived certificate on t
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -624,11 +648,15 @@ Archives a tunnel. Archival is irreversible: every non-archived certificate on t
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
+- `"anthropic-workspace-id": optional string`
+
 ### Returns
 
-- `BetaTunnel object { id, archived_at, created_at, 3 more }`
+- `BetaTunnel object`
 
   An MCP tunnel.
+
+  - `type: "tunnel"`
 
   - `id: string`
 
@@ -638,9 +666,13 @@ Archives a tunnel. Archival is irreversible: every non-archived certificate on t
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `created_at: string`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `display_name: string or null`
 
@@ -650,13 +682,9 @@ Archives a tunnel. Archival is irreversible: every non-archived certificate on t
 
     Anthropic-assigned hostname for the tunnel. MCP server URLs whose host is a subdomain of this value are routed through the tunnel. Globally unique and never reused, even after the tunnel is archived.
 
-  - `type: "tunnel"`
-
-    - `"tunnel"`
-
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/archive \
     -X POST \
     -H 'anthropic-version: 2023-06-01' \
@@ -664,7 +692,7 @@ curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/archive \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -679,17 +707,17 @@ curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/archive \
 
 ## Reveal Tunnel Token
 
-**post** `/v1/tunnels/{tunnel_id}/reveal_token`
+**POST** `/v1/tunnels/{tunnel_id}/reveal_token`
 
 The Tunnels API is in research preview. It requires the `anthropic-beta: mcp-tunnels-2026-06-22` header and may change without a deprecation period. It supersedes the Admin API endpoints at `/v1/organizations/tunnels`, which remain available during a migration window.
 
 Reveals a tunnel's connector token. The value is fetched live on each call; Anthropic does not store it. Repeated calls return the same value until the token is rotated. Exposed as POST so the token does not appear in intermediary access logs.
 
-### Path Parameters
+### Path parameters
 
 - `tunnel_id: string`
 
-### Header Parameters
+### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -697,7 +725,7 @@ Reveals a tunnel's connector token. The value is fetched live on each call; Anth
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -745,6 +773,8 @@ Reveals a tunnel's connector token. The value is fetched live on each call; Anth
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -787,11 +817,15 @@ Reveals a tunnel's connector token. The value is fetched live on each call; Anth
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
+- `"anthropic-workspace-id": optional string`
+
 ### Returns
 
-- `BetaTunnelToken object { id, tunnel_token, type }`
+- `BetaTunnelToken object`
 
   A tunnel's connector token.
+
+  - `type: "tunnel_token"`
 
   - `id: string`
 
@@ -801,13 +835,9 @@ Reveals a tunnel's connector token. The value is fetched live on each call; Anth
 
     The connector token used to run the tunnel. Treat as a credential.
 
-  - `type: "tunnel_token"`
-
-    - `"tunnel_token"`
-
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/reveal_token \
     -X POST \
     -H 'anthropic-version: 2023-06-01' \
@@ -815,7 +845,7 @@ curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/reveal_token \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -827,17 +857,17 @@ curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/reveal_token \
 
 ## Rotate Tunnel Token
 
-**post** `/v1/tunnels/{tunnel_id}/rotate_token`
+**POST** `/v1/tunnels/{tunnel_id}/rotate_token`
 
 The Tunnels API is in research preview. It requires the `anthropic-beta: mcp-tunnels-2026-06-22` header and may change without a deprecation period. It supersedes the Admin API endpoints at `/v1/organizations/tunnels`, which remain available during a migration window.
 
 Rotates a tunnel's connector token. Rotation invalidates the current token for new connections and returns a fresh value; established connections are not severed. A connector restarted after rotation must use the new value.
 
-### Path Parameters
+### Path parameters
 
 - `tunnel_id: string`
 
-### Header Parameters
+### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -845,7 +875,7 @@ Rotates a tunnel's connector token. Rotation invalidates the current token for n
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -893,6 +923,8 @@ Rotates a tunnel's connector token. Rotation invalidates the current token for n
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -935,17 +967,23 @@ Rotates a tunnel's connector token. Rotation invalidates the current token for n
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+- `"anthropic-workspace-id": optional string`
+
+### Body parameters
 
 - `reason: optional string or null`
 
   Optional free-text reason for the rotation, recorded for audit.
 
+  maxLength: 1024
+
 ### Returns
 
-- `BetaTunnelToken object { id, tunnel_token, type }`
+- `BetaTunnelToken object`
 
   A tunnel's connector token.
+
+  - `type: "tunnel_token"`
 
   - `id: string`
 
@@ -955,13 +993,9 @@ Rotates a tunnel's connector token. Rotation invalidates the current token for n
 
     The connector token used to run the tunnel. Treat as a credential.
 
-  - `type: "tunnel_token"`
-
-    - `"tunnel_token"`
-
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/rotate_token \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -970,7 +1004,7 @@ curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/rotate_token \
     -d '{}'
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -980,13 +1014,15 @@ curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/rotate_token \
 }
 ```
 
-## Domain Types
+## Domain types
 
 ### Beta Tunnel
 
-- `BetaTunnel object { id, archived_at, created_at, 3 more }`
+- `BetaTunnel object`
 
   An MCP tunnel.
+
+  - `type: "tunnel"`
 
   - `id: string`
 
@@ -996,9 +1032,13 @@ curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/rotate_token \
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `created_at: string`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `display_name: string or null`
 
@@ -1008,15 +1048,13 @@ curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/rotate_token \
 
     Anthropic-assigned hostname for the tunnel. MCP server URLs whose host is a subdomain of this value are routed through the tunnel. Globally unique and never reused, even after the tunnel is archived.
 
-  - `type: "tunnel"`
-
-    - `"tunnel"`
-
 ### Beta Tunnel Token
 
-- `BetaTunnelToken object { id, tunnel_token, type }`
+- `BetaTunnelToken object`
 
   A tunnel's connector token.
+
+  - `type: "tunnel_token"`
 
   - `id: string`
 
@@ -1026,25 +1064,21 @@ curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/rotate_token \
 
     The connector token used to run the tunnel. Treat as a credential.
 
-  - `type: "tunnel_token"`
+## Tunnels › Certificates
 
-    - `"tunnel_token"`
+### Create Tunnel Certificate
 
-# Certificates
-
-## Create Tunnel Certificate
-
-**post** `/v1/tunnels/{tunnel_id}/certificates`
+**POST** `/v1/tunnels/{tunnel_id}/certificates`
 
 The Tunnels API is in research preview. It requires the `anthropic-beta: mcp-tunnels-2026-06-22` header and may change without a deprecation period. It supersedes the Admin API endpoints at `/v1/organizations/tunnels`, which remain available during a migration window.
 
 Registers a public CA certificate on a tunnel. Anthropic verifies the gateway's server certificate against this CA when it terminates the inner TLS session. A tunnel holds at most two non-archived certificates.
 
-### Path Parameters
+#### Path parameters
 
 - `tunnel_id: string`
 
-### Header Parameters
+#### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -1052,7 +1086,7 @@ Registers a public CA certificate on a tunnel. Anthropic verifies the gateway's 
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -1100,6 +1134,8 @@ Registers a public CA certificate on a tunnel. Anthropic verifies the gateway's 
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -1142,17 +1178,23 @@ Registers a public CA certificate on a tunnel. Anthropic verifies the gateway's 
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+- `"anthropic-workspace-id": optional string`
+
+#### Body parameters
 
 - `ca_certificate_pem: string`
 
   PEM-encoded X.509 CA certificate. Must contain exactly one certificate and no private-key material. Maximum 8KB.
 
-### Returns
+  maxLength: 8192
 
-- `BetaTunnelCertificate object { id, archived_at, created_at, 4 more }`
+#### Returns
+
+- `BetaTunnelCertificate object`
 
   A CA certificate attached to a tunnel.
+
+  - `type: "tunnel_certificate"`
 
   - `id: string`
 
@@ -1162,13 +1204,19 @@ Registers a public CA certificate on a tunnel. Anthropic verifies the gateway's 
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `created_at: string`
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `expires_at: string or null`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `fingerprint: string`
 
@@ -1178,13 +1226,9 @@ Registers a public CA certificate on a tunnel. Anthropic verifies the gateway's 
 
     ID of the tunnel the certificate is registered against.
 
-  - `type: "tunnel_certificate"`
+#### Example
 
-    - `"tunnel_certificate"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/certificates \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -1195,7 +1239,7 @@ curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/certificates \
         }'
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -1209,21 +1253,21 @@ curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/certificates \
 }
 ```
 
-## Get Tunnel Certificate
+### Get Tunnel Certificate
 
-**get** `/v1/tunnels/{tunnel_id}/certificates/{certificate_id}`
+**GET** `/v1/tunnels/{tunnel_id}/certificates/{certificate_id}`
 
 The Tunnels API is in research preview. It requires the `anthropic-beta: mcp-tunnels-2026-06-22` header and may change without a deprecation period. It supersedes the Admin API endpoints at `/v1/organizations/tunnels`, which remain available during a migration window.
 
 Fetches a tunnel certificate by ID.
 
-### Path Parameters
+#### Path parameters
 
 - `tunnel_id: string`
 
 - `certificate_id: string`
 
-### Header Parameters
+#### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -1231,7 +1275,7 @@ Fetches a tunnel certificate by ID.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -1279,6 +1323,8 @@ Fetches a tunnel certificate by ID.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -1321,11 +1367,15 @@ Fetches a tunnel certificate by ID.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+- `"anthropic-workspace-id": optional string`
 
-- `BetaTunnelCertificate object { id, archived_at, created_at, 4 more }`
+#### Returns
+
+- `BetaTunnelCertificate object`
 
   A CA certificate attached to a tunnel.
+
+  - `type: "tunnel_certificate"`
 
   - `id: string`
 
@@ -1335,13 +1385,19 @@ Fetches a tunnel certificate by ID.
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `created_at: string`
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `expires_at: string or null`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `fingerprint: string`
 
@@ -1351,20 +1407,16 @@ Fetches a tunnel certificate by ID.
 
     ID of the tunnel the certificate is registered against.
 
-  - `type: "tunnel_certificate"`
+#### Example
 
-    - `"tunnel_certificate"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/certificates/$CERTIFICATE_ID \
     -H 'anthropic-version: 2023-06-01' \
     -H 'anthropic-beta: mcp-tunnels-2026-06-22' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -1378,19 +1430,19 @@ curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/certificates/$CERTIFICATE_I
 }
 ```
 
-## List Tunnel Certificates
+### List Tunnel Certificates
 
-**get** `/v1/tunnels/{tunnel_id}/certificates`
+**GET** `/v1/tunnels/{tunnel_id}/certificates`
 
 The Tunnels API is in research preview. It requires the `anthropic-beta: mcp-tunnels-2026-06-22` header and may change without a deprecation period. It supersedes the Admin API endpoints at `/v1/organizations/tunnels`, which remain available during a migration window.
 
 Lists the certificates registered on a tunnel. Archived certificates are excluded unless include_archived is set.
 
-### Path Parameters
+#### Path parameters
 
 - `tunnel_id: string`
 
-### Query Parameters
+#### Query parameters
 
 - `include_archived: optional boolean`
 
@@ -1400,11 +1452,13 @@ Lists the certificates registered on a tunnel. Archived certificates are exclude
 
   Maximum number of certificates to return per page. Defaults to 20, maximum 1000.
 
+  format: int32
+
 - `page: optional string`
 
   Opaque pagination cursor from a previous `list_tunnel_certificates` response.
 
-### Header Parameters
+#### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -1412,7 +1466,7 @@ Lists the certificates registered on a tunnel. Archived certificates are exclude
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -1460,6 +1514,8 @@ Lists the certificates registered on a tunnel. Archived certificates are exclude
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -1502,11 +1558,15 @@ Lists the certificates registered on a tunnel. Archived certificates are exclude
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+- `"anthropic-workspace-id": optional string`
+
+#### Returns
 
 - `data: array of BetaTunnelCertificate`
 
   List of certificates, ordered by created_at descending.
+
+  - `type: "tunnel_certificate"`
 
   - `id: string`
 
@@ -1516,13 +1576,19 @@ Lists the certificates registered on a tunnel. Archived certificates are exclude
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `created_at: string`
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `expires_at: string or null`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `fingerprint: string`
 
@@ -1532,24 +1598,20 @@ Lists the certificates registered on a tunnel. Archived certificates are exclude
 
     ID of the tunnel the certificate is registered against.
 
-  - `type: "tunnel_certificate"`
-
-    - `"tunnel_certificate"`
-
 - `next_page: string or null`
 
   Pagination cursor for the next page, or null if no more results.
 
-### Example
+#### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/certificates \
     -H 'anthropic-version: 2023-06-01' \
     -H 'anthropic-beta: mcp-tunnels-2026-06-22' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -1568,21 +1630,21 @@ curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/certificates \
 }
 ```
 
-## Archive Tunnel Certificate
+### Archive Tunnel Certificate
 
-**post** `/v1/tunnels/{tunnel_id}/certificates/{certificate_id}/archive`
+**POST** `/v1/tunnels/{tunnel_id}/certificates/{certificate_id}/archive`
 
 The Tunnels API is in research preview. It requires the `anthropic-beta: mcp-tunnels-2026-06-22` header and may change without a deprecation period. It supersedes the Admin API endpoints at `/v1/organizations/tunnels`, which remain available during a migration window.
 
 Archives a tunnel certificate, removing it from the set Anthropic trusts for the tunnel. The certificate record is retained. Archiving the last non-archived certificate is permitted; the tunnel rejects MCP traffic until a new certificate is added.
 
-### Path Parameters
+#### Path parameters
 
 - `tunnel_id: string`
 
 - `certificate_id: string`
 
-### Header Parameters
+#### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -1590,7 +1652,7 @@ Archives a tunnel certificate, removing it from the set Anthropic trusts for the
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -1638,6 +1700,8 @@ Archives a tunnel certificate, removing it from the set Anthropic trusts for the
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -1680,11 +1744,15 @@ Archives a tunnel certificate, removing it from the set Anthropic trusts for the
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+- `"anthropic-workspace-id": optional string`
 
-- `BetaTunnelCertificate object { id, archived_at, created_at, 4 more }`
+#### Returns
+
+- `BetaTunnelCertificate object`
 
   A CA certificate attached to a tunnel.
+
+  - `type: "tunnel_certificate"`
 
   - `id: string`
 
@@ -1694,13 +1762,19 @@ Archives a tunnel certificate, removing it from the set Anthropic trusts for the
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `created_at: string`
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `expires_at: string or null`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `fingerprint: string`
 
@@ -1710,13 +1784,9 @@ Archives a tunnel certificate, removing it from the set Anthropic trusts for the
 
     ID of the tunnel the certificate is registered against.
 
-  - `type: "tunnel_certificate"`
+#### Example
 
-    - `"tunnel_certificate"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/certificates/$CERTIFICATE_ID/archive \
     -X POST \
     -H 'anthropic-version: 2023-06-01' \
@@ -1724,7 +1794,7 @@ curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/certificates/$CERTIFICATE_I
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -1737,39 +1807,3 @@ curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/certificates/$CERTIFICATE_I
   "type": "tunnel_certificate"
 }
 ```
-
-## Domain Types
-
-### Beta Tunnel Certificate
-
-- `BetaTunnelCertificate object { id, archived_at, created_at, 4 more }`
-
-  A CA certificate attached to a tunnel.
-
-  - `id: string`
-
-    Unique identifier for the certificate, prefixed with `tcrt_`.
-
-  - `archived_at: string or null`
-
-    A timestamp in RFC 3339 format
-
-  - `created_at: string`
-
-    A timestamp in RFC 3339 format
-
-  - `expires_at: string or null`
-
-    A timestamp in RFC 3339 format
-
-  - `fingerprint: string`
-
-    Lowercase hex SHA-256 fingerprint of the certificate's DER encoding.
-
-  - `tunnel_id: string`
-
-    ID of the tunnel the certificate is registered against.
-
-  - `type: "tunnel_certificate"`
-
-    - `"tunnel_certificate"`

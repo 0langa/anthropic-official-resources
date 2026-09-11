@@ -6,7 +6,7 @@ Lesson 2 of 14 · The AI-Native SDLC PlaybookCapture as intent.md
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-native-sdlc-playbook%2Fcapture-intent)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-native-sdlc-playbook%2Fcapture-intent)
 
 The `intent.md`, which kicks off the software development process, can enter through different routes. A person has an idea, a ticket is filed, or an incident is surfaced via an alert **(see Stage 6: Maintain)**.
 

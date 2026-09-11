@@ -8,4 +8,4 @@ Quiz 8 of 8 · Building with the Claude APIFinal Assessment
 
 Quizzes are graded on your account so your progress and completion-badge eligibility are saved. Sign in with your Claude account to start.
 
-[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fbuilding-with-the-claude-api%2Ffinal-assessment)
+[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Ffinal-assessment)

@@ -3,27 +3,31 @@ title: List Environments
 url: https://platform.claude.com/docs/en/api/beta/environments/list
 ---
 
-## List Environments
+# List Environments
 
-**get** `/v1/environments`
+**GET** `/v1/environments`
 
 List environments with pagination support.
 
-### Query Parameters
+## Query parameters
 
 - `include_archived: optional boolean`
 
   Include archived environments in the response
 
+  default: false
+
 - `limit: optional number`
 
   Maximum number of environments to return
+
+  default: 20, maximum: 1000, minimum: 1
 
 - `page: optional string`
 
   Opaque cursor from previous response for pagination. Pass the `next_page` value from the previous response.
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -31,7 +35,7 @@ List environments with pagination support.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -79,6 +83,8 @@ List environments with pagination support.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -121,11 +127,19 @@ List environments with pagination support.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+- `"anthropic-workspace-id": optional string`
+
+## Returns
 
 - `data: array of BetaEnvironment`
 
   List of environments.
+
+  - `type: "environment"`
+
+    The type of object (always 'environment')
+
+    default: environment
 
   - `id: string`
 
@@ -139,15 +153,19 @@ List environments with pagination support.
 
     Environment configuration (either Anthropic Cloud or self-hosted)
 
-    - `BetaCloudConfig object { networking, packages, type }`
+    - `BetaCloudConfig object`
 
       `cloud` environment configuration.
+
+      - `type: "cloud"`
+
+        Environment type
 
       - `networking: BetaUnrestrictedNetwork or BetaLimitedNetwork`
 
         Network configuration policy.
 
-        - `BetaUnrestrictedNetwork object { type }`
+        - `BetaUnrestrictedNetwork object`
 
           Unrestricted network access.
 
@@ -155,11 +173,13 @@ List environments with pagination support.
 
             Network policy type
 
-            - `"unrestricted"`
-
-        - `BetaLimitedNetwork object { allow_mcp_servers, allow_package_managers, allowed_hosts, type }`
+        - `BetaLimitedNetwork object`
 
           Limited network access.
+
+          - `type: "limited"`
+
+            Network policy type
 
           - `allow_mcp_servers: boolean`
 
@@ -173,15 +193,15 @@ List environments with pagination support.
 
             Specifies domains the container can reach.
 
-          - `type: "limited"`
-
-            Network policy type
-
-            - `"limited"`
-
       - `packages: BetaPackages`
 
         Package manager configuration.
+
+        - `type: optional "packages"`
+
+          Package configuration type
+
+          default: packages
 
         - `apt: array of string`
 
@@ -207,27 +227,13 @@ List environments with pagination support.
 
           Python packages to install
 
-        - `type: optional "packages"`
-
-          Package configuration type
-
-          - `"packages"`
-
-      - `type: "cloud"`
-
-        Environment type
-
-        - `"cloud"`
-
-    - `BetaSelfHostedConfig object { type }`
+    - `BetaSelfHostedConfig object`
 
       Configuration for self-hosted environments.
 
       - `type: "self_hosted"`
 
         Environment type
-
-        - `"self_hosted"`
 
   - `created_at: string`
 
@@ -245,12 +251,6 @@ List environments with pagination support.
 
     Human-readable name for the environment
 
-  - `type: "environment"`
-
-    The type of object (always 'environment')
-
-    - `"environment"`
-
   - `updated_at: string`
 
     RFC 3339 timestamp when environment was last updated
@@ -267,16 +267,16 @@ List environments with pagination support.
 
   Token for fetching the next page of results. If `null`, there are no more results available. Pass this value to the `page` parameter in the next request.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/environments \
     -H 'anthropic-version: 2023-06-01' \
     -H 'anthropic-beta: managed-agents-2026-04-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

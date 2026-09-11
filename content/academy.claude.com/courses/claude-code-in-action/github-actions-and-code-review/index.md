@@ -6,7 +6,7 @@ Lesson 7 of 9 · Claude Code in ActionGitHub Actions and Code Review
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-code-in-action%2Fgithub-actions-and-code-review)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-code-in-action%2Fgithub-actions-and-code-review)
 
 Embedded media: https://www.youtube-nocookie.com/embed/nVGcWczH8fk?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 

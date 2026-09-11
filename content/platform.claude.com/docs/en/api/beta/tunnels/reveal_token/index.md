@@ -3,19 +3,19 @@ title: Reveal Tunnel Token
 url: https://platform.claude.com/docs/en/api/beta/tunnels/reveal_token
 ---
 
-## Reveal Tunnel Token
+# Reveal Tunnel Token
 
-**post** `/v1/tunnels/{tunnel_id}/reveal_token`
+**POST** `/v1/tunnels/{tunnel_id}/reveal_token`
 
 The Tunnels API is in research preview. It requires the `anthropic-beta: mcp-tunnels-2026-06-22` header and may change without a deprecation period. It supersedes the Admin API endpoints at `/v1/organizations/tunnels`, which remain available during a migration window.
 
 Reveals a tunnel's connector token. The value is fetched live on each call; Anthropic does not store it. Repeated calls return the same value until the token is rotated. Exposed as POST so the token does not appear in intermediary access logs.
 
-### Path Parameters
+## Path parameters
 
 - `tunnel_id: string`
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -23,7 +23,7 @@ Reveals a tunnel's connector token. The value is fetched live on each call; Anth
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -71,6 +71,8 @@ Reveals a tunnel's connector token. The value is fetched live on each call; Anth
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -113,11 +115,15 @@ Reveals a tunnel's connector token. The value is fetched live on each call; Anth
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+- `"anthropic-workspace-id": optional string`
 
-- `BetaTunnelToken object { id, tunnel_token, type }`
+## Returns
+
+- `BetaTunnelToken object`
 
   A tunnel's connector token.
+
+  - `type: "tunnel_token"`
 
   - `id: string`
 
@@ -127,13 +133,9 @@ Reveals a tunnel's connector token. The value is fetched live on each call; Anth
 
     The connector token used to run the tunnel. Treat as a credential.
 
-  - `type: "tunnel_token"`
+## Example
 
-    - `"tunnel_token"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/reveal_token \
     -X POST \
     -H 'anthropic-version: 2023-06-01' \
@@ -141,7 +143,7 @@ curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/reveal_token \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

@@ -6,7 +6,7 @@ Lesson 14 of 14 · AI Fluency: Framework & FoundationsAdditional activities
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-framework-foundations%2Fadditional-activities)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-framework-foundations%2Fadditional-activities)
 
 The following activities are designed for self-directed learning after completing the AI Fluency: Framework and Foundations course.
 

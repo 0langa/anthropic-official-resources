@@ -4,7 +4,7 @@ This course empowers creative professionals to develop AI fluency, making intent
 
 8 lessons5 hr1 quizCompletion badge
 
-[Start course](https://academy.claude.com/courses/ai-fluency-for-creative-work/welcome-to-ai-fluency-for-creative-work)[Sign in to save progress](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-creative-work)
+[Start course](https://academy.claude.com/courses/ai-fluency-for-creative-work/welcome-to-ai-fluency-for-creative-work)[Sign in to save progress](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-creative-work)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-lzbtkji5.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-i1ebz4s6.png)
 
@@ -83,7 +83,7 @@ This video names the five shapes a Delegation decision tends to take. They split
 
 ![](https://academy.claude.com/assets/media/8d824546ec847905a40de02ec58b3875ef19ed8ee30e51373558070309183d4b.webp)![](https://academy.claude.com/assets/media/aead763ca02ab80b581712613635f2de8f35213adbc5099a937cd222eaa0d87f.webp)
 
-### Conclusion and certificate
+### Conclusion and badge
 
 1 lesson
 

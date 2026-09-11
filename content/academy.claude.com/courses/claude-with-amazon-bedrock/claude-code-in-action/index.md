@@ -6,7 +6,7 @@ Lesson 59 of 65 · Claude with Amazon BedrockClaude Code in action
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-amazon-bedrock%2Fclaude-code-in-action)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fclaude-code-in-action)
 
 Claude Code isn't just a tool for writing code - it's designed to be your coding partner throughout an entire project lifecycle. From initial setup to deployment and maintenance, Claude can help with every step of software development.
 

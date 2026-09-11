@@ -3,9 +3,9 @@ title: Delete project
 url: https://platform.claude.com/docs/en/api/compliance/apps/projects/delete
 ---
 
-## Delete project
+# Delete project
 
-**delete** `/v1/compliance/apps/projects/{project_id}`
+**DELETE** `/v1/compliance/apps/projects/{project_id}`
 
 Delete a project for compliance purposes.
 
@@ -18,37 +18,43 @@ Hard-deletes the project and all its associated data including:
 
 Project must have no attached chats - returns 409 if chats exist.
 
-### Path Parameters
+## Path parameters
 
 - `project_id: string`
 
   The project ID (tagged ID, e.g., claude_proj_abc123)
 
-### Header Parameters
+## Headers
+
+- `"anthropic-version": optional string`
+
+  The version of the Claude API you want to use.
+
+  Read more about versioning and our version history [here](https://platform.claude.com/docs/en/api/versioning).
 
 - `"x-api-key": optional string`
 
-### Returns
-
-- `id: string`
-
-  The ID of the Claude project that was deleted
+## Returns
 
 - `type: optional "claude_project_deleted"`
 
   Constant string confirming deletion.
 
-  - `"claude_project_deleted"`
+  default: claude_project_deleted
 
-### Example
+- `id: string`
 
-```http
+  The ID of the Claude project that was deleted
+
+## Example
+
+```bash
 curl https://api.anthropic.com/v1/compliance/apps/projects/$PROJECT_ID \
     -X DELETE \
     -H "Authorization: Bearer $ANTHROPIC_COMPLIANCE_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

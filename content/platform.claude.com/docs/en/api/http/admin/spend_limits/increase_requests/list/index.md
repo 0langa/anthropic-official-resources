@@ -1,3 +1,8 @@
+---
+title: List Spend Limit Increase Requests
+url: https://platform.claude.com/docs/en/api/beta/organization/spend_limits/increase_requests/list
+---
+
 # List Spend Limit Increase Requests
 
 **GET** `/v1/organizations/spend_limit_increase_requests`
@@ -33,7 +38,11 @@ Requests whose requester is no longer a member are excluded.
 
 ## Returns
 
-- `data: array of SpendLimitIncreaseRequest`
+- `data: array of BetaSpendLimitIncreaseRequest`
+
+  - `type: "spend_limit_increase_request"`
+
+    default: spend_limit_increase_request
 
   - `id: string`
 
@@ -42,6 +51,12 @@ Requests whose requester is no longer a member are excluded.
     A user within the organization. `name` and `email_address` are
     null when the underlying account is unavailable or has been deleted;
     `deleted` is true only for deleted accounts.
+
+    - `type: "user_actor"`
+
+      Actor type. Always `user_actor`.
+
+      default: user_actor
 
     - `deleted: boolean`
 
@@ -56,12 +71,6 @@ Requests whose requester is no longer a member are excluded.
     - `name: string or null`
 
       The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
-
-    - `type: "user_actor"`
-
-      Actor type. Always `user_actor`.
-
-      default: user_actor
 
     - `user_id: string`
 
@@ -95,6 +104,12 @@ Requests whose requester is no longer a member are excluded.
       null when the underlying account is unavailable or has been deleted;
       `deleted` is true only for deleted accounts.
 
+      - `type: "user_actor"`
+
+        Actor type. Always `user_actor`.
+
+        default: user_actor
+
       - `deleted: boolean`
 
         True only when the underlying account has been deleted.
@@ -108,12 +123,6 @@ Requests whose requester is no longer a member are excluded.
       - `name: string or null`
 
         The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
-
-      - `type: "user_actor"`
-
-        Actor type. Always `user_actor`.
-
-        default: user_actor
 
       - `user_id: string`
 
@@ -123,13 +132,13 @@ Requests whose requester is no longer a member are excluded.
 
       A scoped Admin API key acting on behalf of the organization.
 
-      - `scoped_api_key_id: string`
-
       - `type: "scoped_api_key_actor"`
 
         default: scoped_api_key_actor
 
-  - `spend_summary: SpendSummary or null`
+      - `scoped_api_key_id: string`
+
+  - `spend_summary: BetaSpendSummary or null`
 
     Per-member effective-limit report row (`GET /spend_limits/effective`).
 
@@ -138,6 +147,12 @@ Requests whose requester is no longer a member are excluded.
       A user within the organization. `name` and `email_address` are
       null when the underlying account is unavailable or has been deleted;
       `deleted` is true only for deleted accounts.
+
+      - `type: "user_actor"`
+
+        Actor type. Always `user_actor`.
+
+        default: user_actor
 
       - `deleted: boolean`
 
@@ -152,12 +167,6 @@ Requests whose requester is no longer a member are excluded.
       - `name: string or null`
 
         The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
-
-      - `type: "user_actor"`
-
-        Actor type. Always `user_actor`.
-
-        default: user_actor
 
       - `user_id: string`
 
@@ -219,27 +228,27 @@ Requests whose requester is no longer a member are excluded.
 
       - `SeatTier object`
 
-        - `seat_tier: string`
-
         - `type: "seat_tier"`
 
           default: seat_tier
 
-      - `RbacGroup object`
+        - `seat_tier: string`
 
-        - `rbac_group_id: string`
+      - `RBACGroup object`
 
         - `type: "rbac_group"`
 
           default: rbac_group
 
-      - `OrganizationService object`
+        - `rbac_group_id: string`
 
-        - `service: string`
+      - `OrganizationService object`
 
         - `type: "organization_service"`
 
           default: organization_service
+
+        - `service: string`
 
       - `Organization object`
 
@@ -257,10 +266,6 @@ Requests whose requester is no longer a member are excluded.
 
     - `"pending"`
 
-  - `type: "spend_limit_increase_request"`
-
-    default: spend_limit_increase_request
-
 - `next_page: string or null`
 
 ## Example
@@ -268,7 +273,7 @@ Requests whose requester is no longer a member are excluded.
 ```bash
 curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 ### Response (200)

@@ -11,7 +11,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-educators%2Fai-fluency-framework-review)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-educators%2Fai-fluency-framework-review)
 
 ## AI Fluency Framework review[](https://academy.claude.com/courses/ai-fluency-for-educators/ai-fluency-framework-review)
 

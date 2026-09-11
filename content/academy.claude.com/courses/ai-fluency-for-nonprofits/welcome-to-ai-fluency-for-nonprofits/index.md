@@ -12,7 +12,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-nonprofits%2Fwelcome-to-ai-fluency-for-nonprofits)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-nonprofits%2Fwelcome-to-ai-fluency-for-nonprofits)
 
 ## Welcome to AI Fluency for nonprofits[](https://academy.claude.com/courses/ai-fluency-for-nonprofits/welcome-to-ai-fluency-for-nonprofits)
 

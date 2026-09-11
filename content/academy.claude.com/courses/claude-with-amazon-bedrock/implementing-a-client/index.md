@@ -6,7 +6,7 @@ Lesson 53 of 65 · Claude with Amazon BedrockImplementing a client
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-amazon-bedrock%2Fimplementing-a-client)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fimplementing-a-client)
 
 Now that we have our MCP server working, it's time to build the client side. The client is what allows our application to communicate with the MCP server and access its functionality.
 

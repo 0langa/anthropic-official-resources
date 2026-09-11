@@ -12,7 +12,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-creative-work%2Fputting-it-all-together)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-creative-work%2Fputting-it-all-together)
 
 ## Putting It All Together[](https://academy.claude.com/courses/ai-fluency-for-creative-work/putting-it-all-together)
 
@@ -153,7 +153,7 @@ Saved in this browser only. Copy your policy into your own document to keep it.
 
 ## What's next[](https://academy.claude.com/courses/ai-fluency-for-creative-work/putting-it-all-together)
 
-Next you will take a short assessment to earn your certificate.
+Next you will take a short assessment to earn your completion badge.
 
 Was this helpful?
 

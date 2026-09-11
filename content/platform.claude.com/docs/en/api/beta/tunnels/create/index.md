@@ -3,15 +3,15 @@ title: Create Tunnel
 url: https://platform.claude.com/docs/en/api/beta/tunnels/create
 ---
 
-## Create Tunnel
+# Create Tunnel
 
-**post** `/v1/tunnels`
+**POST** `/v1/tunnels`
 
 The Tunnels API is in research preview. It requires the `anthropic-beta: mcp-tunnels-2026-06-22` header and may change without a deprecation period. It supersedes the Admin API endpoints at `/v1/organizations/tunnels`, which remain available during a migration window.
 
 Creates a tunnel. Creation allocates a fresh hostname and provisions the tunnel; it is not idempotent. The new tunnel rejects MCP traffic until at least one CA certificate is added.
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -19,7 +19,7 @@ Creates a tunnel. Creation allocates a fresh hostname and provisions the tunnel;
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -67,6 +67,8 @@ Creates a tunnel. Creation allocates a fresh hostname and provisions the tunnel;
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -109,17 +111,23 @@ Creates a tunnel. Creation allocates a fresh hostname and provisions the tunnel;
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+- `"anthropic-workspace-id": optional string`
+
+## Body parameters
 
 - `display_name: optional string or null`
 
   Optional human-readable name for the tunnel (1-255 characters).
 
-### Returns
+  minLength: 1, maxLength: 255
 
-- `BetaTunnel object { id, archived_at, created_at, 3 more }`
+## Returns
+
+- `BetaTunnel object`
 
   An MCP tunnel.
+
+  - `type: "tunnel"`
 
   - `id: string`
 
@@ -129,9 +137,13 @@ Creates a tunnel. Creation allocates a fresh hostname and provisions the tunnel;
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `created_at: string`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `display_name: string or null`
 
@@ -141,13 +153,9 @@ Creates a tunnel. Creation allocates a fresh hostname and provisions the tunnel;
 
     Anthropic-assigned hostname for the tunnel. MCP server URLs whose host is a subdomain of this value are routed through the tunnel. Globally unique and never reused, even after the tunnel is archived.
 
-  - `type: "tunnel"`
+## Example
 
-    - `"tunnel"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/tunnels \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -156,7 +164,7 @@ curl https://api.anthropic.com/v1/tunnels \
     -d '{}'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

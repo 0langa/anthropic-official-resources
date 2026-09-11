@@ -12,7 +12,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-pk-12-train-the-trainer%2Fintroduction-from-learner-to-trainer)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-pk-12-train-the-trainer%2Fintroduction-from-learner-to-trainer)
 
 ## What you'll learn[](https://academy.claude.com/courses/ai-fluency-for-pk-12-train-the-trainer/introduction-from-learner-to-trainer)
 

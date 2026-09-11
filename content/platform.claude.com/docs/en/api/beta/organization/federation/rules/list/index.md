@@ -3,9 +3,9 @@ title: List Federation Rules
 url: https://platform.claude.com/docs/en/api/beta/organization/federation/rules/list
 ---
 
-## List Federation Rules
+# List Federation Rules
 
-**get** `/v1/organizations/federation_rules`
+**GET** `/v1/organizations/federation_rules`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -14,11 +14,13 @@ List federation rules in your organization.
 Optionally filter by issuer with `issuer_id`. Archived rules are excluded
 unless `include_archived=true`.
 
-### Query Parameters
+## Query parameters
 
 - `include_archived: optional boolean`
 
   Include archived resources. Defaults to false.
+
+  default: false
 
 - `issuer_id: optional string`
 
@@ -28,11 +30,13 @@ unless `include_archived=true`.
 
   Number of results per page.
 
+  default: 20, maximum: 100, minimum: 1
+
 - `page: optional string`
 
   Opaque cursor from a previous response's `next_page`.
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -40,7 +44,7 @@ unless `include_archived=true`.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -88,6 +92,8 @@ unless `include_archived=true`.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -130,9 +136,13 @@ unless `include_archived=true`.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+## Returns
 
 - `data: array of BetaFederationRule`
+
+  - `type: "federation_rule"`
+
+    default: federation_rule
 
   - `id: string`
 
@@ -146,6 +156,8 @@ unless `include_archived=true`.
 
     If set, this rule is archived and rejects token exchange.
 
+    format: date-time
+
   - `archived_by_actor_id: string or null`
 
     Tagged ID (`user_`/`svac_`) of the actor that archived this rule.
@@ -157,6 +169,8 @@ unless `include_archived=true`.
   - `created_at: string`
 
     When this rule was created.
+
+    format: date-time
 
   - `created_by_actor_id: string or null`
 
@@ -182,6 +196,8 @@ unless `include_archived=true`.
 
       Exact match against the `aud` claim (any element if array). When omitted, the JWT's `aud` must still equal Anthropic's expected audience for the issuer; setting this field overrides that default.
 
+      maxLength: 1024
+
     - `claims: optional map[string] or null`
 
       Exact-match `{claim: value}` pairs against top-level claims. Only string-valued claims can be matched; use `condition` for non-string claims.
@@ -190,9 +206,13 @@ unless `include_archived=true`.
 
       CEL expression over claims for logic the structural fields can't express. Must evaluate to a boolean and may reference only the `claims` variable; a constant-true expression (such as `true`) is rejected with 400.
 
+      maxLength: 4096
+
     - `subject_prefix: optional string or null`
 
       Match the verified JWT `sub` claim. Exact match unless the value ends with `*`, in which case it is a prefix match. Example: `repo:my-org/my-repo:ref:refs/heads/main`.
+
+      maxLength: 1024
 
   - `name: string`
 
@@ -206,13 +226,11 @@ unless `include_archived=true`.
 
     Identity that tokens minted via this rule act as. Currently always a `service_account` target.
 
+    - `type: "service_account"`
+
     - `service_account_id: string`
 
       Tagged ID of the service account to mint tokens for.
-
-    - `type: "service_account"`
-
-      - `"service_account"`
 
     - `service_account_name: optional string or null`
 
@@ -222,13 +240,11 @@ unless `include_archived=true`.
 
     Lifetime in seconds of access tokens minted via this rule. Minted tokens are capped at `max(60, min(this value, 2 × remaining assertion validity))` seconds.
 
-  - `type: "federation_rule"`
-
-    - `"federation_rule"`
-
   - `updated_at: string`
 
     When this rule was last updated.
+
+    format: date-time
 
   - `updated_by_actor_id: string or null`
 
@@ -246,15 +262,15 @@ unless `include_archived=true`.
 
   Opaque cursor for the next page, or null if no more results.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/federation_rules \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

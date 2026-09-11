@@ -1,45 +1,137 @@
 ---
 title: Create Workspace
-url: https://platform.claude.com/docs/en/api/admin/workspaces/create
+url: https://platform.claude.com/docs/en/api/beta/organization/workspaces/create
 ---
 
-## Create Workspace
+# Create Workspace
 
-**post** `/v1/organizations/workspaces`
+**POST** `/v1/organizations/workspaces`
 
 Create Workspace
 
-### Header Parameters
+## Headers
 
-- `"anthropic-beta": optional array of string`
+- `"anthropic-beta": optional array of AnthropicBeta`
 
   Optional header to specify the beta version(s) you want to use.
 
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
+  - `string`
 
-### Body Parameters
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
+
+    - `"message-batches-2024-09-24"`
+
+    - `"prompt-caching-2024-07-31"`
+
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
+
+## Body parameters
 
 - `name: string`
 
   Name of the Workspace.
 
-- `data_residency: optional object { allowed_inference_geos, default_inference_geo, workspace_geo }  or null`
+  maxLength: 40, minLength: 1
+
+- `data_residency: optional BetaDataResidencyCreateConfig or null`
 
   Data residency configuration for the workspace. If omitted, defaults to `workspace_geo: "us"`, `allowed_inference_geos: "unrestricted"`, and `default_inference_geo: "global"`.
 
-  - `allowed_inference_geos: optional array of "global" or "us" or "unrestricted" or null`
+  - `allowed_inference_geos: optional array of BetaAllowedInferenceGeo or "unrestricted" or null`
 
     Permitted inference geo values. Defaults to 'unrestricted' if omitted, which allows all geos. Use the string 'unrestricted' to allow all geos, or a list of specific geos.
 
-    - `array of "global" or "us"`
+    - `Geos = array of BetaAllowedInferenceGeo`
 
       - `"global"`
 
       - `"us"`
 
-    - `"unrestricted"`
-
-      - `"unrestricted"`
+    - `Unrestricted = "unrestricted"`
 
   - `default_inference_geo: optional "global" or "us" or null`
 
@@ -53,11 +145,11 @@ Create Workspace
 
     Geographic region for workspace data storage. Immutable after creation. Defaults to 'us' if omitted.
 
-    - `"us"`
-
 - `display_color: optional string or null`
 
   Hex color code representing the Workspace in the Anthropic Console.
+
+  maxLength: 7, pattern: ^#[0-9A-Fa-f]{6}$
 
 - `external_key_id: optional string or null`
 
@@ -77,9 +169,17 @@ Create Workspace
 
   User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
-### Returns
+## Returns
 
-- `Workspace object { id, archived_at, compartment_id, 7 more }`
+- `BetaWorkspace object`
+
+  - `type: "workspace"`
+
+    Object type.
+
+    For Workspaces, this is always `"workspace"`.
+
+    default: workspace
 
   - `id: string`
 
@@ -88,6 +188,8 @@ Create Workspace
   - `archived_at: string or null`
 
     RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
+
+    format: date-time
 
   - `compartment_id: string`
 
@@ -107,7 +209,9 @@ Create Workspace
 
     RFC 3339 datetime string indicating when the Workspace was created.
 
-  - `data_residency: object { allowed_inference_geos, default_inference_geo, workspace_geo }`
+    format: date-time
+
+  - `data_residency: BetaDataResidency`
 
     Data residency configuration.
 
@@ -115,11 +219,9 @@ Create Workspace
 
       Permitted inference geo values. 'unrestricted' means all geos are allowed.
 
-      - `array of string`
+      - `Geos = array of string`
 
-      - `"unrestricted"`
-
-        - `"unrestricted"`
+      - `Unrestricted = "unrestricted"`
 
     - `default_inference_geo: string`
 
@@ -155,21 +257,13 @@ Create Workspace
 
     User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
-  - `type: "workspace"`
+## Example
 
-    Object type.
-
-    For Workspaces, this is always `"workspace"`.
-
-    - `"workspace"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
     -d '{
           "name": "x",
           "display_color": "#6C5BB9",
@@ -181,7 +275,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces \
         }'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

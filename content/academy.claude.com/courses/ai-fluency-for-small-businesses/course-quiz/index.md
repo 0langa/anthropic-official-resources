@@ -10,4 +10,4 @@ You've reached the final quiz for AI Fluency for Small Businesses. Its 7 questio
 
 Quizzes are graded on your account so your progress and completion-badge eligibility are saved. Sign in with your Claude account to start.
 
-[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-small-businesses%2Fcourse-quiz)
+[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-small-businesses%2Fcourse-quiz)

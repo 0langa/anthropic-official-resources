@@ -3,21 +3,25 @@ title: List memory stores
 url: https://platform.claude.com/docs/en/api/beta/memory_stores/list
 ---
 
-## List memory stores
+# List memory stores
 
-**get** `/v1/memory_stores`
+**GET** `/v1/memory_stores`
 
 List memory stores
 
-### Query Parameters
+## Query parameters
 
 - `"created_at[gte]": optional string`
 
   Return only stores whose `created_at` is at or after this time (inclusive). Sent on the wire as `created_at[gte]`.
 
+  format: date-time
+
 - `"created_at[lte]": optional string`
 
   Return only stores whose `created_at` is at or before this time (inclusive). Sent on the wire as `created_at[lte]`.
+
+  format: date-time
 
 - `include_archived: optional boolean`
 
@@ -27,11 +31,13 @@ List memory stores
 
   Maximum number of stores to return per page. Must be between 1 and 100. Defaults to 20 when omitted.
 
+  format: int32
+
 - `page: optional string`
 
   Opaque pagination cursor (a `page_...` value). Pass the `next_page` value from a previous response to fetch the next page; omit for the first page.
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -39,7 +45,7 @@ List memory stores
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -87,6 +93,8 @@ List memory stores
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -129,11 +137,15 @@ List memory stores
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+- `"anthropic-workspace-id": optional string`
+
+## Returns
 
 - `data: optional array of BetaManagedAgentsMemoryStore`
 
   Memory stores on this page, newest first. Empty when there are no stores matching the filters.
+
+  - `type: "memory_store"`
 
   - `id: string`
 
@@ -143,21 +155,23 @@ List memory stores
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `name: string`
 
     Human-readable name for the store. 1–255 characters. The store's mount-path slug under `/mnt/memory/` is derived from this name.
-
-  - `type: "memory_store"`
-
-    - `"memory_store"`
 
   - `updated_at: string`
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `archived_at: optional string or null`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `description: optional string`
 
@@ -171,16 +185,16 @@ List memory stores
 
   Opaque cursor for the next page (a `page_...` value). Pass as `page` on the next request. `null` when there are no more results.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/memory_stores \
     -H 'anthropic-version: 2023-06-01' \
     -H 'anthropic-beta: agent-memory-2026-07-22' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

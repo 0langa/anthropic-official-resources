@@ -3,23 +3,19 @@ title: Delete Invite
 url: https://platform.claude.com/docs/en/api/beta/organization/invites/delete
 ---
 
-## Delete Invite
+# Delete Invite
 
-**delete** `/v1/organizations/invites/{invite_id}`
+**DELETE** `/v1/organizations/invites/{invite_id}`
 
 Delete a pending invite.
 
-### Path Parameters
+## Path parameters
 
 - `invite_id: string`
 
   ID of the Invite.
 
-### Returns
-
-- `id: string`
-
-  ID of the Invite.
+## Returns
 
 - `type: "invite_deleted"`
 
@@ -27,18 +23,22 @@ Delete a pending invite.
 
   For Invites, this is always `"invite_deleted"`.
 
-  - `"invite_deleted"`
+  default: invite_deleted
 
-### Example
+- `id: string`
 
-```http
+  ID of the Invite.
+
+## Example
+
+```bash
 curl https://api.anthropic.com/v1/organizations/invites/$INVITE_ID \
     -X DELETE \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

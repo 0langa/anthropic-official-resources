@@ -6,7 +6,7 @@ Lesson 28 of 65 · Claude with Amazon BedrockAdding multiple tools
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-amazon-bedrock%2Fadding-multiple-tools)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fadding-multiple-tools)
 
 Now that we have one tool working, it's time to add the remaining two tools to complete our project: `add_duration_to_datetime` and `set_reminder`. The good news is that once you have the foundation in place, adding new tools is straightforward.
 

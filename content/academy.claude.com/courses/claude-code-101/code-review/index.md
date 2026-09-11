@@ -6,7 +6,7 @@ Lesson 7 of 12 · Claude Code 101Code review
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-code-101%2Fcode-review)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-code-101%2Fcode-review)
 
 When you give Claude Code a task to complete in your codebase, Claude will often report back in a succinct way. Underneath the description of what Claude changed, there can be a variety of files that were changed (from small to major changes). Oftentimes, the session that wrote the code changes themselves (and explained them) is not the highest-quality judge of those changes. It's a good practice to give every change a look yourself before you keep it, and then have Claude review it again from a clean context, without this session's history.
 

@@ -11,7 +11,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fbuilding-effective-human-agent-teams%2Forganizational-checklist)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-effective-human-agent-teams%2Forganizational-checklist)
 
 Before you bring in multiplayer AI, take an honest look at how ready your team is.
 

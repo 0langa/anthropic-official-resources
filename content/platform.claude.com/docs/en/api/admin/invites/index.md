@@ -1,23 +1,25 @@
 ---
 title: Invites
-url: https://platform.claude.com/docs/en/api/admin/invites
+url: https://platform.claude.com/docs/en/api/beta/organization/invites
 ---
 
 # Invites
 
 ## Create Invite
 
-**post** `/v1/organizations/invites`
+**POST** `/v1/organizations/invites`
 
 Invite a user to join the organization by email.
 
 On plans that draw members from a finite pool of purchased seats, the invite automatically consumes a seat from the lowest tier with availability; there is no seat-tier parameter. When no seat is free the request fails with a 400 error rather than purchasing a seat.
 
-### Body Parameters
+### Body parameters
 
 - `email: string`
 
   Email of the User.
+
+  format: email
 
 - `role: "billing" or "claude_code_user" or "developer" or 2 more`
 
@@ -39,9 +41,19 @@ On plans that draw members from a finite pool of purchased seats, the invite aut
 
   RBAC group IDs to assign to the User when the Invite is accepted. A non-empty array is accepted only for a Claude Enterprise organization with RBAC groups, and requires the key to carry the `write:rbac_groups` scope.
 
+  maxItems: 100
+
 ### Returns
 
-- `Invite object { id, accepted_at, email, 6 more }`
+- `BetaOrganizationInvite object`
+
+  - `type: "invite"`
+
+    Object type.
+
+    For Invites, this is always `"invite"`.
+
+    default: invite
 
   - `id: string`
 
@@ -51,6 +63,8 @@ On plans that draw members from a finite pool of purchased seats, the invite aut
 
     RFC 3339 datetime string indicating when the Invite was accepted, or null.
 
+    format: date-time
+
   - `email: string`
 
     Email of the User being invited.
@@ -59,15 +73,19 @@ On plans that draw members from a finite pool of purchased seats, the invite aut
 
     RFC 3339 datetime string indicating when the Invite expires.
 
+    format: date-time
+
   - `invited_at: string`
 
     RFC 3339 datetime string indicating when the Invite was created.
+
+    format: date-time
 
   - `rbac_group_ids: array of string`
 
     RBAC group IDs recorded on the Invite (Claude Enterprise organizations), to be assigned to the User when the Invite is accepted. `[]` when none.
 
-  - `role: "admin" or "billing" or "claude_code_user" or 6 more`
+  - `role: BetaOrganizationRole`
 
     Organization role of the User.
 
@@ -101,28 +119,20 @@ On plans that draw members from a finite pool of purchased seats, the invite aut
 
     - `"pending"`
 
-  - `type: "invite"`
-
-    Object type.
-
-    For Invites, this is always `"invite"`.
-
-    - `"invite"`
-
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/invites \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
     -d '{
           "email": "user@emaildomain.com",
           "role": "user"
         }'
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -134,115 +144,7 @@ curl https://api.anthropic.com/v1/organizations/invites \
   "rbac_group_ids": [
     "string"
   ],
-  "role": "user",
-  "status": "pending",
-  "type": "invite"
-}
-```
-
-## Get Invite
-
-**get** `/v1/organizations/invites/{invite_id}`
-
-Retrieve an invite by ID.
-
-### Path Parameters
-
-- `invite_id: string`
-
-  ID of the Invite.
-
-### Returns
-
-- `Invite object { id, accepted_at, email, 6 more }`
-
-  - `id: string`
-
-    ID of the Invite.
-
-  - `accepted_at: string or null`
-
-    RFC 3339 datetime string indicating when the Invite was accepted, or null.
-
-  - `email: string`
-
-    Email of the User being invited.
-
-  - `expires_at: string`
-
-    RFC 3339 datetime string indicating when the Invite expires.
-
-  - `invited_at: string`
-
-    RFC 3339 datetime string indicating when the Invite was created.
-
-  - `rbac_group_ids: array of string`
-
-    RBAC group IDs recorded on the Invite (Claude Enterprise organizations), to be assigned to the User when the Invite is accepted. `[]` when none.
-
-  - `role: "admin" or "billing" or "claude_code_user" or 6 more`
-
-    Organization role of the User.
-
-    - `"admin"`
-
-    - `"billing"`
-
-    - `"claude_code_user"`
-
-    - `"developer"`
-
-    - `"managed"`
-
-    - `"membership_admin"`
-
-    - `"owner"`
-
-    - `"primary_owner"`
-
-    - `"user"`
-
-  - `status: "accepted" or "deleted" or "expired" or "pending"`
-
-    Status of the Invite.
-
-    - `"accepted"`
-
-    - `"deleted"`
-
-    - `"expired"`
-
-    - `"pending"`
-
-  - `type: "invite"`
-
-    Object type.
-
-    For Invites, this is always `"invite"`.
-
-    - `"invite"`
-
-### Example
-
-```http
-curl https://api.anthropic.com/v1/organizations/invites/$INVITE_ID \
-    -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
-```
-
-#### Response
-
-```json
-{
-  "id": "invite_015gWxCN9Hfg2QhZwTK7Mdeu",
-  "accepted_at": "2019-12-27T18:11:19.117Z",
-  "email": "user@emaildomain.com",
-  "expires_at": "2024-11-20T23:58:27.427722Z",
-  "invited_at": "2024-10-30T23:58:27.427722Z",
-  "rbac_group_ids": [
-    "string"
-  ],
-  "role": "user",
+  "role": "admin",
   "status": "pending",
   "type": "invite"
 }
@@ -250,11 +152,11 @@ curl https://api.anthropic.com/v1/organizations/invites/$INVITE_ID \
 
 ## List Invites
 
-**get** `/v1/organizations/invites`
+**GET** `/v1/organizations/invites`
 
 List the organization's invites.
 
-### Query Parameters
+### Query parameters
 
 - `after_id: optional string`
 
@@ -268,11 +170,15 @@ List the organization's invites.
 
   Filter by the email address the Invite was sent to. Matches the same way as the Users list's `email` filter (normalized, case-insensitive).
 
+  format: email
+
 - `limit: optional number`
 
   Number of items to return per page.
 
   Defaults to `20`. Ranges from `1` to `1000`.
+
+  default: 20, maximum: 1000, minimum: 1
 
 - `roles: optional array of string`
 
@@ -292,7 +198,15 @@ List the organization's invites.
 
 ### Returns
 
-- `data: array of Invite`
+- `data: array of BetaOrganizationInvite`
+
+  - `type: "invite"`
+
+    Object type.
+
+    For Invites, this is always `"invite"`.
+
+    default: invite
 
   - `id: string`
 
@@ -302,6 +216,8 @@ List the organization's invites.
 
     RFC 3339 datetime string indicating when the Invite was accepted, or null.
 
+    format: date-time
+
   - `email: string`
 
     Email of the User being invited.
@@ -310,15 +226,19 @@ List the organization's invites.
 
     RFC 3339 datetime string indicating when the Invite expires.
 
+    format: date-time
+
   - `invited_at: string`
 
     RFC 3339 datetime string indicating when the Invite was created.
+
+    format: date-time
 
   - `rbac_group_ids: array of string`
 
     RBAC group IDs recorded on the Invite (Claude Enterprise organizations), to be assigned to the User when the Invite is accepted. `[]` when none.
 
-  - `role: "admin" or "billing" or "claude_code_user" or 6 more`
+  - `role: BetaOrganizationRole`
 
     Organization role of the User.
 
@@ -351,14 +271,6 @@ List the organization's invites.
     - `"expired"`
 
     - `"pending"`
-
-  - `type: "invite"`
-
-    Object type.
-
-    For Invites, this is always `"invite"`.
-
-    - `"invite"`
 
 - `first_id: string or null`
 
@@ -374,13 +286,13 @@ List the organization's invites.
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/invites \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -394,7 +306,7 @@ curl https://api.anthropic.com/v1/organizations/invites \
       "rbac_group_ids": [
         "string"
       ],
-      "role": "user",
+      "role": "admin",
       "status": "pending",
       "type": "invite"
     }
@@ -405,13 +317,13 @@ curl https://api.anthropic.com/v1/organizations/invites \
 }
 ```
 
-## Delete Invite
+## Get Invite
 
-**delete** `/v1/organizations/invites/{invite_id}`
+**GET** `/v1/organizations/invites/{invite_id}`
 
-Delete a pending invite.
+Retrieve an invite by ID.
 
-### Path Parameters
+### Path parameters
 
 - `invite_id: string`
 
@@ -419,41 +331,15 @@ Delete a pending invite.
 
 ### Returns
 
-- `id: string`
+- `BetaOrganizationInvite object`
 
-  ID of the Invite.
+  - `type: "invite"`
 
-- `type: "invite_deleted"`
+    Object type.
 
-  Deleted object type.
+    For Invites, this is always `"invite"`.
 
-  For Invites, this is always `"invite_deleted"`.
-
-  - `"invite_deleted"`
-
-### Example
-
-```http
-curl https://api.anthropic.com/v1/organizations/invites/$INVITE_ID \
-    -X DELETE \
-    -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
-```
-
-#### Response
-
-```json
-{
-  "id": "invite_015gWxCN9Hfg2QhZwTK7Mdeu",
-  "type": "invite_deleted"
-}
-```
-
-## Domain Types
-
-### Invite
-
-- `Invite object { id, accepted_at, email, 6 more }`
+    default: invite
 
   - `id: string`
 
@@ -463,6 +349,8 @@ curl https://api.anthropic.com/v1/organizations/invites/$INVITE_ID \
 
     RFC 3339 datetime string indicating when the Invite was accepted, or null.
 
+    format: date-time
+
   - `email: string`
 
     Email of the User being invited.
@@ -471,15 +359,19 @@ curl https://api.anthropic.com/v1/organizations/invites/$INVITE_ID \
 
     RFC 3339 datetime string indicating when the Invite expires.
 
+    format: date-time
+
   - `invited_at: string`
 
     RFC 3339 datetime string indicating when the Invite was created.
+
+    format: date-time
 
   - `rbac_group_ids: array of string`
 
     RBAC group IDs recorded on the Invite (Claude Enterprise organizations), to be assigned to the User when the Invite is accepted. `[]` when none.
 
-  - `role: "admin" or "billing" or "claude_code_user" or 6 more`
+  - `role: BetaOrganizationRole`
 
     Organization role of the User.
 
@@ -513,21 +405,157 @@ curl https://api.anthropic.com/v1/organizations/invites/$INVITE_ID \
 
     - `"pending"`
 
+### Example
+
+```bash
+curl https://api.anthropic.com/v1/organizations/invites/$INVITE_ID \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
+```
+
+#### Response (200)
+
+```json
+{
+  "id": "invite_015gWxCN9Hfg2QhZwTK7Mdeu",
+  "accepted_at": "2019-12-27T18:11:19.117Z",
+  "email": "user@emaildomain.com",
+  "expires_at": "2024-11-20T23:58:27.427722Z",
+  "invited_at": "2024-10-30T23:58:27.427722Z",
+  "rbac_group_ids": [
+    "string"
+  ],
+  "role": "admin",
+  "status": "pending",
+  "type": "invite"
+}
+```
+
+## Delete Invite
+
+**DELETE** `/v1/organizations/invites/{invite_id}`
+
+Delete a pending invite.
+
+### Path parameters
+
+- `invite_id: string`
+
+  ID of the Invite.
+
+### Returns
+
+- `type: "invite_deleted"`
+
+  Deleted object type.
+
+  For Invites, this is always `"invite_deleted"`.
+
+  default: invite_deleted
+
+- `id: string`
+
+  ID of the Invite.
+
+### Example
+
+```bash
+curl https://api.anthropic.com/v1/organizations/invites/$INVITE_ID \
+    -X DELETE \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
+```
+
+#### Response (200)
+
+```json
+{
+  "id": "invite_015gWxCN9Hfg2QhZwTK7Mdeu",
+  "type": "invite_deleted"
+}
+```
+
+## Domain types
+
+### Beta Organization Invite
+
+- `BetaOrganizationInvite object`
+
   - `type: "invite"`
 
     Object type.
 
     For Invites, this is always `"invite"`.
 
-    - `"invite"`
-
-### Invite Delete Response
-
-- `InviteDeleteResponse object { id, type }`
+    default: invite
 
   - `id: string`
 
     ID of the Invite.
+
+  - `accepted_at: string or null`
+
+    RFC 3339 datetime string indicating when the Invite was accepted, or null.
+
+    format: date-time
+
+  - `email: string`
+
+    Email of the User being invited.
+
+  - `expires_at: string`
+
+    RFC 3339 datetime string indicating when the Invite expires.
+
+    format: date-time
+
+  - `invited_at: string`
+
+    RFC 3339 datetime string indicating when the Invite was created.
+
+    format: date-time
+
+  - `rbac_group_ids: array of string`
+
+    RBAC group IDs recorded on the Invite (Claude Enterprise organizations), to be assigned to the User when the Invite is accepted. `[]` when none.
+
+  - `role: BetaOrganizationRole`
+
+    Organization role of the User.
+
+    - `"admin"`
+
+    - `"billing"`
+
+    - `"claude_code_user"`
+
+    - `"developer"`
+
+    - `"managed"`
+
+    - `"membership_admin"`
+
+    - `"owner"`
+
+    - `"primary_owner"`
+
+    - `"user"`
+
+  - `status: "accepted" or "deleted" or "expired" or "pending"`
+
+    Status of the Invite.
+
+    - `"accepted"`
+
+    - `"deleted"`
+
+    - `"expired"`
+
+    - `"pending"`
+
+### Invite Delete Response
+
+- `InviteDeleteResponse object`
 
   - `type: "invite_deleted"`
 
@@ -535,4 +563,8 @@ curl https://api.anthropic.com/v1/organizations/invites/$INVITE_ID \
 
     For Invites, this is always `"invite_deleted"`.
 
-    - `"invite_deleted"`
+    default: invite_deleted
+
+  - `id: string`
+
+    ID of the Invite.

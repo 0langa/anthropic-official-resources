@@ -6,7 +6,7 @@ Lesson 4 of 9 · AI Fluency for Small BusinessesExplore!
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-small-businesses%2Fexplore)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-small-businesses%2Fexplore)
 
 **Text Your Friend Markov** — *The 100% interpretable next-token generator*
 

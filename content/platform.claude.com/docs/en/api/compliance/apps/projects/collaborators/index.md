@@ -7,7 +7,7 @@ url: https://platform.claude.com/docs/en/api/compliance/apps/projects/collaborat
 
 ## List project collaborators
 
-**get** `/v1/compliance/apps/projects/{project_id}/collaborators`
+**GET** `/v1/compliance/apps/projects/{project_id}/collaborators`
 
 List the users, groups, and organization-wide grants on a project.
 
@@ -16,39 +16,55 @@ are returned as a discriminated union on `type` — an individual user, an
 RBAC group, the whole organization, or all holders of an organization-level
 role.
 
-### Path Parameters
+### Path parameters
 
 - `project_id: string`
 
   The project ID (tagged ID, e.g., claude_proj_abc123)
 
-### Query Parameters
+### Query parameters
 
 - `limit: optional number`
 
   Maximum results (default: 20, max: 100)
 
+  default: 20, maximum: 100, minimum: 1
+
 - `page: optional string`
 
   Opaque pagination token from a previous response's `next_page` field. Pass this to retrieve the next page of results. Clients should treat this value as an opaque string and not attempt to parse or interpret its contents, as the format may change without notice.
 
-### Header Parameters
+### Headers
+
+- `"anthropic-version": optional string`
+
+  The version of the Claude API you want to use.
+
+  Read more about versioning and our version history [here](https://platform.claude.com/docs/en/api/versioning).
 
 - `"x-api-key": optional string`
 
 ### Returns
 
-- `data: array of object { granted_at, role, type, user_id }  or object { granted_at, group_id, role, type }  or object { granted_at, organization_uuid, role, type }  or object { granted_at, organization_role, role, type }`
+- `data: array of object or object or object or object`
 
   List of collaborators sorted chronologically by granted_at, tie break by the underlying role-assignment UUID
 
-  - `ComplianceProjectUserCollaborator object { granted_at, role, type, user_id }`
+  - `ComplianceProjectUserCollaborator object`
 
     An individual user granted a role on a project.
+
+    - `type: "user"`
+
+      Discriminator marking this as an individual user collaborator
+
+      default: user
 
     - `granted_at: string`
 
       When this collaborator was granted access (RFC 3339 format)
+
+      format: date-time
 
     - `role: "admin" or "editor" or "owner" or "viewer"`
 
@@ -62,23 +78,25 @@ role.
 
       - `"viewer"`
 
-    - `type: "user"`
-
-      Discriminator marking this as an individual user collaborator
-
-      - `"user"`
-
     - `user_id: string or null`
 
       Identifier of the user granted access (tagged ID), or null if their account has since been deleted
 
-  - `ComplianceProjectGroupCollaborator object { granted_at, group_id, role, type }`
+  - `ComplianceProjectGroupCollaborator object`
 
     An RBAC group granted a role on a project.
+
+    - `type: "group"`
+
+      Discriminator marking this as a group collaborator
+
+      default: group
 
     - `granted_at: string`
 
       When this collaborator was granted access (RFC 3339 format)
+
+      format: date-time
 
     - `group_id: string`
 
@@ -96,19 +114,21 @@ role.
 
       - `"viewer"`
 
-    - `type: "group"`
-
-      Discriminator marking this as a group collaborator
-
-      - `"group"`
-
-  - `ComplianceProjectOrganizationCollaborator object { granted_at, organization_uuid, role, type }`
+  - `ComplianceProjectOrganizationCollaborator object`
 
     An entire organization granted a role on a project.
+
+    - `type: "organization"`
+
+      Discriminator marking this as an organization-wide grant
+
+      default: organization
 
     - `granted_at: string`
 
       When this collaborator was granted access (RFC 3339 format)
+
+      format: date-time
 
     - `organization_uuid: string`
 
@@ -126,19 +146,21 @@ role.
 
       - `"viewer"`
 
-    - `type: "organization"`
-
-      Discriminator marking this as an organization-wide grant
-
-      - `"organization"`
-
-  - `ComplianceProjectOrganizationRoleCollaborator object { granted_at, organization_role, role, type }`
+  - `ComplianceProjectOrganizationRoleCollaborator object`
 
     All holders of an organization-level role granted a role on a project.
+
+    - `type: "organization_role"`
+
+      Discriminator marking this as a grant to all organization members holding a specific org-level role
+
+      default: organization_role
 
     - `granted_at: string`
 
       When this collaborator was granted access (RFC 3339 format)
+
+      format: date-time
 
     - `organization_role: string`
 
@@ -156,12 +178,6 @@ role.
 
       - `"viewer"`
 
-    - `type: "organization_role"`
-
-      Discriminator marking this as a grant to all organization members holding a specific org-level role
-
-      - `"organization_role"`
-
 - `has_more: boolean`
 
   Whether more records exist beyond the current result set
@@ -172,12 +188,12 @@ role.
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/compliance/apps/projects/$PROJECT_ID/collaborators \
     -H "Authorization: Bearer $ANTHROPIC_COMPLIANCE_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -194,21 +210,29 @@ curl https://api.anthropic.com/v1/compliance/apps/projects/$PROJECT_ID/collabora
 }
 ```
 
-## Domain Types
+## Domain types
 
 ### Collaborator List Response
 
-- `CollaboratorListResponse = object { granted_at, role, type, user_id }  or object { granted_at, group_id, role, type }  or object { granted_at, organization_uuid, role, type }  or object { granted_at, organization_role, role, type }`
+- `CollaboratorListResponse = object or object or object or object`
 
   An individual user granted a role on a project.
 
-  - `ComplianceProjectUserCollaborator object { granted_at, role, type, user_id }`
+  - `ComplianceProjectUserCollaborator object`
 
     An individual user granted a role on a project.
+
+    - `type: "user"`
+
+      Discriminator marking this as an individual user collaborator
+
+      default: user
 
     - `granted_at: string`
 
       When this collaborator was granted access (RFC 3339 format)
+
+      format: date-time
 
     - `role: "admin" or "editor" or "owner" or "viewer"`
 
@@ -222,23 +246,25 @@ curl https://api.anthropic.com/v1/compliance/apps/projects/$PROJECT_ID/collabora
 
       - `"viewer"`
 
-    - `type: "user"`
-
-      Discriminator marking this as an individual user collaborator
-
-      - `"user"`
-
     - `user_id: string or null`
 
       Identifier of the user granted access (tagged ID), or null if their account has since been deleted
 
-  - `ComplianceProjectGroupCollaborator object { granted_at, group_id, role, type }`
+  - `ComplianceProjectGroupCollaborator object`
 
     An RBAC group granted a role on a project.
+
+    - `type: "group"`
+
+      Discriminator marking this as a group collaborator
+
+      default: group
 
     - `granted_at: string`
 
       When this collaborator was granted access (RFC 3339 format)
+
+      format: date-time
 
     - `group_id: string`
 
@@ -256,19 +282,21 @@ curl https://api.anthropic.com/v1/compliance/apps/projects/$PROJECT_ID/collabora
 
       - `"viewer"`
 
-    - `type: "group"`
-
-      Discriminator marking this as a group collaborator
-
-      - `"group"`
-
-  - `ComplianceProjectOrganizationCollaborator object { granted_at, organization_uuid, role, type }`
+  - `ComplianceProjectOrganizationCollaborator object`
 
     An entire organization granted a role on a project.
+
+    - `type: "organization"`
+
+      Discriminator marking this as an organization-wide grant
+
+      default: organization
 
     - `granted_at: string`
 
       When this collaborator was granted access (RFC 3339 format)
+
+      format: date-time
 
     - `organization_uuid: string`
 
@@ -286,19 +314,21 @@ curl https://api.anthropic.com/v1/compliance/apps/projects/$PROJECT_ID/collabora
 
       - `"viewer"`
 
-    - `type: "organization"`
-
-      Discriminator marking this as an organization-wide grant
-
-      - `"organization"`
-
-  - `ComplianceProjectOrganizationRoleCollaborator object { granted_at, organization_role, role, type }`
+  - `ComplianceProjectOrganizationRoleCollaborator object`
 
     All holders of an organization-level role granted a role on a project.
+
+    - `type: "organization_role"`
+
+      Discriminator marking this as a grant to all organization members holding a specific org-level role
+
+      default: organization_role
 
     - `granted_at: string`
 
       When this collaborator was granted access (RFC 3339 format)
+
+      format: date-time
 
     - `organization_role: string`
 
@@ -315,9 +345,3 @@ curl https://api.anthropic.com/v1/compliance/apps/projects/$PROJECT_ID/collabora
       - `"owner"`
 
       - `"viewer"`
-
-    - `type: "organization_role"`
-
-      Discriminator marking this as a grant to all organization members holding a specific org-level role
-
-      - `"organization_role"`

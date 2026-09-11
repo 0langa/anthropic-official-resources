@@ -3,19 +3,19 @@ title: Archive Tunnel
 url: https://platform.claude.com/docs/en/api/beta/tunnels/archive
 ---
 
-## Archive Tunnel
+# Archive Tunnel
 
-**post** `/v1/tunnels/{tunnel_id}/archive`
+**POST** `/v1/tunnels/{tunnel_id}/archive`
 
 The Tunnels API is in research preview. It requires the `anthropic-beta: mcp-tunnels-2026-06-22` header and may change without a deprecation period. It supersedes the Admin API endpoints at `/v1/organizations/tunnels`, which remain available during a migration window.
 
 Archives a tunnel. Archival is irreversible: every non-archived certificate on the tunnel is archived in the same operation, the hostname is retired and never re-allocated, and the tunnel token is invalidated. Retrying against an already-archived tunnel returns the existing record unchanged.
 
-### Path Parameters
+## Path parameters
 
 - `tunnel_id: string`
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -23,7 +23,7 @@ Archives a tunnel. Archival is irreversible: every non-archived certificate on t
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -71,6 +71,8 @@ Archives a tunnel. Archival is irreversible: every non-archived certificate on t
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -113,11 +115,15 @@ Archives a tunnel. Archival is irreversible: every non-archived certificate on t
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+- `"anthropic-workspace-id": optional string`
 
-- `BetaTunnel object { id, archived_at, created_at, 3 more }`
+## Returns
+
+- `BetaTunnel object`
 
   An MCP tunnel.
+
+  - `type: "tunnel"`
 
   - `id: string`
 
@@ -127,9 +133,13 @@ Archives a tunnel. Archival is irreversible: every non-archived certificate on t
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `created_at: string`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `display_name: string or null`
 
@@ -139,13 +149,9 @@ Archives a tunnel. Archival is irreversible: every non-archived certificate on t
 
     Anthropic-assigned hostname for the tunnel. MCP server URLs whose host is a subdomain of this value are routed through the tunnel. Globally unique and never reused, even after the tunnel is archived.
 
-  - `type: "tunnel"`
+## Example
 
-    - `"tunnel"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/archive \
     -X POST \
     -H 'anthropic-version: 2023-06-01' \
@@ -153,7 +159,7 @@ curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/archive \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

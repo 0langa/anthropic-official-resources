@@ -6,7 +6,7 @@ Lesson 1 of 10 · AI Fluency for pK–12 EducatorsHow this course was made
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-k-12-educators%2Fhow-this-course-was-made)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-k-12-educators%2Fhow-this-course-was-made)
 
 *This course is the result of a partnership between Anthropic and Teach For America, drawing on research with pK–12 educators about their actual needs, concerns, and aspirations for AI adoption.*
 

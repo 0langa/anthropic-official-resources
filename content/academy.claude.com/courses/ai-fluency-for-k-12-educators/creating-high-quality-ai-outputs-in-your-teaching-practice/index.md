@@ -11,7 +11,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-k-12-educators%2Fcreating-high-quality-ai-outputs-in-your-teaching-practice)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-k-12-educators%2Fcreating-high-quality-ai-outputs-in-your-teaching-practice)
 
 ## Creating high quality AI outputs in your teaching practice[](https://academy.claude.com/courses/ai-fluency-for-k-12-educators/creating-high-quality-ai-outputs-in-your-teaching-practice)
 

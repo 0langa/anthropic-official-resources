@@ -1,21 +1,21 @@
 ---
 title: List Workspace Members
-url: https://platform.claude.com/docs/en/api/admin/workspaces/members/list
+url: https://platform.claude.com/docs/en/api/beta/organization/workspaces/members/list
 ---
 
-## List Workspace Members
+# List Workspace Members
 
-**get** `/v1/organizations/workspaces/{workspace_id}/members`
+**GET** `/v1/organizations/workspaces/{workspace_id}/members`
 
 List Workspace Members
 
-### Path Parameters
+## Path parameters
 
 - `workspace_id: string`
 
   ID of the Workspace.
 
-### Query Parameters
+## Query parameters
 
 - `after_id: optional string`
 
@@ -31,9 +31,11 @@ List Workspace Members
 
   Defaults to `20`. Ranges from `1` to `1000`.
 
-### Returns
+  default: 20, maximum: 1000, minimum: 1
 
-- `data: array of WorkspaceMember`
+## Returns
+
+- `data: array of BetaWorkspaceMember`
 
   - `type: "workspace_member"`
 
@@ -41,7 +43,7 @@ List Workspace Members
 
     For Workspace Members, this is always `"workspace_member"`.
 
-    - `"workspace_member"`
+    default: workspace_member
 
   - `user_id: string`
 
@@ -51,7 +53,7 @@ List Workspace Members
 
     ID of the Workspace.
 
-  - `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
+  - `workspace_role: BetaWorkspaceRole`
 
     Role of the Workspace Member.
 
@@ -77,15 +79,15 @@ List Workspace Members
 
   Last ID in the `data` list. Can be used as the `after_id` for the next page.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {
@@ -94,7 +96,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members
       "type": "workspace_member",
       "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
       "workspace_id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
-      "workspace_role": "workspace_user"
+      "workspace_role": "workspace_admin"
     }
   ],
   "first_id": "first_id",

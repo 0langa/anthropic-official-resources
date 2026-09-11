@@ -1,11 +1,11 @@
 ---
 title: Archive Federation Rule
-url: https://platform.claude.com/docs/en/api/admin/federation_rules/archive
+url: https://platform.claude.com/docs/en/api/beta/organization/federation/rules/archive
 ---
 
-## Archive Federation Rule
+# Archive Federation Rule
 
-**post** `/v1/organizations/federation_rules/{federation_rule_id}/archive`
+**POST** `/v1/organizations/federation_rules/{federation_rule_id}/archive`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -19,23 +19,115 @@ remain valid until they expire. OAuth callers may only manage rules
 whose `oauth_scope` is `workspace:developer` or `workspace:inference`;
 other scopes require a Console session.
 
-### Path Parameters
+## Path parameters
 
 - `federation_rule_id: string`
 
   ID of the federation rule to archive.
 
-### Header Parameters
+## Headers
 
-- `"anthropic-beta": optional array of string`
+- `"anthropic-beta": optional array of AnthropicBeta`
 
   Optional header to specify the beta version(s) you want to use.
 
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
+  - `string`
 
-### Returns
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
-- `FederationRule object { id, applies_to_all_workspaces, archived_at, 17 more }`
+    - `"message-batches-2024-09-24"`
+
+    - `"prompt-caching-2024-07-31"`
+
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
+
+## Returns
+
+- `BetaFederationRule object`
 
   Authorization rule binding an external OIDC identity to Anthropic.
 
@@ -47,6 +139,10 @@ other scopes require a Console session.
   of that workspace (it is implicitly a member of the default workspace);
   rules carrying only the legacy `workspace_id` binding do not enforce
   this.
+
+  - `type: "federation_rule"`
+
+    default: federation_rule
 
   - `id: string`
 
@@ -60,6 +156,8 @@ other scopes require a Console session.
 
     If set, this rule is archived and rejects token exchange.
 
+    format: date-time
+
   - `archived_by_actor_id: string or null`
 
     Tagged ID (`user_`/`svac_`) of the actor that archived this rule.
@@ -71,6 +169,8 @@ other scopes require a Console session.
   - `created_at: string`
 
     When this rule was created.
+
+    format: date-time
 
   - `created_by_actor_id: string or null`
 
@@ -88,13 +188,15 @@ other scopes require a Console session.
 
     Issuer's display name at read time.
 
-  - `match: object { audience, claims, condition, subject_prefix }`
+  - `match: BetaFederationRuleMatch`
 
     Conditions the verified JWT must satisfy for this rule to apply. All populated matcher fields must pass.
 
     - `audience: optional string or null`
 
       Exact match against the `aud` claim (any element if array). When omitted, the JWT's `aud` must still equal Anthropic's expected audience for the issuer; setting this field overrides that default.
+
+      maxLength: 1024
 
     - `claims: optional map[string] or null`
 
@@ -104,9 +206,13 @@ other scopes require a Console session.
 
       CEL expression over claims for logic the structural fields can't express. Must evaluate to a boolean and may reference only the `claims` variable; a constant-true expression (such as `true`) is rejected with 400.
 
+      maxLength: 4096
+
     - `subject_prefix: optional string or null`
 
       Match the verified JWT `sub` claim. Exact match unless the value ends with `*`, in which case it is a prefix match. Example: `repo:my-org/my-repo:ref:refs/heads/main`.
+
+      maxLength: 1024
 
   - `name: string`
 
@@ -116,17 +222,15 @@ other scopes require a Console session.
 
     Space-separated OAuth scopes granted on the minted token.
 
-  - `target: object { service_account_id, type, service_account_name }`
+  - `target: BetaServiceAccountTarget`
 
     Identity that tokens minted via this rule act as. Currently always a `service_account` target.
+
+    - `type: "service_account"`
 
     - `service_account_id: string`
 
       Tagged ID of the service account to mint tokens for.
-
-    - `type: "service_account"`
-
-      - `"service_account"`
 
     - `service_account_name: optional string or null`
 
@@ -136,13 +240,11 @@ other scopes require a Console session.
 
     Lifetime in seconds of access tokens minted via this rule. Minted tokens are capped at `max(60, min(this value, 2 × remaining assertion validity))` seconds.
 
-  - `type: "federation_rule"`
-
-    - `"federation_rule"`
-
   - `updated_at: string`
 
     When this rule was last updated.
+
+    format: date-time
 
   - `updated_by_actor_id: string or null`
 
@@ -156,16 +258,16 @@ other scopes require a Console session.
 
     Tagged IDs of the workspaces this rule is enabled for. May be empty for older rules that only carry the legacy `workspace_id` binding. Ignored at exchange time when `applies_to_all_workspaces` is true (the list may still be non-empty).
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/federation_rules/$FEDERATION_RULE_ID/archive \
     -X POST \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

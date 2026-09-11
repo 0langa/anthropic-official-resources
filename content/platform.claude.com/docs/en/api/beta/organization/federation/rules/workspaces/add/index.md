@@ -3,9 +3,9 @@ title: Add Federation Rule Workspace
 url: https://platform.claude.com/docs/en/api/beta/organization/federation/rules/workspaces/add
 ---
 
-## Add Federation Rule Workspace
+# Add Federation Rule Workspace
 
-**post** `/v1/organizations/federation_rules/{federation_rule_id}/workspaces`
+**POST** `/v1/organizations/federation_rules/{federation_rule_id}/workspaces`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -20,13 +20,13 @@ Archived rules are rejected with 400. OAuth callers may only manage rules
 whose `oauth_scope` is `workspace:developer` or `workspace:inference`;
 other scopes require a Console session.
 
-### Path Parameters
+## Path parameters
 
 - `federation_rule_id: string`
 
   ID of the federation rule.
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -34,7 +34,7 @@ other scopes require a Console session.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -82,6 +82,8 @@ other scopes require a Console session.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -124,19 +126,25 @@ other scopes require a Console session.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+## Body parameters
 
 - `workspace_id: string`
 
   Tagged ID of the workspace to enable this rule for.
 
-### Returns
+## Returns
 
-- `BetaFederationRuleWorkspace object { created_at, created_by_actor_id, federation_rule_id, 3 more }`
+- `BetaFederationRuleWorkspace object`
+
+  - `type: "federation_rule_workspace"`
+
+    default: federation_rule_workspace
 
   - `created_at: string`
 
     When this workspace was enabled for the rule.
+
+    format: date-time
 
   - `created_by_actor_id: string or null`
 
@@ -146,10 +154,6 @@ other scopes require a Console session.
 
     Tagged ID of the federation rule.
 
-  - `type: "federation_rule_workspace"`
-
-    - `"federation_rule_workspace"`
-
   - `workspace_id: string`
 
     Tagged ID of the workspace this rule is enabled for.
@@ -158,9 +162,9 @@ other scopes require a Console session.
 
     Workspace display name. Populated when listing; null in the enable response.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/federation_rules/$FEDERATION_RULE_ID/workspaces \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -170,7 +174,7 @@ curl https://api.anthropic.com/v1/organizations/federation_rules/$FEDERATION_RUL
         }'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

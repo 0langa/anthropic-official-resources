@@ -6,7 +6,7 @@ Lesson 31 of 67 · Building with the Claude APIThe web search tool
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fbuilding-with-the-claude-api%2Fthe-web-search-tool)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fthe-web-search-tool)
 
 **Important note:** Your organization must enable the Web Search tool in the settings console before using it. You can find this setting here: [https://platform.claude.com/settings/privacy(opens in new tab)](https://platform.claude.com/settings/privacy)
 

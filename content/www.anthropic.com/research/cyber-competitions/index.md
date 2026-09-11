@@ -48,9 +48,9 @@ The Airbnb competition, in which Claude solved nearly half of a multi-day compet
 
 ## Claude can make good use of autonomy and tools
 
-The HackTheBox competition also demonstrated the agentic capabilities of Claude. Once our researcher started the script late, he went back to moving into his apartment. Claude was solving challenges autonomously while the Anthropic human was moving boxes. This worked because it was not just a human-mediated chat on [Claude.ai](http://claude.ai/redirect/website.v1.1b0d8b95-4c69-4b88-8bdf-67c43379bdb7); before the competition we gave Claude tools that allowed it to autonomously read the challenge files and submit a flag once it thought it had the correct answer.
+The HackTheBox competition also demonstrated the agentic capabilities of Claude. Once our researcher started the script late, he went back to moving into his apartment. Claude was solving challenges autonomously while the Anthropic human was moving boxes. This worked because it was not just a human-mediated chat on [Claude.ai](http://claude.ai/redirect/website.v1.d968983c-f113-456b-8208-f0be330b8d1e); before the competition we gave Claude tools that allowed it to autonomously read the challenge files and submit a flag once it thought it had the correct answer.
 
-In fact, the trajectory of Claude’s performance from PicoCTF shows the value of these tools quite starkly. As Figure 2 illustrates, Claude’s slowest progress happened when one of our researchers was interacting with [Claude.ai](http://claude.ai/redirect/website.v1.1b0d8b95-4c69-4b88-8bdf-67c43379bdb7) to manually input information about challenges and converse with Claude about solving them. Far more effective were the periods of time when Claude was given access to Kali Linux, an open source operating system designed for cybersecurity workflows including penetration testing.
+In fact, the trajectory of Claude’s performance from PicoCTF shows the value of these tools quite starkly. As Figure 2 illustrates, Claude’s slowest progress happened when one of our researchers was interacting with [Claude.ai](http://claude.ai/redirect/website.v1.d968983c-f113-456b-8208-f0be330b8d1e) to manually input information about challenges and converse with Claude about solving them. Far more effective were the periods of time when Claude was given access to Kali Linux, an open source operating system designed for cybersecurity workflows including penetration testing.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1ac1e6bc9064e821eb8e239ef1cf5fc4a6687938-1740x946.png&w=3840&q=75)
 
@@ -148,6 +148,12 @@ We thank Artem Petrov and Dmitrii Volkov from Palisade Research for providing da
 
 ## Related content
 
+### Measuring tactical intelligence targeting and conventional weapons capabilities of AI models
+
+Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.
+
+[Read more](https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities)
+
 ### An alignment assessment of recent cybersecurity incidents
 
 We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.
@@ -156,15 +162,9 @@ We present an alignment assessment of four incidents in which Claude models gain
 
 ### Formalizing Fermat's Last Theorem
 
-We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language. Below, we describe how the formalization was done and share some thoughts about what this work could mean for research mathematics.
+We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language.
 
 [Read more](https://www.anthropic.com/research/formalizing-fermats-last-theorem)
-
-### Automated researchers can reliably mitigate alignment failures
-
-We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities.
-
-[Read more](https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures)
 
 ## Subscribe to the Frontier Red Team newsletter
 

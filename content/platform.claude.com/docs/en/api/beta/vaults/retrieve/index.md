@@ -3,17 +3,17 @@ title: Get Vault
 url: https://platform.claude.com/docs/en/api/beta/vaults/retrieve
 ---
 
-## Get Vault
+# Get Vault
 
-**get** `/v1/vaults/{vault_id}`
+**GET** `/v1/vaults/{vault_id}`
 
 Get Vault
 
-### Path Parameters
+## Path parameters
 
 - `vault_id: string`
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -21,7 +21,7 @@ Get Vault
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -69,6 +69,8 @@ Get Vault
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -111,11 +113,15 @@ Get Vault
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+- `"anthropic-workspace-id": optional string`
 
-- `BetaManagedAgentsVault object { id, archived_at, created_at, 4 more }`
+## Returns
+
+- `BetaManagedAgentsVault object`
 
   A vault that stores credentials for use by agents during sessions.
+
+  - `type: "vault"`
 
   - `id: string`
 
@@ -125,9 +131,13 @@ Get Vault
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `created_at: string`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `display_name: string`
 
@@ -137,24 +147,22 @@ Get Vault
 
     Arbitrary key-value metadata attached to the vault.
 
-  - `type: "vault"`
-
-    - `"vault"`
-
   - `updated_at: string`
 
     A timestamp in RFC 3339 format
 
-### Example
+    format: date-time
 
-```http
+## Example
+
+```bash
 curl https://api.anthropic.com/v1/vaults/$VAULT_ID \
     -H 'anthropic-version: 2023-06-01' \
     -H 'anthropic-beta: managed-agents-2026-04-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

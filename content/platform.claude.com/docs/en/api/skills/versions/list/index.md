@@ -3,13 +3,13 @@ title: List Skill Versions
 url: https://platform.claude.com/docs/en/api/skills/versions/list
 ---
 
-## List Skill Versions
+# List Skill Versions
 
-**get** `/v1/skills/{skill_id}/versions`
+**GET** `/v1/skills/{skill_id}/versions`
 
 List Skill Versions
 
-### Path Parameters
+## Path parameters
 
 - `skill_id: string`
 
@@ -17,7 +17,7 @@ List Skill Versions
 
   The format and length of IDs may change over time.
 
-### Query Parameters
+## Query parameters
 
 - `limit: optional number`
 
@@ -25,15 +25,29 @@ List Skill Versions
 
   Ranges from `1` to `1000`. Defaults to `20`.
 
+  default: 20, minimum: 1, maximum: 1000
+
 - `page: optional string`
 
   Optionally set to the `next_page` token from the previous response.
 
-### Returns
+## Headers
+
+- `"anthropic-workspace-id": optional string`
+
+## Returns
 
 - `data: array of SkillVersion`
 
   List of skills.
+
+  - `type: "skill_version"`
+
+    Object type.
+
+    For Skill Versions, this is always `"skill_version"`.
+
+    default: skill_version
 
   - `id: string`
 
@@ -43,6 +57,8 @@ List Skill Versions
   - `created_at: string`
 
     ISO 8601 timestamp of when the skill was created.
+
+    format: date-time
 
   - `description: string`
 
@@ -63,29 +79,21 @@ List Skill Versions
 
     The format and length of IDs may change over time.
 
-  - `type: "skill_version"`
-
-    Object type.
-
-    For Skill Versions, this is always `"skill_version"`.
-
-    - `"skill_version"`
-
 - `next_page: string or null`
 
   Token for fetching the next page of results.
 
   If `null`, there are no more results available. Pass this value to the `page` parameter in the next request to get the next page.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/skills/$SKILL_ID/versions \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

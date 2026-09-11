@@ -3,13 +3,13 @@ title: Upload File
 url: https://platform.claude.com/docs/en/api/beta/files/upload
 ---
 
-## Upload File
+# Upload File
 
-**post** `/v1/files`
+**POST** `/v1/files`
 
 Upload File
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -17,7 +17,7 @@ Upload File
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -65,6 +65,8 @@ Upload File
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -107,9 +109,31 @@ Upload File
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+- `"anthropic-workspace-id": optional string`
 
-- `BetaFileMetadata object { id, created_at, filename, 6 more }`
+## Body parameters (form-data)
+
+- `file: string`
+
+  The file to upload. Only the final path component of the part's `filename` is kept; an absent or empty `filename` is replaced with `unnamed` plus the extension for the file's stored `mime_type`, when known.
+
+  format: binary
+
+- `expires_in_seconds: optional number`
+
+  Seconds from upload until the file expires and its bytes become permanently unavailable. Must be between 3600 (one hour) and 7776000 (ninety days).
+
+  minimum: 3600, maximum: 7776000
+
+## Returns
+
+- `BetaFileMetadata object`
+
+  - `type: "file"`
+
+    Object type.
+
+    For files, this is always `"file"`.
 
   - `id: string`
 
@@ -121,51 +145,53 @@ Upload File
 
     RFC 3339 datetime string representing when the file was created.
 
+    format: date-time
+
   - `filename: string`
 
     Original filename of the uploaded file.
+
+    maxLength: 500, minLength: 1
 
   - `mime_type: string`
 
     MIME type of the file.
 
+    maxLength: 255, minLength: 1
+
   - `size_bytes: number`
 
     Size of the file in bytes.
 
-  - `type: "file"`
-
-    Object type.
-
-    For files, this is always `"file"`.
-
-    - `"file"`
+    minimum: 0
 
   - `downloadable: optional boolean`
 
     Whether the file can be downloaded.
 
+    default: false
+
   - `expires_at: optional string or null`
 
     RFC 3339 datetime string representing when the file will expire and become unavailable for download. Null if the file does not expire. For files uploaded with `expires_in_seconds`, this is the upload time plus that value.
+
+    format: date-time
 
   - `scope: optional BetaFileScope or null`
 
     The scope of this file, indicating the context in which it was created (e.g., a session).
 
-    - `id: string`
-
-      The ID of the scoping resource (e.g., the session ID).
-
     - `type: "session"`
 
       The type of scope (e.g., `"session"`).
 
-      - `"session"`
+    - `id: string`
 
-### Example
+      The ID of the scoping resource (e.g., the session ID).
 
-```http
+## Example
+
+```bash
 curl https://api.anthropic.com/v1/files \
     -H 'Content-Type: multipart/form-data' \
     -H 'anthropic-version: 2023-06-01' \
@@ -173,7 +199,7 @@ curl https://api.anthropic.com/v1/files \
     -F 'file=@/path/to/file'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

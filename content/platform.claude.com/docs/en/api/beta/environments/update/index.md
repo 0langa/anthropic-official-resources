@@ -3,17 +3,17 @@ title: Update Environment
 url: https://platform.claude.com/docs/en/api/beta/environments/update
 ---
 
-## Update Environment
+# Update Environment
 
-**post** `/v1/environments/{environment_id}`
+**POST** `/v1/environments/{environment_id}`
 
 Update an existing environment's configuration.
 
-### Path Parameters
+## Path parameters
 
 - `environment_id: string`
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -21,7 +21,7 @@ Update an existing environment's configuration.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -69,6 +69,8 @@ Update an existing environment's configuration.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -111,13 +113,15 @@ Update an existing environment's configuration.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+- `"anthropic-workspace-id": optional string`
+
+## Body parameters
 
 - `config: optional BetaCloudConfigParams or BetaSelfHostedConfigParams or null`
 
   Updated environment configuration
 
-  - `BetaCloudConfigParams object { type, networking, packages }`
+  - `BetaCloudConfigParams object`
 
     Request params for `cloud` environment configuration.
 
@@ -128,13 +132,11 @@ Update an existing environment's configuration.
 
       Environment type
 
-      - `"cloud"`
-
     - `networking: optional BetaUnrestrictedNetwork or BetaLimitedNetworkParams or null`
 
       Network configuration policy. Omit on update to preserve the existing value.
 
-      - `BetaUnrestrictedNetwork object { type }`
+      - `BetaUnrestrictedNetwork object`
 
         Unrestricted network access.
 
@@ -142,9 +144,7 @@ Update an existing environment's configuration.
 
           Network policy type
 
-          - `"unrestricted"`
-
-      - `BetaLimitedNetworkParams object { type, allow_mcp_servers, allow_package_managers, allowed_hosts }`
+      - `BetaLimitedNetworkParams object`
 
         Limited network request params.
 
@@ -154,8 +154,6 @@ Update an existing environment's configuration.
         - `type: "limited"`
 
           Network policy type
-
-          - `"limited"`
 
         - `allow_mcp_servers: optional boolean or null`
 
@@ -176,6 +174,12 @@ Update an existing environment's configuration.
       When versioning, use the version semantics relevant for the package manager, e.g. for `pip` use `package==1.0.0`. You are responsible for validating the package and version exist. Unversioned installs the latest.
 
       Under `limited` networking, requires `networking.allow_package_managers` to be `true`.
+
+      - `type: optional "packages"`
+
+        Package configuration type
+
+        default: packages
 
       - `apt: optional array of string or null`
 
@@ -201,13 +205,7 @@ Update an existing environment's configuration.
 
         Python packages to install
 
-      - `type: optional "packages"`
-
-        Package configuration type
-
-        - `"packages"`
-
-  - `BetaSelfHostedConfigParams object { type }`
+  - `BetaSelfHostedConfigParams object`
 
     Request params for `self_hosted` environment configuration.
 
@@ -215,11 +213,11 @@ Update an existing environment's configuration.
 
       Environment type
 
-      - `"self_hosted"`
-
 - `description: optional string or null`
 
   Updated description of the environment. Omit to preserve; null clears to null; an empty string is stored as an empty string.
+
+  maxLength: 1024
 
 - `metadata: optional map[string]`
 
@@ -229,6 +227,8 @@ Update an existing environment's configuration.
 
   Updated name for the environment
 
+  maxLength: 256, minLength: 1
+
 - `scope: optional "organization" or "account" or null`
 
   The visibility scope for this environment. 'organization' makes the environment visible to all accounts. 'account' restricts visibility to the owning account only.
@@ -237,11 +237,17 @@ Update an existing environment's configuration.
 
   - `"account"`
 
-### Returns
+## Returns
 
-- `BetaEnvironment object { id, archived_at, config, 7 more }`
+- `BetaEnvironment object`
 
   Unified Environment resource for both cloud and self-hosted environments.
+
+  - `type: "environment"`
+
+    The type of object (always 'environment')
+
+    default: environment
 
   - `id: string`
 
@@ -255,15 +261,19 @@ Update an existing environment's configuration.
 
     Environment configuration (either Anthropic Cloud or self-hosted)
 
-    - `BetaCloudConfig object { networking, packages, type }`
+    - `BetaCloudConfig object`
 
       `cloud` environment configuration.
+
+      - `type: "cloud"`
+
+        Environment type
 
       - `networking: BetaUnrestrictedNetwork or BetaLimitedNetwork`
 
         Network configuration policy.
 
-        - `BetaUnrestrictedNetwork object { type }`
+        - `BetaUnrestrictedNetwork object`
 
           Unrestricted network access.
 
@@ -271,11 +281,13 @@ Update an existing environment's configuration.
 
             Network policy type
 
-            - `"unrestricted"`
-
-        - `BetaLimitedNetwork object { allow_mcp_servers, allow_package_managers, allowed_hosts, type }`
+        - `BetaLimitedNetwork object`
 
           Limited network access.
+
+          - `type: "limited"`
+
+            Network policy type
 
           - `allow_mcp_servers: boolean`
 
@@ -289,15 +301,15 @@ Update an existing environment's configuration.
 
             Specifies domains the container can reach.
 
-          - `type: "limited"`
-
-            Network policy type
-
-            - `"limited"`
-
       - `packages: BetaPackages`
 
         Package manager configuration.
+
+        - `type: optional "packages"`
+
+          Package configuration type
+
+          default: packages
 
         - `apt: array of string`
 
@@ -323,27 +335,13 @@ Update an existing environment's configuration.
 
           Python packages to install
 
-        - `type: optional "packages"`
-
-          Package configuration type
-
-          - `"packages"`
-
-      - `type: "cloud"`
-
-        Environment type
-
-        - `"cloud"`
-
-    - `BetaSelfHostedConfig object { type }`
+    - `BetaSelfHostedConfig object`
 
       Configuration for self-hosted environments.
 
       - `type: "self_hosted"`
 
         Environment type
-
-        - `"self_hosted"`
 
   - `created_at: string`
 
@@ -361,12 +359,6 @@ Update an existing environment's configuration.
 
     Human-readable name for the environment
 
-  - `type: "environment"`
-
-    The type of object (always 'environment')
-
-    - `"environment"`
-
   - `updated_at: string`
 
     RFC 3339 timestamp when environment was last updated
@@ -379,9 +371,9 @@ Update an existing environment's configuration.
 
     - `"account"`
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/environments/$ENVIRONMENT_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -392,7 +384,7 @@ curl https://api.anthropic.com/v1/environments/$ENVIRONMENT_ID \
         }'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

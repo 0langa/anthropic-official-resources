@@ -3,19 +3,19 @@ title: Update Session Resource
 url: https://platform.claude.com/docs/en/api/beta/sessions/resources/update
 ---
 
-## Update Session Resource
+# Update Session Resource
 
-**post** `/v1/sessions/{session_id}/resources/{resource_id}`
+**POST** `/v1/sessions/{session_id}/resources/{resource_id}`
 
 Update Session Resource
 
-### Path Parameters
+## Path parameters
 
 - `session_id: string`
 
 - `resource_id: string`
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -23,7 +23,7 @@ Update Session Resource
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -71,6 +71,8 @@ Update Session Resource
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -113,15 +115,21 @@ Update Session Resource
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+- `"anthropic-workspace-id": optional string`
+
+## Body parameters
 
 - `authorization_token: string`
 
   New authorization token for the resource. Currently only `github_repository` resources support token rotation.
 
-### Returns
+  minLength: 1, maxLength: 4096
 
-- `BetaManagedAgentsGitHubRepositoryResource object { id, created_at, mount_path, 4 more }`
+## Returns
+
+- `BetaManagedAgentsGitHubRepositoryResource object`
+
+  - `type: "github_repository"`
 
   - `id: string`
 
@@ -129,41 +137,43 @@ Update Session Resource
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `mount_path: string`
-
-  - `type: "github_repository"`
-
-    - `"github_repository"`
 
   - `updated_at: string`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `url: string`
 
   - `checkout: optional BetaManagedAgentsBranchCheckout or BetaManagedAgentsCommitCheckout or null`
 
-    - `BetaManagedAgentsBranchCheckout object { name, type }`
+    - `BetaManagedAgentsBranchCheckout object`
+
+      - `type: "branch"`
 
       - `name: string`
 
         Branch name to check out.
 
-      - `type: "branch"`
+        minLength: 1, maxLength: 255
 
-        - `"branch"`
+    - `BetaManagedAgentsCommitCheckout object`
 
-    - `BetaManagedAgentsCommitCheckout object { sha, type }`
+      - `type: "commit"`
 
       - `sha: string`
 
         Full commit SHA to check out.
 
-      - `type: "commit"`
+        minLength: 7, maxLength: 64
 
-        - `"commit"`
+- `BetaManagedAgentsFileResource object`
 
-- `BetaManagedAgentsFileResource object { id, created_at, file_id, 3 more }`
+  - `type: "file"`
 
   - `id: string`
 
@@ -171,29 +181,27 @@ Update Session Resource
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `file_id: string`
 
   - `mount_path: string`
-
-  - `type: "file"`
-
-    - `"file"`
 
   - `updated_at: string`
 
     A timestamp in RFC 3339 format
 
-- `BetaManagedAgentsMemoryStoreResource object { memory_store_id, type, access, 4 more }`
+    format: date-time
+
+- `BetaManagedAgentsMemoryStoreResource object`
 
   A memory store attached to an agent session.
+
+  - `type: "memory_store"`
 
   - `memory_store_id: string`
 
     The memory store ID (memstore_...). Must belong to the caller's organization and workspace.
-
-  - `type: "memory_store"`
-
-    - `"memory_store"`
 
   - `access: optional "read_write" or "read_only" or null`
 
@@ -211,6 +219,8 @@ Update Session Resource
 
     Per-attachment guidance for the agent on how to use this store. Rendered into the memory section of the system prompt. Max 4096 chars.
 
+    maxLength: 4096
+
   - `mount_path: optional string or null`
 
     Filesystem path where the store is mounted in the session container, e.g. /mnt/memory/user-preferences. Derived from the store's name. Output-only.
@@ -219,9 +229,9 @@ Update Session Resource
 
     Display name of the memory store, snapshotted at attach time. Later edits to the store's name do not propagate to this resource.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/sessions/$SESSION_ID/resources/$RESOURCE_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -232,7 +242,7 @@ curl https://api.anthropic.com/v1/sessions/$SESSION_ID/resources/$RESOURCE_ID \
         }'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

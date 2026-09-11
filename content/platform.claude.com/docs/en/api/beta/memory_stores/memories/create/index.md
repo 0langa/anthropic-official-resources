@@ -3,17 +3,17 @@ title: Create a memory
 url: https://platform.claude.com/docs/en/api/beta/memory_stores/memories/create
 ---
 
-## Create a memory
+# Create a memory
 
-**post** `/v1/memory_stores/{memory_store_id}/memories`
+**POST** `/v1/memory_stores/{memory_store_id}/memories`
 
 Create a memory
 
-### Path Parameters
+## Path parameters
 
 - `memory_store_id: string`
 
-### Query Parameters
+## Query parameters
 
 - `view: optional BetaManagedAgentsMemoryView`
 
@@ -23,7 +23,7 @@ Create a memory
 
   - `"full"`
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -31,7 +31,7 @@ Create a memory
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -79,6 +79,8 @@ Create a memory
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -121,7 +123,9 @@ Create a memory
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+- `"anthropic-workspace-id": optional string`
+
+## Body parameters
 
 - `content: string or null`
 
@@ -131,11 +135,15 @@ Create a memory
 
   Hierarchical path for the new memory, e.g. `/projects/foo/notes.md`. Must start with `/`, contain at least one non-empty segment, and be at most 1,024 bytes. Must not contain empty segments, `.` or `..` segments, control or format characters, or the Unicode line and paragraph separators (U+2028, U+2029), and must be NFC-normalized. Paths are case-sensitive.
 
-### Returns
+  minLength: 2, maxLength: 1024
 
-- `BetaManagedAgentsMemory object { id, content_sha256, content_size_bytes, 7 more }`
+## Returns
+
+- `BetaManagedAgentsMemory object`
 
   A `memory` object: a single text document at a hierarchical path inside a memory store. The `content` field is populated when `view=full` and `null` when `view=basic`; the `content_size_bytes` and `content_sha256` fields are always populated so sync clients can diff without fetching content. Memories are addressed by their `mem_...` ID; the path is the create key and can be changed via update.
+
+  - `type: "memory"`
 
   - `id: string`
 
@@ -149,9 +157,13 @@ Create a memory
 
     Size of `content` in bytes (the UTF-8 plaintext length). Always populated, regardless of `view`.
 
+    format: int32
+
   - `created_at: string`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `memory_store_id: string`
 
@@ -165,21 +177,19 @@ Create a memory
 
     Hierarchical path of the memory within the store, e.g. `/projects/foo/notes.md`. Always starts with `/`. Paths are case-sensitive and unique within a store. Maximum 1,024 bytes.
 
-  - `type: "memory"`
-
-    - `"memory"`
-
   - `updated_at: string`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `content: optional string or null`
 
     The memory's UTF-8 text content. Populated when `view=full`; `null` when `view=basic`. Maximum 100 kB (102,400 bytes).
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/memory_stores/$MEMORY_STORE_ID/memories \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -191,7 +201,7 @@ curl https://api.anthropic.com/v1/memory_stores/$MEMORY_STORE_ID/memories \
         }'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

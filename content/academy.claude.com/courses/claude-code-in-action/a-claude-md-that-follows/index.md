@@ -6,7 +6,7 @@ Lesson 2 of 9 · Claude Code in ActionA CLAUDE.md that follows
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-code-in-action%2Fa-claude-md-that-follows)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-code-in-action%2Fa-claude-md-that-follows)
 
 Embedded media: https://www.youtube-nocookie.com/embed/o9-NIQF9tNw?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 

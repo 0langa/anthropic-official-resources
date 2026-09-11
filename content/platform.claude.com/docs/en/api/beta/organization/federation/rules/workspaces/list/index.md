@@ -3,9 +3,9 @@ title: List Federation Rule Workspaces
 url: https://platform.claude.com/docs/en/api/beta/organization/federation/rules/workspaces/list
 ---
 
-## List Federation Rule Workspaces
+# List Federation Rule Workspaces
 
-**get** `/v1/organizations/federation_rules/{federation_rule_id}/workspaces`
+**GET** `/v1/organizations/federation_rules/{federation_rule_id}/workspaces`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -17,23 +17,25 @@ always `null`. Returns explicit per-workspace enablements only; for
 rules with `applies_to_all_workspaces` or a legacy single
 `workspace_id`, check those fields on the rule itself.
 
-### Path Parameters
+## Path parameters
 
 - `federation_rule_id: string`
 
   ID of the federation rule.
 
-### Query Parameters
+## Query parameters
 
 - `limit: optional number`
 
   Number of results per page.
 
+  default: 20, maximum: 100, minimum: 1
+
 - `page: optional string`
 
   Opaque cursor from a previous response's `next_page`.
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -41,7 +43,7 @@ rules with `applies_to_all_workspaces` or a legacy single
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -89,6 +91,8 @@ rules with `applies_to_all_workspaces` or a legacy single
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -131,13 +135,19 @@ rules with `applies_to_all_workspaces` or a legacy single
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+## Returns
 
 - `data: array of BetaFederationRuleWorkspace`
+
+  - `type: "federation_rule_workspace"`
+
+    default: federation_rule_workspace
 
   - `created_at: string`
 
     When this workspace was enabled for the rule.
+
+    format: date-time
 
   - `created_by_actor_id: string or null`
 
@@ -146,10 +156,6 @@ rules with `applies_to_all_workspaces` or a legacy single
   - `federation_rule_id: string`
 
     Tagged ID of the federation rule.
-
-  - `type: "federation_rule_workspace"`
-
-    - `"federation_rule_workspace"`
 
   - `workspace_id: string`
 
@@ -163,15 +169,15 @@ rules with `applies_to_all_workspaces` or a legacy single
 
   Opaque cursor for the next page; null when there are no more results.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/federation_rules/$FEDERATION_RULE_ID/workspaces \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

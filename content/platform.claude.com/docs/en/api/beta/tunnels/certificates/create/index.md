@@ -3,19 +3,19 @@ title: Create Tunnel Certificate
 url: https://platform.claude.com/docs/en/api/beta/tunnels/certificates/create
 ---
 
-## Create Tunnel Certificate
+# Create Tunnel Certificate
 
-**post** `/v1/tunnels/{tunnel_id}/certificates`
+**POST** `/v1/tunnels/{tunnel_id}/certificates`
 
 The Tunnels API is in research preview. It requires the `anthropic-beta: mcp-tunnels-2026-06-22` header and may change without a deprecation period. It supersedes the Admin API endpoints at `/v1/organizations/tunnels`, which remain available during a migration window.
 
 Registers a public CA certificate on a tunnel. Anthropic verifies the gateway's server certificate against this CA when it terminates the inner TLS session. A tunnel holds at most two non-archived certificates.
 
-### Path Parameters
+## Path parameters
 
 - `tunnel_id: string`
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -23,7 +23,7 @@ Registers a public CA certificate on a tunnel. Anthropic verifies the gateway's 
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -71,6 +71,8 @@ Registers a public CA certificate on a tunnel. Anthropic verifies the gateway's 
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -113,17 +115,23 @@ Registers a public CA certificate on a tunnel. Anthropic verifies the gateway's 
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+- `"anthropic-workspace-id": optional string`
+
+## Body parameters
 
 - `ca_certificate_pem: string`
 
   PEM-encoded X.509 CA certificate. Must contain exactly one certificate and no private-key material. Maximum 8KB.
 
-### Returns
+  maxLength: 8192
 
-- `BetaTunnelCertificate object { id, archived_at, created_at, 4 more }`
+## Returns
+
+- `BetaTunnelCertificate object`
 
   A CA certificate attached to a tunnel.
+
+  - `type: "tunnel_certificate"`
 
   - `id: string`
 
@@ -133,13 +141,19 @@ Registers a public CA certificate on a tunnel. Anthropic verifies the gateway's 
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `created_at: string`
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `expires_at: string or null`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `fingerprint: string`
 
@@ -149,13 +163,9 @@ Registers a public CA certificate on a tunnel. Anthropic verifies the gateway's 
 
     ID of the tunnel the certificate is registered against.
 
-  - `type: "tunnel_certificate"`
+## Example
 
-    - `"tunnel_certificate"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/certificates \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -166,7 +176,7 @@ curl https://api.anthropic.com/v1/tunnels/$TUNNEL_ID/certificates \
         }'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

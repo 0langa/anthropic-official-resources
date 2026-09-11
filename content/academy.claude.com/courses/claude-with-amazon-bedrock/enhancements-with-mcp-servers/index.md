@@ -6,7 +6,7 @@ Lesson 60 of 65 · Claude with Amazon BedrockEnhancements with MCP servers
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-amazon-bedrock%2Fenhancements-with-mcp-servers)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fenhancements-with-mcp-servers)
 
 Claude Code has an MCP client built right into it, which means you can connect MCP servers to dramatically expand its functionality. This opens up some really powerful possibilities for customizing your development workflow.
 

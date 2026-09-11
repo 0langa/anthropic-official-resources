@@ -8,4 +8,4 @@ Quiz 8 of 9 Â· Claude with Google Cloud's Vertex AIQuiz on agents and workflowsî
 
 Quizzes are graded on your account so your progress and completion-badge eligibility are saved. Sign in with your Claude account to start.
 
-[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fquiz-on-agents-and-workflows)
+[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fquiz-on-agents-and-workflows)

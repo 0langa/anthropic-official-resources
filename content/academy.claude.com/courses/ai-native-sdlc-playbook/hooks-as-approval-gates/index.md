@@ -6,7 +6,7 @@ Lesson 11 of 14 · The AI-Native SDLC PlaybookHooks as approval gates
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-native-sdlc-playbook%2Fhooks-as-approval-gates)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-native-sdlc-playbook%2Fhooks-as-approval-gates)
 
 The build phase used hooks as guardrails, allowing or blocking actions with no human involved (**Stage 3: Build**). A hook can also ask, pausing the action until a specific person approves, which is what release gating needs.
 

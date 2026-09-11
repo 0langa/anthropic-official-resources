@@ -1,3 +1,8 @@
+---
+title: Create Invite
+url: https://platform.claude.com/docs/en/api/beta/organization/invites/create
+---
+
 # Create Invite
 
 **POST** `/v1/organizations/invites`
@@ -38,7 +43,15 @@ On plans that draw members from a finite pool of purchased seats, the invite aut
 
 ## Returns
 
-- `Invite object`
+- `BetaOrganizationInvite object`
+
+  - `type: "invite"`
+
+    Object type.
+
+    For Invites, this is always `"invite"`.
+
+    default: invite
 
   - `id: string`
 
@@ -70,7 +83,7 @@ On plans that draw members from a finite pool of purchased seats, the invite aut
 
     RBAC group IDs recorded on the Invite (Claude Enterprise organizations), to be assigned to the User when the Invite is accepted. `[]` when none.
 
-  - `role: "admin" or "billing" or "claude_code_user" or 6 more`
+  - `role: BetaOrganizationRole`
 
     Organization role of the User.
 
@@ -104,21 +117,13 @@ On plans that draw members from a finite pool of purchased seats, the invite aut
 
     - `"pending"`
 
-  - `type: "invite"`
-
-    Object type.
-
-    For Invites, this is always `"invite"`.
-
-    default: invite
-
 ## Example
 
 ```bash
 curl https://api.anthropic.com/v1/organizations/invites \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
     -d '{
           "email": "user@emaildomain.com",
           "role": "user"
@@ -137,7 +142,7 @@ curl https://api.anthropic.com/v1/organizations/invites \
   "rbac_group_ids": [
     "string"
   ],
-  "role": "user",
+  "role": "admin",
   "status": "pending",
   "type": "invite"
 }

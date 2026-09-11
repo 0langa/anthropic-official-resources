@@ -6,7 +6,7 @@ Lesson 2 of 13 · Claude Platform 101Your first API call
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-platform-101%2Fyour-first-api-call)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-platform-101%2Fyour-first-api-call)
 
 Embedded media: https://www.youtube-nocookie.com/embed/j0ftK\_R5DTs?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 

@@ -6,7 +6,7 @@ Lesson 13 of 13 · Claude 101What's next?
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-101%2Fwhat-s-next)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-101%2Fwhat-s-next)
 
 Congratulations on completing Claude 101! You've built a solid foundation for working with Claude effectively. Let's recap what you've learned and point you toward resources for continued growth.
 

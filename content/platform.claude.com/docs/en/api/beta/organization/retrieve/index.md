@@ -3,23 +3,15 @@ title: Get Current Organization
 url: https://platform.claude.com/docs/en/api/beta/organization/retrieve
 ---
 
-## Get Current Organization
+# Get Current Organization
 
-**get** `/v1/organizations/me`
+**GET** `/v1/organizations/me`
 
 Retrieve information about the organization associated with the authenticated API key.
 
-### Returns
+## Returns
 
-- `BetaOrganization object { id, name, type }`
-
-  - `id: string`
-
-    ID of the Organization.
-
-  - `name: string`
-
-    Name of the Organization.
+- `BetaOrganization object`
 
   - `type: "organization"`
 
@@ -27,17 +19,27 @@ Retrieve information about the organization associated with the authenticated AP
 
     For Organizations, this is always `"organization"`.
 
-    - `"organization"`
+    default: organization
 
-### Example
+  - `id: string`
 
-```http
+    ID of the Organization.
+
+    format: uuid
+
+  - `name: string`
+
+    Name of the Organization.
+
+## Example
+
+```bash
 curl https://api.anthropic.com/v1/organizations/me \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

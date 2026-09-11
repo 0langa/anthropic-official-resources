@@ -3,17 +3,17 @@ title: Update Workspace
 url: https://platform.claude.com/docs/en/api/beta/organization/workspaces/update
 ---
 
-## Update Workspace
+# Update Workspace
 
-**post** `/v1/organizations/workspaces/{workspace_id}`
+**POST** `/v1/organizations/workspaces/{workspace_id}`
 
 Update Workspace
 
-### Path Parameters
+## Path parameters
 
 - `workspace_id: string`
 
-### Body Parameters
+## Body parameters
 
 - `data_residency: optional BetaDataResidencyUpdateConfig or null`
 
@@ -31,8 +31,6 @@ Update Workspace
 
     - `Unrestricted = "unrestricted"`
 
-      - `"unrestricted"`
-
   - `default_inference_geo: optional "global" or "us" or null`
 
     Default inference geo applied when requests omit the parameter. Must be a member of `allowed_inference_geos` unless `allowed_inference_geos` is `"unrestricted"`.
@@ -44,6 +42,8 @@ Update Workspace
 - `display_color: optional string`
 
   Hex color code representing the Workspace in the Anthropic Console.
+
+  maxLength: 7, pattern: ^#[0-9A-Fa-f]{6}$
 
 - `external_key_id: optional string`
 
@@ -63,13 +63,23 @@ Update Workspace
 
   Name of the Workspace.
 
+  maxLength: 40, minLength: 1
+
 - `tags: optional map[string] or null`
 
   User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
-### Returns
+## Returns
 
-- `BetaWorkspace object { id, archived_at, compartment_id, 7 more }`
+- `BetaWorkspace object`
+
+  - `type: "workspace"`
+
+    Object type.
+
+    For Workspaces, this is always `"workspace"`.
+
+    default: workspace
 
   - `id: string`
 
@@ -78,6 +88,8 @@ Update Workspace
   - `archived_at: string or null`
 
     RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
+
+    format: date-time
 
   - `compartment_id: string`
 
@@ -97,6 +109,8 @@ Update Workspace
 
     RFC 3339 datetime string indicating when the Workspace was created.
 
+    format: date-time
+
   - `data_residency: BetaDataResidency`
 
     Data residency configuration.
@@ -108,8 +122,6 @@ Update Workspace
       - `Geos = array of string`
 
       - `Unrestricted = "unrestricted"`
-
-        - `"unrestricted"`
 
     - `default_inference_geo: string`
 
@@ -145,17 +157,9 @@ Update Workspace
 
     User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
-  - `type: "workspace"`
+## Example
 
-    Object type.
-
-    For Workspaces, this is always `"workspace"`.
-
-    - `"workspace"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -170,7 +174,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
         }'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

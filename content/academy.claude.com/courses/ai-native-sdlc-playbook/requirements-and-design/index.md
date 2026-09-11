@@ -6,7 +6,7 @@ Lesson 3 of 14 · The AI-Native SDLC PlaybookRequirements and design
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-native-sdlc-playbook%2Frequirements-and-design)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-native-sdlc-playbook%2Frequirements-and-design)
 
 Once the product owner approves the `intent.md`, Claude takes it and produces a requirements and design spec. This is guided by the organization's [skills(opens in new tab)](https://claude.com/blog/complete-guide-to-building-skills-for-claude) for brand, security, compliance, and UX.
 

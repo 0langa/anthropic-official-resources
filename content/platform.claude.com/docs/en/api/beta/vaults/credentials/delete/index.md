@@ -3,19 +3,19 @@ title: Delete Credential
 url: https://platform.claude.com/docs/en/api/beta/vaults/credentials/delete
 ---
 
-## Delete Credential
+# Delete Credential
 
-**delete** `/v1/vaults/{vault_id}/credentials/{credential_id}`
+**DELETE** `/v1/vaults/{vault_id}/credentials/{credential_id}`
 
 Delete Credential
 
-### Path Parameters
+## Path parameters
 
 - `vault_id: string`
 
 - `credential_id: string`
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -23,7 +23,7 @@ Delete Credential
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -71,6 +71,8 @@ Delete Credential
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -113,23 +115,23 @@ Delete Credential
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+- `"anthropic-workspace-id": optional string`
 
-- `BetaManagedAgentsDeletedCredential object { id, type }`
+## Returns
+
+- `BetaManagedAgentsDeletedCredential object`
 
   Confirmation of a deleted credential.
+
+  - `type: "vault_credential_deleted"`
 
   - `id: string`
 
     Unique identifier of the deleted credential.
 
-  - `type: "vault_credential_deleted"`
+## Example
 
-    - `"vault_credential_deleted"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/vaults/$VAULT_ID/credentials/$CREDENTIAL_ID \
     -X DELETE \
     -H 'anthropic-version: 2023-06-01' \
@@ -137,7 +139,7 @@ curl https://api.anthropic.com/v1/vaults/$VAULT_ID/credentials/$CREDENTIAL_ID \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

@@ -11,7 +11,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fbuilding-effective-human-agent-teams%2Fwhy-multiplayer-ai-matters)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-effective-human-agent-teams%2Fwhy-multiplayer-ai-matters)
 
 Meet the Lantern team, a group about to launch a health tracker app. To date, they've been using AI in single-player mode. See how that impacts their work, especially as the team grows.
 

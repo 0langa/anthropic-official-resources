@@ -11,7 +11,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-101%2Fclaude-in-action-use-cases-by-role)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-101%2Fclaude-in-action-use-cases-by-role)
 
 No matter what you do, Claude can help streamline your work. This lesson highlights practical use cases organized by role, so you can see how Claude applies to your specific work context.
 

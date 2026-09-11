@@ -3,27 +3,33 @@ title: Get External Key
 url: https://platform.claude.com/docs/en/api/beta/organization/external_keys/retrieve
 ---
 
-## Get External Key
+# Get External Key
 
-**get** `/v1/organizations/external_keys/{external_key_id}`
+**GET** `/v1/organizations/external_keys/{external_key_id}`
 
 Retrieve a single external key config in the caller's organization by ID.
 
-### Path Parameters
+## Path parameters
 
 - `external_key_id: string`
 
   ID of the External Key.
 
-### Returns
+  maxLength: 2048
 
-- `BetaExternalKey object { id, attachment, created_at, 5 more }`
+## Returns
+
+- `BetaExternalKey object`
 
   CMEK external key config belonging to the caller's organization.
 
   Configs are organization-scoped. Workspaces attach to a config; once any
   workspace references it, the provider fields become effectively immutable
   (existing encrypted data needs the config for decrypt).
+
+  - `type: "external_key"`
+
+    default: external_key
 
   - `id: string`
 
@@ -33,19 +39,21 @@ Retrieve a single external key config in the caller's organization by ID.
 
     Whether any workspace uses this config to encrypt its data — counting live and archived workspaces (an archived workspace's data remains encrypted under the config), excluding deleted ones. Only an attached config is used by the encryption path; an `unattached` config is inert and can be deleted.
 
-    - `BetaExternalKeyAttachedAttachment object { type }`
+    - `BetaExternalKeyAttachedAttachment object`
 
       - `type: "attached"`
 
-        - `"attached"`
+        default: attached
 
-    - `BetaExternalKeyUnattachedAttachment object { type }`
+    - `BetaExternalKeyUnattachedAttachment object`
 
       - `type: "unattached"`
 
-        - `"unattached"`
+        default: unattached
 
   - `created_at: string`
+
+    format: date-time
 
   - `display_name: string or null`
 
@@ -59,15 +67,15 @@ Retrieve a single external key config in the caller's organization by ID.
 
     KMS provider identity and auth coordinates.
 
-    - `BetaAWSExternalKeyConfig object { kms_arn, type, region, role_arn }`
+    - `BetaAWSExternalKeyConfig object`
+
+      - `type: "aws"`
 
       - `kms_arn: string`
 
         Full ARN of the AWS KMS key. On Claude Platform on AWS the key must be a single-Region key in your organization's own AWS account; cross-account keys, multi-Region keys, and alias ARNs are rejected.
 
-      - `type: "aws"`
-
-        - `"aws"`
+        maxLength: 2048
 
       - `region: optional string or null`
 
@@ -75,19 +83,21 @@ Retrieve a single external key config in the caller's organization by ID.
 
       - `role_arn: optional string or null`
 
+        **Deprecated**
+
         IAM role ARN. Deprecated — Anthropic reaches the KMS key through its own intermediate role (or, on Claude Platform on AWS, with credentials AWS issues for the Workspace); this field is ignored.
 
-    - `BetaGCPExternalKeyConfig object { key_name, type }`
+    - `BetaGCPExternalKeyConfig object`
+
+      - `type: "gcp"`
 
       - `key_name: string`
 
         Full resource name of the Cloud KMS key.
 
-      - `type: "gcp"`
+    - `BetaAzureExternalKeyConfig object`
 
-        - `"gcp"`
-
-    - `BetaAzureExternalKeyConfig object { key_name, tenant_id, type, 2 more }`
+      - `type: "azure"`
 
       - `key_name: string`
 
@@ -97,10 +107,6 @@ Retrieve a single external key config in the caller's organization by ID.
 
         Azure AD tenant ID.
 
-      - `type: "azure"`
-
-        - `"azure"`
-
       - `vault_uri: string`
 
         Key Vault data-plane URI — `https://{vault-name}.vault.azure.net` or `https://{hsm-name}.managedhsm.azure.net`.
@@ -109,21 +115,19 @@ Retrieve a single external key config in the caller's organization by ID.
 
         Azure AD application (client) ID. Omit to use Anthropic's multitenant app. Provide only if using a single-tenant app registration in the customer's directory.
 
-  - `type: "external_key"`
-
-    - `"external_key"`
-
   - `updated_at: string`
 
-### Example
+    format: date-time
 
-```http
+## Example
+
+```bash
 curl https://api.anthropic.com/v1/organizations/external_keys/$EXTERNAL_KEY_ID \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

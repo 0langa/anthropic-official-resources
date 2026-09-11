@@ -8,4 +8,4 @@ Quiz 5 of 8 Â· Claude with Amazon BedrockQuiz on Retrieval Augmented Generationî
 
 Quizzes are graded on your account so your progress and completion-badge eligibility are saved. Sign in with your Claude account to start.
 
-[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-amazon-bedrock%2Fquiz-on-retrieval-augmented-generation)
+[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fquiz-on-retrieval-augmented-generation)

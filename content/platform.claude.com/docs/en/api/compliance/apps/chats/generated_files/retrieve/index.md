@@ -3,25 +3,31 @@ title: Get Claude-generated file metadata
 url: https://platform.claude.com/docs/en/api/compliance/apps/chats/generated_files/retrieve
 ---
 
-## Get Claude-generated file metadata
+# Get Claude-generated file metadata
 
-**get** `/v1/compliance/apps/chats/generated-files/{claude_gen_file_id}`
+**GET** `/v1/compliance/apps/chats/generated-files/{claude_gen_file_id}`
 
 Returns metadata for a file the assistant created via tool use.
 
 Use the sibling `/content` endpoint to download the bytes.
 
-### Path Parameters
+## Path parameters
 
 - `claude_gen_file_id: string`
 
   The generated-file id (e.g., 'claude_gen_file_abc123') as returned in `chat_messages[].generated_files[].id` from GET /apps/chats/{claude_chat_id}/messages.
 
-### Header Parameters
+## Headers
+
+- `"anthropic-version": optional string`
+
+  The version of the Claude API you want to use.
+
+  Read more about versioning and our version history [here](https://platform.claude.com/docs/en/api/versioning).
 
 - `"x-api-key": optional string`
 
-### Returns
+## Returns
 
 - `id: string`
 
@@ -34,6 +40,8 @@ Use the sibling `/content` endpoint to download the bytes.
 - `created_at: string or null`
 
   File creation timestamp, when available
+
+  format: date-time
 
 - `filename: string`
 
@@ -51,14 +59,14 @@ Use the sibling `/content` endpoint to download the bytes.
 
   Size in bytes of the stored file, when available
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/compliance/apps/chats/generated-files/$CLAUDE_GEN_FILE_ID \
     -H "Authorization: Bearer $ANTHROPIC_COMPLIANCE_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

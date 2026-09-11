@@ -6,7 +6,7 @@ Lesson 39 of 67 · Building with the Claude APIExtended thinking
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fbuilding-with-the-claude-api%2Fextended-thinking)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fextended-thinking)
 
 **Important Note: Extended Thinking is not compatible with some other features, notably message pre-filling, and it restricts how you can use temperature. See the full list of restrictions here:** [**https://platform.claude.com/docs/en/build-with-claude/thinking#limits-and-feature-compatibility**(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/thinking)
 

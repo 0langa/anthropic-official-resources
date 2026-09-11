@@ -7,17 +7,17 @@ url: https://platform.claude.com/docs/en/api/compliance/apps/chats/messages
 
 ## Get chat messages
 
-**get** `/v1/compliance/apps/chats/{claude_chat_id}/messages`
+**GET** `/v1/compliance/apps/chats/{claude_chat_id}/messages`
 
 Retrieves message history and file metadata for a specific chat.
 
-### Path Parameters
+### Path parameters
 
 - `claude_chat_id: string`
 
   The chat ID (tagged ID, e.g., claude_chat_abc123)
 
-### Query Parameters
+### Query parameters
 
 - `after_id: optional string`
 
@@ -27,31 +27,43 @@ Retrieves message history and file metadata for a specific chat.
 
   Pagination cursor for retrieving the previous page of results. To paginate, pass the `first_id` value from the most recent response. Clients should treat this value as an opaque string and not attempt to parse or interpret its contents, as the format may change without notice.
 
-- `created_at: optional object { gt, gte, lt, lte }`
+- `created_at: optional object`
 
   - `gt: optional string`
 
     Filter messages created after this time (RFC 3339 format)
 
+    format: date-time
+
   - `gte: optional string`
 
     Filter messages created at or after this time (RFC 3339 format)
+
+    format: date-time
 
   - `lt: optional string`
 
     Filter messages created before this time (RFC 3339 format)
 
+    format: date-time
+
   - `lte: optional string`
 
     Filter messages created at or before this time (RFC 3339 format)
+
+    format: date-time
 
 - `limit: optional number`
 
   Maximum results (max: 1000). When omitted, the full result set is returned in one response.
 
+  maximum: 1000, minimum: 1
+
 - `order: optional "asc" or "desc"`
 
   Sort direction for messages within the response. `asc` (the default) returns oldest-first; `desc` returns newest-first.
+
+  default: asc
 
   - `"asc"`
 
@@ -61,29 +73,47 @@ Retrieves message history and file metadata for a specific chat.
 
   Maximum characters returned per tool-result text item. Items longer than this are shortened and the block's `truncated` field is set. Pass -1 to disable the limit.
 
+  default: 10000, minimum: -1
+
 - `tool_use_input_max_chars: optional number`
 
   Maximum characters of JSON-encoded tool input returned per tool_use block. Inputs longer than this are shortened and the block's `truncated` field is set. Pass -1 to disable the limit.
 
-- `updated_at: optional object { gt, gte, lt, lte }`
+  default: 10000, minimum: -1
+
+- `updated_at: optional object`
 
   - `gt: optional string`
 
     Filter messages updated after this time (RFC 3339 format)
 
+    format: date-time
+
   - `gte: optional string`
 
     Filter messages updated at or after this time (RFC 3339 format)
+
+    format: date-time
 
   - `lt: optional string`
 
     Filter messages updated before this time (RFC 3339 format)
 
+    format: date-time
+
   - `lte: optional string`
 
     Filter messages updated at or before this time (RFC 3339 format)
 
-### Header Parameters
+    format: date-time
+
+### Headers
+
+- `"anthropic-version": optional string`
+
+  The version of the Claude API you want to use.
+
+  Read more about versioning and our version history [here](https://platform.claude.com/docs/en/api/versioning).
 
 - `"x-api-key": optional string`
 
@@ -93,7 +123,7 @@ Retrieves message history and file metadata for a specific chat.
 
   Chat ID
 
-- `chat_messages: array of object { id, artifacts, content, 4 more }`
+- `chat_messages: array of object`
 
   Array of chat messages in order of created_at
 
@@ -101,7 +131,7 @@ Retrieves message history and file metadata for a specific chat.
 
     Unique identifier for the message e.g. 'claude_chat_msg_abcd1234'
 
-  - `artifacts: array of object { id, artifact_type, title, version_id }  or null`
+  - `artifacts: array of object or null`
 
     Versioned documents generated or updated by the assistant in this message. Download via `GET /v1/compliance/apps/artifacts/{artifact_version_id}/content`.
 
@@ -121,13 +151,17 @@ Retrieves message history and file metadata for a specific chat.
 
       Artifact version ID e.g. 'claude_artifact_version_abc123'
 
-  - `content: array of object { text, thinking_redacted, truncated, type }  or object { id, input, integration_name, 4 more }  or object { content, integration_name, is_error, 5 more }`
+  - `content: array of object or object or object`
 
     Content blocks within the message
 
-    - `Text object { text, thinking_redacted, truncated, type }`
+    - `Text object`
 
       Text content block.
+
+      - `type: "text"`
+
+        default: text
 
       - `text: string`
 
@@ -137,17 +171,21 @@ Retrieves message history and file metadata for a specific chat.
 
         True when content enclosed in the assistant's internal-reasoning tags (or the tag markup itself) was removed from `text` during export. Removal never occurs with this field false. Always false on human messages, whose text is exported verbatim.
 
+        default: false
+
       - `truncated: boolean`
 
         True when `text` was shortened by the server's fixed per-string bound (1 MiB). Always false on chat text blocks.
 
-      - `type: "text"`
+        default: false
 
-        - `"text"`
-
-    - `ToolUse object { id, input, integration_name, 4 more }`
+    - `ToolUse object`
 
       Tool invocation requested by the assistant.
+
+      - `type: "tool_use"`
+
+        default: tool_use
 
       - `id: string or null`
 
@@ -173,25 +211,27 @@ Retrieves message history and file metadata for a specific chat.
 
         True when `input` was shortened. Pass the endpoint's tool-use input max parameter as -1 to request full content, subject to any server-side maximum the endpoint enforces.
 
-      - `type: "tool_use"`
+        default: false
 
-        - `"tool_use"`
-
-    - `ToolResult object { content, integration_name, is_error, 5 more }`
+    - `ToolResult object`
 
       Result returned by a tool invocation.
 
-      - `content: array of object { text, type }`
+      - `type: "tool_result"`
+
+        default: tool_result
+
+      - `content: array of object`
 
         Text content returned by the tool. Generated files are surfaced via the message's `generated_files` list; other non-text item types (including images and links) are omitted.
+
+        - `type: "text"`
+
+          default: text
 
         - `text: string`
 
           Text returned by the tool
-
-        - `type: "text"`
-
-          - `"text"`
 
       - `integration_name: string or null`
 
@@ -217,15 +257,15 @@ Retrieves message history and file metadata for a specific chat.
 
         True when one or more text items in `content` were shortened. Pass the endpoint's tool-result max parameter as -1 to request full content, subject to any server-side maximum the endpoint enforces.
 
-      - `type: "tool_result"`
-
-        - `"tool_result"`
+        default: false
 
   - `created_at: string`
 
     Message creation timestamp - For human: when they sent the message, For assistant: when it completed the last content block
 
-  - `files: array of object { id, created_at, filename, 3 more }  or null`
+    format: date-time
+
+  - `files: array of object or null`
 
     Binary file attachments uploaded by the user. Download via `GET /v1/compliance/apps/chats/files/{claude_file_id}/content`.
 
@@ -236,6 +276,8 @@ Retrieves message history and file metadata for a specific chat.
     - `created_at: string`
 
       File creation timestamp
+
+      format: date-time
 
     - `filename: string`
 
@@ -253,7 +295,7 @@ Retrieves message history and file metadata for a specific chat.
 
       Size in bytes of the file's preferred downloadable variant, if known. Null for older files uploaded before size was recorded.
 
-  - `generated_files: array of object { id, filename, md5, 2 more }  or null`
+  - `generated_files: array of object or null`
 
     Downloadable files the assistant created via tool use (e.g. PDF, spreadsheet, slide deck). Distinct from `files`, which are uploads attached to the message. Download via `GET /v1/compliance/apps/chats/generated-files/{claude_gen_file_id}/content`.
 
@@ -289,9 +331,13 @@ Retrieves message history and file metadata for a specific chat.
 
   Creation timestamp
 
+  format: date-time
+
 - `deleted_at: string or null`
 
   Deletion timestamp if deleted
+
+  format: date-time
 
 - `first_id: string or null`
 
@@ -300,6 +346,8 @@ Retrieves message history and file metadata for a specific chat.
 - `has_more: boolean`
 
   Whether more chat messages exist beyond the current result set. Use `last_id` as `after_id` in a follow-up request to page forward.
+
+  default: false
 
 - `href: string`
 
@@ -317,10 +365,6 @@ Retrieves message history and file metadata for a specific chat.
 
   Chat name
 
-- `organization_id: string`
-
-  Organization ID this chat belongs to
-
 - `organization_uuid: string`
 
   Organization UUID this chat belongs to
@@ -333,9 +377,25 @@ Retrieves message history and file metadata for a specific chat.
 
   Last update timestamp
 
-- `user: object { id, email_address }  or null`
+  format: date-time
 
-  User information for compliance responses.
+- `user: object or null`
+
+  The user who created the chat.
+
+  Null when the API key is restricted to one organization and the creator
+  is no longer a member of it (for example, after they were removed from
+  it).
+
+  A key for the whole parent organization returns the creator's `id`
+  and current `email_address` for every chat; on the list endpoint, pass
+  `organization_ids[]` to keep the results to one organization. For the
+  email address the creator had when the chat was created, query
+  `GET /v1/compliance/activities` with `activity_types[]=claude_chat_created`
+  and a `created_at` window around the chat's `created_at`, find the event
+  whose `claude_chat_id` matches this chat's `id`, and read
+  `actor.email_address`. These events exist only for chats created after
+  compliance logging was enabled for the organization.
 
   - `id: string`
 
@@ -345,14 +405,20 @@ Retrieves message history and file metadata for a specific chat.
 
     User's email address
 
+- `organization_id: string`
+
+  **Deprecated**
+
+  Organization ID this chat belongs to
+
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/compliance/apps/chats/$CLAUDE_CHAT_ID/messages \
     -H "Authorization: Bearer $ANTHROPIC_COMPLIANCE_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -417,11 +483,11 @@ curl https://api.anthropic.com/v1/compliance/apps/chats/$CLAUDE_CHAT_ID/messages
 }
 ```
 
-## Domain Types
+## Domain types
 
 ### Message List Response
 
-- `MessageListResponse object { id, artifacts, content, 4 more }`
+- `MessageListResponse object`
 
   A single message in a chat conversation.
 
@@ -429,7 +495,7 @@ curl https://api.anthropic.com/v1/compliance/apps/chats/$CLAUDE_CHAT_ID/messages
 
     Unique identifier for the message e.g. 'claude_chat_msg_abcd1234'
 
-  - `artifacts: array of object { id, artifact_type, title, version_id }  or null`
+  - `artifacts: array of object or null`
 
     Versioned documents generated or updated by the assistant in this message. Download via `GET /v1/compliance/apps/artifacts/{artifact_version_id}/content`.
 
@@ -449,13 +515,17 @@ curl https://api.anthropic.com/v1/compliance/apps/chats/$CLAUDE_CHAT_ID/messages
 
       Artifact version ID e.g. 'claude_artifact_version_abc123'
 
-  - `content: array of object { text, thinking_redacted, truncated, type }  or object { id, input, integration_name, 4 more }  or object { content, integration_name, is_error, 5 more }`
+  - `content: array of object or object or object`
 
     Content blocks within the message
 
-    - `Text object { text, thinking_redacted, truncated, type }`
+    - `Text object`
 
       Text content block.
+
+      - `type: "text"`
+
+        default: text
 
       - `text: string`
 
@@ -465,17 +535,21 @@ curl https://api.anthropic.com/v1/compliance/apps/chats/$CLAUDE_CHAT_ID/messages
 
         True when content enclosed in the assistant's internal-reasoning tags (or the tag markup itself) was removed from `text` during export. Removal never occurs with this field false. Always false on human messages, whose text is exported verbatim.
 
+        default: false
+
       - `truncated: boolean`
 
         True when `text` was shortened by the server's fixed per-string bound (1 MiB). Always false on chat text blocks.
 
-      - `type: "text"`
+        default: false
 
-        - `"text"`
-
-    - `ToolUse object { id, input, integration_name, 4 more }`
+    - `ToolUse object`
 
       Tool invocation requested by the assistant.
+
+      - `type: "tool_use"`
+
+        default: tool_use
 
       - `id: string or null`
 
@@ -501,25 +575,27 @@ curl https://api.anthropic.com/v1/compliance/apps/chats/$CLAUDE_CHAT_ID/messages
 
         True when `input` was shortened. Pass the endpoint's tool-use input max parameter as -1 to request full content, subject to any server-side maximum the endpoint enforces.
 
-      - `type: "tool_use"`
+        default: false
 
-        - `"tool_use"`
-
-    - `ToolResult object { content, integration_name, is_error, 5 more }`
+    - `ToolResult object`
 
       Result returned by a tool invocation.
 
-      - `content: array of object { text, type }`
+      - `type: "tool_result"`
+
+        default: tool_result
+
+      - `content: array of object`
 
         Text content returned by the tool. Generated files are surfaced via the message's `generated_files` list; other non-text item types (including images and links) are omitted.
+
+        - `type: "text"`
+
+          default: text
 
         - `text: string`
 
           Text returned by the tool
-
-        - `type: "text"`
-
-          - `"text"`
 
       - `integration_name: string or null`
 
@@ -545,15 +621,15 @@ curl https://api.anthropic.com/v1/compliance/apps/chats/$CLAUDE_CHAT_ID/messages
 
         True when one or more text items in `content` were shortened. Pass the endpoint's tool-result max parameter as -1 to request full content, subject to any server-side maximum the endpoint enforces.
 
-      - `type: "tool_result"`
-
-        - `"tool_result"`
+        default: false
 
   - `created_at: string`
 
     Message creation timestamp - For human: when they sent the message, For assistant: when it completed the last content block
 
-  - `files: array of object { id, created_at, filename, 3 more }  or null`
+    format: date-time
+
+  - `files: array of object or null`
 
     Binary file attachments uploaded by the user. Download via `GET /v1/compliance/apps/chats/files/{claude_file_id}/content`.
 
@@ -564,6 +640,8 @@ curl https://api.anthropic.com/v1/compliance/apps/chats/$CLAUDE_CHAT_ID/messages
     - `created_at: string`
 
       File creation timestamp
+
+      format: date-time
 
     - `filename: string`
 
@@ -581,7 +659,7 @@ curl https://api.anthropic.com/v1/compliance/apps/chats/$CLAUDE_CHAT_ID/messages
 
       Size in bytes of the file's preferred downloadable variant, if known. Null for older files uploaded before size was recorded.
 
-  - `generated_files: array of object { id, filename, md5, 2 more }  or null`
+  - `generated_files: array of object or null`
 
     Downloadable files the assistant created via tool use (e.g. PDF, spreadsheet, slide deck). Distinct from `files`, which are uploads attached to the message. Download via `GET /v1/compliance/apps/chats/generated-files/{claude_gen_file_id}/content`.
 

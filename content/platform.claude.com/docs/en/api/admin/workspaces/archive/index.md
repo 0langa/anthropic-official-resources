@@ -1,21 +1,29 @@
 ---
 title: Archive Workspace
-url: https://platform.claude.com/docs/en/api/admin/workspaces/archive
+url: https://platform.claude.com/docs/en/api/beta/organization/workspaces/archive
 ---
 
-## Archive Workspace
+# Archive Workspace
 
-**post** `/v1/organizations/workspaces/{workspace_id}/archive`
+**POST** `/v1/organizations/workspaces/{workspace_id}/archive`
 
 Archive Workspace
 
-### Path Parameters
+## Path parameters
 
 - `workspace_id: string`
 
-### Returns
+## Returns
 
-- `Workspace object { id, archived_at, compartment_id, 7 more }`
+- `BetaWorkspace object`
+
+  - `type: "workspace"`
+
+    Object type.
+
+    For Workspaces, this is always `"workspace"`.
+
+    default: workspace
 
   - `id: string`
 
@@ -24,6 +32,8 @@ Archive Workspace
   - `archived_at: string or null`
 
     RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
+
+    format: date-time
 
   - `compartment_id: string`
 
@@ -43,7 +53,9 @@ Archive Workspace
 
     RFC 3339 datetime string indicating when the Workspace was created.
 
-  - `data_residency: object { allowed_inference_geos, default_inference_geo, workspace_geo }`
+    format: date-time
+
+  - `data_residency: BetaDataResidency`
 
     Data residency configuration.
 
@@ -51,11 +63,9 @@ Archive Workspace
 
       Permitted inference geo values. 'unrestricted' means all geos are allowed.
 
-      - `array of string`
+      - `Geos = array of string`
 
-      - `"unrestricted"`
-
-        - `"unrestricted"`
+      - `Unrestricted = "unrestricted"`
 
     - `default_inference_geo: string`
 
@@ -91,24 +101,16 @@ Archive Workspace
 
     User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
-  - `type: "workspace"`
+## Example
 
-    Object type.
-
-    For Workspaces, this is always `"workspace"`.
-
-    - `"workspace"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive \
     -X POST \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

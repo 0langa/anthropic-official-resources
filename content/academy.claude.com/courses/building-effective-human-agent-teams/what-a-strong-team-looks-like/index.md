@@ -11,7 +11,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fbuilding-effective-human-agent-teams%2Fwhat-a-strong-team-looks-like)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-effective-human-agent-teams%2Fwhat-a-strong-team-looks-like)
 
 The best human-agent teams use very intentional team practices and norms.
 

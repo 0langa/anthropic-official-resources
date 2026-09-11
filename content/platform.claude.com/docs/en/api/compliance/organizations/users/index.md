@@ -7,33 +7,41 @@ url: https://platform.claude.com/docs/en/api/compliance/organizations/users
 
 ## List organization users
 
-**get** `/v1/compliance/organizations/{org_uuid}/users`
+**GET** `/v1/compliance/organizations/{org_uuid}/users`
 
 List current user members of an organization.
 
-### Path Parameters
+### Path parameters
 
 - `org_uuid: string`
 
   The organization UUID
 
-### Query Parameters
+### Query parameters
 
 - `limit: optional number`
 
   Maximum results (default: 500, max: 1000)
 
+  default: 500, maximum: 1000, minimum: 1
+
 - `page: optional string`
 
   Opaque pagination token from a previous response's `next_page` field. Pass this to retrieve the next page of results. Clients should treat this value as an opaque string and not attempt to parse or interpret its contents, as the format may change without notice.
 
-### Header Parameters
+### Headers
+
+- `"anthropic-version": optional string`
+
+  The version of the Claude API you want to use.
+
+  Read more about versioning and our version history [here](https://platform.claude.com/docs/en/api/versioning).
 
 - `"x-api-key": optional string`
 
 ### Returns
 
-- `data: array of object { id, created_at, email, 2 more }`
+- `data: array of object`
 
   List of current organization members sorted by organization join date ascending
 
@@ -44,6 +52,8 @@ List current user members of an organization.
   - `created_at: string`
 
     User account creation timestamp
+
+    format: date-time
 
   - `email: string`
 
@@ -85,12 +95,12 @@ List current user members of an organization.
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/compliance/organizations/$ORG_UUID/users \
     -H "Authorization: Bearer $ANTHROPIC_COMPLIANCE_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -108,11 +118,11 @@ curl https://api.anthropic.com/v1/compliance/organizations/$ORG_UUID/users \
 }
 ```
 
-## Domain Types
+## Domain types
 
 ### User List Response
 
-- `UserListResponse object { id, created_at, email, 2 more }`
+- `UserListResponse object`
 
   User member information for compliance responses.
 
@@ -123,6 +133,8 @@ curl https://api.anthropic.com/v1/compliance/organizations/$ORG_UUID/users \
   - `created_at: string`
 
     User account creation timestamp
+
+    format: date-time
 
   - `email: string`
 

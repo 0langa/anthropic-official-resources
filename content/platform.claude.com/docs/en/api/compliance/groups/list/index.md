@@ -3,33 +3,43 @@ title: List Compliance Groups
 url: https://platform.claude.com/docs/en/api/compliance/groups/list
 ---
 
-## List Compliance Groups
+# List Compliance Groups
 
-**get** `/v1/compliance/groups`
+**GET** `/v1/compliance/groups`
 
 List Compliance Groups
 
-### Query Parameters
+## Query parameters
 
 - `limit: optional number`
 
   Maximum results (default: 500, max: 1000)
 
+  default: 500, maximum: 1000, minimum: 1
+
 - `name_prefix: optional string`
 
   Filter groups by name prefix
+
+  default: ""
 
 - `page: optional string`
 
   Opaque pagination token from a previous response's `next_page` field. Pass this to retrieve the next page of results. Clients should treat this value as an opaque string and not attempt to parse or interpret its contents, as the format may change without notice.
 
-### Header Parameters
+## Headers
+
+- `"anthropic-version": optional string`
+
+  The version of the Claude API you want to use.
+
+  Read more about versioning and our version history [here](https://platform.claude.com/docs/en/api/versioning).
 
 - `"x-api-key": optional string`
 
-### Returns
+## Returns
 
-- `data: array of object { id, created_at, description, 4 more }`
+- `data: array of object`
 
   List of groups
 
@@ -39,7 +49,9 @@ List Compliance Groups
 
   - `created_at: string or null`
 
-    Group creation timestamp (ISO 8601)
+    Group creation timestamp (RFC 3339)
+
+    format: date-time
 
   - `description: string`
 
@@ -59,7 +71,9 @@ List Compliance Groups
 
   - `updated_at: string or null`
 
-    Group last-updated timestamp (ISO 8601)
+    Group last-updated timestamp (RFC 3339)
+
+    format: date-time
 
 - `has_more: boolean`
 
@@ -69,21 +83,21 @@ List Compliance Groups
 
   Token to retrieve the next page. Use this as the 'page' parameter in your next request
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/compliance/groups \
     -H "Authorization: Bearer $ANTHROPIC_COMPLIANCE_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {
   "data": [
     {
       "id": "rbac_group_012rppKaSVsmTo6NqRDXQXNF",
-      "created_at": "2025-03-12T18:22:41.123456",
+      "created_at": "2025-03-12T18:22:41.123456Z",
       "description": "All members of the engineering organization",
       "name": "Engineering Team",
       "roles": [
@@ -91,7 +105,7 @@ curl https://api.anthropic.com/v1/compliance/groups \
         "rbac_role_01HtCd4mFoAseWS3RnzKcwE7"
       ],
       "source_type": "scim",
-      "updated_at": "2025-03-14T09:05:17.456789"
+      "updated_at": "2025-03-14T09:05:17.456789Z"
     }
   ],
   "has_more": true,

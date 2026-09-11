@@ -3,13 +3,13 @@ title: Create a Dream
 url: https://platform.claude.com/docs/en/api/beta/dreams/create
 ---
 
-## Create a Dream
+# Create a Dream
 
-**post** `/v1/dreams`
+**POST** `/v1/dreams`
 
 Create a Dream
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -17,7 +17,7 @@ Create a Dream
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -65,6 +65,8 @@ Create a Dream
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -107,29 +109,29 @@ Create a Dream
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+- `"anthropic-workspace-id": optional string`
+
+## Body parameters
 
 - `inputs: array of BetaDreamInput`
 
-  - `BetaDreamMemoryStoreInput object { memory_store_id, type }`
+  - `BetaDreamMemoryStoreInput object`
 
     An input memory store the dream reads from. The dream never mutates this store unless it is also the destination: with output_behavior {type: "update_existing"} the job consolidates this store in place.
 
-    - `memory_store_id: string`
-
     - `type: "memory_store"`
 
-      - `"memory_store"`
+    - `memory_store_id: string`
 
-  - `BetaDreamSessionsInput object { session_ids, type }`
+      minLength: 1
+
+  - `BetaDreamSessionsInput object`
 
     Input session transcripts the dream reads.
 
-    - `session_ids: array of string`
-
     - `type: "sessions"`
 
-      - `"sessions"`
+    - `session_ids: array of string`
 
 - `model: string or BetaDreamModelConfigParam`
 
@@ -137,13 +139,15 @@ Create a Dream
 
   - `string`
 
-  - `BetaDreamModelConfigParam object { id, speed }`
+  - `BetaDreamModelConfigParam object`
 
     Model identifier and configuration applied to every pipeline stage.
 
     - `id: string`
 
       Model identifier, e.g. "claude-opus-5". 1-256 characters.
+
+      minLength: 1, maxLength: 256
 
     - `speed: optional "standard" or "fast" or null`
 
@@ -155,33 +159,35 @@ Create a Dream
 
 - `instructions: optional string or null`
 
+  minLength: 1, maxLength: 4096
+
 - `output_behavior: optional BetaOutputBehavior`
 
   The default destination: the job creates a new output memory store as a clone of the memory_store input and writes the consolidated memories into it. The input store is never mutated.
 
-  - `BetaOutputBehaviorCreateNew object { type }`
+  - `BetaOutputBehaviorCreateNew object`
 
     The default destination: the job creates a new output memory store as a clone of the memory_store input and writes the consolidated memories into it. The input store is never mutated.
 
     - `type: "create_new"`
 
-      - `"create_new"`
-
-  - `BetaOutputBehaviorUpdateExisting object { memory_store_id, type }`
+  - `BetaOutputBehaviorUpdateExisting object`
 
     The job writes the consolidated memories into this existing memory store instead of creating one. In EAP the store must be the job's own memory_store input, so the job consolidates the store in place.
 
-    - `memory_store_id: string`
-
     - `type: "update_existing"`
 
-      - `"update_existing"`
+    - `memory_store_id: string`
 
-### Returns
+      minLength: 1
 
-- `BetaDream object { id, archived_at, created_at, 11 more }`
+## Returns
+
+- `BetaDream object`
 
   An asynchronous memory-consolidation job that reads a memory store plus a set of session transcripts and writes consolidated memories into an output memory store — a new store by default, or an existing store chosen via output_behavior. The Dreams API is in research preview: the request and response shapes are volatile and may change without the deprecation period that applies to generally-available endpoints.
+
+  - `type: "dream"`
 
   - `id: string`
 
@@ -189,43 +195,47 @@ Create a Dream
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `created_at: string`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `ended_at: string or null`
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `error: BetaDreamError or null`
 
     Failure detail for a Dream whose `status` is `failed`.
 
-    - `message: string`
-
     - `type: string`
+
+    - `message: string`
 
   - `inputs: array of BetaDreamInput`
 
-    - `BetaDreamMemoryStoreInput object { memory_store_id, type }`
+    - `BetaDreamMemoryStoreInput object`
 
       An input memory store the dream reads from. The dream never mutates this store unless it is also the destination: with output_behavior {type: "update_existing"} the job consolidates this store in place.
 
-      - `memory_store_id: string`
-
       - `type: "memory_store"`
 
-        - `"memory_store"`
+      - `memory_store_id: string`
 
-    - `BetaDreamSessionsInput object { session_ids, type }`
+        minLength: 1
+
+    - `BetaDreamSessionsInput object`
 
       Input session transcripts the dream reads.
 
-      - `session_ids: array of string`
-
       - `type: "sessions"`
 
-        - `"sessions"`
+      - `session_ids: array of string`
 
   - `instructions: string or null`
 
@@ -236,6 +246,8 @@ Create a Dream
     - `id: string`
 
       Model identifier, e.g. "claude-opus-5". 1-256 characters.
+
+      minLength: 1, maxLength: 256
 
     - `speed: optional "standard" or "fast"`
 
@@ -249,31 +261,27 @@ Create a Dream
 
     The default destination: the job creates a new output memory store as a clone of the memory_store input and writes the consolidated memories into it. The input store is never mutated.
 
-    - `BetaOutputBehaviorCreateNew object { type }`
+    - `BetaOutputBehaviorCreateNew object`
 
       The default destination: the job creates a new output memory store as a clone of the memory_store input and writes the consolidated memories into it. The input store is never mutated.
 
       - `type: "create_new"`
 
-        - `"create_new"`
-
-    - `BetaOutputBehaviorUpdateExisting object { memory_store_id, type }`
+    - `BetaOutputBehaviorUpdateExisting object`
 
       The job writes the consolidated memories into this existing memory store instead of creating one. In EAP the store must be the job's own memory_store input, so the job consolidates the store in place.
 
-      - `memory_store_id: string`
-
       - `type: "update_existing"`
 
-        - `"update_existing"`
+      - `memory_store_id: string`
+
+        minLength: 1
 
   - `outputs: array of BetaDreamOutput`
 
-    - `memory_store_id: string`
-
     - `type: "memory_store"`
 
-      - `"memory_store"`
+    - `memory_store_id: string`
 
   - `session_id: string or null`
 
@@ -291,10 +299,6 @@ Create a Dream
 
     - `"canceled"`
 
-  - `type: "dream"`
-
-    - `"dream"`
-
   - `usage: BetaDreamUsage`
 
     Cumulative token usage for the dream across every pipeline stage.
@@ -303,21 +307,29 @@ Create a Dream
 
       Total tokens used to create prompt-cache entries (sum of all TTL tiers).
 
+      format: int32
+
     - `cache_read_input_tokens: number`
 
       Total tokens read from prompt cache.
+
+      format: int32
 
     - `input_tokens: number`
 
       Total uncached input tokens consumed across every pipeline stage.
 
+      format: int32
+
     - `output_tokens: number`
 
       Total output tokens generated across every pipeline stage.
 
-### Example
+      format: int32
 
-```http
+## Example
+
+```bash
 curl https://api.anthropic.com/v1/dreams \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -334,7 +346,7 @@ curl https://api.anthropic.com/v1/dreams \
         }'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

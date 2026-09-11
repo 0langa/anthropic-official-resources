@@ -1,0 +1,51 @@
+import{em as e,nm as t}from"../../../content-de-meta-ifw6afqc.js";var n=e();function r(e){let r={h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...t(),...e.components},{ChromePrompt:i,ChromeResponse:o,Image:s,TryIn:c}=r;return i||a("ChromePrompt",!0),o||a("ChromeResponse",!0),s||a("Image",!0),c||a("TryIn",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(s,{src:"./organize-files-in-google-drive.png",alt:"Organize files in Google Drive result",preview:!0}),`
+`,(0,n.jsx)(r.h2,{id:"1-describe-the-task",children:"1. Describe the task"}),`
+`,(0,n.jsx)(r.p,{children:"Years of files piling up in Google Drive—downloads you never sorted, documents people shared with you, old project folders mixed with random screenshots. The task of organizing it feels endless, so it never happens. Claude in Chrome can navigate your Drive, create a folder structure, and move files where they belong while you do something else."}),`
+`,(0,n.jsx)(r.p,{children:"Tell Claude what kind of organization you want, or let it figure out a structure based on what's there. You review the results instead of doing the sorting yourself."}),`
+`,(0,n.jsxs)(i,{children:[(0,n.jsx)(r.p,{children:"I need to organize my Google Drive by reviewing all files and creating a logical folder structure."}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"What to do:"})}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"Scan through my Drive including Downloads, Shared with me, and the root level"}),`
+`,(0,n.jsx)(r.li,{children:"Create appropriately named folders based on what you find (e.g., by project, file type, or year)"}),`
+`,(0,n.jsx)(r.li,{children:"Move files into the folders you create"}),`
+`,(0,n.jsx)(r.li,{children:"Flag anything you're unsure about or think I should delete"}),`
+`]}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:"Before moving files:"})," Show me your proposed folder structure and any files you're uncertain about. I'll review before you finalize."]})]}),`
+`,(0,n.jsx)(r.h2,{id:"2-give-claude-context",children:"2. Give Claude context"}),`
+`,(0,n.jsx)(r.p,{children:"Claude works directly in your Google Drive through the browser—the same interface you'd use. It can see your files, create folders, and move things around without downloading or uploading anything."}),`
+`,(0,n.jsx)(r.h3,{id:"required-context",children:"Required context"}),`
+`,(0,n.jsx)(r.p,{children:"Log into Google Drive before starting. If you have specific folders you want to preserve or a naming convention you prefer, mention that in your prompt."}),`
+`,(0,n.jsx)(r.p,{children:"If your Drive is very large, consider asking Claude to start with one section—like just your Downloads or just files from the past year. You can expand from there."}),`
+`,(0,n.jsx)(r.h2,{id:"3-what-claude-creates",children:"3. What Claude creates"}),`
+`,(0,n.jsx)(r.p,{children:"Claude reports what it organized, what it moved, and what needs your decision before going further."}),`
+`,(0,n.jsxs)(o,{children:[(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Drive Organized"})}),(0,n.jsx)(r.p,{children:"847 files sorted | 12 folders created | 23 items need your review"}),(0,n.jsx)(r.p,{children:"I went through everything in your Drive and created a structure based on what I found. Here's the new layout:"}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"New Folder Structure"})}),(0,n.jsxs)(r.table,{children:[(0,n.jsx)(r.thead,{children:(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.th,{children:"Folder"}),(0,n.jsx)(r.th,{children:"Files"}),(0,n.jsx)(r.th,{children:"What's in it"})]})}),(0,n.jsxs)(r.tbody,{children:[(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"Work"}),(0,n.jsx)(r.td,{children:"156"}),(0,n.jsx)(r.td,{children:"Documents with company names, meeting notes, presentations"})]}),(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"Finance"}),(0,n.jsx)(r.td,{children:"89"}),(0,n.jsx)(r.td,{children:"Tax docs, receipts, bank statements, invoices"})]}),(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"Photos"}),(0,n.jsx)(r.td,{children:"234"}),(0,n.jsx)(r.td,{children:"Images and screenshots, organized by year"})]}),(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"Personal"}),(0,n.jsx)(r.td,{children:"67"}),(0,n.jsx)(r.td,{children:"Travel docs, medical records, insurance"})]}),(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"Projects"}),(0,n.jsx)(r.td,{children:"145"}),(0,n.jsx)(r.td,{children:"Grouped by project name where I could identify one"})]}),(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"Reference"}),(0,n.jsx)(r.td,{children:"52"}),(0,n.jsx)(r.td,{children:"Manuals, guides, saved articles"})]}),(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"Shared With Me"}),(0,n.jsx)(r.td,{children:"73"}),(0,n.jsx)(r.td,{children:"Files owned by others (can't move these, but grouped the view)"})]}),(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"Archive"}),(0,n.jsx)(r.td,{children:"0"}),(0,n.jsx)(r.td,{children:"Empty for now—waiting for your approval on old files"})]})]})]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Needs Your Review"})}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Duplicates Found (8 sets)"})}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"Budget_2023.xlsx — 3 versions, newest is from October 2023"}),`
+`,(0,n.jsx)(r.li,{children:"Resume.pdf — 4 versions across folders"}),`
+`,(0,n.jsx)(r.li,{children:"Project_Proposal.docx — 2 identical copies"}),`
+`]}),(0,n.jsx)(r.p,{children:"I haven't deleted anything. Say the word and I'll keep the newest version of each."}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Old Files to Consider Archiving (12 files)"})}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"6 documents last opened in 2021 or earlier"}),`
+`,(0,n.jsx)(r.li,{children:"4 spreadsheets from a project that looks finished"}),`
+`,(0,n.jsx)(r.li,{children:"2 PDFs that appear to be outdated versions of current docs"}),`
+`]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Couldn't Categorize (3 files)"})}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"Document (3).docx — Appears to be meeting notes but no clear project"}),`
+`,(0,n.jsx)(r.li,{children:"Untitled.gdoc — Blank document"}),`
+`,(0,n.jsx)(r.li,{children:"scan0042.pdf — Scanned document, can't determine content"}),`
+`]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Everything Else"})}),(0,n.jsx)(r.p,{children:"Sorted and in place."}),(0,n.jsx)(r.p,{children:"Want me to handle the duplicates, move the old files to Archive, or rename the unclear ones?"})]}),`
+`,(0,n.jsx)(r.h2,{id:"4-follow-up-prompts",children:"4. Follow up prompts"}),`
+`,(0,n.jsx)(r.p,{children:"Continue the conversation with Claude to refine, expand, or explore further."}),`
+`,(0,n.jsx)(r.h3,{id:"remove-the-duplicates",children:"Remove the duplicates"}),`
+`,(0,n.jsx)(r.p,{children:"Clean up redundant copies once you've confirmed which version to keep. Claude can delete in bulk or one at a time."}),`
+`,(0,n.jsx)(i,{children:(0,n.jsx)(r.p,{children:"Go ahead and delete the duplicate files you found. Keep the most recent version of each."})}),`
+`,(0,n.jsx)(r.h3,{id:"archive-old-files",children:"Archive old files"}),`
+`,(0,n.jsx)(r.p,{children:"Move untouched files out of your main view without deleting them. Useful for anything you might need later but don't want cluttering your folders."}),`
+`,(0,n.jsx)(i,{children:(0,n.jsx)(r.p,{children:"Move everything that hasn't been opened in over a year to an Archive folder. I'll look through it later but get it out of my main view."})}),`
+`,(0,n.jsx)(r.h3,{id:"rename-files-consistently",children:"Rename files consistently"}),`
+`,(0,n.jsx)(r.p,{children:"Replace generic names with descriptive ones based on file contents. Easier to search later."}),`
+`,(0,n.jsx)(i,{children:(0,n.jsx)(r.p,{children:"A lot of these files have useless names like 'Document (3)' or 'Screenshot 2023-04-12'. Can you rename them based on what's actually in them?"})}),`
+`,(0,n.jsx)(r.h2,{id:"5-tricks-tips-and-troubleshooting",children:"5. Tricks, tips, and troubleshooting"}),`
+`,(0,n.jsx)(r.h3,{id:"save-your-organization-system-as-a-shortcut",children:"Save your organization system as a shortcut"}),`
+`,(0,n.jsx)(r.p,{children:`Once you've refined your folder structure preferences, save your prompt as a shortcut (type "/" and create one like /drive-organize). Include your preferred folder names and file categories so future cleanups match your system.`}),`
+`,(0,n.jsx)(r.h3,{id:"schedule-monthly-maintenance",children:"Schedule monthly maintenance"}),`
+`,(0,n.jsx)(r.p,{children:"Turn on the schedule toggle for the ability to schedule this workflow. Claude runs the workflow automatically and notifies you when there's something to review. This keeps a regular scan for new unsorted files and duplicates to keep your Drive organized long term."}),`
+`,(0,n.jsx)(r.h3,{id:"claude-asks-before-deleting-anything",children:"Claude asks before deleting anything"}),`
+`,(0,n.jsx)(r.p,{children:'File deletion is a high-risk action. Even in "Act without asking" mode, Claude will pause and request approval before permanently removing files. Duplicates and old files get flagged for review—nothing disappears without your explicit confirmation.'}),`
+`,(0,n.jsx)(r.h2,{id:"6-ready-to-try-for-yourself",children:"6. Ready to try for yourself?"}),`
+`,(0,n.jsx)(r.p,{children:"Claude in Chrome is available to all paid subscribers. Install the extension and open Google Drive in Chrome. Claude works with your existing login—no API keys or integrations to set up. Start with one folder to see how it organizes before tackling your whole Drive."}),`
+`,(0,n.jsx)(c,{surfaces:["chrome"],children:(0,n.jsx)(r.p,{children:"I need to organize my Google Drive by reviewing all files and creating a logical folder structure."})})]})}function i(e={}){let{wrapper:i}={...t(),...e.components};return i?(0,n.jsx)(i,{...e,children:(0,n.jsx)(r,{...e})}):r(e)}function a(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{i as default};

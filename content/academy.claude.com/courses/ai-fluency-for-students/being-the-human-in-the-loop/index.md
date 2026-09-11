@@ -13,7 +13,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-students%2Fbeing-the-human-in-the-loop)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-students%2Fbeing-the-human-in-the-loop)
 
 ## Being the human in the loop & developing a personal commitment[](https://academy.claude.com/courses/ai-fluency-for-students/being-the-human-in-the-loop)
 

@@ -5,59 +5,66 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
 # Webhooks
 
-## Domain Types
+## Unwrap
+
+Verifies the webhook signature from the `webhook-id`, `webhook-timestamp` and `webhook-signature`
+headers using your webhook signing key, then parses the payload into an event. Fails if the
+signature is missing or invalid.
+
+## Parse Unverified
+
+Parses a webhook payload into an event without verifying its signature. Prefer `unwrap()` unless
+you have already verified the signature yourself.
+
+## Domain types
 
 ### Beta Webhook Agent Archived Event Data
 
-- `BetaWebhookAgentArchivedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookAgentArchivedEventData object`
+
+  - `type: "agent.archived"`
 
   - `id: string`
 
     ID of the agent that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "agent.archived"`
-
-    - `"agent.archived"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Agent Created Event Data
 
-- `BetaWebhookAgentCreatedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookAgentCreatedEventData object`
+
+  - `type: "agent.created"`
 
   - `id: string`
 
     ID of the agent that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "agent.created"`
-
-    - `"agent.created"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Agent Deleted Event Data
 
-- `BetaWebhookAgentDeletedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookAgentDeletedEventData object`
+
+  - `type: "agent.deleted"`
 
   - `id: string`
 
     ID of the agent that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "agent.deleted"`
-
-    - `"agent.deleted"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Agent Updated Event Data
 
-- `BetaWebhookAgentUpdatedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookAgentUpdatedEventData object`
+
+  - `type: "agent.updated"`
 
   - `id: string`
 
@@ -65,111 +72,97 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
   - `organization_id: string`
 
-  - `type: "agent.updated"`
-
-    - `"agent.updated"`
-
   - `workspace_id: string`
 
 ### Beta Webhook Deployment Archived Event Data
 
-- `BetaWebhookDeploymentArchivedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookDeploymentArchivedEventData object`
+
+  - `type: "deployment.archived"`
 
   - `id: string`
 
     ID of the deployment that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "deployment.archived"`
-
-    - `"deployment.archived"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Deployment Created Event Data
 
-- `BetaWebhookDeploymentCreatedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookDeploymentCreatedEventData object`
+
+  - `type: "deployment.created"`
 
   - `id: string`
 
     ID of the deployment that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "deployment.created"`
-
-    - `"deployment.created"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Deployment Deleted Event Data
 
-- `BetaWebhookDeploymentDeletedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookDeploymentDeletedEventData object`
+
+  - `type: "deployment.deleted"`
 
   - `id: string`
 
     ID of the deployment that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "deployment.deleted"`
-
-    - `"deployment.deleted"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Deployment Paused Event Data
 
-- `BetaWebhookDeploymentPausedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookDeploymentPausedEventData object`
+
+  - `type: "deployment.paused"`
 
   - `id: string`
 
     ID of the deployment that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "deployment.paused"`
-
-    - `"deployment.paused"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Deployment Run Failed Event Data
 
-- `BetaWebhookDeploymentRunFailedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookDeploymentRunFailedEventData object`
+
+  - `type: "deployment_run.failed"`
 
   - `id: string`
 
     ID of the deployment run that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "deployment_run.failed"`
-
-    - `"deployment_run.failed"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Deployment Run Started Event Data
 
-- `BetaWebhookDeploymentRunStartedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookDeploymentRunStartedEventData object`
+
+  - `type: "deployment_run.started"`
 
   - `id: string`
 
     ID of the deployment run that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "deployment_run.started"`
-
-    - `"deployment_run.started"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Deployment Run Succeeded Event Data
 
-- `BetaWebhookDeploymentRunSucceededEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookDeploymentRunSucceededEventData object`
+
+  - `type: "deployment_run.succeeded"`
 
   - `id: string`
 
@@ -177,31 +170,27 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
   - `organization_id: string`
 
-  - `type: "deployment_run.succeeded"`
-
-    - `"deployment_run.succeeded"`
-
   - `workspace_id: string`
 
 ### Beta Webhook Deployment Unpaused Event Data
 
-- `BetaWebhookDeploymentUnpausedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookDeploymentUnpausedEventData object`
+
+  - `type: "deployment.unpaused"`
 
   - `id: string`
 
     ID of the deployment that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "deployment.unpaused"`
-
-    - `"deployment.unpaused"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Deployment Updated Event Data
 
-- `BetaWebhookDeploymentUpdatedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookDeploymentUpdatedEventData object`
+
+  - `type: "deployment.updated"`
 
   - `id: string`
 
@@ -209,63 +198,55 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
   - `organization_id: string`
 
-  - `type: "deployment.updated"`
-
-    - `"deployment.updated"`
-
   - `workspace_id: string`
 
 ### Beta Webhook Environment Archived Event Data
 
-- `BetaWebhookEnvironmentArchivedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookEnvironmentArchivedEventData object`
+
+  - `type: "environment.archived"`
 
   - `id: string`
 
     ID of the environment that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "environment.archived"`
-
-    - `"environment.archived"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Environment Created Event Data
 
-- `BetaWebhookEnvironmentCreatedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookEnvironmentCreatedEventData object`
+
+  - `type: "environment.created"`
 
   - `id: string`
 
     ID of the environment that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "environment.created"`
-
-    - `"environment.created"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Environment Deleted Event Data
 
-- `BetaWebhookEnvironmentDeletedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookEnvironmentDeletedEventData object`
+
+  - `type: "environment.deleted"`
 
   - `id: string`
 
     ID of the environment that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "environment.deleted"`
-
-    - `"environment.deleted"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Environment Updated Event Data
 
-- `BetaWebhookEnvironmentUpdatedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookEnvironmentUpdatedEventData object`
+
+  - `type: "environment.updated"`
 
   - `id: string`
 
@@ -273,15 +254,15 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
   - `organization_id: string`
 
-  - `type: "environment.updated"`
-
-    - `"environment.updated"`
-
   - `workspace_id: string`
 
 ### Beta Webhook Event
 
-- `BetaWebhookEvent object { id, created_at, data, type }`
+- `BetaWebhookEvent object`
+
+  - `type: "event"`
+
+    Object type. Always `event` for webhook payloads.
 
   - `id: string`
 
@@ -291,182 +272,146 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
     RFC 3339 timestamp when the event occurred.
 
+    format: date-time
+
   - `data: BetaWebhookEventData`
 
-    - `BetaWebhookSessionCreatedEventData object { id, organization_id, type, workspace_id }`
-
-      - `id: string`
-
-        ID of the session that triggered the event.
-
-      - `organization_id: string`
+    - `BetaWebhookSessionCreatedEventData object`
 
       - `type: "session.created"`
 
-        - `"session.created"`
-
-      - `workspace_id: string`
-
-    - `BetaWebhookSessionPendingEventData object { id, organization_id, type, workspace_id }`
-
       - `id: string`
 
         ID of the session that triggered the event.
 
       - `organization_id: string`
+
+      - `workspace_id: string`
+
+    - `BetaWebhookSessionPendingEventData object`
 
       - `type: "session.pending"`
 
-        - `"session.pending"`
-
-      - `workspace_id: string`
-
-    - `BetaWebhookSessionRunningEventData object { id, organization_id, type, workspace_id }`
-
       - `id: string`
 
         ID of the session that triggered the event.
 
       - `organization_id: string`
+
+      - `workspace_id: string`
+
+    - `BetaWebhookSessionRunningEventData object`
 
       - `type: "session.running"`
 
-        - `"session.running"`
-
-      - `workspace_id: string`
-
-    - `BetaWebhookSessionIdledEventData object { id, organization_id, type, workspace_id }`
-
       - `id: string`
 
         ID of the session that triggered the event.
 
       - `organization_id: string`
+
+      - `workspace_id: string`
+
+    - `BetaWebhookSessionIdledEventData object`
 
       - `type: "session.idled"`
 
-        - `"session.idled"`
-
-      - `workspace_id: string`
-
-    - `BetaWebhookSessionRequiresActionEventData object { id, organization_id, type, workspace_id }`
-
       - `id: string`
 
         ID of the session that triggered the event.
 
       - `organization_id: string`
+
+      - `workspace_id: string`
+
+    - `BetaWebhookSessionRequiresActionEventData object`
 
       - `type: "session.requires_action"`
 
-        - `"session.requires_action"`
-
-      - `workspace_id: string`
-
-    - `BetaWebhookSessionArchivedEventData object { id, organization_id, type, workspace_id }`
-
       - `id: string`
 
         ID of the session that triggered the event.
 
       - `organization_id: string`
+
+      - `workspace_id: string`
+
+    - `BetaWebhookSessionArchivedEventData object`
 
       - `type: "session.archived"`
 
-        - `"session.archived"`
-
-      - `workspace_id: string`
-
-    - `BetaWebhookSessionDeletedEventData object { id, organization_id, type, workspace_id }`
-
       - `id: string`
 
         ID of the session that triggered the event.
 
       - `organization_id: string`
+
+      - `workspace_id: string`
+
+    - `BetaWebhookSessionDeletedEventData object`
 
       - `type: "session.deleted"`
 
-        - `"session.deleted"`
-
-      - `workspace_id: string`
-
-    - `BetaWebhookSessionStatusRescheduledEventData object { id, organization_id, type, workspace_id }`
-
       - `id: string`
 
         ID of the session that triggered the event.
 
       - `organization_id: string`
+
+      - `workspace_id: string`
+
+    - `BetaWebhookSessionStatusRescheduledEventData object`
 
       - `type: "session.status_rescheduled"`
 
-        - `"session.status_rescheduled"`
-
-      - `workspace_id: string`
-
-    - `BetaWebhookSessionStatusRunStartedEventData object { id, organization_id, type, workspace_id }`
-
       - `id: string`
 
         ID of the session that triggered the event.
 
       - `organization_id: string`
+
+      - `workspace_id: string`
+
+    - `BetaWebhookSessionStatusRunStartedEventData object`
 
       - `type: "session.status_run_started"`
 
-        - `"session.status_run_started"`
-
-      - `workspace_id: string`
-
-    - `BetaWebhookSessionStatusIdledEventData object { id, organization_id, type, workspace_id }`
-
       - `id: string`
 
         ID of the session that triggered the event.
 
       - `organization_id: string`
+
+      - `workspace_id: string`
+
+    - `BetaWebhookSessionStatusIdledEventData object`
 
       - `type: "session.status_idled"`
 
-        - `"session.status_idled"`
-
-      - `workspace_id: string`
-
-    - `BetaWebhookSessionStatusTerminatedEventData object { id, organization_id, type, workspace_id }`
-
       - `id: string`
 
         ID of the session that triggered the event.
 
       - `organization_id: string`
+
+      - `workspace_id: string`
+
+    - `BetaWebhookSessionStatusTerminatedEventData object`
 
       - `type: "session.status_terminated"`
 
-        - `"session.status_terminated"`
-
-      - `workspace_id: string`
-
-    - `BetaWebhookSessionThreadCreatedEventData object { id, organization_id, session_thread_id, 2 more }`
-
       - `id: string`
 
         ID of the session that triggered the event.
 
       - `organization_id: string`
 
-      - `session_thread_id: string`
+      - `workspace_id: string`
 
-        ID of the session thread this event refers to.
+    - `BetaWebhookSessionThreadCreatedEventData object`
 
       - `type: "session.thread_created"`
 
-        - `"session.thread_created"`
-
-      - `workspace_id: string`
-
-    - `BetaWebhookSessionThreadIdledEventData object { id, organization_id, session_thread_id, 2 more }`
-
       - `id: string`
 
         ID of the session that triggered the event.
@@ -476,14 +421,28 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
       - `session_thread_id: string`
 
         ID of the session thread this event refers to.
+
+      - `workspace_id: string`
+
+    - `BetaWebhookSessionThreadIdledEventData object`
 
       - `type: "session.thread_idled"`
 
-        - `"session.thread_idled"`
+      - `id: string`
+
+        ID of the session that triggered the event.
+
+      - `organization_id: string`
+
+      - `session_thread_id: string`
+
+        ID of the session thread this event refers to.
 
       - `workspace_id: string`
 
-    - `BetaWebhookSessionThreadTerminatedEventData object { id, organization_id, session_thread_id, 2 more }`
+    - `BetaWebhookSessionThreadTerminatedEventData object`
+
+      - `type: "session.thread_terminated"`
 
       - `id: string`
 
@@ -495,55 +454,47 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
         ID of the session thread this event refers to.
 
-      - `type: "session.thread_terminated"`
-
-        - `"session.thread_terminated"`
-
       - `workspace_id: string`
 
-    - `BetaWebhookSessionOutcomeEvaluationEndedEventData object { id, organization_id, type, workspace_id }`
-
-      - `id: string`
-
-        ID of the session that triggered the event.
-
-      - `organization_id: string`
+    - `BetaWebhookSessionOutcomeEvaluationEndedEventData object`
 
       - `type: "session.outcome_evaluation_ended"`
 
-        - `"session.outcome_evaluation_ended"`
+      - `id: string`
+
+        ID of the session that triggered the event.
+
+      - `organization_id: string`
 
       - `workspace_id: string`
 
-    - `BetaWebhookVaultCreatedEventData object { id, organization_id, type, workspace_id }`
-
-      - `id: string`
-
-        ID of the vault that triggered the event.
-
-      - `organization_id: string`
+    - `BetaWebhookVaultCreatedEventData object`
 
       - `type: "vault.created"`
 
-        - `"vault.created"`
-
-      - `workspace_id: string`
-
-    - `BetaWebhookVaultArchivedEventData object { id, organization_id, type, workspace_id }`
-
       - `id: string`
 
         ID of the vault that triggered the event.
 
       - `organization_id: string`
+
+      - `workspace_id: string`
+
+    - `BetaWebhookVaultArchivedEventData object`
 
       - `type: "vault.archived"`
 
-        - `"vault.archived"`
+      - `id: string`
+
+        ID of the vault that triggered the event.
+
+      - `organization_id: string`
 
       - `workspace_id: string`
 
-    - `BetaWebhookVaultDeletedEventData object { id, organization_id, type, workspace_id }`
+    - `BetaWebhookVaultDeletedEventData object`
+
+      - `type: "vault.deleted"`
 
       - `id: string`
 
@@ -551,23 +502,17 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
       - `organization_id: string`
 
-      - `type: "vault.deleted"`
-
-        - `"vault.deleted"`
-
       - `workspace_id: string`
 
-    - `BetaWebhookVaultCredentialCreatedEventData object { id, organization_id, type, 2 more }`
-
-      - `id: string`
-
-        ID of the vault credential that triggered the event.
-
-      - `organization_id: string`
+    - `BetaWebhookVaultCredentialCreatedEventData object`
 
       - `type: "vault_credential.created"`
 
-        - `"vault_credential.created"`
+      - `id: string`
+
+        ID of the vault credential that triggered the event.
+
+      - `organization_id: string`
 
       - `vault_id: string`
 
@@ -575,17 +520,15 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
       - `workspace_id: string`
 
-    - `BetaWebhookVaultCredentialArchivedEventData object { id, organization_id, type, 2 more }`
-
-      - `id: string`
-
-        ID of the vault credential that triggered the event.
-
-      - `organization_id: string`
+    - `BetaWebhookVaultCredentialArchivedEventData object`
 
       - `type: "vault_credential.archived"`
 
-        - `"vault_credential.archived"`
+      - `id: string`
+
+        ID of the vault credential that triggered the event.
+
+      - `organization_id: string`
 
       - `vault_id: string`
 
@@ -593,17 +536,15 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
       - `workspace_id: string`
 
-    - `BetaWebhookVaultCredentialDeletedEventData object { id, organization_id, type, 2 more }`
-
-      - `id: string`
-
-        ID of the vault credential that triggered the event.
-
-      - `organization_id: string`
+    - `BetaWebhookVaultCredentialDeletedEventData object`
 
       - `type: "vault_credential.deleted"`
 
-        - `"vault_credential.deleted"`
+      - `id: string`
+
+        ID of the vault credential that triggered the event.
+
+      - `organization_id: string`
 
       - `vault_id: string`
 
@@ -611,7 +552,9 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
       - `workspace_id: string`
 
-    - `BetaWebhookVaultCredentialRefreshFailedEventData object { id, organization_id, type, 2 more }`
+    - `BetaWebhookVaultCredentialRefreshFailedEventData object`
+
+      - `type: "vault_credential.refresh_failed"`
 
       - `id: string`
 
@@ -619,73 +562,63 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
       - `organization_id: string`
 
-      - `type: "vault_credential.refresh_failed"`
-
-        - `"vault_credential.refresh_failed"`
-
       - `vault_id: string`
 
         ID of the vault that owns this credential.
 
       - `workspace_id: string`
 
-    - `BetaWebhookSessionUpdatedEventData object { id, organization_id, type, workspace_id }`
-
-      - `id: string`
-
-        ID of the session that triggered the event.
-
-      - `organization_id: string`
+    - `BetaWebhookSessionUpdatedEventData object`
 
       - `type: "session.updated"`
 
-        - `"session.updated"`
+      - `id: string`
+
+        ID of the session that triggered the event.
+
+      - `organization_id: string`
 
       - `workspace_id: string`
 
-    - `BetaWebhookAgentCreatedEventData object { id, organization_id, type, workspace_id }`
-
-      - `id: string`
-
-        ID of the agent that triggered the event.
-
-      - `organization_id: string`
+    - `BetaWebhookAgentCreatedEventData object`
 
       - `type: "agent.created"`
 
-        - `"agent.created"`
-
-      - `workspace_id: string`
-
-    - `BetaWebhookAgentArchivedEventData object { id, organization_id, type, workspace_id }`
-
       - `id: string`
 
         ID of the agent that triggered the event.
 
       - `organization_id: string`
+
+      - `workspace_id: string`
+
+    - `BetaWebhookAgentArchivedEventData object`
 
       - `type: "agent.archived"`
 
-        - `"agent.archived"`
-
-      - `workspace_id: string`
-
-    - `BetaWebhookAgentDeletedEventData object { id, organization_id, type, workspace_id }`
-
       - `id: string`
 
         ID of the agent that triggered the event.
 
       - `organization_id: string`
+
+      - `workspace_id: string`
+
+    - `BetaWebhookAgentDeletedEventData object`
 
       - `type: "agent.deleted"`
 
-        - `"agent.deleted"`
+      - `id: string`
+
+        ID of the agent that triggered the event.
+
+      - `organization_id: string`
 
       - `workspace_id: string`
 
-    - `BetaWebhookDeploymentPausedEventData object { id, organization_id, type, workspace_id }`
+    - `BetaWebhookDeploymentPausedEventData object`
+
+      - `type: "deployment.paused"`
 
       - `id: string`
 
@@ -693,13 +626,11 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
       - `organization_id: string`
 
-      - `type: "deployment.paused"`
-
-        - `"deployment.paused"`
-
       - `workspace_id: string`
 
-    - `BetaWebhookDeploymentRunFailedEventData object { id, organization_id, type, workspace_id }`
+    - `BetaWebhookDeploymentRunFailedEventData object`
+
+      - `type: "deployment_run.failed"`
 
       - `id: string`
 
@@ -707,41 +638,35 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
       - `organization_id: string`
 
-      - `type: "deployment_run.failed"`
-
-        - `"deployment_run.failed"`
-
       - `workspace_id: string`
 
-    - `BetaWebhookDeploymentCreatedEventData object { id, organization_id, type, workspace_id }`
-
-      - `id: string`
-
-        ID of the deployment that triggered the event.
-
-      - `organization_id: string`
+    - `BetaWebhookDeploymentCreatedEventData object`
 
       - `type: "deployment.created"`
 
-        - `"deployment.created"`
-
-      - `workspace_id: string`
-
-    - `BetaWebhookDeploymentUpdatedEventData object { id, organization_id, type, workspace_id }`
-
       - `id: string`
 
         ID of the deployment that triggered the event.
 
       - `organization_id: string`
+
+      - `workspace_id: string`
+
+    - `BetaWebhookDeploymentUpdatedEventData object`
 
       - `type: "deployment.updated"`
 
-        - `"deployment.updated"`
+      - `id: string`
+
+        ID of the deployment that triggered the event.
+
+      - `organization_id: string`
 
       - `workspace_id: string`
 
-    - `BetaWebhookDeploymentUnpausedEventData object { id, organization_id, type, workspace_id }`
+    - `BetaWebhookDeploymentUnpausedEventData object`
+
+      - `type: "deployment.unpaused"`
 
       - `id: string`
 
@@ -749,13 +674,11 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
       - `organization_id: string`
 
-      - `type: "deployment.unpaused"`
-
-        - `"deployment.unpaused"`
-
       - `workspace_id: string`
 
-    - `BetaWebhookAgentUpdatedEventData object { id, organization_id, type, workspace_id }`
+    - `BetaWebhookAgentUpdatedEventData object`
+
+      - `type: "agent.updated"`
 
       - `id: string`
 
@@ -763,27 +686,23 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
       - `organization_id: string`
 
-      - `type: "agent.updated"`
-
-        - `"agent.updated"`
-
       - `workspace_id: string`
 
-    - `BetaWebhookDeploymentArchivedEventData object { id, organization_id, type, workspace_id }`
-
-      - `id: string`
-
-        ID of the deployment that triggered the event.
-
-      - `organization_id: string`
+    - `BetaWebhookDeploymentArchivedEventData object`
 
       - `type: "deployment.archived"`
 
-        - `"deployment.archived"`
+      - `id: string`
+
+        ID of the deployment that triggered the event.
+
+      - `organization_id: string`
 
       - `workspace_id: string`
 
-    - `BetaWebhookDeploymentRunStartedEventData object { id, organization_id, type, workspace_id }`
+    - `BetaWebhookDeploymentRunStartedEventData object`
+
+      - `type: "deployment_run.started"`
 
       - `id: string`
 
@@ -791,13 +710,11 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
       - `organization_id: string`
 
-      - `type: "deployment_run.started"`
-
-        - `"deployment_run.started"`
-
       - `workspace_id: string`
 
-    - `BetaWebhookDeploymentDeletedEventData object { id, organization_id, type, workspace_id }`
+    - `BetaWebhookDeploymentDeletedEventData object`
+
+      - `type: "deployment.deleted"`
 
       - `id: string`
 
@@ -805,13 +722,11 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
       - `organization_id: string`
 
-      - `type: "deployment.deleted"`
-
-        - `"deployment.deleted"`
-
       - `workspace_id: string`
 
-    - `BetaWebhookDeploymentRunSucceededEventData object { id, organization_id, type, workspace_id }`
+    - `BetaWebhookDeploymentRunSucceededEventData object`
+
+      - `type: "deployment_run.succeeded"`
 
       - `id: string`
 
@@ -819,55 +734,47 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
       - `organization_id: string`
 
-      - `type: "deployment_run.succeeded"`
-
-        - `"deployment_run.succeeded"`
-
       - `workspace_id: string`
 
-    - `BetaWebhookEnvironmentCreatedEventData object { id, organization_id, type, workspace_id }`
-
-      - `id: string`
-
-        ID of the environment that triggered the event.
-
-      - `organization_id: string`
+    - `BetaWebhookEnvironmentCreatedEventData object`
 
       - `type: "environment.created"`
 
-        - `"environment.created"`
-
-      - `workspace_id: string`
-
-    - `BetaWebhookEnvironmentUpdatedEventData object { id, organization_id, type, workspace_id }`
-
       - `id: string`
 
         ID of the environment that triggered the event.
 
       - `organization_id: string`
+
+      - `workspace_id: string`
+
+    - `BetaWebhookEnvironmentUpdatedEventData object`
 
       - `type: "environment.updated"`
 
-        - `"environment.updated"`
-
-      - `workspace_id: string`
-
-    - `BetaWebhookEnvironmentArchivedEventData object { id, organization_id, type, workspace_id }`
-
       - `id: string`
 
         ID of the environment that triggered the event.
 
       - `organization_id: string`
+
+      - `workspace_id: string`
+
+    - `BetaWebhookEnvironmentArchivedEventData object`
 
       - `type: "environment.archived"`
 
-        - `"environment.archived"`
+      - `id: string`
+
+        ID of the environment that triggered the event.
+
+      - `organization_id: string`
 
       - `workspace_id: string`
 
-    - `BetaWebhookEnvironmentDeletedEventData object { id, organization_id, type, workspace_id }`
+    - `BetaWebhookEnvironmentDeletedEventData object`
+
+      - `type: "environment.deleted"`
 
       - `id: string`
 
@@ -875,41 +782,35 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
       - `organization_id: string`
 
-      - `type: "environment.deleted"`
-
-        - `"environment.deleted"`
-
       - `workspace_id: string`
 
-    - `BetaWebhookMemoryStoreCreatedEventData object { id, organization_id, type, workspace_id }`
-
-      - `id: string`
-
-        ID of the memory store that triggered the event.
-
-      - `organization_id: string`
+    - `BetaWebhookMemoryStoreCreatedEventData object`
 
       - `type: "memory_store.created"`
 
-        - `"memory_store.created"`
-
-      - `workspace_id: string`
-
-    - `BetaWebhookMemoryStoreArchivedEventData object { id, organization_id, type, workspace_id }`
-
       - `id: string`
 
         ID of the memory store that triggered the event.
 
       - `organization_id: string`
+
+      - `workspace_id: string`
+
+    - `BetaWebhookMemoryStoreArchivedEventData object`
 
       - `type: "memory_store.archived"`
 
-        - `"memory_store.archived"`
+      - `id: string`
+
+        ID of the memory store that triggered the event.
+
+      - `organization_id: string`
 
       - `workspace_id: string`
 
-    - `BetaWebhookMemoryStoreDeletedEventData object { id, organization_id, type, workspace_id }`
+    - `BetaWebhookMemoryStoreDeletedEventData object`
+
+      - `type: "memory_store.deleted"`
 
       - `id: string`
 
@@ -917,13 +818,11 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
       - `organization_id: string`
 
-      - `type: "memory_store.deleted"`
-
-        - `"memory_store.deleted"`
-
       - `workspace_id: string`
 
-    - `BetaWebhookSessionBudgetReachedEventData object { id, organization_id, type, workspace_id }`
+    - `BetaWebhookSessionBudgetReachedEventData object`
+
+      - `type: "session.budget_reached"`
 
       - `id: string`
 
@@ -931,196 +830,148 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
       - `organization_id: string`
 
-      - `type: "session.budget_reached"`
-
-        - `"session.budget_reached"`
-
       - `workspace_id: string`
-
-  - `type: "event"`
-
-    Object type. Always `event` for webhook payloads.
-
-    - `"event"`
 
 ### Beta Webhook Event Data
 
 - `BetaWebhookEventData = BetaWebhookSessionCreatedEventData or BetaWebhookSessionPendingEventData or BetaWebhookSessionRunningEventData or 41 more`
 
-  - `BetaWebhookSessionCreatedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the session that triggered the event.
-
-    - `organization_id: string`
+  - `BetaWebhookSessionCreatedEventData object`
 
     - `type: "session.created"`
 
-      - `"session.created"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookSessionPendingEventData object { id, organization_id, type, workspace_id }`
-
     - `id: string`
 
       ID of the session that triggered the event.
 
     - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookSessionPendingEventData object`
 
     - `type: "session.pending"`
 
-      - `"session.pending"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookSessionRunningEventData object { id, organization_id, type, workspace_id }`
-
     - `id: string`
 
       ID of the session that triggered the event.
 
     - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookSessionRunningEventData object`
 
     - `type: "session.running"`
 
-      - `"session.running"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookSessionIdledEventData object { id, organization_id, type, workspace_id }`
-
     - `id: string`
 
       ID of the session that triggered the event.
 
     - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookSessionIdledEventData object`
 
     - `type: "session.idled"`
 
-      - `"session.idled"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookSessionRequiresActionEventData object { id, organization_id, type, workspace_id }`
-
     - `id: string`
 
       ID of the session that triggered the event.
 
     - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookSessionRequiresActionEventData object`
 
     - `type: "session.requires_action"`
 
-      - `"session.requires_action"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookSessionArchivedEventData object { id, organization_id, type, workspace_id }`
-
     - `id: string`
 
       ID of the session that triggered the event.
 
     - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookSessionArchivedEventData object`
 
     - `type: "session.archived"`
 
-      - `"session.archived"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookSessionDeletedEventData object { id, organization_id, type, workspace_id }`
-
     - `id: string`
 
       ID of the session that triggered the event.
 
     - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookSessionDeletedEventData object`
 
     - `type: "session.deleted"`
 
-      - `"session.deleted"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookSessionStatusRescheduledEventData object { id, organization_id, type, workspace_id }`
-
     - `id: string`
 
       ID of the session that triggered the event.
 
     - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookSessionStatusRescheduledEventData object`
 
     - `type: "session.status_rescheduled"`
 
-      - `"session.status_rescheduled"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookSessionStatusRunStartedEventData object { id, organization_id, type, workspace_id }`
-
     - `id: string`
 
       ID of the session that triggered the event.
 
     - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookSessionStatusRunStartedEventData object`
 
     - `type: "session.status_run_started"`
 
-      - `"session.status_run_started"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookSessionStatusIdledEventData object { id, organization_id, type, workspace_id }`
-
     - `id: string`
 
       ID of the session that triggered the event.
 
     - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookSessionStatusIdledEventData object`
 
     - `type: "session.status_idled"`
 
-      - `"session.status_idled"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookSessionStatusTerminatedEventData object { id, organization_id, type, workspace_id }`
-
     - `id: string`
 
       ID of the session that triggered the event.
 
     - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookSessionStatusTerminatedEventData object`
 
     - `type: "session.status_terminated"`
 
-      - `"session.status_terminated"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookSessionThreadCreatedEventData object { id, organization_id, session_thread_id, 2 more }`
-
     - `id: string`
 
       ID of the session that triggered the event.
 
     - `organization_id: string`
 
-    - `session_thread_id: string`
+    - `workspace_id: string`
 
-      ID of the session thread this event refers to.
+  - `BetaWebhookSessionThreadCreatedEventData object`
 
     - `type: "session.thread_created"`
 
-      - `"session.thread_created"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookSessionThreadIdledEventData object { id, organization_id, session_thread_id, 2 more }`
-
     - `id: string`
 
       ID of the session that triggered the event.
@@ -1130,14 +981,28 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
     - `session_thread_id: string`
 
       ID of the session thread this event refers to.
+
+    - `workspace_id: string`
+
+  - `BetaWebhookSessionThreadIdledEventData object`
 
     - `type: "session.thread_idled"`
 
-      - `"session.thread_idled"`
+    - `id: string`
+
+      ID of the session that triggered the event.
+
+    - `organization_id: string`
+
+    - `session_thread_id: string`
+
+      ID of the session thread this event refers to.
 
     - `workspace_id: string`
 
-  - `BetaWebhookSessionThreadTerminatedEventData object { id, organization_id, session_thread_id, 2 more }`
+  - `BetaWebhookSessionThreadTerminatedEventData object`
+
+    - `type: "session.thread_terminated"`
 
     - `id: string`
 
@@ -1149,55 +1014,47 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
       ID of the session thread this event refers to.
 
-    - `type: "session.thread_terminated"`
-
-      - `"session.thread_terminated"`
-
     - `workspace_id: string`
 
-  - `BetaWebhookSessionOutcomeEvaluationEndedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the session that triggered the event.
-
-    - `organization_id: string`
+  - `BetaWebhookSessionOutcomeEvaluationEndedEventData object`
 
     - `type: "session.outcome_evaluation_ended"`
 
-      - `"session.outcome_evaluation_ended"`
+    - `id: string`
+
+      ID of the session that triggered the event.
+
+    - `organization_id: string`
 
     - `workspace_id: string`
 
-  - `BetaWebhookVaultCreatedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the vault that triggered the event.
-
-    - `organization_id: string`
+  - `BetaWebhookVaultCreatedEventData object`
 
     - `type: "vault.created"`
 
-      - `"vault.created"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookVaultArchivedEventData object { id, organization_id, type, workspace_id }`
-
     - `id: string`
 
       ID of the vault that triggered the event.
 
     - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookVaultArchivedEventData object`
 
     - `type: "vault.archived"`
 
-      - `"vault.archived"`
+    - `id: string`
+
+      ID of the vault that triggered the event.
+
+    - `organization_id: string`
 
     - `workspace_id: string`
 
-  - `BetaWebhookVaultDeletedEventData object { id, organization_id, type, workspace_id }`
+  - `BetaWebhookVaultDeletedEventData object`
+
+    - `type: "vault.deleted"`
 
     - `id: string`
 
@@ -1205,23 +1062,17 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
     - `organization_id: string`
 
-    - `type: "vault.deleted"`
-
-      - `"vault.deleted"`
-
     - `workspace_id: string`
 
-  - `BetaWebhookVaultCredentialCreatedEventData object { id, organization_id, type, 2 more }`
-
-    - `id: string`
-
-      ID of the vault credential that triggered the event.
-
-    - `organization_id: string`
+  - `BetaWebhookVaultCredentialCreatedEventData object`
 
     - `type: "vault_credential.created"`
 
-      - `"vault_credential.created"`
+    - `id: string`
+
+      ID of the vault credential that triggered the event.
+
+    - `organization_id: string`
 
     - `vault_id: string`
 
@@ -1229,17 +1080,15 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
     - `workspace_id: string`
 
-  - `BetaWebhookVaultCredentialArchivedEventData object { id, organization_id, type, 2 more }`
-
-    - `id: string`
-
-      ID of the vault credential that triggered the event.
-
-    - `organization_id: string`
+  - `BetaWebhookVaultCredentialArchivedEventData object`
 
     - `type: "vault_credential.archived"`
 
-      - `"vault_credential.archived"`
+    - `id: string`
+
+      ID of the vault credential that triggered the event.
+
+    - `organization_id: string`
 
     - `vault_id: string`
 
@@ -1247,17 +1096,15 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
     - `workspace_id: string`
 
-  - `BetaWebhookVaultCredentialDeletedEventData object { id, organization_id, type, 2 more }`
-
-    - `id: string`
-
-      ID of the vault credential that triggered the event.
-
-    - `organization_id: string`
+  - `BetaWebhookVaultCredentialDeletedEventData object`
 
     - `type: "vault_credential.deleted"`
 
-      - `"vault_credential.deleted"`
+    - `id: string`
+
+      ID of the vault credential that triggered the event.
+
+    - `organization_id: string`
 
     - `vault_id: string`
 
@@ -1265,7 +1112,9 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
     - `workspace_id: string`
 
-  - `BetaWebhookVaultCredentialRefreshFailedEventData object { id, organization_id, type, 2 more }`
+  - `BetaWebhookVaultCredentialRefreshFailedEventData object`
+
+    - `type: "vault_credential.refresh_failed"`
 
     - `id: string`
 
@@ -1273,359 +1122,309 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
     - `organization_id: string`
 
-    - `type: "vault_credential.refresh_failed"`
-
-      - `"vault_credential.refresh_failed"`
-
     - `vault_id: string`
 
       ID of the vault that owns this credential.
 
     - `workspace_id: string`
 
-  - `BetaWebhookSessionUpdatedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the session that triggered the event.
-
-    - `organization_id: string`
+  - `BetaWebhookSessionUpdatedEventData object`
 
     - `type: "session.updated"`
 
-      - `"session.updated"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookAgentCreatedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the agent that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "agent.created"`
-
-      - `"agent.created"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookAgentArchivedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the agent that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "agent.archived"`
-
-      - `"agent.archived"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookAgentDeletedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the agent that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "agent.deleted"`
-
-      - `"agent.deleted"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookDeploymentPausedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the deployment that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "deployment.paused"`
-
-      - `"deployment.paused"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookDeploymentRunFailedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the deployment run that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "deployment_run.failed"`
-
-      - `"deployment_run.failed"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookDeploymentCreatedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the deployment that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "deployment.created"`
-
-      - `"deployment.created"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookDeploymentUpdatedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the deployment that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "deployment.updated"`
-
-      - `"deployment.updated"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookDeploymentUnpausedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the deployment that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "deployment.unpaused"`
-
-      - `"deployment.unpaused"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookAgentUpdatedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the agent that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "agent.updated"`
-
-      - `"agent.updated"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookDeploymentArchivedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the deployment that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "deployment.archived"`
-
-      - `"deployment.archived"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookDeploymentRunStartedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the deployment run that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "deployment_run.started"`
-
-      - `"deployment_run.started"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookDeploymentDeletedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the deployment that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "deployment.deleted"`
-
-      - `"deployment.deleted"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookDeploymentRunSucceededEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the deployment run that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "deployment_run.succeeded"`
-
-      - `"deployment_run.succeeded"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookEnvironmentCreatedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the environment that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "environment.created"`
-
-      - `"environment.created"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookEnvironmentUpdatedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the environment that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "environment.updated"`
-
-      - `"environment.updated"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookEnvironmentArchivedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the environment that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "environment.archived"`
-
-      - `"environment.archived"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookEnvironmentDeletedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the environment that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "environment.deleted"`
-
-      - `"environment.deleted"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookMemoryStoreCreatedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the memory store that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "memory_store.created"`
-
-      - `"memory_store.created"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookMemoryStoreArchivedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the memory store that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "memory_store.archived"`
-
-      - `"memory_store.archived"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookMemoryStoreDeletedEventData object { id, organization_id, type, workspace_id }`
-
-    - `id: string`
-
-      ID of the memory store that triggered the event.
-
-    - `organization_id: string`
-
-    - `type: "memory_store.deleted"`
-
-      - `"memory_store.deleted"`
-
-    - `workspace_id: string`
-
-  - `BetaWebhookSessionBudgetReachedEventData object { id, organization_id, type, workspace_id }`
-
     - `id: string`
 
       ID of the session that triggered the event.
 
     - `organization_id: string`
 
+    - `workspace_id: string`
+
+  - `BetaWebhookAgentCreatedEventData object`
+
+    - `type: "agent.created"`
+
+    - `id: string`
+
+      ID of the agent that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookAgentArchivedEventData object`
+
+    - `type: "agent.archived"`
+
+    - `id: string`
+
+      ID of the agent that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookAgentDeletedEventData object`
+
+    - `type: "agent.deleted"`
+
+    - `id: string`
+
+      ID of the agent that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookDeploymentPausedEventData object`
+
+    - `type: "deployment.paused"`
+
+    - `id: string`
+
+      ID of the deployment that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookDeploymentRunFailedEventData object`
+
+    - `type: "deployment_run.failed"`
+
+    - `id: string`
+
+      ID of the deployment run that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookDeploymentCreatedEventData object`
+
+    - `type: "deployment.created"`
+
+    - `id: string`
+
+      ID of the deployment that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookDeploymentUpdatedEventData object`
+
+    - `type: "deployment.updated"`
+
+    - `id: string`
+
+      ID of the deployment that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookDeploymentUnpausedEventData object`
+
+    - `type: "deployment.unpaused"`
+
+    - `id: string`
+
+      ID of the deployment that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookAgentUpdatedEventData object`
+
+    - `type: "agent.updated"`
+
+    - `id: string`
+
+      ID of the agent that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookDeploymentArchivedEventData object`
+
+    - `type: "deployment.archived"`
+
+    - `id: string`
+
+      ID of the deployment that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookDeploymentRunStartedEventData object`
+
+    - `type: "deployment_run.started"`
+
+    - `id: string`
+
+      ID of the deployment run that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookDeploymentDeletedEventData object`
+
+    - `type: "deployment.deleted"`
+
+    - `id: string`
+
+      ID of the deployment that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookDeploymentRunSucceededEventData object`
+
+    - `type: "deployment_run.succeeded"`
+
+    - `id: string`
+
+      ID of the deployment run that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookEnvironmentCreatedEventData object`
+
+    - `type: "environment.created"`
+
+    - `id: string`
+
+      ID of the environment that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookEnvironmentUpdatedEventData object`
+
+    - `type: "environment.updated"`
+
+    - `id: string`
+
+      ID of the environment that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookEnvironmentArchivedEventData object`
+
+    - `type: "environment.archived"`
+
+    - `id: string`
+
+      ID of the environment that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookEnvironmentDeletedEventData object`
+
+    - `type: "environment.deleted"`
+
+    - `id: string`
+
+      ID of the environment that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookMemoryStoreCreatedEventData object`
+
+    - `type: "memory_store.created"`
+
+    - `id: string`
+
+      ID of the memory store that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookMemoryStoreArchivedEventData object`
+
+    - `type: "memory_store.archived"`
+
+    - `id: string`
+
+      ID of the memory store that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookMemoryStoreDeletedEventData object`
+
+    - `type: "memory_store.deleted"`
+
+    - `id: string`
+
+      ID of the memory store that triggered the event.
+
+    - `organization_id: string`
+
+    - `workspace_id: string`
+
+  - `BetaWebhookSessionBudgetReachedEventData object`
+
     - `type: "session.budget_reached"`
 
-      - `"session.budget_reached"`
+    - `id: string`
+
+      ID of the session that triggered the event.
+
+    - `organization_id: string`
 
     - `workspace_id: string`
 
 ### Beta Webhook Memory Store Archived Event Data
 
-- `BetaWebhookMemoryStoreArchivedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookMemoryStoreArchivedEventData object`
+
+  - `type: "memory_store.archived"`
 
   - `id: string`
 
     ID of the memory store that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "memory_store.archived"`
-
-    - `"memory_store.archived"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Memory Store Created Event Data
 
-- `BetaWebhookMemoryStoreCreatedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookMemoryStoreCreatedEventData object`
+
+  - `type: "memory_store.created"`
 
   - `id: string`
 
     ID of the memory store that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "memory_store.created"`
-
-    - `"memory_store.created"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Memory Store Deleted Event Data
 
-- `BetaWebhookMemoryStoreDeletedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookMemoryStoreDeletedEventData object`
+
+  - `type: "memory_store.deleted"`
 
   - `id: string`
 
@@ -1633,223 +1432,195 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
   - `organization_id: string`
 
-  - `type: "memory_store.deleted"`
-
-    - `"memory_store.deleted"`
-
   - `workspace_id: string`
 
 ### Beta Webhook Session Archived Event Data
 
-- `BetaWebhookSessionArchivedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookSessionArchivedEventData object`
+
+  - `type: "session.archived"`
 
   - `id: string`
 
     ID of the session that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "session.archived"`
-
-    - `"session.archived"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Session Budget Reached Event Data
 
-- `BetaWebhookSessionBudgetReachedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookSessionBudgetReachedEventData object`
+
+  - `type: "session.budget_reached"`
 
   - `id: string`
 
     ID of the session that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "session.budget_reached"`
-
-    - `"session.budget_reached"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Session Created Event Data
 
-- `BetaWebhookSessionCreatedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookSessionCreatedEventData object`
+
+  - `type: "session.created"`
 
   - `id: string`
 
     ID of the session that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "session.created"`
-
-    - `"session.created"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Session Deleted Event Data
 
-- `BetaWebhookSessionDeletedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookSessionDeletedEventData object`
+
+  - `type: "session.deleted"`
 
   - `id: string`
 
     ID of the session that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "session.deleted"`
-
-    - `"session.deleted"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Session Idled Event Data
 
-- `BetaWebhookSessionIdledEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookSessionIdledEventData object`
+
+  - `type: "session.idled"`
 
   - `id: string`
 
     ID of the session that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "session.idled"`
-
-    - `"session.idled"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Session Outcome Evaluation Ended Event Data
 
-- `BetaWebhookSessionOutcomeEvaluationEndedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookSessionOutcomeEvaluationEndedEventData object`
+
+  - `type: "session.outcome_evaluation_ended"`
 
   - `id: string`
 
     ID of the session that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "session.outcome_evaluation_ended"`
-
-    - `"session.outcome_evaluation_ended"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Session Pending Event Data
 
-- `BetaWebhookSessionPendingEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookSessionPendingEventData object`
+
+  - `type: "session.pending"`
 
   - `id: string`
 
     ID of the session that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "session.pending"`
-
-    - `"session.pending"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Session Requires Action Event Data
 
-- `BetaWebhookSessionRequiresActionEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookSessionRequiresActionEventData object`
+
+  - `type: "session.requires_action"`
 
   - `id: string`
 
     ID of the session that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "session.requires_action"`
-
-    - `"session.requires_action"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Session Running Event Data
 
-- `BetaWebhookSessionRunningEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookSessionRunningEventData object`
+
+  - `type: "session.running"`
 
   - `id: string`
 
     ID of the session that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "session.running"`
-
-    - `"session.running"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Session Status Idled Event Data
 
-- `BetaWebhookSessionStatusIdledEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookSessionStatusIdledEventData object`
+
+  - `type: "session.status_idled"`
 
   - `id: string`
 
     ID of the session that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "session.status_idled"`
-
-    - `"session.status_idled"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Session Status Rescheduled Event Data
 
-- `BetaWebhookSessionStatusRescheduledEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookSessionStatusRescheduledEventData object`
+
+  - `type: "session.status_rescheduled"`
 
   - `id: string`
 
     ID of the session that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "session.status_rescheduled"`
-
-    - `"session.status_rescheduled"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Session Status Run Started Event Data
 
-- `BetaWebhookSessionStatusRunStartedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookSessionStatusRunStartedEventData object`
+
+  - `type: "session.status_run_started"`
 
   - `id: string`
 
     ID of the session that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "session.status_run_started"`
-
-    - `"session.status_run_started"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Session Status Terminated Event Data
 
-- `BetaWebhookSessionStatusTerminatedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookSessionStatusTerminatedEventData object`
+
+  - `type: "session.status_terminated"`
 
   - `id: string`
 
     ID of the session that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "session.status_terminated"`
-
-    - `"session.status_terminated"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Session Thread Created Event Data
 
-- `BetaWebhookSessionThreadCreatedEventData object { id, organization_id, session_thread_id, 2 more }`
+- `BetaWebhookSessionThreadCreatedEventData object`
+
+  - `type: "session.thread_created"`
 
   - `id: string`
 
@@ -1860,16 +1631,14 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
   - `session_thread_id: string`
 
     ID of the session thread this event refers to.
-
-  - `type: "session.thread_created"`
-
-    - `"session.thread_created"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Session Thread Idled Event Data
 
-- `BetaWebhookSessionThreadIdledEventData object { id, organization_id, session_thread_id, 2 more }`
+- `BetaWebhookSessionThreadIdledEventData object`
+
+  - `type: "session.thread_idled"`
 
   - `id: string`
 
@@ -1880,16 +1649,14 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
   - `session_thread_id: string`
 
     ID of the session thread this event refers to.
-
-  - `type: "session.thread_idled"`
-
-    - `"session.thread_idled"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Session Thread Terminated Event Data
 
-- `BetaWebhookSessionThreadTerminatedEventData object { id, organization_id, session_thread_id, 2 more }`
+- `BetaWebhookSessionThreadTerminatedEventData object`
+
+  - `type: "session.thread_terminated"`
 
   - `id: string`
 
@@ -1901,15 +1668,13 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
     ID of the session thread this event refers to.
 
-  - `type: "session.thread_terminated"`
-
-    - `"session.thread_terminated"`
-
   - `workspace_id: string`
 
 ### Beta Webhook Session Updated Event Data
 
-- `BetaWebhookSessionUpdatedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookSessionUpdatedEventData object`
+
+  - `type: "session.updated"`
 
   - `id: string`
 
@@ -1917,31 +1682,27 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
   - `organization_id: string`
 
-  - `type: "session.updated"`
-
-    - `"session.updated"`
-
   - `workspace_id: string`
 
 ### Beta Webhook Vault Archived Event Data
 
-- `BetaWebhookVaultArchivedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookVaultArchivedEventData object`
+
+  - `type: "vault.archived"`
 
   - `id: string`
 
     ID of the vault that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "vault.archived"`
-
-    - `"vault.archived"`
 
   - `workspace_id: string`
 
 ### Beta Webhook Vault Created Event Data
 
-- `BetaWebhookVaultCreatedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookVaultCreatedEventData object`
+
+  - `type: "vault.created"`
 
   - `id: string`
 
@@ -1949,25 +1710,19 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
   - `organization_id: string`
 
-  - `type: "vault.created"`
-
-    - `"vault.created"`
-
   - `workspace_id: string`
 
 ### Beta Webhook Vault Credential Archived Event Data
 
-- `BetaWebhookVaultCredentialArchivedEventData object { id, organization_id, type, 2 more }`
+- `BetaWebhookVaultCredentialArchivedEventData object`
+
+  - `type: "vault_credential.archived"`
 
   - `id: string`
 
     ID of the vault credential that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "vault_credential.archived"`
-
-    - `"vault_credential.archived"`
 
   - `vault_id: string`
 
@@ -1977,17 +1732,15 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
 ### Beta Webhook Vault Credential Created Event Data
 
-- `BetaWebhookVaultCredentialCreatedEventData object { id, organization_id, type, 2 more }`
+- `BetaWebhookVaultCredentialCreatedEventData object`
+
+  - `type: "vault_credential.created"`
 
   - `id: string`
 
     ID of the vault credential that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "vault_credential.created"`
-
-    - `"vault_credential.created"`
 
   - `vault_id: string`
 
@@ -1997,17 +1750,15 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
 ### Beta Webhook Vault Credential Deleted Event Data
 
-- `BetaWebhookVaultCredentialDeletedEventData object { id, organization_id, type, 2 more }`
+- `BetaWebhookVaultCredentialDeletedEventData object`
+
+  - `type: "vault_credential.deleted"`
 
   - `id: string`
 
     ID of the vault credential that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "vault_credential.deleted"`
-
-    - `"vault_credential.deleted"`
 
   - `vault_id: string`
 
@@ -2017,17 +1768,15 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
 ### Beta Webhook Vault Credential Refresh Failed Event Data
 
-- `BetaWebhookVaultCredentialRefreshFailedEventData object { id, organization_id, type, 2 more }`
+- `BetaWebhookVaultCredentialRefreshFailedEventData object`
+
+  - `type: "vault_credential.refresh_failed"`
 
   - `id: string`
 
     ID of the vault credential that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "vault_credential.refresh_failed"`
-
-    - `"vault_credential.refresh_failed"`
 
   - `vault_id: string`
 
@@ -2037,16 +1786,14 @@ url: https://platform.claude.com/docs/en/api/beta/webhooks
 
 ### Beta Webhook Vault Deleted Event Data
 
-- `BetaWebhookVaultDeletedEventData object { id, organization_id, type, workspace_id }`
+- `BetaWebhookVaultDeletedEventData object`
+
+  - `type: "vault.deleted"`
 
   - `id: string`
 
     ID of the vault that triggered the event.
 
   - `organization_id: string`
-
-  - `type: "vault.deleted"`
-
-    - `"vault.deleted"`
 
   - `workspace_id: string`

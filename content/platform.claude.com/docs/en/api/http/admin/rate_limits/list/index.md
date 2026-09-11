@@ -1,3 +1,8 @@
+---
+title: List Organization Rate Limits
+url: https://platform.claude.com/docs/en/api/beta/organization/rate_limits/list
+---
+
 # List Organization Rate Limits
 
 **GET** `/v1/organizations/rate_limits`
@@ -48,9 +53,15 @@ the remaining entries.
 
 ## Returns
 
-- `data: array of object`
+- `data: array of BetaOrganizationRateLimit`
 
   Rate-limit entries for the organization, one per group.
+
+  - `type: "rate_limit"`
+
+    Object type. Always `rate_limit` for organization rate-limit entries.
+
+    default: rate_limit
 
   - `id: string`
 
@@ -72,7 +83,7 @@ the remaining entries.
 
     - `"web_search"`
 
-  - `limits: array of object`
+  - `limits: array of BetaOrganizationRateLimitValue`
 
     The limiter values that apply to this group.
 
@@ -88,12 +99,6 @@ the remaining entries.
 
     Model names this entry's limits apply to, including aliases. `null` when `group_type` is not `"model_group"`.
 
-  - `type: "rate_limit"`
-
-    Object type. Always `rate_limit` for organization rate-limit entries.
-
-    default: rate_limit
-
 - `next_page: string or null`
 
   Opaque cursor for the next page of results, or `null` when no entries remain beyond this response.
@@ -103,7 +108,7 @@ the remaining entries.
 ```bash
 curl https://api.anthropic.com/v1/organizations/rate_limits \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 ### Response (200)

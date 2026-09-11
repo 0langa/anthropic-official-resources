@@ -7,7 +7,7 @@ url: https://platform.claude.com/docs/en/api/beta/organization/workspaces/servic
 
 ## List Service Account Workspace Members
 
-**get** `/v1/organizations/workspaces/{workspace_id}/service_accounts`
+**GET** `/v1/organizations/workspaces/{workspace_id}/service_accounts`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -20,23 +20,25 @@ archived workspace. The implicit default-workspace membership is not
 included in this list. Memberships of archived service accounts are
 omitted from the results.
 
-### Path Parameters
+### Path parameters
 
 - `workspace_id: string`
 
   ID of the workspace.
 
-### Query Parameters
+### Query parameters
 
 - `limit: optional number`
 
   Number of results per page.
 
+  default: 20, maximum: 100, minimum: 1
+
 - `page: optional string`
 
   Opaque cursor from a previous response's `next_page`.
 
-### Header Parameters
+### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -44,7 +46,7 @@ omitted from the results.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -91,6 +93,8 @@ omitted from the results.
     - `"user-profiles-2026-03-24"`
 
     - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
 
     - `"advisor-tool-2026-03-01"`
 
@@ -138,6 +142,10 @@ omitted from the results.
 
 - `data: array of BetaServiceAccountWorkspaceMember`
 
+  - `type: "service_account_workspace_member"`
+
+    default: service_account_workspace_member
+
   - `created_by_actor_id: string or null`
 
     Tagged ID (`user_...`/`svac_...`) of the actor who created this membership.
@@ -149,10 +157,6 @@ omitted from the results.
   - `service_account_id: string`
 
     Tagged service account ID (`svac_...`).
-
-  - `type: "service_account_workspace_member"`
-
-    - `"service_account_workspace_member"`
 
   - `workspace_id: string`
 
@@ -178,13 +182,13 @@ omitted from the results.
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -204,7 +208,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service
 
 ## Create Service Account Workspace Member
 
-**post** `/v1/organizations/workspaces/{workspace_id}/service_accounts`
+**POST** `/v1/organizations/workspaces/{workspace_id}/service_accounts`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -219,13 +223,13 @@ member of the workspace, its `workspace_role` is replaced with the
 value supplied here. Archived workspaces return 400. Archived service
 accounts cannot be added and are rejected.
 
-### Path Parameters
+### Path parameters
 
 - `workspace_id: string`
 
   ID of the workspace.
 
-### Header Parameters
+### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -233,7 +237,7 @@ accounts cannot be added and are rejected.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -281,6 +285,8 @@ accounts cannot be added and are rejected.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -323,7 +329,7 @@ accounts cannot be added and are rejected.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+### Body parameters
 
 - `service_account_id: string`
 
@@ -343,7 +349,11 @@ accounts cannot be added and are rejected.
 
 ### Returns
 
-- `BetaServiceAccountWorkspaceMember object { created_by_actor_id, implicit, service_account_id, 3 more }`
+- `BetaServiceAccountWorkspaceMember object`
+
+  - `type: "service_account_workspace_member"`
+
+    default: service_account_workspace_member
 
   - `created_by_actor_id: string or null`
 
@@ -356,10 +366,6 @@ accounts cannot be added and are rejected.
   - `service_account_id: string`
 
     Tagged service account ID (`svac_...`).
-
-  - `type: "service_account_workspace_member"`
-
-    - `"service_account_workspace_member"`
 
   - `workspace_id: string`
 
@@ -381,7 +387,7 @@ accounts cannot be added and are rejected.
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -392,7 +398,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service
         }'
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -407,7 +413,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service
 
 ## Get Service Account Workspace Member
 
-**get** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
+**GET** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -420,7 +426,7 @@ membership when no explicit membership exists; an explicitly added
 membership is returned with its assigned role. An archived service
 account returns 404.
 
-### Path Parameters
+### Path parameters
 
 - `workspace_id: string`
 
@@ -430,7 +436,7 @@ account returns 404.
 
   ID of the service account.
 
-### Header Parameters
+### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -438,7 +444,7 @@ account returns 404.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -485,6 +491,8 @@ account returns 404.
     - `"user-profiles-2026-03-24"`
 
     - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
 
     - `"advisor-tool-2026-03-01"`
 
@@ -530,7 +538,11 @@ account returns 404.
 
 ### Returns
 
-- `BetaServiceAccountWorkspaceMember object { created_by_actor_id, implicit, service_account_id, 3 more }`
+- `BetaServiceAccountWorkspaceMember object`
+
+  - `type: "service_account_workspace_member"`
+
+    default: service_account_workspace_member
 
   - `created_by_actor_id: string or null`
 
@@ -543,10 +555,6 @@ account returns 404.
   - `service_account_id: string`
 
     Tagged service account ID (`svac_...`).
-
-  - `type: "service_account_workspace_member"`
-
-    - `"service_account_workspace_member"`
 
   - `workspace_id: string`
 
@@ -568,13 +576,13 @@ account returns 404.
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts/$SERVICE_ACCOUNT_ID \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -589,7 +597,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service
 
 ## Update Service Account Workspace Member
 
-**post** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
+**POST** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -602,7 +610,7 @@ default-workspace membership, add the service account explicitly with
 return 400. Archived service accounts cannot be updated and are
 rejected.
 
-### Path Parameters
+### Path parameters
 
 - `workspace_id: string`
 
@@ -612,7 +620,7 @@ rejected.
 
   ID of the service account.
 
-### Header Parameters
+### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -620,7 +628,7 @@ rejected.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -668,6 +676,8 @@ rejected.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -710,7 +720,7 @@ rejected.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+### Body parameters
 
 - `workspace_role: BetaNoBillingWorkspaceRole`
 
@@ -726,7 +736,11 @@ rejected.
 
 ### Returns
 
-- `BetaServiceAccountWorkspaceMember object { created_by_actor_id, implicit, service_account_id, 3 more }`
+- `BetaServiceAccountWorkspaceMember object`
+
+  - `type: "service_account_workspace_member"`
+
+    default: service_account_workspace_member
 
   - `created_by_actor_id: string or null`
 
@@ -739,10 +753,6 @@ rejected.
   - `service_account_id: string`
 
     Tagged service account ID (`svac_...`).
-
-  - `type: "service_account_workspace_member"`
-
-    - `"service_account_workspace_member"`
 
   - `workspace_id: string`
 
@@ -764,7 +774,7 @@ rejected.
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts/$SERVICE_ACCOUNT_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -774,7 +784,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service
         }'
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -789,7 +799,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service
 
 ## Delete Service Account Workspace Member
 
-**delete** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
+**DELETE** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -801,7 +811,7 @@ returns 200 but is a no-op and the membership persists; deleting an
 explicit default-workspace row reverts to the implicit `workspace_user`
 membership. Archived workspaces return 400.
 
-### Path Parameters
+### Path parameters
 
 - `workspace_id: string`
 
@@ -811,7 +821,7 @@ membership. Archived workspaces return 400.
 
   ID of the service account.
 
-### Header Parameters
+### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -819,7 +829,7 @@ membership. Archived workspaces return 400.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -867,6 +877,8 @@ membership. Archived workspaces return 400.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -911,13 +923,13 @@ membership. Archived workspaces return 400.
 
 ### Returns
 
+- `type: "service_account_workspace_member_deleted"`
+
+  default: service_account_workspace_member_deleted
+
 - `service_account_id: string`
 
   Tagged service account ID (`svac_...`) named in the delete request. Removal is idempotent; see the endpoint description for the implicit-membership no-op.
-
-- `type: "service_account_workspace_member_deleted"`
-
-  - `"service_account_workspace_member_deleted"`
 
 - `workspace_id: string`
 
@@ -925,14 +937,14 @@ membership. Archived workspaces return 400.
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts/$SERVICE_ACCOUNT_ID \
     -X DELETE \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -942,19 +954,19 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service
 }
 ```
 
-## Domain Types
+## Domain types
 
 ### Service Account Remove Response
 
-- `ServiceAccountRemoveResponse object { service_account_id, type, workspace_id }`
+- `ServiceAccountRemoveResponse object`
+
+  - `type: "service_account_workspace_member_deleted"`
+
+    default: service_account_workspace_member_deleted
 
   - `service_account_id: string`
 
     Tagged service account ID (`svac_...`) named in the delete request. Removal is idempotent; see the endpoint description for the implicit-membership no-op.
-
-  - `type: "service_account_workspace_member_deleted"`
-
-    - `"service_account_workspace_member_deleted"`
 
   - `workspace_id: string`
 

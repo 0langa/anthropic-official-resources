@@ -10,7 +10,7 @@ Sep 4, 2026
 
 A decade later, Dutch computer scientist Jan Bergstra proposed “formalizing” Wiles’s proof: converting the mathematical reasoning into a form computers can check automatically. Since then, mathematicians have been developing the methods needed to encode such a complex proof, including a multi-year community effort kicked off in 2024 by Kevin Buzzard at Imperial College London [to complete the formalization](https://lean-lang.org/use-cases/flt/) using the [Lean proof assistant](https://en.wikipedia.org/wiki/Lean_(proof_assistant)).
 
-Recently, Tianyi Peng, an Anthropic researcher whose group at Columbia University builds tools for AI formalization, set out to test whether Claude could make progress on formalizing FLT.1 The result went further than he expected. In 11 days, working largely autonomously, Claude produced the first end-to-end, computer-checked proof of FLT. Along the way, it wrote 13 million lines of Lean and proved 29,500 intermediate theorems.
+Recently, Tianyi Peng, an Anthropic researcher whose group at Columbia University builds tools for AI formalization, set out to test whether Claude could make progress on formalizing FLT.[1](https://www.anthropic.com/research/formalizing-fermats-last-theorem) The result went further than he expected. In 11 days, working largely autonomously, Claude produced the first end-to-end, computer-checked proof of FLT. Along the way, it wrote 13 million lines of Lean and proved 29,500 intermediate theorems.
 
 We shared the [resulting proof](https://github.com/anthropics/fermats-last-theorem) with Kevin Buzzard, who said:
 
@@ -22,7 +22,7 @@ Automatically formalizing a proof as complex as FLT is a significant step toward
 
 Unlike [recent AI-driven](https://www.anthropic.com/research/riemann-zeta) work on the Riemann hypothesis, which produced novel *mathematics*, what’s novel here is the *verification*—checking a mathematical proof as one would check a mathematical computation with a calculator. Proving math theorems requires assembling complex logical chains, and if a single link is broken, everything that follows it might turn out to be false. Understanding a novel result deeply enough to be confident in its correctness can take months, or even years, of work.
 
-Fermat’s Last Theorem is an illustrative example.2 Fermat wrote down the theorem’s statement in the margin of a book, alongside a tantalizing note:
+Fermat’s Last Theorem is an illustrative example.[2](https://www.anthropic.com/research/formalizing-fermats-last-theorem) Fermat wrote down the theorem’s statement in the margin of a book, alongside a tantalizing note:
 
 > I have discovered a truly marvelous proof of this, which this margin is too narrow to contain.
 
@@ -38,7 +38,7 @@ One way to check a proof’s correctness is to ask a computer to do it. Proof as
 
 For FLT, the formalization process was expected to take years. Just the [blueprint](https://imperialcollegelondon.github.io/FLT/blueprint.pdf) the mathematical community has been using to describe the initial phase of the project runs to 86 pages.
 
-Claude completed the proof in 11 days, producing computer-verifiable proofs of 30,300 theorems along the way (using 29,500 in the final proof). Dozens of Claude agents collaborated to define concepts, prove intermediate theorems, and use those theorems to prove ever harder statements. At 13 million lines of Lean code, Claude’s proof is over 5x the size of Mathlib, the principal community library of mathematical proofs this theorem builds on.3
+Claude completed the proof in 11 days, producing computer-verifiable proofs of 30,300 theorems along the way (using 29,500 in the final proof). Dozens of Claude agents collaborated to define concepts, prove intermediate theorems, and use those theorems to prove ever harder statements. At 13 million lines of Lean code, Claude’s proof is over 5x the size of Mathlib, the principal community library of mathematical proofs this theorem builds on.[3](https://www.anthropic.com/research/formalizing-fermats-last-theorem)
 
 Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/6d5e1a90507ea4171510b907134139bf716b7d15.mp4
 
@@ -112,6 +112,12 @@ The full proof is available on [GitHub](https://github.com/anthropics/fermats-la
 
 ## Related content
 
+### Measuring tactical intelligence targeting and conventional weapons capabilities of AI models
+
+Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.
+
+[Read more](https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities)
+
 ### An alignment assessment of recent cybersecurity incidents
 
 We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.
@@ -123,12 +129,6 @@ We present an alignment assessment of four incidents in which Claude models gain
 We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities.
 
 [Read more](https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures)
-
-### Enabling independent research on how people use Claude
-
-Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool. In this post, we share high-level results from those studies and what we learned running this pilot.
-
-[Read more](https://www.anthropic.com/research/enabling-independent-research)
 
 ## Subscribe to Anthropic Science
 

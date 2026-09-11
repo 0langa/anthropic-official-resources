@@ -7,7 +7,7 @@ url: https://platform.claude.com/docs/en/api/beta/organization/compliance_settin
 
 ## Get Compliance Settings
 
-**get** `/v1/organizations/compliance_settings`
+**GET** `/v1/organizations/compliance_settings`
 
 Retrieve your organization's Compliance Settings.
 
@@ -18,37 +18,37 @@ organization reads the state inherited from the parent's configuration.
 
 ### Returns
 
-- `BetaComplianceSettings object { state, type }`
-
-  - `state: BetaComplianceSettingsStateEnabled or BetaComplianceSettingsStateDisabled`
-
-    Whether the Compliance API is enabled for this organization.
-
-    - `BetaComplianceSettingsStateEnabled object { type }`
-
-      - `type: "enabled"`
-
-        - `"enabled"`
-
-    - `BetaComplianceSettingsStateDisabled object { type }`
-
-      - `type: "disabled"`
-
-        - `"disabled"`
+- `BetaComplianceSettings object`
 
   - `type: "compliance_settings"`
 
-    - `"compliance_settings"`
+    default: compliance_settings
+
+  - `state: BetaComplianceSettingsState`
+
+    Whether the Compliance API is enabled for this organization.
+
+    - `BetaComplianceSettingsStateEnabled object`
+
+      - `type: "enabled"`
+
+        default: enabled
+
+    - `BetaComplianceSettingsStateDisabled object`
+
+      - `type: "disabled"`
+
+        default: disabled
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/compliance_settings \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -61,7 +61,7 @@ curl https://api.anthropic.com/v1/organizations/compliance_settings \
 
 ## Update Compliance Settings
 
-**post** `/v1/organizations/compliance_settings`
+**POST** `/v1/organizations/compliance_settings`
 
 Update your organization's Compliance Settings.
 
@@ -78,51 +78,47 @@ provisioning (including re-runs) re-enables the Compliance API even
 after a `disabled` request. Automated provisioning never disables
 compliance settings.
 
-### Body Parameters
+### Body parameters
 
-- `state: BetaComplianceSettingsStateEnabledParam or BetaComplianceSettingsStateDisabledParam`
+- `state: BetaComplianceSettingsStateParam`
 
   Desired state. Accepts the string shorthand "enabled" or "disabled" in place of the object form; the response always returns the canonical object form.
 
-  - `BetaComplianceSettingsStateEnabledParam object { type }`
+  - `BetaComplianceSettingsStateEnabledParam object`
 
     - `type: "enabled"`
 
-      - `"enabled"`
-
-  - `BetaComplianceSettingsStateDisabledParam object { type }`
+  - `BetaComplianceSettingsStateDisabledParam object`
 
     - `type: "disabled"`
 
-      - `"disabled"`
-
 ### Returns
 
-- `BetaComplianceSettings object { state, type }`
-
-  - `state: BetaComplianceSettingsStateEnabled or BetaComplianceSettingsStateDisabled`
-
-    Whether the Compliance API is enabled for this organization.
-
-    - `BetaComplianceSettingsStateEnabled object { type }`
-
-      - `type: "enabled"`
-
-        - `"enabled"`
-
-    - `BetaComplianceSettingsStateDisabled object { type }`
-
-      - `type: "disabled"`
-
-        - `"disabled"`
+- `BetaComplianceSettings object`
 
   - `type: "compliance_settings"`
 
-    - `"compliance_settings"`
+    default: compliance_settings
+
+  - `state: BetaComplianceSettingsState`
+
+    Whether the Compliance API is enabled for this organization.
+
+    - `BetaComplianceSettingsStateEnabled object`
+
+      - `type: "enabled"`
+
+        default: enabled
+
+    - `BetaComplianceSettingsStateDisabled object`
+
+      - `type: "disabled"`
+
+        default: disabled
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/compliance_settings \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -134,7 +130,7 @@ curl https://api.anthropic.com/v1/organizations/compliance_settings \
         }'
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -145,60 +141,84 @@ curl https://api.anthropic.com/v1/organizations/compliance_settings \
 }
 ```
 
-## Domain Types
+## Domain types
 
 ### Beta Compliance Settings
 
-- `BetaComplianceSettings object { state, type }`
-
-  - `state: BetaComplianceSettingsStateEnabled or BetaComplianceSettingsStateDisabled`
-
-    Whether the Compliance API is enabled for this organization.
-
-    - `BetaComplianceSettingsStateEnabled object { type }`
-
-      - `type: "enabled"`
-
-        - `"enabled"`
-
-    - `BetaComplianceSettingsStateDisabled object { type }`
-
-      - `type: "disabled"`
-
-        - `"disabled"`
+- `BetaComplianceSettings object`
 
   - `type: "compliance_settings"`
 
-    - `"compliance_settings"`
+    default: compliance_settings
+
+  - `state: BetaComplianceSettingsState`
+
+    Whether the Compliance API is enabled for this organization.
+
+    - `BetaComplianceSettingsStateEnabled object`
+
+      - `type: "enabled"`
+
+        default: enabled
+
+    - `BetaComplianceSettingsStateDisabled object`
+
+      - `type: "disabled"`
+
+        default: disabled
+
+### Beta Compliance Settings State
+
+- `BetaComplianceSettingsState = BetaComplianceSettingsStateEnabled or BetaComplianceSettingsStateDisabled`
+
+  - `BetaComplianceSettingsStateEnabled object`
+
+    - `type: "enabled"`
+
+      default: enabled
+
+  - `BetaComplianceSettingsStateDisabled object`
+
+    - `type: "disabled"`
+
+      default: disabled
 
 ### Beta Compliance Settings State Disabled
 
-- `BetaComplianceSettingsStateDisabled object { type }`
+- `BetaComplianceSettingsStateDisabled object`
 
   - `type: "disabled"`
 
-    - `"disabled"`
+    default: disabled
 
 ### Beta Compliance Settings State Disabled Param
 
-- `BetaComplianceSettingsStateDisabledParam object { type }`
+- `BetaComplianceSettingsStateDisabledParam object`
 
   - `type: "disabled"`
 
-    - `"disabled"`
-
 ### Beta Compliance Settings State Enabled
 
-- `BetaComplianceSettingsStateEnabled object { type }`
+- `BetaComplianceSettingsStateEnabled object`
 
   - `type: "enabled"`
 
-    - `"enabled"`
+    default: enabled
 
 ### Beta Compliance Settings State Enabled Param
 
-- `BetaComplianceSettingsStateEnabledParam object { type }`
+- `BetaComplianceSettingsStateEnabledParam object`
 
   - `type: "enabled"`
 
-    - `"enabled"`
+### Beta Compliance Settings State Param
+
+- `BetaComplianceSettingsStateParam = BetaComplianceSettingsStateEnabledParam or BetaComplianceSettingsStateDisabledParam`
+
+  - `BetaComplianceSettingsStateEnabledParam object`
+
+    - `type: "enabled"`
+
+  - `BetaComplianceSettingsStateDisabledParam object`
+
+    - `type: "disabled"`

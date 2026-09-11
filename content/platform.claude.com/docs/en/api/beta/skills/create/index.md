@@ -3,13 +3,13 @@ title: Create Skill
 url: https://platform.claude.com/docs/en/api/beta/skills/create
 ---
 
-## Create Skill
+# Create Skill
 
-**post** `/v1/skills`
+**POST** `/v1/skills`
 
 Create Skill
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -17,7 +17,7 @@ Create Skill
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -65,6 +65,8 @@ Create Skill
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -107,9 +109,33 @@ Create Skill
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+- `"anthropic-workspace-id": optional string`
 
-- `BetaSkill object { id, created_at, display_name, 4 more }`
+## Body parameters (form-data)
+
+- `files: array of string`
+
+  Files to upload for the skill.
+
+  All files must be in the same top-level directory and must include a SKILL.md file at the root of that directory.
+
+- `display_name: optional string or null`
+
+  Human-readable, single-line label for the Skill. Maximum 255 characters.
+  Always set: derived from the SKILL.md frontmatter `name` when omitted at
+  creation. Not unique.
+
+## Returns
+
+- `BetaSkill object`
+
+  - `type: "skill"`
+
+    Object type.
+
+    For Skills, this is always `"skill"`.
+
+    default: skill
 
   - `id: string`
 
@@ -120,6 +146,8 @@ Create Skill
   - `created_at: string`
 
     ISO 8601 timestamp of when the skill was created.
+
+    format: date-time
 
   - `display_name: string`
 
@@ -161,21 +189,15 @@ Create Skill
 
       - `"plugin"`
 
-  - `type: "skill"`
-
-    Object type.
-
-    For Skills, this is always `"skill"`.
-
-    - `"skill"`
-
   - `updated_at: string`
 
     ISO 8601 timestamp of when the skill was last updated.
 
-### Example
+    format: date-time
 
-```http
+## Example
+
+```bash
 curl https://api.anthropic.com/v1/skills \
     -H 'Content-Type: multipart/form-data' \
     -H 'anthropic-version: 2023-06-01' \
@@ -183,7 +205,7 @@ curl https://api.anthropic.com/v1/skills \
     -F files='["Example data"]'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

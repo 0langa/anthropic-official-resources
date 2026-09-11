@@ -6,7 +6,7 @@ Lesson 2 of 4 · AI Fluency for pK-12 Train the TrainerHow to use the kit
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-pk-12-train-the-trainer%2Fhow-to-use-the-kit)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-pk-12-train-the-trainer%2Fhow-to-use-the-kit)
 
 ## Your Train the Trainer kit[](https://academy.claude.com/courses/ai-fluency-for-pk-12-train-the-trainer/how-to-use-the-kit)
 

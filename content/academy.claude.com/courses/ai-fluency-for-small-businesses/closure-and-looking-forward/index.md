@@ -12,7 +12,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-small-businesses%2Fclosure-and-looking-forward)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-small-businesses%2Fclosure-and-looking-forward)
 
 ## Next steps[](https://academy.claude.com/courses/ai-fluency-for-small-businesses/closure-and-looking-forward)
 

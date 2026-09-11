@@ -3,35 +3,43 @@ title: List Compliance Roles
 url: https://platform.claude.com/docs/en/api/compliance/organizations/roles/list
 ---
 
-## List Compliance Roles
+# List Compliance Roles
 
-**get** `/v1/compliance/organizations/{org_uuid}/roles`
+**GET** `/v1/compliance/organizations/{org_uuid}/roles`
 
 List Compliance Roles
 
-### Path Parameters
+## Path parameters
 
 - `org_uuid: string`
 
   The organization UUID
 
-### Query Parameters
+## Query parameters
 
 - `limit: optional number`
 
   Maximum results (default: 500, max: 1000)
 
+  default: 500, maximum: 1000, minimum: 1
+
 - `page: optional string`
 
   Opaque pagination token from a previous response's `next_page` field. Pass this to retrieve the next page of results. Clients should treat this value as an opaque string and not attempt to parse or interpret its contents, as the format may change without notice.
 
-### Header Parameters
+## Headers
+
+- `"anthropic-version": optional string`
+
+  The version of the Claude API you want to use.
+
+  Read more about versioning and our version history [here](https://platform.claude.com/docs/en/api/versioning).
 
 - `"x-api-key": optional string`
 
-### Returns
+## Returns
 
-- `data: array of object { id, created_at, description, 2 more }`
+- `data: array of object`
 
   List of roles
 
@@ -41,7 +49,9 @@ List Compliance Roles
 
   - `created_at: string or null`
 
-    Role creation timestamp (ISO 8601)
+    Role creation timestamp (RFC 3339)
+
+    format: date-time
 
   - `description: string`
 
@@ -53,7 +63,9 @@ List Compliance Roles
 
   - `updated_at: string or null`
 
-    Role last-updated timestamp (ISO 8601)
+    Role last-updated timestamp (RFC 3339)
+
+    format: date-time
 
 - `has_more: boolean`
 
@@ -63,24 +75,24 @@ List Compliance Roles
 
   Token to retrieve the next page. Use this as the 'page' parameter in your next request
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/compliance/organizations/$ORG_UUID/roles \
     -H "Authorization: Bearer $ANTHROPIC_COMPLIANCE_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {
   "data": [
     {
       "id": "rbac_role_01SGBg3kEnZrdsVR2QmyJbvD",
-      "created_at": "2025-03-12T18:22:41.123456",
+      "created_at": "2025-03-12T18:22:41.123456Z",
       "description": "Full administrative access to organization settings and members",
       "name": "Organization Admin",
-      "updated_at": "2025-03-14T09:05:17.456789"
+      "updated_at": "2025-03-14T09:05:17.456789Z"
     }
   ],
   "has_more": true,

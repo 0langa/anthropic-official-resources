@@ -3,21 +3,29 @@ title: Get Invite
 url: https://platform.claude.com/docs/en/api/beta/organization/invites/retrieve
 ---
 
-## Get Invite
+# Get Invite
 
-**get** `/v1/organizations/invites/{invite_id}`
+**GET** `/v1/organizations/invites/{invite_id}`
 
 Retrieve an invite by ID.
 
-### Path Parameters
+## Path parameters
 
 - `invite_id: string`
 
   ID of the Invite.
 
-### Returns
+## Returns
 
-- `BetaOrganizationInvite object { id, accepted_at, email, 6 more }`
+- `BetaOrganizationInvite object`
+
+  - `type: "invite"`
+
+    Object type.
+
+    For Invites, this is always `"invite"`.
+
+    default: invite
 
   - `id: string`
 
@@ -27,6 +35,8 @@ Retrieve an invite by ID.
 
     RFC 3339 datetime string indicating when the Invite was accepted, or null.
 
+    format: date-time
+
   - `email: string`
 
     Email of the User being invited.
@@ -35,9 +45,13 @@ Retrieve an invite by ID.
 
     RFC 3339 datetime string indicating when the Invite expires.
 
+    format: date-time
+
   - `invited_at: string`
 
     RFC 3339 datetime string indicating when the Invite was created.
+
+    format: date-time
 
   - `rbac_group_ids: array of string`
 
@@ -77,23 +91,15 @@ Retrieve an invite by ID.
 
     - `"pending"`
 
-  - `type: "invite"`
+## Example
 
-    Object type.
-
-    For Invites, this is always `"invite"`.
-
-    - `"invite"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/invites/$INVITE_ID \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

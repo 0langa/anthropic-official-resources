@@ -6,7 +6,7 @@ Lesson 10 of 12 · Claude Code 101Skills
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-code-101%2Fskills)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-code-101%2Fskills)
 
 Embedded media: https://www.youtube-nocookie.com/embed/bjdBVZa66oU?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 

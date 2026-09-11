@@ -6,7 +6,7 @@ Lesson 51 of 65 · Claude with Amazon BedrockDefining tools with MCP
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-amazon-bedrock%2Fdefining-tools-with-mcp)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fdefining-tools-with-mcp)
 
 Building an MCP server becomes much simpler when you use the official MCP Python SDK. Instead of manually writing complex JSON schemas for tools, you can define them with decorators and let the SDK handle the heavy lifting.
 

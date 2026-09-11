@@ -1,6 +1,6 @@
 Announcements
 
-# Partnering with Scale to Bring Generative AI to Enterprises
+# Partnering with Scale to bring generative AI to enterprises
 
 Apr 26, 2023
 

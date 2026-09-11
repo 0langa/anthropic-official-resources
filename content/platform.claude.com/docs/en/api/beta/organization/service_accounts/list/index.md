@@ -3,9 +3,9 @@ title: List Service Accounts
 url: https://platform.claude.com/docs/en/api/beta/organization/service_accounts/list
 ---
 
-## List Service Accounts
+# List Service Accounts
 
-**get** `/v1/organizations/service_accounts`
+**GET** `/v1/organizations/service_accounts`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -15,21 +15,25 @@ Results are ordered by creation time, newest first. Use `limit` and the
 `next_page` cursor to paginate; set `include_archived=true` to include
 archived service accounts.
 
-### Query Parameters
+## Query parameters
 
 - `include_archived: optional boolean`
 
   Include archived resources. Defaults to false.
 
+  default: false
+
 - `limit: optional number`
 
   Number of results per page.
+
+  default: 20, maximum: 100, minimum: 1
 
 - `page: optional string`
 
   Opaque cursor from a previous response's `next_page`.
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -37,7 +41,7 @@ archived service accounts.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -85,6 +89,8 @@ archived service accounts.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -127,9 +133,13 @@ archived service accounts.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+## Returns
 
 - `data: array of BetaServiceAccount`
+
+  - `type: "service_account"`
+
+    default: service_account
 
   - `id: string`
 
@@ -139,6 +149,8 @@ archived service accounts.
 
     If set, this service account is archived.
 
+    format: date-time
+
   - `archived_by_actor_id: string or null`
 
     Tagged ID (`user_`/`svac_`) of the actor that archived this service account.
@@ -146,6 +158,8 @@ archived service accounts.
   - `created_at: string`
 
     When this service account was created.
+
+    format: date-time
 
   - `created_by_actor_id: string or null`
 
@@ -167,13 +181,11 @@ archived service accounts.
 
     - `"developer"`
 
-  - `type: "service_account"`
-
-    - `"service_account"`
-
   - `updated_at: string`
 
     When this service account was last updated.
+
+    format: date-time
 
   - `updated_by_actor_id: string or null`
 
@@ -183,15 +195,15 @@ archived service accounts.
 
   Opaque cursor for the next page, or null if no more results.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/service_accounts \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

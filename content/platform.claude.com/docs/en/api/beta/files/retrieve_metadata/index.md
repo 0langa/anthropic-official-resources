@@ -3,19 +3,19 @@ title: Get File Metadata
 url: https://platform.claude.com/docs/en/api/beta/files/retrieve_metadata
 ---
 
-## Get File Metadata
+# Get File Metadata
 
-**get** `/v1/files/{file_id}`
+**GET** `/v1/files/{file_id}`
 
 Get File Metadata
 
-### Path Parameters
+## Path parameters
 
 - `file_id: string`
 
   ID of the File.
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -23,7 +23,7 @@ Get File Metadata
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -71,6 +71,8 @@ Get File Metadata
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -113,9 +115,17 @@ Get File Metadata
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+- `"anthropic-workspace-id": optional string`
 
-- `BetaFileMetadata object { id, created_at, filename, 6 more }`
+## Returns
+
+- `BetaFileMetadata object`
+
+  - `type: "file"`
+
+    Object type.
+
+    For files, this is always `"file"`.
 
   - `id: string`
 
@@ -127,57 +137,59 @@ Get File Metadata
 
     RFC 3339 datetime string representing when the file was created.
 
+    format: date-time
+
   - `filename: string`
 
     Original filename of the uploaded file.
+
+    maxLength: 500, minLength: 1
 
   - `mime_type: string`
 
     MIME type of the file.
 
+    maxLength: 255, minLength: 1
+
   - `size_bytes: number`
 
     Size of the file in bytes.
 
-  - `type: "file"`
-
-    Object type.
-
-    For files, this is always `"file"`.
-
-    - `"file"`
+    minimum: 0
 
   - `downloadable: optional boolean`
 
     Whether the file can be downloaded.
 
+    default: false
+
   - `expires_at: optional string or null`
 
     RFC 3339 datetime string representing when the file will expire and become unavailable for download. Null if the file does not expire. For files uploaded with `expires_in_seconds`, this is the upload time plus that value.
+
+    format: date-time
 
   - `scope: optional BetaFileScope or null`
 
     The scope of this file, indicating the context in which it was created (e.g., a session).
 
-    - `id: string`
-
-      The ID of the scoping resource (e.g., the session ID).
-
     - `type: "session"`
 
       The type of scope (e.g., `"session"`).
 
-      - `"session"`
+    - `id: string`
 
-### Example
+      The ID of the scoping resource (e.g., the session ID).
 
-```http
+## Example
+
+```bash
 curl https://api.anthropic.com/v1/files/$FILE_ID \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

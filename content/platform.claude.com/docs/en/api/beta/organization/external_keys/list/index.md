@@ -3,28 +3,34 @@ title: List External Keys
 url: https://platform.claude.com/docs/en/api/beta/organization/external_keys/list
 ---
 
-## List External Keys
+# List External Keys
 
-**get** `/v1/organizations/external_keys`
+**GET** `/v1/organizations/external_keys`
 
 List external key configs in the caller's organization.
 
 Results are ordered by creation time (newest first). Use the
 `next_page` cursor from the response to fetch subsequent pages.
 
-### Query Parameters
+## Query parameters
 
 - `limit: optional number`
 
   Number of results per page.
 
+  default: 20, maximum: 100, minimum: 1
+
 - `page: optional string`
 
   Opaque cursor from a previous response's `next_page`.
 
-### Returns
+## Returns
 
 - `data: array of BetaExternalKey`
+
+  - `type: "external_key"`
+
+    default: external_key
 
   - `id: string`
 
@@ -34,19 +40,21 @@ Results are ordered by creation time (newest first). Use the
 
     Whether any workspace uses this config to encrypt its data — counting live and archived workspaces (an archived workspace's data remains encrypted under the config), excluding deleted ones. Only an attached config is used by the encryption path; an `unattached` config is inert and can be deleted.
 
-    - `BetaExternalKeyAttachedAttachment object { type }`
+    - `BetaExternalKeyAttachedAttachment object`
 
       - `type: "attached"`
 
-        - `"attached"`
+        default: attached
 
-    - `BetaExternalKeyUnattachedAttachment object { type }`
+    - `BetaExternalKeyUnattachedAttachment object`
 
       - `type: "unattached"`
 
-        - `"unattached"`
+        default: unattached
 
   - `created_at: string`
+
+    format: date-time
 
   - `display_name: string or null`
 
@@ -60,15 +68,15 @@ Results are ordered by creation time (newest first). Use the
 
     KMS provider identity and auth coordinates.
 
-    - `BetaAWSExternalKeyConfig object { kms_arn, type, region, role_arn }`
+    - `BetaAWSExternalKeyConfig object`
+
+      - `type: "aws"`
 
       - `kms_arn: string`
 
         Full ARN of the AWS KMS key. On Claude Platform on AWS the key must be a single-Region key in your organization's own AWS account; cross-account keys, multi-Region keys, and alias ARNs are rejected.
 
-      - `type: "aws"`
-
-        - `"aws"`
+        maxLength: 2048
 
       - `region: optional string or null`
 
@@ -76,19 +84,21 @@ Results are ordered by creation time (newest first). Use the
 
       - `role_arn: optional string or null`
 
+        **Deprecated**
+
         IAM role ARN. Deprecated — Anthropic reaches the KMS key through its own intermediate role (or, on Claude Platform on AWS, with credentials AWS issues for the Workspace); this field is ignored.
 
-    - `BetaGCPExternalKeyConfig object { key_name, type }`
+    - `BetaGCPExternalKeyConfig object`
+
+      - `type: "gcp"`
 
       - `key_name: string`
 
         Full resource name of the Cloud KMS key.
 
-      - `type: "gcp"`
+    - `BetaAzureExternalKeyConfig object`
 
-        - `"gcp"`
-
-    - `BetaAzureExternalKeyConfig object { key_name, tenant_id, type, 2 more }`
+      - `type: "azure"`
 
       - `key_name: string`
 
@@ -98,10 +108,6 @@ Results are ordered by creation time (newest first). Use the
 
         Azure AD tenant ID.
 
-      - `type: "azure"`
-
-        - `"azure"`
-
       - `vault_uri: string`
 
         Key Vault data-plane URI — `https://{vault-name}.vault.azure.net` or `https://{hsm-name}.managedhsm.azure.net`.
@@ -110,25 +116,23 @@ Results are ordered by creation time (newest first). Use the
 
         Azure AD application (client) ID. Omit to use Anthropic's multitenant app. Provide only if using a single-tenant app registration in the customer's directory.
 
-  - `type: "external_key"`
-
-    - `"external_key"`
-
   - `updated_at: string`
+
+    format: date-time
 
 - `next_page: string or null`
 
   Opaque cursor for the next page, or null if no more results. Pass as `?page=` to fetch the next page.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/external_keys \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

@@ -6,7 +6,7 @@ Lesson 5 of 13 · AI Capabilities and LimitationsTry It Out: Next Token Predicti
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-capabilities-and-limitations%2Ftry-it-out)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-capabilities-and-limitations%2Ftry-it-out)
 
 ## Text Your Friend Markov
 

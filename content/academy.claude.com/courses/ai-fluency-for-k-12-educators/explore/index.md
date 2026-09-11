@@ -6,7 +6,7 @@ Lesson 4 of 10 · AI Fluency for pK–12 EducatorsExplore!
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-k-12-educators%2Fexplore)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-k-12-educators%2Fexplore)
 
 ![](https://academy.claude.com/assets/v1/description-f315uzxh.png)Description8 indicators![](https://academy.claude.com/assets/v1/delegation-n9hdgdy7.png)Delegation7 indicators![](https://academy.claude.com/assets/v1/discernment-no9o7gpn.png)Discernment5 indicators![](https://academy.claude.com/assets/v1/diligence-h8h0itfi.png)Diligence4 indicators
 

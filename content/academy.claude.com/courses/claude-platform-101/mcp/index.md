@@ -6,7 +6,7 @@ Lesson 9 of 13 · Claude Platform 101MCP
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-platform-101%2Fmcp)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-platform-101%2Fmcp)
 
 Embedded media: https://www.youtube-nocookie.com/embed/hftmYd97LBw?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 

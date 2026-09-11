@@ -3,21 +3,29 @@ title: Get User
 url: https://platform.claude.com/docs/en/api/beta/organization/users/retrieve
 ---
 
-## Get User
+# Get User
 
-**get** `/v1/organizations/users/{user_id}`
+**GET** `/v1/organizations/users/{user_id}`
 
 Retrieve a member of the organization by user ID.
 
-### Path Parameters
+## Path parameters
 
 - `user_id: string`
 
   ID of the User.
 
-### Returns
+## Returns
 
-- `BetaOrganizationUser object { id, added_at, email, 3 more }`
+- `BetaOrganizationUser object`
+
+  - `type: "user"`
+
+    Object type.
+
+    For Users, this is always `"user"`.
+
+    default: user
 
   - `id: string`
 
@@ -26,6 +34,8 @@ Retrieve a member of the organization by user ID.
   - `added_at: string`
 
     RFC 3339 datetime string indicating when the User joined the Organization.
+
+    format: date-time
 
   - `email: string`
 
@@ -57,23 +67,15 @@ Retrieve a member of the organization by user ID.
 
     - `"user"`
 
-  - `type: "user"`
+## Example
 
-    Object type.
-
-    For Users, this is always `"user"`.
-
-    - `"user"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/users/$USER_ID \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

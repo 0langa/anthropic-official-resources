@@ -1,3 +1,8 @@
+---
+title: Analytics
+url: https://platform.claude.com/docs/en/api/beta/organization/analytics
+---
+
 # Analytics
 
 ## Get Activity Summaries
@@ -37,7 +42,7 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 
 ### Returns
 
-- `ActivitySummary object`
+- `BetaActivitySummary object`
 
   Response for GET /v1/organizations/analytics/summaries.
 
@@ -168,7 +173,7 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 ```bash
 curl https://api.anthropic.com/v1/organizations/analytics/summaries \
     -H 'anthropic-version: 2023-06-01' \
-    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 #### Response (200)
@@ -213,9 +218,9 @@ curl https://api.anthropic.com/v1/organizations/analytics/summaries \
 
 ## Domain types
 
-### Activity Summary
+### Beta Activity Summary
 
-- `ActivitySummary object`
+- `BetaActivitySummary object`
 
   Response for GET /v1/organizations/analytics/summaries.
 
@@ -341,11 +346,17 @@ curl https://api.anthropic.com/v1/organizations/analytics/summaries \
 
       Number of users with Claude Science activity in the 7-day rolling window. Omitted from the response while the per-product breakdown is not enabled for this organization.
 
-### Analytics User
+### Beta Analytics User
 
-- `AnalyticsUser object`
+- `BetaAnalyticsUser object`
 
   A user in the organization, identified by tagged id and email address.
+
+  - `type: "user"`
+
+    Object type. Always `user`.
+
+    default: user
 
   - `id: string`
 
@@ -355,15 +366,13 @@ curl https://api.anthropic.com/v1/organizations/analytics/summaries \
 
     Email address of the user
 
-  - `type: "user"`
+### Beta Analytics User Actor
 
-    Object type. Always `user`.
+- `BetaAnalyticsUserActor object`
 
-    default: user
+  - `type: "user_actor"`
 
-### Analytics User Actor
-
-- `AnalyticsUserActor object`
+    Actor type. Always `"user_actor"`.
 
   - `deleted: boolean`
 
@@ -377,17 +386,13 @@ curl https://api.anthropic.com/v1/organizations/analytics/summaries \
 
     The user's full name. Null when the user has not set a name. Returns `"Deleted User"` when the account itself has been deleted, or when the user is no longer a member of the organization or its associated organizations and the organization has chosen to hide the names of removed users. Otherwise, the name stays populated for removed users. Rows for system-minted service accounts render the service name (for example, `"Claude Security"` for usage by Anthropic's security-patching service) or null.
 
-  - `type: "user_actor"`
-
-    Actor type. Always `"user_actor"`.
-
   - `user_id: string`
 
     Tagged user ID.
 
-### Connector Office Product Metrics
+### Beta Connector Office Product Metrics
 
-- `ConnectorOfficeProductMetrics object`
+- `BetaConnectorOfficeProductMetrics object`
 
   Office Agent activity metrics for a single connector on a given day within one Office product.
 
@@ -395,9 +400,9 @@ curl https://api.anthropic.com/v1/organizations/analytics/summaries \
 
     Number of distinct Office Agent sessions in which the connector was used. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
 
-### Office Product Metrics
+### Beta Office Product Metrics
 
-- `OfficeProductMetrics object`
+- `BetaOfficeProductMetrics object`
 
   Office Agent activity metrics for a single user on a given day within one Office product.
 
@@ -425,9 +430,9 @@ curl https://api.anthropic.com/v1/organizations/analytics/summaries \
 
     Number of skill invocations
 
-### Skill Office Product Metrics
+### Beta Skill Office Product Metrics
 
-- `SkillOfficeProductMetrics object`
+- `BetaSkillOfficeProductMetrics object`
 
   Office Agent activity metrics for a single skill on a given day within one Office product.
 
@@ -435,9 +440,9 @@ curl https://api.anthropic.com/v1/organizations/analytics/summaries \
 
     Number of distinct Office Agent sessions in which the skill was used. A skill counts as used only when it is explicitly activated — the model (or the user, via the skill's slash command) invokes it, reading its instructions into context as part of that activation. Skills that are merely installed or listed as available, or whose content reaches the context without an activation (preloaded, hook-injected, or read as a plain file), are not counted. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
 
-### Tool Action Counts
+### Beta Tool Action Counts
 
-- `ToolActionCounts object`
+- `BetaToolActionCounts object`
 
   Accepted/rejected counts for a single Claude Code tool type.
 
@@ -622,7 +627,7 @@ key with the `read:analytics` scope.
 
 #### Returns
 
-- `UsageBucket object`
+- `BetaUsageBucket object`
 
   - `data: array of object`
 
@@ -638,7 +643,7 @@ key with the `read:analytics` scope.
 
       Rows for this time bucket. Empty when the bucket has no data; otherwise a single combined row when `group_by[]` is omitted, or one row per group (subject to the per-bucket group cap described on the `group_by[]` parameter).
 
-      - `cache_creation: object`
+      - `cache_creation: BetaCacheCreation`
 
         The number of input tokens for cache creation.
 
@@ -646,9 +651,13 @@ key with the `read:analytics` scope.
 
           The number of input tokens used to create the 1 hour cache entry.
 
+          default: 0, minimum: 0
+
         - `ephemeral_5m_input_tokens: number`
 
           The number of input tokens used to create the 5 minute cache entry.
+
+          default: 0, minimum: 0
 
       - `cache_read_input_tokens: number`
 
@@ -761,7 +770,7 @@ key with the `read:analytics` scope.
 ```bash
 curl https://api.anthropic.com/v1/organizations/analytics/usage_report \
     -H 'anthropic-version: 2023-06-01' \
-    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 ##### Response (200)
@@ -774,8 +783,8 @@ curl https://api.anthropic.com/v1/organizations/analytics/usage_report \
       "results": [
         {
           "cache_creation": {
-            "ephemeral_1h_input_tokens": 1000,
-            "ephemeral_5m_input_tokens": 500
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 0
           },
           "cache_read_input_tokens": 0,
           "claude_tag_category": "dm",
@@ -1007,15 +1016,19 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 
 #### Returns
 
-- `UserUsage object`
+- `BetaUserUsage object`
 
   - `data: array of object`
 
     Rows for this page, ranked by `order_by` in the `order` direction. One row per user, or several per user when `group_by[]` or `bucket_width` breaks that user's usage or cost out across rows. Rows split out by `cost_type` or `token_type` (cost endpoint only) stay adjacent and are ranked as one unit.
 
-    - `actor: AnalyticsUserActor`
+    - `actor: BetaAnalyticsUserActor`
 
       The user this row's usage or cost is attributed to. Always a `user_actor`.
+
+      - `type: "user_actor"`
+
+        Actor type. Always `"user_actor"`.
 
       - `deleted: boolean`
 
@@ -1029,15 +1042,11 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 
         The user's full name. Null when the user has not set a name. Returns `"Deleted User"` when the account itself has been deleted, or when the user is no longer a member of the organization or its associated organizations and the organization has chosen to hide the names of removed users. Otherwise, the name stays populated for removed users. Rows for system-minted service accounts render the service name (for example, `"Claude Security"` for usage by Anthropic's security-patching service) or null.
 
-      - `type: "user_actor"`
-
-        Actor type. Always `"user_actor"`.
-
       - `user_id: string`
 
         Tagged user ID.
 
-    - `cache_creation: object`
+    - `cache_creation: BetaCacheCreation`
 
       The number of input tokens for cache creation.
 
@@ -1045,9 +1054,13 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 
         The number of input tokens used to create the 1 hour cache entry.
 
+        default: 0, minimum: 0
+
       - `ephemeral_5m_input_tokens: number`
 
         The number of input tokens used to create the 5 minute cache entry.
+
+        default: 0, minimum: 0
 
     - `cache_read_input_tokens: number`
 
@@ -1170,7 +1183,7 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 ```bash
 curl https://api.anthropic.com/v1/organizations/analytics/user_usage_report \
     -H 'anthropic-version: 2023-06-01' \
-    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 ##### Response (200)
@@ -1187,8 +1200,8 @@ curl https://api.anthropic.com/v1/organizations/analytics/user_usage_report \
         "user_id": "user_01AbCdEfGhIjKlMnOpQrSt"
       },
       "cache_creation": {
-        "ephemeral_1h_input_tokens": 1000,
-        "ephemeral_5m_input_tokens": 500
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
       },
       "cache_read_input_tokens": 3200000,
       "claude_tag_category": "dm",
@@ -1395,7 +1408,7 @@ Requires an API key with the `read:analytics` scope.
 
 #### Returns
 
-- `CostBucket object`
+- `BetaCostBucket object`
 
   - `data: array of object`
 
@@ -1540,7 +1553,7 @@ Requires an API key with the `read:analytics` scope.
 ```bash
 curl https://api.anthropic.com/v1/organizations/analytics/cost_report \
     -H 'anthropic-version: 2023-06-01' \
-    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 ##### Response (200)
@@ -1781,15 +1794,19 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 
 #### Returns
 
-- `UserCost object`
+- `BetaUserCost object`
 
   - `data: array of object`
 
     Rows for this page, ranked by `order_by` in the `order` direction. One row per user, or several per user when `group_by[]` or `bucket_width` breaks that user's usage or cost out across rows. Rows split out by `cost_type` or `token_type` (cost endpoint only) stay adjacent and are ranked as one unit.
 
-    - `actor: AnalyticsUserActor`
+    - `actor: BetaAnalyticsUserActor`
 
       The user this row's usage or cost is attributed to. Always a `user_actor`.
+
+      - `type: "user_actor"`
+
+        Actor type. Always `"user_actor"`.
 
       - `deleted: boolean`
 
@@ -1802,10 +1819,6 @@ organizations on a Claude Enterprise plan. Requires an API key with the
       - `name: string or null`
 
         The user's full name. Null when the user has not set a name. Returns `"Deleted User"` when the account itself has been deleted, or when the user is no longer a member of the organization or its associated organizations and the organization has chosen to hide the names of removed users. Otherwise, the name stays populated for removed users. Rows for system-minted service accounts render the service name (for example, `"Claude Security"` for usage by Anthropic's security-patching service) or null.
-
-      - `type: "user_actor"`
-
-        Actor type. Always `"user_actor"`.
 
       - `user_id: string`
 
@@ -1946,7 +1959,7 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 ```bash
 curl https://api.anthropic.com/v1/organizations/analytics/user_cost_report \
     -H 'anthropic-version: 2023-06-01' \
-    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 ##### Response (200)
@@ -2058,7 +2071,7 @@ the `read:analytics` scope.
 
 #### Returns
 
-- `UserActivity object`
+- `BetaUserActivity object`
 
   Response for GET /v1/organizations/analytics/users.
 
@@ -2156,7 +2169,7 @@ the `read:analytics` scope.
 
         Per-tool accepted/rejected counts for Claude Code file modification tools.
 
-        - `edit_tool: ToolActionCounts`
+        - `edit_tool: BetaToolActionCounts`
 
           Accepted/rejected counts for a single Claude Code tool type.
 
@@ -2168,15 +2181,15 @@ the `read:analytics` scope.
 
             Number of tool proposals rejected
 
-        - `multi_edit_tool: ToolActionCounts`
+        - `multi_edit_tool: BetaToolActionCounts`
 
           Accepted/rejected counts for a single Claude Code tool type.
 
-        - `notebook_edit_tool: ToolActionCounts`
+        - `notebook_edit_tool: BetaToolActionCounts`
 
           Accepted/rejected counts for a single Claude Code tool type.
 
-        - `write_tool: ToolActionCounts`
+        - `write_tool: BetaToolActionCounts`
 
           Accepted/rejected counts for a single Claude Code tool type.
 
@@ -2276,7 +2289,7 @@ the `read:analytics` scope.
 
       Office Agent activity metrics for a single user on a given day, broken out by Office product.
 
-      - `excel: OfficeProductMetrics`
+      - `excel: BetaOfficeProductMetrics`
 
         Office Agent activity metrics for a single user on a given day within one Office product.
 
@@ -2304,15 +2317,15 @@ the `read:analytics` scope.
 
           Number of skill invocations
 
-      - `outlook: OfficeProductMetrics`
+      - `outlook: BetaOfficeProductMetrics`
 
         Office Agent activity metrics for a single user on a given day within one Office product.
 
-      - `powerpoint: OfficeProductMetrics`
+      - `powerpoint: BetaOfficeProductMetrics`
 
         Office Agent activity metrics for a single user on a given day within one Office product.
 
-      - `word: OfficeProductMetrics`
+      - `word: BetaOfficeProductMetrics`
 
         Office Agent activity metrics for a single user on a given day within one Office product.
 
@@ -2362,9 +2375,15 @@ the `read:analytics` scope.
 
       Resolved RBAC group display name, alongside `rbac_group_id` when name resolution is available. Null if the group has been deleted or its name could not be resolved; `rbac_group_id` remains the stable key.
 
-    - `user: optional AnalyticsUser or null`
+    - `user: optional BetaAnalyticsUser or null`
 
       A user in the organization, identified by tagged id and email address.
+
+      - `type: "user"`
+
+        Object type. Always `user`.
+
+        default: user
 
       - `id: string`
 
@@ -2373,12 +2392,6 @@ the `read:analytics` scope.
       - `email_address: string`
 
         Email address of the user
-
-      - `type: "user"`
-
-        Object type. Always `user`.
-
-        default: user
 
   - `next_page: string or null`
 
@@ -2389,7 +2402,7 @@ the `read:analytics` scope.
 ```bash
 curl https://api.anthropic.com/v1/organizations/analytics/users \
     -H 'anthropic-version: 2023-06-01' \
-    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 ##### Response (200)
@@ -2601,7 +2614,7 @@ on a Claude Enterprise plan. Requires an API key with the
 
 #### Returns
 
-- `SkillUsage object`
+- `BetaSkillUsage object`
 
   Response for GET /v1/organizations/analytics/skills.
 
@@ -2639,7 +2652,7 @@ on a Claude Enterprise plan. Requires an API key with the
 
       Office Agent activity metrics for a single skill on a given day, broken out by Office product.
 
-      - `excel: SkillOfficeProductMetrics`
+      - `excel: BetaSkillOfficeProductMetrics`
 
         Office Agent activity metrics for a single skill on a given day within one Office product.
 
@@ -2647,15 +2660,15 @@ on a Claude Enterprise plan. Requires an API key with the
 
           Number of distinct Office Agent sessions in which the skill was used. A skill counts as used only when it is explicitly activated — the model (or the user, via the skill's slash command) invokes it, reading its instructions into context as part of that activation. Skills that are merely installed or listed as available, or whose content reaches the context without an activation (preloaded, hook-injected, or read as a plain file), are not counted. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
 
-      - `outlook: SkillOfficeProductMetrics`
+      - `outlook: BetaSkillOfficeProductMetrics`
 
         Office Agent activity metrics for a single skill on a given day within one Office product.
 
-      - `powerpoint: SkillOfficeProductMetrics`
+      - `powerpoint: BetaSkillOfficeProductMetrics`
 
         Office Agent activity metrics for a single skill on a given day within one Office product.
 
-      - `word: SkillOfficeProductMetrics`
+      - `word: BetaSkillOfficeProductMetrics`
 
         Office Agent activity metrics for a single skill on a given day within one Office product.
 
@@ -2722,7 +2735,7 @@ on a Claude Enterprise plan. Requires an API key with the
 ```bash
 curl https://api.anthropic.com/v1/organizations/analytics/skills \
     -H 'anthropic-version: 2023-06-01' \
-    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 ##### Response (200)
@@ -2852,7 +2865,7 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 
 #### Returns
 
-- `ConnectorUsage object`
+- `BetaConnectorUsage object`
 
   Response for GET /v1/organizations/analytics/connectors.
 
@@ -2894,7 +2907,7 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 
       Office Agent activity metrics for a single connector on a given day, broken out by Office product.
 
-      - `excel: ConnectorOfficeProductMetrics`
+      - `excel: BetaConnectorOfficeProductMetrics`
 
         Office Agent activity metrics for a single connector on a given day within one Office product.
 
@@ -2902,15 +2915,15 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 
           Number of distinct Office Agent sessions in which the connector was used. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
 
-      - `outlook: ConnectorOfficeProductMetrics`
+      - `outlook: BetaConnectorOfficeProductMetrics`
 
         Office Agent activity metrics for a single connector on a given day within one Office product.
 
-      - `powerpoint: ConnectorOfficeProductMetrics`
+      - `powerpoint: BetaConnectorOfficeProductMetrics`
 
         Office Agent activity metrics for a single connector on a given day within one Office product.
 
-      - `word: ConnectorOfficeProductMetrics`
+      - `word: BetaConnectorOfficeProductMetrics`
 
         Office Agent activity metrics for a single connector on a given day within one Office product.
 
@@ -2963,7 +2976,7 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 ```bash
 curl https://api.anthropic.com/v1/organizations/analytics/connectors \
     -H 'anthropic-version: 2023-06-01' \
-    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 ##### Response (200)
@@ -3087,7 +3100,7 @@ plan. Requires an API key with the `read:analytics` scope.
 
 #### Returns
 
-- `ChatProjectUsage object`
+- `BetaChatProjectUsage object`
 
   Response for GET /v1/organizations/analytics/apps/chat/projects.
 
@@ -3115,9 +3128,15 @@ plan. Requires an API key with the `read:analytics` scope.
 
       format: date-time
 
-    - `created_by: optional AnalyticsUser or null`
+    - `created_by: optional BetaAnalyticsUser or null`
 
       A user in the organization, identified by tagged id and email address.
+
+      - `type: "user"`
+
+        Object type. Always `user`.
+
+        default: user
 
       - `id: string`
 
@@ -3126,12 +3145,6 @@ plan. Requires an API key with the `read:analytics` scope.
       - `email_address: string`
 
         Email address of the user
-
-      - `type: "user"`
-
-        Object type. Always `user`.
-
-        default: user
 
     - `distinct_conversation_count: optional number or null`
 
@@ -3162,7 +3175,7 @@ plan. Requires an API key with the `read:analytics` scope.
 ```bash
 curl https://api.anthropic.com/v1/organizations/analytics/apps/chat/projects \
     -H 'anthropic-version: 2023-06-01' \
-    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 ##### Response (200)
@@ -3274,7 +3287,7 @@ range-rollup mode like `/skills`.
 
 #### Returns
 
-- `PluginUsage object`
+- `BetaPluginUsage object`
 
   Response for GET /v1/organizations/analytics/plugins.
 
@@ -3341,7 +3354,7 @@ range-rollup mode like `/skills`.
 ```bash
 curl https://api.anthropic.com/v1/organizations/analytics/plugins \
     -H 'anthropic-version: 2023-06-01' \
-    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 ##### Response (200)
@@ -3423,7 +3436,7 @@ can be broken out per product, per member, or per RBAC group via
 
 #### Returns
 
-- `ArtifactUsage object`
+- `BetaArtifactUsage object`
 
   Response for GET /v1/organizations/analytics/artifacts.
 
@@ -3479,7 +3492,7 @@ can be broken out per product, per member, or per RBAC group via
 ```bash
 curl https://api.anthropic.com/v1/organizations/analytics/artifacts \
     -H 'anthropic-version: 2023-06-01' \
-    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 ##### Response (200)

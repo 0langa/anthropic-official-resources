@@ -1,3 +1,8 @@
+---
+title: Add RBAC Group Member
+url: https://platform.claude.com/docs/en/api/beta/organization/rbac_groups/members/create
+---
+
 # Add RBAC Group Member
 
 **POST** `/v1/organizations/rbac_groups/{group_id}/members`
@@ -20,7 +25,15 @@ The RBAC Groups API is available to Claude Enterprise organizations only.
 
 ## Returns
 
-- `RbacGroupMember object`
+- `BetaRBACGroupMember object`
+
+  - `type: "rbac_group_member"`
+
+    Object type.
+
+    For RBAC Group Members, this is always `"rbac_group_member"`.
+
+    default: rbac_group_member
 
   - `created_at: string`
 
@@ -36,14 +49,6 @@ The RBAC Groups API is available to Claude Enterprise organizations only.
 
     ID of the RBAC Group.
 
-  - `type: "rbac_group_member"`
-
-    Object type.
-
-    For RBAC Group Members, this is always `"rbac_group_member"`.
-
-    default: rbac_group_member
-
   - `user_id: string`
 
     ID of the User.
@@ -54,7 +59,8 @@ The RBAC Groups API is available to Claude Enterprise organizations only.
 curl https://api.anthropic.com/v1/organizations/rbac_groups/$GROUP_ID/members \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
+    -H 'anthropic-beta: ce-user-management-2026-07-13' \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
     -d '{
           "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q"
         }'

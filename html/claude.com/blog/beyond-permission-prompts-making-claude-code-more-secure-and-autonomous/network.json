@@ -82,11 +82,6 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "stylesheet",
-    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.696fc825458d8f0b3c8da7fc.992c677f3.min.css"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "stylesheet",
     "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
   },
   {

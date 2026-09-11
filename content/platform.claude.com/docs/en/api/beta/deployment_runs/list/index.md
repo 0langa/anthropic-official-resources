@@ -3,29 +3,37 @@ title: List Deployment Runs
 url: https://platform.claude.com/docs/en/api/beta/deployment_runs/list
 ---
 
-## List Deployment Runs
+# List Deployment Runs
 
-**get** `/v1/deployment_runs`
+**GET** `/v1/deployment_runs`
 
 List Deployment Runs
 
-### Query Parameters
+## Query parameters
 
 - `"created_at[gt]": optional string`
 
   Return runs created strictly after this time (exclusive).
 
+  format: date-time
+
 - `"created_at[gte]": optional string`
 
   Return runs created at or after this time (inclusive).
+
+  format: date-time
 
 - `"created_at[lt]": optional string`
 
   Return runs created strictly before this time (exclusive).
 
+  format: date-time
+
 - `"created_at[lte]": optional string`
 
   Return runs created at or before this time (inclusive).
+
+  format: date-time
 
 - `deployment_id: optional string`
 
@@ -39,6 +47,8 @@ List Deployment Runs
 
   Maximum results per page. Default 20, maximum 1000.
 
+  format: int32
+
 - `page: optional string`
 
   Opaque pagination cursor. Pass `next_page` from the previous response. Invalid or expired cursors return 400.
@@ -51,7 +61,7 @@ List Deployment Runs
 
   - `"manual"`
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -59,7 +69,7 @@ List Deployment Runs
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -107,6 +117,8 @@ List Deployment Runs
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -149,11 +161,15 @@ List Deployment Runs
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+- `"anthropic-workspace-id": optional string`
+
+## Returns
 
 - `data: array of BetaManagedAgentsDeploymentRun`
 
   List of deployment runs.
+
+  - `type: "deployment_run"`
 
   - `id: string`
 
@@ -163,17 +179,19 @@ List Deployment Runs
 
     A resolved agent reference with a concrete version.
 
-    - `id: string`
-
     - `type: "agent"`
 
-      - `"agent"`
+    - `id: string`
 
     - `version: number`
+
+      format: int32
 
   - `created_at: string`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `deployment_id: string`
 
@@ -183,197 +201,165 @@ List Deployment Runs
 
     Why the run failed to create a session. The type identifies the failure; message is human-readable detail.
 
-    - `BetaManagedAgentsEnvironmentArchivedRunError object { message, type }`
+    - `BetaManagedAgentsEnvironmentArchivedRunError object`
 
       The deployment's environment was archived.
 
+      - `type: "environment_archived_error"`
+
       - `message: string`
 
         Human-readable error description.
 
-      - `type: "environment_archived_error"`
-
-        - `"environment_archived_error"`
-
-    - `BetaManagedAgentsAgentArchivedRunError object { message, type }`
+    - `BetaManagedAgentsAgentArchivedRunError object`
 
       The deployment's agent was archived.
 
+      - `type: "agent_archived_error"`
+
       - `message: string`
 
         Human-readable error description.
 
-      - `type: "agent_archived_error"`
-
-        - `"agent_archived_error"`
-
-    - `BetaManagedAgentsEnvironmentNotFoundRunError object { message, type }`
+    - `BetaManagedAgentsEnvironmentNotFoundRunError object`
 
       The deployment's environment no longer exists.
 
+      - `type: "environment_not_found_error"`
+
       - `message: string`
 
         Human-readable error description.
 
-      - `type: "environment_not_found_error"`
-
-        - `"environment_not_found_error"`
-
-    - `BetaManagedAgentsVaultNotFoundRunError object { message, type }`
+    - `BetaManagedAgentsVaultNotFoundRunError object`
 
       A vault referenced by the deployment no longer exists.
 
+      - `type: "vault_not_found_error"`
+
       - `message: string`
 
         Human-readable error description.
 
-      - `type: "vault_not_found_error"`
-
-        - `"vault_not_found_error"`
-
-    - `BetaManagedAgentsVaultArchivedRunError object { message, type }`
+    - `BetaManagedAgentsVaultArchivedRunError object`
 
       A vault referenced by the deployment is archived.
 
+      - `type: "vault_archived_error"`
+
       - `message: string`
 
         Human-readable error description.
 
-      - `type: "vault_archived_error"`
-
-        - `"vault_archived_error"`
-
-    - `BetaManagedAgentsFileNotFoundRunError object { message, type }`
+    - `BetaManagedAgentsFileNotFoundRunError object`
 
       A file resource referenced by the deployment no longer exists.
 
+      - `type: "file_not_found_error"`
+
       - `message: string`
 
         Human-readable error description.
 
-      - `type: "file_not_found_error"`
-
-        - `"file_not_found_error"`
-
-    - `BetaManagedAgentsMemoryStoreArchivedRunError object { message, type }`
+    - `BetaManagedAgentsMemoryStoreArchivedRunError object`
 
       A memory store referenced by the deployment is archived.
 
+      - `type: "memory_store_archived_error"`
+
       - `message: string`
 
         Human-readable error description.
 
-      - `type: "memory_store_archived_error"`
-
-        - `"memory_store_archived_error"`
-
-    - `BetaManagedAgentsSkillNotFoundRunError object { message, type }`
+    - `BetaManagedAgentsSkillNotFoundRunError object`
 
       A skill referenced by the deployment's agent no longer exists.
 
+      - `type: "skill_not_found_error"`
+
       - `message: string`
 
         Human-readable error description.
 
-      - `type: "skill_not_found_error"`
-
-        - `"skill_not_found_error"`
-
-    - `BetaManagedAgentsSessionResourceNotFoundRunError object { message, type }`
+    - `BetaManagedAgentsSessionResourceNotFoundRunError object`
 
       A referenced resource no longer exists and its kind was not reported.
 
+      - `type: "session_resource_not_found_error"`
+
       - `message: string`
 
         Human-readable error description.
 
-      - `type: "session_resource_not_found_error"`
-
-        - `"session_resource_not_found_error"`
-
-    - `BetaManagedAgentsWorkspaceArchivedRunError object { message, type }`
+    - `BetaManagedAgentsWorkspaceArchivedRunError object`
 
       The deployment's workspace was archived.
 
+      - `type: "workspace_archived_error"`
+
       - `message: string`
 
         Human-readable error description.
 
-      - `type: "workspace_archived_error"`
-
-        - `"workspace_archived_error"`
-
-    - `BetaManagedAgentsOrganizationDisabledRunError object { message, type }`
+    - `BetaManagedAgentsOrganizationDisabledRunError object`
 
       The deployment's organization is disabled.
 
+      - `type: "organization_disabled_error"`
+
       - `message: string`
 
         Human-readable error description.
 
-      - `type: "organization_disabled_error"`
-
-        - `"organization_disabled_error"`
-
-    - `BetaManagedAgentsSessionRateLimitedRunError object { message, type }`
+    - `BetaManagedAgentsSessionRateLimitedRunError object`
 
       Session creation was rejected due to rate limiting. The schedule keeps firing; subsequent runs may succeed.
 
+      - `type: "session_rate_limited_error"`
+
       - `message: string`
 
         Human-readable error description.
 
-      - `type: "session_rate_limited_error"`
-
-        - `"session_rate_limited_error"`
-
-    - `BetaManagedAgentsSessionCreationRejectedRunError object { message, type }`
+    - `BetaManagedAgentsSessionCreationRejectedRunError object`
 
       The session create request was rejected with a non-retryable validation error.
 
+      - `type: "session_creation_rejected_error"`
+
       - `message: string`
 
         Human-readable error description.
 
-      - `type: "session_creation_rejected_error"`
-
-        - `"session_creation_rejected_error"`
-
-    - `BetaManagedAgentsUnknownRunError object { message, type }`
+    - `BetaManagedAgentsUnknownRunError object`
 
       An unknown or unexpected error caused the run to fail. A fallback variant; clients that do not recognize a new error type can match on message alone.
 
+      - `type: "unknown_error"`
+
       - `message: string`
 
         Human-readable error description.
 
-      - `type: "unknown_error"`
-
-        - `"unknown_error"`
-
-    - `BetaManagedAgentsSelfHostedResourcesUnsupportedRunError object { message, type }`
+    - `BetaManagedAgentsSelfHostedResourcesUnsupportedRunError object`
 
       The deployment configures resources, but its environment is self-hosted and cannot mount them.
 
+      - `type: "self_hosted_resources_unsupported_error"`
+
       - `message: string`
 
         Human-readable error description.
 
-      - `type: "self_hosted_resources_unsupported_error"`
-
-        - `"self_hosted_resources_unsupported_error"`
-
-    - `BetaManagedAgentsMCPEgressBlockedRunError object { message, type }`
+    - `BetaManagedAgentsMCPEgressBlockedRunError object`
 
       An MCP server host used by the deployment's agent is blocked by the environment's network policy.
 
+      - `type: "mcp_egress_blocked_error"`
+
       - `message: string`
 
         Human-readable error description.
-
-      - `type: "mcp_egress_blocked_error"`
-
-        - `"mcp_egress_blocked_error"`
 
   - `session_id: string or null`
 
@@ -383,44 +369,38 @@ List Deployment Runs
 
     Describes what triggered a deployment run, with trigger-specific metadata.
 
-    - `BetaManagedAgentsScheduleTriggerContext object { scheduled_at, type }`
+    - `BetaManagedAgentsScheduleTriggerContext object`
 
       The run was fired by the deployment's cron schedule.
+
+      - `type: "schedule"`
 
       - `scheduled_at: string`
 
         A timestamp in RFC 3339 format
 
-      - `type: "schedule"`
+        format: date-time
 
-        - `"schedule"`
-
-    - `BetaManagedAgentsManualTriggerContext object { type }`
+    - `BetaManagedAgentsManualTriggerContext object`
 
       The run was started manually by creating a session directly against the deployment.
 
       - `type: "manual"`
 
-        - `"manual"`
-
-  - `type: "deployment_run"`
-
-    - `"deployment_run"`
-
 - `next_page: optional string or null`
 
   Opaque cursor for the next page. Null when no more results.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/deployment_runs \
     -H 'anthropic-version: 2023-06-01' \
     -H 'anthropic-beta: managed-agents-2026-04-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

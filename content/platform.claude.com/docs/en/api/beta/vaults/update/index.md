@@ -3,17 +3,17 @@ title: Update Vault
 url: https://platform.claude.com/docs/en/api/beta/vaults/update
 ---
 
-## Update Vault
+# Update Vault
 
-**post** `/v1/vaults/{vault_id}`
+**POST** `/v1/vaults/{vault_id}`
 
 Update Vault
 
-### Path Parameters
+## Path parameters
 
 - `vault_id: string`
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -21,7 +21,7 @@ Update Vault
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -69,6 +69,8 @@ Update Vault
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -111,21 +113,27 @@ Update Vault
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+- `"anthropic-workspace-id": optional string`
+
+## Body parameters
 
 - `display_name: optional string or null`
 
   Updated human-readable name for the vault. 1-255 characters.
 
+  minLength: 1, maxLength: 255
+
 - `metadata: optional map[string] or null`
 
   Metadata patch. Set a key to a string to upsert it, or to null to delete it. Omitted keys are preserved.
 
-### Returns
+## Returns
 
-- `BetaManagedAgentsVault object { id, archived_at, created_at, 4 more }`
+- `BetaManagedAgentsVault object`
 
   A vault that stores credentials for use by agents during sessions.
+
+  - `type: "vault"`
 
   - `id: string`
 
@@ -135,9 +143,13 @@ Update Vault
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `created_at: string`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `display_name: string`
 
@@ -147,17 +159,15 @@ Update Vault
 
     Arbitrary key-value metadata attached to the vault.
 
-  - `type: "vault"`
-
-    - `"vault"`
-
   - `updated_at: string`
 
     A timestamp in RFC 3339 format
 
-### Example
+    format: date-time
 
-```http
+## Example
+
+```bash
 curl https://api.anthropic.com/v1/vaults/$VAULT_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -171,7 +181,7 @@ curl https://api.anthropic.com/v1/vaults/$VAULT_ID \
         }'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

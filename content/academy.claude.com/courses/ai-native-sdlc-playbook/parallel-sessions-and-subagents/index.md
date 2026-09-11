@@ -6,7 +6,7 @@ Lesson 7 of 14 · The AI-Native SDLC PlaybookParallel sessions and subagents
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-native-sdlc-playbook%2Fparallel-sessions-and-subagents)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-native-sdlc-playbook%2Fparallel-sessions-and-subagents)
 
 One engineer can drive several streams of work at once.
 

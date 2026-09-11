@@ -3,9 +3,9 @@ title: Remove Federation Rule Workspace
 url: https://platform.claude.com/docs/en/api/beta/organization/federation/rules/workspaces/remove
 ---
 
-## Remove Federation Rule Workspace
+# Remove Federation Rule Workspace
 
-**delete** `/v1/organizations/federation_rules/{federation_rule_id}/workspaces/{workspace_id}`
+**DELETE** `/v1/organizations/federation_rules/{federation_rule_id}/workspaces/{workspace_id}`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -16,7 +16,7 @@ callers may only manage rules whose `oauth_scope` is
 `workspace:developer` or `workspace:inference`; other scopes require a
 Console session.
 
-### Path Parameters
+## Path parameters
 
 - `federation_rule_id: string`
 
@@ -26,7 +26,7 @@ Console session.
 
   ID of the workspace to disable for.
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -34,7 +34,7 @@ Console session.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -82,6 +82,8 @@ Console session.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -124,30 +126,30 @@ Console session.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+## Returns
+
+- `type: "federation_rule_workspace_deleted"`
+
+  default: federation_rule_workspace_deleted
 
 - `federation_rule_id: string`
 
   Tagged ID of the federation rule.
 
-- `type: "federation_rule_workspace_deleted"`
-
-  - `"federation_rule_workspace_deleted"`
-
 - `workspace_id: string`
 
   Tagged ID of the workspace named in the delete request. Removal is idempotent.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/federation_rules/$FEDERATION_RULE_ID/workspaces/$WORKSPACE_ID \
     -X DELETE \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

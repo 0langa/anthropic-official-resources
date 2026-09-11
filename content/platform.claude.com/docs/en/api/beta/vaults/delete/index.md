@@ -3,17 +3,17 @@ title: Delete Vault
 url: https://platform.claude.com/docs/en/api/beta/vaults/delete
 ---
 
-## Delete Vault
+# Delete Vault
 
-**delete** `/v1/vaults/{vault_id}`
+**DELETE** `/v1/vaults/{vault_id}`
 
 Delete Vault
 
-### Path Parameters
+## Path parameters
 
 - `vault_id: string`
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -21,7 +21,7 @@ Delete Vault
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -69,6 +69,8 @@ Delete Vault
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -111,23 +113,23 @@ Delete Vault
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+- `"anthropic-workspace-id": optional string`
 
-- `BetaManagedAgentsDeletedVault object { id, type }`
+## Returns
+
+- `BetaManagedAgentsDeletedVault object`
 
   Confirmation of a deleted vault.
+
+  - `type: "vault_deleted"`
 
   - `id: string`
 
     Unique identifier of the deleted vault.
 
-  - `type: "vault_deleted"`
+## Example
 
-    - `"vault_deleted"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/vaults/$VAULT_ID \
     -X DELETE \
     -H 'anthropic-version: 2023-06-01' \
@@ -135,7 +137,7 @@ curl https://api.anthropic.com/v1/vaults/$VAULT_ID \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

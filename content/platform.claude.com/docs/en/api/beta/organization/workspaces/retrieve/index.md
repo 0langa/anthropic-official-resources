@@ -3,21 +3,29 @@ title: Get Workspace
 url: https://platform.claude.com/docs/en/api/beta/organization/workspaces/retrieve
 ---
 
-## Get Workspace
+# Get Workspace
 
-**get** `/v1/organizations/workspaces/{workspace_id}`
+**GET** `/v1/organizations/workspaces/{workspace_id}`
 
 Get Workspace
 
-### Path Parameters
+## Path parameters
 
 - `workspace_id: string`
 
   ID of the Workspace.
 
-### Returns
+## Returns
 
-- `BetaWorkspace object { id, archived_at, compartment_id, 7 more }`
+- `BetaWorkspace object`
+
+  - `type: "workspace"`
+
+    Object type.
+
+    For Workspaces, this is always `"workspace"`.
+
+    default: workspace
 
   - `id: string`
 
@@ -26,6 +34,8 @@ Get Workspace
   - `archived_at: string or null`
 
     RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
+
+    format: date-time
 
   - `compartment_id: string`
 
@@ -45,6 +55,8 @@ Get Workspace
 
     RFC 3339 datetime string indicating when the Workspace was created.
 
+    format: date-time
+
   - `data_residency: BetaDataResidency`
 
     Data residency configuration.
@@ -56,8 +68,6 @@ Get Workspace
       - `Geos = array of string`
 
       - `Unrestricted = "unrestricted"`
-
-        - `"unrestricted"`
 
     - `default_inference_geo: string`
 
@@ -93,23 +103,15 @@ Get Workspace
 
     User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
-  - `type: "workspace"`
+## Example
 
-    Object type.
-
-    For Workspaces, this is always `"workspace"`.
-
-    - `"workspace"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

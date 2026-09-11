@@ -3,9 +3,9 @@ title: Update Service Account Workspace Member
 url: https://platform.claude.com/docs/en/api/beta/organization/workspaces/service_accounts/update
 ---
 
-## Update Service Account Workspace Member
+# Update Service Account Workspace Member
 
-**post** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
+**POST** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -18,7 +18,7 @@ default-workspace membership, add the service account explicitly with
 return 400. Archived service accounts cannot be updated and are
 rejected.
 
-### Path Parameters
+## Path parameters
 
 - `workspace_id: string`
 
@@ -28,7 +28,7 @@ rejected.
 
   ID of the service account.
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -36,7 +36,7 @@ rejected.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -84,6 +84,8 @@ rejected.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -126,7 +128,7 @@ rejected.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+## Body parameters
 
 - `workspace_role: BetaNoBillingWorkspaceRole`
 
@@ -140,9 +142,13 @@ rejected.
 
   - `"workspace_user"`
 
-### Returns
+## Returns
 
-- `BetaServiceAccountWorkspaceMember object { created_by_actor_id, implicit, service_account_id, 3 more }`
+- `BetaServiceAccountWorkspaceMember object`
+
+  - `type: "service_account_workspace_member"`
+
+    default: service_account_workspace_member
 
   - `created_by_actor_id: string or null`
 
@@ -155,10 +161,6 @@ rejected.
   - `service_account_id: string`
 
     Tagged service account ID (`svac_...`).
-
-  - `type: "service_account_workspace_member"`
-
-    - `"service_account_workspace_member"`
 
   - `workspace_id: string`
 
@@ -178,9 +180,9 @@ rejected.
 
     - `"workspace_user"`
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts/$SERVICE_ACCOUNT_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -190,7 +192,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service
         }'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

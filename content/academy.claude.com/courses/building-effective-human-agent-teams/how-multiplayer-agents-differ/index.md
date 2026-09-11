@@ -11,7 +11,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fbuilding-effective-human-agent-teams%2Fhow-multiplayer-agents-differ)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-effective-human-agent-teams%2Fhow-multiplayer-agents-differ)
 
 Multiplayer agents have different capabilities than single-player AI. They have their own identity, their own memory, and context they can share across the team or with other agents. These capabilities allow humans and agents to work together on a shared goal.
 

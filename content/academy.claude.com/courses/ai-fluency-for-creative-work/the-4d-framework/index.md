@@ -12,7 +12,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-fluency-for-creative-work%2Fthe-4d-framework)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-creative-work%2Fthe-4d-framework)
 
 *Already taken AI Fluency: Framework and Foundations? The video will be familiar and you are welcome to skim it. The exercise is new and specific to creative practice, and we recommend doing it even if you skip the video, as the next lessons build directly on it.*
 

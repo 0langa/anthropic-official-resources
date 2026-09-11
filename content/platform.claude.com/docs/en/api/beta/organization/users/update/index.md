@@ -3,19 +3,19 @@ title: Update User
 url: https://platform.claude.com/docs/en/api/beta/organization/users/update
 ---
 
-## Update User
+# Update User
 
-**post** `/v1/organizations/users/{user_id}`
+**POST** `/v1/organizations/users/{user_id}`
 
 Update a member's organization role.
 
-### Path Parameters
+## Path parameters
 
 - `user_id: string`
 
   ID of the User.
 
-### Body Parameters
+## Body parameters
 
 - `role: "billing" or "claude_code_user" or "developer" or 2 more`
 
@@ -33,9 +33,17 @@ Update a member's organization role.
 
   - `"user"`
 
-### Returns
+## Returns
 
-- `BetaOrganizationUser object { id, added_at, email, 3 more }`
+- `BetaOrganizationUser object`
+
+  - `type: "user"`
+
+    Object type.
+
+    For Users, this is always `"user"`.
+
+    default: user
 
   - `id: string`
 
@@ -44,6 +52,8 @@ Update a member's organization role.
   - `added_at: string`
 
     RFC 3339 datetime string indicating when the User joined the Organization.
+
+    format: date-time
 
   - `email: string`
 
@@ -75,17 +85,9 @@ Update a member's organization role.
 
     - `"user"`
 
-  - `type: "user"`
+## Example
 
-    Object type.
-
-    For Users, this is always `"user"`.
-
-    - `"user"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/users/$USER_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -95,7 +97,7 @@ curl https://api.anthropic.com/v1/organizations/users/$USER_ID \
         }'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

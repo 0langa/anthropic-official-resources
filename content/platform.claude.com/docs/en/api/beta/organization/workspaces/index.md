@@ -7,11 +7,11 @@ url: https://platform.claude.com/docs/en/api/beta/organization/workspaces
 
 ## List Workspaces
 
-**get** `/v1/organizations/workspaces`
+**GET** `/v1/organizations/workspaces`
 
 List Workspaces
 
-### Query Parameters
+### Query parameters
 
 - `after_id: optional string`
 
@@ -25,15 +25,27 @@ List Workspaces
 
   Whether to include Workspaces that have been archived in the response
 
+  default: false
+
 - `limit: optional number`
 
   Number of items to return per page.
 
   Defaults to `20`. Ranges from `1` to `1000`.
 
+  default: 20, maximum: 1000, minimum: 1
+
 ### Returns
 
 - `data: array of BetaWorkspace`
+
+  - `type: "workspace"`
+
+    Object type.
+
+    For Workspaces, this is always `"workspace"`.
+
+    default: workspace
 
   - `id: string`
 
@@ -42,6 +54,8 @@ List Workspaces
   - `archived_at: string or null`
 
     RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
+
+    format: date-time
 
   - `compartment_id: string`
 
@@ -61,6 +75,8 @@ List Workspaces
 
     RFC 3339 datetime string indicating when the Workspace was created.
 
+    format: date-time
+
   - `data_residency: BetaDataResidency`
 
     Data residency configuration.
@@ -72,8 +88,6 @@ List Workspaces
       - `Geos = array of string`
 
       - `Unrestricted = "unrestricted"`
-
-        - `"unrestricted"`
 
     - `default_inference_geo: string`
 
@@ -109,14 +123,6 @@ List Workspaces
 
     User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
-  - `type: "workspace"`
-
-    Object type.
-
-    For Workspaces, this is always `"workspace"`.
-
-    - `"workspace"`
-
 - `first_id: string or null`
 
   First ID in the `data` list. Can be used as the `before_id` for the previous page.
@@ -131,13 +137,13 @@ List Workspaces
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -170,11 +176,11 @@ curl https://api.anthropic.com/v1/organizations/workspaces \
 
 ## Create Workspace
 
-**post** `/v1/organizations/workspaces`
+**POST** `/v1/organizations/workspaces`
 
 Create Workspace
 
-### Header Parameters
+### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -182,7 +188,7 @@ Create Workspace
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -230,6 +236,8 @@ Create Workspace
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -272,11 +280,13 @@ Create Workspace
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+### Body parameters
 
 - `name: string`
 
   Name of the Workspace.
+
+  maxLength: 40, minLength: 1
 
 - `data_residency: optional BetaDataResidencyCreateConfig or null`
 
@@ -294,8 +304,6 @@ Create Workspace
 
     - `Unrestricted = "unrestricted"`
 
-      - `"unrestricted"`
-
   - `default_inference_geo: optional "global" or "us" or null`
 
     Default inference geo applied when requests omit the parameter. Defaults to 'global' if omitted. Must be a member of `allowed_inference_geos` unless `allowed_inference_geos` is `"unrestricted"`.
@@ -308,11 +316,11 @@ Create Workspace
 
     Geographic region for workspace data storage. Immutable after creation. Defaults to 'us' if omitted.
 
-    - `"us"`
-
 - `display_color: optional string or null`
 
   Hex color code representing the Workspace in the Anthropic Console.
+
+  maxLength: 7, pattern: ^#[0-9A-Fa-f]{6}$
 
 - `external_key_id: optional string or null`
 
@@ -334,7 +342,15 @@ Create Workspace
 
 ### Returns
 
-- `BetaWorkspace object { id, archived_at, compartment_id, 7 more }`
+- `BetaWorkspace object`
+
+  - `type: "workspace"`
+
+    Object type.
+
+    For Workspaces, this is always `"workspace"`.
+
+    default: workspace
 
   - `id: string`
 
@@ -343,6 +359,8 @@ Create Workspace
   - `archived_at: string or null`
 
     RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
+
+    format: date-time
 
   - `compartment_id: string`
 
@@ -362,6 +380,8 @@ Create Workspace
 
     RFC 3339 datetime string indicating when the Workspace was created.
 
+    format: date-time
+
   - `data_residency: BetaDataResidency`
 
     Data residency configuration.
@@ -373,8 +393,6 @@ Create Workspace
       - `Geos = array of string`
 
       - `Unrestricted = "unrestricted"`
-
-        - `"unrestricted"`
 
     - `default_inference_geo: string`
 
@@ -410,17 +428,9 @@ Create Workspace
 
     User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
-  - `type: "workspace"`
-
-    Object type.
-
-    For Workspaces, this is always `"workspace"`.
-
-    - `"workspace"`
-
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -436,7 +446,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces \
         }'
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -462,11 +472,11 @@ curl https://api.anthropic.com/v1/organizations/workspaces \
 
 ## Get Workspace
 
-**get** `/v1/organizations/workspaces/{workspace_id}`
+**GET** `/v1/organizations/workspaces/{workspace_id}`
 
 Get Workspace
 
-### Path Parameters
+### Path parameters
 
 - `workspace_id: string`
 
@@ -474,7 +484,15 @@ Get Workspace
 
 ### Returns
 
-- `BetaWorkspace object { id, archived_at, compartment_id, 7 more }`
+- `BetaWorkspace object`
+
+  - `type: "workspace"`
+
+    Object type.
+
+    For Workspaces, this is always `"workspace"`.
+
+    default: workspace
 
   - `id: string`
 
@@ -483,6 +501,8 @@ Get Workspace
   - `archived_at: string or null`
 
     RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
+
+    format: date-time
 
   - `compartment_id: string`
 
@@ -502,6 +522,8 @@ Get Workspace
 
     RFC 3339 datetime string indicating when the Workspace was created.
 
+    format: date-time
+
   - `data_residency: BetaDataResidency`
 
     Data residency configuration.
@@ -513,8 +535,6 @@ Get Workspace
       - `Geos = array of string`
 
       - `Unrestricted = "unrestricted"`
-
-        - `"unrestricted"`
 
     - `default_inference_geo: string`
 
@@ -550,23 +570,15 @@ Get Workspace
 
     User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
-  - `type: "workspace"`
-
-    Object type.
-
-    For Workspaces, this is always `"workspace"`.
-
-    - `"workspace"`
-
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -592,15 +604,15 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
 
 ## Update Workspace
 
-**post** `/v1/organizations/workspaces/{workspace_id}`
+**POST** `/v1/organizations/workspaces/{workspace_id}`
 
 Update Workspace
 
-### Path Parameters
+### Path parameters
 
 - `workspace_id: string`
 
-### Body Parameters
+### Body parameters
 
 - `data_residency: optional BetaDataResidencyUpdateConfig or null`
 
@@ -618,8 +630,6 @@ Update Workspace
 
     - `Unrestricted = "unrestricted"`
 
-      - `"unrestricted"`
-
   - `default_inference_geo: optional "global" or "us" or null`
 
     Default inference geo applied when requests omit the parameter. Must be a member of `allowed_inference_geos` unless `allowed_inference_geos` is `"unrestricted"`.
@@ -631,6 +641,8 @@ Update Workspace
 - `display_color: optional string`
 
   Hex color code representing the Workspace in the Anthropic Console.
+
+  maxLength: 7, pattern: ^#[0-9A-Fa-f]{6}$
 
 - `external_key_id: optional string`
 
@@ -650,13 +662,23 @@ Update Workspace
 
   Name of the Workspace.
 
+  maxLength: 40, minLength: 1
+
 - `tags: optional map[string] or null`
 
   User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
 ### Returns
 
-- `BetaWorkspace object { id, archived_at, compartment_id, 7 more }`
+- `BetaWorkspace object`
+
+  - `type: "workspace"`
+
+    Object type.
+
+    For Workspaces, this is always `"workspace"`.
+
+    default: workspace
 
   - `id: string`
 
@@ -665,6 +687,8 @@ Update Workspace
   - `archived_at: string or null`
 
     RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
+
+    format: date-time
 
   - `compartment_id: string`
 
@@ -684,6 +708,8 @@ Update Workspace
 
     RFC 3339 datetime string indicating when the Workspace was created.
 
+    format: date-time
+
   - `data_residency: BetaDataResidency`
 
     Data residency configuration.
@@ -695,8 +721,6 @@ Update Workspace
       - `Geos = array of string`
 
       - `Unrestricted = "unrestricted"`
-
-        - `"unrestricted"`
 
     - `default_inference_geo: string`
 
@@ -732,17 +756,9 @@ Update Workspace
 
     User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
-  - `type: "workspace"`
-
-    Object type.
-
-    For Workspaces, this is always `"workspace"`.
-
-    - `"workspace"`
-
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -757,7 +773,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
         }'
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -783,17 +799,25 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
 
 ## Archive Workspace
 
-**post** `/v1/organizations/workspaces/{workspace_id}/archive`
+**POST** `/v1/organizations/workspaces/{workspace_id}/archive`
 
 Archive Workspace
 
-### Path Parameters
+### Path parameters
 
 - `workspace_id: string`
 
 ### Returns
 
-- `BetaWorkspace object { id, archived_at, compartment_id, 7 more }`
+- `BetaWorkspace object`
+
+  - `type: "workspace"`
+
+    Object type.
+
+    For Workspaces, this is always `"workspace"`.
+
+    default: workspace
 
   - `id: string`
 
@@ -802,6 +826,8 @@ Archive Workspace
   - `archived_at: string or null`
 
     RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
+
+    format: date-time
 
   - `compartment_id: string`
 
@@ -821,6 +847,8 @@ Archive Workspace
 
     RFC 3339 datetime string indicating when the Workspace was created.
 
+    format: date-time
+
   - `data_residency: BetaDataResidency`
 
     Data residency configuration.
@@ -832,8 +860,6 @@ Archive Workspace
       - `Geos = array of string`
 
       - `Unrestricted = "unrestricted"`
-
-        - `"unrestricted"`
 
     - `default_inference_geo: string`
 
@@ -869,24 +895,16 @@ Archive Workspace
 
     User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
-  - `type: "workspace"`
-
-    Object type.
-
-    For Workspaces, this is always `"workspace"`.
-
-    - `"workspace"`
-
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive \
     -X POST \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -910,7 +928,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive
 }
 ```
 
-## Domain Types
+## Domain types
 
 ### Beta Allowed Inference Geo
 
@@ -922,7 +940,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive
 
 ### Beta Data Residency
 
-- `BetaDataResidency object { allowed_inference_geos, default_inference_geo, workspace_geo }`
+- `BetaDataResidency object`
 
   - `allowed_inference_geos: array of string or "unrestricted"`
 
@@ -931,8 +949,6 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive
     - `Geos = array of string`
 
     - `Unrestricted = "unrestricted"`
-
-      - `"unrestricted"`
 
   - `default_inference_geo: string`
 
@@ -944,7 +960,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive
 
 ### Beta Data Residency Create Config
 
-- `BetaDataResidencyCreateConfig object { allowed_inference_geos, default_inference_geo, workspace_geo }`
+- `BetaDataResidencyCreateConfig object`
 
   - `allowed_inference_geos: optional array of BetaAllowedInferenceGeo or "unrestricted" or null`
 
@@ -958,8 +974,6 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive
 
     - `Unrestricted = "unrestricted"`
 
-      - `"unrestricted"`
-
   - `default_inference_geo: optional "global" or "us" or null`
 
     Default inference geo applied when requests omit the parameter. Defaults to 'global' if omitted. Must be a member of `allowed_inference_geos` unless `allowed_inference_geos` is `"unrestricted"`.
@@ -972,11 +986,9 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive
 
     Geographic region for workspace data storage. Immutable after creation. Defaults to 'us' if omitted.
 
-    - `"us"`
-
 ### Beta Data Residency Update Config
 
-- `BetaDataResidencyUpdateConfig object { allowed_inference_geos, default_inference_geo }`
+- `BetaDataResidencyUpdateConfig object`
 
   - `allowed_inference_geos: optional array of BetaAllowedInferenceGeo or "unrestricted" or null`
 
@@ -989,8 +1001,6 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive
       - `"us"`
 
     - `Unrestricted = "unrestricted"`
-
-      - `"unrestricted"`
 
   - `default_inference_geo: optional "global" or "us" or null`
 
@@ -1014,7 +1024,15 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive
 
 ### Beta Workspace
 
-- `BetaWorkspace object { id, archived_at, compartment_id, 7 more }`
+- `BetaWorkspace object`
+
+  - `type: "workspace"`
+
+    Object type.
+
+    For Workspaces, this is always `"workspace"`.
+
+    default: workspace
 
   - `id: string`
 
@@ -1023,6 +1041,8 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive
   - `archived_at: string or null`
 
     RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
+
+    format: date-time
 
   - `compartment_id: string`
 
@@ -1042,6 +1062,8 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive
 
     RFC 3339 datetime string indicating when the Workspace was created.
 
+    format: date-time
+
   - `data_residency: BetaDataResidency`
 
     Data residency configuration.
@@ -1053,8 +1075,6 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive
       - `Geos = array of string`
 
       - `Unrestricted = "unrestricted"`
-
-        - `"unrestricted"`
 
     - `default_inference_geo: string`
 
@@ -1090,17 +1110,9 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive
 
     User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
-  - `type: "workspace"`
-
-    Object type.
-
-    For Workspaces, this is always `"workspace"`.
-
-    - `"workspace"`
-
 ### Beta Workspace Member
 
-- `BetaWorkspaceMember object { type, user_id, workspace_id, workspace_role }`
+- `BetaWorkspaceMember object`
 
   - `type: "workspace_member"`
 
@@ -1108,7 +1120,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive
 
     For Workspace Members, this is always `"workspace_member"`.
 
-    - `"workspace_member"`
+    default: workspace_member
 
   - `user_id: string`
 
@@ -1146,11 +1158,11 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive
 
   - `"workspace_user"`
 
-# Rate Limits
+## Workspaces › Rate Limits
 
-## List Workspace Rate Limits
+### List Workspace Rate Limits
 
-**get** `/v1/organizations/workspaces/{workspace_id}/rate_limits`
+**GET** `/v1/organizations/workspaces/{workspace_id}/rate_limits`
 
 List rate-limit overrides configured for a workspace.
 
@@ -1162,13 +1174,13 @@ When `limit` is omitted, every matching entry is returned in a single
 page; when `limit` truncates the result, follow `next_page` to fetch
 the remaining entries.
 
-### Path Parameters
+#### Path parameters
 
 - `workspace_id: string`
 
   The ID of the workspace.
 
-### Query Parameters
+#### Query parameters
 
 - `group_type: optional "batch" or "files" or "model_group" or 3 more`
 
@@ -1192,15 +1204,23 @@ the remaining entries.
 
   When omitted, every remaining entry is returned in a single page and `next_page` is `null`.
 
+  maximum: 1000, minimum: 1
+
 - `page: optional string`
 
   Opaque cursor from a previous response's `next_page`.
 
-### Returns
+#### Returns
 
 - `data: array of BetaWorkspaceRateLimit`
 
   Rate-limit entries for the workspace, one per group that has at least one override.
+
+  - `type: "workspace_rate_limit"`
+
+    Object type. Always `workspace_rate_limit` for workspace rate-limit entries.
+
+    default: workspace_rate_limit
 
   - `group_type: "batch" or "files" or "model_group" or 3 more`
 
@@ -1222,13 +1242,13 @@ the remaining entries.
 
     The limiter values overridden for this group in this workspace. Limiter types without a workspace override are omitted and inherit the organization value.
 
-    - `org_limit: number or null`
-
-      The organization-level value for the same limiter type, for reference. `null` when the organization has no limit configured for this limiter type.
-
     - `type: string`
 
       The limiter type (for example, `requests_per_minute` or `input_tokens_per_minute`).
+
+    - `org_limit: number or null`
+
+      The organization-level value for the same limiter type, for reference. `null` when the organization has no limit configured for this limiter type.
 
     - `value: number`
 
@@ -1242,12 +1262,6 @@ the remaining entries.
 
     The `id` of the RateLimit group this override applies to.
 
-  - `type: "workspace_rate_limit"`
-
-    Object type. Always `workspace_rate_limit` for workspace rate-limit entries.
-
-    - `"workspace_rate_limit"`
-
   - `workspace_id: string`
 
     ID of the Workspace this override applies to.
@@ -1256,15 +1270,15 @@ the remaining entries.
 
   Opaque cursor for the next page of results, or `null` when no entries remain beyond this response.
 
-### Example
+#### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/rate_limits \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -1290,93 +1304,21 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/rate_li
 }
 ```
 
-## Domain Types
+## Workspaces › Members
 
-### Beta Workspace Rate Limit
+### List Workspace Members
 
-- `BetaWorkspaceRateLimit object { group_type, limits, models, 3 more }`
-
-  - `group_type: "batch" or "files" or "model_group" or 3 more`
-
-    The kind of rate-limit group this entry represents. `model_group` entries apply to a family of models (listed in `models`); other values apply to an API-surface category and have `models` set to `null`.
-
-    - `"batch"`
-
-    - `"files"`
-
-    - `"model_group"`
-
-    - `"skills"`
-
-    - `"token_count"`
-
-    - `"web_search"`
-
-  - `limits: array of BetaWorkspaceRateLimitValue`
-
-    The limiter values overridden for this group in this workspace. Limiter types without a workspace override are omitted and inherit the organization value.
-
-    - `org_limit: number or null`
-
-      The organization-level value for the same limiter type, for reference. `null` when the organization has no limit configured for this limiter type.
-
-    - `type: string`
-
-      The limiter type (for example, `requests_per_minute` or `input_tokens_per_minute`).
-
-    - `value: number`
-
-      The workspace-level override value for this limiter type.
-
-  - `models: array of string or null`
-
-    Model names this entry's limits apply to, including aliases. `null` when `group_type` is not `"model_group"`.
-
-  - `rate_limit_id: string`
-
-    The `id` of the RateLimit group this override applies to.
-
-  - `type: "workspace_rate_limit"`
-
-    Object type. Always `workspace_rate_limit` for workspace rate-limit entries.
-
-    - `"workspace_rate_limit"`
-
-  - `workspace_id: string`
-
-    ID of the Workspace this override applies to.
-
-### Beta Workspace Rate Limit Value
-
-- `BetaWorkspaceRateLimitValue object { org_limit, type, value }`
-
-  - `org_limit: number or null`
-
-    The organization-level value for the same limiter type, for reference. `null` when the organization has no limit configured for this limiter type.
-
-  - `type: string`
-
-    The limiter type (for example, `requests_per_minute` or `input_tokens_per_minute`).
-
-  - `value: number`
-
-    The workspace-level override value for this limiter type.
-
-# Members
-
-## List Workspace Members
-
-**get** `/v1/organizations/workspaces/{workspace_id}/members`
+**GET** `/v1/organizations/workspaces/{workspace_id}/members`
 
 List Workspace Members
 
-### Path Parameters
+#### Path parameters
 
 - `workspace_id: string`
 
   ID of the Workspace.
 
-### Query Parameters
+#### Query parameters
 
 - `after_id: optional string`
 
@@ -1392,7 +1334,9 @@ List Workspace Members
 
   Defaults to `20`. Ranges from `1` to `1000`.
 
-### Returns
+  default: 20, maximum: 1000, minimum: 1
+
+#### Returns
 
 - `data: array of BetaWorkspaceMember`
 
@@ -1402,7 +1346,7 @@ List Workspace Members
 
     For Workspace Members, this is always `"workspace_member"`.
 
-    - `"workspace_member"`
+    default: workspace_member
 
   - `user_id: string`
 
@@ -1438,15 +1382,15 @@ List Workspace Members
 
   Last ID in the `data` list. Can be used as the `after_id` for the next page.
 
-### Example
+#### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -1464,19 +1408,19 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members
 }
 ```
 
-## Create Workspace Member
+### Create Workspace Member
 
-**post** `/v1/organizations/workspaces/{workspace_id}/members`
+**POST** `/v1/organizations/workspaces/{workspace_id}/members`
 
 Create Workspace Member
 
-### Path Parameters
+#### Path parameters
 
 - `workspace_id: string`
 
   ID of the Workspace.
 
-### Body Parameters
+#### Body parameters
 
 - `user_id: string`
 
@@ -1494,9 +1438,9 @@ Create Workspace Member
 
   - `"workspace_user"`
 
-### Returns
+#### Returns
 
-- `BetaWorkspaceMember object { type, user_id, workspace_id, workspace_role }`
+- `BetaWorkspaceMember object`
 
   - `type: "workspace_member"`
 
@@ -1504,7 +1448,7 @@ Create Workspace Member
 
     For Workspace Members, this is always `"workspace_member"`.
 
-    - `"workspace_member"`
+    default: workspace_member
 
   - `user_id: string`
 
@@ -1528,9 +1472,9 @@ Create Workspace Member
 
     - `"workspace_user"`
 
-### Example
+#### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -1541,7 +1485,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members
         }'
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -1552,13 +1496,13 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members
 }
 ```
 
-## Get Workspace Member
+### Get Workspace Member
 
-**get** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
+**GET** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
 
 Get Workspace Member
 
-### Path Parameters
+#### Path parameters
 
 - `workspace_id: string`
 
@@ -1568,9 +1512,9 @@ Get Workspace Member
 
   ID of the User.
 
-### Returns
+#### Returns
 
-- `BetaWorkspaceMember object { type, user_id, workspace_id, workspace_role }`
+- `BetaWorkspaceMember object`
 
   - `type: "workspace_member"`
 
@@ -1578,7 +1522,7 @@ Get Workspace Member
 
     For Workspace Members, this is always `"workspace_member"`.
 
-    - `"workspace_member"`
+    default: workspace_member
 
   - `user_id: string`
 
@@ -1602,15 +1546,15 @@ Get Workspace Member
 
     - `"workspace_user"`
 
-### Example
+#### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -1621,13 +1565,13 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members
 }
 ```
 
-## Update Workspace Member
+### Update Workspace Member
 
-**post** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
+**POST** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
 
 Update Workspace Member
 
-### Path Parameters
+#### Path parameters
 
 - `workspace_id: string`
 
@@ -1637,7 +1581,7 @@ Update Workspace Member
 
   ID of the User.
 
-### Body Parameters
+#### Body parameters
 
 - `workspace_role: BetaWorkspaceRole`
 
@@ -1653,9 +1597,9 @@ Update Workspace Member
 
   - `"workspace_user"`
 
-### Returns
+#### Returns
 
-- `BetaWorkspaceMember object { type, user_id, workspace_id, workspace_role }`
+- `BetaWorkspaceMember object`
 
   - `type: "workspace_member"`
 
@@ -1663,7 +1607,7 @@ Update Workspace Member
 
     For Workspace Members, this is always `"workspace_member"`.
 
-    - `"workspace_member"`
+    default: workspace_member
 
   - `user_id: string`
 
@@ -1687,9 +1631,9 @@ Update Workspace Member
 
     - `"workspace_user"`
 
-### Example
+#### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -1699,7 +1643,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members
         }'
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -1710,13 +1654,13 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members
 }
 ```
 
-## Delete Workspace Member
+### Delete Workspace Member
 
-**delete** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
+**DELETE** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
 
 Delete Workspace Member
 
-### Path Parameters
+#### Path parameters
 
 - `workspace_id: string`
 
@@ -1726,7 +1670,7 @@ Delete Workspace Member
 
   ID of the User.
 
-### Returns
+#### Returns
 
 - `type: "workspace_member_deleted"`
 
@@ -1734,7 +1678,7 @@ Delete Workspace Member
 
   For Workspace Members, this is always `"workspace_member_deleted"`.
 
-  - `"workspace_member_deleted"`
+  default: workspace_member_deleted
 
 - `user_id: string`
 
@@ -1744,16 +1688,16 @@ Delete Workspace Member
 
   ID of the Workspace.
 
-### Example
+#### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
     -X DELETE \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -1763,33 +1707,11 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members
 }
 ```
 
-## Domain Types
+## Workspaces › Service Accounts
 
-### Member Remove Response
+### List Service Account Workspace Members
 
-- `MemberRemoveResponse object { type, user_id, workspace_id }`
-
-  - `type: "workspace_member_deleted"`
-
-    Deleted object type.
-
-    For Workspace Members, this is always `"workspace_member_deleted"`.
-
-    - `"workspace_member_deleted"`
-
-  - `user_id: string`
-
-    ID of the User.
-
-  - `workspace_id: string`
-
-    ID of the Workspace.
-
-# Service Accounts
-
-## List Service Account Workspace Members
-
-**get** `/v1/organizations/workspaces/{workspace_id}/service_accounts`
+**GET** `/v1/organizations/workspaces/{workspace_id}/service_accounts`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -1802,23 +1724,25 @@ archived workspace. The implicit default-workspace membership is not
 included in this list. Memberships of archived service accounts are
 omitted from the results.
 
-### Path Parameters
+#### Path parameters
 
 - `workspace_id: string`
 
   ID of the workspace.
 
-### Query Parameters
+#### Query parameters
 
 - `limit: optional number`
 
   Number of results per page.
 
+  default: 20, maximum: 100, minimum: 1
+
 - `page: optional string`
 
   Opaque cursor from a previous response's `next_page`.
 
-### Header Parameters
+#### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -1826,7 +1750,7 @@ omitted from the results.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -1874,6 +1798,8 @@ omitted from the results.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -1916,9 +1842,13 @@ omitted from the results.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+#### Returns
 
 - `data: array of BetaServiceAccountWorkspaceMember`
+
+  - `type: "service_account_workspace_member"`
+
+    default: service_account_workspace_member
 
   - `created_by_actor_id: string or null`
 
@@ -1931,10 +1861,6 @@ omitted from the results.
   - `service_account_id: string`
 
     Tagged service account ID (`svac_...`).
-
-  - `type: "service_account_workspace_member"`
-
-    - `"service_account_workspace_member"`
 
   - `workspace_id: string`
 
@@ -1958,15 +1884,15 @@ omitted from the results.
 
   Opaque cursor for the next page, or null if no more results.
 
-### Example
+#### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -1984,9 +1910,9 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service
 }
 ```
 
-## Create Service Account Workspace Member
+### Create Service Account Workspace Member
 
-**post** `/v1/organizations/workspaces/{workspace_id}/service_accounts`
+**POST** `/v1/organizations/workspaces/{workspace_id}/service_accounts`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -2001,13 +1927,13 @@ member of the workspace, its `workspace_role` is replaced with the
 value supplied here. Archived workspaces return 400. Archived service
 accounts cannot be added and are rejected.
 
-### Path Parameters
+#### Path parameters
 
 - `workspace_id: string`
 
   ID of the workspace.
 
-### Header Parameters
+#### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -2015,7 +1941,7 @@ accounts cannot be added and are rejected.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -2063,6 +1989,8 @@ accounts cannot be added and are rejected.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -2105,7 +2033,7 @@ accounts cannot be added and are rejected.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+#### Body parameters
 
 - `service_account_id: string`
 
@@ -2123,9 +2051,13 @@ accounts cannot be added and are rejected.
 
   - `"workspace_user"`
 
-### Returns
+#### Returns
 
-- `BetaServiceAccountWorkspaceMember object { created_by_actor_id, implicit, service_account_id, 3 more }`
+- `BetaServiceAccountWorkspaceMember object`
+
+  - `type: "service_account_workspace_member"`
+
+    default: service_account_workspace_member
 
   - `created_by_actor_id: string or null`
 
@@ -2138,10 +2070,6 @@ accounts cannot be added and are rejected.
   - `service_account_id: string`
 
     Tagged service account ID (`svac_...`).
-
-  - `type: "service_account_workspace_member"`
-
-    - `"service_account_workspace_member"`
 
   - `workspace_id: string`
 
@@ -2161,9 +2089,9 @@ accounts cannot be added and are rejected.
 
     - `"workspace_user"`
 
-### Example
+#### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -2174,7 +2102,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service
         }'
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -2187,9 +2115,9 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service
 }
 ```
 
-## Get Service Account Workspace Member
+### Get Service Account Workspace Member
 
-**get** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
+**GET** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -2202,7 +2130,7 @@ membership when no explicit membership exists; an explicitly added
 membership is returned with its assigned role. An archived service
 account returns 404.
 
-### Path Parameters
+#### Path parameters
 
 - `workspace_id: string`
 
@@ -2212,7 +2140,7 @@ account returns 404.
 
   ID of the service account.
 
-### Header Parameters
+#### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -2220,7 +2148,7 @@ account returns 404.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -2268,6 +2196,8 @@ account returns 404.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -2310,9 +2240,13 @@ account returns 404.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+#### Returns
 
-- `BetaServiceAccountWorkspaceMember object { created_by_actor_id, implicit, service_account_id, 3 more }`
+- `BetaServiceAccountWorkspaceMember object`
+
+  - `type: "service_account_workspace_member"`
+
+    default: service_account_workspace_member
 
   - `created_by_actor_id: string or null`
 
@@ -2325,10 +2259,6 @@ account returns 404.
   - `service_account_id: string`
 
     Tagged service account ID (`svac_...`).
-
-  - `type: "service_account_workspace_member"`
-
-    - `"service_account_workspace_member"`
 
   - `workspace_id: string`
 
@@ -2348,15 +2278,15 @@ account returns 404.
 
     - `"workspace_user"`
 
-### Example
+#### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts/$SERVICE_ACCOUNT_ID \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -2369,9 +2299,9 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service
 }
 ```
 
-## Update Service Account Workspace Member
+### Update Service Account Workspace Member
 
-**post** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
+**POST** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -2384,7 +2314,7 @@ default-workspace membership, add the service account explicitly with
 return 400. Archived service accounts cannot be updated and are
 rejected.
 
-### Path Parameters
+#### Path parameters
 
 - `workspace_id: string`
 
@@ -2394,7 +2324,7 @@ rejected.
 
   ID of the service account.
 
-### Header Parameters
+#### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -2402,7 +2332,7 @@ rejected.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -2450,6 +2380,8 @@ rejected.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -2492,7 +2424,7 @@ rejected.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+#### Body parameters
 
 - `workspace_role: BetaNoBillingWorkspaceRole`
 
@@ -2506,9 +2438,13 @@ rejected.
 
   - `"workspace_user"`
 
-### Returns
+#### Returns
 
-- `BetaServiceAccountWorkspaceMember object { created_by_actor_id, implicit, service_account_id, 3 more }`
+- `BetaServiceAccountWorkspaceMember object`
+
+  - `type: "service_account_workspace_member"`
+
+    default: service_account_workspace_member
 
   - `created_by_actor_id: string or null`
 
@@ -2521,10 +2457,6 @@ rejected.
   - `service_account_id: string`
 
     Tagged service account ID (`svac_...`).
-
-  - `type: "service_account_workspace_member"`
-
-    - `"service_account_workspace_member"`
 
   - `workspace_id: string`
 
@@ -2544,9 +2476,9 @@ rejected.
 
     - `"workspace_user"`
 
-### Example
+#### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts/$SERVICE_ACCOUNT_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -2556,7 +2488,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service
         }'
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -2569,9 +2501,9 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service
 }
 ```
 
-## Delete Service Account Workspace Member
+### Delete Service Account Workspace Member
 
-**delete** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
+**DELETE** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -2583,7 +2515,7 @@ returns 200 but is a no-op and the membership persists; deleting an
 explicit default-workspace row reverts to the implicit `workspace_user`
 membership. Archived workspaces return 400.
 
-### Path Parameters
+#### Path parameters
 
 - `workspace_id: string`
 
@@ -2593,7 +2525,7 @@ membership. Archived workspaces return 400.
 
   ID of the service account.
 
-### Header Parameters
+#### Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -2601,7 +2533,7 @@ membership. Archived workspaces return 400.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -2649,6 +2581,8 @@ membership. Archived workspaces return 400.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -2691,30 +2625,30 @@ membership. Archived workspaces return 400.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+#### Returns
+
+- `type: "service_account_workspace_member_deleted"`
+
+  default: service_account_workspace_member_deleted
 
 - `service_account_id: string`
 
   Tagged service account ID (`svac_...`) named in the delete request. Removal is idempotent; see the endpoint description for the implicit-membership no-op.
 
-- `type: "service_account_workspace_member_deleted"`
-
-  - `"service_account_workspace_member_deleted"`
-
 - `workspace_id: string`
 
   Tagged workspace ID (`wrkspc_...`) named in the delete request.
 
-### Example
+#### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts/$SERVICE_ACCOUNT_ID \
     -X DELETE \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -2723,21 +2657,3 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service
   "workspace_id": "workspace_id"
 }
 ```
-
-## Domain Types
-
-### Service Account Remove Response
-
-- `ServiceAccountRemoveResponse object { service_account_id, type, workspace_id }`
-
-  - `service_account_id: string`
-
-    Tagged service account ID (`svac_...`) named in the delete request. Removal is idempotent; see the endpoint description for the implicit-membership no-op.
-
-  - `type: "service_account_workspace_member_deleted"`
-
-    - `"service_account_workspace_member_deleted"`
-
-  - `workspace_id: string`
-
-    Tagged workspace ID (`wrkspc_...`) named in the delete request.

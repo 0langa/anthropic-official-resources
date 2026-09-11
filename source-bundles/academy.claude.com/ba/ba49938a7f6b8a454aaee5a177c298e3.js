@@ -1,0 +1,56 @@
+import{em as e,nm as t}from"../../../content-de-meta-ifw6afqc.js";var n=e();function r(e){let r={em:"em",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",ul:"ul",...t(),...e.components},{CoworkPrompt:i,CoworkResponse:o,CoworkWorkingFolder:s,ExcelPrompt:c,Image:l,TryIn:u,WordPrompt:d}=r;return i||a("CoworkPrompt",!0),o||a("CoworkResponse",!0),s||a("CoworkWorkingFolder",!0),c||a("ExcelPrompt",!0),l||a("Image",!0),u||a("TryIn",!0),d||a("WordPrompt",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(l,{src:"./validate-reserves-and-draft-filing-narrative-with-claude-for-excel.png",alt:"Validate reserves and draft filing narrative with Claude for Excel result",preview:!0}),`
+`,(0,n.jsx)(r.h2,{id:"1-describe-the-task",children:"1. Describe the task"}),`
+`,(0,n.jsx)(r.p,{children:"The valuation cutoff was last Friday. You’ve got the reserve workbook with five tabs of triangles, the prior-year filing memo open in another window, the appointed actuary asking about IBNR movement, and the state filing due in two weeks."}),`
+`,(0,n.jsx)(r.p,{children:"In Cowork, Claude reads your reserve workbook from the valuation folder, pulls your prior filings and the latest state bulletins through your organization's own NAIC connector (a custom MCP server your team hosts), and tells you where the development factors look off — and which formulas reference the wrong roll-forward column. You take the flags into Claude for Excel to fix the workbook, then open the filing memo in Claude for Word. The Excel-to-Word handoff carries the conversation, so the narrative draft already knows which reserve segments moved and why."}),`
+`,(0,n.jsx)(r.p,{children:"Claude validates the formulas and flags the anomalies; you sign off on the reserves."}),`
+`,(0,n.jsxs)(i,{children:[(0,n.jsx)(r.p,{children:"Q1 reserve review for Personal Auto BI — appointed actuary review next week, filing due in two. Walk me through the workbook before I lock the numbers."}),(0,n.jsx)(r.p,{children:"Steps:"}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"Read the reserve workbook in the valuation folder and validate the formulas"}),`
+`,(0,n.jsx)(r.li,{children:"Pull the FY24 filing and any new bulletins from NAIC"}),`
+`,(0,n.jsx)(r.li,{children:"Flag development factors and tail assumptions that look off vs. prior"}),`
+`,(0,n.jsx)(r.li,{children:"Give me a brief I can take into Excel — sheet refs, what's broken, what's just a movement to explain"}),`
+`]}),(0,n.jsx)(r.p,{children:"Show me the flags before I touch anything."})]}),`
+`,(0,n.jsx)(r.h2,{id:"2-give-claude-context",children:"2. Give Claude context"}),`
+`,(0,n.jsx)(r.p,{children:"Cowork reads the reserve workbook from the attached folder and pulls historical filings through your organization's own NAIC connector — that's where the formula validation and prior-period comparison happen. Workbook fixes happen in Claude for Excel with the file open, and the conversation carries into Claude for Word so the filing narrative picks up where you left off."}),`
+`,(0,n.jsx)(r.h3,{id:"required-context",children:"Required context"}),`
+`,(0,n.jsx)(r.p,{children:"Attach the valuation folder with the reserve workbook. This walkthrough assumes your organization runs its own NAIC data source as a remote MCP server: an Owner adds it once under Organization settings > Connectors (Add > Custom > Web, then the server URL), and you connect it under Customize > Connectors and turn it on from the + menu in your Cowork task. Have the Claude for Excel and Claude for Word add-ins installed — that's where the workbook fixes and filing narrative happen."}),`
+`,(0,n.jsx)(s,{name:"Valuation folder",files:[{name:"Q1 reserve workbook (Personal Auto BI)",kind:"xlsx"},{name:"Prior-year filing memo",kind:"doc"}]}),`
+`,(0,n.jsx)(r.h2,{id:"3-what-claude-creates",children:"3. What Claude creates"}),`
+`,(0,n.jsx)(r.p,{children:"A brief you can act on: where the workbook is broken, where the reserves moved, and the exact cells to look at when you open the file."}),`
+`,(0,n.jsxs)(o,{children:[(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Personal Auto BI — Q1 reserve review"})}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Reserve walk vs. Q4 prior"})}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"Ultimate losses: $487.2M — up $6.4M from $480.8M"}),`
+`,(0,n.jsx)(r.li,{children:"Case reserves: $142.1M — down $3.2M"}),`
+`,(0,n.jsx)(r.li,{children:"IBNR: $89.6M — up $9.6M"}),`
+`,(0,n.jsx)(r.li,{children:"Paid-to-date: $255.5M — up $11.2M (in line with expected)"}),`
+`]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"3 formula issues to fix"})}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.em,{children:"Triangles!K47 — Hard-coded 0.987 development factor"})," The 24-36 month link ratio for AY 2022 is hard-coded. Every other cell in column K pulls from the LDF table on Methodology!B14. This was probably a one-time override that didn't get reverted. The driver-derived value is 1.024 — using 0.987 understates IBNR by ~$2.1M for that accident year."]}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.em,{children:"Roll-forward!E22 — References wrong column"})," Q1 paid-to-date for AY 2023 is pulling from the AY 2022 column. Off by $890K. The pattern in the rest of the row is correct; just this one cell drifted."]}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.em,{children:"BF Method!D38 — Tail factor not flowing through"})," The 120-month tail factor on the input tab updated to 1.015, but the BF calculation still uses the prior 1.012. Three references didn't get linked when the tail tab was rebuilt last quarter."]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"1 movement to explain in the narrative"})}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.em,{children:"IBNR up $9.6M (+12%) on Personal Auto BI"})," Drivers: claim count emergence on AY 2024 ran 8% above expected in Q1, and the LDF refresh added ~50bp to the 12-24 month link ratio. Both are real movements, not formula issues — they just need narrative in the filing."]})]}),`
+`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"In your Excel workbook"})}),`
+`,(0,n.jsx)(r.p,{children:"With the Claude for Excel add-in installed, paste this into the sidebar with the workbook open:"}),`
+`,(0,n.jsxs)(c,{children:[(0,n.jsx)(r.p,{children:"Q1 reserve review — IBNR up $9.6M, ultimate up $6.4M."}),(0,n.jsx)(r.p,{children:"Three formula fixes: Triangles!K47 (hard-coded LDF), Roll-forward!E22 (wrong column ref), BF Method!D38 (tail not flowing). Walk me through each, show me the corrected number, then re-run the reserve walk so I can see the clean ultimate."})]}),`
+`,(0,n.jsx)(r.p,{children:"Once you've signed off on the workbook, open the filing memo in Claude for Word. The conversation carries from Excel, so the narrative already knows the IBNR movement and the LDF refresh — you just need it to draft the reserve adequacy section and the methodology change disclosure."}),`
+`,(0,n.jsx)(r.h2,{id:"4-follow-up-prompts",children:"4. Follow up prompts"}),`
+`,(0,n.jsx)(r.p,{children:"Continue the conversation with Claude to refine, expand, or explore further."}),`
+`,(0,n.jsx)(r.h3,{id:"pressure-test-the-development-factors",children:"Pressure-test the development factors"}),`
+`,(0,n.jsx)(r.p,{children:"In Cowork, ask whether the LDFs look consistent with industry data."}),`
+`,(0,n.jsx)(i,{children:(0,n.jsx)(r.p,{children:"are my 12-24 and 24-36 link ratios in line with the industry benchmarks NAIC published last quarter for Personal Auto BI?"})}),`
+`,(0,n.jsx)(r.h3,{id:"run-a-sensitivity-on-the-tail",children:"Run a sensitivity on the tail"}),`
+`,(0,n.jsx)(r.p,{children:"In Claude for Excel, once the workbook is clean."}),`
+`,(0,n.jsx)(c,{children:(0,n.jsx)(r.p,{children:"rebuild the tail sensitivity — show ultimate at tail factors of 1.010, 1.015, 1.020, 1.025, hold everything else constant"})}),`
+`,(0,n.jsx)(r.h3,{id:"draft-the-methodology-change-disclosure",children:"Draft the methodology change disclosure"}),`
+`,(0,n.jsx)(r.p,{children:"In Claude for Word, once the reserves are locked."}),`
+`,(0,n.jsx)(d,{children:(0,n.jsx)(r.p,{children:"draft the methodology change section for the filing — we updated the tail factor and added one accident year to the LDF selection window. keep it ASOP 36 compliant"})}),`
+`,(0,n.jsx)(r.h2,{id:"5-tricks-tips-and-troubleshooting",children:"5. Tricks, tips, and troubleshooting"}),`
+`,(0,n.jsx)(r.h3,{id:"ask-cowork-for-the-excel-ready-brief",children:"Ask Cowork for the Excel-ready brief"}),`
+`,(0,n.jsx)(r.p,{children:"End your Cowork session by asking for a one-paragraph brief with the sheet refs and the formula flags — that's what you paste into the Claude for Excel sidebar. Tighter than scrolling back through the chat."}),`
+`,(0,n.jsx)(r.h3,{id:"click-the-sheet-reference",children:"Click the sheet reference"}),`
+`,(0,n.jsx)(r.p,{children:"When Claude flags Triangles!K47 in the Excel sidebar, click it and Excel jumps to that cell. Check the formula and the surrounding pattern before you agree to change anything."}),`
+`,(0,n.jsx)(r.h3,{id:"excel-to-word-carries-the-conversation",children:"Excel to Word carries the conversation"}),`
+`,(0,n.jsx)(r.p,{children:`When you open the filing memo in Claude for Word, it already knows which formulas you fixed and which movements need narrative. You're not re-explaining the reserve walk — just say "draft the reserve adequacy section and the methodology disclosure."`}),`
+`,(0,n.jsx)(r.h3,{id:"save-it-as-a-skill",children:"Save it as a skill"}),`
+`,(0,n.jsx)(r.p,{children:"Quarterly reserve review is the same loop every cycle. Once the Cowork conversation works for one segment, save it as a skill so the next quarter's review across all your lines starts one click in."}),`
+`,(0,n.jsx)(r.h2,{id:"6-ready-to-try-for-yourself",children:"6. Ready to try for yourself?"}),`
+`,(0,n.jsx)(r.p,{children:"Try it on your next reserve cycle. Attach the valuation folder in Cowork, ask where the workbook needs fixing, and review the flags before anything moves."}),`
+`,(0,n.jsxs)(u,{surfaces:["cowork"],children:[(0,n.jsx)(r.p,{children:"Q1 reserve review for Personal Auto BI — appointed actuary review next week, filing due in two. Walk me through the workbook before I lock the numbers."}),(0,n.jsx)(r.p,{children:"Steps:"}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"Read the reserve workbook in the valuation folder and validate the formulas"}),`
+`,(0,n.jsx)(r.li,{children:"Pull the FY24 filing and any new bulletins from NAIC"}),`
+`,(0,n.jsx)(r.li,{children:"Flag development factors and tail assumptions that look off vs. prior"}),`
+`,(0,n.jsx)(r.li,{children:"Give me a brief I can take into Excel — sheet refs, what's broken, what's just a movement to explain"}),`
+`]}),(0,n.jsx)(r.p,{children:"Show me the flags before I touch anything."})]})]})}function i(e={}){let{wrapper:i}={...t(),...e.components};return i?(0,n.jsx)(i,{...e,children:(0,n.jsx)(r,{...e})}):r(e)}function a(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{i as default};

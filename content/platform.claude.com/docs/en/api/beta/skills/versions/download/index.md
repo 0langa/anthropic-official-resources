@@ -3,13 +3,13 @@ title: Download Skill Version Content
 url: https://platform.claude.com/docs/en/api/beta/skills/versions/download
 ---
 
-## Download Skill Version Content
+# Download Skill Version Content
 
-**get** `/v1/skills/{skill_id}/versions/{version}/content`
+**GET** `/v1/skills/{skill_id}/versions/{version}/content`
 
 Download a skill version's content as a zip archive.
 
-### Path Parameters
+## Path parameters
 
 - `skill_id: string`
 
@@ -23,7 +23,7 @@ Download a skill version's content as a zip archive.
 
   Requests carrying the `skills-2025-10-02` beta header address versions by their Unix epoch timestamp instead (e.g., "1759178010641129").
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -31,7 +31,7 @@ Download a skill version's content as a zip archive.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -79,6 +79,8 @@ Download a skill version's content as a zip archive.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -121,9 +123,11 @@ Download a skill version's content as a zip archive.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Example
+- `"anthropic-workspace-id": optional string`
 
-```http
+## Example
+
+```bash
 curl https://api.anthropic.com/v1/skills/$SKILL_ID/versions/$VERSION/content \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"

@@ -1,13 +1,13 @@
 ---
-title: Federation Issuers
-url: https://platform.claude.com/docs/en/api/admin/federation_issuers
+title: Issuers
+url: https://platform.claude.com/docs/en/api/beta/organization/federation/issuers
 ---
 
-# Federation Issuers
+# Issuers
 
 ## Create Federation Issuer
 
-**post** `/v1/organizations/federation_issuers`
+**POST** `/v1/organizations/federation_issuers`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -23,88 +23,192 @@ publicly reachable over HTTPS so Anthropic can fetch the discovery
 document; for `explicit_url` and `inline` modes the issuer URL is only
 matched as the JWT's `iss` claim and is not fetched.
 
-### Header Parameters
+### Headers
 
-- `"anthropic-beta": optional array of string`
+- `"anthropic-beta": optional array of AnthropicBeta`
 
   Optional header to specify the beta version(s) you want to use.
 
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
+  - `string`
 
-### Body Parameters
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
+
+    - `"message-batches-2024-09-24"`
+
+    - `"prompt-caching-2024-07-31"`
+
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
+
+### Body parameters
 
 - `issuer_url: string`
 
   The `iss` claim value to match against.
 
+  minLength: 1
+
 - `name: string`
 
   Slug identifier (lowercase, digits, hyphens). Unique within the organization; a duplicate name returns 409.
+
+  maxLength: 255, minLength: 1
 
 - `check_jti: optional boolean or null`
 
   Whether the jwt-bearer exchange enforces JTI single-use (replay protection) for tokens from this issuer. Defaults to true. Applies only to assertions carrying a `jti` claim; tokens without one are accepted without single-use enforcement.
 
-- `jwks: optional object { type, ca_cert_pem, discovery_base }  or object { type, url, ca_cert_pem }  or object { keys, type }`
+- `jwks: optional BetaJWKSDiscovery or BetaJWKSExplicitURL or BetaJWKSInline`
 
   How signing keys are obtained. Defaults to OIDC discovery.
 
-  - `Discovery object { type, ca_cert_pem, discovery_base }`
+  - `BetaJWKSDiscovery object`
 
     JWKS via the issuer's OIDC discovery document.
 
     - `type: "discovery"`
 
-      - `"discovery"`
-
     - `ca_cert_pem: optional string or null`
 
       Optional custom CA (PEM) for TLS verification of the JWKS fetch.
+
+      maxLength: 8192
 
     - `discovery_base: optional string or null`
 
       Set when the discovery URL differs from `issuer_url`.
 
-  - `ExplicitURL object { type, url, ca_cert_pem }`
+  - `BetaJWKSExplicitURL object`
 
     JWKS fetched from a fixed endpoint.
 
     - `type: "explicit_url"`
 
-      - `"explicit_url"`
-
     - `url: string`
 
       JWKS endpoint.
+
+      minLength: 1
 
     - `ca_cert_pem: optional string or null`
 
       Optional custom CA (PEM) for TLS verification of the JWKS fetch.
 
-  - `Inline object { keys, type }`
+      maxLength: 8192
+
+  - `BetaJWKSInline object`
 
     JWKS supplied directly; no network fetch.
+
+    - `type: "inline"`
 
     - `keys: array of map[unknown]`
 
       Inline JWK objects.
 
-    - `type: "inline"`
-
-      - `"inline"`
+      minItems: 1
 
 - `max_jwt_lifetime_seconds: optional number or null`
 
   Maximum allowed iat→exp spread for assertions from this issuer (1-176400 seconds, i.e. up to 49h). Defaults to 3600 (1h). Assertions must carry both `iat` and `exp`; a missing `iat` is rejected.
 
+  maximum: 176400, exclusiveMinimum: 0
+
 ### Returns
 
-- `FederationIssuer object { id, archived_at, archived_by_actor_id, 12 more }`
+- `BetaFederationIssuer object`
 
   Registered external OIDC identity provider.
 
   Records an external IdP the organization trusts for the RFC 7523
   jwt-bearer grant. The `issuer_url` must match the JWT `iss` claim exactly.
+
+  - `type: "federation_issuer"`
+
+    default: federation_issuer
 
   - `id: string`
 
@@ -113,6 +217,8 @@ matched as the JWT's `iss` claim and is not fetched.
   - `archived_at: string or null`
 
     If set, all rules referencing this issuer reject token exchange.
+
+    format: date-time
 
   - `archived_by_actor_id: string or null`
 
@@ -126,6 +232,8 @@ matched as the JWT's `iss` claim and is not fetched.
 
     When this issuer was created.
 
+    format: date-time
+
   - `created_by_actor_id: string or null`
 
     Tagged ID (`user_`/`svac_`) of the actor that created this issuer.
@@ -134,57 +242,61 @@ matched as the JWT's `iss` claim and is not fetched.
 
     The `iss` claim value. Incoming JWTs must match exactly.
 
-  - `jwks: object { type, ca_cert_pem, discovery_base }  or object { type, url, ca_cert_pem }  or object { keys, type }`
+  - `jwks: BetaJWKSDiscovery or BetaJWKSExplicitURL or BetaJWKSInline`
 
     How signing keys are obtained for signature verification.
 
-    - `Discovery object { type, ca_cert_pem, discovery_base }`
+    - `BetaJWKSDiscovery object`
 
       JWKS via the issuer's OIDC discovery document.
 
       - `type: "discovery"`
 
-        - `"discovery"`
-
       - `ca_cert_pem: optional string or null`
 
         Optional custom CA (PEM) for TLS verification of the JWKS fetch.
+
+        maxLength: 8192
 
       - `discovery_base: optional string or null`
 
         Set when the discovery URL differs from `issuer_url`.
 
-    - `ExplicitURL object { type, url, ca_cert_pem }`
+    - `BetaJWKSExplicitURL object`
 
       JWKS fetched from a fixed endpoint.
 
       - `type: "explicit_url"`
 
-        - `"explicit_url"`
-
       - `url: string`
 
         JWKS endpoint.
+
+        minLength: 1
 
       - `ca_cert_pem: optional string or null`
 
         Optional custom CA (PEM) for TLS verification of the JWKS fetch.
 
-    - `Inline object { keys, type }`
+        maxLength: 8192
+
+    - `BetaJWKSInline object`
 
       JWKS supplied directly; no network fetch.
+
+      - `type: "inline"`
 
       - `keys: array of map[unknown]`
 
         Inline JWK objects.
 
-      - `type: "inline"`
-
-        - `"inline"`
+        minItems: 1
 
   - `jwks_polling_disabled_at: string or null`
 
     If set, Anthropic's JWKS poller has paused polling for this issuer after repeated fetch failures. Re-enable by sending `jwks_polling_disabled: false` via the issuer update endpoint (POST) once the upstream JWKS endpoint is fixed. An OAuth caller cannot send this when the issuer backs a rule with any scope other than `workspace:developer` or `workspace:inference`; use a Console session.
+
+    format: date-time
 
   - `max_jwt_lifetime_seconds: number`
 
@@ -194,7 +306,7 @@ matched as the JWT's `iss` claim and is not fetched.
 
     Admin-chosen slug identifier.
 
-  - `poll_status: object { consecutive_failures, last_fetched_at, next_poll_at }  or null`
+  - `poll_status: BetaFederationIssuerPollStatus or null`
 
     Status of automatic JWKS polling for a federation issuer.
 
@@ -210,17 +322,19 @@ matched as the JWT's `iss` claim and is not fetched.
 
       When the last successful fetch completed.
 
+      format: date-time
+
     - `next_poll_at: string or null`
 
       When the next fetch is scheduled. Null if paused.
 
-  - `type: "federation_issuer"`
-
-    - `"federation_issuer"`
+      format: date-time
 
   - `updated_at: string`
 
     When this issuer was last updated.
+
+    format: date-time
 
   - `updated_by_actor_id: string or null`
 
@@ -228,207 +342,18 @@ matched as the JWT's `iss` claim and is not fetched.
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/federation_issuers \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
     -d '{
           "issuer_url": "x",
           "name": "x"
         }'
 ```
 
-#### Response
-
-```json
-{
-  "id": "fdis_01SDCCSbTxrXDpWc1phhtcfK",
-  "archived_at": "2019-12-27T18:11:19.117Z",
-  "archived_by_actor_id": "archived_by_actor_id",
-  "check_jti": true,
-  "created_at": "2024-10-30T23:58:27.427722Z",
-  "created_by_actor_id": "created_by_actor_id",
-  "issuer_url": "https://token.actions.githubusercontent.com",
-  "jwks": {
-    "type": "discovery",
-    "ca_cert_pem": "ca_cert_pem",
-    "discovery_base": "discovery_base"
-  },
-  "jwks_polling_disabled_at": "2019-12-27T18:11:19.117Z",
-  "max_jwt_lifetime_seconds": 0,
-  "name": "github-actions",
-  "poll_status": {
-    "consecutive_failures": 0,
-    "last_fetched_at": "2019-12-27T18:11:19.117Z",
-    "next_poll_at": "2019-12-27T18:11:19.117Z"
-  },
-  "type": "federation_issuer",
-  "updated_at": "2024-10-30T23:58:27.427722Z",
-  "updated_by_actor_id": "updated_by_actor_id"
-}
-```
-
-## Get Federation Issuer
-
-**get** `/v1/organizations/federation_issuers/{federation_issuer_id}`
-
-**Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
-
-Retrieve a federation issuer by its ID (`fdis_...`).
-
-### Path Parameters
-
-- `federation_issuer_id: string`
-
-  ID of the federation issuer.
-
-### Header Parameters
-
-- `"anthropic-beta": optional array of string`
-
-  Optional header to specify the beta version(s) you want to use.
-
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
-
-### Returns
-
-- `FederationIssuer object { id, archived_at, archived_by_actor_id, 12 more }`
-
-  Registered external OIDC identity provider.
-
-  Records an external IdP the organization trusts for the RFC 7523
-  jwt-bearer grant. The `issuer_url` must match the JWT `iss` claim exactly.
-
-  - `id: string`
-
-    Tagged ID of the federation issuer.
-
-  - `archived_at: string or null`
-
-    If set, all rules referencing this issuer reject token exchange.
-
-  - `archived_by_actor_id: string or null`
-
-    Tagged ID (`user_`/`svac_`) of the actor that archived this issuer.
-
-  - `check_jti: boolean`
-
-    Whether the jwt-bearer exchange enforces JTI single-use (replay protection) for tokens from this issuer. Applies only to assertions carrying a `jti` claim; tokens without one are accepted without single-use enforcement.
-
-  - `created_at: string`
-
-    When this issuer was created.
-
-  - `created_by_actor_id: string or null`
-
-    Tagged ID (`user_`/`svac_`) of the actor that created this issuer.
-
-  - `issuer_url: string`
-
-    The `iss` claim value. Incoming JWTs must match exactly.
-
-  - `jwks: object { type, ca_cert_pem, discovery_base }  or object { type, url, ca_cert_pem }  or object { keys, type }`
-
-    How signing keys are obtained for signature verification.
-
-    - `Discovery object { type, ca_cert_pem, discovery_base }`
-
-      JWKS via the issuer's OIDC discovery document.
-
-      - `type: "discovery"`
-
-        - `"discovery"`
-
-      - `ca_cert_pem: optional string or null`
-
-        Optional custom CA (PEM) for TLS verification of the JWKS fetch.
-
-      - `discovery_base: optional string or null`
-
-        Set when the discovery URL differs from `issuer_url`.
-
-    - `ExplicitURL object { type, url, ca_cert_pem }`
-
-      JWKS fetched from a fixed endpoint.
-
-      - `type: "explicit_url"`
-
-        - `"explicit_url"`
-
-      - `url: string`
-
-        JWKS endpoint.
-
-      - `ca_cert_pem: optional string or null`
-
-        Optional custom CA (PEM) for TLS verification of the JWKS fetch.
-
-    - `Inline object { keys, type }`
-
-      JWKS supplied directly; no network fetch.
-
-      - `keys: array of map[unknown]`
-
-        Inline JWK objects.
-
-      - `type: "inline"`
-
-        - `"inline"`
-
-  - `jwks_polling_disabled_at: string or null`
-
-    If set, Anthropic's JWKS poller has paused polling for this issuer after repeated fetch failures. Re-enable by sending `jwks_polling_disabled: false` via the issuer update endpoint (POST) once the upstream JWKS endpoint is fixed. An OAuth caller cannot send this when the issuer backs a rule with any scope other than `workspace:developer` or `workspace:inference`; use a Console session.
-
-  - `max_jwt_lifetime_seconds: number`
-
-    Maximum allowed iat→exp spread for assertions from this issuer (1-176400 seconds, i.e. up to 49h). Assertions must carry both `iat` and `exp`; a missing `iat` is rejected.
-
-  - `name: string`
-
-    Admin-chosen slug identifier.
-
-  - `poll_status: object { consecutive_failures, last_fetched_at, next_poll_at }  or null`
-
-    Status of automatic JWKS polling for a federation issuer.
-
-    Anthropic periodically fetches the issuer's signing keys in the
-    background. These fields summarize the most recent fetches so the
-    health of the JWKS endpoint can be monitored.
-
-    - `consecutive_failures: number`
-
-      Consecutive fetch failures since the last success.
-
-    - `last_fetched_at: string or null`
-
-      When the last successful fetch completed.
-
-    - `next_poll_at: string or null`
-
-      When the next fetch is scheduled. Null if paused.
-
-  - `type: "federation_issuer"`
-
-    - `"federation_issuer"`
-
-  - `updated_at: string`
-
-    When this issuer was last updated.
-
-  - `updated_by_actor_id: string or null`
-
-    Tagged ID (`user_`/`svac_`) of the actor that last updated this issuer.
-
-### Example
-
-```http
-curl https://api.anthropic.com/v1/organizations/federation_issuers/$FEDERATION_ISSUER_ID \
-    -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
-```
-
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -460,7 +385,7 @@ curl https://api.anthropic.com/v1/organizations/federation_issuers/$FEDERATION_I
 
 ## List Federation Issuers
 
-**get** `/v1/organizations/federation_issuers`
+**GET** `/v1/organizations/federation_issuers`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -468,31 +393,131 @@ List federation issuers in your organization.
 
 Archived issuers are excluded unless `include_archived=true`.
 
-### Query Parameters
+### Query parameters
 
 - `include_archived: optional boolean`
 
   Include archived resources. Defaults to false.
 
+  default: false
+
 - `limit: optional number`
 
   Number of results per page.
+
+  default: 20, maximum: 100, minimum: 1
 
 - `page: optional string`
 
   Opaque cursor from a previous response's `next_page`.
 
-### Header Parameters
+### Headers
 
-- `"anthropic-beta": optional array of string`
+- `"anthropic-beta": optional array of AnthropicBeta`
 
   Optional header to specify the beta version(s) you want to use.
 
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
+  - `string`
+
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
+
+    - `"message-batches-2024-09-24"`
+
+    - `"prompt-caching-2024-07-31"`
+
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
 
 ### Returns
 
-- `data: array of FederationIssuer`
+- `data: array of BetaFederationIssuer`
+
+  - `type: "federation_issuer"`
+
+    default: federation_issuer
 
   - `id: string`
 
@@ -501,6 +526,8 @@ Archived issuers are excluded unless `include_archived=true`.
   - `archived_at: string or null`
 
     If set, all rules referencing this issuer reject token exchange.
+
+    format: date-time
 
   - `archived_by_actor_id: string or null`
 
@@ -514,6 +541,8 @@ Archived issuers are excluded unless `include_archived=true`.
 
     When this issuer was created.
 
+    format: date-time
+
   - `created_by_actor_id: string or null`
 
     Tagged ID (`user_`/`svac_`) of the actor that created this issuer.
@@ -522,57 +551,61 @@ Archived issuers are excluded unless `include_archived=true`.
 
     The `iss` claim value. Incoming JWTs must match exactly.
 
-  - `jwks: object { type, ca_cert_pem, discovery_base }  or object { type, url, ca_cert_pem }  or object { keys, type }`
+  - `jwks: BetaJWKSDiscovery or BetaJWKSExplicitURL or BetaJWKSInline`
 
     How signing keys are obtained for signature verification.
 
-    - `Discovery object { type, ca_cert_pem, discovery_base }`
+    - `BetaJWKSDiscovery object`
 
       JWKS via the issuer's OIDC discovery document.
 
       - `type: "discovery"`
 
-        - `"discovery"`
-
       - `ca_cert_pem: optional string or null`
 
         Optional custom CA (PEM) for TLS verification of the JWKS fetch.
+
+        maxLength: 8192
 
       - `discovery_base: optional string or null`
 
         Set when the discovery URL differs from `issuer_url`.
 
-    - `ExplicitURL object { type, url, ca_cert_pem }`
+    - `BetaJWKSExplicitURL object`
 
       JWKS fetched from a fixed endpoint.
 
       - `type: "explicit_url"`
 
-        - `"explicit_url"`
-
       - `url: string`
 
         JWKS endpoint.
+
+        minLength: 1
 
       - `ca_cert_pem: optional string or null`
 
         Optional custom CA (PEM) for TLS verification of the JWKS fetch.
 
-    - `Inline object { keys, type }`
+        maxLength: 8192
+
+    - `BetaJWKSInline object`
 
       JWKS supplied directly; no network fetch.
+
+      - `type: "inline"`
 
       - `keys: array of map[unknown]`
 
         Inline JWK objects.
 
-      - `type: "inline"`
-
-        - `"inline"`
+        minItems: 1
 
   - `jwks_polling_disabled_at: string or null`
 
     If set, Anthropic's JWKS poller has paused polling for this issuer after repeated fetch failures. Re-enable by sending `jwks_polling_disabled: false` via the issuer update endpoint (POST) once the upstream JWKS endpoint is fixed. An OAuth caller cannot send this when the issuer backs a rule with any scope other than `workspace:developer` or `workspace:inference`; use a Console session.
+
+    format: date-time
 
   - `max_jwt_lifetime_seconds: number`
 
@@ -582,7 +615,7 @@ Archived issuers are excluded unless `include_archived=true`.
 
     Admin-chosen slug identifier.
 
-  - `poll_status: object { consecutive_failures, last_fetched_at, next_poll_at }  or null`
+  - `poll_status: BetaFederationIssuerPollStatus or null`
 
     Status of automatic JWKS polling for a federation issuer.
 
@@ -598,17 +631,19 @@ Archived issuers are excluded unless `include_archived=true`.
 
       When the last successful fetch completed.
 
+      format: date-time
+
     - `next_poll_at: string or null`
 
       When the next fetch is scheduled. Null if paused.
 
-  - `type: "federation_issuer"`
-
-    - `"federation_issuer"`
+      format: date-time
 
   - `updated_at: string`
 
     When this issuer was last updated.
+
+    format: date-time
 
   - `updated_by_actor_id: string or null`
 
@@ -620,13 +655,13 @@ Archived issuers are excluded unless `include_archived=true`.
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/federation_issuers \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -661,113 +696,132 @@ curl https://api.anthropic.com/v1/organizations/federation_issuers \
 }
 ```
 
-## Update Federation Issuer
+## Get Federation Issuer
 
-**post** `/v1/organizations/federation_issuers/{federation_issuer_id}`
+**GET** `/v1/organizations/federation_issuers/{federation_issuer_id}`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
-Partially update a federation issuer.
+Retrieve a federation issuer by its ID (`fdis_...`).
 
-Setting `jwks` replaces the full JWKS shape at once. Archived issuers
-cannot be updated; this returns 400. Create a new issuer instead.
-
-Updating an issuer that backs a rule with a scope outside
-`workspace:developer` or `workspace:inference` requires a Console
-session.
-
-### Path Parameters
+### Path parameters
 
 - `federation_issuer_id: string`
 
-  ID of the federation issuer to update.
+  ID of the federation issuer.
 
-### Header Parameters
+### Headers
 
-- `"anthropic-beta": optional array of string`
+- `"anthropic-beta": optional array of AnthropicBeta`
 
   Optional header to specify the beta version(s) you want to use.
 
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
+  - `string`
 
-### Body Parameters
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
-- `check_jti: optional boolean or null`
+    - `"message-batches-2024-09-24"`
 
-  Whether the jwt-bearer exchange enforces JTI single-use (replay protection) for tokens from this issuer. Applies only to assertions carrying a `jti` claim; tokens without one are accepted without single-use enforcement.
+    - `"prompt-caching-2024-07-31"`
 
-- `issuer_url: optional string or null`
+    - `"computer-use-2024-10-22"`
 
-  Replaces the `iss` claim value to match against. For discovery-mode issuers without a `discovery_base`, this is also the URL Anthropic fetches the OIDC discovery document and signing keys from, so changing it repoints the JWKS source. Changing the issuer URL to a well-known shared platform is rejected while any live rule under this issuer would not constrain tenant identity.
+    - `"computer-use-2025-01-24"`
 
-- `jwks: optional object { type, ca_cert_pem, discovery_base }  or object { type, url, ca_cert_pem }  or object { keys, type }  or null`
+    - `"pdfs-2024-09-25"`
 
-  Replaces the entire JWKS configuration.
+    - `"token-counting-2024-11-01"`
 
-  - `Discovery object { type, ca_cert_pem, discovery_base }`
+    - `"token-efficient-tools-2025-02-19"`
 
-    JWKS via the issuer's OIDC discovery document.
+    - `"output-128k-2025-02-19"`
 
-    - `type: "discovery"`
+    - `"files-api-2025-04-14"`
 
-      - `"discovery"`
+    - `"mcp-client-2025-04-04"`
 
-    - `ca_cert_pem: optional string or null`
+    - `"mcp-client-2025-11-20"`
 
-      Optional custom CA (PEM) for TLS verification of the JWKS fetch.
+    - `"dev-full-thinking-2025-05-14"`
 
-    - `discovery_base: optional string or null`
+    - `"interleaved-thinking-2025-05-14"`
 
-      Set when the discovery URL differs from `issuer_url`.
+    - `"code-execution-2025-05-22"`
 
-  - `ExplicitURL object { type, url, ca_cert_pem }`
+    - `"extended-cache-ttl-2025-04-11"`
 
-    JWKS fetched from a fixed endpoint.
+    - `"context-1m-2025-08-07"`
 
-    - `type: "explicit_url"`
+    - `"context-management-2025-06-27"`
 
-      - `"explicit_url"`
+    - `"model-context-window-exceeded-2025-08-26"`
 
-    - `url: string`
+    - `"skills-2025-10-02"`
 
-      JWKS endpoint.
+    - `"fast-mode-2026-02-01"`
 
-    - `ca_cert_pem: optional string or null`
+    - `"output-300k-2026-03-24"`
 
-      Optional custom CA (PEM) for TLS verification of the JWKS fetch.
+    - `"user-profiles-2026-03-24"`
 
-  - `Inline object { keys, type }`
+    - `"user-profiles-2026-08-18"`
 
-    JWKS supplied directly; no network fetch.
+    - `"user-profiles-2026-09-04"`
 
-    - `keys: array of map[unknown]`
+    - `"advisor-tool-2026-03-01"`
 
-      Inline JWK objects.
+    - `"managed-agents-2026-04-01"`
 
-    - `type: "inline"`
+    - `"cache-diagnosis-2026-04-07"`
 
-      - `"inline"`
+    - `"dreaming-2026-04-21"`
 
-- `jwks_polling_disabled: optional boolean or null`
+    - `"thinking-token-count-2026-05-13"`
 
-  Only `false` is accepted, to re-enable polling after the system pauses it. Polling is paused automatically; sending `true` is rejected.
+    - `"server-side-fallback-2026-06-01"`
 
-- `max_jwt_lifetime_seconds: optional number or null`
+    - `"server-side-fallback-2026-07-01"`
 
-  Maximum allowed iat→exp spread for assertions from this issuer (1-176400 seconds, i.e. up to 49h). Assertions must carry both `iat` and `exp`; a missing `iat` is rejected.
+    - `"fallback-credit-2026-06-01"`
 
-- `name: optional string or null`
+    - `"fallback-credit-2026-07-01"`
 
-  Replaces the slug identifier (lowercase, digits, hyphens). Unique within the organization; a duplicate name returns 409.
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
 
 ### Returns
 
-- `FederationIssuer object { id, archived_at, archived_by_actor_id, 12 more }`
+- `BetaFederationIssuer object`
 
   Registered external OIDC identity provider.
 
   Records an external IdP the organization trusts for the RFC 7523
   jwt-bearer grant. The `issuer_url` must match the JWT `iss` claim exactly.
+
+  - `type: "federation_issuer"`
+
+    default: federation_issuer
 
   - `id: string`
 
@@ -776,6 +830,8 @@ session.
   - `archived_at: string or null`
 
     If set, all rules referencing this issuer reject token exchange.
+
+    format: date-time
 
   - `archived_by_actor_id: string or null`
 
@@ -789,6 +845,8 @@ session.
 
     When this issuer was created.
 
+    format: date-time
+
   - `created_by_actor_id: string or null`
 
     Tagged ID (`user_`/`svac_`) of the actor that created this issuer.
@@ -797,57 +855,61 @@ session.
 
     The `iss` claim value. Incoming JWTs must match exactly.
 
-  - `jwks: object { type, ca_cert_pem, discovery_base }  or object { type, url, ca_cert_pem }  or object { keys, type }`
+  - `jwks: BetaJWKSDiscovery or BetaJWKSExplicitURL or BetaJWKSInline`
 
     How signing keys are obtained for signature verification.
 
-    - `Discovery object { type, ca_cert_pem, discovery_base }`
+    - `BetaJWKSDiscovery object`
 
       JWKS via the issuer's OIDC discovery document.
 
       - `type: "discovery"`
 
-        - `"discovery"`
-
       - `ca_cert_pem: optional string or null`
 
         Optional custom CA (PEM) for TLS verification of the JWKS fetch.
+
+        maxLength: 8192
 
       - `discovery_base: optional string or null`
 
         Set when the discovery URL differs from `issuer_url`.
 
-    - `ExplicitURL object { type, url, ca_cert_pem }`
+    - `BetaJWKSExplicitURL object`
 
       JWKS fetched from a fixed endpoint.
 
       - `type: "explicit_url"`
 
-        - `"explicit_url"`
-
       - `url: string`
 
         JWKS endpoint.
+
+        minLength: 1
 
       - `ca_cert_pem: optional string or null`
 
         Optional custom CA (PEM) for TLS verification of the JWKS fetch.
 
-    - `Inline object { keys, type }`
+        maxLength: 8192
+
+    - `BetaJWKSInline object`
 
       JWKS supplied directly; no network fetch.
+
+      - `type: "inline"`
 
       - `keys: array of map[unknown]`
 
         Inline JWK objects.
 
-      - `type: "inline"`
-
-        - `"inline"`
+        minItems: 1
 
   - `jwks_polling_disabled_at: string or null`
 
     If set, Anthropic's JWKS poller has paused polling for this issuer after repeated fetch failures. Re-enable by sending `jwks_polling_disabled: false` via the issuer update endpoint (POST) once the upstream JWKS endpoint is fixed. An OAuth caller cannot send this when the issuer backs a rule with any scope other than `workspace:developer` or `workspace:inference`; use a Console session.
+
+    format: date-time
 
   - `max_jwt_lifetime_seconds: number`
 
@@ -857,7 +919,7 @@ session.
 
     Admin-chosen slug identifier.
 
-  - `poll_status: object { consecutive_failures, last_fetched_at, next_poll_at }  or null`
+  - `poll_status: BetaFederationIssuerPollStatus or null`
 
     Status of automatic JWKS polling for a federation issuer.
 
@@ -873,17 +935,19 @@ session.
 
       When the last successful fetch completed.
 
+      format: date-time
+
     - `next_poll_at: string or null`
 
       When the next fetch is scheduled. Null if paused.
 
-  - `type: "federation_issuer"`
-
-    - `"federation_issuer"`
+      format: date-time
 
   - `updated_at: string`
 
     When this issuer was last updated.
+
+    format: date-time
 
   - `updated_by_actor_id: string or null`
 
@@ -891,15 +955,395 @@ session.
 
 ### Example
 
-```http
+```bash
+curl https://api.anthropic.com/v1/organizations/federation_issuers/$FEDERATION_ISSUER_ID \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
+```
+
+#### Response (200)
+
+```json
+{
+  "id": "fdis_01SDCCSbTxrXDpWc1phhtcfK",
+  "archived_at": "2019-12-27T18:11:19.117Z",
+  "archived_by_actor_id": "archived_by_actor_id",
+  "check_jti": true,
+  "created_at": "2024-10-30T23:58:27.427722Z",
+  "created_by_actor_id": "created_by_actor_id",
+  "issuer_url": "https://token.actions.githubusercontent.com",
+  "jwks": {
+    "type": "discovery",
+    "ca_cert_pem": "ca_cert_pem",
+    "discovery_base": "discovery_base"
+  },
+  "jwks_polling_disabled_at": "2019-12-27T18:11:19.117Z",
+  "max_jwt_lifetime_seconds": 0,
+  "name": "github-actions",
+  "poll_status": {
+    "consecutive_failures": 0,
+    "last_fetched_at": "2019-12-27T18:11:19.117Z",
+    "next_poll_at": "2019-12-27T18:11:19.117Z"
+  },
+  "type": "federation_issuer",
+  "updated_at": "2024-10-30T23:58:27.427722Z",
+  "updated_by_actor_id": "updated_by_actor_id"
+}
+```
+
+## Update Federation Issuer
+
+**POST** `/v1/organizations/federation_issuers/{federation_issuer_id}`
+
+**Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
+
+Partially update a federation issuer.
+
+Setting `jwks` replaces the full JWKS shape at once. Archived issuers
+cannot be updated; this returns 400. Create a new issuer instead.
+
+Updating an issuer that backs a rule with a scope outside
+`workspace:developer` or `workspace:inference` requires a Console
+session.
+
+### Path parameters
+
+- `federation_issuer_id: string`
+
+  ID of the federation issuer to update.
+
+### Headers
+
+- `"anthropic-beta": optional array of AnthropicBeta`
+
+  Optional header to specify the beta version(s) you want to use.
+
+  - `string`
+
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
+
+    - `"message-batches-2024-09-24"`
+
+    - `"prompt-caching-2024-07-31"`
+
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
+
+### Body parameters
+
+- `check_jti: optional boolean or null`
+
+  Whether the jwt-bearer exchange enforces JTI single-use (replay protection) for tokens from this issuer. Applies only to assertions carrying a `jti` claim; tokens without one are accepted without single-use enforcement.
+
+- `issuer_url: optional string or null`
+
+  Replaces the `iss` claim value to match against. For discovery-mode issuers without a `discovery_base`, this is also the URL Anthropic fetches the OIDC discovery document and signing keys from, so changing it repoints the JWKS source. Changing the issuer URL to a well-known shared platform is rejected while any live rule under this issuer would not constrain tenant identity.
+
+  minLength: 1
+
+- `jwks: optional BetaJWKSDiscovery or BetaJWKSExplicitURL or BetaJWKSInline or null`
+
+  Replaces the entire JWKS configuration.
+
+  - `BetaJWKSDiscovery object`
+
+    JWKS via the issuer's OIDC discovery document.
+
+    - `type: "discovery"`
+
+    - `ca_cert_pem: optional string or null`
+
+      Optional custom CA (PEM) for TLS verification of the JWKS fetch.
+
+      maxLength: 8192
+
+    - `discovery_base: optional string or null`
+
+      Set when the discovery URL differs from `issuer_url`.
+
+  - `BetaJWKSExplicitURL object`
+
+    JWKS fetched from a fixed endpoint.
+
+    - `type: "explicit_url"`
+
+    - `url: string`
+
+      JWKS endpoint.
+
+      minLength: 1
+
+    - `ca_cert_pem: optional string or null`
+
+      Optional custom CA (PEM) for TLS verification of the JWKS fetch.
+
+      maxLength: 8192
+
+  - `BetaJWKSInline object`
+
+    JWKS supplied directly; no network fetch.
+
+    - `type: "inline"`
+
+    - `keys: array of map[unknown]`
+
+      Inline JWK objects.
+
+      minItems: 1
+
+- `jwks_polling_disabled: optional boolean or null`
+
+  Only `false` is accepted, to re-enable polling after the system pauses it. Polling is paused automatically; sending `true` is rejected.
+
+- `max_jwt_lifetime_seconds: optional number or null`
+
+  Maximum allowed iat→exp spread for assertions from this issuer (1-176400 seconds, i.e. up to 49h). Assertions must carry both `iat` and `exp`; a missing `iat` is rejected.
+
+  maximum: 176400, exclusiveMinimum: 0
+
+- `name: optional string or null`
+
+  Replaces the slug identifier (lowercase, digits, hyphens). Unique within the organization; a duplicate name returns 409.
+
+  maxLength: 255, minLength: 1
+
+### Returns
+
+- `BetaFederationIssuer object`
+
+  Registered external OIDC identity provider.
+
+  Records an external IdP the organization trusts for the RFC 7523
+  jwt-bearer grant. The `issuer_url` must match the JWT `iss` claim exactly.
+
+  - `type: "federation_issuer"`
+
+    default: federation_issuer
+
+  - `id: string`
+
+    Tagged ID of the federation issuer.
+
+  - `archived_at: string or null`
+
+    If set, all rules referencing this issuer reject token exchange.
+
+    format: date-time
+
+  - `archived_by_actor_id: string or null`
+
+    Tagged ID (`user_`/`svac_`) of the actor that archived this issuer.
+
+  - `check_jti: boolean`
+
+    Whether the jwt-bearer exchange enforces JTI single-use (replay protection) for tokens from this issuer. Applies only to assertions carrying a `jti` claim; tokens without one are accepted without single-use enforcement.
+
+  - `created_at: string`
+
+    When this issuer was created.
+
+    format: date-time
+
+  - `created_by_actor_id: string or null`
+
+    Tagged ID (`user_`/`svac_`) of the actor that created this issuer.
+
+  - `issuer_url: string`
+
+    The `iss` claim value. Incoming JWTs must match exactly.
+
+  - `jwks: BetaJWKSDiscovery or BetaJWKSExplicitURL or BetaJWKSInline`
+
+    How signing keys are obtained for signature verification.
+
+    - `BetaJWKSDiscovery object`
+
+      JWKS via the issuer's OIDC discovery document.
+
+      - `type: "discovery"`
+
+      - `ca_cert_pem: optional string or null`
+
+        Optional custom CA (PEM) for TLS verification of the JWKS fetch.
+
+        maxLength: 8192
+
+      - `discovery_base: optional string or null`
+
+        Set when the discovery URL differs from `issuer_url`.
+
+    - `BetaJWKSExplicitURL object`
+
+      JWKS fetched from a fixed endpoint.
+
+      - `type: "explicit_url"`
+
+      - `url: string`
+
+        JWKS endpoint.
+
+        minLength: 1
+
+      - `ca_cert_pem: optional string or null`
+
+        Optional custom CA (PEM) for TLS verification of the JWKS fetch.
+
+        maxLength: 8192
+
+    - `BetaJWKSInline object`
+
+      JWKS supplied directly; no network fetch.
+
+      - `type: "inline"`
+
+      - `keys: array of map[unknown]`
+
+        Inline JWK objects.
+
+        minItems: 1
+
+  - `jwks_polling_disabled_at: string or null`
+
+    If set, Anthropic's JWKS poller has paused polling for this issuer after repeated fetch failures. Re-enable by sending `jwks_polling_disabled: false` via the issuer update endpoint (POST) once the upstream JWKS endpoint is fixed. An OAuth caller cannot send this when the issuer backs a rule with any scope other than `workspace:developer` or `workspace:inference`; use a Console session.
+
+    format: date-time
+
+  - `max_jwt_lifetime_seconds: number`
+
+    Maximum allowed iat→exp spread for assertions from this issuer (1-176400 seconds, i.e. up to 49h). Assertions must carry both `iat` and `exp`; a missing `iat` is rejected.
+
+  - `name: string`
+
+    Admin-chosen slug identifier.
+
+  - `poll_status: BetaFederationIssuerPollStatus or null`
+
+    Status of automatic JWKS polling for a federation issuer.
+
+    Anthropic periodically fetches the issuer's signing keys in the
+    background. These fields summarize the most recent fetches so the
+    health of the JWKS endpoint can be monitored.
+
+    - `consecutive_failures: number`
+
+      Consecutive fetch failures since the last success.
+
+    - `last_fetched_at: string or null`
+
+      When the last successful fetch completed.
+
+      format: date-time
+
+    - `next_poll_at: string or null`
+
+      When the next fetch is scheduled. Null if paused.
+
+      format: date-time
+
+  - `updated_at: string`
+
+    When this issuer was last updated.
+
+    format: date-time
+
+  - `updated_by_actor_id: string or null`
+
+    Tagged ID (`user_`/`svac_`) of the actor that last updated this issuer.
+
+### Example
+
+```bash
 curl https://api.anthropic.com/v1/organizations/federation_issuers/$FEDERATION_ISSUER_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
     -d '{}'
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -931,7 +1375,7 @@ curl https://api.anthropic.com/v1/organizations/federation_issuers/$FEDERATION_I
 
 ## Archive Federation Issuer
 
-**post** `/v1/organizations/federation_issuers/{federation_issuer_id}/archive`
+**POST** `/v1/organizations/federation_issuers/{federation_issuer_id}/archive`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -942,28 +1386,124 @@ Idempotent; re-archiving returns the issuer with its original
 rule still references the issuer; archive those rules first (a rule's
 issuer cannot be changed), or recreate them against another issuer.
 
-### Path Parameters
+### Path parameters
 
 - `federation_issuer_id: string`
 
   ID of the federation issuer to archive.
 
-### Header Parameters
+### Headers
 
-- `"anthropic-beta": optional array of string`
+- `"anthropic-beta": optional array of AnthropicBeta`
 
   Optional header to specify the beta version(s) you want to use.
 
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
+  - `string`
+
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
+
+    - `"message-batches-2024-09-24"`
+
+    - `"prompt-caching-2024-07-31"`
+
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
 
 ### Returns
 
-- `FederationIssuer object { id, archived_at, archived_by_actor_id, 12 more }`
+- `BetaFederationIssuer object`
 
   Registered external OIDC identity provider.
 
   Records an external IdP the organization trusts for the RFC 7523
   jwt-bearer grant. The `issuer_url` must match the JWT `iss` claim exactly.
+
+  - `type: "federation_issuer"`
+
+    default: federation_issuer
 
   - `id: string`
 
@@ -972,6 +1512,8 @@ issuer cannot be changed), or recreate them against another issuer.
   - `archived_at: string or null`
 
     If set, all rules referencing this issuer reject token exchange.
+
+    format: date-time
 
   - `archived_by_actor_id: string or null`
 
@@ -985,6 +1527,8 @@ issuer cannot be changed), or recreate them against another issuer.
 
     When this issuer was created.
 
+    format: date-time
+
   - `created_by_actor_id: string or null`
 
     Tagged ID (`user_`/`svac_`) of the actor that created this issuer.
@@ -993,57 +1537,61 @@ issuer cannot be changed), or recreate them against another issuer.
 
     The `iss` claim value. Incoming JWTs must match exactly.
 
-  - `jwks: object { type, ca_cert_pem, discovery_base }  or object { type, url, ca_cert_pem }  or object { keys, type }`
+  - `jwks: BetaJWKSDiscovery or BetaJWKSExplicitURL or BetaJWKSInline`
 
     How signing keys are obtained for signature verification.
 
-    - `Discovery object { type, ca_cert_pem, discovery_base }`
+    - `BetaJWKSDiscovery object`
 
       JWKS via the issuer's OIDC discovery document.
 
       - `type: "discovery"`
 
-        - `"discovery"`
-
       - `ca_cert_pem: optional string or null`
 
         Optional custom CA (PEM) for TLS verification of the JWKS fetch.
+
+        maxLength: 8192
 
       - `discovery_base: optional string or null`
 
         Set when the discovery URL differs from `issuer_url`.
 
-    - `ExplicitURL object { type, url, ca_cert_pem }`
+    - `BetaJWKSExplicitURL object`
 
       JWKS fetched from a fixed endpoint.
 
       - `type: "explicit_url"`
 
-        - `"explicit_url"`
-
       - `url: string`
 
         JWKS endpoint.
+
+        minLength: 1
 
       - `ca_cert_pem: optional string or null`
 
         Optional custom CA (PEM) for TLS verification of the JWKS fetch.
 
-    - `Inline object { keys, type }`
+        maxLength: 8192
+
+    - `BetaJWKSInline object`
 
       JWKS supplied directly; no network fetch.
+
+      - `type: "inline"`
 
       - `keys: array of map[unknown]`
 
         Inline JWK objects.
 
-      - `type: "inline"`
-
-        - `"inline"`
+        minItems: 1
 
   - `jwks_polling_disabled_at: string or null`
 
     If set, Anthropic's JWKS poller has paused polling for this issuer after repeated fetch failures. Re-enable by sending `jwks_polling_disabled: false` via the issuer update endpoint (POST) once the upstream JWKS endpoint is fixed. An OAuth caller cannot send this when the issuer backs a rule with any scope other than `workspace:developer` or `workspace:inference`; use a Console session.
+
+    format: date-time
 
   - `max_jwt_lifetime_seconds: number`
 
@@ -1053,7 +1601,7 @@ issuer cannot be changed), or recreate them against another issuer.
 
     Admin-chosen slug identifier.
 
-  - `poll_status: object { consecutive_failures, last_fetched_at, next_poll_at }  or null`
+  - `poll_status: BetaFederationIssuerPollStatus or null`
 
     Status of automatic JWKS polling for a federation issuer.
 
@@ -1069,17 +1617,19 @@ issuer cannot be changed), or recreate them against another issuer.
 
       When the last successful fetch completed.
 
+      format: date-time
+
     - `next_poll_at: string or null`
 
       When the next fetch is scheduled. Null if paused.
 
-  - `type: "federation_issuer"`
-
-    - `"federation_issuer"`
+      format: date-time
 
   - `updated_at: string`
 
     When this issuer was last updated.
+
+    format: date-time
 
   - `updated_by_actor_id: string or null`
 
@@ -1087,14 +1637,14 @@ issuer cannot be changed), or recreate them against another issuer.
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/federation_issuers/$FEDERATION_ISSUER_ID/archive \
     -X POST \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -1124,16 +1674,20 @@ curl https://api.anthropic.com/v1/organizations/federation_issuers/$FEDERATION_I
 }
 ```
 
-## Domain Types
+## Domain types
 
-### Federation Issuer
+### Beta Federation Issuer
 
-- `FederationIssuer object { id, archived_at, archived_by_actor_id, 12 more }`
+- `BetaFederationIssuer object`
 
   Registered external OIDC identity provider.
 
   Records an external IdP the organization trusts for the RFC 7523
   jwt-bearer grant. The `issuer_url` must match the JWT `iss` claim exactly.
+
+  - `type: "federation_issuer"`
+
+    default: federation_issuer
 
   - `id: string`
 
@@ -1142,6 +1696,8 @@ curl https://api.anthropic.com/v1/organizations/federation_issuers/$FEDERATION_I
   - `archived_at: string or null`
 
     If set, all rules referencing this issuer reject token exchange.
+
+    format: date-time
 
   - `archived_by_actor_id: string or null`
 
@@ -1155,6 +1711,8 @@ curl https://api.anthropic.com/v1/organizations/federation_issuers/$FEDERATION_I
 
     When this issuer was created.
 
+    format: date-time
+
   - `created_by_actor_id: string or null`
 
     Tagged ID (`user_`/`svac_`) of the actor that created this issuer.
@@ -1163,57 +1721,61 @@ curl https://api.anthropic.com/v1/organizations/federation_issuers/$FEDERATION_I
 
     The `iss` claim value. Incoming JWTs must match exactly.
 
-  - `jwks: object { type, ca_cert_pem, discovery_base }  or object { type, url, ca_cert_pem }  or object { keys, type }`
+  - `jwks: BetaJWKSDiscovery or BetaJWKSExplicitURL or BetaJWKSInline`
 
     How signing keys are obtained for signature verification.
 
-    - `Discovery object { type, ca_cert_pem, discovery_base }`
+    - `BetaJWKSDiscovery object`
 
       JWKS via the issuer's OIDC discovery document.
 
       - `type: "discovery"`
 
-        - `"discovery"`
-
       - `ca_cert_pem: optional string or null`
 
         Optional custom CA (PEM) for TLS verification of the JWKS fetch.
+
+        maxLength: 8192
 
       - `discovery_base: optional string or null`
 
         Set when the discovery URL differs from `issuer_url`.
 
-    - `ExplicitURL object { type, url, ca_cert_pem }`
+    - `BetaJWKSExplicitURL object`
 
       JWKS fetched from a fixed endpoint.
 
       - `type: "explicit_url"`
 
-        - `"explicit_url"`
-
       - `url: string`
 
         JWKS endpoint.
+
+        minLength: 1
 
       - `ca_cert_pem: optional string or null`
 
         Optional custom CA (PEM) for TLS verification of the JWKS fetch.
 
-    - `Inline object { keys, type }`
+        maxLength: 8192
+
+    - `BetaJWKSInline object`
 
       JWKS supplied directly; no network fetch.
+
+      - `type: "inline"`
 
       - `keys: array of map[unknown]`
 
         Inline JWK objects.
 
-      - `type: "inline"`
-
-        - `"inline"`
+        minItems: 1
 
   - `jwks_polling_disabled_at: string or null`
 
     If set, Anthropic's JWKS poller has paused polling for this issuer after repeated fetch failures. Re-enable by sending `jwks_polling_disabled: false` via the issuer update endpoint (POST) once the upstream JWKS endpoint is fixed. An OAuth caller cannot send this when the issuer backs a rule with any scope other than `workspace:developer` or `workspace:inference`; use a Console session.
+
+    format: date-time
 
   - `max_jwt_lifetime_seconds: number`
 
@@ -1223,7 +1785,7 @@ curl https://api.anthropic.com/v1/organizations/federation_issuers/$FEDERATION_I
 
     Admin-chosen slug identifier.
 
-  - `poll_status: object { consecutive_failures, last_fetched_at, next_poll_at }  or null`
+  - `poll_status: BetaFederationIssuerPollStatus or null`
 
     Status of automatic JWKS polling for a federation issuer.
 
@@ -1239,18 +1801,98 @@ curl https://api.anthropic.com/v1/organizations/federation_issuers/$FEDERATION_I
 
       When the last successful fetch completed.
 
+      format: date-time
+
     - `next_poll_at: string or null`
 
       When the next fetch is scheduled. Null if paused.
 
-  - `type: "federation_issuer"`
-
-    - `"federation_issuer"`
+      format: date-time
 
   - `updated_at: string`
 
     When this issuer was last updated.
 
+    format: date-time
+
   - `updated_by_actor_id: string or null`
 
     Tagged ID (`user_`/`svac_`) of the actor that last updated this issuer.
+
+### Beta Federation Issuer Poll Status
+
+- `BetaFederationIssuerPollStatus object`
+
+  Status of automatic JWKS polling for a federation issuer.
+
+  Anthropic periodically fetches the issuer's signing keys in the
+  background. These fields summarize the most recent fetches so the
+  health of the JWKS endpoint can be monitored.
+
+  - `consecutive_failures: number`
+
+    Consecutive fetch failures since the last success.
+
+  - `last_fetched_at: string or null`
+
+    When the last successful fetch completed.
+
+    format: date-time
+
+  - `next_poll_at: string or null`
+
+    When the next fetch is scheduled. Null if paused.
+
+    format: date-time
+
+### Beta JWKS Discovery
+
+- `BetaJWKSDiscovery object`
+
+  JWKS via the issuer's OIDC discovery document.
+
+  - `type: "discovery"`
+
+  - `ca_cert_pem: optional string or null`
+
+    Optional custom CA (PEM) for TLS verification of the JWKS fetch.
+
+    maxLength: 8192
+
+  - `discovery_base: optional string or null`
+
+    Set when the discovery URL differs from `issuer_url`.
+
+### Beta JWKS Explicit URL
+
+- `BetaJWKSExplicitURL object`
+
+  JWKS fetched from a fixed endpoint.
+
+  - `type: "explicit_url"`
+
+  - `url: string`
+
+    JWKS endpoint.
+
+    minLength: 1
+
+  - `ca_cert_pem: optional string or null`
+
+    Optional custom CA (PEM) for TLS verification of the JWKS fetch.
+
+    maxLength: 8192
+
+### Beta JWKS Inline
+
+- `BetaJWKSInline object`
+
+  JWKS supplied directly; no network fetch.
+
+  - `type: "inline"`
+
+  - `keys: array of map[unknown]`
+
+    Inline JWK objects.
+
+    minItems: 1

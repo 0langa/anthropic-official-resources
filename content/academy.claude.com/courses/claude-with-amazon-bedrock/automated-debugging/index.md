@@ -6,7 +6,7 @@ Lesson 62 of 65 · Claude with Amazon BedrockAutomated debugging
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-amazon-bedrock%2Fautomated-debugging)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fautomated-debugging)
 
 Claude isn't just for writing code in your editor. It can also monitor your production applications and automatically fix errors as they occur. This creates a powerful automated debugging workflow that can catch and resolve issues before they impact your users.
 

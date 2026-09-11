@@ -1,3 +1,8 @@
+---
+title: Get Activity Summaries
+url: https://platform.claude.com/docs/en/api/beta/organization/analytics/retrieve_summaries
+---
+
 # Get Activity Summaries
 
 **GET** `/v1/organizations/analytics/summaries`
@@ -35,7 +40,7 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 
 ## Returns
 
-- `ActivitySummary object`
+- `BetaActivitySummary object`
 
   Response for GET /v1/organizations/analytics/summaries.
 
@@ -166,7 +171,7 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 ```bash
 curl https://api.anthropic.com/v1/organizations/analytics/summaries \
     -H 'anthropic-version: 2023-06-01' \
-    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 ### Response (200)

@@ -12,7 +12,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-101%2Fclaude-desktop-app-chat-cowork-code)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-101%2Fclaude-desktop-app-chat-cowork-code)
 
 ## Working with Claude on your desktop[](https://academy.claude.com/courses/claude-101/claude-desktop-app-chat-cowork-code)
 

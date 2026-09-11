@@ -1,13 +1,13 @@
 ---
 title: Service Accounts
-url: https://platform.claude.com/docs/en/api/admin/service_accounts
+url: https://platform.claude.com/docs/en/api/beta/organization/service_accounts
 ---
 
 # Service Accounts
 
 ## Create Service Account
 
-**post** `/v1/organizations/service_accounts`
+**POST** `/v1/organizations/service_accounts`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -21,23 +21,119 @@ account requires an interactive credential (a user OAuth token or a
 Console session) — a workload may only create `developer`-role service
 accounts.
 
-### Header Parameters
+### Headers
 
-- `"anthropic-beta": optional array of string`
+- `"anthropic-beta": optional array of AnthropicBeta`
 
   Optional header to specify the beta version(s) you want to use.
 
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
+  - `string`
 
-### Body Parameters
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
+
+    - `"message-batches-2024-09-24"`
+
+    - `"prompt-caching-2024-07-31"`
+
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
+
+### Body parameters
 
 - `name: string`
 
   Slug identifier (lowercase, digits, hyphens). Unique within the organization; a duplicate name returns 409.
 
+  maxLength: 255, minLength: 1
+
 - `description: optional string or null`
 
   Optional free-text description.
+
+  maxLength: 2000
 
 - `organization_role: optional "admin" or "developer"`
 
@@ -49,12 +145,16 @@ accounts.
 
 ### Returns
 
-- `ServiceAccount object { id, archived_at, archived_by_actor_id, 8 more }`
+- `BetaServiceAccount object`
 
   Named non-human identity within the caller's organization.
 
   A service account is a pure identity: name + org. Authorization lives on
   whatever references it (federation rules).
+
+  - `type: "service_account"`
+
+    default: service_account
 
   - `id: string`
 
@@ -64,6 +164,8 @@ accounts.
 
     If set, this service account is archived.
 
+    format: date-time
+
   - `archived_by_actor_id: string or null`
 
     Tagged ID (`user_`/`svac_`) of the actor that archived this service account.
@@ -71,6 +173,8 @@ accounts.
   - `created_at: string`
 
     When this service account was created.
+
+    format: date-time
 
   - `created_by_actor_id: string or null`
 
@@ -92,13 +196,11 @@ accounts.
 
     - `"developer"`
 
-  - `type: "service_account"`
-
-    - `"service_account"`
-
   - `updated_at: string`
 
     When this service account was last updated.
+
+    format: date-time
 
   - `updated_by_actor_id: string or null`
 
@@ -106,122 +208,17 @@ accounts.
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/service_accounts \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
     -d '{
           "name": "ci-deploy-bot"
         }'
 ```
 
-#### Response
-
-```json
-{
-  "id": "svac_01SDCCSbTxrXDpWc1phhtcfK",
-  "archived_at": "2019-12-27T18:11:19.117Z",
-  "archived_by_actor_id": "archived_by_actor_id",
-  "created_at": "2024-10-30T23:58:27.427722Z",
-  "created_by_actor_id": "created_by_actor_id",
-  "description": "description",
-  "name": "ci-deploy-bot",
-  "organization_role": "admin",
-  "type": "service_account",
-  "updated_at": "2024-10-30T23:58:27.427722Z",
-  "updated_by_actor_id": "updated_by_actor_id"
-}
-```
-
-## Get Service Account
-
-**get** `/v1/organizations/service_accounts/{service_account_id}`
-
-**Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
-
-Retrieve a service account by its ID (`svac_...`).
-
-### Path Parameters
-
-- `service_account_id: string`
-
-  ID of the service account.
-
-### Header Parameters
-
-- `"anthropic-beta": optional array of string`
-
-  Optional header to specify the beta version(s) you want to use.
-
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
-
-### Returns
-
-- `ServiceAccount object { id, archived_at, archived_by_actor_id, 8 more }`
-
-  Named non-human identity within the caller's organization.
-
-  A service account is a pure identity: name + org. Authorization lives on
-  whatever references it (federation rules).
-
-  - `id: string`
-
-    Tagged ID of the service account.
-
-  - `archived_at: string or null`
-
-    If set, this service account is archived.
-
-  - `archived_by_actor_id: string or null`
-
-    Tagged ID (`user_`/`svac_`) of the actor that archived this service account.
-
-  - `created_at: string`
-
-    When this service account was created.
-
-  - `created_by_actor_id: string or null`
-
-    Tagged ID (`user_`/`svac_`) of the actor that created this service account.
-
-  - `description: string or null`
-
-    Optional free-text description.
-
-  - `name: string`
-
-    Admin-chosen slug identifier.
-
-  - `organization_role: "admin" or "developer"`
-
-    Org-level role. A federation rule may only be created or retargeted to grant `org:admin` scope when this is `admin`. A rule granting `org:admin` whose target is later demoted to `developer` is rejected at token exchange. Rules granting `org:admin` are managed in the Console.
-
-    - `"admin"`
-
-    - `"developer"`
-
-  - `type: "service_account"`
-
-    - `"service_account"`
-
-  - `updated_at: string`
-
-    When this service account was last updated.
-
-  - `updated_by_actor_id: string or null`
-
-    Tagged ID (`user_`/`svac_`) of the actor that last updated this service account.
-
-### Example
-
-```http
-curl https://api.anthropic.com/v1/organizations/service_accounts/$SERVICE_ACCOUNT_ID \
-    -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
-```
-
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -241,7 +238,7 @@ curl https://api.anthropic.com/v1/organizations/service_accounts/$SERVICE_ACCOUN
 
 ## List Service Accounts
 
-**get** `/v1/organizations/service_accounts`
+**GET** `/v1/organizations/service_accounts`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -251,31 +248,131 @@ Results are ordered by creation time, newest first. Use `limit` and the
 `next_page` cursor to paginate; set `include_archived=true` to include
 archived service accounts.
 
-### Query Parameters
+### Query parameters
 
 - `include_archived: optional boolean`
 
   Include archived resources. Defaults to false.
 
+  default: false
+
 - `limit: optional number`
 
   Number of results per page.
+
+  default: 20, maximum: 100, minimum: 1
 
 - `page: optional string`
 
   Opaque cursor from a previous response's `next_page`.
 
-### Header Parameters
+### Headers
 
-- `"anthropic-beta": optional array of string`
+- `"anthropic-beta": optional array of AnthropicBeta`
 
   Optional header to specify the beta version(s) you want to use.
 
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
+  - `string`
+
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
+
+    - `"message-batches-2024-09-24"`
+
+    - `"prompt-caching-2024-07-31"`
+
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
 
 ### Returns
 
-- `data: array of ServiceAccount`
+- `data: array of BetaServiceAccount`
+
+  - `type: "service_account"`
+
+    default: service_account
 
   - `id: string`
 
@@ -285,6 +382,8 @@ archived service accounts.
 
     If set, this service account is archived.
 
+    format: date-time
+
   - `archived_by_actor_id: string or null`
 
     Tagged ID (`user_`/`svac_`) of the actor that archived this service account.
@@ -292,6 +391,8 @@ archived service accounts.
   - `created_at: string`
 
     When this service account was created.
+
+    format: date-time
 
   - `created_by_actor_id: string or null`
 
@@ -313,13 +414,11 @@ archived service accounts.
 
     - `"developer"`
 
-  - `type: "service_account"`
-
-    - `"service_account"`
-
   - `updated_at: string`
 
     When this service account was last updated.
+
+    format: date-time
 
   - `updated_by_actor_id: string or null`
 
@@ -331,13 +430,13 @@ archived service accounts.
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/service_accounts \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -360,55 +459,132 @@ curl https://api.anthropic.com/v1/organizations/service_accounts \
 }
 ```
 
-## Update Service Account
+## Get Service Account
 
-**post** `/v1/organizations/service_accounts/{service_account_id}`
+**GET** `/v1/organizations/service_accounts/{service_account_id}`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
-Update a service account.
+Retrieve a service account by its ID (`svac_...`).
 
-Only `description` and `organization_role` are mutable; `name` cannot be
-changed. Archived service accounts cannot be updated; this returns 400.
-Setting `organization_role` to `admin` (even when unchanged) requires an
-interactive credential (a user OAuth token or a Console session).
-
-### Path Parameters
+### Path parameters
 
 - `service_account_id: string`
 
-  ID of the service account to update.
+  ID of the service account.
 
-### Header Parameters
+### Headers
 
-- `"anthropic-beta": optional array of string`
+- `"anthropic-beta": optional array of AnthropicBeta`
 
   Optional header to specify the beta version(s) you want to use.
 
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
+  - `string`
 
-### Body Parameters
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
-- `description: optional string or null`
+    - `"message-batches-2024-09-24"`
 
-  Replaces the description. Omit to leave unchanged; send `null` to clear (the field is stored as an empty string).
+    - `"prompt-caching-2024-07-31"`
 
-- `organization_role: optional "admin" or "developer" or null`
+    - `"computer-use-2024-10-22"`
 
-  Replaces the org-level role. Omit or send `null` to leave unchanged.
+    - `"computer-use-2025-01-24"`
 
-  - `"admin"`
+    - `"pdfs-2024-09-25"`
 
-  - `"developer"`
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
 
 ### Returns
 
-- `ServiceAccount object { id, archived_at, archived_by_actor_id, 8 more }`
+- `BetaServiceAccount object`
 
   Named non-human identity within the caller's organization.
 
   A service account is a pure identity: name + org. Authorization lives on
   whatever references it (federation rules).
+
+  - `type: "service_account"`
+
+    default: service_account
 
   - `id: string`
 
@@ -418,6 +594,8 @@ interactive credential (a user OAuth token or a Console session).
 
     If set, this service account is archived.
 
+    format: date-time
+
   - `archived_by_actor_id: string or null`
 
     Tagged ID (`user_`/`svac_`) of the actor that archived this service account.
@@ -425,6 +603,8 @@ interactive credential (a user OAuth token or a Console session).
   - `created_at: string`
 
     When this service account was created.
+
+    format: date-time
 
   - `created_by_actor_id: string or null`
 
@@ -446,13 +626,11 @@ interactive credential (a user OAuth token or a Console session).
 
     - `"developer"`
 
-  - `type: "service_account"`
-
-    - `"service_account"`
-
   - `updated_at: string`
 
     When this service account was last updated.
+
+    format: date-time
 
   - `updated_by_actor_id: string or null`
 
@@ -460,15 +638,239 @@ interactive credential (a user OAuth token or a Console session).
 
 ### Example
 
-```http
+```bash
+curl https://api.anthropic.com/v1/organizations/service_accounts/$SERVICE_ACCOUNT_ID \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
+```
+
+#### Response (200)
+
+```json
+{
+  "id": "svac_01SDCCSbTxrXDpWc1phhtcfK",
+  "archived_at": "2019-12-27T18:11:19.117Z",
+  "archived_by_actor_id": "archived_by_actor_id",
+  "created_at": "2024-10-30T23:58:27.427722Z",
+  "created_by_actor_id": "created_by_actor_id",
+  "description": "description",
+  "name": "ci-deploy-bot",
+  "organization_role": "admin",
+  "type": "service_account",
+  "updated_at": "2024-10-30T23:58:27.427722Z",
+  "updated_by_actor_id": "updated_by_actor_id"
+}
+```
+
+## Update Service Account
+
+**POST** `/v1/organizations/service_accounts/{service_account_id}`
+
+**Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
+
+Update a service account.
+
+Only `description` and `organization_role` are mutable; `name` cannot be
+changed. Archived service accounts cannot be updated; this returns 400.
+Setting `organization_role` to `admin` (even when unchanged) requires an
+interactive credential (a user OAuth token or a Console session).
+
+### Path parameters
+
+- `service_account_id: string`
+
+  ID of the service account to update.
+
+### Headers
+
+- `"anthropic-beta": optional array of AnthropicBeta`
+
+  Optional header to specify the beta version(s) you want to use.
+
+  - `string`
+
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
+
+    - `"message-batches-2024-09-24"`
+
+    - `"prompt-caching-2024-07-31"`
+
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
+
+### Body parameters
+
+- `description: optional string or null`
+
+  Replaces the description. Omit to leave unchanged; send `null` to clear (the field is stored as an empty string).
+
+  maxLength: 2000
+
+- `organization_role: optional "admin" or "developer" or null`
+
+  Replaces the org-level role. Omit or send `null` to leave unchanged.
+
+  - `"admin"`
+
+  - `"developer"`
+
+### Returns
+
+- `BetaServiceAccount object`
+
+  Named non-human identity within the caller's organization.
+
+  A service account is a pure identity: name + org. Authorization lives on
+  whatever references it (federation rules).
+
+  - `type: "service_account"`
+
+    default: service_account
+
+  - `id: string`
+
+    Tagged ID of the service account.
+
+  - `archived_at: string or null`
+
+    If set, this service account is archived.
+
+    format: date-time
+
+  - `archived_by_actor_id: string or null`
+
+    Tagged ID (`user_`/`svac_`) of the actor that archived this service account.
+
+  - `created_at: string`
+
+    When this service account was created.
+
+    format: date-time
+
+  - `created_by_actor_id: string or null`
+
+    Tagged ID (`user_`/`svac_`) of the actor that created this service account.
+
+  - `description: string or null`
+
+    Optional free-text description.
+
+  - `name: string`
+
+    Admin-chosen slug identifier.
+
+  - `organization_role: "admin" or "developer"`
+
+    Org-level role. A federation rule may only be created or retargeted to grant `org:admin` scope when this is `admin`. A rule granting `org:admin` whose target is later demoted to `developer` is rejected at token exchange. Rules granting `org:admin` are managed in the Console.
+
+    - `"admin"`
+
+    - `"developer"`
+
+  - `updated_at: string`
+
+    When this service account was last updated.
+
+    format: date-time
+
+  - `updated_by_actor_id: string or null`
+
+    Tagged ID (`user_`/`svac_`) of the actor that last updated this service account.
+
+### Example
+
+```bash
 curl https://api.anthropic.com/v1/organizations/service_accounts/$SERVICE_ACCOUNT_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
     -d '{}'
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -488,7 +890,7 @@ curl https://api.anthropic.com/v1/organizations/service_accounts/$SERVICE_ACCOUN
 
 ## Archive Service Account
 
-**post** `/v1/organizations/service_accounts/{service_account_id}/archive`
+**POST** `/v1/organizations/service_accounts/{service_account_id}/archive`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -499,28 +901,124 @@ Idempotent; re-archiving returns the service account with its original
 rule still targets this service account, same as issuer archival; archive
 those rules first or change their target to another service account.
 
-### Path Parameters
+### Path parameters
 
 - `service_account_id: string`
 
   ID of the service account to archive.
 
-### Header Parameters
+### Headers
 
-- `"anthropic-beta": optional array of string`
+- `"anthropic-beta": optional array of AnthropicBeta`
 
   Optional header to specify the beta version(s) you want to use.
 
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
+  - `string`
+
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
+
+    - `"message-batches-2024-09-24"`
+
+    - `"prompt-caching-2024-07-31"`
+
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
 
 ### Returns
 
-- `ServiceAccount object { id, archived_at, archived_by_actor_id, 8 more }`
+- `BetaServiceAccount object`
 
   Named non-human identity within the caller's organization.
 
   A service account is a pure identity: name + org. Authorization lives on
   whatever references it (federation rules).
+
+  - `type: "service_account"`
+
+    default: service_account
 
   - `id: string`
 
@@ -530,6 +1028,8 @@ those rules first or change their target to another service account.
 
     If set, this service account is archived.
 
+    format: date-time
+
   - `archived_by_actor_id: string or null`
 
     Tagged ID (`user_`/`svac_`) of the actor that archived this service account.
@@ -537,6 +1037,8 @@ those rules first or change their target to another service account.
   - `created_at: string`
 
     When this service account was created.
+
+    format: date-time
 
   - `created_by_actor_id: string or null`
 
@@ -558,13 +1060,11 @@ those rules first or change their target to another service account.
 
     - `"developer"`
 
-  - `type: "service_account"`
-
-    - `"service_account"`
-
   - `updated_at: string`
 
     When this service account was last updated.
+
+    format: date-time
 
   - `updated_by_actor_id: string or null`
 
@@ -572,14 +1072,14 @@ those rules first or change their target to another service account.
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/service_accounts/$SERVICE_ACCOUNT_ID/archive \
     -X POST \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -597,16 +1097,20 @@ curl https://api.anthropic.com/v1/organizations/service_accounts/$SERVICE_ACCOUN
 }
 ```
 
-## Domain Types
+## Domain types
 
-### Service Account
+### Beta Service Account
 
-- `ServiceAccount object { id, archived_at, archived_by_actor_id, 8 more }`
+- `BetaServiceAccount object`
 
   Named non-human identity within the caller's organization.
 
   A service account is a pure identity: name + org. Authorization lives on
   whatever references it (federation rules).
+
+  - `type: "service_account"`
+
+    default: service_account
 
   - `id: string`
 
@@ -616,6 +1120,8 @@ curl https://api.anthropic.com/v1/organizations/service_accounts/$SERVICE_ACCOUN
 
     If set, this service account is archived.
 
+    format: date-time
+
   - `archived_by_actor_id: string or null`
 
     Tagged ID (`user_`/`svac_`) of the actor that archived this service account.
@@ -623,6 +1129,8 @@ curl https://api.anthropic.com/v1/organizations/service_accounts/$SERVICE_ACCOUN
   - `created_at: string`
 
     When this service account was created.
+
+    format: date-time
 
   - `created_by_actor_id: string or null`
 
@@ -644,23 +1152,59 @@ curl https://api.anthropic.com/v1/organizations/service_accounts/$SERVICE_ACCOUN
 
     - `"developer"`
 
-  - `type: "service_account"`
-
-    - `"service_account"`
-
   - `updated_at: string`
 
     When this service account was last updated.
+
+    format: date-time
 
   - `updated_by_actor_id: string or null`
 
     Tagged ID (`user_`/`svac_`) of the actor that last updated this service account.
 
-# Workspaces
+### Beta Service Account Workspace Member
 
-## Add Workspace To Service Account
+- `BetaServiceAccountWorkspaceMember object`
 
-**post** `/v1/organizations/service_accounts/{service_account_id}/workspaces`
+  - `type: "service_account_workspace_member"`
+
+    default: service_account_workspace_member
+
+  - `created_by_actor_id: string or null`
+
+    Tagged ID (`user_...`/`svac_...`) of the actor who created this membership.
+
+  - `implicit: boolean or null`
+
+    True when this is the implicit default-workspace membership every service account has when no explicit membership exists. Implicit memberships have role `workspace_user` and cannot be removed.
+
+  - `service_account_id: string`
+
+    Tagged service account ID (`svac_...`).
+
+  - `workspace_id: string`
+
+    Tagged workspace ID (`wrkspc_...`).
+
+  - `workspace_role: BetaWorkspaceRole`
+
+    Role of the service account in this workspace. Service accounts cannot hold the `workspace_billing` role.
+
+    - `"workspace_admin"`
+
+    - `"workspace_billing"`
+
+    - `"workspace_developer"`
+
+    - `"workspace_restricted_developer"`
+
+    - `"workspace_user"`
+
+## Service Accounts › Workspaces
+
+### Add Workspace To Service Account
+
+**POST** `/v1/organizations/service_accounts/{service_account_id}/workspaces`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -673,27 +1217,119 @@ service account is already an explicit member of the workspace, its
 workspaces return 400. Archived service accounts cannot be added and are
 rejected.
 
-### Path Parameters
+#### Path parameters
 
 - `service_account_id: string`
 
   ID of the service account.
 
-### Header Parameters
+#### Headers
 
-- `"anthropic-beta": optional array of string`
+- `"anthropic-beta": optional array of AnthropicBeta`
 
   Optional header to specify the beta version(s) you want to use.
 
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
+  - `string`
 
-### Body Parameters
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
+
+    - `"message-batches-2024-09-24"`
+
+    - `"prompt-caching-2024-07-31"`
+
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
+
+#### Body parameters
 
 - `workspace_id: string`
 
   Tagged workspace ID to add the service account to.
 
-- `workspace_role: "workspace_admin" or "workspace_developer" or "workspace_restricted_developer" or "workspace_user"`
+- `workspace_role: BetaNoBillingWorkspaceRole`
 
   Role to assign to the service account in this workspace.
 
@@ -705,56 +1341,58 @@ rejected.
 
   - `"workspace_user"`
 
-### Returns
+#### Returns
 
-- `created_by_actor_id: string or null`
+- `BetaServiceAccountWorkspaceMember object`
 
-  Tagged ID (`user_...`/`svac_...`) of the actor who created this membership.
+  - `type: "service_account_workspace_member"`
 
-- `implicit: boolean or null`
+    default: service_account_workspace_member
 
-  True when this is the implicit default-workspace membership every service account has when no explicit membership exists. Implicit memberships have role `workspace_user` and cannot be removed.
+  - `created_by_actor_id: string or null`
 
-- `service_account_id: string`
+    Tagged ID (`user_...`/`svac_...`) of the actor who created this membership.
 
-  Tagged service account ID (`svac_...`).
+  - `implicit: boolean or null`
 
-- `type: "service_account_workspace_member"`
+    True when this is the implicit default-workspace membership every service account has when no explicit membership exists. Implicit memberships have role `workspace_user` and cannot be removed.
 
-  - `"service_account_workspace_member"`
+  - `service_account_id: string`
 
-- `workspace_id: string`
+    Tagged service account ID (`svac_...`).
 
-  Tagged workspace ID (`wrkspc_...`).
+  - `workspace_id: string`
 
-- `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
+    Tagged workspace ID (`wrkspc_...`).
 
-  Role of the service account in this workspace. Service accounts cannot hold the `workspace_billing` role.
+  - `workspace_role: BetaWorkspaceRole`
 
-  - `"workspace_admin"`
+    Role of the service account in this workspace. Service accounts cannot hold the `workspace_billing` role.
 
-  - `"workspace_billing"`
+    - `"workspace_admin"`
 
-  - `"workspace_developer"`
+    - `"workspace_billing"`
 
-  - `"workspace_restricted_developer"`
+    - `"workspace_developer"`
 
-  - `"workspace_user"`
+    - `"workspace_restricted_developer"`
 
-### Example
+    - `"workspace_user"`
 
-```http
+#### Example
+
+```bash
 curl https://api.anthropic.com/v1/organizations/service_accounts/$SERVICE_ACCOUNT_ID/workspaces \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
     -d '{
           "workspace_id": "workspace_id",
           "workspace_role": "workspace_admin"
         }'
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -767,9 +1405,9 @@ curl https://api.anthropic.com/v1/organizations/service_accounts/$SERVICE_ACCOUN
 }
 ```
 
-## List Workspaces For Service Account
+### List Workspaces For Service Account
 
-**get** `/v1/organizations/service_accounts/{service_account_id}/workspaces`
+**GET** `/v1/organizations/service_accounts/{service_account_id}/workspaces`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -789,33 +1427,131 @@ stops matching when the membership is removed, the workspace is deleted,
 or the service account is archived. Restart pagination from the first
 page to recover.
 
-### Path Parameters
+#### Path parameters
 
 - `service_account_id: string`
 
   ID of the service account.
 
-### Query Parameters
+#### Query parameters
 
 - `limit: optional number`
 
   Number of results per page.
 
+  default: 20, maximum: 100, minimum: 1
+
 - `page: optional string`
 
   Opaque cursor from a previous response's `next_page`.
 
-### Header Parameters
+#### Headers
 
-- `"anthropic-beta": optional array of string`
+- `"anthropic-beta": optional array of AnthropicBeta`
 
   Optional header to specify the beta version(s) you want to use.
 
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
+  - `string`
 
-### Returns
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
-- `data: array of object { created_by_actor_id, implicit, service_account_id, 3 more }`
+    - `"message-batches-2024-09-24"`
+
+    - `"prompt-caching-2024-07-31"`
+
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
+
+#### Returns
+
+- `data: array of BetaServiceAccountWorkspaceMember`
+
+  - `type: "service_account_workspace_member"`
+
+    default: service_account_workspace_member
 
   - `created_by_actor_id: string or null`
 
@@ -829,15 +1565,11 @@ page to recover.
 
     Tagged service account ID (`svac_...`).
 
-  - `type: "service_account_workspace_member"`
-
-    - `"service_account_workspace_member"`
-
   - `workspace_id: string`
 
     Tagged workspace ID (`wrkspc_...`).
 
-  - `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
+  - `workspace_role: BetaWorkspaceRole`
 
     Role of the service account in this workspace. Service accounts cannot hold the `workspace_billing` role.
 
@@ -855,15 +1587,15 @@ page to recover.
 
   Opaque cursor for the next page, or null if no more results.
 
-### Example
+#### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/service_accounts/$SERVICE_ACCOUNT_ID/workspaces \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -881,9 +1613,9 @@ curl https://api.anthropic.com/v1/organizations/service_accounts/$SERVICE_ACCOUN
 }
 ```
 
-## Remove Workspace From Service Account
+### Remove Workspace From Service Account
 
-**delete** `/v1/organizations/service_accounts/{service_account_id}/workspaces/{workspace_id}`
+**DELETE** `/v1/organizations/service_accounts/{service_account_id}/workspaces/{workspace_id}`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -897,7 +1629,7 @@ membership persists; deleting an explicit default-workspace row reverts
 to the implicit `workspace_user` membership. Archived workspaces return
 400.
 
-### Path Parameters
+#### Path parameters
 
 - `service_account_id: string`
 
@@ -907,38 +1639,130 @@ to the implicit `workspace_user` membership. Archived workspaces return
 
   ID of the workspace.
 
-### Header Parameters
+#### Headers
 
-- `"anthropic-beta": optional array of string`
+- `"anthropic-beta": optional array of AnthropicBeta`
 
   Optional header to specify the beta version(s) you want to use.
 
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
+  - `string`
 
-### Returns
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
+
+    - `"message-batches-2024-09-24"`
+
+    - `"prompt-caching-2024-07-31"`
+
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
+
+#### Returns
+
+- `type: "service_account_workspace_member_deleted"`
+
+  default: service_account_workspace_member_deleted
 
 - `service_account_id: string`
 
   Tagged service account ID (`svac_...`) named in the delete request. Removal is idempotent; see the endpoint description for the implicit-membership no-op.
 
-- `type: "service_account_workspace_member_deleted"`
-
-  - `"service_account_workspace_member_deleted"`
-
 - `workspace_id: string`
 
   Tagged workspace ID (`wrkspc_...`) named in the delete request.
 
-### Example
+#### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/service_accounts/$SERVICE_ACCOUNT_ID/workspaces/$WORKSPACE_ID \
     -X DELETE \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -947,97 +1771,3 @@ curl https://api.anthropic.com/v1/organizations/service_accounts/$SERVICE_ACCOUN
   "workspace_id": "workspace_id"
 }
 ```
-
-## Domain Types
-
-### Workspace Create Response
-
-- `WorkspaceCreateResponse object { created_by_actor_id, implicit, service_account_id, 3 more }`
-
-  - `created_by_actor_id: string or null`
-
-    Tagged ID (`user_...`/`svac_...`) of the actor who created this membership.
-
-  - `implicit: boolean or null`
-
-    True when this is the implicit default-workspace membership every service account has when no explicit membership exists. Implicit memberships have role `workspace_user` and cannot be removed.
-
-  - `service_account_id: string`
-
-    Tagged service account ID (`svac_...`).
-
-  - `type: "service_account_workspace_member"`
-
-    - `"service_account_workspace_member"`
-
-  - `workspace_id: string`
-
-    Tagged workspace ID (`wrkspc_...`).
-
-  - `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
-
-    Role of the service account in this workspace. Service accounts cannot hold the `workspace_billing` role.
-
-    - `"workspace_admin"`
-
-    - `"workspace_billing"`
-
-    - `"workspace_developer"`
-
-    - `"workspace_restricted_developer"`
-
-    - `"workspace_user"`
-
-### Workspace List Response
-
-- `WorkspaceListResponse object { created_by_actor_id, implicit, service_account_id, 3 more }`
-
-  - `created_by_actor_id: string or null`
-
-    Tagged ID (`user_...`/`svac_...`) of the actor who created this membership.
-
-  - `implicit: boolean or null`
-
-    True when this is the implicit default-workspace membership every service account has when no explicit membership exists. Implicit memberships have role `workspace_user` and cannot be removed.
-
-  - `service_account_id: string`
-
-    Tagged service account ID (`svac_...`).
-
-  - `type: "service_account_workspace_member"`
-
-    - `"service_account_workspace_member"`
-
-  - `workspace_id: string`
-
-    Tagged workspace ID (`wrkspc_...`).
-
-  - `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
-
-    Role of the service account in this workspace. Service accounts cannot hold the `workspace_billing` role.
-
-    - `"workspace_admin"`
-
-    - `"workspace_billing"`
-
-    - `"workspace_developer"`
-
-    - `"workspace_restricted_developer"`
-
-    - `"workspace_user"`
-
-### Workspace Delete Response
-
-- `WorkspaceDeleteResponse object { service_account_id, type, workspace_id }`
-
-  - `service_account_id: string`
-
-    Tagged service account ID (`svac_...`) named in the delete request. Removal is idempotent; see the endpoint description for the implicit-membership no-op.
-
-  - `type: "service_account_workspace_member_deleted"`
-
-    - `"service_account_workspace_member_deleted"`
-
-  - `workspace_id: string`
-
-    Tagged workspace ID (`wrkspc_...`) named in the delete request.

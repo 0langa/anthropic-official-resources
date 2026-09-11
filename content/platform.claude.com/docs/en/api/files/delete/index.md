@@ -3,25 +3,25 @@ title: Delete File
 url: https://platform.claude.com/docs/en/api/files/delete
 ---
 
-## Delete File
+# Delete File
 
-**delete** `/v1/files/{file_id}`
+**DELETE** `/v1/files/{file_id}`
 
 Delete File
 
-### Path Parameters
+## Path parameters
 
 - `file_id: string`
 
   ID of the File.
 
-### Returns
+## Headers
 
-- `DeletedFile object { id, type }`
+- `"anthropic-workspace-id": optional string`
 
-  - `id: string`
+## Returns
 
-    ID of the deleted file.
+- `DeletedFile object`
 
   - `type: optional "file_deleted"`
 
@@ -29,18 +29,22 @@ Delete File
 
     For file deletion, this is always `"file_deleted"`.
 
-    - `"file_deleted"`
+    default: file_deleted
 
-### Example
+  - `id: string`
 
-```http
+    ID of the deleted file.
+
+## Example
+
+```bash
 curl https://api.anthropic.com/v1/files/$FILE_ID \
     -X DELETE \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

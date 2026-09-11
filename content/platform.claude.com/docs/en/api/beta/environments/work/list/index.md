@@ -3,29 +3,31 @@ title: List Work Items
 url: https://platform.claude.com/docs/en/api/beta/environments/work/list
 ---
 
-## List Work Items
+# List Work Items
 
-**get** `/v1/environments/{environment_id}/work`
+**GET** `/v1/environments/{environment_id}/work`
 
 Note: these endpoints are called automatically by the pre-built environment worker provided in the SDKs and CLI, for orchestrating sessions with self-hosted sandbox environments. They are included here as a reference; you do not need to invoke them directly.
 
 List work items in an environment.
 
-### Path Parameters
+## Path parameters
 
 - `environment_id: string`
 
-### Query Parameters
+## Query parameters
 
 - `limit: optional number`
 
   Maximum number of work items to return
 
+  default: 20, maximum: 1000, minimum: 1
+
 - `page: optional string`
 
   Opaque cursor from previous response for pagination
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -33,7 +35,7 @@ List work items in an environment.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -81,6 +83,8 @@ List work items in an environment.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -123,15 +127,21 @@ List work items in an environment.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+## Returns
 
-- `BetaSelfHostedWorkListResponse object { data, next_page }`
+- `BetaSelfHostedWorkListResponse object`
 
   Response when listing work items with cursor-based pagination.
 
   - `data: array of BetaSelfHostedWork`
 
     List of work items
+
+    - `type: "work"`
+
+      The type of object (always 'work')
+
+      default: work
 
     - `id: string`
 
@@ -149,15 +159,13 @@ List work items in an environment.
 
       The actual work to be performed
 
-      - `id: string`
-
-        Session identifier (e.g., 'session_...')
-
       - `type: "session"`
 
         Type of work data
 
-        - `"session"`
+      - `id: string`
+
+        Session identifier (e.g., 'session_...')
 
     - `environment_id: string`
 
@@ -201,26 +209,20 @@ List work items in an environment.
 
       RFC 3339 timestamp when work execution stopped
 
-    - `type: "work"`
-
-      The type of object (always 'work')
-
-      - `"work"`
-
   - `next_page: string or null`
 
     Opaque cursor for fetching the next page of results
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/environments/$ENVIRONMENT_ID/work \
     -H 'anthropic-version: 2023-06-01' \
     -H 'anthropic-beta: managed-agents-2026-04-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

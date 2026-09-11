@@ -3,21 +3,25 @@ title: List Dreams
 url: https://platform.claude.com/docs/en/api/beta/dreams/list
 ---
 
-## List Dreams
+# List Dreams
 
-**get** `/v1/dreams`
+**GET** `/v1/dreams`
 
 List Dreams
 
-### Query Parameters
+## Query parameters
 
 - `"created_at[gt]": optional string`
 
   Return dreams with `created_at` strictly after this timestamp (exclusive lower bound, RFC 3339). Unset applies no lower bound.
 
+  format: date-time
+
 - `"created_at[lt]": optional string`
 
   Return dreams with `created_at` strictly before this timestamp (exclusive upper bound, RFC 3339). Unset applies no upper bound.
+
+  format: date-time
 
 - `include_archived: optional boolean`
 
@@ -26,6 +30,8 @@ List Dreams
 - `limit: optional number`
 
   Query parameter for limit
+
+  format: int32
 
 - `page: optional string`
 
@@ -45,7 +51,7 @@ List Dreams
 
   - `"canceled"`
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -53,7 +59,7 @@ List Dreams
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -101,6 +107,8 @@ List Dreams
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -143,9 +151,13 @@ List Dreams
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+- `"anthropic-workspace-id": optional string`
+
+## Returns
 
 - `data: array of BetaDream`
+
+  - `type: "dream"`
 
   - `id: string`
 
@@ -153,43 +165,47 @@ List Dreams
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `created_at: string`
 
     A timestamp in RFC 3339 format
+
+    format: date-time
 
   - `ended_at: string or null`
 
     A timestamp in RFC 3339 format
 
+    format: date-time
+
   - `error: BetaDreamError or null`
 
     Failure detail for a Dream whose `status` is `failed`.
 
-    - `message: string`
-
     - `type: string`
+
+    - `message: string`
 
   - `inputs: array of BetaDreamInput`
 
-    - `BetaDreamMemoryStoreInput object { memory_store_id, type }`
+    - `BetaDreamMemoryStoreInput object`
 
       An input memory store the dream reads from. The dream never mutates this store unless it is also the destination: with output_behavior {type: "update_existing"} the job consolidates this store in place.
 
-      - `memory_store_id: string`
-
       - `type: "memory_store"`
 
-        - `"memory_store"`
+      - `memory_store_id: string`
 
-    - `BetaDreamSessionsInput object { session_ids, type }`
+        minLength: 1
+
+    - `BetaDreamSessionsInput object`
 
       Input session transcripts the dream reads.
 
-      - `session_ids: array of string`
-
       - `type: "sessions"`
 
-        - `"sessions"`
+      - `session_ids: array of string`
 
   - `instructions: string or null`
 
@@ -200,6 +216,8 @@ List Dreams
     - `id: string`
 
       Model identifier, e.g. "claude-opus-5". 1-256 characters.
+
+      minLength: 1, maxLength: 256
 
     - `speed: optional "standard" or "fast"`
 
@@ -213,31 +231,27 @@ List Dreams
 
     The default destination: the job creates a new output memory store as a clone of the memory_store input and writes the consolidated memories into it. The input store is never mutated.
 
-    - `BetaOutputBehaviorCreateNew object { type }`
+    - `BetaOutputBehaviorCreateNew object`
 
       The default destination: the job creates a new output memory store as a clone of the memory_store input and writes the consolidated memories into it. The input store is never mutated.
 
       - `type: "create_new"`
 
-        - `"create_new"`
-
-    - `BetaOutputBehaviorUpdateExisting object { memory_store_id, type }`
+    - `BetaOutputBehaviorUpdateExisting object`
 
       The job writes the consolidated memories into this existing memory store instead of creating one. In EAP the store must be the job's own memory_store input, so the job consolidates the store in place.
 
-      - `memory_store_id: string`
-
       - `type: "update_existing"`
 
-        - `"update_existing"`
+      - `memory_store_id: string`
+
+        minLength: 1
 
   - `outputs: array of BetaDreamOutput`
 
-    - `memory_store_id: string`
-
     - `type: "memory_store"`
 
-      - `"memory_store"`
+    - `memory_store_id: string`
 
   - `session_id: string or null`
 
@@ -255,10 +269,6 @@ List Dreams
 
     - `"canceled"`
 
-  - `type: "dream"`
-
-    - `"dream"`
-
   - `usage: BetaDreamUsage`
 
     Cumulative token usage for the dream across every pipeline stage.
@@ -267,30 +277,38 @@ List Dreams
 
       Total tokens used to create prompt-cache entries (sum of all TTL tiers).
 
+      format: int32
+
     - `cache_read_input_tokens: number`
 
       Total tokens read from prompt cache.
+
+      format: int32
 
     - `input_tokens: number`
 
       Total uncached input tokens consumed across every pipeline stage.
 
+      format: int32
+
     - `output_tokens: number`
 
       Total output tokens generated across every pipeline stage.
 
+      format: int32
+
 - `next_page: string or null`
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/dreams \
     -H 'anthropic-version: 2023-06-01' \
     -H 'anthropic-beta: dreaming-2026-04-21' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

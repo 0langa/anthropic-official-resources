@@ -13,7 +13,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-capabilities-and-limitations%2Fnext-token-prediction)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-capabilities-and-limitations%2Fnext-token-prediction)
 
 ## How AI models use next token prediction[](https://academy.claude.com/courses/ai-capabilities-and-limitations/next-token-prediction)
 

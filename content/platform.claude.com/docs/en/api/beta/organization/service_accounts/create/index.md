@@ -3,9 +3,9 @@ title: Create Service Account
 url: https://platform.claude.com/docs/en/api/beta/organization/service_accounts/create
 ---
 
-## Create Service Account
+# Create Service Account
 
-**post** `/v1/organizations/service_accounts`
+**POST** `/v1/organizations/service_accounts`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -19,7 +19,7 @@ account requires an interactive credential (a user OAuth token or a
 Console session) — a workload may only create `developer`-role service
 accounts.
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -27,7 +27,7 @@ accounts.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -75,6 +75,8 @@ accounts.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -117,15 +119,19 @@ accounts.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+## Body parameters
 
 - `name: string`
 
   Slug identifier (lowercase, digits, hyphens). Unique within the organization; a duplicate name returns 409.
 
+  maxLength: 255, minLength: 1
+
 - `description: optional string or null`
 
   Optional free-text description.
+
+  maxLength: 2000
 
 - `organization_role: optional "admin" or "developer"`
 
@@ -135,14 +141,18 @@ accounts.
 
   - `"developer"`
 
-### Returns
+## Returns
 
-- `BetaServiceAccount object { id, archived_at, archived_by_actor_id, 8 more }`
+- `BetaServiceAccount object`
 
   Named non-human identity within the caller's organization.
 
   A service account is a pure identity: name + org. Authorization lives on
   whatever references it (federation rules).
+
+  - `type: "service_account"`
+
+    default: service_account
 
   - `id: string`
 
@@ -152,6 +162,8 @@ accounts.
 
     If set, this service account is archived.
 
+    format: date-time
+
   - `archived_by_actor_id: string or null`
 
     Tagged ID (`user_`/`svac_`) of the actor that archived this service account.
@@ -159,6 +171,8 @@ accounts.
   - `created_at: string`
 
     When this service account was created.
+
+    format: date-time
 
   - `created_by_actor_id: string or null`
 
@@ -180,21 +194,19 @@ accounts.
 
     - `"developer"`
 
-  - `type: "service_account"`
-
-    - `"service_account"`
-
   - `updated_at: string`
 
     When this service account was last updated.
+
+    format: date-time
 
   - `updated_by_actor_id: string or null`
 
     Tagged ID (`user_`/`svac_`) of the actor that last updated this service account.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/service_accounts \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -204,7 +216,7 @@ curl https://api.anthropic.com/v1/organizations/service_accounts \
         }'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

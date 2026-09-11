@@ -3,9 +3,9 @@ title: Delete Service Account Workspace Member
 url: https://platform.claude.com/docs/en/api/beta/organization/workspaces/service_accounts/remove
 ---
 
-## Delete Service Account Workspace Member
+# Delete Service Account Workspace Member
 
-**delete** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
+**DELETE** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -17,7 +17,7 @@ returns 200 but is a no-op and the membership persists; deleting an
 explicit default-workspace row reverts to the implicit `workspace_user`
 membership. Archived workspaces return 400.
 
-### Path Parameters
+## Path parameters
 
 - `workspace_id: string`
 
@@ -27,7 +27,7 @@ membership. Archived workspaces return 400.
 
   ID of the service account.
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -35,7 +35,7 @@ membership. Archived workspaces return 400.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -83,6 +83,8 @@ membership. Archived workspaces return 400.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -125,30 +127,30 @@ membership. Archived workspaces return 400.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+## Returns
+
+- `type: "service_account_workspace_member_deleted"`
+
+  default: service_account_workspace_member_deleted
 
 - `service_account_id: string`
 
   Tagged service account ID (`svac_...`) named in the delete request. Removal is idempotent; see the endpoint description for the implicit-membership no-op.
 
-- `type: "service_account_workspace_member_deleted"`
-
-  - `"service_account_workspace_member_deleted"`
-
 - `workspace_id: string`
 
   Tagged workspace ID (`wrkspc_...`) named in the delete request.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts/$SERVICE_ACCOUNT_ID \
     -X DELETE \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

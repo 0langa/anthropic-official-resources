@@ -1,3 +1,8 @@
+---
+title: Increase Requests
+url: https://platform.claude.com/docs/en/api/beta/organization/spend_limits/increase_requests
+---
+
 # Increase Requests
 
 ## List Spend Limit Increase Requests
@@ -35,7 +40,11 @@ Requests whose requester is no longer a member are excluded.
 
 ### Returns
 
-- `data: array of SpendLimitIncreaseRequest`
+- `data: array of BetaSpendLimitIncreaseRequest`
+
+  - `type: "spend_limit_increase_request"`
+
+    default: spend_limit_increase_request
 
   - `id: string`
 
@@ -44,6 +53,12 @@ Requests whose requester is no longer a member are excluded.
     A user within the organization. `name` and `email_address` are
     null when the underlying account is unavailable or has been deleted;
     `deleted` is true only for deleted accounts.
+
+    - `type: "user_actor"`
+
+      Actor type. Always `user_actor`.
+
+      default: user_actor
 
     - `deleted: boolean`
 
@@ -58,12 +73,6 @@ Requests whose requester is no longer a member are excluded.
     - `name: string or null`
 
       The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
-
-    - `type: "user_actor"`
-
-      Actor type. Always `user_actor`.
-
-      default: user_actor
 
     - `user_id: string`
 
@@ -97,6 +106,12 @@ Requests whose requester is no longer a member are excluded.
       null when the underlying account is unavailable or has been deleted;
       `deleted` is true only for deleted accounts.
 
+      - `type: "user_actor"`
+
+        Actor type. Always `user_actor`.
+
+        default: user_actor
+
       - `deleted: boolean`
 
         True only when the underlying account has been deleted.
@@ -110,12 +125,6 @@ Requests whose requester is no longer a member are excluded.
       - `name: string or null`
 
         The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
-
-      - `type: "user_actor"`
-
-        Actor type. Always `user_actor`.
-
-        default: user_actor
 
       - `user_id: string`
 
@@ -125,13 +134,13 @@ Requests whose requester is no longer a member are excluded.
 
       A scoped Admin API key acting on behalf of the organization.
 
-      - `scoped_api_key_id: string`
-
       - `type: "scoped_api_key_actor"`
 
         default: scoped_api_key_actor
 
-  - `spend_summary: SpendSummary or null`
+      - `scoped_api_key_id: string`
+
+  - `spend_summary: BetaSpendSummary or null`
 
     Per-member effective-limit report row (`GET /spend_limits/effective`).
 
@@ -140,6 +149,12 @@ Requests whose requester is no longer a member are excluded.
       A user within the organization. `name` and `email_address` are
       null when the underlying account is unavailable or has been deleted;
       `deleted` is true only for deleted accounts.
+
+      - `type: "user_actor"`
+
+        Actor type. Always `user_actor`.
+
+        default: user_actor
 
       - `deleted: boolean`
 
@@ -154,12 +169,6 @@ Requests whose requester is no longer a member are excluded.
       - `name: string or null`
 
         The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
-
-      - `type: "user_actor"`
-
-        Actor type. Always `user_actor`.
-
-        default: user_actor
 
       - `user_id: string`
 
@@ -221,27 +230,27 @@ Requests whose requester is no longer a member are excluded.
 
       - `SeatTier object`
 
-        - `seat_tier: string`
-
         - `type: "seat_tier"`
 
           default: seat_tier
 
-      - `RbacGroup object`
+        - `seat_tier: string`
 
-        - `rbac_group_id: string`
+      - `RBACGroup object`
 
         - `type: "rbac_group"`
 
           default: rbac_group
 
-      - `OrganizationService object`
+        - `rbac_group_id: string`
 
-        - `service: string`
+      - `OrganizationService object`
 
         - `type: "organization_service"`
 
           default: organization_service
+
+        - `service: string`
 
       - `Organization object`
 
@@ -259,10 +268,6 @@ Requests whose requester is no longer a member are excluded.
 
     - `"pending"`
 
-  - `type: "spend_limit_increase_request"`
-
-    default: spend_limit_increase_request
-
 - `next_page: string or null`
 
 ### Example
@@ -270,7 +275,7 @@ Requests whose requester is no longer a member are excluded.
 ```bash
 curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 #### Response (200)
@@ -344,7 +349,11 @@ requester at the request's period.
 
 ### Returns
 
-- `SpendLimitIncreaseRequest object`
+- `BetaSpendLimitIncreaseRequest object`
+
+  - `type: "spend_limit_increase_request"`
+
+    default: spend_limit_increase_request
 
   - `id: string`
 
@@ -353,6 +362,12 @@ requester at the request's period.
     A user within the organization. `name` and `email_address` are
     null when the underlying account is unavailable or has been deleted;
     `deleted` is true only for deleted accounts.
+
+    - `type: "user_actor"`
+
+      Actor type. Always `user_actor`.
+
+      default: user_actor
 
     - `deleted: boolean`
 
@@ -367,12 +382,6 @@ requester at the request's period.
     - `name: string or null`
 
       The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
-
-    - `type: "user_actor"`
-
-      Actor type. Always `user_actor`.
-
-      default: user_actor
 
     - `user_id: string`
 
@@ -406,6 +415,12 @@ requester at the request's period.
       null when the underlying account is unavailable or has been deleted;
       `deleted` is true only for deleted accounts.
 
+      - `type: "user_actor"`
+
+        Actor type. Always `user_actor`.
+
+        default: user_actor
+
       - `deleted: boolean`
 
         True only when the underlying account has been deleted.
@@ -419,12 +434,6 @@ requester at the request's period.
       - `name: string or null`
 
         The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
-
-      - `type: "user_actor"`
-
-        Actor type. Always `user_actor`.
-
-        default: user_actor
 
       - `user_id: string`
 
@@ -434,13 +443,13 @@ requester at the request's period.
 
       A scoped Admin API key acting on behalf of the organization.
 
-      - `scoped_api_key_id: string`
-
       - `type: "scoped_api_key_actor"`
 
         default: scoped_api_key_actor
 
-  - `spend_summary: SpendSummary or null`
+      - `scoped_api_key_id: string`
+
+  - `spend_summary: BetaSpendSummary or null`
 
     Per-member effective-limit report row (`GET /spend_limits/effective`).
 
@@ -449,6 +458,12 @@ requester at the request's period.
       A user within the organization. `name` and `email_address` are
       null when the underlying account is unavailable or has been deleted;
       `deleted` is true only for deleted accounts.
+
+      - `type: "user_actor"`
+
+        Actor type. Always `user_actor`.
+
+        default: user_actor
 
       - `deleted: boolean`
 
@@ -463,12 +478,6 @@ requester at the request's period.
       - `name: string or null`
 
         The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
-
-      - `type: "user_actor"`
-
-        Actor type. Always `user_actor`.
-
-        default: user_actor
 
       - `user_id: string`
 
@@ -530,27 +539,27 @@ requester at the request's period.
 
       - `SeatTier object`
 
-        - `seat_tier: string`
-
         - `type: "seat_tier"`
 
           default: seat_tier
 
-      - `RbacGroup object`
+        - `seat_tier: string`
 
-        - `rbac_group_id: string`
+      - `RBACGroup object`
 
         - `type: "rbac_group"`
 
           default: rbac_group
 
-      - `OrganizationService object`
+        - `rbac_group_id: string`
 
-        - `service: string`
+      - `OrganizationService object`
 
         - `type: "organization_service"`
 
           default: organization_service
+
+        - `service: string`
 
       - `Organization object`
 
@@ -568,16 +577,12 @@ requester at the request's period.
 
     - `"pending"`
 
-  - `type: "spend_limit_increase_request"`
-
-    default: spend_limit_increase_request
-
 ### Example
 
 ```bash
 curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$SPEND_LIMIT_INCREASE_REQUEST_ID \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 #### Response (200)
@@ -664,6 +669,10 @@ the member was blocked on. Anthropic emails the requester unless
 
 ### Returns
 
+- `type: "spend_limit_increase_request"`
+
+  default: spend_limit_increase_request
+
 - `id: string`
 
 - `actor: object`
@@ -671,6 +680,12 @@ the member was blocked on. Anthropic emails the requester unless
   A user within the organization. `name` and `email_address` are
   null when the underlying account is unavailable or has been deleted;
   `deleted` is true only for deleted accounts.
+
+  - `type: "user_actor"`
+
+    Actor type. Always `user_actor`.
+
+    default: user_actor
 
   - `deleted: boolean`
 
@@ -685,12 +700,6 @@ the member was blocked on. Anthropic emails the requester unless
   - `name: string or null`
 
     The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
-
-  - `type: "user_actor"`
-
-    Actor type. Always `user_actor`.
-
-    default: user_actor
 
   - `user_id: string`
 
@@ -724,6 +733,12 @@ the member was blocked on. Anthropic emails the requester unless
     null when the underlying account is unavailable or has been deleted;
     `deleted` is true only for deleted accounts.
 
+    - `type: "user_actor"`
+
+      Actor type. Always `user_actor`.
+
+      default: user_actor
+
     - `deleted: boolean`
 
       True only when the underlying account has been deleted.
@@ -738,12 +753,6 @@ the member was blocked on. Anthropic emails the requester unless
 
       The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
 
-    - `type: "user_actor"`
-
-      Actor type. Always `user_actor`.
-
-      default: user_actor
-
     - `user_id: string`
 
       Tagged ID of the user.
@@ -752,15 +761,21 @@ the member was blocked on. Anthropic emails the requester unless
 
     A scoped Admin API key acting on behalf of the organization.
 
-    - `scoped_api_key_id: string`
-
     - `type: "scoped_api_key_actor"`
 
       default: scoped_api_key_actor
 
-- `spend_limit: SpendLimit`
+    - `scoped_api_key_id: string`
+
+- `spend_limit: BetaSpendLimit`
 
   A configured spend limit: a cap on metered spend for one scope and period.
+
+  - `type: "spend_limit"`
+
+    Object type. Always `spend_limit`.
+
+    default: spend_limit
 
   - `id: string`
 
@@ -810,27 +825,27 @@ the member was blocked on. Anthropic emails the requester unless
 
     - `SeatTier object`
 
-      - `seat_tier: string`
-
       - `type: "seat_tier"`
 
         default: seat_tier
 
-    - `RbacGroup object`
+      - `seat_tier: string`
 
-      - `rbac_group_id: string`
+    - `RBACGroup object`
 
       - `type: "rbac_group"`
 
         default: rbac_group
 
-    - `OrganizationService object`
+      - `rbac_group_id: string`
 
-      - `service: string`
+    - `OrganizationService object`
 
       - `type: "organization_service"`
 
         default: organization_service
+
+      - `service: string`
 
     - `Organization object`
 
@@ -838,19 +853,13 @@ the member was blocked on. Anthropic emails the requester unless
 
         default: organization
 
-  - `type: "spend_limit"`
-
-    Object type. Always `spend_limit`.
-
-    default: spend_limit
-
   - `updated_at: string`
 
     RFC 3339 datetime at which the spend limit was last modified.
 
     format: date-time
 
-- `spend_summary: SpendSummary or null`
+- `spend_summary: BetaSpendSummary or null`
 
   Per-member effective-limit report row (`GET /spend_limits/effective`).
 
@@ -859,6 +868,12 @@ the member was blocked on. Anthropic emails the requester unless
     A user within the organization. `name` and `email_address` are
     null when the underlying account is unavailable or has been deleted;
     `deleted` is true only for deleted accounts.
+
+    - `type: "user_actor"`
+
+      Actor type. Always `user_actor`.
+
+      default: user_actor
 
     - `deleted: boolean`
 
@@ -873,12 +888,6 @@ the member was blocked on. Anthropic emails the requester unless
     - `name: string or null`
 
       The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
-
-    - `type: "user_actor"`
-
-      Actor type. Always `user_actor`.
-
-      default: user_actor
 
     - `user_id: string`
 
@@ -940,27 +949,27 @@ the member was blocked on. Anthropic emails the requester unless
 
     - `SeatTier object`
 
-      - `seat_tier: string`
-
       - `type: "seat_tier"`
 
         default: seat_tier
 
-    - `RbacGroup object`
+      - `seat_tier: string`
 
-      - `rbac_group_id: string`
+    - `RBACGroup object`
 
       - `type: "rbac_group"`
 
         default: rbac_group
 
-    - `OrganizationService object`
+      - `rbac_group_id: string`
 
-      - `service: string`
+    - `OrganizationService object`
 
       - `type: "organization_service"`
 
         default: organization_service
+
+      - `service: string`
 
     - `Organization object`
 
@@ -978,17 +987,13 @@ the member was blocked on. Anthropic emails the requester unless
 
   - `"pending"`
 
-- `type: "spend_limit_increase_request"`
-
-  default: spend_limit_increase_request
-
 ### Example
 
 ```bash
 curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$SPEND_LIMIT_INCREASE_REQUEST_ID/approve \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
     -d '{
           "amount": "50000",
           "period": "monthly"
@@ -1078,7 +1083,11 @@ Idempotent on `denied`; denying an already-`approved` request returns
 
 ### Returns
 
-- `SpendLimitIncreaseRequest object`
+- `BetaSpendLimitIncreaseRequest object`
+
+  - `type: "spend_limit_increase_request"`
+
+    default: spend_limit_increase_request
 
   - `id: string`
 
@@ -1087,6 +1096,12 @@ Idempotent on `denied`; denying an already-`approved` request returns
     A user within the organization. `name` and `email_address` are
     null when the underlying account is unavailable or has been deleted;
     `deleted` is true only for deleted accounts.
+
+    - `type: "user_actor"`
+
+      Actor type. Always `user_actor`.
+
+      default: user_actor
 
     - `deleted: boolean`
 
@@ -1101,12 +1116,6 @@ Idempotent on `denied`; denying an already-`approved` request returns
     - `name: string or null`
 
       The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
-
-    - `type: "user_actor"`
-
-      Actor type. Always `user_actor`.
-
-      default: user_actor
 
     - `user_id: string`
 
@@ -1140,6 +1149,12 @@ Idempotent on `denied`; denying an already-`approved` request returns
       null when the underlying account is unavailable or has been deleted;
       `deleted` is true only for deleted accounts.
 
+      - `type: "user_actor"`
+
+        Actor type. Always `user_actor`.
+
+        default: user_actor
+
       - `deleted: boolean`
 
         True only when the underlying account has been deleted.
@@ -1153,12 +1168,6 @@ Idempotent on `denied`; denying an already-`approved` request returns
       - `name: string or null`
 
         The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
-
-      - `type: "user_actor"`
-
-        Actor type. Always `user_actor`.
-
-        default: user_actor
 
       - `user_id: string`
 
@@ -1168,13 +1177,13 @@ Idempotent on `denied`; denying an already-`approved` request returns
 
       A scoped Admin API key acting on behalf of the organization.
 
-      - `scoped_api_key_id: string`
-
       - `type: "scoped_api_key_actor"`
 
         default: scoped_api_key_actor
 
-  - `spend_summary: SpendSummary or null`
+      - `scoped_api_key_id: string`
+
+  - `spend_summary: BetaSpendSummary or null`
 
     Per-member effective-limit report row (`GET /spend_limits/effective`).
 
@@ -1183,6 +1192,12 @@ Idempotent on `denied`; denying an already-`approved` request returns
       A user within the organization. `name` and `email_address` are
       null when the underlying account is unavailable or has been deleted;
       `deleted` is true only for deleted accounts.
+
+      - `type: "user_actor"`
+
+        Actor type. Always `user_actor`.
+
+        default: user_actor
 
       - `deleted: boolean`
 
@@ -1197,12 +1212,6 @@ Idempotent on `denied`; denying an already-`approved` request returns
       - `name: string or null`
 
         The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
-
-      - `type: "user_actor"`
-
-        Actor type. Always `user_actor`.
-
-        default: user_actor
 
       - `user_id: string`
 
@@ -1264,27 +1273,27 @@ Idempotent on `denied`; denying an already-`approved` request returns
 
       - `SeatTier object`
 
-        - `seat_tier: string`
-
         - `type: "seat_tier"`
 
           default: seat_tier
 
-      - `RbacGroup object`
+        - `seat_tier: string`
 
-        - `rbac_group_id: string`
+      - `RBACGroup object`
 
         - `type: "rbac_group"`
 
           default: rbac_group
 
-      - `OrganizationService object`
+        - `rbac_group_id: string`
 
-        - `service: string`
+      - `OrganizationService object`
 
         - `type: "organization_service"`
 
           default: organization_service
+
+        - `service: string`
 
       - `Organization object`
 
@@ -1302,17 +1311,13 @@ Idempotent on `denied`; denying an already-`approved` request returns
 
     - `"pending"`
 
-  - `type: "spend_limit_increase_request"`
-
-    default: spend_limit_increase_request
-
 ### Example
 
 ```bash
 curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$SPEND_LIMIT_INCREASE_REQUEST_ID/deny \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
     -d '{}'
 ```
 
@@ -1367,9 +1372,13 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
 
 ## Domain types
 
-### Spend Limit Increase Request
+### Beta Spend Limit Increase Request
 
-- `SpendLimitIncreaseRequest object`
+- `BetaSpendLimitIncreaseRequest object`
+
+  - `type: "spend_limit_increase_request"`
+
+    default: spend_limit_increase_request
 
   - `id: string`
 
@@ -1378,6 +1387,12 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
     A user within the organization. `name` and `email_address` are
     null when the underlying account is unavailable or has been deleted;
     `deleted` is true only for deleted accounts.
+
+    - `type: "user_actor"`
+
+      Actor type. Always `user_actor`.
+
+      default: user_actor
 
     - `deleted: boolean`
 
@@ -1392,12 +1407,6 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
     - `name: string or null`
 
       The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
-
-    - `type: "user_actor"`
-
-      Actor type. Always `user_actor`.
-
-      default: user_actor
 
     - `user_id: string`
 
@@ -1431,6 +1440,12 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
       null when the underlying account is unavailable or has been deleted;
       `deleted` is true only for deleted accounts.
 
+      - `type: "user_actor"`
+
+        Actor type. Always `user_actor`.
+
+        default: user_actor
+
       - `deleted: boolean`
 
         True only when the underlying account has been deleted.
@@ -1444,12 +1459,6 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
       - `name: string or null`
 
         The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
-
-      - `type: "user_actor"`
-
-        Actor type. Always `user_actor`.
-
-        default: user_actor
 
       - `user_id: string`
 
@@ -1459,13 +1468,13 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
 
       A scoped Admin API key acting on behalf of the organization.
 
-      - `scoped_api_key_id: string`
-
       - `type: "scoped_api_key_actor"`
 
         default: scoped_api_key_actor
 
-  - `spend_summary: SpendSummary or null`
+      - `scoped_api_key_id: string`
+
+  - `spend_summary: BetaSpendSummary or null`
 
     Per-member effective-limit report row (`GET /spend_limits/effective`).
 
@@ -1474,6 +1483,12 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
       A user within the organization. `name` and `email_address` are
       null when the underlying account is unavailable or has been deleted;
       `deleted` is true only for deleted accounts.
+
+      - `type: "user_actor"`
+
+        Actor type. Always `user_actor`.
+
+        default: user_actor
 
       - `deleted: boolean`
 
@@ -1488,12 +1503,6 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
       - `name: string or null`
 
         The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
-
-      - `type: "user_actor"`
-
-        Actor type. Always `user_actor`.
-
-        default: user_actor
 
       - `user_id: string`
 
@@ -1555,27 +1564,27 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
 
       - `SeatTier object`
 
-        - `seat_tier: string`
-
         - `type: "seat_tier"`
 
           default: seat_tier
 
-      - `RbacGroup object`
+        - `seat_tier: string`
 
-        - `rbac_group_id: string`
+      - `RBACGroup object`
 
         - `type: "rbac_group"`
 
           default: rbac_group
 
-      - `OrganizationService object`
+        - `rbac_group_id: string`
 
-        - `service: string`
+      - `OrganizationService object`
 
         - `type: "organization_service"`
 
           default: organization_service
+
+        - `service: string`
 
       - `Organization object`
 
@@ -1593,13 +1602,13 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
 
     - `"pending"`
 
-  - `type: "spend_limit_increase_request"`
-
-    default: spend_limit_increase_request
-
 ### Increase Request Approve Response
 
 - `IncreaseRequestApproveResponse object`
+
+  - `type: "spend_limit_increase_request"`
+
+    default: spend_limit_increase_request
 
   - `id: string`
 
@@ -1608,6 +1617,12 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
     A user within the organization. `name` and `email_address` are
     null when the underlying account is unavailable or has been deleted;
     `deleted` is true only for deleted accounts.
+
+    - `type: "user_actor"`
+
+      Actor type. Always `user_actor`.
+
+      default: user_actor
 
     - `deleted: boolean`
 
@@ -1622,12 +1637,6 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
     - `name: string or null`
 
       The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
-
-    - `type: "user_actor"`
-
-      Actor type. Always `user_actor`.
-
-      default: user_actor
 
     - `user_id: string`
 
@@ -1661,6 +1670,12 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
       null when the underlying account is unavailable or has been deleted;
       `deleted` is true only for deleted accounts.
 
+      - `type: "user_actor"`
+
+        Actor type. Always `user_actor`.
+
+        default: user_actor
+
       - `deleted: boolean`
 
         True only when the underlying account has been deleted.
@@ -1675,12 +1690,6 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
 
         The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
 
-      - `type: "user_actor"`
-
-        Actor type. Always `user_actor`.
-
-        default: user_actor
-
       - `user_id: string`
 
         Tagged ID of the user.
@@ -1689,15 +1698,21 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
 
       A scoped Admin API key acting on behalf of the organization.
 
-      - `scoped_api_key_id: string`
-
       - `type: "scoped_api_key_actor"`
 
         default: scoped_api_key_actor
 
-  - `spend_limit: SpendLimit`
+      - `scoped_api_key_id: string`
+
+  - `spend_limit: BetaSpendLimit`
 
     A configured spend limit: a cap on metered spend for one scope and period.
+
+    - `type: "spend_limit"`
+
+      Object type. Always `spend_limit`.
+
+      default: spend_limit
 
     - `id: string`
 
@@ -1747,27 +1762,27 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
 
       - `SeatTier object`
 
-        - `seat_tier: string`
-
         - `type: "seat_tier"`
 
           default: seat_tier
 
-      - `RbacGroup object`
+        - `seat_tier: string`
 
-        - `rbac_group_id: string`
+      - `RBACGroup object`
 
         - `type: "rbac_group"`
 
           default: rbac_group
 
-      - `OrganizationService object`
+        - `rbac_group_id: string`
 
-        - `service: string`
+      - `OrganizationService object`
 
         - `type: "organization_service"`
 
           default: organization_service
+
+        - `service: string`
 
       - `Organization object`
 
@@ -1775,19 +1790,13 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
 
           default: organization
 
-    - `type: "spend_limit"`
-
-      Object type. Always `spend_limit`.
-
-      default: spend_limit
-
     - `updated_at: string`
 
       RFC 3339 datetime at which the spend limit was last modified.
 
       format: date-time
 
-  - `spend_summary: SpendSummary or null`
+  - `spend_summary: BetaSpendSummary or null`
 
     Per-member effective-limit report row (`GET /spend_limits/effective`).
 
@@ -1796,6 +1805,12 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
       A user within the organization. `name` and `email_address` are
       null when the underlying account is unavailable or has been deleted;
       `deleted` is true only for deleted accounts.
+
+      - `type: "user_actor"`
+
+        Actor type. Always `user_actor`.
+
+        default: user_actor
 
       - `deleted: boolean`
 
@@ -1810,12 +1825,6 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
       - `name: string or null`
 
         The user's current display name. Null when the account is unavailable, has been deleted, or has no name set.
-
-      - `type: "user_actor"`
-
-        Actor type. Always `user_actor`.
-
-        default: user_actor
 
       - `user_id: string`
 
@@ -1877,27 +1886,27 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
 
       - `SeatTier object`
 
-        - `seat_tier: string`
-
         - `type: "seat_tier"`
 
           default: seat_tier
 
-      - `RbacGroup object`
+        - `seat_tier: string`
 
-        - `rbac_group_id: string`
+      - `RBACGroup object`
 
         - `type: "rbac_group"`
 
           default: rbac_group
 
-      - `OrganizationService object`
+        - `rbac_group_id: string`
 
-        - `service: string`
+      - `OrganizationService object`
 
         - `type: "organization_service"`
 
           default: organization_service
+
+        - `service: string`
 
       - `Organization object`
 
@@ -1914,7 +1923,3 @@ curl https://api.anthropic.com/v1/organizations/spend_limit_increase_requests/$S
     - `"denied"`
 
     - `"pending"`
-
-  - `type: "spend_limit_increase_request"`
-
-    default: spend_limit_increase_request

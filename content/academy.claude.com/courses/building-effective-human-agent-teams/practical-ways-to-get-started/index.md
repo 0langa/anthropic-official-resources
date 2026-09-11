@@ -11,7 +11,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fbuilding-effective-human-agent-teams%2Fpractical-ways-to-get-started)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-effective-human-agent-teams%2Fpractical-ways-to-get-started)
 
 A short checklist for your first two weeks, with links to go deeper. Start soon, but start small.
 

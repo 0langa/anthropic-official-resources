@@ -3,23 +3,29 @@ title: Get Compliance Group
 url: https://platform.claude.com/docs/en/api/compliance/groups/retrieve
 ---
 
-## Get Compliance Group
+# Get Compliance Group
 
-**get** `/v1/compliance/groups/{group_id}`
+**GET** `/v1/compliance/groups/{group_id}`
 
 Get Compliance Group
 
-### Path Parameters
+## Path parameters
 
 - `group_id: string`
 
   The group ID (tagged ID, e.g., rbac_group_abc123)
 
-### Header Parameters
+## Headers
+
+- `"anthropic-version": optional string`
+
+  The version of the Claude API you want to use.
+
+  Read more about versioning and our version history [here](https://platform.claude.com/docs/en/api/versioning).
 
 - `"x-api-key": optional string`
 
-### Returns
+## Returns
 
 - `id: string`
 
@@ -27,7 +33,9 @@ Get Compliance Group
 
 - `created_at: string or null`
 
-  Group creation timestamp (ISO 8601)
+  Group creation timestamp (RFC 3339)
+
+  format: date-time
 
 - `description: string`
 
@@ -47,21 +55,23 @@ Get Compliance Group
 
 - `updated_at: string or null`
 
-  Group last-updated timestamp (ISO 8601)
+  Group last-updated timestamp (RFC 3339)
 
-### Example
+  format: date-time
 
-```http
+## Example
+
+```bash
 curl https://api.anthropic.com/v1/compliance/groups/$GROUP_ID \
     -H "Authorization: Bearer $ANTHROPIC_COMPLIANCE_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {
   "id": "rbac_group_012rppKaSVsmTo6NqRDXQXNF",
-  "created_at": "2025-03-12T18:22:41.123456",
+  "created_at": "2025-03-12T18:22:41.123456Z",
   "description": "All members of the engineering organization",
   "name": "Engineering Team",
   "roles": [
@@ -69,6 +79,6 @@ curl https://api.anthropic.com/v1/compliance/groups/$GROUP_ID \
     "rbac_role_01HtCd4mFoAseWS3RnzKcwE7"
   ],
   "source_type": "scim",
-  "updated_at": "2025-03-14T09:05:17.456789"
+  "updated_at": "2025-03-14T09:05:17.456789Z"
 }
 ```

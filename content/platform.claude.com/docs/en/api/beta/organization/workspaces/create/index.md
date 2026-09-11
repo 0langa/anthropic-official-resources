@@ -3,13 +3,13 @@ title: Create Workspace
 url: https://platform.claude.com/docs/en/api/beta/organization/workspaces/create
 ---
 
-## Create Workspace
+# Create Workspace
 
-**post** `/v1/organizations/workspaces`
+**POST** `/v1/organizations/workspaces`
 
 Create Workspace
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -17,7 +17,7 @@ Create Workspace
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -65,6 +65,8 @@ Create Workspace
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -107,11 +109,13 @@ Create Workspace
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Body Parameters
+## Body parameters
 
 - `name: string`
 
   Name of the Workspace.
+
+  maxLength: 40, minLength: 1
 
 - `data_residency: optional BetaDataResidencyCreateConfig or null`
 
@@ -129,8 +133,6 @@ Create Workspace
 
     - `Unrestricted = "unrestricted"`
 
-      - `"unrestricted"`
-
   - `default_inference_geo: optional "global" or "us" or null`
 
     Default inference geo applied when requests omit the parameter. Defaults to 'global' if omitted. Must be a member of `allowed_inference_geos` unless `allowed_inference_geos` is `"unrestricted"`.
@@ -143,11 +145,11 @@ Create Workspace
 
     Geographic region for workspace data storage. Immutable after creation. Defaults to 'us' if omitted.
 
-    - `"us"`
-
 - `display_color: optional string or null`
 
   Hex color code representing the Workspace in the Anthropic Console.
+
+  maxLength: 7, pattern: ^#[0-9A-Fa-f]{6}$
 
 - `external_key_id: optional string or null`
 
@@ -167,9 +169,17 @@ Create Workspace
 
   User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
-### Returns
+## Returns
 
-- `BetaWorkspace object { id, archived_at, compartment_id, 7 more }`
+- `BetaWorkspace object`
+
+  - `type: "workspace"`
+
+    Object type.
+
+    For Workspaces, this is always `"workspace"`.
+
+    default: workspace
 
   - `id: string`
 
@@ -178,6 +188,8 @@ Create Workspace
   - `archived_at: string or null`
 
     RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
+
+    format: date-time
 
   - `compartment_id: string`
 
@@ -197,6 +209,8 @@ Create Workspace
 
     RFC 3339 datetime string indicating when the Workspace was created.
 
+    format: date-time
+
   - `data_residency: BetaDataResidency`
 
     Data residency configuration.
@@ -208,8 +222,6 @@ Create Workspace
       - `Geos = array of string`
 
       - `Unrestricted = "unrestricted"`
-
-        - `"unrestricted"`
 
     - `default_inference_geo: string`
 
@@ -245,17 +257,9 @@ Create Workspace
 
     User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
-  - `type: "workspace"`
+## Example
 
-    Object type.
-
-    For Workspaces, this is always `"workspace"`.
-
-    - `"workspace"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -271,7 +275,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces \
         }'
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

@@ -6,7 +6,7 @@ Lesson 6 of 14 Â· The AI-Native SDLC PlaybookSkills as institutional knowledgeî€
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fai-native-sdlc-playbook%2Fskills-as-institutional-knowledge)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-native-sdlc-playbook%2Fskills-as-institutional-knowledge)
 
 Skills are how an organization makes its institutional knowledge operational. The instructions are explicit, version controlled, applied broadly, and updated centrally when policy changes. The rule of thumb: write a skill for institutional knowledge that must be applied consistently; don't write a skill [for components that belong(opens in new tab)](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more) in `CLAUDE.md` or a prompt.
 

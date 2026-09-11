@@ -1,15 +1,15 @@
 ---
 title: List Workspaces
-url: https://platform.claude.com/docs/en/api/admin/workspaces/list
+url: https://platform.claude.com/docs/en/api/beta/organization/workspaces/list
 ---
 
-## List Workspaces
+# List Workspaces
 
-**get** `/v1/organizations/workspaces`
+**GET** `/v1/organizations/workspaces`
 
 List Workspaces
 
-### Query Parameters
+## Query parameters
 
 - `after_id: optional string`
 
@@ -23,15 +23,27 @@ List Workspaces
 
   Whether to include Workspaces that have been archived in the response
 
+  default: false
+
 - `limit: optional number`
 
   Number of items to return per page.
 
   Defaults to `20`. Ranges from `1` to `1000`.
 
-### Returns
+  default: 20, maximum: 1000, minimum: 1
 
-- `data: array of Workspace`
+## Returns
+
+- `data: array of BetaWorkspace`
+
+  - `type: "workspace"`
+
+    Object type.
+
+    For Workspaces, this is always `"workspace"`.
+
+    default: workspace
 
   - `id: string`
 
@@ -40,6 +52,8 @@ List Workspaces
   - `archived_at: string or null`
 
     RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
+
+    format: date-time
 
   - `compartment_id: string`
 
@@ -59,7 +73,9 @@ List Workspaces
 
     RFC 3339 datetime string indicating when the Workspace was created.
 
-  - `data_residency: object { allowed_inference_geos, default_inference_geo, workspace_geo }`
+    format: date-time
+
+  - `data_residency: BetaDataResidency`
 
     Data residency configuration.
 
@@ -67,11 +83,9 @@ List Workspaces
 
       Permitted inference geo values. 'unrestricted' means all geos are allowed.
 
-      - `array of string`
+      - `Geos = array of string`
 
-      - `"unrestricted"`
-
-        - `"unrestricted"`
+      - `Unrestricted = "unrestricted"`
 
     - `default_inference_geo: string`
 
@@ -107,14 +121,6 @@ List Workspaces
 
     User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
-  - `type: "workspace"`
-
-    Object type.
-
-    For Workspaces, this is always `"workspace"`.
-
-    - `"workspace"`
-
 - `first_id: string or null`
 
   First ID in the `data` list. Can be used as the `before_id` for the previous page.
@@ -127,15 +133,15 @@ List Workspaces
 
   Last ID in the `data` list. Can be used as the `after_id` for the next page.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

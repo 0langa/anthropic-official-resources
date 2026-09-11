@@ -1,3 +1,8 @@
+---
+title: Artifacts
+url: https://platform.claude.com/docs/en/api/beta/organization/analytics/artifacts
+---
+
 # Artifacts
 
 ## Get Artifact Activity
@@ -50,7 +55,7 @@ can be broken out per product, per member, or per RBAC group via
 
 ### Returns
 
-- `ArtifactUsage object`
+- `BetaArtifactUsage object`
 
   Response for GET /v1/organizations/analytics/artifacts.
 
@@ -106,7 +111,7 @@ can be broken out per product, per member, or per RBAC group via
 ```bash
 curl https://api.anthropic.com/v1/organizations/analytics/artifacts \
     -H 'anthropic-version: 2023-06-01' \
-    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 #### Response (200)
@@ -132,9 +137,9 @@ curl https://api.anthropic.com/v1/organizations/analytics/artifacts \
 
 ## Domain types
 
-### Artifact Usage
+### Beta Artifact Usage
 
-- `ArtifactUsage object`
+- `BetaArtifactUsage object`
 
   Response for GET /v1/organizations/analytics/artifacts.
 

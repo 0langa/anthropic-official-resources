@@ -1,3 +1,8 @@
+---
+title: Plugins
+url: https://platform.claude.com/docs/en/api/beta/organization/analytics/plugins
+---
+
 # Plugins
 
 ## Get Plugin Usage
@@ -80,7 +85,7 @@ range-rollup mode like `/skills`.
 
 ### Returns
 
-- `PluginUsage object`
+- `BetaPluginUsage object`
 
   Response for GET /v1/organizations/analytics/plugins.
 
@@ -147,7 +152,7 @@ range-rollup mode like `/skills`.
 ```bash
 curl https://api.anthropic.com/v1/organizations/analytics/plugins \
     -H 'anthropic-version: 2023-06-01' \
-    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 #### Response (200)
@@ -179,9 +184,9 @@ curl https://api.anthropic.com/v1/organizations/analytics/plugins \
 
 ## Domain types
 
-### Plugin Usage
+### Beta Plugin Usage
 
-- `PluginUsage object`
+- `BetaPluginUsage object`
 
   Response for GET /v1/organizations/analytics/plugins.
 

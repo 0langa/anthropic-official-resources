@@ -3,9 +3,9 @@ title: List Service Account Workspace Members
 url: https://platform.claude.com/docs/en/api/beta/organization/workspaces/service_accounts/list
 ---
 
-## List Service Account Workspace Members
+# List Service Account Workspace Members
 
-**get** `/v1/organizations/workspaces/{workspace_id}/service_accounts`
+**GET** `/v1/organizations/workspaces/{workspace_id}/service_accounts`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -18,23 +18,25 @@ archived workspace. The implicit default-workspace membership is not
 included in this list. Memberships of archived service accounts are
 omitted from the results.
 
-### Path Parameters
+## Path parameters
 
 - `workspace_id: string`
 
   ID of the workspace.
 
-### Query Parameters
+## Query parameters
 
 - `limit: optional number`
 
   Number of results per page.
 
+  default: 20, maximum: 100, minimum: 1
+
 - `page: optional string`
 
   Opaque cursor from a previous response's `next_page`.
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -42,7 +44,7 @@ omitted from the results.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -90,6 +92,8 @@ omitted from the results.
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -132,9 +136,13 @@ omitted from the results.
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+## Returns
 
 - `data: array of BetaServiceAccountWorkspaceMember`
+
+  - `type: "service_account_workspace_member"`
+
+    default: service_account_workspace_member
 
   - `created_by_actor_id: string or null`
 
@@ -147,10 +155,6 @@ omitted from the results.
   - `service_account_id: string`
 
     Tagged service account ID (`svac_...`).
-
-  - `type: "service_account_workspace_member"`
-
-    - `"service_account_workspace_member"`
 
   - `workspace_id: string`
 
@@ -174,15 +178,15 @@ omitted from the results.
 
   Opaque cursor for the next page, or null if no more results.
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

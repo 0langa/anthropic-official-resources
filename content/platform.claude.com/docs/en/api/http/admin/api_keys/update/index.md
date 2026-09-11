@@ -1,3 +1,8 @@
+---
+title: Update API Key
+url: https://platform.claude.com/docs/en/api/beta/organization/api_keys/update
+---
+
 # Update API Key
 
 **POST** `/v1/organizations/api_keys/{api_key_id}`
@@ -30,7 +35,15 @@ Update API Key
 
 ## Returns
 
-- `APIKey object`
+- `BetaAPIKey object`
+
+  - `type: "api_key"`
+
+    Object type.
+
+    For API Keys, this is always `"api_key"`.
+
+    default: api_key
 
   - `id: string`
 
@@ -42,15 +55,11 @@ Update API Key
 
     format: date-time
 
-  - `created_by: object or null`
+  - `created_by: BetaAPIKeyCreatedBy or null`
 
     The ID and type of the actor that created the API key, or `null` when the
     creator is not recorded (legacy, workload-identity-federated, or
     system-created keys).
-
-    - `id: string`
-
-      ID of the actor that created the object.
 
     - `type: "service_account" or "user"`
 
@@ -59,6 +68,10 @@ Update API Key
       - `"service_account"`
 
       - `"user"`
+
+    - `id: string`
+
+      ID of the actor that created the object.
 
   - `expires_at: string or null`
 
@@ -74,11 +87,11 @@ Update API Key
 
     Partially redacted hint for the API key.
 
-  - `principal: object or object or null`
+  - `principal: BetaAPIKeyUserActor or BetaAPIKeyServiceAccountActor or null`
 
     The principal the API key acts as (a User or a Service Account), or `null` if the API key is not bound to a principal.
 
-    - `UserActor object`
+    - `BetaAPIKeyUserActor object`
 
       - `type: "user_actor"`
 
@@ -90,11 +103,7 @@ Update API Key
 
         ID of the User the API key acts as.
 
-    - `ServiceAccountActor object`
-
-      - `service_account_id: string`
-
-        ID of the Service Account the API key acts as.
+    - `BetaAPIKeyServiceAccountActor object`
 
       - `type: "service_account_actor"`
 
@@ -102,11 +111,15 @@ Update API Key
 
         default: service_account_actor
 
-  - `scope: object or object`
+      - `service_account_id: string`
+
+        ID of the Service Account the API key acts as.
+
+  - `scope: BetaAPIKeyOrganizationScope or BetaAPIKeyWorkspaceScope`
 
     Where the API key belongs: its Workspace (`{"type": "workspace", "workspace_id": "wrkspc_..."}`, with the Workspace's real ID even when it is the organization's default Workspace), or the organization (`{"type": "organization"}`) for a principal-bound API key that has no Workspace.
 
-    - `Organization object`
+    - `BetaAPIKeyOrganizationScope object`
 
       - `type: "organization"`
 
@@ -114,7 +127,7 @@ Update API Key
 
         default: organization
 
-    - `Workspace object`
+    - `BetaAPIKeyWorkspaceScope object`
 
       - `type: "workspace"`
 
@@ -138,14 +151,6 @@ Update API Key
 
     - `"inactive"`
 
-  - `type: "api_key"`
-
-    Object type.
-
-    For API Keys, this is always `"api_key"`.
-
-    default: api_key
-
   - `workspace_id: string or null`
 
     **Deprecated**: Use `scope` instead. `workspace_id` is `null` both for an API key in the default Workspace and for a principal-bound API key that has no Workspace.
@@ -158,7 +163,7 @@ Update API Key
 curl https://api.anthropic.com/v1/organizations/api_keys/$API_KEY_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
     -d '{}'
 ```
 

@@ -6,7 +6,7 @@ Lesson 63 of 65 · Claude with Amazon BedrockComputer Use
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-amazon-bedrock%2Fcomputer-use)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fcomputer-use)
 
 Computer use is a powerful feature that lets Claude interact directly with desktop environments, essentially giving it the ability to control a computer like a human would. This opens up entirely new possibilities for automation, testing, and complex workflows that go beyond simple text generation.
 

@@ -4,7 +4,7 @@ Integrating and deploying Claude through Amazon Bedrock: API implementation, too
 
 65 lessons8 hr8 quizzesCompletion badge
 
-[Start course](https://academy.claude.com/courses/claude-with-amazon-bedrock/overview-of-claude-models)[Sign in to save progress](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-amazon-bedrock)
+[Start course](https://academy.claude.com/courses/claude-with-amazon-bedrock/overview-of-claude-models)[Sign in to save progress](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-h9uvcfp3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bq1s458m.png)
 

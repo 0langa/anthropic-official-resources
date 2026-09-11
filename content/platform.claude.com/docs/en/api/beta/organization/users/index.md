@@ -7,11 +7,11 @@ url: https://platform.claude.com/docs/en/api/beta/organization/users
 
 ## List Users
 
-**get** `/v1/organizations/users`
+**GET** `/v1/organizations/users`
 
 List the organization's members.
 
-### Query Parameters
+### Query parameters
 
 - `after_id: optional string`
 
@@ -25,11 +25,15 @@ List the organization's members.
 
   Filter by user email.
 
+  format: email
+
 - `limit: optional number`
 
   Number of items to return per page.
 
   Defaults to `20`. Ranges from `1` to `1000`.
+
+  default: 20, maximum: 1000, minimum: 1
 
 - `roles: optional array of string`
 
@@ -41,6 +45,14 @@ List the organization's members.
 
 - `data: array of BetaOrganizationUser`
 
+  - `type: "user"`
+
+    Object type.
+
+    For Users, this is always `"user"`.
+
+    default: user
+
   - `id: string`
 
     ID of the User.
@@ -48,6 +60,8 @@ List the organization's members.
   - `added_at: string`
 
     RFC 3339 datetime string indicating when the User joined the Organization.
+
+    format: date-time
 
   - `email: string`
 
@@ -79,14 +93,6 @@ List the organization's members.
 
     - `"user"`
 
-  - `type: "user"`
-
-    Object type.
-
-    For Users, this is always `"user"`.
-
-    - `"user"`
-
 - `first_id: string or null`
 
   First ID in the `data` list. Can be used as the `before_id` for the previous page.
@@ -101,13 +107,13 @@ List the organization's members.
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/users \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -129,11 +135,11 @@ curl https://api.anthropic.com/v1/organizations/users \
 
 ## Get User
 
-**get** `/v1/organizations/users/{user_id}`
+**GET** `/v1/organizations/users/{user_id}`
 
 Retrieve a member of the organization by user ID.
 
-### Path Parameters
+### Path parameters
 
 - `user_id: string`
 
@@ -141,7 +147,15 @@ Retrieve a member of the organization by user ID.
 
 ### Returns
 
-- `BetaOrganizationUser object { id, added_at, email, 3 more }`
+- `BetaOrganizationUser object`
+
+  - `type: "user"`
+
+    Object type.
+
+    For Users, this is always `"user"`.
+
+    default: user
 
   - `id: string`
 
@@ -150,6 +164,8 @@ Retrieve a member of the organization by user ID.
   - `added_at: string`
 
     RFC 3339 datetime string indicating when the User joined the Organization.
+
+    format: date-time
 
   - `email: string`
 
@@ -181,23 +197,15 @@ Retrieve a member of the organization by user ID.
 
     - `"user"`
 
-  - `type: "user"`
-
-    Object type.
-
-    For Users, this is always `"user"`.
-
-    - `"user"`
-
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/users/$USER_ID \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -212,17 +220,17 @@ curl https://api.anthropic.com/v1/organizations/users/$USER_ID \
 
 ## Update User
 
-**post** `/v1/organizations/users/{user_id}`
+**POST** `/v1/organizations/users/{user_id}`
 
 Update a member's organization role.
 
-### Path Parameters
+### Path parameters
 
 - `user_id: string`
 
   ID of the User.
 
-### Body Parameters
+### Body parameters
 
 - `role: "billing" or "claude_code_user" or "developer" or 2 more`
 
@@ -242,7 +250,15 @@ Update a member's organization role.
 
 ### Returns
 
-- `BetaOrganizationUser object { id, added_at, email, 3 more }`
+- `BetaOrganizationUser object`
+
+  - `type: "user"`
+
+    Object type.
+
+    For Users, this is always `"user"`.
+
+    default: user
 
   - `id: string`
 
@@ -251,6 +267,8 @@ Update a member's organization role.
   - `added_at: string`
 
     RFC 3339 datetime string indicating when the User joined the Organization.
+
+    format: date-time
 
   - `email: string`
 
@@ -282,17 +300,9 @@ Update a member's organization role.
 
     - `"user"`
 
-  - `type: "user"`
-
-    Object type.
-
-    For Users, this is always `"user"`.
-
-    - `"user"`
-
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/users/$USER_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
@@ -302,7 +312,7 @@ curl https://api.anthropic.com/v1/organizations/users/$USER_ID \
         }'
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -317,11 +327,11 @@ curl https://api.anthropic.com/v1/organizations/users/$USER_ID \
 
 ## Remove User
 
-**delete** `/v1/organizations/users/{user_id}`
+**DELETE** `/v1/organizations/users/{user_id}`
 
 Remove a member from the organization.
 
-### Path Parameters
+### Path parameters
 
 - `user_id: string`
 
@@ -329,28 +339,28 @@ Remove a member from the organization.
 
 ### Returns
 
-- `id: string`
-
-  ID of the User.
-
 - `type: "user_deleted"`
 
   Deleted object type.
 
   For Users, this is always `"user_deleted"`.
 
-  - `"user_deleted"`
+  default: user_deleted
+
+- `id: string`
+
+  ID of the User.
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/users/$USER_ID \
     -X DELETE \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -359,11 +369,19 @@ curl https://api.anthropic.com/v1/organizations/users/$USER_ID \
 }
 ```
 
-## Domain Types
+## Domain types
 
 ### Beta Organization User
 
-- `BetaOrganizationUser object { id, added_at, email, 3 more }`
+- `BetaOrganizationUser object`
+
+  - `type: "user"`
+
+    Object type.
+
+    For Users, this is always `"user"`.
+
+    default: user
 
   - `id: string`
 
@@ -372,6 +390,8 @@ curl https://api.anthropic.com/v1/organizations/users/$USER_ID \
   - `added_at: string`
 
     RFC 3339 datetime string indicating when the User joined the Organization.
+
+    format: date-time
 
   - `email: string`
 
@@ -403,21 +423,9 @@ curl https://api.anthropic.com/v1/organizations/users/$USER_ID \
 
     - `"user"`
 
-  - `type: "user"`
-
-    Object type.
-
-    For Users, this is always `"user"`.
-
-    - `"user"`
-
 ### User Remove Response
 
-- `UserRemoveResponse object { id, type }`
-
-  - `id: string`
-
-    ID of the User.
+- `UserRemoveResponse object`
 
   - `type: "user_deleted"`
 
@@ -425,4 +433,8 @@ curl https://api.anthropic.com/v1/organizations/users/$USER_ID \
 
     For Users, this is always `"user_deleted"`.
 
-    - `"user_deleted"`
+    default: user_deleted
+
+  - `id: string`
+
+    ID of the User.

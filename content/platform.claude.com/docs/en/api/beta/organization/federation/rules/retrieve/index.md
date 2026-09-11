@@ -3,21 +3,21 @@ title: Get Federation Rule
 url: https://platform.claude.com/docs/en/api/beta/organization/federation/rules/retrieve
 ---
 
-## Get Federation Rule
+# Get Federation Rule
 
-**get** `/v1/organizations/federation_rules/{federation_rule_id}`
+**GET** `/v1/organizations/federation_rules/{federation_rule_id}`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
 Retrieve a federation rule by its ID (`fdrl_...`).
 
-### Path Parameters
+## Path parameters
 
 - `federation_rule_id: string`
 
   ID of the federation rule.
 
-### Header Parameters
+## Headers
 
 - `"anthropic-beta": optional array of AnthropicBeta`
 
@@ -25,7 +25,7 @@ Retrieve a federation rule by its ID (`fdrl_...`).
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 41 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -73,6 +73,8 @@ Retrieve a federation rule by its ID (`fdrl_...`).
 
     - `"user-profiles-2026-08-18"`
 
+    - `"user-profiles-2026-09-04"`
+
     - `"advisor-tool-2026-03-01"`
 
     - `"managed-agents-2026-04-01"`
@@ -115,9 +117,9 @@ Retrieve a federation rule by its ID (`fdrl_...`).
 
     - `"mid-conversation-system-clear-at-2026-08-21"`
 
-### Returns
+## Returns
 
-- `BetaFederationRule object { id, applies_to_all_workspaces, archived_at, 17 more }`
+- `BetaFederationRule object`
 
   Authorization rule binding an external OIDC identity to Anthropic.
 
@@ -129,6 +131,10 @@ Retrieve a federation rule by its ID (`fdrl_...`).
   of that workspace (it is implicitly a member of the default workspace);
   rules carrying only the legacy `workspace_id` binding do not enforce
   this.
+
+  - `type: "federation_rule"`
+
+    default: federation_rule
 
   - `id: string`
 
@@ -142,6 +148,8 @@ Retrieve a federation rule by its ID (`fdrl_...`).
 
     If set, this rule is archived and rejects token exchange.
 
+    format: date-time
+
   - `archived_by_actor_id: string or null`
 
     Tagged ID (`user_`/`svac_`) of the actor that archived this rule.
@@ -153,6 +161,8 @@ Retrieve a federation rule by its ID (`fdrl_...`).
   - `created_at: string`
 
     When this rule was created.
+
+    format: date-time
 
   - `created_by_actor_id: string or null`
 
@@ -178,6 +188,8 @@ Retrieve a federation rule by its ID (`fdrl_...`).
 
       Exact match against the `aud` claim (any element if array). When omitted, the JWT's `aud` must still equal Anthropic's expected audience for the issuer; setting this field overrides that default.
 
+      maxLength: 1024
+
     - `claims: optional map[string] or null`
 
       Exact-match `{claim: value}` pairs against top-level claims. Only string-valued claims can be matched; use `condition` for non-string claims.
@@ -186,9 +198,13 @@ Retrieve a federation rule by its ID (`fdrl_...`).
 
       CEL expression over claims for logic the structural fields can't express. Must evaluate to a boolean and may reference only the `claims` variable; a constant-true expression (such as `true`) is rejected with 400.
 
+      maxLength: 4096
+
     - `subject_prefix: optional string or null`
 
       Match the verified JWT `sub` claim. Exact match unless the value ends with `*`, in which case it is a prefix match. Example: `repo:my-org/my-repo:ref:refs/heads/main`.
+
+      maxLength: 1024
 
   - `name: string`
 
@@ -202,13 +218,11 @@ Retrieve a federation rule by its ID (`fdrl_...`).
 
     Identity that tokens minted via this rule act as. Currently always a `service_account` target.
 
+    - `type: "service_account"`
+
     - `service_account_id: string`
 
       Tagged ID of the service account to mint tokens for.
-
-    - `type: "service_account"`
-
-      - `"service_account"`
 
     - `service_account_name: optional string or null`
 
@@ -218,13 +232,11 @@ Retrieve a federation rule by its ID (`fdrl_...`).
 
     Lifetime in seconds of access tokens minted via this rule. Minted tokens are capped at `max(60, min(this value, 2 × remaining assertion validity))` seconds.
 
-  - `type: "federation_rule"`
-
-    - `"federation_rule"`
-
   - `updated_at: string`
 
     When this rule was last updated.
+
+    format: date-time
 
   - `updated_by_actor_id: string or null`
 
@@ -238,15 +250,15 @@ Retrieve a federation rule by its ID (`fdrl_...`).
 
     Tagged IDs of the workspaces this rule is enabled for. May be empty for older rules that only carry the legacy `workspace_id` binding. Ignored at exchange time when `applies_to_all_workspaces` is true (the list may still be non-empty).
 
-### Example
+## Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/federation_rules/$FEDERATION_RULE_ID \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

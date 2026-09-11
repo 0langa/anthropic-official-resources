@@ -3,13 +3,13 @@ title: Get Skill Version
 url: https://platform.claude.com/docs/en/api/skills/versions/retrieve
 ---
 
-## Get Skill Version
+# Get Skill Version
 
-**get** `/v1/skills/{skill_id}/versions/{version}`
+**GET** `/v1/skills/{skill_id}/versions/{version}`
 
 Get Skill Version
 
-### Path Parameters
+## Path parameters
 
 - `skill_id: string`
 
@@ -23,9 +23,21 @@ Get Skill Version
 
   Requests carrying the `skills-2025-10-02` beta header address versions by their Unix epoch timestamp instead (e.g., "1759178010641129").
 
-### Returns
+## Headers
 
-- `SkillVersion object { id, created_at, description, 3 more }`
+- `"anthropic-workspace-id": optional string`
+
+## Returns
+
+- `SkillVersion object`
+
+  - `type: "skill_version"`
+
+    Object type.
+
+    For Skill Versions, this is always `"skill_version"`.
+
+    default: skill_version
 
   - `id: string`
 
@@ -35,6 +47,8 @@ Get Skill Version
   - `created_at: string`
 
     ISO 8601 timestamp of when the skill was created.
+
+    format: date-time
 
   - `description: string`
 
@@ -55,23 +69,15 @@ Get Skill Version
 
     The format and length of IDs may change over time.
 
-  - `type: "skill_version"`
+## Example
 
-    Object type.
-
-    For Skill Versions, this is always `"skill_version"`.
-
-    - `"skill_version"`
-
-### Example
-
-```http
+```bash
 curl https://api.anthropic.com/v1/skills/$SKILL_ID/versions/$VERSION \
     -H 'anthropic-version: 2023-06-01' \
     -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+### Response (200)
 
 ```json
 {

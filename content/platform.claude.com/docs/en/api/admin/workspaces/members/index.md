@@ -1,180 +1,23 @@
 ---
 title: Members
-url: https://platform.claude.com/docs/en/api/admin/workspaces/members
+url: https://platform.claude.com/docs/en/api/beta/organization/workspaces/members
 ---
 
 # Members
 
-## Create Workspace Member
-
-**post** `/v1/organizations/workspaces/{workspace_id}/members`
-
-Create Workspace Member
-
-### Path Parameters
-
-- `workspace_id: string`
-
-  ID of the Workspace.
-
-### Body Parameters
-
-- `user_id: string`
-
-  ID of the User.
-
-- `workspace_role: "workspace_admin" or "workspace_developer" or "workspace_restricted_developer" or "workspace_user"`
-
-  Role of the new Workspace Member. Cannot be `workspace_billing`.
-
-  - `"workspace_admin"`
-
-  - `"workspace_developer"`
-
-  - `"workspace_restricted_developer"`
-
-  - `"workspace_user"`
-
-### Returns
-
-- `WorkspaceMember object { type, user_id, workspace_id, workspace_role }`
-
-  - `type: "workspace_member"`
-
-    Object type.
-
-    For Workspace Members, this is always `"workspace_member"`.
-
-    - `"workspace_member"`
-
-  - `user_id: string`
-
-    ID of the User.
-
-  - `workspace_id: string`
-
-    ID of the Workspace.
-
-  - `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
-
-    Role of the Workspace Member.
-
-    - `"workspace_admin"`
-
-    - `"workspace_billing"`
-
-    - `"workspace_developer"`
-
-    - `"workspace_restricted_developer"`
-
-    - `"workspace_user"`
-
-### Example
-
-```http
-curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members \
-    -H 'Content-Type: application/json' \
-    -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
-    -d '{
-          "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
-          "workspace_role": "workspace_admin"
-        }'
-```
-
-#### Response
-
-```json
-{
-  "type": "workspace_member",
-  "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
-  "workspace_id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
-  "workspace_role": "workspace_user"
-}
-```
-
-## Get Workspace Member
-
-**get** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
-
-Get Workspace Member
-
-### Path Parameters
-
-- `workspace_id: string`
-
-  ID of the Workspace.
-
-- `user_id: string`
-
-  ID of the User.
-
-### Returns
-
-- `WorkspaceMember object { type, user_id, workspace_id, workspace_role }`
-
-  - `type: "workspace_member"`
-
-    Object type.
-
-    For Workspace Members, this is always `"workspace_member"`.
-
-    - `"workspace_member"`
-
-  - `user_id: string`
-
-    ID of the User.
-
-  - `workspace_id: string`
-
-    ID of the Workspace.
-
-  - `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
-
-    Role of the Workspace Member.
-
-    - `"workspace_admin"`
-
-    - `"workspace_billing"`
-
-    - `"workspace_developer"`
-
-    - `"workspace_restricted_developer"`
-
-    - `"workspace_user"`
-
-### Example
-
-```http
-curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
-    -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
-```
-
-#### Response
-
-```json
-{
-  "type": "workspace_member",
-  "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
-  "workspace_id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
-  "workspace_role": "workspace_user"
-}
-```
-
 ## List Workspace Members
 
-**get** `/v1/organizations/workspaces/{workspace_id}/members`
+**GET** `/v1/organizations/workspaces/{workspace_id}/members`
 
 List Workspace Members
 
-### Path Parameters
+### Path parameters
 
 - `workspace_id: string`
 
   ID of the Workspace.
 
-### Query Parameters
+### Query parameters
 
 - `after_id: optional string`
 
@@ -190,9 +33,11 @@ List Workspace Members
 
   Defaults to `20`. Ranges from `1` to `1000`.
 
+  default: 20, maximum: 1000, minimum: 1
+
 ### Returns
 
-- `data: array of WorkspaceMember`
+- `data: array of BetaWorkspaceMember`
 
   - `type: "workspace_member"`
 
@@ -200,7 +45,7 @@ List Workspace Members
 
     For Workspace Members, this is always `"workspace_member"`.
 
-    - `"workspace_member"`
+    default: workspace_member
 
   - `user_id: string`
 
@@ -210,7 +55,7 @@ List Workspace Members
 
     ID of the Workspace.
 
-  - `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
+  - `workspace_role: BetaWorkspaceRole`
 
     Role of the Workspace Member.
 
@@ -238,13 +83,13 @@ List Workspace Members
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -253,7 +98,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members
       "type": "workspace_member",
       "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
       "workspace_id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
-      "workspace_role": "workspace_user"
+      "workspace_role": "workspace_admin"
     }
   ],
   "first_id": "first_id",
@@ -262,31 +107,29 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members
 }
 ```
 
-## Update Workspace Member
+## Create Workspace Member
 
-**post** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
+**POST** `/v1/organizations/workspaces/{workspace_id}/members`
 
-Update Workspace Member
+Create Workspace Member
 
-### Path Parameters
+### Path parameters
 
 - `workspace_id: string`
 
   ID of the Workspace.
 
+### Body parameters
+
 - `user_id: string`
 
   ID of the User.
 
-### Body Parameters
+- `workspace_role: BetaNoBillingWorkspaceRole`
 
-- `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
-
-  New workspace role for the User.
+  Role of the new Workspace Member. Cannot be `workspace_billing`.
 
   - `"workspace_admin"`
-
-  - `"workspace_billing"`
 
   - `"workspace_developer"`
 
@@ -296,7 +139,7 @@ Update Workspace Member
 
 ### Returns
 
-- `WorkspaceMember object { type, user_id, workspace_id, workspace_role }`
+- `BetaWorkspaceMember object`
 
   - `type: "workspace_member"`
 
@@ -304,7 +147,7 @@ Update Workspace Member
 
     For Workspace Members, this is always `"workspace_member"`.
 
-    - `"workspace_member"`
+    default: workspace_member
 
   - `user_id: string`
 
@@ -314,7 +157,7 @@ Update Workspace Member
 
     ID of the Workspace.
 
-  - `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
+  - `workspace_role: BetaWorkspaceRole`
 
     Role of the Workspace Member.
 
@@ -330,34 +173,193 @@ Update Workspace Member
 
 ### Example
 
-```http
-curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
+```bash
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
     -d '{
+          "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
           "workspace_role": "workspace_admin"
         }'
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
   "type": "workspace_member",
   "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
   "workspace_id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
-  "workspace_role": "workspace_user"
+  "workspace_role": "workspace_admin"
+}
+```
+
+## Get Workspace Member
+
+**GET** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
+
+Get Workspace Member
+
+### Path parameters
+
+- `workspace_id: string`
+
+  ID of the Workspace.
+
+- `user_id: string`
+
+  ID of the User.
+
+### Returns
+
+- `BetaWorkspaceMember object`
+
+  - `type: "workspace_member"`
+
+    Object type.
+
+    For Workspace Members, this is always `"workspace_member"`.
+
+    default: workspace_member
+
+  - `user_id: string`
+
+    ID of the User.
+
+  - `workspace_id: string`
+
+    ID of the Workspace.
+
+  - `workspace_role: BetaWorkspaceRole`
+
+    Role of the Workspace Member.
+
+    - `"workspace_admin"`
+
+    - `"workspace_billing"`
+
+    - `"workspace_developer"`
+
+    - `"workspace_restricted_developer"`
+
+    - `"workspace_user"`
+
+### Example
+
+```bash
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
+```
+
+#### Response (200)
+
+```json
+{
+  "type": "workspace_member",
+  "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
+  "workspace_id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
+  "workspace_role": "workspace_admin"
+}
+```
+
+## Update Workspace Member
+
+**POST** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
+
+Update Workspace Member
+
+### Path parameters
+
+- `workspace_id: string`
+
+  ID of the Workspace.
+
+- `user_id: string`
+
+  ID of the User.
+
+### Body parameters
+
+- `workspace_role: BetaWorkspaceRole`
+
+  New workspace role for the User.
+
+  - `"workspace_admin"`
+
+  - `"workspace_billing"`
+
+  - `"workspace_developer"`
+
+  - `"workspace_restricted_developer"`
+
+  - `"workspace_user"`
+
+### Returns
+
+- `BetaWorkspaceMember object`
+
+  - `type: "workspace_member"`
+
+    Object type.
+
+    For Workspace Members, this is always `"workspace_member"`.
+
+    default: workspace_member
+
+  - `user_id: string`
+
+    ID of the User.
+
+  - `workspace_id: string`
+
+    ID of the Workspace.
+
+  - `workspace_role: BetaWorkspaceRole`
+
+    Role of the Workspace Member.
+
+    - `"workspace_admin"`
+
+    - `"workspace_billing"`
+
+    - `"workspace_developer"`
+
+    - `"workspace_restricted_developer"`
+
+    - `"workspace_user"`
+
+### Example
+
+```bash
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
+    -H 'Content-Type: application/json' \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
+    -d '{
+          "workspace_role": "workspace_admin"
+        }'
+```
+
+#### Response (200)
+
+```json
+{
+  "type": "workspace_member",
+  "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
+  "workspace_id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
+  "workspace_role": "workspace_admin"
 }
 ```
 
 ## Delete Workspace Member
 
-**delete** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
+**DELETE** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
 
 Delete Workspace Member
 
-### Path Parameters
+### Path parameters
 
 - `workspace_id: string`
 
@@ -375,7 +377,7 @@ Delete Workspace Member
 
   For Workspace Members, this is always `"workspace_member_deleted"`.
 
-  - `"workspace_member_deleted"`
+  default: workspace_member_deleted
 
 - `user_id: string`
 
@@ -387,14 +389,14 @@ Delete Workspace Member
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
     -X DELETE \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -404,45 +406,11 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members
 }
 ```
 
-## Domain Types
+## Domain types
 
-### Workspace Member
+### Member Remove Response
 
-- `WorkspaceMember object { type, user_id, workspace_id, workspace_role }`
-
-  - `type: "workspace_member"`
-
-    Object type.
-
-    For Workspace Members, this is always `"workspace_member"`.
-
-    - `"workspace_member"`
-
-  - `user_id: string`
-
-    ID of the User.
-
-  - `workspace_id: string`
-
-    ID of the Workspace.
-
-  - `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
-
-    Role of the Workspace Member.
-
-    - `"workspace_admin"`
-
-    - `"workspace_billing"`
-
-    - `"workspace_developer"`
-
-    - `"workspace_restricted_developer"`
-
-    - `"workspace_user"`
-
-### Member Delete Response
-
-- `MemberDeleteResponse object { type, user_id, workspace_id }`
+- `MemberRemoveResponse object`
 
   - `type: "workspace_member_deleted"`
 
@@ -450,7 +418,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members
 
     For Workspace Members, this is always `"workspace_member_deleted"`.
 
-    - `"workspace_member_deleted"`
+    default: workspace_member_deleted
 
   - `user_id: string`
 

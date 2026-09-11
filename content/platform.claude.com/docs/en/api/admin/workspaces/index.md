@@ -1,349 +1,17 @@
 ---
 title: Workspaces
-url: https://platform.claude.com/docs/en/api/admin/workspaces
+url: https://platform.claude.com/docs/en/api/beta/organization/workspaces
 ---
 
 # Workspaces
 
-## Create Workspace
-
-**post** `/v1/organizations/workspaces`
-
-Create Workspace
-
-### Header Parameters
-
-- `"anthropic-beta": optional array of string`
-
-  Optional header to specify the beta version(s) you want to use.
-
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
-
-### Body Parameters
-
-- `name: string`
-
-  Name of the Workspace.
-
-- `data_residency: optional object { allowed_inference_geos, default_inference_geo, workspace_geo }  or null`
-
-  Data residency configuration for the workspace. If omitted, defaults to `workspace_geo: "us"`, `allowed_inference_geos: "unrestricted"`, and `default_inference_geo: "global"`.
-
-  - `allowed_inference_geos: optional array of "global" or "us" or "unrestricted" or null`
-
-    Permitted inference geo values. Defaults to 'unrestricted' if omitted, which allows all geos. Use the string 'unrestricted' to allow all geos, or a list of specific geos.
-
-    - `array of "global" or "us"`
-
-      - `"global"`
-
-      - `"us"`
-
-    - `"unrestricted"`
-
-      - `"unrestricted"`
-
-  - `default_inference_geo: optional "global" or "us" or null`
-
-    Default inference geo applied when requests omit the parameter. Defaults to 'global' if omitted. Must be a member of `allowed_inference_geos` unless `allowed_inference_geos` is `"unrestricted"`.
-
-    - `"global"`
-
-    - `"us"`
-
-  - `workspace_geo: optional "us" or null`
-
-    Geographic region for workspace data storage. Immutable after creation. Defaults to 'us' if omitted.
-
-    - `"us"`
-
-- `display_color: optional string or null`
-
-  Hex color code representing the Workspace in the Anthropic Console.
-
-- `external_key_id: optional string or null`
-
-  ID of the customer-managed encryption key (CMEK) configuration to use for this
-  Workspace. Setting this field requires CMEK to be enabled for your
-  organization. When set, data stored for this Workspace is encrypted with the
-  referenced key. Create key configurations with the External Keys API. On
-  Claude Platform on AWS the value is the AWS KMS key ARN, and the key must be a
-  single-Region key in the same AWS account and Region as the Workspace. On that
-  platform the key is validated against this Workspace when it is attached, so a
-  key-policy problem is reported as an error on this request. This field is write-once:
-  once a key is attached to a Workspace it cannot be detached or replaced. To
-  rotate key material, rotate the underlying key on your cloud KMS; the
-  `external_key_id` stays the same.
-
-- `tags: optional map[string] or null`
-
-  User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
-
-### Returns
-
-- `Workspace object { id, archived_at, compartment_id, 7 more }`
-
-  - `id: string`
-
-    ID of the Workspace.
-
-  - `archived_at: string or null`
-
-    RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
-
-  - `compartment_id: string`
-
-    Identifier for this Workspace's encryption compartment. When you configure a
-    customer-managed encryption key (CMEK) on AWS, reference this value in your
-    KMS key-policy condition so the key is scoped to this compartment. On GCP and
-    Azure, Anthropic enforces the compartment binding automatically; you do not
-    need to reference this value in your key configuration. See the CMEK
-    integration guide for the required key configuration; unless your organization
-    is on Claude Platform on AWS, it includes a separate value used during key
-    validation. On Claude Platform on AWS there is no separate validation value:
-    the key is validated against this Workspace's own value when it is attached, so
-    if your key policy uses the compartment condition, add this value to it before
-    attaching the key.
-
-  - `created_at: string`
-
-    RFC 3339 datetime string indicating when the Workspace was created.
-
-  - `data_residency: object { allowed_inference_geos, default_inference_geo, workspace_geo }`
-
-    Data residency configuration.
-
-    - `allowed_inference_geos: array of string or "unrestricted"`
-
-      Permitted inference geo values. 'unrestricted' means all geos are allowed.
-
-      - `array of string`
-
-      - `"unrestricted"`
-
-        - `"unrestricted"`
-
-    - `default_inference_geo: string`
-
-      Default inference geo applied when requests omit the parameter.
-
-    - `workspace_geo: string`
-
-      Geographic region for workspace data storage. Immutable after creation.
-
-  - `display_color: string`
-
-    Hex color code representing the Workspace in the Anthropic Console.
-
-  - `external_key_id: string or null`
-
-    ID of the customer-managed encryption key (CMEK) configuration to use for this
-    Workspace. Setting this field requires CMEK to be enabled for your
-    organization. When set, data stored for this Workspace is encrypted with the
-    referenced key. Create key configurations with the External Keys API. On
-    Claude Platform on AWS the value is the AWS KMS key ARN, and the key must be a
-    single-Region key in the same AWS account and Region as the Workspace. On that
-    platform the key is validated against this Workspace when it is attached, so a
-    key-policy problem is reported as an error on this request. This field is write-once:
-    once a key is attached to a Workspace it cannot be detached or replaced. To
-    rotate key material, rotate the underlying key on your cloud KMS; the
-    `external_key_id` stays the same.
-
-  - `name: string`
-
-    Name of the Workspace.
-
-  - `tags: map[string]`
-
-    User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
-
-  - `type: "workspace"`
-
-    Object type.
-
-    For Workspaces, this is always `"workspace"`.
-
-    - `"workspace"`
-
-### Example
-
-```http
-curl https://api.anthropic.com/v1/organizations/workspaces \
-    -H 'Content-Type: application/json' \
-    -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
-    -d '{
-          "name": "x",
-          "display_color": "#6C5BB9",
-          "external_key_id": "ekey_01SDCCSbTxrXDpWc1phhtcfK",
-          "tags": {
-            "env": "prod",
-            "team": "platform"
-          }
-        }'
-```
-
-#### Response
-
-```json
-{
-  "id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
-  "archived_at": "2024-11-01T23:59:27.427722Z",
-  "compartment_id": "f8a7b6c5-4d3e-4f1a-8b9c-0d1e2f3a4b5c",
-  "created_at": "2024-10-30T23:58:27.427722Z",
-  "data_residency": {
-    "allowed_inference_geos": "unrestricted",
-    "default_inference_geo": "default_inference_geo",
-    "workspace_geo": "workspace_geo"
-  },
-  "display_color": "#6C5BB9",
-  "external_key_id": "ekey_01SDCCSbTxrXDpWc1phhtcfK",
-  "name": "Workspace Name",
-  "tags": {
-    "env": "prod",
-    "team": "platform"
-  },
-  "type": "workspace"
-}
-```
-
-## Get Workspace
-
-**get** `/v1/organizations/workspaces/{workspace_id}`
-
-Get Workspace
-
-### Path Parameters
-
-- `workspace_id: string`
-
-  ID of the Workspace.
-
-### Returns
-
-- `Workspace object { id, archived_at, compartment_id, 7 more }`
-
-  - `id: string`
-
-    ID of the Workspace.
-
-  - `archived_at: string or null`
-
-    RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
-
-  - `compartment_id: string`
-
-    Identifier for this Workspace's encryption compartment. When you configure a
-    customer-managed encryption key (CMEK) on AWS, reference this value in your
-    KMS key-policy condition so the key is scoped to this compartment. On GCP and
-    Azure, Anthropic enforces the compartment binding automatically; you do not
-    need to reference this value in your key configuration. See the CMEK
-    integration guide for the required key configuration; unless your organization
-    is on Claude Platform on AWS, it includes a separate value used during key
-    validation. On Claude Platform on AWS there is no separate validation value:
-    the key is validated against this Workspace's own value when it is attached, so
-    if your key policy uses the compartment condition, add this value to it before
-    attaching the key.
-
-  - `created_at: string`
-
-    RFC 3339 datetime string indicating when the Workspace was created.
-
-  - `data_residency: object { allowed_inference_geos, default_inference_geo, workspace_geo }`
-
-    Data residency configuration.
-
-    - `allowed_inference_geos: array of string or "unrestricted"`
-
-      Permitted inference geo values. 'unrestricted' means all geos are allowed.
-
-      - `array of string`
-
-      - `"unrestricted"`
-
-        - `"unrestricted"`
-
-    - `default_inference_geo: string`
-
-      Default inference geo applied when requests omit the parameter.
-
-    - `workspace_geo: string`
-
-      Geographic region for workspace data storage. Immutable after creation.
-
-  - `display_color: string`
-
-    Hex color code representing the Workspace in the Anthropic Console.
-
-  - `external_key_id: string or null`
-
-    ID of the customer-managed encryption key (CMEK) configuration to use for this
-    Workspace. Setting this field requires CMEK to be enabled for your
-    organization. When set, data stored for this Workspace is encrypted with the
-    referenced key. Create key configurations with the External Keys API. On
-    Claude Platform on AWS the value is the AWS KMS key ARN, and the key must be a
-    single-Region key in the same AWS account and Region as the Workspace. On that
-    platform the key is validated against this Workspace when it is attached, so a
-    key-policy problem is reported as an error on this request. This field is write-once:
-    once a key is attached to a Workspace it cannot be detached or replaced. To
-    rotate key material, rotate the underlying key on your cloud KMS; the
-    `external_key_id` stays the same.
-
-  - `name: string`
-
-    Name of the Workspace.
-
-  - `tags: map[string]`
-
-    User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
-
-  - `type: "workspace"`
-
-    Object type.
-
-    For Workspaces, this is always `"workspace"`.
-
-    - `"workspace"`
-
-### Example
-
-```http
-curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
-    -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
-```
-
-#### Response
-
-```json
-{
-  "id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
-  "archived_at": "2024-11-01T23:59:27.427722Z",
-  "compartment_id": "f8a7b6c5-4d3e-4f1a-8b9c-0d1e2f3a4b5c",
-  "created_at": "2024-10-30T23:58:27.427722Z",
-  "data_residency": {
-    "allowed_inference_geos": "unrestricted",
-    "default_inference_geo": "default_inference_geo",
-    "workspace_geo": "workspace_geo"
-  },
-  "display_color": "#6C5BB9",
-  "external_key_id": "ekey_01SDCCSbTxrXDpWc1phhtcfK",
-  "name": "Workspace Name",
-  "tags": {
-    "env": "prod",
-    "team": "platform"
-  },
-  "type": "workspace"
-}
-```
-
 ## List Workspaces
 
-**get** `/v1/organizations/workspaces`
+**GET** `/v1/organizations/workspaces`
 
 List Workspaces
 
-### Query Parameters
+### Query parameters
 
 - `after_id: optional string`
 
@@ -357,15 +25,27 @@ List Workspaces
 
   Whether to include Workspaces that have been archived in the response
 
+  default: false
+
 - `limit: optional number`
 
   Number of items to return per page.
 
   Defaults to `20`. Ranges from `1` to `1000`.
 
+  default: 20, maximum: 1000, minimum: 1
+
 ### Returns
 
-- `data: array of Workspace`
+- `data: array of BetaWorkspace`
+
+  - `type: "workspace"`
+
+    Object type.
+
+    For Workspaces, this is always `"workspace"`.
+
+    default: workspace
 
   - `id: string`
 
@@ -374,6 +54,8 @@ List Workspaces
   - `archived_at: string or null`
 
     RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
+
+    format: date-time
 
   - `compartment_id: string`
 
@@ -393,7 +75,9 @@ List Workspaces
 
     RFC 3339 datetime string indicating when the Workspace was created.
 
-  - `data_residency: object { allowed_inference_geos, default_inference_geo, workspace_geo }`
+    format: date-time
+
+  - `data_residency: BetaDataResidency`
 
     Data residency configuration.
 
@@ -401,11 +85,9 @@ List Workspaces
 
       Permitted inference geo values. 'unrestricted' means all geos are allowed.
 
-      - `array of string`
+      - `Geos = array of string`
 
-      - `"unrestricted"`
-
-        - `"unrestricted"`
+      - `Unrestricted = "unrestricted"`
 
     - `default_inference_geo: string`
 
@@ -440,14 +122,6 @@ List Workspaces
   - `tags: map[string]`
 
     User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
-
-  - `type: "workspace"`
-
-    Object type.
-
-    For Workspaces, this is always `"workspace"`.
-
-    - `"workspace"`
 
 - `first_id: string or null`
 
@@ -463,13 +137,13 @@ List Workspaces
 
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -500,49 +174,155 @@ curl https://api.anthropic.com/v1/organizations/workspaces \
 }
 ```
 
-## Update Workspace
+## Create Workspace
 
-**post** `/v1/organizations/workspaces/{workspace_id}`
+**POST** `/v1/organizations/workspaces`
 
-Update Workspace
+Create Workspace
 
-### Path Parameters
+### Headers
 
-- `workspace_id: string`
+- `"anthropic-beta": optional array of AnthropicBeta`
 
-### Body Parameters
+  Optional header to specify the beta version(s) you want to use.
 
-- `data_residency: optional object { allowed_inference_geos, default_inference_geo }  or null`
+  - `string`
 
-  Data residency configuration for the workspace.
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
-  - `allowed_inference_geos: optional array of "global" or "us" or "unrestricted" or null`
+    - `"message-batches-2024-09-24"`
 
-    Permitted inference geo values. Use 'unrestricted' to allow all geos, or a list of specific geos.
+    - `"prompt-caching-2024-07-31"`
 
-    - `array of "global" or "us"`
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
+
+### Body parameters
+
+- `name: string`
+
+  Name of the Workspace.
+
+  maxLength: 40, minLength: 1
+
+- `data_residency: optional BetaDataResidencyCreateConfig or null`
+
+  Data residency configuration for the workspace. If omitted, defaults to `workspace_geo: "us"`, `allowed_inference_geos: "unrestricted"`, and `default_inference_geo: "global"`.
+
+  - `allowed_inference_geos: optional array of BetaAllowedInferenceGeo or "unrestricted" or null`
+
+    Permitted inference geo values. Defaults to 'unrestricted' if omitted, which allows all geos. Use the string 'unrestricted' to allow all geos, or a list of specific geos.
+
+    - `Geos = array of BetaAllowedInferenceGeo`
 
       - `"global"`
 
       - `"us"`
 
-    - `"unrestricted"`
-
-      - `"unrestricted"`
+    - `Unrestricted = "unrestricted"`
 
   - `default_inference_geo: optional "global" or "us" or null`
 
-    Default inference geo applied when requests omit the parameter. Must be a member of `allowed_inference_geos` unless `allowed_inference_geos` is `"unrestricted"`.
+    Default inference geo applied when requests omit the parameter. Defaults to 'global' if omitted. Must be a member of `allowed_inference_geos` unless `allowed_inference_geos` is `"unrestricted"`.
 
     - `"global"`
 
     - `"us"`
 
-- `display_color: optional string`
+  - `workspace_geo: optional "us" or null`
+
+    Geographic region for workspace data storage. Immutable after creation. Defaults to 'us' if omitted.
+
+- `display_color: optional string or null`
 
   Hex color code representing the Workspace in the Anthropic Console.
 
-- `external_key_id: optional string`
+  maxLength: 7, pattern: ^#[0-9A-Fa-f]{6}$
+
+- `external_key_id: optional string or null`
 
   ID of the customer-managed encryption key (CMEK) configuration to use for this
   Workspace. Setting this field requires CMEK to be enabled for your
@@ -556,17 +336,21 @@ Update Workspace
   rotate key material, rotate the underlying key on your cloud KMS; the
   `external_key_id` stays the same.
 
-- `name: optional string`
-
-  Name of the Workspace.
-
 - `tags: optional map[string] or null`
 
   User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
 ### Returns
 
-- `Workspace object { id, archived_at, compartment_id, 7 more }`
+- `BetaWorkspace object`
+
+  - `type: "workspace"`
+
+    Object type.
+
+    For Workspaces, this is always `"workspace"`.
+
+    default: workspace
 
   - `id: string`
 
@@ -575,6 +359,8 @@ Update Workspace
   - `archived_at: string or null`
 
     RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
+
+    format: date-time
 
   - `compartment_id: string`
 
@@ -594,7 +380,9 @@ Update Workspace
 
     RFC 3339 datetime string indicating when the Workspace was created.
 
-  - `data_residency: object { allowed_inference_geos, default_inference_geo, workspace_geo }`
+    format: date-time
+
+  - `data_residency: BetaDataResidency`
 
     Data residency configuration.
 
@@ -602,11 +390,9 @@ Update Workspace
 
       Permitted inference geo values. 'unrestricted' means all geos are allowed.
 
-      - `array of string`
+      - `Geos = array of string`
 
-      - `"unrestricted"`
-
-        - `"unrestricted"`
+      - `Unrestricted = "unrestricted"`
 
     - `default_inference_geo: string`
 
@@ -642,21 +428,341 @@ Update Workspace
 
     User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
+### Example
+
+```bash
+curl https://api.anthropic.com/v1/organizations/workspaces \
+    -H 'Content-Type: application/json' \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
+    -d '{
+          "name": "x",
+          "display_color": "#6C5BB9",
+          "external_key_id": "ekey_01SDCCSbTxrXDpWc1phhtcfK",
+          "tags": {
+            "env": "prod",
+            "team": "platform"
+          }
+        }'
+```
+
+#### Response (200)
+
+```json
+{
+  "id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
+  "archived_at": "2024-11-01T23:59:27.427722Z",
+  "compartment_id": "f8a7b6c5-4d3e-4f1a-8b9c-0d1e2f3a4b5c",
+  "created_at": "2024-10-30T23:58:27.427722Z",
+  "data_residency": {
+    "allowed_inference_geos": "unrestricted",
+    "default_inference_geo": "default_inference_geo",
+    "workspace_geo": "workspace_geo"
+  },
+  "display_color": "#6C5BB9",
+  "external_key_id": "ekey_01SDCCSbTxrXDpWc1phhtcfK",
+  "name": "Workspace Name",
+  "tags": {
+    "env": "prod",
+    "team": "platform"
+  },
+  "type": "workspace"
+}
+```
+
+## Get Workspace
+
+**GET** `/v1/organizations/workspaces/{workspace_id}`
+
+Get Workspace
+
+### Path parameters
+
+- `workspace_id: string`
+
+  ID of the Workspace.
+
+### Returns
+
+- `BetaWorkspace object`
+
   - `type: "workspace"`
 
     Object type.
 
     For Workspaces, this is always `"workspace"`.
 
-    - `"workspace"`
+    default: workspace
+
+  - `id: string`
+
+    ID of the Workspace.
+
+  - `archived_at: string or null`
+
+    RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
+
+    format: date-time
+
+  - `compartment_id: string`
+
+    Identifier for this Workspace's encryption compartment. When you configure a
+    customer-managed encryption key (CMEK) on AWS, reference this value in your
+    KMS key-policy condition so the key is scoped to this compartment. On GCP and
+    Azure, Anthropic enforces the compartment binding automatically; you do not
+    need to reference this value in your key configuration. See the CMEK
+    integration guide for the required key configuration; unless your organization
+    is on Claude Platform on AWS, it includes a separate value used during key
+    validation. On Claude Platform on AWS there is no separate validation value:
+    the key is validated against this Workspace's own value when it is attached, so
+    if your key policy uses the compartment condition, add this value to it before
+    attaching the key.
+
+  - `created_at: string`
+
+    RFC 3339 datetime string indicating when the Workspace was created.
+
+    format: date-time
+
+  - `data_residency: BetaDataResidency`
+
+    Data residency configuration.
+
+    - `allowed_inference_geos: array of string or "unrestricted"`
+
+      Permitted inference geo values. 'unrestricted' means all geos are allowed.
+
+      - `Geos = array of string`
+
+      - `Unrestricted = "unrestricted"`
+
+    - `default_inference_geo: string`
+
+      Default inference geo applied when requests omit the parameter.
+
+    - `workspace_geo: string`
+
+      Geographic region for workspace data storage. Immutable after creation.
+
+  - `display_color: string`
+
+    Hex color code representing the Workspace in the Anthropic Console.
+
+  - `external_key_id: string or null`
+
+    ID of the customer-managed encryption key (CMEK) configuration to use for this
+    Workspace. Setting this field requires CMEK to be enabled for your
+    organization. When set, data stored for this Workspace is encrypted with the
+    referenced key. Create key configurations with the External Keys API. On
+    Claude Platform on AWS the value is the AWS KMS key ARN, and the key must be a
+    single-Region key in the same AWS account and Region as the Workspace. On that
+    platform the key is validated against this Workspace when it is attached, so a
+    key-policy problem is reported as an error on this request. This field is write-once:
+    once a key is attached to a Workspace it cannot be detached or replaced. To
+    rotate key material, rotate the underlying key on your cloud KMS; the
+    `external_key_id` stays the same.
+
+  - `name: string`
+
+    Name of the Workspace.
+
+  - `tags: map[string]`
+
+    User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
 ### Example
 
-```http
+```bash
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
+```
+
+#### Response (200)
+
+```json
+{
+  "id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
+  "archived_at": "2024-11-01T23:59:27.427722Z",
+  "compartment_id": "f8a7b6c5-4d3e-4f1a-8b9c-0d1e2f3a4b5c",
+  "created_at": "2024-10-30T23:58:27.427722Z",
+  "data_residency": {
+    "allowed_inference_geos": "unrestricted",
+    "default_inference_geo": "default_inference_geo",
+    "workspace_geo": "workspace_geo"
+  },
+  "display_color": "#6C5BB9",
+  "external_key_id": "ekey_01SDCCSbTxrXDpWc1phhtcfK",
+  "name": "Workspace Name",
+  "tags": {
+    "env": "prod",
+    "team": "platform"
+  },
+  "type": "workspace"
+}
+```
+
+## Update Workspace
+
+**POST** `/v1/organizations/workspaces/{workspace_id}`
+
+Update Workspace
+
+### Path parameters
+
+- `workspace_id: string`
+
+### Body parameters
+
+- `data_residency: optional BetaDataResidencyUpdateConfig or null`
+
+  Data residency configuration for the workspace.
+
+  - `allowed_inference_geos: optional array of BetaAllowedInferenceGeo or "unrestricted" or null`
+
+    Permitted inference geo values. Use 'unrestricted' to allow all geos, or a list of specific geos.
+
+    - `Geos = array of BetaAllowedInferenceGeo`
+
+      - `"global"`
+
+      - `"us"`
+
+    - `Unrestricted = "unrestricted"`
+
+  - `default_inference_geo: optional "global" or "us" or null`
+
+    Default inference geo applied when requests omit the parameter. Must be a member of `allowed_inference_geos` unless `allowed_inference_geos` is `"unrestricted"`.
+
+    - `"global"`
+
+    - `"us"`
+
+- `display_color: optional string`
+
+  Hex color code representing the Workspace in the Anthropic Console.
+
+  maxLength: 7, pattern: ^#[0-9A-Fa-f]{6}$
+
+- `external_key_id: optional string`
+
+  ID of the customer-managed encryption key (CMEK) configuration to use for this
+  Workspace. Setting this field requires CMEK to be enabled for your
+  organization. When set, data stored for this Workspace is encrypted with the
+  referenced key. Create key configurations with the External Keys API. On
+  Claude Platform on AWS the value is the AWS KMS key ARN, and the key must be a
+  single-Region key in the same AWS account and Region as the Workspace. On that
+  platform the key is validated against this Workspace when it is attached, so a
+  key-policy problem is reported as an error on this request. This field is write-once:
+  once a key is attached to a Workspace it cannot be detached or replaced. To
+  rotate key material, rotate the underlying key on your cloud KMS; the
+  `external_key_id` stays the same.
+
+- `name: optional string`
+
+  Name of the Workspace.
+
+  maxLength: 40, minLength: 1
+
+- `tags: optional map[string] or null`
+
+  User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
+
+### Returns
+
+- `BetaWorkspace object`
+
+  - `type: "workspace"`
+
+    Object type.
+
+    For Workspaces, this is always `"workspace"`.
+
+    default: workspace
+
+  - `id: string`
+
+    ID of the Workspace.
+
+  - `archived_at: string or null`
+
+    RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
+
+    format: date-time
+
+  - `compartment_id: string`
+
+    Identifier for this Workspace's encryption compartment. When you configure a
+    customer-managed encryption key (CMEK) on AWS, reference this value in your
+    KMS key-policy condition so the key is scoped to this compartment. On GCP and
+    Azure, Anthropic enforces the compartment binding automatically; you do not
+    need to reference this value in your key configuration. See the CMEK
+    integration guide for the required key configuration; unless your organization
+    is on Claude Platform on AWS, it includes a separate value used during key
+    validation. On Claude Platform on AWS there is no separate validation value:
+    the key is validated against this Workspace's own value when it is attached, so
+    if your key policy uses the compartment condition, add this value to it before
+    attaching the key.
+
+  - `created_at: string`
+
+    RFC 3339 datetime string indicating when the Workspace was created.
+
+    format: date-time
+
+  - `data_residency: BetaDataResidency`
+
+    Data residency configuration.
+
+    - `allowed_inference_geos: array of string or "unrestricted"`
+
+      Permitted inference geo values. 'unrestricted' means all geos are allowed.
+
+      - `Geos = array of string`
+
+      - `Unrestricted = "unrestricted"`
+
+    - `default_inference_geo: string`
+
+      Default inference geo applied when requests omit the parameter.
+
+    - `workspace_geo: string`
+
+      Geographic region for workspace data storage. Immutable after creation.
+
+  - `display_color: string`
+
+    Hex color code representing the Workspace in the Anthropic Console.
+
+  - `external_key_id: string or null`
+
+    ID of the customer-managed encryption key (CMEK) configuration to use for this
+    Workspace. Setting this field requires CMEK to be enabled for your
+    organization. When set, data stored for this Workspace is encrypted with the
+    referenced key. Create key configurations with the External Keys API. On
+    Claude Platform on AWS the value is the AWS KMS key ARN, and the key must be a
+    single-Region key in the same AWS account and Region as the Workspace. On that
+    platform the key is validated against this Workspace when it is attached, so a
+    key-policy problem is reported as an error on this request. This field is write-once:
+    once a key is attached to a Workspace it cannot be detached or replaced. To
+    rotate key material, rotate the underlying key on your cloud KMS; the
+    `external_key_id` stays the same.
+
+  - `name: string`
+
+    Name of the Workspace.
+
+  - `tags: map[string]`
+
+    User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
+
+### Example
+
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
     -d '{
           "display_color": "#6C5BB9",
           "external_key_id": "ekey_01SDCCSbTxrXDpWc1phhtcfK",
@@ -667,7 +773,7 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
         }'
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -693,17 +799,25 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
 
 ## Archive Workspace
 
-**post** `/v1/organizations/workspaces/{workspace_id}/archive`
+**POST** `/v1/organizations/workspaces/{workspace_id}/archive`
 
 Archive Workspace
 
-### Path Parameters
+### Path parameters
 
 - `workspace_id: string`
 
 ### Returns
 
-- `Workspace object { id, archived_at, compartment_id, 7 more }`
+- `BetaWorkspace object`
+
+  - `type: "workspace"`
+
+    Object type.
+
+    For Workspaces, this is always `"workspace"`.
+
+    default: workspace
 
   - `id: string`
 
@@ -712,6 +826,8 @@ Archive Workspace
   - `archived_at: string or null`
 
     RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
+
+    format: date-time
 
   - `compartment_id: string`
 
@@ -731,7 +847,9 @@ Archive Workspace
 
     RFC 3339 datetime string indicating when the Workspace was created.
 
-  - `data_residency: object { allowed_inference_geos, default_inference_geo, workspace_geo }`
+    format: date-time
+
+  - `data_residency: BetaDataResidency`
 
     Data residency configuration.
 
@@ -739,11 +857,9 @@ Archive Workspace
 
       Permitted inference geo values. 'unrestricted' means all geos are allowed.
 
-      - `array of string`
+      - `Geos = array of string`
 
-      - `"unrestricted"`
-
-        - `"unrestricted"`
+      - `Unrestricted = "unrestricted"`
 
     - `default_inference_geo: string`
 
@@ -779,24 +895,16 @@ Archive Workspace
 
     User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
-  - `type: "workspace"`
-
-    Object type.
-
-    For Workspaces, this is always `"workspace"`.
-
-    - `"workspace"`
-
 ### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive \
     -X POST \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+#### Response (200)
 
 ```json
 {
@@ -820,29 +928,91 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive
 }
 ```
 
-# Members
+## Domain types
 
-## Create Workspace Member
+### Beta Allowed Inference Geo
 
-**post** `/v1/organizations/workspaces/{workspace_id}/members`
+- `BetaAllowedInferenceGeo = "global" or "us"`
 
-Create Workspace Member
+  - `"global"`
 
-### Path Parameters
+  - `"us"`
 
-- `workspace_id: string`
+### Beta Data Residency
 
-  ID of the Workspace.
+- `BetaDataResidency object`
 
-### Body Parameters
+  - `allowed_inference_geos: array of string or "unrestricted"`
 
-- `user_id: string`
+    Permitted inference geo values. 'unrestricted' means all geos are allowed.
 
-  ID of the User.
+    - `Geos = array of string`
 
-- `workspace_role: "workspace_admin" or "workspace_developer" or "workspace_restricted_developer" or "workspace_user"`
+    - `Unrestricted = "unrestricted"`
 
-  Role of the new Workspace Member. Cannot be `workspace_billing`.
+  - `default_inference_geo: string`
+
+    Default inference geo applied when requests omit the parameter.
+
+  - `workspace_geo: string`
+
+    Geographic region for workspace data storage. Immutable after creation.
+
+### Beta Data Residency Create Config
+
+- `BetaDataResidencyCreateConfig object`
+
+  - `allowed_inference_geos: optional array of BetaAllowedInferenceGeo or "unrestricted" or null`
+
+    Permitted inference geo values. Defaults to 'unrestricted' if omitted, which allows all geos. Use the string 'unrestricted' to allow all geos, or a list of specific geos.
+
+    - `Geos = array of BetaAllowedInferenceGeo`
+
+      - `"global"`
+
+      - `"us"`
+
+    - `Unrestricted = "unrestricted"`
+
+  - `default_inference_geo: optional "global" or "us" or null`
+
+    Default inference geo applied when requests omit the parameter. Defaults to 'global' if omitted. Must be a member of `allowed_inference_geos` unless `allowed_inference_geos` is `"unrestricted"`.
+
+    - `"global"`
+
+    - `"us"`
+
+  - `workspace_geo: optional "us" or null`
+
+    Geographic region for workspace data storage. Immutable after creation. Defaults to 'us' if omitted.
+
+### Beta Data Residency Update Config
+
+- `BetaDataResidencyUpdateConfig object`
+
+  - `allowed_inference_geos: optional array of BetaAllowedInferenceGeo or "unrestricted" or null`
+
+    Permitted inference geo values. Use 'unrestricted' to allow all geos, or a list of specific geos.
+
+    - `Geos = array of BetaAllowedInferenceGeo`
+
+      - `"global"`
+
+      - `"us"`
+
+    - `Unrestricted = "unrestricted"`
+
+  - `default_inference_geo: optional "global" or "us" or null`
+
+    Default inference geo applied when requests omit the parameter. Must be a member of `allowed_inference_geos` unless `allowed_inference_geos` is `"unrestricted"`.
+
+    - `"global"`
+
+    - `"us"`
+
+### Beta No Billing Workspace Role
+
+- `BetaNoBillingWorkspaceRole = "workspace_admin" or "workspace_developer" or "workspace_restricted_developer" or "workspace_user"`
 
   - `"workspace_admin"`
 
@@ -852,9 +1022,97 @@ Create Workspace Member
 
   - `"workspace_user"`
 
-### Returns
+### Beta Workspace
 
-- `WorkspaceMember object { type, user_id, workspace_id, workspace_role }`
+- `BetaWorkspace object`
+
+  - `type: "workspace"`
+
+    Object type.
+
+    For Workspaces, this is always `"workspace"`.
+
+    default: workspace
+
+  - `id: string`
+
+    ID of the Workspace.
+
+  - `archived_at: string or null`
+
+    RFC 3339 datetime string indicating when the Workspace was archived, or `null` if the Workspace is not archived.
+
+    format: date-time
+
+  - `compartment_id: string`
+
+    Identifier for this Workspace's encryption compartment. When you configure a
+    customer-managed encryption key (CMEK) on AWS, reference this value in your
+    KMS key-policy condition so the key is scoped to this compartment. On GCP and
+    Azure, Anthropic enforces the compartment binding automatically; you do not
+    need to reference this value in your key configuration. See the CMEK
+    integration guide for the required key configuration; unless your organization
+    is on Claude Platform on AWS, it includes a separate value used during key
+    validation. On Claude Platform on AWS there is no separate validation value:
+    the key is validated against this Workspace's own value when it is attached, so
+    if your key policy uses the compartment condition, add this value to it before
+    attaching the key.
+
+  - `created_at: string`
+
+    RFC 3339 datetime string indicating when the Workspace was created.
+
+    format: date-time
+
+  - `data_residency: BetaDataResidency`
+
+    Data residency configuration.
+
+    - `allowed_inference_geos: array of string or "unrestricted"`
+
+      Permitted inference geo values. 'unrestricted' means all geos are allowed.
+
+      - `Geos = array of string`
+
+      - `Unrestricted = "unrestricted"`
+
+    - `default_inference_geo: string`
+
+      Default inference geo applied when requests omit the parameter.
+
+    - `workspace_geo: string`
+
+      Geographic region for workspace data storage. Immutable after creation.
+
+  - `display_color: string`
+
+    Hex color code representing the Workspace in the Anthropic Console.
+
+  - `external_key_id: string or null`
+
+    ID of the customer-managed encryption key (CMEK) configuration to use for this
+    Workspace. Setting this field requires CMEK to be enabled for your
+    organization. When set, data stored for this Workspace is encrypted with the
+    referenced key. Create key configurations with the External Keys API. On
+    Claude Platform on AWS the value is the AWS KMS key ARN, and the key must be a
+    single-Region key in the same AWS account and Region as the Workspace. On that
+    platform the key is validated against this Workspace when it is attached, so a
+    key-policy problem is reported as an error on this request. This field is write-once:
+    once a key is attached to a Workspace it cannot be detached or replaced. To
+    rotate key material, rotate the underlying key on your cloud KMS; the
+    `external_key_id` stays the same.
+
+  - `name: string`
+
+    Name of the Workspace.
+
+  - `tags: map[string]`
+
+    User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
+
+### Beta Workspace Member
+
+- `BetaWorkspaceMember object`
 
   - `type: "workspace_member"`
 
@@ -862,7 +1120,7 @@ Create Workspace Member
 
     For Workspace Members, this is always `"workspace_member"`.
 
-    - `"workspace_member"`
+    default: workspace_member
 
   - `user_id: string`
 
@@ -872,7 +1130,7 @@ Create Workspace Member
 
     ID of the Workspace.
 
-  - `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
+  - `workspace_role: BetaWorkspaceRole`
 
     Role of the Workspace Member.
 
@@ -886,220 +1144,9 @@ Create Workspace Member
 
     - `"workspace_user"`
 
-### Example
+### Beta Workspace Role
 
-```http
-curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members \
-    -H 'Content-Type: application/json' \
-    -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
-    -d '{
-          "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
-          "workspace_role": "workspace_admin"
-        }'
-```
-
-#### Response
-
-```json
-{
-  "type": "workspace_member",
-  "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
-  "workspace_id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
-  "workspace_role": "workspace_user"
-}
-```
-
-## Get Workspace Member
-
-**get** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
-
-Get Workspace Member
-
-### Path Parameters
-
-- `workspace_id: string`
-
-  ID of the Workspace.
-
-- `user_id: string`
-
-  ID of the User.
-
-### Returns
-
-- `WorkspaceMember object { type, user_id, workspace_id, workspace_role }`
-
-  - `type: "workspace_member"`
-
-    Object type.
-
-    For Workspace Members, this is always `"workspace_member"`.
-
-    - `"workspace_member"`
-
-  - `user_id: string`
-
-    ID of the User.
-
-  - `workspace_id: string`
-
-    ID of the Workspace.
-
-  - `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
-
-    Role of the Workspace Member.
-
-    - `"workspace_admin"`
-
-    - `"workspace_billing"`
-
-    - `"workspace_developer"`
-
-    - `"workspace_restricted_developer"`
-
-    - `"workspace_user"`
-
-### Example
-
-```http
-curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
-    -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
-```
-
-#### Response
-
-```json
-{
-  "type": "workspace_member",
-  "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
-  "workspace_id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
-  "workspace_role": "workspace_user"
-}
-```
-
-## List Workspace Members
-
-**get** `/v1/organizations/workspaces/{workspace_id}/members`
-
-List Workspace Members
-
-### Path Parameters
-
-- `workspace_id: string`
-
-  ID of the Workspace.
-
-### Query Parameters
-
-- `after_id: optional string`
-
-  ID of the object to use as a cursor for pagination. When provided, returns the page of results immediately after this object.
-
-- `before_id: optional string`
-
-  ID of the object to use as a cursor for pagination. When provided, returns the page of results immediately before this object.
-
-- `limit: optional number`
-
-  Number of items to return per page.
-
-  Defaults to `20`. Ranges from `1` to `1000`.
-
-### Returns
-
-- `data: array of WorkspaceMember`
-
-  - `type: "workspace_member"`
-
-    Object type.
-
-    For Workspace Members, this is always `"workspace_member"`.
-
-    - `"workspace_member"`
-
-  - `user_id: string`
-
-    ID of the User.
-
-  - `workspace_id: string`
-
-    ID of the Workspace.
-
-  - `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
-
-    Role of the Workspace Member.
-
-    - `"workspace_admin"`
-
-    - `"workspace_billing"`
-
-    - `"workspace_developer"`
-
-    - `"workspace_restricted_developer"`
-
-    - `"workspace_user"`
-
-- `first_id: string or null`
-
-  First ID in the `data` list. Can be used as the `before_id` for the previous page.
-
-- `has_more: boolean`
-
-  Indicates if there are more results in the requested page direction.
-
-- `last_id: string or null`
-
-  Last ID in the `data` list. Can be used as the `after_id` for the next page.
-
-### Example
-
-```http
-curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members \
-    -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
-```
-
-#### Response
-
-```json
-{
-  "data": [
-    {
-      "type": "workspace_member",
-      "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
-      "workspace_id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
-      "workspace_role": "workspace_user"
-    }
-  ],
-  "first_id": "first_id",
-  "has_more": true,
-  "last_id": "last_id"
-}
-```
-
-## Update Workspace Member
-
-**post** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
-
-Update Workspace Member
-
-### Path Parameters
-
-- `workspace_id: string`
-
-  ID of the Workspace.
-
-- `user_id: string`
-
-  ID of the User.
-
-### Body Parameters
-
-- `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
-
-  New workspace role for the User.
+- `BetaWorkspaceRole = "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
 
   - `"workspace_admin"`
 
@@ -1111,177 +1158,11 @@ Update Workspace Member
 
   - `"workspace_user"`
 
-### Returns
+## Workspaces › Rate Limits
 
-- `WorkspaceMember object { type, user_id, workspace_id, workspace_role }`
+### List Workspace Rate Limits
 
-  - `type: "workspace_member"`
-
-    Object type.
-
-    For Workspace Members, this is always `"workspace_member"`.
-
-    - `"workspace_member"`
-
-  - `user_id: string`
-
-    ID of the User.
-
-  - `workspace_id: string`
-
-    ID of the Workspace.
-
-  - `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
-
-    Role of the Workspace Member.
-
-    - `"workspace_admin"`
-
-    - `"workspace_billing"`
-
-    - `"workspace_developer"`
-
-    - `"workspace_restricted_developer"`
-
-    - `"workspace_user"`
-
-### Example
-
-```http
-curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
-    -H 'Content-Type: application/json' \
-    -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
-    -d '{
-          "workspace_role": "workspace_admin"
-        }'
-```
-
-#### Response
-
-```json
-{
-  "type": "workspace_member",
-  "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
-  "workspace_id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
-  "workspace_role": "workspace_user"
-}
-```
-
-## Delete Workspace Member
-
-**delete** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
-
-Delete Workspace Member
-
-### Path Parameters
-
-- `workspace_id: string`
-
-  ID of the Workspace.
-
-- `user_id: string`
-
-  ID of the User.
-
-### Returns
-
-- `type: "workspace_member_deleted"`
-
-  Deleted object type.
-
-  For Workspace Members, this is always `"workspace_member_deleted"`.
-
-  - `"workspace_member_deleted"`
-
-- `user_id: string`
-
-  ID of the User.
-
-- `workspace_id: string`
-
-  ID of the Workspace.
-
-### Example
-
-```http
-curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
-    -X DELETE \
-    -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
-```
-
-#### Response
-
-```json
-{
-  "type": "workspace_member_deleted",
-  "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
-  "workspace_id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ"
-}
-```
-
-## Domain Types
-
-### Workspace Member
-
-- `WorkspaceMember object { type, user_id, workspace_id, workspace_role }`
-
-  - `type: "workspace_member"`
-
-    Object type.
-
-    For Workspace Members, this is always `"workspace_member"`.
-
-    - `"workspace_member"`
-
-  - `user_id: string`
-
-    ID of the User.
-
-  - `workspace_id: string`
-
-    ID of the Workspace.
-
-  - `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
-
-    Role of the Workspace Member.
-
-    - `"workspace_admin"`
-
-    - `"workspace_billing"`
-
-    - `"workspace_developer"`
-
-    - `"workspace_restricted_developer"`
-
-    - `"workspace_user"`
-
-### Member Delete Response
-
-- `MemberDeleteResponse object { type, user_id, workspace_id }`
-
-  - `type: "workspace_member_deleted"`
-
-    Deleted object type.
-
-    For Workspace Members, this is always `"workspace_member_deleted"`.
-
-    - `"workspace_member_deleted"`
-
-  - `user_id: string`
-
-    ID of the User.
-
-  - `workspace_id: string`
-
-    ID of the Workspace.
-
-# Rate Limits
-
-## List Workspace Rate Limits
-
-**get** `/v1/organizations/workspaces/{workspace_id}/rate_limits`
+**GET** `/v1/organizations/workspaces/{workspace_id}/rate_limits`
 
 List rate-limit overrides configured for a workspace.
 
@@ -1293,13 +1174,13 @@ When `limit` is omitted, every matching entry is returned in a single
 page; when `limit` truncates the result, follow `next_page` to fetch
 the remaining entries.
 
-### Path Parameters
+#### Path parameters
 
 - `workspace_id: string`
 
   The ID of the workspace.
 
-### Query Parameters
+#### Query parameters
 
 - `group_type: optional "batch" or "files" or "model_group" or 3 more`
 
@@ -1323,15 +1204,23 @@ the remaining entries.
 
   When omitted, every remaining entry is returned in a single page and `next_page` is `null`.
 
+  maximum: 1000, minimum: 1
+
 - `page: optional string`
 
   Opaque cursor from a previous response's `next_page`.
 
-### Returns
+#### Returns
 
-- `data: array of object { group_type, limits, models, 3 more }`
+- `data: array of BetaWorkspaceRateLimit`
 
   Rate-limit entries for the workspace, one per group that has at least one override.
+
+  - `type: "workspace_rate_limit"`
+
+    Object type. Always `workspace_rate_limit` for workspace rate-limit entries.
+
+    default: workspace_rate_limit
 
   - `group_type: "batch" or "files" or "model_group" or 3 more`
 
@@ -1349,17 +1238,17 @@ the remaining entries.
 
     - `"web_search"`
 
-  - `limits: array of object { org_limit, type, value }`
+  - `limits: array of BetaWorkspaceRateLimitValue`
 
     The limiter values overridden for this group in this workspace. Limiter types without a workspace override are omitted and inherit the organization value.
-
-    - `org_limit: number or null`
-
-      The organization-level value for the same limiter type, for reference. `null` when the organization has no limit configured for this limiter type.
 
     - `type: string`
 
       The limiter type (for example, `requests_per_minute` or `input_tokens_per_minute`).
+
+    - `org_limit: number or null`
+
+      The organization-level value for the same limiter type, for reference. `null` when the organization has no limit configured for this limiter type.
 
     - `value: number`
 
@@ -1373,12 +1262,6 @@ the remaining entries.
 
     The `id` of the RateLimit group this override applies to.
 
-  - `type: "workspace_rate_limit"`
-
-    Object type. Always `workspace_rate_limit` for workspace rate-limit entries.
-
-    - `"workspace_rate_limit"`
-
   - `workspace_id: string`
 
     ID of the Workspace this override applies to.
@@ -1387,15 +1270,15 @@ the remaining entries.
 
   Opaque cursor for the next page of results, or `null` when no entries remain beyond this response.
 
-### Example
+#### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/rate_limits \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -1421,104 +1304,131 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/rate_li
 }
 ```
 
-## Domain Types
+## Workspaces › Members
 
-### Rate Limit List Response
+### List Workspace Members
 
-- `RateLimitListResponse object { group_type, limits, models, 3 more }`
+**GET** `/v1/organizations/workspaces/{workspace_id}/members`
 
-  - `group_type: "batch" or "files" or "model_group" or 3 more`
+List Workspace Members
 
-    The kind of rate-limit group this entry represents. `model_group` entries apply to a family of models (listed in `models`); other values apply to an API-surface category and have `models` set to `null`.
+#### Path parameters
 
-    - `"batch"`
+- `workspace_id: string`
 
-    - `"files"`
+  ID of the Workspace.
 
-    - `"model_group"`
+#### Query parameters
 
-    - `"skills"`
+- `after_id: optional string`
 
-    - `"token_count"`
+  ID of the object to use as a cursor for pagination. When provided, returns the page of results immediately after this object.
 
-    - `"web_search"`
+- `before_id: optional string`
 
-  - `limits: array of object { org_limit, type, value }`
+  ID of the object to use as a cursor for pagination. When provided, returns the page of results immediately before this object.
 
-    The limiter values overridden for this group in this workspace. Limiter types without a workspace override are omitted and inherit the organization value.
+- `limit: optional number`
 
-    - `org_limit: number or null`
+  Number of items to return per page.
 
-      The organization-level value for the same limiter type, for reference. `null` when the organization has no limit configured for this limiter type.
+  Defaults to `20`. Ranges from `1` to `1000`.
 
-    - `type: string`
+  default: 20, maximum: 1000, minimum: 1
 
-      The limiter type (for example, `requests_per_minute` or `input_tokens_per_minute`).
+#### Returns
 
-    - `value: number`
+- `data: array of BetaWorkspaceMember`
 
-      The workspace-level override value for this limiter type.
+  - `type: "workspace_member"`
 
-  - `models: array of string or null`
+    Object type.
 
-    Model names this entry's limits apply to, including aliases. `null` when `group_type` is not `"model_group"`.
+    For Workspace Members, this is always `"workspace_member"`.
 
-  - `rate_limit_id: string`
+    default: workspace_member
 
-    The `id` of the RateLimit group this override applies to.
+  - `user_id: string`
 
-  - `type: "workspace_rate_limit"`
-
-    Object type. Always `workspace_rate_limit` for workspace rate-limit entries.
-
-    - `"workspace_rate_limit"`
+    ID of the User.
 
   - `workspace_id: string`
 
-    ID of the Workspace this override applies to.
+    ID of the Workspace.
 
-# Service Accounts
+  - `workspace_role: BetaWorkspaceRole`
 
-## Create Service Account Workspace Member
+    Role of the Workspace Member.
 
-**post** `/v1/organizations/workspaces/{workspace_id}/service_accounts`
+    - `"workspace_admin"`
 
-**Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
+    - `"workspace_billing"`
 
-Add a service account to a workspace with the given `workspace_role`.
+    - `"workspace_developer"`
 
-The role determines what the service account can do in the workspace and
-which workspace-scoped permissions it can be granted when authenticating
-through federation. Every service account is already an implicit
-`workspace_user` member of the default workspace; adding it explicitly
-assigns a chosen role. If the service account is already an explicit
-member of the workspace, its `workspace_role` is replaced with the
-value supplied here. Archived workspaces return 400. Archived service
-accounts cannot be added and are rejected.
+    - `"workspace_restricted_developer"`
 
-### Path Parameters
+    - `"workspace_user"`
+
+- `first_id: string or null`
+
+  First ID in the `data` list. Can be used as the `before_id` for the previous page.
+
+- `has_more: boolean`
+
+  Indicates if there are more results in the requested page direction.
+
+- `last_id: string or null`
+
+  Last ID in the `data` list. Can be used as the `after_id` for the next page.
+
+#### Example
+
+```bash
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
+```
+
+##### Response (200)
+
+```json
+{
+  "data": [
+    {
+      "type": "workspace_member",
+      "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
+      "workspace_id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
+      "workspace_role": "workspace_admin"
+    }
+  ],
+  "first_id": "first_id",
+  "has_more": true,
+  "last_id": "last_id"
+}
+```
+
+### Create Workspace Member
+
+**POST** `/v1/organizations/workspaces/{workspace_id}/members`
+
+Create Workspace Member
+
+#### Path parameters
 
 - `workspace_id: string`
 
-  ID of the workspace.
+  ID of the Workspace.
 
-### Header Parameters
+#### Body parameters
 
-- `"anthropic-beta": optional array of string`
+- `user_id: string`
 
-  Optional header to specify the beta version(s) you want to use.
+  ID of the User.
 
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
+- `workspace_role: BetaNoBillingWorkspaceRole`
 
-### Body Parameters
-
-- `service_account_id: string`
-
-  Tagged service account ID to add.
-
-- `workspace_role: "workspace_admin" or "workspace_developer" or "workspace_restricted_developer" or "workspace_user"`
-
-  Role to assign to the service account in this workspace.
+  Role of the new Workspace Member. Cannot be `workspace_billing`.
 
   - `"workspace_admin"`
 
@@ -1528,126 +1438,154 @@ accounts cannot be added and are rejected.
 
   - `"workspace_user"`
 
-### Returns
+#### Returns
 
-- `created_by_actor_id: string or null`
+- `BetaWorkspaceMember object`
 
-  Tagged ID (`user_...`/`svac_...`) of the actor who created this membership.
+  - `type: "workspace_member"`
 
-- `implicit: boolean or null`
+    Object type.
 
-  True when this is the implicit default-workspace membership every service account has when no explicit membership exists. Implicit memberships have role `workspace_user` and cannot be removed.
+    For Workspace Members, this is always `"workspace_member"`.
 
-- `service_account_id: string`
+    default: workspace_member
 
-  Tagged service account ID (`svac_...`).
+  - `user_id: string`
 
-- `type: "service_account_workspace_member"`
+    ID of the User.
 
-  - `"service_account_workspace_member"`
+  - `workspace_id: string`
 
-- `workspace_id: string`
+    ID of the Workspace.
 
-  Tagged workspace ID (`wrkspc_...`).
+  - `workspace_role: BetaWorkspaceRole`
 
-- `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
+    Role of the Workspace Member.
 
-  Role of the service account in this workspace. Service accounts cannot hold the `workspace_billing` role.
+    - `"workspace_admin"`
 
-  - `"workspace_admin"`
+    - `"workspace_billing"`
 
-  - `"workspace_billing"`
+    - `"workspace_developer"`
 
-  - `"workspace_developer"`
+    - `"workspace_restricted_developer"`
 
-  - `"workspace_restricted_developer"`
+    - `"workspace_user"`
 
-  - `"workspace_user"`
+#### Example
 
-### Example
-
-```http
-curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts \
+```bash
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
     -d '{
-          "service_account_id": "service_account_id",
+          "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
           "workspace_role": "workspace_admin"
         }'
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
-  "created_by_actor_id": "created_by_actor_id",
-  "implicit": true,
-  "service_account_id": "service_account_id",
-  "type": "service_account_workspace_member",
-  "workspace_id": "workspace_id",
+  "type": "workspace_member",
+  "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
+  "workspace_id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
   "workspace_role": "workspace_admin"
 }
 ```
 
-## Get Service Account Workspace Member
+### Get Workspace Member
 
-**get** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
+**GET** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
 
-**Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
+Get Workspace Member
 
-Retrieve a service account's membership in a workspace.
-
-Returns the membership record, including the service account's
-`workspace_role` in this workspace. Archived workspaces return 400. For
-the default workspace, returns the implicit (`implicit: true`)
-membership when no explicit membership exists; an explicitly added
-membership is returned with its assigned role. An archived service
-account returns 404.
-
-### Path Parameters
+#### Path parameters
 
 - `workspace_id: string`
 
-  ID of the workspace.
+  ID of the Workspace.
 
-- `service_account_id: string`
+- `user_id: string`
 
-  ID of the service account.
+  ID of the User.
 
-### Header Parameters
+#### Returns
 
-- `"anthropic-beta": optional array of string`
+- `BetaWorkspaceMember object`
 
-  Optional header to specify the beta version(s) you want to use.
+  - `type: "workspace_member"`
 
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
+    Object type.
 
-### Returns
+    For Workspace Members, this is always `"workspace_member"`.
 
-- `created_by_actor_id: string or null`
+    default: workspace_member
 
-  Tagged ID (`user_...`/`svac_...`) of the actor who created this membership.
+  - `user_id: string`
 
-- `implicit: boolean or null`
+    ID of the User.
 
-  True when this is the implicit default-workspace membership every service account has when no explicit membership exists. Implicit memberships have role `workspace_user` and cannot be removed.
+  - `workspace_id: string`
 
-- `service_account_id: string`
+    ID of the Workspace.
 
-  Tagged service account ID (`svac_...`).
+  - `workspace_role: BetaWorkspaceRole`
 
-- `type: "service_account_workspace_member"`
+    Role of the Workspace Member.
 
-  - `"service_account_workspace_member"`
+    - `"workspace_admin"`
+
+    - `"workspace_billing"`
+
+    - `"workspace_developer"`
+
+    - `"workspace_restricted_developer"`
+
+    - `"workspace_user"`
+
+#### Example
+
+```bash
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
+```
+
+##### Response (200)
+
+```json
+{
+  "type": "workspace_member",
+  "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
+  "workspace_id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
+  "workspace_role": "workspace_admin"
+}
+```
+
+### Update Workspace Member
+
+**POST** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
+
+Update Workspace Member
+
+#### Path parameters
 
 - `workspace_id: string`
 
-  Tagged workspace ID (`wrkspc_...`).
+  ID of the Workspace.
 
-- `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
+- `user_id: string`
 
-  Role of the service account in this workspace. Service accounts cannot hold the `workspace_billing` role.
+  ID of the User.
+
+#### Body parameters
+
+- `workspace_role: BetaWorkspaceRole`
+
+  New workspace role for the User.
 
   - `"workspace_admin"`
 
@@ -1659,30 +1597,121 @@ account returns 404.
 
   - `"workspace_user"`
 
-### Example
+#### Returns
 
-```http
-curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts/$SERVICE_ACCOUNT_ID \
+- `BetaWorkspaceMember object`
+
+  - `type: "workspace_member"`
+
+    Object type.
+
+    For Workspace Members, this is always `"workspace_member"`.
+
+    default: workspace_member
+
+  - `user_id: string`
+
+    ID of the User.
+
+  - `workspace_id: string`
+
+    ID of the Workspace.
+
+  - `workspace_role: BetaWorkspaceRole`
+
+    Role of the Workspace Member.
+
+    - `"workspace_admin"`
+
+    - `"workspace_billing"`
+
+    - `"workspace_developer"`
+
+    - `"workspace_restricted_developer"`
+
+    - `"workspace_user"`
+
+#### Example
+
+```bash
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
+    -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
+    -d '{
+          "workspace_role": "workspace_admin"
+        }'
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
-  "created_by_actor_id": "created_by_actor_id",
-  "implicit": true,
-  "service_account_id": "service_account_id",
-  "type": "service_account_workspace_member",
-  "workspace_id": "workspace_id",
+  "type": "workspace_member",
+  "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
+  "workspace_id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
   "workspace_role": "workspace_admin"
 }
 ```
 
-## List Service Account Workspace Members
+### Delete Workspace Member
 
-**get** `/v1/organizations/workspaces/{workspace_id}/service_accounts`
+**DELETE** `/v1/organizations/workspaces/{workspace_id}/members/{user_id}`
+
+Delete Workspace Member
+
+#### Path parameters
+
+- `workspace_id: string`
+
+  ID of the Workspace.
+
+- `user_id: string`
+
+  ID of the User.
+
+#### Returns
+
+- `type: "workspace_member_deleted"`
+
+  Deleted object type.
+
+  For Workspace Members, this is always `"workspace_member_deleted"`.
+
+  default: workspace_member_deleted
+
+- `user_id: string`
+
+  ID of the User.
+
+- `workspace_id: string`
+
+  ID of the Workspace.
+
+#### Example
+
+```bash
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
+    -X DELETE \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
+```
+
+##### Response (200)
+
+```json
+{
+  "type": "workspace_member_deleted",
+  "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
+  "workspace_id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ"
+}
+```
+
+## Workspaces › Service Accounts
+
+### List Service Account Workspace Members
+
+**GET** `/v1/organizations/workspaces/{workspace_id}/service_accounts`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -1695,33 +1724,131 @@ archived workspace. The implicit default-workspace membership is not
 included in this list. Memberships of archived service accounts are
 omitted from the results.
 
-### Path Parameters
+#### Path parameters
 
 - `workspace_id: string`
 
   ID of the workspace.
 
-### Query Parameters
+#### Query parameters
 
 - `limit: optional number`
 
   Number of results per page.
 
+  default: 20, maximum: 100, minimum: 1
+
 - `page: optional string`
 
   Opaque cursor from a previous response's `next_page`.
 
-### Header Parameters
+#### Headers
 
-- `"anthropic-beta": optional array of string`
+- `"anthropic-beta": optional array of AnthropicBeta`
 
   Optional header to specify the beta version(s) you want to use.
 
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
+  - `string`
 
-### Returns
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
-- `data: array of object { created_by_actor_id, implicit, service_account_id, 3 more }`
+    - `"message-batches-2024-09-24"`
+
+    - `"prompt-caching-2024-07-31"`
+
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
+
+#### Returns
+
+- `data: array of BetaServiceAccountWorkspaceMember`
+
+  - `type: "service_account_workspace_member"`
+
+    default: service_account_workspace_member
 
   - `created_by_actor_id: string or null`
 
@@ -1735,15 +1862,11 @@ omitted from the results.
 
     Tagged service account ID (`svac_...`).
 
-  - `type: "service_account_workspace_member"`
-
-    - `"service_account_workspace_member"`
-
   - `workspace_id: string`
 
     Tagged workspace ID (`wrkspc_...`).
 
-  - `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
+  - `workspace_role: BetaWorkspaceRole`
 
     Role of the service account in this workspace. Service accounts cannot hold the `workspace_billing` role.
 
@@ -1761,15 +1884,15 @@ omitted from the results.
 
   Opaque cursor for the next page, or null if no more results.
 
-### Example
+#### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -1787,82 +1910,140 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service
 }
 ```
 
-## Update Service Account Workspace Member
+### Create Service Account Workspace Member
 
-**post** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
+**POST** `/v1/organizations/workspaces/{workspace_id}/service_accounts`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
-Change a service account's role in a workspace.
+Add a service account to a workspace with the given `workspace_role`.
 
-The new `workspace_role` replaces the current one. Only explicit
-memberships can be updated; to set a role on the implicit
-default-workspace membership, add the service account explicitly with
-`POST /workspaces/{workspace_id}/service_accounts`. Archived workspaces
-return 400. Archived service accounts cannot be updated and are
-rejected.
+The role determines what the service account can do in the workspace and
+which workspace-scoped permissions it can be granted when authenticating
+through federation. Every service account is already an implicit
+`workspace_user` member of the default workspace; adding it explicitly
+assigns a chosen role. If the service account is already an explicit
+member of the workspace, its `workspace_role` is replaced with the
+value supplied here. Archived workspaces return 400. Archived service
+accounts cannot be added and are rejected.
 
-### Path Parameters
+#### Path parameters
 
 - `workspace_id: string`
 
   ID of the workspace.
 
-- `service_account_id: string`
+#### Headers
 
-  ID of the service account.
-
-### Header Parameters
-
-- `"anthropic-beta": optional array of string`
+- `"anthropic-beta": optional array of AnthropicBeta`
 
   Optional header to specify the beta version(s) you want to use.
 
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
+  - `string`
 
-### Body Parameters
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
 
-- `workspace_role: "workspace_admin" or "workspace_developer" or "workspace_restricted_developer" or "workspace_user"`
+    - `"message-batches-2024-09-24"`
 
-  New role for the service account in this workspace.
+    - `"prompt-caching-2024-07-31"`
 
-  - `"workspace_admin"`
+    - `"computer-use-2024-10-22"`
 
-  - `"workspace_developer"`
+    - `"computer-use-2025-01-24"`
 
-  - `"workspace_restricted_developer"`
+    - `"pdfs-2024-09-25"`
 
-  - `"workspace_user"`
+    - `"token-counting-2024-11-01"`
 
-### Returns
+    - `"token-efficient-tools-2025-02-19"`
 
-- `created_by_actor_id: string or null`
+    - `"output-128k-2025-02-19"`
 
-  Tagged ID (`user_...`/`svac_...`) of the actor who created this membership.
+    - `"files-api-2025-04-14"`
 
-- `implicit: boolean or null`
+    - `"mcp-client-2025-04-04"`
 
-  True when this is the implicit default-workspace membership every service account has when no explicit membership exists. Implicit memberships have role `workspace_user` and cannot be removed.
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
+
+#### Body parameters
 
 - `service_account_id: string`
 
-  Tagged service account ID (`svac_...`).
+  Tagged service account ID to add.
 
-- `type: "service_account_workspace_member"`
+- `workspace_role: BetaNoBillingWorkspaceRole`
 
-  - `"service_account_workspace_member"`
-
-- `workspace_id: string`
-
-  Tagged workspace ID (`wrkspc_...`).
-
-- `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
-
-  Role of the service account in this workspace. Service accounts cannot hold the `workspace_billing` role.
+  Role to assign to the service account in this workspace.
 
   - `"workspace_admin"`
-
-  - `"workspace_billing"`
 
   - `"workspace_developer"`
 
@@ -1870,19 +2051,58 @@ rejected.
 
   - `"workspace_user"`
 
-### Example
+#### Returns
 
-```http
-curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts/$SERVICE_ACCOUNT_ID \
+- `BetaServiceAccountWorkspaceMember object`
+
+  - `type: "service_account_workspace_member"`
+
+    default: service_account_workspace_member
+
+  - `created_by_actor_id: string or null`
+
+    Tagged ID (`user_...`/`svac_...`) of the actor who created this membership.
+
+  - `implicit: boolean or null`
+
+    True when this is the implicit default-workspace membership every service account has when no explicit membership exists. Implicit memberships have role `workspace_user` and cannot be removed.
+
+  - `service_account_id: string`
+
+    Tagged service account ID (`svac_...`).
+
+  - `workspace_id: string`
+
+    Tagged workspace ID (`wrkspc_...`).
+
+  - `workspace_role: BetaWorkspaceRole`
+
+    Role of the service account in this workspace. Service accounts cannot hold the `workspace_billing` role.
+
+    - `"workspace_admin"`
+
+    - `"workspace_billing"`
+
+    - `"workspace_developer"`
+
+    - `"workspace_restricted_developer"`
+
+    - `"workspace_user"`
+
+#### Example
+
+```bash
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
     -d '{
+          "service_account_id": "service_account_id",
           "workspace_role": "workspace_admin"
         }'
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -1895,9 +2115,395 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service
 }
 ```
 
-## Delete Service Account Workspace Member
+### Get Service Account Workspace Member
 
-**delete** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
+**GET** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
+
+**Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
+
+Retrieve a service account's membership in a workspace.
+
+Returns the membership record, including the service account's
+`workspace_role` in this workspace. Archived workspaces return 400. For
+the default workspace, returns the implicit (`implicit: true`)
+membership when no explicit membership exists; an explicitly added
+membership is returned with its assigned role. An archived service
+account returns 404.
+
+#### Path parameters
+
+- `workspace_id: string`
+
+  ID of the workspace.
+
+- `service_account_id: string`
+
+  ID of the service account.
+
+#### Headers
+
+- `"anthropic-beta": optional array of AnthropicBeta`
+
+  Optional header to specify the beta version(s) you want to use.
+
+  - `string`
+
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
+
+    - `"message-batches-2024-09-24"`
+
+    - `"prompt-caching-2024-07-31"`
+
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
+
+#### Returns
+
+- `BetaServiceAccountWorkspaceMember object`
+
+  - `type: "service_account_workspace_member"`
+
+    default: service_account_workspace_member
+
+  - `created_by_actor_id: string or null`
+
+    Tagged ID (`user_...`/`svac_...`) of the actor who created this membership.
+
+  - `implicit: boolean or null`
+
+    True when this is the implicit default-workspace membership every service account has when no explicit membership exists. Implicit memberships have role `workspace_user` and cannot be removed.
+
+  - `service_account_id: string`
+
+    Tagged service account ID (`svac_...`).
+
+  - `workspace_id: string`
+
+    Tagged workspace ID (`wrkspc_...`).
+
+  - `workspace_role: BetaWorkspaceRole`
+
+    Role of the service account in this workspace. Service accounts cannot hold the `workspace_billing` role.
+
+    - `"workspace_admin"`
+
+    - `"workspace_billing"`
+
+    - `"workspace_developer"`
+
+    - `"workspace_restricted_developer"`
+
+    - `"workspace_user"`
+
+#### Example
+
+```bash
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts/$SERVICE_ACCOUNT_ID \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
+```
+
+##### Response (200)
+
+```json
+{
+  "created_by_actor_id": "created_by_actor_id",
+  "implicit": true,
+  "service_account_id": "service_account_id",
+  "type": "service_account_workspace_member",
+  "workspace_id": "workspace_id",
+  "workspace_role": "workspace_admin"
+}
+```
+
+### Update Service Account Workspace Member
+
+**POST** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
+
+**Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
+
+Change a service account's role in a workspace.
+
+The new `workspace_role` replaces the current one. Only explicit
+memberships can be updated; to set a role on the implicit
+default-workspace membership, add the service account explicitly with
+`POST /workspaces/{workspace_id}/service_accounts`. Archived workspaces
+return 400. Archived service accounts cannot be updated and are
+rejected.
+
+#### Path parameters
+
+- `workspace_id: string`
+
+  ID of the workspace.
+
+- `service_account_id: string`
+
+  ID of the service account.
+
+#### Headers
+
+- `"anthropic-beta": optional array of AnthropicBeta`
+
+  Optional header to specify the beta version(s) you want to use.
+
+  - `string`
+
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
+
+    - `"message-batches-2024-09-24"`
+
+    - `"prompt-caching-2024-07-31"`
+
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
+
+#### Body parameters
+
+- `workspace_role: BetaNoBillingWorkspaceRole`
+
+  New role for the service account in this workspace.
+
+  - `"workspace_admin"`
+
+  - `"workspace_developer"`
+
+  - `"workspace_restricted_developer"`
+
+  - `"workspace_user"`
+
+#### Returns
+
+- `BetaServiceAccountWorkspaceMember object`
+
+  - `type: "service_account_workspace_member"`
+
+    default: service_account_workspace_member
+
+  - `created_by_actor_id: string or null`
+
+    Tagged ID (`user_...`/`svac_...`) of the actor who created this membership.
+
+  - `implicit: boolean or null`
+
+    True when this is the implicit default-workspace membership every service account has when no explicit membership exists. Implicit memberships have role `workspace_user` and cannot be removed.
+
+  - `service_account_id: string`
+
+    Tagged service account ID (`svac_...`).
+
+  - `workspace_id: string`
+
+    Tagged workspace ID (`wrkspc_...`).
+
+  - `workspace_role: BetaWorkspaceRole`
+
+    Role of the service account in this workspace. Service accounts cannot hold the `workspace_billing` role.
+
+    - `"workspace_admin"`
+
+    - `"workspace_billing"`
+
+    - `"workspace_developer"`
+
+    - `"workspace_restricted_developer"`
+
+    - `"workspace_user"`
+
+#### Example
+
+```bash
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts/$SERVICE_ACCOUNT_ID \
+    -H 'Content-Type: application/json' \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
+    -d '{
+          "workspace_role": "workspace_admin"
+        }'
+```
+
+##### Response (200)
+
+```json
+{
+  "created_by_actor_id": "created_by_actor_id",
+  "implicit": true,
+  "service_account_id": "service_account_id",
+  "type": "service_account_workspace_member",
+  "workspace_id": "workspace_id",
+  "workspace_role": "workspace_admin"
+}
+```
+
+### Delete Service Account Workspace Member
+
+**DELETE** `/v1/organizations/workspaces/{workspace_id}/service_accounts/{service_account_id}`
 
 **Requires an OAuth access token with the `org:admin` scope**, from `ant auth login --scope org:admin` or a workload identity federation rule; Admin API keys are not accepted. See [Manage WIF with the Admin API](/docs/en/manage-claude/wif-admin-api).
 
@@ -1909,7 +2515,7 @@ returns 200 but is a no-op and the membership persists; deleting an
 explicit default-workspace row reverts to the implicit `workspace_user`
 membership. Archived workspaces return 400.
 
-### Path Parameters
+#### Path parameters
 
 - `workspace_id: string`
 
@@ -1919,38 +2525,130 @@ membership. Archived workspaces return 400.
 
   ID of the service account.
 
-### Header Parameters
+#### Headers
 
-- `"anthropic-beta": optional array of string`
+- `"anthropic-beta": optional array of AnthropicBeta`
 
   Optional header to specify the beta version(s) you want to use.
 
-  To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.
+  - `string`
 
-### Returns
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 42 more`
+
+    - `"message-batches-2024-09-24"`
+
+    - `"prompt-caching-2024-07-31"`
+
+    - `"computer-use-2024-10-22"`
+
+    - `"computer-use-2025-01-24"`
+
+    - `"pdfs-2024-09-25"`
+
+    - `"token-counting-2024-11-01"`
+
+    - `"token-efficient-tools-2025-02-19"`
+
+    - `"output-128k-2025-02-19"`
+
+    - `"files-api-2025-04-14"`
+
+    - `"mcp-client-2025-04-04"`
+
+    - `"mcp-client-2025-11-20"`
+
+    - `"dev-full-thinking-2025-05-14"`
+
+    - `"interleaved-thinking-2025-05-14"`
+
+    - `"code-execution-2025-05-22"`
+
+    - `"extended-cache-ttl-2025-04-11"`
+
+    - `"context-1m-2025-08-07"`
+
+    - `"context-management-2025-06-27"`
+
+    - `"model-context-window-exceeded-2025-08-26"`
+
+    - `"skills-2025-10-02"`
+
+    - `"fast-mode-2026-02-01"`
+
+    - `"output-300k-2026-03-24"`
+
+    - `"user-profiles-2026-03-24"`
+
+    - `"user-profiles-2026-08-18"`
+
+    - `"user-profiles-2026-09-04"`
+
+    - `"advisor-tool-2026-03-01"`
+
+    - `"managed-agents-2026-04-01"`
+
+    - `"cache-diagnosis-2026-04-07"`
+
+    - `"dreaming-2026-04-21"`
+
+    - `"thinking-token-count-2026-05-13"`
+
+    - `"server-side-fallback-2026-06-01"`
+
+    - `"server-side-fallback-2026-07-01"`
+
+    - `"fallback-credit-2026-06-01"`
+
+    - `"fallback-credit-2026-07-01"`
+
+    - `"agent-memory-2026-07-22"`
+
+    - `"mid-conversation-tool-changes-2026-07-01"`
+
+    - `"compact-2026-01-12"`
+
+    - `"computer-use-2025-11-24"`
+
+    - `"mcp-tunnels-2026-06-22"`
+
+    - `"structured-outputs-2025-11-13"`
+
+    - `"task-budgets-2026-03-13"`
+
+    - `"thinking-display-updates-2026-08-18"`
+
+    - `"ce-user-management-2026-07-13"`
+
+    - `"mid-conversation-output-config-2026-07-01"`
+
+    - `"thinking-binding-controls-2026-08-01"`
+
+    - `"mid-conversation-system-clear-at-2026-08-21"`
+
+#### Returns
+
+- `type: "service_account_workspace_member_deleted"`
+
+  default: service_account_workspace_member_deleted
 
 - `service_account_id: string`
 
   Tagged service account ID (`svac_...`) named in the delete request. Removal is idempotent; see the endpoint description for the implicit-membership no-op.
 
-- `type: "service_account_workspace_member_deleted"`
-
-  - `"service_account_workspace_member_deleted"`
-
 - `workspace_id: string`
 
   Tagged workspace ID (`wrkspc_...`) named in the delete request.
 
-### Example
+#### Example
 
-```http
+```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service_accounts/$SERVICE_ACCOUNT_ID \
     -X DELETE \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
-#### Response
+##### Response (200)
 
 ```json
 {
@@ -1959,173 +2657,3 @@ curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/service
   "workspace_id": "workspace_id"
 }
 ```
-
-## Domain Types
-
-### Service Account Create Response
-
-- `ServiceAccountCreateResponse object { created_by_actor_id, implicit, service_account_id, 3 more }`
-
-  - `created_by_actor_id: string or null`
-
-    Tagged ID (`user_...`/`svac_...`) of the actor who created this membership.
-
-  - `implicit: boolean or null`
-
-    True when this is the implicit default-workspace membership every service account has when no explicit membership exists. Implicit memberships have role `workspace_user` and cannot be removed.
-
-  - `service_account_id: string`
-
-    Tagged service account ID (`svac_...`).
-
-  - `type: "service_account_workspace_member"`
-
-    - `"service_account_workspace_member"`
-
-  - `workspace_id: string`
-
-    Tagged workspace ID (`wrkspc_...`).
-
-  - `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
-
-    Role of the service account in this workspace. Service accounts cannot hold the `workspace_billing` role.
-
-    - `"workspace_admin"`
-
-    - `"workspace_billing"`
-
-    - `"workspace_developer"`
-
-    - `"workspace_restricted_developer"`
-
-    - `"workspace_user"`
-
-### Service Account Retrieve Response
-
-- `ServiceAccountRetrieveResponse object { created_by_actor_id, implicit, service_account_id, 3 more }`
-
-  - `created_by_actor_id: string or null`
-
-    Tagged ID (`user_...`/`svac_...`) of the actor who created this membership.
-
-  - `implicit: boolean or null`
-
-    True when this is the implicit default-workspace membership every service account has when no explicit membership exists. Implicit memberships have role `workspace_user` and cannot be removed.
-
-  - `service_account_id: string`
-
-    Tagged service account ID (`svac_...`).
-
-  - `type: "service_account_workspace_member"`
-
-    - `"service_account_workspace_member"`
-
-  - `workspace_id: string`
-
-    Tagged workspace ID (`wrkspc_...`).
-
-  - `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
-
-    Role of the service account in this workspace. Service accounts cannot hold the `workspace_billing` role.
-
-    - `"workspace_admin"`
-
-    - `"workspace_billing"`
-
-    - `"workspace_developer"`
-
-    - `"workspace_restricted_developer"`
-
-    - `"workspace_user"`
-
-### Service Account Update Response
-
-- `ServiceAccountUpdateResponse object { created_by_actor_id, implicit, service_account_id, 3 more }`
-
-  - `created_by_actor_id: string or null`
-
-    Tagged ID (`user_...`/`svac_...`) of the actor who created this membership.
-
-  - `implicit: boolean or null`
-
-    True when this is the implicit default-workspace membership every service account has when no explicit membership exists. Implicit memberships have role `workspace_user` and cannot be removed.
-
-  - `service_account_id: string`
-
-    Tagged service account ID (`svac_...`).
-
-  - `type: "service_account_workspace_member"`
-
-    - `"service_account_workspace_member"`
-
-  - `workspace_id: string`
-
-    Tagged workspace ID (`wrkspc_...`).
-
-  - `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
-
-    Role of the service account in this workspace. Service accounts cannot hold the `workspace_billing` role.
-
-    - `"workspace_admin"`
-
-    - `"workspace_billing"`
-
-    - `"workspace_developer"`
-
-    - `"workspace_restricted_developer"`
-
-    - `"workspace_user"`
-
-### Service Account List Response
-
-- `ServiceAccountListResponse object { created_by_actor_id, implicit, service_account_id, 3 more }`
-
-  - `created_by_actor_id: string or null`
-
-    Tagged ID (`user_...`/`svac_...`) of the actor who created this membership.
-
-  - `implicit: boolean or null`
-
-    True when this is the implicit default-workspace membership every service account has when no explicit membership exists. Implicit memberships have role `workspace_user` and cannot be removed.
-
-  - `service_account_id: string`
-
-    Tagged service account ID (`svac_...`).
-
-  - `type: "service_account_workspace_member"`
-
-    - `"service_account_workspace_member"`
-
-  - `workspace_id: string`
-
-    Tagged workspace ID (`wrkspc_...`).
-
-  - `workspace_role: "workspace_admin" or "workspace_billing" or "workspace_developer" or 2 more`
-
-    Role of the service account in this workspace. Service accounts cannot hold the `workspace_billing` role.
-
-    - `"workspace_admin"`
-
-    - `"workspace_billing"`
-
-    - `"workspace_developer"`
-
-    - `"workspace_restricted_developer"`
-
-    - `"workspace_user"`
-
-### Service Account Delete Response
-
-- `ServiceAccountDeleteResponse object { service_account_id, type, workspace_id }`
-
-  - `service_account_id: string`
-
-    Tagged service account ID (`svac_...`) named in the delete request. Removal is idempotent; see the endpoint description for the implicit-membership no-op.
-
-  - `type: "service_account_workspace_member_deleted"`
-
-    - `"service_account_workspace_member_deleted"`
-
-  - `workspace_id: string`
-
-    Tagged workspace ID (`wrkspc_...`) named in the delete request.
