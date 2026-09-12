@@ -12,7 +12,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fconnectors)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fconnectors)
 
 This is still the second of the five decisions, Access. You’ve decided which product surfaces and capabilities your groups can access; now you decide which tools and data sources Claude can reach.
 

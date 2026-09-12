@@ -6,7 +6,7 @@ Lesson 2 of 66 · Claude with Google Cloud's Vertex AIVertex AI Setup
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fvertex-ai-setup)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fvertex-ai-setup)
 
 In the next video we will be making a request to Vertex AI in order to call a Claude model. To do so, you need to go through a little bit of setup.
 

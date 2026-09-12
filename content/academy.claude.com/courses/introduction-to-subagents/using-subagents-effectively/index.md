@@ -6,7 +6,7 @@ Lesson 4 of 4 · Introduction to subagentsUsing subagents effectively
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fintroduction-to-subagents%2Fusing-subagents-effectively)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-subagents%2Fusing-subagents-effectively)
 
 Embedded media: https://www.youtube-nocookie.com/embed/n5LoKZ8Oa-A?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 

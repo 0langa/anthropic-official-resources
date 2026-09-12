@@ -12,7 +12,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fwhen-a-new-product-arrives)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fwhen-a-new-product-arrives)
 
 New products arrive regularly, and you may find yourself facing these decisions once again. This lesson walks through the process for a new arrival: what carries over on its own, and the three questions you re-run per product.
 

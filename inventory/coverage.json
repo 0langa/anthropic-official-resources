@@ -1,22 +1,22 @@
 {
-  "actionable_missing_pages": 62,
-  "actionable_population_complete": false,
-  "archived_pages": 3850,
+  "actionable_missing_pages": 0,
+  "actionable_population_complete": true,
+  "archived_pages": 3915,
   "by_host": {
     "academy.claude.com": {
       "archived_pages": 817,
       "discovered_pages": 821
     },
     "claude.com": {
-      "archived_pages": 254,
+      "archived_pages": 255,
       "discovered_pages": 265
     },
     "code.claude.com": {
-      "archived_pages": 210,
-      "discovered_pages": 212
+      "archived_pages": 211,
+      "discovered_pages": 213
     },
     "platform.claude.com": {
-      "archived_pages": 1361,
+      "archived_pages": 1422,
       "discovered_pages": 1450
     },
     "support.claude.com": {
@@ -24,11 +24,11 @@
       "discovered_pages": 691
     },
     "www.anthropic.com": {
-      "archived_pages": 550,
-      "discovered_pages": 561
+      "archived_pages": 552,
+      "discovered_pages": 563
     }
   },
-  "discovered_pages": 4000,
+  "discovered_pages": 4003,
   "exact_website_replica": false,
   "limitations": [
     "Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.",
@@ -154,15 +154,15 @@
     "https://www.anthropic.com/ai-fluency": "Request or redirect outside configured hosts",
     "https://www.anthropic.com/building-effective-ai-agents": "HTTP 404: https://www.anthropic.com/building-effective-ai-agents",
     "https://www.anthropic.com/engineering/building-effective-mcp-servers": "HTTP 404: https://www.anthropic.com/engineering/building-effective-mcp-servers",
-    "https://www.anthropic.com/engineering/harness-design-long-running-apps": "Could not read tab 'Game play': TimeoutError; Could not read tab 'AI game design': TimeoutError",
+    "https://www.anthropic.com/engineering/harness-design-long-running-apps": "Could not read tab 'Game play': TimeoutError; Could not read tab 'AI game design': TimeoutError; Could not read tab 'AI game design': TimeoutError; Could not read tab 'Game play': TimeoutError",
     "https://www.anthropic.com/engineering/prompt-engineering-overview": "HTTP 404: https://www.anthropic.com/engineering/prompt-engineering-overview",
     "https://www.anthropic.com/news/anthropic-interviewer": "Could not read tab 'Creatives': TimeoutError; Could not read tab 'Scientists': TimeoutError; Could not read tab 'Computer & Math': TimeoutError; Could not read tab 'Art, Design, & Media': TimeoutError; Could not read tab 'Business & Financial': TimeoutError; Could not read tab 'Office & Admin': TimeoutError; Could not read tab 'Sales': TimeoutError; Could not read tab 'Visual artists': TimeoutError; Could not read tab 'Craftspeople': TimeoutError; Could not read tab 'Designers': TimeoutError; Could not read tab 'Filmmakers': TimeoutError; Could not read tab 'Game developers': TimeoutError; Could not read tab 'Physicists': TimeoutError; Could not read tab 'Chemical engineers': TimeoutError; Could not read tab 'Data scientists': TimeoutError; Could not read tab 'Mechanical engineers': TimeoutError; Could not read tab 'Astronomers': TimeoutError",
-    "https://www.anthropic.com/news/anthropic-public-record": "Could not read tab 'Integrated users': TimeoutError",
-    "https://www.anthropic.com/news/claude-fable-5-mythos-5": "Could not read tab 'Factorio': TimeoutError; Could not read tab 'Fluid with Classical EDM': TimeoutError",
-    "https://www.anthropic.com/news/claude-opus-4-6": "Could not read tab 'Coding': TimeoutError; Could not read tab 'Reasoning': TimeoutError; Could not read tab 'Long-context reasoning': TimeoutError; Could not read tab 'Multilingual coding': TimeoutError; Could not read tab 'Life sciences': TimeoutError",
+    "https://www.anthropic.com/news/anthropic-public-record": "Could not read tab 'Support for gov involvement': TimeoutError",
+    "https://www.anthropic.com/news/claude-fable-5-mythos-5": "Could not read tab 'Fluid with Classical EDM': TimeoutError",
+    "https://www.anthropic.com/news/claude-opus-4-6": "Could not read tab 'Agentic search': TimeoutError; Could not read tab 'Coding': TimeoutError; Could not read tab 'Reasoning': TimeoutError; Could not read tab 'Multilingual coding': TimeoutError; Could not read tab 'Cybersecurity': TimeoutError; Could not read tab 'Life sciences': TimeoutError",
     "https://www.anthropic.com/news/claude-opus-4-7": "Could not read tab 'Long-context reasoning': TimeoutError; Could not read tab 'Biology': TimeoutError; Could not read tab 'Long-term coherence': TimeoutError; Could not read tab 'Coding': TimeoutError",
     "https://www.anthropic.com/news/claude-opus-5": "Could not read tab 'GDPval-AA v2': TimeoutError; Could not read tab 'OSWorld 2.0': TimeoutError; Could not read tab 'DeepSearchQA': TimeoutError",
-    "https://www.anthropic.com/news/claude-sonnet-4-5": "Could not read tab 'Law': TimeoutError; Could not read tab 'STEM': TimeoutError",
+    "https://www.anthropic.com/news/claude-sonnet-4-5": "Could not read tab 'Medicine': TimeoutError",
     "https://www.anthropic.com/news/healthcare-life-sciences": "Could not read tab 'Key life sciences tasks': TimeoutError",
     "https://www.anthropic.com/news/max-plan": "HTTP 404: https://claude.com/blog/max-plan",
     "https://www.anthropic.com/news/project-glasswing": "HTTP 404: https://www.anthropic.com/news/project-glasswing",
@@ -171,7 +171,7 @@
     "https://www.anthropic.com/research/anthropic-interviewer": "Could not read tab 'Scientists': TimeoutError; Could not read tab 'Computer & Math': TimeoutError; Could not read tab 'Art, Design, & Media': TimeoutError; Could not read tab 'Business & Financial': TimeoutError; Could not read tab 'Office & Admin': TimeoutError; Could not read tab 'Sales': TimeoutError; Could not read tab 'Visual artists': TimeoutError; Could not read tab 'Craftspeople': TimeoutError; Could not read tab 'Designers': TimeoutError; Could not read tab 'Filmmakers': TimeoutError; Could not read tab 'Game developers': TimeoutError; Could not read tab 'Physicists': TimeoutError; Could not read tab 'Chemical engineers': TimeoutError; Could not read tab 'Data scientists': TimeoutError; Could not read tab 'Mechanical engineers': TimeoutError; Could not read tab 'Astronomers': TimeoutError",
     "https://www.anthropic.com/research/anthropic.com/research/anthropic-economic-index-january-2026-report": "HTTP 404: https://www.anthropic.com/research/anthropic.com/research/anthropic-economic-index-january-2026-report",
     "https://www.anthropic.com/research/attack-navigator": "Content dependencies blocked by scope or robots policy: https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html",
-    "https://www.anthropic.com/research/claude-fable-5-mythos-5": "Could not read tab 'Factorio': TimeoutError; Could not read tab 'VibeCAD': TimeoutError",
+    "https://www.anthropic.com/research/claude-fable-5-mythos-5": "Could not read tab 'Factorio': TimeoutError; Could not read tab 'VibeCAD': TimeoutError; Could not read tab 'Fluid with Classical EDM': TimeoutError",
     "https://www.anthropic.com/research/claude-opus-5": "Could not read tab 'CursorBench': TimeoutError; Could not read tab 'AutomationBench': TimeoutError; Could not read tab 'DeepSearchQA': TimeoutError",
     "https://www.anthropic.com/research/claude-sonnet-5": "Could not read tab 'Agentic computer use': TimeoutError",
     "https://www.anthropic.com/research/claude-values-models-languages": "Could not read tab '': TimeoutError; Could not read tab '': TimeoutError; Could not read tab '': TimeoutError; Could not read tab '': TimeoutError; Could not read tab '': TimeoutError",
@@ -179,9 +179,9 @@
     "https://www.anthropic.com/resources": "HTTP 404: https://www.anthropic.com/resources",
     "https://www.anthropic.com/webinars": "HTTP 404: https://www.anthropic.com/webinars"
   },
-  "missing_pages": 150,
+  "missing_pages": 88,
   "page_inventory_complete": false,
-  "pages_with_content_notes": 2276,
+  "pages_with_content_notes": 2339,
   "retained_partial_pages": 52,
   "terminal_pages": 88,
   "terminal_statuses": {

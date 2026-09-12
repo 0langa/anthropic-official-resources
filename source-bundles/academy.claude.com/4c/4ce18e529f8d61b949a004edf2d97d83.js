@@ -1,0 +1,32 @@
+import{em as e,nm as t}from"../../../content-de-meta-ifw6afqc.js";var n=e();function r(e){let r={a:"a",code:"code",em:"em",h2:"h2",img:"img",li:"li",p:"p",strong:"strong",ul:"ul",...t(),...e.components},{Callout:i,ResourceWidget:o}=r;return i||a("Callout",!0),o||a("ResourceWidget",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork",children:"Claude Cowork"})," takes on whole tasks across your files and connected tools to deliver finished work. It reads from your folders and the services you connect, does the work over many steps, and saves the result where you can open it."]}),`
+`,(0,n.jsx)(i,{type:"note",children:(0,n.jsxs)(r.p,{children:["If you're still deciding which mode fits a task, see ",(0,n.jsx)(r.a,{href:"/tutorials/choosing-between-claude-cowork-or-chat",children:"when to use Chat vs Cowork"}),"."]})}),`
+`,(0,n.jsx)(r.h2,{id:"1-open-claude-cowork-in-the-desktop-app",children:"1. Open Claude Cowork in the desktop app"}),`
+`,(0,n.jsxs)(r.p,{children:["From the home page, select ",(0,n.jsx)(r.strong,{children:(0,n.jsx)(r.em,{children:"Cowork"})})," in the mode picker."]}),`
+`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.img,{src:"./579a53100a3d.png",alt:""})}),`
+`,(0,n.jsxs)(r.h2,{id:"2-run-setup-claude-for-a-guided-setup",children:["2. Run ",(0,n.jsx)(r.strong,{children:"/setup-claude"})," for a guided setup"]}),`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.em,{children:"In your first Cowork session, type"})," ",(0,n.jsx)(r.a,{href:"claude://cowork/new?q=%2Fsetup-claude",children:(0,n.jsx)(r.em,{children:(0,n.jsx)(r.code,{children:"/setup-claude"})})})," ",(0,n.jsx)(r.em,{children:"and press enter."})]}),`
+`,(0,n.jsx)(o,{name:"Embed1"}),`
+`,(0,n.jsxs)(r.p,{children:["Claude walks you through setup in the conversation: pick your role, install a plugin matched to it, and connect the tools that plugin uses — Slack, Google Workspace or Microsoft 365, and whichever systems your role lives in. New users will see a ",(0,n.jsx)(r.strong,{children:"Set up Cowork"})," banner that starts the same flow; the skill works anytime you want to revisit it."]}),`
+`,(0,n.jsxs)(r.p,{children:["A ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/13837440-use-plugins-in-claude-cowork",children:"plugin"})," packages the ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/12512180-use-skills-in-claude",children:"skills"}),", ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities",children:"connectors"}),", and example prompts for a role, so finishing setup leaves you with a starting point for real work, not an empty session. You can ",(0,n.jsx)(r.a,{href:"https://claude.ai/desktop/customize/plugins",children:"browse all plugins in Cowork"})," or add more connectors from ",(0,n.jsx)(r.a,{href:"https://claude.ai/desktop/customize/connectors",children:(0,n.jsx)(r.strong,{children:"Customize"})})," in the sidebar."]}),`
+`,(0,n.jsx)(r.h2,{id:"3-give-claude-cowork-a-place-to-work",children:"3. Give Claude Cowork a place to work"}),`
+`,(0,n.jsx)(r.p,{children:(0,n.jsxs)(r.em,{children:["Select ",(0,n.jsx)(r.code,{children:"Work in a folder"})," in the chat bar to pick where Claude can read context from and save finished work back to."]})}),`
+`,(0,n.jsx)(r.p,{children:"With a working location set, Cowork finds what's relevant on its own and writes the result there as a real file you can open, share, or keep editing."}),`
+`,(0,n.jsx)(o,{name:"Embed2"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:["A ",(0,n.jsx)(r.strong,{children:"folder"})," on your computer — Cowork reads what's there and saves new files alongside it. Scope it to one piece of work, or point it at a broader directory that several tasks share."]}),`
+`,(0,n.jsxs)(r.li,{children:["A ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-cowork",children:(0,n.jsx)(r.strong,{children:"Project"})})," — a workspace that carries its own files, instructions, and memory across sessions. Create one in Cowork's sidebar, or import a Project you already use in Chat."]}),`
+`]}),`
+`,(0,n.jsx)(r.h2,{id:"4-try-your-first-task",children:"4. Try your first task"}),`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.a,{href:"claude://cowork/new",children:"Open a new Cowork session"})," and start on something from your to-do list: a task that's spread across your tools, takes several steps, or needs real work on your computer. Set the working folder and describe the result you need."]}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:(0,n.jsx)(r.em,{children:"Turn the research in this folder into a one-page brief."})}),`
+`,(0,n.jsx)(r.li,{children:(0,n.jsx)(r.em,{children:"Write a status summary from last week's Slack and Linear activity."})}),`
+`,(0,n.jsx)(r.li,{children:(0,n.jsx)(r.em,{children:"Update the forecast model with the figures from these PDFs."})}),`
+`]}),`
+`,(0,n.jsxs)(r.p,{children:["Type ",(0,n.jsx)(r.code,{children:"/"})," for the starting prompts your plugin installed, or browse ",(0,n.jsx)(r.a,{href:"/all?kind=use-case&product=cowork",children:"Cowork use cases"})," for more by role."]}),`
+`,(0,n.jsx)(r.h2,{id:"learn-more",children:"Learn more"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.a,{href:"/tutorials/customize-claude-cowork",children:(0,n.jsx)(r.strong,{children:"Customize Cowork"})})," — add the skills and plugins for your role."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/13837440-use-plugins-in-cowork",children:(0,n.jsx)(r.strong,{children:"Use plugins in Cowork"})})," — install, update, and see what a plugin adds to a session."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/13364135-use-cowork-safely",children:(0,n.jsx)(r.strong,{children:"Use Cowork safely"})})," — what Cowork can access and how approvals work."]}),`
+`]})]})}function i(e={}){let{wrapper:i}={...t(),...e.components};return i?(0,n.jsx)(i,{...e,children:(0,n.jsx)(r,{...e})}):r(e)}function a(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{i as default};

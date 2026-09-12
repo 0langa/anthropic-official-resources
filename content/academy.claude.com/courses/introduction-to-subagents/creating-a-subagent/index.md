@@ -6,7 +6,7 @@ Lesson 2 of 4 · Introduction to subagentsCreating a subagent
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fintroduction-to-subagents%2Fcreating-a-subagent)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-subagents%2Fcreating-a-subagent)
 
 Embedded media: https://www.youtube-nocookie.com/embed/arD6qEWa2Xc?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 

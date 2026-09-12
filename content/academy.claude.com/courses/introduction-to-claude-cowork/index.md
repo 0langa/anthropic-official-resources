@@ -4,7 +4,7 @@ Delegate multi-step work to Claude in Cowork: set up workspaces, give context, r
 
 14 lessons2.5 hr1 quizCompletion badge
 
-[Start course](https://academy.claude.com/courses/introduction-to-claude-cowork/what-is-cowork)[Sign in to save progress](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fintroduction-to-claude-cowork)
+[Start course](https://academy.claude.com/courses/introduction-to-claude-cowork/what-is-cowork)[Sign in to save progress](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-cowork)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-bsbmftgf.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bez8cadc.png)
 

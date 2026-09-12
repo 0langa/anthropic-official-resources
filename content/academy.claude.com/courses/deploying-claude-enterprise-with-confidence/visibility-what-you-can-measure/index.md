@@ -12,7 +12,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fvisibility-what-you-can-measure)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fvisibility-what-you-can-measure)
 
 This is the fifth of the five decisions, Visibility. You’ve set what your rollout costs. This lesson covers visibility: the three pieces (the Compliance API, OpenTelemetry, and retention) and the one decision among them that’s hard to walk back.
 

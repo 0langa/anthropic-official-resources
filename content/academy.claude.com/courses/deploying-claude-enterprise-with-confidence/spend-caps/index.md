@@ -12,7 +12,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fspend-caps)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fspend-caps)
 
 This is the fourth of the five decisions, Spend. You’ve set the rules for what members build. This lesson covers spend caps: the three levels they sit at, what happens when a member hits one, and who owns the escalation.
 

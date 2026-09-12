@@ -11,7 +11,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fintroduction-to-claude-cowork%2Fvalidating-skills-for-plugins)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-cowork%2Fvalidating-skills-for-plugins)
 
 ## Why this matters[](https://academy.claude.com/courses/introduction-to-claude-cowork/validating-skills-for-plugins)
 

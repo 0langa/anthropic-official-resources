@@ -6,7 +6,7 @@ Lesson 48 of 66 Â· Claude with Google Cloud's Vertex AIPrompt caching in actionî
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fprompt-caching-in-action)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fprompt-caching-in-action)
 
 Prompt caching is a powerful optimization feature that makes requests cheaper and faster when you're repeatedly sending the same content to Claude. The initial request writes to the cache, and follow-up requests can read from it. The cache lives for 5 minutes and is extremely useful since many applications send identical tool schemas, system prompts, or message histories repeatedly.
 

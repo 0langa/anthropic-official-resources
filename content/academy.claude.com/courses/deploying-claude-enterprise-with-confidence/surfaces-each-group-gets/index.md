@@ -12,7 +12,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fsurfaces-each-group-gets)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fsurfaces-each-group-gets)
 
 This is the second of the five decisions, Access. You’ve created your groups. Now you grant them access to different Claude surfaces. A surface is a place your members use Claude, and your Claude Enterprise contract can include several (e.g., Claude chat, Claude Cowork, Claude Code, Claude for Microsoft 365).
 

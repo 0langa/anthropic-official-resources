@@ -6,7 +6,7 @@ Lesson 2 of 11 · Model Context Protocol: Advanced TopicsSampling walkthrough
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fmodel-context-protocol-advanced-topics%2Fsampling-walkthrough)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fmodel-context-protocol-advanced-topics%2Fsampling-walkthrough)
 
 ### Tutorial Steps
 

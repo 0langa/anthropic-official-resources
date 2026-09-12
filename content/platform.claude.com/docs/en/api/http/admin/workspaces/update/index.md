@@ -1,3 +1,8 @@
+---
+title: Update Workspace
+url: https://platform.claude.com/docs/en/api/beta/organization/workspaces/update
+---
+
 # Update Workspace
 
 **POST** `/v1/organizations/workspaces/{workspace_id}`
@@ -10,21 +15,21 @@ Update Workspace
 
 ## Body parameters
 
-- `data_residency: optional object or null`
+- `data_residency: optional BetaDataResidencyUpdateConfig or null`
 
   Data residency configuration for the workspace.
 
-  - `allowed_inference_geos: optional array of "global" or "us" or "unrestricted" or null`
+  - `allowed_inference_geos: optional array of BetaAllowedInferenceGeo or "unrestricted" or null`
 
     Permitted inference geo values. Use 'unrestricted' to allow all geos, or a list of specific geos.
 
-    - `array of "global" or "us"`
+    - `Geos = array of BetaAllowedInferenceGeo`
 
       - `"global"`
 
       - `"us"`
 
-    - `"unrestricted"`
+    - `Unrestricted = "unrestricted"`
 
   - `default_inference_geo: optional "global" or "us" or null`
 
@@ -66,7 +71,15 @@ Update Workspace
 
 ## Returns
 
-- `Workspace object`
+- `BetaWorkspace object`
+
+  - `type: "workspace"`
+
+    Object type.
+
+    For Workspaces, this is always `"workspace"`.
+
+    default: workspace
 
   - `id: string`
 
@@ -98,7 +111,7 @@ Update Workspace
 
     format: date-time
 
-  - `data_residency: object`
+  - `data_residency: BetaDataResidency`
 
     Data residency configuration.
 
@@ -106,9 +119,9 @@ Update Workspace
 
       Permitted inference geo values. 'unrestricted' means all geos are allowed.
 
-      - `array of string`
+      - `Geos = array of string`
 
-      - `"unrestricted"`
+      - `Unrestricted = "unrestricted"`
 
     - `default_inference_geo: string`
 
@@ -144,21 +157,13 @@ Update Workspace
 
     User-defined tags as string key-value pairs. Keys may not begin with `anthropic`.
 
-  - `type: "workspace"`
-
-    Object type.
-
-    For Workspaces, this is always `"workspace"`.
-
-    default: workspace
-
 ## Example
 
 ```bash
 curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
     -d '{
           "display_color": "#6C5BB9",
           "external_key_id": "ekey_01SDCCSbTxrXDpWc1phhtcfK",

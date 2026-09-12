@@ -12,7 +12,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fhow-the-decisions-connect)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fhow-the-decisions-connect)
 
 By now you should be well on your way to having concrete decisions for your Claude Enterprise deployment: they’ll either be made, or packaged and sitting with their owners. This lesson allows you to look at your decisions next to Pluto’s, consider what changing any one of them would set off, and reflect on how a regulated function’s answers hold together.
 

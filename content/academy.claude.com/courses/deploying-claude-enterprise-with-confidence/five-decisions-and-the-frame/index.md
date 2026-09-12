@@ -12,7 +12,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Ffive-decisions-and-the-frame)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Ffive-decisions-and-the-frame)
 
 If you’re here, you’re leading or assisting with the rollout of Claude Enterprise at your company. This course is written for that person: the admin, specifically the Owner, since the five decisions ahead are organization-wide settings that take Owner-level access. Every “you” in these lessons assumes you are in that seat. This course walks you through the five decisions that form the foundation of every company’s Claude rollout. The aim is to assemble the rollout plan as you go along.
 

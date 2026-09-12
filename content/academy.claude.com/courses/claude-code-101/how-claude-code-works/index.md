@@ -6,7 +6,7 @@ Lesson 2 of 12 · Claude Code 101How Claude Code works
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-code-101%2Fhow-claude-code-works)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-code-101%2Fhow-claude-code-works)
 
 Embedded media: https://www.youtube-nocookie.com/embed/6bs5b4FltCU?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 

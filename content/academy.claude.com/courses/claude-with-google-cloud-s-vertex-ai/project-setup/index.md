@@ -6,7 +6,7 @@ Lesson 51 of 66 · Claude with Google Cloud's Vertex AIProject setup
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fproject-setup)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fproject-setup)
 
 We're going to build a CLI-based chatbot that demonstrates how MCP clients and servers work together. This hands-on project will give you practical experience with both sides of the MCP architecture.
 

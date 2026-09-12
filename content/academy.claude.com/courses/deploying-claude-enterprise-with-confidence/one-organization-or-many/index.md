@@ -13,7 +13,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fone-organization-or-many)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fone-organization-or-many)
 
 This is the first of the five decisions, Structure & Identity. You’ve confirmed your prerequisites. Now you are ready to make that decision, the one every other decision sits inside: how many Claude organizations you run. First you’ll pin down what an organization is in Claude Enterprise, then you’ll actually make the call, then you’ll set up provisioning, which is how members actually arrive in the organization you land on.
 

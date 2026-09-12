@@ -6,6 +6,8 @@ Apr 2, 2024
 
 [Read the paper](https://www-cdn.anthropic.com/af5633c94ed2beb282f6a53c595eb437e8e7b630/Many_Shot_Jailbreaking__2024_04_02_0936.pdf)
 
+![Many-shot jailbreaking](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F681e6c5e1a09eec211e4d7941deb739f31944331-2000x1125.png&w=3840&q=75)
+
 We investigated a “jailbreaking” technique — a method that can be used to evade the safety guardrails put in place by the developers of large language models (LLMs). The technique, which we call “many-shot jailbreaking”, is effective on Anthropic’s own models, as well as those produced by other AI companies. We briefed other AI developers about this vulnerability in advance, and have implemented mitigations on our systems.
 
 The technique takes advantage of a feature of LLMs that has grown dramatically in the last year: the context window. At the start of 2023, the context window—the amount of information that an LLM can process as its input—was around the size of a long essay (~4,000 tokens). Some models now have context windows that are hundreds of times larger — the size of several long novels (1,000,000 tokens or more).

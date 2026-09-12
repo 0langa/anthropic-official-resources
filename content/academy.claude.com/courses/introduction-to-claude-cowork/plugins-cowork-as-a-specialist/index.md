@@ -12,7 +12,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fintroduction-to-claude-cowork%2Fplugins-cowork-as-a-specialist)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-cowork%2Fplugins-cowork-as-a-specialist)
 
 ## Watch what a plugin unlocks[](https://academy.claude.com/courses/introduction-to-claude-cowork/plugins-cowork-as-a-specialist)
 
@@ -97,7 +97,7 @@ Your admin may have already published plugins for your organization — check th
 
 Let's find the plugins that fit your work. In a new Cowork conversation, type:
 
-/setup-cowork
+/setup-claude
 
 
 

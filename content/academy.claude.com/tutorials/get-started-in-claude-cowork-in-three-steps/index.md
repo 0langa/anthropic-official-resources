@@ -20,11 +20,11 @@ From the home page, select ***Cowork*** in the mode picker.
 
 ![](https://academy.claude.com/assets/media/6b130760316f10078d23e877c42fc8a6b619754601264ce0d73ccbd260a1c940.png)
 
-## 2. Run **/setup-cowork** for a guided setup[](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)
+## 2. Run **/setup-claude** for a guided setup[](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)
 
-*In your first Cowork session, type* [*`/setup-cowork`*](claude://cowork/new?q=%2Fsetup-cowork) *and press enter.*
+*In your first Cowork session, type* [*`/setup-claude`*](claude://cowork/new?q=%2Fsetup-claude) *and press enter.*
 
-**setup**-cowork
+**setup**-claude
 
 Guided Cowork **setup** — install role-matched plugins, connect your tools, try a skill.
 

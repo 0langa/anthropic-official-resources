@@ -11,7 +11,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fintroduction-to-claude-cowork%2Fshare-what-you-build-with-your-team)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-cowork%2Fshare-what-you-build-with-your-team)
 
 ## Scaling workflows across your team[](https://academy.claude.com/courses/introduction-to-claude-cowork/share-what-you-build-with-your-team)
 

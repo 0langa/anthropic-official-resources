@@ -1,3 +1,8 @@
+---
+title: Update User
+url: https://platform.claude.com/docs/en/api/beta/organization/users/update
+---
+
 # Update User
 
 **POST** `/v1/organizations/users/{user_id}`
@@ -30,7 +35,15 @@ Update a member's organization role.
 
 ## Returns
 
-- `User object`
+- `BetaOrganizationUser object`
+
+  - `type: "user"`
+
+    Object type.
+
+    For Users, this is always `"user"`.
+
+    default: user
 
   - `id: string`
 
@@ -50,7 +63,7 @@ Update a member's organization role.
 
     Name of the User.
 
-  - `role: "admin" or "billing" or "claude_code_user" or 6 more`
+  - `role: BetaOrganizationRole`
 
     Organization role of the User.
 
@@ -72,21 +85,13 @@ Update a member's organization role.
 
     - `"user"`
 
-  - `type: "user"`
-
-    Object type.
-
-    For Users, this is always `"user"`.
-
-    default: user
-
 ## Example
 
 ```bash
 curl https://api.anthropic.com/v1/organizations/users/$USER_ID \
     -H 'Content-Type: application/json' \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN" \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY" \
     -d '{
           "role": "user"
         }'
@@ -100,7 +105,7 @@ curl https://api.anthropic.com/v1/organizations/users/$USER_ID \
   "added_at": "2024-10-30T23:58:27.427722Z",
   "email": "user@emaildomain.com",
   "name": "Jane Doe",
-  "role": "user",
+  "role": "admin",
   "type": "user"
 }
 ```

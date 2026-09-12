@@ -6,7 +6,7 @@ Lesson 66 of 66 · Claude with Google Cloud's Vertex AIWorkflows vs agents
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fworkflows-vs-agents)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fworkflows-vs-agents)
 
 When building AI-powered applications, you'll need to choose between two main architectural patterns: workflows and agents. Each has distinct advantages and trade-offs that make them suitable for different scenarios.
 

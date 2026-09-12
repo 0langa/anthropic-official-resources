@@ -6,7 +6,7 @@ Lesson 63 of 66 · Claude with Google Cloud's Vertex AIRouting workflows
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Frouting-workflows)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Frouting-workflows)
 
 When building AI applications, you'll often need different approaches for different types of user requests. A routing workflow solves this by categorizing user input first, then directing it to specialized processing pipelines.
 

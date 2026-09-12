@@ -4,7 +4,7 @@ Build MCP servers and clients from scratch with the Python SDK, covering the thr
 
 10 lessons1 hr1 quizCompletion badge
 
-[Start course](https://academy.claude.com/courses/introduction-to-model-context-protocol/introducing-mcp)[Sign in to save progress](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fintroduction-to-model-context-protocol)
+[Start course](https://academy.claude.com/courses/introduction-to-model-context-protocol/introducing-mcp)[Sign in to save progress](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-model-context-protocol)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-e032c08j.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-n0mznofl.png)
 

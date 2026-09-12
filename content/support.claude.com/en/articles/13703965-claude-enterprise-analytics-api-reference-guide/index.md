@@ -2,25 +2,37 @@
 
 
 
+cURL
+
 # Analytics
 
-##### [Get Activity Summaries](https://platform.claude.com/docs/en/api/http/admin/analytics/retrieve_summaries)
+##### [Get Activity Summaries](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/retrieve_summaries)
 
 GET/v1/organizations/analytics/summaries
+
+Get organization-wide activity summaries for a date range.
 
 ##### Models
 
 
 
-ActivitySummary object{ summaries }
+BetaActivitySummary object{ summaries }
 
 Response for GET /v1/organizations/analytics/summaries.
 
 
 
-AnalyticsUser object{ id, email\_address, type }
+BetaAnalyticsUser object{ type, id, email\_address }
 
 A user in the organization, identified by tagged id and email address.
+
+
+
+type: "user"
+
+Object type. Always `user`.
+
+defaultuser
 
 id: string
 
@@ -32,15 +44,11 @@ Email address of the user
 
 
 
-type: "user"
+BetaAnalyticsUserActor object{ type, deleted, email, 2 more }
 
-Object type. Always `user`.
+type: "user\_actor"
 
-defaultuser
-
-
-
-AnalyticsUserActor object{ deleted, email, name, 2 more }
+Actor type. Always `"user_actor"`.
 
 deleted: boolean
 
@@ -54,17 +62,13 @@ name: string or null
 
 The user's full name. Null when the user has not set a name. Returns `"Deleted User"` when the account itself has been deleted, or when the user is no longer a member of the organization or its associated organizations and the organization has chosen to hide the names of removed users. Otherwise, the name stays populated for removed users. Rows for system-minted service accounts render the service name (for example, `"Claude Security"` for usage by Anthropic's security-patching service) or null.
 
-type: "user\_actor"
-
-Actor type. Always `"user_actor"`.
-
 user\_id: string
 
 Tagged user ID.
 
 
 
-ConnectorOfficeProductMetrics object{ distinct\_session\_connector\_used\_count }
+BetaConnectorOfficeProductMetrics object{ distinct\_session\_connector\_used\_count }
 
 Office Agent activity metrics for a single connector on a given day within one Office product.
 
@@ -74,7 +78,7 @@ Number of distinct Office Agent sessions in which the connector was used. Approx
 
 
 
-OfficeProductMetrics object{ connectors\_used\_count, distinct\_connectors\_used\_count, distinct\_session\_count, 3 more }
+BetaOfficeProductMetrics object{ connectors\_used\_count, distinct\_connectors\_used\_count, distinct\_session\_count, 3 more }
 
 Office Agent activity metrics for a single user on a given day within one Office product.
 
@@ -104,7 +108,7 @@ Number of skill invocations
 
 
 
-SkillOfficeProductMetrics object{ distinct\_session\_skill\_used\_count }
+BetaSkillOfficeProductMetrics object{ distinct\_session\_skill\_used\_count }
 
 Office Agent activity metrics for a single skill on a given day within one Office product.
 
@@ -114,7 +118,7 @@ Number of distinct Office Agent sessions in which the skill was used. A skill co
 
 
 
-ToolActionCounts object{ accepted\_count, rejected\_count }
+BetaToolActionCounts object{ accepted\_count, rejected\_count }
 
 Accepted/rejected counts for a single Claude Code tool type.
 
@@ -126,58 +130,78 @@ rejected\_count: number
 
 Number of tool proposals rejected
 
-#### Analytics[Usage](https://platform.claude.com/docs/en/api/http/admin/analytics/usage)
+#### Analytics[Usage](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/usage)
 
-##### [Get Token Usage Over Time](https://platform.claude.com/docs/en/api/http/admin/analytics/usage/list)
+##### [Get Token Usage Over Time](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/usage/list)
 
 GET/v1/organizations/analytics/usage\_report
 
-##### [Get Per-User Token Usage](https://platform.claude.com/docs/en/api/http/admin/analytics/usage/list_by_user)
+Get token usage over time across a date range.
+
+##### [Get Per-User Token Usage](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/usage/list_by_user)
 
 GET/v1/organizations/analytics/user\_usage\_report
 
-#### Analytics[Cost](https://platform.claude.com/docs/en/api/http/admin/analytics/cost)
+Get per-user token usage across a date range.
 
-##### [Get Cost Over Time](https://platform.claude.com/docs/en/api/http/admin/analytics/cost/list)
+#### Analytics[Cost](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/cost)
+
+##### [Get Cost Over Time](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/cost/list)
 
 GET/v1/organizations/analytics/cost\_report
 
-##### [Get Per-User Cost](https://platform.claude.com/docs/en/api/http/admin/analytics/cost/list_by_user)
+Get cost in USD over time across a date range.
+
+##### [Get Per-User Cost](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/cost/list_by_user)
 
 GET/v1/organizations/analytics/user\_cost\_report
 
-#### Analytics[Users](https://platform.claude.com/docs/en/api/http/admin/analytics/users)
+Get per-user cost in USD across a date range.
 
-##### [List User Activity](https://platform.claude.com/docs/en/api/http/admin/analytics/users/list)
+#### Analytics[Users](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/users)
+
+##### [List User Activity](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/users/list)
 
 GET/v1/organizations/analytics/users
 
-#### Analytics[Skills](https://platform.claude.com/docs/en/api/http/admin/analytics/skills)
+Get per-user activity for a given day, with cursor-based pagination.
 
-##### [Get Skill Usage](https://platform.claude.com/docs/en/api/http/admin/analytics/skills/list)
+#### Analytics[Skills](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/skills)
+
+##### [Get Skill Usage](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/skills/list)
 
 GET/v1/organizations/analytics/skills
 
-#### Analytics[Connectors](https://platform.claude.com/docs/en/api/http/admin/analytics/connectors)
+Get per-skill usage for a given day, with cursor-based pagination.
 
-##### [Get Connector Usage](https://platform.claude.com/docs/en/api/http/admin/analytics/connectors/list)
+#### Analytics[Connectors](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/connectors)
+
+##### [Get Connector Usage](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/connectors/list)
 
 GET/v1/organizations/analytics/connectors
 
-#### Analytics[Chat Projects](https://platform.claude.com/docs/en/api/http/admin/analytics/chat_projects)
+Get per-connector usage for a given day, with cursor-based pagination.
 
-##### [Get Chat Project Usage](https://platform.claude.com/docs/en/api/http/admin/analytics/chat_projects/list)
+#### Analytics[Chat Projects](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/chat_projects)
+
+##### [Get Chat Project Usage](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/chat_projects/list)
 
 GET/v1/organizations/analytics/apps/chat/projects
 
-#### Analytics[Plugins](https://platform.claude.com/docs/en/api/http/admin/analytics/plugins)
+Get per-project activity for a given day, with cursor-based pagination.
 
-##### [Get Plugin Usage](https://platform.claude.com/docs/en/api/http/admin/analytics/plugins/list)
+#### Analytics[Plugins](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/plugins)
+
+##### [Get Plugin Usage](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/plugins/list)
 
 GET/v1/organizations/analytics/plugins
 
-#### Analytics[Artifacts](https://platform.claude.com/docs/en/api/http/admin/analytics/artifacts)
+Get per-plugin install + invocation usage for a given day, with pagination.
 
-##### [Get Artifact Activity](https://platform.claude.com/docs/en/api/http/admin/analytics/artifacts/list)
+#### Analytics[Artifacts](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/artifacts)
+
+##### [Get Artifact Activity](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/artifacts/list)
 
 GET/v1/organizations/analytics/artifacts
+
+Get artifact-creation activity for a given day, broken out by MIME type.

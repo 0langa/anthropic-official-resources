@@ -62,7 +62,7 @@ Anthropic employs a multi-faceted approach to assessing and mitigating catastrop
 We regularly update our [Usage Policy](https://www.anthropic.com/legal/aup) and our detection methods, including classifiers, based on how our models are being used in practice. Additionally, Anthropic has also established multiple mechanisms for receiving reports of potential security vulnerabilities and other safety issues from third parties:
 
 1. **Responsible Disclosure Policy:** We have a publicly accessible [Responsible Disclosure Policy](https://www.anthropic.com/responsible-disclosure-policy) on our website with a reporting form for security-related vulnerabilities.
-2. **Bug Bounty Program:** We operate private bug bounty programs through HackerOne, including programs for identifying vulnerabilities in our [classifier systems](https://support.claude.com/en/articles/12119250-model-safety-bug-bounty-program) and [security vulnerabilities](https://hackerone.com/anthropic-vdp?type=team).
+2. **Bug Bounty Program:** We operate bug bounty programs through HackerOne, including programs for identifying vulnerabilities in our [classifier systems](https://support.claude.com/en/articles/12119250-model-safety-bug-bounty-program) and [security vulnerabilities](https://hackerone.com/anthropic).
 3. **Safety Issue Reporting**: Users of Anthropic services can report safety issues, “jailbreaks”, and similar concerns at usersafety@anthropic.com.
 4. **Engagement with Research Community**: We maintain open channels of communication with the broader AI research community, allowing for informal reporting of potential issues or concerns.
 
@@ -242,7 +242,7 @@ At the foundation of our Safeguards work is our [Usage Policy](https://www.anthr
 
 ## Child Safety & Image-Based Sexual Abuse
 
-[Claude.ai](http://claude.ai/redirect/website.v1.0aebe578-5039-4884-a340-2758673ace87) is 18+. Our Consumer Terms of Service require individuals to be at least 18 years old to use our services. When we detect signals that an account may belong to someone under 18, we disable the account and offer the user an opportunity to [verify their age through Yoti, a third-party age verification provider](https://support.claude.com/en/articles/15171100-age-assurance-on-claude), before reinstating access. Additionally, organizations building tools that serve minors (such as educational resources) that incorporate our API(s) must comply with the additional guidelines outlined in our [Help Center article](https://support.anthropic.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors).
+[Claude.ai](http://claude.ai/redirect/website.v1.fa8bab37-fab1-4b07-a8ce-051f34bd0b26) is 18+. Our Consumer Terms of Service require individuals to be at least 18 years old to use our services. When we detect signals that an account may belong to someone under 18, we disable the account and offer the user an opportunity to [verify their age through Yoti, a third-party age verification provider](https://support.claude.com/en/articles/15171100-age-assurance-on-claude), before reinstating access. Additionally, organizations building tools that serve minors (such as educational resources) that incorporate our API(s) must comply with the additional guidelines outlined in our [Help Center article](https://support.anthropic.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors).
 
 ### Detection and Prevention Systems
 

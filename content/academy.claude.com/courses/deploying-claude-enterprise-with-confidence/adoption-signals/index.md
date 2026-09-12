@@ -12,7 +12,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fadoption-signals)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fadoption-signals)
 
 This is still the fifth of the five decisions, Visibility. You’ve set up the record of what happened. This lesson covers the other question visibility can help to answer: Is the rollout meeting its objective? Your analytics (the dashboard, Analytics chat, and the Analytics API covered in Lesson 10) report what members actually do with Claude, and you read those numbers against your rollout objective to see whether adoption is spreading or stalling in a few groups.
 

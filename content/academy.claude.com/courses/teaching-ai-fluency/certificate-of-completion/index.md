@@ -10,4 +10,4 @@ You've reached the final quiz for Teaching AI Fluency. Its 12 questions revisit 
 
 Quizzes are graded on your account so your progress and completion-badge eligibility are saved. Sign in with your Claude account to start.
 
-[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fteaching-ai-fluency%2Fcertificate-of-completion)
+[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fteaching-ai-fluency%2Fcertificate-of-completion)

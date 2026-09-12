@@ -12,7 +12,7 @@ In [Claude Cowork(opens in new tab)](https://support.claude.com/en/articles/1334
 
 Out of the box, those skills are generic templates. Customizing a plugin rewrites them with your team's tools, standards, and reference material, so the same skills produce work that matches how your team does it. [Browse all plugins in Cowork →(opens in new tab)](https://claude.ai/desktop/customize/plugins)
 
-If you're new to Cowork, [`/setup-cowork`](claude://cowork/new?q=%2Fsetup-cowork) walks you through setting up your first plugin and connectors — see [Get started in Cowork in three steps(opens in new tab)](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps).
+If you're new to Cowork, [`/setup-claude`](claude://cowork/new?q=%2Fsetup-claude) walks you through setting up your first plugin and connectors — see [Get started in Cowork in three steps(opens in new tab)](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps).
 
 
 
@@ -131,7 +131,7 @@ The customize session ends with a packaged `.plugin` file you can pass around.
 ## Learn more[](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
 
 - [**Customize Cowork for the work you do**(opens in new tab)](https://academy.claude.com/tutorials/customize-claude-cowork) — connectors, skills, instructions, and plugins together.
-- [**Get started in Cowork in three steps**(opens in new tab)](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps) — install your first plugin with `/setup-cowork`.
+- [**Get started in Cowork in three steps**(opens in new tab)](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps) — install your first plugin with `/setup-claude`.
 - [**Build a plugin from scratch**(opens in new tab)](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork) — when the pre-built plugins don't cover your workflow.
 - [**Use plugins in Cowork**(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-cowork) — install, enable, and manage plugins.
 

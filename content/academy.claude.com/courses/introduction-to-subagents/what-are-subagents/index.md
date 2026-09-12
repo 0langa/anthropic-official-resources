@@ -6,7 +6,7 @@ Lesson 1 of 4 · Introduction to subagentsWhat are subagents?
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fintroduction-to-subagents%2Fwhat-are-subagents)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-subagents%2Fwhat-are-subagents)
 
 Embedded media: https://www.youtube-nocookie.com/embed/jKErNxuxPXg?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 

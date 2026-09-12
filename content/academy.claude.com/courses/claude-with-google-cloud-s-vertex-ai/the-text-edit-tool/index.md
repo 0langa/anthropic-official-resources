@@ -6,7 +6,7 @@ Lesson 32 of 66 · Claude with Google Cloud's Vertex AIThe text edit tool
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fthe-text-edit-tool)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fthe-text-edit-tool)
 
 **Important Note: Tool version strings can for all model versions can be found here: [https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool(opens in new tab)](https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool)**
 

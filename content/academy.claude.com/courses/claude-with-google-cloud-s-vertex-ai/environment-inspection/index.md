@@ -6,7 +6,7 @@ Lesson 65 of 66 · Claude with Google Cloud's Vertex AIEnvironment inspection
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fenvironment-inspection)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fenvironment-inspection)
 
 Claude operates blindly - it needs to be able to observe the environment around it to understand the results of its actions. This concept, called environment inspection, is crucial for building effective AI agents.
 

@@ -1,3 +1,8 @@
+---
+title: List Users
+url: https://platform.claude.com/docs/en/api/beta/organization/users/list
+---
+
 # List Users
 
 **GET** `/v1/organizations/users`
@@ -36,7 +41,15 @@ List the organization's members.
 
 ## Returns
 
-- `data: array of User`
+- `data: array of BetaOrganizationUser`
+
+  - `type: "user"`
+
+    Object type.
+
+    For Users, this is always `"user"`.
+
+    default: user
 
   - `id: string`
 
@@ -56,7 +69,7 @@ List the organization's members.
 
     Name of the User.
 
-  - `role: "admin" or "billing" or "claude_code_user" or 6 more`
+  - `role: BetaOrganizationRole`
 
     Organization role of the User.
 
@@ -78,14 +91,6 @@ List the organization's members.
 
     - `"user"`
 
-  - `type: "user"`
-
-    Object type.
-
-    For Users, this is always `"user"`.
-
-    default: user
-
 - `first_id: string or null`
 
   First ID in the `data` list. Can be used as the `before_id` for the previous page.
@@ -103,7 +108,7 @@ List the organization's members.
 ```bash
 curl https://api.anthropic.com/v1/organizations/users \
     -H 'anthropic-version: 2023-06-01' \
-    -H "Authorization: Bearer $ANTHROPIC_AUTH_TOKEN"
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
 ```
 
 ### Response (200)
@@ -116,7 +121,7 @@ curl https://api.anthropic.com/v1/organizations/users \
       "added_at": "2024-10-30T23:58:27.427722Z",
       "email": "user@emaildomain.com",
       "name": "Jane Doe",
-      "role": "user",
+      "role": "admin",
       "type": "user"
     }
   ],

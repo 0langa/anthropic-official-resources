@@ -12,7 +12,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fmanaging-spend)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fmanaging-spend)
 
 This is still the fourth of the five decisions, Spend. You’ve set the three cap levels. Now you put them to use. Managing spend has three parts: how you’re billed, the settings that move spend before any cap is reached, and the review habit that tells you which to change. The aim is that a cap-increase request becomes a prompt to look, not an automatic yes.
 

@@ -6,7 +6,7 @@ Lesson 1 of 65 · Claude with Amazon BedrockOverview of Claude Models
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-amazon-bedrock%2Foverview-of-claude-models)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Foverview-of-claude-models)
 
 Claude offers three distinct model families, each optimized for different priorities. All three models share Claude's core capabilities - they can handle text generation, coding, image analysis, and other tasks. The key difference is how they balance intelligence, speed, and cost. The examples in this course use Claude Haiku 4.5.
 

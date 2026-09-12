@@ -1221,6 +1221,7 @@ https://code.claude.com/docs/en/permission-modes
 https://code.claude.com/docs/en/permissions
 https://code.claude.com/docs/en/platforms
 https://code.claude.com/docs/en/plugin-dependencies
+https://code.claude.com/docs/en/plugin-evals
 https://code.claude.com/docs/en/plugin-hints
 https://code.claude.com/docs/en/plugin-marketplaces
 https://code.claude.com/docs/en/plugin-relevance
@@ -3800,8 +3801,10 @@ https://www.anthropic.com/research/agentic-misalignment
 https://www.anthropic.com/research/agents-in-biology
 https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
 https://www.anthropic.com/research/alignment-faking
+https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7
 https://www.anthropic.com/research/anthropic-economic-index-january-2026-report
 https://www.anthropic.com/research/anthropic-economic-index-september-2025-report
+https://www.anthropic.com/research/anthropic-education-report-how-educators-use-claude
 https://www.anthropic.com/research/anthropic-institute-agenda
 https://www.anthropic.com/research/anthropic-interviewer
 https://www.anthropic.com/research/anthropic.com/research/anthropic-economic-index-january-2026-report

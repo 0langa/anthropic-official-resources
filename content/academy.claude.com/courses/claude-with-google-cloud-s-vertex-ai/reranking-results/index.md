@@ -6,7 +6,7 @@ Lesson 41 of 66 · Claude with Google Cloud's Vertex AIReranking results
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Freranking-results)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Freranking-results)
 
 The hybrid retrieval approach we've built works well, but it still has some rough edges. When we search for "what did the eng team do with INC-2023-Q4-011?", we'd expect the Software Engineering section to rank higher since it specifically mentions the engineering team and the incident. However, the Cybersecurity section still comes first.
 

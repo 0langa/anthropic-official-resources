@@ -38,7 +38,7 @@ Compare paid plans, manage your subscription, and understand usage limits.
 
 Set up your workspace, add seats, and administer Claude across your organization.
 
-67 articles
+68 articles
 
 ![](https://downloads.intercomcdn.com/i/hc/icons/v3/lupk8zyo/938304/5ffb4feea1e2b255910fc58e99d4/141413.svg)
 

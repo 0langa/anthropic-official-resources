@@ -12,7 +12,7 @@ In this lessonBy the end, you’ll be able to
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fowners-and-intake)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fowners-and-intake)
 
 You know the five decisions and the frame. Before you make any of them, you’ll name who owns each decision, then run an intake that flags the ones needing extra attention at your company. A decision with no owner is one of the quickest ways a rollout stalls.
 

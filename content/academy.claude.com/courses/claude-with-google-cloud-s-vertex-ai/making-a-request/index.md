@@ -6,7 +6,7 @@ Lesson 3 of 66 · Claude with Google Cloud's Vertex AIMaking a request
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fmaking-a-request)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fmaking-a-request)
 
 Now it's time to get hands-on with the Anthropic Python SDK and make your first request to Claude through Vertex AI. We'll walk through three essential steps: installing the SDK, creating a client, and making your first API call.
 

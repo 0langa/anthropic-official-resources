@@ -6,7 +6,7 @@ Lesson 60 of 66 · Claude with Google Cloud's Vertex AIAgents and workflows
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
-Not now[Sign in](https://academy.claude.com/login?returnTo=https%3A%2F%2Facademy.claude.com%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fagents-and-workflows)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fagents-and-workflows)
 
 When building applications with Claude, you'll often encounter tasks that can't be completed in a single request. This is where workflows and agents come in - they're strategies for handling complex, multi-step processes.
 

@@ -425,6 +425,9 @@
   "https://claude.com/blog/web-search-api": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
   "https://claude.com/blog/what-is-model-context-protocol": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
@@ -849,6 +852,9 @@
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://code.claude.com/docs/en/plugin-dependencies": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugin-evals": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://code.claude.com/docs/en/plugin-hints": [
@@ -3431,6 +3437,66 @@
   "https://platform.claude.com/docs/en/api/http/beta/organization": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics/artifacts": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics/artifacts/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics/chat_projects": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics/chat_projects/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics/connectors": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics/connectors/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics/cost": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics/cost/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics/cost/list_by_user": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics/plugins": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics/plugins/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics/retrieve_summaries": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics/skills": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics/skills/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics/usage": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics/usage/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics/usage/list_by_user": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics/users": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/analytics/users/list": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/http/beta/organization/api_keys": [
     "Native source; upstream MDX components retained."
   ],
@@ -3450,6 +3516,12 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/http/beta/organization/compliance_settings/update": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/cost_report": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/cost_report/retrieve": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/http/beta/organization/external_keys": [
@@ -3539,10 +3611,88 @@
   "https://platform.claude.com/docs/en/api/http/beta/organization/invites/retrieve": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/mcp_tunnels": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/mcp_tunnels/archive": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/mcp_tunnels/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/mcp_tunnels/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/mcp_tunnels/reveal_token": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/mcp_tunnels/rotate_token": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/mcp_tunnels/tunnel_certificates": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/mcp_tunnels/tunnel_certificates/archive": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/mcp_tunnels/tunnel_certificates/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/mcp_tunnels/tunnel_certificates/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/mcp_tunnels/tunnel_certificates/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/http/beta/organization/rate_limits": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/http/beta/organization/rate_limits/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_groups": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_groups/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_groups/delete": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_groups/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_groups/members": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_groups/members/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_groups/members/delete": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_groups/members/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_groups/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_groups/update": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_roles": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_roles/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_roles/permissions": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_roles/permissions/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_roles/retrieve": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/http/beta/organization/retrieve": [
@@ -3576,6 +3726,45 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/http/beta/organization/service_accounts/workspaces/remove": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/spend_limits": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/spend_limits/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/spend_limits/delete": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/spend_limits/increase_requests": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/spend_limits/increase_requests/approve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/spend_limits/increase_requests/deny": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/spend_limits/increase_requests/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/spend_limits/increase_requests/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/spend_limits/list_effective": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/spend_limits/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/usage_report": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/usage_report/retrieve_claude_code": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/usage_report/retrieve_messages": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/http/beta/organization/users": [
@@ -6593,7 +6782,9 @@
   "https://www.anthropic.com/engineering/harness-design-long-running-apps": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
     "Could not read tab 'Game play': TimeoutError",
-    "Could not read tab 'AI game design': TimeoutError"
+    "Could not read tab 'AI game design': TimeoutError",
+    "Could not read tab 'AI game design': TimeoutError",
+    "Could not read tab 'Game play': TimeoutError"
   ],
   "https://www.anthropic.com/news/analysis-tool": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -6621,7 +6812,7 @@
     "Could not read tab 'Astronomers': TimeoutError"
   ],
   "https://www.anthropic.com/news/anthropic-public-record": [
-    "Could not read tab 'Integrated users': TimeoutError"
+    "Could not read tab 'Support for gov involvement': TimeoutError"
   ],
   "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -6639,17 +6830,17 @@
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/news/claude-fable-5-mythos-5": [
-    "Could not read tab 'Factorio': TimeoutError",
     "Could not read tab 'Fluid with Classical EDM': TimeoutError"
   ],
   "https://www.anthropic.com/news/claude-for-chrome": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/news/claude-opus-4-6": [
+    "Could not read tab 'Agentic search': TimeoutError",
     "Could not read tab 'Coding': TimeoutError",
     "Could not read tab 'Reasoning': TimeoutError",
-    "Could not read tab 'Long-context reasoning': TimeoutError",
     "Could not read tab 'Multilingual coding': TimeoutError",
+    "Could not read tab 'Cybersecurity': TimeoutError",
     "Could not read tab 'Life sciences': TimeoutError"
   ],
   "https://www.anthropic.com/news/claude-opus-4-7": [
@@ -6664,8 +6855,7 @@
     "Could not read tab 'DeepSearchQA': TimeoutError"
   ],
   "https://www.anthropic.com/news/claude-sonnet-4-5": [
-    "Could not read tab 'Law': TimeoutError",
-    "Could not read tab 'STEM': TimeoutError"
+    "Could not read tab 'Medicine': TimeoutError"
   ],
   "https://www.anthropic.com/news/connectors-directory": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -6750,7 +6940,8 @@
   ],
   "https://www.anthropic.com/research/claude-fable-5-mythos-5": [
     "Could not read tab 'Factorio': TimeoutError",
-    "Could not read tab 'VibeCAD': TimeoutError"
+    "Could not read tab 'VibeCAD': TimeoutError",
+    "Could not read tab 'Fluid with Classical EDM': TimeoutError"
   ],
   "https://www.anthropic.com/research/claude-opus-5": [
     "Could not read tab 'CursorBench': TimeoutError",
