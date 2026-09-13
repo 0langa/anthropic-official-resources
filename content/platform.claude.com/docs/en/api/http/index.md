@@ -317,10 +317,6 @@ url: https://platform.claude.com/docs/en/api/http
 
 - [Webhooks](/docs/en/api/http/beta/webhooks.md)
 
-  - [Unwrap](/docs/en/api/http/beta/webhooks/unwrap.md)
-
-  - [Parse Unverified](/docs/en/api/http/beta/webhooks/parse_unverified.md)
-
 - [User Profiles](/docs/en/api/http/beta/user_profiles.md)
 
   - [Create User Profile](/docs/en/api/http/beta/user_profiles/create.md)

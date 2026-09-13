@@ -82,12 +82,12 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "stylesheet",
-    "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.2e1f237dc.min.css"
   },
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "stylesheet",
-    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.2e1f237dc.min.css"
+    "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
   },
   {
     "reason": "optional_media_widget_or_analytics",

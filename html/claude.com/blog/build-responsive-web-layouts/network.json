@@ -27,12 +27,12 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
-    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js"
+    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
   },
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
-    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js"
   },
   {
     "reason": "optional_media_widget_or_analytics",
@@ -82,12 +82,12 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "stylesheet",
-    "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.6a31c5d1dbbfe0f82f757137.1ce4062fd.min.css"
   },
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "stylesheet",
-    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.6a31c5d1dbbfe0f82f757137.1ce4062fd.min.css"
+    "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
   },
   {
     "reason": "optional_media_widget_or_analytics",

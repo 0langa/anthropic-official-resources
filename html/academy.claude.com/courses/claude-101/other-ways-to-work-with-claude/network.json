@@ -7,17 +7,17 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "document",
-    "url": "https://www.youtube-nocookie.com/embed/s-avRazvmLg"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "document",
     "url": "https://www.youtube-nocookie.com/embed/8ZRTSIRWLu4"
   },
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "document",
     "url": "https://www.youtube-nocookie.com/embed/VojDzHaciKQ"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "document",
+    "url": "https://www.youtube-nocookie.com/embed/s-avRazvmLg"
   },
   {
     "reason": "optional_media_widget_or_analytics",

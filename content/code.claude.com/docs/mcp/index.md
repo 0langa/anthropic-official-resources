@@ -82,7 +82,7 @@
     {
       "uri": "mintlify://skills/claude",
       "name": "claude",
-      "description": "Use when building features, fixing bugs, automating development tasks, reviewing code, or managing projects. Reach for Claude Code when you need an AI assistant that can read your entire codebase, edit files across multiple directories, run commands, integrate with external tools, and work autonomously while staying responsive to your input.",
+      "description": "Use when building features, fixing bugs, automating development tasks, or managing code across multiple files. Reach for Claude Code when you need to understand a codebase, make coordinated edits, run tests, manage git operations, or orchestrate complex development workflows.",
       "mimeType": "text/markdown"
     }
   ]

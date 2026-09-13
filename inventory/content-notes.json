@@ -6844,15 +6844,17 @@
     "Could not read tab 'Life sciences': TimeoutError"
   ],
   "https://www.anthropic.com/news/claude-opus-4-7": [
-    "Could not read tab 'Long-context reasoning': TimeoutError",
-    "Could not read tab 'Biology': TimeoutError",
-    "Could not read tab 'Long-term coherence': TimeoutError",
+    "Could not read tab 'Document reasoning': TimeoutError",
     "Could not read tab 'Coding': TimeoutError"
   ],
   "https://www.anthropic.com/news/claude-opus-5": [
+    "Could not read tab 'CursorBench': TimeoutError",
+    "Could not read tab 'AA Coding Agent Index': TimeoutError",
     "Could not read tab 'GDPval-AA v2': TimeoutError",
-    "Could not read tab 'OSWorld 2.0': TimeoutError",
-    "Could not read tab 'DeepSearchQA': TimeoutError"
+    "Could not read tab 'HLE': TimeoutError",
+    "Could not read tab 'AutomationBench': TimeoutError",
+    "Could not read tab 'DeepSearchQA': TimeoutError",
+    "Could not read tab 'Cell artifact': TimeoutError"
   ],
   "https://www.anthropic.com/news/claude-sonnet-4-5": [
     "Could not read tab 'Medicine': TimeoutError"
@@ -6917,6 +6919,7 @@
     "Could not read tab 'Example 3': TimeoutError"
   ],
   "https://www.anthropic.com/research/anthropic-interviewer": [
+    "Could not read tab 'Creatives': TimeoutError",
     "Could not read tab 'Scientists': TimeoutError",
     "Could not read tab 'Computer & Math': TimeoutError",
     "Could not read tab 'Art, Design, & Media': TimeoutError",
@@ -6938,24 +6941,17 @@
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
     "Content dependencies blocked by scope or robots policy: https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html"
   ],
-  "https://www.anthropic.com/research/claude-fable-5-mythos-5": [
-    "Could not read tab 'Factorio': TimeoutError",
-    "Could not read tab 'VibeCAD': TimeoutError",
-    "Could not read tab 'Fluid with Classical EDM': TimeoutError"
-  ],
   "https://www.anthropic.com/research/claude-opus-5": [
     "Could not read tab 'CursorBench': TimeoutError",
+    "Could not read tab 'GDPval-AA v2': TimeoutError",
     "Could not read tab 'AutomationBench': TimeoutError",
-    "Could not read tab 'DeepSearchQA': TimeoutError"
+    "Could not read tab 'DeepSearchQA': TimeoutError",
+    "Could not read tab 'Cell artifact': TimeoutError"
   ],
   "https://www.anthropic.com/research/claude-sonnet-5": [
     "Could not read tab 'Agentic computer use': TimeoutError"
   ],
   "https://www.anthropic.com/research/claude-values-models-languages": [
-    "Could not read tab '': TimeoutError",
-    "Could not read tab '': TimeoutError",
-    "Could not read tab '': TimeoutError",
-    "Could not read tab '': TimeoutError",
     "Could not read tab '': TimeoutError"
   ],
   "https://www.anthropic.com/research/cyber-toolkits-update": [

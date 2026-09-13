@@ -365,7 +365,7 @@ You can also use subagents for verification after Claude implements something. S
 
 ### [​](https://code.claude.com/docs/en/best-practices) Rewind with checkpoints
 
-Every prompt you send creates a checkpoint. You can restore conversation, code, or both to any previous checkpoint.
+Every prompt you send that starts a turn creates a checkpoint. You can restore conversation, code, or both to any previous checkpoint.
 
 Claude automatically snapshots files before each change so a checkpoint can restore them. Double-tap `Escape` or run `/rewind` to open the rewind menu. You can restore conversation only, restore code only, restore both, or summarize from a selected message. See [Checkpointing](https://code.claude.com/docs/en/checkpointing) for details.
 Instead of carefully planning every move, you can tell Claude to try something risky. If it doesn’t work, rewind and try a different approach. Checkpoints are saved with the conversation, so you can close your terminal, resume the session later, and still rewind.
@@ -412,7 +412,7 @@ Pick the parallel approach that fits how much coordination you want to do yourse
 
 - [Worktrees](https://code.claude.com/docs/en/worktrees): run separate CLI sessions in isolated git checkouts so edits don’t collide
 - [Cross-session messaging](https://code.claude.com/docs/en/cross-session-messaging): let the sessions you run yourself pass findings to each other
-- [Desktop app](https://code.claude.com/docs/en/desktop): manage multiple local sessions visually, each in its own worktree
+- [Desktop app](https://code.claude.com/docs/en/desktop): manage multiple local sessions visually, optionally each in its own worktree
 - [Claude Code on the web](https://code.claude.com/docs/en/claude-code-on-the-web): run sessions in the cloud, on Anthropic-managed infrastructure by default
 - [Agent view](https://code.claude.com/docs/en/agent-view): research preview. Run `claude agents` to dispatch sessions that keep running in the background and watch them from one screen
 - [Agent teams](https://code.claude.com/docs/en/agent-teams): experimental and disabled by default. Automated coordination of multiple sessions with shared tasks, messaging, and a team lead
