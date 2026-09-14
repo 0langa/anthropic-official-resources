@@ -28,7 +28,7 @@ In "Manually approve," Claude checks with you before it acts. What that looks li
 
 Claude creates a plan from your prompt, which you can approve before Claude starts. The plan specifies which websites you're allowing Claude to access, as well as the approach it will follow:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1789206300&amp;signature=c464d54d9d4a4f68f6cdadd18a8dd4c7cf2754f098566f58111c1dc6a71d5af7&amp;req=dSgjFcp8nYZdXvMW1HO4zYqyZctP%2FIS0gN0ADj5oqFANMEtxVOvCQ5PbJgnn%0ASpl7mHMPMB5oP9o3V3E%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1789382700&amp;signature=0fa8c02cde391d2ff8c4975c9a1e654506ea4acba78947aca7438cf148fbb5f5&amp;req=dSgjFcp8nYZdXvMW1HO4zYqyZctO9ICwgN0ADj5oqFD9CgGRRro704vBctcy%0AKcqPWBisDKzOSOjKs2o%3D%0A)
 
 Note that Claude will only use the websites listed in the plan, so you’ll need to manually approve any additional access requests.
 
@@ -62,7 +62,7 @@ When you choose "Skip all approvals," Claude doesn't pause to ask, and nothing c
 
 There are some websites on which Claude requires approval for every action. If you navigate to one of these sites, a **New permissions required** prompt will appear in the extension side panel, Claude Cowork, or Claude Code where Claude will ask for permission before accessing the page or taking any action.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1789206300&amp;signature=eba3cd5b966699aef481453f479d1d4db3b27a53b1ccc7f533ce5d47b3cae9cf&amp;req=diYnEsB5nYldXPMW1HO4zZ3Nqm9yiCrv7A4lHPBihAUcrrcpDqlv2P%2FW72Mf%0AMYoSRwlMecf%2BhYJgn9c%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1789382700&amp;signature=f9ec9ecf5f68cbb024b7d56f7c1a8be483ddaf7aedc816c5173579c3bff2e320&amp;req=diYnEsB5nYldXPMW1HO4zZ3Nqm9zgC7r7A4lHPBihAVZxG3GIRMqOkEsMYME%0A%2FjaGRIOETQ2ZkNFpQNM%3D%0A)
 
 ### Permission options
 
