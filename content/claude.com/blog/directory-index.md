@@ -307,6 +307,70 @@ Grid
 
 List
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228e9c51800dde13958_6507d83d1197bb8630131d363fb8bea838d79ca7-1000x1000.svg)
+
+Sep 14, 2026
+
+Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
+
+Claude Code
+
+Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
+
+September 14, 2026
+
+[Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
+
+[Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog/)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
+
+Sep 14, 2026
+
+Claude for Financial Advisors
+
+Product announcements
+
+Claude for Financial Advisors
+
+September 14, 2026
+
+[Claude for Financial Advisors](https://claude.com/blog/claude-for-financial-advisors)Claude for Financial Advisors
+
+[Claude for Financial Advisors](https://claude.com/blog/)Claude for Financial Advisors
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22deea97e4a5b5e5739_8d339ae8ecedecc1409db8f5bbb99c958db56946-1000x1000.svg)
+
+Sep 14, 2026
+
+How healthcare organizations use Claude Tag
+
+Enterprise AI
+
+How healthcare organizations use Claude Tag
+
+September 14, 2026
+
+[How healthcare organizations use Claude Tag](https://claude.com/blog/how-healthcare-organizations-use-claude-tag)How healthcare organizations use Claude Tag
+
+[How healthcare organizations use Claude Tag](https://claude.com/blog/)How healthcare organizations use Claude Tag
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224d39f9b8e905d1823_b68cbb43d7c8f56f0b14cc867e8d4d74445f78b0-1000x1000.svg)
+
+Sep 14, 2026
+
+Deploying AI from pilot to production
+
+Enterprise AI
+
+Deploying AI from pilot to production
+
+September 14, 2026
+
+[Deploying AI from pilot to production](https://claude.com/blog/deploying-ai-from-pilot-to-production)Deploying AI from pilot to production
+
+[Deploying AI from pilot to production](https://claude.com/blog/)Deploying AI from pilot to production
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22252eca371ddd7020f_60d57c0d0bf031e140de678692f7c3ef2d885ce3-1000x1000.svg)
 
 Sep 10, 2026
@@ -481,70 +545,6 @@ August 25, 2026
 
 [Bain & Company joins the Claude Partner Network as a Global Premier partner](https://claude.com/blog/)Bain & Company joins the Claude Partner Network as a Global Premier partner
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22562f020146c9ec973_f8f4644253bde2f901550431b871b6dcf91e5d9d-1000x1000.svg)
-
-Aug 25, 2026
-
-Claude's memory works everywhere, and you decide what's in it
-
-Product announcements
-
-Claude's memory works everywhere, and you decide what's in it
-
-August 25, 2026
-
-[Claude's memory works everywhere, and you decide what's in it](https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it)Claude's memory works everywhere, and you decide what's in it
-
-[Claude's memory works everywhere, and you decide what's in it](https://claude.com/blog/)Claude's memory works everywhere, and you decide what's in it
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226ca443e2e05990c00_83d7d2fe412ceb4dfe627f0d5f3d64aff1a3f5db-1000x1000.svg)
-
-Aug 24, 2026
-
-How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
-
-Claude Code
-
-How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
-
-August 24, 2026
-
-[How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep](https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
-
-[How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep](https://claude.com/blog/)How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
-
-Aug 21, 2026
-
-Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders
-
-Product announcements
-
-Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders
-
-August 21, 2026
-
-[Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders](https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders)Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders
-
-[Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders](https://claude.com/blog/)Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-The AI-Native SDLC playbook
-
-Enterprise AI
-
-The AI-Native SDLC playbook
-
-August 21, 2026
-
-[The AI-Native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-Native SDLC playbook
-
-[The AI-Native SDLC playbook](https://claude.com/blog/)The AI-Native SDLC playbook
-
 [View more](https://claude.com/?b7eea976_page=2)
 
 1 / 16
@@ -554,6 +554,70 @@ Category
 Product
 
 Usecase
+
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
+
+Category
+
+Claude Code
+
+Product
+
+Usecase
+
+September 14, 2026
+
+[Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
+
+[Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog/)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
+
+### Claude for Financial Advisors
+
+Category
+
+Product announcements
+
+Product
+
+Usecase
+
+September 14, 2026
+
+[Claude for Financial Advisors](https://claude.com/blog/claude-for-financial-advisors)Claude for Financial Advisors
+
+[Claude for Financial Advisors](https://claude.com/blog/)Claude for Financial Advisors
+
+### How healthcare organizations use Claude Tag
+
+Category
+
+Enterprise AI
+
+Product
+
+Usecase
+
+September 14, 2026
+
+[How healthcare organizations use Claude Tag](https://claude.com/blog/how-healthcare-organizations-use-claude-tag)How healthcare organizations use Claude Tag
+
+[How healthcare organizations use Claude Tag](https://claude.com/blog/)How healthcare organizations use Claude Tag
+
+### Deploying AI from pilot to production
+
+Category
+
+Enterprise AI
+
+Product
+
+Usecase
+
+September 14, 2026
+
+[Deploying AI from pilot to production](https://claude.com/blog/deploying-ai-from-pilot-to-production)Deploying AI from pilot to production
+
+[Deploying AI from pilot to production](https://claude.com/blog/)Deploying AI from pilot to production
 
 ### T. Rowe Price brings more of Claude to its investment process
 
@@ -730,70 +794,6 @@ August 25, 2026
 [Bain & Company joins the Claude Partner Network as a Global Premier partner](https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner)Bain & Company joins the Claude Partner Network as a Global Premier partner
 
 [Bain & Company joins the Claude Partner Network as a Global Premier partner](https://claude.com/blog/)Bain & Company joins the Claude Partner Network as a Global Premier partner
-
-### Claude's memory works everywhere, and you decide what's in it
-
-Category
-
-Product announcements
-
-Product
-
-Usecase
-
-August 25, 2026
-
-[Claude's memory works everywhere, and you decide what's in it](https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it)Claude's memory works everywhere, and you decide what's in it
-
-[Claude's memory works everywhere, and you decide what's in it](https://claude.com/blog/)Claude's memory works everywhere, and you decide what's in it
-
-### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
-
-Category
-
-Claude Code
-
-Product
-
-Usecase
-
-August 24, 2026
-
-[How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep](https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
-
-[How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep](https://claude.com/blog/)How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
-
-### Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders
-
-Category
-
-Product announcements
-
-Product
-
-Usecase
-
-August 21, 2026
-
-[Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders](https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders)Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders
-
-[Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders](https://claude.com/blog/)Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders
-
-### The AI-Native SDLC playbook
-
-Category
-
-Enterprise AI
-
-Product
-
-Usecase
-
-August 21, 2026
-
-[The AI-Native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-Native SDLC playbook
-
-[The AI-Native SDLC playbook](https://claude.com/blog/)The AI-Native SDLC playbook
 
 [View more](https://claude.com/?d7430fcd_page=2)
 

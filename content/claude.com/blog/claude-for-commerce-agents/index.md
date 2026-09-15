@@ -173,6 +173,18 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
+
+Sep 14, 2026
+
+### Claude for Financial Advisors
+
+Product announcements
+
+[Claude for Financial Advisors](https://claude.com/blog/claude-for-commerce-agents)Claude for Financial Advisors
+
+[Claude for Financial Advisors](https://claude.com/blog/claude-for-financial-advisors)Claude for Financial Advisors
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
 
 Sep 8, 2026
@@ -208,18 +220,6 @@ Product announcements
 [Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/claude-for-commerce-agents)Claude for Teachers, now available for U.S. K-12 schools and districts
 
 [Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts)Claude for Teachers, now available for U.S. K-12 schools and districts
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg)
-
-Aug 26, 2026
-
-### Claude gets its own browser in Cowork
-
-Product announcements
-
-[Claude gets its own browser in Cowork](https://claude.com/blog/claude-for-commerce-agents)Claude gets its own browser in Cowork
-
-[Claude gets its own browser in Cowork](https://claude.com/blog/cowork-built-in-browser)Claude gets its own browser in Cowork
 
 ## Transform how your organization operates with Claude
 

@@ -1,0 +1,23 @@
+import{Gp as e,qp as t}from"../../../../../content-de-meta-e63dco2m.js";import{t as n}from"../../../../../your-first-prompt-ch0p9izq.js";var r=e();function i(e){let i={code:"code",h2:"h2",img:"img",li:"li",p:"p",strong:"strong",ul:"ul",...t(),...e.components},{CodePrompt:a,LessonVideo:s}=i;return a||o("CodePrompt",!0),s||o("LessonVideo",!0),(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(s,{youtubeId:"gbetp6D7J_Q",title:"Your first prompt",transcript:n,children:(0,r.jsx)(i.p,{children:`You talk to Claude Code like you would any AI assistant. When entering your
+prompt, here are some things to consider that can both protect you and make
+things easier.`})}),`
+`,(0,r.jsx)(i.h2,{id:"choosing-a-permission-mode",children:"Choosing a Permission Mode"}),`
+`,(0,r.jsxs)(i.p,{children:["You can choose how much oversight to keep while Claude works. Press ",(0,r.jsx)(i.code,{children:"Shift + Tab"})," to cycle between modes."]}),`
+`,(0,r.jsxs)(i.ul,{children:[`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"Manual mode:"})," Claude asks permission each time it wants to edit a file or run a command."]}),`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"Auto-accept mode:"})," File edits are automatically approved, but commands still require your permission."]}),`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"Auto mode:"})," Claude works without permission prompts while a background safety check screens each action; when something is blocked, Claude usually finds a safer approach or asks you for the go-ahead."]}),`
+`]}),`
+`,(0,r.jsx)(i.p,{children:"There's no right or wrong answer — it's whatever you're comfortable with."}),`
+`,(0,r.jsx)(i.p,{children:(0,r.jsx)(i.img,{src:"./03c5a203be29.jpg",alt:"Claude Code in auto-accept mode, reading files and working through a task"})}),`
+`,(0,r.jsx)(i.h2,{id:"plan-mode",children:"Plan Mode"}),`
+`,(0,r.jsxs)(i.p,{children:["Within the ",(0,r.jsx)(i.code,{children:"Shift + Tab"})," menu is ",(0,r.jsx)(i.strong,{children:"Plan Mode"}),". Plan mode takes your prompt and uses read-only tools to analyze your codebase and research your suggested implementation. It will ask clarifying questions along the way, then return a detailed plan it can execute."]}),`
+`,(0,r.jsx)(i.p,{children:"Plan mode is great for planning complex changes or doing a safe code review. Many times you'll be asking Claude to handle multi-step implementations toward a feature, and this is exactly where Plan Mode excels."}),`
+`,(0,r.jsx)(i.p,{children:(0,r.jsx)(i.img,{src:"./fb00d337c540.jpg",alt:"Claude Code with plan mode on, showing the status bar indicator"})}),`
+`,(0,r.jsx)(i.h2,{id:"example-add-a-dark-mode-toggle",children:"Example: Add a Dark Mode Toggle"}),`
+`,(0,r.jsxs)(i.p,{children:["Let's walk through an example. Say you have an application that needs a dark mode toggle. Open the root directory of your project and run ",(0,r.jsx)(i.code,{children:"claude"}),". Press ",(0,r.jsx)(i.code,{children:"Shift + Tab"})," a couple of times to enter Plan Mode, then write a prompt like:"]}),`
+`,(0,r.jsx)(a,{children:(0,r.jsx)(i.p,{children:"My app needs a dark mode implemented across the entire app. Can you create a toggle switch on the header that allows a user to toggle between light mode and dark mode? I need you to find a good contrast color that works based on my existing light theme."})}),`
+`,(0,r.jsx)(i.p,{children:(0,r.jsx)(i.img,{src:"./39b0125f002f.jpg",alt:"Entering the dark mode prompt in Claude Code with plan mode enabled"})}),`
+`,(0,r.jsx)(i.p,{children:"Let Claude plan it out. After reviewing the plan, if it looks good, accept it and let Claude work through it — depending on your permission mode, it may check in with you along the way. At the end, you can see exactly what Claude did and how it reached its conclusions."}),`
+`,(0,r.jsx)(i.h2,{id:"recap",children:"Recap"}),`
+`,(0,r.jsx)(i.p,{children:"When using Claude Code, try to be as descriptive as possible with your prompt. If you want to stay in the loop at every step, you can. Use Plan Mode to let Claude dig into the details of what you want to achieve before executing on any code."})]})}function a(e={}){let{wrapper:n}={...t(),...e.components};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}function o(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{a as default};

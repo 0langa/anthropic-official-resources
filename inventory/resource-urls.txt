@@ -829,6 +829,7 @@ https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-cod
 https://claude.com/blog/agent-capabilities-api
 https://claude.com/blog/agent-identity-access-model
 https://claude.com/blog/agent-view-in-claude-code
+https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic
 https://claude.com/blog/ai-ci-cd-on-call
 https://claude.com/blog/ai-code-migration
 https://claude.com/blog/amazon-bedrock-general-availability
@@ -888,6 +889,7 @@ https://claude.com/blog/claude-excel-powerpoint-updates
 https://claude.com/blog/claude-for-chrome
 https://claude.com/blog/claude-for-commerce-agents
 https://claude.com/blog/claude-for-enterprise
+https://claude.com/blog/claude-for-financial-advisors
 https://claude.com/blog/claude-for-foundation-models
 https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts
 https://claude.com/blog/claude-for-the-legal-industry
@@ -931,6 +933,7 @@ https://claude.com/blog/cowork-plugins-finance
 https://claude.com/blog/cowork-research-preview
 https://claude.com/blog/cowork-web-mobile
 https://claude.com/blog/create-files
+https://claude.com/blog/deploying-ai-from-pilot-to-production
 https://claude.com/blog/deploying-claude-across-financial-services
 https://claude.com/blog/deploying-claude-across-the-legal-industry
 https://claude.com/blog/dispatch-and-computer-use
@@ -967,6 +970,7 @@ https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-
 https://claude.com/blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system
 https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code
 https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026
+https://claude.com/blog/how-healthcare-organizations-use-claude-tag
 https://claude.com/blog/how-jetbrains-evaluates-and-deploys-claude-fable-5
 https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude
 https://claude.com/blog/how-leading-retailers-are-turning-ai-pilots-into-enterprise-wide-transformation
@@ -1291,6 +1295,9 @@ https://code.claude.com/docs/en/whats-new/2026-w30
 https://code.claude.com/docs/en/whats-new/2026-w32
 https://code.claude.com/docs/en/whats-new/2026-w33
 https://code.claude.com/docs/en/whats-new/2026-w34
+https://code.claude.com/docs/en/whats-new/2026-w35
+https://code.claude.com/docs/en/whats-new/2026-w36
+https://code.claude.com/docs/en/whats-new/2026-w37
 https://code.claude.com/docs/en/whats-new/index
 https://code.claude.com/docs/en/workflows
 https://code.claude.com/docs/en/worktrees
@@ -3242,6 +3249,8 @@ https://support.claude.com/en/articles/16764057-create-surveys-for-your-organiza
 https://support.claude.com/en/articles/16764810-assign-a-program-to-workspaces-in-claude-console
 https://support.claude.com/en/articles/16824617-turn-on-data-retention-for-a-workspace-in-a-zero-data-retention-organization
 https://support.claude.com/en/articles/16893491-get-started-with-smart-reports
+https://support.claude.com/en/articles/16948886
+https://support.claude.com/en/articles/16948886-let-team-members-run-smart-reports-for-specific-groups
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer

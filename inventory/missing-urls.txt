@@ -7,6 +7,7 @@ https://claude.com/blog/category/announcements
 https://claude.com/blog/category/claude-code
 https://claude.com/blog/category/enterprise-ai
 https://claude.com/blog/cowork-research-preview
+https://claude.com/blog/deploying-ai-from-pilot-to-production
 https://claude.com/blog/docx-js.md
 https://claude.com/blog/ooxml.md
 https://claude.com/blog/prompt-engineering-best-practices
@@ -66,6 +67,7 @@ https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents
 https://support.claude.com/en/articles/14855664-use-claude-for-outlook
 https://support.claude.com/en/articles/15330089
 https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion
+https://support.claude.com/en/articles/16948886
 https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data
 https://support.claude.com/en/articles/9945615-intro-to-artifacts
 https://support.claude.com/en/articles/9945670-using-the-github-integration

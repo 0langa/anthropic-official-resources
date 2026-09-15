@@ -1,0 +1,16 @@
+import{Gp as e,qp as t}from"../../../../../content-de-meta-e63dco2m.js";var n=e();function r(e){let r={a:"a",em:"em",h2:"h2",h4:"h4",li:"li",p:"p",strong:"strong",ul:"ul",...t(),...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{id:"what-youll-learn",children:"What you'll learn"}),`
+`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:"Estimated time: ~5 minutes"})}),`
+`,(0,n.jsx)(r.p,{children:"This short lesson sets you up to facilitate. By the end you'll be able to:"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:["See how this Train the Trainer kit connects to ",(0,n.jsx)(r.em,{children:"AI Fluency for pK-12 Educators"})]}),`
+`,(0,n.jsx)(r.li,{children:"Understand why educator voice belongs at the center of AI decisions"}),`
+`,(0,n.jsx)(r.li,{children:"Know what's in the kit and how to use it to run your own session"}),`
+`]}),`
+`,(0,n.jsx)(r.h2,{id:"from-learner-to-trainer",children:"From learner to trainer"}),`
+`,(0,n.jsxs)(r.p,{children:["If you've completed ",(0,n.jsx)(r.a,{href:"/courses/ai-fluency-for-k-12-educators",children:(0,n.jsx)(r.strong,{children:"AI Fluency for pK-12 Educators"})}),", you already have the foundation: the 4D Framework, the guardrails, and the judgment to use AI well in your own practice. This course turns that foundation outward, giving you a ready-to-run deck, a facilitator guide, and grade-band exercises to walk a room of your colleagues through the same journey, in your voice."]}),`
+`,(0,n.jsxs)(r.p,{children:["AI is reshaping education right now, and the decisions being made today will shape classrooms for years. Educators have to be in the room when those decisions get made: you're closest to the impact, and no algorithm can replicate the relational, human work at the heart of teaching. That's the ",(0,n.jsx)(r.em,{children:"why"})," behind everything you'll facilitate in this kit."]}),`
+`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:"Haven't taken the main course yet? Start there first; this kit assumes you've already built your own fluency."})}),`
+`,(0,n.jsx)(r.h2,{id:"whats-next",children:"What's next"}),`
+`,(0,n.jsxs)(r.p,{children:["The next lesson, ",(0,n.jsx)(r.strong,{children:"Train the trainer kit"}),", lays out everything included and how to use it: a ready-to-run workshop deck, a facilitator guide with slide-by-slide talking points and timing (built into the deck as speaker notes you can toggle on), and a learner workbook to hand to your teachers."]}),`
+`,(0,n.jsx)(r.h4,{children:"Acknowledgments and license"}),`
+`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:"Copyright 2026 Anthropic and the American Federation of Teachers. Based on the AI Fluency Framework developed by Prof. Rick Dakan (Ringling College of Art and Design) and Prof. Joseph Feller (University College Cork). Released under the CC BY-NC-SA 4.0 license."})})]})}function i(e={}){let{wrapper:i}={...t(),...e.components};return i?(0,n.jsx)(i,{...e,children:(0,n.jsx)(r,{...e})}):r(e)}export{i as default};

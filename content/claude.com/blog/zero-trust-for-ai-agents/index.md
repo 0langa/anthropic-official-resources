@@ -75,6 +75,18 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224d39f9b8e905d1823_b68cbb43d7c8f56f0b14cc867e8d4d74445f78b0-1000x1000.svg)
+
+Sep 14, 2026
+
+### Deploying AI from pilot to production
+
+Enterprise AI
+
+[Deploying AI from pilot to production](https://claude.com/blog/zero-trust-for-ai-agents)Deploying AI from pilot to production
+
+[Deploying AI from pilot to production](https://claude.com/blog/deploying-ai-from-pilot-to-production)Deploying AI from pilot to production
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
 
 Sep 10, 2026
@@ -87,41 +99,29 @@ Enterprise AI
 
 [What 1,000 small business owners taught us about AI](https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai)What 1,000 small business owners taught us about AI
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228e9c51800dde13958_6507d83d1197bb8630131d363fb8bea838d79ca7-1000x1000.svg)
 
-Sep 8, 2026
+Sep 14, 2026
 
-### Reducing cost and improving performance with Claude Platform
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-Agents
+Claude Code
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/zero-trust-for-ai-agents)Reducing cost and improving performance with Claude Platform
+[Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog/zero-trust-for-ai-agents)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
+[Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22deea97e4a5b5e5739_8d339ae8ecedecc1409db8f5bbb99c958db56946-1000x1000.svg)
 
-Jun 24, 2026
+Sep 14, 2026
 
-### Building effective human-agent teams
+### How healthcare organizations use Claude Tag
 
 Enterprise AI
 
-[Building effective human-agent teams](https://claude.com/blog/zero-trust-for-ai-agents)Building effective human-agent teams
+[How healthcare organizations use Claude Tag](https://claude.com/blog/zero-trust-for-ai-agents)How healthcare organizations use Claude Tag
 
-[Building effective human-agent teams](https://claude.com/blog/building-effective-human-agent-teams)Building effective human-agent teams
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228c83775fcc75f4e6d_74409af25137110ac04cc39e4d5ea0a2fbcea421-1000x1000.svg)
-
-Sep 2, 2026
-
-### Building commerce agents with Claude
-
-Product announcements
-
-[Building commerce agents with Claude](https://claude.com/blog/zero-trust-for-ai-agents)Building commerce agents with Claude
-
-[Building commerce agents with Claude](https://claude.com/blog/claude-for-commerce-agents)Building commerce agents with Claude
+[How healthcare organizations use Claude Tag](https://claude.com/blog/how-healthcare-organizations-use-claude-tag)How healthcare organizations use Claude Tag
 
 ## Transform how your organization operates with Claude
 

@@ -92,6 +92,18 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
+
+Sep 14, 2026
+
+### Claude for Financial Advisors
+
+Product announcements
+
+[Claude for Financial Advisors](https://claude.com/blog/cowork-plugins)Claude for Financial Advisors
+
+[Claude for Financial Advisors](https://claude.com/blog/claude-for-financial-advisors)Claude for Financial Advisors
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
 
 Sep 8, 2026
@@ -127,18 +139,6 @@ Agents
 [A guide to the anatomy of effective commerce agents](https://claude.com/blog/cowork-plugins)A guide to the anatomy of effective commerce agents
 
 [A guide to the anatomy of effective commerce agents](https://claude.com/blog/the-anatomy-of-effective-commerce-agents)A guide to the anatomy of effective commerce agents
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a90479f5433ec75978f1e8a_Object-Apple.svg)
-
-Aug 28, 2026
-
-### Claude for Teachers, now available for U.S. K-12 schools and districts
-
-Product announcements
-
-[Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/cowork-plugins)Claude for Teachers, now available for U.S. K-12 schools and districts
-
-[Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts)Claude for Teachers, now available for U.S. K-12 schools and districts
 
 ## Transform how your organization operates with Claude
 

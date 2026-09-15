@@ -1,0 +1,27 @@
+import{Gp as e,qp as t}from"../../../../../content-de-meta-e63dco2m.js";import{t as n}from"../../../../../ai-fluency-for-builders-lf8698qp.js";var r=e();function i(e){let i={h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",ul:"ul",...t(),...e.components},{CourseRoadmap:a,Exercise:s,ExerciseDeck:c,LessonVideo:l}=i;return a||o("CourseRoadmap",!0),s||o("Exercise",!0),c||o("ExerciseDeck",!0),l||o("LessonVideo",!0),(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(i.h2,{id:"introduction-to-ai-fluency-for-builders",children:"Introduction to AI Fluency for builders"}),`
+`,(0,r.jsx)(l,{youtubeId:"YWVDXsUf8NY",title:"Introduction to AI Fluency for builders",duration:"4 min",transcript:n,children:(0,r.jsx)(i.p,{children:`This video introduces builders — product people, designers, and makers — to
+the course, explains what AI Fluency actually means in practice, and
+previews the 4D Framework that will anchor every lesson that follows.`})}),`
+`,(0,r.jsx)(a,{sections:[{title:"4D Framework for AI Fluency",description:"Delegation, description, discernment, and diligence—the four competencies behind every productive AI collaboration."},{title:"AI capabilities and limitations",description:"What today's AI can and can't do reliably, and why that shapes how you put it to work as a builder."},{title:"Delegation & the Builder's Toolkit",description:"How to decompose a problem, decide what AI handles at each stage, and define done before you write a line of code."},{title:"Discernment for code and UX",description:"Evaluating AI output against what actually matters: correctness, quality, fit, experience, and responsibility."},{title:"Shipping and next steps",description:"Taking full ownership of what you build with AI, and where to keep building your fluency."}]}),`
+`,(0,r.jsx)(i.h2,{id:"key-takeaways",children:"Key takeaways"}),`
+`,(0,r.jsxs)(i.ul,{children:[`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"Builders own the full arc"})," from customer problem to shipped solution."]}),`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"AI Fluency"})," means working with AI effectively, efficiently, ethically, and safely."]}),`
+`,(0,r.jsxs)(i.li,{children:["The ",(0,r.jsx)(i.strong,{children:"4D Framework"})," (Delegation, Description, Discernment, Diligence) anchors every lesson in this course."]}),`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"Delegating implementation"})," is usually safe. Delegating judgment is usually not."]}),`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"Most AI failures"})," trace back to description, discernment, or diligence failures made earlier."]}),`
+`]}),`
+`,(0,r.jsx)(i.h2,{id:"exercise",children:"Exercise"}),`
+`,(0,r.jsx)(c,{children:(0,r.jsxs)(s,{title:"Build your builder brief",note:"This exercise creates a reusable context document you'll give AI at the start of any project. Think of it as onboarding your AI collaborator — you'll reference it in exercises throughout the course.",children:[(0,r.jsx)(i.h3,{children:"Part I: Self-Reflection"}),(0,r.jsx)(i.p,{children:"Before opening any AI tool, write down your answers to these four questions:"}),(0,r.jsxs)(i.ul,{children:[`
+`,(0,r.jsx)(i.li,{children:"What are you building right now, or planning to build? Name the product, the users, and the problem it solves."}),`
+`,(0,r.jsx)(i.li,{children:"What’s your role — and what are you personally responsible for shipping?"}),`
+`,(0,r.jsx)(i.li,{children:"Where do you already use AI? Where have you avoided it, and why?"}),`
+`,(0,r.jsx)(i.li,{children:"Complete this sentence: “If AI could handle _______, I could spend more time on _______, which is where the most important decisions get made.”"}),`
+`]}),(0,r.jsx)(i.h3,{children:"Part II: Build your brief with AI"}),(0,r.jsx)(i.p,{children:"Open Claude (or any AI assistant). Tell it you’re a builder and you want to create a reusable context document for future AI collaboration. Share your Part I answers and ask it to draft a brief you can paste into future sessions."}),(0,r.jsx)(i.p,{children:"Key areas to cover: what you’re building and who it’s for, your role and what you own, your constraints (team size, stack, timelines, non-negotiables), and where you want AI involved — and where you don’t."}),(0,r.jsx)(i.p,{children:"Review it together and add anything missing. Request a format that’s easy to copy and reuse. This is your builder brief for the course."})]})}),`
+`,(0,r.jsx)(i.h2,{id:"lesson-reflection",children:"Lesson reflection"}),`
+`,(0,r.jsxs)(i.ul,{children:[`
+`,(0,r.jsx)(i.li,{children:"When you completed the sentence “If AI could handle ___, I could spend more time on ___” — what did that reveal about where your energy is going versus where it should be?"}),`
+`,(0,r.jsx)(i.li,{children:"In your builder brief, what constraints or values did you name that most AI interactions have been missing?"}),`
+`]}),`
+`,(0,r.jsx)(i.h2,{id:"whats-next",children:"What's next"}),`
+`,(0,r.jsx)(i.p,{children:"In the next lesson, we introduce the 4D Framework — four interconnected competencies that will shape every AI collaboration in this course: Delegation, Description, Discernment, and Diligence."})]})}function a(e={}){let{wrapper:n}={...t(),...e.components};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}function o(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{a as default};

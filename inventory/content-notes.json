@@ -284,6 +284,9 @@
   "https://claude.com/blog/claude-for-chrome": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://claude.com/blog/claude-for-financial-advisors": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
   "https://claude.com/blog/claude-for-the-legal-industry": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
@@ -1059,6 +1062,15 @@
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w34": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w35": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w36": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/whats-new/2026-w37": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://code.claude.com/docs/en/whats-new/index": [
@@ -6383,6 +6395,9 @@
   "https://support.claude.com/en/articles/16893491-get-started-with-smart-reports": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/16948886-let-team-members-run-smart-reports-for-specific-groups": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [
     "Native source; upstream MDX components retained."
   ],
@@ -6782,9 +6797,8 @@
   "https://www.anthropic.com/engineering/harness-design-long-running-apps": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
     "Could not read tab 'Sprite editor': TimeoutError",
-    "Could not read tab 'AI game design': TimeoutError",
-    "Could not read tab 'AI game design': TimeoutError",
-    "Could not read tab 'Game play': TimeoutError"
+    "Could not read tab 'Sprite editor': TimeoutError",
+    "Could not read tab 'AI game design': TimeoutError"
   ],
   "https://www.anthropic.com/news/analysis-tool": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -6826,31 +6840,21 @@
   "https://www.anthropic.com/news/claude-code-on-the-web": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
-  "https://www.anthropic.com/news/claude-fable-5-mythos-5": [
-    "Could not read tab 'VibeCAD': TimeoutError",
-    "Could not read tab 'Fluid with Classical EDM': TimeoutError"
-  ],
   "https://www.anthropic.com/news/claude-for-chrome": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
-  "https://www.anthropic.com/news/claude-opus-4-5": [
-    "Could not read tab 'BrowseComp-Plus': TimeoutError",
-    "Could not read tab 'Vending-Bench': TimeoutError"
-  ],
   "https://www.anthropic.com/news/claude-opus-4-6": [
-    "Could not read tab 'Agentic search': TimeoutError",
     "Could not read tab 'Long-context reasoning': TimeoutError",
-    "Could not read tab 'Cybersecurity': TimeoutError"
-  ],
-  "https://www.anthropic.com/news/claude-opus-4-7": [
-    "Could not read tab 'Long-context reasoning': TimeoutError",
-    "Could not read tab 'Biology': TimeoutError"
+    "Could not read tab 'Multilingual coding': TimeoutError",
+    "Could not read tab 'Cybersecurity': TimeoutError",
+    "Could not read tab 'Life sciences': TimeoutError"
   ],
   "https://www.anthropic.com/news/claude-opus-5": [
-    "Could not read tab 'CursorBench': TimeoutError",
     "Could not read tab 'AA Coding Agent Index': TimeoutError",
     "Could not read tab 'GDPval-AA v2': TimeoutError",
-    "Could not read tab 'HLE': TimeoutError"
+    "Could not read tab 'HLE': TimeoutError",
+    "Could not read tab 'DeepSearchQA': TimeoutError",
+    "Could not read tab 'Cell artifact': TimeoutError"
   ],
   "https://www.anthropic.com/news/connectors-directory": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -6935,16 +6939,15 @@
     "Content dependencies blocked by scope or robots policy: https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html"
   ],
   "https://www.anthropic.com/research/claude-opus-5": [
-    "Could not read tab 'CursorBench': TimeoutError",
-    "Could not read tab 'GDPval-AA v2': TimeoutError",
-    "Could not read tab 'AutomationBench': TimeoutError",
-    "Could not read tab 'DeepSearchQA': TimeoutError",
-    "Could not read tab 'Cell artifact': TimeoutError"
+    "Could not read tab 'DeepSearchQA': TimeoutError"
   ],
   "https://www.anthropic.com/research/claude-sonnet-5": [
     "Could not read tab 'Agentic computer use': TimeoutError"
   ],
   "https://www.anthropic.com/research/claude-values-models-languages": [
+    "Could not read tab '': TimeoutError",
+    "Could not read tab '': TimeoutError",
+    "Could not read tab '': TimeoutError",
     "Could not read tab '': TimeoutError"
   ],
   "https://www.anthropic.com/research/cyber-toolkits-update": [

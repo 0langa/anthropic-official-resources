@@ -128,6 +128,18 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224d39f9b8e905d1823_b68cbb43d7c8f56f0b14cc867e8d4d74445f78b0-1000x1000.svg)
+
+Sep 14, 2026
+
+### Deploying AI from pilot to production
+
+Enterprise AI
+
+[Deploying AI from pilot to production](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai)Deploying AI from pilot to production
+
+[Deploying AI from pilot to production](https://claude.com/blog/deploying-ai-from-pilot-to-production)Deploying AI from pilot to production
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
 
 Sep 10, 2026
@@ -140,41 +152,29 @@ Enterprise AI
 
 [What 1,000 small business owners taught us about AI](https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai)What 1,000 small business owners taught us about AI
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228e9c51800dde13958_6507d83d1197bb8630131d363fb8bea838d79ca7-1000x1000.svg)
 
-Jun 24, 2026
+Sep 14, 2026
 
-### Building effective human-agent teams
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-Enterprise AI
+Claude Code
 
-[Building effective human-agent teams](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai)Building effective human-agent teams
+[Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-[Building effective human-agent teams](https://claude.com/blog/building-effective-human-agent-teams)Building effective human-agent teams
+[Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228c83775fcc75f4e6d_74409af25137110ac04cc39e4d5ea0a2fbcea421-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
 
-Sep 2, 2026
+Sep 14, 2026
 
-### Building commerce agents with Claude
+### Claude for Financial Advisors
 
 Product announcements
 
-[Building commerce agents with Claude](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai)Building commerce agents with Claude
+[Claude for Financial Advisors](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai)Claude for Financial Advisors
 
-[Building commerce agents with Claude](https://claude.com/blog/claude-for-commerce-agents)Building commerce agents with Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
-
-Aug 28, 2026
-
-### How Anthropic employees use Claude Tag
-
-Enterprise AI
-
-[How Anthropic employees use Claude Tag](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai)How Anthropic employees use Claude Tag
-
-[How Anthropic employees use Claude Tag](https://claude.com/blog/how-anthropic-employees-use-claude-tag)How Anthropic employees use Claude Tag
+[Claude for Financial Advisors](https://claude.com/blog/claude-for-financial-advisors)Claude for Financial Advisors
 
 ## Transform how your organization operates with Claude
 
