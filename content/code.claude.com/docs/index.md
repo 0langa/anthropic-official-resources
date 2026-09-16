@@ -80,7 +80,7 @@ The VS Code extension provides inline diffs, @-mentions, plan review, and conver
 
 Or search for “Claude Code” in the Extensions view (`Cmd+Shift+X` on Mac, `Ctrl+Shift+X` on Windows/Linux). After installing, open the Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`), type “Claude Code”, and select **Open in New Tab**.[Get started with VS Code →](https://code.claude.com/docs/en/vs-code)
 
-A standalone app for running Claude Code outside your IDE or terminal. Review diffs visually, run multiple sessions side by side, schedule recurring tasks, and kick off cloud sessions.Download and install:
+A standalone app for running Claude Code outside your IDE or terminal. Review diffs visually, run multiple sessions side by side, schedule recurring tasks, and start cloud sessions.Download and install:
 
 - [macOS](https://claude.ai/api/desktop/darwin/universal/dmg/latest/redirect) (Intel and Apple Silicon)
 - [Windows](https://claude.ai/api/desktop/win32/x64/setup/latest/redirect) (x64)
@@ -89,7 +89,7 @@ A standalone app for running Claude Code outside your IDE or terminal. Review di
 
 After installing, launch Claude, sign in, and click the **Code** tab to start coding. The app includes Claude Code, so you don’t need to install the CLI separately. A [paid subscription](https://claude.com/pricing) is required.[Learn more about the desktop app →](https://code.claude.com/docs/en/desktop-quickstart)
 
-Run Claude Code in your browser with no local setup. Kick off long-running tasks and check back when they’re done, work on repos you don’t have locally, or run multiple tasks in parallel. Available on desktop browsers and [the Claude app for iOS and Android](https://code.claude.com/docs/en/mobile).Start coding at [claude.ai/code](https://claude.ai/code).[Get started on the web →](https://code.claude.com/docs/en/web-quickstart)
+Run Claude Code in your browser with no local setup. Kick off long-running tasks and check back when they’re done, work on repos you don’t have locally, or run multiple tasks in parallel. Available on desktop browsers and [the Claude app for iOS and Android](https://code.claude.com/docs/en/mobile).Start coding at [claude.ai/code](https://claude.ai/code).[Get started →](https://code.claude.com/docs/en/web-quickstart)
 
 A plugin for IntelliJ IDEA, PyCharm, WebStorm, and other JetBrains IDEs with interactive diff viewing and selection context sharing.Install the [Claude Code plugin](https://plugins.jetbrains.com/plugin/27310-claude-code-beta-) from the JetBrains Marketplace and restart your IDE. The plugin requires the Claude Code CLI, installed separately; see the [JetBrains setup steps](https://code.claude.com/docs/en/jetbrains).[Get started with JetBrains →](https://code.claude.com/docs/en/jetbrains)
 
@@ -162,7 +162,7 @@ Sessions aren’t tied to a single surface. Move work between them as your conte
 
 - Step away from your desk and keep working from your phone or any browser with [Remote Control](https://code.claude.com/docs/en/remote-control)
 - Message [Dispatch](https://code.claude.com/docs/en/desktop) a task from your phone and open the Desktop session it creates
-- Kick off a long-running task on the [web](https://code.claude.com/docs/en/claude-code-on-the-web) or the [Claude mobile app](https://code.claude.com/docs/en/mobile), then pull it into your terminal with `claude --teleport`. Teleport requires a claude.ai subscription.
+- Start a long-running task on the [web](https://code.claude.com/docs/en/claude-code-on-the-web) or the [Claude mobile app](https://code.claude.com/docs/en/mobile), then pull it into your terminal with `claude --teleport`. Teleport requires a claude.ai subscription.
 - Run `/desktop` to continue your current terminal session in the [Desktop app](https://code.claude.com/docs/en/desktop), where you can review diffs visually. The `/desktop` handoff requires a claude.ai subscription. Available on macOS and x64 Windows.
 - Route tasks from team chat: mention `@Claude` in [Slack](https://code.claude.com/docs/en/slack) with a bug report and get a pull request back
 

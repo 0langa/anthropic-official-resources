@@ -44,7 +44,7 @@ Build your skills through written guides, and video lessons covering everything 
 
 ### Delegating your first task in Claude Cowork
 
-4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-jeypcq29.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bsl631sl.png)
+4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
 ### Customize Claude Cowork
 

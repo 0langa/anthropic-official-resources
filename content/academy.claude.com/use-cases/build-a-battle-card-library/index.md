@@ -16,7 +16,7 @@ Claude can read through hundreds of deal notes and identify recurring themes in 
 
 Ask Claude to create a competitive dashboard for multiple competitors, with individual battlecards featuring specific talk tracks, objection handling scripts, and positioning strategies, all based on relevant information from your CRM and competitive intelligence sources.
 
-Pull our HubSpot closed-lost deals from the last 6 months where DataGuard, BackupPro, or SecureVault appear in the competitor field. Read the deal notes for each competitor and tell me what patterns you see for each one. Search the web for their websites, G2 reviews, and recent positioning to find additional information.
+Pull the closed-lost deals in our CRM from the last 6 months where DataGuard, BackupPro, or SecureVault appear in the competitor field. Read the deal notes for each competitor and tell me what patterns you see for each one. Search the web for their websites, G2 reviews, and recent positioning to find additional information.
 
 Then, build a React-based competitive intelligence dashboard with a list view showing all three competitors and detailed battlecards for each. Build it like a modern analytics dashboard - clean, flat, metric-dense, with that tech meets creative minimalism. Think calculator app but for competitive intelligence.
 
@@ -30,11 +30,17 @@ Claude needs details about your product, your competitor, and your typical sales
 
 ### Required context[](https://academy.claude.com/use-cases/build-a-battle-card-library)
 
-Connect your CRM, like [HubSpot(opens in new tab)](https://claude.ai/directory/hubspot), so Claude can pull your closed-lost deals automatically.
+Connect your CRM, like [HubSpot(opens in new tab)](https://claude.ai/directory/hubspot) or [Salesforce(opens in new tab)](https://claude.ai/directory/salesforce-headless-360), so Claude can pull your closed-lost deals automatically.
 
 Make sure [Web Search(opens in new tab)](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search) is turned on so Claude can research competitor sites and reviews.
 
 Upload a screenshot of your website or sales materials if you want the battlecard to match your brand's colors and fonts.
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)
+
+Salesforce
+
+[Connect](https://claude.ai/directory/salesforce-headless-360)
 
 
 
@@ -52,7 +58,7 @@ Website reference photoFILE
 
 Claude produces a comprehensive battlecard structured for quick reference during sales calls, including competitive positioning, differentiation strategies, objection handling scripts, and proven talk tracks that help sales teams win more competitive deals.
 
-II've created a competitive intelligence dashboard tracking DataGuard, BackupPro, and SecureVault based on your HubSpot data and competitive research.
+I've created a competitive intelligence dashboard tracking DataGuard, BackupPro, and SecureVault based on your CRM data and competitive research.
 
 **Overview page:**
 
@@ -103,7 +109,7 @@ Compare our current DataGuard intelligence to the battlecard from Q2. What has c
 
 ### Combine multiple data sources for better intelligence[](https://academy.claude.com/use-cases/build-a-battle-card-library)
 
-Connect your CRM for sales data, Google Drive for competitive research documents, and Slack for team discussions about competitor challenges. Claude finds patterns across all three sources, creating richer battlecards with more context. For example, if your Slack #sales channel mentions DataGuard's implementation delays and your HubSpot notes confirm it, Claude will emphasize that vulnerability.
+Connect your CRM for sales data, Google Drive for competitive research documents, and Slack for team discussions about competitor challenges. Claude finds patterns across all three sources, creating richer battlecards with more context. For example, if your Slack #sales channel mentions DataGuard's implementation delays and your CRM notes confirm it, Claude will emphasize that vulnerability.
 
 ### Always verify specific facts before sharing[](https://academy.claude.com/use-cases/build-a-battle-card-library)
 
@@ -113,7 +119,7 @@ Claude excels at identifying patterns in your deal notes and synthesizing inform
 
 Equip your sales team with unified competitive intelligence. Work with Claude to synthesize your market knowledge across multiple competitors into a dashboard that helps you close more deals.
 
-Pull our HubSpot closed-lost deals from the last 6 months where DataGuard, BackupPro, or SecureVault appear in the competitor field. Read the deal notes for each competitor and tell me what patterns you see for each one. Search the web for their websites, G2 reviews, and recent positioning to find additional information.
+Pull the closed-lost deals in our CRM from the last 6 months where DataGuard, BackupPro, or SecureVault appear in the competitor field. Read the deal notes for each competitor and tell me what patterns you see for each one. Search the web for their websites, G2 reviews, and recent positioning to find additional information.
 
 Then, build a React-based competitive intelligence dashboard with a list view showing all three competitors and detailed battlecards for each. Build it like a modern analytics dashboard - clean, flat, metric-dense, with that tech meets creative minimalism. Think calculator app but for competitive intelligence.
 

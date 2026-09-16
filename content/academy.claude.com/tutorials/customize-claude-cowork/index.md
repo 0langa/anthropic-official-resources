@@ -6,7 +6,7 @@ The set up that makes Claude Cowork specific to your work or team.
 
 [Open Cowork](claude://cowork/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-jeypcq29.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bsl631sl.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
 [Claude Cowork(opens in new tab)](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork) runs full tasks across your files and tools. Customizing it once means every task after that starts with your systems connected and your team's process already in place. For the quickstart, see [Get started in Cowork in three steps(opens in new tab)](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps).
 
@@ -14,7 +14,7 @@ The set up that makes Claude Cowork specific to your work or team.
 
 ### **Connectors**[](https://academy.claude.com/tutorials/customize-claude-cowork)
 
-[Connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities) plug Cowork into the systems where your work already is — Slack, HubSpot, Microsoft 365, Jira, your company's internal tools — giving it the context to understand a task and the ability to act on it. With a connector enabled, Claude can read your data *and* write back: update a ticket, draft a reply, post to a channel, save a file.
+[Connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities) plug Cowork into the systems where your work already is — Slack, [Salesforce(opens in new tab)](https://claude.ai/desktop/directory/salesforce-headless-360), Microsoft 365, Jira, your company's internal tools — giving it the context to understand a task and the ability to act on it. With a connector enabled, Claude can read your data *and* write back: update a ticket, draft a reply, post to a channel, save a file.
 
 Enable connectors from the **Customize** panel in the left sidebar. Authorize once; Claude can then use that tool in any session.
 

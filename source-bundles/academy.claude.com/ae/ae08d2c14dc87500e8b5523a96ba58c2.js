@@ -1,0 +1,1 @@
+import{Gp as e,qp as t}from"../../../../../content-de-meta-jwql3rqc.js";var n=e();function r(e){return(0,n.jsx)(n.Fragment,{})}function i(e={}){let{wrapper:i}={...t(),...e.components};return i?(0,n.jsx)(i,{...e,children:(0,n.jsx)(r,{...e})}):r(e)}export{i as default};

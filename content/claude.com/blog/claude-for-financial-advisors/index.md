@@ -2,7 +2,7 @@
 
 # Claude for Financial Advisors
 
-*Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.*
+Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.
 
 - Category
 
@@ -33,7 +33,7 @@ Claude for Financial Advisors includes:
 - **Connectors,** whichlet Claude access the custodians, asset managers, and wealth technology providers advisors rely on most, so an advisor can work with a client’s information in one place.
 - **Skills,** which use that information to help with specific tasks, like meeting prep, portfolio analysis, and compliance checks, always in service of the advisor's own judgment and style.
 
-Embedded media: https://www.youtube.com/embed/65RpbnLyEhs
+Embedded media: https://www.youtube.com/embed/oMpb-u6HZBQ
 
 ## **Connectors to the tools advisors already use**
 
@@ -57,7 +57,7 @@ The Claude for Financial Advisors plugin, which bundles advisor skills and conne
 
 ## **Skills built around an advisor’s day**
 
-Each skill in the Claude for Financial Advisors plugin supports a specific moment in an advisor's day, from prepping for a client meeting to explaining a drifted portfolio, and routes to tools the firm already uses to run their business. Firms can adopt these skills as is from our Claude for financial advisors skill repository, or adapt them to their own workflows, service model and house style.
+Each skill in the Claude for Financial Advisors plugin supports a specific moment in an advisor's day, from prepping for a client meeting to explaining a drifted portfolio, and routes to tools the firm already uses to run their business. Firms can adopt these skills as is from our Claude for financial advisors [skill repository](https://github.com/anthropics/claude-for-financial-advisors), or adapt them to their own workflows, service model and house style.
 
 - **Advisor onboarding** connects a firm's tools and runs the first meeting prep automatically, helping a new advisor be productive on day one instead of week three.
 - **Alternative investments brief** pulls a household's alternative investments from iCapital or Addepar into a meeting-ready summary, shown alongside the rest of the portfolio, instead of an advisor reconciling separate statements by hand.
@@ -206,7 +206,7 @@ Embedded media:
 
 ## **Getting started**
 
-The advisor plugin is available today. We recommend Enterprise plans for registered investment advisers, because it includes the audit logs that support recordkeeping. If you already have an Enterprise license, open Cowork and find "Claude for Financial Advisors" in the plugin browser, and install it and follow the guided setup to connect your tools.
+The advisor plugin is available today. We recommend Enterprise plans for registered investment advisers, because it includes the audit logs that support recordkeeping. If you already have an Enterprise license, open Cowork and find "Claude for Financial Advisors" in the plugin browser, and install it and follow the guided setup to connect your tools (or install from the [marketplace here](http://github.com/anthropics/claude-for-financial-advisors)).
 
 If you don't have an Enterprise license, request one using this [form](https://forms.gle/y9YmFF2j4moRinJA7) and an Anthropic team member will reach out with next steps. Firms that request a new license before the end of September 2026 will also receive a one-time usage credit to help them get started with the plugin.
 
@@ -219,6 +219,18 @@ No items found.
 ## Related posts
 
 Explore more product news and best practices for teams building with Claude.
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa82dfc4ca89952d04c3873_Object-Store.svg)
+
+Sep 15, 2026
+
+### Claude for Small Business launches new workflows, integrations, and training programs
+
+Product announcements
+
+[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-for-financial-advisors)Claude for Small Business launches new workflows, integrations, and training programs
+
+[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Claude for Small Business launches new workflows, integrations, and training programs
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228c83775fcc75f4e6d_74409af25137110ac04cc39e4d5ea0a2fbcea421-1000x1000.svg)
 
@@ -255,18 +267,6 @@ Product announcements
 [Claude gets its own browser in Cowork](https://claude.com/blog/claude-for-financial-advisors)Claude gets its own browser in Cowork
 
 [Claude gets its own browser in Cowork](https://claude.com/blog/cowork-built-in-browser)Claude gets its own browser in Cowork
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
-
-Aug 26, 2026
-
-### Claude in Chrome is generally available
-
-Product announcements
-
-[Claude in Chrome is generally available](https://claude.com/blog/claude-for-financial-advisors) Claude in Chrome is generally available
-
-[Claude in Chrome is generally available](https://claude.com/blog/claude-in-chrome-generally-available) Claude in Chrome is generally available
 
 ## Transform how your organization operates with Claude
 

@@ -103,65 +103,11 @@ All
 
 [## Product announcements](https://claude.com/blog-category/announcements)
 
-## Claude in Chrome is generally available
+## Claude for Small Business launches new workflows, integrations, and training programs
 
-August 26, 2026
+September 15, 2026
 
-[Read more](https://claude.com/blog/claude-in-chrome-generally-available)Read more
-
-## Claude gets its own browser in Cowork
-
-August 26, 2026
-
-[Read more](https://claude.com/blog/cowork-built-in-browser)Read more
-
-## Claude Code now supports artifacts
-
-June 18, 2026
-
-[Read more](https://claude.com/blog/artifacts-in-claude-code)Read more
-
-## Building intelligent apps for Apple platforms with Claude in the Foundation Models framework
-
-June 8, 2026
-
-[Read more](https://claude.com/blog/claude-for-foundation-models)Read more
-
-## New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels
-
-May 19, 2026
-
-[Read more](https://claude.com/blog/claude-managed-agents-updates)Read more
-
-## New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration
-
-May 19, 2026
-
-[Read more](https://claude.com/blog/new-in-claude-managed-agents)Read more
-
-## New connectors in Claude for everyday life
-
-April 23, 2026
-
-[Read more](https://claude.com/blog/connectors-for-everyday-life)Read more
-
-## Built-in memory for Claude Managed Agents
-
-April 23, 2026
-
-[Read more](https://claude.com/blog/claude-managed-agents-memory)Read more
-
-## Redesigning Claude Code on desktop for parallel agents
-
-April 14, 2026
-
-[Read more](https://claude.com/blog/claude-code-desktop-redesign)Read more
-
-## Preparing your security program for AI-accelerated offense
-
-April 10, 2026
-
-[Read more](https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense)Read more
+[Read more](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Read more
 
 ## Claude in Chrome is generally available
 
@@ -217,11 +163,65 @@ April 14, 2026
 
 [Read more](https://claude.com/blog/claude-code-desktop-redesign)Read more
 
-## Preparing your security program for AI-accelerated offense
+## Claude for Small Business launches new workflows, integrations, and training programs
 
-April 10, 2026
+September 15, 2026
 
-[Read more](https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense)Read more
+[Read more](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Read more
+
+## Claude in Chrome is generally available
+
+August 26, 2026
+
+[Read more](https://claude.com/blog/claude-in-chrome-generally-available)Read more
+
+## Claude gets its own browser in Cowork
+
+August 26, 2026
+
+[Read more](https://claude.com/blog/cowork-built-in-browser)Read more
+
+## Claude Code now supports artifacts
+
+June 18, 2026
+
+[Read more](https://claude.com/blog/artifacts-in-claude-code)Read more
+
+## Building intelligent apps for Apple platforms with Claude in the Foundation Models framework
+
+June 8, 2026
+
+[Read more](https://claude.com/blog/claude-for-foundation-models)Read more
+
+## New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels
+
+May 19, 2026
+
+[Read more](https://claude.com/blog/claude-managed-agents-updates)Read more
+
+## New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration
+
+May 19, 2026
+
+[Read more](https://claude.com/blog/new-in-claude-managed-agents)Read more
+
+## New connectors in Claude for everyday life
+
+April 23, 2026
+
+[Read more](https://claude.com/blog/connectors-for-everyday-life)Read more
+
+## Built-in memory for Claude Managed Agents
+
+April 23, 2026
+
+[Read more](https://claude.com/blog/claude-managed-agents-memory)Read more
+
+## Redesigning Claude Code on desktop for parallel agents
+
+April 14, 2026
+
+[Read more](https://claude.com/blog/claude-code-desktop-redesign)Read more
 
 Filter and sort
 
@@ -306,6 +306,54 @@ Oops! Something went wrong while submitting the form.
 Grid
 
 List
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+
+Sep 15, 2026
+
+Bringing Salesforce into Claude
+
+Enterprise AI
+
+Bringing Salesforce into Claude
+
+September 15, 2026
+
+[Bringing Salesforce into Claude](https://claude.com/blog/salesforce-in-claude)Bringing Salesforce into Claude
+
+[Bringing Salesforce into Claude](https://claude.com/blog)Bringing Salesforce into Claude
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+
+Sep 15, 2026
+
+Building an AI-native revenue organization
+
+Enterprise AI
+
+Building an AI-native revenue organization
+
+September 15, 2026
+
+[Building an AI-native revenue organization](https://claude.com/blog/building-an-ai-native-revenue-organization)Building an AI-native revenue organization
+
+[Building an AI-native revenue organization](https://claude.com/blog)Building an AI-native revenue organization
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa82dfc4ca89952d04c3873_Object-Store.svg)
+
+Sep 15, 2026
+
+Claude for Small Business launches new workflows, integrations, and training programs
+
+Product announcements
+
+Claude for Small Business launches new workflows, integrations, and training programs
+
+September 15, 2026
+
+[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Claude for Small Business launches new workflows, integrations, and training programs
+
+[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog)Claude for Small Business launches new workflows, integrations, and training programs
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228e9c51800dde13958_6507d83d1197bb8630131d363fb8bea838d79ca7-1000x1000.svg)
 
@@ -497,63 +545,63 @@ August 26, 2026
 
 [How Warp builds self-improving agents on Claude](https://claude.com/blog)How Warp builds self-improving agents on Claude
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
-
-Aug 26, 2026
-
-Claude in Chrome is generally available
-
-Product announcements
-
-Claude in Chrome is generally available
-
-August 26, 2026
-
-[Claude in Chrome is generally available](https://claude.com/blog/claude-in-chrome-generally-available) Claude in Chrome is generally available
-
-[Claude in Chrome is generally available](https://claude.com/blog) Claude in Chrome is generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg)
-
-Aug 26, 2026
-
-Claude gets its own browser in Cowork
-
-Product announcements
-
-Claude gets its own browser in Cowork
-
-August 26, 2026
-
-[Claude gets its own browser in Cowork](https://claude.com/blog/cowork-built-in-browser)Claude gets its own browser in Cowork
-
-[Claude gets its own browser in Cowork](https://claude.com/blog)Claude gets its own browser in Cowork
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22727482c9ba6a02e71_1576ae23eaf481f33bd36ab468171cc69d12361a-1000x1000.svg)
-
-Aug 25, 2026
-
-Bain & Company joins the Claude Partner Network as a Global Premier partner
-
-Enterprise AI
-
-Bain & Company joins the Claude Partner Network as a Global Premier partner
-
-August 25, 2026
-
-[Bain & Company joins the Claude Partner Network as a Global Premier partner](https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner)Bain & Company joins the Claude Partner Network as a Global Premier partner
-
-[Bain & Company joins the Claude Partner Network as a Global Premier partner](https://claude.com/blog)Bain & Company joins the Claude Partner Network as a Global Premier partner
-
 [View more](https://claude.com/?b7eea976_page=2)
 
-1 / 16
+1 / 17
 
 Category
 
 Product
 
 Usecase
+
+### Bringing Salesforce into Claude
+
+Category
+
+Enterprise AI
+
+Product
+
+Usecase
+
+September 15, 2026
+
+[Bringing Salesforce into Claude](https://claude.com/blog/salesforce-in-claude)Bringing Salesforce into Claude
+
+[Bringing Salesforce into Claude](https://claude.com/blog)Bringing Salesforce into Claude
+
+### Building an AI-native revenue organization
+
+Category
+
+Enterprise AI
+
+Product
+
+Usecase
+
+September 15, 2026
+
+[Building an AI-native revenue organization](https://claude.com/blog/building-an-ai-native-revenue-organization)Building an AI-native revenue organization
+
+[Building an AI-native revenue organization](https://claude.com/blog)Building an AI-native revenue organization
+
+### Claude for Small Business launches new workflows, integrations, and training programs
+
+Category
+
+Product announcements
+
+Product
+
+Usecase
+
+September 15, 2026
+
+[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Claude for Small Business launches new workflows, integrations, and training programs
+
+[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog)Claude for Small Business launches new workflows, integrations, and training programs
 
 ### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
@@ -622,8 +670,6 @@ September 14, 2026
 ### T. Rowe Price brings more of Claude to its investment process
 
 Category
-
-No items found.
 
 Product
 
@@ -747,57 +793,9 @@ August 26, 2026
 
 [How Warp builds self-improving agents on Claude](https://claude.com/blog)How Warp builds self-improving agents on Claude
 
-### Claude in Chrome is generally available
-
-Category
-
-Product announcements
-
-Product
-
-Usecase
-
-August 26, 2026
-
-[Claude in Chrome is generally available](https://claude.com/blog/claude-in-chrome-generally-available) Claude in Chrome is generally available
-
-[Claude in Chrome is generally available](https://claude.com/blog) Claude in Chrome is generally available
-
-### Claude gets its own browser in Cowork
-
-Category
-
-Product announcements
-
-Product
-
-Usecase
-
-August 26, 2026
-
-[Claude gets its own browser in Cowork](https://claude.com/blog/cowork-built-in-browser)Claude gets its own browser in Cowork
-
-[Claude gets its own browser in Cowork](https://claude.com/blog)Claude gets its own browser in Cowork
-
-### Bain & Company joins the Claude Partner Network as a Global Premier partner
-
-Category
-
-Enterprise AI
-
-Product
-
-Usecase
-
-August 25, 2026
-
-[Bain & Company joins the Claude Partner Network as a Global Premier partner](https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner)Bain & Company joins the Claude Partner Network as a Global Premier partner
-
-[Bain & Company joins the Claude Partner Network as a Global Premier partner](https://claude.com/blog)Bain & Company joins the Claude Partner Network as a Global Premier partner
-
 [View more](https://claude.com/?d7430fcd_page=2)
 
-1 / 16
+1 / 17
 
 No posts for those filters
 

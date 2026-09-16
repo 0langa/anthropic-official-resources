@@ -115,29 +115,17 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224d39f9b8e905d1823_b68cbb43d7c8f56f0b14cc867e8d4d74445f78b0-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
 
-Sep 14, 2026
+Sep 15, 2026
 
-### Deploying AI from pilot to production
-
-Enterprise AI
-
-[Deploying AI from pilot to production](https://claude.com/blog/how-healthcare-organizations-use-claude-tag)Deploying AI from pilot to production
-
-[Deploying AI from pilot to production](https://claude.com/blog/deploying-ai-from-pilot-to-production)Deploying AI from pilot to production
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
-
-Sep 10, 2026
-
-### What 1,000 small business owners taught us about AI
+### Bringing Salesforce into Claude
 
 Enterprise AI
 
-[What 1,000 small business owners taught us about AI](https://claude.com/blog/how-healthcare-organizations-use-claude-tag)What 1,000 small business owners taught us about AI
+[Bringing Salesforce into Claude](https://claude.com/blog/how-healthcare-organizations-use-claude-tag)Bringing Salesforce into Claude
 
-[What 1,000 small business owners taught us about AI](https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai)What 1,000 small business owners taught us about AI
+[Bringing Salesforce into Claude](https://claude.com/blog/salesforce-in-claude)Bringing Salesforce into Claude
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228e9c51800dde13958_6507d83d1197bb8630131d363fb8bea838d79ca7-1000x1000.svg)
 
@@ -151,17 +139,29 @@ Claude Code
 
 [Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
 
-Jun 24, 2026
+Sep 15, 2026
 
-### Building effective human-agent teams
+### Building an AI-native revenue organization
 
 Enterprise AI
 
-[Building effective human-agent teams](https://claude.com/blog/how-healthcare-organizations-use-claude-tag)Building effective human-agent teams
+[Building an AI-native revenue organization](https://claude.com/blog/how-healthcare-organizations-use-claude-tag)Building an AI-native revenue organization
 
-[Building effective human-agent teams](https://claude.com/blog/building-effective-human-agent-teams)Building effective human-agent teams
+[Building an AI-native revenue organization](https://claude.com/blog/building-an-ai-native-revenue-organization)Building an AI-native revenue organization
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224d39f9b8e905d1823_b68cbb43d7c8f56f0b14cc867e8d4d74445f78b0-1000x1000.svg)
+
+Sep 14, 2026
+
+### Deploying AI from pilot to production
+
+Enterprise AI
+
+[Deploying AI from pilot to production](https://claude.com/blog/how-healthcare-organizations-use-claude-tag)Deploying AI from pilot to production
+
+[Deploying AI from pilot to production](https://claude.com/blog/deploying-ai-from-pilot-to-production)Deploying AI from pilot to production
 
 ## Transform how your organization operates with Claude
 

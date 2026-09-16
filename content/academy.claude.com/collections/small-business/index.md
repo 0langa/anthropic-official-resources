@@ -18,7 +18,7 @@ Tutorial·15 min](https://academy.claude.com/tutorials/how-to-install-the-claude
 
 ### Using Claude Cowork for your small business
 
-Walk through four workflows from the Small Business plugin — plan payroll, close the month, get a Monday brief, run a campaign — and what Claude does at each step.
+Walk through three workflows from the Small Business plugin — plan payroll, close the month, get a Monday brief — and what Claude does at each step.
 
 Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-for-your-small-business)
 

@@ -1,6 +1,6 @@
 # Features and capabilities
 
-34 articles
+29 articles
 
 [What are artifacts and how do I use them?](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)
 
@@ -32,27 +32,15 @@
 
 [Browse skills, connectors, and plugins in one directory](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory)
 
-[Use Claude for Excel](https://support.claude.com/en/articles/12650343-use-claude-for-excel)
-
 [Use Claude in Xcode](https://support.claude.com/en/articles/12293051-use-claude-in-xcode)
 
 [Use Claude in Microsoft Foundry](https://support.claude.com/en/articles/12864745-use-claude-in-microsoft-foundry)
-
-[Use Claude for PowerPoint](https://support.claude.com/en/articles/13521390-use-claude-for-powerpoint)
 
 [Visual and interactive content](https://support.claude.com/en/articles/13641943-visual-and-interactive-content)
 
 [Import and export your memory from Claude](https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude)
 
-[Work across Microsoft 365 apps](https://support.claude.com/en/articles/13892150-work-across-microsoft-365-apps)
-
-[Use Claude for Microsoft 365 with third-party platforms](https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms)
-
 [Custom visuals in chat and Cowork](https://support.claude.com/en/articles/13979539-custom-visuals-in-chat-and-cowork)
-
-[Use dictation in Office agents](https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents)
-
-[Use Claude for Word](https://support.claude.com/en/articles/14465370-use-claude-for-word)
 
 [Available beta and research preview features](https://support.claude.com/en/articles/14503520-available-beta-and-research-preview-features)
 
@@ -62,10 +50,12 @@
 
 [Set up your design system in Claude Design](https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design)
 
-[Use Claude for Outlook](https://support.claude.com/en/articles/14855664-use-claude-for-outlook)
-
 [Use plugins in Claude](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)
 
 [See your monthly recap](https://support.claude.com/en/articles/15672559-see-your-monthly-recap)
 
 [Get started with Claude Science](https://support.claude.com/en/articles/16563838-get-started-with-claude-science)
+
+[Use Salesforce in Claude](https://support.claude.com/en/articles/16952186-use-salesforce-in-claude)
+
+[Set up Salesforce in Claude for your organization](https://support.claude.com/en/articles/16952184-set-up-salesforce-in-claude-for-your-organization)

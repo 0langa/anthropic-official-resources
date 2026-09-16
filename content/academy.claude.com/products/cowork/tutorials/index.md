@@ -16,7 +16,7 @@ Same Claude, two ways of working. Chat is a conversation you steer turn by turn.
 
 Claude Cowork brings Claude’s agentic capabilities to the Claude Desktop app, enabling multi-step knowledge work beyond coding
 
-20 min](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide)[![](https://academy.claude.com/assets/v1/thumbnail.light-jeypcq29.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bsl631sl.png)
+20 min](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
 ## Customize Claude Cowork
 
@@ -70,7 +70,7 @@ Understand how effort settings work in claude.ai and why adjusting effort on a f
 
 Add Anthropic's open-source financial services plugins to Claude Cowork for financial modeling, equity research, investment banking, private equity, and wealth management workflows.
 
-3 min](https://academy.claude.com/tutorials/install-financial-services-plugins-for-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-eb38a4h1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j0al2e51.png)
+3 min](https://academy.claude.com/tutorials/install-financial-services-plugins-for-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-bvn0kt1s.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iu3pg3zz.png)
 
 ## Scaling workflows with Claude Cowork at your organization
 
@@ -98,7 +98,7 @@ Before a first call, Claude Cowork pulls everything you’d want to know about a
 
 ## Using Claude Cowork for your small business
 
-Walk through four workflows from the Small Business plugin — plan payroll, close the month, get a Monday brief, run a campaign — and what Claude does at each step.
+Walk through three workflows from the Small Business plugin — plan payroll, close the month, get a Monday brief — and what Claude does at each step.
 
 15 min](https://academy.claude.com/tutorials/using-claude-for-your-small-business)[![](https://academy.claude.com/assets/v1/thumbnail.light-m4ibfqqy.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-n82pdpre.png)
 

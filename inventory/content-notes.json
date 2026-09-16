@@ -287,6 +287,9 @@
   "https://claude.com/blog/claude-for-financial-advisors": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
   "https://claude.com/blog/claude-for-the-legal-industry": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
@@ -407,6 +410,9 @@
   "https://claude.com/blog/running-an-ai-native-engineering-org": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://claude.com/blog/salesforce-in-claude": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
   "https://claude.com/blog/self-serve-enterprise": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
@@ -471,6 +477,9 @@
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://code.claude.com/docs/en/agent-sdk/claude-code-features": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/agent-sdk/configuration": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://code.claude.com/docs/en/agent-sdk/cost-tracking": [
@@ -6395,7 +6404,16 @@
   "https://support.claude.com/en/articles/16893491-get-started-with-smart-reports": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/16948886": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/16948886-let-team-members-run-smart-reports-for-specific-groups": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/16952184-set-up-salesforce-in-claude-for-your-organization": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/16952186-use-salesforce-in-claude": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [
@@ -6937,6 +6955,10 @@
   "https://www.anthropic.com/research/attack-navigator": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
     "Content dependencies blocked by scope or robots policy: https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html"
+  ],
+  "https://www.anthropic.com/research/claude-fable-5-mythos-5": [
+    "Could not read tab 'Factorio': TimeoutError",
+    "Could not read tab 'Fluid with Classical EDM': TimeoutError"
   ],
   "https://www.anthropic.com/research/claude-opus-5": [
     "Could not read tab 'DeepSearchQA': TimeoutError"

@@ -181,6 +181,30 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+
+Sep 15, 2026
+
+### Bringing Salesforce into Claude
+
+Enterprise AI
+
+[Bringing Salesforce into Claude](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)Bringing Salesforce into Claude
+
+[Bringing Salesforce into Claude](https://claude.com/blog/salesforce-in-claude)Bringing Salesforce into Claude
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+
+Sep 15, 2026
+
+### Building an AI-native revenue organization
+
+Enterprise AI
+
+[Building an AI-native revenue organization](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)Building an AI-native revenue organization
+
+[Building an AI-native revenue organization](https://claude.com/blog/building-an-ai-native-revenue-organization)Building an AI-native revenue organization
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224d39f9b8e905d1823_b68cbb43d7c8f56f0b14cc867e8d4d74445f78b0-1000x1000.svg)
 
 Sep 14, 2026
@@ -204,30 +228,6 @@ Enterprise AI
 [What 1,000 small business owners taught us about AI](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)What 1,000 small business owners taught us about AI
 
 [What 1,000 small business owners taught us about AI](https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai)What 1,000 small business owners taught us about AI
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22deea97e4a5b5e5739_8d339ae8ecedecc1409db8f5bbb99c958db56946-1000x1000.svg)
-
-Sep 14, 2026
-
-### How healthcare organizations use Claude Tag
-
-Enterprise AI
-
-[How healthcare organizations use Claude Tag](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)How healthcare organizations use Claude Tag
-
-[How healthcare organizations use Claude Tag](https://claude.com/blog/how-healthcare-organizations-use-claude-tag)How healthcare organizations use Claude Tag
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Jun 24, 2026
-
-### Building effective human-agent teams
-
-Enterprise AI
-
-[Building effective human-agent teams](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)Building effective human-agent teams
-
-[Building effective human-agent teams](https://claude.com/blog/building-effective-human-agent-teams)Building effective human-agent teams
 
 ## Transform how your organization operates with Claude
 

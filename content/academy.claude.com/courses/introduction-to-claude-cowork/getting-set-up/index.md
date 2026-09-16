@@ -65,7 +65,7 @@ Connectors most people set up first:
 - **Email and calendar** (Outlook via M365 or Gmail) — for pulling context out of meetings, drafting follow-ups, finding past threads
 - **Messaging** (Slack or Teams via M365) — for searching channel history and synthesizing what your team has said
 - **Cloud storage** (SharePoint or OneDrive via Microsoft 365, Google Drive, Box) — for accessing documents that don't live on your local machine
-- **CRM and project tools** — Notion, HubSpot, Asana, Linear, and others, depending on what your team uses and where your real data lives
+- **CRM and project tools** — Notion, HubSpot, Salesforce, Asana, Linear, and others, depending on what your team uses and where your real data lives
 
 Once a connector is on, you reference it naturally in your prompts. "Check what the team said in Slack about the launch" or "find the customer follow-up email from last quarter" — Claude knows where to look.
 

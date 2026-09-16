@@ -860,6 +860,7 @@ https://claude.com/blog/building-ai-agents-for-startups
 https://claude.com/blog/building-ai-agents-for-the-enterprise
 https://claude.com/blog/building-ai-agents-in-financial-services
 https://claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences
+https://claude.com/blog/building-an-ai-native-revenue-organization
 https://claude.com/blog/building-companies-with-claude-code
 https://claude.com/blog/building-effective-human-agent-teams
 https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them
@@ -891,6 +892,7 @@ https://claude.com/blog/claude-for-commerce-agents
 https://claude.com/blog/claude-for-enterprise
 https://claude.com/blog/claude-for-financial-advisors
 https://claude.com/blog/claude-for-foundation-models
+https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs
 https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts
 https://claude.com/blog/claude-for-the-legal-industry
 https://claude.com/blog/claude-in-chrome-generally-available
@@ -1026,6 +1028,7 @@ https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-plat
 https://claude.com/blog/research
 https://claude.com/blog/run-claude-code-sessions-on-your-own-compute
 https://claude.com/blog/running-an-ai-native-engineering-org
+https://claude.com/blog/salesforce-in-claude
 https://claude.com/blog/scaling-agentic-coding
 https://claude.com/blog/seeing-like-an-agent
 https://claude.com/blog/self-serve-enterprise
@@ -1096,6 +1099,7 @@ https://code.claude.com/docs/en/advisor
 https://code.claude.com/docs/en/agent-sdk
 https://code.claude.com/docs/en/agent-sdk/agent-loop
 https://code.claude.com/docs/en/agent-sdk/claude-code-features
+https://code.claude.com/docs/en/agent-sdk/configuration
 https://code.claude.com/docs/en/agent-sdk/cost-tracking
 https://code.claude.com/docs/en/agent-sdk/custom-tools
 https://code.claude.com/docs/en/agent-sdk/examples
@@ -3251,6 +3255,10 @@ https://support.claude.com/en/articles/16824617-turn-on-data-retention-for-a-wor
 https://support.claude.com/en/articles/16893491-get-started-with-smart-reports
 https://support.claude.com/en/articles/16948886
 https://support.claude.com/en/articles/16948886-let-team-members-run-smart-reports-for-specific-groups
+https://support.claude.com/en/articles/16952184
+https://support.claude.com/en/articles/16952184-set-up-salesforce-in-claude-for-your-organization
+https://support.claude.com/en/articles/16952186
+https://support.claude.com/en/articles/16952186-use-salesforce-in-claude
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer

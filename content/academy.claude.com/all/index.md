@@ -348,7 +348,7 @@ Learn how Claude creates and edits files directly including spreadsheets, docume
 
 A step-by-step walkthrough of creating your first skill in Claude Code, from setup to execution.
 
-4 min](https://academy.claude.com/tutorials/creating-your-first-skill)[![](https://academy.claude.com/assets/v1/thumbnail.light-jeypcq29.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bsl631sl.png)
+4 min](https://academy.claude.com/tutorials/creating-your-first-skill)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
 ## Customize Claude Cowork
 

@@ -54,7 +54,7 @@ Use case·Education·15 min](https://academy.claude.com/use-cases/visualize-the-
 
 ## Map your understanding and build lessons from the gaps
 
-Claude Opus 4.6 traces your confusion to its source. It maps what you already understand, finds the specific misconception underneath, and builds personalized learning experiences around it.
+Claude Opus 5 traces your confusion to its source. It maps what you already understand, finds the specific misconception underneath, and builds personalized learning experiences around it.
 
 Use case·Personal·20 min](https://academy.claude.com/use-cases/map-your-understanding-and-build-lessons-from-the-gaps)[![](https://academy.claude.com/assets/v1/thumbnail.light-e4rnoq1t.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lsn6xpe9.png)
 

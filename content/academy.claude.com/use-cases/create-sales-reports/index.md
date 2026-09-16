@@ -16,7 +16,7 @@ Claude's ability to pull live data from your CRM and synthesize it with your bus
 
 Connect your CRM and tell Claude what timeframe, metrics, and segments you want analyzed. Describe your audience and any specific questions the report should answer.
 
-I need a Q4 sales report for our exec team meeting next week. Pull October through December from HubSpot.
+I need a Q4 sales report for our exec team meeting next week. Pull October through December from our CRM.
 
 Show me:
 
@@ -35,11 +35,17 @@ Create this as a professional document with clean serif fonts, information dense
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/create-sales-reports)
 
-Connect your CRM using [connectors(opens in new tab)](https://claude.ai/customize/connectors) so Claude can pull current sales data directly, eliminating manual exports and ensuring the report reflects your latest metrics.
+[Connectors(opens in new tab)](https://claude.ai/customize/connectors) let Claude pull current sales data straight from your CRM, eliminating manual exports and ensuring the report reflects your latest metrics.
 
 ### Required context[](https://academy.claude.com/use-cases/create-sales-reports)
 
-In Settings > Capabilities, find and enable your [HubSpot(opens in new tab)](https://mcp.hubspot.com/anthropic) connector. Once connected, Claude can read sales data and pull metrics on demand without you exporting files or copying data manually. Add any additional context your CRM doesn't capture to help Claude conduct analysis more tailored to your business.
+Connect your CRM, like [HubSpot(opens in new tab)](https://claude.ai/directory/hubspot) or [Salesforce(opens in new tab)](https://claude.ai/directory/salesforce-headless-360). Once connected, Claude can read sales data and pull metrics on demand without you exporting files or copying data manually. Add any additional context your CRM doesn't capture to help Claude conduct analysis more tailored to your business.
+
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)
+
+Salesforce
+
+[Connect](https://claude.ai/directory/salesforce-headless-360)
 
 
 
@@ -57,7 +63,7 @@ Q4 Sales Goals documentFILE
 
 Claude analyzes your sales performance data to create a document with an executive summary, data tables showing key metrics with visual indicators, segment-by-segment breakdowns, trend analysis, and actionable recommendations.
 
-I pulled your Q4 data from HubSpot and created a professional sales report. Here's what stands out:
+I pulled your Q4 data from your CRM and created a professional sales report. Here's what stands out:
 
 **The numbers:**
 
@@ -123,7 +129,7 @@ Ask Claude for "professional design" or "sophisticated formatting" and specify y
 
 ### Stay current with live information[](https://academy.claude.com/use-cases/create-sales-reports)
 
-Unlike uploaded CSV files (static snapshots), [connectors(opens in new tab)](https://claude.com/blog/what-is-model-context-protocol) allow Claude to access current data from your tools. Ask Claude to pull the latest Q4 data from HubSpot whenever you need an update, and generate a report with the latest numbers without re-exporting files.
+Unlike uploaded CSV files (static snapshots), [connectors(opens in new tab)](https://claude.com/blog/what-is-model-context-protocol) allow Claude to access current data from your tools. Ask Claude to pull the latest Q4 data from your CRM whenever you need an update, and generate a report with the latest numbers without re-exporting files.
 
 ### Expand analysis across tools[](https://academy.claude.com/use-cases/create-sales-reports)
 
@@ -133,7 +139,7 @@ If you store market research in Google Drive or track initiatives in Asana, add 
 
 Connect your CRM, describe the information you need to display, and let Claude handle the analysis and formatting work.
 
-I need a Q4 sales report for our exec team meeting next week. Pull October through December from HubSpot.
+I need a Q4 sales report for our exec team meeting next week. Pull October through December from our CRM.
 
 Show me:
 

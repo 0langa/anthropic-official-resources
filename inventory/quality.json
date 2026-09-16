@@ -42,6 +42,7 @@
     "https://academy.claude.com/courses/introduction-to-claude-cowork/quiz-on-claude-cowork",
     "https://www.anthropic.com/engineering/harness-design-long-running-apps",
     "https://www.anthropic.com/news/anthropic-interviewer",
+    "https://www.anthropic.com/news/anthropic-public-record",
     "https://www.anthropic.com/news/claude-opus-4-6",
     "https://www.anthropic.com/news/claude-opus-5",
     "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
@@ -54,10 +55,10 @@
   ],
   "statuses": {
     "blocked": 3,
-    "complete": 3871,
-    "gone": 63,
+    "complete": 3879,
+    "gone": 62,
     "out_of_scope": 26,
-    "partial": 47
+    "partial": 48
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/dashboard",
@@ -200,7 +201,6 @@
     "https://claude.com/blog/prompt-engineering-best-practices",
     "https://claude.com/resources",
     "https://claude.com/resources/tutorials/using-research-and-google-workspace",
-    "https://claude.com/resources/use-cases/category/nonprofits",
     "https://code.claude.com/docs/en/examples",
     "https://code.claude.com/docs/en/reference",
     "https://platform.claude.com/cookbook/URL",
@@ -273,6 +273,7 @@
     "https://www.anthropic.com/engineering/harness-design-long-running-apps",
     "https://www.anthropic.com/engineering/prompt-engineering-overview",
     "https://www.anthropic.com/news/anthropic-interviewer",
+    "https://www.anthropic.com/news/anthropic-public-record",
     "https://www.anthropic.com/news/claude-opus-4-6",
     "https://www.anthropic.com/news/claude-opus-5",
     "https://www.anthropic.com/news/max-plan",
