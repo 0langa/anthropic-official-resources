@@ -1,0 +1,60 @@
+import{Qp as e,em as t}from"../../../content-de-meta-b64hm6c1.js";var n=e();function r(e){let r={a:"a",em:"em",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",ul:"ul",...t(),...e.components},{ResourceWidget:i}=r;return i||a("ResourceWidget",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.p,{children:"Claude is an AI assistant made by Anthropic. It can read your documents, draft and edit, work across your tools, and reason through hard problems with you. Here's what to know on your first day, and where to go once it clicks."}),`
+`,(0,n.jsx)(r.h2,{id:"your-first-prompt",children:"Your first prompt"}),`
+`,(0,n.jsx)(r.p,{children:"Just write to Claude in plain language. The tips below help, and if anything in your request is unclear you can ask Claude to ask you questions before it starts. You can attach documents to give it more to go on."}),`
+`,(0,n.jsx)(i,{name:"Embed1"}),`
+`,(0,n.jsx)(r.p,{children:"Your first prompt doesn't have to be perfect. If the answer isn't quite right, say so and Claude will adjust. A little further down you'll set up a task of your own, with your files and tools connected."}),`
+`,(0,n.jsx)(r.h2,{id:"what-a-claude-response-can-look-like",children:"What a Claude response can look like"}),`
+`,(0,n.jsx)(r.p,{children:"Claude answers in whatever form the task calls for, and the list keeps growing. Ask for the thing you actually need, whether that is a plain answer, a chart drawn inline, a deck, a design or a doc made in the conversation, a spreadsheet for Excel, or a recipe you can cook from. Claude makes it, and you steer it."}),`
+`,(0,n.jsx)(i,{name:"Embed2"}),`
+`,(0,n.jsx)(r.h3,{id:"plain-text",children:"Plain text"}),`
+`,(0,n.jsx)(r.p,{children:"The default is a useful answer in the chat."}),`
+`,(0,n.jsx)(r.h3,{id:"inline-visuals",children:"Inline visuals"}),`
+`,(0,n.jsxs)(r.p,{children:["Diagrams, charts, and interactive explainers drawn inside the response. Ask ",(0,n.jsx)(r.em,{children:'"show me how this works"'})," or ",(0,n.jsx)(r.em,{children:'"chart this data"'})," and the visual appears alongside the words. ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/13979539-custom-visuals-in-chat-and-cowork",children:"More on custom visuals"}),"."]}),`
+`,(0,n.jsx)(r.h3,{id:"artifacts",children:"Artifacts"}),`
+`,(0,n.jsx)(r.p,{children:"The work product itself, made in the conversation and opened beside the chat. Three kinds, all in beta, have their own editors, and anything else becomes an interactive artifact."}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Claude Design:"})," screens, flows and visuals laid out as artboards you can edit by hand, in your design system."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Claude Slides:"})," a deck you can present in Claude or download as PowerPoint or PDF."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Claude Docs:"})," a document your team reads, comments on and edits in place while Claude keeps it up to date."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Interactive artifacts:"})," ask for a planner, a calculator or a small tool and Claude builds it to use right there."]}),`
+`]}),`
+`,(0,n.jsxs)(r.p,{children:["Edit any of them directly or ask Claude to change them, share them with your team, and find them again in the Artifacts tab in the sidebar. On an Enterprise plan, an admin turns these on. ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them",children:"More on artifacts"}),"."]}),`
+`,(0,n.jsx)(r.h3,{id:"files",children:"Files"}),`
+`,(0,n.jsxs)(r.p,{children:["When you need the file format itself, such as a spreadsheet with working formulas, a PDF to send on or a deck to open in PowerPoint, Claude creates the file for you to download, open in Google Drive, or open in the app that owns it. ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude",children:"More on file creation"}),"."]}),`
+`,(0,n.jsx)(r.h3,{id:"cards",children:"Cards"}),`
+`,(0,n.jsxs)(r.p,{children:["Ready-made answers for everyday asks, such as the weather, a recipe with a step-by-step cooking mode, places on a map, or a draft you can send from your email, plus cards from the apps you connect. ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/13641943-visual-and-interactive-content",children:"More on visual and interactive content"}),"."]}),`
+`,(0,n.jsx)(r.h2,{id:"set-up-your-first-task",children:"Set up your first task"}),`
+`,(0,n.jsx)(r.p,{children:"You've seen what Claude can give back. Now set up your first task. The walkthrough below covers what to give Claude, which controls to set, and how to ask for what you need."}),`
+`,(0,n.jsx)(i,{name:"Embed3"}),`
+`,(0,n.jsx)(r.p,{children:"The + menu has a few more options for when a task needs them:"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsxs)(r.strong,{children:[(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities",children:"Connectors"}),":"]})," let Claude read and act in the apps you already use, such as your email, calendar, drive, chat and CRM. Turn one on once and every conversation can search it, quote from it and, where you allow it, write back. ",(0,n.jsx)(r.a,{href:"https://claude.com/connectors",children:"Browse the directory"}),"."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsxs)(r.strong,{children:[(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/10684626-enable-and-use-web-search",children:"Web search"}),":"]})," on by default. Turn it off when the answer should come only from your documents."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsxs)(r.strong,{children:[(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/11088861-use-research-on-claude",children:"Research"}),":"]})," runs many searches and returns one cited brief. It takes minutes, so save it for the big questions."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsxs)(r.strong,{children:[(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/12512176-what-are-skills",children:"Skills"}),":"]})," saved instructions for work you do the same way every time, including a tone or format you want on demand. In the Claude desktop app you can also record yourself doing a task once and keep it as a skill."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Add folder"})," (",(0,n.jsx)(r.a,{href:"/tutorials/navigating-the-claude-desktop-app",children:"desktop app"}),"): hand Claude a whole folder on your computer to read from and save into, instead of uploading files one at a time."]}),`
+`]}),`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/11095361-when-should-i-use-web-search-extended-thinking-and-research",children:"See when to use Web search, Extended thinking, and Research"}),"."]}),`
+`,(0,n.jsx)(r.h2,{id:"what-claude-remembers",children:"What Claude remembers"}),`
+`,(0,n.jsx)(r.p,{children:"Once you've explained your project, your team, or how you like to work, you shouldn't have to explain it again. A few features carry the important things forward so each conversation starts where the last one left off:"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsxs)(r.strong,{children:[(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/9517075-what-are-projects",children:"Projects"}),":"]})," a place for one ongoing piece of work. Add the files Claude should always have on hand, write a few lines of instruction (the brand voice, the format, the things to never forget), and every conversation inside starts already knowing them. Make one when you keep re-uploading the same files or re-explaining the same rules."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsxs)(r.strong,{children:[(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features",children:"Instructions for Claude"}),":"]})," a short note in your Settings profile that Claude keeps in mind in every conversation, such as who you are, what to assume and how to talk to you. Set it once and it applies everywhere."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsxs)(r.strong,{children:[(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context",children:"Memory"}),":"]})," what Claude remembers about you across conversations, such as your team, your projects and how you like to work. Turn it on in Settings and it fills in as you go; you can read or edit it any time."]}),`
+`]}),`
+`,(0,n.jsx)(r.h2,{id:"beyond-the-chat-window",children:"Beyond the chat window"}),`
+`,(0,n.jsx)(r.p,{children:"Chat is where most people start. The same Claude shows up in a few other places, shaped for different kinds of work."}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:["The ",(0,n.jsx)(r.a,{href:"/tutorials/navigating-the-claude-desktop-app",children:"desktop app"})," brings the same chat onto your computer and, on Mac, adds quick entry from anywhere, screenshots, and dictation."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/14552382-your-first-day-in-claude-code",children:"Claude Code"})," is Claude in the terminal and editor, for engineers and developers."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/14604416-get-started-with-claude-design",children:"Claude Design"})," now starts from any conversation or from the Design tab in the sidebar. It lays out screens, flows and prototypes as artboards you can edit by hand, in your design system."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/15594475-what-is-claude-tag",children:"Claude Tag"})," brings Claude into your team's Slack workspace. Tag Claude in a channel or thread and it carries out the task there, working from the conversation and the tools your admin has connected."]}),`
+`,(0,n.jsxs)(r.li,{children:["Claude also runs inside the apps where you already work: ",(0,n.jsx)(r.a,{href:"https://claude.com/docs/office-agents/excel",children:"Excel"}),", ",(0,n.jsx)(r.a,{href:"https://claude.com/docs/office-agents/word",children:"Word"}),", ",(0,n.jsx)(r.a,{href:"https://claude.com/docs/office-agents/powerpoint",children:"PowerPoint"}),", ",(0,n.jsx)(r.a,{href:"https://claude.com/docs/office-agents/outlook",children:"Outlook"}),", ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome",children:"Chrome"}),", and on ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/collections/9387080-claude-mobile-apps",children:"mobile"}),"."]}),`
+`]}),`
+`,(0,n.jsx)(r.h2,{id:"asking-claude-about-claude",children:"Asking Claude about Claude"}),`
+`,(0,n.jsx)(r.p,{children:"When you're not sure what a button does or why an answer fell flat, Claude can help you troubleshoot:"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Ask how a feature works:"})," ",(0,n.jsx)(r.em,{children:'"What does Research do, and when would I use it instead of web search?"'})]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Get a sharper prompt to improve your output:"})," ",(0,n.jsx)(r.em,{children:'"Ask me questions about what I’m trying to do, then write me a better prompt."'})]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Screenshot what you don't recognize:"})," Claude reads images. Drop in a screenshot of any Claude screen and ask what something does."]}),`
+`]})]})}function i(e={}){let{wrapper:i}={...t(),...e.components};return i?(0,n.jsx)(i,{...e,children:(0,n.jsx)(r,{...e})}):r(e)}function a(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{i as default};

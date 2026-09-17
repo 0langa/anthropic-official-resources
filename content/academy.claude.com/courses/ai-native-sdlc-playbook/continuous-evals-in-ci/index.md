@@ -1,4 +1,4 @@
-Lesson 9 of 14 · The AI-Native SDLC PlaybookContinuous evals in CI
+Lesson 9 of 14 · The AI-native SDLC playbookContinuous evals in CI
 
 # Continuous evals in CI
 

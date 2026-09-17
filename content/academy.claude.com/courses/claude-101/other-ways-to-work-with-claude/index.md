@@ -6,7 +6,7 @@ Lesson 12 of 13 · Claude 101Other ways to work with Claude
 
 In this lessonBy the end, you’ll be able to
 
-- Understand when to use additional Claude products including Claude Code, Claude Tag, Claude Design, Claude for Microsoft 365, and Claude in Chrome
+- Understand when to use Claude Code, Claude Tag, Claude Design, Claude for Microsoft 365, and Claude in Chrome
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
@@ -63,14 +63,25 @@ just tag Claude in any thread.
 
 ## Claude Design[](https://academy.claude.com/courses/claude-101/other-ways-to-work-with-claude)
 
-Claude Design is a dedicated space for turning ideas into working interfaces. Describe what you want in plain language — or start from a sketch or screenshot — and Claude builds an interactive prototype you can refine through conversation and hand off to your team.
+Claude Design turns ideas into working interfaces. Describe what you want in plain language — or start from a sketch or screenshot — and Claude builds an interactive prototype as an artifact you can edit directly, share with your team, or hand to Claude Code to build. It works inside any conversation with Claude and in the Artifacts tab, and it's also available as a dedicated space at claude.ai/design.
 
 **When to use Claude Design:**
 
 - You want to go from a written brief, sketch, or reference screenshot to a working UI prototype without writing code
 - You're exploring design directions and want to generate and compare several variations quickly
-- You need to iterate on layout, copy, or interactions by describing the change you want rather than editing markup
+- You need to iterate on layout, copy, or interactions without editing markup — on the canvas, with a comment, or by asking (the "Creating with artifacts" lesson covers the mechanics)
 - You want a prototype that uses your team's design system, so what you hand off matches what engineering will build
+
+
+
+Availability
+
+Claude Design inside your conversations is in beta and available on paid
+plans (Pro, Max, Team, and Enterprise). On Pro and Max it's on by default.
+On Team it's on by default, and an admin can turn it off. On Enterprise an
+admin turns it on in Organization settings > Artifacts. The standalone
+claude.ai/design space has its own separate settings. The "Creating with
+artifacts" lesson covers how it fits alongside Claude Slides and Claude Docs.
 
 ## Claude for Excel[](https://academy.claude.com/courses/claude-101/other-ways-to-work-with-claude)
 
@@ -172,7 +183,7 @@ content) are blocked by default.
 
 Each of these tools extends Claude's capabilities into the specific environments where you work:
 
-<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">Tool</th><th class="border-b border-strong p-sm text-left font-medium">Best for</th><th class="border-b border-strong p-sm text-left font-medium">Where it runs</th></tr></thead><tbody><tr><td class="border-b p-sm">Claude.ai</td><td class="border-b p-sm">General tasks, research, writing, analysis, file creation</td><td class="border-b p-sm">Web, desktop, and mobile apps</td></tr><tr><td class="border-b p-sm">Claude Code</td><td class="border-b p-sm">Software development, codebase navigation, git workflows</td><td class="border-b p-sm">Terminal/command line, IDE, or your browser</td></tr><tr><td class="border-b p-sm">Claude Cowork</td><td class="border-b p-sm">Complex, multi-step tasks: research briefs, document creation, file organization, data analysis</td><td class="border-b p-sm">Desktop (plus web and mobile, in beta, on eligible plans)</td></tr><tr><td class="border-b p-sm">Claude Tag</td><td class="border-b p-sm">Team collaboration, meeting prep, quick answers in context</td><td class="border-b p-sm">Slack workspace</td></tr><tr><td class="border-b p-sm">Claude Design</td><td class="border-b p-sm">UI prototypes, design exploration, design-system-aware mockups</td><td class="border-b p-sm">Web</td></tr><tr><td class="border-b p-sm">Claude for Microsoft 365</td><td class="border-b p-sm">Editing in place and carrying context across documents</td><td class="border-b p-sm">Excel, PowerPoint, Word, and Outlook sidebars</td></tr><tr><td class="border-b p-sm">Claude in Chrome</td><td class="border-b p-sm">Web research, email management, browser automation</td><td class="border-b p-sm">Chrome browser sidebar</td></tr></tbody></table>
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">Tool</th><th class="border-b border-strong p-sm text-left font-medium">Best for</th><th class="border-b border-strong p-sm text-left font-medium">Where it runs</th></tr></thead><tbody><tr><td class="border-b p-sm">Claude.ai</td><td class="border-b p-sm">General tasks, research, writing, analysis, file creation</td><td class="border-b p-sm">Web, desktop, and mobile apps</td></tr><tr><td class="border-b p-sm">Claude Code</td><td class="border-b p-sm">Software development, codebase navigation, git workflows</td><td class="border-b p-sm">Terminal/command line, IDE, or your browser</td></tr><tr><td class="border-b p-sm">Claude Cowork</td><td class="border-b p-sm">Complex, multi-step tasks: research briefs, document creation, file organization, data analysis</td><td class="border-b p-sm">Desktop (plus web and mobile, in beta, on eligible plans)</td></tr><tr><td class="border-b p-sm">Claude Tag</td><td class="border-b p-sm">Team collaboration, meeting prep, quick answers in context</td><td class="border-b p-sm">Slack workspace</td></tr><tr><td class="border-b p-sm">Claude Design</td><td class="border-b p-sm">UI prototypes, design exploration, design-system-aware mockups</td><td class="border-b p-sm">Any conversation with Claude (paid plans), plus claude.ai/design</td></tr><tr><td class="border-b p-sm">Claude for Microsoft 365</td><td class="border-b p-sm">Editing in place and carrying context across documents</td><td class="border-b p-sm">Excel, PowerPoint, Word, and Outlook sidebars</td></tr><tr><td class="border-b p-sm">Claude in Chrome</td><td class="border-b p-sm">Web research, email management, browser automation</td><td class="border-b p-sm">Chrome browser sidebar</td></tr></tbody></table>
 
 ## What's next[](https://academy.claude.com/courses/claude-101/other-ways-to-work-with-claude)
 

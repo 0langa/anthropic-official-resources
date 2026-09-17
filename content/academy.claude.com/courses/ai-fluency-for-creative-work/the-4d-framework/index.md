@@ -1,4 +1,4 @@
-Lesson 4 of 8 · AI Fluency for Creative WorkThe 4D Framework
+Lesson 4 of 8 · AI Fluency for creative workThe 4D Framework
 
 # The 4D Framework
 

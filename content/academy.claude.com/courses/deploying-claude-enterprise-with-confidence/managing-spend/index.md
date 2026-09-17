@@ -1,4 +1,4 @@
-Lesson 10 of 14 · Deploying Claude Enterprise with Confidence: The five decisions that shape your rolloutManaging spend
+Lesson 10 of 14 · Deploying Claude Enterprise with confidence: The five decisions that shape your rolloutManaging spend
 
 # Managing spend
 

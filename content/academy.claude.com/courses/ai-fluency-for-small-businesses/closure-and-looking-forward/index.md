@@ -1,4 +1,4 @@
-Lesson 9 of 9 · AI Fluency for Small BusinessesClosure and looking forward
+Lesson 9 of 9 · AI Fluency for small businessesClosure and looking forward
 
 # Closure and looking forward
 

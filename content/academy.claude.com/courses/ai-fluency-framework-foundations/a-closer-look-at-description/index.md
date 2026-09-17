@@ -1,4 +1,4 @@
-Lesson 8 of 14 · AI Fluency: Framework & FoundationsA closer look at Description
+Lesson 8 of 14 · AI Fluency: Framework and foundationsA closer look at Description
 
 # A closer look at Description
 

@@ -1,4 +1,4 @@
-Lesson 7 of 14 · Deploying Claude Enterprise with Confidence: The five decisions that shape your rolloutConnectors
+Lesson 7 of 14 · Deploying Claude Enterprise with confidence: The five decisions that shape your rolloutConnectors
 
 # Connectors
 

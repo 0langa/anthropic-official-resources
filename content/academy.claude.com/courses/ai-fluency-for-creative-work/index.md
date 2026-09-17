@@ -1,4 +1,4 @@
-# AI Fluency for Creative Work
+# AI Fluency for creative work
 
 This course empowers creative professionals to develop AI fluency, making intentional, analysis-driven decisions about AI use in their creative practice while protecting what makes their work theirs.
 
@@ -8,7 +8,7 @@ This course empowers creative professionals to develop AI fluency, making intent
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-lzbtkji5.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-i1ebz4s6.png)
 
-8 lessons · 1 quizAI Fluency for Creative Work
+8 lessons · 1 quizAI Fluency for creative work
 
 What you’ll learnBy the end of this course, you’ll be able to
 

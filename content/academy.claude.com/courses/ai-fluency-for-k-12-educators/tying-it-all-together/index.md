@@ -1,4 +1,4 @@
-Lesson 9 of 10 · AI Fluency for pK–12 EducatorsTying it all together
+Lesson 9 of 10 · AI Fluency for pK–12 educatorsTying it all together
 
 # Tying it all together
 

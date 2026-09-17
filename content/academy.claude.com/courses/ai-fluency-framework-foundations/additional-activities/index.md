@@ -1,4 +1,4 @@
-Lesson 14 of 14 · AI Fluency: Framework & FoundationsAdditional activities
+Lesson 14 of 14 · AI Fluency: Framework and foundationsAdditional activities
 
 # Additional activities
 

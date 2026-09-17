@@ -1,4 +1,4 @@
-Lesson 3 of 9 · Claude Code in ActionVerification skills
+Lesson 3 of 9 · Claude Code in actionVerification skills
 
 # Verification skills
 

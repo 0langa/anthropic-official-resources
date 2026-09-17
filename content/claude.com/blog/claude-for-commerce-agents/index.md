@@ -173,53 +173,53 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa82dfc4ca89952d04c3873_Object-Store.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
 
-Sep 15, 2026
+Jun 18, 2026
 
-### Claude for Small Business launches new workflows, integrations, and training programs
-
-Product announcements
-
-[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-for-commerce-agents)Claude for Small Business launches new workflows, integrations, and training programs
-
-[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Claude for Small Business launches new workflows, integrations, and training programs
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
-
-Sep 14, 2026
-
-### Claude for Financial Advisors
+### Claude Code now supports artifacts
 
 Product announcements
 
-[Claude for Financial Advisors](https://claude.com/blog/claude-for-commerce-agents)Claude for Financial Advisors
+[Claude Code now supports artifacts](https://claude.com/blog/claude-for-commerce-agents)Claude Code now supports artifacts
 
-[Claude for Financial Advisors](https://claude.com/blog/claude-for-financial-advisors)Claude for Financial Advisors
+[Claude Code now supports artifacts](https://claude.com/blog/artifacts-in-claude-code)Claude Code now supports artifacts
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
 
-Sep 8, 2026
+Jun 25, 2025
 
-### Reducing cost and improving performance with Claude Platform
+### Turn ideas into interactive AI-powered apps
 
-Agents
+Product announcements
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/claude-for-commerce-agents)Reducing cost and improving performance with Claude Platform
+[Turn ideas into interactive AI-powered apps](https://claude.com/blog/claude-for-commerce-agents)Turn ideas into interactive AI-powered apps
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
+[Turn ideas into interactive AI-powered apps](https://claude.com/blog/build-artifacts)Turn ideas into interactive AI-powered apps
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
 
-Sep 2, 2026
+Jul 25, 2025
 
-### A guide to the anatomy of effective commerce agents
+### Build and share AI-powered apps with Claude
 
-Agents
+Product announcements
 
-[A guide to the anatomy of effective commerce agents](https://claude.com/blog/claude-for-commerce-agents)A guide to the anatomy of effective commerce agents
+[Build and share AI-powered apps with Claude](https://claude.com/blog/claude-for-commerce-agents)Build and share AI-powered apps with Claude
 
-[A guide to the anatomy of effective commerce agents](https://claude.com/blog/the-anatomy-of-effective-commerce-agents)A guide to the anatomy of effective commerce agents
+[Build and share AI-powered apps with Claude](https://claude.com/blog/claude-powered-artifacts)Build and share AI-powered apps with Claude
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
+
+Jun 17, 2026
+
+### Claude Design now stays on brand for daily work
+
+Product announcements
+
+[Claude Design now stays on brand for daily work](https://claude.com/blog/claude-for-commerce-agents)Claude Design now stays on brand for daily work
+
+[Claude Design now stays on brand for daily work](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Claude Design now stays on brand for daily work
 
 ## Transform how your organization operates with Claude
 

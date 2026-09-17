@@ -1,4 +1,4 @@
-Lesson 6 of 14 · The AI-Native SDLC PlaybookSkills as institutional knowledge
+Lesson 6 of 14 · The AI-native SDLC playbookSkills as institutional knowledge
 
 # Skills as institutional knowledge
 

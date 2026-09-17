@@ -1,4 +1,4 @@
-Lesson 6 of 9 · Claude Code in ActionRoutines and headless
+Lesson 6 of 9 · Claude Code in actionRoutines and headless
 
 # Routines and headless
 

@@ -1,4 +1,4 @@
-# AI Fluency: Framework & Foundations
+# AI Fluency: Framework and foundations
 
 Learn to collaborate with AI effectively, efficiently, ethically, and safely using the 4D framework: Delegation, Description, Discernment, and Diligence.
 
@@ -8,7 +8,7 @@ Learn to collaborate with AI effectively, efficiently, ethically, and safely usi
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-nnfpzhuh.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-myzw6s2f.png)
 
-14 lessons · 1 quizAI Fluency: Framework & Foundations
+14 lessons · 1 quizAI Fluency: Framework and foundations
 
 What you’ll learnBy the end of this course, you’ll be able to
 
@@ -43,7 +43,7 @@ After finishing the course, you will have the opportunity to take a final assess
 
 ## AI diligence statement[](https://academy.claude.com/courses/ai-fluency-framework-foundations)
 
-In the development of the AI Fluency: Framework and Foundations course, we engaged in extensive collaboration with Claude 3.7 from Anthropic.
+In the development of the AI Fluency: Framework and foundations course, we engaged in extensive collaboration with Claude 3.7 from Anthropic.
 
 The base content for this course came from:
 

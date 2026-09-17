@@ -1,4 +1,4 @@
-Lesson 4 of 14 · The AI-Native SDLC PlaybookClaude Code plan mode as the default starting point
+Lesson 4 of 14 · The AI-native SDLC playbookClaude Code plan mode as the default starting point
 
 # Claude Code plan mode as the default starting point
 

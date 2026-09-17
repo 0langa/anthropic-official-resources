@@ -1,4 +1,4 @@
-Lesson 13 of 14 · The AI-Native SDLC PlaybookClosing the loop on metrics
+Lesson 13 of 14 · The AI-native SDLC playbookClosing the loop on metrics
 
 # Closing the loop on metrics
 

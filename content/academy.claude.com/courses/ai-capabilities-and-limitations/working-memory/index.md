@@ -1,4 +1,4 @@
-Lesson 8 of 13 · AI Capabilities and LimitationsWorking Memory
+Lesson 8 of 13 · AI capabilities and limitationsWorking Memory
 
 # Working Memory
 

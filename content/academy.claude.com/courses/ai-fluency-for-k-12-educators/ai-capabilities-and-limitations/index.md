@@ -1,4 +1,4 @@
-Lesson 5 of 10 · AI Fluency for pK–12 EducatorsAI capabilities and limitations
+Lesson 5 of 10 · AI Fluency for pK–12 educatorsAI capabilities and limitations
 
 # AI capabilities and limitations
 

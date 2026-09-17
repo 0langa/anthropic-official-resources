@@ -1,4 +1,4 @@
-Lesson 12 of 13 · AI Capabilities and LimitationsWhen Properties Collide
+Lesson 12 of 13 · AI capabilities and limitationsWhen Properties Collide
 
 # When Properties Collide
 

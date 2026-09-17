@@ -1,4 +1,4 @@
-Lesson 5 of 14 · The AI-Native SDLC PlaybookThe CLAUDE.md
+Lesson 5 of 14 · The AI-native SDLC playbookThe CLAUDE.md
 
 # The CLAUDE.md
 

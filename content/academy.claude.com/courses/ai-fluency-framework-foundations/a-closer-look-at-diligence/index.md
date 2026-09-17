@@ -1,4 +1,4 @@
-Lesson 12 of 14 · AI Fluency: Framework & FoundationsA closer look at Diligence
+Lesson 12 of 14 · AI Fluency: Framework and foundationsA closer look at Diligence
 
 # A closer look at Diligence
 

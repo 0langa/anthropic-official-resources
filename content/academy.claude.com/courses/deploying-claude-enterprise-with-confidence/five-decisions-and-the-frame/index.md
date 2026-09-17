@@ -1,4 +1,4 @@
-Lesson 1 of 14 · Deploying Claude Enterprise with Confidence: The five decisions that shape your rolloutFive decisions and the frame
+Lesson 1 of 14 · Deploying Claude Enterprise with confidence: The five decisions that shape your rolloutFive decisions and the frame
 
 # Five decisions and the frame
 

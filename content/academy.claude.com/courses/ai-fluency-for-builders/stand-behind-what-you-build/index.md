@@ -1,4 +1,4 @@
-Lesson 8 of 9 · AI Fluency for BuildersStand behind what you build
+Lesson 8 of 9 · AI Fluency for buildersStand behind what you build
 
 # Stand behind what you build
 

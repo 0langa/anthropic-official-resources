@@ -1,4 +1,4 @@
-Lesson 14 of 14 · Deploying Claude Enterprise with Confidence: The five decisions that shape your rolloutWhen a new product arrives
+Lesson 14 of 14 · Deploying Claude Enterprise with confidence: The five decisions that shape your rolloutWhen a new product arrives
 
 # When a new product arrives
 

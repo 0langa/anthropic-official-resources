@@ -1,4 +1,4 @@
-Lesson 9 of 13 · AI Capabilities and LimitationsTry It Out: Working Memory
+Lesson 9 of 13 · AI capabilities and limitationsTry It Out: Working Memory
 
 # Try It Out: Working Memory
 

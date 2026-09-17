@@ -1,4 +1,4 @@
-Lesson 13 of 14 · AI Fluency: Framework & FoundationsConclusion
+Lesson 13 of 14 · AI Fluency: Framework and foundationsConclusion
 
 # Conclusion
 

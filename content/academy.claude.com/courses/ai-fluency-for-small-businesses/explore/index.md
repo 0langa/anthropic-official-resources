@@ -1,4 +1,4 @@
-Lesson 4 of 9 · AI Fluency for Small BusinessesExplore!
+Lesson 4 of 9 · AI Fluency for small businessesExplore!
 
 # Explore!
 

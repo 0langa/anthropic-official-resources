@@ -1,4 +1,4 @@
-Lesson 1 of 10 · AI Fluency for pK–12 EducatorsHow this course was made
+Lesson 1 of 10 · AI Fluency for pK–12 educatorsHow this course was made
 
 # How this course was made
 

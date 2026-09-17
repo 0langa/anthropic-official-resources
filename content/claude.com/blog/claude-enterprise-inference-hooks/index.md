@@ -84,53 +84,53 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa82dfc4ca89952d04c3873_Object-Store.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
 
-Sep 15, 2026
+Jun 18, 2026
 
-### Claude for Small Business launches new workflows, integrations, and training programs
-
-Product announcements
-
-[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-enterprise-inference-hooks)Claude for Small Business launches new workflows, integrations, and training programs
-
-[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Claude for Small Business launches new workflows, integrations, and training programs
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
-
-Sep 14, 2026
-
-### Claude for Financial Advisors
+### Claude Code now supports artifacts
 
 Product announcements
 
-[Claude for Financial Advisors](https://claude.com/blog/claude-enterprise-inference-hooks)Claude for Financial Advisors
+[Claude Code now supports artifacts](https://claude.com/blog/claude-enterprise-inference-hooks)Claude Code now supports artifacts
 
-[Claude for Financial Advisors](https://claude.com/blog/claude-for-financial-advisors)Claude for Financial Advisors
+[Claude Code now supports artifacts](https://claude.com/blog/artifacts-in-claude-code)Claude Code now supports artifacts
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
 
-Sep 15, 2026
+Jun 25, 2025
 
-### Bringing Salesforce into Claude
+### Turn ideas into interactive AI-powered apps
 
-Enterprise AI
+Product announcements
 
-[Bringing Salesforce into Claude](https://claude.com/blog/claude-enterprise-inference-hooks)Bringing Salesforce into Claude
+[Turn ideas into interactive AI-powered apps](https://claude.com/blog/claude-enterprise-inference-hooks)Turn ideas into interactive AI-powered apps
 
-[Bringing Salesforce into Claude](https://claude.com/blog/salesforce-in-claude)Bringing Salesforce into Claude
+[Turn ideas into interactive AI-powered apps](https://claude.com/blog/build-artifacts)Turn ideas into interactive AI-powered apps
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228e9c51800dde13958_6507d83d1197bb8630131d363fb8bea838d79ca7-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
 
-Sep 14, 2026
+Jul 25, 2025
 
-### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
+### Build and share AI-powered apps with Claude
 
-Claude Code
+Product announcements
 
-[Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog/claude-enterprise-inference-hooks)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
+[Build and share AI-powered apps with Claude](https://claude.com/blog/claude-enterprise-inference-hooks)Build and share AI-powered apps with Claude
 
-[Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
+[Build and share AI-powered apps with Claude](https://claude.com/blog/claude-powered-artifacts)Build and share AI-powered apps with Claude
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
+
+Jun 17, 2026
+
+### Claude Design now stays on brand for daily work
+
+Product announcements
+
+[Claude Design now stays on brand for daily work](https://claude.com/blog/claude-enterprise-inference-hooks)Claude Design now stays on brand for daily work
+
+[Claude Design now stays on brand for daily work](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Claude Design now stays on brand for daily work
 
 ## Transform how your organization operates with Claude
 

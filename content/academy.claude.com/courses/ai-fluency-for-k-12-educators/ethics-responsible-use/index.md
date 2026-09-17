@@ -1,4 +1,4 @@
-Lesson 7 of 10 · AI Fluency for pK–12 EducatorsEthics & responsible AI use
+Lesson 7 of 10 · AI Fluency for pK–12 educatorsEthics & responsible AI use
 
 # Ethics & responsible AI use
 

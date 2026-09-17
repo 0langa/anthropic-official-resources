@@ -1,4 +1,4 @@
-Lesson 4 of 5 · Building Effective Human Agent Teams (Beta)Organizational checklist
+Lesson 4 of 5 · Building effective human-agent teams (beta)Organizational checklist
 
 # Organizational checklist
 

@@ -73,6 +73,6 @@ These examples are just the beginning. Visit the [Use Case Gallery(opens in new 
 
 ## What's next[](https://academy.claude.com/courses/claude-101/claude-in-action-use-cases-by-role)
 
-In our final module, you'll meet a few more ways to work with Claude — including Claude Code, Claude Tag, Claude Design, Claude for Microsoft 365, and Claude in Chrome — each tailored to where the work actually happens.
+In our final module, you'll meet a few more ways to work with Claude — including Claude Code, Claude Tag, Claude Design (which also works right inside your conversations), Claude for Microsoft 365, and Claude in Chrome — each tailored to where the work actually happens.
 
 Was this helpful?

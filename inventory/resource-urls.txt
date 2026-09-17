@@ -552,6 +552,7 @@ https://academy.claude.com/tutorials
 https://academy.claude.com/tutorials/a-discussion-guide-for-the-ai-fluency-index
 https://academy.claude.com/tutorials/best-practices-using-claude-tag
 https://academy.claude.com/tutorials/building-a-powerpoint-with-claude
+https://academy.claude.com/tutorials/building-ai-fluent-organizations
 https://academy.claude.com/tutorials/can-you-trust-what-ai-tells-you
 https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat
 https://academy.claude.com/tutorials/choosing-the-right-claude-model
@@ -574,6 +575,7 @@ https://academy.claude.com/tutorials/discernment-toolkit
 https://academy.claude.com/tutorials/financial-analysis-workflows-with-claude
 https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps
 https://academy.claude.com/tutorials/getting-good-at-claude-a-research-backed-curriculum
+https://academy.claude.com/tutorials/getting-started-with-claude
 https://academy.claude.com/tutorials/getting-started-with-claude-ai
 https://academy.claude.com/tutorials/getting-started-with-claude-for-financial-services
 https://academy.claude.com/tutorials/getting-started-with-claude-for-life-sciences
@@ -929,6 +931,7 @@ https://claude.com/blog/contribution-metrics
 https://claude.com/blog/cowork-built-in-browser
 https://claude.com/blog/cowork-chrome-side-panel
 https://claude.com/blog/cowork-for-enterprise
+https://claude.com/blog/cowork-is-now-claude
 https://claude.com/blog/cowork-plugins
 https://claude.com/blog/cowork-plugins-across-enterprise
 https://claude.com/blog/cowork-plugins-finance
@@ -3106,6 +3109,7 @@ https://support.claude.com/en/articles/13945233-use-claude-in-excel-and-powerpoi
 https://support.claude.com/en/articles/13947068
 https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork
 https://support.claude.com/en/articles/13947068-assign-tasks-to-claude-from-anywhere-in-cowork
+https://support.claude.com/en/articles/13979539
 https://support.claude.com/en/articles/13979539-custom-visuals-in-chat
 https://support.claude.com/en/articles/13979539-custom-visuals-in-chat-and-cowork
 https://support.claude.com/en/articles/14051822-notice-regarding-consumption-tax-jct-for-japanese-customers
@@ -3153,6 +3157,7 @@ https://support.claude.com/en/articles/14555399-claude-code-champion-kit
 https://support.claude.com/en/articles/14555877-claude-code-communications-kit
 https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design
 https://support.claude.com/en/articles/14604406-claude-design-admin-guide-for-team-and-enterprise-plans
+https://support.claude.com/en/articles/14604416
 https://support.claude.com/en/articles/14604416-get-started-with-claude-design
 https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude
 https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet
@@ -3180,6 +3185,7 @@ https://support.claude.com/en/articles/15263885-designate-support-contacts-for-h
 https://support.claude.com/en/articles/15282265-claude-enterprise-activation-promo-for-claude-code-and-cowork
 https://support.claude.com/en/articles/15330088
 https://support.claude.com/en/articles/15330088-set-a-default-model-for-your-organization
+https://support.claude.com/en/articles/15330088-set-a-default-model-for-your-organization?campaign=19893371
 https://support.claude.com/en/articles/15330089
 https://support.claude.com/en/articles/15330651-claude-enterprise-admin-api-reference-guide
 https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-5
@@ -3245,6 +3251,8 @@ https://support.claude.com/en/articles/16634237-claude-team-plan-for-scientists
 https://support.claude.com/en/articles/16635803
 https://support.claude.com/en/articles/16635803-set-up-browser-use-in-claude-cowork-for-team-and-enterprise-plans
 https://support.claude.com/en/articles/16761192-preserved-thinking-changing-how-the-messages-api-handles-thinking-blocks-to-protect-against-distillation
+https://support.claude.com/en/articles/16761823
+https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude
 https://support.claude.com/en/articles/16762437
 https://support.claude.com/en/articles/16762437-public-links-for-shared-chats
 https://support.claude.com/en/articles/16762496-share-a-chat-with-specific-people
@@ -3253,6 +3261,8 @@ https://support.claude.com/en/articles/16764057-create-surveys-for-your-organiza
 https://support.claude.com/en/articles/16764810-assign-a-program-to-workspaces-in-claude-console
 https://support.claude.com/en/articles/16824617-turn-on-data-retention-for-a-workspace-in-a-zero-data-retention-organization
 https://support.claude.com/en/articles/16893491-get-started-with-smart-reports
+https://support.claude.com/en/articles/16923645
+https://support.claude.com/en/articles/16923645-get-started-with-claude-docs
 https://support.claude.com/en/articles/16948886
 https://support.claude.com/en/articles/16948886-let-team-members-run-smart-reports-for-specific-groups
 https://support.claude.com/en/articles/16952184

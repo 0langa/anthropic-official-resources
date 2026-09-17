@@ -1,4 +1,4 @@
-Lesson 7 of 14 · AI Fluency: Framework & FoundationsProject planning and Delegation
+Lesson 7 of 14 · AI Fluency: Framework and foundationsProject planning and Delegation
 
 # Project planning and Delegation
 

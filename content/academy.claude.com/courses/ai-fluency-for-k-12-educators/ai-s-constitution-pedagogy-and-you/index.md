@@ -1,4 +1,4 @@
-Lesson 8 of 10 · AI Fluency for pK–12 EducatorsAI's constitution, pedagogy, and you
+Lesson 8 of 10 · AI Fluency for pK–12 educatorsAI's constitution, pedagogy, and you
 
 # AI's constitution, pedagogy, and you
 

@@ -1,4 +1,4 @@
-Lesson 9 of 9 · Claude Code in ActionPlugins
+Lesson 9 of 9 · Claude Code in actionPlugins
 
 # Plugins
 

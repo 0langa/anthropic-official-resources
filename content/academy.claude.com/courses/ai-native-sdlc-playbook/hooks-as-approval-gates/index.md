@@ -1,4 +1,4 @@
-Lesson 11 of 14 · The AI-Native SDLC PlaybookHooks as approval gates
+Lesson 11 of 14 · The AI-native SDLC playbookHooks as approval gates
 
 # Hooks as approval gates
 

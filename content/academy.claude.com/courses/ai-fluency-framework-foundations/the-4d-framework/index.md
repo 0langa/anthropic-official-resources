@@ -1,4 +1,4 @@
-Lesson 3 of 14 · AI Fluency: Framework & FoundationsThe 4D Framework
+Lesson 3 of 14 · AI Fluency: Framework and foundationsThe 4D Framework
 
 # The 4D Framework
 

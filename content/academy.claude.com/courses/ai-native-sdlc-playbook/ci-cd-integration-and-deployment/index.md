@@ -1,4 +1,4 @@
-Lesson 12 of 14 · The AI-Native SDLC PlaybookCI/CD integration and deployment
+Lesson 12 of 14 · The AI-native SDLC playbookCI/CD integration and deployment
 
 # CI/CD integration and deployment
 

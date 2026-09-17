@@ -1,4 +1,4 @@
-Lesson 5 of 9 · Claude Code in ActionHooks
+Lesson 5 of 9 · Claude Code in actionHooks
 
 # Hooks
 

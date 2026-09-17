@@ -1,4 +1,4 @@
-Lesson 5 of 5 · Building Effective Human Agent Teams (Beta)Some practical ways to get started
+Lesson 5 of 5 · Building effective human-agent teams (beta)Some practical ways to get started
 
 # Some practical ways to get started
 

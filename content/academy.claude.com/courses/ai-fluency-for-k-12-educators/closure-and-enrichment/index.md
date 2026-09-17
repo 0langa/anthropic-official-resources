@@ -1,4 +1,4 @@
-Lesson 10 of 10 · AI Fluency for pK–12 EducatorsClosure and enrichment
+Lesson 10 of 10 · AI Fluency for pK–12 educatorsClosure and enrichment
 
 # Closure and enrichment
 

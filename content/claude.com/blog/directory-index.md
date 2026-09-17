@@ -103,65 +103,11 @@ All
 
 [## Product announcements](https://claude.com/blog-category/announcements)
 
-## Claude for Small Business launches new workflows, integrations, and training programs
+## Claude Cowork and chat are now one Claude
 
-September 15, 2026
+September 16, 2026
 
-[Read more](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Read more
-
-## Claude in Chrome is generally available
-
-August 26, 2026
-
-[Read more](https://claude.com/blog/claude-in-chrome-generally-available)Read more
-
-## Claude gets its own browser in Cowork
-
-August 26, 2026
-
-[Read more](https://claude.com/blog/cowork-built-in-browser)Read more
-
-## Claude Code now supports artifacts
-
-June 18, 2026
-
-[Read more](https://claude.com/blog/artifacts-in-claude-code)Read more
-
-## Building intelligent apps for Apple platforms with Claude in the Foundation Models framework
-
-June 8, 2026
-
-[Read more](https://claude.com/blog/claude-for-foundation-models)Read more
-
-## New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels
-
-May 19, 2026
-
-[Read more](https://claude.com/blog/claude-managed-agents-updates)Read more
-
-## New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration
-
-May 19, 2026
-
-[Read more](https://claude.com/blog/new-in-claude-managed-agents)Read more
-
-## New connectors in Claude for everyday life
-
-April 23, 2026
-
-[Read more](https://claude.com/blog/connectors-for-everyday-life)Read more
-
-## Built-in memory for Claude Managed Agents
-
-April 23, 2026
-
-[Read more](https://claude.com/blog/claude-managed-agents-memory)Read more
-
-## Redesigning Claude Code on desktop for parallel agents
-
-April 14, 2026
-
-[Read more](https://claude.com/blog/claude-code-desktop-redesign)Read more
+[Read more](https://claude.com/blog/cowork-is-now-claude)Read more
 
 ## Claude for Small Business launches new workflows, integrations, and training programs
 
@@ -217,11 +163,65 @@ April 23, 2026
 
 [Read more](https://claude.com/blog/claude-managed-agents-memory)Read more
 
-## Redesigning Claude Code on desktop for parallel agents
+## Claude Cowork and chat are now one Claude
 
-April 14, 2026
+September 16, 2026
 
-[Read more](https://claude.com/blog/claude-code-desktop-redesign)Read more
+[Read more](https://claude.com/blog/cowork-is-now-claude)Read more
+
+## Claude for Small Business launches new workflows, integrations, and training programs
+
+September 15, 2026
+
+[Read more](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Read more
+
+## Claude in Chrome is generally available
+
+August 26, 2026
+
+[Read more](https://claude.com/blog/claude-in-chrome-generally-available)Read more
+
+## Claude gets its own browser in Cowork
+
+August 26, 2026
+
+[Read more](https://claude.com/blog/cowork-built-in-browser)Read more
+
+## Claude Code now supports artifacts
+
+June 18, 2026
+
+[Read more](https://claude.com/blog/artifacts-in-claude-code)Read more
+
+## Building intelligent apps for Apple platforms with Claude in the Foundation Models framework
+
+June 8, 2026
+
+[Read more](https://claude.com/blog/claude-for-foundation-models)Read more
+
+## New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels
+
+May 19, 2026
+
+[Read more](https://claude.com/blog/claude-managed-agents-updates)Read more
+
+## New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration
+
+May 19, 2026
+
+[Read more](https://claude.com/blog/new-in-claude-managed-agents)Read more
+
+## New connectors in Claude for everyday life
+
+April 23, 2026
+
+[Read more](https://claude.com/blog/connectors-for-everyday-life)Read more
+
+## Built-in memory for Claude Managed Agents
+
+April 23, 2026
+
+[Read more](https://claude.com/blog/claude-managed-agents-memory)Read more
 
 Filter and sort
 
@@ -306,6 +306,22 @@ Oops! Something went wrong while submitting the form.
 Grid
 
 List
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aaaa060d1aec4a549c537ef_Object-Easel.svg)
+
+Sep 16, 2026
+
+Claude Cowork and chat are now one Claude
+
+Product announcements
+
+Claude Cowork and chat are now one Claude
+
+September 16, 2026
+
+[Claude Cowork and chat are now one Claude](https://claude.com/blog/cowork-is-now-claude)Claude Cowork and chat are now one Claude
+
+[Claude Cowork and chat are now one Claude](https://claude.com/blog/)Claude Cowork and chat are now one Claude
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
 
@@ -529,22 +545,6 @@ August 28, 2026
 
 [Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/)Claude for Teachers, now available for U.S. K-12 schools and districts
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-How Warp builds self-improving agents on Claude
-
-Agents
-
-How Warp builds self-improving agents on Claude
-
-August 26, 2026
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/)How Warp builds self-improving agents on Claude
-
 [View more](https://claude.com/?b7eea976_page=2)
 
 1 / 17
@@ -554,6 +554,22 @@ Category
 Product
 
 Usecase
+
+### Claude Cowork and chat are now one Claude
+
+Category
+
+Product announcements
+
+Product
+
+Usecase
+
+September 16, 2026
+
+[Claude Cowork and chat are now one Claude](https://claude.com/blog/cowork-is-now-claude)Claude Cowork and chat are now one Claude
+
+[Claude Cowork and chat are now one Claude](https://claude.com/blog/)Claude Cowork and chat are now one Claude
 
 ### Bringing Salesforce into Claude
 
@@ -776,22 +792,6 @@ August 28, 2026
 [Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts)Claude for Teachers, now available for U.S. K-12 schools and districts
 
 [Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/)Claude for Teachers, now available for U.S. K-12 schools and districts
-
-### How Warp builds self-improving agents on Claude
-
-Category
-
-Agents
-
-Product
-
-Usecase
-
-August 26, 2026
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/)How Warp builds self-improving agents on Claude
 
 [View more](https://claude.com/?d7430fcd_page=2)
 

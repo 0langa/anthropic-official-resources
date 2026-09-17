@@ -27,7 +27,7 @@ Congratulations on completing Claude 101! You've built a solid foundation for wo
 **Organizing your work**
 
 - Projects create dedicated workspaces with persistent knowledge, custom instructions, and team collaboration
-- Artifacts are standalone outputs like documents, code, diagrams, and interactive tools that Claude creates alongside your conversation
+- Your artifacts — designs, decks, living documents, code, diagrams, and interactive tools — are the outputs you create with Claude; on paid plans they're saved in the Artifacts tab so you can keep editing and sharing them (designs, decks, and living documents are on paid plans)
 - Skills are instruction packages that teach Claude specialized workflows—including built-in document creation and custom skills you can create
 
 **Expanding Claude's reach**
@@ -39,7 +39,7 @@ Congratulations on completing Claude 101! You've built a solid foundation for wo
 **Putting it all together**
 
 - Claude applies across roles—sales, marketing, finance, HR, legal, research, and beyond
-- Beyond claude.ai, you can work with Claude through Claude Code, Slack, Excel, and Chrome
+- Beyond claude.ai, you can work with Claude through Claude Code, Claude Tag in Slack, Claude for Microsoft 365, and Claude in Chrome
 
 ## Additional resources[](https://academy.claude.com/courses/claude-101/what-s-next)
 

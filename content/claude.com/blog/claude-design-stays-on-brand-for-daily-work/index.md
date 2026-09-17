@@ -24,11 +24,13 @@
 
   https://claude.com/blog/claude-design-stays-on-brand-for-daily-work
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a32d4f7ae9712d1f8ef661e_Claude-Design-beta-static.webp)
+*Update, September 2026: Claude Design now works inside any conversation with Claude, including Claude Code and the Artifacts tab, in beta on paid plans. Slide decks have their own starting point in Claude Slides. Details in the* [*launch post*](https://claude.com/blog/cowork-is-now-claude)*.*
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aaafb4247e3419268d45cd6_6a32d4f7ae9712d1f8ef661e_Claude-Design-beta-static.webp)
 
 [Claude Design](https://claude.com/product/design) now sticks to your design system across projects, works fluidly with Claude Code, lets you edit directly on the canvas, and connects to more tools you already use. It has a new home in the sidebar on the Claude desktop app; https://claude.com/product/design
 
-Our goal remains the same as before: letting you explore more directions than a deadline usually allows and making the handoff to polish or build as seamless as possible. That goal now serves a lot more people. Over one million people used Claude Design in its first week, and your feedback is shaping what we build next.
+Our goal remains the same as before: letting you explore more directions than a deadline usually allows and making the handoff to polish or build as easy as possible. That goal now serves a lot more people. Over one million people used Claude Design in its first week, and your feedback is shaping what we build next.
 
 ## Build with your design system components
 
@@ -36,9 +38,9 @@ We rebuilt the design system import to give you more flexibility and increase pr
 
 ## Move between design and code
 
-It's now easier to move between working in Claude Design and Claude Code while keeping your work synced, with updates rolling out today. Use /design-sync to pull in your design system, so everything you build in Claude Design starts from your existing components. When a design is ready to become software, you can hand it off to Claude Code, which continues from your existing work instead of starting over from a screenshot.
+It's now easier to move between working in Claude Design and Claude Code while keeping your work synced. Use /design-sync to pull in your design system, so everything you build in Claude Design starts from your existing components. When a design is ready to become software, you can hand it off to Claude Code, which continues from your existing work instead of starting over from a screenshot.
 
-Prefer to begin in Claude Code? You can create, edit, and sync design projects without leaving the terminal using /design. Import a design into your codebase, turn your code into a live prototype, or let Claude carry a project all the way through.
+Prefer to begin in Claude Code? Ask for a design from your session on desktop or in the terminal, or use /design to create, edit, and sync design projects. Import a design into your codebase, turn your code into a live prototype, or let Claude carry a project all the way through.
 
 > "Claude design gives me the intelligence of frontier models with the functionality & capabilities of tried & true design tools. Anytime I'm working on design directions for Tenex's site, new brand assets, or presentations, Claude Design is the first place I go. The combination of approachable UX with strong taste & design instinct is why it's become a core part of my tech stack. And then the hand-off between Claude Design and Claude Code makes the process of prototype to production seamless."   
 >   
@@ -48,11 +50,11 @@ Prefer to begin in Claude Code? You can create, edit, and sync design projects w
 
 Our new editor gives you direct, fine-grained control over every element of your designs. New, rich layout controls let you drag, resize, and align elements. Hundreds of stability fixes make the editor hold up under real use.
 
-Claude Design also now shares usage limits with chat, Claude Cowork, and Claude Code, so most people will get much more headroom to create, and those hitting limits will do so less often. The average turn now uses fewer tokens to achieve the same results, and errors are down sharply.
+Claude Design also now shares usage limits with the rest of your work with Claude, including Claude Code, so most people will get much more headroom to create, and those hitting limits will do so less often.
 
 ## From the canvas to the tools you use
 
-Export reliably to PDF and PowerPoint or send your work to the apps you already use—the list of connectors now includes Adobe, Base44, Canva, Gamma, Lovable, Miro, Replit, Vercel and Wix, with more destinations coming soon.
+Export reliably to PDF, PowerPoint, or HTML, or send your work to the apps you already use—the list of connectors includes Adobe, Base44, Canva, Gamma, Lovable, Miro, Replit, Vercel, and Wix.
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5ad4f0fb6998a6283f1dd_Replit_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5ad55e5f775cb92a97c52_Replit_dark.svg)
 
@@ -120,7 +122,7 @@ Embedded media:
 
 ## Getting started
 
-Claude Design is in beta on Claude Pro, Max, Team, and Enterprise plans and included with your subscription. It’s turned off by default for Enterprise users; admins can enable it in organization settings, and work is shareable only within your organization. Find it at [claude.ai/design](https://claude.ai/design) or in the sidebar on the desktop app. Bring in your design system and create. No ideas? Ask for three directions on your next landing page, and pick the one worth refining.
+Claude Design is in beta on paid plans. It's on by default on Pro, Max, and Team plans and off by default on Enterprise, where an admin turns it on in Organization settings > Artifacts for the whole organization or for specific groups. On Team and Enterprise plans, links are shared inside your organization by default. Ask for a design in any conversation with Claude, including Claude Code, start one from the Artifacts tab, or keep using [claude.ai/design](https://claude.ai/design). Bring in your design system and create. No ideas? Ask for three directions on your next landing page, and pick the one worth refining.
 
 FAQ
 
@@ -130,53 +132,53 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa82dfc4ca89952d04c3873_Object-Store.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
 
-Sep 15, 2026
+Jun 18, 2026
 
-### Claude for Small Business launches new workflows, integrations, and training programs
-
-Product announcements
-
-[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Claude for Small Business launches new workflows, integrations, and training programs
-
-[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Claude for Small Business launches new workflows, integrations, and training programs
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
-
-Sep 14, 2026
-
-### Claude for Financial Advisors
+### Claude Code now supports artifacts
 
 Product announcements
 
-[Claude for Financial Advisors](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Claude for Financial Advisors
+[Claude Code now supports artifacts](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Claude Code now supports artifacts
 
-[Claude for Financial Advisors](https://claude.com/blog/claude-for-financial-advisors)Claude for Financial Advisors
+[Claude Code now supports artifacts](https://claude.com/blog/artifacts-in-claude-code)Claude Code now supports artifacts
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228c83775fcc75f4e6d_74409af25137110ac04cc39e4d5ea0a2fbcea421-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
 
-Sep 2, 2026
+Jun 25, 2025
 
-### Building commerce agents with Claude
-
-Product announcements
-
-[Building commerce agents with Claude](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Building commerce agents with Claude
-
-[Building commerce agents with Claude](https://claude.com/blog/claude-for-commerce-agents)Building commerce agents with Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a90479f5433ec75978f1e8a_Object-Apple.svg)
-
-Aug 28, 2026
-
-### Claude for Teachers, now available for U.S. K-12 schools and districts
+### Turn ideas into interactive AI-powered apps
 
 Product announcements
 
-[Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Claude for Teachers, now available for U.S. K-12 schools and districts
+[Turn ideas into interactive AI-powered apps](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Turn ideas into interactive AI-powered apps
 
-[Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts)Claude for Teachers, now available for U.S. K-12 schools and districts
+[Turn ideas into interactive AI-powered apps](https://claude.com/blog/build-artifacts)Turn ideas into interactive AI-powered apps
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
+
+Jul 25, 2025
+
+### Build and share AI-powered apps with Claude
+
+Product announcements
+
+[Build and share AI-powered apps with Claude](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Build and share AI-powered apps with Claude
+
+[Build and share AI-powered apps with Claude](https://claude.com/blog/claude-powered-artifacts)Build and share AI-powered apps with Claude
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aaaa060d1aec4a549c537ef_Object-Easel.svg)
+
+Sep 16, 2026
+
+### Claude Cowork and chat are now one Claude
+
+Product announcements
+
+[Claude Cowork and chat are now one Claude](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Claude Cowork and chat are now one Claude
+
+[Claude Cowork and chat are now one Claude](https://claude.com/blog/cowork-is-now-claude)Claude Cowork and chat are now one Claude
 
 ## Transform how your organization operates with Claude
 

@@ -1,4 +1,4 @@
-Lesson 8 of 9 · Claude Code in ActionTrust it: Verifying unsupervised runs
+Lesson 8 of 9 · Claude Code in actionTrust it: Verifying unsupervised runs
 
 # Trust it: Verifying unsupervised runs
 

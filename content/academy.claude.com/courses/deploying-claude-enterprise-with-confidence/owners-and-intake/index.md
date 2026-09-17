@@ -1,4 +1,4 @@
-Lesson 2 of 14 · Deploying Claude Enterprise with Confidence: The five decisions that shape your rolloutOwners and intake
+Lesson 2 of 14 · Deploying Claude Enterprise with confidence: The five decisions that shape your rolloutOwners and intake
 
 # Owners and intake
 

@@ -1,4 +1,4 @@
-Lesson 5 of 14 · AI Fluency: Framework & FoundationsCapabilities & limitations
+Lesson 5 of 14 · AI Fluency: Framework and foundationsCapabilities & limitations
 
 # Capabilities & limitations
 

@@ -1,4 +1,4 @@
-Lesson 8 of 14 · Deploying Claude Enterprise with Confidence: The five decisions that shape your rolloutGoverning customizations
+Lesson 8 of 14 · Deploying Claude Enterprise with confidence: The five decisions that shape your rolloutGoverning customizations
 
 # Governing customizations
 

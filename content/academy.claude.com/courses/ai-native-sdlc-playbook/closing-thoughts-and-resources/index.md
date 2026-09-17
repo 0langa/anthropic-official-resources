@@ -1,4 +1,4 @@
-Lesson 14 of 14 · The AI-Native SDLC PlaybookClosing thoughts and resources
+Lesson 14 of 14 · The AI-native SDLC playbookClosing thoughts and resources
 
 # Closing thoughts and resources
 

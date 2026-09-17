@@ -1,4 +1,4 @@
-Quiz 1 of 1 · Building Effective Human Agent Teams (Beta)Course quiz
+Quiz 1 of 1 · Building effective human-agent teams (beta)Course quiz
 
 # Course quiz
 

@@ -1,4 +1,4 @@
-Lesson 6 of 14 · AI Fluency: Framework & FoundationsA closer look at Delegation
+Lesson 6 of 14 · AI Fluency: Framework and foundationsA closer look at Delegation
 
 # A closer look at Delegation
 

@@ -22,7 +22,7 @@ Search for articles...`⌘K`
 
 Get started with Claude across everyday conversations, projects, and files.
 
-74 articles
+76 articles
 
 ![](https://downloads.intercomcdn.com/i/hc/icons/v3/lupk8zyo/938301/38ac2cf80abb9aeb3af2b9bef14b/141413.svg)
 
@@ -54,7 +54,7 @@ Configure single sign-on, provisioning, and directory sync for your team.
 
 Collaborate with Claude on shared workspaces and long-running tasks.
 
-13 articles
+14 articles
 
 ![](https://downloads.intercomcdn.com/i/hc/icons/v3/lupk8zyo/938306/369fee943d6bccaf717f37dc2f67/141413.svg)
 

@@ -39,7 +39,7 @@ done.
 
 ## Delegate your first task[](https://academy.claude.com/courses/introduction-to-claude-cowork/the-task-loop)
 
-You picked a task in previous lessons. Now is when it leaves your plate. Open Cowork, point it at the folder where the context for the task lives, turn on any connectors that hold relevant context for the task, and write your prompt.
+You picked a task in previous lessons. Now is when it leaves your plate. Open Claude, choose where the context for the task lives (a folder on your computer if you're in the desktop app, otherwise a project), turn on any connectors that hold relevant context for the task, and write your prompt.
 
 A good Cowork prompt does three things:
 
@@ -75,7 +75,7 @@ If you're used to prompting a chatbot, this will feel like more upfront work —
 
 ## Answer the clarifying questions[](https://academy.claude.com/courses/introduction-to-claude-cowork/the-task-loop)
 
-Claude asks questions to clarify any ambiguities about your objectives before it gets into the work. In Chat, you collaborate as you go — context shows up turn by turn. In Cowork, you delegate and it returns with a completed artifact. Anything that might trip it up — any gaps in its understanding — comes up through the questions before it dives in.
+Claude asks questions to clarify any ambiguities about your objectives before it gets into the work. When you're chatting, you collaborate as you go — context shows up turn by turn. When you delegate to Cowork, Claude goes off and returns with a completed artifact. Anything that might trip it up — any gaps in its understanding — comes up through the questions before it dives in.
 
 Most are easy: Claude presents a couple of options and you click the one that fits. If none of the options fit, you can answer in your own words.
 
@@ -97,7 +97,7 @@ Pick an answer to see what it tells Cowork.
 
 ## Steer mid-task[](https://academy.claude.com/courses/introduction-to-claude-cowork/the-task-loop)
 
-Watch Cowork's plan and progress as it works. If it's going off-track — wrong source, wrong format, wrong tone — interrupt. You can also stop the run if it's substantially off, refine the prompt, and start again with what you've learned. Most people's instinct from Chat is to wait until the response is done and then regenerate. Resist that. Cowork is built for course corrections, and the cost of a redirect is low.
+Watch Cowork's plan and progress as it works. If it's going off-track — wrong source, wrong format, wrong tone — interrupt. You can also stop the run if it's substantially off, refine the prompt, and start again with what you've learned. Most people's instinct from chatting is to wait until the response is done and then regenerate. Resist that. Cowork is built for course corrections, and the cost of a redirect is low.
 
 Steer the example task below and see how Claude responds.
 
@@ -158,32 +158,30 @@ Was this helpful?
 
 ## Transcript
 
-Claude Cowork meets you where your work happens and allows you to delegate complete tasks to Claude. If it's on your computer, Claude can find and edit it. If it's in the cloud, Claude connects through services like Google Drive, Notion and Slack. If it's in the browser, Claude is there too through Claude and Chrome.
+Claude Cowork meets you where your work happens, and allows you to delegate complete tasks to Claude. If it's on your computer, Claude can find and edit it. If it's in the cloud, Claude connects through services like Google Drive, Notion, and Slack. If it's in the browser, Claude is there too through Claude in Chrome. Describe what you need done and Claude does it. You can watch it work, steer when it matters, or step away and come back to the results.
 
-Describe what you need done and Claude does it. You can watch it work, steer when it matters, or step away and come back to the results.
+Claude Cowork is generally available in the Claude Desktop app on macOS and Windows for Pro, Max, Team, and Enterprise users. To get started, open Claude Desktop and click the Cowork tab. In a regular Claude chat, you work with Claude step-by-step. In Cowork, you hand off tasks and Claude handles the rest while you focus on other work.
 
-Claude Cowork is generally available in the Claude Desktop app on macOS and Windows for Pro, Max, Team and Enterprise users. To get started, open Claude Desktop and click the Cowork tab. In a regular Claude chat, you work with Claude step by step. In Cowork, you hand off tasks and Claude handles the rest while you focus on other work.
-
-First, give Claude access to a folder on your computer. Select the folder, directory or project you want Claude to operate in. It asks permission before making changes to your file system. Claude can now read, create and edit files in that folder directly. You can favorite the folders you go to most or select multiple folders to connect disparate data sources.
+First, give Claude access to a folder on your computer. Select the folder directory or project you want Claude to operate in. It asks permission before making changes to your file system. Claude can now read, create, and edit files in that folder directly. You can favorite the folders you go to most or select multiple folders to connect disparate data sources.
 
 Second, connect your tools. Cowork supports connectors that link Claude to services. These let Claude pull context from where your work already lives.
 
-Third, if you've set up Claude and Chrome, Cowork can use it for browser-based tasks, reading web pages, extracting data from sites and navigating across tabs.
+Third, if you've set up Claude in Chrome, Cowork can use it for browser-based tasks: reading web pages, extracting data from sites, and navigating across tabs.
 
-Under Settings, you can also click the Cowork tab and set global instructions that apply to every session, like context about your role or directions to create files as Word docs instead of Markdown.
+Under Settings, you can also click the Cowork tab and set global instructions that apply to every session, like context about your role or directions to create files as Word docs instead of markdown.
 
-One thing to keep in mind: your Cowork sessions are stored locally on your device, and the desktop app needs to stay open while Claude is working on a task.
+One thing to keep in mind, your Cowork sessions are stored locally on your device. And the desktop app needs to stay open while Claude is working on a task.
 
-Let's start with something really simple to show how Claude can work directly with your local files. You have a Downloads folder full of months of accumulated files—PDFs, spreadsheets, screenshots and duplicates, just a ton of random stuff. You connect it and tell Claude: organize my Downloads folder, scan the contents and propose a plan, categories to create, how files should be sorted, naming conventions to apply, and files to flag for review or deletion. Show me the plan before making changes.
+Let's start with something really simple to show how Claude can work directly with your local files. You have a Downloads folder full of months of accumulated files: PDFs, spreadsheets, screenshots, and duplicates. Just a ton of random stuff. You connect it and tell Claude, "Organize my Downloads folder. Scan the contents and propose a plan." "Categories to create, how files should be sorted, naming conventions to apply, and files to flag for a review or deletion." "Show me the plan before making changes."
 
-Claude comes back with a proposed structure: documents, spreadsheets, presentations, images, and a duplicates folder collecting redundant copies. It suggests date-based naming conventions and flags files that look like duplicates for review.
+Claude comes back with a proposed structure: documents, spreadsheets, presentations, images, and a duplicates folder collecting redundant copies. It suggests date-based naming conventions and flags four files that look like duplicates for review.
 
-You look at the flagged duplicates and notice two of them are actually different versions you want to keep. You tell Claude: move those two to a review folder instead of deleting them and go ahead with the rest of the plan. Claude adjusts and continues on.
+You look at the flagged duplicates and notice two of them are actually different versions you want to keep. You tell Claude, "Move those two to a review folder instead of deleting them and go ahead with the rest of the plan." Claude adjusts and continues on.
 
-As Claude works, you can watch the progress in the top right corner. You can click on each task to see details or ask questions. Files actually move on your machine. When it finishes, your Downloads folder is organized, renamed and cleaned up.
+As Claude works, you can watch the progress in the top right corner. You can click on each task to see details or ask questions. Files actually move on your machine. When it finishes, your Downloads folder is organized, renamed, and cleaned up.
 
 In a regular chat, Claude could describe how to organize your files. In Cowork, Claude does it.
 
 That's the core Cowork loop. Claude proposes a plan and waits for your approval before taking action. You can adjust the plan, redirect the approach, or tell Claude to skip certain steps. Once you approve, Claude executes directly in your file system.
 
-Start with tasks that have clear boundaries like this one, and always review what Claude produces. You're delegating the work, not the judgment.
+Start with tasks that have clear boundaries, like this one, and always review what Claude produces. You're delegating the work, not the judgment.

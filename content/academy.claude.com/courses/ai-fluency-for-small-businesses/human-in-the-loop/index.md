@@ -1,4 +1,4 @@
-Lesson 8 of 9 · AI Fluency for Small BusinessesHuman in the loop
+Lesson 8 of 9 · AI Fluency for small businessesHuman in the loop
 
 # Human in the loop
 

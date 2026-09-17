@@ -1,4 +1,4 @@
-Lesson 3 of 9 · AI Fluency for BuildersAI capabilities & limitations
+Lesson 3 of 9 · AI Fluency for buildersAI capabilities & limitations
 
 # AI capabilities & limitations
 

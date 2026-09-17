@@ -36,7 +36,7 @@ Today, we’re introducing the ability to build, host, and share interactive AI-
 
 ### Build and host Claude-powered apps
 
-Here’s what we built: Claude can now create artifacts that interact with Claude through an API— turning these artifacts into AI-powered apps, where the economics actually work for sharing.
+Here’s what we built: Claude can now create [artifacts](https://claude.com/features/artifacts) that interact with Claude through an API— turning these artifacts into AI-powered apps, where the economics actually work for sharing.
 
 When someone uses your Claude-powered app:
 
@@ -105,53 +105,53 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa82dfc4ca89952d04c3873_Object-Store.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
 
-Sep 15, 2026
+Jun 18, 2026
 
-### Claude for Small Business launches new workflows, integrations, and training programs
-
-Product announcements
-
-[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-powered-artifacts)Claude for Small Business launches new workflows, integrations, and training programs
-
-[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Claude for Small Business launches new workflows, integrations, and training programs
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
-
-Sep 14, 2026
-
-### Claude for Financial Advisors
+### Claude Code now supports artifacts
 
 Product announcements
 
-[Claude for Financial Advisors](https://claude.com/blog/claude-powered-artifacts)Claude for Financial Advisors
+[Claude Code now supports artifacts](https://claude.com/blog/claude-powered-artifacts)Claude Code now supports artifacts
 
-[Claude for Financial Advisors](https://claude.com/blog/claude-for-financial-advisors)Claude for Financial Advisors
+[Claude Code now supports artifacts](https://claude.com/blog/artifacts-in-claude-code)Claude Code now supports artifacts
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228c83775fcc75f4e6d_74409af25137110ac04cc39e4d5ea0a2fbcea421-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
 
-Sep 2, 2026
+Jun 25, 2025
 
-### Building commerce agents with Claude
-
-Product announcements
-
-[Building commerce agents with Claude](https://claude.com/blog/claude-powered-artifacts)Building commerce agents with Claude
-
-[Building commerce agents with Claude](https://claude.com/blog/claude-for-commerce-agents)Building commerce agents with Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a90479f5433ec75978f1e8a_Object-Apple.svg)
-
-Aug 28, 2026
-
-### Claude for Teachers, now available for U.S. K-12 schools and districts
+### Turn ideas into interactive AI-powered apps
 
 Product announcements
 
-[Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/claude-powered-artifacts)Claude for Teachers, now available for U.S. K-12 schools and districts
+[Turn ideas into interactive AI-powered apps](https://claude.com/blog/claude-powered-artifacts)Turn ideas into interactive AI-powered apps
 
-[Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts)Claude for Teachers, now available for U.S. K-12 schools and districts
+[Turn ideas into interactive AI-powered apps](https://claude.com/blog/build-artifacts)Turn ideas into interactive AI-powered apps
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
+
+Jun 17, 2026
+
+### Claude Design now stays on brand for daily work
+
+Product announcements
+
+[Claude Design now stays on brand for daily work](https://claude.com/blog/claude-powered-artifacts)Claude Design now stays on brand for daily work
+
+[Claude Design now stays on brand for daily work](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Claude Design now stays on brand for daily work
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aaaa060d1aec4a549c537ef_Object-Easel.svg)
+
+Sep 16, 2026
+
+### Claude Cowork and chat are now one Claude
+
+Product announcements
+
+[Claude Cowork and chat are now one Claude](https://claude.com/blog/claude-powered-artifacts)Claude Cowork and chat are now one Claude
+
+[Claude Cowork and chat are now one Claude](https://claude.com/blog/cowork-is-now-claude)Claude Cowork and chat are now one Claude
 
 ## Transform how your organization operates with Claude
 

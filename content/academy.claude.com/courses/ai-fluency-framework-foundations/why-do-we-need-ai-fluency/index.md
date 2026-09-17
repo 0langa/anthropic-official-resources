@@ -1,4 +1,4 @@
-Lesson 2 of 14 · AI Fluency: Framework & FoundationsWhy do we need AI Fluency?
+Lesson 2 of 14 · AI Fluency: Framework and foundationsWhy do we need AI Fluency?
 
 # Why do we need AI Fluency?
 

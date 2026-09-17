@@ -1,4 +1,4 @@
-Lesson 4 of 9 · Claude Code in ActionPermission modes
+Lesson 4 of 9 · Claude Code in actionPermission modes
 
 # Permission modes
 

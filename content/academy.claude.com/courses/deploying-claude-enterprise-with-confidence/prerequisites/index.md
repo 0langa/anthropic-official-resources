@@ -1,4 +1,4 @@
-Lesson 3 of 14 · Deploying Claude Enterprise with Confidence: The five decisions that shape your rolloutPrerequisites
+Lesson 3 of 14 · Deploying Claude Enterprise with confidence: The five decisions that shape your rolloutPrerequisites
 
 # Prerequisites
 

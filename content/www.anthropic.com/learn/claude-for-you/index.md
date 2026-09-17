@@ -24,11 +24,11 @@ Use case·15 min](https://academy.claude.com/use-cases/explore-what-claude-can-d
 
 ## Build your AI fluency
 
-[### AI Fluency: Framework & Foundations
+[### AI Fluency: Framework and foundations
 
 Learn to collaborate with AI effectively, efficiently, ethically, and safely using the 4D framework: Delegation, Description, Discernment, and Diligence.
 
-Course·14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)[### AI Capabilities and Limitations
+Course·14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)[### AI capabilities and limitations
 
 Build an accurate mental model of what large language models can and cannot do: next-token prediction, knowledge, working memory, steerability, and context limits.
 

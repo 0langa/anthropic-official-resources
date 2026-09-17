@@ -1,4 +1,4 @@
-Lesson 9 of 9 · AI Fluency for BuildersClosure & looking forward
+Lesson 9 of 9 · AI Fluency for buildersClosure & looking forward
 
 # Closure & looking forward
 

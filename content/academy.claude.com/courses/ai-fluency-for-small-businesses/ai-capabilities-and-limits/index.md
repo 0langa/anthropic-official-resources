@@ -1,4 +1,4 @@
-Lesson 3 of 9 · AI Fluency for Small BusinessesAI capabilities and limitations
+Lesson 3 of 9 · AI Fluency for small businessesAI capabilities and limitations
 
 # AI capabilities and limitations
 

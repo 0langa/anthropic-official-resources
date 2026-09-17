@@ -11,7 +11,7 @@ Copy pageCopy page
 Claude Code is an agentic coding environment. Unlike a chatbot that answers questions and waits, Claude Code can read your files, run commands, make changes, and autonomously work through problems while you watch, redirect, or step away entirely.
 This changes how you work. Instead of writing code yourself and asking Claude to review it, you describe what you want and Claude figures out how to build it. Claude explores, plans, and implements.
 But this autonomy still comes with a learning curve. Claude works within certain constraints you need to understand.
-This guide covers patterns that have proven effective across Anthropic’s internal teams and for engineers using Claude Code across various codebases, languages, and environments. For how the agentic loop works under the hood, see [How Claude Code works](https://code.claude.com/docs/en/how-claude-code-works).
+This guide covers patterns that have proven effective across Anthropic’s internal teams and for engineers using Claude Code across various codebases, languages, and environments. For how the agentic loop works, see [How Claude Code works](https://code.claude.com/docs/en/how-claude-code-works).
 
 
 ---
@@ -413,7 +413,7 @@ Pick the parallel approach that fits how much coordination you want to do yourse
 - [Worktrees](https://code.claude.com/docs/en/worktrees): run separate CLI sessions in isolated git checkouts so edits don’t collide
 - [Cross-session messaging](https://code.claude.com/docs/en/cross-session-messaging): let the sessions you run yourself pass findings to each other
 - [Desktop app](https://code.claude.com/docs/en/desktop): manage multiple local sessions visually, optionally each in its own worktree
-- [Claude Code on the web](https://code.claude.com/docs/en/claude-code-on-the-web): run sessions in the cloud, on Anthropic-managed infrastructure by default
+- [Use Claude Code in the cloud](https://code.claude.com/docs/en/claude-code-on-the-web): run sessions on Anthropic-managed infrastructure by default
 - [Agent view](https://code.claude.com/docs/en/agent-view): research preview. Run `claude agents` to dispatch sessions that keep running in the background and watch them from one screen
 - [Agent teams](https://code.claude.com/docs/en/agent-teams): experimental and disabled by default. Automated coordination of multiple sessions with shared tasks, messaging, and a team lead
 

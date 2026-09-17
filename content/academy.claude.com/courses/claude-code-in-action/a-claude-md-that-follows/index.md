@@ -1,4 +1,4 @@
-Lesson 2 of 9 · Claude Code in ActionA CLAUDE.md that follows
+Lesson 2 of 9 · Claude Code in actionA CLAUDE.md that follows
 
 # A CLAUDE.md that follows
 

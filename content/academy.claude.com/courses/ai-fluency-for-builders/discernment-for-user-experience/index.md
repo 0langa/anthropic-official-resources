@@ -1,4 +1,4 @@
-Lesson 7 of 9 · AI Fluency for BuildersDiscernment for user experience
+Lesson 7 of 9 · AI Fluency for buildersDiscernment for user experience
 
 # Discernment for user experience
 
@@ -104,7 +104,7 @@ One thing you'll notice in the exercises, the critique that you'd give a colleag
 
 ## CLARITY
 
-Lesson 7 of 9 · AI Fluency for BuildersDiscernment for user experience
+Lesson 7 of 9 · AI Fluency for buildersDiscernment for user experience
 
 # Discernment for user experience
 
@@ -202,7 +202,7 @@ Was this helpful?
 
 ## HIERARCHY
 
-Lesson 7 of 9 · AI Fluency for BuildersDiscernment for user experience
+Lesson 7 of 9 · AI Fluency for buildersDiscernment for user experience
 
 # Discernment for user experience
 
@@ -298,7 +298,7 @@ Was this helpful?
 
 ## ACCESSIBILITY
 
-Lesson 7 of 9 · AI Fluency for BuildersDiscernment for user experience
+Lesson 7 of 9 · AI Fluency for buildersDiscernment for user experience
 
 # Discernment for user experience
 
@@ -398,7 +398,7 @@ Was this helpful?
 
 ## FEEDBACK
 
-Lesson 7 of 9 · AI Fluency for BuildersDiscernment for user experience
+Lesson 7 of 9 · AI Fluency for buildersDiscernment for user experience
 
 # Discernment for user experience
 

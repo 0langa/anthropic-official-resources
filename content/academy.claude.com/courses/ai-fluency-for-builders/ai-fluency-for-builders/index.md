@@ -1,4 +1,4 @@
-Lesson 1 of 9 · AI Fluency for BuildersWelcome to AI Fluency for builders
+Lesson 1 of 9 · AI Fluency for buildersWelcome to AI Fluency for builders
 
 # Welcome to AI Fluency for builders
 

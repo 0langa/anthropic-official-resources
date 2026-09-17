@@ -1,4 +1,4 @@
-Lesson 11 of 14 · Deploying Claude Enterprise with Confidence: The five decisions that shape your rolloutVisibility: what you can measure
+Lesson 11 of 14 · Deploying Claude Enterprise with confidence: The five decisions that shape your rolloutVisibility: what you can measure
 
 # Visibility: what you can measure
 

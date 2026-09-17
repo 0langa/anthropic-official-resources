@@ -1,4 +1,4 @@
-Lesson 5 of 9 · AI Fluency for BuildersDescription & building great things
+Lesson 5 of 9 · AI Fluency for buildersDescription & building great things
 
 # Description & building great things
 

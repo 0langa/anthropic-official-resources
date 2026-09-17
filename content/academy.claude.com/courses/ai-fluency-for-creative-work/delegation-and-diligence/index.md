@@ -1,4 +1,4 @@
-Lesson 6 of 8 · AI Fluency for Creative WorkDelegation and Diligence
+Lesson 6 of 8 · AI Fluency for creative workDelegation and Diligence
 
 # Delegation and Diligence
 

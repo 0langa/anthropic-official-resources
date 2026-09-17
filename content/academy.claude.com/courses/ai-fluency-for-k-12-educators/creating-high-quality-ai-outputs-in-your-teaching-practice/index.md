@@ -1,4 +1,4 @@
-Lesson 6 of 10 · AI Fluency for pK–12 EducatorsCreating high quality AI outputs
+Lesson 6 of 10 · AI Fluency for pK–12 educatorsCreating high quality AI outputs
 
 # Creating high quality AI outputs
 

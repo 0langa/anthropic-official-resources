@@ -1,4 +1,4 @@
-Lesson 6 of 9 · AI Fluency for BuildersDiscernment for code
+Lesson 6 of 9 · AI Fluency for buildersDiscernment for code
 
 # Discernment for code
 
@@ -115,7 +115,7 @@ Alright, it's time to apply these lenses. Let's go.
 ## LENS 1
 Functional Integrity
 
-Lesson 6 of 9 · AI Fluency for BuildersDiscernment for code
+Lesson 6 of 9 · AI Fluency for buildersDiscernment for code
 
 # Discernment for code
 
@@ -224,7 +224,7 @@ Was this helpful?
 ## LENS 2
 Production Readiness
 
-Lesson 6 of 9 · AI Fluency for BuildersDiscernment for code
+Lesson 6 of 9 · AI Fluency for buildersDiscernment for code
 
 # Discernment for code
 
@@ -333,7 +333,7 @@ Was this helpful?
 ## LENS 3
 Problem Fit
 
-Lesson 6 of 9 · AI Fluency for BuildersDiscernment for code
+Lesson 6 of 9 · AI Fluency for buildersDiscernment for code
 
 # Discernment for code
 
@@ -442,7 +442,7 @@ Was this helpful?
 ## LENS 4
 Experience Quality
 
-Lesson 6 of 9 · AI Fluency for BuildersDiscernment for code
+Lesson 6 of 9 · AI Fluency for buildersDiscernment for code
 
 # Discernment for code
 
@@ -551,7 +551,7 @@ Was this helpful?
 ## LENS 5
 Responsible Impact
 
-Lesson 6 of 9 · AI Fluency for BuildersDiscernment for code
+Lesson 6 of 9 · AI Fluency for buildersDiscernment for code
 
 # Discernment for code
 

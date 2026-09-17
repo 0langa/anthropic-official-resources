@@ -1,4 +1,4 @@
-Lesson 10 of 14 · The AI-Native SDLC PlaybookAI in the PR review loop
+Lesson 10 of 14 · The AI-native SDLC playbookAI in the PR review loop
 
 # AI in the PR review loop
 

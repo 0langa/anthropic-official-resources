@@ -1,4 +1,4 @@
-Lesson 1 of 14 · The AI-Native SDLC PlaybookIntroduction
+Lesson 1 of 14 · The AI-native SDLC playbookIntroduction
 
 # Introduction
 

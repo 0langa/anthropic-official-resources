@@ -8,9 +8,9 @@
 
 [## Introducing Claude Fable 5.1 and Claude Mythos 5.1
 
-[AnnouncementsSep 1, 2026
+AnnouncementsSep 1, 2026
 
-Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.](https://www.anthropic.com/claude-fable-and-mythos-5-1)](https://www.anthropic.com/claude-fable-and-mythos-5-1)
+Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.](https://www.anthropic.com/claude-fable-and-mythos-5-1)
 
 [AnnouncementsSep 10, 2026
 

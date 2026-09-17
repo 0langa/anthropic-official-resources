@@ -1,4 +1,4 @@
-Lesson 1 of 14 · AI Fluency: Framework & FoundationsIntroduction to AI Fluency
+Lesson 1 of 14 · AI Fluency: Framework and foundationsIntroduction to AI Fluency
 
 # Introduction to AI Fluency
 

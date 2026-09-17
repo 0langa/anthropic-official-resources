@@ -326,6 +326,9 @@
   "https://claude.com/blog/cowork-for-enterprise": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://claude.com/blog/cowork-is-now-claude": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
   "https://claude.com/blog/cowork-plugins-across-enterprise": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
@@ -4641,7 +4644,7 @@
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://platform.claude.com/docs/en/cli-sdks-libraries/cli/sessions-connect": [
-    "Native source; upstream MDX components retained."
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://platform.claude.com/docs/en/cli-sdks-libraries/cli/using": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -6380,6 +6383,9 @@
   "https://support.claude.com/en/articles/16761192-preserved-thinking-changing-how-the-messages-api-handles-thinking-blocks-to-protect-against-distillation": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/16762437": [
     "Native source; upstream MDX components retained."
   ],
@@ -6404,13 +6410,22 @@
   "https://support.claude.com/en/articles/16893491-get-started-with-smart-reports": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/16923645-get-started-with-claude-docs": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/16948886": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/16948886-let-team-members-run-smart-reports-for-specific-groups": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/16952184": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/16952184-set-up-salesforce-in-claude-for-your-organization": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/16952186": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/16952186-use-salesforce-in-claude": [
@@ -6815,8 +6830,9 @@
   "https://www.anthropic.com/engineering/harness-design-long-running-apps": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
     "Could not read tab 'Sprite editor': TimeoutError",
-    "Could not read tab 'Sprite editor': TimeoutError",
-    "Could not read tab 'AI game design': TimeoutError"
+    "Could not read tab 'AI game design': TimeoutError",
+    "Could not read tab 'AI game design': TimeoutError",
+    "Could not read tab 'Game play': TimeoutError"
   ],
   "https://www.anthropic.com/news/analysis-tool": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -6862,14 +6878,16 @@
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/news/claude-opus-4-6": [
+    "Could not read tab 'Agentic search': TimeoutError",
     "Could not read tab 'Long-context reasoning': TimeoutError",
-    "Could not read tab 'Multilingual coding': TimeoutError",
-    "Could not read tab 'Cybersecurity': TimeoutError",
-    "Could not read tab 'Life sciences': TimeoutError"
+    "Could not read tab 'Long-term coherence': TimeoutError",
+    "Could not read tab 'Cybersecurity': TimeoutError"
   ],
   "https://www.anthropic.com/news/claude-opus-5": [
+    "Could not read tab 'CursorBench': TimeoutError",
     "Could not read tab 'AA Coding Agent Index': TimeoutError",
     "Could not read tab 'GDPval-AA v2': TimeoutError",
+    "Could not read tab 'OSWorld 2.0': TimeoutError",
     "Could not read tab 'HLE': TimeoutError",
     "Could not read tab 'DeepSearchQA': TimeoutError",
     "Could not read tab 'Cell artifact': TimeoutError"
@@ -6957,17 +6975,15 @@
     "Content dependencies blocked by scope or robots policy: https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html"
   ],
   "https://www.anthropic.com/research/claude-fable-5-mythos-5": [
-    "Could not read tab 'Factorio': TimeoutError",
-    "Could not read tab 'Fluid with Classical EDM': TimeoutError"
+    "Could not read tab 'Factorio': TimeoutError"
   ],
   "https://www.anthropic.com/research/claude-opus-5": [
+    "Could not read tab 'CursorBench': TimeoutError",
+    "Could not read tab 'OSWorld 2.0': TimeoutError",
+    "Could not read tab 'AutomationBench': TimeoutError",
     "Could not read tab 'DeepSearchQA': TimeoutError"
   ],
-  "https://www.anthropic.com/research/claude-sonnet-5": [
-    "Could not read tab 'Agentic computer use': TimeoutError"
-  ],
   "https://www.anthropic.com/research/claude-values-models-languages": [
-    "Could not read tab '': TimeoutError",
     "Could not read tab '': TimeoutError",
     "Could not read tab '': TimeoutError",
     "Could not read tab '': TimeoutError"

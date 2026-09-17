@@ -1,4 +1,4 @@
-Lesson 6 of 14 · Deploying Claude Enterprise with Confidence: The five decisions that shape your rolloutSurfaces each group gets
+Lesson 6 of 14 · Deploying Claude Enterprise with confidence: The five decisions that shape your rolloutSurfaces each group gets
 
 # Surfaces each group gets
 

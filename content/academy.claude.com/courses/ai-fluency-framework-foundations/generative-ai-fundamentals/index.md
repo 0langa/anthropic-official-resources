@@ -1,4 +1,4 @@
-Lesson 4 of 14 · AI Fluency: Framework & FoundationsGenerative AI fundamentals
+Lesson 4 of 14 · AI Fluency: Framework and foundationsGenerative AI fundamentals
 
 # Generative AI fundamentals
 

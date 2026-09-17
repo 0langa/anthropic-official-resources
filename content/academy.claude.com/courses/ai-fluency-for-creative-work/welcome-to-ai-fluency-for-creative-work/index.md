@@ -1,4 +1,4 @@
-Lesson 1 of 8 · AI Fluency for Creative WorkWelcome to AI Fluency for creative work
+Lesson 1 of 8 · AI Fluency for creative workWelcome to AI Fluency for creative work
 
 # Welcome to AI Fluency for creative work
 

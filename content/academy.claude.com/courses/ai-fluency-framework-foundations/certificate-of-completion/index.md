@@ -1,4 +1,4 @@
-Quiz 1 of 1 · AI Fluency: Framework & FoundationsCourse quiz
+Quiz 1 of 1 · AI Fluency: Framework and foundationsCourse quiz
 
 # Course quiz
 

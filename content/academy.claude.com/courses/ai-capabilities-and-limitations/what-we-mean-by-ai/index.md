@@ -1,4 +1,4 @@
-Lesson 2 of 13 · AI Capabilities and LimitationsWhat We Mean by AI
+Lesson 2 of 13 · AI capabilities and limitationsWhat We Mean by AI
 
 # What We Mean by AI
 

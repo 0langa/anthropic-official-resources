@@ -1,4 +1,4 @@
-Lesson 2 of 8 · AI Fluency for Creative WorkThe creative value lens
+Lesson 2 of 8 · AI Fluency for creative workThe creative value lens
 
 # The creative value lens
 

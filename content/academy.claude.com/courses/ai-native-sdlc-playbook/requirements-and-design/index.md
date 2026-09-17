@@ -1,4 +1,4 @@
-Lesson 3 of 14 · The AI-Native SDLC PlaybookRequirements and design
+Lesson 3 of 14 · The AI-native SDLC playbookRequirements and design
 
 # Requirements and design
 

@@ -1,4 +1,4 @@
-Lesson 11 of 13 · AI Capabilities and LimitationsTry It Out: Steerability
+Lesson 11 of 13 · AI capabilities and limitationsTry It Out: Steerability
 
 # Try It Out: Steerability
 

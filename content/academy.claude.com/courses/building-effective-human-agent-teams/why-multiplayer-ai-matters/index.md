@@ -1,4 +1,4 @@
-Lesson 1 of 5 · Building Effective Human Agent Teams (Beta)Why multiplayer AI matters
+Lesson 1 of 5 · Building effective human-agent teams (beta)Why multiplayer AI matters
 
 # Why multiplayer AI matters
 

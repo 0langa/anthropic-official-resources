@@ -1,4 +1,4 @@
-Lesson 4 of 9 · AI Fluency for BuildersDelegation & the builder's toolkit
+Lesson 4 of 9 · AI Fluency for buildersDelegation & the builder's toolkit
 
 # Delegation & the builder's toolkit
 

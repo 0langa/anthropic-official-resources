@@ -6,7 +6,7 @@ Lesson 2 of 14 · Introduction to Claude CoworkSetting up Claude Cowork
 
 In this lessonBy the end, you’ll be able to
 
-- Open Cowork in the Claude Desktop app and point it at a working folder
+- Give Claude a place to work: a folder on your computer in the desktop app, or a project
 - Connect the apps where your work lives
 - Recognize what Claude asks before doing — and what it doesn't — so you can hand off work with confidence
 
@@ -14,9 +14,9 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-cowork%2Fgetting-set-up)
 
-## Install Cowork[](https://academy.claude.com/courses/introduction-to-claude-cowork/getting-set-up)
+## Get set up[](https://academy.claude.com/courses/introduction-to-claude-cowork/getting-set-up)
 
-You can run Cowork in the Claude desktop app on Mac and Windows, or in the cloud (in beta, on eligible plans) from the web and the Claude mobile app. This lesson walks through setup on the desktop, where Claude works directly with your local files. If you don't have the app yet, install it from [claude.com/download(opens in new tab)](https://claude.com/download), open it, sign in, and choose Cowork. If Cowork isn't visible, you may need a paid plan or a more recent version of the desktop app. The Help Center's [Get started with Claude Cowork(opens in new tab)](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork) article walks through setup step by step.
+You can use Cowork in the Claude desktop app (Mac and Windows), on the web, or in the Claude mobile app. This lesson uses the desktop app, because that is where Claude can work directly with files on your computer. If you don't have it yet, install it from [claude.com/download(opens in new tab)](https://claude.com/download), open it, and sign in; you'll need a paid Claude plan. The Help Center's [Get started with Claude Cowork(opens in new tab)](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork) article walks through setup step by step.
 
 ## Pointing Claude at a folder[](https://academy.claude.com/courses/introduction-to-claude-cowork/getting-set-up)
 
@@ -50,11 +50,11 @@ Click a folder to see what comes into scope.
 
 **Pick the smallest folder that holds what the task needs.** You can always add another folder later if you need to give Cowork access to something outside it.
 
-**The folder is where Cowork has read AND write access.** It can open your files, edit them, create new ones, and organize them. This is the main difference from Chat: In Chat, Claude can read what you upload but can't save anything back to your computer — in Cowork, Claude can.
+**The folder is where Cowork has read AND write access.** It can open your files, edit them, create new ones, and organize them. That's what makes a working folder different from attaching files to a message: Claude doesn't only read what's there, it saves finished work back to the same place.
 
 **Pick a real folder with the right context.** Cowork works best when the folder has the context for what you're doing — the source materials, the relevant documents, the templates.
 
-**Cloud-based files behave differently.** What a cloud connector lets Claude do varies. Many — like the default Google Drive and M365 connectors — are read-and-search only. Others can also create or edit. To confirm what your connectors can do, check each connector's description when you enable it. Your working folder is where Claude edits your files directly, so that's where documents get built and revised. A session in the cloud reaches your connectors, not the folders on your computer, so start file work from the desktop when the files live on your machine.
+**Cloud-based files behave differently.** What a cloud connector lets Claude do varies. Many — like the default Google Drive and M365 connectors — are read-and-search only. Others can also create or edit. To confirm what your connectors can do, check each connector's description when you enable it. Your working folder is where Claude edits your files directly, so that's where documents get built and revised. When the files live on your computer, start the task from the desktop app; a task started from the web or your phone can reach your connectors but not your local folders.
 
 ## Adding connectors[](https://academy.claude.com/courses/introduction-to-claude-cowork/getting-set-up)
 
@@ -153,7 +153,7 @@ In both modes
 
 Cowork always asks before permanently deleting files. No exceptions.
 
-You also control — same as Chat
+You also control
 
 - **Connectors and MCPs** — which ones Claude can reach, and how often each one asks for permission.
 - **Web access** — your org’s admin can turn web search off, and you can limit which sites Claude in Chrome can visit.

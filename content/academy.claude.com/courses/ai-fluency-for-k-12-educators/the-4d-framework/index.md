@@ -1,4 +1,4 @@
-Lesson 3 of 10 · AI Fluency for pK–12 EducatorsThe 4D Framework
+Lesson 3 of 10 · AI Fluency for pK–12 educatorsThe 4D Framework
 
 # The 4D Framework
 

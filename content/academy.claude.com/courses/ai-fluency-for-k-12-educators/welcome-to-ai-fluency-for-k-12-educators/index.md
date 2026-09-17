@@ -1,4 +1,4 @@
-Lesson 2 of 10 · AI Fluency for pK–12 EducatorsWelcome to AI Fluency for educators
+Lesson 2 of 10 · AI Fluency for pK–12 educatorsWelcome to AI Fluency for educators
 
 # Welcome to AI Fluency for educators
 

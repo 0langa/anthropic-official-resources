@@ -1,4 +1,4 @@
-Lesson 11 of 14 · AI Fluency: Framework & FoundationsThe Description-Discernment loop
+Lesson 11 of 14 · AI Fluency: Framework and foundationsThe Description-Discernment loop
 
 # The Description-Discernment loop
 

@@ -1,4 +1,4 @@
-Lesson 10 of 14 · AI Fluency: Framework & FoundationsA closer look at Discernment
+Lesson 10 of 14 · AI Fluency: Framework and foundationsA closer look at Discernment
 
 # A closer look at Discernment
 

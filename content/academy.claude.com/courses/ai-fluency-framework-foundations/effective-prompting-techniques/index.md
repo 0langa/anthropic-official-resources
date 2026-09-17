@@ -1,4 +1,4 @@
-Lesson 9 of 14 · AI Fluency: Framework & FoundationsEffective prompting techniques
+Lesson 9 of 14 · AI Fluency: Framework and foundationsEffective prompting techniques
 
 # Effective prompting techniques
 

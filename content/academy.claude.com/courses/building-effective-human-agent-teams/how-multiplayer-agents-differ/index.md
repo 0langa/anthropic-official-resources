@@ -1,4 +1,4 @@
-Lesson 2 of 5 · Building Effective Human Agent Teams (Beta)How is a multiplayer agent different from traditional AI tools?
+Lesson 2 of 5 · Building effective human-agent teams (beta)How is a multiplayer agent different from traditional AI tools?
 
 # How is a multiplayer agent different from traditional AI tools?
 

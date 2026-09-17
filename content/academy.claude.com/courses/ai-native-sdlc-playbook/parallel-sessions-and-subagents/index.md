@@ -1,4 +1,4 @@
-Lesson 7 of 14 · The AI-Native SDLC PlaybookParallel sessions and subagents
+Lesson 7 of 14 · The AI-native SDLC playbookParallel sessions and subagents
 
 # Parallel sessions and subagents
 

@@ -1,4 +1,4 @@
-Lesson 2 of 14 · The AI-Native SDLC PlaybookCapture as intent.md
+Lesson 2 of 14 · The AI-native SDLC playbookCapture as intent.md
 
 # Capture as intent.md
 

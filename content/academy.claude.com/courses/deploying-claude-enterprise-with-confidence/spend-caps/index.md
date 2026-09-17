@@ -1,4 +1,4 @@
-Lesson 9 of 14 · Deploying Claude Enterprise with Confidence: The five decisions that shape your rolloutSpend caps
+Lesson 9 of 14 · Deploying Claude Enterprise with confidence: The five decisions that shape your rolloutSpend caps
 
 # Spend caps
 

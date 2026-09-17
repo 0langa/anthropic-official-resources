@@ -1,4 +1,4 @@
-Lesson 3 of 5 · Building Effective Human Agent Teams (Beta)What a strong human-agent team looks like
+Lesson 3 of 5 · Building effective human-agent teams (beta)What a strong human-agent team looks like
 
 # What a strong human-agent team looks like
 

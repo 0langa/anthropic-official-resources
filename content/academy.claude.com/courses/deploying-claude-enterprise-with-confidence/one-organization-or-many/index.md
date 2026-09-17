@@ -1,4 +1,4 @@
-Lesson 4 of 14 · Deploying Claude Enterprise with Confidence: The five decisions that shape your rolloutOne organization or many
+Lesson 4 of 14 · Deploying Claude Enterprise with confidence: The five decisions that shape your rolloutOne organization or many
 
 # One organization or many
 

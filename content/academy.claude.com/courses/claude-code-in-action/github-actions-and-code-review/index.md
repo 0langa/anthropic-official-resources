@@ -1,4 +1,4 @@
-Lesson 7 of 9 · Claude Code in ActionGitHub Actions and Code Review
+Lesson 7 of 9 · Claude Code in actionGitHub Actions and Code Review
 
 # GitHub Actions and Code Review
 
