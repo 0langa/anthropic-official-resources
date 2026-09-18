@@ -16,13 +16,13 @@ Get organization-wide activity summaries for a date range.
 
 
 
-BetaActivitySummary object{ summaries }
+BetaActivitySummary object{ summaries }
 
 Response for GET /v1/organizations/analytics/summaries.
 
 
 
-BetaAnalyticsUser object{ type, id, email\_address }
+BetaAnalyticsUser object{ type: "user", id, email\_address }
 
 A user in the organization, identified by tagged id and email address.
 
@@ -44,7 +44,7 @@ Email address of the user
 
 
 
-BetaAnalyticsUserActor object{ type, deleted, email, 2 more }
+BetaAnalyticsUserActor object{ type: "user\_actor", deleted, email, 2 more }
 
 type: "user\_actor"
 
@@ -68,7 +68,7 @@ Tagged user ID.
 
 
 
-BetaConnectorOfficeProductMetrics object{ distinct\_session\_connector\_used\_count }
+BetaConnectorOfficeProductMetrics object{ distinct\_session\_connector\_used\_count }
 
 Office Agent activity metrics for a single connector on a given day within one Office product.
 
@@ -78,7 +78,7 @@ Number of distinct Office Agent sessions in which the connector was used. Approx
 
 
 
-BetaOfficeProductMetrics object{ connectors\_used\_count, distinct\_connectors\_used\_count, distinct\_session\_count, 3 more }
+BetaOfficeProductMetrics object{ connectors\_used\_count, distinct\_connectors\_used\_count, distinct\_session\_count, 3 more }
 
 Office Agent activity metrics for a single user on a given day within one Office product.
 
@@ -108,7 +108,7 @@ Number of skill invocations
 
 
 
-BetaSkillOfficeProductMetrics object{ distinct\_session\_skill\_used\_count }
+BetaSkillOfficeProductMetrics object{ distinct\_session\_skill\_used\_count }
 
 Office Agent activity metrics for a single skill on a given day within one Office product.
 
@@ -118,7 +118,7 @@ Number of distinct Office Agent sessions in which the skill was used. A skill co
 
 
 
-BetaToolActionCounts object{ accepted\_count, rejected\_count }
+BetaToolActionCounts object{ accepted\_count, rejected\_count }
 
 Accepted/rejected counts for a single Claude Code tool type.
 

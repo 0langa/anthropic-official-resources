@@ -94,7 +94,7 @@ The above is just a short summary of some of our extensive safety work on Claude
 
 ## **Using Claude**
 
-You can use Claude 3.7 Sonnet now at [Claude.ai](http://claude.ai/redirect/website.v1.957bf167-760f-4729-a8e7-d975b5e673d0) or on [our API](https://docs.anthropic.com/en/api/getting-started). And just as Claude can now let you know what it thinks, we hope you’ll let us know what you think, too. Please send your feedback about the new model to [feedback@anthropic.com](mailto:feedback@anthropic.com).
+You can use Claude 3.7 Sonnet now at [Claude.ai](http://claude.ai/redirect/website.v1.484dc870-7abd-41b7-a513-4814972dcf59) or on [our API](https://docs.anthropic.com/en/api/getting-started). And just as Claude can now let you know what it thinks, we hope you’ll let us know what you think, too. Please send your feedback about the new model to [feedback@anthropic.com](mailto:feedback@anthropic.com).
 
 #### Footnotes
 
@@ -108,6 +108,12 @@ You can use Claude 3.7 Sonnet now at [Claude.ai](http://claude.ai/redirect/websi
 
 ## Related content
 
+### Introducing the Life Sciences Verification Program
+
+The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
+
+[Read more](https://www.anthropic.com/news/life-sciences-verification-program)
+
 ### Developing Enterprise Frontier Safeguards with our customers
 
 [Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)
@@ -117,9 +123,3 @@ You can use Claude 3.7 Sonnet now at [Claude.ai](http://claude.ai/redirect/websi
 On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.
 
 [Read more](https://www.anthropic.com/news/improving-alignment-security-efforts)
-
-### Previewing the Model Hardware Standard
-
-We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.
-
-[Read more](https://www.anthropic.com/news/model-hardware-standard-research-preview)

@@ -1,0 +1,47 @@
+import{$p as e,Zp as t}from"../../../content-de-meta-ee5tgx76.js";var n=t();function r(t){let r={a:"a",h2:"h2",h3:"h3",li:"li",ol:"ol",p:"p",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...e(),...t.components},{ChromePrompt:i,ChromeResponse:o,Image:s}=r;return i||a("ChromePrompt",!0),o||a("ChromeResponse",!0),s||a("Image",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(s,{src:"./prepare-and-plan-from-your-calendar.png",alt:"Prepare and plan from your calendar result",preview:!0}),`
+`,(0,n.jsx)(r.h2,{id:"1-describe-the-task",children:"1. Describe the task"}),`
+`,(0,n.jsx)(r.p,{children:"Claude for Chrome lets Claude interact directly with web pages—reading content, clicking, typing, and navigating sites on your behalf. For calendar prep, this means Claude can open your Google Calendar, check each meeting's attendee list, switch to Gmail to search for relevant threads with those people, and even book conference rooms."}),`
+`,(0,n.jsx)(r.p,{children:"Point Claude at your Google Calendar and tell it what to look for. It handles the cross-referencing between calendar and email, surfaces what needs your attention, and can fix the gaps."}),`
+`,(0,n.jsxs)(i,{children:[(0,n.jsx)(r.p,{children:"Look at my calendar and help me get ready for tomorrow."}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"For each meeting:"})}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"Tell me if it's internal or external (check the attendee domains)"}),`
+`,(0,n.jsx)(r.li,{children:"Find any recent email threads with those attendees about this topic"}),`
+`,(0,n.jsx)(r.li,{children:"Flag if the meeting is missing a room (for in-person) or a video link (for remote). If it is, assign one to the meeting."}),`
+`,(0,n.jsx)(r.li,{children:"For external meetings, note anything I should review beforehand, like relevant docs attached to the meeting or related emails."}),`
+`]}),(0,n.jsx)(r.p,{children:"Give me a quick prep summary for the day, finding what needs my attention before I show up."})]}),`
+`,(0,n.jsx)(r.h2,{id:"2-give-claude-context",children:"2. Give Claude context"}),`
+`,(0,n.jsx)(r.p,{children:"Claude reads your calendar and email directly in Chrome. It cross-references attendees, threads, and meeting details to build context."}),`
+`,(0,n.jsx)(r.h3,{id:"required-context",children:"Required context"}),`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:"Required:"})," Open Google Calendar showing tomorrow's date and Gmail in another tab. Claude navigates between them to gather context for each meeting. Make sure you're logged into both."]}),`
+`,(0,n.jsx)(r.h2,{id:"3-what-claude-creates",children:"3. What Claude creates"}),`
+`,(0,n.jsx)(r.p,{children:"Claude reviews each meeting and gives you a prep summary organized by what needs attention."}),`
+`,(0,n.jsxs)(o,{children:[(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Tomorrow: Wednesday, December 18"})}),(0,n.jsxs)(r.p,{children:["You have ",(0,n.jsx)(r.strong,{children:"6 meetings"}),". Here's what I found:"]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Needs Prep (External Meetings)"})}),(0,n.jsxs)(r.table,{children:[(0,n.jsx)(r.thead,{children:(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.th,{children:"Meeting"}),(0,n.jsx)(r.th,{children:"Time"}),(0,n.jsx)(r.th,{children:"Context"})]})}),(0,n.jsxs)(r.tbody,{children:[(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"Acme Corp quarterly review"}),(0,n.jsx)(r.td,{children:"10:00 AM"}),(0,n.jsx)(r.td,{children:"External (3 attendees from @acme.com). Found email thread from Dec 12 where they asked about API rate limits—might come up. No room booked."})]}),(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"Vendor intro - DataFlow"}),(0,n.jsx)(r.td,{children:"2:00 PM"}),(0,n.jsx)(r.td,{children:"External (new contact). They sent a capabilities deck on Dec 15 you haven't opened. Zoom link is in the invite."})]})]})]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Missing Logistics"})}),(0,n.jsxs)(r.table,{children:[(0,n.jsx)(r.thead,{children:(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.th,{children:"Meeting"}),(0,n.jsx)(r.th,{children:"Issue"}),(0,n.jsx)(r.th,{children:"Suggested Fix"})]})}),(0,n.jsxs)(r.tbody,{children:[(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"Acme Corp quarterly review"}),(0,n.jsx)(r.td,{children:"No room"}),(0,n.jsx)(r.td,{children:"Book Sequoia (seats 6) — available"})]}),(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"Team planning sync"}),(0,n.jsx)(r.td,{children:"No room"}),(0,n.jsx)(r.td,{children:"Book Birch (seats 8) — available"})]}),(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"Design review"}),(0,n.jsx)(r.td,{children:"No video link"}),(0,n.jsx)(r.td,{children:"Found Meet link in thread with Sarah—add to invite?"})]})]})]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Ready to Go (No Action Needed)"})}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Standup"})," — 9:00 AM, has Zoom link, recurring"]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Marcus 1:1"})," — 11:30 AM, internal, has room (Aspen)"]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"End of day sync"})," — 4:30 PM, internal, has Meet link"]}),`
+`]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Quick Prep Summary"})}),(0,n.jsxs)(r.ol,{children:[`
+`,(0,n.jsx)(r.li,{children:"Review the API rate limits thread before Acme call (I can pull the key points if helpful)"}),`
+`,(0,n.jsx)(r.li,{children:"Open the DataFlow deck before the 2pm—it's 12 slides"}),`
+`,(0,n.jsx)(r.li,{children:"Book rooms for Acme and Team planning"}),`
+`,(0,n.jsx)(r.li,{children:"Add Meet link to Design review"}),`
+`]}),(0,n.jsx)(r.p,{children:"Want me to book those rooms and add the video link now?"})]}),`
+`,(0,n.jsx)(r.h2,{id:"4-follow-up-prompts",children:"4. Follow up prompts"}),`
+`,(0,n.jsx)(r.p,{children:"Continue the conversation with Claude to refine, expand, or explore further."}),`
+`,(0,n.jsx)(r.h3,{id:"fix-the-logistics",children:"Fix the logistics"}),`
+`,(0,n.jsx)(r.p,{children:"Claude can book rooms and add links directly to calendar events. Once you've reviewed what needs fixing, approve the changes."}),`
+`,(0,n.jsx)(i,{children:(0,n.jsx)(r.p,{children:"Yes, book those rooms and add the Meet link. Use a room on the 6th floor if available—that's where I sit."})}),`
+`,(0,n.jsx)(r.h3,{id:"get-deeper-prep-for-the-external-meeting",children:"Get deeper prep for the external meeting"}),`
+`,(0,n.jsx)(r.p,{children:"For important calls, Claude can summarize recent correspondence with those contacts. This surfaces what's been discussed and what might come up."}),`
+`,(0,n.jsx)(i,{children:(0,n.jsx)(r.p,{children:"For the Acme meeting, can you summarize the last few email threads I've had with them? I want to know what's been discussed recently and what they might bring up."})}),`
+`,(0,n.jsx)(r.h3,{id:"make-this-a-nightly-routine",children:"Make this a nightly routine"}),`
+`,(0,n.jsx)(r.p,{children:"Claude in Chrome can run tasks on a schedule. Set this to run every evening so you start each morning with prep done."}),`
+`,(0,n.jsx)(i,{children:(0,n.jsx)(r.p,{children:'Can you save this as a shortcut I run every evening at 6pm? Call it "Prep tomorrow" and have it review my calendar, flag external meetings, and check for missing rooms or links.'})}),`
+`,(0,n.jsx)(r.h2,{id:"5-tricks-tips-and-troubleshooting",children:"5. Tricks, tips, and troubleshooting"}),`
+`,(0,n.jsx)(r.h3,{id:"save-and-automate-your-workflow-as-a-shortcut",children:"Save and automate your workflow as a shortcut"}),`
+`,(0,n.jsx)(r.p,{children:'Save the prompt as a shortcut by clicking on the shortcut icon below a successful prompt. You can also set a schedule for when you want the workflow to run next. Alternatively, manually trigger the workflow, by typing "/" and selecting the shortcut.'}),`
+`,(0,n.jsx)(r.h3,{id:"navigating-to-new-sites",children:"Navigating to new sites"}),`
+`,(0,n.jsx)(r.p,{children:"Claude asks for permission before visiting new sites. You can grant site-level permissions for websites you trust, allowing Claude to work without repeated approvals on those specific domains."}),`
+`,(0,n.jsx)(r.h3,{id:"permissions-before-taking-actions",children:"Permissions before taking actions"}),`
+`,(0,n.jsx)(r.p,{children:'Before clicking "send," "publish," "post," "submit," or similar action buttons, Claude asks for approval. This includes sending emails, posting to social media, submitting forms, or messaging others on your behalf.'}),`
+`,(0,n.jsx)(r.h2,{id:"6-ready-to-try-for-yourself",children:"6. Ready to try for yourself?"}),`
+`,(0,n.jsx)(r.p,{children:"Install the Claude in Chrome extension and watch Claude scan tomorrow's meetings, find what you need to know, and fix what's missing—prep done before tomorrow arrives."}),`
+`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.a,{href:"https://claude.com/download",children:"Try in Claude"})})]})}function i(t={}){let{wrapper:i}={...e(),...t.components};return i?(0,n.jsx)(i,{...t,children:(0,n.jsx)(r,{...t})}):r(t)}function a(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{i as default};

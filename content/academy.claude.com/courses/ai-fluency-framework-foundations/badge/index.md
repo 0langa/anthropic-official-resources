@@ -1,4 +1,4 @@
-AI Fluency: Framework & FoundationsCompletion badge
+AI Fluency: Framework and foundationsCompletion badge
 
 # Completion badge
 

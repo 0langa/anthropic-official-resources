@@ -1,5 +1,7 @@
 # What to expect with Claude Cowork in the cloud
 
+**Note:** Claude Cowork is now just Claude. Ask for what you need, and Claude decides whether that's a quick answer or a task. This is rolling out gradually to Pro and Max plans, with more plans to follow. If you're on a Pro or Max plan and your message box no longer shows "Chat" and "Cowork" options, you have the new experience, and some steps in this article may look different. Learn more in **[Claude Cowork and chat are one Claude](https://support.claude.com/en/articles/16761823)**, or read our **[blog post](https://claude.com/blog/cowork-is-now-claude)**.
+
 Claude Cowork can now run your tasks in the cloud, on Anthropic's servers instead of your computer. It lets Claude keep working when your computer is closed and brings Cowork to web and mobile. This article covers what changes when a session runs in the cloud and what stays the same.
 
 Claude Cowork is available for paid plans (Pro, Max, Team, Enterprise) on desktop, and in beta on web and mobile for Pro, Max, and Team plans, and Enterprise plans when enabled by an owner. This article is for existing Cowork users on the desktop app.
@@ -42,11 +44,13 @@ If the desktop app is closed, sessions in the cloud keep running but can't reach
 
 You can switch modes when starting a new session by clicking the “Beta” button in the upper right corner, or by navigating to **[Settings > Cowork](http://claude.ai/settings/cowork)** and toggling **Run new tasks in the cloud** on or off.
 
+**Note:** If you have the new Claude experience, tasks run in the cloud, and there's no option to run them locally.
+
 ---
 
 ## Chat and Cowork now live in one place
 
-Chat and Cowork share one home on every surface. In the message box, select “Cowork” to hand off a task, or “Chat” for a regular conversation. Some things are shared between them, and a few still differ while we finish bringing them together.
+Chat and Cowork share one home on every surface. In the message box, select “Cowork” to hand off a task, or “Chat” for a regular conversation. Some things are shared between them, and a few still differ while we finish bringing them together. If you have the new Claude experience, there's no "Chat" or "Cowork" option. Describe what you need in any conversation. Learn more in **[Claude Cowork and chat are one Claude](https://support.claude.com/en/articles/16761823)**.
 
 **What's shared now:**
 

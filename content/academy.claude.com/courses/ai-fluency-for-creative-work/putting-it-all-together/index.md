@@ -1,4 +1,4 @@
-Lesson 8 of 8 · AI Fluency for Creative WorkPutting it all together
+Lesson 8 of 8 · AI Fluency for creative workPutting it all together
 
 # Putting it all together
 

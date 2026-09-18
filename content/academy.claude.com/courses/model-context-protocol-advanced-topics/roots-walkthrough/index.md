@@ -1,4 +1,4 @@
-Lesson 6 of 11 · Model Context Protocol: Advanced TopicsRoots walkthrough
+Lesson 6 of 11 · Model Context Protocol: Advanced topicsRoots walkthrough
 
 # Roots walkthrough
 

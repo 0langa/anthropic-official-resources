@@ -58,7 +58,7 @@ For example, in the blackmail test discussed above, we used NLAs to understand w
 
 Claude does not say it thinks it’s being tested in this transcript from our blackmail evaluation, but the NLA explanation reveals its suspicions.
 
-Extending this analysis to other evaluations, NLAs suggest that Claude suspects it’s being tested more often than it lets on. For instance, in a test of whether Claude takes destructive actions while writing code—for example, deleting important files—NLA explanations show signs of evaluation awareness 16% of the time, even though Claude never explicitly verbalizes this. Similarly, on the popular coding benchmark SWE-bench Verified, which we use to determine how capable Claude is, NLAs indicate that Claude is aware it is being evaluated on 26% of problems. In contrast, NLA explanations indicate evaluation awareness on less than 1% of real [claude.ai](http://claude.ai/redirect/website.v1.fd6b2d03-6c42-4a5d-bd2d-6fae81573f95) usage that opted in for training.
+Extending this analysis to other evaluations, NLAs suggest that Claude suspects it’s being tested more often than it lets on. For instance, in a test of whether Claude takes destructive actions while writing code—for example, deleting important files—NLA explanations show signs of evaluation awareness 16% of the time, even though Claude never explicitly verbalizes this. Similarly, on the popular coding benchmark SWE-bench Verified, which we use to determine how capable Claude is, NLAs indicate that Claude is aware it is being evaluated on 26% of problems. In contrast, NLA explanations indicate evaluation awareness on less than 1% of real [claude.ai](http://claude.ai/redirect/website.v1.f6afbfee-c6a2-4bb0-93e2-079385a264f7) usage that opted in for training.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffc08005f32ff020f21e598cc72f58768af2bcc4f-1590x1170.png&w=3840&q=75)
 
@@ -104,6 +104,12 @@ Find the [code](https://github.com/kitft/natural_language_autoencoders) on GitHu
 
 ## Related content
 
+### How Claude is uplifting biomolecular modeling
+
+Claude made the open-source models that scientists use to predict and design biomolecules faster and more memory-efficient. Claude optimized more than 30 of these models in just under four weeks, speeding them up roughly 4x on average. It also created a low-memory mode that enables the accurate prediction of biomolecular systems larger than 10,000 tokens (amino acids, nucleotides, and atoms from small molecules and ions) on a single NVIDIA GPU node.
+
+[Read more](https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling)
+
 ### Measuring tactical intelligence targeting and conventional weapons capabilities of AI models
 
 Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.
@@ -115,9 +121,3 @@ Anthropic’s Frontier Red Team developed new evaluations to measure AI capabili
 We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.
 
 [Read more](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents)
-
-### Formalizing Fermat's Last Theorem
-
-We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language.
-
-[Read more](https://www.anthropic.com/research/formalizing-fermats-last-theorem)

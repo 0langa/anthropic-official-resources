@@ -1,4 +1,4 @@
-AI Fluency for pK–12 EducatorsCompletion badge
+AI Fluency for pK–12 educatorsCompletion badge
 
 # Completion badge
 

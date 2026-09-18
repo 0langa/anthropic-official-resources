@@ -8,7 +8,7 @@ Sep 15, 2025
 
 ![Anthropic Economic Index report: Uneven geographic and enterprise AI adoption](https://www-cdn.anthropic.com/images/4zrzovbb/website/1576ae23eaf481f33bd36ab468171cc69d12361a-1000x1000.svg)
 
-Introduction
+Authors and Acknowledgments
 
 ## Introduction
 
@@ -321,7 +321,7 @@ The geographic patterns of AI adoption—where it is used, for which tasks, and 
 
 Whether frontier AI capabilities make us more productive, reshape labor markets, and accelerate growth will depend on when and how firms choose to deploy AI. Even when businesses recognize the potential of AI, profitably adopting it may require costly restructuring of production processes, training new workers, and other sunk-cost investments to facilitate effective deployment.**1**
 
-To understand business adoption patterns of AI, we turn to a new data source: Anthropic's first-party (1P) API customers—again relying on [privacy-preserving methods](https://www.anthropic.com/research/clio).**2** Our API allows customers to integrate Claude directly into their own products and applications, and charges by the token used, rather than a flat subscription fee. This represents a fundamentally different product experience to [Claude.ai](http://claude.ai/redirect/website.v1.12c08e46-713c-46f6-bcdb-bdb455c4ff84), which we focused on in the previous two chapters.
+To understand business adoption patterns of AI, we turn to a new data source: Anthropic's first-party (1P) API customers—again relying on [privacy-preserving methods](https://www.anthropic.com/research/clio).**2** Our API allows customers to integrate Claude directly into their own products and applications, and charges by the token used, rather than a flat subscription fee. This represents a fundamentally different product experience to [Claude.ai](http://claude.ai/redirect/website.v1.41a2949c-bf63-454d-b72a-8f96c39f9d63), which we focused on in the previous two chapters.
 
 Institutional inertia, alongside fixed costs of adoption, suggests that early examples of enterprise use of AI is likely to be concentrated among specialized tasks where deployment is easy, capabilities are robust, and the economic benefits from adoption are high.
 
@@ -541,6 +541,12 @@ Copy
 
 ## Related content
 
+### How Claude is uplifting biomolecular modeling
+
+Claude made the open-source models that scientists use to predict and design biomolecules faster and more memory-efficient. Claude optimized more than 30 of these models in just under four weeks, speeding them up roughly 4x on average. It also created a low-memory mode that enables the accurate prediction of biomolecular systems larger than 10,000 tokens (amino acids, nucleotides, and atoms from small molecules and ions) on a single NVIDIA GPU node.
+
+[Read more](https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling)
+
 ### Measuring tactical intelligence targeting and conventional weapons capabilities of AI models
 
 Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.
@@ -552,9 +558,3 @@ Anthropic’s Frontier Red Team developed new evaluations to measure AI capabili
 We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.
 
 [Read more](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents)
-
-### Formalizing Fermat's Last Theorem
-
-We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language.
-
-[Read more](https://www.anthropic.com/research/formalizing-fermats-last-theorem)

@@ -4,7 +4,7 @@ Support the craft behind great teaching. Courses, guides, and classroom workflow
 
 ## Start here
 
-[### AI Fluency for pK–12 Educators
+[### AI Fluency for pK–12 educators
 
 Helps pK-12 educators build practical AI fluency through the 4D Framework, supporting student learning while staying true to their mission and values. Created in partnership with Teach For America.
 

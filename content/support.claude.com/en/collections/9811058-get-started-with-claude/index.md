@@ -1,6 +1,6 @@
 # Get started with Claude
 
-9 articles
+8 articles
 
 [Get started with Claude](https://support.claude.com/en/articles/8114491-get-started-with-claude)
 
@@ -11,8 +11,6 @@
 [How up-to-date is Claude's training data?](https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
 
 [What interfaces can I use to access Claude?](https://support.claude.com/en/articles/8114487-what-interfaces-can-i-use-to-access-claude)
-
-[Choose a Claude plan](https://support.claude.com/en/articles/11049762-choose-a-claude-plan)
 
 [Verify your phone number](https://support.claude.com/en/articles/8287232-verify-your-phone-number)
 

@@ -1,4 +1,4 @@
-Lesson 5 of 8 · AI Fluency for Creative WorkDescription and Discernment
+Lesson 5 of 8 · AI Fluency for creative workDescription and Discernment
 
 # Description and Discernment
 

@@ -1,4 +1,4 @@
-Deploying Claude Enterprise with Confidence: The five decisions that shape your rolloutCompletion badge
+Deploying Claude Enterprise with confidence: The five decisions that shape your rolloutCompletion badge
 
 # Completion badge
 

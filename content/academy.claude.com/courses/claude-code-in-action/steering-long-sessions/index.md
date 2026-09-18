@@ -1,4 +1,4 @@
-Lesson 1 of 9 · Claude Code in ActionSteering long sessions
+Lesson 1 of 9 · Claude Code in actionSteering long sessions
 
 # Steering long sessions
 

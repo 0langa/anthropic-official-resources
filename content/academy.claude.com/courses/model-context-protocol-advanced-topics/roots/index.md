@@ -1,4 +1,4 @@
-Lesson 5 of 11 · Model Context Protocol: Advanced TopicsRoots
+Lesson 5 of 11 · Model Context Protocol: Advanced topicsRoots
 
 # Roots
 

@@ -24,7 +24,7 @@ Working with Anthropic models through Google Cloud's Vertex AI: setup, prompting
 
 Build MCP servers and clients from scratch with the Python SDK, covering the three core primitives—tools, resources, and prompts—that connect Claude to external services.
 
-10 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-model-context-protocol)[## Model Context Protocol: Advanced Topics
+10 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-model-context-protocol)[## Model Context Protocol: Advanced topics
 
 Go beyond MCP basics: sampling, notifications, and roots, with interactive walkthroughs of each protocol flow.
 

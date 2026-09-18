@@ -1,4 +1,4 @@
-Quiz 1 of 1 · AI Capabilities and LimitationsCourse Quiz
+Quiz 1 of 1 · AI capabilities and limitationsCourse Quiz
 
 # Course Quiz
 

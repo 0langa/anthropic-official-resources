@@ -14,14 +14,14 @@ Today, we’re releasing a set of connectors—tools that let Claude work alongs
 
 Connectors allow Claude to access other platforms and tools directly. We are adding several new connectors that are designed to make it easier to use Claude for creative work:
 
-- **[Ableton](https://claude.ai/redirect/website.v1.141e9a30-2348-4236-8776-334e92e5b9e9/directory/connectors/ant.dir.gh.ableton.ableton-knowledge)** grounds Claude’s answers in official product documentation for Live and Push.
-- **[Adobe for creativity](https://claude.ai/redirect/website.v1.141e9a30-2348-4236-8776-334e92e5b9e9/directory/connectors/adobe-creativity)** enables users to bring images, videos, and designs to life, drawing from 50+ tools across Creative Cloud apps including Photoshop, Premiere, Express, and more.
-- [**Affinity by Canva**](https://claude.ai/redirect/website.v1.141e9a30-2348-4236-8776-334e92e5b9e9/directory/connectors/ant.dir.gh.canva.affinity) automates repetitive production tasks across pro creative workflows - such as batch image adjustments, layer renaming, and file export - and generates custom features directly in the app.
-- **[Autodesk Fusion](https://claude.ai/redirect/website.v1.141e9a30-2348-4236-8776-334e92e5b9e9/directory/connectors/ant.dir.gh.autodesk.fusion-mcp)** allows designers and engineers with a Fusion subscription to create and modify 3D models through conversations with Claude.
-- **[Blender](https://claude.ai/redirect/website.v1.141e9a30-2348-4236-8776-334e92e5b9e9/directory/connectors/ant.dir.gh.blender.blender-mcp)** offers a natural-language interface to its Python API, allowing users to explore and understand complex setups and making it easier to access Blender’s documentation.
-- **[Resolume Arena](https://claude.ai/redirect/website.v1.141e9a30-2348-4236-8776-334e92e5b9e9/directory/connectors/ant.dir.gh.resolume.resolume-arena) and [Resolume Wire](https://claude.ai/redirect/website.v1.141e9a30-2348-4236-8776-334e92e5b9e9/directory/connectors/ant.dir.gh.resolume.resolume-wire)** let VJs and live visual artists control Arena, Avenue, and Wire in real time through natural language for live performance and AV production.
-- **[SketchUp](https://claude.ai/redirect/website.v1.141e9a30-2348-4236-8776-334e92e5b9e9/directory/connectors/sketchup)** turns a conversation with Claude into a starting point for 3D modeling—describe a room, a piece of furniture, or a site concept, then open it in SketchUp to refine**.**
-- **[Splice](https://claude.ai/redirect/website.v1.141e9a30-2348-4236-8776-334e92e5b9e9/directory/connectors/splice)** gives music producers the ability to search its catalog of royalty-free samples from within Claude.
+- **[Ableton](https://claude.ai/redirect/website.v1.61b4dd9f-1c34-477d-a340-1164dbb33be9/directory/connectors/ant.dir.gh.ableton.ableton-knowledge)** grounds Claude’s answers in official product documentation for Live and Push.
+- **[Adobe for creativity](https://claude.ai/redirect/website.v1.61b4dd9f-1c34-477d-a340-1164dbb33be9/directory/connectors/adobe-creativity)** enables users to bring images, videos, and designs to life, drawing from 50+ tools across Creative Cloud apps including Photoshop, Premiere, Express, and more.
+- [**Affinity by Canva**](https://claude.ai/redirect/website.v1.61b4dd9f-1c34-477d-a340-1164dbb33be9/directory/connectors/ant.dir.gh.canva.affinity) automates repetitive production tasks across pro creative workflows - such as batch image adjustments, layer renaming, and file export - and generates custom features directly in the app.
+- **[Autodesk Fusion](https://claude.ai/redirect/website.v1.61b4dd9f-1c34-477d-a340-1164dbb33be9/directory/connectors/ant.dir.gh.autodesk.fusion-mcp)** allows designers and engineers with a Fusion subscription to create and modify 3D models through conversations with Claude.
+- **[Blender](https://claude.ai/redirect/website.v1.61b4dd9f-1c34-477d-a340-1164dbb33be9/directory/connectors/ant.dir.gh.blender.blender-mcp)** offers a natural-language interface to its Python API, allowing users to explore and understand complex setups and making it easier to access Blender’s documentation.
+- **[Resolume Arena](https://claude.ai/redirect/website.v1.61b4dd9f-1c34-477d-a340-1164dbb33be9/directory/connectors/ant.dir.gh.resolume.resolume-arena) and [Resolume Wire](https://claude.ai/redirect/website.v1.61b4dd9f-1c34-477d-a340-1164dbb33be9/directory/connectors/ant.dir.gh.resolume.resolume-wire)** let VJs and live visual artists control Arena, Avenue, and Wire in real time through natural language for live performance and AV production.
+- **[SketchUp](https://claude.ai/redirect/website.v1.61b4dd9f-1c34-477d-a340-1164dbb33be9/directory/connectors/sketchup)** turns a conversation with Claude into a starting point for 3D modeling—describe a room, a piece of furniture, or a site concept, then open it in SketchUp to refine**.**
+- **[Splice](https://claude.ai/redirect/website.v1.61b4dd9f-1c34-477d-a340-1164dbb33be9/directory/connectors/splice)** gives music producers the ability to search its catalog of royalty-free samples from within Claude.
 
 ## Using Claude for creative work
 
@@ -49,6 +49,12 @@ We’re also working with art and design programs to support curricula that invo
 
 ## Related content
 
+### Introducing the Life Sciences Verification Program
+
+The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
+
+[Read more](https://www.anthropic.com/news/life-sciences-verification-program)
+
 ### Developing Enterprise Frontier Safeguards with our customers
 
 [Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)
@@ -58,9 +64,3 @@ We’re also working with art and design programs to support curricula that invo
 On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.
 
 [Read more](https://www.anthropic.com/news/improving-alignment-security-efforts)
-
-### Previewing the Model Hardware Standard
-
-We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.
-
-[Read more](https://www.anthropic.com/news/model-hardware-standard-research-preview)

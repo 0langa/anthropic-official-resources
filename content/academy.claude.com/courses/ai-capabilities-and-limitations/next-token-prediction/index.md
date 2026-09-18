@@ -1,4 +1,4 @@
-Lesson 4 of 13 · AI Capabilities and LimitationsNext Token Prediction
+Lesson 4 of 13 · AI capabilities and limitationsNext Token Prediction
 
 # Next Token Prediction
 

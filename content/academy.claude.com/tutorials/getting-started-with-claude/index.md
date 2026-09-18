@@ -756,7 +756,7 @@ ProjectOutput×Sonnet
 The + menu has a few more options for when a task needs them:
 
 - **[Connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities):** let Claude read and act in the apps you already use, such as your email, calendar, drive, chat and CRM. Turn one on once and every conversation can search it, quote from it and, where you allow it, write back. [Browse the directory(opens in new tab)](https://claude.com/connectors).
-- **[Web search(opens in new tab)](https://support.claude.com/en/articles/10684626-enable-and-use-web-search):** on by default. Turn it off when the answer should come only from your documents.
+- **[Web search(opens in new tab)](https://support.claude.com/en/articles/10684626-enable-and-use-web-search):** on by default for Free, Pro and Max plans. On Team and Enterprise plans it's off by default, and an admin can turn it on. Turn it off when the answer should come only from your documents.
 - **[Research(opens in new tab)](https://support.claude.com/en/articles/11088861-use-research-on-claude):** runs many searches and returns one cited brief. It takes minutes, so save it for the big questions.
 - **[Skills(opens in new tab)](https://support.claude.com/en/articles/12512176-what-are-skills):** saved instructions for work you do the same way every time, including a tone or format you want on demand. In the Claude desktop app you can also record yourself doing a task once and keep it as a skill.
 - **Add folder** ([desktop app(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)): hand Claude a whole folder on your computer to read from and save into, instead of uploading files one at a time.

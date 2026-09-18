@@ -1,4 +1,4 @@
-Lesson 8 of 11 · Model Context Protocol: Advanced TopicsThe STDIO transport
+Lesson 8 of 11 · Model Context Protocol: Advanced topicsThe STDIO transport
 
 # The STDIO transport
 

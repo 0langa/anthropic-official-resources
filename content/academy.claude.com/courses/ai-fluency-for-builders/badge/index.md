@@ -1,4 +1,4 @@
-AI Fluency for BuildersCompletion badge
+AI Fluency for buildersCompletion badge
 
 # Completion badge
 

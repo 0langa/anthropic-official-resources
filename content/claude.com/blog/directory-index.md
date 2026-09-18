@@ -307,6 +307,38 @@ Grid
 
 List
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
+
+Sep 17, 2026
+
+Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
+
+Enterprise AI
+
+Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
+
+September 17, 2026
+
+[Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5](https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
+
+[Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5](https://claude.com/blog/)Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+
+Sep 17, 2026
+
+Projects redesigned: from folder to conversation
+
+Product announcements
+
+Projects redesigned: from folder to conversation
+
+September 17, 2026
+
+[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+
+[Projects redesigned: from folder to conversation](https://claude.com/blog/)Projects redesigned: from folder to conversation
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aaaa060d1aec4a549c537ef_Object-Easel.svg)
 
 Sep 16, 2026
@@ -513,38 +545,6 @@ September 2, 2026
 
 [Building commerce agents with Claude](https://claude.com/blog/)Building commerce agents with Claude
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
-
-Aug 28, 2026
-
-How Anthropic employees use Claude Tag
-
-Enterprise AI
-
-How Anthropic employees use Claude Tag
-
-August 28, 2026
-
-[How Anthropic employees use Claude Tag](https://claude.com/blog/how-anthropic-employees-use-claude-tag)How Anthropic employees use Claude Tag
-
-[How Anthropic employees use Claude Tag](https://claude.com/blog/)How Anthropic employees use Claude Tag
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a90479f5433ec75978f1e8a_Object-Apple.svg)
-
-Aug 28, 2026
-
-Claude for Teachers, now available for U.S. K-12 schools and districts
-
-Product announcements
-
-Claude for Teachers, now available for U.S. K-12 schools and districts
-
-August 28, 2026
-
-[Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts)Claude for Teachers, now available for U.S. K-12 schools and districts
-
-[Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/)Claude for Teachers, now available for U.S. K-12 schools and districts
-
 [View more](https://claude.com/?b7eea976_page=2)
 
 1 / 17
@@ -554,6 +554,38 @@ Category
 Product
 
 Usecase
+
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
+
+Category
+
+Enterprise AI
+
+Product
+
+Usecase
+
+September 17, 2026
+
+[Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5](https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
+
+[Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5](https://claude.com/blog/)Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
+
+### Projects redesigned: from folder to conversation
+
+Category
+
+Product announcements
+
+Product
+
+Usecase
+
+September 17, 2026
+
+[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+
+[Projects redesigned: from folder to conversation](https://claude.com/blog/)Projects redesigned: from folder to conversation
 
 ### Claude Cowork and chat are now one Claude
 
@@ -760,38 +792,6 @@ September 2, 2026
 [Building commerce agents with Claude](https://claude.com/blog/claude-for-commerce-agents)Building commerce agents with Claude
 
 [Building commerce agents with Claude](https://claude.com/blog/)Building commerce agents with Claude
-
-### How Anthropic employees use Claude Tag
-
-Category
-
-Enterprise AI
-
-Product
-
-Usecase
-
-August 28, 2026
-
-[How Anthropic employees use Claude Tag](https://claude.com/blog/how-anthropic-employees-use-claude-tag)How Anthropic employees use Claude Tag
-
-[How Anthropic employees use Claude Tag](https://claude.com/blog/)How Anthropic employees use Claude Tag
-
-### Claude for Teachers, now available for U.S. K-12 schools and districts
-
-Category
-
-Product announcements
-
-Product
-
-Usecase
-
-August 28, 2026
-
-[Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts)Claude for Teachers, now available for U.S. K-12 schools and districts
-
-[Claude for Teachers, now available for U.S. K-12 schools and districts](https://claude.com/blog/)Claude for Teachers, now available for U.S. K-12 schools and districts
 
 [View more](https://claude.com/?d7430fcd_page=2)
 

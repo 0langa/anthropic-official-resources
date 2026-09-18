@@ -52,7 +52,13 @@ Learn how Claude creates and edits files directly including spreadsheets, docume
 
 Learn complete financial analysis workflows using a three-phase approach: retrieving data, analyzing information, and creating professional deliverables.
 
-20 min](https://academy.claude.com/tutorials/financial-analysis-workflows-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-molyh3zn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dr7exrd4.png)
+20 min](https://academy.claude.com/tutorials/financial-analysis-workflows-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-khg817wt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-h1zlg9b3.png)
+
+## Getting started with Claude
+
+What Claude can do, how to write your first prompt, and how to set up a task with your own files and tools.
+
+5 min](https://academy.claude.com/tutorials/getting-started-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-molyh3zn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dr7exrd4.png)
 
 ## Getting Started with Claude for Financial Services
 
@@ -70,13 +76,7 @@ Learn what Claude for Life Sciences offers and how to access the connectors and 
 
 Learn how to access Claude's nonprofit pricing, connect to fundraising and donor management tools, and get your team started.
 
-3 min](https://academy.claude.com/tutorials/getting-started-with-claude-for-nonprofits)[![](https://academy.claude.com/assets/v1/thumbnail.light-iznp6akh.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hh3at4r1.png)
-
-## Getting started with Claude.ai
-
-Learn how to maximize your Claude.ai experience through effective prompting, document uploads, search functionality, customization options, and advanced features like extended thinking and research mode.
-
-5 min](https://academy.claude.com/tutorials/getting-started-with-claude-ai)[![](https://academy.claude.com/assets/v1/thumbnail.light-kvtimo9u.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ogsjubpc.png)
+3 min](https://academy.claude.com/tutorials/getting-started-with-claude-for-nonprofits)[![](https://academy.claude.com/assets/v1/thumbnail.light-kvtimo9u.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ogsjubpc.png)
 
 ## Getting started with connectors
 
@@ -144,8 +144,8 @@ Learn how Projects can streamline your workflow with Claude for more organized a
 
 7 min](https://academy.claude.com/tutorials/intro-to-projects)[![](https://academy.claude.com/assets/v1/thumbnail.light-b9qlnr3z.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mpd67del.png)
 
-## Navigating the Claude desktop app: Chat, Claude Cowork, Claude Code
+## Navigating the Claude desktop app
 
-The Claude desktop app gives you three ways to work with Claude: Chat, Claude Cowork, and Claude Code — from quick questions to complex research to building software.
+Learn what changes when you use Claude in the desktop app, and what it can do across your computer and tools.
 
-10 min](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)Load more
+6 min](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)Load more

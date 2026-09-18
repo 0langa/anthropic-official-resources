@@ -1,4 +1,4 @@
-Lesson 5 of 9 · AI Fluency for Small BusinessesRefining with AI
+Lesson 5 of 9 · AI Fluency for small businessesRefining with AI
 
 # Refining with AI
 

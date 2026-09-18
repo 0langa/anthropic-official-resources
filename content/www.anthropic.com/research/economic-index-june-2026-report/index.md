@@ -214,7 +214,7 @@ Across all six dimensions, people with a higher share of automated sessions feel
 
 **Figure 3.6: *The share of people reporting positive expected impacts of AI on economic and intrinsic dimensions of job quality is higher among more automated Claude users****This figure shows coefficient estimates from linear regressions of an indicator for whether a person expected AI to have a positive effect on each of the six dimensions of job quality onto normalized AI automation share.*
 
-A natural question is why automated usage and sentiment move together. It’s possible that this relationship is explained by selection, that the people most enthusiastic about AI are also the most willing to hand over entire tasks to it. We can’t rule this out entirely, but these estimates don’t meaningfully change when we control for user tenure on [Claude.ai](http://claude.ai/redirect/website.v1.9eb35482-47b1-4187-a878-1f8db025de92)—which we can think of as a proxy for enthusiasm, because it captures early versus later adopters.
+A natural question is why automated usage and sentiment move together. It’s possible that this relationship is explained by selection, that the people most enthusiastic about AI are also the most willing to hand over entire tasks to it. We can’t rule this out entirely, but these estimates don’t meaningfully change when we control for user tenure on [Claude.ai](http://claude.ai/redirect/website.v1.add589ce-8342-4042-8641-8e08a572ef11)—which we can think of as a proxy for enthusiasm, because it captures early versus later adopters.
 
 Another possibility is that people who use AI in more automated ways experience more of its benefits today. Consistent with our [previous findings](https://www.anthropic.com/research/81k-economics), large majorities of people report productivity gains in speed, scope, and quality of their work (86%, 82%, and 69%, respectively), while 27% report gains through cost savings on services they would otherwise have to purchase.
 
@@ -317,6 +317,12 @@ Scott Booth, Keir Bradwell, Meredith Callan, Dexter Callender III, Boris Cherny,
 
 ## Related content
 
+### How Claude is uplifting biomolecular modeling
+
+Claude made the open-source models that scientists use to predict and design biomolecules faster and more memory-efficient. Claude optimized more than 30 of these models in just under four weeks, speeding them up roughly 4x on average. It also created a low-memory mode that enables the accurate prediction of biomolecular systems larger than 10,000 tokens (amino acids, nucleotides, and atoms from small molecules and ions) on a single NVIDIA GPU node.
+
+[Read more](https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling)
+
 ### Measuring tactical intelligence targeting and conventional weapons capabilities of AI models
 
 Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.
@@ -328,9 +334,3 @@ Anthropic’s Frontier Red Team developed new evaluations to measure AI capabili
 We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.
 
 [Read more](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents)
-
-### Formalizing Fermat's Last Theorem
-
-We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language.
-
-[Read more](https://www.anthropic.com/research/formalizing-fermats-last-theorem)

@@ -152,6 +152,12 @@ The July incidents have stressed that the urgency of improving our cybersecurity
 
 ## Related content
 
+### Introducing the Life Sciences Verification Program
+
+The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
+
+[Read more](https://www.anthropic.com/news/life-sciences-verification-program)
+
 ### Developing Enterprise Frontier Safeguards with our customers
 
 [Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)
@@ -161,9 +167,3 @@ The July incidents have stressed that the urgency of improving our cybersecurity
 We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.
 
 [Read more](https://www.anthropic.com/news/model-hardware-standard-research-preview)
-
-### Expanding our support for scientists
-
-Starting today, 10,000 scientists around the world can get Claude at no cost to start. Verified principal investigators qualify for a Claude Team subscription plan and then add their research team to Standard seats for free, or Premium seats for $15 per month, for up to a year.
-
-[Read more](https://www.anthropic.com/news/expanding-support-for-scientists)

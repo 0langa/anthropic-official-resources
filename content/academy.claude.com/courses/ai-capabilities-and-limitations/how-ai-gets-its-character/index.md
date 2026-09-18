@@ -1,4 +1,4 @@
-Lesson 3 of 13 · AI Capabilities and LimitationsHow AI Gets Its Character
+Lesson 3 of 13 · AI capabilities and limitationsHow AI Gets Its Character
 
 # How AI Gets Its Character
 

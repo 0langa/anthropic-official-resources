@@ -8,17 +8,17 @@ AllCoursesTutorialsUse cases
 
 ProductAll
 
-294 resources
+295 resources
 
-[## AI Capabilities and Limitations
+[## AI capabilities and limitations
 
 Build an accurate mental model of what large language models can and cannot do: next-token prediction, knowledge, working memory, steerability, and context limits.
 
-Course·13 lessons · 1 quiz·3.5 hr](https://academy.claude.com/courses/ai-capabilities-and-limitations)[## AI Fluency for Builders
+Course·13 lessons · 1 quiz·3.5 hr](https://academy.claude.com/courses/ai-capabilities-and-limitations)[## AI Fluency for builders
 
 This course empowers builders to develop AI fluency — increasing impact and efficiency while staying true to what it means to own the full arc from problem to shipped solution.
 
-Course·9 lessons · 1 quiz·3 hr](https://academy.claude.com/courses/ai-fluency-for-builders)[## AI Fluency for Creative Work
+Course·9 lessons · 1 quiz·3 hr](https://academy.claude.com/courses/ai-fluency-for-builders)[## AI Fluency for creative work
 
 This course empowers creative professionals to develop AI fluency, making intentional, analysis-driven decisions about AI use in their creative practice while protecting what makes their work theirs.
 
@@ -34,11 +34,11 @@ Course·9 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency
 
 This course empowers pK–12 educators to lead AI fluency training for their colleagues — equipping them with a ready-to-run workshop kit grounded in the 4D Framework, while staying true to educators' mission and values.
 
-Course·4 lessons·45 min](https://academy.claude.com/courses/ai-fluency-for-pk-12-train-the-trainer)[## AI Fluency for pK–12 Educators
+Course·4 lessons·45 min](https://academy.claude.com/courses/ai-fluency-for-pk-12-train-the-trainer)[## AI Fluency for pK–12 educators
 
 Helps pK-12 educators build practical AI fluency through the 4D Framework, supporting student learning while staying true to their mission and values. Created in partnership with Teach For America.
 
-Course·10 lessons · 1 quiz·3 hr](https://academy.claude.com/courses/ai-fluency-for-k-12-educators)[## AI Fluency for Small Businesses
+Course·10 lessons · 1 quiz·3 hr](https://academy.claude.com/courses/ai-fluency-for-k-12-educators)[## AI Fluency for small businesses
 
 Helps small business owners and staff build practical AI collaboration skills using the 4D Framework: Delegation, Description, Discernment, and Diligence. Applies the framework to everyday business tasks like research, customer data, and operations while staying true to your mission and values.
 
@@ -46,11 +46,11 @@ Course·9 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency
 
 Helps students build AI fluency skills for learning, career planning, and academic success through responsible AI collaboration. Applies the 4D framework (delegation, description, discernment, diligence) to student life.
 
-Course·5 lessons · 1 quiz·3 hr](https://academy.claude.com/courses/ai-fluency-for-students)[## AI Fluency: Framework & Foundations
+Course·5 lessons · 1 quiz·3 hr](https://academy.claude.com/courses/ai-fluency-for-students)[## AI Fluency: Framework and foundations
 
 Learn to collaborate with AI effectively, efficiently, ethically, and safely using the 4D framework: Delegation, Description, Discernment, and Diligence.
 
-Course·14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)[## Building Effective Human Agent Teams (Beta)
+Course·14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)[## Building effective human-agent teams (beta)
 
 Explore the benefits of moving from single-player to multiplayer AI and learn how to prepare your team for the shift.
 
@@ -66,7 +66,7 @@ Course·13 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/claude-
 
 An agentic coding tool that lives in your terminal. Learn what Claude Code is, how it works, and the core workflows for getting real work done with it.
 
-Course·12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)[## Claude Code in Action
+Course·12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)[## Claude Code in action
 
 Run long, hands-off Claude Code sessions you can trust: steer, configure, automate, and verify
 
@@ -82,7 +82,7 @@ Course·65 lessons · 8 quizzes·8 hr](https://academy.claude.com/courses/claude
 
 Working with Anthropic models through Google Cloud's Vertex AI: setup, prompting, tool use, RAG, agents, and production deployment patterns.
 
-Course·66 lessons · 9 quizzes·8.5 hr](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai)[## Deploying Claude Enterprise with Confidence: The five decisions that shape your rollout
+Course·66 lessons · 9 quizzes·8.5 hr](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai)[## Deploying Claude Enterprise with confidence: The five decisions that shape your rollout
 
 Make the five decisions that shape how Claude works for your organization — Structure & Identity, Access, Governance, Spend, Visibility — and record them in the rollout plan you keep.
 
@@ -102,7 +102,7 @@ Course·10 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduct
 
 Decompose complex tasks across parallel Claude subagents and orchestrate them deterministically.
 
-Course·4 lessons·45 min](https://academy.claude.com/courses/introduction-to-subagents)[## Model Context Protocol: Advanced Topics
+Course·4 lessons·45 min](https://academy.claude.com/courses/introduction-to-subagents)[## Model Context Protocol: Advanced topics
 
 Go beyond MCP basics: sampling, notifications, and roots, with interactive walkthroughs of each protocol flow.
 
@@ -123,15 +123,15 @@ ProductAll
 
 26 courses
 
-[## AI Capabilities and Limitations
+[## AI capabilities and limitations
 
 Build an accurate mental model of what large language models can and cannot do: next-token prediction, knowledge, working memory, steerability, and context limits.
 
-13 lessons · 1 quiz·3.5 hr](https://academy.claude.com/courses/ai-capabilities-and-limitations)[## AI Fluency for Builders
+13 lessons · 1 quiz·3.5 hr](https://academy.claude.com/courses/ai-capabilities-and-limitations)[## AI Fluency for builders
 
 This course empowers builders to develop AI fluency — increasing impact and efficiency while staying true to what it means to own the full arc from problem to shipped solution.
 
-9 lessons · 1 quiz·3 hr](https://academy.claude.com/courses/ai-fluency-for-builders)[## AI Fluency for Creative Work
+9 lessons · 1 quiz·3 hr](https://academy.claude.com/courses/ai-fluency-for-builders)[## AI Fluency for creative work
 
 This course empowers creative professionals to develop AI fluency, making intentional, analysis-driven decisions about AI use in their creative practice while protecting what makes their work theirs.
 
@@ -147,11 +147,11 @@ Build practical AI collaboration skills for nonprofit work using the 4D Framewor
 
 This course empowers pK–12 educators to lead AI fluency training for their colleagues — equipping them with a ready-to-run workshop kit grounded in the 4D Framework, while staying true to educators' mission and values.
 
-4 lessons·45 min](https://academy.claude.com/courses/ai-fluency-for-pk-12-train-the-trainer)[## AI Fluency for pK–12 Educators
+4 lessons·45 min](https://academy.claude.com/courses/ai-fluency-for-pk-12-train-the-trainer)[## AI Fluency for pK–12 educators
 
 Helps pK-12 educators build practical AI fluency through the 4D Framework, supporting student learning while staying true to their mission and values. Created in partnership with Teach For America.
 
-10 lessons · 1 quiz·3 hr](https://academy.claude.com/courses/ai-fluency-for-k-12-educators)[## AI Fluency for Small Businesses
+10 lessons · 1 quiz·3 hr](https://academy.claude.com/courses/ai-fluency-for-k-12-educators)[## AI Fluency for small businesses
 
 Helps small business owners and staff build practical AI collaboration skills using the 4D Framework: Delegation, Description, Discernment, and Diligence. Applies the framework to everyday business tasks like research, customer data, and operations while staying true to your mission and values.
 
@@ -159,11 +159,11 @@ Helps small business owners and staff build practical AI collaboration skills us
 
 Helps students build AI fluency skills for learning, career planning, and academic success through responsible AI collaboration. Applies the 4D framework (delegation, description, discernment, diligence) to student life.
 
-5 lessons · 1 quiz·3 hr](https://academy.claude.com/courses/ai-fluency-for-students)[## AI Fluency: Framework & Foundations
+5 lessons · 1 quiz·3 hr](https://academy.claude.com/courses/ai-fluency-for-students)[## AI Fluency: Framework and foundations
 
 Learn to collaborate with AI effectively, efficiently, ethically, and safely using the 4D framework: Delegation, Description, Discernment, and Diligence.
 
-14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)[## Building Effective Human Agent Teams (Beta)
+14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)[## Building effective human-agent teams (beta)
 
 Explore the benefits of moving from single-player to multiplayer AI and learn how to prepare your team for the shift.
 
@@ -179,7 +179,7 @@ Learn to use Claude for everyday work, from your first conversation and effectiv
 
 An agentic coding tool that lives in your terminal. Learn what Claude Code is, how it works, and the core workflows for getting real work done with it.
 
-12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)[## Claude Code in Action
+12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)[## Claude Code in action
 
 Run long, hands-off Claude Code sessions you can trust: steer, configure, automate, and verify
 
@@ -195,7 +195,7 @@ Integrating and deploying Claude through Amazon Bedrock: API implementation, too
 
 Working with Anthropic models through Google Cloud's Vertex AI: setup, prompting, tool use, RAG, agents, and production deployment patterns.
 
-66 lessons · 9 quizzes·8.5 hr](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai)[## Deploying Claude Enterprise with Confidence: The five decisions that shape your rollout
+66 lessons · 9 quizzes·8.5 hr](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai)[## Deploying Claude Enterprise with confidence: The five decisions that shape your rollout
 
 Make the five decisions that shape how Claude works for your organization — Structure & Identity, Access, Governance, Spend, Visibility — and record them in the rollout plan you keep.
 
@@ -215,7 +215,7 @@ Build MCP servers and clients from scratch with the Python SDK, covering the thr
 
 Decompose complex tasks across parallel Claude subagents and orchestrate them deterministically.
 
-4 lessons·45 min](https://academy.claude.com/courses/introduction-to-subagents)[## Model Context Protocol: Advanced Topics
+4 lessons·45 min](https://academy.claude.com/courses/introduction-to-subagents)[## Model Context Protocol: Advanced topics
 
 Go beyond MCP basics: sampling, notifications, and roots, with interactive walkthroughs of each protocol flow.
 
@@ -234,7 +234,7 @@ AllCoursesTutorialsUse cases
 
 ProductAll
 
-120 tutorials
+121 tutorials
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-blskv34c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bv9w6wt2.png)
 
@@ -266,7 +266,13 @@ How to work with Claude Tag across your org: setting up where it has context, wr
 
 Claude for PowerPoint lets you build and edit presentations without leaving the app. You describe what you need, and Claude generates slides that match your brand guidelines. This video walks through the basics: creating a new deck from a prompt, editing slide content, and keeping everything on-brand from the start.
 
-4 min](https://academy.claude.com/tutorials/building-a-powerpoint-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-b4ynrsvg.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ngbl1ah4.png)
+4 min](https://academy.claude.com/tutorials/building-a-powerpoint-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-o8smw8bd.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jl3ze518.png)
+
+## Building AI-fluent organizations
+
+Three levers drive organizational transformation with AI: the mindsets people hold, the AI-related skills they can use on complex tasks, and the access they have. For leaders building a culture of AI fluency, these levers work as one system.
+
+5 min](https://academy.claude.com/tutorials/building-ai-fluent-organizations)[![](https://academy.claude.com/assets/v1/thumbnail.light-b4ynrsvg.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ngbl1ah4.png)
 
 ## Can you trust what AI tells you?
 
@@ -294,7 +300,7 @@ Effort tells your model how many resources to spend on a task. When to turn it d
 
 ## Claude Cowork Enterprise Admin Guide
 
-Claude Cowork brings Claude’s agentic capabilities to the Claude Desktop app, enabling multi-step knowledge work beyond coding
+Claude Cowork brings Claude’s agentic capabilities to Claude.ai and the Claude Desktop app, enabling multi-step knowledge work beyond coding
 
 20 min](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide)[![](https://academy.claude.com/assets/v1/thumbnail.light-fug4apyj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-g8e7vz1g.png)
 
@@ -372,13 +378,7 @@ Claude Cowork lets you hand off complete tasks to Claude — working directly wi
 
 Learn complete financial analysis workflows using a three-phase approach: retrieving data, analyzing information, and creating professional deliverables.
 
-20 min](https://academy.claude.com/tutorials/financial-analysis-workflows-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-it98jcz1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nkhyzydu.png)
-
-## Get started in Claude Cowork in three steps
-
-The three setup steps before your first task: open the desktop app, run the guided setup, and point Cowork at where the work lives.
-
-4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)Load more
+20 min](https://academy.claude.com/tutorials/financial-analysis-workflows-with-claude)Load more
 
 
 ## Use cases

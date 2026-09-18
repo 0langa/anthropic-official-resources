@@ -1,4 +1,4 @@
-Lesson 3 of 8 · AI Fluency for Creative WorkThe production lens
+Lesson 3 of 8 · AI Fluency for creative workThe production lens
 
 # The production lens
 

@@ -10,7 +10,7 @@ Nice work. Every lesson stays right here whenever you want to revisit it.
 
 [View all courses](https://academy.claude.com/all)
 
-[### Claude Code in Action
+[### Claude Code in action
 
 Run long, hands-off Claude Code sessions you can trust: steer, configure, automate, and verify
 

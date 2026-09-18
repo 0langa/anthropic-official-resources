@@ -214,6 +214,30 @@ Add Claude to Slack
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
+
+Sep 17, 2026
+
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
+
+Enterprise AI
+
+[Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5](https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions)Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
+
+[Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5](https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+
+Sep 17, 2026
+
+### Projects redesigned: from folder to conversation
+
+Product announcements
+
+[Projects redesigned: from folder to conversation](https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions)Projects redesigned: from folder to conversation
+
+[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
 
 Jun 18, 2026
@@ -237,30 +261,6 @@ Product announcements
 [Turn ideas into interactive AI-powered apps](https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions)Turn ideas into interactive AI-powered apps
 
 [Turn ideas into interactive AI-powered apps](https://claude.com/blog/build-artifacts)Turn ideas into interactive AI-powered apps
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
-
-Jul 25, 2025
-
-### Build and share AI-powered apps with Claude
-
-Product announcements
-
-[Build and share AI-powered apps with Claude](https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions)Build and share AI-powered apps with Claude
-
-[Build and share AI-powered apps with Claude](https://claude.com/blog/claude-powered-artifacts)Build and share AI-powered apps with Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
-
-Jun 17, 2026
-
-### Claude Design now stays on brand for daily work
-
-Product announcements
-
-[Claude Design now stays on brand for daily work](https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions)Claude Design now stays on brand for daily work
-
-[Claude Design now stays on brand for daily work](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Claude Design now stays on brand for daily work
 
 ## Transform how your organization operates with Claude
 

@@ -1,4 +1,4 @@
-Lesson 3 of 11 · Model Context Protocol: Advanced TopicsLog and progress notifications
+Lesson 3 of 11 · Model Context Protocol: Advanced topicsLog and progress notifications
 
 # Log and progress notifications
 

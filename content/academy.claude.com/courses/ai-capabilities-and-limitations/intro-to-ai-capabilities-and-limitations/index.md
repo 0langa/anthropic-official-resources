@@ -1,4 +1,4 @@
-Lesson 1 of 13 · AI Capabilities and LimitationsIntro to AI Capabilities and Limitations
+Lesson 1 of 13 · AI capabilities and limitationsIntro to AI Capabilities and Limitations
 
 # Intro to AI Capabilities and Limitations
 

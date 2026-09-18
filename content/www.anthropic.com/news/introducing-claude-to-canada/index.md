@@ -8,7 +8,7 @@ Jun 5, 2024
 
 [Claude](https://www.anthropic.com/claude) is now available in Canada. Starting today, people and businesses across the country will be able to access Claude via:
 
-- [Claude.ai](http://claude.ai/redirect/website.v1.e87ab4fc-ddee-4beb-b201-f0c81ce8c052): the web-based version of our next-generation AI assistant.
+- [Claude.ai](http://claude.ai/redirect/website.v1.5c167a94-c765-425d-8f61-2a4d8c97899a): the web-based version of our next-generation AI assistant.
 - The [Claude iOS app](https://apps.apple.com/app/claude/id6473753684): the free mobile app available in the Apple App Store that offers the same intuitive experience as mobile web.
 - The [Claude API](https://www.anthropic.com/api): an interface that allows developers to integrate Anthropic’s state-of-the-art AI models into their own applications, websites, or services.
 - The [Claude Team plan](https://www.anthropic.com/news/team-plan-and-ios): a secure workspace for teams to collaborate that offers increased usage for members.
@@ -19,6 +19,12 @@ We’re excited to expand our offerings to Canada—a country that has made sign
 
 ## Related content
 
+### Introducing the Life Sciences Verification Program
+
+The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
+
+[Read more](https://www.anthropic.com/news/life-sciences-verification-program)
+
 ### Developing Enterprise Frontier Safeguards with our customers
 
 [Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)
@@ -28,9 +34,3 @@ We’re excited to expand our offerings to Canada—a country that has made sign
 On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.
 
 [Read more](https://www.anthropic.com/news/improving-alignment-security-efforts)
-
-### Previewing the Model Hardware Standard
-
-We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.
-
-[Read more](https://www.anthropic.com/news/model-hardware-standard-research-preview)

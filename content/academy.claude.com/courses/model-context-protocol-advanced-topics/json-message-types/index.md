@@ -1,4 +1,4 @@
-Lesson 7 of 11 · Model Context Protocol: Advanced TopicsJSON message types
+Lesson 7 of 11 · Model Context Protocol: Advanced topicsJSON message types
 
 # JSON message types
 

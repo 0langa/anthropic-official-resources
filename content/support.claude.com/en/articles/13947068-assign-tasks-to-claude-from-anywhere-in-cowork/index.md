@@ -1,6 +1,10 @@
 # Assign tasks from anywhere in Claude Cowork
 
+**Note:** Claude Cowork is now just Claude. Ask for what you need, and Claude decides whether that's a quick answer or a task. This is rolling out gradually to Pro and Max plans, with more plans to follow. If you're on a Pro or Max plan and your message box no longer shows "Chat" and "Cowork" options, you have the new experience, and some steps in this article may look different. Learn more in **[Claude Cowork and chat are one Claude](https://support.claude.com/en/articles/16761823)**, or read our **[blog post](https://claude.com/blog/cowork-is-now-claude)**.
+
 Claude Cowork gives you one continuous conversation with Claude that you can reach from your phone or your desktop. With Dispatch, you can message Claude from your phone and have it work on your desktop computer, using your local files, connectors, plugins, and apps, then come back to the finished work.
+
+**Note:** Dispatch isn't available to new users. If you already use Dispatch, you can keep using it for now, and this article still applies.
 
 Dispatch runs your tasks on your desktop, so your computer needs to be awake and the Claude Desktop app open while Claude works. This is different from a cloud session, which runs on Anthropic's servers and keeps working even when your computer is off. For where Cowork runs on each surface, see **[Use Claude Cowork on web, desktop, and mobile](https://support.claude.com/en/articles/15520349)**.
 
@@ -48,11 +52,11 @@ Follow these steps to get started:
 
 5. You’ll land on a page describing the functionality. Click “Get started”:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2169954086/419674f781edb2977b93cce062b4/93b1893c-d79a-4eb6-b2f1-2fe3e043bd90?expires=1789555500&amp;signature=880886f75117f7fce515214c12fc0ad67889354c720cc2b9f09c19314ca66056&amp;req=diEhH8B7mYFXX%2FMW1HO4zSZP0puOEAv6B32drIe5EDn5%2FsPUFOc3UyFHVkzc%0Aq%2Fdv%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2169954086/419674f781edb2977b93cce062b4/93b1893c-d79a-4eb6-b2f1-2fe3e043bd90?expires=1789726500&amp;signature=8180bac0ce642d0b9bda447554e20020b3213ab66e846e8625a59697310350eb&amp;req=diEhH8B7mYFXX%2FMW1HO4zSZP0puMFwj6B32drIe5EDm1MhdVBVXLZqNPVBTK%0AG44a%0A)
 
 6. On the next screen, you can give Claude access to your files and keep your computer awake by toggling those on:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2169955082/de4053ee0eab8fcb9263584bb171/d39b77da-1a69-4682-9fdb-7ed488f236b0?expires=1789555500&amp;signature=e170f14aedc4bb7b1583a8cd3aaec4fb7287c106d7b685548809dde5de5b7398&amp;req=diEhH8B7mIFXW%2FMW1HO4zaZWs9OdWAQbepuGRb1rD3K12OBnB%2BrfUlgJAgZ0%0AK4W9%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2169955082/de4053ee0eab8fcb9263584bb171/d39b77da-1a69-4682-9fdb-7ed488f236b0?expires=1789726500&amp;signature=75d5eb95b4f9b1063d8b0491c51523661cf1fbe4e0ea66b5c0539d89db9370e8&amp;req=diEhH8B7mIFXW%2FMW1HO4zaZWs9OfXwcbepuGRb1rD3Kjsh0DCvO16U9Vodkx%0A8baC%0A)
 
 7. Click “Finish setup.”
 

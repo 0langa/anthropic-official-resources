@@ -1,4 +1,4 @@
-Model Context Protocol: Advanced TopicsCompletion badge
+Model Context Protocol: Advanced topicsCompletion badge
 
 # Completion badge
 

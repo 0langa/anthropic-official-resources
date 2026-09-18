@@ -10,13 +10,13 @@ Get started with Claude across everyday conversations, projects, and files.
 
 ## Collections
 
-[Get started with Claude9 articles](https://support.claude.com/en/collections/9811058-get-started-with-claude)
+[Get started with Claude8 articles](https://support.claude.com/en/collections/9811058-get-started-with-claude)
 
 [Account management15 articles](https://support.claude.com/en/collections/9811145-account-management)
 
 [Conversation management8 articles](https://support.claude.com/en/collections/18031977-conversation-management)
 
-[Features and capabilities29 articles](https://support.claude.com/en/collections/18031719-features-and-capabilities)
+[Features and capabilities30 articles](https://support.claude.com/en/collections/18031719-features-and-capabilities)
 
 [Personalization and settings5 articles](https://support.claude.com/en/collections/18031818-personalization-and-settings)
 

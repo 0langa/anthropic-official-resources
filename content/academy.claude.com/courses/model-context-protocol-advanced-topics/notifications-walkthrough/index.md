@@ -1,4 +1,4 @@
-Lesson 4 of 11 · Model Context Protocol: Advanced TopicsNotifications walkthrough
+Lesson 4 of 11 · Model Context Protocol: Advanced topicsNotifications walkthrough
 
 # Notifications walkthrough
 

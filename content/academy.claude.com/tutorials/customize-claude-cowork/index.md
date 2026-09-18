@@ -26,7 +26,7 @@ Enable connectors from the **Customize** panel in the left sidebar. Authorize on
 
 Instructions are standing rules you write for how Claude should work — tone, formatting, which sources to check first, conventions to follow. Set them at two levels:
 
-**1. Global instructions** apply to every Cowork session you run. *Edit them at Settings → Cowork → Global instructions (desktop app only).*
+**1. Global instructions** apply to every Cowork session you run. *Edit them in Settings, under Global instructions (called Instructions for Claude in some versions of the app).*
 
 **2. Project instructions** apply only inside that Project, on top of your global ones. *Edit them in the* [*Project's*(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) *right panel under Instructions.*
 
@@ -90,7 +90,7 @@ Once you're set up, additional Cowork features can take you further:
 
 For more on working in Cowork:
 
-- [When to use Chat vs Cowork(opens in new tab)](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat) — how to choose the right mode for the task you're working on.
+- [Choosing between Claude Cowork or Chat(opens in new tab)](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat) — when a task is worth handing over and when a conversation is enough.
 - [Building plugins from scratch(opens in new tab)](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork) — when the marketplace doesn't have what you need.
 
 Was this helpful?

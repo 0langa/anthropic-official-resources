@@ -1,4 +1,4 @@
-Lesson 8 of 14 · The AI-Native SDLC PlaybookGive Claude a feedback loop
+Lesson 8 of 14 · The AI-native SDLC playbookGive Claude a feedback loop
 
 # Give Claude a feedback loop
 

@@ -2,7 +2,7 @@
 
 Collaborate with Claude on shared workspaces and long-running tasks.
 
-13 articles
+14 articles
 
 [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
 
@@ -29,3 +29,5 @@ Collaborate with Claude on shared workspaces and long-running tasks.
 [Monitor Claude Cowork activity with OpenTelemetry](https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry)
 
 [Claude Cowork architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)
+
+[Claude Cowork and chat are one Claude](https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude)

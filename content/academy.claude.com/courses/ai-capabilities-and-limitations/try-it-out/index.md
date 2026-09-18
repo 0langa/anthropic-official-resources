@@ -1,4 +1,4 @@
-Lesson 5 of 13 · AI Capabilities and LimitationsTry It Out: Next Token Prediction
+Lesson 5 of 13 · AI capabilities and limitationsTry It Out: Next Token Prediction
 
 # Try It Out: Next Token Prediction
 

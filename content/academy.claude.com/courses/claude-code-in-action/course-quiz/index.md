@@ -1,4 +1,4 @@
-Quiz 1 of 1 · Claude Code in ActionCourse quiz
+Quiz 1 of 1 · Claude Code in actionCourse quiz
 
 # Course quiz
 

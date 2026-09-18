@@ -1,4 +1,4 @@
-Quiz 1 of 1 · AI Fluency for pK–12 EducatorsCourse Quiz
+Quiz 1 of 1 · AI Fluency for pK–12 educatorsCourse Quiz
 
 # Course Quiz
 

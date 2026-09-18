@@ -1,6 +1,6 @@
 # Get started in Claude Cowork in three steps
 
-The three setup steps before your first task: open the desktop app, run the guided setup, and point Cowork at where the work lives.
+The three setup steps before your first task: open Claude, run the guided setup, and point Cowork at where the work lives.
 
 4 minClaude Cowork
 
@@ -12,17 +12,15 @@ The three setup steps before your first task: open the desktop app, run the guid
 
 
 
-If you're still deciding which mode fits a task, see [when to use Chat vs Cowork(opens in new tab)](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat).
+Not sure whether a task belongs in Cowork? See [Choosing between Claude Cowork or Chat(opens in new tab)](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat).
 
-## 1. Open Claude Cowork in the desktop app[](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)
+## 1. Open Claude[](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)
 
-From the home page, select ***Cowork*** in the mode picker.
-
-![](https://academy.claude.com/assets/media/6b130760316f10078d23e877c42fc8a6b619754601264ce0d73ccbd260a1c940.png)
+Open the [Claude desktop app(opens in new tab)](https://claude.com/download) or [claude.ai(opens in new tab)](https://claude.ai/) and sign in. If your home page has a Cowork tab, select it; otherwise just start a new conversation. Use the desktop app when the work involves files on your computer.
 
 ## 2. Run **/setup-claude** for a guided setup[](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)
 
-*In your first Cowork session, type* [*`/setup-claude`*](claude://cowork/new?q=%2Fsetup-claude) *and press enter.*
+*In a new conversation, type* [*`/setup-claude`*](claude://cowork/new?q=%2Fsetup-claude) *and press enter.*
 
 **setup**-claude
 
@@ -58,12 +56,12 @@ Describe what you need
 
 Q2-Planning
 
-- A **folder** on your computer — Cowork reads what's there and saves new files alongside it. Scope it to one piece of work, or point it at a broader directory that several tasks share.
-- A [**Project**(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-cowork) — a workspace that carries its own files, instructions, and memory across sessions. Create one in Cowork's sidebar, or import a Project you already use in Chat.
+- A **folder** on your computer (in the desktop app) — Cowork reads what's there and saves new files alongside it. Scope it to one piece of work, or point it at a broader directory that several tasks share.
+- A [**Project**(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-cowork) — keeps its own files, instructions, and memory across sessions. Create one from **Projects** in the sidebar.
 
 ## 4. Try your first task[](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)
 
-[Open a new Cowork session](claude://cowork/new) and start on something from your to-do list: a task that's spread across your tools, takes several steps, or needs real work on your computer. Set the working folder and describe the result you need.
+[Start a new task](claude://cowork/new) with something from your to-do list: a task that's spread across your tools, takes several steps, or needs real work on your computer. Set the working folder and describe the result you need.
 
 - *Turn the research in this folder into a one-page brief.*
 - *Write a status summary from last week's Slack and Linear activity.*

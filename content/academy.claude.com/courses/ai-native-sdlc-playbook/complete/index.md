@@ -1,8 +1,8 @@
-The AI-Native SDLC PlaybookCourse complete
+The AI-native SDLC playbookCourse complete
 
 # Course complete
 
-## You finished The AI-Native SDLC Playbook
+## You finished The AI-native SDLC playbook
 
 Nice work. Every lesson stays right here whenever you want to revisit it.
 
@@ -10,7 +10,7 @@ Nice work. Every lesson stays right here whenever you want to revisit it.
 
 [View all courses](https://academy.claude.com/all)
 
-[### Model Context Protocol: Advanced Topics
+[### Model Context Protocol: Advanced topics
 
 Go beyond MCP basics: sampling, notifications, and roots, with interactive walkthroughs of each protocol flow.
 
@@ -18,7 +18,7 @@ Go beyond MCP basics: sampling, notifications, and roots, with interactive walkt
 
 An agentic coding tool that lives in your terminal. Learn what Claude Code is, how it works, and the core workflows for getting real work done with it.
 
-12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)[### Claude Code in Action
+12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)[### Claude Code in action
 
 Run long, hands-off Claude Code sessions you can trust: steer, configure, automate, and verify
 

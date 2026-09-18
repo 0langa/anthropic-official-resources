@@ -1,4 +1,4 @@
-Lesson 7 of 13 · AI Capabilities and LimitationsTry It Out: Knowledge
+Lesson 7 of 13 · AI capabilities and limitationsTry It Out: Knowledge
 
 # Try It Out: Knowledge
 

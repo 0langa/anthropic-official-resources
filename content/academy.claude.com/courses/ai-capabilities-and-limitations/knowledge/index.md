@@ -1,4 +1,4 @@
-Lesson 6 of 13 · AI Capabilities and LimitationsKnowledge
+Lesson 6 of 13 · AI capabilities and limitationsKnowledge
 
 # Knowledge
 

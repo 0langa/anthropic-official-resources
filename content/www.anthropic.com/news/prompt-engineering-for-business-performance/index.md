@@ -44,7 +44,7 @@ For example, if you wanted Claude to solve a logic puzzle, you could say:
 
 It’s helpful to give Claude realistic and specific examples of the inputs and ideal outputs you’re hoping to see. It’s useful to include challenging examples and edge cases to help Claude understand exactly what you’re looking for.
 
-For a simple example, consider how Claude can help with removing personally-identifiable information (PII) from information, using 2 examples to help Claude understand different ways that PII could present itself in a prompt. A simplified example using [claude.ai](https://claude.ai/redirect/website.v1.619d1ae2-2d96-4b39-a212-fdeb4f3b0ce6) may look something like this:
+For a simple example, consider how Claude can help with removing personally-identifiable information (PII) from information, using 2 examples to help Claude understand different ways that PII could present itself in a prompt. A simplified example using [claude.ai](https://claude.ai/redirect/website.v1.15373d1a-5b92-49fc-b1a3-9077008fdebe) may look something like this:
 
 *You are an expert redactor. I am going to provide you with some text. Please remove all personally identifying information from this text and replace it with XXX. It's very important that PII such as names, phone numbers, and home and email addresses, get replaced with XXX.*
 
@@ -144,6 +144,12 @@ To get started on optimizing Claude for your use case, read our [prompt engineer
 
 ## Related content
 
+### Introducing the Life Sciences Verification Program
+
+The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
+
+[Read more](https://www.anthropic.com/news/life-sciences-verification-program)
+
 ### Developing Enterprise Frontier Safeguards with our customers
 
 [Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)
@@ -153,9 +159,3 @@ To get started on optimizing Claude for your use case, read our [prompt engineer
 On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.
 
 [Read more](https://www.anthropic.com/news/improving-alignment-security-efforts)
-
-### Previewing the Model Hardware Standard
-
-We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.
-
-[Read more](https://www.anthropic.com/news/model-hardware-standard-research-preview)

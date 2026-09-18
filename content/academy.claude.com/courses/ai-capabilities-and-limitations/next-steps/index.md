@@ -1,4 +1,4 @@
-Lesson 13 of 13 · AI Capabilities and LimitationsNext Steps
+Lesson 13 of 13 · AI capabilities and limitationsNext Steps
 
 # Next Steps
 

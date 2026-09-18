@@ -134,53 +134,53 @@ Learn more.
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
 
-Sep 15, 2026
+Sep 17, 2026
 
-### Bringing Salesforce into Claude
-
-Enterprise AI
-
-[Bringing Salesforce into Claude](https://claude.com/blog/how-anthropic-teams-use-claude-code)Bringing Salesforce into Claude
-
-[Bringing Salesforce into Claude](https://claude.com/blog/salesforce-in-claude)Bringing Salesforce into Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228e9c51800dde13958_6507d83d1197bb8630131d363fb8bea838d79ca7-1000x1000.svg)
-
-Sep 14, 2026
-
-### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
-
-Claude Code
-
-[Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog/how-anthropic-teams-use-claude-code)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
-
-[Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 15, 2026
-
-### Building an AI-native revenue organization
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
 Enterprise AI
 
-[Building an AI-native revenue organization](https://claude.com/blog/how-anthropic-teams-use-claude-code)Building an AI-native revenue organization
+[Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5](https://claude.com/blog/how-anthropic-teams-use-claude-code)Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
-[Building an AI-native revenue organization](https://claude.com/blog/building-an-ai-native-revenue-organization)Building an AI-native revenue organization
+[Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5](https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224d39f9b8e905d1823_b68cbb43d7c8f56f0b14cc867e8d4d74445f78b0-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224f466b800c4a5a016_a7b8978859371a024139418f3366bb0600ee1675-1000x1000.svg)
 
-Sep 14, 2026
+Jul 24, 2026
 
-### Deploying AI from pilot to production
+### How the product designer who built Claude Design uses it to explore ideas before building them
 
 Enterprise AI
 
-[Deploying AI from pilot to production](https://claude.com/blog/how-anthropic-teams-use-claude-code)Deploying AI from pilot to production
+[How the product designer who built Claude Design uses it to explore ideas before building them](https://claude.com/blog/how-anthropic-teams-use-claude-code)How the product designer who built Claude Design uses it to explore ideas before building them
 
-[Deploying AI from pilot to production](https://claude.com/blog/deploying-ai-from-pilot-to-production)Deploying AI from pilot to production
+[How the product designer who built Claude Design uses it to explore ideas before building them](https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them)How the product designer who built Claude Design uses it to explore ideas before building them
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
+
+Aug 7, 2026
+
+### How Anthropic's business development team uses Claude to run inbound and outbound at scale
+
+Enterprise AI
+
+[How Anthropic's business development team uses Claude to run inbound and outbound at scale](https://claude.com/blog/how-anthropic-teams-use-claude-code)How Anthropic's business development team uses Claude to run inbound and outbound at scale
+
+[How Anthropic's business development team uses Claude to run inbound and outbound at scale](https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale)How Anthropic's business development team uses Claude to run inbound and outbound at scale
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2261b7d4c0eae4fdf9b_036c01a9e427ea0f4d1e6c7221e4f6dce2259bf7-1000x1000.svg)
+
+Jul 8, 2026
+
+### How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds
+
+Enterprise AI
+
+[How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds](https://claude.com/blog/how-anthropic-teams-use-claude-code)How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds
+
+[How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds](https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds)How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds
 
 ## Transform how your organization operates with Claude
 

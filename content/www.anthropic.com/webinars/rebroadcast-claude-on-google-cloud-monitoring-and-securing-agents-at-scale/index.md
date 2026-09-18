@@ -52,6 +52,8 @@ Developer Relations Engineer (AI/ML) at Google Cloud
 
 By submitting, you acknowledge the Anthropic [Privacy Policy](https://www.anthropic.com/legal/privacy).
 
+Your registration data is processed by Tenex to facilitate your attendance and participation at the webinar, including check-in and event updates. It will also be used for post-event follow-up. See the [Tenex Privacy Policy](https://www.tenex.co/privacy-policy) for more on how Tenex processes your data.
+
 I acknowledge the [Anthropic Privacy Policy](https://www.anthropic.com/legal/privacy) and I understand my personal data will be processed by Google in accordance with [Google's Privacy Policy](https://policies.google.com/privacy).
 
 ![]()

@@ -1,4 +1,4 @@
-Lesson 7 of 9 · AI Fluency for Small BusinessesTying it all together
+Lesson 7 of 9 · AI Fluency for small businessesTying it all together
 
 # Tying it all together
 

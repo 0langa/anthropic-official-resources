@@ -132,6 +132,18 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+
+Sep 17, 2026
+
+### Projects redesigned: from folder to conversation
+
+Product announcements
+
+[Projects redesigned: from folder to conversation](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Projects redesigned: from folder to conversation
+
+[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
 
 Jun 18, 2026
@@ -167,18 +179,6 @@ Product announcements
 [Build and share AI-powered apps with Claude](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Build and share AI-powered apps with Claude
 
 [Build and share AI-powered apps with Claude](https://claude.com/blog/claude-powered-artifacts)Build and share AI-powered apps with Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aaaa060d1aec4a549c537ef_Object-Easel.svg)
-
-Sep 16, 2026
-
-### Claude Cowork and chat are now one Claude
-
-Product announcements
-
-[Claude Cowork and chat are now one Claude](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Claude Cowork and chat are now one Claude
-
-[Claude Cowork and chat are now one Claude](https://claude.com/blog/cowork-is-now-claude)Claude Cowork and chat are now one Claude
 
 ## Transform how your organization operates with Claude
 

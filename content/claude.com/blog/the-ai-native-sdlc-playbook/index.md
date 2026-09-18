@@ -1122,6 +1122,30 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
+
+Sep 17, 2026
+
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
+
+Enterprise AI
+
+[Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5](https://claude.com/blog/the-ai-native-sdlc-playbook)Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
+
+[Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5](https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+
+Sep 17, 2026
+
+### Projects redesigned: from folder to conversation
+
+Product announcements
+
+[Projects redesigned: from folder to conversation](https://claude.com/blog/the-ai-native-sdlc-playbook)Projects redesigned: from folder to conversation
+
+[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224f466b800c4a5a016_a7b8978859371a024139418f3366bb0600ee1675-1000x1000.svg)
 
 Jul 24, 2026
@@ -1145,30 +1169,6 @@ Enterprise AI
 [How Anthropic's business development team uses Claude to run inbound and outbound at scale](https://claude.com/blog/the-ai-native-sdlc-playbook)How Anthropic's business development team uses Claude to run inbound and outbound at scale
 
 [How Anthropic's business development team uses Claude to run inbound and outbound at scale](https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale)How Anthropic's business development team uses Claude to run inbound and outbound at scale
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2261b7d4c0eae4fdf9b_036c01a9e427ea0f4d1e6c7221e4f6dce2259bf7-1000x1000.svg)
-
-Jul 8, 2026
-
-### How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds
-
-Enterprise AI
-
-[How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds](https://claude.com/blog/the-ai-native-sdlc-playbook)How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds
-
-[How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds](https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds)How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226ca443e2e05990c00_83d7d2fe412ceb4dfe627f0d5f3d64aff1a3f5db-1000x1000.svg)
-
-Jul 7, 2026
-
-### How people are using Claude Cowork
-
-Enterprise AI
-
-[How people are using Claude Cowork](https://claude.com/blog/the-ai-native-sdlc-playbook)How people are using Claude Cowork
-
-[How people are using Claude Cowork](https://claude.com/blog/how-people-are-using-claude-cowork)How people are using Claude Cowork
 
 ## Transform how your organization operates with Claude
 

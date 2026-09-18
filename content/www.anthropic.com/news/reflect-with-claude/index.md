@@ -49,9 +49,15 @@ We built this tool to be a reflection of how you use Claude. For some users, thi
 
 ## Getting started
 
-This tool is currently available in beta for Free, Pro, and Max users who have memory turned on. Open [Settings in Claude](https://claude.ai/redirect/website.v1.e87ab4fc-ddee-4beb-b201-f0c81ce8c052/settings/reflect) on the web or the desktop app, and select the option to reflect on your usage to generate your report. If you can't generate a report, it may be because you don’t have [Memory](https://claude.ai/redirect/website.v1.e87ab4fc-ddee-4beb-b201-f0c81ce8c052/settings/capabilities?modal=memory) turned on. Reflecting on your Cowork conversations will be available soon.
+This tool is currently available in beta for Free, Pro, and Max users who have memory turned on. Open [Settings in Claude](https://claude.ai/redirect/website.v1.ddfe8303-b488-4fa9-a47f-615ac8719936/settings/reflect) on the web or the desktop app, and select the option to reflect on your usage to generate your report. If you can't generate a report, it may be because you don’t have [Memory](https://claude.ai/redirect/website.v1.ddfe8303-b488-4fa9-a47f-615ac8719936/settings/capabilities?modal=memory) turned on. Reflecting on your Cowork conversations will be available soon.
 
 ## Related content
+
+### Introducing the Life Sciences Verification Program
+
+The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
+
+[Read more](https://www.anthropic.com/news/life-sciences-verification-program)
 
 ### Developing Enterprise Frontier Safeguards with our customers
 
@@ -62,9 +68,3 @@ This tool is currently available in beta for Free, Pro, and Max users who have m
 On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.
 
 [Read more](https://www.anthropic.com/news/improving-alignment-security-efforts)
-
-### Previewing the Model Hardware Standard
-
-We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.
-
-[Read more](https://www.anthropic.com/news/model-hardware-standard-research-preview)

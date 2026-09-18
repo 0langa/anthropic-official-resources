@@ -5,6 +5,9 @@ https://academy.claude.com/collections/ai-fluency
 https://academy.claude.com/collections/build-with-claude
 https://academy.claude.com/collections/claude-for-work
 https://academy.claude.com/collections/claude-for-you
+https://academy.claude.com/collections/collaborating-with-ai
+https://academy.claude.com/collections/how-ai-works
+https://academy.claude.com/collections/human-agent-teams
 https://academy.claude.com/collections/k-12
 https://academy.claude.com/collections/nonprofits
 https://academy.claude.com/collections/small-business
@@ -1023,6 +1026,7 @@ https://claude.com/blog/preview-review-and-merge-with-claude-code
 https://claude.com/blog/product-development-in-the-agentic-era
 https://claude.com/blog/product-management-on-the-ai-exponential
 https://claude.com/blog/productivity-platforms
+https://claude.com/blog/projects-redesigned
 https://claude.com/blog/prompt-caching
 https://claude.com/blog/prompt-engineering-best-practices
 https://claude.com/blog/prompt-generator
@@ -1066,6 +1070,7 @@ https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai
 https://claude.com/blog/what-is-model-context-protocol
 https://claude.com/blog/whats-new-in-claude-managed-agents
 https://claude.com/blog/working-at-the-frontier-cursor
+https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5
 https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night
 https://claude.com/blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail
 https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work
@@ -1159,6 +1164,7 @@ https://code.claude.com/docs/en/claude-apps-gateway-spend-limits
 https://code.claude.com/docs/en/claude-code-on-the-web
 https://code.claude.com/docs/en/claude-directory
 https://code.claude.com/docs/en/claude-platform-on-aws
+https://code.claude.com/docs/en/claude-projects
 https://code.claude.com/docs/en/claude-security
 https://code.claude.com/docs/en/claude-tag
 https://code.claude.com/docs/en/claude_code_docs_map
@@ -3711,6 +3717,7 @@ https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-ko
 https://www.anthropic.com/news/krishna-rao-joins-anthropic
 https://www.anthropic.com/news/language-models-mostly-know-what-they-know
 https://www.anthropic.com/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and
+https://www.anthropic.com/news/life-sciences-verification-program
 https://www.anthropic.com/news/lyft-announcement
 https://www.anthropic.com/news/mapping-mind-language-model
 https://www.anthropic.com/news/mariano-florentino-long-term-benefit-trust
@@ -3862,6 +3869,7 @@ https://www.anthropic.com/research/claude-personal-guidance
 https://www.anthropic.com/research/claude-plays-robotics
 https://www.anthropic.com/research/claude-sonnet-4-6
 https://www.anthropic.com/research/claude-sonnet-5
+https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling
 https://www.anthropic.com/research/claude-values-models-languages
 https://www.anthropic.com/research/claudes-constitution
 https://www.anthropic.com/research/clio

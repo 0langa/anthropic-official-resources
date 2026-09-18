@@ -1,4 +1,4 @@
-Quiz 1 of 1 · Deploying Claude Enterprise with Confidence: The five decisions that shape your rolloutCourse quiz
+Quiz 1 of 1 · Deploying Claude Enterprise with confidence: The five decisions that shape your rolloutCourse quiz
 
 # Course quiz
 

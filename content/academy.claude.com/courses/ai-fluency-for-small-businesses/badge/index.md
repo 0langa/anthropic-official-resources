@@ -1,4 +1,4 @@
-AI Fluency for Small BusinessesCompletion badge
+AI Fluency for small businessesCompletion badge
 
 # Completion badge
 

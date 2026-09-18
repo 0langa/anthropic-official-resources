@@ -1,4 +1,4 @@
-Lesson 9 of 11 · Model Context Protocol: Advanced TopicsThe StreamableHTTP transport
+Lesson 9 of 11 · Model Context Protocol: Advanced topicsThe StreamableHTTP transport
 
 # The StreamableHTTP transport
 

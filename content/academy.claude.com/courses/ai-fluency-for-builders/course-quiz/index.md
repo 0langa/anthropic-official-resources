@@ -1,4 +1,4 @@
-Quiz 1 of 1 · AI Fluency for BuildersCourse quiz
+Quiz 1 of 1 · AI Fluency for buildersCourse quiz
 
 # Course quiz
 

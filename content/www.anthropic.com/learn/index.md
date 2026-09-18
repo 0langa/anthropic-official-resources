@@ -6,7 +6,7 @@ Learn to use AI safely, effectively, and with intention. Free courses, tutorials
 
 ## Go deeper with Claude
 
-[![](https://academy.claude.com/assets/v1/thumbnail.light-iznp6akh.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hh3at4r1.png)
+[![](https://academy.claude.com/assets/v1/thumbnail.light-khg817wt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-h1zlg9b3.png)
 
 ### Claude.ai
 

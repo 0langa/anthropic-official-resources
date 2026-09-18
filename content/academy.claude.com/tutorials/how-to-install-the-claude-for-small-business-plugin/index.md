@@ -24,7 +24,7 @@ After installing the plugin, you'll have all of the [skills(opens in new tab)](h
 
 #### To run a skill:
 
-- Type `/` in the Cowork chat bar and pick it from the list, or
+- Type `/` in the chat bar and pick it from the list, or
 - Describe the job in plain English and Claude picks the skill that fits.
 
 Either way, Claude follows the skill's instructions for that task. To learn more, see [What are skills(opens in new tab)](https://academy.claude.com/tutorials/what-are-skills) and [Use plugins in Claude Cowork(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude-cowork).
@@ -43,7 +43,7 @@ The tools listed are the defaults. When you customize the plugin, you can point 
 
 The skills come with defaults written for a typical small business. There are two ways to make them yours.
 
-In **Customize → Plugins**, open **Claude for Small Business** and click **Customize**. Or type the prompt yourself in the Cowork chat bar:
+In **Customize → Plugins**, open **Claude for Small Business** and click **Customize**. Or type the prompt yourself in the chat bar:
 
 Customize the "small-business" plugin for me based on my company.
 
@@ -92,7 +92,7 @@ For a step-by-step walkthrough of three of these — payroll, the month-end clos
 
 ### Practice: run one skill yourself[](https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin)
 
-Take one job from your week, one where you already know roughly what the answer should look like, and describe it in the Cowork chat bar the way you'd hand it to a person:
+Take one job from your week, one where you already know roughly what the answer should look like, and describe it in the chat bar the way you'd hand it to a person:
 
 Which invoices are overdue, and which ones should I follow up on first?
 

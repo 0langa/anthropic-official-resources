@@ -2,7 +2,7 @@
 
 
 
-17 tutorials
+18 tutorials
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-m7h6cx31.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bp8m6m89.png)
 
@@ -14,7 +14,7 @@ Same Claude, two ways of working. Chat is a conversation you steer turn by turn.
 
 ## Claude Cowork Enterprise Admin Guide
 
-Claude Cowork brings Claude’s agentic capabilities to the Claude Desktop app, enabling multi-step knowledge work beyond coding
+Claude Cowork brings Claude’s agentic capabilities to Claude.ai and the Claude Desktop app, enabling multi-step knowledge work beyond coding
 
 20 min](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
@@ -38,7 +38,7 @@ Claude Cowork lets you hand off complete tasks to Claude — working directly wi
 
 ## Get started in Claude Cowork in three steps
 
-The three setup steps before your first task: open the desktop app, run the guided setup, and point Cowork at where the work lives.
+The three setup steps before your first task: open Claude, run the guided setup, and point Cowork at where the work lives.
 
 4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-iyu8ose6.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jnwlc3r7.png)
 
@@ -70,7 +70,13 @@ Understand how effort settings work in claude.ai and why adjusting effort on a f
 
 Add Anthropic's open-source financial services plugins to Claude Cowork for financial modeling, equity research, investment banking, private equity, and wealth management workflows.
 
-3 min](https://academy.claude.com/tutorials/install-financial-services-plugins-for-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-bvn0kt1s.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iu3pg3zz.png)
+3 min](https://academy.claude.com/tutorials/install-financial-services-plugins-for-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-b9qlnr3z.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mpd67del.png)
+
+## Navigating the Claude desktop app
+
+Learn what changes when you use Claude in the desktop app, and what it can do across your computer and tools.
+
+6 min](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)[![](https://academy.claude.com/assets/v1/thumbnail.light-bvn0kt1s.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iu3pg3zz.png)
 
 ## Scaling workflows with Claude Cowork at your organization
 

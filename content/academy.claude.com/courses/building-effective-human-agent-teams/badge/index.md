@@ -1,4 +1,4 @@
-Building Effective Human Agent Teams (Beta)Completion badge
+Building effective human-agent teams (beta)Completion badge
 
 # Completion badge
 

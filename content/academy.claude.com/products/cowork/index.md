@@ -12,7 +12,7 @@ Course·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introdu
 
 ### Get started in Claude Cowork in three steps
 
-The three setup steps before your first task: open the desktop app, run the guided setup, and point Cowork at where the work lives.
+The three setup steps before your first task: open Claude, run the guided setup, and point Cowork at where the work lives.
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
@@ -117,7 +117,7 @@ Use case·Marketing·10 min](https://academy.claude.com/use-cases/campaign-brief
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Marketing
@@ -136,7 +136,7 @@ Course·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introdu
 
 ### Get started in Claude Cowork in three steps
 
-The three setup steps before your first task: open the desktop app, run the guided setup, and point Cowork at where the work lives.
+The three setup steps before your first task: open Claude, run the guided setup, and point Cowork at where the work lives.
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
@@ -241,7 +241,7 @@ Use case·Marketing·10 min](https://academy.claude.com/use-cases/repurpose-cont
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Product
@@ -260,7 +260,7 @@ Course·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introdu
 
 ### Get started in Claude Cowork in three steps
 
-The three setup steps before your first task: open the desktop app, run the guided setup, and point Cowork at where the work lives.
+The three setup steps before your first task: open Claude, run the guided setup, and point Cowork at where the work lives.
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
@@ -365,7 +365,7 @@ Use case·Research·15 min](https://academy.claude.com/use-cases/surface-themes-
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Engineering
@@ -384,7 +384,7 @@ Course·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introdu
 
 ### Get started in Claude Cowork in three steps
 
-The three setup steps before your first task: open the desktop app, run the guided setup, and point Cowork at where the work lives.
+The three setup steps before your first task: open Claude, run the guided setup, and point Cowork at where the work lives.
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
@@ -489,7 +489,7 @@ Use case·Engineering·10 min](https://academy.claude.com/use-cases/design-doc)
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## HR
@@ -508,7 +508,7 @@ Course·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introdu
 
 ### Get started in Claude Cowork in three steps
 
-The three setup steps before your first task: open the desktop app, run the guided setup, and point Cowork at where the work lives.
+The three setup steps before your first task: open Claude, run the guided setup, and point Cowork at where the work lives.
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
@@ -607,7 +607,7 @@ Use case·HR·10 min](https://academy.claude.com/use-cases/performance-review-ad
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Finance
@@ -626,7 +626,7 @@ Course·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introdu
 
 ### Get started in Claude Cowork in three steps
 
-The three setup steps before your first task: open the desktop app, run the guided setup, and point Cowork at where the work lives.
+The three setup steps before your first task: open Claude, run the guided setup, and point Cowork at where the work lives.
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
@@ -731,7 +731,7 @@ Use case·Finance·10 min](https://academy.claude.com/use-cases/recon-journal-en
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Operations
@@ -750,7 +750,7 @@ Course·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introdu
 
 ### Get started in Claude Cowork in three steps
 
-The three setup steps before your first task: open the desktop app, run the guided setup, and point Cowork at where the work lives.
+The three setup steps before your first task: open Claude, run the guided setup, and point Cowork at where the work lives.
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
@@ -849,7 +849,7 @@ Use case·Operations·10 min](https://academy.claude.com/use-cases/vendor-risk-r
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Data
@@ -868,7 +868,7 @@ Course·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introdu
 
 ### Get started in Claude Cowork in three steps
 
-The three setup steps before your first task: open the desktop app, run the guided setup, and point Cowork at where the work lives.
+The three setup steps before your first task: open Claude, run the guided setup, and point Cowork at where the work lives.
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
@@ -943,7 +943,7 @@ Use case·Data·10 min](https://academy.claude.com/use-cases/answer-the-adhoc)
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Design
@@ -962,7 +962,7 @@ Course·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introdu
 
 ### Get started in Claude Cowork in three steps
 
-The three setup steps before your first task: open the desktop app, run the guided setup, and point Cowork at where the work lives.
+The three setup steps before your first task: open Claude, run the guided setup, and point Cowork at where the work lives.
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
@@ -1067,7 +1067,7 @@ Use case·Design·15 min](https://academy.claude.com/use-cases/brand-guidelines-
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Legal
@@ -1086,7 +1086,7 @@ Course·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introdu
 
 ### Get started in Claude Cowork in three steps
 
-The three setup steps before your first task: open the desktop app, run the guided setup, and point Cowork at where the work lives.
+The three setup steps before your first task: open Claude, run the guided setup, and point Cowork at where the work lives.
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
@@ -1191,7 +1191,7 @@ Use case·Legal·15 min](https://academy.claude.com/use-cases/prep-scattered-doc
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Sales
@@ -1210,7 +1210,7 @@ Course·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introdu
 
 ### Get started in Claude Cowork in three steps
 
-The three setup steps before your first task: open the desktop app, run the guided setup, and point Cowork at where the work lives.
+The three setup steps before your first task: open Claude, run the guided setup, and point Cowork at where the work lives.
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
@@ -1315,7 +1315,7 @@ Use case·Sales·10 min](https://academy.claude.com/use-cases/transcript-themes)
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Research
@@ -1334,7 +1334,7 @@ Course·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introdu
 
 ### Get started in Claude Cowork in three steps
 
-The three setup steps before your first task: open the desktop app, run the guided setup, and point Cowork at where the work lives.
+The three setup steps before your first task: open Claude, run the guided setup, and point Cowork at where the work lives.
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
@@ -1409,7 +1409,7 @@ Use case·Research·15 min](https://academy.claude.com/use-cases/surface-themes-
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Education
@@ -1428,7 +1428,7 @@ Course·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introdu
 
 ### Get started in Claude Cowork in three steps
 
-The three setup steps before your first task: open the desktop app, run the guided setup, and point Cowork at where the work lives.
+The three setup steps before your first task: open Claude, run the guided setup, and point Cowork at where the work lives.
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
@@ -1503,7 +1503,7 @@ Use case·Education·15 min](https://academy.claude.com/use-cases/adapt-a-standa
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Personal
@@ -1522,7 +1522,7 @@ Course·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introdu
 
 ### Get started in Claude Cowork in three steps
 
-The three setup steps before your first task: open the desktop app, run the guided setup, and point Cowork at where the work lives.
+The three setup steps before your first task: open Claude, run the guided setup, and point Cowork at where the work lives.
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
@@ -1597,4 +1597,4 @@ Use case·Personal·15 min](https://academy.claude.com/use-cases/organize-files-
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials17 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)

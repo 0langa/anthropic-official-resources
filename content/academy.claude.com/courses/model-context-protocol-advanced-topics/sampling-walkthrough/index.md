@@ -1,4 +1,4 @@
-Lesson 2 of 11 · Model Context Protocol: Advanced TopicsSampling walkthrough
+Lesson 2 of 11 · Model Context Protocol: Advanced topicsSampling walkthrough
 
 # Sampling walkthrough
 

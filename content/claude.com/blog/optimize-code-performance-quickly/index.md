@@ -211,6 +211,18 @@ It depends on your starting point. Eliminating N+1 queries can reduce response t
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+
+Sep 17, 2026
+
+### Projects redesigned: from folder to conversation
+
+Product announcements
+
+[Projects redesigned: from folder to conversation](https://claude.com/blog/optimize-code-performance-quickly)Projects redesigned: from folder to conversation
+
+[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228e9c51800dde13958_6507d83d1197bb8630131d363fb8bea838d79ca7-1000x1000.svg)
 
 Sep 14, 2026
@@ -246,18 +258,6 @@ Enterprise AI
 [The AI-Native SDLC playbook](https://claude.com/blog/optimize-code-performance-quickly)The AI-Native SDLC playbook
 
 [The AI-Native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-Native SDLC playbook
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226ca443e2e05990c00_83d7d2fe412ceb4dfe627f0d5f3d64aff1a3f5db-1000x1000.svg)
-
-Aug 24, 2026
-
-### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
-
-Claude Code
-
-[How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep](https://claude.com/blog/optimize-code-performance-quickly)How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
-
-[How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep](https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
 ## Transform how your organization operates with Claude
 

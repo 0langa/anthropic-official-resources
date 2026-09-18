@@ -1,4 +1,4 @@
-Quiz 1 of 1 · AI Fluency for Creative WorkCourse quiz
+Quiz 1 of 1 · AI Fluency for creative workCourse quiz
 
 # Course quiz
 

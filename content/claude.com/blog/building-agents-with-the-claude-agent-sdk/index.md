@@ -241,6 +241,18 @@ Developer docs
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+
+Sep 17, 2026
+
+### Projects redesigned: from folder to conversation
+
+Product announcements
+
+[Projects redesigned: from folder to conversation](https://claude.com/blog/building-agents-with-the-claude-agent-sdk)Projects redesigned: from folder to conversation
+
+[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228e9c51800dde13958_6507d83d1197bb8630131d363fb8bea838d79ca7-1000x1000.svg)
 
 Sep 14, 2026
@@ -276,18 +288,6 @@ Product announcements
 [Building commerce agents with Claude](https://claude.com/blog/building-agents-with-the-claude-agent-sdk)Building commerce agents with Claude
 
 [Building commerce agents with Claude](https://claude.com/blog/claude-for-commerce-agents)Building commerce agents with Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Sep 2, 2026
-
-### A guide to the anatomy of effective commerce agents
-
-Agents
-
-[A guide to the anatomy of effective commerce agents](https://claude.com/blog/building-agents-with-the-claude-agent-sdk)A guide to the anatomy of effective commerce agents
-
-[A guide to the anatomy of effective commerce agents](https://claude.com/blog/the-anatomy-of-effective-commerce-agents)A guide to the anatomy of effective commerce agents
 
 ## Transform how your organization operates with Claude
 

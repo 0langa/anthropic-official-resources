@@ -1,6 +1,6 @@
 # Claude Cowork Enterprise Admin Guide
 
-Claude Cowork brings Claude’s agentic capabilities to the Claude Desktop app, enabling multi-step knowledge work beyond coding
+Claude Cowork brings Claude’s agentic capabilities to Claude.ai and the Claude Desktop app, enabling multi-step knowledge work beyond coding
 
 20 minClaude Cowork
 
@@ -14,11 +14,11 @@ Claude Cowork brings Claude’s agentic capabilities to the Claude Desktop app, 
 
 Claude Cowork brings Claude’s agentic capabilities to Claude.ai and the Claude Desktop app, enabling multi-step knowledge work beyond coding. Rather than responding to individual prompts sequentially, Claude can tackle complex, multi-step tasks and execute them on a user’s behalf. Users delegate work and return to polished deliverables like formatted documents, organized files, synthesized research, and more.
 
-Claude Cowork sits alongside Chat in [Claude.ai(opens in new tab)](http://claude.ai/), the API, and Claude Code in the Claude product lineup. What distinguishes it for enterprise is the combination of local file access, connectors to the tools your teams already use (e.g. Slack, Google Workspace, M365), a plugin ecosystem with repeatable workflows that organizations can curate and govern, and scheduled tasks that run on a cadence. It requires the Claude Desktop app on macOS, Windows, or Linux (where support is in beta) and is available on all Claude paid plans.
+Claude Cowork sits alongside Chat in [Claude.ai(opens in new tab)](http://claude.ai/), the API, and Claude Code in the Claude product lineup. What distinguishes it for enterprise is the combination of local file access, connectors to the tools your teams already use (e.g. Slack, Google Workspace, M365), a plugin ecosystem with repeatable workflows that organizations can curate and govern, and scheduled tasks that run on a cadence. It is available on all Claude paid plans, on the web and in the Claude Desktop app for macOS, Windows, and Linux (in beta); working with local files and desktop applications requires the desktop app.
 
 ### Requirements[](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide)
 
-- **Claude Desktop app:** Claude Cowork requires the desktop app for macOS, Windows, or Linux. Linux support (Debian and Ubuntu) is in beta, and the Cowork tab is available there alongside Chat and Code. Claude Cowork is not currently available on mobile.
+- **Claude Desktop app:** Required for work on local files, desktop applications, or the browser. Available for macOS, Windows, and Linux (Debian and Ubuntu, in beta). Claude Cowork is also available on the web and in the Claude mobile app, subject to your organization's settings.
 - **Claude subscription:** Claude Cowork is available to paid Claude plans (Pro, Max, Team, and Enterprise), with some features still in research preview. Learn more [here(opens in new tab)](https://claude.com/pricing).
 - **Active internet connection:** Required throughout the session.
 - **Connectors:** Claude Cowork is most powerful when you connect it to your favorite apps, services, and data sources via connectors.
@@ -125,7 +125,7 @@ Before opening Claude Cowork to your pilot group, confirm:
 
 ## Phase 2: Change Management & Launch[](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide)
 
-Claude Cowork introduces a fundamentally different way of working with Claude. In Chat, users collaborate — prompting back and forth to work toward an answer together. In Claude Cowork, users delegate — they describe a task, provide context and tools, define what good looks like, and come back to finished work.
+Claude Cowork introduces a fundamentally different way of working with Claude. In a chat, users collaborate — prompting back and forth to work toward an answer together. In Claude Cowork, users delegate — they describe a task, provide context and tools, define what good looks like, and come back to finished work.
 
 An ideal Claude Cowork task produces a deliverable: a document, a financial model, a research memo, a formatted report. A successful task means the user got the output they expected, in the form they needed. This is the shift your enablement program needs to drive: from chatting to creating.
 
@@ -188,7 +188,7 @@ Champions are enthusiastic adopters who can help drive peer adoption across thei
 
 ### Launch Communications[](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide)
 
-Stage your communications so users know what’s coming, why it matters, and where to go for help. Claude Cowork is accessed from the Claude desktop app and works with your files, tools, and browser — it's a different experience from claude.ai and your messaging should set that expectation.
+Stage your communications so users know what’s coming, why it matters, and where to go for help. Claude Cowork works with your files, tools, and browser and hands back finished work — it's a different experience from asking Claude questions, and your messaging should set that expectation.
 
 Every message should reinforce the delegation model: Claude Cowork produces deliverables, not just answers. Users describe a task, provide context and tools, define what good looks like, and come back to finished work.
 

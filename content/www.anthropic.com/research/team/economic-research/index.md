@@ -18,7 +18,7 @@ Economic transitions create both opportunity and disruption. The speed of AI dev
 
 [## Scenarios for our Economic Future
 
-[Anthropic’s Economics team is sharing a new model of how AI may affect economic growth, jobs, wages, and more by 2030. The model lets you explore the scenarios, tell us what you think will happen, and see how your answers compare to +10,000 Americans.](https://www.anthropic.com/institute/econ-scenarios)](https://www.anthropic.com/institute/econ-scenarios)
+Anthropic’s Economics team is sharing a new model of how AI may affect economic growth, jobs, wages, and more by 2030. The model lets you explore the scenarios, tell us what you think will happen, and see how your answers compare to +10,000 Americans.](https://www.anthropic.com/institute/econ-scenarios)
 
 [EconomicsJun 26, 2026
 

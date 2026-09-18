@@ -1,4 +1,4 @@
-AI Capabilities and LimitationsCompletion badge
+AI capabilities and limitationsCompletion badge
 
 # Completion badge
 

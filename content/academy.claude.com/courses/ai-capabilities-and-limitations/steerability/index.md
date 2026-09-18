@@ -1,4 +1,4 @@
-Lesson 10 of 13 · AI Capabilities and LimitationsSteerability
+Lesson 10 of 13 · AI capabilities and limitationsSteerability
 
 # Steerability
 

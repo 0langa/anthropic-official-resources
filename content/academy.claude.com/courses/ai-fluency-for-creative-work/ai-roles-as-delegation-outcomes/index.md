@@ -1,4 +1,4 @@
-Lesson 7 of 8 · AI Fluency for Creative WorkAI roles as Delegation outcomes
+Lesson 7 of 8 · AI Fluency for creative workAI roles as Delegation outcomes
 
 # AI roles as Delegation outcomes
 

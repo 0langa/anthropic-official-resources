@@ -1,4 +1,4 @@
-Quiz 1 of 1 · Model Context Protocol: Advanced TopicsAssessment on MCP concepts
+Quiz 1 of 1 · Model Context Protocol: Advanced topicsAssessment on MCP concepts
 
 # Assessment on MCP concepts
 

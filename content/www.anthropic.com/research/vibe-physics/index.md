@@ -49,7 +49,7 @@ and out would pop the paper. We are not there yet, of course. I tried giving thi
 
 To go about this scientifically, I encapsulated all the work. The rules were strict:
 
-- Only give text prompts to [Claude Code](https://claude.ai/redirect/website.v1.f3fc944c-d08a-461d-9921-2d3e16c3f8c0/code). No editing files directly.
+- Only give text prompts to [Claude Code](https://claude.ai/redirect/website.v1.3bd3f0ec-4171-40f3-ab9a-544ea1196c0c/code). No editing files directly.
 - Don’t cut and paste my own calculations into the chat.
 - But pasting Gemini or GPT calculations was OK, as long as they were only text-prompted.
 
@@ -59,7 +59,7 @@ My question was: is there a set of prompts, like instructions to a talented G2, 
 
 I knew from experience that LLMs struggle with context and organization over long projects. So I started by asking Claude to come up with a plan of attack: what tasks needed to be done in what order. I also asked GPT 5.2 and Gemini 3.0. Then, I had all three LLMs merge the best ideas from each, using web interfaces and copying one to another. Next, I gave those merges to Claude, asking it to break the outline into detailed subsections. The result is [here](https://www-cdn.anthropic.com/2595299ccf7f8b9a9c74823c24faaa5d9b216804.pdf). There were 102 separate tasks across seven stages.
 
-From there, I turned to [Claude Code](https://claude.ai/redirect/website.v1.f3fc944c-d08a-461d-9921-2d3e16c3f8c0/code), using the extension in VS Code.
+From there, I turned to [Claude Code](https://claude.ai/redirect/website.v1.3bd3f0ec-4171-40f3-ab9a-544ea1196c0c/code), using the extension in VS Code.
 
 ![A screen grab of Claude code](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2277f287d82a9a6087bc70c6d16cfd6648634d7e-1600x967.jpg&w=3840&q=75)
 
@@ -240,6 +240,12 @@ In addition to the growth in interest, the tools themselves have been steadily i
 
 ## Related content
 
+### How Claude is uplifting biomolecular modeling
+
+Claude made the open-source models that scientists use to predict and design biomolecules faster and more memory-efficient. Claude optimized more than 30 of these models in just under four weeks, speeding them up roughly 4x on average. It also created a low-memory mode that enables the accurate prediction of biomolecular systems larger than 10,000 tokens (amino acids, nucleotides, and atoms from small molecules and ions) on a single NVIDIA GPU node.
+
+[Read more](https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling)
+
 ### Measuring tactical intelligence targeting and conventional weapons capabilities of AI models
 
 Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.
@@ -251,12 +257,6 @@ Anthropic’s Frontier Red Team developed new evaluations to measure AI capabili
 We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.
 
 [Read more](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents)
-
-### Formalizing Fermat's Last Theorem
-
-We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language.
-
-[Read more](https://www.anthropic.com/research/formalizing-fermats-last-theorem)
 
 ## Subscribe to Anthropic Science
 

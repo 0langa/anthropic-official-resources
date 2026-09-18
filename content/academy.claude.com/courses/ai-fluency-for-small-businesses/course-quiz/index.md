@@ -1,4 +1,4 @@
-Quiz 1 of 1 · AI Fluency for Small BusinessesCourse quiz
+Quiz 1 of 1 · AI Fluency for small businessesCourse quiz
 
 # Course quiz
 

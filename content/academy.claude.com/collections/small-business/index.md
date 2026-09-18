@@ -4,7 +4,7 @@ Every day millions of small businesses use AI to manage finances, develop market
 
 ## Start here
 
-[### AI Fluency for Small Businesses
+[### AI Fluency for small businesses
 
 Helps small business owners and staff build practical AI collaboration skills using the 4D Framework: Delegation, Description, Discernment, and Diligence. Applies the framework to everyday business tasks like research, customer data, and operations while staying true to your mission and values.
 
@@ -36,9 +36,9 @@ Course·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introdu
 
 ## Work smarter with Claude
 
-- [Getting started with Claude.aiTutorial5 min
+- [Getting started with ClaudeTutorial5 min
 
-  Tutorial·5 min](https://academy.claude.com/tutorials/getting-started-with-claude-ai)
+  Tutorial·5 min](https://academy.claude.com/tutorials/getting-started-with-claude)
 - [Get started in Claude Cowork in three stepsTutorial4 min
 
   Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)

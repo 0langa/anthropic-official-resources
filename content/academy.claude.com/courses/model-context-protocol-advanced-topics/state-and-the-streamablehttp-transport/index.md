@@ -1,4 +1,4 @@
-Lesson 11 of 11 · Model Context Protocol: Advanced TopicsState and the StreamableHTTP transport
+Lesson 11 of 11 · Model Context Protocol: Advanced topicsState and the StreamableHTTP transport
 
 # State and the StreamableHTTP transport
 

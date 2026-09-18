@@ -92,6 +92,6 @@ Here are a few ways you can start the conversation around AI fluency:
 - Access: check what information your AI tools can reach
 
 - [Anthropic Education Report: How people check Claude's workThe discernment study and toolkit: what checking AI output looks like in practice, and what gets in the way.(opens in new tab)](https://academy.claude.com/tutorials/discernment-toolkit)
-- [Building Effective Human Agent Teams (Beta)The Claude Academy course on moving your team from single-player to multiplayer AI.(opens in new tab)](https://academy.claude.com/courses/building-effective-human-agent-teams)
+- [Building effective human-agent teams (beta)The Claude Academy course on moving your team from single-player to multiplayer AI.(opens in new tab)](https://academy.claude.com/courses/building-effective-human-agent-teams)
 
 Was this helpful?

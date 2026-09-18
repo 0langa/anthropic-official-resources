@@ -1,4 +1,4 @@
-AI Fluency for Creative WorkCompletion badge
+AI Fluency for creative workCompletion badge
 
 # Completion badge
 

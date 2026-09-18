@@ -1,4 +1,4 @@
-Claude Code in ActionCompletion badge
+Claude Code in actionCompletion badge
 
 # Completion badge
 

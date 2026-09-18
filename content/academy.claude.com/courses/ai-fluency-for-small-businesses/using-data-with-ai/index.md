@@ -1,4 +1,4 @@
-Lesson 6 of 9 · AI Fluency for Small BusinessesTransparent AI use
+Lesson 6 of 9 · AI Fluency for small businessesTransparent AI use
 
 # Transparent AI use
 

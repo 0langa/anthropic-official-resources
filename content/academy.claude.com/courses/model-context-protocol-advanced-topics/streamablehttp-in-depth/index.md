@@ -1,4 +1,4 @@
-Lesson 10 of 11 · Model Context Protocol: Advanced TopicsStreamableHTTP in depth
+Lesson 10 of 11 · Model Context Protocol: Advanced topicsStreamableHTTP in depth
 
 # StreamableHTTP in depth
 
