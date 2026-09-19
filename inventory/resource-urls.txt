@@ -1144,6 +1144,7 @@ https://code.claude.com/docs/en/amazon-bedrock
 https://code.claude.com/docs/en/analytics
 https://code.claude.com/docs/en/artifacts
 https://code.claude.com/docs/en/authentication
+https://code.claude.com/docs/en/auto-mode-classifier-billing
 https://code.claude.com/docs/en/auto-mode-config
 https://code.claude.com/docs/en/azure-ai-foundry
 https://code.claude.com/docs/en/bedrock-vertex
@@ -1361,6 +1362,7 @@ https://platform.claude.com/cookbook/managed-agents-cma-with-mongodb-atlas
 https://platform.claude.com/cookbook/managed-agents-data-analyst-agent
 https://platform.claude.com/cookbook/managed-agents-slack-data-bot
 https://platform.claude.com/cookbook/managed-agents-sre-incident-responder
+https://platform.claude.com/cookbook/misc-admin-api
 https://platform.claude.com/cookbook/misc-batch-processing
 https://platform.claude.com/cookbook/misc-building-evals
 https://platform.claude.com/cookbook/misc-building-moderation-filter
@@ -3275,6 +3277,7 @@ https://support.claude.com/en/articles/16952184
 https://support.claude.com/en/articles/16952184-set-up-salesforce-in-claude-for-your-organization
 https://support.claude.com/en/articles/16952186
 https://support.claude.com/en/articles/16952186-use-salesforce-in-claude
+https://support.claude.com/en/articles/16989529-invite-people-outside-your-organization-to-an-artifact
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer
@@ -3517,6 +3520,7 @@ https://www.anthropic.com/news/Introducing-code-with-claude
 https://www.anthropic.com/news/a-new-initiative-for-developing-third-party-model-evaluations
 https://www.anthropic.com/news/accelerating-scientific-research
 https://www.anthropic.com/news/accenture-aws-anthropic
+https://www.anthropic.com/news/accenture-embedded-evaluation
 https://www.anthropic.com/news/acquires-vercept
 https://www.anthropic.com/news/activating-asl3-protections
 https://www.anthropic.com/news/advancing-claude-for-education

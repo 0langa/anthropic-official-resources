@@ -1,1 +1,1 @@
-https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5
+https://platform.claude.com/cookbook/misc-admin-api

@@ -1,6 +1,6 @@
 # Features and capabilities
 
-30 articles
+31 articles
 
 [What are artifacts and how do I use them?](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)
 
@@ -61,3 +61,5 @@
 [Set up Salesforce in Claude for your organization](https://support.claude.com/en/articles/16952184-set-up-salesforce-in-claude-for-your-organization)
 
 [Get started with Claude Docs](https://support.claude.com/en/articles/16923645-get-started-with-claude-docs)
+
+[Invite people outside your organization to an artifact](https://support.claude.com/en/articles/16989529-invite-people-outside-your-organization-to-an-artifact)

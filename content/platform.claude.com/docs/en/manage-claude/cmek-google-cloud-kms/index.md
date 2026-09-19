@@ -136,74 +136,96 @@ How you register the key depends on which product you use.
 
 <Tabs>
   <Tab title="Claude Platform">
-    <Steps>
-      <Step title="Register the key with Anthropic">
-        Create an external key configuration through the Admin API, using the resource name from the Note the full key resource name step under Encryption key setup.
+    You can set up the key in the Claude Console or through the Admin API, with the same result.
 
-        ```bash
-        curl -sS https://api.anthropic.com/v1/organizations/external_keys \
-          -H "x-api-key: <anthropic-admin-api-key>" \
-          -H "anthropic-version: 2023-06-01" \
-          -H "content-type: application/json" \
-          -d '{
-            "display_name": "<friendly-name>",
-            "geo": "us",
-            "provider_config": {
-              "type": "gcp",
-              "key_name": "projects/<your-project-id>/locations/<region>/keyRings/<your-keyring-name>/cryptoKeys/<your-key-name>"
+    <Tabs>
+      <Tab title="Claude Console">
+        <Steps>
+          <Step title="Register the key with Anthropic">
+            In the Claude Console, open **Settings > Encryption keys** and click **Add key**. Enter a display name, choose **Google Cloud KMS**, and click **Continue**. Paste the full key resource name into **Key resource name**, and click **Add**.
+          </Step>
+
+          <Step title="Validate the key">
+            On the **Encryption keys** page, click **Verify** next to the key. **Connected** appears when the check passes. If it fails, a message gives the reason.
+          </Step>
+
+          <Step title="Attach the key to a workspace">
+            Open **Settings > Workspaces**, choose the workspace, and open its **Security** tab. Under **Encryption key**, select the key, click **Save**, and confirm. Attaching a key can't be undone. For a workspace that already receives requests, the key can take [up to a day to take effect](https://platform.claude.com/docs/en/manage-claude/cmek#how-it-works).
+          </Step>
+        </Steps>
+      </Tab>
+
+      <Tab title="API">
+        <Steps>
+          <Step title="Register the key with Anthropic">
+            Create an external key configuration through the Admin API, using the resource name from the Note the full key resource name step under Encryption key setup.
+
+            ```bash
+            curl -sS https://api.anthropic.com/v1/organizations/external_keys \
+              -H "x-api-key: <anthropic-admin-api-key>" \
+              -H "anthropic-version: 2023-06-01" \
+              -H "content-type: application/json" \
+              -d '{
+                "display_name": "<friendly-name>",
+                "geo": "us",
+                "provider_config": {
+                  "type": "gcp",
+                  "key_name": "projects/<your-project-id>/locations/<region>/keyRings/<your-keyring-name>/cryptoKeys/<your-key-name>"
+                }
+              }'
+            ```
+
+            The response contains the external key ID:
+
+            ```json
+            {
+              "type": "external_key",
+              "id": "ekey_<id>",
+              "display_name": "<friendly-name>"
             }
-          }'
-        ```
+            ```
+          </Step>
 
-        The response contains the external key ID:
+          <Step title="Validate the key">
+            Trigger an encrypt and decrypt round-trip against your key.
 
-        ```json
-        {
-          "type": "external_key",
-          "id": "ekey_<id>",
-          "display_name": "<friendly-name>"
-        }
-        ```
-      </Step>
+            ```bash
+            curl -sS -X POST https://api.anthropic.com/v1/organizations/external_keys/ekey_<id>/validate \
+              -H "x-api-key: <anthropic-admin-api-key>" \
+              -H "anthropic-version: 2023-06-01" \
+              -H "content-type: application/json" \
+              -d '{}'
+            ```
 
-      <Step title="Validate the key">
-        Trigger an encrypt and decrypt round-trip against your key.
+            A successful response looks like this:
 
-        ```bash
-        curl -sS -X POST https://api.anthropic.com/v1/organizations/external_keys/ekey_<id>/validate \
-          -H "x-api-key: <anthropic-admin-api-key>" \
-          -H "anthropic-version: 2023-06-01" \
-          -H "content-type: application/json" \
-          -d '{}'
-        ```
+            ```json
+            { "type": "external_key_validation", "status": "success", "error": null }
+            ```
 
-        A successful response looks like this:
+            If validation fails, common causes are:
 
-        ```json
-        { "type": "external_key_validation", "status": "success", "error": null }
-        ```
+            * **VPC Service Controls:** if a service perimeter protects Cloud KMS in your project, add Anthropic to an access level on the perimeter (or exclude the key's project) so Anthropic can reach the key.
+            * **Domain restricted sharing:** the `constraints/iam.allowedPolicyMemberDomains` org policy can strip the Anthropic service account binding (see the earlier note). Confirm the binding is present with `gcloud kms keys get-iam-policy <your-key-name> --project=<your-project-id> --location=<region> --keyring=<your-keyring-name>`.
+            * **Disabled or destroyed key version:** confirm the key's primary version is enabled, and not disabled, scheduled for destruction, or destroyed.
+          </Step>
 
-        If validation fails, common causes are:
+          <Step title="Attach the key to a workspace">
+            Once the key is validated, attach it to a new workspace before you send any requests to that workspace. For a workspace that already receives requests, the key can take [up to a day to take effect](https://platform.claude.com/docs/en/manage-claude/cmek#how-it-works).
 
-        * **VPC Service Controls:** if a service perimeter protects Cloud KMS in your project, add Anthropic to an access level on the perimeter (or exclude the key's project) so Anthropic can reach the key.
-        * **Domain restricted sharing:** the `constraints/iam.allowedPolicyMemberDomains` org policy can strip the Anthropic service account binding (see the earlier note). Confirm the binding is present with `gcloud kms keys get-iam-policy <your-key-name> --project=<your-project-id> --location=<region> --keyring=<your-keyring-name>`.
-        * **Disabled or destroyed key version:** confirm the key's primary version is enabled, and not disabled, scheduled for destruction, or destroyed.
-      </Step>
-
-      <Step title="Attach the key to a workspace">
-        Once the key is validated, attach it to a new workspace before you send any requests to that workspace. For a workspace that already receives requests, the key can take [up to a day to take effect](https://platform.claude.com/docs/en/manage-claude/cmek#how-it-works).
-
-        ```bash
-        curl -sS -X POST https://api.anthropic.com/v1/organizations/workspaces/<workspace-id> \
-          -H "x-api-key: <anthropic-admin-api-key>" \
-          -H "anthropic-version: 2023-06-01" \
-          -H "content-type: application/json" \
-          -d '{
-            "external_key_id": "ekey_<id>"
-          }'
-        ```
-      </Step>
-    </Steps>
+            ```bash
+            curl -sS -X POST https://api.anthropic.com/v1/organizations/workspaces/<workspace-id> \
+              -H "x-api-key: <anthropic-admin-api-key>" \
+              -H "anthropic-version: 2023-06-01" \
+              -H "content-type: application/json" \
+              -d '{
+                "external_key_id": "ekey_<id>"
+              }'
+            ```
+          </Step>
+        </Steps>
+      </Tab>
+    </Tabs>
   </Tab>
 
   <Tab title="Claude Enterprise">

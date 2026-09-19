@@ -10,13 +10,13 @@ https://claude.com/blog/cowork-research-preview
 https://claude.com/blog/docx-js.md
 https://claude.com/blog/ooxml.md
 https://claude.com/blog/prompt-engineering-best-practices
-https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5
 https://claude.com/resources
 https://claude.com/resources/tutorials/using-research-and-google-workspace
 https://code.claude.com/docs/en/examples
 https://code.claude.com/docs/en/reference
 https://platform.claude.com/cookbook/URL
 https://platform.claude.com/cookbook/block
+https://platform.claude.com/cookbook/misc-admin-api
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/DOCX-JS
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/EXAMPLES
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/FORMS

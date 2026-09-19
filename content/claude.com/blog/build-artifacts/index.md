@@ -93,6 +93,18 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa82dfc4ca89952d04c3873_Object-Store.svg)
+
+Sep 15, 2026
+
+### Claude for Small Business launches new workflows, integrations, and training programs
+
+Product announcements
+
+[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/build-artifacts)Claude for Small Business launches new workflows, integrations, and training programs
+
+[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Claude for Small Business launches new workflows, integrations, and training programs
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
 
 Sep 17, 2026
@@ -128,18 +140,6 @@ Product announcements
 [Build and share AI-powered apps with Claude](https://claude.com/blog/build-artifacts)Build and share AI-powered apps with Claude
 
 [Build and share AI-powered apps with Claude](https://claude.com/blog/claude-powered-artifacts)Build and share AI-powered apps with Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
-
-Jun 17, 2026
-
-### Claude Design now stays on brand for daily work
-
-Product announcements
-
-[Claude Design now stays on brand for daily work](https://claude.com/blog/build-artifacts)Claude Design now stays on brand for daily work
-
-[Claude Design now stays on brand for daily work](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Claude Design now stays on brand for daily work
 
 ## Transform how your organization operates with Claude
 

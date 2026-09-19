@@ -54,6 +54,9 @@ Search
 
 DateCategoryTitle
 
+- [Sep 17, 2026Science
+
+  How Claude is uplifting biomolecular modeling](https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling)
 - [Sep 10, 2026Frontier Red Team
 
   Measuring tactical intelligence targeting and conventional weapons capabilities of AI models](https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities)
@@ -81,9 +84,6 @@ DateCategoryTitle
 - [Aug 10, 2026Science
 
   Learning more about Claude's mathematical capabilities](https://www.anthropic.com/research/riemann-zeta)
-- [Jul 28, 2026Frontier Red Team
-
-  Discovering cryptographic weaknesses with Claude](https://www.anthropic.com/research/discovering-cryptographic-weaknesses)
 
 [See more](https://www.anthropic.com/research)
 

@@ -32,6 +32,9 @@ Search
 
 DateCategoryTitle
 
+- [Sep 18, 2026Announcements
+
+   Partnering with Accenture on embedded evaluation](https://www.anthropic.com/news/accenture-embedded-evaluation)
 - [Sep 17, 2026Announcements
 
   Introducing the Life Sciences Verification Program](https://www.anthropic.com/news/life-sciences-verification-program)
@@ -59,10 +62,5 @@ DateCategoryTitle
 - [Aug 4, 2026Announcements
 
   Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer](https://www.anthropic.com/news/tino-cuellar)
-- [Jul 30, 2026Announcements
-
-  Investigating three real-world incidents in our cybersecurity evaluations](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals)
 
 [See more](https://www.anthropic.com/news)
-
-![Introducing the Life Sciences Verification Program](https://www-cdn.anthropic.com/images/4zrzovbb/website/d6058e0db8e477dc782dacae46e2ec6663d165d9-1000x1000.svg)

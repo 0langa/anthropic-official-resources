@@ -82,6 +82,18 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa82dfc4ca89952d04c3873_Object-Store.svg)
+
+Sep 15, 2026
+
+### Claude for Small Business launches new workflows, integrations, and training programs
+
+Product announcements
+
+[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-2-amazon-bedrock)Claude for Small Business launches new workflows, integrations, and training programs
+
+[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Claude for Small Business launches new workflows, integrations, and training programs
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
 
 Sep 17, 2026
@@ -117,18 +129,6 @@ Product announcements
 [Turn ideas into interactive AI-powered apps](https://claude.com/blog/claude-2-amazon-bedrock)Turn ideas into interactive AI-powered apps
 
 [Turn ideas into interactive AI-powered apps](https://claude.com/blog/build-artifacts)Turn ideas into interactive AI-powered apps
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
-
-Jul 25, 2025
-
-### Build and share AI-powered apps with Claude
-
-Product announcements
-
-[Build and share AI-powered apps with Claude](https://claude.com/blog/claude-2-amazon-bedrock)Build and share AI-powered apps with Claude
-
-[Build and share AI-powered apps with Claude](https://claude.com/blog/claude-powered-artifacts)Build and share AI-powered apps with Claude
 
 ## Transform how your organization operates with Claude
 

@@ -17,7 +17,7 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-1
 
 ## What are artifacts?[](https://academy.claude.com/courses/claude-101/creating-with-artifacts)
 
-Artifacts are the outputs you create with Claude: a document, a deck, a design, a dashboard, a prototype. Instead of getting a long block of code or text buried in the chat, you see the real thing take shape in a dedicated window alongside your conversation, ready to use and refine.
+[Artifacts(opens in new tab)](https://claude.com/features/artifacts) are the outputs you create with Claude: a document, a deck, a design, a dashboard, a prototype. Instead of getting a long block of code or text buried in the chat, you see the real thing take shape in a dedicated window alongside your conversation, ready to use and refine.
 
 Claude creates an artifact when you ask for something that stands on its own — something you'll want to edit, reuse, or share rather than just read once. If you want to ensure Claude creates an artifact, just say so: "Create this as an artifact."
 

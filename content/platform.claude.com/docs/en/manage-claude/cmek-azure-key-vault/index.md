@@ -143,75 +143,97 @@ How you register the key depends on which product you use.
 
 <Tabs>
   <Tab title="Claude Platform">
-    <Steps>
-      <Step title="Register the key with Anthropic">
-        Create an external key configuration through the Admin API.
+    You can set up the key in the Claude Console or through the Admin API, with the same result.
 
-        ```bash
-        curl -sS https://api.anthropic.com/v1/organizations/external_keys \
-          -H "x-api-key: <anthropic-admin-api-key>" \
-          -H "anthropic-version: 2023-06-01" \
-          -H "content-type: application/json" \
-          -d '{
-            "display_name": "<friendly-name>",
-            "geo": "us",
-            "provider_config": {
-              "type": "azure",
-              "vault_uri": "https://<your-vault-name>.vault.azure.net/",
-              "key_name": "<your-key-name>",
-              "tenant_id": "<your-tenant-id>"
+    <Tabs>
+      <Tab title="Claude Console">
+        <Steps>
+          <Step title="Register the key with Anthropic">
+            In the Claude Console, open **Settings > Encryption keys** and click **Add key**. Enter a display name, choose **Azure Key Vault**, and click **Continue**. Fill in **Vault URI**, **Key name**, and **Tenant ID**, and click **Add**.
+          </Step>
+
+          <Step title="Validate the key">
+            On the **Encryption keys** page, click **Verify** next to the key. **Connected** appears when the check passes. If it fails, a message gives the reason.
+          </Step>
+
+          <Step title="Attach the key to a workspace">
+            Open **Settings > Workspaces**, choose the workspace, and open its **Security** tab. Under **Encryption key**, select the key, click **Save**, and confirm. Attaching a key can't be undone. For a workspace that already receives requests, the key can take [up to a day to take effect](https://platform.claude.com/docs/en/manage-claude/cmek#how-it-works).
+          </Step>
+        </Steps>
+      </Tab>
+
+      <Tab title="API">
+        <Steps>
+          <Step title="Register the key with Anthropic">
+            Create an external key configuration through the Admin API.
+
+            ```bash
+            curl -sS https://api.anthropic.com/v1/organizations/external_keys \
+              -H "x-api-key: <anthropic-admin-api-key>" \
+              -H "anthropic-version: 2023-06-01" \
+              -H "content-type: application/json" \
+              -d '{
+                "display_name": "<friendly-name>",
+                "geo": "us",
+                "provider_config": {
+                  "type": "azure",
+                  "vault_uri": "https://<your-vault-name>.vault.azure.net/",
+                  "key_name": "<your-key-name>",
+                  "tenant_id": "<your-tenant-id>"
+                }
+              }'
+            ```
+
+            The response contains the external key ID:
+
+            ```json
+            {
+              "type": "external_key",
+              "id": "ekey_<id>",
+              "display_name": "<friendly-name>"
             }
-          }'
-        ```
+            ```
+          </Step>
 
-        The response contains the external key ID:
+          <Step title="Validate the key">
+            Trigger an encrypt and decrypt round-trip against your key. This confirms that Anthropic can authenticate to your tenant and perform wrap and unwrap operations.
 
-        ```json
-        {
-          "type": "external_key",
-          "id": "ekey_<id>",
-          "display_name": "<friendly-name>"
-        }
-        ```
-      </Step>
+            ```bash
+            curl -sS -X POST https://api.anthropic.com/v1/organizations/external_keys/ekey_<id>/validate \
+              -H "x-api-key: <anthropic-admin-api-key>" \
+              -H "anthropic-version: 2023-06-01" \
+              -H "content-type: application/json" -d '{}'
+            ```
 
-      <Step title="Validate the key">
-        Trigger an encrypt and decrypt round-trip against your key. This confirms that Anthropic can authenticate to your tenant and perform wrap and unwrap operations.
+            A successful response looks like this:
 
-        ```bash
-        curl -sS -X POST https://api.anthropic.com/v1/organizations/external_keys/ekey_<id>/validate \
-          -H "x-api-key: <anthropic-admin-api-key>" \
-          -H "anthropic-version: 2023-06-01" \
-          -H "content-type: application/json" -d '{}'
-        ```
+            ```json
+            { "type": "external_key_validation", "status": "success", "error": null }
+            ```
 
-        A successful response looks like this:
+            If validation fails, the `error` field describes the problem. Common causes are:
 
-        ```json
-        { "type": "external_key_validation", "status": "success", "error": null }
-        ```
+            * **RBAC propagation delay:** role assignments can take a few minutes to take effect. Wait and retry.
+            * **Network ACLs blocking Anthropic:** confirm public network access and `ipRules` as described in the verification step.
+            * **Conditional access policies on workload identities:** if your tenant has conditional access policies that target service principals, exclude the Anthropic service principal or add Anthropic's egress ranges to the policy's named locations.
+          </Step>
 
-        If validation fails, the `error` field describes the problem. Common causes are:
+          <Step title="Attach the key to a workspace">
+            Once the key is validated, attach it to a new workspace before you send any requests to that workspace. For a workspace that already receives requests, the key can take [up to a day to take effect](https://platform.claude.com/docs/en/manage-claude/cmek#how-it-works).
 
-        * **RBAC propagation delay:** role assignments can take a few minutes to take effect. Wait and retry.
-        * **Network ACLs blocking Anthropic:** confirm public network access and `ipRules` as described in the verification step.
-        * **Conditional access policies on workload identities:** if your tenant has conditional access policies that target service principals, exclude the Anthropic service principal or add Anthropic's egress ranges to the policy's named locations.
-      </Step>
-
-      <Step title="Attach the key to a workspace">
-        Once the key is validated, attach it to a new workspace before you send any requests to that workspace. For a workspace that already receives requests, the key can take [up to a day to take effect](https://platform.claude.com/docs/en/manage-claude/cmek#how-it-works).
-
-        ```bash
-        curl -sS -X POST https://api.anthropic.com/v1/organizations/workspaces/<workspace-id> \
-          -H "x-api-key: <anthropic-admin-api-key>" \
-          -H "anthropic-version: 2023-06-01" \
-          -H "content-type: application/json" \
-          -d '{
-            "external_key_id": "ekey_<id>"
-          }'
-        ```
-      </Step>
-    </Steps>
+            ```bash
+            curl -sS -X POST https://api.anthropic.com/v1/organizations/workspaces/<workspace-id> \
+              -H "x-api-key: <anthropic-admin-api-key>" \
+              -H "anthropic-version: 2023-06-01" \
+              -H "content-type: application/json" \
+              -d '{
+                "external_key_id": "ekey_<id>"
+              }'
+            ```
+          </Step>
+        </Steps>
+      </Tab>
+    </Tabs>
   </Tab>
 
   <Tab title="Claude Enterprise">

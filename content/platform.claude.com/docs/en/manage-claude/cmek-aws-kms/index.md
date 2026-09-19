@@ -137,76 +137,98 @@ How you register the key depends on which product you use.
       To attach the key to an additional workspace, add that workspace's compartment ID to the condition with `kms:PutKeyPolicy` before attaching.
     </Note>
 
-    <Steps>
-      <Step title="Register the key with Anthropic">
-        Create an external key configuration through the Admin API.
+    You can set up the key in the Claude Console or through the Admin API, with the same result.
 
-        ```bash
-        curl -sS https://api.anthropic.com/v1/organizations/external_keys \
-          -H "x-api-key: <anthropic-admin-api-key>" \
-          -H "anthropic-version: 2023-06-01" \
-          -H "content-type: application/json" \
-          -d '{
-            "display_name": "<friendly-name>",
-            "geo": "us",
-            "provider_config": {
-              "type": "aws",
-              "kms_arn": "<key-arn-from-create-key-step>",
-              "role_arn": "arn:aws:iam::915198916910:role/anthropic-cmek-client-us"
+    <Tabs>
+      <Tab title="Claude Console">
+        <Steps>
+          <Step title="Register the key with Anthropic">
+            In the Claude Console, open **Settings > Encryption keys** and click **Add key**. Enter a display name, choose **AWS KMS**, and click **Continue**. Paste the key ARN into **KMS key ARN**, and click **Add**.
+          </Step>
+
+          <Step title="Validate the key">
+            On the **Encryption keys** page, click **Verify** next to the key. **Connected** appears when the check passes. If it fails, a message gives the reason.
+          </Step>
+
+          <Step title="Attach the key to a workspace">
+            Open **Settings > Workspaces**, choose the workspace, and open its **Security** tab. Under **Encryption key**, select the key, click **Save**, and confirm. Attaching a key can't be undone. For a workspace that already receives requests, the key can take [up to a day to take effect](https://platform.claude.com/docs/en/manage-claude/cmek#how-it-works).
+          </Step>
+        </Steps>
+      </Tab>
+
+      <Tab title="API">
+        <Steps>
+          <Step title="Register the key with Anthropic">
+            Create an external key configuration through the Admin API.
+
+            ```bash
+            curl -sS https://api.anthropic.com/v1/organizations/external_keys \
+              -H "x-api-key: <anthropic-admin-api-key>" \
+              -H "anthropic-version: 2023-06-01" \
+              -H "content-type: application/json" \
+              -d '{
+                "display_name": "<friendly-name>",
+                "geo": "us",
+                "provider_config": {
+                  "type": "aws",
+                  "kms_arn": "<key-arn-from-create-key-step>",
+                  "role_arn": "arn:aws:iam::915198916910:role/anthropic-cmek-client-us"
+                }
+              }'
+            ```
+
+            The response contains the external key ID:
+
+            ```json
+            {
+              "type": "external_key",
+              "id": "ekey_<id>",
+              "display_name": "<friendly-name>"
             }
-          }'
-        ```
+            ```
+          </Step>
 
-        The response contains the external key ID:
+          <Step title="Validate the key">
+            Trigger an encrypt and decrypt round-trip against your key.
 
-        ```json
-        {
-          "type": "external_key",
-          "id": "ekey_<id>",
-          "display_name": "<friendly-name>"
-        }
-        ```
-      </Step>
+            ```bash
+            curl -sS -X POST https://api.anthropic.com/v1/organizations/external_keys/ekey_<id>/validate \
+              -H "x-api-key: <anthropic-admin-api-key>" \
+              -H "anthropic-version: 2023-06-01" \
+              -H "content-type: application/json" \
+              -d '{}'
+            ```
 
-      <Step title="Validate the key">
-        Trigger an encrypt and decrypt round-trip against your key.
+            A successful response looks like this:
 
-        ```bash
-        curl -sS -X POST https://api.anthropic.com/v1/organizations/external_keys/ekey_<id>/validate \
-          -H "x-api-key: <anthropic-admin-api-key>" \
-          -H "anthropic-version: 2023-06-01" \
-          -H "content-type: application/json" \
-          -d '{}'
-        ```
+            ```json
+            { "type": "external_key_validation", "status": "success", "error": null }
+            ```
 
-        A successful response looks like this:
+            If validation fails, common causes are:
 
-        ```json
-        { "type": "external_key_validation", "status": "success", "error": null }
-        ```
+            * **Encryption context mismatch:** Validation fails while data traffic works (or the reverse) with an opaque `AccessDeniedException` when a `kms:EncryptionContext:anthropic:compartment_uuid` condition allows only one of the two values Anthropic sends. Validation sends the all-zeros UUID (`00000000-0000-0000-0000-000000000000`); live traffic sends the attached workspace's compartment ID. Confirm the condition lists both. To rule the condition out entirely, temporarily remove the `Condition` block from the `AllowAnthropicCMEKCrypto` statement and re-validate.
+            * **Resource control policies (RCPs):** If your AWS organization has an RCP that denies KMS operations when `aws:PrincipalOrgID` does not match your org, it blocks Anthropic's cross-account role. The RCP needs a carve-out for this key or for Anthropic's role ARN. Service control policies do not apply here, because they do not evaluate for external principals calling through resource-based policies.
+            * **Access granted through IAM instead of the key policy:** Cross-account KMS access must be granted in the key policy itself, not through an IAM policy in your account. Check with `aws kms get-key-policy --key-id <id> --policy-name default`.
+            * **Region mismatch:** Confirm the key's region is one Anthropic operates in for the geo tier you configured.
+          </Step>
 
-        If validation fails, common causes are:
+          <Step title="Attach the key to a workspace">
+            Once the key is validated, attach it to a new workspace before you send any requests to that workspace. For a workspace that already receives requests, the key can take [up to a day to take effect](https://platform.claude.com/docs/en/manage-claude/cmek#how-it-works).
 
-        * **Encryption context mismatch:** Validation fails while data traffic works (or the reverse) with an opaque `AccessDeniedException` when a `kms:EncryptionContext:anthropic:compartment_uuid` condition allows only one of the two values Anthropic sends. Validation sends the all-zeros UUID (`00000000-0000-0000-0000-000000000000`); live traffic sends the attached workspace's compartment ID. Confirm the condition lists both. To rule the condition out entirely, temporarily remove the `Condition` block from the `AllowAnthropicCMEKCrypto` statement and re-validate.
-        * **Resource control policies (RCPs):** If your AWS organization has an RCP that denies KMS operations when `aws:PrincipalOrgID` does not match your org, it blocks Anthropic's cross-account role. The RCP needs a carve-out for this key or for Anthropic's role ARN. Service control policies do not apply here, because they do not evaluate for external principals calling through resource-based policies.
-        * **Access granted through IAM instead of the key policy:** Cross-account KMS access must be granted in the key policy itself, not through an IAM policy in your account. Check with `aws kms get-key-policy --key-id <id> --policy-name default`.
-        * **Region mismatch:** Confirm the key's region is one Anthropic operates in for the geo tier you configured.
-      </Step>
-
-      <Step title="Attach the key to a workspace">
-        Once the key is validated, attach it to a new workspace before you send any requests to that workspace. For a workspace that already receives requests, the key can take [up to a day to take effect](https://platform.claude.com/docs/en/manage-claude/cmek#how-it-works).
-
-        ```bash
-        curl -sS -X POST https://api.anthropic.com/v1/organizations/workspaces/<workspace-id> \
-          -H "x-api-key: <anthropic-admin-api-key>" \
-          -H "anthropic-version: 2023-06-01" \
-          -H "content-type: application/json" \
-          -d '{
-            "external_key_id": "ekey_<id>"
-          }'
-        ```
-      </Step>
-    </Steps>
+            ```bash
+            curl -sS -X POST https://api.anthropic.com/v1/organizations/workspaces/<workspace-id> \
+              -H "x-api-key: <anthropic-admin-api-key>" \
+              -H "anthropic-version: 2023-06-01" \
+              -H "content-type: application/json" \
+              -d '{
+                "external_key_id": "ekey_<id>"
+              }'
+            ```
+          </Step>
+        </Steps>
+      </Tab>
+    </Tabs>
   </Tab>
 
   <Tab title="Claude Enterprise">

@@ -48,8 +48,26 @@ Here's what small business leaders shared with us during the first leg of our Cl
 
 Here’s a week-in-the-life of a small business owner using Claude to run and grow their business, inspired by how small business owners are using Claude today.
 
-A week with Claude for Small Business
+Your week with Claude
 
+1. Sunday, 8:00pm
+
+   [Install and onboard](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Connect the tools you already use and pick your first task.
+2. Monday, 7:00am
+
+   [The weekly brief](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Cash, sales, pipeline, and overdue invoices on one page.
+3. Monday, 9:40pm
+
+   [Responding to inbound leads](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)After-hours inquiries qualified, answered, and logged.
+4. Wednesday
+
+   [Writing proposals](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)A voice memo becomes a priced, branded proposal.
+5. Thursday
+
+   [Unblocking marketing campaigns](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Next week's posts and review replies, ready for your OK.
+6. Month end
+
+   [Closing the books](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Reconciled accounts and a close packet for your accountant.
 
 SUN01
 
@@ -59,7 +77,7 @@ Sunday, 8:00pm
 
 Claude for Small Business runs in Claude Cowork, the desktop app where Claude works directly with your files and connected tools. You install the plugin, ask Claude to “help me get set up” or run /smb-onboard, connect the tools you already use, and pick a task. The plugin can also set each workflow to run on a schedule you choose.
 
-**You stay in charge**By default, Claude does the work and waits for your approval before anything sends, posts, or pays.
+You stay in chargeBy default, Claude does the work and waits for your approval before anything sends, posts, or pays.
 
 Run it
 
@@ -89,7 +107,7 @@ All 37 partner connectors are eligible.
 
 AirwallexApolloAtlassianCanvaClayDocusignEmergentExpensifyGmailGoogle CalendarGoogle DriveGustoHubSpotIntuit MailchimpIntuit QuickBooksMicrosoft 365monday.comMYOBNetSuiteNotionPayPalRampRingCentralSalesforceShopifySlackSquareStripeTikTok AdsTrelloWixXeroZapierZoho BooksZoho CRMZoho DeskZoom
 
-**No connectors?** Upload a spreadsheet and Claude builds the brief and your reports from whatever you share.
+No connectors? Upload a spreadsheet and Claude builds the brief and your reports from whatever you share.
 
 Owner story
 
@@ -127,7 +145,7 @@ Works with15 connectors
 
 ApolloClayEmergentGmailGoogle CalendarHubSpotIntuit MailchimpMicrosoft 365monday.comNotionRingCentralSalesforceTrelloZoho CRMZoom
 
-**No connectors?** Forward the inquiry to Claude, get the reply drafted to send yourself, and Claude keeps your leads in a spreadsheet CRM.
+No connectors? Forward the inquiry to Claude, get the reply drafted to send yourself, and Claude keeps your leads in a spreadsheet CRM.
 
 Owner story
 
@@ -165,7 +183,7 @@ Works with17 connectors
 
 ApolloAtlassian ConfluenceCanvaDocusignGoogle DriveMicrosoft 365MYOBNetSuiteNotionPayPalIntuit QuickBooksSquareStripeTrelloXeroZoho BooksZoom
 
-**No connectors?** Upload the memo, photos, and a past proposal as your template, and Claude builds and prices from those. You send it for signature yourself.
+No connectors? Upload the memo, photos, and a past proposal as your template, and Claude builds and prices from those. You send it for signature yourself.
 
 Owner story
 
@@ -205,7 +223,7 @@ Works with16 connectors
 
 ApolloCanvaClayGmailHubSpotIntuit Mailchimpmonday.comNotionPayPalShopifySquareStripeTikTokTrelloZoho CRMZoho Desk
 
-**No connectors?** Claude drafts the calendar, captions, and design briefs, and builds your weekly page from exported sales and pasted reviews.
+No connectors? Claude drafts the calendar, captions, and design briefs, and builds your weekly page from exported sales and pasted reviews.
 
 Owner story
 
@@ -247,7 +265,7 @@ Works with14 connectors
 
 ExpensifyGoogle DriveGustoMYOBNetSuitePayPalIntuit QuickBooksRampShopifySquareStripeXeroZapierZoho Books
 
-**No connectors?** Upload your bank and processor statements and Claude closes from those.
+No connectors? Upload your bank and processor statements and Claude closes from those.
 
 Owner story
 
