@@ -1,6 +1,6 @@
 [Responses](https://platform.claude.com/cookbook/)[RAG & Retrieval](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/using_citations.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/using_citations.ipynb)
 
 # Citations
 
@@ -987,4 +987,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/using_citations.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/using_citations.ipynb)

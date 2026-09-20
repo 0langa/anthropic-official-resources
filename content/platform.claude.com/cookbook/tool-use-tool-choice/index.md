@@ -1,6 +1,6 @@
 [Tools](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/tool_choice.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/tool_choice.ipynb)
 
 # Tool choice
 
@@ -676,4 +676,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/tool_choice.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/tool_choice.ipynb)

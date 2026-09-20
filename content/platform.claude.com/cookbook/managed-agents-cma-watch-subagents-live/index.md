@@ -1,6 +1,6 @@
 [Claude Managed Agents](https://platform.claude.com/cookbook/)[Observability](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/managed_agents/CMA_watch_subagents_live.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/managed_agents/CMA_watch_subagents_live.ipynb)
 
 # Multiagent: watch a curriculum team work in real time
 
@@ -594,4 +594,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/managed_agents/CMA_watch_subagents_live.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/managed_agents/CMA_watch_subagents_live.ipynb)

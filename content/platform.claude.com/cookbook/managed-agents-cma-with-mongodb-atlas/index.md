@@ -1,6 +1,6 @@
 [Claude Managed Agents](https://platform.claude.com/cookbook/)[RAG & Retrieval](https://platform.claude.com/cookbook/)[Integrations](https://platform.claude.com/cookbook/)[Tools](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/managed_agents/CMA_with_mongodb_atlas.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/managed_agents/CMA_with_mongodb_atlas.ipynb)
 
 # Fraud Review Agent with MongoDB Atlas and Claude Managed Agents
 
@@ -2099,4 +2099,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/managed_agents/CMA_with_mongodb_atlas.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/managed_agents/CMA_with_mongodb_atlas.ipynb)

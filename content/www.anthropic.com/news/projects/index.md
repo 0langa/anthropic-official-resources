@@ -6,9 +6,9 @@ Jun 25, 2024
 
 ![Illustration of individuals collaborating around Claude logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F06b448dbf07818caf8ac1db37f0165bea8c9a410-2880x1620.png&w=3840&q=75)
 
-Our vision for Claude has always been to create AI systems that work alongside people and meaningfully enhance their workflows. As a step in this direction, [Claude.ai](http://claude.ai/redirect/website.v1.76496761-2657-4d18-a1db-8ef3c5a0b4d7) Pro and Team users can now organize their chats into Projects, bringing together curated sets of knowledge and chat activity in one place—with the ability to make their best chats with Claude viewable by teammates. With this new functionality, Claude can enable idea generation, more strategic decision-making, and exceptional results.
+Our vision for Claude has always been to create AI systems that work alongside people and meaningfully enhance their workflows. As a step in this direction, [Claude.ai](http://claude.ai/redirect/website.v1.6363b8b7-9585-46f7-a804-37aa61d4b10a) Pro and Team users can now organize their chats into Projects, bringing together curated sets of knowledge and chat activity in one place—with the ability to make their best chats with Claude viewable by teammates. With this new functionality, Claude can enable idea generation, more strategic decision-making, and exceptional results.
 
-Projects are available on [Claude.ai](http://claude.ai/redirect/website.v1.76496761-2657-4d18-a1db-8ef3c5a0b4d7) for all Pro and Team customers, and can be powered by [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet), our latest release which outperforms its peers on a wide variety of benchmarks. Each project includes a 200K context window, the equivalent of a 500-page book, so users can add all of the relevant documents, code, and insights to enhance Claude’s effectiveness.
+Projects are available on [Claude.ai](http://claude.ai/redirect/website.v1.6363b8b7-9585-46f7-a804-37aa61d4b10a) for all Pro and Team customers, and can be powered by [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet), our latest release which outperforms its peers on a wide variety of benchmarks. Each project includes a 200K context window, the equivalent of a 500-page book, so users can add all of the relevant documents, code, and insights to enhance Claude’s effectiveness.
 
 ## Avoid the cold start problem
 
@@ -52,6 +52,10 @@ In the coming months, we’ll continue making Claude easier to use while expandi
 
 ## Related content
 
+### Partnering with Accenture on embedded evaluation
+
+[Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)
+
 ### Introducing the Life Sciences Verification Program
 
 The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
@@ -61,9 +65,3 @@ The Life Sciences Verification Program (LSVP) gives life science professionals a
 ### Developing Enterprise Frontier Safeguards with our customers
 
 [Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)
-
-### Improving our alignment and security efforts
-
-On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.
-
-[Read more](https://www.anthropic.com/news/improving-alignment-security-efforts)

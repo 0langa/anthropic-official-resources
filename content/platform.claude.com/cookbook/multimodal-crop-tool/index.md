@@ -1,6 +1,6 @@
 [Multimodal](https://platform.claude.com/cookbook/)[Tools](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/multimodal/crop_tool.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/multimodal/crop_tool.ipynb)
 
 # Giving Claude a zoom tool for reading fine image detail
 
@@ -1295,4 +1295,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/multimodal/crop_tool.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/multimodal/crop_tool.ipynb)

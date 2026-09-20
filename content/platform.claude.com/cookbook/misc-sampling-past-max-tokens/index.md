@@ -1,6 +1,6 @@
 [Responses](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/sampling_past_max_tokens.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/sampling_past_max_tokens.ipynb)
 
 # Sampling responses from Claude beyond the max tokens limit
 
@@ -288,4 +288,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/sampling_past_max_tokens.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/sampling_past_max_tokens.ipynb)

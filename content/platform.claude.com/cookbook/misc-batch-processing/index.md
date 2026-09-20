@@ -1,6 +1,6 @@
 [Responses](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/batch_processing.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/batch_processing.ipynb)
 
 # Batch processing with Message Batches API
 
@@ -505,4 +505,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/batch_processing.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/batch_processing.ipynb)

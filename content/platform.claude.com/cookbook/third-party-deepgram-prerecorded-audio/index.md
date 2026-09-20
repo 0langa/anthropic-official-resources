@@ -1,6 +1,6 @@
 [Integrations](https://platform.claude.com/cookbook/)[Multimodal](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/third_party/Deepgram/prerecorded_audio.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/third_party/Deepgram/prerecorded_audio.ipynb)
 
 # Transcribe an audio file with Deepgram & use Anthropic to prepare interview questions!
 
@@ -275,4 +275,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/third_party/Deepgram/prerecorded_audio.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/third_party/Deepgram/prerecorded_audio.ipynb)

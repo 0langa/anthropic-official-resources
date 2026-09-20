@@ -1,6 +1,6 @@
 [Observability](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/observability/usage_cost_api.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/observability/usage_cost_api.ipynb)
 
 # Usage & cost Admin API cookbook
 
@@ -1057,4 +1057,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/observability/usage_cost_api.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/observability/usage_cost_api.ipynb)

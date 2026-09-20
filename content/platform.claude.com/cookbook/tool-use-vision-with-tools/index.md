@@ -1,6 +1,6 @@
 [Multimodal](https://platform.claude.com/cookbook/)[Tools](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/vision_with_tools.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/vision_with_tools.ipynb)
 
 # Using vision with tools
 
@@ -199,4 +199,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/vision_with_tools.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/vision_with_tools.ipynb)

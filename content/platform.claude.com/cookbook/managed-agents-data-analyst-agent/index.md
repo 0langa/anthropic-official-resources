@@ -1,6 +1,6 @@
 [Claude Managed Agents](https://platform.claude.com/cookbook/)[Tools](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/managed_agents/data_analyst_agent.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/managed_agents/data_analyst_agent.ipynb)
 
 # Build a data analyst agent with Claude Managed Agents
 
@@ -389,4 +389,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/managed_agents/data_analyst_agent.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/managed_agents/data_analyst_agent.ipynb)

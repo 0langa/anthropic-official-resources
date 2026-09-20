@@ -1,6 +1,6 @@
 [Agent Patterns](https://platform.claude.com/cookbook/)[Tools](https://platform.claude.com/cookbook/)[Multimodal](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/capabilities/content_moderation/guide.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/capabilities/content_moderation/guide.ipynb)
 
 # Content policy enforcement with Claude
 
@@ -1278,4 +1278,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/capabilities/content_moderation/guide.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/capabilities/content_moderation/guide.ipynb)

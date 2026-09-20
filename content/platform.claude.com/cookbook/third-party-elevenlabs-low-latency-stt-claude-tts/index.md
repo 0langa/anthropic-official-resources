@@ -1,6 +1,6 @@
 [Integrations](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/third_party/ElevenLabs/low_latency_stt_claude_tts.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/third_party/ElevenLabs/low_latency_stt_claude_tts.ipynb)
 
 # Low latency voice assistant with ElevenLabs
 
@@ -532,4 +532,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/third_party/ElevenLabs/low_latency_stt_claude_tts.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/third_party/ElevenLabs/low_latency_stt_claude_tts.ipynb)

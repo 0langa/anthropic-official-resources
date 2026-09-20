@@ -40,7 +40,7 @@ To get up and running, system administrators specify which tools and information
 
 Once permissions are set, everyone can begin tagging right away. Administrators can set limits for token spend (both for the organization and for individual channels), and can view a log of everything that @Claude has done, along with who requested each task.
 
-If you’re a Claude Enterprise or Team customer, you have access to Claude Tag in beta starting today. To get started, [visit here](http://claude.ai/redirect/website.v1.41a2949c-bf63-454d-b72a-8f96c39f9d63/admin-settings/claude-in-slack) and follow these four steps:
+If you’re a Claude Enterprise or Team customer, you have access to Claude Tag in beta starting today. To get started, [visit here](http://claude.ai/redirect/website.v1.e785480b-6a52-4b2d-93d0-345fd6a2065e/admin-settings/claude-in-slack) and follow these four steps:
 
 1. Pair Claude Tag with your Slack workspace
 2. Give Claude access to your tools
@@ -53,6 +53,10 @@ Claude Tag works with Opus 4.8. You can [read our docs](https://www.claude.com/d
 
 ## Related content
 
+### Partnering with Accenture on embedded evaluation
+
+[Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)
+
 ### Introducing the Life Sciences Verification Program
 
 The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
@@ -62,9 +66,3 @@ The Life Sciences Verification Program (LSVP) gives life science professionals a
 ### Developing Enterprise Frontier Safeguards with our customers
 
 [Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)
-
-### Improving our alignment and security efforts
-
-On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.
-
-[Read more](https://www.anthropic.com/news/improving-alignment-security-efforts)

@@ -1,6 +1,6 @@
 [Responses](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/prompt_caching.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/prompt_caching.ipynb)
 
 # Prompt caching through the Claude API
 
@@ -650,4 +650,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/prompt_caching.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/prompt_caching.ipynb)

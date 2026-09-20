@@ -1,6 +1,6 @@
 [Tools](https://platform.claude.com/cookbook/)[Agent Patterns](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/customer_service_agent.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/customer_service_agent.ipynb)
 
 # Creating a customer service agent with client-side tools
 
@@ -425,4 +425,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/customer_service_agent.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/customer_service_agent.ipynb)

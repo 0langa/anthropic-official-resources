@@ -16,6 +16,16 @@
   },
   {
     "reason": "optional_media_widget_or_analytics",
+    "type": "stylesheet",
+    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.6a31c5d1dbbfe0f82f757137.da168618c.min.css"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "stylesheet",
+    "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
     "type": "script",
     "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js"
   },
@@ -33,6 +43,11 @@
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
     "url": "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
   },
   {
     "reason": "optional_media_widget_or_analytics",
@@ -66,28 +81,13 @@
   },
   {
     "reason": "optional_media_widget_or_analytics",
-    "type": "script",
-    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+    "type": "stylesheet",
+    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.a8964a97e.min.css"
   },
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
     "url": "https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "stylesheet",
-    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.6a31c5d1dbbfe0f82f757137.da168618c.min.css"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "stylesheet",
-    "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "stylesheet",
-    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.a8964a97e.min.css"
   },
   {
     "reason": "optional_media_widget_or_analytics",
@@ -98,11 +98,6 @@
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
     "url": "https://www.googletagmanager.com/gtm.js"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "script",
-    "url": "https://assets.claude.ai/sdk/antalytics/latest.umd.js"
   },
   {
     "reason": "optional_media_widget_or_analytics",
@@ -132,6 +127,11 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
+    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
     "url": "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js"
   },
   {
@@ -172,11 +172,6 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
-    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "script",
     "url": "https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"
   },
   {
@@ -187,12 +182,12 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "stylesheet",
-    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.a8964a97e.min.css"
+    "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
   },
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "stylesheet",
-    "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.a8964a97e.min.css"
   },
   {
     "reason": "optional_media_widget_or_analytics",

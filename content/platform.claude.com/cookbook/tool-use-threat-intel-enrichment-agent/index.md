@@ -1,6 +1,6 @@
 [Tools](https://platform.claude.com/cookbook/)[Agent Patterns](https://platform.claude.com/cookbook/)[Cybersecurity](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/threat_intel_enrichment_agent.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/threat_intel_enrichment_agent.ipynb)
 
 # Threat intelligence enrichment agent
 
@@ -2200,4 +2200,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/threat_intel_enrichment_agent.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/threat_intel_enrichment_agent.ipynb)

@@ -18,13 +18,17 @@ And as we [explain in our research paper](https://transformer-circuits.pub/2024/
 
 If you ask this “Golden Gate Claude” how to spend $10, it will recommend using it to drive across the Golden Gate Bridge and pay the toll. If you ask it to write a love story, it’ll tell you a tale of a car who can’t wait to cross its beloved bridge on a foggy day. If you ask it what it imagines it looks like, it will likely tell you that it imagines it looks like the Golden Gate Bridge.
 
-For a short time, we’re making this model available for everyone to interact with. You can talk to “Golden Gate Claude” on [claude.ai](https://claude.ai/redirect/website.v1.30782455-557f-4375-a519-01eaa32a23c8) (just click the Golden Gate logo on the right-hand side). Please bear in mind that this is a research demonstration only, and that this particular model might behave in some unexpected—even jarring—ways.
+For a short time, we’re making this model available for everyone to interact with. You can talk to “Golden Gate Claude” on [claude.ai](https://claude.ai/redirect/website.v1.52d2e3a8-bfae-42c2-bb61-95cb78ed55b5) (just click the Golden Gate logo on the right-hand side). Please bear in mind that this is a research demonstration only, and that this particular model might behave in some unexpected—even jarring—ways.
 
 Our goal is to let people see the impact our interpretability work can have. The fact that we can find and alter these features within Claude makes us more confident that we’re beginning to understand how large language models really work. This isn’t a matter of asking the model verbally to do some play-acting, or of adding a new “system prompt” that attaches extra text to every input, telling Claude to pretend it’s a bridge. Nor is it traditional “fine-tuning,” where we use extra training data to create a new black box that tweaks the behavior of the old black box. This is a precise, surgical change to some of the most basic aspects of the model’s internal activations.
 
 [As we describe in our paper](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html), we can use these same techniques to change the strength of *safety-related* features—like those related to dangerous computer code, criminal activity, or deception. With further research, we believe this work could help make AI models safer.
 
 ## Related content
+
+### Partnering with Accenture on embedded evaluation
+
+[Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)
 
 ### Introducing the Life Sciences Verification Program
 
@@ -35,9 +39,3 @@ The Life Sciences Verification Program (LSVP) gives life science professionals a
 ### Developing Enterprise Frontier Safeguards with our customers
 
 [Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)
-
-### Improving our alignment and security efforts
-
-On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.
-
-[Read more](https://www.anthropic.com/news/improving-alignment-security-efforts)

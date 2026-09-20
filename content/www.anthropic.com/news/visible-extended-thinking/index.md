@@ -94,7 +94,7 @@ The above is just a short summary of some of our extensive safety work on Claude
 
 ## **Using Claude**
 
-You can use Claude 3.7 Sonnet now at [Claude.ai](http://claude.ai/redirect/website.v1.0b6c01e5-e0c9-4362-abcc-38eca73c56f0) or on [our API](https://docs.anthropic.com/en/api/getting-started). And just as Claude can now let you know what it thinks, we hope you’ll let us know what you think, too. Please send your feedback about the new model to [feedback@anthropic.com](mailto:feedback@anthropic.com).
+You can use Claude 3.7 Sonnet now at [Claude.ai](http://claude.ai/redirect/website.v1.c6b910fc-e9ba-45dc-b248-6aad5967cf2c) or on [our API](https://docs.anthropic.com/en/api/getting-started). And just as Claude can now let you know what it thinks, we hope you’ll let us know what you think, too. Please send your feedback about the new model to [feedback@anthropic.com](mailto:feedback@anthropic.com).
 
 #### Footnotes
 

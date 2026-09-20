@@ -1,6 +1,6 @@
 [Fine-Tuning](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/finetuning/finetuning_on_bedrock.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/finetuning/finetuning_on_bedrock.ipynb)
 
 # Finetuning Claude 3 Haiku on Bedrock
 
@@ -227,4 +227,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/finetuning/finetuning_on_bedrock.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/finetuning/finetuning_on_bedrock.ipynb)

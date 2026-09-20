@@ -1,6 +1,6 @@
 [Evals](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/building_evals.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/building_evals.ipynb)
 
 # Building evals
 
@@ -386,4 +386,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/building_evals.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/building_evals.ipynb)

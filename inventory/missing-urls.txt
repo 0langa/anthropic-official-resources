@@ -16,7 +16,6 @@ https://code.claude.com/docs/en/examples
 https://code.claude.com/docs/en/reference
 https://platform.claude.com/cookbook/URL
 https://platform.claude.com/cookbook/block
-https://platform.claude.com/cookbook/misc-admin-api
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/DOCX-JS
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/EXAMPLES
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/FORMS

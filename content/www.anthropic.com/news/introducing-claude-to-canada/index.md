@@ -8,7 +8,7 @@ Jun 5, 2024
 
 [Claude](https://www.anthropic.com/claude) is now available in Canada. Starting today, people and businesses across the country will be able to access Claude via:
 
-- [Claude.ai](http://claude.ai/redirect/website.v1.5c167a94-c765-425d-8f61-2a4d8c97899a): the web-based version of our next-generation AI assistant.
+- [Claude.ai](http://claude.ai/redirect/website.v1.82c64f90-331f-4c4a-b37b-7cbe8ce6350f): the web-based version of our next-generation AI assistant.
 - The [Claude iOS app](https://apps.apple.com/app/claude/id6473753684): the free mobile app available in the Apple App Store that offers the same intuitive experience as mobile web.
 - The [Claude API](https://www.anthropic.com/api): an interface that allows developers to integrate Anthropic’s state-of-the-art AI models into their own applications, websites, or services.
 - The [Claude Team plan](https://www.anthropic.com/news/team-plan-and-ios): a secure workspace for teams to collaborate that offers increased usage for members.
@@ -19,6 +19,10 @@ We’re excited to expand our offerings to Canada—a country that has made sign
 
 ## Related content
 
+### Partnering with Accenture on embedded evaluation
+
+[Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)
+
 ### Introducing the Life Sciences Verification Program
 
 The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
@@ -28,9 +32,3 @@ The Life Sciences Verification Program (LSVP) gives life science professionals a
 ### Developing Enterprise Frontier Safeguards with our customers
 
 [Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)
-
-### Improving our alignment and security efforts
-
-On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.
-
-[Read more](https://www.anthropic.com/news/improving-alignment-security-efforts)

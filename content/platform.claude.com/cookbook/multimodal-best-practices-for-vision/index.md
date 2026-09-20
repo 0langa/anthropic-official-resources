@@ -1,6 +1,6 @@
 [Multimodal](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/multimodal/best_practices_for_vision.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/multimodal/best_practices_for_vision.ipynb)
 
 # Best practices for using vision with Claude
 
@@ -702,4 +702,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/multimodal/best_practices_for_vision.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/multimodal/best_practices_for_vision.ipynb)

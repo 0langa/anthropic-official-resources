@@ -1,6 +1,6 @@
 [Integrations](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/third_party/Wikipedia/wikipedia-search-cookbook.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/third_party/Wikipedia/wikipedia-search-cookbook.ipynb)
 
 # Iteratively searching Wikipedia with Claude
 
@@ -677,4 +677,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/third_party/Wikipedia/wikipedia-search-cookbook.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/third_party/Wikipedia/wikipedia-search-cookbook.ipynb)

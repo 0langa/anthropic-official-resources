@@ -1,6 +1,6 @@
 [Responses](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/building_moderation_filter.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/building_moderation_filter.ipynb)
 
 # Building a moderation filter with Claude
 
@@ -373,4 +373,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/building_moderation_filter.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/misc/building_moderation_filter.ipynb)

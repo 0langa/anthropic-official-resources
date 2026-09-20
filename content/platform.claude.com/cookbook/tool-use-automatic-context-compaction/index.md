@@ -1,6 +1,6 @@
 [Tools](https://platform.claude.com/cookbook/)[Agent Patterns](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/automatic-context-compaction.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/automatic-context-compaction.ipynb)
 
 # Automatic context compaction
 
@@ -858,14 +858,17 @@ The threshold should not be set too low, otherwise the summary itself could trig
 Here some general guidelines:
 
 - **Low thresholds (5k-20k)**:
+
   - Use for iterative task processing with clear boundaries
   - More frequent compaction, minimal context accumulation
   - Best for sequential entity processing
 - **Medium thresholds (50k-100k)**:
+
   - Multi-phase workflows with fewer, larger natural checkpoints
   - Balance between context retention and management
   - Suitable for workflows with expensive tool calls
 - **High thresholds (100k-150k)**:
+
   - Tasks requiring substantial historical context
   - Less frequent compaction preserves more raw details
   - Higher per-call costs but fewer compactions
@@ -1277,4 +1280,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/automatic-context-compaction.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/automatic-context-compaction.ipynb)

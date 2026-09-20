@@ -40,7 +40,7 @@ With these model improvements and our new tools, Claude is now dramatically more
 
 #### **What’s new**
 
-[Connectors](https://claude.ai/redirect/website.v1.962fef38-593b-44ff-b726-e29d2863a0f2/settings/connectors) are tools that allow users to give Claude access to other platforms directly. For payers and providers, we’ve added several connectors that make healthcare information easier to find, access, and understand. These allow Claude to pull information from industry-standard systems and databases, meaning that clinicians and administrators can save significant time finding the data and generating the reports they need.
+[Connectors](https://claude.ai/redirect/website.v1.622f387a-a063-452e-8442-ec367cbca3a9/settings/connectors) are tools that allow users to give Claude access to other platforms directly. For payers and providers, we’ve added several connectors that make healthcare information easier to find, access, and understand. These allow Claude to pull information from industry-standard systems and databases, meaning that clinicians and administrators can save significant time finding the data and generating the reports they need.
 
 Claude can now connect to:
 
@@ -204,6 +204,10 @@ February 7, 2026: *Edited the introductory paragraph to clarify that HIPAA-ready
 
 ## Related content
 
+### Partnering with Accenture on embedded evaluation
+
+[Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)
+
 ### Introducing the Life Sciences Verification Program
 
 The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
@@ -213,9 +217,3 @@ The Life Sciences Verification Program (LSVP) gives life science professionals a
 ### Developing Enterprise Frontier Safeguards with our customers
 
 [Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)
-
-### Improving our alignment and security efforts
-
-On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.
-
-[Read more](https://www.anthropic.com/news/improving-alignment-security-efforts)

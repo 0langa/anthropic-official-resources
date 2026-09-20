@@ -49,9 +49,13 @@ We built this tool to be a reflection of how you use Claude. For some users, thi
 
 ## Getting started
 
-This tool is currently available in beta for Free, Pro, and Max users who have memory turned on. Open [Settings in Claude](https://claude.ai/redirect/website.v1.ddfe8303-b488-4fa9-a47f-615ac8719936/settings/reflect) on the web or the desktop app, and select the option to reflect on your usage to generate your report. If you can't generate a report, it may be because you don’t have [Memory](https://claude.ai/redirect/website.v1.ddfe8303-b488-4fa9-a47f-615ac8719936/settings/capabilities?modal=memory) turned on. Reflecting on your Cowork conversations will be available soon.
+This tool is currently available in beta for Free, Pro, and Max users who have memory turned on. Open [Settings in Claude](https://claude.ai/redirect/website.v1.622f387a-a063-452e-8442-ec367cbca3a9/settings/reflect) on the web or the desktop app, and select the option to reflect on your usage to generate your report. If you can't generate a report, it may be because you don’t have [Memory](https://claude.ai/redirect/website.v1.622f387a-a063-452e-8442-ec367cbca3a9/settings/capabilities?modal=memory) turned on. Reflecting on your Cowork conversations will be available soon.
 
 ## Related content
+
+### Partnering with Accenture on embedded evaluation
+
+[Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)
 
 ### Introducing the Life Sciences Verification Program
 
@@ -62,9 +66,3 @@ The Life Sciences Verification Program (LSVP) gives life science professionals a
 ### Developing Enterprise Frontier Safeguards with our customers
 
 [Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)
-
-### Improving our alignment and security efforts
-
-On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.
-
-[Read more](https://www.anthropic.com/news/improving-alignment-security-efforts)

@@ -16,13 +16,17 @@ By helping scientists access and increase their usage of Claude through subscrip
 
 ### **Ways to access Claude**
 
-To register for our Claude team plan for scientists, please [complete the verification form here](http://claude.ai/redirect/website.v1.39cd8c83-e288-4eb9-8aa7-d38c0b059642/labs-verification/attestation). You must be a principal investigator or equivalent at an academic or nonprofit research institution to qualify; once verified, you can add the researchers in your lab to your plan.
+To register for our Claude team plan for scientists, please [complete the verification form here](http://claude.ai/redirect/website.v1.e785480b-6a52-4b2d-93d0-345fd6a2065e/labs-verification/attestation). You must be a principal investigator or equivalent at an academic or nonprofit research institution to qualify; once verified, you can add the researchers in your lab to your plan.
 
 As your lab makes use of your allotted credits and requires more usage than standard or premium plans provide, you can [apply to our AI for Science program](https://docs.google.com/forms/d/e/1FAIpQLSfwDGfVg2lHJ0cc0oF_ilEnjvr_r4_paYi7VLlr5cLNXASdvA/viewform?usp=dialog) for up to $50,000 in credits per project. Any researcher is eligible to apply.
 
 For now, researchers working in biology and chemistry will still be limited to our Opus-class models. Claude Fable models will [continue to block](https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards) professional biology and drug development queries because of their potential dual-use risks. We’re working in partnership with the US government to establish an access program for life sciences professionals to use Mythos-class models for life sciences research and development. We have now enrolled our first participants, and we expect to share more and increase access soon.
 
 ## Related content
+
+### Partnering with Accenture on embedded evaluation
+
+[Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)
 
 ### Introducing the Life Sciences Verification Program
 
@@ -33,9 +37,3 @@ The Life Sciences Verification Program (LSVP) gives life science professionals a
 ### Developing Enterprise Frontier Safeguards with our customers
 
 [Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)
-
-### Improving our alignment and security efforts
-
-On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.
-
-[Read more](https://www.anthropic.com/news/improving-alignment-security-efforts)

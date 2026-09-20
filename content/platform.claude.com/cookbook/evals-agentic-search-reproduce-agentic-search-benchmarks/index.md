@@ -1,6 +1,6 @@
 [Evals](https://platform.claude.com/cookbook/)[Tools](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/evals/agentic_search/reproduce_agentic_search_benchmarks.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/evals/agentic_search/reproduce_agentic_search_benchmarks.ipynb)
 
 # Reproduce Claude's agentic search benchmark scores in the Messages API
 
@@ -745,4 +745,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/evals/agentic_search/reproduce_agentic_search_benchmarks.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/evals/agentic_search/reproduce_agentic_search_benchmarks.ipynb)

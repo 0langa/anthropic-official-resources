@@ -1,6 +1,6 @@
 [Responses](https://platform.claude.com/cookbook/)
 
-[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/fable_5_fallback_billing/guide.ipynb)
+[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/fable_5_fallback_billing/guide.ipynb)
 
 # Classifier fallback and billing for Claude Fable 5
 
@@ -587,4 +587,4 @@ Was this page helpful?
 
 
 
-[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/fable_5_fallback_billing/guide.ipynb)
+[Back to Cookbook](https://platform.claude.com/cookbook/)[View on GitHub](https://github.com/anthropics/claude-cookbooks/blob/main/fable_5_fallback_billing/guide.ipynb)
