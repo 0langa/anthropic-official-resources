@@ -6855,10 +6855,7 @@
     "Native source; upstream MDX components retained."
   ],
   "https://www.anthropic.com/engineering/harness-design-long-running-apps": [
-    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
-    "Could not read tab 'Sprite editor': TimeoutError",
-    "Could not read tab 'AI game design': TimeoutError",
-    "Could not read tab 'Game play': TimeoutError"
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/news/analysis-tool": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -6897,31 +6894,8 @@
   "https://www.anthropic.com/news/claude-code-on-the-web": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
-  "https://www.anthropic.com/news/claude-fable-5-mythos-5": [
-    "Could not read tab 'Fluid with Classical EDM': TimeoutError"
-  ],
   "https://www.anthropic.com/news/claude-for-chrome": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
-  ],
-  "https://www.anthropic.com/news/claude-opus-4-5": [
-    "Could not read tab 'Aider Polyglot': TimeoutError"
-  ],
-  "https://www.anthropic.com/news/claude-opus-4-6": [
-    "Could not read tab 'Agentic search': TimeoutError",
-    "Could not read tab 'Coding': TimeoutError",
-    "Could not read tab 'Multilingual coding': TimeoutError",
-    "Could not read tab 'Long-term coherence': TimeoutError"
-  ],
-  "https://www.anthropic.com/news/claude-opus-4-7": [
-    "Could not read tab 'Vision': TimeoutError",
-    "Could not read tab 'Document reasoning': TimeoutError"
-  ],
-  "https://www.anthropic.com/news/claude-opus-5": [
-    "Could not read tab 'OSWorld 2.0': TimeoutError",
-    "Could not read tab 'Cell artifact': TimeoutError"
-  ],
-  "https://www.anthropic.com/news/claude-sonnet-4-5": [
-    "Could not read tab 'Law': TimeoutError"
   ],
   "https://www.anthropic.com/news/connectors-directory": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -6983,10 +6957,12 @@
     "Could not read tab 'Example 3': TimeoutError"
   ],
   "https://www.anthropic.com/research/anthropic-interviewer": [
-    "Could not read tab 'Creatives': TimeoutError",
+    "Could not read tab 'Scientists': TimeoutError",
+    "Could not read tab 'Office & Admin': TimeoutError",
     "Could not read tab 'Sales': TimeoutError",
-    "Could not read tab 'Filmmakers': TimeoutError",
-    "Could not read tab 'Chemical engineers': TimeoutError"
+    "Could not read tab 'Data scientists': TimeoutError",
+    "Could not read tab 'Mechanical engineers': TimeoutError",
+    "Could not read tab 'Astronomers': TimeoutError"
   ],
   "https://www.anthropic.com/research/attack-navigator": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
@@ -7000,10 +6976,6 @@
   ],
   "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
-  ],
-  "https://www.anthropic.com/research/claude-values-models-languages": [
-    "Could not read tab '': TimeoutError",
-    "Could not read tab '': TimeoutError"
   ],
   "https://www.anthropic.com/research/cyber-toolkits-update": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
