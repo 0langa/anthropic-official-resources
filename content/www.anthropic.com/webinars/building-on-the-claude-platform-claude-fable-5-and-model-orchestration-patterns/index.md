@@ -51,8 +51,6 @@ Applied AI @ Anthropic
 
 By submitting, you acknowledge the Anthropic [Privacy Policy](https://www.anthropic.com/legal/privacy).
 
-Your registration data is processed by Tenex to facilitate your attendance and participation at the webinar, including check-in and event updates. It will also be used for post-event follow-up. See the [Tenex Privacy Policy](https://www.tenex.co/privacy-policy) for more on how Tenex processes your data.
-
 ![]()
 
 ## Thank you for registering to watch

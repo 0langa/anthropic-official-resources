@@ -12,7 +12,17 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
+    "url": "https://assets.claude.ai/sdk/antalytics/atm/anthropic_com/latest.umd.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
     "url": "https://assets.claude.ai/sdk/antalytics/latest.umd.js"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://a.anthropic.com/isolated-segment.html"
   },
   {
     "reason": "optional_media_widget_or_analytics",

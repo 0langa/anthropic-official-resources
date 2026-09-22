@@ -2573,6 +2573,11 @@ https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-l
 https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai
 https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws
 https://platform.claude.com/docs/en/build-with-claude/compaction
+https://platform.claude.com/docs/en/build-with-claude/compaction-background
+https://platform.claude.com/docs/en/build-with-claude/compaction-keep-recent-turns
+https://platform.claude.com/docs/en/build-with-claude/compaction-on-demand
+https://platform.claude.com/docs/en/build-with-claude/compaction-thinking-blocks
+https://platform.claude.com/docs/en/build-with-claude/compaction-threshold
 https://platform.claude.com/docs/en/build-with-claude/context-editing
 https://platform.claude.com/docs/en/build-with-claude/context-windows
 https://platform.claude.com/docs/en/build-with-claude/data-residency
@@ -3278,6 +3283,7 @@ https://support.claude.com/en/articles/16952184-set-up-salesforce-in-claude-for-
 https://support.claude.com/en/articles/16952186
 https://support.claude.com/en/articles/16952186-use-salesforce-in-claude
 https://support.claude.com/en/articles/16989529-invite-people-outside-your-organization-to-an-artifact
+https://support.claude.com/en/articles/17005973-manage-pooled-group-budgets-on-enterprise-plans
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer

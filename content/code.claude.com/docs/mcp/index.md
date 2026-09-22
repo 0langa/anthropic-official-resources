@@ -82,7 +82,7 @@
     {
       "uri": "mintlify://skills/claude",
       "name": "claude",
-      "description": "Use when building features, fixing bugs, automating development tasks, or running code analysis. Agents should reach for Claude Code when users need to work with codebases, run commands, manage git workflows, or automate repetitive development work across multiple files and tools.",
+      "description": "Use when helping users work with Claude Code for coding tasks, automating development workflows, fixing bugs, building features, managing code changes, configuring environments, or extending Claude Code with skills, MCP, hooks, and subagents. Also use when users need guidance on permissions, settings, sessions, or best practices for working with an AI coding assistant.",
       "mimeType": "text/markdown"
     }
   ]
