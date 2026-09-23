@@ -307,6 +307,22 @@ Grid
 
 List
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+
+Sep 22, 2026
+
+What a task costs on Opus 5.5
+
+Claude Code
+
+What a task costs on Opus 5.5
+
+September 22, 2026
+
+[What a task costs on Opus 5.5](https://claude.com/blog/what-a-task-costs-on-opus-5-5)What a task costs on Opus 5.5
+
+[What a task costs on Opus 5.5](https://claude.com/blog)What a task costs on Opus 5.5
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
 
 Sep 17, 2026
@@ -529,22 +545,6 @@ September 2, 2026
 
 [A guide to the anatomy of effective commerce agents](https://claude.com/blog)A guide to the anatomy of effective commerce agents
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228c83775fcc75f4e6d_74409af25137110ac04cc39e4d5ea0a2fbcea421-1000x1000.svg)
-
-Sep 2, 2026
-
-Building commerce agents with Claude
-
-Product announcements
-
-Building commerce agents with Claude
-
-September 2, 2026
-
-[Building commerce agents with Claude](https://claude.com/blog/claude-for-commerce-agents)Building commerce agents with Claude
-
-[Building commerce agents with Claude](https://claude.com/blog)Building commerce agents with Claude
-
 [View more](https://claude.com/?b7eea976_page=2)
 
 1 / 17
@@ -554,6 +554,22 @@ Category
 Product
 
 Usecase
+
+### What a task costs on Opus 5.5
+
+Category
+
+Claude Code
+
+Product
+
+Usecase
+
+September 22, 2026
+
+[What a task costs on Opus 5.5](https://claude.com/blog/what-a-task-costs-on-opus-5-5)What a task costs on Opus 5.5
+
+[What a task costs on Opus 5.5](https://claude.com/blog)What a task costs on Opus 5.5
 
 ### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
@@ -776,22 +792,6 @@ September 2, 2026
 [A guide to the anatomy of effective commerce agents](https://claude.com/blog/the-anatomy-of-effective-commerce-agents)A guide to the anatomy of effective commerce agents
 
 [A guide to the anatomy of effective commerce agents](https://claude.com/blog)A guide to the anatomy of effective commerce agents
-
-### Building commerce agents with Claude
-
-Category
-
-Product announcements
-
-Product
-
-Usecase
-
-September 2, 2026
-
-[Building commerce agents with Claude](https://claude.com/blog/claude-for-commerce-agents)Building commerce agents with Claude
-
-[Building commerce agents with Claude](https://claude.com/blog)Building commerce agents with Claude
 
 [View more](https://claude.com/?d7430fcd_page=2)
 

@@ -1,6 +1,6 @@
 # Admin management
 
-23 articles
+24 articles
 
 [Roles and permissionsRoles and permissions that can be set for members of your plan](https://support.claude.com/en/articles/9267276-roles-and-permissions)
 
@@ -16,7 +16,7 @@
 
 [Manage user feedback settings on Team and Enterprise plans](https://support.claude.com/en/articles/10504844-manage-user-feedback-settings-on-team-and-enterprise-plans)
 
-[Disable public projects for your organization](https://support.claude.com/en/articles/9927533-disable-public-projects-for-your-organization)
+[Control project sharing for your organization](https://support.claude.com/en/articles/9927533-control-project-sharing-for-your-organization)
 
 [Manage plugins for your organization](https://support.claude.com/en/articles/13837433-manage-plugins-for-your-organization)
 
@@ -47,3 +47,5 @@
 [Manage model access for your organization](https://support.claude.com/en/articles/15694740-manage-model-access-for-your-organization)
 
 [Create surveys for your organization](https://support.claude.com/en/articles/16764057-create-surveys-for-your-organization)
+
+[Manage pooled group budgets on Enterprise plans](https://support.claude.com/en/articles/17005973-manage-pooled-group-budgets-on-enterprise-plans)

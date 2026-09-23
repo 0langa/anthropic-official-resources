@@ -33,15 +33,6 @@ On a Mac you can also show your screen. Hover over a window to send a screenshot
 
 Voice, dictation, and uploads work on the web, your phone, and the desktop app (dictation isn't available on Linux yet); the desktop app lets you reach these features in Claude quickly, from whatever app you're in.
 
-
-
-Good to know
-
-- Screenshots from quick entry and speaking with Caps Lock are Mac-only. On Windows and Linux, a keyboard shortcut brings up Claude.
-- The Linux app is in beta.
-
-See [Use quick entry on Mac(opens in new tab)](https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac) and [Claude for Linux (beta)(opens in new tab)](https://code.claude.com/docs/en/desktop-linux).
-
 Things to ask:
 
 - *What do these numbers mean, and which one should I keep an eye on?*
@@ -60,22 +51,18 @@ What can I help you with today?New Chat
 
 Edit these shortcuts in [Settings](https://claude.ai/desktop/settings/desktop).
 
-## 2. Claude can work in your files, apps, and websites[](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)
-
-On the desktop app, Claude can work directly in the files, apps, and websites where your work already is. Instead of carrying material to Claude and results away, you let Claude handle the whole task in place. You choose what Claude can use, and Claude works only with what you share: folders, apps, websites, or your screen.
-
 
 
 Good to know
 
-Working in your folders, the built-in browser, computer use, and Record a skill need a paid plan:
+- Screenshots from quick entry and speaking with Caps Lock are Mac-only. On Windows and Linux, a keyboard shortcut brings up Claude.
+- The Linux app is in beta.
 
-- Folders come with every paid plan.
-- The built-in browser is on Pro, Max, and Team, and on Enterprise where your admin allows it.
-- Computer use is in beta on Mac and Windows, for Pro and Max.
-- Record a skill is on Pro, Max, and Team, on Mac.
+See [Use quick entry on Mac(opens in new tab)](https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac) and [Claude for Linux (beta)(opens in new tab)](https://code.claude.com/docs/en/desktop-linux).
 
-On Team and Enterprise plans, your admin can limit which extensions are allowed. See [Install Claude Desktop(opens in new tab)](https://support.claude.com/en/articles/10065433-install-claude-desktop).
+## 2. Claude can work in your files, apps, and websites[](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)
+
+On the desktop app, Claude can work directly in the files, apps, and websites where your work already is. Instead of carrying material to Claude and results away, you let Claude handle the whole task in place. You choose what Claude can use, and Claude works only with what you share: folders, apps, websites, or your screen.
 
 ### Folders[](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)
 
@@ -207,6 +194,19 @@ Things to record:
 Capturing · 1 stepDiscardDone
 
 Start from the plus menu, then do the task while Claude records.
+
+
+
+Good to know
+
+Working in your folders, the built-in browser, computer use, and Record a skill need a paid plan:
+
+- Folders come with every paid plan.
+- The built-in browser is on Pro, Max, and Team, and on Enterprise where your admin allows it.
+- Computer use is in beta on Mac and Windows, for Pro and Max.
+- Record a skill is on Pro, Max, and Team, on Mac.
+
+On Team and Enterprise plans, your admin can limit which extensions are allowed. See [Install Claude Desktop(opens in new tab)](https://support.claude.com/en/articles/10065433-install-claude-desktop).
 
 ### All of it together[](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)
 

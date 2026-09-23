@@ -1,0 +1,26 @@
+import{$p as e,Zp as t}from"../../../../../content-de-meta-ictkjcaa.js";import{t as n}from"../../../../../how-ai-gets-its-character-dafct1e9.js";var r=t();function i(t){let i={h2:"h2",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...e(),...t.components},{Exercise:a,ExerciseDeck:s,LessonVideo:c,ResourceWidget:l}=i;return a||o("Exercise",!0),s||o("ExerciseDeck",!0),c||o("LessonVideo",!0),l||o("ResourceWidget",!0),(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(i.h2,{id:"how-ai-gets-its-character",children:"How AI gets its character"}),`
+`,(0,r.jsx)(c,{youtubeId:"6jRk3nC4-xI",title:"How AI Gets Its Character",duration:"5 min",transcript:n,children:(0,r.jsx)(i.p,{children:`An AI's politeness, helpfulness, and caution aren't emergent magic. They're
+trained in, layer by layer, and each training stage leaves specific,
+predictable fingerprints on how the system interacts with you.`})}),`
+`,(0,r.jsx)(i.h2,{id:"pretraining-fine-tuning-and-the-fingerprints-they-leave",children:"Pretraining, fine-tuning, and the fingerprints they leave"}),`
+`,(0,r.jsx)(l,{name:"CharacterTrainingStages",title:"How AI Gets Its Character — interactive exercise"}),`
+`,(0,r.jsx)(i.h2,{id:"key-takeaways",children:"Key takeaways"}),`
+`,(0,r.jsxs)(i.ul,{children:[`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"Pretraining"}),' produces a document completer by predicting "what comes next" across vast amounts of data. After this stage, it has no concept of helping you.']}),`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"Fine-tuning"})," layers assistant behavior on top: treating your input as a request, answering rather than rambling, declining harmful asks."]}),`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"Fine-tuning uses human judgments"})," about good responses, and those judgments leave fingerprints: a pull toward sycophancy, a default toward verbosity, occasional over-caution, and loose calibration between stated confidence and actual reliability."]}),`
+`]}),`
+`,(0,r.jsx)(i.h2,{id:"exercises",children:"Exercises"}),`
+`,(0,r.jsx)(s,{children:(0,r.jsxs)(a,{title:"Fingerprints on Your Own Work",note:"Why? Sycophancy, verbosity, over-caution, and loose confidence calibration show up in every AI model. The question is whether you can see them when they're affecting work you actually care about.",children:[(0,r.jsx)(i.p,{children:"Pick one task from your Lesson 1 list. Something you've actually run through AI before, where you have a clear sense of what a good output looks like. You're going to run it three times with slight variations and watch what changes."}),(0,r.jsxs)(i.ol,{children:[`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"Run 1: Straight."})," Prompt the task as you normally would. Save the output."]}),`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"Run 2: Sycophancy test."}),` Run the same task, but this time preface it with a wrong assumption. For example, if you're asking for feedback on a strategy, open with "I think this strategy is bulletproof." See whether the AI validates your framing or pushes back. Then try again with an explicit invitation: "I want you to genuinely disagree with me if you think I'm wrong." Compare the two responses.`]}),`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"Run 3: Verbosity test."}),' Ask the AI a question related to your task that has a one-sentence answer. Note how much you get. Then re-ask with "Answer in one sentence." Compare the lengths. The gap between the two is the verbosity default at work.']}),`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"Optional: Caution test."})," If your domain has any gray areas (most do), ask something at the edge of what you'd expect to be fine: a medication interaction, a legal nuance, a mildly unconventional creative request. Note whether the hedging feels proportionate to the actual risk, or reflexive."]}),`
+`]}),(0,r.jsx)(i.p,{children:"Now step back. Which fingerprint showed up most clearly on your work? Did naming it in advance change how you read the behavior?"})]})}),`
+`,(0,r.jsx)(i.h2,{id:"lesson-reflection",children:"Lesson reflection"}),`
+`,(0,r.jsxs)(i.ul,{children:[`
+`,(0,r.jsx)(i.li,{children:"Where in your own work is sycophancy most likely to cost you? (Hint: anywhere you're hoping for honest feedback.)"}),`
+`,(0,r.jsx)(i.li,{children:"Where is verbosity most likely to cost you? (Hint: anywhere you need concision under time pressure.)"}),`
+`]}),`
+`,(0,r.jsx)(i.h2,{id:"whats-next",children:"What's next"}),`
+`,(0,r.jsx)(i.p,{children:"Now we start on the four properties themselves, beginning with the one that explains more about AI behavior than any other: Next Token Prediction. Where do AI answers actually come from?"})]})}function a(t={}){let{wrapper:n}={...e(),...t.components};return n?(0,r.jsx)(n,{...t,children:(0,r.jsx)(i,{...t})}):i(t)}function o(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{a as default};

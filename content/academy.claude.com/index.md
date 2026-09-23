@@ -30,7 +30,7 @@ Build Claude into your products. Go from first call to production with the API, 
 
 ## Develop AI Fluency
 
-[More about AI Fluency](https://academy.claude.com/collections/ai-fluency)
+[More about how AI works](https://academy.claude.com/collections/how-ai-works)
 
 Mindsets and mental models that hold up as models and features change
 

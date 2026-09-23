@@ -22,7 +22,7 @@ Search for articles...`⌘K`
 
 Get started with Claude across everyday conversations, projects, and files.
 
-77 articles
+78 articles
 
 ![](https://downloads.intercomcdn.com/i/hc/icons/v3/lupk8zyo/938301/38ac2cf80abb9aeb3af2b9bef14b/141413.svg)
 
@@ -38,7 +38,7 @@ Compare paid plans, manage your subscription, and understand usage limits.
 
 Set up your workspace, add seats, and administer Claude across your organization.
 
-69 articles
+70 articles
 
 ![](https://downloads.intercomcdn.com/i/hc/icons/v3/lupk8zyo/938304/5ffb4feea1e2b255910fc58e99d4/141413.svg)
 

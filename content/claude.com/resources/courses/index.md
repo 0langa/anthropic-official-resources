@@ -10,7 +10,9 @@ Structured learning paths with video lessons and assessments to help you master 
 
 12 lessons · 1 quiz·1.5 hr·Completion badge](https://academy.claude.com/courses/claude-code-101)[### Introduction to Claude Cowork
 
-14 lessons · 1 quiz·2.5 hr·Completion badge](https://academy.claude.com/courses/introduction-to-claude-cowork)[### Claude Platform 101
+14 lessons · 1 quiz·2.5 hr·Completion badge](https://academy.claude.com/courses/introduction-to-claude-cowork)[### Introduction to Claude Tag
+
+11 lessons · 1 quiz·2.5 hr·Completion badge](https://academy.claude.com/courses/introduction-to-claude-tag)[### Claude Platform 101
 
 13 lessons · 1 quiz·1.5 hr·Completion badge](https://academy.claude.com/courses/claude-platform-101)
 

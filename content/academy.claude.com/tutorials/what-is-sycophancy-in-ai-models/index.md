@@ -37,6 +37,6 @@ But this is an ongoing challenge for the entire field of AI development. As thes
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=nvbq39yVYRk)
 
 
-*Learn more: [AI Fluency(opens in new tab)](https://academy.claude.com/collections/ai-fluency)*
+*Learn more: [How AI works(opens in new tab)](https://academy.claude.com/collections/how-ai-works)*
 
 Was this helpful?

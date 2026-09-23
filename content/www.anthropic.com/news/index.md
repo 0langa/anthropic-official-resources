@@ -4,19 +4,19 @@
 - Non-media inquiries[How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)
 - Media assets[Download press kit](https://anthropic.com/press-kit)
 
-![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F4zrzovbb%2Fwebsite%2Fd337d7c546fdeabce5d41ecd2b96ea385bb5f223-2880x1620.jpg&w=3840&q=75)
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F4zrzovbb%2Fwebsite%2F9cd992b121924d66c6cfedb5610a88e857b5097e-1280x720.jpg&w=3840&q=75)
 
-[## Introducing Claude Fable 5.1 and Claude Mythos 5.1
+[## Introducing Claude Opus 5.5
 
-AnnouncementsSep 1, 2026
+AnnouncementsSep 22, 2026
 
-Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.](https://www.anthropic.com/claude-fable-and-mythos-5-1)
+Opus 5.5 performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5.](https://www.anthropic.com/claude-opus-5-5)
 
-[Sep 17, 2026
+[AnnouncementsSep 1, 2026
 
-#### Measurements for understanding the pace of AI development inside frontier labs
+#### Introducing Claude Fable 5.1 and Claude Mythos 5.1
 
-Today, the world can’t see what’s going on inside AI labs. Anthropic is proposing new metrics that would give the public visibility into frontier AI development.](https://www.anthropic.com/institute/measuring-pace-of-ai-development)[AnnouncementsSep 10, 2026
+Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.](https://www.anthropic.com/claude-fable-and-mythos-5-1)[AnnouncementsSep 10, 2026
 
 #### Detecting and countering misuse of AI: September 2026
 
@@ -24,7 +24,11 @@ Over the past eight months, our Threat Intelligence team identified and disrupte
 
 #### Improving our alignment and security efforts
 
-On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.](https://www.anthropic.com/news/improving-alignment-security-efforts)
+On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.](https://www.anthropic.com/news/improving-alignment-security-efforts)[AnnouncementsAug 27, 2026
+
+#### Previewing the Model Hardware Standard
+
+We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.](https://www.anthropic.com/news/model-hardware-standard-research-preview)
 
 ## News
 

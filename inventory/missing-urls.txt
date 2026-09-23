@@ -1,6 +1,9 @@
+https://academy.claude.com/courses/introduction-to-claude-tag/badge
 https://academy.claude.com/dashboard
 https://academy.claude.com/mcp
 https://academy.claude.com/products/code/webinars
+https://academy.claude.com/products/tag/courses
+https://academy.claude.com/products/tag/use-cases
 https://academy.claude.com/start
 https://claude.com/blog/category/agents
 https://claude.com/blog/category/announcements
@@ -32,13 +35,18 @@ https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/prod
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/sales
 https://platform.claude.com/docs/en/api/sessions-retrieve
 https://platform.claude.com/docs/en/build-with-claude/err
+https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5
 https://platform.claude.com/docs/en/build-with-claude/watermark-detection
 https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/12
 https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/any
 https://platform.claude.com/docs/en/docs/build-with-claude/tool-useAnthropic
 https://platform.claude.com/docs/en/managed-agents/2000
 https://platform.claude.com/docs/en/mcp
+https://platform.claude.com/docs/en/models/opus-5-5/migration-guide
+https://platform.claude.com/docs/en/models/opus-5-5/overview
+https://platform.claude.com/docs/en/models/opus-5-5/whats-new-opus-5-5
 https://platform.claude.com/docs/en/release-notes/claude-code
+https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-5-5
 https://platform.claude.com/docs/videos/1
 https://platform.claude.com/docs/videos/3
 https://platform.claude.com/docs/videos/a
@@ -66,8 +74,9 @@ https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents
 https://support.claude.com/en/articles/14855664-use-claude-for-outlook
 https://support.claude.com/en/articles/15330089
 https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion
+https://support.claude.com/en/articles/17007452
 https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data
-https://support.claude.com/en/articles/9945615-intro-to-artifacts
+https://support.claude.com/en/articles/9927533
 https://support.claude.com/en/articles/9945670-using-the-github-integration
 https://support.claude.com/en/articles/9945689-claude-for-engineering
 https://support.claude.com/en/articles/9945697-claude-for-marketing
@@ -86,3 +95,4 @@ https://www.anthropic.com/research/anthropic.com/research/anthropic-economic-ind
 https://www.anthropic.com/research/cqz@anthropic.com
 https://www.anthropic.com/resources
 https://www.anthropic.com/webinars
+https://www.anthropic.com/webinars/claude-code-maximizing-value

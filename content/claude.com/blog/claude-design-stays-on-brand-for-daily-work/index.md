@@ -62,13 +62,13 @@ Export reliably to PDF, PowerPoint, or HTML, or send your work to the apps you a
 
 Michele Catasta, President & Head of AI
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68bb5f628079049002c70825_Lovable-light-theme.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68bb5f6571ade0cef16d3413_Lovable-dark-theme.svg)
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab2c8bd3466f0c993603ed7_6ab2c6eb2a0f7493d7d5b0ed_startups-wordmark-lovable-light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab2c8be3466f0c993603eef_6ab2c6ebbcffe96ca440c8d3_startups-wordmark-lovable-dark.svg)
 
 "At Lovable, we believe the people closest to a problem should have the power to solve it themselves. Through our partnership with Claude Design, we're excited to see even more people sketching out solutions for the world around them. Now they can seamlessly bring those ideas to life inside Lovable as production-ready applications."
 
 Fabian Hedin, Co-founder
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68bb5eb091e9b1deda6f7435_Gamma-light-theme.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68bb5eb921a69f6d1bc0efb1_Gamma-dark-theme.svg)
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab2c8bb3466f0c993603da4_6ab2c6ea45f4990cf30cf13d_startups-wordmark-gamma-light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab2c8bb3466f0c993603da4_6ab2c6ea45f4990cf30cf13d_startups-wordmark-gamma-light.svg)
 
 “Generating a deck is the easy part now; making it yours has always been the hard part. Connecting Claude Design to Gamma closes that gap, we built this with Anthropic so anything you design in Claude can move straight into Gamma, fully editable, the moment you want to take it further.”
 
@@ -132,18 +132,6 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa82dfc4ca89952d04c3873_Object-Store.svg)
-
-Sep 15, 2026
-
-### Claude for Small Business launches new workflows, integrations, and training programs
-
-Product announcements
-
-[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Claude for Small Business launches new workflows, integrations, and training programs
-
-[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Claude for Small Business launches new workflows, integrations, and training programs
-
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
 
 Sep 17, 2026
@@ -156,17 +144,17 @@ Product announcements
 
 [Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa82dfc4ca89952d04c3873_Object-Store.svg)
 
-Jun 18, 2026
+Sep 15, 2026
 
-### Claude Code now supports artifacts
+### Claude for Small Business launches new workflows, integrations, and training programs
 
 Product announcements
 
-[Claude Code now supports artifacts](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Claude Code now supports artifacts
+[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Claude for Small Business launches new workflows, integrations, and training programs
 
-[Claude Code now supports artifacts](https://claude.com/blog/artifacts-in-claude-code)Claude Code now supports artifacts
+[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Claude for Small Business launches new workflows, integrations, and training programs
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
 
@@ -179,6 +167,18 @@ Product announcements
 [Turn ideas into interactive AI-powered apps](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Turn ideas into interactive AI-powered apps
 
 [Turn ideas into interactive AI-powered apps](https://claude.com/blog/build-artifacts)Turn ideas into interactive AI-powered apps
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
+
+Jul 25, 2025
+
+### Build and share AI-powered apps with Claude
+
+Product announcements
+
+[Build and share AI-powered apps with Claude](https://claude.com/blog/claude-design-stays-on-brand-for-daily-work)Build and share AI-powered apps with Claude
+
+[Build and share AI-powered apps with Claude](https://claude.com/blog/claude-powered-artifacts)Build and share AI-powered apps with Claude
 
 ## Transform how your organization operates with Claude
 

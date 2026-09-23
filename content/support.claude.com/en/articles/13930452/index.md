@@ -42,6 +42,7 @@ Each custom role can grant or restrict access to the following capabilities:
 | Code execution and file creation          | Ability to run code and create files in conversations.                                                                                                                                                                                                   |
 | Memory                                    | Ability to use memory across conversations.                                                                                                                                                                                                              |
 | Web search                                | Ability to use web search in conversations.                                                                                                                                                                                                              |
+| Share projects                            | Ability to share projects with other users, groups, or your organization. Turning this off doesn't change existing shares.                                                                                                                               |
 | Public projects                           | Ability to share projects with everyone in your organization.                                                                                                                                                                                            |
 | Create skills                             | Ability to create or upload custom skills.                                                                                                                                                                                                               |
 | Share skills and plugins with org members | Ability to share skills and plugins with specific people in your organization.                                                                                                                                                                           |
@@ -55,7 +56,7 @@ Each custom role can grant or restrict access to the following capabilities:
 | Claude Code artifacts                     | Ability to create artifacts in Claude Code, which turn a session's work into a live, shareable page built from the session's context.                                                                                                                    |
 | Claude Design [standalone]                | Access to standalone Claude Design at claude.ai/design. This doesn't control Claude Design in conversations and the Artifacts tab, which has its own capability, Design (under **Artifacts**).                                                           |
 | Design                                    | Ability to create designs with Claude Design in conversations and the Artifacts tab, including creating and editing design systems. Users without it can still open, comment on, and use designs shared with them.                                       |
-| Slides                                    | Ability to create designs with Claude Design in conversations and the Artifacts tab, including creating and editing design systems. Users without it can still open, comment on, and use designs shared with them.                                       |
+| Slides                                    | Ability to create slide decks with Claude Slides. Users without it can still open decks shared with them.                                                                                                                                                |
 | Docs                                      | Ability to create docs with Claude Docs. Users without it can still open docs shared with them.                                                                                                                                                          |
 | Claude Cowork                             | Access to Claude Cowork.                                                                                                                                                                                                                                 |
 | Cowork in the cloud (beta)                | Lets members run Cowork tasks on Anthropic's infrastructure instead of their own computer, so tasks can keep running across desktop, web, and mobile.                                                                                                    |
@@ -99,7 +100,7 @@ Roles set to either option pick up new capabilities automatically as they launch
 
 7. Configure connectors. You can choose Always allow, Needs approval, or Blocked for all connectors, or customize per connector or connector tool.
 
-8. Configure models. Select which models this role can use, optionally set a maximum effort level per model, and optionally choose a default model for the role.
+8. Configure models. Select which models this role can use, optionally set a maximum effort level per model, and optionally choose a default model and default effort level for the role.
 
 9. Click “Save role.”
 
@@ -320,7 +321,7 @@ Members can’t tell which layer restricted a tool. The message is the same whet
 
 ## Model access
 
-Custom roles also control which Claude models a role can use and the maximum effort level members can select on each one. You set these on the **Models** tab of the role editor, alongside the role's default model.
+Custom roles also control which Claude models a role can use and the maximum effort level members can select on each one. You set these on the **Models** tab of the role editor, alongside the role's default model and default effort level.
 
 The organization-level model setting is the ceiling. A role can't grant a model that's disabled at the organization level. Across a member's roles, model access is additive and effort limits take the highest cap any role allows. Haiku models are always available and can't be disabled.
 

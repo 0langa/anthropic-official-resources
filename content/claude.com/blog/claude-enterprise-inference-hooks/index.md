@@ -84,18 +84,6 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa82dfc4ca89952d04c3873_Object-Store.svg)
-
-Sep 15, 2026
-
-### Claude for Small Business launches new workflows, integrations, and training programs
-
-Product announcements
-
-[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-enterprise-inference-hooks)Claude for Small Business launches new workflows, integrations, and training programs
-
-[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Claude for Small Business launches new workflows, integrations, and training programs
-
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
 
 Sep 17, 2026
@@ -120,17 +108,29 @@ Product announcements
 
 [Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa82dfc4ca89952d04c3873_Object-Store.svg)
 
-Jun 18, 2026
+Sep 15, 2026
 
-### Claude Code now supports artifacts
+### Claude for Small Business launches new workflows, integrations, and training programs
 
 Product announcements
 
-[Claude Code now supports artifacts](https://claude.com/blog/claude-enterprise-inference-hooks)Claude Code now supports artifacts
+[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-enterprise-inference-hooks)Claude for Small Business launches new workflows, integrations, and training programs
 
-[Claude Code now supports artifacts](https://claude.com/blog/artifacts-in-claude-code)Claude Code now supports artifacts
+[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Claude for Small Business launches new workflows, integrations, and training programs
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+
+Jun 25, 2025
+
+### Turn ideas into interactive AI-powered apps
+
+Product announcements
+
+[Turn ideas into interactive AI-powered apps](https://claude.com/blog/claude-enterprise-inference-hooks)Turn ideas into interactive AI-powered apps
+
+[Turn ideas into interactive AI-powered apps](https://claude.com/blog/build-artifacts)Turn ideas into interactive AI-powered apps
 
 ## Transform how your organization operates with Claude
 

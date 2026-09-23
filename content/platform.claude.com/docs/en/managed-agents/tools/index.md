@@ -2,11 +2,13 @@
 title: Tools
 url: https://platform.claude.com/docs/en/managed-agents/tools
 description: Configure tools available to your agent.
+featureMetadata:
+  topic:
+    title: Managed Agents
+    url: https://platform.claude.com/docs/en/managed-agents/overview
+  status: beta
+  betaHeader: managed-agents-2026-04-01
 ---
-
-## Compatibility
-- Status: Beta
-- [Beta header](https://platform.claude.com/docs/en/api/beta-headers): `managed-agents-2026-04-01`
 
 Claude Managed Agents provides a set of built-in tools that Claude can use autonomously within a [session](https://platform.claude.com/docs/en/managed-agents/sessions). You control which tools are available by specifying them in the agent configuration.
 
@@ -35,7 +37,7 @@ Enable the full toolset with `agent_toolset_20260401` when creating an agent. Us
 
 Config entries for `web_search` and `web_fetch` also accept domain filters and other web settings; see [Restrict web search and web fetch domains](https://platform.claude.com/docs/en/managed-agents/tools#restrict-web-search-and-web-fetch-domains).
 
-<CodeGroup>
+<CodeGroup defaultLanguage="CLI">
   ```bash cURL
   agent=$(curl -fsSL https://api.anthropic.com/v1/agents \
     -H "x-api-key: $ANTHROPIC_API_KEY" \
@@ -45,7 +47,7 @@ Config entries for `web_search` and `web_fetch` also accept domain filters and o
     -d @- <<'EOF'
   {
     "name": "Coding Assistant",
-    "model": "claude-opus-5",
+    "model": "claude-opus-5-5",
     "tools": [
       {
         "type": "agent_toolset_20260401",
@@ -59,22 +61,30 @@ Config entries for `web_search` and `web_fetch` also accept domain filters and o
   )
   ```
 
-  ```bash CLI
-  ant beta:agents create <<'YAML'
-  name: Coding Assistant
-  model: claude-opus-5
-  tools:
-    - type: agent_toolset_20260401
-      configs:
-        - name: web_fetch
-          enabled: false
-  YAML
-  ```
+  <MultiFileExample language="cli" label="CLI">
+    ```bash CLI
+    ant apply agent.md
+    ```
+
+    <File filename="agent.md">
+      ```markdown
+      ---
+      name: Coding Assistant
+      model: claude-opus-5-5
+      tools:
+        - type: agent_toolset_20260401
+          configs:
+            - name: web_fetch
+              enabled: false
+      ---
+      ```
+    </File>
+  </MultiFileExample>
 
   ```python Python
   agent = client.beta.agents.create(
       name="Coding Assistant",
-      model="claude-opus-5",
+      model="claude-opus-5-5",
       tools=[
           {
               "type": "agent_toolset_20260401",
@@ -89,7 +99,7 @@ Config entries for `web_search` and `web_fetch` also accept domain filters and o
   ```typescript TypeScript
   const agent = await client.beta.agents.create({
     name: "Coding Assistant",
-    model: "claude-opus-5",
+    model: "claude-opus-5-5",
     tools: [
       {
         type: "agent_toolset_20260401",
@@ -105,7 +115,7 @@ Config entries for `web_search` and `web_fetch` also accept domain filters and o
   var agent = await client.Beta.Agents.Create(new()
   {
       Name = "Coding Assistant",
-      Model = new("claude-opus-5"),
+      Model = new("claude-opus-5-5"),
       Tools =
       [
           new BetaManagedAgentsAgentToolset20260401Params
@@ -124,7 +134,7 @@ Config entries for `web_search` and `web_fetch` also accept domain filters and o
   agent, err := client.Beta.Agents.New(ctx, anthropic.BetaAgentNewParams{
   	Name: "Coding Assistant",
   	Model: anthropic.BetaManagedAgentsModelConfigParams{
-  		ID: "claude-opus-5",
+  		ID: "claude-opus-5-5",
   	},
   	Tools: []anthropic.BetaAgentNewParamsToolUnion{{
   		OfAgentToolset20260401: &anthropic.BetaManagedAgentsAgentToolset20260401Params{
@@ -148,7 +158,7 @@ Config entries for `web_search` and `web_fetch` also accept domain filters and o
 
   var agent = client.beta().agents().create(AgentCreateParams.builder()
       .name("Coding Assistant")
-      .model(BetaManagedAgentsModel.CLAUDE_OPUS_5)
+      .model(BetaManagedAgentsModel.CLAUDE_OPUS_5_5)
       .addTool(BetaManagedAgentsAgentToolset20260401Params.builder()
           .type(BetaManagedAgentsAgentToolset20260401Params.Type.AGENT_TOOLSET_20260401)
           .addConfig(BetaManagedAgentsWebFetchToolConfigParams.builder()
@@ -164,7 +174,7 @@ Config entries for `web_search` and `web_fetch` also accept domain filters and o
 
   $agent = $client->beta->agents->create(
       name: 'Coding Assistant',
-      model: 'claude-opus-5',
+      model: 'claude-opus-5-5',
       tools: [
           BetaManagedAgentsAgentToolset20260401Params::with(
               type: 'agent_toolset_20260401',
@@ -179,7 +189,7 @@ Config entries for `web_search` and `web_fetch` also accept domain filters and o
   ```ruby Ruby
   agent = client.beta.agents.create(
     name: "Coding Assistant",
-    model: "claude-opus-5",
+    model: "claude-opus-5-5",
     tools: [
       {
         type: :agent_toolset_20260401,
@@ -258,7 +268,7 @@ The following toolset limits `web_search` to two sites and localizes its results
 
 The following request creates an agent with this toolset and prints the `configs` array from the response:
 
-<CodeGroup>
+<CodeGroup defaultLanguage="CLI">
   ```bash cURL
   agent=$(curl -fsSL https://api.anthropic.com/v1/agents \
     -H "x-api-key: $ANTHROPIC_API_KEY" \
@@ -268,7 +278,7 @@ The following request creates an agent with this toolset and prints the `configs
     -d @- <<'EOF'
   {
     "name": "Research Agent",
-    "model": "claude-opus-5",
+    "model": "claude-opus-5-5",
     "tools": [
       {
         "type": "agent_toolset_20260401",
@@ -298,33 +308,41 @@ The following request creates an agent with this toolset and prints the `configs
   jq '.tools[0].configs' <<< "$agent"
   ```
 
-  ```bash CLI
-  ant beta:agents create --transform tools.0.configs <<'YAML'
-  name: Research Agent
-  model: claude-opus-5
-  tools:
-    - type: agent_toolset_20260401
-      configs:
-        - type: web_search
-          name: web_search
-          allowed_domains: [docs.example.com, arxiv.org]
-          user_location:
-            type: approximate
-            country: US
-            timezone: America/Los_Angeles
-        - type: web_fetch
-          name: web_fetch
-          blocked_domains: [ads.example.com]
-          max_content_tokens: 50000
-  YAML
-  ```
+  <MultiFileExample language="cli" label="CLI">
+    ```bash CLI
+    ant apply agent.md
+    ```
+
+    <File filename="agent.md">
+      ```markdown
+      ---
+      name: Research Agent
+      model: claude-opus-5-5
+      tools:
+        - type: agent_toolset_20260401
+          configs:
+            - type: web_search
+              name: web_search
+              allowed_domains: [docs.example.com, arxiv.org]
+              user_location:
+                type: approximate
+                country: US
+                timezone: America/Los_Angeles
+            - type: web_fetch
+              name: web_fetch
+              blocked_domains: [ads.example.com]
+              max_content_tokens: 50000
+      ---
+      ```
+    </File>
+  </MultiFileExample>
 
   ```python Python
   client = Anthropic()
 
   agent = client.beta.agents.create(
       name="Research Agent",
-      model="claude-opus-5",
+      model="claude-opus-5-5",
       tools=[
           {
               "type": "agent_toolset_20260401",
@@ -358,7 +376,7 @@ The following request creates an agent with this toolset and prints the `configs
 
   const agent = await client.beta.agents.create({
     name: "Research Agent",
-    model: "claude-opus-5",
+    model: "claude-opus-5-5",
     tools: [
       {
         type: "agent_toolset_20260401",
@@ -397,7 +415,7 @@ The following request creates an agent with this toolset and prints the `configs
   var agent = await client.Beta.Agents.Create(new()
   {
       Name = "Research Agent",
-      Model = BetaManagedAgentsModel.ClaudeOpus5,
+      Model = BetaManagedAgentsModel.ClaudeOpus5_5,
       Tools =
       [
           new BetaManagedAgentsAgentToolset20260401Params
@@ -441,7 +459,7 @@ The following request creates an agent with this toolset and prints the `configs
   agent, err := client.Beta.Agents.New(ctx, anthropic.BetaAgentNewParams{
   	Name: "Research Agent",
   	Model: anthropic.BetaManagedAgentsModelConfigParams{
-  		ID: anthropic.BetaManagedAgentsModelClaudeOpus5,
+  		ID: anthropic.BetaManagedAgentsModelClaudeOpus5_5,
   	},
   	Tools: []anthropic.BetaAgentNewParamsToolUnion{{
   		OfAgentToolset20260401: &anthropic.BetaManagedAgentsAgentToolset20260401Params{
@@ -495,7 +513,7 @@ The following request creates an agent with this toolset and prints the `configs
 
       var agent = client.beta().agents().create(AgentCreateParams.builder()
           .name("Research Agent")
-          .model(BetaManagedAgentsModel.CLAUDE_OPUS_5)
+          .model(BetaManagedAgentsModel.CLAUDE_OPUS_5_5)
           .addTool(BetaManagedAgentsAgentToolset20260401Params.builder()
               .type(BetaManagedAgentsAgentToolset20260401Params.Type.AGENT_TOOLSET_20260401)
               .addConfig(BetaManagedAgentsWebSearchToolConfigParams.builder()
@@ -533,7 +551,7 @@ The following request creates an agent with this toolset and prints the `configs
 
   $agent = $client->beta->agents->create(
       name: 'Research Agent',
-      model: 'claude-opus-5',
+      model: 'claude-opus-5-5',
       tools: [
           BetaManagedAgentsAgentToolset20260401Params::with(
               type: 'agent_toolset_20260401',
@@ -566,7 +584,7 @@ The following request creates an agent with this toolset and prints the `configs
 
   agent = client.beta.agents.create(
     name: "Research Agent",
-    model: "claude-opus-5",
+    model: "claude-opus-5-5",
     tools: [
       {
         type: :agent_toolset_20260401,
@@ -591,6 +609,10 @@ The following request creates an agent with this toolset and prints the `configs
     puts JSON.pretty_generate(toolset.configs.map(&:to_h))
   end
   ```
+
+  <ForLanguage tab="CLI">
+    [`ant apply`](https://platform.claude.com/docs/en/cli-sdks-libraries/cli/apply) creates the agent and prints its ID, not the `configs` array.
+  </ForLanguage>
 </CodeGroup>
 
 In the Claude Console, set allowed or blocked domains from the `web_search` and `web_fetch` rows of the **Built-in tools** card on the agent form; set `max_content_tokens` and `user_location` in the **Raw** view of the agent's configuration.
@@ -669,7 +691,7 @@ If your sessions run in a self-hosted sandbox, the environment worker can [serve
     -d @- <<'EOF'
   {
     "name": "Weather Agent",
-    "model": "claude-opus-5",
+    "model": "claude-opus-5-5",
     "tools": [
       {
         "type": "agent_toolset_20260401"
@@ -701,7 +723,7 @@ If your sessions run in a self-hosted sandbox, the environment worker can [serve
       ```markdown
       ---
       name: Weather Agent
-      model: claude-opus-5
+      model: claude-opus-5-5
       tools:
         - type: agent_toolset_20260401
         - type: custom
@@ -723,7 +745,7 @@ If your sessions run in a self-hosted sandbox, the environment worker can [serve
   ```python Python
   agent = client.beta.agents.create(
       name="Weather Agent",
-      model="claude-opus-5",
+      model="claude-opus-5-5",
       tools=[
           {
               "type": "agent_toolset_20260401",
@@ -747,7 +769,7 @@ If your sessions run in a self-hosted sandbox, the environment worker can [serve
   ```typescript TypeScript
   const agent = await client.beta.agents.create({
     name: "Weather Agent",
-    model: "claude-opus-5",
+    model: "claude-opus-5-5",
     tools: [
       { type: "agent_toolset_20260401" },
       {
@@ -771,7 +793,7 @@ If your sessions run in a self-hosted sandbox, the environment worker can [serve
   var agent = await client.Beta.Agents.Create(new()
   {
       Name = "Weather Agent",
-      Model = new("claude-opus-5"),
+      Model = new("claude-opus-5-5"),
       Tools =
       [
           new BetaManagedAgentsAgentToolset20260401Params
@@ -802,7 +824,7 @@ If your sessions run in a self-hosted sandbox, the environment worker can [serve
   agent, err := client.Beta.Agents.New(ctx, anthropic.BetaAgentNewParams{
   	Name: "Weather Agent",
   	Model: anthropic.BetaManagedAgentsModelConfigParams{
-  		ID: "claude-opus-5",
+  		ID: "claude-opus-5-5",
   	},
   	Tools: []anthropic.BetaAgentNewParamsToolUnion{{
   		OfAgentToolset20260401: &anthropic.BetaManagedAgentsAgentToolset20260401Params{
@@ -837,7 +859,7 @@ If your sessions run in a self-hosted sandbox, the environment worker can [serve
 
   var agent = client.beta().agents().create(AgentCreateParams.builder()
       .name("Weather Agent")
-      .model(BetaManagedAgentsModel.CLAUDE_OPUS_5)
+      .model(BetaManagedAgentsModel.CLAUDE_OPUS_5_5)
       .addTool(BetaManagedAgentsAgentToolset20260401Params.builder()
           .type(BetaManagedAgentsAgentToolset20260401Params.Type.AGENT_TOOLSET_20260401)
           .build())
@@ -864,7 +886,7 @@ If your sessions run in a self-hosted sandbox, the environment worker can [serve
 
   $agent = $client->beta->agents->create(
       name: 'Weather Agent',
-      model: 'claude-opus-5',
+      model: 'claude-opus-5-5',
       tools: [
           BetaManagedAgentsAgentToolset20260401Params::with(
               type: 'agent_toolset_20260401',
@@ -885,7 +907,7 @@ If your sessions run in a self-hosted sandbox, the environment worker can [serve
   ```ruby Ruby
   agent = client.beta.agents.create(
     name: "Weather Agent",
-    model: "claude-opus-5",
+    model: "claude-opus-5-5",
     tools: [
       {type: :agent_toolset_20260401},
       {

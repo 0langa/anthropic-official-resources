@@ -8,7 +8,7 @@ AllCoursesTutorialsUse cases
 
 ProductAll
 
-295 resources
+305 resources
 
 [## AI capabilities and limitations
 
@@ -94,7 +94,11 @@ Course·6 lessons·1 hr](https://academy.claude.com/courses/introduction-to-agen
 
 Delegate multi-step work to Claude in Cowork: set up workspaces, give context, run task loops, and use plugins for research, documents, and browser tasks.
 
-Course·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introduction-to-claude-cowork)[## Introduction to Model Context Protocol
+Course·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introduction-to-claude-cowork)[## Introduction to Claude Tag
+
+Claude Tag (beta) brings Claude into your team's Slack workspace. Learn where to hand it work, how to steer and correct it, and the habits that help you and your team get more from it over time.
+
+Course·11 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introduction-to-claude-tag)[## Introduction to Model Context Protocol
 
 Build MCP servers and clients from scratch with the Python SDK, covering the three core primitives—tools, resources, and prompts—that connect Claude to external services.
 
@@ -102,11 +106,7 @@ Course·10 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduct
 
 Decompose complex tasks across parallel Claude subagents and orchestrate them deterministically.
 
-Course·4 lessons·45 min](https://academy.claude.com/courses/introduction-to-subagents)[## Model Context Protocol: Advanced topics
-
-Go beyond MCP basics: sampling, notifications, and roots, with interactive walkthroughs of each protocol flow.
-
-Course·11 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/model-context-protocol-advanced-topics)Load more
+Course·4 lessons·45 min](https://academy.claude.com/courses/introduction-to-subagents)Load more
 
 
 ## Courses
@@ -121,7 +121,7 @@ AllCoursesTutorialsUse cases
 
 ProductAll
 
-26 courses
+27 courses
 
 [## AI capabilities and limitations
 
@@ -207,7 +207,11 @@ Build, configure, and share skills in Claude Code — reusable markdown instruct
 
 Delegate multi-step work to Claude in Cowork: set up workspaces, give context, run task loops, and use plugins for research, documents, and browser tasks.
 
-14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introduction-to-claude-cowork)[## Introduction to Model Context Protocol
+14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introduction-to-claude-cowork)[## Introduction to Claude Tag
+
+Claude Tag (beta) brings Claude into your team's Slack workspace. Learn where to hand it work, how to steer and correct it, and the habits that help you and your team get more from it over time.
+
+11 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introduction-to-claude-tag)[## Introduction to Model Context Protocol
 
 Build MCP servers and clients from scratch with the Python SDK, covering the three core primitives—tools, resources, and prompts—that connect Claude to external services.
 
@@ -215,11 +219,7 @@ Build MCP servers and clients from scratch with the Python SDK, covering the thr
 
 Decompose complex tasks across parallel Claude subagents and orchestrate them deterministically.
 
-4 lessons·45 min](https://academy.claude.com/courses/introduction-to-subagents)[## Model Context Protocol: Advanced topics
-
-Go beyond MCP basics: sampling, notifications, and roots, with interactive walkthroughs of each protocol flow.
-
-11 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/model-context-protocol-advanced-topics)Load more
+4 lessons·45 min](https://academy.claude.com/courses/introduction-to-subagents)Load more
 
 
 ## Tutorials
@@ -395,7 +395,7 @@ ProductAll
 
 RoleAll
 
-148 use cases
+157 use cases
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-mtc5a1pi.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ha2dvss7.png)
 
@@ -439,7 +439,19 @@ Marketing·15 min](https://academy.claude.com/use-cases/analyze-fundraising-perf
 
 Find recurring themes and pain points across user feedback to separate meaningful patterns from noise.
 
-Product·15 min](https://academy.claude.com/use-cases/analyze-patterns-in-user-feedback)[![](https://academy.claude.com/assets/v1/thumbnail.light-f72xos2e.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j0qghno4.png)
+Product·15 min](https://academy.claude.com/use-cases/analyze-patterns-in-user-feedback)[![](https://academy.claude.com/assets/v1/thumbnail.light-804tz7j0.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lgieyu67.png)
+
+## Answer deal and account questions from the CRM
+
+Ask where a deal stands and Claude Tag answers in the thread from the CRM record and from what the team has said in the channel.
+
+Sales·10 min](https://academy.claude.com/use-cases/pull-deal-and-account-state)[![](https://academy.claude.com/assets/v1/thumbnail.light-g2rf84ww.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ncxwpfp1.png)
+
+## Answer requests in the IT help channel
+
+Give Claude Tag a standing responsibility in the IT help channel: it answers each request first from your policies, asks for missing details, and files one ticket for the owner when a request needs them.
+
+Operations·10 min](https://academy.claude.com/use-cases/answer-requests-in-the-it-help-channel)[![](https://academy.claude.com/assets/v1/thumbnail.light-f72xos2e.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j0qghno4.png)
 
 ## Answer the ad-hoc data question
 
@@ -529,16 +541,4 @@ Marketing·10 min](https://academy.claude.com/use-cases/competitor-comparison)[!
 
 Where the deal is and what to ask on this call.
 
-Sales·10 min](https://academy.claude.com/use-cases/call-prep-sheet)[![](https://academy.claude.com/assets/v1/thumbnail.light-e4rnoq1t.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lsn6xpe9.png)
-
-## Chart your data in conversation with Claude before you commit to a reading
-
-Upload a CSV and Claude builds the correlation grid inline, flagging the patterns worth a second look. The flags are a starting point — you click into what's interesting and the conversation goes from there.
-
-Education·15 min](https://academy.claude.com/use-cases/chart-your-data-before-you-commit)[![](https://academy.claude.com/assets/v1/thumbnail.light-kwid434h.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-oxk6j3m6.png)
-
-## Clean up promotional emails
-
-Claude in Chrome can scan your inbox, identify promotional and marketing emails, and flag them for your review. You decide what to delete in bulk rather than clicking through one by one.
-
-15 min](https://academy.claude.com/use-cases/clean-up-promotional-emails)Load more
+Sales·10 min](https://academy.claude.com/use-cases/call-prep-sheet)Load more

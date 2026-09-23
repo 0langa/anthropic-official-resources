@@ -36,6 +36,6 @@ Reducing hallucinations is an important goal to make AIs more trustworthy and us
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=005JLRt3gXI)
 
-*Learn more: [AI Fluency(opens in new tab)](https://academy.claude.com/collections/ai-fluency)*
+*Learn more: [How AI works(opens in new tab)](https://academy.claude.com/collections/how-ai-works)*
 
 Was this helpful?

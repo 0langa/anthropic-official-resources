@@ -30,6 +30,6 @@ And of course, these tactics for ensuring you're seeing all sides of an issue ar
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=RnOWJoHU_NY)
 
-*Learn more: [AI Fluency(opens in new tab)](https://academy.claude.com/collections/ai-fluency)*
+*Learn more: [How AI works(opens in new tab)](https://academy.claude.com/collections/how-ai-works)*
 
 Was this helpful?

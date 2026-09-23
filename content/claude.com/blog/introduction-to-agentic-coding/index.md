@@ -226,6 +226,18 @@ Claude Code uses **CLAUDE.md** configuration files that document your coding sta
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+
+Sep 22, 2026
+
+### What a task costs on Opus 5.5
+
+Claude Code
+
+[What a task costs on Opus 5.5](https://claude.com/blog/introduction-to-agentic-coding)What a task costs on Opus 5.5
+
+[What a task costs on Opus 5.5](https://claude.com/blog/what-a-task-costs-on-opus-5-5)What a task costs on Opus 5.5
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
 
 Sep 17, 2026
@@ -261,18 +273,6 @@ Claude Code
 [The Claude Code guide for startups](https://claude.com/blog/introduction-to-agentic-coding)The Claude Code guide for startups
 
 [The Claude Code guide for startups](https://claude.com/blog/claude-code-guide-for-startups)The Claude Code guide for startups
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-Native SDLC playbook
-
-Enterprise AI
-
-[The AI-Native SDLC playbook](https://claude.com/blog/introduction-to-agentic-coding)The AI-Native SDLC playbook
-
-[The AI-Native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-Native SDLC playbook
 
 ## Transform how your organization operates with Claude
 

@@ -398,6 +398,18 @@ Developer docs
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+
+Sep 22, 2026
+
+### What a task costs on Opus 5.5
+
+Claude Code
+
+[What a task costs on Opus 5.5](https://claude.com/blog/claude-code-guide-for-startups)What a task costs on Opus 5.5
+
+[What a task costs on Opus 5.5](https://claude.com/blog/what-a-task-costs-on-opus-5-5)What a task costs on Opus 5.5
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
 
 Sep 17, 2026
@@ -433,18 +445,6 @@ Enterprise AI
 [The AI-Native SDLC playbook](https://claude.com/blog/claude-code-guide-for-startups)The AI-Native SDLC playbook
 
 [The AI-Native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-Native SDLC playbook
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226ca443e2e05990c00_83d7d2fe412ceb4dfe627f0d5f3d64aff1a3f5db-1000x1000.svg)
-
-Aug 24, 2026
-
-### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
-
-Claude Code
-
-[How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep](https://claude.com/blog/claude-code-guide-for-startups)How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
-
-[How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep](https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
 ## Transform how your organization operates with Claude
 

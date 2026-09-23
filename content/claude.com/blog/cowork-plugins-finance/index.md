@@ -109,6 +109,18 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
+
+Sep 8, 2026
+
+### Reducing cost and improving performance with Claude Platform
+
+Agents
+
+[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/cowork-plugins-finance)Reducing cost and improving performance with Claude Platform
+
+[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
 
 Sep 17, 2026
@@ -144,18 +156,6 @@ Enterprise AI
 [How Anthropic's business development team uses Claude to run inbound and outbound at scale](https://claude.com/blog/cowork-plugins-finance)How Anthropic's business development team uses Claude to run inbound and outbound at scale
 
 [How Anthropic's business development team uses Claude to run inbound and outbound at scale](https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale)How Anthropic's business development team uses Claude to run inbound and outbound at scale
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2261b7d4c0eae4fdf9b_036c01a9e427ea0f4d1e6c7221e4f6dce2259bf7-1000x1000.svg)
-
-Jul 8, 2026
-
-### How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds
-
-Enterprise AI
-
-[How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds](https://claude.com/blog/cowork-plugins-finance)How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds
-
-[How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds](https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds)How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds
 
 ## Transform how your organization operates with Claude
 

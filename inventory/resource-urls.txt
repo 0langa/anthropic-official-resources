@@ -480,6 +480,20 @@ https://academy.claude.com/courses/introduction-to-claude-cowork/the-task-loop
 https://academy.claude.com/courses/introduction-to-claude-cowork/troubleshooting-next-steps
 https://academy.claude.com/courses/introduction-to-claude-cowork/validating-skills-for-plugins
 https://academy.claude.com/courses/introduction-to-claude-cowork/what-is-cowork
+https://academy.claude.com/courses/introduction-to-claude-tag
+https://academy.claude.com/courses/introduction-to-claude-tag/badge
+https://academy.claude.com/courses/introduction-to-claude-tag/claude-in-a-dm
+https://academy.claude.com/courses/introduction-to-claude-tag/claude-in-a-private-channel
+https://academy.claude.com/courses/introduction-to-claude-tag/claude-in-a-public-channel
+https://academy.claude.com/courses/introduction-to-claude-tag/course-quiz
+https://academy.claude.com/courses/introduction-to-claude-tag/expand-what-claude-owns
+https://academy.claude.com/courses/introduction-to-claude-tag/pick-the-right-place-for-the-work
+https://academy.claude.com/courses/introduction-to-claude-tag/proactivity-let-claude-reply-without-being-tagged
+https://academy.claude.com/courses/introduction-to-claude-tag/put-recurring-work-on-a-schedule
+https://academy.claude.com/courses/introduction-to-claude-tag/refine-claudes-learning-through-feedback
+https://academy.claude.com/courses/introduction-to-claude-tag/review-your-teams-habits
+https://academy.claude.com/courses/introduction-to-claude-tag/tag-claude-and-see-what-happens
+https://academy.claude.com/courses/introduction-to-claude-tag/write-a-request-claude-can-work-with
 https://academy.claude.com/courses/introduction-to-model-context-protocol
 https://academy.claude.com/courses/introduction-to-model-context-protocol/accessing-resources
 https://academy.claude.com/courses/introduction-to-model-context-protocol/badge
@@ -549,7 +563,9 @@ https://academy.claude.com/products/platform
 https://academy.claude.com/products/platform/courses
 https://academy.claude.com/products/platform/tutorials
 https://academy.claude.com/products/tag
+https://academy.claude.com/products/tag/courses
 https://academy.claude.com/products/tag/tutorials
+https://academy.claude.com/products/tag/use-cases
 https://academy.claude.com/start
 https://academy.claude.com/tutorials
 https://academy.claude.com/tutorials/a-discussion-guide-for-the-ai-fluency-index
@@ -683,6 +699,7 @@ https://academy.claude.com/use-cases/adapt-content-across-platforms
 https://academy.claude.com/use-cases/analyze-campaign-performance
 https://academy.claude.com/use-cases/analyze-fundraising-performance
 https://academy.claude.com/use-cases/analyze-patterns-in-user-feedback
+https://academy.claude.com/use-cases/answer-requests-in-the-it-help-channel
 https://academy.claude.com/use-cases/answer-the-adhoc
 https://academy.claude.com/use-cases/apply-a-formula-as-you-learn-it-in-chat-with-claude
 https://academy.claude.com/use-cases/ask-the-company
@@ -698,6 +715,7 @@ https://academy.claude.com/use-cases/build-financial-models
 https://academy.claude.com/use-cases/build-interactive-diagram-tools
 https://academy.claude.com/use-cases/call-prep-sheet
 https://academy.claude.com/use-cases/campaign-brief
+https://academy.claude.com/use-cases/chart-a-metric-from-your-data-warehouse
 https://academy.claude.com/use-cases/chart-your-data-before-you-commit
 https://academy.claude.com/use-cases/clean-up-promotional-emails
 https://academy.claude.com/use-cases/clickable-prototype
@@ -739,6 +757,7 @@ https://academy.claude.com/use-cases/evaluate-a-company-from-the-science-to-the-
 https://academy.claude.com/use-cases/explain-a-variance
 https://academy.claude.com/use-cases/explore-what-claude-can-do-for-you
 https://academy.claude.com/use-cases/feedback-synthesis
+https://academy.claude.com/use-cases/fix-a-reported-bug-with-a-draft-pr
 https://academy.claude.com/use-cases/forecast-scenarios
 https://academy.claude.com/use-cases/generate-an-ai-policy
 https://academy.claude.com/use-cases/generate-project-status-reports
@@ -753,6 +772,8 @@ https://academy.claude.com/use-cases/legal-research-memo
 https://academy.claude.com/use-cases/log-sales-calls-to-your-crm
 https://academy.claude.com/use-cases/map-your-lit-review-mid-conversation
 https://academy.claude.com/use-cases/map-your-understanding-and-build-lessons-from-the-gaps
+https://academy.claude.com/use-cases/meeting-notes-and-filed-tasks-from-a-call-transcript
+https://academy.claude.com/use-cases/meeting-prep-and-a-weekly-recap-in-your-dm-with-claude
 https://academy.claude.com/use-cases/message-sweep
 https://academy.claude.com/use-cases/metrics-narrative
 https://academy.claude.com/use-cases/morning-evening
@@ -781,6 +802,7 @@ https://academy.claude.com/use-cases/prep-scattered-documents-for-a-compliance-a
 https://academy.claude.com/use-cases/prepare-and-plan-from-your-calendar
 https://academy.claude.com/use-cases/prepare-for-sales-deals
 https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork
+https://academy.claude.com/use-cases/pull-deal-and-account-state
 https://academy.claude.com/use-cases/pull-metrics-from-analytics-dashboards
 https://academy.claude.com/use-cases/quickly-prep-for-your-week
 https://academy.claude.com/use-cases/recon-journal-entries
@@ -804,6 +826,7 @@ https://academy.claude.com/use-cases/thoughtful-gift-giving-with-claude
 https://academy.claude.com/use-cases/thread-to-decision
 https://academy.claude.com/use-cases/track-discovery-timelines-and-analyze-patterns
 https://academy.claude.com/use-cases/transcript-themes
+https://academy.claude.com/use-cases/triage-on-call-alerts-and-diagnose-incidents
 https://academy.claude.com/use-cases/turn-emails-into-an-event-tracker
 https://academy.claude.com/use-cases/turn-inspiration-to-design-plans
 https://academy.claude.com/use-cases/turn-research-into-presentations
@@ -819,7 +842,9 @@ https://academy.claude.com/use-cases/vendor-risk-review
 https://academy.claude.com/use-cases/verify-statistics-from-raw-data
 https://academy.claude.com/use-cases/visualize-program-data
 https://academy.claude.com/use-cases/visualize-the-mechanism-behind-an-explanation-mid-chat
+https://academy.claude.com/use-cases/watch-the-escalations-channel-and-page-only-for-p1
 https://academy.claude.com/use-cases/week-ahead-prep
+https://academy.claude.com/use-cases/weekly-status-posts-from-the-teams-channels-and-tracker
 https://academy.claude.com/use-cases/work-through-grant-options-in-chat-with-claude
 https://academy.claude.com/use-cases/workflow-improvement-planner
 https://academy.claude.com/use-cases/write-an-impact-report
@@ -1067,6 +1092,7 @@ https://claude.com/blog/using-llms-to-secure-source-code
 https://claude.com/blog/web-search
 https://claude.com/blog/web-search-api
 https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai
+https://claude.com/blog/what-a-task-costs-on-opus-5-5
 https://claude.com/blog/what-is-model-context-protocol
 https://claude.com/blog/whats-new-in-claude-managed-agents
 https://claude.com/blog/working-at-the-frontier-cursor
@@ -2603,6 +2629,7 @@ https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompti
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-4-8
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5
+https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5
 https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback
 https://platform.claude.com/docs/en/build-with-claude/search-results
@@ -2731,6 +2758,9 @@ https://platform.claude.com/docs/en/models/opus-4-5/overview
 https://platform.claude.com/docs/en/models/opus-4-6/overview
 https://platform.claude.com/docs/en/models/opus-4-7/overview
 https://platform.claude.com/docs/en/models/opus-4-8/overview
+https://platform.claude.com/docs/en/models/opus-5-5/migration-guide
+https://platform.claude.com/docs/en/models/opus-5-5/overview
+https://platform.claude.com/docs/en/models/opus-5-5/whats-new-opus-5-5
 https://platform.claude.com/docs/en/models/opus-5/migration-guide
 https://platform.claude.com/docs/en/models/opus-5/overview
 https://platform.claude.com/docs/en/models/opus-5/whats-new-opus-5
@@ -2757,6 +2787,7 @@ https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-6
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-7
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-8
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-5
+https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-5-5
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-3-5
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-3-7
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4
@@ -3250,6 +3281,7 @@ https://support.claude.com/en/articles/15937951
 https://support.claude.com/en/articles/15937951-view-your-organization-s-support-tickets
 https://support.claude.com/en/articles/16049681
 https://support.claude.com/en/articles/16049681-why-claude-switched-models-in-your-conversation-with-opus-5
+https://support.claude.com/en/articles/16049681-why-claude-switched-models-in-your-conversation-with-opus-5-or-opus-5-5
 https://support.claude.com/en/articles/16059458-inference-hooks-overview
 https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content
 https://support.claude.com/en/articles/16559896
@@ -3284,6 +3316,8 @@ https://support.claude.com/en/articles/16952186
 https://support.claude.com/en/articles/16952186-use-salesforce-in-claude
 https://support.claude.com/en/articles/16989529-invite-people-outside-your-organization-to-an-artifact
 https://support.claude.com/en/articles/17005973-manage-pooled-group-budgets-on-enterprise-plans
+https://support.claude.com/en/articles/17007452
+https://support.claude.com/en/articles/17007452-what-is-a-limit-reset
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer
@@ -3412,6 +3446,8 @@ https://support.claude.com/en/articles/9876003-i-have-a-paid-claude-subscription
 https://support.claude.com/en/articles/9889408
 https://support.claude.com/en/articles/9889408-add-or-update-your-paid-claude-account-s-tax-or-vat-id
 https://support.claude.com/en/articles/9889428-add-or-update-your-claude-console-organization-s-tax-or-vat-id
+https://support.claude.com/en/articles/9927533
+https://support.claude.com/en/articles/9927533-control-project-sharing-for-your-organization
 https://support.claude.com/en/articles/9927533-disable-public-projects-for-your-organization
 https://support.claude.com/en/articles/9927533-how-can-i-disable-public-projects
 https://support.claude.com/en/articles/9927624-add-or-update-your-team-plan-s-tax-or-vat-id
@@ -4023,6 +4059,7 @@ https://www.anthropic.com/webinars/claude-code-financial-services
 https://www.anthropic.com/webinars/claude-code-for-data-engineering
 https://www.anthropic.com/webinars/claude-code-foundations
 https://www.anthropic.com/webinars/claude-code-live
+https://www.anthropic.com/webinars/claude-code-maximizing-value
 https://www.anthropic.com/webinars/claude-for-business-development-representatives
 https://www.anthropic.com/webinars/claude-for-financial-services-putting-agents-to-work
 https://www.anthropic.com/webinars/claude-for-marketing-ops-and-analytics

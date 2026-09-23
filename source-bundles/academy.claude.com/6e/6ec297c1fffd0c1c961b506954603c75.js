@@ -1,0 +1,49 @@
+import{$p as e,Zp as t}from"../../../content-de-meta-ictkjcaa.js";var n=t();function r(t){let r={a:"a",em:"em",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...e(),...t.components},{ChromePrompt:i,ChromeResponse:o,Image:s}=r;return i||a("ChromePrompt",!0),o||a("ChromeResponse",!0),s||a("Image",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(s,{src:"./pull-metrics-from-analytics-dashboards.png",alt:"Pull metrics from analytics dashboards result",preview:!0}),`
+`,(0,n.jsx)(r.h2,{id:"1-describe-the-task",children:"1. Describe the task"}),`
+`,(0,n.jsx)(r.p,{children:"Claude navigates your analytics dashboards—Amplitude, Mixpanel, or other tools—and extracts the metrics you specify. It reads the same reports you would, pulls the numbers, and compiles them into a summary you can paste into a team update or Slack."}),`
+`,(0,n.jsx)(r.p,{children:"Specify which metrics matter and from which tools. Claude handles the navigation and extraction."}),`
+`,(0,n.jsxs)(i,{children:[(0,n.jsx)(r.p,{children:"Pull my weekly metrics from both my Amplitude and Mixpanel open tabs."}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"From Amplitude:"})}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"Weekly active users (WAU) — past 4 weeks"}),`
+`,(0,n.jsx)(r.li,{children:"New user signups — this week vs. last week"}),`
+`,(0,n.jsx)(r.li,{children:"Retention (Day 1, Day 7, Day 30) — for the cohort from 30 days ago"}),`
+`]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"From Mixpanel:"})}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"Feature adoption rate for new dashboard (% of WAU who used it)"}),`
+`,(0,n.jsx)(r.li,{children:"Conversion rate through onboarding flow"}),`
+`,(0,n.jsx)(r.li,{children:"Top 5 events by volume this week"}),`
+`]}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:"Output:"})," Format as a summary I can paste into our weekly product update."]})]}),`
+`,(0,n.jsx)(r.h2,{id:"2-give-claude-context",children:"2. Give Claude context"}),`
+`,(0,n.jsx)(r.p,{children:"Claude uses browser use to navigate your analytics tools through your existing browser sessions. If you're logged into Amplitude and Mixpanel, Claude can access the same dashboards and reports you see—no API keys or integrations to configure."}),`
+`,(0,n.jsx)(r.h3,{id:"required-context",children:"Required context"}),`
+`,(0,n.jsx)(r.p,{children:"Log into your analytics tools in Chrome before starting. Claude navigates to the dashboards and reports using your sessions."}),`
+`,(0,n.jsx)(r.h2,{id:"3-what-claude-creates",children:"3. What Claude creates"}),`
+`,(0,n.jsx)(r.p,{children:"Claude compiles metrics from both tools into a single summary."}),`
+`,(0,n.jsxs)(o,{children:[(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Weekly Product Metrics Summary"})}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"User Growth"})}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:"Source: Amplitude"})}),(0,n.jsxs)(r.table,{children:[(0,n.jsx)(r.thead,{children:(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.th,{children:"Week"}),(0,n.jsx)(r.th,{children:"WAU"}),(0,n.jsx)(r.th,{children:"Change"})]})}),(0,n.jsxs)(r.tbody,{children:[(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"4 weeks ago"}),(0,n.jsx)(r.td,{children:"24,312"}),(0,n.jsx)(r.td,{children:"—"})]}),(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"3 weeks ago"}),(0,n.jsx)(r.td,{children:"25,891"}),(0,n.jsx)(r.td,{children:"+6.5%"})]}),(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"2 weeks ago"}),(0,n.jsx)(r.td,{children:"26,455"}),(0,n.jsx)(r.td,{children:"+2.2%"})]}),(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"This week"}),(0,n.jsx)(r.td,{children:"27,102"}),(0,n.jsx)(r.td,{children:"+2.4%"})]})]})]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Key Stats:"})}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"New signups:"})," 1,847 this week vs 1,623 last week (+13.8%)"]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Retention (30-day-old cohort):"})," Day 1: 68% → Day 7: 41% → Day 30: 23%"]}),`
+`]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Feature Engagement"})}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:"Source: Mixpanel"})}),(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"New dashboard adoption:"})," 34% of WAU (up from 28% last week)"]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Onboarding conversion:"})," 71% complete the full flow"]}),`
+`]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Top Events This Week:"})}),(0,n.jsxs)(r.table,{children:[(0,n.jsx)(r.thead,{children:(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.th,{children:"Event"}),(0,n.jsx)(r.th,{children:"Count"})]})}),(0,n.jsxs)(r.tbody,{children:[(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"Dashboard viewed"}),(0,n.jsx)(r.td,{children:"45,221"})]}),(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"Report exported"}),(0,n.jsx)(r.td,{children:"12,847"})]}),(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"Filter applied"}),(0,n.jsx)(r.td,{children:"11,293"})]}),(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"Team member invited"}),(0,n.jsx)(r.td,{children:"4,891"})]}),(0,n.jsxs)(r.tr,{children:[(0,n.jsx)(r.td,{children:"Integration connected"}),(0,n.jsx)(r.td,{children:"3,442"})]})]})]}),(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"Summary for Your Update"})}),(0,n.jsxs)(r.p,{children:["WAU grew ",(0,n.jsx)(r.strong,{children:"11.5% over the past month"})," to 27.1K. New signups are up 14% week-over-week. The new dashboard is seeing solid adoption at 34% of active users. Retention remains steady with 23% of users still active at Day 30."]})]}),`
+`,(0,n.jsx)(r.h2,{id:"4-follow-up-prompts",children:"4. Follow up prompts"}),`
+`,(0,n.jsx)(r.p,{children:"Continue the conversation with Claude to refine, expand, or explore further."}),`
+`,(0,n.jsx)(r.h3,{id:"dig-into-a-specific-metric",children:"Dig into a specific metric"}),`
+`,(0,n.jsx)(r.p,{children:"Have Claude investigate before you share the report and get more detail when something looks off."}),`
+`,(0,n.jsx)(i,{children:(0,n.jsx)(r.p,{children:"The onboarding conversion dropped from 78% last week. Can you go into Mixpanel and show me where in the flow people are dropping off? I need to understand this before the meeting."})}),`
+`,(0,n.jsx)(r.h3,{id:"share-the-output-in-a-different-channel",children:"Share the output in a different channel"}),`
+`,(0,n.jsx)(r.p,{children:"Once your summary is ready, have Claude format it and post it directly to your team channel."}),`
+`,(0,n.jsx)(i,{children:(0,n.jsx)(r.p,{children:"This looks good. Can you turn it into a few bullet points and post it to #product-weekly in Slack? Just the highlights and anything that changed significantly."})}),`
+`,(0,n.jsx)(r.h3,{id:"add-another-data-source",children:"Add another data source"}),`
+`,(0,n.jsx)(r.p,{children:"Pull in another data source without starting over. Claude can look in a new tab and add to your summary."}),`
+`,(0,n.jsx)(i,{children:(0,n.jsx)(r.p,{children:"Can you also pull our revenue metrics from Stripe? I need MRR, new subscriptions this week, and churn rate. Add them to the summary."})}),`
+`,(0,n.jsx)(r.h2,{id:"5-tricks-tips-and-troubleshooting",children:"5. Tricks, tips, and troubleshooting"}),`
+`,(0,n.jsx)(r.h3,{id:"schedule-weekly-metrics-pulls",children:"Schedule weekly metrics pulls"}),`
+`,(0,n.jsx)(r.p,{children:"Click the clock icon in the extension panel to schedule this workflow. Set it to run Monday morning and Claude will have your metrics summary ready before your weekly product sync. No more scrambling to pull numbers before the meeting."}),`
+`,(0,n.jsx)(r.h3,{id:"drag-all-your-analytics-tabs-into-one-group",children:"Drag all your analytics tabs into one group"}),`
+`,(0,n.jsx)(r.p,{children:"For multi-tool metrics, drag Amplitude, Mixpanel, and any other dashboards into Claude's tab group. You'll see a green banner confirming Claude can access all of them. Now Claude reads across every tool simultaneously—no manual switching."}),`
+`,(0,n.jsx)(r.h3,{id:"save-your-workflow-as-a-shortcut",children:"Save your workflow as a shortcut"}),`
+`,(0,n.jsx)(r.p,{children:'Once you have a metrics pull that covers what you need, save it as a shortcut by clicking on the shortcut icon below a successful prompt. You can also set a schedule for when you want the workflow to run next. Alternatively, manually trigger the workflow, by typing "/" and selecting the shortcut.'}),`
+`,(0,n.jsx)(r.h3,{id:"grant-permission-to-your-analytics-platforms",children:"Grant permission to your analytics platforms"}),`
+`,(0,n.jsx)(r.p,{children:'If Claude asks for permission on every dashboard page, go to Settings → Permissions and enable "Always allow actions on this site" for Amplitude, Mixpanel, and other trusted work tools. Persistent access speeds up multi-page navigation significantly.'}),`
+`,(0,n.jsx)(r.h2,{id:"6-ready-to-try-for-yourself",children:"6. Ready to try for yourself?"}),`
+`,(0,n.jsx)(r.p,{children:"Claude in Chrome is available to all paid plan users. Install the extension, log into your analytics tools, and describe the metrics you need. Claude navigates the dashboards and compiles a summary ready to paste into your team update."}),`
+`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.a,{href:"https://claude.com/download",children:"Try in Claude"})})]})}function i(t={}){let{wrapper:i}={...e(),...t.components};return i?(0,n.jsx)(i,{...t,children:(0,n.jsx)(r,{...t})}):r(t)}function a(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{i as default};

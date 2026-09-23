@@ -244,7 +244,7 @@ Without enablement, users may treat Claude Cowork as indistinguishable from Chat
 #### General AI literacy
 
 - [Claude Academy(opens in new tab)](https://academy.claude.com/) — interactive courses on AI fundamentals and prompt engineering.
-- [AI Fluency Course(opens in new tab)](https://academy.claude.com/collections/ai-fluency) — broader AI literacy for users new to working with AI.
+- [Collaborating with AI(opens in new tab)](https://academy.claude.com/collections/collaborating-with-ai) — broader AI literacy for users new to working with AI.
 - [Prompt Engineering Guide(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) — techniques for getting better results from Claude.
 - [Help Center(opens in new tab)](https://support.claude.com/) — comprehensive documentation and FAQs.
 
