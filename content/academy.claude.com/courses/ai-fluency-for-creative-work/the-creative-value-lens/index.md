@@ -41,6 +41,8 @@ This video introduces the first analytical tool, the Creative Value Lens, which 
 
 Run the Creative Value Lens on three real pieces of your own work. For each, rate Expression, Connection, and Distinctiveness and say why in terms specific to that piece, not the category it belongs to. Then hunt for one mismatch between what you value and what your audience or market values, and rehearse one trade-off where pushing one dimension harder would cost another.
 
+Exercise: a worksheet where the learner rates three of their own works on Expression, Connection, and Distinctiveness, then names a mismatch with audience priorities and rehearses a trade-off between dimensions.
+
 #### Part I: Map three works
 
 Choose three recent pieces from different parts of your practice, for example a client piece, a personal piece, and a commercial or promotional piece. Rate each dimension High, Medium, or Low, and say why in one specific sentence.

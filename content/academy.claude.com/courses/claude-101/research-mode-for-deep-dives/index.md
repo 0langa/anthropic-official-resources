@@ -36,6 +36,8 @@ Research is particularly valuable when you need more than a quick answer. It's d
 
 Understanding when to use Research versus other Claude capabilities helps you get the best results for your specific needs.
 
+Exercise: the learner routes sample questions to Research, quick web search, Thinking, or enterprise search, then compares two versions of a Research prompt to pick the stronger one, learning what distinguishes each tool and an effective Research prompt.
+
 Try it
 
 ### Research or not?

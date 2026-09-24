@@ -14,14 +14,14 @@ Today, we’re releasing a set of connectors—tools that let Claude work alongs
 
 Connectors allow Claude to access other platforms and tools directly. We are adding several new connectors that are designed to make it easier to use Claude for creative work:
 
-- **[Ableton](https://claude.ai/redirect/website.v1.eea4838a-beb0-4ff3-a1ed-d1a5ccdee181/directory/connectors/ant.dir.gh.ableton.ableton-knowledge)** grounds Claude’s answers in official product documentation for Live and Push.
-- **[Adobe for creativity](https://claude.ai/redirect/website.v1.eea4838a-beb0-4ff3-a1ed-d1a5ccdee181/directory/connectors/adobe-creativity)** enables users to bring images, videos, and designs to life, drawing from 50+ tools across Creative Cloud apps including Photoshop, Premiere, Express, and more.
-- [**Affinity by Canva**](https://claude.ai/redirect/website.v1.eea4838a-beb0-4ff3-a1ed-d1a5ccdee181/directory/connectors/ant.dir.gh.canva.affinity) automates repetitive production tasks across pro creative workflows - such as batch image adjustments, layer renaming, and file export - and generates custom features directly in the app.
-- **[Autodesk Fusion](https://claude.ai/redirect/website.v1.eea4838a-beb0-4ff3-a1ed-d1a5ccdee181/directory/connectors/ant.dir.gh.autodesk.fusion-mcp)** allows designers and engineers with a Fusion subscription to create and modify 3D models through conversations with Claude.
-- **[Blender](https://claude.ai/redirect/website.v1.eea4838a-beb0-4ff3-a1ed-d1a5ccdee181/directory/connectors/ant.dir.gh.blender.blender-mcp)** offers a natural-language interface to its Python API, allowing users to explore and understand complex setups and making it easier to access Blender’s documentation.
-- **[Resolume Arena](https://claude.ai/redirect/website.v1.eea4838a-beb0-4ff3-a1ed-d1a5ccdee181/directory/connectors/ant.dir.gh.resolume.resolume-arena) and [Resolume Wire](https://claude.ai/redirect/website.v1.eea4838a-beb0-4ff3-a1ed-d1a5ccdee181/directory/connectors/ant.dir.gh.resolume.resolume-wire)** let VJs and live visual artists control Arena, Avenue, and Wire in real time through natural language for live performance and AV production.
-- **[SketchUp](https://claude.ai/redirect/website.v1.eea4838a-beb0-4ff3-a1ed-d1a5ccdee181/directory/connectors/sketchup)** turns a conversation with Claude into a starting point for 3D modeling—describe a room, a piece of furniture, or a site concept, then open it in SketchUp to refine**.**
-- **[Splice](https://claude.ai/redirect/website.v1.eea4838a-beb0-4ff3-a1ed-d1a5ccdee181/directory/connectors/splice)** gives music producers the ability to search its catalog of royalty-free samples from within Claude.
+- **[Ableton](https://claude.ai/redirect/website.v1.60eedf59-c838-4e43-b581-e3c18d481b53/directory/connectors/ant.dir.gh.ableton.ableton-knowledge)** grounds Claude’s answers in official product documentation for Live and Push.
+- **[Adobe for creativity](https://claude.ai/redirect/website.v1.60eedf59-c838-4e43-b581-e3c18d481b53/directory/connectors/adobe-creativity)** enables users to bring images, videos, and designs to life, drawing from 50+ tools across Creative Cloud apps including Photoshop, Premiere, Express, and more.
+- [**Affinity by Canva**](https://claude.ai/redirect/website.v1.60eedf59-c838-4e43-b581-e3c18d481b53/directory/connectors/ant.dir.gh.canva.affinity) automates repetitive production tasks across pro creative workflows - such as batch image adjustments, layer renaming, and file export - and generates custom features directly in the app.
+- **[Autodesk Fusion](https://claude.ai/redirect/website.v1.60eedf59-c838-4e43-b581-e3c18d481b53/directory/connectors/ant.dir.gh.autodesk.fusion-mcp)** allows designers and engineers with a Fusion subscription to create and modify 3D models through conversations with Claude.
+- **[Blender](https://claude.ai/redirect/website.v1.60eedf59-c838-4e43-b581-e3c18d481b53/directory/connectors/ant.dir.gh.blender.blender-mcp)** offers a natural-language interface to its Python API, allowing users to explore and understand complex setups and making it easier to access Blender’s documentation.
+- **[Resolume Arena](https://claude.ai/redirect/website.v1.60eedf59-c838-4e43-b581-e3c18d481b53/directory/connectors/ant.dir.gh.resolume.resolume-arena) and [Resolume Wire](https://claude.ai/redirect/website.v1.60eedf59-c838-4e43-b581-e3c18d481b53/directory/connectors/ant.dir.gh.resolume.resolume-wire)** let VJs and live visual artists control Arena, Avenue, and Wire in real time through natural language for live performance and AV production.
+- **[SketchUp](https://claude.ai/redirect/website.v1.60eedf59-c838-4e43-b581-e3c18d481b53/directory/connectors/sketchup)** turns a conversation with Claude into a starting point for 3D modeling—describe a room, a piece of furniture, or a site concept, then open it in SketchUp to refine**.**
+- **[Splice](https://claude.ai/redirect/website.v1.60eedf59-c838-4e43-b581-e3c18d481b53/directory/connectors/splice)** gives music producers the ability to search its catalog of royalty-free samples from within Claude.
 
 ## Using Claude for creative work
 
@@ -49,6 +49,12 @@ We’re also working with art and design programs to support curricula that invo
 
 ## Related content
 
+### Claude discovers a novel enzyme system with CRISPR-like repeats
+
+We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
+
+[Read more](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
+
 ### Partnering with Accenture on embedded evaluation
 
 [Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)
@@ -58,7 +64,3 @@ We’re also working with art and design programs to support curricula that invo
 The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
 
 [Read more](https://www.anthropic.com/news/life-sciences-verification-program)
-
-### Developing Enterprise Frontier Safeguards with our customers
-
-[Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)

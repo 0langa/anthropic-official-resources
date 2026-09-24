@@ -14,6 +14,8 @@ Claude is an AI assistant made by Anthropic. It can read your documents, draft a
 
 Just write to Claude in plain language. The tips below help, and if anything in your request is unclear you can ask Claude to ask you questions before it starts. You can attach documents to give it more to go on.
 
+Explorer: a still of the claude.ai composer with a worked prompt, its numbered legend showing what context, task, format, and material give Claude, and selectable controls revealing how to add files, connect tools, set output, and pick a model.
+
 planning-meeting-transcript.docx
 
 DOCX
@@ -48,6 +50,8 @@ Your first prompt doesn't have to be perfect. If the answer isn't quite right, s
 ## What a Claude response can look like[](https://academy.claude.com/tutorials/getting-started-with-claude)
 
 Claude answers in whatever form the task calls for, and the list keeps growing. Ask for the thing you actually need, whether that is a plain answer, a chart drawn inline, a deck, a design or a doc made in the conversation, a spreadsheet for Excel, or a recipe you can cook from. Claude makes it, and you steer it.
+
+Explorer: a five-tab carousel showing the different forms a Claude response can take, from plain text and inline diagrams to editable artifacts, generated files, and ready-made cards, teaching that the right form depends on what's asked for.
 
 Plain textInline visualsArtifactsFilesCards
 
@@ -706,6 +710,8 @@ Ready-made answers for everyday asks, such as the weather, a recipe with a step-
 ## Set up your first task[](https://academy.claude.com/tutorials/getting-started-with-claude)
 
 You've seen what Claude can give back. Now set up your first task. The walkthrough below covers what to give Claude, which controls to set, and how to ask for what you need.
+
+Simulation: a replica of the claude.ai message box where you pick a kind of work, then give Claude a tool or file, fill in a missing detail, and set the output, model, or effort.
 
 Try a task forgeneral work
 

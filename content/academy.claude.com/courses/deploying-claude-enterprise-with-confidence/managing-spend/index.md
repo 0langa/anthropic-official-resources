@@ -53,6 +53,8 @@ Pluto set a mid-range model as the organization default and reviews the dashboar
 
 The interactive widget below plays Pluto’s month two forward: you choose the setting Pluto changes (raise the cap, change the default, or set an effort cap) and watch the next month’s spend and the cap respond.
 
+Exercise: a chart shows one member's monthly usage against a per-member group cap, starting paused. The learner changes one group or role setting and sees that fixing a cap breach means raising the limit or reducing usage.
+
 Platform’s members hit their cap in month two and new usage paused. **Change one setting** — each applies to the whole role or group, not one member — and watch a member’s next month move against the cap.
 
 One member’s monthly usage against their cap: usage has reached the cap, and the member is paused.

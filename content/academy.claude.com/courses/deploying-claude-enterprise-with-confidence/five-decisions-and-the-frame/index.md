@@ -43,6 +43,8 @@ Four settings require a bit of extra care to help your rollout go smoothly:
 
 The interactive widget below maps the five decisions and flags where these four settings live. You’ll review this map in Lesson 13, once all five decisions are made, to see what changing any one of them sets off.
 
+Explorer: an interactive dependency map of the five decisions in a Claude Enterprise rollout. Selecting a decision reveals its question, which decisions depend on it, and, for some decisions, which settings are costly to reverse later.
+
 **Click a decision** to see the question it asks, what depends on it, and what to watch out for.
 
 ⚑ marks a setting that is costly to change later. Everything else you can adjust.

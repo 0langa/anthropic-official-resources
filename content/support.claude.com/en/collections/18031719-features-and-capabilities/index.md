@@ -1,10 +1,16 @@
 # Features and capabilities
 
-31 articles
+29 articles
 
 [What are artifacts and how do I use them?](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)
 
-[Publish and share artifacts](https://support.claude.com/en/articles/9547008-publish-and-share-artifacts)
+[Share artifacts](https://support.claude.com/en/articles/9547008-share-artifacts)
+
+[Get started with Claude Docs](https://support.claude.com/en/articles/16923645-get-started-with-claude-docs)
+
+[Get started with Claude Design](https://support.claude.com/en/articles/14604416-get-started-with-claude-design)
+
+[Set up your design system in Claude Design](https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design)
 
 [When should I use web search, extended thinking, and research?](https://support.claude.com/en/articles/11095361-when-should-i-use-web-search-extended-thinking-and-research)
 
@@ -30,6 +36,8 @@
 
 [How to create custom skills](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills)
 
+[Use plugins in Claude](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)
+
 [Browse skills, connectors, and plugins in one directory](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory)
 
 [Use Claude in Xcode](https://support.claude.com/en/articles/12293051-use-claude-in-xcode)
@@ -38,19 +46,11 @@
 
 [Visual and interactive content](https://support.claude.com/en/articles/13641943-visual-and-interactive-content)
 
-[Import and export your memory from Claude](https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude)
-
 [Custom visuals in chat and Cowork](https://support.claude.com/en/articles/13979539-custom-visuals-in-chat-and-cowork)
 
 [Available beta and research preview features](https://support.claude.com/en/articles/14503520-available-beta-and-research-preview-features)
 
 [Use Claude Security](https://support.claude.com/en/articles/14661296-use-claude-security)
-
-[Get started with Claude Design](https://support.claude.com/en/articles/14604416-get-started-with-claude-design)
-
-[Set up your design system in Claude Design](https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design)
-
-[Use plugins in Claude](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)
 
 [See your monthly recap](https://support.claude.com/en/articles/15672559-see-your-monthly-recap)
 
@@ -59,7 +59,3 @@
 [Use Salesforce in Claude](https://support.claude.com/en/articles/16952186-use-salesforce-in-claude)
 
 [Set up Salesforce in Claude for your organization](https://support.claude.com/en/articles/16952184-set-up-salesforce-in-claude-for-your-organization)
-
-[Get started with Claude Docs](https://support.claude.com/en/articles/16923645-get-started-with-claude-docs)
-
-[Invite people outside your organization to an artifact](https://support.claude.com/en/articles/16989529-invite-people-outside-your-organization-to-an-artifact)

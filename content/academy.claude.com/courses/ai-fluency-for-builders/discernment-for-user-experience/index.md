@@ -29,6 +29,8 @@ between a critique you’d give a colleague and a description AI can execute.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=jgcF2d0kW7U)
 
+Explorer: a four-tab lab shows a food-delivery app mockup with flawed designs for clarity, hierarchy, accessibility, and feedback, where hovering reveals each flaw and a toggle shows the corrected version.
+
 UX Lab: Apply the four principles
 
 Each tab shows a food delivery screen with common UX problems AI generates by default. Hover over any element to discover what’s wrong — then click Show Fix to see how it should be built.
@@ -146,6 +148,8 @@ One thing you'll notice in the exercises, the critique that you'd give a colleag
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=jgcF2d0kW7U)
 
+Explorer: a four-tab lab shows a food-delivery app mockup with flawed designs for clarity, hierarchy, accessibility, and feedback, where hovering reveals each flaw and a toggle shows the corrected version.
+
 UX Lab: Apply the four principles
 
 Each tab shows a food delivery screen with common UX problems AI generates by default. Hover over any element to discover what’s wrong — then click Show Fix to see how it should be built.
@@ -244,6 +248,8 @@ One thing you'll notice in the exercises, the critique that you'd give a colleag
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=jgcF2d0kW7U)
 
+Explorer: a four-tab lab shows a food-delivery app mockup with flawed designs for clarity, hierarchy, accessibility, and feedback, where hovering reveals each flaw and a toggle shows the corrected version.
+
 UX Lab: Apply the four principles
 
 Each tab shows a food delivery screen with common UX problems AI generates by default. Hover over any element to discover what’s wrong — then click Show Fix to see how it should be built.
@@ -339,6 +345,8 @@ This is Description and Discernment working together. You describe the experienc
 One thing you'll notice in the exercises, the critique that you'd give a colleague and the description AI needs are not the same document. This feels cluttered is a fair critique, but it's useless instruction for AI. Part of design literacy is learning how to translate your own taste into something that is executable. Let's put it to work.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=jgcF2d0kW7U)
+
+Explorer: a four-tab lab shows a food-delivery app mockup with flawed designs for clarity, hierarchy, accessibility, and feedback, where hovering reveals each flaw and a toggle shows the corrected version.
 
 UX Lab: Apply the four principles
 
@@ -439,6 +447,8 @@ This is Description and Discernment working together. You describe the experienc
 One thing you'll notice in the exercises, the critique that you'd give a colleague and the description AI needs are not the same document. This feels cluttered is a fair critique, but it's useless instruction for AI. Part of design literacy is learning how to translate your own taste into something that is executable. Let's put it to work.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=jgcF2d0kW7U)
+
+Explorer: a four-tab lab shows a food-delivery app mockup with flawed designs for clarity, hierarchy, accessibility, and feedback, where hovering reveals each flaw and a toggle shows the corrected version.
 
 UX Lab: Apply the four principles
 

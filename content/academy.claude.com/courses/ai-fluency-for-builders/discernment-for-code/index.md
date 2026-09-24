@@ -29,6 +29,8 @@ build the taste that AI doesn’t have.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=7J2-HzHs4c8)
 
+Explorer: five tabs present lenses for judging AI-generated code beyond whether it runs, each pairing a guiding question with a concrete check and a common AI failure mode, moving from easily tested criteria to ones requiring human judgment.
+
 The Five Lenses of Discernment
 
 Lens 1 is easy to test — run it and see. By Lens 5, you’re making judgment calls AI can’t make for you.
@@ -179,6 +181,8 @@ Alright, it's time to apply these lenses. Let's go.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=7J2-HzHs4c8)
 
+Explorer: five tabs present lenses for judging AI-generated code beyond whether it runs, each pairing a guiding question with a concrete check and a common AI failure mode, moving from easily tested criteria to ones requiring human judgment.
+
 The Five Lenses of Discernment
 
 Lens 1 is easy to test — run it and see. By Lens 5, you’re making judgment calls AI can’t make for you.
@@ -287,6 +291,8 @@ One more thing, when you find something that isn't good enough, notice your own 
 Alright, it's time to apply these lenses. Let's go.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=7J2-HzHs4c8)
+
+Explorer: five tabs present lenses for judging AI-generated code beyond whether it runs, each pairing a guiding question with a concrete check and a common AI failure mode, moving from easily tested criteria to ones requiring human judgment.
 
 The Five Lenses of Discernment
 
@@ -397,6 +403,8 @@ Alright, it's time to apply these lenses. Let's go.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=7J2-HzHs4c8)
 
+Explorer: five tabs present lenses for judging AI-generated code beyond whether it runs, each pairing a guiding question with a concrete check and a common AI failure mode, moving from easily tested criteria to ones requiring human judgment.
+
 The Five Lenses of Discernment
 
 Lens 1 is easy to test — run it and see. By Lens 5, you’re making judgment calls AI can’t make for you.
@@ -506,6 +514,8 @@ Alright, it's time to apply these lenses. Let's go.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=7J2-HzHs4c8)
 
+Explorer: five tabs present lenses for judging AI-generated code beyond whether it runs, each pairing a guiding question with a concrete check and a common AI failure mode, moving from easily tested criteria to ones requiring human judgment.
+
 The Five Lenses of Discernment
 
 Lens 1 is easy to test — run it and see. By Lens 5, you’re making judgment calls AI can’t make for you.
@@ -614,6 +624,8 @@ One more thing, when you find something that isn't good enough, notice your own 
 Alright, it's time to apply these lenses. Let's go.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=7J2-HzHs4c8)
+
+Explorer: five tabs present lenses for judging AI-generated code beyond whether it runs, each pairing a guiding question with a concrete check and a common AI failure mode, moving from easily tested criteria to ones requiring human judgment.
 
 The Five Lenses of Discernment
 

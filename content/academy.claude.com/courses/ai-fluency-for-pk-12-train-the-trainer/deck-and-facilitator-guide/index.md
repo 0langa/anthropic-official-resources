@@ -8,6 +8,8 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-pk-12-train-the-trainer%2Fdeck-and-facilitator-guide)
 
+Walkthrough: A navigable, downloadable 50-slide workshop deck with speaker notes for training facilitators to run an AI fluency session for pK-12 educators, covering the 4D Framework's inner and outer loops through grade-band exercises and discussion prompts.
+
 Speaker notes
 
 Download ▾

@@ -4,7 +4,7 @@ Partner Series
 
 Recorded event
 
-Aug 21, 2025
+August 21, 2025
 
 —
 

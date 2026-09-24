@@ -14,12 +14,12 @@ Get started with Claude across everyday conversations, projects, and files.
 
 [Account management15 articles](https://support.claude.com/en/collections/9811145-account-management)
 
-[Conversation management8 articles](https://support.claude.com/en/collections/18031977-conversation-management)
+[Conversation management9 articles](https://support.claude.com/en/collections/18031977-conversation-management)
 
-[Features and capabilities31 articles](https://support.claude.com/en/collections/18031719-features-and-capabilities)
+[Features and capabilities29 articles](https://support.claude.com/en/collections/18031719-features-and-capabilities)
 
 [Personalization and settings5 articles](https://support.claude.com/en/collections/18031818-personalization-and-settings)
 
 [Troubleshooting4 articles](https://support.claude.com/en/collections/18032037-troubleshooting)
 
-[Usage and limits5 articles](https://support.claude.com/en/collections/18031876-usage-and-limits)
+[Usage and limits6 articles](https://support.claude.com/en/collections/18031876-usage-and-limits)

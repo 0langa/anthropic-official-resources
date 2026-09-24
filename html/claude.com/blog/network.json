@@ -47,12 +47,12 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
-    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js"
+    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
   },
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
-    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+    "url": "https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js"
   },
   {
     "reason": "optional_media_widget_or_analytics",
@@ -66,18 +66,23 @@
   },
   {
     "reason": "optional_media_widget_or_analytics",
+    "type": "stylesheet",
+    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.6a29b6f001701634e98537ca.25a3ea705.min.css"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
     "type": "script",
     "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
   },
   {
     "reason": "optional_media_widget_or_analytics",
-    "type": "script",
-    "url": "https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"
+    "type": "stylesheet",
+    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.6d3cc22e1.min.css"
   },
   {
     "reason": "optional_media_widget_or_analytics",
-    "type": "stylesheet",
-    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.6d3cc22e1.min.css"
+    "type": "script",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"
   },
   {
     "reason": "optional_media_widget_or_analytics",
@@ -137,6 +142,11 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
+    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
     "url": "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js"
   },
   {
@@ -167,11 +177,6 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
-    "url": "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "script",
     "url": "https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"
   },
   {
@@ -183,6 +188,11 @@
     "reason": "optional_media_widget_or_analytics",
     "type": "stylesheet",
     "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "stylesheet",
+    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.6a29b6f001701634e98537ca.25a3ea705.min.css"
   },
   {
     "reason": "optional_media_widget_or_analytics",

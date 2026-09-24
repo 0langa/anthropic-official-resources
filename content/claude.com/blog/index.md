@@ -307,6 +307,54 @@ Grid
 
 List
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
+
+Sep 23, 2026
+
+How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
+
+Enterprise AI
+
+How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
+
+September 23, 2026
+
+[How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace](https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
+
+[How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace](https://claude.com/blog)How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+
+Sep 23, 2026
+
+How to prepare for AI-driven code modernization projects
+
+Enterprise AI
+
+How to prepare for AI-driven code modernization projects
+
+September 23, 2026
+
+[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
+
+[How to prepare for AI-driven code modernization projects](https://claude.com/blog) How to prepare for AI-driven code modernization projects
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+
+Sep 23, 2026
+
+Claude Marketplace: one place to discover plugins, agents, and services from our partners
+
+Product announcements
+
+Claude Marketplace: one place to discover plugins, agents, and services from our partners
+
+September 23, 2026
+
+[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+
+[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
 
 Sep 22, 2026
@@ -497,54 +545,6 @@ September 10, 2026
 
 [T. Rowe Price brings more of Claude to its investment process](https://claude.com/blog)T. Rowe Price brings more of Claude to its investment process
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
-
-Sep 10, 2026
-
-What 1,000 small business owners taught us about AI
-
-Enterprise AI
-
-What 1,000 small business owners taught us about AI
-
-September 10, 2026
-
-[What 1,000 small business owners taught us about AI](https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai)What 1,000 small business owners taught us about AI
-
-[What 1,000 small business owners taught us about AI](https://claude.com/blog)What 1,000 small business owners taught us about AI
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Sep 8, 2026
-
-Reducing cost and improving performance with Claude Platform
-
-Agents
-
-Reducing cost and improving performance with Claude Platform
-
-September 8, 2026
-
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
-
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog)Reducing cost and improving performance with Claude Platform
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Sep 2, 2026
-
-A guide to the anatomy of effective commerce agents
-
-Agents
-
-A guide to the anatomy of effective commerce agents
-
-September 2, 2026
-
-[A guide to the anatomy of effective commerce agents](https://claude.com/blog/the-anatomy-of-effective-commerce-agents)A guide to the anatomy of effective commerce agents
-
-[A guide to the anatomy of effective commerce agents](https://claude.com/blog)A guide to the anatomy of effective commerce agents
-
 [View more](https://claude.com/?b7eea976_page=2)
 
 1 / 17
@@ -554,6 +554,54 @@ Category
 Product
 
 Usecase
+
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
+
+Category
+
+Enterprise AI
+
+Product
+
+Usecase
+
+September 23, 2026
+
+[How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace](https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
+
+[How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace](https://claude.com/blog)How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
+
+### How to prepare for AI-driven code modernization projects
+
+Category
+
+Enterprise AI
+
+Product
+
+Usecase
+
+September 23, 2026
+
+[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
+
+[How to prepare for AI-driven code modernization projects](https://claude.com/blog) How to prepare for AI-driven code modernization projects
+
+### Claude Marketplace: one place to discover plugins, agents, and services from our partners
+
+Category
+
+Product announcements
+
+Product
+
+Usecase
+
+September 23, 2026
+
+[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+
+[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog)Claude Marketplace: one place to discover plugins, agents, and services from our partners
 
 ### What a task costs on Opus 5.5
 
@@ -744,54 +792,6 @@ September 10, 2026
 [T. Rowe Price brings more of Claude to its investment process](https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process)T. Rowe Price brings more of Claude to its investment process
 
 [T. Rowe Price brings more of Claude to its investment process](https://claude.com/blog)T. Rowe Price brings more of Claude to its investment process
-
-### What 1,000 small business owners taught us about AI
-
-Category
-
-Enterprise AI
-
-Product
-
-Usecase
-
-September 10, 2026
-
-[What 1,000 small business owners taught us about AI](https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai)What 1,000 small business owners taught us about AI
-
-[What 1,000 small business owners taught us about AI](https://claude.com/blog)What 1,000 small business owners taught us about AI
-
-### Reducing cost and improving performance with Claude Platform
-
-Category
-
-Agents
-
-Product
-
-Usecase
-
-September 8, 2026
-
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
-
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog)Reducing cost and improving performance with Claude Platform
-
-### A guide to the anatomy of effective commerce agents
-
-Category
-
-Agents
-
-Product
-
-Usecase
-
-September 2, 2026
-
-[A guide to the anatomy of effective commerce agents](https://claude.com/blog/the-anatomy-of-effective-commerce-agents)A guide to the anatomy of effective commerce agents
-
-[A guide to the anatomy of effective commerce agents](https://claude.com/blog)A guide to the anatomy of effective commerce agents
 
 [View more](https://claude.com/?d7430fcd_page=2)
 

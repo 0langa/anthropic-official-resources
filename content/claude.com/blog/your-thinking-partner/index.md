@@ -80,6 +80,42 @@ Try now
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
+
+Oct 20, 2025
+
+### Claude Code on the web
+
+Product announcements
+
+[Claude Code on the web](https://claude.com/blog/your-thinking-partner)Claude Code on the web
+
+[Claude Code on the web](https://claude.com/blog/claude-code-on-the-web)Claude Code on the web
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aaaa060d1aec4a549c537ef_Object-Easel.svg)
+
+Sep 16, 2026
+
+### Claude Cowork and chat are now one Claude
+
+Product announcements
+
+[Claude Cowork and chat are now one Claude](https://claude.com/blog/your-thinking-partner)Claude Cowork and chat are now one Claude
+
+[Claude Cowork and chat are now one Claude](https://claude.com/blog/cowork-is-now-claude)Claude Cowork and chat are now one Claude
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+
+Sep 23, 2026
+
+### Claude Marketplace: one place to discover plugins, agents, and services from our partners
+
+Product announcements
+
+[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/your-thinking-partner)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+
+[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
 
 Sep 17, 2026
@@ -91,42 +127,6 @@ Product announcements
 [Projects redesigned: from folder to conversation](https://claude.com/blog/your-thinking-partner)Projects redesigned: from folder to conversation
 
 [Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa82dfc4ca89952d04c3873_Object-Store.svg)
-
-Sep 15, 2026
-
-### Claude for Small Business launches new workflows, integrations, and training programs
-
-Product announcements
-
-[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/your-thinking-partner)Claude for Small Business launches new workflows, integrations, and training programs
-
-[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Claude for Small Business launches new workflows, integrations, and training programs
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Jun 25, 2025
-
-### Turn ideas into interactive AI-powered apps
-
-Product announcements
-
-[Turn ideas into interactive AI-powered apps](https://claude.com/blog/your-thinking-partner)Turn ideas into interactive AI-powered apps
-
-[Turn ideas into interactive AI-powered apps](https://claude.com/blog/build-artifacts)Turn ideas into interactive AI-powered apps
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
-
-Jul 25, 2025
-
-### Build and share AI-powered apps with Claude
-
-Product announcements
-
-[Build and share AI-powered apps with Claude](https://claude.com/blog/your-thinking-partner)Build and share AI-powered apps with Claude
-
-[Build and share AI-powered apps with Claude](https://claude.com/blog/claude-powered-artifacts)Build and share AI-powered apps with Claude
 
 ## Transform how your organization operates with Claude
 

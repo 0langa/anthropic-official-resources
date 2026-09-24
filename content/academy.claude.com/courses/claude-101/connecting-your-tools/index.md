@@ -27,6 +27,8 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-1
 
 Below is a request Claude can already handle — everything it needs is in the words you typed. Nothing else is connected yet. **Turn on a source and watch the request grow:** each connection lets you ask for something that lives outside your message.
 
+Exercise: the learner toggles three connector sources on and off, each adding a sentence to a request asking for outside information, to show that connections only give the request somewhere to point, not a reason for Claude to search unprompted.
+
 Try it
 
 ### Connect a source, ask for more

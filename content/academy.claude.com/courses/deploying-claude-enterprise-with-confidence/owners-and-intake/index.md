@@ -32,6 +32,8 @@ The table above is a guide for who should be involved in these decisions, not a 
 
 The interactive widget below is the intake questionnaire: it asks about your company’s shape, your directory, your regulated work, and your mandate, and flags the decisions that need extra attention at your company, with the reason for each flag. The decisions are already in the order they have to be made, and you can copy the result into your companion.
 
+Exercise: the learner answers intake questions about their own organization's functions, identity setup, regulated work, and budget owner, which flag which of five deployment decisions need extra attention and why, with a copyable summary.
+
 **Answer about your organization.** Each answer lands on the five decisions below; the ones your answers raise the stakes on get flagged, with the reason.
 
 Which functions are in your first wave?

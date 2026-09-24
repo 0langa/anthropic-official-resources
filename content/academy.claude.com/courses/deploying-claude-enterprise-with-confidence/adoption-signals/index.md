@@ -28,6 +28,8 @@ For the group-by-group view this lesson relies on, use the group breakdowns from
 
 The interactive widget below is a way to think a number through: it hands you a dashboard shape and traces it to every cause that could produce it — usually more than one — to see what it can tell you, and what it can’t.
 
+Exercise: the learner picks a dashboard usage shape and sees it linked to every cause that could produce it, with who to ask and what to ask. It teaches that one adoption number usually maps to several possible causes, so it's a diagnostic, not proof.
+
 **Pick a shape** a dashboard hands you — each is a breadth or a depth signal. The map draws it to every cause that could produce it — usually more than one.
 
 The shape on the dashboardPick one

@@ -43,6 +43,8 @@ You've used AI to support tasks already in this course. Now you'll use it to des
 
 First review projects other educators have built through Teach For America's AI educator development work below to give you some inspiration.
 
+Gallery: a three-column table listing tools educators built through an AI educator development program, naming each tool, what it does, and the classroom problem it addresses, offering inspiration before designing one's own tool.
+
 ToolWhat it doesProblem it solves
 
 ### Your Future Career

@@ -27,6 +27,8 @@ Claude is more than a chatbot—it's an AI assistant designed to be your thinkin
 
 Claude can help with a wide range of tasks that go far beyond simple question-and-answer interactions to assistant-like partnership that can both automate *and* augment your work.
 
+Exercise: the learner sorts six real requests as search-box work or thinking-partner work, then reviews explanations and a final tally showing how wording can disguise which a request truly needs.
+
 Sort six requests
 
 ### Which of these needs a thinking partner?

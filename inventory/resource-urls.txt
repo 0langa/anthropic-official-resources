@@ -583,6 +583,7 @@ https://academy.claude.com/tutorials/claude-for-financial-services-skills
 https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-guide-for-all-users
 https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-success-guide-for-admins
 https://academy.claude.com/tutorials/claude-for-teachers-in-action
+https://academy.claude.com/tutorials/claude-tag-admin-guide
 https://academy.claude.com/tutorials/configuration-and-multi-file-skills
 https://academy.claude.com/tutorials/connect-your-tools-to-unlock-a-smarter-more-capable-ai-companion
 https://academy.claude.com/tutorials/create-and-edit-files-with-claude-to-eliminate-hours-of-busy-work
@@ -930,6 +931,7 @@ https://claude.com/blog/claude-in-microsoft-foundry
 https://claude.com/blog/claude-managed-agents
 https://claude.com/blog/claude-managed-agents-memory
 https://claude.com/blog/claude-managed-agents-updates
+https://claude.com/blog/claude-marketplace
 https://claude.com/blog/claude-model-and-effort-level-in-claude-code
 https://claude.com/blog/claude-models-explained
 https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case
@@ -1000,6 +1002,7 @@ https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-nar
 https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds
 https://claude.com/blog/how-brex-improves-code-quality-and-productivity-with-claude-code
 https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start
+https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace
 https://claude.com/blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system
 https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code
 https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026
@@ -1014,6 +1017,7 @@ https://claude.com/blog/how-people-are-using-claude-cowork
 https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them
 https://claude.com/blog/how-to-configure-hooks
 https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples
+https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects
 https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude
 https://claude.com/blog/improved-web-search-with-dynamic-filtering
 https://claude.com/blog/improving-frontend-design-through-skills
@@ -3199,6 +3203,7 @@ https://support.claude.com/en/articles/14554000-claude-code-power-user-tips
 https://support.claude.com/en/articles/14554922-claude-code-user-faq
 https://support.claude.com/en/articles/14555399-claude-code-champion-kit
 https://support.claude.com/en/articles/14555877-claude-code-communications-kit
+https://support.claude.com/en/articles/14604397
 https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design
 https://support.claude.com/en/articles/14604406-claude-design-admin-guide-for-team-and-enterprise-plans
 https://support.claude.com/en/articles/14604416
@@ -3315,6 +3320,8 @@ https://support.claude.com/en/articles/16952184-set-up-salesforce-in-claude-for-
 https://support.claude.com/en/articles/16952186
 https://support.claude.com/en/articles/16952186-use-salesforce-in-claude
 https://support.claude.com/en/articles/16989529-invite-people-outside-your-organization-to-an-artifact
+https://support.claude.com/en/articles/16994751
+https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans
 https://support.claude.com/en/articles/17005973-manage-pooled-group-budgets-on-enterprise-plans
 https://support.claude.com/en/articles/17007452
 https://support.claude.com/en/articles/17007452-what-is-a-limit-reset
@@ -3432,6 +3439,7 @@ https://support.claude.com/en/articles/9534590-cost-and-usage-reporting-in-the-c
 https://support.claude.com/en/articles/9547008
 https://support.claude.com/en/articles/9547008-discovering-publishing-customizing-and-sharing-artifacts
 https://support.claude.com/en/articles/9547008-publish-and-share-artifacts
+https://support.claude.com/en/articles/9547008-share-artifacts
 https://support.claude.com/en/articles/9612887-install-claude-for-android
 https://support.claude.com/en/articles/9612892-how-do-i-sign-up-for-claude-pro-on-claude-for-android
 https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure
@@ -3648,6 +3656,7 @@ https://www.anthropic.com/news/claude-code-plugins
 https://www.anthropic.com/news/claude-code-security
 https://www.anthropic.com/news/claude-corps
 https://www.anthropic.com/news/claude-design-anthropic-labs
+https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
 https://www.anthropic.com/news/claude-europe
 https://www.anthropic.com/news/claude-fable-5-mythos-5
 https://www.anthropic.com/news/claude-for-chrome

@@ -8,6 +8,8 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-k-12-educators%2Fexplore)
 
+Explorer: browse the 4D Framework's four AI-fluency competencies for educators—Description, Delegation, Discernment, and Diligence—filtering to expand indicators with educator-voice examples and things to try in the classroom.
+
 ![](https://academy.claude.com/assets/v1/description-f315uzxh.png)Description8 indicators![](https://academy.claude.com/assets/v1/delegation-n9hdgdy7.png)Delegation7 indicators![](https://academy.claude.com/assets/v1/discernment-no9o7gpn.png)Discernment5 indicators![](https://academy.claude.com/assets/v1/diligence-h8h0itfi.png)Diligence4 indicators
 
 All 24Description 8Delegation 7Discernment 5Diligence 4

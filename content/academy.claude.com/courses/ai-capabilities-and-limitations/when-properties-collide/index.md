@@ -30,6 +30,8 @@ for.
 
 ## Two properties meeting: diagnosing what went wrong[](https://academy.claude.com/courses/ai-capabilities-and-limitations/when-properties-collide)
 
+Simulation: drag any two of four AI property nodes, such as Next Token Prediction and Knowledge, close together to reveal the failure mode their interaction causes and a targeted fix, showing that most AI failures come from two properties colliding.
+
 ### When Properties Collide
 
 Most real-world AI failures are two properties meeting at the same time.

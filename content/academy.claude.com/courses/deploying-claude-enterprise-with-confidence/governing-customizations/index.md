@@ -67,6 +67,8 @@ Pluto runs a split posture: members in most groups build freely and share within
 
 The interactive widget below follows one skill through the build-review-publish loop: switch between the postures — Pluto’s open build with reviewed spread for most groups, approve-first for Payments & Trust — and watch where the review gate sits.
 
+Exercise: switch among four governance postures to see where a review gate lands across build, vet, promote, and spread stages, who may act at each, and which sample skills pass, stop, or spread unreviewed, showing how posture trades speed for review.
+
 **Switch the posture** and watch where the review gate sits and which Skill it stops.
 
 Open build, reviewed spread · Pluto (most groups)Approve-first · Payments & TrustCentralizedFully open

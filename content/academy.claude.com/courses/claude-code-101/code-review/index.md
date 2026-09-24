@@ -30,6 +30,8 @@ If the whole change is wrong, run `/rewind` (or press `Esc` twice on an empty pr
 
 The exercise below uses a small signup-form task: Claude's summary on top, the eight files Claude touched underneath.
 
+Exercise: after reading Claude's summary of a completed coding task, expand each changed file's diff and flag the ones that deserve a second look, getting feedback on each attempt, to learn that a true summary can still omit changes worth scrutinizing.
+
 Compare Claude's summary with the diff
 
 0 of 3 found
@@ -85,6 +87,8 @@ Review the changes you just made. Report problems; don't fix anything yet.
 Add an effort level to the command. `/code-review low` reports only the findings it's most confident about, so you see fewer false alarms. `/code-review high` casts a wider net and may include findings it's less sure of. The level you type is remembered for later reviews until you type a different one.
 
 For the signup-form change, the review came back with four findings:
+
+Transcript: shows /code-review's findings on a sample code change, each with a file location, a correctness-or-style tag, and a one-line summary, illustrating what a clean-context second opinion surfaces before the learner sorts these findings next.
 
 >/code-review
 
@@ -142,6 +146,8 @@ A simple, one-line change often needs a quick glance at the diff and nothing els
 No. [Claude Code Review(opens in new tab)](https://code.claude.com/docs/en/code-review) is a separate product for teams: an admin turns it on for a GitHub repository, and it posts its findings on pull requests. Nothing in this lesson needs it.
 
 ## Try it: sort the four findings[](https://academy.claude.com/courses/claude-code-101/code-review)
+
+Exercise: for each finding from a code review tool, the learner sorts it as fix now, ask why, or leave it, unlocking feedback on each choice. It teaches that not every finding needs an immediate fix, and reviewers can sometimes be wrong.
 
 Which pile does each of these findings belong in?
 

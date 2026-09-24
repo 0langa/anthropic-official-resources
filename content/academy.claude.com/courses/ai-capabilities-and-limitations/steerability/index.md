@@ -32,6 +32,8 @@ the interesting failures live in that gap.
 
 ## How much are you actually in control?[](https://academy.claude.com/courses/ai-capabilities-and-limitations/steerability)
 
+Exercise: for a scenario with a strict word-count instruction, the learner places a guess on a five-point continuum from "trust it" to "high risk," then locks it in to see where most learners land and why, revealing steerability's strengths, failure patterns, and mitigating product features.
+
 Before you read
 
 You ask AI to **write exactly 100 words, no more**. How closely do you need to check the result? Pick a spot on the continuum, then lock in your guess.

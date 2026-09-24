@@ -8,7 +8,7 @@ Partner Series
 
 Recorded event
 
-Sep 16, 2026
+September 16, 2026
 
 —
 
@@ -69,7 +69,7 @@ The recording of this webinar is not available yet.
 
 ## Thank you for registering to watch
 
-[Watch webinar](https://www.anthropic.com/webinars/enterprise-transformation-with-claude-on-aws-three-paths-to-production)Watch webinar
+[Watch webinar](https://anthropic.ondemand.goldcast.io/on-demand/13647298-532d-4383-8615-cc332a560936)Watch webinar
 
 Watch webinar
 

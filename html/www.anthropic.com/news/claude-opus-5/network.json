@@ -10,19 +10,14 @@
     "url": "https://assets.claude.ai/sdk/antalytics/latest.umd.js"
   },
   {
-    "reason": "outside_scope",
-    "type": "document",
-    "url": "https://a.anthropic.com/isolated-segment.html"
-  },
-  {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
     "url": "https://www.googletagmanager.com/gtm.js"
   },
   {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "fetch",
-    "url": "https://a-cdn.anthropic.com/v1/projects/LKJN8LsLERHEOXkw487o7qCTFOrGPimI/settings"
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://a.anthropic.com/isolated-segment.html"
   },
   {
     "reason": "optional_media_widget_or_analytics",

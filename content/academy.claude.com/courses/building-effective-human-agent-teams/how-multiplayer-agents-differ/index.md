@@ -17,6 +17,8 @@ Multiplayer agents have different capabilities than single-player AI. They have 
 
 ## What a multiplayer agent is made of[](https://academy.claude.com/courses/building-effective-human-agent-teams/how-multiplayer-agents-differ)
 
+Film: a narrated animation contrasting a traditional chatbot, which signs in as the user and knows only what they know, with a multiplayer agent that has its own identity, a memory built over time, and shared context the whole team contributes.
+
 Use space to play or pause the explainer, and the arrow keys to move between scenes.
 
 #launch-roomRavi9:02Help me plan our applaunchChatbot9:02Here's a draft plansigned in as RaviRaviMaraJordanSamLeeRavi9:02Launch dates are finalJordan9:40Cut the referral bannerMara10:15Three feedback themesSam11:30Standup notes for todayClaudeClaude · launch tracker#launch-roomRavia modela traditional chatbotIts own credentialsMemoryShared contextPlay explainer
@@ -50,6 +52,8 @@ One key distinction between a single-player agent and a multiplayer agent is its
 ## Try it: take a capability away[](https://academy.claude.com/courses/building-effective-human-agent-teams/how-multiplayer-agents-differ)
 
 The agent starts fully equipped. Switch one capability off at a time and read how the week changes.
+
+Simulation: toggle a multiplayer agent's identity and credentials, shared memory, and shared context on or off to see which days of its launch week break down, each failure naming the missing capability.
 
 ### Take a capability away
 

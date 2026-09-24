@@ -93,17 +93,41 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa82dfc4ca89952d04c3873_Object-Store.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
 
-Sep 15, 2026
+Oct 20, 2025
 
-### Claude for Small Business launches new workflows, integrations, and training programs
+### Claude Code on the web
 
 Product announcements
 
-[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/team-plan-and-ios)Claude for Small Business launches new workflows, integrations, and training programs
+[Claude Code on the web](https://claude.com/blog/team-plan-and-ios)Claude Code on the web
 
-[Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Claude for Small Business launches new workflows, integrations, and training programs
+[Claude Code on the web](https://claude.com/blog/claude-code-on-the-web)Claude Code on the web
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aaaa060d1aec4a549c537ef_Object-Easel.svg)
+
+Sep 16, 2026
+
+### Claude Cowork and chat are now one Claude
+
+Product announcements
+
+[Claude Cowork and chat are now one Claude](https://claude.com/blog/team-plan-and-ios)Claude Cowork and chat are now one Claude
+
+[Claude Cowork and chat are now one Claude](https://claude.com/blog/cowork-is-now-claude)Claude Cowork and chat are now one Claude
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+
+Sep 23, 2026
+
+### Claude Marketplace: one place to discover plugins, agents, and services from our partners
+
+Product announcements
+
+[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/team-plan-and-ios)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+
+[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
 
@@ -116,30 +140,6 @@ Product announcements
 [Projects redesigned: from folder to conversation](https://claude.com/blog/team-plan-and-ios)Projects redesigned: from folder to conversation
 
 [Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
-
-Jun 18, 2026
-
-### Claude Code now supports artifacts
-
-Product announcements
-
-[Claude Code now supports artifacts](https://claude.com/blog/team-plan-and-ios)Claude Code now supports artifacts
-
-[Claude Code now supports artifacts](https://claude.com/blog/artifacts-in-claude-code)Claude Code now supports artifacts
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Jun 25, 2025
-
-### Turn ideas into interactive AI-powered apps
-
-Product announcements
-
-[Turn ideas into interactive AI-powered apps](https://claude.com/blog/team-plan-and-ios)Turn ideas into interactive AI-powered apps
-
-[Turn ideas into interactive AI-powered apps](https://claude.com/blog/build-artifacts)Turn ideas into interactive AI-powered apps
 
 ## Transform how your organization operates with Claude
 

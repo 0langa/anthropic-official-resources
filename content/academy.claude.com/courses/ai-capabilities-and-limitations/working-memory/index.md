@@ -32,6 +32,8 @@ properties aren't: things work until they don't.
 
 ## The context window: AI's working memory[](https://academy.claude.com/courses/ai-capabilities-and-limitations/working-memory)
 
+Exercise: given a scenario about reviewing a long contract, the learner places a guess on a continuum from trusting AI's output to treating it as high risk, then locks it in to reveal typical placement and explanations of the context window's capabilities and limits.
+
 Before you read
 
 You ask AI to **review a 50-page contract**. How closely do you need to check the result? Pick a spot on the continuum, then lock in your guess.

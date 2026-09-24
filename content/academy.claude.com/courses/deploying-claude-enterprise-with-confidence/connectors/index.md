@@ -56,6 +56,8 @@ Pluto added its drive and its wiki for every group, read-only, and added the tic
 
 The interactive widget below runs Pluto’s three gates for a single connector: open or close any gate and watch who controls it and what each member experiences.
 
+Exercise: the learner toggles three cascading gates, organization, group, and member authentication, for a sample connector and watches how many members gain access. It teaches that access cascades through all three layers, and that enterprise-managed authorization can replace individual member authentication.
+
 **Open or close any gate.** The connector reaches a member only where every gate above them is open.
 
 Gate 1Owner

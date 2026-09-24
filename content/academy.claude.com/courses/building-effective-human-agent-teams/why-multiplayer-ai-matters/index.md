@@ -17,6 +17,8 @@ Meet the Lantern team, a group about to launch a health tracker app. To date, th
 
 ## From super suit to shared room[](https://academy.claude.com/courses/building-effective-human-agent-teams/why-multiplayer-ai-matters)
 
+Film: an eight-scene animated explainer that plays on its own, contrasting a user working privately with an AI assistant against a team sharing one room with Claude. It shows siloed, mismatched answers versus one shared answer everyone reads, refines, and reuses as team knowledge.
+
 Use space to play or pause the explainer, and the arrow keys to move between scenes.
 
 #launch-roomClaudeParallel workMultiplayer AIRaviYesterday's meeting?Summary3 action items≠RaviMaraYesterday's meeting?Summary4 action items≠MaraJordanYesterday's meeting?SummaryOwner: Mara≠JordanSamYesterday's meeting?SummaryOwner: JordanSamClaude · notesPlay explainer
@@ -58,6 +60,8 @@ Over time, this becomes knowledge the team can build on. It allows humans and ag
 ## Try it: see the impact of moving from single-player AI to multiplayer AI[](https://academy.claude.com/courses/building-effective-human-agent-teams/why-multiplayer-ai-matters)
 
 Drag the team size and switch how the team uses AI. Watch what gets duplicated.
+
+Simulation: adjust team size, choose private AI use versus agents in a shared channel, and set a time span to see duplicate requests, summary versions, and searchable posts change, showing how shared AI use reduces duplicated work as teams grow.
 
 ### See the impact of siloed work as the team grows
 

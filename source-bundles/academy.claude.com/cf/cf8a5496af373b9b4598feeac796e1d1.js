@@ -1,0 +1,24 @@
+import{Qp as e,em as t}from"../../../../../content-de-meta-ll4flgq0.js";import{t as n}from"../../../../../closure-and-enrichment-gge580y4.js";var r=e();function i(e){let i={a:"a",em:"em",h2:"h2",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...t(),...e.components},{Exercise:a,ExerciseDeck:s,LessonVideo:c,ResourceWidget:l}=i;return a||o("Exercise",!0),s||o("ExerciseDeck",!0),c||o("LessonVideo",!0),l||o("ResourceWidget",!0),(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(i.h2,{id:"growing-your-ai-fluency-in-the-classroom-and-beyond",children:"Growing your AI Fluency in the classroom and beyond"}),`
+`,(0,r.jsx)(c,{youtubeId:"E6eoQgfSUHY",title:"Closure and enrichment",duration:"3 min",transcript:n,children:(0,r.jsx)(i.p,{children:`In this final video, we recap the 4D Framework as your ongoing guide and
+walk through concrete ways to keep building your AI Fluency in your
+classroom, your school, and your professional community. You'll leave with
+one clear next step: a real task to tackle with AI this week.`})}),`
+`,(0,r.jsx)(i.h2,{id:"key-takeaways",children:"Key takeaways"}),`
+`,(0,r.jsxs)(i.ul,{children:[`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"The 4D Framework is loop, not a line."})," You might flow from Delegation to Description, back to Discernment, and realize you want to delegate differently."]}),`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"Use blueprints to guide your work with AI."})," Step-by-step guides for common educator tasks live in the ",(0,r.jsx)(i.a,{href:"/all?kind=use-case",children:"use case library"}),"."]}),`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"Share with your community."})," Use your completion badge to start conversations about AI fluency in your school."]}),`
+`]}),`
+`,(0,r.jsx)(i.h2,{id:"exercises",children:"Exercises"}),`
+`,(0,r.jsx)(s,{children:(0,r.jsxs)(a,{title:"Build something to solve a problem in your practice",note:"You've used AI to support tasks already in this course. Now you'll use it to design something, and see how the 4Ds apply when you're solving a problem versus simply completing a task.",children:[(0,r.jsx)(i.p,{children:"First review projects other educators have built through Teach For America's AI educator development work below to give you some inspiration."}),(0,r.jsx)(l,{name:"EducatorBuiltTools",title:"Projects other educators have built"}),(0,r.jsx)(i.p,{children:"So, how do you design something to solve a problem in your educational practice?"}),(0,r.jsxs)(i.ol,{children:[`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"Pick your problem."})," If you’re stuck, finish one of these: ",(0,r.jsx)(i.em,{children:"“I wish ___ existed.” “I spend too much time doing ___”. “I wish there was a way to ___”."})," (Or just grab something already waiting for you: a unit outline, parent communication, assessment data you haven’t analyzed.)"]}),`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"Build a first version"})," using all the information you’ve gained in this course. Run it through the 4Ds. Delegation: what must stay with the human? Description: is the purpose and audience clear enough? Discernment: test it. Does it actually solve your problem? To what extent and in what way(s)? Diligence: would you put this in front of students or colleagues as-is?"]}),`
+`,(0,r.jsxs)(i.li,{children:[(0,r.jsx)(i.strong,{children:"Iterate"})," based on what you find."]}),`
+`]})]})}),`
+`,(0,r.jsx)(i.h2,{id:"lesson-reflection",children:"Lesson reflection"}),`
+`,(0,r.jsxs)(i.ul,{children:[`
+`,(0,r.jsx)(i.li,{children:"What's the one task you're committing to tackle with AI support this week?"}),`
+`,(0,r.jsx)(i.li,{children:"Beyond this week's task, what's one way you'll keep building your AI fluency, or share it with a colleague?"}),`
+`]}),`
+`,(0,r.jsx)(i.h2,{id:"whats-next",children:"What's next"}),`
+`,(0,r.jsxs)(i.p,{children:["In the next lesson, you'll take a short quiz to earn your completion badge. You can share your badge with colleagues to kick off a conversation about what AI Fluency might look like in your school. If you want to go deeper, Anthropic's ",(0,r.jsx)(i.a,{href:"/courses/ai-fluency-framework-foundations",children:"AI Fluency: Framework & Foundations"})," course provides an expanded exploration of the 4D framework."]})]})}function a(e={}){let{wrapper:n}={...t(),...e.components};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}function o(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{a as default};

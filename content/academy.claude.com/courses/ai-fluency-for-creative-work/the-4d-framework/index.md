@@ -40,6 +40,8 @@ This video introduces the AI Fluency Framework: the ability to interact with AI 
 
 Watch the Two Nested Loops play out in a real creative project. Step through six moments with Maya as she develops a mini-comic, name the competency each one shows and then see how the inner and outer loops nest. Finish by finding the same loops in a collaboration of your own.
 
+Exercise: Step through six moments of a sample creative AI collaboration, choosing from a short set of competencies for each one, then reveal how they map onto the Two Nested Loops model.
+
 Your map: 0 of 6 placed
 
 Before you start

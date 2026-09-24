@@ -14,6 +14,8 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluen
 
 **How to use it.** Try the workbook below yourself first. Then use the buttons at the bottom to download it as an HTML file (a fillable copy you can email or post) or a PDF (a printable version). Each learner's responses stay on their own device.
 
+Exercise: a fillable workbook guiding educators through the 4D Framework, practicing prompt-building and judgment criteria, sorting sample tasks by impact and AI risk, and committing to a real next step, downloadable as HTML or PDF.
+
 Learner workbook
 
 Your hands-on companion to the AI Fluency workshop. Work through it as we go, or on your own afterward. Your answers stay in your browser. When you are done, use the buttons at the bottom to save a copy to keep, print, or share.

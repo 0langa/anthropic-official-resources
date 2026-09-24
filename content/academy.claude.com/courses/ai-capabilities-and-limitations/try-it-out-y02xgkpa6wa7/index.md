@@ -8,6 +8,8 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-capabilities-and-limitations%2Ftry-it-out-y02xgkpa6wa7)
 
+Exercise: the learner steps through three workplace scenarios with vague editing instructions, revealing Claude's literal response, the missed underlying goal, and an improved version stating that goal explicitly, showing why unstated intent gets lost.
+
 ### Letter vs. Spirit
 
 Instructions are honored via pattern-matching, not understanding. There’s always room between your words and your intent.

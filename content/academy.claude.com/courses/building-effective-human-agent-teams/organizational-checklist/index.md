@@ -17,6 +17,8 @@ Before you bring in multiplayer AI, take an honest look at how ready your team i
 
 ## Five questions to assess your team's readiness for multiplayer AI[](https://academy.claude.com/courses/building-effective-human-agent-teams/organizational-checklist)
 
+Film: a narrated animation builds a five-item checklist for assessing a team's readiness for multiplayer AI, illustrating each question as its row ticks off, from open information to a shared written goal.
+
 Use space to play or pause the explainer, and the arrow keys to move between scenes.
 
 Multiplayer AI readiness1Open and searchable2Clear owners, agents included3The right tools for every teammate4A check before a person sees the work5A north star everyone can point toRaviClaudePlay explainer
@@ -50,6 +52,8 @@ Before you bring agents into the team's work, check five things. Is what people 
 ## Try it: how ready is your team?[](https://academy.claude.com/courses/building-effective-human-agent-teams/organizational-checklist)
 
 Rate five statements about your team. Your answers build a prompt you can take to Claude to turn the gaps into a plan.
+
+Exercise: the learner rates their team on five readiness statements about open information, clear ownership, tool access, checking agent work, and a shared goal, then gets a prompt for Claude that builds a plan around the lowest-rated area.
 
 ### How ready is your team?
 

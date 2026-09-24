@@ -39,7 +39,7 @@ We're building both components in this project purely for educational purposes -
 
 ## Project Setup[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/project-setup)
 
-Download the CLI\_project.zip file attached to this video and extract it to your preferred development directory. Open your code editor in the project folder.
+Download `cli_project.zip` from the Downloads section at the end of this lesson and extract it to your preferred development directory. Open your code editor in the project folder.
 
 ## Configuration[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/project-setup)
 
@@ -75,5 +75,22 @@ python main.py
 You should see a chat prompt appear. Test it by asking a simple question like "what's 1+1?" to verify everything is working correctly.
 
 The starter project already includes basic chat functionality with Claude. In the following videos, we'll add MCP server capabilities and document management features to create a fully functional document-aware chatbot.
+
+## Downloads
+
+- 
+
+  ### Starter project (cli\_project.zip)
+
+  The chatbot project you build on for the rest of this section.
+
+  [Download](https://academy.claude.com/assets/v1/cli_project-oeur3rwg.zip)
+- 
+
+  ### Completed project (cli\_project\_COMPLETE.zip)
+
+  The finished version, for checking your work.
+
+  [Download](https://academy.claude.com/assets/v1/cli_project_COMPLETE-bkl5xnz8.zip)
 
 Was this helpful?

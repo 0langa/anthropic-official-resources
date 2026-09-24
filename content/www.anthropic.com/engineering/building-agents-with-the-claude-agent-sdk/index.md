@@ -241,29 +241,29 @@ Developer docs
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
 
-Sep 17, 2026
+Sep 23, 2026
 
-### Projects redesigned: from folder to conversation
+### How to prepare for AI-driven code modernization projects
 
-Product announcements
+Enterprise AI
 
-[Projects redesigned: from folder to conversation](https://claude.com/blog/building-agents-with-the-claude-agent-sdk)Projects redesigned: from folder to conversation
+[How to prepare for AI-driven code modernization projects](https://claude.com/blog/building-agents-with-the-claude-agent-sdk) How to prepare for AI-driven code modernization projects
 
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228e9c51800dde13958_6507d83d1197bb8630131d363fb8bea838d79ca7-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
 
-Sep 14, 2026
+Sep 22, 2026
 
-### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
+### What a task costs on Opus 5.5
 
 Claude Code
 
-[Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog/building-agents-with-the-claude-agent-sdk)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
+[What a task costs on Opus 5.5](https://claude.com/blog/building-agents-with-the-claude-agent-sdk)What a task costs on Opus 5.5
 
-[Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
+[What a task costs on Opus 5.5](https://claude.com/blog/what-a-task-costs-on-opus-5-5)What a task costs on Opus 5.5
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
 
@@ -277,17 +277,17 @@ Agents
 
 [Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228c83775fcc75f4e6d_74409af25137110ac04cc39e4d5ea0a2fbcea421-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
 
-Sep 2, 2026
+Sep 17, 2026
 
-### Building commerce agents with Claude
+### Projects redesigned: from folder to conversation
 
 Product announcements
 
-[Building commerce agents with Claude](https://claude.com/blog/building-agents-with-the-claude-agent-sdk)Building commerce agents with Claude
+[Projects redesigned: from folder to conversation](https://claude.com/blog/building-agents-with-the-claude-agent-sdk)Projects redesigned: from folder to conversation
 
-[Building commerce agents with Claude](https://claude.com/blog/claude-for-commerce-agents)Building commerce agents with Claude
+[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
 
 ## Transform how your organization operates with Claude
 

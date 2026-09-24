@@ -38,6 +38,8 @@ This video points your analytical toolkit at an actual decision, using the Deleg
 
 Run one real project through the full outer loop and produce a one-page decision you can stand behind. The starting position is no AI; the analysis determines whether and how you opt in.
 
+Exercise: a worksheet that builds a one-page decision memo for a real project, covering Problem Awareness, Platform Awareness, and a stage-by-stage Task Delegation table checked against Creation, Transparency, and Deployment Diligence.
+
 #### Part I: Name the project
 
 In one paragraph: what the work is for, your standards for it, and which Value Lens dimensions carry the most weight.

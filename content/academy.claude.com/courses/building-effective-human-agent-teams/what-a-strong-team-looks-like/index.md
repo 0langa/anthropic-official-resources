@@ -17,6 +17,8 @@ The best human-agent teams use very intentional team practices and norms.
 
 ## A human-agent team in action[](https://academy.claude.com/courses/building-effective-human-agent-teams/what-a-strong-team-looks-like)
 
+Film: a narrated animation follows a product team's launch through a shared chat channel and roster board, showing a written north star, assigned roles, visible progress, and an agent proactively flagging a metric dip for standup.
+
 Use space to play or pause the explainer, and the arrow keys to move between scenes.
 
 #launch-roomRaviMaraJordanSamClaudeClaude · launch trackerLaunch trackerFeedback themesMorning digestLaunch materialsPriorities and final callsCustomer replies80% of new users completethe product onboarding flowLaunch: next MondayRavi9:05Claude, review our lastfew weeks and proposethe jobs for launch.ClaudeAPP9:06Proposed launch jobsRosterMTWTFLaunch trackerFeedback themesMorning digestLaunch materialsPlay explainer
@@ -52,6 +54,8 @@ The best human-agent teams have clear roles, a written north star, the right inf
 ## Try it: run your own launch[](https://academy.claude.com/courses/building-effective-human-agent-teams/what-a-strong-team-looks-like)
 
 The north star is set. Decide who does each job and see how the week goes.
+
+Simulation: assign four launch-week jobs to people, Claude drafting for a person to decide, or Claude alone, then run the week to see each day's outcome. Teaches how the right owner depends on the job, and how a shared goal lets Claude contribute proactively.
 
 ### Run your own launch
 

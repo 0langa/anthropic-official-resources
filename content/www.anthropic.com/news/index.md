@@ -12,7 +12,11 @@ AnnouncementsSep 22, 2026
 
 Opus 5.5 performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5.](https://www.anthropic.com/claude-opus-5-5)
 
-[AnnouncementsSep 1, 2026
+[FeaturesSep 22, 2026
+
+#### The Situation Report
+
+A rare strain of Ebola, with no confirmed vaccine, is spreading through the east of the Democratic Republic of Congo. World health organizations are using Claude to move as fast as possible to combat it.](https://www.anthropic.com/features/ebola-response)[AnnouncementsSep 1, 2026
 
 #### Introducing Claude Fable 5.1 and Claude Mythos 5.1
 
@@ -20,15 +24,7 @@ Our most advanced models for coding and knowledge work. Their research capabilit
 
 #### Detecting and countering misuse of AI: September 2026
 
-Over the past eight months, our Threat Intelligence team identified and disrupted operations in which threat actors tried to use Claude for malicious activity. In this report, we share case studies from those operations and describe how malicious use of Claude has evolved since our previous threat reports in 2025.](https://www.anthropic.com/threat-intelligence-report-september-2026)[AnnouncementsAug 31, 2026
-
-#### Improving our alignment and security efforts
-
-On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.](https://www.anthropic.com/news/improving-alignment-security-efforts)[AnnouncementsAug 27, 2026
-
-#### Previewing the Model Hardware Standard
-
-We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.](https://www.anthropic.com/news/model-hardware-standard-research-preview)
+Over the past eight months, our Threat Intelligence team identified and disrupted operations in which threat actors tried to use Claude for malicious activity. In this report, we share case studies from those operations and describe how malicious use of Claude has evolved since our previous threat reports in 2025.](https://www.anthropic.com/threat-intelligence-report-september-2026)
 
 ## News
 
@@ -36,6 +32,9 @@ Search
 
 DateCategoryTitle
 
+- [Sep 23, 2026Science
+
+   Claude discovers a novel enzyme system with CRISPR-like repeats](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
 - [Sep 18, 2026Announcements
 
    Partnering with Accenture on embedded evaluation](https://www.anthropic.com/news/accenture-embedded-evaluation)
@@ -63,8 +62,5 @@ DateCategoryTitle
 - [Aug 7, 2026Product
 
   Improving Fable 5's biology safeguards](https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards)
-- [Aug 4, 2026Announcements
-
-  Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer](https://www.anthropic.com/news/tino-cuellar)
 
 [See more](https://www.anthropic.com/news)

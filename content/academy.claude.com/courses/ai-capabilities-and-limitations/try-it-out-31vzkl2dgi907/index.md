@@ -8,6 +8,8 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-capabilities-and-limitations%2Ftry-it-out-31vzkl2dgi907)
 
+Explorer: a multi-part walkthrough where the learner places sample documents on a 2D meaning plot, then retrieves nearest neighbors, rotates a 3D scene with an added axis, and compares vectors for cosine similarity, illustrating how embeddings represent meaning as spatial proximity rather than keyword matches.
+
 ### Visualizing 1024D Space
 
 How multidimensional “nearness” works

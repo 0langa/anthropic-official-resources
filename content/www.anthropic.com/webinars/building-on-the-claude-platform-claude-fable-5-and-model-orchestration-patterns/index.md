@@ -4,7 +4,7 @@ Partner Series
 
 Recorded event
 
-Jul 22, 2026
+July 22, 2026
 
 —
 

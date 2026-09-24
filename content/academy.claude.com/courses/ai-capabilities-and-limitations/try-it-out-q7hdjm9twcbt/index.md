@@ -20,6 +20,8 @@ Before we talk about how this affects AI models, let's see how it affects **you*
 
 ## The Memory Test[](https://academy.claude.com/courses/ai-capabilities-and-limitations/try-it-out-q7hdjm9twcbt)
 
+Exercise: the learner views a brief word sequence, then types as many as they can recall, and sees a bar chart of recall by position. It demonstrates the serial position effect, linking human memory limits to why language models also struggle with information placed mid-context.
+
 Memory Test
 
 You’ll see 15 words, one at a time. Each appears for about 1.5 seconds. Try to remember as many as you can.
@@ -30,6 +32,8 @@ Show the Words
 
 What you just experienced has a name: the **serial position effect**. Psychologists have studied it for over a century. Items at the beginning of a list benefit from **primacy** (they get rehearsed more), and items at the end benefit from **recency** (they're still fresh). The middle gets neither advantage.
 
+Diagram: a U-shaped curve shows recall probability by position in a list, high at the start (primacy) and end (recency), lowest in the middle. It illustrates why both human memory and AI models lose track of information buried in the middle of long context.
+
 Position in list →Recall probability →PrimacyLost in the middleRecency
 
 The fascinating part: **large language models exhibit the same pattern**. In 2023, researchers at Stanford tested what happens when you place a key fact at different positions within a long context window. Accuracy was highest when the fact appeared at the very beginning or very end — and dropped by more than 30% when it was buried in the middle.
@@ -39,6 +43,8 @@ This isn't a quirk. It's structural. Transformer attention patterns naturally we
 ## What This Means for Prompting[](https://academy.claude.com/courses/ai-capabilities-and-limitations/try-it-out-q7hdjm9twcbt)
 
 If you paste a 20-page document into a prompt and ask a question about something on page 11, the model is more likely to miss it than something on page 1 or page 20. This has real implications for how you structure context.
+
+Diagram: Compares two context window layouts, one burying a key instruction mid-conversation and one stating it up front and repeating it at the end, showing why placement affects how reliably AI models attend to instructions.
 
 ❌ Dangerous pattern
 

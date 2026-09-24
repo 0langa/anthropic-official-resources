@@ -34,6 +34,8 @@ Add a group at Pluto, for instance, and it needs a surface grant (Lesson 6), a c
 
 The interactive widget below runs one change through the decision map and shows what changes downstream, from where it starts to what it reaches.
 
+Exercise: pick a sample change to one of five connected deployment decisions and watch the map highlight which decisions it ripples into, filling a reach meter and verdict. Teaches that a decision's position in the dependency map determines how far its effects spread.
+
 **Pick a change**, one per decision. The map marks where it starts and each decision it ripples to.
 
 1Move a member from B2B into payments-eng2Add a connector with write tools for B2B3Loosen the posture: reviewed to fully open4Lower the Engineering group’s cap5Turn the Compliance API on

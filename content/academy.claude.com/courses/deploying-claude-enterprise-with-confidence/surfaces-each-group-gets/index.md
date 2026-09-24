@@ -27,6 +27,8 @@ Two layers decide whether a group can use a surface, and both must allow it.
 
 The interactive widget below shows the chain end to end: members land in a group, and the role applied to the group is what turns their access on.
 
+Exercise: toggle a role on or off for a sample group of Custom-role members and watch their surface access change, showing that a group alone confers nothing until a role with surface permissions is applied to it.
+
 ### Members
 
 People join a group two ways: synced from your identity provider (SCIM), or added by an admin.
@@ -78,6 +80,8 @@ There are two main reasons to update the model default or restrict models for yo
 Pluto gives Claude chat and Claude Cowork to every group, because its objective is broad daily use. Claude Code goes to Engineering and Platform, whose daily work is writing code. Payments-eng waits for Claude Code until Pluto’s visibility reporting is in place, which keeps Pluto’s constraint — no security escalation from Payments & Trust — intact. The remaining surfaces phase in group by group as the work calls for them.
 
 The interactive widget below fills Pluto’s grid step by step (broad surfaces first, then the specialized ones) and stops at the one grant that can’t turn on yet, with the reason.
+
+Walkthrough: a grid of groups and surfaces steps through a phased rollout, turning on broad surfaces first, then specialized ones, until one cell stays blocked. A toggle reveals that hold depends on a separate visibility decision, not an access rule.
 
 **Step through Pluto’s plan** and watch which surfaces switch on for which groups.
 

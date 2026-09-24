@@ -8,6 +8,8 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-capabilities-and-limitations%2Ftry-it-out)
 
+Simulation: build a Markov chain text predictor step by step, from phone-style autocomplete through training a transition matrix, sampling words, scaling up data, and tuning temperature, top-k, and top-p, then compare the process to how language models sample next tokens.
+
 ## Text Your Friend Markov
 
 The 100% interpretable next-token generator

@@ -30,6 +30,8 @@ models that produce new content one token at a time.
 
 ## Building a mental model of the machine[](https://academy.claude.com/courses/ai-capabilities-and-limitations/what-we-mean-by-ai)
 
+Diagram: A reference card showing four properties of generative AI—Next Token Prediction, Knowledge, Working Memory, and Steerability—each on a spectrum from capability to limitation, teaching calibrated trust rather than blanket reliance.
+
 ### AI Capabilities and Limitations Framework
 
 Four properties that shape what AI can and can’t do for you. Each sits on a spectrum — the further right, the more you should verify and compensate.

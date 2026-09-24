@@ -45,7 +45,7 @@ Congratulations on completing Claude 101! You've built a solid foundation for wo
 
 **Learn more about AI and Claude**
 
-- [AI Fluency courses(opens in new tab)](https://academy.claude.com/collections/ai-fluency) – Free courses on effective AI collaboration
+- [Collaborating with AI(opens in new tab)](https://academy.claude.com/collections/collaborating-with-ai) – Free courses on effective AI collaboration
 - [AI Capabilities and Limitations(opens in new tab)](https://academy.claude.com/courses/ai-capabilities-and-limitations) – Free introductory course on what AI can and can't do
 - [Use Case Gallery(opens in new tab)](https://academy.claude.com/all) – Step-by-step guides and prompts for powerful workflows
 - [Anthropic Help Center(opens in new tab)](https://support.claude.com/) – Detailed documentation and troubleshooting

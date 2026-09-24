@@ -42,6 +42,8 @@ Pluto set an organization ceiling from the budget owner’s number and group cap
 
 The interactive widget below shows how a group cap and a per-member override combine for one member, and which cap your Multi-group spend limit setting applies when she belongs to two groups.
 
+Exercise: the learner selects among four cases to see how a member's spending limit bar moves against fixed group-cap ticks, with or without an override, or across two groups. It teaches that group caps are per-member limits inherited through membership, not shared budgets.
+
 The bar is one member’s spending limit; the two ticks are the group caps. **Pick a case** and watch the bar move against them.
 
 No override — group cap appliesDevin · EngineeringOverride below the capSam · contractor, EngineeringOverride above the capPriya · PlatformIn two groups — your Multi-group spend limit setting decidesMaya · Engineering + Platform

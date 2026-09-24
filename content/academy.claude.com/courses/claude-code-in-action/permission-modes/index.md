@@ -30,7 +30,7 @@ Here's the full set. Each mode draws a different line between what runs freely a
 
 - **Manual** reads only, without prompting. Everything else asks first.
 - **Accept edits** runs reads, file edits, and common file system bash commands without asking. This is for iterating on code that you review after the fact.
-- **Plan** reads only. It researches and proposes changes without editing anything.
+- **Plan** researches and proposes changes without editing anything. Reads run freely, and when auto mode is available, auto's classifier reviews the commands Claude runs to explore and lets the approved ones run without a prompt.
 - **Auto** accepts everything, with a separate classifier model reviewing each action before it runs.
 - **Don't ask** allows only pre-approved tools. Everything else is auto-denied with no prompt.
 - **Bypass permissions** skips all checks. This is the equivalent of the dangerously-skip-permissions flag. Only run it inside an isolated container or virtual machine.
@@ -48,7 +48,7 @@ Here's the kind of thing it's designed to block:
 - Production deploys and migrations
 - Force pushing, or piping downloaded code straight into a shell
 - Sending sensitive data to external endpoints
-- Destroying files that exist for the session
+- Irreversibly destroying files that existed before the session
 
 And it waves through the everyday work: local edits in your project, installing dependencies from your lock file, read-only requests, and pushing to your own branch.
 

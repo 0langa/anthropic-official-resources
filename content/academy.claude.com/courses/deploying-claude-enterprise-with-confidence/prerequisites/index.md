@@ -90,6 +90,8 @@ These articles cover the groundwork above: SSO, provisioning, the roles matrix, 
 
 The interactive widget below tracks the six prerequisites: mark each in place or not yet, and copy the result into your companion.
 
+Exercise: mark each of six Claude Enterprise deployment prerequisites as in place or not yet, then read a live verdict on readiness. Teaches which prerequisites must-do before group setup versus which can run in parallel.
+
 **Mark each prerequisite** in place or not yet. Four are must-dos before you set up groups; the other two can run in parallel.
 
 At least two Owners assigned directly by name (with IdP role mappings: in the group mapped to Owner)

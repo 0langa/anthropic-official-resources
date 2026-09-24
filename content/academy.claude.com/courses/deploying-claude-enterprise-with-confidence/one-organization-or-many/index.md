@@ -29,6 +29,8 @@ Pluto has five business units but one Anthropic contract, one identity provider,
 
 The interactive widget below lets you set the three inputs to your company’s answers and shows how changing any one of them moves the recommendation between one organization and several.
 
+Exercise: the learner names company parts that hit three organization-split triggers—separate contract, non-federating identity provider, or required data wall—while a tally and copyable summary update, teaching that only these triggers justify multiple organizations.
+
 One organization is the default. **Name any part of your company that hits a trigger** — each one becomes its own organization.
 
 Must sign its own contract with Anthropic*a separate legal agreement, not a cost center*

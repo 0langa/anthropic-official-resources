@@ -42,9 +42,9 @@ The organization setting is the ceiling. A role can't grant access to a model th
 
 If any custom role uses the model you’re disabling as its default, you’ll be prompted to change that role’s default before the change can be saved.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514693921/02ea72756f5163f14e5d158516dc/69102088-cd86-498e-97aa-c8a6e0004419?expires=1790157600&amp;signature=c8d5b4b8954fcd92a257725b37d62bbb05096e993fdbb6176e1efeacc7fb0afb&amp;req=diUmEs93nohdWPMW1HO4zXlxE%2Be4UtZRQf5Pb7M2Q0vSs9Mxr4m2jxzB%2Fm%2BX%0AHdKf6Rk%2F0eoQx5oBcaw%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514693921/02ea72756f5163f14e5d158516dc/69102088-cd86-498e-97aa-c8a6e0004419?expires=1790359200&amp;signature=0947c8e673063f89fe8344674e6143d38179db0351374b87490d325ea6dc3e20&amp;req=diUmEs93nohdWPMW3nq%2BgbIU8QSvhssSzcM%2BDYxHAZJWn1rWBOg2W3gv9deY%0AGQT%2FYrtLkXCwC80e1I6OOORRv0M%3D%0A)
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514693922/bfc5de6626eb19dca1d7caf818ca/c3cd8bb6-f86c-4d01-92da-6ae4ca966662?expires=1790157600&amp;signature=27e88d0d951265540ef730af388e0f7d93a986d20af54d07319a24437b28b9f4&amp;req=diUmEs93nohdW%2FMW1HO4zTqNsInEQ19RAod9uc510lxGhJnqfQTCZWYANXgh%0A41qfehPXOtic2POos%2FQ%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514693922/bfc5de6626eb19dca1d7caf818ca/c3cd8bb6-f86c-4d01-92da-6ae4ca966662?expires=1790359200&amp;signature=7112ef7995a08207f3b75d2213c11b72e1372bf0a36b76696bf2abb6a174a160&amp;req=diUmEs93nohdW%2FMW3nq%2BgdxbSC3F2ftP7njNVA%2FChTRAFLX%2BIGhTi8V2I2Hu%0AqOZBH6rzGbyuu6iQTz3rQW0zJgY%3D%0A)
 
 ---
 
@@ -78,13 +78,13 @@ If any custom role has an effort cap higher than the new organization cap for th
 
 Only models the role grants access to can be selected as that role’s default model.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514693923/880665a87dbd4776cf19d6063a37/29d30c6d-f9fc-408c-8c72-4320c6d88d14?expires=1790157600&amp;signature=589277239750c70debfcf7ef37c388097d0901a858ae45a0e48e9d021820df00&amp;req=diUmEs93nohdWvMW1HO4zYj9SPUC6Ia7XsqpNqvyFRIRIRkX%2B7OvXl9eHuB4%0Ah8ffPo95j2%2FeGZMMfhU%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514693923/880665a87dbd4776cf19d6063a37/29d30c6d-f9fc-408c-8c72-4320c6d88d14?expires=1790359200&amp;signature=2c8edc167386ccb2c6992d1716af210bd585c1c082c31c79bce44e4704fd0d92&amp;req=diUmEs93nohdWvMW3nq%2BgXC%2FpuFSXl4r9bnjFSFH8bFXIeUSUa3LqIrOE%2BUK%0A6K%2BCVWnRGCplCsndyDYrrOSMZkk%3D%0A)
 
 ---
 
 ## Limit the maximum effort level for a custom role
 
-Effort limits determine how much computation members on a role can apply per response on each model. Higher effort levels produce more thorough responses but consume more usage. Effort limits can only be set per role, not at the organization level.
+Effort limits determine how much computation members on a role can apply per response on each model. Higher effort levels produce more thorough responses but consume more usage. A role's effort cap can't be higher than the organization's cap for that model.
 
 1. Navigate to **[Organization settings > Roles](https://claude.ai/admin-settings/roles)**.
 
@@ -96,7 +96,7 @@ Effort limits determine how much computation members on a role can apply per res
 
 5. Click "Save" to save your changes.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514693927/7a25673b3b075d72adb3cdc371e3/d2d7cd8d-a713-4e91-a706-f589ac46a9fe?expires=1790157600&amp;signature=47ded7bbca4a22eea4b3a1bbd8591ef81b0bb6737b5793560fae375252ae38ef&amp;req=diUmEs93nohdXvMW1HO4ze1xBzO9dr4fDeA1RkowXUGihb9vPqiMbio2P%2FB5%0AZ0%2Bvrz%2FYh6sueFINofo%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514693927/7a25673b3b075d72adb3cdc371e3/d2d7cd8d-a713-4e91-a706-f589ac46a9fe?expires=1790359200&amp;signature=cbfaf7999c1202b3af6f96ef190d82dab6731a5a177155c5fb794035d2af2030&amp;req=diUmEs93nohdXvMW3nq%2BgebDzDuQgvHS9nVtKcQFB8qUj31NgErjKZ6IuyBy%0AbP5zW9upEPHckEgUqautDh69xTE%3D%0A)
 
 Members on the role see only effort levels at or below the cap in their model menu. Note that available effort levels differ depending on the model, and some models don’t support effort level settings at all. For an explanation of each level, see **[Change the model, effort, and thinking settings](https://support.claude.com/en/articles/8664678)**.
 

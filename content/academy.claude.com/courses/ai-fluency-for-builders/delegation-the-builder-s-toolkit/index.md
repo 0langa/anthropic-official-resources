@@ -29,6 +29,8 @@ break it down, and what role does AI play?”
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=AWSZoy3w_nE)
 
+Explorer: a clickable six-step walkthrough of the build process, from empathy through shipping, showing how strongly AI handles each stage so learners can see that delegation should vary by stage rather than apply uniformly.
+
 The Builder’s Toolkit
 
 Click any capability to see where AI fits in your build process.

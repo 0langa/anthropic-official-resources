@@ -22,7 +22,7 @@
 
   https://claude.com/blog/claude-code-on-the-web
 
-***Update:*** *Claude Code on the web is now available in research preview for Team and Enterprise users with premium seats, in addition to Pro and Max users. Claude Code on the web is on by default for these users, and account admins can toggle access in the Claude settings. November 12, 2025*
+***Update:*** *Cloud sessions (previously known as Claude Code on the web) are now generally available for Pro, Max, and Team users, and for Enterprise users with premium seats or Chat + Claude Code seats. Read the* [*docs*](https://code.claude.com/docs/en/claude-code-on-the-web) *for the latest information. September 23, 2026.*
 
 Today, we're introducing Claude Code on the web, a new way to delegate coding tasks directly from your browser.
 
@@ -88,6 +88,30 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aaaa060d1aec4a549c537ef_Object-Easel.svg)
+
+Sep 16, 2026
+
+### Claude Cowork and chat are now one Claude
+
+Product announcements
+
+[Claude Cowork and chat are now one Claude](https://claude.com/blog/claude-code-on-the-web)Claude Cowork and chat are now one Claude
+
+[Claude Cowork and chat are now one Claude](https://claude.com/blog/cowork-is-now-claude)Claude Cowork and chat are now one Claude
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+
+Sep 23, 2026
+
+### Claude Marketplace: one place to discover plugins, agents, and services from our partners
+
+Product announcements
+
+[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-code-on-the-web)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+
+[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
 
 Sep 17, 2026
@@ -111,30 +135,6 @@ Product announcements
 [Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-code-on-the-web)Claude for Small Business launches new workflows, integrations, and training programs
 
 [Claude for Small Business launches new workflows, integrations, and training programs](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Claude for Small Business launches new workflows, integrations, and training programs
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Jun 25, 2025
-
-### Turn ideas into interactive AI-powered apps
-
-Product announcements
-
-[Turn ideas into interactive AI-powered apps](https://claude.com/blog/claude-code-on-the-web)Turn ideas into interactive AI-powered apps
-
-[Turn ideas into interactive AI-powered apps](https://claude.com/blog/build-artifacts)Turn ideas into interactive AI-powered apps
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
-
-Jul 25, 2025
-
-### Build and share AI-powered apps with Claude
-
-Product announcements
-
-[Build and share AI-powered apps with Claude](https://claude.com/blog/claude-code-on-the-web)Build and share AI-powered apps with Claude
-
-[Build and share AI-powered apps with Claude](https://claude.com/blog/claude-powered-artifacts)Build and share AI-powered apps with Claude
 
 ## Transform how your organization operates with Claude
 
