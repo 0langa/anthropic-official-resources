@@ -50,6 +50,8 @@ A routine [keeps running even if the person who set it up leaves(opens in new ta
 
 ## Practice[](https://academy.claude.com/courses/introduction-to-claude-tag/put-recurring-work-on-a-schedule)
 
+Exercise: the learner marks which of five parts, such as when to run and what to do in edge cases, a sample scheduled-job request includes, then checks. A second step asks how to change a job that is already running.
+
 Set up a scheduled job
 
 Sam wrote this to set up a morning post for the team. Claude can fill gaps on its own, but a few things are worth spelling out so the job runs the team’s way rather than Claude’s best guess. Which of these does the message tell Claude, and which does it leave to Claude?

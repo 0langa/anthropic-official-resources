@@ -92,6 +92,18 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22deea97e4a5b5e5739_8d339ae8ecedecc1409db8f5bbb99c958db56946-1000x1000.svg)
+
+Sep 24, 2026
+
+### Claude Tag now supports personal connectors in channels
+
+Product announcements
+
+[Claude Tag now supports personal connectors in channels](https://claude.com/blog/cowork-plugins)Claude Tag now supports personal connectors in channels
+
+[Claude Tag now supports personal connectors in channels](https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels)Claude Tag now supports personal connectors in channels
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
 
 Oct 20, 2025
@@ -127,18 +139,6 @@ Product announcements
 [Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/cowork-plugins)Claude Marketplace: one place to discover plugins, agents, and services from our partners
 
 [Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Sep 8, 2026
-
-### Reducing cost and improving performance with Claude Platform
-
-Agents
-
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/cowork-plugins)Reducing cost and improving performance with Claude Platform
-
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
 
 ## Transform how your organization operates with Claude
 

@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-mjmk2gjq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bpm7r9eg.png)
 
+Film: the user asks Claude who owns a database table, and Claude searches connected reference files, a wiki, code, and a warehouse, answering with a named owner and linked citations. The user then saves the approach as a shared skill for the team.
+
 Confluence
 
 Order data model (v3)

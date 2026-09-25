@@ -50,6 +50,8 @@ Pluto is four months into its Claude Enterprise rollout and ran Claude Tag throu
 
 The interactive widget below runs Claude Tag through the three questions at Pluto and shows which of Pluto’s existing decisions reopen while the rest carry over.
 
+Exercise: toggling three answers about a new product surface's access, settings, and risk updates which of five existing deployment decisions reopen versus carry over, with a live summary count.
+
 Claude Tag arrives at Pluto: Claude inside Slack, scoped to a channel rather than a member. **Change any of the three answers** and watch which of the five decisions reopen.
 
 The three questions

@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-n5jhkjz7.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nsl4c005.png)
 
+Film: the user asks Claude to turn a closed variance workbook into board-ready slides using a finance skill, matching a prior deck's layout. Claude reads the source files, pauses to ask about presenting one-time items, then delivers a traceable deck and a repeatable schedule.
+
 ![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)variance-mar-2026.xlsx
 
 HomeInsertDrawPage LayoutFormulasDataReviewView

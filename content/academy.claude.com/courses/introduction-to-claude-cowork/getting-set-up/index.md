@@ -24,6 +24,8 @@ Click **Work in a project or folder** in the prompt bar and pick a folder on you
 
 Choose a folder that's scoped to one project or stream of work. Claude doesn't need access to your entire documents folder, just the one that includes the files it needs for the task. See the interactive below for an example.
 
+Exercise: the learner clicks through nested folders in a simulated file tree to choose where Claude Cowork should work for a sample writing task, seeing how many files and what content comes into scope at each level. It teaches picking the smallest folder that still holds everything the task needs.
+
 You’re about to ask Cowork to write the **Q3 competitive memo**. Pick the folder it should work in.
 
 Add folder for Cowork
@@ -70,6 +72,8 @@ Connectors most people set up first:
 Once a connector is on, you reference it naturally in your prompts. "Check what the team said in Slack about the launch" or "find the customer follow-up email from last quarter" — Claude knows where to look.
 
 Try this interactive below to see the power of connecting Claude to your work.
+
+Exercise: the learner toggles connectors like Gmail, Calendar, Slack, and Drive on or off and watches a panel show what Claude Cowork can reach and draft, teaching that connector access is task-scoped and shapes what gets done automatically versus manually.
 
 Connectors
 
@@ -124,6 +128,8 @@ A note for tools that don't have a connector: for internal dashboards, vendor po
 ## The permissions model[](https://academy.claude.com/courses/introduction-to-claude-cowork/getting-set-up)
 
 When you pick a folder, you're automatically authorizing Claude to read and write in it. When it comes to the tasks inside that folder, Cowork has two permission modes. In the default — “Ask before acting” — Claude pauses for your okay before each action that touches the outside world: sending an email, posting a message, sharing a file. In “Act without asking,” it doesn't pause for those, so only switch to it for tools and tasks you trust. One thing is constant in both modes: Claude always asks before permanently deleting a file, and that prompt can't be skipped.
+
+Diagram: Shows Claude Cowork's two permission modes, "Ask before acting" and "Act without asking," plus the always-on deletion safeguard and added controls over connectors and web access.
 
 Permissions
 

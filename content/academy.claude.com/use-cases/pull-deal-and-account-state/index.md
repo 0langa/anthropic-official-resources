@@ -12,6 +12,8 @@ With the CRM connected to the channel, Claude Tag answers in the thread, so **[e
 
 ## Set up[](https://academy.claude.com/use-cases/pull-deal-and-account-state)
 
+Checklist: what to set up before asking Claude Tag about deals: the account or deal channel, and Salesforce or HubSpot, required, connected to that channel read-only.
+
 
 
 **Ask in the right spot**
@@ -43,6 +45,8 @@ For help, ask your admin or visit our [troubleshooting docs(opens in new tab)](h
 ## What to ask Claude, and what it does[](https://academy.claude.com/use-cases/pull-deal-and-account-state)
 
 Ask in the account's channel, each time you have a question about that account or one of its deals. Name the information you want, such as recent activity, open items or where the deal stands.
+
+Film: a chat window shows a sales team asking Claude, connected read-only to a CRM, about a deal's status, with Claude replying in the thread with activity, open items, and a next step, citing whether each detail came from the record or the channel.
 
 #acme-accountPYReplay
 
@@ -102,6 +106,8 @@ Send the last three follow-ups below in your team's sales channel, which has the
 
 Claude revises its answer when someone corrects a detail in the thread, such as Jordan's role. If the same mistake could happen again, ask it to remember the correction for the channel ([channel memory(opens in new tab)](https://claude.com/docs/claude-tag/users/memory)):
 
+Simulation: a single message to Claude Tag about deals, shown without a reply. It asks Claude to remember a correction for the channel, post a weekly pipeline digest, list deals stuck at a stage, or brief the user before a call.
+
 #acme-accountPY
 
 Y
@@ -113,6 +119,8 @@ YouCopy
 ### Get a pipeline digest on a schedule[](https://academy.claude.com/use-cases/pull-deal-and-account-state)
 
 Claude can post a digest from the CRM every week ([routine(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity)). Anyone in the channel can later list or disable it by name.
+
+Simulation: a single message to Claude Tag about deals, shown without a reply. It asks Claude to remember a correction for the channel, post a weekly pipeline digest, list deals stuck at a stage, or brief the user before a call.
 
 #sales-teamY
 
@@ -126,6 +134,8 @@ YouCopy
 
 Claude can query the CRM for deals at a stage and how long each has been there.
 
+Simulation: a single message to Claude Tag about deals, shown without a reply. It asks Claude to remember a correction for the channel, post a weekly pipeline digest, list deals stuck at a stage, or brief the user before a call.
+
 #sales-teamY
 
 Y
@@ -137,6 +147,8 @@ YouCopy
 ### Get a brief before a call[](https://academy.claude.com/use-cases/pull-deal-and-account-state)
 
 Claude can combine the CRM record with what the team has said in the channel into one brief, posted in a thread where you can ask follow-up questions.
+
+Simulation: a single message to Claude Tag about deals, shown without a reply. It asks Claude to remember a correction for the channel, post a weekly pipeline digest, list deals stuck at a stage, or brief the user before a call.
 
 #sales-teamY
 

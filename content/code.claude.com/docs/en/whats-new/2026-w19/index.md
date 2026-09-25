@@ -21,7 +21,7 @@ Load plugins from .zip archives and URLs, search command history across every pr
   claude --plugin-url https://example.com/my-plugin.zip
   ```
 
-  <a href="/docs/en/plugins">Plugins guide</a>
+  <a href="/docs/en/plugins/overview">Plugins guide</a>
 </div>
 
 <div>

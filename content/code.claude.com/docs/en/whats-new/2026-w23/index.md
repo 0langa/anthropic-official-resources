@@ -56,7 +56,7 @@ Run auto mode on Amazon Bedrock, Google Cloud's Agent Platform, and Microsoft Fo
   > /plugin list --enabled
   ```
 
-  <a href="/docs/en/plugins-reference#plugin-list">Plugin commands</a>
+  <a href="/docs/en/plugins/cli-reference#plugin-list">Plugin commands</a>
 </div>
 
 <div>

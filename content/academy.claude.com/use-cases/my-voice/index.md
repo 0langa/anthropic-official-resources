@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-jpnl9xn4.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cdz8tber.png)
 
+Film: the user asks Claude to read their sent emails and Slack messages and describe their tone, and Claude reports back writing habits with cited examples, flagging uncertainty, then saves a corrected profile as a reusable skill for future drafts.
+
 Write in my voice
 
 You want every draft Claude writes for you to sound like you.

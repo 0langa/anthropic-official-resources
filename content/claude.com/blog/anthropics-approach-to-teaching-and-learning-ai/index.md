@@ -128,6 +128,30 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22deea97e4a5b5e5739_8d339ae8ecedecc1409db8f5bbb99c958db56946-1000x1000.svg)
+
+Sep 24, 2026
+
+### Claude Tag now supports personal connectors in channels
+
+Product announcements
+
+[Claude Tag now supports personal connectors in channels](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai)Claude Tag now supports personal connectors in channels
+
+[Claude Tag now supports personal connectors in channels](https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels)Claude Tag now supports personal connectors in channels
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
+
+Sep 24, 2026
+
+### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+
+Claude Code
+
+[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+
+[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
 
 Oct 20, 2025
@@ -151,30 +175,6 @@ Product announcements
 [Claude Cowork and chat are now one Claude](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai)Claude Cowork and chat are now one Claude
 
 [Claude Cowork and chat are now one Claude](https://claude.com/blog/cowork-is-now-claude)Claude Cowork and chat are now one Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
-
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
-
-Sep 23, 2026
-
-### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
-
-Enterprise AI
-
-[How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai)How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
-
-[How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace](https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
 ## Transform how your organization operates with Claude
 

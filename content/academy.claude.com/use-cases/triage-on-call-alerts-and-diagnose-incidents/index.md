@@ -12,6 +12,8 @@ Add Claude Tag to the on-call channel and connect monitoring, paging and the cod
 
 ## Set up[](https://academy.claude.com/use-cases/triage-on-call-alerts-and-diagnose-incidents)
 
+Checklist: a three-part setup guide for adding Claude to an on-call channel, covering where it works, which tools to connect, and which settings to enable. Checking items off is just a personal tracking aid and isn't saved.
+
 
 
 **Ask in the right spot**
@@ -67,6 +69,8 @@ For help, ask your admin or visit our [troubleshooting docs(opens in new tab)](h
 Send this once, as a new message in your on-call channel. Claude saves it for the channel and investigates each paging alert that tags it after that. In your own message, say who to mention when something breaks and that Claude waits for a person's approval before a rollback, and link your runbook and owner list if they are not already in the channel.
 
 The alert integration posted the two alerts below one Tuesday morning. Nobody on the team tagged Claude. It replied in the checkout alert's thread and covered both:
+
+Film: a replay of an on-call channel where Claude investigates paging alerts it was tagged on automatically, works through a visible plan, then replies distinguishing a benign warning from a real incident and proposing a fix, pausing for the on-call engineer's approval before any rollback.
 
 #on-callWYReplay
 
@@ -124,6 +128,8 @@ Before approving, open the linked pull request and the latency dashboard and che
 
 Anyone in the alert's thread can answer or correct Claude there ([reply in the thread to steer(opens in new tab)](https://claude.com/docs/claude-tag/concepts/how-it-works)). When the on-call engineer approves, Claude runs the runbook's rollback step through the channel's deploy connection and confirms the recovery. Later it posts the fix as a draft pull request with an incident summary page.
 
+Simulation: a chat message in an on-call channel or thread showing a person's prompt to Claude and, sometimes, Claude's reply, illustrating how people request standing monitoring, approve actions, or ask for recurring reports.
+
 #on-callWSY
 
 S
@@ -164,6 +170,8 @@ posted in this thread at 7:40 · anyone in the channel can open it
 
 A [routine(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity) can compare the alerting dashboard with its state at the last check and post the same investigation for anything new. That way, a problem that builds slowly and pages nobody is still investigated. It posts only when something changed.
 
+Simulation: a chat message in an on-call channel or thread showing a person's prompt to Claude and, sometimes, Claude's reply, illustrating how people request standing monitoring, approve actions, or ask for recurring reports.
+
 #on-callY
 
 Y
@@ -176,6 +184,8 @@ YouCopy
 
 Claude can post the handoff for the incoming on-call engineer as a [scheduled routine(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity). It builds the handoff from the week's alert threads in this channel, so the next person starts with what happened and what is still open. Keep a time zone in the message.
 
+Simulation: a chat message in an on-call channel or thread showing a person's prompt to Claude and, sometimes, Claude's reply, illustrating how people request standing monitoring, approve actions, or ask for recurring reports.
+
 #on-callY
 
 Y
@@ -187,6 +197,8 @@ YouCopy
 ### Ask Claude which routines are set up in this channel[](https://academy.claude.com/use-cases/triage-on-call-alerts-and-diagnose-incidents)
 
 Claude lists a channel's routines when asked, and anyone in the channel can change or disable one by naming it ([manage standing work(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity)).
+
+Simulation: a chat message in an on-call channel or thread showing a person's prompt to Claude and, sometimes, Claude's reply, illustrating how people request standing monitoring, approve actions, or ask for recurring reports.
 
 #on-callY
 

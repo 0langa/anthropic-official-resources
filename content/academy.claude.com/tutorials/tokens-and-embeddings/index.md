@@ -42,6 +42,8 @@ A chunk of text with its numerical ID is called a *token*.
 
 The widget below includes several pieces of text that you can **tokenize**. Click through the examples, tokenize each one, and see for yourself: how is a token different from a word?
 
+Explorer: lets the learner pick example strings and tokenize each one, watching it split into colored chips with IDs plus a character-to-token count, to build intuition for how tokenization differs from splitting by word or letter.
+
 Text → tokensReset
 
 Hello, are you there?numbersa long wordstrawberryemojia namea typoJapaneseapostrophesPython
@@ -59,6 +61,8 @@ The splits and ID numbers in these examples come from an illustrative tokenizer,
 ## Over or under?[](https://academy.claude.com/tutorials/tokens-and-embeddings)
 
 Now that you know what tokens look like, see if you can predict how many tokens will be produced by tokenizing the following strings.
+
+Exercise: for three pieces of text, the learner bets whether tokenizing it yields more or fewer tokens than a stated line, then reveals the true count and token chips. Builds intuition for how tokenizers chunk text rather than exact counts.
 
 Over / UnderReset
 
@@ -110,7 +114,7 @@ With a **middle ground** (one token per word or subword) the sentence costs 5 to
 
 A tokenizer's vocabulary is *baked into the model*, and cannot be changed after it is trained. Any specific model is said to be "locked to a tokenizer" because it only ever learned what `token 4062` means, not what `"quick"` means.
 
-Bonus readingByte-pair encoding
+Bonus reading Byte-pair encoding
 
 Vocabularies like this are usually *grown* rather than hand-picked. The most common process is an algorithm called **byte-pair encoding** (BPE). It starts with the smallest possible token (individual bytes) so that every possible character (and every emoji fragment) is already covered. Then it scans an enormous pile of text for the pair of adjacent pieces that appears most often, glues that pair into a new single piece, and adds it to the vocabulary. It repeats this until the vocabulary reaches the researcher's target size. Common words emerge early on and end up as single tokens; rarer words seldom do.
 
@@ -125,6 +129,8 @@ I'm learning how tokenizers work, and I understand that text becomes tokens with
 ## Decoding output[](https://academy.claude.com/tutorials/tokens-and-embeddings)
 
 So now you know that the text you send to a model becomes a list of token IDs before it's processed. A model's **output** is *also* a list of token IDs. Try decoding this reply.
+
+Exercise: decode a reply that comes back only as numeric token IDs by typing words or punctuation, or picking from an optional vocabulary list, to fill matching slots. Teaches that model output, like input, is a token sequence decoded back into text.
 
 Decode Claude's replyReset
 
@@ -179,6 +185,8 @@ IDs from the same illustrative tokenizer as above.
 Tokenization gives every chunk of text a number, but tokens with similar IDs like `9906` and `9907` aren't *related* - they're just neighbors in a list. A model needs a way to know that *cat* and *kitten* are close in meaning, even if their IDs are far apart in the vocabulary. Models do this by assigning each token a *multi-dimensional score*.
 
 Let's start with a 2D scoring system.
+
+Exercise: score four words on two sliders, Cute and Big, watching each plot as a point on a scatter plot, then reveal which two land closest together. Shows how turning words into points makes similarity measurable as closeness, the principle behind embeddings.
 
 Score these wordsReset
 

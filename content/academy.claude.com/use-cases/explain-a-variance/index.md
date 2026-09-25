@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-ejn575jr.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-m0b89rp1.png)
 
+Film: a self-playing walkthrough where the user asks Claude to compare actuals against the prior period and against budget, explaining lines over a set threshold. Claude reads spreadsheets and ledger detail, drafts commentary with drivers, flags unclear items, then schedules the task to run every Monday.
+
 ![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)actuals-feb-2026.xlsx
 
 HomeInsertDrawPage LayoutFormulasDataReviewView

@@ -49,9 +49,15 @@ We built this tool to be a reflection of how you use Claude. For some users, thi
 
 ## Getting started
 
-This tool is currently available in beta for Free, Pro, and Max users who have memory turned on. Open [Settings in Claude](https://claude.ai/redirect/website.v1.38983abb-8a66-4f31-85fe-41fe4ec90df2/settings/reflect) on the web or the desktop app, and select the option to reflect on your usage to generate your report. If you can't generate a report, it may be because you don’t have [Memory](https://claude.ai/redirect/website.v1.38983abb-8a66-4f31-85fe-41fe4ec90df2/settings/capabilities?modal=memory) turned on. Reflecting on your Cowork conversations will be available soon.
+This tool is currently available in beta for Free, Pro, and Max users who have memory turned on. Open [Settings in Claude](https://claude.ai/redirect/website.v1.9e42e3b0-23f9-4e46-80c2-c790a1336efd/settings/reflect) on the web or the desktop app, and select the option to reflect on your usage to generate your report. If you can't generate a report, it may be because you don’t have [Memory](https://claude.ai/redirect/website.v1.9e42e3b0-23f9-4e46-80c2-c790a1336efd/settings/capabilities?modal=memory) turned on. Reflecting on your Cowork conversations will be available soon.
 
 ## Related content
+
+### Claude discovers a novel enzyme system with CRISPR-like repeats
+
+We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
+
+[Read more](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
 
 ### Partnering with Accenture on embedded evaluation
 
@@ -62,7 +68,3 @@ This tool is currently available in beta for Free, Pro, and Max users who have m
 The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
 
 [Read more](https://www.anthropic.com/news/life-sciences-verification-program)
-
-### Developing Enterprise Frontier Safeguards with our customers
-
-[Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)

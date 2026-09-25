@@ -33,6 +33,8 @@ From your teammates' seat, the plugin simply shows up in their Directory labeled
 
 What this looks like for *you* depends on what your admin has set up. Some organizations have a marketplace running and a clear owner to hand things to; others haven't switched it on yet. Use the interactive below to find your situation and the right next step.
 
+Explorer: a three-tab switcher lets learners pick the distribution situation matching their organization, then shows the path and next step for sharing a Cowork plugin, covering hand-off, discovery, and admin setup scenarios.
+
 Distribution paths
 
 When you go to share your plugin in Cowork, **what you see depends on how your org has set things up**. Pick the one that matches:

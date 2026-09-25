@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-ko3ehgyx.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lth7yta3.png)
 
+Film: the user asks Claude to read a closed sprint cycle and team and on-call channels, then write a sprint retro and on-call handoff. Claude separates shipped from slipped work with reasons, asks which themes to discuss, and drafts both documents for approval.
+
 Write the sprint retro and handoff
 
 The sprint has closed and you need the retro and the on-call handoff written.

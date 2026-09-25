@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-bpm02atf.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-1b7ie80y.png)
 
+Film: the user asks Claude to compare a signed vendor agreement against a renewal proposal using contracts, Slack discussion, usage data, and quotes. Claude asks a judgment question, then produces a redline table and negotiation brief, and can be scheduled to run for future renewals.
+
 Prep the vendor negotiation
 
 A vendor’s renewal proposal is in and you need to prepare the negotiation.

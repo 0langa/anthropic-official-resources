@@ -27,6 +27,8 @@ Together, these give Claude your team's context, let your colleagues shape its w
 
 These features are visible and can be managed from the channel's Configure page, which opens from the Configure link under any Claude reply. Each channel has its own. Any full member of the channel who is signed in to your organization's Claude account can open it; what you can change there depends on how your organization has set it up. Click through it here:
 
+Explorer: a mock of a channel's Configure page, with tabs for general settings, tools and access, and routines. Notes explain the parts, who can change them, and which earlier lessons cover them.
+
 claude.ai › Configure #support-escalations
 
 Click the tabs, or any dot
@@ -53,6 +55,8 @@ Save
 
 Claude can run independently across multiple channels, doing work that used to require repeated prompts from you. With Claude in several channels and several tasks running at once, you are able to delegate and steer work at the level of a team rather than one task at a time.
 
+Diagram: one person steers one Claude in three channels, with a different job in each, showing that work can be delegated and steered at the level of a team rather than one task at a time.
+
 You
 
 - @Claudein #call-prep
@@ -70,6 +74,8 @@ One person, one Claude, a different job in each of three channels.
 Over time, as you verify more of Claude's work and start to trust what it produces, you can scope it to larger pieces or projects that involve more continuous work and decision-making.
 
 Your role shifts from task-by-task direction to setting goals and directing larger projects. You set the standard once, Claude handles the routine cases, and you review only the decisions that matter. Your attention is the limit now, so ask Claude to group its questions and to bring each decision with what it recommends. This is what teams at Anthropic do: delegate work in bounded ways, keep human judgment for the calls that need it, and improve the system as Claude learns what works ([Building effective human-agent teams(opens in new tab)](https://claude.com/blog/building-effective-human-agent-teams)).
+
+Diagram: a four-row scale of how long one instruction to Claude can run, from minutes for an answer to weeks for a job Claude owns, showing that Claude can take on longer work as trust grows.
 
 - Minutes
 

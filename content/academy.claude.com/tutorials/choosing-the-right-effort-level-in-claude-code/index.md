@@ -16,6 +16,8 @@ Effort tells your model how many resources to spend on the task in your prompt. 
 
 Effort sets how hard the model works, not how much it knows. The model you choose determines the level of capability you are working with. Effort is a signal of how hard you want that model to work.
 
+Explorer: select one of five effort levels, from low to max, to see how the model's reading, thinking, turns, and double-checking shift, showing that effort controls resource use, not the model's underlying capability.
+
 The effort scale
 
 Select a level to see how the model’s work changes.
@@ -52,6 +54,8 @@ When the effort is too low for the task, the model will likely stop early and co
 
 When the effort is too high, you may not notice it on every prompt or every task: the model will use more tokens than necessary, the response times will be longer, and you will notice a pattern of overthinking, or of identifying more tasks than you actually assigned. You are sending the signal "what I am describing to you is really complex and difficult," and the model will match that signal and treat the work as that complex.
 
+Explorer: three tabs compare effort set too low, about right, and too high against what a task needs, with a track showing the gap between them and what you'd notice in each case.
+
 Signs of a mismatch
 
 Too low shows in a single reply. Too high shows only as a pattern.
@@ -75,6 +79,8 @@ The default sits in the middle, and it is not arbitrary: it is tuned for each mo
 You adjust down for tasks that you know are simple and should not require a big spend of resources: time, turns, tool calls, or document reads. If you have already run this type of task at the default level, try running it one level lower and see if you notice any difference in quality. If not, keep going down one level at a time until you do.
 
 You go up from the default when you know you are describing something that should take a long time and require a lot of turns and double-checking. The other time to turn the effort up is when the task is something you cannot quickly check yourself, and you want more self-checking from the model as it works. The same rule applies in this direction: go up one level, rerun, and stop when it starts finishing the things you think it should.
+
+Quiz: for each of three sample coding tasks shown in a mock terminal session, choose whether to raise, lower, or keep the default effort level and justify the choice, then check your answer for an explanation and likely consequence.
 
 Three tasks · same model, each in a fresh session at the default effort
 
@@ -105,6 +111,8 @@ Check my answerPick an effort setting and a reason first.
 ## Which dial to turn: effort or model?[](https://academy.claude.com/tutorials/choosing-the-right-effort-level-in-claude-code)
 
 Change the model only if more effort did not fix the problem. Did the model not know enough, or did it not try hard enough? If it knew enough but did not try hard enough, change effort. If it knew enough but worked too hard, that is also an effort problem. If changing the effort is not fixing it and you are not on the most capable model, that is a sign the model you picked does not have the knowledge, or is not capable enough, for the task.
+
+Exercise: given a scenario describing what Claude Code returned, turn an effort dial or a model dial in the right direction, then get feedback on whether you diagnosed an effort problem versus a knowledge problem.
 
 The two dials
 
@@ -143,6 +151,8 @@ more capable
 ### When you change models, start again at the default[](https://academy.claude.com/tutorials/choosing-the-right-effort-level-in-claude-code)
 
 The level names are the same on every model, but the same level does not mean the same amount of work on a different model.
+
+Diagram: three rows show the same dial of effort levels for a less capable, more capable, and most capable model, with one fixed task line crossing each at a different point, teaching that effort levels mean different amounts of work per model.
 
 The same levels on three models
 
@@ -200,6 +210,8 @@ max
 
 Whenever you choose a model, start the effort at the default and adjust up and down as you need to. Say you try a difficult task with the least capable model available, to see if it can do the job for less. After you dial the effort up as high as possible, the model is still not completing the task at the quality level you need, so you go up a model. Do not leave the effort on max; try again at the default. The more capable model may still complete the task with less effort.
 
+Explorer: pick a model and an effort level for one debugging task and see what comes back. It shows that effort sets how hard a model works, while the model sets what it knows.
+
 One task, four runs
 
 Change the model or change the effort, and see what comes back.
@@ -255,6 +267,8 @@ A level you set with `/effort` persists into your next session, so use the `--ef
 
 Ultracode is not an effort level. It is a session-only Claude Code setting that runs the model at `xhigh` and, for substantive tasks, also has Claude orchestrate [dynamic workflows(opens in new tab)](https://code.claude.com/docs/en/workflows), fanning work out to multiple agents.
 
+Diagram: two static terminal mockups show the /effort picker, where arrow keys choose a level and Enter confirms, and the session header confirming the active level next to the model name.
+
 The /effort picker and the session header
 
 Set the level with /effort, then confirm it in the session header.
@@ -296,6 +310,8 @@ The session header. After you confirm, the level appears next to the model name 
 Simplified. “your model” and the folder are placeholders; the levels offered and exact wording depend on your model and Claude Code version.
 
 When more than one method sets the effort, the one nearest the top of the order below wins.
+
+Simulation: toggle four ways of setting Claude Code's effort level on or off and pick a level for each to see which one wins. Teaches that the setting nearest the top of a fixed order governs, overriding the rest.
 
 Which setting wins
 
@@ -364,6 +380,8 @@ Whatever wins above, your organization may cap it. On Enterprise plans an admin 
 ## Worked example[](https://academy.claude.com/tutorials/choosing-the-right-effort-level-in-claude-code)
 
 The same prompt run three times on one model, at low, the default, and max: play each level and watch how much work goes into the same result. The prompt asks for a small CSV-to-JSON script tested on a sample file, boring on purpose so the effort levels have room to differ.
+
+Simulation: replay the same coding prompt at low, default, and max effort, watching a simulated terminal transcript, tool calls, and lines written accumulate. Counters and a comparison panel show that every level finishes the task, differing only in how much work goes into it.
 
 One prompt at three levels
 

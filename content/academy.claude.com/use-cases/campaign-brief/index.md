@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-f1fouzqt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iw1rj94h.png)
 
+Film: the user asks Claude to turn rough planning-call notes into a formatted campaign brief and matching kickoff deck, choosing a lead messaging angle and keeping figures consistent across both files.
+
 **strategy-notes***.DOCX*
 
 FileEditViewInsertFormatToolsExtensionsHelp

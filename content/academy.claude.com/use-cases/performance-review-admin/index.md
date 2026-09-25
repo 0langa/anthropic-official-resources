@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-n3rpgf21.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jww7pt0u.png)
 
+Film: the user asks Claude to turn a performance framework, rating definitions, template, and cycle instructions into a shared skill that guides managers through one employee's review, then shares it so every manager follows the same process.
+
 Run the performance review cycle
 
 You run the review cycle and want every manager to follow the same process.

@@ -750,7 +750,7 @@
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://code.claude.com/docs/en/discover-plugins": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/env-vars": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -888,24 +888,84 @@
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://code.claude.com/docs/en/plugin-dependencies": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/plugin-evals": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://code.claude.com/docs/en/plugin-hints": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/plugin-marketplaces": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/plugin-relevance": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/plugins": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/plugins-reference": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://code.claude.com/docs/en/plugins/anthropic-marketplaces": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins/cli-hints": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins/cli-reference": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins/code-intelligence": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins/components": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins/create": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins/create-marketplace": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins/dependencies": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins/host-marketplace": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins/install": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins/loading": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins/manifest-reference": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins/marketplace-reference": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins/measure": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins/org": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins/overview": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins/publish": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins/relevance": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins/security": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/plugins/troubleshooting": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://code.claude.com/docs/en/prompt-caching": [
@@ -6164,6 +6224,9 @@
   "https://support.claude.com/en/articles/14555877-claude-code-communications-kit": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/14604397": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design": [
     "Native source; upstream MDX components retained."
   ],
@@ -6500,7 +6563,7 @@
   "https://support.claude.com/en/articles/16952186-use-salesforce-in-claude": [
     "Native source; upstream MDX components retained."
   ],
-  "https://support.claude.com/en/articles/16989529-invite-people-outside-your-organization-to-an-artifact": [
+  "https://support.claude.com/en/articles/16994751": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans": [
@@ -6513,6 +6576,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/17007452-what-is-a-limit-reset": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [
@@ -6931,9 +6997,7 @@
   ],
   "https://www.anthropic.com/engineering/harness-design-long-running-apps": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
-    "Could not read tab 'AI game design': TimeoutError",
-    "Could not read tab 'AI game design': TimeoutError",
-    "Could not read tab 'Game play': TimeoutError",
+    "Could not read tab 'Sprite editor': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/2028-ai-leadership": [
@@ -6963,13 +7027,13 @@
     "Could not read tab 'Game developers': TimeoutError",
     "Could not read tab 'Physicists': TimeoutError",
     "Could not read tab 'Chemical engineers': TimeoutError",
+    "Could not read tab 'Data scientists': TimeoutError",
     "Could not read tab 'Mechanical engineers': TimeoutError",
     "Could not read tab 'Astronomers': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/anthropic-public-record": [
     "Could not read tab 'Integrated users': TimeoutError",
-    "Could not read tab 'Support for gov involvement': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk": [
@@ -6988,37 +7052,38 @@
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/news/claude-fable-5-mythos-5": [
+    "Could not read tab 'Factorio': TimeoutError",
+    "Could not read tab 'VibeCAD': TimeoutError",
+    "Could not read tab 'Fluid with Classical EDM': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-for-chrome": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/news/claude-opus-4-5": [
-    "Could not read tab 'BrowseComp-Plus': TimeoutError",
-    "Could not read tab 'Vending-Bench': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-opus-4-6": [
-    "Could not read tab 'Agentic search': TimeoutError",
-    "Could not read tab 'Reasoning': TimeoutError",
-    "Could not read tab 'Long-context reasoning': TimeoutError",
-    "Could not read tab 'Multilingual coding': TimeoutError",
-    "Could not read tab 'Cybersecurity': TimeoutError",
+    "Could not read tab 'Coding': TimeoutError",
+    "Could not read tab 'Long-term coherence': TimeoutError",
+    "Could not read tab 'Life sciences': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-opus-4-7": [
-    "Could not read tab 'Biology': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-opus-5": [
+    "Could not read tab 'CursorBench': TimeoutError",
     "Could not read tab 'AA Coding Agent Index': TimeoutError",
+    "Could not read tab 'GDPval-AA v2': TimeoutError",
     "Could not read tab 'OSWorld 2.0': TimeoutError",
+    "Could not read tab 'HLE': TimeoutError",
     "Could not read tab 'AutomationBench': TimeoutError",
-    "Could not read tab 'Cell artifact': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-sonnet-4-5": [
     "Could not read tab 'Medicine': TimeoutError",
+    "Could not read tab 'STEM': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-sonnet-5": [
@@ -7118,16 +7183,21 @@
   ],
   "https://www.anthropic.com/research/anthropic-interviewer": [
     "Could not read tab 'Creatives': TimeoutError",
+    "Could not read tab 'Scientists': TimeoutError",
     "Could not read tab 'Computer & Math': TimeoutError",
+    "Could not read tab 'Art, Design, & Media': TimeoutError",
     "Could not read tab 'Business & Financial': TimeoutError",
     "Could not read tab 'Office & Admin': TimeoutError",
+    "Could not read tab 'Sales': TimeoutError",
     "Could not read tab 'Visual artists': TimeoutError",
     "Could not read tab 'Craftspeople': TimeoutError",
     "Could not read tab 'Designers': TimeoutError",
     "Could not read tab 'Filmmakers': TimeoutError",
-    "Could not read tab 'Physicists': TimeoutError",
+    "Could not read tab 'Game developers': TimeoutError",
     "Could not read tab 'Chemical engineers': TimeoutError",
+    "Could not read tab 'Data scientists': TimeoutError",
     "Could not read tab 'Mechanical engineers': TimeoutError",
+    "Could not read tab 'Astronomers': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/assistant-axis": [
@@ -7142,12 +7212,8 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-opus-5": [
-    "Could not read tab 'CursorBench': TimeoutError",
     "Could not read tab 'AA Coding Agent Index': TimeoutError",
-    "Could not read tab 'OSWorld 2.0': TimeoutError",
-    "Could not read tab 'HLE': TimeoutError",
-    "Could not read tab 'DeepSearchQA': TimeoutError",
-    "Could not read tab 'Cell artifact': TimeoutError",
+    "Could not read tab 'GDPval-AA v2': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-personal-guidance": [
@@ -7163,6 +7229,9 @@
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/research/claude-values-models-languages": [
+    "Could not read tab '': TimeoutError",
+    "Could not read tab '': TimeoutError",
+    "Could not read tab '': TimeoutError",
     "Could not read tab '': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
@@ -7201,6 +7270,10 @@
   ],
   "https://www.anthropic.com/research/project-pilot": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/research/project-swap": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/property-based-testing": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."

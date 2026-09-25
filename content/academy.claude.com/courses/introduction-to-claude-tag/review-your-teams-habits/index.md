@@ -17,6 +17,8 @@ After the course, use this with one of your channels in mind, ideally the one wh
 
 ## Check one channel, habit by habit[](https://academy.claude.com/courses/introduction-to-claude-tag/review-your-teams-habits)
 
+Checklist: the learner answers yes or no to nine questions about how their team works with Claude in one channel. Each no suggests something to try, and the answers build a message to post to Claude there.
+
 ### Check the channel where your team hands Claude the most work
 
 Answer with that one channel in mind. Each no shows one thing to try.

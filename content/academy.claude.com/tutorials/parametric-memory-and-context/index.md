@@ -32,6 +32,8 @@ Nobody set out to build an encyclopedia, but the facts that LLMs can recite from
 
 Parametric memory is better at some things than others. Below are sentences a model is in the process of writing by predicting the most likely next word. Click to reveal the next couple of words in each sentence, and then decide for yourself whether or not the model produced correct information.
 
+Exercise: across six domains, reveal Claude's hidden reply tokens one at a time and judge whether its completion is correct, teaching how parametric memory predicts likely answers from training.
+
 Token predictionReset
 
 historysciencecinemaprogrammingpolicycreative
@@ -47,6 +49,8 @@ ThefirstpresidentoftheUnitedStatesofAmericawasGeorgeWashingtonreveal
 **Take a look at a question Claude can't answer from training alone.**
 
 In this widget, if we tweak our question by providing additional context, the task gets noticeably easier for the model.
+
+Exercise: for three workplace examples, with no context, a pasted fact, and an attached document, the learner predicts whether Claude will answer correctly, then watches the reply stream in with feedback. It teaches how adding context changes what a model can answer.
 
 Predict the replyReset
 
@@ -75,6 +79,8 @@ In the early days of AI chat, hitting the limit meant starting over. You may hav
 ## Filling the window[](https://academy.claude.com/tutorials/parametric-memory-and-context)
 
 Drive a normal chat interaction and watch your context window fill. To keep this example digestible, we'll imagine a model with a much smaller context window of only 1,000 tokens.
+
+Simulation: the learner sends scripted chat turns about a gardening question into a small context window, watching a token bar fill with system prompt, messages, and tool results until the last reply can't fit, showing how overhead crowds out typed content.
 
 A 1,000-token context windowReset
 
@@ -105,6 +111,8 @@ Compaction allows you to continue your conversation instead of starting a new on
 3. **Finally, the conversation continues from that summary.** The summary replaces the conversation history, and then your withheld query from step 1 is passed to Claude for a response.
 
 ## Try it: compaction[](https://academy.claude.com/tutorials/parametric-memory-and-context)
+
+Simulation: a full context window blocks Claude's reply until pressing Compact replaces the prior conversation with one short summary, freeing space so the reply completes. It shows how compaction extends a conversation past its limit, though summarizing can lose details.
 
 The same window, fullReset
 
@@ -176,6 +184,8 @@ Compaction is how Claude can continue a single conversation beyond the context l
 
 Read the sketch left to right. On Tuesday you state a preference and Claude visibly writes it down. Then, on Thursday, in a fresh conversation, Claude hasn't been told the preference again. But the memory note is quietly inserted into context before your first message. This process enables Claude to remember your preferences over time based on the direct feedback you share.
 
+Diagram: A static side-by-side sketch shows a stated preference saved as a memory note in one conversation, then automatically loaded into a fresh conversation's context before the next message, so Claude applies it unprompted.
+
 Written memory
 
 Conversation 1 · Tuesday
@@ -207,6 +217,8 @@ Different Claude products implement memory differently. Claude Code reads [CLAUD
 ## A week of memory[](https://academy.claude.com/tutorials/parametric-memory-and-context)
 
 Five days with the same assistant. Notice what it writes down, and compare that to what it looks up fresh.
+
+Walkthrough: step through five weekdays of sessions with the same assistant, viewing each day's chat alongside its memory file, with new lines marked and unchanged days flagged. It teaches that written memory selectively keeps durable facts while leaving changeable details to be looked up fresh.
 
 A week of memoryReset
 
@@ -248,6 +260,8 @@ Your project, your preferences, and your working relationships made the cut, but
 
 Zooming out, a whole lot is added to the context before Claude sees your first token. The widget below shows what prepended context might be added to a conversation with Claude in a tool like [Cowork(opens in new tab)](https://claude.com/product/cowork). The exact contents vary from product to product.
 
+Explorer: steps through five blocks of context prepended before a learner's first message to Claude, each showing its author, purpose, and an excerpt, then totals their token count in a summary.
+
 Before your first messageReset
 
 ~19k tok
@@ -278,7 +292,7 @@ Every message you send will re-submit the entire conversation so far, including 
 
 
 
-Bonus readingSystem prompts
+Bonus reading System prompts
 
 Anthropic publishes the system prompts for its Claude apps and updates them as models change. Reading one is a great way to see how much of a product's behavior is written into the prompt rather than trained into the model.
 
@@ -289,6 +303,8 @@ Anthropic publishes the system prompts for its Claude apps and updates them as m
 Now that you know how important context is in augmenting Claude's capabilities, it's important to understand **agentic context**: when Claude decides to get more context before answering. You saw this happen in the earlier example about tomato plants, where Claude used a search tool rather than answering from parametric memory or the context it already had.
 
 In the following widget, imagine you're Claude. The sidebar displays some info that was quietly inserted into context before the user's message. For each prompt, decide whether to answer from what you already know, or reach outside yourself for more context.
+
+Exercise: role-play Claude, deciding for four user prompts whether to answer directly or call a tool listed in the session's loaded context, then check each choice against what Claude actually did. Teaches agentic context: Claude decides each turn whether to rely on its own knowledge or fetch more, limited to tools actually loaded.
 
 You are the modelReset
 
@@ -313,6 +329,8 @@ Claude makes this same decision on every turn, and how readily it reaches for mo
 ## Tracing context[](https://academy.claude.com/tutorials/parametric-memory-and-context)
 
 Take this example reply from Claude in Cowork. Each highlighted section was influenced by some of the prepended context. Click a section and identify where you think it came from.
+
+Exercise: tag six highlighted phrases in a sample Cowork reply with the prepended context source that likely shaped each one, then reveal grading and explanations. Teaches how hidden context shapes a reply in non-obvious ways.
 
 Tracing contextReset
 

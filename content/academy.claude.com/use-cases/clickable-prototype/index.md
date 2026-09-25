@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-e6bs284y.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-m8ta2480.png)
 
+Film: the user asks Claude to build a clickable HTML prototype from a flow spec and component library, restricted to approved components. Claude reads source files, asks a design judgment question, then delivers a working prototype and shows scheduling recurring rebuilds to stay current.
+
 **Cobalt — Web**×
 
 +

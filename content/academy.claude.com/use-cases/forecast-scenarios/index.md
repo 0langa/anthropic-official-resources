@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-d27lxpfj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ia2n89lp.png)
 
+Film: the user asks Claude to rebase a driver model on new actuals and run base, upside, and downside scenarios. Claude reads supporting documents, pauses to confirm which assumptions vary, then returns an updated workbook and memo, runnable again on a schedule.
+
 Build forecast scenarios
 
 Leadership asks for three forecast cases and the reasons behind each one.

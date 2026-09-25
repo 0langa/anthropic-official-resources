@@ -15,6 +15,8 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduc
 
 ## What you've covered[](https://academy.claude.com/courses/introduction-to-claude-cowork/troubleshooting-next-steps)
 
+Diagram: A four-card recap of the course's modules, covering what Cowork is, customizing it, using it across surfaces, and sharing it safely, tied together by one throughline about delegating real work.
+
 What you’ve covered
 
 - Module 1

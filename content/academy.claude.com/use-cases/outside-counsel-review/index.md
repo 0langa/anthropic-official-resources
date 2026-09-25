@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-kwp2o4y3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hfgoshpu.png)
 
+Film: the user asks Claude to review a law firm's invoices against billing guidelines and matter budgets, flagging off-pattern entries and budget drift. Claude asks a clarifying question, then returns a variance sheet and talking points, showing how recurring spend review can be scheduled automatically.
+
 Review your law firms’ invoices
 
 Your law firms’ invoices are in and you need to review them.

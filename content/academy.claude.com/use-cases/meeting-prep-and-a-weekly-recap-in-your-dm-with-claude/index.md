@@ -12,6 +12,8 @@ Set up a **[routine(opens in new tab)](https://claude.com/docs/claude-tag/users/
 
 ## Set up[](https://academy.claude.com/use-cases/meeting-prep-and-a-weekly-recap-in-your-dm-with-claude)
 
+Checklist: what to set up for meeting prep and a weekly recap in a direct message with Claude Tag: the DM itself, and the learner's own calendar, email and document connectors, which are required. Slack threads need nothing connected.
+
 
 
 **Ask in the right spot**
@@ -47,6 +49,8 @@ Nothing to connect. Claude finds your threads with an attendee by searching the 
 ## What to ask Claude, and what it does[](https://academy.claude.com/use-cases/meeting-prep-and-a-weekly-recap-in-your-dm-with-claude)
 
 Send this once in your DM with Claude. Each morning, Claude posts a prep note in the DM for each meeting on your calendar that day, built from the event, your email and Slack threads with the attendees, and your documents. Ask for whatever you want to know before a meeting.
+
+Film: in a direct message, the user sets up a weekday routine once, and Claude Tag posts a meeting prep note with attendees, open items, documents and a question to ask, citing its calendar, email and document sources.
 
 Claude · direct messageYReplay
 
@@ -98,6 +102,8 @@ Send these in the same DM. The @-mention is optional there.
 
 With a second routine, Claude reads your calendar, deadlines and open threads on Monday morning and says which items are at risk and why.
 
+Simulation: a single message to Claude Tag in the user's DM, sometimes with Claude's reply. It sets up a Monday routine or an unsent Friday recap, asks Claude to block calendar time, or asks which routines exist.
+
 Claude · direct messageY
 
 Y
@@ -109,6 +115,8 @@ YouCopy
 ### Have Claude block time on your calendar[](https://academy.claude.com/use-cases/meeting-prep-and-a-weekly-recap-in-your-dm-with-claude)
 
 With your calendar connector on your Claude account, Claude creates an event when you ask, and only then. Here you reply under Monday's post, which listed a security summary due on Wednesday:
+
+Simulation: a single message to Claude Tag in the user's DM, sometimes with Claude's reply. It sets up a Monday routine or an unsent Friday recap, asks Claude to block calendar time, or asks which routines exist.
 
 Claude · direct messageY
 
@@ -125,6 +133,8 @@ Blocked 9:00 to 10:00 on Wednesday for the security summary.
 ### Get a Friday recap you can forward[](https://academy.claude.com/use-cases/meeting-prep-and-a-weekly-recap-in-your-dm-with-claude)
 
 Claude drafts the recap in the DM as a note ([artifacts(opens in new tab)](https://claude.com/docs/claude-tag/users/use-cases/create-artifacts)) and does not send it, so you decide whether to forward it and to whom.
+
+Simulation: a single message to Claude Tag in the user's DM, sometimes with Claude's reply. It sets up a Monday routine or an unsent Friday recap, asks Claude to block calendar time, or asks which routines exist.
 
 Claude · direct messageY
 
@@ -147,6 +157,8 @@ in this DM · only you can see it
 ### See or stop the routines in your DM[](https://academy.claude.com/use-cases/meeting-prep-and-a-weekly-recap-in-your-dm-with-claude)
 
 Claude lists the routines you set up in the DM when asked. To change one, describe the change. To stop one, name it ([manage standing work(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity)).
+
+Simulation: a single message to Claude Tag in the user's DM, sometimes with Claude's reply. It sets up a Monday routine or an unsent Friday recap, asks Claude to block calendar time, or asks which routines exist.
 
 Claude · direct messageY
 

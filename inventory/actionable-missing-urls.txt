@@ -1,3 +1,4 @@
-https://claude.com/blog/claude-marketplace
-https://support.claude.com/en/articles/14604397
-https://support.claude.com/en/articles/16994751
+https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context
+https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels
+https://support.claude.com/cdn-cgi/l/email-protection
+https://support.claude.com/en/articles/17153992

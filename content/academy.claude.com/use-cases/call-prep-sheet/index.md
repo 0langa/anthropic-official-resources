@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-fzzs6i6o.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-my91enox.png)
 
+Film: the user asks Claude to prep for a sales call using a CRM record, call transcripts, and a shared action plan, producing a one-page sheet with asks and objections, then schedules it to run automatically each morning.
+
 Prep for a sales call
 
 You have a sales call tomorrow and need to know what to ask.

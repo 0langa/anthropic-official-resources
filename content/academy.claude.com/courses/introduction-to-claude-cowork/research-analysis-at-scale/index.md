@@ -20,6 +20,8 @@ Four building blocks make that happen. Each one gives Claude something it can ca
 
 ## The four building blocks[](https://academy.claude.com/courses/introduction-to-claude-cowork/research-analysis-at-scale)
 
+Diagram: a grid of four equally weighted building blocks—global instructions, projects, skills, and plugins—showing what Cowork learns from each and what that unlocks, teaching that these blocks compound to make Cowork more capable over time.
+
 Four ways Cowork learns about you
 
 Each one gives Cowork a different kind of knowledge. Each kind makes it more capable.

@@ -18,6 +18,8 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduc
 
 When you add Claude to a channel, what it knows comes from that channel: its history, the instructions and memory saved there, and the tools connected to it. Keep one kind of work in a channel, with the tools that fit it, and Claude learns that job well. That is what makes it a specialist for the channel.
 
+Comparison: Claude gets the same question in two channels, one with connected data, past threads, a pinned plan and a channel note, the other without the data, plan or note. It teaches that Claude's answer depends on what the channel gives it.
+
 ### #fpa-monthly
 
 Warehouse connected
@@ -82,6 +84,8 @@ Here are a few shapes this takes:
 
 Start by documenting your standard process, give it to Claude with automatic replies on, and Claude gets sharper as it runs.
 
+Exercise: the learner builds a message handing Claude a standing job in a channel, choosing the job, who Claude tags on each item it handles, and what it does and who it tags when unsure. It teaches how to phrase an ongoing responsibility.
+
 Y
 
 @Claude remember for this channel: from now on, you are responsible for The jobtriaging the engagement requests postedtriaging the engagement requests postedwatching the alerts postedthe first pass on vendor submissions postedrunning the launch checklist for each release announced here. For each one: check it against the account record in the CRM, Who owns ittag whoever is on this week’s rotationtag whoever is on this week’s rotationtag the team leadtag the owner the routing rules name, and record it in the request tracker with a link to the thread. If something is unclear or you are not confident, When unsureask one clarifying question in the thread, then tagask one clarifying question in the thread, then tagtag @Diego.
@@ -105,6 +109,8 @@ The first one changes the channel's [**Respond automatically** setting(opens in 
 To learn more, see [turn automatic replies on or off(opens in new tab)](https://claude.com/docs/claude-tag/users/when-claude-responds).
 
 ## Practice[](https://academy.claude.com/courses/introduction-to-claude-tag/proactivity-let-claude-reply-without-being-tagged)
+
+Exercise: review what Claude did with three messages in a support channel with automatic replies on, and pick fixes that build a message asking Claude to remember its job. It teaches that automatic replies control only whether Claude may speak, not what it says.
 
 Tune Claude’s proactive replies
 

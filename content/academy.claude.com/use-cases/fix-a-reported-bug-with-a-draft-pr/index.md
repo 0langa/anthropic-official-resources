@@ -12,6 +12,8 @@ With Claude Tag in the channel and the repository connected, reply to a report. 
 
 ## Set up[](https://academy.claude.com/use-cases/fix-a-reported-bug-with-a-draft-pr)
 
+Checklist: two setup items for having Claude Tag fix a reported bug, which are to ask in the bug report's thread and to connect GitHub with the bug's repository, with Datadog or Sentry as an optional way to read the error.
+
 
 
 **Ask in the right spot**
@@ -51,6 +53,8 @@ For help, ask your admin or visit our [troubleshooting docs(opens in new tab)](h
 When a bug report comes in, reply in its thread and ask Claude to reproduce and fix it. Tell it which repository, and when to stop, such as once a draft PR is open and CI passes.
 
 Claude's first reply is a checklist that it updates as it works, so you can check in and see Claude's progress. When it finishes, it posts the message below:
+
+Film: in a bug report's thread, the user asks Claude Tag to reproduce and fix the bug, and Claude works through a plan, then posts the cause, the fix and a test, and a draft pull request for a person to review.
 
 #eng-bugsMYReplay
 
@@ -107,6 +111,8 @@ Before anyone merges, read the changed code in the pull request and check that t
 
 Anyone in the thread can ask for a change, without tagging Claude again, and Claude updates the same pull request ([reply in the thread to steer(opens in new tab)](https://claude.com/docs/claude-tag/concepts/how-it-works)). Leo, who owns the export code, replies in the thread:
 
+Simulation: a single message to Claude in an engineering channel for bugs or a report's thread, sometimes with Claude's reply. It asks Claude to change its approach, follow a pull request's CI, try reproducing new reports, say what it remembers, or diagnose without fixing.
+
 #eng-bugsMLY
 
 L
@@ -122,6 +128,8 @@ Switched the schema to read the field list from `export/fields.py`, updated the 
 ### Have Claude follow a pull request[](https://academy.claude.com/use-cases/fix-a-reported-bug-with-a-draft-pr)
 
 Claude can [follow a pull request(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity), whoever opened it, and post each CI result in the thread. Ask it to tag you only when a check fails.
+
+Simulation: a single message to Claude in an engineering channel for bugs or a report's thread, sometimes with Claude's reply. It asks Claude to change its approach, follow a pull request's CI, try reproducing new reports, say what it remembers, or diagnose without fixing.
 
 #eng-bugsY
 
@@ -145,6 +153,8 @@ acme/data-pipeline · CI passed · ready for review
 
 With Respond automatically on for the channel, Claude can act on new reports without a tag ([standing work(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity)). Send the message below once, and Claude tries to reproduce each new bug report. It posts a draft pull request, or what it tried.
 
+Simulation: a single message to Claude in an engineering channel for bugs or a report's thread, sometimes with Claude's reply. It asks Claude to change its approach, follow a pull request's CI, try reproducing new reports, say what it remembers, or diagnose without fixing.
+
 #eng-bugsMY
 
 Y
@@ -157,6 +167,8 @@ YouCopy
 
 Claude lists a channel's standing instructions when asked, so you can [change or stop one(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity).
 
+Simulation: a single message to Claude in an engineering channel for bugs or a report's thread, sometimes with Claude's reply. It asks Claude to change its approach, follow a pull request's CI, try reproducing new reports, say what it remembers, or diagnose without fixing.
+
 #eng-bugsMY
 
 Y
@@ -168,6 +180,8 @@ YouCopy
 ### Ask for a diagnosis only[](https://academy.claude.com/use-cases/fix-a-reported-bug-with-a-draft-pr)
 
 You decide how far Claude goes. Ask for the cause only, and Claude posts its findings in the thread without changing code or opening a pull request.
+
+Simulation: a single message to Claude in an engineering channel for bugs or a report's thread, sometimes with Claude's reply. It asks Claude to change its approach, follow a pull request's CI, try reproducing new reports, say what it remembers, or diagnose without fixing.
 
 #eng-bugsY
 

@@ -8,6 +8,8 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fmodel-context-protocol-advanced-topics%2Fnotifications-walkthrough)
 
+Walkthrough: a stepped tour of sample MCP code showing how tool functions log and report progress via a Context object, and how clients define callbacks to display these updates, with a read-only code viewer highlighting relevant lines per step.
+
 ### Tutorial Steps
 
 Let's get a better sense of how to implement this feature by walking through a sample project.

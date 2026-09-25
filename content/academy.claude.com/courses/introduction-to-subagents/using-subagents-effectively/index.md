@@ -121,3 +121,31 @@ Test-runner subagents tend to hide information you need. When tests fail, you wa
 Across the series, we covered how subagents work as isolated threads that return summaries, how to create them with the /agents command, and how to design them with structured outputs and specific descriptions. Use them for research, reviews, and tasks needing custom system prompts. But avoid them for expert claims, multi-step pipelines, and test runners.
 
 The key question: does the intermediate work matter? If not, then delegate it.
+
+
+## Video transcript
+
+# Using subagents effectively
+
+You know how to create subagents and design them well. Now, let's cover when they actually help and when they get in the way.
+
+Simply put, the difference comes down to whether the intermediate work matters to your main thread. When exploration is separate from execution, subagents shine. When each step depends on what the previous step discovered, well, information gets lost in the handoff process.
+
+Subagents excel at research tasks where you just need an answer, not the journey. Consider investigating how authentication works in an unfamiliar codebase. Well, the main thread might need to know where is the JWT validated, but doesn't need to see every file that was searched. A research subagent can read dozens of files, trace through function calls, and explore different code paths. All that exploration stays in the subagent's context. Your main thread receives "JWT validation happens in middleware/auth.js at line 42, called from the Express router and routes/api.js," or something like that.
+
+Code reviews work more effectively when the code is presented as being authored by someone else. If you build a feature over many turns with your main thread, asking the main thread to then review it often doesn't give the best feedback. Claude was involved in creating it, so it has trouble seeing it with fresh eyes. A reviewer subagent sees the changes in a separate context. It runs git diff, reads the modified files, and applies its specialized review criteria without the history of how the code was written. And this separation also lets you encode project-specific review standards in the subagent system prompt, ensuring consistent review criteria across the team.
+
+Claude Code's default system prompt emphasizes concise, code-focused responses. And this works great for coding, but not for everything. So run a copywriting subagent with instructions about tone, audience, and style. This will produce better marketing text than the main thread would. Claude Code's default prompt tends towards concise, technical writing, which really isn't what you want for a landing page or email campaign, unless you want to put your customers to sleep. A copywriting subagent can have completely different instructions about voice and structure.
+
+A styling subagent that @mentions your design system files will apply consistent CSS patterns. When the subagent runs, those files load into the context automatically, so it knows your color variables, spacing conventions, and component patterns before it even starts writing any CSS.
+
+Subagents that claim expertise rarely help. Prompts like "you are a Python expert" or "you are a Kubernetes specialist" add no value because Claude already has that knowledge. The overhead of launching a subagent, losing visibility into its work, and compressing its findings into a summary only makes sense when the subagent does something that the main thread can't—like applying a custom system prompt or keeping exploratory work isolated.
+
+Sequential subagent pipelines create problems. Consider a three-agent flow: one to reproduce a bug, one to debug it, and one to fix it. Pipelines work when tasks are truly independent. They fail when each step depends on discoveries from the previous step.
+
+Test-runner subagents tend to hide information you need. When tests fail, you want the full output to diagnose issues. A subagent that returns "tests failed" forces you to create additional debug scripts to get details that would have been visible in direct output. Testing has shown that the test-runner pattern performed worst among all configurations.
+
+Across the series, we covered how subagents work as isolated threads that return summaries, how to create them with the /agents command, and how to design them with structured outputs and specific descriptions. Use them for research, reviews, and tasks needing custom system prompts. But avoid them for expert claims, multi-step pipelines, and test runners.
+
+The key question: does the intermediate work matter? If not, then delegate it.
+

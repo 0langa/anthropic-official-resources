@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-ffjdr70o.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bm06b1oh.png)
 
+Film: the user asks Claude to turn brand guidelines, a voice doc, and design tokens into a shared skill. Claude reads the sources, checks which should win when they conflict, then writes and runs the skill, correcting an off-brand request with the rule named.
+
 Turn brand guidelines into a skill
 
 You want every team’s drafts to follow the brand without your review.

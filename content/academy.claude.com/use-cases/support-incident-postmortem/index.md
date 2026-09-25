@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-ekdkz1b1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dwsje4gy.png)
 
+Film: the user asks Claude to draft a customer-facing incident postmortem from a chat channel, support tickets, and recent deploys. Claude asks how much cause detail to share, then writes a review separating customer-facing wording from internal detail.
+
 Views+ Add
 
 Search tickets

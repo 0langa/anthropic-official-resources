@@ -142,3 +142,31 @@ The model field specifies which Claude model to use. Sonnet, Opus, Haiku, or Inh
 The body of the file contains the system prompt that is given to the subagent. The system prompt will provide guidance to the subagent, helping it understand how to complete its task and how it should return information back to the main agent.
 
 Now, for the fun part, after creating your subagent, test it by making some code changes and asking Claude to review them. If the subagent isn't being used when you expect, check your description. Adding more specific examples helps Claude understand when to delegate.
+
+
+## Video transcript
+
+# Creating a subagent
+
+In the previous video, we covered what subagents are and how they work. Claude Code includes built-in subagents, but you can also create your own subagents as specialized in certain tasks.
+
+Custom subagents are markdown files with YAML front matter. These markdown files contain configuration that helps Claude understand when to use this subagent and provides directions to the subagent itself. Now the easiest way to create a subagent is with the /agents command. This panel is the main interface for managing your subagents.
+
+Once here, select Create New Agent. You'll then be asked if you want to create a subagent for the current project or a subagent that will be shared between all of the projects on your machine. Next, you can create a subagent manually, but we recommend using Claude Code to automatically generate it for you.
+
+Our first subagent will be a code reviewer. I'll ask Claude to make a subagent that reviews code quality and security issues. Claude will use your input to generate a name, description, and system prompt for the subagent. We'll see those in a moment, but before we do, we get the opportunity to customize the tools that this subagent has access to.
+
+Now given that our subagent is only responsible for reviewing code, you might decide to disallow tools for editing. But I'll leave an execution to allow the subagent to more easily identify pending changes. Next you'll be prompted to select the model that powers the subagent. And finally, a color. This color is used in the UI to help you better identify the subagent. And it also just adds a little bit of personal flair.
+
+Now at the summary window, we see that the subagent config file will be saved into my current project at this path. Now let's open up that file to get a better idea of what's going on.
+
+The name field is a unique identifier. This is how you reference the subagent either by asking Claude directly or using @agent code quality reviewer in your message. The description controls when Claude decides to use the subagent. The description must be on a single line. Notice that there are escaped new line characters in there. If you want Claude to use the subagent automatically more often, add in the word proactively to the description. You can also add example conversations to help Claude understand when it should be using the subagent.
+
+The tools field lists which tools the subagent can access. The list of tools will match the tools we granted access to during the agent generation. But you can further edit the list of tools in this file if you want.
+
+The model field specifies which Claude model to use. Sonnet, Opus, Haiku, or Inherit. Use Haiku for fast tasks. Opus for complex analysis. And Sonnet if you need something between the two. Inherit will use the same model as your main conversation.
+
+The body of the file contains the system prompt that is given to the subagent. The system prompt will provide guidance to the subagent, helping it understand how to complete its task and how it should return information back to the main agent.
+
+Now, for the fun part, after creating your subagent, test it by making some code changes and asking Claude to review them. If the subagent isn't being used when you expect, check your description. Adding more specific examples helps Claude understand when to delegate.
+

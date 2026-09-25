@@ -68,6 +68,12 @@ Ensuring future generations of frontier models are trained and deployed responsi
 
 ## Related content
 
+### Claude discovers a novel enzyme system with CRISPR-like repeats
+
+We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
+
+[Read more](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
+
 ### Partnering with Accenture on embedded evaluation
 
 [Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)
@@ -77,7 +83,3 @@ Ensuring future generations of frontier models are trained and deployed responsi
 The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
 
 [Read more](https://www.anthropic.com/news/life-sciences-verification-program)
-
-### Developing Enterprise Frontier Safeguards with our customers
-
-[Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)

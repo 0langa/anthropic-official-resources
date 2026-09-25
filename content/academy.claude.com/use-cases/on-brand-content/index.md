@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-nu0i2d0q.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mxhk1r1q.png)
 
+Film: the user asks Claude to draft a full on-brand content set from a campaign brief, and the film shows it reading brand guidelines and past pieces, reproducing approved messaging word for word, and flagging thin spots instead of inventing details.
+
 Create on-brand content
 
 You have a campaign brief and need every piece drafted in the brand voice.

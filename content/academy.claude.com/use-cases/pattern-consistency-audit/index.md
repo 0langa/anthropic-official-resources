@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-pa0satz7.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ewc5ye4g.png)
 
+Film: the user asks Claude to find every surface already using a similar filtering pattern before designing a new one, checking a component inventory, library, code, and usage data, then recommending which to reuse. The user saves this as a repeatable skill.
+
 Find existing patterns before you design
 
 You are about to design something the product may already have.

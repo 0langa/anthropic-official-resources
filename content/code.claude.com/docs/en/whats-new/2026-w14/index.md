@@ -113,7 +113,7 @@ Computer use in the CLI, interactive in-product lessons, flicker-free rendering,
       └── my-tool
   ```
 
-  <a href="/docs/en/plugins-reference#file-locations-reference">Plugins reference</a>
+  <a href="/docs/en/plugins/manifest-reference#standard-layout">Plugins reference</a>
 </div>
 
 <div>

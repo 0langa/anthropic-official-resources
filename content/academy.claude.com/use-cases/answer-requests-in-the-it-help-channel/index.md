@@ -12,6 +12,8 @@ Connect the IT knowledge base and the ticket queue to the channel and give Claud
 
 ## Set up[](https://academy.claude.com/use-cases/answer-requests-in-the-it-help-channel)
 
+Checklist: the setup for giving Claude a standing responsibility in an IT help channel, covering where to post the instruction, the required knowledge base and ticketing tools, Okta or Jamf as an optional tool, and turning on Respond automatically.
+
 
 
 **Ask in the right spot**
@@ -65,6 +67,8 @@ For help, ask your admin or visit our [troubleshooting docs(opens in new tab)](h
 Send this once in your IT help channel. From then on, Claude answers each new request in its thread, asks for anything missing and passes what it cannot resolve to the owner. If the channel's history does not show who the owner is or where the policies are kept, add both to your message.
 
 Ravi posted the question below a week later, without tagging Claude:
+
+Film: after a standing instruction from the user, Claude answers a colleague's untagged question in an IT help channel from the knowledge base, cites the policy and how-to article, and offers to file a request needing the owner's approval.
 
 #it-helpRYReplay
 
@@ -120,6 +124,8 @@ For the first weeks, the owner reads some of Claude's answers and opens the link
 
 Anyone in the thread can answer Claude without tagging it again. If the ticketing tool is connected to this channel with write access, Claude files the request under its own name and assigns it to the owner ([turn threads into tickets(opens in new tab)](https://claude.com/docs/claude-tag/users/use-cases/create-artifacts)).
 
+Simulation: a single message to Claude in an IT help channel or thread, sometimes with Claude's reply. It accepts Claude's offer to file a ticket, or sets how Claude handles requests, a weekly summary, or mention-only replies.
+
 #it-helpRY
 
 R
@@ -142,6 +148,8 @@ Jira Service Management · filed under Claude's name · assigned to Dana
 
 Claude keeps instructions for the channel in [channel memory(opens in new tab)](https://claude.com/docs/claude-tag/users/memory), which anyone in the channel can read and correct. When the same kind of request keeps coming in, the owner can add who handles it and how to treat duplicates. Claude then applies it to every later request in the channel.
 
+Simulation: a single message to Claude in an IT help channel or thread, sometimes with Claude's reply. It accepts Claude's offer to file a ticket, or sets how Claude handles requests, a weekly summary, or mention-only replies.
+
 #it-helpY
 
 Y
@@ -154,6 +162,8 @@ YouCopy
 
 Claude can post a summary of the week's requests as a [routine(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity), including posts that did not tag it. Add your time zone to the time.
 
+Simulation: a single message to Claude in an IT help channel or thread, sometimes with Claude's reply. It accepts Claude's offer to file a ticket, or sets how Claude handles requests, a weekly summary, or mention-only replies.
+
 #it-helpY
 
 Y
@@ -165,6 +175,8 @@ YouCopy
 ### Make Claude mention-only in a channel[](https://academy.claude.com/use-cases/answer-requests-in-the-it-help-channel)
 
 The channel's Respond automatically setting decides whether Claude answers messages that do not tag it, and anyone in the channel can turn it off by asking ([quiet the whole channel(opens in new tab)](https://claude.com/docs/claude-tag/users/when-claude-responds)). Requesters then include @Claude in their posts.
+
+Simulation: a single message to Claude in an IT help channel or thread, sometimes with Claude's reply. It accepts Claude's offer to file a ticket, or sets how Claude handles requests, a weekly summary, or mention-only replies.
 
 #it-helpY
 

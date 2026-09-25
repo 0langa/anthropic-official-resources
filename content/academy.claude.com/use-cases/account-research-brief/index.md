@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-mtc5a1pi.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ha2dvss7.png)
 
+Film: the user asks Claude to research a prospect account before a call, naming sources and asking for openers. Claude reads CRM history, a filing, news, and executive posts, then writes a one-page brief with dated changes, fit, and openers, and shows scheduling it recurringly.
+
 Research an account before a call
 
 You have a customer call tomorrow and need a one-page brief on the account.

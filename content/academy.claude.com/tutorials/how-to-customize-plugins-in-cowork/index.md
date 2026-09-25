@@ -22,6 +22,8 @@ Admins managing plugins for an organization, see [Manage Cowork plugins for your
 
 *In the sidebar, open* ***`Customize`*** *›* [***`Plugins`***(opens in new tab)](https://claude.ai/desktop/customize/plugins)*, select the plugin, and click* ***`Customize`****.*
 
+Diagram: A static illustration of a plugin detail card in Claude Cowork, showing its name, source, version, author, and description alongside update, toggle, and customize controls, orienting the learner to where customization starts.
+
 Finance
 
 UpdateCustomize

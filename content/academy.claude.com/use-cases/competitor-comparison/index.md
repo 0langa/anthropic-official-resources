@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-lfte5epc.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ljg8b3c8.png)
 
+Film: the user asks Claude's competitive-brief skill to compare their company against a competitor using public pages and an internal positioning document. Claude asks who the deck is for, then returns a sourced sales deck and feature matrix, and can run on a schedule.
+
 Build the competitive comparison
 
 Sales wants to know how you compare with a competitor.

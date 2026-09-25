@@ -8,6 +8,8 @@ This tutorial offers a full list of the AI fluency behaviors cited in the Anthro
 
 This tutorial offers a full list of the AI fluency behaviors cited in the [Anthropic Education Report: The AI Fluency Index(opens in new tab)](https://www.anthropic.com/research/AI-fluency-index). It's a quick reference to help you understand what each behavior looks like alongside specific tactics you can try in your day-to-day work.
 
+Explorer: a filterable catalog of AI fluency behavioral indicators across four dimensions—Description, Delegation, Discernment, and Diligence—each expandable to show why it matters and example phrases. Includes a prompt to open in Claude for a personalized reflection on one's own conversation patterns.
+
 The four dimensions of AI fluency
 
 DescriptionCommunicate clearly with AI.DelegationDecide what to do with AI vs. yourself.DiscernmentEvaluate what AI gives you.DiligenceUse AI responsibly and accountably.
@@ -961,6 +963,8 @@ This tutorial offers a full list of the AI fluency behaviors cited in the Anthro
 
 This tutorial offers a full list of the AI fluency behaviors cited in the [Anthropic Education Report: The AI Fluency Index(opens in new tab)](https://www.anthropic.com/research/AI-fluency-index). It's a quick reference to help you understand what each behavior looks like alongside specific tactics you can try in your day-to-day work.
 
+Explorer: a filterable catalog of AI fluency behavioral indicators across four dimensions—Description, Delegation, Discernment, and Diligence—each expandable to show why it matters and example phrases. Includes a prompt to open in Claude for a personalized reflection on one's own conversation patterns.
+
 The four dimensions of AI fluency
 
 DescriptionCommunicate clearly with AI.DelegationDecide what to do with AI vs. yourself.DiscernmentEvaluate what AI gives you.DiligenceUse AI responsibly and accountably.
@@ -1905,6 +1909,8 @@ This tutorial offers a full list of the AI fluency behaviors cited in the Anthro
 ![](https://academy.claude.com/assets/v1/thumbnail.light-peff89t8.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lrenqyqv.png)
 
 This tutorial offers a full list of the AI fluency behaviors cited in the [Anthropic Education Report: The AI Fluency Index(opens in new tab)](https://www.anthropic.com/research/AI-fluency-index). It's a quick reference to help you understand what each behavior looks like alongside specific tactics you can try in your day-to-day work.
+
+Explorer: a filterable catalog of AI fluency behavioral indicators across four dimensions—Description, Delegation, Discernment, and Diligence—each expandable to show why it matters and example phrases. Includes a prompt to open in Claude for a personalized reflection on one's own conversation patterns.
 
 The four dimensions of AI fluency
 
@@ -2851,6 +2857,8 @@ This tutorial offers a full list of the AI fluency behaviors cited in the Anthro
 
 This tutorial offers a full list of the AI fluency behaviors cited in the [Anthropic Education Report: The AI Fluency Index(opens in new tab)](https://www.anthropic.com/research/AI-fluency-index). It's a quick reference to help you understand what each behavior looks like alongside specific tactics you can try in your day-to-day work.
 
+Explorer: a filterable catalog of AI fluency behavioral indicators across four dimensions—Description, Delegation, Discernment, and Diligence—each expandable to show why it matters and example phrases. Includes a prompt to open in Claude for a personalized reflection on one's own conversation patterns.
+
 The four dimensions of AI fluency
 
 DescriptionCommunicate clearly with AI.DelegationDecide what to do with AI vs. yourself.DiscernmentEvaluate what AI gives you.DiligenceUse AI responsibly and accountably.
@@ -3795,6 +3803,8 @@ This tutorial offers a full list of the AI fluency behaviors cited in the Anthro
 ![](https://academy.claude.com/assets/v1/thumbnail.light-peff89t8.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lrenqyqv.png)
 
 This tutorial offers a full list of the AI fluency behaviors cited in the [Anthropic Education Report: The AI Fluency Index(opens in new tab)](https://www.anthropic.com/research/AI-fluency-index). It's a quick reference to help you understand what each behavior looks like alongside specific tactics you can try in your day-to-day work.
+
+Explorer: a filterable catalog of AI fluency behavioral indicators across four dimensions—Description, Delegation, Discernment, and Diligence—each expandable to show why it matters and example phrases. Includes a prompt to open in Claude for a personalized reflection on one's own conversation patterns.
 
 The four dimensions of AI fluency
 

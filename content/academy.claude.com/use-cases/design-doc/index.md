@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-pbyyssck.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-oj6tpm7w.png)
 
+Film: the user asks Claude to research prior art and constraints, then draft a design doc in their template. Claude searches connected wiki and code, pauses to ask about sections only the user can decide, then returns a structured draft with trade-offs and open questions.
+
 Write the design doc or RFC
 
 You need to turn rough notes into a design doc your team can review.

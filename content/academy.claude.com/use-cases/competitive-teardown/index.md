@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-i8lzizck.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-m3smq5zq.png)
 
+Film: the user asks Claude, using a competitive-brief skill, to build a teardown against named competitors, browsing their product, docs, and pricing, checking in on judgment calls, then returning a sourced matrix and gap brief, plus an option to schedule it to rerun.
+
 **What’s new · Trellis**×
 
 +

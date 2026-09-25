@@ -51,6 +51,8 @@ In a DM, Claude can draw on:
 
 Put together, that makes a DM good for work like this:
 
+Reference list: three example use cases for messaging Claude in a DM, each with a goal, the steps Claude takes, and a copyable sample message, showing how to phrase requests for personal, cross-source work.
+
 - ### Walk into a meeting prepared
 
   - Pulls what the account channel decided this month
@@ -119,6 +121,8 @@ In a DM with Claude · 10 minutes, then a minute each morning
 
    Claude comes back with a proposed list of channels to follow.
 3. **Ask for the brief:** one message with when, what to watch, and what to bring back. Change the underlined parts, then copy it into your DM:
+
+   Exercise: the learner builds one message asking Claude for a morning brief, choosing the days, time, tone, contents, and format, then copies it into a DM. It teaches saying when the brief arrives, what to watch, and what to bring back.
 
    Y
 

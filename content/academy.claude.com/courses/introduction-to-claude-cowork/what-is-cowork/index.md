@@ -49,6 +49,8 @@ But the differences between the two go even deeper than this. Mechanically, Chat
 
 You can see what makes a great Cowork task below.
 
+Explorer: a sample Cowork prompt with four phrases to open. Each phrase explains one trait of Cowork's kind of work: local files, multiple tools, multiple steps, and a real deliverable.
+
 Anatomy of a Cowork task
 
 What did we decide about pricing last quarter? Look across the meeting notes in the Q3 Sales folder, my emails from the sales team, the leadership Slack, and the proposal decks — pull it all together and write me a one-page summary I can send to the exec team.
@@ -77,6 +79,8 @@ Now that you know what Cowork is, take a moment to see how it fits alongside the
 Each suits a different shape of work. **Chat** is turn-by-turn dialogue — quick exchanges, brainstorming, exploratory thinking, one tool at a time. **Cowork** is what you've just been reading about: a working session where Claude reaches across many tools, stays on a task over time, and produces finished outputs. **Code** is a full development environment that runs inside your codebase, with terminal and git access — built for developers writing and shipping software.
 
 The interactive below has two parts: a three-way comparison so you can see all three at a glance, and a six-task challenge that asks you to pick the right one for each scenario.
+
+Exercise: compares Chat, Cowork, and Code, then asks the learner to pick the right one for six workplace tasks, with an explanation after each choice and a score at the end.
 
 Chat
 
@@ -144,3 +148,11 @@ Was this helpful?
 ## Transcript
 
 This lesson's video contains no spoken narration (screen demonstration with background audio only).
+
+
+## Video transcript
+
+# Introducing Cowork: Claude Code for the rest of your work
+
+This lesson's video contains no spoken narration (screen demonstration with background audio only).
+

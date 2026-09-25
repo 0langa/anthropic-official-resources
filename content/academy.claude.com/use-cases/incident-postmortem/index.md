@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-fnbe9wym.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nsjpa7is.png)
 
+Film: the user asks Claude to draft a blameless incident postmortem from a Slack channel and alert timeline, pausing to ask the user a judgment call before returning a timestamped report with owned action items and a draft note awaiting approval.
+
 Draft the incident postmortem
 
 The incident is over and you need to write the postmortem.

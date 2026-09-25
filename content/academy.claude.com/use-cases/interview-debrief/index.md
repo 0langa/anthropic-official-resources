@@ -6,6 +6,8 @@ Where the panel agreed, where they split, what to resolve.
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-off27hqc.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-esddo3nx.png)
 
+Film: the user asks Claude, via a recruiting skill, to synthesize interviewers' scorecards into a debrief brief showing where the panel agrees, splits, and lacks coverage, ending with open questions instead of a recommendation.
+
 Interview scorecardHiring / Senior-PM-Growth / scorecards
 
 # Onsite 1: Product leadership

@@ -44,6 +44,9 @@ Search
 
 DateCategoryTitle
 
+- [Sep 24, 2026Economics
+
+  Project Swap: What happens when agents trade for us?](https://www.anthropic.com/research/project-swap)
 - [Aug 12, 2026Economics
 
   Reviewing the evidence on worker retraining programs](https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs)
@@ -71,10 +74,5 @@ DateCategoryTitle
 - [Mar 24, 2026Economics
 
   Anthropic Economic Index report: Learning curves](https://www.anthropic.com/research/economic-index-march-2026-report)
-- [Mar 5, 2026Economics
-
-  Labor market impacts of AI: A new measure and early evidence](https://www.anthropic.com/research/labor-market-impacts)
 
 [See more](https://www.anthropic.com/research/team/economics)
-
-![Reviewing the evidence on worker retraining programs](https://www-cdn.anthropic.com/images/4zrzovbb/website/f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)

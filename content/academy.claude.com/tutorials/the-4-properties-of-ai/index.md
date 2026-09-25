@@ -8,6 +8,8 @@ This tutorial offers a full overview of the 4 properties of AI. It's a quick ref
 
 *Want the deep dive with hands-on exercises?* Take the full [AI Capabilities & Limitations(opens in new tab)](https://academy.claude.com/courses/ai-capabilities-and-limitations) course.
 
+Diagram: Four linked tiles introduce the tutorial's core framework, naming next token prediction, knowledge, working memory, and steerability, each posing its guiding question and linking to that section.
+
 [Next Token Prediction
 
 Where do AI answers come from?](https://academy.claude.com/tutorials/the-4-properties-of-ai)
@@ -31,6 +33,8 @@ How much am I in control?](https://academy.claude.com/tutorials/the-4-properties
 *Where do AI answers come from?*
 
 Generative AI writes answers word by word based on what tends to follow what. It is a vastly sophisticated autocomplete — not a search engine.
+
+Summary card: outlines next token prediction, explaining what this text-prediction property enables and where it typically fails, plus Claude features that push those limits, with a linked video for more depth.
 
 [Watch the lesson · 5 min](https://www.youtube.com/watch?v=kl0gunXTvyk)
 
@@ -58,6 +62,8 @@ Citations & source groundingConstrained generationGenerator–verifier loops
 
 What the model knows comes entirely from its training data, frozen at a knowledge cutoff — what it read, and when it stopped reading.
 
+Summary card: profiles the "Knowledge" property of AI, linking a short video and listing what broad training knowledge enables versus where it fails, like stale cutoffs and uneven coverage, plus Claude features like search and retrieval that extend it.
+
 [Watch the lesson · 5 min](https://www.youtube.com/watch?v=iSLdQXeKbHs)
 
 What this enables
@@ -83,6 +89,8 @@ Web searchRetrieval (RAG / connectors)Tool use for real-time data
 *What is the AI paying attention to right now?*
 
 Everything the model is attending to lives inside a fixed-size context window. Context is leverage — until you hit the cliff.
+
+Summary card: profiles Working Memory, the AI property governing what fits in a model's fixed context window, listing what it enables, where it fails, and Claude features that extend this limit, plus a linked video lesson.
 
 [Watch the lesson · 6 min](https://www.youtube.com/watch?v=QJjt4wF4iHM)
 
@@ -110,6 +118,8 @@ MemoryProjectsContext compactionFile & artifact attachments
 
 The model follows instructions by continuing a pattern, not by understanding intent. Remarkably steerable — but a gap always exists between what you meant and what landed.
 
+Summary card: outlines steerability, explaining how an AI model follows instructions by continuing a pattern rather than grasping intent, listing what this enables, where it typically fails, and which features extend its reach, with a linked video.
+
 [Watch the lesson · 5 min](https://www.youtube.com/watch?v=M_RwSRmp220)
 
 What this enables
@@ -129,6 +139,8 @@ Claude features that push the edge out
 System prompts / custom instructionsExtended (visible) thinkingCode execution
 
 ## Go deeper[](https://academy.claude.com/tutorials/the-4-properties-of-ai)
+
+Card: a closing call-to-action linking to the full AI Capabilities and Limitations course, covering each of the four properties with hands-on exercises, videos, and examples in about 90 minutes.
 
 Claude Academy · Free course
 

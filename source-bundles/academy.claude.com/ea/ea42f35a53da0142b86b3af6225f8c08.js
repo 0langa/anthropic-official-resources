@@ -1,0 +1,28 @@
+import{Nm as e,jm as t}from"../../../../../content-de-meta-mdrrzgmt.js";var n=t();function r(t){let r={em:"em",h2:"h2",li:"li",p:"p",ul:"ul",...e(),...t.components},{ResourceWidget:i}=r;return i||a("ResourceWidget",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{id:"why-this-matters",children:"Why this matters"}),`
+`,(0,n.jsx)(r.p,{children:"When you build a skill or bundle them into a plugin, you're essentially building a small product that other people will use. And like anything you'd hand to a colleague — a template, a spreadsheet model, a checklist — it's worth a test drive before it leaves your desk."}),`
+`,(0,n.jsx)(r.p,{children:"When you use a skill you built, you know how to work around any issues or failures. You know exactly what to ask it, what files to give it, and what the answer is supposed to look like. A teammate doesn't have any of that. They might phrase the request a little differently, hand it slightly different inputs, or hit an edge case — an unusual-but-real situation, like a request that's just outside what the skill was designed for. That's where skills tend to stumble, and the person using it won't know why."}),`
+`,(0,n.jsx)(r.p,{children:"Testing a skill with evals — short for evaluations — is how you catch those stumbles before someone else does. Don't let the word intimidate you. An eval is just a try-out: a realistic request goes in, you look at what comes out, and you tell Claude what to fix. No code, no test scripts — just your judgment about whether the result is good enough to put your name on."}),`
+`,(0,n.jsx)(r.h2,{id:"how-the-eval-system-works",children:"How the eval system works"}),`
+`,(0,n.jsx)(r.p,{children:"When you build a skill with skill-creator — Claude's built-in helper for creating skills — it walks you through evals as part of the process. Here's what that actually looks like."}),`
+`,(0,n.jsx)(r.p,{children:"Skill-creator comes up with two or more realistic prompts someone might use with your skill. For each prompt, it produces a pair of outputs:"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"One where Claude uses your skill"}),`
+`,(0,n.jsxs)(r.li,{children:["One where Claude answers the same prompt ",(0,n.jsx)(r.em,{children:"without"})," your skill"]}),`
+`]}),`
+`,(0,n.jsx)(r.p,{children:`That second one is the comparison point. It's there so you can see, side by side, what difference your skill is actually making — not just "is this output okay," but "is this output better than what Claude would have done on its own."`}),`
+`,(0,n.jsx)(r.p,{children:"Review each pair and give feedback in plain English, right on the review page. As you read each pair, you're really just answering two questions:"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:"Is the skill version the one I'd use? If yes, great — note what made it better so the skill keeps doing that."}),`
+`,(0,n.jsx)(r.li,{children:`If not, what's missing or off? Be specific. "The tone is too formal" or "it skipped the executive summary" gives Claude something to act on; "this isn't quite right" doesn't.`}),`
+`]}),`
+`,(0,n.jsx)(r.p,{children:"Once you submit your feedback, Claude revises the skill for you based on what you said."}),`
+`,(0,n.jsx)(r.h2,{id:"iterate-on-the-skill",children:"Iterate on the skill"}),`
+`,(0,n.jsx)(r.p,{children:"Your feedback is the fix. Once you submit it, Claude updates the skill — rewriting the instructions, adjusting the examples, tightening what it asks for — and you can run the same prompts again to see if the change stuck."}),`
+`,(0,n.jsxs)(r.p,{children:["Change one thing at a time. If the first round showed the skill was too wordy ",(0,n.jsx)(r.em,{children:"and"})," missing a section, pick the one that matters more, fix it, re-run, then come back for another review. You'll be able to tell what actually moved the needle. If you're still not happy with the outputs after the revision, run it again — it's a loop, not a one-time gate. Most skills are ready after one or two rounds. The bar for shipping a skill — to yourself, to a teammate — isn't perfect evals. It's that the cases you care about pass meaningfully better than the baseline, and that you've named the cases you don't yet handle."]}),`
+`,(0,n.jsx)(r.p,{children:"And if the outputs already look great on the first pass? You're done. Evals aren't a hoop to jump through — they're there for when you need confidence, not ceremony."}),`
+`,(0,n.jsx)(r.h2,{id:"try-it-now",children:"Try it now"}),`
+`,(0,n.jsx)(r.p,{children:"Step through a mock eval review below — three prompts, each with a with-skill and a without-skill output side by side."}),`
+`,(0,n.jsx)(i,{name:"SkillEvalReview",title:"Validating skills for plugins — interactive exercise"}),`
+`,(0,n.jsx)(r.p,{children:"For each pair: pick the version you'd actually send, and write one line of feedback you'd give Claude. That's the whole loop."}),`
+`,(0,n.jsx)(r.h2,{id:"whats-next",children:"What’s next"}),`
+`,(0,n.jsx)(r.p,{children:`In the next lesson, you'll move from "this works for me" to "this works for the team" — the patterns and choices that turn personal workflows into shared infrastructure.`})]})}function i(t={}){let{wrapper:i}={...e(),...t.components};return i?(0,n.jsx)(i,{...t,children:(0,n.jsx)(r,{...t})}):r(t)}function a(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{i as default};

@@ -22,6 +22,8 @@ In a public channel, Claude has access to your team's tools and can be shaped by
 
 A few key things change from a DM:
 
+Reference list: what changes when Claude works in a public channel rather than a DM, in three groups: how colleagues work with it together, which team tools and personal connectors it can use, and what it keeps in channel notes and workspace notes.
+
 ### Collaboration: who is in the work
 
 - In a public channel, **colleagues can work together with Claude**. Tag Claude into an ongoing discussion and steer it together, or pick up where someone left off.
@@ -39,6 +41,8 @@ A few key things change from a DM:
 - **What every channel should know goes in workspace notes**. From a public channel, Claude can also save a [workspace note](https://claude.com/docs/claude-tag/users/memory), such as an organization-wide naming rule. Claude can use workspace notes in every channel of the workspace, so Claude is designed to save there only what no channel would mind everyone in the workspace reading.
 
 In the illustration below, pick a team to watch one piece of work run in its channel: the request, the tools Claude reaches, the artifacts it posts back, and the team steering it.
+
+Film: pick a sales, marketing, or finance team and watch Claude take a request in that team's public channel, use the connected tools, post results, and take corrections and follow-up requests from colleagues, showing how a team steers shared work.
 
 SalesMarketingFinance
 
@@ -132,6 +136,8 @@ In those tools Claude works under your name, the same as in a DM. Claude shows y
 
 On the Enterprise plan, an Owner of your Claude organization can remove one of the two Allow choices. What Claude posts back is visible to everyone in the channel, like any other reply.
 
+Film: in a public channel, the user asks Claude to book a meeting and privately lets it use their calendar connector, then everyone sees a line saying whose connectors are in use, and Claude's reply. Personal connectors serve only their owner's requests.
+
 #event-prepPriya’s screen
 
 PML
@@ -195,6 +201,8 @@ In your workspace, in the channel where your work happens · 10 minutes
 1. Ask `@Claude what can you access from this channel?`
 2. Pick one tool or data source from its list. If a tool you need is missing, ask whoever manages Claude Tag for the channel to connect it.
 3. Have Claude fetch one real item from it. Change the underlined parts to match your channel, then copy it in:
+
+   Exercise: the learner builds a message asking Claude to pull one real record from a tool connected to the channel and link each item to its source. It teaches asking for links so the result can be checked.
 
    Y
 

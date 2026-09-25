@@ -35,8 +35,6 @@ Claude Tag lives in your channels and threads, and you talk to it the way you ta
 
 **Work where the team works.** Keep the work in the channel it belongs to, so colleagues can see it, steer it, and pick it up, and so what Claude learns there helps everyone in the channel.
 
-**Start with one channel and one real task.** Pick a public channel that has your team's tools connected, and hand Claude one real task there.
-
 **Extend trust a step at a time.** Give Claude and yourself ways to check the work. As it proves out on one kind of task, let it reply on its own, run routines, and own an ongoing responsibility.
 
 ## Inside the course

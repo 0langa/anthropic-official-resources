@@ -8,7 +8,7 @@ AllCoursesTutorialsUse cases
 
 ProductAll
 
-305 resources
+306 resources
 
 [## AI capabilities and limitations
 
@@ -234,7 +234,7 @@ AllCoursesTutorialsUse cases
 
 ProductAll
 
-121 tutorials
+122 tutorials
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-blskv34c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bv9w6wt2.png)
 
@@ -330,7 +330,13 @@ A phased implementation framework to help nonprofit admins launch, scale, and su
 
 ## Claude for Teachers in action
 
-See an elementary school teacher use Claude for Teachers to reflect on each day's lesson and plan tomorrow's, on a schedule she sets.](https://academy.claude.com/tutorials/claude-for-teachers-in-action)[![](https://academy.claude.com/assets/v1/thumbnail.light-ctra72zy.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ktlv28wr.png)
+See an elementary school teacher use Claude for Teachers to reflect on each day's lesson and plan tomorrow's, on a schedule she sets.](https://academy.claude.com/tutorials/claude-for-teachers-in-action)[![](https://academy.claude.com/assets/v1/thumbnail.dark-hq618sar.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hq618sar.png)
+
+## Claude Tag admin guide
+
+Pair your Slack workspace with Claude Tag and decide what systems it can access. This tutorial walks you through the setup flow, covers post-launch oversight, and links to the full documentation for each step.
+
+25 min](https://academy.claude.com/tutorials/claude-tag-admin-guide)[![](https://academy.claude.com/assets/v1/thumbnail.light-ctra72zy.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ktlv28wr.png)
 
 ## Configuration and multi-file skills
 
@@ -372,13 +378,7 @@ Claude Cowork lets you delegate complete, multi-step work. You can work alongsid
 
 Claude Cowork lets you hand off complete tasks to Claude — working directly with files on your computer, your connected tools, and your browser. This video walks through the basics: setting up folder access and connectors, delegating your first task, and reviewing Claude's plan before it makes changes on your machine.
 
-4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.dark-frqerjry.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-frqerjry.png)
-
-## Financial analysis workflows with Claude
-
-Learn complete financial analysis workflows using a three-phase approach: retrieving data, analyzing information, and creating professional deliverables.
-
-20 min](https://academy.claude.com/tutorials/financial-analysis-workflows-with-claude)Load more
+4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)Load more
 
 
 ## Use cases

@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-gl4mvsbr.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-f2aunmbb.png)
 
+Film: the user asks Claude to explain a weekly activation metric drop by segmenting the funnel, checking the isolated driver against what shipped, then writing a narrative with charts, scheduled to repeat weekly.
+
 **Activation · weekly · Tanager metrics**×
 
 +

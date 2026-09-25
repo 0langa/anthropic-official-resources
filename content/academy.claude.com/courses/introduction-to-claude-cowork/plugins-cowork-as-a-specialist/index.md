@@ -43,6 +43,8 @@ Plugins come in two flavors — both useful, both common.
 
 Explore the interactive below to see the different shapes of plugins.
 
+Explorer: a mock plugin detail page lets the learner switch between two sample plugins, one a function's toolkit and one an end-to-end pipeline, clicking metadata, toggle, description, skills, and connectors to reveal explanations of each part.
+
 Two plugins, two shapes
 
 Legalfunction’s toolkitExperiment Readoutend-to-end pipeline
@@ -133,3 +135,11 @@ SkillsClick any skill to see what it does.
 Pull experiment exposures and metrics from the warehouse. ›/pull-resultsBreak results down by the cuts that matter (platform, plan, geo). ›/segment-cutsValidate traffic balance, sample ratio, and metric definitions. ›/sanity-checkBuild the lift charts and confidence-interval plots. ›/visualizeDraft the decision memo in the team’s readout format. ›/write-readoutDraft the TL;DR for the experiments channel. ›/ship-summary
 
 Connectors ›BigQuerySlackHex
+
+
+## Video transcript
+
+# Cowork and Plugins: Helping enterprises move faster
+
+This lesson's video contains no spoken narration (screen demonstration with background audio only).
+

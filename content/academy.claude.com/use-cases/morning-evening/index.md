@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-xxhorrny.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kkbwysr5.png)
 
+Film: the user names the sections wanted from a morning briefing; Claude reads calendar, mail, mentions, and tracker issues to write a one-page briefing with top priorities, then schedules both briefing and wrap on weekdays.
+
 Morning and evening briefs
 
 You want to start the day knowing what needs you first.

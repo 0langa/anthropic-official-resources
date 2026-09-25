@@ -41,6 +41,8 @@ For some tasks, you may want to write the request differently:
 
 To learn how to set up and run a human-agent team, see the [Building Effective Human-Agent Teams(opens in new tab)](https://academy.claude.com/courses/building-effective-human-agent-teams) course. For examples, see [use cases of what Claude can do(opens in new tab)](https://claude.com/docs/claude-tag/users/use-cases).
 
+Exercise: across three workplace cases, the learner reviews a request to Claude, its reply, and where the result fell short, then picks which missing part of the brief would have fixed it.
+
 What did the request leave out?
 
 Each case shows a request, Claude’s reply, and where the result fell short. Pick the part of the brief that would have changed it.
@@ -72,6 +74,8 @@ You'll see:
 - **Quiet usually means working:** If the work gets blocked, Claude usually says so in a reply rather than going silent.
 
 Editing a message you already sent has no effect; send a [new reply instead(opens in new tab)](https://claude.com/docs/claude-tag/concepts/how-it-works). Each top-level message starts a new task for Claude. Keep separate tasks in different threads, but remember that Claude's channel notes apply to every thread in the channel.
+
+Exercise: in a mock Slack channel, Claude is partway through a task and shows its checklist in the thread. The learner picks one of three ways to change the request, then sees whether that choice reaches the running task.
 
 Claude is partway through the prep and you would rather get it as a linked doc than a long message. Pick where you would tell it.
 

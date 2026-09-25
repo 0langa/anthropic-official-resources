@@ -128,3 +128,27 @@ When a subagent discovers a workaround to some issue like solving a dependency i
 A read-only subagent using just glob, grep, read cannot accidentally modify files. This constraint clarifies the subagent's role and prevents unintended side effects. So think about what subagents actually need to do. If it's just researching, it only needs to read files, so keep it read-only. That way it can't accidentally modify anything while exploring. A reviewer needs to run git diff to see what changed, so give it bash access, but it still doesn't need to edit files. Only give edit and write to subagents that should actually change your code, like a styling agent applying CSS updates. This also helps clarify what each subagent is for when you have several of them.
 
 So effective subagents use structured output, report obstacles, have specific descriptions, and limit tool access.
+
+
+## Video transcript
+
+# Designing effective subagents
+
+Now that you know how to create subagents, let's look at patterns that lead to effective subagents.
+
+First, let's get a better idea of how some of the data in the subagent config file is used. Whenever you send a message to the main context window agent, the name and description of each subagent is included in the system prompt. So if you want to better control when the main agent launches a subagent automatically, you should modify the name and description.
+
+Next, remember that when a subagent is launched, the main agent writes an input prompt. When writing this input prompt, it uses the description as guidance. So if you want to better control when the main agent launches a subagent automatically, you should modify the name and description.
+
+Let's consider our review subagent again. Right now, when the main agent runs the subagent, the subagent is given an input prompt telling it to use git diff to find the current changes. If we wanted the main agent to more reliably tell the subagent exactly which files to review, we would update the description: "You must tell the agent precisely which files you want it to review." Now, if we ask Claude to run the code reviewer agent, we'll see a different input.
+
+You can also influence what the main thread tells the subagent through the description. So adding "return sources that can be cited" to a web search subagent's description causes the main thread to include that instruction when delegating the task.
+
+The most important improvement that you can make is defining an output format in the system prompt. This creates natural stopping points for the subagent. Without a defined output format, subagents struggle to decide when enough research has been done, and they tend to run much longer than subagents are given an output format.
+
+When a subagent discovers a workaround to some issue like solving a dependency issue or finding that a certain command needs particular flags, these details should appear in the summary. Otherwise, the main thread has to rediscover the same solutions. Obstacles encountered: any setup issues, workarounds discovered, or environment quirks, commands that needed special flags or configuration, dependencies or imports that cause problems. Explicitly asking for obstacle reporting in the output format surfaces this information.
+
+A read-only subagent using just glob, grep, read cannot accidentally modify files. This constraint clarifies the subagent's role and prevents unintended side effects. So think about what subagents actually need to do. If it's just researching, it only needs to read files, so keep it read-only. That way it can't accidentally modify anything while exploring. A reviewer needs to run git diff to see what changed, so give it bash access, but it still doesn't need to edit files. Only give edit and write to subagents that should actually change your code, like a styling agent applying CSS updates. This also helps clarify what each subagent is for when you have several of them.
+
+So effective subagents use structured output, report obstacles, have specific descriptions, and limit tool access.
+

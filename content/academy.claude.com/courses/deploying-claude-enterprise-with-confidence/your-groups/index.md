@@ -65,6 +65,8 @@ Pluto’s group structure is the hybrid pattern: it mirrors its organization cha
 
 The interactive widget below puts one member in two of Pluto’s groups and shows what she actually gets under the union rule.
 
+Explorer: a Venn diagram lets learners select regions of two overlapping access groups to see which capabilities a member holding both would have, teaching that combined access is a union—so a narrower group can never revoke what a broader group grants.
+
 Dana is an engineer on Payments & Trust, so she’s in both groups. **Click a region** to see what a member placed there gets.
 
 EngineeringbroadPayments &Trustpayments-englocked downin bothDana

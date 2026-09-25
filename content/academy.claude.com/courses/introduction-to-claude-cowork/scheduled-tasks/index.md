@@ -41,6 +41,8 @@ Examples:
 
 Explore the interactive below to see how Cowork performs across the three patterns.
 
+Explorer: tabs let learners browse three patterns of work suited to Claude Cowork—multi-step, file-based, and multi-tool—each paired with a definition, examples, and a visual illustrating how Cowork handles that pattern.
+
 Three patterns of work that suit Cowork
 
 Multi-stepFile-basedMulti-tool
@@ -113,6 +115,8 @@ Examples:
 
 - On the way in, you remember today's client call needs a one-page summary of last quarter's support tickets. From the Claude app on your phone, ask Cowork to pull the quarter's tickets from your connected support tool and draft the one-pager. It gets started while you commute; you review the draft when you're at your desk.
 - A vendor sends revised contract terms while you're at an offsite. From your phone, ask Cowork to compare them against last year's agreement in your Drive and list every change. When it's done, read the comparison from your phone or any browser.
+
+Diagram: An animated timeline follows one Claude Cowork task across three surfaces, started from a phone, checked in a browser, and picked up finished at a desk, showing it's one continuous remote session, not separate ones.
 
 One task, any surface
 
@@ -214,3 +218,11 @@ Gmail
 Slack
 
 Microsoft 365
+
+
+## Video transcript
+
+# Scheduled Tasks in Cowork: Set it once, Claude handles the rest
+
+This lesson's video contains no spoken narration (screen demonstration with background audio only).
+

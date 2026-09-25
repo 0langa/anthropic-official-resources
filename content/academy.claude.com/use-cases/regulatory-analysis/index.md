@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-btqx4o1h.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mbqnkmu3.png)
 
+Film: a self-playing walkthrough where the user asks Claude to check a new regulation against product descriptions and policies, producing an applicability brief with a dated action table, then shows scheduling the same check to rerun automatically for future rules.
+
 eu-ai-act-final-text.pdf
 
 Article 6 — Classification rules for high-risk AI systems

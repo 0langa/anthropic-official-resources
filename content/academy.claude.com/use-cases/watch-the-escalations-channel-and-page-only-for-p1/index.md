@@ -12,6 +12,8 @@ With your ticketing tool connected, give Claude Tag that job as a **[standing re
 
 ## Set up[](https://academy.claude.com/use-cases/watch-the-escalations-channel-and-page-only-for-p1)
 
+Checklist: a setup guide covering where Claude should watch, which ticketing and paging tools to connect, and which settings like proactive replies to enable, so Claude can triage escalations and alert a person only for a P1.
+
 
 
 **Ask in the right spot**
@@ -61,6 +63,8 @@ For help, ask your admin or visit our [troubleshooting docs(opens in new tab)](h
 Send this once in your escalations channel. From then on, Claude sets a severity and an owner on each new escalation, in its thread, whether or not anyone tags it. Say that only a P1 should mention a person, and add your severity levels, owners and P1 contact if the channel's history does not already show them.
 
 Here are Claude's replies to four escalations posted one Tuesday, shown together. Each went in its own escalation's thread:
+
+Film: from a standing instruction, Claude triages escalations in a support channel, setting severities, matching and merging tickets, tagging an owning team and drafting replies for an agent to send, and mentions the on-call lead only for a P1.
 
 #support-escalationsZYReplay
 
@@ -144,6 +148,8 @@ Before an agent acts on one, open the ticket Claude matched and read the draft.
 
 Claude fixes a severity or owner from a reply in the thread, such as a reply that ESC-4472 is a P2 because the customer cannot onboard a new team. It remembers the correction for the channel when asked ([channel memory(opens in new tab)](https://claude.com/docs/claude-tag/users/memory)):
 
+Simulation: one message to Claude in an escalations channel or thread. It teaches how people steer Claude's triage: having it remember a correction, limit when it mentions someone, summarize the queue, or reply only when tagged.
+
 #support-escalationsY
 
 Y
@@ -155,6 +161,8 @@ YouCopy
 ### Tell Claude when to mention you[](https://academy.claude.com/use-cases/watch-the-escalations-channel-and-page-only-for-p1)
 
 Claude mentions people only when your instructions say to. Whoever receives the P1 pages can reply under any of Claude's posts and ask to be mentioned only when a decision is needed ([decisions that come back to you(opens in new tab)](https://claude.com/docs/claude-tag/users/good-habits)). Zoe receives the P1 pages here, so she replies under one of Claude's posts:
+
+Simulation: one message to Claude in an escalations channel or thread. It teaches how people steer Claude's triage: having it remember a correction, limit when it mentions someone, summarize the queue, or reply only when tagged.
 
 #support-escalationsZY
 
@@ -168,6 +176,8 @@ Zoe
 
 Claude can summarize what was posted over any period and which escalations still need a person. Replace "host-side" with the kind of escalation your team takes first.
 
+Simulation: one message to Claude in an escalations channel or thread. It teaches how people steer Claude's triage: having it remember a correction, limit when it mentions someone, summarize the queue, or reply only when tagged.
+
 #support-escalationsY
 
 Y
@@ -179,6 +189,8 @@ YouCopy
 ### Have Claude reply only when tagged[](https://academy.claude.com/use-cases/watch-the-escalations-channel-and-page-only-for-p1)
 
 With Respond automatically off, escalations reach Claude only when someone tags Claude in their thread, until anyone in the channel turns it back on ([quiet the whole channel(opens in new tab)](https://claude.com/docs/claude-tag/users/when-claude-responds)).
+
+Simulation: one message to Claude in an escalations channel or thread. It teaches how people steer Claude's triage: having it remember a correction, limit when it mentions someone, summarize the queue, or reply only when tagged.
 
 #support-escalationsY
 

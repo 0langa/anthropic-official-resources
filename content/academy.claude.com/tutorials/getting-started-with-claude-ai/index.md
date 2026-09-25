@@ -14,6 +14,8 @@ Claude is an AI assistant made by Anthropic. It can read your documents, draft a
 
 Just write to Claude in plain language. The tips below help, and if anything in your request is unclear you can ask Claude to ask you questions before it starts. You can attach documents to give it more to go on.
 
+Explorer: a mock claude.ai composer with a worked example prompt and attached file, a legend explaining what each part gives Claude, and selectable controls revealing what adding files, connecting tools, choosing output, and picking a model do.
+
 planning-meeting-transcript.docx
 
 DOCX
@@ -24,7 +26,7 @@ Add files or photos⌘UAdd folderRecord a skillSkillsConnectorsDesign systemPlug
 
 Browse connectorsManage connectorsDriveEmailCalendarMessagingCRM
 
-DocsSlidesDesignArtifactLet Claude pick the format
+DocumentPresentationDesignArtifactLet Claude pick the format
 
 ✓Claude FableFor your toughest challenges✓Claude OpusMost capable for ambitious work✓Claude SonnetMost efficient for everyday tasks✓Claude HaikuFastest for quick answersEffort
 
@@ -48,6 +50,8 @@ Your first prompt doesn't have to be perfect. If the answer isn't quite right, s
 ## What a Claude response can look like[](https://academy.claude.com/tutorials/getting-started-with-claude)
 
 Claude answers in whatever form the task calls for, and the list keeps growing. Ask for the thing you actually need, whether that is a plain answer, a chart drawn inline, a deck, a design or a doc made in the conversation, a spreadsheet for Excel, or a recipe you can cook from. Claude makes it, and you steer it.
+
+Explorer: a five-tab carousel showing the different forms a Claude response can take, from plain text and inline diagrams to editable artifacts, generated files, and ready-made cards, teaching that the right form depends on what's asked for.
 
 Plain textInline visualsArtifactsFilesCards
 
@@ -89,7 +93,7 @@ Mock up the signup flow for the new tier on mobile: landing, plan picker, confir
 
 Three artboards, built from Halden’s components and type styles so they match what engineering ships. The plan picker defaults to annual with the saving called out; I left the monthly state as a toggle. Nudge anything by hand, or tell me what to change and I’ll redraw it.
 
-New-tier signup flowDesign · Only youOpen
+New-tier signup flowClaude Design · Only youOpen
 
 Q3-readout.pdfPDF
 
@@ -97,13 +101,13 @@ Turn the Q3 readout into the board pre-read deck. Six slides, lead with the chur
 
 Here’s the deck. Churn leads on slide 1 as you asked, the revenue bridge carries slide 2, and APAC gets one slide with the recovery plan rather than three. Edit anything directly, or leave me a comment on the slide and I’ll rework it.
 
-Q3 board pre-readSlides · Only youOpen
+Q3 board pre-readClaude Slides · Only youOpen
 
 Write this up as a doc the leadership team can comment on before Thursday’s readout.
 
 Drafted it as a doc and shared it with everyone at Halden so the leadership team can comment in place. Anything addressed to me in a comment, I’ll pick up and edit; the numbers stay linked to the Q3 model, so if FP&A restates, say so and I’ll refresh them.
 
-Q3 stakeholder briefDoc · Everyone in HaldenOpen
+Q3 stakeholder briefClaude Docs · Anyone at HaldenOpen
 
 I’m rearranging my living room. It’s 14 by 18 feet, and I have a couch, coffee table, media console, reading chair, and an 8×10 rug. Build me something I can drag the pieces around in.
 
@@ -707,6 +711,8 @@ Ready-made answers for everyday asks, such as the weather, a recipe with a step-
 
 You've seen what Claude can give back. Now set up your first task. The walkthrough below covers what to give Claude, which controls to set, and how to ask for what you need.
 
+Simulation: a replica of the claude.ai message box where you pick a kind of work, then give Claude a tool or file, fill in a missing detail, and set the output, model, or effort.
+
 Try a task forgeneral work
 
 General workPersonalSalesMarketingLegalFinance
@@ -725,7 +731,7 @@ Claude pitches the update at that level.
 
 Ask for slides
 
-Ask for a deck in your message, or open Output under the box and pick Slides. You get a deck you can present, edit and export. [Learn more →](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)
+Ask for a deck in your message, or open Output under the box and pick Presentation. You get a deck you can present, edit and export. [Learn more →](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)
 
 Ready to send.
 
@@ -737,7 +743,7 @@ DriveEmailCalendarMessagingCRMAll tools
 
  for the last month: where my time went, what got decided, what slipped. Turn it into my month-end update for , a few slides I can talk through in ten minutes.
 
-DocsSlidesDesignArtifactLet Claude pick the format
+DocumentPresentationDesignArtifactLet Claude pick the format
 
 Add files or photos⌘UAdd folderRecord a skillSkillsConnectorsDesign systemPluginsResearchWeb searchMemory
 

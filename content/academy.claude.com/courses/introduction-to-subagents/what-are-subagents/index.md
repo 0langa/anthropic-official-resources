@@ -81,3 +81,21 @@ Consider a task like investigating how the payment system works in an unfamiliar
 Claude Code includes several built-in subagents that you can use immediately, like the general purpose subagent—use for multi-step tasks that require both exploration and action. The explore subagent—use for fast searching of code bases. The plan subagent—use during plan mode for research and analysis of your code base before presenting a plan. And you can also create your own subagents with custom system prompts and tool access.
 
 Subagents let Claude Code break work into focused pieces, keep your main context window clean, and bring back just what you need. Whether you're using the built-in ones or creating your own, they're a practical way to get more out of longer Claude Code sessions.
+
+
+## Video transcript
+
+# What are subagents?
+
+Subagents are specialized assistants that Claude Code can delegate tasks to. Each subagent runs in its own conversation context window with a custom system prompt that you define. When finished, it returns a summary to the main thread while all the intermediate work stays isolated.
+
+One of the main advantages of subagents is that they help manage context window usage. When you chat with Claude Code, you're adding context to the main context window. Every tool call and its results gets stored in this main context window. And so when Claude uses a subagent, a separate window starts. The subagent receives two inputs: a custom system prompt from your configuration file, and a task description written by the parent or parent agent based on what you ask for.
+
+The subagent then works autonomously. When it reads files, edits files, or uses tools, none of these will appear in the main conversation. Just a summary is returned back. The entire subagent conversation then gets completely discarded.
+
+Consider a task like investigating how the payment system works in an unfamiliar code base. Maybe you're trying to use Claude Code to figure out which service handles refunds. Well, without a subagent, Claude might read 15 files, run several searches, and trace through multiple function calls. All of that context fills your context window even if you only needed one single fact: which service handles refunds. With a subagent, you get the answer without the journey. The subagent explores, discovers the answer, and returns a focused summary keeping your main context clean. But the main window loses visibility into how the subagent reaches its conclusions and what it discovered along the way.
+
+Claude Code includes several built-in subagents that you can use immediately, like the general purpose subagent—use for multi-step tasks that require both exploration and action. The explore subagent—use for fast searching of code bases. The plan subagent—use during plan mode for research and analysis of your code base before presenting a plan. And you can also create your own subagents with custom system prompts and tool access.
+
+Subagents let Claude Code break work into focused pieces, keep your main context window clean, and bring back just what you need. Whether you're using the built-in ones or creating your own, they're a practical way to get more out of longer Claude Code sessions.
+

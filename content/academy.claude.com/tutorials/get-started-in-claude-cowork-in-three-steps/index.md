@@ -22,6 +22,8 @@ Open the [Claude desktop app(opens in new tab)](https://claude.com/download) or 
 
 *In a new conversation, type* [*`/setup-claude`*](claude://cowork/new?q=%2Fsetup-claude) *and press enter.*
 
+Film: the user types a slash command in the Cowork composer, revealing a suggestion pill and tooltip that explain guided setup, then watches it commit to the full command. It shows how to start guided Cowork setup for a role.
+
 **setup**-claude
 
 Guided Cowork **setup** — install role-matched plugins, connect your tools, try a skill.
@@ -35,6 +37,8 @@ A [plugin(opens in new tab)](https://support.claude.com/en/articles/13837440-use
 *Select `Work in a folder` in the chat bar to pick where Claude can read context from and save finished work back to.*
 
 With a working location set, Cowork finds what's relevant on its own and writes the result there as a real file you can open, share, or keep editing.
+
+Diagram: shows a computer folder containing several files with an arrow leading into a Cowork chat composer that has the same folder attached, illustrating how setting a working folder lets Cowork read its contents and save finished work back into it.
 
 Q2-Planning
 

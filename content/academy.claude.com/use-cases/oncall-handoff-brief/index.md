@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-ggtsvh5v.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ckm3olk1.png)
 
+Film: the user asks Claude to draft an on-call handoff from pages, incident channels, escalations, and deploys, pausing to confirm whether a carried-over item is still being watched before posting the brief for approval and scheduling it for future rotations.
+
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2306AC38'%20d='M4.05%2017.71h4.6V24h-4.6zM16.59.32C14.75.01%2013.45%200%2011.13%200H4.05v14.19h7.24c2.05%200%203.59-.13%204.95-.96%201.5-.9%202.71-2.77%202.71-5.55%200-2.98-1.39-5.01-2.36-5.85C15.89.93%2016.59.32%2016.59.32zm-4.66%2010.39H8.65V3.55h2.87c2.96%200%204.45%201.12%204.45%203.53%200%202.59-1.62%203.63-4.04%203.63z'/%3e%3c/svg%3e)PagerDuty
 
 p99 latency > 2 s for 5 min — #5102

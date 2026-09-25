@@ -51,6 +51,8 @@ And if the outputs already look great on the first pass? You're done. Evals aren
 
 Step through a mock eval review below — three prompts, each with a with-skill and a without-skill output side by side.
 
+Exercise: For three mock meeting-recap prompts, the learner compares a with-skill and without-skill output against house-rule checks, picks which they'd send, and writes feedback for Claude to revise.
+
 Read an eval
 
 An eval is just two outputs side by side, with a few rules of what “good” looks like. **Your job is to pick which one you’d actually send** — and tell Claude what to change.

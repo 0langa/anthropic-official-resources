@@ -32,6 +32,8 @@ Here's what it looks like in practice — the prompt, the response, and the visu
 
 A concept from lecture, a dense passage from a textbook, a thing you keep hearing about but can't picture— drawn so you can see what it actually means.
 
+Diagram: Claude builds a single Turkish word suffix by suffix, labeling each piece's grammatical role and showing the updated English meaning, to illustrate how agglutinative languages stack fixed-order suffixes into one word.
+
 Turkish is supposedly agglutinative — suffixes stack up. I get that in principle but I can't picture how one word ends up meaning a whole sentence. Build me an example step by step so I can see each piece doing its job.
 
 Here's one word — *görüşemeyecekmişiz* — that means "apparently we won't be able to see each other." It's one word because Turkish adds each grammatical piece as its own suffix, in a fixed slot, and the pieces don't fuse into each other the way English irregulars do.
@@ -45,6 +47,8 @@ That's what "agglutinative" means in practice: each suffix does one job, the ord
 ### Interacting with the concept in chat[](https://academy.claude.com/tutorials/imagine-with-claude-student-guide)
 
 Some things you need to hear, or change, or click. Claude builds the interactive version so you're doing, not just reading.
+
+Simulation: adjustable red, green, and blue sliders blend circles as light versus paint in two panels, showing why screens mix colors additively while paint mixes subtractively, trending toward white or dark.
 
 Wait — red + green light makes yellow on a screen, but red + green paint makes brown. Why does mixing colors work completely differently depending on whether it's light or paint?
 
@@ -60,6 +64,8 @@ The key is **what you're starting from.** A screen starts at black — every sub
 
 Some concepts are spatial — things connect, one number feeds into another. Text forces you to hold it all in your head. Claude draws the connections so you can trace them.
 
+Diagram: annotated arrows link an income statement to the operating-activities section of a cash flow statement, showing how accrual net income reconciles to actual cash. Clickable adjustment lines offer follow-up questions, teaching why each item is added or subtracted rather than memorized.
+
 I keep memorizing that depreciation gets added back on the cash flow statement, but I don't get why. Show me what's actually happening between net income and the operating section — I want to see the connection, not just the rule.
 
 The cash flow statement's operating section is a *reconciliation* — a bridge between two numbers. That makes it inherently spatial: there's a starting point (net income), an endpoint (cash), and every line in between is a correction with a specific source. Text explanations force you to hold the income statement, the balance sheet, and the cash flow statement in your head simultaneously. A marked-up visual lets you *see* the arrows between them.
@@ -67,6 +73,8 @@ The cash flow statement's operating section is a *reconciliation* — a bridge b
 Income statement (accrual)Revenue$50,000COGS(30,000)Depreciation(3,000)Other expenses(5,000)Net income$12,000Cash from operating activitiesNet income$12,000Adjustments to reconcile to cash:+ Depreciation+3,000− Increase in A/R−4,000− Increase in inventory−2,000+ Increase in A/P+1,500Net cash from operations$10,500step 1: start withaccrual profitthis $3k reducedprofit on paperbut NO cash moved.ADD BACK to undothe subtraction.A/R ↑ $4k means:$4k of that $50krevenue is still anIOU, not cash.Net income overstatescash. SUBTRACT.A/P ↑ $1.5k: expensebooked, bill not paid.Cash still here. ADD.(mirror of A/R)accrual $12k →actual cash $10.5kThe only rule you needNon-cash expense (depreciation, amortization, stock comp) → always ADD BACKOperating ASSET (A/R, inventory, prepaid) goes UP → SUBTRACT (cash tied up)Operating LIABILITY (A/P, accrued wages) goes UP → ADD (cash still in pocket)
 
 Every adjustment line answers the same question: *did accrual accounting get ahead of (or behind) the actual cash?* Stop memorizing signs — ask "did this help or hurt my bank balance compared to what the income statement claims?" and the sign follows automatically.
+
+Diagram: contrasts two logical readings of a quantified sentence side by side, showing students linked to books differently depending on which quantifier scopes first, to teach how word order hides scope ambiguity.
 
 I know "every student read a book" has two readings but when I write both out in English they look identical. Visualize where the two meanings actually diverge, because it's clearly not in the words.
 
@@ -81,6 +89,8 @@ The real divergence is in **which quantifier gets to pick first**. ∀∃ hands 
 ### Practicing what you just learned[](https://academy.claude.com/tutorials/imagine-with-claude-student-guide)
 
 Stay hands-on while you study — the quiz appears right where you're learning, so you're trying things while the idea is fresh.
+
+Quiz: a timed multiple-choice question on a distance-versus-time graph asks which interval was fastest, then reveals reasoning for each option and lets the learner toggle between viewing heights and slopes, teaching that rate is read from slope, not height.
 
 I keep getting distance-vs-speed graph questions wrong on tests. Give me one practice question that targets that confusion — something I'll want to answer fast and then find out where my instinct was off.
 

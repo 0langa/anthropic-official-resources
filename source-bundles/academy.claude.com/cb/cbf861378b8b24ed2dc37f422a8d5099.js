@@ -1,0 +1,32 @@
+import{Nm as e,jm as t}from"../../../../../content-de-meta-mdrrzgmt.js";var n=t();function r(t){let r={a:"a",code:"code",h2:"h2",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...e(),...t.components},{Callout:i,Exercise:o,ExerciseDeck:s,ResourceWidget:c}=r;return i||a("Callout",!0),o||a("Exercise",!0),s||a("ExerciseDeck",!0),c||a("ResourceWidget",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(i,{type:"note",children:(0,n.jsx)(r.p,{children:"Keep your workspace open next to this course, with Claude in a channel, for hands-on practice at the end of each lesson."})}),`
+`,(0,n.jsx)(r.h2,{id:"what-claude-tag-is-and-how-it-works",children:"What Claude Tag is and how it works"}),`
+`,(0,n.jsx)(r.p,{children:"Claude Tag brings Claude into your team's Slack workspace, where you can hand it whole pieces of work, as you would to a teammate. Add Claude to a channel, then tag it in a message that describes the work. It reads what has already been posted there, can use the channel's connected tools, and does the work in a thread under your message. Everyone in the channel can follow the thread and steer it."}),`
+`,(0,n.jsx)(r.p,{children:"You can also set up work that Claude does without being tagged each time:"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Untagged replies:"})," Claude answers the kinds of messages you name (",(0,n.jsx)(r.a,{href:"/courses/introduction-to-claude-tag/proactivity-let-claude-reply-without-being-tagged",children:"lesson 7"}),")."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"A standing responsibility:"})," Claude works toward a goal on its own over days or weeks, such as keeping a launch's trackers current (",(0,n.jsx)(r.a,{href:"/courses/introduction-to-claude-tag/proactivity-let-claude-reply-without-being-tagged",children:"lesson 7"}),")."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Routines:"})," You describe a task once, and Claude runs it on your schedule (",(0,n.jsx)(r.a,{href:"/courses/introduction-to-claude-tag/put-recurring-work-on-a-schedule",children:"lesson 8"}),")."]}),`
+`]}),`
+`,(0,n.jsx)(r.h2,{id:"what-is-different-from-claude-in-a-chat",children:"What is different from Claude in a chat"}),`
+`,(0,n.jsx)(r.p,{children:"Because Claude is a member of the channel, a few things are different from a chat with Claude on your own:"}),`
+`,(0,n.jsx)("div",{className:"-mt-3",children:(0,n.jsx)(c,{name:"WhatChanges"})}),`
+`,(0,n.jsx)(r.h2,{id:"what-it-looks-like",children:"What it looks like"}),`
+`,(0,n.jsx)("div",{className:"-mt-3",children:(0,n.jsx)(c,{name:"MessageAnatomy"})}),`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.a,{href:"https://claude.com/docs/claude-tag/concepts/how-it-works#reply-in-the-thread-to-steer",children:"Reply in the thread"})," to add context or change course; Claude reads every reply there, with no new tag. ",(0,n.jsx)(r.a,{href:"https://claude.com/docs/claude-tag/users/good-habits#configure-claude-for-a-channel",children:"Configure"}),", under each of Claude's replies, opens the channel's settings."]}),`
+`,(0,n.jsx)(r.h2,{id:"what-claude-tag-can-do-with-and-without-tools",children:"What Claude Tag can do, with and without tools"}),`
+`,(0,n.jsxs)(r.p,{children:["Claude Tag does more than reply in the thread. It can take action directly in ",(0,n.jsx)(r.a,{href:"https://claude.com/docs/claude-tag/concepts/glossary#connection",children:"your team's tools"})," and in ",(0,n.jsx)(r.a,{href:"https://claude.ai/customize/connectors",children:"your own"})," (lessons ",(0,n.jsx)(r.a,{href:"/courses/introduction-to-claude-tag/claude-in-a-dm",children:"2"})," and ",(0,n.jsx)(r.a,{href:"/courses/introduction-to-claude-tag/claude-in-a-public-channel",children:"3"}),"). And even with no tools connected, Claude can already do useful work wherever it has been added:"]}),`
+`,(0,n.jsx)("div",{className:"-mt-3",children:(0,n.jsx)(c,{name:"CapabilityList",variant:"anywhere"})}),`
+`,(0,n.jsx)(r.h2,{id:"where-you-can-work-with-claude-tag",children:"Where you can work with Claude Tag"}),`
+`,(0,n.jsx)(r.p,{children:"You can work with Claude across your workspace:"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"A DM:"})," between you and Claude (",(0,n.jsx)(r.a,{href:"/courses/introduction-to-claude-tag/claude-in-a-dm",children:"lesson 2"}),")."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"A public channel:"})," open to anyone on the team (",(0,n.jsx)(r.a,{href:"/courses/introduction-to-claude-tag/claude-in-a-public-channel",children:"lesson 3"}),")."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"A private channel:"})," for a specific group (",(0,n.jsx)(r.a,{href:"/courses/introduction-to-claude-tag/claude-in-a-private-channel",children:"lesson 4"}),")."]}),`
+`]}),`
+`,(0,n.jsxs)(r.p,{children:["Claude itself is the same in all three. What changes between them is who can join the work, what Claude can reach, and where it keeps what it learns. The next three lessons go over each, and ",(0,n.jsx)(r.a,{href:"/courses/introduction-to-claude-tag/pick-the-right-place-for-the-work",children:"lesson 5"})," helps you choose between them."]}),`
+`,(0,n.jsx)(r.h2,{id:"try-it",children:"Try it"}),`
+`,(0,n.jsx)(s,{children:(0,n.jsxs)(o,{title:"Add Claude to one channel and check that it replies",note:"In your workspace · 5 minutes",children:[(0,n.jsxs)(r.ol,{children:[`
+`,(0,n.jsxs)(r.li,{children:["In a channel you already work in, type ",(0,n.jsx)(r.code,{children:"/invite @Claude"})," in the message box."]}),`
+`,(0,n.jsx)(r.li,{children:"Tag Claude with any short question about the channel's recent work."}),`
+`,(0,n.jsx)(r.li,{children:"If no reply comes, ask whoever manages Claude Tag for the channel to turn Claude on for it, then try again."}),`
+`]}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:"Done when:"})," Claude has replied in the channel, and its answer draws on something already posted there."]})]})})]})}function i(t={}){let{wrapper:i}={...e(),...t.components};return i?(0,n.jsx)(i,{...t,children:(0,n.jsx)(r,{...t})}):r(t)}function a(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{i as default};

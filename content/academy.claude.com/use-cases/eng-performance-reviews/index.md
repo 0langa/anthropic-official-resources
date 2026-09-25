@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-llbosc4e.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jig8shre.png)
 
+Film: the user asks Claude to draft performance reviews for their reports, with every claim linked to evidence and no rating proposed. Claude reads the team's framework and each report's work, then returns drafts flagging where the manager's own judgment is needed.
+
 **‹****›**
 
 github.com/halyard/ledger-service/pulls?q=is%3Apr+is%3Amerged+author%3Aasorensen+merged%3A2026-01-01..2026-03-31

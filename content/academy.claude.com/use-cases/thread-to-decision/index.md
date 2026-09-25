@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-dcudi118.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bcr99b8o.png)
 
+Film: a self-playing demonstration where the user asks Claude to turn a long Slack thread and email chain into a decision-log entry, with owners, dates, and open questions linked to sources. It teaches that thread discussions can become a structured, sourced, recurring record.
+
 M
 
 Meridian

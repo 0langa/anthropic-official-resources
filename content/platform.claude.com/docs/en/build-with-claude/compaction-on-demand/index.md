@@ -11,6 +11,7 @@ featureMetadata:
     - claude-fable-5
     - claude-mythos-5
     - claude-mythos-preview
+    - claude-opus-5-5
     - claude-opus-5
     - claude-opus-4-8
     - claude-opus-4-7
@@ -50,7 +51,7 @@ Send the conversation as it stands with `"compaction": {"type": "summarize"}`. T
     -H "anthropic-beta: compact-2026-09-04" \
     -H "content-type: application/json" \
     -d '{
-      "model": "claude-opus-5",
+      "model": "claude-opus-5-5",
       "max_tokens": 4096,
       "messages": [
         {"role": "user", "content": "I am building a recipe app. Help me name the main entities in the data model."},
@@ -61,28 +62,22 @@ Send the conversation as it stands with `"compaction": {"type": "summarize"}`. T
     }'
   ```
 
-  <MultiFileExample language="cli" label="CLI">
-    ```bash CLI
-    ant beta:messages create --beta compact-2026-09-04 < request.yaml
-    ```
-
-    <File filename="request.yaml">
-      ```yaml
-      model: claude-opus-5
-      # max_tokens caps the whole call, including any thinking, so allow several thousand tokens.
-      max_tokens: 4096
-      messages:
-        - role: user
-          content: I am building a recipe app. Help me name the main entities in the data model.
-        - role: assistant
-          content: Start with Recipe, Ingredient, and Step. Add a RecipeIngredient entry that holds the quantity and unit for each ingredient in a recipe.
-        - role: user
-          content: Good. Now suggest field names for Recipe.
-      compaction:
-        type: summarize
-      ```
-    </File>
-  </MultiFileExample>
+  ```bash CLI
+  ant beta:messages create --beta compact-2026-09-04 <<'YAML'
+  model: claude-opus-5-5
+  # max_tokens caps the whole call, including any thinking, so allow several thousand tokens.
+  max_tokens: 4096
+  messages:
+    - role: user
+      content: I am building a recipe app. Help me name the main entities in the data model.
+    - role: assistant
+      content: Start with Recipe, Ingredient, and Step. Add a RecipeIngredient entry that holds the quantity and unit for each ingredient in a recipe.
+    - role: user
+      content: Good. Now suggest field names for Recipe.
+  compaction:
+    type: summarize
+  YAML
+  ```
 
   ```python Python
   from anthropic.types.beta import BetaMessageParam
@@ -102,7 +97,7 @@ Send the conversation as it stands with `"compaction": {"type": "summarize"}`. T
   ]
 
   response = client.beta.messages.create(
-      model="claude-opus-5",
+      model="claude-opus-5-5",
       # max_tokens caps the whole call, including any thinking, so allow several thousand tokens.
       max_tokens=4096,
       betas=["compact-2026-09-04"],
@@ -129,7 +124,7 @@ Send the conversation as it stands with `"compaction": {"type": "summarize"}`. T
   ];
 
   const response = await client.beta.messages.create({
-    model: "claude-opus-5",
+    model: "claude-opus-5-5",
     // max_tokens caps the whole call, including any thinking, so allow several thousand tokens.
     max_tokens: 4096,
     betas: ["compact-2026-09-04"],
@@ -163,7 +158,7 @@ Send the conversation as it stands with `"compaction": {"type": "summarize"}`. T
 
   var response = await client.Beta.Messages.Create(new MessageCreateParams
   {
-      Model = Model.ClaudeOpus5,
+      Model = Model.ClaudeOpus5_5,
       // max_tokens caps the whole call, including any thinking, so allow several thousand tokens.
       MaxTokens = 4096,
       Betas = [AnthropicBeta.Compact2026_09_04],
@@ -187,7 +182,7 @@ Send the conversation as it stands with `"compaction": {"type": "summarize"}`. T
   }
 
   response, err := client.Beta.Messages.New(context.TODO(), anthropic.BetaMessageNewParams{
-  	Model: anthropic.ModelClaudeOpus5,
+  	Model: anthropic.ModelClaudeOpus5_5,
   	// max_tokens caps the whole call, including any thinking, so allow several thousand tokens.
   	MaxTokens: 4096,
   	Betas:     []anthropic.AnthropicBeta{anthropic.AnthropicBetaCompact2026_09_04},
@@ -211,7 +206,7 @@ Send the conversation as it stands with `"compaction": {"type": "summarize"}`. T
       var client = AnthropicOkHttpClient.fromEnv();
 
       var params = MessageCreateParams.builder()
-          .model(Model.CLAUDE_OPUS_5)
+          .model(Model.CLAUDE_OPUS_5_5)
           // max_tokens caps the whole call, including any thinking, so allow several thousand tokens.
           .maxTokens(4096)
           .addBeta(AnthropicBeta.COMPACT_2026_09_04)
@@ -247,7 +242,7 @@ Send the conversation as it stands with `"compaction": {"type": "summarize"}`. T
   ];
 
   $response = $client->beta->messages->create(
-      model: Model::CLAUDE_OPUS_5,
+      model: Model::CLAUDE_OPUS_5_5,
       // max_tokens caps the whole call, including any thinking, so allow several thousand tokens.
       maxTokens: 4096,
       betas: [AnthropicBeta::COMPACT_2026_09_04],
@@ -274,7 +269,7 @@ Send the conversation as it stands with `"compaction": {"type": "summarize"}`. T
   ]
 
   response = client.beta.messages.create(
-    model: Anthropic::Model::CLAUDE_OPUS_5,
+    model: Anthropic::Model::CLAUDE_OPUS_5_5,
     # max_tokens caps the whole call, including any thinking, so allow several thousand tokens.
     max_tokens: 4096,
     betas: [Anthropic::AnthropicBeta::COMPACT_2026_09_04],
@@ -290,7 +285,7 @@ Send the conversation as it stands with `"compaction": {"type": "summarize"}`. T
   "id": "msg_013Zva2CMHLNnXjNJJKqJ2EF",
   "type": "message",
   "role": "assistant",
-  "model": "claude-opus-5",
+  "model": "claude-opus-5-5",
   "content": [
     {
       "type": "compaction",
@@ -319,7 +314,7 @@ In your history, replace the messages you sent with the returned assistant messa
 
 ```json
 {
-  "model": "claude-opus-5",
+  "model": "claude-opus-5-5",
   "max_tokens": 2048,
   "messages": [
     {
@@ -392,7 +387,7 @@ After each turn, the loop adds the last response's input and output tokens, beca
   for turn, question in enumerate(QUESTIONS, start=1):
       history.append({"role": "user", "content": question})
       response = client.beta.messages.create(
-          model="claude-opus-5",
+          model="claude-opus-5-5",
           max_tokens=8192,
           system=SYSTEM,
           betas=["compact-2026-09-04"],
@@ -404,7 +399,7 @@ After each turn, the loop adds the last response's input and output tokens, beca
       conversation_tokens = response.usage.input_tokens + response.usage.output_tokens
       if conversation_tokens > COMPACT_AT_TOKENS and turn < len(QUESTIONS):
           summary = client.beta.messages.create(
-              model="claude-opus-5",
+              model="claude-opus-5-5",
               max_tokens=4096,
               system=SYSTEM,
               betas=["compact-2026-09-04"],
@@ -439,7 +434,7 @@ After each turn, the loop adds the last response's input and output tokens, beca
     const turn = index + 1;
     history.push({ role: "user", content: question });
     const response = await client.beta.messages.create({
-      model: "claude-opus-5",
+      model: "claude-opus-5-5",
       max_tokens: 8192,
       system: systemPrompt,
       betas: ["compact-2026-09-04"],
@@ -451,7 +446,7 @@ After each turn, the loop adds the last response's input and output tokens, beca
     const conversationTokens = response.usage.input_tokens + response.usage.output_tokens;
     if (conversationTokens > compactAtTokens && turn < questions.length) {
       const summary = await client.beta.messages.create({
-        model: "claude-opus-5",
+        model: "claude-opus-5-5",
         max_tokens: 4096,
         system: systemPrompt,
         betas: ["compact-2026-09-04"],
@@ -496,7 +491,7 @@ After each turn, the loop adds the last response's input and output tokens, beca
       history.Add(new() { Role = Role.User, Content = question });
       var response = await client.Beta.Messages.Create(new MessageCreateParams
       {
-          Model = Model.ClaudeOpus5,
+          Model = Model.ClaudeOpus5_5,
           MaxTokens = 8192,
           System = SystemPrompt,
           Betas = [AnthropicBeta.Compact2026_09_04],
@@ -514,7 +509,7 @@ After each turn, the loop adds the last response's input and output tokens, beca
       {
           var summary = await client.Beta.Messages.Create(new MessageCreateParams
           {
-              Model = Model.ClaudeOpus5,
+              Model = Model.ClaudeOpus5_5,
               MaxTokens = 4096,
               System = SystemPrompt,
               Betas = [AnthropicBeta.Compact2026_09_04],
@@ -561,7 +556,7 @@ After each turn, the loop adds the last response's input and output tokens, beca
   	turn := i + 1
   	history = append(history, anthropic.NewBetaUserMessage(anthropic.NewBetaTextBlock(question)))
   	response, err := client.Beta.Messages.New(ctx, anthropic.BetaMessageNewParams{
-  		Model:     anthropic.ModelClaudeOpus5,
+  		Model:     anthropic.ModelClaudeOpus5_5,
   		MaxTokens: 8192,
   		System:    system,
   		Betas:     []anthropic.AnthropicBeta{anthropic.AnthropicBetaCompact2026_09_04},
@@ -576,7 +571,7 @@ After each turn, the loop adds the last response's input and output tokens, beca
   	conversationTokens := response.Usage.InputTokens + response.Usage.OutputTokens
   	if conversationTokens > compactAtTokens && turn < len(questions) {
   		summary, err := client.Beta.Messages.New(ctx, anthropic.BetaMessageNewParams{
-  			Model:     anthropic.ModelClaudeOpus5,
+  			Model:     anthropic.ModelClaudeOpus5_5,
   			MaxTokens: 4096,
   			System:    system,
   			Betas:     []anthropic.AnthropicBeta{anthropic.AnthropicBetaCompact2026_09_04},
@@ -628,7 +623,7 @@ After each turn, the loop adds the last response's input and output tokens, beca
               .content(questions.get(turn - 1))
               .build());
           var params = MessageCreateParams.builder()
-              .model(Model.CLAUDE_OPUS_5)
+              .model(Model.CLAUDE_OPUS_5_5)
               .maxTokens(8192)
               .system(SYSTEM)
               .addBeta(AnthropicBeta.COMPACT_2026_09_04)
@@ -641,7 +636,7 @@ After each turn, the loop adds the last response's input and output tokens, beca
           long conversationTokens = response.usage().inputTokens() + response.usage().outputTokens();
           if (conversationTokens > COMPACT_AT_TOKENS && turn < questions.size()) {
               var summaryParams = MessageCreateParams.builder()
-                  .model(Model.CLAUDE_OPUS_5)
+                  .model(Model.CLAUDE_OPUS_5_5)
                   .maxTokens(4096)
                   .system(SYSTEM)
                   .addBeta(AnthropicBeta.COMPACT_2026_09_04)
@@ -688,7 +683,7 @@ After each turn, the loop adds the last response's input and output tokens, beca
       $turn = $index + 1;
       $history[] = BetaMessageParam::with(role: Role::USER, content: $question);
       $response = $client->beta->messages->create(
-          model: Model::CLAUDE_OPUS_5,
+          model: Model::CLAUDE_OPUS_5_5,
           maxTokens: 8192,
           system: SYSTEM,
           betas: [AnthropicBeta::COMPACT_2026_09_04],
@@ -700,7 +695,7 @@ After each turn, the loop adds the last response's input and output tokens, beca
       $conversationTokens = $response->usage->inputTokens + $response->usage->outputTokens;
       if ($conversationTokens > COMPACT_AT_TOKENS && $turn < count($questions)) {
           $summary = $client->beta->messages->create(
-              model: Model::CLAUDE_OPUS_5,
+              model: Model::CLAUDE_OPUS_5_5,
               maxTokens: 4096,
               system: SYSTEM,
               betas: [AnthropicBeta::COMPACT_2026_09_04],
@@ -737,7 +732,7 @@ After each turn, the loop adds the last response's input and output tokens, beca
   questions.each.with_index(1) do |question, turn|
     history << { role: "user", content: question }
     response = client.beta.messages.create(
-      model: Anthropic::Model::CLAUDE_OPUS_5,
+      model: Anthropic::Model::CLAUDE_OPUS_5_5,
       max_tokens: 8192,
       system_: SYSTEM,
       betas: [Anthropic::AnthropicBeta::COMPACT_2026_09_04],
@@ -749,7 +744,7 @@ After each turn, the loop adds the last response's input and output tokens, beca
     conversation_tokens = response.usage.input_tokens + response.usage.output_tokens
     if conversation_tokens > COMPACT_AT_TOKENS && turn < questions.length
       summary = client.beta.messages.create(
-        model: Anthropic::Model::CLAUDE_OPUS_5,
+        model: Anthropic::Model::CLAUDE_OPUS_5_5,
         max_tokens: 4096,
         system_: SYSTEM,
         betas: [Anthropic::AnthropicBeta::COMPACT_2026_09_04],
@@ -767,7 +762,9 @@ After each turn, the loop adds the last response's input and output tokens, beca
 
 The check on `stop_reason` comes before the code looks for the block; [Handle a missing summary or an error](https://platform.claude.com/docs/en/build-with-claude/compaction-on-demand#when-no-summary-comes-back) says why. The history is replaced, not appended to: the returned message replaces every message the request carried, under the rules in [Continue from the summary](https://platform.claude.com/docs/en/build-with-claude/compaction-on-demand#continue-from-the-summary). When no summary comes back, the loop keeps its history and asks again after the next turn.
 
-The SDK [tool runner](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-runner) in Python, TypeScript, C#, Go, and Java can send the compaction request for you. When you decide to compact, call `compact_before_next_turn()` on the runner (`compactBeforeNextTurn()` in TypeScript and Java, `CompactBeforeNextTurn()` in C# and Go). Once the current turn and its tool calls finish, the runner sends the compaction request and replaces its history with the returned message. Create the runner with the `compact-2026-09-04` beta, because the runner doesn't add it. The runner builds the request from its own parameters and leaves `context_management` out. If those parameters include `stop_sequences`, a `tool_choice` of type `any` or `tool`, or a structured-output `output_config.format`, the API rejects the request with a 400 error. [Request a summary](https://platform.claude.com/docs/en/build-with-claude/compaction-on-demand#request-a-summary) explains why. The runner refuses to compact while its `context_management` has a compaction edit, so use one kind of compaction on a runner.
+The SDK [tool runner](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-runner) in Python, TypeScript, C#, Go, Java, PHP, and Ruby can send the compaction request for you. When you decide to compact, call `compact_before_next_turn()` (typescript, java, php: `compactBeforeNextTurn()`; csharp, go: `CompactBeforeNextTurn()`) on the runner. Once the current turn and its tool calls finish, the runner sends the compaction request and replaces its history with the returned message. Create the runner with the `compact-2026-09-04` beta, because the runner doesn't add it.
+
+The runner builds the compaction request from its own parameters and leaves `context_management` out. It also leaves out `stop_sequences`, a `tool_choice` of type `any` or `tool`, and a structured-output `output_config.format`, which the API rejects on a compaction request. [Request a summary](https://platform.claude.com/docs/en/build-with-claude/compaction-on-demand#request-a-summary) explains why. The runner sends them again on its later requests. SDK versions before Python 1.8.0, TypeScript 0.128.0, C# 12.50.0, Go 1.75.0, and Java 2.65.0 send them on the compaction request too. On those versions, a runner that sets any of these parameters gets a 400 error. The runner sends a [task budget](https://platform.claude.com/docs/en/build-with-claude/task-budgets) unchanged. If `output_config.task_budget` sets `remaining`, the compaction request returns a 400 error, so leave `remaining` unset, as [Limits and interactions with other features](https://platform.claude.com/docs/en/build-with-claude/compaction-on-demand#how-it-fits-with-the-rest-of-the-api) says. The runner refuses to compact while its `context_management` has a compaction edit, so use one kind of compaction on a runner.
 
 ### When to compact
 

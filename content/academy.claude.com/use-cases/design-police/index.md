@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-mliphhy1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hvy17a2s.png)
 
+Film: the user asks Claude to check shipped screens and open pull requests against a design system's tokens, components, and spacing, and Claude returns a severity-rated drift report with compliant fixes and a draft PR comment.
+
 **Billing – Harbor**×
 
 +

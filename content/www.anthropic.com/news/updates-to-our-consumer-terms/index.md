@@ -18,7 +18,7 @@ You’re always in control of this setting and whether we use your data in this 
 
 In-app notification for existing Claude app users
 
-Starting today, we’re rolling out notifications so you can review these updates and manage your settings. If you’re an existing user, you have until October 8, 2025 to accept the updated Consumer Terms and make your decision. If you choose to accept the new policies now, they will go into effect immediately. These updates will apply only to new or resumed chats and coding sessions. After October 8, you’ll need to make your selection on the model training setting in order to continue using Claude. You can change your choice in your [Privacy Settings](https://claude.ai/redirect/website.v1.50dccef9-cd6b-4285-91fc-38cca01fd39f/settings/data-privacy-controls) at any time.
+Starting today, we’re rolling out notifications so you can review these updates and manage your settings. If you’re an existing user, you have until October 8, 2025 to accept the updated Consumer Terms and make your decision. If you choose to accept the new policies now, they will go into effect immediately. These updates will apply only to new or resumed chats and coding sessions. After October 8, you’ll need to make your selection on the model training setting in order to continue using Claude. You can change your choice in your [Privacy Settings](https://claude.ai/redirect/website.v1.225e16ec-0825-45f9-9df8-322f3ee3abc5/settings/data-privacy-controls) at any time.
 
 ## Extended data retention
 
@@ -72,6 +72,12 @@ You can always update your selection in your Privacy Settings. If you decide to 
 
 ## Related content
 
+### Claude discovers a novel enzyme system with CRISPR-like repeats
+
+We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
+
+[Read more](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
+
 ### Partnering with Accenture on embedded evaluation
 
 [Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)
@@ -81,7 +87,3 @@ You can always update your selection in your Privacy Settings. If you decide to 
 The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
 
 [Read more](https://www.anthropic.com/news/life-sciences-verification-program)
-
-### Developing Enterprise Frontier Safeguards with our customers
-
-[Read more](https://www.anthropic.com/news/enterprise-frontier-safeguards)

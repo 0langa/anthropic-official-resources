@@ -37,6 +37,8 @@ A skill can use any combination of these. Some skills are just a SKILL.md file w
 
 Below are three examples of skills. Click through each to get a sense for their application and makeup.
 
+Explorer: browse three example skill folders and select the instructions file or a folder within each to see an explainer, showing how a skill's contents adapt to the process it encodes.
+
 Inside a skill
 
 A skill is a folder. **What goes inside depends on the process.** Switch between three examples:

@@ -58,6 +58,8 @@ The built-in skill-creator captures the steps, templates, and source locations s
 
 [Plugins(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-cowork) bundle together Connectors and Skills so teammates have what they need to get started.
 
+Diagram: an equation graphic showing Connectors plus Skills equals Plugins, with each labeled as access to systems, best practices for work, and both bundled for one-click install.
+
 **Connectors**Access to your systems and tools
 
 +

@@ -135,6 +135,30 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22deea97e4a5b5e5739_8d339ae8ecedecc1409db8f5bbb99c958db56946-1000x1000.svg)
+
+Sep 24, 2026
+
+### Claude Tag now supports personal connectors in channels
+
+Product announcements
+
+[Claude Tag now supports personal connectors in channels](https://claude.com/blog/how-anthropic-employees-use-claude-tag)Claude Tag now supports personal connectors in channels
+
+[Claude Tag now supports personal connectors in channels](https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels)Claude Tag now supports personal connectors in channels
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
+
+Sep 24, 2026
+
+### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+
+Claude Code
+
+[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/how-anthropic-employees-use-claude-tag)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+
+[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
 
 Sep 23, 2026
@@ -158,30 +182,6 @@ Enterprise AI
 [How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-anthropic-employees-use-claude-tag) How to prepare for AI-driven code modernization projects
 
 [How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
-
-Sep 17, 2026
-
-### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5](https://claude.com/blog/how-anthropic-employees-use-claude-tag)Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
-
-[Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5](https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224f466b800c4a5a016_a7b8978859371a024139418f3366bb0600ee1675-1000x1000.svg)
-
-Jul 24, 2026
-
-### How the product designer who built Claude Design uses it to explore ideas before building them
-
-Enterprise AI
-
-[How the product designer who built Claude Design uses it to explore ideas before building them](https://claude.com/blog/how-anthropic-employees-use-claude-tag)How the product designer who built Claude Design uses it to explore ideas before building them
-
-[How the product designer who built Claude Design uses it to explore ideas before building them](https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them)How the product designer who built Claude Design uses it to explore ideas before building them
 
 ## Transform how your organization operates with Claude
 

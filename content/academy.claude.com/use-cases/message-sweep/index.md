@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-jabaz0im.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nbrkrt31.png)
 
+Film: a self-playing walkthrough of Claude sweeping unread Slack, Teams, and Gmail messages, grouping them by topic, and saving draft replies for the user to review and send. It teaches topic-based triage across apps, with drafting kept separate from sending.
+
 C
 
 Corliss

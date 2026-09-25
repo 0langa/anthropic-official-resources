@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-h97eje0w.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-b4zgvlm6.png)
 
+Film: the user asks Claude to extract ASC 606 revenue-recognition fields from signed contracts into an intake sheet, flagging non-standard terms. Claude reads the policy, template, and contracts, asks a clarifying question, then shows results ready for booking or review, with scheduling for future runs.
+
 Get signed contracts into the ledger
 
 This week’s signed contracts need to go into the ledger under your policy.

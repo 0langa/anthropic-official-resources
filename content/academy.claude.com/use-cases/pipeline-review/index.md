@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-jwybpfo3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gah6gl3f.png)
 
+Film: the user asks Claude to score open CRM opportunities against stage-exit criteria, flag at-risk deals with reasons, and produce a review document, then schedules it to run automatically before future meetings.
+
 Search...
 
 *DW*

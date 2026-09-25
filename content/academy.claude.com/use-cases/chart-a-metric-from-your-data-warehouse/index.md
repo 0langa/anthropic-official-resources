@@ -12,6 +12,8 @@ Ask in the thread, and Claude runs the query and posts **[the chart and the quer
 
 ## Set up[](https://academy.claude.com/use-cases/chart-a-metric-from-your-data-warehouse)
 
+Checklist: two setup items for charting a metric with Claude Tag, which are to ask in the thread where the number is discussed, in a channel with the warehouse connection, and to connect BigQuery or Snowflake to the channel read-only.
+
 
 
 **Ask in the right spot**
@@ -43,6 +45,8 @@ For help, ask your admin or visit our [troubleshooting docs(opens in new tab)](h
 ## What to ask Claude, and what it does[](https://academy.claude.com/use-cases/chart-a-metric-from-your-data-warehouse)
 
 Ask in the thread where the discussion is happening, each time you need a number from the data warehouse. Name the metric and the time period. Claude reads the whole thread, so you can refer to something said earlier without describing it again.
+
+Film: a chat-window recreation shows the user asking Claude Tag about a metric in an ongoing thread, and Claude reads earlier messages, works through a plan, then replies with an explanation, chart, and query, citing the messages it used.
 
 #growth-metricsMJYReplay
 
@@ -108,6 +112,8 @@ Open the query to see what it counted and what it left out, and reply in the thr
 
 Claude redraws a chart from a correction in the thread. When the correction should apply from now on, for example that reactivated accounts should not count as signups, ask Claude to remember it for the channel ([channel memory(opens in new tab)](https://claude.com/docs/claude-tag/users/memory)):
 
+Simulation: a single message to Claude in a team channel or thread, shown without a reply. It asks Claude to remember a metric correction, post key metrics every weekday, list its routines, or chart request volume without a warehouse connection.
+
 #growth-metricsMJY
 
 Y
@@ -119,6 +125,8 @@ YouCopy
 ### Get key metrics posted on a schedule[](https://academy.claude.com/use-cases/chart-a-metric-from-your-data-warehouse)
 
 Claude can run a query and post the chart every morning ([routine(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity)). Name the format so each post stays short, and name the time zone.
+
+Simulation: a single message to Claude in a team channel or thread, shown without a reply. It asks Claude to remember a metric correction, post key metrics every weekday, list its routines, or chart request volume without a warehouse connection.
 
 #growth-metricsMJY
 
@@ -132,6 +140,8 @@ YouCopy
 
 Claude lists a channel's routines when asked. Check before adding one, and stop one by naming it ([manage standing work(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity)).
 
+Simulation: a single message to Claude in a team channel or thread, shown without a reply. It asks Claude to remember a metric correction, post key metrics every weekday, list its routines, or chart request volume without a warehouse connection.
+
 #growth-metricsMJY
 
 Y
@@ -143,6 +153,8 @@ YouCopy
 ### Chart numbers people posted in the channel, without a warehouse[](https://academy.claude.com/use-cases/chart-a-metric-from-your-data-warehouse)
 
 Without a warehouse connection, Claude can chart numbers people posted in the channel, such as request volume in a triage channel.
+
+Simulation: a single message to Claude in a team channel or thread, shown without a reply. It asks Claude to remember a metric correction, post key metrics every weekday, list its routines, or chart request volume without a warehouse connection.
 
 #support-triageY
 

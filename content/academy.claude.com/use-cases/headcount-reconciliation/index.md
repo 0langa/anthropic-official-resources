@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-csmvr9ol.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-egkt2awn.png)
 
+Film: the user asks Claude to reconcile headcount across a roster, an approved plan, and a payroll register, matching by cost center and employee ID. Claude asks a judgment question, then returns a categorized reconciliation workbook that can rerun automatically at each close.
+
 ![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)workday-roster-2026-03-31.xlsx
 
 HomeInsertDrawPage LayoutFormulasDataReviewView

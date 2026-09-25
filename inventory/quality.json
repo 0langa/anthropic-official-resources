@@ -82,6 +82,7 @@
     "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
     "https://www.anthropic.com/research/labor-market-impacts",
     "https://www.anthropic.com/research/measuring-agent-autonomy",
+    "https://www.anthropic.com/research/project-swap",
     "https://www.anthropic.com/transparency",
     "https://www.anthropic.com/transparency/",
     "https://www.anthropic.com/transparency/model-report",
@@ -90,10 +91,10 @@
   ],
   "statuses": {
     "blocked": 3,
-    "complete": 3909,
-    "gone": 64,
+    "complete": 3934,
+    "gone": 63,
     "out_of_scope": 32,
-    "partial": 83
+    "partial": 84
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/dashboard",
@@ -242,7 +243,6 @@
     "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
     "https://claude.com/resources",
     "https://claude.com/resources/tutorials/using-research-and-google-workspace",
-    "https://claude.com/resources/use-cases/category/nonprofits",
     "https://code.claude.com/docs/en/examples",
     "https://code.claude.com/docs/en/reference",
     "https://platform.claude.com/cookbook/URL",
@@ -360,6 +360,7 @@
     "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
     "https://www.anthropic.com/research/labor-market-impacts",
     "https://www.anthropic.com/research/measuring-agent-autonomy",
+    "https://www.anthropic.com/research/project-swap",
     "https://www.anthropic.com/resources",
     "https://www.anthropic.com/transparency",
     "https://www.anthropic.com/transparency/",

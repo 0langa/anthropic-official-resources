@@ -34,6 +34,8 @@ A DM and a private channel are right for work that is only yours or only a group
 
 Start from who the work is for. Hover over a destination to see the path to it.
 
+Diagram: a decision tree for where to start work with Claude. Questions about who the work is for, the team's tools, and keeping it to specific people lead to a DM, a recommended public channel, or a private channel.
+
 Where to start a piece of work
 
 Work you want Claude to do
@@ -64,6 +66,8 @@ YesNoNoYesNoYes, a group
 - To check what applies where you are, ask Claude: `what can you access from here?`
 
 ## Try it[](https://academy.claude.com/courses/introduction-to-claude-tag/pick-the-right-place-for-the-work)
+
+Exercise: place four sample requests for Claude in a direct message, a private channel, or a public channel, and see what happens to each answer. It teaches choosing where to ask based on who the work is for.
 
 Below are four requests for Claude. Post each one where you would ask a teammate, and see what happens next.
 

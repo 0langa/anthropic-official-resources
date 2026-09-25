@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-gtq6ufl9.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dqfzjo1d.png)
 
+Film: the user asks Claude to turn a process walkthrough into a risk-control matrix and narrative, mapping each step to a control and flagging gaps, then sets up the same documentation to run on a recurring schedule.
+
 Document your SOX controls
 
 Audit needs your process documented and you only have walkthrough notes.

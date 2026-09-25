@@ -182,7 +182,7 @@ Model choice sets the price of every token in a session, so it moves the bill mo
 
 Use Opus 5.5 for work you supervise: feature work across a few files, debugging, and code review with follow-up edits. You read what it does and step in when it drifts, so the loop stays short. Moving up to Fable 5.1
 
-**Move up to Fable 5.1 when the result matters more than the token price. For example** long runs you won't supervise, problems with no existing pattern in the codebase, and large changes that coordinate many subagents. Don't wait for a third failure. If Opus 5.5 on high hits the same problem twice, switch, and switch back once it's solved. For interactive work, Opus 5.5 is a better fit as it has lower latency and costs less.
+**Move up to Fable 5.1 when the result matters more than the token price. For example** long runs you won't supervise, problems with no existing pattern in the codebase, and large changes that coordinate many subagents. Don't wait for a third failure. If high hits the same problem twice, switch to Fable 5.1." to "If xhigh hits the same problem twice, switch to Fable 5.1
 
 Fable 5.1 lists at $10 per million input tokens and $50 per million output, two and a half times the Opus 5.5 price. Its cache reads cost $0.25 per million, only 1.25 times the Opus 5.5 rate, because they bill at 0.025 times its input price. So the gap is smallest on a long, cache-heavy run, and largest on a task that writes a lot.
 
@@ -235,7 +235,7 @@ A steady session appends to the end of the conversation on every turn and keeps 
 In practice, expect a cache write when:
 
 - You pause longer than the cache lifetime;
-- You change effort or thinking settings (see the effort section), which can clear the cached conversation;
+- On Opus 5.5 with an API key or a Claude subscription, changing effort keeps the cache. You can raise it for one hard step and lower it again without rewriting the conversation. On Amazon Bedrock, Google Cloud's Agent Platform or a Claude apps gateway, a change of effort still clears the cached conversation, and the next request pays the cache-write price on all of it. Thinking is always on for Opus 5.5, so there's no thinking setting to change.
 - You connect or disconnect an MCP server, which can change what loads at the start of each request;
 - You switch models, since the new model starts from an empty cache; and
 - The conversation is compacted, which rewrites the history the cache matched.
@@ -291,7 +291,7 @@ For a baseline, the Claude Code costs docs give an average across enterprise dep
 
 - Use medium effort for well-scoped daily work.
 - Give the model a way to check its work, and start changes that span files in plan mode.
-- When medium stalls, raise effort to high. Change it at a break, since the change can cost a cache write.
+- When medium stalls, raise effort to high. With an API key or a subscription the change keeps your cache. On a cloud provider or gateway, change it at a break.
 - If high hits the same problem twice, switch to Fable 5.1. Switch back once it's solved.
 - Put search and log-reading subagents on Sonnet or Haiku. Keep code edits on Opus 5.5.
 - Keep a long session moving, so its cache stays warm.
@@ -330,6 +330,18 @@ No items found.
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
+
+Sep 24, 2026
+
+### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+
+Claude Code
+
+[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/what-a-task-costs-on-opus-5-5)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+
+[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
 
 Sep 23, 2026
@@ -365,18 +377,6 @@ Claude Code
 [Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog/what-a-task-costs-on-opus-5-5)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
 [Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 20, 2026
-
-### The Claude Code guide for startups
-
-Claude Code
-
-[The Claude Code guide for startups](https://claude.com/blog/what-a-task-costs-on-opus-5-5)The Claude Code guide for startups
-
-[The Claude Code guide for startups](https://claude.com/blog/claude-code-guide-for-startups)The Claude Code guide for startups
 
 ## Transform how your organization operates with Claude
 

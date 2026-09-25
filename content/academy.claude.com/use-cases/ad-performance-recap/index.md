@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-em4laj46.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lnkhp3d2.png)
 
+Film: the user asks Claude to recap weekly ad performance across platforms, which Claude reads, pauses to ask about unifying purchase counts, then returns a summary, budget recommendation, recap deck, and Slack digest for approval, finally scheduling the recap to run automatically.
+
 ![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)google-ads-export.csv
 
 HomeInsertDrawPage LayoutFormulasDataReviewView

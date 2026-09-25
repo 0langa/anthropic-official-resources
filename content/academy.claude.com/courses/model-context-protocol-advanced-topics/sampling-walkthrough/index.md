@@ -8,6 +8,8 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fmodel-context-protocol-advanced-topics%2Fsampling-walkthrough)
 
+Walkthrough: a step-by-step guide through a sample project's code showing how to implement sampling, pairing explanations with a file browser and highlighted code for each stage, from initiating a request to handling the returned result.
+
 ### Tutorial Steps
 
 Let's get a better sense of how to implement this feature by walking through a sample project.

@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-c17k7zsz.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hmn3kocy.png)
 
+Film: the user asks Claude to read next week's calendar, gather Slack, email, and file context behind each meeting, and flag outstanding items owed to others. Claude produces one prioritized week-ahead brief and shows how to schedule it weekly.
+
 **‹****›**
 
 calendar.alder.co/week/2026/04/27

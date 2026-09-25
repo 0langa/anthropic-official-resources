@@ -1,0 +1,51 @@
+import{Nm as e,jm as t}from"../../../../../content-de-meta-mdrrzgmt.js";var n=t();function r(t){let r={a:"a",code:"code",h2:"h2",h3:"h3",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...e(),...t.components},{Exercise:i,ExerciseDeck:o,GenericPrompt:s,ResourceWidget:c}=r;return i||a("Exercise",!0),o||a("ExerciseDeck",!0),s||a("GenericPrompt",!0),c||a("ResourceWidget",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{id:"keep-one-kind-of-work-in-each-channel",children:"Keep one kind of work in each channel"}),`
+`,(0,n.jsx)(r.p,{children:"When you add Claude to a channel, what it knows comes from that channel: its history, the instructions and memory saved there, and the tools connected to it. Keep one kind of work in a channel, with the tools that fit it, and Claude learns that job well. That is what makes it a specialist for the channel."}),`
+`,(0,n.jsx)("div",{className:"-mt-3",children:(0,n.jsx)(c,{name:"TwoChannels"})}),`
+`,(0,n.jsx)(r.h2,{id:"let-claude-reply-without-being-tagged",children:"Let Claude reply without being tagged"}),`
+`,(0,n.jsxs)(r.p,{children:["Claude reads the channel continuously, so it can recognize when a message asks something it can answer or describes work it can pick up. With ",(0,n.jsx)(r.a,{href:"https://claude.com/docs/claude-tag/users/when-claude-responds",children:"proactivity controls"})," you can let it reply to those messages without anyone @-mentioning it. A focused channel is what makes this useful: when the channel is about one job, Claude can tell which messages are its work and which to leave alone."]}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:["When ",(0,n.jsx)(r.a,{href:"https://claude.com/docs/claude-tag/users/when-claude-responds",children:"automatic replies"})," are on for the channel, Claude weighs each message and decides whether to jump in."]}),`
+`,(0,n.jsx)(r.li,{children:"You can tell Claude how to do this by instructing it in the channel. For instance, specify which messages deserve a reply without a direct tag and what messages to stay out of."}),`
+`]}),`
+`,(0,n.jsx)(s,{children:(0,n.jsx)(r.p,{children:"@Claude remember for this channel: when someone posts an account name or asks about an open item, reply even if nobody tagged you. Stay out of scheduling and social chatter."})}),`
+`,(0,n.jsxs)(r.p,{children:["Claude saves the line to the channel's notes and ",(0,n.jsx)(r.a,{href:"https://claude.com/docs/claude-tag/users/prompt-library#shape-how-the-channel-works",children:"weighs it when deciding whether to reply"}),"."]}),`
+`,(0,n.jsx)(r.h2,{id:"when-claudes-untagged-replies-add-value",children:"When Claude's untagged replies add value"}),`
+`,(0,n.jsx)(r.p,{children:"You decide how proactive Claude is. Give it a job in the channel that says which messages to pick up, or simply tell it to chime in whenever it has something useful. A few common cases:"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"A support or feedback channel:"})," Questions come in, and Claude answers them because it reads the channel’s knowledge base. There is no wait for a person to tag Claude, and the person asking gets an answer immediately."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"A reference or policy channel:"})," Someone asks “what’s the onboarding process?” and Claude answers because it reads the policy doc. Again, no tag is needed and the answer is there."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"A project channel:"})," Someone asks “what did we decide about the API?” and Claude finds the decision and answers. Someone asks “how does that affect the mobile work?” and Claude connects the dots, speeding up the conversation by contributing without being asked."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"An incident channel:"})," Claude reads the reports coming in, spots a pattern, and flags it. Claude’s pattern recognition helps the team without someone needing to tag it."]}),`
+`]}),`
+`,(0,n.jsx)(r.h3,{id:"give-claude-a-standing-responsibility-in-a-channel",children:"Give Claude a standing responsibility in a channel"}),`
+`,(0,n.jsx)(r.p,{children:"Beyond replying to one message at a time, you can hand Claude a job or standing responsibility. Instead of waiting for someone to ask, Claude works toward a larger goal on its own. It decides what needs doing and acts on it over days or weeks."}),`
+`,(0,n.jsx)(r.p,{children:"Here are a few shapes this takes:"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Coordination work:"})," A launch or event with many threads. Claude reads where decisions land, keeps trackers updated, reminds owners as dates approach, and flags what has slipped."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Owning an outcome:"})," A specific thing you want to accomplish or maintain, like a queue under a day old or a migration finished by quarter end. Claude watches what affects it, acts on what it can move, and brings you the parts that need a decision with a recommendation."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Continuity through change:"}),' Work that runs for months while people rotate. Claude remembers what was decided and why, answers "where did we land on this," and points out when a new proposal contradicts an earlier call.']}),`
+`]}),`
+`,(0,n.jsx)(r.p,{children:"Start by documenting your standard process, give it to Claude with automatic replies on, and Claude gets sharper as it runs."}),`
+`,(0,n.jsx)(c,{name:"MessageBuilder",variant:"job"}),`
+`,(0,n.jsxs)(r.p,{children:["Claude saves the job to the channel's notes. Once it works the way you want, add it to the channel's instructions from the Configure link. Instructions outrank memory (",(0,n.jsx)(r.a,{href:"/courses/introduction-to-claude-tag/refine-claudes-learning-through-feedback",children:"lesson 6"}),")."]}),`
+`,(0,n.jsxs)(r.p,{children:["The ",(0,n.jsx)(r.a,{href:"/courses/building-effective-human-agent-teams/what-a-strong-team-looks-like",children:"Building Effective Human-Agent Teams"})," course covers how assigning clear roles to people and to Claude affects results, and how to manage a hand-off like this as a team. When you delegate at this level, it helps to think about how the instruction is written and what Claude should own (lessons ",(0,n.jsx)(r.a,{href:"/courses/introduction-to-claude-tag/write-a-request-claude-can-work-with",children:"9"})," and ",(0,n.jsx)(r.a,{href:"/courses/introduction-to-claude-tag/expand-what-claude-owns",children:"10"}),")."]}),`
+`,(0,n.jsx)(r.h2,{id:"turn-untagged-replies-off-or-on",children:"Turn untagged replies off or on"}),`
+`,(0,n.jsx)(r.p,{children:"If a channel gets noisy, first try adjusting Claude's instructions with more specific guidance. Then:"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Turn it off:"})," ",(0,n.jsx)(r.code,{children:"@Claude only respond when someone @-mentions you."})]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Refine what Claude responds to:"})," ",(0,n.jsx)(r.code,{children:"@Claude answer questions about our decisions and the work we’re doing. Skip scheduling."})]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Quiet one thread:"})," ",(0,n.jsx)(r.code,{children:"@Claude only respond when I @-mention you."})," (sent in that thread)"]}),`
+`]}),`
+`,(0,n.jsxs)(r.p,{children:["The first one changes the channel's ",(0,n.jsxs)(r.a,{href:"https://claude.com/docs/claude-tag/users/when-claude-responds#turn-automatic-replies-on-or-off",children:[(0,n.jsx)(r.strong,{children:"Respond automatically"})," setting"]})," for everyone, and the second refines it through the channel's notes. Claude confirms the change. Where your organization has limited who can change a channel's settings, ask whoever manages Claude Tag for the channel. The same setting lives in the channel's settings, and ",(0,n.jsx)(r.a,{href:"https://claude.com/docs/claude-tag/users/commands",children:(0,n.jsx)(r.code,{children:"!mute"})})," in a thread quiets that thread only (",(0,n.jsx)(r.code,{children:"!unmute"})," reverses it)."]}),`
+`,(0,n.jsxs)(r.p,{children:["To learn more, see ",(0,n.jsx)(r.a,{href:"https://claude.com/docs/claude-tag/users/when-claude-responds#turn-automatic-replies-on-or-off",children:"turn automatic replies on or off"}),"."]}),`
+`,(0,n.jsx)(r.h2,{id:"practice",children:"Practice"}),`
+`,(0,n.jsx)("div",{className:"-mt-3",children:(0,n.jsx)(c,{name:"TuneJob"})}),`
+`,(0,n.jsx)(r.h2,{id:"try-it",children:"Try it"}),`
+`,(0,n.jsx)(o,{children:(0,n.jsxs)(i,{title:"Tell one channel what is worth replying to",note:"In a channel where Claude has a written job, or one with only you and Claude · 10 minutes",children:[(0,n.jsxs)(r.ol,{children:[`
+`,(0,n.jsx)(r.li,{children:"Write the line: which messages deserve an untagged reply, and what to stay out of."}),`
+`,(0,n.jsxs)(r.li,{children:["Send it as ",(0,n.jsx)(r.code,{children:"@Claude remember for this channel: …"}),"."]}),`
+`,(0,n.jsx)(r.li,{children:"Post one untagged message the line covers and one it excludes, and see which Claude answers."}),`
+`]}),(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:"Done when:"})," Claude's next untagged reply fits your line."]})]})}),`
+`,(0,n.jsx)(r.h2,{id:"before-you-move-on",children:"Before you move on"}),`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:"Key takeaway:"})," a channel with one job makes a useful specialist, and a specialist can join in without a tag."]}),`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:"After practicing:"})," You will have given Claude one line about what is worth replying to in a channel, and seen an untagged reply that fits it."]})]})}function i(t={}){let{wrapper:i}={...e(),...t.components};return i?(0,n.jsx)(i,{...t,children:(0,n.jsx)(r,{...t})}):r(t)}function a(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{i as default};

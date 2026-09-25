@@ -54,6 +54,8 @@ One proposal to bring to that conversation is inference hooks: every prompt from
 
 The interactive widget below shows how each of these decisions affects your ability to answer questions about your data after the fact.
 
+Simulation: toggle the Compliance API, OpenTelemetry export, and retention window to see which administrative questions about past activity become unanswerable, showing how data sources and retention affect later visibility.
+
 **Switch a source off** and watch which questions you can no longer answer.
 
 Audit logWho did what, when. Metadata only; its events also come through the Compliance API.Always on

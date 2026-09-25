@@ -29,6 +29,8 @@ To set them up:
 
 What to put in it: who you are and what you do; the shorthand and acronyms you use (so Claude doesn't have to ask what "the QBR deck" is); and how you like output delivered (format, length, tone, etc.). The interactive below shows a few worked examples based on different roles.
 
+Explorer: switches between three role-based examples of a global-instructions brief, showing how each sample text and the default behaviors it produces teach what details belong in standing Claude instructions.
+
 Global instructions
 
 Product ManagerFinanceLegal
@@ -67,6 +69,8 @@ A project is a workspace tied to a specific stream of work — a customer, a rec
 That last one is the difference projects make. Outside of a project, each session starts fresh apart from your global instructions. Inside one, every conversation adds to what Claude knows — so the next task opens with the client's situation, last week's decisions, and what's still open already in hand.
 
 Review the examples below to get a sense for the makeup of a Cowork project.
+
+Explorer: toggle between three example Cowork project setups—a customer account, a recurring deliverable, and a launch—to see how instructions, scheduled tasks, context, and memory shift for each kind of work.
 
 Three workstreams, three project setups
 

@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-jslgxynt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-fx1l2f4o.png)
 
+Film: the user asks Claude to draft a job offer letter, candidate email, and call deck from approved figures and supporting documents, checking in on one judgment call before delivering drafts and showing how the package can be scheduled to run automatically for future finalists, always pausing for approval first.
+
 Prepare a job offer
 
 Your finalist’s pay is approved and you need the offer ready to send.

@@ -20,13 +20,19 @@ Keep your workspace open next to this course, with Claude in a channel, for hand
 
 ## What Claude Tag is and how it works[](https://academy.claude.com/courses/introduction-to-claude-tag/tag-claude-and-see-what-happens)
 
-Claude Tag is Claude added to your team's Slack workspace as a member. Once you, a teammate, or an admin adds it to a channel, tag Claude in that channel and Claude replies in that thread. Claude has read the channel before it answers, it can use the tools connected to the channel, and everyone in the channel can see and join the exchange.
+Claude Tag brings Claude into your team's Slack workspace, where you can hand it whole pieces of work, as you would to a teammate. Add Claude to a channel, then tag it in a message that describes the work. It reads what has already been posted there, can use the channel's connected tools, and does the work in a thread under your message. Everyone in the channel can follow the thread and steer it.
 
-Beyond answering one request, Claude can run routines on a schedule ([lesson 8(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-tag/put-recurring-work-on-a-schedule)), act on a standing responsibility when something happens in the channel, and answer the kinds of untagged messages you name ([lesson 7(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-tag/proactivity-let-claude-reply-without-being-tagged)).
+You can also set up work that Claude does without being tagged each time:
+
+- **Untagged replies:** Claude answers the kinds of messages you name ([lesson 7(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-tag/proactivity-let-claude-reply-without-being-tagged)).
+- **A standing responsibility:** Claude works toward a goal on its own over days or weeks, such as keeping a launch's trackers current ([lesson 7(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-tag/proactivity-let-claude-reply-without-being-tagged)).
+- **Routines:** You describe a task once, and Claude runs it on your schedule ([lesson 8(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-tag/put-recurring-work-on-a-schedule)).
 
 ## What is different from Claude in a chat[](https://academy.claude.com/courses/introduction-to-claude-tag/tag-claude-and-see-what-happens)
 
 Because Claude is a member of the channel, a few things are different from a chat with Claude on your own:
+
+Diagram: three rows show how Claude as a Slack channel member differs from a chat with Claude on your own: it starts briefed on the team's context, the whole team can steer one thread, and it keeps working after you sign off.
 
 ### Claude can access all your team’s context to start as a specialist in your work.
 
@@ -73,6 +79,8 @@ you sign offasks a teammateback
 Claude keeps working on a task even when you’re offline
 
 ## What it looks like[](https://academy.claude.com/courses/introduction-to-claude-tag/tag-claude-and-see-what-happens)
+
+Film: an animated Slack-style channel shows the user tagging Claude once with a multi-step job; Claude reacts, replies in the thread, posts a live-updating plan, then a result, and picks up a follow-up reply without a new tag.
 
 #launch-readiness
 
@@ -142,9 +150,11 @@ ClaudeDone. Support stays on the 20th; the plan and their ticket are updated.
 
 [Reply in the thread(opens in new tab)](https://claude.com/docs/claude-tag/concepts/how-it-works) to add context or change course; Claude reads every reply there, with no new tag. [Configure(opens in new tab)](https://claude.com/docs/claude-tag/users/good-habits), under each of Claude's replies, opens the channel's settings.
 
-## What Claude can do, with and without tools[](https://academy.claude.com/courses/introduction-to-claude-tag/tag-claude-and-see-what-happens)
+## What Claude Tag can do, with and without tools[](https://academy.claude.com/courses/introduction-to-claude-tag/tag-claude-and-see-what-happens)
 
-Claude does more than reply in the thread. It can take action directly in [your team's tools(opens in new tab)](https://claude.com/docs/claude-tag/concepts/glossary) and in [your own(opens in new tab)](https://claude.ai/customize/connectors) (lessons [2(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-tag/claude-in-a-dm) and [3(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-tag/claude-in-a-public-channel)). And even with no tools connected, Claude can already do useful work wherever it has been added:
+Claude Tag does more than reply in the thread. It can take action directly in [your team's tools(opens in new tab)](https://claude.com/docs/claude-tag/concepts/glossary) and in [your own(opens in new tab)](https://claude.ai/customize/connectors) (lessons [2(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-tag/claude-in-a-dm) and [3(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-tag/claude-in-a-public-channel)). And even with no tools connected, Claude can already do useful work wherever it has been added:
+
+Reference list: what Claude can already do wherever it is added, before tools are connected. It reads the channel and shared files, searches the workspace's other public channels and the web, and builds charts, documents, and web pages.
 
 ### Reads what is in front of it
 
@@ -160,7 +170,7 @@ Claude does more than reply in the thread. It can take action directly in [your 
 
 - [Builds artifacts, like charts, documents and web pages](https://claude.com/docs/claude-tag/concepts/how-it-works): it can work on what it read or found, so a question about numbers can come back as a chart and a long thread as a document or a web page.
 
-## Where you can work with Claude[](https://academy.claude.com/courses/introduction-to-claude-tag/tag-claude-and-see-what-happens)
+## Where you can work with Claude Tag[](https://academy.claude.com/courses/introduction-to-claude-tag/tag-claude-and-see-what-happens)
 
 You can work with Claude across your workspace:
 

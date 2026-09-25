@@ -1075,7 +1075,7 @@ Learn more about the Messages API in our [user guide](https://platform.claude.co
 
   See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-  - `"claude-fable-5-1" or "claude-mythos-5-1" or "claude-sonnet-5" or 14 more`
+  - `"claude-fable-5-1" or "claude-opus-5-5" or "claude-mythos-5-1" or 15 more`
 
     The model that will complete your prompt.
 
@@ -1084,6 +1084,10 @@ Learn more about the Messages API in our [user guide](https://platform.claude.co
     - `"claude-fable-5-1"`
 
       Frontier intelligence for ambitious tasks across coding, scientific discovery, and enterprise workflows
+
+    - `"claude-opus-5-5"`
+
+      Powerful intelligence for coding, knowledge work, and long-running agents
 
     - `"claude-mythos-5-1"`
 
@@ -1194,6 +1198,17 @@ Learn more about the Messages API in our [user guide](https://platform.claude.co
         maxLength: 64, minLength: 1
 
   - `string`
+
+- `diagnostics: optional DiagnosticsParam or null`
+
+  Request-level diagnostics. Currently carries the previous response
+  id for prompt-cache divergence reporting.
+
+  - `previous_message_id: optional string or null`
+
+    The `id` (`msg_...`) from this client's previous /v1/messages response. The server compares that request's prompt fingerprint against this one and returns `diagnostics.cache_miss_reason` when the prompt-cache prefix could not be reused. Pass `null` on the first turn to opt in without a prior message to compare.
+
+    maxLength: 256
 
 - `inference_geo: optional string or null`
 
@@ -3860,13 +3875,74 @@ Learn more about the Messages API in our [user guide](https://platform.claude.co
 
       - `file_id: string`
 
+  - `diagnostics: Diagnostics or null`
+
+    Request-level diagnostics: why the prompt cache could not fully reuse
+    the prefix of the request named by `diagnostics.previous_message_id`.
+
+    - `cache_miss_reason: CacheMissReason or null`
+
+      Explains why the prompt cache could not fully reuse the prefix from the request identified by `diagnostics.previous_message_id`. `null` means diagnosis is still pending — the response was serialized before the background comparison completed.
+
+      - `CacheMissModelChanged object`
+
+        - `type: "model_changed"`
+
+          default: model_changed
+
+        - `cache_missed_input_tokens: number`
+
+          Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+      - `CacheMissSystemChanged object`
+
+        - `type: "system_changed"`
+
+          default: system_changed
+
+        - `cache_missed_input_tokens: number`
+
+          Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+      - `CacheMissToolsChanged object`
+
+        - `type: "tools_changed"`
+
+          default: tools_changed
+
+        - `cache_missed_input_tokens: number`
+
+          Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+      - `CacheMissMessagesChanged object`
+
+        - `type: "messages_changed"`
+
+          default: messages_changed
+
+        - `cache_missed_input_tokens: number`
+
+          Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+      - `CacheMissPreviousMessageNotFound object`
+
+        - `type: "previous_message_not_found"`
+
+          default: previous_message_not_found
+
+      - `CacheMissUnavailable object`
+
+        - `type: "unavailable"`
+
+          default: unavailable
+
   - `model: Model`
 
     The model that will complete your prompt.
 
     See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-    - `"claude-fable-5-1" or "claude-mythos-5-1" or "claude-sonnet-5" or 14 more`
+    - `"claude-fable-5-1" or "claude-opus-5-5" or "claude-mythos-5-1" or 15 more`
 
       The model that will complete your prompt.
 
@@ -3875,6 +3951,10 @@ Learn more about the Messages API in our [user guide](https://platform.claude.co
       - `"claude-fable-5-1"`
 
         Frontier intelligence for ambitious tasks across coding, scientific discovery, and enterprise workflows
+
+      - `"claude-opus-5-5"`
+
+        Powerful intelligence for coding, knowledge work, and long-running agents
 
       - `"claude-mythos-5-1"`
 
@@ -4400,6 +4480,12 @@ curl https://api.anthropic.com/v1/messages \
       "type": "text"
     }
   ],
+  "diagnostics": {
+    "cache_miss_reason": {
+      "cache_missed_input_tokens": 0,
+      "type": "model_changed"
+    }
+  },
   "model": "claude-opus-5",
   "role": "assistant",
   "stop_details": {
@@ -5490,7 +5576,7 @@ Learn more about token counting in our [user guide](https://platform.claude.com/
 
   See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-  - `"claude-fable-5-1" or "claude-mythos-5-1" or "claude-sonnet-5" or 14 more`
+  - `"claude-fable-5-1" or "claude-opus-5-5" or "claude-mythos-5-1" or 15 more`
 
     The model that will complete your prompt.
 
@@ -5499,6 +5585,10 @@ Learn more about token counting in our [user guide](https://platform.claude.com/
     - `"claude-fable-5-1"`
 
       Frontier intelligence for ambitious tasks across coding, scientific discovery, and enterprise workflows
+
+    - `"claude-opus-5-5"`
+
+      Powerful intelligence for coding, knowledge work, and long-running agents
 
     - `"claude-mythos-5-1"`
 
@@ -9366,6 +9456,126 @@ curl https://api.anthropic.com/v1/messages/count_tokens \
     The number of input tokens used to create the 5 minute cache entry.
 
     default: 0, minimum: 0
+
+### Cache Miss Messages Changed
+
+- `CacheMissMessagesChanged object`
+
+  - `type: "messages_changed"`
+
+    default: messages_changed
+
+  - `cache_missed_input_tokens: number`
+
+    Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+### Cache Miss Model Changed
+
+- `CacheMissModelChanged object`
+
+  - `type: "model_changed"`
+
+    default: model_changed
+
+  - `cache_missed_input_tokens: number`
+
+    Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+### Cache Miss Previous Message Not Found
+
+- `CacheMissPreviousMessageNotFound object`
+
+  - `type: "previous_message_not_found"`
+
+    default: previous_message_not_found
+
+### Cache Miss Reason
+
+- `CacheMissReason = CacheMissModelChanged or CacheMissSystemChanged or CacheMissToolsChanged or 3 more`
+
+  - `CacheMissModelChanged object`
+
+    - `type: "model_changed"`
+
+      default: model_changed
+
+    - `cache_missed_input_tokens: number`
+
+      Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+  - `CacheMissSystemChanged object`
+
+    - `type: "system_changed"`
+
+      default: system_changed
+
+    - `cache_missed_input_tokens: number`
+
+      Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+  - `CacheMissToolsChanged object`
+
+    - `type: "tools_changed"`
+
+      default: tools_changed
+
+    - `cache_missed_input_tokens: number`
+
+      Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+  - `CacheMissMessagesChanged object`
+
+    - `type: "messages_changed"`
+
+      default: messages_changed
+
+    - `cache_missed_input_tokens: number`
+
+      Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+  - `CacheMissPreviousMessageNotFound object`
+
+    - `type: "previous_message_not_found"`
+
+      default: previous_message_not_found
+
+  - `CacheMissUnavailable object`
+
+    - `type: "unavailable"`
+
+      default: unavailable
+
+### Cache Miss System Changed
+
+- `CacheMissSystemChanged object`
+
+  - `type: "system_changed"`
+
+    default: system_changed
+
+  - `cache_missed_input_tokens: number`
+
+    Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+### Cache Miss Tools Changed
+
+- `CacheMissToolsChanged object`
+
+  - `type: "tools_changed"`
+
+    default: tools_changed
+
+  - `cache_missed_input_tokens: number`
+
+    Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+### Cache Miss Unavailable
+
+- `CacheMissUnavailable object`
+
+  - `type: "unavailable"`
+
+    default: unavailable
 
 ### Citation Char Location
 
@@ -13295,6 +13505,82 @@ curl https://api.anthropic.com/v1/messages/count_tokens \
 
         - `"error"`
 
+### Diagnostics
+
+- `Diagnostics object`
+
+  Request-level diagnostics: why the prompt cache could not fully reuse
+  the prefix of the request named by `diagnostics.previous_message_id`.
+
+  - `cache_miss_reason: CacheMissReason or null`
+
+    Explains why the prompt cache could not fully reuse the prefix from the request identified by `diagnostics.previous_message_id`. `null` means diagnosis is still pending — the response was serialized before the background comparison completed.
+
+    - `CacheMissModelChanged object`
+
+      - `type: "model_changed"`
+
+        default: model_changed
+
+      - `cache_missed_input_tokens: number`
+
+        Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+    - `CacheMissSystemChanged object`
+
+      - `type: "system_changed"`
+
+        default: system_changed
+
+      - `cache_missed_input_tokens: number`
+
+        Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+    - `CacheMissToolsChanged object`
+
+      - `type: "tools_changed"`
+
+        default: tools_changed
+
+      - `cache_missed_input_tokens: number`
+
+        Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+    - `CacheMissMessagesChanged object`
+
+      - `type: "messages_changed"`
+
+        default: messages_changed
+
+      - `cache_missed_input_tokens: number`
+
+        Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+    - `CacheMissPreviousMessageNotFound object`
+
+      - `type: "previous_message_not_found"`
+
+        default: previous_message_not_found
+
+    - `CacheMissUnavailable object`
+
+      - `type: "unavailable"`
+
+        default: unavailable
+
+### Diagnostics Param
+
+- `DiagnosticsParam object`
+
+  Request-level diagnostics. Currently carries the previous response
+  id for prompt-cache divergence reporting.
+
+  - `previous_message_id: optional string or null`
+
+    The `id` (`msg_...`) from this client's previous /v1/messages response. The server compares that request's prompt fingerprint against this one and returns `diagnostics.cache_miss_reason` when the prompt-cache prefix could not be reused. Pass `null` on the first turn to opt in without a prior message to compare.
+
+    maxLength: 256
+
 ### Direct Caller
 
 - `DirectCaller object`
@@ -14601,13 +14887,74 @@ curl https://api.anthropic.com/v1/messages/count_tokens \
 
       - `file_id: string`
 
+  - `diagnostics: Diagnostics or null`
+
+    Request-level diagnostics: why the prompt cache could not fully reuse
+    the prefix of the request named by `diagnostics.previous_message_id`.
+
+    - `cache_miss_reason: CacheMissReason or null`
+
+      Explains why the prompt cache could not fully reuse the prefix from the request identified by `diagnostics.previous_message_id`. `null` means diagnosis is still pending — the response was serialized before the background comparison completed.
+
+      - `CacheMissModelChanged object`
+
+        - `type: "model_changed"`
+
+          default: model_changed
+
+        - `cache_missed_input_tokens: number`
+
+          Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+      - `CacheMissSystemChanged object`
+
+        - `type: "system_changed"`
+
+          default: system_changed
+
+        - `cache_missed_input_tokens: number`
+
+          Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+      - `CacheMissToolsChanged object`
+
+        - `type: "tools_changed"`
+
+          default: tools_changed
+
+        - `cache_missed_input_tokens: number`
+
+          Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+      - `CacheMissMessagesChanged object`
+
+        - `type: "messages_changed"`
+
+          default: messages_changed
+
+        - `cache_missed_input_tokens: number`
+
+          Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+      - `CacheMissPreviousMessageNotFound object`
+
+        - `type: "previous_message_not_found"`
+
+          default: previous_message_not_found
+
+      - `CacheMissUnavailable object`
+
+        - `type: "unavailable"`
+
+          default: unavailable
+
   - `model: Model`
 
     The model that will complete your prompt.
 
     See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-    - `"claude-fable-5-1" or "claude-mythos-5-1" or "claude-sonnet-5" or 14 more`
+    - `"claude-fable-5-1" or "claude-opus-5-5" or "claude-mythos-5-1" or 15 more`
 
       The model that will complete your prompt.
 
@@ -14616,6 +14963,10 @@ curl https://api.anthropic.com/v1/messages/count_tokens \
       - `"claude-fable-5-1"`
 
         Frontier intelligence for ambitious tasks across coding, scientific discovery, and enterprise workflows
+
+      - `"claude-opus-5-5"`
+
+        Powerful intelligence for coding, knowledge work, and long-running agents
 
       - `"claude-mythos-5-1"`
 
@@ -17607,13 +17958,13 @@ curl https://api.anthropic.com/v1/messages/count_tokens \
 
 ### Model
 
-- `Model = "claude-fable-5-1" or "claude-mythos-5-1" or "claude-sonnet-5" or 14 more or string`
+- `Model = "claude-fable-5-1" or "claude-opus-5-5" or "claude-mythos-5-1" or 15 more or string`
 
   The model that will complete your prompt.
 
   See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-  - `"claude-fable-5-1" or "claude-mythos-5-1" or "claude-sonnet-5" or 14 more`
+  - `"claude-fable-5-1" or "claude-opus-5-5" or "claude-mythos-5-1" or 15 more`
 
     The model that will complete your prompt.
 
@@ -17622,6 +17973,10 @@ curl https://api.anthropic.com/v1/messages/count_tokens \
     - `"claude-fable-5-1"`
 
       Frontier intelligence for ambitious tasks across coding, scientific discovery, and enterprise workflows
+
+    - `"claude-opus-5-5"`
+
+      Powerful intelligence for coding, knowledge work, and long-running agents
 
     - `"claude-mythos-5-1"`
 
@@ -19769,13 +20124,74 @@ curl https://api.anthropic.com/v1/messages/count_tokens \
 
         - `file_id: string`
 
+    - `diagnostics: Diagnostics or null`
+
+      Request-level diagnostics: why the prompt cache could not fully reuse
+      the prefix of the request named by `diagnostics.previous_message_id`.
+
+      - `cache_miss_reason: CacheMissReason or null`
+
+        Explains why the prompt cache could not fully reuse the prefix from the request identified by `diagnostics.previous_message_id`. `null` means diagnosis is still pending — the response was serialized before the background comparison completed.
+
+        - `CacheMissModelChanged object`
+
+          - `type: "model_changed"`
+
+            default: model_changed
+
+          - `cache_missed_input_tokens: number`
+
+            Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+        - `CacheMissSystemChanged object`
+
+          - `type: "system_changed"`
+
+            default: system_changed
+
+          - `cache_missed_input_tokens: number`
+
+            Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+        - `CacheMissToolsChanged object`
+
+          - `type: "tools_changed"`
+
+            default: tools_changed
+
+          - `cache_missed_input_tokens: number`
+
+            Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+        - `CacheMissMessagesChanged object`
+
+          - `type: "messages_changed"`
+
+            default: messages_changed
+
+          - `cache_missed_input_tokens: number`
+
+            Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+        - `CacheMissPreviousMessageNotFound object`
+
+          - `type: "previous_message_not_found"`
+
+            default: previous_message_not_found
+
+        - `CacheMissUnavailable object`
+
+          - `type: "unavailable"`
+
+            default: unavailable
+
     - `model: Model`
 
       The model that will complete your prompt.
 
       See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-      - `"claude-fable-5-1" or "claude-mythos-5-1" or "claude-sonnet-5" or 14 more`
+      - `"claude-fable-5-1" or "claude-opus-5-5" or "claude-mythos-5-1" or 15 more`
 
         The model that will complete your prompt.
 
@@ -19784,6 +20200,10 @@ curl https://api.anthropic.com/v1/messages/count_tokens \
         - `"claude-fable-5-1"`
 
           Frontier intelligence for ambitious tasks across coding, scientific discovery, and enterprise workflows
+
+        - `"claude-opus-5-5"`
+
+          Powerful intelligence for coding, knowledge work, and long-running agents
 
         - `"claude-mythos-5-1"`
 
@@ -20826,13 +21246,74 @@ curl https://api.anthropic.com/v1/messages/count_tokens \
 
           - `file_id: string`
 
+      - `diagnostics: Diagnostics or null`
+
+        Request-level diagnostics: why the prompt cache could not fully reuse
+        the prefix of the request named by `diagnostics.previous_message_id`.
+
+        - `cache_miss_reason: CacheMissReason or null`
+
+          Explains why the prompt cache could not fully reuse the prefix from the request identified by `diagnostics.previous_message_id`. `null` means diagnosis is still pending — the response was serialized before the background comparison completed.
+
+          - `CacheMissModelChanged object`
+
+            - `type: "model_changed"`
+
+              default: model_changed
+
+            - `cache_missed_input_tokens: number`
+
+              Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+          - `CacheMissSystemChanged object`
+
+            - `type: "system_changed"`
+
+              default: system_changed
+
+            - `cache_missed_input_tokens: number`
+
+              Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+          - `CacheMissToolsChanged object`
+
+            - `type: "tools_changed"`
+
+              default: tools_changed
+
+            - `cache_missed_input_tokens: number`
+
+              Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+          - `CacheMissMessagesChanged object`
+
+            - `type: "messages_changed"`
+
+              default: messages_changed
+
+            - `cache_missed_input_tokens: number`
+
+              Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+          - `CacheMissPreviousMessageNotFound object`
+
+            - `type: "previous_message_not_found"`
+
+              default: previous_message_not_found
+
+          - `CacheMissUnavailable object`
+
+            - `type: "unavailable"`
+
+              default: unavailable
+
       - `model: Model`
 
         The model that will complete your prompt.
 
         See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-        - `"claude-fable-5-1" or "claude-mythos-5-1" or "claude-sonnet-5" or 14 more`
+        - `"claude-fable-5-1" or "claude-opus-5-5" or "claude-mythos-5-1" or 15 more`
 
           The model that will complete your prompt.
 
@@ -20841,6 +21322,10 @@ curl https://api.anthropic.com/v1/messages/count_tokens \
           - `"claude-fable-5-1"`
 
             Frontier intelligence for ambitious tasks across coding, scientific discovery, and enterprise workflows
+
+          - `"claude-opus-5-5"`
+
+            Powerful intelligence for coding, knowledge work, and long-running agents
 
           - `"claude-mythos-5-1"`
 
@@ -29347,7 +29832,7 @@ Learn more about the Message Batches API in our [user guide](https://platform.cl
 
       See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-      - `"claude-fable-5-1" or "claude-mythos-5-1" or "claude-sonnet-5" or 14 more`
+      - `"claude-fable-5-1" or "claude-opus-5-5" or "claude-mythos-5-1" or 15 more`
 
         The model that will complete your prompt.
 
@@ -29356,6 +29841,10 @@ Learn more about the Message Batches API in our [user guide](https://platform.cl
         - `"claude-fable-5-1"`
 
           Frontier intelligence for ambitious tasks across coding, scientific discovery, and enterprise workflows
+
+        - `"claude-opus-5-5"`
+
+          Powerful intelligence for coding, knowledge work, and long-running agents
 
         - `"claude-mythos-5-1"`
 
@@ -29466,6 +29955,17 @@ Learn more about the Message Batches API in our [user guide](https://platform.cl
             maxLength: 64, minLength: 1
 
       - `string`
+
+    - `diagnostics: optional DiagnosticsParam or null`
+
+      Request-level diagnostics. Currently carries the previous response
+      id for prompt-cache divergence reporting.
+
+      - `previous_message_id: optional string or null`
+
+        The `id` (`msg_...`) from this client's previous /v1/messages response. The server compares that request's prompt fingerprint against this one and returns `diagnostics.cache_miss_reason` when the prompt-cache prefix could not be reused. Pass `null` on the first turn to opt in without a prior message to compare.
+
+        maxLength: 256
 
     - `inference_geo: optional string or null`
 
@@ -32918,13 +33418,74 @@ Learn more about the Message Batches API in our [user guide](https://platform.cl
 
             - `file_id: string`
 
+        - `diagnostics: Diagnostics or null`
+
+          Request-level diagnostics: why the prompt cache could not fully reuse
+          the prefix of the request named by `diagnostics.previous_message_id`.
+
+          - `cache_miss_reason: CacheMissReason or null`
+
+            Explains why the prompt cache could not fully reuse the prefix from the request identified by `diagnostics.previous_message_id`. `null` means diagnosis is still pending — the response was serialized before the background comparison completed.
+
+            - `CacheMissModelChanged object`
+
+              - `type: "model_changed"`
+
+                default: model_changed
+
+              - `cache_missed_input_tokens: number`
+
+                Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+            - `CacheMissSystemChanged object`
+
+              - `type: "system_changed"`
+
+                default: system_changed
+
+              - `cache_missed_input_tokens: number`
+
+                Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+            - `CacheMissToolsChanged object`
+
+              - `type: "tools_changed"`
+
+                default: tools_changed
+
+              - `cache_missed_input_tokens: number`
+
+                Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+            - `CacheMissMessagesChanged object`
+
+              - `type: "messages_changed"`
+
+                default: messages_changed
+
+              - `cache_missed_input_tokens: number`
+
+                Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+            - `CacheMissPreviousMessageNotFound object`
+
+              - `type: "previous_message_not_found"`
+
+                default: previous_message_not_found
+
+            - `CacheMissUnavailable object`
+
+              - `type: "unavailable"`
+
+                default: unavailable
+
         - `model: Model`
 
           The model that will complete your prompt.
 
           See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-          - `"claude-fable-5-1" or "claude-mythos-5-1" or "claude-sonnet-5" or 14 more`
+          - `"claude-fable-5-1" or "claude-opus-5-5" or "claude-mythos-5-1" or 15 more`
 
             The model that will complete your prompt.
 
@@ -32933,6 +33494,10 @@ Learn more about the Message Batches API in our [user guide](https://platform.cl
             - `"claude-fable-5-1"`
 
               Frontier intelligence for ambitious tasks across coding, scientific discovery, and enterprise workflows
+
+            - `"claude-opus-5-5"`
+
+              Powerful intelligence for coding, knowledge work, and long-running agents
 
             - `"claude-mythos-5-1"`
 

@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-f72xos2e.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j0qghno4.png)
 
+Film: the user asks Claude why a regional metric fell, and Claude reads the schema and certified definitions, queries the warehouse, and explains the drivers with a chart and saved query, then shows the routine scheduled to run automatically.
+
 Search
 
 New Mail

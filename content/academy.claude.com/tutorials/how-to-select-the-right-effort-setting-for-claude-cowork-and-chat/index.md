@@ -8,6 +8,8 @@ Understand how effort settings work in claude.ai and why adjusting effort on a f
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-gz9r5qio.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nuxa5e6m.png)
 
+Checklist: Lists five learning objectives opening the tutorial, previewing what effort controls, how it affects cost and usage, and how to calibrate it for different tasks.
+
 What you’ll learn
 
 - What effort controls and how it affects token usage
@@ -30,6 +32,8 @@ All of this work (the thinking, the tool use, the checking and revision) affects
 
 On [claude.ai(opens in new tab)](https://claude.ai/), in Chat and Cowork, your usage limit is measured in tokens, which are small units of text Claude processes. Everything Claude does (reading your prompt, processing files, thinking, writing responses) is measured that way and draws from your usage limit. Lower effort means Claude uses fewer tokens which results in less of your limit spent per task. Raising Claude's effort does the opposite. This is why matching effort to the task matters.
 
+Diagram: shows the Effort submenu in the claude.ai model menu, with its four levels and a header noting that higher effort means more thorough but slower, limit-hungry responses; the chosen level applies to the conversation.
+
 EffortHigh
 
 Higher effort means more thorough responses, but takes longer and uses your limits faster.
@@ -46,6 +50,8 @@ Where it lives in claude.ai: open the model menu in the composer, then **Effort*
 You have two levers for balancing what a task costs. Changing the selected Claude model changes both capability and cost. Switching from a model like Opus to Sonnet is cheaper per token, but less capable. Meanwhile, switching the effort setting changes cost while keeping the model's core capabilities intact: its advanced judgment, reasoning ability, and pattern recognition.
 
 Lowering effort on a frontier model doesn't remove these capabilities. It removes the model's time spent doing things like planning and exploring options more thoroughly or re-reading and verifying its work.
+
+Diagram: a chart plots capability against task cost. At the same lower cost, lowering a frontier model's effort keeps more capability than switching to an older model at maximum effort.
 
 Two levers for what a task costs
 
@@ -76,6 +82,8 @@ Claude comes set at a default effort, which is the recommended balance for every
 **How to find your sweet spot**: It can be useful to just try out different effort settings on the task you do regularly. Run it at default effort. Note how long it took, how complete the answer was, and how much you had to revise. Then, run it again at one level lower. Compare the results across three different task types.
 
 Consider choosing effort by the shape of the task:
+
+Reference table: four task shapes, each with a sample task, a starting effort level, and the reasoning, showing how to match effort to what a task actually demands.
 
 <table class="hidden w-full border-collapse sm:table"><thead><tr><th class="border-b-2 border-current pb-3 pt-1 text-left align-bottom font-bold w-[21%] pr-4" scope="col">Task shape</th><th class="border-b-2 border-current pb-3 pt-1 text-left align-bottom font-bold w-[31%] px-4" scope="col">Example</th><th class="border-b-2 border-current pb-3 pt-1 text-left align-bottom font-bold w-[12%] px-4" scope="col">Effort</th><th class="border-b-2 border-current pb-3 pt-1 text-left align-bottom font-bold pl-4" scope="col">Why</th></tr></thead><tbody><tr><th class="py-3.5 pr-4 text-left align-top font-semibold border-b border-[rgba(128,128,128,0.35)]" scope="row">Clear, well-specified</th><td class="px-4 py-3.5 align-top text-secondary border-b border-[rgba(128,128,128,0.35)]">Turn a transcript into three bullets; extract names from ten emails</td><td class="px-4 py-3.5 align-top font-semibold border-b border-[rgba(128,128,128,0.35)]">Lower</td><td class="py-3.5 pl-4 align-top text-secondary border-b border-[rgba(128,128,128,0.35)]">You know what the answer should say. You can verify it in one read. Extra thinking adds cost without improving the answer.</td></tr><tr><th class="py-3.5 pr-4 text-left align-top font-semibold border-b border-[rgba(128,128,128,0.35)]" scope="row">Pattern-finding, bounded</th><td class="px-4 py-3.5 align-top text-secondary border-b border-[rgba(128,128,128,0.35)]">Identify feedback themes across six reviews; find common complaints in interviews</td><td class="px-4 py-3.5 align-top font-semibold border-b border-[rgba(128,128,128,0.35)]">Default</td><td class="py-3.5 pl-4 align-top text-secondary border-b border-[rgba(128,128,128,0.35)]">Real thinking needed, but everything Claude needs is in the material. Default gives enough room without wasting your limit.</td></tr><tr><th class="py-3.5 pr-4 text-left align-top font-semibold border-b border-[rgba(128,128,128,0.35)]" scope="row">Open-ended, exploratory</th><td class="px-4 py-3.5 align-top text-secondary border-b border-[rgba(128,128,128,0.35)]">Figure out why three different customer types churned; plan a launch across five teams with unclear dependencies</td><td class="px-4 py-3.5 align-top font-semibold border-b border-[rgba(128,128,128,0.35)]">Higher</td><td class="py-3.5 pl-4 align-top text-secondary border-b border-[rgba(128,128,128,0.35)]">You don't know the answer yet. Claude needs room to explore angles and check assumptions.</td></tr><tr><th class="py-3.5 pr-4 text-left align-top font-semibold" scope="row">High-stakes, most strategic, or hard to verify</th><td class="px-4 py-3.5 align-top text-secondary">Reviewing important code before shipping; analysis you're publishing; legal decisions</td><td class="px-4 py-3.5 align-top font-semibold">Higher</td><td class="py-3.5 pl-4 align-top text-secondary">Error is costly. Higher effort means Claude checks more before you see it. You still verify, but start from a more rigorous place.</td></tr></tbody></table>
 

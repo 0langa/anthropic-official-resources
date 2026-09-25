@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-hd3p5r1z.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ci2tqnmp.png)
 
+Film: the user asks Claude to redline an incoming contract against a purchasing playbook, rating clauses green, yellow, or red and drafting tracked-change edits with rationale, then shares the skill with a legal team.
+
 Halyard-MSA-v3-counterparty.docx
 
 HomeInsertDrawDesignLayoutReferencesReviewView

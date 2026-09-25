@@ -12,6 +12,8 @@ With Claude Tag in the team's channel and the tracker connected, set up a **[rou
 
 ## Set up[](https://academy.claude.com/use-cases/weekly-status-posts-from-the-teams-channels-and-tracker)
 
+Checklist: a two-item setup guide for a weekly status routine, covering where to send the setup message and which tools to connect, a required tracker and optional GitHub, before Claude posts a weekly digest.
+
 
 
 **Ask in the right spot**
@@ -49,6 +51,8 @@ For help, ask your admin or visit our [troubleshooting docs(opens in new tab)](h
 ## What to ask Claude, and what it does[](https://academy.claude.com/use-cases/weekly-status-posts-from-the-teams-channels-and-tracker)
 
 Send this once in your team's channel. Every week after that, Claude posts a digest built from the channel's threads and the tickets and pull requests linked in them. Set the day, time zone and sections your team wants. You can add more sources later with another message, such as another channel or the week's merged pull requests.
+
+Film: a mocked channel shows setting up a standing routine with Claude Tag, then Claude's plan ticking through gathering threads and tracker tickets before posting a sourced weekly digest anyone can correct by replying.
 
 #eng-paymentsYReplay
 
@@ -106,6 +110,8 @@ Before you forward the post, open the ticket behind anything listed as still ope
 
 Anyone in the channel can reply under the post to correct it or to ask Claude to watch one item, and Claude includes that in the next digest ([reply in the thread to steer(opens in new tab)](https://claude.com/docs/claude-tag/concepts/how-it-works)). To learn more on effectively applying and managing agents like Claude Tag with your team, visit our [Introduction to Claude Tag(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-tag) course.
 
+Simulation: a single message to Claude in a channel or thread, sometimes with Claude's reply. It teaches that a standing routine can be adjusted, checked or stopped by describing the change in plain language.
+
 #eng-paymentsMY
 
 M
@@ -122,6 +128,8 @@ Added the alerting work to the Friday digest, and set a Thursday check to post h
 
 Anyone in the channel can change what a routine covers by describing the change, and Claude applies it from the next run ([manage standing work(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity)).
 
+Simulation: a single message to Claude in a channel or thread, sometimes with Claude's reply. It teaches that a standing routine can be adjusted, checked or stopped by describing the change in plain language.
+
 #eng-paymentsY
 
 Y
@@ -134,6 +142,8 @@ YouCopy
 
 Claude lists a channel's routines when asked, with the day and time it scheduled for each. Check those times to confirm the time zone.
 
+Simulation: a single message to Claude in a channel or thread, sometimes with Claude's reply. It teaches that a standing routine can be adjusted, checked or stopped by describing the change in plain language.
+
 #eng-paymentsY
 
 Y
@@ -145,6 +155,8 @@ YouCopy
 ### Stop the weekly digest[](https://academy.claude.com/use-cases/weekly-status-posts-from-the-teams-channels-and-tracker)
 
 Anyone in the channel can stop a routine by naming it, and one message sets it up again later.
+
+Simulation: a single message to Claude in a channel or thread, sometimes with Claude's reply. It teaches that a standing routine can be adjusted, checked or stopped by describing the change in plain language.
 
 #eng-paymentsY
 

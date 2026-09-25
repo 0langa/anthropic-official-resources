@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-nhxr907i.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ci4exa6p.png)
 
+Film: the user asks Claude to reconcile two intercompany ledgers, normalize currency, and match line items, pausing to confirm a materiality threshold before drafting balanced journal entries for review and scheduling recurring runs.
+
 ![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)subledger-EMEA-mar.xlsx
 
 HomeInsertDrawPage LayoutFormulasDataReviewView

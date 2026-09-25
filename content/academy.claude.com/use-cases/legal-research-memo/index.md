@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-finygjm8.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gwhtyq3v.png)
 
+Film: the user asks Claude to research a legal question and draft a cited memo. Claude searches a legal research service, checks with the user on searching the open web, then returns a memo with sourced citations and open issues flagged rather than guessed.
+
 Search
 
 New Mail

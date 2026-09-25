@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-drc4nbll.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kor1z3r3.png)
 
+Film: the user asks Claude to score competitor onboarding screenshots and their own flow against a shared usability rubric, resolving judgment calls by asking rather than guessing, then returns a scored teardown with cited evidence and patterns to adopt or avoid, schedulable to rerun automatically.
+
 Score competitor flows against your own
 
 You want to compare a competitor’s sign-up flow with your own, step by step.

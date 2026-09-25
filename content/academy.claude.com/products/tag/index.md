@@ -134,4 +134,4 @@ Use case·Operations·10 min](https://academy.claude.com/use-cases/meeting-prep-
 
 ## Browse it all
 
-[Use cases9 use cases](https://academy.claude.com/all)[Tutorials2 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Claude Tag docs claude.com (opens in new tab)](https://claude.com/docs/claude-tag/overview)[Introducing Claude Tag www.anthropic.com (opens in new tab)](https://www.anthropic.com/news/introducing-claude-tag)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases9 use cases](https://academy.claude.com/all)[Tutorials3 tutorials](https://academy.claude.com/all)[Courses1 course](https://academy.claude.com/all)[Claude Tag docs claude.com (opens in new tab)](https://claude.com/docs/claude-tag/overview)[Introducing Claude Tag www.anthropic.com (opens in new tab)](https://www.anthropic.com/news/introducing-claude-tag)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)

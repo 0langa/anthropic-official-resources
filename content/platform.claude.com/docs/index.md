@@ -18,7 +18,7 @@ import anthropic
 client = anthropic.Anthropic()
 
 message = client.messages.create(
-  model="claude-opus-5",
+  model="claude-opus-5-5",
   max_tokens=1024,
   messages=[{
     "role": "user",
@@ -147,11 +147,13 @@ For demanding reasoning and long-horizon agentic work
 
 ![](https://platform.claude.com/images/dashboard-discovery/cursor.svg)
 
-### [Opus 5](https://platform.claude.com/docs/en/models/opus-5/overview)
+### [Opus 5.5](https://platform.claude.com/docs/en/models/opus-5-5/overview)
+
+New
 
 Complex projectsAgentsCoding
 
-For complex agentic coding and enterprise work
+For long-running agentic coding and knowledge work
 
 ![](https://platform.claude.com/images/dashboard-discovery/bubble.svg)
 
@@ -216,7 +218,7 @@ import Anthropic from "@anthropic-ai/sdk";
 const client = new Anthropic();
 
 const msg = await client.messages.create({
-  model: "claude-opus-5",
+  model: "claude-opus-5-5",
   max_tokens: 1024,
   messages: [{
     role: "user",
@@ -240,7 +242,7 @@ client := anthropic.NewClient()
 msg, _ := client.Messages.New(
   context.TODO(),
   anthropic.MessageNewParams{
-    Model:     anthropic.ModelClaudeOpus5,
+    Model:     "claude-opus-5-5",
     MaxTokens: 1024,
     Messages: []anthropic.MessageParam{
       anthropic.NewUserMessage(
@@ -267,7 +269,7 @@ var client = AnthropicOkHttpClient
 
 var msg = client.messages().create(
   MessageCreateParams.builder()
-    .model("claude-opus-5")
+    .model("claude-opus-5-5")
     .maxTokens(1024)
     .addUserMessage("Hello, Claude")
     .build()
@@ -287,7 +289,7 @@ require "anthropic"
 client = Anthropic::Client.new
 
 msg = client.messages.create(
-  model: "claude-opus-5",
+  model: "claude-opus-5-5",
   max_tokens: 1024,
   messages: [{
     role: "user",
@@ -310,7 +312,7 @@ $client = new Client(
 );
 
 $message = $client->messages->create(
-  model: "claude-opus-5",
+  model: "claude-opus-5-5",
   maxTokens: 1024,
   messages: [['role' => 'user',
     'content' => 'Hello, Claude']],
@@ -332,7 +334,7 @@ var client = new AnthropicClient();
 
 var msg = await client.Messages
   .Create(new() {
-    Model = "claude-opus-5",
+    Model = "claude-opus-5-5",
     MaxTokens = 1024,
     Messages = [new() {
       Role = Role.User,
@@ -357,7 +359,7 @@ curl https://api.anthropic.com/v1/messages \
   -H "x-api-key: $ANTHROPIC_API_KEY" \
   -H "anthropic-version: 2023-06-01" \
   -d '{
-    "model": "claude-opus-5",
+    "model": "claude-opus-5-5",
     "max_tokens": 1024,
     "messages": [{
       "role": "user",
@@ -371,7 +373,7 @@ curl https://api.anthropic.com/v1/messages \
 
 ```
 ant messages create \
-  --model claude-opus-5 \
+  --model claude-opus-5-5 \
   --max-tokens 1024 \
   --message '{
     role: user,

@@ -58,6 +58,8 @@ A short list:
 
 Review the interactive below to get a sense for how to work safely with Cowork.
 
+Exercise: a mock Cowork setup screen lets the learner select elements of a task that a careful colleague would question before running it unattended, then reveals a safer rewrite to compare against the original.
+
 This Cowork task is about to run. **Five things about it would make a careful colleague pause.** Find them.
 
 Hazards found0 of 5

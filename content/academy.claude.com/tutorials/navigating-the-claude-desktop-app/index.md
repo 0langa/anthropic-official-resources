@@ -39,6 +39,8 @@ Things to ask:
 - *Summarize what's on my screen right now.*
 - *Help me word a reply to this message.*
 
+Diagram: three views show how to bring up Claude's quick entry window over any app on a Mac, by pressing Option twice, speaking after pressing Caps Lock, or selecting the Claude icon in the menu bar.
+
 TypeSpeakMenu bar
 
 option
@@ -107,6 +109,8 @@ Things to ask:
 - *Fill out this online form using the details in my folder.*
 - *Check whether this part is in stock on the supplier's site.*
 
+Illustration: the desktop app's built-in browser open beside a conversation, with Claude reading a statistics site. It shows that this browser is Claude's own, separate from yours, with its own tabs and history.
+
 Open FRED and add real GDP growth for the same quarters next to the revenue figures from the board decks in this folder.
 
 I’ll pull the quarterly series from FRED in the built-in browser, then add a GDP column to revenue-vs-macro.xlsx.
@@ -171,6 +175,8 @@ Things to record:
 - *Copy new leads from the form into the CRM the way I do it.*
 - *File each week's reports into the right folders by client.*
 
+Diagram: two still frames show recording a skill, starting from the plus menu under the message box, then the small recording bar that appears while Claude captures the task, with the choices Discard and Done.
+
 1
 
 Add files or photos
@@ -231,6 +237,8 @@ Working in code?
 If you write software, everything on this page applies to code work too, and the desktop app adds Claude Code, a visual coding workbench. See the [Claude Code desktop guide(opens in new tab)](https://code.claude.com/docs/en/desktop) to get started.
 
 ## Get started[](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)
+
+Exercise: choose where a real piece of your work is, such as files, a program, a website, or email, and what you need to do. You get an editable prompt for the desktop app and a matching setup checklist.
 
 Build a prompt for a real piece of your work. Fill the blanks for Fill the blanks forI'll fill these in myselfI'll fill these in myselfSalesMarketingRecruitingFinanceResearchProduct.
 

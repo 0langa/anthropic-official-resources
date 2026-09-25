@@ -12,6 +12,8 @@ With Claude Tag, connect the tracker to the project channel where your call reco
 
 ## Set up[](https://academy.claude.com/use-cases/meeting-notes-and-filed-tasks-from-a-call-transcript)
 
+Checklist: what to set up before Claude Tag turns call transcripts into notes and tickets: the project channel the recorder posts to, a call recorder and a tracker, both required, and Respond automatically turned on.
+
 
 
 **Ask in the right spot**
@@ -61,6 +63,8 @@ For help, ask your admin or visit our [troubleshooting docs(opens in new tab)](h
 Send this once in your project channel. From then on, each time the recorder posts a transcript, Claude reads it and replies in that post's thread. Ask Claude to file tickets only if its tracker connection in this channel can create them, and name the board if there is more than one.
 
 The recorder posted the transcript below the following Wednesday, and nobody tagged Claude:
+
+Film: a call-recorder post automatically tags Claude in a project channel, and Claude works through a visible plan before replying with decisions, owners, dates, and filed tickets. It shows how standing, proactive work triggers without anyone asking, cites its source, and produces correctable artifacts.
 
 #alder-rolloutCYReplay
 
@@ -139,6 +143,8 @@ Before anyone starts on a ticket, read the action items against the transcript, 
 
 Anyone in the thread can correct Claude with a plain reply, and Claude updates the ticket and the page to match ([reply in the thread to steer(opens in new tab)](https://claude.com/docs/claude-tag/concepts/how-it-works)). Sam, who was on the call, replies under the notes:
 
+Simulation: a single message to Claude after it turned a call into notes and tickets, sometimes with Claude's reply. It corrects an action item's owner, asks for a decision doc or another ticket, or limits Claude to replying when tagged.
+
 #alder-rolloutSY
 
 S
@@ -161,6 +167,8 @@ in Linear · the notes page updated to match
 
 Claude writes whichever document you name from the same thread, so when a call settled one question, ask for a decision doc instead of notes ([turn threads into docs(opens in new tab)](https://claude.com/docs/claude-tag/users/use-cases/create-artifacts)).
 
+Simulation: a single message to Claude after it turned a call into notes and tickets, sometimes with Claude's reply. It corrects an action item's owner, asks for a decision doc or another ticket, or limits Claude to replying when tagged.
+
 #alder-rolloutY
 
 Y
@@ -173,6 +181,8 @@ Turn this thread into a one-page decision doc: what we decided, the options we r
 
 When someone in the thread raises a new task and names an owner, ask Claude to file it. Claude posts the ticket link in the thread.
 
+Simulation: a single message to Claude after it turned a call into notes and tickets, sometimes with Claude's reply. It corrects an action item's owner, asks for a decision doc or another ticket, or limits Claude to replying when tagged.
+
 #alder-rolloutY
 
 Y
@@ -184,6 +194,8 @@ File this thread as a ticket, assign it to the owner we discussed above, and pos
 ### Have Claude reply only when tagged[](https://academy.claude.com/use-cases/meeting-notes-and-filed-tasks-from-a-call-transcript)
 
 With Respond automatically off, Claude replies only when a person tags it, and posts from the recorder are ignored until someone in the channel turns it back on ([quiet the whole channel(opens in new tab)](https://claude.com/docs/claude-tag/users/when-claude-responds)).
+
+Simulation: a single message to Claude after it turned a call into notes and tickets, sometimes with Claude's reply. It corrects an action item's owner, asks for a decision doc or another ticket, or limits Claude to replying when tagged.
 
 #alder-rolloutY
 

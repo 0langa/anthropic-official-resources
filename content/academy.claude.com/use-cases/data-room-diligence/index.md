@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-njjghfnk.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-422m6clz.png)
 
+Film: a self-playing walkthrough of Claude reviewing a connected data room for M&A diligence, categorizing documents, flagging material issues, and drafting a cited summary. It shows Claude pausing to check a judgment call with the user and scheduling the review to re-run automatically.
+
 **Project Silvern — Data Room · Data room**×
 
 +

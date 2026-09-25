@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-nuxe06ft.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lz8vk1yx.png)
 
+Film: the user asks Claude to compare a cloud billing export to trend, flag anomalies, and assign owners. Claude checks monitoring and code history, confirms one spike with the user, then returns a ranked table with owners and next steps, plus a chart, and schedules a weekly check for each new month's export.
+
 ![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)aws-cur-2026-04.csv
 
 HomeInsertDrawPage LayoutFormulasDataReviewView

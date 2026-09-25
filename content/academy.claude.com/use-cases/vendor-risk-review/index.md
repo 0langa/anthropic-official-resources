@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-d3gaacpk.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ctfjf1cz.png)
 
+Film: the user asks Claude to score a vendor's security documents and contract terms against a risk framework, producing a cited memo with a go/no-go call and owned mitigations, then shows sharing the skill across teams.
+
 Review a new vendor’s risk
 
 You need a go or no-go on a new vendor against your risk framework.

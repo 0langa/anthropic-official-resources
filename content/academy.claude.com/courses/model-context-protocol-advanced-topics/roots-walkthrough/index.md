@@ -8,6 +8,8 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fmodel-context-protocol-advanced-topics%2Froots-walkthrough)
 
+Walkthrough: a guided tour of a sample MCP project pairing expandable steps with a read-only code viewer that highlights relevant lines, showing how clients define accessible roots and how servers must enforce their own access authorization.
+
 ### Tutorial Steps
 
 Let's get a better sense of how to implement this feature by walking through a sample project.

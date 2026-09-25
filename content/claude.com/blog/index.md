@@ -307,6 +307,38 @@ Grid
 
 List
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22deea97e4a5b5e5739_8d339ae8ecedecc1409db8f5bbb99c958db56946-1000x1000.svg)
+
+Sep 24, 2026
+
+Claude Tag now supports personal connectors in channels
+
+Product announcements
+
+Claude Tag now supports personal connectors in channels
+
+September 24, 2026
+
+[Claude Tag now supports personal connectors in channels](https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels)Claude Tag now supports personal connectors in channels
+
+[Claude Tag now supports personal connectors in channels](https://claude.com/blog)Claude Tag now supports personal connectors in channels
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
+
+Sep 24, 2026
+
+Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+
+Claude Code
+
+Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+
+September 24, 2026
+
+[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+
+[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
 
 Sep 23, 2026
@@ -515,36 +547,6 @@ September 14, 2026
 
 [How healthcare organizations use Claude Tag](https://claude.com/blog)How healthcare organizations use Claude Tag
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224d39f9b8e905d1823_b68cbb43d7c8f56f0b14cc867e8d4d74445f78b0-1000x1000.svg)
-
-Sep 14, 2026
-
-Deploying AI from pilot to production
-
-Enterprise AI
-
-Deploying AI from pilot to production
-
-September 14, 2026
-
-[Deploying AI from pilot to production](https://claude.com/blog/deploying-ai-from-pilot-to-production)Deploying AI from pilot to production
-
-[Deploying AI from pilot to production](https://claude.com/blog)Deploying AI from pilot to production
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22252eca371ddd7020f_60d57c0d0bf031e140de678692f7c3ef2d885ce3-1000x1000.svg)
-
-Sep 10, 2026
-
-T. Rowe Price brings more of Claude to its investment process
-
-T. Rowe Price brings more of Claude to its investment process
-
-September 10, 2026
-
-[T. Rowe Price brings more of Claude to its investment process](https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process)T. Rowe Price brings more of Claude to its investment process
-
-[T. Rowe Price brings more of Claude to its investment process](https://claude.com/blog)T. Rowe Price brings more of Claude to its investment process
-
 [View more](https://claude.com/?b7eea976_page=2)
 
 1 / 17
@@ -554,6 +556,38 @@ Category
 Product
 
 Usecase
+
+### Claude Tag now supports personal connectors in channels
+
+Category
+
+Product announcements
+
+Product
+
+Usecase
+
+September 24, 2026
+
+[Claude Tag now supports personal connectors in channels](https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels)Claude Tag now supports personal connectors in channels
+
+[Claude Tag now supports personal connectors in channels](https://claude.com/blog)Claude Tag now supports personal connectors in channels
+
+### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+
+Category
+
+Claude Code
+
+Product
+
+Usecase
+
+September 24, 2026
+
+[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+
+[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
 ### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
@@ -762,36 +796,6 @@ September 14, 2026
 [How healthcare organizations use Claude Tag](https://claude.com/blog/how-healthcare-organizations-use-claude-tag)How healthcare organizations use Claude Tag
 
 [How healthcare organizations use Claude Tag](https://claude.com/blog)How healthcare organizations use Claude Tag
-
-### Deploying AI from pilot to production
-
-Category
-
-Enterprise AI
-
-Product
-
-Usecase
-
-September 14, 2026
-
-[Deploying AI from pilot to production](https://claude.com/blog/deploying-ai-from-pilot-to-production)Deploying AI from pilot to production
-
-[Deploying AI from pilot to production](https://claude.com/blog)Deploying AI from pilot to production
-
-### T. Rowe Price brings more of Claude to its investment process
-
-Category
-
-Product
-
-Usecase
-
-September 10, 2026
-
-[T. Rowe Price brings more of Claude to its investment process](https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process)T. Rowe Price brings more of Claude to its investment process
-
-[T. Rowe Price brings more of Claude to its investment process](https://claude.com/blog)T. Rowe Price brings more of Claude to its investment process
 
 [View more](https://claude.com/?d7430fcd_page=2)
 

@@ -2,7 +2,7 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "stylesheet",
-    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.6d3cc22e1.min.css"
+    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.7bbe6ec5a.min.css"
   },
   {
     "reason": "optional_media_widget_or_analytics",
@@ -13,21 +13,6 @@
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
     "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "document",
-    "url": "https://www.youtube.com/embed/wXC2u36w2Rc"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "document",
-    "url": "https://www.youtube.com/embed/xBV60h9_lbw"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "document",
-    "url": "https://www.youtube.com/embed/dcKXca3Bs2o"
   },
   {
     "reason": "optional_media_widget_or_analytics",
@@ -91,8 +76,23 @@
   },
   {
     "reason": "optional_media_widget_or_analytics",
+    "type": "document",
+    "url": "https://www.youtube.com/embed/wXC2u36w2Rc"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "document",
+    "url": "https://www.youtube.com/embed/xBV60h9_lbw"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "document",
+    "url": "https://www.youtube.com/embed/dcKXca3Bs2o"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
     "type": "stylesheet",
-    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.6d3cc22e1.min.css"
+    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.7bbe6ec5a.min.css"
   },
   {
     "reason": "optional_media_widget_or_analytics",
@@ -101,8 +101,13 @@
   },
   {
     "reason": "optional_media_widget_or_analytics",
-    "type": "stylesheet",
-    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.6a29b6f001701634e98537ca.25a3ea705.min.css"
+    "type": "script",
+    "url": "https://assets.claude.ai/sdk/antalytics/latest.umd.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://www.googletagmanager.com/gtm.js"
   },
   {
     "reason": "optional_media_widget_or_analytics",
@@ -118,15 +123,5 @@
     "reason": "optional_media_widget_or_analytics",
     "type": "document",
     "url": "https://www.youtube-nocookie.com/embed/dcKXca3Bs2o"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "script",
-    "url": "https://assets.claude.ai/sdk/antalytics/latest.umd.js"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "script",
-    "url": "https://www.googletagmanager.com/gtm.js"
   }
 ]

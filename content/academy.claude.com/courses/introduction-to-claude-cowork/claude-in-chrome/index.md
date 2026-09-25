@@ -55,6 +55,8 @@ Open the customer health dashboard in Chrome, pull every account showing yellow 
 
 Open in Cowork
 
+Film: an animated illustration plays on its own, showing Claude's cursor filtering and exporting data on a mock customer-health dashboard in Chrome, then handing the results off to Cowork to build a summary document.
+
 Cowork prompt
 
 “Pull yellow and red accounts from the customer-health dashboard for the last 30 days, then build a one-page summary with the top three at-risk accounts.”
@@ -184,3 +186,15 @@ Claude for Chrome brings the power of Sonnet 4.5, our state-of-the-art model for
 Once prompted, Claude gets to work to collect the right context. In this case, finding all the relevant emails and receipts you've requested. Claude uses what it learns and actively works with your spreadsheet, tracking down the missing numbers and updating your budget in real time. Finally, Claude makes it easy for you to share your plans with your partner by drafting an email for you. But don't worry, you're still in control of the final edits before you send that email.
 
 We took many steps to build this product with safety and security at its core. For example, you control what actions Claude can take through granular permissions. We've also implemented protection against prompt injection attacks and added restrictions around what websites Claude can use. And it always asks before taking sensitive actions like making purchases. Bring Claude to your browser today.
+
+
+## Video transcript
+
+# Claude in Chrome brings AI where you're already working
+
+Claude for Chrome brings the power of Sonnet 4.5, our state-of-the-art model for computer use, directly to your browser. In this example, Claude is helping with a home renovation. It will organize your renovation budget, which is currently spread across a planning doc and several contractor email exchanges.
+
+Once prompted, Claude gets to work to collect the right context. In this case, finding all the relevant emails and receipts you've requested. Claude uses what it learns and actively works with your spreadsheet, tracking down the missing numbers and updating your budget in real time. Finally, Claude makes it easy for you to share your plans with your partner by drafting an email for you. But don't worry, you're still in control of the final edits before you send that email.
+
+We took many steps to build this product with safety and security at its core. For example, you control what actions Claude can take through granular permissions. We've also implemented protection against prompt injection attacks and added restrictions around what websites Claude can use. And it always asks before taking sensitive actions like making purchases. Bring Claude to your browser today.
+

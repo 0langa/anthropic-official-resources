@@ -2,17 +2,17 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
+    "url": "https://www.youtube.com/iframe_api"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
     "url": "https://assets.claude.ai/sdk/antalytics/atm/anthropic_com/latest.umd.js"
   },
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
     "url": "https://assets.claude.ai/sdk/antalytics/latest.umd.js"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "script",
-    "url": "https://www.googletagmanager.com/gtm.js"
   },
   {
     "reason": "outside_scope",
@@ -22,6 +22,6 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
-    "url": "https://www.youtube.com/iframe_api"
+    "url": "https://www.googletagmanager.com/gtm.js"
   }
 ]

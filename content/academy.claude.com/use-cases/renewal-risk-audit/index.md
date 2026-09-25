@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-om42hzcu.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mj4bkeih.png)
 
+Film: the user asks Claude to score renewal accounts red, yellow, or green using CRM, usage, sentiment, and ticket data, then publishes a live, filterable risk board for leadership, which can be scheduled to refresh weekly.
+
 Find the renewals at risk
 
 You need one current view of which renewals are at risk this quarter.

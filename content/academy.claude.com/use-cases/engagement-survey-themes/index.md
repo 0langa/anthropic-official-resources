@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-h6intrnq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ijzy6x76.png)
 
+Film: the user asks Claude to theme open-text survey comments by team and tenure, ranking by people raised rather than comment count, and separating loud-minority views from broad signal. Claude pauses to ask a judgment call, then delivers an anonymized brief with quotes and a 30-day plan per theme.
+
 ![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)engagement-q2-export.csv
 
 HomeInsertDrawPage LayoutFormulasDataReviewView
