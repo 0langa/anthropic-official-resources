@@ -496,3 +496,25 @@ Write a design spec for your clinic app — user flows, information hierarchy, i
 You’ve looked at your Clinic Wait Time Checker through both a code lens and a UX lens. In the next lesson, you’ll tackle the hardest question: what does it mean to actually stand behind what you build?
 
 Was this helpful?
+
+
+## Video transcript
+
+# Discernment for user experience
+
+As implementation gets faster, design and user experience become even more important. You don't need to become a designer, but you do need to recognize good experience, spec for it, and iterate towards it. A few principles here to guide you.
+
+One is clarity. If users can't tell what your product does, or how to get started, they're gone. Clarity means unifying form and function while respecting people's mental models. Users arrive with expectations, shaped by other software and by the world. Keep it simple and map your interface to concepts they recognize. A patient checking wait times expects it to work like every other status checker.
+
+Two is hierarchy and progressive disclosure. Make it easy for people to scan and find the information that is needed. Don't overwhelm them. Use text size and weight to create good headers. Minify the amount of unneeded elements, and allow people to find the information they need as they need it instead of cramming it all into one space.
+
+Three, accessibility is a baseline, not a nice to have. Screen reader compatibility, color contrast, keyboard navigation, you should ask the AI for these explicitly every single time and build test cases to validate.
+
+Four, feedback and responsiveness. When the user does something, the interface should acknowledge it, not lead the user to question if something might be broken. Loading states, confirmations, and error messages that explain what to do next, all in simple human language, help build trust.
+
+The gap between making it look good and a good experience is enormous. Make it look good is a wish. Put the wait time in the largest text on the page, use a single color to indicate status, and make the refresh time visible so the patient knows how stale the number is, is an actionable, strong Description.
+
+This is Description and Discernment working together. You describe the experience precisely, AI builds it. You evaluate what comes back against what you intended. You describe the gap, repeat.
+
+One thing you'll notice in the exercises, the critique that you'd give a colleague and the description AI needs are not the same document. This feels cluttered is a fair critique, but it's useless instruction for AI. Part of design literacy is learning how to translate your own taste into something that is executable. Let's put it to work.
+

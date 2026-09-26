@@ -96,3 +96,41 @@ The course also does not promise that the answers are simple. They are not. Diff
 The work of being a creator in the age of AI is real work. The framework does not eliminate that work. It helps you do a deep analysis of your values and practice. Where the analysis takes you can offer a thoughtful, strong path to follow. And as new technologies emerge and the chaotic creative world changes over and over, it gives you tools to rely on as your practice changes to meet the new reality.
 
 Thank you for joining us, and now let's begin.
+
+
+## Video transcript
+
+# Welcome to AI Fluency for Creative Work
+
+Hi, I'm Rick Dakan. I teach creative technology at Ringling College of Art and Design. And I'm one of the authors of this course, AI Fluency for creative work.
+
+This course is for people who create things. Illustrators, writers, designers, filmmakers, game developers, musicians, performers. If your work involves a creative practice, and you are trying to figure out what generative AI means for your craft, your livelihood, and your sense of self as a creator, this course is for you.
+
+Creators are navigating a chaotic new world. The line between what counts as creative work and what doesn't is constantly changing. Many systems are able to generate text, logos, marketing campaigns, songs, videos, and even AI systems that don't can generate detailed graphics or animations just through code. The pace of change is fast. Discourse is loud and often conflicted. This course is here to help you make sense in all the chaos and chart your path for how AI might fit in to your creative practice.
+
+This course's central stance is to begin without AI. From there, the framework helps you decide whether and how to opt in. This is a deliberate choice. Much of the public conversation about AI presents a binary. You either embrace it or you reject it. This course assumes a different default. It provides a framework to analyze whether AI serves your goals, and should you use AI even as models change. Arriving at 'no AI' through rigorous analysis is an act of AI Fluency. Arriving at AI integration is also an act of AI Fluency. This course is designed to help you decide which path makes sense for you and your creative work.
+
+I want to name some patterns that show up repeatedly in conversations with creators about AI. These are the misconceptions this course is designed to help you work through.
+
+Authenticity anxiety: "If AI touched it, is it still mine?" This question has weight. It deserves a careful answer rather than a dismissive one. We return to this in the section on human connection where authenticity matters most.
+
+Dependence: "If I lean on AI, will I lose skills I spent years building?" This is a real risk and the course takes it seriously. We return to this when we discuss the long-term diligence that's required for using AI well.
+
+Settling for good enough. AI is often good at producing output that's adequate and in line with the median. It's much harder for AI to produce output that's unique, distinct, or excellent by your standards. Without clearly articulated standards of your own, good enough AI output becomes the path of least resistance, and the work creeps toward the generic. In some cases, you can lose the distinct voice of your work. We'll discuss this when we show you how to discern AI's outputs well.
+
+Slop fatigue and guilt by association: "I don't want to be lumped in with the work that's flooding the feeds." The distinction between work made with AI and work made well with AI, as one tool among many, is worth articulating. The whole course gives you the vocabulary and mindsets to do so.
+
+What I do is worthless: "If AI can make images, what I do has no value." The role of a creative is changing, not disappearing. What is true is that your judgment matters more than ever. The flood of generated content makes real craft with intent behind it rarer and more legible.
+
+These concerns are real. They're not problems to be argued out of. The framework gives you tools to think through each of them.
+
+This course will give you analytical tools for thinking about AI use in your creative practice, help you build standards for what excellence, adequacy, and failure look like in your work, help you produce a personal AI use policy that reflects your actual practice and values. This course won't teach specific AI tools or interfaces. It won't teach prompting techniques, and it won't push you toward AI use or away from it. And it won't promise that this is settled territory.
+
+A note on that prompting and tools point. Other Anthropic resources cover prompting techniques well, and we will point you to them. The work of this course is upstream of prompting. By the time you are writing a prompt, the important decisions have already been made. What you are making, what your standards are, whether AI fits the task at all. This course is about those decisions.
+
+The course also does not promise that the answers are simple. They are not. Different creators in different fields with different audiences will land in different places. Two illustrators with similar work and similar audiences may legitimately arrive at different decisions about using AI. The framework gives you the structure to make defensible decisions. There is not a single right answer.
+
+The work of being a creator in the age of AI is real work. The framework does not eliminate that work. It helps you do a deep analysis of your values and practice. Where the analysis takes you can offer a thoughtful, strong path to follow. And as new technologies emerge and the chaotic creative world changes over and over, it gives you tools to rely on as your practice changes to meet the new reality.
+
+Thank you for joining us, and now let's begin.
+

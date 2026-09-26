@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-kb8jxxpj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lt8ltc3p.png)
 
+Film: the user asks Claude to rate a customer account's health using CRM, support tickets, usage data, NPS, and the success plan. Claude checks with the user before calling it, then produces a summary with signals against goals and two tied actions, schedulable weekly.
+
 Views+ Add
 
 Search tickets

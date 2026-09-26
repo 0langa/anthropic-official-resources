@@ -19,6 +19,13 @@ in their place. The boundary is pinned on the walk's first page and
 honored for 24 hours: a cursor older than that is rejected with an
 explicit 400; restart the walk to read under the current boundary.
 
+On a very large session, some pages are too large to read and return a
+400; retrying does not help. If the request used `order=desc`, read the
+session oldest first from its first page instead (omit `order` and
+`page`, then follow `next_page`). Rarely, an oldest-first page returns
+this 400 too; contact Anthropic support and quote the `request-id`
+response header.
+
 ### Path parameters
 
 - `local_session_id: string`
@@ -29,11 +36,11 @@ explicit 400; restart the walk to read under the current boundary.
 
   Maximum results (default: 100, max: 1000)
 
-  default: 100, maximum: 1000, minimum: 1
+  default: 100, minimum: 1, maximum: 1000
 
 - `order: optional "asc" or "desc"`
 
-  Sort direction. `asc` (oldest-first, default) or `desc`.
+  Sort direction. `asc` (oldest-first, default) or `desc`. On very large sessions some pages are too large to read and return a 400, far more often with `desc`; read those sessions with `asc`, starting again from the first page.
 
   default: asc
 
@@ -49,13 +56,13 @@ explicit 400; restart the walk to read under the current boundary.
 
   Truncate each text item inside a tool result to at most this many bytes (cut on a code-point boundary). Pass `-1` to request the server maximum (approximately 1 MiB); larger values are clamped to it. `0` is not a valid value.
 
-  default: 10000, maximum: 2147483647, minimum: -1
+  default: 10000, minimum: -1, maximum: 2147483647
 
 - `tool_use_input_max_bytes: optional number`
 
   Truncate each tool-use input to at most this many bytes (cut on a code-point boundary so the result is valid UTF-8). Pass `-1` to request the server maximum (approximately 1 MiB); larger values are clamped to it. `0` is not a valid value.
 
-  default: 10000, maximum: 2147483647, minimum: -1
+  default: 10000, minimum: -1, maximum: 2147483647
 
 ### Headers
 

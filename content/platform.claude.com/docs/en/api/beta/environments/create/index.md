@@ -17,7 +17,7 @@ Create a new environment with the specified configuration.
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 43 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 45 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -111,6 +111,10 @@ Create a new environment with the specified configuration.
 
     - `"compact-2026-09-04"`
 
+    - `"inline-tools-2026-09-15"`
+
+    - `"mcp-client-2026-09-15"`
+
 - `"anthropic-workspace-id": optional string`
 
   Optional header to select the Workspace for this request. The value is a Workspace ID (for example, `wrkspc_011CZkZaBF1tNoB5wlCeusgy`).
@@ -123,7 +127,7 @@ Create a new environment with the specified configuration.
 
   Human-readable name for the environment
 
-  maxLength: 256, minLength: 1
+  minLength: 1, maxLength: 256
 
 - `config: optional BetaCloudConfigParams or BetaSelfHostedConfigParams or null`
 
@@ -177,11 +181,7 @@ Create a new environment with the specified configuration.
 
     - `packages: optional BetaPackagesParams or null`
 
-      Specify packages (and optionally their versions) available in this environment.
-
-      When versioning, use the version semantics relevant for the package manager, e.g. for `pip` use `package==1.0.0`. You are responsible for validating the package and version exist. Unversioned installs the latest.
-
-      Under `limited` networking, requires `networking.allow_package_managers` to be `true`.
+      Package manager configuration. Under `limited` networking, requires `networking.allow_package_managers` to be `true`. Omit on update to preserve the existing value.
 
       - `type: optional "packages"`
 

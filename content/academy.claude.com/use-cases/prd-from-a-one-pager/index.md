@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-fxf6oslq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lntba6wn.png)
 
+Film: the user asks Claude to turn a one-page problem statement into a full PRD using an org template, past PRD, and logged customer requests. Claude interviews the user on judgment calls, then delivers a structured PRD with assumptions flagged for design review.
+
 Write a PRD from a problem statement
 
 You have a one-page problem statement and need a full PRD.

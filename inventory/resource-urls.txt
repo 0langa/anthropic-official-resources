@@ -883,6 +883,7 @@ https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government
 https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders
 https://claude.com/blog/bringing-mcp-2026-07-28-to-claude
 https://claude.com/blog/build-artifacts
+https://claude.com/blog/build-plugins-for-claude
 https://claude.com/blog/build-responsive-web-layouts
 https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp
 https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work
@@ -4079,6 +4080,7 @@ https://www.anthropic.com/research/trustworthy-agents
 https://www.anthropic.com/research/values-wild
 https://www.anthropic.com/research/vibe-physics
 https://www.anthropic.com/research/visible-extended-thinking
+https://www.anthropic.com/research/yes-claude-can-do-nine-loops
 https://www.anthropic.com/research/zero-days
 https://www.anthropic.com/resources
 https://www.anthropic.com/system-cards

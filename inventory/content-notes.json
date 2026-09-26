@@ -6578,6 +6578,9 @@
   "https://support.claude.com/en/articles/17007452-what-is-a-limit-reset": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/17153992": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them": [
     "Native source; upstream MDX components retained."
   ],
@@ -6875,12 +6878,6 @@
   "https://support.claude.com/en/articles/9450526-how-can-i-export-my-claude-data": [
     "Native source; upstream MDX components retained."
   ],
-  "https://support.claude.com/en/articles/9487310": [
-    "Native source; upstream MDX components retained."
-  ],
-  "https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them": [
-    "Native source; upstream MDX components retained."
-  ],
   "https://support.claude.com/en/articles/9517075": [
     "Native source; upstream MDX components retained."
   ],
@@ -6998,6 +6995,7 @@
   "https://www.anthropic.com/engineering/harness-design-long-running-apps": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
     "Could not read tab 'Sprite editor': TimeoutError",
+    "Could not read tab 'AI game design': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/2028-ai-leadership": [
@@ -7013,22 +7011,12 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/anthropic-interviewer": [
-    "Could not read tab 'Creatives': TimeoutError",
-    "Could not read tab 'Scientists': TimeoutError",
     "Could not read tab 'Computer & Math': TimeoutError",
-    "Could not read tab 'Art, Design, & Media': TimeoutError",
     "Could not read tab 'Business & Financial': TimeoutError",
-    "Could not read tab 'Office & Admin': TimeoutError",
     "Could not read tab 'Sales': TimeoutError",
-    "Could not read tab 'Visual artists': TimeoutError",
-    "Could not read tab 'Craftspeople': TimeoutError",
-    "Could not read tab 'Designers': TimeoutError",
     "Could not read tab 'Filmmakers': TimeoutError",
-    "Could not read tab 'Game developers': TimeoutError",
     "Could not read tab 'Physicists': TimeoutError",
-    "Could not read tab 'Chemical engineers': TimeoutError",
     "Could not read tab 'Data scientists': TimeoutError",
-    "Could not read tab 'Mechanical engineers': TimeoutError",
     "Could not read tab 'Astronomers': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
@@ -7052,9 +7040,6 @@
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/news/claude-fable-5-mythos-5": [
-    "Could not read tab 'Factorio': TimeoutError",
-    "Could not read tab 'VibeCAD': TimeoutError",
-    "Could not read tab 'Fluid with Classical EDM': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-for-chrome": [
@@ -7064,26 +7049,18 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-opus-4-6": [
-    "Could not read tab 'Coding': TimeoutError",
-    "Could not read tab 'Long-term coherence': TimeoutError",
-    "Could not read tab 'Life sciences': TimeoutError",
+    "Could not read tab 'Long-context reasoning': TimeoutError",
+    "Could not read tab 'Multilingual coding': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-opus-4-7": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-opus-5": [
-    "Could not read tab 'CursorBench': TimeoutError",
-    "Could not read tab 'AA Coding Agent Index': TimeoutError",
-    "Could not read tab 'GDPval-AA v2': TimeoutError",
     "Could not read tab 'OSWorld 2.0': TimeoutError",
-    "Could not read tab 'HLE': TimeoutError",
-    "Could not read tab 'AutomationBench': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-sonnet-4-5": [
-    "Could not read tab 'Medicine': TimeoutError",
-    "Could not read tab 'STEM': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-sonnet-5": [
@@ -7108,7 +7085,6 @@
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/news/healthcare-life-sciences": [
-    "Could not read tab 'Key life sciences tasks': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/how-ai-is-transforming-work-at-anthropic": [
@@ -7165,10 +7141,6 @@
   ],
   "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench": [
     "Could not read tab 'Example 2': TimeoutError",
-    "Could not read tab 'Example 2': TimeoutError",
-    "Could not read tab 'Example 2': TimeoutError",
-    "Could not read tab 'Example 3': TimeoutError",
-    "Could not read tab 'Example 2': TimeoutError",
     "Could not read tab 'Example 3': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
@@ -7182,21 +7154,11 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/anthropic-interviewer": [
-    "Could not read tab 'Creatives': TimeoutError",
     "Could not read tab 'Scientists': TimeoutError",
-    "Could not read tab 'Computer & Math': TimeoutError",
-    "Could not read tab 'Art, Design, & Media': TimeoutError",
-    "Could not read tab 'Business & Financial': TimeoutError",
     "Could not read tab 'Office & Admin': TimeoutError",
-    "Could not read tab 'Sales': TimeoutError",
-    "Could not read tab 'Visual artists': TimeoutError",
-    "Could not read tab 'Craftspeople': TimeoutError",
     "Could not read tab 'Designers': TimeoutError",
     "Could not read tab 'Filmmakers': TimeoutError",
-    "Could not read tab 'Game developers': TimeoutError",
-    "Could not read tab 'Chemical engineers': TimeoutError",
     "Could not read tab 'Data scientists': TimeoutError",
-    "Could not read tab 'Mechanical engineers': TimeoutError",
     "Could not read tab 'Astronomers': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
@@ -7208,12 +7170,11 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html"
   ],
   "https://www.anthropic.com/research/claude-fable-5-mythos-5": [
-    "Could not read tab 'Factorio': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-opus-5": [
     "Could not read tab 'AA Coding Agent Index': TimeoutError",
-    "Could not read tab 'GDPval-AA v2': TimeoutError",
+    "Could not read tab 'OSWorld 2.0': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-personal-guidance": [
@@ -7229,10 +7190,6 @@
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/research/claude-values-models-languages": [
-    "Could not read tab '': TimeoutError",
-    "Could not read tab '': TimeoutError",
-    "Could not read tab '': TimeoutError",
-    "Could not read tab '': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/cyber-toolkits-update": [

@@ -96,3 +96,31 @@ When you next sit down with AI, think first, what kind of thinking partner do yo
 We call this third concept performance description, the ability to define the behavioral aspects of an AI interaction.
 
 You should now have a better sense of how product description, process description, and performance description combine to form the description competency. When you develop your capacity for description, you transform AI from generic assistance into finely tuned thinking partners that can truly meet your needs.
+
+
+## Video transcript
+
+# A closer look at Description
+
+In this video, we'll dig deeper into the AI fluency competency of description. AI fluency means working with an AI effectively, efficiently, ethically, and safely. Description is about communicating with AI, which is the core of most human-AI interaction.
+
+Description goes far beyond just writing clever prompts. It's about communicating with the AI to explain tasks, ask questions, provide context, and otherwise guide the interaction. It's about being able to steer a conversation that is going wrong. It's about guiding an AI's thought process or logical reasoning. And it's about building a kind of thinking environment where both you and the AI can each do your best work. Think of it as building a bridge between your intentions and the AI's capabilities.
+
+The quality of AI outputs often depend on how clearly you describe what you want. It's like the difference between asking someone to make dinner versus providing a detailed recipe with ingredients and cooking instructions. AI can't read your mind. Instead of assuming the AI knows what you're looking for, you need to explain every relevant detail. What is the context for this work? What exactly are you looking for the AI to do? What format should the output take? Who is the audience and what style is appropriate? Don't make AI guess what you're thinking. Set explicit requirements and give the AI the information it needs to deliver what you're actually looking for.
+
+We call this first concept product description, the ability to clearly define what you want the AI to create or provide.
+
+Sometimes specifying how an AI should tackle a job is as or even more important than specifying the end goal. Just as you might prefer that a colleague tackle a problem using your specific method, you can guide how an AI works through your request. You can and should give the AI helpful guidance to help it accomplish your desired goal. There are different ways to approach this. You might provide general guidance like a manual, step-by-step instructions like a cookbook, or even a demonstration through examples. Here's how I do it.
+
+Think about it this way. The AI already has extensive training, but you're providing additional context specific to your unique situation. Are there specific data you want the AI to draw on? Are there specific issues it should be addressing or in a particular order? Is there a particular style of analysis you need, or maybe a specific workflow or technique you want it to use? Taking time to explain these elements makes a tremendous difference.
+
+We call this second concept process description, the ability to guide how the AI assistant approaches your request.
+
+If you take one thing from this course, it should be this. AI tools are not databases or vending machines. They are interactive systems that can behave differently in different contexts, much like people might. You need to explain how you want the AI to behave to get the best results.
+
+When you next sit down with AI, think first, what kind of thinking partner do you need right now? Are you narrowing down towards a specific answer or trying to explore multiple possibilities? Do you want the AI to challenge your assumptions or simply follow your lead? To provide extensive detail or keep things concise? To explain why it's answering in a certain way or just give you the answer?
+
+We call this third concept performance description, the ability to define the behavioral aspects of an AI interaction.
+
+You should now have a better sense of how product description, process description, and performance description combine to form the description competency. When you develop your capacity for description, you transform AI from generic assistance into finely tuned thinking partners that can truly meet your needs.
+

@@ -1,15 +1,15 @@
 {
-  "actionable_missing_pages": 4,
+  "actionable_missing_pages": 1,
   "actionable_population_complete": false,
-  "archived_pages": 4029,
+  "archived_pages": 4033,
   "by_host": {
     "academy.claude.com": {
       "archived_pages": 848,
       "discovered_pages": 852
     },
     "claude.com": {
-      "archived_pages": 269,
-      "discovered_pages": 281
+      "archived_pages": 271,
+      "discovered_pages": 282
     },
     "code.claude.com": {
       "archived_pages": 237,
@@ -20,15 +20,15 @@
       "discovered_pages": 1461
     },
     "support.claude.com": {
-      "archived_pages": 684,
+      "archived_pages": 685,
       "discovered_pages": 718
     },
     "www.anthropic.com": {
-      "archived_pages": 558,
-      "discovered_pages": 569
+      "archived_pages": 559,
+      "discovered_pages": 570
     }
   },
-  "discovered_pages": 4120,
+  "discovered_pages": 4122,
   "exact_website_replica": false,
   "limitations": [
     "Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.",
@@ -92,8 +92,10 @@
     "https://claude.com/blog/seeing-like-an-agent": "Request or redirect outside configured hosts",
     "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models": "Request or redirect outside configured hosts",
     "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html": "Request or redirect outside configured hosts",
+    "https://claude.com/blog/what-a-task-costs-on-opus-5-5": "Request or redirect outside configured hosts",
     "https://claude.com/resources": "Request or redirect outside configured hosts",
     "https://claude.com/resources/tutorials/using-research-and-google-workspace": "HTTP 404: https://academy.claude.com/tutorials/using-research-and-google-workspace",
+    "https://claude.com/resources/use-cases/category/nonprofits": "HTTP 404: https://academy.claude.com/use-cases/category/nonprofits",
     "https://code.claude.com/docs/en/examples": "HTTP 404: https://code.claude.com/docs/en/examples",
     "https://code.claude.com/docs/en/reference": "HTTP 404: https://code.claude.com/docs/en/reference",
     "https://platform.claude.com/cookbook/URL": "HTTP 404: https://platform.claude.com/cookbook/URL",
@@ -127,6 +129,7 @@
     "https://platform.claude.com/docs/videos/3": "HTTP 404: https://platform.claude.com/docs/videos/3",
     "https://platform.claude.com/docs/videos/a": "HTTP 404: https://platform.claude.com/docs/videos/a",
     "https://platform.claude.com/llms-full.txt": "Platform export marker/count mismatch",
+    "https://support.claude.com/cdn-cgi/l/email-protection": "HTTP 404: https://support.claude.com/cdn-cgi/l/email-protection",
     "https://support.claude.com/en/articles": "HTTP 404: https://support.claude.com/en/articles",
     "https://support.claude.com/en/articles/10389539-using-the-google-docs-integration": "HTTP 404: https://academy.claude.com/tutorials/using-the-google-docs-integration",
     "https://support.claude.com/en/articles/11049762-choose-a-claude-plan": "HTTP 404: https://support.claude.com/en/articles/11049762-choose-a-claude-plan",
@@ -168,21 +171,21 @@
     "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/engineering/building-c-compiler": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/engineering/building-effective-mcp-servers": "HTTP 404: https://www.anthropic.com/engineering/building-effective-mcp-servers",
-    "https://www.anthropic.com/engineering/harness-design-long-running-apps": "Could not read tab 'Sprite editor': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/engineering/harness-design-long-running-apps": "Could not read tab 'Sprite editor': TimeoutError; Could not read tab 'AI game design': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/engineering/prompt-engineering-overview": "HTTP 404: https://www.anthropic.com/engineering/prompt-engineering-overview",
     "https://www.anthropic.com/news/2028-ai-leadership": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/anthropic-economic-index-september-2025-report": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
-    "https://www.anthropic.com/news/anthropic-interviewer": "Could not read tab 'Creatives': TimeoutError; Could not read tab 'Scientists': TimeoutError; Could not read tab 'Computer & Math': TimeoutError; Could not read tab 'Art, Design, & Media': TimeoutError; Could not read tab 'Business & Financial': TimeoutError; Could not read tab 'Office & Admin': TimeoutError; Could not read tab 'Sales': TimeoutError; Could not read tab 'Visual artists': TimeoutError; Could not read tab 'Craftspeople': TimeoutError; Could not read tab 'Designers': TimeoutError; Could not read tab 'Filmmakers': TimeoutError; Could not read tab 'Game developers': TimeoutError; Could not read tab 'Physicists': TimeoutError; Could not read tab 'Chemical engineers': TimeoutError; Could not read tab 'Data scientists': TimeoutError; Could not read tab 'Mechanical engineers': TimeoutError; Could not read tab 'Astronomers': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/news/anthropic-interviewer": "Could not read tab 'Computer & Math': TimeoutError; Could not read tab 'Business & Financial': TimeoutError; Could not read tab 'Sales': TimeoutError; Could not read tab 'Filmmakers': TimeoutError; Could not read tab 'Physicists': TimeoutError; Could not read tab 'Data scientists': TimeoutError; Could not read tab 'Astronomers': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/anthropic-public-record": "Could not read tab 'Integrated users': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
-    "https://www.anthropic.com/news/claude-fable-5-mythos-5": "Could not read tab 'Factorio': TimeoutError; Could not read tab 'VibeCAD': TimeoutError; Could not read tab 'Fluid with Classical EDM': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/news/claude-fable-5-mythos-5": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/claude-opus-4-5": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
-    "https://www.anthropic.com/news/claude-opus-4-6": "Could not read tab 'Coding': TimeoutError; Could not read tab 'Long-term coherence': TimeoutError; Could not read tab 'Life sciences': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/news/claude-opus-4-6": "Could not read tab 'Long-context reasoning': TimeoutError; Could not read tab 'Multilingual coding': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/claude-opus-4-7": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
-    "https://www.anthropic.com/news/claude-opus-5": "Could not read tab 'CursorBench': TimeoutError; Could not read tab 'AA Coding Agent Index': TimeoutError; Could not read tab 'GDPval-AA v2': TimeoutError; Could not read tab 'OSWorld 2.0': TimeoutError; Could not read tab 'HLE': TimeoutError; Could not read tab 'AutomationBench': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
-    "https://www.anthropic.com/news/claude-sonnet-4-5": "Could not read tab 'Medicine': TimeoutError; Could not read tab 'STEM': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/news/claude-opus-5": "Could not read tab 'OSWorld 2.0': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/news/claude-sonnet-4-5": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/claude-sonnet-5": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/claude-text-watermark": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
-    "https://www.anthropic.com/news/healthcare-life-sciences": "Could not read tab 'Key life sciences tasks': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/news/healthcare-life-sciences": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/how-ai-is-transforming-work-at-anthropic": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/improving-alignment-security-efforts": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/max-plan": "HTTP 404: https://claude.com/blog/max-plan",
@@ -192,20 +195,20 @@
     "https://www.anthropic.com/research/2": "HTTP 404: https://www.anthropic.com/research/2",
     "https://www.anthropic.com/research/2028-ai-leadership": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/AI-assistance-coding-skills": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
-    "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench": "Could not read tab 'Example 2': TimeoutError; Could not read tab 'Example 2': TimeoutError; Could not read tab 'Example 2': TimeoutError; Could not read tab 'Example 3': TimeoutError; Could not read tab 'Example 2': TimeoutError; Could not read tab 'Example 3': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench": "Could not read tab 'Example 2': TimeoutError; Could not read tab 'Example 3': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
-    "https://www.anthropic.com/research/anthropic-interviewer": "Could not read tab 'Creatives': TimeoutError; Could not read tab 'Scientists': TimeoutError; Could not read tab 'Computer & Math': TimeoutError; Could not read tab 'Art, Design, & Media': TimeoutError; Could not read tab 'Business & Financial': TimeoutError; Could not read tab 'Office & Admin': TimeoutError; Could not read tab 'Sales': TimeoutError; Could not read tab 'Visual artists': TimeoutError; Could not read tab 'Craftspeople': TimeoutError; Could not read tab 'Designers': TimeoutError; Could not read tab 'Filmmakers': TimeoutError; Could not read tab 'Game developers': TimeoutError; Could not read tab 'Chemical engineers': TimeoutError; Could not read tab 'Data scientists': TimeoutError; Could not read tab 'Mechanical engineers': TimeoutError; Could not read tab 'Astronomers': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/research/anthropic-interviewer": "Could not read tab 'Scientists': TimeoutError; Could not read tab 'Office & Admin': TimeoutError; Could not read tab 'Designers': TimeoutError; Could not read tab 'Filmmakers': TimeoutError; Could not read tab 'Data scientists': TimeoutError; Could not read tab 'Astronomers': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/anthropic.com/research/anthropic-economic-index-january-2026-report": "HTTP 404: https://www.anthropic.com/research/anthropic.com/research/anthropic-economic-index-january-2026-report",
     "https://www.anthropic.com/research/assistant-axis": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/attack-navigator": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html",
-    "https://www.anthropic.com/research/claude-fable-5-mythos-5": "Could not read tab 'Factorio': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
-    "https://www.anthropic.com/research/claude-opus-5": "Could not read tab 'AA Coding Agent Index': TimeoutError; Could not read tab 'GDPval-AA v2': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/research/claude-fable-5-mythos-5": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/research/claude-opus-5": "Could not read tab 'AA Coding Agent Index': TimeoutError; Could not read tab 'OSWorld 2.0': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/claude-personal-guidance": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/claude-plays-robotics": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/claude-sonnet-5": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
-    "https://www.anthropic.com/research/claude-values-models-languages": "Could not read tab '': TimeoutError; Could not read tab '': TimeoutError; Could not read tab '': TimeoutError; Could not read tab '': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/research/claude-values-models-languages": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/cqz@anthropic.com": "HTTP 404: https://www.anthropic.com/research/cqz@anthropic.com",
     "https://www.anthropic.com/research/economic-index-june-2026-report": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/economic-index-march-2026-report": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
@@ -221,14 +224,14 @@
     "https://www.anthropic.com/transparency/voluntary-commitments": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/webinars": "HTTP 404: https://www.anthropic.com/webinars"
   },
-  "missing_pages": 91,
+  "missing_pages": 89,
   "page_inventory_complete": false,
-  "pages_with_content_notes": 2441,
+  "pages_with_content_notes": 2440,
   "retained_partial_pages": 84,
-  "terminal_pages": 87,
+  "terminal_pages": 88,
   "terminal_statuses": {
     "blocked": 3,
-    "gone": 58,
+    "gone": 59,
     "out_of_scope": 26
   }
 }

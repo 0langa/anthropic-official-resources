@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-f5u6vtsc.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-0bz1039p.png)
 
+Film: the user asks Cowork to turn a webinar transcript, slides, and attendee questions into a blog post, a LinkedIn thread, and short social posts, each leading with the talk's strongest point in brand voice, then shows scheduling the same routine after future webinars.
+
 Repurpose content across channels
 
 You have one webinar talk and each channel needs its own version of it.

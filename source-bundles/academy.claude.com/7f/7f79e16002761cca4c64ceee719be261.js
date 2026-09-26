@@ -1,0 +1,96 @@
+import{Nm as e,jm as t}from"../../../../../content-de-meta-mdrrzgmt.js";var n=t(),r=`# What is generative AI
+
+Hi, my name is Kyra and I'm on the education team at Anthropic. Welcome to our exploration of generative AI. In this video, we'll dive into what generative AI actually is and the technological breakthroughs that made these systems possible. Then, we'll look at what generative AI does well, and how it falls short. You might interact with generative AI daily without fully understanding what's happening behind the scenes. Let's change that.
+
+Generative AI refers to artificial intelligence systems that can create new content rather than just analyzing existing data. For example, while traditional AI might classify emails as 'spam' or 'not spam' based on patterns, generative AI can write a completely new email for you. The first approach analyzes and categorizes. The second creates something new that didn't exist before. This represents a fundamental shift in AI capabilities.
+
+Large language models or LLMs like Anthropic's Claude models are a prominent type of generative AI. They're called 'language models' because they're trained to predict and generate human language, and 'large' because they contain billions of parameters, mathematical values that determine how the model processes information somewhat like synaptic connections in your brain.
+
+The path to today's generative AI wasn't sudden. It involved three crucial developments coming together at the right time.
+
+First, there were algorithmic and architectural breakthroughs that fundamentally changed how AI systems learn. While neural networks have been around conceptually for decades, the development of the transformer architecture in 2017 was a game changer. This architecture excels at processing sequences of text while maintaining relationships between words across long passages, which is critical for understanding language in context.
+
+Second, the explosion of digital data provided the essential raw material for training. Modern LLMs like Claude learned from diverse sources such as websites, code repositories, and other texts that represent human knowledge and communication. This vast tapestry of information helps models develop a broad and nuanced understanding of both language and concepts.
+
+And third, massive increases in computational power made it possible to train these complex models on all that data. Specialized hardware like GPUs or Graphics Processing Units and TPUs or Tensor Processing Units, along with distributed computing networks often called clusters, enable processing that would have been impossible just a few years earlier.
+
+The combination of these three factors led to an important discovery known as the scaling laws. These empirical findings showed that as models grew larger and trained on more data with more computing power, their performance improved in predictable ways. More surprisingly, researchers found that entirely new capabilities began to emerge as these models grew larger. Abilities no one explicitly programmed, like reasoning through problems step-by-step, or adapting to new tasks with minimal instruction.
+
+Generative AI is trained in two phases. During the first phase, also called pretraining, LLMs like Claude analyze patterns across billions of text examples. Imagine reading every website and piece of text you could find, not just to absorb information, but to understand the statistical relationships between words, phrases, and concepts. At this stage, the model essentially builds something like a complex map of language and knowledge.
+
+This pretraining process involves showing the model text and asking it to predict what comes next. Through many iterations, the model gradually refines its predictions, learning the patterns that make language coherent and meaningful. At the end of pretraining, the model is a very competent, literal document completer.
+
+After pretraining, models undergo additional training called fine-tuning, where they learn to follow instructions, provide helpful responses, and importantly, avoid generating harmful content. This often involves human feedback to improve the model's performance, as well as reinforcement learning, which uses rewards and penalties to shape the model's behavior toward being more helpful, honest, and harmless in the case of Anthropic's models.
+
+Once models are trained, they are then deployed for you to interact with. When you interact with Claude or another LLM, you're providing a prompt, which is a text that the model reads and then continues from based on patterns it learned during training. The model isn't retrieving pre-written answers from a database. Instead, it's generating new text that statistically follows from what you've written.
+
+There's also a practical limit to how much information an LLM can consider at once, known as the 'context window.' Think of this as the AI's working memory. The context window includes your prompts, the AI's responses, and any other information you've shared in your conversation. While AI companies continue to grow the context window to allow for longer documents and conversations, these limits remind us that these systems don't have unlimited access to information, and cannot use content beyond their current context window without specialized tools like web search.
+
+Bringing this together, three characteristics make modern generative AI so powerful. Its ability to process vast amounts of information during training. Its in-context learning ability that lets it adapt to new tasks from instructions or examples in your prompt. And emergent capabilities that arise from scale, and sometimes surprise even their creators.
+
+Now that you have a sense for how these systems work, let's look at what that means in practice. Think of this as getting to know a new colleague. Understanding their strengths and limitations helps you collaborate more effectively.
+
+You might be amazed at how versatile modern language models can be. They're skilled at language in ways that seemed impossible just a few years ago. Crafting emails that capture your voice, condensing lengthy reports into clear summaries, translating between languages, and even explaining complex topics across countless fields, from microbiology to marketing strategy.
+
+What's particularly notable is how these models can shift between different tasks without needing additional training. The very same system that helps you write poetry or brainstorm ideas for your birthday party can turn around and help you understand quantum computing concepts, or analyze quarterly business trends, all through simple conversation.
+
+These models can also maintain the thread of a conversation, remembering what you discussed earlier and building upon it. If you mention your project deadline in passing and refer back to it later within the conversation, AI typically understands what you're talking about, much like a human conversation partner would.
+
+Many modern LLMs can now also reach beyond their own knowledge by connecting to external tools and information sources, allowing them to search the web, process files, or even use other applications to enhance their capabilities. This dramatically expands what they can help with.
+
+However, just like any technology, LLMs as they exist today also have certain limitations. And notice how each one connects back to how the system works.
+
+First, AI models are bounded by their training data. LLMs have a knowledge cutoff date based on when they were trained, the point after which they have no innate knowledge of the world. For example, a model with a cutoff date of November 2024 wasn't trained on any data after that point. Imagine someone who went into a retreat without internet access at a specific date. They wouldn't know about the events that happened after they left. Models need tools like web search to learn about recent developments.
+
+Additionally, the training process doesn't verify every fact in the training data. This means models can sometimes learn and reproduce inaccuracies that were present in their training data. They can also make mistakes when trying to piece together information they've learned. This leads to what is often called a hallucination. AI confidently stating something that sounds plausible but is actually incorrect.
+
+Unlike search engines that simply retrieve existing documents, LLMs generate responses based on statistical patterns, sometimes producing hallucinations. Imagine a friend who tells a story with absolute confidence only to have the details completely wrong. AI can sometimes be like that.
+
+There's also the context window limit we discussed earlier. If a conversation or document exceeds it, the AI won't be able to consider information that falls outside the window, usually on a first-in, first-out basis. Depending on the model, this can limit its ability to process large documents or remember an entire conversation.
+
+Furthermore, unlike traditional software that produces identical outputs given the same inputs, LLMs are somewhat unpredictable by default, also known as non-deterministic. Ask the same question twice and you might get slightly different responses each time. This variability stems from the nature of how these models generate text. They're making probabilistic decisions about what text should come next based on patterns in their training data and certain settings that developers can tweak.
+
+This creative variability can be great for brainstorming and generating diverse ideas, but requires awareness when consistency or accuracy are critical. Some LLM interfaces offer settings to control this randomness when needed, often referred to as temperature.
+
+Additionally, while these models are improving rapidly, they've historically shown limitations with complex reasoning tasks, particularly mathematical or logical problems requiring multiple steps. The good news is that the newer reasoning or extended thinking models specifically designed to think step-by-step are showing strong progress in these areas.
+
+And finally, while models like Claude can now access external tools, they may still lack access to specific data sources or specialized tools that would be needed for certain tasks. It's like having a brilliant colleague who can't access your company's internal database. Their ability to help will be limited no matter how smart they are. If a model doesn't have access to a piece of data or a tool that's needed to answer a question, then it should not come as a surprise that it won't be able to help.
+
+The field of generative AI is rapidly evolving. Researchers are working to address current limitations through techniques like retrieval augmented generation, which connects models to external knowledge and data sources, as well as expanding their ability to use tools, and improving their reasoning capabilities. That said, some limitations will likely remain for the foreseeable future, even if we don't know exactly what those limitations will be.
+
+Understanding what AI can and cannot do is essential for AI Fluency, and helps you determine when and how to best incorporate these systems into your work and daily life.
+
+The most effective applications will leverage the complementary strengths of humans and AI. We bring critical thinking, judgment, creativity, and ethical oversight that AI may struggle to replicate. AI offers speed, scale, pattern recognition, and the ability to process vast amounts of information. These complementary strengths will evolve as the technology evolves. That's why continued learning and experimentation are so valuable. They help you stay abreast of these changes and discover new possibilities.
+
+In the exercises across this course, you'll have a chance to explore these concepts firsthand through conversations with AI. This direct experience will help you develop an intuitive feel for what generative AI can do, can't do, and how to best work with it.
+`;function i(t){let i={h2:"h2",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...e(),...t.components},{Exercise:a,ExerciseDeck:s,LessonVideo:c}=i;return a||o("Exercise",!0),s||o("ExerciseDeck",!0),c||o("LessonVideo",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(i.h2,{id:"what-is-generative-ai",children:"What is generative AI"}),`
+`,(0,n.jsx)(c,{youtubeId:"IZSB66OLc4w",title:"What is generative AI",duration:"12 min",transcript:r,children:(0,n.jsx)(i.p,{children:`This video covers how large language models like Claude are built and
+trained, and what that means for what they can — and can’t — reliably do
+when you put them to work in your business.`})}),`
+`,(0,n.jsx)(i.h2,{id:"key-takeaways",children:"Key takeaways"}),`
+`,(0,n.jsxs)(i.ul,{children:[`
+`,(0,n.jsxs)(i.li,{children:[(0,n.jsx)(i.strong,{children:"Generative AI"})," creates new content rather than analyzing existing data."]}),`
+`,(0,n.jsxs)(i.li,{children:[(0,n.jsx)(i.strong,{children:"Three developments"})," made modern LLMs possible: the transformer architecture, vast training data, and massive compute."]}),`
+`,(0,n.jsxs)(i.li,{children:[(0,n.jsx)(i.strong,{children:"Training has two stages."})," Pre-training learns patterns from billions of examples. Fine-tuning teaches the model to follow instructions helpfully."]}),`
+`,(0,n.jsxs)(i.li,{children:[(0,n.jsx)(i.strong,{children:"Current strengths"})," include versatility across tasks, conversational fluency, and tool use."]}),`
+`,(0,n.jsxs)(i.li,{children:[(0,n.jsx)(i.strong,{children:"Current limits"})," include knowledge cutoffs, hallucinations, and unreliable complex reasoning."]}),`
+`,(0,n.jsxs)(i.li,{children:[(0,n.jsx)(i.strong,{children:"The best applications"})," pair your judgment, creativity, and oversight with AI’s speed and scale."]}),`
+`]}),`
+`,(0,n.jsx)(i.h2,{id:"exercise",children:"Exercise"}),`
+`,(0,n.jsx)(s,{children:(0,n.jsxs)(a,{title:"Testing the edges",note:"This exercise gives you firsthand evidence of what generative AI does well and where it falls short, using a coding problem you already know cold — so you have a concrete gut check, built from your own observations, when deciding what to trust AI with.",children:[(0,n.jsx)(i.p,{children:(0,n.jsx)(i.strong,{children:"Part I: Self-Reflection (on your own)"})}),(0,n.jsx)(i.p,{children:"Pick a coding domain you know well, where you’d immediately spot an error. Jot down:"}),(0,n.jsxs)(i.ul,{children:[`
+`,(0,n.jsx)(i.li,{children:"The topic (e.g., your rate-limiting logic, how you handle async state, the DB query you optimized last quarter)"}),`
+`,(0,n.jsx)(i.li,{children:"Two or three things about it any competent engineer should get right"}),`
+`,(0,n.jsx)(i.li,{children:"One common misconception or tricky implementation detail"}),`
+`,(0,n.jsx)(i.li,{children:"One thing that’s changed recently — a library update, a deprecation, a new best practice"}),`
+`]}),(0,n.jsx)(i.p,{children:(0,n.jsx)(i.strong,{children:"Part II: Collaboration (with AI)"})}),(0,n.jsx)(i.p,{children:"Open a conversation with Claude (or any AI assistant you prefer) and run three quick chats. Write down what you notice after each one."}),(0,n.jsxs)(i.ol,{children:[`
+`,(0,n.jsxs)(i.li,{children:[(0,n.jsx)(i.strong,{children:"Versatility test."})," Ask the AI to explain your topic three different ways in a single response: once for a non-technical PM, once for a mid-level engineer joining your team, and once for a senior engineer doing code review. Did the shifts in depth actually land, or did it just change vocabulary? Which version was strongest?"]}),`
+`,(0,n.jsxs)(i.li,{children:[(0,n.jsx)(i.strong,{children:"Hallucination test."})," Ask the AI to recommend specific libraries, packages, or documentation for your coding problem. Spot-check at least one: does it exist? Is the API accurate? Is the version current?"]}),`
+`,(0,n.jsxs)(i.li,{children:[(0,n.jsx)(i.strong,{children:"Knowledge cutoff + reasoning check."})," Ask something time-sensitive about your domain: a recent framework update, a deprecated pattern, or a security patch. Does it flag that its information might be outdated — or present stale info as current? Then ask it to work through the tricky implementation detail you wrote down in Part I. Did it actually resolve the confusion, or just restate the correct answer?"]}),`
+`]}),(0,n.jsx)(i.p,{children:(0,n.jsx)(i.strong,{children:"Part III: Reflection"})}),(0,n.jsx)(i.p,{children:"Which capability from the video showed up most clearly? Which limitation surfaced — and would you have caught it if this weren’t a domain you know well? Based on this, what’s one task you’d feel fine handing to AI, and one you’d want to keep a closer eye on?"}),(0,n.jsxs)(i.p,{children:[(0,n.jsx)(i.strong,{children:"Stretch goal:"})," Run the same topic through a second AI tool. Were the errors and strengths the same?"]})]})}),`
+`,(0,n.jsx)(i.h2,{id:"lesson-reflection",children:"Lesson reflection"}),`
+`,(0,n.jsxs)(i.ul,{children:[`
+`,(0,n.jsx)(i.li,{children:"How does knowing how these systems are trained change the way you’ll work with them?"}),`
+`,(0,n.jsx)(i.li,{children:"What ethical considerations come to mind given how generative AI works and where it falls short?"}),`
+`]}),`
+`,(0,n.jsx)(i.h2,{id:"whats-next",children:"What's next"}),`
+`,(0,n.jsx)(i.p,{children:"Now that you’ve tested AI’s edges firsthand, in the next lesson we go deep on the first D: Delegation. You’ll frame a real problem, map it across the builder’s toolkit, and make deliberate choices about where AI plays a role — before writing a single line of code."})]})}function a(t={}){let{wrapper:r}={...e(),...t.components};return r?(0,n.jsx)(r,{...t,children:(0,n.jsx)(i,{...t})}):i(t)}function o(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{a as default};

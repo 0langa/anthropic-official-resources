@@ -1,15 +1,14 @@
 # What are artifacts and how do I use them?
 
+Updated yesterday
+
+Copy for LLM
+
 An **[artifact](https://claude.com/features/artifacts)** is anything Claude makes for you that you'd put in front of someone: a design, a deck, a document, a dashboard, or a small interactive tool. It opens beside your conversation, and you can edit it, come back to it, and share it with others. Ask for one in any conversation with Claude, including in Claude Code, or start from a template in the “Artifacts” tab.
 
 Artifacts are available on Free, Pro, Max, Team, and Enterprise plans, and in Claude Code on every plan that includes Claude Code. Templates (Claude Design, Claude Slides, and Claude Docs) are in beta on paid plans only. They're on by default on Pro, Max, and Team plans. On Enterprise plans, they're off until an owner turns each one on.
 
-| **Feature**                                  | **Free** | **Pro** | **Max** | **Team** | **Enterprise** |
-| -------------------------------------------- | -------- | ------- | ------- | -------- | -------------- |
-| Create artifacts in a chat                   | ✅        | ✅       | ✅       | ✅        | ✅              |
-| Start from a template (Design, Slides, Docs) |          | ✅       | ✅       | ✅        | ✅              |
-| Connect your apps to an artifact             |          | ✅       | ✅       | ✅        | ✅              |
-| Store data in an artifact                    |          | ✅       | ✅       | ✅        | ✅              |
+<table><tbody><tr><td style="background-color:#e8e8e880"><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p><b>Feature</b></p></div></td><td style="background-color:#e8e8e880"><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p><b>Free</b></p></div></td><td style="background-color:#e8e8e880"><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p><b>Pro</b></p></div></td><td style="background-color:#e8e8e880"><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p><b>Max</b></p></div></td><td style="background-color:#e8e8e880"><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p><b>Team</b></p></div></td><td style="background-color:#e8e8e880"><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p><b>Enterprise</b></p></div></td></tr><tr><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>Create artifacts in a chat</p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>✅</p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>✅</p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>✅</p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>✅</p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>✅</p></div></td></tr><tr><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>Start from a template (Design, Slides, Docs)</p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p> </p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>✅</p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>✅</p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>✅</p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>✅</p></div></td></tr><tr><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>Connect your apps to an artifact</p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p> </p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>✅</p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>✅</p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>✅</p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>✅</p></div></td></tr><tr><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>Store data in an artifact</p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p> </p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>✅</p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>✅</p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>✅</p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>✅</p></div></td></tr></tbody></table>
 
 **Important:** Artifacts require **Cloud code execution and file creation** to be turned on in **[Settings > Capabilities](https://claude.ai/settings/capabilities)** (Free, Pro, Max) or **[Organization settings > Capabilities](https://claude.ai/admin-settings/capabilities)** (Team, Enterprise).
 
@@ -22,11 +21,8 @@ Artifacts are available on Free, Pro, Max, Team, and Enterprise plans, and in Cl
 Claude creates an artifact when the content it's sharing meets these criteria:
 
 - It's significant and self-contained, typically over 15 lines.
-
 - It's something you're likely to want to edit, iterate on, or reuse outside the conversation.
-
 - It stands on its own without needing extra context from the conversation.
-
 - It's content you're likely to refer back to or use later.
 
 Claude can make an artifact out of almost anything, including documents, code snippets, single-page websites, images, diagrams and flowcharts, dashboards, and small interactive tools.
@@ -34,9 +30,7 @@ Claude can make an artifact out of almost anything, including documents, code sn
 ## Where you can use artifacts
 
 - **Claude on the web and Claude Desktop:** Create, edit, and share artifacts, and start from a template.
-
-- **Claude Code:** Publish session output as an artifact, or make designs and docs. See **[Artifacts in Claude Code](#h_dca5623bec)** below.
-
+- **Claude Code:** Publish session output as an artifact, or make designs and docs. See **[Artifacts in Claude Code](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)** below.
 - **Claude for iOS and Claude for Android:** Ask for a design, deck, or doc in any chat, and view the result in the **Artifacts** tab. To start from a template, edit, or change sharing settings, use Claude on the web or Claude Desktop.
 
 ## Start from a template
@@ -44,9 +38,7 @@ Claude can make an artifact out of almost anything, including documents, code sn
 Templates are starting points for work you'll share with others. Ask for one in any chat, select "Output" in the message box and choose a template, or pick one in the **Artifacts** tab.
 
 - **Docs:** Living documents you write with Claude and your team in real time. Learn more in **[Get started with Claude Docs](https://support.claude.com/en/articles/16923645)**.
-
 - **Slides:** Presentations built from your notes, reports, or the work already in your chat. Edit any slide directly, present without leaving Claude, and export to PowerPoint or PDF.
-
 - **Design:** Visuals, mockups, prototypes, one-pagers, and landing pages, built with your design system. Learn more in **[Get started with Claude Design](https://support.claude.com/en/articles/14604416)**.
 
 Whichever template you start from, the artifact works the same way: edit it by talking to Claude or directly in the artifact, and it updates live as you work. When it's ready, share it or export it.
@@ -61,25 +53,21 @@ Everything you make is saved to the **[Artifacts](https://claude.ai/artifacts)**
 
 An artifact opens in its own window beside your conversation. Artifacts made from a template open on a canvas or page you can work in directly.
 
-### Edit and iterate
+## Edit and iterate
 
 - Ask Claude to change the artifact.
-
 - In an artifact made from a template, edit directly: type in a doc, edit a slide, or move elements on a design canvas.
-
 - In a doc or Markdown document, highlight the text you want changed, click "Edit with Claude," and type your request. Claude makes the edit where you marked it, so you don't have to describe which section you mean.
-
 - Edit an earlier message to create a different version of the chat, with its own artifacts, so you can explore another direction without losing previous work.
 
 **Note:** When Claude drafts content across multiple Markdown files, such as a skill or plugin, you can leave edit requests in several files before submitting. Each request is added to your next message, and the file list shows how many are waiting in each file. Send the message and Claude applies the whole batch in one pass.
 
-### View and export
+## View and export
 
 - **Artifacts made from a template:** Click "Export." Docs export to Word, PDF, Markdown, and Google Docs. Decks export to PowerPoint and PDF. Designs export as a .zip, PDF, PowerPoint, or standalone HTML, or go straight to another tool.
-
 - **Legacy artifacts:** Use the controls at the top of the artifact panel to view the code, copy the content, or download it.
 
-### Build on a published artifact
+## Build on a published artifact
 
 Available on Free, Pro, and Max plans, for legacy artifacts published from a chat.
 
@@ -88,12 +76,10 @@ If someone publishes an artifact you like, you can use it as a starting point fo
 **Important:** Only do this with artifacts from people you trust. You're bringing someone else's code and content into your own chat, so treat it the way you'd treat a file from an unknown sender.
 
 1. Open the published artifact and click "Copy" to copy its code.
-
 2. Start a new chat, paste the code, and describe the changes you want. For example: "Here's the code for a quiz game. Change the questions to be about movies and add a timer."
-
 3. Refine the new artifact the same way you would any artifact you made yourself.
 
-### Fix errors
+## Fix errors
 
 If an artifact generates an error, look for the "Try fixing with Claude" button near the error message. Click it to copy the error details into a new message, then send it to Claude to diagnose the issue and suggest a fix. Claude will attempt to fix the error, but success isn't guaranteed. Some errors need more troubleshooting.
 
@@ -130,7 +116,6 @@ Available on Pro, Max, Team, and Enterprise plans, on Claude on the web and Clau
 Artifacts can store data between sessions, so you can build things like journals, trackers, and collaborative tools. Storage is either personal or shared:
 
 - **Personal storage:** Everyone keeps their own private data. In a journal artifact, your entries stay visible only to you.
-
 - **Shared storage:** Everyone sees and works with the same data. In a game leaderboard, everyone sees the same scores.
 
 The first time you use an artifact with shared storage, Claude shows a confirmation explaining that your data will be visible to others using it.
@@ -164,3 +149,15 @@ Artifacts made in Claude Cowork before August 19, 2026 are live artifacts. They 
 ## Share an artifact
 
 Artifacts start private to you. Learn more about **[sharing artifacts](https://support.claude.com/en/articles/9547008)**, including who can open them and what they see.
+
+Did this answer your question?
+
+Disappointed ReactionNeutral ReactionSmiley Reaction
+
+## Related Articles
+
+- [Share artifacts](https://support.claude.com/en/articles/9547008-share-artifacts)
+- [Claude Design admin guide for Team and Enterprise plans](https://support.claude.com/en/articles/14604406-claude-design-admin-guide-for-team-and-enterprise-plans)
+- [Get started with Claude Design](https://support.claude.com/en/articles/14604416-get-started-with-claude-design)
+- [Get started with Claude Docs](https://support.claude.com/en/articles/16923645-get-started-with-claude-docs)
+- [Artifacts admin guide for Team and Enterprise plans](https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans)

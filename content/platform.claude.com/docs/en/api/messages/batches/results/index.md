@@ -69,7 +69,9 @@ Learn more about the Message Batches API in our [user guide](https://platform.cl
 
         - `container: Container or null`
 
-          Information about the container used in the request (for the code execution tool)
+          Information about the container used in this request.
+
+          This will be non-null if a container tool (e.g. code execution) was used.
 
           - `id: string`
 
@@ -97,13 +99,13 @@ Learn more about the Message Batches API in our [user guide](https://platform.cl
 
               Skill ID
 
-              maxLength: 64, minLength: 1
+              minLength: 1, maxLength: 64
 
             - `version: string`
 
               The resolved version: a skill version ID for custom skills.
 
-              maxLength: 64, minLength: 1
+              minLength: 1, maxLength: 64
 
         - `content: array of ContentBlock`
 
@@ -276,8 +278,6 @@ Learn more about the Message Batches API in our [user guide](https://platform.cl
 
             - `text: string`
 
-              minLength: 0
-
           - `ThinkingBlock object`
 
             - `type: "thinking"`
@@ -358,7 +358,7 @@ Learn more about the Message Batches API in our [user guide](https://platform.cl
 
               For a toolset member tool_use, the toolset family.
 
-              maxLength: 64, minLength: 1, pattern: ^[a-zA-Z0-9_-]+$
+              minLength: 1, maxLength: 64, pattern: ^[a-zA-Z0-9_-]+$
 
           - `ServerToolUseBlock object`
 
@@ -806,7 +806,7 @@ Learn more about the Message Batches API in our [user guide](https://platform.cl
 
                   - `tool_name: string`
 
-                    maxLength: 256, minLength: 1, pattern: ^[a-zA-Z0-9_-]{1,256}$
+                    minLength: 1, maxLength: 256, pattern: ^[a-zA-Z0-9_-]{1,256}$
 
             - `tool_use_id: string`
 
@@ -822,13 +822,75 @@ Learn more about the Message Batches API in our [user guide](https://platform.cl
 
             - `file_id: string`
 
+        - `diagnostics: Diagnostics or null`
+
+          Request-level diagnostics. `null` when the request did not supply `diagnostics`, or when it did and no prompt-cache divergence was detected.
+
+          - `cache_miss_reason: CacheMissReason or null`
+
+            Explains why the prompt cache could not fully reuse the prefix from the request identified by `diagnostics.previous_message_id`. `null` means diagnosis is still pending — the response was serialized before the background comparison completed.
+
+            - `CacheMissModelChanged object`
+
+              - `type: "model_changed"`
+
+                default: model_changed
+
+              - `cache_missed_input_tokens: number`
+
+                Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+            - `CacheMissSystemChanged object`
+
+              - `type: "system_changed"`
+
+                default: system_changed
+
+              - `cache_missed_input_tokens: number`
+
+                Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+            - `CacheMissToolsChanged object`
+
+              - `type: "tools_changed"`
+
+                default: tools_changed
+
+              - `cache_missed_input_tokens: number`
+
+                Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+            - `CacheMissMessagesChanged object`
+
+              - `type: "messages_changed"`
+
+                default: messages_changed
+
+              - `cache_missed_input_tokens: number`
+
+                Approximate number of input tokens that would have been read from cache had the prefix matched the previous request.
+
+            - `CacheMissPreviousMessageNotFound object`
+
+              - `type: "previous_message_not_found"`
+
+                default: previous_message_not_found
+
+            - `CacheMissUnavailable object`
+
+              - `type: "unavailable"`
+
+                default: unavailable
+
         - `model: Model`
 
           The model that will complete your prompt.
 
           See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-          - `"claude-fable-5-1" or "claude-mythos-5-1" or "claude-sonnet-5" or 14 more`
+          - `string`
+
+          - `"claude-fable-5-1" or "claude-opus-5-5" or "claude-mythos-5-1" or 15 more`
 
             The model that will complete your prompt.
 
@@ -837,6 +899,10 @@ Learn more about the Message Batches API in our [user guide](https://platform.cl
             - `"claude-fable-5-1"`
 
               Frontier intelligence for ambitious tasks across coding, scientific discovery, and enterprise workflows
+
+            - `"claude-opus-5-5"`
+
+              Powerful intelligence for coding, knowledge work, and long-running agents
 
             - `"claude-mythos-5-1"`
 
@@ -865,10 +931,6 @@ Learn more about the Message Batches API in our [user guide](https://platform.cl
             - `"claude-opus-4-7"`
 
               Powerful intelligence for long-running agents and coding
-
-            - `"claude-mythos-preview"`
-
-              New class of intelligence, strongest in coding and cybersecurity
 
             - `"claude-opus-4-6"`
 
@@ -902,7 +964,11 @@ Learn more about the Message Batches API in our [user guide](https://platform.cl
 
               High-performance model for agents and coding
 
-          - `string`
+            - `"claude-mythos-preview"`
+
+              **Deprecated**: Will reach end-of-life on June 30, 2026. Please migrate to claude-mythos-5. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+
+              New class of intelligence, strongest in coding and cybersecurity
 
         - `role: "assistant"`
 
@@ -914,7 +980,9 @@ Learn more about the Message Batches API in our [user guide](https://platform.cl
 
         - `stop_details: RefusalStopDetails or null`
 
-          Structured information about a refusal.
+          Structured information about why model output stopped.
+
+          This is `null` when the `stop_reason` has no additional detail to report.
 
           - `type: "refusal"`
 
@@ -922,7 +990,9 @@ Learn more about the Message Batches API in our [user guide](https://platform.cl
 
           - `category: "cyber" or "bio" or "frontier_llm" or 2 more or null`
 
-            The policy category that triggered a refusal.
+            The policy category that triggered the refusal.
+
+            `null` when the refusal doesn't map to a named category.
 
             - `"cyber"`
 

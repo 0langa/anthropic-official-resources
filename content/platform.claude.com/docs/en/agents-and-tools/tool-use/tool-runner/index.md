@@ -14,7 +14,7 @@ Instead of manually handling tool calls, tool results, and conversation manageme
 * Provides type safety and validation
 
 <Note>
-  The tool runner is in beta and available in the [Python SDK](https://github.com/anthropics/anthropic-sdk-python/blob/main/tools.md), [TypeScript SDK](https://github.com/anthropics/anthropic-sdk-typescript/blob/main/helpers.md#tool-helpers), [C# SDK](https://github.com/anthropics/anthropic-sdk-csharp/blob/main/examples/ToolRunnerExample/Program.cs), [Go SDK](https://github.com/anthropics/anthropic-sdk-go/blob/main/tools.md), [Java SDK](https://github.com/anthropics/anthropic-sdk-java/blob/main/anthropic-java-example/src/main/java/com/anthropic/example/BetaToolRunnerExample.java), [PHP SDK](https://github.com/anthropics/anthropic-sdk-php/blob/main/examples/beta/beta_tool_runner.php), and [Ruby SDK](https://github.com/anthropics/anthropic-sdk-ruby/blob/main/helpers.md#3-auto-looping-tool-runner-beta).
+  The tool runner is in beta and available in the [Python SDK](https://github.com/anthropics/anthropic-sdk-python/blob/main/tools.md), [TypeScript SDK](https://github.com/anthropics/anthropic-sdk-typescript/blob/main/helpers.md#tool-helpers), [C# SDK](https://github.com/anthropics/anthropic-sdk-csharp/blob/main/examples/ToolRunnerExample/Program.cs), [Go SDK](https://github.com/anthropics/anthropic-sdk-go/blob/main/tools.md), [Java SDK](https://github.com/anthropics/anthropic-sdk-java/blob/main/anthropic-java-example/src/main/java/com/anthropic/example/BetaToolRunnerRunnableToolExample.java), [PHP SDK](https://github.com/anthropics/anthropic-sdk-php/blob/main/examples/beta/beta_tool_runner.php), and [Ruby SDK](https://github.com/anthropics/anthropic-sdk-ruby/blob/main/helpers.md#3-auto-looping-tool-runner-beta).
 </Note>
 
 ## Basic usage
@@ -61,7 +61,7 @@ Depending on the SDK's tool signature, a tool returns its result as a string or 
 
 
     runner = client.beta.messages.tool_runner(
-        model="claude-opus-5",
+        model="claude-opus-5-5",
         max_tokens=1024,
         tools=[get_weather, calculate_sum],
         messages=[
@@ -105,7 +105,7 @@ Depending on the SDK's tool signature, a tool returns its result as a string or 
     });
 
     const finalMessage = await client.beta.messages.toolRunner({
-      model: "claude-opus-5",
+      model: "claude-opus-5-5",
       max_tokens: 1024,
       tools: [getWeatherTool],
       messages: [{ role: "user", content: "What's the weather like in Paris?" }]
@@ -147,7 +147,7 @@ Depending on the SDK's tool signature, a tool returns its result as a string or 
     });
 
     const finalMessage = await client.beta.messages.toolRunner({
-      model: "claude-opus-5",
+      model: "claude-opus-5-5",
       max_tokens: 1024,
       tools: [calculateSumTool],
       messages: [{ role: "user", content: "What's 15 + 27?" }]
@@ -231,7 +231,7 @@ Depending on the SDK's tool signature, a tool returns its result as a string or 
     var runner = client.Beta.Messages.ToolRunner(
         new MessageCreateParams
         {
-            Model = Model.ClaudeOpus5,
+            Model = Model.ClaudeOpus5_5,
             MaxTokens = 1024,
             Messages =
             [
@@ -311,7 +311,7 @@ Depending on the SDK's tool signature, a tool returns its result as a string or 
     		[]anthropic.BetaTool{getWeather, calculateSum},
     		anthropic.BetaToolRunnerParams{
     			BetaMessageNewParams: anthropic.BetaMessageNewParams{
-    				Model:     anthropic.ModelClaudeOpus5,
+    				Model:     anthropic.ModelClaudeOpus5_5,
     				MaxTokens: 1024,
     				Messages: []anthropic.BetaMessageParam{
     					anthropic.NewBetaUserMessage(anthropic.NewBetaTextBlock(
@@ -350,59 +350,72 @@ Depending on the SDK's tool signature, a tool returns its result as a string or 
   </Tab>
 
   <Tab title="Java">
-    Define each tool as a class implementing `Supplier<String>`. Annotate the class with `@JsonClassDescription` for the tool description, and each public field with `@JsonPropertyDescription` for parameter descriptions. The SDK derives the JSON schema, tool name (snake-cased class name), and input parsing from the class, and marks the tool with `strict: true` ([strict tool use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/strict-tool-use)).
+    Define each tool as a `BetaRunnableTool` that pairs an input class with a function that runs when Claude calls the tool. Annotate the input class with `@JsonClassDescription` for the tool description, and each public field with `@JsonPropertyDescription` for parameter descriptions. The SDK derives the JSON schema, tool name (snake-cased class name), and input parsing from the class, and marks the tool with `strict: true` ([strict tool use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/strict-tool-use)).
+
+    The function receives the parsed input as an instance of that class and returns a `BetaToolResultBlockParam.Content`. To return text, wrap it with `BetaToolResultBlockParam.Content.ofString()`. Because the function is a lambda, it can use objects from your application, such as the `WeatherService` in the following example.
 
     ```java
     import com.anthropic.client.AnthropicClient;
     import com.anthropic.client.okhttp.AnthropicOkHttpClient;
+    import com.anthropic.helpers.BetaRunnableTool;
     import com.anthropic.helpers.BetaToolRunner;
     import com.anthropic.models.beta.messages.BetaMessage;
+    import com.anthropic.models.beta.messages.BetaToolResultBlockParam;
     import com.anthropic.models.beta.messages.MessageCreateParams;
     import com.anthropic.models.messages.Model;
     import com.fasterxml.jackson.annotation.JsonClassDescription;
     import com.fasterxml.jackson.annotation.JsonPropertyDescription;
-    import java.util.function.Supplier;
 
     @JsonClassDescription("Get the current weather in a given location")
-    static class GetWeather implements Supplier<String> {
+    static class GetWeather {
         @JsonPropertyDescription("The city and state, e.g. San Francisco, CA")
         public String location;
 
         @JsonPropertyDescription("Temperature unit, either 'celsius' or 'fahrenheit'")
         public String unit;
-
-        @Override
-        public String get() {
-            return "{\"temperature\": \"20°C\", \"condition\": \"Sunny\"}";
-        }
     }
 
     @JsonClassDescription("Add two numbers together")
-    static class CalculateSum implements Supplier<String> {
+    static class CalculateSum {
         @JsonPropertyDescription("First number")
         public double a;
 
         @JsonPropertyDescription("Second number")
         public double b;
+    }
 
-        @Override
-        public String get() {
-            return String.valueOf(a + b);
+    // Stands in for a class your application already has,
+    // such as a database client or an API wrapper.
+    static class WeatherService {
+        String currentWeather(String location, String unit) {
+            return "{\"temperature\": \"20°C\", \"condition\": \"Sunny\"}";
         }
     }
 
     void main() {
         AnthropicClient client = AnthropicOkHttpClient.fromEnv();
+        WeatherService weatherService = new WeatherService();
+
+        // The lambda can use weatherService.
+        BetaRunnableTool getWeather = BetaRunnableTool.of(
+                GetWeather.class,
+                input -> BetaToolResultBlockParam.Content.ofString(
+                        weatherService.currentWeather(input.location, input.unit)));
+
+        BetaRunnableTool calculateSum = BetaRunnableTool.of(
+                CalculateSum.class,
+                input -> BetaToolResultBlockParam.Content.ofString(
+                        String.valueOf(input.a + input.b)));
 
         BetaToolRunner runner = client.beta()
                 .messages()
                 .toolRunner(MessageCreateParams.builder()
-                        .model(Model.CLAUDE_OPUS_5)
+                        .model(Model.CLAUDE_OPUS_5_5)
                         .maxTokens(1024)
                         .addBeta("structured-outputs-2025-11-13")
                         .addUserMessage("What's the weather like in Paris? Also, what's 15 + 27?")
-                        .addTool(GetWeather.class)
-                        .addTool(CalculateSum.class)
+                        .addTool(getWeather)
+                        .addTool(calculateSum)
                         .build());
 
         for (BetaMessage message : runner) {
@@ -491,7 +504,7 @@ Depending on the SDK's tool signature, a tool returns its result as a string or 
         messages: [
             ['role' => 'user', 'content' => "What's the weather like in Paris? Also, what's 15 + 27?"],
         ],
-        model: Model::CLAUDE_OPUS_5,
+        model: Model::CLAUDE_OPUS_5_5,
         tools: [$getWeather, $calculateSum],
     );
 
@@ -553,7 +566,7 @@ Depending on the SDK's tool signature, a tool returns its result as a string or 
 
     # Use the tool runner
     runner = client.beta.messages.tool_runner(
-      model: "claude-opus-5",
+      model: "claude-opus-5-5",
       max_tokens: 1024,
       tools: [GetWeather.new, CalculateSum.new],
       messages: [
@@ -576,7 +589,7 @@ Depending on the SDK's tool signature, a tool returns its result as a string or 
 
 The tool runner is an iterable that yields messages from Claude. On each iteration, the runner checks whether Claude requested a tool use. If so, it runs the tool and sends the result back to Claude automatically, then yields the next message from Claude to continue your loop.
 
-You can end the loop at any iteration with a `break` statement. The runner loops until Claude returns a message without a tool use, or until it reaches `max_iterations` if you set it.
+You can end the loop at any iteration with a `break` statement. The runner loops until Claude returns a message without a tool use, or until it reaches `max_iterations` (csharp, java, php: `maxIterations`; go: `MaxIterations`) if you set it.
 
 If you don't need intermediate messages, you can get the final message directly:
 
@@ -588,7 +601,7 @@ If you don't need intermediate messages, you can get the final message directly:
     client = anthropic.Anthropic()
     # ...
     runner = client.beta.messages.tool_runner(
-        model="claude-opus-5",
+        model="claude-opus-5-5",
         max_tokens=1024,
         tools=[get_weather, calculate_sum],
         messages=[
@@ -612,7 +625,7 @@ If you don't need intermediate messages, you can get the final message directly:
     const client = new Anthropic();
     // ...
     const runner = client.beta.messages.toolRunner({
-      model: "claude-opus-5",
+      model: "claude-opus-5-5",
       max_tokens: 1024,
       tools: [getWeatherTool],
       messages: [{ role: "user", content: "What's the weather like in Paris?" }]
@@ -636,7 +649,7 @@ If you don't need intermediate messages, you can get the final message directly:
     var runner = client.Beta.Messages.ToolRunner(
         new MessageCreateParams
         {
-            Model = Model.ClaudeOpus5,
+            Model = Model.ClaudeOpus5_5,
             MaxTokens = 1024,
             Messages =
             [
@@ -672,7 +685,7 @@ If you don't need intermediate messages, you can get the final message directly:
     	[]anthropic.BetaTool{getWeather},
     	anthropic.BetaToolRunnerParams{
     		BetaMessageNewParams: anthropic.BetaMessageNewParams{
-    			Model:     anthropic.ModelClaudeOpus5,
+    			Model:     anthropic.ModelClaudeOpus5_5,
     			MaxTokens: 1024,
     			Messages: []anthropic.BetaMessageParam{
     				anthropic.NewBetaUserMessage(anthropic.NewBetaTextBlock(
@@ -704,12 +717,12 @@ If you don't need intermediate messages, you can get the final message directly:
     BetaToolRunner runner = client.beta()
             .messages()
             .toolRunner(MessageCreateParams.builder()
-                    .model(Model.CLAUDE_OPUS_5)
+                    .model(Model.CLAUDE_OPUS_5_5)
                     .maxTokens(1024)
                     .addBeta("structured-outputs-2025-11-13")
                     .addUserMessage("What's the weather like in Paris? Also, what's 15 + 27?")
-                    .addTool(GetWeather.class)
-                    .addTool(CalculateSum.class)
+                    .addTool(getWeather)
+                    .addTool(calculateSum)
                     .build());
 
     BetaMessage finalMessage = null;
@@ -733,7 +746,7 @@ If you don't need intermediate messages, you can get the final message directly:
         messages: [
             ['role' => 'user', 'content' => "What's the weather like in Paris? Also, what's 15 + 27?"],
         ],
-        model: Model::CLAUDE_OPUS_5,
+        model: Model::CLAUDE_OPUS_5_5,
         tools: [$getWeather, $calculateSum],
     );
 
@@ -753,7 +766,7 @@ If you don't need intermediate messages, you can get the final message directly:
     client = Anthropic::Client.new
     # ...
     runner = client.beta.messages.tool_runner(
-      model: "claude-opus-5",
+      model: "claude-opus-5-5",
       max_tokens: 1024,
       tools: [GetWeather.new, CalculateSum.new],
       messages: [
@@ -808,7 +821,7 @@ By default, the runner manages conversation state for you: after each tool-call 
 
 You take over by modifying the runner's messages from inside the loop body. The exact method depends on the SDK. See the per-language tabs that follow.
 
-When you take over for an iteration, the runner does not append the assistant message or tool results from that turn. You become responsible for keeping the conversation valid: append the assistant message and a tool result yourself (if you want the turn to count), modify state conditionally so the loop can still exit when there are no tool calls, and pass `max_iterations` to bound the loop. All seven SDKs support `max_iterations`.
+When you take over for an iteration, the runner does not append the assistant message or tool results from that turn. You become responsible for keeping the conversation valid: append the assistant message and a tool result yourself (if you want the turn to count), modify state conditionally so the loop can still exit when there are no tool calls, and pass `max_iterations` (csharp, java, php: `maxIterations`; go: `MaxIterations`) to bound the loop. All seven SDKs support `max_iterations` (csharp, java, php: `maxIterations`; go: `MaxIterations`).
 
 <Tabs>
   <Tab title="Python">
@@ -816,7 +829,7 @@ When you take over for an iteration, the runner does not append the assistant me
 
     ```python
     runner = client.beta.messages.tool_runner(
-        model="claude-opus-5",
+        model="claude-opus-5-5",
         max_tokens=1024,
         max_iterations=10,
         tools=[get_weather],
@@ -852,7 +865,7 @@ When you take over for an iteration, the runner does not append the assistant me
 
     ```typescript
     const runner = client.beta.messages.toolRunner({
-      model: "claude-opus-5",
+      model: "claude-opus-5-5",
       max_tokens: 1024,
       max_iterations: 10,
       tools: [getWeatherTool],
@@ -892,7 +905,7 @@ When you take over for an iteration, the runner does not append the assistant me
     var runner = client.Beta.Messages.ToolRunner(
         new MessageCreateParams
         {
-            Model = Model.ClaudeOpus5,
+            Model = Model.ClaudeOpus5_5,
             MaxTokens = 1024,
             Messages = [new() { Role = Role.User, Content = "What's the weather in San Francisco?" }],
         },
@@ -949,7 +962,7 @@ When you take over for an iteration, the runner does not append the assistant me
     	[]anthropic.BetaTool{getWeather},
     	anthropic.BetaToolRunnerParams{
     		BetaMessageNewParams: anthropic.BetaMessageNewParams{
-    			Model:     anthropic.ModelClaudeOpus5,
+    			Model:     anthropic.ModelClaudeOpus5_5,
     			MaxTokens: 1024,
     			Messages: []anthropic.BetaMessageParam{
     				anthropic.NewBetaUserMessage(anthropic.NewBetaTextBlock(
@@ -987,11 +1000,11 @@ When you take over for an iteration, the runner does not append the assistant me
             .messages()
             .toolRunner(ToolRunnerCreateParams.builder()
                     .initialMessageParams(MessageCreateParams.builder()
-                            .model(Model.CLAUDE_OPUS_5)
+                            .model(Model.CLAUDE_OPUS_5_5)
                             .maxTokens(1024)
                             .addBeta("structured-outputs-2025-11-13")
                             .addUserMessage("Give me a detailed weather report for every major US city.")
-                            .addTool(GetWeather.class)
+                            .addTool(getWeather)
                             .build())
                     .maxIterations(10L)
                     .build());
@@ -1031,7 +1044,7 @@ When you take over for an iteration, the runner does not append the assistant me
         messages: [
             ['role' => 'user', 'content' => 'Give a detailed weather report for every major US city.'],
         ],
-        model: Model::CLAUDE_OPUS_5,
+        model: Model::CLAUDE_OPUS_5_5,
         tools: [$getWeather],
         maxIterations: 10,
     );
@@ -1067,7 +1080,7 @@ When you take over for an iteration, the runner does not append the assistant me
 
     ```ruby
     runner = client.beta.messages.tool_runner(
-      model: "claude-opus-5",
+      model: "claude-opus-5-5",
       max_tokens: 1024,
       max_iterations: 10,
       tools: [GetWeather.new],
@@ -1093,7 +1106,7 @@ When you take over for an iteration, the runner does not append the assistant me
 
 ### Automatic context management
 
-For long-running agentic tasks, the TypeScript and Ruby tool runners support automatic [compaction](https://platform.claude.com/docs/en/build-with-claude/context-editing#client-side-compaction-sdk), which generates summaries when token usage exceeds a threshold so the conversation can continue beyond context window limits. Both SDKs have deprecated this client-side option in favor of [server-side compaction](https://platform.claude.com/docs/en/build-with-claude/compaction-threshold), which works with every SDK's tool runner through the `context_management` request parameter. The Python SDK (v1.0 and later) and the Go, Java, C#, and PHP tool runners don't include client-side compaction. The Python, TypeScript, C#, Go, and Java tool runners have a `compact_before_next_turn()` helper for on-demand compaction, spelled in each language's own casing. See [Compact in a loop](https://platform.claude.com/docs/en/build-with-claude/compaction-on-demand#compact-in-a-loop). Use it or a `context_management` compaction edit on a runner, not both.
+For long-running agentic tasks, the TypeScript and Ruby tool runners support automatic [compaction](https://platform.claude.com/docs/en/build-with-claude/context-editing#client-side-compaction-sdk), which generates summaries when token usage exceeds a threshold so the conversation can continue beyond context window limits. Both SDKs have deprecated this client-side option in favor of [server-side compaction](https://platform.claude.com/docs/en/build-with-claude/compaction-threshold), which works with every SDK's tool runner through the `context_management` request parameter. The Python SDK (v1.0 and later) and the Go, Java, C#, and PHP tool runners don't include client-side compaction. The Python, TypeScript, C#, Go, Java, PHP, and Ruby tool runners have a `compact_before_next_turn()` (typescript, java, php: `compactBeforeNextTurn()`; csharp, go: `CompactBeforeNextTurn()`) helper for on-demand compaction. See [Compact in a loop](https://platform.claude.com/docs/en/build-with-claude/compaction-on-demand#compact-in-a-loop). Use it or a `context_management` compaction edit on a runner, not both.
 
 ### Debugging tool execution
 
@@ -1123,7 +1136,7 @@ In the Python and TypeScript SDKs, use the tool response method (`generate_tool_
     client = anthropic.Anthropic()
     # ...
     runner = client.beta.messages.tool_runner(
-        model="claude-opus-5",
+        model="claude-opus-5-5",
         max_tokens=1024,
         tools=[my_tool],
         messages=[{"role": "user", "content": "Run my_tool with the query 'hello'."}],
@@ -1153,7 +1166,7 @@ In the Python and TypeScript SDKs, use the tool response method (`generate_tool_
     const client = new Anthropic();
     // ...
     const runner = client.beta.messages.toolRunner({
-      model: "claude-opus-5",
+      model: "claude-opus-5-5",
       max_tokens: 1024,
       tools: [myTool],
       messages: [{ role: "user", content: "Run my_tool with the query 'hello'." }]
@@ -1223,7 +1236,7 @@ In the Python and TypeScript SDKs, use the tool response method (`generate_tool_
     var runner = client.Beta.Messages.ToolRunner(
         new MessageCreateParams
         {
-            Model = Model.ClaudeOpus5,
+            Model = Model.ClaudeOpus5_5,
             MaxTokens = 1024,
             Messages =
             [
@@ -1242,7 +1255,7 @@ In the Python and TypeScript SDKs, use the tool response method (`generate_tool_
   </Tab>
 
   <Tab title="Java">
-    Intercepting tool errors before they're sent to Claude is not currently supported in the Java SDK. The runner catches any exception thrown from a tool's `get()` method and converts it into a tool result with `is_error: true` automatically. To control the error content, catch the exception inside your tool and return a custom string.
+    Intercepting tool errors before they're sent to Claude is not currently supported in the Java SDK. The runner catches any exception thrown from a tool's function and converts it into a tool result with `is_error: true` automatically. To control the error content, catch the exception inside the function and return your own content.
   </Tab>
 
   <Tab title="PHP">
@@ -1254,7 +1267,7 @@ In the Python and TypeScript SDKs, use the tool response method (`generate_tool_
     client = Anthropic::Client.new
     # ...
     runner = client.beta.messages.tool_runner(
-      model: "claude-opus-5",
+      model: "claude-opus-5-5",
       max_tokens: 1024,
       tools: [MyTool.new],
       messages: [{role: "user", content: "Run my_tool with the query 'hello'."}]
@@ -1300,7 +1313,7 @@ In the Python and TypeScript SDKs, use the tool response method to get the tool 
     client = anthropic.Anthropic()
     # ...
     runner = client.beta.messages.tool_runner(
-        model="claude-opus-5",
+        model="claude-opus-5-5",
         max_tokens=1024,
         tools=[search_documents],
         messages=[
@@ -1334,7 +1347,7 @@ In the Python and TypeScript SDKs, use the tool response method to get the tool 
     const client = new Anthropic();
     // ...
     const runner = client.beta.messages.toolRunner({
-      model: "claude-opus-5",
+      model: "claude-opus-5-5",
       max_tokens: 1024,
       tools: [searchDocuments],
       messages: [
@@ -1396,7 +1409,7 @@ In the Python and TypeScript SDKs, use the tool response method to get the tool 
     	[]anthropic.BetaTool{searchDocuments},
     	anthropic.BetaToolRunnerParams{
     		BetaMessageNewParams: anthropic.BetaMessageNewParams{
-    			Model:     anthropic.ModelClaudeOpus5,
+    			Model:     anthropic.ModelClaudeOpus5_5,
     			MaxTokens: 1024,
     			Messages: []anthropic.BetaMessageParam{
     				anthropic.NewBetaUserMessage(anthropic.NewBetaTextBlock(
@@ -1416,25 +1429,24 @@ In the Python and TypeScript SDKs, use the tool response method to get the tool 
   </Tab>
 
   <Tab title="Java">
-    To set `cache_control` on a tool result, return `BetaToolResultBlockParam.Content` from the tool instead of `String` and set `cacheControl` on the inner text block. The runner does not currently support setting `cache_control` on the outer `tool_result` block.
+    To set `cache_control` on a tool result, build the returned `BetaToolResultBlockParam.Content` with `ofBlocks()` instead of `ofString()` and set `cacheControl` on the inner text block. The runner does not currently support setting `cache_control` on the outer `tool_result` block.
 
     ```java
     @JsonClassDescription("Look up reference documentation for a topic")
-    static class SearchDocuments implements Supplier<BetaToolResultBlockParam.Content> {
+    static class SearchDocuments {
         @JsonPropertyDescription("The search query")
         public String query;
-
-        @Override
-        public BetaToolResultBlockParam.Content get() {
-            String largeResult = "..."; // a long document worth caching
-            return BetaToolResultBlockParam.Content.ofBlocks(List.of(
-                    BetaToolResultBlockParam.Content.Block.ofText(
-                            BetaTextBlockParam.builder()
-                                    .text(largeResult)
-                                    .cacheControl(BetaCacheControlEphemeral.builder().build())
-                                    .build())));
-        }
     }
+
+    BetaRunnableTool searchDocuments = BetaRunnableTool.of(SearchDocuments.class, input -> {
+        String largeResult = "..."; // a long document worth caching
+        return BetaToolResultBlockParam.Content.ofBlocks(List.of(
+                BetaToolResultBlockParam.Content.Block.ofText(
+                        BetaTextBlockParam.builder()
+                                .text(largeResult)
+                                .cacheControl(BetaCacheControlEphemeral.builder().build())
+                                .build())));
+    });
     ```
   </Tab>
 
@@ -1449,7 +1461,7 @@ In the Python and TypeScript SDKs, use the tool response method to get the tool 
         messages: [
             ['role' => 'user', 'content' => 'Search for information about the climate of San Francisco.'],
         ],
-        model: Model::CLAUDE_OPUS_5,
+        model: Model::CLAUDE_OPUS_5_5,
         tools: [$searchDocuments],
     );
 
@@ -1485,7 +1497,7 @@ In the Python and TypeScript SDKs, use the tool response method to get the tool 
     client = Anthropic::Client.new
     # ...
     runner = client.beta.messages.tool_runner(
-      model: "claude-opus-5",
+      model: "claude-opus-5-5",
       max_tokens: 1024,
       tools: [SearchDocuments.new],
       messages: [{role: "user", content: "Search for information about the climate of San Francisco"}]
@@ -1531,7 +1543,7 @@ Enable streaming to process each turn's response incrementally. Each iteration y
     client = anthropic.Anthropic()
     # ...
     runner = client.beta.messages.tool_runner(
-        model="claude-opus-5",
+        model="claude-opus-5-5",
         max_tokens=1024,
         tools=[calculate_sum],
         messages=[{"role": "user", "content": "What is 15 + 27?"}],
@@ -1555,7 +1567,7 @@ Enable streaming to process each turn's response incrementally. Each iteration y
     const client = new Anthropic();
     // ...
     const runner = client.beta.messages.toolRunner({
-      model: "claude-opus-5",
+      model: "claude-opus-5-5",
       max_tokens: 1024,
       messages: [{ role: "user", content: "What is the weather in San Francisco?" }],
       tools: [getWeatherTool],
@@ -1583,7 +1595,7 @@ Enable streaming to process each turn's response incrementally. Each iteration y
     var runner = client.Beta.Messages.ToolRunner(
         new MessageCreateParams
         {
-            Model = Model.ClaudeOpus5,
+            Model = Model.ClaudeOpus5_5,
             MaxTokens = 1024,
             Messages =
             [
@@ -1621,7 +1633,7 @@ Enable streaming to process each turn's response incrementally. Each iteration y
     	[]anthropic.BetaTool{calculateSum},
     	anthropic.BetaToolRunnerParams{
     		BetaMessageNewParams: anthropic.BetaMessageNewParams{
-    			Model:     anthropic.ModelClaudeOpus5,
+    			Model:     anthropic.ModelClaudeOpus5_5,
     			MaxTokens: 1024,
     			Messages: []anthropic.BetaMessageParam{
     				anthropic.NewBetaUserMessage(anthropic.NewBetaTextBlock("What is 15 + 27?")),
@@ -1664,11 +1676,11 @@ Enable streaming to process each turn's response incrementally. Each iteration y
         BetaToolRunner runner = client.beta()
                 .messages()
                 .toolRunner(MessageCreateParams.builder()
-                        .model(Model.CLAUDE_OPUS_5)
+                        .model(Model.CLAUDE_OPUS_5_5)
                         .maxTokens(1024)
                         .addBeta("structured-outputs-2025-11-13")
                         .addUserMessage("What is 15 + 27?")
-                        .addTool(CalculateSum.class)
+                        .addTool(calculateSum)
                         .build());
 
         for (StreamResponse<BetaRawMessageStreamEvent> stream : runner.streaming()) {
@@ -1691,7 +1703,7 @@ Enable streaming to process each turn's response incrementally. Each iteration y
     client = Anthropic::Client.new
     # ...
     runner = client.beta.messages.tool_runner(
-      model: "claude-opus-5",
+      model: "claude-opus-5-5",
       max_tokens: 1024,
       tools: [CalculateSum.new],
       messages: [{role: "user", content: "What is 15 + 27?"}]

@@ -30,6 +30,8 @@ predictable fingerprints on how the system interacts with you.
 
 ## Pretraining, fine-tuning, and the fingerprints they leave[](https://academy.claude.com/courses/ai-capabilities-and-limitations/how-ai-gets-its-character)
 
+Diagram: shows two stages that shape an AI model's character, pretraining as raw next-word prediction and fine-tuning as human preferences shaping assistant behavior, with switchable example exchanges illustrating helpful, honest, and harmless responses.
+
 ### How AI Gets Its Character
 
 Two training stages turn raw prediction into the helpful assistant you interact with — and each stage leaves fingerprints on its behavior.
@@ -120,3 +122,43 @@ These aren't bugs in one particular model. They're things that show up in all AI
 Why does this matter to you? Understanding how AI is made and why it behaves the way it does puts you in control when it comes to AI. If your AI assistant caves the moment you push back, that's sycophancy, and you should factor that in when assessing responses. If you're getting essays when you want bullets, that's the verbosity default kicking in. If you're getting heavy caveats on a harmless question, that's over-caution. We'll address what to do about this in the upcoming lessons.
 
 The assistant you talked to wasn't born helpful. That behavior was built layer by layer, and sometimes the seams show. Learning to spot these seams is part of using AI well.
+
+
+## Video transcript
+
+# How AI Gets Its Character
+
+Hi there, my name is Maggie, and I lead the education team at Anthropic. Today I'm here to talk to you about how AI assistants end up with a disposition. We'll look at the two training stages that turn raw prediction into something useful, the fingerprints those stages leave behind, and how knowing those fingerprints helps you get better results.
+
+Why does an AI try to be helpful in the first place? Why is it polite? Why does it refuse certain things? Knowing that an AI predicts the next word doesn't really answer any of that. Helpfulness is built deliberately in layers, and each layer influences your experiences with AI each day.
+
+Modern AI assistants are built in two stages. Stage one is pre-training. The model sees enormous amounts of data and learns one thing. Given everything so far, guess what comes next? That's it, repeated billions of times. Stage two is fine tuning. The document completer from stage one gets trained again, this time on curated examples of helpful behavior and reward signals shaped by human preferences. This is the layer that turns the AI model into an assistant.
+
+Imagine you could talk to a model that had only been through stage one. No fine-tuning at all. You type, "What is the capital of France?" A raw, pre-trained model doesn't answer your question. It continues your document. Maybe it outputs: Paris. What's the capital of Germany? Berlin. What's the capital of Spain? And so on, because it's seen that pattern in quizzes.
+
+Maybe it writes a paragraph from a geography textbook. Maybe it generates more questions. It has no concept of you, no concept of helping. It's purely continuing a document in whatever direction seems statistically likely.
+
+The assistant behavior you actually experience with AI tools today is a trained overlay on top of that. Fine-tuning is what makes generative AI systems usable and useful. But because it relies on human judgments about what good looks like, the texture of those judgments shows up in these models' personalities. Often these personality traits are what make generative AI so effective, but there can be a shadow side to AI's helpfulness.
+
+Four shadow areas are: 1. Sycophancy
+
+When people prefer agreeable responses, the model learns to validate readily and back down under light pushback, even when it was right the first time.
+
+2. Verbosity
+
+When thoroughness scores better during training, the model defaults to longer answers, even when brevity could serve you better for a specific situation.
+
+3. Overcaution
+
+When safety training leans conservative, the model can hedge heavily or refuse requests that are actually safe.
+
+And 4. Loose confidence calibration
+
+The model's stated confidence is only loosely tied to its actual reliability. Confidence is genuinely hard to train, so it's particularly important to be vigilant here.
+
+These aren't bugs in one particular model. They're things that show up in all AI models. However, the quality and type of fine tuning done on a model directly shapes how these things manifest, and it will likely be different from model to model. At Anthropic, we train Claude to be broadly safe, ethical, and helpful. You can even read Claude's entire constitution to see how we train Claude, and how we intentionally shape Claude's personality.
+
+Why does this matter to you? Understanding how AI is made and why it behaves the way it does puts you in control when it comes to AI. If your AI assistant caves the moment you push back, that's sycophancy, and you should factor that in when assessing responses. If you're getting essays when you want bullets, that's the verbosity default kicking in. If you're getting heavy caveats on a harmless question, that's over-caution. We'll address what to do about this in the upcoming lessons.
+
+The assistant you talked to wasn't born helpful. That behavior was built layer by layer, and sometimes the seams show. Learning to spot these seams is part of using AI well.
+

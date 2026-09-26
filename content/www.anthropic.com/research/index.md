@@ -54,6 +54,9 @@ Search
 
 DateCategoryTitle
 
+- [Sep 25, 2026Science
+
+  Yes, Claude can do Nine Loops](https://www.anthropic.com/research/yes-claude-can-do-nine-loops)
 - [Sep 24, 2026Economics
 
   Project Swap: What happens when agents trade for us?](https://www.anthropic.com/research/project-swap)
@@ -81,9 +84,6 @@ DateCategoryTitle
 - [Aug 13, 2026Frontier Red Team
 
   Patterns and problems in emerging multiagent systems](https://www.anthropic.com/research/multiagent-systems)
-- [Aug 12, 2026Economics
-
-  Reviewing the evidence on worker retraining programs](https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs)
 
 [See more](https://www.anthropic.com/research)
 

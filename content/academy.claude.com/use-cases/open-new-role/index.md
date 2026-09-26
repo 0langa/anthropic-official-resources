@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-lbgzsezl.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-crjbtqxa.png)
 
+Film: the user asks Claude, via a Human Resources recruiting skill, to interview them about a new role and draft a specification, reading a template, leveling guide, and team charter to ask judgment-based questions, push back on vague answers, and flag open items for the recruiter.
+
 Open a new role
 
 You are opening a new role and need a spec for the recruiter.

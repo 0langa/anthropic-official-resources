@@ -8,6 +8,8 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-e7bnk7fu.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gpzn7vel.png)
 
+Film: the user asks Claude to synthesize interview transcripts into a findings document with themes, attributed quotes, and open questions, checking in on a borderline call. It ends showing the synthesis scheduled to rerun as new transcripts arrive.
+
 Turn user interviews into findings
 
 Your user interviews are done, and the team needs the findings this week.

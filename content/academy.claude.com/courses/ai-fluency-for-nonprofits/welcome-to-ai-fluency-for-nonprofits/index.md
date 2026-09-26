@@ -127,3 +127,31 @@ What sets nonprofit AI use apart is that your mission always comes first. Every 
 By the end of this course, you'll be able to approach AI with confidence and intentionality. You'll know how to leverage AI to increase your impact and efficiency while staying true to your nonprofit's mission and values.
 
 Let's get started.
+
+
+## Video transcript
+
+# Welcome to AI Fluency for nonprofits
+
+Welcome to AI Fluency for Nonprofits.
+
+Hi, I'm Kelsey Kramer and I'm the Director of Partnerships at Giving Tuesday. Hi, I'm Zoe and I'm on the Education Team at Anthropic.
+
+If you're working in the nonprofit sector, you know what it's like to be stretched thin, to do more with less, wear multiple hats and constantly think about how to maximize your impact with limited resources. You've probably heard that AI can help, but we've learned from talking to thousands of nonprofit professionals that there's a significant gap in what this technology promises and how it's actually showing up in your work. While many nonprofits express enthusiasm about AI adoption, only a handful have achieved meaningful implementation. So if you're feeling unsure about where to start or how to move forward, you're definitely not alone.
+
+This course is designed specifically for you, nonprofit professionals who want to bridge that gap. It's built on research from our community, plus expertise from Anthropic's Research Team. And in the lessons that follow, we're not going to show magic prompts or disconnected demos. Instead, we're going to focus on something we call AI Fluency, which is the ability to work with AI systems in ways that are effective, efficient, ethical, and safe.
+
+AI Fluency includes the practical skills, knowledge, insights, and values that help you adapt to evolving AI technologies while staying true to your nonprofit's mission. So no matter what challenge you face, you can evaluate whether, how, and to what degree AI can be used to support.
+
+At the heart of this course is the 4D Framework created by professors Joseph Feller and Rick Dakan. It consists of four competencies: delegation, description, discernment, and diligence that work together as the foundation of AI Fluency. Think of them as interconnected skills that support your interactions with AI.
+
+Throughout this course, you'll see how these competencies work together in iterative loops. The delegation diligence loop supports you to make thoughtful, responsible choices about when and how to use AI in your nonprofit work, and how to own those choices. While the description discernment loop helps you get more out of your interactions with AI through back and forth collaboration.
+
+In this course, we'll explain these competencies and show you how to apply them to the important work nonprofit leaders do: grant writing, donor communications, data analysis, program reporting, and more. Each lesson includes practical exercises inspired from conversations with our community so that you can see these competencies in action.
+
+What sets nonprofit AI use apart is that your mission always comes first. Every efficiency gain, every automated task, every hour saved should ultimately translate to greater impact for the communities you serve. This course will help you evaluate AI opportunities through that lens. Not just can AI do this, but should AI do this, and how can it advance our mission?
+
+By the end of this course, you'll be able to approach AI with confidence and intentionality. You'll know how to leverage AI to increase your impact and efficiency while staying true to your nonprofit's mission and values.
+
+Let's get started.
+

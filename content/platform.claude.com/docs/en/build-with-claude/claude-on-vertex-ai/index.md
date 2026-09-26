@@ -118,7 +118,9 @@ Lifecycle terms (Deprecated, Retired) are defined in [Model deprecations](https:
 | Model                                                                                                | Agent Platform API model ID  |
 | :--------------------------------------------------------------------------------------------------- | :--------------------------- |
 | Claude Fable 5.1                                                                                     | `claude-fable-5-1`           |
+| Claude Mythos 5.1 ([limited availability](https://anthropic.com/glasswing))                          | `claude-mythos-5-1`          |
 | Claude Fable 5                                                                                       | `claude-fable-5`             |
+| Claude Mythos 5 ([limited availability](https://anthropic.com/glasswing))                            | `claude-mythos-5`            |
 | Claude Opus 5.5                                                                                      | `claude-opus-5-5`            |
 | Claude Opus 5                                                                                        | `claude-opus-5`              |
 | Claude Opus 4.8                                                                                      | `claude-opus-4-8`            |
@@ -412,7 +414,7 @@ Regional and multi-region endpoints include a 10% pricing premium over global en
 
 **Using global endpoints (recommended):**
 
-Set the `region` parameter to `"global"` when initializing the client:
+Set the `region` (php: `location`) parameter to `"global"` when initializing the client:
 
 <CodeGroup>
   ```bash cURL
@@ -601,7 +603,7 @@ Set the `region` parameter to `"global"` when initializing the client:
 
 **Using multi-region endpoints:**
 
-Set the `region` parameter to a multi-region identifier: `"us"` for the United States or `"eu"` for the European Union. The SDK routes requests to the corresponding multi-region endpoint (`https://aiplatform.us.rep.googleapis.com` or `https://aiplatform.eu.rep.googleapis.com`), which dynamically balances traffic across regions within that geography.
+Set the `region` (php: `location`) parameter to a multi-region identifier: `"us"` for the United States or `"eu"` for the European Union. The SDK routes requests to the corresponding multi-region endpoint (`https://aiplatform.us.rep.googleapis.com` or `https://aiplatform.eu.rep.googleapis.com`), which dynamically balances traffic across regions within that geography.
 
 <CodeGroup>
   ```bash cURL

@@ -1,0 +1,89 @@
+import{Nm as e,jm as t}from"../../../../../content-de-meta-mdrrzgmt.js";var n=t(),r=`# Researching with AI
+
+Non-profit leaders spend huge amounts of time gathering information about policies, funding opportunities, community needs, and best practices. AI can dramatically accelerate this process, but only if you know how to guide it effectively and evaluate what it gives you. In this video, we're going to walk through the description discernment loop in practice and explore what it looks like to use AI for research.
+
+We're called that the description discernment loop guides the day-to-day interactions with AI. It's basically you ask AI something, check if what you got back is actually useful and accurate, and then use what you learned to ask better questions. You keep going back and forth like this until you're confident that what you've created accomplishes your goal. But let's not just talk about it. Let's see it in practice.
+
+Here's our hypothetical situation. Moss and Momentum has been operating emergency shelters and transitional housing in Portland for 15 years. They've built deep expertise and strong community relationships. Their executive director, Maria, is looking to expand into Seattle, a new city with different policies, different funding streams, different tenant protection laws. And she's looking for practical, up-to-date information. What programs exist? How do they work? What does this mean for the families that they serve? Are there funding opportunities that they should pursue? Compliance requirements they need to understand?
+
+For the purposes of this example, we'll assume that she has worked through delegation and diligence considerations and is planning to work with AI to create a report on the state of Seattle housing for low-income individuals that they will later use to inform their expansion strategy.
+
+So let's start with description—how Maria communicates with AI to guide her research. She could start with something generic like "tell me about Seattle housing policy," but she'll get an equally generic response. Instead, consider what this challenge might look like if she applied AI fluency.
+
+Starting with product description, Maria should define exactly what she wants: a policy landscape overview organized around specific topics like assistance programs, legislation, compliance, and funding. Then, guiding how AI should approach this. Ask it to focus on recent changes, like the last two years, specific income thresholds, and even request comparisons to Portland system where relevant. Finally, she considers performance. The tone she set is practical and mission-focused. She's not asking for academic analysis. She wants actionable information that connects directly to serving families experiencing homelessness.
+
+And a quick pro tip: if you have a lot of information to share, try dictating or uploading content to establish this context faster.
+
+Now, let's watch as AI provides a comprehensive response covering Seattle's major housing programs, recent tenant protection laws, and available funding sources. The final result looks all right—detailed, well-organized, covering all the points requested. But this is where discernment becomes critical. Maria can't just accept this information at face value. She needs to evaluate it carefully.
+
+Here's her mental checklist as she reviews. Are the program names and descriptions accurate? Are the sources of information legitimate? Are there any claims that are too general or not verifiable? What's missing that she expected to see? How's the tone? Is this calling out opportunities and challenges appropriately?
+
+More than likely, Maria will find areas for revision. But instead of throwing out the whole AI response based on those concerns, Maria should keep working with AI to build towards something that works for her. This might look like: "Thank you for that overview. I need to verify some specifics. It seems like a lot of these sources are news articles. Can you confirm everything from official government websites? Where did these deadlines for funding come from? Point me to the sources where I can verify. I appreciate that this report is centered on the facts. Let's make sure to keep that energy up."
+
+The AI might respond that it needs to search for current sources for verification, or it might acknowledge uncertainty about specific details. Either way, Maria is narrowing in on reliable information through iteration, built on her own expertise in this space.
+
+Let me pause here to highlight some practical discernment strategies that Maria is using. First, she's flagging claims that need extra verification. That's product discernment. Specific numbers, recent legislation, active programs—Maria will want to check these against primary sources before acting on them. Second, she's evaluating gaps in process or reasoning, like whether AI really did look for up-to-date information, or if it just gave you its best guess. She's also observing how AI is behaving—that's performance discernment—to ensure that the AI's communication style is actually serving her needs.
+
+As Maria continues this description discernment loop, refining her questions based on what she learns, evaluating each response critically, she builds a clearer picture of Seattle's housing landscape. But here's what's important: she's not using AI to replace her own thoughtfulness as she approaches her expansion. She's using it to accelerate her understanding so she can make better-informed decisions. But when she needs to use this information in a funding proposal or an outreach, she'll apply diligence to verify what she's learned and own the final result.
+
+So let's pull out the essential lessons from Maria's research process. First, effective description provides context. Maria didn't just ask about housing policy. She explained who she is, who she serves, and what she needs to know. That context helped the AI provide relevant information.
+
+Second, discernment is not optional. You must evaluate AI outputs critically, especially when accuracy matters, as it can make mistakes. Flag specific claims, notice gaps, question recency of information.
+
+Third, the description discernment loop is iterative. Your first prompt rarely gives you everything you need. Use what you learn from evaluating one response to craft better, more targeted follow-up questions.
+
+And finally, AI accelerates research, but it doesn't replace expertise. Maria still needs to apply her professional judgment to every deliverable she owns. AI got her oriented quickly, and that's valuable, but she's still the decision maker.
+
+In our next episode, we'll explore the same description and discernment skills in a different context: writing with AI. You'll see how the loop works when you're creating content rather than gathering information, and we'll think through how to preserve the authenticity that matters so much in nonprofit communications.
+
+Thanks for learning with me today.
+`;function i(t){let i={h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...e(),...t.components},{Exercise:a,ExerciseDeck:s,LessonVideo:c}=i;return a||o("Exercise",!0),s||o("ExerciseDeck",!0),c||o("LessonVideo",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(i.h2,{id:"researching-with-ai",children:"Researching with AI"}),`
+`,(0,n.jsx)(c,{youtubeId:"WB7FArPxgHU",title:"Researching with AI",duration:"7 min",transcript:r,children:(0,n.jsx)(i.p,{children:`This video demonstrates the Description-Discernment loop in action through a
+research scenario. You'll follow Maria, an executive director expanding her
+housing nonprofit from Portland to Seattle, as she uses AI to research
+policy landscapes, funding opportunities, and compliance requirements. The
+video shows how to craft context-rich prompts, evaluate AI outputs
+critically, and iterate toward useful results.`})}),`
+`,(0,n.jsx)(i.h2,{id:"key-takeaways",children:"Key takeaways"}),`
+`,(0,n.jsxs)(i.ul,{children:[`
+`,(0,n.jsxs)(i.li,{children:[(0,n.jsx)(i.strong,{children:"Effective Description provides context"}),": Don't just ask broad questions—explain who you are, who you serve, and what you specifically need to know. This context helps AI provide relevant, actionable information"]}),`
+`,(0,n.jsxs)(i.li,{children:[(0,n.jsx)(i.strong,{children:"Discernment isn't optional"}),": You must evaluate AI outputs critically, especially when accuracy matters. Flag specific claims for verification, notice gaps, and question recency of information"]}),`
+`,(0,n.jsxs)(i.li,{children:[(0,n.jsx)(i.strong,{children:"The Description-Discernment loop is iterative"}),": Your first prompt rarely gives you everything you need. Use what you learn from evaluating each response to craft better, more targeted follow-up questions"]}),`
+`,(0,n.jsxs)(i.li,{children:[(0,n.jsx)(i.strong,{children:"AI accelerates research but doesn't replace expertise"}),": AI can help you get oriented quickly, but you're still the decision-maker who must apply professional judgment to every deliverable you own"]}),`
+`]}),`
+`,(0,n.jsx)(i.h2,{id:"exercises",children:"Exercises"}),`
+`,(0,n.jsxs)(s,{children:[(0,n.jsxs)(a,{title:"Policy and legislation tracking",note:"This exercise helps you practice using Description and Discernment to research policy areas relevant to your nonprofit's work.",children:[(0,n.jsx)(i.p,{children:(0,n.jsx)(i.strong,{children:"Part I: Self-reflection"})}),(0,n.jsx)(i.p,{children:"Choose a policy area relevant to your work (housing policy, education funding, healthcare access, environmental regulations, etc.). Craft a research prompt that includes:"}),(0,n.jsxs)(i.ul,{children:[`
+`,(0,n.jsx)(i.li,{children:"The specific policy or legislation you want to understand"}),`
+`,(0,n.jsx)(i.li,{children:"Your nonprofit's context (who you serve, why this matters to your mission)"}),`
+`,(0,n.jsx)(i.li,{children:"What you need to know (impact on beneficiaries, funding implications, compliance requirements, advocacy opportunities)"}),`
+`,(0,n.jsx)(i.li,{children:"Time frame or geographic scope"}),`
+`]}),(0,n.jsx)(i.p,{children:(0,n.jsx)(i.strong,{children:"Part II: Collaboration"})}),(0,n.jsx)(i.p,{children:"Share your prompt with AI and review the response. Apply Discernment:"}),(0,n.jsxs)(i.ul,{children:[`
+`,(0,n.jsx)(i.li,{children:"Identify at least 2 claims that need verification"}),`
+`,(0,n.jsx)(i.li,{children:"Note any missing perspectives relevant to your communities"}),`
+`,(0,n.jsx)(i.li,{children:"Flag any information that seems outdated or too general"}),`
+`]}),(0,n.jsx)(i.p,{children:(0,n.jsx)(i.strong,{children:"Part III: Reflection"})}),(0,n.jsxs)(i.ul,{children:[`
+`,(0,n.jsx)(i.li,{children:"Did your initial prompt give AI enough context to be useful?"}),`
+`,(0,n.jsx)(i.li,{children:"What would you revise in your prompt for a second attempt?"}),`
+`,(0,n.jsx)(i.li,{children:"What verification steps would you take before using this information in your work?"}),`
+`]}),(0,n.jsxs)(i.p,{children:[(0,n.jsx)(i.strong,{children:"Stretch goal"}),": Ask AI to track down the original source for one key claim in its summary and compare how accurately it was represented."]})]}),(0,n.jsxs)(a,{title:"Donor or grant prospecting",note:"This exercise applies Description and Discernment to fundraising research—a high-stakes area where accuracy is essential.",children:[(0,n.jsx)(i.p,{children:(0,n.jsx)(i.strong,{children:"Part I: Self-reflection"})}),(0,n.jsx)(i.p,{children:"Choose your research focus (for example: grant opportunities for a specific program, corporate donors in your region with relevant giving priorities, or foundation prospects that fund organizations like yours). Craft a research prompt that includes:"}),(0,n.jsxs)(i.ul,{children:[`
+`,(0,n.jsx)(i.li,{children:"Your organization's mission and the specific program/need seeking funding"}),`
+`,(0,n.jsx)(i.li,{children:"Your nonprofit's characteristics (budget size, geographic area, populations served)"}),`
+`,(0,n.jsx)(i.li,{children:"Funding parameters (grant size range, eligible expenses, application timing)"}),`
+`,(0,n.jsx)(i.li,{children:'What makes a "good fit" beyond just topic alignment (values, giving history, accessibility)'}),`
+`]}),(0,n.jsx)(i.p,{children:(0,n.jsx)(i.strong,{children:"Part II: Collaboration"})}),(0,n.jsx)(i.p,{children:"Share your prompt with AI and review the response. Apply Discernment:"}),(0,n.jsxs)(i.ul,{children:[`
+`,(0,n.jsx)(i.li,{children:"Check if suggested funders actually fund organizations of your size/type"}),`
+`,(0,n.jsx)(i.li,{children:"Verify current application deadlines and eligibility requirements"}),`
+`,(0,n.jsx)(i.li,{children:"Identify any outdated information (closed programs, changed priorities)"}),`
+`,(0,n.jsx)(i.li,{children:"Note which prospects align with your values, not just your budget needs"}),`
+`]}),(0,n.jsx)(i.p,{children:(0,n.jsx)(i.strong,{children:"Part III: Reflection"})}),(0,n.jsxs)(i.ul,{children:[`
+`,(0,n.jsx)(i.li,{children:'Did AI understand what makes a funder "aligned" with your mission vs. just topically related?'}),`
+`,(0,n.jsx)(i.li,{children:"What critical details would you need to verify before investing time in an application?"}),`
+`,(0,n.jsx)(i.li,{children:"What's missing from this research that only you (or your network) would know?"}),`
+`]}),(0,n.jsxs)(i.p,{children:[(0,n.jsx)(i.strong,{children:"Stretch goal"}),": Pick one suggested funder and ask AI to help you research their recent grants to understand their actual giving patterns vs. stated priorities."]})]})]}),`
+`,(0,n.jsx)(i.h2,{id:"lesson-reflection",children:"Lesson reflection"}),`
+`,(0,n.jsxs)(i.ul,{children:[`
+`,(0,n.jsx)(i.li,{children:"How did providing context about your nonprofit change the quality of AI's research output compared to a more generic prompt?"}),`
+`,(0,n.jsx)(i.li,{children:"What verification habits will you build into your workflow when using AI for research?"}),`
+`]}),`
+`,(0,n.jsx)(i.h2,{id:"whats-next",children:"What's next"}),`
+`,(0,n.jsx)(i.p,{children:"In the next lesson, we'll explore these same Description and Discernment skills in a different context: writing with AI. You'll see how the loop works when you're creating content rather than gathering information."})]})}function a(t={}){let{wrapper:r}={...e(),...t.components};return r?(0,n.jsx)(r,{...t,children:(0,n.jsx)(i,{...t})}):i(t)}function o(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{a as default};

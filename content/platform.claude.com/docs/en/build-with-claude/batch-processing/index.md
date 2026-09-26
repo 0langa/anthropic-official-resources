@@ -102,6 +102,10 @@ The Batches API offers significant cost savings. All usage is charged at 50% of 
 | Claude Haiku 4.5                                                                                                                      | $0.50 / MTok | $2.50 / MTok  |
 | Claude Haiku 3.5 ([retired, except on Bedrock and Google Cloud](https://platform.claude.com/docs/en/about-claude/model-deprecations)) | $0.40 / MTok | $2 / MTok     |
 
+* **MTok:** Million tokens. $5 / MTok is $5 for every million tokens.
+* **Limited access:** Offered separately, by invitation only, as part of [Project Glasswing](https://anthropic.com/glasswing). For access, contact your Anthropic, AWS, or Google Cloud account team.
+* **Retired:** May still be available on other cloud platforms. See [Model deprecations](https://platform.claude.com/docs/en/about-claude/model-deprecations) for more.
+
 ## How to use the Message Batches API
 
 ### Prepare and create your batch
@@ -442,7 +446,7 @@ When a batch is first created, the response has a processing status of `in_progr
 
 ### Tracking your batch
 
-The Message Batch's `processing_status` field indicates the stage of processing the batch is in. It starts as `in_progress`, then updates to `ended` once all the requests in the batch have finished processing, and results are ready. You can monitor the state of your batch by visiting the [Console](https://platform.claude.com/settings/workspaces/default/batches), or using the [retrieval endpoint](https://platform.claude.com/docs/en/api/retrieving-message-batches).
+The Message Batch's `processing_status` field indicates the stage of processing the batch is in. It starts as `in_progress`, then updates to `ended` once all the requests in the batch have finished processing, and results are ready. You can monitor the state of your batch by visiting the [Console](https://platform.claude.com/settings/workspaces/default/batches), or using the [retrieval endpoint](https://platform.claude.com/docs/en/api/messages/batches/retrieve).
 
 #### Polling for Message Batch completion
 
@@ -600,7 +604,7 @@ To poll a Message Batch, you'll need its `id`, which is provided in the response
 
 ### Listing all Message Batches
 
-You can list all Message Batches in your Workspace using the [list endpoint](https://platform.claude.com/docs/en/api/listing-message-batches). The API supports pagination, automatically fetching additional pages as needed:
+You can list all Message Batches in your Workspace using the [list endpoint](https://platform.claude.com/docs/en/api/messages/batches/list). The API supports pagination, automatically fetching additional pages as needed:
 
 <CodeGroup>
   ```bash cURL
@@ -946,7 +950,7 @@ If your result has an error, its `result.error` will be set to the standard [err
 
 ### Canceling a Message Batch
 
-You can cancel a Message Batch that is currently processing using the [cancel endpoint](https://platform.claude.com/docs/en/api/canceling-message-batches). Immediately after cancellation, a batch's `processing_status` will be `canceling`. You can use the same polling technique described earlier to wait until cancellation is finalized. Canceled batches end up with a status of `ended` and may contain partial results for requests that were processed before cancellation.
+You can cancel a Message Batch that is currently processing using the [cancel endpoint](https://platform.claude.com/docs/en/api/messages/batches/cancel). Immediately after cancellation, a batch's `processing_status` will be `canceling`. You can use the same polling technique described earlier to wait until cancellation is finalized. Canceled batches end up with a status of `ended` and may contain partial results for requests that were processed before cancellation.
 
 <CodeGroup>
   ```bash cURL

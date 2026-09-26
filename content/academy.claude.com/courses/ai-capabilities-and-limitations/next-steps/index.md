@@ -30,6 +30,8 @@ wrong you can recognize which kind of wrong it is and respond accordingly.
 
 ## A small model of the machine[](https://academy.claude.com/courses/ai-capabilities-and-limitations/next-steps)
 
+Diagram: A reference card showing four properties of generative AI—Next Token Prediction, Knowledge, Working Memory, and Steerability—each on a spectrum from capability to limitation, teaching calibrated trust rather than blanket reliance.
+
 ### AI Capabilities and Limitations Framework
 
 Four properties that shape what AI can and can’t do for you. Each sits on a spectrum — the further right, the more you should verify and compensate.
@@ -119,3 +121,35 @@ Keep testing the edges. The models get better. The context windows get bigger. F
 The specific numbers will change. The exact location of each edge will shift as models improve, but the shape of these properties hold. AI will keep being a predictor whose fluency may run ahead of its accuracy. It will keep having uneven knowledge with a cutoff. It will keep working inside a finite window. It will keep following your instructions despite a gap between words and intent. Those facts don't expire when the number version goes up.
 
 You've built a mental model that's durable on purpose. The target keeps moving, and now you know how to track it.
+
+
+## Video transcript
+
+# Next Steps
+
+Hi again, it's Kristen from the education team at Anthropic. When you started this series, you probably had some version of one question: Why does AI do that? But you're leaving with something better than a list of answers. You're leaving with a structure that lets you answer the next, "Why does it do that?" yourself. Models change, features ship, edge cases surprise people. These properties remain. What you've built in this course is the ability to stop being surprised.
+
+Let's take a quick tour back through what you're taking with you. First, models are trained in two stages. Pretraining builds a document completer. Fine-tuning layers an assistant on top. Every behavior you see, helpful or strange, traces back to one of those two fingerprints.
+
+Once models are created, they exhibit four properties: next token prediction, knowledge, working memory, and steerability. Each one is a continuum with a capability zone, a limitation zone, and product features that push the edge further out. The same mechanism is always running. The only thing that changes is where your task lands on the line.
+
+And when something goes wrong, it's almost always two of these properties meeting. A fabricated citation is next token prediction meeting a knowledge gap. Drift over a long conversation is working memory fading while steerability takes new instructions too literally. That's how you diagnose and adjust. It's not "What broke?" but "Which two things collided?"
+
+Now here's what ties all of this together with the 4D Framework you may already know. These two frameworks aren't separate things you have to juggle. The 4Ds are what you do: Delegation, Description, Discernment, and Diligence. The four properties we discussed in this course are what you're responding to when you do them.
+
+Understanding next token prediction makes you better at Discernment because you know that fluency and accuracy are independent variables. Understanding working memory makes you better at Description, because you know context is leverage, and you stop assuming the model remembers everything. Understanding steerability makes you better at Delegation, because you know where control is high, and where it's less precise. The machine layer sharpens the human layer. It's not two different systems. It's just opposite sides of the same coin.
+
+Calibrated trust with AI gets talked about like it's an attitude, but it's actually a habit. It means that before you hand something to an AI, you run a quick internal check. Is this well-worn territory or sparse? Is this topic recent or stable? Is my context window comfortably inside the window? Are my instructions concrete, or is there room between my words and my intent?
+
+And then you adjust. More verification, where fabrication can concentrate. More context, where the model can't guess what you mean. More checkpoints, when reasoning chains run too long. You look for features that can help you extend the capabilities of the models.
+
+You don't trust the AI, but you don't distrust it either. You locate the task, and you set your habits accordingly. That's the true essence of AI Fluency.
+
+So where do you go from here? Practice on real work. The model in your head gets sharper the more you test it against actual output. Pay attention to where your predictions about AI behavior are right and where they're off. Revisit the 4D Framework with fresh eyes if you've already taken that course. The four properties give you a new lens on it. If you haven't, it's the natural next step.
+
+Keep testing the edges. The models get better. The context windows get bigger. Features close gaps that used to be open. The edges move and you find them by pushing on them.
+
+The specific numbers will change. The exact location of each edge will shift as models improve, but the shape of these properties hold. AI will keep being a predictor whose fluency may run ahead of its accuracy. It will keep having uneven knowledge with a cutoff. It will keep working inside a finite window. It will keep following your instructions despite a gap between words and intent. Those facts don't expire when the number version goes up.
+
+You've built a mental model that's durable on purpose. The target keeps moving, and now you know how to track it.
+

@@ -25,7 +25,7 @@ The Models API response can be used to determine information about a specific mo
 
   - `string`
 
-  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 43 more`
+  - `"message-batches-2024-09-24" or "prompt-caching-2024-07-31" or "computer-use-2024-10-22" or 45 more`
 
     - `"message-batches-2024-09-24"`
 
@@ -119,6 +119,10 @@ The Models API response can be used to determine information about a specific mo
 
     - `"compact-2026-09-04"`
 
+    - `"inline-tools-2026-09-15"`
+
+    - `"mcp-client-2026-09-15"`
+
 - `"anthropic-workspace-id": optional string`
 
   Optional header to select the Workspace for this request. The value is a Workspace ID (for example, `wrkspc_011CZkZaBF1tNoB5wlCeusgy`).
@@ -147,7 +151,7 @@ The Models API response can be used to determine information about a specific mo
 
   - `capabilities: BetaModelCapabilities or null`
 
-    Model capability information.
+    Object mapping capability names to their support details. Keys are always present for all known capabilities.
 
     - `batch: BetaCapabilitySupport`
 
@@ -167,9 +171,7 @@ The Models API response can be used to determine information about a specific mo
 
     - `compaction: BetaCompactionCapability or null`
 
-      Compaction capability details: whether the model accepts the top-level
-      `compaction` request parameter, with one entry per supported
-      `compaction.type` value.
+      Server-side compaction support (the top-level `compaction` parameter) and the accepted `compaction.type` values.
 
       - `summarize: BetaCapabilitySupport`
 
@@ -185,15 +187,15 @@ The Models API response can be used to determine information about a specific mo
 
       - `clear_thinking_20251015: BetaCapabilitySupport or null`
 
-        Indicates whether a capability is supported.
+        Whether the clear_thinking_20251015 strategy is supported.
 
       - `clear_tool_uses_20250919: BetaCapabilitySupport or null`
 
-        Indicates whether a capability is supported.
+        Whether the clear_tool_uses_20250919 strategy is supported.
 
       - `compact_20260112: BetaCapabilitySupport or null`
 
-        Indicates whether a capability is supported.
+        Whether the compact_20260112 strategy is supported.
 
       - `supported: boolean`
 
@@ -225,7 +227,7 @@ The Models API response can be used to determine information about a specific mo
 
       - `xhigh: BetaCapabilitySupport or null`
 
-        Indicates whether a capability is supported.
+        Whether the model supports xhigh effort level.
 
     - `image_input: BetaCapabilitySupport`
 

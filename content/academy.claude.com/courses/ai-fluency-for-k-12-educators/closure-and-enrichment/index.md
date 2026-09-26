@@ -104,3 +104,29 @@ And speaking of practice, you can head over and check out use cases created by t
 As you start to experiment with AI, remember that you have access to the 4D Framework. In the next lesson, you can take a short quiz to earn your certificate of completion, which you can share with your colleagues to kick off a conversation about what AI fluency might look like in your school. And lastly, if you haven't already taken it, Anthropic's AI fluency framework and foundations course will provide you with a lot more clarity on the 4D Framework.
 
 So, congratulations on completing the course. We hope it helps you keep supporting your students in ways that feel totally you.
+
+
+## Video transcript
+
+# Closure and enrichment
+
+You've made it to the last lesson, so let's talk about what happens next. The practical steps you can take starting today to put AI fluency to work in your school.
+
+Right now you have real work waiting for you. Maybe it's a set of lesson plans due next week, maybe it's progress reports you've been putting off. Maybe it's three months of student assessment data sitting in a spreadsheet that you haven't had time to analyze.
+
+Here's your final assignment. Pick one of those tasks, just one, and use what you've learned in this course to tackle it with AI support this week.
+
+Start with delegation. Before you even open your computer, think about the task in front of you. What parts benefit from AI support? What parts need you? Your human judgment, your relationships, your deep knowledge of your students. From there, evaluate the privacy and security requirements of that task and choose an AI accordingly.
+
+Once you have a clear picture of the task and the platform, use description to communicate with AI. Offer product details. Tell it about your school, your teaching goals, and who your students are, and what makes your classroom distinct without divulging any sensitive or identifying information. That's description at work. And remember that this is a loop. Describe what you need, get a response, and then evaluate it, and describe again with more clarity based on what you learned.
+
+Finally, there's the outcomes. Before you use or share anything you created with AI, apply diligence to take responsibility for your work. If you're sharing writing, make sure you feel it truly represents your school and your students. Be transparent where it matters. If your use of AI would change someone's perspective on the final product, they might need to know. At the end of the day, you need to vouch for the work that you do. You're not just using AI, you're taking ownership of what it helps you produce.
+
+These four competencies work together every time you use AI. Remember that they're dynamic. You might flow from delegation to description, back to discernment, and realize you actually want to delegate things differently. That's your AI fluency growing through practice.
+
+And speaking of practice, you can head over and check out use cases created by the Anthropic team, covering different types of K-12 education work, including some that we walk through in this course. Use these as guides to support your initial interactions with AI, and reflect on your experience to inform future interactions.
+
+As you start to experiment with AI, remember that you have access to the 4D Framework. In the next lesson, you can take a short quiz to earn your certificate of completion, which you can share with your colleagues to kick off a conversation about what AI fluency might look like in your school. And lastly, if you haven't already taken it, Anthropic's AI fluency framework and foundations course will provide you with a lot more clarity on the 4D Framework.
+
+So, congratulations on completing the course. We hope it helps you keep supporting your students in ways that feel totally you.
+

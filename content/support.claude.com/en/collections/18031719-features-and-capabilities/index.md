@@ -2,7 +2,7 @@
 
 29 articles
 
-[What are artifacts and how do I use them?](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)
+[What are artifacts and how do I use them?](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them)
 
 [Share artifacts](https://support.claude.com/en/articles/9547008-share-artifacts)
 
