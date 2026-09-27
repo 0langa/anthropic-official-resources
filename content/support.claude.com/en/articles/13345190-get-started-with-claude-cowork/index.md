@@ -184,7 +184,7 @@ To set global instructions:
 
 3. Type your instructions in the text box and click "Save":
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1790333100&amp;signature=bfe060fe53d497e80782b9ca1a92dc62e8b96f89a03357011c8f97023892f1ab&amp;req=diUlE8B8m4lYXfMW1HO4zcDl69jvNVKx8iWjaktE940kM%2BqkqBpbEB0ir8cq%0AFKGEuEyFqbizQElwMM0%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1790505900&amp;signature=8225b8a22adf2b1ebf87ac9c49bb8150dd39ef7687d6fc79139f9bdb71d2362f&amp;req=diUlE8B8m4lYXfMW1HO4zcDl69jpNlS58iWjaktE942DkPllARx%2F421ijUHJ%0AfGiHCjyFk2RdDib%2FDXY%3D%0A)
 
 ### Folder instructions
 
@@ -194,7 +194,7 @@ Folder instructions add project-specific context to Cowork when you select a loc
 
 ## Claude Cowork plugins
 
-Plugins customize how Claude works for your role, team, and company in Cowork. Each one bundles skills, connectors, and sub-agents into a single package. For details on finding, installing, and customizing plugins, see **[Use plugins in Cowork](https://support.claude.com/en/articles/13837440-use-plugins-in-cowork)**.
+Plugins customize how Claude works for your role, team, and company. Each one bundles skills, connectors, and sub-agents into a single package. A plugin you add is saved to your account, so it works in chat and Claude Code as well as Cowork. For details on finding, adding, and customizing plugins, see[**Use plugins in Claude**](https://support.claude.com/en/articles/13837440-use-plugins-in-cowork).
 
 ---
 

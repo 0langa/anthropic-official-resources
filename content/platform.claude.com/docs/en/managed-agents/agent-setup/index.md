@@ -28,7 +28,7 @@ Create the agent once as a reusable resource and reference it by ID each time yo
 | `description` | A description of what the agent does.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | `metadata`    | Arbitrary key-value pairs for your own tracking.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
-You can also override `model`, `system`, `tools`, `mcp_servers`, and `skills` for a single session without changing the agent. An `effort` level set inside a per-session `model` override isn't applied, and because the override replaces the agent's `model` object in full, a session created with a `model` override runs at the model's default effort level; to run at a specific effort level, set `effort` on the agent and don't override `model` for that session. See [Override agent configuration for a session](https://platform.claude.com/docs/en/managed-agents/sessions#override-agent-configuration-for-a-session).
+You can also override `model`, `system`, `tools`, `mcp_servers`, and `skills` for a single session without changing the agent. A `model` override replaces the agent's `model` object in full, so the agent's own `effort` isn't carried over. To run the session at a specific effort level, set `effort` inside the override's `model` object. See [Override agent configuration for a session](https://platform.claude.com/docs/en/managed-agents/sessions#override-agent-configuration-for-a-session).
 
 ## Create an agent
 
@@ -54,7 +54,7 @@ The examples use curl, the `ant` CLI, or one of the SDKs. If you haven't set one
   AGENT_VERSION=$(jq -r '.version' <<< "$agent")
   ```
 
-  <MultiFileExample language="cli" label="CLI">
+  <CodeGroupItem>
     ```bash CLI
     ant apply coding-assistant.md
     ```
@@ -71,7 +71,9 @@ The examples use curl, the `ant` CLI, or one of the SDKs. If you haven't set one
       You are a helpful coding agent.
       ```
     </File>
-  </MultiFileExample>
+
+    [`ant apply`](https://platform.claude.com/docs/en/cli-sdks-libraries/cli/apply) creates the agent from `coding-assistant.md`, prints its ID, and records it in `claude-lock.json`. Commit `claude-lock.json` so the next `ant apply` updates this agent instead of creating a second one.
+  </CodeGroupItem>
 
   ```python Python
   agent = client.beta.agents.create(
@@ -163,10 +165,6 @@ The examples use curl, the `ant` CLI, or one of the SDKs. If you haven't set one
     tools: [{type: "agent_toolset_20260401"}]
   )
   ```
-
-  <ForLanguage tab="CLI">
-    [`ant apply`](https://platform.claude.com/docs/en/cli-sdks-libraries/cli/apply) creates the agent from `coding-assistant.md`, prints its ID, and records it in `claude-lock.json`. Commit `claude-lock.json` so the next `ant apply` updates this agent instead of creating a second one.
-  </ForLanguage>
 </CodeGroup>
 
 The response echoes your configuration and adds `id`, `type`, `version`, `created_at`, `updated_at`, and `archived_at` fields, and fills in `model` fields you omit, such as `effort`, with their defaults. The `version` starts at 1 and increments each time an update changes the agent.
@@ -234,7 +232,7 @@ The following example pins an agent to US inference and prints the `inference_ge
   echo "Inference geo: $(jq -r '.model.inference_geo' <<< "$agent")"
   ```
 
-  <MultiFileExample language="cli" label="CLI">
+  <CodeGroupItem>
     ```bash CLI
     ant apply geo-pinned-assistant.md
     ```
@@ -251,7 +249,7 @@ The following example pins an agent to US inference and prints the `inference_ge
       You are a helpful assistant.
       ```
     </File>
-  </MultiFileExample>
+  </CodeGroupItem>
 
   ```python Python
   agent = client.beta.agents.create(
@@ -376,7 +374,7 @@ With the CLI, edit the agent's file and run `ant apply` again; apply supplies `v
   echo "New version: $(jq -r '.version' <<< "$updated_agent")"
   ```
 
-  <MultiFileExample language="cli" label="CLI">
+  <CodeGroupItem>
     ```bash CLI
     ant apply coding-assistant.md
     ```
@@ -393,7 +391,7 @@ With the CLI, edit the agent's file and run `ant apply` again; apply supplies `v
       You are a helpful coding agent. Always write tests.
       ```
     </File>
-  </MultiFileExample>
+  </CodeGroupItem>
 
   ```python Python
   updated_agent = client.beta.agents.update(
@@ -471,7 +469,7 @@ With the CLI, edit the agent's file and run `ant apply` again; apply supplies `v
 
 The preceding example supplies `version` from the create response, so the update only applies if nothing else has changed the agent since you read it. To apply an update unconditionally, omit `version` from the request:
 
-<CodeGroup>
+<CodeGroup exclude="shell:CLI, python, typescript, csharp, go, java, php, ruby">
   ```bash cURL
   updated_agent=$(curl -fsSL "https://api.anthropic.com/v1/agents/$AGENT_ID" \
     -H "x-api-key: $ANTHROPIC_API_KEY" \

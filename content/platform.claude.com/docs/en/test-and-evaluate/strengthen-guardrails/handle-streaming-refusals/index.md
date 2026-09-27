@@ -45,9 +45,7 @@ In the event stream, `stop_details` arrives on the `message_delta` event alongsi
 When you receive **`stop_reason`: `refusal`**, you must reset the conversation context before continuing. You can remove or rephrase the turn that triggered the refusal, or clear the conversation history entirely. Attempting to continue without resetting will result in continued refusals.
 
 <Note>
-  Usage metrics are still provided in the response, even when the response is refused.
-
-  When a refusal arrives before Claude generates any output, you are not billed for the request on the Claude API, and the usage counts in that response are informational only. When Claude generates output before the refusal, you are billed for that request.
+  Usage metrics are still provided in the response, even when the response is refused. Whether a refused request is billed depends on when the refusal arrives and its category; see [How refusals are billed](https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback#how-refusals-are-billed).
 </Note>
 
 <Tip>
@@ -60,7 +58,6 @@ Here's how to detect and handle streaming refusals in your application:
 
 <CodeGroup>
   ```bash cURL
-  # Stream request and check for refusal
   response=$(curl -N https://api.anthropic.com/v1/messages \
     -H "anthropic-version: 2023-06-01" \
     -H "content-type: application/json" \
@@ -72,8 +69,21 @@ Here's how to detect and handle streaming refusals in your application:
       "stream": true
     }')
 
-  # Check for refusal in the stream
-  if echo "$response" | grep -q '"stop_reason":"refusal"'; then
+  if echo "$response" | jq -R -e 'select(startswith("data: "))
+      | sub("^data: "; "") | fromjson
+      | select(.delta.stop_reason == "refusal")' >/dev/null; then
+    echo "Response refused - resetting conversation context"
+    # Reset your conversation state here
+  fi
+  ```
+
+  ```bash CLI
+  response=$(ant messages create --stream --format jsonl \
+    --model claude-opus-5-5 \
+    --max-tokens 1024 \
+    --message '{role: user, content: Hello}')
+
+  if echo "$response" | jq -e 'select(.delta.stop_reason == "refusal")' >/dev/null; then
     echo "Response refused - resetting conversation context"
     # Reset your conversation state here
   fi

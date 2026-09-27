@@ -9981,6 +9981,17 @@
     "text_validation": "complete",
     "title": "Turn ideas into interactive AI-powered apps | Claude by Anthropic"
   },
+  "https://claude.com/blog/build-plugins-for-claude": {
+    "content_notes": [],
+    "format": "html-derived",
+    "language": "en",
+    "path": "content/claude.com/blog/build-plugins-for-claude/index.md",
+    "sha256": "4b68c8c3a369dc9ee8fbdf5b33c0caff3dad8676f441421af40b1149c8fd5e61",
+    "source_url": "https://claude.com/blog/build-plugins-for-claude",
+    "status": "archived",
+    "text_validation": "complete",
+    "title": "Build plugins for Claude with the directory submission portal | Claude by Anthropic"
+  },
   "https://claude.com/blog/build-responsive-web-layouts": {
     "content_notes": [],
     "format": "browser-html",
@@ -13630,7 +13641,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/cross-session-messaging/index.md",
-    "sha256": "4f7af276426bfa649cc29af026494ccfe0be59c8be74b6b7fbaffe7cfc1ef047",
+    "sha256": "298958b7e21e2b8dc1391e86156208345ac2c19dfe8e71d1bfb9017405cb4cff",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Message your other Claude Code sessions"
@@ -16507,7 +16518,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/about-claude/models/overview/index.md",
-    "sha256": "02ebe565bc995c5a251fa578699ea048371cdcc2632b0c4d91541bab0e5c2605",
+    "sha256": "404372e69b13defcb4598bb8a8cfbc359c0c31384d809daf53d75c3ca9316bc3",
     "source_url": "https://platform.claude.com/docs/en/models/overview.md",
     "status": "archived"
   },
@@ -17092,7 +17103,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/index.md",
-    "sha256": "cb7b8a70f8ffbe7d0cb910ca7714e51ef15927f6c6ef7cf65dcb2b4e3de10001",
+    "sha256": "7c0be88d5fa5e6a70a9e546438698ea2c1184e5193e4f6b948ec11e5c3126a44",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization.md",
     "status": "archived"
   },
@@ -17192,7 +17203,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/analytics/index.md",
-    "sha256": "49f89bf4d259ecfd8ae75b156bab62a56d0656f36f80cd24dad753bff4d3db31",
+    "sha256": "4cfb52d6469198c7e52f532938010015aa60c0e1a1abeb54bc0f360b8cd9b0b1",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/analytics.md",
     "status": "archived"
   },
@@ -17222,7 +17233,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/analytics/chat_projects/index.md",
-    "sha256": "df75d509fec2e5a6f4d93e0eafa622ac0182ae45a0a506174defbd3a6dd2c502",
+    "sha256": "fcfad70163f1c3f50c79fa593064663cf537ce994c275080be2cc7bb31decd21",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/analytics/chat_projects.md",
     "status": "archived"
   },
@@ -17232,7 +17243,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/analytics/chat_projects/list/index.md",
-    "sha256": "826c944f47eb8887e3181bc049bcef6408cfa6a3474cedf80f0e2ada3b479b59",
+    "sha256": "8ece917000a1c6913333fe641cba73668d0b5319bdf8b7c6650da9ae4c6f4180",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/analytics/chat_projects/list.md",
     "status": "archived"
   },
@@ -17262,7 +17273,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/analytics/cost/index.md",
-    "sha256": "ef9d007f7dbc8b70b4c9f8487f585c42477fa099a21b963a58339f308155d26e",
+    "sha256": "08f1363adc5727bbaacb9ba1f5b6c2b73403c852b5a4b9523b7c431d2f4d0296",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/analytics/cost.md",
     "status": "archived"
   },
@@ -17282,7 +17293,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/analytics/cost/list_by_user/index.md",
-    "sha256": "857851ebb1b028e7e64e281d1e61043e921ca86aedee0f7e6933a9af6cb4ccd1",
+    "sha256": "36d3e96ee6a951d5ef06337afbfd6bd2f3814a97e2b9317b70b7b5e7dd51a276",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/analytics/cost/list_by_user.md",
     "status": "archived"
   },
@@ -17342,7 +17353,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/analytics/usage/index.md",
-    "sha256": "37881dff4dce9ed9e077558eb78398b3a3a8ae3f9f67811472cffde21b3b51cc",
+    "sha256": "f386a62c433b81400daa0930c1d3f505e1ab467ccd8994299c64344295946d1e",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/analytics/usage.md",
     "status": "archived"
   },
@@ -17362,7 +17373,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/analytics/usage/list_by_user/index.md",
-    "sha256": "b2a7e83328182b512f4b4dad124c63b9cfb5b768e3aa8d593ce90e377f23741a",
+    "sha256": "21754904e4abdf9abcbdbcb0b3226e52295ff5235352f5d009e62272b53285f5",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/analytics/usage/list_by_user.md",
     "status": "archived"
   },
@@ -17372,7 +17383,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/analytics/users/index.md",
-    "sha256": "2d01319b0eac63426c3a62e41dd7343cc495f2259260209d9754c4a953f3f4e3",
+    "sha256": "d4ef947af6c58039dc3c9f858fb0150049b9602ac3859373a25e4b53c45a506f",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/analytics/users.md",
     "status": "archived"
   },
@@ -17382,7 +17393,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/analytics/users/list/index.md",
-    "sha256": "419119d7cb43178601ef05e0858596bfd232c26ee416632736550d3f6b07fb7c",
+    "sha256": "a4588674017d8a869d8a3a8ce2382f5d33dcefdeecff4fdd6c114d576ebfc1c0",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/analytics/users/list.md",
     "status": "archived"
   },
@@ -17392,7 +17403,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/api_keys/index.md",
-    "sha256": "327f034b5fab19e1b59b61556bfe5f0eeca4dd95e4754c3c829a42efdc90979b",
+    "sha256": "00cb8f4b7f184a7df723a4ec9edb13edba56f797faa8a862cd4a94812b333320",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/api_keys.md",
     "status": "archived"
   },
@@ -17402,7 +17413,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/api_keys/list/index.md",
-    "sha256": "d379957b98030ada315fcf23224c7490faf04f6bf4cc06961c4c278d314e6aac",
+    "sha256": "af7174f3e9d6b0519c7b01f48abf003b4431a61af9b29eababf1695ba1bfecad",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/api_keys/list.md",
     "status": "archived"
   },
@@ -17422,7 +17433,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/api_keys/update/index.md",
-    "sha256": "277297b86d0684b1ae2e8cbcb6f4496674b6d183414b76072cbf2548b2e3941b",
+    "sha256": "79aed6eefc7b3d985d91d9ab3f3788df7925ec449a289d686ca03b17e7b1df72",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/api_keys/update.md",
     "status": "archived"
   },
@@ -17432,7 +17443,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/cost_report/index.md",
-    "sha256": "858c1a74cf830ee2dc060ca881c45b0d76dfb33aa3f75b427f7c332771c80e12",
+    "sha256": "40305a30906efb71d84eef76382876f54c991e8761e0cd69a950ce340548ce1c",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/cost_report.md",
     "status": "archived"
   },
@@ -17442,7 +17453,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/cost_report/retrieve/index.md",
-    "sha256": "6daa7c5f764a549b46a934c2d85934b28bd31960abf06ec0c2edffb19ec3096c",
+    "sha256": "978edd3b99c7abdb588f49decfd3f23e3682412467156e12ca6c2cce1180455a",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/cost_report/retrieve.md",
     "status": "archived"
   },
@@ -17452,7 +17463,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/external_keys/index.md",
-    "sha256": "a4d8a993b08c3eba7f294d3898aca14beea43006170c2cd0d4186a157d9e31f5",
+    "sha256": "50c45cf4e3251e46602513fdd27d1b7203bb99a7a5759b31066737b2e14c3f40",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/external_keys.md",
     "status": "archived"
   },
@@ -17462,7 +17473,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/external_keys/create/index.md",
-    "sha256": "c5f67bed1a291f9d235df07ee5088535a5df1a565ca2fd4354a0867dee915e82",
+    "sha256": "01e1e97ca784e90f0245d7165c309e1bbadd61be68b1ca62f56887173cf2a3e4",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/external_keys/create.md",
     "status": "archived"
   },
@@ -17482,7 +17493,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/external_keys/list/index.md",
-    "sha256": "65f0fb65067c10abb4af6af058ff3efa562043c547e85177b19c5fa7a0bffa1d",
+    "sha256": "fa0dd362f253307055622b0d41c0ffd8a25b8f6b878d36ce9187d8705f8516fc",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/external_keys/list.md",
     "status": "archived"
   },
@@ -17502,7 +17513,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/external_keys/update/index.md",
-    "sha256": "80d6a6de0a6dbc25a238948586c98e46b42bbbc4d02ab6ef23f99dde3534d8fb",
+    "sha256": "7772aa50f7cdb69a87c14b630cd76f8107cd2a36bcbc1453bf880d8ad4705134",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/external_keys/update.md",
     "status": "archived"
   },
@@ -17522,7 +17533,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/federation_issuers/index.md",
-    "sha256": "f072a354d9d1453bb10a5298db5e5a3c72c092cde8fd6c2605f5c6b43fbd45eb",
+    "sha256": "01645f318cb9e3de963a9e9f0f92889ab8a9032deef71cda690cf7a6aec10011",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/issuers.md",
     "status": "archived"
   },
@@ -17532,7 +17543,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/federation_issuers/archive/index.md",
-    "sha256": "d6c67d112bb8a281651f029f4e1610489ee1eaf02416241dd6aa59292513d5c3",
+    "sha256": "c8cf4e875e0b5ed1c17de02c162246d31bae984d6c6acdf2424a2590e39cd1cc",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/issuers/archive.md",
     "status": "archived"
   },
@@ -17542,7 +17553,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/federation_issuers/create/index.md",
-    "sha256": "fd9ac4d7c09ef60f23f6777c5055805a42eaa2aa31f57fc38fbc058022213aa5",
+    "sha256": "091af574d8aa900ada9c4302924c4e9256e876de457d3f2065a46e90b5567dd9",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/issuers/create.md",
     "status": "archived"
   },
@@ -17552,7 +17563,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/federation_issuers/list/index.md",
-    "sha256": "885311ea63c67c65cd115bbdbecbd47f973569304430e9fecce5250a1360e444",
+    "sha256": "60e52376e7e7e8911cb4b8ed1c33369060d77159c4b361cacb0746fc45ff57e5",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/issuers/list.md",
     "status": "archived"
   },
@@ -17562,7 +17573,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/federation_issuers/retrieve/index.md",
-    "sha256": "f3d74e65d38af8dbc5d0ad4987187cd11a3725395ef590db10cbc584f2022cec",
+    "sha256": "724a29e8c983b8fc16fa40287c2fd724a484eb83b90fe9e3e9e607548d323aa7",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/issuers/retrieve.md",
     "status": "archived"
   },
@@ -17572,7 +17583,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/federation_issuers/update/index.md",
-    "sha256": "d92e36b455610a303446286010581e404a910c38ac752190fbe52ee95a1edf4e",
+    "sha256": "825c074a5d97707e7d4df3411eb27628c583f1b2e6fcef55bc839c971add1382",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/issuers/update.md",
     "status": "archived"
   },
@@ -17582,7 +17593,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/federation_rules/index.md",
-    "sha256": "38f198dc933b725fc79587eaaa06ae276f91751eedaa7ecee8c6ecedb118fe22",
+    "sha256": "9d3b71a2e9d1f7fc79bbcf800fe02721cb95fb394cc08070858977101618579c",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/rules.md",
     "status": "archived"
   },
@@ -17602,7 +17613,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/federation_rules/create/index.md",
-    "sha256": "5d4a3b025e1b23a01ab5b674f980002b9b969abcf9bc13732aa4e2d77793d733",
+    "sha256": "88b191edea368d322f632fb47318edbf1b4ce7eb2df3ce9d1b24837e1a2b91b0",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/rules/create.md",
     "status": "archived"
   },
@@ -17612,7 +17623,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/federation_rules/list/index.md",
-    "sha256": "feb94ddf3cf5cdafda72b53818008051ba0d44bcf97d5a4a4c3439b8fd896609",
+    "sha256": "aa48f70e8f39bef35c07347675fc590d4797a3d9d3c4b7597578669d4b1f5ad4",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/rules/list.md",
     "status": "archived"
   },
@@ -17632,7 +17643,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/federation_rules/update/index.md",
-    "sha256": "3eb6f4a4c68cf67b529747ed855f1fe0cfdf5fc2fabdc396d75c047ad7a0ec8a",
+    "sha256": "a7a665df85089afc590f2e32178127fa50345a39e8ab0d2b2235ae426c5513e5",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/rules/update.md",
     "status": "archived"
   },
@@ -17642,7 +17653,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/federation_rules/workspaces/index.md",
-    "sha256": "ee3a4d986778567a95e54fa1525274230af5feb699059f36c8c8fc71e9ce321f",
+    "sha256": "84d3739b8d60d989f8a9b4f39ba898fd3f492057fa3b5d35c5401495deaf6fd8",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/rules/workspaces.md",
     "status": "archived"
   },
@@ -17672,7 +17683,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/federation_rules/workspaces/list/index.md",
-    "sha256": "d6f5698ae3cdf096de8c99679e472d73039d979fd94aa741c4db3273c9e0c839",
+    "sha256": "5da491e6e5f81de46b5905ecf25fd30a914c39a5f98cb0ffe1dd8c6bd75dfc23",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/rules/workspaces/list.md",
     "status": "archived"
   },
@@ -17682,7 +17693,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/invites/index.md",
-    "sha256": "aabdb773d31b871fa5aa9d818f1df88a02d7ec6e4962b4c0ceb0cca79793dd2e",
+    "sha256": "57a1a4b490b30d5f687a6cf96f5c5e048cdf03c45a3bc25fe9745028229e6c0d",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/invites.md",
     "status": "archived"
   },
@@ -17712,7 +17723,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/invites/list/index.md",
-    "sha256": "0acbff18a27df8d77da0c0c58c1c5ede0bbf452c7fc43646a45bf61537803019",
+    "sha256": "f0e997d1a8455da9a9a09dfd272c77d08f8d50c1a0ae73204e591ba78d0255ce",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/invites/list.md",
     "status": "archived"
   },
@@ -17732,7 +17743,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/mcp_tunnels/index.md",
-    "sha256": "07ab4b7bd3251970c79f58871e2b6cc342ddce86f049185e667de9b79b22bd65",
+    "sha256": "32d5874f3782bb969df4b90b06eedf8bedb7238402e8d753aa33f4558feedf2b",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/mcp_tunnels.md",
     "status": "archived"
   },
@@ -17752,7 +17763,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/mcp_tunnels/list/index.md",
-    "sha256": "5a4a7cddda3d88fe5c7d246281753fc7ff2d8d0b4f9dd4897f3ab9c81cd3381d",
+    "sha256": "7caa22e3b382c69acb0efd18142dd1789b9cbec2c93802ccdbeaa808abd254b1",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/mcp_tunnels/list.md",
     "status": "archived"
   },
@@ -17792,7 +17803,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/mcp_tunnels/tunnel_certificates/index.md",
-    "sha256": "17b766a3e04ab1e4b193055228f9bdd16c8ab3640925613550949039799567d4",
+    "sha256": "8e034e20fdc8da444a2cee17df6b368193e29d0c909d42151cc8fa573ca3b7bc",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/mcp_tunnels/tunnel_certificates.md",
     "status": "archived"
   },
@@ -17822,7 +17833,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/mcp_tunnels/tunnel_certificates/list/index.md",
-    "sha256": "8e1f37b1b338fba24f7ed7815dd974e41c4b7b33b2688f9ea7301f4556e360e5",
+    "sha256": "5bdab92f45108bfb0c6e66896978a4f705d2d577777ab5cd35d645f38429f73f",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/mcp_tunnels/tunnel_certificates/list.md",
     "status": "archived"
   },
@@ -17842,7 +17853,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/organizations/index.md",
-    "sha256": "4c62c0e976a16e2b3979dde5e52d9f181dad9343b0a523a3472a174958949d48",
+    "sha256": "7c0be88d5fa5e6a70a9e546438698ea2c1184e5193e4f6b948ec11e5c3126a44",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization.md",
     "status": "archived"
   },
@@ -17862,7 +17873,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/rate_limits/index.md",
-    "sha256": "1a006f2b077ddfbb6a98984de573faebb9568a7615ad84e73045e253cba10b69",
+    "sha256": "d9a932477afddc7ffb65389ae42f810577883ab812cfa6de26705c8ba9f09210",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rate_limits.md",
     "status": "archived"
   },
@@ -17872,7 +17883,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/rate_limits/list/index.md",
-    "sha256": "f485f8e535f1cfce62b90836d749866593e1238a54f180e48e61f534e4d28f53",
+    "sha256": "774166c1c680367e897431e5af045af2a2420f5091be6d66bbccda8dde85198f",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rate_limits/list.md",
     "status": "archived"
   },
@@ -17882,7 +17893,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/rbac_groups/index.md",
-    "sha256": "4d094114aba2501e99d8fd98f46247ceb6febf3de90113f4198c2444d443dfb2",
+    "sha256": "2553cadfc5e1aaea1cb7ca75c9a595529fa91e2f382d64e993bc87b2df55b8e3",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_groups.md",
     "status": "archived"
   },
@@ -17892,7 +17903,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/rbac_groups/create/index.md",
-    "sha256": "ed9c1dbf023b0ce07190aac7cba1e7428d5aa76b2568491dbdd2bd182dffb871",
+    "sha256": "97d84e0b13273bffd8a3c044906e45603094bc8c8629ce570d6339115172c7b6",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_groups/create.md",
     "status": "archived"
   },
@@ -17912,7 +17923,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/rbac_groups/list/index.md",
-    "sha256": "598bbd7afef9b71b016064a8182a6381963019eb3d5910cee10c1dee3809a784",
+    "sha256": "463118a3fbfa91fe46166fe802fc79dbc2496dafb02e458173a523bf5cdb7b55",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_groups/list.md",
     "status": "archived"
   },
@@ -17922,7 +17933,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/rbac_groups/members/index.md",
-    "sha256": "4840e642747325c085cee3259d98a0e2d110c47fa940ae28abfeb96bdb0908cd",
+    "sha256": "c247d13089a1f5871eaad37b497316c82cafc09bf0e10cbbd7e04a8797446561",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_groups/members.md",
     "status": "archived"
   },
@@ -17952,7 +17963,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/rbac_groups/members/list/index.md",
-    "sha256": "0224177ef9d1867d64bc167f2157ec211f2877d5906a77a685e120142700e896",
+    "sha256": "8e9b919996eaa310fd868819f866f2977fd0fbdad7d29a8460b92c318742f2c2",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_groups/members/list.md",
     "status": "archived"
   },
@@ -17972,7 +17983,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/rbac_groups/update/index.md",
-    "sha256": "22b6a642febce0fab991032070387bd187fb2208a8a0c0ac7e9901b34f53f5d6",
+    "sha256": "41c53901b5d7b600f310bcefc4078a2275787eaa2c9908b0507db18714e16989",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_groups/update.md",
     "status": "archived"
   },
@@ -17982,7 +17993,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/rbac_roles/index.md",
-    "sha256": "05ffef158c56e3152845333bdbfb01f0c88baf2a946e61565945d8168849b7dc",
+    "sha256": "70d34caed574dcf4a676c73e713c01f892b1be87aa5ed950ee62b9a9ac1fe3ae",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_roles.md",
     "status": "archived"
   },
@@ -17992,7 +18003,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/rbac_roles/list/index.md",
-    "sha256": "908f6f981bd5c15620f4faba30cf072d62a97419c77a71c01bc42ec5aad25306",
+    "sha256": "ecf0671ef1e7ce3ae560ed15700b74a5ad7e9f4d81acc45dc7a9f68d9f4b45fe",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_roles/list.md",
     "status": "archived"
   },
@@ -18002,7 +18013,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/rbac_roles/permissions/index.md",
-    "sha256": "5b4653762935f75f7f1904fa66286297957f8595d179a805a62907217389979c",
+    "sha256": "ad6876b10c223e854f213d04180eda7ee8a879fe9e8df26bd1d3e4aa02dc3588",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_roles/permissions.md",
     "status": "archived"
   },
@@ -18012,7 +18023,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/rbac_roles/permissions/list/index.md",
-    "sha256": "9985e74bcc797a6de207e0ff19dc18a0f6bb5c1c85d4d3591780cad1ced0335e",
+    "sha256": "b990a1361afad08f2ce638069f0f6821f141b7f0755766e863712c7db01d009b",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_roles/permissions/list.md",
     "status": "archived"
   },
@@ -18032,7 +18043,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/service_accounts/index.md",
-    "sha256": "0025b0b04d47f2e594179d6d89c84daae1c86b358d64a3a6bc9375103f81f818",
+    "sha256": "bdce213e7618c8ad9579c00723332f03446577ad9c50e4fa3900f74026294449",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/service_accounts.md",
     "status": "archived"
   },
@@ -18052,7 +18063,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/service_accounts/create/index.md",
-    "sha256": "0160d266bfa533dd9fe478ab3bc59b7cb7e132e400da144522d8db94386f8af0",
+    "sha256": "c192564e5511cbc0a99be3e505e76224fd630aea034f44b6251cbacbd20f8283",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/service_accounts/create.md",
     "status": "archived"
   },
@@ -18062,7 +18073,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/service_accounts/list/index.md",
-    "sha256": "0977d79580e8ae1bd7df97107595a08419bcc9deba1ef09190b7594adadd902a",
+    "sha256": "ea0426752697cc86d6fca59f03aa5d3b8fbbd5a849596ef55c46903d28e6e38f",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/service_accounts/list.md",
     "status": "archived"
   },
@@ -18092,7 +18103,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/service_accounts/workspaces/index.md",
-    "sha256": "399507a869b1eae56d3632c8bcbad844aaa15c9262e9bb808139a4dc02cd4ce2",
+    "sha256": "bea46039ea90e925cb8be72daafd110b6d9a746759abecbda73df5450d70933a",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/service_accounts/workspaces.md",
     "status": "archived"
   },
@@ -18122,7 +18133,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/service_accounts/workspaces/list/index.md",
-    "sha256": "1c28a2e0b53a69a6fc2c0e9714dc0a3829ae4aafb8867209822b2e7d02e68500",
+    "sha256": "c1ec6734ad32bdf1cea022e57523d1be6e1b1d52c99c3a233b13dc91ebc5dc91",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/service_accounts/workspaces/list.md",
     "status": "archived"
   },
@@ -18132,7 +18143,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/spend_limits/index.md",
-    "sha256": "a967b0bb9c26eb869324198cf2acfd506064a9cc99691d122502238e4324e125",
+    "sha256": "4be73339849779a7895479698b6abe87c49f2dde6657c4743e0140856653a7b3",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/spend_limits.md",
     "status": "archived"
   },
@@ -18162,7 +18173,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/spend_limits/increase_requests/index.md",
-    "sha256": "7fb104400e0010f2f76d08c183bb64c1c67ebb8b3b24ddd832a885eb890de799",
+    "sha256": "fc5b28af307bfce6573e3b04c03503d9fe0769076cf8fbb5d70d885dab56590f",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/spend_limits/increase_requests.md",
     "status": "archived"
   },
@@ -18192,7 +18203,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/spend_limits/increase_requests/list/index.md",
-    "sha256": "4b1cb42cd65cbdf6022afa5607b0322d6bef2afd845c0e312dfba5c45cd19c16",
+    "sha256": "f01c22d5c74e1603cf80b73aa72835804b8704984c91bca3b1217dcd348e311f",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/spend_limits/increase_requests/list.md",
     "status": "archived"
   },
@@ -18212,7 +18223,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/spend_limits/list_effective/index.md",
-    "sha256": "67b04c70235fd57e51da610c12f34b7626dd9117d4117e2a9edf6ce82b5bd4ce",
+    "sha256": "8e11643578ffad094de0d48bb0c4bd548861d372120fdbecc7442ccb6cd7970d",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/spend_limits/list_effective.md",
     "status": "archived"
   },
@@ -18232,7 +18243,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/usage_report/index.md",
-    "sha256": "55b0d43d00b4596f92267ad713ecee4a103c3bf17c649319ee99fa6ddee43762",
+    "sha256": "ca0df87ee45ce948861265ffaf8491a7385486a601c19b50b5c69178b2106e43",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/usage_report.md",
     "status": "archived"
   },
@@ -18242,7 +18253,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/usage_report/retrieve_claude_code/index.md",
-    "sha256": "daa5276d6eb3b98f0715eeb07f15103ae10390ce6bc676189bdbf2d84a58b547",
+    "sha256": "e33c7ab88916888c3824d35265dde70c851545059ede49b0b3efeacc4ada6d86",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/usage_report/retrieve_claude_code.md",
     "status": "archived"
   },
@@ -18262,7 +18273,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/users/index.md",
-    "sha256": "33d369365458351385acc1b8ec817a8d3d4830c4a32e1a1413eb231cee0188d3",
+    "sha256": "4d1de552de08b6572176c58da636a8ab685d3a9227b3ac33ef72ef984c349099",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/users.md",
     "status": "archived"
   },
@@ -18282,7 +18293,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/users/list/index.md",
-    "sha256": "42a54e41f93f9a892320b7c52de857b816372fa6ae2036b0c885a9d0d219f275",
+    "sha256": "09c2586cb035f1531d14d1681138ba1bbd56b50874f1a7aa1b23869e09abc0aa",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/users/list.md",
     "status": "archived"
   },
@@ -18312,7 +18323,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/workspaces/index.md",
-    "sha256": "2acc8c3acd83309f636c39f2003aefa207a21810981e61a2b07f54aecf37ae39",
+    "sha256": "50f126e4d4d072b675b56332010b56d98635162213a23a6fddacd99cef7de131",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/workspaces.md",
     "status": "archived"
   },
@@ -18332,7 +18343,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/workspaces/create/index.md",
-    "sha256": "57c8c3c1f2bf982bfc76879c2f45011d6ea171e17630e65d1b19086304510841",
+    "sha256": "323e04550c1eb315726434e8698862a474a50ce446729b9e6b40183e401a495d",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/workspaces/create.md",
     "status": "archived"
   },
@@ -18342,7 +18353,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/workspaces/list/index.md",
-    "sha256": "a6c3937a41bce1778e772bf278d9735b96d56ad013d5c83185b91808c81b5637",
+    "sha256": "ab8ab884bba3e5c5df2573d2cedc53524feac91a1df5bdcd8a83f33a8b21c926",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/workspaces/list.md",
     "status": "archived"
   },
@@ -18352,7 +18363,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/workspaces/members/index.md",
-    "sha256": "f72711de78683feb99267ee70754384d59e20cce624b63755c3de07d17fb04c2",
+    "sha256": "f9cd771d6dbf3edeadfd9ca054bd15efcbd4fa20086b09727277dea9657a85dc",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/workspaces/members.md",
     "status": "archived"
   },
@@ -18382,7 +18393,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/workspaces/members/list/index.md",
-    "sha256": "e5b1c520bf1f23b3f37832a3c0ea5e06ecf43b713531795ddb08773c50788a74",
+    "sha256": "3a00c8f7e224c20af603b6d56f3fbf5c7fdb1b13da79074807e84833aff070f6",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/workspaces/members/list.md",
     "status": "archived"
   },
@@ -18412,7 +18423,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/workspaces/rate_limits/index.md",
-    "sha256": "98df3e2ea8805e9a7c5e81e4f3163441cc8b6b78fda14b250d9256fda0607f14",
+    "sha256": "206e4012c9cd1cefe142e55da31e1383945145dc29c3e28af05fb65d62122def",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/workspaces/rate_limits.md",
     "status": "archived"
   },
@@ -18422,7 +18433,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/workspaces/rate_limits/list/index.md",
-    "sha256": "2554f31a3cc76db67d3e73cba6913687cd3898cb04e92109b921231295f75603",
+    "sha256": "c371d6c13abab202ba4170198819cd318cdb14a2a00f5bf8181b1b77ea34a5f1",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/workspaces/rate_limits/list.md",
     "status": "archived"
   },
@@ -18442,7 +18453,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/workspaces/service_accounts/index.md",
-    "sha256": "0305fc3223e8b75dd6a42d395c3931df814017c88a1e15407b7b35edd6630b60",
+    "sha256": "92528589279adb8716d14a76a4403f2098a7a877b18a446b63d87d05364c1cdf",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/workspaces/service_accounts.md",
     "status": "archived"
   },
@@ -18472,7 +18483,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/workspaces/service_accounts/list/index.md",
-    "sha256": "f3deaff73f19aa45f0b02ab36c986945fdb2742ba5c2b6345c0118dc4791826b",
+    "sha256": "44c3c4a54f6b0a076169c0e28ed4a688fb82872419463096f380ffb7b0acf415",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/workspaces/service_accounts/list.md",
     "status": "archived"
   },
@@ -18502,7 +18513,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/admin/workspaces/update/index.md",
-    "sha256": "de648a7d7cc9183579c1251f917d271e808671302f7a26683d4222d635d424db",
+    "sha256": "721ff66894634a2e87d7f2641777e37ae68b6323f3c3112781b8fe652f0f63bf",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/workspaces/update.md",
     "status": "archived"
   },
@@ -22223,7 +22234,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/analytics/index.md",
-    "sha256": "49f89bf4d259ecfd8ae75b156bab62a56d0656f36f80cd24dad753bff4d3db31",
+    "sha256": "4cfb52d6469198c7e52f532938010015aa60c0e1a1abeb54bc0f360b8cd9b0b1",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/analytics.md",
     "status": "archived"
   },
@@ -22253,7 +22264,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/analytics/chat_projects/index.md",
-    "sha256": "df75d509fec2e5a6f4d93e0eafa622ac0182ae45a0a506174defbd3a6dd2c502",
+    "sha256": "fcfad70163f1c3f50c79fa593064663cf537ce994c275080be2cc7bb31decd21",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/analytics/chat_projects.md",
     "status": "archived"
   },
@@ -22263,7 +22274,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/analytics/chat_projects/list/index.md",
-    "sha256": "826c944f47eb8887e3181bc049bcef6408cfa6a3474cedf80f0e2ada3b479b59",
+    "sha256": "8ece917000a1c6913333fe641cba73668d0b5319bdf8b7c6650da9ae4c6f4180",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/analytics/chat_projects/list.md",
     "status": "archived"
   },
@@ -22293,7 +22304,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/analytics/cost/index.md",
-    "sha256": "ef9d007f7dbc8b70b4c9f8487f585c42477fa099a21b963a58339f308155d26e",
+    "sha256": "08f1363adc5727bbaacb9ba1f5b6c2b73403c852b5a4b9523b7c431d2f4d0296",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/analytics/cost.md",
     "status": "archived"
   },
@@ -22313,7 +22324,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/analytics/cost/list_by_user/index.md",
-    "sha256": "857851ebb1b028e7e64e281d1e61043e921ca86aedee0f7e6933a9af6cb4ccd1",
+    "sha256": "36d3e96ee6a951d5ef06337afbfd6bd2f3814a97e2b9317b70b7b5e7dd51a276",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/analytics/cost/list_by_user.md",
     "status": "archived"
   },
@@ -22373,7 +22384,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/analytics/usage/index.md",
-    "sha256": "37881dff4dce9ed9e077558eb78398b3a3a8ae3f9f67811472cffde21b3b51cc",
+    "sha256": "f386a62c433b81400daa0930c1d3f505e1ab467ccd8994299c64344295946d1e",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/analytics/usage.md",
     "status": "archived"
   },
@@ -22393,7 +22404,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/analytics/usage/list_by_user/index.md",
-    "sha256": "b2a7e83328182b512f4b4dad124c63b9cfb5b768e3aa8d593ce90e377f23741a",
+    "sha256": "21754904e4abdf9abcbdbcb0b3226e52295ff5235352f5d009e62272b53285f5",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/analytics/usage/list_by_user.md",
     "status": "archived"
   },
@@ -22403,7 +22414,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/analytics/users/index.md",
-    "sha256": "2d01319b0eac63426c3a62e41dd7343cc495f2259260209d9754c4a953f3f4e3",
+    "sha256": "d4ef947af6c58039dc3c9f858fb0150049b9602ac3859373a25e4b53c45a506f",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/analytics/users.md",
     "status": "archived"
   },
@@ -22413,7 +22424,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/analytics/users/list/index.md",
-    "sha256": "419119d7cb43178601ef05e0858596bfd232c26ee416632736550d3f6b07fb7c",
+    "sha256": "a4588674017d8a869d8a3a8ce2382f5d33dcefdeecff4fdd6c114d576ebfc1c0",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/analytics/users/list.md",
     "status": "archived"
   },
@@ -22423,7 +22434,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/api_keys/index.md",
-    "sha256": "327f034b5fab19e1b59b61556bfe5f0eeca4dd95e4754c3c829a42efdc90979b",
+    "sha256": "00cb8f4b7f184a7df723a4ec9edb13edba56f797faa8a862cd4a94812b333320",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/api_keys.md",
     "status": "archived"
   },
@@ -22433,7 +22444,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/api_keys/list/index.md",
-    "sha256": "d379957b98030ada315fcf23224c7490faf04f6bf4cc06961c4c278d314e6aac",
+    "sha256": "af7174f3e9d6b0519c7b01f48abf003b4431a61af9b29eababf1695ba1bfecad",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/api_keys/list.md",
     "status": "archived"
   },
@@ -22453,7 +22464,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/api_keys/update/index.md",
-    "sha256": "277297b86d0684b1ae2e8cbcb6f4496674b6d183414b76072cbf2548b2e3941b",
+    "sha256": "79aed6eefc7b3d985d91d9ab3f3788df7925ec449a289d686ca03b17e7b1df72",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/api_keys/update.md",
     "status": "archived"
   },
@@ -22463,7 +22474,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/cost_report/index.md",
-    "sha256": "02b6abcb0574f449b158713b14791ad0d91d75c7bc89ad28a00b036266dbe05c",
+    "sha256": "40305a30906efb71d84eef76382876f54c991e8761e0cd69a950ce340548ce1c",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/cost_report.md",
     "status": "archived"
   },
@@ -22483,7 +22494,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/external_keys/index.md",
-    "sha256": "a4d8a993b08c3eba7f294d3898aca14beea43006170c2cd0d4186a157d9e31f5",
+    "sha256": "50c45cf4e3251e46602513fdd27d1b7203bb99a7a5759b31066737b2e14c3f40",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/external_keys.md",
     "status": "archived"
   },
@@ -22493,7 +22504,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/external_keys/create/index.md",
-    "sha256": "c5f67bed1a291f9d235df07ee5088535a5df1a565ca2fd4354a0867dee915e82",
+    "sha256": "01e1e97ca784e90f0245d7165c309e1bbadd61be68b1ca62f56887173cf2a3e4",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/external_keys/create.md",
     "status": "archived"
   },
@@ -22513,7 +22524,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/external_keys/list/index.md",
-    "sha256": "65f0fb65067c10abb4af6af058ff3efa562043c547e85177b19c5fa7a0bffa1d",
+    "sha256": "fa0dd362f253307055622b0d41c0ffd8a25b8f6b878d36ce9187d8705f8516fc",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/external_keys/list.md",
     "status": "archived"
   },
@@ -22533,7 +22544,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/external_keys/update/index.md",
-    "sha256": "80d6a6de0a6dbc25a238948586c98e46b42bbbc4d02ab6ef23f99dde3534d8fb",
+    "sha256": "7772aa50f7cdb69a87c14b630cd76f8107cd2a36bcbc1453bf880d8ad4705134",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/external_keys/update.md",
     "status": "archived"
   },
@@ -22553,7 +22564,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/federation_issuers/index.md",
-    "sha256": "f072a354d9d1453bb10a5298db5e5a3c72c092cde8fd6c2605f5c6b43fbd45eb",
+    "sha256": "01645f318cb9e3de963a9e9f0f92889ab8a9032deef71cda690cf7a6aec10011",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/issuers.md",
     "status": "archived"
   },
@@ -22563,7 +22574,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/federation_issuers/archive/index.md",
-    "sha256": "d6c67d112bb8a281651f029f4e1610489ee1eaf02416241dd6aa59292513d5c3",
+    "sha256": "c8cf4e875e0b5ed1c17de02c162246d31bae984d6c6acdf2424a2590e39cd1cc",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/issuers/archive.md",
     "status": "archived"
   },
@@ -22573,7 +22584,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/federation_issuers/create/index.md",
-    "sha256": "fd9ac4d7c09ef60f23f6777c5055805a42eaa2aa31f57fc38fbc058022213aa5",
+    "sha256": "091af574d8aa900ada9c4302924c4e9256e876de457d3f2065a46e90b5567dd9",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/issuers/create.md",
     "status": "archived"
   },
@@ -22583,7 +22594,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/federation_issuers/list/index.md",
-    "sha256": "885311ea63c67c65cd115bbdbecbd47f973569304430e9fecce5250a1360e444",
+    "sha256": "60e52376e7e7e8911cb4b8ed1c33369060d77159c4b361cacb0746fc45ff57e5",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/issuers/list.md",
     "status": "archived"
   },
@@ -22593,7 +22604,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/federation_issuers/retrieve/index.md",
-    "sha256": "f3d74e65d38af8dbc5d0ad4987187cd11a3725395ef590db10cbc584f2022cec",
+    "sha256": "724a29e8c983b8fc16fa40287c2fd724a484eb83b90fe9e3e9e607548d323aa7",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/issuers/retrieve.md",
     "status": "archived"
   },
@@ -22603,7 +22614,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/federation_issuers/update/index.md",
-    "sha256": "d92e36b455610a303446286010581e404a910c38ac752190fbe52ee95a1edf4e",
+    "sha256": "825c074a5d97707e7d4df3411eb27628c583f1b2e6fcef55bc839c971add1382",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/issuers/update.md",
     "status": "archived"
   },
@@ -22613,7 +22624,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/federation_rules/index.md",
-    "sha256": "38f198dc933b725fc79587eaaa06ae276f91751eedaa7ecee8c6ecedb118fe22",
+    "sha256": "9d3b71a2e9d1f7fc79bbcf800fe02721cb95fb394cc08070858977101618579c",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/rules.md",
     "status": "archived"
   },
@@ -22633,7 +22644,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/federation_rules/create/index.md",
-    "sha256": "5d4a3b025e1b23a01ab5b674f980002b9b969abcf9bc13732aa4e2d77793d733",
+    "sha256": "88b191edea368d322f632fb47318edbf1b4ce7eb2df3ce9d1b24837e1a2b91b0",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/rules/create.md",
     "status": "archived"
   },
@@ -22643,7 +22654,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/federation_rules/list/index.md",
-    "sha256": "feb94ddf3cf5cdafda72b53818008051ba0d44bcf97d5a4a4c3439b8fd896609",
+    "sha256": "aa48f70e8f39bef35c07347675fc590d4797a3d9d3c4b7597578669d4b1f5ad4",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/rules/list.md",
     "status": "archived"
   },
@@ -22663,7 +22674,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/federation_rules/update/index.md",
-    "sha256": "3eb6f4a4c68cf67b529747ed855f1fe0cfdf5fc2fabdc396d75c047ad7a0ec8a",
+    "sha256": "a7a665df85089afc590f2e32178127fa50345a39e8ab0d2b2235ae426c5513e5",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/rules/update.md",
     "status": "archived"
   },
@@ -22673,7 +22684,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/federation_rules/workspaces/index.md",
-    "sha256": "ee3a4d986778567a95e54fa1525274230af5feb699059f36c8c8fc71e9ce321f",
+    "sha256": "84d3739b8d60d989f8a9b4f39ba898fd3f492057fa3b5d35c5401495deaf6fd8",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/rules/workspaces.md",
     "status": "archived"
   },
@@ -22703,7 +22714,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/federation_rules/workspaces/list/index.md",
-    "sha256": "d6f5698ae3cdf096de8c99679e472d73039d979fd94aa741c4db3273c9e0c839",
+    "sha256": "5da491e6e5f81de46b5905ecf25fd30a914c39a5f98cb0ffe1dd8c6bd75dfc23",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/federation/rules/workspaces/list.md",
     "status": "archived"
   },
@@ -22713,7 +22724,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/invites/index.md",
-    "sha256": "aabdb773d31b871fa5aa9d818f1df88a02d7ec6e4962b4c0ceb0cca79793dd2e",
+    "sha256": "57a1a4b490b30d5f687a6cf96f5c5e048cdf03c45a3bc25fe9745028229e6c0d",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/invites.md",
     "status": "archived"
   },
@@ -22743,7 +22754,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/invites/list/index.md",
-    "sha256": "0acbff18a27df8d77da0c0c58c1c5ede0bbf452c7fc43646a45bf61537803019",
+    "sha256": "f0e997d1a8455da9a9a09dfd272c77d08f8d50c1a0ae73204e591ba78d0255ce",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/invites/list.md",
     "status": "archived"
   },
@@ -22763,7 +22774,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/mcp_tunnels/index.md",
-    "sha256": "07ab4b7bd3251970c79f58871e2b6cc342ddce86f049185e667de9b79b22bd65",
+    "sha256": "32d5874f3782bb969df4b90b06eedf8bedb7238402e8d753aa33f4558feedf2b",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/mcp_tunnels.md",
     "status": "archived"
   },
@@ -22783,7 +22794,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/mcp_tunnels/list/index.md",
-    "sha256": "5a4a7cddda3d88fe5c7d246281753fc7ff2d8d0b4f9dd4897f3ab9c81cd3381d",
+    "sha256": "7caa22e3b382c69acb0efd18142dd1789b9cbec2c93802ccdbeaa808abd254b1",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/mcp_tunnels/list.md",
     "status": "archived"
   },
@@ -22823,7 +22834,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/mcp_tunnels/tunnel_certificates/index.md",
-    "sha256": "17b766a3e04ab1e4b193055228f9bdd16c8ab3640925613550949039799567d4",
+    "sha256": "8e034e20fdc8da444a2cee17df6b368193e29d0c909d42151cc8fa573ca3b7bc",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/mcp_tunnels/tunnel_certificates.md",
     "status": "archived"
   },
@@ -22853,7 +22864,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/mcp_tunnels/tunnel_certificates/list/index.md",
-    "sha256": "8e1f37b1b338fba24f7ed7815dd974e41c4b7b33b2688f9ea7301f4556e360e5",
+    "sha256": "5bdab92f45108bfb0c6e66896978a4f705d2d577777ab5cd35d645f38429f73f",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/mcp_tunnels/tunnel_certificates/list.md",
     "status": "archived"
   },
@@ -22873,7 +22884,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/organizations/index.md",
-    "sha256": "4c62c0e976a16e2b3979dde5e52d9f181dad9343b0a523a3472a174958949d48",
+    "sha256": "7c0be88d5fa5e6a70a9e546438698ea2c1184e5193e4f6b948ec11e5c3126a44",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization.md",
     "status": "archived"
   },
@@ -22893,7 +22904,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/rate_limits/index.md",
-    "sha256": "1a006f2b077ddfbb6a98984de573faebb9568a7615ad84e73045e253cba10b69",
+    "sha256": "d9a932477afddc7ffb65389ae42f810577883ab812cfa6de26705c8ba9f09210",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rate_limits.md",
     "status": "archived"
   },
@@ -22903,7 +22914,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/rate_limits/list/index.md",
-    "sha256": "f485f8e535f1cfce62b90836d749866593e1238a54f180e48e61f534e4d28f53",
+    "sha256": "774166c1c680367e897431e5af045af2a2420f5091be6d66bbccda8dde85198f",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rate_limits/list.md",
     "status": "archived"
   },
@@ -22913,7 +22924,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/rbac_groups/index.md",
-    "sha256": "4d094114aba2501e99d8fd98f46247ceb6febf3de90113f4198c2444d443dfb2",
+    "sha256": "2553cadfc5e1aaea1cb7ca75c9a595529fa91e2f382d64e993bc87b2df55b8e3",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_groups.md",
     "status": "archived"
   },
@@ -22923,7 +22934,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/rbac_groups/create/index.md",
-    "sha256": "ed9c1dbf023b0ce07190aac7cba1e7428d5aa76b2568491dbdd2bd182dffb871",
+    "sha256": "97d84e0b13273bffd8a3c044906e45603094bc8c8629ce570d6339115172c7b6",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_groups/create.md",
     "status": "archived"
   },
@@ -22943,7 +22954,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/rbac_groups/list/index.md",
-    "sha256": "598bbd7afef9b71b016064a8182a6381963019eb3d5910cee10c1dee3809a784",
+    "sha256": "463118a3fbfa91fe46166fe802fc79dbc2496dafb02e458173a523bf5cdb7b55",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_groups/list.md",
     "status": "archived"
   },
@@ -22953,7 +22964,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/rbac_groups/members/index.md",
-    "sha256": "4840e642747325c085cee3259d98a0e2d110c47fa940ae28abfeb96bdb0908cd",
+    "sha256": "c247d13089a1f5871eaad37b497316c82cafc09bf0e10cbbd7e04a8797446561",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_groups/members.md",
     "status": "archived"
   },
@@ -22983,7 +22994,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/rbac_groups/members/list/index.md",
-    "sha256": "0224177ef9d1867d64bc167f2157ec211f2877d5906a77a685e120142700e896",
+    "sha256": "8e9b919996eaa310fd868819f866f2977fd0fbdad7d29a8460b92c318742f2c2",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_groups/members/list.md",
     "status": "archived"
   },
@@ -23003,7 +23014,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/rbac_groups/update/index.md",
-    "sha256": "22b6a642febce0fab991032070387bd187fb2208a8a0c0ac7e9901b34f53f5d6",
+    "sha256": "41c53901b5d7b600f310bcefc4078a2275787eaa2c9908b0507db18714e16989",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_groups/update.md",
     "status": "archived"
   },
@@ -23013,7 +23024,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/rbac_roles/index.md",
-    "sha256": "05ffef158c56e3152845333bdbfb01f0c88baf2a946e61565945d8168849b7dc",
+    "sha256": "70d34caed574dcf4a676c73e713c01f892b1be87aa5ed950ee62b9a9ac1fe3ae",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_roles.md",
     "status": "archived"
   },
@@ -23023,7 +23034,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/rbac_roles/list/index.md",
-    "sha256": "908f6f981bd5c15620f4faba30cf072d62a97419c77a71c01bc42ec5aad25306",
+    "sha256": "ecf0671ef1e7ce3ae560ed15700b74a5ad7e9f4d81acc45dc7a9f68d9f4b45fe",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_roles/list.md",
     "status": "archived"
   },
@@ -23033,7 +23044,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/rbac_roles/permissions/index.md",
-    "sha256": "5b4653762935f75f7f1904fa66286297957f8595d179a805a62907217389979c",
+    "sha256": "ad6876b10c223e854f213d04180eda7ee8a879fe9e8df26bd1d3e4aa02dc3588",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_roles/permissions.md",
     "status": "archived"
   },
@@ -23043,7 +23054,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/rbac_roles/permissions/list/index.md",
-    "sha256": "9985e74bcc797a6de207e0ff19dc18a0f6bb5c1c85d4d3591780cad1ced0335e",
+    "sha256": "b990a1361afad08f2ce638069f0f6821f141b7f0755766e863712c7db01d009b",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/rbac_roles/permissions/list.md",
     "status": "archived"
   },
@@ -23063,7 +23074,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/service_accounts/index.md",
-    "sha256": "0025b0b04d47f2e594179d6d89c84daae1c86b358d64a3a6bc9375103f81f818",
+    "sha256": "bdce213e7618c8ad9579c00723332f03446577ad9c50e4fa3900f74026294449",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/service_accounts.md",
     "status": "archived"
   },
@@ -23083,7 +23094,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/service_accounts/create/index.md",
-    "sha256": "0160d266bfa533dd9fe478ab3bc59b7cb7e132e400da144522d8db94386f8af0",
+    "sha256": "c192564e5511cbc0a99be3e505e76224fd630aea034f44b6251cbacbd20f8283",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/service_accounts/create.md",
     "status": "archived"
   },
@@ -23093,7 +23104,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/service_accounts/list/index.md",
-    "sha256": "0977d79580e8ae1bd7df97107595a08419bcc9deba1ef09190b7594adadd902a",
+    "sha256": "ea0426752697cc86d6fca59f03aa5d3b8fbbd5a849596ef55c46903d28e6e38f",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/service_accounts/list.md",
     "status": "archived"
   },
@@ -23123,7 +23134,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/service_accounts/workspaces/index.md",
-    "sha256": "399507a869b1eae56d3632c8bcbad844aaa15c9262e9bb808139a4dc02cd4ce2",
+    "sha256": "bea46039ea90e925cb8be72daafd110b6d9a746759abecbda73df5450d70933a",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/service_accounts/workspaces.md",
     "status": "archived"
   },
@@ -23153,7 +23164,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/service_accounts/workspaces/list/index.md",
-    "sha256": "1c28a2e0b53a69a6fc2c0e9714dc0a3829ae4aafb8867209822b2e7d02e68500",
+    "sha256": "c1ec6734ad32bdf1cea022e57523d1be6e1b1d52c99c3a233b13dc91ebc5dc91",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/service_accounts/workspaces/list.md",
     "status": "archived"
   },
@@ -23163,7 +23174,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/http/admin/spend_limits/index.md",
-    "sha256": "a967b0bb9c26eb869324198cf2acfd506064a9cc99691d122502238e4324e125",
+    "sha256": "4be73339849779a7895479698b6abe87c49f2dde6657c4743e0140856653a7b3",
     "source_url": "https://platform.claude.com/docs/en/api/beta/organization/spend_limits.md",
     "status": "archived"
   },
@@ -27363,7 +27374,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/messages-count-tokens/index.md",
-    "sha256": "f47c6bfa86677aad162898c9e3a5916b5d8e08ca35a602b94fa00e3871816803",
+    "sha256": "c8c6edd752524a023c3b99b7e8fbeda77d9e6b89b966f99942ff6d096a6bda1b",
     "source_url": "https://platform.claude.com/docs/en/api/messages/count_tokens.md",
     "status": "archived"
   },
@@ -27543,7 +27554,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/api/sdks/python/index.md",
-    "sha256": "959455748209dbb369af90156e93d59015631cbd903a4ae77946efb17475eb07",
+    "sha256": "34497fb2e868393f49261685f51ca61fcb85fab785093ac2734326ce1a371ce3",
     "source_url": "https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/python.md",
     "status": "archived"
   },
@@ -27683,7 +27694,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/adaptive-thinking/index.md",
-    "sha256": "272beaba772c26267c7c03be39a42c775d1ab54548dbe5fae3dfb4e9609f0d6a",
+    "sha256": "77a3c015084155915ce820e8811f9d349f12914bda2706f4d9d3de7b4308af2e",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost.md",
     "status": "archived"
   },
@@ -27693,7 +27704,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/administration-api/index.md",
-    "sha256": "026549ad2a971101b1a1b5a7a7c266a280366c418e80b6675b85651e2ff6aa5c",
+    "sha256": "c65cee90237cfcb9890c933512dca156af9bf2185e1e3b35414d9efd605ac781",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/admin-api.md",
     "status": "archived"
   },
@@ -27743,7 +27754,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/claude-code-analytics-api/index.md",
-    "sha256": "8622f7df75bec97e76112222f7bf54c06d45ba9cff764b63b2a57b189dcaec7e",
+    "sha256": "bea387016c517c514e9bc52f0c5dece1514daab34deda966c8bc762ae875884d",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api.md",
     "status": "archived"
   },
@@ -27933,7 +27944,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/fast-mode/index.md",
-    "sha256": "c23e9562b6c76c530dd95ca51578a360bbf0304166839fef2f8ec38db746e913",
+    "sha256": "0da77a837eec6e109639aead4141e64dd1b5000fde6aab7b9a858a327d45ad92",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode.md",
     "status": "archived"
   },
@@ -27943,7 +27954,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/files/index.md",
-    "sha256": "79172f65dcf5cee3c6abb5a8aaa2c52d9cd40af6d6942d0c7a6ed6b2f9abc54b",
+    "sha256": "f690dae2509d85a6277147f015cac984103e165dd17e8d7ef4708890b8e942ab",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/files.md",
     "status": "archived"
   },
@@ -27953,7 +27964,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/handling-stop-reasons/index.md",
-    "sha256": "108ddfa230582e6f04a52506a4034cbf440d5e3e22968fbf0492ed926f438207",
+    "sha256": "02b0138d6f9e86f33f0dec44d9cdc21f40c0b460dfe8d05a429333b437434133",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons.md",
     "status": "archived"
   },
@@ -27963,7 +27974,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/mid-conversation-effort-example/index.md",
-    "sha256": "1399cad72afb9b080ba85fbde0a565dc3fd2e3697296a3e45aa29469e789bd19",
+    "sha256": "b230541f521d6645510e19e69c8f56b5e9566b2328a9b47d076dcc0084c819b9",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-effort-example.md",
     "status": "archived"
   },
@@ -27973,7 +27984,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages/index.md",
-    "sha256": "2aabdd3452bfeafb064e10f85b7eda182445e301a580e115df557a96987b45cb",
+    "sha256": "56b74b995ab9bccafb4cef0960216d0311c78195699baefe3b9e1668386e9f70",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages.md",
     "status": "archived"
   },
@@ -27993,7 +28004,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/overview/index.md",
-    "sha256": "cf729a468253092a0deaf8224452ffd50fd5ac687c2604f1b882e01ce7de094a",
+    "sha256": "fdcb76800f58cc44697c0471892a52cf0186f3b03516d0c1d4eddb3ecfde63fa",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/overview.md",
     "status": "archived"
   },
@@ -28013,7 +28024,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/preserved-thinking/index.md",
-    "sha256": "e5eb57c7c801b71037f2aa64d5745d96d146030cb744a7958bdbf7ca23f4fe20",
+    "sha256": "a93aaa211a4ca45a1dea9532f77f43652d3bf2b6e01ca14298277089e0f09457",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking.md",
     "status": "archived"
   },
@@ -28023,7 +28034,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/prompt-caching/index.md",
-    "sha256": "cdcfe69704609cb028959d3a676cdf15fc4d56f10738d92638f50527403993e2",
+    "sha256": "e1eee7d99ee05c380b15d3f11ae0bf3162b4b5cec08fa484b703c97aaef95e51",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching.md",
     "status": "archived"
   },
@@ -28043,7 +28054,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices/index.md",
-    "sha256": "c6a1c885c7ce4e590a7e3bccc16ad07585f19740124c54a9041b9a34ccc35793",
+    "sha256": "d8da822f28a9df98f90c206466a5e808a561a3c6e9f948c3a44f27998f54cf12",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices.md",
     "status": "archived"
   },
@@ -28063,7 +28074,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5/index.md",
-    "sha256": "cfa1c5d6e2d27731febc2c4ce5845f9439d9dabf99b4cb0192cc9a1be6e7e594",
+    "sha256": "44732ba550fc55f13c061d47f755169246f9b4872a7f51fe63a6c9985503313e",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5.md",
     "status": "archived"
   },
@@ -28073,7 +28084,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1/index.md",
-    "sha256": "a9bb027ffcac9ec0291660c2c1a6334f128927f6d83cbac121f9a24c5e2cc0f9",
+    "sha256": "26221728e1acfce699d973c7cf9667a4ae6c5a9ab26a3134a357768e86cf3553",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1.md",
     "status": "archived"
   },
@@ -28083,7 +28094,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-4-8/index.md",
-    "sha256": "ed0c1c467d33ebffcea4b2616514a6464dc61c9c6f9892478c44538d30c44d86",
+    "sha256": "9f67fae4a2a5037da7517cdab7691c61b6c85760dc089146160475579a243b3a",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-4-8.md",
     "status": "archived"
   },
@@ -28093,7 +28104,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5/index.md",
-    "sha256": "65be3e0b437cbe23cc41bb4f9b7a5031c5a71cd49ab91ec4d19c62738762b086",
+    "sha256": "643499b80e34139a5007226a31908d64a65a2d64f08275d502e64ccd43a8413e",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5.md",
     "status": "archived"
   },
@@ -28123,7 +28134,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/refusals-and-fallback/index.md",
-    "sha256": "cf167930ec76f8ed91ddd6e9a961c38fd6bec9d6bc0489d67e47267d96ae210e",
+    "sha256": "3fe9d2fb0ad062126b2269e871a5d78bbe63749b33bb189f5c6e64c423911e78",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback.md",
     "status": "archived"
   },
@@ -28143,7 +28154,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/skills-guide/index.md",
-    "sha256": "2e7a415530755b4a9dc41e9bea73bd80f31f382f489cf6dbe201414e90cd0fbe",
+    "sha256": "7691f762188a7ed80367887abe0140bf165498e5c4587e5b4cc742da0c06787b",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/skills-guide.md",
     "status": "archived"
   },
@@ -28153,7 +28164,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/streaming/index.md",
-    "sha256": "bf074517dc11caac65c76ef1642106581bac3ec0f31d94cacc84ea0a3c2a5f1d",
+    "sha256": "f5804447e2e24ce5589b9f16eafff273cfc7d66f7afa026c9f4c76d841be0bbd",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/streaming.md",
     "status": "archived"
   },
@@ -28163,7 +28174,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/structured-outputs/index.md",
-    "sha256": "9fffac3003afcaad222c0b4d6a66a865c607ad0ef38c82fdc402fddee73ad4e7",
+    "sha256": "7baaa39b2fb8d7ef3c55302f4c78fc1588787b98dfd1abac402100a6dcaecc7a",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs.md",
     "status": "archived"
   },
@@ -28173,7 +28184,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/task-budgets/index.md",
-    "sha256": "ab87d1554f79582062c7b96b2e8fdf51fd7ce5762c357877ed0df81600a2b321",
+    "sha256": "af4cf1f5775a76df6608ffe6fa42dd918be536a681d53ebb36f04c3a97774074",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/task-budgets.md",
     "status": "archived"
   },
@@ -28183,7 +28194,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/thinking/index.md",
-    "sha256": "84dfb480c0895528e56205ab570c872c5769609cc47df2ee92f973a22e59f2a5",
+    "sha256": "83e88221517bc29e812179108424c5f0ac740407a18625730de3e8e9bb5ec8dd",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/thinking.md",
     "status": "archived"
   },
@@ -28193,7 +28204,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost/index.md",
-    "sha256": "272beaba772c26267c7c03be39a42c775d1ab54548dbe5fae3dfb4e9609f0d6a",
+    "sha256": "77a3c015084155915ce820e8811f9d349f12914bda2706f4d9d3de7b4308af2e",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost.md",
     "status": "archived"
   },
@@ -28203,7 +28214,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/thinking-tool-workflows/index.md",
-    "sha256": "6115e95e9d463e6ef7317bf3fb52975984a71361837ddafc406d02d557bff705",
+    "sha256": "2b102ea78a61cb61adf5ba7533b1f659308347bdffc1ea7b92667bddd5a490fe",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/thinking-tool-workflows.md",
     "status": "archived"
   },
@@ -28223,7 +28234,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/token-counting/index.md",
-    "sha256": "2073ae628faeec0cfc1d3f35a88bc0deb69e0b4041d65f320ea238b755bff356",
+    "sha256": "ca86383ad8addf1ee9b2f47f9f578737cf203a4eec175a7bef3fd8b8314e95ce",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/token-counting.md",
     "status": "archived"
   },
@@ -28233,7 +28244,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/usage-cost-api/index.md",
-    "sha256": "fed8954b980ee6bb6b5e620203325bbdaa7a68c3ed8b56c6cd3379d6823d1f0a",
+    "sha256": "6fc4e69822630b64f7c97848c567d81bc06902a7789aec34f7436b3303280532",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/usage-cost-api.md",
     "status": "archived"
   },
@@ -28263,7 +28274,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/working-with-messages/index.md",
-    "sha256": "83d4a1fd3e423704edcb73f5ea91a20dd85e0431e1958cf6b0fa8ea17fcec2ea",
+    "sha256": "23dc8de41509a4995cf0cc66c9fc667d2442d66e20d1ad7e0386713b7eb02ec4",
     "source_url": "https://platform.claude.com/docs/en/build-with-claude/working-with-messages.md",
     "status": "archived"
   },
@@ -28273,7 +28284,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/workload-identity-federation/index.md",
-    "sha256": "2d8822d18e12e5dc9503dce2a9c1d2940f810f524bda8e3deed13b9c762005ff",
+    "sha256": "6e82ac6d8dd10452c0d12fc5bc9b26b9d47ded548f5b22f206df7b6e61a03bef",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/workload-identity-federation.md",
     "status": "archived"
   },
@@ -28283,7 +28294,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/build-with-claude/workspaces/index.md",
-    "sha256": "333ab95edd3be1c81d933c4fff05d95f7892cd68cd32bb2dcbeb386f27a4c413",
+    "sha256": "7d46b7118139534cacfd4e02b8f0c470d3a3c1239db9fe031c0299ed45c4caf3",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/workspaces.md",
     "status": "archived"
   },
@@ -28293,7 +28304,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/claude_api_primer/index.md",
-    "sha256": "f711d6675ece4fc9f05ec8088fb33147c1b7ca43680d78060bec6b0bf04690d5",
+    "sha256": "604b7f8025d718b270bc31f64364a9f5eaa1b69595afab0e48c148dbc0ae94ac",
     "source_url": "https://platform.claude.com/docs/en/claude_api_primer.md",
     "status": "archived"
   },
@@ -28303,7 +28314,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/cli-sdks-libraries/cli/apply/index.md",
-    "sha256": "e8b6e90ae9218711da6903f3fec960dc35b931822578081dcaec25eaa64f3084",
+    "sha256": "f8200ce454300d13681d2e969fc459930d3fbf2c5989888facbb22220c5bace9",
     "source_url": "https://platform.claude.com/docs/en/cli-sdks-libraries/cli/apply.md",
     "status": "archived"
   },
@@ -28443,7 +28454,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/cli-sdks-libraries/sdks/python/index.md",
-    "sha256": "959455748209dbb369af90156e93d59015631cbd903a4ae77946efb17475eb07",
+    "sha256": "34497fb2e868393f49261685f51ca61fcb85fab785093ac2734326ce1a371ce3",
     "source_url": "https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/python.md",
     "status": "archived"
   },
@@ -28473,7 +28484,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/get-api-key/index.md",
-    "sha256": "643207981709e18a128810e8b8415ede8fbee91a11b2d50922867d2f902cf7a1",
+    "sha256": "3ce34b86f26a23bdde9157c8712bbf83cb88420f0d8b01a309acb85e639c4d0d",
     "source_url": "https://platform.claude.com/docs/en/get-api-key.md",
     "status": "archived"
   },
@@ -28493,7 +28504,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/home/index.md",
-    "sha256": "11efe7d54610db4d7798fbd9c45f84959bc08be69705d5c63e4aea7dfb85e146",
+    "sha256": "3d1ddcfb90d9c166f863fee7fad6591d9be4d6075f1e86545751aef094e85965",
     "source_url": "https://platform.claude.com/docs/en/home.md",
     "status": "archived"
   },
@@ -28523,7 +28534,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/admin-api/index.md",
-    "sha256": "026549ad2a971101b1a1b5a7a7c266a280366c418e80b6675b85651e2ff6aa5c",
+    "sha256": "c65cee90237cfcb9890c933512dca156af9bf2185e1e3b35414d9efd605ac781",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/admin-api.md",
     "status": "archived"
   },
@@ -28543,7 +28554,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/analytics-api/index.md",
-    "sha256": "dbe0b187a2ccfc550d8ce3761383c9dce6f880a70475ce05284d64b09c5d2b57",
+    "sha256": "ce316bddc857117d2642d8c0959dc2711904e7e5842e85218bf0010d1f31687e",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/analytics-api.md",
     "status": "archived"
   },
@@ -28573,7 +28584,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/authentication/index.md",
-    "sha256": "2c4e1df42fae302c3d0214e857abf9eff825b13858e1130f8dc92d15ef8f0a27",
+    "sha256": "5c6531e3e53e5743ee4ab5f43cc459d04517d8ca24b10e2539caca3e0d4f602e",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/authentication.md",
     "status": "archived"
   },
@@ -28583,7 +28594,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/claude-code-analytics-api/index.md",
-    "sha256": "8622f7df75bec97e76112222f7bf54c06d45ba9cff764b63b2a57b189dcaec7e",
+    "sha256": "bea387016c517c514e9bc52f0c5dece1514daab34deda966c8bc762ae875884d",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api.md",
     "status": "archived"
   },
@@ -28603,7 +28614,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/cmek-aws-kms/index.md",
-    "sha256": "d033ea41d39dcf179fde695a09a64a7b982bb6c8897b13b39e09d0592fbc71e8",
+    "sha256": "baa0b399403eb7e3ea19bc726957204f0b638a8bc31e8c4755318cf483260066",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/cmek-aws-kms.md",
     "status": "archived"
   },
@@ -28613,7 +28624,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/cmek-azure-key-vault/index.md",
-    "sha256": "0c5e7cf6045186e1b17eb9f7bcff8a6984e422144c7d25c4950b92fe46b89cac",
+    "sha256": "67681efdeefa620bee61435d57bb9f7d9352ad00574b3e1007dfeebf153dd43d",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/cmek-azure-key-vault.md",
     "status": "archived"
   },
@@ -28623,7 +28634,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/cmek-google-cloud-kms/index.md",
-    "sha256": "4e10ee71eabfc8ea9e511901eb7fdc40da5f552fb0077350d72a4f0f57dfa4d5",
+    "sha256": "9f8510d5ad8d23abe72a764b6640cad1b31dc0686c336f3ce23deec638e8139e",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/cmek-google-cloud-kms.md",
     "status": "archived"
   },
@@ -28633,7 +28644,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/compliance-activity-feed/index.md",
-    "sha256": "d07d3279819a203489b9ee78dd17d0dcc90e116b496c623057cdaca5e5a50c75",
+    "sha256": "fd751d12d84cca61efec25250c9e507ca827e28f3b953ea10d5db2cbd02335b8",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/compliance-activity-feed.md",
     "status": "archived"
   },
@@ -28663,7 +28674,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/compliance-content-data/index.md",
-    "sha256": "50b713c77489b9bd72fff625b372f90c5bed06fcc24acff5fbfccda9a9868ee1",
+    "sha256": "8dffffcb1aa7638949e4f155b98ae307a2094d9bbff62927fb2f64e440deb00e",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/compliance-content-data.md",
     "status": "archived"
   },
@@ -28673,7 +28684,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/compliance-errors/index.md",
-    "sha256": "66c840cec9771de1fd49e213a183c2705dfbf00a87c5a3575cf4ba0016786da8",
+    "sha256": "6dfc710e50175b18c223966dc76ab63dc4c7d8632dcb9d5ea7622b1350d4a636",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/compliance-errors.md",
     "status": "archived"
   },
@@ -28683,7 +28694,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/compliance-faq/index.md",
-    "sha256": "976c6cd1f0dd3a5a154750cad05f6f219de3f21714c1409767053d511df5f7fd",
+    "sha256": "a4edd8b9215c6b85c51e036f459d92fb46c9a73f26cb394ab89df7d7d40731da",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/compliance-faq.md",
     "status": "archived"
   },
@@ -28713,7 +28724,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/compliance-sessions/index.md",
-    "sha256": "9fdf6a6b9417d65fdde3975512f75e6d1e42fffdee32cbb25b2036d736105380",
+    "sha256": "d89807cc6c694be830e248a22da4dbf912dc0e2a0b731f05a0058a9aad419cd4",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/compliance-sessions.md",
     "status": "archived"
   },
@@ -28733,7 +28744,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/inference-hooks/index.md",
-    "sha256": "37468f6b8f43a0aa668a58b45ab34113ebfc936594b6898c706a263050970fd3",
+    "sha256": "339b51a72519c2ecc8c7edd85f87c8df62e8b9fe903f876c7767d6303562a090",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/inference-hooks.md",
     "status": "archived"
   },
@@ -28763,7 +28774,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/rate-limits-api/index.md",
-    "sha256": "52a12a68ebc33aaa9d9b4f12b7430c817d5a81bb17f6f88759e00a11994c8f77",
+    "sha256": "4736da1211dd0cdaf1f0ceaaf24091fc9fe5251d1a19a6fd86e126f22497b4ad",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/rate-limits-api.md",
     "status": "archived"
   },
@@ -28773,7 +28784,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/spend-limits-api/index.md",
-    "sha256": "d50ac0f3c3e6481004982185f705b168b2f207670d84345efa89554f31d6f838",
+    "sha256": "527b3cddfa65f7b086c83c3f6b568285d502f442d708cab83a0a61ae25ce616e",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/spend-limits-api.md",
     "status": "archived"
   },
@@ -28783,7 +28794,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/usage-cost-api/index.md",
-    "sha256": "fed8954b980ee6bb6b5e620203325bbdaa7a68c3ed8b56c6cd3379d6823d1f0a",
+    "sha256": "6fc4e69822630b64f7c97848c567d81bc06902a7789aec34f7436b3303280532",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/usage-cost-api.md",
     "status": "archived"
   },
@@ -28793,7 +28804,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/user-management/index.md",
-    "sha256": "15605a8c8f35640a56d1330fc6a1015df33b8d725ad28d66bbd1c14fee519871",
+    "sha256": "c01141ba6eb4fe68a7243f9ebff09747fd321c06b49e8451d0cc8740633507d7",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/user-management.md",
     "status": "archived"
   },
@@ -28803,7 +28814,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/wif-admin-api/index.md",
-    "sha256": "c07be3aa1af5afd5b7c58697cabe61a63f969f5a3791a4b8893aad759094309f",
+    "sha256": "a6bf6ba9b6e9570d58e1ed4ed2e6235ed6c8a393650365be5dc07de7c10fd816",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/wif-admin-api.md",
     "status": "archived"
   },
@@ -28813,7 +28824,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/wif-providers/aws/index.md",
-    "sha256": "1c57aea5912c2973c625c39c49129e007e677ba4fba87e8a2a64071be7bb25b6",
+    "sha256": "00cc0fb5acdf3886e8bb88ff112b58981a34f61dac1111e1edf794789f1e3538",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/aws.md",
     "status": "archived"
   },
@@ -28823,7 +28834,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/wif-providers/azure/index.md",
-    "sha256": "1d2c110443ce246ab8cb33b479ad48eb2c96ad19fb5f75a95b2325c759014158",
+    "sha256": "3d26a741d0eca252f1f550f5a1e4065be2e23ffb0c77bac15c86d80ebffa3294",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/azure.md",
     "status": "archived"
   },
@@ -28833,7 +28844,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/wif-providers/gcp/index.md",
-    "sha256": "baa41ebb3eaee1dbe742e4c88410e6adec310134b68b9dfc0f0b6791f827a3a6",
+    "sha256": "46b248db6c52f30c82f0035c845e4fa710bb9777af52eaed5d459cb94b3d2a58",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/gcp.md",
     "status": "archived"
   },
@@ -28843,7 +28854,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/wif-providers/github-actions/index.md",
-    "sha256": "c6fa761afc833b3c5cbf1147ce8b1384fbf3748bfe471beec800b7bee4a1740a",
+    "sha256": "edc97bf1872a1292911b08600aadfc494295009cc6db1da232279dae46c0429b",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/github-actions.md",
     "status": "archived"
   },
@@ -28863,7 +28874,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/wif-providers/okta/index.md",
-    "sha256": "8fd428bb2a67bd6608a6da67196c59779b0c189dc21161e1b938ca85571e71a3",
+    "sha256": "631c4abcb8c84a90319b2428e35e26ffff1e573237e0e993f1c72ce09261030a",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/okta.md",
     "status": "archived"
   },
@@ -28883,7 +28894,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/wif-reference/index.md",
-    "sha256": "80e00e8e12907de319b079e77639b55fa7df0849f7096c23a2ba205f415842a2",
+    "sha256": "929e246fc67df2fd0a6299fc0f51d0126ef170f801b02f731b7fc0c64a686e0c",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/wif-reference.md",
     "status": "archived"
   },
@@ -28893,7 +28904,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/workload-identity-federation/index.md",
-    "sha256": "2d8822d18e12e5dc9503dce2a9c1d2940f810f524bda8e3deed13b9c762005ff",
+    "sha256": "6e82ac6d8dd10452c0d12fc5bc9b26b9d47ded548f5b22f206df7b6e61a03bef",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/workload-identity-federation.md",
     "status": "archived"
   },
@@ -28903,7 +28914,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/manage-claude/workspaces/index.md",
-    "sha256": "333ab95edd3be1c81d933c4fff05d95f7892cd68cd32bb2dcbeb386f27a4c413",
+    "sha256": "7d46b7118139534cacfd4e02b8f0c470d3a3c1239db9fe031c0299ed45c4caf3",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/workspaces.md",
     "status": "archived"
   },
@@ -28913,7 +28924,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/managed-agents/agent-setup/index.md",
-    "sha256": "79238f7545cc38dcb4c1cb629022147e5ed5caf01af627205bde049c6a5323e7",
+    "sha256": "33eabb6ef7e7c299ad09de35e53133c22d592581132a8eb1fa0fcfdc33323784",
     "source_url": "https://platform.claude.com/docs/en/managed-agents/agent-setup.md",
     "status": "archived"
   },
@@ -28963,7 +28974,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/managed-agents/environments/index.md",
-    "sha256": "6cd4bc2a797cc6c370b41cfc1ab47be631f1db6d53cd941cfffbc82333abf2be",
+    "sha256": "e9e5308bba5c9031e45352ba9602d92cf22e32c615b7cfba6c1c0e9dec128771",
     "source_url": "https://platform.claude.com/docs/en/managed-agents/environments.md",
     "status": "archived"
   },
@@ -28983,7 +28994,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/managed-agents/files/index.md",
-    "sha256": "d391d1645e833b6d3a5b53f56f9b6abbcb9c23ee5f0ec3698397d4c67a82d2ca",
+    "sha256": "ce34c97479ba2f0deb1784ca7a8687d8bc296fecab26b5fa416aedbc4eafdfaa",
     "source_url": "https://platform.claude.com/docs/en/managed-agents/files.md",
     "status": "archived"
   },
@@ -28993,7 +29004,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/managed-agents/github/index.md",
-    "sha256": "0e0edb0c2b7b12f76538d221a1161e6b7948addad00b27f018b43f2a821cb194",
+    "sha256": "6be1aebe6111eb33c8ec7c3ec54a7f8d085eb0df053994dd892d53ffe219ac59",
     "source_url": "https://platform.claude.com/docs/en/managed-agents/github.md",
     "status": "archived"
   },
@@ -29003,7 +29014,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/managed-agents/mcp-connector/index.md",
-    "sha256": "989ac26886b58e9b9899a60f3f1b9992c12593393343d4f49b71ed49a0f4039a",
+    "sha256": "d031db2d6caae127d8b07b3375f4ffe6ada87ff31adc21884d5a2a5ed6d78e1c",
     "source_url": "https://platform.claude.com/docs/en/managed-agents/mcp-connector.md",
     "status": "archived"
   },
@@ -29013,7 +29024,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/managed-agents/memory/index.md",
-    "sha256": "e891666e88e2349506a291f1a9879dbcf0abaa9c0f55c85e9e75ef3d64a5094c",
+    "sha256": "faea4c84df2f6a2c4109c7e048289a822ffab3be17793f9e59c7477b8c8b9fc1",
     "source_url": "https://platform.claude.com/docs/en/managed-agents/memory.md",
     "status": "archived"
   },
@@ -29023,7 +29034,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/managed-agents/migration/index.md",
-    "sha256": "ddca8831ed7e462375678373264963ebb8abbf26828eb8a99360804875cae03c",
+    "sha256": "811000609672ba8f8c8f58747a2c17b4207e066a6050462fcf7491e1394f9790",
     "source_url": "https://platform.claude.com/docs/en/managed-agents/migration.md",
     "status": "archived"
   },
@@ -29033,7 +29044,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/managed-agents/multi-agent/index.md",
-    "sha256": "48c1ecfec89d18b2cc0b679bcbe52b9a7e06d797fef6c5dda36c3ee6f582ed62",
+    "sha256": "1c25cc7bb3d930c84ea7a07cef33a6cfa692fcb85ac1f43778260b55fd8c4bfd",
     "source_url": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration.md",
     "status": "archived"
   },
@@ -29043,7 +29054,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/managed-agents/multiagent-orchestration/index.md",
-    "sha256": "48c1ecfec89d18b2cc0b679bcbe52b9a7e06d797fef6c5dda36c3ee6f582ed62",
+    "sha256": "1c25cc7bb3d930c84ea7a07cef33a6cfa692fcb85ac1f43778260b55fd8c4bfd",
     "source_url": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration.md",
     "status": "archived"
   },
@@ -29073,7 +29084,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/managed-agents/permission-policies/index.md",
-    "sha256": "9d5ca4daea9160444708cc227eec7883645a54d239e1bb337fb5b757ae52c963",
+    "sha256": "f95183cd68589436e6c96296703505b34484ace0970de9928a354a5bfd696ab8",
     "source_url": "https://platform.claude.com/docs/en/managed-agents/permission-policies.md",
     "status": "archived"
   },
@@ -29083,7 +29094,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/managed-agents/quickstart/index.md",
-    "sha256": "e58825e2225d2ad16f28e64eb2bdc1167230db951d4829b4ef2e702e421a36ae",
+    "sha256": "cf8ff974724dfa4a375289df358d9ce53357f352b4832aa321f1cebf570c1b0b",
     "source_url": "https://platform.claude.com/docs/en/managed-agents/quickstart.md",
     "status": "archived"
   },
@@ -29093,7 +29104,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/managed-agents/reference/index.md",
-    "sha256": "ea1090f6a98822545145900b4dd9efe3d1d91bb3bacf2c790a427f7d6e8c709d",
+    "sha256": "1d1977446e44c5153c058d169e53bcd868bbfde73b65bc97ed5ccffe722b6c45",
     "source_url": "https://platform.claude.com/docs/en/managed-agents/reference.md",
     "status": "archived"
   },
@@ -29103,7 +29114,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/managed-agents/scheduled-deployments/index.md",
-    "sha256": "5659b30426695bceb19a049ed7f6ac9016d0a9b04a81795825079a3b9d0c9afb",
+    "sha256": "f77ad0b2f48441f41115206b6dd41f056ec62eebf7cc9375609903b0d003ac49",
     "source_url": "https://platform.claude.com/docs/en/managed-agents/scheduled-deployments.md",
     "status": "archived"
   },
@@ -29113,7 +29124,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes/index.md",
-    "sha256": "c1fe36356ac394606c395b39d071355fbd4c583e98418c861e40815f57a253b5",
+    "sha256": "37c76a458db3e69f8cbcf1e625c85d78d5ae144ba01036af1e068da05132e1db",
     "source_url": "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes.md",
     "status": "archived"
   },
@@ -29143,7 +29154,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/managed-agents/sessions/index.md",
-    "sha256": "02ef13ec1b30f24a46189a89a892663fc758faeb0c695fb4921fbe8ca23ceac9",
+    "sha256": "877f846f3f44a0b58c438cb993e00630705ce84d22b708654ca003adcbf58fef",
     "source_url": "https://platform.claude.com/docs/en/managed-agents/sessions.md",
     "status": "archived"
   },
@@ -29153,7 +29164,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/managed-agents/skills/index.md",
-    "sha256": "1a2d63d3ad31bca98b37784b23fcb4bf047c4db83bfd6314f98b00d64bbf23be",
+    "sha256": "72625de2bb13a24e2f4747a0993018c19ec861f7d84fd29dfc6fcc410ff85dc8",
     "source_url": "https://platform.claude.com/docs/en/managed-agents/skills.md",
     "status": "archived"
   },
@@ -29163,7 +29174,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/managed-agents/tools/index.md",
-    "sha256": "5520c55cd91295210469a0652ba2dfd5d49acf0fdbfef8c2635658d1180b448b",
+    "sha256": "706c3351fa5d85410e74cc8384d73447800436573deeb26ac139b556cbe3f0a2",
     "source_url": "https://platform.claude.com/docs/en/managed-agents/tools.md",
     "status": "archived"
   },
@@ -29173,7 +29184,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/managed-agents/vaults/index.md",
-    "sha256": "62d856729e3fb1942886646ad2ec79f1c5dabe9ec46ba399f28d5dbc8bb64f1a",
+    "sha256": "ebc3c55d4c202d82205f29e35a078cfc6012e76de3a97656f42e43bd4ee598f5",
     "source_url": "https://platform.claude.com/docs/en/managed-agents/vaults.md",
     "status": "archived"
   },
@@ -29183,7 +29194,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/managed-agents/webhooks/index.md",
-    "sha256": "dd5c4e3a28f8d218be6e8e206cc0e73377347e3eb5ff560b90a98d8defa16cfa",
+    "sha256": "518c460d63fb3877908c370ab432dd088b943eacc8e314e0e526a0c08f939373",
     "source_url": "https://platform.claude.com/docs/en/managed-agents/webhooks.md",
     "status": "archived"
   },
@@ -29193,7 +29204,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/fable-5-1/migration-guide/index.md",
-    "sha256": "c1d7bd16475ce9ad03ad556cc363635d93e695ecafc293e6acb85023e9f869b6",
+    "sha256": "66b4fb8c6a70993a54fb2637602fbf4d717ae0a66fbe785b57d10ff3bf7c98b4",
     "source_url": "https://platform.claude.com/docs/en/models/fable-5-1/migration-guide.md",
     "status": "archived"
   },
@@ -29203,7 +29214,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/fable-5-1/overview/index.md",
-    "sha256": "13e8aeb6bbd207311ac032916f2ab37e7a454c9d752c027cf76967a5c958a076",
+    "sha256": "2a98d9a06c7f3cf710fa11ad838e6b314c07de980044ebc3165a2bbcb47b6ec9",
     "source_url": "https://platform.claude.com/docs/en/models/fable-5-1/overview.md",
     "status": "archived"
   },
@@ -29213,7 +29224,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1/index.md",
-    "sha256": "59d2a26f6e123d009a9e86aac9283705f7bfd15549b185dc07aa1858241baf19",
+    "sha256": "d0865b3a3f03c114ebbb5922f66ae2b058f0fa9658617600ad2ffb018e3945f1",
     "source_url": "https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1.md",
     "status": "archived"
   },
@@ -29223,7 +29234,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/fable-5/introducing-claude-fable-5-and-claude-mythos-5/index.md",
-    "sha256": "b9b9f1515b90003c25852524ffeb5db8ec4f90decea4be130f5233648f955c5d",
+    "sha256": "ef578afa7326a00d19811b597daace9b06909d0d3a0fdf1c9cbbc56d8eed03d4",
     "source_url": "https://platform.claude.com/docs/en/models/fable-5/introducing-claude-fable-5-and-claude-mythos-5.md",
     "status": "archived"
   },
@@ -29233,7 +29244,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/fable-5/migration-guide/index.md",
-    "sha256": "d7b3973aca2bbd0d02f1e0769ed838dd94f5da83e7733b1e1ca2b908205f1316",
+    "sha256": "fc74ee89803f7bc716f002db12b5084d4f7e22bd7c3f5024e5b84d8d145d45c0",
     "source_url": "https://platform.claude.com/docs/en/models/fable-5/migration-guide.md",
     "status": "archived"
   },
@@ -29243,7 +29254,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/fable-5/overview/index.md",
-    "sha256": "2c6b6a17c1850fcca08b7d791aab111e5d8dd4774dc20924d0b16cd820ee8b25",
+    "sha256": "f1cf06498c38623a451f3df484d83ab8f56eeef679b8f9b184a9b1e6d852bf7f",
     "source_url": "https://platform.claude.com/docs/en/models/fable-5/overview.md",
     "status": "archived"
   },
@@ -29263,7 +29274,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/haiku-4-5/overview/index.md",
-    "sha256": "90533881cab789a582ec701f606ea25b1a8b3f2d78d0033b3c5ff9b3987454c9",
+    "sha256": "4975e83c33a6fed2679fc011b3942a0ad73feac5b158de6cbf44df3cc1b08d50",
     "source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview.md",
     "status": "archived"
   },
@@ -29273,7 +29284,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/mythos-5-1/overview/index.md",
-    "sha256": "b45e5f744b5c6d8cfcce57c07d72f33c971b4d6981143e33e6fdb8455f81379e",
+    "sha256": "5f2d23e95d4a0430f4b11cedb3afa449ece220ee1086346bc76819111d1e994c",
     "source_url": "https://platform.claude.com/docs/en/models/mythos-5-1/overview.md",
     "status": "archived"
   },
@@ -29283,7 +29294,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/mythos-5/overview/index.md",
-    "sha256": "7e99dc83f4a5385a53e79190a8a2b1e970799528c6cb02252c655efa56e36a27",
+    "sha256": "841622984d8625a456cae15f7b6c1b1c0c84ea20e864e1476c775e6a89a345d6",
     "source_url": "https://platform.claude.com/docs/en/models/mythos-5/overview.md",
     "status": "archived"
   },
@@ -29293,7 +29304,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/opus-4-5/overview/index.md",
-    "sha256": "0ede40d7dd8e72adcaa44a7a36a2fb6fa3c07f9769595289368bd15f6dbc8a67",
+    "sha256": "acea797a52ba2329db06fa1fdf8e6f55a409178c0181383115015820153488da",
     "source_url": "https://platform.claude.com/docs/en/models/opus-4-5/overview.md",
     "status": "archived"
   },
@@ -29303,7 +29314,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/opus-4-6/overview/index.md",
-    "sha256": "0ccd5322e5a32801b3a1f2ff6c9b5cec6bb068e0fb10b87f07de38dfdca80860",
+    "sha256": "b5242bcf12eb1ffda0f4a355b935ed6c41ec83eff1dca64b8fa9ff30628efeae",
     "source_url": "https://platform.claude.com/docs/en/models/opus-4-6/overview.md",
     "status": "archived"
   },
@@ -29313,7 +29324,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/opus-4-7/overview/index.md",
-    "sha256": "2452e97b3c56117fab6818923cc99a592bb8b51cafe4a64acb1be2526ffe7817",
+    "sha256": "284cb996675e52c8a73032eefb9f4281639df698b313b61b8cd3a130b93ab1c0",
     "source_url": "https://platform.claude.com/docs/en/models/opus-4-7/overview.md",
     "status": "archived"
   },
@@ -29323,7 +29334,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/opus-4-8/overview/index.md",
-    "sha256": "77063474959130fad9027db3c1776f119594926ce94953ee8ecd22c1111c5704",
+    "sha256": "7ddf5606eb954dc688b8721ef6525dc4db773f0414bbaccac031318d69ab33d0",
     "source_url": "https://platform.claude.com/docs/en/models/opus-4-8/overview.md",
     "status": "archived"
   },
@@ -29333,7 +29344,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/opus-5-5/migration-guide/index.md",
-    "sha256": "dc4678b94bf930eceaad37db502ba277617fd8a2cc7f55716ff7827715d80e1b",
+    "sha256": "9a108c032bf9a368ea9d84648de028e5641f97ab3e65d1301db5e379c2c04b90",
     "source_url": "https://platform.claude.com/docs/en/models/opus-5-5/migration-guide.md",
     "status": "archived"
   },
@@ -29353,7 +29364,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/opus-5-5/whats-new-opus-5-5/index.md",
-    "sha256": "90fb6efa547a193cbf1eb4b836ef5310234da054f2e83abbe15ce41b0d4c5a6a",
+    "sha256": "6ba1ff350b0ced73d0eeba0330b37f14cd516a7100f3eb404410f82e6826d546",
     "source_url": "https://platform.claude.com/docs/en/models/opus-5-5/whats-new-opus-5-5.md",
     "status": "archived"
   },
@@ -29363,8 +29374,8 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/opus-5/migration-guide/index.md",
-    "sha256": "e6494704d2743676c6408165baa96bdcca155282392f8dde918c73896cc70d24",
-    "source_url": "https://platform.claude.com/docs/en/models/opus-5/migration-guide.md",
+    "sha256": "9a108c032bf9a368ea9d84648de028e5641f97ab3e65d1301db5e379c2c04b90",
+    "source_url": "https://platform.claude.com/docs/en/models/opus-5-5/migration-guide.md",
     "status": "archived"
   },
   "https://platform.claude.com/docs/en/models/opus-5/overview": {
@@ -29373,7 +29384,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/opus-5/overview/index.md",
-    "sha256": "d914238378270529823e4ab8113b2e03ad836e40b1b39c6a10c9844135276138",
+    "sha256": "fed2594f20c8dc60a6cfd987724aa560603d97e3cb9859803e7b310019387246",
     "source_url": "https://platform.claude.com/docs/en/models/opus-5/overview.md",
     "status": "archived"
   },
@@ -29383,8 +29394,8 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/opus-5/whats-new-opus-5/index.md",
-    "sha256": "7da019e53297a96fa688d02ffc8ebd0652696dd62a0835559b64efb2eaac0525",
-    "source_url": "https://platform.claude.com/docs/en/models/opus-5/whats-new-opus-5.md",
+    "sha256": "fed2594f20c8dc60a6cfd987724aa560603d97e3cb9859803e7b310019387246",
+    "source_url": "https://platform.claude.com/docs/en/models/opus-5/overview.md",
     "status": "archived"
   },
   "https://platform.claude.com/docs/en/models/overview": {
@@ -29393,7 +29404,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/overview/index.md",
-    "sha256": "02ebe565bc995c5a251fa578699ea048371cdcc2632b0c4d91541bab0e5c2605",
+    "sha256": "404372e69b13defcb4598bb8a8cfbc359c0c31384d809daf53d75c3ca9316bc3",
     "source_url": "https://platform.claude.com/docs/en/models/overview.md",
     "status": "archived"
   },
@@ -29403,7 +29414,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/sonnet-4-5/overview/index.md",
-    "sha256": "26d6af1cfb0b22f4e9c830a3c5b6640ec1a4c03e1364ee32dc571d3a2f3aca8b",
+    "sha256": "59edd0ce1c4ddade00a52cbb88ef4b891dbce8028d3247e8a453ce71bd16dd48",
     "source_url": "https://platform.claude.com/docs/en/models/sonnet-4-5/overview.md",
     "status": "archived"
   },
@@ -29413,7 +29424,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/sonnet-4-6/overview/index.md",
-    "sha256": "3a2ff31c37d7b1083389a3d6d0e7024bc4ceb9cd971a10335e4f3c62079eca03",
+    "sha256": "6e380710caf95fff6e2836d53ea9da13b5e2fb3af8a585c73b925ce9c10e5875",
     "source_url": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview.md",
     "status": "archived"
   },
@@ -29433,7 +29444,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/models/sonnet-5/overview/index.md",
-    "sha256": "b1e41d2908c0643f4e88b098d4a838c925b4ed7e98fa51fe40dad97bddf64aa0",
+    "sha256": "c21963ec0337d1ff890ce753f95b315603d5313d9874df92c562b3b0b65f9a7e",
     "source_url": "https://platform.claude.com/docs/en/models/sonnet-5/overview.md",
     "status": "archived"
   },
@@ -29453,7 +29464,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/release-notes/api/index.md",
-    "sha256": "23ba9f5fbf47dd8b917cb59722d864fc62b8610a58a4c907da44380f4e44d8ec",
+    "sha256": "e97e4717eaf2fa59f32abbe1e5ef7b39412e2a347f071509d8dce021654818a6",
     "source_url": "https://platform.claude.com/docs/en/release-notes/overview.md",
     "status": "archived"
   },
@@ -29463,7 +29474,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/release-notes/overview/index.md",
-    "sha256": "23ba9f5fbf47dd8b917cb59722d864fc62b8610a58a4c907da44380f4e44d8ec",
+    "sha256": "e97e4717eaf2fa59f32abbe1e5ef7b39412e2a347f071509d8dce021654818a6",
     "source_url": "https://platform.claude.com/docs/en/release-notes/overview.md",
     "status": "archived"
   },
@@ -29703,7 +29714,7 @@
     ],
     "format": "native-markdown",
     "path": "content/platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals/index.md",
-    "sha256": "efef992a5a71eb6cffe16a63f0955a360d34e0a587f343709857a1161d6cc525",
+    "sha256": "7a6976fb0463248753437dcc30e79f5121e1b507ca4602142596e46bc88b27d6",
     "source_url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals.md",
     "status": "archived"
   },
@@ -30146,7 +30157,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/10504844/index.md",
-    "sha256": "5a5d383e93c2a2770335e70edb3b7d09f15c17a02bfed4d6afffa3c01281fd3d",
+    "sha256": "a043e1ce69942c994a9453f20f51ee87f8707be3ba9306102e6b2432db120f48",
     "source_url": "https://support.claude.com/en/articles/10504844-manage-user-feedback-settings-on-team-and-enterprise-plans.md",
     "status": "archived"
   },
@@ -30166,7 +30177,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/10504844-managing-user-feedback-settings-on-team-and-enterprise-plans/index.md",
-    "sha256": "5a5d383e93c2a2770335e70edb3b7d09f15c17a02bfed4d6afffa3c01281fd3d",
+    "sha256": "a043e1ce69942c994a9453f20f51ee87f8707be3ba9306102e6b2432db120f48",
     "source_url": "https://support.claude.com/en/articles/10504844-manage-user-feedback-settings-on-team-and-enterprise-plans.md",
     "status": "archived"
   },
@@ -30207,7 +30218,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/10593882/index.md",
-    "sha256": "b958884aee846ee9f954cf4e0d2dc4e392d85b3d2580e44508d4b4f35f6dab3b",
+    "sha256": "87f119caf5633fc2dacabe9cd8ac93fe749ffde1c18aa99c38802fafbed85f91",
     "source_url": "https://support.claude.com/en/articles/10593882-share-and-unshare-chats.md",
     "status": "archived"
   },
@@ -30790,7 +30801,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/11817273/index.md",
-    "sha256": "f776f04ae86df017883044dec3a613046ca298430566f3883564c9774f9183f8",
+    "sha256": "fb24de7a46843ac9e4513fbf7fc8cba8e4adb71552c58c49078eb705298c2a30",
     "source_url": "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context.md",
     "status": "archived"
   },
@@ -30810,7 +30821,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/11817273-using-claude-s-chat-search-and-memory-to-build-on-previous-context/index.md",
-    "sha256": "f776f04ae86df017883044dec3a613046ca298430566f3883564c9774f9183f8",
+    "sha256": "fb24de7a46843ac9e4513fbf7fc8cba8e4adb71552c58c49078eb705298c2a30",
     "source_url": "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context.md",
     "status": "archived"
   },
@@ -30910,7 +30921,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/11869629-using-claude-with-android-apps/index.md",
-    "sha256": "c7fd3198598e4ce8ee8c669619bcea9ed6de349c654c05d8740cdf6cded0a04c",
+    "sha256": "0c5c1db66539283ebfcacbdafe3f0b61eb66225c00e17d41112b5b6eacb0c293",
     "source_url": "https://support.claude.com/en/articles/11869629-use-claude-with-android-apps.md",
     "status": "archived"
   },
@@ -31000,7 +31011,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12005970/index.md",
-    "sha256": "b5bd04c092d13580718c81f547483bb599b659b6a33d0308238e5c790f838085",
+    "sha256": "e352615d14912200c9106deb8c6084d8273991f695335a9786ba6ad13560186a",
     "source_url": "https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans.md",
     "status": "archived"
   },
@@ -31010,7 +31021,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12005970-extra-usage-for-team-and-enterprise-plans/index.md",
-    "sha256": "b5bd04c092d13580718c81f547483bb599b659b6a33d0308238e5c790f838085",
+    "sha256": "e352615d14912200c9106deb8c6084d8273991f695335a9786ba6ad13560186a",
     "source_url": "https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans.md",
     "status": "archived"
   },
@@ -31020,7 +31031,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12005970-extra-usage-for-team-and-seat-based-enterprise-plans/index.md",
-    "sha256": "b5bd04c092d13580718c81f547483bb599b659b6a33d0308238e5c790f838085",
+    "sha256": "e352615d14912200c9106deb8c6084d8273991f695335a9786ba6ad13560186a",
     "source_url": "https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans.md",
     "status": "archived"
   },
@@ -31030,7 +31041,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12005970-manage-extra-usage-for-team-and-seat-based-enterprise-plans/index.md",
-    "sha256": "b5bd04c092d13580718c81f547483bb599b659b6a33d0308238e5c790f838085",
+    "sha256": "e352615d14912200c9106deb8c6084d8273991f695335a9786ba6ad13560186a",
     "source_url": "https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans.md",
     "status": "archived"
   },
@@ -31050,7 +31061,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12012173/index.md",
-    "sha256": "3064ebff919acad75c8baf1857af23ffa558d658b657e6413ea849a93bda3ceb",
+    "sha256": "e34b1181bd0a54c306a9ac647ef5ecb70bb2b2bb8e72fd3eb8d014c58a0ee2a7",
     "source_url": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome.md",
     "status": "archived"
   },
@@ -31070,7 +31081,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12012173-getting-started-with-claude-for-chrome/index.md",
-    "sha256": "3064ebff919acad75c8baf1857af23ffa558d658b657e6413ea849a93bda3ceb",
+    "sha256": "e34b1181bd0a54c306a9ac647ef5ecb70bb2b2bb8e72fd3eb8d014c58a0ee2a7",
     "source_url": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome.md",
     "status": "archived"
   },
@@ -31110,7 +31121,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12083917-how-to-change-your-team-plan-from-monthly-to-annual-billing/index.md",
-    "sha256": "ef3a8cb007a9700df0495f06148d8f5c899e80550ca10cd3d823830e5ed22c69",
+    "sha256": "718ca60bfce2a74ed5a8e4868c91a249ded2e2de5bdeee150f11de59cf88b5b5",
     "source_url": "https://support.claude.com/en/articles/12083917-change-your-team-plan-from-monthly-to-annual-billing.md",
     "status": "archived"
   },
@@ -31276,7 +31287,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12260368/index.md",
-    "sha256": "cb7d16f17a72cf7fe7a59d621383d78167a69acecf31045089dc7a6396863cbe",
+    "sha256": "e3809edddbcd91fa04b167ce1b08e66558aad8a9cbe663415714db4eb0737091",
     "source_url": "https://support.claude.com/en/articles/12260368-use-incognito-chats.md",
     "status": "archived"
   },
@@ -31296,7 +31307,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12260368-using-incognito-chats/index.md",
-    "sha256": "cb7d16f17a72cf7fe7a59d621383d78167a69acecf31045089dc7a6396863cbe",
+    "sha256": "e3809edddbcd91fa04b167ce1b08e66558aad8a9cbe663415714db4eb0737091",
     "source_url": "https://support.claude.com/en/articles/12260368-use-incognito-chats.md",
     "status": "archived"
   },
@@ -31316,7 +31327,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12293051-using-claude-in-xcode/index.md",
-    "sha256": "654e7a88331f2647a16774da8eca2de317a48d1c279eeaa9a1290fba5eaed287",
+    "sha256": "480a2cf758f17f985d71f8b6aec249de2657f47470d1b2d389a7da409b4e8dce",
     "source_url": "https://support.claude.com/en/articles/12293051-use-claude-in-xcode.md",
     "status": "archived"
   },
@@ -31386,7 +31397,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12429409/index.md",
-    "sha256": "261e57ce58e96488047f371f4853d05d5b070d526c3c364da7c12ff0bfa41592",
+    "sha256": "78f21804ccf578bc0c287fda0e67a75314a601fe774bd6273879cac0e7e23858",
     "source_url": "https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans.md",
     "status": "archived"
   },
@@ -31406,7 +31417,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans/index.md",
-    "sha256": "261e57ce58e96488047f371f4853d05d5b070d526c3c364da7c12ff0bfa41592",
+    "sha256": "78f21804ccf578bc0c287fda0e67a75314a601fe774bd6273879cac0e7e23858",
     "source_url": "https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans.md",
     "status": "archived"
   },
@@ -31446,7 +31457,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12466728-understanding-claude-error-messages/index.md",
-    "sha256": "2e824bd1c53e6c01a87ee0adf2a4397c01bc0bab7b2e4c3f6b7b2d8859fbae24",
+    "sha256": "e6839d9959135e5ce2c1876a51ab73eb7e7ad61eb74581030f55f263a7d7bb25",
     "source_url": "https://support.claude.com/en/articles/12466728-troubleshoot-claude-error-messages.md",
     "status": "archived"
   },
@@ -31506,7 +31517,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12512180/index.md",
-    "sha256": "f7544e710c314e99fba9899176ae87c8437bc3a1b9fbc6f6a4ec0f7a204bdeb3",
+    "sha256": "101a7abfe7e2f47eabb6b53e0abe81b8762108bd10f7e6c54c2e344cd0d00875",
     "source_url": "https://support.claude.com/en/articles/12512180-use-skills-in-claude.md",
     "status": "archived"
   },
@@ -31649,7 +31660,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12618689-claude-code-on-the-web/index.md",
-    "sha256": "4ea81f26ce3f78a29a734b0d91f4c47688fe849191dd55535e72f0bd0b5d349a",
+    "sha256": "17502da7284262318a397b606cfd9df93cf87f07cabfaccca250d467de739301",
     "source_url": "https://support.claude.com/en/articles/12618689-claude-code-on-the-web.md",
     "status": "archived"
   },
@@ -31720,7 +31731,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac/index.md",
-    "sha256": "b24ca8ae2df4eaf1473bf0aede90092dc74fc9792279fda34eca0843f60e382b",
+    "sha256": "bddf70ad444b136b19176cb4bb9c5a64db2328a2d352436eb2b73023883e578b",
     "source_url": "https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac.md",
     "status": "archived"
   },
@@ -31790,7 +31801,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12883420/index.md",
-    "sha256": "a5bf83ec45f6e819a83c99b51bd7c546ee5adc98aa2a3ef006f14d9f1742f73b",
+    "sha256": "4685fd70903d7f275865676b5f866f34e13f1b439f7710234094079b55ec920a",
     "source_url": "https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans.md",
     "status": "archived"
   },
@@ -31800,7 +31811,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12883420-usage-analytics-for-team-and-enterprise-plans/index.md",
-    "sha256": "a5bf83ec45f6e819a83c99b51bd7c546ee5adc98aa2a3ef006f14d9f1742f73b",
+    "sha256": "4685fd70903d7f275865676b5f866f34e13f1b439f7710234094079b55ec920a",
     "source_url": "https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans.md",
     "status": "archived"
   },
@@ -31810,7 +31821,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans/index.md",
-    "sha256": "150cba4a57c6594c1ce374a9830fc5c3c3b3350f8276a7f1ad6043038331b952",
+    "sha256": "66673f1fe43a5c334cbb54352173ecd67279b5ae4a332915451dde5e8607deba",
     "source_url": "https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans.md",
     "status": "archived"
   },
@@ -31870,7 +31881,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12902446/index.md",
-    "sha256": "e6e95be8aca014754003d994d8ef4e7deecfa01162119c5e3fb74c2828df9026",
+    "sha256": "13793197a5edf7c758a8fef4032d03cebcc372ba5fd75ec81c7d2b756cdfcf62",
     "source_url": "https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide.md",
     "status": "archived"
   },
@@ -31880,7 +31891,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12902446-claude-for-chrome-permissions-guide/index.md",
-    "sha256": "e6e95be8aca014754003d994d8ef4e7deecfa01162119c5e3fb74c2828df9026",
+    "sha256": "13793197a5edf7c758a8fef4032d03cebcc372ba5fd75ec81c7d2b756cdfcf62",
     "source_url": "https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide.md",
     "status": "archived"
   },
@@ -31890,7 +31901,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide/index.md",
-    "sha256": "d767766a60d1da62cbc954724d1f863a4669e4896e4132bf02c94c45b7dde7c2",
+    "sha256": "a3eff13fd949c366b1e1a29c7861c495410458652d85b5253495f281ab2db380",
     "source_url": "https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide.md",
     "status": "archived"
   },
@@ -31951,7 +31962,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12997503/index.md",
-    "sha256": "50a8cd213de8287c3c02b44f44435bf0220fd3806090fadbde426bf20eef366e",
+    "sha256": "1a3d156f0de5b5227914ffaa6fbfd1b1bb6a5549b090d55ed36db94d6cf06cc0",
     "source_url": "https://support.claude.com/en/articles/12997503-team-plan-billing-faqs.md",
     "status": "archived"
   },
@@ -31961,7 +31972,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12997503-team-plan-billing-faqs/index.md",
-    "sha256": "64c94d3045d72b7906ed16a59e3da88af5a2792b717ac437dad3bfbfee949442",
+    "sha256": "463985fc777a2856b1c4509a35ee9302aecd82857f0f803c1d052a1f6f6da2d7",
     "source_url": "https://support.claude.com/en/articles/12997503-team-plan-billing-faqs.md",
     "status": "archived"
   },
@@ -32102,7 +32113,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13132885/index.md",
-    "sha256": "48735ec435798983a86174951c893f4b5846db5fd0b60997a606f827af6c4fd8",
+    "sha256": "e7645a6ae88f61dc8586674aea0bd52c7d8cd2ebfb3eede7bc0561dde821b993",
     "source_url": "https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso.md",
     "status": "archived"
   },
@@ -32112,7 +32123,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13132885-set-up-single-sign-on-sso/index.md",
-    "sha256": "0abd33fe4b478808e23779eb1e12d3f666d0d7bcc0b9a73c7d5681b72358e55e",
+    "sha256": "ce7b3cd095d4ba9b5ec37cd7ef0c5798d67f0815a255371861405ff272bf2ddd",
     "source_url": "https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso.md",
     "status": "archived"
   },
@@ -32122,7 +32133,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13132885-setting-up-single-sign-on-sso/index.md",
-    "sha256": "0abd33fe4b478808e23779eb1e12d3f666d0d7bcc0b9a73c7d5681b72358e55e",
+    "sha256": "ce7b3cd095d4ba9b5ec37cd7ef0c5798d67f0815a255371861405ff272bf2ddd",
     "source_url": "https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso.md",
     "status": "archived"
   },
@@ -32132,7 +32143,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13132885-setting-up-single-sign-on-sso-for-claude-and-claude-console/index.md",
-    "sha256": "48735ec435798983a86174951c893f4b5846db5fd0b60997a606f827af6c4fd8",
+    "sha256": "e7645a6ae88f61dc8586674aea0bd52c7d8cd2ebfb3eede7bc0561dde821b993",
     "source_url": "https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso.md",
     "status": "archived"
   },
@@ -32142,7 +32153,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13133195/index.md",
-    "sha256": "c70448b4a26fca26624af43e07fac869bdfa91205bbb18ff952a22765be9cbcc",
+    "sha256": "5d36d6f2b24d54f8a07c7555d00aa8f4a1e39f6c716d8e6793865c82f0add52e",
     "source_url": "https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning.md",
     "status": "archived"
   },
@@ -32152,7 +32163,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning/index.md",
-    "sha256": "c7dfe9f5b900e1d227c28715281c6c4d64a3737440c91dbf4c0b6845b5f635d2",
+    "sha256": "2c7bcb423f3f1dc917dbaad12a40676f7912e83dfe0efa59fbc3c693954743b1",
     "source_url": "https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning.md",
     "status": "archived"
   },
@@ -32162,7 +32173,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13133195-setting-up-jit-or-scim-provisioning/index.md",
-    "sha256": "c70448b4a26fca26624af43e07fac869bdfa91205bbb18ff952a22765be9cbcc",
+    "sha256": "5d36d6f2b24d54f8a07c7555d00aa8f4a1e39f6c716d8e6793865c82f0add52e",
     "source_url": "https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning.md",
     "status": "archived"
   },
@@ -32172,7 +32183,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13133195-setting-up-jit-or-scim-provisioning-to-manage-user-assignments-on-team-or-enterprise-plans/index.md",
-    "sha256": "c70448b4a26fca26624af43e07fac869bdfa91205bbb18ff952a22765be9cbcc",
+    "sha256": "5d36d6f2b24d54f8a07c7555d00aa8f4a1e39f6c716d8e6793865c82f0add52e",
     "source_url": "https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning.md",
     "status": "archived"
   },
@@ -32232,7 +32243,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13163631-configuring-session-security-settings/index.md",
-    "sha256": "06d70bf1d7d9bdfdcc49b98f7d41b015e519c19116d6963c163b4ff2968efa58",
+    "sha256": "46ac56a2bb5fc5b5700c57b7c466c065eb53e77e44fcc574e1307bf3fe9a7fb5",
     "source_url": "https://support.claude.com/en/articles/13163631-configuring-session-security-settings.md",
     "status": "archived"
   },
@@ -32262,7 +32273,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13189465-log-in-to-your-claude-account/index.md",
-    "sha256": "099fbb5771e0e80a74f7996fd02c2138553f3af348f877fdb0229a0f06968033",
+    "sha256": "90ec7ea14c5096e1b03014f563bb7fc6fb9cb7994672b99eefe13ffb13435c44",
     "source_url": "https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account.md",
     "status": "archived"
   },
@@ -32272,7 +32283,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13189465-logging-in-to-your-claude-account/index.md",
-    "sha256": "099fbb5771e0e80a74f7996fd02c2138553f3af348f877fdb0229a0f06968033",
+    "sha256": "90ec7ea14c5096e1b03014f563bb7fc6fb9cb7994672b99eefe13ffb13435c44",
     "source_url": "https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account.md",
     "status": "archived"
   },
@@ -32322,7 +32333,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13325567-account-management-faqs/index.md",
-    "sha256": "bf53f03a4cc6dfa03a37c695c25b924ef6c9067a2f1196d4e9d7295a4eff0b9c",
+    "sha256": "37ae760a2a95f9e9448afc485780b9df7e0f7914d4aab28b05201413e33845d9",
     "source_url": "https://support.claude.com/en/articles/13325567-account-management-faqs.md",
     "status": "archived"
   },
@@ -32332,7 +32343,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13345190/index.md",
-    "sha256": "d065642bd5d23e81637e7dcb8e9a88deb05d635c21d4950a1d47771a64b43ddd",
+    "sha256": "7c90701ecf5d916661b9af6ba48cf65ed871b8996d4e3b307dd6dced67a4a413",
     "source_url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork.md",
     "status": "archived"
   },
@@ -32342,7 +32353,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13345190-get-started-with-claude-cowork/index.md",
-    "sha256": "c1ab14141a507cf177927d9bd215d4683c00b41da445fa25166aa7b608926821",
+    "sha256": "2d8bf5336247f180ff8e9e9b60a88575eedb838c9b4c678ea8bfe3c5daf95f7d",
     "source_url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork.md",
     "status": "archived"
   },
@@ -32352,7 +32363,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13345190-get-started-with-cowork/index.md",
-    "sha256": "c1ab14141a507cf177927d9bd215d4683c00b41da445fa25166aa7b608926821",
+    "sha256": "2d8bf5336247f180ff8e9e9b60a88575eedb838c9b4c678ea8bfe3c5daf95f7d",
     "source_url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork.md",
     "status": "archived"
   },
@@ -32362,7 +32373,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13345190-getting-started-with-cowork/index.md",
-    "sha256": "d065642bd5d23e81637e7dcb8e9a88deb05d635c21d4950a1d47771a64b43ddd",
+    "sha256": "7c90701ecf5d916661b9af6ba48cf65ed871b8996d4e3b307dd6dced67a4a413",
     "source_url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork.md",
     "status": "archived"
   },
@@ -32372,7 +32383,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13346458-customizing-your-console-appearance-settings/index.md",
-    "sha256": "c9fcc831ed68eef2e4a6f140c9391ee557a1bc7929672a361135d1705fd986ca",
+    "sha256": "3e73fde91b7280eb62b03a106982c7d0552aa9efd89ba7e757b45d5331cff95e",
     "source_url": "https://support.claude.com/en/articles/13346458-customizing-your-console-appearance-settings.md",
     "status": "archived"
   },
@@ -32452,7 +32463,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13371040-log-in-to-your-console-account/index.md",
-    "sha256": "cd47b10ed760de9b7e8ebf7b34c9b49c6336a5ae89008d82c75f69f7879e550e",
+    "sha256": "ce6662db8b245625349212a2dc468181c2f202235e115749cb2d6e7b37cb1e48",
     "source_url": "https://support.claude.com/en/articles/13371040-log-in-to-your-console-account.md",
     "status": "archived"
   },
@@ -32562,7 +32573,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans/index.md",
-    "sha256": "40733b8125f3a674f4165b09b9b29867eaaf3939514208d2d7ce8f19bdd1712a",
+    "sha256": "aa6eacd5ed194104016e4cd4d079257b1b3c5785d5558abcec57804e34bc0b7c",
     "source_url": "https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans.md",
     "status": "archived"
   },
@@ -32602,7 +32613,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13641943-visual-and-interactive-content/index.md",
-    "sha256": "f03781d36b3c2eff7da58fc372d0ea3334fcf4b9a1a0e1b806180176fe69dc0d",
+    "sha256": "89787ee0c38605f53df002f00224a10912619148f4a8194fbd28ab319a75f7ef",
     "source_url": "https://support.claude.com/en/articles/13641943-visual-and-interactive-content.md",
     "status": "archived"
   },
@@ -32684,7 +32695,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13756069-public-sector-faqs/index.md",
-    "sha256": "6bebd54526ac23a638a43ddcd8079628a81696fd67c2818c34c45350303bca80",
+    "sha256": "d80d55d6c91404e97e363a5642a29de661f556f2af134ebfe7b7ebda58e71e0b",
     "source_url": "https://support.claude.com/en/articles/13756069-public-sector-faqs.md",
     "status": "archived"
   },
@@ -32724,7 +32735,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13799932-manage-groups-and-group-spend-limits-on-enterprise-plans/index.md",
-    "sha256": "fda0ed753f3e2fafaf86dba8432eeaae135cf17c284d41d64cdab87802670100",
+    "sha256": "3b369cec41e4962f88ece63448c9f1834268ad38691442877abe1ce00b245c87",
     "source_url": "https://support.claude.com/en/articles/13799932-manage-groups-and-group-spend-limits-on-enterprise-plans.md",
     "status": "archived"
   },
@@ -32734,7 +32745,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13837433/index.md",
-    "sha256": "9818515b4a65c31bb3ab01239e2d95ef5a45b5cec6e977fd63188b9733d2cb6f",
+    "sha256": "6b1047eb8d97b359764fc0832a05e472a3d7907a08a27beea5356a713ab2e4f0",
     "source_url": "https://support.claude.com/en/articles/13837433-manage-plugins-for-your-organization.md",
     "status": "archived"
   },
@@ -32764,7 +32775,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13837433-manage-plugins-for-your-organization/index.md",
-    "sha256": "9818515b4a65c31bb3ab01239e2d95ef5a45b5cec6e977fd63188b9733d2cb6f",
+    "sha256": "6b1047eb8d97b359764fc0832a05e472a3d7907a08a27beea5356a713ab2e4f0",
     "source_url": "https://support.claude.com/en/articles/13837433-manage-plugins-for-your-organization.md",
     "status": "archived"
   },
@@ -32784,7 +32795,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13837440-use-plugins-in-claude/index.md",
-    "sha256": "53c1afbfb75f32dbe15473304118383cdae0cd8d2aaca3912441c2d4c4081767",
+    "sha256": "b2356f7ec214bf5f73c3f473a254cdc99bdcc8269bf9df75a2d9ee4975cf1912",
     "source_url": "https://support.claude.com/en/articles/13837440-use-plugins-in-claude.md",
     "status": "archived"
   },
@@ -33044,7 +33055,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13947068/index.md",
-    "sha256": "fc076a2b129084cd4db751471e2c899cf634aade82e50b2248050fc91cd13e1d",
+    "sha256": "2eda0bd3c4996d682322ece082fb75e4bef7e856a2fe1850324907d15d842305",
     "source_url": "https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork.md",
     "status": "archived"
   },
@@ -33054,7 +33065,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork/index.md",
-    "sha256": "fc076a2b129084cd4db751471e2c899cf634aade82e50b2248050fc91cd13e1d",
+    "sha256": "2eda0bd3c4996d682322ece082fb75e4bef7e856a2fe1850324907d15d842305",
     "source_url": "https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork.md",
     "status": "archived"
   },
@@ -33124,7 +33135,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork/index.md",
-    "sha256": "cf9641e6f58baf3185a47a9cfbb82349ff98f8bb659d62b199cdde6c952e922e",
+    "sha256": "3e994339b717b3f1c5890bef7b914bcda976eefd7676c37bae2016c4c81e3f49",
     "source_url": "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork.md",
     "status": "archived"
   },
@@ -33204,7 +33215,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory/index.md",
-    "sha256": "fad19a25f648faf840895b5ef052cff20b62e9e7e9c6993b21cc78c582d61d69",
+    "sha256": "f72487056f4905434de9a2e5f9ee5ce9ea33c5a9f486a6532a56202dc9603535",
     "source_url": "https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory.md",
     "status": "archived"
   },
@@ -33284,7 +33295,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/14499648-how-scim-sync-works-for-enterprise-organizations/index.md",
-    "sha256": "10613acac26e8bcc894b2e067f3e63112ad84a512a817950cbe2a4eaa4d31ddb",
+    "sha256": "8d03a058d392321ba6b8d0f26c1bac5a75d3a5b411b9673918d73924f7cd037d",
     "source_url": "https://support.claude.com/en/articles/14499648-how-scim-sync-works-for-enterprise-organizations.md",
     "status": "archived"
   },
@@ -33314,7 +33325,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/14503613-sso-login/index.md",
-    "sha256": "ab66cc7f499e3096b0ae2d33a85f5e1fe8a7ab3fbdbd207a48ded5c5d4f53eb0",
+    "sha256": "08654c369b73a240a0f8c4a0afe1f6d50b8a36501f2537ae2e1fee81896393f9",
     "source_url": "https://support.claude.com/en/articles/14503613-sso-login.md",
     "status": "archived"
   },
@@ -33324,7 +33335,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/14503643-set-up-scim-in-claude-for-government/index.md",
-    "sha256": "e5d04aff31f87d8a30066a139b1c69ef3162f1ebefb01c96af63c34fddc4ebe5",
+    "sha256": "75b49f669d8b6942c6cef61de1539a6e9b9639ad93d496edac470ca9f2374afe",
     "source_url": "https://support.claude.com/en/articles/14503643-set-up-scim-in-claude-for-government.md",
     "status": "archived"
   },
@@ -33364,7 +33375,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/14503775-mcp-web-search/index.md",
-    "sha256": "4f0927590a9fda0fb6d9e25a79582cc064037387707a64af5450aefc5f982bcf",
+    "sha256": "8836747f0c572eea89fa84792c58a61eff6921f1453e5cb907133b0bc949d41a",
     "source_url": "https://support.claude.com/en/articles/14503775-mcp-web-search.md",
     "status": "archived"
   },
@@ -33804,7 +33815,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/15330088-set-a-default-model-for-your-organization/index.md",
-    "sha256": "bc76c5f746bf487a55e8c69661b5ee0c42a3a46ad94e474028dfe750ea1742a4",
+    "sha256": "fa4d3150b06b5d3771b135bdce5f3d5755435a059cf9ffc136c4f44ba7e1b2a3",
     "source_url": "https://support.claude.com/en/articles/15330088-set-a-default-model-for-your-organization.md",
     "status": "archived"
   },
@@ -33814,7 +33825,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/15330088-set-a-default-model-for-your-organization/__query_8f9416b548d04e16/index.md",
-    "sha256": "bc76c5f746bf487a55e8c69661b5ee0c42a3a46ad94e474028dfe750ea1742a4",
+    "sha256": "fa4d3150b06b5d3771b135bdce5f3d5755435a059cf9ffc136c4f44ba7e1b2a3",
     "source_url": "https://support.claude.com/en/articles/15330088-set-a-default-model-for-your-organization.md?campaign=19893371",
     "status": "archived"
   },
@@ -33854,7 +33865,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/15402193-restrict-verified-domain-connectors-to-your-enterprise/index.md",
-    "sha256": "e94106f72a7660e81fb143ef2b93ddf056ab6d1c5e89a4d6c259180c472d4c5f",
+    "sha256": "dc608be73ca6f072b1ada7e049520d5e57257f6c2102f4821549726b0e1671e6",
     "source_url": "https://support.claude.com/en/articles/15402193-restrict-verified-domain-connectors-to-your-enterprise.md",
     "status": "archived"
   },
@@ -34144,7 +34155,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/15694740-manage-model-access-for-your-organization/index.md",
-    "sha256": "3b4002afbec35d279466ec5ab3dd961241541e809f008031cf27c056c32a8ce7",
+    "sha256": "b396e35c98a4cbbc9fd73dc0077dfdfda0af2bbd6b519e3f4ed4584e5a81d234",
     "source_url": "https://support.claude.com/en/articles/15694740-manage-model-access-for-your-organization.md",
     "status": "archived"
   },
@@ -34264,7 +34275,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/15936181-get-started-with-1password-for-claude/index.md",
-    "sha256": "974c78d7bc617bba9a49accdd1c1b54ab674984d4812c578b94fba906a379f3c",
+    "sha256": "94a8f89353ac315399e7d9f9b31e0ba58a2700407a00965d5fe463bb12c17cf1",
     "source_url": "https://support.claude.com/en/articles/15936181-get-started-with-1password-for-claude.md",
     "status": "archived"
   },
@@ -34394,7 +34405,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/16607638-understanding-your-pro-or-max-plan-invoices/index.md",
-    "sha256": "17aeb481719fb74cdecf54f846ce10bbba28883839fc4085322a59a547e033a7",
+    "sha256": "a58e29e922df8f18800cbc70d3f4981df0d08b678017aa421d00017130b91c2f",
     "source_url": "https://support.claude.com/en/articles/16607638-understanding-your-pro-or-max-plan-invoices.md",
     "status": "archived"
   },
@@ -34614,7 +34625,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/16952184-set-up-salesforce-in-claude-for-your-organization/index.md",
-    "sha256": "882b498d8d7b0966e311674a50696f2992442b1af701254865b614b1db648741",
+    "sha256": "029af0cc447ddbae644fc0c6ebe16ff2151f6ad0a6e80a529df7c83fb9d19a70",
     "source_url": "https://support.claude.com/en/articles/16952184-set-up-salesforce-in-claude-for-your-organization.md",
     "status": "archived"
   },
@@ -34634,7 +34645,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/16952186-use-salesforce-in-claude/index.md",
-    "sha256": "7956afb76c5f40ad66939492b066be447d92a35034a35ca048b14afb2b46a33a",
+    "sha256": "cfcf2b9617b7c70f5939303b64ff2b976a3692b50ad9254f06483ae05873964a",
     "source_url": "https://support.claude.com/en/articles/16952186-use-salesforce-in-claude.md",
     "status": "archived"
   },
@@ -34845,7 +34856,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/8114491-get-started-with-claude/index.md",
-    "sha256": "a12d4960c4ba84adf52aa0b4638270c49e9048d47173c2a3554b52969832f131",
+    "sha256": "27d0a161b93e8845207083d6195ad756595c62a35042c99db97bd6d7ee4f8584",
     "source_url": "https://support.claude.com/en/articles/8114491-get-started-with-claude.md",
     "status": "archived"
   },
@@ -34975,7 +34986,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/8230524-delete-or-rename-a-conversation/index.md",
-    "sha256": "5faaefe9ebc8795a5b59f7ae402221e1dc76df584cfcf36258bead72f788a2f4",
+    "sha256": "1673daffda58a655b938f150c1ab4e0f3123381d45526c2c0343bf20591e84fe",
     "source_url": "https://support.claude.com/en/articles/8230524-delete-or-rename-a-conversation.md",
     "status": "archived"
   },
@@ -35145,7 +35156,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/8325618-paid-plan-billing-faqs/index.md",
-    "sha256": "6eb85e1f95d7098417ad89f2f4afc183ff870846036e837bded85038f8b0e241",
+    "sha256": "1c4af154d7c529ab98dda840b2c9026d1a24403f9a7195fd2fb28ae88c10a47d",
     "source_url": "https://support.claude.com/en/articles/8325618-paid-plan-billing-faqs.md",
     "status": "archived"
   },
@@ -35275,7 +35286,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/8887527-customizing-your-appearance-settings/index.md",
-    "sha256": "194b5804d52dcbeb7f6b8ce9427ca96ea7cc178dbd4d6cafb6cacf5ccc50a5b7",
+    "sha256": "0885477de1b4e09c89e08a61e07036be7a1c025546d258438135edbf58eca557",
     "source_url": "https://support.claude.com/en/articles/8887527-customizing-your-appearance-settings.md",
     "status": "archived"
   },
@@ -35625,7 +35636,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization/index.md",
-    "sha256": "555d39f6f0b586688e66658c435b676368bb138f6f53c9135e53ebc122fdb320",
+    "sha256": "3c2cddf552702d65ec8020e5c98327c34aa3f309dfe878de50a0cb4680a25d84",
     "source_url": "https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization.md",
     "status": "archived"
   },
@@ -35715,7 +35726,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them/index.md",
-    "sha256": "64bf4ce69fe06d6be0dc35765f4753518a94020db51ca0150a1d8d7654caf21c",
+    "sha256": "416e9b9f300e724166d492afe169474a51c3fbcc74ddb460ab1f0fab2a7f6b08",
     "source_url": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
     "status": "archived",
     "text_validation": "complete",
@@ -35757,7 +35768,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects/index.md",
-    "sha256": "0fc50ab71b46215886997179cdebc6a8a0e88991f623960b30393989b7adb586",
+    "sha256": "a9acbce3c9e58ad8e34be72ded41960dc28c3879e1dd0d0c828c72a7d80b0a1e",
     "source_url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects.md",
     "status": "archived"
   },
@@ -35817,7 +35828,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/9534590-cost-and-usage-reporting-in-the-claude-console/index.md",
-    "sha256": "b3029c79efca3c1961d6629ef17456afc1b6c4dbb5a1e35ad5052ca2fb0d6ae5",
+    "sha256": "2ca39b6fdacd54f9046b2db95ac85d842d1d6a98d4ee8bf613e576b71ed889d1",
     "source_url": "https://support.claude.com/en/articles/9534590-cost-and-usage-reporting-in-the-claude-console.md",
     "status": "archived"
   },
@@ -36819,7 +36830,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/engineering/claude-code-best-practices/index.md",
-    "sha256": "1f54defc24fb808cf0e7c50803e39eea32808f4d3c874a9ebc7a123675b86c48",
+    "sha256": "d7ba910f4599990f5739c48031cb9a49328d8ee66b9a060843dd0cd6b26598ac",
     "source_url": "https://code.claude.com/docs/en/best-practices",
     "status": "archived",
     "text_validation": "complete",
@@ -36830,7 +36841,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/engineering/claude-code-sandboxing/index.md",
-    "sha256": "56ec8041b35efe70fa2647631462c6bd8fcd64faafd33d3b1978e4c0062cf6e7",
+    "sha256": "8689fd9629607edba872f57abc041cfeef3a09a8ceb72ad984f1124be17dbdd6",
     "source_url": "https://www.anthropic.com/engineering/claude-code-sandboxing",
     "status": "archived",
     "text_validation": "complete",
@@ -36874,7 +36885,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/engineering/demystifying-evals-for-ai-agents/index.md",
-    "sha256": "abc6a804f13091a10f16c334f8e3a8c238c70322e04c2cd2c97f963e340c2033",
+    "sha256": "5f0fb8db62572d0a8b8ce3ce90980d7aac0df6e60ab2dfbdbe16d75675d0e594",
     "source_url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
     "status": "archived",
     "text_validation": "complete",
@@ -36907,7 +36918,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/engineering/effective-harnesses-for-long-running-agents/index.md",
-    "sha256": "6da8edbfd3adddd4d956d11d4841c2fb46d792074b3320bde582fccc10a1ca95",
+    "sha256": "6f41045d103e034b86fb89febf9779d10751dd8e994fa40ec4d03c8e340f398f",
     "source_url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
     "status": "archived",
     "text_validation": "complete",
@@ -36918,7 +36929,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills/index.md",
-    "sha256": "6ee7402d974b8897affb7c6e7595476a2c553e0cc3a4d1b23c73cc33e66a90ea",
+    "sha256": "aa734d115117e868a0e61d4f3913b2fa01060e3cbbbba990c0e2b65c9fdf3ee2",
     "source_url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
     "status": "archived",
     "text_validation": "complete",
@@ -36956,7 +36967,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/engineering/how-we-contain-claude/index.md",
-    "sha256": "741fbc4c62c57a03e41fc89485fd261229712f533fad3c633644f7e324f0371b",
+    "sha256": "fc0c7f40f32962f18403e80c56e1074a7edc7a118c9df5da50cf1f36ca9be55d",
     "source_url": "https://www.anthropic.com/engineering/how-we-contain-claude",
     "status": "archived",
     "text_validation": "complete",
@@ -37090,7 +37101,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/news/2028-ai-leadership/index.md",
-    "sha256": "840047c8384c9cbb6fa6c3dfc8877b450d87660c35fa5b1e30395a6e7cb96ca2",
+    "sha256": "802dfd2676f3b36f1c62de901512ba9ed6e8c63f7dcdb16849b7f530d926c9c5",
     "source_url": "https://www.anthropic.com/news/2028-ai-leadership",
     "status": "archived",
     "text_validation": "partial",
@@ -37211,7 +37222,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/advancing-claude-for-financial-services/index.md",
-    "sha256": "ccec1eb551ebdd8e11dc06f1ea0c30713edb6a5ce2e78a72f537bda478b349b7",
+    "sha256": "c89473599db52a1be2d017a73fdc127bc874132fd4430a79aa2fb2e84b2dd6d6",
     "source_url": "https://www.anthropic.com/news/advancing-claude-for-financial-services",
     "status": "archived",
     "text_validation": "complete",
@@ -37279,7 +37290,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/analysis-tool/index.md",
-    "sha256": "9f4f6bea9eaaa2af3ea1cb54a0b5ceb362ab76564cb9c44c3dc774f7f35ee539",
+    "sha256": "c4495ff9adfcaa1c473fb6f7ccc51344ba0c3909d3429f1571228abbe8ebda89",
     "source_url": "https://claude.com/blog/analysis-tool",
     "status": "archived",
     "text_validation": "complete",
@@ -37446,7 +37457,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7/index.md",
-    "sha256": "18b306849536028c2decdb5274f5c1de2319094c27dc4479d0e124d15b9237b4",
+    "sha256": "9effb090598524fafbb66990a1c6fcd2efa9c1abda12938453fb96f9faf8dedc",
     "source_url": "https://www.anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7",
     "status": "archived",
     "text_validation": "complete",
@@ -37459,7 +37470,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/news/anthropic-economic-index-september-2025-report/index.md",
-    "sha256": "2db94f5064e974440f6af0e3a540c17329036c5682fcd72a5624978d629f4343",
+    "sha256": "9e24071ff0779f3a289e73a7d09efdc02d52ad4724aa6bdfc21f161f694d4609",
     "source_url": "https://www.anthropic.com/news/anthropic-economic-index-september-2025-report",
     "status": "archived",
     "text_validation": "partial",
@@ -37470,7 +37481,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/anthropic-education-report-how-educators-use-claude/index.md",
-    "sha256": "bccc9c9ce24963bb17ee9cee7d65a51c0c5b6b5821724f882f41751e24511c45",
+    "sha256": "a97298b246dfd76e2402e98d9bc53a1960b0f75fb86e6c6d2bef547dc1d74654",
     "source_url": "https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude",
     "status": "archived",
     "text_validation": "complete",
@@ -37641,7 +37652,7 @@
   },
   "https://www.anthropic.com/news/anthropic-public-record": {
     "content_notes": [
-      "Could not read tab 'Integrated users': TimeoutError",
+      "Could not read tab 'Support for gov involvement': TimeoutError",
       "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
     ],
     "format": "browser-html",
@@ -37779,7 +37790,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/anthropic-teach-for-all/index.md",
-    "sha256": "21f222d5f21d140b91e69131b74c2fdfca1dd11abffc78cc47e695ddd49c3697",
+    "sha256": "864c20c80bdea58ca665ff3b054463d05c6eab941819a434ffcf5ef7c41a7acd",
     "source_url": "https://www.anthropic.com/news/anthropic-teach-for-all",
     "status": "archived",
     "text_validation": "complete",
@@ -37849,7 +37860,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/bengaluru-office-partnerships-across-india/index.md",
-    "sha256": "48cbdb285a5063cf620ea1aecb7ae470e011c6ee5b939f2daaa7de56301e0935",
+    "sha256": "492bfdf9921116b83426a3d9553a5f8374400001661337cb0c3b3856bde2aab3",
     "source_url": "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india",
     "status": "archived",
     "text_validation": "complete",
@@ -37961,7 +37972,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-2/index.md",
-    "sha256": "f5b37686f8fbd90612146b843fb9785ba6f5640357cd759c861106a63778519c",
+    "sha256": "d5dc98d4c46ddf18a82c1db995f728f5513a7656fbfc2caff2534737b569b1b4",
     "source_url": "https://www.anthropic.com/news/claude-2",
     "status": "archived",
     "text_validation": "complete",
@@ -37972,7 +37983,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-2-1/index.md",
-    "sha256": "0072d24233ed35145a5f076f49aae077a2c800cd5961b0dec2a2afdc85a3b0fa",
+    "sha256": "ae937da9ef57f2c0706809e7fb06203476f95ccf7800cd8292d1c5ea575034bb",
     "source_url": "https://www.anthropic.com/news/claude-2-1",
     "status": "archived",
     "text_validation": "complete",
@@ -37994,7 +38005,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-3-7-sonnet/index.md",
-    "sha256": "6c8154086e2fdde3fdef2e7f83ecfef919e2342d7d4838dce2fa0733830cdfa6",
+    "sha256": "8d45bb070ec5ffc0d449deff66072975e7d61d7e5fe77f10e87e91bd59b74d57",
     "source_url": "https://www.anthropic.com/news/claude-3-7-sonnet",
     "status": "archived",
     "text_validation": "complete",
@@ -38027,7 +38038,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-4/index.md",
-    "sha256": "0fb9a7602a69d8d9c45952d7e096a6e137e647bdb1d93529907a0741fb034be5",
+    "sha256": "b02f8aca436eb728a3c80c985af9847b949c30fba371eb014cd20d0e928a281e",
     "source_url": "https://www.anthropic.com/news/claude-4",
     "status": "archived",
     "text_validation": "complete",
@@ -38062,7 +38073,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-brazil/index.md",
-    "sha256": "7862920a51c0acc185137fa14aca0f01a8249887ade4f7c87f6ef0f1ef85069d",
+    "sha256": "71c41027e71d3918ec132e760c3ed682959c3a08a9b7443cfea728fdd738c607",
     "source_url": "https://www.anthropic.com/news/claude-brazil",
     "status": "archived",
     "text_validation": "complete",
@@ -38152,7 +38163,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-europe/index.md",
-    "sha256": "93e0ee9a9f16b7dc317f51219767d588308ad296525782c1c05e050cb23ab3fb",
+    "sha256": "e94fc6e4839a077eb824c04de8e6b984eb8a86660bfcefed56c9010402f8755c",
     "source_url": "https://www.anthropic.com/news/claude-europe",
     "status": "archived",
     "text_validation": "complete",
@@ -38189,7 +38200,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-for-creative-work/index.md",
-    "sha256": "501f0eb3d78a7b9f28f376c32838a857d6a2fe4fb35de859b6914332bb945be1",
+    "sha256": "d08c12e826cfbff9c9cd19c9321e259af1247820bf9c485fa18e8cbc5dc50a17",
     "source_url": "https://www.anthropic.com/news/claude-for-creative-work",
     "status": "archived",
     "text_validation": "complete",
@@ -38222,7 +38233,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-for-life-sciences/index.md",
-    "sha256": "e212e345fcb9f46cbe066e487331d81ce7cc5f72a3480cdce8430d195e4f2c0b",
+    "sha256": "37ef6e334f72b8ef32f9e6db28ca15a4ddfc5a92763a022f8533161938c42806",
     "source_url": "https://www.anthropic.com/news/claude-for-life-sciences",
     "status": "archived",
     "text_validation": "complete",
@@ -38277,7 +38288,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-haiku-4-5/index.md",
-    "sha256": "c982148ebe24ad06228134d4c4570f93038901223ec9f332cf6caba193e7f376",
+    "sha256": "d3fa7cc7f06288020b2551b4ad9cd151e332c0a421267dc0fad7f6782b6f9e0b",
     "source_url": "https://www.anthropic.com/news/claude-haiku-4-5",
     "status": "archived",
     "text_validation": "complete",
@@ -38395,7 +38406,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-opus-4-8/index.md",
-    "sha256": "6a8c0fc2e9860fcb76d2ddb4a943d548e5e67f7fee1faf173f871e623bf9d935",
+    "sha256": "096b14c2d1013bf016be921919b65216d4c118a75035b15f1734f8af8fa62da2",
     "source_url": "https://www.anthropic.com/news/claude-opus-4-8",
     "status": "archived",
     "text_validation": "complete",
@@ -38431,7 +38442,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-pro/index.md",
-    "sha256": "c2df4973e92d33d853585851d89650aaa2fa1fc31be050a07683e0293772cfc2",
+    "sha256": "b42dd3db2f95dfc61da3f80b93cd9521fc6cc9661740fbd5751f062af12e81ce",
     "source_url": "https://www.anthropic.com/news/claude-pro",
     "status": "archived",
     "text_validation": "complete",
@@ -38466,7 +38477,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-sonnet-4-6/index.md",
-    "sha256": "c4e8c61758c1bc384a3351f66c599d2437aaa0b9ee0da3a02649a7560bc50b7a",
+    "sha256": "f902124f6d50f65b89e309c2d828d33ebedea9a80e04691f5aec68c0c3503163",
     "source_url": "https://www.anthropic.com/news/claude-sonnet-4-6",
     "status": "archived",
     "text_validation": "complete",
@@ -38582,7 +38593,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/constitutional-classifiers/index.md",
-    "sha256": "19852df8c0efe6486c6436028ef982b1813f47b746c9335e8142e3f1b6789be4",
+    "sha256": "e85e504da3afe66334983b6f614fb8727cd87ffac07d4dbc932107e6e6a2e8c6",
     "source_url": "https://www.anthropic.com/news/constitutional-classifiers",
     "status": "archived",
     "text_validation": "complete",
@@ -38984,7 +38995,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/expanding-support-for-scientists/index.md",
-    "sha256": "32f2546040f01acd10bb399be56ec03701fea1e16f41f41fc6a076396f4c6ffa",
+    "sha256": "46b87e6f8c2bf1141378f179098231f66e3ffbe4cc293554bc2f0cfdfec5fc0f",
     "source_url": "https://www.anthropic.com/news/expanding-support-for-scientists",
     "status": "archived",
     "text_validation": "complete",
@@ -39107,7 +39118,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/golden-gate-claude/index.md",
-    "sha256": "99c24eee1db7fc887ebea04b4a2a630610a89dddc93cfdaad0f4a6458fb25476",
+    "sha256": "0018ff530a5172d5a45b549526ab804feef74f89f67a7846d1b8259b151502e5",
     "source_url": "https://www.anthropic.com/news/golden-gate-claude",
     "status": "archived",
     "text_validation": "complete",
@@ -39324,7 +39335,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/introducing-claude-tag/index.md",
-    "sha256": "9205a71dce4894f554624e64d8070d5dcb1379fe8deee4bb760d325b376fffff",
+    "sha256": "f26b98a12166d5ae131fddbb3858ab8a44b639d73084779d8da4c7c842e23b58",
     "source_url": "https://www.anthropic.com/news/introducing-claude-tag",
     "status": "archived",
     "text_validation": "complete",
@@ -39335,7 +39346,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/introducing-claude-to-canada/index.md",
-    "sha256": "ec798be97b56b46b30927793a657fea7979756b67a85303976772def6e47d2fa",
+    "sha256": "28c65329a6123f46d590edeeb857e1a7e798d5665023669dcc36b1d66071c06f",
     "source_url": "https://www.anthropic.com/news/introducing-claude-to-canada",
     "status": "archived",
     "text_validation": "complete",
@@ -39456,7 +39467,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/life-sciences-verification-program/index.md",
-    "sha256": "9512674ea436ab30ca2f4e1833c8a353c1cf877168b8130ca74789c919078472",
+    "sha256": "ba3ed1d4031f82098950868d96720a4e4b65f38b0fd46870283122a33765e05f",
     "source_url": "https://www.anthropic.com/news/life-sciences-verification-program",
     "status": "archived",
     "text_validation": "complete",
@@ -39583,7 +39594,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/model-context-protocol/index.md",
-    "sha256": "57a981a4607011e6dc7b2dfdd4487143fecedbe65c164217c83ec346bb377853",
+    "sha256": "6f43be3634bcd6518e2fd189e44f2832330be9091722f297e97ce40fc7c790b3",
     "source_url": "https://www.anthropic.com/news/model-context-protocol",
     "status": "archived",
     "text_validation": "complete",
@@ -39619,7 +39630,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/mou-uk-government/index.md",
-    "sha256": "887c6ebb686c405cb2e5971def1801e0117f2d8a8893e26621c1e9aaf325d003",
+    "sha256": "d3ff3a4908e3999e21a17128429e2907366cb4522cda7c45ad879c256b03a3ae",
     "source_url": "https://www.anthropic.com/news/mou-uk-government",
     "status": "archived",
     "text_validation": "complete",
@@ -39773,7 +39784,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/political-even-handedness/index.md",
-    "sha256": "e49c2fd5880c73817a05a8b184b8f82855c283b22967dd62e4fe13fffbf0a64e",
+    "sha256": "35c4607c254d0417b091834d75a8f14c2065b5ca6570d5909a3fb040cbe9c290",
     "source_url": "https://www.anthropic.com/news/political-even-handedness",
     "status": "archived",
     "text_validation": "complete",
@@ -39819,7 +39830,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/projects/index.md",
-    "sha256": "73af99aaf7864e859b46127efe6028f907ea14121cc6bdf08a9580af82e86f6f",
+    "sha256": "0fb59615535325d6b00ca31674285a4caeddd3167fba7c1ad7244f9864f2d047",
     "source_url": "https://www.anthropic.com/news/projects",
     "status": "archived",
     "text_validation": "complete",
@@ -39841,7 +39852,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/prompt-engineering-for-business-performance/index.md",
-    "sha256": "d658ef2d7253aedc9ddfd22d77405cd9d39d056a7861b9861fd178fcfa69ade3",
+    "sha256": "c3a79b419535c2139b62f200f140cf38e83f3def1ade22585760de8744dbcf3d",
     "source_url": "https://www.anthropic.com/news/prompt-engineering-for-business-performance",
     "status": "archived",
     "text_validation": "complete",
@@ -39887,7 +39898,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/protecting-well-being-of-users/index.md",
-    "sha256": "2fe5210ed859404ad50f3f92ba376a02b093d010636b078f7879d6491edac592",
+    "sha256": "0733cb13bbf2678a99efc0e6a92918a63297a8aaa005cbceb7dee07fff668510",
     "source_url": "https://www.anthropic.com/news/protecting-well-being-of-users",
     "status": "archived",
     "text_validation": "complete",
@@ -39964,7 +39975,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/reflect-with-claude/index.md",
-    "sha256": "8a8868a3c66d9a7402dc5e0423f917c63418fb1a4d01cef4676fb137e65181c0",
+    "sha256": "035d50a7d2afaa6c564d5501d5914a90324f13c9b6ac18a11bad98b401388edd",
     "source_url": "https://www.anthropic.com/news/reflect-with-claude",
     "status": "archived",
     "text_validation": "complete",
@@ -40267,7 +40278,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/testing-and-mitigating-elections-related-risks/index.md",
-    "sha256": "d1ffd957b0bdddc91f8566132cbf6c0126cc7593afc970fd425cfb7e4e9497a0",
+    "sha256": "d2b0cd22e836efd90da66c5960e0a02227bc8aa778ce34d83b61b7f28117e083",
     "source_url": "https://www.anthropic.com/news/testing-and-mitigating-elections-related-risks",
     "status": "archived",
     "text_validation": "complete",
@@ -40289,7 +40300,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/the-anthropic-economic-index/index.md",
-    "sha256": "f6d6f9807be3127b9e59b991294fef878b225f58ec4f513ae8536cc09755dece",
+    "sha256": "fffeb341acee54e1b88fed8573f52fbd98520305eecfb9602d851332d7a8ce92",
     "source_url": "https://www.anthropic.com/news/the-anthropic-economic-index",
     "status": "archived",
     "text_validation": "complete",
@@ -40445,7 +40456,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/updates-to-our-consumer-terms/index.md",
-    "sha256": "29343aca91e88c4734b31c822124d1f1f0a9b050ea583239bf72fd090f1d6d97",
+    "sha256": "39518a67671038f6aae10f6b09594dfee13aff12b387e9a390e70bdd5f1ec382",
     "source_url": "https://www.anthropic.com/news/updates-to-our-consumer-terms",
     "status": "archived",
     "text_validation": "complete",
@@ -40511,7 +40522,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/visible-extended-thinking/index.md",
-    "sha256": "878357a86629f542a70ae8d032a265ba03caf9571a7a2c91e45a8d8061953836",
+    "sha256": "663a2dcf48975018f3c8c358f217d54f9d10af69925e94ec240af0cff8455014",
     "source_url": "https://www.anthropic.com/news/visible-extended-thinking",
     "status": "archived",
     "text_validation": "complete",
@@ -40756,7 +40767,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7/index.md",
-    "sha256": "18b306849536028c2decdb5274f5c1de2319094c27dc4479d0e124d15b9237b4",
+    "sha256": "9effb090598524fafbb66990a1c6fcd2efa9c1abda12938453fb96f9faf8dedc",
     "source_url": "https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7",
     "status": "archived",
     "text_validation": "complete",
@@ -40769,7 +40780,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/research/anthropic-economic-index-january-2026-report/index.md",
-    "sha256": "325f1c9cabdeca96756e221460543fe6f07907c7588dc1d9ac116abaefd061fc",
+    "sha256": "7c2553d66d0cfe96b4865951d03627e5d1d0b70c59969ee36e205c27efc9faa4",
     "source_url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
     "status": "archived",
     "text_validation": "partial",
@@ -40782,7 +40793,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/research/anthropic-economic-index-september-2025-report/index.md",
-    "sha256": "1ab8deb363ea7ffbe077fb1db0beb71483619963dfc99a3384b57b73872163a8",
+    "sha256": "7b534b0802e9dbd8969f9885411ab52ba7b92690229e8f3812deab386cc09898",
     "source_url": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report",
     "status": "archived",
     "text_validation": "partial",
@@ -40793,7 +40804,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/anthropic-education-report-how-educators-use-claude/index.md",
-    "sha256": "bccc9c9ce24963bb17ee9cee7d65a51c0c5b6b5821724f882f41751e24511c45",
+    "sha256": "a97298b246dfd76e2402e98d9bc53a1960b0f75fb86e6c6d2bef547dc1d74654",
     "source_url": "https://www.anthropic.com/research/anthropic-education-report-how-educators-use-claude",
     "status": "archived",
     "text_validation": "complete",
@@ -40905,7 +40916,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/bloom/index.md",
-    "sha256": "5b85f00d036594bb38b9d4272e8f1320822b068025752b261e365495ce3cbe1a",
+    "sha256": "64161db3b3ed358a4af666fd291aa91513b994178f76130ec95f5df72d7b5b1e",
     "source_url": "https://www.anthropic.com/research/bloom",
     "status": "archived",
     "text_validation": "complete",
@@ -41015,7 +41026,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/claude-3-7-sonnet/index.md",
-    "sha256": "628dfe8e54e8c3403306c93534942a64c258468fac9aab99a54bc1a46e08b2c3",
+    "sha256": "db7d10d70e7eef29b49d643b6a4504c2827036bfa18f492df49468767ebfdc87",
     "source_url": "https://www.anthropic.com/research/claude-3-7-sonnet",
     "status": "archived",
     "text_validation": "complete",
@@ -41048,7 +41059,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/claude-code-expertise/index.md",
-    "sha256": "16c478dddb67a21719372e3e24f9b5ecdc7c7c8331851da21fc3264a2790597f",
+    "sha256": "fefc535614854fb2658f0b2670742207529c89e74ebb5645404b94fee166d88b",
     "source_url": "https://www.anthropic.com/research/claude-code-expertise",
     "status": "archived",
     "text_validation": "complete",
@@ -41056,6 +41067,8 @@
   },
   "https://www.anthropic.com/research/claude-fable-5-mythos-5": {
     "content_notes": [
+      "Could not read tab 'VibeCAD': TimeoutError",
+      "Could not read tab 'Fluid with Classical EDM': TimeoutError",
       "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
     ],
     "format": "browser-html",
@@ -41072,7 +41085,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/claude-opus-4-8/index.md",
-    "sha256": "94b33c82a86fad7450042aaddc2b0b064f46b66b8fef9a847f1f77c7cc692e49",
+    "sha256": "58e31a5b816bd9ee62764e928e21aa0ec75f3684e7f231dc9d13ad7a0c0caeb4",
     "source_url": "https://www.anthropic.com/research/claude-opus-4-8",
     "status": "archived",
     "text_validation": "complete",
@@ -41100,7 +41113,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/research/claude-personal-guidance/index.md",
-    "sha256": "1cf4417e1f7e4f81b3aaea35c303b80040ca8e295f6d92aace363e2e97dec5f2",
+    "sha256": "632fe3c1471969863591190fc2c78b501474dbe22ae3f9e75a49f03e4df17474",
     "source_url": "https://www.anthropic.com/research/claude-personal-guidance",
     "status": "archived",
     "text_validation": "partial",
@@ -41124,7 +41137,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/claude-sonnet-4-6/index.md",
-    "sha256": "40c181659ef83be7cde7a5d24a2f96e70415a5b72ecd7d6f7364ce08d6e8b8bc",
+    "sha256": "1b80e810b7995a3b9d5caeadcc7cd220911aba515df61594424848834936c8fc",
     "source_url": "https://www.anthropic.com/research/claude-sonnet-4-6",
     "status": "archived",
     "text_validation": "complete",
@@ -41185,7 +41198,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/clio/index.md",
-    "sha256": "74ee55a65c04ed2ac279f17fbfde493d4290e84e44c6de47ec61edd7c74f5251",
+    "sha256": "b9f95339135f23af15ee3a349fbd343eb85180d01196273a76914f2af5dbf591",
     "source_url": "https://www.anthropic.com/research/clio",
     "status": "archived",
     "text_validation": "complete",
@@ -41240,7 +41253,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/constitutional-classifiers/index.md",
-    "sha256": "19852df8c0efe6486c6436028ef982b1813f47b746c9335e8142e3f1b6789be4",
+    "sha256": "cda70a6493c4a0ac7e6f6441e1c4675e6b3a1d9795c6cf42abfb9d0a6bffc460",
     "source_url": "https://www.anthropic.com/research/constitutional-classifiers",
     "status": "archived",
     "text_validation": "complete",
@@ -41273,7 +41286,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/cyber-competitions/index.md",
-    "sha256": "fd8c8c0ba6de8d3c8d8045932f31cfca55512dd77cb4cad783c6b47a7a8b7d47",
+    "sha256": "5bb8da2ed41133fadb30c374159228a59f8d505058dc5557d8f68853cc5675c0",
     "source_url": "https://www.anthropic.com/research/cyber-competitions",
     "status": "archived",
     "text_validation": "complete",
@@ -41330,7 +41343,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/deprecation-updates-opus-3/index.md",
-    "sha256": "2d7e3f4b174f333f6b01d0d1aecda2460d6b634b35ab9b9a200145f5b4bfdb49",
+    "sha256": "e4ed76bad97477a8bfda47b590bd9e039344bb6acc6ee1704e3b751798f7cb0d",
     "source_url": "https://www.anthropic.com/research/deprecation-updates-opus-3",
     "status": "archived",
     "text_validation": "complete",
@@ -41385,7 +41398,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/disempowerment-patterns/index.md",
-    "sha256": "2c12752fd059378ece9e9d4d5c8a88d4513e24a5c690419bd667dedcf63a905b",
+    "sha256": "195d9cebe451d144decad57e08a4ba7cb7f1e57042c1d9774741011b59e229fe",
     "source_url": "https://www.anthropic.com/research/disempowerment-patterns",
     "status": "archived",
     "text_validation": "complete",
@@ -41420,7 +41433,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/economic-index-geography/index.md",
-    "sha256": "3fc8aaacea821834e05af4774aa112810c61f463531c2a85873c842f349d9ae8",
+    "sha256": "42cf294ab9f8e2f49605af5ce366476264afd60190f7f4636e674f42c577397b",
     "source_url": "https://www.anthropic.com/research/economic-index-geography",
     "status": "archived",
     "text_validation": "complete",
@@ -41433,7 +41446,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/research/economic-index-june-2026-report/index.md",
-    "sha256": "b5946685d52ddd9c13499b21858137e20f530f2c2ba12ade6990868c47ad8d8c",
+    "sha256": "9fb672ca4ccf50041a6d77532d4706406576abb97fa6fe1766fe569076f1601d",
     "source_url": "https://www.anthropic.com/research/economic-index-june-2026-report",
     "status": "archived",
     "text_validation": "partial",
@@ -41457,7 +41470,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/economic-index-primitives/index.md",
-    "sha256": "8b578491d94d19882ef6b1bf5d69183f4b7f61c7684bfb5cdb18280d27aa367e",
+    "sha256": "bb2c3df1189f3b1281be65122cc87f0df207742dc51edde79bdde5ff4397312c",
     "source_url": "https://www.anthropic.com/research/economic-index-primitives",
     "status": "archived",
     "text_validation": "complete",
@@ -41468,7 +41481,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/economic-index-survey-announcement/index.md",
-    "sha256": "bd2868e8fbc9268c26380c217d9cbf06748c64c91194bdd7e2cfafe0521547a9",
+    "sha256": "125a4fffdfebdaa3365b159d3a25feea9050a30b27e7efd5f8398ff5bb34ec14",
     "source_url": "https://www.anthropic.com/research/economic-index-survey-announcement",
     "status": "archived",
     "text_validation": "complete",
@@ -41545,7 +41558,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/estimating-productivity-gains/index.md",
-    "sha256": "aac4763e9d65c666c66e3f0a01b7f47adaeea6db8adcbad0ff9d40bb4dabffb5",
+    "sha256": "018e6018e05a2653360509b0453333f21184808c2b810016ba9adb5aacdb2075",
     "source_url": "https://www.anthropic.com/research/estimating-productivity-gains",
     "status": "archived",
     "text_validation": "complete",
@@ -41714,7 +41727,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/impact-software-development/index.md",
-    "sha256": "2a3368c57797149a329d3a85af52bfa2756b7835c2a0b64591fab9f128523bbd",
+    "sha256": "882da2a4ae87e85d2d0a69a0631d468d1c09cb2c4103b7f6f993fea40c3d7162",
     "source_url": "https://www.anthropic.com/research/impact-software-development",
     "status": "archived",
     "text_validation": "complete",
@@ -41861,7 +41874,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/mapping-mind-language-model/index.md",
-    "sha256": "8302105df19151d04abe71e05c180dd3b4a1a33dd46b42155c4ade8a4e37a2ec",
+    "sha256": "862529dcecfb4100e2f1a6bc9448344e1b7103541eacb9e0762282b3401f9636",
     "source_url": "https://www.anthropic.com/research/mapping-mind-language-model",
     "status": "archived",
     "text_validation": "complete",
@@ -41951,7 +41964,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/natural-language-autoencoders/index.md",
-    "sha256": "14c9f3a0bbe2267e2ed5fca89a9cb0c1598d8d93b386c225b82f27bb05367124",
+    "sha256": "40856707b1bd131a255d7bf1d430032b2cf96e403648dca93725a35ac632d11a",
     "source_url": "https://www.anthropic.com/research/natural-language-autoencoders",
     "status": "archived",
     "text_validation": "complete",
@@ -42241,7 +42254,7 @@
     "source_url": "https://www.anthropic.com/research/riemann-zeta",
     "status": "archived",
     "text_validation": "complete",
-    "title": "Claude's progress on the Riemann hypothesis \\ Anthropic"
+    "title": "Claude has improved on a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the Riemann hypothesis \\ Anthropic"
   },
   "https://www.anthropic.com/research/sabotage-evaluations": {
     "content_notes": [],

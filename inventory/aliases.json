@@ -331,6 +331,8 @@
   "https://platform.claude.com/docs/en/build-with-claude/workload-identity-federation": "https://platform.claude.com/docs/en/manage-claude/workload-identity-federation",
   "https://platform.claude.com/docs/en/build-with-claude/workspaces": "https://platform.claude.com/docs/en/manage-claude/workspaces",
   "https://platform.claude.com/docs/en/managed-agents/multi-agent": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration",
+  "https://platform.claude.com/docs/en/models/opus-5/migration-guide": "https://platform.claude.com/docs/en/models/opus-5-5/migration-guide",
+  "https://platform.claude.com/docs/en/models/opus-5/whats-new-opus-5": "https://platform.claude.com/docs/en/models/opus-5/overview",
   "https://platform.claude.com/docs/en/release-notes/api": "https://platform.claude.com/docs/en/release-notes/overview",
   "https://platform.claude.com/docs/en/release-notes/system-prompts": "https://platform.claude.com/docs/en/release-notes/system-prompts/overview",
   "https://support.claude.com/": "https://support.claude.com/en/",

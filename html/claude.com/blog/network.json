@@ -96,11 +96,6 @@
   },
   {
     "reason": "optional_media_widget_or_analytics",
-    "type": "script",
-    "url": "https://assets.claude.ai/sdk/antalytics/latest.umd.js"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
     "type": "stylesheet",
     "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/css/claude-brand.shared.16c15049c.min.css"
   },
