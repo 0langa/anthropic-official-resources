@@ -117,11 +117,11 @@ MessagesManaged Agents
 
    ### Operate
 
-   [Workspaces and admin](https://platform.claude.com/docs/en/build-with-claude/workspaces)
+   [Workspaces and admin](https://platform.claude.com/docs/en/manage-claude/workspaces)
 
    [API key management](https://platform.claude.com/settings/keys)
 
-   [Usage monitoring](https://platform.claude.com/docs/en/build-with-claude/usage-cost-api)
+   [Usage monitoring](https://platform.claude.com/docs/en/manage-claude/usage-cost-api)
 
    [Model migration](https://platform.claude.com/docs/en/about-claude/models/migration-guide)
 
@@ -413,8 +413,8 @@ ant messages create \
 
    ### Operate
 
-   [Workspaces and admin](https://platform.claude.com/docs/en/build-with-claude/workspaces)
+   [Workspaces and admin](https://platform.claude.com/docs/en/manage-claude/workspaces)
 
    [API key management](https://platform.claude.com/settings/keys)
 
-   [Usage monitoring](https://platform.claude.com/docs/en/build-with-claude/usage-cost-api)
+   [Usage monitoring](https://platform.claude.com/docs/en/manage-claude/usage-cost-api)

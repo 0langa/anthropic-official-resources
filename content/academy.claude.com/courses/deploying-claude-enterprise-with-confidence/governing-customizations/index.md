@@ -10,10 +10,6 @@ In this lessonBy the end, you’ll be able to
 - Explain why customizations need governance and how the settings that enforce a posture work together
 - Choose your governance posture, including whether one posture covers the whole organization, and recognize the signals that it doesn’t fit
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fgoverning-customizations)
-
 This is the third of the five decisions, Governance. You’ve decided what Claude can reach. Now you’ll learn about the customizations that change how Claude works, and how those changes can cascade across your organization. Skills, shared setups, and the always-on guidance your organization gives Claude all sit here because they answer one question at different layers: how much of what one member sets up can reach others?
 
 ## User customizations and organization instructions[](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/governing-customizations)
@@ -67,35 +63,7 @@ Pluto runs a split posture: members in most groups build freely and share within
 
 The interactive widget below follows one skill through the build-review-publish loop: switch between the postures — Pluto’s open build with reviewed spread for most groups, approve-first for Payments & Trust — and watch where the review gate sits.
 
-Exercise: switch among four governance postures to see where a review gate lands across build, vet, promote, and spread stages, who may act at each, and which sample skills pass, stop, or spread unreviewed, showing how posture trades speed for review.
-
-**Switch the posture** and watch where the review gate sits and which Skill it stops.
-
-Open build, reviewed spread · Pluto (most groups)Approve-first · Payments & TrustCentralizedFully open
-
-Skill
-
-BuildAny member
-
-VetAny member
-
-PromoteNamed reviewer
-
-SpreadAny member
-
-Review gate
-
-notes-formatterbuilt by a member
-
-pricing-helperbuilt by a member
-
-customer-data-lookupbuilt by a member · reaches regulated data
-
-Sent back for changes
-
-refund-handlerbuilt by a member
-
-Passed this stageStopped at the gateNever reached
+Loading
 
 ## 1 · Your decision[](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/governing-customizations)
 
@@ -155,5 +123,3 @@ Before you record a posture, check it against three questions you can already an
 ## What’s next[](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/governing-customizations)
 
 Members can now build and share within the bounds you set. The next module, Spend, turns to what that activity costs: where spend caps sit across your organization, and who owns each one when a member reaches it.
-
-Was this helpful?

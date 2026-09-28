@@ -91,8 +91,8 @@
   ],
   "statuses": {
     "blocked": 3,
-    "complete": 3938,
-    "gone": 64,
+    "complete": 3937,
+    "gone": 65,
     "out_of_scope": 33,
     "partial": 84
   },
@@ -245,6 +245,7 @@
     "https://claude.com/blog/what-a-task-costs-on-opus-5-5",
     "https://claude.com/resources",
     "https://claude.com/resources/tutorials/using-research-and-google-workspace",
+    "https://claude.com/resources/use-cases/category/nonprofits",
     "https://code.claude.com/docs/en/examples",
     "https://code.claude.com/docs/en/reference",
     "https://platform.claude.com/cookbook/URL",
