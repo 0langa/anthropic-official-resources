@@ -19,7 +19,7 @@ compliance activities that can be filtered by various criteria.
 
 #### Query parameters
 
-- `activity_types: optional array of "abuse_decision_received" or "account_deleted" or "admin_api_key_created" or 511 more`
+- `activity_types: optional array of "abuse_decision_received" or "account_deleted" or "admin_api_key_created" or 513 more`
 
   Filter activities by type. See the response `data` schema for the additional fields each type returns. Cannot be combined with `exclude_activity_types[]`.
 
@@ -547,6 +547,10 @@ compliance activities that can be filtered by various criteria.
 
     User disabled a plugin for their account.
 
+  - `"claude_plugin_downloaded"`
+
+    The archive of the plugin version a member was served was downloaded to install or update the plugin in one of the member's Claude apps (Claude in the browser, the Claude desktop app, Claude Code, or a cloud session).
+
   - `"claude_plugin_enabled"`
 
     User enabled a plugin for their account.
@@ -933,7 +937,7 @@ compliance activities that can be filtered by various criteria.
 
   - `"inference_hooks_request_denied"`
 
-    Inference hooks inspection denied a request. The request was blocked and no model response was produced.
+    Inference hooks inspection denied a request. The request was blocked.
 
   - `"inference_hooks_request_failed_open"`
 
@@ -1671,6 +1675,10 @@ compliance activities that can be filtered by various criteria.
 
     An OAuth app was updated.
 
+  - `"platform_organization_created"`
+
+    An owner of the organization created a Claude Console organization under the same parent organization.
+
   - `"platform_plugin_directory_submission_created"`
 
     A plugin directory submission was created on the API platform. A plugin directory submission is a request to list a plugin in the public plugin directory.
@@ -2134,7 +2142,7 @@ compliance activities that can be filtered by various criteria.
 
     format: date-time
 
-- `exclude_activity_types: optional array of "abuse_decision_received" or "account_deleted" or "admin_api_key_created" or 511 more`
+- `exclude_activity_types: optional array of "abuse_decision_received" or "account_deleted" or "admin_api_key_created" or 513 more`
 
   Exclude activities of these types. Cannot be combined with `activity_types[]`.
 
@@ -2662,6 +2670,10 @@ compliance activities that can be filtered by various criteria.
 
     User disabled a plugin for their account.
 
+  - `"claude_plugin_downloaded"`
+
+    The archive of the plugin version a member was served was downloaded to install or update the plugin in one of the member's Claude apps (Claude in the browser, the Claude desktop app, Claude Code, or a cloud session).
+
   - `"claude_plugin_enabled"`
 
     User enabled a plugin for their account.
@@ -3048,7 +3060,7 @@ compliance activities that can be filtered by various criteria.
 
   - `"inference_hooks_request_denied"`
 
-    Inference hooks inspection denied a request. The request was blocked and no model response was produced.
+    Inference hooks inspection denied a request. The request was blocked.
 
   - `"inference_hooks_request_failed_open"`
 
@@ -3786,6 +3798,10 @@ compliance activities that can be filtered by various criteria.
 
     An OAuth app was updated.
 
+  - `"platform_organization_created"`
+
+    An owner of the organization created a Claude Console organization under the same parent organization.
+
   - `"platform_plugin_directory_submission_created"`
 
     A plugin directory submission was created on the API platform. A plugin directory submission is a request to list a plugin in the public plugin directory.
@@ -4215,7 +4231,7 @@ compliance activities that can be filtered by various criteria.
 
   Maximum results (default: 100, max: 5000)
 
-  default: 100, maximum: 5000, minimum: 1
+  default: 100, minimum: 1, maximum: 5000
 
 - `order: optional "asc" or "desc"`
 
@@ -4241,7 +4257,7 @@ compliance activities that can be filtered by various criteria.
 
 #### Returns
 
-- `data: optional array of AbuseDecisionReceived or AccountDeleted or AdminAPIKeyCreated or 511 more`
+- `data: optional array of AbuseDecisionReceived or AccountDeleted or AdminAPIKeyCreated or 513 more`
 
   List of activity records. Each element's `type` field identifies which activity it is and which additional fields are present.
 
@@ -8581,10 +8597,6 @@ compliance activities that can be filtered by various criteria.
 
       The published artifact's identifier.
 
-    - `title: string`
-
-      Title of the published artifact
-
     - `id: optional string`
 
       Unique identifier for the activity e.g. 'activity_abcd1234'
@@ -8618,6 +8630,12 @@ compliance activities that can be filtered by various criteria.
     - `organization_uuid: optional string or null`
 
       Organization UUID where the activity occurred. Null when the activity is not tied to an organization (for example, login and logout events or calls to the Compliance API).
+
+    - `title: string`
+
+      **Deprecated**
+
+      No longer populated. For Code Artifacts (`claude_published_artifact_id` starts with `cart_`), find that artifact in List Code Artifacts: the title is the `name` of its `versions` entry whose `id` equals `claude_artifact_version_id`, while that version is still retained (a `name` equal to the version id means the title is no longer kept). For other artifacts, look up `claude_artifact_version_id` with Get artifact metadata. That id is absent when the publish isn't linked to an artifact version, and neither lookup works once the artifact is deleted.
 
   - `ClaudeArtifactSharingUpdated object`
 
@@ -10917,7 +10935,7 @@ compliance activities that can be filtered by various criteria.
 
     - `mint_jti: string`
 
-      The identifier of the mint attempt, a bare UUID. One mint through the Claude Tag mint broker produces two minted events that carry the same value, the broker's own report and the agent proxy's record. A reader counts issuances from the broker's reports by distinct report_id, and several distinct reports that share one mint_jti are the accepted mints of a replayed token. Empty on events for mints that did not travel through the broker.
+      The identifier of the mint attempt, a bare UUID. One mint through the Claude Tag mint broker produces two minted events that carry the same value, the broker's own report and the agent proxy's record. A reader counts issuances from the broker's reports by distinct report_id. Each non-empty value belongs to at most one issued token. Empty on events for mints that did not travel through the broker.
 
     - `profile_id: string`
 
@@ -10982,6 +11000,10 @@ compliance activities that can be filtered by various criteria.
       When the minted token expires.
 
       format: date-time
+
+    - `token_jti: optional string or null`
+
+      The issued token's unique identifier (its `jti` claim), for matching this event to the token a gateway or cloud provider received; not the same value as mint_jti. Set only when issuance_path is `proxy_record` or `direct`, for live sessions, and only when the identifier could be read.
 
   - `CcrAgentProxyCredentialCreated object`
 
@@ -11223,7 +11245,7 @@ compliance activities that can be filtered by various criteria.
 
     - `authorization_basis: optional object or null`
 
-      CcrAgentProxyCredentialAuthorizationBasis records how the actor was authorized to perform a Claude Code agent proxy credential operation. Populated only when the operation was authorized against a specific actor's permissions; absent on system-initiated operations (for example, an automatic token rotation) and on operations authorized by a provisioning link rather than the actor's own permissions.
+      How the actor was authorized to create this credential. Absent on system-initiated operations and on credentials created via a provisioning link.
 
       - `slack_channel_id: string`
 
@@ -11499,7 +11521,7 @@ compliance activities that can be filtered by various criteria.
 
     - `authorization_basis: optional object or null`
 
-      CcrAgentProxyCredentialAuthorizationBasis records how the actor was authorized to perform a Claude Code agent proxy credential operation. Populated only when the operation was authorized against a specific actor's permissions; absent on system-initiated operations (for example, an automatic token rotation) and on operations authorized by a provisioning link rather than the actor's own permissions.
+      How the actor was authorized to delete this credential.
 
       - `slack_channel_id: string`
 
@@ -11791,7 +11813,7 @@ compliance activities that can be filtered by various criteria.
 
     - `authorization_basis: optional object or null`
 
-      CcrAgentProxyCredentialAuthorizationBasis records how the actor was authorized to perform a Claude Code agent proxy credential operation. Populated only when the operation was authorized against a specific actor's permissions; absent on system-initiated operations (for example, an automatic token rotation) and on operations authorized by a provisioning link rather than the actor's own permissions.
+      How the actor was authorized to rotate this credential. Absent on automatic rotations initiated by the system rather than by a user.
 
       - `slack_channel_id: string`
 
@@ -12071,7 +12093,7 @@ compliance activities that can be filtered by various criteria.
 
     - `authorization_basis: optional object or null`
 
-      CcrAgentProxyCredentialAuthorizationBasis records how the actor was authorized to perform a Claude Code agent proxy credential operation. Populated only when the operation was authorized against a specific actor's permissions; absent on system-initiated operations (for example, an automatic token rotation) and on operations authorized by a provisioning link rather than the actor's own permissions.
+      How the actor was authorized to update this credential.
 
       - `slack_channel_id: string`
 
@@ -33135,10 +33157,6 @@ compliance activities that can be filtered by various criteria.
 
       - `"unspecified"`
 
-    - `filename: string`
-
-      Name of the exported file.
-
     - `id: optional string`
 
       Unique identifier for the activity e.g. 'activity_abcd1234'
@@ -33164,6 +33182,12 @@ compliance activities that can be filtered by various criteria.
     - `organization_uuid: optional string or null`
 
       Organization UUID where the activity occurred. Null when the activity is not tied to an organization (for example, login and logout events or calls to the Compliance API).
+
+    - `filename: string`
+
+      **Deprecated**
+
+      No longer populated. Where `claude_file_id` is present, resolve the name via the Compliance API files endpoint; sandbox and desktop exports carry no file id.
 
   - `ClaudeFileViewed object`
 
@@ -33662,6 +33686,250 @@ compliance activities that can be filtered by various criteria.
     - `organization_uuid: optional string or null`
 
       Organization UUID where the activity occurred. Null when the activity is not tied to an organization (for example, login and logout events or calls to the Compliance API).
+
+  - `ClaudePluginDownloaded object`
+
+    The archive of the plugin version a member was served was downloaded to install or update the plugin in one of the member's Claude apps (Claude in the browser, the Claude desktop app, Claude Code, or a cloud session).
+
+    - `type: optional "claude_plugin_downloaded"`
+
+      default: claude_plugin_downloaded
+
+    - `actor: APIActor or UserActor or UnauthenticatedUserActor or 8 more`
+
+      - `APIActor object`
+
+        - `type: optional "api_actor"`
+
+          default: api_actor
+
+        - `api_key_id: string`
+
+        - `ip_address: string`
+
+        - `user_agent: string`
+
+      - `UserActor object`
+
+        - `type: optional "user_actor"`
+
+          default: user_actor
+
+        - `email_address: string`
+
+          format: email
+
+        - `ip_address: string`
+
+        - `user_agent: string`
+
+        - `user_id: string`
+
+      - `UnauthenticatedUserActor object`
+
+        - `type: optional "unauthenticated_user_actor"`
+
+          default: unauthenticated_user_actor
+
+        - `ip_address: string`
+
+        - `user_agent: string`
+
+        - `unauthenticated_email_address: optional string or null`
+
+          format: email
+
+      - `AnthropicActor object`
+
+        - `type: optional "anthropic_actor"`
+
+          default: anthropic_actor
+
+        - `email_address: optional string or null`
+
+          format: email
+
+      - `SystemActor object`
+
+        Automated background processing performed by Anthropic systems, acting
+        without a user or customer credential.
+
+        - `type: optional "system_actor"`
+
+          default: system_actor
+
+        - `service: optional string or null`
+
+          Name of the automated process that performed the action, when known.
+
+      - `AdminAPIKeyActor object`
+
+        - `type: optional "admin_api_key_actor"`
+
+          default: admin_api_key_actor
+
+        - `admin_api_key_id: string`
+
+        - `ip_address: string`
+
+        - `user_agent: string`
+
+      - `ServiceAccountActor object`
+
+        - `type: optional "service_account_actor"`
+
+          default: service_account_actor
+
+        - `ip_address: string`
+
+        - `service_account_id: string`
+
+        - `user_agent: string`
+
+      - `ScimDirectorySyncActor object`
+
+        - `type: optional "scim_directory_sync_actor"`
+
+          default: scim_directory_sync_actor
+
+        - `directory_id: string`
+
+        - `workos_event_id: string`
+
+        - `idp_connection_type: optional string or null`
+
+      - `FederatedIdentityActor object`
+
+        A federated external workload authenticated via a verified OIDC token.
+
+        Carries the verified issuer, subject, and audience claims from the
+        presented JWT.
+
+        - `type: optional "federated_identity_actor"`
+
+          default: federated_identity_actor
+
+        - `issuer: string`
+
+        - `subject: string`
+
+        - `audience: optional array of string`
+
+        - `ip_address: optional string or null`
+
+        - `user_agent: optional string or null`
+
+      - `FederatedActor object`
+
+        An external identity asserted by a trusted provider — a cloud-provider
+        gateway or a customer-registered federation issuer — acting without an
+        Anthropic-provisioned account or service account.
+
+        - `type: optional "federated_actor"`
+
+          default: federated_actor
+
+        - `provider: FederatedActorAwsProvider or FederatedActorAzureProvider or FederatedActorGcpProvider or FederatedActorOidcProvider`
+
+          - `FederatedActorAwsProvider object`
+
+            Asserting party: the AWS account the organization is bound to.
+
+            - `type: optional "aws"`
+
+              default: aws
+
+            - `account_id: string`
+
+            - `signed_principal: string`
+
+              The AWS-signed ARN of the IAM principal that requested the token.
+
+          - `FederatedActorAzureProvider object`
+
+            Asserting party: the Azure subscription the organization is bound to.
+
+            - `type: optional "azure"`
+
+              default: azure
+
+            - `subscription_id: string`
+
+          - `FederatedActorGcpProvider object`
+
+            Asserting party: the GCP project the organization is bound to.
+
+            - `type: optional "gcp"`
+
+              default: gcp
+
+            - `project_number: string`
+
+          - `FederatedActorOidcProvider object`
+
+            Asserting party: a customer-registered OIDC federation issuer.
+
+            - `type: optional "oidc"`
+
+              default: oidc
+
+            - `issuer: optional string or null`
+
+              The federation issuer's URL. Null when the presented credential failed verification.
+
+        - `ip_address: optional string or null`
+
+        - `subject: optional string or null`
+
+          The provider's verified identifier for the caller; its form depends on the provider.
+
+        - `user_agent: optional string or null`
+
+      - `AttestedDeviceActor object`
+
+        An attested mobile device authenticated via Apple App Attest.
+
+        - `type: optional "attested_device_actor"`
+
+          default: attested_device_actor
+
+        - `external_client_id: string`
+
+        - `kid_hash: string`
+
+        - `ip_address: optional string or null`
+
+        - `user_agent: optional string or null`
+
+    - `marketplace_id: string`
+
+      The marketplace the plugin belongs to.
+
+    - `plugin_id: string`
+
+      The plugin that was downloaded.
+
+    - `id: optional string`
+
+      Unique identifier for the activity e.g. 'activity_abcd1234'
+
+    - `created_at: optional string`
+
+      When this activity occurred.
+
+      format: date-time
+
+    - `organization_id: optional string or null`
+
+      Organization ID this activity is associated with
+
+    - `organization_uuid: optional string or null`
+
+      Organization UUID where the activity occurred. Null when the activity is not tied to an organization (for example, login and logout events or calls to the Compliance API).
+
+    - `plugin_version_id: optional string or null`
+
+      The version whose archive was downloaded; unset for a plugin that predates version records.
 
   - `ClaudeProjectSyncSourceCreated object`
 
@@ -39303,6 +39571,18 @@ compliance activities that can be filtered by various criteria.
 
       Unique identifier for the activity e.g. 'activity_abcd1234'
 
+    - `attestations: optional array of object`
+
+      Legal attestations given with this change, such as "safe_for_phi"; empty when the request carried none.
+
+      - `type: string`
+
+        Attestation type, such as "safe_for_phi" (may be used with protected health information).
+
+      - `content_hash: string`
+
+        Digest of the legal text that was accepted, identifying its version, as the actor's client reported it (not verified against a known document).
+
     - `created_at: optional string`
 
       When this activity occurred.
@@ -40491,6 +40771,18 @@ compliance activities that can be filtered by various criteria.
 
       Unique identifier for the activity e.g. 'activity_abcd1234'
 
+    - `attestations: optional array of object`
+
+      Legal attestations given with this change, such as "safe_for_phi"; empty when the request carried none.
+
+      - `type: string`
+
+        Attestation type, such as "safe_for_phi" (may be used with protected health information).
+
+      - `content_hash: string`
+
+        Digest of the legal text that was accepted, identifying its version, as the actor's client reported it (not verified against a known document).
+
     - `created_at: optional string`
 
       When this activity occurred.
@@ -40730,6 +41022,18 @@ compliance activities that can be filtered by various criteria.
     - `id: optional string`
 
       Unique identifier for the activity e.g. 'activity_abcd1234'
+
+    - `attestations: optional array of object`
+
+      Legal attestations given with this change, such as "safe_for_phi"; empty when the request carried none.
+
+      - `type: string`
+
+        Attestation type, such as "safe_for_phi" (may be used with protected health information).
+
+      - `content_hash: string`
+
+        Digest of the legal text that was accepted, identifying its version, as the actor's client reported it (not verified against a known document).
 
     - `created_at: optional string`
 
@@ -43889,10 +44193,6 @@ compliance activities that can be filtered by various criteria.
 
       format: date-time
 
-    - `filename: optional string or null`
-
-      Name of the deleted file, when known.
-
     - `organization_id: optional string or null`
 
       Organization ID this activity is associated with
@@ -43900,6 +44200,12 @@ compliance activities that can be filtered by various criteria.
     - `organization_uuid: optional string or null`
 
       Organization UUID where the activity occurred. Null when the activity is not tied to an organization (for example, login and logout events or calls to the Compliance API).
+
+    - `filename: optional string or null`
+
+      **Deprecated**
+
+      No longer populated. The name can't be looked up once the file is deleted.
 
   - `ClaudeFileUploaded object`
 
@@ -44137,10 +44443,6 @@ compliance activities that can be filtered by various criteria.
 
       format: date-time
 
-    - `filename: optional string or null`
-
-      Name of the uploaded file, when known.
-
     - `organization_id: optional string or null`
 
       Organization ID this activity is associated with
@@ -44148,6 +44450,12 @@ compliance activities that can be filtered by various criteria.
     - `organization_uuid: optional string or null`
 
       Organization UUID where the activity occurred. Null when the activity is not tied to an organization (for example, login and logout events or calls to the Compliance API).
+
+    - `filename: optional string or null`
+
+      **Deprecated**
+
+      No longer populated: the feed carries the object id; resolve the name via the Compliance API.
 
   - `GheConfigurationCreated object`
 
@@ -45874,6 +46182,18 @@ compliance activities that can be filtered by various criteria.
     - `id: optional string`
 
       Unique identifier for the activity e.g. 'activity_abcd1234'
+
+    - `attestations: optional array of object`
+
+      Legal attestations given with this change, such as "safe_for_phi"; empty when the request carried none.
+
+      - `type: string`
+
+        Attestation type, such as "safe_for_phi" (may be used with protected health information).
+
+      - `content_hash: string`
+
+        Digest of the legal text that was accepted, identifying its version, as the actor's client reported it (not verified against a known document).
 
     - `created_at: optional string`
 
@@ -48146,6 +48466,18 @@ compliance activities that can be filtered by various criteria.
     - `id: optional string`
 
       Unique identifier for the activity e.g. 'activity_abcd1234'
+
+    - `attestations: optional array of object`
+
+      Legal attestations given with this change, such as "safe_for_phi"; empty when the request carried none.
+
+      - `type: string`
+
+        Attestation type, such as "safe_for_phi" (may be used with protected health information).
+
+      - `content_hash: string`
+
+        Digest of the legal text that was accepted, identifying its version, as the actor's client reported it (not verified against a known document).
 
     - `created_at: optional string`
 
@@ -52051,7 +52383,7 @@ compliance activities that can be filtered by various criteria.
 
   - `InferenceHooksRequestDenied object`
 
-    Inference hooks inspection denied a request. The request was blocked and no model response was produced.
+    Inference hooks inspection denied a request. The request was blocked.
 
     - `type: optional "inference_hooks_request_denied"`
 
@@ -55623,6 +55955,18 @@ compliance activities that can be filtered by various criteria.
 
       Unique identifier for the activity e.g. 'activity_abcd1234'
 
+    - `attestations: optional array of object`
+
+      Legal attestations given with this change, such as "safe_for_phi"; empty when the request carried none.
+
+      - `type: string`
+
+        Attestation type, such as "safe_for_phi" (may be used with protected health information).
+
+      - `content_hash: string`
+
+        Digest of the legal text that was accepted, identifying its version, as the actor's client reported it (not verified against a known document).
+
     - `created_at: optional string`
 
       When this activity occurred.
@@ -56098,6 +56442,18 @@ compliance activities that can be filtered by various criteria.
     - `id: optional string`
 
       Unique identifier for the activity e.g. 'activity_abcd1234'
+
+    - `attestations: optional array of object`
+
+      Legal attestations given with this change, such as "safe_for_phi"; empty when the request carried none.
+
+      - `type: string`
+
+        Attestation type, such as "safe_for_phi" (may be used with protected health information).
+
+      - `content_hash: string`
+
+        Digest of the legal text that was accepted, identifying its version, as the actor's client reported it (not verified against a known document).
 
     - `created_at: optional string`
 
@@ -57074,6 +57430,18 @@ compliance activities that can be filtered by various criteria.
     - `id: optional string`
 
       Unique identifier for the activity e.g. 'activity_abcd1234'
+
+    - `attestations: optional array of object`
+
+      Legal attestations given with this change, such as "safe_for_phi"; empty when the request carried none.
+
+      - `type: string`
+
+        Attestation type, such as "safe_for_phi" (may be used with protected health information).
+
+      - `content_hash: string`
+
+        Digest of the legal text that was accepted, identifying its version, as the actor's client reported it (not verified against a known document).
 
     - `created_at: optional string`
 
@@ -58103,6 +58471,18 @@ compliance activities that can be filtered by various criteria.
 
       Unique identifier for the activity e.g. 'activity_abcd1234'
 
+    - `attestations: optional array of object`
+
+      Legal attestations given with this change, such as "safe_for_phi"; empty when the request carried none.
+
+      - `type: string`
+
+        Attestation type, such as "safe_for_phi" (may be used with protected health information).
+
+      - `content_hash: string`
+
+        Digest of the legal text that was accepted, identifying its version, as the actor's client reported it (not verified against a known document).
+
     - `created_at: optional string`
 
       When this activity occurred.
@@ -58346,6 +58726,26 @@ compliance activities that can be filtered by various criteria.
     - `id: optional string`
 
       Unique identifier for the activity e.g. 'activity_abcd1234'
+
+    - `action: optional "reenabled" or "unspecified" or null`
+
+      "reenabled" when the change lifted the organization-wide block on the server (the block a HIPAA configuration places); unset for any other restriction change.
+
+      - `"reenabled"`
+
+      - `"unspecified"`
+
+    - `attestations: optional array of object`
+
+      Legal attestations given with this change, such as "safe_for_phi"; empty when the request carried none (a server that already carries one is not asked again).
+
+      - `type: string`
+
+        Attestation type, such as "safe_for_phi" (may be used with protected health information).
+
+      - `content_hash: string`
+
+        Digest of the legal text that was accepted, identifying its version, as the actor's client reported it (not verified against a known document).
 
     - `created_at: optional string`
 
@@ -70977,6 +71377,10 @@ compliance activities that can be filtered by various criteria.
 
       format: date-time
 
+    - `ip_allowlist_enabled: optional boolean or null`
+
+      Whether the organization's IP allowlist is turned on (true) or off (false) after this change; absent or null when the change was to an individual IP range, and for activities recorded before this field was added.
+
     - `organization_id: optional string or null`
 
       Organization ID this activity is associated with
@@ -82753,7 +83157,7 @@ compliance activities that can be filtered by various criteria.
 
           - `duration: number`
 
-            maximum: 2147483647, minimum: -2147483648
+            minimum: -2147483648, maximum: 2147483647
 
           - `timescale: "day" or "indefinite" or "month"`
 
@@ -82781,7 +83185,7 @@ compliance activities that can be filtered by various criteria.
 
           - `duration: number`
 
-            maximum: 2147483647, minimum: -2147483648
+            minimum: -2147483648, maximum: 2147483647
 
           - `timescale: "day" or "indefinite" or "month"`
 
@@ -84407,6 +84811,18 @@ compliance activities that can be filtered by various criteria.
     - `id: optional string`
 
       Unique identifier for the activity e.g. 'activity_abcd1234'
+
+    - `attestations: optional array of object`
+
+      Legal attestations given with this change, such as "safe_for_phi"; empty when the request carried none.
+
+      - `type: string`
+
+        Attestation type, such as "safe_for_phi" (may be used with protected health information).
+
+      - `content_hash: string`
+
+        Digest of the legal text that was accepted, identifying its version, as the actor's client reported it (not verified against a known document).
 
     - `created_at: optional string`
 
@@ -91182,7 +91598,7 @@ compliance activities that can be filtered by various criteria.
 
     - `event_data: optional object or null`
 
-      A nested object within a compliance activity payload.
+      Details of the authentication attempt.
 
       - `external_client_id: optional string or null`
 
@@ -91210,7 +91626,7 @@ compliance activities that can be filtered by various criteria.
 
     - `status: optional object or null`
 
-      A nested object within a compliance activity payload.
+      The outcome of the token exchange.
 
       - `outcome: string`
 
@@ -93124,7 +93540,7 @@ compliance activities that can be filtered by various criteria.
 
     - `event_data: optional object or null`
 
-      A nested object within a compliance activity payload.
+      Details of the authentication attempt.
 
       - `federation_rule_id: optional string or null`
 
@@ -93136,7 +93552,7 @@ compliance activities that can be filtered by various criteria.
 
       - `oidc_token: optional object or null`
 
-        A nested object within a compliance activity payload.
+        Details of the presented OIDC token.
 
         - `claims: optional map[unknown] or null`
 
@@ -93176,7 +93592,7 @@ compliance activities that can be filtered by various criteria.
 
     - `status: optional object or null`
 
-      A nested object within a compliance activity payload.
+      The outcome of the token exchange.
 
       - `outcome: string`
 
@@ -98623,6 +99039,250 @@ compliance activities that can be filtered by various criteria.
       - `previous_value: string`
 
         Field value immediately before this change
+
+  - `PlatformOrganizationCreated object`
+
+    An owner of the organization created a Claude Console organization under the same parent organization.
+
+    - `type: optional "platform_organization_created"`
+
+      default: platform_organization_created
+
+    - `actor: APIActor or UserActor or UnauthenticatedUserActor or 8 more`
+
+      - `APIActor object`
+
+        - `type: optional "api_actor"`
+
+          default: api_actor
+
+        - `api_key_id: string`
+
+        - `ip_address: string`
+
+        - `user_agent: string`
+
+      - `UserActor object`
+
+        - `type: optional "user_actor"`
+
+          default: user_actor
+
+        - `email_address: string`
+
+          format: email
+
+        - `ip_address: string`
+
+        - `user_agent: string`
+
+        - `user_id: string`
+
+      - `UnauthenticatedUserActor object`
+
+        - `type: optional "unauthenticated_user_actor"`
+
+          default: unauthenticated_user_actor
+
+        - `ip_address: string`
+
+        - `user_agent: string`
+
+        - `unauthenticated_email_address: optional string or null`
+
+          format: email
+
+      - `AnthropicActor object`
+
+        - `type: optional "anthropic_actor"`
+
+          default: anthropic_actor
+
+        - `email_address: optional string or null`
+
+          format: email
+
+      - `SystemActor object`
+
+        Automated background processing performed by Anthropic systems, acting
+        without a user or customer credential.
+
+        - `type: optional "system_actor"`
+
+          default: system_actor
+
+        - `service: optional string or null`
+
+          Name of the automated process that performed the action, when known.
+
+      - `AdminAPIKeyActor object`
+
+        - `type: optional "admin_api_key_actor"`
+
+          default: admin_api_key_actor
+
+        - `admin_api_key_id: string`
+
+        - `ip_address: string`
+
+        - `user_agent: string`
+
+      - `ServiceAccountActor object`
+
+        - `type: optional "service_account_actor"`
+
+          default: service_account_actor
+
+        - `ip_address: string`
+
+        - `service_account_id: string`
+
+        - `user_agent: string`
+
+      - `ScimDirectorySyncActor object`
+
+        - `type: optional "scim_directory_sync_actor"`
+
+          default: scim_directory_sync_actor
+
+        - `directory_id: string`
+
+        - `workos_event_id: string`
+
+        - `idp_connection_type: optional string or null`
+
+      - `FederatedIdentityActor object`
+
+        A federated external workload authenticated via a verified OIDC token.
+
+        Carries the verified issuer, subject, and audience claims from the
+        presented JWT.
+
+        - `type: optional "federated_identity_actor"`
+
+          default: federated_identity_actor
+
+        - `issuer: string`
+
+        - `subject: string`
+
+        - `audience: optional array of string`
+
+        - `ip_address: optional string or null`
+
+        - `user_agent: optional string or null`
+
+      - `FederatedActor object`
+
+        An external identity asserted by a trusted provider — a cloud-provider
+        gateway or a customer-registered federation issuer — acting without an
+        Anthropic-provisioned account or service account.
+
+        - `type: optional "federated_actor"`
+
+          default: federated_actor
+
+        - `provider: FederatedActorAwsProvider or FederatedActorAzureProvider or FederatedActorGcpProvider or FederatedActorOidcProvider`
+
+          - `FederatedActorAwsProvider object`
+
+            Asserting party: the AWS account the organization is bound to.
+
+            - `type: optional "aws"`
+
+              default: aws
+
+            - `account_id: string`
+
+            - `signed_principal: string`
+
+              The AWS-signed ARN of the IAM principal that requested the token.
+
+          - `FederatedActorAzureProvider object`
+
+            Asserting party: the Azure subscription the organization is bound to.
+
+            - `type: optional "azure"`
+
+              default: azure
+
+            - `subscription_id: string`
+
+          - `FederatedActorGcpProvider object`
+
+            Asserting party: the GCP project the organization is bound to.
+
+            - `type: optional "gcp"`
+
+              default: gcp
+
+            - `project_number: string`
+
+          - `FederatedActorOidcProvider object`
+
+            Asserting party: a customer-registered OIDC federation issuer.
+
+            - `type: optional "oidc"`
+
+              default: oidc
+
+            - `issuer: optional string or null`
+
+              The federation issuer's URL. Null when the presented credential failed verification.
+
+        - `ip_address: optional string or null`
+
+        - `subject: optional string or null`
+
+          The provider's verified identifier for the caller; its form depends on the provider.
+
+        - `user_agent: optional string or null`
+
+      - `AttestedDeviceActor object`
+
+        An attested mobile device authenticated via Apple App Attest.
+
+        - `type: optional "attested_device_actor"`
+
+          default: attested_device_actor
+
+        - `external_client_id: string`
+
+        - `kid_hash: string`
+
+        - `ip_address: optional string or null`
+
+        - `user_agent: optional string or null`
+
+    - `admin_email: string`
+
+      The email address of the new organization's initial administrator.
+
+    - `created_organization_id: string`
+
+      The Claude Console organization that was created, e.g. "org_01HX...".
+
+    - `parent_organization_id: string`
+
+      The parent organization both organizations belong to, e.g. "parent_org_01HX...".
+
+    - `id: optional string`
+
+      Unique identifier for the activity e.g. 'activity_abcd1234'
+
+    - `created_at: optional string`
+
+      When this activity occurred.
+
+      format: date-time
+
+    - `organization_id: optional string or null`
+
+      Organization ID this activity is associated with
+
+    - `organization_uuid: optional string or null`
+
+      Organization UUID where the activity occurred. Null when the activity is not tied to an organization (for example, login and logout events or calls to the Compliance API).
 
   - `PlatformPluginDirectorySubmissionCreated object`
 
@@ -107818,6 +108478,18 @@ compliance activities that can be filtered by various criteria.
 
       Action taken (e.g. 'deleted' for clearing an override)
 
+    - `attestations: optional array of object`
+
+      Legal attestations given with this change, such as "safe_for_phi"; empty when the request carried none.
+
+      - `type: string`
+
+        Attestation type, such as "safe_for_phi" (may be used with protected health information).
+
+      - `content_hash: string`
+
+        Digest of the legal text that was accepted, identifying its version, as the actor's client reported it (not verified against a known document).
+
     - `created_at: optional string`
 
       When this activity occurred.
@@ -110930,10 +111602,6 @@ compliance activities that can be filtered by various criteria.
 
       format: date-time
 
-    - `filename: optional string or null`
-
-      Name of the document, when known.
-
     - `organization_id: optional string or null`
 
       Organization ID this activity is associated with
@@ -110941,6 +111609,12 @@ compliance activities that can be filtered by various criteria.
     - `organization_uuid: optional string or null`
 
       Organization UUID where the activity occurred. Null when the activity is not tied to an organization (for example, login and logout events or calls to the Compliance API).
+
+    - `filename: optional string or null`
+
+      **Deprecated**
+
+      No longer populated. Where `claude_project_document_id` is present, resolve the name via the Compliance API project documents endpoint.
 
   - `ClaudeProjectDocumentBulkDeletionAuditTruncated object`
 
@@ -111418,10 +112092,6 @@ compliance activities that can be filtered by various criteria.
 
       format: date-time
 
-    - `filename: optional string or null`
-
-      Name of the deleted document, when known.
-
     - `organization_id: optional string or null`
 
       Organization ID this activity is associated with
@@ -111429,6 +112099,12 @@ compliance activities that can be filtered by various criteria.
     - `organization_uuid: optional string or null`
 
       Organization UUID where the activity occurred. Null when the activity is not tied to an organization (for example, login and logout events or calls to the Compliance API).
+
+    - `filename: optional string or null`
+
+      **Deprecated**
+
+      No longer populated. The name can't be looked up once the document is deleted.
 
   - `ClaudeProjectDocumentDeletionFailed object`
 
@@ -111906,10 +112582,6 @@ compliance activities that can be filtered by various criteria.
 
       format: date-time
 
-    - `filename: optional string or null`
-
-      Name of the updated document.
-
     - `organization_id: optional string or null`
 
       Organization ID this activity is associated with
@@ -111917,6 +112589,12 @@ compliance activities that can be filtered by various criteria.
     - `organization_uuid: optional string or null`
 
       Organization UUID where the activity occurred. Null when the activity is not tied to an organization (for example, login and logout events or calls to the Compliance API).
+
+    - `filename: optional string or null`
+
+      **Deprecated**
+
+      No longer populated: the feed carries the object id; resolve the name via the Compliance API.
 
   - `ClaudeProjectDocumentUploaded object`
 
@@ -112150,10 +112828,6 @@ compliance activities that can be filtered by various criteria.
 
       format: date-time
 
-    - `filename: optional string or null`
-
-      Name of the uploaded document.
-
     - `organization_id: optional string or null`
 
       Organization ID this activity is associated with
@@ -112161,6 +112835,12 @@ compliance activities that can be filtered by various criteria.
     - `organization_uuid: optional string or null`
 
       Organization UUID where the activity occurred. Null when the activity is not tied to an organization (for example, login and logout events or calls to the Compliance API).
+
+    - `filename: optional string or null`
+
+      **Deprecated**
+
+      No longer populated: the feed carries the object id; resolve the name via the Compliance API.
 
   - `ClaudeProjectDocumentViewed object`
 
@@ -112394,10 +113074,6 @@ compliance activities that can be filtered by various criteria.
 
       format: date-time
 
-    - `filename: optional string or null`
-
-      Name of the viewed document.
-
     - `organization_id: optional string or null`
 
       Organization ID this activity is associated with
@@ -112405,6 +113081,12 @@ compliance activities that can be filtered by various criteria.
     - `organization_uuid: optional string or null`
 
       Organization UUID where the activity occurred. Null when the activity is not tied to an organization (for example, login and logout events or calls to the Compliance API).
+
+    - `filename: optional string or null`
+
+      **Deprecated**
+
+      No longer populated: the feed carries the object id; resolve the name via the Compliance API.
 
   - `ClaudeProjectFileAccessFailed object`
 
@@ -113602,10 +114284,6 @@ compliance activities that can be filtered by various criteria.
 
       format: date-time
 
-    - `filename: optional string or null`
-
-      Name of the uploaded file.
-
     - `organization_id: optional string or null`
 
       Organization ID this activity is associated with
@@ -113613,6 +114291,12 @@ compliance activities that can be filtered by various criteria.
     - `organization_uuid: optional string or null`
 
       Organization UUID where the activity occurred. Null when the activity is not tied to an organization (for example, login and logout events or calls to the Compliance API).
+
+    - `filename: optional string or null`
+
+      **Deprecated**
+
+      No longer populated: the feed carries the object id; resolve the name via the Compliance API.
 
   - `ClaudeProjectReported object`
 
@@ -131950,7 +132634,7 @@ Returns organizations sorted by creation date in ascending order. Use
 
   Maximum results (default: 1000, max: 1000)
 
-  default: 1000, maximum: 1000, minimum: 1
+  default: 1000, minimum: 1, maximum: 1000
 
 - `page: optional string`
 
@@ -132030,7 +132714,7 @@ List current user members of an organization.
 
   Maximum results (default: 500, max: 1000)
 
-  default: 500, maximum: 1000, minimum: 1
+  default: 500, minimum: 1, maximum: 1000
 
 - `page: optional string`
 
@@ -132144,7 +132828,7 @@ List Compliance Roles
 
   Maximum results (default: 500, max: 1000)
 
-  default: 500, maximum: 1000, minimum: 1
+  default: 500, minimum: 1, maximum: 1000
 
 - `page: optional string`
 
@@ -132308,7 +132992,7 @@ List Compliance Role Permissions
 
   Maximum results (default: 500, max: 1000)
 
-  default: 500, maximum: 1000, minimum: 1
+  default: 500, minimum: 1, maximum: 1000
 
 - `page: optional string`
 
@@ -132763,7 +133447,7 @@ List Compliance Groups
 
   Maximum results (default: 500, max: 1000)
 
-  default: 500, maximum: 1000, minimum: 1
+  default: 500, minimum: 1, maximum: 1000
 
 - `name_prefix: optional string`
 
@@ -132951,7 +133635,7 @@ List Compliance Group Members
 
   Maximum results (default: 500, max: 1000)
 
-  default: 500, maximum: 1000, minimum: 1
+  default: 500, minimum: 1, maximum: 1000
 
 - `page: optional string`
 
@@ -133084,7 +133768,7 @@ no time filter) with the default `order_by`. `user_ids[]` with
 
   Maximum results (default: 100, max: 1000)
 
-  default: 100, maximum: 1000, minimum: 1
+  default: 100, minimum: 1, maximum: 1000
 
 - `order_by: optional "created_at" or "updated_at"`
 
@@ -133190,21 +133874,7 @@ no time filter) with the default `order_by`. `user_ids[]` with
 
   - `user: object or null`
 
-    The user who created the chat.
-
-    Null when the API key is restricted to one organization and the creator
-    is no longer a member of it (for example, after they were removed from
-    it).
-
-    A key for the whole parent organization returns the creator's `id`
-    and current `email_address` for every chat; on the list endpoint, pass
-    `organization_ids[]` to keep the results to one organization. For the
-    email address the creator had when the chat was created, query
-    `GET /v1/compliance/activities` with `activity_types[]=claude_chat_created`
-    and a `created_at` window around the chat's `created_at`, find the event
-    whose `claude_chat_id` matches this chat's `id`, and read
-    `actor.email_address`. These events exist only for chats created after
-    compliance logging was enabled for the organization.
+    The user who created the chat. Null when the API key is restricted to one organization and the creator is no longer a member of it.
 
     - `id: string`
 
@@ -133368,7 +134038,7 @@ Retrieves message history and file metadata for a specific chat.
 
   Maximum results (max: 1000). When omitted, the full result set is returned in one response.
 
-  maximum: 1000, minimum: 1
+  minimum: 1, maximum: 1000
 
 - `order: optional "asc" or "desc"`
 
@@ -133686,21 +134356,7 @@ Retrieves message history and file metadata for a specific chat.
 
 - `user: object or null`
 
-  The user who created the chat.
-
-  Null when the API key is restricted to one organization and the creator
-  is no longer a member of it (for example, after they were removed from
-  it).
-
-  A key for the whole parent organization returns the creator's `id`
-  and current `email_address` for every chat; on the list endpoint, pass
-  `organization_ids[]` to keep the results to one organization. For the
-  email address the creator had when the chat was created, query
-  `GET /v1/compliance/activities` with `activity_types[]=claude_chat_created`
-  and a `created_at` window around the chat's `created_at`, find the event
-  whose `claude_chat_id` matches this chat's `id`, and read
-  `actor.email_address`. These events exist only for chats created after
-  compliance logging was enabled for the organization.
+  The user who created the chat. Null when the API key is restricted to one organization and the creator is no longer a member of it.
 
   - `id: string`
 
@@ -134082,7 +134738,7 @@ are sorted chronologically (time ascending) by created_at.
 
   Maximum results (default: 20, max: 100)
 
-  default: 20, maximum: 100, minimum: 1
+  default: 20, minimum: 1, maximum: 100
 
 - `organization_ids: optional array of string`
 
@@ -134168,11 +134824,7 @@ are sorted chronologically (time ascending) by created_at.
 
   - `user: object or null`
 
-    The user who created a project or project document.
-
-    Fields that reference this type are null when the creator's account has
-    been deleted or the creator is no longer a member of an organization the
-    key may read.
+    Project creator information, or null if the creator's account has been deleted or the creator is no longer a member of an organization the key may read
 
     - `id: string`
 
@@ -134298,11 +134950,7 @@ Get detailed information for a specific project.
 
 - `user: object or null`
 
-  The user who created a project or project document.
-
-  Fields that reference this type are null when the creator's account has
-  been deleted or the creator is no longer a member of an organization the
-  key may read.
+  Project creator information, or null if the creator's account has been deleted or the creator is no longer a member of an organization the key may read
 
   - `id: string`
 
@@ -134433,7 +135081,7 @@ GET /v1/compliance/apps/projects/documents/{claude_proj_doc_id} endpoint.
 
   Maximum results (default: 20, max: 100)
 
-  default: 20, maximum: 100, minimum: 1
+  default: 20, minimum: 1, maximum: 100
 
 - `page: optional string`
 
@@ -134582,7 +135230,7 @@ role.
 
   Maximum results (default: 20, max: 100)
 
-  default: 20, maximum: 100, minimum: 1
+  default: 20, minimum: 1, maximum: 100
 
 - `page: optional string`
 
@@ -134799,11 +135447,7 @@ Get detailed information for a specific project document.
 
 - `user: object or null`
 
-  The user who created a project or project document.
-
-  Fields that reference this type are null when the creator's account has
-  been deleted or the creator is no longer a member of an organization the
-  key may read.
+  Document creator information, or null if the creator's account has been deleted or the creator is no longer a member of an organization the key may read
 
   - `id: string`
 
@@ -134893,11 +135537,7 @@ consumer can dedupe or match hashes without downloading every document.
 
 - `user: object or null`
 
-  The user who created a project or project document.
-
-  Fields that reference this type are null when the creator's account has
-  been deleted or the creator is no longer a member of an organization the
-  key may read.
+  Document creator information, or null if the creator's account has been deleted or the creator is no longer a member of an organization the key may read
 
   - `id: string`
 
@@ -135120,7 +135760,7 @@ forward-only via `next_page`; there is no reverse cursor.
 
   Maximum results (default: 100, max: 500)
 
-  default: 100, maximum: 500, minimum: 1
+  default: 100, minimum: 1, maximum: 500
 
 - `page: optional string`
 
@@ -135358,7 +135998,7 @@ response header.
 
   Maximum results (default: 100, max: 1000)
 
-  default: 100, maximum: 1000, minimum: 1
+  default: 100, minimum: 1, maximum: 1000
 
 - `order: optional "asc" or "desc"`
 
@@ -135378,13 +136018,13 @@ response header.
 
   Truncate each text item inside a tool result to at most this many bytes (cut on a code-point boundary). Pass `-1` to request the server maximum (approximately 1 MiB); larger values are clamped to it. `0` is not a valid value.
 
-  default: 10000, maximum: 2147483647, minimum: -1
+  default: 10000, minimum: -1, maximum: 2147483647
 
 - `tool_use_input_max_bytes: optional number`
 
   Truncate each tool-use input to at most this many bytes (cut on a code-point boundary so the result is valid UTF-8). Pass `-1` to request the server maximum (approximately 1 MiB); larger values are clamped to it. `0` is not a valid value.
 
-  default: 10000, maximum: 2147483647, minimum: -1
+  default: 10000, minimum: -1, maximum: 2147483647
 
 #### Headers
 
@@ -135718,7 +136358,7 @@ retrieve the next page, and stop when `next_page` is null.
 
   Maximum results (default: 100, max: 500)
 
-  default: 100, maximum: 500, minimum: 1
+  default: 100, minimum: 1, maximum: 500
 
 - `organization_ids: optional array of string`
 
@@ -135772,7 +136412,7 @@ retrieve the next page, and stop when `next_page` is null.
 
   - `started_by_user: object or null`
 
-    A user associated with a remote session.
+    The user who initiated an agent-owned session (for example, by mentioning Claude in Slack or via a scheduled trigger). Null for user-owned sessions — where the session's `user` started it — and for agent sessions with no human initiator. For initiators no longer a member of an organization the key may read, the object is populated with `email_address` null.
 
     - `id: string`
 
@@ -135794,7 +136434,7 @@ retrieve the next page, and stop when `next_page` is null.
 
   - `user: object or null`
 
-    A user associated with a remote session.
+    The user who owns the session. Null for sessions owned by an automated agent rather than a user. At most one of `user` and `agent_id` is set. For users no longer a member of an organization the key may read, the object is populated with `email_address` null.
 
     - `id: string`
 
@@ -135878,7 +136518,7 @@ malformed session identifier returns 400.
 
   Maximum results (default: 100, max: 1000)
 
-  default: 100, maximum: 1000, minimum: 1
+  default: 100, minimum: 1, maximum: 1000
 
 - `order: optional "asc" or "desc"`
 
@@ -135898,13 +136538,13 @@ malformed session identifier returns 400.
 
   Truncate each text item inside a tool result to at most this many bytes (cut on a code-point boundary). Pass `-1` to request the server maximum. `0` is not a valid value.
 
-  default: 10000, maximum: 2147483647, minimum: -1
+  default: 10000, minimum: -1, maximum: 2147483647
 
 - `tool_use_input_max_bytes: optional number`
 
   Truncate each tool-use input to at most this many bytes (cut on a code-point boundary so the result is valid UTF-8). Pass `-1` to request the server maximum. `0` is not a valid value.
 
-  default: 10000, maximum: 2147483647, minimum: -1
+  default: 10000, minimum: -1, maximum: 2147483647
 
 #### Headers
 
@@ -136066,7 +136706,7 @@ malformed session identifier returns 400.
 
   - `started_by_user: object or null`
 
-    A user associated with a remote session.
+    The user who initiated an agent-owned session (for example, by mentioning Claude in Slack or via a scheduled trigger). Null for user-owned sessions — where the session's `user` started it — and for agent sessions with no human initiator. For initiators no longer a member of an organization the key may read, the object is populated with `email_address` null.
 
     - `id: string`
 
@@ -136088,7 +136728,7 @@ malformed session identifier returns 400.
 
   - `user: object or null`
 
-    A user associated with a remote session.
+    The user who owns the session. Null for sessions owned by an automated agent rather than a user. At most one of `user` and `agent_id` is set. For users no longer a member of an organization the key may read, the object is populated with `email_address` null.
 
     - `id: string`
 
@@ -136173,7 +136813,7 @@ returned.
 
   Maximum results (default: 20, max: 100)
 
-  default: 20, maximum: 100, minimum: 1
+  default: 20, minimum: 1, maximum: 100
 
 - `organization_ids: optional array of string`
 
@@ -136263,12 +136903,7 @@ returned.
 
   - `user: object or null`
 
-    The user who owns a Code Artifact.
-
-    Fields that reference this type are null when the Artifact was
-    published by an agent session rather than a user account, when the
-    owner's account has been deleted, or when the owner is no longer a
-    member of an organization the key may read.
+    Artifact owner with email, or null if the Artifact was published by an agent session, the owner's account has been deleted, or the owner is no longer a member of an organization the key may read
 
     - `id: string`
 
@@ -136352,8 +136987,11 @@ response body.
 Returns 404 for Artifacts that don't exist or belong to another parent
 organization. A listed version id can start returning 404 if subsequent
 publishes rotated it out of retained history — re-list on 404. Returns
-503 while the version's content upload is
-still in flight or was abandoned — retry with backoff. Oversized
+503 while the version's content upload is still in flight or was
+abandoned — retry with backoff. Returns 422 for a version that has more
+than one file, because the Compliance API returns only single-file
+versions. Do not retry a 422. The 422's `error.details.error_code` is
+`multi_file_unavailable`. Oversized
 encoded content aborts mid-stream: headers and initial bytes arrive
 but the body terminates early — an aborted chunked transfer is the
 only truncation signal for encoded content. `Content-MD5` is emitted

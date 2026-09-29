@@ -110,6 +110,10 @@ agent = client.beta.agents.create(
 
 name="cookbook-operate",
 
+# Tells Anthropic which cookbook this agent came from. Safe to remove.
+
+metadata={"anthropic\_cookbook": "claude-cookbooks/cma-operate-in-production"},
+
 model=MODEL,
 
 system="You navigate GitHub repositories on behalf of the logged-in user.",

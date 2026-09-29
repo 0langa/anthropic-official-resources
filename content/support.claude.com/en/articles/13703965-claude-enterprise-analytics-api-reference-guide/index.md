@@ -16,7 +16,7 @@ Get organization-wide activity summaries for a date range.
 
 
 
-BetaActivitySummary object{ summaries }
+BetaActivitySummary object{ data, next\_page, summaries }
 
 Response for GET /v1/organizations/analytics/summaries.
 

@@ -32,17 +32,18 @@ Was this page helpful?
 
 #  Classifier Fallback & Billing
 
-Claude Fable 5's advanced capabilities in areas like cybersecurity, biology, and chemistry create real risk of misuse: the same skills that make it useful could help bad actors build cyberattacks or dangerous weapons. For that reason, Claude Fable 5 ships with safeguards that limit its performance in these specific areas, and automated safety checks run on every request. These checks block requests in three areas:
+Claude Fable 5's advanced capabilities in areas like cybersecurity, biology, and chemistry create real risk of misuse: the same skills that make it useful could help bad actors build cyberattacks or dangerous weapons. For that reason, Claude Fable 5 ships with safeguards in these specific areas, and automated safety checks run on every request. These checks block requests in areas including:
 
 - **Offensive cybersecurity techniques** — building exploits, malware, or attack tooling
 - **Biology and life sciences** — lab methods or molecular mechanisms
+- **Development of competing AI models** — requests that could assist building frontier AI systems
 - **Extraction of the model's [summarized thinking(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/extended-thinking)**
 
 These safeguards are deliberately conservative. They are tuned first for robustness, which means benign technical work sometimes triggers them. We are releasing Fable 5 with fallback to Opus 4.8 on every topic related to biology and cybersecurity, as a way of bringing you Fable's Mythos-level capability faster in all other areas. We will continue to reduce false-positive rates for Fable 5 after launch.
 
 **API customers should configure fallback from Claude Fable 5 to Opus 4.8** — either with the [built-in server-side fallback(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons) feature (available on the native Claude API and Claude Platform on AWS) or with [client-side fallback(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons) logic built on the Anthropic SDK helpers.
 
-We've also made billing changes so that customers don't incur token costs in most cases of Fable 5 fallback. Action is needed to adopt these changes **when you are not using the server-side fallback feature** — see [below](https://platform.claude.com/cookbook/fable-5-fallback-billing-guide).
+Some requests blocked before any output are billed, and a cached prompt prefix carried over to the fallback request is billed at the reduced cache-read rate instead of as a new cache write. **When you are not using server-side fallback**, that reduced rate needs a fallback credit token, which the SDK's fallback middleware redeems for you — see [below](https://platform.claude.com/cookbook/fable-5-fallback-billing-guide).
 
 ##  What this guide covers
 
@@ -113,9 +114,9 @@ A *classifier block* is what the API returns when a request appears to violate o
 
 Branch your logic on **`stop_reason`, not on `content` or `stop_details`**. `stop_details` is informational and can be `null`, which you should treat as a generic refusal (unspecific to the categories below).
 
-When present, `category` is one of `"cyber"`, `"bio"`, or `"reasoning_extraction"`. This can help you refine your fallback choice:
+When present, `category` is one of `"cyber"`, `"bio"`, `"frontier_llm"`, or `"reasoning_extraction"`. This can help you refine your fallback choice:
 
-<table class="bg-page min-w-full border-separate border-spacing-0 text-sm leading-[1.88888]"><thead class="border-b-[0.5px] text-left"><tr class="[tbody&gt;&amp;]:odd:bg-alpha-1"><th class="text-primary px-2 [&amp;:not(:first-child)]:border-l-[0.5px]">category</th><th class="text-primary px-2 [&amp;:not(:first-child)]:border-l-[0.5px]">fires on</th></tr></thead><tbody><tr class="[tbody&gt;&amp;]:odd:bg-alpha-1"><td class="border-t-[0.5px] px-2 text-secondary [&amp;:not(:first-child)]:border-l-[0.5px]"><code class="relative inline bg-alpha-2 px-2 py-0.5 rounded text-sm font-mono break-words box-decoration-clone">cyber</code></td><td class="border-t-[0.5px] px-2 text-secondary [&amp;:not(:first-child)]:border-l-[0.5px]">offensive cybersecurity content (exploits, malware, attack tooling)</td></tr><tr class="[tbody&gt;&amp;]:odd:bg-alpha-1"><td class="border-t-[0.5px] px-2 text-secondary [&amp;:not(:first-child)]:border-l-[0.5px]"><code class="relative inline bg-alpha-2 px-2 py-0.5 rounded text-sm font-mono break-words box-decoration-clone">bio</code></td><td class="border-t-[0.5px] px-2 text-secondary [&amp;:not(:first-child)]:border-l-[0.5px]">biology / life-sciences content (lab methods, molecular mechanisms)</td></tr><tr class="[tbody&gt;&amp;]:odd:bg-alpha-1"><td class="border-t-[0.5px] px-2 text-secondary [&amp;:not(:first-child)]:border-l-[0.5px]"><code class="relative inline bg-alpha-2 px-2 py-0.5 rounded text-sm font-mono break-words box-decoration-clone">reasoning_extraction</code></td><td class="border-t-[0.5px] px-2 text-secondary [&amp;:not(:first-child)]:border-l-[0.5px]">requests that attempt to extract the model's <a aria-describedby="_R_5e3ue_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer" data-cds="TextLink" href="https://platform.claude.com/docs/en/build-with-claude/extended-thinking" rel="noopener" target="_blank">summarized thinking<span class="sr-only" hidden="" id="_R_5e3ue_">(opens in new tab)</span></a></td></tr></tbody></table>
+<table class="bg-page min-w-full border-separate border-spacing-0 text-sm leading-[1.88888]"><thead class="border-b-[0.5px] text-left"><tr class="[tbody&gt;&amp;]:odd:bg-alpha-1"><th class="text-primary px-2 [&amp;:not(:first-child)]:border-l-[0.5px]">category</th><th class="text-primary px-2 [&amp;:not(:first-child)]:border-l-[0.5px]">fires on</th></tr></thead><tbody><tr class="[tbody&gt;&amp;]:odd:bg-alpha-1"><td class="border-t-[0.5px] px-2 text-secondary [&amp;:not(:first-child)]:border-l-[0.5px]"><code class="relative inline bg-alpha-2 px-2 py-0.5 rounded text-sm font-mono break-words box-decoration-clone">cyber</code></td><td class="border-t-[0.5px] px-2 text-secondary [&amp;:not(:first-child)]:border-l-[0.5px]">offensive cybersecurity content (exploits, malware, attack tooling)</td></tr><tr class="[tbody&gt;&amp;]:odd:bg-alpha-1"><td class="border-t-[0.5px] px-2 text-secondary [&amp;:not(:first-child)]:border-l-[0.5px]"><code class="relative inline bg-alpha-2 px-2 py-0.5 rounded text-sm font-mono break-words box-decoration-clone">bio</code></td><td class="border-t-[0.5px] px-2 text-secondary [&amp;:not(:first-child)]:border-l-[0.5px]">biology / life-sciences content (lab methods, molecular mechanisms)</td></tr><tr class="[tbody&gt;&amp;]:odd:bg-alpha-1"><td class="border-t-[0.5px] px-2 text-secondary [&amp;:not(:first-child)]:border-l-[0.5px]"><code class="relative inline bg-alpha-2 px-2 py-0.5 rounded text-sm font-mono break-words box-decoration-clone">frontier_llm</code></td><td class="border-t-[0.5px] px-2 text-secondary [&amp;:not(:first-child)]:border-l-[0.5px]">requests that could assist the development of competing AI models</td></tr><tr class="[tbody&gt;&amp;]:odd:bg-alpha-1"><td class="border-t-[0.5px] px-2 text-secondary [&amp;:not(:first-child)]:border-l-[0.5px]"><code class="relative inline bg-alpha-2 px-2 py-0.5 rounded text-sm font-mono break-words box-decoration-clone">reasoning_extraction</code></td><td class="border-t-[0.5px] px-2 text-secondary [&amp;:not(:first-child)]:border-l-[0.5px]">requests that attempt to extract the model's <a aria-describedby="_R_ai3ue_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer" data-cds="TextLink" href="https://platform.claude.com/docs/en/build-with-claude/extended-thinking" rel="noopener" target="_blank">summarized thinking<span class="sr-only" hidden="" id="_R_ai3ue_">(opens in new tab)</span></a></td></tr></tbody></table>
 
 Classifier blocks are distinct from **model refusals** (the model itself declining for other policy reasons). Both surface as `stop_reason: "refusal"`, but `stop_details.category` tells you which classifier blocked you.
 
@@ -431,9 +432,11 @@ return final
 
 ##  4. Billing changes
 
-We've made billing changes to minimize the cost impact of fallback. These apply automatically when you use fallback and the Anthropic SDK helpers. **Action is only needed to adopt the cache-miss billing change, and only when you are not using server-side fallback.**
+This section covers how blocked requests and fallback are billed. These behaviors apply automatically when you use fallback and the Anthropic SDK helpers. **Action is only needed to adopt the cache-read billing change, and only when you are not using server-side fallback.**
 
-**1. Input tokens are not billed on a direct classifier block** (i.e. when a request is blocked before any output tokens were returned). No action needed — this is already applied automatically to all production models, including Fable 5.
+**1. Pre-stream blocks are billed in some categories.** A request blocked before any output tokens were returned is billed like any other request, at the rates of the model that was requested, when its `stop_details.category` is `"bio"`, `"frontier_llm"`, or `"reasoning_extraction"`. As of September 23, 2026, pre-stream blocks in any other category, or with no category, are not billed; [Refusals and fallback(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback) has the current list. Billing applies only to categories whose safeguards have low false-positive rates, where it mainly raises the cost of repeated attempts to get around them. If you fall back after a billed block, the fallback request is billed too, so both are charged, though item 2 below offsets the prompt-cache cost of the retry.
+
+A request blocked mid-stream (after output tokens have started streaming) bills the input tokens and the output already streamed at normal rates, whatever its category.
 
 **2. Fable 5 → Opus 4.8 fallback input tokens are billed as a cache hit.** Normally, switching to another model is billed as a [cache *write*(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/prompt-caching), which is 1.25× (5-min TTL) or 2× (60-min TTL) higher than the base input-token cost. Instead, we bill these Opus tokens as if they had already been cached — i.e. as a cache *read*, which is 10% of the base input-token price.
 
@@ -458,43 +461,39 @@ The prefix that was cached on the Fable request is then billed at the cache-read
 
 
 
-def redeem\_credit\_after\_block(blocked\_response, messages, max\_tokens=1024):
+def redeem\_credit\_after\_block(blocked\_response, messages, system=None, tools=None, max\_tokens=1024):
 
 """Retry a classifier-blocked Fable turn on Opus 4.8, redeeming the
 
 fallback credit token so the cached prefix is billed at the cache-read
 
-rate. Use this only when you are NOT using server-side fallback."""
+rate. Use this only when you are NOT using server-side fallback.
+
+Pass the same `system`, `messages`, and `tools` as the blocked request."""
 
 details = blocked\_response.stop\_details
 
 credit = getattr(details, "fallback\_credit\_token", None) if details else None
 
-extra = {}
+# The system, messages, and tools must be IDENTICAL to the blocked request.
 
-betas = []
+kwargs = {"model": FALLBACK\_MODEL, "max\_tokens": max\_tokens, "messages": messages}
+
+if system is not None:
+
+kwargs["system"] = system
+
+if tools is not None:
+
+kwargs["tools"] = tools
 
 if credit is not None: # present only when the blocked request had a cached prefix
 
-betas.append(FALLBACK\_CREDIT\_BETA)
+kwargs["betas"] = [FALLBACK\_CREDIT\_BETA]
 
-extra["fallback\_credit\_token"] = credit
+kwargs["extra\_body"] = {"fallback\_credit\_token": credit}
 
-# The system, messages, and tools must be IDENTICAL to the blocked request.
-
-return client.beta.messages.create(
-
-model=FALLBACK\_MODEL,
-
-max\_tokens=max\_tokens,
-
-messages=messages,
-
-betas=betas or None,
-
-extra\_body=extra or None,
-
-)
+return client.beta.messages.create(\*\*kwargs)
 
 ##  5. Client-side fallback with the SDK
 

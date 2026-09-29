@@ -2,7 +2,7 @@
 
 Get started with Claude across everyday conversations, projects, and files.
 
-77 articles
+78 articles
 
 ## Articles
 
@@ -14,7 +14,7 @@ Get started with Claude across everyday conversations, projects, and files.
 
 [Account management15 articles](https://support.claude.com/en/collections/9811145-account-management)
 
-[Conversation management9 articles](https://support.claude.com/en/collections/18031977-conversation-management)
+[Conversation management10 articles](https://support.claude.com/en/collections/18031977-conversation-management)
 
 [Features and capabilities29 articles](https://support.claude.com/en/collections/18031719-features-and-capabilities)
 

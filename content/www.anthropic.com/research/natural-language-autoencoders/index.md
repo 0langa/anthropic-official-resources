@@ -58,7 +58,7 @@ For example, in the blackmail test discussed above, we used NLAs to understand w
 
 Claude does not say it thinks it’s being tested in this transcript from our blackmail evaluation, but the NLA explanation reveals its suspicions.
 
-Extending this analysis to other evaluations, NLAs suggest that Claude suspects it’s being tested more often than it lets on. For instance, in a test of whether Claude takes destructive actions while writing code—for example, deleting important files—NLA explanations show signs of evaluation awareness 16% of the time, even though Claude never explicitly verbalizes this. Similarly, on the popular coding benchmark SWE-bench Verified, which we use to determine how capable Claude is, NLAs indicate that Claude is aware it is being evaluated on 26% of problems. In contrast, NLA explanations indicate evaluation awareness on less than 1% of real [claude.ai](http://claude.ai/redirect/website.v1.728e34ea-36e9-48f6-92f3-0c20091d34e0) usage that opted in for training.
+Extending this analysis to other evaluations, NLAs suggest that Claude suspects it’s being tested more often than it lets on. For instance, in a test of whether Claude takes destructive actions while writing code—for example, deleting important files—NLA explanations show signs of evaluation awareness 16% of the time, even though Claude never explicitly verbalizes this. Similarly, on the popular coding benchmark SWE-bench Verified, which we use to determine how capable Claude is, NLAs indicate that Claude is aware it is being evaluated on 26% of problems. In contrast, NLA explanations indicate evaluation awareness on less than 1% of real [claude.ai](http://claude.ai/redirect/website.v1.8ab550e1-d64f-43e9-b767-815481da8d3e) usage that opted in for training.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffc08005f32ff020f21e598cc72f58768af2bcc4f-1590x1170.png&w=3840&q=75)
 
@@ -112,7 +112,7 @@ Guest writer and physicist Matt von Hippel shares what happened when he issued a
 
 ### Project Swap: What happens when agents trade for us?
 
-To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes—a more controlled sequel to Project Deal, our first experiment with agents interacting in a marketplace on people's behalf.
+To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.
 
 [Read more](https://www.anthropic.com/research/project-swap)
 

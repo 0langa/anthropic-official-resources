@@ -8,6 +8,7 @@ https://claude.com/blog/category/claude-code
 https://claude.com/blog/category/enterprise-ai
 https://claude.com/blog/cowork-research-preview
 https://claude.com/blog/docx-js.md
+https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia
 https://claude.com/blog/ooxml.md
 https://claude.com/blog/prompt-engineering-best-practices
 https://claude.com/resources
@@ -16,6 +17,7 @@ https://code.claude.com/docs/en/examples
 https://code.claude.com/docs/en/reference
 https://platform.claude.com/cookbook/URL
 https://platform.claude.com/cookbook/block
+https://platform.claude.com/cookbook/patterns-agents-latency-multi-agent
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/DOCX-JS
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/EXAMPLES
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/FORMS
@@ -66,7 +68,9 @@ https://support.claude.com/en/articles/14465370-use-claude-for-word
 https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents
 https://support.claude.com/en/articles/14855664-use-claude-for-outlook
 https://support.claude.com/en/articles/15330089
+https://support.claude.com/en/articles/15363606
 https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion
+https://support.claude.com/en/articles/16975617
 https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data
 https://support.claude.com/en/articles/9945670-using-the-github-integration
 https://support.claude.com/en/articles/9945689-claude-for-engineering

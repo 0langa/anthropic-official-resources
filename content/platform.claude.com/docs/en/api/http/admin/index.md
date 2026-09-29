@@ -125,7 +125,7 @@ List API Keys
 
   Defaults to `20`. Ranges from `1` to `1000`.
 
-  default: 20, maximum: 1000, minimum: 1
+  default: 20, minimum: 1, maximum: 1000
 
 - `status: optional "active" or "archived" or "expired" or "inactive"`
 
@@ -510,7 +510,7 @@ Update API Key
 
   Name of the API key.
 
-  maxLength: 500, minLength: 1
+  minLength: 1, maxLength: 500
 
 - `status: optional "active" or "archived" or "inactive" or null`
 
@@ -751,7 +751,7 @@ Create an external key config owned by the caller's organization.
 
   Human-friendly display name.
 
-  maxLength: 255, minLength: 1
+  minLength: 1, maxLength: 255
 
 - `geo: optional "us"`
 
@@ -911,7 +911,7 @@ Results are ordered by creation time (newest first). Use the
 
   Number of results per page.
 
-  default: 20, maximum: 100, minimum: 1
+  default: 20, minimum: 1, maximum: 100
 
 - `page: optional string`
 
@@ -1222,7 +1222,7 @@ encrypted data requires the original key identity to decrypt.
 
   Human-friendly display name.
 
-  maxLength: 255, minLength: 1
+  minLength: 1, maxLength: 255
 
 - `geo: optional "us" or null`
 
@@ -1654,7 +1654,7 @@ matched as the JWT's `iss` claim and is not fetched.
 
   Slug identifier (lowercase, digits, hyphens). Unique within the organization; a duplicate name returns 409.
 
-  maxLength: 255, minLength: 1
+  minLength: 1, maxLength: 255
 
 - `check_jti: optional boolean or null`
 
@@ -1714,7 +1714,7 @@ matched as the JWT's `iss` claim and is not fetched.
 
   Maximum allowed iat→exp spread for assertions from this issuer (1-176400 seconds, i.e. up to 49h). Defaults to 3600 (1h). Assertions must carry both `iat` and `exp`; a missing `iat` is rejected.
 
-  maximum: 176400, exclusiveMinimum: 0
+  minimum: 1, maximum: 176400
 
 #### Returns
 
@@ -1827,11 +1827,7 @@ matched as the JWT's `iss` claim and is not fetched.
 
   - `poll_status: BetaFederationIssuerPollStatus or null`
 
-    Status of automatic JWKS polling for a federation issuer.
-
-    Anthropic periodically fetches the issuer's signing keys in the
-    background. These fields summarize the most recent fetches so the
-    health of the JWKS endpoint can be monitored.
+    Live state of Anthropic's JWKS polling for this issuer. Populated on both single-issuer retrieval and list responses, including archived issuers. Typically null for inline-key issuers (no polling), or when poll status is temporarily unavailable or polling has not started yet.
 
     - `consecutive_failures: number`
 
@@ -1924,7 +1920,7 @@ Archived issuers are excluded unless `include_archived=true`.
 
   Number of results per page.
 
-  default: 20, maximum: 100, minimum: 1
+  default: 20, minimum: 1, maximum: 100
 
 - `page: optional string`
 
@@ -2142,11 +2138,7 @@ Archived issuers are excluded unless `include_archived=true`.
 
   - `poll_status: BetaFederationIssuerPollStatus or null`
 
-    Status of automatic JWKS polling for a federation issuer.
-
-    Anthropic periodically fetches the issuer's signing keys in the
-    background. These fields summarize the most recent fetches so the
-    health of the JWKS endpoint can be monitored.
+    Live state of Anthropic's JWKS polling for this issuer. Populated on both single-issuer retrieval and list responses, including archived issuers. Typically null for inline-key issuers (no polling), or when poll status is temporarily unavailable or polling has not started yet.
 
     - `consecutive_failures: number`
 
@@ -2452,11 +2444,7 @@ Retrieve a federation issuer by its ID (`fdis_...`).
 
   - `poll_status: BetaFederationIssuerPollStatus or null`
 
-    Status of automatic JWKS polling for a federation issuer.
-
-    Anthropic periodically fetches the issuer's signing keys in the
-    background. These fields summarize the most recent fetches so the
-    health of the JWKS endpoint can be monitored.
+    Live state of Anthropic's JWKS polling for this issuer. Populated on both single-issuer retrieval and list responses, including archived issuers. Typically null for inline-key issuers (no polling), or when poll status is temporarily unavailable or polling has not started yet.
 
     - `consecutive_failures: number`
 
@@ -2719,13 +2707,13 @@ session.
 
   Maximum allowed iat→exp spread for assertions from this issuer (1-176400 seconds, i.e. up to 49h). Assertions must carry both `iat` and `exp`; a missing `iat` is rejected.
 
-  maximum: 176400, exclusiveMinimum: 0
+  minimum: 1, maximum: 176400
 
 - `name: optional string or null`
 
   Replaces the slug identifier (lowercase, digits, hyphens). Unique within the organization; a duplicate name returns 409.
 
-  maxLength: 255, minLength: 1
+  minLength: 1, maxLength: 255
 
 #### Returns
 
@@ -2838,11 +2826,7 @@ session.
 
   - `poll_status: BetaFederationIssuerPollStatus or null`
 
-    Status of automatic JWKS polling for a federation issuer.
-
-    Anthropic periodically fetches the issuer's signing keys in the
-    background. These fields summarize the most recent fetches so the
-    health of the JWKS endpoint can be monitored.
+    Live state of Anthropic's JWKS polling for this issuer. Populated on both single-issuer retrieval and list responses, including archived issuers. Typically null for inline-key issuers (no polling), or when poll status is temporarily unavailable or polling has not started yet.
 
     - `consecutive_failures: number`
 
@@ -3146,11 +3130,7 @@ issuer cannot be changed), or recreate them against another issuer.
 
   - `poll_status: BetaFederationIssuerPollStatus or null`
 
-    Status of automatic JWKS polling for a federation issuer.
-
-    Anthropic periodically fetches the issuer's signing keys in the
-    background. These fields summarize the most recent fetches so the
-    health of the JWKS endpoint can be monitored.
+    Live state of Anthropic's JWKS polling for this issuer. Populated on both single-issuer retrieval and list responses, including archived issuers. Typically null for inline-key issuers (no polling), or when poll status is temporarily unavailable or polling has not started yet.
 
     - `consecutive_failures: number`
 
@@ -3383,7 +3363,7 @@ manage rules whose `oauth_scope` is `workspace:developer` or
 
   Slug identifier (lowercase, digits, hyphens). Unique within the organization; a duplicate name returns 409.
 
-  maxLength: 255, minLength: 1
+  minLength: 1, maxLength: 255
 
 - `oauth_scope: string`
 
@@ -3423,7 +3403,7 @@ manage rules whose `oauth_scope` is `workspace:developer` or
 
   Lifetime in seconds for access tokens minted via this rule (60-86400). Defaults to 3600 (1h). Minted tokens are capped at `max(60, min(this value, 2 × remaining assertion validity))` seconds.
 
-  maximum: 86400, minimum: 60
+  minimum: 60, maximum: 86400
 
 - `workspace_id: optional string or null`
 
@@ -3650,7 +3630,7 @@ unless `include_archived=true`.
 
   Number of results per page.
 
-  default: 20, maximum: 100, minimum: 1
+  default: 20, minimum: 1, maximum: 100
 
 - `page: optional string`
 
@@ -4400,11 +4380,7 @@ Console session.
 
 - `match: optional BetaFederationRuleMatch or null`
 
-  Does the incoming JWT qualify?
-
-  All populated fields must pass; omitted fields are skipped. At least one
-  of `subject_prefix` (other than a wildcard-only value like `*`), `claims`,
-  or `condition` is required; `audience` alone is not sufficient.
+  Replaces the entire match object. All populated matcher fields must pass.
 
   - `audience: optional string or null`
 
@@ -4432,7 +4408,7 @@ Console session.
 
   Replaces the slug identifier (lowercase, digits, hyphens). Unique within the organization; a duplicate name returns 409.
 
-  maxLength: 255, minLength: 1
+  minLength: 1, maxLength: 255
 
 - `oauth_scope: optional string or null`
 
@@ -4442,7 +4418,7 @@ Console session.
 
 - `target: optional BetaServiceAccountTarget or null`
 
-  Bind to a fixed service account by ID.
+  Replaces the entire target object. Currently always a `service_account` target.
 
   - `type: "service_account"`
 
@@ -4458,7 +4434,7 @@ Console session.
 
   Replaces the lifetime in seconds for access tokens minted via this rule (60-86400). Minted tokens are capped at `max(60, min(this value, 2 × remaining assertion validity))` seconds.
 
-  maximum: 86400, minimum: 60
+  minimum: 60, maximum: 86400
 
 - `workspace_id: optional string or null`
 
@@ -5179,7 +5155,7 @@ rules with `applies_to_all_workspaces` or a legacy single
 
   Number of results per page.
 
-  default: 20, maximum: 100, minimum: 1
+  default: 20, minimum: 1, maximum: 100
 
 - `page: optional string`
 
@@ -5688,7 +5664,7 @@ List the organization's invites.
 
   Defaults to `20`. Ranges from `1` to `1000`.
 
-  default: 20, maximum: 1000, minimum: 1
+  default: 20, minimum: 1, maximum: 1000
 
 - `roles: optional array of string`
 
@@ -6115,7 +6091,7 @@ accounts.
 
   Slug identifier (lowercase, digits, hyphens). Unique within the organization; a duplicate name returns 409.
 
-  maxLength: 255, minLength: 1
+  minLength: 1, maxLength: 255
 
 - `description: optional string or null`
 
@@ -6248,7 +6224,7 @@ archived service accounts.
 
   Number of results per page.
 
-  default: 20, maximum: 100, minimum: 1
+  default: 20, minimum: 1, maximum: 100
 
 - `page: optional string`
 
@@ -7354,7 +7330,7 @@ page to recover.
 
   Number of results per page.
 
-  default: 20, maximum: 100, minimum: 1
+  default: 20, minimum: 1, maximum: 100
 
 - `page: optional string`
 
@@ -7729,7 +7705,7 @@ List the organization's members.
 
   Defaults to `20`. Ranges from `1` to `1000`.
 
-  default: 20, maximum: 1000, minimum: 1
+  default: 20, minimum: 1, maximum: 1000
 
 - `roles: optional array of string`
 
@@ -8095,7 +8071,7 @@ List Workspaces
 
   Defaults to `20`. Ranges from `1` to `1000`.
 
-  default: 20, maximum: 1000, minimum: 1
+  default: 20, minimum: 1, maximum: 1000
 
 #### Returns
 
@@ -8362,7 +8338,7 @@ Create Workspace
 
   Name of the Workspace.
 
-  maxLength: 40, minLength: 1
+  minLength: 1, maxLength: 40
 
 - `data_residency: optional BetaDataResidencyCreateConfig or null`
 
@@ -8754,7 +8730,7 @@ Update Workspace
 
   Name of the Workspace.
 
-  maxLength: 40, minLength: 1
+  minLength: 1, maxLength: 40
 
 - `tags: optional map[string] or null`
 
@@ -9090,7 +9066,7 @@ the remaining entries.
 
   When omitted, every remaining entry is returned in a single page and `next_page` is `null`.
 
-  maximum: 1000, minimum: 1
+  minimum: 1, maximum: 1000
 
 - `page: optional string`
 
@@ -9330,7 +9306,7 @@ List Workspace Members
 
   Defaults to `20`. Ranges from `1` to `1000`.
 
-  default: 20, maximum: 1000, minimum: 1
+  default: 20, minimum: 1, maximum: 1000
 
 #### Returns
 
@@ -9732,7 +9708,7 @@ omitted from the results.
 
   Number of results per page.
 
-  default: 20, maximum: 100, minimum: 1
+  default: 20, minimum: 1, maximum: 100
 
 - `page: optional string`
 
@@ -10724,7 +10700,7 @@ the remaining entries.
 
   When omitted, every remaining entry is returned in a single page and `next_page` is `null`.
 
-  maximum: 1000, minimum: 1
+  minimum: 1, maximum: 1000
 
 - `model: optional string`
 
@@ -11463,13 +11439,13 @@ Enables organizations to analyze developer productivity and build custom dashboa
 
   UTC date in YYYY-MM-DD format. Returns metrics for this single day only.
 
-  pattern: ^\d{4}-\d{2}-\d{2}$, format: date
+  format: date, pattern: ^\d{4}-\d{2}-\d{2}$
 
 - `limit: optional number`
 
   Number of records per page (default: 20, max: 1000).
 
-  default: 20, maximum: 1000, minimum: 1
+  default: 20, minimum: 1, maximum: 1000
 
 - `page: optional string`
 
@@ -11758,7 +11734,7 @@ Get Cost Report
 
   Maximum number of time buckets to return in the response.
 
-  default: 7, maximum: 31, minimum: 1
+  default: 7, minimum: 1, maximum: 31
 
 - `page: optional string`
 
@@ -12041,7 +12017,7 @@ archived tunnels are excluded unless `include_archived` is set.
 
   Maximum number of tunnels to return in a single page.
 
-  default: 20, maximum: 1000, minimum: 1
+  default: 20, minimum: 1, maximum: 1000
 
 - `page: optional string`
 
@@ -12198,8 +12174,8 @@ archived tunnels are excluded unless `include_archived` is set.
 
   - `workspace_id: string or null`
 
-    ID of the Workspace this Tunnel belongs to, or `null` for the default
-    Workspace. Immutable after creation.
+    ID of the Workspace this Tunnel belongs to. May be `null` for a Tunnel in
+    the default Workspace. A Tunnel never moves to another Workspace.
 
 - `next_page: string or null`
 
@@ -12394,8 +12370,8 @@ Retrieve a single tunnel in the caller's organization by ID.
 
   - `workspace_id: string or null`
 
-    ID of the Workspace this Tunnel belongs to, or `null` for the default
-    Workspace. Immutable after creation.
+    ID of the Workspace this Tunnel belongs to. May be `null` for a Tunnel in
+    the default Workspace. A Tunnel never moves to another Workspace.
 
 #### Example
 
@@ -12586,8 +12562,8 @@ tunnel returns the existing record unchanged.
 
   - `workspace_id: string or null`
 
-    ID of the Workspace this Tunnel belongs to, or `null` for the default
-    Workspace. Immutable after creation.
+    ID of the Workspace this Tunnel belongs to. May be `null` for a Tunnel in
+    the default Workspace. A Tunnel never moves to another Workspace.
 
 #### Example
 
@@ -13190,7 +13166,7 @@ Archived certificates are excluded unless `include_archived` is set.
 
   Maximum number of certificates to return.
 
-  default: 20, maximum: 1000, minimum: 1
+  default: 20, minimum: 1, maximum: 1000
 
 - `page: optional string`
 
@@ -13773,13 +13749,15 @@ curl https://api.anthropic.com/v1/organizations/tunnels/$TUNNEL_ID/certificates/
 Get organization-wide activity summaries for a date range.
 
 Returns one entry per day from `starting_date` (inclusive) to `ending_date`
-(exclusive). Data is typically available with a 1-day lag and may be
-revised by a few percent over the following days: when `ending_date` is
-omitted it defaults to the most recent available day + 1, so the last
-entry covers the most recent available day. The series can be scoped to
-an RBAC group via `filter[]=rbac_group_id:{id}`. Available to
-organizations on a Claude Enterprise plan. Requires an API key with the
-`read:analytics` scope.
+(exclusive) in `data`, the same `data` / `next_page` envelope as the other
+analytics list endpoints; the series is currently returned in full, so
+`next_page` is always null (`summaries` is a deprecated alias of `data`).
+Data is typically available with a 1-day lag and may be revised by a few
+percent over the following days: when `ending_date` is omitted it
+defaults to the most recent available day + 1, so the last entry covers
+the most recent available day. The series can be scoped to an RBAC group
+via `filter[]=rbac_group_id:{id}`. Available to organizations on a Claude
+Enterprise plan. Requires an API key with the `read:analytics` scope.
 
 #### Query parameters
 
@@ -13801,13 +13779,155 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 
   maxItems: 100
 
+- `limit: optional number`
+
+  Number of results per page (1-1000, default 100). The day series (at most 366 entries) is currently returned in full in a single page, so `limit` does not yet shorten it.
+
+  minimum: 1, maximum: 1000
+
+- `page: optional string`
+
+  Opaque cursor from a previous response's `next_page` field. `next_page` is currently always null, so there is never a cursor to send.
+
 #### Returns
 
 - `BetaActivitySummary object`
 
   Response for GET /v1/organizations/analytics/summaries.
 
+  - `data: array of object`
+
+    One entry per day in the requested range, ascending by date.
+
+    - `assigned_seat_count: number or null`
+
+      Number of seats currently assigned to members. Null when the response is scoped to an RBAC group — seat assignment is org-wide and has no per-group analogue.
+
+    - `cowork_daily_active_user_count: number`
+
+      Number of users with Cowork activity on the requested day
+
+    - `cowork_monthly_active_user_count: number`
+
+      Number of users with Cowork activity in the 30-day rolling window
+
+    - `cowork_weekly_active_user_count: number`
+
+      Number of users with Cowork activity in the 7-day rolling window
+
+    - `daily_active_user_count: number`
+
+      Number of users with token consumption on the requested day
+
+    - `daily_adoption_rate: number or null`
+
+      Percentage of assigned seats with activity on the requested day (`DAU / assigned_seat_count * 100`). Null when the response is scoped to an RBAC group.
+
+    - `ending_at: string`
+
+      End of the aggregation period (exclusive), UTC midnight in RFC 3339 format (e.g. `2026-01-16T00:00:00Z`).
+
+      format: date-time
+
+    - `monthly_active_user_count: number`
+
+      Number of users with token consumption in the 30-day rolling window
+
+    - `monthly_adoption_rate: number or null`
+
+      Percentage of assigned seats with activity in the 30-day rolling window (`MAU / assigned_seat_count * 100`). Null when the response is scoped to an RBAC group.
+
+    - `pending_invite_count: number or null`
+
+      Number of pending invitations to join the organization. Null when the response is scoped to an RBAC group.
+
+    - `starting_at: string`
+
+      Start of the aggregation period (inclusive), UTC midnight in RFC 3339 format (e.g. `2026-01-15T00:00:00Z`).
+
+      format: date-time
+
+    - `weekly_active_user_count: number`
+
+      Number of users with token consumption in the 7-day rolling window
+
+    - `weekly_adoption_rate: number or null`
+
+      Percentage of assigned seats with activity in the 7-day rolling window (`WAU / assigned_seat_count * 100`). Null when the response is scoped to an RBAC group.
+
+    - `chat_daily_active_user_count: optional number or null`
+
+      Number of users with claude.ai (chat) activity on the requested day. Omitted from the response while the per-product breakdown is not enabled for this organization.
+
+    - `chat_monthly_active_user_count: optional number or null`
+
+      Number of users with claude.ai (chat) activity in the 30-day rolling window. Omitted from the response while the per-product breakdown is not enabled for this organization.
+
+    - `chat_weekly_active_user_count: optional number or null`
+
+      Number of users with claude.ai (chat) activity in the 7-day rolling window. Omitted from the response while the per-product breakdown is not enabled for this organization.
+
+    - `claude_code_daily_active_user_count: optional number or null`
+
+      Number of users with Claude Code activity on the requested day. Omitted from the response while the per-product breakdown is not enabled for this organization.
+
+    - `claude_code_monthly_active_user_count: optional number or null`
+
+      Number of users with Claude Code activity in the 30-day rolling window. Omitted from the response while the per-product breakdown is not enabled for this organization.
+
+    - `claude_code_weekly_active_user_count: optional number or null`
+
+      Number of users with Claude Code activity in the 7-day rolling window. Omitted from the response while the per-product breakdown is not enabled for this organization.
+
+    - `claude_design_daily_active_user_count: optional number or null`
+
+      Number of users with Claude Design activity on the requested day. Omitted from the response while the per-product breakdown is not enabled for this organization.
+
+    - `claude_design_monthly_active_user_count: optional number or null`
+
+      Number of users with Claude Design activity in the 30-day rolling window. Omitted from the response while the per-product breakdown is not enabled for this organization.
+
+    - `claude_design_weekly_active_user_count: optional number or null`
+
+      Number of users with Claude Design activity in the 7-day rolling window. Omitted from the response while the per-product breakdown is not enabled for this organization.
+
+    - `office_agent_daily_active_user_count: optional number or null`
+
+      Number of users with Claude in Office activity on the requested day. Omitted from the response while the per-product breakdown is not enabled for this organization.
+
+    - `office_agent_monthly_active_user_count: optional number or null`
+
+      Number of users with Claude in Office activity in the 30-day rolling window. Omitted from the response while the per-product breakdown is not enabled for this organization.
+
+    - `office_agent_weekly_active_user_count: optional number or null`
+
+      Number of users with Claude in Office activity in the 7-day rolling window. Omitted from the response while the per-product breakdown is not enabled for this organization.
+
+    - `science_daily_active_user_count: optional number or null`
+
+      Number of users with Claude Science activity on the requested day. Omitted from the response while the per-product breakdown is not enabled for this organization.
+
+    - `science_entitled_user_count: optional number or null`
+
+      Number of users with a Claude Science seat entitlement (per-seat RBAC) at the time of the daily snapshot. The funnel top; independent of the org-level Claude Science toggle. Null when the response is scoped to an RBAC group — entitlement is org-wide and has no per-group analogue. Omitted from the response while the per-product breakdown is not enabled for this organization.
+
+    - `science_monthly_active_user_count: optional number or null`
+
+      Number of users with Claude Science activity in the 30-day rolling window. Omitted from the response while the per-product breakdown is not enabled for this organization.
+
+    - `science_weekly_active_user_count: optional number or null`
+
+      Number of users with Claude Science activity in the 7-day rolling window. Omitted from the response while the per-product breakdown is not enabled for this organization.
+
+  - `next_page: string or null`
+
+    Opaque cursor for the next page, or null if no more results. Currently always null: the day series is returned in full.
+
   - `summaries: array of object`
+
+    **Deprecated**
+
+    Deprecated: use `data`, which carries the same entries.
 
     - `assigned_seat_count: number or null`
 
@@ -13941,6 +14061,40 @@ curl https://api.anthropic.com/v1/organizations/analytics/summaries \
 
 ```json
 {
+  "data": [
+    {
+      "assigned_seat_count": 0,
+      "cowork_daily_active_user_count": 0,
+      "cowork_monthly_active_user_count": 0,
+      "cowork_weekly_active_user_count": 0,
+      "daily_active_user_count": 0,
+      "daily_adoption_rate": 0,
+      "ending_at": "2019-12-27T18:11:19.117Z",
+      "monthly_active_user_count": 0,
+      "monthly_adoption_rate": 0,
+      "pending_invite_count": 0,
+      "starting_at": "2019-12-27T18:11:19.117Z",
+      "weekly_active_user_count": 0,
+      "weekly_adoption_rate": 0,
+      "chat_daily_active_user_count": 0,
+      "chat_monthly_active_user_count": 0,
+      "chat_weekly_active_user_count": 0,
+      "claude_code_daily_active_user_count": 0,
+      "claude_code_monthly_active_user_count": 0,
+      "claude_code_weekly_active_user_count": 0,
+      "claude_design_daily_active_user_count": 0,
+      "claude_design_monthly_active_user_count": 0,
+      "claude_design_weekly_active_user_count": 0,
+      "office_agent_daily_active_user_count": 0,
+      "office_agent_monthly_active_user_count": 0,
+      "office_agent_weekly_active_user_count": 0,
+      "science_daily_active_user_count": 0,
+      "science_entitled_user_count": 0,
+      "science_monthly_active_user_count": 0,
+      "science_weekly_active_user_count": 0
+    }
+  ],
+  "next_page": "next_page",
   "summaries": [
     {
       "assigned_seat_count": 0,
@@ -14453,7 +14607,7 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 
   Number of rows per page (1-1000, default 20). One row per actor unless `group_by[]` or `bucket_width` splits an actor across rows; `cost_type`/`token_type` fan-out rows (cost endpoint only) are the exception — they do not count toward this limit, so `data` can exceed it.
 
-  default: 20, maximum: 1000, minimum: 1
+  default: 20, minimum: 1, maximum: 1000
 
 - `models: optional array of string`
 
@@ -14987,7 +15141,7 @@ Requires an API key with the `read:analytics` scope.
 
         - `"web_search"`
 
-      - `currency: "USD"`
+      - `currency: string`
 
         Currency code for the cost amount. Currently always `"USD"`.
 
@@ -15235,7 +15389,7 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 
   Number of rows per page (1-1000, default 20). One row per actor unless `group_by[]` or `bucket_width` splits an actor across rows; `cost_type`/`token_type` fan-out rows (cost endpoint only) are the exception — they do not count toward this limit, so `data` can exceed it.
 
-  default: 20, maximum: 1000, minimum: 1
+  default: 20, minimum: 1, maximum: 1000
 
 - `models: optional array of string`
 
@@ -15387,7 +15541,7 @@ organizations on a Claude Enterprise plan. Requires an API key with the
 
       - `"web_search"`
 
-    - `currency: "USD"`
+    - `currency: string`
 
       Currency code for the cost amount. Currently always `"USD"`.
 
@@ -15900,7 +16054,7 @@ the `read:analytics` scope.
 
     - `user: optional BetaAnalyticsUser or null`
 
-      A user in the organization, identified by tagged id and email address.
+      The user this row describes. Null on rows aggregated across users.
 
       - `type: "user"`
 
@@ -16203,7 +16357,7 @@ on a Claude Enterprise plan. Requires an API key with the
 
       List-price (rate-card) value of the member requests attributed to this skill, as a decimal string in the minor unit of `currency` (cents for USD), from Claude Code, Cowork, and Office Agent request-level attribution — the value of requests that involved the skill, not the skill's incremental cost. Unlike `estimated_overage_spend` this reflects usage value regardless of how it was funded — seat-covered usage counts — but it is undiscounted and does not tie to billed spend or the organization's spend reporting. claude.ai chat usage carries no request-level attribution and contributes nothing: the field is null on `chat` product rows and on `office_agent` product cuts dated before 2026-06-18 (the Office Agent attribution data-start), and on ungrouped rows it covers the Claude Code + Cowork + Office Agent share only (null when no attributable usage exists). Also null under the same conditions as `estimated_overage_spend` (spend reporting not enabled for this organization, `office_agent` product cuts before the 2026-06-18 data-start). "0" means attributable usage existed but none was attributed to this skill. Addable across days: date-range rollup mode returns the window's sum. On `group_by[]` and `filter[]` shapes both amounts can total below the ungrouped value for the same skill over the same date or range: spend attributed to a member–skill pair with no counted usage on that day is excluded from those cuts.
 
-    - `currency: optional "USD" or null`
+    - `currency: optional string or null`
 
       Currency for this row's monetary fields (`estimated_overage_spend` and `attributed_list_price`), as an uppercase ISO-4217 code. Always "USD" when either amount is populated; null whenever both amounts are null.
 
@@ -16293,7 +16447,7 @@ curl https://api.anthropic.com/v1/organizations/analytics/skills \
       },
       "skill_name": "skill_name",
       "attributed_list_price": "attributed_list_price",
-      "currency": "USD",
+      "currency": "currency",
       "enable_count": 0,
       "estimated_overage_spend": "estimated_overage_spend",
       "invocation_count": 0,
@@ -16653,7 +16807,7 @@ plan. Requires an API key with the `read:analytics` scope.
 
     - `created_by: optional BetaAnalyticsUser or null`
 
-      A user in the organization, identified by tagged id and email address.
+      User who created the project. Null if the project was deleted before attribution was recorded, or if the creator's account no longer exists.
 
       - `type: "user"`
 
@@ -17456,7 +17610,7 @@ Paginates by member, so a member's periods never split across pages.
 
   Maximum number of members per page. A member's period rows never split across pages, so a page may carry more rows than this. Defaults to `20`.
 
-  default: 20, maximum: 1000, minimum: 1
+  default: 20, minimum: 1, maximum: 1000
 
 - `page: optional string`
 
@@ -17731,7 +17885,7 @@ Requests whose requester is no longer a member are excluded.
 
 - `limit: optional number`
 
-  default: 20, maximum: 1000, minimum: 1
+  default: 20, minimum: 1, maximum: 1000
 
 - `page: optional string`
 
@@ -19375,7 +19529,7 @@ The RBAC Groups API is available to Claude Enterprise organizations only.
 
   Defaults to `20`. Ranges from `1` to `1000`.
 
-  default: 20, maximum: 1000, minimum: 1
+  default: 20, minimum: 1, maximum: 1000
 
 - `page: optional string`
 
@@ -19577,7 +19731,7 @@ The RBAC Groups API is available to Claude Enterprise organizations only.
 
   Name of the RBAC Group. Not uniqueness-enforced.
 
-  maxLength: 255, minLength: 1
+  minLength: 1, maxLength: 255
 
 #### Returns
 
@@ -19680,7 +19834,7 @@ The RBAC Groups API is available to Claude Enterprise organizations only.
 
   Name of the RBAC Group. Not uniqueness-enforced.
 
-  maxLength: 255, minLength: 1
+  minLength: 1, maxLength: 255
 
 #### Returns
 
@@ -19835,7 +19989,7 @@ The RBAC Groups API is available to Claude Enterprise organizations only.
 
   Defaults to `20`. Ranges from `1` to `1000`.
 
-  default: 20, maximum: 1000, minimum: 1
+  default: 20, minimum: 1, maximum: 1000
 
 - `page: optional string`
 
@@ -20073,7 +20227,7 @@ The RBAC Roles API is available to Claude Enterprise organizations only.
 
   Defaults to `20`. Ranges from `1` to `1000`.
 
-  default: 20, maximum: 1000, minimum: 1
+  default: 20, minimum: 1, maximum: 1000
 
 - `page: optional string`
 
@@ -20236,7 +20390,7 @@ The RBAC Roles API is available to Claude Enterprise organizations only.
 
   Defaults to `20`. Ranges from `1` to `1000`.
 
-  default: 20, maximum: 1000, minimum: 1
+  default: 20, minimum: 1, maximum: 1000
 
 - `page: optional string`
 

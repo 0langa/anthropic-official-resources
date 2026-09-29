@@ -2,11 +2,6 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
-    "url": "https://www.youtube.com/iframe_api"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "script",
     "url": "https://assets.claude.ai/sdk/antalytics/atm/anthropic_com/latest.umd.js"
   },
   {
@@ -15,13 +10,18 @@
     "url": "https://assets.claude.ai/sdk/antalytics/latest.umd.js"
   },
   {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://a.anthropic.com/isolated-segment.html"
+  },
+  {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
     "url": "https://www.googletagmanager.com/gtm.js"
   },
   {
-    "reason": "outside_scope",
-    "type": "document",
-    "url": "https://a.anthropic.com/isolated-segment.html"
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://www.youtube.com/iframe_api"
   }
 ]

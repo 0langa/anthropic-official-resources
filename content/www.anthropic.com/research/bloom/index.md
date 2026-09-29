@@ -39,7 +39,7 @@ Unlike fixed evaluation sets, Bloom produces different scenarios on each run whi
 
 Researchers can extensively configure Bloom's behavior, through choosing models for each stage, adjusting the interactions’ length and modality (i.e., whether to expose tools to the target model, whether to simulate a user), controlling how diverse the evaluation scenarios are, and specifying secondary scoring dimensions, like realism or elicitation difficulty.
 
-**Example outputs from all four stages of the Bloom evaluation pipeline can be viewed [here.](https://claude.ai/redirect/website.v1.24060d7e-6731-4f42-85aa-cad877b75f27/public/artifacts/cbfddf51-ab0d-45a9-913b-163ae2dd4126)**
+**Example outputs from all four stages of the Bloom evaluation pipeline can be viewed [here.](https://claude.ai/redirect/website.v1.f802bf3d-8f84-44d4-a844-a0b264110bb4/public/artifacts/cbfddf51-ab0d-45a9-913b-163ae2dd4126)**
 
 ## Validation and trust
 
@@ -100,7 +100,7 @@ Guest writer and physicist Matt von Hippel shares what happened when he issued a
 
 ### Project Swap: What happens when agents trade for us?
 
-To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes—a more controlled sequel to Project Deal, our first experiment with agents interacting in a marketplace on people's behalf.
+To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.
 
 [Read more](https://www.anthropic.com/research/project-swap)
 

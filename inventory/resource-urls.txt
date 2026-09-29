@@ -986,6 +986,7 @@ https://claude.com/blog/fix-software-bugs-faster-with-claude
 https://claude.com/blog/four-role-based-claude-certifications
 https://claude.com/blog/getting-started-with-loops
 https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend
+https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia
 https://claude.com/blog/harnessing-claudes-intelligence
 https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks
 https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents
@@ -1440,6 +1441,7 @@ https://platform.claude.com/cookbook/observability-usage-cost-api
 https://platform.claude.com/cookbook/patterns-agents-async-multi-agent-orchestration
 https://platform.claude.com/cookbook/patterns-agents-basic-workflows
 https://platform.claude.com/cookbook/patterns-agents-evaluator-optimizer
+https://platform.claude.com/cookbook/patterns-agents-latency-multi-agent
 https://platform.claude.com/cookbook/patterns-agents-orchestrator-workers
 https://platform.claude.com/cookbook/skills-notebooks-01-skills-introduction
 https://platform.claude.com/cookbook/skills-notebooks-02-skills-financial-applications
@@ -2658,6 +2660,7 @@ https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompti
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5
+https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5-5
 https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback
 https://platform.claude.com/docs/en/build-with-claude/search-results
 https://platform.claude.com/docs/en/build-with-claude/skills-guide
@@ -2702,6 +2705,7 @@ https://platform.claude.com/docs/en/get-started
 https://platform.claude.com/docs/en/home
 https://platform.claude.com/docs/en/intro
 https://platform.claude.com/docs/en/manage-claude/access-transparency
+https://platform.claude.com/docs/en/manage-claude/access-transparency-log
 https://platform.claude.com/docs/en/manage-claude/admin-api
 https://platform.claude.com/docs/en/manage-claude/admin-api-keys
 https://platform.claude.com/docs/en/manage-claude/analytics-api
@@ -2794,6 +2798,9 @@ https://platform.claude.com/docs/en/models/opus-5/whats-new-opus-5
 https://platform.claude.com/docs/en/models/overview
 https://platform.claude.com/docs/en/models/sonnet-4-5/overview
 https://platform.claude.com/docs/en/models/sonnet-4-6/overview
+https://platform.claude.com/docs/en/models/sonnet-5-5/migration-guide
+https://platform.claude.com/docs/en/models/sonnet-5-5/overview
+https://platform.claude.com/docs/en/models/sonnet-5-5/whats-new-sonnet-5-5
 https://platform.claude.com/docs/en/models/sonnet-5/migration-guide
 https://platform.claude.com/docs/en/models/sonnet-5/overview
 https://platform.claude.com/docs/en/models/sonnet-5/whats-new-sonnet-5
@@ -2820,6 +2827,8 @@ https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-3
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4-5
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4-6
+https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-5
+https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-5-5
 https://platform.claude.com/docs/en/release-notes/system-prompts/overview
 https://platform.claude.com/docs/en/resources/overview
 https://platform.claude.com/docs/en/test-and-evaluate/develop-tests
@@ -3261,6 +3270,7 @@ https://support.claude.com/en/articles/15330088-set-a-default-model-for-your-org
 https://support.claude.com/en/articles/15330088-set-a-default-model-for-your-organization?campaign=19893371
 https://support.claude.com/en/articles/15330089
 https://support.claude.com/en/articles/15330651-claude-enterprise-admin-api-reference-guide
+https://support.claude.com/en/articles/15363606
 https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-5
 https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-5-or-fable-5-1
 https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion
@@ -3343,6 +3353,7 @@ https://support.claude.com/en/articles/16952184
 https://support.claude.com/en/articles/16952184-set-up-salesforce-in-claude-for-your-organization
 https://support.claude.com/en/articles/16952186
 https://support.claude.com/en/articles/16952186-use-salesforce-in-claude
+https://support.claude.com/en/articles/16975617
 https://support.claude.com/en/articles/16989529-invite-people-outside-your-organization-to-an-artifact
 https://support.claude.com/en/articles/16994751
 https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans
@@ -3351,6 +3362,7 @@ https://support.claude.com/en/articles/17007452
 https://support.claude.com/en/articles/17007452-what-is-a-limit-reset
 https://support.claude.com/en/articles/17153992
 https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them
+https://support.claude.com/en/articles/17161993-why-claude-switched-models-in-your-conversation-with-sonnet-5-5
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer

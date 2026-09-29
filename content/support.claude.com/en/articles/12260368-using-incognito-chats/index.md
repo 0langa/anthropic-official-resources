@@ -34,7 +34,7 @@ These differ from regular chats in several ways:
 
 When starting a new chat with Claude outside of a project, you'll see a ghost icon in the upper right corner of your screen:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719768744/c7a2fa56cf284e48472f3b9c4dbf/030563f8-9f97-4891-a749-9ae95968a063?expires=1790508600&amp;signature=237450ab526efb5a09c4b16f7ded42c41bd62f865c8ea3e41d264ac79297292d&amp;req=dScmH854lYZbXfMW1HO4zeUcugK4bu2NDCAt3Cx%2FSO1l8jb84Sj%2BNODb9LxM%0AUMs3iRE%2BTHSvj3DpMVY%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719768744/c7a2fa56cf284e48472f3b9c4dbf/030563f8-9f97-4891-a749-9ae95968a063?expires=1790683200&amp;signature=4250398c7ee6134eafa286d2fbf2abae350de35a924a62353c9c8ec2ff19d7f6&amp;req=dScmH854lYZbXfMW1HO4zeUcugK7ZuaJDCAt3Cx%2FSO1gGHiQ%2Bb%2BfNlSMJZXW%0AlmDzu0kWHWmFw9Gr2dk%3D%0A)
 
 1. Click the ghost icon to enable incognito mode.
 
