@@ -84,9 +84,9 @@ If your organization has turned on HIPAA readiness or CMEK, **Bring your data wi
 
 What happens to your Pro or Max plan after migrating depends on where you bought it:
 
-- **Directly (not through a mobile app):** Your Pro or Max subscription is canceled automatically when your personal account closes, and you receive a prorated refund for unused time.
+- **Directly (not through a mobile app):** Your Pro or Max subscription is canceled automatically as part of the move, and you receive a prorated refund for unused time. The refund is issued about 24 hours after your plan is canceled, and depending on your bank, it can take several more business days to appear on your statement.
 
-- **Google Play Store:** Your Pro or Max subscription is canceled automatically when your personal account closes, and you receive a prorated refund for unused time. Refunds for Google Play purchases can take a few days to appear.
+- **Google Play Store:** Your Pro or Max subscription is canceled automatically as part of the move, and you receive a prorated refund for unused time. Refunds for Google Play purchases can take a few days to appear.
 
 - **Apple App Store:** Your Pro or Max subscription isn't canceled. Apple doesn't allow third-party cancellation, so you'll need to cancel it yourself through your Apple ID settings. If you don't, Apple keeps charging you after your personal account closes.
 
@@ -126,7 +126,7 @@ For the full walkthrough of your options, deadlines, and what happens to your su
 
 You may have both a personal account and an organization account tied to the same email address. You can switch between them by clicking your initials or name in the lower left corner of the screen.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1790596800&amp;signature=1e2701382b9daed8610389ec9d22458f235b6dbc4a193b8fd9b8ca3df82d0020&amp;req=diMmFMh3noJbXvMW1HO4zXhPnNAzwRlpufhmlOXMdYZ5ir4FOm0a5IMPIE%2Ba%0ADVNKF0DnpAMggQp063o%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1790766900&amp;signature=a6b3ec34aa6e9d940eb3be830b8df8340466dd9bd5e24b54703077977cb610ea&amp;req=diMmFMh3noJbXvMW1HO4zXhPnNAxzhloufhmlOXMdYasq91UrJmUxMuxfHWW%0AIwx3mpTCAVfLRYmuLm8%3D%0A)
 
 A blue checkmark shows which account you're currently using. Click the other account to switch to it and access its separate conversations and projects.
 

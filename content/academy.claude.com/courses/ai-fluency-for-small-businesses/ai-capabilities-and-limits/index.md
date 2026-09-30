@@ -1,4 +1,4 @@
-Lesson 3 of 9 · AI Fluency for small businessesAI capabilities and limitations
+Lesson 3 of 8 · AI Fluency for small businessesAI capabilities and limitations
 
 # AI capabilities and limitations
 
@@ -75,7 +75,7 @@ Which capability from the video showed up most clearly in what you saw? Which li
 
 ## What's next[](https://academy.claude.com/courses/ai-fluency-for-small-businesses/ai-capabilities-and-limits)
 
-Up next is a hands-on activity exploring how language models actually generate text to bring to life what you just learned.
+In the next lesson, we'll explore the inner loop of Description and Discernment by researching with AI.
 
 Was this helpful?
 

@@ -2,13 +2,13 @@
 
 Helps small business owners and staff build practical AI collaboration skills using the 4D Framework: Delegation, Description, Discernment, and Diligence. Applies the framework to everyday business tasks like research, customer data, and operations while staying true to your mission and values.
 
-9 lessons4 hr1 quizCompletion badge
+8 lessons3.5 hr1 quizCompletion badge
 
 [Start course](https://academy.claude.com/courses/ai-fluency-for-small-businesses/ai-fluency-for-small-businesses)[Sign in to save progress](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-small-businesses)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-mpyjyp46.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bw011lwh.png)
 
-9 lessons · 1 quizAI Fluency for small businesses
+8 lessons · 1 quizAI Fluency for small businesses
 
 What you’ll learnBy the end of this course, you’ll be able to
 
@@ -68,9 +68,9 @@ Define AI Fluency and learn the four interconnected competencies—Delegation, D
 
 ### How AI works
 
-2 lessons
+1 lesson
 
-Build a working mental model of what today's AI can and can't do reliably, and explore hands-on with an interactive next-token simulator so you understand why those limits matter for how you put it to work in your business.
+Build a working mental model of what today's AI can and can't do reliably, so you understand why those limits matter for how you put it to work in your business.
 
 ![](https://academy.claude.com/assets/media/03fd7aea2a1e253a42f6e0cbbcba320e1a10fab54d509e58fd146eb2ab1ebe24.webp)![](https://academy.claude.com/assets/media/ae971c514e8ca20cee1c3e577c98a0d4c32d2dae28a9c2d0a47c5620131555d7.webp)
 

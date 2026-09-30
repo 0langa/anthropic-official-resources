@@ -45,6 +45,8 @@ Applied AI, Anthropic
 
 By submitting, you acknowledge the Anthropic [Privacy Policy](https://www.anthropic.com/legal/privacy).
 
+‍
+
 ![](https://img.youtube.com/vi/zfWfczd6keE/maxresdefault.jpg)
 
 ## Thank you for registering to watch

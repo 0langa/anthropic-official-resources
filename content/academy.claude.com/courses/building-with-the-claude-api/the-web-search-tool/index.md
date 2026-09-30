@@ -8,7 +8,7 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fthe-web-search-tool)
 
-**Important note:** Your organization must enable the Web Search tool in the settings console before using it. You can find this setting here: [https://platform.claude.com/settings/privacy(opens in new tab)](https://platform.claude.com/settings/privacy)
+**Important note:** Your organization must enable the Web Search tool in the settings console before using it. You can find this setting here: [https://platform.claude.com/settings/capabilities(opens in new tab)](https://platform.claude.com/settings/capabilities)
 
 Claude includes a built-in web search tool that lets it search the internet for current or specialized information to answer user questions. Unlike other tools where you need to provide the implementation, Claude handles the entire search process automatically - you just need to provide a simple schema to enable it.
 

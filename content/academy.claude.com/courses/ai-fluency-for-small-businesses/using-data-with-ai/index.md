@@ -1,8 +1,8 @@
-Lesson 6 of 9 · AI Fluency for small businessesTransparent AI use
+Lesson 5 of 8 · AI Fluency for small businessesTransparent AI use
 
 # Transparent AI use
 
-Lesson 645 min
+Lesson 545 min
 
 In this lessonBy the end, you’ll be able to
 

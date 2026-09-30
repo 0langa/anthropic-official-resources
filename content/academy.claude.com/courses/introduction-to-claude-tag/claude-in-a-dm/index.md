@@ -27,19 +27,14 @@ Use DMs with Claude for personal work on your own data that isn't posted to any 
 
 
 
-If your organization has [turned DMs off(opens in new tab)](https://claude.com/docs/claude-tag/admins/restrict-access), use [a channel with only you and Claude(opens in new tab)](https://claude.com/docs/claude-tag/users/use-cases/your-own-channel) instead.
+If your organization has [turned DMs off(opens in new tab)](https://academy.claude.com/tutorials/claude-tag-admin-guide), use [a channel with only you and Claude(opens in new tab)](https://claude.com/docs/claude-tag/users/use-cases/your-own-channel) instead.
 
 ### Get familiar with what Claude can do for you[](https://academy.claude.com/courses/introduction-to-claude-tag/claude-in-a-dm)
 
 A DM is also the easiest place to find out what Claude knows and can do for your work. Start by asking it directly:
 
-What do you know about me, and what sorts of things can you do for my work?
-
-Copy prompt
-
-What can you access from here?
-
-Copy prompt
+- *"What do you know about me, and what sorts of things can you do for my work?"*
+- *"What can you access from here?"*
 
 ## What Claude can use in your DMs[](https://academy.claude.com/courses/introduction-to-claude-tag/claude-in-a-dm)
 

@@ -1,8 +1,8 @@
-Lesson 7 of 9 · AI Fluency for small businessesTying it all together
+Lesson 6 of 8 · AI Fluency for small businessesTying it all together
 
 # Tying it all together
 
-Lesson 745 min
+Lesson 645 min
 
 In this lessonBy the end, you’ll be able to
 

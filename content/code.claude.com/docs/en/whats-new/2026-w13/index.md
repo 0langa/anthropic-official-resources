@@ -14,7 +14,7 @@ Auto mode for hands-off permissions, computer use built in, PR auto-fix in the c
     <span>research preview</span>
   </div>
 
-  <p>Auto mode hands your permission prompts to a classifier. Safe edits and commands run without interrupting you; anything destructive or suspicious gets blocked and surfaced. It's the middle ground between approving every file write and running with <code>--dangerously-skip-permissions</code>.</p>
+  <p>Auto mode hands your permission prompts to a classifier. Safe edits and commands run without interrupting you; anything destructive or suspicious gets blocked and surfaced. It's the middle ground between approving every file write and running with `--dangerously-skip-permissions`.</p>
 
   <Frame>
     <img alt="Claude Code prompt footer showing 'auto mode on (shift+tab to cycle)' indicator in yellow" />

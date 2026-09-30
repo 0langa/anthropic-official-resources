@@ -583,6 +583,7 @@ https://academy.claude.com/tutorials/claude-for-financial-services-skills
 https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-guide-for-all-users
 https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-success-guide-for-admins
 https://academy.claude.com/tutorials/claude-for-teachers-in-action
+https://academy.claude.com/tutorials/claude-for-word-turn-a-draft-into-a-finished-document
 https://academy.claude.com/tutorials/claude-tag-admin-guide
 https://academy.claude.com/tutorials/configuration-and-multi-file-skills
 https://academy.claude.com/tutorials/connect-your-tools-to-unlock-a-smarter-more-capable-ai-companion
@@ -602,6 +603,7 @@ https://academy.claude.com/tutorials/getting-started-with-claude-for-life-scienc
 https://academy.claude.com/tutorials/getting-started-with-claude-for-nonprofits
 https://academy.claude.com/tutorials/getting-started-with-claude-in-excel
 https://academy.claude.com/tutorials/getting-started-with-claude-security
+https://academy.claude.com/tutorials/getting-started-with-claude-tag
 https://academy.claude.com/tutorials/getting-started-with-connectors
 https://academy.claude.com/tutorials/how-skills-compare-to-other-claude-code-features
 https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork
@@ -861,6 +863,7 @@ https://claude.com/blog/agent-capabilities-api
 https://claude.com/blog/agent-identity-access-model
 https://claude.com/blog/agent-view-in-claude-code
 https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic
+https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude
 https://claude.com/blog/ai-ci-cd-on-call
 https://claude.com/blog/ai-code-migration
 https://claude.com/blog/amazon-bedrock-general-availability
@@ -1437,6 +1440,7 @@ https://platform.claude.com/cookbook/multimodal-getting-started-with-vision
 https://platform.claude.com/cookbook/multimodal-how-to-transcribe-text
 https://platform.claude.com/cookbook/multimodal-reading-charts-graphs-powerpoints
 https://platform.claude.com/cookbook/multimodal-using-sub-agents
+https://platform.claude.com/cookbook/name
 https://platform.claude.com/cookbook/observability-usage-cost-api
 https://platform.claude.com/cookbook/patterns-agents-async-multi-agent-orchestration
 https://platform.claude.com/cookbook/patterns-agents-basic-workflows
@@ -3354,6 +3358,7 @@ https://support.claude.com/en/articles/16952184-set-up-salesforce-in-claude-for-
 https://support.claude.com/en/articles/16952186
 https://support.claude.com/en/articles/16952186-use-salesforce-in-claude
 https://support.claude.com/en/articles/16975617
+https://support.claude.com/en/articles/16975617-what-is-the-life-sciences-verification-program
 https://support.claude.com/en/articles/16989529-invite-people-outside-your-organization-to-an-artifact
 https://support.claude.com/en/articles/16994751
 https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans
@@ -4009,6 +4014,7 @@ https://www.anthropic.com/research/features-as-classifiers
 https://www.anthropic.com/research/forecasting-rare-behaviors
 https://www.anthropic.com/research/formalizing-fermats-last-theorem
 https://www.anthropic.com/research/glasswing-initial-update
+https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities
 https://www.anthropic.com/research/global-workspace
 https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
 https://www.anthropic.com/research/how-australia-uses-claude
@@ -4093,6 +4099,7 @@ https://www.anthropic.com/research/values-wild
 https://www.anthropic.com/research/vibe-physics
 https://www.anthropic.com/research/visible-extended-thinking
 https://www.anthropic.com/research/yes-claude-can-do-nine-loops
+https://www.anthropic.com/research/your-thoughts-on-ai
 https://www.anthropic.com/research/zero-days
 https://www.anthropic.com/resources
 https://www.anthropic.com/system-cards

@@ -43,6 +43,8 @@ Member of Technical Staff, Augment Code
 
 By submitting, you acknowledge the Anthropic [Privacy Policy](https://www.anthropic.com/legal/privacy).
 
+‍
+
 ![](https://img.youtube.com/vi/MUbUyMZPLQ0/maxresdefault.jpg)
 
 ## Thank you for registering to watch

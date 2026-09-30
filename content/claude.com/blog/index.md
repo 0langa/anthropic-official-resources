@@ -309,6 +309,22 @@ List
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
 
+Sep 29, 2026
+
+Agents you can coach: how Asana builds human-agent teams with Claude
+
+Agents
+
+Agents you can coach: how Asana builds human-agent teams with Claude
+
+September 29, 2026
+
+[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+
+[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog)Agents you can coach: how Asana builds human-agent teams with Claude
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+
 Sep 28, 2026
 
 Giving companies more control over their AI agents, with NVIDIA
@@ -531,22 +547,6 @@ September 14, 2026
 
 [Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
-
-Sep 14, 2026
-
-Claude for Financial Advisors
-
-Product announcements
-
-Claude for Financial Advisors
-
-September 14, 2026
-
-[Claude for Financial Advisors](https://claude.com/blog/claude-for-financial-advisors)Claude for Financial Advisors
-
-[Claude for Financial Advisors](https://claude.com/blog)Claude for Financial Advisors
-
 [View more](https://claude.com/?b7eea976_page=2)
 
 1 / 17
@@ -556,6 +556,22 @@ Category
 Product
 
 Usecase
+
+### Agents you can coach: how Asana builds human-agent teams with Claude
+
+Category
+
+Agents
+
+Product
+
+Usecase
+
+September 29, 2026
+
+[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+
+[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog)Agents you can coach: how Asana builds human-agent teams with Claude
 
 ### Giving companies more control over their AI agents, with NVIDIA
 
@@ -780,22 +796,6 @@ September 14, 2026
 [Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
 [Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic](https://claude.com/blog)Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
-
-### Claude for Financial Advisors
-
-Category
-
-Product announcements
-
-Product
-
-Usecase
-
-September 14, 2026
-
-[Claude for Financial Advisors](https://claude.com/blog/claude-for-financial-advisors)Claude for Financial Advisors
-
-[Claude for Financial Advisors](https://claude.com/blog)Claude for Financial Advisors
 
 [View more](https://claude.com/?d7430fcd_page=2)
 

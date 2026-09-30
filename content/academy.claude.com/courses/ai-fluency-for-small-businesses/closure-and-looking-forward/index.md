@@ -1,8 +1,8 @@
-Lesson 9 of 9 · AI Fluency for small businessesClosure and looking forward
+Lesson 8 of 8 · AI Fluency for small businessesClosure and looking forward
 
 # Closure and looking forward
 
-Lesson 915 min
+Lesson 815 min
 
 In this lessonBy the end, you’ll be able to
 

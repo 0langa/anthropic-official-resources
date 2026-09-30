@@ -1,4 +1,4 @@
-Lesson 1 of 9 · AI Fluency for small businessesAI Fluency for small businesses
+Lesson 1 of 8 · AI Fluency for small businessesAI Fluency for small businesses
 
 # AI Fluency for small businesses
 

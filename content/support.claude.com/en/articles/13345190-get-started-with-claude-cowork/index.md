@@ -22,6 +22,8 @@ On desktop, web, and mobile, chat and Cowork share one home, so you start both f
 
 If you have the new Claude experience, there's no "Cowork" option to select. Describe your task in any conversation, and Claude takes it from there. Learn more in **[Claude Cowork and chat are one Claude](https://support.claude.com/en/articles/16761823)**.
 
+**Heads-up for Pro and Max plans:** On October 6, 2026, new Cowork tasks run in the cloud and the **Only on your computer** option in **[Settings > General](https://claude.ai/settings/general)** will be removed. Tasks you already started on your computer stay there. Learn more in **[What's changing for Pro and Max plans on October 6](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile#h_f951c27c48)**.
+
 ---
 
 ## What is Claude Cowork?
@@ -184,7 +186,7 @@ To set global instructions:
 
 3. Type your instructions in the text box and click "Save":
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1790597700&amp;signature=b21ae223d81f7a033eb8b9f067105d61992fbab24bca5347c6ba0aead4e0be12&amp;req=diUlE8B8m4lYXfMW1HO4zcDl69jpP1a38iWjaktE9434ORUWK11Jv9I4HCzM%0AUq6kDFRLy20RQNzoxNE%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1790768700&amp;signature=90671856b0768fa5596e7a35e25ebb9c7a7cb5abc367edaf93d7fb149e697ddd&amp;req=diUlE8B8m4lYXfMW1HO4zcDl69jrMFm38iWjaktE940%2BOX0S6tq%2B9B%2BVQYuy%0APxogtdFdBibskPWflXQ%3D%0A)
 
 ### Folder instructions
 

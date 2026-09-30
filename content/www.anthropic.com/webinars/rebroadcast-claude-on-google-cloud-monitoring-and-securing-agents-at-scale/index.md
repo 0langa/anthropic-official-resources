@@ -52,6 +52,8 @@ Developer Relations Engineer (AI/ML) at Google Cloud
 
 By submitting, you acknowledge the Anthropic [Privacy Policy](https://www.anthropic.com/legal/privacy).
 
+‍
+
 I acknowledge the [Anthropic Privacy Policy](https://www.anthropic.com/legal/privacy) and I understand my personal data will be processed by Google in accordance with [Google's Privacy Policy](https://policies.google.com/privacy).
 
 ![]()

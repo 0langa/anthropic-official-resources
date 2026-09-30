@@ -46,6 +46,8 @@ Product Marketing @ Anthropic
 
 By submitting, you acknowledge the Anthropic [Privacy Policy](https://www.anthropic.com/legal/privacy).
 
+‍
+
 ![]()
 
 ## Thank you for registering to watch

@@ -10,6 +10,10 @@ In this lessonBy the end, you’ll be able to
 - Explain why customizations need governance and how the settings that enforce a posture work together
 - Choose your governance posture, including whether one posture covers the whole organization, and recognize the signals that it doesn’t fit
 
+Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fgoverning-customizations)
+
 This is the third of the five decisions, Governance. You’ve decided what Claude can reach. Now you’ll learn about the customizations that change how Claude works, and how those changes can cascade across your organization. Skills, shared setups, and the always-on guidance your organization gives Claude all sit here because they answer one question at different layers: how much of what one member sets up can reach others?
 
 ## User customizations and organization instructions[](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/governing-customizations)
@@ -55,15 +59,43 @@ How a skill spreads is governed by four separate distribution controls, which ma
 1. **Owner provisioning**: an Owner uploads a skill and it reaches every member’s skills list, enabled by default (members can toggle it off for themselves). Only Owners can add or remove these.
 2. **Skill sharing (on by default unless your organization has set a skills preference)**: members share a skill directly with specific colleagues, who can use it but not edit it.
 3. **Share with groups (off by default)**: members share a skill with an entire group that has Share resources with this group on.
-4. **Share with organization (off by default)**: members publish a skill to the organization directory, where anyone can find and install it. There is no in-product review step: with this on, a member can publish without review, so a reviewed-spread posture is a process you run (a reviewer approves, then an Owner provisions), not a toggle you set.
+4. **Publishing (Off, Requires review, or Open)**: members submit a skill to the organization library, where everyone in the organization can use it. With Off, members can’t submit, though Owners can still add skills for the whole organization directly; with Requires review, each submission, and each later version, waits until an Owner approves it; with Open, submissions publish without review.
 
 ## Pluto’s governance[](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/governing-customizations)
 
-Pluto runs a split posture: members in most groups build freely and share within their group, and anything headed beyond the group goes through a named reviewer in that group; Payments & Trust runs tighter, so nothing built there is shared at all until it’s approved (approve-first), a rule Pluto enforces through its reviewer and its policy, since the sharing toggles themselves are organization-wide. Pluto’s organization instructions name Pluto, its five business units, and its house style for customer-facing writing. They read: “You are assisting Pluto, a fintech with five business units: Retail, B2B, Payments & Trust, Platform, and Ops. Customer-facing writing is plain and short, in Pluto’s house style.”
+Pluto runs a split posture: members in most groups build freely and share within their group, and anything headed beyond the group goes through a named reviewer in that group; Payments & Trust runs tighter, so nothing built there is shared at all until it’s approved (approve-first), a rule Pluto enforces through its reviewer and its policy, since the sharing settings themselves are organization-wide. Pluto’s organization instructions name Pluto, its five business units, and its house style for customer-facing writing. They read: “You are assisting Pluto, a fintech with five business units: Retail, B2B, Payments & Trust, Platform, and Ops. Customer-facing writing is plain and short, in Pluto’s house style.”
 
 The interactive widget below follows one skill through the build-review-publish loop: switch between the postures — Pluto’s open build with reviewed spread for most groups, approve-first for Payments & Trust — and watch where the review gate sits.
 
-Loading
+Exercise: switch among four governance postures to see where a review gate lands across build, vet, promote, and spread stages, who may act at each, and which sample skills pass, stop, or spread unreviewed, showing how posture trades speed for review.
+
+**Switch the posture** and watch where the review gate sits and which Skill it stops.
+
+Open build, reviewed spread · Pluto (most groups)Approve-first · Payments & TrustCentralizedFully open
+
+Skill
+
+BuildAny member
+
+VetAny member
+
+PromoteNamed reviewer
+
+SpreadAny member
+
+Review gate
+
+notes-formatterbuilt by a member
+
+pricing-helperbuilt by a member
+
+customer-data-lookupbuilt by a member · reaches regulated data
+
+Sent back for changes
+
+refund-handlerbuilt by a member
+
+Passed this stageStopped at the gateNever reached
 
 ## 1 · Your decision[](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/governing-customizations)
 
@@ -73,18 +105,18 @@ Your customization posture: how freely do members create and share skills, plugi
 
 There isn’t a single posture most companies share here; the posture tracks how your company already handles the tools its own people build. Three postures cover most cases:
 
-<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium"><strong>The choice</strong></th><th class="border-b border-strong p-sm text-left font-medium"><strong>When you’d choose it</strong></th><th class="border-b border-strong p-sm text-left font-medium"><strong>What it means and the impact it has</strong></th></tr></thead><tbody><tr><td class="border-b p-sm"><strong>Open build, reviewed spread</strong></td><td class="border-b p-sm">You want members to experiment and build freely, and you have a CoE or champions group that can vet what spreads beyond the builder.</td><td class="border-b p-sm">Anyone can build customizations for themselves, but promoting one to the whole organization goes through a review first. Members keep experimenting freely, and with organization-wide sharing left off, nothing spreads organization-wide unreviewed.<br/><strong>Settings</strong>: Skill sharing on, Share with organization off; reviewed skills go out by Owner provisioning.</td></tr><tr><td class="border-b p-sm"><strong>Centralized</strong></td><td class="border-b p-sm">A staffed central team already owns how the tools your people build get made and scaled, and you want Claude customizations to run through it.</td><td class="border-b p-sm">A staffed team builds and vets everything; members install from what is published to the organization. Everything in use meets your standards; the trade is slower spread.<br/><strong>Settings</strong>: Skill sharing and Share with organization off; Owner provisioning only.</td></tr><tr><td class="border-b p-sm"><strong>Fully open</strong></td><td class="border-b p-sm">A small or high-trust organization where members would sanity-check each other’s work anyway and formal review would only slow them down.</td><td class="border-b p-sm">Anyone builds, shares, and installs; vetting is social rather than procedural. Nothing gates the spread.<br/><strong>Settings</strong>: all sharing on.</td></tr></tbody></table>
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium"><strong>The choice</strong></th><th class="border-b border-strong p-sm text-left font-medium"><strong>When you’d choose it</strong></th><th class="border-b border-strong p-sm text-left font-medium"><strong>What it means and the impact it has</strong></th></tr></thead><tbody><tr><td class="border-b p-sm"><strong>Open build, reviewed spread</strong></td><td class="border-b p-sm">You want members to experiment and build freely, and you have a CoE or champions group that can vet what spreads beyond the builder.</td><td class="border-b p-sm">Anyone can build customizations for themselves, but promoting one to the whole organization goes through a review first. Members keep experimenting freely, and with Publishing set to Requires review, nothing a member submits reaches the organization library until a reviewer approves it.<br/><strong>Settings</strong>: Skill sharing on, Publishing set to Requires review.</td></tr><tr><td class="border-b p-sm"><strong>Centralized</strong></td><td class="border-b p-sm">A staffed central team already owns how the tools your people build get made and scaled, and you want Claude customizations to run through it.</td><td class="border-b p-sm">A staffed team builds and vets everything; members install from what is published to the organization. Everything in use meets your standards; the trade is slower spread.<br/><strong>Settings</strong>: Skill sharing off, Publishing set to Off; Owner provisioning only.</td></tr><tr><td class="border-b p-sm"><strong>Fully open</strong></td><td class="border-b p-sm">A small or high-trust organization where members would sanity-check each other’s work anyway and formal review would only slow them down.</td><td class="border-b p-sm">Anyone builds, shares, and installs; vetting is social rather than procedural. Nothing gates the spread.<br/><strong>Settings</strong>: all sharing on, Publishing set to Open.</td></tr></tbody></table>
 
 ## 3 · If you change this later[](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/governing-customizations)
 
-Posture toggles are freely reversible: change one and it applies from that point, with no undo work. The two directions aren’t equal, though. Loosening is free — allow more building and sharing, and members gain room. Tightening is the direction to be deliberate about: move to a stricter posture after members have built under a looser one, and the skills they already rely on stop spreading until each is reviewed under the new rule, so re-review the ones in heavy use first.
+Posture settings are freely reversible: change one and it applies from that point, with no undo work. The two directions aren’t equal, though. Loosening is free — allow more building and sharing, and members gain room. Tightening is the direction to be deliberate about: a stricter Publishing setting doesn’t remove anything already published, which stays in the organization library until an Owner removes it, so review the skills in heavy use against the new rule and remove any that don’t meet it.
 
 ## Set up resources[](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/governing-customizations)
 
 When you’ve made the call, the create-and-share settings, code execution, projects sharing, and organization instructions live in Organization settings.
 
 - **[What are skills?(opens in new tab)](https://support.claude.com/en/articles/12512176-what-are-skills)**: what a skill is and does from the member side, before you set the posture that governs them.
-- **[Provision and manage skills for your organization(opens in new tab)](https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization)**: creating, enabling, and governing skills, including the organization-wide toggles you turn on here.
+- **[Provision and manage skills for your organization(opens in new tab)](https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization)**: creating, enabling, and governing skills, including the organization-wide sharing and Publishing settings you set here.
 - **[What are projects?(opens in new tab)](https://support.claude.com/en/articles/9517075-what-are-projects)**: what a project is and holds, so you can decide how far it should share.
 - **[Manage project visibility and sharing(opens in new tab)](https://support.claude.com/en/articles/9519189-manage-project-visibility-and-sharing)**: the project-sharing settings that live in Organization settings.
 - **[Set organization instructions(opens in new tab)](https://support.claude.com/en/articles/14546867-set-organization-instructions)**: where the instructions live, who can set them, and the character limit.
@@ -123,3 +155,5 @@ Before you record a posture, check it against three questions you can already an
 ## What’s next[](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/governing-customizations)
 
 Members can now build and share within the bounds you set. The next module, Spend, turns to what that activity costs: where spend caps sit across your organization, and who owns each one when a member reaches it.
+
+Was this helpful?

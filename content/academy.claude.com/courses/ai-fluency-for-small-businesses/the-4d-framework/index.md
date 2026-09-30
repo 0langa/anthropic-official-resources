@@ -1,4 +1,4 @@
-Lesson 2 of 9 · AI Fluency for small businessesThe 4D Framework
+Lesson 2 of 8 · AI Fluency for small businessesThe 4D Framework
 
 # The 4D Framework
 

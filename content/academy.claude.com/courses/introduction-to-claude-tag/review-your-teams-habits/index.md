@@ -65,7 +65,7 @@ Answer with that one channel in mind. Each no shows one thing to try.
 
 - For anyone: [Tasks to try with Claude Tag in your workspace(opens in new tab)](https://academy.claude.com/tutorials/tasks-to-try-with-claude-tag-in-your-workspace), [Best practices for working with Claude Tag(opens in new tab)](https://academy.claude.com/tutorials/best-practices-using-claude-tag), and the [use cases by channel type(opens in new tab)](https://claude.com/docs/claude-tag/users/use-cases).
 - For your team lead: the [Building Effective Human-Agent Teams(opens in new tab)](https://academy.claude.com/courses/building-effective-human-agent-teams) course.
-- For whoever sets Claude Tag up for your channels: [customize Claude Tag for the workspace(opens in new tab)](https://claude.com/docs/claude-tag/admins/customize) and [connect your team's tools(opens in new tab)](https://claude.com/docs/claude-tag/admins/add-connections).
+- For whoever sets Claude Tag up for your channels: [customize Claude Tag for the workspace(opens in new tab)](https://academy.claude.com/tutorials/claude-tag-admin-guide) and [connect your team's tools(opens in new tab)](https://academy.claude.com/tutorials/claude-tag-admin-guide).
 
 ## Before you move on[](https://academy.claude.com/courses/introduction-to-claude-tag/review-your-teams-habits)
 

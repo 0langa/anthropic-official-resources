@@ -1,8 +1,8 @@
-Lesson 5 of 9 · AI Fluency for small businessesRefining with AI
+Lesson 4 of 8 · AI Fluency for small businessesRefining with AI
 
 # Refining with AI
 
-Lesson 530 min
+Lesson 430 min
 
 In this lessonBy the end, you’ll be able to
 

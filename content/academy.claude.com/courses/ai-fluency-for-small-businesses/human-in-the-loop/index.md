@@ -1,8 +1,8 @@
-Lesson 8 of 9 · AI Fluency for small businessesHuman in the loop
+Lesson 7 of 8 · AI Fluency for small businessesHuman in the loop
 
 # Human in the loop
 
-Lesson 815 min
+Lesson 715 min
 
 In this lessonBy the end, you’ll be able to
 

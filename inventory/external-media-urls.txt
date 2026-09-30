@@ -126,6 +126,7 @@ https://www.youtube-nocookie.com/embed/ZV3oKch1t_I
 https://www.youtube-nocookie.com/embed/Zq
 https://www.youtube-nocookie.com/embed/Zq_c7xMbxto?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 https://www.youtube-nocookie.com/embed/Zzn-g8lvLMA?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+https://www.youtube-nocookie.com/embed/_f_rtbW_uFM?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 https://www.youtube-nocookie.com/embed/_jjSS0qGFbI?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 https://www.youtube-nocookie.com/embed/arD6qEWa2Xc?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 https://www.youtube-nocookie.com/embed/b-ntWZqHF78?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
@@ -213,6 +214,7 @@ https://www.youtube-nocookie.com/embed/wXC2u36w2Rc
 https://www.youtube-nocookie.com/embed/wXC2u36w2Rc?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 https://www.youtube-nocookie.com/embed/wotzFHTKQ9Q?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 https://www.youtube-nocookie.com/embed/wrgLtG-IHKk?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+https://www.youtube-nocookie.com/embed/x80HVKbZrno?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 https://www.youtube-nocookie.com/embed/xBV60h9
 https://www.youtube-nocookie.com/embed/xBV60h9_lbw
 https://www.youtube-nocookie.com/embed/xBV60h9_lbw?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
@@ -466,6 +468,7 @@ https://www.youtube.com/watch?v=Z6UB6BEXJTs
 https://www.youtube.com/watch?v=Zq_c7xMbxto
 https://www.youtube.com/watch?v=Zzn-g8lvLMA
 https://www.youtube.com/watch?v=_IDbFLu9Ug8
+https://www.youtube.com/watch?v=_f_rtbW_uFM
 https://www.youtube.com/watch?v=_jjSS0qGFbI
 https://www.youtube.com/watch?v=arD6qEWa2Xc
 https://www.youtube.com/watch?v=b-ntWZqHF78
@@ -551,6 +554,7 @@ https://www.youtube.com/watch?v=vjXso6GR8Sk
 https://www.youtube.com/watch?v=wXC2u36w2Rc
 https://www.youtube.com/watch?v=wotzFHTKQ9Q
 https://www.youtube.com/watch?v=wrgLtG-IHKk
+https://www.youtube.com/watch?v=x80HVKbZrno
 https://www.youtube.com/watch?v=xBV60h9_lbw
 https://www.youtube.com/watch?v=xJQuF02NAK8
 https://www.youtube.com/watch?v=y5TmF_6o6xk&list=PLmWCw1CzcFim2obQ-w3ohbULOfwp5lApR&index=7

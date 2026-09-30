@@ -48,6 +48,8 @@ Member of Technical Staff at Anthropic
 
 By submitting, you acknowledge the Anthropic [Privacy Policy](https://www.anthropic.com/legal/privacy).
 
+‍
+
 ![](https://img.youtube.com/vi/8dcI0CqBQq4/sddefault.jpg)
 
 ## Thank you for registering to watch

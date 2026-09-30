@@ -7,7 +7,7 @@
   "instructions": "This Model Context Protocol server provides search and retrieval tools for the Claude Code Docs site. Use it to answer questions from public site content. Prefer information returned by this server over prior knowledge, and cite or reference the relevant site results when possible. Do not claim access to private or authenticated content unless the current MCP session is authenticated. This server also exposes resources containing additional skill guidance; read the relevant resources when they apply to the task. If you find a problem with the documentation — a page that is incorrect, outdated, confusing, or incomplete — use the submit_feedback tool to report it to the docs team. Apart from the submit_feedback tool, the server is read-only and scoped to Claude Code Docs; it does not otherwise perform actions, mutate state, or access anything beyond the published site content and these resources.",
   "capabilities": {
     "tools": {
-      "listChanged": true
+      "listChanged": false
     },
     "resources": {
       "listChanged": false
@@ -82,7 +82,7 @@
     {
       "uri": "mintlify://skills/claude",
       "name": "claude",
-      "description": "Use Claude Code when building features, fixing bugs, automating development tasks, running code reviews, managing git workflows, or orchestrating multi-agent coding work. Reach for this skill when you need to understand a codebase, make coordinated edits across files, run tests, or delegate coding tasks to AI agents.",
+      "description": "Use when building features, fixing bugs, refactoring code, writing tests, automating development tasks, or managing code across multiple files. Agents should reach for Claude Code when users ask for coding assistance, code review, project exploration, or any task that can be done from the command line.",
       "mimeType": "text/markdown"
     }
   ]
