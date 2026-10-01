@@ -22,7 +22,7 @@ To make Claude more useful for scientific work, we’re now adding several [new 
 
 ## Connecting Claude to scientific tools
 
-[**Connectors**](https://claude.ai/redirect/website.v1.f27bc843-c3b7-439e-8763-de684dc83309/settings/connectors) allow Claude to access other platforms and tools directly. We’re adding several new connectors that are designed to make it easier to use Claude for scientific discovery:
+[**Connectors**](https://claude.ai/redirect/website.v1.3a61e5dc-17d5-4551-a439-392979b92a17/settings/connectors) allow Claude to access other platforms and tools directly. We’re adding several new connectors that are designed to make it easier to use Claude for scientific discovery:
 
 - **Benchling** gives Claude the ability to respond to scientists’ questions with links back to source experiments, notebooks, and records;
 - **BioRender** connects Claude to its extensive library of vetted scientific figures, icons, and templates;
@@ -151,6 +151,12 @@ To learn more about Claude for Life Sciences or set up a demo with our team, see
 
 ## Related content
 
+### Barclays scales Claude to upgrade operations and improve client experience
+
+Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
+
+[Read more](https://www.anthropic.com/news/barclays-scales-claude)
+
 ### Claude discovers a novel enzyme system with CRISPR-like repeats
 
 We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
@@ -160,9 +166,3 @@ We’re announcing a new life sciences research group and laboratory at Anthropi
 ### Partnering with Accenture on embedded evaluation
 
 [Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)
-
-### Introducing the Life Sciences Verification Program
-
-The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
-
-[Read more](https://www.anthropic.com/news/life-sciences-verification-program)

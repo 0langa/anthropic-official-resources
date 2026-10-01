@@ -20,11 +20,11 @@ What makes this partnership distinctive is its approach. Teachers are positioned
 
 ## **What teachers are building**
 
-One teacher in Liberia, new to AI, attended the AI LCC's live trainings on AI fluency. Within weeks, he had built an [interactive climate education curriculum](https://claude.ai/redirect/website.v1.fa133d74-4c20-4f11-9f89-66b66d31008a/public/artifacts/5a020adb-ab65-4637-bcf0-79e6d20c58d2) for Liberian schools using Claude Artifacts: interactive tools like apps, games, or visualizations that Claude can build on the spot.
+One teacher in Liberia, new to AI, attended the AI LCC's live trainings on AI fluency. Within weeks, he had built an [interactive climate education curriculum](https://claude.ai/redirect/website.v1.b5f3d761-3556-4aac-8dbf-ded12657af28/public/artifacts/5a020adb-ab65-4637-bcf0-79e6d20c58d2) for Liberian schools using Claude Artifacts: interactive tools like apps, games, or visualizations that Claude can build on the spot.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8e2e99d8b3534d5e1c4dcc950b1b0e0bbcd768cd-1920x1080.png&w=3840&q=75)
 
-In Bangladesh, a teacher working with Grade 6 and 7 students—over half of whom struggled with basic numeracy—built a [gamified math learning app](https://claude.ai/redirect/website.v1.fa133d74-4c20-4f11-9f89-66b66d31008a/public/artifacts/e94bf439-b3a6-4087-87f2-dee5d8de99d8) complete with boss battles, a leaderboard, and XP rewards.
+In Bangladesh, a teacher working with Grade 6 and 7 students—over half of whom struggled with basic numeracy—built a [gamified math learning app](https://claude.ai/redirect/website.v1.b5f3d761-3556-4aac-8dbf-ded12657af28/public/artifacts/e94bf439-b3a6-4087-87f2-dee5d8de99d8) complete with boss battles, a leaderboard, and XP rewards.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8745b5fa855dfeca249bdd8b7696b5440da72ac7-1920x1080.png&w=3840&q=75)
 
@@ -58,6 +58,12 @@ For more on Anthropic's education initiatives, [see here](https://claude.com/sol
 
 ## Related content
 
+### Barclays scales Claude to upgrade operations and improve client experience
+
+Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
+
+[Read more](https://www.anthropic.com/news/barclays-scales-claude)
+
 ### Claude discovers a novel enzyme system with CRISPR-like repeats
 
 We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
@@ -67,9 +73,3 @@ We’re announcing a new life sciences research group and laboratory at Anthropi
 ### Partnering with Accenture on embedded evaluation
 
 [Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)
-
-### Introducing the Life Sciences Verification Program
-
-The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
-
-[Read more](https://www.anthropic.com/news/life-sciences-verification-program)

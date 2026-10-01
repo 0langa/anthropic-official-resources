@@ -40,7 +40,7 @@ To get up and running, system administrators specify which tools and information
 
 Once permissions are set, everyone can begin tagging right away. Administrators can set limits for token spend (both for the organization and for individual channels), and can view a log of everything that @Claude has done, along with who requested each task.
 
-If you’re a Claude Enterprise or Team customer, you have access to Claude Tag in beta starting today. To get started, [visit here](http://claude.ai/redirect/website.v1.a358a122-2bb7-495e-81d7-29535a121ead/admin-settings/claude-in-slack) and follow these four steps:
+If you’re a Claude Enterprise or Team customer, you have access to Claude Tag in beta starting today. To get started, [visit here](http://claude.ai/redirect/website.v1.43fd84f6-531b-440f-a7ba-f516fb8c045e/admin-settings/claude-in-slack) and follow these four steps:
 
 1. Pair Claude Tag with your Slack workspace
 2. Give Claude access to your tools
@@ -53,6 +53,12 @@ Claude Tag works with Opus 4.8. You can [read our docs](https://www.claude.com/d
 
 ## Related content
 
+### Barclays scales Claude to upgrade operations and improve client experience
+
+Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
+
+[Read more](https://www.anthropic.com/news/barclays-scales-claude)
+
 ### Claude discovers a novel enzyme system with CRISPR-like repeats
 
 We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
@@ -62,9 +68,3 @@ We’re announcing a new life sciences research group and laboratory at Anthropi
 ### Partnering with Accenture on embedded evaluation
 
 [Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)
-
-### Introducing the Life Sciences Verification Program
-
-The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
-
-[Read more](https://www.anthropic.com/news/life-sciences-verification-program)

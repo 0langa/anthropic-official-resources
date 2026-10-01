@@ -27,7 +27,7 @@ Learn how Warp devised a simple development pattern that anyone can use to crea
 
   Michael Segner
 
-*In our series, , we highlight how startups are transforming their industries with AI. In this article, we share how Warp turned stateless user feedback into a self-improvement loop for its agents.*
+*In our series, we highlight how startups are transforming their industries with AI. In this article, we share how Warp turned stateless user feedback into a self-improvement loop for its agents.*
 
 <table>
 <thead>

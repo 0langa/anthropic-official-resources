@@ -44,7 +44,7 @@ For example, if you wanted Claude to solve a logic puzzle, you could say:
 
 It’s helpful to give Claude realistic and specific examples of the inputs and ideal outputs you’re hoping to see. It’s useful to include challenging examples and edge cases to help Claude understand exactly what you’re looking for.
 
-For a simple example, consider how Claude can help with removing personally-identifiable information (PII) from information, using 2 examples to help Claude understand different ways that PII could present itself in a prompt. A simplified example using [claude.ai](https://claude.ai/redirect/website.v1.d0fc1bd9-24e8-4514-b8c5-d0108c8df91a) may look something like this:
+For a simple example, consider how Claude can help with removing personally-identifiable information (PII) from information, using 2 examples to help Claude understand different ways that PII could present itself in a prompt. A simplified example using [claude.ai](https://claude.ai/redirect/website.v1.031baa77-5f52-4fec-a820-707b09ad7771) may look something like this:
 
 *You are an expert redactor. I am going to provide you with some text. Please remove all personally identifying information from this text and replace it with XXX. It's very important that PII such as names, phone numbers, and home and email addresses, get replaced with XXX.*
 
@@ -144,6 +144,12 @@ To get started on optimizing Claude for your use case, read our [prompt engineer
 
 ## Related content
 
+### Barclays scales Claude to upgrade operations and improve client experience
+
+Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
+
+[Read more](https://www.anthropic.com/news/barclays-scales-claude)
+
 ### Claude discovers a novel enzyme system with CRISPR-like repeats
 
 We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
@@ -153,9 +159,3 @@ We’re announcing a new life sciences research group and laboratory at Anthropi
 ### Partnering with Accenture on embedded evaluation
 
 [Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)
-
-### Introducing the Life Sciences Verification Program
-
-The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
-
-[Read more](https://www.anthropic.com/news/life-sciences-verification-program)

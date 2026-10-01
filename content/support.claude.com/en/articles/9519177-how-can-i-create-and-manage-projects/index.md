@@ -104,15 +104,15 @@ Starring a project allows for quick access from your projects and chats list, vi
 
 You can move a standalone chat into a project by clicking on the dropdown arrow next to the chat name, then “Add to project”:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190248/0f19c8de18b494a27be252fdfaff/d4e7a5c5-25f5-4623-862b-c593d2dc0b39?expires=1790682300&amp;signature=2e59df68b3bbf4fe15f1b05cd71fa5c12d0b0a2325b32e14ab94a5300aa295d7&amp;req=dScvEsh3nYNbUfMW1HO4zQABaGFqQqIWBSXNVFXQ%2FVGaSbwbJySdo1r7Kkco%0ATlRv6vJJvuZAqZXHdfk%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190248/0f19c8de18b494a27be252fdfaff/d4e7a5c5-25f5-4623-862b-c593d2dc0b39?expires=1790942400&amp;signature=2c1b56748cea15244e48aab7a826a94e14afb0a0d97cfa09a77f180e487a37f1&amp;req=dScvEsh3nYNbUfMW3nq%2BgXuLDiqr6zw1XvsvfZakkxGoBQ5BshsUrfZUPXcn%0ALldsluJXHHDrUKJ9fmYumHrxdmk%3D%0A)
 
 Browse or search for the correct project in the **Move chat** modal that appears, then click on it to move the chat.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190951/34dc256ccd4c0cf74976f31062e6/55365cf2-059d-41b2-ac95-4b00c4389a76?expires=1790682300&amp;signature=573db6497246a83b2b48acba80e95ed07d7b0bd8e3637b611f97c3b17baa2f47&amp;req=dScvEsh3nYhaWPMW1HO4zSMECyC2wwsCgYbpTjViBxCrLC8KbirdZsdwUt9e%0Aeb9rjqcHRntxqBwbhcE%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190951/34dc256ccd4c0cf74976f31062e6/55365cf2-059d-41b2-ac95-4b00c4389a76?expires=1790942400&amp;signature=4d7e2a1b6cf43cbf3aecc8c4d046a2c56f8e10ebb72a7f375ddd4c61768db191&amp;req=dScvEsh3nYhaWPMW3nq%2BgaHJV1YEk4QY9y%2BLKq4iewoG8UDs74S%2Btff9aheA%0A61VuWAcPFFThKHgPM7HONJ2n%2FnQ%3D%0A)
 
 You can also remove chats from projects, or move them between projects, using the same dropdown menu within the chat:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185682/8625eac15b9fa452f148a6c47250/c53a1bc4-a991-4684-a789-5447ed789d35?expires=1790682300&amp;signature=59fee933b7164e2c6f9114ce654684c3a202aff3c903778c5311b78483cad49e&amp;req=dScvEsh2mIdXW%2FMW1HO4zb6DufcqBkcJS2r1%2FGRlqOTvQaNtyb7LFeRDhBR0%0ANoYU0vvBHUpt5s5rWAk%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185682/8625eac15b9fa452f148a6c47250/c53a1bc4-a991-4684-a789-5447ed789d35?expires=1790942400&amp;signature=d6a932431e31c09c7affa843ef1e6e1a11f9cf0545a209f2ccf02fa7066767cf&amp;req=dScvEsh2mIdXW%2FMW3nq%2BgcRackgj7VWrCI5gXkUx%2BGGb9C77zPcRsyzABUKv%0AMW4gcfH%2BMBdhhmnEyJDcLR%2B7b%2F4%3D%0A)
 
 ---
 
@@ -121,6 +121,8 @@ You can also remove chats from projects, or move them between projects, using th
 Memory is on by default for Free, Pro, and Max plans on the web, Claude Desktop, and Claude Mobile. On Team and Enterprise plans, memory is available when an owner has enabled it.
 
 For Team and Enterprise plans using Claude’s memory, the ability to move chats into and out of projects allows you to manage what’s included in Claude’s memory. Each project has its own memory, kept separate from your non-project chats. For example, if you accidentally start an unrelated chat in a project and need to remove it from the project-specific memory summary, you can click “Remove from project” so it will be included in Claude’s non-project memory instead.
+
+You can also turn memory off for a single chat, inside or outside a project, by turning off "Memory" in the "+" menu before you send your first message. A project chat started this way doesn't use or add to the project's memory.
 
 Refer to our article on chat search and memory for more information: **[What is Claude’s memory?](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context#h_82126ebcc9)**
 

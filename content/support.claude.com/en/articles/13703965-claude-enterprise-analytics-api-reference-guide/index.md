@@ -44,7 +44,7 @@ Email address of the user
 
 
 
-BetaAnalyticsUserActor object{ type: "user\_actor", deleted, email, 2 more }
+BetaAnalyticsUserActor object{ type: "user\_actor", deleted, email, 3 more }
 
 type: "user\_actor"
 
@@ -52,9 +52,9 @@ Actor type. Always `"user_actor"`.
 
 deleted: boolean
 
-True when the account has been deleted, or when the user is no longer a member of the organization or its associated organizations (for example, their membership was removed or they were deprovisioned via your identity provider). `email` stays populated for removed users and is null when the account has been deleted. `name` follows the rules described on that field. The `user_id` is still populated for reconciliation.
+True when the account has been deleted, or when the user is no longer a member of the organization or its associated organizations (for example, their membership was removed or they were deprovisioned via your identity provider). `email_address` stays populated for removed users and is null when the account has been deleted. `name` follows the rules described on that field. The `user_id` is still populated for reconciliation.
 
-email: string or null
+email\_address: string or null
 
 The user's email address, including for users who are no longer members of the organization or its associated organizations. Null when the account has been deleted (check `deleted`) and for system-minted service accounts, which have no person's mailbox behind them (check `name`).
 
@@ -65,6 +65,10 @@ The user's full name. Null when the user has not set a name. Returns `"Deleted U
 user\_id: string
 
 Tagged user ID.
+
+email: string or null⁠Deprecated
+
+Deprecated: use `email_address`, which carries the same value.
 
 
 

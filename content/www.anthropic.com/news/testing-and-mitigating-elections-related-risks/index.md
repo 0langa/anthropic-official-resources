@@ -73,7 +73,7 @@ The issues uncovered by PVT and automated testing directly shape our efforts to 
 - **Auditing platform use:** As a result of model testing, we have a more granular view into areas where we might need to reinforce our automated enforcement tools with manual audits of potentially violative model prompts. Users confirmed to be engaging in activity that violated our [Usage Policy](https://www.anthropic.com/legal/aup) were offboarded from all Claude services.
 - **Training our automated policy enforcement tooling:** Our automated enforcement tooling includes a fine-tuned version of Claude that evaluates model prompts and completions against our [Usage Policy](https://www.anthropic.com/legal/aup) in real-time. That evaluation then informs subsequent automated or manual enforcement actions.
 - **Updating our automated policy enforcement tooling:** As we refine our [Usage Policy](https://www.anthropic.com/legal/aup) based on insights from Policy Vulnerability Testing, we regularly retrain our automated enforcement tooling. This helps keep it aligned with our current policies, improving its ability to identify content that may violate our policies.
-- **Detecting and redirecting elections-related queries:** We also bolster our fine-tuning efforts to refer people to authoritative sources with our automated enforcement tooling. When our tooling detects that a user might be asking time-sensitive questions about elections on [claude.ai](http://claude.ai/redirect/website.v1.d38230f8-b3ca-4f3c-8d13-713223e8e925), we serve a pop-up banner offering to redirect US-based users to [TurboVote](https://anthropic.turbovote.org/) (a resource from the nonpartisan organization [Democracy Works](https://www.democracy.works/)), and EU-based voters to [instructions from the European Parliament](https://elections.europa.eu/en/).
+- **Detecting and redirecting elections-related queries:** We also bolster our fine-tuning efforts to refer people to authoritative sources with our automated enforcement tooling. When our tooling detects that a user might be asking time-sensitive questions about elections on [claude.ai](http://claude.ai/redirect/website.v1.160dba02-d1a0-49aa-b3ab-3520a46b67b3), we serve a pop-up banner offering to redirect US-based users to [TurboVote](https://anthropic.turbovote.org/) (a resource from the nonpartisan organization [Democracy Works](https://www.democracy.works/)), and EU-based voters to [instructions from the European Parliament](https://elections.europa.eu/en/).
 
 ## We also use these testing methods to measure the efficacy of our interventions
 
@@ -91,7 +91,7 @@ To evaluate whether this change had a positive effect, we used an automated eval
 
 ### Case Study #3: Fine-tuning intervention improves model suggestions to refer to authoritative sources
 
-The testing outlined above also informed our second priority mitigation: models should refer people to authoritative sources when asked about questions that may lead to outdated or inaccurate information. We did this both through model fine-tuning, as well as changes to our [claude.ai](http://claude.ai/redirect/website.v1.d38230f8-b3ca-4f3c-8d13-713223e8e925) user interface.
+The testing outlined above also informed our second priority mitigation: models should refer people to authoritative sources when asked about questions that may lead to outdated or inaccurate information. We did this both through model fine-tuning, as well as changes to our [claude.ai](http://claude.ai/redirect/website.v1.160dba02-d1a0-49aa-b3ab-3520a46b67b3) user interface.
 
 To evaluate the efficacy of our fine-tuning intervention, we compared a legacy version of our model that was not fine-tuned to refer people to reliable sources (Claude 2) and one that was (Claude 3 Opus). We did this using an automated evaluation for accuracy on EU election information, and also calculated how often the model referred people to reliable sources when appropriate. We find that the fine-tuning led to a 10.4% improvement in how often the model refers people to authoritative sources of information in questions where it is appropriate to do so.
 
@@ -110,6 +110,12 @@ This process provides us with a more comprehensive understanding of our models t
 
 ## Related content
 
+### Barclays scales Claude to upgrade operations and improve client experience
+
+Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
+
+[Read more](https://www.anthropic.com/news/barclays-scales-claude)
+
 ### Claude discovers a novel enzyme system with CRISPR-like repeats
 
 We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
@@ -119,9 +125,3 @@ We’re announcing a new life sciences research group and laboratory at Anthropi
 ### Partnering with Accenture on embedded evaluation
 
 [Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)
-
-### Introducing the Life Sciences Verification Program
-
-The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
-
-[Read more](https://www.anthropic.com/news/life-sciences-verification-program)

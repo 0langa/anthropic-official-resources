@@ -8,7 +8,7 @@ AllCoursesTutorialsUse cases
 
 ProductAll
 
-306 resources
+308 resources
 
 [## AI capabilities and limitations
 
@@ -42,7 +42,7 @@ Course·10 lessons · 1 quiz·3 hr](https://academy.claude.com/courses/ai-fluenc
 
 Helps small business owners and staff build practical AI collaboration skills using the 4D Framework: Delegation, Description, Discernment, and Diligence. Applies the framework to everyday business tasks like research, customer data, and operations while staying true to your mission and values.
 
-Course·9 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-for-small-businesses)[## AI Fluency for students
+Course·8 lessons · 1 quiz·3.5 hr](https://academy.claude.com/courses/ai-fluency-for-small-businesses)[## AI Fluency for students
 
 Helps students build AI fluency skills for learning, career planning, and academic success through responsible AI collaboration. Applies the 4D framework (delegation, description, discernment, diligence) to student life.
 
@@ -155,7 +155,7 @@ Helps pK-12 educators build practical AI fluency through the 4D Framework, suppo
 
 Helps small business owners and staff build practical AI collaboration skills using the 4D Framework: Delegation, Description, Discernment, and Diligence. Applies the framework to everyday business tasks like research, customer data, and operations while staying true to your mission and values.
 
-9 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-for-small-businesses)[## AI Fluency for students
+8 lessons · 1 quiz·3.5 hr](https://academy.claude.com/courses/ai-fluency-for-small-businesses)[## AI Fluency for students
 
 Helps students build AI fluency skills for learning, career planning, and academic success through responsible AI collaboration. Applies the 4D framework (delegation, description, discernment, diligence) to student life.
 
@@ -234,7 +234,7 @@ AllCoursesTutorialsUse cases
 
 ProductAll
 
-122 tutorials
+124 tutorials
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-blskv34c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bv9w6wt2.png)
 
@@ -330,7 +330,13 @@ A phased implementation framework to help nonprofit admins launch, scale, and su
 
 ## Claude for Teachers in action
 
-See an elementary school teacher use Claude for Teachers to reflect on each day's lesson and plan tomorrow's, on a schedule she sets.](https://academy.claude.com/tutorials/claude-for-teachers-in-action)[![](https://academy.claude.com/assets/v1/thumbnail.dark-hq618sar.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hq618sar.png)
+See an elementary school teacher use Claude for Teachers to reflect on each day's lesson and plan tomorrow's, on a schedule she sets.](https://academy.claude.com/tutorials/claude-for-teachers-in-action)[![](https://academy.claude.com/assets/v1/thumbnail.dark-b8qyl4x4.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-b8qyl4x4.png)
+
+## Claude for Word: Turn a draft into a finished document with Claude
+
+Claude for Word works with you directly in your document. This video shows how to take a rough draft and turn it into a polished, finished document without leaving Word.
+
+7 min](https://academy.claude.com/tutorials/claude-for-word-turn-a-draft-into-a-finished-document)[![](https://academy.claude.com/assets/v1/thumbnail.dark-hq618sar.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hq618sar.png)
 
 ## Claude Tag admin guide
 
@@ -372,13 +378,7 @@ The set up that makes Claude Cowork specific to your work or team.
 
 Claude Cowork lets you delegate complete, multi-step work. You can work alongside Claude when you want to provide input, or let tasks run on a schedule while you focus on other priorities. This video shows how to prepare for a major call by pulling context from your calendar, Slack, email, and past meeting notes. It also demonstrates how to set up recurring tasks that run automatically on your preferred schedule.
 
-4 min](https://academy.claude.com/tutorials/delegating-and-scheduling-tasks-in-claude-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-8vlsk4u2.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mc3bn43s.png)
-
-## Delegating your first task in Claude Cowork
-
-Claude Cowork lets you hand off complete tasks to Claude — working directly with files on your computer, your connected tools, and your browser. This video walks through the basics: setting up folder access and connectors, delegating your first task, and reviewing Claude's plan before it makes changes on your machine.
-
-4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)Load more
+4 min](https://academy.claude.com/tutorials/delegating-and-scheduling-tasks-in-claude-cowork)Load more
 
 
 ## Use cases

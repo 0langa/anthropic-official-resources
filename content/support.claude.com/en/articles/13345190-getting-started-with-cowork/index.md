@@ -22,6 +22,8 @@ On desktop, web, and mobile, chat and Cowork share one home, so you start both f
 
 If you have the new Claude experience, there's no "Cowork" option to select. Describe your task in any conversation, and Claude takes it from there. Learn more in **[Claude Cowork and chat are one Claude](https://support.claude.com/en/articles/16761823)**.
 
+**Heads-up for Pro and Max plans:** On October 6, 2026, new Cowork tasks run in the cloud and the **Only on your computer** option in **[Settings > General](https://claude.ai/settings/general)** will be removed. Tasks you already started on your computer stay there. Learn more in **[What's changing for Pro and Max plans on October 6](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile#h_f951c27c48)**.
+
 ---
 
 ## What is Claude Cowork?
@@ -52,7 +54,7 @@ For important limitations and considerations for Team and Enterprise organizatio
 
 - **Work that continues without you:** In sessions in the cloud, Claude keeps working when you close your laptop or step away.
 
-- **Shared memory with chat:** In sessions in the cloud, Claude starts from what it already remembers from your chats, and what comes up in a Cowork task carries back to chat. Learn more about **[Claude's memory](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context#h_82126ebcc9)**.
+- **Shared memory with chat:** In sessions in the cloud, Claude starts from what it already remembers from your chats, and what comes up in a Cowork task carries back to chat. To run a single task without memory, turn "Memory" off in the "+" menu before you send the first message. This is set when the task starts and can't be changed later. Learn more about **[Claude's memory](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context#h_82126ebcc9)**.
 
 - **Direct local file access:** On desktop, Claude can read from and write to your local files without manual uploads or downloads.
 
@@ -184,7 +186,7 @@ To set global instructions:
 
 3. Type your instructions in the text box and click "Save":
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1790684100&amp;signature=d44ed9c292c19103f20970422e3a08f226b4f48e91d1ac2ffc3af5b6be150f1c&amp;req=diUlE8B8m4lYXfMW1HO4zcDl69jqPlWx8iWjaktE941qSqyV%2FBGywxZ1dhec%0AohMCztxYsvW9XpybNeY%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1790942400&amp;signature=364cb9fa0e17e97260f2677c2e2703821bc6cf9a538867b2f6e3eedd3c3ae350&amp;req=diUlE8B8m4lYXfMW3nq%2BgcqgxG%2BC3L%2FYaVWMqW%2FkK1e9eXUvC8vcU%2F%2F8jHmA%0A6Q0ujbhKY%2BFFRfR5jbyoJIlonko%3D%0A)
 
 ### Folder instructions
 

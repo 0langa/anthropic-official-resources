@@ -16,13 +16,19 @@ By helping scientists access and increase their usage of Claude through subscrip
 
 ### **Ways to access Claude**
 
-To register for our Claude team plan for scientists, please [complete the verification form here](http://claude.ai/redirect/website.v1.d85a0c03-32a2-4950-9671-ab8d53a3f9da/labs-verification/attestation). You must be a principal investigator or equivalent at an academic or nonprofit research institution to qualify; once verified, you can add the researchers in your lab to your plan.
+To register for our Claude team plan for scientists, please [complete the verification form here](http://claude.ai/redirect/website.v1.872dc00a-d587-45c8-bd12-33cea1d3f183/labs-verification/attestation). You must be a principal investigator or equivalent at an academic or nonprofit research institution to qualify; once verified, you can add the researchers in your lab to your plan.
 
 As your lab makes use of your allotted credits and requires more usage than standard or premium plans provide, you can [apply to our AI for Science program](https://docs.google.com/forms/d/e/1FAIpQLSfwDGfVg2lHJ0cc0oF_ilEnjvr_r4_paYi7VLlr5cLNXASdvA/viewform?usp=dialog) for up to $50,000 in credits per project. Any researcher is eligible to apply.
 
 For now, researchers working in biology and chemistry will still be limited to our Opus-class models. Claude Fable models will [continue to block](https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards) professional biology and drug development queries because of their potential dual-use risks. We’re working in partnership with the US government to establish an access program for life sciences professionals to use Mythos-class models for life sciences research and development. We have now enrolled our first participants, and we expect to share more and increase access soon.
 
 ## Related content
+
+### Barclays scales Claude to upgrade operations and improve client experience
+
+Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
+
+[Read more](https://www.anthropic.com/news/barclays-scales-claude)
 
 ### Claude discovers a novel enzyme system with CRISPR-like repeats
 
@@ -33,9 +39,3 @@ We’re announcing a new life sciences research group and laboratory at Anthropi
 ### Partnering with Accenture on embedded evaluation
 
 [Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)
-
-### Introducing the Life Sciences Verification Program
-
-The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
-
-[Read more](https://www.anthropic.com/news/life-sciences-verification-program)

@@ -1,3 +1,2 @@
-https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude
-https://platform.claude.com/cookbook/name
-https://support.claude.com/en/articles/16975617-what-is-the-life-sciences-verification-program
+https://claude.com/blog/claude-for-government-is-now-generally-available
+https://platform.claude.com/docs/en/manage-claude/plugins-api

@@ -36,7 +36,7 @@ Helps pK-12 educators build practical AI fluency through the 4D Framework, suppo
 
 Helps small business owners and staff build practical AI collaboration skills using the 4D Framework: Delegation, Description, Discernment, and Diligence. Applies the framework to everyday business tasks like research, customer data, and operations while staying true to your mission and values.
 
-9 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-for-small-businesses)[## AI Fluency for students
+8 lessons · 1 quiz·3.5 hr](https://academy.claude.com/courses/ai-fluency-for-small-businesses)[## AI Fluency for students
 
 Helps students build AI fluency skills for learning, career planning, and academic success through responsible AI collaboration. Applies the 4D framework (delegation, description, discernment, diligence) to student life.
 

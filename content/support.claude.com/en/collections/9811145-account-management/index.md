@@ -1,6 +1,6 @@
 # Account management
 
-15 articles
+14 articles
 
 [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
 
@@ -27,7 +27,5 @@
 [Configuring session security settings](https://support.claude.com/en/articles/13163631-configuring-session-security-settings)
 
 [How to get support for Claude for Government](https://support.claude.com/en/articles/13047024-how-to-get-support-for-claude-for-government)
-
-[Public Sector FAQs](https://support.claude.com/en/articles/13756069-public-sector-faqs)
 
 [Claude 4 Invite Contest](https://support.claude.com/en/articles/11408405-claude-4-invite-contest)

@@ -2246,6 +2246,75 @@
   "https://platform.claude.com/docs/en/api/beta/organization/mcp_tunnels/tunnel_certificates/retrieve": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugin_marketplaces": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugin_marketplaces/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugin_marketplaces/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugin_marketplaces/update": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugin_marketplaces/validate_archive": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugin_marketplaces/validate_repository": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugins": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugins/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugins/delete": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugins/installation_settings": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugins/installation_settings/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugins/installation_settings/remove": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugins/installation_settings/set": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugins/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugins/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugins/shares": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugins/shares/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugins/update": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugins/versions": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugins/versions/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugins/versions/download": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugins/versions/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/plugins/versions/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/beta/organization/rate_limits": [
     "Native source; upstream MDX components retained."
   ],
@@ -4490,6 +4559,231 @@
   "https://platform.claude.com/docs/en/api/models/retrieve": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/organization": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/api_keys": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/api_keys/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/api_keys/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/api_keys/update": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/compliance_settings": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/compliance_settings/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/compliance_settings/update": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/external_keys": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/external_keys/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/external_keys/delete": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/external_keys/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/external_keys/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/external_keys/update": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/external_keys/validate": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/federation": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/federation/issuers": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/federation/issuers/archive": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/federation/issuers/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/federation/issuers/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/federation/issuers/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/federation/issuers/update": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/federation/rules": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/federation/rules/archive": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/federation/rules/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/federation/rules/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/federation/rules/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/federation/rules/update": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/federation/rules/workspaces": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/federation/rules/workspaces/add": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/federation/rules/workspaces/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/federation/rules/workspaces/remove": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/invites": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/invites/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/invites/delete": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/invites/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/invites/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/rate_limits": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/rate_limits/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/service_accounts": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/service_accounts/archive": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/service_accounts/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/service_accounts/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/service_accounts/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/service_accounts/update": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/service_accounts/workspaces": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/service_accounts/workspaces/add": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/service_accounts/workspaces/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/service_accounts/workspaces/remove": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/users": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/users/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/users/remove": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/users/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/users/update": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/archive": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/members": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/members/add": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/members/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/members/remove": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/members/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/members/update": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/rate_limits": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/rate_limits/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/service_accounts": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/service_accounts/add": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/service_accounts/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/service_accounts/remove": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/service_accounts/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/service_accounts/update": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/update": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/overview": [
     "Native source; upstream MDX components retained."
   ],
@@ -6590,6 +6884,9 @@
   "https://support.claude.com/en/articles/16975617": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/16975617-what-is-the-life-sciences-verification-program": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/16994751": [
     "Native source; upstream MDX components retained."
   ],
@@ -7043,6 +7340,7 @@
   ],
   "https://www.anthropic.com/news/anthropic-interviewer": [
     "Could not read tab 'Creatives': TimeoutError",
+    "Could not read tab 'Scientists': TimeoutError",
     "Could not read tab 'Computer & Math': TimeoutError",
     "Could not read tab 'Art, Design, & Media': TimeoutError",
     "Could not read tab 'Business & Financial': TimeoutError",
@@ -7231,12 +7529,15 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html"
   ],
   "https://www.anthropic.com/research/claude-fable-5-mythos-5": [
-    "Could not read tab 'VibeCAD': TimeoutError",
+    "Could not read tab 'Factorio': TimeoutError",
     "Could not read tab 'Fluid with Classical EDM': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-opus-5": [
-    "Could not read tab 'AA Coding Agent Index': TimeoutError",
+    "Could not read tab 'OSWorld 2.0': TimeoutError",
+    "Could not read tab 'HLE': TimeoutError",
+    "Could not read tab 'DeepSearchQA': TimeoutError",
+    "Could not read tab 'Cell artifact': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-personal-guidance": [
@@ -7309,6 +7610,9 @@
   ],
   "https://www.anthropic.com/research/team/frontier-red-team": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/research/what-work-can-robots-do": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/your-thoughts-on-ai": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",

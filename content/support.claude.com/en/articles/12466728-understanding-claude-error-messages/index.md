@@ -58,4 +58,4 @@ Capacity issues will not appear on our status page because they represent normal
 
 Service incidents are disruptions where Claude is unavailable or significantly degraded for all or most users. These represent actual technical problems with our systems. To check for confirmed incidents, visit status.claude.com, where you'll find real-time updates on scope, impact, and resolution progress for any active incidents.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1753796247/e6a8c6ef8653b229c5758e881242/c2fc6fc0-d163-4119-93e0-394104d86bc9?expires=1790683200&amp;signature=809e7c75e1e22b49d470cbba7bb48419132f8b68079a6095d0cc2484c4afde86&amp;req=dSciFc53m4NbXvMW1HO4za4BX68l2rHG7y68oYp%2BYg9VrxMtK%2BjBzZvmDSlP%0AwGPV6RF7ZSTiyUJjrys%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1753796247/e6a8c6ef8653b229c5758e881242/c2fc6fc0-d163-4119-93e0-394104d86bc9?expires=1790856000&amp;signature=b3b0a5c6a9759fa111666667a0ab8f4b32e48d641d3c93ad7b1dbf2f095a7995&amp;req=dSciFc53m4NbXvMW1HO4za4BX68r17TE7y68oYp%2BYg8dzCjagg%2Fhkd4SV4ay%0A%2F8jhZIf3OqYgU07nF7U%3D%0A)

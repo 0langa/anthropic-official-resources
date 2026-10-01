@@ -92,6 +92,12 @@ Governments should conduct safety testing on sufficiently capable AI models, inc
 
 ## Related content
 
+### What work can robots do?
+
+We built an index of how well today’s robots can perform US job tasks. Robots can already do three-quarters of physical tasks, mostly in limited settings, but are cost-competitive for just 0.3% of them.
+
+[Read more](https://www.anthropic.com/research/what-work-can-robots-do)
+
 ### What do you want from AI?
 
 We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI, and we invite you to participate.
@@ -103,12 +109,6 @@ We’re launching a new study using Anthropic Interviewer to learn from your exp
 Guest writer and physicist Matt von Hippel shares what happened when he issued a challenge to AI companies to solve a problem in his former subfield of theoretical physics.
 
 [Read more](https://www.anthropic.com/research/yes-claude-can-do-nine-loops)
-
-### Project Swap: What happens when agents trade for us?
-
-To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.
-
-[Read more](https://www.anthropic.com/research/project-swap)
 
 ## Subscribe to the Frontier Red Team newsletter
 
