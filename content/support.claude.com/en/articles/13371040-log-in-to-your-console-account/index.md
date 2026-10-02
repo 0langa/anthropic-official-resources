@@ -2,7 +2,7 @@
 
 When you navigate to the **[Claude Console](https://platform.claude.com)**, you will see two different options for logging in to your Console account.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1935026646/d90d1613a3dbe763fef5abb96e3c/image.png?expires=1790768700&amp;signature=336dba15930fb95b4fada35f619819e4639c8121d9460fa96093b7b4865ad0b8&amp;req=dSkkE8l8m4dbX%2FMW1HO4zcrI5onrpogK8vUNcPt4%2B71M%2B%2BhGgOm6DEOQvIA%2B%0AwCue%2F9w6NFELIRCd51Q%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1935026646/d90d1613a3dbe763fef5abb96e3c/image.png?expires=1790940600&amp;signature=b08084a308f5ef20df7053dfb7dd887c707497a2c3d8b32dea288579038a259f&amp;req=dSkkE8l8m4dbX%2FMW1HO4zcrI5onlpIAL8vUNcPt4%2B72Xu4Fls2yQFHeBfOE0%0ALxA%2BEtTFR%2BJnmFEZLFo%3D%0A)
 
 ## Continue with Google
 

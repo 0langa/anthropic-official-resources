@@ -1,6 +1,6 @@
 # Share artifacts
 
-Updated this week
+Updated over a week ago
 
 Copy for LLM
 

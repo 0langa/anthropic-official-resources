@@ -1,5 +1,7 @@
 # SSO login
 
+**Important:** All organizations will move to the updated Claude for Government (Desktop) offering by October 4, 2026. If your agency has already moved or you want to get started, see the **[Claude for Government administrator guide](https://claude.com/docs/government)** for current documentation.
+
 Claude for Government requires Single Sign-on (SSO) for user authentication. Unlike the commercial Claude Enterprise plan, email based (magic link) login is only available to the Primary Owner during account setup. All other users must authenticate through your organization's identity provider (IdP).
 
 Once SSO is configured, the Primary Owner can disable magic link login entirely so that all authentication flows through your IdP.
@@ -47,9 +49,9 @@ Before configuring your Identity Provider (IdP), you must verify ownership of yo
 
 3. Wait for the DNS propagation. Once the platform detects the record, the domain status will update to “**Verified**.”
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256015862/476131c3139aec4db01b96127544/10c7a165-8b26-4443-b064-9d659659c65e?expires=1790768700&amp;signature=6a71b10c677483ee58dfc4d711d7e8862e1ed97406c43ad9af43ff905bc98722&amp;req=diIiEMl%2FmIlZW%2FMW1HO4zdpfuSqPHFuI006zz1SmF9UA8n0%2BeKXYJQdG90LI%0AKey4XSr7G9Bfbq6Du7E%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256015862/476131c3139aec4db01b96127544/10c7a165-8b26-4443-b064-9d659659c65e?expires=1790942400&amp;signature=d752e3667e25b64169c6f13e2cf76ec64e30be5b1ffd30df63f925816243534f&amp;req=diIiEMl%2FmIlZW%2FMW3nq%2BgToDtH5Y3Zjyg1qzEyY0BJa5%2F0aoN6UB2diYXcUv%0Ays7gGDHvIucU%2FRkZz2cYjhuQbfI%3D%0A)
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256025910/a82e2de9382824fa9db7666f67c4/CleanShot%2B2026-04-09%2Bat%2B16_25_20-402x.png?expires=1790768700&amp;signature=19ea10db7ec651accc1033efdeccb9461659425a5cc3fc2a0670588849c68821&amp;req=diIiEMl8mIheWfMW1HO4zV%2BGnBk4RbdAx57dwYq5DdLfhEaP1%2FHvMzjOkSh7%0AU2ClQKPCCDj3isA%2BLOA%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256025910/a82e2de9382824fa9db7666f67c4/CleanShot%2B2026-04-09%2Bat%2B16_25_20-402x.png?expires=1790942400&amp;signature=678fa2897c39b9904dcbd20b7c3824c75ff41994127410626f0d6f93061bfaca&amp;req=diIiEMl8mIheWfMW3nq%2BgVuxYggzzGoIVxLtSToQd6GQjTDerTd2sDuiWrAJ%0ACAXSZ33rYndN8jd9EohiSxTl3Lg%3D%0A)
 
 **Important:** Each domain can only have one identity provider. If multiple organizations share a single login domain, IT administrators from both organizations will be able to modify login settings. Contact **[Anthropic Support](https://claude.fedstart.com/support)** for assistance with multi-organization setups. For more details about multi-organization setups, see our **[SCIM provisioning guide](https://support.claude.com/en/articles/14503643-set-up-scim-in-claude-for-government)**.
 
@@ -77,7 +79,7 @@ Once your SAML application is set up in your IdP, provide Anthropic with the det
 
 - Claims Information — Attribute mappings for user name and email.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256004522/a97b91092b393e93b2d7779f63e6/2db86a6d-1582-419e-925e-cbc914468fa1?expires=1790768700&amp;signature=0ffe1913f2a577d5589bce9b946b96d90cebec3807414c1a887cb87dca4088d5&amp;req=diIiEMl%2BmYRdW%2FMW1HO4zQE9J7ex%2FBz8bfNHh%2Fvd8OGm3RDjIlmZNDyPJRJd%0AqApryxRllaHYW6yyWoU%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256004522/a97b91092b393e93b2d7779f63e6/2db86a6d-1582-419e-925e-cbc914468fa1?expires=1790942400&amp;signature=0f0ff5525d0973e81a142246acfd770a86235f1f52a99331f6f84dad12923a23&amp;req=diIiEMl%2BmYRdW%2FMW3nq%2BgVpSRBqPN0OoNa5LL2ZxpAl8eOWrLHkB7HRcEH7%2B%0Afz5n6%2F7SDbtLPJzAvXHP%2Fy9lfug%3D%0A)
 
 **Tip:** Using a metadata XML file: Most IdPs let you download a metadata.xml file. Upload it on the identity settings page to auto-fill the Signing Certificate, IdP Entity ID, and SSO URL. Some IdPs (like Entra ID) also include claims information in the metadata file; if present, the system will suggest field mappings automatically.
 

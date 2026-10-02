@@ -1,2 +1,1 @@
-https://claude.com/blog/claude-for-government-is-now-generally-available
-https://platform.claude.com/docs/en/manage-claude/plugins-api
+https://claude.com/blog/claude-code-mods

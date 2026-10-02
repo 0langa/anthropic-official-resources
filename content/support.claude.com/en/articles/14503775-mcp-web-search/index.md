@@ -1,10 +1,12 @@
 # MCP: Web Search
 
+**Important:** All organizations will move to the updated Claude for Government (Desktop) offering by October 4, 2026. If your agency has already moved or you want to get started, see the **[Claude for Government administrator guide](https://claude.com/docs/government)** for current documentation.
+
 The Web Search connector gives Claude the ability to search the public internet for real-time information, including verifying facts, pulling recent news, and researching topics outside its training data.
 
 For questions about web search in commercial Claude, see **[Enabling and using web search](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search)**.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256120763/7652c6c669446113eae75f3c5977/9c74d57e-aaa2-4f1c-bfe4-2b9b87fd41ab?expires=1790768700&amp;signature=6ca1d56811a300028766bbe786e105ec121e4ce67bd8629a90d1b51ffa47441f&amp;req=diIiEMh8nYZZWvMW1HO4zQvFLbJUi8z%2FM%2Fw5SJgC29FpxCk0v7vDGNMd1i7z%0AvCjD5APgMEdNy8d4D10%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2256120763/7652c6c669446113eae75f3c5977/9c74d57e-aaa2-4f1c-bfe4-2b9b87fd41ab?expires=1790942400&amp;signature=39255f5bcdfd7ff61ed25c441b869395c994e63c7812afad533184cbbcad5bd2&amp;req=diIiEMh8nYZZWvMW3nq%2BgXeaYHxIYiPhSHOISj51v3xme5BrP38YWaOJM7sC%0AOc2dUYg1Sualkq7n6jhBQGWWCJY%3D%0A)
 
 ## How Web Search differs for Claude for Government
 

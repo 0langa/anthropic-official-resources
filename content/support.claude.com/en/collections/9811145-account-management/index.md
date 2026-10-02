@@ -1,6 +1,6 @@
 # Account management
 
-14 articles
+15 articles
 
 [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
 
@@ -29,3 +29,5 @@
 [How to get support for Claude for Government](https://support.claude.com/en/articles/13047024-how-to-get-support-for-claude-for-government)
 
 [Claude 4 Invite Contest](https://support.claude.com/en/articles/11408405-claude-4-invite-contest)
+
+[Artifact usage promotion](https://support.claude.com/en/articles/17274727-artifact-usage-promotion)
