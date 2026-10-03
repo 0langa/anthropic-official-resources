@@ -16,13 +16,13 @@ In the Anthropic Economic Index Survey, we aim to capture a rich new corpus of q
 
 Collecting these data monthly will enable measurement of not just what people experience and expect, but how quickly their views shift as AI capabilities evolve. Combined with Claude usage data in a [privacy-preserving way](https://www.anthropic.com/research/clio), these first-hand accounts can surface change before it shows up in aggregate labor market data.
 
-The survey launches today. Each month, we will invite a small, randomly selected group of Claude users: anyone with a personal account at least two weeks old may be invited. We will rotate the sample each month so that we hear from as broad a range of people as possible over time. If you’re invited, you’ll see a banner on [claude.ai](http://claude.ai/redirect/website.v1.ffabd2d0-1402-4750-bad1-2e8a8a33df6b), or get an email if you use Claude primarily on mobile. We’d love you to take part. We plan to publish insights in future Anthropic Economic Index reports and other research briefs. For more information, see the FAQ below.
+The survey launches today. Each month, we will invite a small, randomly selected group of Claude users: anyone with a personal account at least two weeks old may be invited. We will rotate the sample each month so that we hear from as broad a range of people as possible over time. If you’re invited, you’ll see a banner on [claude.ai](http://claude.ai/redirect/website.v1.c954f950-71dc-44eb-948e-32db06d1c1b6), or get an email if you use Claude primarily on mobile. We’d love you to take part. We plan to publish insights in future Anthropic Economic Index reports and other research briefs. For more information, see the FAQ below.
 
 ## Frequently asked questions
 
 **How do I access the study?**
 
-From today, a small random sample of Claude users with accounts at least two weeks old will see an invitation in [claude.ai](http://claude.ai/redirect/website.v1.ffabd2d0-1402-4750-bad1-2e8a8a33df6b), the Cowork desktop app, or an email if you use Claude only on mobile. We invite a new set of Claude users each month, so if you’re not selected this time, keep an eye out.
+From today, a small random sample of Claude users with accounts at least two weeks old will see an invitation in [claude.ai](http://claude.ai/redirect/website.v1.c954f950-71dc-44eb-948e-32db06d1c1b6), the Cowork desktop app, or an email if you use Claude only on mobile. We invite a new set of Claude users each month, so if you’re not selected this time, keep an eye out.
 
 **What will the study ask me?**
 
@@ -36,6 +36,12 @@ We will analyze the insights from this study as part of our economic research, p
 
 ## Related content
 
+### Claude-shaped science
+
+Guest author Prof. Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems: ones best suited to the capabilities of the current generation of LLM tools. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.
+
+[Read more](https://www.anthropic.com/research/claude-shaped-science)
+
 ### What work can robots do?
 
 We built an index of how well today’s robots can perform US job tasks. Robots can already do three-quarters of physical tasks, mostly in limited settings, but are cost-competitive for just 0.3% of them.
@@ -47,9 +53,3 @@ We built an index of how well today’s robots can perform US job tasks. Robots 
 We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI, and we invite you to participate.
 
 [Read more](https://www.anthropic.com/research/your-thoughts-on-ai)
-
-### GLM-5.3 and the spread of advanced cyber capabilities
-
-Like Claude Mythos Preview, GLM-5.3 has strong capabilities for autonomously building end-to-end cyber exploits. But GLM-5.3 is unlike other frontier models in that it has been released without meaningful safeguards to limit misuse.
-
-[Read more](https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities)

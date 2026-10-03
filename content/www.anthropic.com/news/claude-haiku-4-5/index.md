@@ -12,7 +12,7 @@ What was recently at the frontier is now cheaper and faster. Five months ago, Cl
 
 ![Chart comparing frontier models on SWE-bench Verified which measures performance on real-world coding tasks](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1a27d7a85f953c5a0577dc19b507d6e1b93444d5-1920x1080.png&w=3840&q=75)
 
-Claude Haiku 4.5 even surpasses Claude Sonnet 4 at certain tasks, like using computers. These advances make applications like [Claude for Chrome](http://claude.ai/redirect/website.v1.b8a6ca33-a928-4ae2-99a0-77f143b45bc3/chrome) faster and more useful than ever before.
+Claude Haiku 4.5 even surpasses Claude Sonnet 4 at certain tasks, like using computers. These advances make applications like [Claude for Chrome](http://claude.ai/redirect/website.v1.7a21d37f-c8d1-4407-ac2c-4e0836d33fd9/chrome) faster and more useful than ever before.
 
 Users who rely on AI for real-time, low-latency tasks like chat assistants, customer service agents, or pair programming will appreciate Haiku 4.5’s combination of high intelligence and remarkable speed. And users of Claude Code will find that Haiku 4.5 makes the coding experience—from multiple-agent projects to rapid prototyping—markedly more responsive.
 
@@ -89,6 +89,12 @@ All OpenAI scores reported from their [GPT-5 post](https://openai.com/index/intr
 
 ## Related content
 
+### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
+
+Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
+
+[Read more](https://www.anthropic.com/news/claude-frontier-academy)
+
 ### Barclays scales Claude to upgrade operations and improve client experience
 
 Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
@@ -100,7 +106,3 @@ Barclays, the British universal bank, is expanding its strategic collaboration w
 We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
 
 [Read more](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
-
-### Partnering with Accenture on embedded evaluation
-
-[Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)

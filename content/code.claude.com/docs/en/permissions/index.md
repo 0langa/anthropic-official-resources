@@ -17,6 +17,16 @@ Claude Code uses a tiered permission system to balance power and safety. The tab
 | Web fetch | WebFetch | Yes, except a built-in set of [preapproved documentation domains](/docs/en/tools-reference#webfetch-tool-behavior) | Permanently per repository and domain |
 | Web search | WebSearch | Yes | Permanently per repository |
 
+A permission prompt shows what Claude is about to do, followed by your options. This example is the prompt for a Bash command, from a session in Manual mode:
+
+<Frame>
+  <img alt="A Claude Code permission prompt titled Bash command. Under a tip about auto mode, it shows the description 'Run the test suite', the command npm test, and the line 'This command requires approval', then asks 'Do you want to proceed?' with four options: Yes; Yes, and don't ask again for: npm test *; Yes, and switch to auto mode; and No. A footer lists two keys: Esc to cancel and Tab to amend." />
+
+  <img alt="A Claude Code permission prompt titled Bash command. Under a tip about auto mode, it shows the description 'Run the test suite', the command npm test, and the line 'This command requires approval', then asks 'Do you want to proceed?' with four options: Yes; Yes, and don't ask again for: npm test *; Yes, and switch to auto mode; and No. A footer lists two keys: Esc to cancel and Tab to amend." />
+</Frame>
+
+The third option, **Yes, and switch to auto mode**, [doesn't appear on every prompt](/docs/en/permission-modes#switch-permission-modes).
+
 When you choose "Yes, and don't ask again" and the approval saves permanently, such as for a Bash command or a WebFetch domain, Claude Code saves the rule to `.claude/settings.local.json` at the root of the git repository, resolved through [worktrees](/docs/en/worktrees) to the main checkout. The rule applies to future sessions anywhere in that repository, including sessions started in subdirectories and in worktrees. A file-modification approval isn't saved to the file: as the table shows, it lasts until the session ends. In some cases, such as outside a git repository or on Windows, Claude Code doesn't use the repository root; [Where Claude Code looks for each file](/docs/en/settings#where-claude-code-looks-for-each-file) lists those cases and where it saves the rule instead.
 
 Before v2.1.211, Claude Code always saved the rule in the starting directory, so an approval granted in a worktree or subdirectory didn't apply to the rest of the repository. Rules that earlier versions saved in a subdirectory or worktree still apply to sessions started there.

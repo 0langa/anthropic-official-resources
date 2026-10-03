@@ -26,7 +26,7 @@ Claude for Excel is now in beta as a research preview for Max, Enterprise, and T
 
 ## Connecting Claude to live information
 
-[**Connectors**](https://claude.ai/redirect/website.v1.fa735f72-a07d-4ddd-8222-23c07d7c3d5c/settings/connectors) provide Claude with direct access to external tools and platforms. [In July](https://www.anthropic.com/news/claude-for-financial-services), we added connectors for S&P Capital IQ, Daloopa, Morningstar, and PitchBook. We’re adding new connectors that give Claude immediate access to more information in real time:
+[**Connectors**](https://claude.ai/redirect/website.v1.782e1faf-1560-46e0-bf96-55b1c6681386/settings/connectors) provide Claude with direct access to external tools and platforms. [In July](https://www.anthropic.com/news/claude-for-financial-services), we added connectors for S&P Capital IQ, Daloopa, Morningstar, and PitchBook. We’re adding new connectors that give Claude immediate access to more information in real time:
 
 - **Aiera** provides Claude with real-time earnings call transcripts and summaries of investor events, like shareholder meetings, presentations, and conferences;
 - Aiera’s connector also enables a data feed from **Third Bridge**, which gives Claude access to a library of insights interviews, company intelligence, and industry analysis from experts and former executives;
@@ -40,7 +40,7 @@ For details on MCP connector setup and prompting guidance to maximize the benefi
 
 ## New Agent Skills for finance tasks
 
-Earlier this month, we introduced [Agent Skills](https://www.anthropic.com/news/skills). Skills are folders that include instructions, scripts, and resources that Claude can use to perform given tasks. Skills work across all Claude apps, including [Claude.ai](http://claude.ai/redirect/website.v1.fa735f72-a07d-4ddd-8222-23c07d7c3d5c), Claude Code, and our API. To make Claude better at financial services tasks, we’ve added 6 new skills:
+Earlier this month, we introduced [Agent Skills](https://www.anthropic.com/news/skills). Skills are folders that include instructions, scripts, and resources that Claude can use to perform given tasks. Skills work across all Claude apps, including [Claude.ai](http://claude.ai/redirect/website.v1.782e1faf-1560-46e0-bf96-55b1c6681386), Claude Code, and our API. To make Claude better at financial services tasks, we’ve added 6 new skills:
 
 - **Comparable company analysis**, with valuation multiples and operating metrics, which can be easily refreshed with updated data;
 - **Discounted cash flow models**, including full free cash flow projections, WACC calculations, scenario toggles, and sensitivity tables;
@@ -113,6 +113,12 @@ To learn more about using Claude for Financial Services, [see here](https://clau
 
 ## Related content
 
+### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
+
+Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
+
+[Read more](https://www.anthropic.com/news/claude-frontier-academy)
+
 ### Barclays scales Claude to upgrade operations and improve client experience
 
 Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
@@ -124,7 +130,3 @@ Barclays, the British universal bank, is expanding its strategic collaboration w
 We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
 
 [Read more](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
-
-### Partnering with Accenture on embedded evaluation
-
-[Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)

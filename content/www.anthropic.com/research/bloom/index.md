@@ -39,7 +39,7 @@ Unlike fixed evaluation sets, Bloom produces different scenarios on each run whi
 
 Researchers can extensively configure Bloom's behavior, through choosing models for each stage, adjusting the interactions’ length and modality (i.e., whether to expose tools to the target model, whether to simulate a user), controlling how diverse the evaluation scenarios are, and specifying secondary scoring dimensions, like realism or elicitation difficulty.
 
-**Example outputs from all four stages of the Bloom evaluation pipeline can be viewed [here.](https://claude.ai/redirect/website.v1.c94aa0c5-7b77-48b8-971e-a04fcadd1660/public/artifacts/cbfddf51-ab0d-45a9-913b-163ae2dd4126)**
+**Example outputs from all four stages of the Bloom evaluation pipeline can be viewed [here.](https://claude.ai/redirect/website.v1.782e1faf-1560-46e0-bf96-55b1c6681386/public/artifacts/cbfddf51-ab0d-45a9-913b-163ae2dd4126)**
 
 ## Validation and trust
 
@@ -92,6 +92,12 @@ Copy
 
 ## Related content
 
+### Claude-shaped science
+
+Guest author Prof. Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems: ones best suited to the capabilities of the current generation of LLM tools. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.
+
+[Read more](https://www.anthropic.com/research/claude-shaped-science)
+
 ### What work can robots do?
 
 We built an index of how well today’s robots can perform US job tasks. Robots can already do three-quarters of physical tasks, mostly in limited settings, but are cost-competitive for just 0.3% of them.
@@ -103,9 +109,3 @@ We built an index of how well today’s robots can perform US job tasks. Robots 
 We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI, and we invite you to participate.
 
 [Read more](https://www.anthropic.com/research/your-thoughts-on-ai)
-
-### GLM-5.3 and the spread of advanced cyber capabilities
-
-Like Claude Mythos Preview, GLM-5.3 has strong capabilities for autonomously building end-to-end cyber exploits. But GLM-5.3 is unlike other frontier models in that it has been released without meaningful safeguards to limit misuse.
-
-[Read more](https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities)

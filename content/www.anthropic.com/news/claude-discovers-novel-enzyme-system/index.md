@@ -62,6 +62,12 @@ We hope this work demonstrates the value of AI-driven hypothesis generation to t
 
 ## Related content
 
+### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
+
+Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
+
+[Read more](https://www.anthropic.com/news/claude-frontier-academy)
+
 ### Barclays scales Claude to upgrade operations and improve client experience
 
 Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
@@ -71,12 +77,6 @@ Barclays, the British universal bank, is expanding its strategic collaboration w
 ### Partnering with Accenture on embedded evaluation
 
 [Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)
-
-### Introducing the Life Sciences Verification Program
-
-The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
-
-[Read more](https://www.anthropic.com/news/life-sciences-verification-program)
 
 ## Subscribe to Anthropic Science
 

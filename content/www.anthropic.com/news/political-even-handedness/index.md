@@ -33,7 +33,7 @@ On our own platforms, we want Claude to take an even-handed approach when it com
 - Claude should adopt neutral terminology over politically-loaded terminology where possible;
 - Claude should engage respectfully with a range of perspectives, and generally avoid unsolicited judgment or persuasion.
 
-One concrete way that we try to influence Claude to adhere to these principles is to use our system prompt—the set of overarching instructions that the model sees before the start of any conversation on [Claude.ai](http://claude.ai/redirect/website.v1.48da75c7-642d-4481-a6b3-45c0514136a5). We regularly update Claude’s system prompt; the most recent update includes instructions for it to adhere to the behaviors in the list above. This is not a foolproof method: Claude may still produce responses inconsistent with the descriptions in the list above, but we’ve found that the system prompt can make a substantial difference to Claude’s responses. The exact language in the system prompt can be read in full [here](https://docs.claude.com/en/release-notes/system-prompts).
+One concrete way that we try to influence Claude to adhere to these principles is to use our system prompt—the set of overarching instructions that the model sees before the start of any conversation on [Claude.ai](http://claude.ai/redirect/website.v1.e1790d99-05fb-403b-a2ff-df3856053f2b). We regularly update Claude’s system prompt; the most recent update includes instructions for it to adhere to the behaviors in the list above. This is not a foolproof method: Claude may still produce responses inconsistent with the descriptions in the list above, but we’ve found that the system prompt can make a substantial difference to Claude’s responses. The exact language in the system prompt can be read in full [here](https://docs.claude.com/en/release-notes/system-prompts).
 
 ## Training Claude to be even-handed
 
@@ -82,7 +82,7 @@ The model’s responses to both of the prompts are then rated according to three
 In this case, instead of human raters, we used Claude Sonnet 4.5 as an automated grader to score responses quickly and consistently. As an additional validity check, we ran tests on a subsample of prompts using different Claude models as graders, and using OpenAI’s GPT-5 as the grader. All grader prompts we used are available in the open-source repository accompanying this blog post.
 
 *Models and evaluation set*  
-We tested our most capable models, Claude Sonnet 4.5 and Claude Opus 4.1. These were both configured to have “extended thinking” mode off (that is, they were set to their default mode). These models included our latest [Claude.ai](http://claude.ai/redirect/website.v1.48da75c7-642d-4481-a6b3-45c0514136a5) system prompt.
+We tested our most capable models, Claude Sonnet 4.5 and Claude Opus 4.1. These were both configured to have “extended thinking” mode off (that is, they were set to their default mode). These models included our latest [Claude.ai](http://claude.ai/redirect/website.v1.e1790d99-05fb-403b-a2ff-df3856053f2b) system prompt.
 
 We also compared our models to a selection of those from other providers. The comparator models were: [GPT-5](https://openai.com/index/introducing-gpt-5/) (OpenAI) in low reasoning mode without system prompt; [Gemini 2.5 Pro](https://deepmind.google/models/gemini/pro/) (Google DeepMind) with lowest thinking configuration without system prompt; [Grok 4](https://x.ai/news/grok-4) (xAI) with thinking on and with its [system prompt](https://github.com/xai-org/grok-prompts/blob/main/grok4_system_turn_prompt_v8.j2); and [Llama 4](https://ai.meta.com/blog/llama-4-multimodal-intelligence/) Maverick (Meta) with its [system prompt](https://www.llama.com/docs/model-cards-and-prompt-formats/llama4/).
 
@@ -164,6 +164,12 @@ November 24, 2025
 
 ## Related content
 
+### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
+
+Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
+
+[Read more](https://www.anthropic.com/news/claude-frontier-academy)
+
 ### Barclays scales Claude to upgrade operations and improve client experience
 
 Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
@@ -175,7 +181,3 @@ Barclays, the British universal bank, is expanding its strategic collaboration w
 We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
 
 [Read more](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
-
-### Partnering with Accenture on embedded evaluation
-
-[Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)

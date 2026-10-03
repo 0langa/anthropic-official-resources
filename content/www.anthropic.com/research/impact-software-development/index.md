@@ -10,7 +10,7 @@ Jobs that involve computer programming are a small sector of the modern economy,
 
 In our [previous Economic Index research](https://www.anthropic.com/news/the-anthropic-economic-index), we found very disproportionate use of Claude by US workers in computer-related occupations: that is, there were many more conversations with Claude about computer-related tasks than one would predict from the number of people working in relevant jobs. It’s the same in [the educational context](https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude): Computer Science degrees—which involve large amounts of coding—show highly disproportionate AI use.
 
-To understand these changes in more detail, we conducted an analysis of 500,000 coding-related interactions across [Claude.ai](http://claude.ai/redirect/website.v1.cb97a6d6-99e1-4875-bba1-a15af7836043) (the “default” way that most people interact with Claude) and [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) (our new specialist coding “agent” that can independently accomplish chains of complex tasks using a variety of digital tools).
+To understand these changes in more detail, we conducted an analysis of 500,000 coding-related interactions across [Claude.ai](http://claude.ai/redirect/website.v1.cea5d71a-9251-4b35-b18d-0563afc39fa9) (the “default” way that most people interact with Claude) and [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) (our new specialist coding “agent” that can independently accomplish chains of complex tasks using a variety of digital tools).
 
 We found three key patterns:
 
@@ -116,6 +116,12 @@ Compared to use cases that don’t involve software, software development is mor
 
 ## Related content
 
+### Claude-shaped science
+
+Guest author Prof. Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems: ones best suited to the capabilities of the current generation of LLM tools. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.
+
+[Read more](https://www.anthropic.com/research/claude-shaped-science)
+
 ### What work can robots do?
 
 We built an index of how well today’s robots can perform US job tasks. Robots can already do three-quarters of physical tasks, mostly in limited settings, but are cost-competitive for just 0.3% of them.
@@ -127,9 +133,3 @@ We built an index of how well today’s robots can perform US job tasks. Robots 
 We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI, and we invite you to participate.
 
 [Read more](https://www.anthropic.com/research/your-thoughts-on-ai)
-
-### GLM-5.3 and the spread of advanced cyber capabilities
-
-Like Claude Mythos Preview, GLM-5.3 has strong capabilities for autonomously building end-to-end cyber exploits. But GLM-5.3 is unlike other frontier models in that it has been released without meaningful safeguards to limit misuse.
-
-[Read more](https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities)

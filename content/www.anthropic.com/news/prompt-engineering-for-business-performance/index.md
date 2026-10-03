@@ -44,7 +44,7 @@ For example, if you wanted Claude to solve a logic puzzle, you could say:
 
 It’s helpful to give Claude realistic and specific examples of the inputs and ideal outputs you’re hoping to see. It’s useful to include challenging examples and edge cases to help Claude understand exactly what you’re looking for.
 
-For a simple example, consider how Claude can help with removing personally-identifiable information (PII) from information, using 2 examples to help Claude understand different ways that PII could present itself in a prompt. A simplified example using [claude.ai](https://claude.ai/redirect/website.v1.dcd1f34a-ab67-4705-9531-1af7a6aa4f6a) may look something like this:
+For a simple example, consider how Claude can help with removing personally-identifiable information (PII) from information, using 2 examples to help Claude understand different ways that PII could present itself in a prompt. A simplified example using [claude.ai](https://claude.ai/redirect/website.v1.cea5d71a-9251-4b35-b18d-0563afc39fa9) may look something like this:
 
 *You are an expert redactor. I am going to provide you with some text. Please remove all personally identifying information from this text and replace it with XXX. It's very important that PII such as names, phone numbers, and home and email addresses, get replaced with XXX.*
 
@@ -144,6 +144,12 @@ To get started on optimizing Claude for your use case, read our [prompt engineer
 
 ## Related content
 
+### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
+
+Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
+
+[Read more](https://www.anthropic.com/news/claude-frontier-academy)
+
 ### Barclays scales Claude to upgrade operations and improve client experience
 
 Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
@@ -155,7 +161,3 @@ Barclays, the British universal bank, is expanding its strategic collaboration w
 We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
 
 [Read more](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
-
-### Partnering with Accenture on embedded evaluation
-
-[Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)

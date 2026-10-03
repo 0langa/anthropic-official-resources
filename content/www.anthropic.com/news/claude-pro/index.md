@@ -8,11 +8,11 @@ Sep 7, 2023
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2504af2b3cd3b1d254bb0fff79d8eefb0db037c7-2880x1620.jpg&w=3840&q=75)
 
-Today, we’re introducing a paid plan for our [Claude.ai](https://claude.ai/redirect/website.v1.887d11f5-5da4-4cd7-992e-be241aa4f498) chat experience, currently available in the US and UK.  
+Today, we’re introducing a paid plan for our [Claude.ai](https://claude.ai/redirect/website.v1.5be353b8-bdbc-4203-9705-8a863218147d) chat experience, currently available in the US and UK.  
   
 Since launching in July, users tell us they’ve chosen Claude.ai as their day-to-day AI assistant for its longer context windows, faster outputs, complex reasoning capabilities, and more. Many also shared that they would value more file uploads and conversations over longer periods.  
   
-With [Claude Pro](https://claude.ai/redirect/website.v1.887d11f5-5da4-4cd7-992e-be241aa4f498/settings/billing?action=subscribe), subscribers can now gain **5x more usage** of our latest model, Claude 2, for a monthly price of $20 (US) or £18 (UK).  
+With [Claude Pro](https://claude.ai/redirect/website.v1.5be353b8-bdbc-4203-9705-8a863218147d/settings/billing?action=subscribe), subscribers can now gain **5x more usage** of our latest model, Claude 2, for a monthly price of $20 (US) or £18 (UK).  
   
 This means you can level up your productivity across a range of tasks, including summarizing research papers, querying contracts, and iterating further on coding projects—like this recent [demo](https://www.youtube.com/watch?v=oVsHikXgK9Y) of building an interactive map.
 
@@ -28,6 +28,12 @@ We’re grateful for your support as we strive to build helpful, honest, and har
 
 ## Related content
 
+### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
+
+Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
+
+[Read more](https://www.anthropic.com/news/claude-frontier-academy)
+
 ### Barclays scales Claude to upgrade operations and improve client experience
 
 Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
@@ -39,7 +45,3 @@ Barclays, the British universal bank, is expanding its strategic collaboration w
 We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
 
 [Read more](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
-
-### Partnering with Accenture on embedded evaluation
-
-[Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)

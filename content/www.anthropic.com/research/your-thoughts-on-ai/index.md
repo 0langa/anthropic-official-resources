@@ -4,13 +4,13 @@ Societal Impacts
 
 Sep 29, 2026
 
-[Participate here](https://claude.ai/redirect/website.v1.3da510b8-ff12-4b8f-a5b0-1483904217ae/anthropic-interviewer/your-thoughts-on-ai?from=blog)
+[Participate here](https://claude.ai/redirect/website.v1.2bbb300c-3f14-4a42-8a79-46b0df115724/anthropic-interviewer/your-thoughts-on-ai?from=blog)
 
 ![What do you want from AI? ](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff11a2dcfffbb0f1e5913d794299b6857653413af-2000x1125.jpg&w=3840&q=75)
 
 What are the limitations of this study?
 
-*We’re launching a new study using [Anthropic Interviewer](https://www.anthropic.com/about-anthropic-interviewer) to learn from your experiences with AI, and we’d like you to participate. After you finish, you can decide to make your interview public, so that anyone, not just Anthropic, can read and learn from it. You can [participate here](https://claude.ai/redirect/website.v1.d5d37913-63ed-47a1-8b1c-e309bf97ea2c/anthropic-interviewer/your-thoughts-on-ai?from=blog).*
+*We’re launching a new study using [Anthropic Interviewer](https://www.anthropic.com/about-anthropic-interviewer) to learn from your experiences with AI, and we’d like you to participate. After you finish, you can decide to make your interview public, so that anyone, not just Anthropic, can read and learn from it. You can [participate here](https://claude.ai/redirect/website.v1.c58d2722-6908-4def-a87e-0cba2d752811/anthropic-interviewer/your-thoughts-on-ai?from=blog).*
 
 We are at a pivotal moment in the development of AI, as its growing capabilities mean it becomes potentially more useful and more dangerous. Frontier AI is rapidly accelerating discoveries in [science](https://www.anthropic.com/research/Claude-accelerates-protein-design) and [medicine](https://openai.com/index/diagnose-rare-childhood-diseases/), while at the same time the cost of its misuse grows [more consequential](https://darioamodei.com/post/we-must-pace-the-frontier)—[a single security incident](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) can cause far more damage than it did a year ago.
 
@@ -24,7 +24,7 @@ This project builds on a similar study conducted last December, in which [81,000
 
 AI and Anthropic have changed a lot since then. AI has improved, more people use Claude, and people’s feelings toward the technology have shifted. For the previous study, only the high-level results and a small number of quotes were made public. This time, we want your thoughts to be made widely available so that anyone can learn from them.
 
-We’ve written a FAQ so you can make an informed decision about whether to make your interview public and what to share. You can choose to [participate here](https://claude.ai/redirect/website.v1.d5d37913-63ed-47a1-8b1c-e309bf97ea2c/anthropic-interviewer/your-thoughts-on-ai?from=blog).
+We’ve written a FAQ so you can make an informed decision about whether to make your interview public and what to share. You can choose to [participate here](https://claude.ai/redirect/website.v1.c58d2722-6908-4def-a87e-0cba2d752811/anthropic-interviewer/your-thoughts-on-ai?from=blog).
 
 ## FAQ
 

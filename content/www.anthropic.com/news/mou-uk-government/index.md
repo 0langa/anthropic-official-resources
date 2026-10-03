@@ -18,7 +18,7 @@ DSIT and Anthropic plan to deepen their partnership by exploring additional oppo
 - Securing the supply chain for advanced AI and the UK’s future infrastructure;
 - Boosting the innovation economy with Anthropic’s AI systems and tools, supporting the UK’s world-leading startup community as well as universities and other organisations.
 
-The collaboration will also draw on Anthropic's recently released [Economic Index](https://www.anthropic.com/news/the-anthropic-economic-index)—which uses anonymized conversations on [Claude.ai](https://claude.ai/redirect/website.v1.71851522-9d83-40b3-a4f1-2678b407bfb1) to understand AI's effects on labor markets and the economy over time—to provide insights to help the UK adapt its workforce and innovation strategies for an AI-enabled future.
+The collaboration will also draw on Anthropic's recently released [Economic Index](https://www.anthropic.com/news/the-anthropic-economic-index)—which uses anonymized conversations on [Claude.ai](https://claude.ai/redirect/website.v1.b05b9bab-e68f-464f-bfda-b58ce90f2c18) to understand AI's effects on labor markets and the economy over time—to provide insights to help the UK adapt its workforce and innovation strategies for an AI-enabled future.
 
 Anthropic will continue to work closely with the UK AI Security Institute to research and evaluate AI capabilities and potential security risks. Together, we're committed to developing robust safeguards that will help unlock the significant opportunities AI presents while ensuring its responsible and secure deployment.
 
@@ -31,6 +31,12 @@ Governments and public institutions worldwide are already using Claude to enhanc
 
 ## Related content
 
+### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
+
+Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
+
+[Read more](https://www.anthropic.com/news/claude-frontier-academy)
+
 ### Barclays scales Claude to upgrade operations and improve client experience
 
 Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
@@ -42,7 +48,3 @@ Barclays, the British universal bank, is expanding its strategic collaboration w
 We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
 
 [Read more](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
-
-### Partnering with Accenture on embedded evaluation
-
-[Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)

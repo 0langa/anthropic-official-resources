@@ -40,7 +40,7 @@ With these model improvements and our new tools, Claude is now dramatically more
 
 #### **What’s new**
 
-[Connectors](https://claude.ai/redirect/website.v1.47fb607f-709e-48fd-88c3-c9a8e10ebcf8/settings/connectors) are tools that allow users to give Claude access to other platforms directly. For payers and providers, we’ve added several connectors that make healthcare information easier to find, access, and understand. These allow Claude to pull information from industry-standard systems and databases, meaning that clinicians and administrators can save significant time finding the data and generating the reports they need.
+[Connectors](https://claude.ai/redirect/website.v1.371923f0-e8ba-42b4-8ee0-2ac2324208d9/settings/connectors) are tools that allow users to give Claude access to other platforms directly. For payers and providers, we’ve added several connectors that make healthcare information easier to find, access, and understand. These allow Claude to pull information from industry-standard systems and databases, meaning that clinicians and administrators can save significant time finding the data and generating the reports they need.
 
 Claude can now connect to:
 
@@ -204,6 +204,12 @@ February 7, 2026: *Edited the introductory paragraph to clarify that HIPAA-ready
 
 ## Related content
 
+### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
+
+Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
+
+[Read more](https://www.anthropic.com/news/claude-frontier-academy)
+
 ### Barclays scales Claude to upgrade operations and improve client experience
 
 Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
@@ -215,7 +221,3 @@ Barclays, the British universal bank, is expanding its strategic collaboration w
 We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
 
 [Read more](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
-
-### Partnering with Accenture on embedded evaluation
-
-[Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)

@@ -8,7 +8,7 @@ May 14, 2024
 
 We’re excited to announce that [Claude](https://www.anthropic.com/claude), Anthropic’s trusted AI assistant, is now available for people and businesses across Europe to enhance their productivity and creativity. Starting today, they will be able to use:
 
-- [Claude.ai](http://claude.ai/redirect/website.v1.78c7d3b3-c800-49e1-adca-ce5c2069a28a): the web-based version of our next-generation AI assistant
+- [Claude.ai](http://claude.ai/redirect/website.v1.adae1d18-abcb-44e3-9208-b32acdef48d9): the web-based version of our next-generation AI assistant
 - The [Claude iOS app](https://apps.apple.com/app/claude/id6473753684): a free version of Claude that offers the same intuitive experience as mobile web
 - The [Claude Team plan](https://www.anthropic.com/news/team-plan-and-ios): the best way for every business to provide teams with secure access to Claude's state-of-the-art AI capabilities and the [Claude 3 model family](https://www.anthropic.com/news/claude-3-family)
 
@@ -24,6 +24,12 @@ At Anthropic, we're dedicated to creating AI systems that put people first. We l
 
 ## Related content
 
+### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
+
+Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
+
+[Read more](https://www.anthropic.com/news/claude-frontier-academy)
+
 ### Barclays scales Claude to upgrade operations and improve client experience
 
 Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
@@ -35,7 +41,3 @@ Barclays, the British universal bank, is expanding its strategic collaboration w
 We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
 
 [Read more](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
-
-### Partnering with Accenture on embedded evaluation
-
-[Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)

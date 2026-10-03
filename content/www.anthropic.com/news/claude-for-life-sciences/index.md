@@ -22,7 +22,7 @@ To make Claude more useful for scientific work, we’re now adding several [new 
 
 ## Connecting Claude to scientific tools
 
-[**Connectors**](https://claude.ai/redirect/website.v1.b1876dda-02a8-4418-a594-8b2e487e9a86/settings/connectors) allow Claude to access other platforms and tools directly. We’re adding several new connectors that are designed to make it easier to use Claude for scientific discovery:
+[**Connectors**](https://claude.ai/redirect/website.v1.a59e2aa2-fe99-413c-ba12-66c34fc11a92/settings/connectors) allow Claude to access other platforms and tools directly. We’re adding several new connectors that are designed to make it easier to use Claude for scientific discovery:
 
 - **Benchling** gives Claude the ability to respond to scientists’ questions with links back to source experiments, notebooks, and records;
 - **BioRender** connects Claude to its extensive library of vetted scientific figures, icons, and templates;
@@ -151,6 +151,12 @@ To learn more about Claude for Life Sciences or set up a demo with our team, see
 
 ## Related content
 
+### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
+
+Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
+
+[Read more](https://www.anthropic.com/news/claude-frontier-academy)
+
 ### Barclays scales Claude to upgrade operations and improve client experience
 
 Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
@@ -162,7 +168,3 @@ Barclays, the British universal bank, is expanding its strategic collaboration w
 We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
 
 [Read more](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
-
-### Partnering with Accenture on embedded evaluation
-
-[Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)

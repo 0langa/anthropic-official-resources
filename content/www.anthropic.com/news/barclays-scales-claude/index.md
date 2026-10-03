@@ -42,6 +42,12 @@ The expanded partnership reflects Barclays’ long-term commitment to using AI t
 
 ## Related content
 
+### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
+
+Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
+
+[Read more](https://www.anthropic.com/news/claude-frontier-academy)
+
 ### Claude discovers a novel enzyme system with CRISPR-like repeats
 
 We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
@@ -51,9 +57,3 @@ We’re announcing a new life sciences research group and laboratory at Anthropi
 ### Partnering with Accenture on embedded evaluation
 
 [Read more](https://www.anthropic.com/news/accenture-embedded-evaluation)
-
-### Introducing the Life Sciences Verification Program
-
-The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.
-
-[Read more](https://www.anthropic.com/news/life-sciences-verification-program)
