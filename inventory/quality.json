@@ -41,7 +41,6 @@
     "https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/certificate-quiz",
     "https://academy.claude.com/courses/introduction-to-claude-cowork/quiz-on-claude-cowork",
     "https://academy.claude.com/courses/introduction-to-claude-tag/course-quiz",
-    "https://claude.com/blog",
     "https://www.anthropic.com/constitution",
     "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues",
     "https://www.anthropic.com/engineering/building-c-compiler",
@@ -94,11 +93,11 @@
     "https://www.anthropic.com/transparency/voluntary-commitments"
   ],
   "statuses": {
-    "blocked": 18,
-    "complete": 4094,
-    "gone": 50,
+    "blocked": 23,
+    "complete": 4107,
+    "gone": 45,
     "out_of_scope": 34,
-    "partial": 88
+    "partial": 87
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/dashboard",
@@ -233,7 +232,6 @@
     "https://academy.claude.com/mcp",
     "https://academy.claude.com/products/code/webinars",
     "https://academy.claude.com/start",
-    "https://claude.com/blog",
     "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code",
     "https://claude.com/blog/category/agents",
     "https://claude.com/blog/category/announcements",

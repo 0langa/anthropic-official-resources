@@ -46,7 +46,7 @@ To enable usage credits on your paid Claude plan:
 
 8. You can also enable auto-reload to automatically make a purchase when your balance falls below a threshold you set:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1805819785/5e203c38e6ba3f76bfd1dab0d5ce/fe062e7c-18cb-48cc-a7e2-754ac6e6c4be?expires=1791023400&amp;signature=78dccbfb5774ddd9da60d0db0a8cec52859ac42207cf1b6f862fff451a575cb7&amp;req=dSgnE8F%2FlIZXXPMW1HO4zYj2ABOZp%2FM8opE7m38YdfcAs%2Fn%2FnxijJDwgK%2Bsb%0ABpU7sDQRl5DL5Jx4O8A%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1805819785/5e203c38e6ba3f76bfd1dab0d5ce/fe062e7c-18cb-48cc-a7e2-754ac6e6c4be?expires=1791113400&amp;signature=de1c4a53522b218efcbaac0e839d2480305c622fcc8e06b320e2e0df94a826c9&amp;req=dSgnE8F%2FlIZXXPMW1HO4zYj2ABOYpPM8opE7m38YdfdMpCWnLmA3qWRZbXYB%0AbW%2Fdr2ogPglJ6B3boAU%3D%0A)
 
 **Note:** There is a daily redemption limit of $2000.
 
