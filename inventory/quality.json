@@ -93,10 +93,10 @@
     "https://www.anthropic.com/transparency/voluntary-commitments"
   ],
   "statuses": {
-    "blocked": 23,
-    "complete": 4107,
-    "gone": 45,
-    "out_of_scope": 34,
+    "blocked": 27,
+    "complete": 4098,
+    "gone": 41,
+    "out_of_scope": 43,
     "partial": 87
   },
   "terminal_unarchived_urls": [
@@ -308,6 +308,15 @@
     "https://support.claude.com/en/articles/13945233-use-claude-in-excel-and-powerpoint-with-an-llm-gateway",
     "https://support.claude.com/en/articles/14465370-use-claude-for-word",
     "https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents",
+    "https://support.claude.com/en/articles/14503590-get-started-with-claude-for-government",
+    "https://support.claude.com/en/articles/14503613-sso-login",
+    "https://support.claude.com/en/articles/14503643-set-up-scim-in-claude-for-government",
+    "https://support.claude.com/en/articles/14503675-organization-instructions-in-claude-for-government",
+    "https://support.claude.com/en/articles/14503689-mcp-connectors",
+    "https://support.claude.com/en/articles/14503703-mcp-individual-connectors",
+    "https://support.claude.com/en/articles/14503775-mcp-web-search",
+    "https://support.claude.com/en/articles/14503794-model-availability-in-claude-for-government",
+    "https://support.claude.com/en/articles/14503804-classification-banner-in-claude-for-government",
     "https://support.claude.com/en/articles/14855664-use-claude-for-outlook",
     "https://support.claude.com/en/articles/15330089",
     "https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion",

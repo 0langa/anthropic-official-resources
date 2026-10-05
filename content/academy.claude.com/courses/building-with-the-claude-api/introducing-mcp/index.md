@@ -4,10 +4,6 @@ Lesson 47 of 67 · Building with the Claude APIIntroducing MCP
 
 Lesson 472 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
-
-Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fintroducing-mcp)
-
 Model Context Protocol (MCP) is a communication layer that provides Claude with context and tools without requiring you to write a bunch of tedious integration code. Think of it as a way to shift the burden of tool definitions and execution away from your server to specialized MCP servers.
 
 ![](https://academy.claude.com/assets/media/67a3dc4f3b47c72a974af9fb82c5edaeb37bf4c2107cc64e29446f0442c92a17.jpg)
@@ -59,5 +55,3 @@ MCP servers provide tool schemas and functions already defined for you. If you c
 This is a common misconception. MCP servers and tool use are complementary but different concepts. MCP is about who does the work of creating and maintaining the tools. With MCP, someone else has already written the tool functions and schemas for you - they're packaged inside the MCP server.
 
 The key insight is that MCP servers provide tool schemas and functions already defined for you, eliminating the need to build and maintain complex integrations yourself.
-
-Was this helpful?
