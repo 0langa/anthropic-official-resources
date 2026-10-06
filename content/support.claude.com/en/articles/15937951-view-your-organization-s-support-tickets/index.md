@@ -17,7 +17,7 @@ If you don't have one of these roles, you'll see the message “No access to tic
 
 ## Open the portal
 
-The portal must be opened from within Claude or the Console:
+The portal must be opened from within a Claude or Console web session:
 
 1. Log in to your Claude or Console account.
 
@@ -27,7 +27,7 @@ The portal must be opened from within Claude or the Console:
 
 4. Click the portal link at the top of the panel (“Looking for your company’s conversations? Go to customer portal”).
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2545327968/cebd68e8fd893a51c8bdf3edcb10/2ebb320b-15cf-4e60-a380-c6bb173ea611?expires=1791115200&amp;signature=ee1f0a02bcd7e6f5e352d9501e47820428a1cc0ee3c3f3b886db7c368f23d71f&amp;req=diUjE8p8mohZUfMW1HO4zapwI0M1ZZTc2xzTpDBjzI%2B8FOJA5gKiGSpDlld1%0Adux2gv27lPAdMMuU7Oo%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2545327968/cebd68e8fd893a51c8bdf3edcb10/2ebb320b-15cf-4e60-a380-c6bb173ea611?expires=1791331200&amp;signature=b83b4eaf2a3bd3f6126ae5eeb878e3192f60b0395d0ec0722dbf4c1437041061&amp;req=diUjE8p8mohZUfMW3nq%2BgeSWc%2Fl76BDR65KiMZWlv20CU2n6Tsbv55BaCwBH%0ATySRII0B5uj0SgJVOApbA4jH2y4%3D%0A)
 
 **Note:** The portal requires session authentication from the messenger, so opening the portal from a direct link or bookmark may not work reliably.
 
@@ -39,7 +39,7 @@ The portal must be opened from within Claude or the Console:
 
 3. Click any row to open the full conversation thread and see its status.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2545327970/e8e46b36c7e4ea25a7bcf621e024/e867f372-1192-4a1a-9345-d53ae985ca60?expires=1791115200&amp;signature=19ab5e622bc3806bdc0760b009e8e03b71d4f929dc21d083c1f1ae817e75ca2d&amp;req=diUjE8p8mohYWfMW1HO4zagalN78q0a1UedsMn4pB%2BM5CfAJYhKMFfhRXWqb%0ADzivahdTk39V4n3OKeI%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2545327970/e8e46b36c7e4ea25a7bcf621e024/e867f372-1192-4a1a-9345-d53ae985ca60?expires=1791331200&amp;signature=ba6061cfb595a3a4c155286c90b5b1c87c2d06ae25fc42aa7d9fd684d79b08fd&amp;req=diUjE8p8mohYWfMW3nq%2BgeFMwHYzBDpYKHnn1oPEk01WmX2iY21A6ZcxiImX%0As7XqrfTdhBEdF5kthAhM7MKZxME%3D%0A)
 
 ## Why is there an organization dropdown?
 
@@ -82,3 +82,7 @@ It's likely associated with a different organization (try switching organization
 ### Can I open a new ticket from the portal?
 
 Not directly. Use the chat messenger in Claude or the Console, and tickets opened there appear in the portal automatically. Learn more about **[how to get support](https://support.claude.com/en/articles/9015913)**.
+
+### **How can I access the portal from the desktop app?**
+
+The portal is only supposed via web. Open a new Claude session in your web browser and follow the same navigation steps listed above to authenticate into the portal.

@@ -1,6 +1,6 @@
 # Admin management
 
-24 articles
+25 articles
 
 [Roles and permissionsRoles and permissions that can be set for members of your plan](https://support.claude.com/en/articles/9267276-roles-and-permissions)
 
@@ -49,3 +49,5 @@
 [Create surveys for your organization](https://support.claude.com/en/articles/16764057-create-surveys-for-your-organization)
 
 [Manage pooled group budgets on Enterprise plans](https://support.claude.com/en/articles/17005973-manage-pooled-group-budgets-on-enterprise-plans)
+
+[Set up Claude for Intune](https://support.claude.com/en/articles/17203415-set-up-claude-for-intune)

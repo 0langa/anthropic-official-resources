@@ -30,6 +30,6 @@ Go beyond MCP basics: sampling, notifications, and roots, with interactive walkt
 
 11 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/model-context-protocol-advanced-topics)[## The AI-native SDLC playbook
 
-A technical guide for how to transform your software development lifecycle (SDLC) with AI. Organizations have started using AI to write code at a speed unthinkable one year ago, yet the processes around the code haven't changed at the same pace.
+For engineering, platform, and security leads whose organization already uses Claude Code. Twelve plays for using Claude at each stage of the software development lifecycle (SDLC), so the work around the code runs faster. About an hour of reading, with no quiz or completion badge.
 
 14 lessons·1 hr](https://academy.claude.com/courses/ai-native-sdlc-playbook)

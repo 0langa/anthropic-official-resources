@@ -1014,6 +1014,7 @@ https://claude.com/blog/how-brex-improves-code-quality-and-productivity-with-cla
 https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start
 https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace
 https://claude.com/blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system
+https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk
 https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code
 https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026
 https://claude.com/blog/how-healthcare-organizations-use-claude-tag
@@ -1249,6 +1250,7 @@ https://code.claude.com/docs/en/glossary
 https://code.claude.com/docs/en/goal
 https://code.claude.com/docs/en/google-vertex-ai
 https://code.claude.com/docs/en/headless
+https://code.claude.com/docs/en/hipaa-setup
 https://code.claude.com/docs/en/hooks
 https://code.claude.com/docs/en/hooks-guide
 https://code.claude.com/docs/en/how-claude-code-works
@@ -3223,6 +3225,7 @@ https://support.claude.com/en/articles/12997130-understanding-your-billing-addre
 https://support.claude.com/en/articles/12997377-getting-started-with-claude-ai
 https://support.claude.com/en/articles/12997503
 https://support.claude.com/en/articles/12997503-team-plan-billing-faqs
+https://support.claude.com/en/articles/13015708
 https://support.claude.com/en/articles/13015708-access-the-compliance-api
 https://support.claude.com/en/articles/13015708-how-can-i-access-the-compliance-api
 https://support.claude.com/en/articles/13047024
@@ -3518,7 +3521,11 @@ https://support.claude.com/en/articles/17007452-what-is-a-limit-reset
 https://support.claude.com/en/articles/17153992
 https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them
 https://support.claude.com/en/articles/17161993-why-claude-switched-models-in-your-conversation-with-sonnet-5-5
+https://support.claude.com/en/articles/17203415
+https://support.claude.com/en/articles/17203415-set-up-claude-for-intune
 https://support.claude.com/en/articles/17274727-artifact-usage-promotion
+https://support.claude.com/en/articles/17318731
+https://support.claude.com/en/articles/17318731-use-claude-code-local-mode-and-claude-cowork-local-mode-on-a-hipaa-ready-enterprise-plan
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer

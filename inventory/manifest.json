@@ -83,7 +83,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/collections/collaborating-with-ai/index.md",
-    "sha256": "f1a7779ce243292cd2810fccba8869051e8b200e5eb7190301287d180f969b13",
+    "sha256": "55baf011c2eee1381a928c6f9de732f95977e89a60d38d9ccab954ad990f21c6",
     "source_url": "https://academy.claude.com/collections/collaborating-with-ai",
     "status": "archived",
     "text_validation": "complete",
@@ -94,7 +94,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/collections/how-ai-works/index.md",
-    "sha256": "90a819926277a287dbf96038d4b7c046f8528b31f4483f8744252413ed25efc0",
+    "sha256": "b7d8e553cf11c220ebd8b71a2e8d960b170a493a5914fd1a1fe88bacf7ec66b7",
     "source_url": "https://academy.claude.com/collections/how-ai-works",
     "status": "archived",
     "text_validation": "complete",
@@ -105,7 +105,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/collections/human-agent-teams/index.md",
-    "sha256": "27eed9283220a375252a86938aaf87e0ea50de611a9b0e399ea7fdc727004299",
+    "sha256": "4fa8d6af230264833ed33ee9cd1f6ef566a723e687d6efe13f204806767db333",
     "source_url": "https://academy.claude.com/collections/human-agent-teams",
     "status": "archived",
     "text_validation": "complete",
@@ -5131,7 +5131,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/courses/deploying-claude-enterprise-with-confidence/managing-spend/index.md",
-    "sha256": "2cebf667983c2ebc909738e6c6381269a27a73299546fa173d3e5706e6575c91",
+    "sha256": "897112c23fdeecae28416fd9e0ee408f6e7f859a7cd18a8de4c0b87d43482a1b",
     "source_url": "https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/managing-spend",
     "status": "archived",
     "text_validation": "complete",
@@ -6173,7 +6173,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/help/faq/index.md",
-    "sha256": "c73230579774cdccddcc61135e1f0f6918bca36f7a858fd172e82629b08205fd",
+    "sha256": "17282debe66d3d297b48cbeac190585f3ffb590bc632356b35498a1ce62c1841",
     "source_url": "https://academy.claude.com/help/faq",
     "status": "archived",
     "text_validation": "complete",
@@ -6269,7 +6269,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/products/code/courses/index.md",
-    "sha256": "4f3b4dde18ffee98cd591543c9ebc195dbcee1284330dd21ef629a7479a37034",
+    "sha256": "92a2bb79fd10197be75f985ce1b4e8abd457ba8e332ba62e916431e440137144",
     "source_url": "https://academy.claude.com/products/code/courses",
     "status": "archived",
     "text_validation": "complete",
@@ -6524,11 +6524,12 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/tutorials/building-a-powerpoint-with-claude/index.md",
-    "sha256": "1e8f84948c868133543e1e4fef38ffb16237a921bbe67bbf19a1d681c823f9c2",
+    "sha256": "da1385aeaa31b92e66fd47602f80dc4744b941646bfeb99185aba97db0693669",
     "source_url": "https://academy.claude.com/tutorials/building-a-powerpoint-with-claude",
     "status": "archived",
     "text_validation": "complete",
-    "title": "Building a PowerPoint with Claude · Claude Academy"
+    "title": "Building a PowerPoint with Claude · Claude Academy",
+    "transcript_characters": 3705
   },
   "https://academy.claude.com/tutorials/building-ai-fluent-organizations": {
     "content_notes": [],
@@ -7110,7 +7111,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/tutorials/imagine-with-claude-student-guide/index.md",
-    "sha256": "48e08b8e90c7a6037ade2683989211561cdab996af147ead9b55f6a1d9cb017f",
+    "sha256": "afb12052d32c5a29a6cc874c8d33dbb527e546b9eb8e8870b1f56ab349b25489",
     "source_url": "https://academy.claude.com/tutorials/imagine-with-claude-student-guide",
     "status": "archived",
     "text_validation": "complete",
@@ -7143,7 +7144,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/tutorials/navigating-the-claude-desktop-app/index.md",
-    "sha256": "a81e80e24dabb82300372e40ea1e511b9c67c51b65e52070652f5f249f86a789",
+    "sha256": "1ac504edbc682cd5480291ace6383b47df55f4b06d1de07dd9bfc851fba212a8",
     "source_url": "https://academy.claude.com/tutorials/navigating-the-claude-desktop-app",
     "status": "archived",
     "text_validation": "complete",
@@ -7187,11 +7188,12 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/tutorials/refining-a-powerpoint-with-claude/index.md",
-    "sha256": "4c5f546499335b5067d8855f9a7cf0aa8c48a0d4fc83a5a94bad3230b7ca3115",
+    "sha256": "01bf6ce2d707882bcc3a6a975135d00ce269c882b53647a3bb83c376f983e1f9",
     "source_url": "https://academy.claude.com/tutorials/refining-a-powerpoint-with-claude",
     "status": "archived",
     "text_validation": "complete",
-    "title": "Refining a PowerPoint with Claude · Claude Academy"
+    "title": "Refining a PowerPoint with Claude · Claude Academy",
+    "transcript_characters": 5924
   },
   "https://academy.claude.com/tutorials/scaling-workflows-with-claude-cowork-at-your-organization": {
     "content_notes": [],
@@ -7861,11 +7863,12 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/tutorials/working-smarter-with-claude-in-powerpoint/index.md",
-    "sha256": "e2d1adfb8a356ff21bc462406765b88787c282a85573ed5710e1fbc19b10033f",
+    "sha256": "9adf813feff8e343a1e25eae86af35493a3c3fe246c829b366abc5cba81130b9",
     "source_url": "https://academy.claude.com/tutorials/working-smarter-with-claude-in-powerpoint",
     "status": "archived",
     "text_validation": "complete",
-    "title": "Working smarter with Claude in PowerPoint · Claude Academy"
+    "title": "Working smarter with Claude in PowerPoint · Claude Academy",
+    "transcript_characters": 1998
   },
   "https://academy.claude.com/tutorials/writing-an-ai-diligence-statement": {
     "content_notes": [],
@@ -8950,7 +8953,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/use-cases/outside-counsel-review/index.md",
-    "sha256": "69c97dc0630c3b23f54028a6576791773fece4751487fc86610bf6a23d107394",
+    "sha256": "846a0b23e0b3ea6ff5d773d3f049a275e813604ba8fbe30f2af55618c4c42d84",
     "source_url": "https://academy.claude.com/use-cases/outside-counsel-review",
     "status": "archived",
     "text_validation": "complete",
@@ -9060,7 +9063,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/academy.claude.com/use-cases/preclinical-study-analysis/index.md",
-    "sha256": "aeefea5cb66830d003e00ca2d40e4ae5fc4850e0d24390d5e3f0b17661c3d657",
+    "sha256": "2aa4a4099ea3e0f3c19c5876b01275cfadd59ba36a91d6e1df017ba0225547ac",
     "source_url": "https://academy.claude.com/use-cases/preclinical-study-analysis",
     "status": "archived",
     "text_validation": "complete",
@@ -9634,7 +9637,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/claude.com/blog/index.md",
-    "sha256": "ba3f77094265fcf21541587d801d46f0a677a0d73bdaf9e047a01454780795e4",
+    "sha256": "bf6d6d383fab84d2756cbea1ca81df01087dbd7dd323b4202dbea18944441d00",
     "source_url": "https://claude.com/blog",
     "status": "archived",
     "text_validation": "complete",
@@ -9645,7 +9648,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/claude.com/blog/directory-index.md",
-    "sha256": "4921d28d051b650bca2157c7e7f1bf97d47dd3f091b458640561dda83d363026",
+    "sha256": "baf630f6734f77013c563b1025564a35e108ae9e6f5f3dd178aa4b3c88328c8c",
     "source_url": "https://claude.com/blog/",
     "status": "archived",
     "text_validation": "complete",
@@ -12659,7 +12662,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/claude.com/resources/courses/index.md",
-    "sha256": "95550e25bf148ac7290d44444466c08650e63102d3862d4019fc7cabdedf55d9",
+    "sha256": "dc040fde0ecf345726509ea3c247d0fa5ca179332136d0170b8c5b5cefe5f349",
     "source_url": "https://academy.claude.com/courses",
     "status": "archived",
     "text_validation": "complete",
@@ -12868,7 +12871,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/admin-setup/index.md",
-    "sha256": "82e3f8a735775eb1e462dfefa3bc364c6309420309381fcb3f0f443f41c7703f",
+    "sha256": "3bd461c402fc0b5fedafdc814be957aa8a99a22c2298ea53f5c140eeae61606d",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Set up Claude Code for your organization"
@@ -12911,7 +12914,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/agent-sdk/claude-code-features/index.md",
-    "sha256": "68c2d8782673e09adfb1764547944976a511243a506ea68f712eab90fcb9e70b",
+    "sha256": "4a2b3f8cc6ceb547af642463cdd77a9492347364b942b42baae7b53adeb3a38c",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Use Claude Code features in the SDK"
@@ -12933,7 +12936,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/agent-sdk/cost-tracking/index.md",
-    "sha256": "69bf4e6830f0dcd024b8153605d486c99da5607df21c36ca559002d5d65dea84",
+    "sha256": "e42c419a117728ebff9b0fea19c8b419bba597308dab2d4753c95e1bb2e41e12",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Track cost and usage"
@@ -12944,7 +12947,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/agent-sdk/custom-tools/index.md",
-    "sha256": "d88a436a2306a1ec0666dc619ee077cac4eb232d37a7d10a0ab0a0f1f401d883",
+    "sha256": "f2b4bb8b7e4ce066e409c5831f6e619f0e466df697fda95b40aac0bdc9ed8029",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Give Claude custom tools"
@@ -13010,7 +13013,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/agent-sdk/migration-guide/index.md",
-    "sha256": "a8cc953f87199297ccf4b14099749fff589f5ec72b5bacd48dfdcff407c72ae1",
+    "sha256": "7b236e06acbacdb022f166f2060fd38f698f89eb6c2e7714ace6db9b24ed21b4",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Migrate to Claude Agent SDK"
@@ -13076,7 +13079,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/agent-sdk/python/index.md",
-    "sha256": "3d9fcf11343274637f95282a6ff496ced313cb900cd550e24b1079ee93586c19",
+    "sha256": "e79faead6f6e7c6c2e6ad16e8b4139efa03b413306b2141f2134881bd2533580",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Agent SDK reference - Python"
@@ -13087,7 +13090,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/agent-sdk/quickstart/index.md",
-    "sha256": "1f8ef10582a8a8173676655dcea7e69b0643b21efe55cda7a26531c749a54149",
+    "sha256": "9a26b64e542bc513ea16e84ccaf3d3bee46035418386c49301c052dd09b927bc",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Quickstart"
@@ -13098,7 +13101,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/agent-sdk/secure-deployment/index.md",
-    "sha256": "26403cce76c733df2c7fa9c4b42fd1053c1fa913d5537c019796a83c46c3d403",
+    "sha256": "1b3dcefcf3a148750bfffe927a0d614fa5088ce16be3dd6c5384e90ad8c67053",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Securely deploying AI agents"
@@ -13131,7 +13134,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/agent-sdk/skills/index.md",
-    "sha256": "7f736320a0396f9d3ab7f2074fd968b83363a4a662fbed5836e3d8c688049149",
+    "sha256": "946566a2d98f7e960f29c1054cb19dd09cd2a61992bf2ee489d0624b8de6958d",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Extend agents with skills"
@@ -13164,7 +13167,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/agent-sdk/structured-outputs/index.md",
-    "sha256": "108e0c087836143c86d1a80fb35c6b13143001f8b7f8ef25b42496eb95087f96",
+    "sha256": "2a18d7d0c8ed6b33a560aa78981fbe3a0b389816eef4ac531431a67f9d453f80",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Get structured output from agents"
@@ -13175,7 +13178,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/agent-sdk/subagents/index.md",
-    "sha256": "086ecea8802a83b60e94b4a85a74dc47393de87ce9a06b959d8306a347c7d7cb",
+    "sha256": "8bd1166dc9ca22a83e2b48caa400cb588f135f44df20582d5ad1e042f2e0b1ae",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Subagents in the SDK"
@@ -13219,7 +13222,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/agent-sdk/typescript/index.md",
-    "sha256": "f8e1f096f8de5cf16704027f223bd47b9c091ecfa74743afec0ed148388f8af8",
+    "sha256": "7195a41ebb2787e9b377471f17dc5ecc5ddc59886b8a5c203b0e3d3b6ef7d6d1",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Agent SDK reference - TypeScript"
@@ -13263,7 +13266,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/agent-view/index.md",
-    "sha256": "a18cd7b922e3c1f4c33152b1f486df742c1479790901536b376d6439eba39eb4",
+    "sha256": "71f8fab11e02f7107c12e1e5d5740754e74991d38b297f3851bdfab20442ad5b",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Manage multiple agents with agent view"
@@ -13360,7 +13363,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/bedrock-vertex/index.md",
-    "sha256": "cf89409a84033b6f14300c2c4a6cca14b43cb0b0f746adcd07dc9c84a0c7b661",
+    "sha256": "dd80519ee76bea457c42edd78e4429c46789106c9e0270cd317fe02deeedd015",
     "source_url": "https://code.claude.com/docs/en/bedrock-vertex.md",
     "status": "archived"
   },
@@ -13370,7 +13373,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/bedrock-vertex-proxies/index.md",
-    "sha256": "cf89409a84033b6f14300c2c4a6cca14b43cb0b0f746adcd07dc9c84a0c7b661",
+    "sha256": "dd80519ee76bea457c42edd78e4429c46789106c9e0270cd317fe02deeedd015",
     "source_url": "https://code.claude.com/docs/en/bedrock-vertex-proxies.md",
     "status": "archived"
   },
@@ -13380,7 +13383,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/best-practices/index.md",
-    "sha256": "e025dfd41ae76bbb5bfaf780d43167044949334113f57287a3c1c0892e1f221f",
+    "sha256": "7fd20ff119e8cd24a594e1ce961028b324136a8b5ef6cc74cc825b9e62219e9e",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Best practices for Claude Code"
@@ -13402,7 +13405,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/changelog/index.md",
-    "sha256": "2eda92f8e06a93d7a26856e1c34d5dc7b0dc6c66dc880653b61052dfc39c46ff",
+    "sha256": "7f38b00ea802f026de4399e46c74d464472ea1721d6ba4d58e3a041abf781236",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Claude Code changelog"
@@ -13413,7 +13416,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/channels/index.md",
-    "sha256": "c7deb67febc1b9545f715779e3c81702650018c848ad36e0b7ba720eba3abb05",
+    "sha256": "3ad928c43cc3afa38549db4e1b111eec8b113972c2e6c1fd1be040981acb6e36",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Push events into a running session with channels"
@@ -13424,7 +13427,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/channels-reference/index.md",
-    "sha256": "7f5512327029f0b39a654cd4f0f441037a503b3e83c2ec2d1e80eeab6103187d",
+    "sha256": "c1d0097f7d640e5a0ca5e910867c758c0af73397ea715c00cf25a79cfe99ebe4",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Channels reference"
@@ -13435,7 +13438,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/checkpointing/index.md",
-    "sha256": "bf544c6e2d9897c4da0f09b322c40aaf93607793e6a90d7de6b3e563ed8f6051",
+    "sha256": "8f6cc9d0e7aa75c52239d338d1fdbe30c8add9ae25b32679f09064a77cbeb552",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Checkpointing"
@@ -13446,7 +13449,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/chrome/index.md",
-    "sha256": "1e692777f7e5756442d0a4b81fc1d46bfda3017053edd7fa96b25f9d82142eba",
+    "sha256": "16c2c63498e42eff1ed006a19fc92a0089a0e3f26d1b3e4f22d26e1149cc7bc7",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Use Claude Code with Chrome"
@@ -13523,7 +13526,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/claude-code-on-the-web/index.md",
-    "sha256": "caa577fd2e777853c97571e8b40b960c13be66ddd9eb13d541329bef9ad60597",
+    "sha256": "0d683edf7e1ca11da95dd464e26a7eb7c1e91f3ca1e1925297e25d3c3f000671",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Use Claude Code in the cloud"
@@ -13534,7 +13537,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/claude-directory/index.md",
-    "sha256": "075e293db27774bf93bc42e43736969cf3d592813aa89a26ff0eb12a2a4967ad",
+    "sha256": "9b027686baaa8fe38b3dfd0824b29d061fa12147727255bc0a2e26e114331de2",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Explore the .claude directory"
@@ -13567,7 +13570,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/claude-security/index.md",
-    "sha256": "560a95653b9c8139534c7a81938698eb7086f6b6475eb30b89dfcc152222e38b",
+    "sha256": "109904d179342270c7e4579ab8087b8f02bd397bbb185e241880361e866ef3de",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Scan your codebase for vulnerabilities"
@@ -13578,7 +13581,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/claude-tag/index.md",
-    "sha256": "5312ce422a5f5afb1627b45c93f016981eade3923eca8219c1b08b8c7213f3d6",
+    "sha256": "4a68f2d1983695f224ba6f49c7129343c70d7ff961b3be0d211f887b3a19605d",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Claude Tag"
@@ -13589,7 +13592,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/claude_code_docs_map/index.md",
-    "sha256": "ec474236bddcf29edfc1ec3f0de2a1454a9be29c578179114d6041dbb81a328a",
+    "sha256": "dcc0fe249f15f5fe74e3f9c671b170f4d2d84197792d9cd6422a19114a7b0b1d",
     "source_url": "https://code.claude.com/docs/en/claude_code_docs_map.md",
     "status": "archived"
   },
@@ -13599,7 +13602,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/cli-reference/index.md",
-    "sha256": "d9ba61af861c87ec284ae8e2b5fbf9eedafc501d52ba72138c7535aa334ff1b8",
+    "sha256": "39b4d58e373066492cbae0c7fef6cc8ca5226be59f044fc6209ef729a0997cd3",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "CLI reference"
@@ -13610,7 +13613,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/cli-usage/index.md",
-    "sha256": "82f96e4b4b44c634d0c69443c3fcd745c340968879d0758fa4dc1778d5ea1328",
+    "sha256": "482a41a8099236ab99e78d81bb37df1006e3039710f68adcbf790cc86c7a5ff7",
     "source_url": "https://code.claude.com/docs/en/cli-usage.md",
     "status": "archived"
   },
@@ -13631,7 +13634,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/code-review/index.md",
-    "sha256": "bbdce5d72432eaad39729c1ebad732dbfa5704ded1af0846ec11a41fc9aee99b",
+    "sha256": "29d3fce1fc4a3617f06a839a9e7c4e8ddc6feb848b75ed8a939074b87b1221f2",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Code Review"
@@ -13642,7 +13645,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/commands/index.md",
-    "sha256": "92a5473472748e1b1ec41a66e1e6d5687444c97e7882035f0ec9be2168677cc1",
+    "sha256": "7c96d898995d736b156b7f537f5707b2da4e2f30a898b21249569c5d21b2f00a",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Commands"
@@ -13653,7 +13656,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/common-workflows/index.md",
-    "sha256": "228e7a51c2727719e532e478a92d2bc299aa509e99c4d6bc968df13e260230ad",
+    "sha256": "46b85570315d39af005fd7b9575b3c5dd5923bb298a13129a11836abece09c86",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Common workflows"
@@ -13686,7 +13689,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/context-window/index.md",
-    "sha256": "fc14185342c9a43f5f7cad5ea59cf9b515c219ba53e52af3a1b0d1dd96b20d8a",
+    "sha256": "da1ac8e2bcc7046368c40d9fcf88dde3eaef42f3dfe9549a87c0a0a786d5e078",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Explore the context window"
@@ -13708,7 +13711,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/costs/index.md",
-    "sha256": "5782e2a6af6d5b861f869024ba41c27533d905dd963e51e0d70b64b01d2105eb",
+    "sha256": "ff3a0c5d3f0ae89f68b7abf7d6aade4c83f7ddc3d9bdc9b5648784ec8ed09992",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Manage costs effectively"
@@ -13741,7 +13744,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/debug-your-config/index.md",
-    "sha256": "fc2a7080e5f28b7917a21ef1c27ba5b4916202ed530f639ce89a8b45a9ed4dcf",
+    "sha256": "9572cb5b56d308716d0c302e364679856a318b930fc35d600346fca01ad68fa8",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Debug your configuration"
@@ -13752,7 +13755,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/deep-links/index.md",
-    "sha256": "2554525f22697f263b715c31ba62ceef4f31121ec03b7de85b3c0a82c4c1103d",
+    "sha256": "74d084888b3be35bb29335d805e457ae9a500f16385bb914331f3f2b5963611f",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Launch sessions from links"
@@ -13763,7 +13766,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/desktop/index.md",
-    "sha256": "0b227df4ab1534c2b09e7a60c493d23ea63d0c151b15228be38cfe19277d9ca1",
+    "sha256": "f7495c1e8b834bc84d6336c50be8bda47ef488595f032a064d5a77dede1bbde1",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Desktop application"
@@ -13774,7 +13777,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/desktop-ios-simulator/index.md",
-    "sha256": "7379b4371b5a81c9943c9c67986cf375c8bc502775ee8177b598b5f593b464ff",
+    "sha256": "782d4511eb54da661974506143cf8c20d2c6ec70495fc2846c8f1b719619281f",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Test iOS apps in the simulator"
@@ -13796,7 +13799,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/desktop-quickstart/index.md",
-    "sha256": "4774a6faaff2fc807a3e713c511ecd0dd7a2c1eaf93c9705f6fe9a05421e3c66",
+    "sha256": "3b5b0d308011800591b2bb8db1f2dab08623146045d8571c37120a885afaf5f2",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Get started with the desktop app"
@@ -13807,7 +13810,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/desktop-scheduled-tasks/index.md",
-    "sha256": "ecec645de798526bbfd8dbecda90ff66e1d812929027f0f23eaf878d35da4b4a",
+    "sha256": "100f9cd38c3ae39f56b9b5ff3d27055c2796f808dd755307ec85e2ecf7ee6ce1",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Schedule recurring tasks in Claude Code Desktop"
@@ -13840,7 +13843,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/discover-plugins/index.md",
-    "sha256": "4b882d4799dbd988e606af7ffb088de777db65bb261a87813bbebfec7d22d7f6",
+    "sha256": "221994647c614dc8084ec5a76367ed03e460243147c74412bb567bba4e21e946",
     "source_url": "https://code.claude.com/docs/en/discover-plugins.md",
     "status": "archived"
   },
@@ -13850,7 +13853,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/env-vars/index.md",
-    "sha256": "1e0f8dfc10883e4cd0f3d2cd28490f5f34db3bf62702e445fff0f03fd85781f8",
+    "sha256": "50cb1ecd465a9f46dce18b58eb6dab0e65cc882e01354b2f13080d388ace1f39",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Environment variables"
@@ -13861,7 +13864,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/errors/index.md",
-    "sha256": "7b7e52129c2dc9790c9c6ce9441b7c9a3a940b61f0b46f8e01bd1361209155cb",
+    "sha256": "d64ece73a9bd527253368584a64bc9edb896d35397b4d200ca4dcf49d72604c7",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Error reference"
@@ -13883,7 +13886,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/feature-availability/index.md",
-    "sha256": "07aa0e88b231a661ff4c4ed45361551758c6e89a4446eff6061bc9057139bd99",
+    "sha256": "369be30a9095588f8c20ee090566aee597c69deace13db5a2eade77085e3cac1",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Feature availability"
@@ -13905,7 +13908,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/fullscreen/index.md",
-    "sha256": "51e59072895eacae6aa230f8de4a6ea1c5c0e9f65a910097c98a5fceb32c21f0",
+    "sha256": "250d77e25c8461db71bf7cb5980ccc8a4e7c8a7931cd5bd16b59b996c4e5e8a3",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Fullscreen rendering"
@@ -13937,7 +13940,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/github-actions/index.md",
-    "sha256": "6c5f0db496e7c4217ce17eda007232ff653cc095cfd86b892186a52eaee75224",
+    "sha256": "2d8fa47d1c70dca897506485d7ad1b2648760870ef27320d83665bb7298995e1",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Claude Code GitHub Actions"
@@ -13959,7 +13962,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/github-enterprise-server/index.md",
-    "sha256": "adbf456d6b9022b3f66097d11a6d681c83e2b173c1c65671c5ba7d2ed8bc9ac5",
+    "sha256": "0d470b3c9f6999bcf467fdf5cb78242b80b49324a3f8122bf05771b3097f2fca",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Claude Code with GitHub Enterprise Server"
@@ -13981,7 +13984,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/glossary/index.md",
-    "sha256": "639ab01e087069b191cce4615a47c3cd12541f724987f238d8ad77e8c60b8a04",
+    "sha256": "2591a62d8c4c450da3ff2577919869bdd6a4e61e270f5f1d6bda678a99e3d88a",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Glossary"
@@ -14014,10 +14017,21 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/headless/index.md",
-    "sha256": "ffe88a6cbf52bd89a73348f351d04c02625b432a259a8a32e5607c256bd20036",
+    "sha256": "00cc739db2d380a7b6db006f7df3bab6ec2b849992afb1b942295213a324ace1",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Run Claude Code programmatically"
+  },
+  "https://code.claude.com/docs/en/hipaa-setup": {
+    "content_notes": [
+      "Contains upstream MDX/components; Markdown is not a visual website replica."
+    ],
+    "format": "native-markdown",
+    "path": "content/code.claude.com/docs/en/hipaa-setup/index.md",
+    "sha256": "151c2d51aedc3ab45cff4ce95651b19cd76bf2a15916619b7ad5e147fdc158d8",
+    "source_url": "https://code.claude.com/docs/llms-full.txt",
+    "status": "archived",
+    "title": "Set up Claude Code (local mode) for a HIPAA-ready organization"
   },
   "https://code.claude.com/docs/en/hooks": {
     "content_notes": [
@@ -14025,7 +14039,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/hooks/index.md",
-    "sha256": "d02f6d1cc05bf28b88bd01e336eb9b2c7725bc2f2939621512e2f7a850f8c925",
+    "sha256": "c5f5b33be47a90e383b5372851d7dfecf3c24a4c46ffc3bc0749d6c1116a86b5",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Hooks reference"
@@ -14078,7 +14092,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/interactive-mode/index.md",
-    "sha256": "b07ef39aade10fa4899f46ed1a414bd2dfce0bcd458b7eff940f25ce67e5867c",
+    "sha256": "2044e63a24e7feea53e82c668895427c067ee472d7a718741a9b2b4227f968ae",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Interactive mode"
@@ -14100,7 +14114,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/keybindings/index.md",
-    "sha256": "fe0e7cdedee01ef8b40dca7f6750a47d5b4624c53986e6f6ff6695b6423a76c2",
+    "sha256": "2d5688a690b31355be4a4d794fc1c796e10e030068b6cddacfdcd177926cbb7d",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Customize keyboard shortcuts"
@@ -14111,7 +14125,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/large-codebases/index.md",
-    "sha256": "a3065f751e60904aa725ac1ee058c2372abd681a179f9b16257c5e392f356c32",
+    "sha256": "1f1f5693f2b99c147e0ae4c08197dfb53ab5d652bbe3caefeecb93c08f13440f",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Set up Claude Code in a monorepo or large codebase"
@@ -14122,7 +14136,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/legal-and-compliance/index.md",
-    "sha256": "2159ed37a00c3c694f8f533b41f4451d14f056184070fc9537e7d0bac894e125",
+    "sha256": "9131880c1d5ae3a7898f854c54bb784c204095ffed10cf274b6fc1a4f8c78144",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Legal and compliance"
@@ -14199,7 +14213,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/mcp/index.md",
-    "sha256": "ba021dbfb715fb6fe9fdbbe4201682f6eec2d6aad9fd7ffa114cfb1d40b63425",
+    "sha256": "1da55750e60dee51ba718cdedd832b5564fe58eee9c03b676e827bcb6430ad44",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Connect Claude Code to tools via MCP"
@@ -14221,7 +14235,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/memory/index.md",
-    "sha256": "52a9558287b6ec5aca3236f5849b3a807b1143151f6687345611301f2166cf7b",
+    "sha256": "c39287319ea01dc66fbd1ba60ec89742acb6afee184612d0cfa90c91918ac79b",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "How Claude remembers your project"
@@ -14265,7 +14279,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/monitoring-usage/index.md",
-    "sha256": "e730336724ecf434d15673a7860965cb66bb83e84aba73c817b9f0be93d23dbc",
+    "sha256": "246b1371d0c6bf58ad0a3fb05bb21f3d2d9d9308a3a23157271c0b63e0eacd5c",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Monitoring"
@@ -14276,7 +14290,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/network-config/index.md",
-    "sha256": "28e54b76aab16a7c4cfd8c28cbbf715d15516cb4f3526d4d51f093c21c879049",
+    "sha256": "f62a6c4cf77349035a92c6428e4b5883493b3c2fd3411965679c41d99a585a46",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Enterprise network configuration"
@@ -14309,7 +14323,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/permission-modes/index.md",
-    "sha256": "27936414116b2bb1f4aeb79b6b381e2b4a56e1590aa40e8e98f42e31ed6ea163",
+    "sha256": "8b310fa28dac34c4efb6292caaf24aa7d95ebb28f1c1e5681a2e79c1beb3fdbf",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Choose a permission mode"
@@ -14320,7 +14334,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/permissions/index.md",
-    "sha256": "c7ae8a2c103672bc7c439103bf48853a3de38719b91c4fadf1b3e129a35b2520",
+    "sha256": "201a8ebce15c718b34a2acdfe58a9827c78d2934b68aa7daf9d254792c8cd4e1",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Configure permissions"
@@ -14331,7 +14345,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/platforms/index.md",
-    "sha256": "36ea78cd1897749dead495fa09fcffc37ad583beda9a14eef9f1ebf13ebe799c",
+    "sha256": "bd8000ff8394f9b0170b6f3f96cb2ee346df73abc7af6ecb070a0502f532fcde",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Platforms and integrations"
@@ -14512,7 +14526,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/plugins/install/index.md",
-    "sha256": "caf9ebc6ac9ceebb37d1108175c1e1e825033f0ecafbd9309830e27e3249ae80",
+    "sha256": "9e92c89b86fa7d9b749260c662284a9cc76776c83016eb0f81e383a6a4691591",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Install and manage plugins"
@@ -14567,7 +14581,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/plugins/mods/admin/index.md",
-    "sha256": "c5074fecfacfdef899703a9f26ca062cfd6c72ac69917db74d36adc2b0feaf51",
+    "sha256": "e553efbf9d78ae8169d338732acead34954cde74062ac23c3637403b69809bd0",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Manage mods for your organization"
@@ -14589,7 +14603,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/plugins/mods/create/index.md",
-    "sha256": "76f587ba1b45fc5f695d5b096ee4a1b85e6b353f157122d62e65e40a367665b7",
+    "sha256": "d6a10924d81062973859a304c336c327e5b956f2b94949c27e5fae8a1dc78a03",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Create a mod"
@@ -14633,7 +14647,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/plugins/mods/overview/index.md",
-    "sha256": "e326b4e89eae77921aa0f7e1b0d4c1d3f263e0c729d236effee265c356be7ef7",
+    "sha256": "b3390e04cd8405a50d8aeea9ae1fb8a4c02429277545e170936ecfe4a61c9307",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Mods overview"
@@ -14666,7 +14680,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/plugins/mods/troubleshoot/index.md",
-    "sha256": "6fecd39f5c7d59c9ab212a95ee77b8c416005258335195e78b9682692ae66750",
+    "sha256": "a07a614e84718393ff4a8f62dca8cda0c6de09863d2a64d477a49d2c5e10071a",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Troubleshoot a mod"
@@ -14732,7 +14746,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/plugins/troubleshooting/index.md",
-    "sha256": "43f09df5798612fffdf47498441a9de83b34619e71dfe161d5ffc4cc9a601e9b",
+    "sha256": "bd993e4816f6258eb007894e0b7e668fdc030a4a11be8508aa18e749eb1cbd87",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Troubleshoot plugins"
@@ -14743,7 +14757,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/prompt-caching/index.md",
-    "sha256": "30df9500bab6ad1dcdacf717577ea23a722e7f01bc9ae3205502b018c26c2974",
+    "sha256": "8357ec12e329a9fc7b88c5bfa3ec1f7fa43e08f3507478e24ece6afc7463ad69",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "How Claude Code uses prompt caching"
@@ -14765,7 +14779,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/quickstart/index.md",
-    "sha256": "26bfa2b42e1e30ff1b1e385086a6f2a962f20ddfaaf720b1261184f69836aa32",
+    "sha256": "55e326814c04bfb66cf3a73405af9461ae1c67d3e29462e3e9651ee95ecc5a9b",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Quickstart"
@@ -14776,7 +14790,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/remote-control/index.md",
-    "sha256": "26f8d87d730dae6714549ddd0f2de282fa6425c8c86b528eb2bfd0b4dddc67b6",
+    "sha256": "aa3de7452491c4a4e3d741c2d03931b08fcd2cc33ef1b28bb77b3161c7dd80fb",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Continue local sessions from any device with Remote Control"
@@ -14809,7 +14823,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/sandboxing/index.md",
-    "sha256": "269002207230b178f64c041732befede41d45c11a397d4062474cb3b36a6e29f",
+    "sha256": "cbaf8150a77481d4c1c34425a22b9be4a59dec99ab81c46ea3116751954a459e",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Configure the sandboxed Bash tool"
@@ -14842,7 +14856,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/security-guidance/index.md",
-    "sha256": "bef99de110542c50b035d65275c66914fade7ffec2d2532b6dfd8d536b2f3c0d",
+    "sha256": "7d05e830741e8a1beb712be15077431d5932b35ef2771e2d5134c141bf1c8ad1",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Catch security issues as Claude writes code"
@@ -14853,7 +14867,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/self-hosted-environments/index.md",
-    "sha256": "056bada7a4631bbffd0cff30acc5b5ea433232b27462091e4576b3d59429e261",
+    "sha256": "80b28ea7c28a713711e9f48a943d2c38c5e514bb12290026f0f94f4bf6e3c164",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Self-hosted environments"
@@ -14875,7 +14889,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/self-hosted-environments-deploy/index.md",
-    "sha256": "5385c12f5a9eec12e462f3182ff143689473e086cfb3f9673d43d52c541921d8",
+    "sha256": "3795361261860791b3044b22a1c4f3bb7c7df3cb9dd93a9dead6b8cb994b4abb",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Deploy self-hosted environments to production"
@@ -14952,7 +14966,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/settings/index.md",
-    "sha256": "94ec2c5547faf74504916ef5de7eef83a101c710336819d778b23090b4b2cf1c",
+    "sha256": "56bf1080953b5d737dfda088efc347b791feab535b7f3939a3ce99600260c3b0",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Settings files and precedence"
@@ -14974,7 +14988,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/settings-reference/index.md",
-    "sha256": "5f2863c892773f8a8de32519c15c41db2ba7530ea1e9f5d0e0a4bc41e713559f",
+    "sha256": "355e4ae0420ee6699b3bcd722e796760197b8cd2a39a051379ef18b2af858b3f",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "All settings"
@@ -14996,7 +15010,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/skills/index.md",
-    "sha256": "0ff2ac5315cf00acc118e343e711248defbc5026b42d038bd67da675c487eec2",
+    "sha256": "3a0d5ae730e0b16b86a483ef048bc8c7fdad97752b8bb36070319b4da40304b8",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Extend Claude with skills"
@@ -15007,7 +15021,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/slack/index.md",
-    "sha256": "538cc6be7f5ab23c6c95cbc40c8aa17ceb02934aee22a63afb41a0f4b2144b40",
+    "sha256": "fed72f68d8e2254b9d7eb7fffa231f57629af5df245b17dd1e74eb4684c03137",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Claude Code in Slack"
@@ -15018,7 +15032,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/slash-commands/index.md",
-    "sha256": "acdf96599200090206dd21327022aa58b21e23dfebdaffaa974b2fdb25077e00",
+    "sha256": "cf869f4c734b4094b0eaacb308b79447c9ebd5587ec30e186fc54441e8b11147",
     "source_url": "https://code.claude.com/docs/en/slash-commands.md",
     "status": "archived"
   },
@@ -15028,7 +15042,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/statusline/index.md",
-    "sha256": "bada3beefdba579837ce92574d5a9459f7f366f427034c18020f33f946f6111e",
+    "sha256": "0031e450dd08021e2fe1c26934fb62c02f3b76eb4d145ba249c3476d349293b2",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Customize your status line"
@@ -15039,7 +15053,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/sub-agents/index.md",
-    "sha256": "414ae9e847fd0ebddaa2927d0c38a8a300da9e712d2473b1ce5845ca1500c9e7",
+    "sha256": "0fd2d65befa18d1d49fb12ae8c117a307290ff15abcb11ec5b92bd53e4666973",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Create custom subagents"
@@ -15061,7 +15075,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/terminal-guide/index.md",
-    "sha256": "c5d6cab335eb45eb43e08722120b721f883a372251b7ee714d9069f1535cf6c7",
+    "sha256": "66f13b56b5f07b7d5747533719d026dd17b577ff18b228cab7feada4a54fe147",
     "source_url": "https://code.claude.com/docs/en/terminal-guide.md",
     "status": "archived"
   },
@@ -15071,7 +15085,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/third-party-integrations/index.md",
-    "sha256": "e0d6104c6815a39c95bae1696d02b0674de8b93c099351b5c3dd712494fbc4af",
+    "sha256": "15d77d3f86085e415d764500e4dd5c178d8ce4f756a0d446453155c2db10d1ee",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Enterprise deployment overview"
@@ -15082,7 +15096,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/tools/index.md",
-    "sha256": "e0da8a3914ef811c6543ef8f7b31b3f8b2d548b4774f118981a9f13a21163909",
+    "sha256": "9dff373c68a2072871dc8c4f4155902d5d55e275f79eca082dceaec5b87a2377",
     "source_url": "https://code.claude.com/docs/en/tools.md",
     "status": "archived"
   },
@@ -15092,7 +15106,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/tools-reference/index.md",
-    "sha256": "95d2913d0e41d61241d4a721f761c47850980368f61f3dabd049a48069565c78",
+    "sha256": "d9bf65976a841ab153fd216db8a1bf8145d9b3eedb198e27fddba8b09e849857",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Tools reference"
@@ -15103,7 +15117,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/troubleshoot-install/index.md",
-    "sha256": "d47c7eaf6af1fbe138be7c99cb854c33ac4dfbe3d8ccd255ae65b8116c17d5cb",
+    "sha256": "4d7e077c336450a3c2323f740a30a989a566ca7ebb1d2269280f8b17fd573cd1",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Troubleshoot installation and login"
@@ -15135,7 +15149,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/ultrareview/index.md",
-    "sha256": "8bf3ecb49ab27ff7170e181b38ad99bd018e010562c2c6d3cf49b06b1ce67c86",
+    "sha256": "c7677bc24e10ca6089e489acc67b09936baabeed5260440deb615c16e697ff85",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Find bugs with ultrareview"
@@ -15146,7 +15160,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/voice-dictation/index.md",
-    "sha256": "2dc5c7d9ba619b9acfbc7c9e1d166a8335f0bd5ccbd7be5e0045aa665bfd56dd",
+    "sha256": "edb7741f610a071234f2fd04ef307dc48971b670c6d0752a937c4583eeb6cefb",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Voice dictation"
@@ -15168,7 +15182,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/web-quickstart/index.md",
-    "sha256": "006d4236ed8899453470a5d720b766475f1eb1d010c8c879b5fedde559482d17",
+    "sha256": "0350fb04b4101dca68319af0538d3f593c3204c8280598e4b9a3ba87366d5cfb",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Get started with Claude Code in the cloud"
@@ -15474,7 +15488,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/workflows/index.md",
-    "sha256": "99b865820840787c9749a9a93a3929703e6b07dc0ea2e913b1ec94e60d9e80af",
+    "sha256": "22cff402e69f3d1d1e75ea219df13799b15eca1e25a811041154c5c56e3c4678",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Orchestrate subagents at scale with dynamic workflows"
@@ -15496,7 +15510,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/en/zero-data-retention/index.md",
-    "sha256": "8b746bacb2ffd4fa666921935c556f2aa362232426ad15e670b017be791c643e",
+    "sha256": "e41ef4da57e4c3af896dc78f5b23beef10fb3978e424ddf18db45fba1c68f1aa",
     "source_url": "https://code.claude.com/docs/llms-full.txt",
     "status": "archived",
     "title": "Zero data retention"
@@ -15507,7 +15521,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/mcp/index.md",
-    "sha256": "0a828757c54a2219b5facfa6aba0529d50e8fcfea177fae56e63acb7016d3188",
+    "sha256": "ac29fedd61371b6051a2aeaaac423be614c7fa9e014ef88168e392394e1dda9b",
     "source_url": "https://code.claude.com/docs/mcp",
     "status": "archived"
   },
@@ -15517,7 +15531,7 @@
     ],
     "format": "native-markdown",
     "path": "content/code.claude.com/docs/quickstart/index.md",
-    "sha256": "744bda8fa5213cbc3d08b3e5e5afb22a2c88f9925d1b8df0b1e79b6125e23f8f",
+    "sha256": "ad94592174f4ef3029d5908bc47fc1cb1d06c78603137db4b12af51435d3a741",
     "source_url": "https://code.claude.com/docs/quickstart.md",
     "status": "archived"
   },
@@ -31402,7 +31416,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/support.claude.com/index.md",
-    "sha256": "eee1ae76cd47bdbac55ccc4321116fff5f380b982c1a5bbaad80f4566f1ae777",
+    "sha256": "e6acc1ba42968382682f5d397f02486c98fc611a7f352ec114c21bd73ea146a7",
     "source_url": "https://support.claude.com/en/",
     "status": "archived",
     "text_validation": "complete",
@@ -31413,7 +31427,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/support.claude.com/en/index.md",
-    "sha256": "eee1ae76cd47bdbac55ccc4321116fff5f380b982c1a5bbaad80f4566f1ae777",
+    "sha256": "e6acc1ba42968382682f5d397f02486c98fc611a7f352ec114c21bd73ea146a7",
     "source_url": "https://support.claude.com/en",
     "status": "archived",
     "text_validation": "complete",
@@ -31424,7 +31438,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/support.claude.com/en/directory-index.md",
-    "sha256": "eee1ae76cd47bdbac55ccc4321116fff5f380b982c1a5bbaad80f4566f1ae777",
+    "sha256": "e6acc1ba42968382682f5d397f02486c98fc611a7f352ec114c21bd73ea146a7",
     "source_url": "https://support.claude.com/en/",
     "status": "archived",
     "text_validation": "complete",
@@ -31686,7 +31700,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/10310342-how-do-i-log-out-of-all-active-sessions/index.md",
-    "sha256": "14e424366f70cd925a8cc723a3a0888186a22829de708c9cc684351e72911f92",
+    "sha256": "e49cddf6d8de52f5e5e3cd0536f4f04992e2d211b290e17fb2a07009a22aff3b",
     "source_url": "https://support.claude.com/en/articles/10310342-how-do-i-log-out-of-all-active-sessions.md",
     "status": "archived"
   },
@@ -31696,7 +31710,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/10366376-how-can-i-delete-my-claude-console-account/index.md",
-    "sha256": "497658d25732897bde599e2c9490d0fdd9149191cbd69dbae418b78eda40e4f1",
+    "sha256": "8bbca7d9b413beadc5b46c1ea775469e1a52fc6165bf617cef906ef48a776c73",
     "source_url": "https://support.claude.com/en/articles/10366376-how-can-i-delete-my-claude-console-account.md",
     "status": "archived"
   },
@@ -31796,7 +31810,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/10504844-manage-user-feedback-settings-on-team-and-enterprise-plans/index.md",
-    "sha256": "d59d58dd8f41c3a8a1394942ba6e9d124488ea0cde700aa9789b02c70aeb3b3d",
+    "sha256": "8806025415f64c6fc204f93fe8e64fc4868f56a795db84307239afb387be359e",
     "source_url": "https://support.claude.com/en/articles/10504844-manage-user-feedback-settings-on-team-and-enterprise-plans.md",
     "status": "archived"
   },
@@ -31816,7 +31830,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/10504853-manage-user-feedback-settings-on-claude-console/index.md",
-    "sha256": "97a8cacfa15d296e8f6eb27b1ddcc5591b44547cae89dc02da376501e897645e",
+    "sha256": "25611a91bdef9743239e31a3d2e73491be36c04fac0ea430d8c574caa96edb7e",
     "source_url": "https://support.claude.com/en/articles/10504853-manage-user-feedback-settings-on-claude-console.md",
     "status": "archived"
   },
@@ -31835,7 +31849,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/support.claude.com/en/articles/10574485-using-extended-thinking/index.md",
-    "sha256": "4c011cd7a7d1e64b42f5b91a0ab018f06073498fcba6fac6e4645ccc389a5a0d",
+    "sha256": "ec35601a1a268e45afe0d12b714529ea900009380e3b1f258a88848feff10da8",
     "source_url": "https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings",
     "status": "archived",
     "text_validation": "complete",
@@ -31857,7 +31871,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/10593882-share-and-unshare-chats/index.md",
-    "sha256": "9354b09f957eea243f2d662ad911244995bc66f8574cc1affeb2e10c29b279f5",
+    "sha256": "062a7994e64189b0cd4739d4200130b65714ef82c713c0aefbb9a431bb1910a0",
     "source_url": "https://support.claude.com/en/articles/10593882-share-and-unshare-chats.md",
     "status": "archived"
   },
@@ -31937,7 +31951,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop/index.md",
-    "sha256": "c3277c9035d198d04dc80fab9e090fab45a990478f837614fd916855e08fd40b",
+    "sha256": "0350c5f197faa5d795667edf2f2a9467d837cf1f4256eaf66636596ccf5a1b80",
     "source_url": "https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop.md",
     "status": "archived"
   },
@@ -32057,7 +32071,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/11101966-use-voice-mode/index.md",
-    "sha256": "8d226cfdf7a7b2df59ab916806b9bc7bae89b49facde82c612f6219ede5656cd",
+    "sha256": "6f97a0aca7ec1bc46790ab2397ca21a0cbf70945a9e25b4da4048d5ef8c662f4",
     "source_url": "https://support.claude.com/en/articles/11101966-use-voice-mode.md",
     "status": "archived"
   },
@@ -32067,7 +32081,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/11101966-using-voice-mode-on-claude-mobile-apps/index.md",
-    "sha256": "8d226cfdf7a7b2df59ab916806b9bc7bae89b49facde82c612f6219ede5656cd",
+    "sha256": "72735ae09dcf4e8397e88a0527efed69b37a1efec9e36d700f31595cde3f4916",
     "source_url": "https://support.claude.com/en/articles/11101966-use-voice-mode.md",
     "status": "archived"
   },
@@ -32399,7 +32413,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/11725453-set-up-the-claude-lti-in-canvas-by-instructure/index.md",
-    "sha256": "faa606e0a859d4d1754982874e57503afa4fb2538bcbeda14020d00dd4018367",
+    "sha256": "6a85558bef11bdc9d787412f69c83e047683abc5cdcd4809bafe10afbef827c0",
     "source_url": "https://support.claude.com/en/articles/11725453-set-up-the-claude-lti-in-canvas-by-instructure.md",
     "status": "archived"
   },
@@ -32440,7 +32454,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context/index.md",
-    "sha256": "3dc25ba0cbae58d7a6437d9a41c83fe8f075df46a43d4e82021d8afe71c9ca06",
+    "sha256": "f91bf2ab5873d3b10470478ff2a69faee848db2eee481d017213a2149f587018",
     "source_url": "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context.md",
     "status": "archived"
   },
@@ -32460,7 +32474,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/11818288-why-am-i-being-asked-to-verify-my-payment-method/index.md",
-    "sha256": "48f53b9f8b025c7fe5d348c227df6d2249702a5972580c844af2bcd9febc69c7",
+    "sha256": "2340a96dfb7dfc6aa0d0356abe0e66f2642f7b508f6ad7be6911715d2aa66ab4",
     "source_url": "https://support.claude.com/en/articles/11818288-why-am-i-being-asked-to-verify-my-payment-method.md",
     "status": "archived"
   },
@@ -32470,7 +32484,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/11825384-how-to-update-claude-for-ios/index.md",
-    "sha256": "70ab34f99647dd7db335d9657de98d11e0e1c9d4f91405b28d0288689f7d96ef",
+    "sha256": "aa39033e99c950c858ef9f6fb3895c0915332087bdda362a543a15b407a8e21f",
     "source_url": "https://support.claude.com/en/articles/11825384-how-to-update-claude-for-ios.md",
     "status": "archived"
   },
@@ -32500,7 +32514,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan/index.md",
-    "sha256": "5166d6260091f1b8d976dce12f13805efa9c76a9bb86a7187f856e43f389c611",
+    "sha256": "d7402ef89bef65bde03f7522f434a5d91a7937dfda1d9437617af12f3d00eae9",
     "source_url": "https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan.md",
     "status": "archived"
   },
@@ -32540,7 +32554,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/11869629-use-claude-with-android-apps/index.md",
-    "sha256": "355d7158ad49bb489fc0a2cd085188ecbdf8ba56a29a8c8b1ab9aa4efcbab2d7",
+    "sha256": "49a8aa0a443fe8d999823e9a76b1b28d0014d1898a68d641238de370626d492f",
     "source_url": "https://support.claude.com/en/articles/11869629-use-claude-with-android-apps.md",
     "status": "archived"
   },
@@ -32680,7 +32694,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans/index.md",
-    "sha256": "13468694b19b1535b1a7f0b10dd2855ed4b05d9091e1bfedddafd9f0c34babc6",
+    "sha256": "e43baac7130c4105002a4e67bd7992bedb43861b5915998e9e08462032729881",
     "source_url": "https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans.md",
     "status": "archived"
   },
@@ -32700,7 +32714,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome/index.md",
-    "sha256": "f27cc4823be9c849d8b845263eccf4268e2ce503f289d26e0d3ad9fbf1709cac",
+    "sha256": "c56a796548d959d8719c01430807f698b44561c8a9e4b93e595a4005f43f5207",
     "source_url": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome.md",
     "status": "archived"
   },
@@ -32720,7 +32734,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12012173-getting-started-with-claude-in-chrome/index.md",
-    "sha256": "f27cc4823be9c849d8b845263eccf4268e2ce503f289d26e0d3ad9fbf1709cac",
+    "sha256": "c56a796548d959d8719c01430807f698b44561c8a9e4b93e595a4005f43f5207",
     "source_url": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome.md",
     "status": "archived"
   },
@@ -32740,7 +32754,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12083917-change-your-team-plan-from-monthly-to-annual-billing/index.md",
-    "sha256": "8b6fc547a1c1cb05eed86db3e00efc01d69cec38367da2bf90e93caeb472e97b",
+    "sha256": "0032763c721327f0a5a55c4270cfe19c8456c66f12ec1dcdc9771b298891b6f9",
     "source_url": "https://support.claude.com/en/articles/12083917-change-your-team-plan-from-monthly-to-annual-billing.md",
     "status": "archived"
   },
@@ -32770,7 +32784,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12111783-create-and-edit-files-with-claude/index.md",
-    "sha256": "e4da4f8024206e0fee23ad1009334b885e21ad96767053a87aa9e26cfe9ad440",
+    "sha256": "d758374aaf2b0f4ad6e3c2236e3e0b3e195a37ff4f448220ec61b4107201ef50",
     "source_url": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude.md",
     "status": "archived"
   },
@@ -32831,7 +32845,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12157520-claude-code-usage-analytics/index.md",
-    "sha256": "4b3bfed1c1edeebb28a2386b2f6c44c05f1aba6d824dc7c9ed8d0dbb4e68a927",
+    "sha256": "6bb69c4d55db1f644b5e2994f665f7ffab86990bf46a2a62d152f28bc5ed22e6",
     "source_url": "https://support.claude.com/en/articles/12157520-claude-code-usage-analytics.md",
     "status": "archived"
   },
@@ -32926,7 +32940,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12260368-use-incognito-chats/index.md",
-    "sha256": "3629f8644948106f4fb96147d3e1d59a632657d57968698e6725a80ea00f01bb",
+    "sha256": "aa1e652b761c2aba2035d83ad16141b8f3d993bd21a623de6ecab15a066737b0",
     "source_url": "https://support.claude.com/en/articles/12260368-use-incognito-chats.md",
     "status": "archived"
   },
@@ -32946,7 +32960,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12293051-use-claude-in-xcode/index.md",
-    "sha256": "14335f2a58cd765d03c7031528439bf1d107660bfa6380e52e8eae913682161d",
+    "sha256": "794485eb1a31c0be2e106040af60fe4eb6f1ad70434c3b00243c0a2ccea29a28",
     "source_url": "https://support.claude.com/en/articles/12293051-use-claude-in-xcode.md",
     "status": "archived"
   },
@@ -33036,7 +33050,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans/index.md",
-    "sha256": "1165e2fafa599c0abeb84bf0c4732756fc2946857a33bfb0df937772dd36cd56",
+    "sha256": "af87d3e6ab2247f53d5f498f705916abf1b6079b232199d0569252b9ed2ca4e4",
     "source_url": "https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans.md",
     "status": "archived"
   },
@@ -33056,7 +33070,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans/index.md",
-    "sha256": "1165e2fafa599c0abeb84bf0c4732756fc2946857a33bfb0df937772dd36cd56",
+    "sha256": "af87d3e6ab2247f53d5f498f705916abf1b6079b232199d0569252b9ed2ca4e4",
     "source_url": "https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans.md",
     "status": "archived"
   },
@@ -33076,7 +33090,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12466728-troubleshoot-claude-error-messages/index.md",
-    "sha256": "e00be9866074554303ffb5aaa5715363dff7e2b983be2178e75ab31b5c3a887e",
+    "sha256": "d7fd5b408f530f5eb0febe98e117dd530dcc999f48d421ea2970b84cb5237db6",
     "source_url": "https://support.claude.com/en/articles/12466728-troubleshoot-claude-error-messages.md",
     "status": "archived"
   },
@@ -33156,7 +33170,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12512180-use-skills-in-claude/index.md",
-    "sha256": "e659b26e720c630fbd2f39b0782ab962deceff614a88d427ac85d5187f16d84b",
+    "sha256": "853854b0321717013c52e74831e7ebbe0a2b0ac4f4a82ed6ed95ab910541f5fb",
     "source_url": "https://support.claude.com/en/articles/12512180-use-skills-in-claude.md",
     "status": "archived"
   },
@@ -33166,7 +33180,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12512180-using-skills-in-claude/index.md",
-    "sha256": "e659b26e720c630fbd2f39b0782ab962deceff614a88d427ac85d5187f16d84b",
+    "sha256": "853854b0321717013c52e74831e7ebbe0a2b0ac4f4a82ed6ed95ab910541f5fb",
     "source_url": "https://support.claude.com/en/articles/12512180-use-skills-in-claude.md",
     "status": "archived"
   },
@@ -33237,7 +33251,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12592343-enabling-and-using-the-desktop-extension-allowlist/index.md",
-    "sha256": "f5efc6026718b603f072d30a85d461ca2c47ed240a55b75527a10f3796ca72b9",
+    "sha256": "034bc2cfcc11a73f0a336f8e0653b763da4178814dad5b2c00218bf73ec8d09c",
     "source_url": "https://support.claude.com/en/articles/12592343-enabling-and-using-the-desktop-extension-allowlist.md",
     "status": "archived"
   },
@@ -33289,7 +33303,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12618689-claude-code-on-the-web/index.md",
-    "sha256": "08d7163ff0eea7c8c21464e9c0c70acaf01eadcb9f9fc71d5c16ffed66948ed7",
+    "sha256": "2d7dc4923a43f1d456417e6bf1d6fa029f5beac883619bc35bdca0f657394ccc",
     "source_url": "https://support.claude.com/en/articles/12618689-claude-code-on-the-web.md",
     "status": "archived"
   },
@@ -33360,7 +33374,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac/index.md",
-    "sha256": "a3bd845e25116b4de22d61bac2466375ba3f709939f73d258396dc8ac0749251",
+    "sha256": "2af4d9c8b8aa3c89bd2d60fe2850404b2a77bbc4ef1f2505c5d2c4c9658a2474",
     "source_url": "https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac.md",
     "status": "archived"
   },
@@ -33430,7 +33444,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12883420/index.md",
-    "sha256": "202a853490085d2fe14f31382f4e836149a971aee038ad5726ae51f2e5fae98a",
+    "sha256": "0d1148cead5ab0582fe1273689eaf180dffd7c5e72d9e4b4c81d669b134e5d79",
     "source_url": "https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans.md",
     "status": "archived"
   },
@@ -33440,7 +33454,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12883420-usage-analytics-for-team-and-enterprise-plans/index.md",
-    "sha256": "202a853490085d2fe14f31382f4e836149a971aee038ad5726ae51f2e5fae98a",
+    "sha256": "0d1148cead5ab0582fe1273689eaf180dffd7c5e72d9e4b4c81d669b134e5d79",
     "source_url": "https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans.md",
     "status": "archived"
   },
@@ -33450,7 +33464,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans/index.md",
-    "sha256": "b33b30cf6cdba8193ab8b526836e2883162c2d42a2f3746816b7f0375d11d5f6",
+    "sha256": "0fbfe21c972af8c1788c0e3bd4f890a32a9ab97b5cb18646a9a2c77104b559b0",
     "source_url": "https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans.md",
     "status": "archived"
   },
@@ -33470,7 +33484,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12902428/index.md",
-    "sha256": "bf5678a42183a8aad41dde3799113adf9d38af4dfb888a0ebb88c654f14f1ce9",
+    "sha256": "960f9f31e7a9dfe207a61ad85beb465d679d7af0045aa26c036496bf9166d3bd",
     "source_url": "https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely.md",
     "status": "archived"
   },
@@ -33480,7 +33494,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12902428-use-claude-in-chrome-safely/index.md",
-    "sha256": "bf5678a42183a8aad41dde3799113adf9d38af4dfb888a0ebb88c654f14f1ce9",
+    "sha256": "960f9f31e7a9dfe207a61ad85beb465d679d7af0045aa26c036496bf9166d3bd",
     "source_url": "https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely.md",
     "status": "archived"
   },
@@ -33490,7 +33504,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12902428-using-claude-for-chrome-safely/index.md",
-    "sha256": "bf5678a42183a8aad41dde3799113adf9d38af4dfb888a0ebb88c654f14f1ce9",
+    "sha256": "960f9f31e7a9dfe207a61ad85beb465d679d7af0045aa26c036496bf9166d3bd",
     "source_url": "https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely.md",
     "status": "archived"
   },
@@ -33500,7 +33514,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12902428-using-claude-in-chrome-safely/index.md",
-    "sha256": "bf5678a42183a8aad41dde3799113adf9d38af4dfb888a0ebb88c654f14f1ce9",
+    "sha256": "960f9f31e7a9dfe207a61ad85beb465d679d7af0045aa26c036496bf9166d3bd",
     "source_url": "https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely.md",
     "status": "archived"
   },
@@ -33510,7 +33524,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12902446/index.md",
-    "sha256": "ec5be0be37d62a7fc6538149132301ec142531a490fdfb825283b5b1cdd732d3",
+    "sha256": "88bf19e9c8b16454671df6de4ec2971d8bc880d04bf5a9b0420f1a451f199403",
     "source_url": "https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide.md",
     "status": "archived"
   },
@@ -33520,7 +33534,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12902446-claude-for-chrome-permissions-guide/index.md",
-    "sha256": "ec5be0be37d62a7fc6538149132301ec142531a490fdfb825283b5b1cdd732d3",
+    "sha256": "88bf19e9c8b16454671df6de4ec2971d8bc880d04bf5a9b0420f1a451f199403",
     "source_url": "https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide.md",
     "status": "archived"
   },
@@ -33530,7 +33544,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide/index.md",
-    "sha256": "c37ac9a6b40daa9eff5314a9ad354a6773a888dbf5084dad084274dcd941464e",
+    "sha256": "3dd264232698d9a2e0609c3d0117e2ff25490483254b000186b115482d60e1ba",
     "source_url": "https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide.md",
     "status": "archived"
   },
@@ -33540,7 +33554,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription/index.md",
-    "sha256": "913c2ed3cc009bbed232057efc0c52b1c590e9373a634bd67da055ff99fe6331",
+    "sha256": "2c2fdfdab2487bd7f3450789d22702ceefb9d0b8f8ee48d22d839602b203946c",
     "source_url": "https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription.md",
     "status": "archived"
   },
@@ -33591,7 +33605,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12997503/index.md",
-    "sha256": "75a07d9b8c0323ae6e01f54ade7819c303f462a952186f63bd5274507f0483b0",
+    "sha256": "e9d7b6f91f920b71386f6883789686157599498ece97578577bbc73f07623489",
     "source_url": "https://support.claude.com/en/articles/12997503-team-plan-billing-faqs.md",
     "status": "archived"
   },
@@ -33601,7 +33615,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/12997503-team-plan-billing-faqs/index.md",
-    "sha256": "243f70ce0d669bde54d78b829941c8927cd9a938be78f0bfb75b905c846b87c4",
+    "sha256": "2898f78be64d957d708d6d4375a33767aa24b48d56177a94f9068f2f045d3317",
     "source_url": "https://support.claude.com/en/articles/12997503-team-plan-billing-faqs.md",
     "status": "archived"
   },
@@ -33651,7 +33665,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13065128/index.md",
-    "sha256": "d1cbd4244a9f825e34b5a35e2fb7ed7b29e892b0bb7ad277915040f1a694f6fb",
+    "sha256": "78c2df6c08628e311a3359a7c2383c1f9615c4a0b18f1ff54524d402dbc7ca16",
     "source_url": "https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls.md",
     "status": "archived"
   },
@@ -33661,7 +33675,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13065128-claude-for-chrome-admin-controls/index.md",
-    "sha256": "d1cbd4244a9f825e34b5a35e2fb7ed7b29e892b0bb7ad277915040f1a694f6fb",
+    "sha256": "78c2df6c08628e311a3359a7c2383c1f9615c4a0b18f1ff54524d402dbc7ca16",
     "source_url": "https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls.md",
     "status": "archived"
   },
@@ -33671,7 +33685,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls/index.md",
-    "sha256": "d1cbd4244a9f825e34b5a35e2fb7ed7b29e892b0bb7ad277915040f1a694f6fb",
+    "sha256": "78c2df6c08628e311a3359a7c2383c1f9615c4a0b18f1ff54524d402dbc7ca16",
     "source_url": "https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls.md",
     "status": "archived"
   },
@@ -33691,7 +33705,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13119606-managing-skills-as-an-admin/index.md",
-    "sha256": "168126fa37ee22bd839cbfa94190975fe65cb1260df82146c845bdfe4d4a35ea",
+    "sha256": "80360ba9896f780254ef9f5f5c463bd97d6d3d5eb0b4db97ae1b97c1ba43ff74",
     "source_url": "https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization.md",
     "status": "archived"
   },
@@ -33701,7 +33715,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization/index.md",
-    "sha256": "168126fa37ee22bd839cbfa94190975fe65cb1260df82146c845bdfe4d4a35ea",
+    "sha256": "80360ba9896f780254ef9f5f5c463bd97d6d3d5eb0b4db97ae1b97c1ba43ff74",
     "source_url": "https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization.md",
     "status": "archived"
   },
@@ -33711,7 +33725,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13119606-provisioning-and-managing-skills-for-your-organization/index.md",
-    "sha256": "168126fa37ee22bd839cbfa94190975fe65cb1260df82146c845bdfe4d4a35ea",
+    "sha256": "80360ba9896f780254ef9f5f5c463bd97d6d3d5eb0b4db97ae1b97c1ba43ff74",
     "source_url": "https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization.md",
     "status": "archived"
   },
@@ -33742,7 +33756,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13132885/index.md",
-    "sha256": "f9c35ee1ea0795fd25811ddb9392ce9e60c49a3fab6071cb55a21a279fb49f01",
+    "sha256": "8a49cf906f9e55dc26e4c902a11522825ff40af6b2a0642f8f7eddd8948d3567",
     "source_url": "https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso.md",
     "status": "archived"
   },
@@ -33752,7 +33766,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13132885-set-up-single-sign-on-sso/index.md",
-    "sha256": "df3078c7c8c0a66ed82187e42b7d3afe27307fe75a1f4654831733add1a0887c",
+    "sha256": "4ca2c06f8bbdd94c19324368cebe7a1cbeb3623c55f554a86ffae45deed6db93",
     "source_url": "https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso.md",
     "status": "archived"
   },
@@ -33762,7 +33776,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13132885-setting-up-single-sign-on-sso/index.md",
-    "sha256": "df3078c7c8c0a66ed82187e42b7d3afe27307fe75a1f4654831733add1a0887c",
+    "sha256": "4ca2c06f8bbdd94c19324368cebe7a1cbeb3623c55f554a86ffae45deed6db93",
     "source_url": "https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso.md",
     "status": "archived"
   },
@@ -33772,7 +33786,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13132885-setting-up-single-sign-on-sso-for-claude-and-claude-console/index.md",
-    "sha256": "f9c35ee1ea0795fd25811ddb9392ce9e60c49a3fab6071cb55a21a279fb49f01",
+    "sha256": "8a49cf906f9e55dc26e4c902a11522825ff40af6b2a0642f8f7eddd8948d3567",
     "source_url": "https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso.md",
     "status": "archived"
   },
@@ -33782,7 +33796,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13133195/index.md",
-    "sha256": "626c498ce89ce6e9e9035f33e08a53b8521400188c394b7185ffdf0f40021552",
+    "sha256": "47e5e23da710f5acb816d16cd0faa6c1d5194a99790a7b7f32a0605b2c922227",
     "source_url": "https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning.md",
     "status": "archived"
   },
@@ -33792,7 +33806,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning/index.md",
-    "sha256": "aecafc0ec3198cc8e8071fc3ec6e25252f0db3a13590c088fc4c9a6636cdf850",
+    "sha256": "c8a12d6372ab0e90faf96f486ac46d1b19ced9c201d7d1103ace6928182e0e2e",
     "source_url": "https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning.md",
     "status": "archived"
   },
@@ -33802,7 +33816,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13133195-setting-up-jit-or-scim-provisioning/index.md",
-    "sha256": "626c498ce89ce6e9e9035f33e08a53b8521400188c394b7185ffdf0f40021552",
+    "sha256": "47e5e23da710f5acb816d16cd0faa6c1d5194a99790a7b7f32a0605b2c922227",
     "source_url": "https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning.md",
     "status": "archived"
   },
@@ -33812,7 +33826,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13133195-setting-up-jit-or-scim-provisioning-to-manage-user-assignments-on-team-or-enterprise-plans/index.md",
-    "sha256": "626c498ce89ce6e9e9035f33e08a53b8521400188c394b7185ffdf0f40021552",
+    "sha256": "47e5e23da710f5acb816d16cd0faa6c1d5194a99790a7b7f32a0605b2c922227",
     "source_url": "https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning.md",
     "status": "archived"
   },
@@ -33872,7 +33886,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13163631-configuring-session-security-settings/index.md",
-    "sha256": "e545b17a4ddff4aae91a09e9a4da00b362ea058ac1097f7920acc11c368f38e6",
+    "sha256": "cf83ff5fba1348a78e7560431e592cb0553020c740792288e1e86312d1f12f3e",
     "source_url": "https://support.claude.com/en/articles/13163631-configuring-session-security-settings.md",
     "status": "archived"
   },
@@ -33902,7 +33916,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13189465-log-in-to-your-claude-account/index.md",
-    "sha256": "006ced33988a044f3dd93e65492bc5befcc5077f634e7e1065431110414ef5a0",
+    "sha256": "57549820663e50f0db26eee4dc1a7819f018a73922f0093aeb7ed14d58de1059",
     "source_url": "https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account.md",
     "status": "archived"
   },
@@ -33912,7 +33926,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13189465-logging-in-to-your-claude-account/index.md",
-    "sha256": "006ced33988a044f3dd93e65492bc5befcc5077f634e7e1065431110414ef5a0",
+    "sha256": "57549820663e50f0db26eee4dc1a7819f018a73922f0093aeb7ed14d58de1059",
     "source_url": "https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account.md",
     "status": "archived"
   },
@@ -33942,7 +33956,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13296973/index.md",
-    "sha256": "f0cb21ef432954cd116505f02381cd51df035ebd4c277cb47f98dc9ff926d493",
+    "sha256": "541bf25fc7a10d97f715ee66941c0ed4193a92568948bd33a2267486f080aef8",
     "source_url": "https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans.md",
     "status": "archived"
   },
@@ -33952,7 +33966,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans/index.md",
-    "sha256": "f0cb21ef432954cd116505f02381cd51df035ebd4c277cb47f98dc9ff926d493",
+    "sha256": "541bf25fc7a10d97f715ee66941c0ed4193a92568948bd33a2267486f080aef8",
     "source_url": "https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans.md",
     "status": "archived"
   },
@@ -33962,7 +33976,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13325567-account-management-faqs/index.md",
-    "sha256": "71717ea49ca19b34b8bf5d558dbafca20913fef6fb821a76fb2980f2d942b1bb",
+    "sha256": "bb4fbc224d0cca7df3c8d226d779f962b0842a490ac0d4073a475edd709ee7f0",
     "source_url": "https://support.claude.com/en/articles/13325567-account-management-faqs.md",
     "status": "archived"
   },
@@ -33972,7 +33986,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13345190/index.md",
-    "sha256": "ff965854dce6490e800504ba5548aea55b938831cc8b4cbe3e992d7a3c14a967",
+    "sha256": "cbe56dc5f7809dc3ca084eb839b18edec48290bd9908ed3f9d5f615c48ac7ec9",
     "source_url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork.md",
     "status": "archived"
   },
@@ -33982,7 +33996,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13345190-get-started-with-claude-cowork/index.md",
-    "sha256": "8a5824f267a3cd3e133ac7ae022fd739b49422c4beffddf26c08a478fd4959fa",
+    "sha256": "e9bd03ac01e46254f2a724cdcf0c910b8b08f5120dc34ea560ba09729e7f1017",
     "source_url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork.md",
     "status": "archived"
   },
@@ -33992,7 +34006,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13345190-get-started-with-cowork/index.md",
-    "sha256": "8a5824f267a3cd3e133ac7ae022fd739b49422c4beffddf26c08a478fd4959fa",
+    "sha256": "e9bd03ac01e46254f2a724cdcf0c910b8b08f5120dc34ea560ba09729e7f1017",
     "source_url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork.md",
     "status": "archived"
   },
@@ -34002,7 +34016,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13345190-getting-started-with-cowork/index.md",
-    "sha256": "ff965854dce6490e800504ba5548aea55b938831cc8b4cbe3e992d7a3c14a967",
+    "sha256": "cbe56dc5f7809dc3ca084eb839b18edec48290bd9908ed3f9d5f615c48ac7ec9",
     "source_url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork.md",
     "status": "archived"
   },
@@ -34012,7 +34026,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13346458-customizing-your-console-appearance-settings/index.md",
-    "sha256": "27f3117a187e0fc9e2f6efb9ff3a715f0b935ade2ace3692496621ee18214c74",
+    "sha256": "652dc57b6f485726962991d00628782a06ffcfc6e787bffbfc6533a1c5ed30a5",
     "source_url": "https://support.claude.com/en/articles/13346458-customizing-your-console-appearance-settings.md",
     "status": "archived"
   },
@@ -34092,7 +34106,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13371040-log-in-to-your-console-account/index.md",
-    "sha256": "7c00fdac465404f95e5b5f437c6bce91be3f6001f1a800a82fc1a529397a9d92",
+    "sha256": "a538c612eca19a4984cae9f46bfecc519f341ccb97f504cfd78c8e57a3f51e09",
     "source_url": "https://support.claude.com/en/articles/13371040-log-in-to-your-console-account.md",
     "status": "archived"
   },
@@ -34182,7 +34196,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13455879/index.md",
-    "sha256": "aa6eacd5ed194104016e4cd4d079257b1b3c5785d5558abcec57804e34bc0b7c",
+    "sha256": "72bef166f78c37377451b0ef39859bf11778985968a0e1fab8fe114a52c6f2c4",
     "source_url": "https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans.md",
     "status": "archived"
   },
@@ -34192,7 +34206,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13455879-cowork-for-team-and-enterprise-plans/index.md",
-    "sha256": "aa6eacd5ed194104016e4cd4d079257b1b3c5785d5558abcec57804e34bc0b7c",
+    "sha256": "72bef166f78c37377451b0ef39859bf11778985968a0e1fab8fe114a52c6f2c4",
     "source_url": "https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans.md",
     "status": "archived"
   },
@@ -34202,7 +34216,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans/index.md",
-    "sha256": "aa6eacd5ed194104016e4cd4d079257b1b3c5785d5558abcec57804e34bc0b7c",
+    "sha256": "72bef166f78c37377451b0ef39859bf11778985968a0e1fab8fe114a52c6f2c4",
     "source_url": "https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans.md",
     "status": "archived"
   },
@@ -34212,7 +34226,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13455879-use-cowork-on-team-and-enterprise-plans/index.md",
-    "sha256": "aa6eacd5ed194104016e4cd4d079257b1b3c5785d5558abcec57804e34bc0b7c",
+    "sha256": "72bef166f78c37377451b0ef39859bf11778985968a0e1fab8fe114a52c6f2c4",
     "source_url": "https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans.md",
     "status": "archived"
   },
@@ -34242,7 +34256,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13641943-visual-and-interactive-content/index.md",
-    "sha256": "7be534640facec776059b572e7e691486091531bff02f22accdd34236192d9fb",
+    "sha256": "a579ef5c4abbebce37516da2f341dbfaaba7517fc70b8dc70cd48c691327905d",
     "source_url": "https://support.claude.com/en/articles/13641943-visual-and-interactive-content.md",
     "status": "archived"
   },
@@ -34252,7 +34266,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13641943-visual-responses-and-interactive-widgets/index.md",
-    "sha256": "dc3a73d82e767f7a357c6efea701395e9257dce017359f6719a70eb7f7ef239c",
+    "sha256": "292bf15d850525e4447ac4ba7edcfb718a9dde887e513940770bba56bb0bd4ba",
     "source_url": "https://support.claude.com/en/articles/13641943-visual-and-interactive-content.md",
     "status": "archived"
   },
@@ -34281,7 +34295,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/support.claude.com/en/articles/13694757-get-started-with-the-claude-enterprise-analytics-api/index.md",
-    "sha256": "8060a10f729a4b9807208b4adfeb7f1fedf9de4661ae9fda16f9e64bf03a3372",
+    "sha256": "6f376ddb7a330969e358dafdfd8bfc64460b02d75388c4551279aa52dd9f07ee",
     "source_url": "https://platform.claude.com/docs/en/manage-claude/analytics-api",
     "status": "archived",
     "text_validation": "complete",
@@ -34414,7 +34428,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13837440/index.md",
-    "sha256": "d83e44037e9d5cf08fa272c9affc8a31088fbcad06fed527dbfb765a50b8e7ff",
+    "sha256": "e8b1f39c9ecb67af9305eceb712510c272c9c2c860037147016eb43c9b343ce9",
     "source_url": "https://support.claude.com/en/articles/13837440-use-plugins-in-claude.md",
     "status": "archived"
   },
@@ -34424,7 +34438,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13837440-use-plugins-in-claude/index.md",
-    "sha256": "f706581a592bbe1d9db99621986c7eaa3cace8fb4c08ad6b5a093fc56552cf8a",
+    "sha256": "64b3ba5bd8342650f78c9b4f6336e1103d2f5cca76169076bb4c7656bdf67a11",
     "source_url": "https://support.claude.com/en/articles/13837440-use-plugins-in-claude.md",
     "status": "archived"
   },
@@ -34434,7 +34448,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13837440-use-plugins-in-claude-cowork/index.md",
-    "sha256": "d83e44037e9d5cf08fa272c9affc8a31088fbcad06fed527dbfb765a50b8e7ff",
+    "sha256": "e8b1f39c9ecb67af9305eceb712510c272c9c2c860037147016eb43c9b343ce9",
     "source_url": "https://support.claude.com/en/articles/13837440-use-plugins-in-claude.md",
     "status": "archived"
   },
@@ -34444,7 +34458,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13837440-use-plugins-in-cowork/index.md",
-    "sha256": "d83e44037e9d5cf08fa272c9affc8a31088fbcad06fed527dbfb765a50b8e7ff",
+    "sha256": "e8b1f39c9ecb67af9305eceb712510c272c9c2c860037147016eb43c9b343ce9",
     "source_url": "https://support.claude.com/en/articles/13837440-use-plugins-in-claude.md",
     "status": "archived"
   },
@@ -34684,7 +34698,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13947068/index.md",
-    "sha256": "a01aedc4bcd90960c5b04bb7f377bb64c0f84ca7330034b12006f95803afb0b4",
+    "sha256": "b6243307037cc3124c9d168c3a015e28893473f6846a0326aa76cfa60af998af",
     "source_url": "https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork.md",
     "status": "archived"
   },
@@ -34694,7 +34708,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork/index.md",
-    "sha256": "a01aedc4bcd90960c5b04bb7f377bb64c0f84ca7330034b12006f95803afb0b4",
+    "sha256": "b6243307037cc3124c9d168c3a015e28893473f6846a0326aa76cfa60af998af",
     "source_url": "https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork.md",
     "status": "archived"
   },
@@ -34704,7 +34718,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/13947068-assign-tasks-to-claude-from-anywhere-in-cowork/index.md",
-    "sha256": "9169a655eb294cb356145f20aafb8a65ca79f72ec8610510d4cf7addac9c7f35",
+    "sha256": "2b74aad09f4e4f07214274857d40969525c0fd657006c9f3e3c81839c328e8d3",
     "source_url": "https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork.md",
     "status": "archived"
   },
@@ -34754,7 +34768,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/14116274/index.md",
-    "sha256": "d628fb5b401feaa49e47b370b346e47cb93f0d3797713904e5cc1ff1b5025df7",
+    "sha256": "09edaff31d0c648c6d4c4c6bfca3b93627cb8997437d30c1e297ccf79940e4a3",
     "source_url": "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork.md",
     "status": "archived"
   },
@@ -34764,7 +34778,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork/index.md",
-    "sha256": "91dec45da95bfbe680f5e65f54c22df834ca2c06abe2995d25e3e052c2602c98",
+    "sha256": "00ddcc9276869655ec61f4db790f5618d5dc1d5a413c4f53b88432fb5f207e70",
     "source_url": "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork.md",
     "status": "archived"
   },
@@ -34774,7 +34788,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-cowork/index.md",
-    "sha256": "d628fb5b401feaa49e47b370b346e47cb93f0d3797713904e5cc1ff1b5025df7",
+    "sha256": "09edaff31d0c648c6d4c4c6bfca3b93627cb8997437d30c1e297ccf79940e4a3",
     "source_url": "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork.md",
     "status": "archived"
   },
@@ -34914,7 +34928,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/14499648/index.md",
-    "sha256": "16078d1c945f9e59d7c7c16dcad854776cfb1e21a3aedc07f249f6260a978ec1",
+    "sha256": "fcb7a7054ac507d01bb76b744c41dec9206a86e3ebd7bf9b98d3cb365b2f5a14",
     "source_url": "https://support.claude.com/en/articles/14499648-how-scim-sync-works-for-enterprise-organizations.md",
     "status": "archived"
   },
@@ -34924,7 +34938,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/14499648-how-scim-sync-works-for-enterprise-organizations/index.md",
-    "sha256": "183dbf50c7c5a8c06ab5d14d400243933a13e7ca3a7e6bca9802213648467de9",
+    "sha256": "c1686e79b14d384507a94f94aa24b6f124801630fba77daf2939a18fb799321b",
     "source_url": "https://support.claude.com/en/articles/14499648-how-scim-sync-works-for-enterprise-organizations.md",
     "status": "archived"
   },
@@ -35434,7 +35448,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/15330088/index.md",
-    "sha256": "7c2424f86583c1667386653492e1fff4371aa20394ed6eb9f1012c5103f77982",
+    "sha256": "a78b10ad07dc384db62820974b3677b135ade352f712256b7939d121fe86d753",
     "source_url": "https://support.claude.com/en/articles/15330088-set-a-default-model-for-your-organization.md",
     "status": "archived"
   },
@@ -35614,7 +35628,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/15455031/index.md",
-    "sha256": "e403d7cbdc76a233d6a13a0fd1f8273469390a9368146f95c9a4a9228445db95",
+    "sha256": "f20bc067e980dd25960c693acad12dc5507fee26d24c63014327580062eded90",
     "source_url": "https://support.claude.com/en/articles/15455031-covered-models-under-a-business-associate-agreement-baa.md",
     "status": "archived"
   },
@@ -35784,7 +35798,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/15694740/index.md",
-    "sha256": "bee5b4ac80b18b15183e98a02a5640149bea1e33e339c13686f19e8dd716c053",
+    "sha256": "f5a0834060dc6261e53f8edd8e944db1c6e00bda070679533f3b0b8968f56cb5",
     "source_url": "https://support.claude.com/en/articles/15694740-manage-model-access-for-your-organization.md",
     "status": "archived"
   },
@@ -35864,7 +35878,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/15926041/index.md",
-    "sha256": "1467f2d6a7af33943de79dab3e6d2703443a372d2142d02d9106881ee673262a",
+    "sha256": "c4229c1638a1ba270455aabfcf853f2d2072e163d10fb911ec2d8b4d70cb4d18",
     "source_url": "https://support.claude.com/en/articles/15926041-claude-for-teachers-your-data-and-our-terms.md",
     "status": "archived"
   },
@@ -35904,7 +35918,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/15936181/index.md",
-    "sha256": "d6e0cf32a670d4b7bb32a2766c4652d8df3de63e827163595b33895529bf392d",
+    "sha256": "9333643316f5d1edd688c1f3c1331101897e880ceca92740ac064c0670369fc3",
     "source_url": "https://support.claude.com/en/articles/15936181-get-started-with-1password-for-claude.md",
     "status": "archived"
   },
@@ -35924,7 +35938,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/15937951/index.md",
-    "sha256": "087a541665b89e0b0a8a58d9647fab78c09d56257586a6b87257c77d99288e80",
+    "sha256": "2fcc4377a046c61afca48386e04728df39f2a99d3afc62f31389f5d5971efcbf",
     "source_url": "https://support.claude.com/en/articles/15937951-view-your-organization-s-support-tickets.md",
     "status": "archived"
   },
@@ -35934,7 +35948,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/15937951-view-your-organization-s-support-tickets/index.md",
-    "sha256": "dac63ac6a2b896716ed55597f45eb1c58d3cb2023be098b2940d0b12785db204",
+    "sha256": "2fcc4377a046c61afca48386e04728df39f2a99d3afc62f31389f5d5971efcbf",
     "source_url": "https://support.claude.com/en/articles/15937951-view-your-organization-s-support-tickets.md",
     "status": "archived"
   },
@@ -36084,7 +36098,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/16635803/index.md",
-    "sha256": "014cd2cc8481c0aff2c582975b0347c9220852e9068711b9fe8c956e64833477",
+    "sha256": "f870fb35247d3c75a297d24b96d91d4e2f90029f26726ac6603ba8351ce7aee1",
     "source_url": "https://support.claude.com/en/articles/16635803-set-up-browser-use-in-claude-cowork-for-team-and-enterprise-plans.md",
     "status": "archived"
   },
@@ -36184,7 +36198,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/16764810-assign-a-program-to-workspaces-in-claude-console/index.md",
-    "sha256": "fd8a84e9efef3df4b508f7c5103e85d1d62874c9b02a28725bd75dd0d7bf2539",
+    "sha256": "831878add55e1183c128caf43be15e1b5455a5ddb4cbf4df6831e5525dd7f4fd",
     "source_url": "https://support.claude.com/en/articles/16764810-assign-a-program-to-workspaces-in-claude-console.md",
     "status": "archived"
   },
@@ -36204,7 +36218,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/16893491-get-started-with-smart-reports/index.md",
-    "sha256": "ee6eda0b62f9508c78515f217f1e39d0c4eb0e391bd10dcfcc36a65955d59850",
+    "sha256": "86a0cdb3a0484507260d6c459f2c12f78a03743155a5cf1ef5ec7a65fb23e7c6",
     "source_url": "https://support.claude.com/en/articles/16893491-get-started-with-smart-reports.md",
     "status": "archived"
   },
@@ -36409,6 +36423,16 @@
     "source_url": "https://support.claude.com/en/articles/17161993-why-claude-switched-models-in-your-conversation-with-sonnet-5-5.md",
     "status": "archived"
   },
+  "https://support.claude.com/en/articles/17203415-set-up-claude-for-intune": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/support.claude.com/en/articles/17203415-set-up-claude-for-intune/index.md",
+    "sha256": "dc2a2a80ff19df008c0a024ced028c234131cc77dbba420c166516c0653d6324",
+    "source_url": "https://support.claude.com/en/articles/17203415-set-up-claude-for-intune.md",
+    "status": "archived"
+  },
   "https://support.claude.com/en/articles/17274727-artifact-usage-promotion": {
     "content_notes": [
       "Native source; upstream MDX components retained."
@@ -36417,6 +36441,26 @@
     "path": "content/support.claude.com/en/articles/17274727-artifact-usage-promotion/index.md",
     "sha256": "94313c51e487c1ce928623279d77ab425532e0c919e30a209ebfdd4e47cb1183",
     "source_url": "https://support.claude.com/en/articles/17274727-artifact-usage-promotion.md",
+    "status": "archived"
+  },
+  "https://support.claude.com/en/articles/17318731": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/support.claude.com/en/articles/17318731/index.md",
+    "sha256": "3d350b16d4d04f6279897fde22a58ef52d1d7feff1c9677944b246fdc615ea4b",
+    "source_url": "https://support.claude.com/en/articles/17318731-use-claude-code-local-mode-and-claude-cowork-local-mode-on-a-hipaa-ready-enterprise-plan.md",
+    "status": "archived"
+  },
+  "https://support.claude.com/en/articles/17318731-use-claude-code-local-mode-and-claude-cowork-local-mode-on-a-hipaa-ready-enterprise-plan": {
+    "content_notes": [
+      "Native source; upstream MDX components retained."
+    ],
+    "format": "native-markdown",
+    "path": "content/support.claude.com/en/articles/17318731-use-claude-code-local-mode-and-claude-cowork-local-mode-on-a-hipaa-ready-enterprise-plan/index.md",
+    "sha256": "3d350b16d4d04f6279897fde22a58ef52d1d7feff1c9677944b246fdc615ea4b",
+    "source_url": "https://support.claude.com/en/articles/17318731-use-claude-code-local-mode-and-claude-cowork-local-mode-on-a-hipaa-ready-enterprise-plan.md",
     "status": "archived"
   },
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": {
@@ -36555,7 +36599,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/8114491-getting-started-with-claude/index.md",
-    "sha256": "6034482e45d8e89d05ba51526cdc3e503d9314a1c4a717c71a16f36e915c3d61",
+    "sha256": "41927824508d2eeb5a6b7d6a70fc65805e6d192c91e2566434a2198f4a1e1dfe",
     "source_url": "https://support.claude.com/en/articles/8114491-get-started-with-claude.md",
     "status": "archived"
   },
@@ -36835,7 +36879,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/8325618/index.md",
-    "sha256": "b215b380ffcf810ef432f2ea61c11e3d0cbc1ec3b473616a05a291948899cf72",
+    "sha256": "b4b706e0f597ac66356b5d49ad1c07a31d94c1cb28b96080cebb67554a67aaf6",
     "source_url": "https://support.claude.com/en/articles/8325618-paid-plan-billing-faqs.md",
     "status": "archived"
   },
@@ -37305,7 +37349,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/9267400/index.md",
-    "sha256": "952df89cd312b181646364e850b502d0a3e2e126930aa957e841fb53516d3116",
+    "sha256": "48b9acf448172531b770ce169404b514648e3954bdd8be5100b29aaa5a9a6a93",
     "source_url": "https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization.md",
     "status": "archived"
   },
@@ -37315,7 +37359,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/9267400-can-individuals-with-pro-or-max-plan-accounts-migrate-them-to-team-or-enterprise-plan-organizations/index.md",
-    "sha256": "952df89cd312b181646364e850b502d0a3e2e126930aa957e841fb53516d3116",
+    "sha256": "48b9acf448172531b770ce169404b514648e3954bdd8be5100b29aaa5a9a6a93",
     "source_url": "https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization.md",
     "status": "archived"
   },
@@ -37447,7 +37491,7 @@
     ],
     "format": "native-markdown",
     "path": "content/support.claude.com/en/articles/9519177/index.md",
-    "sha256": "e79b8a666050df5e11d420a9e6edb7223d22d088136a247248ccc8dcc0960ec2",
+    "sha256": "cb3cb5dd078409e79f7a9c7ef1df3051c0d71c754fdff272d5fce52026acf93e",
     "source_url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects.md",
     "status": "archived"
   },
@@ -37798,7 +37842,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/support.claude.com/en/collections/10351014-security-and-compliance/index.md",
-    "sha256": "1ce21d8598ac3bdc341295095b0d840e48ff8544189474c40f73dbc2724b9530",
+    "sha256": "54392aabe2367154ddbf1435d974da6a3208ba9c7cef94941af8dd8c5c5335f0",
     "source_url": "https://support.claude.com/en/collections/10351014-security-and-compliance",
     "status": "archived",
     "text_validation": "complete",
@@ -38194,7 +38238,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/support.claude.com/en/collections/9387370/index.md",
-    "sha256": "be29bab1e7a1c5f2d77b82c61b6381a1d44c0be41dcc3f5501308a125b82e48c",
+    "sha256": "39b0676d80a30963e6062fada0fd8dc83ccca566d95253c09c6cfaaaa5415b86",
     "source_url": "https://support.claude.com/en/collections/9387370-team-and-enterprise-plans",
     "status": "archived",
     "text_validation": "complete",
@@ -38282,7 +38326,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/support.claude.com/en/collections/9811449-admin-management/index.md",
-    "sha256": "7053d8ebb9f16100a042b59e9479c6b572457bab3439b3bb2dcba25b97feb61f",
+    "sha256": "eecfaf9950c50f92caa3926b13bfe3bb763066c0b8237f9ca7d4b25da1bc882c",
     "source_url": "https://support.claude.com/en/collections/9811449-admin-management",
     "status": "archived",
     "text_validation": "complete",
@@ -38639,7 +38683,6 @@
     "content_notes": [
       "Embedded media URLs preserved; video/audio binaries are not mirrored.",
       "Could not read tab 'Game play': TimeoutError",
-      "Could not read tab 'AI game design': TimeoutError",
       "Could not read tab 'Game play': TimeoutError",
       "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
     ],
@@ -39682,7 +39725,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-2/index.md",
-    "sha256": "12c80c473f1fef20b799554e198b2171c4842dc5c39752749471972c81a5877b",
+    "sha256": "934cfc062820a73ab84e44903f9f554112c6c3e438eb1ceb872e1b6728a67dfc",
     "source_url": "https://www.anthropic.com/news/claude-2",
     "status": "archived",
     "text_validation": "complete",
@@ -39693,7 +39736,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-2-1/index.md",
-    "sha256": "c86f9888dc52ec6767e008ce36c7175090a1adde7b232bc30f891d8591500242",
+    "sha256": "ff85650d9493f41bc3482f9ff51e8e2eedc2c88fc5faf48bd6bd458dfb1e6548",
     "source_url": "https://www.anthropic.com/news/claude-2-1",
     "status": "archived",
     "text_validation": "complete",
@@ -39715,7 +39758,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-3-7-sonnet/index.md",
-    "sha256": "1323354af0eb7380237979e6943f04f4f4d993660d3ac03838cee0708aecdd63",
+    "sha256": "4d31f934a07c235404a616359558bab232f5245e93a6ae97516b3d2144ae2d82",
     "source_url": "https://www.anthropic.com/news/claude-3-7-sonnet",
     "status": "archived",
     "text_validation": "complete",
@@ -39748,7 +39791,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-4/index.md",
-    "sha256": "7a1495e3f9261ec308bd3efd942981d0c1de005f0c087f3f37fd02c50249da9c",
+    "sha256": "b5709cd74cfa5e2c72b6aa2a9d85aadb8e06e34c934568ceaec349ab484cd107",
     "source_url": "https://www.anthropic.com/news/claude-4",
     "status": "archived",
     "text_validation": "complete",
@@ -39783,7 +39826,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-brazil/index.md",
-    "sha256": "033ab15fbc8a9356fd82eea6bbc6f47c2fb8aab164f2b9b7980c229cdacbdc9e",
+    "sha256": "69e5c5efab76501782d1c97bb5524e310b46200a87c8b238ed79299db36451c2",
     "source_url": "https://www.anthropic.com/news/claude-brazil",
     "status": "archived",
     "text_validation": "complete",
@@ -39873,7 +39916,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-europe/index.md",
-    "sha256": "efb8acae8cf7b3c7434b78eb63651cb988e840872105e951e595ff6ebef08bfa",
+    "sha256": "ea7ae5f69c880f0cb211ca1a1b568f5ca0c1f5d20047759b3fd52490c5892d93",
     "source_url": "https://www.anthropic.com/news/claude-europe",
     "status": "archived",
     "text_validation": "complete",
@@ -39881,6 +39924,7 @@
   },
   "https://www.anthropic.com/news/claude-fable-5-mythos-5": {
     "content_notes": [
+      "Could not read tab 'Fluid with Classical EDM': TimeoutError",
       "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
     ],
     "format": "browser-html",
@@ -39910,7 +39954,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-for-creative-work/index.md",
-    "sha256": "6268c275c257be2fd572a92456dab2448fe5e0cc1c175bc9acf0f68a612ab47e",
+    "sha256": "4509914eb77fc9abce292c97879ba39eb6c728e5bc773a6637f71da7e66b33bb",
     "source_url": "https://www.anthropic.com/news/claude-for-creative-work",
     "status": "archived",
     "text_validation": "complete",
@@ -39943,7 +39987,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-for-life-sciences/index.md",
-    "sha256": "3a649cd3a557ff2a6f60567989ca0625ea9673ff5047c38d1613e5a5a7bd3a8a",
+    "sha256": "7b7a1b569bed5433915fe98e554e1d804fb56783b04eae409f9242a2ef30720e",
     "source_url": "https://www.anthropic.com/news/claude-for-life-sciences",
     "status": "archived",
     "text_validation": "complete",
@@ -40009,7 +40053,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-haiku-4-5/index.md",
-    "sha256": "c2197acaeb2c6be9f971c72f3b316abede785ae033032337270429710706f1f7",
+    "sha256": "a0d34e15ba76590a1dbfafcdad0f6668b27b058bc8c3081103dfb3581a926a87",
     "source_url": "https://www.anthropic.com/news/claude-haiku-4-5",
     "status": "archived",
     "text_validation": "complete",
@@ -40084,12 +40128,14 @@
   "https://www.anthropic.com/news/claude-opus-4-5": {
     "content_notes": [
       "Could not read tab 'Aider Polyglot': TimeoutError",
+      "Could not read tab 'BrowseComp-Plus': TimeoutError",
+      "Could not read tab 'Vending-Bench': TimeoutError",
       "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
     ],
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-opus-4-5/index.md",
-    "sha256": "09f0c16155c82a058f0d2fb80ce1850c3aea6d8cdc40e906e7d2735598a7dd50",
+    "sha256": "58214a5d7214bb4a39955b5cd0a2677c299cbeb17811d3ba392df28e462e9d27",
     "source_url": "https://www.anthropic.com/news/claude-opus-4-5",
     "status": "archived",
     "text_validation": "partial",
@@ -40097,15 +40143,16 @@
   },
   "https://www.anthropic.com/news/claude-opus-4-6": {
     "content_notes": [
+      "Could not read tab 'Coding': TimeoutError",
       "Could not read tab 'Reasoning': TimeoutError",
-      "Could not read tab 'Long-context reasoning': TimeoutError",
       "Could not read tab 'Multilingual coding': TimeoutError",
+      "Could not read tab 'Cybersecurity': TimeoutError",
       "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
     ],
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-opus-4-6/index.md",
-    "sha256": "65e70544f45a0ecd0149fcb937ffe9555cccbb880612e748fb05ba418936ed3e",
+    "sha256": "cde99b0366187414b28df9ef966817efcf07a7687b86cf1eb88f0dd45a2f79e7",
     "source_url": "https://www.anthropic.com/news/claude-opus-4-6",
     "status": "archived",
     "text_validation": "partial",
@@ -40113,7 +40160,10 @@
   },
   "https://www.anthropic.com/news/claude-opus-4-7": {
     "content_notes": [
+      "Could not read tab 'Document reasoning': TimeoutError",
       "Could not read tab 'Long-context reasoning': TimeoutError",
+      "Could not read tab 'Biology': TimeoutError",
+      "Could not read tab 'Long-term coherence': TimeoutError",
       "Could not read tab 'Coding': TimeoutError",
       "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
     ],
@@ -40131,7 +40181,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-opus-4-8/index.md",
-    "sha256": "4dfae03d124f8e2eb957edf1d6a4e0699c8d90209375551e87925aad2a832254",
+    "sha256": "44c9945ddd9a9747bf68a3b3622ff2282a40d8e3a57f49e165c7dd0163707030",
     "source_url": "https://www.anthropic.com/news/claude-opus-4-8",
     "status": "archived",
     "text_validation": "complete",
@@ -40139,15 +40189,16 @@
   },
   "https://www.anthropic.com/news/claude-opus-5": {
     "content_notes": [
-      "Could not read tab 'GDPval-AA v2': TimeoutError",
-      "Could not read tab 'HLE': TimeoutError",
+      "Could not read tab 'CursorBench': TimeoutError",
+      "Could not read tab 'OSWorld 2.0': TimeoutError",
+      "Could not read tab 'AutomationBench': TimeoutError",
       "Could not read tab 'DeepSearchQA': TimeoutError",
       "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
     ],
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-opus-5/index.md",
-    "sha256": "350664147ee9b363cfa206118172aa202d6cc8e846154677636e8a2c5de2ac19",
+    "sha256": "8581a8369f3ddf3aa656cadec43224ec2975680daadbf92845e0a3a7f3d37088",
     "source_url": "https://www.anthropic.com/news/claude-opus-5",
     "status": "archived",
     "text_validation": "partial",
@@ -40169,7 +40220,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-pro/index.md",
-    "sha256": "35563b822f6823f187dab828268a907a76236ca1e590107997fdd78baa22347e",
+    "sha256": "acd0eaa16c859bce62bfe693226191ac9e047d29c36153b5b793814a1b22b0e7",
     "source_url": "https://www.anthropic.com/news/claude-pro",
     "status": "archived",
     "text_validation": "complete",
@@ -40188,12 +40239,14 @@
   },
   "https://www.anthropic.com/news/claude-sonnet-4-5": {
     "content_notes": [
+      "Could not read tab 'Law': TimeoutError",
+      "Could not read tab 'Medicine': TimeoutError",
       "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
     ],
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-sonnet-4-5/index.md",
-    "sha256": "7a51a76da265b4602cb2ee7952728c11695e6a9f12e5b8bfae1ed88a95c9d27b",
+    "sha256": "d1870d4b8214fe1dd30144c16d8265886116a03147950076faa58771469f607e",
     "source_url": "https://www.anthropic.com/news/claude-sonnet-4-5",
     "status": "archived",
     "text_validation": "partial",
@@ -40204,7 +40257,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/claude-sonnet-4-6/index.md",
-    "sha256": "4b2f7aa05e5107fc96fdd06010c73a9777de568b9ffa8ae229fdf6ec30343515",
+    "sha256": "11f5735e25f397da17b948c113ab4bb6e57d1f0df230c69715ae8a6f4a35a7c5",
     "source_url": "https://www.anthropic.com/news/claude-sonnet-4-6",
     "status": "archived",
     "text_validation": "complete",
@@ -40212,7 +40265,6 @@
   },
   "https://www.anthropic.com/news/claude-sonnet-5": {
     "content_notes": [
-      "Could not read tab 'Agentic computer use': TimeoutError",
       "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
     ],
     "format": "browser-html",
@@ -40321,7 +40373,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/constitutional-classifiers/index.md",
-    "sha256": "7b65c27240b84abe64d2508108a5fe7e9615ec05c49bfd0be019ae6b72119265",
+    "sha256": "6162b2ace5d4b992a2f7e6280d45d79d138b3ca6c1068266acba33b93b341cd4",
     "source_url": "https://www.anthropic.com/news/constitutional-classifiers",
     "status": "archived",
     "text_validation": "complete",
@@ -40723,7 +40775,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/expanding-support-for-scientists/index.md",
-    "sha256": "012024b0cb5fccadf592b8fb2d6d482b1a6b12e4eac8c3aa9424c03ad71c5b74",
+    "sha256": "466ed16924568f9d5dda7188e4b343f0e4c48133651e19dd97b5455d9bca6704",
     "source_url": "https://www.anthropic.com/news/expanding-support-for-scientists",
     "status": "archived",
     "text_validation": "complete",
@@ -40846,7 +40898,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/golden-gate-claude/index.md",
-    "sha256": "7ca321677baec15804325920a691918b7c7c1e940a64397d13d97ec230863e09",
+    "sha256": "962d28711f24fe36d20ab370e854662294308716b8672a2e5d8cf31c30b4cac9",
     "source_url": "https://www.anthropic.com/news/golden-gate-claude",
     "status": "archived",
     "text_validation": "complete",
@@ -40920,13 +40972,12 @@
   },
   "https://www.anthropic.com/news/healthcare-life-sciences": {
     "content_notes": [
-      "Could not read tab 'SpatialBench: Spatial biology analysis by LatchBio': TimeoutError",
       "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
     ],
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/news/healthcare-life-sciences/index.md",
-    "sha256": "3517518df1402f5050993d6efee286652f525b246afefeed1a77ddefadc19bc0",
+    "sha256": "0e3d4c341ba8f00b3f052a6583410b911fa75ccc8631745951911fcd19b54fca",
     "source_url": "https://www.anthropic.com/news/healthcare-life-sciences",
     "status": "archived",
     "text_validation": "partial",
@@ -41064,7 +41115,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/introducing-claude-tag/index.md",
-    "sha256": "b4860a00c4d7db4e13d429f3925260608ce5acd949be14bb25dd699fd1fe9cfa",
+    "sha256": "c387918f7c5446107c44b5dc36b240dda2eed6e900cd33b4e59aaafdf64aaf3f",
     "source_url": "https://www.anthropic.com/news/introducing-claude-tag",
     "status": "archived",
     "text_validation": "complete",
@@ -41075,7 +41126,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/introducing-claude-to-canada/index.md",
-    "sha256": "de9e67ef80cdb957e5166592c95a94f88116a23f44117ce30c18f1139c401acb",
+    "sha256": "360a5c3971f12637e5d17dcdfabff9c11c81f1450ba4a22b962b272ceae5516f",
     "source_url": "https://www.anthropic.com/news/introducing-claude-to-canada",
     "status": "archived",
     "text_validation": "complete",
@@ -41196,7 +41247,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/life-sciences-verification-program/index.md",
-    "sha256": "36c4759977f6c9e1f3331001accff4a350df25e4867469792443bc65753a8f6c",
+    "sha256": "a417a00823178af5eac6f9dda6d8d43d0492f02e7c623a362b3405e947407033",
     "source_url": "https://www.anthropic.com/news/life-sciences-verification-program",
     "status": "archived",
     "text_validation": "complete",
@@ -41218,7 +41269,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/mapping-mind-language-model/index.md",
-    "sha256": "d95cd1062e4e76892880133ea41d3055ee6cb4d70e04186c1b8cb96ca1e507de",
+    "sha256": "f22e0b80cc99872e79ae2d34834c852ce6baa82a30d82f27a9349d5e07046615",
     "source_url": "https://www.anthropic.com/news/mapping-mind-language-model",
     "status": "archived",
     "text_validation": "complete",
@@ -41323,7 +41374,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/model-context-protocol/index.md",
-    "sha256": "426795e949c02fe9e5c6148ae0720f5ee98126eb07b72bfff9c8a92c7305f821",
+    "sha256": "c6f57f5e6ffb4fbf8d35fc64eed1a0629c2bef8a4c5d24ebf58376b34b67e347",
     "source_url": "https://www.anthropic.com/news/model-context-protocol",
     "status": "archived",
     "text_validation": "complete",
@@ -41359,7 +41410,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/mou-uk-government/index.md",
-    "sha256": "aaeb8f4ac04fa9c894d0933485f65d72fb3cfaefb339f87cd7f151e46b95d801",
+    "sha256": "96a20fe21a5d211a29581f7f2ad32e5fd71d1d64939d57865940a920fae05f69",
     "source_url": "https://www.anthropic.com/news/mou-uk-government",
     "status": "archived",
     "text_validation": "complete",
@@ -41513,7 +41564,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/political-even-handedness/index.md",
-    "sha256": "e4ab09b04f0e6d7b9e4e214f5d42540dbf4a7bb6ee528b48224c9823ca198994",
+    "sha256": "c36b5d0b68c9b6d3c6ec7438d87ba047178caf320f1bfe86da40f49caa463770",
     "source_url": "https://www.anthropic.com/news/political-even-handedness",
     "status": "archived",
     "text_validation": "complete",
@@ -41559,7 +41610,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/projects/index.md",
-    "sha256": "111b46bf05f5e89e613524ff9bda111e9210f01816a4bf6633bce20d4942a909",
+    "sha256": "800e24604b4ccaba0cc97112bab3b6302897dd3f8100b7dc6d21ba59c74ea870",
     "source_url": "https://www.anthropic.com/news/projects",
     "status": "archived",
     "text_validation": "complete",
@@ -41581,7 +41632,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/prompt-engineering-for-business-performance/index.md",
-    "sha256": "5e0a4c92c53200e31fabe68e1ebf005ae609422d55aa256f6ace97e19ab5d5b7",
+    "sha256": "3ff47562207ec52180a0296e2f7067d21e0c4013f2dea98c08d7d0b3c73479e3",
     "source_url": "https://www.anthropic.com/news/prompt-engineering-for-business-performance",
     "status": "archived",
     "text_validation": "complete",
@@ -41627,7 +41678,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/protecting-well-being-of-users/index.md",
-    "sha256": "a9afd04db0b6a3be7212d934607d5863ac6bdb4553ca289757730f89b349de6f",
+    "sha256": "6f890fac9392ac8012208d8b4c199f8afe9a22d2dfa11580ba3857f322c74bbd",
     "source_url": "https://www.anthropic.com/news/protecting-well-being-of-users",
     "status": "archived",
     "text_validation": "complete",
@@ -41704,7 +41755,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/reflect-with-claude/index.md",
-    "sha256": "2468a7a2414e30e373fb220c6bd7f4555eef33231a06232a44ea7f98e5a18ade",
+    "sha256": "a8a075089dd6e67f4a6fe0ad65cea08f29b898056e655780f3cb870bcc42be97",
     "source_url": "https://www.anthropic.com/news/reflect-with-claude",
     "status": "archived",
     "text_validation": "complete",
@@ -42007,7 +42058,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/testing-and-mitigating-elections-related-risks/index.md",
-    "sha256": "648789c1111467c2ad8797678ad500b64a96f6fba76e414ea30240f074f05f8d",
+    "sha256": "ae2567f2a6c9a1e19c38e8f37762aff7a40e8b0382866ff7788b5ce18bbf09ce",
     "source_url": "https://www.anthropic.com/news/testing-and-mitigating-elections-related-risks",
     "status": "archived",
     "text_validation": "complete",
@@ -42029,7 +42080,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/the-anthropic-economic-index/index.md",
-    "sha256": "8baeb7a8ff396aea9b1dd9359fe33843b9224d119373ae71a049171c17f22f28",
+    "sha256": "00b853d14c8aa11c66621a623e453ba447e96bea995132e01fd31522dfb2477b",
     "source_url": "https://www.anthropic.com/news/the-anthropic-economic-index",
     "status": "archived",
     "text_validation": "complete",
@@ -42185,7 +42236,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/updates-to-our-consumer-terms/index.md",
-    "sha256": "a5785420083ae3841bb93c114eaee7106ddfe9f74722291d4fe8c4cfefa7bb77",
+    "sha256": "1a4fffb59ef7003a2dee5a5878a9f2cc955df43484b5cf0fd0f3f712c257d54b",
     "source_url": "https://www.anthropic.com/news/updates-to-our-consumer-terms",
     "status": "archived",
     "text_validation": "complete",
@@ -42251,7 +42302,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/news/visible-extended-thinking/index.md",
-    "sha256": "ac6e07dcd01c3bffa8f863c00628a069bd1664ca8493c6681b94f8ff19cd42f5",
+    "sha256": "88b4a4a5424053341a6ccd2b8c88f1414fcfcea5e5af0e0a8c741d54eae7be9e",
     "source_url": "https://www.anthropic.com/news/visible-extended-thinking",
     "status": "archived",
     "text_validation": "complete",
@@ -42513,7 +42564,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/research/anthropic-economic-index-january-2026-report/index.md",
-    "sha256": "71c430bf9da134813ce275a852cfa09ed0d8c652fd3f232e4d0bfae99730125d",
+    "sha256": "ffda1a074f2359ad0b791e193355f4d37f60796d655c4ce80924da4f954a2931",
     "source_url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
     "status": "archived",
     "text_validation": "partial",
@@ -42526,7 +42577,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/research/anthropic-economic-index-september-2025-report/index.md",
-    "sha256": "604880e5835b90242c6fe78735fabe33d8e4f1310827626f7bb4d5ae626b4105",
+    "sha256": "8c279747be67670c795c1187f93542888580411a5b1812c9b503b01fa571b2de",
     "source_url": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report",
     "status": "archived",
     "text_validation": "partial",
@@ -42558,27 +42609,20 @@
     "content_notes": [
       "Could not read tab 'Creatives': TimeoutError",
       "Could not read tab 'Scientists': TimeoutError",
-      "Could not read tab 'Computer & Math': TimeoutError",
-      "Could not read tab 'Art, Design, & Media': TimeoutError",
       "Could not read tab 'Business & Financial': TimeoutError",
-      "Could not read tab 'Office & Admin': TimeoutError",
       "Could not read tab 'Sales': TimeoutError",
-      "Could not read tab 'Visual artists': TimeoutError",
-      "Could not read tab 'Craftspeople': TimeoutError",
       "Could not read tab 'Designers': TimeoutError",
       "Could not read tab 'Filmmakers': TimeoutError",
       "Could not read tab 'Game developers': TimeoutError",
-      "Could not read tab 'Physicists': TimeoutError",
       "Could not read tab 'Chemical engineers': TimeoutError",
       "Could not read tab 'Data scientists': TimeoutError",
       "Could not read tab 'Mechanical engineers': TimeoutError",
-      "Could not read tab 'Astronomers': TimeoutError",
       "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
     ],
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/research/anthropic-interviewer/index.md",
-    "sha256": "b83d73d9d1d4f12306372f628fc685ae57f4aad0b19b40b3f58bdbaa7602647b",
+    "sha256": "b509e75b4549046b7bd0a3862d970e52d9fea6d2426256aa2bd66c061fd58397",
     "source_url": "https://www.anthropic.com/research/anthropic-interviewer",
     "status": "archived",
     "text_validation": "partial",
@@ -42660,7 +42704,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/bloom/index.md",
-    "sha256": "b587d7fe2100e22ecd396bc2ceaf56c7df99e4d02da94ca8566194cb4b4d7efa",
+    "sha256": "579be7774868be7ec02fe92a2bab7746a33afb8114ae7540898247cf782ffb8b",
     "source_url": "https://www.anthropic.com/research/bloom",
     "status": "archived",
     "text_validation": "complete",
@@ -42770,7 +42814,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/claude-3-7-sonnet/index.md",
-    "sha256": "3ae217c8cda1926d744b74532b1156df5db8a56d156fa8b04c4a2e95562418e9",
+    "sha256": "cb38abb868808d184354edec5fa6a48395defd85ca04a32748f6ba49e97e08e1",
     "source_url": "https://www.anthropic.com/research/claude-3-7-sonnet",
     "status": "archived",
     "text_validation": "complete",
@@ -42803,7 +42847,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/claude-code-expertise/index.md",
-    "sha256": "4d82ad9a3f393dab3ddd928d4bc7550b5d92cf4a96346ca1817bd93138c6c389",
+    "sha256": "2dcd664bf671273cb14e64372316e17232e8d01f6809c0ce0fa25a4905ea9da1",
     "source_url": "https://www.anthropic.com/research/claude-code-expertise",
     "status": "archived",
     "text_validation": "complete",
@@ -42811,7 +42855,6 @@
   },
   "https://www.anthropic.com/research/claude-fable-5-mythos-5": {
     "content_notes": [
-      "Could not read tab 'Factorio': TimeoutError",
       "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
     ],
     "format": "browser-html",
@@ -42828,7 +42871,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/claude-opus-4-8/index.md",
-    "sha256": "90e956f79ded051dda9923fad1ba611b672cf8f90d405ea9d7592c3aeaccc8bd",
+    "sha256": "5e62a6d1f198c0b06b6cd64e0c15a2ea5e287dad2939909866f4ec870879b1ca",
     "source_url": "https://www.anthropic.com/research/claude-opus-4-8",
     "status": "archived",
     "text_validation": "complete",
@@ -42859,7 +42902,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/research/claude-personal-guidance/index.md",
-    "sha256": "e7e003bb043927ab1b872d4bae24ed3300ef958a5c0745642cb18210bb89be36",
+    "sha256": "44dca46e82fc8dc6cd61b55400a1294b4b06235926549a31b6a6f2aac8956366",
     "source_url": "https://www.anthropic.com/research/claude-personal-guidance",
     "status": "archived",
     "text_validation": "partial",
@@ -42894,7 +42937,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/claude-sonnet-4-6/index.md",
-    "sha256": "f21ec0cbf2390b5427f2917f4bed4eb25a1fc66b83d73ee8e6f641809fd76654",
+    "sha256": "0d12e85f812fe91970bca8d3c94e0f7c950b5b09e4cbdfdcb841344df66401f7",
     "source_url": "https://www.anthropic.com/research/claude-sonnet-4-6",
     "status": "archived",
     "text_validation": "complete",
@@ -42902,7 +42945,6 @@
   },
   "https://www.anthropic.com/research/claude-sonnet-5": {
     "content_notes": [
-      "Could not read tab 'Agentic computer use': TimeoutError",
       "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
     ],
     "format": "browser-html",
@@ -42930,12 +42972,13 @@
   "https://www.anthropic.com/research/claude-values-models-languages": {
     "content_notes": [
       "Could not read tab '': TimeoutError",
+      "Could not read tab '': TimeoutError",
       "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
     ],
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/research/claude-values-models-languages/index.md",
-    "sha256": "504b776bb0ccb1b1140c0214d002d638ba3128adaff74375e85971628ea5b74a",
+    "sha256": "ac01024ba1a1f29a2b13b28da5d9aaaf6420e92095b13770bac309733b2ffcdd",
     "source_url": "https://www.anthropic.com/research/claude-values-models-languages",
     "status": "archived",
     "text_validation": "partial",
@@ -42957,7 +43000,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/clio/index.md",
-    "sha256": "6f0809cbb26faecf6019134d3c88a20083732aef522e8d2793eb261d32579651",
+    "sha256": "db2bbbc0a10575bcb3e58bebd54cb4739d9392bee8b9fb8c329aadcc83fad84f",
     "source_url": "https://www.anthropic.com/research/clio",
     "status": "archived",
     "text_validation": "complete",
@@ -43012,7 +43055,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/constitutional-classifiers/index.md",
-    "sha256": "f566181c25efcd354fdde1dfdf7a00fdb2e87b4a0d887da91743aba15f6fed1c",
+    "sha256": "1dc475e885527a7f396997a8c79e3f37fea206127c9fe3a37f8f54ad24f23407",
     "source_url": "https://www.anthropic.com/research/constitutional-classifiers",
     "status": "archived",
     "text_validation": "complete",
@@ -43045,7 +43088,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/cyber-competitions/index.md",
-    "sha256": "4a8175e691f82f85d3a9db3a3b89058e9608130f4effb413340cca79ebabc3ca",
+    "sha256": "06aabc54ff9ef6eba5438ff600604366937bdd3c0d3795d6a5ba0e1f58e48dfa",
     "source_url": "https://www.anthropic.com/research/cyber-competitions",
     "status": "archived",
     "text_validation": "complete",
@@ -43102,7 +43145,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/deprecation-updates-opus-3/index.md",
-    "sha256": "793c2883ebf738c5b3c703337ae646e49a93b1d109b49d7203d82020d50aeb22",
+    "sha256": "fef327b11896b9689be5e533fd6ef0a167abd7bd8e6bded2b5ac1de374b689a9",
     "source_url": "https://www.anthropic.com/research/deprecation-updates-opus-3",
     "status": "archived",
     "text_validation": "complete",
@@ -43157,7 +43200,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/disempowerment-patterns/index.md",
-    "sha256": "34c9ede6a651655f8d98f28d825f1f8ed26fa71c0a1b247a201f68315c1704ae",
+    "sha256": "ae6de25d4525ae3aa189f4116068f39292b0a0719faea0c9386aafbf1ce1f390",
     "source_url": "https://www.anthropic.com/research/disempowerment-patterns",
     "status": "archived",
     "text_validation": "complete",
@@ -43192,7 +43235,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/economic-index-geography/index.md",
-    "sha256": "171d0206d3b7601253aeece0c88d78e5ad6cedecf814fc2287bf3150c38e539c",
+    "sha256": "8354d745bb6feb3cb59bbf320b5d9b6f7411348e0c83f64f6e75c9df5719300e",
     "source_url": "https://www.anthropic.com/research/economic-index-geography",
     "status": "archived",
     "text_validation": "complete",
@@ -43205,7 +43248,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/research/economic-index-june-2026-report/index.md",
-    "sha256": "b11114ea4bcfbaf363a1aeb264b37b65dc95309ee5512a48520eed65d15b508a",
+    "sha256": "abcdcf620504796122e19eb94326a7b832db6d2e3379d8f3b11bcfa0480c0a56",
     "source_url": "https://www.anthropic.com/research/economic-index-june-2026-report",
     "status": "archived",
     "text_validation": "partial",
@@ -43229,7 +43272,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/economic-index-primitives/index.md",
-    "sha256": "c3f34532fb4b780dd0652a1cc7470331f35c5f87473b27ffac21b71dd3ff6db4",
+    "sha256": "09af4ff59bfae75d136a6b1c35b644f1557550e67f86fad1197b47324066dcfb",
     "source_url": "https://www.anthropic.com/research/economic-index-primitives",
     "status": "archived",
     "text_validation": "complete",
@@ -43240,7 +43283,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/economic-index-survey-announcement/index.md",
-    "sha256": "87bb14d20cd40baaaa92c331257af4e646e76e3c9c6abb873a59785073643115",
+    "sha256": "ceddf47cff617ae1988d8c3cad937a3f35de9b9ce005d7abc154ec28427b69ae",
     "source_url": "https://www.anthropic.com/research/economic-index-survey-announcement",
     "status": "archived",
     "text_validation": "complete",
@@ -43317,7 +43360,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/estimating-productivity-gains/index.md",
-    "sha256": "f653cc03c246736ef8888d7ba38054b9cd671804817498e25b05dd4c2b349c61",
+    "sha256": "6162fff97890a5997072b0f9f0aeff48aa5d612298b0b2ed7d5543bea47879ea",
     "source_url": "https://www.anthropic.com/research/estimating-productivity-gains",
     "status": "archived",
     "text_validation": "complete",
@@ -43499,7 +43542,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/impact-software-development/index.md",
-    "sha256": "a856d8e94ae9aca50353fe9354e22a0c86ca26855280745bbefbea853509523f",
+    "sha256": "f020be179cdd349ce14fca3661f40863254ade59a9e4d6cc6f68d073b813faa0",
     "source_url": "https://www.anthropic.com/research/impact-software-development",
     "status": "archived",
     "text_validation": "complete",
@@ -43646,7 +43689,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/mapping-mind-language-model/index.md",
-    "sha256": "a545fc8e3432bec1823c43d6a97beefa13d6008ada9b9a00acf413b8c4ee4ed7",
+    "sha256": "0d2da7819a7bc54e0cf814fadec5e31862a267af8c9c699b74dc6cfcb86b6c12",
     "source_url": "https://www.anthropic.com/research/mapping-mind-language-model",
     "status": "archived",
     "text_validation": "complete",
@@ -43736,7 +43779,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/natural-language-autoencoders/index.md",
-    "sha256": "f8eb1051f96c0ae78b9efb66e645ed60c67d6cff0efae29fc686f3a18bd05a79",
+    "sha256": "18ed500796ee8170f1b02caf7dc97f36b9e2fda7f2e38873b1df5ec1265038b1",
     "source_url": "https://www.anthropic.com/research/natural-language-autoencoders",
     "status": "archived",
     "text_validation": "complete",
@@ -44246,7 +44289,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/the-anthropic-economic-index/index.md",
-    "sha256": "ed051dbbbc07d5770d0c825574001e051609c01c5677d04890fa6872fc236388",
+    "sha256": "c20797ba2aeefc10a354fc6ae778bb9eff4672007c7d06bd0efebda1f5194084",
     "source_url": "https://www.anthropic.com/research/the-anthropic-economic-index",
     "status": "archived",
     "text_validation": "complete",
@@ -44367,7 +44410,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/vibe-physics/index.md",
-    "sha256": "baaee845d585ca31c9a19c1f48b901aa9f57758320c2df44a3c67f44aef7f015",
+    "sha256": "9347126156f38ba6d3f42a0c5739fbc0f5c0134993866f7f2f70e10a567f7f1e",
     "source_url": "https://www.anthropic.com/research/vibe-physics",
     "status": "archived",
     "text_validation": "complete",
@@ -44378,7 +44421,7 @@
     "format": "html-derived",
     "language": "en",
     "path": "content/www.anthropic.com/research/visible-extended-thinking/index.md",
-    "sha256": "6ad02eadc7f49804342c7da39e570ba90c2ae9d4219bab5de6e5df6bb25c0da9",
+    "sha256": "88b4a4a5424053341a6ccd2b8c88f1414fcfcea5e5af0e0a8c741d54eae7be9e",
     "source_url": "https://www.anthropic.com/research/visible-extended-thinking",
     "status": "archived",
     "text_validation": "complete",
@@ -44503,7 +44546,7 @@
     "format": "browser-html",
     "language": "en",
     "path": "content/www.anthropic.com/transparency/voluntary-commitments/index.md",
-    "sha256": "9653edc1df0d0b261406e03b9581cbb04e90ec7a15a1e181bf80852f585c5908",
+    "sha256": "644ee3462db90b9a465c7560ba7dbbeec9dc244f4995c775dc559e795d9940e1",
     "source_url": "https://www.anthropic.com/transparency/voluntary-commitments",
     "status": "archived",
     "text_validation": "partial",
