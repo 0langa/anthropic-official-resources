@@ -2,7 +2,7 @@ Lesson 10 of 14 · The AI-native SDLC playbookAI in the PR review loop
 
 # AI in the PR review loop
 
-Lesson 104 min
+Lesson 105 min
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
@@ -49,6 +49,12 @@ Report at most five nits per review; summarize the rest as a count.
 ## Do not report
 Generated files under src/gen/ and anything CI already enforces.
 ```
+
+This example is what the check run lists for a pull request that adds a claim status panel to an insurer's customer portal, where `claims-core` is the older internal system behind the portal's backend:
+
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium" style="text-align:left">Severity</th><th class="border-b border-strong p-sm text-left font-medium" style="text-align:left">File:Line</th><th class="border-b border-strong p-sm text-left font-medium" style="text-align:left">Issue</th></tr></thead><tbody><tr><td class="border-b p-sm" style="text-align:left">Important</td><td class="border-b p-sm" style="text-align:left"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">portal/src/claims/StatusPanel.tsx:22</code></td><td class="border-b p-sm" style="text-align:left">Compliance: the panel fetches on every render. <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">plan.md</code> says it must cache, because claims-core allows 50 requests a second</td></tr><tr><td class="border-b p-sm" style="text-align:left">Important</td><td class="border-b p-sm" style="text-align:left"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">claims-api/routes/status.py:31</code></td><td class="border-b p-sm" style="text-align:left">Security: the error path logs the whole claims-core response, which includes <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">policy_holder_name</code></td></tr><tr><td class="border-b p-sm" style="text-align:left">Nit</td><td class="border-b p-sm" style="text-align:left"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">claims-api/tests/test_status.py:8</code></td><td class="border-b p-sm" style="text-align:left">Bugs: no test covers a <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">paid</code> claim with no expected date</td></tr></tbody></table>
+
+The first finding exists only because the compliance pass reads the committed `plan.md`, which a reviewer looking at the diff alone would not have open.
 
 ## Governance considerations[](https://academy.claude.com/courses/ai-native-sdlc-playbook/ai-in-the-pr-review-loop)
 

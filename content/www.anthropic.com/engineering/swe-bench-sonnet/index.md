@@ -171,7 +171,7 @@ Copy
 
 In general, the upgraded Claude 3.5 Sonnet demonstrates higher reasoning, coding, and mathematical abilities than our prior models, and the [previous state-of-the-art](https://solverai.com/) model. It also demonstrates improved agentic capabilities: the tools and scaffolding help put those improved abilities to their best use.
 
-<table class="Table-module-scss-module__Z3bHXa__table"><tbody><tr class="Table-module-scss-module__Z3bHXa__row"><th class="body-3">Model</th><th class="body-3"><strong>Claude 3.5 Sonnet (new)</strong></th><th class="body-3">Previous SOTA</th><th class="body-3">Claude 3.5 Sonnet (old)</th><th class="body-3">Claude 3 Opus</th></tr><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3">SWE-bench Verified score</td><td class="body-3">49%</td><td class="body-3">45%</td><td class="body-3">33%</td><td class="body-3">22%</td></tr></tbody></table>
+<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><th class="body-3" role="columnheader">Model</th><th class="body-3" role="columnheader"><strong>Claude 3.5 Sonnet (new)</strong></th><th class="body-3" role="columnheader">Previous SOTA</th><th class="body-3" role="columnheader">Claude 3.5 Sonnet (old)</th><th class="body-3" role="columnheader">Claude 3 Opus</th></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">SWE-bench Verified score</td><td class="body-3" role="cell">49%</td><td class="body-3" role="cell">45%</td><td class="body-3" role="cell">33%</td><td class="body-3" role="cell">22%</td></tr></tbody></table>
 
 Scores on SWE-bench Verified for some of our models, all using this agent scaffold.
 

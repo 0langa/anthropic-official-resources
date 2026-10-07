@@ -39,7 +39,7 @@ People new to Claude often type into it the way they'd type into a search box. H
 
 “What's the exchange rate from US dollars to euros today?”
 
-Sonnet 4.6
+Sonnet
 
 Search box, or thinking partner?
 
@@ -47,7 +47,7 @@ Search boxA search box could handle thisThinking partnerThis needs Claude workin
 
 Pick one to see the answer.Next request
 
-Here's a few things Claude excels at:
+Here are a few things Claude excels at:
 
 - **Writing and content creation**: Claude can collaborate with you on social media posts, professional emails, and complex reports. Because Claude is trained to take direction on personality and tone, you can iterate together on structure and clarity until your voice comes through clearly.
 - **Research and analysis**: Claude helps you explore research angles, compile findings, and analyze data to surface meaningful insights. You can upload documents and Claude will help you make sense of complex information—this is enabled by Claude's large context window, which can ingest 200K+ tokens (about 500 pages of text or more), with up to 1M tokens available on Pro, Max, Team, and Enterprise plans when using supported models. This allows Claude to consider extensive materials in a single conversation.
@@ -71,7 +71,7 @@ This course will focus primarily on [Claude.ai(opens in new tab)](https://claude
 
 ## Lesson reflection[](https://academy.claude.com/courses/claude-101/what-is-claude)
 
-What tasks in your current work might benefit from having Claude as a thinking partner? Take a look at your calendar (or better yet, ask Claude to) and identify a few tasks you might want to use Claude to support.
+What tasks in your current work might benefit from having Claude as a thinking partner? Take a look at your calendar and identify a few tasks you might want to use Claude to support. (Once you've connected your calendar, you can ask Claude to do this for you. The "Connecting your tools" lesson covers how to set up connectors.)
 
 ## What's next[](https://academy.claude.com/courses/claude-101/what-is-claude)
 

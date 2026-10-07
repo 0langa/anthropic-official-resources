@@ -78,7 +78,7 @@ The Claude 3 models are better at following complex, multi-step instructions. Th
 
 **Claude 3 Opus** is our most intelligent model, with best-in-market performance on highly complex tasks. It can navigate open-ended prompts and sight-unseen scenarios with remarkable fluency and human-like understanding. Opus shows us the outer limits of what’s possible with generative AI.
 
-<table class="Table-module-scss-module__Z3bHXa__table"><tbody><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3"><strong>Cost<br/><br/></strong><em> [Input $/million tokens | Output $/million tokens]</em></td><td class="body-3">$15 | $75</td></tr><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3"><strong>Context window</strong></td><td class="body-3">200K*</td></tr><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3"><strong>Potential uses</strong></td><td class="body-3"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Task automation: plan and execute complex actions across APIs and databases, interactive coding</li><li>R&amp;D: research review, brainstorming and hypothesis generation, drug discovery</li><li>Strategy: advanced analysis of charts &amp; graphs, financials and market trends, forecasting</li></ul></td></tr><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3"><strong>Differentiator</strong></td><td class="body-3">Higher intelligence than any other model available.</td></tr></tbody></table>
+<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Cost<br/><br/></strong><em> [Input $/million tokens | Output $/million tokens]</em></td><td class="body-3" role="cell">$15 | $75</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Context window</strong></td><td class="body-3" role="cell">200K*</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Potential uses</strong></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Task automation: plan and execute complex actions across APIs and databases, interactive coding</li><li>R&amp;D: research review, brainstorming and hypothesis generation, drug discovery</li><li>Strategy: advanced analysis of charts &amp; graphs, financials and market trends, forecasting</li></ul></td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Differentiator</strong></td><td class="body-3" role="cell">Higher intelligence than any other model available.</td></tr></tbody></table>
 
 data
 
@@ -90,7 +90,7 @@ data
 
 **Claude 3 Sonnet** strikes the ideal balance between intelligence and speed—particularly for enterprise workloads. It delivers strong performance at a lower cost compared to its peers, and is engineered for high endurance in large-scale AI deployments.
 
-<table class="Table-module-scss-module__Z3bHXa__table"><tbody><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3"><strong>Cost<br/><br/></strong><em> [Input $/million tokens | Output $/million tokens]</em></td><td class="body-3">$3 | $15</td></tr><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3"><strong>Context window</strong></td><td class="body-3">200K</td></tr><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3"><strong>Potential uses</strong></td><td class="body-3"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Data processing: RAG or search &amp; retrieval over vast amounts of knowledge</li><li>Sales: product recommendations, forecasting, targeted marketing</li><li>Time-saving tasks: code generation, quality control, parse text from images</li></ul></td></tr><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3"><strong>Differentiator</strong></td><td class="body-3">More affordable than other models with similar intelligence; better for scale.</td></tr></tbody></table>
+<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Cost<br/><br/></strong><em> [Input $/million tokens | Output $/million tokens]</em></td><td class="body-3" role="cell">$3 | $15</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Context window</strong></td><td class="body-3" role="cell">200K</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Potential uses</strong></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Data processing: RAG or search &amp; retrieval over vast amounts of knowledge</li><li>Sales: product recommendations, forecasting, targeted marketing</li><li>Time-saving tasks: code generation, quality control, parse text from images</li></ul></td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Differentiator</strong></td><td class="body-3" role="cell">More affordable than other models with similar intelligence; better for scale.</td></tr></tbody></table>
 
 data
 
@@ -98,7 +98,7 @@ data
 
 **Claude 3 Haiku** is our fastest, most compact model for near-instant responsiveness. It answers simple queries and requests with unmatched speed. Users will be able to build seamless AI experiences that mimic human interactions.
 
-<table class="Table-module-scss-module__Z3bHXa__table"><tbody><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3"><strong>Cost<br/><br/></strong><em> [Input $/million tokens | Output $/million tokens]</em></td><td class="body-3">$0.25 | $1.25</td></tr><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3"><strong>Context window</strong></td><td class="body-3">200K</td></tr><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3"><strong>Potential uses</strong></td><td class="body-3"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Customer interactions: quick and accurate support in live interactions, translations</li><li>Content moderation: catch risky behavior or customer requests</li><li>Cost-saving tasks: optimized logistics, inventory management, extract knowledge from unstructured data</li></ul></td></tr><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3"><strong>Differentiator</strong></td><td class="body-3">Smarter, faster, and more affordable than other models in its intelligence category.</td></tr></tbody></table>
+<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Cost<br/><br/></strong><em> [Input $/million tokens | Output $/million tokens]</em></td><td class="body-3" role="cell">$0.25 | $1.25</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Context window</strong></td><td class="body-3" role="cell">200K</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Potential uses</strong></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Customer interactions: quick and accurate support in live interactions, translations</li><li>Content moderation: catch risky behavior or customer requests</li><li>Cost-saving tasks: optimized logistics, inventory management, extract knowledge from unstructured data</li></ul></td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Differentiator</strong></td><td class="body-3" role="cell">Smarter, faster, and more affordable than other models in its intelligence category.</td></tr></tbody></table>
 
 data
 
@@ -124,6 +124,12 @@ We’re excited to see what you create with Claude 3 and hope you will give us f
 
 ## Related content
 
+### Expanding the Cyber Verification Program
+
+We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.
+
+[Read more](https://www.anthropic.com/news/cyber-verification-program)
+
 ### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
 
 Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
@@ -135,9 +141,3 @@ Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 F
 Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
 
 [Read more](https://www.anthropic.com/news/barclays-scales-claude)
-
-### Claude discovers a novel enzyme system with CRISPR-like repeats
-
-We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
-
-[Read more](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)

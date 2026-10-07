@@ -224,6 +224,10 @@ Much remains uncertain about how robots and AI could reshape the economy. Growth
 
 Available [here](https://cdn.sanity.io/files/4zrzovbb/website/d27288375b0ac486cb9da0a30a94423b36ff0443.pdf).
 
+#### Data availability
+
+Data from this report are available [here](https://huggingface.co/datasets/Anthropic/EconomicIndex).
+
 ## **Authors**
 
 Russell Legate-Yang and Maxim Massenkoff.
@@ -655,7 +659,7 @@ Guest author Prof. Matthew Schwartz describes what happened when he stopped figh
 
 ### What do you want from AI?
 
-We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI, and we invite you to participate.
+We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI.
 
 [Read more](https://www.anthropic.com/research/your-thoughts-on-ai)
 

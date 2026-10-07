@@ -48,7 +48,7 @@ Question 1 of 5
 
 “Compare the three payroll providers we're considering—pricing, implementation time, and support quality—and give me sources I can check.”
 
-Sonnet 4.6
+Sonnet
 
 ResearchQuick web searchThinkingEnterprise search
 

@@ -43,7 +43,7 @@ The **4D Framework for AI Fluency**, developed through research collaboration be
 
 You've already been practicing these skills throughout this course. The prompt framework from Lesson 2 (setting the stage, defining the task, specifying rules) is rooted in Description. The troubleshooting techniques above draw on Discernment and Diligence.
 
-To learn more, check out our free [AI Fluency course(opens in new tab)](https://academy.claude.com/courses/ai-fluency-framework-foundations) that explore all four competencies in depth, with practical exercises and real-world applications.
+To learn more, check out our free [AI Fluency course(opens in new tab)](https://academy.claude.com/courses/ai-fluency-framework-foundations) that explores all four competencies in depth, with practical exercises and real-world applications.
 
 ## Evaluating Claude for your workflows[](https://academy.claude.com/courses/claude-101/getting-better-results)
 
@@ -113,7 +113,7 @@ In our next lesson, we'll look at workflow augmentation and how to apply these s
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=Zzn-g8lvLMA)
 
-The video above is taken from our AI Fluency for nonprofits course, but the example is relevant for anyone working with data in AI. To evaluate how Claude might work with your data:
+The video above is taken from our [AI Fluency for nonprofits(opens in new tab)](https://academy.claude.com/courses/ai-fluency-for-nonprofits) course, but the example is relevant for anyone working with data in AI. To evaluate how Claude might work with your data:
 
 - Find a dataset you've manually analyzed
 - Create prompts that request Claude to do the analysis on your behalf

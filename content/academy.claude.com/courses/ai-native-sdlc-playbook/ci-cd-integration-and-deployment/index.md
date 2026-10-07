@@ -2,7 +2,7 @@ Lesson 12 of 14 · The AI-native SDLC playbookCI/CD integration and deployment�
 
 # CI/CD integration and deployment
 
-Lesson 124 min
+Lesson 126 min
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
@@ -42,6 +42,64 @@ yaml
     likely cause, say whether the failure looks flaky or real, and write a
     three-line summary for the PR thread." >> triage.md
 ```
+
+The rest of this example is an insurer's customer portal, with deployment exposed as tools and one MCP server per environment. A rule that allows an MCP tool names the server and the tool, not the tool's arguments. So a separate server per environment is what lets an allowlist tell staging from production. The servers are set up in the project's `.mcp.json`:
+
+json
+
+```
+{
+  "mcpServers": {
+    "deploy-dev": {
+      "type": "http",
+      "url": "https://deploy.example.com/mcp/dev",
+      "headers": { "Authorization": "Bearer ${DEPLOY_DEV_TOKEN}" }
+    },
+    "deploy-staging": {
+      "type": "http",
+      "url": "https://deploy.example.com/mcp/staging",
+      "headers": { "Authorization": "Bearer ${DEPLOY_STAGING_TOKEN}" }
+    },
+    "deploy-prod": {
+      "type": "http",
+      "url": "https://deploy.example.com/mcp/prod",
+      "headers": { "Authorization": "Bearer ${DEPLOY_PROD_TOKEN}" }
+    }
+  }
+}
+```
+
+Every server offers the same three tools:
+
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium" style="text-align:left">Tool</th><th class="border-b border-strong p-sm text-left font-medium" style="text-align:left">Input</th><th class="border-b border-strong p-sm text-left font-medium" style="text-align:left">Returns</th></tr></thead><tbody><tr><td class="border-b p-sm" style="text-align:left"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">release</code></td><td class="border-b p-sm" style="text-align:left"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">version</code>, and in production a <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">ticket</code></td><td class="border-b p-sm" style="text-align:left">The release ID, once the rollout finishes</td></tr><tr><td class="border-b p-sm" style="text-align:left"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">status</code></td><td class="border-b p-sm" style="text-align:left">None</td><td class="border-b p-sm" style="text-align:left">Waits until five minutes after the last release, then returns each endpoint's 5xx rate over that time</td></tr><tr><td class="border-b p-sm" style="text-align:left"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">rollback</code></td><td class="border-b p-sm" style="text-align:left">None</td><td class="border-b p-sm" style="text-align:left">The version that is live again</td></tr></tbody></table>
+
+The staging job runs on a push to `main` and pre-approves the staging server's three tools and no others. It holds the staging token only, so the other two servers get no valid token and refuse the job. This is the pipeline step for the staging job:
+
+yaml
+
+```
+- name: Release to staging and roll back if it is unhealthy
+  env:
+    ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    DEPLOY_STAGING_TOKEN: ${{ secrets.DEPLOY_STAGING_TOKEN }}   # no other environment's token
+  run: >
+    claude -p "Release version ${{ github.sha }} of the claims portal to staging,
+    then call status. If the 5xx rate on any endpoint is over 1%, roll back.
+    Finish with three lines for the release notes: what you released, what status
+    reported, and whether you rolled back."
+    --allowedTools "mcp__deploy-staging__release,mcp__deploy-staging__status,mcp__deploy-staging__rollback"
+    --permission-mode dontAsk >> release-notes.md
+```
+
+In `dontAsk` mode Claude Code denies any call that would otherwise prompt, so a deployment tool off the list is refused and the job never waits for an answer.
+
+One `PreToolUse` hook on the `release` tools decides per environment. It is written out in the hooks as approval gates play, and it gives three tiers:
+
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium" style="text-align:left">Environment</th><th class="border-b border-strong p-sm text-left font-medium" style="text-align:left">Tools on the allowlist</th><th class="border-b border-strong p-sm text-left font-medium" style="text-align:left">What happens to <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">release</code></th><th class="border-b border-strong p-sm text-left font-medium" style="text-align:left">Who approves</th></tr></thead><tbody><tr><td class="border-b p-sm" style="text-align:left">Dev</td><td class="border-b p-sm" style="text-align:left"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">release</code>, <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">status</code>, <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">rollback</code></td><td class="border-b p-sm" style="text-align:left">The hook allows it</td><td class="border-b p-sm" style="text-align:left">Nobody</td></tr><tr><td class="border-b p-sm" style="text-align:left">Staging</td><td class="border-b p-sm" style="text-align:left"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">release</code>, <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">status</code>, <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">rollback</code></td><td class="border-b p-sm" style="text-align:left">The hook asks, or allows it from the pipeline on <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">main</code></td><td class="border-b p-sm" style="text-align:left">The engineer, or the approved merge</td></tr><tr><td class="border-b p-sm" style="text-align:left">Production</td><td class="border-b p-sm" style="text-align:left"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">status</code>, <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">rollback</code></td><td class="border-b p-sm" style="text-align:left">Denied unless the hook allows it</td><td class="border-b p-sm" style="text-align:left">The release manager, through the change ticket</td></tr></tbody></table>
+
+In production, `dontAsk` mode still runs a call that a `PreToolUse` hook approves, so with `release` off the allowlist the hook's `allow` is the only way through. Production therefore fails closed, because a release is denied if the hook fails to run. `rollback` stays on the allowlist because it is a runbook approved in advance.
+
+If the runner carries managed settings with `allowManagedHooksOnly`, the hook has to be defined in the managed settings, and with `allowManagedMcpServersOnly` the servers have to be on the managed allowlist.
 
 ## Governance considerations[](https://academy.claude.com/courses/ai-native-sdlc-playbook/ci-cd-integration-and-deployment)
 

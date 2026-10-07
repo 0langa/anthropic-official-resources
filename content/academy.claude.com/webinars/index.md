@@ -8,6 +8,8 @@ AllCoursesTutorialsUse cases
 
 ProductAll
 
+RoleAll
+
 308 resources
 
 [## AI capabilities and limitations
@@ -121,6 +123,8 @@ AllCoursesTutorialsUse cases
 
 ProductAll
 
+RoleAll
+
 27 courses
 
 [## AI capabilities and limitations
@@ -233,6 +237,8 @@ AllCoursesTutorialsUse cases
 
 
 ProductAll
+
+RoleAll
 
 124 tutorials
 

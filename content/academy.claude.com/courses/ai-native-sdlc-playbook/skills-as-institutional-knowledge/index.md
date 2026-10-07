@@ -2,7 +2,7 @@ Lesson 6 of 14 · The AI-native SDLC playbookSkills as institutional knowledge�
 
 # Skills as institutional knowledge
 
-Lesson 64 min
+Lesson 65 min
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
 
@@ -52,7 +52,7 @@ Run scripts/check-endpoints.sh and include its output in your summary.
 
 ## Governance considerations[](https://academy.claude.com/courses/ai-native-sdlc-playbook/skills-as-institutional-knowledge)
 
-A skill is a control, though an advisory one. It makes Claude likely to apply the policy while the code is written, and nothing forces a session to comply with it. A policy that must always hold needs something deterministic behind the skill, such as a hook that blocks the action or a review pass that re-checks the policy at the PR. The skill makes violations rare and the hook makes them close to impossible. Skill invocations are logged in session traces, and the policy owner reviews skill changes like code.
+A skill is a control, though an advisory one. It makes Claude likely to apply the policy while the code is written, and nothing forces a session to comply with it. A policy that must always hold needs something deterministic behind the skill, such as a hook that blocks the action or a review pass that re-checks the policy at the PR. The skill makes violations rare and the hook makes them close to impossible. The hook catches a violation at the edit, and the same check on the pull request catches anything that reached the branch another way. Skill invocations are logged in session traces, and the policy owner reviews skill changes like code.
 
 ## How to measure it[](https://academy.claude.com/courses/ai-native-sdlc-playbook/skills-as-institutional-knowledge)
 
@@ -71,6 +71,73 @@ Build-phase hooks can:
 - Back any skill whose policy has to hold without exception
 
 A hook runs on each action that matches it, so build-phase hooks should be fast and scoped to the file that changed. Heavier checks such as the full test suite belong at the commit or the PR.
+
+This is the hook behind rule 4 of the `secure-api-review` skill shown earlier on this page. The repo is an insurer's, and its endpoint files live in `claims-api/routes/`. After each edit to one of those files, the hook runs `scripts/check-endpoints.sh`, the script at the repo root that the skill already names. That script fails when a field tagged `pii` in the OpenAPI schema reaches a log call or a raised error.
+
+The hook is registered in `.claude/settings.json`. The empty `args` list makes Claude Code run the script directly instead of through a shell:
+
+json
+
+```
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          { "type": "command",
+            "command": "${CLAUDE_PROJECT_DIR}/.claude/hooks/api-policy.sh",
+            "args": [] }
+        ]
+      }
+    ]
+  }
+}
+```
+
+The hook script, `.claude/hooks/api-policy.sh`:
+
+bash
+
+```
+#!/bin/bash
+# Backs rule 4 of the secure-api-review skill with the same script the skill runs.
+file=$(jq -r '.tool_input.file_path')
+case "$file" in
+  "$CLAUDE_PROJECT_DIR"/claims-api/routes/*.py) ;;
+  *) exit 0 ;;                                   # not an endpoint
+esac
+cd "$CLAUDE_PROJECT_DIR" || exit 2
+if ! found=$(scripts/check-endpoints.sh "${file#"$CLAUDE_PROJECT_DIR"/}"); then
+  echo "secure-api-review rule 4: a pii field reaches a log or an error message." >&2
+  echo "$found" >&2
+  exit 2
+fi
+```
+
+A hook that runs after an edit cannot undo it, so exit code 2 puts the script's message in front of Claude, which can then fix the line. After an edit that logs a customer's name, this is the message Claude sees from the script:
+
+text
+
+```
+secure-api-review rule 4: a pii field reaches a log or an error message.
+claims-api/routes/status.py:10: policy_holder_name
+```
+
+An `Edit|Write` hook does not fire when a shell command rewrites the file. For that reason, the same script also runs as a required check on every pull request:
+
+yaml
+
+```
+name: API policy
+on: pull_request
+jobs:
+  check-endpoints:          # a required check in branch protection
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: scripts/check-endpoints.sh claims-api/routes/*.py
+```
 
 A hook that asks a human for approval belongs with the gates in **Stage 5: Deploy**, because an approval prompt during the build puts a person back on the critical path of all the sessions running in parallel.
 
