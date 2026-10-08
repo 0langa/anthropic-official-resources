@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
-
 # Preparing your security program for AI-accelerated offense
 
 AI is changing the speed at which vulnerabilities are found and exploited. We're publishing an initial set of recommendations to shore up your defenses based on our own findings and security practices.
 
-- Category
-
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  [Claude Enterprise](https://claude.com/solutions/enterprise)
-- Date
-
-  April 10, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense)
-
-  https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense
+- Category[Best practices](https://claude.com/resources/best-practices), [Perspectives](https://claude.com/resources/perspectives)
+- ProductClaude Enterprise
+- DateApril 10, 2026
+- Reading time25 min
+- ShareCopy link
 
 Earlier this week, we announced Project Glasswing—our urgent attempt to put the strong cybersecurity capabilities of our newest frontier model, Claude Mythos Preview, to use for defensive purposes. In the [announcement](https://www.anthropic.com/glasswing)—and the [accompanying technical blog post](https://red.anthropic.com/2026/mythos-preview/)—we described how AI models are rapidly reducing the required resources, time, and skill required to find and exploit vulnerabilities in software.
 
@@ -40,8 +24,8 @@ We’ll update this guidance as we and our Project Glasswing partners continue o
 
 AI models are very effective at recognizing the signatures of known, already-patched vulnerabilities in unpatched systems. Reversing a patch into a working exploit is exactly the kind of mechanical analysis at which these models excel. This means that the window between a patch being published and an exploit becoming available is shrinking.
 
-- *Patch everything on the* [*CISA Known Exploited Vulnerabilities (KEV) catalog*](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) *immediately.* This catalog contains vulnerabilities that are confirmed to be under active exploitation. Anything on this list which is reachable from a network should be treated as an emergency.
-- *Use* [*EPSS*](https://www.first.org/epss/) *to prioritize the rest.* Exploit Prediction Scoring System (EPSS) provides a daily-updated probability that a given Common Vulnerability and Exposure (CVE) will be exploited in the next 30 days. Patching the KEV list first and then everything above a chosen EPSS threshold will help you turn thousands of open CVEs into a manageable queue.
+- *Patch everything on the [CISA Known Exploited Vulnerabilities (KEV) catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) immediately.* This catalog contains vulnerabilities that are confirmed to be under active exploitation. Anything on this list which is reachable from a network should be treated as an emergency.
+- *Use [EPSS](https://www.first.org/epss/) to prioritize the rest.* Exploit Prediction Scoring System (EPSS) provides a daily-updated probability that a given Common Vulnerability and Exposure (CVE) will be exploited in the next 30 days. Patching the KEV list first and then everything above a chosen EPSS threshold will help you turn thousands of open CVEs into a manageable queue.
 - *Reduce time-to-patch on internet-exposed systems.* We recommend patching internet-facing applications within 24 hours of an exploit becoming available, and within days for other vulnerabilities.
 - *Automate patch deployment and reboots* where the risk of an automated update causing an outage is acceptable. Manual approval steps add delay, and delay is now the primary risk.
 
@@ -71,10 +55,10 @@ Prevention is always better than cure. You should assume that bugs that reach pr
 - *Add static analysis and AI-assisted code review to your continuous integration pipeline,* and block merges on high-confidence findings. If false positives make this impractical, you should keep the check, but address the tooling. The [OWASP Application Security Verification Standard](https://owasp.org/www-project-application-security-verification-standard/) defines what “passing” a test looks like at three different levels of rigor.
 - *Add automated penetration testing to your continuous delivery pipeline.* You can run the same scanning for staging that attackers will run against your production systems.
 - *Secure the build pipeline.* An attacker who can inject code between commit and deployment does not need to find a vulnerability. The [SLSA](https://slsa.dev/) security framework provides a graded path: lower levels establish which commit produced which artifact, and higher levels make the build itself verifiable.
-- *Adopt* [*Secure by Design*](https://www.cisa.gov/securebydesign) *practices.* CISA’s pledge commitments (multi-factor authentication by default; no default passwords; transparent vulnerability reporting) are a reasonable minimum bar.
+- *Adopt [Secure by Design](https://www.cisa.gov/securebydesign) practices.* CISA’s pledge commitments (multi-factor authentication by default; no default passwords; transparent vulnerability reporting) are a reasonable minimum bar.
 - *Prefer memory-safe languages for new code.* A large share of severe vulnerabilities are memory-safety bugs that do not occur in Rust, Go, or managed runtimes. CISA, the NSA, and the [NCSC](https://www.ncsc.gov.uk/) have [published useful roadmaps](https://www.cisa.gov/resources-tools/resources/case-memory-safe-roadmaps). Existing C/C++ code does not need to be rewritten, but new C/C++ code should require a justification. AI assisted rewrites are increasingly viable, as well.
 
-**Practical tip:** Static application security testing (SAST)  tooling that runs as a CI action with OWASP Top 10 and language-specific rule sets is widely available, both open-source and built into code hosting platforms (CodeQL on GitHub being the most common starting point). To assess build provenance, OpenSSF publishes a [reusable workflow](https://github.com/slsa-framework/slsa-github-generator) that produces SLSA Level 3 attestations from GitHub Actions; adopting it is significantly less work than the SLSA spec suggests.
+**Practical tip:** Static application security testing (SAST) tooling that runs as a CI action with OWASP Top 10 and language-specific rule sets is widely available, both open-source and built into code hosting platforms (CodeQL on GitHub being the most common starting point). To assess build provenance, OpenSSF publishes a [reusable workflow](https://github.com/slsa-framework/slsa-github-generator) that produces SLSA Level 3 attestations from GitHub Actions; adopting it is significantly less work than the SLSA spec suggests.
 
 As before, there are some clear opportunities for accelerating this work with AI:
 
@@ -99,7 +83,7 @@ Mitigations whose value comes from friction—making an attack *tedious*—rathe
 
 - *Adopt zero trust architecture.* Authenticate and authorize every request between services as if it came from the internet. CISA's [Zero Trust Maturity Model](https://www.cisa.gov/zero-trust-maturity-model) and the NCSC's [zero trust principles](https://www.ncsc.gov.uk/collection/zero-trust-architecture) both provide staged adoption paths.
 - *Tie access to verified hardware rather than credentials.* Production systems and sensitive internal tools should only be reachable from managed employee devices with attested hardware identity, paired with phishing-resistant 2FA (FIDO2 or passkeys). Stolen credentials alone should never be sufficient to gain access. Even calls between production services should be rooted in hardware identity.
-- *Isolate services by identity.*A compromised build server should not be able to query production databases. A compromised laptop should not be able to reach build infrastructure. Enforce this at the receiving end: every workload should carry its own cryptographic identity, and each service should accept connections only from the specific callers of its policy names. Network segmentation can still reduce blast radius and noise, but it is a backstop.
+- *Isolate services by identity.* A compromised build server should not be able to query production databases. A compromised laptop should not be able to reach build infrastructure. Enforce this at the receiving end: every workload should carry its own cryptographic identity, and each service should accept connections only from the specific callers of its policy names. Network segmentation can still reduce blast radius and noise, but it is a backstop.
 - *Replace long-lived secrets with short-lived tokens.* Static API keys, embedded credentials, and shared service-account passwords are among the first things an attacker with model-assisted code analysis will find. Use short-lived, narrowly-scoped tokens issued by an identity provider.
 
 **Practical tip:** Full zero-trust is a multi-year program, but an identity-aware access proxy puts device-verified, MFA-gated access in front of internal services without having to fundamentally change their architecture. Each major cloud provider offers a native option, and several open-source and commercial alternatives exist for on-premises or multi-cloud environments. For secrets, every major cloud has a managed secrets store; moving the single most widely-shared credential into one and rotating it is a useful forcing function for the rest.
@@ -127,9 +111,9 @@ Exploits can appear within hours of a patch. Response processes that take days a
 - *Put instrument dwell time and coverage before anything else.* These are the two metrics that AI automation has the greatest ability to move; both matter most when exploit windows shorten.
 - *Automate the bookkeeping around incidents.* During an active incident, models should be taking notes, capturing artifacts, pursuing parallel investigation tracks, and drafting the postmortem and root-cause analysis. On the other hand, *humans* should be making the containment calls, disclosure calls, and customer-comms calls. Human decision speed during an incident should never be rate-limited on aspects that would be better handed to an AI, like evidence collection or write-ups.
 - *Let models drive the detection flywheel.* Ingesting [threat intelligence](https://platform.claude.com/cookbook/tool-use-threat-intel-enrichment-agent), generating candidate detections, hunting for matches, and tuning what fires are all now within reach of frontier models, who can run the process end-to-end.
-- *Run a tabletop for five simultaneous incidents.*The standard exercise assumes one critical CVE with a working exploit hits on a Monday. Given the improved AI capabilities we’re seeing, this might be unwise. To truly stress-test your responses, you should run the version where five incidents hit in the same week.
-- *Map detection coverage against* [*MITRE ATT&CK*](https://attack.mitre.org/)*.* ATT&CK provides a standard vocabulary of attacker techniques that most detection tools already use. Knowing which techniques you can detect (and which you can’t), is more useful than a general goal to “improve detection.” You should prioritize coverage for lateral movement and credential access.
-- *Establish emergency change procedures in advance.*A two-week change-approval cycle for production patches is itself a security risk. The same applies to emergency containment actions (like taking a service offline, rotating a credential, or blocking a network path). You should decide in advance who can authorize these and how fast.
+- *Run a tabletop for five simultaneous incidents.* The standard exercise assumes one critical CVE with a working exploit hits on a Monday. Given the improved AI capabilities we’re seeing, this might be unwise. To truly stress-test your responses, you should run the version where five incidents hit in the same week.
+- *Map detection coverage against [MITRE ATT&CK](https://attack.mitre.org/).* ATT&CK provides a standard vocabulary of attacker techniques that most detection tools already use. Knowing which techniques you can detect (and which you can’t), is more useful than a general goal to “improve detection.” You should prioritize coverage for lateral movement and credential access.
+- *Establish emergency change procedures in advance.* A two-week change-approval cycle for production patches is itself a security risk. The same applies to emergency containment actions (like taking a service offline, rotating a credential, or blocking a network path). You should decide in advance who can authorize these and how fast.
 
 **Practical tip:** Pick one noisy rule with a known-high false positive rate. Wire a frontier model into its alert stream with read-only access to the underlying data, and have it produce a structured disposition for every firing. Measure agreement against a human reviewer for two weeks. If the agreement rate is tolerable, expand to the next rule. It’s not worth trying to automate the whole queue at once. Separately, [Atomic Red Team](https://atomicredteam.io/) is an open-source library of small, safe tests mapped to ATT&CK techniques; running a handful and checking which ones your existing logging actually detected is a one-afternoon exercise that produces a concrete coverage map.
 
@@ -163,178 +147,51 @@ Most of the above advice assumes that your organization has a dedicated security
 - *Use passkeys or hardware security keys* on every account that supports them. SMS codes can be intercepted and passwords get reused; a hardware key cannot be phished.
 - *Enable the free security tooling on your code host.* GitHub's Dependabot, secret scanning, and CodeQL are free for public repositories and catch a meaningful share of what enterprise tools catch. Enabling them takes minutes.
 
-*If you maintain an open-source project, publish a `SECURITY.md`*stating who to contact and what to expect when they’re contacted. AI-assisted scanning means you will receive more vulnerability reports than before. Some will be valuable; some will be automated noise. A clear intake process helps you tell them apart, and signals to good-faith reporters that their effort will not be wasted.
+*If you maintain an open-source project, publish a `SECURITY.md`* stating who to contact and what to expect when they’re contacted. AI-assisted scanning means you will receive more vulnerability reports than before. Some will be valuable; some will be automated noise. A clear intake process helps you tell them apart, and signals to good-faith reporters that their effort will not be wasted.
 
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Reference</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Patch prioritization</td>
-<td>
-<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV Catalog</a>,
-            <a href="https://www.first.org/epss/">FIRST EPSS</a>,
-            <a href="https://www.cisa.gov/news-events/directives/bod-22-01-reducing-significant-risk-known-exploited-vulnerabilities">CISA BOD 22-01</a>
-</td>
-</tr>
-<tr>
-<td>Baseline controls</td>
-<td>
-<a href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/essential-eight">ACSC Essential Eight</a>,
-            <a href="https://www.cisa.gov/cross-sector-cybersecurity-performance-goals">CISA CPGs</a>,
-            <a href="https://www.cisecurity.org/controls">CIS Controls v8</a>,
-            <a href="https://www.ncsc.gov.uk/collection/10-steps">NCSC 10 Steps</a>
-</td>
-</tr>
-<tr>
-<td>Secure development</td>
-<td>
-<a href="https://csrc.nist.gov/Projects/ssdf">NIST SSDF (SP 800-218)</a>,
-            <a href="https://owasp.org/www-project-application-security-verification-standard/">OWASP ASVS</a>,
-            <a href="https://owaspsamm.org/">OWASP SAMM</a>,
-            <a href="https://www.cisa.gov/securebydesign">CISA Secure by Design</a>
-</td>
-</tr>
-<tr>
-<td>Memory safety</td>
-<td>
-<a href="https://www.cisa.gov/resources-tools/resources/case-memory-safe-roadmaps">CISA/NSA Memory Safe Roadmaps</a>
-</td>
-</tr>
-<tr>
-<td>Supply chain &amp; build integrity</td>
-<td>
-<a href="https://slsa.dev/">SLSA</a>,
-            <a href="https://securityscorecards.dev/">OpenSSF Scorecards</a>,
-            <a href="https://www.cisa.gov/sbom">CISA SBOM resources</a>,
-            <a href="https://csrc.nist.gov/pubs/sp/800/161/r1/final">NIST SP 800-161</a>
-</td>
-</tr>
-<tr>
-<td>Zero trust</td>
-<td>
-<a href="https://www.cisa.gov/zero-trust-maturity-model">CISA Zero Trust Maturity Model</a>,
-            <a href="https://csrc.nist.gov/pubs/sp/800/207/final">NIST SP 800-207</a>,
-            <a href="https://www.ncsc.gov.uk/collection/zero-trust-architecture">NCSC Zero Trust Principles</a>
-</td>
-</tr>
-<tr>
-<td>Detection &amp; response</td>
-<td>
-<a href="https://attack.mitre.org/">MITRE ATT&amp;CK</a>,
-            <a href="https://d3fend.mitre.org/">MITRE D3FEND</a>
-</td>
-</tr>
-<tr>
-<td>Program framework</td>
-<td>
-<a href="https://www.nist.gov/cyberframework">NIST Cybersecurity Framework 2.0</a>,
-            <a href="https://www.ncsc.gov.uk/collection/cyber-assessment-framework">NCSC Cyber Assessment Framework</a>
-</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Topic</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Reference</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Patch prioritization</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV Catalog</a>, <a href="https://www.first.org/epss/">FIRST EPSS</a>, <a href="https://www.cisa.gov/news-events/directives/bod-22-01-reducing-significant-risk-known-exploited-vulnerabilities">CISA BOD 22-01</a></span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Baseline controls</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><a href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/essential-eight">ACSC Essential Eight</a>, <a href="https://www.cisa.gov/cross-sector-cybersecurity-performance-goals">CISA CPGs</a>, <a href="https://www.cisecurity.org/controls">CIS Controls v8</a>, <a href="https://www.ncsc.gov.uk/collection/10-steps">NCSC 10 Steps</a></span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Secure development</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><a href="https://csrc.nist.gov/Projects/ssdf">NIST SSDF (SP 800-218)</a>, <a href="https://owasp.org/www-project-application-security-verification-standard/">OWASP ASVS</a>, <a href="https://owaspsamm.org/">OWASP SAMM</a>, <a href="https://www.cisa.gov/securebydesign">CISA Secure by Design</a></span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Memory safety</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><a href="https://www.cisa.gov/resources-tools/resources/case-memory-safe-roadmaps">CISA/NSA Memory Safe Roadmaps</a></span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Supply chain &amp; build integrity</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><a href="https://slsa.dev/">SLSA</a>, <a href="https://securityscorecards.dev/">OpenSSF Scorecards</a>, <a href="https://www.cisa.gov/sbom">CISA SBOM resources</a>, <a href="https://csrc.nist.gov/pubs/sp/800/161/r1/final">NIST SP 800-161</a></span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Zero trust</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><a href="https://www.cisa.gov/zero-trust-maturity-model">CISA Zero Trust Maturity Model</a>, <a href="https://csrc.nist.gov/pubs/sp/800/207/final">NIST SP 800-207</a>, <a href="https://www.ncsc.gov.uk/collection/zero-trust-architecture">NCSC Zero Trust Principles</a></span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Detection &amp; response</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><a href="https://attack.mitre.org/">MITRE ATT&amp;CK</a>, <a href="https://d3fend.mitre.org/">MITRE D3FEND</a></span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Program framework</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><a href="https://www.nist.gov/cyberframework">NIST Cybersecurity Framework 2.0</a>, <a href="https://www.ncsc.gov.uk/collection/cyber-assessment-framework">NCSC Cyber Assessment Framework</a></span></td></tr></tbody></table>
 
 ### **Acknowledgements**
 
 This article was written by members of Anthropic’s Security Engineering and Research teams, including Donny Greenberg, Jason Clinton, Michael Moore, Abel Ribbink, and Jackie Bow, with contributions from Jannet Park, Gabby Curtis, and Stuart Ritchie.
 
-No items found.
-
-[Prev](https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense)Prev
-
-0/5
-
-[Next](https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-### How Warp builds self-improving agents on Claude
-
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 29, 2026
+[ArticleSep 29, 2026
 
 ### Agents you can coach: how Asana builds human-agent teams with Claude
 
-Agents
+Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
+‍
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+### A new approach to agent security with Claude Managed Agents and NVIDIA
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
 
-Sep 28, 2026
-
-### Giving companies more control over their AI agents, with NVIDIA
-
-Agents
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense)Giving companies more control over their AI agents, with NVIDIA
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Sep 8, 2026
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
 
 ### Reducing cost and improving performance with Claude Platform
 
-Agents
+Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense)Reducing cost and improving performance with Claude Platform
+Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
+### A guide to the anatomy of effective commerce agents
+
+The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
+
+Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

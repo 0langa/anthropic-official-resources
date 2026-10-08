@@ -1,30 +1,14 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d23073f253139349bf60_71800a27b08a18e808de684513bb852c37b8a334-1000x1000.svg)
-
 # Improve your prompts in the developer console
 
 Claude can now automatically refine prompts in the developer console using techniques like chain-of-thought reasoning and example enrichment.
 
 ‍
 
-- Category
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  October 14, 2024
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/prompt-improver)
-
-  https://claude.com/blog/prompt-improver
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Platform
+- DateOctober 14, 2024
+- Reading time5 min
+- ShareCopy link
 
 Today, we're introducing the ability to improve prompts and manage examples directly in the [Anthropic Console](https://console.anthropic.com/). These features make it easier to leverage prompt engineering best practices and build more reliable AI applications.
 
@@ -34,7 +18,7 @@ Prompt quality plays a significant role in how successful a model's responses ar
 
 The prompt improver allows developers to take existing prompts and leverage Claude to automatically refine them using advanced prompt engineering techniques. This is ideal for adapting prompts that were originally written for other AI models, as well as for optimizing hand-written prompts.
 
-Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/fb1afd8b4dd4831fd1e700ad23affda9cf70d666.mp4
+Embedded media: https://assets.claude.com/fb1afd8b4dd4831fd1e700ad23affda9cf70d666.mp4
 
 The prompt improver strengthens existing prompts via the following methods:
 
@@ -48,11 +32,11 @@ Once the new prompt is generated, you can provide feedback for Claude about what
 
 **Our testing shows that the prompt improver increased accuracy by 30% for a multilabel classification test1 and brought word count adherence up to 100% for a summarization task.2**
 
-# Manage multi-shot examples
+## Manage multi-shot examples
 
 Adding examples to prompts is one of the most effective ways to improve model response quality, especially when it comes to getting Claude to precisely follow a specific format in the output. You can now manage examples in a structured format directly in the Workbench. This makes it easier to add new examples with clear input/output pairs or edit existing examples to refine response quality.
 
-![A visual of the Anthropic Console showing examples for a prompt.](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d939bfbe47c603d7aae_57c9898911ae729e6745f4d5cc5d9c1e0e4b18df-3840x2160.jpeg)
+![A visual of the Anthropic Console showing examples for a prompt.](https://assets.claude.com/dc5899475f8c28aad0d45a35d7477d0c8ab620ca.jpg)
 
 If your prompt doesn’t have examples, you can add them with Claude-driven example generation. Claude can automatically create synthetic example inputs and draft outputs for you to streamline this process.
 
@@ -86,98 +70,40 @@ To learn more about how to improve and evaluate prompts with Claude, check out o
 
 [2] Given ten Wikipedia articles, Claude’s adherence to an instruction to write summaries within a specific word count range was 100% after running through the prompt improver.
 
-No items found.
-
-[Prev](https://claude.com/blog/prompt-improver)Prev
-
-0/5
-
-[Next](https://claude.com/blog/prompt-improver)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/prompt-improver)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/prompt-improver)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
 ### Build plugins for Claude
 
-Product announcements
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-[Build plugins for Claude](https://claude.com/blog/prompt-improver)Build plugins for Claude
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
+### Claude Tag now supports personal connectors in channels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/prompt-improver)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/prompt-improver)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

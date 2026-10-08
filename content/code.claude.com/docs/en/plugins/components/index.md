@@ -323,7 +323,7 @@ model: sonnet
 You are a security reviewer. Read the changed files and report injection, authentication, and secrets-handling risks.
 ```
 
-This agent is named `my-plugin:security-reviewer`, and the user can [invoke it explicitly](/docs/en/sub-agents#invoke-subagents-explicitly) with `@agent-my-plugin:security-reviewer`. The name form is `<plugin>:<name>`, where `<name>` comes from the frontmatter, or from the file name when there is none.
+This agent is named `my-plugin:security-reviewer`, and the user can [invoke it explicitly](/docs/en/sub-agents#invoke-subagents-explicitly) with `@agent-my-plugin:security-reviewer`. The name form is `<plugin>:<name>`, where `<name>` comes from the frontmatter `name` field, or from the file name when that field is missing.
 
 The `agents` manifest key replaces the `agents/` scan.
 
@@ -594,7 +594,7 @@ A monitor is a shell command that runs in the background for the whole session. 
 ]
 ```
 
-The command runs in a shell, in the working directory the session started in.
+The command runs in a shell, in the session's current working directory. It runs with your full user permissions and outside the [sandbox](/docs/en/sandboxing).
 
 A monitor's command is limited in where it starts and what it can reference:
 

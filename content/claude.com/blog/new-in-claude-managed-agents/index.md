@@ -1,34 +1,18 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224ef32980bc807847d_a683fdcfe3e2c7c6532342a0fa4ff789c3fd4852-1000x1000.svg)
-
 # New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration
 
-- Category
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Platform
+- DateMay 19, 2026
+- Reading time6 min
+- ShareCopy link
 
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  May 19, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/new-in-claude-managed-agents)
-
-  https://claude.com/blog/new-in-claude-managed-agents
-
-Today we're launching dreaming in [Claude Managed Agents](https://claude.com/blog/claude-managed-agents) as a research preview. Dreaming extends [memory](https://claude.com/blog/claude-managed-agents-memory) by reviewing past sessions to find patterns and help agents self-improve. We're also making outcomes, multiagent orchestration, and webhooks available to developers building with Managed Agents. Together, these updates make agents more capable at handling complex tasks with minimal steering.
+Today we're launching dreaming in [Claude Managed Agents](https://claude.com/resources/articles/claude-managed-agents) as a research preview. Dreaming extends [memory](https://claude.com/resources/articles/claude-managed-agents-memory) by reviewing past sessions to find patterns and help agents self-improve. We're also making outcomes, multiagent orchestration, and webhooks available to developers building with Managed Agents. Together, these updates make agents more capable at handling complex tasks with minimal steering.
 
 ## **Build self-improving agents with dreaming**
 
 [Dreaming](https://platform.claude.com/docs/en/managed-agents/dreams) is a scheduled process in Claude Managed Agents that reviews agent sessions and memory stores, extracts patterns, and curates memories so agents improve over time. You decide how much control you want: dreaming can update memory automatically, or you can review changes before they land.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f8e9ad765c7eed52dcf468_Claude-Managed-Agents-Blog-Followup-Dreaming.png)
+![](https://assets.claude.com/a8c196506682d36e5adf571c13332dceb8243b1f.png)
 
 Dreaming surfaces patterns that a single agent can’t see on its own, including recurring mistakes, workflows that agents converge on, and preferences shared across a team. It also restructures memory so it stays high-signal as it evolves. This is especially useful for long-running work and multiagent orchestration.
 
@@ -52,7 +36,7 @@ When there is too much work for a single agent to do well, [multiagent orchestra
 
 These specialists work in parallel on a shared filesystem and contribute to the lead agent's overall context. The lead agent can check back in with other agents mid-workflow because events are persistent and every agent remembers what it's done. You can also trace every step in the [Claude Console](https://platform.claude.com/): which agent did what, in what order, and why, giving you full visibility into how your task was delegated and executed.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f8ea208aefcf18345ee3ef_Claude-Managed-Agents-Blog-Followup-Sessions-UI.png)
+![](https://assets.claude.com/ee11ba25525a1b358935de9d9426a1f72df5314f.png)
 
 ## **What teams are building**
 
@@ -63,102 +47,44 @@ Teams are using dreaming, outcomes, and multiagent orchestration to ship agents 
 - [Spiral](http://writewithspiral.com/) by Every is using multiagent orchestration and outcomes to power the writing agent behind their new API and CLI. The lead agent runs on [Haiku](https://www.anthropic.com/claude/haiku): it fields incoming requests, poses quick follow-up questions when needed, then delegates the drafting to subagents running on [Opus](https://www.anthropic.com/claude/opus). When a user asks for multiple drafts, the subagents run in parallel. Writing quality is Spiral's core value, so they use outcomes to enforce it. Each draft is scored against a rubric of Every's editorial principles and the user's voice, both pulled from memory. Only drafts that clear the bar are returned.
 - [Wisedocs](https://www.wisedocs.ai/blogs/building-managed-agents-for-document-verification) built a document quality check agent on Managed Agents, using outcomes to grade each review against their internal guidelines. Reviews now run 50% faster, while staying aligned with their team's standards.
 
-No items found.
-
-[Prev](https://claude.com/blog/new-in-claude-managed-agents)Prev
-
-0/5
-
-[Next](https://claude.com/blog/new-in-claude-managed-agents)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
 ## **Getting started**
 
 Dreaming is available in research preview, outcomes, multiagent orchestration, and memory are available in public beta as part of Managed Agents. To get started with dreaming, request access [here](https://claude.com/form/claude-managed-agents). Explore our [documentation](https://platform.claude.com/docs/en/managed-agents/overview) to learn more or visit the [Claude Console](https://platform.claude.com/) to deploy your first agent.
 
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/new-in-claude-managed-agents)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/new-in-claude-managed-agents)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
 ### Build plugins for Claude
 
-Product announcements
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-[Build plugins for Claude](https://claude.com/blog/new-in-claude-managed-agents)Build plugins for Claude
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
+### Claude Tag now supports personal connectors in channels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/new-in-claude-managed-agents)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/new-in-claude-managed-agents)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

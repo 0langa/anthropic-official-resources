@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f63175f636cba4641_c0af2a56f56cf298ce5904f2901e9a36facd0dbe-1000x1000.svg)
-
 # Building AI agents for the enterprise
 
 In this guide, we share how leading organizations are using agents to transform their work today, and how Claude Cowork brings these capabilities to every team.
 
-- Category
-
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  [Claude Cowork](https://claude.com/product/cowork)
-- Date
-
-  April 30, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/building-ai-agents-for-the-enterprise)
-
-  https://claude.com/blog/building-ai-agents-for-the-enterprise
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Cowork
+- DateApril 30, 2026
+- Reading time3 min
+- ShareCopy link
 
 Our September 2025 [Anthropic Economic Index](https://www.anthropic.com/research/anthropic-economic-index-september-2025-report) found that in the U.S., 40 percent of employees report using AI at work, up from 20 percent in 2023. While these are significant gains, a looming question remains: will AI produce lasting advantages or incremental gains that plateau within a quarter?
 
@@ -41,104 +25,49 @@ In this guide, we share:
 
 The companies getting the biggest returns from AI are being deliberate about how they teach it to employees, where they apply it, and what they build next.
 
-**Check it out,** [**here**](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/69f3af1f0b8ebe5cde42fcda_Claude-Building-AI-Agents-in-the-Enterpise-04302026_v2%20(1).pdf)**.**
+**Check it out, [here](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/69f3af1f0b8ebe5cde42fcda_Claude-Building-AI-Agents-in-the-Enterpise-04302026_v2%20(1).pdf).**
 
 [Get started](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork) with Claude Cowork today.
 
 ‍
 
-No items found.
-
-[Prev](https://claude.com/blog/building-ai-agents-for-the-enterprise)Prev
-
-0/5
-
-[Next](https://claude.com/blog/building-ai-agents-for-the-enterprise)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-### How Warp builds self-improving agents on Claude
-
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/building-ai-agents-for-the-enterprise)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 29, 2026
+[ArticleSep 29, 2026
 
 ### Agents you can coach: how Asana builds human-agent teams with Claude
 
-Agents
+Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
+‍
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/building-ai-agents-for-the-enterprise)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+### A new approach to agent security with Claude Managed Agents and NVIDIA
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
 
-Sep 28, 2026
-
-### Giving companies more control over their AI agents, with NVIDIA
-
-Agents
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/building-ai-agents-for-the-enterprise)Giving companies more control over their AI agents, with NVIDIA
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Sep 8, 2026
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
 
 ### Reducing cost and improving performance with Claude Platform
 
-Agents
+Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/building-ai-agents-for-the-enterprise)Reducing cost and improving performance with Claude Platform
+Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
+### A guide to the anatomy of effective commerce agents
+
+The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
+
+Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/building-ai-agents-for-the-enterprise)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

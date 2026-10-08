@@ -1,63 +1,17 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
-
 # How Outtake built a cyber investigator on Claude
 
 How Outtake ensures multi-hour agent sessions stay on track to uncover attack network operations
 
-- Category
-
-  [Agents](https://claude.com/blog/category/agents)
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  July 22, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude)
-
-  https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude
-- Author(s)
-
-  Michael Segner
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code, Claude Platform
+- AuthorMichael Segner
+- DateJuly 22, 2026
+- Reading time4 min
+- ShareCopy link
 
 *In our series,* **How startups build with Claude,** we highlight how startups are transforming their industries with AI. In this article, we share how Outtake built an autonomous cyber investigator that detects, investigates, and dismantles digital threats, from cloned login pages to entire adversarial networks.
 
-<table>
-<thead>
-<tr>
-<th colspan="2" scope="colgroup">The quick pitch</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th scope="row">Name</th>
-<td>Outtake</td>
-</tr>
-<tr>
-<th scope="row">Founded</th>
-<td>2023</td>
-</tr>
-<tr>
-<th scope="row">Founders</th>
-<td>Alex Dhillon (CEO), formerly of Palantir's moonshot team</td>
-</tr>
-<tr>
-<th scope="row">Growth</th>
-<td>Grew annual recurring revenue 6x and its customer base more than 10x year-over-year, scanning 20M+ potential cyberattacks in 2025 alone.</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">The quick pitch</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Name</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Outtake</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Founded</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">2023</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Founders</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Alex Dhillon (CEO), formerly of Palantir's moonshot team</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Growth</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Grew annual recurring revenue 6x and its customer base more than 10x year-over-year, scanning 20M+ potential cyberattacks in 2025 alone.</span></td></tr></tbody></table>
 
 Even with strong safeguards and controls, bad actors can mask their use of AI in seemingly benign purposes that hide their malicious intent. Code generation platforms can create convincing login portals, agentic go-to-market tooling can power the distribution of phishing attacks, and image generation capabilities can spoof identity. Traditional cybersecurity defenses struggle to keep up.
 
@@ -89,49 +43,11 @@ To carry out this sophisticated workflow, the Recon Agent can read, write, and r
 
 These investigations can require agents to run autonomously for long periods of time. Agent sessions run a median of 16 minutes, but routinely stretch to an hour and beyond; the longest run thus far lasted two hours of agentic work before returning results.
 
-No items found.
-
-[Prev](https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude)Prev
-
-0/5
-
-[Next](https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude)Next
-
-Get Claude Code
-
-curl -fsSL https://claude.ai/install.sh | bash
-
-Copy command to clipboard
-
-irm https://claude.ai/install.ps1 | iex
-
-Copy command to clipboard
-
-Or read the [documentation](https://code.claude.com/docs/en/overview)
-
-Try Claude Code
-
-[Try Claude Code](https://claude.ai/code)Try Claude Code
-
-Developer docs
-
-[Developer docs](https://code.claude.com/docs/en/overview)Developer docs
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
 ## **How Outtake built a complex long-running agent with Claude**
 
 Outtake built the Recon Agent in roughly four stages. Each stage was about understanding what a good investigation looked like, then progressively handing that judgment to the agent.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a60e7ad9916514322ed5ac4_3f776183.png)
+![](https://assets.claude.com/c0095c91335295c423d1b1be3e7df8180e0d4303.png)
 
 ### **Step 1: Become the expert first.**
 
@@ -147,9 +63,9 @@ Initially, the Outtake team used traditional agent frameworks to progressively a
 
 They quickly realized, however, that the Recon Agent couldn't just be a simple investigator. It needed to write, run code, build tools on the fly, and actually interact with malicious domains.
 
-“Every investigation is different, and deeply technical,” Hayford said. “The agent needed coding muscle and capability, and Claude Code was a strong initial harness for us to actually validate those assumptions and start experimenting more and more.”   
+“Every investigation is different, and deeply technical,” Hayford said. “The agent needed coding muscle and capability, and Claude Code was a strong initial harness for us to actually validate those assumptions and start experimenting more and more.”  
   
-It was by prototyping in Claude Code that they forged their core design principle: constrain the agent tightly at the orchestration level (*‘always do X, Y, Z when investigating a domain’*), but leave  it free to improvise whenever judgement was required.
+It was by prototyping in Claude Code that they forged their core design principle: constrain the agent tightly at the orchestration level (*‘always do X, Y, Z when investigating a domain’*), but leave it free to improvise whenever judgement was required.
 
 ### **Step 3: Graduate to a production-grade harness**
 
@@ -179,15 +95,15 @@ Filesystem enables memory that survives compaction. Agents are typically given v
 
 ### **Prompts are suggestions**
 
-Prompts provide flexibility when needed, but hardcoding where possible ensures stability. “When you're building these long-running agents that get complicated over time, prompts are suggestions,” Hayford said. “When an agent didn't do what you wanted, the natural response is to add to the most plastic part of the agent. Slipping ‘when X happens, make sure you do Y’ into the system prompt may work initially, but as this agent runs longer, every single word in that prompt will probably be ignored eventually.”   
+Prompts provide flexibility when needed, but hardcoding where possible ensures stability. “When you're building these long-running agents that get complicated over time, prompts are suggestions,” Hayford said. “When an agent didn't do what you wanted, the natural response is to add to the most plastic part of the agent. Slipping ‘when X happens, make sure you do Y’ into the system prompt may work initially, but as this agent runs longer, every single word in that prompt will probably be ignored eventually.”  
   
 The correct approach is to build around that likelihood by identifying what the agent should always do every time and making it part of the agent guardrails. “Pull these things out of the prompt and put them into the harness,” he said. “Now the agent doesn't have to think about it anymore and it has more context space and attention to put towards areas where it can really thrive.”
 
-*Read more on* [*best practices for directing Claude*](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more)*, and the context cost and authority of each method.*
+*Read more on [best practices for directing Claude](https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more), and the context cost and authority of each method.*
 
 ### **Evals are for speed, not just reliability**
 
-Use manual “reflections” as a roadmap to automated evals that tighten dev cycles.The conventional view is that evals are a quality gate for reliability. For long-running agents, though, the bigger payoff is speed.
+Use manual “reflections” as a roadmap to automated evals that tighten dev cycles. The conventional view is that evals are a quality gate for reliability. For long-running agents, though, the bigger payoff is speed.
 
 Early on, every time the Recon Agent ran, the team did a manual review of its performance. But reading an agent’s 30-minute transcript of everything it did is brutal and doesn't scale.
 
@@ -207,114 +123,53 @@ Their approach assumes the agent might get hijacked, so the surrounding system i
 
 Outtake is now scoring the level of trust at the exact point where the agent reaches out to the internet, implementing a checkpoint that evaluates whatever the agent is about to touch: ‘Is this page an impersonation? Is it malware? Is it trying to prompt-inject the agent right now?’ This may be exactly the armor that agents need as they traverse an increasingly adversarial internet.
 
-<table>
-<thead>
-<tr>
-<th colspan="2" scope="colgroup">Best practices from the Outtake team</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th scope="row">Do you know what "good" looks like?</th>
-<td>Be the agent first. Run the real task yourself and pull domain expertise from customers and design partners so you have a fixed standard to hold every later iteration against.</td>
-</tr>
-<tr>
-<th scope="row">Is each piece of complexity earned?</th>
-<td>Find the simplest working version and automate piece by piece. Add complexity only when results justify it — same discipline as traditional software.</td>
-</tr>
-<tr>
-<th scope="row">Is your harness matched to the workload?</th>
-<td>Validate assumptions fast in Claude Code, then graduate to the Agent SDK when you need lower-level control over memory, context, and sessions. Don't rebuild the agent loop yourself.</td>
-</tr>
-<tr>
-<th scope="row">Where should the agent be constrained?</th>
-<td>Hardcode guardrails at the orchestration layer, but don't let those constraints reach into low-level judgment calls. The improvisation space is where the best results come from.</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Best practices from the Outtake team</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Do you know what "good" looks like?</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Be the agent first. Run the real task yourself and pull domain expertise from customers and design partners so you have a fixed standard to hold every later iteration against.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Is each piece of complexity earned?</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Find the simplest working version and automate piece by piece. Add complexity only when results justify it — same discipline as traditional software.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Is your harness matched to the workload?</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Validate assumptions fast in Claude Code, then graduate to the Agent SDK when you need lower-level control over memory, context, and sessions. Don't rebuild the agent loop yourself.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Where should the agent be constrained?</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Hardcode guardrails at the orchestration layer, but don't let those constraints reach into low-level judgment calls. The improvisation space is where the best results come from.</span></td></tr></tbody></table>
 
 ## **What's next**
 
 Recon Agent is live and running investigations today. If you want to go deeper on how Outtake uses Claude to map adversarial infrastructure at scale:
 
-- [*View the full webinar*](https://www.anthropic.com/webinars/outtake-built-cyber-investigator-claude) *for a live demo and deeper discussion of how Outtake uses Claude to autonomously investigate and map threat infrastructure at scale.*
-- [*See Recon Agent in action*](https://www.outtake.ai/solutions/recon-agent)*. Explore how the agent moves from a single impersonation to a full threat actor profile.*
-- [*Get a free Recon Agent assessment*](https://www.outtake.ai/recon-agent-assessment) *to see what an investigation surfaces on your own exposure.*
+- *[View the full webinar](https://claude.com/resources/webinars/outtake-built-cyber-investigator-claude) for a live demo and deeper discussion of how Outtake uses Claude to autonomously investigate and map threat infrastructure at scale.*
+- *[See Recon Agent in action](https://www.outtake.ai/solutions/recon-agent). Explore how the agent moves from a single impersonation to a full threat actor profile.*
+- *[Get a free Recon Agent assessment](https://www.outtake.ai/recon-agent-assessment) to see what an investigation surfaces on your own exposure.*
 
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-### How Warp builds self-improving agents on Claude
-
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 29, 2026
+[ArticleSep 29, 2026
 
 ### Agents you can coach: how Asana builds human-agent teams with Claude
 
-Agents
+Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
+‍
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+### A new approach to agent security with Claude Managed Agents and NVIDIA
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
 
-Sep 28, 2026
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
 
-### Giving companies more control over their AI agents, with NVIDIA
+### Reducing cost and improving performance with Claude Platform
 
-Agents
+Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
 
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude)Giving companies more control over their AI agents, with NVIDIA
+Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
 
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
+### A guide to the anatomy of effective commerce agents
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
 
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

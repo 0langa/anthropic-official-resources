@@ -1,30 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228c83775fcc75f4e6d_74409af25137110ac04cc39e4d5ea0a2fbcea421-1000x1000.svg)
-
 # Building AI agents for healthcare and life sciences
 
 AI agents are delivering measurable results in healthcare and life sciences while navigating the industry's unique regulatory complexity and safety standards. Here's how.
 
-- Category
-
-  [Agents](https://claude.com/blog/category/agents)
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  October 30, 2025
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences)
-
-  https://claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Platform
+- DateOctober 30, 2025
+- Reading time16 min
+- ShareCopy link
 
 In healthcare and life sciences, AI is proving its worth where it matters most: real-world patient outcomes.
 
@@ -181,110 +163,53 @@ For technical leaders evaluating agent investments, production implementations a
 
 Production implementations prove the gains are achievable: measurable efficiency improvements across research, administrative workflows, and quality control. Your path forward is architecting systems that capture these benefits while maintaining the rigorous regulatory and clinical safety standards healthcare demands.
 
-No items found.
-
-[Prev](https://claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences)Prev
-
-0/5
-
-[Next](https://claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences)Next
-
 eBook
 
-## The Enterprise AI Transformation Guide for Healthcare and Life Sciences
+### The Enterprise AI Transformation Guide for Healthcare and Life Sciences
 
 Accelerate your enterprise AI transformation with proven strategies from Anthropic's customers in HCLS.
 
-Read the guide
+[Read the guide](https://resources.anthropic.com/hcls-transformation-guide)
 
-[Read the guide](https://resources.anthropic.com/hcls-transformation-guide)Read the guide
+![](https://assets.claude.com/29d8142c0cc732871194b2e7397a2564c3fb7e39.png)
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68ffff006efb5860f1d4fd31_Node-Plant%20(1).png)![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68ffff13a698d5f3536f8db7_Node-Plant.png)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-Learn how life sciences organizations are driving impact with Claude for Life Sciences:
-
-See here
-
-[See here](https://www.anthropic.com/news/claude-for-life-sciences)See here
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-### How Warp builds self-improving agents on Claude
-
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
-
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-Enterprise AI
-
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 29, 2026
+[ArticleSep 29, 2026
 
 ### Agents you can coach: how Asana builds human-agent teams with Claude
 
-Agents
+Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
+‍
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+### A new approach to agent security with Claude Managed Agents and NVIDIA
+
+Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
+
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
+
+### Reducing cost and improving performance with Claude Platform
+
+Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
+
+Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
+
+### A guide to the anatomy of effective commerce agents
+
+The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
+
+Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

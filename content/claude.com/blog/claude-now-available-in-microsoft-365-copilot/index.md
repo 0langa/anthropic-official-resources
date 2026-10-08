@@ -1,26 +1,10 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg)
-
 # Claude is now available in Microsoft 365 Copilot
 
-- Category
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  Claude apps
-- Date
-
-  September 24, 2025
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/claude-now-available-in-microsoft-365-copilot)
-
-  https://claude.com/blog/claude-now-available-in-microsoft-365-copilot
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude apps
+- DateSeptember 24, 2025
+- Reading time4 min
+- ShareCopy link
 
 Today, Microsoft announced that Claude models are now available in Microsoft 365 Copilot, bringing Claude to millions of enterprise users through Microsoft's productivity platform.
 
@@ -35,7 +19,7 @@ The addition of Claude Sonnet 4 and Claude Opus 4.1 help Microsoft bring the bes
 
 Once you opt-in, you’ll be able to choose Claude in Researcher with ease.
 
-![Claude in Researcher allows organizations to select the right AI for their specific business needs. ](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69026d8533126bd873b97bad_image.gif)
+![Claude in Researcher allows organizations to select the right AI for their specific business needs. ](https://assets.claude.com/edcc8828d4056f6bc21a1eeb206ede9e915bbd58.gif)
 
 Claude Opus 4.1 is now available in Microsoft's Researcher agent, allowing teams to tackle complex, multi-step research powered by Anthropic's industry-leading AI.
 
@@ -45,98 +29,40 @@ Claude in Researcher is rolling out today via Microsoft’s Frontier Program to 
 
 Stay tuned for additional Claude experiences within the Microsoft 365 ecosystem, and learn more about Claude's enterprise capabilities and our commitment to safe, trusted AI at [anthropic.com/enterprise](http://anthropic.com/enterprise). Additional details are available in [Microsoft’s launch blog](https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/24/expanding-model-choice-in-microsoft-365-copilot/).
 
-No items found.
-
-[Prev](https://claude.com/blog/claude-now-available-in-microsoft-365-copilot)Prev
-
-0/5
-
-[Next](https://claude.com/blog/claude-now-available-in-microsoft-365-copilot)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/claude-now-available-in-microsoft-365-copilot)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-now-available-in-microsoft-365-copilot)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
 ### Build plugins for Claude
 
-Product announcements
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-[Build plugins for Claude](https://claude.com/blog/claude-now-available-in-microsoft-365-copilot)Build plugins for Claude
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
+### Claude Tag now supports personal connectors in channels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-now-available-in-microsoft-365-copilot)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/claude-now-available-in-microsoft-365-copilot)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

@@ -1,30 +1,14 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
-
 # Automate security reviews with Claude Code
 
-- Category
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  August 6, 2025
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/automate-security-reviews-with-claude-code)
-
-  https://claude.com/blog/automate-security-reviews-with-claude-code
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Code
+- DateAugust 6, 2025
+- Reading time4 min
+- ShareCopy link
 
 Today we're introducing automated security reviews in Claude Code. Using our GitHub Actions integration and a new /security-review command, developers can easily ask Claude to identify security concerns—and then have it fix them.
 
-Embedded media: https://www.youtube.com/embed/YdiCjgYGKto
+Embedded media: https://www.youtube-nocookie.com/embed/YdiCjgYGKto?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 As developers increasingly rely on AI to ship faster and build more complex systems, ensuring code security becomes even more critical. These new features let you integrate security reviews into your existing workflows, helping you catch vulnerabilities before they reach production.
 
@@ -53,7 +37,7 @@ The new GitHub action for Claude Code takes security reviews a step further by a
 
 This creates a consistent security review process across your entire team, ensuring no code reaches production without a baseline security review. The action integrates with your existing CI/CD pipeline and can be customized to match your team's security policies.
 
-![2 screenshots showing vulnerabilities that were caught by Claude Code, leaving comments in GitHub.](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d9257ab1dfc1937fcbe_37aa77df52f1a4e8d81f398f48dbb98a5ba1d5ec-1920x1080.png)
+![2 screenshots showing vulnerabilities that were caught by Claude Code, leaving comments in GitHub.](https://assets.claude.com/1ebef4ff829fa7823e1b95a589e3a2591efdda73.png)
 
 ### Improving product security at Anthropic
 
@@ -61,11 +45,11 @@ We're using these features ourselves to help secure the code our team ships to p
 
 For example, last week, our team built a new feature for an internal tool that relied on starting a local HTTP server meant to accept local connections. The GitHub action identified a remote code execution vulnerability exploitable through DNS rebinding and it was fixed before the PR was ever merged.
 
-![A GitHub comment showing a remote code execution vulnerability](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d9257ab1dfc1937fcc2_a370dba2f6e5095cdbcb23ef878dda4befd61d95-1920x1080.png)
+![A GitHub comment showing a remote code execution vulnerability](https://assets.claude.com/1d0fc2da3b1c33de2a4829f92e7dc4a7a6d5b510.png)
 
 In another case, an engineer built a proxy system to enable secure management of internal credentials. The GitHub action automatically flagged that this proxy was vulnerable to SSRF attacks, and we promptly fixed this issue.
 
-![A GitHub comment showing a SSRF attack vulnerability](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d9257ab1dfc1937fcb8_23dd3b5404c6f7dc812df83a7de95babab286865-1920x1080.png)
+![A GitHub comment showing a SSRF attack vulnerability](https://assets.claude.com/fc0402007fcc1308f30973e6ddcfbf909bae198b.png)
 
 ### Getting started
 
@@ -74,98 +58,40 @@ Both features are available now for all Claude Code users. To start using automa
 - **For the /security-review command**: Simply update Claude Code to the latest version and run /security-review in your project directory. [See the documentation](https://github.com/anthropics/claude-code-security-review/tree/main?tab=readme-ov-file) to customize your own version of the command
 - **For the GitHub action**: [See the documentation](https://github.com/anthropics/claude-code-security-review) for step-by-step installation and configuration instructions
 
-No items found.
-
-[Prev](https://claude.com/blog/automate-security-reviews-with-claude-code)Prev
-
-0/5
-
-[Next](https://claude.com/blog/automate-security-reviews-with-claude-code)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/automate-security-reviews-with-claude-code)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/automate-security-reviews-with-claude-code)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
 ### Build plugins for Claude
 
-Product announcements
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-[Build plugins for Claude](https://claude.com/blog/automate-security-reviews-with-claude-code)Build plugins for Claude
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
+### Claude Tag now supports personal connectors in channels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/automate-security-reviews-with-claude-code)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/automate-security-reviews-with-claude-code)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

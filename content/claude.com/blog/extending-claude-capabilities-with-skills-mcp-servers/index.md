@@ -1,34 +1,16 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b1ef956a6d81cfd9c_653e7474811cf768b6b0f628e253f98c60e2747e-1000x1000.svg)
-
 # Extending Claude’s capabilities with skills and MCP servers
 
 Learn how skills and MCP work together to build agents that follow your workflows and use external systems and platforms effectively.
 
-- Category
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude apps, Claude Platform
+- DateDecember 19, 2025
+- Reading time11 min
+- ShareCopy link
 
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  Claude apps
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  December 19, 2025
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers)
-
-  https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers
-
-***Update:*** *We've published* [*Agent Skills*](https://agentskills.io/) *as an open standard for cross-platform portability. (December 18, 2025)*  
+***Update:** We've published [Agent Skills](https://agentskills.io/) as an open standard for cross-platform portability. (December 18, 2025)*  
   
-Since [launching Skills](https://claude.com/blog/skills), two of the biggest questions we’ve heard from customers are: "How do skills and MCP work together? When should I use one versus the other?"
+Since [launching Skills](https://claude.com/resources/articles/skills), two of the biggest questions we’ve heard from customers are: "How do skills and MCP work together? When should I use one versus the other?"
 
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro) connects Claude to third-party tools, and skills teach Claude how to use them well. When you combine both, you can build agents that follow your team’s workflows, not generic processes that require constant correction.
 
@@ -42,7 +24,7 @@ You walk into a hardware store looking to fix a broken cabinet. The store has ev
 
 MCP is like having access to the aisles. Skills, meanwhile, are like an employee's expertise. All the inventory in the world won't help if you don't know which items you need or how to use them. A skill is like the helpful employee who walks you through the repair process, points you to the right supplies, and shows you proper technique.
 
-Put more concretely, an MCP server gives Claude access to your external systems, services, and platforms, while skills provide the context Claude needs to use those connections effectively, teaching Claude what to do now that it has this access.   
+Put more concretely, an MCP server gives Claude access to your external systems, services, and platforms, while skills provide the context Claude needs to use those connections effectively, teaching Claude what to do now that it has this access.  
   
 Without the context that skills provide, Claude has to guess at what you want. With a skill, Claude can follow your playbook instead.
 
@@ -66,7 +48,7 @@ Over time, teams build up collections of interrelated skills and connections tha
 
 **Further reading**: Tim O'Reilly on what [MCP and skills mean for open source AI](https://www.oreilly.com/radar/what-mcp-and-claude-skills-teach-us-about-open-source-for-ai/)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6945b3dfa8f134d0104e4e23_How%20Skills%20and%20MCP%20work%20together%20-%20v3B%402x%20(2).png)
+![](https://assets.claude.com/63e82441ddfbcf4a29659d5007661b57e69a295e.png)
 
 How skills and MCP work together: MCP provides tool access, skills provide workflow logic.
 
@@ -147,47 +129,7 @@ If you're explaining *how* to do something, that's a skill. If you need Claude t
 
 #### ***Quick reference table: How skills and MCP differ***
 
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Skills</th>
-<th>MCP</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><b>What it is</b></td>
-<td>Procedural knowledge</td>
-<td>Tool connectivity</td>
-</tr>
-<tr>
-<td><b>What it does</b></td>
-<td>Teaches Claude <i>how</i> to do something</td>
-<td>Gives Claude <i>access</i> to something</td>
-</tr>
-<tr>
-<td><b>When it loads</b></td>
-<td>On demand, when relevant</td>
-<td>Always available once connected</td>
-</tr>
-<tr>
-<td><b>Contains</b></td>
-<td>Instructions, scripts, templates, assets</td>
-<td>Tools, resources, prompts</td>
-</tr>
-<tr>
-<td><b>Token behavior</b></td>
-<td>Loads on-demand, preserving context</td>
-<td>Definitions loaded upfront</td>
-</tr>
-<tr>
-<td><b>Best for</b></td>
-<td>Workflows, standards, methodology</td>
-<td>Data access, API calls, external actions</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Skills</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">MCP</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>What it is</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Procedural knowledge</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Tool connectivity</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>What it does</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Teaches Claude <em>how</em> to do something</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Gives Claude <em>access</em> to something</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>When it loads</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">On demand, when relevant</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Always available once connected</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Contains</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Instructions, scripts, templates, assets</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Tools, resources, prompts</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Token behavior</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Loads on-demand, preserving context</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Definitions loaded upfront</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Best for</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Workflows, standards, methodology</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Data access, API calls, external actions</span></td></tr></tbody></table>
 
 ## **Common questions**
 
@@ -227,8 +169,8 @@ Ready to build with skills *and* MCP? Here's how to start:
 
 Explore more insights on building with Claude's agentic capabilities.
 
-- [Skills explained: How Skills compares to prompts, Projects, MCP, and subagents](https://www.claude.com/blog/skills-explained)
-- [Improving frontend design through Skills](https://www.claude.com/blog/improving-frontend-design-through-skills)
+- [Skills explained: How Skills compares to prompts, Projects, MCP, and subagents](https://claude.com/resources/articles/skills-explained)
+- [Improving frontend design through Skills](https://claude.com/resources/articles/improving-frontend-design-through-skills)
 - [Equipping agents for the real world with Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)
 
 ‍
@@ -237,98 +179,43 @@ Explore more insights on building with Claude's agentic capabilities.
 
 ‍
 
-No items found.
-
-[Prev](https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers)Prev
-
-0/5
-
-[Next](https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-### How Warp builds self-improving agents on Claude
-
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 29, 2026
+[ArticleSep 29, 2026
 
 ### Agents you can coach: how Asana builds human-agent teams with Claude
 
-Agents
+Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
+‍
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+### A new approach to agent security with Claude Managed Agents and NVIDIA
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
 
-Sep 28, 2026
-
-### Giving companies more control over their AI agents, with NVIDIA
-
-Agents
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers)Giving companies more control over their AI agents, with NVIDIA
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Sep 8, 2026
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
 
 ### Reducing cost and improving performance with Claude Platform
 
-Agents
+Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers)Reducing cost and improving performance with Claude Platform
+Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
+### A guide to the anatomy of effective commerce agents
+
+The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
+
+Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

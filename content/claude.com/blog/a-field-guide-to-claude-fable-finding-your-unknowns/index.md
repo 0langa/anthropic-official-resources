@@ -1,32 +1,16 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)
-
 # A field guide to Claude Fable 5: Finding your unknowns
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  July 6, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns)
-
-  https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code
+- DateJuly 6, 2026
+- Reading time2 min
+- ShareCopy link
 
 When working with Claude Code, I’m often reminded of the difference between the map and the territory.
 
 The map, a representation of the work to be done, is my prompts and skills and context, it’s what I give Claude. The territory is where the work needs to happen, the codebase, the real world, its actual constraints.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4be4919e159adcdfa3ec1c_94358c3c.png)
+![](https://assets.claude.com/0c9ef5f6d0bb96e0267b77ae7ec4ee3249a71778.png)
 
 The difference between the map and the territory is what I call *unknowns*. When Claude runs into an unknown, it needs to make a decision based on its best guess of what I want. The more work being done, the more unknowns Claude might run into.
 
@@ -35,44 +19,6 @@ Claude Fable is the first model where I find the quality of the work is bottlene
 Importantly, just planning ahead isn’t always enough. You can find unknowns deep in implementation, or your unknowns may point you to the fact that you should actually be solving the problem in a different way altogether.
 
 I’ve found that working with Fable is an iterative process of discovering my unknowns before, during, and after implementation.
-
-No items found.
-
-[Prev](https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns)Prev
-
-0/5
-
-[Next](https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns)Next
-
-Get Claude Code
-
-curl -fsSL https://claude.ai/install.sh | bash
-
-Copy command to clipboard
-
-irm https://claude.ai/install.ps1 | iex
-
-Copy command to clipboard
-
-Or read the [documentation](https://code.claude.com/docs/en/overview)
-
-Try Claude Code
-
-[Try Claude Code](https://claude.ai/code)Try Claude Code
-
-Developer docs
-
-[Developer docs](https://code.claude.com/docs/en/overview)Developer docs
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
 
 ## Knowing your unknowns
 
@@ -85,13 +31,13 @@ What are your unknowns? When I come to Claude with a problem I tend to break it 
 
 The best agentic coders have relatively few unknowns. Watching someone like [Boris](https://www.linkedin.com/in/bcherny) or [Jarred](https://www.linkedin.com/in/jarred-sumner-a8772425) prompt, it is obvious to me that they know what they want in-detail. They are deeply in-sync with both the codebase and the model behaviors.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4be4919e159adcdfa3ec52_cc0ee2de.png)
+![](https://assets.claude.com/c0977293cee11764842764e05ae2802892000439.png)
 
 But they also assume unknowns. In many ways, reducing and planning for your unknowns is the **skill** of agentic coding. But luckily, this is a skill you can improve at, by working with Claude.
 
 ## Help Claude help you
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4be4919e159adcdfa3ec55_c4646783.png)
+![](https://assets.claude.com/55cc5d145a4c9a517e6bc1e7d94240c230b4120f.png)
 
 Instructing Claude is a delicate balance. If you are too specific, Claude will follow your instructions even when a pivot may be more appropriate. If you are too vague, Claude will often make choices and assumptions based on industry best practices that may not be a fit for your task.
 
@@ -133,7 +79,6 @@ In these situations, you can ask Claude to help you find your unknown unknowns a
 **Example prompts**:
 
 - “I'm working on adding a new auth provider but I know nothing about the auth modules in this codebase. Can you do a blind spot pass to help me figure out my relevant unknown unknowns and help me prompt you better.”
-
 - “I don’t know what color grading is but I need to grade this video. Can you teach me to understand my unknown unknowns about color grading, so that I can prompt better?”
 
 ### Brainstorms and prototypes
@@ -151,9 +96,7 @@ I also start almost every coding session with an exploration or brainstorming ph
 **Example prompts:**
 
 - "I want a dashboard for this data but I have no visual taste and don't know what's possible. Make me an HTML page with 4 wildly different design directions so I can react to them.”
-
 - “Before wiring anything up, make a single HTML file mocking the new editor toolbar with fake data. I want to react to the layout before you touch the real app."
-
 - "Here's my rough problem: users churn after onboarding. Search the codebase and brainstorm 10 places we could intervene, from cheapest to most ambitious. I'll tell you which ones resonate."
 
 ### Interviews
@@ -180,7 +123,7 @@ If you have a library that implements something in a certain way or a design com
 
 ### Implementation Plans
 
-When I think I’m ready to implement, I tend to ask Claude to put together an implementation plan for me to review. The plan focuses on the parts that might be most likely to change such as  data models, type interfaces, or UX flows. This allows Claude to surface things I might actually need to alter.
+When I think I’m ready to implement, I tend to ask Claude to put together an implementation plan for me to review. The plan focuses on the parts that might be most likely to change such as data models, type interfaces, or UX flows. This allows Claude to surface things I might actually need to alter.
 
 **Example prompt:**
 
@@ -204,7 +147,7 @@ I ask Claude Code to keep a temporary ‘implementation-notes.md’ (or .html) f
 
 ### Pitches and explainers
 
-One of the most important parts of shipping something is getting buy-in and approvals.  Building pitch and explainer artifacts in the final document helps:
+One of the most important parts of shipping something is getting buy-in and approvals. Building pitch and explainer artifacts in the final document helps:
 
 - Accelerate understanding when reviewers start with the same unknowns you did
 - Accelerate approvals when experts want to see you accounted for the unknowns and common failure points they would have anticipated
@@ -245,80 +188,42 @@ For the context side of working with Fable-generation models, see [the new rules
 
 *This article was written by Thariq Shihipar, member of technical staff, Anthropic.*
 
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
-
-Sep 24, 2026
+[ArticleSep 24, 2026
 
 ### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-Claude Code
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-Sep 23, 2026
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-### How to prepare for AI-driven code modernization projects
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-Enterprise AI
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns) How to prepare for AI-driven code modernization projects
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
+### The Claude Code guide for startups
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

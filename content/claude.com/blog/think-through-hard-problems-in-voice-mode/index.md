@@ -1,34 +1,18 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d231b45c2193efbb0f02_1869137c9d7f2a38b50e804d707e10e85de05ddb-1000x1000.svg)
-
 # Think through hard problems in voice mode
 
 Starting today, voice mode runs on Claude Opus, Claude Sonnet, and Claude Haiku, reaches the tools you’ve connected like Gmail and Slack, and speaks many more languages.
 
-- Category
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude apps
+- DateJuly 23, 2026
+- Reading time4 min
+- ShareCopy link
 
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  Claude apps
-- Date
-
-  July 23, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/think-through-hard-problems-in-voice-mode)
-
-  https://claude.com/blog/think-through-hard-problems-in-voice-mode
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a615eb11a9985606ddfd946_73191d55.png)
+![](https://assets.claude.com/30378eeef4acaf8767584682acb830aceb120214.png)
 
 Some problems you can't type your way through. Voice mode is for practicing for an important pitch meeting, deciding between multiple offers, reviewing your own process out loud, or brainstorming new ideas.
 
-Embedded media: https://www.youtube.com/embed/GWnNMfFivnk
+Embedded media: https://www.youtube-nocookie.com/embed/GWnNMfFivnk?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 ## **A sounding board that keeps up**
 
@@ -36,7 +20,7 @@ After we added hands-free conversation earlier this year, people started using v
 
 Claude Opus and Sonnet, models designed for hard problem-solving, are now available in voice mode. You can switch models mid-conversation from the model picker. Voice mode uses the fastest version of whichever model you’ve selected, so the conversation runs smoothly. It defaults to the last model you used in text chat, so you can move between voice and text without starting over.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a615eb11a9985606ddfd949_61a21314.png)
+![](https://assets.claude.com/865b630abe138d5d9e340d021d081ee2f07f7292.png)
 
 With more capable models, you can talk through a half-formed idea and work out what you actually think. Claude asks follow-up questions and builds on your thinking rather than handing you an answer. Voice mode takes turns, meaning Claude listens, pauses to think, and then responds.
 
@@ -49,13 +33,13 @@ A few things to try:
 
 ## **From talking to doing**
 
-When you’ve  decided what to do, ask Claude to do it. Some examples of what you can achieve in your tools:
+When you’ve decided what to do, ask Claude to do it. Some examples of what you can achieve in your tools:
 
 - Running late? Ask Claude to push a meeting on your Google Calendar by 30 minutes.
 - Turn a conversation about a client pitch into a one-pager in Canva.
 - Ask Claude to summarize the emails you’ve received today and draft responses to the most critical ones.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a615eb11a9985606ddfd94c_e65a2219.png)
+![](https://assets.claude.com/aa6f885466e845c2e438a48e8f4002558619ab67.png)
 
 Claude will ask for permission before using one of your connected tools. You can connect a new tool in Settings > Connectors on the Claude mobile, desktop or web apps.
 
@@ -77,7 +61,7 @@ With many more languages now available in voice mode on every plan, you can talk
 
 Tell Claude out loud to switch from English to your language of choice, or select your language from the language picker in voice settings.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a615eb11a9985606ddfd950_f70a3e43.png)
+![](https://assets.claude.com/f8e24ddaa5683961cc283b79d5b0c33475cda524.png)
 
 Claude doesn’t automatically detect your language, so you’ll need to ask out loud or select your language to make the switch from English. You will need to set your language specifically for voice mode, as your previous language settings will not carry over.
 
@@ -87,98 +71,40 @@ The latest update to voice mode is available in beta to all chat users on mobile
 
 Try voice mode in the Claude mobile app by tapping the sound wave icon, or [download the app to get started](https://claude.com/download).
 
-No items found.
-
-[Prev](https://claude.com/blog/think-through-hard-problems-in-voice-mode)Prev
-
-0/5
-
-[Next](https://claude.com/blog/think-through-hard-problems-in-voice-mode)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/think-through-hard-problems-in-voice-mode)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/think-through-hard-problems-in-voice-mode)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
 ### Build plugins for Claude
 
-Product announcements
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-[Build plugins for Claude](https://claude.com/blog/think-through-hard-problems-in-voice-mode)Build plugins for Claude
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
+### Claude Tag now supports personal connectors in channels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/think-through-hard-problems-in-voice-mode)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/think-through-hard-problems-in-voice-mode)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

@@ -1,32 +1,16 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
 # Bringing Salesforce into Claude
 
 Sellers can now research companies, prep for calls, review pipeline, and draft CRM updates with our new Salesforce in Claude plugin.
 
-- Category
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Enterprise](https://claude.com/solutions/enterprise)
-- Date
-
-  September 15, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/salesforce-in-claude)
-
-  https://claude.com/blog/salesforce-in-claude
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Enterprise
+- DateSeptember 15, 2026
+- Reading time6 min
+- ShareCopy link
 
 Today we are releasing Salesforce in Claude in beta, a plugin built with Salesforce that brings a seller’s accounts, opportunities, and pipeline into Claude under their existing Salesforce permissions. It includes 37 skills for the work account executives do daily, including account research, call prep, pipeline review, and CRM updates.
 
-Embedded media: https://www.youtube.com/embed/t6z0Ea0GwSk
+Embedded media: https://www.youtube-nocookie.com/embed/t6z0Ea0GwSk?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 Sellers often spend hours of their day on meeting prep or follow-up work from customer meetings by manually assembling information scattered across Salesforce, email, call recordings, and Slack. With the new plugin, Claude does that administrative work and updates Salesforce once the seller approves.
 
@@ -42,9 +26,10 @@ The plugin also has two connectors that enable sellers to begin using it once an
 
 **End every meeting with Salesforce updated.** After each call, Claude turns the transcript or the seller’s notes into a follow-up email, a summary for the deal channel in Slack, and drafts opportunity updates like next steps, stage, and close date, for the seller to review.
 
-**Review pipeline and share forecasts.** A seller can ask for a pipeline view and Claude builds an interactive dashboard showing coverage by stage, deals most likely to slip and why, and drill-down by account. From the dashboard, a seller can tell Claude to move a close date or change a stage, and Claude updates the record in Salesforce. Dashboards can be shared with leadership or the team,  and Claude can draft the forecast narrative in the format leadership expects. Sales leaders can run the same views across the team.
+**Review pipeline and share forecasts.** A seller can ask for a pipeline view and Claude builds an interactive dashboard showing coverage by stage, deals most likely to slip and why, and drill-down by account. From the dashboard, a seller can tell Claude to move a close date or change a stage, and Claude updates the record in Salesforce. Dashboards can be shared with leadership or the team, and Claude can draft the forecast narrative in the format leadership expects. Sales leaders can run the same views across the team.
 
-**Built on an organization’s existing permissions**Salesforce remains as the system of record. Sellers sign in with their Salesforce credentials and Claude reads only what their permissions allow. By default, Claude asks the seller to approve each proposed change before it’s written. On Team and Enterprise plans, we don’t train our models on your data by default.
+**Built on an organization’s existing permissions**  
+Salesforce remains as the system of record. Sellers sign in with their Salesforce credentials and Claude reads only what their permissions allow. By default, Claude asks the seller to approve each proposed change before it’s written. On Team and Enterprise plans, we don’t train our models on your data by default.
 
 Admins connect Salesforce once for the organization and choose which groups get the plugin.
 
@@ -52,106 +37,51 @@ Admins connect Salesforce once for the organization and choose which groups get 
 
 Anthropic customers GitLab, Siemens, and Legora have deployed Salesforce in Claude to their organizations, and 7,000 Salesforce sellers use it in their work. Here’s what they’ve told us about using Salesforce in Claude:
 
-> "With Salesforce in Claude, our sellers turn live data into meeting briefings in seconds instead of hours. As our sales team grows, every new rep starts with a full picture of the law firms we serve." — David Eckstein, Chief Financial Officer, Legora
+> “"With Salesforce in Claude, our sellers turn live data into meeting briefings in seconds instead of hours. As our sales team grows, every new rep starts with a full picture of the law firms we serve." — David Eckstein, Chief Financial Officer, Legora”
 
-> "With Salesforce in Claude, sellers can start the day with the pipeline review already done and the account history already there. That time goes straight back into customer conversations."  — Alexa Vignone, President and Chief Revenue Officer, Salesforce
+> “"With Salesforce in Claude, sellers can start the day with the pipeline review already done and the account history already there. That time goes straight back into customer conversations." — Alexa Vignone, President and Chief Revenue Officer, Salesforce”
 
 ## **Getting started**
 
-Salesforce in Claude is available in beta on all paid Claude plans. The [Salesforce MCP](https://claude.ai/directory/bundles/salesforce) is available to install directly through the marketplace today. To install the plugin, admins can request access through [AgentExchange](https://agentexchange.salesforce.com/sales-cloud-in-claude-beta-access) and connect Salesforce once for their entire organization. For admins, we have a [setup guide](https://support.claude.com/en/articles/16952184) with instructions on how to turn this on for your org. For sales leaders, we have a [guide on running an effective sales organization with Claude](https://claude.com/blog/building-an-ai-native-revenue-organization).
+Salesforce in Claude is available in beta on all paid Claude plans. The [Salesforce MCP](https://claude.ai/directory/bundles/salesforce) is available to install directly through the marketplace today. To install the plugin, admins can request access through [AgentExchange](https://agentexchange.salesforce.com/sales-cloud-in-claude-beta-access) and connect Salesforce once for their entire organization. For admins, we have a [setup guide](https://support.claude.com/en/articles/16952184) with instructions on how to turn this on for your org. For sales leaders, we have a [guide on running an effective sales organization with Claude](https://claude.com/resources/articles/building-an-ai-native-revenue-organization).
 
-No items found.
-
-[Prev](https://claude.com/blog/salesforce-in-claude)Prev
-
-0/5
-
-[Next](https://claude.com/blog/salesforce-in-claude)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/salesforce-in-claude)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
+[ArticleSep 30, 2026
 
 ### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
-Enterprise AI
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/salesforce-in-claude)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How to prepare for AI-driven code modernization projects
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-May 21, 2026
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
 
-### Claude now works with more security and compliance tools
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
-Enterprise AI
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/salesforce-in-claude)Claude now works with more security and compliance tools
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
 
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/salesforce-in-claude)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/salesforce-in-claude)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

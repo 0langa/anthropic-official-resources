@@ -1,33 +1,13 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
 # A guide to the anatomy of effective commerce agents
 
 The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
 
-- Category
-
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  September 2, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/the-anatomy-of-effective-commerce-agents)
-
-  https://claude.com/blog/the-anatomy-of-effective-commerce-agents
-- Author(s)
-
-  Ali Shazal
-
-  Matthew Koen
+- Category[Best practices](https://claude.com/resources/best-practices), [Perspectives](https://claude.com/resources/perspectives)
+- ProductClaude Platform
+- AuthorsAli Shazal, Matthew Koen
+- DateSeptember 2, 2026
+- Reading time36 min
+- ShareCopy link
 
 Over the past year, we've worked with teams across the commerce industry — retailers, marketplaces, travel, entertainment, and telecom providers — to build commerce agents using Claude.
 
@@ -43,23 +23,23 @@ We've also provided a **blueprint** to help build commerce agents on Claude. It 
 
 In this guide
 
-1. [Part 1: The architecture](https://claude.com/blog/the-anatomy-of-effective-commerce-agents)
+1. [Part 1: The architecture](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
    1. What is a commerce agent?
    2. Skills, not subagents
    3. System prompt or skill: decide by frequency
    4. Engineering agent tooling
    5. The UI components are tools
-2. [Part 2: Making it fast and affordable](https://claude.com/blog/the-anatomy-of-effective-commerce-agents)
+2. [Part 2: Making it fast and affordable](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
    1. Minimizing task completion latency
    2. Perceived latency
    3. Prompt caching
    4. Choosing the model and its configuration
-3. [Part 3: Running it in production](https://claude.com/blog/the-anatomy-of-effective-commerce-agents)
+3. [Part 3: Running it in production](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
    1. Memory that survives the session
    2. Safety: enforcement lives in the harness
    3. Evals: shipping a non-deterministic system
    4. Shipping with a large organization
-4. [Looking ahead](https://claude.com/blog/the-anatomy-of-effective-commerce-agents)
+4. [Looking ahead](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
 
 **01**
 
@@ -73,7 +53,7 @@ We define a commerce agent as an agent that simplifies buying and selling across
 
 Some agents face consumers: they search, compare, substitute, and assemble the order. That could be a retail cart, a travel itinerary, a mobile plan change, or seats held for a show. Some agents face the business: they answer questions about sales, run promotions and campaigns, and manage inventory and pricing.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a97121e31e08caa3a0e6679_02653800.png)
+![](https://assets.claude.com/47781bb901a117a56bcb301ad769a405a42dba62.png)
 
 The core architecture is a model in a [standard agent loop](https://www.anthropic.com/engineering/building-effective-agents): reasoning about a goal, exploring context, taking actions through tools, learning procedures through skills, asking clarifying questions, and observing the results until the goal is accomplished.
 
@@ -163,7 +143,7 @@ The pattern that has held up is to make each UI component a tool. The model call
 
 As the components are tool calls, they're already in the messages array in native format, so you don’t need to re-parse when you reload an old conversation. An example presentation-tool contract is illustrated below and in the [reference repo.](https://github.com/anthropics/commerce-agents)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a971accf6d9dcde640f87df_presentationtool.gif)
+![](https://assets.claude.com/3f245cfa642f8d8c7a9f7f5841f127d67f27f5dc.gif)
 
 The tradeoff is streaming granularity. Each top-level argument of a tool call buffers on the server for validation, so the sub-components of a presentation tool arrive in steps even with streaming on. This impacts perceived latency.
 
@@ -209,10 +189,10 @@ Query complexity adds turns, and is generally out of your control. Model intelli
 
 #### **Faster tools**
 
-- **Optimize the tool's own backend.** Sometimes a tool genuinely fans out – a merchant agent with a  "get today's snapshot" query reads sales, inventory, and campaign status in three independent calls. But we often see the tool boundary become the place where missing backend logic gets stitched together: an availability check that calls the catalog for the SKU, the inventory service per store, and the fulfillment service for cutoffs, then applies substitution rules and pickup eligibility in the tool's own code before answering. That tool is now overloaded with domain knowledge, hard to keep correct as the rules change, and is carrying logic that should sit in an upstream system. When you find yourself writing that logic in a tool, the fix is one backend endpoint that answers the question, and calling that with an agent tool.
+- **Optimize the tool's own backend.** Sometimes a tool genuinely fans out – a merchant agent with a "get today's snapshot" query reads sales, inventory, and campaign status in three independent calls. But we often see the tool boundary become the place where missing backend logic gets stitched together: an availability check that calls the catalog for the SKU, the inventory service per store, and the fulfillment service for cutoffs, then applies substitution rules and pickup eligibility in the tool's own code before answering. That tool is now overloaded with domain knowledge, hard to keep correct as the rules change, and is carrying logic that should sit in an upstream system. When you find yourself writing that logic in a tool, the fix is one backend endpoint that answers the question, and calling that with an agent tool.
 - **Dispatch tools eagerly.** Tool arguments stream out of the model like any other tokens, so the harness can execute each tool’s call as its arguments complete and process it while the model is still streaming other, parallel tools or content blocks. We've seen this take multi-second gaps down to a few hundred milliseconds, and the [Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview) does it by default. You should prompt the model to emit its slowest call first for maximum latency gains.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a971b4ebf113390b39a25b2_eagerdispatch.gif)
+![](https://assets.claude.com/6d1b82ec4129e3eae6932ab4dea06dd3fc1c274e.gif)
 
 ### **Perceived latency**
 
@@ -221,9 +201,9 @@ Perceived latency is the time a user feels until the screen does something. It�
 - **Stream components as they form.** A rendered commerce response is typically 500–700 output tokens, which without streaming is five or more seconds of a spinner. Send each parameter of a presentation tool to the client as it streams and render the page progressively.
 - **Show the work.** While the agent is gathering context, render a short progress line for each step in plain language (for example, "finding hotels near the water"). You can build it from the tool's existing arguments (such as the query for a product search), or add an additional user\_facing\_message parameter tool that prompts the model to write the line.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a971b28c43d0f061e80bc6c_perceivedlatency.gif)
+![](https://assets.claude.com/0a23449decd51d4ed8785a700a1e117db2d3f39f.gif)
 
-*The two panels above run the same agent with the same tools and prompt; only the harness differs. Total time is about the same, but the time the user sees something is quite different.*
+The two panels above run the same agent with the same tools and prompt; only the harness differs. Total time is about the same, but the time the user sees something is quite different.
 
 ### **Prompt caching**
 
@@ -237,17 +217,17 @@ Caching is prefix-based. A request reads from cache up to the first byte that di
 - **Session**: per-user context and conversation history, which differ across sessions but stay stable within one. This segment comes after the global one.
 - **Volatile**: anything that changes within a session, such as the current time or the current page. Put it at the very end of the request, either as a tagged block in the newest user turn or, on models that support [mid-conversation system messages](https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages), as a system-role message appended to the messages array. The most common mistake we see is a timestamp or the current page at the top of the system prompt, which silently breaks the cache on every request.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a970f654fd654f0e7990b95_c63ca0e7.png)
+![](https://assets.claude.com/e6fbdecfcdda588a29d70f54cde5c09d17a921aa.png)
 
 There are two implementation details to remember here. First, skills should be loaded as tool results rather than appended to the system prompt. The skill body then lands in the conversation prefix and is cached along with it.
 
 Second, roll your breakpoints forward in each turn: a request allows a limited number of breakpoints, so move the newest one to the end of each user turn. Each round then reads the accumulated history, including long tool results such as search responses, from cache.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a97109fd7957fb6e5b0facf_f48075ed.png)
+![](https://assets.claude.com/bdf3f158eeed3dc122c1bb2d04eee5343405ca93.png)
 
 ### **Choosing the model and its configuration**
 
-[Model size and the effort setting](https://claude.com/blog/claude-model-and-effort-level-in-claude-code) are the same tradeoff – intelligence against latency and cost – and you should choose both by measurement:
+[Model size and the effort setting](https://claude.com/resources/articles/claude-model-and-effort-level-in-claude-code) are the same tradeoff – intelligence against latency and cost – and you should choose both by measurement:
 
 1. **Pick your metric and your floor.** Pick the quality metrics your business runs on (task completion, answer relevance, grounded accuracy), the eval score you won't go below, and your p50 and p99 latency and cost budgets.
 2. **Sweep.** Run your entire eval suite across *every* model and effort level you'd consider. We recommend starting at Opus for merchant agents, whose tasks are analysis-heavy, and Sonnet for consumer agents, where latency weighs more. If you have production traffic, weigh the results by your real query mix. Then let the numbers decide. Sometimes Opus 5's lift on cart-driving tasks justifies the cost difference over Sonnet, and sometimes it doesn't.**‍**
@@ -294,7 +274,7 @@ It also puts one more decision in front of the agent on every turn, and in our e
 
 Separating the extractor also lets you prompt it precisely. It reads only the user's and the assistant's text, never tool results, so a product description or a review can't become a fact about the user. Its prompt says what counts as a fact — a stated size, a dietary constraint, a fulfillment preference, a merchant’s usual materialized views — and what doesn't, such as anything from a listing or a one-off detail.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a9713df298bf7d2c29e81e1_7480b230.png)
+![](https://assets.claude.com/516a22932c1a2eea15f8ad38c385e479e1b37408.png)
 
 #### **Reading memory**
 
@@ -346,7 +326,7 @@ Merchant changes are checked the same way against caps on price movement, discou
 
 In commerce most of the context is written by people who aren't you — sellers, reviewers, competitors — so every backend read is untrusted input and goes through one sanitizer.
 
-Every tool result authored by a third party, such as listings, reviews, policies, seller messages, and stored memory,  is sanitized and wrapped in a fence with a fixed label before the model sees it.
+Every tool result authored by a third party, such as listings, reviews, policies, seller messages, and stored memory, is sanitized and wrapped in a fence with a fixed label before the model sees it.
 
 The sanitizer strips control and bidirectional characters, removes anything that imitates the fence markers, defuses text that imitates a conversation turn or a tool call, and caps the size, which is designed to stop a hostile listing from impersonating the system or filling the context.
 
@@ -364,7 +344,7 @@ Then grade the outcome: the final state and the rendered response, including the
 
 Simulated-user evals, in which a second model plays the user and a judge grades the whole conversation, are a poor tool for measurement. Two non-deterministic systems interacting need larger samples, cost more per trial, are harder to judge, and produce failures that are hard to attribute. They are useful for finding coverage gaps and for a general vibe check on the agent, so use them to discover cases, then write each case as a snapshot.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a97148e18f6986708d53e97_f98ad17a.png)
+![](https://assets.claude.com/ec6ed374de1ca7aef245c7994c762aed2f709319.png)
 
 #### **Evaluate for behaviors in tough conditions**
 
@@ -372,7 +352,7 @@ Most teams fail to properly test the injected state. A case should encode the pr
 
 We've observed most suites to be heavy on such clean-state cases, so make sure a share of yours starts from long, messy, or contradictory histories.
 
-##### **Cover the different types of commerce agent evals**
+#### **Cover the different types of commerce agent evals**
 
 Effective evaluation requires testing both desired and undesired behaviors.
 
@@ -386,7 +366,7 @@ Evaluate for the following:
 - **Interface evaluations**, to ensure the right component is rendered, item caps are respected, and there are no internal identifiers in user-facing text. Test for timeouts and empty results too.
 - **Requests that belong to multiple capabilities at once.** An operator asks "if I mark this down 15%, do I have enough stock to cover the demand?" That is a pricing question and an inventory question together. The right answer stages the markdown with a stock projection attached; the wrong answers do one and skip the other. Evals written per capability won't catch this, because each grades only its own half. Write cases for the requests that need two neighboring capabilities together, and grade both halves of the answer.
 
-##### **Write evals with SMEs and use real incidents**
+#### **Write evals with SMEs and use real incidents**
 
 Partner with the subject-matter experts who see the failures firsthand, such as team members in Product, Legal, Merchant Ops, Customer Care, and Category Management, to design test cases. Real failures make the best evals, and 50-100 eval cases per user flow is a good starting point.
 
@@ -404,7 +384,7 @@ The tempting fix is to break the system into many subagents, one per business un
 - **A change ships with its cases and CI runs a set chosen for it.** A team contributing a skill also contributes its cases, including the negative cases and the boundary cases against neighboring skills. Running the full suite on every pull request is too slow and too expensive to survive, so build a CI set from it instead. That set will consist of a core set of cases with the highest-traffic requests and every safety case. On top of that, run the cases for whatever the change touched. For a skill, that means its own cases and its neighbors' boundary cases. For a tool, it is every case that calls it. For the shared prompt, it is the full eval suite since everything reads the system prompt. We recommend gating the pass rate over a few trials, and on cache hit rate and cost per turn. It is also a good practice to run the full suite nightly and before every release. Cross-team regressions are caught in these runs.
 - **The agent should also be inside the release calendar.** It's one deployment unit, so a bad change reaches every user at once. Roll prompt and skill changes to a canary cohort first, keep a switch that turns off one skill without a deploy, and freeze the agent ahead of peak periods the same way you freeze other systems.
 
-For the human side of this arrangement, see [Building effective human-agent teams](https://claude.com/blog/building-effective-human-agent-teams).
+For the human side of this arrangement, see [Building effective human-agent teams](https://claude.com/resources/articles/building-effective-human-agent-teams).
 
 ## **Looking ahead**
 
@@ -418,98 +398,43 @@ Commerce has always rewarded making the buying process as smooth as possible. Ag
 
 *Written by Matthew Koen and Ali Shazal. Special thanks to Michael Segner, Rodrigo Olivares, Amandeep Khurana, Aiza Usman, John Lopus and others for their contributions.*
 
-No items found.
-
-[Prev](https://claude.com/blog/the-anatomy-of-effective-commerce-agents)Prev
-
-0/5
-
-[Next](https://claude.com/blog/the-anatomy-of-effective-commerce-agents)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-### How Warp builds self-improving agents on Claude
-
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/the-anatomy-of-effective-commerce-agents)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 29, 2026
+[ArticleSep 29, 2026
 
 ### Agents you can coach: how Asana builds human-agent teams with Claude
 
-Agents
+Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
+‍
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/the-anatomy-of-effective-commerce-agents)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+### A new approach to agent security with Claude Managed Agents and NVIDIA
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
 
-Sep 28, 2026
-
-### Giving companies more control over their AI agents, with NVIDIA
-
-Agents
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/the-anatomy-of-effective-commerce-agents)Giving companies more control over their AI agents, with NVIDIA
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Sep 8, 2026
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
 
 ### Reducing cost and improving performance with Claude Platform
 
-Agents
+Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/the-anatomy-of-effective-commerce-agents)Reducing cost and improving performance with Claude Platform
+Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleAug 26, 2026
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
+### How Warp builds self-improving agents on Claude
+
+Learn how Warp devised a simple development pattern that anyone can use to create self-improving agents.
+
+Claude Platform](https://claude.com/resources/articles/how-warp-builds-self-improving-agents-on-claude)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/the-anatomy-of-effective-commerce-agents)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

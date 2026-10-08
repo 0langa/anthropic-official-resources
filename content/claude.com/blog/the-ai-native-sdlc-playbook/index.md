@@ -1,39 +1,15 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
 # The AI-native SDLC playbook
 
 How to transform your software development lifecycle with AI—stage by stage.
 
 ‍
 
-- Category
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Enterprise](https://claude.com/solutions/enterprise)
-
-  [Claude Code](https://claude.com/product/claude-code)
-
-  [Claude Tag](https://claude.com/product/tag)
-- Date
-
-  August 21, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/the-ai-native-sdlc-playbook)
-
-  https://claude.com/blog/the-ai-native-sdlc-playbook
-- Author(s)
-
-  Louis Claxton
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Enterprise, Claude Code, Claude Tag
+- AuthorLouis Claxton
+- DateAugust 21, 2026
+- Reading time40 min
+- ShareCopy link
 
 Prefer a PDF?
 
@@ -59,7 +35,7 @@ When code is no longer the bottleneck and the build phase runs faster than the t
 - The controls stop matching reality and become intractable. Reviewing each line by hand made sense when a person had written it, but it can't keep up once agents write most of the diff.
 - Governance costs increase because exceptions still route through meetings and committees that meet weekly or monthly.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8739a1b934ffe55bfc9715_44592f18.png)
+![](https://assets.claude.com/90fb4ed05417570c9d4ff95d33bef9502c765da4.png)
 
 Build is no longer the constraint — the human-speed steps around it are. Human-speed stages keep their length while build collapses to hours.
 
@@ -69,15 +45,15 @@ To better realize the productivity gains of and secure agentic AI, the tradition
 
 Table of contents
 
-1. [Code is no longer the bottleneck](https://claude.com/blog/the-ai-native-sdlc-playbook)
-2. [Plays](https://claude.com/blog/the-ai-native-sdlc-playbook)
-3. [Stage 1 — Plan](https://claude.com/blog/the-ai-native-sdlc-playbook)
-4. [Stage 2 — Design](https://claude.com/blog/the-ai-native-sdlc-playbook)
-5. [Stage 3 — Build](https://claude.com/blog/the-ai-native-sdlc-playbook)
-6. [Stage 4 — Test](https://claude.com/blog/the-ai-native-sdlc-playbook)
-7. [Stage 5 — Deploy](https://claude.com/blog/the-ai-native-sdlc-playbook)
-8. [Stage 6 — Maintain](https://claude.com/blog/the-ai-native-sdlc-playbook)
-9. [Closing thoughts](https://claude.com/blog/the-ai-native-sdlc-playbook)
+1. [Code is no longer the bottleneck](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
+2. [Plays](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
+3. [Stage 1 — Plan](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
+4. [Stage 2 — Design](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
+5. [Stage 3 — Build](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
+6. [Stage 4 — Test](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
+7. [Stage 5 — Deploy](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
+8. [Stage 6 — Maintain](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
+9. [Closing thoughts](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
 
 ## What is an AI-native SDLC?
 
@@ -85,7 +61,7 @@ The AI-native SDLC is a reimagined process that combines the old control objecti
 
 You'll also hear this shift called the agentic SDLC, the AI SDLC, or simply agentic software development — the labels differ, but they describe the same thing.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8858c2eccce183e7553cf2_53b010df.png)
+![](https://assets.claude.com/75c8e050ace91c2b288498fe45384469cfb00aa2.png)
 
 ### The shifts across the six stages of an AI-native SDLC
 
@@ -117,7 +93,7 @@ A stage ends by committing an artifact with the commit initiating the next stage
 
 First, you prompt each step by hand with the end state being a loop in which each accepted artifact fires the next gate. Human attention concentrates at the gates, reviewing what the agent flagged rather than starting each stage from scratch.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8855c75344623fc81efcb8_5d5a3c05.png)
+![](https://assets.claude.com/4c40f7b7577eb3ddfc1cce14a11ac6667be05c8c.png)
 
 The plays are listed with stage; the arrows give the order to adopt them in. The two are not the same. Start with any clay play — nothing points into it, so it needs nothing first. For any other play, the arrows pointing into it are the plays to adopt before it.
 
@@ -162,6 +138,8 @@ Once the repository exists, contributors without git experience don't need to us
 3. Ask Claude to write the result as `intent.md` using the organization's template, which can be encoded as a skill set up by a technical team member and signed off by a lead. This can cover the problem, proposed outcome, affected users and systems, constraints, and open questions.
 4. The originator corrects anything Claude misunderstood.
 5. Commit `intent.md` to the shared home. Author and timestamp join the record, and the product owner picks the idea up from there.
+
+Copy
 
 ```
 # Intent: claims status self-service
@@ -237,6 +215,8 @@ A product owner with Claude access. No engineering skill is required.
 
 #### What it looks like (the prompt)
 
+Copy
+
 ```
 Read the attached intent.md and produce a requirements and design spec for integrating it into our existing codebase. Apply the skills available to you so the plan conforms to our brand guidelines, security policies and UX standards. Document the spec fully as spec.md, ready to hand to the engineering team. Describe clearly any areas of concern, especially where you cannot satisfy contradicting policies.
 ```
@@ -290,6 +270,8 @@ Claude Code with access to the repository.
 7. When implementation departs from the plan, update `plan.md` in the same commit. Consider using a hook to enforce synchronization between the two.
 
 #### What it looks like (plan.md)
+
+Copy
 
 ```
 # Plan: claims status self-service (from intent.md 2026-06-02)
@@ -373,6 +355,8 @@ A repo, Claude Code installed, and one engineer who knows the codebase well.
 
 #### What it looks like (CLAUDE.md)
 
+Copy
+
 ```
 # Payments service
 
@@ -434,6 +418,8 @@ One policy with a named owner and a written source of truth.
 6. Engineers pick up the new version automatically in their next session.
 
 #### What it looks like (.claude/skills/secure-api-review/SKILL.md)
+
+Copy
 
 ```
 ---
@@ -518,6 +504,8 @@ A git repository, since isolation comes from worktrees and permission settings t
 
 #### What it looks like (.claude/agents/verifier.md)
 
+Copy
+
 ```
 ---
 name: verifier
@@ -581,6 +569,8 @@ A test suite and a build that run locally with one command each. For the UI work
 7. Finally, the loop itself needs protecting, because an agent fixing code must not be able to weaken the check on that code. A hook that blocks edits to test files during a fix task does this. The alternative is to check the diff in review and reject any change that touches a test.
 
 #### What it looks like (CLAUDE.md verification block)
+
+Copy
 
 ```
 ## Verifying your work
@@ -648,6 +638,8 @@ CI that can run Claude Code non-interactively, and an API key with budget for ev
 5. Each production incident gets an eval, written by the team that owned the incident, and stays in the suite as a regression test.
 
 #### What it looks like (.github/workflows/agent-evals.yml)
+
+Copy
 
 ```
 name: Agent evals
@@ -723,6 +715,8 @@ A repo with the Claude integration installed, either the managed [Code Review](h
 
 #### What it looks like (REVIEW.md)
 
+Copy
+
 ```
 # Review instructions
 
@@ -747,7 +741,7 @@ Generated files under src/gen/ and anything CI already enforces.
 
 Separation of duties is preserved, because the agent that wrote the code has no way to approve it. The review policy in `REVIEW.md` is applied to all PRs, and findings, fixes, ratings and approvals are logged in the PR history, so the PR is the audit record. Approval comes from a human through branch protection, informed by the findings.
 
-For how these controls compose at production scale, see [securing an AI-native SDLC at Anthropic](https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle).
+For how these controls compose at production scale, see [securing an AI-native SDLC at Anthropic](https://claude.com/resources/articles/how-anthropic-secures-its-ai-native-software-development-lifecycle).
 
 How to measure it
 
@@ -784,6 +778,8 @@ A written list of the approvals the change process requires.
 
 #### What it looks like (.claude/settings.json)
 
+Copy
+
 ```
 {
     "hooks": {
@@ -801,6 +797,8 @@ A written list of the approvals the change process requires.
 ```
 
 #### And the gate itself (.claude/hooks/production-gate.sh)
+
+Copy
 
 ```
 #!/bin/bash
@@ -922,6 +920,8 @@ A CI platform with the claude-code-action installed, or any runner that can call
 
 #### What it looks like (pipeline step)
 
+Copy
+
 ```
 - name: Triage failed build
   if: failure()
@@ -991,6 +991,8 @@ A metrics store the detection script can query (Prometheus, the CI system's API,
 
 #### What it looks like (for example, a bands.yaml monitoring CI test failure rate)
 
+Copy
+
 ```
 metric: ci_test_failure_rate
 baseline: rolling_30d
@@ -1039,7 +1041,7 @@ Getting started
 
 **Prerequisites**
 
-The PR review gate and hooks as approval gates ([Stage 5: Deploy](https://claude.com/blog/the-ai-native-sdlc-playbook)), so that findings go through review like any other change. The `intent.md` format from [Stage 1: Plan](https://claude.com/blog/the-ai-native-sdlc-playbook) for findings too large for a single PR.
+The PR review gate and hooks as approval gates ([Stage 5: Deploy](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)), so that findings go through review like any other change. The `intent.md` format from [Stage 1: Plan](https://claude.com/resources/articles/the-ai-native-sdlc-playbook) for findings too large for a single PR.
 
 **Infrastructure**
 
@@ -1078,9 +1080,9 @@ Incidents can also arrive via other means such as workplace communication apps, 
 
 The conversation and institutional knowledge stay in the channel, with anyone in the channel able to guide and action the response. Any team member can test hypotheses, explore new options and investigate in real time with the channel history adding to the auditability. Through access to MCP Claude verifies the metric is back at baseline and confirms it in the thread, writes the post-mortem to a version-controlled lessons file that future investigations can read.
 
-Incidents are not the only work Claude Tag picks up. Tagged on a ticket over MCP or asked in the channel, Claude triages the work the same way. A small, well-bounded fix arrives as a PR through the review gate, and anything larger is written up as `intent.md` for Stage 1: Plan, at which point the loop starts feeding itself. See: [how Claude Tag runs on-call for CI/CD at Anthropic](https://claude.com/blog/ai-ci-cd-on-call).
+Incidents are not the only work Claude Tag picks up. Tagged on a ticket over MCP or asked in the channel, Claude triages the work the same way. A small, well-bounded fix arrives as a PR through the review gate, and anything larger is written up as `intent.md` for Stage 1: Plan, at which point the loop starts feeding itself. See: [how Claude Tag runs on-call for CI/CD at Anthropic](https://claude.com/resources/articles/ai-ci-cd-on-call).
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8760aded54a2a8319cd5b9_fe6d780d.png)
+![](https://assets.claude.com/c84d83832da7d5dcc41d79cd919446480f7755a7.png)
 
 The channel is the audit trail: request, diagnosis, human authorization and fix all stay where the incident was handled.
 
@@ -1102,98 +1104,43 @@ The documentation below is what a platform team needs to set those controls up, 
 
 Thanks to Jim Blackhurst, Will Steuk, and Jamal Arif for their contributions to this guide, which was inspired by and built on much of their previous work.
 
-No items found.
-
-[Prev](https://claude.com/blog/the-ai-native-sdlc-playbook)Prev
-
-0/5
-
-[Next](https://claude.com/blog/the-ai-native-sdlc-playbook)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/the-ai-native-sdlc-playbook)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
+[ArticleSep 30, 2026
 
 ### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
-Enterprise AI
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/the-ai-native-sdlc-playbook)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How to prepare for AI-driven code modernization projects
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-May 21, 2026
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
 
-### Claude now works with more security and compliance tools
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
-Enterprise AI
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/the-ai-native-sdlc-playbook)Claude now works with more security and compliance tools
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22deea97e4a5b5e5739_8d339ae8ecedecc1409db8f5bbb99c958db56946-1000x1000.svg)
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
 
-Sep 24, 2026
-
-### Claude Tag now supports personal connectors in channels
-
-Product announcements
-
-[Claude Tag now supports personal connectors in channels](https://claude.com/blog/the-ai-native-sdlc-playbook)Claude Tag now supports personal connectors in channels
-
-[Claude Tag now supports personal connectors in channels](https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels)Claude Tag now supports personal connectors in channels
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/the-ai-native-sdlc-playbook)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

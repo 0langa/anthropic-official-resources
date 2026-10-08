@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
-
 # Introducing routines in Claude Code
 
 Define repeatable routines that work your backlog, review your PRs, and respond to events in the cloud.
 
-- Category
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  April 14, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/introducing-routines-in-claude-code)
-
-  https://claude.com/blog/introducing-routines-in-claude-code
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Code
+- DateApril 14, 2026
+- Reading time5 min
+- ShareCopy link
 
 Today, we're introducing routines in Claude Code in research preview. A routine is a Claude Code automation you configure once — including a prompt, repo, and connectors — and then run on a schedule, from an API call, or in response to an event. Routines run on [Claude Code’s web infrastructure](https://code.claude.com/docs/en/claude-code-on-the-web), so nothing depends on your laptop being open.
 
@@ -30,11 +14,13 @@ Developers already use Claude Code to automate the software development cycle, b
 
 ## How it works
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69de678887f94fb639698fa7_dd878b86.png)
+![](https://assets.claude.com/7dcf6205a44d0fe732a9697c294eed3e7f3e12a1.png)
 
 ### Scheduled routines
 
 Give Claude Code a prompt and a cadence (hourly, nightly, or weekly) and it runs on that schedule:
+
+Copy
 
 ```
 Every night at 2am: pull the top bug from Linear, attempt a fix, and open a draft PR.
@@ -46,15 +32,19 @@ If you're using [/schedule](https://code.claude.com/docs/en/scheduled-tasks) in 
 
 You can also configure routines to be triggered by API calls. Every routine gets its own endpoint and auth token. POST a message, get back a session URL. Wire Claude Code into your alerting, your deploy hooks, your internal tools—anywhere you can make an HTTP request:
 
+Copy
+
 ```
 Read the alert payload, find the owning service, and post a triage summary to #oncall with a proposed first step.
 ```
 
-If you're building cloud-hosted agents on the Claude Platform rather than automating Claude Code, [scheduled deployments in Claude Managed Agents](https://claude.com/blog/whats-new-in-claude-managed-agents) give your own agents the same run-on-a-schedule behavior.
+If you're building cloud-hosted agents on the Claude Platform rather than automating Claude Code, [scheduled deployments in Claude Managed Agents](https://claude.com/resources/articles/whats-new-in-claude-managed-agents) give your own agents the same run-on-a-schedule behavior.
 
 ### Webhook routines, starting with GitHub
 
 Subscribe a routine to automatically kick off in response to GitHub repository events. Claude will create a new session for every PR matching your filters and run your routine.
+
+Copy
 
 ```
 Please flag PRs that touch the /auth-provider module. Any changes to this module need to be summarized and posted to #auth-changes.
@@ -90,118 +80,40 @@ Routines are available today for Claude Code users on Pro, Max, Team, and Enterp
 
 Routines draw down subscription usage limits in the same way as interactive sessions. In addition, routines have daily limits: Pro users can run up to 5 routines per day, Max users can run up to 15 routines per day, and Team and Enterprise users can run up to 25 routines per day. You can run extra routines beyond these limits with extra usage. [See the docs](http://code.claude.com/docs/en/routines) for more information.
 
-No items found.
-
-[Prev](https://claude.com/blog/introducing-routines-in-claude-code)Prev
-
-0/5
-
-[Next](https://claude.com/blog/introducing-routines-in-claude-code)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-Get Claude Code
-
-curl -fsSL https://claude.ai/install.sh | bash
-
-Copy command to clipboard
-
-irm https://claude.ai/install.ps1 | iex
-
-Copy command to clipboard
-
-Or read the [documentation](https://code.claude.com/docs/en/overview)
-
-Try Claude Code
-
-[Try Claude Code](https://claude.ai/code)Try Claude Code
-
-Developer docs
-
-[Developer docs](https://code.claude.com/docs/en/overview)Developer docs
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/introducing-routines-in-claude-code)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/introducing-routines-in-claude-code)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
 ### Build plugins for Claude
 
-Product announcements
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-[Build plugins for Claude](https://claude.com/blog/introducing-routines-in-claude-code)Build plugins for Claude
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
+### Claude Tag now supports personal connectors in channels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/introducing-routines-in-claude-code)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/introducing-routines-in-claude-code)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

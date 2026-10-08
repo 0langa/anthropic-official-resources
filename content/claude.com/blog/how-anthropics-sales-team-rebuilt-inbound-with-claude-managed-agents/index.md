@@ -1,37 +1,19 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
 # How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
 *Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.*
 
-- Category
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  September 30, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)
-
-  https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents
-- Author(s)
-
-  Carl Johnson
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Platform
+- AuthorCarl Johnson
+- DateSeptember 30, 2026
+- Reading time10 min
+- ShareCopy link
 
 As a sales leader, it pains me to admit that not long ago, people who wanted to buy Claude for their company weren’t getting the answers they needed quickly enough. They had filled out our Contact Sales form but would wait too long to hear back, sometimes for multiple days. Most of their questions were simple: what a plan costs, whether there's a seat minimum, or whether we can meet HIPAA’s contract requirements. The answers were in our documentation and support articles, but customers wanted someone to walk them through, quickly.
 
 So we built a buying agent on Claude Managed Agents (beta) that takes a prospect from "I want Claude for my company" to a completed purchase. The buying agent now holds thousands of conversations a day, answers customers’ most pressing questions, and gets them through checkout. The customers it escalates to our team arrive educated and more ready to make purchase decisions: they turn into opportunities more than twice as often as leads from the old form, and close about five days faster. We intentionally left this experience as opt-in, meaning our customers choose at the start if they’d like to talk to an agent or sales rep based on their preference.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abd13b165d6419cc6284dc3_1f013605.png)
+![](https://assets.claude.com/b67a0e1a023590767c2fd9b4cbb9a94aba1cc82d.png)
 
 ## **Why the old inbound process broke**
 
@@ -43,7 +25,7 @@ We wanted every customer to get a knowledgeable answer at any hour and in any la
 
 ## **A buying agent that closes the gap**
 
-We deployed the agent where customers were already asking questions: on our [Contact Sales](https://claude.com/contact-sales) and [Pricing](https://claude.com/pricing)  pages, inside the product, and in our emails. Any customer can find the buying agent within our [Claude.ai](http://claude.ai/) product, it’s a simple chat experience to help customers understand what plan is best for them. A customer describes what their team needs, the agent asks a few follow-up questions, and it then answers the ones about pricing, security and data before recommending a plan and seat count. Each conversation ends one of three ways:
+We deployed the agent where customers were already asking questions: on our [Contact Sales](https://claude.com/contact-sales) and [Pricing](https://claude.com/pricing) pages, inside the product, and in our emails. Any customer can find the buying agent within our [Claude.ai](http://claude.ai/) product, it’s a simple chat experience to help customers understand what plan is best for them. A customer describes what their team needs, the agent asks a few follow-up questions, and it then answers the ones about pricing, security and data before recommending a plan and seat count. Each conversation ends one of three ways:
 
 - **Purchase.** The buyer goes straight to checkout.
 - **Hand-off.** For larger or more complex deals, the agent passes the buyer to a rep along with the full conversation details.
@@ -51,7 +33,7 @@ We deployed the agent where customers were already asking questions: on our [Con
 
 We built the agent to follow the same work of our sales reps, which means understanding what the customer is trying to solve, what their current Claude usage looks like, and how we can best help them.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abd13b165d6419cc6284dc6_33b256a2.png)
+![](https://assets.claude.com/7c281bb3ea8a03950ee0130275034a17b32b111a.png)
 
 ## **Why did we use Claude Managed Agents?**
 
@@ -65,7 +47,7 @@ We ultimately landed on Managed Agents for the following reasons:
 - **Versioning makes iteration less expensive.** Every change to the agent is saved as its own version. We were on v7 about a week into internal testing, and we kept shipping prompt changes weekly after launch. When needed, we could easily point new sessions back to a previous version.
 - **Flexibility to support more use cases.** Today, customers discover the agent on our website. Managed Agents supports scheduled runs, which gives us a path to explore other types of customer engagement.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abd13b165d6419cc6284dcb_fb9d5cd4.png)
+![](https://assets.claude.com/e8d5aaafc7840d3786939b8b8d829186cde948fe.png)
 
 ## **What we learned building the buying agent**
 
@@ -87,108 +69,53 @@ The agent now holds thousands of conversations a day, around the clock. Customer
 
 The agent changed what our reps spend their days. We've now been able to focus the majority of the team's time and energy on educating customers earlier in their buying journey, having more live customer conversations and spending time in person at events.
 
-The most impactful change has been that our reps now get more informed leads, convert leads to sales opportunities more often than our old contact form, and they close about five days faster.  A rep starts the conversation already knowing what the customer needs, what they've been told, and how we can best help them.
+The most impactful change has been that our reps now get more informed leads, convert leads to sales opportunities more often than our old contact form, and they close about five days faster. A rep starts the conversation already knowing what the customer needs, what they've been told, and how we can best help them.
 
 For example, one of our inside sales reps, Ojas, used to exchange about 10 emails to close a deal; now it takes about six. He’s been able to 2.5x his output on closed won deals since launching the Buying Agent as it allowed him to focus on highly educated and ready customers who just needed help getting across the line.
 
 Not long ago, inbound was a queue our team couldn't keep up with. Now it's a conversation any buyer can start at any hour, and our reps spend their time more efficiently. The buying agent is our first step toward agents across the whole customer relationship.
 
-*Ready to build your own? Learn more about* [*Claude Managed Agents*](https://claude.com/blog/claude-managed-agents), or [talk to our team](https://claude.com/contact-sales) about bringing agents to your sales motion.
+*Ready to build your own? Learn more about [Claude Managed Agents](https://claude.com/resources/articles/claude-managed-agents)*, or [talk to our team](https://claude.com/contact-sales) about bringing agents to your sales motion.
 
 *This article was written by Carl Johnson, with contributions from Izzy Lee, Bobby P., Lina Ochman, Yana Gevorgyan, Jerico Johns, and Taylre Duarte.*
 
-No items found.
-
-[Prev](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)Prev
-
-0/5
-
-[Next](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+[ArticleSep 23, 2026
 
-Jul 20, 2026
+### How to prepare for AI-driven code modernization projects
 
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-Enterprise AI
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
 
-May 21, 2026
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
-### Claude now works with more security and compliance tools
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
 
-Enterprise AI
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)[ArticleSep 15, 2026
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)Claude now works with more security and compliance tools
+### Building an AI-native revenue organization
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
+In this guide, we share how revenue leaders can roll out Claude across a sales organization, including the setup decisions, a three-phase rollout plan, and an ROI measurement framework.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22deea97e4a5b5e5739_8d339ae8ecedecc1409db8f5bbb99c958db56946-1000x1000.svg)
-
-Sep 24, 2026
-
-### Claude Tag now supports personal connectors in channels
-
-Product announcements
-
-[Claude Tag now supports personal connectors in channels](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)Claude Tag now supports personal connectors in channels
-
-[Claude Tag now supports personal connectors in channels](https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels)Claude Tag now supports personal connectors in channels
+Claude Cowork](https://claude.com/resources/articles/building-an-ai-native-revenue-organization)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

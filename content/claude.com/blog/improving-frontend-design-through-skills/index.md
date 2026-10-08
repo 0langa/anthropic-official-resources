@@ -1,32 +1,16 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22dc2ead61fff4f6e1d_589b94b913c4cee1c3c1ce2cb04f638d09c465b1-1000x1000.svg)
-
 # Improving frontend design through Skills
 
 Best practices for building richer, more customized frontend design with Claude and Skills.
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  Claude apps
-- Date
-
-  November 12, 2025
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/improving-frontend-design-through-skills)
-
-  https://claude.com/blog/improving-frontend-design-through-skills
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude apps
+- DateNovember 12, 2025
+- Reading time13 min
+- ShareCopy link
 
 You might notice that when you ask an LLM to build a landing page without guidance, it will almost always conform to Inter fonts, purple gradients on white backgrounds, and minimal animations.
 
-The issue?  [Distributional convergence.](https://en.wikipedia.org/wiki/Convergence_of_random_variables) During sampling, models predict tokens based on statistical patterns in training data. Safe design choices–those that work universally and offend no one–dominate web training data. Without direction, Claude samples from this high-probability center.
+The issue? [Distributional convergence.](https://en.wikipedia.org/wiki/Convergence_of_random_variables) During sampling, models predict tokens based on statistical patterns in training data. Safe design choices–those that work universally and offend no one–dominate web training data. Without direction, Claude samples from this high-probability center.
 
 For developers building customer-facing products, this generic aesthetic undermines brand identity and makes AI-generated interfaces immediately recognizable—and dismissible.
 
@@ -48,13 +32,15 @@ This allows developers to reap the benefits of Claude’s steerability without o
 
 ## **Prompting for better frontend output**
 
-We can unlock significantly better UI generations from Claude, without permanent context overhead, by creating a frontend design skill.  The core insight is to think about frontend design the way a frontend engineer would. The more you can map aesthetic improvements to implementable frontend code, the better Claude can execute.
+We can unlock significantly better UI generations from Claude, without permanent context overhead, by creating a frontend design skill. The core insight is to think about frontend design the way a frontend engineer would. The more you can map aesthetic improvements to implementable frontend code, the better Claude can execute.
 
 Leveraging this insight, we identified several areas where targeted prompting works well: typography, animations, background effects, and themes. These all translate cleanly to code that Claude can write. Implementing this in your prompts does not require detailed technical instructions, just using targeted language that engages the model to think more critically about these design axes is enough to elicit stronger outputs. This maps closely with the guidance we provided in our [context engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) blog article, about prompting the model at the right altitude, avoiding the two extremes of low-altitude hardcoded logic like specifying exact hex codes and vague high-altitude guidance that assumes shared context.
 
 ### **Typography**
 
 To see this in action, let's start by viewing typography as one dimension we can influence via prompting. The prompt below specifically steers Claude to use more interesting fonts:
+
+Copy
 
 ```
 <use_interesting_fonts>
@@ -78,11 +64,11 @@ Pick one distinctive font, use it decisively. Load from Google Fonts.
 
 **Output generated with base prompt:**
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/691366f388193282b0213316_image11.png)
+![](https://assets.claude.com/c15689d28929def7281398d254b1692b67ba34f2.png)
 
 **Output generated with base prompt and typography section**
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6913679c9a202c88b680873b_image13.png)
+![](https://assets.claude.com/899bf3293083a42ded028aa4daa0a4c505ffc561.png)
 
 ‍
 
@@ -93,6 +79,8 @@ Typography alone leads to significant improvement, but fonts are just one dimens
 ### **Themes**
 
 Another dimension we can prompt for is designs inspired by well-known themes and aesthetics. Claude has a rich understanding of popular themes; we can use this to communicate the specific aesthetics we want our frontend to embody. Here’s an example:
+
+Copy
 
 ```
 <always_use_rpg_theme>
@@ -107,7 +95,7 @@ Always design with RPG aesthetic:
 
 This produces the following RPG-themed UI:
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6913cec4181329835d1da27f_image2.png)
+![](https://assets.claude.com/9e5014bce3c6502c734fb668b77bfe7126861d8e.png)
 
 Typography and themes show targeted prompting works. But manually specifying each dimension is tedious. What if we could combine all these improvements into one reusable asset?
 
@@ -116,6 +104,8 @@ Typography and themes show targeted prompting works. But manually specifying eac
 The same principle extends to other design dimensions: prompting for motion (animations and micro-interactions) adds polish that static designs lack, while guiding the model toward more interesting background choices creates depth and visual interest. This is where a comprehensive skill shines.
 
 Bringing this all together, we developed a ~400 token prompt – compact enough to load without bloating context (even when loaded as a skill) – that dramatically improves frontend output across typography, color, motion, and backgrounds:
+
+Copy
 
 ```
 <frontend_aesthetics>
@@ -147,45 +137,45 @@ With this skill active, Claude's output improves across several types of fronten
 
 **Example 1: SaaS landing page**
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6913d5b728dcecc13bc1f77b_6d547f28.png)
+![](https://assets.claude.com/5096e4e90054d8456dce2c8caa8c39e55e912119.png)
 
-**Caption:** AI-generated SaaS landing page with generic Inter font, purple gradient, and standard layout. No skills were used.
+Caption: AI-generated SaaS landing page with generic Inter font, purple gradient, and standard layout. No skills were used.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6913d5b728dcecc13bc1f790_c47f37ab.png)
+![](https://assets.claude.com/0b9a125ecab8f3a75aaf877ac838dc371185ed5e.png)
 
-**Caption:** AI-generated frontend generated using the same prompt as the rendering above in addition to the frontend skill, now with distinctive typography, cohesive color scheme, and layered backgrounds.
+Caption: AI-generated frontend generated using the same prompt as the rendering above in addition to the frontend skill, now with distinctive typography, cohesive color scheme, and layered backgrounds.
 
 **Example 2: Blog layout**
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6913d5b728dcecc13bc1f78d_f7040147.png)
+![](https://assets.claude.com/9d54f9ef7943105e514ec63f9d609684a895f46d.png)
 
 AI-generated blog layout with default system fonts and flat white background. No skills were used.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6913d5b728dcecc13bc1f77e_0ce357ff.png)
+![](https://assets.claude.com/c55b327ad4e7242889786067087a907c5ccf386c.png)
 
 AI-generated blog layout using the same prompt as well as the frontend skill, featuring editorial typeface with atmospheric depth and refined spacing.
 
 **Example 3: Admin dashboard**
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6913d5b728dcecc13bc1f784_7beb17d0.png)
+![](https://assets.claude.com/94101c4bbc2457c4a1bdcb2423243e568e8fc2c5.png)
 
 AI-generated admin dashboard with standard UI components with minimal visual hierarchy. No skills were used.
 
 ‍
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6913d5b728dcecc13bc1f781_3705adad.png)
+![](https://assets.claude.com/6161fc3a14335a4aa90d96d62ee4682637837ff1.png)
 
 AI-generated admin dashboard with bold typography, cohesive dark theme, and purposeful motion, using the same prompt in addition to the frontend skill.
 
-## **Improving artifact quality in** [**claude.ai**](http://claude.ai/) **with Skills**
+## **Improving artifact quality in [claude.ai](http://claude.ai/) with Skills**
 
-Design taste isn't the only limitation. Claude also faces architectural constraints when building artifacts.[Artifacts](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them) are interactive, editable content (like code or documents) that Claude creates and displays alongside your chat.
+Design taste isn't the only limitation. Claude also faces architectural constraints when building artifacts. [Artifacts](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them) are interactive, editable content (like code or documents) that Claude creates and displays alongside your chat.
 
 In addition to the issue with design taste explored above, Claude has another default behavior that limits its ability to generate fantastic frontend artifacts in [claude.ai](http://claude.ai/). Currently, when asked to create a frontend, Claude just builds a single HTML file with CSS and JS. This is because Claude understands that frontends must be single HTML files to be properly rendered as artifacts.
 
 In the same way you’d expect a human developer to only be able to create very basic frontends if they could only write HTML/CSS/JS in a single file, we hypothesized that Claude would be able to generate more impressive frontend artifacts if we gave it instructions to use richer tooling.
 
-This led us to create a [web-artifacts-builder skill](https://github.com/anthropics/skills/blob/main/web-artifacts-builder/SKILL.md) which leverages Claude’s ability to [use a computer](https://www.claude.com/blog/create-files) and guides Claude to build artifacts using multiple files and modern web technologies like [React](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/) and [shadcn/ui](https://ui.shadcn.com/). Under the hood, the skill exposes scripts that (1) help Claude efficiently set up a basic React repo and (2) bundle everything into a single file using [Parcel](https://parceljs.org/) to meet the single-HTML-file requirement after it is done editing. This is one of the core benefits of skills - by giving Claude access to scripts to execute boilerplate actions, Claude is able to minimize token usage while increasing reliability and performance.
+This led us to create a [web-artifacts-builder skill](https://github.com/anthropics/skills/blob/main/web-artifacts-builder/SKILL.md) which leverages Claude’s ability to [use a computer](https://claude.com/resources/articles/create-files) and guides Claude to build artifacts using multiple files and modern web technologies like [React](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/) and [shadcn/ui](https://ui.shadcn.com/). Under the hood, the skill exposes scripts that (1) help Claude efficiently set up a basic React repo and (2) bundle everything into a single file using [Parcel](https://parceljs.org/) to meet the single-HTML-file requirement after it is done editing. This is one of the core benefits of skills - by giving Claude access to scripts to execute boilerplate actions, Claude is able to minimize token usage while increasing reliability and performance.
 
 With the web-artifacts-builder skill, Claude could leverage shadcn/ui's form components and Tailwind's responsive grid system to create a more comprehensive artifact.
 
@@ -193,11 +183,11 @@ With the web-artifacts-builder skill, Claude could leverage shadcn/ui's form com
 
 For example, when prompted to create a whiteboard app without the web-artifacts-builder skill, Claude outputted a very basic interface:
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6913d5b728dcecc13bc1f787_b07e5190.png)
+![](https://assets.claude.com/0553a5bd3ed0bca40fe71351ae0ccc359d1638cd.png)
 
 On the other hand, when using the new web-artifacts-builder skill, Claude generated a much cleaner and more featureful application out-of-the-box that included drawing different shapes and text:
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6913d5b728dcecc13bc1f78a_57c49993.png)
+![](https://assets.claude.com/734a801bdaca9d200e1950b248474183ab93a6b7.png)
 
 ‍
 
@@ -205,13 +195,11 @@ On the other hand, when using the new web-artifacts-builder skill, Claude genera
 
 Similarly, when asked to create a task management app, without the skill, Claude generated a functional but very minimal application:
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6913d5b728dcecc13bc1f793_875d1eef.png)
+![](https://assets.claude.com/35724eea470619dc0db7f196c3b70be31fa6e814.png)
 
 With the skill, Claude generated an app that was more featureful out of the box. For example, Claude included a “Create New Task” form component that allows users to set an associated Category and Due Date on tasks:
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6913d5b728dcecc13bc1f7c9_7ae52606.png)
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6913d5b728dcecc13bc1f7a1_4c4951af.png)
+![](https://assets.claude.com/24a5a4064a18040973beeb319bd0b9bfac72608a.png)![](https://assets.claude.com/c58efe59554ca0e60a17d2dc1512b4b897d3694e.png)
 
 ‍
 
@@ -227,7 +215,7 @@ This pattern extends beyond frontend work. Any domain where Claude produces gene
 
 For frontend development, this means Claude can generate distinctive interfaces without per-request prompt engineering. To get started, explore our [frontend design cookbook](https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ipynb) or try out our [new frontend design plugin in Claude Code](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design).
 
-**Feeling inspired? To create your own frontend skills, check out our** [**skill-creator**](https://github.com/anthropics/skills/tree/main/skill-creator)**.**
+**Feeling inspired? To create your own frontend skills, check out our [skill-creator](https://github.com/anthropics/skills/tree/main/skill-creator).**
 
 ‍
 
@@ -236,104 +224,50 @@ Written by Anthropic's Applied AI team: Prithvi Rajasekaran, Justin Wei, and Ale
 
 ‍
 
-No items found.
-
-[Prev](https://claude.com/blog/improving-frontend-design-through-skills)Prev
-
-0/5
-
-[Next](https://claude.com/blog/improving-frontend-design-through-skills)Next
-
-eBook
-
-## Agent Skills
+### Agent Skills
 
 Start using Skills with Claude to build more powerful applications today.
 
-Get started
+[Get started](https://claude.com/resources/articles/skills)
 
-[Get started](https://www.claude.com/blog/skills)Get started
+![](https://assets.claude.com/cf758d6a72887271ce371b8bfd2ba845fe172e05.svg)
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6915038fea2f5466c171c21f_Hand-NodeWeb.svg)![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/691503928e574d7dc8407b4a_Hand-NodeWeb-1.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/improving-frontend-design-through-skills)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
-
-Sep 24, 2026
+[ArticleSep 24, 2026
 
 ### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-Claude Code
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/improving-frontend-design-through-skills)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-Sep 23, 2026
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-### How to prepare for AI-driven code modernization projects
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-Enterprise AI
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/improving-frontend-design-through-skills) How to prepare for AI-driven code modernization projects
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
+### The Claude Code guide for startups
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/improving-frontend-design-through-skills)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/improving-frontend-design-through-skills)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

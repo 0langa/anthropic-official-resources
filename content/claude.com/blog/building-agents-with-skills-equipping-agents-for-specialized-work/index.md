@@ -1,30 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
-
 # Building agents with Skills: Equipping agents for specialized work
 
 Skills package domain expertise in files agents can access and apply—turning general-purpose agents into knowledgeable specialists for real work.
 
-- Category
-
-  [Agents](https://claude.com/blog/category/agents)
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  January 22, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work)
-
-  https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code
+- DateJanuary 22, 2026
+- Reading time12 min
+- ShareCopy link
 
 A lot has changed in the past year. MCP became the standard for agent connectivity with rapid adoption from industry leaders and the developer community. [Claude Code launched](https://www.anthropic.com/news/claude-3-7-sonnet) as a general-purpose coding agent. And we launched the [Claude Agent SDK](https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk), which now provides a production-ready agent out of the box.
 
@@ -36,11 +18,11 @@ In this post, we'll explain why we stopped building specialized agents and start
 
 We used to think agents in different domains would look very different. A coding agent, a research agent, one for finance, one for marketing—each seemed to need its own tools and scaffolding. The industry initially embraced this model of domain-specific agents. But as models improved in intelligence and agent capabilities progressed, we converged on a different approach.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6972a852db1883d8c862151f_building-agents-with-skills-fig1-v3%402x.png)
+![](https://assets.claude.com/3839436a24bb05c8cb491885831acb92d24c3bee.png)
 
 We came to see code less as just a use case and more as an interface for agents to do almost any digital work. Claude Code is a coding agent, but also a general-purpose agent that happens to work through code.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6972a8b8cb336e177c409445_building-agents-with-skills-fig2-v4%402x.png)
+![](https://assets.claude.com/88670ce1662bc33a0d7019f12b60affcf8f7c9ff.png)
 
 Consider working with Claude Code to generate a financial report. It can call APIs for research, store data in the filesystem, analyze it with Python, and synthesize insights. All of that happens through code. The scaffolding becomes as simple as bash and a filesystem.
 
@@ -58,6 +40,8 @@ Skills bridge this gap by packaging domain expertise in a format that agents can
 
 Skills package domain expertise and procedural knowledge for agents.
 
+Copy
+
 ```
 anthropic_brand/
 ├── SKILL.md
@@ -71,6 +55,8 @@ The simplicity of skills is deliberate. Files are a universal primitive that wor
 ## **Progressive disclosure**
 
 Skills can contain extensive information. To protect the context window and make skills composable, they use progressive disclosure: at runtime, only the metadata (name and description from the YAML frontmatter) is shown to the model.
+
+Copy
 
 ```
 ---
@@ -89,6 +75,8 @@ Traditional tools have problems: some have poorly written instructions, the mode
 
 Here's a real example: we kept seeing Claude write the same script to apply Anthropic styling to slides. So we asked Claude to save it as a tool for itself:
 
+Copy
+
 ```
 # anthropic/brand_styling/apply_template.py
 import sys
@@ -104,6 +92,8 @@ for slide in prs.slides:
 ```
 
 The corresponding documentation in slide-decks.md simply references this script:
+
+Copy
 
 ```
 ## Anthropic Slide Decks
@@ -127,7 +117,7 @@ These provide core capabilities everyone needs: working with documents, spreadsh
 
 ### **Partner skills**
 
-As skills standardize how agents interact with specialized capabilities, companies are building skills to make their services agent-accessible. [K-Dense](https://github.com/K-Dense-AI/claude-scientific-skills), [Browserbase](https://github.com/browserbase/agent-browse), [Notion](https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0), and [many others](https://claude.com/blog/organization-skills-and-directory) are creating skills that integrate their services directly, extending Claude's capabilities in specific domains while maintaining the simplicity of the skills format.
+As skills standardize how agents interact with specialized capabilities, companies are building skills to make their services agent-accessible. [K-Dense](https://github.com/K-Dense-AI/claude-scientific-skills), [Browserbase](https://github.com/browserbase/agent-browse), [Notion](https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0), and [many others](https://claude.com/resources/articles/organization-skills-and-directory) are creating skills that integrate their services directly, extending Claude's capabilities in specific domains while maintaining the simplicity of the skills format.
 
 ### **Enterprise skills**
 
@@ -147,11 +137,11 @@ Early skills were simple documentation references. Now we're seeing sophisticate
 
 ### **Skills and MCP**
 
-[Skills and MCP servers work together](https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers) naturally. A competitive analysis skill might coordinate web search, internal databases via MCP, Slack message history, and Notion pages to synthesize a comprehensive report.
+[Skills and MCP servers work together](https://claude.com/resources/articles/extending-claude-capabilities-with-skills-mcp-servers) naturally. A competitive analysis skill might coordinate web search, internal databases via MCP, Slack message history, and Notion pages to synthesize a comprehensive report.
 
 ### **Non-developer adoption**
 
-Skill creation is expanding beyond engineers to product managers, analysts, and domain experts across disciplines. They can create and test their first skill in under 30 minutes using the skill-creator tool, which guides them through the process interactively. We're working  to make skill creation even more accessible, with improved tooling and templates that let anyone capture and share expertise.
+Skill creation is expanding beyond engineers to product managers, analysts, and domain experts across disciplines. They can create and test their first skill in under 30 minutes using the skill-creator tool, which guides them through the process interactively. We're working to make skill creation even more accessible, with improved tooling and templates that let anyone capture and share expertise.
 
 ## **The complete architecture**
 
@@ -162,7 +152,7 @@ Putting it all together, the emerging agent architecture looks like a combinatio
 3. **MCP servers**: Connections to external tools and data sources
 4. **Skills library**: Domain expertise and procedural knowledge
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6972ab24ac6df74ad6704f37_building-agents-with-skills-fig3-v2%402x.png)
+![](https://assets.claude.com/7a74e774acfcc54e8daf30297ecca8581deca386.png)
 
 Each layer has a clear purpose: the loop reasons, the runtime executes, MCP connects, and skills guide. This separation makes the system comprehensible and allows each piece to evolve independently.
 
@@ -217,98 +207,43 @@ We're converging on an architecture for general agents, and skills provide a par
 
 Barry Zhang, Mahesh Murag, Keith Lazuka, Ryan Whitehead
 
-No items found.
-
-[Prev](https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work)Prev
-
-0/5
-
-[Next](https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-### How Warp builds self-improving agents on Claude
-
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 29, 2026
+[ArticleSep 29, 2026
 
 ### Agents you can coach: how Asana builds human-agent teams with Claude
 
-Agents
+Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
+‍
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+### A new approach to agent security with Claude Managed Agents and NVIDIA
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
 
-Sep 28, 2026
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
 
-### Giving companies more control over their AI agents, with NVIDIA
+### Reducing cost and improving performance with Claude Platform
 
-Agents
+Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
 
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work)Giving companies more control over their AI agents, with NVIDIA
+Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
 
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
+### A guide to the anatomy of effective commerce agents
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
 
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

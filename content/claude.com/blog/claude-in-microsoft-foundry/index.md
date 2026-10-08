@@ -1,68 +1,74 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3f14a08cb97bf1b16d40ef_ObjectClouds.svg)
-
 # Claude in Microsoft Foundry is now generally available
 
-- Category
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  June 29, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/claude-in-microsoft-foundry)
-
-  https://claude.com/blog/claude-in-microsoft-foundry
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Platform
+- DateJune 29, 2026
+- Reading time1 min
+- ShareCopy link
 
 Starting today, Claude models are generally available in Microsoft Foundry, hosted on Azure. Claude runs in your Azure environment with the authentication, billing, and governance controls your teams already use. You can choose where inference is processed, including a US data zone for teams with data residency requirements. Anthropic operates the inference and is the data processor.
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a204b023a1098addb579701_6a204a9b15a9f95c27630dc2_NVIDIA_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a2859e3adf1957b476f9302_NVIDIA_dark.svg)
+![Bolt](https://assets.claude.com/c47ae719ec15794844da97bc7651c0081ce5a4e2.svg)
 
-“At NVIDIA, we use autonomous AI agents every day to help our teams move faster and think bigger. Claude models bring strong reasoning, coding and enterprise capabilities that are valuable for complex technical work. With Claude now available in Microsoft Foundry running on NVIDIA GB300 GPUs, more organizations can run advanced, specialized AI agents with the performance, scale and security needed for production.”
-
-Justin Boitano, VP and GM Enterprise Computing
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f26e70e1444e31742ca027_logo_boltupdatedlogo-light-mode.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f26e76cdf0245458a77c3f_logo_boltupdatedlogo-dark-mode.svg)
-
-"Running Claude models on Azure has given us the sustained throughput and reliability our enterprise customers expect. The combination of frontier model quality and enterprise-grade infrastructure is what makes Bolt viable for the Fortune 500."
+> “Running Claude models on Azure has given us the sustained throughput and reliability our enterprise customers expect. The combination of frontier model quality and enterprise-grade infrastructure is what makes Bolt viable for the Fortune 500.”
 
 Gary Ballabio, VP Partnerships
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4294731824c4a56d179e38_everstar_logo_text_black_transparent.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a429480abcaaadc64e5a626_everstar_logo_text_white_transparent.svg)
+![Everstar](https://assets.claude.com/6f7717716904d0404851a3260a6b8614a90b4b9b.svg)
 
-"Between Anthropic and Azure, we get the best capabilities in the world and we get the best security in the world. And that's exactly what nuclear needs. It's how we compressed a safety analysis that would have taken 200 human days into a single day."
+> “Between Anthropic and Azure, we get the best capabilities in the world and we get the best security in the world. And that's exactly what nuclear needs. It's how we compressed a safety analysis that would have taken 200 human days into a single day.”
 
 Matt Huang, Founding Product Lead
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3ff92789d8b7fe87033d56_momentic_Logo_OffBlackonTransparent.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3ff9309a1295ecd91d8e21_momentic_Logo_OffWhiteonTransparent.svg)
+![Momentic](https://assets.claude.com/1e772cafba3aa7df6421311004ebba996aae91f4.svg)
 
-"Our customers describe their tests in plain English, and Momentic runs through the interface to verify everything works before a release ships. We found Claude Opus especially suited to this, and running it on Azure Foundry we now serve millions of tokens per minute with the reliability our customers depend on."
+> “Our customers describe their tests in plain English, and Momentic runs through the interface to verify everything works before a release ships. We found Claude Opus especially suited to this, and running it on Azure Foundry we now serve millions of tokens per minute with the reliability our customers depend on.”
 
 Jeff An, Co-founder & CTO
 
-[Prev](https://claude.com/blog/claude-in-microsoft-foundry)Prev
+![NVIDIA](https://assets.claude.com/044005ede158436b5a7762e9f636b29d8f6a0ea5.svg)
 
-0/5
+> “At NVIDIA, we use autonomous AI agents every day to help our teams move faster and think bigger. Claude models bring strong reasoning, coding and enterprise capabilities that are valuable for complex technical work. With Claude now available in Microsoft Foundry running on NVIDIA GB300 GPUs, more organizations can run advanced, specialized AI agents with the performance, scale and security needed for production.”
 
-[Next](https://claude.com/blog/claude-in-microsoft-foundry)Next
+Justin Boitano, VP and GM Enterprise Computing
 
-eBook
+![Bolt](https://assets.claude.com/c47ae719ec15794844da97bc7651c0081ce5a4e2.svg)
 
-##
+> “Running Claude models on Azure has given us the sustained throughput and reliability our enterprise customers expect. The combination of frontier model quality and enterprise-grade infrastructure is what makes Bolt viable for the Fortune 500.”
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+Gary Ballabio, VP Partnerships
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+![Everstar](https://assets.claude.com/6f7717716904d0404851a3260a6b8614a90b4b9b.svg)
 
-Embedded media:
+> “Between Anthropic and Azure, we get the best capabilities in the world and we get the best security in the world. And that's exactly what nuclear needs. It's how we compressed a safety analysis that would have taken 200 human days into a single day.”
+
+Matt Huang, Founding Product Lead
+
+![Momentic](https://assets.claude.com/1e772cafba3aa7df6421311004ebba996aae91f4.svg)
+
+> “Our customers describe their tests in plain English, and Momentic runs through the interface to verify everything works before a release ships. We found Claude Opus especially suited to this, and running it on Azure Foundry we now serve millions of tokens per minute with the reliability our customers depend on.”
+
+Jeff An, Co-founder & CTO
+
+![NVIDIA](https://assets.claude.com/044005ede158436b5a7762e9f636b29d8f6a0ea5.svg)
+
+> “At NVIDIA, we use autonomous AI agents every day to help our teams move faster and think bigger. Claude models bring strong reasoning, coding and enterprise capabilities that are valuable for complex technical work. With Claude now available in Microsoft Foundry running on NVIDIA GB300 GPUs, more organizations can run advanced, specialized AI agents with the performance, scale and security needed for production.”
+
+Justin Boitano, VP and GM Enterprise Computing
+
+![Bolt](https://assets.claude.com/c47ae719ec15794844da97bc7651c0081ce5a4e2.svg)
+
+> “Running Claude models on Azure has given us the sustained throughput and reliability our enterprise customers expect. The combination of frontier model quality and enterprise-grade infrastructure is what makes Bolt viable for the Fortune 500.”
+
+Gary Ballabio, VP Partnerships
+
+![Everstar](https://assets.claude.com/6f7717716904d0404851a3260a6b8614a90b4b9b.svg)
+
+> “Between Anthropic and Azure, we get the best capabilities in the world and we get the best security in the world. And that's exactly what nuclear needs. It's how we compressed a safety analysis that would have taken 200 human days into a single day.”
+
+Matt Huang, Founding Product Lead
+
+1/4
 
 ### **Build with Claude through your Azure account**
 
@@ -72,86 +78,46 @@ Claude in Microsoft Foundry is Azure-native, working with your existing Azure id
 
 ### **Run Claude in Azure, operated by Anthropic**
 
-There are two ways to run Claude in Microsoft Foundry. Choose *hosted on Azure*when running in your Azure environment matters, with Azure authentication, billing, governance, and a US data zone. Choose *hosted on Anthropic* (previously the Foundry Preview) when you need the full set of API features or a model that is not yet available on Azure. Over time, we aim to have feature and model parity between the hosted on Azure offering and the Anthropic-hosted one.
+There are two ways to run Claude in Microsoft Foundry. Choose *hosted on Azure* when running in your Azure environment matters, with Azure authentication, billing, governance, and a US data zone. Choose *hosted on Anthropic* (previously the Foundry Preview) when you need the full set of API features or a model that is not yet available on Azure. Over time, we aim to have feature and model parity between the hosted on Azure offering and the Anthropic-hosted one.
 
 ### **Get started**
 
 Claude in Microsoft Foundry is generally available today. To get started, open [Claude in Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-claude?tabs=python) or explore the [documentation](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry).
 
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/claude-in-microsoft-foundry)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-in-microsoft-foundry)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
 ### Build plugins for Claude
 
-Product announcements
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-[Build plugins for Claude](https://claude.com/blog/claude-in-microsoft-foundry)Build plugins for Claude
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
+### Claude Tag now supports personal connectors in channels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-in-microsoft-foundry)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/claude-in-microsoft-foundry)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
-
 # Advancing finance with Claude Opus 4.6
 
 With Claude Opus 4.6, finance teams get better reasoning on complex analyses, cleaner first-pass deliverables, and new tools built for where analysts actually spend their time.
 
-- Category
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  Claude apps
-- Date
-
-  February 5, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/opus-4-6-finance)
-
-  https://claude.com/blog/opus-4-6-finance
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude apps
+- DateFebruary 5, 2026
+- Reading time7 min
+- ShareCopy link
 
 [Claude Opus 4.6](https://www.anthropic.com/news/claude-opus-4-6) marks a step forward in AI for finance. It can be used to help professionals make decisions based on accurate information and clear analysis, and it produces deliverables with real polish. The model is substantially better than others in the market at financial reasoning, multitasking, and maintaining focus over longer multi-step tasks.
 
@@ -30,19 +14,19 @@ Alongside Claude Opus 4.6, we’re updating some of our existing products—and 
 
 Our internal Real-World Finance evaluation measures Claude’s performance on ~50 investment and financial analysis use cases spanning spreadsheets, slide decks, and word document generation and review. These are tasks commonly performed by analysts across investment banking, private equity, public investing, and corporate finance. Claude Opus 4.6 improves by over 23 percentage points on Claude Sonnet 4.5, our state-of-the-art model just a few months ago.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6984b66b95b2a1a24ab26f64_Opus-4-6-Chart-Real-world-finance-no-subtext%402x%20(1).png)
+![](https://assets.claude.com/b7a4d8eeaf9ad8f394f7771b89873964e54c77fd.png)
 
-*This eval tests a combination of code execution and tool use agentic harnesses, and was scored based on a combination of rubrics and preferences that gauge finance domain knowledge, task completeness and accuracy, and presentation quality.*
+This eval tests a combination of code execution and tool use agentic harnesses, and was scored based on a combination of rubrics and preferences that gauge finance domain knowledge, task completeness and accuracy, and presentation quality.
 
 Together, these updates make Claude a much stronger partner for those across financial services and corporate finance.
 
-Embedded media: https://www.youtube.com/embed/KCSBAAQJp5Y
+Embedded media: https://www.youtube-nocookie.com/embed/KCSBAAQJp5Y?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 ## Research, analyze, create
 
 Financial professionals use AI to research effectively across multiple data sources, support financial analyses, and create deliverables that their teams and customers can act on. Claude Opus 4.6 is best in class across all three dimensions.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6984ad0f7e9fc5edd808036e_Opus_4-6_Finance-Tasks-Benchmark.png)
+![](https://assets.claude.com/14a33fb672906936a3baaa484509fd39e050bb67.png)
 
 On research, Claude Opus 4.6 improves on both BrowseComp and DeepSearchQA, two benchmarks that test a model’s ability to extract specific information from large, unstructured data sources. In practice, this means that users can hand Claude a dense set of documents and receive a specific, focused answer, rather than a simple summary.
 
@@ -50,13 +34,10 @@ On analysis, Claude Opus 4.6 is state-of-the-art at 60.7% (achieving a 5.47% imp
 
 On creation, we use GDPval-AA to measure Claude’s performance on complex knowledge work, in addition to our Real-World Finance evaluation. With Claude Opus 4.6, structured outputs like spreadsheets and presentations come out right more often on the first pass. The side-by-side outputs below show how output quality has improved from Claude Opus 4.5 to Opus 4.6. These are examples of Claude’s first-pass performance on a commercial due diligence task (evaluating a potential acquisition)—the kind of work that would typically take a senior analyst two to three weeks to complete.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69860def3cf544958f0a7c43_Opus-46-Blog-Comparison-Excel%20(1).png)
+![](https://assets.claude.com/82bcf86e07b6fa2d0988fa8b53e43b7a88f6ce9a.png)![](https://assets.claude.com/0484be28208d116d14d9329566510bc925c2a381.png)
+> ““With Claude Opus 4.6, creating financial PowerPoints that used to take hours now takes minutes. We're seeing tangible improvements in attention to detail, spatial layout, and content structuring.” - Aabhas Sharma, CTO, Hebbia”
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69860e00c073500bc2eb26f4_Opus-46-Blog-Comparison-PowerPoint%20(1).png)
-
-> “With Claude Opus 4.6, creating financial PowerPoints that used to take hours now takes minutes. We're seeing tangible improvements in attention to detail, spatial layout, and content structuring.” - **Aabhas Sharma, CTO, Hebbia**
-
-> “The performance jump with Claude Opus 4.6 feels almost unbelievable. Real-world tasks that were challenging for Opus [4.5] suddenly became easy. This feels like a watershed moment for spreadsheet agents on Shortcut.” - **Nico Christie, Co-Founder & CTO, Shortcut AI**
+> ““The performance jump with Claude Opus 4.6 feels almost unbelievable. Real-world tasks that were challenging for Opus [4.5] suddenly became easy. This feels like a watershed moment for spreadsheet agents on Shortcut.” - Nico Christie, Co-Founder & CTO, Shortcut AI”
 
 ## Better multitasking and first drafts
 
@@ -64,27 +45,26 @@ The finance capabilities of Claude Opus 4.6 are easy to access with Cowork, a [n
 
 In Cowork, you give Claude access to a desktop folder of your choosing. Claude is able to read, edit, and create new files directly in that folder. For finance teams, this means you can kick off several analyses at once, while steering Claude’s thought process as it creates each deliverable to meet your standard.
 
-Cowork can also be customized [with plugins](https://claude.com/blog/cowork-plugins)—bundles of skills (which specify how to complete a task) and connectors to data on other platforms. With [our corporate finance plugin](https://claude.com/plugins/finance), for example, Claude immediately knows how to complete common workflows like journal entries, variance analyses, and reconciliation. You can also [build your own plugins](https://support.claude.com/en/articles/13345190-getting-started-with-cowork) to match how you like to work.
+Cowork can also be customized [with plugins](https://claude.com/resources/articles/cowork-plugins)—bundles of skills (which specify how to complete a task) and connectors to data on other platforms. With [our corporate finance plugin](https://claude.com/plugins/finance), for example, Claude immediately knows how to complete common workflows like journal entries, variance analyses, and reconciliation. You can also [build your own plugins](https://support.claude.com/en/articles/13345190-getting-started-with-cowork) to match how you like to work.
 
 Cowork is [available](https://support.claude.com/en/articles/13345190-getting-started-with-cowork) as a desktop-only research preview in beta on all paid Claude plans1.
 
 ## Go deeper without leaving your spreadsheet
 
-Claude in Excel brings Claude Opus 4.6 directly to your spreadsheets.  We’ve now made it better at planning and clarifying assumptions with users, especially as the task becomes more complex. It also now supports pivot table editing, chart modifications, conditional formatting, sorting and filtering, data validation, and finance-grade formatting.
+Claude in Excel brings Claude Opus 4.6 directly to your spreadsheets. We’ve now made it better at planning and clarifying assumptions with users, especially as the task becomes more complex. It also now supports pivot table editing, chart modifications, conditional formatting, sorting and filtering, data validation, and finance-grade formatting.
 
 Finally, we’ve added usability improvements, including auto-compaction for long conversations and drag-and-drop multi-file support. This means you’ll need to do much less copying and pasting between tabs. You can work with Claude on everything from financial models to client-ready workbooks, all in one place.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6984ae18765ce9ada0768cfc_ClaudeExcel-Blog-Hero-Desktop.png)
+![](https://assets.claude.com/690b5a4255a334e2b64adbb31735584d0b2552ae.png)
+> ““Claude in Excel powered by Claude Opus 4.6 represents a significant leap forward. From due diligence to financial modeling, it’s proving to be a remarkably powerful tool for our team - taking unstructured data and intelligently working with minimal prompting to meaningfully automate complex analysis. It’s an excellent example of AI augmenting investment professionals’ capabilities in tangible, time-saving ways.” - Lloyd Hilton, Head of Hg Catalyst”
 
-> “Claude in Excel powered by Claude Opus 4.6 represents a significant leap forward. From due diligence to financial modeling, it’s proving to be a remarkably powerful tool for our team - taking unstructured data and intelligently working with minimal prompting to meaningfully automate complex analysis. It’s an excellent example of AI augmenting investment professionals’ capabilities in tangible, time-saving ways.” - **Lloyd Hilton, Head of Hg Catalyst**
-
-> “As one of Canada’s largest institutional investors, we’re constantly innovating and see AI at the forefront of shaping our future. Claude Opus 4.6's enhanced speed, precision, and capacity for complex tasks, like multi-tab analysis in Claude in Excel, unlock exciting possibilities for how we work.” - **Ben Letalik, Sr. Director, Digital Transformation & Innovation, BCI**
+> ““As one of Canada’s largest institutional investors, we’re constantly innovating and see AI at the forefront of shaping our future. Claude Opus 4.6's enhanced speed, precision, and capacity for complex tasks, like multi-tab analysis in Claude in Excel, unlock exciting possibilities for how we work.” - Ben Letalik, Sr. Director, Digital Transformation & Innovation, BCI”
 
 ## Refine your presentations directly with Claude
 
 We’re also launching Claude in PowerPoint as a research preview in beta. Just like Claude in Excel, this brings Claude into your PowerPoint sidebar, letting it read your existing layouts, fonts, and masters before then creating new work in-line. Claude can build decks from client templates, make targeted edits to existing slides, and generate a great first-pass presentation from scratch.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6984ae4566ef8dcf3a381733_ClaudePPT-Blog-Hero-Desktop.png)
+![](https://assets.claude.com/2f34a7c546be3ff8d564b9c3bda776140556c508.png)
 
 Claude in PowerPoint is now available as a research preview for all users on a Max, Team, or Enterprise plan.
 
@@ -94,11 +74,11 @@ Claude Opus 4.6 and our latest product updates make a whole range of new tasks p
 
 Claude Opus 4.6, Cowork, and Claude in Excel are available on all paid Claude plans. To learn more about Claude in Excel, explore our [guide](https://support.claude.com/en/articles/12650343-claude-in-excel) and [video tutorial](https://claude.com/resources/tutorials/getting-started-with-claude-in-excel), and [get started here](https://claude.com/claude-in-excel). Claude in PowerPoint is available in research preview for all Max, Team, and Enterprise users, and you can [get started here](https://claude.com/claude-in-powerpoint).
 
-To see how organizations are using these new features in action, [register for our webinar](https://anthropic.com/webinars/claude-in-excel-and-powerpoint).
+To see how organizations are using these new features in action, [register for our webinar](https://claude.com/resources/webinars/claude-in-excel-and-powerpoint).
 
 ‍
 
-###### *Cowork is* [*available*](https://support.claude.com/en/articles/13345190-getting-started-with-cowork) *as a desktop-only research preview on all paid Claude plans, starting with Mac (Windows coming soon).*
+#### *Cowork is [available](https://support.claude.com/en/articles/13345190-getting-started-with-cowork) as a desktop-only research preview on all paid Claude plans, starting with Mac (Windows coming soon).*
 
 ‍
 
@@ -106,98 +86,43 @@ To see how organizations are using these new features in action, [register for o
 
 ‍
 
-No items found.
-
-[Prev](https://claude.com/blog/opus-4-6-finance)Prev
-
-0/5
-
-[Next](https://claude.com/blog/opus-4-6-finance)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/opus-4-6-finance)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
+[ArticleSep 30, 2026
 
 ### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
-Enterprise AI
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/opus-4-6-finance)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How to prepare for AI-driven code modernization projects
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-May 21, 2026
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
 
-### Claude now works with more security and compliance tools
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
-Enterprise AI
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/opus-4-6-finance)Claude now works with more security and compliance tools
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
 
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/opus-4-6-finance)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/opus-4-6-finance)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

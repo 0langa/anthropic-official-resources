@@ -1,48 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
 # Meet the winners of the Built with Opus 4.7 Claude Code hackathon
 
 *From medical training and electronics repair to coding education and factory maintenance, see the projects built by the winners of our latest virtual hackathon.*
 
-Get Claude Code
-
-curl -fsSL https://claude.ai/install.sh | bash
-
-Copy command to clipboard
-
-irm https://claude.ai/install.ps1 | iex
-
-Copy command to clipboard
-
-Or read the [documentation](https://code.claude.com/docs/en/overview)
-
-Try Claude Code
-
-[Try Claude Code](https://claude.ai/code)Try Claude Code
-
-Developer docs
-
-[Developer docs](https://code.claude.com/docs/en/overview)Developer docs
-
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  June 15, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon)
-
-  https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Code
+- DateJune 15, 2026
+- Reading time18 min
+- ShareCopy link
 
 Last week, we hosted [Claude Build Day](https://cerebralvalley.ai/e/claude-startups-build-day), our latest hackathon where builders got together in San Francisco to put their ideas to work using Claude Opus 4.8.
 
@@ -54,7 +18,7 @@ Congratulations to the winners and to everyone who participated! We hope their i
 
 Bedirhan Keskin, an Istanbul-based physician-turned-software engineer, used Claude Managed Agents to build Medkit: a learning tool for medical residents or junior doctors, simulating real-life patient encounters in a gamified medical clinic.
 
-Embedded media: https://www.youtube.com/embed/6bN6hnx-A2A
+Embedded media: https://www.youtube-nocookie.com/embed/6bN6hnx-A2A?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 "When you're alone in an emergency department with 50 patients waiting and you realize there are cases you never practiced in medical school, you end up practicing them on real patients in real time," says Bedirhan.
 
@@ -74,7 +38,7 @@ Bedirhan’s first instinct was to self-host the voice engine, but Claude sugges
 
 Alexis Chapellier from Reignier-Ésery, France, spent years fixing electronics before creating [RepairMind](https://repairmind.io/), an AI-powered management platform for repair shops. His Opus 4.7 hackathon project, [Wrench Board](https://wrenchboard.cloud/), helps independent technicians figure out complex repairs. Users drop in a schematic and a boardview and describe the symptoms, and the agent creates a unified electrical graph, reasons over it, points to the exact pad to probe, reads measurements, and updates its hypotheses until it diagnoses the issue.
 
-Embedded media: https://www.youtube.com/embed/OZ2D\_p82z6w
+Embedded media: https://www.youtube-nocookie.com/embed/OZ2D\_p82z6w?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 Alexis prototyped Wrench Board in Claude Design, separating the app’s responsibilities (design, schematic ingestion, boardview, diagnostic agent) and producing first a spec and then a plan for each one. He executed in Claude Code’s multi-agent mode, benchmarking at every step by running five or six agents in parallel during debugging, with one dedicated agent per domain.
 
@@ -102,7 +66,7 @@ Paula Vásquez-Henríquez, who teaches computer science at Universidad del Desar
 
 Paula, who is currently working on a PhD in Artificial Intelligence researching student–AI interaction patterns, entered the hackathon to solve this problem from both student and instructor perspectives.
 
-Embedded media: https://www.youtube.com/embed/IJ9FyX2xwWA
+Embedded media: https://www.youtube-nocookie.com/embed/IJ9FyX2xwWA?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 Maieutic is an IDE designed to make students slow down at key moments. Students must describe in plain language what their program should do before writing any code; Claude asks targeted clarifying questions and keeps the editor locked until the spec is detailed enough that a competent programmer could implement it without guessing.
 
@@ -110,7 +74,7 @@ Students can then start writing Python but autocomplete is off; a chat panel ans
 
 The Intent-Diff Review, the core of the tool, has Claude compare the spec against the final code, classify each divergence as drift, revision, or bug, and then surface a neutral, non-accusatory question prompting the student to explain the issue themselves.
 
-For instructors, a live dashboard shows one row per student with a one-sentence cognitive summary (e.g., "written the spec three times, still hasn't considered empty input").  Teachers can click on individual students to monitor their specific interactions with Claude, which also analyzes the full cohort to identify and surface any shared misunderstandings across the whole class so instructors can close that gap.
+For instructors, a live dashboard shows one row per student with a one-sentence cognitive summary (e.g., "written the spec three times, still hasn't considered empty input"). Teachers can click on individual students to monitor their specific interactions with Claude, which also analyzes the full cohort to identify and surface any shared misunderstandings across the whole class so instructors can close that gap.
 
 Since the hackathon ended, researchers at the University of Houston have reached out about co-authoring a paper, and Paula is putting her prize credits toward developing the tool further. She says hackathon week showed her that the gap between understanding a problem and shipping a tool for it has collapsed.
 
@@ -126,7 +90,7 @@ This project was Paula dogfooding her own philosophy: specify before you build. 
 
 Intrigued with Opus 4.7’s spatial reasoning capabilities, full stack developer Rene Hangstrup Møller built Virtual Puppet Theater, a browser-based app that turns webcam video and voice into a dynamic interactive puppet show. A real-time animated puppet mirrors a user’s movements while a second AI-driven companion puppet banters with the user; spoken prompts can transform the scenery and spawn 3D props on the fly.
 
-Embedded media: https://www.youtube.com/embed/qLuGU4PQNss?start=1
+Embedded media: https://www.youtube-nocookie.com/embed/qLuGU4PQNss?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 Rene used Claude across the full pipeline: concept discussion, planning, and code writing, while he handled direction, architecture, review, and decision-making. The app is based on Bun, Vite, and TypeScript, using MediaPipe hand tracking (running in WASM) and Three.js to render the puppet stage in 3D at 60 fps. A small WebSocket server connects to Claude Opus 4.7 via the Anthropic SDK to drive the AI puppet's dialogue and generate 3D props on the fly, while voice is handled by the Web Speech API for input and ElevenLabs for output (with browser speech synthesis as a fallback). Opus's spatial reasoning capabilities, refined through a screenshot-based feedback loop, handle the visual output.
 
@@ -146,7 +110,7 @@ Benjamin Torralbo grew up apprenticing alongside his father, Juan Rodrigo Torral
 
 His [MaestrIA](https://maestriachile.cl/) hackathon project solves both sides as a web app that gives ordinary people master-level home repair diagnostics while giving skilled tradespeople a way to demonstrate expertise.
 
-Embedded media: https://www.youtube.com/embed/rkH4AjoTL5Q
+Embedded media: https://www.youtube-nocookie.com/embed/rkH4AjoTL5Q?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 With MaestrIA, users photograph their problem, describe it in voice or text, and share their location. Claude streams its reasoning in real time with animated bounding boxes over the photos, then delivers structured diagnoses: what's broken, material, severity 1–5, project budget and time estimate. The agent then renders a map of nearby maestros filtered by trade while a second agent drafts a WhatsApp message to send.
 
@@ -166,7 +130,7 @@ His prize credits go toward developing the app, digitizing his father's company 
 
 Most factories have that one veteran technician who can tell when a machine is about to break, just by the sound it makes. The Best Use of Claude Managed Agents prize-winning project, ARIA (Adaptive Runtime Intelligence) turns an experienced maintenance engineer’s instincts into an affordable, fast-to-set-up AI system that continuously watches factory machines and generates custom diagnostics and repair plans the moment trouble appears.
 
-Embedded media: https://www.youtube.com/embed/Hen24w2Jyz4?start=28
+Embedded media: https://www.youtube-nocookie.com/embed/Hen24w2Jyz4?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 With ARIA, a maintenance engineer uploads a manufacturer's PDF, answers four plain-language calibration questions, and within 15 minutes the plant is profiled. From there, five agents watch live signals. If an agent detects a failure or predicts one is imminent, it produces a work order analyzing component, failure mode, urgency, parts, and intervention window
 
@@ -184,102 +148,46 @@ After the hackathon’s results were announced, companies working on exactly thi
 
 [*ARIA on GitHub*](https://github.com/zestones/Aria)
 
-[*Learn*](http://claude.com/community) *about our Claude Community programs, including meetups, hackathons, and more.*
+*[Learn](http://claude.com/community) about our Claude Community programs, including meetups, hackathons, and more.*
 
 ‍
 
-No items found.
-
-[Prev](https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon)Prev
-
-0/5
-
-[Next](https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
-
-Sep 24, 2026
+[ArticleSep 24, 2026
 
 ### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-Claude Code
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-Sep 23, 2026
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-### How to prepare for AI-driven code modernization projects
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-Enterprise AI
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon) How to prepare for AI-driven code modernization projects
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
+### The Claude Code guide for startups
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

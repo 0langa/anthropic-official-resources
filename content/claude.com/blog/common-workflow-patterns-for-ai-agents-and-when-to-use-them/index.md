@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
-
 # Common workflow patterns for AI agents—and when to use them
 
 *Practical guidance on how to structure agent tasks using three common workflow patterns, with tradeoffs and benefits for each.*
 
-- Category
-
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  March 5, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them)
-
-  https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Platform
+- DateMarch 5, 2026
+- Reading time13 min
+- ShareCopy link
 
 [AI agents](https://www.anthropic.com/research/building-effective-agents) make decisions autonomously, and workflows are how you bring structure to that autonomy. They establish execution patterns that channel agent capabilities toward complex problems requiring coordinated steps, predictable outcomes, and orchestrated timing.
 
@@ -60,40 +44,7 @@ In production, we see three workflow patterns come up most often. Think of these
 
 Each workflow type solves specific problems and comes with clear tradeoffs around complexity, cost, and performance.
 
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Problem it solves</th>
-<th>When to use</th>
-<th>Tradeoff</th>
-<th>Benefit</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><b>Sequential</b></td>
-<td>Tasks have dependencies: step B needs step A's output</td>
-<td>Multi-stage processes, data pipelines, draft-review-polish cycles</td>
-<td>Adds latency (each step waits for the previous one)</td>
-<td>Can improve accuracy by letting each agent focus on one thing</td>
-</tr>
-<tr>
-<td><b>Parallel</b></td>
-<td>Tasks are independent but doing them one at a time is slow</td>
-<td>Evaluations across multiple dimensions, code review, document analysis</td>
-<td>Costs more (multiple concurrent API calls) and requires an aggregation strategy</td>
-<td>Can lead to faster completion and separation of concerns across engineering teams</td>
-</tr>
-<tr>
-<td><b>Evaluator-optimizer</b></td>
-<td>First-draft quality isn't good enough</td>
-<td>Technical documentation, customer communications, code generation against specific standards</td>
-<td>Multiplies token usage and adds iteration time</td>
-<td>Can generate better outputs through structured feedback loops</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Problem it solves</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">When to use</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Tradeoff</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Benefit</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Sequential</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Tasks have dependencies: step B needs step A's output</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Multi-stage processes, data pipelines, draft-review-polish cycles</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Adds latency (each step waits for the previous one)</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Can improve accuracy by letting each agent focus on one thing</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Parallel</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Tasks are independent but doing them one at a time is slow</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Evaluations across multiple dimensions, code review, document analysis</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Costs more (multiple concurrent API calls) and requires an aggregation strategy</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Can lead to faster completion and separation of concerns across engineering teams</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Evaluator-optimizer</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">First-draft quality isn't good enough</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Technical documentation, customer communications, code generation against specific standards</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Multiplies token usage and adds iteration time</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Can generate better outputs through structured feedback loops</span></td></tr></tbody></table>
 
 ‍  
 Start with the simplest pattern that solves your problem. Default to sequential. Move to parallel when latency is the bottleneck and tasks are independent and add evaluator-optimizer loops only when you can measure the quality improvement.
@@ -104,7 +55,7 @@ Sequential workflows execute tasks in a predetermined order.
 
 Agents at each stage process inputs, make decisions, make tool calls as needed, then pass results to the next stage. The result is a clear chain of operations where outputs flow linearly through the system.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69a9d98c9196625199b6a5f0_fig1-sequential-workflow-v1%20(1).png)
+![](https://assets.claude.com/2fdd3b26e1ebfc261a7e6b4eac1b9645affd94e4.png)
 
 **When to use:** Sequential workflows excel when tasks naturally break down into distinct stages with clear dependencies. You're trading some latency for higher accuracy by focusing each agent on a specific subtask instead of trying to handle everything at once.
 
@@ -134,7 +85,7 @@ The approach resembles the fan-out/fan-in pattern from distributed systems. You 
 
 Agents don't hand off work to each other—they operate autonomously and produce results that contribute to the overall task.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69a9d9d2e30946c46eb80032_fig2-parallel-workflow-v1%20(1).png)
+![](https://assets.claude.com/3c4721f857b04a10946625c9f43254700751e78c.png)
 
 **When to use:** Parallelization makes sense when you can divide work into independent subtasks that benefit from simultaneous processing, or when you need multiple perspectives on the same problem. It also enables separation of concerns: different engineers can own and optimize individual agents independently without their work interfering with each other. For complex tasks, handling each consideration with a separate AI call often outperforms trying to juggle everything in one call.
 
@@ -159,7 +110,7 @@ Evaluator-optimizer workflows pair two agents in an iterative cycle: one generat
 
 The key insight is that generation and evaluation are different cognitive tasks. Separating them lets each agent specialize—the generator focuses on producing content, the evaluator focuses on applying consistent quality criteria.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69a9d9f9dc54bd92bd71f921_fig3-evaluator-optimizer-workflow-v1%20(1).png)
+![](https://assets.claude.com/9a59c02f15e74f13749b2ea1d8ce2ca3f7859fb1.png)
 
 **When to use:** This pattern works when you have clear, measurable quality criteria that an AI evaluator can apply consistently, and when the gap between first-attempt and final quality is meaningful enough to justify the extra tokens and latency.
 
@@ -211,104 +162,49 @@ Our best advice: start with the simplest pattern that works. If a sequential wor
 
 These three patterns give you clear upgrade paths as requirements change. A sequential workflow can incorporate parallel processing at bottleneck stages. An agentic approach can add evaluation when quality standards tighten, and because these patterns are modular, you won't need complete rewrites.
 
-For implementation guidance, detailed examples, and advanced patterns including hybrid approaches, check out our full white paper: [*Building effective AI agents: architecture patterns and implementation frameworks*](https://resources.anthropic.com/ty-building-effective-ai-agents).
+For implementation guidance, detailed examples, and advanced patterns including hybrid approaches, check out our full white paper:[*Building effective AI agents: architecture patterns and implementation frameworks*](https://resources.anthropic.com/ty-building-effective-ai-agents).
 
 ‍
 
-*Build on the* [*Claude Developer Platform*](https://claude.com/platform/api) *today.*
+*Build on the [Claude Developer Platform](https://claude.com/platform/api) today.*
 
-No items found.
-
-[Prev](https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them)Prev
-
-0/5
-
-[Next](https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-### How Warp builds self-improving agents on Claude
-
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 29, 2026
+[ArticleSep 29, 2026
 
 ### Agents you can coach: how Asana builds human-agent teams with Claude
 
-Agents
+Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
+‍
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+### A new approach to agent security with Claude Managed Agents and NVIDIA
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
 
-Sep 28, 2026
-
-### Giving companies more control over their AI agents, with NVIDIA
-
-Agents
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them)Giving companies more control over their AI agents, with NVIDIA
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Sep 8, 2026
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
 
 ### Reducing cost and improving performance with Claude Platform
 
-Agents
+Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them)Reducing cost and improving performance with Claude Platform
+Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
+### A guide to the anatomy of effective commerce agents
+
+The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
+
+Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

@@ -1,34 +1,16 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
-
 # How Anthropic runs large-scale code migrations with Claude Code
 
 A step-by-step guide to running large code migrations with AI agents — including Bun's million-line Zig-to-Rust port.
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  July 16, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/ai-code-migration)
-
-  https://claude.com/blog/ai-code-migration
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code
+- DateJuly 16, 2026
+- Reading time7 min
+- ShareCopy link
 
 Code migrations, projects that port a production codebase to a new language, were multi-year endeavors until recently.
 
-In the last month, individual developers at Anthropic migrated 10 code packages consisting of tens to hundreds of thousands of lines of code using Claude Fable 5, Claude Opus 4.8, and [dynamic workflows](https://claude.com/blog/introducing-dynamic-workflows-in-claude-code). In this article we’ll cover two examples along with best practices from these projects.
+In the last month, individual developers at Anthropic migrated 10 code packages consisting of tens to hundreds of thousands of lines of code using Claude Fable 5, Claude Opus 4.8, and [dynamic workflows](https://claude.com/resources/articles/introducing-dynamic-workflows-in-claude-code). In this article we’ll cover two examples along with best practices from these projects.
 
 Jarred Sumner, co-founder of Bun and Member of Technical Staff at Anthropic, used Claude Code to [migrate Bun from Zig to Rust](https://bun.com/blog/bun-in-rust). A million lines of code were produced in less than two weeks, with 100% of Bun's existing test suite passing in CI before merge. Nineteen regressions surfaced after merge and have all been fixed. The Rust port was shipped inside Claude Code in June.
 
@@ -60,9 +42,9 @@ Now, the worst case scenario is you delete the branch and try again.
 
 There still needs to be a justifiable business case. While million line migrations no longer cost $3 to $4 million in engineering resources over the course of a four year project, they still cost tens to hundreds of thousands of dollars or more to execute. The Bun migration, for example, consumed 5.9 billion uncached input tokens and 690 million output tokens — around $165,000 at API pricing. The main portion of Mike’s port was 27 million tokens.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a58f8844b99cec5d277a9ee_27e78c5a.png)
+![](https://assets.claude.com/1e6eaf73247b9ed6a2e2317b09b53321bcf3e5ee.png)
 
-*Jarred’s million-line PR.*
+Jarred’s million-line PR.
 
 **However, the migration case no longer needs to be existential.** A year of memory-bug patches in the changelog, or one chronic bottleneck, can now justify it.
 
@@ -82,47 +64,9 @@ Large code migrations are a particularly effective use case for these advanced m
 
 As we will see below, both Mike and Jarred used Fable for key steps in their migration process, particularly in **an advisory pattern** that used multiple model classes to optimize token consumption.
 
-No items found.
-
-[Prev](https://claude.com/blog/ai-code-migration)Prev
-
-0/5
-
-[Next](https://claude.com/blog/ai-code-migration)Next
-
-Get Claude Code
-
-curl -fsSL https://claude.ai/install.sh | bash
-
-Copy command to clipboard
-
-irm https://claude.ai/install.ps1 | iex
-
-Copy command to clipboard
-
-Or read the [documentation](https://code.claude.com/docs/en/overview)
-
-Try Claude Code
-
-[Try Claude Code](https://claude.ai/code)Try Claude Code
-
-Developer docs
-
-[Developer docs](https://code.claude.com/docs/en/overview)Developer docs
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
 ## **Six steps for large code migrations**
 
-*The process below has been generalized to be relevant to multiple languages and scenarios. For additional details, you can read* [*Jarred’s blog*](https://bun.com/blog/bun-in-rust)*. You can also access the* [*Migration starter kit.*](https://github.com/anthropics/code-migration-kit-with-claude-code) *Note: The starter kit is a generalized template of the process above — it's not what these specific ports ran on.*
+*The process below has been generalized to be relevant to multiple languages and scenarios. For additional details, you can read [Jarred’s blog](https://bun.com/blog/bun-in-rust). You can also access the [Migration starter kit.](https://github.com/anthropics/code-migration-kit-with-claude-code) Note: The starter kit is a generalized template of the process above — it's not what these specific ports ran on.*
 
 ### **Prerequisites**
 
@@ -140,11 +84,11 @@ Jarred had a large test suite written in a third language (TypeScript), but that
 
 Before we get into each stage, this graphic may help you follow along. This mostly follows Jarred’s methodology, with reviews and gates at each stage. Mike followed a similar overall structure using similar loop workflows, but he ran the entire migration end to end, revised the rules and the workflow based on the results, and ran it again — discarding the output each time until the third run.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a58f8854b99cec5d277aa48_e7dd47de.png)
+![](https://assets.claude.com/db47317735cd0343e1bce930ccd88f776a4e80fc.png)
 
 ### **Step 1 — Create the rulebook, dependency map, and gap inventory**
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a58fa78da7794274460319e_Code-migration-step1.jpeg)
+![](https://assets.claude.com/72609898f654fe3ac473bfae37904051ad51f153.jpg)
 
 In this stage we are creating the foundations of our migration: an inventory of places where code will need to be refactored rather than just translated, a rulebook for how to translate our code, and a dependency map to order our migration implementation workstreams.
 
@@ -170,6 +114,8 @@ The new language has different requirements from the old language that must be m
 
 Zig
 
+Copy
+
 ```
 fn readConfig(allocator: std.mem.Allocator) ![]u8 {
     const buf = try allocator.alloc(u8, 1024);
@@ -181,6 +127,8 @@ fn readConfig(allocator: std.mem.Allocator) ![]u8 {
 ```
 
 Rust
+
+Copy
 
 ```
 fn read_config() -> Vec<u8> { 
@@ -196,6 +144,8 @@ For Python to TypeScript the gap was interfaces and contracts. Python doesn’t 
 
 Python
 
+Copy
+
 ```
 def register(handler):
     handler.setup()
@@ -205,6 +155,8 @@ def register(handler):
 ```
 
 TypeScript
+
+Copy
 
 ```
 interface RunResult { ok: boolean } 
@@ -227,7 +179,7 @@ Check out this sample [Claude Code prompt to create a gap inventory file](https:
 
 ### **Step 2 — Stress-test the rules**
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a58fbe31db98b8b59d39ba8_MIgration-step2.jpeg)
+![](https://assets.claude.com/c5415b38d23f0b5f4e73032df6237e1df47c703f.jpg)
 
 This step involves a mini-migration that serves as a “shakedown cruise” for the larger migration.
 
@@ -235,13 +187,13 @@ In this step, Jarred used one agent to translate three files using the rulebook,
 
 The prompt may look something like [this](https://github.com/anthropics/code-migration-kit-with-claude-code/blob/main/prompts/03-stress-test.md).
 
-This type of stress test **only works for structure-preserving migrations**, where two translations of the same file are comparable line by line.  If your rulebook is a redesign — like Mike's — the equivalent test is attacking the design document directly with adversarial reviewers, then validating it with a disposable end-to-end run.
+This type of stress test **only works for structure-preserving migrations**, where two translations of the same file are comparable line by line. If your rulebook is a redesign — like Mike's — the equivalent test is attacking the design document directly with adversarial reviewers, then validating it with a disposable end-to-end run.
 
 Regardless, throw out any translated files. The goal is to refine the rules, not make incremental progress.
 
 ### **Step 3 — Translate everything**
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a58fd9c8899de91189a89e0_ai-migation-step4-5-6.jpeg)
+![](https://assets.claude.com/e708553fa07e19349f0d36f03abb44c5905ae7c2.jpg)
 
 For the remaining steps, you run the same multi-agent loop architecture: implement, review, and fix.
 
@@ -261,7 +213,7 @@ At this step, much of the heavy lifting has been done and [the prompts start to 
 
 ### **Steps 4, 5, 6 — Compile, run, and match behavior**
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a58fd76153c143199b57e1b_ai-migration-step3.jpeg)
+![](https://assets.claude.com/97980ed9ec36772fd61e15ac74fbfd8617a4cc37.jpg)
 
 These three steps share the same loop architecture and need progressively less human judgment, so we cover them together.
 
@@ -308,86 +260,48 @@ Consider whether it’s time to re-run the math of your long deferred migration.
 
 ***Related***
 
-- [*Migration starter kit*](https://github.com/anthropics/code-migration-kit-with-claude-code) *Note: The starter kit is a generalized template of the process above — it's not what these specific ports ran on.*
-- [*Code-modernization plugin*](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization) *— for legacy modernization and framework upgrades rather than language ports*
-- [*Dynamic workflows in Claude Code*](https://claude.com/blog/introducing-dynamic-workflows-in-claude-code)
+- *[Migration starter kit](https://github.com/anthropics/code-migration-kit-with-claude-code) Note: The starter kit is a generalized template of the process above — it's not what these specific ports ran on.*
+- *[Code-modernization plugin](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization) — for legacy modernization and framework upgrades rather than language ports*
+- [*Dynamic workflows in Claude Code*](https://claude.com/resources/articles/introducing-dynamic-workflows-in-claude-code)
 
 ‍
 
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+[ArticleSep 24, 2026
 
-Jul 20, 2026
+### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-Enterprise AI
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/ai-code-migration)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-Sep 30, 2026
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-Enterprise AI
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/ai-code-migration)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### The Claude Code guide for startups
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
-
-May 21, 2026
-
-### Claude now works with more security and compliance tools
-
-Enterprise AI
-
-[Claude now works with more security and compliance tools](https://claude.com/blog/ai-code-migration)Claude now works with more security and compliance tools
-
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/ai-code-migration)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/ai-code-migration)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

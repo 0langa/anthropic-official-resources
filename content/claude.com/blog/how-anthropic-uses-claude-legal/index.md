@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d230e0a787df988a8558_97cf99624aa60f59b75f9e08cdf0f00d33c34804-1000x1000.svg)
-
 # How Anthropic's legal team cut review times from days to hours with Claude
 
 *Mark Pike, Associate General Counsel, shares how our legal team uses Claude to build workflows that automate repetitive tasks like reviewing marketing content and redlining contracts—no coding required.*
 
-- Category
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Enterprise](https://claude.com/solutions/enterprise)
-- Date
-
-  December 8, 2025
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/how-anthropic-uses-claude-legal)
-
-  https://claude.com/blog/how-anthropic-uses-claude-legal
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Enterprise
+- DateDecember 8, 2025
+- Reading time10 min
+- ShareCopy link
 
 There's a comically anachronistic vintage payphone on Mark Pike's desk at Anthropic. Tap a "legal challenge coin" against it—yes, really—and it rings. An AI bot answers, figures out what you need, and routes you to the right attorney.
 
@@ -30,11 +14,11 @@ Mark built it. He doesn't know how to code.
 
 "I wouldn't say what I'm doing is learning to code," says Mark, a product lawyer at Anthropic. "I partner with Claude to tackle certain projects that involve coding, but I am not the one coding. I'm just very good at troubleshooting."
 
-Embedded media: https://www.youtube.com/embed/tJP6SKfo49c
+Embedded media: https://www.youtube-nocookie.com/embed/tJP6SKfo49c?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 ## **The problem: Drowning in tactical work**
 
-Before Claude, Mark's day looked like any other in-house lawyer's. Responding to  compliance documents and customer questionnaires. Drafting and updating terms of service and privacy policies. Reviewing blog posts and email copy in the hours before a launch.
+Before Claude, Mark's day looked like any other in-house lawyer's. Responding to compliance documents and customer questionnaires. Drafting and updating terms of service and privacy policies. Reviewing blog posts and email copy in the hours before a launch.
 
 "Before Claude, I had a ton of tactical busy work," Mark says. "Things I would put off until the end of the day because I just knew it would take a lot of time, but not using the best parts of my brain."
 
@@ -52,7 +36,7 @@ Over the course of several months and lots of experimentation, some of the legal
 
 ### **Marketing review workflow**
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6933cb87c77bc5806f6cce36_f995b27a.png)
+![](https://assets.claude.com/b70130a1213d1f87da2a7530ec9a2c11760fea24.png)
 
 The Legal team's Marketing Material Self-Review Tool allows go-to-market employees to self-review their own content before sharing with Legal for a final pass.
 
@@ -68,7 +52,7 @@ When content does get submitted for formal review, it's triaged to the right law
 
 ### **Contract redlining tool**
 
-Embedded media: https://www.youtube.com/embed/LpGpwhORWr0?start=67
+Embedded media: https://www.youtube-nocookie.com/embed/LpGpwhORWr0?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 Comparing contract versions and suggesting fallback language is time-consuming work.
 
@@ -76,11 +60,11 @@ Claude now compares document versions in tools like Google Docs and Office 365, 
 
 "Contract redlining is the use case everybody expects from AI," Mark says. "And Claude's really good at it – it saves us hours of manual comparison."
 
-Mark and his colleagues also write [Skills](https://www.claude.com/blog/skills) – specialized instructions and best practices stored in files Claude reads depending on the task –  to further streamline the review of specific types of documents, from NDAs to third-party vendor agreements.
+Mark and his colleagues also write [Skills](https://claude.com/resources/articles/skills) – specialized instructions and best practices stored in files Claude reads depending on the task – to further streamline the review of specific types of documents, from NDAs to third-party vendor agreements.
 
 ### **Outside business activity review**
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6933cb87c77bc5806f6cce33_d4c84677.jpeg)
+![](https://assets.claude.com/4a511f132bc9f11d2582225a6e1176f953ba483f.jpg)
 
 The Legal Team's Outside Business Activity Request Form expedite the process of assessing conflict-of-interest reviews for Anthropic employees.
 
@@ -134,100 +118,45 @@ Mark envisions a future where new lawyers inherit their team's accumulated knowl
 
 "We're not replacing lawyers," he says. "We're pushing out the frontier of what's possible. We're empowering them with the skills and tools they need to get their best work done."
 
-*Get started with* [*Claude for Enterprise*](https://www.claude.com/pricing/enterprise) *today. Stay tuned for more stories in the "How Anthropic uses Claude" series.*
+*Get started with [Claude for Enterprise](https://www.claude.com/pricing/enterprise) today. Stay tuned for more stories in the "How Anthropic uses Claude" series.*
 
-No items found.
-
-[Prev](https://claude.com/blog/how-anthropic-uses-claude-legal)Prev
-
-0/5
-
-[Next](https://claude.com/blog/how-anthropic-uses-claude-legal)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/how-anthropic-uses-claude-legal)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
+[ArticleSep 30, 2026
 
 ### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
-Enterprise AI
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropic-uses-claude-legal)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How to prepare for AI-driven code modernization projects
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-May 21, 2026
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
 
-### Claude now works with more security and compliance tools
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
-Enterprise AI
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/how-anthropic-uses-claude-legal)Claude now works with more security and compliance tools
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
 
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/how-anthropic-uses-claude-legal)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/how-anthropic-uses-claude-legal)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

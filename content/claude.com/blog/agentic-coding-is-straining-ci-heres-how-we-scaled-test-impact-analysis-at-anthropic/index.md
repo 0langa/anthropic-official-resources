@@ -1,45 +1,21 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228e9c51800dde13958_6507d83d1197bb8630131d363fb8bea838d79ca7-1000x1000.svg)
-
 # Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
 Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-
-  [Claude Enterprise](https://claude.com/solutions/enterprise)
-
-  [Claude Tag](https://claude.com/product/tag)
-- Date
-
-  September 14, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)
-
-  https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic
-- Author(s)
-
-  Sachin Malhotra
+- Category[Best practices](https://claude.com/resources/best-practices), [Perspectives](https://claude.com/resources/perspectives)
+- ProductClaude Code, Claude Enterprise, Claude Tag
+- AuthorSachin Malhotra
+- DateSeptember 14, 2026
+- Reading time10 min
+- ShareCopy link
 
 ## AI is evolving CI
 
-Anthropic engineers on average ship [8x as much code](https://www.anthropic.com/institute/recursive-self-improvement) per quarter as they did from 2021-2025. Claude authors [80% of that code](https://www.anthropic.com/institute/recursive-self-improvement) and it also plays a large role in [reviewing and approving PRs as well](https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle).
+Anthropic engineers on average ship [8x as much code](https://www.anthropic.com/institute/recursive-self-improvement) per quarter as they did from 2021-2025. Claude authors [80% of that code](https://www.anthropic.com/institute/recursive-self-improvement) and it also plays a large role in [reviewing and approving PRs as well](https://claude.com/resources/articles/how-anthropic-secures-its-ai-native-software-development-lifecycle).
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa7f3c848204c50ad501861_da466791.png)
+![](https://assets.claude.com/d9ed8b937d3a3a58b07f5158bc49614e6f260936.png)
 
-*Writing code is no longer the constraint, and once PR review gets accelerated, CI starts feeling the pressure.*
+Writing code is no longer the constraint, and once PR review gets accelerated, CI starts feeling the pressure.
 
 On top of that, the amount of tests across our codebase grew 10x and we added a nominal amount of engineers. This all led to a 25x increase in CI jobs over a six month period (in case you are trying to do the math, not every test runs on every PR as I will explain).
 
@@ -47,7 +23,7 @@ This threatened to overload our test impact analysis service several times. To a
 
 Scaling CI is a challenge more engineering teams are likely to soon face as agents continue to accelerate code generation and review. I anticipate horizontally scaled test selection architecture will become industry standard as teams running agents create both more PRs and more tests.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa7f3c848204c50ad501864_e0fd4bf1.png)
+![](https://assets.claude.com/16c9a571f85e5fb9e323c5b751b325ff664973d3.png)
 
 In this article, I’ll discuss how we scaled our test impact analysis service at Anthropic and the lesson I learned the hard way: always plan for the exponential. The specific scaling techniques–buying bigger machines, parallelizing processes, or restarting the service (yeah, this one still works surprisingly well) – are common and **not the insights to take from this article.**
 
@@ -68,7 +44,7 @@ Our service depends on two deterministic components staying in sync:
 - **A “listener”** records the test results from every CI run.
 - **A “selector”** reads the test result history and determines which tests run on which opened PRs.
 
-This is effective, but when there are multiple CI jobs running every second, the listener starts to increasingly fall behind the PR queue. For an [AI-native SDLC](https://claude.com/blog/the-ai-native-sdlc-playbook), a small lag can have a big impact. For example, 20 minutes of listener lag can translate into tens of thousands of test updates not being applied to the selector.
+This is effective, but when there are multiple CI jobs running every second, the listener starts to increasingly fall behind the PR queue. For an [AI-native SDLC](https://claude.com/resources/articles/the-ai-native-sdlc-playbook), a small lag can have a big impact. For example, 20 minutes of listener lag can translate into tens of thousands of test updates not being applied to the selector.
 
 - **If a bad change gets merged**, then a test will start failing for everyone else causing multiple unnecessary investigations.
 - **If a dependency starts flaking**, then flaky reds start blocking merges.
@@ -84,9 +60,9 @@ By October of last year the service was already showing signs of strain, and we 
 
 The first fix was easy: we doubled the cores running the service. We also knew it would be fleeting.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa7f3c848204c50ad501867_33889734.png)
+![](https://assets.claude.com/2d86c48166db5529d133483caefba4a58b144850.png)
 
-*Conversation recreated. Based on real events.*
+Conversation recreated. Based on real events.
 
 Even when the trend line was clear, ownership was murky. No one wanted to own another piece of infrastructure. Also, the CI team had bigger fish to fry.
 
@@ -96,9 +72,9 @@ At this point we were getting paged pretty frequently by the lag building up in 
 
 This would go on for months, and it was helpful not having to constantly remind it of past efforts or context. Claude often argued for an overhaul, but we usually settled on another patch.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa7f3c848204c50ad50186a_c1d3dc74.png)
+![](https://assets.claude.com/efc323a9636207ad3921fe8073d999d25151f207.png)
 
-*Verbatim conversation on an internal version of Claude Tag with some redactions.*
+Verbatim conversation on an internal version of Claude Tag with some redactions.
 
 In February, the exponential growth of CI jobs started to strain the service once again. This time, we decided to parallelize.
 
@@ -108,7 +84,7 @@ We also knew this fix would be fleeting, but we didn’t realize it would only b
 
 ### Patch 3: Daily restarts
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa7f3c848204c50ad50186d_c816aae3.png)
+![](https://assets.claude.com/c7477bb6a3bbf0c94e307a6792b5fb8ea3e19aa9.png)
 
 In March, the process reached its memory limit by mid-afternoon on most weekdays. Again, we looked for quick fixes but:
 
@@ -127,13 +103,13 @@ It was (past) time to redesign the service, and we took Claude’s advice: we ga
 
 Now, any listener worker can process any result, append it to a journal in the in-memory store, and move on without holding anything in memory - stateless and hence, horizontally scalable. A small separate consumer process rolls the journal up into per-test history every few seconds, and the selector can look up relevant result history quickly.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa7f3c848204c50ad501870_958f4a9d.png)
+![](https://assets.claude.com/a3e6f1f6d7c313312c62c7df417de297ae7a3079.png)
 
 This distributed architecture is more expensive to run, but it is much easier to scale and memory profile than a shaky singleton.This project took three weeks for a single engineer. A year ago it would have been closer to a quarter.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa7f3c948204c50ad501881_4deaf7d0.png)
+![](https://assets.claude.com/5e6a25ec5ab4c71131f6395fc8d1eecdb37b00f5.png)
 
-*Queued, unprocessed job-result events, hourly max. Before: a backlog built up most days and grew week over week. After cutover and tuning: flat.*
+Queued, unprocessed job-result events, hourly max. Before: a backlog built up most days and grew week over week. After cutover and tuning: flat.
 
 There was some fine tuning (sizing the journal and number of workers) which Claude did largely autonomously, but our service has remained stable since.
 
@@ -153,100 +129,44 @@ Keep state out of the process from the start. I’d also avoid running any criti
 
 ## Additional CI resources
 
-I’ve also written how we accelerated [CI on call using Claude Tag](https://claude.com/blog/ai-ci-cd-on-call) (beta).
+I’ve also written how we accelerated [CI on call using Claude Tag](https://claude.com/resources/articles/ai-ci-cd-on-call) (beta).
 
-No items found.
-
-[Prev](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)Prev
-
-0/5
-
-[Next](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+[ArticleSep 24, 2026
 
-Jul 20, 2026
+### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-Enterprise AI
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleAug 24, 2026
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-Sep 30, 2026
+### The Claude Code guide for startups
 
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-Enterprise AI
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)[ArticleAug 14, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### Maximizing the value of your Claude Code sessions
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+How to run efficient sessions that get the most value from every token.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
-
-May 21, 2026
-
-### Claude now works with more security and compliance tools
-
-Enterprise AI
-
-[Claude now works with more security and compliance tools](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)Claude now works with more security and compliance tools
-
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude Code](https://claude.com/resources/articles/maximizing-the-value-of-your-claude-code-sessions)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

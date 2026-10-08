@@ -1,34 +1,14 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
-
 # 1M context is now generally available for Opus 4.6 and Sonnet 4.6
 
 Standard pricing now applies across the full 1M window for both models, with no long-context premium. Media limits expand to 600 images or PDF pages.
 
 ‍
 
-- Category
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Platform](https://claude.com/platform/api)
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  March 13, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/1m-context-ga)
-
-  https://claude.com/blog/1m-context-ga
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Platform, Claude Code
+- DateMarch 13, 2026
+- Reading time3 min
+- ShareCopy link
 
 Claude Opus 4.6 and Sonnet 4.6 now include the full 1M context window at standard pricing on the Claude Platform. Standard pricing applies across the full window — $5/$25 per million tokens for Opus 4.6 and $3/$15 for Sonnet 4.6. There's no multiplier: a 900K-token request is billed at the same per-token rate as a 9K one.
 
@@ -45,81 +25,103 @@ Claude Opus 4.6 and Sonnet 4.6 now include the full 1M context window at standar
 
 A million tokens of context only matters if the model can recall the right details and reason across them. Opus 4.6 scores 78.3% on MRCR v2, the highest among frontier models at that context length.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69b49c06e1c573f3ce50276b_image%20(3).png)
+![](https://assets.claude.com/20962572d16ec5031b2100795c58a3974ab7a304.png)
 
 Claude Opus 4.6 and Sonnet 4.6 maintain accuracy across the full 1M window. Long context retrieval has improved with each model generation.
 
 That means you can load an entire codebase, thousands of pages of contracts, or the full trace of a long-running agent — tool calls, observations, intermediate reasoning — and use it directly. The engineering work, lossy summarization, and context clearing that long-context work previously required are no longer needed. The full conversation stays intact.
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5ad6788c7a1b711a85623_Ramp_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5ad62e2f100f80635f7a7_Ramp_dark.svg)
+![Resolve AI](https://assets.claude.com/8b9254c4648042482204412c545e441fe728c810.svg)
 
-Claude Code can burn 100K+ tokens searching Datadog, Braintrust, databases, and source code. Then compaction kicks in. Details vanish. You're debugging in circles. With 1M context, I search, re-search, aggregate edge cases, and propose fixes — all in one window.
-
-Anton Biryukov, Software Engineer
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69b23e943b167e62bb019de7_Logo_green.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69b23e9850d979b6157caf78_Logo_white.svg)
-
-Before Opus 4.6's 1M context window, we had to compact context as soon as users loaded large PDFs, datasets, or images — losing fidelity on exactly the work that mattered most. We've seen a 15% decrease in compaction events. Now our agents hold it all and run for hours without forgetting what they read on page one.
-
-Jon Bell, CPO
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a29deb8193497afd3b2cd24_brand-logo-cognition-black.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a29deb952fed1bad85c342c_brand-logo-cognition-white.svg)
-
-Opus 4.6 with 1M context window made our Devin Review agent significantly more effective. Large diffs didn't fit in a 200K context window so the agent had to chunk context, leading to more passes and loss of cross-file dependencies. With 1M context, we feed the full diff and get higher-quality reviews out of a simpler, more token-efficient harness.
-
-Adhyyan Sekhsaria, Founding Engineer
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69ebbdde1a3d17f2d9e91607_eve-light-mode.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69ebbde617bb08ba0d0157b8_eve-dark-mode.svg)
-
-Eve defaults to 1M context because plaintiff attorneys' hardest problems demand it. Whether it's cross-referencing a 400-page deposition transcript or surfacing key connections across an entire case file, the expanded context window lets us deliver materially higher-quality answers than before.
-
-Mauricio Wulfovich, ML Engineer
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69b2420c325130a6b3466795_Physical%20Superintelligence%20Logo%20-%20Dark.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69b24208d5bf1b81446a6ad3_Physical%20Superintelligence%20Logo%20-%20Light.svg)
-
-Scientific discovery requires reasoning across research literature, mathematical frameworks, databases, and simulation code simultaneously. Claude Opus 4.6’s 1M context and expanded media limits let our agentic systems synthesize hundreds of papers, proofs, and codebases in a single pass, helping us dramatically accelerate fundamental and applied physics research.
-
-Dr. Alex Wissner-Gross, Co-Founder
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69b1d248b84e40f85eca3f68_GC%20AI%20220px%20navy%20(1).png)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69b1d24b433e03540b6f6bc5_GC%20AI%20220px%20(1).png)
-
-With Claude's 1M context, an in-house lawyer can bring five turns of a 100-page partnership agreement into one session and finally see the full arc of a negotiation. No more toggling between versions or losing track of what changed three rounds ago.
-
-Bardia Pourvakil, Co-founder and CTO
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69b31397615d221067e19bda_Resolve%20SVG%20original%20color.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69b31393431c1a52a589e3a9_Resolve%20SVG%20light%20color.svg)
-
-Large-scale production systems have endless context, and production incidents can get very complex. With Claude's 1M context window, we are able to keep every entity, signal, and working theory in view from first alert to remediation without having to repeatedly compact or compromise the nuances of these systems.
+> “Large-scale production systems have endless context, and production incidents can get very complex. With Claude's 1M context window, we are able to keep every entity, signal, and working theory in view from first alert to remediation without having to repeatedly compact or compromise the nuances of these systems.”
 
 Mayank Agarwal, Founder & CTO
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab2c8bd3466f0c993603ec7_6ab2c6ea86d60c4df0533e54_startups-wordmark-hex-light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab2c8bd3466f0c993603eca_6ab2c6ea1b9635a4a50e1179_startups-wordmark-hex-dark.svg)
+![Hex](https://assets.claude.com/9968e969a67c49206d34fe9b4f8ec0a6836fd0e1.svg)
 
-We raised our Opus context window from 200k to 500k and the agent runs more efficiently — it actually uses fewer tokens overall. Less overhead, more focus on the goal at hand.
+> “We raised our Opus context window from 200k to 500k and the agent runs more efficiently — it actually uses fewer tokens overall. Less overhead, more focus on the goal at hand.”
 
 Izzy Miller, AI Research Lead
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f258769ad971ea1c706eff_endex-light-mode.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f25878946166279d98b9fb_endex-dark-mode.svg)
+![Endex](https://assets.claude.com/f8e632d4750a94b94d2b18e0c0b2aebf222b200c.svg)
 
-Real-world spreadsheet tasks require deep research and complex multi-step plans. Claude's 1M context window let’s us maintain task adherence and attention to detail.
+> “Real-world spreadsheet tasks require deep research and complex multi-step plans. Claude's 1M context window let’s us maintain task adherence and attention to detail.”
 
 Tarun Amasa, CEO
 
-[Prev](https://claude.com/blog/1m-context-ga)Prev
+![Ramp](https://assets.claude.com/6db782273272dd89f11df7b54089328994fe718e.svg)
 
-0/5
+> “Claude Code can burn 100K+ tokens searching Datadog, Braintrust, databases, and source code. Then compaction kicks in. Details vanish. You're debugging in circles. With 1M context, I search, re-search, aggregate edge cases, and propose fixes — all in one window.”
 
-[Next](https://claude.com/blog/1m-context-ga)Next
+Anton Biryukov, Software Engineer
 
-eBook
+![Obvious](https://assets.claude.com/03a84628482ec01a2162a29491d51e5328863180.svg)
 
-##
+> “Before Opus 4.6's 1M context window, we had to compact context as soon as users loaded large PDFs, datasets, or images — losing fidelity on exactly the work that mattered most. We've seen a 15% decrease in compaction events. Now our agents hold it all and run for hours without forgetting what they read on page one.”
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+Jon Bell, CPO
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+![Cognition](https://assets.claude.com/668e21fde8e649dceecf16e585196cbf01f4f916.svg)
 
-Embedded media:
+> “Opus 4.6 with 1M context window made our Devin Review agent significantly more effective. Large diffs didn't fit in a 200K context window so the agent had to chunk context, leading to more passes and loss of cross-file dependencies. With 1M context, we feed the full diff and get higher-quality reviews out of a simpler, more token-efficient harness.”
+
+Adhyyan Sekhsaria, Founding Engineer
+
+![Eve Legal](https://assets.claude.com/f1efc487a08ab700dd2f0a0d09e717745da3e2d0.svg)
+
+> “Eve defaults to 1M context because plaintiff attorneys' hardest problems demand it. Whether it's cross-referencing a 400-page deposition transcript or surfacing key connections across an entire case file, the expanded context window lets us deliver materially higher-quality answers than before.”
+
+Mauricio Wulfovich, ML Engineer
+
+![PSI PBC](https://assets.claude.com/ef5563027673564aadc866ae7032f38298b93137.svg)
+
+> “Scientific discovery requires reasoning across research literature, mathematical frameworks, databases, and simulation code simultaneously. Claude Opus 4.6’s 1M context and expanded media limits let our agentic systems synthesize hundreds of papers, proofs, and codebases in a single pass, helping us dramatically accelerate fundamental and applied physics research.”
+
+Dr. Alex Wissner-Gross, Co-Founder
+
+![General Counsel](https://assets.claude.com/bb452391c42bbffa172911e7671d9d7c088551f8.png)
+
+> “With Claude's 1M context, an in-house lawyer can bring five turns of a 100-page partnership agreement into one session and finally see the full arc of a negotiation. No more toggling between versions or losing track of what changed three rounds ago.”
+
+Bardia Pourvakil, Co-founder and CTO
+
+![Resolve AI](https://assets.claude.com/8b9254c4648042482204412c545e441fe728c810.svg)
+
+> “Large-scale production systems have endless context, and production incidents can get very complex. With Claude's 1M context window, we are able to keep every entity, signal, and working theory in view from first alert to remediation without having to repeatedly compact or compromise the nuances of these systems.”
+
+Mayank Agarwal, Founder & CTO
+
+![Hex](https://assets.claude.com/9968e969a67c49206d34fe9b4f8ec0a6836fd0e1.svg)
+
+> “We raised our Opus context window from 200k to 500k and the agent runs more efficiently — it actually uses fewer tokens overall. Less overhead, more focus on the goal at hand.”
+
+Izzy Miller, AI Research Lead
+
+![Endex](https://assets.claude.com/f8e632d4750a94b94d2b18e0c0b2aebf222b200c.svg)
+
+> “Real-world spreadsheet tasks require deep research and complex multi-step plans. Claude's 1M context window let’s us maintain task adherence and attention to detail.”
+
+Tarun Amasa, CEO
+
+![Ramp](https://assets.claude.com/6db782273272dd89f11df7b54089328994fe718e.svg)
+
+> “Claude Code can burn 100K+ tokens searching Datadog, Braintrust, databases, and source code. Then compaction kicks in. Details vanish. You're debugging in circles. With 1M context, I search, re-search, aggregate edge cases, and propose fixes — all in one window.”
+
+Anton Biryukov, Software Engineer
+
+![Obvious](https://assets.claude.com/03a84628482ec01a2162a29491d51e5328863180.svg)
+
+> “Before Opus 4.6's 1M context window, we had to compact context as soon as users loaded large PDFs, datasets, or images — losing fidelity on exactly the work that mattered most. We've seen a 15% decrease in compaction events. Now our agents hold it all and run for hours without forgetting what they read on page one.”
+
+Jon Bell, CPO
+
+![Cognition](https://assets.claude.com/668e21fde8e649dceecf16e585196cbf01f4f916.svg)
+
+> “Opus 4.6 with 1M context window made our Devin Review agent significantly more effective. Large diffs didn't fit in a 200K context window so the agent had to chunk context, leading to more passes and loss of cross-file dependencies. With 1M context, we feed the full diff and get higher-quality reviews out of a simpler, more token-efficient harness.”
+
+Adhyyan Sekhsaria, Founding Engineer
+
+1/9
 
 ### **Getting started**
 
@@ -129,80 +131,40 @@ See our [documentation](https://platform.claude.com/docs/en/build-with-claude/co
 
 ‍
 
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/1m-context-ga)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/1m-context-ga)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
-[Claude for Government is now generally available](https://claude.com/blog/1m-context-ga)Claude for Government is now generally available
+### Build plugins for Claude
 
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-Sep 30, 2026
+### Claude Tag now supports personal connectors in channels
 
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Enterprise AI
-
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/1m-context-ga)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/1m-context-ga)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

@@ -1,30 +1,14 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
-
 # Claude Security is now in public beta
 
 Claude Security is now in public beta for Claude Enterprise customers. Scan code for vulnerabilities and generate proposed fixes with Opus 4.7, on the Claude Platform, or through technology and services partners building with Claude.
 
 ‍
 
-- Category
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  [Claude Security](https://claude.com/product/claude-security)
-- Date
-
-  April 30, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/claude-security-public-beta)
-
-  https://claude.com/blog/claude-security-public-beta
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Security
+- DateApril 30, 2026
+- Reading time6 min
+- ShareCopy link
 
 Claude Security is now available in public beta to Claude Enterprise customers.
 
@@ -42,7 +26,7 @@ We are entering a pivotal time for cybersecurity. AI is compressing the timeline
 
 ## **How Claude Security works**
 
-Embedded media: https://www.youtube.com/embed/0SgCiUfoYo8
+Embedded media: https://www.youtube-nocookie.com/embed/0SgCiUfoYo8?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 [Claude Security](https://youtu.be/0SgCiUfoYo8) can be accessed directly from the Claude.ai sidebar, or at [claude.ai/security](http://claude.ai/security). To begin, select one of your repositories (or scope to a specific directory or branch), then start a scan.
 
@@ -64,51 +48,73 @@ With this release, we've also added the ability to target a scan at a particular
 
 Here, organizations who’ve used Claude Security describe their experience:
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5aa585b66f744445eaec7_Doordash_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a43da4a5ba20a23a30861c7_logo_doordash-dark.svg)
+![Column logo](https://assets.claude.com/88207d00a1f7ad8c894ef632af39d9b11d1b655a.png)
 
-“We are adapting our proactive security efforts through our Anthropic partnership. Claude Security helps us accelerate how we generate and secure new code at the scale and speed of DoorDash— it surfaces deep vulnerabilities accurately, and pipes findings right into our workflows so engineers can act on them in context.”
-
-Suha Can, Vice President and Chief Security Officer
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5ada683bb0532fc4582a3_Snowflake_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5adab7a0103ed60805b38_Snowflake_dark.svg)
-
-“Claude Security surfaced novel, high-quality findings during our early testing of the research preview that helped us identify and address potential security issues before they could affect our environment or our customers. We see strong potential as we expand its use.”
-
-Krzysztof Katowicz-Kowalewski, Staff Product Security Engineer
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f37e9aa5aaf2be13e1fc87_column-logo-black.png)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f38ff88ca62b8275c66f36_logo_column-dark-mode.png)
-
-"Claude Security grasps the actual business logic behind our code. Our security team can now go from scan to fixes in a few clicks within our trusted tooling."
+> “Claude Security grasps the actual business logic behind our code. Our security team can now go from scan to fixes in a few clicks within our trusted tooling.”
 
 Greg Janowiak, Information Security Officer
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f3877190da77141c92e1e5_684b70d717a5356f5a6f8793_yuno_wordmark_dark.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f390df66611aa841df95df_logo_yuno-dark-mode%20(1).svg)
+![Yuno](https://assets.claude.com/1be68cb8bfce1230ce4702dbc8a2ca987e93f243.svg)
 
-"The scan quality is why we're working to plug Claude Security directly into our vulnerability management program—so real issues reach engineering faster, with less triage overhead in between."
+> “The scan quality is why we're working to plug Claude Security directly into our vulnerability management program—so real issues reach engineering faster, with less triage overhead in between.”
 
 Chiara La Valle, Head of Security
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68bb5f3a87453ecfe9d53a39_Hebbia-light-theme.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68bb5f3d5a2f38a808068b47_Hebbia-dark-theme.svg)
+![Hebbia](https://assets.claude.com/a51bf0be0d5ebeb3530f010c18452357dde28d83.svg)
 
-"Given the increasing pace of vulnerability discovery, the strongest signal for us is how quickly a finding turns into a PR we can actually merge, not a ticket. We've used patches built with Claude Security to close real vulnerabilities in minutes, not days."
+> “Given the increasing pace of vulnerability discovery, the strongest signal for us is how quickly a finding turns into a PR we can actually merge, not a ticket. We've used patches built with Claude Security to close real vulnerabilities in minutes, not days.”
 
 Matt Aromatorio, Head of Security
 
-[Prev](https://claude.com/blog/claude-security-public-beta)Prev
+![Doordash](https://assets.claude.com/23e9f66a28975a13266abe3f53567c17a5bdb888.svg)
 
-0/5
+> “We are adapting our proactive security efforts through our Anthropic partnership. Claude Security helps us accelerate how we generate and secure new code at the scale and speed of DoorDash— it surfaces deep vulnerabilities accurately, and pipes findings right into our workflows so engineers can act on them in context.”
 
-[Next](https://claude.com/blog/claude-security-public-beta)Next
+Suha Can, Vice President and Chief Security Officer
 
-eBook
+![Snowflake](https://assets.claude.com/5137db8e735ff610a994507050d0a0cea7ce6fd0.svg)
 
-##
+> “Claude Security surfaced novel, high-quality findings during our early testing of the research preview that helped us identify and address potential security issues before they could affect our environment or our customers. We see strong potential as we expand its use.”
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+Krzysztof Katowicz-Kowalewski, Staff Product Security Engineer
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+![Column logo](https://assets.claude.com/88207d00a1f7ad8c894ef632af39d9b11d1b655a.png)
 
-Embedded media:
+> “Claude Security grasps the actual business logic behind our code. Our security team can now go from scan to fixes in a few clicks within our trusted tooling.”
+
+Greg Janowiak, Information Security Officer
+
+![Yuno](https://assets.claude.com/1be68cb8bfce1230ce4702dbc8a2ca987e93f243.svg)
+
+> “The scan quality is why we're working to plug Claude Security directly into our vulnerability management program—so real issues reach engineering faster, with less triage overhead in between.”
+
+Chiara La Valle, Head of Security
+
+![Hebbia](https://assets.claude.com/a51bf0be0d5ebeb3530f010c18452357dde28d83.svg)
+
+> “Given the increasing pace of vulnerability discovery, the strongest signal for us is how quickly a finding turns into a PR we can actually merge, not a ticket. We've used patches built with Claude Security to close real vulnerabilities in minutes, not days.”
+
+Matt Aromatorio, Head of Security
+
+![Doordash](https://assets.claude.com/23e9f66a28975a13266abe3f53567c17a5bdb888.svg)
+
+> “We are adapting our proactive security efforts through our Anthropic partnership. Claude Security helps us accelerate how we generate and secure new code at the scale and speed of DoorDash— it surfaces deep vulnerabilities accurately, and pipes findings right into our workflows so engineers can act on them in context.”
+
+Suha Can, Vice President and Chief Security Officer
+
+![Snowflake](https://assets.claude.com/5137db8e735ff610a994507050d0a0cea7ce6fd0.svg)
+
+> “Claude Security surfaced novel, high-quality findings during our early testing of the research preview that helped us identify and address potential security issues before they could affect our environment or our customers. We see strong potential as we expand its use.”
+
+Krzysztof Katowicz-Kowalewski, Staff Product Security Engineer
+
+![Column logo](https://assets.claude.com/88207d00a1f7ad8c894ef632af39d9b11d1b655a.png)
+
+> “Claude Security grasps the actual business logic behind our code. Our security team can now go from scan to fixes in a few clicks within our trusted tooling.”
+
+Greg Janowiak, Information Security Officer
+
+1/5
 
 We're still in the early days of AI-powered security. As our models improve and as we learn from the teams using Claude Security in production, we'll continue to expand what these tools can do.
 
@@ -122,7 +128,7 @@ Accenture, BCG, Deloitte, Infosys, and PwC are working alongside enterprise secu
 
 Together, this means organizations can adopt these capabilities through whichever path fits how they already operate: directly in Claude Security, embedded in a platform they trust, or with a services team guiding the rollout.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f3a816d134a8a70584f711_Security-Logo-Slide_v3%20(1).png)
+![](https://assets.claude.com/c1b1e2638fb40873dea79f8d6c747d49a8b9262c.png)
 
 ## **Getting started**
 
@@ -132,80 +138,40 @@ Admins can enable Claude Security in the [admin console](http://claude.ai/admin-
 
 ¹Claude Opus 4.7 uses new cyber safeguards that automatically detect and block requests that are suggestive of prohibited or high-risk cybersecurity uses. However, organizations conducting work that may trigger these safeguards can become a part of our [Cyber Verification Program](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude), which is part of our effort to make frontier capabilities available to defenders while keeping them out of the wrong hands.
 
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/claude-security-public-beta)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-security-public-beta)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
 ### Build plugins for Claude
 
-Product announcements
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-[Build plugins for Claude](https://claude.com/blog/claude-security-public-beta)Build plugins for Claude
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
+### Claude Tag now supports personal connectors in channels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-security-public-beta)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/claude-security-public-beta)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

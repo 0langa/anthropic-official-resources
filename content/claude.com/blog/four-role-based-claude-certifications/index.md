@@ -1,30 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d6ec42bcf1c632f75_52f59749d1e033ff2675c6686a07bcce83fb5046-1000x1000.svg)
-
 # Four role-based certifications for the people who put Claude to work for customers
 
-- Category
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude apps, Claude Platform
+- DateJuly 23, 2026
+- Reading time8 min
+- ShareCopy link
 
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  Claude apps
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  July 23, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/four-role-based-claude-certifications)
-
-  https://claude.com/blog/four-role-based-claude-certifications
-
-We're expanding the Claude Certification Program with three new role-based certifications that span the full team a customer needs to deploy AI. Anthropic's goal is to be the leader of AI enablement. In support of this goal, we launched the [Claude Partner Network](https://claude.com/partners) in March alongside a [$100 million investment](https://www.anthropic.com/news/claude-partner-network) and a [Services Track](https://www.anthropic.com/news/services-track-partner-hub) in June to help enterprise buyers find the right firms to put Claude to work inside their business. 
+We're expanding the Claude Certification Program with three new role-based certifications that span the full team a customer needs to deploy AI. Anthropic's goal is to be the leader of AI enablement. In support of this goal, we launched the [Claude Partner Network](https://claude.com/partners) in March alongside a [$100 million investment](https://www.anthropic.com/news/claude-partner-network) and a [Services Track](https://www.anthropic.com/news/services-track-partner-hub) in June to help enterprise buyers find the right firms to put Claude to work inside their business.
 
 Part of helping them find the right firm is ensuring their people are properly certified—and we want Claude certifications to be a benchmark for quality that customers, partners, and the industry recognize as verified expertise, not just a badge. To achieve this, Claude certifications are granted through supervised, identity-verified exams that test the specific skills a role calls for.
 
@@ -34,16 +16,16 @@ Here’s what you need to know about our expanded certification program.
 
 ## The four credentials
 
-Putting Claude to use at a large enterprise involves different roles and specialties, and the certification maps to the four largest ones: 
+Putting Claude to use at a large enterprise involves different roles and specialties, and the certification maps to the four largest ones:
 
 - **(New) Claude Certified Associate: Foundations** validates practical, everyday use of Claude for anyone working on Claude-related projects. This applies to a wide range of roles including consultants, project leads, and both business and technical expertise.
 - **(New) Claude Certified Developer: Foundations** is for engineers building applications with Claude, and includes training on the Claude API, tool use, and agent development.
 - **(New) Claude Certified Architect: Professional** is the advanced credential, covering integration architecture, governance, and evaluation, built for the scale of large enterprises.
 - **Claude Certified Architect: Foundations** is for solution architects who design and build agent systems with Claude.
 
-Every path to getting credentialed starts with a foundation-level certification and advances to the  professional-level. Offerings span non-technical roles through those that build and architect Claude-based solutions, and each certification was designed by subject matter experts so the content reflects the real work that newly certified professionals will do. Completed certifications are recognized with partner badges, which show demonstrated expertise in a specific product area.
+Every path to getting credentialed starts with a foundation-level certification and advances to the professional-level. Offerings span non-technical roles through those that build and architect Claude-based solutions, and each certification was designed by subject matter experts so the content reflects the real work that newly certified professionals will do. Completed certifications are recognized with partner badges, which show demonstrated expertise in a specific product area.
 
-> "The companies that pull ahead over the next twelve months will be the ones with enough skilled people to put Claude to work on their hardest problems. Every major technology shift has been carried by a trained, trusted workforce, and AI is no different. That's what we're building with our partners, and it's why the world's largest firms are certifying their people by the tens of thousands."
+> “"The companies that pull ahead over the next twelve months will be the ones with enough skilled people to put Claude to work on their hardest problems. Every major technology shift has been carried by a trained, trusted workforce, and AI is no different. That's what we're building with our partners, and it's why the world's largest firms are certifying their people by the tens of thousands."”
 
 – Steve Corfield, head of global business development and partnerships.
 
@@ -58,20 +40,20 @@ It isn't only the largest firms: specialist AI-native and boutique consultancies
 Our Claude Certification Program is designed to give enterprises confidence in the partner they are selecting.
 
 - Certification represents validated capability, rather than course attendance. Every exam is proctored and identity-verified, and each was designed by subject matter experts, including Anthropic’s own Applied AI team, to reflect real work that’s done in the field A certification establishes that this individual has demonstrated the skills their role demands.
-- Credentials are matched to role-specific skills. Each credential maps to the four roles that put Claude into production, from everyday practical use, to building with the Claude API, to architecting large-scale enterprise deployments. This is designed so the  buyer knows what a certified person was tested on.
+- Credentials are matched to role-specific skills. Each credential maps to the four roles that put Claude into production, from everyday practical use, to building with the Claude API, to architecting large-scale enterprise deployments. This is designed so the buyer knows what a certified person was tested on.
 - The Claude Partner Network describes a firm’s demonstrated capacity. . Tier standing in the Claude Partner Network combines certified practitioners with deployed customers and public customer references.
 
 ## How the exams work
 
 We work with Pearson, drawing on its global assessment and credentialing infrastructure, to deliver our program. Every exam is proctored, meaning it is taken under supervision, and delivered through Pearson Professional Assessments. Exams are securely administered, and test takers must validate their identity before beginning an exam. Those who pass the exam receive a digital badge through Credly by Pearson.*‍*
 
-> "AI is moving faster than most people's ability to build the skills to use it confidently, and that gap is exactly what verified assessment is built to close. Anthropic has built the first proctored certification among AI labs that uses the same trusted infrastructure for skills, credentials, and verified outcomes that Pearson uses across professional licensure. This is another example that shows why Anthropic is a trusted AI partner for businesses globally."
+> “"AI is moving faster than most people's ability to build the skills to use it confidently, and that gap is exactly what verified assessment is built to close. Anthropic has built the first proctored certification among AI labs that uses the same trusted infrastructure for skills, credentials, and verified outcomes that Pearson uses across professional licensure. This is another example that shows why Anthropic is a trusted AI partner for businesses globally."”
 
 – Vishaal Gupta, President, Enterprise Learning and Skills, Pearson
 
 ‍
 
-Proctoring and identity verification matter because these credentials are used to make decisions. Certified practitioner counts determine a firm's standing in the Claude Partner Network and are relevant when companies vet who will work on their systems.  A credential can only support those decisions if the assessment is rigorous and validates a person’s applied skills.
+Proctoring and identity verification matter because these credentials are used to make decisions. Certified practitioner counts determine a firm's standing in the Claude Partner Network and are relevant when companies vet who will work on their systems. A credential can only support those decisions if the assessment is rigorous and validates a person’s applied skills.
 
 Our certification is gaining momentum inside the consulting and engineering firms implementing Claude for their clients. Certifications also determine how firms advance in the network. The top tier, Global Premier, requires 1,000 certified practitioners, 100 customers across three regions, and 15 public customer endorsements. The next tier review where this criteria will be evaluated across the network is on October 1.
 
@@ -81,98 +63,43 @@ Certification preparation courses for each credential are available in the Anthr
 
 Firms can join the Claude Partner Network and register practitioners at <http://claude.com/partners>. Membership is free.
 
-No items found.
-
-[Prev](https://claude.com/blog/four-role-based-claude-certifications)Prev
-
-0/5
-
-[Next](https://claude.com/blog/four-role-based-claude-certifications)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/four-role-based-claude-certifications)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
+[ArticleSep 30, 2026
 
 ### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
-Enterprise AI
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/four-role-based-claude-certifications)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How to prepare for AI-driven code modernization projects
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-May 21, 2026
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
 
-### Claude now works with more security and compliance tools
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
-Enterprise AI
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/four-role-based-claude-certifications)Claude now works with more security and compliance tools
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
 
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/four-role-based-claude-certifications)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/four-role-based-claude-certifications)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

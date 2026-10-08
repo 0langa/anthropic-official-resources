@@ -1,34 +1,18 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
-
 # Collaborate with Claude across Excel, PowerPoint, Word and Outlook
 
 One conversation that carries context across all four apps
 
-- Category
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  [Claude Enterprise](https://claude.com/solutions/enterprise)
-- Date
-
-  May 7, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook)
-
-  https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Enterprise
+- DateMay 7, 2026
+- Reading time4 min
+- ShareCopy link
 
 Starting today, Claude for Excel, PowerPoint, and Word are generally available, and Claude for Outlook is now in public beta for all paid plans. As Claude moves between tasks in your Microsoft apps, it keeps the full context of your conversation.
 
 ‍
 
-Embedded media: https://www.youtube.com/embed/F6dzjaBCBtU
+Embedded media: https://www.youtube-nocookie.com/embed/F6dzjaBCBtU?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 ## **One conversation across four apps**
 
@@ -56,130 +40,112 @@ Microsoft 365 Copilot customers can also work with Claude AI models directly wit
 
 ## **How organizations use Claude for Microsoft 365**
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69fa2c7e3b559bfaa084ac5e_BCI-logo-light-mode.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69fa2c80dba35f3eb780b917_BCI-logo-dark-mode.svg)
+![Citadel](https://assets.claude.com/6974233e910a5ba470a017719933cbf677a74d0b.svg)
 
-“We can instruct Claude to build a style guide from an executive's prior written communications so our EAs can draft their emails in their voice. That's high-leverage work the team would never have time to set up by hand.”
-
-Ben Letalik, Sr. Director, Digital Transformation & Innovation
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69fa2cf24bd8c16a849d017c_servicenow-dark-mode.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69fa2cf434dfc8599b43d17c_servicenow-light-mode.svg)
-
-“Claude for M365 is being rapidly adopted by ServiceNow. Claude does the work in Excel itself, instead of asking us to move content between tools, driving step change in productivity.”
-
-Rajeev Sethi, GVP Enterprise Technologies
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f9164fe390163f4c6c6fc9_citadel-light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f91652ec3e6676dd8330b8_citadel-dark.svg)
-
-“Our investment professionals live in data and analytical models, and Claude for Excel meets them there. Analysts are using it to build and update coverage models, separate signal from noise, and pressure-test their work — all with a step-change in efficiency.”
+> “Our investment professionals live in data and analytical models, and Claude for Excel meets them there. Analysts are using it to build and update coverage models, separate signal from noise, and pressure-test their work — all with a step-change in efficiency.”
 
 Atte Lahtiranta, Head of Core Engineering
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69fa2be95a402ad3cb9e5ef1_bain-co-logo.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69fa2c0085999666b31fe241_bain-co-logo-dark-mode.svg)
+![Bain & Company](https://assets.claude.com/687ae4df36a08c5cd73be9019650f3358fc4c3b2.svg)
 
-“Claude in Excel allows my teams to build an initial version of complex models faster, enabling them to focus on refining the model, pressure testing inputs and assumption, and exploring more scenarios and trade-offs. This helps us have richer and deeper discussions with our clients earlier.”
+> “Claude in Excel allows my teams to build an initial version of complex models faster, enabling them to focus on refining the model, pressure testing inputs and assumption, and exploring more scenarios and trade-offs. This helps us have richer and deeper discussions with our clients earlier.”
 
 Gene Rapoport, Head of Private Equity AI Practice
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5aa4f49588bd5ac875956_deloitte_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5aa491a800b9e0c37fe24_deloitte_dark.svg)
+![Deloitte](https://assets.claude.com/d799180e9a468d82dc23a32c1ddfe94dcee116d0.svg)
 
-“Claude enables a seamless transition from rough ideas to polished, branded deliverables across presentation, document and spreadsheet applications without disrupting the workflow. That end-to-end consistency has been a significant time-saver, especially when quality, formatting, and speed all matter.”
+> “Claude enables a seamless transition from rough ideas to polished, branded deliverables across presentation, document and spreadsheet applications without disrupting the workflow. That end-to-end consistency has been a significant time-saver, especially when quality, formatting, and speed all matter.”
 
 Vivek Kulkarni, US AI Transformation Leader
 
-[Prev](https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook)Prev
+![British Columbia Investment Management Corp](https://assets.claude.com/f9578c1cf0c050b2131464fceb3ac9bc1cb19062.svg)
 
-0/5
+> “We can instruct Claude to build a style guide from an executive's prior written communications so our EAs can draft their emails in their voice. That's high-leverage work the team would never have time to set up by hand.”
 
-[Next](https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook)Next
+Ben Letalik, Sr. Director, Digital Transformation & Innovation
 
-eBook
+![ServiceNow](https://assets.claude.com/fe0e4049f1a44dacc4b0e11ea7be3c1e5eb6b255.svg)
 
-##
+> “Claude for M365 is being rapidly adopted by ServiceNow. Claude does the work in Excel itself, instead of asking us to move content between tools, driving step change in productivity.”
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+Rajeev Sethi, GVP Enterprise Technologies
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+![Citadel](https://assets.claude.com/6974233e910a5ba470a017719933cbf677a74d0b.svg)
 
-Embedded media:
+> “Our investment professionals live in data and analytical models, and Claude for Excel meets them there. Analysts are using it to build and update coverage models, separate signal from noise, and pressure-test their work — all with a step-change in efficiency.”
+
+Atte Lahtiranta, Head of Core Engineering
+
+![Bain & Company](https://assets.claude.com/687ae4df36a08c5cd73be9019650f3358fc4c3b2.svg)
+
+> “Claude in Excel allows my teams to build an initial version of complex models faster, enabling them to focus on refining the model, pressure testing inputs and assumption, and exploring more scenarios and trade-offs. This helps us have richer and deeper discussions with our clients earlier.”
+
+Gene Rapoport, Head of Private Equity AI Practice
+
+![Deloitte](https://assets.claude.com/d799180e9a468d82dc23a32c1ddfe94dcee116d0.svg)
+
+> “Claude enables a seamless transition from rough ideas to polished, branded deliverables across presentation, document and spreadsheet applications without disrupting the workflow. That end-to-end consistency has been a significant time-saver, especially when quality, formatting, and speed all matter.”
+
+Vivek Kulkarni, US AI Transformation Leader
+
+![British Columbia Investment Management Corp](https://assets.claude.com/f9578c1cf0c050b2131464fceb3ac9bc1cb19062.svg)
+
+> “We can instruct Claude to build a style guide from an executive's prior written communications so our EAs can draft their emails in their voice. That's high-leverage work the team would never have time to set up by hand.”
+
+Ben Letalik, Sr. Director, Digital Transformation & Innovation
+
+![ServiceNow](https://assets.claude.com/fe0e4049f1a44dacc4b0e11ea7be3c1e5eb6b255.svg)
+
+> “Claude for M365 is being rapidly adopted by ServiceNow. Claude does the work in Excel itself, instead of asking us to move content between tools, driving step change in productivity.”
+
+Rajeev Sethi, GVP Enterprise Technologies
+
+![Citadel](https://assets.claude.com/6974233e910a5ba470a017719933cbf677a74d0b.svg)
+
+> “Our investment professionals live in data and analytical models, and Claude for Excel meets them there. Analysts are using it to build and update coverage models, separate signal from noise, and pressure-test their work — all with a step-change in efficiency.”
+
+Atte Lahtiranta, Head of Core Engineering
+
+1/5
 
 ## **Getting started**
 
 All Mac and Windows users on paid plans can access [Claude for Microsoft 365.](https://claude.com/claude-for-microsoft-365) [Claude for Outlook](https://claude.com/claude-for-microsoft-365) is available in beta on all paid plans. Admins can deploy these add-ins from Microsoft AppSource through the Microsoft admin center.
 
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
 ### Build plugins for Claude
 
-Product announcements
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-[Build plugins for Claude](https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook)Build plugins for Claude
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
+### Claude Tag now supports personal connectors in channels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

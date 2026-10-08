@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
 # Building effective human-agent teams
 
 The way we work with AI is evolving from a single-player to a multiplayer experience, where humans and agents work together as a team to achieve shared goals. We share examples of this new way of working in action.
 
-- Category
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Tag](https://claude.com/product/tag)
-- Date
-
-  June 24, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/building-effective-human-agent-teams)
-
-  https://claude.com/blog/building-effective-human-agent-teams
+- Category[Perspectives](https://claude.com/resources/perspectives)
+- ProductClaude Tag
+- DateJune 24, 2026
+- Reading time16 min
+- ShareCopy link
 
 Working with AI used to mean one person interfacing with a single chat window. Over time, AI has become increasingly capable at handling complex, long-running work, like coding, research, and financial analysis. With this, we’ve seen many new ways to use AI—from the terminal and IDE to spreadsheets and decks—but the work has still very much been a “single-player” experience: one human worked with one agent to accomplish individual tasks.
 
@@ -30,7 +14,7 @@ This is changing with the release of tools like [Claude Tag](https://www.anthrop
 
 This involves some new ways of working. At Anthropic, we’ve been testing the technology required to make human-agent teams successful for the last several months. In this article, we explain what multiplayer agents are, and the lessons we’ve learned for building with them.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3c1e1e24f66edde9ee63db_Claude-Tag-v2%402x.png)
+![](https://assets.claude.com/4fd99c4ea3dd3549e849472c006c1e0b715b65c2.png)
 
 ## **What are multiplayer agents?**
 
@@ -38,13 +22,13 @@ This involves some new ways of working. At Anthropic, we’ve been testing the t
 
 Here’s an example of a human-agent team analyzing a dataset together in Slack:
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa0220e39cd96fb665ccaa7_human-agent1-orange.png)
+![](https://assets.claude.com/a304399325b106186614bff98451ae08496ceb40.png)
 
 For agents to productively participate in a team channel, they need specific capabilities:
 
 - [**Persistent memory,**](https://platform.claude.com/docs/en/managed-agents/memory) so they can remember goals and tune their execution towards them
-- [**Credentials not tied to humans**](https://www.anthropic.com/engineering/managed-agents)**,** so they can operate within safe, predictable guardrails
-- [**Ongoing broad access to information**](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)**,** so they can learn how the organization works and take action to execute tasks in service of the team’s goals
+- **[Credentials not tied to humans](https://www.anthropic.com/engineering/managed-agents),** so they can operate within safe, predictable guardrails
+- **[Ongoing broad access to information](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents),** so they can learn how the organization works and take action to execute tasks in service of the team’s goals
 
 These capabilities amount to the technical foundation required for an agent to participate productively across a team of many humans. However, making human-agent teams *successful* requires more than this: teams need specific ways of working and shared norms, too.
 
@@ -73,7 +57,7 @@ Human-agent teams share one roster, one set of artifacts, and one working space.
 
 When a project kicks off, humans chat with the agents to figure out which roles to assign, and how the humans and agents will work together.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa0222b1e928c31755ba830_human-agent2-orange.png)
+![](https://assets.claude.com/6275a8f0acdc059740a27a70a82a9d396aff50dd.png)
 
 Once the jobs for humans and agents are clear, an agent might spin up other agents to make sure that specific tasks are handled by the agents with the right memory and appropriate access. Importantly, they need access to all the tools required to accomplish the job: one that handles data analysis might need access to BigQuery, and one that performs QA might need access to the Playwright MCP.
 
@@ -86,9 +70,9 @@ At Anthropic, having clearly defined roles on human-agent teams looks like:
 - Humans and agents that have access to the right tools to accomplish their respective jobs
 - Descriptions of agents’ roles and scopes
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3be9ee0c7dd123eea0fd08_e35d445f.png)
+![](https://assets.claude.com/0ce7798881ebd83c002392c403bc9ddc85f48faa.png)
 
-*Claude agents share the day-to-day maintenance of a codebase, triaging feedback, planning, writing code, reviewing changes, and reporting status. Each owns a clear task and works on its own schedule; people set the goals and review output.*
+Claude agents share the day-to-day maintenance of a codebase, triaging feedback, planning, writing code, reviewing changes, and reporting status. Each owns a clear task and works on its own schedule; people set the goals and review output.
 
 An engineering team at Anthropic started creating rosters to help codify human and agent roles because it made driving their work much easier and more concrete. Some things that clicked for them early on:
 
@@ -133,7 +117,7 @@ At Anthropic, building trust with agents over time looks like:
 
 One engineering leader at Anthropic took on a new team with a big backlog. To get a handle on it, he invited a few humans and a few agents to help him sort through the backlog and prioritize what was most important. One set of agents on the team read through all of the items in the backlog, figured out if anyone was working on the items, and assigned a complexity score to anything that was unowned. The other set read from the list, filtered to the medium and low complexity items, and created code changes. At the beginning, humans reviewed every decision made by an agent and marked any that required human input. Then the humans taught the agents to surface those decisions to humans directly, ensuring that decisions with hard tradeoffs always had a human in the loop.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3be9ee0c7dd123eea0fd03_9eb4409f.png)
+![](https://assets.claude.com/e6de90c72d2c7baaa1f732580c2d8d950e83bf48.png)
 
 Every week, the leader and his team asked the agents to compile a weekly report that included “lessons & missteps” so the agents would keep track of mistakes and avoid making them again in the future. Over time, the leader was able to give more and more complex code changes to his agents and spend less time guiding the agents’ day to day tasks.
 
@@ -161,100 +145,45 @@ The teams getting the most from their agents are the ones who are most intention
 
 This article was written by Kristen Swanson, a member of the Education team at Anthropic. She’d like to thank Matt Bell, Erik Olesund, Hasnain Lakhani, Shale Craig, Nolan Caudill, Mike Schiraldi, Aleks Todorova, and Molly Vorwerck for their contributions to this piece.
 
-*Start building multiplayer agents using* [*agent teams*](https://code.claude.com/docs/en/agent-teams) *in Claude Code or by using* [*Claude Tag*](https://support.claude.com/en/articles/15594475-what-is-claude-tag)*.*
+*Start building multiplayer agents using [agent teams](https://code.claude.com/docs/en/agent-teams) in Claude Code or by using [Claude Tag](https://support.claude.com/en/articles/15594475-what-is-claude-tag).*
 
-No items found.
-
-[Prev](https://claude.com/blog/building-effective-human-agent-teams)Prev
-
-0/5
-
-[Next](https://claude.com/blog/building-effective-human-agent-teams)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/building-effective-human-agent-teams)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
+[ArticleSep 30, 2026
 
 ### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
-Enterprise AI
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/building-effective-human-agent-teams)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How to prepare for AI-driven code modernization projects
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-May 21, 2026
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
 
-### Claude now works with more security and compliance tools
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
-Enterprise AI
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/building-effective-human-agent-teams)Claude now works with more security and compliance tools
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
 
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/building-effective-human-agent-teams)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/building-effective-human-agent-teams)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

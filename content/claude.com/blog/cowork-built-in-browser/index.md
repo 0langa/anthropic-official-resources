@@ -1,34 +1,16 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg)
-
 # Claude gets its own browser in Cowork
 
 Claude opens its own browser to navigate sites, read pages, and fill forms, inside the desktop app.
 
-- Category
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  [Claude Cowork](https://claude.com/product/cowork)
-
-  Claude apps
-- Date
-
-  August 26, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/cowork-built-in-browser)
-
-  https://claude.com/blog/cowork-built-in-browser
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Cowork, Claude apps
+- DateAugust 26, 2026
+- Reading time4 min
+- ShareCopy link
 
 Claude now has a browser built into Claude Cowork on the desktop app. When a task needs to use a website, a browser opens in the side panel and Claude navigates webpages, reads them, clicks, and types. You can now hand off the web part of the task and stay where you are: Claude can fill in a form, pull numbers from a dashboard, or work through a portal that has no connector. No extension, no setup, and nothing shared from your own browser unless you choose to.
 
-Embedded media: https://www.youtube.com/embed/63GVebZvqok
+Embedded media: https://www.youtube-nocookie.com/embed/63GVebZvqok?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 Until now, giving Claude the ability to use the web in Cowork meant giving it access to your browser through the [Claude in Chrome](http://claude.com/claude-in-chrome) extension. When the work is on a page you already have open, that's still the right choice. But a lot of web tasks don't need *your* browser, just *a* browser, and now Claude has one.
 
@@ -44,7 +26,7 @@ If you already use Claude in Chrome, it keeps working and stays your default; ot
 
 ## Staying in control
 
-The built-in browser carries the same [prompt injection](https://www.anthropic.com/research/prompt-injection-defenses) risks as any AI agent that acts in a browser, where instructions hidden in a page try to redirect Claude. It runs the same safeguards as Claude in Chrome, including the checks that review Claude's actions against what you asked for. We describe them on the [Claude in Chrome blog post](http://claude.com/blog/%20claude-in-chrome-generally-available). Those measures meaningfully reduce the risk but can't eliminate it, so we recommend starting on sites you trust. Read our [safety guide](https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely) for more.
+The built-in browser carries the same [prompt injection](https://www.anthropic.com/research/prompt-injection-defenses) risks as any AI agent that acts in a browser, where instructions hidden in a page try to redirect Claude. It runs the same safeguards as Claude in Chrome, including the checks that review Claude's actions against what you asked for. We describe them on the [Claude in Chrome blog post](https://claude.com/resources/articles/claude-in-chrome-generally-available). Those measures meaningfully reduce the risk but can't eliminate it, so we recommend starting on sites you trust. Read our [safety guide](https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely) for more.
 
 ## Getting started
 
@@ -52,98 +34,40 @@ The built-in browser is rolling out over the coming week to Pro, Max, and Team p
 
 The built-in browser lives in the desktop app. From the web or your phone, Claude can still drive it as long as your desktop app is open and online. On the web without the desktop app, Claude in Chrome remains the way to give Claude a browser.
 
-No items found.
-
-[Prev](https://claude.com/blog/cowork-built-in-browser)Prev
-
-0/5
-
-[Next](https://claude.com/blog/cowork-built-in-browser)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/cowork-built-in-browser)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/cowork-built-in-browser)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
 ### Build plugins for Claude
 
-Product announcements
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-[Build plugins for Claude](https://claude.com/blog/cowork-built-in-browser)Build plugins for Claude
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
+### Claude Tag now supports personal connectors in channels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/cowork-built-in-browser)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/cowork-built-in-browser)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

@@ -1,26 +1,10 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
-
 # Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  June 18, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more)
-
-  https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code
+- DateJune 18, 2026
+- Reading time5 min
+- ShareCopy link
 
 Claude is built to work the way you work, and in Claude Code you can customize it.
 
@@ -34,81 +18,13 @@ Each method controls:
 
 The table below provides a quick summary of key differences across each method while the post provides additional detail and decision framework for determining where each of your Claude instructions belongs.
 
-<table>
-<thead>
-<tr>
-<th>Method</th>
-<th>When it's loaded</th>
-<th>Compaction behavior</th>
-<th>Context cost</th>
-<th>When to use</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>CLAUDE.md (root)</td>
-<td>Session start; stays in context for the entire session</td>
-<td>Memoized. Read once and cached for the session; cache cleared and re-read after compaction</td>
-<td>High. Every line costs tokens whether relevant or not</td>
-<td>Build commands, directory layout, monorepo structure, coding conventions, team norms</td>
-</tr>
-<tr>
-<td>CLAUDE.md (subdirectory)</td>
-<td>On-demand, when Claude reads a file under that subdirectory</td>
-<td>Lost until that subdirectory is touched again</td>
-<td>Low. Only consumes context when the relevant subdirectory is being worked on</td>
-<td>Conventions specific to a subdirectory</td>
-</tr>
-<tr>
-<td>Rules</td>
-<td>Session start (user-level rules) or only when matching files are touched (path-scoped)</td>
-<td>Re-injected on compaction</td>
-<td>Medium. Always-on unless path-scoped</td>
-<td>Specific constraints or conventions (e.g., all API handlers must validate input with Zod)</td>
-</tr>
-<tr>
-<td>Skills</td>
-<td>Name and description at session start; full body loads when the skill is invoked</td>
-<td>Invoked skills re-injected up to a shared budget; oldest dropped first</td>
-<td>Low. Full body loads only when invoked; subject to a shared token budget across invoked skills</td>
-<td>Procedural workflows (deploy or release checklists)</td>
-</tr>
-<tr>
-<td>Subagents</td>
-<td>Name, description, and tool list at session start; body loads only when called via the Agent tool</td>
-<td>Only the final message (summary plus metadata) returns to the main session</td>
-<td>Low. Zero cost in main context until called; runs in its own isolated context window</td>
-<td>Running work in parallel or side tasks that should run in isolation and return only a summary (deep search, log analysis, dependency audit)</td>
-</tr>
-<tr>
-<td>Hooks</td>
-<td>Fire on lifecycle events</td>
-<td>Bypass compaction entirely</td>
-<td>Low. Configuration lives outside main context; some output may return (e.g., blocking errors)</td>
-<td>Deterministic automation: run linters, post to Slack on completion, block commands, back up chat history on PreCompact</td>
-</tr>
-<tr>
-<td>Output styles</td>
-<td>Session start; injected into the system prompt</td>
-<td>Never compacted</td>
-<td>High. Occupies context window, but overwrites default system prompt</td>
-<td>Significant role changes (code assistant to general assistant)</td>
-</tr>
-<tr>
-<td>Appending the system prompt</td>
-<td>Session start; passed as a CLI flag</td>
-<td>Never compacted; applies only to that invocation</td>
-<td>Moderate. Cached after first request in a session</td>
-<td>Tone, response length, formatting preferences</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Method</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">When it's loaded</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Compaction behavior</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Context cost</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">When to use</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">CLAUDE.md (root)</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Session start; stays in context for the entire session</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Memoized. Read once and cached for the session; cache cleared and re-read after compaction</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">High. Every line costs tokens whether relevant or not</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Build commands, directory layout, monorepo structure, coding conventions, team norms</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">CLAUDE.md (subdirectory)</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">On-demand, when Claude reads a file under that subdirectory</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Lost until that subdirectory is touched again</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Low. Only consumes context when the relevant subdirectory is being worked on</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Conventions specific to a subdirectory</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Rules</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Session start (user-level rules) or only when matching files are touched (path-scoped)</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Re-injected on compaction</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Medium. Always-on unless path-scoped</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Specific constraints or conventions (e.g., all API handlers must validate input with Zod)</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Skills</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Name and description at session start; full body loads when the skill is invoked</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Invoked skills re-injected up to a shared budget; oldest dropped first</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Low. Full body loads only when invoked; subject to a shared token budget across invoked skills</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Procedural workflows (deploy or release checklists)</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Subagents</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Name, description, and tool list at session start; body loads only when called via the Agent tool</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Only the final message (summary plus metadata) returns to the main session</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Low. Zero cost in main context until called; runs in its own isolated context window</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Running work in parallel or side tasks that should run in isolation and return only a summary (deep search, log analysis, dependency audit)</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Hooks</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Fire on lifecycle events</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Bypass compaction entirely</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Low. Configuration lives outside main context; some output may return (e.g., blocking errors)</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Deterministic automation: run linters, post to Slack on completion, block commands, back up chat history on PreCompact</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Output styles</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Session start; injected into the system prompt</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Never compacted</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">High. Occupies context window, but overwrites default system prompt</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Significant role changes (code assistant to general assistant)</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Appending the system prompt</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Session start; passed as a CLI flag</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Never compacted; applies only to that invocation</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Moderate. Cached after first request in a session</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Tone, response length, formatting preferences</span></td></tr></tbody></table>
 
 ## The seven methods for delivering instructions
 
 There are seven ways to customize Claude Code's behavior: CLAUDE.md files for always-on project context, rules for hard constraints, skills for reusable procedures, subagents for delegated work, hooks for deterministic automation, and output styles or system-prompt appends for global changes.
 
-Each method trades context cost against authority. These methods influence Claude's behavior while two separate dials, [which model and effort level you choose](https://claude.com/blog/claude-model-and-effort-level-in-claude-code), control how capable it is and how hard it works.
+Each method trades context cost against authority. These methods influence Claude's behavior while two separate dials, [which model and effort level you choose](https://claude.com/resources/articles/claude-model-and-effort-level-in-claude-code), control how capable it is and how hard it works.
 
 ### CLAUDE.md files
 
@@ -121,7 +37,7 @@ There are two types, and they load differently:
 - **Always loaded**: The first type is a root CLAUDE.md file, either in a shared repository and/or saved locally for your personal preferences specific to a project. All these files load at session start, and won’t get lost or degraded across long sessions. When Claude Code compacts the conversation, it re-reads these files.
 - **On-demand:** CLAUDE.md files in subdirectories below the folder where you initialized the session. For example, `app/api/CLAUDE.md` loads when Claude reads a file under `app/api`, not at session start. It shares the compaction behavior of path-scoped rules: gone until that subdirectory is touched again.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a340f852d1f938ab8675599_65a737a9.png)
+![](https://assets.claude.com/4c7332ac6ff372a6a4ca25f246f8955d31fe969c.png)
 
 All subdirectory CLAUDE.md files below the cwd load when Claude reads a file within that directory.
 
@@ -129,7 +45,7 @@ In a shared repository, CLAUDE.md grows the way any unowned config file does: ev
 
 Every line loads into every session for every engineer working in the repo, whether it's relevant to their task or not. This consumes tokens and dilutes adherence to the instructions that actually matter. As the file grows, push team-specific conventions into path-scoped rules and procedures into skills, where they load only when relevant.
 
-**Tip:** Keep CLAUDE.md under 200 lines, give it an owner, and review changes to it like code. The content itself should follow the same rules as any prompt: [writing effective prompts](https://claude.com/blog/best-practices-for-prompt-engineering) means being explicit, explaining the why behind constraints, and showing examples.
+**Tip:** Keep CLAUDE.md under 200 lines, give it an owner, and review changes to it like code. The content itself should follow the same rules as any prompt: [writing effective prompts](https://claude.com/resources/articles/best-practices-for-prompt-engineering) means being explicit, explaining the why behind constraints, and showing examples.
 
 Think of this file as giving Claude an overview of your codebase, or as an index pointing to other files where Claude can find more information as needed.
 
@@ -137,45 +53,7 @@ In monorepos, give each team's directory its own subdirectory CLAUDE.md so teams
 
 For standards that must apply to every repository in the organization — security policies, compliance requirements — a centrally managed CLAUDE.md can be deployed to developer machines via MDM or config management, and it can't be excluded by individual settings.
 
-More on setting up CLAUDE.md in our blog post, [CLAUDE.md files: Customizing Claude Code for your codebase](https://claude.com/blog/using-claude-md-files).
-
-No items found.
-
-[Prev](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more)Prev
-
-0/5
-
-[Next](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more)Next
-
-Get Claude Code
-
-curl -fsSL https://claude.ai/install.sh | bash
-
-Copy command to clipboard
-
-irm https://claude.ai/install.ps1 | iex
-
-Copy command to clipboard
-
-Or read the [documentation](https://code.claude.com/docs/en/overview)
-
-Try Claude Code
-
-[Try Claude Code](https://claude.ai/code)Try Claude Code
-
-Developer docs
-
-[Developer docs](https://code.claude.com/docs/en/overview)Developer docs
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
+More on setting up CLAUDE.md in our blog post, [CLAUDE.md files: Customizing Claude Code for your codebase](https://claude.com/resources/articles/using-claude-md-files).
 
 ### Rules
 
@@ -188,6 +66,8 @@ Path-scoped rules allow you to load rule instructions only when they are relevan
 For example: a rule scoped to `src/api/**` stays out of context during a docs-only session. It would only be loaded whenever Claude reads files within that `src/api/` directory.
 
 Here’s what that looks like:
+
+Copy
 
 ```
 ---
@@ -206,7 +86,7 @@ All API handlers must validate input with Zod before processing.
 
 Only the name and description load at session start; the full body loads when Claude invokes the skill, either through a slash command (/code-review) or by auto-matching the task.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a340f852d1f938ab867559f_2199ed03.png)
+![](https://assets.claude.com/ffb7c74180690c749a08a9cae85f18887d5337f7.png)
 
 Skills are triggered via your system prompt.
 
@@ -216,7 +96,7 @@ On compaction, Claude Code re-injects invoked skills up to a total budget across
 
 **Tip:** Instructions that are procedural, like deploy workflows, release checklists, or review processes, belong in a skill rather than in CLAUDE.md.
 
-Claude Code ships with skills, but you can also write your own custom skills. Our [complete guide to building skills for Claude](https://claude.com/blog/complete-guide-to-building-skills-for-claude) shows you how.
+Claude Code ships with skills, but you can also write your own custom skills. Our [complete guide to building skills for Claude](https://claude.com/resources/articles/complete-guide-to-building-skills-for-claude) shows you how.
 
 ### Subagents
 
@@ -224,9 +104,9 @@ Claude Code ships with skills, but you can also write your own custom skills. Ou
 
 Subagents are similar to skills in that the name, description, and tool list load at session start, but the larger context within the body of the agent doesn’t auto-invoke. Claude calls them via the Agent tool, passing in a prompt string.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a340f852d1f938ab86755a2_914c1942.png)
+![](https://assets.claude.com/c19b59ac61250acd95cfff8826c68bcbe350307b.png)
 
-Claude Code’s context window holds everything Claude knows about your session. The [interactive timeline here](https://code.claude.com/docs/en/context-window) walks through what loads and when.
+Claude Code’s context window holds everything Claude knows about your session. The interactive timeline here walks through what loads and when.
 
 Not only does the larger instructional context within the body of the subagent not auto-invoke, it never enters the parent conversation at all.
 
@@ -240,7 +120,7 @@ This pattern scales: subagents can nest up to five levels deep, and [dynamic wor
 
 [**Hooks**](https://code.claude.com/docs/en/hooks-guide) are user-defined commands, HTTP endpoints, or LLM prompts that provide more deterministic control over Claude’s behavior by firing on [specific events in Claude’s lifecycle](https://code.claude.com/docs/en/hooks) like file edits, tool calls, or session start.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a340f852d1f938ab867559c_e782277c.png)
+![](https://assets.claude.com/21437b9f981919b40841e186f3bf6f799bd390c2.png)
 
 A map of events in a Claude Code session when a hook can fire.
 
@@ -254,11 +134,11 @@ Some hooks may have the output saved to the main context window. For example, a 
 
 But most hooks won’t have the output saved to the main window unless the configuration explicitly returns it. If you backed up your chat history into another file for later reference before compaction using the `PreCompact` event, Claude wouldn’t know which file had the chat history saved.
 
-This makes these hook types fundamentally different from CLAUDE.md, rules, and skills. You can learn more in our post[**how to configure hooks**](https://claude.com/blog/how-to-configure-hooks).
+This makes these hook types fundamentally different from CLAUDE.md, rules, and skills. You can learn more in our post [**how to configure hooks**](https://claude.com/resources/articles/how-to-configure-hooks).
 
 **Tip:** Use hooks for anything that should happen deterministically: running linters after edits, posting to Slack on completion, or blocking specific commands before they execute. A `PreToolUse` hook can inspect any tool call and exit code 2 to deny it.
 
-They have low context cost because they are code that the harness runs rather than instructions to Claude that get loaded into context. Skills and hooks are also the building blocks of [designing agent loops](https://claude.com/blog/getting-started-with-loops)—repeating workflows that run until a stop condition is met.
+They have low context cost because they are code that the harness runs rather than instructions to Claude that get loaded into context. Skills and hooks are also the building blocks of [designing agent loops](https://claude.com/resources/articles/getting-started-with-loops)—repeating workflows that run until a stop condition is met.
 
 ### Output styles
 
@@ -295,7 +175,7 @@ If you find yourself doing one of the following, you may want to consider an alt
 
 **"Every time X, always do Y" in CLAUDE.md.** If the behavior should happen reliably, like running prettier after every edit or posting to Slack on completion, use a hook in `settings.json` instead. The model choosing to run a formatter is different from the formatter running automatically.
 
-**“Never do this” in CLAUDE.md**. When there's something that absolutely must not happen, an instruction is the wrong tool. Claude will follow the instruction most of the time, but when under pressure, in a long session or an ambiguous situation, or due to a prompt injection in a file accessed as part of the task, the model can fail to follow a prompted rule. A real guardrail needs to be deterministic, and the enforcement methods are [hooks](https://code.claude.com/docs/en/hooks) and [permissions](https://code.claude.com/docs/en/permissions). A `PreToolUse` hook can inspect a call and exit with code 2 to block it. [**Managed settings**](https://code.claude.com/docs/en/settings)go further: they are admin-deployed, cannot be overridden by a user's local config, and are the only way to enforce a deterministic, organization-wide guardrail.
+**“Never do this” in CLAUDE.md**. When there's something that absolutely must not happen, an instruction is the wrong tool. Claude will follow the instruction most of the time, but when under pressure, in a long session or an ambiguous situation, or due to a prompt injection in a file accessed as part of the task, the model can fail to follow a prompted rule. A real guardrail needs to be deterministic, and the enforcement methods are [hooks](https://code.claude.com/docs/en/hooks) and [permissions](https://code.claude.com/docs/en/permissions). A `PreToolUse` hook can inspect a call and exit with code 2 to block it. [**Managed settings**](https://code.claude.com/docs/en/settings) go further: they are admin-deployed, cannot be overridden by a user's local config, and are the only way to enforce a deterministic, organization-wide guardrail.
 
 **A 30-line procedure in CLAUDE.md.** Procedures belong in skills. CLAUDE.md is for facts Claude should hold all the time: build commands, monorepo layout, team conventions. A deployment runbook or a security review checklist should live in `.claude/skills/`, where the body loads only when invoked.
 
@@ -311,80 +191,42 @@ Once you have a few of these working, you can bundle many of them (skills, subag
 
 *This article was written by Michael Segner member of Anthropic staff.*
 
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
-
-Sep 24, 2026
+[ArticleSep 24, 2026
 
 ### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-Claude Code
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-Sep 23, 2026
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-### How to prepare for AI-driven code modernization projects
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-Enterprise AI
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more) How to prepare for AI-driven code modernization projects
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
+### The Claude Code guide for startups
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

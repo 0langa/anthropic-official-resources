@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
-
 # Auto mode is now the default in Claude Code for Pro, Max, and Team plans
 
 Claude Code will soon run auto mode by default for Pro, Max, and Team plans, enabling longer-running autonomous work, and catching more dangerous commands than manual review in our testing.
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  August 7, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/auto-mode-default-in-claude-code)
-
-  https://claude.com/blog/auto-mode-default-in-claude-code
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Code
+- DateAugust 7, 2026
+- Reading time16 min
+- ShareCopy link
 
 We're making [auto mode](https://code.claude.com/docs/en/auto-mode-config) the default in Claude Code. Starting on August 14, new sessions on Pro, Max, and Team plans will run in auto mode. If you've already set a different default yourself, you may get a one-time prompt asking whether you want to switch to auto mode. If you have a pinned default, nothing changes for you. The auto mode classifier uses a small number of extra tokens per tool call, and we're no longer charging Claude Code users on Pro, Max, and Team plans for that classifier overhead, effective today.
 
@@ -32,7 +16,7 @@ Auto mode is designed to balance users’ desire not to be interrupted with a sy
 
 We spent the last several months testing whether auto mode is as safe or safer than an average user clicking through prompts. We ran internal red-teaming, third-party red-teaming and prompt-injection evaluations, a controlled study with 1,053 paid testers, and analysis of real production sessions. On every measure we tested, auto mode matched or outperformed manual review.
 
-Auto mode also lets Claude work autonomously for longer stretches. This makes models built for long-running work, like Claude Opus 5, more practical to leave running for hours on large tasks. Reducing overhead for users also increases output. Among Teams & Enterprise adopters, auto mode users ship about 25% more PRs. Unblocking Claude allows tasks to run longer uninterrupted and get more work done. Teams at Adobe, Nuro, Gusto, and Garner Health already [run auto mode](https://claude.com/blog/auto-mode-in-production) as their production default.
+Auto mode also lets Claude work autonomously for longer stretches. This makes models built for long-running work, like Claude Opus 5, more practical to leave running for hours on large tasks. Reducing overhead for users also increases output. Among Teams & Enterprise adopters, auto mode users ship about 25% more PRs. Unblocking Claude allows tasks to run longer uninterrupted and get more work done. Teams at Adobe, Nuro, Gusto, and Garner Health already [run auto mode](https://claude.com/resources/articles/auto-mode-in-production) as their production default.
 
 Below, we share the safety data and customer results motivating the change, and how to set a different default if you prefer.
 
@@ -50,9 +34,9 @@ Research conducted internally and through several third parties suggests that au
 
 ### Auto mode outperforms manual permissions on safety
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7551c77738b3678fdde0ce_image4.png)
+![](https://assets.claude.com/7c1503f89bf6b3f747b8e251af999cdf254c3b7a.png)
 
-*In a controlled experiment with 1,053 paid professional testers, human review caught just 13.6% of dangerous commands, while auto mode caught 89%.*
+In a controlled experiment with 1,053 paid professional testers, human review caught just 13.6% of dangerous commands, while auto mode caught 89%.
 
 We hired 1,053 paid testers through a research vendor for a coding study. These participants worked in a test environment set up specifically for the study, not in their own codebases or on real projects. Participants knew they were being evaluated, but—following standard blind-study design—weren't told which behavior was being measured. Partway through each session, a single permission prompt was swapped for a clearly dangerous command, and the vendor recorded whether the tester approved it (Note: approving the prompt never resulted in anything dangerous being run; only the text of the prompt testers saw was changed).
 
@@ -78,9 +62,9 @@ These attacks are synthetic and adversarial by design, built to find where the c
 
 ### Auto mode reduces prompt injection risk
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a75fafde538ce42b19d5742_image3.png)
+![](https://assets.claude.com/33d72ad3ddac7f76f35b91dad9fd6dd5ae38c4f1.png)
 
-*With auto mode enabled, no attack in an independent evaluation was successful against any of our models. GPT-5.6 Sol running in Codex v0.144.5 Auto-review permission mode had a 5.83% attack success rate. GPT-5.6 Sol was run on “max” reasoning effort to test performance with its highest level of reasoning, and all Claude models were run on high effort.*
+With auto mode enabled, no attack in an independent evaluation was successful against any of our models. GPT-5.6 Sol running in Codex v0.144.5 Auto-review permission mode had a 5.83% attack success rate. GPT-5.6 Sol was run on “max” reasoning effort to test performance with its highest level of reasoning, and all Claude models were run on high effort.
 
 The auto mode classifier adds an additional layer of defense against [prompt injection attacks](https://www.anthropic.com/research/prompt-injection-defenses) that try to force the agent to deviate from the user’s instructions. When running with auto mode, tool results are scanned by probes for potentially malicious instructions, and auto mode checks that actions are aligned with user intent. We tested auto mode compared to an unguarded model to illustrate the power of this defense-in-depth approach.
 
@@ -90,11 +74,9 @@ Both Codex and Claude Code were evaluated using an identical browser integration
 
 **In this evaluation, none of the 720 attack attempts succeeded against Claude Fable 5, Opus 5, or Sonnet 5 running auto mode.** On the other hand, 5.83% of the attacks succeeded against GPT-5.6 Sol running Codex's *Auto-review* mode. Notably, this is greater than the 0.09% average attack success rate against our latest models running in *bypassPermissions* mode without additional safeguards. The tests showed a 19.03% attack success rate against GPT-5.6 Sol when running in *Full Access* mode. Attack success rates differ between tasks where tools return results as text and tasks that require interacting with a browser through screenshots, as shown below.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a75fac544d570b06de2e9b1_image2.png)
+![](https://assets.claude.com/df30eddadb95ec1328900f655e9178b0e25a248f.png)![](https://assets.claude.com/888bf40884ed18b3d375f9731635db408becb275.png)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a75fa7ca0de08fd1e052f2b_image1.png)
-
-*Auto mode protects against prompt injections both in tool calling and browser GUI use. OpenAI models showed higher attack success rates on browser tasks in a third-party evaluation.*
+Auto mode protects against prompt injections both in tool calling and browser GUI use. OpenAI models showed higher attack success rates on browser tasks in a third-party evaluation.
 
 ### Three incidents auto mode prevented inside Anthropic
 
@@ -124,47 +106,69 @@ Teams are already running auto mode as their production default:
 - **Gusto** adopted auto mode to end the permission fatigue that was pushing engineers toward bypassing permissions checks entirely. About 10% of sessions since mid-May include a classifier denial—evidence it's doing real work without slowing legitimate tasks.
 - **Garner Health** pushed auto mode as the default to all 550 employees via managed settings, standardizing a company-wide software development lifecycle (SDLC) that no longer depends on hand-curated command allowlists.
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a32f3c077a6f746c3b8bd0a_adobe-logo_color.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a32f3c3f6940852aa73fd76_adobe-logo_white.svg)
+![Nuro light](https://assets.claude.com/4dd2623e4f065a7faf0a9f9e6d69087b0277f6dd.jpg)
 
-“At Adobe, we want to move fast without compromising the quality of the customer experience we deliver on Adobe.com. With Claude Code auto mode, we built an agentic loop that rapidly accelerated our work. Claude builds the user interface and then loops back to verify that it matches the intended design, automatically fixing any issues before we ever look at it. This shortened our development cycle while delivering pixel-perfect results.”
-
-Tomislav Reil, Director of Engineering
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a755a7244eeafd4d2397b26_nuro_logo_dark.jpg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a760c9ae523c464b928e40c_nuro_logo_light.png)
-
-"The other day, I kicked off an agent at 10 p.m. and it kept running until 5 a.m.—and it gave me three PRs in the morning. I think it's pretty impressive. Only auto mode enables this kind of workload."
+> “The other day, I kicked off an agent at 10 p.m. and it kept running until 5 a.m.—and it gave me three PRs in the morning. I think it's pretty impressive. Only auto mode enables this kind of workload.”
 
 Kai Zhou, Staff Software Engineer
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3c4cc3cd8e7abe79f4dbd8_gusto_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3c4cc5db57efe3dec310ae_gusto_dark.svg)
+![Gusto](https://assets.claude.com/8a33e695a4b145386eca05940de86cb5782b22c3.svg)
 
-"Auto mode gave us a safer balance between speed and control. We were able to remove the repeated prompts and increase productivity without compromising safety. We can see that auto mode blocks at the right time, which gives us the confidence to move quickly."
+> “Auto mode gave us a safer balance between speed and control. We were able to remove the repeated prompts and increase productivity without compromising safety. We can see that auto mode blocks at the right time, which gives us the confidence to move quickly.”
 
 Martin Emde, Software Engineer
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7a6068915dd86f3207650e_G_Garner.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7a6075c79d79e9c401652c_G_White.svg)
+![Garner Health](https://assets.claude.com/9b312d56f22e14b18c14e0381666f73b17aeb5fe.svg)
 
-"We built a standardized SDLC for the entire engineering org that's only possible because of auto mode. Employees view it as a weight off their shoulders. They don’t have to monitor their agents for hours on end anymore."
+> “We built a standardized SDLC for the entire engineering org that's only possible because of auto mode. Employees view it as a weight off their shoulders. They don’t have to monitor their agents for hours on end anymore.”
 
 Evan Magnussen, Platform Engineering Manager
 
-[Prev](https://claude.com/blog/auto-mode-default-in-claude-code)Prev
+![Adobe](https://assets.claude.com/e64ada12cefb17e56afbfb3022814d013fc10932.svg)
 
-0/5
+> “At Adobe, we want to move fast without compromising the quality of the customer experience we deliver on Adobe.com. With Claude Code auto mode, we built an agentic loop that rapidly accelerated our work. Claude builds the user interface and then loops back to verify that it matches the intended design, automatically fixing any issues before we ever look at it. This shortened our development cycle while delivering pixel-perfect results.”
 
-[Next](https://claude.com/blog/auto-mode-default-in-claude-code)Next
+Tomislav Reil, Director of Engineering
 
-eBook
+![Nuro light](https://assets.claude.com/4dd2623e4f065a7faf0a9f9e6d69087b0277f6dd.jpg)
 
-##
+> “The other day, I kicked off an agent at 10 p.m. and it kept running until 5 a.m.—and it gave me three PRs in the morning. I think it's pretty impressive. Only auto mode enables this kind of workload.”
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+Kai Zhou, Staff Software Engineer
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+![Gusto](https://assets.claude.com/8a33e695a4b145386eca05940de86cb5782b22c3.svg)
 
-Embedded media:
+> “Auto mode gave us a safer balance between speed and control. We were able to remove the repeated prompts and increase productivity without compromising safety. We can see that auto mode blocks at the right time, which gives us the confidence to move quickly.”
 
-Learn how these customers are [running auto mode in production](https://claude.com/blog/auto-mode-in-production).
+Martin Emde, Software Engineer
+
+![Garner Health](https://assets.claude.com/9b312d56f22e14b18c14e0381666f73b17aeb5fe.svg)
+
+> “We built a standardized SDLC for the entire engineering org that's only possible because of auto mode. Employees view it as a weight off their shoulders. They don’t have to monitor their agents for hours on end anymore.”
+
+Evan Magnussen, Platform Engineering Manager
+
+![Adobe](https://assets.claude.com/e64ada12cefb17e56afbfb3022814d013fc10932.svg)
+
+> “At Adobe, we want to move fast without compromising the quality of the customer experience we deliver on Adobe.com. With Claude Code auto mode, we built an agentic loop that rapidly accelerated our work. Claude builds the user interface and then loops back to verify that it matches the intended design, automatically fixing any issues before we ever look at it. This shortened our development cycle while delivering pixel-perfect results.”
+
+Tomislav Reil, Director of Engineering
+
+![Nuro light](https://assets.claude.com/4dd2623e4f065a7faf0a9f9e6d69087b0277f6dd.jpg)
+
+> “The other day, I kicked off an agent at 10 p.m. and it kept running until 5 a.m.—and it gave me three PRs in the morning. I think it's pretty impressive. Only auto mode enables this kind of workload.”
+
+Kai Zhou, Staff Software Engineer
+
+![Gusto](https://assets.claude.com/8a33e695a4b145386eca05940de86cb5782b22c3.svg)
+
+> “Auto mode gave us a safer balance between speed and control. We were able to remove the repeated prompts and increase productivity without compromising safety. We can see that auto mode blocks at the right time, which gives us the confidence to move quickly.”
+
+Martin Emde, Software Engineer
+
+1/4
+
+Learn how these customers are [running auto mode in production](https://claude.com/resources/articles/auto-mode-in-production).
 
 ## Getting started
 
@@ -178,86 +182,48 @@ Finally, while we believe auto mode reduces risk for most users, it relies on cl
 
 ‍
 
-*This article was written by Conner Phillippi, with contributions by Nicholas Carlini, Isaac Fung, John Hughes, Alex Isken, Shawn Moore, Javier Rando, and Molly Vorwerck. The authors would also like to thank Yacine Azmi, Chandler Bair, Kefan Chen, Boris Cherny, Ian Grunert, Lydia Hallie, Alex Kleiman, Lauren Polansky, Deon Poncini, Robert Schonberger, Marie Vachovsky****,*** *Qing Wang, Cat Wu, Daniel Xu, and Alice Zhao.*
+*This article was written by Conner Phillippi, with contributions by Nicholas Carlini, Isaac Fung, John Hughes, Alex Isken, Shawn Moore, Javier Rando, and Molly Vorwerck. The authors would also like to thank Yacine Azmi, Chandler Bair, Kefan Chen, Boris Cherny, Ian Grunert, Lydia Hallie, Alex Kleiman, Lauren Polansky, Deon Poncini, Robert Schonberger, Marie Vachovsky**,** Qing Wang, Cat Wu, Daniel Xu, and Alice Zhao.*
 
 ‍
 
 1 We evaluated Claude Code v2.1.205 and Codex v0.144.5. OpenAI released a new version of Auto-review last week that could change the results.
 
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/auto-mode-default-in-claude-code)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
-
-Sep 24, 2026
+[ArticleSep 24, 2026
 
 ### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-Claude Code
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/auto-mode-default-in-claude-code)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-Sep 23, 2026
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-### How to prepare for AI-driven code modernization projects
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-Enterprise AI
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/auto-mode-default-in-claude-code) How to prepare for AI-driven code modernization projects
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
+### The Claude Code guide for startups
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/auto-mode-default-in-claude-code)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/auto-mode-default-in-claude-code)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

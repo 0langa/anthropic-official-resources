@@ -1,34 +1,18 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22c10cdf166eebe4c84_d4b15045df86e43e5b5dc7b25784321ce8b5dd88-1000x1000.svg)
-
 # Claude takes research to new places
 
 Claude can now conduct in-depth Research by searching across the web and your Google Workspace to deliver comprehensive answers in minutes.
 
-- Category
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  Claude apps
-- Date
-
-  April 15, 2025
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/research)
-
-  https://claude.com/blog/research
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude apps
+- DateApril 15, 2025
+- Reading time6 min
+- ShareCopy link
 
 Earlier this year, we introduced [our vision](https://www.anthropic.com/news/claude-3-7-sonnet) for Claude as your collaborative partner that delivers hours of work in minutes. In line with this vision, we’re continuing to expand the context that Claude has access to, as well as the kinds of outputs you can generate with Claude to support your personal and professional work.
 
 Today, we’re introducing two new capabilities that make Claude a more informed and capable collaborator — Research and a Google Workspace integration that connects your email, calendar, and documents to Claude. With Research, Claude can search across both your internal work context and the web to help you make decisions and take action faster than before.
 
-Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/3c87b703466e6f61ed7222f39344337416bf3df2.mp4
+Embedded media: https://assets.claude.com/3c87b703466e6f61ed7222f39344337416bf3df2.mp4
 
 ### Research
 
@@ -40,11 +24,11 @@ Research delivers high-quality, comprehensive answers in minutes, making it prac
 
 Claude now integrates with Gmail and Calendar, in addition to Google Docs – helping it gain deeper insight into your work context. By connecting Google Workspace, Claude can securely search emails, review documents, and see your calendar commitments – eliminating the need to manually upload files or repeatedly provide context about your work and schedule.
 
-![A product screenshot of Claude interacting with Google Workspace](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d9038a73b8083081581_d94666bde1a93acd0d678ecf8c4017230a6416a5-2400x1350.png)
+![A product screenshot of Claude interacting with Google Workspace](https://assets.claude.com/d94666bde1a93acd0d678ecf8c4017230a6416a5.png)
 
 Ask Claude to pull together meeting notes from last week, identify action items from follow-up email threads, and search relevant documents for additional context. Claude brings these insights directly to you, eliminating hours of manual work and letting you focus on strategic planning instead of information gathering. Claude will provide inline citations that you can use to verify the source, so that you can trust Claude is working from the most recent context.
 
-![Google Drive suggestion chips on the Claude home page](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d9038a73b8083081585_2de448df750ac57760e61a59fe8af1defc46d86e-2400x1350.png)
+![Google Drive suggestion chips on the Claude home page](https://assets.claude.com/2de448df750ac57760e61a59fe8af1defc46d86e.png)
 
 Using Research with Google Workspace:
 
@@ -70,98 +54,40 @@ This is just the beginning of updates to make Claude an even better collaborator
 
 **The Google Workspace** integration is available in beta to all paid users in [profile settings](http://claude.ai/settings/profile). Team and Enterprise plan admins must enable Google Workspace access domain-wide before individual users connect their accounts. Claude Enterprise plan admins can enable Google Docs cataloging for the entire organization.
 
-No items found.
-
-[Prev](https://claude.com/blog/research)Prev
-
-0/5
-
-[Next](https://claude.com/blog/research)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/research)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/research)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
 ### Build plugins for Claude
 
-Product announcements
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-[Build plugins for Claude](https://claude.com/blog/research)Build plugins for Claude
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
+### Claude Tag now supports personal connectors in channels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/research)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/research)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

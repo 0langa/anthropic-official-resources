@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
 # Best practices for computer and browser use with Claude
 
 *Practical guidance for developers building computer and browser use integrations with the Claude model family.*
 
-- Category
-
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  May 13, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude)
-
-  https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Platform
+- DateMay 13, 2026
+- Reading time42 min
+- ShareCopy link
 
 Claude's [latest models](https://www.anthropic.com/news/claude-sonnet-4-6) represent a significant step forward in computer and browser use capabilities. Because of these features, LLMs are now able to power increasingly complex agentic systems that power real work, like building software applications and automating workflows across multiple, disparate technologies.
 
@@ -30,7 +14,7 @@ In this blog post, we share best practices for using Claude with computer and br
 
 *Note that these recommendations apply to the Claude 4.6 family (Opus 4.6, Sonnet 4.6, Haiku 4.5) and Claude Opus 4.7 unless otherwise noted. Where guidance differs between the 4.6 family and Opus 4.7, we call it out inline. Our findings are based on internal experimentation and may be updated in the future as new models and techniques emerge.*
 
-# **Getting started: resolution and scaling**
+## **Getting started: resolution and scaling**
 
 Click accuracy is the foundation of any computer use integration. If clicks don't land where they should, nothing downstream works: forms don't get filled, buttons don't get pressed, and workflows fail. The single highest impact optimization is also one of the simplest: pre downscale your screenshots before sending them to the API.
 
@@ -59,6 +43,8 @@ When the coordinate space and the model's perceived image don't match, the model
 **If you are using Opus 4.7, we recommend starting with 1080p**, as this brings a meaningful quality lift over 720p and provides a good balance between token use and performance.
 
 **For developers who want to maximize the visual information the model receives**, we also recommend a "max API fit" approach: computing the optimal resolution per-image based on the source's native aspect ratio:
+
+Copy
 
 ```
 import math
@@ -99,12 +85,14 @@ This approach is slightly more complex but avoids aspect ratio distortion and us
 
 - **Native resolution (unscaled)**: Unless your source images happen to be below the resolution limits, sending native resolution screenshots is the most common cause of poor click accuracy.
 - **Very low resolutions (below 960x540)**: With low resolution images, too much detail is lost for the model to accurately identify small UI elements.
-- **If on MacOS:**  A common issue for browser use is that the screenshots on MacOS are often captured with a device pixel ratio of 2, which means that you can end up with images that are 2x the resolution of the screen coordinates.
+- **If on MacOS:** A common issue for browser use is that the screenshots on MacOS are often captured with a device pixel ratio of 2, which means that you can end up with images that are 2x the resolution of the screen coordinates.
 - **If you are on the 4.6 family, avoid 1920x1080 and above:** These exceed the pixel limit and will be silently downscaled. On Opus 4.7 the ceiling is higher (3.75 MP), so 1080p and 1440p is within budget; still avoid native 4K without downscaling.
 
 ## **Coordinate scaling**
 
 When you resize a screenshot before sending it, the model returns click coordinates in the display resolution you specified. You must scale these back to your actual screen resolution before executing the click:
+
+Copy
 
 ```
 # Your screen is screen_w x screen_h
@@ -121,6 +109,8 @@ This is straightforward but critical, because if you forget to scale or `display
 ## **Content ordering in the messages array**
 
 When constructing your messages content array, place the text instruction *before* the image, as depicted in the code snippet below. This lets the model know what it's looking for as it processes the screenshot, which improves click accuracy.
+
+Copy
 
 ```
 # RECOMMENDED — text instruction first, then screenshot:
@@ -140,85 +130,7 @@ content = [
 
 If clicks are missing their targets, it often boils down to one of the causes, below:
 
-<table>
-<thead>
-<tr>
-<th>Symptom</th>
-<th>Likely causes</th>
-<th>Try this</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Clicks consistently offset in one direction</td>
-<td>
-<ul>
-<li><code>display_width_px</code> / <code>display_height_px</code> don't match the actual image dimensions sent</li>
-<li>Screenshot exceeds API limits and is being silently downscaled</li>
-<li>Content ordering is image-first instead of text-first</li>
-</ul>
-</td>
-<td>
-<ul>
-<li>Ensure display dimensions exactly match your resized screenshot, not your native resolution</li>
-<li>Pre-downscale to 1280x720 or use <code>compute_max_api_fit</code></li>
-<li>Move text instruction before the image in the content array</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>Clicks land in roughly the right area but miss the target</td>
-<td>
-<ul>
-<li>Target is very small (checkbox, icon, toggle)</li>
-<li>Source image was very high resolution (4K+) and detail was lost during downscaling</li>
-<li>Aspect ratio distortion from forcing a non-native aspect ratio</li>
-</ul>
-</td>
-<td>
-<ul>
-<li>Enable <code>enable_zoom: True</code> for dense UIs</li>
-<li>Capture at a lower DPI or crop to the relevant screen region before downscaling</li>
-<li>Preserve the source aspect ratio when resizing</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>Model clicks the wrong element entirely</td>
-<td>
-<ul>
-<li>Ambiguous instruction ("click Submit" when multiple submit-like buttons exist)</li>
-<li>Visually similar elements near the target</li>
-<li>UI is too complex for a single instruction</li>
-</ul>
-</td>
-<td>
-<ul>
-<li>Use more specific prompts with positional context ("click the blue Submit button in the bottom-right of the form")</li>
-<li>Break complex interactions into smaller steps</li>
-<li>Provide additional context about the page layout</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>Accuracy is poor across the board</td>
-<td>
-<ul>
-<li>Screenshots are being sent above API limits</li>
-<li>Source images are from very high-resolution displays (4K+) with extreme compression ratios</li>
-<li>Resolution is too low, losing critical detail</li>
-</ul>
-</td>
-<td>
-<ul>
-<li>Pre-downscale all screenshots to fit within limits</li>
-<li>For 4K+ sources on the 4.6 family, Sonnet is more robust to heavy downscaling than Opus 4.6. On Opus 4.7 this gap largely closes, use the 4.7 pixel budget (up to 3.75 MP) so less downscaling is needed in the first place.</li>
-<li>Try 1280x720 as a baseline; if too lossy, use <code>compute_max_api_fit</code></li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Symptom</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Likely causes</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Try this</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Clicks consistently offset in one direction</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>display_width_px / display_height_px don't match the actual image dimensions sent</li><li>Screenshot exceeds API limits and is being silently downscaled</li><li>Content ordering is image-first instead of text-first</li></ul></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>Ensure display dimensions exactly match your resized screenshot, not your native resolution</li><li>Pre-downscale to 1280x720 or use compute_max_api_fit</li><li>Move text instruction before the image in the content array</li></ul></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Clicks land in roughly the right area but miss the target</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>Target is very small (checkbox, icon, toggle)</li><li>Source image was very high resolution (4K+) and detail was lost during downscaling</li><li>Aspect ratio distortion from forcing a non-native aspect ratio</li></ul></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>Enable enable_zoom: True for dense UIs</li><li>Capture at a lower DPI or crop to the relevant screen region before downscaling</li><li>Preserve the source aspect ratio when resizing</li></ul></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Model clicks the wrong element entirely</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>Ambiguous instruction ("click Submit" when multiple submit-like buttons exist)</li><li>Visually similar elements near the target</li><li>UI is too complex for a single instruction</li></ul></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>Use more specific prompts with positional context ("click the blue Submit button in the bottom-right of the form")</li><li>Break complex interactions into smaller steps</li><li>Provide additional context about the page layout</li></ul></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Accuracy is poor across the board</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>Screenshots are being sent above API limits</li><li>Source images are from very high-resolution displays (4K+) with extreme compression ratios</li><li>Resolution is too low, losing critical detail</li></ul></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>Pre-downscale all screenshots to fit within limits</li><li>For 4K+ sources on the 4.6 family, Sonnet is more robust to heavy downscaling than Opus 4.6. On Opus 4.7 this gap largely closes, use the 4.7 pixel budget (up to 3.75 MP) so less downscaling is needed in the first place.</li><li>Try 1280x720 as a baseline; if too lossy, use compute_max_api_fit</li></ul></td></tr></tbody></table>
 
 ## **Model selection for clicking tasks**
 
@@ -236,6 +148,8 @@ If your application involves clicking small targets frequently, consider these s
 
 **Use zoom for dense UIs.** Claude 4.6 and 4.7 models support a zoom capability that lets the model inspect specific screen regions at higher resolution before clicking. Enable it in your [tool configuration](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool):
 
+Copy
+
 ```
 {
     "type": "computer_20251124",
@@ -250,7 +164,7 @@ If your application involves clicking small targets frequently, consider these s
 
 **Use keyboard alternatives for tiny targets.** For very small elements, such as system tray icons or tiny checkboxes), keyboard shortcuts or tab-based navigation can be more reliable than clicking. If your workflow allows it, prompting the model to use keyboard interactions for specific steps can improve success rates.
 
-**Consider source image resolution.** Screenshots from 4K+ displays that get compressed down to 720p lose significant detail (for example, a 16px checkbox at 3840x2160 native becomes roughly 5px at 1280x720 display resolution, which makes the target much smaller and therefore more difficult to hit). If you're working with very high-resolution displays, consider using Opus 4.7,  which has a higher resolution limit than previous models. If using 4.6 models, consider capturing at a lower DPI, using display scaling to enlarge UI elements, or focusing the screenshot on the relevant portion of the screen rather than the full display. Because these models represent more information with less pixels, we’ve observed that performance degrades as source image scale increases, meaning more compression is needed.
+**Consider source image resolution.** Screenshots from 4K+ displays that get compressed down to 720p lose significant detail (for example, a 16px checkbox at 3840x2160 native becomes roughly 5px at 1280x720 display resolution, which makes the target much smaller and therefore more difficult to hit). If you're working with very high-resolution displays, consider using Opus 4.7, which has a higher resolution limit than previous models. If using 4.6 models, consider capturing at a lower DPI, using display scaling to enlarge UI elements, or focusing the screenshot on the relevant portion of the screen rather than the full display. Because these models represent more information with less pixels, we’ve observed that performance degrades as source image scale increases, meaning more compression is needed.
 
 ## **Approaches we tested that didn't help**
 
@@ -269,6 +183,8 @@ Some failures aren't about click accuracy at all. For example, certain dropdown 
 ## **Quick reference**
 
 *How to scale and prepare an image for computer use*
+
+Copy
 
 ```
 import math
@@ -328,6 +244,8 @@ def compute_max_api_fit(native_w: int, native_h: int) -> tuple[int, int]:
 
 **Usage:**
 
+Copy
+
 ```
 import anthropic
 from PIL import Image
@@ -366,7 +284,7 @@ api_x, api_y = extract_click_coords(response)  # your parsing logic
 screen_x, screen_y = scale_coordinates(api_x, api_y, display_w, display_h, native_w, native_h)
 ```
 
-# **Tuning thinking effort for computer use**
+## **Tuning thinking effort for computer use**
 
 Claude's latest models support [adaptive thinking](https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking), a setting which lets Claude decide how much to reason through intermediate steps before acting. Instead of manually setting a thinking token budget, adaptive thinking lets Claude dynamically determine when and how much to use extended thinking based on the complexity of each request. For computer use, this means Claude can think through what it's seeing on screen, plan multi-step interactions, and self-correct before committing to a click or keystroke.
 
@@ -378,7 +296,7 @@ The natural question: depending on the model, how much thinking is optimal for c
 
 We tested each thinking effort level across a suite of end to end UI automation tasks spanning desktop applications, browsers, and multi-application workflows.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0240d5a273c79dddb95eb5_image1.png)
+![](https://assets.claude.com/a874bc8fe8c7f6fbddf3d96a797b492a419b6c25.png)
 
 **Opus 4.7 outperforms the 4.6 family.** On the OSWorld Verified benchmark, we find that Opus outperforms all 4.6 family models at equivalent token usage and effort settings. Opus 4.7 on low effort scores similarly to Sonnet 4.6 on max, while using ~1/10th the tokens per task. For difficult tasks, Opus 4.7 is the obvious choice.
 
@@ -386,43 +304,13 @@ We tested each thinking effort level across a suite of end to end UI automation 
 
 ### **Recommendations for effort levels**
 
-<table>
-<thead>
-<tr>
-<th>Scenario</th>
-<th style="width:140px;">Thinking effort</th>
-<th>Why</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Default for most use cases</td>
-<td><code>high</code></td>
-<td>Opus 4.7 is best for difficult tasks. Using high will give the model enough reasoning to plan over complex multi-step interactions without significantly increasing token usage.</td>
-</tr>
-<tr>
-<td>High-throughput / cost-sensitive</td>
-<td><code>low</code></td>
-<td>Lower token usage while providing quality between Opus 4.6's high and max effort settings.</td>
-</tr>
-<tr>
-<td>Simple, well-defined workflows / fastest</td>
-<td>Suggest trying Sonnet 4.6</td>
-<td>Use if low latency is the highest priority. Adequate for short, predictable tasks where the UI is consistent and the workflow is known.</td>
-</tr>
-<tr>
-<td>Complex, one-shot tasks</td>
-<td><code>max</code></td>
-<td>Use when tasks are highly challenging and you need to get it right on the first attempt.</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Scenario</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Thinking effort</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Why</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Default for most use cases</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">high</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Opus 4.7 is best for difficult tasks. Using high will give the model enough reasoning to plan over complex multi-step interactions without significantly increasing token usage.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">High-throughput / cost-sensitive</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">low</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Lower token usage while providing quality between Opus 4.6's high and max effort settings.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Simple, well-defined workflows / fastest</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Suggest trying Sonnet 4.6</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Use if low latency is the highest priority. Adequate for short, predictable tasks where the UI is consistent and the workflow is known.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Complex, one-shot tasks</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">max</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Use when tasks are highly challenging and you need to get it right on the first attempt.</span></td></tr></tbody></table>
 
 ## **Claude 4.6 models**
 
 We tested each thinking effort level across a suite of end to end UI automation tasks spanning desktop applications, browsers, and multi-application workflows.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a024267c961b1b1c42684fc_image2.png)
+![](https://assets.claude.com/53c9ab8bef7de617c3dd09ee6b27fb293873d3c6.png)
 
 Two patterns stand out:
 
@@ -432,41 +320,13 @@ Two patterns stand out:
 
 ### **Recommendations for effort levels**
 
-<table>
-<thead>
-<tr>
-<th>Scenario</th>
-<th style="width:140px;">Thinking effort</th>
-<th>Why</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Default for most use cases</td>
-<td><code>medium</code></td>
-<td>Best accuracy-to-cost ratio. Gives the model enough reasoning to plan multi-step interactions without overthinking. With retries, matches high performance at half the token cost.</td>
-</tr>
-<tr>
-<td>High-throughput / cost-sensitive</td>
-<td><code>low</code></td>
-<td>More accurate than no thinking, but with lower token usage due to fewer errors and retries.</td>
-</tr>
-<tr>
-<td>Simple, well-defined workflows / fastest</td>
-<td>Thinking disabled</td>
-<td>Use if low latency is the highest priority. Adequate for short, predictable tasks where the UI is consistent and the workflow is known.</td>
-</tr>
-<tr>
-<td>Complex, one-shot tasks</td>
-<td><code>high</code></td>
-<td>Use when tasks are challenging and you need to get it right on the first attempt. If your system supports retries, medium may achieve the same eventual success rate.</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Scenario</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Thinking effort</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Why</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Default for most use cases</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">medium</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Best accuracy-to-cost ratio. Gives the model enough reasoning to plan multi-step interactions without overthinking. With retries, matches high performance at half the token cost.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">High-throughput / cost-sensitive</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">low</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">More accurate than no thinking, but with lower token usage due to fewer errors and retries.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Simple, well-defined workflows / fastest</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Thinking disabled</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Use if low latency is the highest priority. Adequate for short, predictable tasks where the UI is consistent and the workflow is known.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Complex, one-shot tasks</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">high</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Use when tasks are challenging and you need to get it right on the first attempt. If your system supports retries, medium may achieve the same eventual success rate.</span></td></tr></tbody></table>
 
 We don't recommend `max` effort for computer use. In our testing, it provides no accuracy benefit over `high` while further increasing output token cost. UI tasks are primarily perceptual rather than deeply logical, and the additional reasoning budget goes unused or leads to overthinking. Keep in mind that this advice will change as models evolve.
 
 ## **Example configuration of medium setting effort level**
+
+Copy
 
 ```
 import anthropic
@@ -500,7 +360,7 @@ UI automation tasks are fundamentally different from coding or math problems. Mo
 - Cross-reference information between what's on screen and the task instructions
 - Complete challenging projects on professional software
 
-# **Improving safety: leveraging prompt injection classifiers**
+## **Improving safety: leveraging prompt injection classifiers**
 
 *This section covers prompt injection protection, which is offered by default and for free if you use our official computer use tool header. However, if you are interested in enabling this on custom computer or browser use tools, please fill out our* [*Prompt Injection Classifiers Interest Form.*](https://docs.google.com/forms/d/e/1FAIpQLSfXj6rXC-SUQEYHCLabwUe5JuYiYyJ29Ja-KP7EhLIPlyz0tw/viewform?usp=dialog)
 
@@ -525,6 +385,8 @@ We've continued to invest heavily in all three layers since our initial computer
 When you use Claude's [official computer use tool](https://docs.anthropic.com/en/docs/agents-and-tools/computer-use) via the API, prompt injection classifiers run automatically on every request. These classifiers operate in parallel with the main model inference, adding approximately zero additional latency and no additional cost to your requests.
 
 There is nothing you need to configure to enable this protection. It's on by default when you use the official `computer_20251124` tool type. The classifiers evaluate screenshots and other content for signs of prompt injection and influence Claude's responses accordingly.
+
+Copy
 
 ```
 # Classifiers run automatically when using the official CU tool — no extra config needed
@@ -556,7 +418,7 @@ Classifiers are one layer of defense, not a complete solution. We recommend the 
 
 **Treat all web content as untrusted.** Design your agent's system prompt to clearly distinguish between the user's instructions and content encountered during task execution. Remind the model that text found on web pages, in emails, or in application UIs is not from the user and should not be treated as instructions.
 
-# **Context management for computer use**
+## **Context management for computer use**
 
 When building computer use agents, screenshots accumulate fast. Every action generates a new image, and each image consumes roughly 1,000–1,800 tokens depending on resolution. After accounting for the system prompt, tool definitions, and text content, a 200k context window can fill up in well under 100 screenshots.
 
@@ -574,6 +436,8 @@ We recommend:
 Spreading breakpoints across recent positions gives you graceful degradation. If your most recent breakpoint is invalidated, e.g. by an image prune, a compaction, or a tool-definition change, an earlier breakpoint can still hit, and you keep paying 10% of the full input cost instead of 100%.
 
 *Example of cache control and setting breakpoints:*
+
+Copy
 
 ```
 def set_trailing_cache_control(messages, max_breakpoints=3):
@@ -610,6 +474,8 @@ Reasonable defaults to start with: keep\_n = 3, interval = 25. These are tunable
 
 *Example of pruning previous screenshots while keeping cache breakpoints:*
 
+Copy
+
 ```
 def prune_old_screenshots(messages, keep_n=3, interval=25):
     """Replace older screenshots with text placeholders in batches.
@@ -644,6 +510,8 @@ Compaction and the cache-aware rolling buffer are complementary. Use the rolling
 ### **The summarization prompt**
 
 This example prompt provides a scaffold where each section targets a specific failure mode. The prompt must capture everything the agent needs to continue the task without re-reading the original conversation, as depicted in the example below:
+
+Copy
 
 ```
 COMPACT_PROMPT = """Your task is to create a detailed summary of this conversation that
@@ -697,13 +565,15 @@ Your summary MUST include these sections:
 """
 ```
 
-In the prompt above, **User Instructions** prevents task drift: without them, the agent deviates after compaction. **Task Template** captures the repeatable pattern so the agent can continue iterating after compaction without re-deriving the workflow from scratch. **Constraints and Rules** preserves restrictions and edge cases set before or discovered during the task, so the agent doesn't violate existing rules it knew to abide by. **Actions Taken** helps track past progress.  **Errors and Fixes** prevents retrying failed approaches ("I already tried clicking Submit; it doesn't work until the Terms checkbox is checked"). **Progress Tracking** prevents restarts and skipped items. **Current State** & **Next Step** gives an unambiguous entry point to resume.
+In the prompt above, **User Instructions** prevents task drift: without them, the agent deviates after compaction. **Task Template** captures the repeatable pattern so the agent can continue iterating after compaction without re-deriving the workflow from scratch. **Constraints and Rules** preserves restrictions and edge cases set before or discovered during the task, so the agent doesn't violate existing rules it knew to abide by. **Actions Taken** helps track past progress. **Errors and Fixes** prevents retrying failed approaches ("I already tried clicking Submit; it doesn't work until the Terms checkbox is checked"). **Progress Tracking** prevents restarts and skipped items. **Current State** & **Next Step** gives an unambiguous entry point to resume.
 
 ### **Server-side compaction (beta)**
 
 The simplest way to use this prompt is to let the API handle compaction via [server-side compaction](https://docs.anthropic.com/en/docs/build-with-claude/compaction) (beta). Pass your custom summarization prompt as the `instructions` parameter in `context_management`, and the API automatically summarizes when input tokens exceed a trigger threshold. The `instructions` parameter completely replaces the default summarization prompt, so the sections above are what the model will follow. Set `pause_after_compaction` to attach the most recent messages (including screenshots) across compaction events.
 
 *Examples of using autocompaction tool:*
+
+Copy
 
 ```
 # Minimal — turn on autocompaction with API defaults
@@ -741,6 +611,8 @@ When the API runs a server-side compaction, it replaces pre-compaction content o
 
 The fix is to mirror the server's truncation on the client, as depicted by the code snippet below. When the response reports that compaction occurred, drop everything before the compaction marker from your local messages array before the next turn. This keeps client and server views aligned and lets the rolling buffer keep working correctly.
 
+Copy
+
 ```
 def truncate_to_last_compaction(messages, response):
     """If the server compacted on this turn, drop pre-compaction messages
@@ -774,7 +646,7 @@ A good default for a long-running computer use agent looks like this:
 
 With these three layers in place, a typical long-horizon CU session will hit the prompt cache on the vast majority of turns, keep total input tokens bounded well below the context window, and preserve enough history through compaction events that the agent doesn't lose track of the task.
 
-# **Experimental settings for improving computer and browser use**
+## **Experimental settings for improving computer and browser use**
 
 The patterns below are techniques we've been testing in our implementations that show promise but aren't yet blanket recommendations. Each trades off complexity or cost for a potential lift on specific kinds of workloads. We include them here so you can try them on your workflow, but expect the guidance in this section to evolve quickly.
 
@@ -795,6 +667,8 @@ The [advisor tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use
 For computer use specifically, this pattern is most useful on long-horizon tasks where most turns are mechanical clicking but occasional planning moments (choosing which tab to open, recovering from an unexpected modal, deciding whether to abandon a strategy) benefit from Opus-level reasoning. You get close to advisor-solo quality while the bulk of token generation happens at executor rates.
 
 *Example of enabling the advisor tool:*
+
+Copy
 
 ```
 response = client.beta.messages.create(
@@ -835,6 +709,8 @@ If you later drop the advisor tool from your tools array — because you hit a c
 The fix is a simple pre-send pass: whenever the advisor is disabled for a turn, walk the message history and strip any content blocks of type `server_tool_use` (with name == "advisor") and `advisor_tool_result`.
 
 *Example of removing stale advisor blocks:*
+
+Copy
 
 ```
 def strip_orphaned_advisor_blocks(messages):
@@ -894,6 +770,8 @@ The key insight is that playback isn't strict replay. Claude uses the demonstrat
 
 The fundamental unit is a “workflow step”, a single action captured during recording. Each step bundles what was done, where it happened, and what the screen looked like:
 
+Copy
+
 ```
 from dataclasses import dataclass, field
 from typing import Literal, Optional
@@ -928,6 +806,8 @@ Capturing both selectors and coordinates is intentional: selectors are more robu
 
 At minimum, capture click events, keyboard input, navigation changes, and a screenshot at each action. For each click, generate a human-readable description (from aria-labels, text content, or via a quick Claude call) and annotate the screenshot with a visual marker at the click position:
 
+Copy
+
 ```
 def on_click(event):
     step = WorkflowStep(
@@ -952,6 +832,8 @@ The annotation (a colored circle at the click location) serves two purposes: it 
 This is the most important piece. When a user triggers a saved workflow, you construct a message to Claude containing three things: the user's intent, a context block explaining the demonstration format, and the recorded screenshots.
 
 The context block tells Claude how to interpret annotated screenshots and how to adapt when the live UI differs:
+
+Copy
 
 ```
 def generate_playback_context(steps: list[WorkflowStep]) -> str:
@@ -982,6 +864,8 @@ HOW TO USE THIS DEMONSTRATION:
 ```
 
 Then assemble the full message with the user's prompt, the context block, and each step's screenshot as an image:
+
+Copy
 
 ```
 import anthropic
@@ -1028,6 +912,8 @@ Not every workflow needs the same level of adherence to the recorded demonstrati
 ### **Example: end-to-end expense report workflow**
 
 Here's what a saved workflow looks like in practice. The workflow captures five steps: navigating to the expense form, selecting an expense type, choosing "Travel" from the dropdown, entering an amount, and clicking Submit.
+
+Copy
 
 ```
 expense_workflow = SavedWorkflow(
@@ -1076,108 +962,53 @@ expense_workflow = SavedWorkflow(
 
 When a user later says "Submit my expense report for the team lunch ($85.50)", the playback service constructs a prompt with the demonstration context, all five annotated screenshots, and the specific values from the new request. Claude sees exactly where to click, what sequence to follow, and adapts the amounts and descriptions to match the current task. If your workflow is too long for this approach to be practical due to input token count, then consider first compacting the workflow before using it as an example. See the following section for tips on managing context.
 
-# **Getting started with computer and browser use**
+## **Getting started with computer and browser use**
 
 These practices reflect our current best understanding of what makes computer use integrations reliable in production. They apply to the Claude 4.6 model family and Opus 4.7, and will be updated as new models and techniques emerge.
 
 As your integration matures, the patterns that matter most will depend on your specific environment, target applications, and reliability requirements.*‍*
 
-*Get started with the* [*computer use documentation*](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool)*, check out our new* [*demo implementation*](https://github.com/anthropics/claude-quickstarts/tree/main/computer-use-best-practices) *of these best practices, or revisit the* [*original computer use research post*](https://www.anthropic.com/news/developing-computer-use) *for background on how these capabilities were built and where they're headed.*
+*Get started with the [computer use documentation](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool), check out our new [demo implementation](https://github.com/anthropics/claude-quickstarts/tree/main/computer-use-best-practices) of these best practices, or revisit the [original computer use research post](https://www.anthropic.com/news/developing-computer-use) for background on how these capabilities were built and where they're headed.*
 
 *Acknowledgements: This article & corresponding demo were written by Lucas Gonzalez and Luca Weihs. The authors would like to thank Molly Vorwerck, Javier Rando, Maya Nielan, Gabe Mulley, and Brigit Brown for their contributions.*
 
-No items found.
-
-[Prev](https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude)Prev
-
-0/5
-
-[Next](https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-### How Warp builds self-improving agents on Claude
-
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 29, 2026
+[ArticleSep 29, 2026
 
 ### Agents you can coach: how Asana builds human-agent teams with Claude
 
-Agents
+Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
+‍
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+### A new approach to agent security with Claude Managed Agents and NVIDIA
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
 
-Sep 28, 2026
-
-### Giving companies more control over their AI agents, with NVIDIA
-
-Agents
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude)Giving companies more control over their AI agents, with NVIDIA
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Sep 8, 2026
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
 
 ### Reducing cost and improving performance with Claude Platform
 
-Agents
+Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude)Reducing cost and improving performance with Claude Platform
+Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
+### A guide to the anatomy of effective commerce agents
+
+The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
+
+Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

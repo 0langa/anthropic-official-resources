@@ -1,39 +1,17 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
-
 # How to prepare for AI-driven code modernization projects
 
 How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-- Category
+- Category[Best practices](https://claude.com/resources/best-practices), [Perspectives](https://claude.com/resources/perspectives)
+- ProductClaude Code
+- Authors Jonah Ezekiel, Lexie Tonelli
+- DateSeptember 23, 2026
+- Reading time19 min
+- ShareCopy link
 
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
+*In our **Notes from the Field** series, Anthropic forward deployed engineers share best practices inspired by real customer deployments. In this article, we share our experience managing large code modernization projects.*
 
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  September 23, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects)
-
-  https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects
-- Author(s)
-
-  Jonah Ezekiel
-
-  Lexie Tonelli
-
-*In our* ***Notes from the Field*** *series, Anthropic forward deployed engineers share best practices inspired by real customer deployments. In this article, we share our experience managing large code modernization projects.*
-
-[Code modernizations](https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization) once scoped as multi-year, all-hands efforts can now finish in months (or [weeks](https://claude.com/blog/ai-code-migration)), but the organizational work on either side often remains the same.
+[Code modernizations](https://claude.com/resources/articles/how-ai-helps-break-cost-barrier-cobol-modernization) once scoped as multi-year, all-hands efforts can now finish in months (or [weeks](https://claude.com/resources/articles/ai-code-migration)), but the organizational work on either side often remains the same.
 
 For example, every change to a critical banking system must go through change management, review, and approval. It is a robust process because regulators, auditors, and the business require it.
 
@@ -47,7 +25,7 @@ We break this process into six steps:
 2. **Create the certificate:** the conditions that the changes must meet to be considered correct in the target state.
 3. **Set the promotion policy:** the path by which certified changes get into production at the rate they’re produced.
 4. **Put the prerequisites in place:** environment, CI/CD, review capacity, and approvals.
-5. **Build and refine the agentic workflow:** the custom Claude Code [dynamic workflow](https://claude.com/blog/introducing-dynamic-workflows-in-claude-code) that distributes the modernization across many smaller parallel subagent workstreams that produce the changes. This is built around the target, certificate, and promotion policy.
+5. **Build and refine the agentic workflow:** the custom Claude Code [dynamic workflow](https://claude.com/resources/articles/introducing-dynamic-workflows-in-claude-code) that distributes the modernization across many smaller parallel subagent workstreams that produce the changes. This is built around the target, certificate, and promotion policy.
 6. **Run the modernization:** prove the workflow end to end on a small partition of the codebase, then scale.
 
 ## **Step 1: Define the target**
@@ -101,13 +79,13 @@ Both positions are reasonable, but if the question is left unresolved it resurfa
 
 Understanding the current system is often a good first step for defining the target. Extracting what the old code actually does and creating an inventory of current behavior makes it easy to decide if parts should be changed or dropped, and so whether the modernization is a transform or a reimagine. This also often reveals unknown business logic and edge cases.
 
-Claude can do much of that discovery by [mapping dependencies and documenting workflows that nobody remembers building](https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization). The [code modernization plugin](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization)’s *assess, map,* and *extract-rules* commands mine business rules with source citations that engineers can then review.
+Claude can do much of that discovery by [mapping dependencies and documenting workflows that nobody remembers building](https://claude.com/resources/articles/how-ai-helps-break-cost-barrier-cobol-modernization). The [code modernization plugin](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization)’s *assess, map,* and *extract-rules* commands mine business rules with source citations that engineers can then review.
 
 However, Claude’s discovery alone may not capture how a legacy system fully behaves. Interviews with business users and developers, and internal documentation, can fill those gaps. Context gathering may take some time upfront, but the quality of that context shapes every decision the workflow makes later.
 
 For a reimagine, defining the target requires additional work: a detailed behavioral spec should be written down and agreed with user groups.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab3ce6a62d56528c6b6e022_efbbc4f0.png)
+![](https://assets.claude.com/a13736a58ba5bfec915a6127e5f6677748dcca6a.png)
 
 An interactive dependency map example from the code modernization plugin.
 
@@ -115,11 +93,11 @@ An interactive dependency map example from the code modernization plugin.
 
 Alongside defining the target, the organization should consider why the modernization is worth undertaking at all. Modernizing legacy systems can reduce ongoing maintenance and operational costs, however, in our experience, cost reduction has not been the driving goal of most modernization projects.
 
-> Risk reduction is often the most important modernization benefit. Consider the risk of not doing the modernization when debating whether or not to undergo the project.
+> “Risk reduction is often the most important modernization benefit. Consider the risk of not doing the modernization when debating whether or not to undergo the project.”
 
 For example, a system carrying unpatched vulnerabilities can mean a cyber breach or an outage severe enough to put the business itself at risk. An unsupported runtime or a shrinking pool of engineers who understand the system exacerbates the risk.
 
-Agentic coding tools like Claude Code have shortened modernization timelines, but budgets are still hard to estimate, which leads to inertia. We have released the costs of some of our [large-scale modernizations](https://claude.com/blog/ai-code-migration) as have [others](https://claude.com/customers/lg-cns). These can serve as a rough baseline, and we have additional guidance on budget projections at the bottom of this guide.
+Agentic coding tools like Claude Code have shortened modernization timelines, but budgets are still hard to estimate, which leads to inertia. We have released the costs of some of our [large-scale modernizations](https://claude.com/resources/articles/ai-code-migration) as have [others](https://claude.com/customers/lg-cns). These can serve as a rough baseline, and we have additional guidance on budget projections at the bottom of this guide.
 
 The main challenge in initiating these projects is usually building the internal consensus and commitment from the teams that own the system, and the teams that depend on it. Building the business case and setting the goals of the project, often at the leadership level, make this part of the process easier. This also helps anchor the tradeoffs in the certificate and promotion policy that follow. When stakeholders disagree over how much risk a change can carry, the risk of not modernizing is the counterweight.
 
@@ -143,13 +121,13 @@ What goes into the certificate depends on the target, but will usually draw from
 - Static analysis and security scans show no new findings
 - For compiled targets, the build is clean and type checks pass
 
-> **Write the certificate with the people who will review and promote changes into production.** Bring in the developers, user groups, and business leads who depend on the codebase now, while the certificate and agentic workflow are still being designed.
+> “Write the certificate with the people who will review and promote changes into production. Bring in the developers, user groups, and business leads who depend on the codebase now, while the certificate and agentic workflow are still being designed.”
 
 Their expertise shapes what the certificate measures, and their early involvement is what earns their buy-in when changes reach review. A good check on the finished certificate is whether they would be comfortable merging on the certificate's evidence alone. If they see their own bar in it, the promotion policy in Step 3 can be lighter.
 
 What the certificate checks against, and how, depends on the modernization type.
 
-- **For an uplift modernization**,parity is against the original codebase, and the original test suite can be the core of the certificate.
+- **For an uplift modernization**, parity is against the original codebase, and the original test suite can be the core of the certificate.
 - **For a transform modernization,** parity is also against the original codebase, but the original test suite rarely runs on the new stack. Replay of production traffic, differential testing between old and new, and a prod-parallel deployment do most of the work instead.
 - **For a reimagine modernization**, the certificate is anchored in the behavioral spec. This is the hardest case. A spec is less objective than an existing system to diff against, so a larger degree of model judgement is involved, which can lead to more variable outcomes. Here, the certificate leans on tests written from the spec, independent adversarial reviews by Claude that check each change against the sec, and differential checks where the new system keeps the old one’s behavior. Expect to revise the certificate as the spec is clarified: gaps in the spec show up here first.
 
@@ -170,9 +148,9 @@ Many of these rules front-load SME hours by engaging them early in the project. 
 
 Their sign-off on the samples also becomes further justification for a lighter review path where there is high confidence. This is the reverse of the traditional, non-agentic pattern, where review happens at the end.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab3ce6a62d56528c6b6e01f_878b06f2.png)
+![](https://assets.claude.com/ca2355ee2906019de90e80ea46e03a38cd88c140.png)
 
-*The path of a change from generation to production.*
+The path of a change from generation to production.
 
 The promotion policy should also reflect where the modernization sits on the spectrum between speed and review depth. A modernization racing to a hard deadline, such as a runtime losing support, needs a faster policy with lighter human review and an explicit agreement to accept more risk per change.
 
@@ -182,7 +160,7 @@ In a regulated environment, taking a lighter human review path for any change ca
 
 In our experience, it is best to have the directive for the promotion policy come from the top of the organization. It is also better to agree on it beforehand so responsibility for a bug that reaches production is shared, not pinned on whoever approved the change.
 
-> **All of this still depends on a certificate detailed enough to serve as real evidence, and on reviewers who understand how Claude arrived at a change well enough to trust it.**
+> “All of this still depends on a certificate detailed enough to serve as real evidence, and on reviewers who understand how Claude arrived at a change well enough to trust it.”
 
 ## **Step 4: Put the prerequisites in place**
 
@@ -216,15 +194,15 @@ Much of this step runs through teams outside the modernization: platform or infr
 
 ## **Step 5: Build and refine the agentic workflow**
 
-Use Claude Code to develop a customized [dynamic workflow](https://claude.com/blog/introducing-dynamic-workflows-in-claude-code) for modernizing the codebase.
+Use Claude Code to develop a customized [dynamic workflow](https://claude.com/resources/articles/introducing-dynamic-workflows-in-claude-code) for modernizing the codebase.
 
 We recommend starting with the [code modernization plugin](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization), and putting everything the workflow may need on the file system or over MCP, where Claude can reach it. This includes the target, certificate, promotion policy, codebase, documentation, and whatever data sources or tooling the certificate requires. You can give this article to Claude as context too. This forms the central knowledge base for the project.
 
-With that in place, [building the modernization workflow](https://claude.com/blog/ai-code-migration) is the easy part. Have SMEs review Claude’s work as needed, including any codebase-specific skills or extracted rules before anything downstream relies on it.
+With that in place, [building the modernization workflow](https://claude.com/resources/articles/ai-code-migration) is the easy part. Have SMEs review Claude’s work as needed, including any codebase-specific skills or extracted rules before anything downstream relies on it.
 
 Refine what you've built by applying it to small parts of the codebase, with SMEs reviewing the changes it produces, the agents’ process, and the evidence the certificate was met.
 
-> You should modify the workflow, not each change, when issues surface. The goal is confidence that, once scaled, changes will meet the certificate almost everywhere and reviewers will be comfortable merging under the promotion policy.
+> “You should modify the workflow, not each change, when issues surface. The goal is confidence that, once scaled, changes will meet the certificate almost everywhere and reviewers will be comfortable merging under the promotion policy.”
 
 ## **Step 6: Run the modernization**
 
@@ -234,7 +212,7 @@ While transform and reimagine modernizations involve building the target alongsi
 
 This is the usual choice when the system cannot be down, or when the codebase changes so quickly that it’s difficult to keep a separate modernized copy up to date. What we have seen work in this case is splitting the codebase into logical partitions from the leaves inward; freezing and modernizing one partition at a time; and gating CI/CD so new commits cannot undo a partition once it has been modernized.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab3ce6a62d56528c6b6e025_244d0cca.png)
+![](https://assets.claude.com/aa67ecfa4d9ac99a3299df8e982e14c00c3ea77f.png)
 
 ## **A note on cost**
 
@@ -245,7 +223,7 @@ We often get asked what a modernization like this will cost in tokens. Each mode
 - How much new test writing and test repair the certificate demands; and
 - How much reconciliation work comes from other teams merging around you while the run is in progress.
 
-> When completing the modernization on a small part of the codebase, measure token-usage and use that to extrapolate for the rest of the run. Treat anything the pilot couldn’t see, such as reconciliation on a live codebase, as an unknown. This way you can get an estimate for the cost floor for the full modernization.
+> “When completing the modernization on a small part of the codebase, measure token-usage and use that to extrapolate for the rest of the run. Treat anything the pilot couldn’t see, such as reconciliation on a live codebase, as an unknown. This way you can get an estimate for the cost floor for the full modernization.”
 
 Measurements from the pilot also show where to optimize your agentic workflow for cost. Find the parts of the workflow that consumed the most tokens and consider how to make them more efficient. Move compute-heavy verification signals behind cheaper gates so they only run once easier checks have passed.
 
@@ -262,102 +240,47 @@ Our forward deployed engineers work through these steps with customers on their 
 ## **Additional resources**
 
 - [The public codemod plugin for Claude Code](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization)
-- [The AI-Native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)
+- [The AI-Native SDLC playbook](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
 - [Code modernization playbook](https://resources.anthropic.com/code-modernization-playbook)
-- [COBOL Modernization with AI: Breaking the Cost Barrier](https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization)
+- [COBOL Modernization with AI: Breaking the Cost Barrier](https://claude.com/resources/articles/how-ai-helps-break-cost-barrier-cobol-modernization)
 
-No items found.
-
-[Prev](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects)Prev
-
-0/5
-
-[Next](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
+[ArticleSep 30, 2026
 
 ### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
-Enterprise AI
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-May 21, 2026
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
 
-### Claude now works with more security and compliance tools
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
-Enterprise AI
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects)Claude now works with more security and compliance tools
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)[ArticleSep 15, 2026
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
+### Building an AI-native revenue organization
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+In this guide, we share how revenue leaders can roll out Claude across a sales organization, including the setup decisions, a three-phase rollout plan, and an ROI measurement framework.
 
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude Cowork](https://claude.com/resources/articles/building-an-ai-native-revenue-organization)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

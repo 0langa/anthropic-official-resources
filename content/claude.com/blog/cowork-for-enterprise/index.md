@@ -1,32 +1,16 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
-
 # Making Claude Cowork ready for enterprise
 
-- Category
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  [Claude Enterprise](https://claude.com/solutions/enterprise)
-- Date
-
-  April 9, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/cowork-for-enterprise)
-
-  https://claude.com/blog/cowork-for-enterprise
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Enterprise
+- DateApril 9, 2026
+- Reading time5 min
+- ShareCopy link
 
 Claude Cowork is now generally available on all paid plans. Within companies, Claude Cowork has become a key part of how teams operate: handling tasks, drafting project deliverables, and keeping teams up to date.
 
-Embedded media: https://www.youtube.com/embed/-AkiUPvAqbU
+Embedded media: https://www.youtube-nocookie.com/embed/-AkiUPvAqbU?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
-Today, we’re introducing organization controls to help teams deploy Claude Cowork company-wide:  role-based access controls for Enterprise, group spend limits, expanded OpenTelemetry observability, and usage analytics for admins to see Claude Cowork adoption.
+Today, we’re introducing organization controls to help teams deploy Claude Cowork company-wide: role-based access controls for Enterprise, group spend limits, expanded OpenTelemetry observability, and usage analytics for admins to see Claude Cowork adoption.
 
 ## Early signals
 
@@ -54,132 +38,110 @@ Deploying agents with Claude Cowork’s capabilities across an organization requ
 
 [Zapier](https://claude.com/customers/zapier-cowork-qa) connected Cowork to their org database, Slack, and Jira to surface engineering bottlenecks—getting back a dashboard, team-by-team analyses, and a prioritized roadmap that Product and Design Ops then copied for themselves. [Jamf](https://claude.com/customers/jamf) turned a seven-facet performance review into a 45-minute guided self-evaluation, then built similar workflows for vendor reviews and incident response. [Airtree](https://claude.com/customers/airtree), a venture firm, built a board prep workflow that pulls from a portfolio company's Drive, Slack updates, and competitor news, cross-referenced against the previous prep.
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5aedd1d4ccaa7aaecee72_zapier_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5aed89af0a9a659d820f0_zapier_dark.svg)
+![Jamf](https://assets.claude.com/6525757ec4c3fc79978ca32c81251db6edcf286d.svg)
 
-“The barrier between "having an idea" and "shipping something" has collapsed. The skill that matters now isn't knowing how to do every step. It's knowing clearly what you're trying to accomplish and being able to direct toward that outcome. Execution is still real work, but the ceiling on what one person can ship has moved dramatically. I genuinely cannot remember doing my job without it.”
-
-Larisa Cavallaro, AI Automation Engineer
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69b45499ebd143bd2c52765a_logo_jamf-light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69b454a6ceaa3ebddb228495_logo_jamf-dark.svg)
-
-“People across the org are using Cowork for data blending, analysis, and dashboard building. Bespoke dashboarding has been huge. Tasks that previously required a BI tool or an engineer's help, people are now doing themselves in minutes.”
+> “People across the org are using Cowork for data blending, analysis, and dashboard building. Bespoke dashboarding has been huge. Tasks that previously required a BI tool or an engineer's help, people are now doing themselves in minutes.”
 
 Nick Benyo, Software Engineer
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69c4c1998c3401934f20e29f_logo_airtree-light-mode.png)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69c4c19b37fe50b8853f38b3_logo_airtree-dark-mode.png)
+![Airtree](https://assets.claude.com/0a4af388f451cefedf61dba15d9f73962a46c700.png)
 
-“Using Claude Cowork across teams multiplied its value. Skills built by one person could be used by everyone. Claude Cowork became shared firm infrastructure rather than just an individual productivity tool.”
+> “Using Claude Cowork across teams multiplied its value. Skills built by one person could be used by everyone. Claude Cowork became shared firm infrastructure rather than just an individual productivity tool.”
 
 Jackie Vullinghs, Partner
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68ba1577e91d8296653388ca_Group%202055245285.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a186e574d077d020536326e_thomson_reuters_logo_white.svg)
+![Thomson Reuters](https://assets.claude.com/3c80d8dc7dbf6556d1137977873dee26eaffae1d.svg)
 
-“Claude Cowork helps teams do work at a scale that was hard to justify before. The human role becomes validation, refinement, and decision-making. Not repetitive rework.”
+> “Claude Cowork helps teams do work at a scale that was hard to justify before. The human role becomes validation, refinement, and decision-making. Not repetitive rework.”
 
 Joel Hron, CTO
 
-[Prev](https://claude.com/blog/cowork-for-enterprise)Prev
+![Zapier](https://assets.claude.com/76ec34d2d040fb1dd2dd94a7950788e0a82a09b6.svg)
 
-0/5
+> “The barrier between "having an idea" and "shipping something" has collapsed. The skill that matters now isn't knowing how to do every step. It's knowing clearly what you're trying to accomplish and being able to direct toward that outcome. Execution is still real work, but the ceiling on what one person can ship has moved dramatically. I genuinely cannot remember doing my job without it.”
 
-[Next](https://claude.com/blog/cowork-for-enterprise)Next
+Larisa Cavallaro, AI Automation Engineer
 
-eBook
+![Jamf](https://assets.claude.com/6525757ec4c3fc79978ca32c81251db6edcf286d.svg)
 
-##
+> “People across the org are using Cowork for data blending, analysis, and dashboard building. Bespoke dashboarding has been huge. Tasks that previously required a BI tool or an engineer's help, people are now doing themselves in minutes.”
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+Nick Benyo, Software Engineer
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+![Airtree](https://assets.claude.com/0a4af388f451cefedf61dba15d9f73962a46c700.png)
 
-Embedded media:
+> “Using Claude Cowork across teams multiplied its value. Skills built by one person could be used by everyone. Claude Cowork became shared firm infrastructure rather than just an individual productivity tool.”
+
+Jackie Vullinghs, Partner
+
+![Thomson Reuters](https://assets.claude.com/3c80d8dc7dbf6556d1137977873dee26eaffae1d.svg)
+
+> “Claude Cowork helps teams do work at a scale that was hard to justify before. The human role becomes validation, refinement, and decision-making. Not repetitive rework.”
+
+Joel Hron, CTO
+
+![Zapier](https://assets.claude.com/76ec34d2d040fb1dd2dd94a7950788e0a82a09b6.svg)
+
+> “The barrier between "having an idea" and "shipping something" has collapsed. The skill that matters now isn't knowing how to do every step. It's knowing clearly what you're trying to accomplish and being able to direct toward that outcome. Execution is still real work, but the ceiling on what one person can ship has moved dramatically. I genuinely cannot remember doing my job without it.”
+
+Larisa Cavallaro, AI Automation Engineer
+
+![Jamf](https://assets.claude.com/6525757ec4c3fc79978ca32c81251db6edcf286d.svg)
+
+> “People across the org are using Cowork for data blending, analysis, and dashboard building. Bespoke dashboarding has been huge. Tasks that previously required a BI tool or an engineer's help, people are now doing themselves in minutes.”
+
+Nick Benyo, Software Engineer
+
+![Airtree](https://assets.claude.com/0a4af388f451cefedf61dba15d9f73962a46c700.png)
+
+> “Using Claude Cowork across teams multiplied its value. Skills built by one person could be used by everyone. Claude Cowork became shared firm infrastructure rather than just an individual productivity tool.”
+
+Jackie Vullinghs, Partner
+
+1/4
 
 ## Getting started
 
-Claude Cowork and Claude Code on Desktop are generally available today on all paid plans on macOS and Windows. Download the Claude desktop app at[claude.com/download](http://claude.com/download).
+Claude Cowork and Claude Code on Desktop are generally available today on all paid plans on macOS and Windows. Download the Claude desktop app at [claude.com/download](http://claude.com/download).
 
 For admins deploying Claude across your organization: [configure role-based access controls](https://support.claude.com/en/articles/13930458-set-up-role-based-permissions-on-enterprise-plans), group spend limits and [OpenTelemetry](https://claude.com/docs/cowork/monitoring) from the [admin console](https://claude.com/settings/admin). Claude Cowork usage data is available in the admin dashboard, and the Analytics API is documented [here](https://support.claude.com/en/articles/13694757-access-engagement-and-adoption-data-with-the-analytics-api).
 
-For a deployment walkthrough, join our April 16th [webinar](https://www.anthropic.com/webinars/deploying-cowork-across-the-enterprise-with-paypal) with PayPal.
+For a deployment walkthrough, join our April 16th [webinar](https://claude.com/resources/webinars/deploying-cowork-across-the-enterprise-with-paypal) with PayPal.
 
-FAQ
-
-No items found.
-
-More about Cowork
-
-[More about Cowork](https://claude.com/product/cowork)More about Cowork
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/cowork-for-enterprise)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/cowork-for-enterprise)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
 ### Build plugins for Claude
 
-Product announcements
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-[Build plugins for Claude](https://claude.com/blog/cowork-for-enterprise)Build plugins for Claude
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
+### Claude Tag now supports personal connectors in channels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/cowork-for-enterprise)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/cowork-for-enterprise)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

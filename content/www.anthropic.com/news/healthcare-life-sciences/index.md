@@ -40,7 +40,7 @@ With these model improvements and our new tools, Claude is now dramatically more
 
 #### **What’s new**
 
-[Connectors](https://claude.ai/redirect/website.v1.95eda022-f14f-4278-b06a-31e5f263f89d/settings/connectors) are tools that allow users to give Claude access to other platforms directly. For payers and providers, we’ve added several connectors that make healthcare information easier to find, access, and understand. These allow Claude to pull information from industry-standard systems and databases, meaning that clinicians and administrators can save significant time finding the data and generating the reports they need.
+[Connectors](https://claude.ai/redirect/website.v1.af70e42a-aea5-4369-b73f-02cd95d3d548/settings/connectors) are tools that allow users to give Claude access to other platforms directly. For payers and providers, we’ve added several connectors that make healthcare information easier to find, access, and understand. These allow Claude to pull information from industry-standard systems and databases, meaning that clinicians and administrators can save significant time finding the data and generating the reports they need.
 
 Claude can now connect to:
 
@@ -204,6 +204,12 @@ February 7, 2026: *Edited the introductory paragraph to clarify that HIPAA-ready
 
 ## Related content
 
+### Expanding the Cyber Verification Program
+
+We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.
+
+[Read more](https://www.anthropic.com/news/cyber-verification-program)
+
 ### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
 
 Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
@@ -215,9 +221,3 @@ Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 F
 Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
 
 [Read more](https://www.anthropic.com/news/barclays-scales-claude)
-
-### Claude discovers a novel enzyme system with CRISPR-like repeats
-
-We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
-
-[Read more](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)

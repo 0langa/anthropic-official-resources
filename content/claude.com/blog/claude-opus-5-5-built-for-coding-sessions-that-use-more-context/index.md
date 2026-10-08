@@ -1,35 +1,13 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
-
 # Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
 Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-
-  [Claude Enterprise](https://claude.com/solutions/enterprise)
-- Date
-
-  September 24, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)
-
-  https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context
-- Author(s)
-
-  Michael Segner
+- Category[Best practices](https://claude.com/resources/best-practices), [Perspectives](https://claude.com/resources/perspectives), [Insights](https://claude.com/resources/insights)
+- ProductClaude Code, Claude Enterprise
+- AuthorMichael Segner
+- DateSeptember 24, 2026
+- Reading time6 min
+- ShareCopy link
 
 We estimate Claude Opus 5.5 [costs about 40% less](https://www.anthropic.com/claude-opus-5-5) to run than Opus 5 for typical workloads billed by token. For developers, exactly *how* those savings stack up matters.
 
@@ -45,11 +23,11 @@ We've pulled aggregate data on how developers have been using Claude Code from M
 - Developers are about twice as likely to have a tool server connected or use a skill and a third less likely to paste text into a prompt.
 - Context per request has grown 2.6x. The input to output token ratio moved from 189:1 to 324:1.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab54d371474ec5e28cb0912_0dfedac7.png)
+![](https://assets.claude.com/809e6884c05cc2a142d34ee57456120a550ef6d1.png)
 
 All of this points to developers aiming a harder working, better informed Claude toward bigger, more open-ended tasks. For these types of sessions, the economic impact of context engineering is compounded.
 
-Simply put, Claude reads more tokens. You need to make sure [all the context you are providing is necessary](https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models), and that [as much of that context as possible is reading from cache](https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions).
+Simply put, Claude reads more tokens. You need to make sure [all the context you are providing is necessary](https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models), and that [as much of that context as possible is reading from cache](https://claude.com/resources/articles/maximizing-the-value-of-your-claude-code-sessions).
 
 ## **What makes Opus 5.5 cost effective for long, context heavy sessions**
 
@@ -63,7 +41,7 @@ And as we just discussed, context per request has increased roughly 2.6x in six 
 
 As of the publication date, a cached token on Opus 5.5 costs a fifth of what it does compared to competing models while outperforming them.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab54d381474ec5e28cb0920_7df87a60.png)
+![](https://assets.claude.com/dda0a2bf9ba0614e6be7598a1be52d1871292742.png)
 
 ### **Claude Code is better at using the cache**
 
@@ -93,98 +71,42 @@ As agentic coding has matured, organizations have shifted from asking developers
 
 Point Opus 5.5 at the open-ended, context-heavy work where those habits compound, and see [What a task costs on Opus 5.5](https://claude.com/blog/what-a-task-costs-on-opus-5-5) for the worked numbers.
 
-No items found.
-
-[Prev](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Prev
-
-0/5
-
-[Next](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+[ArticleSep 14, 2026
 
-Jul 20, 2026
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-Enterprise AI
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-Sep 30, 2026
+### The Claude Code guide for startups
 
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-Enterprise AI
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)[ArticleAug 14, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### Maximizing the value of your Claude Code sessions
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+How to run efficient sessions that get the most value from every token.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
-
-May 21, 2026
-
-### Claude now works with more security and compliance tools
-
-Enterprise AI
-
-[Claude now works with more security and compliance tools](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Claude now works with more security and compliance tools
-
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude Code](https://claude.com/resources/articles/maximizing-the-value-of-your-claude-code-sessions)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

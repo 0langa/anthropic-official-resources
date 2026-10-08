@@ -1,30 +1,14 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
 # Claude Code and Slack
 
-- Category
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  December 8, 2025
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/claude-code-and-slack)
-
-  https://claude.com/blog/claude-code-and-slack
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Code
+- DateDecember 8, 2025
+- Reading time3 min
+- ShareCopy link
 
 Today, we're introducing the ability to delegate tasks to Claude Code directly from Slack. Now in beta as a research preview, Claude makes it easy to move context from Slack conversations to coding sessions.
 
-Embedded media: https://www.youtube.com/embed/XpXImenrSPI
+Embedded media: https://www.youtube-nocookie.com/embed/XpXImenrSPI?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 ## **From discussion to implementation**
 
@@ -36,7 +20,7 @@ The critical context around engineering work often lives in Slack, including bug
 
 ## **Route tasks to Claude Code automatically**
 
-This functionality expands on our existing [Claude app for Slack](https://www.claude.com/blog/claude-and-slack), allowing Claude to relay tasks back to Claude Code on the web. When you mention @Claude in Slack, Claude reviews your message to determine if it’s a coding task. If it is, a new Claude Code session will automatically be created. You can also manually tell Claude to handle requests as coding tasks.
+This functionality expands on our existing [Claude app for Slack](https://claude.com/resources/articles/claude-and-slack), allowing Claude to relay tasks back to Claude Code on the web. When you mention @Claude in Slack, Claude reviews your message to determine if it’s a coding task. If it is, a new Claude Code session will automatically be created. You can also manually tell Claude to handle requests as coding tasks.
 
 Claude gathers context from recent channel and thread messages in Slack to feed into the Claude Code session. It will use this context to automatically choose which repository to run the task on based on the repositories you’ve authenticated to Claude Code on the web.
 
@@ -44,104 +28,46 @@ As the Claude Code session progresses, Claude posts status updates back to your 
 
 ## **Getting started**
 
-To get started, ensure the Claude app is installed in your Slack workspace via the [Slack App Marketplace](https://slack.com/marketplace/A08SF47R6P4). Once installed, authenticate with your Claude account and start mentioning @Claude for coding tasks. You’ll need access to [Claude Code on the web](https://www.claude.com/blog/claude-code-on-the-web) for Claude to route coding tasks.
+To get started, ensure the Claude app is installed in your Slack workspace via the [Slack App Marketplace](https://slack.com/marketplace/A08SF47R6P4). Once installed, authenticate with your Claude account and start mentioning @Claude for coding tasks. You’ll need access to [Claude Code on the web](https://claude.com/resources/articles/claude-code-on-the-web) for Claude to route coding tasks.
 
 [Explore documentation](https://code.claude.com/docs/en/slack) to learn more.
 
 ‍
 
-No items found.
-
-[Prev](https://claude.com/blog/claude-code-and-slack)Prev
-
-0/5
-
-[Next](https://claude.com/blog/claude-code-and-slack)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-and-slack)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-code-and-slack)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
 ### Build plugins for Claude
 
-Product announcements
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-[Build plugins for Claude](https://claude.com/blog/claude-code-and-slack)Build plugins for Claude
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
+### Claude Tag now supports personal connectors in channels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-code-and-slack)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/claude-code-and-slack)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

@@ -1,30 +1,14 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a44550f2799b41ba4_c4a48972044d45df475f1dd84df3b74d221b6580-1000x1000.svg)
-
 # Long context prompting for Claude 2.1
 
 Claude 2.1 excels at retrieving information across its 200K context window, with a simple prompt adjustment improving accuracy from 27% to 98%.
 
-- Category
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude apps
+- DateDecember 6, 2023
+- Reading time6 min
+- ShareCopy link
 
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  Claude apps
-- Date
-
-  December 6, 2023
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/claude-2-1-prompting)
-
-  https://claude.com/blog/claude-2-1-prompting
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d96768ee92f5653fb3a_e2a549048da628777be5ab3b1e48a1a528c4f029-1712x1508.png)
+![](https://assets.claude.com/e2a549048da628777be5ab3b1e48a1a528c4f029.png)
 
 Claude 2.1’s performance when retrieving an individual sentence across its full 200K token context window. This experiment uses a prompt technique to guide Claude in recalling the most relevant sentence.
 
@@ -40,7 +24,7 @@ Being trained on real-world, complex retrieval tasks is why Claude 2.1 shows a 3
   
 Additionally, Claude's memory is improved over these very long contexts:
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d96768ee92f5653fb4c_9c0b9f8de8432b74bb0a9d4b3e2eac9764c619f3-1597x1203.png)
+![](https://assets.claude.com/9c0b9f8de8432b74bb0a9d4b3e2eac9764c619f3.png)
 
 ### **Debugging long context recall**
 
@@ -52,7 +36,7 @@ In this evaluation, Claude 2.1 returned some negative results by answering with 
   
 We replicated this behavior in an in-house experiment: we took the most recent [Consolidated Appropriations Act bill](https://appropriations.house.gov/sites/democrats.appropriations.house.gov/files/FY23%20Summary%20of%20Appropriations%20Provisions.pdf) and added the sentence *‘Declare May 23rd "National Needle Hunting Day"’* in the middle. Claude detects the reference but is still reluctant to claim that *"National Needle Hunting Day"* is a real holiday:
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d96768ee92f5653fb3d_9a0f8b10403011873813543f109f44d80f19ef04-720x320.jpeg)
+![](https://assets.claude.com/9a0f8b10403011873813543f109f44d80f19ef04.jpg)
 
 Claude 2.1 is trained on a mix of data aimed at reducing inaccuracies. This includes not answering a question based on a document if it doesn’t contain enough information to justify that answer. We believe that, either as a result of general or task-specific data aimed at reducing such inaccuracies, the model is less likely to answer questions based on an out of place sentence embedded in a broader context.  
   
@@ -66,23 +50,23 @@ We randomized the order of the essays in the context so this essay appeared at d
   
 Claude gets this correct regardless of where the line with the answer sits in the context, with no modification to the prompt format used in the original experiment. As a result, we believe Claude 2.1 is much more reluctant to answer when a sentence seems out of place in a longer context, and is more likely to claim it cannot answer based on the context given. This particular cause of increased reluctance wasn’t captured by evaluations targeted at real-world long context retrieval tasks.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d96768ee92f5653fb46_543843116da2645dd9515c558f0728f169a1558f-1712x1442.png)
+![](https://assets.claude.com/543843116da2645dd9515c558f0728f169a1558f.png)
 
 ### **Prompting to effectively use the 200K token context window**
 
 What can users do if Claude is reluctant to respond to a long context retrieval question? We’ve found that a minor prompt update produces very different outcomes in cases where Claude is capable of giving an answer, but is hesitant to do so. When running the same evaluation internally, **adding just one sentence to the prompt resulted in near complete fidelity throughout Claude 2.1’s 200K context window**.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d96768ee92f5653fb49_b618970eae76cb10520ec5d77d35cfe05a8b5926-1192x564.png)
+![](https://assets.claude.com/b618970eae76cb10520ec5d77d35cfe05a8b5926.png)
 
 We achieved significantly better results on the same evaluation by adding the sentence ***“Here is the most relevant sentence in the context:”*** to the start of Claude’s response. This was enough to **raise Claude 2.1’s score from 27% to 98%** on the original evaluation.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d96768ee92f5653fb40_d5cb0c6768974185dfe8ca9f34638dfd8a46eac5-1011x1236.png)
+![](https://assets.claude.com/d5cb0c6768974185dfe8ca9f34638dfd8a46eac5.png)
 
 Essentially, by directing the model to look for relevant sentences first, the prompt overrides Claude’s reluctance to answer based on a single sentence, especially one that appears out of place in a longer document.  
   
 This approach also improves Claude’s performance on single sentence answers that were within context (ie. not out of place). To demonstrate this, the revised prompt achieves 90-95% accuracy when applied to the Yahoo/Viaweb example shared earlier:
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d96768ee92f5653fb43_8d8a04fc8781e3b554f3e059ff0e1b69145134c0-1712x1442.png)
+![](https://assets.claude.com/8d8a04fc8781e3b554f3e059ff0e1b69145134c0.png)
 
 We’re constantly training Claude to become more calibrated on tasks like this, and we’re grateful to the community for conducting interesting experiments and identifying ways in which we can improve.
 
@@ -90,98 +74,40 @@ We’re constantly training Claude to become more calibrated on tasks like this,
 
 1. Gregory Kamradt, ‘Pressure testing Claude-2.1 200K via Needle-in-a-Haystack’, November 2023
 
-No items found.
-
-[Prev](https://claude.com/blog/claude-2-1-prompting)Prev
-
-0/5
-
-[Next](https://claude.com/blog/claude-2-1-prompting)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/claude-2-1-prompting)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-2-1-prompting)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
 ### Build plugins for Claude
 
-Product announcements
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-[Build plugins for Claude](https://claude.com/blog/claude-2-1-prompting)Build plugins for Claude
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
+### Claude Tag now supports personal connectors in channels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-2-1-prompting)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/claude-2-1-prompting)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

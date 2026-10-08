@@ -1,6 +1,6 @@
 # Admin management
 
-25 articles
+26 articles
 
 [Roles and permissionsRoles and permissions that can be set for members of your plan](https://support.claude.com/en/articles/9267276-roles-and-permissions)
 
@@ -51,3 +51,5 @@
 [Manage pooled group budgets on Enterprise plans](https://support.claude.com/en/articles/17005973-manage-pooled-group-budgets-on-enterprise-plans)
 
 [Set up Claude for Intune](https://support.claude.com/en/articles/17203415-set-up-claude-for-intune)
+
+[Assign a program to custom roles on Enterprise plans](https://support.claude.com/en/articles/17118092-assign-a-program-to-custom-roles-on-enterprise-plans)

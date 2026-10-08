@@ -1,40 +1,24 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a7bb714a55b503cd7_cad034e66b44f7f017c0cb931c403a97d1763758-1000x1000.svg)
-
 # Product development in the agentic era
 
 Jess Yan, Claude Managed Agents product manager, shares how she uses the product to unblock herself and free up time to hone her craft.
 
-- Category
-
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  April 29, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/product-development-in-the-agentic-era)
-
-  https://claude.com/blog/product-development-in-the-agentic-era
+- Category[Best practices](https://claude.com/resources/best-practices), [Perspectives](https://claude.com/resources/perspectives)
+- ProductClaude Platform
+- DateApril 29, 2026
+- Reading time6 min
+- ShareCopy link
 
 One of the ironies of being a product manager in the age of AI is that my work feels more human than ever.
 
 The job of product management has always been a mix of craft and alignment. For most of my career, my week was occupied by the latter: meetings with cross-functional stakeholders and teammates, status reports, and ticket backlogs with my engineering team. I got used to making instinctive, quick decisions followed by uphill battles advocating, convincing, and resourcing; shipping impactful products often felt more transactional than generative.
 
-With Claude, I can pressure test ideas, automate workflows, and get unstuck. I'm finally spending real time with our users and my team on the part of the job that always mattered most: the craft. While these new workflows changed my day-to-day, the most meaningful shifts happened when we started developing [Claude Managed Agents](https://claude.com/blog/claude-managed-agents) (currently in beta), a suite of composable APIs for building and deploying cloud-hosted agents at scale.
+With Claude, I can pressure test ideas, automate workflows, and get unstuck. I'm finally spending real time with our users and my team on the part of the job that always mattered most: the craft. While these new workflows changed my day-to-day, the most meaningful shifts happened when we started developing [Claude Managed Agents](https://claude.com/resources/articles/claude-managed-agents) (currently in beta), a suite of composable APIs for building and deploying cloud-hosted agents at scale.
 
 In this post, I'll share how Managed Agents has changed the way I work as a product manager, and a few patterns you can borrow for your own workflows.
 
 ## **Product development, then and now**
 
-API design used to live in documents and comment threads; [on the AI exponential](https://claude.com/blog/product-management-on-the-ai-exponential), we build with what we ship. A spec that reads elegantly in a doc can fall apart the first time you try to build against it. With Claude Code, I can sketch out an agent against pre-production versions of our API specs, and within an afternoon be running a real prototype end-to-end.
+API design used to live in documents and comment threads; [on the AI exponential](https://claude.com/resources/articles/product-management-on-the-ai-exponential), we build with what we ship. A spec that reads elegantly in a doc can fall apart the first time you try to build against it. With Claude Code, I can sketch out an agent against pre-production versions of our API specs, and within an afternoon be running a real prototype end-to-end.
 
 We reshaped API abstractions and Claude Console UX several times based on what we learned building with our own primitives–changes that even a multi-week doc review would never have surfaced, and otherwise would've come up too late via user feedback. We still litigate shapes and run raw curl requests to make sure we're happy with the bare-metal experience, but Claude Code gets me from the basic "hello world" test to a functional agent in the same sitting. As I build these agents, I'm able to more concretely anticipate ways our harness and API can flex for the next wave of model and task evolution.
 
@@ -44,13 +28,13 @@ The two-pronged payoff has been the biggest unlock. On one side, being able to b
 
 ## **Managed Agents use cases for product managers**
 
-Embedded media: https://www.youtube.com/embed/NLWiIj47IdI?start=26
+Embedded media: https://www.youtube-nocookie.com/embed/NLWiIj47IdI?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 Now I spin up bespoke agents for any "job to be done." Building one is simple: I load the Managed Agents skill in Claude Code and outline a quick sketch of what I'm looking for. Developers can also use the latest version of Claude Code and built-in `claude-api skill` to build with Managed Agents–just prompt Claude with “*start onboarding for managed agents in Claude API*” to get started. After invoking this skill, Claude builds the agent, explaining its integration steps along the way, so I can easily shift direction as needed.
 
 Examples of these agents include:
 
-- **Adoption analytics.** An agent with persistent access to our internal databases and skills for understanding our data schemas runs queries to surface interesting outliers and patterns. With [memory](https://claude.com/blog/claude-managed-agents-memory) of prior runs, it can build on prior findings and continuously advance its perspective.
+- **Adoption analytics.** An agent with persistent access to our internal databases and skills for understanding our data schemas runs queries to surface interesting outliers and patterns. With [memory](https://claude.com/resources/articles/claude-managed-agents-memory) of prior runs, it can build on prior findings and continuously advance its perspective.
 - **Developer sentiment monitoring.** An agent with the pre-built [web search tool](https://platform.claude.com/docs/en/managed-agents/tools) and guidance on focus areas scans a specific list of domains for the latest developer feedback, reporting back on common themes. Since there is so much content to analyze, it fans out research to [multiple agents](https://platform.claude.com/docs/en/managed-agents/multi-agent) in parallel, waits for results, and synthesizes findings.
 - **Demo building.** An agent with access to demo GitHub repos, branding assets, and an event deck turns prebuilt templates into a polished demo tailored to the relevant audience, such as a conference or customer meeting.
 
@@ -62,100 +46,45 @@ A year ago, all of this kind of work would've crawled along in cross-functional 
 
 If you're a product manager and you haven't built an agent yet, that's where I'd start this week. The experiments and tools you've always wished existed are a single prompt and a few API calls away.
 
-*Learn more in* [*our docs*](https://platform.claude.com/docs/en/managed-agents/overview)*.*
+*Learn more in [our docs](https://platform.claude.com/docs/en/managed-agents/overview).*
 
-No items found.
-
-[Prev](https://claude.com/blog/product-development-in-the-agentic-era)Prev
-
-0/5
-
-[Next](https://claude.com/blog/product-development-in-the-agentic-era)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-### How Warp builds self-improving agents on Claude
-
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/product-development-in-the-agentic-era)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 29, 2026
+[ArticleSep 29, 2026
 
 ### Agents you can coach: how Asana builds human-agent teams with Claude
 
-Agents
+Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
+‍
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/product-development-in-the-agentic-era)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+### A new approach to agent security with Claude Managed Agents and NVIDIA
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
 
-Sep 28, 2026
-
-### Giving companies more control over their AI agents, with NVIDIA
-
-Agents
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/product-development-in-the-agentic-era)Giving companies more control over their AI agents, with NVIDIA
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Sep 8, 2026
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
 
 ### Reducing cost and improving performance with Claude Platform
 
-Agents
+Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/product-development-in-the-agentic-era)Reducing cost and improving performance with Claude Platform
+Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
+### A guide to the anatomy of effective commerce agents
+
+The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
+
+Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/product-development-in-the-agentic-era)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

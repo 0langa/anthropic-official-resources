@@ -1,33 +1,13 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229e73ca2d0d73d78f7_682ac293884c9d4ee4ebe2355a2f6c4ecfdd9c1b-1000x1000.svg)
-
 # Loop engineering: Getting started with loops
 
 Learn how the Claude Code team defines agentic loops, with practical guidance on progressing from turn-based to goal-based, time-based, and proactive loops—and when to use each.
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  June 30, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/getting-started-with-loops)
-
-  https://claude.com/blog/getting-started-with-loops
-- Author(s)
-
-  Delba de Oliveira
-
-  Michael Segner
+- Category[Best practices](https://claude.com/resources/best-practices), [Perspectives](https://claude.com/resources/perspectives)
+- ProductClaude Code
+- AuthorsDelba de Oliveira, Michael Segner
+- DateJune 30, 2026
+- Reading time2 min
+- ShareCopy link
 
 ## Getting started with loops
 
@@ -42,47 +22,9 @@ On the Claude Code team, we define **loops as agents repeating cycles of work un
 
 We’ll cover the main loop types, when to use each, and how to maintain code quality while managing token usage. Not all tasks require complex loops; start with the simplest solution and use these patterns selectively.
 
-No items found.
-
-[Prev](https://claude.com/blog/getting-started-with-loops)Prev
-
-0/5
-
-[Next](https://claude.com/blog/getting-started-with-loops)Next
-
-Get Claude Code
-
-curl -fsSL https://claude.ai/install.sh | bash
-
-Copy command to clipboard
-
-irm https://claude.ai/install.ps1 | iex
-
-Copy command to clipboard
-
-Or read the [documentation](https://code.claude.com/docs/en/overview)
-
-Try Claude Code
-
-[Try Claude Code](https://claude.ai/code)Try Claude Code
-
-Developer docs
-
-[Developer docs](https://code.claude.com/docs/en/overview)Developer docs
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
 ## **Turn-based loops**
 
-![Di](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a43eb603762e725a739d98c_8ace2295.png)
+![Di](https://assets.claude.com/84b1736ddd601209f65849c09d999d15bb4ccb96.png)
 
 - **Triggered by**: A user prompt.
 - **Stop criteria**: Claude judges it has completed the task or needs additional context.
@@ -93,11 +35,13 @@ Every prompt you send starts a manual loop with you directing each turn. Claude 
 
 For example, ask Claude to create a like button. It reads your code, makes the edit, runs the tests, and hands back something it *believes* works. You then manually check the work, and write the next prompt.
 
-You can improve the verification step by encoding your manual steps as a SKILL.md so Claude can check more of its own work, end-to-end. (For choosing between skills, hooks, and subagents for this kind of automation, see our guide to [steering Claude Code](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more).)
+You can improve the verification step by encoding your manual steps as a SKILL.md so Claude can check more of its own work, end-to-end. (For choosing between skills, hooks, and subagents for this kind of automation, see our guide to [steering Claude Code](https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more).)
 
 This should include tools or connectors to allow Claude to *see*, *measure* or *interact* with the result. The more quantitative the checks are, the easier it is for Claude to self-verify.
 
 For example, in your SKILL.md file you may specify:
+
+Copy
 
 ```
 --- 
@@ -121,7 +65,7 @@ If any step fails, fix the issue and rerun from step 1 — do not hand back part
 
 ## **Goal-based loop (/goal)**
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a43eb603762e725a739d98f_c6fa9ae5.png)
+![](https://assets.claude.com/0c0fab39c03f3bef320d3a017d73ecd8592dd7b6.png)
 
 - **Triggered by**: A manual prompt in real-time.
 - **Stop criteria**: Goal achieved OR maximum number of turns reached.
@@ -135,6 +79,8 @@ When you define the success criteria, Claude doesn’t have to make a determinat
 This is why deterministic criteria, such as number of tests passed or clearing a certain score threshold, are so effective.
 
 For example:
+
+Copy
 
 ```
 /goal get the homepage Lighthouse score to 90 or above, stop after 5 tries.
@@ -151,15 +97,17 @@ Some agentic work is recurring: the task stays the same and only the inputs chan
 
 For these, you can trigger when Claude runs with `/loop` which re-runs a prompt on an interval. For example:
 
+Copy
+
 ```
 /loop 5m check my PR, address review comments, and fix failing CI
 ```
 
-`/loop` runs on your computer, so if you turn it off, it stops. You can move the loop to the cloud by creating a routine with  `/schedule`.
+`/loop` runs on your computer, so if you turn it off, it stops. You can move the loop to the cloud by creating a routine with `/schedule`.
 
 ## **Proactive loops**
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a43eb603762e725a739d989_eb9e496a.png)
+![](https://assets.claude.com/1df86a865356e379c8eb780517c24479c0f59489.png)
 
 - **Triggered by**: An event or schedule, with no human in real time.
 - **Stop criteria**: Each task exits when its goal is met. The routine itself runs until you turn it off.
@@ -177,6 +125,8 @@ For example, to handle incoming feedback, you can use:
 
 Putting it together, a prompt could look like this:
 
+Copy
+
 ```
 /schedule every hour: check #project-feedback for bug reports. /goal: don't stop until every report found this run is triaged, actioned, and responded to. When fixing a bug, use a workflow to explore three solutions in parallel worktrees and have a judge adversarially review them.
 ```
@@ -188,7 +138,7 @@ The quality of a loop’s output depends on the system around it. When designing
 - **Keep the codebase itself clean**: Claude follows patterns and conventions that already exist in your codebase.
 - **Give Claude a way to verify its own work**: Encode what good looks like for you and your team with [skills](https://code.claude.com/docs/en/skills).
 - **Make docs easy to reach:** Frameworks and libraries docs have up-to-date best practices.
-- **Use a second agent for code reviews**: A reviewer with fresh context is less biased and not influenced by the main agent’s reasoning. You can use the built-in `/code-review` skill or [Code Review](https://code.claude.com/docs/en/code-review) for Github. Loops that write code need loops that check it — see [how Anthropic secures an AI-native SDLC](https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle).
+- **Use a second agent for code reviews**: A reviewer with fresh context is less biased and not influenced by the main agent’s reasoning. You can use the built-in `/code-review` skill or [Code Review](https://code.claude.com/docs/en/code-review) for Github. Loops that write code need loops that check it — see [how Anthropic secures an AI-native SDLC](https://claude.com/resources/articles/how-anthropic-secures-its-ai-native-software-development-lifecycle).
 
 When an individual result doesn’t meet the standard, don’t stop at fixing the individual issue, try to encode it to improve the system for all future iterations.
 
@@ -203,131 +153,58 @@ To manage token usage, loops should have clear boundaries:
 - **Don’t run routines more often that you need to:** Match the interval to how often the thing you’re watching changes
 - **Review usage:** The `/usage` command breaks down recent usage by skills, subagents, and MCPs, `/goal` with no arguments shows number of turns and token usage so far, `/workflows` shows each agent’s token usage and you can stop an agent at any time.
 
-Your [model and effort level](https://claude.com/blog/claude-model-and-effort-level-in-claude-code) choices are among the biggest levers on what a loop costs.
+Your [model and effort level](https://claude.com/resources/articles/claude-model-and-effort-level-in-claude-code) choices are among the biggest levers on what a loop costs.
 
 ## **Getting started**
 
 To summarize:
 
-<table>
-<thead>
-<tr>
-<th>Loop</th>
-<th>You hand off</th>
-<th>Use it when</th>
-<th>Reach for</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Turn-based</td>
-<td>The check</td>
-<td>You're exploring or deciding</td>
-<td>Custom verification skills</td>
-</tr>
-<tr>
-<td>Goal-based</td>
-<td>The stop condition</td>
-<td>You know what done looks like</td>
-<td><code>/goal</code></td>
-</tr>
-<tr>
-<td>Time-based</td>
-<td>The trigger</td>
-<td>The work happens outside your project on a schedule</td>
-<td><code>/loop</code>, <code>/schedule</code></td>
-</tr>
-<tr>
-<td>Proactive</td>
-<td>The prompt</td>
-<td>The work is recurring and well-defined</td>
-<td>All of the above, and dynamic workflows</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Loop</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">You hand off</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Use it when</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Reach for</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Turn-based</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">The check</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">You're exploring or deciding</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Custom verification skills</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Goal-based</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">The stop condition</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">You know what done looks like</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">/goal</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Time-based</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">The trigger</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">The work happens outside your project on a schedule</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">/loop, /schedule</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Proactive</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">The prompt</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">The work is recurring and well-defined</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">All of the above, and dynamic workflows</span></td></tr></tbody></table>
 
 To get started with loops, look at the work you already do. Pick one task where you’re the bottleneck and ask which piece you could hand off: can you write the verification check? Is the goal clear enough? Does the work arrive on a schedule?
 
 Once you have an idea, run the loop, observe the results like where it stalls or over-reaches, and don’t be afraid to iterate on it.
 
-For more information, read the Claude Code docs on [running agents in parallel,](https://code.claude.com/docs/en/agents) as well as the [loop](https://code.claude.com/docs/en/goal), [schedule](https://code.claude.com/docs/en/routines), [goal](https://code.claude.com/docs/en/goal), and [dynamic workflows](https://code.claude.com/docs/en/workflows) pages. To make your checks repeatable across sessions, see [building verification loops in Claude Code with skills](https://claude.com/blog/building-verification-loops-in-claude-code-with-skills).
+For more information, read the Claude Code docs on [running agents in parallel,](https://code.claude.com/docs/en/agents) as well as the [loop](https://code.claude.com/docs/en/goal), [schedule](https://code.claude.com/docs/en/routines), [goal](https://code.claude.com/docs/en/goal), and [dynamic workflows](https://code.claude.com/docs/en/workflows) pages. To make your checks repeatable across sessions, see [building verification loops in Claude Code with skills](https://claude.com/resources/articles/building-verification-loops-in-claude-code-with-skills).
 
 *This article was written by Delba de Oliveira and Michael Segner*
 
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/getting-started-with-loops)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
-
-Sep 24, 2026
+[ArticleSep 24, 2026
 
 ### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-Claude Code
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/getting-started-with-loops)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-Sep 23, 2026
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-### How to prepare for AI-driven code modernization projects
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-Enterprise AI
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/getting-started-with-loops) How to prepare for AI-driven code modernization projects
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
+### The Claude Code guide for startups
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/getting-started-with-loops)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/getting-started-with-loops)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

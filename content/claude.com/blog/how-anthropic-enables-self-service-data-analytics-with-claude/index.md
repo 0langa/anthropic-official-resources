@@ -1,37 +1,11 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)
-
 # How Anthropic enables self-service data analytics with Claude
 
-- Category
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  June 3, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude)
-
-  https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude
-- Author(s)
-
-  Josh Cherry
-
-  Clement Peng
-
-  Johanne Jiao
-
-  Justin Leder
-
-  Chen Chang
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code
+- AuthorsJosh Cherry, Clement Peng , Johanne Jiao, Justin Leder, Chen Chang
+- DateJune 3, 2026
+- Reading time5 min
+- ShareCopy link
 
 As many data science and data engineering teams can attest, enabling self-service data analytics has traditionally been a slog.
 
@@ -57,77 +31,34 @@ LLMs' generative abilities are a double-edged sword: the mechanisms that enable 
 
 Coding is an open-ended solution space that rewards the models' creativity, while documentation and tests provide natural guardrails against hallucination. In contrast, for analytics use cases, there’s often only a single correct answer using a single correct source in which there’s no deterministic way of proving the correctness.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a20480bedac32484c00d6b9_4a7645b6.png)
+![](https://assets.claude.com/21d2ac79b6483d9c14944a94123ea9ffe7fd2f9b.png)
 
 For self-service agentic business analytics, the complexity mainly lies in the ambiguity of the data. The central problem comes down to our ***ability to map a user’s question to specific and up-to-date entities in our data model and know the correct way of working with them***. If we can do that, then the resulting execution and SQL becomes trivial.
 
 We’ve identified three attributes of this problem that account for an overwhelming majority of inaccurate responses:
 
 1. **Concept <> entity ambiguity**: with hundreds of viable options in a data model (out of potentially millions of fields), the agent is unable to choose the correct fields that best answer a user’s question. For example, in measuring the number of active users: what actions constitute being “active”? Do you include fraudulent users? What lookback window do you use?
-
 2. **Data staleness**: data sources, business definitions, and schemas change constantly; assets and agent knowledge go stale and start returning subtly wrong answers.
-
 3. **Retrieval failure**: the right information may actually be in the data model and properly annotated, but given the vastness of the search space, the agent simply doesn’t find it.
-
-No items found.
-
-[Prev](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude)Prev
-
-0/5
-
-[Next](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude)Next
-
-Get Claude Code
-
-curl -fsSL https://claude.ai/install.sh | bash
-
-Copy command to clipboard
-
-irm https://claude.ai/install.ps1 | iex
-
-Copy command to clipboard
-
-Or read the [documentation](https://code.claude.com/docs/en/overview)
-
-Try Claude Code
-
-[Try Claude Code](https://claude.ai/code)Try Claude Code
-
-Developer docs
-
-[Developer docs](https://code.claude.com/docs/en/overview)Developer docs
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
 
 ## **Our agentic self-service analytics stack**
 
 At Anthropic, the main way we minimize these three errors is via our agentic data stack. Each layer exists primarily to attack one or more of these problems:
 
 1. **Entity ambiguity**: data foundations and sources of truth shrink the space of plausible entities until there's a single governed answer.
-
 2. **Staleness**: maintenance and validation processes keep everything from rotting as the business changes.
-
 3. **Retrieval failure**: skills make sure the agent reliably finds and correctly uses that answer.
 
 In this section, we’ll discuss how we built each layer.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a2049920443016925a3ef72_74528df2.png)
-
-> For ad-hoc questions asked directly in Slack, see how our data team deploys a [data analytics agent with Claude Tag](https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions).
+![](https://assets.claude.com/9f76b807b5c27e806bb3995890888675b8325c67.png)
+> “For ad-hoc questions asked directly in Slack, see how our data team deploys a data analytics agent with Claude Tag.”
 
 ### **Data foundations**
 
 The most important aspect of ensuring analytics agents are accurate is via strong data foundations, which include the data models, transforms, tests, and tables in a data warehouse, along with the metadata describing them. Standard data engineering and data quality practices such as [dimensional modeling](https://en.wikipedia.org/wiki/Dimensional_modeling), shift-left testing, freshness and completeness checks on critical pipelines all still apply (and we won't relitigate these).
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a2049920443016925a3ef75_98412372.png)
+![](https://assets.claude.com/05e220dc1de7b0ce4a20b4926aba1bec84963d5d.png)
 
 Standard data engineering practices like dimensional modeling are just as important as they ever were.
 
@@ -139,7 +70,7 @@ We’ve seen a few practices work especially well:
 
 - **Create canonical datasets**: By far the most common failure is that the agent can’t map a concept (“revenue for product X”) to the single correct table, column, and metric definition, usually because there are multiple plausible candidates with subtly different implementations. The fix is fewer, more heavily governed logical models: curate a small set of canonical, single source-of-truth datasets that are clearly owned, consumption-ready, and discoverable, then aggressively deprecate the near-duplicates. Physical rollups and caches still matter for cost and performance, but they should derive mechanically from the canonical models rather than living alongside them as alternatives. The goal is that when an agent searches for a concept, it finds a single governed answer.
 - **Enforce your standards**: We’ve found the foundations only hold if the canonical models and metric definitions are enforced by *tooling* (the agent is structurally routed to them first; more on that below), by *CI* (changes that bypass them fail review), and by *mandate* (downstream teams build on the governed layer or explain why not). Governance without enforcement otherwise quickly decays back to the multiple candidates problem.
-- **Colocate artifacts**: Our main defense against constantly changing data models and business logic is colocation. Nearly all data code (i.e., modeling, semantic layer, reference docs, canonical dashboard definitions) lives in a single repo, with CI checks that protect cross-layer integrity. If a modeling change would break a downstream dashboard or invalidate a documented metric, CI flags it and the fix ships in the same PR. (We’ll come back to the mechanics of this in the **Skills** sectionbelow.)
+- **Colocate artifacts**: Our main defense against constantly changing data models and business logic is colocation. Nearly all data code (i.e., modeling, semantic layer, reference docs, canonical dashboard definitions) lives in a single repo, with CI checks that protect cross-layer integrity. If a modeling change would break a downstream dashboard or invalidate a documented metric, CI flags it and the fix ships in the same PR. (We’ll come back to the mechanics of this in the **Skills** section below.)
 - **Treat metadata as a first-class product**: Coding agents perform well partly because codebases are *legible*: READMEs, type signatures, docstrings, etc. Your warehouse can be just as legible, but only if column and table descriptions, canonical metric definitions, grain documentation, valid value ranges, lineage, ownership, and model tiering are maintained with the same rigor as the transformations themselves. While not a new insight, good governance provides critical context that helps the agent choose the right dataset.
 
 ### **Sources of truth**
@@ -166,6 +97,8 @@ Some best practices:
 **Create pairwise skills:** a ***knowledge*** skill acts as a thin top-level router that allows additional domain details to load on demand. It says "try the semantic layer first, but if there’s no coverage, here are ~30 reference files for this domain describing the relevant tables, columns, joins and gotchas.” This router is, in effect, our answer to retrieval failure: rather than letting the agent search a million-field warehouse, it narrows the space to a few dozen curated files before a query is ever written. The ***runbook*** skill encodes the process a senior analyst would follow: clarify the question, find sources (via the knowledge skill), run the query, and then loop the result through adversarial review sub-agents. It also bundles a dozen reusable analysis patterns (retention curves, rate decomposition, funnel analysis) so that common requests don't get reinvented each time.
 
 **Create proper reference docs**: written for retrieval by an LLM. Our reference docs describe tables (grain, scope, and exclusions), the mechanics of gotchas (e.g., “exclude known free-email domains, but keep custom ones like anthropic.com”), and explicit routing triggers (e.g., “IF the question is about experiment lift… DO NOT use for raw event counts”) without prescriptive recipes that go stale. See below for a skeleton we use to create reference docs.
+
+Copy
 
 ```
 # [Domain] Tables
@@ -263,6 +196,8 @@ Whatever your route, our greatest gains have come from addressing each of the th
 #### **Skill File Skeleton**
 
 What follows is the skeleton of our main warehouse skill: the real file's structure, with internal specifics replaced by [bracketed placeholders]. It isn't meant to be copied verbatim; it's meant to show the kinds of sections we found worth writing down.
+
+Copy
 
 ```
 ---
@@ -406,80 +341,43 @@ semantic-layer path is shown not to cover the ask.
 - [… a dozen more hard-won one-liners …]
 ```
 
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
+[ArticleSep 30, 2026
 
 ### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
-Enterprise AI
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How to prepare for AI-driven code modernization projects
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-May 21, 2026
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
 
-### Claude now works with more security and compliance tools
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
-Enterprise AI
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude)Claude now works with more security and compliance tools
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
 
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

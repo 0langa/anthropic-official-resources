@@ -1,6 +1,6 @@
 # Pricing and billing
 
-4 articles
+5 articles
 
 [How do I pay for my Claude API usage?](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage)
 
@@ -9,3 +9,5 @@
 [Add or update your Claude Console organization's tax or VAT ID](https://support.claude.com/en/articles/9889428-add-or-update-your-claude-console-organization-s-tax-or-vat-id)
 
 [Understanding your Claude API invoices](https://support.claude.com/en/articles/16608069-understanding-your-claude-api-invoices)
+
+[Monthly API credits for Max and Team plans](https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans)

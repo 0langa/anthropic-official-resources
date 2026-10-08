@@ -1,32 +1,16 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
-
 # Piloting Claude in Chrome
 
 We're piloting Claude in Chrome to test browser-based AI capabilities while addressing prompt injection risks and building the safety measures needed before wider release.
 
 ‍
 
-- Category
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude apps
+- DateAugust 25, 2025
+- Reading time9 min
+- ShareCopy link
 
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  Claude apps
-- Date
-
-  August 25, 2025
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/claude-for-chrome)
-
-  https://claude.com/blog/claude-for-chrome
-
-***Update: Now available to Pro, Team, and Enterprise plans*** *(Dec 18, 2025)*
+***Update: Now available to Pro, Team, and Enterprise plans** (Dec 18, 2025)*
 
 After months of real-world testing, we're ready to expand to all paid plans. We've also shipped our most requested feature: an integration for **Claude Code**. Build in your terminal, verify in your browser, and debug with Claude reading console errors and DOM state directly.
 
@@ -34,9 +18,9 @@ After months of real-world testing, we're ready to expand to all paid plans. We'
 
 ‍
 
-***Update: Now available to all Max plan subscribers*** *(Nov 24, 2025)*
+***Update: Now available to all Max plan subscribers** (Nov 24, 2025)*
 
-*After three months of testing,* [*Claude in Chrome*](https://claude.ai/chrome) *is now available in beta to all Max plan subscribers. Since the research preview, we've shipped major updates including scheduled tasks, multi-tab workflows, and smarter navigation on sites you use every day. Read our* [*release notes*](https://support.claude.com/en/articles/12306336-claude-for-chrome-release-notes) *for the full list of updates, and our* [*safety blog*](http://anthropic.com/research/prompt-injection-defenses) *for details on prompt injection defenses and learnings from the pilot.*
+*After three months of testing, [Claude in Chrome](https://claude.ai/chrome) is now available in beta to all Max plan subscribers. Since the research preview, we've shipped major updates including scheduled tasks, multi-tab workflows, and smarter navigation on sites you use every day. Read our [release notes](https://support.claude.com/en/articles/12306336-claude-for-chrome-release-notes) for the full list of updates, and our [safety blog](http://anthropic.com/research/prompt-injection-defenses) for details on prompt injection defenses and learnings from the pilot.*
 
 ‍
 
@@ -50,7 +34,7 @@ Browser-using agents powered by frontier models are already emerging, making thi
 
 We’re starting with controlled testing: **a Claude extension for Chrome where trusted users can instruct Claude to take actions on their behalf within the browser.** We're piloting with 1,000 Max plan users—[join the waitlist](http://claude.ai/chrome)—to learn as much as we can. We'll gradually expand access as we develop stronger safety measures and build confidence through this limited preview.
 
-Embedded media: https://www.youtube.com/embed/mCj4kx\_P2Ak
+Embedded media: https://www.youtube-nocookie.com/embed/mCj4kx\_P2Ak?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 ### Considerations for browser-using AI
 
@@ -64,15 +48,15 @@ We conducted extensive adversarial prompt injection testing, evaluating 123 test
 
 One example of a successful attack—before our new defenses were applied—was a malicious email claiming that, for security reasons, emails needed to be deleted. When processing the inbox, Claude followed these instructions to delete the user’s emails without confirmation.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d90c3728899c99ce194_5e46f0fa8e0ed4a6d71333dba95e1ff6aa64c5b1-1920x1030.png)
+![](https://assets.claude.com/5e46f0fa8e0ed4a6d71333dba95e1ff6aa64c5b1.png)
 
 Claude encounters the malicious email, which mimics an employer asking for emails to be deleted for "mailbox hygiene,"and claims "no additional confirmation required."
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d91c3728899c99ce199_5169a802140e293fdbc96706b4eb73e948084574-1920x1030.png)
+![](https://assets.claude.com/5169a802140e293fdbc96706b4eb73e948084574.png)
 
 Claude proceeds to act on the instructions without confirmation, selecting and deleting the user's emails "as requested by the security team."
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d91c3728899c99ce1aa_d2a23a7e8cd07f47eda84ac44135f770d624915f-1920x1030.png)
+![](https://assets.claude.com/d2a23a7e8cd07f47eda84ac44135f770d624915f.png)
 
 Our new mitigations successfully defend against this particular attack. Claude recognizes that "this is a suspicious security incident email that appears to be a phishing attempt," and does not act on it.
 
@@ -91,7 +75,7 @@ Additionally, we’ve blocked Claude from using websites from certain high-risk 
 
 When we added safety mitigations to autonomous mode, we reduced the attack success rate of 23.6% to 11.2%, which represents a meaningful improvement over our existing Computer Use capability (where Claude could see the user’s screen but without the browser interface that we’re introducing today).
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d91c3728899c99ce19d_b88d1e1c0c196dd012a7d44c5ae8d255d8a20822-3840x2160.png)
+![](https://assets.claude.com/6f7a5b3eefb24ab09995198ab8b2fc29362b3e28.png)
 
 Prompt injection attack success rates across three scenarios: our older computer use capability, our new browser use product with only previous safety mitigations, and our new browser use product with new mitigations (lower scores are better). Our safety improvements reduced browser attack success rates below computer use levels.
 
@@ -107,104 +91,46 @@ We'll use insights from the pilot to refine our prompt injection classifiers and
 
 For the pilot, we’re looking for trusted testers who are comfortable with Claude taking actions in Chrome on their behalf, and who don’t have setups that are safety-critical or otherwise sensitive.
 
-**If you’d like to take part, you can join the Claude in Chrome research preview waitlist at** [**claude.ai/chrome**](http://claude.ai/chrome)**.** Once you have access, you can install the extension from the Chrome Web Store and authenticate with your Claude credentials.
+**If you’d like to take part, you can join the Claude in Chrome research preview waitlist at [claude.ai/chrome](http://claude.ai/chrome).** Once you have access, you can install the extension from the Chrome Web Store and authenticate with your Claude credentials.
 
 We recommend starting with trusted sites—always be mindful of the data that’s visible to Claude—and avoiding use of Claude in Chrome for sites that involve financial, legal, medical, or other types of sensitive information. You can find a detailed safety guide [in our Help Center](https://support.anthropic.com/en/articles/12012173-getting-started-with-claude-for-chrome).
 
 We hope that you’ll share your feedback to help us continue to improve both the capabilities and safeguards for Claude in Chrome—and help us take an important step towards a fundamentally new way to integrate AI into our lives.
 
-No items found.
-
-[Prev](https://claude.com/blog/claude-for-chrome)Prev
-
-0/5
-
-[Next](https://claude.com/blog/claude-for-chrome)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/claude-for-chrome)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-chrome)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
 ### Build plugins for Claude
 
-Product announcements
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-[Build plugins for Claude](https://claude.com/blog/claude-for-chrome)Build plugins for Claude
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
+### Claude Tag now supports personal connectors in channels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-for-chrome)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/claude-for-chrome)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

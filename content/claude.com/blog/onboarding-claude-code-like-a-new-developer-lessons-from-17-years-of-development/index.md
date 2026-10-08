@@ -1,34 +1,18 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
 # Onboarding Claude Code like a new developer: Lessons from 17 years of development
 
 The methodology that onboards new developers to MacCoss Lab's 700,000-line codebase works on Claude Code, too. Here's how Brendan MacLean, a Claude Developer Ambassador whose lab is part of our [Claude for Open Source](https://claude.com/contact-sales/claude-for-oss) program, did it.
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  April 28, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development)
-
-  https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development
+- Category[Best practices](https://claude.com/resources/best-practices), [Perspectives](https://claude.com/resources/perspectives)
+- ProductClaude Code
+- DateApril 28, 2026
+- Reading time10 min
+- ShareCopy link
 
 [Skyline](https://skyline.ms/home/software/Skyline/wiki-page.view?name=team), the open source protein analysis software maintained by principal developer Brendan MacLean at the University of Washington's MacCoss Lab, has been in active development since 2008. Skyline helps researchers detect and quantify proteins in things like blood plasma and tissue, which is vital for biomarker discovery, disease research, and drug development. The MacCoss Lab codebase contains 700,000+ lines of C#, maintained for 17 years by a small team running 200,000+ automated nightly tests.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69ef9d6a1af11e710950d666_e16f087b.png)
+![](https://assets.claude.com/09cbdf2aad8d5540176ec97e84281f4a24a1f686.png)
 
-*A 3D illustration of the Seattle skyline created in Blender, representing the home of the University of Washington's MacCoss Lab, where Brendan MacLean and his team have developed and maintained Skyline since 2008. Claude helped Brendan add the Claude logo in the back. Image courtesy of MacCoss lab.*
+A 3D illustration of the Seattle skyline created in Blender, representing the home of the University of Washington's MacCoss Lab, where Brendan MacLean and his team have developed and maintained Skyline since 2008. Claude helped Brendan add the Claude logo in the back. Image courtesy of MacCoss lab.
 
 For nearly three decades, Brendan has been Skyline’s connective tissue, onboarding dozens of undergrads, grad students, and postdocs to the lab.\*
 
@@ -54,9 +38,9 @@ He moved all AI context into its own repository, [pwiz-ai](https://github.com/Pr
 
 The expertise lives in [skills,](https://agentskills.io/home) an open format for giving agents capabilities and expertise. His `debugging` skill, for example, is designed to pull Claude out of what he calls "guess and test" mode, pushing it toward root cause analysis before attempting any fix. Skills can be triggered manually or automatically; Brendan tunes his most critical ones with explicit conditions—the `debugging` skill description reads "ALWAYS load when investigating bugs, failures, or unexpected behavior."
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69ef9d6a1af11e710950d669_24e72102.png)
+![](https://assets.claude.com/40f63554a290e65424901bfad5aa0d0749d3c5b0.png)
 
-*The pwiz-ai repository structure, showing how context, skills, and MCP integrations connect to Skyline's codebase. Image courtesy of MacCoss lab.*
+The pwiz-ai repository structure, showing how context, skills, and MCP integrations connect to Skyline's codebase. Image courtesy of MacCoss lab.
 
 With context established, the overhead of teaching Claude the ins and outs of debugging the codebase becomes significantly less steep. Claude already knows what the code does. The interaction starts from understanding rather than from zero.
 
@@ -78,15 +62,15 @@ Screenshot reproduction for Skyline's 2,000+ tutorial images is now fully automa
 
 Claude also wrote the MCP server in Python to make this capability possible, drawing from three separate relational data streams on a LabKey Server, team email, and code with release tags on GitHub.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69ef9d6a1af11e710950d66f_29befb00.png)
+![](https://assets.claude.com/0ff1409f39a8033931c94fea35040a15c9b8f19b.png)
 
-*A daily summary email generated automatically by Claude Code, pulling from Skyline's nightly test infrastructure. Image courtesy of MacCoss lab.*
+A daily summary email generated automatically by Claude Code, pulling from Skyline's nightly test infrastructure. Image courtesy of MacCoss lab.
 
-Brendan's developers are now barely writing code themselves, largely instructing Claude Code instead, and use the tool to autonomously generate  automation scripts and MCP implementations. For instance, a developer in the lab who had been skeptical of agentic coding tools built and shipped a new plotting extension—a mobilogram pane for visualizing ion mobility data—and credited Claude Code.
+Brendan's developers are now barely writing code themselves, largely instructing Claude Code instead, and use the tool to autonomously generate automation scripts and MCP implementations. For instance, a developer in the lab who had been skeptical of agentic coding tools built and shipped a new plotting extension—a mobilogram pane for visualizing ion mobility data—and credited Claude Code.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69ef9d6a1af11e710950d66c_0712da57.png)
+![](https://assets.claude.com/2f0cdd124719c62695d2d30f7cdd9381e7079bf2.png)
 
-*The mobilogram pane was built with Claude Code, visualizing ion mobility data alongside mass spectrometry results. Image courtesy of MacCoss lab.*
+The mobilogram pane was built with Claude Code, visualizing ion mobility data alongside mass spectrometry results. Image courtesy of MacCoss lab.
 
 "I am seeing almost everyone taking on fun new features that they might have felt too buried in other work to attempt," says Brendan.
 
@@ -106,9 +90,10 @@ Brendan keeps the AI context in a separate repository because it grows at a diff
 
 Use [skills](https://claude.ai/skills) to encode domain knowledge any Claude instance can load. Brendan's skills follow a "reference do not embed" principle: each skill points into a central documentation knowledgebase rather than duplicating content, keeping them lightweight and easy to maintain.
 
-His most-used include: a`skyline-development`skill that orients Claude to the project and its documentation; a `version-control`skill that encodes project-specific commit and PR conventions; and a`debugging`skill designed to pull Claude out of "guess and test" mode, pushing it toward root cause analysis before attempting any fix.
+His most-used include: a `skyline-development` skill that orients Claude to the project and its documentation; a `version-control` skill that encodes project-specific commit and PR conventions; and a `debugging` skill designed to pull Claude out of "guess and test" mode, pushing it toward root cause analysis before attempting any fix.
 
 **Use MCP integrations when data access is key**  
+  
 Build [MCP integrations](https://anthropic.com/engineering/mcp) where Claude needs access to real data: test results, exception reports, support threads.
 
 For open source projects, building and maintaining a context layer carries particular weight. There's no onboarding budget, no institutional memory beyond what gets written down, no guarantee that any contributor will still be around next year. Context, once built, is available to every contributor and persists across the project's lifetime in a way that human institutional knowledge never does. The `pwiz-ai` repository is itself an open source artifact—context that belongs to the project, not any one contributor, and outlasts everyone who built it.
@@ -123,118 +108,42 @@ Once knowledgeable enough about a codebase, engineers can work across branches a
 
 *\*Dario Amodei, co-founder of Anthropic, was previously a member of the MacCoss Lab.*
 
-No items found.
-
-[Prev](https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development)Prev
-
-0/5
-
-[Next](https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-Get Claude Code
-
-curl -fsSL https://claude.ai/install.sh | bash
-
-Copy command to clipboard
-
-irm https://claude.ai/install.ps1 | iex
-
-Copy command to clipboard
-
-Or read the [documentation](https://code.claude.com/docs/en/overview)
-
-Try Claude Code
-
-[Try Claude Code](https://claude.ai/code)Try Claude Code
-
-Developer docs
-
-[Developer docs](https://code.claude.com/docs/en/overview)Developer docs
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
-
-Sep 24, 2026
+[ArticleSep 24, 2026
 
 ### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-Claude Code
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-Sep 23, 2026
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-### How to prepare for AI-driven code modernization projects
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-Enterprise AI
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development) How to prepare for AI-driven code modernization projects
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
+### The Claude Code guide for startups
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

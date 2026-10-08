@@ -1,68 +1,22 @@
-Guide: Building AI agents for financial services
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d2d09b203c164ad8e6_og-claude-education.jpg)
-
-Learn how teams at NBIM, Brex, and more build reliable AI agents with Claude on AWS Bedrock.
-
-Read more
-
-[Read more](https://resources.anthropic.com/financial-services-guide-aws-anthropic)Read more
-
-Guide: Building AI agents for financial services
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-[Next](https://claude.com/blog/building-ai-agents-in-financial-services)Next
-
-Learn how teams at NBIM, Brex, and more build reliable AI agents with Claude on AWS Bedrock.
-
-Read more
-
-[Read more](https://resources.anthropic.com/financial-services-guide-aws-anthropic)Read more
-
-[Next](https://claude.com/blog/building-ai-agents-in-financial-services)Next
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-Guide: Building AI agents for financial services
-
-Learn how teams at NBIM, Brex, and more build reliable AI agents with Claude on AWS Bedrock.
-
-Read more
-
-[Read more](https://resources.anthropic.com/financial-services-guide-aws-anthropic)Read more
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
-
 # Building AI agents for financial services
 
 Financial institutions are deploying autonomous AI systems to improve operations while navigating regulatory complexity and risk. Here's how.
 
 ‍
 
-- Category
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Platform
+- DateOctober 30, 2025
+- Reading time16 min
+- ShareCopy link
 
-  [Agents](https://claude.com/blog/category/agents)
+Guide: Building AI agents for financial services
 
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
+![Guide: Building AI agents for financial services](https://assets.claude.com/b3e6d0547ee5dc0654c639ece4b89778e2edb536.jpg?w=2400&q=75&fm=webp&fit=max)
 
-  [Claude Platform](https://claude.com/platform/api)
-- Date
+Learn how teams at NBIM, Brex, and more build reliable AI agents with Claude on AWS Bedrock.
 
-  October 30, 2025
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/building-ai-agents-in-financial-services)
-
-  https://claude.com/blog/building-ai-agents-in-financial-services
+[Read more](https://resources.anthropic.com/financial-services-guide-aws-anthropic)
 
 In financial services, AI agents are moving beyond pilot programs to deliver concrete business value.
 
@@ -197,7 +151,7 @@ For customers, transparency matters. Make it clear when they're interacting with
 
 Internal adoption follows similar principles. Your organization already has change management processes for new systems. Apply them here. Staff need to understand how agents work, when to trust their recommendations, and how to escalate concerns.
 
-Frame the conversation around enhancement rather than replacement. For example, [Block's internal AI agent](https://www.claude.com/customers/block) reached 4,000 active users out of 10,000 employees across 15 different job profiles (sales, design, product, customer success, and operations). Adoption doubled in one month, with user engagement increasing 40-50% weekly as employees found new ways to use it.
+Frame the conversation around enhancement rather than replacement. For example,[Block's internal AI agent](https://www.claude.com/customers/block) reached 4,000 active users out of 10,000 employees across 15 different job profiles (sales, design, product, customer success, and operations). Adoption doubled in one month, with user engagement increasing 40-50% weekly as employees found new ways to use it.
 
 The most successful implementations emphasize how AI enhances human capabilities rather than replacing them.
 
@@ -218,110 +172,53 @@ AI agents represent a significant opportunity to address persistent challenges i
 
 The path forward demands partnership between technology and business teams. Financial services leaders who prioritize customer protection through robust testing and escalation pathways, and build modular systems that evolve with advancing AI capabilities, will lead the way.
 
-No items found.
-
-[Prev](https://claude.com/blog/building-ai-agents-in-financial-services)Prev
-
-0/5
-
-[Next](https://claude.com/blog/building-ai-agents-in-financial-services)Next
-
 eBook
 
-## Building agents for financial services
+### Building agents for financial services
 
 Learn how organizations like NBIM, Brex, and Verisk build and deply AI agents at scale with Claude in AWS Bedrock.
 
-Read more
+[Read more](https://resources.anthropic.com/financial-services-guide-aws-anthropic)
 
-[Read more](https://resources.anthropic.com/financial-services-guide-aws-anthropic)Read more
+![](https://assets.claude.com/0aaa5105e0455d906692cdb66495b33298006232.png)
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68ffd95af5c498de12cec08f_Illustration_%20Hero.png)![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68ffd965c559dbdf414d5818_%5Bname-of-illustration%5D-dark.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-Learn more about how organizations like Visa, Citi, and NBIM are transforming their industries with Claude for Financial Services.
-
-See here
-
-[See here](https://claude.com/solutions/financial-services)See here
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-### How Warp builds self-improving agents on Claude
-
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/building-ai-agents-in-financial-services)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/building-ai-agents-in-financial-services)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
-
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-Enterprise AI
-
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/building-ai-agents-in-financial-services)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 29, 2026
+[ArticleSep 29, 2026
 
 ### Agents you can coach: how Asana builds human-agent teams with Claude
 
-Agents
+Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
+‍
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/building-ai-agents-in-financial-services)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+### A new approach to agent security with Claude Managed Agents and NVIDIA
+
+Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
+
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
+
+### Reducing cost and improving performance with Claude Platform
+
+Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
+
+Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
+
+### A guide to the anatomy of effective commerce agents
+
+The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
+
+Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/building-ai-agents-in-financial-services)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

@@ -1,38 +1,22 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
-
 # Advancing Claude for Excel and PowerPoint
 
 Claude for Excel and PowerPoint now share full context across open files, and skills make any workflow instantly repeatable.
 
-- Category
+- Category[Announcements](https://claude.com/resources/product-announcements), [Best practices](https://claude.com/resources/best-practices), [Insights](https://claude.com/resources/insights)
+- ProductClaude Enterprise
+- DateMarch 11, 2026
+- Reading time5 min
+- ShareCopy link
 
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
+***Update:** Claude for Word beta now available on Team and Enterprise plans. (April 10, 2026)*
 
-  [Claude Enterprise](https://claude.com/solutions/enterprise)
-- Date
-
-  March 11, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/claude-excel-powerpoint-updates)
-
-  https://claude.com/blog/claude-excel-powerpoint-updates
-
-***Update:*** *Claude for Word beta now available on Team and Enterprise plans. (April 10, 2026)*
-
-Starting today, [Claude for Excel](https://claude.com/claude-in-excel)  and [Claude for PowerPoint](https://claude.com/claude-in-powerpoint) share the full context of your conversation across all open files, so every action Claude takes in one application is informed by everything that’s happening in the other.
+Starting today, [Claude for Excel](https://claude.com/claude-in-excel) and [Claude for PowerPoint](https://claude.com/claude-in-powerpoint) share the full context of your conversation across all open files, so every action Claude takes in one application is informed by everything that’s happening in the other.
 
 Skills are also now available inside the Excel and PowerPoint add-ins, and Claude for Excel and PowerPoint are available via the three leading cloud platforms: Amazon Bedrock, Google Cloud’s Vertex AI, and Microsoft Foundry.
 
 These updates enable Claude to move between tasks, spreadsheets, and slides, so you can work with a higher degree of efficiency and quality, without having to re-explain at every step.
 
-Embedded media: https://www.youtube.com/embed/cIctgHKEeMA
+Embedded media: https://www.youtube-nocookie.com/embed/cIctgHKEeMA?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 ## One conversation across Excel and PowerPoint
 
@@ -44,7 +28,7 @@ A financial analyst can pull comparable company financials from an open workbook
 
 [Skills](https://support.claude.com/en/articles/12512180-use-skills-in-claude) turn complete workflows into a one-click action. When someone on the team figures out the right way to run a variance analysis or compose a client deck using the firm's template, saving it as a skill makes that process instantly repeatable for the future.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69b18f278891d8d39110c45e_Claude-Blog-Excel-PPT-3P%20(1).png)
+![](https://assets.claude.com/744b20022fb320feea15ebffd9a86f712893f9af.png)
 
 We've shipped a preloaded starter set of skills that cover the most common Excel and PowerPoint use cases. For Excel, the starter skills cover the workflows that come up most often in financial analysis:
 
@@ -71,104 +55,49 @@ Claude also powers [Agent Mode natively inside Excel](https://support.microsoft.
 
 ## Getting started
 
-All Mac and Windows users on paid plans can access the improved communication between [Claude for Excel](https://claude.com/claude-in-excel) ([see guide](https://support.claude.com/en/articles/12650343-use-claude-for-excel)) and [Claude for PowerPoint](https://claude.com/claude-in-powerpoint) ([see guide](https://support.claude.com/en/articles/13521390-use-claude-in-powerpoint)) in beta. Skills in Excel and PowerPoint are also available on all paid plans. For best practices on getting the most out of these new tools, [register for our webinar](https://www.anthropic.com/webinars/best-practices-for-claude-in-excel-and-powerpoint).
+All Mac and Windows users on paid plans can access the improved communication between [Claude for Excel](https://claude.com/claude-in-excel) ([see guide](https://support.claude.com/en/articles/12650343-use-claude-for-excel)) and [Claude for PowerPoint](https://claude.com/claude-in-powerpoint) ([see guide](https://support.claude.com/en/articles/13521390-use-claude-in-powerpoint)) in beta. Skills in Excel and PowerPoint are also available on all paid plans. For best practices on getting the most out of these new tools, [register for our webinar](https://claude.com/resources/webinars/best-practices-for-claude-in-excel-and-powerpoint).
 
 We're proud of our partnership with Microsoft and aspire to help more people experience the power of Microsoft 365 and Claude together.
 
 ‍
 
-No items found.
-
-[Prev](https://claude.com/blog/claude-excel-powerpoint-updates)Prev
-
-0/5
-
-[Next](https://claude.com/blog/claude-excel-powerpoint-updates)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/claude-excel-powerpoint-updates)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
+[ArticleSep 30, 2026
 
 ### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
-Enterprise AI
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/claude-excel-powerpoint-updates)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How to prepare for AI-driven code modernization projects
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-May 21, 2026
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
 
-### Claude now works with more security and compliance tools
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
-Enterprise AI
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/claude-excel-powerpoint-updates)Claude now works with more security and compliance tools
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
 
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/claude-excel-powerpoint-updates)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/claude-excel-powerpoint-updates)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

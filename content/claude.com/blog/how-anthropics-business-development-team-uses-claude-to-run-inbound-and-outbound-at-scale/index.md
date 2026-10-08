@@ -1,31 +1,13 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
-
 # How Anthropic's business development team uses Claude to run inbound and outbound at scale
 
 John Albert, a business development rep at Anthropic, shares how his team uses Claude to research account books, draft customer replies, and address the ad-hoc requests that used to queue behind data teams.
 
-- Category
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Cowork](https://claude.com/product/cowork)
-- Date
-
-  August 7, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale)
-
-  https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale
-- Author(s)
-
-  John Albert
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Cowork
+- AuthorJohn Albert
+- DateAugust 7, 2026
+- Reading time9 min
+- ShareCopy link
 
 Early in my career in business development, account executives would hand me lists with hundreds of accounts and I’d have to investigate each company, find the right contacts, hunt down emails, and draft outreach. The inbound side had similarly manual and time-consuming workflows.
 
@@ -45,13 +27,13 @@ A foundational piece of our inbound setup is a document where I’ve collected t
 
 The heaviest workflow built on that document is an inbox skill that runs every hour: it scans a rep's inbox, finds every thread that the rep needs to answer, and drafts a reply for the rep to read, edit, and send. This skill is made of a thin system prompt, the knowledge base as context, and a profile of the rep’s writing style (which each of us also creates using a voice skill that reads through documents, messages, and emails we have written).
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a769d842080f00d799fb656_07-skills-panel.png)
+![](https://assets.claude.com/1a738405809dbb5b81041ae63260632feed124db.png)
 
-*The inbox skill runs on a thin system prompt, the team's sales knowledge base as the source for product facts, and a customized voice profile for each rep.*
+The inbox skill runs on a thin system prompt, the team's sales knowledge base as the source for product facts, and a customized voice profile for each rep.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a766c160d2ae2a65100738d_06-customer-email-drafter.png)
+![](https://assets.claude.com/4a5839915c64386cfa820e568caf757bd1c3522d.png)
 
-*The inbox skill scans a rep’s inbox and leaves drafted replies for review. All information in this preview has been anonymized for publication.*
+The inbox skill scans a rep’s inbox and leaves drafted replies for review. All information in this preview has been anonymized for publication.
 
 I also lean on two lighter skills that help with my administrative workload. Every BDR knows the pain of meeting no-shows and prospects going dark. To address this, I built a skill that watches Gmail and Google Calendar to notify me when that happens, so I can follow up quickly.
 
@@ -59,9 +41,9 @@ The other skill uses our CRM connector to scan for all new leads and draft a per
 
 We also have a skill that keeps Salesforce current by reading our internal guidance on opportunity stages and checking it against what's actually happening in Gmail and Gong. If we've met with a customer and moved on to pricing questions, the opportunity should probably progress a stage. Claude proposes each Salesforce update with the evidence behind it and waits for approval. When I edit or reject a proposal, it records the reason why so it doesn’t repeat the mistake.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7a595ba53cbb60ea8f0055_pipeline-scanner-demo-run.png)
+![](https://assets.claude.com/f2c29cec44f8663d9bb00f388846400a7d1f53c5.png)
 
-*The pipeline scanner skill proposes Salesforce updates for approval by the rep. Shown here with demo data and all information anonymized for publication.*
+The pipeline scanner skill proposes Salesforce updates for approval by the rep. Shown here with demo data and all information anonymized for publication.
 
 ## **Optimizing outbound and revenue work**
 
@@ -75,33 +57,33 @@ We use this research in follow-up conversations, so our outreach is tailored and
 
 Discovery calls are another part of our outbound motion we are working to improve with Claude. We use a skill that evaluates Gong transcripts against our discovery call playbook and builds a scorecard for each call, with specific feedback based on the conversation. The feedback includes top three things done well, top three areas to improve, an explicit pass or fail score on our criteria, and a single highest-leverage thing to practice next.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a76a1686073481f44901a90_02-bdr-call-coach.png)
+![](https://assets.claude.com/9506ace15ed7c945f1fb71f4af45995528024911.png)
 
-*The call coach skill provides a scorecard for our discovery calls, along with specific recommendations on improving them. Shown here with demo data and all information anonymized for publication.*
+The call coach skill provides a scorecard for our discovery calls, along with specific recommendations on improving them. Shown here with demo data and all information anonymized for publication.
 
 ## **Streamlining one-off requests**
 
 Often, requests come to the BDR team in an ad-hoc manner and Claude makes it possible for us to partner with our AEs in a more strategic way. If an AE is curious about usage trends for a top account, we are a prompt away from providing a legible and descriptive dashboard that highlights the relevant trends.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a76a1c80fce7dcd2bc87af1_01-spend-trends.png)
+![](https://assets.claude.com/7319087ead08eda021ed8d1b911e880a15531cb2.png)
 
-*A spend analysis report generated for target accounts.*
+A spend analysis report generated for target accounts.
 
 Working with Claude on data analysis and reporting comes into play in outbound work, too. One of my favorite workflows is running an undiscovered usage prompt. It considers an AE’s full book and finds usage signals on the account level where we do not yet have a sales opportunity. Often, this is a great signal for us to begin reaching out and working together with a customer to optimize their usage and experience with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a76a2045602baca070bfcb8_05-undiscovered-usage.png)
+![](https://assets.claude.com/ae33f6312f2086926039c7be80380081d705855a.png)
 
-*A product-focused sweep of one AE's book returns every account already using the product with no matching opportunity. Shown with demo data and all information anonymized or modified for publication.*
+A product-focused sweep of one AE's book returns every account already using the product with no matching opportunity. Shown with demo data and all information anonymized or modified for publication.
 
-We also use Claude for event outreach. One of my AEs recently flagged that we have an upcoming [Claude Code for Data Engineering](https://www.anthropic.com/webinars/claude-code-for-data-engineering) webinar and asked if I could find accounts in his book that would be interested in attending. I don’t have a skill for that, but for this type of request a prompt was enough. Claude checked usage data and CRM history across the book, scored each account against our ICP, and flagged the best fits with contacts worth inviting.
+We also use Claude for event outreach. One of my AEs recently flagged that we have an upcoming [Claude Code for Data Engineering](https://claude.com/resources/webinars/claude-code-for-data-engineering) webinar and asked if I could find accounts in his book that would be interested in attending. I don’t have a skill for that, but for this type of request a prompt was enough. Claude checked usage data and CRM history across the book, scored each account against our ICP, and flagged the best fits with contacts worth inviting.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7a59ce7be09b7abd674db9_river-email-drafts.png)
+![](https://assets.claude.com/ec33abd421b4f2c528c84d923daf36240784608b.png)
 
-*Asked to find the right accounts for a webinar invite, Claude sweeps the books and scores each account against the team's ideal customer profile.*
+Asked to find the right accounts for a webinar invite, Claude sweeps the books and scores each account against the team's ideal customer profile.
 
 Together, these skills, scheduled tasks, and the context we've curated turn Claude into an always-on business development partner.
 
-> The same governed foundations that power BD's reporting are described in how Anthropic enables [self-service data analytics with Claude](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude).
+> “The same governed foundations that power BD's reporting are described in how Anthropic enables self-service data analytics with Claude.”
 
 ## **Advice for business development teams on getting started with Claude Cowork**
 
@@ -116,104 +98,49 @@ Below, are some tips for business development teams on getting started with Clau
 
 My best advice? Just start experimenting. The more context and tools you give it, the more you can get done.
 
-*Watch John demo these skills during our* [*Claude Cowork for Business Development Representatives*](https://www.anthropic.com/webinars/claude-for-business-development-representatives) *webinar.*
+*Watch John demo these skills during our [Claude Cowork for Business Development Representatives](https://claude.com/resources/webinars/claude-for-business-development-representatives) webinar.*
 
-*Get started with* [*Claude Cowork*](https://claude.com/product/cowork) *today.*
+*Get started with [Claude Cowork](https://claude.com/product/cowork) today.*
 
 *All UI mockups in this article are depicted with synthetic data and do not represent real companies or individuals.*
 
-No items found.
-
-[Prev](https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale)Prev
-
-0/5
-
-[Next](https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
+[ArticleSep 30, 2026
 
 ### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
-Enterprise AI
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How to prepare for AI-driven code modernization projects
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-May 21, 2026
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
 
-### Claude now works with more security and compliance tools
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
-Enterprise AI
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale)Claude now works with more security and compliance tools
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
 
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

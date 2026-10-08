@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg)
-
 # Claude Code power user customization: How to configure hooks
 
 Learn how to configure Claude Code hooks to automate repetitive tasks, enforce project rules, and inject dynamic context into your coding sessions.
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  December 11, 2025
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/how-to-configure-hooks)
-
-  https://claude.com/blog/how-to-configure-hooks
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code
+- DateDecember 11, 2025
+- Reading time14 min
+- ShareCopy link
 
 Even a smooth [Claude Code](https://www.claude.com/product/claude-code) workflow accumulates friction points over time. Every time Claude writes a file, [Prettier](https://prettier.io/) needs to run manually. Every time it runs npm test, the same permission prompt appears. Every session starts with pasting the same boilerplate project context into the first message.
 
@@ -54,65 +38,15 @@ Claude Code provides eight hook events that cover the full lifecycle of a sessio
 
 **Hooks at a glance**
 
-<table>
-<thead>
-<tr>
-<th>Hook</th>
-<th>When it fires</th>
-<th>Common uses</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>PreToolUse</td>
-<td>Before a tool executes</td>
-<td>Block dangerous commands, validate file paths, auto-approve safe operations</td>
-</tr>
-<tr>
-<td>PermissionRequest</td>
-<td>Before a permission dialog appears</td>
-<td>Auto-approve test commands, block access to sensitive files</td>
-</tr>
-<tr>
-<td>PostToolUse</td>
-<td>After a tool completes</td>
-<td>Run formatters, trigger linters, log file changes</td>
-</tr>
-<tr>
-<td>PreCompact</td>
-<td>Before context compaction</td>
-<td>Back up transcripts, preserve important decisions</td>
-</tr>
-<tr>
-<td>SessionStart</td>
-<td>When a session begins or resumes</td>
-<td>Inject git status, load TODO lists, set environment context</td>
-</tr>
-<tr>
-<td>Stop</td>
-<td>When Claude finishes responding</td>
-<td>Verify task completion, run tests, generate summaries</td>
-</tr>
-<tr>
-<td>SubagentStop</td>
-<td>When a subagent completes</td>
-<td>Validate subagent output, trigger follow-up actions</td>
-</tr>
-<tr>
-<td>UserPromptSubmit</td>
-<td>When you submit a prompt</td>
-<td>Inject sprint context, validate requests, add dynamic context</td>
-</tr>
-</tbody>
-</table>
-
-You can remove this line if a caption isn't needed
+<table class="DataTable-module-scss-module__1wNx5a__table"><caption class="sr-only">You can remove this line if a caption isn't needed</caption><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Hook</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">When it fires</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Common uses</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">PreToolUse</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Before a tool executes</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Block dangerous commands, validate file paths, auto-approve safe operations</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">PermissionRequest</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Before a permission dialog appears</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Auto-approve test commands, block access to sensitive files</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">PostToolUse</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">After a tool completes</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Run formatters, trigger linters, log file changes</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">PreCompact</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Before context compaction</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Back up transcripts, preserve important decisions</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">SessionStart</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">When a session begins or resumes</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Inject git status, load TODO lists, set environment context</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Stop</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">When Claude finishes responding</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Verify task completion, run tests, generate summaries</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">SubagentStop</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">When a subagent completes</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Validate subagent output, trigger follow-up actions</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">UserPromptSubmit</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">When you submit a prompt</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Inject sprint context, validate requests, add dynamic context</span></td></tr></tbody></table>
 
 ### **PreToolUse**
 
 This is the most commonly used hook, firing after Claude chooses a tool to use but before the tool actually executes. Your script can inspect the planned action and approve it, block it, request user confirmation, or modify the parameters, using a matcher to filter which tools trigger this hook.
 
 This PreToolUse hook example evaluates file writes before they execute. Claude reviews the planned action against the specified criteria and can approve, block, or flag concerns based on the prompt logic.
+
+Copy
 
 ```
 {
@@ -142,6 +76,8 @@ When to use PreToolUse:
 ### **PermissionRequest**
 
 This hook fires when Claude would normally show a permission dialog. This hook intercepts the moment before you would see a confirmation prompt, letting your script decide whether to allow, deny, or still ask the user.
+
+Copy
 
 ```
 {
@@ -176,6 +112,8 @@ Fires immediately after a tool completes successfully. Your script receives info
 
 This example of PostToolUse runs Prettier on any file Claude writes or edits. The pipe syntax in the matcher means it triggers for both Write and Edit tools.
 
+Copy
+
 ```
 {
   "hooks": {
@@ -207,6 +145,8 @@ Fires before Claude compacts the conversation context to free up space. Compacti
 
 This PreCompact example backs up the transcript before automatic compaction. The matcher can be "auto" or "manual" so you can distinguish between automatic compaction and user-triggered compaction events.
 
+Copy
+
 ```
 {
   "hooks": {
@@ -234,6 +174,8 @@ When to use PreCompact:
 ### **SessionStart**
 
 Fires when Claude Code starts a new session or resumes an existing one. Whatever your script outputs gets added to the conversation context, so Claude starts with that information already loaded.
+
+Copy
 
 ```
 {
@@ -266,6 +208,8 @@ Fires when Claude finishes responding and would normally wait for your next inpu
 
 The script can return JSON with "continue": true to make Claude continue working, which is useful for multi-step workflows:
 
+Copy
+
 ```
 {
   "hooks": {
@@ -293,6 +237,8 @@ When to use Stop:
 ### **SubagentStop**
 
 This hook fires whenever a subagent created via the Task tool finishes. Works the same way as Stop, but triggers specifically when a subagent completes its action (rather than the main agent). The configuration of SubagentStop mirrors the Stop hook structure:
+
+Copy
 
 ```
 {
@@ -322,6 +268,8 @@ When to use SubagentStop:
 Fires when you submit a prompt, before Claude processes it. Whatever your script outputs via stdout gets added to Claude's context along with your prompt, which makes UserPromptSubmit useful for dynamically injecting information that Claude should consider.
 
 In this example, every time you submit a prompt, Claude receives the contents of your sprint context file. This keeps Claude informed about current priorities without you needing to restate them.
+
+Copy
 
 ```
 {
@@ -362,6 +310,8 @@ Matchers are how you filter which tools can trigger your hook. They only apply t
 Simple string matching works exactly as you'd expect: "Write" matches only the Write tool.
 
 For example:
+
+Copy
 
 ```
 {
@@ -421,6 +371,8 @@ However, if you configure and approve hooks, they will execute at your permissio
 
 Claude Code logs everything to transcript files, which provides visibility into tool calls and responses without any setup. Every hook receives a transcript\_path field pointing to a JSONL file containing the full session history. You can use a SessionStart hook to log where each transcript lives:
 
+Copy
+
 ```
 {
   "hooks": {
@@ -446,6 +398,8 @@ For hook-specific debugging, add logging to your hook scripts. The transcript fi
 
 With a little extra effort you can add a small bash script that will wrap your tools and log the additional information. For example, log-wrapper.sh:
 
+Copy
+
 ```
 #!/bin/bash
 LOG=~/.claude/hooks.log
@@ -467,6 +421,8 @@ exit $CODE
 This small wrapper script captures stdin into a variable, logs the timestamp and tool name, then pipes the input to your actual tool.
 
 Once you have log-wrapper.sh written, you would then prepend it to the tool call in the hook:
+
+Copy
 
 ```
 {
@@ -496,120 +452,44 @@ For complete reference documentation including all available fields and advanced
 
 Hooks let you shape Claude Code to match your workflow rather than adapting your workflow to the tool. When you invest in configuring hooks, it pays off every session.
 
-*Start using hooks to customize your* [*Claude Code*](https://www.claude.com/product/claude-code) *workflows today.*
+*Start using hooks to customize your [Claude Code](https://www.claude.com/product/claude-code) workflows today.*
 
-No items found.
-
-[Prev](https://claude.com/blog/how-to-configure-hooks)Prev
-
-0/5
-
-[Next](https://claude.com/blog/how-to-configure-hooks)Next
-
-Get Claude Code
-
-curl -fsSL https://claude.ai/install.sh | bash
-
-Copy command to clipboard
-
-irm https://claude.ai/install.ps1 | iex
-
-Copy command to clipboard
-
-Or read the [documentation](https://code.claude.com/docs/en/overview)
-
-Try Claude Code
-
-[Try Claude Code](https://claude.ai/code)Try Claude Code
-
-Developer docs
-
-[Developer docs](https://code.claude.com/docs/en/overview)Developer docs
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/how-to-configure-hooks)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
-
-Sep 24, 2026
+[ArticleSep 24, 2026
 
 ### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-Claude Code
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/how-to-configure-hooks)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-Sep 23, 2026
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-### How to prepare for AI-driven code modernization projects
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-Enterprise AI
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-configure-hooks) How to prepare for AI-driven code modernization projects
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
+### The Claude Code guide for startups
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/how-to-configure-hooks)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/how-to-configure-hooks)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

@@ -1,30 +1,11 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
-
 # Anthropic’s approach to teaching and learning AI
 
 Claude Academy gives users the educational tools they need to learn how to use AI effectively. In this post, we highlight why we’re launching it and how our own approach to teaching and learning influenced its development.
 
-- Category
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  No items found.
-- Date
-
-  August 20, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai)
-
-  https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- DateAugust 20, 2026
+- Reading time9 min
+- ShareCopy link
 
 Millions of people visit Anthropic.com every month to learn about how to use AI. At Anthropic, we consider this a tremendous responsibility—and we have a team of educators dedicated to creating educational materials about how to use AI safely, effectively, and with intention. AI instruction should increase agency and empower learners to expand their capabilities.
 
@@ -38,7 +19,7 @@ Learning to use AI will help individuals and organizations take advantage of the
 
 ## Claude Academy instruction mirrors Anthropic’s approach to educating its own employees
 
-At Anthropic, we believe the journey to AI fluency begins on an employee’s first day. During onboarding, we teach all employees the [4D AI Fluency Framework](https://academy.claude.com/collections/ai-fluency), best practices on managing what agents know, and how fast the AI exponential moves. Learners practice making intentional decisions about what tasks should be done by AI and what tasks they should do themselves. They also learn the mistakes that AI tends to make so they can review AI-generated work more effectively. After onboarding, we offer a variety of “ever-boarding” (always-on onboarding) programs that deeply explore [AI’s capabilities and limitations](https://academy.claude.com/tutorials/the-4-properties-of-ai) as well as evidence-based practices for working on [human-agent teams](https://claude.com/blog/building-effective-human-agent-teams). In a field moving this fast, continuous learning is an expectation for every role.
+At Anthropic, we believe the journey to AI fluency begins on an employee’s first day. During onboarding, we teach all employees the [4D AI Fluency Framework](https://academy.claude.com/collections/ai-fluency), best practices on managing what agents know, and how fast the AI exponential moves. Learners practice making intentional decisions about what tasks should be done by AI and what tasks they should do themselves. They also learn the mistakes that AI tends to make so they can review AI-generated work more effectively. After onboarding, we offer a variety of “ever-boarding” (always-on onboarding) programs that deeply explore [AI’s capabilities and limitations](https://academy.claude.com/tutorials/the-4-properties-of-ai) as well as evidence-based practices for working on [human-agent teams](https://claude.com/resources/articles/building-effective-human-agent-teams). In a field moving this fast, continuous learning is an expectation for every role.
 
 In addition to live and online instruction, we also provide all Anthropic employees with Claude-powered tools (like Claude Tag) to ensure they get instant answers to virtually any question related to the company, their job, or their specific onboarding plan. We also have Claude-moderated Slack channels for IT, legal, and benefits so people can focus on what matters most.
 
@@ -52,33 +33,33 @@ In Claude Academy, all educational materials are designed to be broadly accessib
 
 Learning to use AI well should open up new doors and opportunities for students. Our learning materials are designed to help learners solve the problems they care about most. Instead of simply offering learning that shows you how to use our products and features, our education is centered on the problems you face at work and in life. Of note, our educational materials also encourage mindfulness about continuing to practice skills that matter to you in order to prevent skill atrophy. For example, this [collection of legal use cases](https://academy.claude.com/use-cases) teaches you how to use Claude while also offering you the chance to reflect on what tasks should stay with you.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a869c873ac9215b510583a4_5917bf5c.png)
+![](https://assets.claude.com/5f6cd02e42cf4002166da95453fb4206b5ea5176.png)
 
-*Claude Academy is organized around problems you need to solve with AI.*
+Claude Academy is organized around problems you need to solve with AI.
 
 ### Mindsets matter
 
 Given how fast AI is changing, mastering features alone won’t lead to lasting AI fluency. Even specific behaviors like “describe your audience” that were once useful have become less important when using the newest models. For example, where you used to have to tell Claude that your task is intended for “colleagues working in legal” now Claude will simply ask you for that information if it’s needed for a high quality output. Our education team has shifted away from emphasizing specific behaviors for AI fluency towards cultivating broader, more durable mindsets for using AI. Things like “today’s AI is the worst AI you’ll ever use” and “verify in proportion to the stakes” help people exercise good judgement with AI even as products and features change.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a869c873ac9215b510583a7_fa131b28.png)
+![](https://assets.claude.com/b9910fe5db5f1f87afd00d5af2dfc1c74de90cbc.png)
 
-*Claude Academy’s curriculum is built from a set of mindsets that support intentional AI adoption.*
+Claude Academy’s curriculum is built from a set of mindsets that support intentional AI adoption.
 
 ### Safe and effective AI use extends far beyond the interactions someone has with AI
 
 Most learning about AI focuses almost exclusively on a user’s conversation with an agent. While that’s critical, we also believe that the moments surrounding AI use are just as important. For example, we encourage learners to ask themselves what tasks should be delegated to AI in the first place and which tasks should stay with them. For example, you may want to draft sensitive parts of a memo but leave putting together summary slides to AI. Or you may want Claude to help with some exploratory data analysis but do final checks yourself. We also educate learners on how to ethically disclose AI use to colleagues, customers, and other stakeholders. This includes explicitly stating how AI was used in the production of documents, analyses, or media before you share it with others. This broader perspective ensures that learners build an intentional relationship with AI from the start.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a869c873ac9215b510583aa_f668a349.png)
+![](https://assets.claude.com/7ed71ba9b30709b915c8870dd993395394010ee2.png)
 
-*Claude Academy tutorials give you the building blocks to delegate effectively with AI.*
+Claude Academy tutorials give you the building blocks to delegate effectively with AI.
 
 ### Learning takes effort
 
-Our use cases, tutorials, and courses encourage you to practice with Claude as you go. Our learning exercises encourage reflection and experimentation so learners can discover what works best for them when using AI. Of note, we believe that today’s Claude Academy experience  is the most rigid it’ll ever be. With Claude, we’ll be able to deliver very personalized learning activities and exercises at a scale that hasn’t been possible before.
+Our use cases, tutorials, and courses encourage you to practice with Claude as you go. Our learning exercises encourage reflection and experimentation so learners can discover what works best for them when using AI. Of note, we believe that today’s Claude Academy experience is the most rigid it’ll ever be. With Claude, we’ll be able to deliver very personalized learning activities and exercises at a scale that hasn’t been possible before.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a869c873ac9215b510583af_7a8c3fb1.png)
+![](https://assets.claude.com/6dd3fc13e6772bf301f62ae8b4c081b987d198c3.png)
 
-*Claude Academy allows you to practice as you go, incorporating a library of step-by-step tutorials.*
+Claude Academy allows you to practice as you go, incorporating a library of step-by-step tutorials.
 
 ### Once you learn to use AI, it can supercharge your learning on any topic
 
@@ -102,98 +83,40 @@ We welcome your feedback about what learning works best for you. Every course, t
 
 [Start learning](http://academy.claude.com/) at Claude Academy today.
 
-No items found.
-
-[Prev](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai)Prev
-
-0/5
-
-[Next](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
-[Claude for Government is now generally available](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai)Claude for Government is now generally available
+### Build plugins for Claude
 
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-Sep 30, 2026
+### Claude Tag now supports personal connectors in channels
 
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Enterprise AI
-
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

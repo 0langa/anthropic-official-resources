@@ -1,60 +1,16 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
-
 # How Kepler built verifiable AI for financial services with Claude
 
 Inside a platform that indexes 26M+ SEC filings, earnings call transcripts, IR presentations, consensus estimates, and private data across 14,000+ companies and 27 global markets, and how the team behind it built AI that validates every number to the exact filing, page, and line item.
 
-- Category
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Platform
+- DateApril 30, 2026
+- Reading time9 min
+- ShareCopy link
 
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
+*In our series, **How startups build with Claude**, we highlight how startups are transforming their industries with AI. In this article, we share how Kepler built a trust and verification layer for AI in financial services.*
 
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  April 30, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude)
-
-  https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude
-
-*In our series,* ***How startups build with Claude****, we highlight how startups are transforming their industries with AI. In this article, we share how Kepler built a trust and verification layer for AI in financial services.*
-
-<table>
-<thead>
-<tr>
-<th colspan="2">The quick pitch</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Name</td>
-<td>Kepler</td>
-</tr>
-<tr>
-<td>Founded</td>
-<td>2025</td>
-</tr>
-<tr>
-<td>Founders</td>
-<td>Vinoo Ganesh (CEO) and John McRaven (CTO)</td>
-</tr>
-<tr>
-<td>Stack</td>
-<td>AWS, Rust, Python, containers for orchestration</td>
-</tr>
-<tr>
-<td>Growth</td>
-<td>Indexed 26M+ SEC filings, 50M+ public documents, 1M+ private documents, and 14,000+ companies across 27 global markets in less than three months.</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">The quick pitch</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Name</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Kepler</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Founded</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">2025</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Founders</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Vinoo Ganesh (CEO) and John McRaven (CTO)</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Stack</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">AWS, Rust, Python, containers for orchestration</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Growth</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Indexed 26M+ SEC filings, 50M+ public documents, 1M+ private documents, and 14,000+ companies across 27 global markets in less than three months.</span></td></tr></tbody></table>
 
 Financial firms operate in a heavily regulated environment where reporting has to be auditable and accountable. Every figure in a regulatory filing, deal pitch, or research report needs to be verifiable against source documents.
 
@@ -70,13 +26,13 @@ Financial analysis involves complex, multi-step calculations, dense data, and ov
 
 For example, if an analyst asks for a company’s inventory days outstanding over the last eight quarters, the model needs to figure out what the answer needs: the right formula, correct fiscal periods, and any restatements that might affect the numbers.
 
-The team benchmarked across all frontier models. They found that on straightforward queries, models performed comparably. But when it came to long, multi-step plans with interdependencies, all but Claude started taking shortcuts or losing track of constraints by the fourth or fifth step.  "On our workloads, Claude was the model that consistently held the plan together," Ganesh says. “Other models would start strong and then quietly drop a constraint by step five.”
+The team benchmarked across all frontier models. They found that on straightforward queries, models performed comparably. But when it came to long, multi-step plans with interdependencies, all but Claude started taking shortcuts or losing track of constraints by the fourth or fifth step. "On our workloads, Claude was the model that consistently held the plan together," Ganesh says. “Other models would start strong and then quietly drop a constraint by step five.”
 
 The clearest difference was how each model handled uncertainty and kept humans in the loop. For example, in situations where one term can have two different meanings, most models picked one meaning and kept going. Claude stopped and asked the analyst to decide. "That behavior matters more than any benchmark score," Ganesh says. "One wrong assumption early in a financial analysis breaks everything downstream."
 
 ## Engineering the context around Claude
 
-The Kepler team found that Claude produced better results when given precisely defined tasks enhanced with structured domain knowledge, definitions, and hard boundaries on what to resolve versus what to escalate. "In finance, the model can’t be the whole  system. We treat it as one stage in a pipeline whose job is to hand the model exactly what it needs to succeed at exactly that stage," says McRaven. “Prompt engineering optimizes a call while content engineering optimizes the system around it.”
+The Kepler team found that Claude produced better results when given precisely defined tasks enhanced with structured domain knowledge, definitions, and hard boundaries on what to resolve versus what to escalate. "In finance, the model can’t be the whole system. We treat it as one stage in a pipeline whose job is to hand the model exactly what it needs to succeed at exactly that stage," says McRaven. “Prompt engineering optimizes a call while content engineering optimizes the system around it.”
 
 The team built deterministic execution environments that Claude can invoke for every operation that needs to be provably correct, such as computing a ratio or resolving a fiscal period. They developed a proprietary ontology that maps financial concepts to precise definitions and formulas, customizable on a per-use basis. Security and access control restrictions are enforced at every step, governing which data sources each user can pull from. On top of this, they built recurring, customizable skills for the most common workflows in their pipeline, such as enterprise value calculations across complex capital structures (e.g. handling preferred shares, convertibles, and minority interests) and segment revenue waterfall reconciliation across reporting period changes. These skills coordinate between deterministic and nondeterministic stages and are idempotent by design: the same input will always generate the same output.
 
@@ -96,126 +52,47 @@ Kepler’s platform is domain-agnostic by design. The team started in finance de
 
 "Kepler Finance is our first product," says Ganesh. "It won’t be the last."
 
-<table>
-<thead>
-<tr>
-<th colspan="2">Best practices from the Kepler team</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Give Claude the right job</td>
-<td>Retrieval is a job for a query engine. Computation is a job for a formula engine. Ask Claude to interpret, decompose, or reason.</td>
-</tr>
-<tr>
-<td>Match models to stages</td>
-<td>Use Opus for complex reasoning and Sonnet for constrained, high-throughput tasks. Running everything on one model leaves either quality or cost on the table.</td>
-</tr>
-<tr>
-<td>Invest in evaluation before prompts</td>
-<td>Build automated pipelines that test Claude's output against known-correct answers at every stage. Test each stage independently and the full pipeline end-to-end. In finance, a silent regression is how you lose a client permanently.</td>
-</tr>
-<tr>
-<td>Build for provenance from day one</td>
-<td>Professionals are trained to verify everything. Provenance has to shape the entire system, not get added at the end.</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Best practices from the Kepler team</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Give Claude the right job</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Retrieval is a job for a query engine. Computation is a job for a formula engine. Ask Claude to interpret, decompose, or reason.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Match models to stages</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Use Opus for complex reasoning and Sonnet for constrained, high-throughput tasks. Running everything on one model leaves either quality or cost on the table.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Invest in evaluation before prompts</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Build automated pipelines that test Claude's output against known-correct answers at every stage. Test each stage independently and the full pipeline end-to-end. In finance, a silent regression is how you lose a client permanently.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Build for provenance from day one</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Professionals are trained to verify everything. Provenance has to shape the entire system, not get added at the end.</span></td></tr></tbody></table>
 
-**Build your startup on the** [**Claude Platform**](https://platform.claude.com/)**.**
+**Build your startup on the [Claude Platform](https://platform.claude.com/).**
 
-No items found.
-
-[Prev](https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude)Prev
-
-0/5
-
-[Next](https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
+[ArticleSep 30, 2026
 
 ### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
-Enterprise AI
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How to prepare for AI-driven code modernization projects
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-May 21, 2026
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
 
-### Claude now works with more security and compliance tools
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
-Enterprise AI
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude)Claude now works with more security and compliance tools
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
 
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

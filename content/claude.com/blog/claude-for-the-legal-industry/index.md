@@ -1,28 +1,10 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
-
 # Claude for the legal industry
 
-We're releasing 20+ new MCP connectors that link Claude to the software that the legal industry runs on and 12 new plugins tailored to specific legal work and practice areas.
-
-- Category
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  [Claude Cowork](https://claude.com/product/cowork)
-- Date
-
-  May 12, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/claude-for-the-legal-industry)
-
-  https://claude.com/blog/claude-for-the-legal-industry
+- Category[Announcements](https://claude.com/resources/product-announcements), [Best practices](https://claude.com/resources/best-practices), [Insights](https://claude.com/resources/insights)
+- ProductClaude Cowork
+- DateMay 12, 2026
+- Reading time13 min
+- ShareCopy link
 
 Earlier this year we released our first legal plugin, and in the months since, legal professionals have become the most engaged Claude Cowork users of any knowledge-work function. We’re now building on that with a much larger set of tools.
 
@@ -32,7 +14,7 @@ Today we’re introducing 20+ new MCP connectors that link Claude to the softwar
 
 ‍
 
-Embedded media: https://www.youtube.com/embed/7-1tNo8HAwk
+Embedded media: https://www.youtube-nocookie.com/embed/7-1tNo8HAwk?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 ## Claude works where legal teams work
 
@@ -126,7 +108,7 @@ Legal services are out of reach for many people and small businesses, and the ga
 
 Qualifying legal aid clinics, public defenders, and nonprofit legal services organizations can gain access to significantly discounted pricing through the [Claude for Nonprofits program](https://claude.com/solutions/nonprofits). Free and low-cost tools from BoardWise, Courtroom5, Descrybe, and Free Law Project are available to Claude users via MCP connectors as well.
 
-> "Most people don't know they have legal rights until it's too late to use them. Claude can now meet them where they are — in the moment they're scared and searching for answers."  **- Sonja Ebron, CEO & Co-Founder, Courtroom5**
+> “"Most people don't know they have legal rights until it's too late to use them. Claude can now meet them where they are — in the moment they're scared and searching for answers."  - Sonja Ebron, CEO & Co-Founder, Courtroom5”
 
 ## Trusted across the legal industry
 
@@ -136,87 +118,109 @@ These updates build on Claude Opus 4.7, our most capable publicly available mode
 
 Here’s what legal teams and ecosystem partners have told us about working with Claude:
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a628c786b09b4f2392e96f3_logo_freshfields-light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a628c8a7203c6cb4010f6a4_logo_freshfields-dark.svg)
+![EvenUp](https://assets.claude.com/466446f5f59635a264efe3e688a42b51c0e88976.svg)
 
-“Our approach in the Freshfields Lab has always been to build on the best available technology. Claude’s capabilities have become an essential part of our proprietary AI-powered solutions. With this collaboration, we are going further: co-developing agentic workflows with Anthropic that can handle multi-step legal tasks end-to-end. For our clients, that translates into faster, more precise and more scalable legal services.”
-
-Gerrit Beckhaus, Partner and Co-Head
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68f679a0b07cb25d6830bc76_accenture_logo.svg.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68f679a262980d8650836fd9_accenture_logo.svg-1.svg)
-
-"My legal team at Accenture put Claude to work on everyday legal matters, and we have been very excited to see how productivity gains could be realized."
-
-Mindy Lok, Global IP Legal Lead and Legal Chief Technology Officer
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68ba1577e91d8296653388ca_Group%202055245285.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a186e574d077d020536326e_thomson_reuters_logo_white.svg)
-
-“The future of AI won’t be defined by where the work happens, it will be defined by whether the results can be trusted. In professional settings, that means AI grounded in authoritative content, validated for accuracy, and built with security at its core. That is the next frontier of trusted AI, and it’s where Thomson Reuters is leading through our work with Anthropic.”
-
-Joel Hron, CTO
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a01e520b1800d099e9e6a42_website-logo%201.png)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a01e541e1978bdf4a9c1cf9_logo_customer-dark-mode%20(13).png)
-
-"I built our litigation platform on Claude with virtually no coding background — I needed it for a real trial. The breakthrough was treating Claude like a member of the case team: onboard it with chronology, key excerpts, and themes the way you'd onboard a partner joining mid-case. The work product is far beyond what I would've done on my own — probably ever."
-
-Christopher D. Kercher, Partner, Founder & Head of AI & Data Analytics
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68c024045f129ad1fd87a3d7_Group.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68c0240a3029ad76b17b6e21_Clip%20path%20group.svg)
-
-“Legal is one of the most compelling industries for AI transformation, which is why we're excited to deepen our partnership with Anthropic. Claude Opus 4.7 scored 90.9% on Harvey's BigLaw Bench, the highest of any Claude model, and the Harvey for Claude Connector brings our legal intelligence directly into Claude.”
-
-Winston Weinberg, CEO & Co-Founder
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a276efd30d797636373e936_logo_crosby-legal-light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a276f22ffe36ff8dedff1ca_logo_crosby-legal-dark.svg)
-
-“Claude for Word brings the power of Claude's agents inside of lawyers' critical daily workflows. This frees up our team to focus on what matters most: lawyers applying expert judgment to complex edge cases, and engineers using rich context to build self-improving systems for clients.”
-
-Ryan Daniels, Co-Founder & CEO
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a04ae8eb86a40abc34d785a_legora-light-mode.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a04ae92b4eb674358e3cada_legora-dark-mode.svg)
-
-“Opus 4.7 is a step forward in reasoning for complex legal work — stronger consistency across long documents, better handling of nuanced instructions, and improved reliability in high-stakes workflows. Anthropic builds the underlying intelligence; Legora turns it into production-ready systems, embedding Claude into the workflows, safeguards, and interfaces lawyers can trust in practice. That combination is what drives real impact for legal professionals."
-
-Jake Lauritzen, CTO
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a01e607791f5220ab098d3a_image%201488.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a01e60c0ae105684d61876b_logo_customer-dark-mode%20(12)%201.svg)
-
-“At Holland & Knight, we appreciate that Everlaw is working with Anthropic and offering access to their tool through an MCP. We are applying Claude’s capabilities across many litigation workflows and see significant potential in realizing them in the right context. Everlaw allows us to bring the right evidence into the equation, unlocking additional power.”
-
-Manfred Gabriel, Partner
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a5e5b97ed26f0736cd8ef5b_evenup_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a5e5b9a67ae5f64f19fc17e_evenup_dark.svg)
-
-“PI law presents some of the toughest challenges for AI: reasoning across large volumes of medical records and billing data, identifying critical facts, and executing complex workflows with consistency and accuracy. Claude Opus 4.8 delivers a new level of reasoning, reliability, and long-context performance. EvenUp adds proprietary PI data, domain expertise, and purpose-built workflows on top.”
+> “PI law presents some of the toughest challenges for AI: reasoning across large volumes of medical records and billing data, identifying critical facts, and executing complex workflows with consistency and accuracy. Claude Opus 4.8 delivers a new level of reasoning, reliability, and long-context performance. EvenUp adds proprietary PI data, domain expertise, and purpose-built workflows on top.”
 
 Rami Karabibar, CEO and CoFounder
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69a1f5b54d02bb219730f388_logo_solveintelligence-light-mode.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69a1f5b87bdeab28825abf01_logo_solveintelligence-dark-mode.svg)
+![Solve Intelligence](https://assets.claude.com/2819327500f71d308c553acac2e114468c0e86fa.svg)
 
-“We're seeing major improvements in Claude Opus 4.7's multimodal understanding, from reading chemical structures to interpreting complex technical diagrams. The higher resolution support is helping Solve Intelligence build best-in-class tools for life sciences patent workflows, from drafting and prosecution to infringement detection and invalidity charting.”
+> “We're seeing major improvements in Claude Opus 4.7's multimodal understanding, from reading chemical structures to interpreting complex technical diagrams. The higher resolution support is helping Solve Intelligence build best-in-class tools for life sciences patent workflows, from drafting and prosecution to infringement detection and invalidity charting.”
 
 Sanj Ahilan, Chief Research Officer
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69ebbdde1a3d17f2d9e91607_eve-light-mode.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69ebbde617bb08ba0d0157b8_eve-dark-mode.svg)
+![Eve Legal](https://assets.claude.com/f1efc487a08ab700dd2f0a0d09e717745da3e2d0.svg)
 
-"We evaluate every model against 24+ legal-specific scorers — citation accuracy, ungrounded case quotes, memory leakage, refusal correctness — because in litigation, an authoritative-sounding hallucination is worse than no answer. Claude wins our internal bake-offs every time on the metrics that matter for legal work, particularly grounding and citation faithfulness. That's why the highest-stakes parts of our pipeline run on Anthropic."
+> “We evaluate every model against 24+ legal-specific scorers — citation accuracy, ungrounded case quotes, memory leakage, refusal correctness — because in litigation, an authoritative-sounding hallucination is worse than no answer. Claude wins our internal bake-offs every time on the metrics that matter for legal work, particularly grounding and citation faithfulness. That's why the highest-stakes parts of our pipeline run on Anthropic.”
 
 Jay Madheswaran, CEO and Co-Founder
 
-[Prev](https://claude.com/blog/claude-for-the-legal-industry)Prev
+![Freshfields](https://assets.claude.com/631c9f975e09f01ae344ef9004351099cc0d918b.svg)
 
-0/5
+> “Our approach in the Freshfields Lab has always been to build on the best available technology. Claude’s capabilities have become an essential part of our proprietary AI-powered solutions. With this collaboration, we are going further: co-developing agentic workflows with Anthropic that can handle multi-step legal tasks end-to-end. For our clients, that translates into faster, more precise and more scalable legal services.””
 
-[Next](https://claude.com/blog/claude-for-the-legal-industry)Next
+Gerrit Beckhaus, Partner and Co-Head
 
-eBook
+![Accenture](https://assets.claude.com/eef8a51d4b99d31d65fa28d41f247f85bc363b45.svg)
 
-##
+> “My legal team at Accenture put Claude to work on everyday legal matters, and we have been very excited to see how productivity gains could be realized.”
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+Mindy Lok, Global IP Legal Lead and Legal Chief Technology Officer
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+![Thomson Reuters](https://assets.claude.com/3c80d8dc7dbf6556d1137977873dee26eaffae1d.svg)
 
-Embedded media:
+> “The future of AI won’t be defined by where the work happens, it will be defined by whether the results can be trusted. In professional settings, that means AI grounded in authoritative content, validated for accuracy, and built with security at its core. That is the next frontier of trusted AI, and it’s where Thomson Reuters is leading through our work with Anthropic.””
+
+Joel Hron, CTO
+
+![Quinn Emanuel Urquhart & Sullivan](https://assets.claude.com/9a319a911bf5466e2baf48bd08ee6bb10df98427.png)
+
+> “I built our litigation platform on Claude with virtually no coding background — I needed it for a real trial. The breakthrough was treating Claude like a member of the case team: onboard it with chronology, key excerpts, and themes the way you'd onboard a partner joining mid-case. The work product is far beyond what I would've done on my own — probably ever.”
+
+Christopher D. Kercher, Partner, Founder & Head of AI & Data Analytics
+
+![Harvey](https://assets.claude.com/9447073367b83132335cb2c191c36bef275f48e6.svg)
+
+> “Legal is one of the most compelling industries for AI transformation, which is why we're excited to deepen our partnership with Anthropic. Claude Opus 4.7 scored 90.9% on Harvey's BigLaw Bench, the highest of any Claude model, and the Harvey for Claude Connector brings our legal intelligence directly into Claude.”
+
+Winston Weinberg, CEO & Co-Founder
+
+![Crosby](https://assets.claude.com/9815d36508ab5cbef0ba2782bc26371f19356894.svg)
+
+> “Claude for Word brings the power of Claude's agents inside of lawyers' critical daily workflows. This frees up our team to focus on what matters most: lawyers applying expert judgment to complex edge cases, and engineers using rich context to build self-improving systems for clients.”
+
+Ryan Daniels, Co-Founder & CEO
+
+![Legora](https://assets.claude.com/666fbd8fbde356286a5ac8370b994f246c08fb10.svg)
+
+> “Opus 4.7 is a step forward in reasoning for complex legal work — stronger consistency across long documents, better handling of nuanced instructions, and improved reliability in high-stakes workflows. Anthropic builds the underlying intelligence; Legora turns it into production-ready systems, embedding Claude into the workflows, safeguards, and interfaces lawyers can trust in practice. That combination is what drives real impact for legal professionals.”
+
+Jake Lauritzen, CTO
+
+![Holland & Knight](https://assets.claude.com/b8faaa7f6a90ceca02b29e39d7376ccd7dedda75.svg)
+
+> “At Holland & Knight, we appreciate that Everlaw is working with Anthropic and offering access to their tool through an MCP. We are applying Claude’s capabilities across many litigation workflows and see significant potential in realizing them in the right context. Everlaw allows us to bring the right evidence into the equation, unlocking additional power.”
+
+Manfred Gabriel, Partner
+
+![EvenUp](https://assets.claude.com/466446f5f59635a264efe3e688a42b51c0e88976.svg)
+
+> “PI law presents some of the toughest challenges for AI: reasoning across large volumes of medical records and billing data, identifying critical facts, and executing complex workflows with consistency and accuracy. Claude Opus 4.8 delivers a new level of reasoning, reliability, and long-context performance. EvenUp adds proprietary PI data, domain expertise, and purpose-built workflows on top.”
+
+Rami Karabibar, CEO and CoFounder
+
+![Solve Intelligence](https://assets.claude.com/2819327500f71d308c553acac2e114468c0e86fa.svg)
+
+> “We're seeing major improvements in Claude Opus 4.7's multimodal understanding, from reading chemical structures to interpreting complex technical diagrams. The higher resolution support is helping Solve Intelligence build best-in-class tools for life sciences patent workflows, from drafting and prosecution to infringement detection and invalidity charting.”
+
+Sanj Ahilan, Chief Research Officer
+
+![Eve Legal](https://assets.claude.com/f1efc487a08ab700dd2f0a0d09e717745da3e2d0.svg)
+
+> “We evaluate every model against 24+ legal-specific scorers — citation accuracy, ungrounded case quotes, memory leakage, refusal correctness — because in litigation, an authoritative-sounding hallucination is worse than no answer. Claude wins our internal bake-offs every time on the metrics that matter for legal work, particularly grounding and citation faithfulness. That's why the highest-stakes parts of our pipeline run on Anthropic.”
+
+Jay Madheswaran, CEO and Co-Founder
+
+![Freshfields](https://assets.claude.com/631c9f975e09f01ae344ef9004351099cc0d918b.svg)
+
+> “Our approach in the Freshfields Lab has always been to build on the best available technology. Claude’s capabilities have become an essential part of our proprietary AI-powered solutions. With this collaboration, we are going further: co-developing agentic workflows with Anthropic that can handle multi-step legal tasks end-to-end. For our clients, that translates into faster, more precise and more scalable legal services.””
+
+Gerrit Beckhaus, Partner and Co-Head
+
+![Accenture](https://assets.claude.com/eef8a51d4b99d31d65fa28d41f247f85bc363b45.svg)
+
+> “My legal team at Accenture put Claude to work on everyday legal matters, and we have been very excited to see how productivity gains could be realized.”
+
+Mindy Lok, Global IP Legal Lead and Legal Chief Technology Officer
+
+![Thomson Reuters](https://assets.claude.com/3c80d8dc7dbf6556d1137977873dee26eaffae1d.svg)
+
+> “The future of AI won’t be defined by where the work happens, it will be defined by whether the results can be trusted. In professional settings, that means AI grounded in authoritative content, validated for accuracy, and built with security at its core. That is the next frontier of trusted AI, and it’s where Thomson Reuters is leading through our work with Anthropic.””
+
+Joel Hron, CTO
+
+1/11
 
 ## Getting started
 
@@ -228,80 +232,40 @@ For legal aid and access-to-justice organizations who are interested in partneri
 
 ‍
 
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/claude-for-the-legal-industry)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-the-legal-industry)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
 ### Build plugins for Claude
 
-Product announcements
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-[Build plugins for Claude](https://claude.com/blog/claude-for-the-legal-industry)Build plugins for Claude
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
+### Claude Tag now supports personal connectors in channels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-for-the-legal-industry)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/claude-for-the-legal-industry)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

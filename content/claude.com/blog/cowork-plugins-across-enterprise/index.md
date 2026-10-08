@@ -1,40 +1,22 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
-
 # Cowork and plugins for teams across the enterprise
 
 Admins can now create private plugin marketplaces, with better control over plugins, connectors, and skills. We've also added new plugins and connectors across more departments.
 
-- Category
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Enterprise
+- DateFebruary 24, 2026
+- Reading time7 min
+- ShareCopy link
 
-  [Agents](https://claude.com/blog/category/agents)
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Enterprise](https://claude.com/solutions/enterprise)
-- Date
-
-  February 24, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/cowork-plugins-across-enterprise)
-
-  https://claude.com/blog/cowork-plugins-across-enterprise
-
-Today, we're introducing updates to Cowork and pluginsthat help enterprises customize Claude to how you work. Plugins turn Claude into specialized agents for every role and department. Now, you can build private marketplaces to distribute them across your organization.
+Today, we're introducing updates to Cowork and plugins that help enterprises customize Claude to how you work. Plugins turn Claude into specialized agents for every role and department. Now, you can build private marketplaces to distribute them across your organization.
 
 This release also makes plugins easier to build and customize, gives admins more control over marketplaces and connectors, and adds new plugins and connectors across a wider range of job functions. Claude can also now orchestrate across Excel and PowerPoint, working end-to-end and passing context between apps.
 
-Embedded media: https://www.youtube.com/embed/v5IOHK5xFlc
+Embedded media: https://www.youtube-nocookie.com/embed/v5IOHK5xFlc?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
-###### ‍
+#### ‍
 
-###### *Silvern Capital is a fictional company. Most teams in the demo are working in Cowork, with the legal team working in Thomson Reuters CoCounsel Legal — a purpose-built legal agent, reimagined from the ground up using the Claude Agent SDK.*
+#### *Silvern Capital is a fictional company. Most teams in the demo are working in Cowork, with the legal team working in Thomson Reuters CoCounsel Legal — a purpose-built legal agent, reimagined from the ground up using the Claude Agent SDK.*
 
 ## Upgrading the plugin experience
 
@@ -42,13 +24,13 @@ Today we're launching a suite of updates that make it easier to create, use, and
 
 Admins can now set up plugins from starter templates or build them from scratch, with Claude guiding you through setup by asking questions to tailor skills, commands, and connectors (MCPs) to your company. All of this lives in a new unified menu called 'Customize,' which consolidates plugins, skills, and connectors so admins can see and manage everything in one place.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/699cdb3778de7aaeb213b113_Customize%20(1).png)
+![](https://assets.claude.com/b8a7594584b08cf688085642b32ac3d7508b00f2.png)
 
 The connector experience has been overhauled too, with an improved directory, streamlined admin controls, and easier management of which connectors are bundled into plugins. Admins also get more control over what plugins their teams can access, including org-specific marketplaces, private GitHub repositories as plugin sources (in private beta), per-user provisioning, and auto-install.
 
 On the user side, slash commands now launch with structured forms, so running a workflow like 'generate report' or 'dashboard' feels as intuitive as filling out a brief. And Cowork now features company branding throughout, including a redesigned home experience tailored to your organization.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/699cdb4f81e69eef7fe2ee35_Elicitation%20(1).png)
+![](https://assets.claude.com/e97245debbb07158f4ff862168f295ff3e6ec7f5.png)
 
 Additionally, we're adding [OpenTelemetry](https://claude.com/docs/cowork/monitoring) support, letting admins track usage, costs, and tool activity across their teams.
 
@@ -64,7 +46,7 @@ We're also expanding the library of pre-built plugin templates so more knowledge
 - [**Design**](https://claude.com/plugins/design): Accelerate design workflows by generating critique frameworks, drafting UX copy, running accessibility audits, and structuring user research plans.
 - [**Engineering**](https://claude.com/plugins/engineering): Streamline day-to-day engineering workflows like writing standup summaries, coordinating incident response, building deploy checklists, and drafting postmortems.
 - [**Operations**](https://claude.com/plugins/operations): Manage core business operations including process documentation, vendor evaluations, change request tracking, and runbook creation.
-- [**Brand voice**](https://claude.com/plugins/brand-voice) **(by Tribe AI)**: Analyze your existing documents, marketing materials, and conversations to distill your brand's voice into clear, enforceable guidelines.
+- **[Brand voice](https://claude.com/plugins/brand-voice) (by Tribe AI)**: Analyze your existing documents, marketing materials, and conversations to distill your brand's voice into clear, enforceable guidelines.
 - [**Financial analysis**](https://claude.com/plugins/financial-analysis): Support the baseline workflows every finance analyst needs, from market and competitive research to financial modeling and PowerPoint template creation and quality checking.
 - [**Investment banking**](https://claude.com/plugins/investment-banking): Accelerate deal workflows including reviewing transaction documents, building comparable company analyses, and preparing pitch materials.
 - [**Equity research**](https://claude.com/plugins/equity-research): Streamline research workflows like parsing earnings transcripts, updating financial models with new guidance, and drafting research notes.
@@ -73,9 +55,9 @@ We're also expanding the library of pre-built plugin templates so more knowledge
 
 Plugins are simple, portable file systems that you own. They work across Cowork and anything built on the Claude Agent SDK, making it easy to create private plugin marketplaces across teams and with industry experts.
 
-> “Three waves have reshaped professional work: productivity tools, cloud and search, and now agentic AI. PwC is partnering with Anthropic to bring enterprise-grade agents into the office of the CFO — making finance teams an even more strategic and valuable function by giving every team member the tools to do more ambitious work, make better decisions, and grow the business in ways that weren't possible before.” - Sanjay Subramanian, Anthropic Alliance Leader, PWC
+> ““Three waves have reshaped professional work: productivity tools, cloud and search, and now agentic AI. PwC is partnering with Anthropic to bring enterprise-grade agents into the office of the CFO — making finance teams an even more strategic and valuable function by giving every team member the tools to do more ambitious work, make better decisions, and grow the business in ways that weren't possible before.” - Sanjay Subramanian, Anthropic Alliance Leader, PWC”
 
-> “For two years, the market has been hyping us up about AI agents like they would be digital employees that work around the clock on a specific, discrete workflow. What Anthropic built is so much better.” - Mark Hines, COO, Blank Metal
+> ““For two years, the market has been hyping us up about AI agents like they would be digital employees that work around the clock on a specific, discrete workflow. What Anthropic built is so much better.” - Mark Hines, COO, Blank Metal”
 
 ## Working across apps
 
@@ -87,100 +69,45 @@ All user experience updates for plugins are available to all Cowork users. Team 
 
 Claude working across Excel and PowerPoint is now available in research preview for all paid plans on Mac and Windows. Download the add-in for [Claude in Excel](https://claude.com/claude-in-excel) and [Claude in PowerPoint](https://claude.com/claude-in-powerpoint) to get started.
 
-To learn more about Cowork and plugins for financial services, see our [companion blog post](https://claude.com/blog/cowork-plugins-finance).
+To learn more about Cowork and plugins for financial services, see our [companion blog post](https://claude.com/resources/articles/cowork-plugins-finance).
 
-No items found.
-
-[Prev](https://claude.com/blog/cowork-plugins-across-enterprise)Prev
-
-0/5
-
-[Next](https://claude.com/blog/cowork-plugins-across-enterprise)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-### How Warp builds self-improving agents on Claude
-
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/cowork-plugins-across-enterprise)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/cowork-plugins-across-enterprise)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
-
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-Enterprise AI
-
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/cowork-plugins-across-enterprise)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 29, 2026
+[ArticleSep 29, 2026
 
 ### Agents you can coach: how Asana builds human-agent teams with Claude
 
-Agents
+Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
+‍
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/cowork-plugins-across-enterprise)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+### A new approach to agent security with Claude Managed Agents and NVIDIA
+
+Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
+
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
+
+### Reducing cost and improving performance with Claude Platform
+
+Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
+
+Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
+
+### A guide to the anatomy of effective commerce agents
+
+The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
+
+Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/cowork-plugins-across-enterprise)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

@@ -49,7 +49,7 @@ and out would pop the paper. We are not there yet, of course. I tried giving thi
 
 To go about this scientifically, I encapsulated all the work. The rules were strict:
 
-- Only give text prompts to [Claude Code](https://claude.ai/redirect/website.v1.17f86423-eb2a-4be6-864e-971e339e1816/code). No editing files directly.
+- Only give text prompts to [Claude Code](https://claude.ai/redirect/website.v1.ff7c3634-79b6-44fc-9bd1-81dd216c42bb/code). No editing files directly.
 - Don’t cut and paste my own calculations into the chat.
 - But pasting Gemini or GPT calculations was OK, as long as they were only text-prompted.
 
@@ -59,7 +59,7 @@ My question was: is there a set of prompts, like instructions to a talented G2, 
 
 I knew from experience that LLMs struggle with context and organization over long projects. So I started by asking Claude to come up with a plan of attack: what tasks needed to be done in what order. I also asked GPT 5.2 and Gemini 3.0. Then, I had all three LLMs merge the best ideas from each, using web interfaces and copying one to another. Next, I gave those merges to Claude, asking it to break the outline into detailed subsections. The result is [here](https://www-cdn.anthropic.com/2595299ccf7f8b9a9c74823c24faaa5d9b216804.pdf). There were 102 separate tasks across seven stages.
 
-From there, I turned to [Claude Code](https://claude.ai/redirect/website.v1.17f86423-eb2a-4be6-864e-971e339e1816/code), using the extension in VS Code.
+From there, I turned to [Claude Code](https://claude.ai/redirect/website.v1.ff7c3634-79b6-44fc-9bd1-81dd216c42bb/code), using the extension in VS Code.
 
 ![A screen grab of Claude code](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2277f287d82a9a6087bc70c6d16cfd6648634d7e-1600x967.jpg&w=3840&q=75)
 
@@ -232,7 +232,7 @@ In addition to the growth in interest, the tools themselves have been steadily i
 
 ### Appendix: The numbers
 
-<table class="Table-module-scss-module__Z3bHXa__table"><tbody><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3">Total Claude sessions</td><td class="body-3">270</td></tr><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3">Messages exchanged</td><td class="body-3">51,248</td></tr><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3">Input tokens</td><td class="body-3">~27.5M</td></tr><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3">Output tokens</td><td class="body-3">~8.6M</td></tr><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3">Draft versions</td><td class="body-3">110</td></tr><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3">CPU hours for simulations</td><td class="body-3">~40</td></tr><tr class="Table-module-scss-module__Z3bHXa__row"><td class="body-3">Human oversight time</td><td class="body-3">~50–60 hours</td></tr></tbody></table>
+<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Total Claude sessions</td><td class="body-3" role="cell">270</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Messages exchanged</td><td class="body-3" role="cell">51,248</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Input tokens</td><td class="body-3" role="cell">~27.5M</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Output tokens</td><td class="body-3" role="cell">~8.6M</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Draft versions</td><td class="body-3" role="cell">110</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">CPU hours for simulations</td><td class="body-3" role="cell">~40</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Human oversight time</td><td class="body-3" role="cell">~50–60 hours</td></tr></tbody></table>
 
 *[Matthew Schwartz](https://www.physics.harvard.edu/people/facpages/schwartz) is a professor of physics at Harvard University. The paper discussed here is [available on arXiv](https://arxiv.org/abs/2601.02484).*
 
@@ -254,7 +254,7 @@ We built an index of how well today’s robots can perform US job tasks. Robots 
 
 ### What do you want from AI?
 
-We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI, and we invite you to participate.
+We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI.
 
 [Read more](https://www.anthropic.com/research/your-thoughts-on-ai)
 

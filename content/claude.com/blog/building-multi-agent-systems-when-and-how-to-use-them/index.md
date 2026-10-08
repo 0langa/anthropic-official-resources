@@ -1,30 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d230e0a787df988a8558_97cf99624aa60f59b75f9e08cdf0f00d33c34804-1000x1000.svg)
-
 # Building multi-agent systems: When and how to use them
 
 While single-agent systems handle most enterprise workflows effectively, multi-agent architectures can unlock additional value for your organization. Learn when and how to use them.
 
-- Category
-
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  [Claude Platform](https://claude.com/platform/api)
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  January 23, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them)
-
-  https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Platform, Claude Code
+- DateJanuary 23, 2026
+- Reading time17 min
+- ShareCopy link
 
 ## What is a multi-agent system?
 
@@ -48,7 +30,7 @@ We've observed teams build elaborate multi-agent systems with separate agents fo
 
 ## A decision framework for multi-agent systems
 
-Multi-agent architectures provide value when they address specific constraints that a single agent cannot overcome. This means multi-agent architectures should be reserved for cases where they provide clear benefits that justify the additional cost. Managed infrastructure can also handle this for you (see [multiagent orchestration in Claude Managed Agents)](https://claude.com/blog/new-in-claude-managed-agents).
+Multi-agent architectures provide value when they address specific constraints that a single agent cannot overcome. This means multi-agent architectures should be reserved for cases where they provide clear benefits that justify the additional cost. Managed infrastructure can also handle this for you (see [multiagent orchestration in Claude Managed Agents)](https://claude.com/resources/articles/new-in-claude-managed-agents).
 
 The patterns below represent cases where we consistently observe positive returns on this investment.
 
@@ -61,6 +43,8 @@ Consider a customer support agent that needs to retrieve order history while dia
 ‍
 
 **The single-agent approach:**
+
+Copy
 
 ```
 # Single agent accumulates everything in context
@@ -79,6 +63,8 @@ The agent must reason about the technical issue while maintaining 2000+ tokens o
 ‍
 
 **The multi-agent approach:**
+
+Copy
 
 ```
 from anthropic import Anthropic
@@ -132,6 +118,8 @@ Running multiple agents in parallel allows you to explore a larger search space 
 Anthropic's research team documented this in [how we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system). A lead agent analyzes a query and spawns multiple subagents to investigate different facets in parallel. Each subagent searches independently, then returns distilled findings. Multi-agent search has shown substantial accuracy improvements over single-agent approaches by allowing exploration across larger information spaces.
 
 The core implementation decomposes a question into independent facets, runs subagents concurrently, then synthesizes the results.
+
+Copy
 
 ```
 import asyncio
@@ -187,13 +175,15 @@ When an agent has access to too many tools, performance suffers. Three signals i
 
 Different tasks sometimes require different personas, constraints, or instructions that conflict when combined. A customer support agent needs to be empathetic and patient; a code review agent needs to be precise and critical. A compliance-checking agent needs rigid rule-following; a brainstorming agent needs creative flexibility. When a single agent must switch between conflicting behavioral modes, separating into specialized agents with tailored system prompts produces more consistent results.
 
-Each specialized agent is only as good as its instructions — the same [prompt engineering best practices](https://claude.com/blog/best-practices-for-prompt-engineering) that improve a single agent's outputs apply to every subagent's system prompt.
+Each specialized agent is only as good as its instructions — the same [prompt engineering best practices](https://claude.com/resources/articles/best-practices-for-prompt-engineering) that improve a single agent's outputs apply to every subagent's system prompt.
 
 #### **Domain expertise specialization**
 
 Some tasks benefit from deep domain context that would overwhelm a generalist agent. A legal analysis agent might need extensive context about case law and regulatory frameworks. A medical research agent might need specialized knowledge about clinical trial methodology. Rather than loading all domain context into a single agent, specialized agents can carry focused expertise relevant to their specific responsibilities.
 
 **Example: Multi-platform integration.** Consider an integration system where agents need to work across CRM, marketing automation, and messaging platforms. Each platform has 10-15 relevant API endpoints. A single agent with 40+ tools often struggles to select correctly, confusing similar operations across platforms. Splitting into specialized agents with focused toolsets and tailored prompts resolves selection errors.
+
+Copy
 
 ```
 from anthropic import Anthropic
@@ -293,6 +283,8 @@ The main agent completes a unit of work. Before proceeding, it spawns a verifica
 
 The verifier does not need to understand why the artifact was built as it was. It only needs to determine whether the artifact meets the specified criteria.
 
+Copy
+
 ```
 from anthropic import Anthropic
 
@@ -391,104 +383,49 @@ Multi-agent systems are powerful, but not universally appropriate. Before adding
 
 Our advice? Start with the simplest approach that works, and add complexity only when evidence supports it.
 
-*This is the first in a series of posts on multi-agent systems. For more on single-agent patterns, see* [*Building effective agents*](https://www.anthropic.com/engineering/building-effective-agents)*. For context management strategies, see* [*Effective context engineering for AI agents*](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)*. For a deep dive into how we built our multi-agent research system, see* [*How we built our multi-agent research system*](https://www.anthropic.com/engineering/multi-agent-research-system)*.*
+*This is the first in a series of posts on multi-agent systems. For more on single-agent patterns, see [Building effective agents](https://www.anthropic.com/engineering/building-effective-agents). For context management strategies, see [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents). For a deep dive into how we built our multi-agent research system, see [How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system).*
 
 ## Acknowledgements
 
 Written by Cara Phillips, with contributions from Paul Chen, Andy Schumeister, Brad Abrams, and Theo Chu.
 
-No items found.
-
-[Prev](https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them)Prev
-
-0/5
-
-[Next](https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-### How Warp builds self-improving agents on Claude
-
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 29, 2026
+[ArticleSep 29, 2026
 
 ### Agents you can coach: how Asana builds human-agent teams with Claude
 
-Agents
+Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
+‍
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+### A new approach to agent security with Claude Managed Agents and NVIDIA
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
 
-Sep 28, 2026
-
-### Giving companies more control over their AI agents, with NVIDIA
-
-Agents
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them)Giving companies more control over their AI agents, with NVIDIA
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Sep 8, 2026
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
 
 ### Reducing cost and improving performance with Claude Platform
 
-Agents
+Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them)Reducing cost and improving performance with Claude Platform
+Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
+### A guide to the anatomy of effective commerce agents
+
+The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
+
+Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

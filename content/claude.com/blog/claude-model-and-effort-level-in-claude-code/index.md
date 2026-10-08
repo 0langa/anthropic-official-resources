@@ -1,29 +1,11 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
-
 # Choosing a Claude model and effort level in Claude Code
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  July 7, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/claude-model-and-effort-level-in-claude-code)
-
-  https://claude.com/blog/claude-model-and-effort-level-in-claude-code
-- Author(s)
-
-  Lydia Hallie
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code
+- AuthorLydia Hallie
+- DateJuly 7, 2026
+- Reading time3 min
+- ShareCopy link
 
 **Key takeaways**:
 
@@ -46,61 +28,23 @@ But effort means more than just "thinking time." Effort level controls how much 
 
 At a higher effort, Claude will take more of those actions (for example, read files, run tests, and double-check) before it comes back to you. At lower effort, it would rather ask you for more context than spend tokens figuring something out on its own.
 
-No items found.
-
-[Prev](https://claude.com/blog/claude-model-and-effort-level-in-claude-code)Prev
-
-0/5
-
-[Next](https://claude.com/blog/claude-model-and-effort-level-in-claude-code)Next
-
-Get Claude Code
-
-curl -fsSL https://claude.ai/install.sh | bash
-
-Copy command to clipboard
-
-irm https://claude.ai/install.ps1 | iex
-
-Copy command to clipboard
-
-Or read the [documentation](https://code.claude.com/docs/en/overview)
-
-Try Claude Code
-
-[Try Claude Code](https://claude.ai/code)Try Claude Code
-
-Developer docs
-
-[Developer docs](https://code.claude.com/docs/en/overview)Developer docs
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
 ## **How model selection works**
 
 When you press enter, Claude Code assembles your message together with the system prompt, tool definitions, your CLAUDE.md, the conversation history, and any files in context. All of this is sent as one request to the API.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4d058625e4fe8fe674684f_1a1b01b4.png)
+![](https://assets.claude.com/8e646c17fd6a3737608c8cd46ac12c67997c3b68.png)
 
 Everything Claude Code has gets packed into one API request. On the server, the text is tokenized before it ever reaches the model.
 
 The model never sees that as plain text, though. The first thing that happens on the server is **tokenization**; the text is split into pieces, and each piece is mapped to an integer from a fixed vocabulary the model was trained with. const might map to 1978, await might map to 4293. From here on, your prompt is an array of integers.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4d058625e4fe8fe674684c_32d50939.png)
+![](https://assets.claude.com/e12cb84c1cb631e9af20f00c3264b2ca12c4f814.png)
 
 The tokenizer splits your text into pieces and maps each piece to an integer in a fixed vocabulary. Each chunk in the top row becomes its token ID (bottom row); IDs shown are illustrative.
 
 The model's job is to take that array and predict which token comes next. It does this by computing a *probability* for every token in its vocabulary and picking from the top. After const x = await, a well-trained model puts high probability on fetch (very likely) and near-zero on banana (not likely at all).
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4d058625e4fe8fe6746855_41fef15e.png)
+![](https://assets.claude.com/a449bfc1760f67e245fc11d0549341a4f41244d8.png)
 
 The model’s prediction is a probability for every token in its vocabulary. The gap between the top guess and an unrelated one is enormous.
 
@@ -108,7 +52,7 @@ What turns your input tokens into those probabilities is the **weights** (also c
 
 **The weights of each model are set during training, and by the time you're sending requests they're read-only.** Nothing in your prompt, your CLAUDE.md, or your context changes them. (If you've run into the word inference, that's all it means: using the model after training is done, with the weights fixed.)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4d058625e4fe8fe6746852_ac6d87ee.png)
+![](https://assets.claude.com/1810e1151d4fbf3a573c33608ff5393b1fbcae35.png)
 
 Your prompt goes in, probabilities come out. The weights in the middle don’t change.
 
@@ -124,7 +68,7 @@ So what does changing the model actually do? It swaps **which set of frozen weig
 
 The model doesn't generate a whole answer at once. It predicts one token, appends it to the sequence, and runs the whole computation again to get the next one. A 200-token response is 200 separate passes through the weights. This loop is where most of your wait time and your output cost come from.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4d058625e4fe8fe674685d_45cfd994.png)
+![](https://assets.claude.com/f33911c0e883b2b29728f07baf22aa467fecbb8a.png)
 
 The sequence grows by exactly one token per step. The model re-reads the whole array each time to predict what comes next.
 
@@ -146,7 +90,7 @@ These are all ordinary output tokens from the same loop, billed at the same rate
 
 When Claude moves on to writing code, its earlier reasoning is part of the input just like a file it’s read.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4d058625e4fe8fe6746860_ab0cbec6.png)
+![](https://assets.claude.com/b65c64a00eb500a6112b4ac0ce81119a0ba16875.png)
 
 All of Claude’s output is tokens. Thinking, tool calls, and text to you are all generated from the same loop.
 
@@ -154,9 +98,9 @@ How does effort change any of this? The effort level is sent to the model as par
 
 When your request arrives, effort level is one more input the model responds to, the same way it responds to your prompt text. This sets Claude’s behavior for how thorough and certain it needs to be before it considers the task done.
 
-**This is considered on every turn** andresults in more tokens to produce higher confidence answers.
+**This is considered on every turn** and results in more tokens to produce higher confidence answers.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4d058625e4fe8fe6746865_c62704ad.png)
+![](https://assets.claude.com/181600a66676825accdbc3ff497a457671061514.png)
 
 Same prompt, two effort levels. The high effort path generates roughly 7x more tokens to reach a higher confidence answer.
 
@@ -182,7 +126,7 @@ If you're increasing effort on a task that *shouldn't* need it, the fix is often
 
 But assuming you have provided clear context and Claude still gets something wrong, the question to ask yourself is: did it not *try* hard enough, or did it not *know* enough?
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4d058625e4fe8fe6746868_e1c52525.png)
+![](https://assets.claude.com/0128d65ec13f0c8696bc70e8932100418734c849.png)
 
 Two questions, one fallback. Use the heuristic to pick a starting point, not a hard rule.
 
@@ -192,7 +136,7 @@ Pick a larger model when the problem is genuinely hard. For example, problems li
 
 Larger models are also better at handling ambiguity, whereas specific instructions directing execution are a better recipe for success on the smaller models.
 
-Pick a smaller model when the work is routine. For example, edits you can describe precisely, mechanical changes, or questions about code that's already in context. There's no reason to pay for capability the task doesn't need.   
+Pick a smaller model when the work is routine. For example, edits you can describe precisely, mechanical changes, or questions about code that's already in context. There's no reason to pay for capability the task doesn't need.  
   
 If Claude has all the pertinent context and clearly tried and still got it wrong, that's a signal to pick a larger model. If you're on the larger model and the work has been routine for a while, dropping down will increase speed and typically reduce cost without impacting the quality of the output.
 
@@ -218,7 +162,7 @@ So how do model selection, effort, and token consumption all interact? It depend
 
 On routine work at the same effort level, both models generally will get it right. The larger model consumes more tokens with extra verification steps at a higher per-token price. That's why dropping to the smaller model for routine stretches saves real money at no quality cost.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4d058625e4fe8fe674686b_dc7b4801.png)
+![](https://assets.claude.com/8352a1d61d466c02e601b9d3cb8012cb75a676fb.png)
 
 Curves are for illustration purposes only, shown for a single task simple enough to be accomplished quickly by both models. They do not represent real benchmark data.
 
@@ -228,7 +172,7 @@ You're paying more per token for the larger model, but on tasks that genuinely s
 
 This is most pronounced with Fable. On long, multi-step work it pulls furthest ahead. In our testing, it finished jobs Opus and Sonnet can't reach at any effort level. It also costs the most per token, which is the other reason to save it for the work that needs it.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4d058625e4fe8fe674686e_80670a42.png)
+![](https://assets.claude.com/dfef391930320e0da39548b50d2b1e7b7ddfcd6c.png)
 
 Curves are for illustration purposes only, shown for a single task hard enough to stretch both models. They do not represent real benchmark data.
 
@@ -238,86 +182,48 @@ Another nuance to this: effort shapes token consumption but doesn't limit it. Th
 
 ## **Start with the defaults, then reach for the dials**
 
-Most of the time, you shouldn't be thinking about either setting. When a result misses the mark, ask, “did Claude not know enough or did it not try hard enough?”  and adjust as needed.
+Most of the time, you shouldn't be thinking about either setting. When a result misses the mark, ask, “did Claude not know enough or did it not try hard enough?” and adjust as needed.
 
-For the full set of techniques to increase efficiency specfically, see [maximizing the value of your Claude Code sessions](https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions).
+For the full set of techniques to increase efficiency specfically, see [maximizing the value of your Claude Code sessions](https://claude.com/resources/articles/maximizing-the-value-of-your-claude-code-sessions).
 
 *This article was written by Lydia Hallie, member of technical staff on the Claude Code team.*
 
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/claude-model-and-effort-level-in-claude-code)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
-
-Sep 24, 2026
+[ArticleSep 24, 2026
 
 ### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-Claude Code
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-model-and-effort-level-in-claude-code)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-Sep 23, 2026
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-### How to prepare for AI-driven code modernization projects
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-Enterprise AI
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/claude-model-and-effort-level-in-claude-code) How to prepare for AI-driven code modernization projects
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
+### The Claude Code guide for startups
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/claude-model-and-effort-level-in-claude-code)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/claude-model-and-effort-level-in-claude-code)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

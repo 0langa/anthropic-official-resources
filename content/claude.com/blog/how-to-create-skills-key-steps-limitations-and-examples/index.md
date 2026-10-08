@@ -1,32 +1,14 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f70ecef3c9356822a_928166e443bc1b1f19ebadf4fd11b7c45fce4153-1000x1000.svg)
-
 # How to create Skills: Key steps, limitations, and examples
 
 Learn how to write tailored skills that deliver stronger, more effective outputs from Claude.
 
-- Category
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude apps
+- DateNovember 19, 2025
+- Reading time14 min
+- ShareCopy link
 
-  [Claude Code](https://claude.com/blog/category/claude-code)
-
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  Claude apps
-- Date
-
-  November 19, 2025
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples)
-
-  https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples
-
-[Skills](https://www.claude.com/blog/skills) are custom instructions that extend Claude's capabilities for specific tasks or domains.
+[Skills](https://claude.com/resources/articles/skills) are custom instructions that extend Claude's capabilities for specific tasks or domains.
 
 When you create a skill via a [SKILL.md](http://skill.md/) file, you're teaching Claude how to handle specific scenarios more effectively. The power of skills lies in their ability to encode institutional knowledge, standardize outputs, and handle complex multi-step workflows that would otherwise require repeated explanation or investment in building a custom agent.
 
@@ -44,7 +26,7 @@ Start by asking yourself: What specific task does this skill accomplish? What tr
 
 ### **2. Write the name**
 
-Your skill needs three core components: **name** (clear identifier), **description** (when to activate), and **instructions** (how to execute). In fact, the name and description are the only parts of the [SKILL.md](http://skill.md/) file that influence triggering, in other words, the ability for Claude  to call a skill for specialized knowledge or workflows.
+Your skill needs three core components: **name** (clear identifier), **description** (when to activate), and **instructions** (how to execute). In fact, the name and description are the only parts of the [SKILL.md](http://skill.md/) file that influence triggering, in other words, the ability for Claude to call a skill for specialized knowledge or workflows.
 
 The name should be straightforward and descriptive. Use lowercase with hyphens (e.g., pdf-editor, brand-guidelines). Keep it short and clear.
 
@@ -56,11 +38,15 @@ A strong description balances several elements: specific capabilities, clear tri
 
 **Weak description**:
 
+Copy
+
 ```
 This skill helps with PDFs and documents.
 ```
 
 **Strong description**:
+
+Copy
 
 ```
 Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale. Use for document workflows and batch operations. Not for simple PDF viewing or basic conversions.
@@ -83,6 +69,8 @@ Depending on what Claude surface you’re building on, here’s how to upload yo
 - [Claude.ai](http://claude.ai/) (Claude apps): Go to **Settings** and add your custom skill there. Custom skills require a Pro, Max, Team, or Enterprise plan with code execution enabled. Skills uploaded here are individual to each user—they are not shared organization-wide and cannot be centrally managed by admins.
 - [Claude Code](https://www.claude.com/product/claude-code): Create a skills/ directory in your plugin or project root and add skill folders containing SKILL.md files. Claude discovers and uses them automatically when the plugin is installed. Example structure:
 
+Copy
+
 ```
 my-project/
 ├── skills/
@@ -91,6 +79,8 @@ my-project/
 ```
 
 - [Claude Developer Platform](https://www.claude.com/platform/api): Upload skills via the Skills API (/v1/skills endpoints). Use a POST request with the required beta headers:
+
+Copy
 
 ```
 curl -X POST "https://api.anthropic.com/v1/skills" \
@@ -158,7 +148,9 @@ These separate files don't need to represent mutually exclusive paths. The key p
 
 ## ‍**Real-world skills examples**
 
-### **Skill example #1:** [**docx creation skill**](https://github.com/anthropics/skills/tree/main/document-skills/docx)
+### **Skill example #1: [docx creation skill](https://github.com/anthropics/skills/tree/main/document-skills/docx)**
+
+Copy
 
 ```
 #---
@@ -362,7 +354,9 @@ Required dependencies (install if not available):
 
 **What makes it strong**: Provides a clear decision tree that routes Claude to the right workflow based on task type, uses progressive disclosure to keep the main file lean while referencing detailed implementation files only when needed, and includes concrete good/bad examples that show exactly how to implement complex patterns like tracked changes.
 
-### **Skill example #2:** [**Brand guidelines**](https://github.com/anthropics/skills/blob/main/brand-guidelines/SKILL.md?plain=1)
+### **Skill example #2: [Brand guidelines](https://github.com/anthropics/skills/blob/main/brand-guidelines/SKILL.md?plain=1)**
+
+Copy
 
 ```
 #name: brand-guidelines
@@ -443,7 +437,9 @@ To access Anthropic's official brand identity and style resources, use this skil
 
 **What makes it strong**: Creative capability with clear boundaries, copyright protection built in, technical scaffolding for non-musicians, quality standards.
 
-### **Skill example #3:** [**frontend design skill**](https://www.claude.com/blog/improving-frontend-design-through-skills)
+### **Skill example #3: [frontend design skill](https://claude.com/resources/articles/improving-frontend-design-through-skills)**
+
+Copy
 
 ```
 name: frontend-design
@@ -557,104 +553,50 @@ Claude Code users:
 - Install Skills via [plugin marketplaces](https://code.claude.com/docs/en/plugin-marketplaces)
 - Check out our [skills cookbook](https://platform.claude.com/cookbook/skills-notebooks-01-skills-introduction)
 
-No items found.
-
-[Prev](https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples)Prev
-
-0/5
-
-[Next](https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples)Next
-
-eBook
-
-## Agent Skills
+### Agent Skills
 
 Start using Skills with Claude to build more powerful applications today.
 
-Get started
+[Get started](https://claude.com/resources/articles/skills)
 
-[Get started](https://www.claude.com/blog/skills)Get started
+![](https://assets.claude.com/cf758d6a72887271ce371b8bfd2ba845fe172e05.svg)
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6915038fea2f5466c171c21f_Hand-NodeWeb.svg)![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/691503928e574d7dc8407b4a_Hand-NodeWeb-1.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
+[ArticleSep 24, 2026
 
-Aug 26, 2026
+### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-### How Warp builds self-improving agents on Claude
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-Agents
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples)How Warp builds self-improving agents on Claude
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-Sep 29, 2026
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-### Agents you can coach: how Asana builds human-agent teams with Claude
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-Agents
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples)Agents you can coach: how Asana builds human-agent teams with Claude
+### The Claude Code guide for startups
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 28, 2026
-
-### Giving companies more control over their AI agents, with NVIDIA
-
-Agents
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples)Giving companies more control over their AI agents, with NVIDIA
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

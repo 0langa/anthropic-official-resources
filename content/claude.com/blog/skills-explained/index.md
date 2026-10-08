@@ -1,30 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
-
 # Skills explained: How Skills compares to prompts, Projects, MCP, and subagents
 
 Skills are an increasingly powerful tool for creating custom AI workflows and agents, but where do they fit in the Claude stack? We explain what tool to use when - and how they all work together.
 
-- Category
-
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  Claude apps
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  March 5, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/skills-explained)
-
-  https://claude.com/blog/skills-explained
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude apps, Claude Platform
+- DateMarch 5, 2026
+- Reading time16 min
+- ShareCopy link
 
 Since introducing [Skills](https://www.anthropic.com/news/skills), there's been interest in understanding how the various components of Claude's agentic ecosystem work together.
 
@@ -36,7 +18,7 @@ This guide breaks down each building block, explains when to use what, and shows
 
 ### **What are Skills?**
 
-Embedded media: https://www.youtube.com/embed/IoqpBKrNaZI
+Embedded media: https://www.youtube-nocookie.com/embed/IoqpBKrNaZI?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 Skills are folders containing instructions, scripts, and resources that Claude discovers and loads dynamically when relevant to a task. Think of them as specialized training manuals that give Claude expertise in specific domains—from working with Excel spreadsheets to following your organization's brand guidelines.
 
@@ -54,7 +36,7 @@ Skills are folders containing instructions, scripts, and resources that Claude d
 
 ### **What are prompts?**
 
-Embedded media: https://www.youtube.com/embed/ysPbXH0LpIE
+Embedded media: https://www.youtube-nocookie.com/embed/ysPbXH0LpIE?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 [Prompts](https://docs.claude.com/en/prompt-library/library) are the instructions you provide to Claude in natural language during a conversation. They're ephemeral, conversational, and reactive—you provide context and direction in the moment.
 
@@ -106,7 +88,7 @@ Check out our [prompt library](https://docs.claude.com/en/prompt-library/library
 
 ### **What are Projects?**
 
-Embedded media: https://www.youtube.com/embed/nbG2DO6Xsek
+Embedded media: https://www.youtube-nocookie.com/embed/nbG2DO6Xsek?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 Available on all paid Claude plans, [Projects](https://support.claude.com/en/articles/9517075-what-are-projects) are self-contained workspaces with their own chat histories and knowledge bases. Each project includes a 200K context window where you can upload documents, provide context, and set custom instructions that apply to all conversations within that project.
 
@@ -140,6 +122,8 @@ Available on all paid Claude plans, [Projects](https://support.claude.com/en/art
 
 **Example:**
 
+Copy
+
 ```
 Create a code-reviewer subagent with access to Read, Grep, and Glob tools but not Write or Edit. When you modify code, Claude automatically delegates to this subagent for quality and security review without risking unintended code changes.
 ```
@@ -150,7 +134,7 @@ Create a code-reviewer subagent with access to Read, Grep, and Glob tools but no
 
 ### **What is MCP?**
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69141f0993d68ff4c536f316_619a5262.png)
+![](https://assets.claude.com/5f0d9bc4e73f5309bbcc198dab9aed8fd12dc155.png)
 
 MCP creates a universal connection layer between AI applications and your existing tools and data sources.
 
@@ -177,68 +161,7 @@ The real power emerges when you combine these building blocks. Each serves a dis
 
 ### **Comparison: choosing the right tool**
 
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th>Skills</th>
-<th>Prompts</th>
-<th>Projects</th>
-<th>Subagents</th>
-<th>MCP</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><b>What it provides</b></td>
-<td>Procedural knowledge</td>
-<td>Moment-to-moment instructions</td>
-<td>Background knowledge</td>
-<td>Task delegation</td>
-<td>Tool connectivity</td>
-</tr>
-<tr>
-<td><b>Persistence</b></td>
-<td>Across conversations</td>
-<td>Single conversation</td>
-<td>Within project</td>
-<td>Across sessions</td>
-<td>Continuous connection</td>
-</tr>
-<tr>
-<td><b>Contains</b></td>
-<td>Instructions + code + assets</td>
-<td>Natural language</td>
-<td>Documents + context</td>
-<td>Full agent logic</td>
-<td>Tool definitions</td>
-</tr>
-<tr>
-<td><b>When it loads</b></td>
-<td>Dynamically, as needed</td>
-<td>Each turn</td>
-<td>Always in project</td>
-<td>When invoked</td>
-<td>Always available</td>
-</tr>
-<tr>
-<td><b>Can include code</b></td>
-<td>Yes</td>
-<td>No</td>
-<td>No</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td><b>Best for</b></td>
-<td>Specialized expertise</td>
-<td>Quick requests</td>
-<td>Centralized context</td>
-<td>Specialized tasks</td>
-<td>Data access</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Feature</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Skills</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Prompts</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Projects</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Subagents</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">MCP</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>What it provides</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Procedural knowledge</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Moment-to-moment instructions</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Background knowledge</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Task delegation</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Tool connectivity</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Persistence</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Across conversations</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Single conversation</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Within project</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Across sessions</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Continuous connection</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Contains</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Instructions + code + assets</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Natural language</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Documents + context</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Full agent logic</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Tool definitions</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>When it loads</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Dynamically, as needed</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Each turn</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Always in project</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">When invoked</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Always available</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Can include code</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Yes</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">No</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">No</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Yes</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Yes</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Best for</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Specialized expertise</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Quick requests</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Centralized context</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Specialized tasks</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Data access</span></td></tr></tbody></table>
 
 ### **Example agentic workflow: research agent**
 
@@ -268,6 +191,8 @@ Enable MCP servers for:
 **Step 3: Create specialized Skills**
 
 Create a "competitive-analysis" skill:
+
+Copy
 
 ```
 # My Company GDrive Navigation Skill
@@ -312,6 +237,8 @@ Create specialized subagents:
 
 `market-researcher` subagent:
 
+Copy
+
 ```
 name: market-researcher
 description: Research market trends, industry reports, and competitive landscape data. Use proactively for competitive analysis.
@@ -329,6 +256,8 @@ Present findings with citations and confidence levels.
 ```
 
 `technical-analyst` subagent:
+
+Copy
 
 ```
 name: technical-analyst
@@ -404,7 +333,7 @@ For example, your python-developer subagent can use the pandas-analysis Skill to
 
 Ready to build with Skills? Here's how to start:
 
-[**Claude.ai**](https://claude.ai/) **users:**
+**[Claude.ai](https://claude.ai/) users:**
 
 - Enable Skills in Settings → Features
 - Create your first project at claude.ai/projects
@@ -420,104 +349,51 @@ Ready to build with Skills? Here's how to start:
 - Install Skills via [plugin marketplaces](https://code.claude.com/docs/en/plugin-marketplaces)
 - Check out our [skills cookbook](https://platform.claude.com/cookbook/skills-notebooks-01-skills-introduction)
 
-No items found.
-
-[Prev](https://claude.com/blog/skills-explained)Prev
-
-0/5
-
-[Next](https://claude.com/blog/skills-explained)Next
-
-eBook
-
-## Agent Skills
+### Agent Skills
 
 Start using Skills with Claude to build more powerful applications today.
 
-Get started
+[Get started](https://claude.com/resources/articles/skills)
 
-[Get started](https://www.claude.com/blog/skills)Get started
+![](https://assets.claude.com/cf758d6a72887271ce371b8bfd2ba845fe172e05.svg)
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6915038fea2f5466c171c21f_Hand-NodeWeb.svg)![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/691503928e574d7dc8407b4a_Hand-NodeWeb-1.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-### How Warp builds self-improving agents on Claude
-
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/skills-explained)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 29, 2026
+[ArticleSep 29, 2026
 
 ### Agents you can coach: how Asana builds human-agent teams with Claude
 
-Agents
+Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
+‍
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/skills-explained)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+### A new approach to agent security with Claude Managed Agents and NVIDIA
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
 
-Sep 28, 2026
-
-### Giving companies more control over their AI agents, with NVIDIA
-
-Agents
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/skills-explained)Giving companies more control over their AI agents, with NVIDIA
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Sep 8, 2026
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
 
 ### Reducing cost and improving performance with Claude Platform
 
-Agents
+Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/skills-explained)Reducing cost and improving performance with Claude Platform
+Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
+### A guide to the anatomy of effective commerce agents
+
+The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
+
+Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/skills-explained)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

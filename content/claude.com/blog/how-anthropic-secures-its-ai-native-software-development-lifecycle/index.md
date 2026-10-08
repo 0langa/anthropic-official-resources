@@ -1,39 +1,13 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22824d4124c2e33ba8e_b1ce510c468b2920d4f8f61c17a50906801f939a-1000x1000.svg)
-
 # How Anthropic secures its AI-native software development lifecycle
 
 Anthropic Deputy CISO, Jason Clinton, details how the Security Engineering team secures a SDLC that has AI authoring 80% of merged code.
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-
-  [Claude Tag](https://claude.com/product/tag)
-
-  [Claude Enterprise](https://claude.com/solutions/enterprise)
-- Date
-
-  July 21, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle)
-
-  https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle
-- Author(s)
-
-  Jason Clinton
+- Category[Best practices](https://claude.com/resources/best-practices), [Perspectives](https://claude.com/resources/perspectives)
+- ProductClaude Code, Claude Tag, Claude Enterprise
+- AuthorJason Clinton
+- DateJuly 21, 2026
+- Reading time6 min
+- ShareCopy link
 
 At Anthropic, the amount of code and velocity of deployment have scaled exponentially. Our software engineers on average ship 8x as much code per quarter as they did from 2021 to 2025.
 
@@ -45,7 +19,7 @@ More than half of all code is being merged by our internal version of [Claude Ta
 
 This means our security team must defend a rapidly expanding surface area and harden a lifecycle with non-deterministic, constantly evolving agents at its heart. In this article, I cover strategies to secure the software development lifecycle (SDLC).
 
-*(This is intended to be combined with the* [*Zero Trust for Agents*](https://claude.com/blog/zero-trust-for-ai-agents) *framework we recently published; everything in this article uses security design ideas from that framework in the implementation).*
+*(This is intended to be combined with the [Zero Trust for Agents](https://claude.com/resources/articles/zero-trust-for-ai-agents) framework we recently published; everything in this article uses security design ideas from that framework in the implementation).*
 
 The threats we're designing against are specific: a compromised or prompt-injected agent introducing a malicious change; supply-chain and dependency poisoning that an agent ingests as trusted input; and the more familiar classes of application vulnerability now arriving at higher volume. Every control that follows maps to at least one of those.
 
@@ -60,9 +34,9 @@ In this article, we’ll cover the security processes we have implemented at spe
 
 ## **The evolving software development lifecycle**
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a5fa5786cc9f557247c1256_9c126d9d.png)
+![](https://assets.claude.com/8a4767e652bdda6c9680055b306c14d2b7b765ad.png)
 
-Our development team has covered the changes to their software development lifecycle [at length](https://claude.com/blog/running-an-ai-native-engineering-org), so this will be a brief primer before we dive into each stage.
+Our development team has covered the changes to their software development lifecycle [at length](https://claude.com/resources/articles/running-an-ai-native-engineering-org), so this will be a brief primer before we dive into each stage.
 
 At a high level, our software development lifecycle is compressed. It is driven by prototypes and internal adoption (dogfooding) more than lengthy planning cycles. Ideation comes from all corners of the organization and traditional roles (frontend, backend, design) are blurred. Reviews and approvals still have humans in the loop, but are also driven by agentic loops.
 
@@ -74,9 +48,9 @@ One of our first security automations ever was a simple Claude Opus powered PSR 
 
 We’ve significantly enhanced the system by connecting it to an internal knowledge index that provides much deeper context across our organization-wide policies, past decisions, and related systems.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a5fa80d84f25c4ed3f5421f_three-steps-diagram.png)
+![](https://assets.claude.com/a8cf8d786f7fb97bb2222e66aa377838ff9a496c.png)
 
-*The process internally at Anthropic for an automated PSR.*
+The process internally at Anthropic for an automated PSR.
 
 This gives us a better understanding of potential risk, and it also captures information missing from the PSR. This one implementation saved the majority of the AppSec team’s time. Once we gained confidence that Claude was accurate in assessing risk, we allowed teams to approve their own project, if Claude deemed the launch low enough risk.
 
@@ -86,44 +60,6 @@ Today, multiple prototypes of major features can be created in hours, making det
 
 **Enduring Principle**: Connect security agents to organizational context. As the planning cycle compresses, it is much more effective to bring these agents to where the context already lives – chat threads, prior reviews, the codebase – rather than forcing detailed documentation at stages that may no longer require them. Either way, agents need context outside of the code itself.
 
-No items found.
-
-[Prev](https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle)Prev
-
-0/5
-
-[Next](https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle)Next
-
-Get Claude Code
-
-curl -fsSL https://claude.ai/install.sh | bash
-
-Copy command to clipboard
-
-irm https://claude.ai/install.ps1 | iex
-
-Copy command to clipboard
-
-Or read the [documentation](https://code.claude.com/docs/en/overview)
-
-Try Claude Code
-
-[Try Claude Code](https://claude.ai/code)Try Claude Code
-
-Developer docs
-
-[Developer docs](https://code.claude.com/docs/en/overview)Developer docs
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
 ## **Code**
 
 Security professionals within an AI-native engineering organization have a new lever: they can directly shape how code is created, helping to prevent vulnerabilities at the source.
@@ -132,7 +68,7 @@ Previously, teams observed recurring vulnerabilities and created secure coding g
 
 At Anthropic, those guidelines are encoded in CLAUDE.md files and references to org-wide skills so the code follows these best practices the minute it's generated. This is done as part of a closed loop. Once an agent discovers a bug class, the relevant file is updated to prevent it recurring in future code.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a5fa78b8f99d4eea5c0c389_closed-loop-diagram.png)
+![](https://assets.claude.com/674baa4273e328c893c875c838c37530e1b2c11e.png)
 
 Of course, that doesn’t mean all code comes out perfect. Our team started with a CLAUDE.md file that instructs the agent to run [/security-review](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code) as a final step before opening a PR. This generally available command, the productized version of our team's internal review workflow, looks for places where potential attacker-controllable input enters, scans for suspicious links, and then verifies its findings.
 
@@ -160,7 +96,7 @@ Let’s be clear: human accountability is still central to our process. What we 
 
 Historically, human code review has been held as the standard, yet the [empirical evidence](https://link.springer.com/chapter/10.1007/978-3-642-36563-8_14) has shown it is not perfect. Security bugs regularly ship in software across the world. Our review process is able to review more code and catch particularly complex issues, helping to reduce these risks.
 
-The share of PRs that get substantive review comments [has grown from 16 to 54%](https://claude.com/blog/code-review) as we’ve gained confidence in the findings by requiring the agents to write a proof that their finding is valid. We’ve also determined that approximately [a third of the bugs behind past claude.ai incidents would have been caught](https://www.anthropic.com/institute/recursive-self-improvement) by the automated processes we have now implemented.
+The share of PRs that get substantive review comments [has grown from 16 to 54%](https://claude.com/resources/articles/code-review) as we’ve gained confidence in the findings by requiring the agents to write a proof that their finding is valid. We’ve also determined that approximately [a third of the bugs behind past claude.ai incidents would have been caught](https://www.anthropic.com/institute/recursive-self-improvement) by the automated processes we have now implemented.
 
 We’re not the only organization that has found this to be true. [Intercom has shared](https://www.intercom.com/blog/ai-is-approving-our-pull-requests-heres-how-we-made-it-safe/) it auto-approves 19% of its PRs. Deployment doubled while downtime from breaking code changes dropped 35%. CircleCI reached a similar conclusion building Chunk, an autonomous agent on Claude that resolves CI/CD maintenance issues and [validates its own fixes before a human ever sees them. The](https://claude.com/customers/circleci) approach doubled the rate at which agent tasks convert into completed pull requests.
 
@@ -174,7 +110,7 @@ This is much more effective than one mega-prompt or super security agent for a f
 
 To be clear, agents aren't merging code to production unchecked. We tier our codebase by risk, and make deliberate decisions on what parts to automate. Entire codebases have strict human approval processes.
 
-Human accountability is still central for code that is reviewed and merged by Claude.  Every approval is logged with the signals and reasoning behind it, and a risk-weighted sample is reviewed by humans. Another round of testing focuses on invariants like “user A can never read user B’s data,” and triggers additional manual reviews. We combine our agentic scans with SAST tools as well, which post directly on PRs.
+Human accountability is still central for code that is reviewed and merged by Claude. Every approval is logged with the signals and reasoning behind it, and a risk-weighted sample is reviewed by humans. Another round of testing focuses on invariants like “user A can never read user B’s data,” and triggers additional manual reviews. We combine our agentic scans with SAST tools as well, which post directly on PRs.
 
 Most scanning approaches, whether agentic or deterministic, are consumption based. Costs will increase as code throughput increases, and teams will need to decide what level of coverage is appropriate for them.
 
@@ -182,7 +118,7 @@ At Anthropic, we accept costs here will grow as our code velocity increases, but
 
 **Enduring Principle**: Automated reviews are a different type of risk that is controlled differently (through multiple gates and agents with separate context windows). Humans stay in the loop, but may be in different places in the lifecycle depending on the nature of the codebase.
 
-> When CI does break, Claude Tag acts as our [first responder for CI/CD failures](https://claude.com/blog/ai-ci-cd-on-call).
+> “When CI does break, Claude Tag acts as our first responder for CI/CD failures.”
 
 ## **Deploy (CD)**
 
@@ -217,15 +153,15 @@ What this agent can’t do is deploy the fix automatically. It’s a single-purp
 
 The fix either needs to come from a separate agent-human reviewer system. The reason for this comes back to managing identity, permissions, and hard boundaries: it’s important to contain the blast radius when pushing code into production. Separating agents is critical as one (or multiple) agents act as checks on the other.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a5faaaf38e56da47cb6564d_permission-boundary-diagram.png)
+![](https://assets.claude.com/75a8858b23bfc4815039eb395150b5c9ca6639b8.png)
 
 This is also an important lesson for CISOs, and one that I had to learn the hard way. When considering an agent’s hard boundaries you need to include its access to other agents.
 
-Following a model upgrade, the incident response agent reached out over Slack to another Claude instance on its own initiative. It asked the agent, which could write code, to push the fix. **This was caught at a human review gate as designed**, but this experience taught us to draw the boundary around access and actions, not around a model’s instructions or what we believe a model can do. Today at Anthropic, agent-to-agent communication on Slack is the norm and we give considerable thought to [agent identity models](https://claude.com/blog/agent-identity-access-model).
+Following a model upgrade, the incident response agent reached out over Slack to another Claude instance on its own initiative. It asked the agent, which could write code, to push the fix. **This was caught at a human review gate as designed**, but this experience taught us to draw the boundary around access and actions, not around a model’s instructions or what we believe a model can do. Today at Anthropic, agent-to-agent communication on Slack is the norm and we give considerable thought to [agent identity models](https://claude.com/resources/articles/agent-identity-access-model).
 
 The second major change is how our team approaches migrations. Every security engineering team has experienced the moment where they realize a code migration will be necessary to fix some systemic flaw in the way the company operates. In the past, the CISO would need to start campaigning and request a small percentage of each department’s engineering resources for multiple quarters to get it fixed.
 
-The economic cost of migration has fallen and so too has the cost of cross company coordination. Claude [automates the migration process, tens of thousands of lines of code, in days](https://claude.com/blog/ai-code-migration).
+The economic cost of migration has fallen and so too has the cost of cross company coordination. Claude [automates the migration process, tens of thousands of lines of code, in days](https://claude.com/resources/articles/ai-code-migration).
 
 **Enduring Principle**: Give every agent a single-purpose identity with the minimum permissions for its job. If you do let agents coordinate, have them do so over the same channels as humans.
 
@@ -243,7 +179,7 @@ This underscores the importance of strong governance. If a skill goes stale, a d
 
 **Enduring Principle**: The security engineer’s job evolves from monitoring bugs to monitoring loops.
 
-*For the assessment framework behind these controls, see the* [*CISO's guide to agentic AI*](https://claude.com/blog/ciso-guide-to-agentic-ai)*.*
+*For the assessment framework behind these controls, see the [CISO's guide to agentic AI](https://claude.com/resources/articles/ciso-guide-to-agentic-ai).*
 
 ## **Keeping an AI SDLC secure as models evolve**
 
@@ -253,80 +189,42 @@ What doesn’t quite work today or isn’t quite economically feasible likely wi
 
 *This article was written by Jason Clinton, Deputy CISO, Anthropic. He’d like to thank Michael Segner for his contributions to this article.*
 
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
+[ArticleSep 24, 2026
 
-Aug 26, 2026
+### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-### How Warp builds self-improving agents on Claude
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-Agents
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle)How Warp builds self-improving agents on Claude
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-Jul 20, 2026
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-Enterprise AI
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+### The Claude Code guide for startups
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
-
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-Enterprise AI
-
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 29, 2026
-
-### Agents you can coach: how Asana builds human-agent teams with Claude
-
-Agents
-
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle)Agents you can coach: how Asana builds human-agent teams with Claude
-
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

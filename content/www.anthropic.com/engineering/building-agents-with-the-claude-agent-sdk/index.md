@@ -1,40 +1,20 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
-
 # Building agents with the Claude Agent SDK
 
 The Claude Agent SDK is a collection of tools that helps developers build powerful agents on top of Claude Code. In this article, we walk through how to get started and share our best practices.
 
 ‍
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  September 29, 2025
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/building-agents-with-the-claude-agent-sdk)
-
-  https://claude.com/blog/building-agents-with-the-claude-agent-sdk
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code, Claude Platform
+- DateSeptember 29, 2025
+- Reading time14 min
+- ShareCopy link
 
 Last year, we shared lessons in [building effective agents](https://www.anthropic.com/engineering/building-effective-agents) alongside our customers. Since then, we've released [Claude Code](https://claude.com/product/claude-code), an agentic coding solution that we originally built to support developer productivity at Anthropic.
 
 Over the past several months, Claude Code has become far more than a coding tool. At Anthropic, we’ve been [using it](https://www.anthropic.com/news/how-anthropic-teams-use-claude-code) for deep research, video creation, and note-taking, among countless other non-coding applications. In fact, it has begun to power almost all of our major agent loops.
 
-In other words, [the agent harness that powers Claude Code](https://claude.com/blog/harnessing-claudes-intelligence) (the Claude Code SDK) can power many other types of agents, too. To reflect this broader vision, we're renaming the Claude Code SDK to the Claude Agent SDK.
+In other words, [the agent harness that powers Claude Code](https://claude.com/resources/articles/harnessing-claudes-intelligence) (the Claude Code SDK) can power many other types of agents, too. To reflect this broader vision, we're renaming the Claude Code SDK to the Claude Agent SDK.
 
 In this post, we'll highlight why we built the Claude Agent SDK, how to build your own agents with it, and share the best practices that have emerged from our team’s own deployments.
 
@@ -50,7 +30,7 @@ But this has also made Claude in Claude Code effective at *non*-coding tasks. By
 
 We believe giving Claude a computer unlocks the ability to build agents that are more effective than before. For example, with our SDK, developers can build:
 
-- **Finance agents**:Build agents that can understand your portfolio and goals, as well as help you evaluate investments by accessing external APIs, storing data and running code to make calculations.
+- **Finance agents**: Build agents that can understand your portfolio and goals, as well as help you evaluate investments by accessing external APIs, storing data and running code to make calculations.
 - **Personal assistant agents**. Build agents that can help you book travel and manage your calendar, as well as schedule appointments, put together briefs, and more by connecting to your internal data sources and tracking context across applications.
 - **Customer support agents:** Build agents that can handle high ambiguity user requests, like customer service tickets, by collecting and reviewing user data, connecting to external APIs, messaging users back and escalating to humans when needed.
 - **Deep research agents**: Build agents that can conduct comprehensive research across large document collections by searching through file systems, analyzing and synthesizing information from multiple sources, cross-referencing data across files, and generating detailed reports.
@@ -61,7 +41,7 @@ And much more. At its core, the SDK gives you the primitives to build agents for
 
 In Claude Code, Claude often operates in a specific feedback loop: gather context -> take action -> verify work -> repeat.
 
-![Agent feedback loop](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/697a4b28db0e40fd93e63875_image.png)
+![Agent feedback loop](https://assets.claude.com/763dc701846eff87b732b17b595de0a653bb356a.png)
 
 Agents often operate in a specific feedback loop: gather context -> take action -> verify work -> repeat.
 
@@ -79,7 +59,7 @@ When Claude encounters large files, like logs or user-uploaded files, it will de
 
 Our email agent might store previous conversations in a folder called ‘Conversations’. This would allow it to search previous these for its context when asked about them.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/697a4b28db0e40fd93e6387e_image.webp)
+![](https://assets.claude.com/a91e04b09aba7e55240bf37c4010a504a223b493.jpg)
 
 ### **Semantic search**
 
@@ -113,7 +93,7 @@ Bash is useful as a general-purpose tool to allow the agent to do flexible work 
 
 In our email agent, the user might have important information stored in their attachments. Claude could write code to download the PDF, convert it to text, and search across it to find useful information by calling, as depicted below:
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/697a4b28db0e40fd93e6387b_image.webp)
+![](https://assets.claude.com/c44b34583ec8f28939730d703426e416857476ad.jpg)
 
 ### **Code generation**
 
@@ -125,7 +105,7 @@ For example, our recent launch of [file creation in](https://www.anthropic.com/n
 
 In our email agent, we might want to allow users to create rules for inbound emails. To achieve this, we could write code to run on that event:
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/697a4b28db0e40fd93e63878_image.webp)
+![](https://assets.claude.com/847da10e0883a86d53f29e45747a36ab6a704446.jpg)
 
 ### **MCPs**
 
@@ -162,7 +142,7 @@ For instance:
 
 Using an MCP server like Playwright, you can automate this visual feedback loop—taking screenshots of rendered HTML, capturing different viewport sizes, and even testing interactive elements—all within your agent's workflow.
 
-![Claude provides visual feedback on the body of an email generated by an agent.](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/697a4b28db0e40fd93e63881_image.webp)
+![Claude provides visual feedback on the body of an email generated by an agent.](https://assets.claude.com/9b2ef8d28db1e66530e35fdad0ca91e8e3b86aeb.jpg)
 
 Visual feedback from a large-language model (LLM) can provide helpful guidance to your agent.
 
@@ -195,118 +175,42 @@ You can [get started](https://docs.claude.com/en/api/agent-sdk/overview) with th
 
 Written by Thariq Shihipar with notes and editing from Molly Vorwerck, Suzanne Wang, Alex Isken, Cat Wu, Keir Bradwell, Alexander Bricken & Ashwin Bhat.
 
-No items found.
-
-[Prev](https://claude.com/blog/building-agents-with-the-claude-agent-sdk)Prev
-
-0/5
-
-[Next](https://claude.com/blog/building-agents-with-the-claude-agent-sdk)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-Get Claude Code
-
-curl -fsSL https://claude.ai/install.sh | bash
-
-Copy command to clipboard
-
-irm https://claude.ai/install.ps1 | iex
-
-Copy command to clipboard
-
-Or read the [documentation](https://code.claude.com/docs/en/overview)
-
-Try Claude Code
-
-[Try Claude Code](https://claude.ai/code)Try Claude Code
-
-Developer docs
-
-[Developer docs](https://code.claude.com/docs/en/overview)Developer docs
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
+[ArticleSep 24, 2026
 
-Aug 26, 2026
+### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-### How Warp builds self-improving agents on Claude
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-Agents
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/building-agents-with-the-claude-agent-sdk)How Warp builds self-improving agents on Claude
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-Sep 29, 2026
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-### Agents you can coach: how Asana builds human-agent teams with Claude
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-Agents
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/building-agents-with-the-claude-agent-sdk)Agents you can coach: how Asana builds human-agent teams with Claude
+### The Claude Code guide for startups
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 28, 2026
-
-### Giving companies more control over their AI agents, with NVIDIA
-
-Agents
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/building-agents-with-the-claude-agent-sdk)Giving companies more control over their AI agents, with NVIDIA
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/building-agents-with-the-claude-agent-sdk)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/building-agents-with-the-claude-agent-sdk)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
 # Build plugins for Claude
 
 *You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.*
 
-- Category
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  Claude apps
-- Date
-
-  September 25, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/build-plugins-for-claude)
-
-  https://claude.com/blog/build-plugins-for-claude
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude apps
+- DateSeptember 25, 2026
+- Reading time4 min
+- ShareCopy link
 
 Every day, millions of people connect Claude to their apps, work tools, and data. Today, we're making it easier for developers to reach them.
 
@@ -41,7 +25,7 @@ Whichever path you choose, the portal will guide you from submission to launch. 
 - **Review status and feedback.** See where your plugin is in the review process, results from the safety scan, and recommended changes.
 - **Publish when you’re ready.** Once approved, you decide when to publish your plugin in Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab6a76f77cf7911a03be1bd_d852ff4a.png)
+![](https://assets.claude.com/032a9fa50ce34ebacad5fb53690eca559fea7a5a.png)
 
 Stylized view of review status and recommended changes for a plugin. Data is illustrative.
 
@@ -49,7 +33,7 @@ Stylized view of review status and recommended changes for a plugin. Data is ill
 
 Once your plugin is live, usage analytics show installs by product surface and version, so you can prioritize fixes and features for your users. On the discovery side, you’ll see how often your listing is viewed and which searches lead people to it, so you can refine it to reach new users.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab6a76f77cf7911a03be1c0_ec09f8b2.png)
+![](https://assets.claude.com/ab51ab12c2c9424ea16ccf140d534f35360038ba.png)
 
 Stylized view of usage metrics for a published plugin. Data is illustrative.
 
@@ -59,104 +43,46 @@ Claude supports the latest MCP spec, commonly referred to as [MCP 2.0](https://m
 
 ## **Start building plugins for Claude**
 
-Plugins are the main way for third-party developers to create extensions for Claude. Over the coming weeks, one discovery experience will roll out across Claude and Claude Code.   
+Plugins are the main way for third-party developers to create extensions for Claude. Over the coming weeks, one discovery experience will roll out across Claude and Claude Code.  
   
 Skills and MCP connectors stay as building blocks, and the Claude directory will continue to list them. In the future, developers will be able to turn their connector listing into a plugin. If you have an existing skill, connector, or plugin on the Claude directory, you do not need to make any changes.
 
 To get started with building plugins, read our docs for [how to build a plugin](https://claude.com/docs/build/overview) and submit your plugin [here](https://claude.ai/directory/manage/new).
 
-No items found.
-
-[Prev](https://claude.com/blog/build-plugins-for-claude)Prev
-
-0/5
-
-[Next](https://claude.com/blog/build-plugins-for-claude)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/build-plugins-for-claude)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/build-plugins-for-claude)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
-
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/build-plugins-for-claude)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22deea97e4a5b5e5739_8d339ae8ecedecc1409db8f5bbb99c958db56946-1000x1000.svg)
-
-Sep 24, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 24, 2026
 
 ### Claude Tag now supports personal connectors in channels
 
-Product announcements
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-[Claude Tag now supports personal connectors in channels](https://claude.com/blog/build-plugins-for-claude)Claude Tag now supports personal connectors in channels
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)[ArticleSep 23, 2026
 
-[Claude Tag now supports personal connectors in channels](https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels)Claude Tag now supports personal connectors in channels
+### Claude Marketplace: one place to discover plugins, agents, and services from our partners
+
+Find the tools and services to do more with Claude, or list what you've built to grow alongside Claude customers.
+
+Claude Platform](https://claude.com/resources/articles/claude-marketplace)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/build-plugins-for-claude)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

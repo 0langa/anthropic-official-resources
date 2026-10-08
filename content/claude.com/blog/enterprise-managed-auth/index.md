@@ -1,32 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d23008bbc20c0ffaeb6f_43abe7e54b56a891e74a8542944dfbd33f07f49c-1000x1000.svg)
-
 # Centrally manage authorization for MCP connectors
 
-- Category
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Enterprise, Claude apps
+- DateJune 18, 2026
+- Reading time4 min
+- ShareCopy link
 
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  [Claude Enterprise](https://claude.com/solutions/enterprise)
-
-  Claude apps
-- Date
-
-  June 18, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/enterprise-managed-auth)
-
-  https://claude.com/blog/enterprise-managed-auth
-
-Embedded media: https://www.youtube.com/embed/5kTDt9ewTwE
+Embedded media: https://www.youtube-nocookie.com/embed/5kTDt9ewTwE?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 ***Update: Enterprise-managed authorization is now generally available and supports Datadog, Notion, and Slack with Exa, Miro, and Zoom coming soon in addition to the existing support for Asana, Atlassian, Canva, Figma, Granola, Linear, and Supabase. (August 24, 2026)***
 
@@ -56,174 +36,159 @@ Enterprise-managed authorization works across three groups: the identity provide
 
 **Claude customers.** Hubspot, Ramp, and Webflow are among the organizations rolling out enterprise-managed auth across their teams.
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa01f7e645f7fe4aabfb7a4_asana-logo-light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa01f851118c8688fe503ab_asana-logo-dark.svg)
+![Slack](https://assets.claude.com/d28a34b6acf04e16d9b8806ee16d3ca66f00b389.svg)
 
-"Enterprise-managed auth is a foundational milestone in realizing Asana's vision as the operating system for human-agent teams. By providing organizations with a secure, controlled way to connect Claude to their most critical workflows, we are unlocking the ability to scale AI-driven value across the enterprise—backed by the absolute governance, compliance, and trust that large-scale deployment demands."
-
-Arnab Bose, CPO
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5a84a22074cc407a84848_Atlassian_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5a84a22074cc407a84848_Atlassian_light.svg)
-
-“Enterprise-managed auth makes Atlassian Rovo MCP easier for Claude Enterprise customers to adopt at scale, giving employees a simple way to connect Claude to the Atlassian work they already rely on across Jira, Confluence, and Teamwork Graph. Just as importantly, it gives admins a centralized place to manage MCP clients' access, so organizations can move faster with AI while maintaining the governance they expect."
-
-Brendan Haire, VP of Engineering, Rovo and AI
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5a94f6f82b1f84f489887_Canva_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5a94baddb6685c1e5410d_Canva_dark.svg)
-
-"Canva is already trusted by 95% of the Fortune 500, and our MCP server lets even more teams create, edit and publish on-brand designs with Canva's AI and design tools, all in the same workflow. Enterprise-managed auth with Okta makes it clear and simple for enterprises to manage AI access with a system they already trust, enabling teams to create with AI, safely and at scale."
-
-Anwar Haneef, GM & Head of Ecosystem
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68d1ee4cb7c69d15a44ec7d6_Figma%20Dark.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68d1ee481c19e67f332ef755_Figma%20Light.svg)
-
-"The Figma MCP brings the power of code and canvas together so teams can move faster, explore more and ship products that stand out. As MCP adoption grows, enterprise-managed auth makes it easier for enterprises to scale their MCP deployments securely without slowing teams down."
-
-Devdatta Akhawe, VP of Engineering
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab2c8bb3466f0c993603dbd_6ab2c6ea9722fe27e0a9f107_startups-wordmark-granola-light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab2c8bb3466f0c993603dba_6ab2c6ea2e2338d6855593c4_startups-wordmark-granola-dark.svg)
-
-"It's great to see Anthropic and Okta make it easier for enterprises to connect to MCP servers securely, centrally and at scale. Granola helps teams capture some of the most important context at work: decisions, details and follow ups as they happen. MCP makes this useful across team tools, and enterprise-managed auth makes it available frictionlessly across teams."
-
-Chris Pedregal, CEO & co-founder
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6989420bd171609a4d78b31e_logo_hubspot-light-mode.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6989420ff5d1708aeefc4396_logo_hubspot-dark-mode.svg)
-
-“Enterprise-managed auth is the security and user experience that we've been looking for with MCP connections. Folks just perform a standard login to Okta and they're connected with their personal context to all MCP hosts in our software ecosystem. Personal identity passes through, but no one gets tripped up on a multitude of OAuth grants. It's a huge win for enterprise management, especially paired with selective control of individual tools exposed by those MCP hosts.”
-
-Andrew Meinert Director, System Operations & AI
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab2c8bd3466f0c993603ed0_6ab2c6ea1b9635a4a50e11a6_startups-wordmark-linear-light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab2c8bd3466f0c993603ed3_6ab2c6eab5afe149426a3f08_startups-wordmark-linear-dark.svg)
-
-"Logging in once and automatically having all your MCP connectors automatically set up is pretty magical."
-
-Tom Moor, Head of Engineering
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3407a0610055531404ba06_okta-logo-black.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a34079e0e3beac5523dc868_okta-logo-white.svg)
-
-"The momentum around MCP is incredible, but as we move toward an interconnected AI workforce, security can't be an afterthought. By embedding the Cross App Access protocol into MCP as the Enterprise-Managed Authorization extension, as well as implementing it in the Claude ecosystem, we turn identity into a centralized governance plane and give security teams strict compliance control and users a seamless, secure experience."
-
-Aaron Parecki, Director of Identity Standards
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5ad6788c7a1b711a85623_Ramp_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5ad62e2f100f80635f7a7_Ramp_dark.svg)
-
-“Before enterprise-managed auth, onboarding a new hire to their full toolkit meant a queue of per-connector OAuth approvals. Now they log in to Claude on day one already connected — 2,000 employees, provisioned through Okta, zero extra steps.”
-
-Cameron Leavenworth, Staff IT Engineer, AI
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68db36ce5254656fdbac3c90_SLA-Slack-from-Salesforce-logo%201.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68db36d1588af40e62128f8f_SLA-Slack-from-Salesforce-logo-inverse%201.svg)
-
-“Slack is the place where humans and agents are working side by side, in the same conversation, with the same context, toward the same goals. Through the Slack MCP server, all of this becomes accessible to Claude, not just to read but to act on. Enterprise-managed auth means organizations can roll out access to all users without friction. Security teams configure it once through their existing identity provider and users get seamless access.”
+> “Slack is the place where humans and agents are working side by side, in the same conversation, with the same context, toward the same goals. Through the Slack MCP server, all of this becomes accessible to Claude, not just to read but to act on. Enterprise-managed auth means organizations can roll out access to all users without friction. Security teams configure it once through their existing identity provider and users get seamless access.”
 
 Rod García, VP of Engineering
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3413cc60038a6b9254745b_supabase-dark.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3413ca2450bd8db73b97f3_supabase-dark-light.svg)
+![Supabase](https://assets.claude.com/e42031c6a0e0c0cd1f5f598d9efb9e640b1fc6b3.svg)
 
-“The only way to use Supabase through Claude was to be an org owner or hand out Personal Access Tokens to everyone on your team. Enterprise-managed auth fixes that: your IdP controls access and roles, so builders can use Claude to explore and query their data without IT compromising on security to get there.”
+> “The only way to use Supabase through Claude was to be an org owner or hand out Personal Access Tokens to everyone on your team. Enterprise-managed auth fixes that: your IdP controls access and roles, so builders can use Claude to explore and query their data without IT compromising on security to get there.”
 
 Bil Harmer, CISO
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3413a64096a140ea0118d8_webflow-logo-dark.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3413a24969057e976d25c4_webflow-logo-white.svg)
+![Webflow](https://assets.claude.com/5ad498f237d04754725acb0af0c23e5d27611d33.svg)
 
-“Our team opens Claude and every tool they’re cleared for is right there, scoped by the identity groups IT already runs. Enterprise-managed auth turned AI into something people use instead of request, and we’re taking it across Webflow.”
+> “Our team opens Claude and every tool they’re cleared for is right there, scoped by the identity groups IT already runs. Enterprise-managed auth turned AI into something people use instead of request, and we’re taking it across Webflow.”
 
 Reed Shackelford, Senior Manager, Enterprise AI Operations
 
-[Prev](https://claude.com/blog/enterprise-managed-auth)Prev
+![Asana](https://assets.claude.com/b8ffecd4a133f2860151d51156002816a54772e7.svg)
 
-0/5
+> “Enterprise-managed auth is a foundational milestone in realizing Asana's vision as the operating system for human-agent teams. By providing organizations with a secure, controlled way to connect Claude to their most critical workflows, we are unlocking the ability to scale AI-driven value across the enterprise—backed by the absolute governance, compliance, and trust that large-scale deployment demands.”
 
-[Next](https://claude.com/blog/enterprise-managed-auth)Next
+Arnab Bose, CPO
 
-eBook
+![Atlassian](https://assets.claude.com/4870b3d6c0253cea01b100c98ad2030b8e4f8ce1.svg)
 
-##
+> “Enterprise-managed auth makes Atlassian Rovo MCP easier for Claude Enterprise customers to adopt at scale, giving employees a simple way to connect Claude to the Atlassian work they already rely on across Jira, Confluence, and Teamwork Graph. Just as importantly, it gives admins a centralized place to manage MCP clients' access, so organizations can move faster with AI while maintaining the governance they expect.”
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+Brendan Haire, VP of Engineering, Rovo and AI
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+![Canva](https://assets.claude.com/f047885ca3dadf9a16509752ef150ebb9bd424bb.svg)
 
-Embedded media:
+> “Canva is already trusted by 95% of the Fortune 500, and our MCP server lets even more teams create, edit and publish on-brand designs with Canva's AI and design tools, all in the same workflow. Enterprise-managed auth with Okta makes it clear and simple for enterprises to manage AI access with a system they already trust, enabling teams to create with AI, safely and at scale.”
+
+Anwar Haneef, GM & Head of Ecosystem
+
+![Figma](https://assets.claude.com/30df15cbd261edbc52262a1fa2d1339f3a1a372b.svg)
+
+> “The Figma MCP brings the power of code and canvas together so teams can move faster, explore more and ship products that stand out. As MCP adoption grows, enterprise-managed auth makes it easier for enterprises to scale their MCP deployments securely without slowing teams down.”
+
+Devdatta Akhawe, VP of Engineering
+
+![Granola](https://assets.claude.com/3db5669fc35f363040dcf5ec573f2401d3f0e1a0.svg)
+
+> “It's great to see Anthropic and Okta make it easier for enterprises to connect to MCP servers securely, centrally and at scale. Granola helps teams capture some of the most important context at work: decisions, details and follow ups as they happen. MCP makes this useful across team tools, and enterprise-managed auth makes it available frictionlessly across teams.”
+
+Chris Pedregal, CEO & co-founder
+
+![Hubspot](https://assets.claude.com/d6f4aa0286766975a05548621fb66283ec2bfe32.svg)
+
+> “Enterprise-managed auth is the security and user experience that we've been looking for with MCP connections. Folks just perform a standard login to Okta and they're connected with their personal context to all MCP hosts in our software ecosystem. Personal identity passes through, but no one gets tripped up on a multitude of OAuth grants. It's a huge win for enterprise management, especially paired with selective control of individual tools exposed by those MCP hosts.”
+
+Andrew Meinert Director, System Operations & AI
+
+![Linear](https://assets.claude.com/02794cae131d86ae8d46e3238f14d1a7ad685181.svg)
+
+> “Logging in once and automatically having all your MCP connectors automatically set up is pretty magical.”
+
+Tom Moor, Head of Engineering
+
+![Okta](https://assets.claude.com/87c2bb73c73e8c1bfcd74b6f3535cb097f060b2b.svg)
+
+> “The momentum around MCP is incredible, but as we move toward an interconnected AI workforce, security can't be an afterthought. By embedding the Cross App Access protocol into MCP as the Enterprise-Managed Authorization extension, as well as implementing it in the Claude ecosystem, we turn identity into a centralized governance plane and give security teams strict compliance control and users a seamless, secure experience.”
+
+Aaron Parecki, Director of Identity Standards
+
+![Ramp](https://assets.claude.com/6db782273272dd89f11df7b54089328994fe718e.svg)
+
+> “Before enterprise-managed auth, onboarding a new hire to their full toolkit meant a queue of per-connector OAuth approvals. Now they log in to Claude on day one already connected — 2,000 employees, provisioned through Okta, zero extra steps.”
+
+Cameron Leavenworth, Staff IT Engineer, AI
+
+![Slack](https://assets.claude.com/d28a34b6acf04e16d9b8806ee16d3ca66f00b389.svg)
+
+> “Slack is the place where humans and agents are working side by side, in the same conversation, with the same context, toward the same goals. Through the Slack MCP server, all of this becomes accessible to Claude, not just to read but to act on. Enterprise-managed auth means organizations can roll out access to all users without friction. Security teams configure it once through their existing identity provider and users get seamless access.”
+
+Rod García, VP of Engineering
+
+![Supabase](https://assets.claude.com/e42031c6a0e0c0cd1f5f598d9efb9e640b1fc6b3.svg)
+
+> “The only way to use Supabase through Claude was to be an org owner or hand out Personal Access Tokens to everyone on your team. Enterprise-managed auth fixes that: your IdP controls access and roles, so builders can use Claude to explore and query their data without IT compromising on security to get there.”
+
+Bil Harmer, CISO
+
+![Webflow](https://assets.claude.com/5ad498f237d04754725acb0af0c23e5d27611d33.svg)
+
+> “Our team opens Claude and every tool they’re cleared for is right there, scoped by the identity groups IT already runs. Enterprise-managed auth turned AI into something people use instead of request, and we’re taking it across Webflow.”
+
+Reed Shackelford, Senior Manager, Enterprise AI Operations
+
+![Asana](https://assets.claude.com/b8ffecd4a133f2860151d51156002816a54772e7.svg)
+
+> “Enterprise-managed auth is a foundational milestone in realizing Asana's vision as the operating system for human-agent teams. By providing organizations with a secure, controlled way to connect Claude to their most critical workflows, we are unlocking the ability to scale AI-driven value across the enterprise—backed by the absolute governance, compliance, and trust that large-scale deployment demands.”
+
+Arnab Bose, CPO
+
+![Atlassian](https://assets.claude.com/4870b3d6c0253cea01b100c98ad2030b8e4f8ce1.svg)
+
+> “Enterprise-managed auth makes Atlassian Rovo MCP easier for Claude Enterprise customers to adopt at scale, giving employees a simple way to connect Claude to the Atlassian work they already rely on across Jira, Confluence, and Teamwork Graph. Just as importantly, it gives admins a centralized place to manage MCP clients' access, so organizations can move faster with AI while maintaining the governance they expect.”
+
+Brendan Haire, VP of Engineering, Rovo and AI
+
+![Canva](https://assets.claude.com/f047885ca3dadf9a16509752ef150ebb9bd424bb.svg)
+
+> “Canva is already trusted by 95% of the Fortune 500, and our MCP server lets even more teams create, edit and publish on-brand designs with Canva's AI and design tools, all in the same workflow. Enterprise-managed auth with Okta makes it clear and simple for enterprises to manage AI access with a system they already trust, enabling teams to create with AI, safely and at scale.”
+
+Anwar Haneef, GM & Head of Ecosystem
+
+1/12
 
 ### Getting started
 
 Enterprise-managed auth is available today in beta for customers on the Claude Team and [Enterprise](https://claude.com/solutions/enterprise) plans. [Learn more](https://support.claude.com/en/articles/15537633) on our Help Center and [apply for access](https://claude.com/form/ema-waitlist) to get started.
 
-Any identity or MCP provider can add support for enterprise-managed auth by implementing the [openextension](https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth) to the MCP authorization spec. Submit interest to join the beta[here.](https://docs.google.com/forms/d/e/1FAIpQLSf1goHGNDVFK7rncYuh6wnRpWSy7eGOcgL1i8uw3oyKFO9UUA/viewform?usp=sharing&ouid=101055591948883487705)
+Any identity or MCP provider can add support for enterprise-managed auth by implementing the [open extension](https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth) to the MCP authorization spec. Submit interest to join the beta [here.](https://docs.google.com/forms/d/e/1FAIpQLSf1goHGNDVFK7rncYuh6wnRpWSy7eGOcgL1i8uw3oyKFO9UUA/viewform?usp=sharing&ouid=101055591948883487705)
 
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
-
-### Customize Claude Code with mods
-
-Product announcements
-
-[Customize Claude Code with mods](https://claude.com/blog/enterprise-managed-auth)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/enterprise-managed-auth)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
-
-### Claude for Government is now generally available
-
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/enterprise-managed-auth)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
+[ArticleSep 30, 2026
 
 ### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
-Enterprise AI
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/enterprise-managed-auth)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How to prepare for AI-driven code modernization projects
+
+How to organize AI-driven modernization projects for critical systems and regulated enterprises.
+
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
+
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
+
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
+
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
+
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
+
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
+
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/enterprise-managed-auth)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

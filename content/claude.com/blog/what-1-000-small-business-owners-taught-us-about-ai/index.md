@@ -1,31 +1,13 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
-
 # What 1,000 small business owners taught us about AI
 
 Lina Ochman, Head of U.S. SMB at Anthropic, shares what she learned during our Claude SMB Tour, and what’s next for the program.
 
-- Category
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  Claude for Small Business
-- Date
-
-  September 10, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai)
-
-  https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai
-- Author(s)
-
-  Lina Ochman
+- Category[Perspectives](https://claude.com/resources/perspectives)
+- ProductClaude for Small Business
+- AuthorLina Ochman
+- DateSeptember 10, 2026
+- Reading time13 min
+- ShareCopy link
 
 Most AI tools and training are built for large companies and venture-backed startups. Small businesses generate 44% of the U.S. GDP and employ close to half the private-sector workforce, and yet they have largely been left to figure it out alone. As a public benefit corporation, part of our job is leveling the playing field for AI, and in this case, that means doing our part to help frontier AI reach small business and entrepreneurs on the same timeline it reaches the Fortune 500.
 
@@ -37,7 +19,7 @@ They shared their excitement, frustrations, and hopes for bringing AI into their
 
 Here is what they taught us and where we’re taking the program next.
 
-Embedded media: https://www.youtube.com/embed/HFzLvJbsUD8
+Embedded media: https://www.youtube-nocookie.com/embed/HFzLvJbsUD8?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 ## **Lesson 1: AI levels the playing field for non-technical entrepreneurs and their employees**
 
@@ -57,7 +39,7 @@ AI acts like an equalizer for businesses when resources are tight. A five-person
 
 Still, underneath this excitement sat a common apprehension: something important falling through the cracks. Working with AI was a new motion, and business owners frequently spoke about the experience of learning how to validate its results and not take them at face value.
 
-What resonated most with business owners was treating Claude like a new employee at first — building trust and confidence in its abilities over time.  We give tactical guidance on how to build discernment in outputs both in our AI Fluency course and during the workshops themselves.
+What resonated most with business owners was treating Claude like a new employee at first — building trust and confidence in its abilities over time. We give tactical guidance on how to build discernment in outputs both in our AI Fluency course and during the workshops themselves.
 
 As a result, Rick Smith, owner of Broadcast Blinds, now prompts Claude to flag when it's assuming versus knowing, and Severino once caught Claude using a floor-area multiplier instead of real wall measurements on an early bid and now asks Claude to “show me your work.”
 
@@ -109,104 +91,49 @@ The Claude SMB Tour was both inspirational and eye-opening; business owners were
 
 We’re kicking off the program with two sessions in San Francisco and New York City focused on giving community and AI partner organizations the tools necessary to help others learn AI fluency best practices (inspired by our SMB-focused course) and hands-on learning.
 
-We’re also excited to share that we’ll be kicking off part two of our  [Claude SMB T our](https://www.anthropic.com/events/build-with-claude?type=smb) this fall, visiting an all new slate of cities, starting with [Boston on September 16](https://anthropic.swoogo.com/claude-smb-workshop-boston/rta), and collecting even more feedback and learnings from small businesses and entrepreneurs to improve our product. Stay tuned for more details.
+We’re also excited to share that we’ll be kicking off part two of our [Claude SMB T our](https://www.anthropic.com/events/build-with-claude?type=smb) this fall, visiting an all new slate of cities, starting with [Boston on September 16](https://anthropic.swoogo.com/claude-smb-workshop-boston/rta), and collecting even more feedback and learnings from small businesses and entrepreneurs to improve our product. Stay tuned for more details.
 
 We can’t wait to see you on the road!
 
-*Get started with* [*Claude for Small Business*](https://claude.com/solutions/small-business) *today.*
+*Get started with [Claude for Small Business](https://claude.com/solutions/small-business) today.*
 
-No items found.
-
-[Prev](https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai)Prev
-
-0/5
-
-[Next](https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
+[ArticleSep 30, 2026
 
 ### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
-Enterprise AI
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How to prepare for AI-driven code modernization projects
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-May 21, 2026
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
 
-### Claude now works with more security and compliance tools
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
-Enterprise AI
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai)Claude now works with more security and compliance tools
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
 
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

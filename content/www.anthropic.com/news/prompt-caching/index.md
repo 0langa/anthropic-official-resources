@@ -1,30 +1,17 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22606367ec36d6a7179_6380b3c2dc9e4011a3cd96fec382bd9197511e31-1000x1000.svg)
-
 # Prompt caching with Claude
 
 Claude caches frequently used context between API calls, reducing costs and latency for long prompts.
 
-- Category
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Platform
+- DateAugust 14, 2025
+- Reading time4 min
+- ShareCopy link
 
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  August 14, 2025
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/prompt-caching)
-
-  https://claude.com/blog/prompt-caching
-
-***Update****: Prompt caching is Generally Available on the Anthropic API. Prompt caching is also available in preview in Amazon Bedrock and on Google Cloud’s Vertex AI. (December 17, 2024)*Prompt caching, which enables developers to cache frequently used context between API calls, is now available on the Anthropic API. With prompt caching, customers can provide Claude with more background knowledge and example outputs—all while reducing costs by up to 90% and latency by up to 85% for long prompts. Prompt caching is available today in public beta for Claude 3.5 Sonnet, Claude 3 Opus, and Claude 3 Haiku.
+***Update**: Prompt caching is Generally Available on the Anthropic API. Prompt caching is also available in preview in Amazon Bedrock and on Google Cloud’s Vertex AI. (December 17, 2024)*  
+  
+  
+Prompt caching, which enables developers to cache frequently used context between API calls, is now available on the Anthropic API. With prompt caching, customers can provide Claude with more background knowledge and example outputs—all while reducing costs by up to 90% and latency by up to 85% for long prompts. Prompt caching is available today in public beta for Claude 3.5 Sonnet, Claude 3 Opus, and Claude 3 Haiku.
 
 ## When to use prompt caching
 
@@ -39,156 +26,19 @@ Prompt caching can be effective in situations where you want to send a large amo
 
 Early customers have seen substantial speed and cost improvements with prompt caching for a variety of use cases—from including a full knowledge base to 100-shot examples to including each turn of a conversation in their prompt.
 
-<table>
-<tbody>
-<tr>
-<th><strong>Use case</strong></th>
-<th>
-<strong>Latency w/o caching (time to first token)</strong>
-</th>
-<th>
-<strong>Latency w/ caching (time to first token)</strong>
-</th>
-<th><strong>Cost reduction</strong></th>
-</tr>
-<tr>
-<td>Chat with a book (100,000 token cached prompt) [1]</td>
-<td>11.5s</td>
-<td>2.4s (-79%)</td>
-<td>-90%</td>
-</tr>
-<tr>
-<td>Many-shot prompting (10,000 token prompt) [1]</td>
-<td>1.6s</td>
-<td>1.1s (-31%)</td>
-<td>-86%</td>
-</tr>
-<tr>
-<td>
-            Multi-turn conversation (10-turn convo with a long system prompt)
-            [2]
-          </td>
-<td>~10s</td>
-<td>~2.5s (-75%)</td>
-<td>-53%</td>
-</tr>
-</tbody>
-</table>
-
-Prompt caching
+<table class="DataTable-module-scss-module__1wNx5a__table"><caption class="sr-only">Prompt caching</caption><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Use case</strong></span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Latency w/o caching (time to first token)</strong></span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Latency w/ caching (time to first token)</strong></span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Cost reduction</strong></span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Chat with a book (100,000 token cached prompt) [1]</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">11.5s</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">2.4s (-79%)</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">-90%</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Many-shot prompting (10,000 token prompt) [1]</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">1.6s</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">1.1s (-31%)</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">-86%</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Multi-turn conversation (10-turn convo with a long system prompt) [2]</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">~10s</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">~2.5s (-75%)</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">-53%</span></td></tr></tbody></table>
 
 ### How we price cached prompts
 
 Cached prompts are priced based on the number of input tokens you cache and how frequently you use that content. Writing to the cache costs 25% more than our base input token price for any given model, while using cached content is significantly cheaper, costing only 10% of the base input token price.
 
-<table>
-<tbody>
-<tr>
-<td>
-<strong>Claude 3.5 Sonnet</strong>
-<ul>
-<li>Our most intelligent model to date</li>
-<li>200K context window</li>
-</ul>
-</td>
-<td>
-<strong>Input</strong>
-<ul>
-<li>$3 / MTok</li>
-</ul>
-<br/>
-</td>
-<td>
-<strong>Prompt caching</strong>
-<ul>
-<li>
-                $3.75 / MTok -
-                <!-- -->Cache write
-              </li>
-<li>$0.30 / MTok - Cache read</li>
-</ul>
-</td>
-<td>
-<strong>Output </strong>
-<ul>
-<li>$15 / MTok</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>
-<strong>Claude 3 Opus</strong>
-<ul>
-<li>Powerful model for complex tasks</li>
-<li>200K context window<br/></li>
-</ul>
-</td>
-<td>
-<strong>Input</strong>
-<ul>
-<li>$15 / MTok</li>
-</ul>
-<br/>
-</td>
-<td>
-<strong>Prompt caching</strong>
-<ul>
-<li>
-                $18.75 / MTok -
-                <!-- -->Cache write
-              </li>
-<li>$1.50 / MTok - Cache read</li>
-</ul>
-</td>
-<td>
-<strong>Output</strong>
-<ul>
-<li>$75 / MTok</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>
-<strong>Claude 3 Haiku</strong>
-<ul>
-<li>Fastest, most cost-effective model</li>
-<li>200K context window</li>
-</ul>
-</td>
-<td>
-<strong>Input</strong>
-<ul>
-<li>$0.25 / MTok</li>
-</ul>
-</td>
-<td>
-<strong>Prompt caching</strong>
-<ul>
-<li>
-                $0.30 / MTok<!-- -->
-                -
-                <!-- -->Cache write
-              </li>
-<li>$0.03 / MTok - Cache read</li>
-</ul>
-</td>
-<td>
-<strong>Output</strong>
-<ul>
-<li>$1.25 / MTok</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-Pricing
+<table class="DataTable-module-scss-module__1wNx5a__table"><caption class="sr-only">Pricing</caption><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Claude 3.5 Sonnet</strong></span><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>Our most intelligent model to date</li><li>200K context window</li></ul></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Input</strong></span><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>$3 / MTok</li></ul><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><br/></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Prompt caching</strong></span><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>$3.75 / MTok - Cache write</li><li>$0.30 / MTok - Cache read</li></ul></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Output</strong></span><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>$15 / MTok</li></ul></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Claude 3 Opus</strong></span><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>Powerful model for complex tasks</li><li>200K context window<br/></li></ul></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Input</strong></span><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>$15 / MTok</li></ul><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><br/></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Prompt caching</strong></span><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>$18.75 / MTok - Cache write</li><li>$1.50 / MTok - Cache read</li></ul></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Output</strong></span><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>$75 / MTok</li></ul></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Claude 3 Haiku</strong></span><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>Fastest, most cost-effective model</li><li>200K context window</li></ul></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Input</strong></span><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>$0.25 / MTok</li></ul></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Prompt caching</strong></span><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>$0.30 / MTok - Cache write</li><li>$0.03 / MTok - Cache read</li></ul></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Output</strong></span><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li>$1.25 / MTok</li></ul></td></tr></tbody></table>
 
 ### Customer spotlight: Notion
 
 [Notion](https://www.notion.so/product/ai) is adding prompt caching to Claude-powered features for its AI assistant, Notion AI. With reduced costs and increased speed, Notion is able to optimize internal operations and create a more elevated and responsive user experience for their customers.
 
-> We're excited to use prompt caching to make Notion AI faster and cheaper, all while maintaining state-of-the-art quality.
+> “We're excited to use prompt caching to make Notion AI faster and cheaper, all while maintaining state-of-the-art quality.”
 
 — Simon Last, Co-founder at Notion
 
@@ -196,98 +46,40 @@ Pricing
 
 To start using the prompt caching public beta on the Anthropic API, explore our [documentation](https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching) and [pricing page](https://www.anthropic.com/pricing).
 
-No items found.
-
-[Prev](https://claude.com/blog/prompt-caching)Prev
-
-0/5
-
-[Next](https://claude.com/blog/prompt-caching)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/prompt-caching)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/prompt-caching)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
 ### Build plugins for Claude
 
-Product announcements
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-[Build plugins for Claude](https://claude.com/blog/prompt-caching)Build plugins for Claude
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
+### Claude Tag now supports personal connectors in channels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/prompt-caching)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/prompt-caching)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

@@ -1383,6 +1383,10 @@ https://claude.com/resources/articles/workload-identity-federation
 https://claude.com/resources/articles/workspaces
 https://claude.com/resources/articles/your-thinking-partner
 https://claude.com/resources/articles/zero-trust-for-ai-agents
+https://claude.com/resources/articles?categories=product-announcements
+https://claude.com/resources/articles?products=claude-code
+https://claude.com/resources/articles?products=claude-enterprise
+https://claude.com/resources/articles?use-cases=agents
 https://claude.com/resources/best-practices
 https://claude.com/resources/courses
 https://claude.com/resources/guides
@@ -1458,6 +1462,24 @@ https://claude.com/resources/guides/the-2026-state-of-ai-agents-report/outlooks-
 https://claude.com/resources/guides/the-2026-state-of-ai-agents-report/research-insights-part-i-the-current-landscape
 https://claude.com/resources/guides/the-2026-state-of-ai-agents-report/research-insights-part-ii-going-deeper
 https://claude.com/resources/guides/the-2026-state-of-ai-agents-report/research-insights-part-iii-the-path-forward
+https://claude.com/resources/guides/the-ai-investment-firm
+https://claude.com/resources/guides/the-ai-investment-firm/advancing-your-firm-s-ai-maturity
+https://claude.com/resources/guides/the-ai-investment-firm/back-office-engineering-data-and-security
+https://claude.com/resources/guides/the-ai-investment-firm/back-office-fund-finance-and-treasury
+https://claude.com/resources/guides/the-ai-investment-firm/back-office-investor-relations
+https://claude.com/resources/guides/the-ai-investment-firm/front-office-portfolio-management-and-deals
+https://claude.com/resources/guides/the-ai-investment-firm/front-office-quantitative-research
+https://claude.com/resources/guides/the-ai-investment-firm/front-office-research-and-diligence
+https://claude.com/resources/guides/the-ai-investment-firm/front-office-trading-and-execution
+https://claude.com/resources/guides/the-ai-investment-firm/how-the-work-is-controlled
+https://claude.com/resources/guides/the-ai-investment-firm/key-implementations-by-strategy
+https://claude.com/resources/guides/the-ai-investment-firm/middle-office-compliance-and-legal
+https://claude.com/resources/guides/the-ai-investment-firm/middle-office-operations
+https://claude.com/resources/guides/the-ai-investment-firm/middle-office-risk-management
+https://claude.com/resources/guides/the-ai-investment-firm/resources
+https://claude.com/resources/guides/the-ai-investment-firm/the-ai-investment-firm-in-practice
+https://claude.com/resources/guides/the-ai-investment-firm/the-claude-stack-on-the-buy-side
+https://claude.com/resources/guides/the-ai-investment-firm/the-new-operating-model
 https://claude.com/resources/guides/the-code-modernization-playbook
 https://claude.com/resources/guides/the-code-modernization-playbook/choosing-the-right-agentic-coding-solution
 https://claude.com/resources/guides/the-code-modernization-playbook/getting-started-with-code-modernization
@@ -1547,6 +1569,7 @@ https://claude.com/resources/webinar-series/claude-on-google-cloud
 https://claude.com/resources/webinar-series/guest-lecture-series-leadership-in-engineering
 https://claude.com/resources/webinars
 https://claude.com/resources/webinars/agent-skills-transform-claude-from-assistant-to-specialized-agent
+https://claude.com/resources/webinars/agents-with-claude-on-vertex
 https://claude.com/resources/webinars/ai-agents-in-enterprise
 https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier
 https://claude.com/resources/webinars/bci-claude-financial-analysis
@@ -1633,6 +1656,7 @@ https://claude.com/resources/webinars/how-warp-builds-self-improving-agents-on-c
 https://claude.com/resources/webinars/inside-claude-for-financial-advisors
 https://claude.com/resources/webinars/inside-the-cyber-verification-program
 https://claude.com/resources/webinars/mastering-async-agents-cognition-labs
+https://claude.com/resources/webinars/measuring-ai-fluency-at-your-organization
 https://claude.com/resources/webinars/modernizing-legacy-code-with-claude-code
 https://claude.com/resources/webinars/nbim-ai-journey
 https://claude.com/resources/webinars/opus-5-5-for-work
@@ -1652,6 +1676,7 @@ https://claude.com/resources/webinars/ship-code-faster-with-claude-code-on-verte
 https://claude.com/resources/webinars/ship-code-faster-with-claude-code-on-vertex-ai-2
 https://claude.com/resources/webinars/ship-your-first-claude-managed-agent
 https://claude.com/resources/webinars/startup-builds-getting-started-with-loops
+https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend
 https://claude.com/resources/webinars/voice-and-intelligence-building-the-human-interface-for-customer-experience
 https://claude.com/resources/webinars/what-we-shipped-feature-updates-tips-and-live-q-a-with-the-claude-code-team
 https://code.claude.com/docs
@@ -3320,6 +3345,7 @@ https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1
+https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-haiku-5-5
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-4-8
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5
@@ -3417,6 +3443,7 @@ https://platform.claude.com/docs/en/managed-agents/cloud-sandboxes-reference
 https://platform.claude.com/docs/en/managed-agents/define-outcomes
 https://platform.claude.com/docs/en/managed-agents/dreams
 https://platform.claude.com/docs/en/managed-agents/environments
+https://platform.claude.com/docs/en/managed-agents/event-deltas
 https://platform.claude.com/docs/en/managed-agents/events-and-streaming
 https://platform.claude.com/docs/en/managed-agents/files
 https://platform.claude.com/docs/en/managed-agents/github
@@ -3438,6 +3465,7 @@ https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-operati
 https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-reference
 https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-security
 https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-workers
+https://platform.claude.com/docs/en/managed-agents/session-observability
 https://platform.claude.com/docs/en/managed-agents/session-operations
 https://platform.claude.com/docs/en/managed-agents/sessions
 https://platform.claude.com/docs/en/managed-agents/skills
@@ -3454,6 +3482,9 @@ https://platform.claude.com/docs/en/models/fable-5/migration-guide
 https://platform.claude.com/docs/en/models/fable-5/overview
 https://platform.claude.com/docs/en/models/haiku-4-5/migration-guide
 https://platform.claude.com/docs/en/models/haiku-4-5/overview
+https://platform.claude.com/docs/en/models/haiku-5-5/migration-guide
+https://platform.claude.com/docs/en/models/haiku-5-5/overview
+https://platform.claude.com/docs/en/models/haiku-5-5/whats-new-haiku-5-5
 https://platform.claude.com/docs/en/models/mythos-5-1/overview
 https://platform.claude.com/docs/en/models/mythos-5/overview
 https://platform.claude.com/docs/en/models/opus-4-5/overview
@@ -3484,6 +3515,7 @@ https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5-
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-3
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-3-5
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-4-5
+https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-5-5
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-3
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-1
@@ -3914,6 +3946,7 @@ https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-cla
 https://support.claude.com/en/articles/14604406-claude-design-admin-guide-for-team-and-enterprise-plans
 https://support.claude.com/en/articles/14604416
 https://support.claude.com/en/articles/14604416-get-started-with-claude-design
+https://support.claude.com/en/articles/14604842
 https://support.claude.com/en/articles/14604842-cyber-verification-program
 https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude
 https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet
@@ -4040,6 +4073,8 @@ https://support.claude.com/en/articles/17118092
 https://support.claude.com/en/articles/17118092-assign-a-program-to-custom-roles-on-enterprise-plans
 https://support.claude.com/en/articles/17153992
 https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them
+https://support.claude.com/en/articles/17154008
+https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans
 https://support.claude.com/en/articles/17161993-why-claude-switched-models-in-your-conversation-with-sonnet-5-5
 https://support.claude.com/en/articles/17202708
 https://support.claude.com/en/articles/17202708-cyber-verification-program-security-requirements
@@ -4174,6 +4209,7 @@ https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan
 https://support.claude.com/en/articles/9797557
 https://support.claude.com/en/articles/9797557-usage-limit-best-practices
 https://support.claude.com/en/articles/9876003-i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-do-i-have-to-pay-separately-to-use-the-claude-api-and-console
+https://support.claude.com/en/articles/9876003-i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-is-claude-api-usage-billed-separately-from-my-paid-claude-plan
 https://support.claude.com/en/articles/9889408
 https://support.claude.com/en/articles/9889408-add-or-update-your-paid-claude-account-s-tax-or-vat-id
 https://support.claude.com/en/articles/9889428-add-or-update-your-claude-console-organization-s-tax-or-vat-id
@@ -4805,6 +4841,7 @@ https://www.anthropic.com/webinars/claude-code-live
 https://www.anthropic.com/webinars/claude-code-maximizing-value
 https://www.anthropic.com/webinars/claude-for-business-development-representatives
 https://www.anthropic.com/webinars/claude-for-financial-services-putting-agents-to-work
+https://www.anthropic.com/webinars/claude-for-investing-teams
 https://www.anthropic.com/webinars/claude-for-marketing-ops-and-analytics
 https://www.anthropic.com/webinars/claude-for-nonprofits-moving-your-workflow-beyond-chat
 https://www.anthropic.com/webinars/claude-it-setup-for-nonprofits
@@ -4821,6 +4858,7 @@ https://www.anthropic.com/webinars/how-anthropics-sales-leader-runs-his-week-wit
 https://www.anthropic.com/webinars/how-coderabbit-orchestrates-agents-to-strengthen-ai-generated-code
 https://www.anthropic.com/webinars/how-to-control-costs-and-show-roi-for-claude-code-on-google-cloud
 https://www.anthropic.com/webinars/how-warp-builds-self-improving-agents-on-claude
+https://www.anthropic.com/webinars/inside-claude-for-financial-advisors
 https://www.anthropic.com/webinars/outtake-built-cyber-investigator-claude
 https://www.anthropic.com/webinars/rebroadcast-claude-on-google-cloud-monitoring-and-securing-agents-at-scale
 https://www.anthropic.com/webinars/scaling-development-with-remote-agents-augment-code

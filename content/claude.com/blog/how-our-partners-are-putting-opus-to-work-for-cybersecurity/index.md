@@ -1,34 +1,16 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22753311132c8c37b39_d3dd09ad16c68461dc3fb01df5e84cf7ccafda6c-1000x1000.svg)
-
 # How our partners are putting Opus to work for cybersecurity
 
 Learn how companies like Wiz, Palo Alto Networks, and Accenture are using Claude Opus to find and fix vulnerabilities faster and deploy AI defense at scale.
 
-- Category
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Security](https://claude.com/product/claude-security)
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  May 21, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity)
-
-  https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Security, Claude Platform
+- DateMay 21, 2026
+- Reading time8 min
+- ShareCopy link
 
 AI is changing how quickly security vulnerabilities are found and exploited, and the clearest response is for security teams to put highly capable models to work on their own defenses.
 
-When we launched [Claude Security in public beta](https://claude.com/blog/claude-security-public-beta), we also shared a set of technology and services partners building on Claude Opus, because the fastest path to adoption looks different for every team: some may use Claude directly, others through a platform they already run, others through a services partner who knows their environment.
+When we launched [Claude Security in public beta](https://claude.com/resources/articles/claude-security-public-beta), we also shared a set of technology and services partners building on Claude Opus, because the fastest path to adoption looks different for every team: some may use Claude directly, others through a platform they already run, others through a services partner who knows their environment.
 
 Several of those offerings are now live, and the early results show what frontier-model defense looks like in practice.
 
@@ -52,7 +34,7 @@ Wiz [Red Agent](https://www.wiz.io/blog/red-agent-claude-opus) is an AI-powered 
 
 CrowdStrike’s [Frontier AI Readiness and Resilience Service](https://www.crowdstrike.com/en-us/services/ai-security-services/frontier-ai-readiness-and-resilience/) brings the same class of capability to a platform trusted by more than 60% of the Fortune 500, pairing Opus with CrowdStrike's AI Red Team Services and proprietary agent frameworks to continuously hunt for latent zero-days in customer applications, validate findings, and accelerate remediation before new code reaches production.
 
-> "Frontier models like Anthropic's Claude Opus are giving defenders a capability advantage that didn't exist a year ago, pushing vulnerability management all the way to the left." - **Mark Manglicmot, Global VP of Consulting Services, CrowdStrike**
+> “"Frontier models like Anthropic's Claude Opus are giving defenders a capability advantage that didn't exist a year ago, pushing vulnerability management all the way to the left." - Mark Manglicmot, Global VP of Consulting Services, CrowdStrike”
 
 ## Closing the gap between finding and fixing
 
@@ -60,7 +42,7 @@ The gap between finding a vulnerability and fixing it is where much of vulnerabi
 
 Accenture's [Cyber.AI](https://newsroom.accenture.com/news/2026/accenture-and-anthropic-team-to-help-organizations-secure-scale-ai-driven-cybersecurity-operations) is an agentic platform that connects assets, identities, threats, and controls into a single operational model that Opus reasons across, running detection, prioritization, and remediation as a continuous loop. Accenture validated at scale internally first: taking security testing coverage from roughly 10% to over 80% across 1,600 applications and 500,000+ APIs, and cutting scan turnaround from 3–5 days to under an hour in their own global IT infrastructure – results that underpin what Cyber.AI now delivers to clients.
 
-> "Business leaders are navigating the fastest moving and most complex cyber threat landscape in history. We’re partnering with Anthropic to deliver the tools clients need to stay ahead."  - **Harpreet Sidhu, Global Lead, Accenture Cybersecurity**
+> “"Business leaders are navigating the fastest moving and most complex cyber threat landscape in history. We’re partnering with Anthropic to deliver the tools clients need to stay ahead." - Harpreet Sidhu, Global Lead, Accenture Cybersecurity”
 
 TrendAI™ [Vision One](https://www.trendmicro.com/en_us/business/products/one-platform.html) uses Opus-assisted vulnerability research to help enterprises across 185 countries identify exposure and mitigate risk through virtual patching. Validated findings also flow into the TrendAI Zero Day Initiative for coordinated disclosure, helping protect at-risk systems up to 96 days before a vendor patch is available. “As AI accelerates vulnerability discovery, the real challenge for defenders becomes remediation at scale,” said Rachel Jin, Chief Platform and Business Officer, Head of TrendAI. “Together with Anthropic, we’re helping customers reduce risk through mitigation and virtual patching before attackers can exploit the gap.”
 
@@ -72,7 +54,7 @@ The new world of agentic AI use cases has presented a new challenge for many tea
 
 PwC's [Claude Native Cybersecurity offering](https://www.pwc.com/us/en/technology/alliances/anthropic.html) addresses the two problems CISOs raise together: getting AI safely into production, and modernizing the cyber function itself. Secure AI Adoption moves enterprises from sandbox to production in weeks rather than quarters, with the deployment, governance, and audit evidence that helps the CISO and CRO bring innovation to their teams with confidence. Scaled Frontier Defense integrates Opus-powered agentic reasoning into existing vulnerability management, detection, security engineering, and GRC workflows, enabling autonomous execution within defined guardrails and auditability.
 
-> “This is a defining moment for cybersecurity, where AI-driven transformation becomes essential to staying resilient and competitive,” - **Morgan Adamski, U.S. Cyber, Data & Tech Leader, PwC**
+> ““This is a defining moment for cybersecurity, where AI-driven transformation becomes essential to staying resilient and competitive,” - Morgan Adamski, U.S. Cyber, Data & Tech Leader, PwC”
 
 ## The growing ecosystem
 
@@ -80,102 +62,47 @@ BCG, Infosys, and SentinelOne are also building defensive cyber offerings on Opu
 
 Every offering above runs on the same underlying Opus capability: reasoning about code, understanding which exposures translate into real-word risk, and sustaining long agentic workflows. We're excited to be working with these partners to bring frontier defense to more security teams through the access points that fits them best.
 
-*Learn more about* [*Claude for security use cases*](https://claude.com/solutions/security)*.*
+*Learn more about [Claude for security use cases](https://claude.com/solutions/security).*
 
 ‍
 
-No items found.
-
-[Prev](https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity)Prev
-
-0/5
-
-[Next](https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
+[ArticleSep 30, 2026
 
 ### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
-Enterprise AI
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How to prepare for AI-driven code modernization projects
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-May 21, 2026
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
 
-### Claude now works with more security and compliance tools
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
-Enterprise AI
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity)Claude now works with more security and compliance tools
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
 
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

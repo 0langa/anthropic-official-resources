@@ -1,34 +1,16 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
-
 # Improving skill-creator: Test, measure, and refine Agent Skills
 
 Skill authors can now verify that their skills work, catch regressions, and improve descriptions.
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  March 3, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills)
-
-  https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Code
+- DateMarch 3, 2026
+- Reading time6 min
+- ShareCopy link
 
 Skill-creator now helps you write evals, run benchmarks, and keep your skills working as models evolve. These updates are available now in Claude.ai and Cowork, as a [plugin for Claude Code](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator), and [within our repo](https://github.com/anthropics/skills/tree/main/skills/skill-creator).
 
-Since [launching Agent Skills](https://claude.com/blog/skills) last October, we've noticed that most authors are subject matter experts, not engineers. They know their workflows but don't have the tools to tell whether a skill still works with a new model, triggers when it should, or if it actually improved after an edit.
+Since [launching Agent Skills](https://claude.com/resources/articles/skills) last October, we've noticed that most authors are subject matter experts, not engineers. They know their workflows but don't have the tools to tell whether a skill still works with a new model, triggers when it should, or if it actually improved after an edit.
 
 Today we're announcing skill-creator enhancements that help authors build with more confidence. We are bringing some of the rigor of software development (testing, benchmarking, iterative improvement) to skill authoring without requiring anyone to write code.
 
@@ -53,7 +35,7 @@ Skill-creator now helps you write evals, which are tests that check Claude does 
 
 Our PDF skill, for instance, previously struggled with non-fillable forms. Claude had to place text at exact coordinates with no defined fields to guide it. Evals isolated the failure, and we shipped a fix that anchors positioning to extracted text coordinates.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69a237b02128b691d9e8b2af_skillscreator-PDFevals-1920x840-v1.png)
+![](https://assets.claude.com/34aab7c39810d51fd6471da0fe1ea777fea3e711.png)
 
 Evals help in many ways, but two important uses are to catch quality regressions and understand model progress.
 
@@ -63,7 +45,7 @@ Second, **knowing when general model capabilities have outgrown your skill.** Th
 
 We've also added a **benchmark mode** that runs a standardized assessment using your evals. This is something you can run after model updates or as you iterate on the skill itself. It tracks eval pass rate, elapsed time, and token usage.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69a237f15fbc61e1ccd00a0a_skillscreator-benchmarkmode-1920x1080-v1.png)
+![](https://assets.claude.com/a17fb435f399ab7b41480ee4372ab52cef0e8ea1.png)
 
 Your evals and results stay with you. Store them locally, integrate them with a dashboard, or plug them into a CI system.
 
@@ -73,7 +55,7 @@ Running evals sequentially can be slow, and accumulating context can bleed betwe
 
 We've also added **comparator agents** for A/B comparisons: two skill versions, or skill vs. no skill. They judge outputs without knowing which is which, so you can tell whether a change actually helped.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69a74e0afa8435f070120ed9_skillscreator-AB-testing-1920x1080-v1.png)
+![](https://assets.claude.com/52413cc0ceb3eba619bc5ca3845fe5bb6422d57c.png)
 
 ## **Getting skills to trigger at the right time**
 
@@ -81,7 +63,7 @@ Evals measure output quality, but that only matters if your skill triggers when 
 
 We ran it across our document-creation skills and saw improved triggering on 5 out of 6 public skills.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69a74e1f72940942cb534904_skillscreator-skill-description-optimization-results.png)
+![](https://assets.claude.com/f3531e57903415ea85fc883ab023d59d77fd7b21.png)
 
 ## **Looking ahead**
 
@@ -95,98 +77,42 @@ All skill-creator updates are available now on Claude.ai and Cowork. Ask Claude 
 
 Claude Code users can install the [plugin](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator) or download from our [repo](https://github.com/anthropics/skills/tree/main/skills/skill-creator).
 
-No items found.
-
-[Prev](https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills)Prev
-
-0/5
-
-[Next](https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
+[ArticleSep 24, 2026
 
-Oct 1, 2026
+### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-### Customize Claude Code with mods
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-Product announcements
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[Customize Claude Code with mods](https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills)Customize Claude Code with mods
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-Sep 30, 2026
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-### Claude for Government is now generally available
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-Product announcements
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[Claude for Government is now generally available](https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills)Claude for Government is now generally available
+### The Claude Code guide for startups
 
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
-
-### Build plugins for Claude
-
-Product announcements
-
-[Build plugins for Claude](https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills)Build plugins for Claude
-
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

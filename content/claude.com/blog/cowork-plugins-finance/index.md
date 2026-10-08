@@ -1,32 +1,14 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
-
 # Cowork and plugins for finance
 
 New plugins built for how finance actually works, plus cross-app workflows that move with you from Excel to PowerPoint to final deliverable.
 
-- Category
+- Category[Announcements](https://claude.com/resources/product-announcements), [Best practices](https://claude.com/resources/best-practices), [Insights](https://claude.com/resources/insights)
+- ProductClaude Enterprise
+- DateFebruary 24, 2026
+- Reading time6 min
+- ShareCopy link
 
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  [Claude Enterprise](https://claude.com/solutions/enterprise)
-- Date
-
-  February 24, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/cowork-plugins-finance)
-
-  https://claude.com/blog/cowork-plugins-finance
-
-Today we’re announcing updates to Cowork, including new plugins, so teams across the enterprise can mold Claude to how they want to work. As part of this, we're continuing to build on [recent updates](https://claude.com/blog/opus-4-6-finance) to expand what Claude can do for financial services.
+Today we’re announcing updates to Cowork, including new plugins, so teams across the enterprise can mold Claude to how they want to work. As part of this, we're continuing to build on [recent updates](https://claude.com/resources/articles/opus-4-6-finance) to expand what Claude can do for financial services.
 
 Claude now works across Excel and PowerPoint — carrying context between apps to complete multi-step finance tasks end to end. We're also introducing five new finance plugins, new MCP connectors for FactSet and MSCI, and partner-created plugins from LSEG and S&P Global.
 
@@ -40,11 +22,11 @@ An equity analyst can ask Claude to analyze earnings, update a financial model, 
 
 Claude working across Excel and PowerPoint is now available in research preview for all paid plans across Mac and Windows.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/699e3f480ae40e9e292d36f1_image%20(49).png)
+![](https://assets.claude.com/1e053b413b77d9b75ca10eac96e371e77e8dd3a7.png)
 
 ## New finance plugins
 
-We’re introducing five new Anthropic-built plugins, and several plugins built by  partners. Each brings the domain expertise, expected output quality, and workflow patterns relevant to how that function actually operates.
+We’re introducing five new Anthropic-built plugins, and several plugins built by partners. Each brings the domain expertise, expected output quality, and workflow patterns relevant to how that function actually operates.
 
 The 5 Anthropic-developed plugins are all available now in our [public repository](https://github.com/anthropics/financial-services-plugins).
 
@@ -77,104 +59,49 @@ All Anthropic-developed plugins – financial analysis, investment banking, equi
 
 To connect Claude to FactSet, MSCI, or your other enterprise data sources, visit the connector directory in Claude’s settings. From there, admins can authorize connections and bundle them into plugins for their teams.
 
-To get started with Claude working across Excel and PowerPoint, download the add-in for Claude in Excel and Claude in PowerPoint. For a broader look at Cowork and plugin updates across every function, see the [companion blog post](https://claude.com/blog/cowork-plugins-across-enterprise).
+To get started with Claude working across Excel and PowerPoint, download the add-in for Claude in Excel and Claude in PowerPoint. For a broader look at Cowork and plugin updates across every function, see the [companion blog post](https://claude.com/resources/articles/cowork-plugins-across-enterprise).
 
 ‍
 
 ‍
 
-No items found.
-
-[Prev](https://claude.com/blog/cowork-plugins-finance)Prev
-
-0/5
-
-[Next](https://claude.com/blog/cowork-plugins-finance)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-### How Warp builds self-improving agents on Claude
-
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/cowork-plugins-finance)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/cowork-plugins-finance)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
+[ArticleSep 30, 2026
 
 ### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
-Enterprise AI
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/cowork-plugins-finance)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How to prepare for AI-driven code modernization projects
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-Sep 29, 2026
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
 
-### Agents you can coach: how Asana builds human-agent teams with Claude
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
-Agents
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/cowork-plugins-finance)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
+
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
+
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/cowork-plugins-finance)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

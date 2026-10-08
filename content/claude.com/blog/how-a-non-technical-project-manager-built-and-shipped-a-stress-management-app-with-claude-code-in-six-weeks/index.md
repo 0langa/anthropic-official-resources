@@ -1,47 +1,16 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
-
 # How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks
 
 Kostiantyn Vlasenko had never written a line of code when he set out to build Respiro. Just over a month later, his product was live on the App Store.
 
-- Category
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code
+- DateMay 1, 2026
+- Reading time8 min
+- ShareCopy link
 
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
+*In our series, **Day zero: founder stories**, we profile the builders behind some of the world’s most interesting and inspiring startups. In this article, we highlight Kostiantyn Vlasenko, a winner of the [Claude Opus 4.6 Hackathon](https://claude.com/resources/articles/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon) and creator of Respiro.*
 
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  May 1, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks)
-
-  https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks
-
-*In our series,* ***Day zero: founder stories****, we profile the builders behind some of the world’s most interesting and inspiring startups. In this article, we highlight Kostiantyn Vlasenko, a winner of the* [*Claude Opus 4.6 Hackathon*](https://claude.com/blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon) *and creator of Respiro.*
-
-<table>
-<tbody>
-<tr>
-<td>Founder</td>
-<td>Kostiantyn Vlasenko</td>
-</tr>
-<tr>
-<td>Country</td>
-<td>Ukraine</td>
-</tr>
-<tr>
-<td>Startup</td>
-<td>Respiro</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Founder</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Kostiantyn Vlasenko</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Country</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Ukraine</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Startup</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Respiro</span></td></tr></tbody></table>
 
 Fifteen minutes before joining the video call for this interview, Kostiantyn Vlasenko was feeling nervous. He was so preoccupied with thinking through what he wanted to say, though, that he actually didn't notice his own anxiety—but his phone did.
 
@@ -91,133 +60,44 @@ For Vlasenko, the experience of building Respiro has erased any boundaries betwe
 
 "I would say that Claude Code is my new addiction," he said.
 
-<table>
-<thead>
-<tr>
-<th colspan="2" style="border-bottom:none;">The Claude Code Day Zero Questionnaire™</th>
-</tr>
-<tr>
-<th colspan="2" style="padding-top:4px; padding-bottom:18px; font-weight:400;">In which we ask founders the same silly questions to learn more about the person behind the keyboard.</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Who or what inspires you?</td>
-<td>LeBron James. His discipline, consistency, and long-term mindset are incredibly inspiring. He didn't just rely on talent; he built one of the all-time greatest careers through relentless focus and execution. Also, Warren Buffett — very different field, but the same core traits: patience, consistency, and clarity of thinking over decades. I really admire people who achieve greatness not by luck, but by staying consistent for a very long time.</td>
-</tr>
-<tr>
-<td>If you could go back in time, what would you have done differently and why?</td>
-<td>I wish I had realized earlier that building a product is actually the easy part. Communicating its value is much harder! Today, it's surprisingly easy to build something high-quality, especially with tools like Claude. But getting people to understand why it matters, why they should care — that's the real challenge.</td>
-</tr>
-<tr>
-<td>If someone wrote a book about your startup journey, what would it be titled?</td>
-<td>"Autonomous by Design"</td>
-</tr>
-<tr>
-<td>What does your workspace look like?</td>
-<td style="font-weight:400;">
-            About 70% of the time, I work on my MacBook connected to an external monitor, keyboard, and mouse. Around 20% just on my laptop when I'm not at home. And about 10% — from my phone, usually when I get an idea and don't want to wait. Also, my cat is often on the desk keeping me company (and making sure I don't work non-stop for too many hours).
-          </td>
-</tr>
-<tr>
-<td>How many browser tabs do you have open right now?</td>
-<td>Right now — around 5. I try to keep it minimal. Usually, I have a YouTube video playing in the background — I like listening to true crime or founder podcasts. I also actively run a Threads account where I share what I'm building, experiments, Claude workflows, and help others set up their own systems.</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">The Claude Code Day Zero Questionnaire™</span></th></tr><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">In which we ask founders the same silly questions to learn more about the person behind the keyboard.</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Who or what inspires you?</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">LeBron James. His discipline, consistency, and long-term mindset are incredibly inspiring. He didn't just rely on talent; he built one of the all-time greatest careers through relentless focus and execution. Also, Warren Buffett — very different field, but the same core traits: patience, consistency, and clarity of thinking over decades. I really admire people who achieve greatness not by luck, but by staying consistent for a very long time.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">If you could go back in time, what would you have done differently and why?</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">I wish I had realized earlier that building a product is actually the easy part. Communicating its value is much harder! Today, it's surprisingly easy to build something high-quality, especially with tools like Claude. But getting people to understand why it matters, why they should care — that's the real challenge.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">If someone wrote a book about your startup journey, what would it be titled?</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">"Autonomous by Design"</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">What does your workspace look like?</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">About 70% of the time, I work on my MacBook connected to an external monitor, keyboard, and mouse. Around 20% just on my laptop when I'm not at home. And about 10% — from my phone, usually when I get an idea and don't want to wait. Also, my cat is often on the desk keeping me company (and making sure I don't work non-stop for too many hours).</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">How many browser tabs do you have open right now?</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Right now — around 5. I try to keep it minimal. Usually, I have a YouTube video playing in the background — I like listening to true crime or founder podcasts. I also actively run a Threads account where I share what I'm building, experiments, Claude workflows, and help others set up their own systems.</span></td></tr></tbody></table>
 
-No items found.
-
-[Prev](https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks)Prev
-
-0/5
-
-[Next](https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
-
-Sep 24, 2026
+[ArticleSep 24, 2026
 
 ### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-Claude Code
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-Sep 23, 2026
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-### How to prepare for AI-driven code modernization projects
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-Enterprise AI
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks) How to prepare for AI-driven code modernization projects
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
+### The Claude Code guide for startups
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

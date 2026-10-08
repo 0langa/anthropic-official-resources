@@ -1,31 +1,13 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
 # The Claude Code guide for startups
 
 How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  August 20, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/claude-code-guide-for-startups)
-
-  https://claude.com/blog/claude-code-guide-for-startups
-- Author(s)
-
-  Michael Segner
+- Category[Best practices](https://claude.com/resources/best-practices), [Perspectives](https://claude.com/resources/perspectives)
+- ProductClaude Code
+- AuthorMichael Segner
+- DateAugust 20, 2026
+- Reading time16 min
+- ShareCopy link
 
 Prefer a PDF?
 
@@ -55,17 +37,17 @@ In doing so we'll also start to glean an answer to the question: what would it l
 
 The five rules
 
-1. [Everyone ships](https://claude.com/blog/claude-code-guide-for-startups)
-2. [Automate the tedium](https://claude.com/blog/claude-code-guide-for-startups)
-3. [Trust, but verify](https://claude.com/blog/claude-code-guide-for-startups)
-4. [Build for rebuilding](https://claude.com/blog/claude-code-guide-for-startups)
-5. [Prototype, dogfood, productionize](https://claude.com/blog/claude-code-guide-for-startups)
+1. [Everyone ships](https://claude.com/resources/articles/claude-code-guide-for-startups)
+2. [Automate the tedium](https://claude.com/resources/articles/claude-code-guide-for-startups)
+3. [Trust, but verify](https://claude.com/resources/articles/claude-code-guide-for-startups)
+4. [Build for rebuilding](https://claude.com/resources/articles/claude-code-guide-for-startups)
+5. [Prototype, dogfood, productionize](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 Featuring founder insights from
 
 [![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a860f726d9f0514aae99ebd_Artemis%20Security.jpg)Artemis Security](https://artemissecurity.com/)[![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a860f7201a449f6bbff0b4f_Cainex.jpg)Cainex](https://www.cainex.com/)[![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a860f73c8f5e66ab5fed4db_Clay.jpg)Clay](https://www.clay.com/)[![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a860f71da96c480fc76ac4f_ClickHouse.jpg)ClickHouse](https://clickhouse.com/)[![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a860f7307af7c791b192b11_Commure.jpg)Commure](https://www.commure.com/)[![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a860f7148a76d79b3a5a4a1_Crosby.jpg)Crosby](https://crosby.ai/)[![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a860f718a480aa385569532_Emergent.jpg)Emergent](https://emergent.sh/)[![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a860f738a480aa385569680_Harvey.jpg)Harvey](https://www.harvey.ai/)[![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a860f71fb8535b15c70d337_Heidi.jpg)Heidi](https://www.heidihealth.com/)[![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a860f71c8f5e66ab5fed3b0_Higgsfield.jpg)Higgsfield](https://higgsfield.ai/)[![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a860f6c8487d6fbba47effa_Omni.jpg)Omni](https://omni.co/)[![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a860f6e8487d6fbba47f063_Parahelp.jpg)Parahelp](https://www.parahelp.com/)[![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a860fb5e110c43cd7302055_Translucent%20Logomark%20Color%20(1).png)Translucent](https://www.translucent.co/)[![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a860f6e48f16e9918d53e32_Zingage.jpg)Zingage](https://zingage.com/)
 
-**Tip:** Only interested in the practical next steps? We've put a [checklist at the end of this guide](https://claude.com/blog/claude-code-guide-for-startups) that consolidates the key technical tips contained in each chapter.
+**Tip:** Only interested in the practical next steps? We've put a [checklist at the end of this guide](https://claude.com/resources/articles/claude-code-guide-for-startups) that consolidates the key technical tips contained in each chapter.
 
 **01**
 
@@ -83,7 +65,7 @@ For startup founders this has obvious advantages. For one, they don't have the h
 ![Ryan Daniels](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a85efb9a794cf3b05d104b2_1759928398629.jpeg)
 > "Claude Code changed what it meant to be a lawyer at Crosby. The lawyers have the best product insights, because they are the users. It's been amazing to watch them cook."**[Ryan Daniels](https://www.linkedin.com/in/crosbyryan/)** · co-founder and CEO, [Crosby](https://crosby.ai/)
 
-We heard the same thing from Dr. Thomas Kelly, co-founder and CEO of [Heidi](https://claude.com/blog/claude-code-guide-for-startups).
+We heard the same thing from Dr. Thomas Kelly, co-founder and CEO of Heidi.
 
 ![Dr. Thomas Kelly](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a860761e110c43cd72b4b36_thomas-kelly.jpg)
 > "For us, Claude Code solved the broken telephone problem. The way a new idea used to move through a team was the person with the idea tells a PM, who tells a designer, who then tells an engineer… and inevitably the essence of the idea gets lost in that chain. By the time something shipped, it often didn't resemble what the person had in mind. And it took weeks. Claude Code collapses that chain. The person who actually understands the problem can ship a PR bringing in designers and engineers for the parts where their expertise matters."**[Dr. Thomas Kelly](https://www.linkedin.com/in/tomkeykong/)** · co-founder and CEO, [Heidi](https://www.heidihealth.com/)
@@ -109,7 +91,7 @@ At Crosby, the team didn't bring lawyers to Claude Code, they brought Claude Cod
 
 Connecting via CLI can be more token-efficient when a mature command-line tool already exists (`gh`, `kubectl`, `bq`, `psql`) and you want Claude working against the same ground truth your engineers do.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a85f6614d1e747fe4f0b524_fca89ab9.png)
+![](https://assets.claude.com/e0d8cf3d206d25734edd01413cc3516d4d66e38c.png)
 
 MCP Connector Directory in Claude Code desktop.
 
@@ -161,7 +143,7 @@ Many of these featured startups have implemented means of accelerating their tea
 
 **Tip:** [Code Review](https://code.claude.com/docs/en/code-review) (research preview) is a managed multi-agent service in Claude Code. It runs an automated review pass on PRs in the repos you enable. You can manually fix the finding and push, or close the loop by commenting `@Claude` on the finding (if you've set up and configured GitHub Actions).
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a85fadd2e4ee0c9bc09260c_f0ed4c96.png)
+![](https://assets.claude.com/34bded07fcea3eac15f98f353ee808974a44b101.png)
 
 Code Review tags each finding with a severity level.
 
@@ -172,7 +154,7 @@ These engineers need to be onboarded quickly because these teams ship fast.
 
 At these organizations, Claude Code not only helps generate code, but reviews it too. "We run automated code reviews against our vetted technical and compliance frameworks, flagging critical issues and routing suggested changes to the right reviewers before anything ships," said Dr. Kelly of Heidi.
 
-Some of these organizations have also built custom agents for code review, testing, and CI. These startups have placed considerable attention on [building loops](https://claude.com/blog/getting-started-with-loops) vs just deploying code.
+Some of these organizations have also built custom agents for code review, testing, and CI. These startups have placed considerable attention on [building loops](https://claude.com/resources/articles/getting-started-with-loops) vs just deploying code.
 
 "My favorite [agent] is the "Translucent code reviewer," which fans out across a change, reviews it from multiple angles, and synthesizes the results the way one of our senior engineers would but faster than any one person could," said Translucent founder Jack.
 
@@ -182,7 +164,7 @@ Clay "...built an agent that handles…bug triage, from first pass to suggesting
 
 [Claude Tag has its own service account](https://claude.com/blog/agent-identity-access-model) and access to the tools an Anthropic CI engineer needs such as Datadog or Grafana. Standing instructions are in markdown files as skills, committed in a GitHub repository. This way multiple teammates can iterate on them and we can manage changes just like we do code.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a85fb2fd93d3b5e91d50ec3_1891dfb7.png)
+![](https://assets.claude.com/f60bcb14cf717c2d43f5ff9ba5eab9861b91d831.png)
 
 Claude Tag picks up an on-call thread in Slack and reports progress in-channel.
 
@@ -207,7 +189,7 @@ Other examples include summarizing thousands of legal documents with subagents (
 
 **Tip:** [Dynamic workflows](https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code) can be used to fan multiple subagents to analyze large amounts of data in parallel or to conduct an adversarial review of another agent's work. When using a model like Claude Opus or Claude Fable say "fan out multiple subagents," or "use a workflow."
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8600cd57a9407076b2e246_4bd02c85.png)
+![](https://assets.claude.com/a6ae82f87e4ab07588d0f70e4c528365080cdb14.png)
 
 **03**
 
@@ -248,7 +230,7 @@ For example, Cainex uses subject matter experts to routinely review and guide Cl
 
 For example, many organizations create flaky test agents, or loops, because the stop condition is clear and self-contained: the agent can verify its own fix by rerunning the test until it passes.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a43eb603762e725a739d98f_c6fa9ae5.png)
+![](https://assets.claude.com/0c0fab39c03f3bef320d3a017d73ecd8592dd7b6.png)
 
 Loops repeat cycles of work until a stop condition is met.
 
@@ -285,7 +267,7 @@ AI is often at the heart of what they are building as well as how they are build
 
 **Tip:** Use [git worktrees](https://code.claude.com/docs/en/worktrees) to run a rebuild in an isolated copy of the repo while the current version stays untouched. Claude Code can spin one up for you — you get v2 running next to v1, run your evals against both, and only merge when the new one wins. This is what makes "build it four times" cheap.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a86014c09a6e237c1ac273c_ccb97885.png)
+![](https://assets.claude.com/b3a73f9f5fc3c905cb94c25e5c5643a9bf87638d.png)
 
 One repository, one object store — three checkouts you can work in simultaneously, each on its own branch.
 
@@ -352,118 +334,42 @@ These insights come from your peers building at the frontier and we hope you fou
 - Contributing on [Reddit](https://www.reddit.com/r/ClaudeAI/) and [Discord](https://discord.com/invite/6PPFFzqPDZ).
 - Early-stage companies can also apply to the [Claude for Startups program](https://claude.com/programs/startups) for credits and support.
 
-No items found.
-
-[Prev](https://claude.com/blog/claude-code-guide-for-startups)Prev
-
-0/5
-
-[Next](https://claude.com/blog/claude-code-guide-for-startups)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-Get Claude Code
-
-curl -fsSL https://claude.ai/install.sh | bash
-
-Copy command to clipboard
-
-irm https://claude.ai/install.ps1 | iex
-
-Copy command to clipboard
-
-Or read the [documentation](https://code.claude.com/docs/en/overview)
-
-Try Claude Code
-
-[Try Claude Code](https://claude.ai/code)Try Claude Code
-
-Developer docs
-
-[Developer docs](https://code.claude.com/docs/en/overview)Developer docs
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/claude-code-guide-for-startups)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
-
-Sep 24, 2026
+[ArticleSep 24, 2026
 
 ### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-Claude Code
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-code-guide-for-startups)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-Sep 23, 2026
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-### How to prepare for AI-driven code modernization projects
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-Enterprise AI
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/claude-code-guide-for-startups) How to prepare for AI-driven code modernization projects
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 14, 2026
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
+### Maximizing the value of your Claude Code sessions
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+How to run efficient sessions that get the most value from every token.
 
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/claude-code-guide-for-startups)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+Claude Code](https://claude.com/resources/articles/maximizing-the-value-of-your-claude-code-sessions)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/claude-code-guide-for-startups)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

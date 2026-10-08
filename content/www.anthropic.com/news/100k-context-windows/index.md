@@ -24,23 +24,3 @@ Our partners are excited about what larger context windows means for their busin
 100K context windows are now available in our API. If you are working with Claude, you can read more about what model versions to call [here](https://console.anthropic.com/docs/api/reference). If you’re not working with Claude yet, you can request access [here](https://www.anthropic.com/claude).
 
 [1] [https://www.sciencedirect.com/...](https://www.sciencedirect.com/science/article/abs/pii/S0749596X19300786)
-
-## Related content
-
-### Expanding the Cyber Verification Program
-
-We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.
-
-[Read more](https://www.anthropic.com/news/cyber-verification-program)
-
-### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
-
-Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
-
-[Read more](https://www.anthropic.com/news/claude-frontier-academy)
-
-### Barclays scales Claude to upgrade operations and improve client experience
-
-Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
-
-[Read more](https://www.anthropic.com/news/barclays-scales-claude)

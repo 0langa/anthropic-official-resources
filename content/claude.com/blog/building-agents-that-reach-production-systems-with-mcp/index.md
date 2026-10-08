@@ -1,26 +1,10 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
-
 # Building agents that reach production systems with MCP
 
-- Category
-
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  April 22, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp)
-
-  https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Platform
+- DateApril 22, 2026
+- Reading time12 min
+- ShareCopy link
 
 Agents are only as useful as the systems they can reach. Teams tend to converge on three approaches for connecting them to external systems—direct API calls, CLIs, and MCP. This post lays out where each fits, why production agents tend to land on MCP, and the patterns for building those integrations effectively.
 
@@ -36,7 +20,7 @@ The challenges start to hit at scale. With no common layer between agents and se
 
 ### Command-line interface (CLI)
 
-The agent runs your command-line tool in a shell. This is fast, lightweight, and leans on pre-existing tooling. It works great for local environments and sandboxed containers—anywhere there's a filesystem and a shell. This provides a common layer, but it’s thin.   
+The agent runs your command-line tool in a shell. This is fast, lightweight, and leans on pre-existing tooling. It works great for local environments and sandboxed containers—anywhere there's a filesystem and a shell. This provides a common layer, but it’s thin.  
   
 CLIs hit hard limits reaching mobile, web, or cloud-hosted platforms that don't expose a container, and auth is handled by the CLI's own mechanism—usually a credential file on disk. This is best suited to quick, permissive integrations in local environments.
 
@@ -48,9 +32,9 @@ It requires a little bit more upfront investment. The return is that the integra
 
 ## Production agents run in the cloud
 
-Production agents increasingly run in the cloud, so they can scale and operate continuously. The systems they need to reach are cloud-hosted too: where your data lives, work is tracked, and your infrastructure runs. Often these systems are remote and behind auth, where MCP provides the common layer. And when those systems live inside a private network rather than on the public internet, [MCP tunnels in Claude Managed Agents](https://claude.com/blog/claude-managed-agents-updates) connect agents to them over an outbound-only connection — no exposed ports or public endpoints required.
+Production agents increasingly run in the cloud, so they can scale and operate continuously. The systems they need to reach are cloud-hosted too: where your data lives, work is tracked, and your infrastructure runs. Often these systems are remote and behind auth, where MCP provides the common layer. And when those systems live inside a private network rather than on the public internet, [MCP tunnels in Claude Managed Agents](https://claude.com/resources/articles/claude-managed-agents-updates) connect agents to them over an outbound-only connection — no exposed ports or public endpoints required.
 
-We’re already seeing this in adoption. The [MCP SDKs](https://modelcontextprotocol.io/docs/sdk) recently surpassed 300 million downloads a month, up from 100 million at the start of the year, with strong adoption across enterprises and popular agentic platforms. Millions of people use MCP with Claude every day, and the protocol underpins much of what we've shipped recently, including [Claude Cowork](https://claude.com/product/cowork), [Claude Managed Agents](https://claude.com/blog/claude-managed-agents), and [channels in Claude Code](https://code.claude.com/docs/en/channels).   
+We’re already seeing this in adoption. The [MCP SDKs](https://modelcontextprotocol.io/docs/sdk) recently surpassed 300 million downloads a month, up from 100 million at the start of the year, with strong adoption across enterprises and popular agentic platforms. Millions of people use MCP with Claude every day, and the protocol underpins much of what we've shipped recently, including [Claude Cowork](https://claude.com/product/cowork), [Claude Managed Agents](https://claude.com/resources/articles/claude-managed-agents), and [channels in Claude Code](https://code.claude.com/docs/en/channels).  
 ‍  
 As MCP continues to support production agentic systems, we’re sharing patterns for building these integrations well: from building advanced servers to context-efficient clients, and where skills complement the protocol.
 
@@ -74,7 +58,7 @@ If your service requires hundreds of distinct operations, such as Cloudflare, AW
 
 [MCP Apps](https://modelcontextprotocol.io/extensions/apps/overview) is the first official protocol extension and lets a tool return an interactive interface, such as a chart, form, or dashboard, all rendered inline in the chat interface. Servers that ship MCP apps tend to see meaningfully higher adoption and retention than those that return text alone. Use it to put your product's UI in front of agents or end-users at the moment it matters—the extension is supported in Claude.ai, Claude Cowork, and many other top AI tools.
 
-Embedded media: https://www.youtube.com/embed/bluAmTHoEow
+Embedded media: https://www.youtube-nocookie.com/embed/bluAmTHoEow?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 ‍[Elicitation](https://modelcontextprotocol.io/specification/2025-11-25/client/elicitation) lets your server pause mid-tool call to ask the user for input. [Form mode](https://modelcontextprotocol.io/specification/2025-11-25/client/elicitation) sends a simple schema and the client renders a native form—use it to request a missing parameter, confirm a destructive action, or disambiguate options. [URL mode](https://modelcontextprotocol.io/specification/2025-11-25/client/elicitation) hands the user to a browser—use it to complete downstream OAuth, take a payment, or collect any credential that should never transit the MCP client. Both keep the user in the flow instead of sending them to a settings page. Form mode is supported broadly; URL mode is supported in Claude Code, with more clients in progress.
 
@@ -92,29 +76,29 @@ MCP standardizes how AI agents ([*clients*](https://modelcontextprotocol.io/docs
 
 [Tool search](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool) defers loading all tools into context, rather than loading them upfront. This allows the agent to search the catalog at runtime, pulling in the relevant tools when needed. In our [testing](https://www.anthropic.com/engineering/advanced-tool-use), tool search tends to cut tool-definition tokens by 85%+ while maintaining high selection accuracy.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69e920e636fbec575e46319c_context-usage.webp)
+![](https://assets.claude.com/3ead16dbc271d174d8aa0067f2df09f23f964daf.png)
 
-Reducing context usage with tool search. Source: [advanced tool use](https://www.anthropic.com/engineering/advanced-tool-use)
+Reducing context usage with tool search. Source: advanced tool use
 
 ### Process tool results in code with programmatic tool calling
 
 [Programmatic tool calling](https://www.anthropic.com/engineering/code-execution-with-mcp) processes tool results in a code-execution sandbox, rather than returning them raw to the model. This lets the agent loop, filter, and aggregate across calls in code, with only the final output reaching context. In our testing, this reduces token usage by roughly [37%](https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling) on complex multi-step workflows.
 
-Together, these patterns compose naturally across multiple servers: leaner context, fewer round-trips, faster responses. See [*advanced tool use*](https://www.anthropic.com/engineering/advanced-tool-use) for the full breakdown.
+Together, these patterns compose naturally across multiple servers: leaner context, fewer round-trips, faster responses. See[*advanced tool use*](https://www.anthropic.com/engineering/advanced-tool-use) for the full breakdown.
 
 ## Pairing MCP servers with skills
 
-[Skills and MCP are complementary](https://claude.com/blog/skills-explained). MCP gives an agent access to tools and data from external systems, while skills teach an agent the procedural knowledge of *how* to use those tools to accomplish real work. The most capable agents use both, and skills make MCP servers scale beyond a handful of connections. There are two general patterns for combining them:
+[Skills and MCP are complementary](https://claude.com/resources/articles/skills-explained). MCP gives an agent access to tools and data from external systems, while skills teach an agent the procedural knowledge of *how* to use those tools to accomplish real work. The most capable agents use both, and skills make MCP servers scale beyond a handful of connections. There are two general patterns for combining them:
 
 ### Bundle skills and MCP servers as a plugin
 
-[Plugins](https://code.claude.com/docs/en/plugins-reference) for Claude are a useful abstraction that allow developers to bundle skills, MCP servers, hooks, LSP servers, and specialized subagents in one easily-consumable distribution method. Using this approach is the best way to unify multiple context providers with minimal friction.   
+[Plugins](https://code.claude.com/docs/en/plugins-reference) for Claude are a useful abstraction that allow developers to bundle skills, MCP servers, hooks, LSP servers, and specialized subagents in one easily-consumable distribution method. Using this approach is the best way to unify multiple context providers with minimal friction.  
   
 Combining MCP servers with skills allows Claude to act more like a domain-specialist. Grab your tools via MCP, and give Claude the skills to orchestrate workflows end-to-end. See our [data plugin](https://claude.ai/directory/plugins/data%40knowledge-work-plugins) for Cowork as an example, which consists of 10 skills and 8 MCP servers for apps like Snowflake, Databricks, BigQuery, Hex and more.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6945b3dfa8f134d0104e4e23_How%20Skills%20and%20MCP%20work%20together%20-%20v3B%402x%20(2).png)
+![](https://assets.claude.com/63e82441ddfbcf4a29659d5007661b57e69a295e.png)
 
-Combining skills with MCP. Source: [Extending Claude’s capabilities with skills and MCP servers](https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers)
+Combining skills with MCP. Source: Extending Claude’s capabilities with skills and MCP servers
 
 ### Distribute skills from an MCP server
 
@@ -132,100 +116,45 @@ When building an integration, if your goal is to have production agents in the c
 
 ### Acknowledgements
 
-Thanks to Den Delimarsky, David Soria Parra, Henry Shi, Felix Rieseberg, Conor Kelly, Molly Vorwerck, Andy Schumeister, Kevin Garcia, Amie Rotherham, Matt Samuels, Angela Jiang, Katelyn Lesse, AJ Rebeiro and Jess Yanfor their contributions to this blog.
+Thanks to Den Delimarsky, David Soria Parra, Henry Shi, Felix Rieseberg, Conor Kelly, Molly Vorwerck, Andy Schumeister, Kevin Garcia, Amie Rotherham, Matt Samuels, Angela Jiang, Katelyn Lesse, AJ Rebeiro and Jess Yan for their contributions to this blog.
 
-No items found.
-
-[Prev](https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp)Prev
-
-0/5
-
-[Next](https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-### How Warp builds self-improving agents on Claude
-
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 29, 2026
+[ArticleSep 29, 2026
 
 ### Agents you can coach: how Asana builds human-agent teams with Claude
 
-Agents
+Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
+‍
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+### A new approach to agent security with Claude Managed Agents and NVIDIA
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
 
-Sep 28, 2026
-
-### Giving companies more control over their AI agents, with NVIDIA
-
-Agents
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp)Giving companies more control over their AI agents, with NVIDIA
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Sep 8, 2026
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
 
 ### Reducing cost and improving performance with Claude Platform
 
-Agents
+Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp)Reducing cost and improving performance with Claude Platform
+Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
+### A guide to the anatomy of effective commerce agents
+
+The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
+
+Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

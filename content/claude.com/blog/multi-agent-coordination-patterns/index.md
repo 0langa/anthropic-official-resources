@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22562f020146c9ec973_f8f4644253bde2f901550431b871b6dcf91e5d9d-1000x1000.svg)
-
 # Multi-agent coordination patterns: Five approaches and when to use them
 
 Five multi-agent coordination patterns, their trade-offs, and when to evolve from one to another.
 
-- Category
-
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  April 10, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/multi-agent-coordination-patterns)
-
-  https://claude.com/blog/multi-agent-coordination-patterns
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Platform
+- DateApril 10, 2026
+- Reading time19 min
+- ShareCopy link
 
 In an earlier post, we explored when multi-agent systems provide value and when a single agent is the better choice. This post is for teams that have made that call and now need to decide which coordination pattern fits their problem.
 
@@ -40,7 +24,7 @@ This is the simplest multi-agent pattern and among the most deployed. We introdu
 
 ### How it works
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69d901978c5cc197e3f1c1c7_1b56c9bc.png)
+![](https://assets.claude.com/5c6e32afcbfc38d375f25ec0f9d187c8cefd49cc.png)
 
 ‍
 
@@ -66,7 +50,7 @@ Hierarchy defines this pattern. One agent acts as a team lead that plans work, d
 
 ### How it works
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69d901978c5cc197e3f1c1c4_76abfe32.png)
+![](https://assets.claude.com/c2af5db81717ec0047d62944f960e510860c3dbf.png)
 
 A lead agent receives a task and determines how to approach it. It may handle some subtasks directly while dispatching others to subagents. Subagents complete their work and return results, which the orchestrator synthesizes into a final output.
 
@@ -90,7 +74,7 @@ When work decomposes into parallel subtasks that can proceed independently for e
 
 ### How it works
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69d901978c5cc197e3f1c1cd_4282798b.png)
+![](https://assets.claude.com/c3208865ee6a6c6c0c7a071d66fa797d72b2dfcc.png)
 
 A coordinator spawns multiple worker agents as independent processes. Teammates claim tasks from a shared queue, work on them autonomously across multiple steps, and signal completion.
 
@@ -116,7 +100,7 @@ As agent count increases and interaction patterns grow complex, direct coordinat
 
 ### How it works
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69d901978c5cc197e3f1c1c1_78a53f59.png)
+![](https://assets.claude.com/62e7d3b2ede639843ba270fdba84aa57f446ffad.png)
 
 Agents interact through two primitives: publish and subscribe. Agents subscribe to the topics they care about, and a router delivers matching messages. New agents with new capabilities can start receiving relevant work without rewiring existing connections.
 
@@ -136,7 +120,7 @@ Routing accuracy is also critical. If the router misclassifies or drops an event
 
 ## Pattern 5: Shared state
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69d901978c5cc197e3f1c1ca_d18482f0.png)
+![](https://assets.claude.com/f4a221e1b8bc3421162b15f565fa1b46725c0e7c.png)
 
 Orchestrators, team leads, and message routers in the previous patterns all centrally manage information flow. Shared state removes the intermediary by letting agents coordinate through a persistent store that all can read and write directly.
 
@@ -164,7 +148,7 @@ The right pattern depends on a handful of structural questions about the system.
 
 ### Orchestrator-subagent vs. agent teams
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69d901978c5cc197e3f1c1d0_cb379a56.png)
+![](https://assets.claude.com/742de423f421c12760fb8137e18732fc87dab10d.png)
 
 Both involve a coordinator dispatching work to other agents. The question is how long workers need to maintain their context.
 
@@ -175,7 +159,7 @@ When subagents need to retain state across invocations, agent teams are the bett
 
 ### Orchestrator-subagent vs. message bus
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69d901978c5cc197e3f1c1dc_4313c333.png)
+![](https://assets.claude.com/680a70cf3ec53a3757197be17373e6e1ec814c51.png)
 
 Both can handle multi-step workflows. The question is how predictable the workflow structure is.
 
@@ -186,7 +170,7 @@ As conditional logic accumulates in the orchestrator to handle an expanding vari
 
 ### Agent teams vs. shared state
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69d901978c5cc197e3f1c1df_a8950920.png)
+![](https://assets.claude.com/4375086ca2c10edfec16fb20d4c95831d04ab1ad.png)
 
 Both involve agents working autonomously. The question is whether agents need each other's findings.
 
@@ -197,7 +181,7 @@ Once teammates need to communicate with each other rather than only share final 
 
 ### Message bus vs. shared state
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69d901978c5cc197e3f1c1d4_46c9b982.png)
+![](https://assets.claude.com/e35f51e67250164340de169834495f360b8ff295.png)
 
 Both support complex multi-agent coordination. The question is whether work flows as discrete events or accumulates into a shared knowledge base.
 
@@ -214,141 +198,53 @@ Production systems often combine patterns. A common hybrid uses orchestrator-sub
 
 The following table summarizes when each pattern is appropriate.
 
-<table>
-<thead>
-<tr>
-<th scope="col">Situation</th>
-<th scope="col">Pattern</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Quality-critical output, explicit evaluation criteria</td>
-<td>Generator-Verifier</td>
-</tr>
-<tr>
-<td>Clear task decomposition, bounded subtasks</td>
-<td>Orchestrator-Subagent</td>
-</tr>
-<tr>
-<td>Parallel workload, independent long-running subtasks</td>
-<td>Agent Teams</td>
-</tr>
-<tr>
-<td>Event-driven pipeline, growing agent ecosystem</td>
-<td>Message Bus</td>
-</tr>
-<tr>
-<td>Collaborative research, agents share discoveries</td>
-<td>Shared State</td>
-</tr>
-<tr>
-<td>No single point of failure required</td>
-<td>Shared State</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Situation</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Pattern</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Quality-critical output, explicit evaluation criteria</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Generator-Verifier</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Clear task decomposition, bounded subtasks</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Orchestrator-Subagent</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Parallel workload, independent long-running subtasks</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Agent Teams</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Event-driven pipeline, growing agent ecosystem</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Message Bus</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Collaborative research, agents share discoveries</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Shared State</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">No single point of failure required</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Shared State</span></td></tr></tbody></table>
 
 For most use cases, we recommend starting with orchestrator-subagent. It handles the widest range of problems with the least coordination overhead. Observe where it struggles, then evolve toward other patterns as specific needs become clear.
 
-‍*In upcoming posts, we will examine each pattern in depth with production implementations and case studies. For background on when multi-agent systems are worth the investment, see* [*Building multi-agent systems: when and how to use them*](https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them)*.*
+‍*In upcoming posts, we will examine each pattern in depth with production implementations and case studies. For background on when multi-agent systems are worth the investment, see [Building multi-agent systems: when and how to use them](https://claude.com/resources/articles/building-multi-agent-systems-when-and-how-to-use-them).*
 
 ## **Acknowledgements**
 
 Written by Cara Phillips, with contributions from Eugene Yan, Jiri De Jonghe, Samuel Weller, and Erik S.
 
-No items found.
-
-[Prev](https://claude.com/blog/multi-agent-coordination-patterns)Prev
-
-0/5
-
-[Next](https://claude.com/blog/multi-agent-coordination-patterns)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-### How Warp builds self-improving agents on Claude
-
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/multi-agent-coordination-patterns)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 29, 2026
+[ArticleSep 29, 2026
 
 ### Agents you can coach: how Asana builds human-agent teams with Claude
 
-Agents
+Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
+‍
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/multi-agent-coordination-patterns)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+### A new approach to agent security with Claude Managed Agents and NVIDIA
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
 
-Sep 28, 2026
-
-### Giving companies more control over their AI agents, with NVIDIA
-
-Agents
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/multi-agent-coordination-patterns)Giving companies more control over their AI agents, with NVIDIA
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Sep 8, 2026
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
 
 ### Reducing cost and improving performance with Claude Platform
 
-Agents
+Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/multi-agent-coordination-patterns)Reducing cost and improving performance with Claude Platform
+Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
+### A guide to the anatomy of effective commerce agents
+
+The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
+
+Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/multi-agent-coordination-patterns)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

@@ -1,30 +1,10 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223e0a787df988a824b_39db33950eb113e504a5b9fc56db490a64673e96-1000x1000.svg)
-
 # Millennium and Anthropic are building a digital risk analyst with Claude
 
-- Category
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-
-  [Agents](https://claude.com/blog/category/agents)
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Enterprise](https://claude.com/solutions/enterprise)
-- Date
-
-  August 6, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude)
-
-  https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Enterprise
+- DateAugust 6, 2026
+- Reading time4 min
+- ShareCopy link
 
 Anthropic is working with Millennium, one of the world's largest alternative investment management firms, to co-develop a digital risk analyst: an AI teammate to work alongside and under the supervision of the firm's risk managers to surface new risk insights and form opinions on risk exposure across asset classes.
 
@@ -34,9 +14,9 @@ Claude and [Claude Code](https://claude.com/product/claude-code) are already use
 
 Investment firms have spent decades using technology to improve risk measurement, moving from traditional assessments to more complex real-time scenario analysis. Millennium’s digital risk analyst is designed to tackle critical workflows, powered by Millennium’s proprietary data and Claude’s frontier intelligence.
 
-The digital risk analyst retains and recalls information over time, applying new reasoning capabilities to help explain daily risk changes. These findings are then validated and enriched by Millennium’s human risk managers. 
+The digital risk analyst retains and recalls information over time, applying new reasoning capabilities to help explain daily risk changes. These findings are then validated and enriched by Millennium’s human risk managers.
 
-“At Millennium, we believe AI can help set a new bar for what our people can achieve,” said Vlad Torgovnik, Chief Information Officer, at Millennium.  “Our work with Anthropic is a great example of this and shows how AI is driving innovation in core parts of our business while keeping human judgment at the center of decision making. We are excited to continue our work with an industry leader finding new ways AI can add value to our business.”
+“At Millennium, we believe AI can help set a new bar for what our people can achieve,” said Vlad Torgovnik, Chief Information Officer, at Millennium. “Our work with Anthropic is a great example of this and shows how AI is driving innovation in core parts of our business while keeping human judgment at the center of decision making. We are excited to continue our work with an industry leader finding new ways AI can add value to our business.”
 
 ## How Millennium employees use Claude
 
@@ -54,98 +34,43 @@ Millennium is using its internal AI lab to continue pushing the frontier, pressu
 
 Learn more about [Claude for financial services](https://claude.com/solutions/financial-services), or [contact our team](https://claude.com/contact-sales) to talk about what Claude can do inside your firm.
 
-No items found.
-
-[Prev](https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude)Prev
-
-0/5
-
-[Next](https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-### How Warp builds self-improving agents on Claude
-
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
+[ArticleSep 30, 2026
 
 ### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
-Enterprise AI
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How to prepare for AI-driven code modernization projects
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-Sep 29, 2026
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
 
-### Agents you can coach: how Asana builds human-agent teams with Claude
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
-Agents
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
+
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
+
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

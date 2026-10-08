@@ -272,6 +272,18 @@
   "https://claude.com/blog/building-with-claude-managed-agents": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://claude.com/blog/category/agents": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/blog/category/announcements": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/blog/category/claude-code": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/blog/category/enterprise-ai": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
   "https://claude.com/blog/claude-and-slack": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
@@ -476,6 +488,9 @@
   "https://claude.com/blog/your-thinking-partner": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://claude.com/resources": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
   "https://claude.com/resources/articles": [
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
@@ -511,6 +526,9 @@
   ],
   "https://claude.com/resources/articles/building-with-claude-managed-agents": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/resources/articles/category/enterprise-ai": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
   "https://claude.com/resources/articles/claude-and-slack": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -960,6 +978,60 @@
   "https://claude.com/resources/guides/the-2026-state-of-ai-agents-report/research-insights-part-iii-the-path-forward": [
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
+  "https://claude.com/resources/guides/the-ai-investment-firm": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/guides/the-ai-investment-firm/advancing-your-firm-s-ai-maturity": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/guides/the-ai-investment-firm/back-office-engineering-data-and-security": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/guides/the-ai-investment-firm/back-office-fund-finance-and-treasury": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/guides/the-ai-investment-firm/back-office-investor-relations": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/guides/the-ai-investment-firm/front-office-portfolio-management-and-deals": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/guides/the-ai-investment-firm/front-office-quantitative-research": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/guides/the-ai-investment-firm/front-office-research-and-diligence": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/guides/the-ai-investment-firm/front-office-trading-and-execution": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/guides/the-ai-investment-firm/how-the-work-is-controlled": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/guides/the-ai-investment-firm/key-implementations-by-strategy": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/guides/the-ai-investment-firm/middle-office-compliance-and-legal": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/guides/the-ai-investment-firm/middle-office-operations": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/guides/the-ai-investment-firm/middle-office-risk-management": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/guides/the-ai-investment-firm/resources": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/guides/the-ai-investment-firm/the-ai-investment-firm-in-practice": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/guides/the-ai-investment-firm/the-claude-stack-on-the-buy-side": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/guides/the-ai-investment-firm/the-new-operating-model": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
   "https://claude.com/resources/guides/the-code-modernization-playbook": [
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
@@ -1129,6 +1201,15 @@
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
   "https://claude.com/resources/perspectives": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/product-announcements": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/videos": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/webinars": [
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
   "https://code.claude.com/docs/en": [
@@ -5742,6 +5823,9 @@
   "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-haiku-5-5": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-4-8": [
     "Native source; upstream MDX components retained."
   ],
@@ -6018,6 +6102,9 @@
   "https://platform.claude.com/docs/en/managed-agents/environments": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/managed-agents/event-deltas": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/managed-agents/events-and-streaming": [
     "Native source; upstream MDX components retained."
   ],
@@ -6081,6 +6168,9 @@
   "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-workers": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/managed-agents/session-observability": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/managed-agents/session-operations": [
     "Native source; upstream MDX components retained."
   ],
@@ -6124,6 +6214,15 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/models/haiku-4-5/overview": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/models/haiku-5-5/migration-guide": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/models/haiku-5-5/overview": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/models/haiku-5-5/whats-new-haiku-5-5": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/models/mythos-5-1/overview": [
@@ -6211,6 +6310,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-4-5": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-5-5": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-3": [
@@ -6784,6 +6886,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/12542951": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12542951-enable-and-use-the-microsoft-365-connector": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector": [
@@ -7716,6 +7821,9 @@
   "https://support.claude.com/en/articles/17007452-what-is-a-limit-reset": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/17118092": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/17118092-assign-a-program-to-custom-roles-on-enterprise-plans": [
     "Native source; upstream MDX components retained."
   ],
@@ -7725,7 +7833,13 @@
   "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/17161993-why-claude-switched-models-in-your-conversation-with-sonnet-5-5": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/17202708": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/17202708-cyber-verification-program-security-requirements": [
@@ -8115,6 +8229,9 @@
   "https://support.claude.com/en/articles/9876003-i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-do-i-have-to-pay-separately-to-use-the-claude-api-and-console": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/9876003-i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-is-claude-api-usage-billed-separately-from-my-paid-claude-plan": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/9889408": [
     "Native source; upstream MDX components retained."
   ],
@@ -8156,8 +8273,7 @@
   ],
   "https://www.anthropic.com/engineering/harness-design-long-running-apps": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
-    "Could not read tab 'Game play': TimeoutError",
-    "Could not read tab 'Game play': TimeoutError",
+    "Could not read tab 'Sprite editor': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/2028-ai-leadership": [
@@ -8188,10 +8304,12 @@
     "Could not read tab 'Physicists': TimeoutError",
     "Could not read tab 'Chemical engineers': TimeoutError",
     "Could not read tab 'Data scientists': TimeoutError",
+    "Could not read tab 'Mechanical engineers': TimeoutError",
     "Could not read tab 'Astronomers': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/anthropic-public-record": [
+    "Could not read tab 'Support for gov involvement': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk": [
@@ -8210,43 +8328,39 @@
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/news/claude-fable-5-mythos-5": [
-    "Could not read tab 'Fluid with Classical EDM': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-for-chrome": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/news/claude-opus-4-5": [
-    "Could not read tab 'Aider Polyglot': TimeoutError",
     "Could not read tab 'BrowseComp-Plus': TimeoutError",
     "Could not read tab 'Vending-Bench': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-opus-4-6": [
-    "Could not read tab 'Coding': TimeoutError",
-    "Could not read tab 'Reasoning': TimeoutError",
+    "Could not read tab 'Agentic search': TimeoutError",
+    "Could not read tab 'Long-context reasoning': TimeoutError",
     "Could not read tab 'Multilingual coding': TimeoutError",
     "Could not read tab 'Cybersecurity': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-opus-4-7": [
+    "Could not read tab 'Vision': TimeoutError",
     "Could not read tab 'Document reasoning': TimeoutError",
     "Could not read tab 'Long-context reasoning': TimeoutError",
     "Could not read tab 'Biology': TimeoutError",
-    "Could not read tab 'Long-term coherence': TimeoutError",
     "Could not read tab 'Coding': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-opus-5": [
     "Could not read tab 'CursorBench': TimeoutError",
-    "Could not read tab 'OSWorld 2.0': TimeoutError",
-    "Could not read tab 'AutomationBench': TimeoutError",
-    "Could not read tab 'DeepSearchQA': TimeoutError",
+    "Could not read tab 'GDPval-AA v2': TimeoutError",
+    "Could not read tab 'Cell artifact': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-sonnet-4-5": [
     "Could not read tab 'Law': TimeoutError",
-    "Could not read tab 'Medicine': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-sonnet-5": [
@@ -8346,14 +8460,21 @@
   "https://www.anthropic.com/research/anthropic-interviewer": [
     "Could not read tab 'Creatives': TimeoutError",
     "Could not read tab 'Scientists': TimeoutError",
+    "Could not read tab 'Computer & Math': TimeoutError",
+    "Could not read tab 'Art, Design, & Media': TimeoutError",
     "Could not read tab 'Business & Financial': TimeoutError",
+    "Could not read tab 'Office & Admin': TimeoutError",
     "Could not read tab 'Sales': TimeoutError",
+    "Could not read tab 'Visual artists': TimeoutError",
+    "Could not read tab 'Craftspeople': TimeoutError",
     "Could not read tab 'Designers': TimeoutError",
     "Could not read tab 'Filmmakers': TimeoutError",
     "Could not read tab 'Game developers': TimeoutError",
+    "Could not read tab 'Physicists': TimeoutError",
     "Could not read tab 'Chemical engineers': TimeoutError",
     "Could not read tab 'Data scientists': TimeoutError",
     "Could not read tab 'Mechanical engineers': TimeoutError",
+    "Could not read tab 'Astronomers': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/assistant-axis": [
@@ -8368,7 +8489,9 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-opus-5": [
-    "Could not read tab 'AA Coding Agent Index': TimeoutError",
+    "Could not read tab 'GDPval-AA v2': TimeoutError",
+    "Could not read tab 'HLE': TimeoutError",
+    "Could not read tab 'DeepSearchQA': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-personal-guidance": [
@@ -8378,12 +8501,14 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-sonnet-5": [
+    "Could not read tab 'Agentic computer use': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/research/claude-values-models-languages": [
+    "Could not read tab '': TimeoutError",
     "Could not read tab '': TimeoutError",
     "Could not read tab '': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
@@ -8464,95 +8589,5 @@
   ],
   "https://www.anthropic.com/webinars": [
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
-  ],
-  "https://www.anthropic.com/webinars/best-practices-for-claude-in-excel-and-powerpoint": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/building-on-the-claude-platform-claude-fable-5-and-model-orchestration-patterns": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/claude-code-financial-services": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/claude-code-for-data-engineering": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/claude-code-foundations": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/claude-code-live": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/claude-code-maximizing-value": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/claude-for-business-development-representatives": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/claude-for-financial-services-putting-agents-to-work": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/claude-for-marketing-ops-and-analytics": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/claude-for-nonprofits-moving-your-workflow-beyond-chat": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/claude-it-setup-for-nonprofits": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/claude-science-ama-how-to-accelerate-scientific-discovery": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/cowork-workshop-foundations": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/deploying-cowork-across-the-enterprise-with-paypal": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/enterprise-transformation-with-claude-on-aws-three-paths-to-production": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/evals-for-ai-agents-how-product-builders-get-the-most-out-of-every-new-model": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/future-of-ai-at-work-introducing-cowork": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/getting-started-with-claude-design": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/how-anthropic-works-with-claude-tag-in-slack": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/how-anthropics-marketing-team-uses-claude-cowork": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/how-anthropics-sales-leader-runs-his-week-with-claude": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/how-coderabbit-orchestrates-agents-to-strengthen-ai-generated-code": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/how-to-control-costs-and-show-roi-for-claude-code-on-google-cloud": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/how-warp-builds-self-improving-agents-on-claude": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/outtake-built-cyber-investigator-claude": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/rebroadcast-claude-on-google-cloud-monitoring-and-securing-agents-at-scale": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/scaling-development-with-remote-agents-augment-code": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/secure-the-advantage-a-cisos-guide-to-agentic-ai": [
-    "No semantic main/article element; full body retained."
-  ],
-  "https://www.anthropic.com/webinars/securing-governing-claude-the-compliance-api-and-security-integrations": [
-    "No semantic main/article element; full body retained."
   ]
 }

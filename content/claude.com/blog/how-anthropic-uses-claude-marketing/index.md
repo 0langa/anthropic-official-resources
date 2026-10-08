@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f06154e381e9a1203_fb2273e9cacb0299a3ee1bf1d76d0bff95ba4e15-1000x1000.svg)
-
 # How Anthropic's Growth Marketing team cut ad creation time from 30 minutes to 30 seconds with Claude Code
 
 *Austin Lau, growth marketer at Anthropic, shares how he went from never having opened a terminal to building Figma plugins and automated ad generation workflows, without writing a single line of code.*
 
-- Category
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Enterprise](https://claude.com/solutions/enterprise)
-- Date
-
-  January 26, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/how-anthropic-uses-claude-marketing)
-
-  https://claude.com/blog/how-anthropic-uses-claude-marketing
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Enterprise
+- DateJanuary 26, 2026
+- Reading time11 min
+- ShareCopy link
 
 Before Claude Code, Austin Lau had never written a line of code in his life. When the product first launched, he had to Google how to open a terminal on his computer.
 
@@ -36,7 +20,7 @@ One week later, Austin had built two workflows that fundamentally changed how he
 
 Here's how he did it, and what marketers can learn from his experience using Claude Code.
 
-Embedded media: https://www.youtube.com/embed/Jp83\_JMK74o
+Embedded media: https://www.youtube-nocookie.com/embed/Jp83\_JMK74o?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 ‍
 
@@ -70,9 +54,9 @@ To start, he opened Claude Code and described his problem through a prompt: "Cla
 
 Claude went out and did the research, evaluating how to best build a plugin, what the limitations were, and then started prototyping. After some troubleshooting, Austin had a working plugin installed in Figma.
 
-![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6977e24b0eda1b6088668653_Screenshot%202026-01-14%20at%207.07.46%E2%80%AFPM.png)
+![](https://assets.claude.com/8fcd4943e754755157c55f1a059597756373119a.png)
 
-*Austin's plugin lets him paste headline copy from a Google Sheet and generate dozens of ad variants with a single click.*
+Austin's plugin lets him paste headline copy from a Google Sheet and generate dozens of ad variants with a single click.
 
 "All I would have to do is specify the frame of the creative, and then copy and paste just once all the different variations and copy that I wanted to update, and with the click of a button, the Figma plugin will create all the different permutations for that single image," Austin explains.
 
@@ -80,7 +64,7 @@ Claude went out and did the research, evaluating how to best build a plugin, wha
 
 For responsive search ads, Austin built a workflow that helps brainstorm and create upload-ready ad copy using existing campaign and ad performance data to help inform what types of messaging resonates with prospects. This workflow saves hours per week on copy creation and character validation. With the time saved on mechanical tasks, Austin can now run more copy experiments and iterate faster on what actually performs best.
 
-To get started, he types `/rsa`, a custom slash command he created for responsive search ads, into Claude. Claude Code asks for campaign data, existing copy, and keywords, then cross-references his inputs against [Agent Skills](https://claude.com/blog/skills) he created for Anthropic's brand tone and voice, product accuracy, and Google Ads RSA best practices.
+To get started, he types `/rsa`, a custom slash command he created for responsive search ads, into Claude. Claude Code asks for campaign data, existing copy, and keywords, then cross-references his inputs against [Agent Skills](https://claude.com/resources/articles/skills) he created for Anthropic's brand tone and voice, product accuracy, and Google Ads RSA best practices.
 
 But the output is just a starting point.
 
@@ -90,9 +74,9 @@ That refinement matters because Austin is evaluating each headline against what 
 
 And all of this builds on a human foundation. "All of the copy and examples that we provide Claude were written in partnership with the product marketing and copywriting teams," Austin says. That strong starting point means there's human judgment baked in before Claude even starts brainstorming.
 
-![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6977e27920c4e24d437527d5_Screenshot%202026-01-14%20at%208.12.41%E2%80%AFPM.png)
+![](https://assets.claude.com/d18dbdc9038dfaa0e2f44d3edab18218729ff229.png)
 
-*The workflow exports the relevant campaign and ad group columns, along with 15 headlines, and 4 descriptions per ad into a CSV file ready to upload directly into Google Ads (after undergoing manual review).*
+The workflow exports the relevant campaign and ad group columns, along with 15 headlines, and 4 descriptions per ad into a CSV file ready to upload directly into Google Ads (after undergoing manual review).
 
 ## **Best practices for building your own workflows**
 
@@ -142,104 +126,49 @@ Austin isn't the only marketer at Anthropic building with Claude. Across the mar
 
 There’s an opportunity developing for teams that adopt tools like Claude Code to spend less time on repetitive execution and more time on the things that matter to their job.
 
-*Get started with* [*Claude Code*](https://claude.com/product/claude-code) *today. Stay tuned for more stories in the "How Anthropic uses Claude" series.*
+*Get started with [Claude Code](https://claude.com/product/claude-code) today. Stay tuned for more stories in the "How Anthropic uses Claude" series.*
 
 ‍
 
 ‍
 
-No items found.
-
-[Prev](https://claude.com/blog/how-anthropic-uses-claude-marketing)Prev
-
-0/5
-
-[Next](https://claude.com/blog/how-anthropic-uses-claude-marketing)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/how-anthropic-uses-claude-marketing)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
+[ArticleSep 30, 2026
 
 ### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
-Enterprise AI
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropic-uses-claude-marketing)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How to prepare for AI-driven code modernization projects
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-May 21, 2026
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
 
-### Claude now works with more security and compliance tools
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
-Enterprise AI
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/how-anthropic-uses-claude-marketing)Claude now works with more security and compliance tools
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
 
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/how-anthropic-uses-claude-marketing)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/how-anthropic-uses-claude-marketing)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

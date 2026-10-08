@@ -1,66 +1,20 @@
-Introducing Claude Code
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d2d09b203c164ad8e6_og-claude-education.jpg)
-
-See Claude Code in action—from concept to commit in one seamless workflow.
-
-Read more
-
-[Read more](https://claude.com/product/claude-code)Read more
-
-Introducing Claude Code
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b862e6ee6520aee5bc0741_vid-placeholder.avif)
-
-[Next](https://claude.com/blog/building-companies-with-claude-code)Next
-
-See Claude Code in action—from concept to commit in one seamless workflow.
-
-Read more
-
-[Read more](https://claude.com/product/claude-code)Read more
-
-[Next](https://claude.com/blog/building-companies-with-claude-code)Next
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b862e6ee6520aee5bc0741_vid-placeholder.avif)
-
-Embedded media:
-
-Introducing Claude Code
-
-See Claude Code in action—from concept to commit in one seamless workflow.
-
-Read more
-
-[Read more](https://claude.com/product/claude-code)Read more
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
 # How three YC startups built their companies with Claude Code
 
 From non-technical founders winning government contracts to solo devs building at scale, here’s how agentic coding is re-writing the startup playbook.
 
-- Category
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code
+- DateNovember 17, 2025
+- Reading time16 min
+- ShareCopy link
 
-  [Claude Code](https://claude.com/blog/category/claude-code)
+Introducing Claude Code
 
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
+![Introducing Claude Code](https://assets.claude.com/56575a2d86ba511e0095b0cb9a92cafe7079c820.jpg?w=2400&q=75&fm=webp&fit=max)
 
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
+See Claude Code in action—from concept to commit in one seamless workflow.
 
-  November 17, 2025
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/building-companies-with-claude-code)
-
-  https://claude.com/blog/building-companies-with-claude-code
+[Read more](https://claude.com/product/claude-code)
 
 [Y Combinator](https://www.ycombinator.com/), a startup accelerator, has launched over 5,000 companies that have a combined valuation of over $800B since 2005, including household names like Airbnb, Stripe, and DoorDash.
 
@@ -84,7 +38,7 @@ That realization became HumanLayer's core insight: often the most useful functio
 
 "Our MVP was an agent that would coordinate with humans in Slack and could do basic cleanup, like dropping any table that hadn't been queried in 90+ days," Horthy explained. "We weren't comfortable with an AI application running raw SQL unsupervised, so we wired in some basic human approval steps."
 
- In August 2024, Horthy built an MVP, demoed it to different startups across SF, and had his first paying customers.
+In August 2024, Horthy built an MVP, demoed it to different startups across SF, and had his first paying customers.
 
 This progress landed HumanLayer in the YC F24 batch, and the team went all in on providing an API and SDK that lets AI agents contact humans for feedback, input, and approvals across Slack, email, SMS, and other channels.
 
@@ -188,7 +142,7 @@ These three startups have developed battle-tested approaches to maximizing Claud
 
 This pattern prevents context contamination and allows each phase to focus on its core objective. Start a new Claude Code session for each major phase, passing only the distilled conclusions forward rather than dragging the entire context history.
 
-### **2.  Be deliberate about context management**
+### **2. Be deliberate about context management**
 
 Stettner's advice for other founders centers on deliberate context management:
 
@@ -208,108 +162,54 @@ Traditional barriers to building software—technical expertise, team size, deve
 
 **Ready to build with Claude Code?** [Get started.](https://www.anthropic.com/claude-code)
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69010941df4d50c5b91b2ba1_Clay-light-theme.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69010943d7b5a7bb5f07d8d6_Clay-dark-theme.svg)
+![Clay](https://assets.claude.com/267a4deeacbde106146d26ffa4ef2b08fbb3cb4f.svg)
 
-“We’re automating the mundane. 80% of Sales work today is manual, laborious, data work. In the era of AI, humans can focus on truly human, creative work, and we can leave the data work in the hands of AI.”
+> “We’re automating the mundane. 80% of Sales work today is manual, laborious, data work. In the era of AI, humans can focus on truly human, creative work, and we can leave the data work in the hands of AI.”
 
 Matthew Quan, Enterprise Growth Lead
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab2c8ba3466f0c993603d7b_6ab2c6e8c7f95095d8c9bba5_startups-wordmark-augment-code-light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab2c8bb3466f0c993603d8d_6ab2c6e8bcffe96ca440c809_startups-wordmark-augment-code-dark.svg)
+![Augment Code](https://assets.claude.com/7c991eec0ef2ebdbb312e3a55072965c105f343e.svg)
 
-“Claude Sonnet 4.5's intelligence is immediately noticeable—it makes better use of Augment's codebase context, handles longer-horizon tasks, and opens up new agentic possibilities we're actively exploring.”
+> “Claude Sonnet 4.5's intelligence is immediately noticeable—it makes better use of Augment's codebase context, handles longer-horizon tasks, and opens up new agentic possibilities we're actively exploring.”
 
 Guy Gur-Ari, Co-founder
 
-[Prev](https://claude.com/blog/building-companies-with-claude-code)Prev
-
-0/5
-
-[Next](https://claude.com/blog/building-companies-with-claude-code)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+[ArticleSep 24, 2026
 
-Jul 20, 2026
+### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-Enterprise AI
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/building-companies-with-claude-code)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-Sep 30, 2026
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-Enterprise AI
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/building-companies-with-claude-code)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### The Claude Code guide for startups
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
-
-May 21, 2026
-
-### Claude now works with more security and compliance tools
-
-Enterprise AI
-
-[Claude now works with more security and compliance tools](https://claude.com/blog/building-companies-with-claude-code)Claude now works with more security and compliance tools
-
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/building-companies-with-claude-code)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/building-companies-with-claude-code)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

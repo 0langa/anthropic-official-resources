@@ -1,33 +1,13 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f63175f636cba4641_c0af2a56f56cf298ce5904f2901e9a36facd0dbe-1000x1000.svg)
-
 # Maximizing the value of your Claude Code sessions
 
 How to run efficient sessions that get the most value from every token.
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  August 14, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions)
-
-  https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions
-- Author(s)
-
-  Lydia Hallie
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code
+- AuthorLydia Hallie
+- DateAugust 14, 2026
+- Reading time4 min
+- ShareCopy link
 
 ## TL;DR
 
@@ -35,8 +15,8 @@ How to run efficient sessions that get the most value from every token.
 - **Set your model and effort level before you start.** Changing either one mid-conversation can bust your prompt cache, which can increase token cost.
 - **@-mention files instead of naming them.** The file gets attached to your message directly, which saves a Read call, or a search if Claude has to go find it.
 - **Add quiet flags to noisy commands, or run them in a subagent.** Command output is added to the conversation just like a file, and stays there for the rest of the session.
-- **Run** **`/context`** **once in a fresh session.** It shows what's loaded (`CLAUDE.md`, MCP tool definitions), so you can cut out anything unnecessary.
-- **`/compact`** **before you take a break from your keyboard.** The prompt cache expires after an hour, and summarizing a conversation is much cheaper while it's still cached.
+- **Run `/context` once in a fresh session.** It shows what's loaded (`CLAUDE.md`, MCP tool definitions), so you can cut out anything unnecessary.
+- **`/compact` before you take a break from your keyboard.** The prompt cache expires after an hour, and summarizing a conversation is much cheaper while it's still cached.
 
 ## Maximizing value
 
@@ -46,7 +26,7 @@ With agentic coding tools like Claude Code, it does. The same completed task can
 
 In one session, Claude reads the test and the file it covers, makes the edit, and is done in a handful of turns. In another, it greps around the repo first, reads a dozen files on its way to the same two, and every one of those turns also drags along everything else that's been read into the conversation since this morning.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7f1946bc7cd69c4c8919db_be236b0d.png)
+![](https://assets.claude.com/04fc2be5cd21d240a6d7385cd32f7ada61647569.png)
 
 It's the same fix, but you spent a different number of tokens on it, and the whole time the model was also having to think about ten files it didn't need.
 
@@ -62,51 +42,13 @@ Three things decide how much of that time a token takes: which model you're runn
 
 ### Model
 
-A bigger model does more work on both input and output tokens. Which model is worth it for which kind of work is a topic on its own, and we covered it in [*Choosing a Claude model and effort level in Claude Code*](https://claude.com/blog/claude-model-and-effort-level-in-claude-code).
+A bigger model does more work on both input and output tokens. Which model is worth it for which kind of work is a topic on its own, and we covered it in [*Choosing a Claude model and effort level in Claude Code*](https://claude.com/resources/articles/claude-model-and-effort-level-in-claude-code).
 
 For this post, all you need to know is that everything else we're about to cover gets multiplied by the model's price: use a larger model when the problem is genuinely hard or ambiguous, and a smaller one when the work is routine.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7f1946bc7cd69c4c8919de_da980737.png)
+![](https://assets.claude.com/8d797ceaccc31c837896df732a428a353d1a34da.png)
 
-*Curves are for illustration purposes only. They do not represent real benchmark data.*
-
-No items found.
-
-[Prev](https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions)Prev
-
-0/5
-
-[Next](https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions)Next
-
-Get Claude Code
-
-curl -fsSL https://claude.ai/install.sh | bash
-
-Copy command to clipboard
-
-irm https://claude.ai/install.ps1 | iex
-
-Copy command to clipboard
-
-Or read the [documentation](https://code.claude.com/docs/en/overview)
-
-Try Claude Code
-
-[Try Claude Code](https://claude.ai/code)Try Claude Code
-
-Developer docs
-
-[Developer docs](https://code.claude.com/docs/en/overview)Developer docs
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
+Curves are for illustration purposes only. They do not represent real benchmark data.
 
 ### Input and output tokens
 
@@ -116,13 +58,13 @@ First, during prefill, the model reads your request and context: the system prom
 
 Then, during decode, it writes output tokens: its thinking, the tool calls it makes, and the text you see. This happens one token at a time; a 200-token response is 200 runs of the model, one after the other. Per token, decode keeps the GPU busy for a lot longer, which is why output is priced at roughly 5x input.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7f1947bc7cd69c4c891a0f_c69dbb11.png)
+![](https://assets.claude.com/f68353b606cdc6d7faac795e1d4204a7e734d3c9.png)
 
 A lot of the output tokens in a session are thinking tokens, and how much thinking the model does per turn is what the effort level controls. Like the model, the level you pick with `/effort` sticks around as your default for the next session too.
 
-> **Tip:** run `/model` and `/effort` once in a fresh session to see what you're actually on. Both remember whatever you picked last time, and you want that decision to be deliberate.
+> “Tip: run /model and /effort once in a fresh session to see what you're actually on. Both remember whatever you picked last time, and you want that decision to be deliberate.”
 
-> **Tip:** if you already know a session is going to be grunt work, `MAX_THINKING_TOKENS=0` claude turns thinking off for that one session (except on Fable 5), which is the step below `/effort` low.
+> “Tip: if you already know a session is going to be grunt work, MAX\_THINKING\_TOKENS=0 claude turns thinking off for that one session (except on Fable 5), which is the step below /effort low.”
 
 ### Prompt caching
 
@@ -135,22 +77,17 @@ Claude Code manages the prompt cache on every request, there's nothing to turn o
 Say we type "fix the failing test in `utils.test.ts`". Here's what Claude Code sends for it:
 
 1. Claude Code assembles the first request out of the system prompt (tool definitions included), your `CLAUDE.md`, and your message, and sends it off (input tokens). Nothing is in the cache yet, so all of it gets prefilled and written into the cache.
-
 2. The model can't fix a test it hasn't seen, so it thinks for a moment and responds with a Read call for `utils.test.ts` (output tokens). Claude Code reads the file, appends it to the conversation, and sends the whole thing again (input tokens). This time everything from request 1 is read back out of the cache at a tenth of the price, and the only thing prefilled at full price is what's new: the Read call and the file.
-
 3. Now the model wants the file under test (output). Another Read, another append, and everything goes out again: requests 1 and 2 from the cache, the second file at full price (input).
-
 4. The model responds with an Edit (output). Claude Code applies it, appends the result, and sends everything again. Same story: the Edit and its result are new, everything in front of them is a cache read (input).
-
 5. The model runs `npm test` (output). Claude Code appends the test output and sends everything again, with the test output as the only new part (input).
-
 6. The tests pass, and the model responds with a short summary (output). No tool call means nothing to append and no request 6, so we're done.
 
 That's five requests for one small fix, and every one of them contained the entire conversation up to that point. A typical turn is lopsided: tens of thousands of tokens going in, a few hundred coming out. But only what's new in that turn gets prefilled at full price.
 
 That's the whole per-turn bill: cache reads on the history, full input price on whatever's new, and the output price on the response.
 
-> This applies on a subscription too. You don't see these prices directly, but the same requests are what draw down your limits.
+> “This applies on a subscription too. You don't see these prices directly, but the same requests are what draw down your limits.”
 
 The cache has to match from the very start of the request forward, and requests always go out in the same order: tool definitions, then the system prompt, then the conversation (with `CLAUDE.md` at the front of it).
 
@@ -164,7 +101,7 @@ If anything in that prefix changes, everything behind it gets prefilled again. A
 
 None of this means you should never switch models or effort. It means there are cheap moments to do it, the start of a session or right after a `/clear`, and expensive ones, the middle of a long conversation.
 
-> **Tip:** if the last few turns went somewhere you don't want to keep, `/rewind` to just before them instead of running `/compact`. Rewinding only cuts those turns off the end, so everything before them is still cached and it costs nothing. Compacting rewrites the whole conversation, so it always costs something.
+> “Tip: if the last few turns went somewhere you don't want to keep, /rewind to just before them instead of running /compact. Rewinding only cuts those turns off the end, so everything before them is still cached and it costs nothing. Compacting rewrites the whole conversation, so it always costs something.”
 
 ## **What decides how many tokens a session sends**
 
@@ -178,7 +115,7 @@ That's really the whole cost model of a session: how many tokens end up in the c
 
 Part of what's in the context is there before you type anything: the tool definitions, the system prompt, `CLAUDE.md`, and whatever else gets loaded at startup.
 
-> **Tip**: run `/context` in a fresh session to see what's in there before you've typed anything. Keep `CLAUDE.md` to specific instructions and move workflow-specific ones into skills, which only get loaded when they're used. If there's an MCP server you don't need in this session, turn it off with `/mcp`.
+> “Tip: run /context in a fresh session to see what's in there before you've typed anything. Keep CLAUDE.md to specific instructions and move workflow-specific ones into skills, which only get loaded when they're used. If there's an MCP server you don't need in this session, turn it off with /mcp.”
 
 Nearly everything else that gets added during the session is tool results: the files Claude reads, and the output of the commands it runs.
 
@@ -186,9 +123,8 @@ How much Claude reads mostly comes down to how much it has to figure out on its 
 
 "Fix the failing test in `utils.test.ts`" skips the searching and costs one Read call for the file, and "Fix the failing test in `@utils.test.ts`" doesn't cost the Read call either.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7f1b213f60488b546224d4_cab63270.png)
-
-> **Tip:** when you're referring to a file, @-mention it instead of typing the path. Claude Code attaches the file to your message before anything gets sent, so it's in the very first request and there's no Read call for it. The file itself takes up the same room in the context either way, so you only need to mention it once per conversation: it stays there, and @-mentioning it again on a later turn generally attaches a second copy.
+![](https://assets.claude.com/54407be01239ce7ceeb185840a457333a4691afc.png)
+> “Tip: when you're referring to a file, @-mention it instead of typing the path. Claude Code attaches the file to your message before anything gets sent, so it's in the very first request and there's no Read call for it. The file itself takes up the same room in the context either way, so you only need to mention it once per conversation: it stays there, and @-mentioning it again on a later turn generally attaches a second copy.”
 
 The other thing that fills up the context is the output of the commands Claude runs. Every time it runs your tests, a build, or a git log, whatever that prints gets appended to the conversation just like a file it read, and stays there for the same number of turns.
 
@@ -198,15 +134,14 @@ The problem is everything under that. A test runner that prints 400 passing test
 
 Claude will often take care of this for you with flags and tail, and if you'd rather not leave it up to Claude, there's a small hook in the docs that rewrites noisy commands before they run so only the lines that matter come back.
 
-> **Tip**: put the two or three commands you run all day in `CLAUDE.md`, quiet flags included, the way you'd type them yourself ("run a single test file with `npx vitest run <file> --reporter=dot"`). It's a small addition, but it saves a turn and a few hundred lines of output in every session after it.
+> “Tip: put the two or three commands you run all day in CLAUDE.md, quiet flags included, the way you'd type them yourself ("run a single test file with npx vitest run <file> --reporter=dot"). It's a small addition, but it saves a turn and a few hundred lines of output in every session after it.”
 
 ### How many turns it stays there
 
 One long session costs more than the same work spread over a few short ones, and by more than you'd think, because turn 40 is also re-reading the 39 turns before it. You want the context in your session to be short and relevant, so don't carry one task's context into the next: `/clear` when you start something new, and `/compact` when the earlier part of the same task is done.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7f1cdb7fb1ad2229b0afa5_92ab0ee2.png)
-
-> **Tip**: `/rename` before you `/clear` if you'll want the session back later. When you `/compact`, tell it what to keep, or put a "Compact instructions" section in `CLAUDE.md` if it's always the same thing. And if you're on a 1M model and would rather have the auto-compact safety net where it used to be, `/autocompact 200k` puts it back (needs Claude Code v2.1.221+).
+![](https://assets.claude.com/bbb56ac167554bfa5766d1a623d3eab725053a7d.png)
+> “Tip: /rename before you /clear if you'll want the session back later. When you /compact, tell it what to keep, or put a "Compact instructions" section in CLAUDE.md if it's always the same thing. And if you're on a 1M model and would rather have the auto-compact safety net where it used to be, /autocompact 200k puts it back (needs Claude Code v2.1.221+).”
 
 Keep an eye on turns that happen when you're not typing, too. A `/loop` fires as a full turn in the session you set it up in, carrying that whole conversation with it every time, and if it's been more than an hour since the last turn, it's a cache miss on top. Start a fresh session in another terminal and run the loop from there.
 
@@ -218,90 +153,51 @@ The downside of not having your conversation is that a subagent sometimes has to
 
 It pays off when a job produces a lot of output you don't need to keep, like going through a log. Claude will often reach for one on its own for that kind of thing, and you can ask for one directly when it doesn't ("go through this log in a subagent"). Just keep in mind that the main session only gets back what the subagent chose to report.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7f1cdb7fb1ad2229b0afaa_a653b369.png)
-
-> **Tip**: if there's a noisy job you hand off over and over, give it a subagent definition of its own with model: haiku (or sonnet). Otherwise it runs on whatever your main session is running on.
+![](https://assets.claude.com/a071b5484119013237fb7b1e1f4a36018a21081e.png)
+> “Tip: if there's a noisy job you hand off over and over, give it a subagent definition of its own with model: haiku (or sonnet). Otherwise it runs on whatever your main session is running on.”
 
 ## Where to look first
 
 Of everything above, four things are worth keeping an eye on, roughly in order of how much they cost:
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7f1dd4531c50c7022d5171_df696a6b.png)
+![](https://assets.claude.com/077415de742f75039fc0bbd689338f239429eced.png)
 
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+[ArticleSep 24, 2026
 
-Jul 20, 2026
+### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-Enterprise AI
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-Sep 30, 2026
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-Enterprise AI
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### The Claude Code guide for startups
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
-
-May 21, 2026
-
-### Claude now works with more security and compliance tools
-
-Enterprise AI
-
-[Claude now works with more security and compliance tools](https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions)Claude now works with more security and compliance tools
-
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

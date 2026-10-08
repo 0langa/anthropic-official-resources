@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
-
 # Evaluate prompts in the developer console
 
 Generate, test, and evaluate prompts directly in the Anthropic Console with automatic test case generation and side-by-side output comparison.
 
-- Category
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  July 9, 2024
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/evaluate-prompts)
-
-  https://claude.com/blog/evaluate-prompts
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude Platform
+- DateJuly 9, 2024
+- Reading time4 min
+- ShareCopy link
 
 When building AI-powered applications, prompt quality significantly impacts results. But crafting high quality prompts is challenging, requiring deep knowledge of your application's needs and expertise with large language models. To speed up development and improve outcomes, we've streamlined this process to make it easier for users to produce high quality prompts.
 
@@ -32,11 +16,11 @@ You can now generate, test, and evaluate your prompts in the Anthropic Console. 
 
 Writing a great prompt can be as simple as describing a task to Claude. The Console offers a [built-in prompt generator](https://www.anthropic.com/news/prompt-generator), powered by Claude 3.5 Sonnet, that allows you to describe your task (e.g. “Triage inbound customer support requests”) and have Claude generate a high-quality prompt for you.
 
-![App screen of Anthropic Console prompt generator](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d929bfbe47c603d7a45_a693e694fe0fe462b15c80463b92bbf2f9a74a05-2200x1200.png)
+![App screen of Anthropic Console prompt generator](https://assets.claude.com/44d2c58b7f523823519bc2058185551fe7938949.png)
 
 You can use Claude’s new test case generation feature to generate input variables for your prompt—for instance, an inbound customer support message—and run the prompt to see Claude’s response. Alternatively, you can enter test cases manually.
 
-![App screen of prompt generation and Claude response](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d929bfbe47c603d7a42_8d0f1c98a70cbe8246cd1e08aff7abeb0ac678c3-2200x1286.png)
+![App screen of prompt generation and Claude response](https://assets.claude.com/0b0101ebd793461e21d61bf6e15543c22ffccb0b.png)
 
 ### Generate a test suite
 
@@ -44,7 +28,7 @@ Testing prompts against a range of real-world inputs can help you build confiden
 
 Manually add or import new test cases from a CSV, or ask Claude to auto-generate test cases for you with the ‘Generate Test Case’ feature. Modify your test cases as needed, then run all of the test cases in one click. View and adjust Claude’s understanding of the generation requirements for each variable to get finer-grained control over the test cases Claude generates.
 
-![App screen of comparison mode of different prompt responses](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d929bfbe47c603d7a50_1854b171f11156f3d71fb614b6ade93bb8b7b30a-2200x1302.png)
+![App screen of comparison mode of different prompt responses](https://assets.claude.com/0191a79957c21315babd9f39f5bac74ad16936b0.png)
 
 ### Evaluate model responses and iterate on prompts
 
@@ -52,104 +36,46 @@ Refining your prompt now takes fewer steps, since you can create new versions of
 
 You can even have subject matter experts grade response quality on a 5-point scale in order to see whether the changes you’ve made have improved response quality. Both of these features enable a faster and more accessible way to improve model performance.
 
-Embedded media: https://www.youtube.com/embed/KIGBsQqZcNA
+Embedded media: https://www.youtube-nocookie.com/embed/KIGBsQqZcNA?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 ### Get started
 
 Test case generation and output comparison features are available to all users on the Anthropic Console. To learn more about how to generate and evaluate prompts with Claude, check out our [docs](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview).
 
-No items found.
-
-[Prev](https://claude.com/blog/evaluate-prompts)Prev
-
-0/5
-
-[Next](https://claude.com/blog/evaluate-prompts)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/evaluate-prompts)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/evaluate-prompts)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
 ### Build plugins for Claude
 
-Product announcements
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-[Build plugins for Claude](https://claude.com/blog/evaluate-prompts)Build plugins for Claude
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
+### Claude Tag now supports personal connectors in channels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/evaluate-prompts)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/evaluate-prompts)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

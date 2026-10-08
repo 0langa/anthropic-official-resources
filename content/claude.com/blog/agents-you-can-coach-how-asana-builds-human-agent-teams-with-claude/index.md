@@ -1,37 +1,17 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
 # Agents you can coach: how Asana builds human-agent teams with Claude
 
 *Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.*
 
 ‍
 
-- Category
+- Category[Best practices](https://claude.com/resources/best-practices), [Perspectives](https://claude.com/resources/perspectives)
+- ProductClaude Platform
+- AuthorsAleksandra Todorova, Kristen Swanson
+- DateSeptember 29, 2026
+- Reading time15 min
+- ShareCopy link
 
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  September 29, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)
-
-  https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude
-- Author(s)
-
-  Aleksandra Todorova
-
-  Kristen Swanson
-
-*This is the third post in our series on building human-agent teams. The* [*first*](https://claude.com/blog/building-effective-human-agent-teams) *shared what we’ve learned working with multiplayer AI at Anthropic. The* [*second*](https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams) *shared how Slack turns workplace conversation into the context agents need. This one looks at what changes when agents operate on the same platform where teams work.*
+*This is the third post in our series on building human-agent teams. The [first](https://claude.com/resources/articles/building-effective-human-agent-teams) shared what we’ve learned working with multiplayer AI at Anthropic. The [second](https://claude.com/resources/articles/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams) shared how Slack turns workplace conversation into the context agents need. This one looks at what changes when agents operate on the same platform where teams work.*
 
 Years before they introduced AI agents, teams at Asana were iterating on ways to encode structure and accountability into how teams work together. They ultimately built the W*ork Graph*® model, which maps out every task, project, goal, and conversation on a web of relationships, with defined owners, contributors, and dependencies.
 
@@ -43,7 +23,7 @@ We talked with Arnab Bose, Asana’s Chief Product Officer, about how Asana’s 
 
 For Asana employees, Claude is the default AI tool, connected to the platforms employees use to work, including Google Drive, Slack, and of course, Asana.
 
-"A person makes sense of their day by taking unstructured data, an idea they have, a conversation in Slack, a meeting recording in Zoom, a Databricks report, information from Google Docs,” Arnab says. “They talk it through with Claude, and then they can pump all of that into the structure that Asana provides with projects and tasks." Once the structure is in place, agents can act on it, with the three capabilities we described in the first post of this series, [*Building effective human agent teams*](https://claude.com/blog/building-effective-human-agent-teams): persistent memory, their own credentials, and shared context.
+"A person makes sense of their day by taking unstructured data, an idea they have, a conversation in Slack, a meeting recording in Zoom, a Databricks report, information from Google Docs,” Arnab says. “They talk it through with Claude, and then they can pump all of that into the structure that Asana provides with projects and tasks." Once the structure is in place, agents can act on it, with the three capabilities we described in the first post of this series, [*Building effective human agent teams*](https://claude.com/resources/articles/building-effective-human-agent-teams): persistent memory, their own credentials, and shared context.
 
 **How to put this into practice:**
 
@@ -57,7 +37,7 @@ Asana employees can work with AI agents in any project like they would with a hu
 
 Agents are built around roles or types of work, for example, content writer, insights analyst, project manager, work intake specialist, campaign analyst, or campaign coordinator. Each agent comes with pre-built skills based on Asana’s research into how its customers do that work, and with the integrations they would need, such as Hubspot or a document drive.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abb134d1d061429065e9809_947344a3.png)
+![](https://assets.claude.com/71e5b66591e4a02d83db7fa47acf7ef214d4146e.png)
 
 Each agent also has a profile page that lists its name and purpose, the people who can use it, the administrators, instructions, skills, integrations, and permissions. Asana gives you the tools to make access intentional. “Asana is a contained work surface,” Arnab says. “You could choose to grant access to a specific set of projects versus everything, or a specific set of documents, or a combination of documents and apps.”
 
@@ -85,7 +65,7 @@ The split is intentional, Arnab says. Asana's communications team hold the pen o
 
 ## Keep the agent’s work where everyone can see it
 
-Similar to how [agents in Slack post transparently in channels](https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams), when a task is assigned to an AI teammate everyone can see that an agent is doing it, and what it does. The agent posts activity, including its research plan and the steps it took, so everyone with access to that task can read what it did, comment, and steer it toward the result they want.
+Similar to how [agents in Slack post transparently in channels](https://claude.com/resources/articles/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams), when a task is assigned to an AI teammate everyone can see that an agent is doing it, and what it does. The agent posts activity, including its research plan and the steps it took, so everyone with access to that task can read what it did, comment, and steer it toward the result they want.
 
 When Asana’s communications team asked Arnab to review a briefing document for a speaking engagement, he @-mentioned the agent on the task and asked it to also factor in his talk track from an earlier talk. The message was brief because he had used that agent many times and the material he referenced was already in the Work Graph. A colleague on the communications team could see his request and the agent’s response, and go back and forth with the agent at the same time.
 
@@ -127,98 +107,42 @@ A ticket can be assigned to a person or to a coding agent, and because the cycle
 
 “Humanity thrives when teams can work together effortlessly, and today every team is part human, part agent,” Arnab says. “That’s the kind of work we design for: one shared context that both humans and agents can work from, with a distinct identity for every agent so its contributions and access can be audited, and a durable record of what agents can learn so the team’s knowledge compounds instead of evaporating.”
 
-No items found.
-
-[Prev](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Prev
-
-0/5
-
-[Next](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
+[ArticleSep 28, 2026
 
-Aug 26, 2026
+### A new approach to agent security with Claude Managed Agents and NVIDIA
 
-### How Warp builds self-improving agents on Claude
+Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
 
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 28, 2026
-
-### Giving companies more control over their AI agents, with NVIDIA
-
-Agents
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Giving companies more control over their AI agents, with NVIDIA
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Sep 8, 2026
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
 
 ### Reducing cost and improving performance with Claude Platform
 
-Agents
+Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Reducing cost and improving performance with Claude Platform
+Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
 
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
+### A guide to the anatomy of effective commerce agents
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228c83775fcc75f4e6d_74409af25137110ac04cc39e4d5ea0a2fbcea421-1000x1000.svg)
+The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
 
-Sep 2, 2026
+Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)[ArticleAug 26, 2026
 
-### Building commerce agents with Claude
+### How Warp builds self-improving agents on Claude
 
-Product announcements
+Learn how Warp devised a simple development pattern that anyone can use to create self-improving agents.
 
-[Building commerce agents with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Building commerce agents with Claude
-
-[Building commerce agents with Claude](https://claude.com/blog/claude-for-commerce-agents)Building commerce agents with Claude
+Claude Platform](https://claude.com/resources/articles/how-warp-builds-self-improving-agents-on-claude)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

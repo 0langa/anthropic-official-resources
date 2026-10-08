@@ -1,34 +1,18 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2261b7d4c0eae4fdf9b_036c01a9e427ea0f4d1e6c7221e4f6dce2259bf7-1000x1000.svg)
-
 # How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds
 
 *Ian Chan and Annabel Custer, in marketing operations at Anthropic, share how they automate work their team used to do by hand across multiple platforms.*
 
-- Category
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Cowork](https://claude.com/product/cowork)
-- Date
-
-  July 8, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds)
-
-  https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Cowork
+- DateJuly 8, 2026
+- Reading time10 min
+- ShareCopy link
 
 Marketing operations teams spend a meaningful portion of their time keeping the systems behind marketing programs in step with the business. While automation sits firmly in their purview, a lot of the work is anything but: martech tools don’t integrate cleanly with each other, reports are consolidated manually, landing pages get spun up one at a time.
 
 Ian Chan, on the marketing operations team at Anthropic, used to spend one to two days a week pulling together the weekly marketing metrics review. Annabel Custer, who focuses on campaign operations, used to set up each new event by clicking through Salesforce, HubSpot, Swoogo, and email tools in sequence. Both have now compressed days of manual work into hours by setting up workflows in Claude Cowork.
 
-Embedded media: https://www.youtube.com/embed/lsufr1i6ACY
+Embedded media: https://www.youtube-nocookie.com/embed/lsufr1i6ACY?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 The recovered hours have shifted the shape of their work. Ian and Annabel now spend less time clicking through systems and more time on enablement, validation, and the underlying data and processes the marketing team relies on as more people across the company pull their own numbers and drive their own programs.
 
@@ -42,17 +26,17 @@ A scheduled task runs every Sunday evening, prompting Claude to read the previou
 
 On Monday morning, Ian opens Claude Cowork and pulls the initial report, which contains the metrics tables and suggested headlines, or areas of focus.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4c4a528dff4302c054e6cd_47666869.png)
+![](https://assets.claude.com/d43bf44782135a54337a8c2266454ca5e3760d1d.png)
 
-*The weekly business review summary is shown here created with demo data and all information anonymized or modified for publication.*
+The weekly business review summary is shown here created with demo data and all information anonymized or modified for publication.
 
 Ian reviews them and once he’s confirmed or decided where to focus the narrative, he tells Claude to expand on them with supporting details and examples. Some weeks the team is responding to a sales priority, and others—to a product launch. At the quarter turn, Ian tells Claude to lead with quarterly plans and feeds in the quarterly review doc.
 
 Claude generates the leadership slide from the same data and narrative: what changed, why, and what the teams are doing about it. Any follow-ups become Asana tasks.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4c4a528dff4302c054e6d0_9a64f8ed.png)
+![](https://assets.claude.com/ad69d3beee1a1d1dc889a8ce450a33d7ece5ab17.png)
 
-*The weekly metrics report, shown here with demo data and all information anonymized or modified for publication, contains key metrics and suggested areas of focus.*
+The weekly metrics report, shown here with demo data and all information anonymized or modified for publication, contains key metrics and suggested areas of focus.
 
 When the numbers don’t line up, Claude flags the mismatch instead of guessing. After a reorg on the sales team, for example, marketing's reporting no longer matched theirs. Claude flagged the gap and asked Ian how to handle it.
 
@@ -76,15 +60,15 @@ Before Claude Cowork, Annabel picked up every request from a dedicated Slack cha
 
 Once an hour, a **dispatcher skill** reads the channel, picks the most urgent request, stamps the ticket so the work doesn't get duplicated, and hands it off to one of five specialist skills that Annabel has set up to do the required work. It doesn’t do any event setup itself; its job is to decide what runs next, and keeping it separate lets Annabel refine each specialist skill on its own without touching the routing.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4c4a528dff4302c054e6d3_36d62936.png)
+![](https://assets.claude.com/2fac0143d74fdbda9f26332805dd2b6fa4292d53.png)
 
-*The dispatcher skill, edited for publication to show demo data and information, reads the channel and hand off requests to one of five specialist skills that do the required work.*
+The dispatcher skill, edited for publication to show demo data and information, reads the channel and hand off requests to one of five specialist skills that do the required work.
 
 For an event build, which is the most complex request type, an **event-build skill** handles the full sequence end to end: CRM campaign creation, marketing automation campaign with workflows and lists, event platform setup, email drafting, landing page generation, and all of the integrations between them.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4c4a528dff4302c054e6d8_be52735c.png)
+![](https://assets.claude.com/5c9c5cc2da7167c3016c29a3d0da2f7b7932b702.png)
 
-*The event-build skill (excerpted and edited for publication) scripts two Slack updates: when Claude picks up the request, and when the landing page is ready for the requester's review and the audit takes over.*
+The event-build skill (excerpted and edited for publication) scripts two Slack updates: when Claude picks up the request, and when the landing page is ready for the requester's review and the audit takes over.
 
 When the build is done, it hands off to a new agent for audit. The **audit agent** starts with no prior context, submits a test registration on the live landing page, opens the confirmation email in Gmail, and marks the Asana task complete if everything looks right. Annabel reviews each result before it ships.
 
@@ -108,105 +92,48 @@ As Claude takes on the repetitive parts of campaign operations, Annabel can focu
 
 - **Turn repeated corrections into skills.** When you find yourself correcting Claude on the same thing more than once, that feedback belongs in a skill. You don’t need to build skills, either: Claude can do that for you.
 - **Build a proofreading skill first.** The proofreading skill checks that every number Claude puts in a report traces back to a verified source.
-
 - **Ask Claude to reflect.** Claude reads instructions differently than a human writes them, so after the first runs of a new workflow, ask what was difficult about the instructions. Annabel feeds what surfaces back into the skill as part of her broader practice of constantly updating skills.
-
 - **Lean on scheduled tasks.** Work that runs on its own every Sunday night or every hour is work no one has to remember to do.
 
 ‍
 
-No items found.
-
-[Prev](https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds)Prev
-
-0/5
-
-[Next](https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
+[ArticleSep 30, 2026
 
 ### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
-Enterprise AI
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How to prepare for AI-driven code modernization projects
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-May 21, 2026
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
 
-### Claude now works with more security and compliance tools
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
-Enterprise AI
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds)Claude now works with more security and compliance tools
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
 
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

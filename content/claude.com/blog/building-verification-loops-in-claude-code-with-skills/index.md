@@ -1,45 +1,27 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224d39f9b8e905d1823_b68cbb43d7c8f56f0b14cc867e8d4d74445f78b0-1000x1000.svg)
-
 # Building verification loops in Claude Code with skills
 
 How to turn your manual checks into skills, so Claude closes its own feedback loop.
 
-- Category
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code
+- AuthorDelba de Oliveira
+- DateJuly 22, 2026
+- Reading time5 min
+- ShareCopy link
 
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  July 22, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/building-verification-loops-in-claude-code-with-skills)
-
-  https://claude.com/blog/building-verification-loops-in-claude-code-with-skills
-- Author(s)
-
-  Delba de Oliveira
-
-Most [agentic coding](https://claude.com/blog/introduction-to-agentic-coding) sessions follow a loop: you ask for a change, Claude gathers context, takes action, verifies the results, and if needed, loops back to gather additional context.
+Most [agentic coding](https://claude.com/resources/articles/introduction-to-agentic-coding) sessions follow a loop: you ask for a change, Claude gathers context, takes action, verifies the results, and if needed, loops back to gather additional context.
 
 Verification is how agents check their work before responding. Claude already does some of this from observing the deterministic signals in your codebase, including type checkers, linters, tests, and runtime errors. Whatever Claude can't infer becomes the steps you take to manually check a feature.
 
 These manual steps, however, can be transformed into verification loops. In [Claude Code](https://claude.com/product/claude-code), a verification loop is an iterative process where Claude checks and attempts to fix the work.
 
-![diagram of the agentic loop: 1. gathering context, 2. taking action, 3. verifying results.](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a60f2068656db3211c097af_5b4284f8.png)
+![diagram of the agentic loop: 1. gathering context, 2. taking action, 3. verifying results.](https://assets.claude.com/5dd20c12d10d8e9e337f413fa1466f39a80296d0.png)
 
-*The agentic loop: 1. gathering context, 2. taking action, 3. verifying results.*
+The agentic loop: 1. gathering context, 2. taking action, 3. verifying results.
 
 In this article, we cover the most common types of verification loops and show you what we use inside Anthropic. Then we’ll show how to encode the manual checks you already do as skills, so Claude can close its own feedback loop and you can work on something else while it iterates.
 
-New to agent loops? Start with [getting started with loops](https://claude.com/blog/getting-started-with-loops).
+New to agent loops? Start with [getting started with loops](https://claude.com/resources/articles/getting-started-with-loops).
 
 ## What is a verification loop?
 
@@ -66,55 +48,21 @@ If you're struggling to articulate the verification check itself, ask Claude for
 
 **Pro tip**: The check doesn't have to be qualitative to belong here. "Reject any migration that drops a column without a backfill step" is a deterministic rule no generic linter will catch but a project-specific one will. Anything you keep having to enforce by hand as a manual check qualifies for capture as a loop.
 
-No items found.
-
-[Prev](https://claude.com/blog/building-verification-loops-in-claude-code-with-skills)Prev
-
-0/5
-
-[Next](https://claude.com/blog/building-verification-loops-in-claude-code-with-skills)Next
-
-Get Claude Code
-
-curl -fsSL https://claude.ai/install.sh | bash
-
-Copy command to clipboard
-
-irm https://claude.ai/install.ps1 | iex
-
-Copy command to clipboard
-
-Or read the [documentation](https://code.claude.com/docs/en/overview)
-
-Try Claude Code
-
-[Try Claude Code](https://claude.ai/code)Try Claude Code
-
-Developer docs
-
-[Developer docs](https://code.claude.com/docs/en/overview)Developer docs
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
 ## Make it a skill
 
-The most common way to encode repetitive steps into  a verification loop is to write it as a [skill](https://claude.com/blog/complete-guide-to-building-skills-for-claude), and  the fastest way to create a skill is to install the skill-creator plugin and let Claude interview you:
+The most common way to encode repetitive steps into a verification loop is to write it as a [skill](https://claude.com/resources/articles/complete-guide-to-building-skills-for-claude), and the fastest way to create a skill is to install the skill-creator plugin and let Claude interview you:
 
 Example:
+
+Copy
 
 ```
 /skill-creator Create a skill for verifying frontend changes end-to-end. Interview me about my workflow.
 ```
 
 You can also hand-write a skill by dropping a markdown file in .claude/skills/ inside your project. The simplest possible verification skill is a few lines of frontmatter plus a body:
+
+Copy
 
 ```
 # .claude/skills/verify-log-hygiene/SKILL.md
@@ -134,7 +82,7 @@ Report each violation with file:line, then fix it: add the request ID
 where it's missing and strip the payload from the log call.
 ```
 
-The full schema and the philosophy behind it are in our [complete guide to building skills](https://claude.com/blog/complete-guide-to-building-skills-for-claude).
+The full schema and the philosophy behind it are in our [complete guide to building skills](https://claude.com/resources/articles/complete-guide-to-building-skills-for-claude).
 
 ## Match the check to where it runs
 
@@ -151,6 +99,8 @@ The cost is that each invocation is still a turn you have to remember to take. T
 Fires automatically as part of the producing skill. The check belongs to one specific workflow, and the workflow now runs it without you asking.
 
 The simplest version is a one-line append to the producing skill's body:
+
+Copy
 
 ```
 # .claude/skills/scaffold-component/SKILL.md
@@ -190,6 +140,8 @@ Members of Anthropic's Claude Code team use this pattern in their day-to-day: /c
 
 Chaining is also how you add verification to a skill you can't modify: build a custom wrapper skill that invokes the original, then invokes your verification skill, as depicted below:
 
+Copy
+
 ```
 # .claude/skills/safe-refactor/SKILL.md
 Run /simplify on the current diff first.
@@ -204,11 +156,11 @@ You can skip chaining when the steps are independent enough that you sometimes w
 
 Once the chain is solid for your own changes, the same procedure can run on every PR. A teammate's change passes the same gates yours did, whether they remembered to invoke the chain or not. The infrastructure is the same kind of thing as the chain you already wrote, one step further along: the same skills, the same rubrics, the same standards, applied without depending on the author's diligence.
 
-This is where verification stops being personal infrastructure and becomes [team infrastructure](https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start). The check you wrote down to save yourself two minutes a week is now saving everyone two minutes a week, on every change. Hold off on PR-wide gates while the chain is still in flux; every adjustment becomes a team-visible event.
+This is where verification stops being personal infrastructure and becomes [team infrastructure](https://claude.com/resources/articles/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start). The check you wrote down to save yourself two minutes a week is now saving everyone two minutes a week, on every change. Hold off on PR-wide gates while the chain is still in flux; every adjustment becomes a team-visible event.
 
-Embedded media: https://www.youtube.com/embed/wI0ptqCSL0I?start=1028
+Embedded media: https://www.youtube-nocookie.com/embed/wI0ptqCSL0I?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
-Once you have the process down, you’re ready to expand your loop engineering.   The verification loop creation process is consistent, no matter what you’re automating or in what environment:
+Once you have the process down, you’re ready to expand your loop engineering. The verification loop creation process is consistent, no matter what you’re automating or in what environment:
 
 1. Pick the manual follow-up you did most often this week.
 2. Try out the built-in /verify skill first and see if it helps your process.
@@ -219,84 +171,46 @@ Once you have the process down, you’re ready to expand your loop engineering. 
 
 The more you can encode for Claude to follow, the more often Claude's response will land closer to what you want on the very first try. The corrections you no longer have to fiddle with now free up your attention for the individual and exclusive work that no skill can write down for you.
 
-***Get started with verification loops in*** [***Claude Code***](https://www.anthropic.com/product/claude-code).
+***Get started with verification loops in [Claude Code](https://www.anthropic.com/product/claude-code)***.
 
 *This article was written by Delba de Oliveira, a member of the Claude Code team.*
 
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/building-verification-loops-in-claude-code-with-skills)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
-
-Sep 24, 2026
+[ArticleSep 24, 2026
 
 ### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-Claude Code
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/building-verification-loops-in-claude-code-with-skills)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-Sep 23, 2026
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-### How to prepare for AI-driven code modernization projects
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-Enterprise AI
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/building-verification-loops-in-claude-code-with-skills) How to prepare for AI-driven code modernization projects
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
+### The Claude Code guide for startups
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/building-verification-loops-in-claude-code-with-skills)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/building-verification-loops-in-claude-code-with-skills)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

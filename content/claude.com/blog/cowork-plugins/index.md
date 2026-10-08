@@ -1,30 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
-
 # Customize Cowork with plugins
 
 We built Cowork to bring the power of Claude Code to everyone. Today, we're adding support for plugins, which let you bundle any skills, connectors, slash commands, and sub-agents together to turn Claude into a specialist for your role, team, and company.
 
-- Category
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  [Claude Enterprise](https://claude.com/solutions/enterprise)
-- Date
-
-  January 30, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/cowork-plugins)
-
-  https://claude.com/blog/cowork-plugins
+- Category[Announcements](https://claude.com/resources/product-announcements), [Best practices](https://claude.com/resources/best-practices), [Insights](https://claude.com/resources/insights)
+- ProductClaude Enterprise
+- DateJanuary 30, 2026
+- Reading time4 min
+- ShareCopy link
 
 With Cowork, you set the goal and Claude delivers finished, professional work. Plugins let you go further: tell Claude how you like work done, which tools and data to pull from, how to handle critical workflows, and what slash commands to expose so your team gets even better and more consistent outcomes.
 
@@ -34,11 +16,11 @@ Plugins work for any use case, but they're especially powerful for tailoring Cla
 
 A sales plugin, for example, could connect Claude to your CRM and knowledge base, teach it your sales process, and give you commands for everything from prospect research to call follow ups. You define what goes in the plugin once, and Claude pulls from that context whenever it's relevant.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/697bffa5de78fa874a5efed8_Hero%20Image%20-%20plugins.png)
+![](https://assets.claude.com/3d53e9483c97c9b72631d65043667ca565ef6a1a.png)
 
 As your team builds and shares plugins, Claude becomes a cross-functional expert. The rich context you share gets baked into every relevant interaction, so leaders and admins can spend less time enforcing processes and more time improving them.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/697bfe022fd5ecc76e2b5a3b_c546a845.png)
+![](https://assets.claude.com/b8a65a36c208d7e99570641b9c4d7ae1833c0a27.png)
 
 ## Plugin marketplace
 
@@ -66,98 +48,40 @@ Plugins are currently saved locally to your machine. Better support for org-wide
 
 ‍
 
-No items found.
-
-[Prev](https://claude.com/blog/cowork-plugins)Prev
-
-0/5
-
-[Next](https://claude.com/blog/cowork-plugins)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/cowork-plugins)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-Aug 26, 2026
-
-### How Warp builds self-improving agents on Claude
-
-Agents
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/cowork-plugins)How Warp builds self-improving agents on Claude
-
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
-[Claude for Government is now generally available](https://claude.com/blog/cowork-plugins)Claude for Government is now generally available
+### Build plugins for Claude
 
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-Sep 29, 2026
+### Claude Tag now supports personal connectors in channels
 
-### Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Agents
-
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/cowork-plugins)Agents you can coach: how Asana builds human-agent teams with Claude
-
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/cowork-plugins)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

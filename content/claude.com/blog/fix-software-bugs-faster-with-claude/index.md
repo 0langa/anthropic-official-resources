@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
-
 # Fix software bugs faster with Claude
 
 Turn debugging from detective work into systematic problem-solving. Analyze errors, trace root causes, and implement fixes faster.
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  October 28, 2025
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/fix-software-bugs-faster-with-claude)
-
-  https://claude.com/blog/fix-software-bugs-faster-with-claude
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code
+- DateOctober 28, 2025
+- Reading time10 min
+- ShareCopy link
 
 Debugging code is time-consuming and tedious. And the hardest part isn't usually fixing the bug itself; it’s understanding why your code broke in the first place.
 
@@ -63,7 +47,7 @@ Thorough analysis can identify root causes, but modern deployment means dozens o
 Developers of all skill levels can integrate AI coding assistants like Claude into their debugging workflows for immediate error analysis. You can collaborate with Claude to debug in two different ways:
 
 - [**Claude.ai**](https://claude.ai/): Free web interface. Paste stack traces, describe bugs, get quick analysis with specific hypotheses and investigation paths. Any browser, desktop, or mobile.
-- [**Claude Code**](https://claude.com/product/claude-code): Command line tool for [agentic coding](https://claude.com/blog/introduction-to-agentic-coding). Unlike traditional assistants that wait for your next instruction, Claude Code autonomously works through multi-step debugging workflows reading error traces, analyzing code across files, running diagnostic tests, and implementing fixes while you focus on other tasks.
+- [**Claude Code**](https://claude.com/product/claude-code): Command line tool for [agentic coding](https://claude.com/resources/articles/introduction-to-agentic-coding). Unlike traditional assistants that wait for your next instruction, Claude Code autonomously works through multi-step debugging workflows reading error traces, analyzing code across files, running diagnostic tests, and implementing fixes while you focus on other tasks.
 
 ## Start with Claude.ai
 
@@ -95,11 +79,15 @@ When bugs span your entire codebase, [Claude Code](https://claude.com/product/cl
 
 Install:
 
+Copy
+
 ```
 npm install -g @anthropic-ai/claude-code
 ```
 
 Launch in your project:
+
+Copy
 
 ```
 claude
@@ -107,7 +95,7 @@ claude
 
 Then immediately start investigating:
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e94380eaa92d7ae4db5b9a_TUI.png)
+![](https://assets.claude.com/818e102b9c1a620d991305730d0cb690168e131f.png)
 
 Claude Code analyzes your entire codebase, examines dependencies, and provides specific reasons why checkout is failing. Typical debugging time drops from hours to minutes.
 
@@ -127,6 +115,8 @@ Claude breaks down problems systematically, identifies race conditions, and sugg
 
 Once Claude Code identifies issues, it proposes targeted fixes that match your coding style and project conventions. Each suggestion follows your existing patterns and architectural decisions.
 
+Copy
+
 ```
 > Explain the changes you just made
 ```
@@ -144,6 +134,8 @@ Claude Code generates and runs tests verifying the bug is resolved and surroundi
 ### Ship with automated workflows
 
 After tests pass, Claude Code handles the release process:
+
+Copy
 
 ```
 > Commit these changes and open a PR
@@ -175,104 +167,50 @@ Results:
 
 **Deep codebase investigation**: When you're ready for autonomous debugging across your entire codebase, install Claude Code with a single command:
 
+Copy
+
 ```
 npm install -g @anthropic-ai/claude-code
 ```
 
 Once installed, describe the issue you're facing and partner with Claude to analyze your entire codebase, trace problems across multiple files, and implement targeted fixes. Claude Code handles the investigation while you stay focused on building.
 
-No items found.
-
-[Prev](https://claude.com/blog/fix-software-bugs-faster-with-claude)Prev
-
-0/5
-
-[Next](https://claude.com/blog/fix-software-bugs-faster-with-claude)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/fix-software-bugs-faster-with-claude)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
-
-Sep 24, 2026
+[ArticleSep 24, 2026
 
 ### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-Claude Code
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/fix-software-bugs-faster-with-claude)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-Sep 23, 2026
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-### How to prepare for AI-driven code modernization projects
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-Enterprise AI
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/fix-software-bugs-faster-with-claude) How to prepare for AI-driven code modernization projects
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
+### The Claude Code guide for startups
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/fix-software-bugs-faster-with-claude)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/fix-software-bugs-faster-with-claude)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

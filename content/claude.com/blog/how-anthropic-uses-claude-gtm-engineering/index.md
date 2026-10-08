@@ -1,32 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
-
 # How one Anthropic seller rebuilt his team's workflows with Claude Code
 
 *Before he joined Anthropic, Jared Sires, GTM product manager, had never opened a terminal. Now Anthropic’s Sales team uses his tools.*
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-
-  [Claude Cowork](https://claude.com/product/cowork)
-- Date
-
-  June 5, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering)
-
-  https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code, Claude Cowork
+- DateJune 5, 2026
+- Reading time10 min
+- ShareCopy link
 
 Before joining Anthropic in 2024, Jared Sires had never written a line of code. And why would he? He was a startup account executive.
 
@@ -42,7 +22,7 @@ He describes the shift in his career as “the most empowering thing I’ve ever
 
 Here's how Jared used Claude to handle his inbox at scale, what he's building next, and best practices GTM teams can take from his approach.
 
-Embedded media: https://www.youtube.com/embed/n4ZxEznNaIY
+Embedded media: https://www.youtube-nocookie.com/embed/n4ZxEznNaIY?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 ## **A sales rep buried in administrative tasks**
 
@@ -117,100 +97,44 @@ For sellers wondering whether they could build something similar, his advice is 
 
 "If you told me I was going to be a go-to-market product manager at Anthropic a year ago, I would be pretty surprised," he says. "I never had the technical chops to be in these conversations. With Claude, I'm able to design and build things that don’t just improve my own day-to-day workflows, but also those of my broader team. I have space to work more creatively and strategically, and there’s no turning back."
 
-*Get started with* [*Claude*](https://claude.ai/) *today. Stay tuned for more stories in the "How Anthropic uses Claude" series.*
+*Get started with [Claude](https://claude.ai/) today. Stay tuned for more stories in the "How Anthropic uses Claude" series.*
 
-No items found.
-
-[Prev](https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering)Prev
-
-0/5
-
-[Next](https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+[ArticleSep 24, 2026
 
-Jul 20, 2026
+### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-Enterprise AI
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-Sep 30, 2026
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-Enterprise AI
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### The Claude Code guide for startups
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
-
-May 21, 2026
-
-### Claude now works with more security and compliance tools
-
-Enterprise AI
-
-[Claude now works with more security and compliance tools](https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering)Claude now works with more security and compliance tools
-
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

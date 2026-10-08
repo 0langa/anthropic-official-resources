@@ -3,8 +3,6 @@ Source: https://code.claude.com/docs/en/agent-sdk/typescript
 
 Complete API reference for the TypeScript Agent SDK, including all functions, types, and interfaces.
 
-<script />
-
 ## Installation
 
 ```bash theme={null}
@@ -157,8 +155,13 @@ spare.claimed.catch((error: Error) => {
   console.error("Claim failed:", error.message);
 });
 
-for await (const message of claimedQuery) {
-  console.log(message);
+try {
+  for await (const message of claimedQuery) {
+    console.log(message);
+  }
+} catch (error) {
+  // After a refused claim, the claimed query throws once it has yielded the error result
+  console.error(`Session ended with an error: ${error}`);
 }
 ```
 
@@ -481,7 +484,7 @@ Configuration object for the `query()` function.
 | `extraArgs` | `Record<string, string \| null>` | `{}` | Additional arguments |
 | `fallbackModel` | `string` | `undefined` | Model to use if the primary model fails. Accepts a comma-separated list. For the order and the cap, see [Fallback model chains](/docs/en/model-config#fallback-model-chains). For guidance, see [Choose a model](/docs/en/agent-sdk/configuration#choose-a-model) |
 | `forkSession` | `boolean` | `false` | When resuming with `resume`, fork to a new session ID instead of continuing the original session |
-| `forwardSubagentText` | `boolean` | `false` | Forward subagent text and thinking blocks as assistant and user messages with `parent_tool_use_id` set, so consumers can render a nested transcript. Without this option, Claude Code emits subagent `tool_use` and `tool_result` blocks but not text or thinking. Messages from subagents at every nesting depth are forwarded on Claude Code v2.1.219 and later; before v2.1.219, only messages from depth-1 subagents appeared. Messages of subagents that a forked skill spawns, and of nested forked skills, require v2.1.275 or later |
+| `forwardSubagentText` | `boolean` | `false` | Forward subagent text and thinking blocks as assistant and user messages with `parent_tool_use_id` set, so consumers can render a nested transcript. Without this option, Claude Code omits the text and thinking blocks of a subagent that runs in the [foreground](/docs/en/sub-agents#run-subagents-in-foreground-or-background). For nested subagents, skills with `context: fork`, and the Claude Code version each needs, see [Follow subagent messages](/docs/en/headless#follow-subagent-messages) |
 | `hooks` | `Partial<Record<`[`HookEvent`](#hookevent)`, `[`HookCallbackMatcher`](#hookcallbackmatcher)`[]>>` | `{}` | Hook callbacks for events |
 | `includeHookEvents` | `boolean` | `false` | Include hook lifecycle events in the message stream as [`SDKHookStartedMessage`](#sdkhookstartedmessage), [`SDKHookProgressMessage`](#sdkhookprogressmessage), and [`SDKHookResponseMessage`](#sdkhookresponsemessage). Lifecycle events for `SessionStart` and `Setup` hooks are always included and don't need this option. Some hook events, such as `Notification`, `SessionEnd`, `PreCompact`, and `PostCompact`, never produce an `SDKHookStartedMessage`, even with this option. For those events, Claude Code still emits an `SDKHookProgressMessage` while a command hook that runs for more than a second produces output, and emits an `SDKHookResponseMessage` only when a hook [that runs in the background](/docs/en/hooks#run-hooks-in-the-background) finishes |
 | `includePartialMessages` | `boolean` | `false` | Include partial message events |
@@ -632,7 +635,7 @@ interface Query extends AsyncGenerator<SDKMessage, void> {
 | `accountInfo()` | Returns account information |
 | `reconnectMcpServer(serverName)` | Reconnect an MCP server by name. If the name also matches an entry in a settings file such as `.mcp.json` or `~/.claude.json`, Claude Code reconnects the server you configured through [`mcpServers`](#options) or `setMcpServers()`, not the settings-file entry. That resolution order requires Claude Code v2.1.257 or later |
 | `toggleMcpServer(serverName, enabled)` | Enable or disable an MCP server by name, with the same name resolution as `reconnectMcpServer()`. Disabling a server disconnects it and removes its tools. See [`toggleMcpServer()`](#togglemcpserver) for the Claude Code version this needs for each kind of server |
-| `setMcpServers(servers)` | Dynamically replace the set of MCP servers for this session. Resolves with an [`McpSetServersResult`](#mcpsetserversresult) naming which servers were added and removed, and any errors |
+| `setMcpServers(servers)` | Replace the MCP servers this method manages: servers added through it and [in-process SDK servers](#createsdkmcpserver). Resolves with an [`McpSetServersResult`](#mcpsetserversresult) naming which servers were added and removed, and any errors; that section says which other servers stay connected |
 | `readMcpResource(serverName, uri)` | *Alpha.* Reads one MCP Apps `ui://` resource from a connected MCP server so your application can render a tool's widget. Resolves with an [`SDKControlMcpReadResourceResponse`](#sdkcontrolmcpreadresourceresponse). Requires TypeScript Agent SDK v0.3.280 or later |
 | `streamInput(stream)` | Stream input messages to the query for multi-turn conversations |
 | `stopTask(taskId)` | Stop a running background task by ID |
@@ -745,7 +748,7 @@ interface SpareProcess extends AsyncDisposable {
 
 `options.cwd` is required. A claim can also set `additionalDirectories`, `model`, `permissionMode`, `maxThinkingTokens`, a flag-settings overlay in `settings`, `appendSystemPrompt`, `title`, `agents`, and per-session tokens in `env`.
 
-Claude Code can refuse a claim, for example for a folder that doesn't exist or one whose project settings set `env`, `agent`, or `model`. When `claimed` rejects with a message that starts with `option_not_applied`, the session is running without the `model` or `maxThinkingTokens` you asked for. After any other rejection your prompt hasn't run, so start the session with `query()` instead.
+Claude Code can refuse a claim, for example for a folder that doesn't exist or one whose project settings set `env`, `agent`, or `model`. After a refusal, a prompt that `claim()` already sent gets an error result whose text starts with `not_claimed`, and the returned query then throws. Wrap the query's loop in a try block to continue past the throw. When `claimed` rejects with a message that starts with `option_not_applied`, the session is running without the `model` or `maxThinkingTokens` you asked for. After any other rejection your prompt hasn't run, so start the session with `query()` instead.
 
 ### `SDKControlInitializeResponse`
 
@@ -1204,7 +1207,7 @@ type CanUseTool = (
 | `mcpServer` | `{ name: string; source: string }` | For an `mcp__*` tool, the MCP server that serves it and where that server's definition came from, with the fields of [`McpServerProvenance`](#mcpserverprovenance). Absent for other tools. Requires Agent SDK v0.3.274 or later |
 | `decisionReason` | `string` | Explains why this permission request was triggered |
 | `defaultToNo` | `boolean` | When `true`, a single stray keystroke must not approve this request: open your prompt on its decline option, don't pre-select approve, and offer no one-key approve shortcut. Requires Agent SDK v0.3.268 or later |
-| `suppressAlwaysAllowRule` | `boolean` | When `true`, don't offer a persistent always-allow choice for this request, because the rule it would write grants more than the request's own action. Requires Agent SDK v0.3.268 or later |
+| `suppressAlwaysAllowRule` | `boolean` | When `true`, don't offer a persistent always-allow choice for this request. Requires Agent SDK v0.3.268 or later |
 | `toolUseID` | `string` | Unique identifier for this specific tool call within the assistant message |
 | `agentID` | `string` | If running within a sub-agent, the sub-agent's ID |
 | `requestId` | `string` | The `control_request` envelope's `request_id`. A `control_response` your application sends outside the SDK, such as a signed HTTP POST, must echo this value so the Claude Code process can match the reply to the request |
@@ -3433,7 +3436,9 @@ type ReportFindingsInput = {
 };
 ```
 
-Reports code-review findings as a structured list so Claude Code can render them instead of printing them as text. `level` is the effort level the review ran at. Findings are ordered most-severe first, with at most 32 per call, and the array is empty when none survived. Requires Claude Code v2.1.196 or later.
+Reports code-review findings as a structured list so Claude Code can render them instead of printing them as text. Findings are ordered most-severe first, with at most 32 per call, and the array is empty when none survived. Requires Claude Code v2.1.196 or later.
+
+`level` is optional and holds the effort level Claude reports for the review. Claude Code doesn't compare it with the level the review ran at, so the two can differ.
 
 Each finding carries these fields:
 
@@ -4403,7 +4408,7 @@ type ReportFindingsOutput = {
 };
 ```
 
-Returns the number of findings reported, the effort level the review ran at, and the findings echoed back for the result body. Requires Claude Code v2.1.196 or later. The echoed `short_summary` field requires Claude Code v2.1.212 or later.
+Returns the number of findings reported, the `level` value Claude passed, and the findings echoed back for the result body. Requires Claude Code v2.1.196 or later. The echoed `short_summary` field requires Claude Code v2.1.212 or later.
 
 ### Artifact
 
@@ -4968,7 +4973,7 @@ type ThinkingConfig =
   | { type: "disabled" }; // No extended thinking
 ```
 
-The optional `display` field controls whether thinking text is returned `"summarized"` or `"omitted"`. On Claude Opus 4.7 and later, the API default is `"omitted"`, so set `"summarized"` to receive thinking content in `thinking` blocks. Claude Code doesn't send `display` to Amazon Bedrock or Google Cloud's Agent Platform, so on those providers Opus 4.7 and later return empty `thinking` blocks even when you set `display` to `"summarized"`.
+The optional `display` field controls whether thinking text is returned `"summarized"` or `"omitted"`. On Claude Opus 4.7 and later, the API default is `"omitted"`, so set `"summarized"` to receive thinking content in `thinking` blocks. Claude Code doesn't pass your `display` value to some providers, such as Amazon Bedrock and Google Cloud's Agent Platform. On those providers, Opus 4.7 and later return empty `thinking` blocks even when you set `display` to `"summarized"`.
 
 ### `SpawnedProcess`
 
@@ -5033,8 +5038,8 @@ type McpSetServersResult = {
 
 When you call `setMcpServers()`, Claude Code applies these rules:
 
-* **Servers the call doesn't name**: Claude Code keeps plugin-provided servers running. Requires Agent SDK v0.3.210 or later.
-* **Servers the call names**: except for built-in servers the CLI started at startup, Claude Code replaces a running server only when its config differs from the one you passed.
+* **Servers the call doesn't name**: outside a [cloud session](/docs/en/claude-code-on-the-web), Claude Code disconnects the servers an earlier `setMcpServers()` call added and the in-process SDK servers, and lists them in `removed`. Other servers keep running and aren't listed in `removed`, among them the stdio, HTTP, and SSE servers from the [`mcpServers`](#options) option, servers from settings files, and plugin-provided servers.
+* **Servers the call names**: Claude Code replaces a stdio, HTTP, or SSE server that an earlier `setMcpServers()` call added only when its config differs from the one you passed. An in-process SDK server already registered under that name stays as it is, so to swap one, leave it out of one call and add it in the next.
 * **Built-in servers the CLI started at startup**: if the call names one, Claude Code drops that entry and reports it in `errors`.
 
 The promise resolves after newly added stdio, HTTP, and SSE servers connect or fail, so tools from servers that connected are available on the next turn.
@@ -5328,6 +5333,7 @@ type SDKBackgroundTasksChangedMessage = {
   tasks: {
     task_id: string;
     task_type: string;
+    subagent_type?: string;
     description: string;
     ambient?: boolean;
   }[];
@@ -5335,6 +5341,8 @@ type SDKBackgroundTasksChangedMessage = {
   session_id: string;
 };
 ```
+
+`subagent_type` names the subagent type on entries whose [`task_type`](#sdktaskstartedmessage) is `"local_agent"`, such as `general-purpose` or a custom subagent's name. The field requires Agent SDK v0.3.293 or later.
 
 ### `SDKThinkingTokensMessage`
 

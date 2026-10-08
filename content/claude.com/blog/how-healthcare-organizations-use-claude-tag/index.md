@@ -1,35 +1,13 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22deea97e4a5b5e5739_8d339ae8ecedecc1409db8f5bbb99c958db56946-1000x1000.svg)
-
 # How healthcare organizations use Claude Tag
 
 How Insight Health, Tennr, and Medallion are building human-agent teams with Claude Tag.
 
-- Category
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Tag](https://claude.com/product/tag)
-- Date
-
-  September 14, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/how-healthcare-organizations-use-claude-tag)
-
-  https://claude.com/blog/how-healthcare-organizations-use-claude-tag
-- Author(s)
-
-  Camy Pearson
-
-  Maria Howe
-
-  Araba Koomson
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Tag
+- AuthorsCamy Pearson, Maria Howe, Araba Koomson
+- DateSeptember 14, 2026
+- Reading time11 min
+- ShareCopy link
 
 Healthcare organizations are using [Claude Tag (beta)](https://support.claude.com/en/articles/15594475-what-is-claude-tag), which brings Claude into Slack as [a teammate](https://academy.claude.com/courses/building-effective-human-agent-teams), to help them triage production alerts, maintain internal tools, and answer questions about payer rules. While Claude Tag isn't yet covered by Anthropic's [Business Associate Agreement](https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers), several healthcare organizations are using it today in channels and with connectors that never touch protected health information (PHI).  
   
@@ -39,11 +17,11 @@ Admins decide where Claude Tag works and what it can reach, so healthcare teams 
 
 - Claude Tag can be off by default and **enabled only in approved channels**, with DMs disabled and **connectors scoped per channel**.
 - Claude Tag doesn't read all of Slack – instead, it only sees what a workspace member sees. While it can read the public channels of the workspace and search them by keyword, it doesn’t have access to private channels it hasn’t been invited to.
-- **Access bundles** let a team connect data sources like its codebase and issue tracker in one channel while the EHR, clinical systems, and patient communications are inaccessible. Learn more about Claude Tag’s [agent identity access model](https://claude.com/blog/agent-identity-access-model) and its full architecture in the [security and data handling docs](https://claude.com/docs/claude-tag/concepts/security-and-data?open_in_browser=1), and you can read more about best practices for healthcare organizations, [here](https://claude.com/docs/claude-tag/admins/healthcare).
+- **Access bundles** let a team connect data sources like its codebase and issue tracker in one channel while the EHR, clinical systems, and patient communications are inaccessible. Learn more about Claude Tag’s [agent identity access model](https://claude.com/resources/articles/agent-identity-access-model) and its full architecture in the [security and data handling docs](https://claude.com/docs/claude-tag/concepts/security-and-data?open_in_browser=1), and you can read more about best practices for healthcare organizations, [here](https://claude.com/docs/claude-tag/admins/healthcare).
 
 Enterprise organizations that activate Claude Tag and link it to GitHub receive $25,000 in Claude Tag credit ($2,500 for Team organizations with 10+ seats); note that these credits expire October 1, 2026. See the credit details, [here](https://support.claude.com/en/articles/15575654-claude-tag-launch-promo-for-claude-team-and-enterprise).
 
-Here’s how Insight Health, Tennr, and Medallion are using Claude Tag to build [human-agent teams](https://claude.com/blog/building-effective-human-agent-teams) today.
+Here’s how Insight Health, Tennr, and Medallion are using Claude Tag to build [human-agent teams](https://claude.com/resources/articles/building-effective-human-agent-teams) today.
 
 #### **Running incident response at Insight Health**
 
@@ -87,100 +65,45 @@ The teams above all started in the same place: engineering, product, ops, or rec
 
 Review the Claude Tag best practices for healthcare organizations, [here](https://claude.com/docs/claude-tag/admins/healthcare), then start with one channel. Turn Claude Tag on for an alert or support-engineering channel, connect GitHub, and let the team work with it for two weeks before widening the allowlist.
 
-***Get started with*** [***Claude Tag***](https://support.claude.com/en/articles/15594475-what-is-claude-tag)***.***
+***Get started with [Claude Tag](https://support.claude.com/en/articles/15594475-what-is-claude-tag).***
 
-No items found.
-
-[Prev](https://claude.com/blog/how-healthcare-organizations-use-claude-tag)Prev
-
-0/5
-
-[Next](https://claude.com/blog/how-healthcare-organizations-use-claude-tag)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-Jul 20, 2026
-
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/how-healthcare-organizations-use-claude-tag)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
+[ArticleSep 30, 2026
 
 ### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
 
-Enterprise AI
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-healthcare-organizations-use-claude-tag)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How to prepare for AI-driven code modernization projects
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-May 21, 2026
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
 
-### Claude now works with more security and compliance tools
+### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
 
-Enterprise AI
+CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/how-healthcare-organizations-use-claude-tag)Claude now works with more security and compliance tools
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
 
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
+### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+‍
 
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/how-healthcare-organizations-use-claude-tag)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/how-healthcare-organizations-use-claude-tag)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

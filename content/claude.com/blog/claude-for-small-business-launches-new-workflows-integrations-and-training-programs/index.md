@@ -1,48 +1,33 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa82dfc4ca89952d04c3873_Object-Store.svg)
-
 # Claude for Small Business launches new workflows, integrations, and training programs
 
 We’re releasing new [Claude for Small Business](https://claude.com/solutions/small-business) workflows and integrations to help owners run and grow their business. We're also kicking off the next leg of our Claude SMB tour, with free partner webinars and community-run workshops.
 
-- Category
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-- Product
-
-  Claude for Small Business
-- Date
-
-  September 15, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)
-
-  https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs
+- Category[Announcements](https://claude.com/resources/product-announcements)
+- ProductClaude for Small Business
+- AuthorMichael Segner
+- DateSeptember 15, 2026
+- Reading time6 min
+- ShareCopy link
 
 [Claude for Small Business](http://claude.com/plugins/small-business) now includes 43 workflows and 27 new integrations with tools small businesses already use, including Shopify, Salesforce, TikTok, Atlassian, Zoom, Xero, Gusto, Square, Stripe, and Zapier. The new workflows extend Claude from running the back office to growing the business, and they arrive with a fall schedule of free in-person workshops and partner webinars for owners who want help getting started.
 
-We launched [Claude for Small Business in May](https://www.anthropic.com/news/claude-for-small-business) as a set of connectors and ready-to-run workflows that put Claude inside the tools owners depend on. It has since been installed more than 900,000 times. Thank you to our original, and continued, partners Intuit Quickbooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365.On our spring Claude SMB Tour, more than 1,000 owners in 10 cities [told us what they wanted](https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai) Claude to take on next. About a third asked for help growing the business: generating leads, answering inbound inquiries, and writing proposals. Many also wanted day-to-day reporting handled for them. We built this new release around those requests.
+We launched [Claude for Small Business in May](https://www.anthropic.com/news/claude-for-small-business) as a set of connectors and ready-to-run workflows that put Claude inside the tools owners depend on. It has since been installed more than 900,000 times. Thank you to our original, and continued, partners Intuit Quickbooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365.On our spring Claude SMB Tour, more than 1,000 owners in 10 cities [told us what they wanted](https://claude.com/resources/articles/what-1-000-small-business-owners-taught-us-about-ai) Claude to take on next. About a third asked for help growing the business: generating leads, answering inbound inquiries, and writing proposals. Many also wanted day-to-day reporting handled for them. We built this new release around those requests.
 
 The tour returns this fall with free workshops in 10 US cities. More than 150 organizations we've trained as Approved Claude SMB Trainers will run over 750 workshops in their own communities, and 14 integration partners are hosting free webinars about their connectors.
 
 Here's what small business leaders shared with us during the first leg of our Claude SMB tour:
 
-*“What used to take me 120 hours now takes me five minutes. I have so much time on my hands that I can now spend more time with my family, do things I like, and pursue parts of my business that I’ve always neglected.” —****Pedro Rubio, Founder and CEO, Blackfyre GovCon, Washington, D.C.***
+*“What used to take me 120 hours now takes me five minutes. I have so much time on my hands that I can now spend more time with my family, do things I like, and pursue parts of my business that I’ve always neglected.” — **Pedro Rubio, Founder and CEO, Blackfyre GovCon, Washington, D.C.***
 
-*"I really see Claude as an equalizer for small businesses, where we can do stuff as big as a 100 person, 200 person firm now. At 40 people and scaling, that's how we get time back for our clients and culture." —* ***Cara Roellgen, Director of Strategy and Innovation, KBSO Consulting, Carmel, Indiana***
+*"I really see Claude as an equalizer for small businesses, where we can do stuff as big as a 100 person, 200 person firm now. At 40 people and scaling, that's how we get time back for our clients and culture." — **Cara Roellgen, Director of Strategy and Innovation, KBSO Consulting, Carmel, Indiana***
 
-*"At 6:00 am every morning, it goes and looks through our CRM, gets all of the to-do list items, prioritizes them, and sends out an email saying, here's what needs to be done today, here's the biggest priorities. We call it the daily briefing." —* ***Garrett French, Owner, Driller Design Co., Tulsa, Oklahoma***
+*"At 6:00 am every morning, it goes and looks through our CRM, gets all of the to-do list items, prioritizes them, and sends out an email saying, here's what needs to be done today, here's the biggest priorities. We call it the daily briefing." — **Garrett French, Owner, Driller Design Co., Tulsa, Oklahoma***
 
-*"I made $20,000 in the last month and a half using Claude to do these professional proposals. I know that's getting the business, and it put money in my bank account. How about that?" —* ***Dan Ninerell, Founder, Modern Classical Chefs, South Jersey, New Jersey***
+*"I made $20,000 in the last month and a half using Claude to do these professional proposals. I know that's getting the business, and it put money in my bank account. How about that?" — **Dan Ninerell, Founder, Modern Classical Chefs, South Jersey, New Jersey***
 
-*"We tell it [Claude] what the end goal is. It goes and tests, and 90% of the time it gets it right. We're a five-person company. I think we've done quite a bit with it." —* ***Bill Hood, Co-Founder, TruckingMBA, Chattanooga, Tennessee***
+*"We tell it [Claude] what the end goal is. It goes and tests, and 90% of the time it gets it right. We're a five-person company. I think we've done quite a bit with it." — **Bill Hood, Co-Founder, TruckingMBA, Chattanooga, Tennessee***
 
-*"The thing that makes it most beneficial to us are the integrations. We use Slack, and that's how we talk to it. It integrates with Intuit QuickBooks. It's pulling everything from everywhere instead of us having to find different pieces of information all over. It's all in one place." —* ***Kati Jo Hodges, Director of Operations, Premier Geotech and Testing, Baton Rouge, Louisiana***
+*"The thing that makes it most beneficial to us are the integrations. We use Slack, and that's how we talk to it. It integrates with Intuit QuickBooks. It's pulling everything from everywhere instead of us having to find different pieces of information all over. It's all in one place." — **Kati Jo Hodges, Director of Operations, Premier Geotech and Testing, Baton Rouge, Louisiana***
 
 ## A week with Claude for Small Business
 
@@ -52,22 +37,22 @@ Your week with Claude
 
 1. Sunday, 8:00pm
 
-   [Install and onboard](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Connect the tools you already use and pick your first task.
+   [Install and onboard](https://claude.com/resources/articles/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Connect the tools you already use and pick your first task.
 2. Monday, 7:00am
 
-   [The weekly brief](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Cash, sales, pipeline, and overdue invoices on one page.
+   [The weekly brief](https://claude.com/resources/articles/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Cash, sales, pipeline, and overdue invoices on one page.
 3. Monday, 9:40pm
 
-   [Responding to inbound leads](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)After-hours inquiries qualified, answered, and logged.
+   [Responding to inbound leads](https://claude.com/resources/articles/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)After-hours inquiries qualified, answered, and logged.
 4. Wednesday
 
-   [Writing proposals](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)A voice memo becomes a priced, branded proposal.
+   [Writing proposals](https://claude.com/resources/articles/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)A voice memo becomes a priced, branded proposal.
 5. Thursday
 
-   [Unblocking marketing campaigns](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Next week's posts and review replies, ready for your OK.
+   [Unblocking marketing campaigns](https://claude.com/resources/articles/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Next week's posts and review replies, ready for your OK.
 6. Month end
 
-   [Closing the books](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Reconciled accounts and a close packet for your accountant.
+   [Closing the books](https://claude.com/resources/articles/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Reconciled accounts and a close packet for your accountant.
 
 SUN01
 
@@ -121,9 +106,9 @@ Juanny Romero, founder and CEO · Las Vegas
 
 Juanny Romero, founder and CEO of Mothership Coffee Roasters, runs six cafés plus wholesale and catering in Las Vegas. Her numbers lived in the POS, Intuit QuickBooks, Slack, and email with no single weekly view. She connected them to Claude, made Claude her leadership team's workspace for forecasting and weekly planning, and now runs all six locations from one consolidated view. In-store margins rose to 22%, which she credits in part to tighter scheduling, ordering, and inventory reporting.
 
-Embedded media: https://www.youtube-nocookie.com/embed/yxeHQvby5JY
+Embedded media: https://www.youtube-nocookie.com/embed/yxeHQvby5JY?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
-[Claude for Small Business: Monday Brief](https://youtu.be/yxeHQvby5JY)
+Claude for Small Business: Monday Brief
 
 MON03
 
@@ -159,9 +144,9 @@ $60,000in sales tied to the tool in its first four days
 
 At Bambi Baby, a family-owned baby stroller and car seat retailer, about three in four walk-in shoppers left without providing a name or an email. COO Josh Weiss, who is not a developer, used Claude to build a scan-to-wishlist lead capture and the follow-up behind it. In the tool's first four days, $60,000 in sales tied back to it. Two weeks into a two-store pilot, 18% of online revenue was newly attributed to in-person visits.
 
-Embedded media: https://www.youtube-nocookie.com/embed/D2FcNf2v9KY
+Embedded media: https://www.youtube-nocookie.com/embed/D2FcNf2v9KY?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
-[Claude for Small Business: Speed to Lead](https://youtu.be/D2FcNf2v9KY)
+Claude for Small Business: Speed to Lead
 
 WED04
 
@@ -195,9 +180,9 @@ Weeks → minutesfrom scoping a deal to a statement of work out for signature
 
 KANE, a creative and growth agency in Princeton, New Jersey, used to spend weeks per deal on scoping, pricing, proposal writing, and contracting. Co-founders Michael and Joni Kazantzis built a Claude pipeline that scores fit from the meeting notes, prices from their own past projects, drafts the proposal, and has the statement of work out for signature within minutes of a yes. “We've taken an entire process that used to take us weeks and it's done almost within a few minutes in a day, and even the clients recognize that,” Michael Kazantzis said.
 
-Embedded media: https://www.youtube-nocookie.com/embed/ZV3oKch1t\_I
+Embedded media: https://www.youtube-nocookie.com/embed/ZV3oKch1t\_I?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
-[Claude for Small Business: Proposal Builder](https://youtu.be/ZV3oKch1t_I)
+Claude for Small Business: Proposal Builder
 
 THU05
 
@@ -233,9 +218,9 @@ Kirsten Maitland, co-founder and CEO · Austin
 
 Kirsten Maitland, co-founder and CEO, launched Rebel Cheese, an Austin plant-based cheesemaker that went from one restaurant to a national e-commerce business after appearing on Shark Tank. The brand voice lived in her head and couldn't scale past her own hours. After vetting Claude on data security, she trained a voice skill on her own writing and connected it to her email and social tools. A teammate now drafts on-brand campaigns without routing every line through the founder. “I live in Claude, running multiple instances simultaneously across two computers to keep up with demand,” she said.
 
-Embedded media: https://www.youtube-nocookie.com/embed/z8sq-2SB35w
+Embedded media: https://www.youtube-nocookie.com/embed/z8sq-2SB35w?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
-[Claude for Small Business: Social Content Engine](https://youtu.be/z8sq-2SB35w)
+Claude for Small Business: Social Content Engine
 
 END06
 
@@ -281,135 +266,157 @@ HireEffect, a Dallas firm that runs bookkeeping, payroll, and HR for small busin
 
 They also built a governed reporting dashboard across five disparate systems, including QuickBooks and a CRM, that turned a two-hour monthly task into ten seconds; their Director of Bookkeeping built her own skill that turns a client P&L into a visual summary with discussion points already flagged.
 
-Embedded media: https://www.youtube-nocookie.com/embed/sD1\_ERv4nDM
+Embedded media: https://www.youtube-nocookie.com/embed/sD1\_ERv4nDM?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
-[Claude for Small Business: Close the Month](https://youtu.be/sD1_ERv4nDM)
+Claude for Small Business: Close the Month
 
 See [the full list](https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin) of workflows and integrations.
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68da9368f2bd228e7080695d_logo_shopify-light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68da936caa7913237c0589f4_logo_shopify-dark.svg)
+![Wix](https://assets.claude.com/31f3d282988b62d2920e9374b2e0571f60d5c3f9.svg)
 
-“With Shopify in Claude for Small Business, merchants run their store where they already plan the week—see live sales and inventory, get a reorder drafted before a bestseller sells out, and turn the product catalog into next week’s campaign. The repetitive work comes off their plate so they can focus on growing.”
-
-Archie Abrams, VP Product
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5adf8d23ff734739d3a80_Stripe_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5adfff1546febae66f812_Stripe_dark.svg)
-
-“With Stripe in Claude for Small Business, we’re helping small business owners delegate more of the day-to-day financial work, from monitoring cash flow and following up on invoices to spotting new opportunities for growth, while staying in control of every decision.”
-
-Maia Josebachvili, Chief Revenue Officer of AI
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68c1e924b89aa4ed22b0d827_cs-logo-zoom-light-theme.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68c1e9282f4c49a5abab41de_cs-logo-zoom-dark-theme.svg)
-
-“Running a small business means constantly translating conversations into work: updating a CRM, starting a project, getting an invoice out the door. With Zoom and Bonsai in Claude for Small Business, Zoom captures what was said and Bonsai turns it into the work, ready for the owner's OK. Owners get the follow-through, not just a summary of the call.”
-
-Ross Mayfield, Head of Product, AI Partnerships
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3c4cc3cd8e7abe79f4dbd8_gusto_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3c4cc5db57efe3dec310ae_gusto_dark.svg)
-
-"If you're a small business owner, you know payroll and compliance have to be right every time, and getting there eats hours you'd rather spend on the business. Claude for Small Business now handles the prep with Gusto: confirms there's cash to cover the run, pulls the hours, flags anything off, and stages it. You still review and approve before any action is taken.”
-
-Chris Cosgrove, Head of Product
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5a84a22074cc407a84848_Atlassian_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5a84a22074cc407a84848_Atlassian_light.svg)
-
-"Small business owners wear every hat, and organizing the work is often the heaviest one. With Jira, Confluence, Loom, and Trello in Claude for Small Business, that weight lifts: Claude and the Atlassian connector plan the week, track the campaign, and turn the tasks owners repeat into workflows they don't have to rebuild. Those are hours they'd rather spend with their customers."
-
-Tamar Yehoshua, Chief Product and AI Officer
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa98fc753c20c437c266ac4_TikTok_logo.svg.webp)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa98fccb5b14829f55ee4ac_TikTok_logo_(white_text).svg.webp)
-
-"TikTok has always been a place where businesses of any size can turn creativity and discovery into real growth. With TikTok business tools integrated into Claude for Small Business, an owner can go from an idea to a live TikTok campaign in one conversation, understand what their campaign returned, and know where and how to lean in next."
-
-David Kaufman, Global Head of Monetization Product Partnerships
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a689fd3ac5b9fc22a54b573_Xero%20Wordmark__Blue.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a689fec4db3770d9ecc9a00_Xero%20Wordmark_White.png)
-
-"Xero is focused on bringing trusted financial data to small businesses and their accountants wherever they work. With Xero in Claude for Small Business, owners have a real-time source of truth on their numbers right in the conversation, so they can make better-informed decisions and have deeper conversations with their advisors."
-
-Akankshu Dhawan, SVP Product and Tech
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6989420bd171609a4d78b31e_logo_hubspot-light-mode.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6989420ff5d1708aeefc4396_logo_hubspot-dark-mode.svg)
-
-“Small businesses don't need more tools, they need more time, more leads, and more confidence that the work is moving the needle. With HubSpot in Claude for Small Business, every new lead gets answered, followed up, and logged to the CRM, so owners can focus on their customers instead of their operations.”
-
-Kipp Bodnar, Chief Marketing Officer
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69010941df4d50c5b91b2ba1_Clay-light-theme.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69010943d7b5a7bb5f07d8d6_Clay-dark-theme.svg)
-
-“The hard part of outbound for a small business is knowing who to contact and why they'd care. Clay does that homework inside Claude for Small Business: finds the prospects, scores them against your best customers, and tells you what to lead with. The owner decides who hears from them."
-
-Kareem Amin, Co-founder and CEO
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5aedd1d4ccaa7aaecee72_zapier_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5aed89af0a9a659d820f0_zapier_dark.svg)
-
-“Small businesses often struggle to compete with larger enterprises that have massive technical teams. With Zapier in Claude for Small Business, we’re helping them even the odds: owners can connect the apps they already use, including ones without a native connector, and put those workflows to work.”
-
-Dan Slagen, Chief Marketing and AI Transformation Officer
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa8670f337f0c91d9b3bdb4_expensify-logo.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa8671e19e5d8b2c5448854_expensify-logo-reversed.svg)
-
-"Receipts, reimbursements, and the card statement are where a small business's books fall apart. Expensify in Claude for Small Business codes and matches transactions the moment they hit, catches anything outside policy before it becomes a problem, and hands you books that are ready to close at month-end. Business finance is becoming a conversation, not a spreadsheet. This is what that looks like."
-
-Nick Tooker, Head of Partnerships
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa98e761140c584e53c21a0_ZOHO_New.png)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa98ed4e52f09efdfcdef73_zoho-logo-white_1.svg)
-
-"Many small businesses already run sales, finance, and support on Zoho. With Zoho CRM, Zoho Books, and Zoho Desk in Claude for Small Business, an owner can ask one question and get an answer that draws on all three: which deals are stalling, which invoices are overdue, which tickets need a reply today. That means more time for serving customers and building the business they envision."
-
-Anand Nergunam, Global Vice President, Revenue Growth
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68bf6d234ee9c24e59d78077_Monday.com_idvwB2jWSP_light.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68bf6d1e3aedc1db7005f1c3_Monday.com_idvwB2jWSP_dark.svg)
-
-“Post-meeting action items, identifying leads to call, what the month-end close turned up: Claude helps teams set their tasks and priorities, but then someone actually needs to go ahead and make them happen. The monday.com connector in Claude for Small Business places each of these items on your board with all the context, assigns the right owner, and keeps track of progress so the entire team can ensure its goals are being met.”
-
-Sergei Liakhovetsky, VP R&D
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa86cb14fb690a2fcdbfc80_RingCentral%20logo%20fullcolor.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa86d41aff639e4e070c8e4_RingCentral%20logo%20white.svg)
-
-“Small businesses run on conversations, and every call, text and chat carries context an owner doesn't have time to go back and find. RingCentral with Claude for Small Business changes that. We're making your conversation data accessible and actionable where you already work, turning interaction context into next steps: the after-hours voicemail or chat message becomes a qualified lead with a reply drafted by morning, and the customer's full history is on screen before the renewal call. Every RingCentral customer gets that.”
-
-Kira Makagon, President and COO
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68c338c5644879de822652e8_cs-logo-apollo-light-theme.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68c338c7a0827000a59e651a_cs-logo-apollo-dark-theme.svg)
-
-“Lead generation, outreach, and pipeline used to take an entire go-to-market team. Now, business owners can describe who they sell to once, and Apollo's GTM engine inside Claude for Small Business builds the ranked prospect list, drafts outreach for their approval, and keeps the pipeline full, all in one conversation."
-
-Matt Curl, CEO
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a97717810bbbdeb232b1861_wix-black.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a97717a1ece7880de88876a_wix-white.svg)
-
-"Small businesses need AI that turns intent into action. That's why we're bringing Wix's website builder and business platform into Claude for Small Business, so users can build their website and manage their business, all directly where they're already working."
+> “Small businesses need AI that turns intent into action. That's why we're bringing Wix's website builder and business platform into Claude for Small Business, so users can build their website and manage their business, all directly where they're already working."”
 
 Tuvit Rubin Kaplan, Head of Developer Platform
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa8c1c18096ab4b33b7df4b_Airwallex_Logo_2.svg)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa8c1cda9144bcf0604d425_Airwallex_Logo_8.svg)
+![Airwallex](https://assets.claude.com/e5fc82f5462f5dac8e4621c5eb83d103b01d645d.svg)
 
-"With Airwallex now integrated in Claude for Small Business, simple prompts are all it takes for an owner to accept payments, convert currencies to pay global suppliers, manage their cash flow, and a lot more."
+> “With Airwallex now integrated in Claude for Small Business, simple prompts are all it takes for an owner to accept payments, convert currencies to pay global suppliers, manage their cash flow, and a lot more.”
 
 Jason Gottlieb, VP of Financial & Strategic Partnerships
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa96af4f90b65fe204c48e9_692483dfd2dbc16d0323097e_4220921e79c02d8bdb9e5f51390d7540_myob-logo.png)![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa86c228b392c0cd684117c_myob-logo-white.svg)
+![MYOB 2](https://assets.claude.com/90f357d735c7b20947ad1d3b1c7bc79337922e7d.png)
 
-“Every business owner needs confidence in the numbers they're working from, whether they're checking cash flow, preparing for tax time or planning for growth. MYOB in Claude for Small Business helps ensure the insights and actions businesses receive are grounded in the financial and operational records they already rely on every day. The result is AI that can provide more relevant guidance and practical support for Australian and New Zealand businesses.”
+> “Every business owner needs confidence in the numbers they're working from, whether they're checking cash flow, preparing for tax time or planning for growth. MYOB in Claude for Small Business helps ensure the insights and actions businesses receive are grounded in the financial and operational records they already rely on every day. The result is AI that can provide more relevant guidance and practical support for Australian and New Zealand businesses.”
 
 Yonatan Bley, General Manager, SME Product and Product Marketing
 
-[Prev](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Prev
+![Shopify](https://assets.claude.com/33de1bc0b1b2c92e879e513e3c14ec213c311ff1.svg)
 
-0/5
+> “With Shopify in Claude for Small Business, merchants run their store where they already plan the week—see live sales and inventory, get a reorder drafted before a bestseller sells out, and turn the product catalog into next week’s campaign. The repetitive work comes off their plate so they can focus on growing.”
 
-[Next](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Next
+Archie Abrams, VP Product
 
-eBook
+![Stripe](https://assets.claude.com/0e2493b60dbe1a71a144ca649e1916bade399bf7.svg)
 
-##
+> “With Stripe in Claude for Small Business, we’re helping small business owners delegate more of the day-to-day financial work, from monitoring cash flow and following up on invoices to spotting new opportunities for growth, while staying in control of every decision.”
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+Maia Josebachvili, Chief Revenue Officer of AI
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+![Zoom](https://assets.claude.com/6a7f21b4cf5f286e7bd8ffd3ae9ca839f6f0d681.svg)
 
-Embedded media:
+> “Running a small business means constantly translating conversations into work: updating a CRM, starting a project, getting an invoice out the door. With Zoom and Bonsai in Claude for Small Business, Zoom captures what was said and Bonsai turns it into the work, ready for the owner's OK. Owners get the follow-through, not just a summary of the call.”
+
+Ross Mayfield, Head of Product, AI Partnerships
+
+![Gusto](https://assets.claude.com/8a33e695a4b145386eca05940de86cb5782b22c3.svg)
+
+> “If you're a small business owner, you know payroll and compliance have to be right every time, and getting there eats hours you'd rather spend on the business. Claude for Small Business now handles the prep with Gusto: confirms there's cash to cover the run, pulls the hours, flags anything off, and stages it. You still review and approve before any action is taken.”
+
+Chris Cosgrove, Head of Product
+
+![Atlassian](https://assets.claude.com/4870b3d6c0253cea01b100c98ad2030b8e4f8ce1.svg)
+
+> “Small business owners wear every hat, and organizing the work is often the heaviest one. With Jira, Confluence, Loom, and Trello in Claude for Small Business, that weight lifts: Claude and the Atlassian connector plan the week, track the campaign, and turn the tasks owners repeat into workflows they don't have to rebuild. Those are hours they'd rather spend with their customers.”
+
+Tamar Yehoshua, Chief Product and AI Officer
+
+![TikTok](https://assets.claude.com/8f6646e9c56485d5211650f9ceba00d6ae84dc74.png)
+
+> “TikTok has always been a place where businesses of any size can turn creativity and discovery into real growth. With TikTok business tools integrated into Claude for Small Business, an owner can go from an idea to a live TikTok campaign in one conversation, understand what their campaign returned, and know where and how to lean in next.”
+
+David Kaufman, Global Head of Monetization Product Partnerships
+
+![Xero](https://assets.claude.com/77549e68eceff2d4b0caa7d5624d47bf6447f3b6.svg)
+
+> “Xero is focused on bringing trusted financial data to small businesses and their accountants wherever they work. With Xero in Claude for Small Business, owners have a real-time source of truth on their numbers right in the conversation, so they can make better-informed decisions and have deeper conversations with their advisors.”
+
+Akankshu Dhawan, SVP Product and Tech
+
+![Hubspot](https://assets.claude.com/d6f4aa0286766975a05548621fb66283ec2bfe32.svg)
+
+> “Small businesses don't need more tools, they need more time, more leads, and more confidence that the work is moving the needle. With HubSpot in Claude for Small Business, every new lead gets answered, followed up, and logged to the CRM, so owners can focus on their customers instead of their operations.”
+
+Kipp Bodnar, Chief Marketing Officer
+
+![Clay](https://assets.claude.com/267a4deeacbde106146d26ffa4ef2b08fbb3cb4f.svg)
+
+> “The hard part of outbound for a small business is knowing who to contact and why they'd care. Clay does that homework inside Claude for Small Business: finds the prospects, scores them against your best customers, and tells you what to lead with. The owner decides who hears from them.”
+
+Kareem Amin, Co-founder and CEO
+
+![Zapier](https://assets.claude.com/76ec34d2d040fb1dd2dd94a7950788e0a82a09b6.svg)
+
+> “Small businesses often struggle to compete with larger enterprises that have massive technical teams. With Zapier in Claude for Small Business, we’re helping them even the odds: owners can connect the apps they already use, including ones without a native connector, and put those workflows to work.”
+
+Dan Slagen, Chief Marketing and AI Transformation Officer
+
+![Expensify](https://assets.claude.com/3d62a600b003c04787899a88f0f2934bd911c81c.svg)
+
+> “Receipts, reimbursements, and the card statement are where a small business's books fall apart. Expensify in Claude for Small Business codes and matches transactions the moment they hit, catches anything outside policy before it becomes a problem, and hands you books that are ready to close at month-end. Business finance is becoming a conversation, not a spreadsheet. This is what that looks like.”
+
+Nick Tooker, Head of Partnerships
+
+![Zoho SMB](https://assets.claude.com/dacfb59bda7e7e90b79c2fc7b81cf1fd1793dc59.png)
+
+> “Many small businesses already run sales, finance, and support on Zoho. With Zoho CRM, Zoho Books, and Zoho Desk in Claude for Small Business, an owner can ask one question and get an answer that draws on all three: which deals are stalling, which invoices are overdue, which tickets need a reply today. That means more time for serving customers and building the business they envision.”
+
+Anand Nergunam, Global Vice President, Revenue Growth
+
+![Monday](https://assets.claude.com/a56985cee8ea3f9728fb7e49fffc680d26b08385.svg)
+
+> “Post-meeting action items, identifying leads to call, what the month-end close turned up: Claude helps teams set their tasks and priorities, but then someone actually needs to go ahead and make them happen. The monday.com connector in Claude for Small Business places each of these items on your board with all the context, assigns the right owner, and keeps track of progress so the entire team can ensure its goals are being met.”
+
+Sergei Liakhovetsky, VP R&D
+
+![RingCentral](https://assets.claude.com/293b30b5d53172c5631475e448411c16a00959ca.svg)
+
+> “Small businesses run on conversations, and every call, text and chat carries context an owner doesn't have time to go back and find. RingCentral with Claude for Small Business changes that. We're making your conversation data accessible and actionable where you already work, turning interaction context into next steps: the after-hours voicemail or chat message becomes a qualified lead with a reply drafted by morning, and the customer's full history is on screen before the renewal call. Every RingCentral customer gets that.”
+
+Kira Makagon, President and COO
+
+![Apollo](https://assets.claude.com/a14bd7641ad49e11942a2f61264d55539e025523.svg)
+
+> “Lead generation, outreach, and pipeline used to take an entire go-to-market team. Now, business owners can describe who they sell to once, and Apollo's GTM engine inside Claude for Small Business builds the ranked prospect list, drafts outreach for their approval, and keeps the pipeline full, all in one conversation.”
+
+Matt Curl, CEO
+
+![Wix](https://assets.claude.com/31f3d282988b62d2920e9374b2e0571f60d5c3f9.svg)
+
+> “Small businesses need AI that turns intent into action. That's why we're bringing Wix's website builder and business platform into Claude for Small Business, so users can build their website and manage their business, all directly where they're already working."”
+
+Tuvit Rubin Kaplan, Head of Developer Platform
+
+![Airwallex](https://assets.claude.com/e5fc82f5462f5dac8e4621c5eb83d103b01d645d.svg)
+
+> “With Airwallex now integrated in Claude for Small Business, simple prompts are all it takes for an owner to accept payments, convert currencies to pay global suppliers, manage their cash flow, and a lot more.”
+
+Jason Gottlieb, VP of Financial & Strategic Partnerships
+
+![MYOB 2](https://assets.claude.com/90f357d735c7b20947ad1d3b1c7bc79337922e7d.png)
+
+> “Every business owner needs confidence in the numbers they're working from, whether they're checking cash flow, preparing for tax time or planning for growth. MYOB in Claude for Small Business helps ensure the insights and actions businesses receive are grounded in the financial and operational records they already rely on every day. The result is AI that can provide more relevant guidance and practical support for Australian and New Zealand businesses.”
+
+Yonatan Bley, General Manager, SME Product and Product Marketing
+
+![Shopify](https://assets.claude.com/33de1bc0b1b2c92e879e513e3c14ec213c311ff1.svg)
+
+> “With Shopify in Claude for Small Business, merchants run their store where they already plan the week—see live sales and inventory, get a reorder drafted before a bestseller sells out, and turn the product catalog into next week’s campaign. The repetitive work comes off their plate so they can focus on growing.”
+
+Archie Abrams, VP Product
+
+![Stripe](https://assets.claude.com/0e2493b60dbe1a71a144ca649e1916bade399bf7.svg)
+
+> “With Stripe in Claude for Small Business, we’re helping small business owners delegate more of the day-to-day financial work, from monitoring cash flow and following up on invoices to spotting new opportunities for growth, while staying in control of every decision.”
+
+Maia Josebachvili, Chief Revenue Officer of AI
+
+![Zoom](https://assets.claude.com/6a7f21b4cf5f286e7bd8ffd3ae9ca839f6f0d681.svg)
+
+> “Running a small business means constantly translating conversations into work: updating a CRM, starting a project, getting an invoice out the door. With Zoom and Bonsai in Claude for Small Business, Zoom captures what was said and Bonsai turns it into the work, ready for the owner's OK. Owners get the follow-through, not just a summary of the call.”
+
+Ross Mayfield, Head of Product, AI Partnerships
+
+1/18
 
 ## Built for trust
 
@@ -426,7 +433,7 @@ Full details are in our [Trust Center](https://trust.anthropic.com/).
 
 Starting this week, the Claude SMB Tour is back with our partner Tenex, running free half-day workshops in [Boston](https://anthropic.swoogo.com/claude-smb-workshop-boston/rta), [Pittsburgh](https://anthropic.swoogo.com/claude-smb-workshop-pittsburgh/rta), [Detroit](https://anthropic.swoogo.com/claude-smb-workshop-detroit/rta), [Minneapolis](https://anthropic.swoogo.com/claude-smb-workshop-minneapolis/rta), [Phoenix](https://anthropic.swoogo.com/claude-smb-workshop-phoenix/rta), [Memphis](https://anthropic.swoogo.com/claude-smb-workshop-memphis/rta), [Savannah](https://anthropic.swoogo.com/claude-smb-workshop-savannah/rta), [Bentonville](https://anthropic.swoogo.com/claude-smb-workshop-bentonville/rta), [Tampa](https://anthropic.swoogo.com/claude-smb-workshop-tampa/rta), and [Raleigh](https://anthropic.swoogo.com/claude-smb-workshop-raleigh/rta). Learn more and register for a workshop, [here](https://www.anthropic.com/events/build-with-claude).
 
-*"Lucky to be able to be sitting in that room. The most invested hours of my time that I have had in the last couple of years." —* ***Paola Alvarado, President, CORE Boiler & Mechanical Services, Prairieville, Louisiana***
+*"Lucky to be able to be sitting in that room. The most invested hours of my time that I have had in the last couple of years." — **Paola Alvarado, President, CORE Boiler & Mechanical Services, Prairieville, Louisiana***
 
 We have also begun identifying SMB-focused consulting partners and system integrators in our Claude Partner Network, beginning with [A.team](https://partnerhub.claude.com/directory/partner/1784259993008x356713100372617860), [AnswerRocket](https://partnerhub.claude.com/directory/partner/1784259990043x541987221200018940), [Bold Tech](https://partnerhub.claude.com/directory/partner/bold-tech-partner), [Caylent](https://partnerhub.claude.com/directory/partner/1784259945978x195470687185893340), [First Line Software](https://partnerhub.claude.com/directory/partner/1784260001823x362151805260541250), [Grid Dynamics](https://partnerhub.claude.com/directory/partner/1784260003108x180366083877681100), [LightCI](https://partnerhub.claude.com/directory/partner/1784260006158x658004936465662000), [Loka](https://partnerhub.claude.com/directory/partner/1784260008826x243046775320587400), [Praecipio](https://partnerhub.claude.com/directory/partner/1784260011304x967968340701961500), [Rosetree Solutions](https://partnerhub.claude.com/directory/partner/rosetree-solutions), and [The Agile Monkeys](https://partnerhub.claude.com/directory/partner/the-agile-monkeys-sl), and plan to [add more](https://partnerhub.claude.com/directory?filters=1789178865067x436833862108438660).
 
@@ -440,86 +447,46 @@ Register here: [Notion](https://luma.com/0p7fmc93) (Sept. 25), [RingCentral](htt
 
 We believe AI adoption among small businesses could have significant public benefit through economic growth and employment. That’s why our [Beneficial Deployments](https://www.anthropic.com/beneficial-deployments) team works with organizations that support small business owners and entrepreneurs.
 
-We're partnering with [Goldman Sachs 10,000 Small Businesses](https://www.goldmansachs.com/community-transformation/10000-small-businesses/us), the widely recognized leader in practical education for small business owners, which has helped more than 19,000 entrepreneurs across the United States grow their businesses and create jobs. Together, we're creating a new learning series on applied AI for small businesses.  Globally, we're a founding partner of [IncuVersity](https://doincuversity.ai/), a new Program from [The DO](https://thedo.world/) that aims to help 20,000 early-career entrepreneurs build businesses with Claude over the coming years. And we are partnering with  [Echoing Green](https://echoinggreen.org/), which backs early-stage social entrepreneurs around the world, as they incorporate Claude into their new AI-focused programming.
+We're partnering with [Goldman Sachs 10,000 Small Businesses](https://www.goldmansachs.com/community-transformation/10000-small-businesses/us), the widely recognized leader in practical education for small business owners, which has helped more than 19,000 entrepreneurs across the United States grow their businesses and create jobs. Together, we're creating a new learning series on applied AI for small businesses. Globally, we're a founding partner of [IncuVersity](https://doincuversity.ai/), a new Program from [The DO](https://thedo.world/) that aims to help 20,000 early-career entrepreneurs build businesses with Claude over the coming years. And we are partnering with [Echoing Green](https://echoinggreen.org/), which backs early-stage social entrepreneurs around the world, as they incorporate Claude into their new AI-focused programming.
 
 ## Getting started
 
 [Install Claude for Small Business](http://claude.com/plugins/small-business) from, say “set me up,” and connect a tool or two. It’s available on every paid Claude plan, and we recommend the [Team plan](https://claude.com/pricing) for businesses with more than one person. A step-by-step install guide and workflows list is on [Claude Academy](https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin).
 
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
+[ArticleOct 1, 2026
 
 ### Customize Claude Code with mods
 
-Product announcements
+Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-[Customize Claude Code with mods](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
+Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
 
 ### Claude for Government is now generally available
 
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
 
 ### Build plugins for Claude
 
-Product announcements
+You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
 
-[Build plugins for Claude](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Build plugins for Claude
+Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
 
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
+### Claude Tag now supports personal connectors in channels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Sep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

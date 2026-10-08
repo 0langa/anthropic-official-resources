@@ -1,31 +1,13 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
-
 # Product management on the AI exponential
 
 Claude Code’s Head of Product Cat Wu shares how product management teams are adapting their workflows and roadmaps in the face of rapidly evolving model intelligence.
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  March 19, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/product-management-on-the-ai-exponential)
-
-  https://claude.com/blog/product-management-on-the-ai-exponential
-- Author(s)
-
-  Cat Wu
+- Category[Perspectives](https://claude.com/resources/perspectives)
+- ProductClaude Code
+- AuthorCat Wu
+- DateMarch 19, 2026
+- Reading time11 min
+- ShareCopy link
 
 Since [Claude Sonnet 3.5 (new)](https://www.anthropic.com/news/3-5-models-and-computer-use) in October 2024, I made a habit of testing every new model by asking Claude Code (an internal tool at the time) to add a table tool to Excalidraw. With each new model, Claude got a little further but still failed.
 
@@ -49,11 +31,11 @@ These projects took hundreds of hours of prompting Claude Code powered by Sonnet
 
 ## Designing a new product management workflow
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69bc295c981804a6cc75ded9_fig1-claude-code-pm-playbook-on-the-ai-exponential-v4%402x.png)
+![](https://assets.claude.com/2eb62c76e42ed4b27ca8f25dc57b7612a6294500.png)
 
 Tools like Claude Code and Cowork are blurring the lines between distinct roles in the product development life cycle.
 
-Claude Code isn’t the only tool powering my workflow. Over time, I've settled into a natural division of labor across three products: a chat collaborator ([Claude.ai](http://claude.ai/)), agentic coding tool (Claude Code), and a knowledge work tool ([Cowork](https://www.anthropic.com/webinars/future-of-ai-at-work-introducing-cowork)).
+Claude Code isn’t the only tool powering my workflow. Over time, I've settled into a natural division of labor across three products: a chat collaborator ([Claude.ai](http://claude.ai/)), agentic coding tool (Claude Code), and a knowledge work tool ([Cowork](https://claude.com/resources/webinars/future-of-ai-at-work-introducing-cowork)).
 
 **Claude.ai** is where I talk to Claude as a thought partner without needing it to take action. I bounce ideas for strategy docs, how to handle tricky situations, and get quick answers.
 
@@ -63,17 +45,17 @@ Claude Code isn’t the only tool powering my workflow. Over time, I've settled 
 
 I’ve talked with product managers across the industry who've found their own versions of this workflow:
 
-> *“Claude has raised the ceiling on what good product teams can build, and dramatically shortened the distance between idea and prototype. Getting something tangible in front of customers used to take weeks of building. Now I'll start in Claude Cowork, pulling in context from Slack, our codebase, and docs, then move into Claude Code to have something demo-able in a couple of hours. Good product teams have always tested their ideas with real customers, and that instinct hasn't changed. What has is how many more high-quality ideas we can actually put through the loop.” - Bihan Jiang, Director of Product, Decagon*
+> ““Claude has raised the ceiling on what good product teams can build, and dramatically shortened the distance between idea and prototype. Getting something tangible in front of customers used to take weeks of building. Now I'll start in Claude Cowork, pulling in context from Slack, our codebase, and docs, then move into Claude Code to have something demo-able in a couple of hours. Good product teams have always tested their ideas with real customers, and that instinct hasn't changed. What has is how many more high-quality ideas we can actually put through the loop.” - Bihan Jiang, Director of Product, Decagon”
 
-> *“To me, being a PM in an AI-native world is both creative and academic. Each new model release changes what’s possible, and in building Datadog’s Bits AI SRE agent we study its strengths and failure modes through offline evaluation on real-world production incidents. We also design tight feedback loops, refining the UX to surface where the agent struggles and turning those insights into product improvements. In that sense, a PM’s craft has shifted from defining certainty upfront to accelerating discovery.” - Kai Xin Tai, Senior Product Manager, Datadog*
+> ““To me, being a PM in an AI-native world is both creative and academic. Each new model release changes what’s possible, and in building Datadog’s Bits AI SRE agent we study its strengths and failure modes through offline evaluation on real-world production incidents. We also design tight feedback loops, refining the UX to surface where the agent struggles and turning those insights into product improvements. In that sense, a PM’s craft has shifted from defining certainty upfront to accelerating discovery.” - Kai Xin Tai, Senior Product Manager, Datadog”
 
 One of the most exciting parts of being a product manager today is that these workflows are constantly evolving and giving us more leverage.
 
 ## Leaning into the AI exponential
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69bc2f892ac8ae5b32d2ac32_Screenshot%202026-03-19%20at%201.16.39%E2%80%AFPM.png)
+![](https://assets.claude.com/f869c186fa92de1125180eabb1e4e5332f0feb44.png)
 
-*METR. (2026, March). Task-Completion Time Horizons of Frontier AI Models.* [*https://metr.org/time-horizons/*](https://metr.org/time-horizons/)
+METR. (2026, March). Task-Completion Time Horizons of Frontier AI Models. https://metr.org/time-horizons/
 
 METR [finds](https://metr.org/time-horizons/) that, about half the time, Opus 4.6 can complete software tasks which take humans almost 12 hours. When we first started building Claude Code, Sonnet 3.5 (new) was the frontier model and METR measured that it could do tasks that would take a human around 21 minutes. That's a roughly 41x jump in 16 months.
 
@@ -119,7 +101,7 @@ When we first launched todo lists in Claude Code, the model wouldn't reliably ch
 
 ## Looking forward
 
-Embedded media: https://www.youtube.com/embed/91AJ0cpgLlQ
+Embedded media: https://www.youtube-nocookie.com/embed/91AJ0cpgLlQ?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 Many product managers are used to having tight control over the full product experience, but AI pushes you to let go in order to move quickly. That instinct for control is the first thing AI product management asks you to unlearn.
 
@@ -127,106 +109,50 @@ When it comes to building AI products in particular, it feels like surfing a wav
 
 The net effect of these shifts is that product teams can move significantly faster. When a product manager can go from idea to working prototype in an afternoon, the gap between “what if we tried…” and “here, try this” nearly disappears.
 
-At Anthropic, product managers aren’t the only ones transforming their workflows with Claude. Our data science, [finance](https://www.anthropic.com/webinars/claude-code-financial-services), marketing, [legal](https://www.youtube.com/watch?v=tJP6SKfo49c), and [design teams](https://www.youtube.com/watch?v=vLIDHi-1PVU) picked up these tools on their own. The whole organization moves at the same speed instead of waiting on handoffs.
+At Anthropic, product managers aren’t the only ones transforming their workflows with Claude. Our data science, [finance](https://claude.com/resources/webinars/claude-code-financial-services), marketing, [legal](https://www.youtube.com/watch?v=tJP6SKfo49c), and [design teams](https://www.youtube.com/watch?v=vLIDHi-1PVU) picked up these tools on their own. The whole organization moves at the same speed instead of waiting on handoffs.
 
 The PM role now is to track both things at once: how AI is changing the way you work, and how it's changing what's possible in your product. Do that well, and you stop being surprised when the table tool finally works. You're the one who saw it coming.
 
-*Start building better products with* [*Claude Code*](https://claude.com/product/claude-code)*.*
+*Start building better products with [Claude Code](https://claude.com/product/claude-code).*
 
-***Acknowledgments:****This article was written by Cat Wu, the Head of Product for Claude Code at Anthropic. You can find her on* [*X*](https://x.com/_catwu) *and* [*LinkedIn*](https://www.linkedin.com/in/cat-wu/)*. She'd like to thank Bihan Jiang and Kai Xin Tai for their contributions to this piece.*
+***Acknowledgments:** This article was written by Cat Wu, the Head of Product for Claude Code at Anthropic. You can find her on [X](https://x.com/_catwu) and [LinkedIn](https://www.linkedin.com/in/cat-wu/). She'd like to thank Bihan Jiang and Kai Xin Tai for their contributions to this piece.*
 
-No items found.
-
-[Prev](https://claude.com/blog/product-management-on-the-ai-exponential)Prev
-
-0/5
-
-[Next](https://claude.com/blog/product-management-on-the-ai-exponential)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/product-management-on-the-ai-exponential)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
-
-Sep 24, 2026
+[ArticleSep 24, 2026
 
 ### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-Claude Code
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/product-management-on-the-ai-exponential)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-Sep 23, 2026
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
 
-### How to prepare for AI-driven code modernization projects
+### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
 
-Enterprise AI
+Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/product-management-on-the-ai-exponential) How to prepare for AI-driven code modernization projects
+Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
+### The Claude Code guide for startups
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
 
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/product-management-on-the-ai-exponential)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/product-management-on-the-ai-exponential)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.
