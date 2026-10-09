@@ -48,30 +48,33 @@ Read the full **2026 Agentic Coding Trends Report** [here](https://resources.ant
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleSep 29, 2026
+[ArticleSep 25, 2026
 
-### Agents you can coach: how Asana builds human-agent teams with Claude
+### What a task costs on Opus 5.5
 
-Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
-‍
+The same token price can cost very different amounts per task. Learn what Claude Code tasks cost on Opus 5.5 and which settings change the bill.
 
-Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
+Claude Code
 
-### Giving companies more control over their AI agents, with NVIDIA
+(opens in new tab)](https://claude.dev/blog/what-a-task-costs-on-opus-5-5/)[ArticleSep 24, 2026
 
-Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
+### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-### Reducing cost and improving performance with Claude Platform
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 2, 2026
 
-Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
+### Building commerce agents with Claude
 
-### A guide to the anatomy of effective commerce agents
+Retailers running shopping agents on Claude have seen carts up to 35% larger and shoppers 60% more likely to complete a purchase.
 
-The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
+Claude Platform](https://claude.com/resources/articles/claude-for-commerce-agents)[ArticleJul 7, 2026
 
-Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
+### How people are using Claude Cowork
+
+In a sample of Claude Cowork sessions, we found that roughly half of all usage comprises “the work around the work”—tasks that are part of a broad swath of jobs, but are rarely a person’s core responsibility.
+
+Claude Cowork](https://claude.com/resources/articles/how-people-are-using-claude-cowork)
 
 ## Transform how your organization operates with Claude
 

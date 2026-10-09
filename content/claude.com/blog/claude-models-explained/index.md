@@ -1,41 +1,11 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
-
 # Claude models explained: choosing the best model for your use case
 
-- Category
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-
-  [Agents](https://claude.com/blog/category/agents)
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-
-  [Claude Cowork](https://claude.com/product/cowork)
-
-  [Claude Design](https://claude.com/product/design)
-
-  [Claude Enterprise](https://claude.com/solutions/enterprise)
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  July 24, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case)
-
-  https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case
-- Author(s)
-
-  Michael Segner
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code, Claude Cowork, Claude Design, Claude Enterprise, Claude Platform
+- AuthorMichael Segner
+- DateJuly 24, 2026
+- Reading time8 min
+- ShareCopy link
 
 ## Our advice: start smart
 
@@ -71,7 +41,7 @@ The general rule of thumb is if your evals or internal testing show Opus struggl
 
 ### Sonnet
 
-Sonnetis our versatile model class for everyday tasks. Sonnet provides a balance of performance, cost, and speed for the widest set of general purpose use cases, including high-volume sub-agents in multi-agent orchestration setups.
+Sonnet is our versatile model class for everyday tasks. Sonnet provides a balance of performance, cost, and speed for the widest set of general purpose use cases, including high-volume sub-agents in multi-agent orchestration setups.
 
 ### Haiku
 
@@ -93,19 +63,19 @@ The main difference across model classes is in *how* *hard* *a problem* they can
 
 Effort level also impacts the balance of quality, speed, and cost. Higher-class models at higher efforts offer the best possible performance, and higher-class models at lower efforts can sometimes be more efficient than smaller models.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4d058625e4fe8fe674686e_80670a42.png)
+![](https://assets.claude.com/dfef391930320e0da39548b50d2b1e7b7ddfcd6c.png)
 
 Curves are illustrative and not plotted from benchmark data.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4d058625e4fe8fe674686b_dc7b4801.png)
+![](https://assets.claude.com/8352a1d61d466c02e601b9d3cb8012cb75a676fb.png)
 
 Curves are illustrative and not plotted from benchmark data.
 
-To learn more read [Choosing a Claude model and effort level in Claude Code](https://claude.com/blog/claude-model-and-effort-level-in-claude-code).
+To learn more read [Choosing a Claude model and effort level in Claude Code](https://claude.com/resources/articles/claude-model-and-effort-level-in-claude-code).
 
 ## Combining models’ strengths with the advisor strategy
 
-The [advisor strategy](https://claude.com/blog/the-advisor-strategy) allows faster, lower-cost worker models to call more intelligent models to check their plan and evaluate their work, leading to improved performance.
+The [advisor strategy](https://claude.com/resources/articles/the-advisor-strategy) allows faster, lower-cost worker models to call more intelligent models to check their plan and evaluate their work, leading to improved performance.
 
 This method, where the executor model is coached only when needed, improves performance by a substantial amount. For example, on SWE-bench Pro Sonnet 5 with a Fable 5 advisor is within 10% of Fable 5’s score at 63% of the price of using Fable 5 for the whole task.
 
@@ -117,7 +87,7 @@ Benchmarks are a set of pre-determined tasks or scenarios, often for a specific 
 
 In these cases, we recommend organizations use the models on real workloads or test them with their own evaluations to make a decision on which model is the right choice. Typically, evaluations are a curated set of problems drawn from production — including difficult tasks where your current tools fall short, with success criteria your team defines.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a60fb98a987acd56295833a_10089945.png)
+![](https://assets.claude.com/322dd4e9db870a1f5b8c8935849bcf1164a90b56.png)
 
 This is where the capability and creativity of frontier models start to separate from the pack and from one another. We’ve written extensively on the best practices for developing [custom agent evaluations](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents).
 
@@ -125,98 +95,46 @@ This is where the capability and creativity of frontier models start to separate
 
 There is no one-size-fits-all approach to AI model selection, which is why we make multiple model classes available. Ultimately, the best way to select a model is to understand the basics of each model class and understand your use case in-depth. That means building, maintaining, and deploying strong evaluations.
 
-No items found.
-
-[Prev](https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case)Prev
-
-0/5
-
-[Next](https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
+[ArticleOct 7, 2026
 
-Aug 26, 2026
+### Automating eval design and hillclimbing with Claude
 
-### How Warp builds self-improving agents on Claude
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-Agents
+Claude Platform
 
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case)How Warp builds self-improving agents on Claude
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
 
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
+### Claude Code in the cloud: a field guide to cloud sessions
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
 
-Jul 20, 2026
+Claude Code
 
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
 
-Enterprise AI
+### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)[ArticleOct 1, 2026
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+### Getting started with Claude Code mods
 
-Sep 30, 2026
+Claude Code
 
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-Enterprise AI
-
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 29, 2026
-
-### Agents you can coach: how Asana builds human-agent teams with Claude
-
-Agents
-
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case)Agents you can coach: how Asana builds human-agent teams with Claude
-
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

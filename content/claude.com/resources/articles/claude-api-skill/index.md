@@ -95,30 +95,27 @@ The skill is already in [Claude Code](https://claude.com/product/claude-code), [
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleSep 29, 2026
+[ArticleOct 8, 2026
 
-### Agents you can coach: how Asana builds human-agent teams with Claude
+### Build live dashboards and animate explainers with Claude
 
-Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
-‍
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
 
-Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 7, 2026
 
-### Giving companies more control over their AI agents, with NVIDIA
+### Claude Haiku 5.5
 
-Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
+Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
 
-### Reducing cost and improving performance with Claude Platform
+(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)[ArticleOct 6, 2026
 
-Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
+### Claude now works with Google Docs, Sheets, and Slides
 
-Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
+Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta).
 
-### A guide to the anatomy of effective commerce agents
+Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)[ArticleOct 6, 2026
 
-The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
-
-Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
+### We’re expanding the Claude Startups program to help founders build](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)
 
 ## Transform how your organization operates with Claude
 

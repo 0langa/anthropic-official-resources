@@ -1,5 +1,7 @@
 # How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
 
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
+
 - Category[Best practices](https://claude.com/resources/best-practices)
 - ProductClaude Platform
 - DateOctober 5, 2026
@@ -90,6 +92,40 @@ For any team whose product deploys custom agents faster than its engineers can h
 See how [Conductor](https://cresta.com/blog/cresta-conductor-the-agent-for-ai-agent-development) turns business context into better agent design, implementation, and ongoing improvement.
 
 <table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Best practices from the Cresta team</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Dogfood your products</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Conductor ran as an internal tool first, and only became a product once its output matched what an engineer with deep AI expertise would build.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Focus on your unique advantages</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Cresta drew a hard line between the expertise only they could bring (their conversation data and understanding of customer experience) and what they could take off the shelf from the Agent SDK, and refused to build anything on the wrong side of it.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">What parts of your agent need to be deterministic</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Harden the enterprise-critical workflows that can never go wrong and leave the rest flexible, or you won't end up with the interactive agentic experience you want.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Getting to production is the easy part</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">The initial build is only about 20% of the effort, the other 80% is the testing, optimization, and continuous improvement that follows, so design your tooling around the iteration loop, not the launch.</span></td></tr></tbody></table>
+
+## Related articles
+
+Explore more product news and best practices for teams building with Claude.
+
+[ArticleOct 7, 2026
+
+### Automating eval design and hillclimbing with Claude
+
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
+
+### Claude Code in the cloud: a field guide to cloud sessions
+
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 1, 2026
+
+### Getting started with Claude Code mods
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)[ArticleSep 30, 2026
+
+### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+
+Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
+
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)
 
 ## Transform how your organization operates with Claude
 

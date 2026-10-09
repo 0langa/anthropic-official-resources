@@ -30,6 +30,8 @@ Before you set up Claude for Intune, check that you meet these requirements:
 
 - If you use Conditional Access, Claude for Intune is registered in your Microsoft Entra tenant.
 
+- An admin in your Microsoft Entra tenant has granted admin consent for Claude for Intune. This is required for every organization.
+
 ## Get your organization ready
 
 ### 1. Ask Anthropic to enable Microsoft sign-in
@@ -38,15 +40,15 @@ Before employees can sign in to Claude for Intune, Anthropic needs to enable Mic
 
 ### 2. Register Claude for Intune in your Entra tenant
 
-If you want to use Conditional Access with Claude for Intune, the app has to be registered in your Microsoft Entra tenant first. Until it is, Claude for Intune doesn't appear in the list of apps you can select in a Conditional Access policy.
+Before employees can sign in, an admin in your Microsoft Entra tenant needs to grant admin consent for Claude for Intune. This is required for every organization. It approves the permission Claude for Intune uses to work with Microsoft Intune app protection, and it registers the app in your tenant so you can select it in a Conditional Access policy.
 
-Claude for Intune is registered the first time someone who is authorized to consent on behalf of the organization signs in with Microsoft. Choose one of these options:
+**Grant admin consent.** A tenant admin opens the following URL, replacing {organization} with your tenant ID or domain: `https://login.microsoftonline.com/{organization}/adminconsent?client_id=bb747f0e-002b-4882-9960-916fe00a2b90`
 
-- **Have a user sign in.** Go to claude.ai and select “Continue with Microsoft.” One successful sign-in is enough.
+To confirm it worked, in the Microsoft Entra admin center go to Enterprise applications, open "Claude for Intune (Public)", and select "Permissions." **Microsoft Mobile Application Management** should be listed on the "Admin consent" tab. If it isn't, select "Grant admin consent" on that page.
 
-- **Grant admin consent.** A tenant admin opens the following URL, replacing {organization} with your tenant ID or domain: `https://login.microsoftonline.com/{organization}/adminconsent?client_id=bb747f0e-002b-4882-9960-916fe00a2b90`
+**Note:** Signing in at claude.ai with "Continue with Microsoft" does not grant this consent.
 
-After either option, Claude for Intune appears in Microsoft Entra and your Conditional Access admin can target it in a policy.
+If employees are signed out within a few seconds of signing in, this step has most likely not been completed. After granting admin consent, ask them to delete Claude for Intune, reinstall it, and sign in again.
 
 To require app protection at sign-in, target the Conditional Access rule at “All resources” with Grant = Require app protection policy. A rule that names only Office 365 or Claude SSO does not cover Claude for Intune. Microsoft Authenticator must be installed on the device.
 
@@ -56,25 +58,25 @@ To require app protection at sign-in, target the Conditional Access rule at “A
 
 1. In the Microsoft Intune admin center, select “Apps” from the left side navigation panel:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700192269/ce2bf95a18aba11042da50f4c1ad/dda0f9a2-d585-4b09-ae4f-a1ff70b1e010?expires=1791375300&amp;signature=ec568a2bc0c129dbb4827a8715a6c1e2b04e4f2c222282df160fcac650c94857&amp;req=dicnFsh3n4NZUPMW1HO4ze7khjDS5W5jAMLV2Uu0R4UhwHXZStu3MJwCQ1ig%0AGF%2Ba%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700192269/ce2bf95a18aba11042da50f4c1ad/dda0f9a2-d585-4b09-ae4f-a1ff70b1e010?expires=1791549000&amp;signature=25e848986a303a8e4a0cc374509d419def2193cc592aab716df331c537bb0e1e&amp;req=dicnFsh3n4NZUPMW1HO4ze7khjDU5mJgAMLV2Uu0R4WawJvm5NIXVMukU3aZ%0AitkH%0A)
 
 2. Under Platforms, select “iOS/iPadOS”:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700195036/b70c6c0bdeff5f2b72568ef4943b/67cc834c-5e91-42da-9d3b-1f32c8dd8c05?expires=1791375300&amp;signature=0c7463b640a402af5af6a64542d3a01a50813df512edd4abf0a8422228b4af60&amp;req=dicnFsh3mIFcX%2FMW1HO4zeH1oUzktnaXQ7hR7Wh%2Bi70CLa%2B6VEFTH5p3hjWx%0AUYOs%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700195036/b70c6c0bdeff5f2b72568ef4943b/67cc834c-5e91-42da-9d3b-1f32c8dd8c05?expires=1791549000&amp;signature=c31a98610e3068f5f0b9344d6a1d397d6a44ed2b47f011592e2781797aaee5e7&amp;req=dicnFsh3mIFcX%2FMW1HO4zeH1oUzitXqUQ7hR7Wh%2Bi71oKY4dqMqWx7lHocOD%0AAoea%0A)
 
 3. Click “+ Create.” For the App type, select the “iOS store app,” and click the “Select” button on the bottom:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700195791/9a01290b4189e6a39c473af0a448/cfed06da-f35a-4b22-b687-286ea48864c1?expires=1791375300&amp;signature=c20b4f2c53ae6a457ed3a13f6f14a22616676a10214e2f5eed97552ab62cfab1&amp;req=dicnFsh3mIZWWPMW1HO4zTni3ccqZZsv2SRx6amjj9HiWtYL3eBrQfv%2Bcqe1%0A65fo%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700195791/9a01290b4189e6a39c473af0a448/cfed06da-f35a-4b22-b687-286ea48864c1?expires=1791549000&amp;signature=2d68c75c2f298743d87c98fb2ad8e270aaf8efad37fc02fb9c551bd057eca57a&amp;req=dicnFsh3mIZWWPMW1HO4zTni3ccsZpcs2SRx6amjj9HMlsvW9%2BgI6gHi1pcH%0AZsbF%0A)
 
 4. Search “Claude for Intune” and click the “Select" button on the bottom.
 
 5. In **App Information**, set **Minimum operating system** to iOS 18, then click the “Next” button:
 
-  ![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700196458/588327ab209e9524c45111a244a1/258697c2-2f82-471b-9104-2bccb1b01614?expires=1791375300&amp;signature=a6b7a0c1caf122344acc108fadf7f1caad3a25df087e552c3baa9f27639ccb03&amp;req=dicnFsh3m4VaUfMW1HO4zbxl5YlUcDctDNNSLAHCCFohr80LBi0zfgBWMfjI%0AC5rK%0A)
+  ![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700196458/588327ab209e9524c45111a244a1/258697c2-2f82-471b-9104-2bccb1b01614?expires=1791549000&amp;signature=7ac73f2f997d8d191ffd7fe754ee3f37850073c5c766db0826e7bcc0b722a62b&amp;req=dicnFsh3m4VaUfMW1HO4zbxl5YlSczsuDNNSLAHCCFpzCq3yBydbfd6eX0ih%0AaYq%2F%0A)
 
 6. For **Assignments**, add a group of users to make it available in their device’s Company Portal:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700197715/bf5aa327b41f994fdafe04869300/f4c6c9cf-51df-4d75-bf8a-b144d11dd380?expires=1791375300&amp;signature=c0092ea2d7183eb5b87e772db1fa884a9dedb44991ccac75b5f291a6727aa242&amp;req=dicnFsh3moZeXPMW1HO4zeVx8DQa5imOoVYQxJ7ndH7QSOpNh0l5g4kUgznk%0AwyCP%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700197715/bf5aa327b41f994fdafe04869300/f4c6c9cf-51df-4d75-bf8a-b144d11dd380?expires=1791549000&amp;signature=ee1554fc7a93a3308be1158fe34e61ab28e144204988fecacce250d45331ba19&amp;req=dicnFsh3moZeXPMW1HO4zeVx8DQc5SWNoVYQxJ7ndH5hxqLPJ3%2B4w2AoawNy%0AUyEk%0A)
 
 7. Click “Next,” review and create.
 
@@ -84,27 +86,27 @@ To require app protection at sign-in, target the Conditional Access rule at “A
 
 1. In the Microsoft Intune admin center, select “Apps” from the left side navigation panel:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700190760/9f6412fe68632cffee29826f7d30/42fdeb30-64af-4089-a976-5094bb6b8292?expires=1791375300&amp;signature=1a56c2122bd64eb3ec7c308615795abdcb4957e5603c74501e08218308a2ab96&amp;req=dicnFsh3nYZZWfMW1HO4zQwrZIsBVNc%2FLtTCoSp4D6qRPD%2BuKJqFCCJ91f7j%0A7zUA%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700190760/9f6412fe68632cffee29826f7d30/42fdeb30-64af-4089-a976-5094bb6b8292?expires=1791549000&amp;signature=cd0a7c6ee835f7e0a1afc44c0df7c2867f74906222fdc32e2e6ff5309e0ac7cb&amp;req=dicnFsh3nYZZWfMW1HO4zQwrZIsHV9s8LtTCoSp4D6qwA8qjAELbAKRt4dt3%0Ai2%2B8%0A)
 
 2. Under **Manage apps**, select “Protection”:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700200858/a7ddd4265aeb6d61a7a096297cd5/fc9a1fe2-3d0e-4038-9b2c-f96bd19e4020?expires=1791375300&amp;signature=42f4249f4d238ecb1f9645dbc2ab3dc2c05b297af46a268c6fe5b80c8172da50&amp;req=dicnFst%2BnYlaUfMW1HO4zeBHXB4%2B8vjunJWY0xu8hzJBqB%2Bm9NCY63VeSV8k%0Aya7v%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700200858/a7ddd4265aeb6d61a7a096297cd5/fc9a1fe2-3d0e-4038-9b2c-f96bd19e4020?expires=1791549000&amp;signature=f9c9b5cbbd2df59f791fb3e6e8a81042b8a66e401bd4c1b749fbb6807e92e9fb&amp;req=dicnFst%2BnYlaUfMW1HO4zeBHXB448fTtnJWY0xu8hzJbjkTCV0tMOO%2F4y18O%0AoUEI%0A)
 
 3. Click “+ Create” and then select “iOS/iPadOS”:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700201382/6240e257b2b498b5fa5ac1111561/11ef4f59-aba1-4d2b-ac58-9aec1dd60a4d?expires=1791375300&amp;signature=f657b1ff94d4b95b195862c01c06d6b704feffe37fb05bdb40dbafe991f7892b&amp;req=dicnFst%2BnIJXW%2FMW1HO4zc89y0pVBX9NV2VWh%2B9zzEoyCvWKPSAULut0bUIA%0AeKID%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700201382/6240e257b2b498b5fa5ac1111561/11ef4f59-aba1-4d2b-ac58-9aec1dd60a4d?expires=1791549000&amp;signature=2f91887d7305875bb0d4ea29499daf91285a235e99bf04c5b8f76c1376f8bfc0&amp;req=dicnFst%2BnIJXW%2FMW1HO4zc89y0pTBnNOV2VWh%2B9zzErMG8yYWfDE5NEUk0zd%0AYg9J%0A)
 
 4. Enter Name in the **Basics** tab, then click “Next” to **Apps**. Set **Target policy to** “Selected apps.” Click “+ Select custom apps”:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700201929/2edf45cedc0bc03204f86d01a49e/4d96c12d-962b-43f6-8b3f-668e3247d4c1?expires=1791375300&amp;signature=f61917074357aeb1a78c5c589c824a31f47173d7fd20acf944025d4da9f17286&amp;req=dicnFst%2BnIhdUPMW1HO4zVmMRJAXVDgLKETwku7gMsvYyqDf2PHmiM%2BzJfzH%0AA26S%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700201929/2edf45cedc0bc03204f86d01a49e/4d96c12d-962b-43f6-8b3f-668e3247d4c1?expires=1791549000&amp;signature=c1602d72f041b34b1850e7ac8d0a6040bf834959eb1530acd95f47b9bbb157c8&amp;req=dicnFst%2BnIhdUPMW1HO4zVmMRJARVzQIKETwku7gMstC5tCrulOooQQ9VNo0%0AKG7Q%0A)
 
 5. Type in the bundle ID `com.anthropic.claudeforintune`. Select it so it appears under **Selected Apps** before clicking “Select”:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700202816/3565aea2d1b9c22a5f8d105825c5/3de6d241-6259-463e-a503-a6ca9f2095e0?expires=1791375300&amp;signature=2a2c54c64b7c520a6ad881500765008f264dcd13bc06d34278d056d65fc7c8f4&amp;req=dicnFst%2Bn4leX%2FMW1HO4zf6tYiIrz69012LT9vQL0W6UVyZ0omEvwKJr67r%2B%0AR7oy%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700202816/3565aea2d1b9c22a5f8d105825c5/3de6d241-6259-463e-a503-a6ca9f2095e0?expires=1791549000&amp;signature=da011e3fb206b1ea5ab9ce39e626a74f1ddbc6a91d0af30aebfde5b1cb067fe6&amp;req=dicnFst%2Bn4leX%2FMW1HO4zf6tYiItzKN312LT9vQL0W575AP4dCM2Mas8b7z1%0A9kA7%0A)
 
 6. In Apps, confirm the bundle ID now appears under **Custom apps** before clicking “Next”:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700203780/24ed354ef0de87bf0a0c1bc129a1/46eed662-f488-48ee-a4d1-8a9a76079884?expires=1791375300&amp;signature=14ff5f3d86691364203beafd724fd4d6c057bb84c2bf81b32698d735be57f878&amp;req=dicnFst%2BnoZXWfMW1HO4zQd95NSJ3M3c8F6Cfy2R7u8nR%2Fp9mdhIAHHofZr4%0A5Mt6%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2700203780/24ed354ef0de87bf0a0c1bc129a1/46eed662-f488-48ee-a4d1-8a9a76079884?expires=1791549000&amp;signature=6e28bfbf5b69bc6747bbf036e70f106bc6c58313c9bcf644ba8472889cbffbac&amp;req=dicnFst%2BnoZXWfMW1HO4zQd95NSP38Hf8F6Cfy2R7u%2BLUvyY2PuFgvlH7uWA%0AUFvx%0A)
 
 7. Configure the Data protection, Access requirements, and Conditional launch settings as needed.
 

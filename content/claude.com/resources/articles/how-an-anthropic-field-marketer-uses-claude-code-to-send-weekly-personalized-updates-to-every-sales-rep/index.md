@@ -68,31 +68,35 @@ Get started with [Claude Code](https://claude.com/product/claude-code) today.
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleSep 24, 2026
+[ArticleOct 7, 2026
 
-### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Automating eval design and hillclimbing with Claude
 
-Our latest Opus model is priced and trained to optimize costs for how developers code now.
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
+Claude Platform
 
-### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
 
-Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
+### Claude Code in the cloud: a field guide to cloud sessions
 
-Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 20, 2026
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
 
-### The Claude Code guide for startups
+Claude Code
 
-How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
 
-Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)[ArticleAug 14, 2026
+### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
 
-### Maximizing the value of your Claude Code sessions
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
 
-How to run efficient sessions that get the most value from every token.
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)[ArticleOct 1, 2026
 
-Claude Code](https://claude.com/resources/articles/maximizing-the-value-of-your-claude-code-sessions)
+### Getting started with Claude Code mods
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)
 
 ## Transform how your organization operates with Claude
 

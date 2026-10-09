@@ -1,33 +1,15 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
-
 # How Anthropic employees use Claude Tag
 
 *Producing customer-ready collateral, compiling weekly issue reports, and running legal review, all where the work already happens.*
 
-- Category
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Tag
+- AuthorAleksandra Todorova
+- DateAugust 28, 2026
+- Reading time11 min
+- ShareCopy link
 
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Tag](https://claude.com/product/tag)
-- Date
-
-  August 28, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/how-anthropic-employees-use-claude-tag)
-
-  https://claude.com/blog/how-anthropic-employees-use-claude-tag
-- Author(s)
-
-  Aleksandra Todorova
-
-[Claude Tag](https://www.anthropic.com/news/introducing-claude-tag) brings Claude into chat tools like Slack, where you can tag @Claude in a thread the way you would a colleague and it picks up the context of the conversation, completes the task, and posts the answer or results back in the thread. It can also [follow conversations](https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room) and draw on available context, its memory, and standing instructions it’s been given to decide when to participate in the chat. Over the past several months, teams at Anthropic have been using Claude Tag to [self-serve data analysis](https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions) in shared channels, work through support tickets, or help find [the root cause](https://www.anthropic.com/news/introducing-claude-tag) of tricky bugs.
+[Claude Tag](https://www.anthropic.com/news/introducing-claude-tag) brings Claude into chat tools like Slack, where you can tag @Claude in a thread the way you would a colleague and it picks up the context of the conversation, completes the task, and posts the answer or results back in the thread. It can also [follow conversations](https://claude.com/resources/articles/claude-tag-now-reads-even-more-of-the-room) and draw on available context, its memory, and standing instructions it’s been given to decide when to participate in the chat. Over the past several months, teams at Anthropic have been using Claude Tag to [self-serve data analysis](https://claude.com/resources/articles/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions) in shared channels, work through support tickets, or help find [the root cause](https://www.anthropic.com/news/introducing-claude-tag) of tricky bugs.
 
 We’ve assembled more than a dozen [use case examples for Claude Tag](https://claude.com/docs/claude-tag/users/use-cases) inspired by our work at Anthropic, along with specific prompts and setup instructions. In this post, we highlight three ways Anthropic employees are making their workflows and processes more efficient with Claude Tag, with the prompts they used, so you can borrow or adapt the ones that best fit your work.
 
@@ -41,9 +23,9 @@ That Slack thread ran to more than 15 messages, with multiple people chiming in 
 
 ‍
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a91db2a994de3cf1ac088c6_c0ede71e.png)
+![](https://assets.claude.com/cd6e52d544d5810794a2a25fd2d232f5beb22fdb.png)
 
-*Asking Claude to generate marketing collateral based on a Slack thread. This image has been generated to illustrate a use case and does not contain real information.*
+Asking Claude to generate marketing collateral based on a Slack thread. This image has been generated to illustrate a use case and does not contain real information.
 
 Claude generated a two-page draft in about two minutes, covering what the feature does in plain terms, the business case for it, what implementation involves, and an appendix with more detailed information.
 
@@ -53,17 +35,17 @@ Next, Hema asked Claude to verify its responses:
 
 Claude sorted the document's claims into ones verified against public documentation and those that were its own framing, which it flagged for product-lead sign-off. Hema supplied two official resources with relevant information, and Claude rewrote one section to match the approved wording in those resources.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a91db2a994de3cf1ac088c9_e46dcfe0.png)
+![](https://assets.claude.com/b1a32b3705407471a5fdd9d472361a56725ab419.png)
 
-*Follow-up instructions for Claude also happen in Slack. This image has been generated to illustrate a use case and does not contain real information.*
+Follow-up instructions for Claude also happen in Slack. This image has been generated to illustrate a use case and does not contain real information.
 
 At that point, Hema noticed the truncated thread had skewed the framing, so she pasted in the fuller context. She went back and forth with Claude for a total of four versions. About 45 minutes after the first ask, she shared the document with the feature's product lead for review. Rather than spend hours researching and drafting the document, Hema’s time went to challenging accuracy, supplying sources, and deciding what information to include, all tasks that required human judgment and made the customer asset even stronger.
 
-Beyond generating briefs from Slack threads, Hema also uses Claude Tag across her day to day work. She keeps a private Slack channel with Claude where she makes requests in separate threads, @-mentioning Claude the way she'd tag a colleague. In that channel, Claude reads whatever she pastes or attaches, searches the Slack workspace and public documentation, and works in the background, posting a progress checklist it updates as it goes. Claude’s access is deliberately scoped: it only works from the channels and documents it [has been granted access to](https://claude.com/blog/agent-identity-access-model), and will let her know when it does not have the access to these resources.
+Beyond generating briefs from Slack threads, Hema also uses Claude Tag across her day to day work. She keeps a private Slack channel with Claude where she makes requests in separate threads, @-mentioning Claude the way she'd tag a colleague. In that channel, Claude reads whatever she pastes or attaches, searches the Slack workspace and public documentation, and works in the background, posting a progress checklist it updates as it goes. Claude’s access is deliberately scoped: it only works from the channels and documents it [has been granted access to](https://claude.com/resources/articles/agent-identity-access-model), and will let her know when it does not have the access to these resources.
 
 ## Consolidating and following up on requests scattered throughout Slack channels
 
-When a new feature launches, sales reps typically keep track and communicate it to customers they support who have requested that feature. Those requests are communicated via Slack or in a product feedback hub, and can be scattered across months’ worth of history.  Steph Soderborg, on the product strategy and operations team, was able to consolidate all asks related to an upcoming feature and directly notify each rep who had asked for it on behalf of a customer, in about 26 minutes.
+When a new feature launches, sales reps typically keep track and communicate it to customers they support who have requested that feature. Those requests are communicated via Slack or in a product feedback hub, and can be scattered across months’ worth of history. Steph Soderborg, on the product strategy and operations team, was able to consolidate all asks related to an upcoming feature and directly notify each rep who had asked for it on behalf of a customer, in about 26 minutes.
 
 To start, Steph messaged Claude with the search targets, a one-sentence definition of a match, and a pasted example of the output she wanted, a seven-entry list from a previous launch:
 
@@ -73,9 +55,9 @@ To start, Steph messaged Claude with the search targets, a one-sentence definiti
 
 Claude ran about 20 search variants across several channels and the wider workspace. The product-feedback hub blocked its direct access, so it surfaced hub items through Slack cross-references instead, and it folded in a first-pass list another internal assistant had posted, deduplicating the two. The consolidated list came back in about 26 minutes and included roughly 24 accounts, with one line per requester containing their Slack handle, team, account, and a link to the original ask.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a91db2a994de3cf1ac088d2_805fca4a.png)
+![](https://assets.claude.com/96945facf5688f10a4116c1f22bf8ff58f7e8a1f.png)
 
-*Asking Claude to generate a list of everyone who has posted asked for a specific feature in Slack. This image has been generated to illustrate a use case and does not contain real information.*
+Asking Claude to generate a list of everyone who has posted asked for a specific feature in Slack. This image has been generated to illustrate a use case and does not contain real information.
 
 Steph then put Claude on a bigger consolidation job that she wouldn’t have had the bandwidth to do on her own: she wanted a picture of every product problem enterprise customers had reported in the previous week, including what was broken, what was already fixed, and which, if any, reports pointed at the same underlying issue. She told Claude to read all Slack channels covering incident, escalation, support, and product-feedback, and roughly 50 minutes later Claude posted a write-up, organized by product area, that included 23 issues that were still open and 14 resolved ones, condensed from about 120 raw findings. Each issue included a summary and a link to the source thread. Steph then asked Claude to check its work, and it surfaced 15 more issues.
 
@@ -89,9 +71,9 @@ Anthropic’s legal team reviews each blog, landing page, email, or any other co
 
 To request legal review, marketers post a document link in the Slack channel, where Molly, who has no engineering background, has set up specific rules and instructions for Claude. Not only can Claude spot issues for legal (like unsubstantiated marketing claims), but it can also help check factual statements in the marketing content because it has access to the company Slack, an internal knowledge index, and the public web. If there are flags, Claude lists those with specific instructions on how to address them and works directly with the requester to do so. For remaining issues that need legal sign-off, Claude tags the appropriate product counsel, who can quickly review the flagged statements.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a91db2a994de3cf1ac088cf_43aa7144.png)
+![](https://assets.claude.com/96c9ecf2f2b83550f60188647cd55f738e11b17b.png)
 
-*Marketers request legal review by posting a link to the document in a dedicated Slack channel. This image has been generated to illustrate a use case and does not contain real information.*
+Marketers request legal review by posting a link to the document in a dedicated Slack channel. This image has been generated to illustrate a use case and does not contain real information.
 
 In a recent newsletter review, for example, Claude flagged three key items, then just minutes later, unprompted, resolved one of them after finding the information it needed in internal documents. Molly asked it to make this the default by tagging @Claude in the marketing legal review channel:
 
@@ -109,98 +91,46 @@ Claude Tag, currently in public beta, is available on Team and Enterprise plans,
 
 *All images have been generated to illustrate use cases and do not contain real names or information.*
 
-No items found.
-
-[Prev](https://claude.com/blog/how-anthropic-employees-use-claude-tag)Prev
-
-0/5
-
-[Next](https://claude.com/blog/how-anthropic-employees-use-claude-tag)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+[ArticleOct 7, 2026
 
-Jul 20, 2026
+### Automating eval design and hillclimbing with Claude
 
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-Enterprise AI
+Claude Platform
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/how-anthropic-employees-use-claude-tag)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+### Claude Code in the cloud: a field guide to cloud sessions
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
 
-Sep 30, 2026
+Claude Code
 
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
 
-Enterprise AI
+### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropic-employees-use-claude-tag)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)[ArticleOct 1, 2026
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+### Getting started with Claude Code mods
 
-May 21, 2026
+Claude Code
 
-### Claude now works with more security and compliance tools
-
-Enterprise AI
-
-[Claude now works with more security and compliance tools](https://claude.com/blog/how-anthropic-employees-use-claude-tag)Claude now works with more security and compliance tools
-
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/how-anthropic-employees-use-claude-tag)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/how-anthropic-employees-use-claude-tag)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

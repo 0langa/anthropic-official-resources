@@ -20,12 +20,14 @@ This lets users create and publish artifacts to a shareable Anthropic-hosted pag
 
 Templates are the starting points users pick when they create an artifact.
 
-| **Template**   | **What users can do with it**                                                                |
-| -------------- | -------------------------------------------------------------------------------------------- |
-| Slides         | Start decks they can present, restyle with a design system, and export to PowerPoint         |
-| Design         | Lay out screens, flows, and graphics as artboards they can edit by hand                      |
-| Design systems | Capture colors, fonts, and components once so Claude applies them to new decks and designs   |
-| Docs           | Start docs their team reads, comments on, and edits in place while Claude keeps them current |
+| **Template**      | **What users can do with it**                                                                                                       |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Slides            | Start decks they can present, restyle with a design system, and export to PowerPoint                                                |
+| Design            | Lay out screens, flows, and graphics as artboards they can edit by hand                                                             |
+| Design systems    | Capture colors, fonts, and components once so Claude applies them to new decks and designs                                          |
+| Docs              | Start docs their team reads, comments on, and edits in place while Claude keeps them current                                        |
+| Dashboards (beta) | Build dashboards from a data warehouse or connected apps, with each chart showing its query and when it was last refreshed          |
+| Motion (beta)     | Make animated explainers, charts, and walkthroughs from their content, and export them as MP4 video. Team and Enterprise plans only |
 
 **To enable a template:**
 
@@ -35,9 +37,17 @@ Templates are the starting points users pick when they create an artifact.
 
 **Note:** Turning a template off doesn't impact artifacts users already made using that template.
 
+**Defaults:**
+
+- **Docs, Slides, and Design:** On by default on Team plans. On Enterprise plans, they turn on by default on October 15, 2026. Turn any of them off before then if you don't want them on.
+
+- **Motion:** On by default on Team plans, and off by default on Enterprise plans.
+
+- **Dashboards:** Available on paid plans. Off by default on Enterprise plans.
+
 ### Standalone Claude Design at claude.ai/design
 
-Standalone Claude Design is a separate product from the **Design** template, and it has its own setting in **[Organization settings > Claude Design](https://claude.ai/admin-settings/claude-design)**. Turning one on doesn't turn on the other. Users' existing projects stay at **claude.ai/design** and also appear in the **Artifacts** tab.
+Standalone Claude Design at **claude.ai/design** closes on December 14, 2026. Until then, it has its own setting in **[Organization settings > Claude Design](https://claude.ai/admin-settings/claude-design)**, separate from the **Design** template. Users' existing projects stay at **claude.ai/design** until it closes, and up to 60 of them also appear in the **Artifacts** tab. To let users migrate their design systems, keep **Artifacts** and **Design systems** on. Learn more in **[Migrate from standalone Claude Design to Claude](https://support.claude.com/en/articles/17440474)**.
 
 ---
 
@@ -139,6 +149,8 @@ The capabilities that cover artifacts are:
 | Docs                       | Starting artifacts from the Docs template                                                                                    |
 | Slides                     | Starting artifacts from the Slides template                                                                                  |
 | Claude Design [standalone] | Access to standalone Claude Design at claude.ai/design                                                                       |
+| Dashboards                 | Starting artifacts from the Dashboards template                                                                              |
+| Motion                     | Starting artifacts from the Motion template                                                                                  |
 
 Users outside those groups can still open, comment on, and use artifacts shared with them.
 
@@ -152,19 +164,25 @@ Design systems shared with everyone in your organization are listed in **[Organi
 
 ### Restrict who can manage design systems
 
-By default, any user with access to design systems can publish one, set the organization default, and delete design systems. On Enterprise plans using custom roles, the **Claude Design Admin** permission reserves these actions for specific users, so your organization keeps one authoritative set of design systems.
+In Artifacts, any user with access to design systems can create one, share it with specific people, and delete their own, and the owner of a design system can delete it. Only an Owner or Primary Owner can share a design system with everyone in your organization, set the organization default, or delete a design system that’s shared with everyone.
 
-Users in custom roles with the permission set to “Can manage” can:
+To share someone else’s design system with everyone, an Owner or Primary Owner first needs its creator to invite them in the Share dialog at the highest access level. A design system must be shared with everyone before it can be set as the organization default.
+
+On Enterprise plans, custom roles control who can create design systems. Turn **Design systems** on or off under **Artifacts** in a role’s **Capabilities** tab.
+
+Design systems migrated from standalone Claude Design can arrive already shared with everyone. Published design systems that weren’t private there are shared with everyone in your organization, and if your organization’s default design system migrates, it becomes the default in Artifacts too, unless you’ve already set one.
+
+**In standalone Claude Design**
+
+The **Claude Design Admin** permission applies only to the standalone Claude Design app. It doesn’t let anyone share, set as default, or delete a design system created in artifacts. In standalone Claude Design, Enterprise plans can reserve the following for users in custom roles with the permission set to “Can manage”
 
 - **Publish a design system:** make it available across your organization so anyone can attach it to a project.
 
-- **Set the organization default:** choose the design system new artifacts use automatically.
+- **Set the organization default:** choose the design system new projects use automatically.
 
 - **Delete a design system:** permanently remove it from your organization.
 
 Everyone else can still create, edit, and use any published design system. If a user without the permission tries to publish, set the default, or delete, they'll see a note directing them to contact their administrator.
-
-**Note:** If you don't assign this permission to anyone, nothing changes. All users keep the same access to design systems as before.
 
 **To grant the permission:**
 
@@ -192,7 +210,7 @@ Artifacts, including designs, decks, and docs, count toward each user's existing
 
 - **Compliance API:** Artifacts made in conversations and the **Artifacts** tab are recorded at the artifact level. For docs, events for the doc itself are recorded, but activity inside a doc, like edits and comments, isn't recorded yet.
 
-- **Analytics:** Navigate to **[Analytics > Claude Design](https://claude.ai/analytics/claude-design)** for daily, weekly, and monthly active users. These analytics cover claude.ai/design only, and don't include designs made in conversations or the **Artifacts** tab.
+- **Analytics:** These analytics cover claude.ai/design only, and don't include designs made in conversations or the **Artifacts** tab.
 
 - **Audit logs:** Standalone Claude Design doesn't support audit logs.
 
@@ -214,7 +232,9 @@ Removing someone from your organization, including through your identity provide
 
 ### Organizations with special configurations
 
-- **CMEK, ZDR, or a HIPAA-ready configuration:** The new artifacts experience, including templates, design systems, and email invitations, isn't available yet. These organizations keep using live artifacts in Cowork.
+- **HIPAA-ready configurations:** An Owner can turn on Claude Docs, Slides, Design, Dashboards, and Motion in **[Organization settings > Artifacts](https://claude.ai/admin-settings/artifacts)** after accepting the terms. These aren't covered under your Business Associate Agreement (BAA), so keep protected health information (PHI) out of them.
+
+- **CMEK:** Artifacts are available.
 
 - **Education and K-12 organizations:** Email invitations aren't available.
 
@@ -222,7 +242,7 @@ Removing someone from your organization, including through your identity provide
 
 ## Third-party platform availability
 
-Artifacts are available in Claude on web and desktop, in Claude Code, and at claude.ai/design for standalone Claude Design. In Claude for iOS and Claude for Android, users can ask for an artifact and view the result. Artifacts aren't available through third-party cloud platforms.
+Artifacts are available in Claude on web and desktop, in Claude Code, and at claude.ai/design for standalone Claude Design until it closes. In Claude for iOS and Claude for Android, users can ask for an artifact, view the result, and edit docs, decks, and designs. Artifacts aren't available through third-party cloud platforms.
 
 ---
 
@@ -240,9 +260,11 @@ Yes, on Enterprise plans, with custom roles. Each template has its own capabilit
 
 **External sharing** lets users publish an artifact that anyone outside your organization can open with a link. **Email invitations outside your organization** lets users invite named people outside your organization to a specific artifact. Each has its own setting.
 
-### Who can publish, set the default, or delete design systems?
+### Who can share a design system with everyone, set the default, or delete one?
 
-If you haven't assigned the **Claude Design Admin** permission to anyone, any user with access to design systems can take these actions. On Enterprise plans, you can reserve them for specific users.
+In Artifacts, an organization Owner or Primary Owner can share a design system with everyone in your organization and set or remove the organization default. Members with the User, Admin, or custom role can't. A design system's owner, normally the person who created it, can delete it, and an organization Owner or Primary Owner can delete one that’s shared with everyone.
+
+The **Claude Design Admin** permission applies only in the standalone Claude Design app. It doesn't let anyone share, set as default, or delete a design system created in Artifacts.
 
 ### Can users export what they make?
 

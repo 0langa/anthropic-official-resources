@@ -53,6 +53,41 @@ As models with the capabilities of Claude Mythos become part of everyday securit
 
 [Learn more about the Cyber Verification Program (CVP).](https://www.anthropic.com/news/cyber-verification-program)
 
+## Related articles
+
+Explore more product news and best practices for teams building with Claude.
+
+[ArticleOct 8, 2026
+
+### How Block orchestrates Claude Fable across thousands of pull requests
+
+Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
+
+Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)[ArticleSep 29, 2026
+
+### Agents you can coach: how Asana builds human-agent teams with Claude
+
+Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
+‍
+
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
+
+### Automating eval design and hillclimbing with Claude
+
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleSep 25, 2026
+
+### Using Claude Code: Spending your effort
+
+What effort really is and when to use which level in Claude Code, from my own tests of three builds and a deep dive into Terminal-Bench 3.0 on Opus 5.5 and Fable 5.1.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/spending-your-effort/)
+
 ## Transform how your organization operates with Claude
 
 [See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)

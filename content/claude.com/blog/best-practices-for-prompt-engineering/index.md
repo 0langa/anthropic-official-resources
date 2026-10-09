@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
-
 # Best practices for prompt engineering for 2026
 
 Get better AI results with prompt engineering techniques from the team behind Claude.
 
-- Category
-
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  Claude apps
-- Date
-
-  November 10, 2025
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/best-practices-for-prompt-engineering)
-
-  https://claude.com/blog/best-practices-for-prompt-engineering
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude apps
+- DateNovember 10, 2025
+- Reading time20 min
+- ShareCopy link
 
 ## What is prompt engineering?
 
@@ -111,6 +95,8 @@ Examples aren't always necessary, but they shine when explaining concepts or dem
 
 **Without example**: "Summarize this article"
 
+Copy
+
 ```
 Here's an example of the summary style I want:
 
@@ -137,7 +123,7 @@ Give the AI explicit permission to express uncertainty rather than guessing. Thi
 
 This simple addition makes responses more trustworthy by allowing the model to acknowledge limitations.
 
-[**Try**](https://claude.ai/) **these in Claude.**
+**[Try](https://claude.ai/) these in Claude.**
 
 ## Advanced prompt engineering techniques
 
@@ -159,6 +145,8 @@ Prefilling lets you start the AI's response for it, guiding format, tone, or str
 Without prefill, Claude might say: "Here's the JSON you requested: {...}"
 
 With prefill (API usage):
+
+Copy
 
 ```
 messages=[
@@ -190,6 +178,8 @@ There are three common implementations of chain of thought:
 
 Simply add "Think step-by-step" to your instructions.
 
+Copy
+
 ```
 Draft personalized emails to donors asking for contributions to this year's Care for Kids program.
 
@@ -210,6 +200,8 @@ Think step-by-step before you write the email.
 
 Structure your prompt to provide specific reasoning stages.
 
+Copy
+
 ```
 Think before you write the email. First, think through what messaging might appeal to this donor given their donation history. Then, consider which aspects of the Care for Kids program would resonate with them. Finally, write the personalized donor email using your analysis.
 ```
@@ -217,6 +209,8 @@ Think before you write the email. First, think through what messaging might appe
 **Structured chain of thought**
 
 Use tags to separate reasoning from the final answer.
+
+Copy
 
 ```
 Think before you write the email in <thinking> tags. First, analyze what messaging would appeal to this donor. Then, identify relevant program aspects. Finally, write the personalized donor email in <email> tags, using your analysis.
@@ -240,6 +234,8 @@ The formatting style used in your prompt may influence the AI's response style. 
 
 For detailed control over formatting:
 
+Copy
+
 ```
 When writing reports or analyses, write in clear, flowing prose using complete paragraphs. Use standard paragraph breaks for organization. Reserve markdown primarily for inline code, code blocks, and simple headings.
 
@@ -257,9 +253,7 @@ This approach trades latency for higher accuracy by making each individual task 
 **Example: Research summary**
 
 1. **First prompt**: "Summarize this medical paper covering methodology, findings, and clinical implications."
-
 2. **Second prompt**: "Review the summary above for accuracy, clarity, and completeness. Provide graded feedback."
-
 3. **Third prompt**: "Improve the summary based on this feedback: [feedback from step 2]"
 
 Each stage adds refinement through focused instruction.
@@ -283,6 +277,8 @@ Some prompt engineering techniques that were popular with earlier AI models are 
 XML tags were once a recommended way to add structure and clarity to prompts, especially when incorporating large amounts of data. While modern models are better at understanding structure without XML tags, they can still be useful in specific situations.
 
 **Example**:
+
+Copy
 
 ```
 <athlete_information>
@@ -327,6 +323,8 @@ You've now seen individual techniques in isolation, but their real power emerges
 
 **Example combining multiple techniques**:
 
+Copy
+
 ```
 xtract key financial metrics from this quarterly report and present them in JSON format.
 
@@ -366,36 +364,7 @@ Not every prompt needs every technique. Here's a decision framework:
 
 ‍**Technique selection guide**:
 
-<table>
-<thead>
-<tr>
-<th>If you need...</th>
-<th>Use...</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Specific output format</td>
-<td>Examples, prefilling, or explicit format instructions</td>
-</tr>
-<tr>
-<td>Step-by-step reasoning</td>
-<td>Extended thinking (Claude 4.x) or chain of thought</td>
-</tr>
-<tr>
-<td>Complex multi-stage task</td>
-<td>Prompt chaining</td>
-</tr>
-<tr>
-<td>Transparent reasoning</td>
-<td>Chain of thought with structured output</td>
-</tr>
-<tr>
-<td>To prevent hallucinations</td>
-<td>Permission to say "I don't know"</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">If you need...</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Use...</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Specific output format</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Examples, prefilling, or explicit format instructions</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Step-by-step reasoning</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Extended thinking (Claude 4.x) or chain of thought</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Complex multi-stage task</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Prompt chaining</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Transparent reasoning</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Chain of thought with structured output</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">To prevent hallucinations</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Permission to say "I don't know"</span></td></tr></tbody></table>
 
 ## Troubleshooting common prompt issues
 
@@ -455,7 +424,7 @@ Prompt engineering is ultimately about communication: speaking the language that
 
 Remember: the best prompt isn't the longest or most complex. It's the one that achieves your goals reliably with the minimum necessary structure. As you practice, you'll develop an intuition for which techniques suit which situations.
 
-For instructions you want applied to every session rather than every prompt, move them into [CLAUDE.md files, skills, or other steering methods](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more). However, the shift toward context engineering doesn't diminish prompt engineering's importance.
+For instructions you want applied to every session rather than every prompt, move them into [CLAUDE.md files, skills, or other steering methods](https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more). However, the shift toward context engineering doesn't diminish prompt engineering's importance.
 
 In fact, prompt engineering is a fundamental building block within context engineering. Every well-crafted prompt becomes part of the larger context that shapes AI behavior, working alongside conversation history, attached files, and system instructions to create better outcomes.
 
@@ -468,102 +437,46 @@ In fact, prompt engineering is a fundamental building block within context engin
 - [Prompt engineering course](https://anthropic.skilljar.com/claude-with-the-anthropic-api)
 - [Context engineering guide](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
 
-No items found.
-
-[Prev](https://claude.com/blog/best-practices-for-prompt-engineering)Prev
-
-0/5
-
-[Next](https://claude.com/blog/best-practices-for-prompt-engineering)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-Start prompting in Claude today.
-
-[Start prompting in Claude today.](https://preview.claude.ai/new)Start prompting in Claude today.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
+[ArticleOct 7, 2026
 
-Aug 26, 2026
+### Automating eval design and hillclimbing with Claude
 
-### How Warp builds self-improving agents on Claude
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-Agents
+Claude Platform
 
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/best-practices-for-prompt-engineering)How Warp builds self-improving agents on Claude
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
 
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
+### Claude Code in the cloud: a field guide to cloud sessions
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
 
-Sep 29, 2026
+Claude Code
 
-### Agents you can coach: how Asana builds human-agent teams with Claude
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
 
-Agents
+### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/best-practices-for-prompt-engineering)Agents you can coach: how Asana builds human-agent teams with Claude
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)[ArticleOct 1, 2026
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+### Getting started with Claude Code mods
 
-Sep 28, 2026
+Claude Code
 
-### Giving companies more control over their AI agents, with NVIDIA
-
-Agents
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/best-practices-for-prompt-engineering)Giving companies more control over their AI agents, with NVIDIA
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Sep 8, 2026
-
-### Reducing cost and improving performance with Claude Platform
-
-Agents
-
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/best-practices-for-prompt-engineering)Reducing cost and improving performance with Claude Platform
-
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
+(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/best-practices-for-prompt-engineering)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

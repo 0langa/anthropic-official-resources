@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
-
 # Using Claude Code: session management and 1M context
 
 How you manage sessions, context, and compaction in Claude Code shapes your results more than you might expect. Here's a practical guide to making the right call at every turn.
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  April 15, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/using-claude-code-session-management-and-1m-context)
-
-  https://claude.com/blog/using-claude-code-session-management-and-1m-context
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code
+- DateApril 15, 2026
+- Reading time8 min
+- ShareCopy link
 
 We released **`/usage`**, a new slash command to help you understand your usage with Claude Code. This feature was informed by a number of conversations with customers.
 
@@ -34,7 +18,7 @@ There’s a surprising amount of detail here that can really shape your experien
 
 ## **A quick primer on context, compaction and context rot**
 
-![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69e02238a3e7e9532cb643de_image6.png)
+![](https://assets.claude.com/a1d3f4d3841b7718b168df873db833f08031b21d.png)
 
 The context window is everything the model can "see" at once when generating its next response. It includes your system prompt, the conversation so far, every tool call and its output, and every file that's been read. Claude Code has a context window of one million tokens.
 
@@ -42,7 +26,7 @@ Unfortunately, using context has a slight impact on performance, which is often 
 
 Context windows are a hard cutoff, so when you’re nearing the end of the context window, the task you’ve been working on is automatically summarized into a smaller description and the model continues the work in a new context window. We call this compaction. You can also trigger compaction yourself.
 
-![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69e02297f13357d9b32d8312_image5.png)
+![](https://assets.claude.com/be22be7e25198ecb717775fadf1e0d3ec41446a2.png)
 
 ## **Every turn as a branching point**
 
@@ -56,7 +40,7 @@ Say you've just asked Claude to do something and it's finished—you’ve now go
 
 While the most natural course is just to continue, the other four options exist to help manage your context.
 
-![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69e022cf45e7f9c9d025756d_image3.png)
+![](https://assets.claude.com/0f096c1128f26b656d8bd4ca2355f35ac17456d6.png)
 
 ## **When to start a new session**
 
@@ -68,7 +52,7 @@ Sometimes you may do related tasks where some of the context is still necessary,
 
 ## **Rewinding instead of correcting**
 
-![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69e0234c97977d4944bea810_image4.png)
+![](https://assets.claude.com/0e0460fbf4e1894b2ab552db722fa50709125f14.png)
 
 In Claude Code, double-tapping Esc (or running `/rewind`) lets you jump back to any previous message and re-prompt from there. The messages after that point are dropped from the context.
 
@@ -82,27 +66,27 @@ Once a session gets long, you have two ways to shed extraneous context: `/compac
 
 **Compact** asks the model to summarize the conversation so far, then replaces the history with that summary. It's lossy, but you didn't have to write anything yourself and Claude might be more thorough in including important learnings or files. You can also steer it by passing instructions (`/compact focus on the auth refactor, drop the test debugging`).
 
-![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69e02427049669efd6bb7604_image1.png)
+![](https://assets.claude.com/45cde22d0d024defb3e6276ade31d5bc1bf9834c.png)
 
-With `/clear`*you* write down what matters ("we're refactoring the auth middleware, the constraint is X, the files that matter are A and B, we've ruled out approach Y") and start clean. It's more work, but the resulting context is what you decided was relevant.
+With `/clear` *you* write down what matters ("we're refactoring the auth middleware, the constraint is X, the files that matter are A and B, we've ruled out approach Y") and start clean. It's more work, but the resulting context is what you decided was relevant.
 
 ## **What causes a bad autocompact?**
 
 If you run a lot of long-running sessions, you might have noticed times in which compacting might be particularly bad. In this case we’ve often found that bad compacts can happen when the model can’t predict the direction your work is going.
 
-In the example above,  autocompact fires after a long debugging session and summarizes the investigation and your next message is "now fix that other warning we saw in bar.ts."
+In the example above, autocompact fires after a long debugging session and summarizes the investigation and your next message is "now fix that other warning we saw in bar.ts."
 
 But because the session was focused on debugging, the other warning might have been dropped from the summary.
 
-This is particularly difficult, because due to context rot, the model is at its least intelligent point when compacting.  With one million context, you have more time to /compact proactively with a description of what you want to do.
+This is particularly difficult, because due to context rot, the model is at its least intelligent point when compacting. With one million context, you have more time to /compact proactively with a description of what you want to do.
 
 ## **Subagents and fresh context windows**
 
-[Subagents](https://claude.com/blog/subagents-in-claude-code) tend to work well when you know in advance that a chunk of work will produce a lot of intermediate output you won't need again.
+[Subagents](https://claude.com/resources/articles/subagents-in-claude-code) tend to work well when you know in advance that a chunk of work will produce a lot of intermediate output you won't need again.
 
 When Claude spawns a subagent via the Agent tool, that subagent gets its own fresh context window. It can do as much work as it needs to, and then synthesize its results so only the final report comes back to the parent.
 
-![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69e0241044643c5402b312a9_image2.png)
+![](https://assets.claude.com/0cd3a7b2e6fce665631f1c77a10eb6de8d0c1a08.png)
 
 The mental test we use at Anthropic: *will I need this tool output again, or just the conclusion?*
 
@@ -116,145 +100,58 @@ While Claude Code will automatically call subagents, you may want to tell it to 
 
 To help you choose which context management feature to use, we put together this helpful table that outlines common situations, what tool to reach for, and why.
 
-<table>
-<thead>
-<tr>
-<th scope="col">Situation</th>
-<th scope="col">Consider reaching for</th>
-<th scope="col">Why</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Same task, context is still relevant</td>
-<td>Continue</td>
-<td>Everything in the window is still load-bearing; don't pay to rebuild it.</td>
-</tr>
-<tr>
-<td>Claude went down a wrong path</td>
-<td>Rewind (<kbd>double-Esc</kbd>)</td>
-<td>Keep the useful file reads, drop the failed attempt, re-prompt with what you learned.</td>
-</tr>
-<tr>
-<td>Mid-task but the session is bloated with stale debugging/exploration</td>
-<td><code>/compact &lt;hint&gt;</code></td>
-<td>Low effort; Claude decides what mattered. Steer it with instructions if needed.</td>
-</tr>
-<tr>
-<td>Starting a genuinely new task</td>
-<td><code>/clear</code></td>
-<td>Zero rot; you control exactly what carries forward.</td>
-</tr>
-<tr>
-<td>Next step will generate lots of output you'll only need the conclusion from (codebase search, verification, doc writing)</td>
-<td>Subagent</td>
-<td>Intermediate tool noise stays in the child's context; only the result comes back.</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Situation</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Consider reaching for</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Why</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Same task, context is still relevant</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Continue</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Everything in the window is still load-bearing; don't pay to rebuild it.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Claude went down a wrong path</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Rewind (double-Esc)</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Keep the useful file reads, drop the failed attempt, re-prompt with what you learned.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Mid-task but the session is bloated with stale debugging/exploration</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">/compact &lt;hint&gt;</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Low effort; Claude decides what mattered. Steer it with instructions if needed.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Starting a genuinely new task</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">/clear</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Zero rot; you control exactly what carries forward.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Next step will generate lots of output you'll only need the conclusion from (codebase search, verification, doc writing)</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Subagent</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Intermediate tool noise stays in the child's context; only the result comes back.</span></td></tr></tbody></table>
 
 We look forward to seeing what you build.
 
 ‍
 
-*Get started with* [*Claude Code*](https://claude.com/product/claude-code) *today.*
+*Get started with [Claude Code](https://claude.com/product/claude-code) today.*
 
-***About the author:*** *Thariq Shihipar is a member of technical staff at Anthropic, working on Claude Code.*
+***About the author:** Thariq Shihipar is a member of technical staff at Anthropic, working on Claude Code.*
 
 ‍
 
-No items found.
-
-[Prev](https://claude.com/blog/using-claude-code-session-management-and-1m-context)Prev
-
-0/5
-
-[Next](https://claude.com/blog/using-claude-code-session-management-and-1m-context)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+[ArticleOct 7, 2026
 
-Aug 21, 2026
+### Automating eval design and hillclimbing with Claude
 
-### The AI-native SDLC playbook
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-Enterprise AI
+Claude Platform
 
-[The AI-native SDLC playbook](https://claude.com/blog/using-claude-code-session-management-and-1m-context)The AI-native SDLC playbook
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
 
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+### Claude Code in the cloud: a field guide to cloud sessions
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
-
-Sep 24, 2026
-
-### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
 
 Claude Code
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/using-claude-code-session-management-and-1m-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
 
-Sep 23, 2026
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)[ArticleOct 1, 2026
 
-### How to prepare for AI-driven code modernization projects
+### Getting started with Claude Code mods
 
-Enterprise AI
+Claude Code
 
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/using-claude-code-session-management-and-1m-context) How to prepare for AI-driven code modernization projects
-
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/using-claude-code-session-management-and-1m-context)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/using-claude-code-session-management-and-1m-context)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

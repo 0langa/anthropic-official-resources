@@ -101,31 +101,27 @@ User feedback plays a crucial role in Claude's improvement. By analyzing user in
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleSep 24, 2026
+[ArticleOct 8, 2026
 
-### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Build live dashboards and animate explainers with Claude
 
-Our latest Opus model is priced and trained to optimize costs for how developers code now.
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
 
-Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 7, 2026
 
-### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
+### Claude Haiku 5.5
 
-Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
+Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
 
-Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
+(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)[ArticleOct 6, 2026
 
-### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
+### Claude now works with Google Docs, Sheets, and Slides
 
-Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
+Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta).
 
-Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
+Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)[ArticleOct 6, 2026
 
-### The Claude Code guide for startups
-
-How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
-
-Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
+### We’re expanding the Claude Startups program to help founders build](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)
 
 ## Transform how your organization operates with Claude
 

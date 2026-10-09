@@ -611,6 +611,9 @@
   "https://claude.com/resources/articles/create-files": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://claude.com/resources/articles/dashboards-and-motion": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
   "https://claude.com/resources/articles/dispatch-and-computer-use": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
@@ -755,6 +758,18 @@
   ],
   "https://claude.com/resources/articles/your-thinking-partner": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/resources/articles?categories=product-announcements": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/articles?products=claude-code": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/articles?products=claude-enterprise": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/articles?use-cases=agents": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
   "https://claude.com/resources/best-practices": [
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
@@ -7467,6 +7482,9 @@
   "https://support.claude.com/en/articles/14604416-get-started-with-claude-design": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/14604842": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/14604842-cyber-verification-program": [
     "Native source; upstream MDX components retained."
   ],
@@ -7833,6 +7851,9 @@
   "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/17154008": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans": [
     "Native source; upstream MDX components retained."
   ],
@@ -7858,6 +7879,24 @@
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/17318731-use-claude-code-local-mode-and-claude-cowork-local-mode-on-a-hipaa-ready-enterprise-plan": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/17454700-get-started-with-claude-dashboards": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/17454997-get-started-with-claude-motion": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/17457950-use-artifacts-with-a-keyboard-or-screen-reader": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/17458093-claude-docs-keyboard-shortcuts": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [
@@ -8274,6 +8313,7 @@
   "https://www.anthropic.com/engineering/harness-design-long-running-apps": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
     "Could not read tab 'Sprite editor': TimeoutError",
+    "Could not read tab 'AI game design': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/2028-ai-leadership": [
@@ -8328,6 +8368,7 @@
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/news/claude-fable-5-mythos-5": [
+    "Could not read tab 'Fluid with Classical EDM': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-for-chrome": [
@@ -8339,7 +8380,8 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-opus-4-6": [
-    "Could not read tab 'Agentic search': TimeoutError",
+    "Could not read tab 'Coding': TimeoutError",
+    "Could not read tab 'Reasoning': TimeoutError",
     "Could not read tab 'Long-context reasoning': TimeoutError",
     "Could not read tab 'Multilingual coding': TimeoutError",
     "Could not read tab 'Cybersecurity': TimeoutError",
@@ -8361,6 +8403,7 @@
   ],
   "https://www.anthropic.com/news/claude-sonnet-4-5": [
     "Could not read tab 'Law': TimeoutError",
+    "Could not read tab 'STEM': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-sonnet-5": [
@@ -8485,7 +8528,6 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html"
   ],
   "https://www.anthropic.com/research/claude-fable-5-mythos-5": [
-    "Could not read tab 'Fluid with Classical EDM': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-opus-5": [
@@ -8563,6 +8605,9 @@
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/research/team/frontier-red-team": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/research/the-missing-map-of-the-sky": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/research/what-work-can-robots-do": [

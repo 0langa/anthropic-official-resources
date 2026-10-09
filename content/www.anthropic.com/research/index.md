@@ -30,7 +30,11 @@ Working closely with the Anthropic Policy and Safeguards teams, Societal Impacts
 
 Anthropic’s Economics team is sharing a new model of how AI may affect economic growth, jobs, wages, and more by 2030. The model lets you explore the scenarios, tell us what you think will happen, and see how your answers compare to +10,000 Americans.](https://www.anthropic.com/institute/econ-scenarios)
 
-[Societal ImpactsSep 29, 2026
+[ScienceOct 8, 2026
+
+#### The missing map of the sky
+
+Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.](https://www.anthropic.com/research/the-missing-map-of-the-sky)[Societal ImpactsSep 29, 2026
 
 #### What do you want from AI?
 
@@ -38,11 +42,7 @@ We’re launching a new study using Anthropic Interviewer to learn from your exp
 
 #### Project Swap: What happens when agents trade for us?
 
-To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.](https://www.anthropic.com/research/project-swap)[ScienceSep 23, 2026
-
-#### Claude discovers a novel enzyme system with CRISPR-like repeats
-
-We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR.](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)[Sep 17, 2026
+To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.](https://www.anthropic.com/research/project-swap)[Sep 17, 2026
 
 #### Measurements for understanding the pace of AI development inside frontier labs
 
@@ -54,6 +54,12 @@ Search
 
 DateCategoryTitle
 
+- [Oct 8, 2026Science
+
+   The missing map of the sky](https://www.anthropic.com/research/the-missing-map-of-the-sky)
+- [Oct 8, 2026Frontier Red Team
+
+  Launching an opt-in vulnerability-finding service for open-source software](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source)
 - [Oct 1, 2026Science
 
   Claude-shaped science](https://www.anthropic.com/research/claude-shaped-science)
@@ -78,12 +84,6 @@ DateCategoryTitle
 - [Sep 10, 2026Frontier Red Team
 
   Measuring tactical intelligence targeting and conventional weapons capabilities of AI models](https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities)
-- [Sep 9, 2026Alignment
-
-  An alignment assessment of recent cybersecurity incidents](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents)
-- [Sep 4, 2026Science
-
-  Formalizing Fermat's Last Theorem](https://www.anthropic.com/research/formalizing-fermats-last-theorem)
 
 [See more](https://www.anthropic.com/research)
 

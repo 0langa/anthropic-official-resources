@@ -18,13 +18,17 @@ Your organization's billing address determines where your invoices are sent. You
 
 If you want to use a name other than the one tied to your payment method, an organization Owner should check the "Use a different name on invoices" box when adding or updating your payment method in **[Organization settings > Billing](https://claude.ai/admin-settings/billing)**:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922145253/f2e3d4e0fe43a2ea07e89244764c/image.png?expires=1791376200&amp;signature=428c92978e6af6b9599f8887deeab26d663918f1c110f6da7e3ffc99fb19a2cb&amp;req=dSklFMh6mINaWvMW1HO4zRZTxVvCvM3RKAqLF4ERnlVDgpLTlGWbXJ9v%2Fwne%0ARFYQMfdEXvc05sAatns%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922145253/f2e3d4e0fe43a2ea07e89244764c/image.png?expires=1791549900&amp;signature=98f70004991fa4904b9fd7feee142dd0761ea60ab9f3194a496a4fd4642af2ad&amp;req=dSklFMh6mINaWvMW1HO4zRZTxVvEv8LaKAqLF4ERnlV02awrRmOAYKp6zodW%0A7OslH6yHSP1fv6hO06M%3D%0A)
 
 ## When will I be billed?
 
 Your payment method on file will be charged at the beginning of your billing cycle. The amount is based on the number of members on your team at the beginning of the billing cycle. If you add members or upgrade seats during the billing cycle, you'll be charged the prorated amount immediately. Removing members doesn't generate a credit or refund. The seat becomes available to assign to someone else.
 
 See **[How is my Team plan bill calculated?](https://support.claude.com/en/articles/9267289-how-is-my-team-plan-bill-calculated)** for more information about Team plan pricing.
+
+## Where can I see my monthly API credits?
+
+In the Claude Console. All credits appear under **[Settings > Billing](https://platform.claude.com/settings/billing)** in your linked Console organization, with their amount and expiry date. Usage is never charged to your Claude plan. Learn more about **[monthly API credits for Max and Team plans](https://support.claude.com/en/articles/17154008)**.
 
 ## Where can I find the invoice or receipt for my Team plan payment?
 

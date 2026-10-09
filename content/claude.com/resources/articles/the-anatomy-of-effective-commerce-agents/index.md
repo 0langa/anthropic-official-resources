@@ -402,30 +402,33 @@ Commerce has always rewarded making the buying process as smooth as possible. Ag
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleSep 29, 2026
+[ArticleOct 8, 2026
 
-### Agents you can coach: how Asana builds human-agent teams with Claude
+### How Block orchestrates Claude Fable across thousands of pull requests
 
-Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
-‍
+Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
 
-Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
+Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)[ArticleOct 7, 2026
 
-### Giving companies more control over their AI agents, with NVIDIA
+### Automating eval design and hillclimbing with Claude
 
-Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-### Reducing cost and improving performance with Claude Platform
+Claude Platform
 
-Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
 
-Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleAug 26, 2026
+### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
 
-### How Warp builds self-improving agents on Claude
+Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)[ArticleOct 6, 2026
 
-Learn how Warp devised a simple development pattern that anyone can use to create self-improving agents.
+### Claude Code in the cloud: a field guide to cloud sessions
 
-Claude Platform](https://claude.com/resources/articles/how-warp-builds-self-improving-agents-on-claude)
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)
 
 ## Transform how your organization operates with Claude
 

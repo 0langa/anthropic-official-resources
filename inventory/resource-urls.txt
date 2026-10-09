@@ -1242,6 +1242,7 @@ https://claude.com/resources/articles/cowork-plugins-across-enterprise
 https://claude.com/resources/articles/cowork-plugins-finance
 https://claude.com/resources/articles/cowork-web-mobile
 https://claude.com/resources/articles/create-files
+https://claude.com/resources/articles/dashboards-and-motion
 https://claude.com/resources/articles/deploying-ai-from-pilot-to-production
 https://claude.com/resources/articles/deploying-claude-across-financial-services
 https://claude.com/resources/articles/deploying-claude-across-the-legal-industry
@@ -1276,6 +1277,7 @@ https://claude.com/resources/articles/how-anthropics-business-development-team-u
 https://claude.com/resources/articles/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers
 https://claude.com/resources/articles/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds
 https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents
+https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests
 https://claude.com/resources/articles/how-brex-improves-code-quality-and-productivity-with-claude-code
 https://claude.com/resources/articles/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start
 https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace
@@ -1667,6 +1669,7 @@ https://claude.com/resources/webinars/rebroadcast-claude-on-google-cloud-monitor
 https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork
 https://claude.com/resources/webinars/recurring-virtual-claude-code-workshop
 https://claude.com/resources/webinars/recurring-virtual-claude-workshop
+https://claude.com/resources/webinars/scaling-ai-across-the-portfolio-anthropic-and-aws-for-private-equity
 https://claude.com/resources/webinars/scaling-ai-agent-development-at-netflix
 https://claude.com/resources/webinars/scaling-claude-with-cost-controls-sept-2026
 https://claude.com/resources/webinars/scaling-development-with-remote-agents-augment-code
@@ -3912,6 +3915,7 @@ https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plu
 https://support.claude.com/en/articles/14328960-identity-verification-on-claude
 https://support.claude.com/en/articles/14447276-configure-a-custom-opentelemetry-collector-for-office-agents
 https://support.claude.com/en/articles/14465370-use-claude-for-word
+https://support.claude.com/en/articles/14477985
 https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry
 https://support.claude.com/en/articles/14477985-monitor-cowork-activity-with-opentelemetry
 https://support.claude.com/en/articles/14479288
@@ -4083,6 +4087,15 @@ https://support.claude.com/en/articles/17203415-set-up-claude-for-intune
 https://support.claude.com/en/articles/17274727-artifact-usage-promotion
 https://support.claude.com/en/articles/17318731
 https://support.claude.com/en/articles/17318731-use-claude-code-local-mode-and-claude-cowork-local-mode-on-a-hipaa-ready-enterprise-plan
+https://support.claude.com/en/articles/17440474
+https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude
+https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization
+https://support.claude.com/en/articles/17454700-get-started-with-claude-dashboards
+https://support.claude.com/en/articles/17454997-get-started-with-claude-motion
+https://support.claude.com/en/articles/17457950
+https://support.claude.com/en/articles/17457950-use-artifacts-with-a-keyboard-or-screen-reader
+https://support.claude.com/en/articles/17458093
+https://support.claude.com/en/articles/17458093-claude-docs-keyboard-shortcuts
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer
@@ -4323,6 +4336,7 @@ https://www.anthropic.com/learn/claude-for-work
 https://www.anthropic.com/learn/claude-for-you
 https://www.anthropic.com/news
 https://www.anthropic.com/news/100k-context-windows
+https://www.anthropic.com/news/2026-usage-policy-update
 https://www.anthropic.com/news/2028-ai-leadership
 https://www.anthropic.com/news/3-5-models-and-computer-use
 https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack
@@ -4354,6 +4368,7 @@ https://www.anthropic.com/news/anthropic-and-the-department-of-defense-to-advanc
 https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india
 https://www.anthropic.com/news/anthropic-bcg
 https://www.anthropic.com/news/anthropic-codepath-partnership
+https://www.anthropic.com/news/anthropic-cyber-mission
 https://www.anthropic.com/news/anthropic-economic-index-connector
 https://www.anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7
 https://www.anthropic.com/news/anthropic-economic-index-september-2025-report
@@ -4503,6 +4518,7 @@ https://www.anthropic.com/news/fine-tune-claude-3-haiku
 https://www.anthropic.com/news/frontier-model-security
 https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety
 https://www.anthropic.com/news/gates-foundation-partnership
+https://www.anthropic.com/news/genesis-mission-commitment
 https://www.anthropic.com/news/genesis-mission-partnership
 https://www.anthropic.com/news/github-copilot
 https://www.anthropic.com/news/golden-gate-claude
@@ -4751,6 +4767,7 @@ https://www.anthropic.com/research/introducing-anthropic-science
 https://www.anthropic.com/research/introspection
 https://www.anthropic.com/research/labor-market-impacts
 https://www.anthropic.com/research/language-models-mostly-know-what-they-know
+https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source
 https://www.anthropic.com/research/long-running-Claude
 https://www.anthropic.com/research/making-claude-a-chemist
 https://www.anthropic.com/research/many-shot-jailbreaking
@@ -4809,6 +4826,7 @@ https://www.anthropic.com/research/team/interpretability
 https://www.anthropic.com/research/team/societal-impacts
 https://www.anthropic.com/research/the-anthropic-economic-index
 https://www.anthropic.com/research/the-capacity-for-moral-self-correction-in-large-language-models
+https://www.anthropic.com/research/the-missing-map-of-the-sky
 https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models
 https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning
 https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models

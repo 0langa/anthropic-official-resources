@@ -48,6 +48,36 @@ Visit the [Claude Startups page](https://claude.com/programs/startups) to learn 
 
 \*\*Based on the combined maximum value of all Claude Startup Stack offers at partner list prices as of September 2026. Actual value depends on which offers you redeem, your plan, and your team size. Offers are provided by partners and subject to their terms. Your company may not be able to receive or combine all offers.
 
+## Related articles
+
+Explore more product news and best practices for teams building with Claude.
+
+[ArticleOct 8, 2026
+
+### Build live dashboards and animate explainers with Claude
+
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
+
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 7, 2026
+
+### Claude Haiku 5.5
+
+Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
+
+(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)[ArticleOct 6, 2026
+
+### Claude now works with Google Docs, Sheets, and Slides
+
+Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta).
+
+Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)[ArticleOct 6, 2026
+
+### Expanding the Cyber Verification Program
+
+We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.
+
+(opens in new tab)](https://www.anthropic.com/news/cyber-verification-program)
+
 ## Transform how your organization operates with Claude
 
 [See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)

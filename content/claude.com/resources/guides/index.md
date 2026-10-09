@@ -8,6 +8,14 @@ Unsubscribe at any time.
 
 Step-by-step walkthroughs and practical playbooks for getting the most out of Claude.
 
+[Guide38 min read
+
+### Claude Science product guide
+
+A practical deployment guide: which Claude surface to use when, and how to roll out Claude Science in a research org.
+
+Claude Science](https://claude.com/resources/guides/claude-science-product-guide)
+
 [Guide35 min read
 
 ### The Enterprise AI Transformation Guide for Life Sciences
@@ -32,13 +40,11 @@ Apply Zero Trust to AI agents: the threat landscape, tiered security controls, a
 
 Claude CodeMCP](https://claude.com/resources/guides/zero-trust-for-ai-agents)
 
-[Guide32 min read
+[Guide49 min read
 
-### Claude for the legal industry
+### The AI investment firm
 
-A practical deployment guide: Claude products for legal teams, real workflow examples, and a phased rollout roadmap.
-
-Claude Enterprise](https://claude.com/resources/guides/claude-for-the-legal-industry)
+We draw from our work with investment firms to outline best practices for AI adoption, and the work Claude takes on for each team.](https://claude.com/resources/guides/the-ai-investment-firm)
 
 [Guide38 min read
 
@@ -48,21 +54,17 @@ A practical deployment guide: which Claude surface to use when, and how to roll 
 
 Claude Science](https://claude.com/resources/guides/claude-science-product-guide)
 
-[Guide35 min read
-
-### The Enterprise AI Transformation Guide for Life Sciences
-
-A step-by-step guide to deploying AI in regulated science — from governance and compliance to pilots that scale.
-
-Claude Enterprise](https://claude.com/resources/guides/the-enterprise-ai-transformation-guide-for-life-sciences)
-
-Featured resource 1 of 5: The Enterprise AI Transformation Guide for Life Sciences
+Featured resource 1 of 5: Claude Science product guide
 
 Advanced filters
 
-Showing 11 of 17 resources
+Showing 11 of 18 resources
 
-[Guide38 min read
+[Guide49 min read
+
+### The AI investment firm
+
+We draw from our work with investment firms to outline best practices for AI adoption, and the work Claude takes on for each team.](https://claude.com/resources/guides/the-ai-investment-firm)[Guide38 min read
 
 ### Claude Science product guide
 
@@ -122,12 +124,6 @@ Claude Code](https://claude.com/resources/guides/the-code-modernization-playbook
 
 Accelerate your enterprise AI transformation with lessons from retailers already seeing measurable ROI.
 
-Claude Enterprise](https://claude.com/resources/guides/the-enterprise-ai-transformation-guide-for-retail)[Guide31 min read
-
-### The Complete Guide to Building Skills for Claude
-
-Everything you need to build effective skills for Claude — from planning and structure to testing and distribution.
-
-Claude Code](https://claude.com/resources/guides/the-complete-guide-to-building-skills-for-claude)
+Claude Enterprise](https://claude.com/resources/guides/the-enterprise-ai-transformation-guide-for-retail)
 
 View more

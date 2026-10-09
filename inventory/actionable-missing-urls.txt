@@ -1,9 +1,4 @@
-https://claude.com/resources/articles?categories=product-announcements
-https://claude.com/resources/articles?products=claude-code
-https://claude.com/resources/articles?products=claude-enterprise
-https://claude.com/resources/articles?use-cases=agents
-https://claude.com/resources/webinars/agents-with-claude-on-vertex
-https://support.claude.com/en/articles/14604842
-https://support.claude.com/en/articles/17154008
-https://www.anthropic.com/webinars/claude-for-investing-teams
-https://www.anthropic.com/webinars/inside-claude-for-financial-advisors
+https://support.claude.com/en/articles/14477985
+https://support.claude.com/en/articles/17440474
+https://support.claude.com/en/articles/17457950
+https://support.claude.com/en/articles/17458093

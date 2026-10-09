@@ -1,16 +1,20 @@
 # Features and capabilities
 
-30 articles
+34 articles
 
 [What are artifacts and how do I use them?](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them)
 
 [Share artifacts](https://support.claude.com/en/articles/9547008-share-artifacts)
+
+[Get started with Claude Dashboards](https://support.claude.com/en/articles/17454700-get-started-with-claude-dashboards)
 
 [Get started with Claude Docs](https://support.claude.com/en/articles/16923645-get-started-with-claude-docs)
 
 [Get started with Claude Design](https://support.claude.com/en/articles/14604416-get-started-with-claude-design)
 
 [Set up your design system in Claude Design](https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design)
+
+[Migrate from standalone Claude Design to Claude](https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude)
 
 [When should I use web search, extended thinking, and research?](https://support.claude.com/en/articles/11095361-when-should-i-use-web-search-extended-thinking-and-research)
 
@@ -61,3 +65,7 @@
 [Set up Salesforce in Claude for your organization](https://support.claude.com/en/articles/16952184-set-up-salesforce-in-claude-for-your-organization)
 
 [Use Claude in Google Docs, Sheets, and Slides](https://support.claude.com/en/articles/16951679-use-claude-in-google-docs-sheets-and-slides)
+
+[Claude Docs keyboard shortcuts](https://support.claude.com/en/articles/17458093-claude-docs-keyboard-shortcuts)
+
+[Use artifacts with a keyboard or screen reader](https://support.claude.com/en/articles/17457950-use-artifacts-with-a-keyboard-or-screen-reader)

@@ -1,39 +1,13 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
-
 # Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions
 
-- Category
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Tag
+- AuthorsClement Peng , Lily Zhao
+- DateAugust 13, 2026
+- Reading time2 min
+- ShareCopy link
 
-  [Agents](https://claude.com/blog/category/agents)
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-
-  [Product announcements](https://claude.com/blog/category/announcements)
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Tag](https://claude.com/product/tag)
-- Date
-
-  August 13, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions)
-
-  https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions
-- Author(s)
-
-  Clement Peng
-
-  Lily Zhao
-
-In our [previous post](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude), we described how we enabled Claude to answer data analytics questions with ~95% accuracy through three primary artifacts:
+In our [previous post](https://claude.com/resources/articles/how-anthropic-enables-self-service-data-analytics-with-claude), we described how we enabled Claude to answer data analytics questions with ~95% accuracy through three primary artifacts:
 
 - A governed semantic layer;
 - A set of skill files that encode our analytical conventions; and
@@ -41,9 +15,9 @@ In our [previous post](https://claude.com/blog/how-anthropic-enables-self-servic
 
 That post focused on [Claude Code](https://claude.com/product/claude-code) (the primary development surface for our data scientists and data engineers), and best practices for improving agentic accuracy.
 
-This post discusses how the data team at Anthropic applies that foundation to where the rest of the company works using [Claude Tag](https://claude.com/product/tag)(public beta), which is the foundation for our data analytics agent in Slack. Anyone can ask it data-related questions and receive answers backed by **the same governed definitions analysts use**.
+This post discusses how the data team at Anthropic applies that foundation to where the rest of the company works using [Claude Tag](https://claude.com/product/tag) (public beta), which is the foundation for our data analytics agent in Slack. Anyone can ask it data-related questions and receive answers backed by **the same governed definitions analysts use**.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7e018507d3cd146d296978_11388c5c.png)
+![](https://assets.claude.com/2a42bc446aa9ca8b37a47b8a658b909a9a481e5b.png)
 
 Fictional recreation of a Claude Tag conversation for illustrative purposes. Details, names, and tools are not real.
 
@@ -53,27 +27,9 @@ Getting an agent to be *accurate* and getting it *deployed where non-analysts ca
 
 Rather, we’ll cover our five most important learnings over the past year for how to deploy a data analytics agent in Slack and how you should think about distribution, permissions, freshness, and observability.
 
-No items found.
-
-[Prev](https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions)Prev
-
-0/5
-
-[Next](https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
 ### Refresh skills as often as you refresh your data models
 
-You can teach Claude how to do a task aligned with your style and requirements using a [skill](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more), which is a markdown file with natural language instructions and files Claude can reference when needed.
+You can teach Claude how to do a task aligned with your style and requirements using a [skill](https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more), which is a markdown file with natural language instructions and files Claude can reference when needed.
 
 The single most important architectural decision we made was to treat skill files as **served content**, refreshed continuously, rather than something shipped once and forgotten.
 
@@ -107,13 +63,13 @@ To account for these gaps, we wire Claude Tag into our internal knowledge index,
 
 The answer now would look like "sign-ups dropped 12% Tuesday: there was a payment-service incident open 9-11am that morning, and the dip is concentrated in the affected region."
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7e018507d3cd146d2969dd_0990031b.png)
+![](https://assets.claude.com/142616e5c6d1549e829ef9b439f759032222cb6b.png)
 
 If your organization has a knowledge graph, internal search, or even just well-organized incident and changelog feeds, connecting Claude Tag to them is the highest-leverage information you can add after the warehouse itself. You can also [connect Claude Tag so it can read and get context from key channels across Slack](https://claude.com/docs/claude-tag/admins/attach-to-scope).
 
 ### Permission the service account deliberately
 
-Claude Tag queries your warehouse as a service account, not as the human who asked the question. While that's the right design (since you don't want every Slack user requiring direct warehouse credentials), [**everyone who can mention the bot has the bot's data access**](https://claude.com/blog/agent-identity-access-model)**.** There is no per-user row-level security: what the service account can read, anyone in the channel can ask about.
+Claude Tag queries your warehouse as a service account, not as the human who asked the question. While that's the right design (since you don't want every Slack user requiring direct warehouse credentials), **[everyone who can mention the bot has the bot's data access](https://claude.com/resources/articles/agent-identity-access-model).** There is no per-user row-level security: what the service account can read, anyone in the channel can ask about.
 
 We approach this in five ways (and we recommend taking this seriously as it’s easy to get wrong and hard to undo):
 
@@ -141,7 +97,7 @@ We log a structured event for every question Claude Tag handles. This includes:
 
 This telemetry feeds two views. One tracks **adoption** or what fraction of agent queries route through the governed layer rather than ad hoc SQL by surface and domain. The other tracks **correctness** measured by the rate of 👎 reactions and corrections by domain. This is the online proxy for accuracy between eval runs.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7e018507d3cd146d2969e3_07987b0d.png)
+![](https://assets.claude.com/6b2efdbb4fb54c3220f5c57ab7db76ec0e2fdf38.png)
 
 The adoption metric turned out to be the single most actionable number we tracked. When it dips for a domain, it almost always means either a skill file has drifted or a new class of questions has appeared that the semantic layer doesn't cover.
 
@@ -157,7 +113,7 @@ Claude notified the dashboard owner who decided to fix the cache immediately whi
 
 The owner then asked what other dashboards had slowed, and it turned out dozens were impacted by the same caching error. Claude wrote the caching fix, the data team member reviewed it, and all impacted dashboards were functioning at full capacity in less than an hour.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7e018507d3cd146d2969e0_0dceb0a6.png)
+![](https://assets.claude.com/0b59bec1e5baa7be2549ac7f12603714efbfb922.png)
 
 Fictional recreation of a Claude Tag conversation for illustrative purposes. Incident details, names, and tools are not real.
 
@@ -182,13 +138,13 @@ You can allow Claude to be more proactive in any channel you choose, reading alo
 
 For example, an Anthropic team member asked in a public channel whether a dashboard included a new usage category. Within 90 seconds Claude answered how the data was defined, confirmed the new segment was missing, proposed a fix, and drafted a PR. A data scientist reviewed and approved. Claude then merged the PR and refreshed the dashboard.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7e018507d3cd146d2969f4_e14fa07b.png)
+![](https://assets.claude.com/0353756c692cf1fec97eb2288fb019dcde9cd6e8.png)
 
 Fictional recreation of a Claude Tag conversation for illustrative purposes. Incident details, names, and tools are not real.
 
 ## Getting started
 
-If you've already done the work from [our first post](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude), the Slack deployment is mostly plumbing, though the order is important:
+If you've already done the work from [our first post](https://claude.com/resources/articles/how-anthropic-enables-self-service-data-analytics-with-claude), the Slack deployment is mostly plumbing, though the order is important:
 
 1. **Permissions first.** Decide what the service account can read before you write a line of agent code. It's much easier to widen access later than to claw it back.
 2. **Distribution second.** Pick mounted-repo or skills-over-MCP and verify freshness end-to-end: change a skill file, and confirm Claude Tag picks it up within your SLA.
@@ -200,86 +156,46 @@ If you've already done the work from [our first post](https://claude.com/blog/ho
 
 ‍
 
-FAQ
-
-No items found.
-
-- Ready to try it? Add Claude to your Slack workspace and tag @Claude in any channel.
-
-Add Claude to Slack
-
-[Add Claude to Slack](https://api.anthropic.com/integrations/v1/slack/install)Add Claude to Slack
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
+[ArticleOct 7, 2026
 
-Oct 1, 2026
+### Automating eval design and hillclimbing with Claude
 
-### Customize Claude Code with mods
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-Product announcements
+Claude Platform
 
-[Customize Claude Code with mods](https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions)Customize Claude Code with mods
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
 
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
+### Claude Code in the cloud: a field guide to cloud sessions
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
 
-Aug 26, 2026
+Claude Code
 
-### How Warp builds self-improving agents on Claude
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
 
-Agents
+### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
 
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions)How Warp builds self-improving agents on Claude
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
 
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)[ArticleOct 1, 2026
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+### Getting started with Claude Code mods
 
-Jul 20, 2026
+Claude Code
 
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-Enterprise AI
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
-
-### Claude for Government is now generally available
-
-Product announcements
-
-[Claude for Government is now generally available](https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
+(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

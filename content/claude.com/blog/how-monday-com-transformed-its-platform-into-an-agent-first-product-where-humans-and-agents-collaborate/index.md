@@ -1,31 +1,13 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
-
 # How monday.com transformed its platform into an agent-first product where humans and agents collaborate
 
 *After it hit a ceiling with add-on AI features, monday rebuilt its platform around Claude. Two months and five million agent interactions later, its team shares five lessons from the transition to an agent-first product.*
 
-- Category
-
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  [Claude Enterprise](https://claude.com/solutions/enterprise)
-- Date
-
-  August 20, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate)
-
-  https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate
-- Author(s)
-
-  Aleksandra Todorova
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Enterprise
+- AuthorAleksandra Todorova
+- DateAugust 20, 2026
+- Reading time10 min
+- ShareCopy link
 
 More than 250,000 companies, from small and midsize businesses to Fortune 500 organizations, use [monday.com](http://monday.com/) to manage their work. When the company launched more than a decade ago, its core product was a visual interface that helped teams automate workflows and manage projects. Today, it has rearchitected its product from the ground up around a human-agent collaboration model where AI is woven into work at every level. With Claude at the core, monday’s new platform handles the technical complexity so customers can work at the AI frontier inside workflows they already know.
 
@@ -37,7 +19,7 @@ monday’s rebuild unfolded in three phases. In the first phase, as frontier LLM
 
 Adoption was strong and generated excitement, but soon the team hit a ceiling. “We were building ‘AI dust’, sprinkling automations onto existing workflows without embedding them within or changing the product’s fundamental value proposition,” says Orly Stern Izhaki, VP of Product, AI Works Platform at monday.com. “Our features helped users summarize text and categorize information, but they weren’t creating sustained usage patterns.”
 
-The company needed to shift focus from  adding AI to product features to building it natively into the platform. "Adopting AI features is not the same as becoming an AI company," Izhaki says. "Once we understood that, everything changed."
+The company needed to shift focus from adding AI to product features to building it natively into the platform. "Adopting AI features is not the same as becoming an AI company," Izhaki says. "Once we understood that, everything changed."
 
 That’s how Izhaki’s team set out to reimagine monday completely: from a work management tool to a place where people and agents get work done together. While the mandate to transform the product came from the top, it was up to each team and each employee to translate that north star into concrete product choices and build their own agents.
 
@@ -51,60 +33,7 @@ This design was intentional, addressing a pattern monday noticed across its cust
 
 The jobs monday has mapped for agents range from IT ticket triage and knowledge-base upkeep to candidate sourcing and interview scheduling, competitive-intelligence briefings for sales and marketing, and chief-of-staff work like meeting prep and converting decisions into tracked tasks.
 
-<table>
-<colgroup>
-<col style="width: 30%;"/>
-<col style="width: 70%;"/>
-</colgroup>
-<thead>
-<tr>
-<th scope="col">Use case</th>
-<th scope="col">Jobs</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th scope="row">IT — From ticket to resolution</th>
-<td>
-<ul>
-<li><strong>Intake &amp; Triage Agent</strong> — classify tickets, auto-resolve common requests, escalate with full context</li>
-<li><strong>Knowledge Agent</strong> — detect knowledge gaps, draft new KB articles</li>
-<li><strong>Incident Agent</strong> — detect incidents, open war rooms, trigger post-mortems</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th scope="row">HR — From job post to hire</th>
-<td>
-<ul>
-<li><strong>Resume Screener</strong> — score applications, surface top candidates, send rejections</li>
-<li><strong>Interview Scheduler</strong> — handle all scheduling and confirmations</li>
-<li><strong>Hiring Coordinator</strong> — keep all stakeholders updated throughout the process, so there is always a human in the loop</li>
-<li><strong>Feedback Manager</strong> — collect structured interviewer feedback automatically</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th scope="row">Marketing — Competitive intelligence</th>
-<td>
-<ul>
-<li><strong>Competitive Intelligence Agent</strong> — monitor competitors, detect and categorize signals, send alerts and weekly briefings</li>
-<li><strong>Battlecard Agent</strong> — update battlecards on approved signals, notify sales immediately</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th scope="row">Executive Office — Chief of Staff as a Service</th>
-<td>
-<ul>
-<li><strong>Operator Agent</strong> — book meetings, prep briefings, convert decisions into tracked tasks, monitor priorities</li>
-<li><strong>Org Health Agent</strong> — scan for revenue risks, cost leaks, and failing initiatives</li>
-<li><strong>Strategy Consultant Agent</strong> — identify growth opportunities, generate action plans</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Use case</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Jobs</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">IT — From ticket to resolution</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li><strong>Intake &amp; Triage Agent</strong> — classify tickets, auto-resolve common requests, escalate with full context</li><li><strong>Knowledge Agent</strong> — detect knowledge gaps, draft new KB articles</li><li><strong>Incident Agent</strong> — detect incidents, open war rooms, trigger post-mortems</li></ul></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">HR — From job post to hire</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li><strong>Resume Screener</strong> — score applications, surface top candidates, send rejections</li><li><strong>Interview Scheduler</strong> — handle all scheduling and confirmations</li><li><strong>Hiring Coordinator</strong> — keep all stakeholders updated throughout the process, so there is always a human in the loop</li><li><strong>Feedback Manager</strong> — collect structured interviewer feedback automatically</li></ul></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Marketing — Competitive intelligence</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li><strong>Competitive Intelligence Agent</strong> — monitor competitors, detect and categorize signals, send alerts and weekly briefings</li><li><strong>Battlecard Agent</strong> — update battlecards on approved signals, notify sales immediately</li></ul></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Executive Office — Chief of Staff as a Service</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><ul class="DataTable-module-scss-module__1wNx5a__cellList"><li><strong>Operator Agent</strong> — book meetings, prep briefings, convert decisions into tracked tasks, monitor priorities</li><li><strong>Org Health Agent</strong> — scan for revenue risks, cost leaks, and failing initiatives</li><li><strong>Strategy Consultant Agent</strong> — identify growth opportunities, generate action plans</li></ul></td></tr></tbody></table>
 
 *Agent teams and their jobs for four common workflows.*
 
@@ -126,7 +55,7 @@ One end-to-end example: a marketing team runs a campaign production line inside 
 
 From there, a Landing Page Builder takes over. Running on Claude Managed Agents in the company's own environment, it pulls the approved brief and generates a new variant of an existing landing page, with copy, structure, and messaging adapted to the campaign. The output lands back on the monday item automatically. Before the page reaches approval, a Brand Reviewer, a Claude Managed Agent, checks it against brand guidelines and legal standards and flags anything that needs human attention. The marketing manager then makes one decision: publish or refine.
 
-Embedded media: https://www.youtube.com/embed/3r3xdZsZQKY
+Embedded media: https://www.youtube-nocookie.com/embed/3r3xdZsZQKY?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 ## **A family business at the AI frontier**
 
@@ -144,98 +73,46 @@ For companies planning a similar rebuild, monday’s team shares five lessons th
 - **Capability needs infrastructure to match.** Agents perform at a different level when they're grounded in live project data, team history, and structured workflows, and at enterprise scale the backend has to hold. Alongside the agent layer, monday invested in monday DB so the data infrastructure could support the volume, speed, and complexity of agents operating across an organization.
 - **Build on what already works.** monday has always described itself as the place where people team up to drive business outcomes, and the agent-first rebuild extends that promise to a new kind of team member. People still come to monday to achieve their goals, the difference is that some of the team members working alongside them are now agents.
 
-No items found.
-
-[Prev](https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate)Prev
-
-0/5
-
-[Next](https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
+[ArticleOct 7, 2026
 
-Aug 26, 2026
+### Automating eval design and hillclimbing with Claude
 
-### How Warp builds self-improving agents on Claude
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-Agents
+Claude Platform
 
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate)How Warp builds self-improving agents on Claude
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
 
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
+### Claude Code in the cloud: a field guide to cloud sessions
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
 
-Sep 29, 2026
+Claude Code
 
-### Agents you can coach: how Asana builds human-agent teams with Claude
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
 
-Agents
+### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate)Agents you can coach: how Asana builds human-agent teams with Claude
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)[ArticleOct 1, 2026
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+### Getting started with Claude Code mods
 
-Sep 28, 2026
+Claude Code
 
-### Giving companies more control over their AI agents, with NVIDIA
-
-Agents
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate)Giving companies more control over their AI agents, with NVIDIA
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Sep 8, 2026
-
-### Reducing cost and improving performance with Claude Platform
-
-Agents
-
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate)Reducing cost and improving performance with Claude Platform
-
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
+(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

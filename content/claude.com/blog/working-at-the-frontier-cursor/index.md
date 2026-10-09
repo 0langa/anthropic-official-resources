@@ -1,30 +1,14 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
-
 # Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems
 
 Nate Schmidt's job at Cursor is to evaluate frontier models against their ability to tackle long-running, real-world engineering problems. Here’s why–and how–Claude Fable 5 changed the calculus on what coding agents are capable of.
 
-- Category
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Platform
+- DateJuly 17, 2026
+- Reading time8 min
+- ShareCopy link
 
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Platform](https://claude.com/platform/api)
-- Date
-
-  July 17, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/working-at-the-frontier-cursor)
-
-  https://claude.com/blog/working-at-the-frontier-cursor
-
-Embedded media: https://www.youtube.com/embed/LIa9IBQL53Q
+Embedded media: https://www.youtube-nocookie.com/embed/LIa9IBQL53Q?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 Cursor is an AI coding agent for building professional software. It supports every major frontier model alongside Cursor's own, which makes the company an unusually neutral judge of how each one actually performs.
 
@@ -36,7 +20,7 @@ CursorBench was built to capture the messy, underspecified ways engineers actual
 
 When Claude Fable 5 ran the eval, the model achieved 72.9% at Max effort, setting a new high, and capturing what agentic coding tools were capable of when paired with the right models.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a59a38185fbd6c8049e2f1a_image1.png)
+![](https://assets.claude.com/8b8cb7801781a34490492fc4c41ccc385ab53db6.png)
 
 Claude Fable 5 achieved achieved 72.9% at Max effort, setting a new high.
 
@@ -66,7 +50,7 @@ He re-ran the experiment with the same blank-slate prompt, this time using Claud
 
 "With Opus, it was doing local reasoning—thinking about what just happened and what's immediately about to happen," Schmidt says. "With Fable it's global reasoning. It's thinking about the entire mission."
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a59a69ffb4e8948af39dfd0_C41-77690-D3-03-0037_VS_R1.jpeg)
+![](https://assets.claude.com/cdc5e194c3277938170585d55d18afe7d22478d0.jpg)
 
 Cursor runs all models through CursorBench, their internal benchmark for evaluating models on tasks that simulate real developer work.
 
@@ -84,7 +68,7 @@ To balance cost and performance, his team pairs Claude Fable 5 with faster, ligh
 
 “If I'm getting into a really gnarly problem–the p99 of problems–the thing I'm trying to optimize for is time to solution,” he says. “And I think Fable is the best model for solving our hardest problems.”
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a59a6d5a6b86f4aeda67a0c_C41-77690-D3-11-0029_VS_R1.jpeg)
+![](https://assets.claude.com/a08b3837ddcf70004bcf1de06e30450112d4d5eb.jpg)
 
 Nate Schmidt tests new models across various evaluations, including putting it through the paces in a space-flight simulator.
 
@@ -94,100 +78,48 @@ Despite putting the model through its paces on CursorBench and sending it to the
 
 "There's a class of problems people weren't even thinking about because it didn't seem approachable," he says. "With Fable, I'm excited to push at that."
 
-***Get started with*** [***Claude Fable***](http://anthropic.com/news/claude-fable-5-mythos-5)**.**
+***Get started with [Claude Fable](http://anthropic.com/news/claude-fable-5-mythos-5)*.**
 
-No items found.
-
-[Prev](https://claude.com/blog/working-at-the-frontier-cursor)Prev
-
-0/5
-
-[Next](https://claude.com/blog/working-at-the-frontier-cursor)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+[ArticleOct 7, 2026
 
-Jul 20, 2026
+### Automating eval design and hillclimbing with Claude
 
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-Enterprise AI
+Claude Platform
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-cursor)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+### Claude Code in the cloud: a field guide to cloud sessions
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
 
-Sep 30, 2026
+Claude Code
 
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
 
-Enterprise AI
+### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/working-at-the-frontier-cursor)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)[ArticleOct 1, 2026
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+### Getting started with Claude Code mods
 
-May 21, 2026
+Claude Code
 
-### Claude now works with more security and compliance tools
-
-Enterprise AI
-
-[Claude now works with more security and compliance tools](https://claude.com/blog/working-at-the-frontier-cursor)Claude now works with more security and compliance tools
-
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/working-at-the-frontier-cursor)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/working-at-the-frontier-cursor)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

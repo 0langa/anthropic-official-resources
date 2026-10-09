@@ -41,23 +41,3 @@ Information-finding can be even harder in a document-heavy space like the legal 
 In addition to improving existing products, we are excited about the potential of AI to transform digital media. We are proud to partner with [AssemblyAI](https://www.assemblyai.com/), an innovative AI company that is partnering with Anthropic to help power its platform of APIs that transcribe and understand audio data at scale. Dylan Fox, Founder & CEO of AssemblyAI, says, “We're thrilled to partner with a pioneering company like Anthropic whose commitment to AI integrity and research directly helps us ship more robust, LLM-backed Generative AI and Conversation Intelligence capabilities to our customers faster. We look forward to seeing this partnership propel our AI initiatives forward.”
 
 We’re excited about the potential applications Claude can power across industries. If you think you could use the power of AI to innovate, improve your offerings and better serve your customers, please request access to Claude and we’ll be in touch!
-
-## Related content
-
-### Expanding the Cyber Verification Program
-
-We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.
-
-[Read more](https://www.anthropic.com/news/cyber-verification-program)
-
-### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
-
-Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
-
-[Read more](https://www.anthropic.com/news/claude-frontier-academy)
-
-### Barclays scales Claude to upgrade operations and improve client experience
-
-Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
-
-[Read more](https://www.anthropic.com/news/barclays-scales-claude)

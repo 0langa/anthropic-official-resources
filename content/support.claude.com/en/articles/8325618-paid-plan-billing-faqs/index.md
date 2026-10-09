@@ -50,7 +50,7 @@ There's no separate option to remove a card, and updating to a new card replaces
 
 If you want to use a name other than the one tied to your payment method, check the "Use a different name on invoices" box when adding or updating your payment method in **[Settings > Billing](https://claude.ai/settings/billing)**.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1791374400&amp;signature=be2fb7bf19140bef78977038c8e57985e08e0ab15393358f0a78421bd7b73902&amp;req=dSklFMh6nIZXXPMW1HO4zVXW8WyobDfIQoNvNFTb5cfINkYSFsEOJG1XnbqC%0APTpAdQxt2TYgEroai8I%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1791548100&amp;signature=b32753ba0aedaa2400aea06a614049287281070f947d401f43f4a484889e2268&amp;req=dSklFMh6nIZXXPMW1HO4zVXW8WyubzvNQoNvNFTb5cfftfKpc8lkXGrRqoGn%0AV%2Ffd4xT2Qsa6KMu2lac%3D%0A)
 
 ## How can I edit a paid invoice?
 
@@ -71,3 +71,7 @@ If you've paid for a Pro or Max plan but are not seeing this reflected in your a
 1. You've logged in with a different email. We recommend trying to sign in with any alternative emails you may have used to create your paid account.
 
 2. Your payment method failed and your account was downgraded. To check this, navigate to **[Settings > Billing](https://claude.ai/settings/billing)** to confirm your recent payment status and update your payment method or billing details if needed.
+
+## Where can I see my monthly API credits?
+
+In the Claude Console. All credits appear under **[Settings > Billing](https://platform.claude.com/settings/billing)** in your linked Console organization, with their amount and expiry date. Usage is never charged to your Claude plan. Learn more about **[monthly API credits for Max and Team plans](https://support.claude.com/en/articles/17154008)**.

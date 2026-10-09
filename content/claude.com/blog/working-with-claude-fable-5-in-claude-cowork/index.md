@@ -1,34 +1,18 @@
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d227246bc2b5a3cc3626_9f6a378a1e3592cf8d27447457409ba12284faef-1000x1000.svg)
-
 # Working with Claude Fable 5 in Claude Cowork
 
 *Claude Fable 5 can carry long, complex work on its own. Here’s how to get the most out of it in Claude Cowork, starting with as little as an idea and getting to finished work.*
 
-- Category
-
-  [Enterprise AI](https://claude.com/blog/category/enterprise-ai)
-- Product
-
-  [Claude Cowork](https://claude.com/product/cowork)
-- Date
-
-  July 16, 2026
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork)
-
-  https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Cowork
+- DateJuly 16, 2026
+- Reading time16 min
+- ShareCopy link
 
 Claude Fable 5 is Anthropic’s [most capable generally available model](https://www.anthropic.com/news/claude-fable-5-mythos-5), built for long-running, complex and asynchronous work. Claude Fable 5 is particularly effective carrying out multi-step workflows (such as conducting deep research that it incorporates in a first-draft memo, performing due diligence before generating board presentations, or going through a folder to redline multiple contracts, to name a few) on its own for extended periods of time, testing and evaluating its results as it goes.
 
 Maximizing the model’s capabilities requires a change in how you work with it. As models improve over time, we've refined our recommendations for getting more out of Claude, including [prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices), providing context, and [building skills](https://claude.com/resources/tutorials/teach-claude-your-way-of-working-using-skills) that capture repeatable processes like weekly team updates, sales call prep, or customer feedback analysis. Those practices still matter with Claude Fable 5, in fact, the model performs even better with them in place.
 
-Claude Fable 5 applies your context, preferences, and [skills](https://claude.com/blog/skills-explained) across entire tasks, even those that take days to complete, while previous models may have lost track over long stretches and needed reminding. Working with it resembles working with a highly capable colleague: you explain the situation, agree on what a strong final result looks like, and let your colleague work. Less of your time goes to checking each step, so more of it can go to deciding what the work should be.
+Claude Fable 5 applies your context, preferences, and [skills](https://claude.com/resources/articles/skills-explained) across entire tasks, even those that take days to complete, while previous models may have lost track over long stretches and needed reminding. Working with it resembles working with a highly capable colleague: you explain the situation, agree on what a strong final result looks like, and let your colleague work. Less of your time goes to checking each step, so more of it can go to deciding what the work should be.
 
 Our [prompting guide for Claude Fable 5](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5) provides a detailed list of capability improvements and recommended behavior and prompting changes. In this article, we cover how some of those apply to Claude Cowork, Anthropic’s agentic AI system for knowledge work.
 
@@ -42,7 +26,7 @@ Claude Fable 5 has [a wide lead over our other models on long, complex tasks](ht
 
 Claude Fable 5 isn’t the default model in Claude Cowork; you need to select it. As of the time of publication, the default is Claude Sonnet 5, and it is the right choice for everyday tasks you yourself would handle in quick passes. Claude Opus is a dependable choice for deep work with a clear shape, where you know what the end result looks like. Claude Fable 5 is for the projects that feel the most complex or ambiguous, and may have been out of reach for prior models. It spends more time thinking and more of your usage limits, but that may be worth it on work that’s time-consuming or costly to get wrong. We recommend that you reserve Claude Fable 5 for your most important work, especially jobs that use multiple tools and require a series of judgment calls.
 
-You can further tune your choice with Claude’s effort setting. At higher effort, Claude Fable 5 plans more before it kicks off a job and checks in more throughout its run. Keep effort higher for complex or multi-step projects you expect Claude to complete from beginning to end. At lower effort, you’ll get a faster response, while still taking advantage of Claude Fable 5 intelligence. Consider using it for tasks that still need frontier judgement, but not deep explorations, such as agentic runs made of many easy steps or work where the result is easy for Claude to check. In our testing, Claude Fable 5 at lower effort often matched or exceeded the performance of earlier models at their highest effort levels. For a more detailed look under the hood, we explain how [model choice and effort interact in Claude Code](https://claude.com/blog/claude-model-and-effort-level-in-claude-code).
+You can further tune your choice with Claude’s effort setting. At higher effort, Claude Fable 5 plans more before it kicks off a job and checks in more throughout its run. Keep effort higher for complex or multi-step projects you expect Claude to complete from beginning to end. At lower effort, you’ll get a faster response, while still taking advantage of Claude Fable 5 intelligence. Consider using it for tasks that still need frontier judgement, but not deep explorations, such as agentic runs made of many easy steps or work where the result is easy for Claude to check. In our testing, Claude Fable 5 at lower effort often matched or exceeded the performance of earlier models at their highest effort levels. For a more detailed look under the hood, we explain how [model choice and effort interact in Claude Code](https://claude.com/resources/articles/claude-model-and-effort-level-in-claude-code).
 
 It’s also worth noting that Claude Fable 5 comes with a new set of classifiers: separate AI systems that detect potential misuse in requests related to cybersecurity or to biology and chemistry. When they trigger, the response is automatically handled by [Claude Opus 4.8](https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-5) instead, and users are informed whenever this occurs. Opus 4.8 is a highly capable model in its own right, and the chat stays on Opus from there; start a new one to get back to Claude Fable 5. We tuned these safeguards conservatively so we could release a [Mythos-class model](https://www.anthropic.com/news/claude-fable-5-mythos-5) for general use both safely and quickly, so they'll sometimes catch harmless requests, including phrases in Claude Cowork that only touch on related topics. We're working to reduce these false positives as we refine the safeguards.
 
@@ -85,7 +69,7 @@ Delegating in Claude Cowork means handing Claude a decision you would normally m
 
 - **Delegate the approach:** Give Claude the material and describe the outcome you want, for example, "Here is last quarter's customer feedback. Find out why cancellations rose and what we should change." There may be several reasonable ways through that folder, and the right one depends on what's in the feedback. That's a choice Claude Fable 5 makes well: it reads everything, picks an approach, and checks its conclusion against the feedback before bringing it to you. You can judge the answer without needing to specify the details of how it gets there.
 - **Delegate the procedure:** A skill teaches Claude a procedure your team uses—how you build a report, format a deck, run an analysis. You don't need to say which skills to use or in what order. Say "put together the quarterly review the way we always do it," and Claude Fable 5 picks the right skills at the right moment.
-- **Delegate the timing:**For work you want repeated, describe the outcome and Claude will set up the schedule and turn it into a recurring task: "I want to start every Monday knowing what changed in the pipeline and what needs a decision."
+- **Delegate the timing:** For work you want repeated, describe the outcome and Claude will set up the schedule and turn it into a recurring task: "I want to start every Monday knowing what changed in the pipeline and what needs a decision."
 
 Bring Claude Fable 5 harder work than you're used to giving AI, even work you assumed wasn't possible. Even if the work is messy or unclear, or could take hours or days to finish. Describe it and see whether the model can work at that level. Pick an outcome you're responsible for and say how you'd judge it, then let Claude propose the steps to get there. Some of this work may turn into a scheduled task that runs on its own. Claude can save the procedure as a skill and put it on a schedule, working through the tools you're already connected to.
 
@@ -95,7 +79,7 @@ Part of what lets Claude Fable 5 carry long work is that it knows how to set and
 
 That panel is your chance to catch problems and redirect early. A mistake you'd otherwise find in the finished output instead shows up as one wrong step in the plan. You can correct the plan in one sentence and Claude adjusts without starting over.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a58075a5d48d1679df9d37f_d82b001b.png)
+![](https://assets.claude.com/426b5a3d0277b94a87edc784ca2f496e3f175855.png)
 
 When the work is finished, review it the way you would a colleague's: open the files Claude produced and read them. If something appears off, the record of the run is still in the conversation. Scroll back through the steps Claude listed as it worked, including the files it read and the tools it used, and expand its thinking to see the reasoning behind a decision. Or ask directly: "Where did this figure come from?" and Claude will point you to the source.
 
@@ -103,11 +87,11 @@ Start with work you know how to verify, like the first draft of next quarter’s
 
 ## Invest in your Claude Cowork setup
 
-A more capable model raises the value of each connection you’ve made, from the folders you’ve shared to the tools your team works in. Here are our recommendations for giving Claude Fable 5  the context it needs to do its best work:
+A more capable model raises the value of each connection you’ve made, from the folders you’ve shared to the tools your team works in. Here are our recommendations for giving Claude Fable 5 the context it needs to do its best work:
 
-- **Connect your tools:**Connect Claude to the [tools you use daily](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)  first, like your email, calendar, documents, or your team's chat. Each connection widens what Claude can do without you copying things in. Claude Fable 5 is good at deciding when a tool is worth using: with your tools connected, it notices when the answer is in your calendar or a chat thread and goes to get it, instead of waiting to be pointed there.
-- **Tune the writing to your voice:** Each new model arrives with its own writing defaults: voice, length, and phrases it reaches for first in its outputs. You may notice Claude Fable 5 has certain defaults, [such as more terse or hard to follow writing style in longer sessions](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5).  Voice, tone, and style can easily be customized; you can tailor them to your preferences by prompting or adding them to your project instructions. For example, you can add something like "use plain, straightforward, direct language." If you use memory, check occasionally what Claude has saved about your writing preferences. For documents where you want a specific voice, use connectors or existing files to have Claude read through your past writing and save what it finds as a skill it can call on the next time you do similar work. We've found Claude Fable 5 follows standing instructions more closely than earlier models, and is better at using saved material when needed.
-- **Revisit what you set up for earlier models:**Saved instructions, like Skills and memory files, written for an earlier model often carry corrections that model needed. Carried forward, old corrections can constrain a new model. Ask Claude Fable 5 to do an audit: 'Go through my skills and saved memory. Which still fit, and which were written for an older model?'
+- **Connect your tools:** Connect Claude to the [tools you use daily](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities) first, like your email, calendar, documents, or your team's chat. Each connection widens what Claude can do without you copying things in. Claude Fable 5 is good at deciding when a tool is worth using: with your tools connected, it notices when the answer is in your calendar or a chat thread and goes to get it, instead of waiting to be pointed there.
+- **Tune the writing to your voice:** Each new model arrives with its own writing defaults: voice, length, and phrases it reaches for first in its outputs. You may notice Claude Fable 5 has certain defaults, [such as more terse or hard to follow writing style in longer sessions](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5). Voice, tone, and style can easily be customized; you can tailor them to your preferences by prompting or adding them to your project instructions. For example, you can add something like "use plain, straightforward, direct language." If you use memory, check occasionally what Claude has saved about your writing preferences. For documents where you want a specific voice, use connectors or existing files to have Claude read through your past writing and save what it finds as a skill it can call on the next time you do similar work. We've found Claude Fable 5 follows standing instructions more closely than earlier models, and is better at using saved material when needed.
+- **Revisit what you set up for earlier models:** Saved instructions, like Skills and memory files, written for an earlier model often carry corrections that model needed. Carried forward, old corrections can constrain a new model. Ask Claude Fable 5 to do an audit: 'Go through my skills and saved memory. Which still fit, and which were written for an older model?'
 
 ## What comes next
 
@@ -117,98 +101,46 @@ As frontier intelligence continues to evolve, Claude Cowork will become increasi
 
 Get started with [Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork) today.
 
-No items found.
-
-[Prev](https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork)Prev
-
-0/5
-
-[Next](https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-No items found.
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+[ArticleOct 7, 2026
 
-Jul 20, 2026
+### Automating eval design and hillclimbing with Claude
 
-### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-Enterprise AI
+Claude Platform
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
 
-[Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten)Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+### Claude Code in the cloud: a field guide to cloud sessions
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
 
-Sep 30, 2026
+Claude Code
 
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
 
-Enterprise AI
+### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
 
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)[ArticleOct 1, 2026
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+### Getting started with Claude Code mods
 
-May 21, 2026
+Claude Code
 
-### Claude now works with more security and compliance tools
-
-Enterprise AI
-
-[Claude now works with more security and compliance tools](https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork)Claude now works with more security and compliance tools
-
-[Claude now works with more security and compliance tools](https://claude.com/blog/compliance-api-security-partners)Claude now works with more security and compliance tools
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-Aug 21, 2026
-
-### The AI-native SDLC playbook
-
-Enterprise AI
-
-[The AI-native SDLC playbook](https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork)The AI-native SDLC playbook
-
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

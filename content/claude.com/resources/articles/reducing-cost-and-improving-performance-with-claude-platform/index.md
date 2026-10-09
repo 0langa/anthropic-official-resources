@@ -156,30 +156,35 @@ To learn more:
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleSep 29, 2026
+[ArticleOct 7, 2026
 
-### Agents you can coach: how Asana builds human-agent teams with Claude
+### Automating eval design and hillclimbing with Claude
 
-Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
-‍
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
+Claude Platform
 
-### Giving companies more control over their AI agents, with NVIDIA
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
 
-Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 2, 2026
+### Claude Code in the cloud: a field guide to cloud sessions
 
-### A guide to the anatomy of effective commerce agents
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
 
-The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
+Claude Code
 
-Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)[ArticleAug 26, 2026
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
 
-### How Warp builds self-improving agents on Claude
+### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
 
-Learn how Warp devised a simple development pattern that anyone can use to create self-improving agents.
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
 
-Claude Platform](https://claude.com/resources/articles/how-warp-builds-self-improving-agents-on-claude)
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)[ArticleOct 1, 2026
+
+### Getting started with Claude Code mods
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)
 
 ## Transform how your organization operates with Claude
 
