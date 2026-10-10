@@ -4,7 +4,7 @@ Lesson 27 of 65 · Claude with Amazon BedrockMulti-Turn conversations with tools
 
 Lesson 279 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fmulti-turn-conversations-with-tools)
 
@@ -18,7 +18,7 @@ The solution is to check the `stop_reason` that comes back with every Claude res
 
 ## Stop Reasons[](https://academy.claude.com/courses/claude-with-amazon-bedrock/multi-turn-conversations-with-tools)
 
-![](https://academy.claude.com/assets/media/a461bfa198f998666258b152abc1a277f7804c7d9850a10e70ac5df553fa13f2.png)
+![Table of the four stop reasons listed below, with the workflow step bar highlighting "Call Claude with JSON Schema".](https://academy.claude.com/assets/media/a461bfa198f998666258b152abc1a277f7804c7d9850a10e70ac5df553fa13f2.png)
 
 Claude can stop for several reasons:
 

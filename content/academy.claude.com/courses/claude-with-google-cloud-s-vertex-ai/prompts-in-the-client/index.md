@@ -4,7 +4,7 @@ Lesson 58 of 66 · Claude with Google Cloud's Vertex AIPrompts in the client
 
 Lesson 587 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fprompts-in-the-client)
 
@@ -40,7 +40,7 @@ The method returns messages that form a conversation ready to be fed directly in
 
 When you define a prompt function in your MCP server, any parameters become available as interpolation variables. The arguments dictionary you pass to `get_prompt` provides values for these parameters. The server then generates the complete prompt with your values substituted in the appropriate places.
 
-![](https://academy.claude.com/assets/media/2c67261e0d3c34f3f98fa84ba91b8acae53cc361101eab1d6c5ed1e9c51bd64e.png)
+![mcp_server.py code defining the "format" prompt: its doc_id argument is interpolated between document_id tags.](https://academy.claude.com/assets/media/2c67261e0d3c34f3f98fa84ba91b8acae53cc361101eab1d6c5ed1e9c51bd64e.png)
 
 ## Testing the Implementation[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/prompts-in-the-client)
 
@@ -51,7 +51,7 @@ Once implemented, you can test prompts through the CLI. When you type a forward 
 3. Claude executes any necessary tool calls to fulfill the request
 4. Returns the formatted result
 
-![](https://academy.claude.com/assets/media/746dff951e80556b72b3de46baca7a2ebc4171e5921b610ccc0bea3343f653c3.png)
+![MCP server code: @mcp.prompt names a "format" prompt that rewrites a document in Markdown, with a format_document function.](https://academy.claude.com/assets/media/746dff951e80556b72b3de46baca7a2ebc4171e5921b610ccc0bea3343f653c3.png)
 
 ## Prompts in Practice[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/prompts-in-the-client)
 

@@ -4,7 +4,7 @@ Lesson 52 of 65 · Claude with Amazon BedrockThe server inspector
 
 Lesson 524 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fthe-server-inspector)
 
@@ -26,7 +26,7 @@ This starts a development server and gives you a local URL (typically on port 62
 
 The MCP inspector is actively being developed, so the interface may look different by the time you use it. However, the core functionality remains consistent.
 
-![](https://academy.claude.com/assets/media/b71855041936bb82ba63e92710c498b45c405ca4965b1df73317262d3882ce88.png)
+![The MCP inspector before connecting, with standard input/output transport, a "Connect" button and status "Disconnected".](https://academy.claude.com/assets/media/b71855041936bb82ba63e92710c498b45c405ca4965b1df73317262d3882ce88.png)
 
 When you first open the inspector, you'll see a "Connect" button on the left side. Click this to start your MCP server and load your tools.
 
@@ -46,7 +46,7 @@ For example, to test a document reading tool:
 
 The inspector will execute your tool and show the results, including success status and any returned data.
 
-![](https://academy.claude.com/assets/media/14cce52c52772af7b18d1a65cd32117d8883c297c738859ddf7b2aff22663d00.png)
+![MCP inspector: read_doc_contents on "deposition.md" shows Tool Result Success and text starting "A report deposition covers".](https://academy.claude.com/assets/media/14cce52c52772af7b18d1a65cd32117d8883c297c738859ddf7b2aff22663d00.png)
 
 ## Testing Document Editing[](https://academy.claude.com/courses/claude-with-amazon-bedrock/the-server-inspector)
 
@@ -57,7 +57,7 @@ You can also test more complex tools like document editing:
 - Run the tool to see if it succeeds
 - Use the read tool again to verify the changes were applied
 
-![](https://academy.claude.com/assets/media/768ecb1a50bbf0db37a9ba8dcc98e3147cac24f121fd043a0e530ee5d41dc96d.png)
+![MCP Inspector edit_document form with doc_id deposition.md, old_str "This" and new_str "A report", and Tool Result: Success.](https://academy.claude.com/assets/media/768ecb1a50bbf0db37a9ba8dcc98e3147cac24f121fd043a0e530ee5d41dc96d.png)
 
 ## Development Workflow[](https://academy.claude.com/courses/claude-with-amazon-bedrock/the-server-inspector)
 

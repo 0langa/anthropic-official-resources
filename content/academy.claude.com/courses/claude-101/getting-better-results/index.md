@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Define AI Fluency and know where to go to learn more about working with AI in a fluent way
 - Explain how you might set up evals to better understand how Claude might perform with your unique workflows
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-101%2Fgetting-better-results)
 

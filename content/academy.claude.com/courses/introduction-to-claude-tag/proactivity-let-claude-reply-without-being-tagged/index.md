@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Tell Claude which messages to pick up without an @-mention
 - Turn untagged replies off or on for a channel or one thread
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-tag%2Fproactivity-let-claude-reply-without-being-tagged)
 

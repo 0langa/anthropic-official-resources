@@ -4,7 +4,7 @@ Lesson 24 of 65 · Claude with Amazon BedrockHandling tool use responses
 
 Lesson 247 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fhandling-tool-use-responses)
 
@@ -14,7 +14,7 @@ When Claude decides to use a tool, it returns a special response structure that 
 
 Before diving into responses, it's worth understanding how to control when Claude uses tools. The `toolChoice` parameter gives you three options:
 
-![](https://academy.claude.com/assets/media/d5cc2db705eb928f4697f1e7fff1fae85dca12bd7f52d4a0c18d58fa9f81dc4a.png)
+![Three toolChoice settings written as JSON, "auto", "any" and "tool" with a name, paired with the behaviors listed below.](https://academy.claude.com/assets/media/d5cc2db705eb928f4697f1e7fff1fae85dca12bd7f52d4a0c18d58fa9f81dc4a.png)
 
 - **auto** - Claude decides whether to use a tool (default behavior)
 - **any** - Claude must use a tool but can choose which one
@@ -26,7 +26,7 @@ The third option is especially useful for testing when you want to ensure Claude
 
 When Claude wants to use a tool, it returns an assistant message with multiple content parts instead of just text:
 
-![](https://academy.claude.com/assets/media/c8f7e87624025a31720dff67b9f4edbb1911958d989c96d53662daec89f4065c.png)
+![Assistant message content list: a "Text" part and a "toolUse" part calling get_current_datetime with date_format %H:%M:%S.](https://academy.claude.com/assets/media/c8f7e87624025a31720dff67b9f4edbb1911958d989c96d53662daec89f4065c.png)
 
 The response contains two parts:
 
@@ -37,7 +37,7 @@ The response contains two parts:
 
 The ToolUse part contains three key pieces of information:
 
-![](https://academy.claude.com/assets/media/0f51c3d73779b0924a84a1781b65d23f28beea1c52eef15b96e5c15bfb2e9eac.png)
+![Example ToolUse part naming the tool "get_current_datetime" with input date_format "%H:%M:%S", plus a toolUseId.](https://academy.claude.com/assets/media/0f51c3d73779b0924a84a1781b65d23f28beea1c52eef15b96e5c15bfb2e9eac.png)
 
 - **toolUseId** - A unique identifier you'll need when sending back the tool result
 - **name** - The exact tool name from your JSON schema that Claude wants to call
@@ -47,7 +47,7 @@ The ToolUse part contains three key pieces of information:
 
 Tool usage follows a specific conversation pattern that requires maintaining complete message history:
 
-![](https://academy.claude.com/assets/media/9eccbcb4136ead3a62a60ff14b1dc7ef966ee74dddba471cffc37ba59ec22560.png)
+![Our server sends Claude the whole history: user "What time is it?", assistant text and ToolUse part, user ToolResult part.](https://academy.claude.com/assets/media/9eccbcb4136ead3a62a60ff14b1dc7ef966ee74dddba471cffc37ba59ec22560.png)
 
 When you receive a tool use request, you need to:
 

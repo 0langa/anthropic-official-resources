@@ -2,7 +2,7 @@
 
 Generate investment memos from platform data, formatted to match your firm's structure and requirements.
 
-15 minFinanceClaude.ai
+15 minFinanceClaude
 
 Try in ClaudeCopy prompt
 
@@ -52,7 +52,7 @@ S&P Global
 
 [Connect](https://claude.ai/directory/s-p-global)
 
-Browse all connectors[Open in Claude](https://claude.ai/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/customize/connectors)
 
 ### Optional context[](https://academy.claude.com/use-cases/draft-investment-memos)
 

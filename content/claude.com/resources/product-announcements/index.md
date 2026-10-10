@@ -28,6 +28,14 @@ Claude Enterprise](https://claude.com/resources/articles/the-full-claude-desktop
 
 Claude apps](https://claude.com/resources/articles/connectors-for-everyday-life)
 
+[ArticleOct 8, 2026
+
+### Build live dashboards and animate explainers with Claude
+
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
+
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
+
 [ArticleOct 7, 2026
 
 ### Claude Haiku 5.5
@@ -35,14 +43,6 @@ Claude apps](https://claude.com/resources/articles/connectors-for-everyday-life)
 Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
 
 (opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)
-
-[ArticleOct 6, 2026
-
-### Claude now works with Google Docs, Sheets, and Slides
-
-Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta).
-
-Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)
 
 [ArticleJul 7, 2026
 
@@ -56,9 +56,15 @@ Featured resource 1 of 5: Claude Cowork is coming to mobile and web
 
 Advanced filters
 
-Showing 11 of 149 resources
+Showing 11 of 150 resources
 
-[ArticleOct 7, 2026
+[ArticleOct 8, 2026
+
+### Build live dashboards and animate explainers with Claude
+
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
+
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 7, 2026
 
 ### Claude Haiku 5.5
 
@@ -96,7 +102,9 @@ Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 
 
 ### Claude for Government is now generally available
 
-Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 28, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.
+
+Claude Code](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 28, 2026
 
 ### Claude Sonnet 5.5
 
@@ -116,12 +124,6 @@ Claude Sonnet 5.5 runs more than 30% faster than Sonnet 5 and writes more clearl
 
 Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
 
-Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[WebinarOn demand
-
-### Opus 5.5 for Work
-
-Claude Opus 5.5 is now available, and it’s our most capable Opus model for everyday work. It communicates more naturally and it…
-
-Claude apps](https://claude.com/resources/webinars/opus-5-5-for-work)
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)
 
 View more

@@ -4,7 +4,7 @@ Lesson 55 of 66 · Claude with Google Cloud's Vertex AIDefining resources
 
 Lesson 555 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fdefining-resources)
 
@@ -14,7 +14,7 @@ Resources in MCP servers allow you to expose data to clients, similar to GET req
 
 Think of resources as read-only endpoints that can return any type of data - strings, JSON, binary files, etc. You set a 'mime\_type' to give the client a hint about what kind of data you're returning.
 
-![](https://academy.claude.com/assets/media/bef714547cc3f86a4f566052ca3e2d3b7bba3694a823f2bbebd84e742c766e1b.png)
+![Diagram of an MCP server holding two resources, the direct list_docs and the templated fetch_doc, shown in the code below.](https://academy.claude.com/assets/media/bef714547cc3f86a4f566052ca3e2d3b7bba3694a823f2bbebd84e742c766e1b.png)
 
 Resources work by defining a URI (like a URL) that clients can request. When a client needs data, it sends a ReadResourceRequest with the specific URI, and your server responds with a ReadResourceResult containing the data.
 
@@ -25,7 +25,7 @@ There are two main types of resources you can create:
 - **Direct Resources** - Have static URIs that don't contain any parameters (like "docs://documents")
 - **Templated Resources** - Include parameters in their URIs that get parsed and passed to your function (like "docs://documents/{doc\_id}")
 
-![](https://academy.claude.com/assets/media/7fa0c5f6bafc5aec5ed6ff72d121e8b04986bc6379c9c4da1d042b7cca99ce50.png)
+![Direct Resource, no URI parameters, beside Templated Resource, whose URI parameters the Python SDK passes to your function.](https://academy.claude.com/assets/media/7fa0c5f6bafc5aec5ed6ff72d121e8b04986bc6379c9c4da1d042b7cca99ce50.png)
 
 For templated resources, the Python SDK automatically parses parameters from the URI and passes them as keyword arguments to your function. The parameter names in the URI must match your function's parameter names exactly.
 
@@ -66,7 +66,7 @@ Then connect to the inspector in your browser. You'll see two sections:
 - **Resources** - Lists your direct/static resources
 - **Resource Templates** - Shows your templated resources
 
-![](https://academy.claude.com/assets/media/aaba6fbd4b955f7b77e8a806c6ac6bc7c7b6a7406c9094b4bdddc93f146e8dcb.png)
+![MCP Inspector Resources tab: docs://documents resource, the fetch_doc template, and a JSON response listing six documents.](https://academy.claude.com/assets/media/aaba6fbd4b955f7b77e8a806c6ac6bc7c7b6a7406c9094b4bdddc93f146e8dcb.png)
 
 Click on any resource to test it. For templated resources, you'll need to provide values for the parameters. The inspector shows you the exact response structure your client will receive, including the mime type and serialized data.
 

@@ -2,7 +2,7 @@
 
 Using the HealthEx Connector in Claude
 
-15 minClaude.ai
+15 minClaude
 
 [Open Claude](https://claude.ai/new)
 

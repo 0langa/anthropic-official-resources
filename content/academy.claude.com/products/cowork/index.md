@@ -22,7 +22,7 @@ The set up that makes Claude Cowork specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
-[## For Admins and IT
+[## For admins and IT
 
 Rolling Cowork out to your org? Start with the enterprise admin guide and the rollout playbook.
 
@@ -146,7 +146,7 @@ The set up that makes Claude Cowork specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
-[## For Admins and IT
+[## For admins and IT
 
 Rolling Cowork out to your org? Start with the enterprise admin guide and the rollout playbook.
 
@@ -270,7 +270,7 @@ The set up that makes Claude Cowork specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
-[## For Admins and IT
+[## For admins and IT
 
 Rolling Cowork out to your org? Start with the enterprise admin guide and the rollout playbook.
 
@@ -394,7 +394,7 @@ The set up that makes Claude Cowork specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
-[## For Admins and IT
+[## For admins and IT
 
 Rolling Cowork out to your org? Start with the enterprise admin guide and the rollout playbook.
 
@@ -518,7 +518,7 @@ The set up that makes Claude Cowork specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
-[## For Admins and IT
+[## For admins and IT
 
 Rolling Cowork out to your org? Start with the enterprise admin guide and the rollout playbook.
 
@@ -636,7 +636,7 @@ The set up that makes Claude Cowork specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
-[## For Admins and IT
+[## For admins and IT
 
 Rolling Cowork out to your org? Start with the enterprise admin guide and the rollout playbook.
 
@@ -760,7 +760,7 @@ The set up that makes Claude Cowork specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
-[## For Admins and IT
+[## For admins and IT
 
 Rolling Cowork out to your org? Start with the enterprise admin guide and the rollout playbook.
 
@@ -878,7 +878,7 @@ The set up that makes Claude Cowork specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
-[## For Admins and IT
+[## For admins and IT
 
 Rolling Cowork out to your org? Start with the enterprise admin guide and the rollout playbook.
 
@@ -972,7 +972,7 @@ The set up that makes Claude Cowork specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
-[## For Admins and IT
+[## For admins and IT
 
 Rolling Cowork out to your org? Start with the enterprise admin guide and the rollout playbook.
 
@@ -1096,7 +1096,7 @@ The set up that makes Claude Cowork specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
-[## For Admins and IT
+[## For admins and IT
 
 Rolling Cowork out to your org? Start with the enterprise admin guide and the rollout playbook.
 
@@ -1220,7 +1220,7 @@ The set up that makes Claude Cowork specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
-[## For Admins and IT
+[## For admins and IT
 
 Rolling Cowork out to your org? Start with the enterprise admin guide and the rollout playbook.
 
@@ -1344,7 +1344,7 @@ The set up that makes Claude Cowork specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
-[## For Admins and IT
+[## For admins and IT
 
 Rolling Cowork out to your org? Start with the enterprise admin guide and the rollout playbook.
 
@@ -1438,7 +1438,7 @@ The set up that makes Claude Cowork specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
-[## For Admins and IT
+[## For admins and IT
 
 Rolling Cowork out to your org? Start with the enterprise admin guide and the rollout playbook.
 
@@ -1532,7 +1532,7 @@ The set up that makes Claude Cowork specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
-[## For Admins and IT
+[## For admins and IT
 
 Rolling Cowork out to your org? Start with the enterprise admin guide and the rollout playbook.
 

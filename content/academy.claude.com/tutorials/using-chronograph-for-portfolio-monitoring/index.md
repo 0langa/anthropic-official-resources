@@ -2,7 +2,7 @@
 
 Set up and use Chronograph for portfolio monitoring including tracking exposures, analyzing performance metrics, and accessing comprehensive portfolio data.
 
-10 minClaude.ai
+10 minClaude
 
 [Open Claude](https://claude.ai/new)
 

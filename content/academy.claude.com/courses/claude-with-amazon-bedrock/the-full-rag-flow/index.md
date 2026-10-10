@@ -4,7 +4,7 @@ Lesson 36 of 65 · Claude with Amazon BedrockThe full RAG flow
 
 Lesson 364 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fthe-full-rag-flow)
 
@@ -21,7 +21,7 @@ First, we take our source document and break it into manageable chunks. For this
 
 Next, we convert each text chunk into numerical embeddings. To make this concept clear, let's imagine we have a perfect embedding model that always returns exactly two numbers, and we know what each number represents:
 
-![](https://academy.claude.com/assets/media/7167baedf645f8c9620b90bc9246a1c67dc1f258a24e489bf6e2831c6f8da53f.png)
+![Two text chunks pass through an imaginary embedding model, with arrows marking the medical and software engineering numbers.](https://academy.claude.com/assets/media/7167baedf645f8c9620b90bc9246a1c67dc1f258a24e489bf6e2831c6f8da53f.png)
 
 In our imaginary model:
 
@@ -34,17 +34,17 @@ So our medical research section gets an embedding of `[0.97, 0.34]` - very medic
 
 Before storing these embeddings, they go through a normalization process that scales each vector to have a magnitude of 1.0. This is typically handled automatically by your embedding API, but it's important to understand that it happens.
 
-![](https://academy.claude.com/assets/media/5694ebd1a8d76478dfc3b92ff613a13a37462f7bdb18637c2a50271206952bec.png)
+![The medical and software embeddings scaled so each pair has magnitude 1.0, giving the normalized values below.](https://academy.claude.com/assets/media/5694ebd1a8d76478dfc3b92ff613a13a37462f7bdb18637c2a50271206952bec.png)
 
 After normalization, our embeddings become `[0.944, 0.331]` and `[0.295, 0.955]`. We can visualize these on a unit circle where each point lies exactly on the circle's edge.
 
-![](https://academy.claude.com/assets/media/f08995bf43ba665000a225838abda4129bece49b3d467a5c36764da9fde4a4ae.png)
+![Unit circle with medicine and software axes and arrows of length 1.0 to Medical Research and Software Engineering.](https://academy.claude.com/assets/media/f08995bf43ba665000a225838abda4129bece49b3d467a5c36764da9fde4a4ae.png)
 
 ## Step 3: Store in Vector Database[](https://academy.claude.com/courses/claude-with-amazon-bedrock/the-full-rag-flow)
 
 The normalized embeddings get stored in a vector database - a specialized database optimized for storing, comparing, and searching through long lists of numbers like our embeddings.
 
-![](https://academy.claude.com/assets/media/c0f5e517c4260f85779a61cd731b5fe815963e0fcc9e4c055d00884a0a67e17c.png)
+![Medical Research embedding "0.944, 0.331" and Software Engineering embedding "0.295, 0.955" feed into a vector database.](https://academy.claude.com/assets/media/c0f5e517c4260f85779a61cd731b5fe815963e0fcc9e4c055d00884a0a67e17c.png)
 
 At this point, we pause. All the work so far has been preprocessing that happens ahead of time. Now we wait for a user to submit a query.
 
@@ -52,7 +52,7 @@ At this point, we pause. All the work so far has been preprocessing that happens
 
 When a user asks a question like "I'm curious about the company. In particular, what did the software engineering dept do this year?", we run their query through the same embedding model.
 
-![](https://academy.claude.com/assets/media/e182b15de5aa36467e88cd371317a10d6e7174780c7925d6e720ef63b0bcc01e.png)
+![The user question embedded by the imaginary embedding model as 0.1 for the medical field and 0.89 for software engineering.](https://academy.claude.com/assets/media/e182b15de5aa36467e88cd371317a10d6e7174780c7925d6e720ef63b0bcc01e.png)
 
 This query gets embedded as `[0.1, 0.89]` - low medical score, high software engineering score. After normalization, it becomes `[0.112, 0.993]`.
 
@@ -60,13 +60,13 @@ This query gets embedded as `[0.1, 0.89]` - low medical score, high software eng
 
 Now we ask the vector database: "Find the stored embedding that's closest to this user query embedding." The database returns the software engineering section because it's the most similar.
 
-![](https://academy.claude.com/assets/media/02f8d982cfef4c9b7507f4e0ce7c5bcaefeed5907f99b07957e22cd0343e69dd.png)
+![User query vector "0.1, 0.89" goes to the vector database, which returns "0.295, 0.955" for the software engineering section.](https://academy.claude.com/assets/media/02f8d982cfef4c9b7507f4e0ce7c5bcaefeed5907f99b07957e22cd0343e69dd.png)
 
 ## How Similarity Works: Cosine Similarity[](https://academy.claude.com/courses/claude-with-amazon-bedrock/the-full-rag-flow)
 
 The vector database uses cosine similarity to determine which embeddings are most similar. This measures the cosine of the angle between two vectors.
 
-![](https://academy.claude.com/assets/media/e9e58d87d3810283a0ecb754f38d5741dbb8c25251cf16c05b5d910b615396c0.png)
+![Cosine similarity slide where the user query vector scores 0.983 with Software Engineering and 0.398 with Medical Research.](https://academy.claude.com/assets/media/e9e58d87d3810283a0ecb754f38d5741dbb8c25251cf16c05b5d910b615396c0.png)
 
 Key points about cosine similarity:
 
@@ -77,7 +77,7 @@ Key points about cosine similarity:
 
 The calculation uses the dot product formula: `cos(a) = (A · B) / (||A|| · ||B||)`
 
-![](https://academy.claude.com/assets/media/1ead50fb7e5ab0b029b6104d96525dfc91aba61ee79bba14f41a9e36ba769900.png)
+![Cosine similarity slide where the user query vector scores 0.983 with Software Engineering and 0.398 with Medical Research.](https://academy.claude.com/assets/media/1ead50fb7e5ab0b029b6104d96525dfc91aba61ee79bba14f41a9e36ba769900.png)
 
 In our example, the user query has a cosine similarity of 0.983 with the software engineering chunk and only 0.398 with the medical research chunk. The software engineering chunk is clearly the better match.
 
@@ -92,7 +92,7 @@ You'll often see "cosine distance" in vector database documentation. This is sim
 
 Finally, we take the user's question and the most relevant text chunk we found, then combine them into a prompt for Claude:
 
-![](https://academy.claude.com/assets/media/0a7e460e7f0bb53f7bc3f0b40cbc9c62257f50dfc9fdae2cc2dcabfa1ea358eb.png)
+![The question "How many bugs did engineers fix this year?" and the software engineering chunk feeding the prompt for Claude.](https://academy.claude.com/assets/media/0a7e460e7f0bb53f7bc3f0b40cbc9c62257f50dfc9fdae2cc2dcabfa1ea358eb.png)
 
 The prompt includes both the user's question and the relevant context from our document, allowing Claude to provide an informed answer based on the specific information in our knowledge base.
 

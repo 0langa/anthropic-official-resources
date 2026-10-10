@@ -4,7 +4,7 @@ Lesson 26 of 66 · Claude with Google Cloud's Vertex AISending tool results
 
 Lesson 267 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fsending-tool-results)
 
@@ -33,7 +33,7 @@ The double asterisk (`**`) unpacks the dictionary into keyword arguments that yo
 
 After running the tool, you send the results back to Claude using a tool result block. This block has several important properties:
 
-![](https://academy.claude.com/assets/media/9035ae652bfffca0219c19bc8053048d5e0e805cf4853dc2ee526edf54fe7a28.png)
+![Example tool result JSON with type "tool_result", content "12:47:13", is_error False and a matching tool_use_id.](https://academy.claude.com/assets/media/9035ae652bfffca0219c19bc8053048d5e0e805cf4853dc2ee526edf54fe7a28.png)
 
 - **tool\_use\_id** - Must match the ID from the original tool use block
 - **content** - The output from your tool function, converted to a string
@@ -43,11 +43,11 @@ After running the tool, you send the results back to Claude using a tool result 
 
 Claude can request multiple tool calls in a single response. For example, if a user asks "What's 10 + 10 and what's 30 + 30?", Claude might send two separate tool use blocks:
 
-![](https://academy.claude.com/assets/media/eec25fde47ed8fa3a64af5f7f3bdf08cd21bf6aa949e1f2d21a3d0bbd549cddd.png)
+![Claude sends calculator tool use blocks ab3 for 10 + 10 and po9 for 30 + 30; results return as po9 output 60 then ab3 20.](https://academy.claude.com/assets/media/eec25fde47ed8fa3a64af5f7f3bdf08cd21bf6aa949e1f2d21a3d0bbd549cddd.png)
 
 Each tool use block gets a unique ID, and you must match these IDs when sending back results:
 
-![](https://academy.claude.com/assets/media/72993e2545b7638dc6d900cd6c75834fabc7535ec4019a99ba40c37ab196b61e.png)
+![Claude returns tool uses ab3 for 10 + 10 and po9 for 30 + 30; our server replies po9 output 60, then ab3 output 20.](https://academy.claude.com/assets/media/72993e2545b7638dc6d900cd6c75834fabc7535ec4019a99ba40c37ab196b61e.png)
 
 This ID system ensures Claude can correctly match each result with its corresponding request, even if the results arrive in a different order.
 
@@ -71,7 +71,7 @@ messages.append({
 
 The conversation flow looks like this:
 
-![](https://academy.claude.com/assets/media/38aff0f2b767f4e5800935acc9f9bc07ecda5b5b0865247b27554671184ec071.png)
+![Our server sends Claude the tool schema, the question "Whats the current time?", the tool use and tool result blocks.](https://academy.claude.com/assets/media/38aff0f2b767f4e5800935acc9f9bc07ecda5b5b0865247b27554671184ec071.png)
 
 Remember to include the tool schema in your follow-up request, even though Claude probably won't need to call tools again. Claude needs the schema to understand the tool references in the conversation history.
 

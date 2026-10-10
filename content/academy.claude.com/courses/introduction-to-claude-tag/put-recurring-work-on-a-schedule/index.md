@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Shape a routine by replying to its first post
 - List, change, pause, or stop the routines in a channel
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-tag%2Fput-recurring-work-on-a-schedule)
 

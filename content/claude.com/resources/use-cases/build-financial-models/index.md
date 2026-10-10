@@ -2,7 +2,7 @@
 
 Create investment analyses with complete financial models, scenario planning, and risk evaluation.
 
-20 minFinanceClaude.ai
+20 minFinanceClaude
 
 Try in ClaudeCopy prompt
 
@@ -64,7 +64,7 @@ S&P Global
 
 [Connect](https://claude.ai/directory/s-p-global)
 
-Browse all connectors[Open in Claude](https://claude.ai/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/customize/connectors)
 
 ### Optional context[](https://academy.claude.com/use-cases/build-financial-models)
 

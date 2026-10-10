@@ -4,7 +4,7 @@ Lesson 13 of 13 · Claude 101What's next?
 
 Lesson 132 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-101%2Fwhat-s-next)
 

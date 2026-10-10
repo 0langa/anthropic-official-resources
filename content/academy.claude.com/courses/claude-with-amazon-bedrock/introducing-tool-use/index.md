@@ -4,13 +4,13 @@ Lesson 21 of 65 · Claude with Amazon BedrockIntroducing tool use
 
 Lesson 212 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fintroducing-tool-use)
 
 Tools allow Claude to access information from the outside world, solving one of its key limitations. By default, Claude only has access to information it was trained on, which means it can't provide current information like today's weather or recent news.
 
-![](https://academy.claude.com/assets/media/7692955293ff6d4b030a98a281f9197fd1518ea6b41e9c8d965d5628fa67da8f.png)
+![A chat app asks Claude about the weather in San Francisco, and Claude replies that it has no up-to-date weather information.](https://academy.claude.com/assets/media/7692955293ff6d4b030a98a281f9197fd1518ea6b41e9c8d965d5628fa67da8f.png)
 
 When a user asks "What's the weather in San Francisco, California?" Claude will typically respond with "I'm sorry, but I don't have access to up-to-date weather information." Tools fix this problem by creating a bridge between Claude and external data sources.
 
@@ -18,7 +18,7 @@ When a user asks "What's the weather in San Francisco, California?" Claude will 
 
 The tool use process follows a specific flow that involves multiple back-and-forth communications between your server and Claude:
 
-![](https://academy.claude.com/assets/media/8d6e5b5237acf900f920f9bc54947932fa54381db1740a9f4142de989f26b805.png)
+![Diagram of the four messages exchanged between our server and Claude during tool use, described step by step below.](https://academy.claude.com/assets/media/8d6e5b5237acf900f920f9bc54947932fa54381db1740a9f4142de989f26b805.png)
 
 1. **Initial Request:** You send Claude a question along with instructions on how to get extra data
 2. **Tool Request:** Claude analyzes the question and asks for specific external data it needs
@@ -29,7 +29,7 @@ The tool use process follows a specific flow that involves multiple back-and-for
 
 Here's how the tool use flow works for a weather query:
 
-![](https://academy.claude.com/assets/media/4e315ccb2014ca3d65e795f6c7ee20a6b77faa99b7d1a77952cb3cff0bd04b96.png)
+![Diagram of the four messages between our server and Claude for a weather query, described step by step below.](https://academy.claude.com/assets/media/4e315ccb2014ca3d65e795f6c7ee20a6b77faa99b7d1a77952cb3cff0bd04b96.png)
 
 When a user asks about weather, you include details on how to retrieve current weather data in your initial request to Claude. Claude recognizes it needs current weather information and asks your server to get it. Your server calls a weather API, retrieves the live data, and sends it back to Claude. Finally, Claude combines the original question with the fresh weather data to provide an accurate, current response.
 
@@ -37,7 +37,7 @@ When a user asks about weather, you include details on how to retrieve current w
 
 Tool use can feel confusing because there's a disconnect between the logical flow and how you actually write the code. The implementation doesn't follow the same order as the conceptual steps:
 
-![](https://academy.claude.com/assets/media/ce61ec2a1c32ab584a0044ec5602a73b05717dd23b0758366acb4374e7b4fdfa.png)
+![Tool use flow marked with the code for each step, in order: JSON schema, ToolUse part, tool function, ToolResult part.](https://academy.claude.com/assets/media/ce61ec2a1c32ab584a0044ec5602a73b05717dd23b0758366acb4374e7b4fdfa.png)
 
 In practice, you often need to:
 

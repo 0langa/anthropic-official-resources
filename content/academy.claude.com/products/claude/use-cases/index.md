@@ -1,4 +1,4 @@
-# Browse Claude.ai use cases
+# Browse Claude use cases
 
 
 

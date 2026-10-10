@@ -2,7 +2,7 @@
 
 Set up and use the NPI Registry integration with Claude to validate, look up, and search US healthcare provider credentials in the CMS NPPES registry.
 
-15 minClaude.ai
+15 minClaude
 
 [Open Claude](https://claude.ai/new)
 

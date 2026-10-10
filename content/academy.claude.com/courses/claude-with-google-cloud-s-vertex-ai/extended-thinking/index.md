@@ -4,13 +4,13 @@ Lesson 43 of 66 · Claude with Google Cloud's Vertex AIExtended thinking
 
 Lesson 4310 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fextended-thinking)
 
 Extended thinking is Claude's advanced reasoning feature that gives the model time to think through complex problems before generating a response. When enabled, Claude produces a visible thinking process that users can examine to understand how the model approached their query.
 
-![](https://academy.claude.com/assets/media/bcdce97e3d0ddfdf0d34acce1d47fbb6508b9b207cdfcb0a8fc215b1d301cef1.png)
+![Claude chat about closing JSON delimiters, with callouts labeling "User Query", "Thinking / Reasoning" and "Response".](https://academy.claude.com/assets/media/bcdce97e3d0ddfdf0d34acce1d47fbb6508b9b207cdfcb0a8fc215b1d301cef1.png)
 
 This feature significantly improves Claude's ability to handle complex tasks with greater accuracy, but it comes with important trade-offs. You'll be charged for all tokens generated during the thinking phase, and the additional processing time increases response latency. The key is knowing when the improved intelligence justifies the extra cost and wait time.
 
@@ -27,11 +27,11 @@ The decision to enable extended thinking should be driven by your prompt evaluat
 
 Without extended thinking, Claude's response flow is straightforward - you send a user message with a text block and receive an assistant message with a text block in return.
 
-![](https://academy.claude.com/assets/media/699b356c4c4251173b50811123addb4bd75c50f4b474bcf4fa98e6cad46eb538.png)
+![Claude's reply to "Write a short guide on recursion" begins "Recursion is a powerful programming technique".](https://academy.claude.com/assets/media/699b356c4c4251173b50811123addb4bd75c50f4b474bcf4fa98e6cad46eb538.png)
 
 With extended thinking enabled, the response structure changes significantly. You'll receive an assistant message containing two distinct blocks:
 
-![](https://academy.claude.com/assets/media/2cee7e788b2e5202fa9336a10501d99309ea1238cce932dfbc1199d17e0cc5ed.png)
+![With thinking, our server sends "Write a short guide on recursion" and Claude returns a thinking block then a text block.](https://academy.claude.com/assets/media/2cee7e788b2e5202fa9336a10501d99309ea1238cce932dfbc1199d17e0cc5ed.png)
 
 - A `thinking` block containing Claude's reasoning process
 - A `text` block with the final response
@@ -40,7 +40,7 @@ With extended thinking enabled, the response structure changes significantly. Yo
 
 Each thinking block includes a cryptographic signature that serves an important security purpose. This signature ensures that the thinking text hasn't been modified when you include the message in future conversation turns.
 
-![](https://academy.claude.com/assets/media/87a48c18f07e4e44360d5545e511f0cbb52847e0372491f3448666efd8e19108.png)
+![Assistant message JSON with the highlighted "signature" key in the thinking block, its value a long truncated token.](https://academy.claude.com/assets/media/87a48c18f07e4e44360d5545e511f0cbb52847e0372491f3448666efd8e19108.png)
 
 Claude relies heavily on the thinking content for response generation, so preventing tampering is crucial for maintaining safe and consistent behavior. If you modify the thinking text, the signature validation will fail.
 
@@ -48,7 +48,7 @@ Claude relies heavily on the thinking content for response generation, so preven
 
 Sometimes Claude's thinking process gets flagged by internal safety systems. When this happens, you'll receive a redacted thinking block instead of the raw thinking text.
 
-![](https://academy.claude.com/assets/media/13c20f67d2bd062e106e341bee51a8281674beb8c03beec0da189835345e8105.png)
+![Assistant message: a highlighted "redacted_thinking" block with encrypted "data", then a "text" block "A Guide to Recursion".](https://academy.claude.com/assets/media/13c20f67d2bd062e106e341bee51a8281674beb8c03beec0da189835345e8105.png)
 
 The redacted content contains the actual thinking text in encrypted form. While you can't read it, you can still include this block in future conversation turns so Claude doesn't lose context from its previous reasoning.
 

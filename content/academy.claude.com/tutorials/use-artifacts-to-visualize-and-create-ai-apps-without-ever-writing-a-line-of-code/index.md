@@ -2,7 +2,7 @@
 
 Artifacts are like mini-apps you can build with Claude. Learn how to use them to illustrate ideas. Then customize, and share them right from your Claude app.
 
-9 minClaude.ai
+9 minClaude
 
 Watch[Open Claude](https://claude.ai/new)
 
@@ -24,19 +24,19 @@ These are great for when you want to quickly spin up any kind of digital product
 
 - **Product prototypes —** You don’t need to be a designer or engineer to mock up a new landing page or app. Just ask Claude for what you need. Like this [mood canvas(opens in new tab)](https://claude.ai/public/artifacts/27e36ad3-716b-4504-bfe8-5fb46ef5ca07) that creates colorful visualizations based on user input.
 
-![](https://academy.claude.com/assets/media/2ddcb2eda708da76b09859bcab1de7d7d8e52d0c5a2dd34b40fea534c14ec0f9.png)
+![Claude app with an artifact that fills the pane with red and blue glows and says "Type to create colors and sounds".](https://academy.claude.com/assets/media/2ddcb2eda708da76b09859bcab1de7d7d8e52d0c5a2dd34b40fea534c14ec0f9.png)
 
 - **Tailored AI assistants** — Tired of answering the same questions over and over again? Claude can build chatbots that have context to handle common queries, letting you focus on other work. Like a wedding planner bot that knows all of your vendor details, a recipe helper that only suggests meals your kids will eat, or this [email writing assistant(opens in new tab)](https://claude.ai/public/artifacts/2c91cdd9-168a-4d97-aa36-2e0eb13ab828) that turns raw thoughts into polished communications.
 
-![](https://academy.claude.com/assets/media/84db573e8802a7d4e81ff8999bb0773b297a7b84583e327f3662562bb2c72536.png)
+![Email writing assistant with a "Your Thoughts" box and "Email Tone" section, beside Claude's four ways to customize it.](https://academy.claude.com/assets/media/84db573e8802a7d4e81ff8999bb0773b297a7b84583e327f3662562bb2c72536.png)
 
 - **Learning games** — A parent wanting to help their child learn multiplication tables could describe an interactive game where kids battle monsters by solving math problems. A few turns later, they’ll have a working prototype. Or to learn for yourself, try this [language tutor(opens in new tab)](https://claude.ai/public/artifacts/2af221b6-367f-4b4f-9fe9-25710f5f8feb) that lets you chat and learn in a language of your choice.
 
-![](https://academy.claude.com/assets/media/b909e755e3f0fcf8631e0f47d269dad6642789ac160526cef1d41f3a5ffca413.png)
+![Language tutor artifact with Spanish selected and a "Beginner" badge, beside a sidebar of progress stats and learning goals.](https://academy.claude.com/assets/media/b909e755e3f0fcf8631e0f47d269dad6642789ac160526cef1d41f3a5ffca413.png)
 
 - **Small business solutions** — A small business owner needing inventory tracking can describe their workflow to Claude and create a custom tool that perfectly suits their needs. Just like this [project dashboard generator(opens in new tab)](https://claude.ai/public/artifacts/7d9ae635-3bdf-429d-a24d-708828434b0a) that takes user input and provides Gantt charts, progress bars, and milestone tracking.
 
-![](https://academy.claude.com/assets/media/09a9d2df9ca0cb1a0ec0054d5abe037747b6f19650a9b2e6d204bc0ab72d1b98.png)
+![Claude offers four ways to customize the project dashboard generator beside its Website Redesign preview at 17% progress.](https://academy.claude.com/assets/media/09a9d2df9ca0cb1a0ec0054d5abe037747b6f19650a9b2e6d204bc0ab72d1b98.png)
 
 The options are really endless. For more inspiration, visit the “Artifacts” tab in your Claude app, or try asking Claude what you should build. (Note that the “Artifacts” tab itself is only available on free, pro, and max plans, and currently does not exist on mobile). Artifacts are also available on team and enterprise plans, where an Owner can enable them for the whole organization.
 
@@ -87,7 +87,7 @@ Share your finished artifacts with others by clicking the **Publish** button to 
 
 Anyone with the link can use and interact with your artifact without signing in (AI-powered artifacts are the exception: those require sign-in). Viewers can copy the content or look at the code, but they can't change your published version.
 
-![](https://academy.claude.com/assets/media/96051ee27068bc8fc64b170b8724d00591ba0c3aa8dd06a2e4366fc3f0769f2b.png)
+![Publish artifact dialog for the "Flashcard" artifact, noting your chat will remain private, with Cancel and Publish buttons.](https://academy.claude.com/assets/media/96051ee27068bc8fc64b170b8724d00591ba0c3aa8dd06a2e4366fc3f0769f2b.png)
 
 ## More resources to get started[](https://academy.claude.com/tutorials/use-artifacts-to-visualize-and-create-ai-apps-without-ever-writing-a-line-of-code)
 

@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Use the levers that move spend without adjusting a cap
 - Set your spend-governance posture: your defaults, your review cadence, and your rule for approving increases
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fmanaging-spend)
 

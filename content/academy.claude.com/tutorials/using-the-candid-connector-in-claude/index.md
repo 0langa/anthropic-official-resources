@@ -2,7 +2,7 @@
 
 Connect Claude to Candid's database of 1.9M+ nonprofits and foundations for organizational research, grant discovery, and sector analysis.
 
-10 minClaude.ai
+10 minClaude
 
 [Open Claude](https://claude.ai/new)
 

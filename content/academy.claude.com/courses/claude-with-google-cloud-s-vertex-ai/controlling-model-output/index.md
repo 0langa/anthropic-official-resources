@@ -4,7 +4,7 @@ Lesson 8 of 66 · Claude with Google Cloud's Vertex AIControlling model output�
 
 Lesson 87 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fcontrolling-model-output)
 
@@ -14,11 +14,11 @@ Beyond crafting better prompts, there are two powerful techniques for controllin
 
 Message prefilling lets you provide the beginning of Claude's response, which it will then continue from that starting point. This technique is incredibly useful for steering Claude in a specific direction.
 
-![](https://academy.claude.com/assets/media/b47e17ea1c9fa46a70afa394bf22292a79c2515207ee897ed00128d3d7d15fe6.png)
+![User message "Is tea or coffee better at breakfast?" goes to Claude, which returns an assistant message of "???".](https://academy.claude.com/assets/media/b47e17ea1c9fa46a70afa394bf22292a79c2515207ee897ed00128d3d7d15fe6.png)
 
 Here's how it works: instead of just sending a user message, you add an assistant message at the end of your message list. Claude sees this assistant message and thinks "I've already started responding to this question, so I should continue from where I left off."
 
-![](https://academy.claude.com/assets/media/8a4248de3e8305a4bca8937642f8c00488361560278ea032e73166022c29162b.png)
+![Claude continues the prefilled text with "it has higher caffeine content which helps with alertness in the morning".](https://academy.claude.com/assets/media/8a4248de3e8305a4bca8937642f8c00488361560278ea032e73166022c29162b.png)
 
 For example, if you ask "Is tea or coffee better at breakfast?" without prefilling, Claude typically gives a balanced response mentioning both options. But if you add an assistant message saying "Coffee is better because", Claude will continue from there and build a case for coffee.
 
@@ -45,7 +45,7 @@ You can steer Claude in any direction using this technique:
 
 Stop sequences force Claude to end its response as soon as it generates a specific string of characters. This is perfect for controlling the length or endpoint of responses.
 
-![](https://academy.claude.com/assets/media/10b88f1b5ccafd4b163e3d1173472b868c2b1d1b7b0f809c9484807522fdf454.png)
+![Diagram of the user message "Count from 1 to 10" sent to Claude with stop sequences set to "5", and the reply "1, 2, 3, 4,".](https://academy.claude.com/assets/media/10b88f1b5ccafd4b163e3d1173472b868c2b1d1b7b0f809c9484807522fdf454.png)
 
 The concept is straightforward: you provide a list of strings, and when Claude generates any of those strings, it immediately stops and returns whatever it has generated up to that point.
 

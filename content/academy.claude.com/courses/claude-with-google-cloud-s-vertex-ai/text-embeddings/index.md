@@ -4,25 +4,25 @@ Lesson 36 of 66 · Claude with Google Cloud's Vertex AIText embeddings
 
 Lesson 367 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Ftext-embeddings)
 
 After extracting text chunks from a document, the next step in a RAG pipeline is finding which chunks are most relevant to a user's question. This is essentially a search problem - you need to look through all your chunks and identify the ones that relate to what the user is asking about.
 
-![](https://academy.claude.com/assets/media/5bdbb520520b8a663e1eee52844c40be0df9427e8abeacf52a2e33fa6f0e0a0b.png)
+![The question "How many bugs did engineers fix this year?" and chunks feed a prompt with user_question and report tags.](https://academy.claude.com/assets/media/5bdbb520520b8a663e1eee52844c40be0df9427e8abeacf52a2e33fa6f0e0a0b.png)
 
 ## Semantic Search[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/text-embeddings)
 
 The most common approach for finding relevant chunks is semantic search. Unlike traditional keyword-based search, semantic search uses text embeddings to understand the actual meaning of both the user's question and each text chunk. This allows the system to find conceptually related content even when the exact words don't match.
 
-![](https://academy.claude.com/assets/media/952c238e944430644b7ce72e79e11fe8f66e8f20be31104a4297a303da10e432.png)
+!["How many bugs did engineers fix this year?" above a medical chunk that says "bug" and a software one on infection vectors.](https://academy.claude.com/assets/media/952c238e944430644b7ce72e79e11fe8f66e8f20be31104a4297a303da10e432.png)
 
 ## What Are Text Embeddings?[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/text-embeddings)
 
 A text embedding is a numerical representation of the meaning contained in some text. Think of it as converting words and sentences into a format that computers can work with mathematically.
 
-![](https://academy.claude.com/assets/media/5126d0bcc653475f702151e4cff43edeb4a70c94315da05688a4ec5072fc7ab5.png)
+![An embedding model turns each of "I'm very happy today!", "That movie wasn't great" and "abcd" into a list of numbers.](https://academy.claude.com/assets/media/5126d0bcc653475f702151e4cff43edeb4a70c94315da05688a4ec5072fc7ab5.png)
 
 Here's how the process works:
 
@@ -35,7 +35,7 @@ Here's how the process works:
 
 Each number in an embedding is essentially a "score" for some quality of the input text. However, here's the important caveat: we don't actually know what each specific number represents.
 
-![](https://academy.claude.com/assets/media/bcff1d5482df41d7d7196a0dcbdc6f27892114a53102a3aca0fc0537fb8f742a.png)
+![Arrows label embedding numbers: how "happy" or "formal" the text is and how much it mentions fruit, oceans or driving.](https://academy.claude.com/assets/media/bcff1d5482df41d7d7196a0dcbdc6f27892114a53102a3aca0fc0537fb8f742a.png)
 
 While it's helpful to imagine that one number might represent "how happy the text is" and another might represent "how much the text talks about oceans," these are just conceptual examples. The embedding model learns these features during training, but they're not explicitly labeled or interpretable to us.
 
@@ -45,7 +45,7 @@ Despite this opacity, embeddings are incredibly powerful because they capture se
 
 Claude can't generate embeddings directly. Instead, you need to use a specialized embedding model. On Vertex AI, the model we'll use is called `text-embedding-005`.
 
-![](https://academy.claude.com/assets/media/c353c4d3d6190d0a1c8f12954515f17cd2ef95ae7a0758346164bcf957b4b249.png)
+![Three inputs, "I'm very happy today!", "That movie wasn't great" and "abcd", each becoming a list of numbers.](https://academy.claude.com/assets/media/c353c4d3d6190d0a1c8f12954515f17cd2ef95ae7a0758346164bcf957b4b249.png)
 
 ## Implementation[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/text-embeddings)
 

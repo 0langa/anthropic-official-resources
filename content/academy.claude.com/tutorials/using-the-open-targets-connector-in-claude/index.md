@@ -2,7 +2,7 @@
 
 Set up and use the Open Targets integration with Claude to explore supporting data, prioritize drug targets, and assess disease associations.
 
-10 minClaude.ai
+10 minClaude
 
 [Open Claude](https://claude.ai/new)
 

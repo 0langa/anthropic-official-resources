@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Set up a scheduled task with /schedule
 - Start or check on a Cowork task from your phone or any browser
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-cowork%2Fscheduled-tasks)
 
@@ -137,11 +137,6 @@ Look at your calendar or to-do list for this week. Pick one piece of work that m
 In the next lesson, you'll walk through delegating that task end to end — from prompt to finished deliverable.
 
 Was this helpful?
-
-
-## Transcript
-
-This lesson's video contains no spoken narration (screen demonstration with background audio only).
 
 
 ## File-based

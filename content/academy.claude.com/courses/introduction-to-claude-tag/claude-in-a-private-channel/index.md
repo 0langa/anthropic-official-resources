@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Explain how Claude stays inside a private channel's boundary
 - Explain why what Claude learns in a private channel stays with its members
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-tag%2Fclaude-in-a-private-channel)
 

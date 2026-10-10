@@ -111,31 +111,33 @@ The economics of COBOL modernization have shifted. AI makes the economics work b
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleSep 24, 2026
+[ArticleOct 8, 2026
 
-### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Building effective agent automations
 
-Our latest Opus model is priced and trained to optimize costs for how developers code now.
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
 
-Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
+Claude Platform
 
-### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 8, 2026
 
-Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
+### How Block orchestrates Claude Fable across thousands of pull requests
 
-Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
+Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
 
-### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
+Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)[ArticleOct 7, 2026
 
-Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
+### Automating eval design and hillclimbing with Claude
 
-Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-### The Claude Code guide for startups
+Claude Platform
 
-How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
 
-Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
+### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
+
+Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)
 
 ## Transform how your organization operates with Claude
 

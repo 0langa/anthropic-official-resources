@@ -4,7 +4,7 @@ Lesson 19 of 65 · Claude with Amazon BedrockStructure with XML tags
 
 Lesson 199 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fstructure-with-xml-tags)
 
@@ -14,7 +14,7 @@ When you're building prompts that include a lot of content, Claude can sometimes
 
 Consider a prompt where you need to analyze 20 pages of sales records. Without clear boundaries, Claude might have trouble distinguishing between your instructions and the actual data you want analyzed.
 
-![](https://academy.claude.com/assets/media/31cfcf31ba1bc9fe15a2543c9236fc3509f70793a5414192e4bb642b9ddd5704.png)
+![A prompt with no XML tags: it asks for a decision report, interpolates sales_records, then lists five numbered steps.](https://academy.claude.com/assets/media/31cfcf31ba1bc9fe15a2543c9236fc3509f70793a5414192e4bb642b9ddd5704.png)
 
 The example above shows how unclear boundaries can make it difficult for Claude to parse your intent. By wrapping the sales records in XML tags, you create clear separation between different parts of your prompt.
 
@@ -36,7 +36,7 @@ The tag names don't need to follow any official XML specification - you're free 
 
 Here's a clear example of why XML tags make a difference. In the "Not Great" version, it's unclear what content represents the buggy code versus the documentation:
 
-![](https://academy.claude.com/assets/media/06552fb30df1c3da1b204e2c362c55d78c2aa236d4c6a149b1e55bc594752e58.png)
+![The same debugging prompt twice: "Not Great" with code and docs run together, and "Better" with my_code and docs tags.](https://academy.claude.com/assets/media/06552fb30df1c3da1b204e2c362c55d78c2aa236d4c6a149b1e55bc594752e58.png)
 
 The improved version uses XML tags to clearly separate the different types of content:
 

@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Describe what Claude can do with and without tools, and where you can work with it
 - Add Claude to a channel and confirm it replies
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-tag%2Ftag-claude-and-see-what-happens)
 

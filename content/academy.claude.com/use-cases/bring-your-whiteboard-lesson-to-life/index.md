@@ -2,7 +2,7 @@
 
 Work through how to teach a concept with Claude sketching alongside. The visual streams in as part of the back-and-forth — a thinking tool for your prep first, and a teaching tool if you take it further.
 
-15 minEducationClaude.ai
+15 minEducationClaude
 
 Try in ClaudeCopy prompt
 

@@ -4,7 +4,7 @@ Lesson 12 of 65 · Claude with Amazon BedrockGenerating test datasets
 
 Lesson 1210 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fgenerating-test-datasets)
 
@@ -20,7 +20,7 @@ The prompt should take a user's task description and return one of three output 
 
 The key requirement is that responses should contain only the requested code without headers, footers, or explanations.
 
-![](https://academy.claude.com/assets/media/b90f92e3b63fb425b59dc9502e316ab8be95c504567d5d380d8e458ccce18114.png)
+![The goal for the AWS code prompt, beside "Prompt v1", which sets a prompt variable to the f-string template quoted below.](https://academy.claude.com/assets/media/b90f92e3b63fb425b59dc9502e316ab8be95c504567d5d380d8e458ccce18114.png)
 
 Starting with a simple first version keeps things manageable. The initial prompt template is straightforward: "Please provide a solution to the following task: {task}"
 
@@ -28,7 +28,7 @@ Starting with a simple first version keeps things manageable. The initial prompt
 
 An evaluation dataset contains input examples that you'll feed into your prompt. Each test case gets combined with your prompt and sent to Claude, letting you see how well the prompt performs across different scenarios.
 
-![](https://academy.claude.com/assets/media/c241835434eb37b364613c1db43a14d7d6b4afbd8a5505b2d6d1b95dbe3dc3b7.png)
+![JSON array of objects each with a "task" key, such as "Create a Python function to extract the AWS account ID from an ARN".](https://academy.claude.com/assets/media/c241835434eb37b364613c1db43a14d7d6b4afbd8a5505b2d6d1b95dbe3dc3b7.png)
 
 You can create datasets in two ways:
 

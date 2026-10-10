@@ -2,7 +2,7 @@
 
 Set up and use the Scholar Gateway integration by Wiley with Claude for access to over 3 million peer-reviewed scientific articles.
 
-2 minClaude.ai
+2 minClaude
 
 [Open Claude](https://claude.ai/new)
 

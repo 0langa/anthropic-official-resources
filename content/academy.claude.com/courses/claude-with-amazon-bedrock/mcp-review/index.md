@@ -4,13 +4,13 @@ Lesson 58 of 65 · Claude with Amazon BedrockMCP review
 
 Lesson 582 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fmcp-review)
 
 Now that we've built our MCP server, let's recap the three core server primitives and understand when to use each one. The key insight is that each primitive is controlled by a different part of your application stack.
 
-![](https://academy.claude.com/assets/media/bc7ee5fac91b20fa74fcc27bb9255bc41c9fb9c50a15ae60e3bfccc7a1cfad3e.png)
+![Tools, resources and prompts compared: Claude controls tools, our app controls resources, the user controls prompts.](https://academy.claude.com/assets/media/bc7ee5fac91b20fa74fcc27bb9255bc41c9fb9c50a15ae60e3bfccc7a1cfad3e.png)
 
 ## Tools: Model-Controlled[](https://academy.claude.com/courses/claude-with-amazon-bedrock/mcp-review)
 
@@ -18,7 +18,7 @@ Tools are controlled entirely by Claude. The AI model decides when to call these
 
 Use tools when you want to give Claude additional capabilities. For example, if you ask Claude to calculate the square root of 3 using JavaScript, Claude will automatically decide to use a JavaScript execution tool to provide the answer.
 
-![](https://academy.claude.com/assets/media/776ea69dbffaa14beef39f1eb2d94c67da5c13766343ae92bbe1d4ab636103fe.png)
+![The three MCP server primitives compared: Claude controls tools, our app controls resources and the user controls prompts.](https://academy.claude.com/assets/media/776ea69dbffaa14beef39f1eb2d94c67da5c13766343ae92bbe1d4ab636103fe.png)
 
 The decision to use the tool was 100% model-controlled - Claude recognized it needed to execute code and chose the appropriate tool without any prompting from the application or user.
 

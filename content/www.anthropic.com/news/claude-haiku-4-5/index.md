@@ -12,7 +12,7 @@ What was recently at the frontier is now cheaper and faster. Five months ago, Cl
 
 ![Chart comparing frontier models on SWE-bench Verified which measures performance on real-world coding tasks](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1a27d7a85f953c5a0577dc19b507d6e1b93444d5-1920x1080.png&w=3840&q=75)
 
-Claude Haiku 4.5 even surpasses Claude Sonnet 4 at certain tasks, like using computers. These advances make applications like [Claude for Chrome](http://claude.ai/redirect/website.v1.af70e42a-aea5-4369-b73f-02cd95d3d548/chrome) faster and more useful than ever before.
+Claude Haiku 4.5 even surpasses Claude Sonnet 4 at certain tasks, like using computers. These advances make applications like [Claude for Chrome](http://claude.ai/redirect/website.v1.392e8768-666c-4c09-af7a-1ba8d3321886/chrome) faster and more useful than ever before.
 
 Users who rely on AI for real-time, low-latency tasks like chat assistants, customer service agents, or pair programming will appreciate Haiku 4.5’s combination of high intelligence and remarkable speed. And users of Claude Code will find that Haiku 4.5 makes the coding experience—from multiple-agent projects to rapid prototyping—markedly more responsive.
 
@@ -89,20 +89,20 @@ All OpenAI scores reported from their [GPT-5 post](https://openai.com/index/intr
 
 ## Related content
 
-### Expanding the Cyber Verification Program
+### 2026 Usage Policy update
 
-We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.
+We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
 
-[Read more](https://www.anthropic.com/news/cyber-verification-program)
+[Read more](https://www.anthropic.com/news/2026-usage-policy-update)
 
-### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
+### Building on our commitment to American scientific discovery
 
-Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
+Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
 
-[Read more](https://www.anthropic.com/news/claude-frontier-academy)
+[Read more](https://www.anthropic.com/news/genesis-mission-commitment)
 
-### Barclays scales Claude to upgrade operations and improve client experience
+### Introducing the Anthropic Cyber Mission
 
-Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
+We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.
 
-[Read more](https://www.anthropic.com/news/barclays-scales-claude)
+[Read more](https://www.anthropic.com/news/anthropic-cyber-mission)

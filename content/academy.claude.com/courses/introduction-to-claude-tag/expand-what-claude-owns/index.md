@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Shift from directing tasks to setting goals and reviewing the decisions that matter
 - Hand Claude one ongoing job, with clear lines on what comes back to you
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-tag%2Fexpand-what-claude-owns)
 

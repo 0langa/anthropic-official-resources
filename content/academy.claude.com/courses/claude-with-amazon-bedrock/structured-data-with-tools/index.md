@@ -4,7 +4,7 @@ Lesson 30 of 65 · Claude with Amazon BedrockStructured data with tools
 
 Lesson 308 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fstructured-data-with-tools)
 
@@ -18,7 +18,7 @@ You might wonder why we didn't just start with tools if they're more reliable. T
 
 The core concept is straightforward: instead of asking Claude to format its response as JSON, you create a tool whose input parameters match the exact structure of data you want to extract. Claude then "calls" this tool with the extracted data as arguments.
 
-![](https://academy.claude.com/assets/media/8e31fd40e0bf9e73f3221a900e31b8d200aed886203c8de1ca50d2e965939b60.png)
+![A financial_analysis_schema for an analyze_financial_statement tool: required integer "balance" and array "key_insights".](https://academy.claude.com/assets/media/8e31fd40e0bf9e73f3221a900e31b8d200aed886203c8de1ca50d2e965939b60.png)
 
 Here's the process:
 
@@ -28,7 +28,7 @@ Here's the process:
 4. Force Claude to use the tool with the `toolChoice` parameter
 5. Extract the structured data from the tool call arguments
 
-![](https://academy.claude.com/assets/media/85045c0892b4746f255be062cdee6017dfec318ab23c44d5c0656d829f4978b6.png)
+![Our server sends Claude a prompt to analyze a financial statement and call the financial_analysis tool, plus its schema.](https://academy.claude.com/assets/media/85045c0892b4746f255be062cdee6017dfec318ab23c44d5c0656d829f4978b6.png)
 
 The flow looks like this: your server sends a prompt asking Claude to analyze data and call a specific tool. Claude responds with a tool use message containing the extracted JSON data. At that point, you simply take the data and end the conversation - no follow-up needed.
 
@@ -36,7 +36,7 @@ The flow looks like this: your server sends a prompt asking Claude to analyze da
 
 When using tools for structured output, you want to guarantee that Claude uses your extraction tool. The `toolChoice` parameter gives you three options:
 
-![](https://academy.claude.com/assets/media/99e064378a0c0d2c27917469be7f9f52acabce4b33816f3edfa6be85d85b402a.png)
+![Notebook cell asking Claude for a one-paragraph scholarly article with a title and author name, and the long text reply.](https://academy.claude.com/assets/media/99e064378a0c0d2c27917469be7f9f52acabce4b33816f3edfa6be85d85b402a.png)
 
 - `{"toolChoice": {"auto": {}}}` - Model decides if it needs to use a tool (default)
 - `{"toolChoice": {"any": {}}}` - Model must use a tool, but can choose which one

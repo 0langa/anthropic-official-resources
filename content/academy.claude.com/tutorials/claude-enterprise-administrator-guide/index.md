@@ -2,7 +2,7 @@
 
 Walk through the four phases of a successful Claude Enterprise deployment: Technical Setup, Change Management & Launch, Enablement & Training, and Scaling Adoption. Includes Claude Code seat configuration and a complete resource directory.
 
-20 minClaude.ai
+20 minClaude
 
 [Open Claude](https://claude.ai/new)
 
@@ -321,7 +321,8 @@ A comprehensive directory of support, training, and enablement resources for Cla
 
 ### Content Creation & Artifacts[](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)
 
-- [What are artifacts?(opens in new tab)](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them) — Interactive content blocks for code, documents, websites, and visualizations
+- [What are artifacts?(opens in new tab)](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them) — What artifacts are, the kinds Claude makes, and how to edit and share them
+- [Artifacts admin guide for Team and Enterprise plans(opens in new tab)](https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans) — Which templates members can use, who can share outside the organization, and where to change each setting
 - [Create and edit files with Claude(opens in new tab)](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude) — Generate Word docs, spreadsheets, presentations, and other file types
 - [Visual and interactive content(opens in new tab)](https://support.claude.com/en/articles/13641943-visual-and-interactive-content) — Charts, diagrams, interactive web apps, and visual outputs
 - [Uploading files to Claude(opens in new tab)](https://support.claude.com/en/articles/8241126-uploading-files-to-claude) — Supported file types, size limits, and best practices

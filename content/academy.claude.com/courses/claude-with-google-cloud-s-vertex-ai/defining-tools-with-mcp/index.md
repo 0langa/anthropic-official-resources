@@ -4,13 +4,13 @@ Lesson 52 of 66 · Claude with Google Cloud's Vertex AIDefining tools with MCP�
 
 Lesson 5210 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fdefining-tools-with-mcp)
 
 Building an MCP server becomes much simpler when you use the official Python SDK. Instead of writing complex JSON schemas by hand, you can define tools with decorators and let the SDK handle the heavy lifting.
 
-![](https://academy.claude.com/assets/media/19aefa6bde860d04e6b71bd38de13b4ef638c4bd9aa2bcd4d385cd8281fe0c20.png)
+![Our MCP server's read and update tools connected to four files: document.pdf, spreadsheet.xlsx, report.txt and spec.md.](https://academy.claude.com/assets/media/19aefa6bde860d04e6b71bd38de13b4ef638c4bd9aa2bcd4d385cd8281fe0c20.png)
 
 In this example, we're creating a document management server with two core tools: one to read documents and another to update them. All documents exist in memory as a simple dictionary where keys are document IDs and values are the content.
 
@@ -30,7 +30,7 @@ This creates a fully functional MCP server that can handle tool definitions, cli
 
 ## Tool Definition with Decorators[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/defining-tools-with-mcp)
 
-![](https://academy.claude.com/assets/media/7cbfdec43d3001525c22fb80f0dd0c6a920d3ce071b85a492bea8acf33ec52f5.png)
+![Our MCP server's read and update tools connected to four files: document.pdf, spreadsheet.xlsx, report.txt and spec.md.](https://academy.claude.com/assets/media/7cbfdec43d3001525c22fb80f0dd0c6a920d3ce071b85a492bea8acf33ec52f5.png)
 
 The SDK's decorator approach eliminates the need for manual JSON schema writing. Here's how you define a simple tool:
 

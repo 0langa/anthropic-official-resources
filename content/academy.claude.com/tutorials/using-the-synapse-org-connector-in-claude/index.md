@@ -2,7 +2,7 @@
 
 Set up and use the Synapse.org integration with Claude to discover biomedical data and explore project structures across the Synapse platform.
 
-15 minClaude.ai
+15 minClaude
 
 [Open Claude](https://claude.ai/new)
 

@@ -24,7 +24,7 @@ There was both an engineering challenge (the raw sizes of the models involved re
 
 As for the scientific risk, the proof is in the pudding.
 
-We successfully extracted millions of features from the middle layer of Claude 3.0 Sonnet, (a member of our current, state-of-the-art model family, currently available on [claude.ai](https://claude.ai/redirect/website.v1.b5e58d68-7379-4e59-9fbd-51809fba764a)), providing a rough conceptual map of its internal states halfway through its computation. This is the first ever detailed look inside a modern, production-grade large language model.
+We successfully extracted millions of features from the middle layer of Claude 3.0 Sonnet, (a member of our current, state-of-the-art model family, currently available on [claude.ai](https://claude.ai/redirect/website.v1.7873c0e0-41e1-4ff2-9dfa-d64d1c747446)), providing a rough conceptual map of its internal states halfway through its computation. This is the first ever detailed look inside a modern, production-grade large language model.
 
 Whereas the features we found in the toy language model were rather superficial, the features we found in Sonnet have a depth, breadth, and abstraction reflecting Sonnet's advanced capabilities.
 
@@ -86,6 +86,12 @@ For full details, please read our paper, "[Scaling Monosemanticity: Extracting I
 
 ## Related content
 
+### Investigating unintended model actions in our evaluations and internal use
+
+This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude.
+
+[Read more](https://www.anthropic.com/research/investigating-unintended-model-actions)
+
 ### The missing map of the sky
 
 Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.
@@ -97,9 +103,3 @@ Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at
 We’re making available OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem that’s informed by our experience using Claude to find vulnerabilities during Project Glasswing.
 
 [Read more](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source)
-
-### Claude-shaped science
-
-Guest author Prof. Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems: ones best suited to the capabilities of the current generation of LLM tools. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.
-
-[Read more](https://www.anthropic.com/research/claude-shaped-science)

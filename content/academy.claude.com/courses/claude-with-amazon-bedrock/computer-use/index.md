@@ -4,13 +4,13 @@ Lesson 63 of 65 · Claude with Amazon BedrockComputer Use
 
 Lesson 633 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fcomputer-use)
 
 Computer use is a powerful feature that lets Claude interact directly with desktop environments, essentially giving it the ability to control a computer like a human would. This opens up entirely new possibilities for automation, testing, and complex workflows that go beyond simple text generation.
 
-![](https://academy.claude.com/assets/media/4b5ec9792d6955bb4389f95219aaffbced39e4ee1bff425fc72d7cd1adcc9c13.png)
+![Roadmap of three stages: a demonstration of computer use, how computer use works, and setting up a reference implementation.](https://academy.claude.com/assets/media/4b5ec9792d6955bb4389f95219aaffbced39e4ee1bff425fc72d7cd1adcc9c13.png)
 
 ## What Computer Use Can Do[](https://academy.claude.com/courses/claude-with-amazon-bedrock/computer-use)
 
@@ -28,7 +28,7 @@ This makes it particularly valuable for tasks like quality assurance testing, wh
 
 Here's a practical scenario that shows the power of computer use. Imagine you've built a React component with an autocomplete feature - users can type `@` to mention files or resources. The component seems to work fine at first glance, but you want to thoroughly test it for edge cases.
 
-![](https://academy.claude.com/assets/media/c476223dcd1df89d3467a3207760914269daf2f98aad5e61e257dbeec7ce8db4.png)
+![Text area headed "What do you want to build?" containing "Test" and a mention chip "@document.pdf" with the cursor after it.](https://academy.claude.com/assets/media/c476223dcd1df89d3467a3207760914269daf2f98aad5e61e257dbeec7ce8db4.png)
 
 Rather than manually testing every scenario yourself, you can set up Claude with computer use to handle the QA process. You provide Claude with specific test cases to run:
 
@@ -36,11 +36,11 @@ Rather than manually testing every scenario yourself, you can set up Claude with
 2. Test that pressing Enter properly adds a mention to the text area
 3. Check that pressing backspace after adding mentions shows the autocomplete list in the correct position
 
-![](https://academy.claude.com/assets/media/550676db0431879659b96f5ef02ba8936f8bba9af8ba01fb616c7d66ffe71d3e.png)
+![Claude calls the computer tool with action "key" and text "Return", and "@document.pdf" becomes a mention in the text area.](https://academy.claude.com/assets/media/550676db0431879659b96f5ef02ba8936f8bba9af8ba01fb616c7d66ffe71d3e.png)
 
 Claude will systematically work through each test case, taking screenshots, interacting with the interface, and documenting what happens. In this example, Claude discovered that while the first two tests passed, the third one failed - the autocomplete dropdown was appearing in the wrong location when users pressed backspace.
 
-![](https://academy.claude.com/assets/media/7644029498ffc8e35056380d5ae29ddf68c110a9e3f05bafbc73991ee2629afe.png)
+![Claude's report: Backspace Autocomplete Positioning fails, with the "document.pdf" list shown at the top of the page.](https://academy.claude.com/assets/media/7644029498ffc8e35056380d5ae29ddf68c110a9e3f05bafbc73991ee2629afe.png)
 
 ## How the Testing Process Works[](https://academy.claude.com/courses/claude-with-amazon-bedrock/computer-use)
 

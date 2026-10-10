@@ -36,6 +36,15 @@ Search
 
 DateCategoryTitle
 
+- [Oct 8, 2026Announcements
+
+  2026 Usage Policy update](https://www.anthropic.com/news/2026-usage-policy-update)
+- [Oct 8, 2026Announcements
+
+  Building on our commitment to American scientific discovery](https://www.anthropic.com/news/genesis-mission-commitment)
+- [Oct 8, 2026Announcements
+
+  Introducing the Anthropic Cyber Mission](https://www.anthropic.com/news/anthropic-cyber-mission)
 - [Oct 6, 2026Announcements
 
   Expanding the Cyber Verification Program](https://www.anthropic.com/news/cyber-verification-program)
@@ -57,16 +66,5 @@ DateCategoryTitle
 - [Sep 1, 2026Announcements
 
   Developing Enterprise Frontier Safeguards with our customers](https://www.anthropic.com/news/enterprise-frontier-safeguards)
-- [Aug 31, 2026Announcements
-
-  Improving our alignment and security efforts](https://www.anthropic.com/news/improving-alignment-security-efforts)
-- [Aug 27, 2026Announcements
-
-  Previewing the Model Hardware Standard](https://www.anthropic.com/news/model-hardware-standard-research-preview)
-- [Aug 27, 2026Announcements
-
-   Expanding our support for scientists](https://www.anthropic.com/news/expanding-support-for-scientists)
 
 [See more](https://www.anthropic.com/news)
-
-![Expanding the Cyber Verification Program](https://www-cdn.anthropic.com/images/4zrzovbb/website/d3dd09ad16c68461dc3fb01df5e84cf7ccafda6c-1000x1000.svg)

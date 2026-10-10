@@ -26,7 +26,7 @@ Claude for Excel is now in beta as a research preview for Max, Enterprise, and T
 
 ## Connecting Claude to live information
 
-[**Connectors**](https://claude.ai/redirect/website.v1.013272a4-375f-4571-9a07-485851dc649a/settings/connectors) provide Claude with direct access to external tools and platforms. [In July](https://www.anthropic.com/news/claude-for-financial-services), we added connectors for S&P Capital IQ, Daloopa, Morningstar, and PitchBook. We’re adding new connectors that give Claude immediate access to more information in real time:
+[**Connectors**](https://claude.ai/redirect/website.v1.e6bde1b5-2053-46ab-acfd-28327852aab4/settings/connectors) provide Claude with direct access to external tools and platforms. [In July](https://www.anthropic.com/news/claude-for-financial-services), we added connectors for S&P Capital IQ, Daloopa, Morningstar, and PitchBook. We’re adding new connectors that give Claude immediate access to more information in real time:
 
 - **Aiera** provides Claude with real-time earnings call transcripts and summaries of investor events, like shareholder meetings, presentations, and conferences;
 - Aiera’s connector also enables a data feed from **Third Bridge**, which gives Claude access to a library of insights interviews, company intelligence, and industry analysis from experts and former executives;
@@ -40,7 +40,7 @@ For details on MCP connector setup and prompting guidance to maximize the benefi
 
 ## New Agent Skills for finance tasks
 
-Earlier this month, we introduced [Agent Skills](https://www.anthropic.com/news/skills). Skills are folders that include instructions, scripts, and resources that Claude can use to perform given tasks. Skills work across all Claude apps, including [Claude.ai](http://claude.ai/redirect/website.v1.013272a4-375f-4571-9a07-485851dc649a), Claude Code, and our API. To make Claude better at financial services tasks, we’ve added 6 new skills:
+Earlier this month, we introduced [Agent Skills](https://www.anthropic.com/news/skills). Skills are folders that include instructions, scripts, and resources that Claude can use to perform given tasks. Skills work across all Claude apps, including [Claude.ai](http://claude.ai/redirect/website.v1.e6bde1b5-2053-46ab-acfd-28327852aab4), Claude Code, and our API. To make Claude better at financial services tasks, we’ve added 6 new skills:
 
 - **Comparable company analysis**, with valuation multiples and operating metrics, which can be easily refreshed with updated data;
 - **Discounted cash flow models**, including full free cash flow projections, WACC calculations, scenario toggles, and sensitivity tables;
@@ -113,20 +113,20 @@ To learn more about using Claude for Financial Services, [see here](https://clau
 
 ## Related content
 
-### Expanding the Cyber Verification Program
+### 2026 Usage Policy update
 
-We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.
+We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
 
-[Read more](https://www.anthropic.com/news/cyber-verification-program)
+[Read more](https://www.anthropic.com/news/2026-usage-policy-update)
 
-### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
+### Building on our commitment to American scientific discovery
 
-Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
+Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
 
-[Read more](https://www.anthropic.com/news/claude-frontier-academy)
+[Read more](https://www.anthropic.com/news/genesis-mission-commitment)
 
-### Barclays scales Claude to upgrade operations and improve client experience
+### Introducing the Anthropic Cyber Mission
 
-Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
+We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.
 
-[Read more](https://www.anthropic.com/news/barclays-scales-claude)
+[Read more](https://www.anthropic.com/news/anthropic-cyber-mission)

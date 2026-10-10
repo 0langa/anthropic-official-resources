@@ -2,7 +2,7 @@
 
 Learn how to use the single-cell-rna-qc skill to perform quality control analysis on single-cell RNA-seq data with MAD-based filtering and visualization capabilities.
 
-3 minClaude.ai
+3 minClaude
 
 [Open Claude](https://claude.ai/new)
 

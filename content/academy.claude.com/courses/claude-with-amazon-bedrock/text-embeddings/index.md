@@ -4,7 +4,7 @@ Lesson 35 of 65 · Claude with Amazon BedrockText embeddings
 
 Lesson 355 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Ftext-embeddings)
 
@@ -14,7 +14,7 @@ After breaking a document into chunks, the next step in a RAG pipeline is findin
 
 The challenge is determining which chunks are "related" to a user's question. This isn't as simple as keyword matching - you need to understand the meaning and context of both the question and the chunks.
 
-![](https://academy.claude.com/assets/media/644f01627e92ea5429173cb72c7e1764973b8c9b73821309115253fec0392dec.png)
+![The question "How many bugs did engineers fix this year?" and three chunks; only the medical one, not software, says "bug".](https://academy.claude.com/assets/media/644f01627e92ea5429173cb72c7e1764973b8c9b73821309115253fec0392dec.png)
 
 The most common solution is semantic search, which uses text embeddings to understand what each piece of text is actually about, rather than just looking for exact word matches.
 
@@ -22,7 +22,7 @@ The most common solution is semantic search, which uses text embeddings to under
 
 A text embedding is a numerical representation of the meaning contained in some text. Think of it as converting words and sentences into a format that computers can work with mathematically.
 
-![](https://academy.claude.com/assets/media/a3f8ebf9f863efb16c85fb5da3c81d87ca47d138b06e161a8a4abd9307cb6c66.png)
+![An embedding model turns the texts I'm very happy today, That movie wasn't great and abcd each into a list of numbers.](https://academy.claude.com/assets/media/a3f8ebf9f863efb16c85fb5da3c81d87ca47d138b06e161a8a4abd9307cb6c66.png)
 
 Here's how it works:
 
@@ -35,7 +35,7 @@ Here's how it works:
 
 Each number in an embedding is like a score for some aspect of the text. While we don't know exactly what each position represents, it's helpful to think of them as measuring different qualities.
 
-![](https://academy.claude.com/assets/media/12f327b493d6106872ba6ec2ddb56320bc528bf34319c26d0a7ec48aa4a4e4a0.png)
+![Arrows label embedding numbers: how "happy" or "formal" the text is and how much it mentions fruit, oceans or driving.](https://academy.claude.com/assets/media/12f327b493d6106872ba6ec2ddb56320bc528bf34319c26d0a7ec48aa4a4e4a0.png)
 
 For example, one number might score "how happy the text is" while another might measure "how much the text talks about oceans." The key point is that we don't actually know what each number represents - the embedding model learns these patterns during training, and they're not human-interpretable.
 

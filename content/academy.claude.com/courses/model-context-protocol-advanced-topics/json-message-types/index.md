@@ -4,7 +4,7 @@ Lesson 7 of 11 · Model Context Protocol: Advanced topicsJSON message types
 
 Lesson 72 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fmodel-context-protocol-advanced-topics%2Fjson-message-types)
 
@@ -14,11 +14,11 @@ MCP (Model Context Protocol) uses JSON messages to handle communication between 
 
 All MCP communication happens through JSON messages. Each message type serves a specific purpose - whether it's calling a tool, listing available resources, or sending notifications about system events.
 
-![](https://academy.claude.com/assets/media/ebaf35d65cc22155c2737dcd9eda65cf974aacd5ec5ba2ce0f00dd50c28ca8e0.png)
+![MCP client sends a tools/call request for tool "add" with a 5 and b 3; the server returns text "8" and isError false.](https://academy.claude.com/assets/media/ebaf35d65cc22155c2737dcd9eda65cf974aacd5ec5ba2ce0f00dd50c28ca8e0.png)
 
 Here's a typical example: when Claude needs to call a tool provided by an MCP server, the client sends a "Call Tool Request" message. The server processes this request, runs the tool, and responds with a "Call Tool Result" message containing the output.
 
-![](https://academy.claude.com/assets/media/3e75ce9b60eb0c890a6cd94cf6a2d26e8fb616344d16fdac0a83d8bd7d74ab52.png)
+![The MCP specification at github.com/modelcontextprotocol/modelcontextprotocol defines how clients and servers should behave.](https://academy.claude.com/assets/media/3e75ce9b60eb0c890a6cd94cf6a2d26e8fb616344d16fdac0a83d8bd7d74ab52.png)
 
 ## MCP Specification[](https://academy.claude.com/courses/model-context-protocol-advanced-topics/json-message-types)
 
@@ -30,7 +30,7 @@ The message types are written in TypeScript for convenience - not because they'r
 
 MCP messages fall into two main categories:
 
-![](https://academy.claude.com/assets/media/7cc6ab727a5d1a61841a0018791df5aa4f6c6e87467fc1010b0585b3ac696483.png)
+![Four request-result message pairs and four notification messages that need no response, all listed below.](https://academy.claude.com/assets/media/7cc6ab727a5d1a61841a0018791df5aa4f6c6e87467fc1010b0585b3ac696483.png)
 
 ### Request-Result Messages[](https://academy.claude.com/courses/model-context-protocol-advanced-topics/json-message-types)
 

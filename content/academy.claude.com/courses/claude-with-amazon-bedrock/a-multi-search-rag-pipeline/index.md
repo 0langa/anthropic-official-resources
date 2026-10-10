@@ -4,19 +4,19 @@ Lesson 39 of 65 · Claude with Amazon BedrockA multi-search RAG pipeline
 
 Lesson 397 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fa-multi-search-rag-pipeline)
 
 When you have both semantic search (vector embeddings) and lexical search (BM25) working independently, the next step is combining them into a unified search pipeline. This hybrid approach leverages the strengths of both methods to deliver more accurate results.
 
-![](https://academy.claude.com/assets/media/961cd9717345a16435ab45da7572f0b9fa5c4125f4823018c271d8e33c7c9963.png)
+![The user question about INC-2023-Q4-011 runs through semantic and lexical search in parallel, then their results merge.](https://academy.claude.com/assets/media/961cd9717345a16435ab45da7572f0b9fa5c4125f4823018c271d8e33c7c9963.png)
 
 ## Building a Unified Interface[](https://academy.claude.com/courses/claude-with-amazon-bedrock/a-multi-search-rag-pipeline)
 
 Both search implementations share nearly identical APIs - they both have `add_document()` and `search()` methods. This consistency makes it straightforward to wrap them in a single `Retriever` class that coordinates between the two approaches.
 
-![](https://academy.claude.com/assets/media/3fbfcb27eda153712dfac8bdf83d4a93171aa4507f63a2df44724e9fbf2de91a.png)
+![VectorIndex and BM25Index each have add_document, which adds a text chunk, and "search", which returns chunks and scores.](https://academy.claude.com/assets/media/3fbfcb27eda153712dfac8bdf83d4a93171aa4507f63a2df44724e9fbf2de91a.png)
 
 The Retriever acts as a coordinator that:
 
@@ -25,21 +25,21 @@ The Retriever acts as a coordinator that:
 - Collects results from both systems
 - Merges the results using a ranking algorithm
 
-![](https://academy.claude.com/assets/media/1aae9ddbb1781429d0c3797b675cc9d0fd9d9e1a8fba70b49aa7bc510c29e6ab.png)
+![Diagram of the Retriever: a user question goes to both the VectorIndex and the BM25Index, whose results are merged.](https://academy.claude.com/assets/media/1aae9ddbb1781429d0c3797b675cc9d0fd9d9e1a8fba70b49aa7bc510c29e6ab.png)
 
 ## Reciprocal Rank Fusion[](https://academy.claude.com/courses/claude-with-amazon-bedrock/a-multi-search-rag-pipeline)
 
 The challenge lies in merging results from different search methods. Each system returns results with different scoring mechanisms, so you can't simply combine scores directly. Instead, we use a technique called Reciprocal Rank Fusion (RRF).
 
-![](https://academy.claude.com/assets/media/109886b19d3a59d7d11952d789c8b446ca014e7ccf8cd289eccd58490ba46451.png)
+![VectorIndex and BM25Index result tables for the example below, each with a score column, such as 0.234 and 0.184 at rank 1.](https://academy.claude.com/assets/media/109886b19d3a59d7d11952d789c8b446ca014e7ccf8cd289eccd58490ba46451.png)
 
 Here's how RRF works with a practical example. Suppose your VectorIndex returns results ranked as: Section 2, Section 7, Section 6. Meanwhile, your BM25Index returns: Section 6, Section 2, Section 7.
 
-![](https://academy.claude.com/assets/media/938a17fa4eccbea3668f59c5a4e7ab822fa05a50e07afc5946a0e1bfecd44d75.png)
+![The ranked results from VectorIndex and BM25Index combined into one table of each text chunk's rank from both indexes.](https://academy.claude.com/assets/media/938a17fa4eccbea3668f59c5a4e7ab822fa05a50e07afc5946a0e1bfecd44d75.png)
 
 To merge these results, you create a combined table showing each text chunk's rank from both systems:
 
-![](https://academy.claude.com/assets/media/93f690ee13cd14bf23375161fe02601f943f188bf4a73ee4f3510b012b9acf24.png)
+![Table of each section's ranks from vector and BM25 with its RRF score, noting a higher score means a more relevant chunk.](https://academy.claude.com/assets/media/93f690ee13cd14bf23375161fe02601f943f188bf4a73ee4f3510b012b9acf24.png)
 
 The RRF formula calculates a score for each document:
 
@@ -51,7 +51,7 @@ RRF_score(d) = Σ(1 / (k + rank_i(d)))
 
 Where `k` is a constant (typically 60, though 1 works well for clearer results) and `rank_i(d)` is the rank of document `d` in the i-th ranking system.
 
-![](https://academy.claude.com/assets/media/e032f44934036a65174bc1b0c8242b99abd2a76736db1773f249121e3d192137.png)
+![Reciprocal Rank Fusion formula and a table of three sections' vector and BM25 ranks and score, where higher is more relevant.](https://academy.claude.com/assets/media/e032f44934036a65174bc1b0c8242b99abd2a76736db1773f249121e3d192137.png)
 
 For each text chunk, you calculate:
 
@@ -61,7 +61,7 @@ For each text chunk, you calculate:
 
 After sorting by score, the final ranking becomes: Section 2 (first), Section 6 (second), Section 7 (third).
 
-![](https://academy.claude.com/assets/media/ed4b193934439db2890a4065c7437248a2aa956b1b47fd68e795b0e1161aae70.png)
+![Table of each text chunk's rank from vector, rank from BM25, score and final rank, where a higher score is more relevant.](https://academy.claude.com/assets/media/ed4b193934439db2890a4065c7437248a2aa956b1b47fd68e795b0e1161aae70.png)
 
 ## Implementation[](https://academy.claude.com/courses/claude-with-amazon-bedrock/a-multi-search-rag-pipeline)
 
@@ -88,7 +88,7 @@ class Retriever:
                 # Return merged, sorted results
 ```
 
-![](https://academy.claude.com/assets/media/67939ad6d66d81afd52852de8afa576344c1e04479b9027686e67703f21eb2c9.png)
+![Retriever class in a notebook that raises errors for no indexes, non-string query text, non-positive k and negative k_rrf.](https://academy.claude.com/assets/media/67939ad6d66d81afd52852de8afa576344c1e04479b9027686e67703f21eb2c9.png)
 
 The key insight is that the RRF algorithm creates a unified ranking by considering how well each document performs across all search systems, rather than relying on any single scoring method.
 
@@ -96,13 +96,13 @@ The key insight is that the RRF algorithm creates a unified ranking by consideri
 
 When testing with a query like "what happened with INC-2023-Q4-011?", the hybrid approach delivers significantly better results than either method alone. Instead of getting unexpected results from pure vector search, you now get the most relevant cybersecurity incident report first, followed by related software engineering content.
 
-![](https://academy.claude.com/assets/media/99e48f9eae840a3bddb1d226d4f9f4b0bfb372749ff212509f7b558d12a31dd6.png)
+![Notebook output: Section 10 Cybersecurity Analysis scores about 0.0325, Section 2 about 0.0320, Section 5 about 0.0308.](https://academy.claude.com/assets/media/99e48f9eae840a3bddb1d226d4f9f4b0bfb372749ff212509f7b558d12a31dd6.png)
 
 ## Extensibility[](https://academy.claude.com/courses/claude-with-amazon-bedrock/a-multi-search-rag-pipeline)
 
 The beauty of this design is its modularity. Since each search index implements the same interface (`add_document()` and `search()`), you can easily add new search methodologies to the system. Whether it's a different embedding model, a specialized domain search, or any other retrieval technique, as long as it follows the established API, it integrates seamlessly into the hybrid pipeline.
 
-![](https://academy.claude.com/assets/media/0732ae059a29273832ad2998053b9bbee80d6a69e22811007a9b03a87a663bb0.png)
+![Retriever sends the question to VectorIndex, BM25Index and a third box labeled ???Index, then merges the two result sets.](https://academy.claude.com/assets/media/0732ae059a29273832ad2998053b9bbee80d6a69e22811007a9b03a87a663bb0.png)
 
 This hybrid search approach represents a significant improvement in retrieval accuracy by combining the semantic understanding of vector search with the precise keyword matching of lexical search, all unified through the mathematically sound RRF ranking algorithm.
 

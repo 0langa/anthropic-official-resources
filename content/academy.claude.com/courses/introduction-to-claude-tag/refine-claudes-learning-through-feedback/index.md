@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Choose between memory and instructions by how firmly a rule should hold
 - Check and correct a channel's notes over time
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-tag%2Frefine-claudes-learning-through-feedback)
 

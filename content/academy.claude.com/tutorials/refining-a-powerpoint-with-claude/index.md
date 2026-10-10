@@ -2,7 +2,7 @@
 
 Claude for PowerPoint lets you refine and elevate slides without leaving the app. This video shows how to use Claude's built-in chat interface to add new slides, edit individual sections and elements, and transform text-heavy slides into native PowerPoint visuals and charts.
 
-7 minClaude in PowerPoint
+7 minClaude for PowerPoint
 
 Watch
 

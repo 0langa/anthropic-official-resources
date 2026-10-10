@@ -170,11 +170,11 @@ EngineeringStreamline engineering workflows — standups, code review, architect
 
 `/documentation`Write and maintain technical documentation.
 
-[Run](claude://cowork/new?q=%2Fdocumentation)
+[Open in Cowork](claude://cowork/new?q=%2Fdocumentation)
 
 `/architecture`Create or evaluate an architecture decision record (ADR).
 
-[Run](claude://cowork/new?q=%2Farchitecture)
+[Open in Cowork](claude://cowork/new?q=%2Farchitecture)
 
 Show all 10 skills
 
@@ -208,7 +208,7 @@ Query the warehouse for "how many" and "why did the metric move" questions.
 
 [Connect](https://claude.ai/desktop/directory/snowflake)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 
@@ -282,9 +282,9 @@ Make what we've done in this task so far into a skill, or edit the /documentatio
 
 ## Make it repeatable[](https://academy.claude.com/use-cases/ask-the-company)
 
-### Make it a live artifact[](https://academy.claude.com/use-cases/ask-the-company)
+### Share it as an artifact[](https://academy.claude.com/use-cases/ask-the-company)
 
-Once the agent answers your test questions well, publish it as a live artifact so anyone in the org has one link to ask. The artifact runs the shared skill behind the scenes; the platform team owns the skill and keeps tuning it.
+Once the agent answers your test questions well, publish it as an artifact so anyone in the org has one link to ask. The artifact runs the shared skill behind the scenes; the platform team owns the skill and keeps tuning it.
 
 ### Log every question it couldn't answer[](https://academy.claude.com/use-cases/ask-the-company)
 

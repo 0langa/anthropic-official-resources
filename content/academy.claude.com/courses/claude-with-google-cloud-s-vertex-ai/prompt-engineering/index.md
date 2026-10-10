@@ -4,19 +4,19 @@ Lesson 16 of 66 · Claude with Google Cloud's Vertex AIPrompt engineering
 
 Lesson 165 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fprompt-engineering)
 
 Prompt engineering is about taking a prompt you've written and improving it to get more reliable, higher-quality outputs. This process involves iterative refinement - starting with a basic prompt, evaluating its performance, then systematically applying engineering techniques to improve it.
 
-![](https://academy.claude.com/assets/media/135340165a55b554a968a55352c565b5d180ee9d685cc339021feb685f620efa.png)
+![Prompt evaluation, automated testing of prompts, leads to prompt engineering practices such as structuring with XML tags.](https://academy.claude.com/assets/media/135340165a55b554a968a55352c565b5d180ee9d685cc339021feb685f620efa.png)
 
 ## The Iterative Improvement Process[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/prompt-engineering)
 
 The approach follows a clear cycle that you can repeat until you achieve your desired results:
 
-![](https://academy.claude.com/assets/media/c932d83fda9997cf44eedfc316055d33807ac4050bf2818a482afb1bc4f96693.png)
+![Five prompt engineering steps, repeating the last two, and a note to use the improved eval pipeline in 001_prompting.ipynb.](https://academy.claude.com/assets/media/c932d83fda9997cf44eedfc316055d33807ac4050bf2818a482afb1bc4f96693.png)
 
 1. **Set a goal** - Define what you want your prompt to accomplish
 2. **Write an initial prompt** - Create a basic first attempt
@@ -30,7 +30,7 @@ You repeat the last two steps until you're satisfied with the performance. Each 
 
 Let's walk through a practical example. The goal is to create a prompt that generates a one-day meal plan for athletes based on their physical characteristics and requirements.
 
-![](https://academy.claude.com/assets/media/38a6bdc804f9e639fe11c3770baccc08aa7669075905278386f1f01cbd413ffe.png)
+![Input height 180cm, weight 75kg, goal "maintain weight and improve power", lactose intolerance, output about 3000 calories.](https://academy.claude.com/assets/media/38a6bdc804f9e639fe11c3770baccc08aa7669075905278386f1f01cbd413ffe.png)
 
 The prompt takes these inputs and should produce a comprehensive meal plan with caloric totals, macronutrient breakdowns, and specific meal details with portions and timing.
 
@@ -75,13 +75,13 @@ These criteria help the evaluation model grade outputs consistently and give you
 
 Run your initial prompt through the evaluation framework. Don't be discouraged by low scores - a score of 2.3 out of 10 is actually perfect for a starting point. It gives you plenty of room to demonstrate improvement.
 
-![](https://academy.claude.com/assets/media/2fd0f9ee259eec89733058334e131c87c93a044ab903477ced9e647b681c7a42.png)
+![Prompt Evaluation Report with 50 test cases, average score 2.3 of 10 and a 0.0 percent pass rate, then a row per case.](https://academy.claude.com/assets/media/2fd0f9ee259eec89733058334e131c87c93a044ab903477ced9e647b681c7a42.png)
 
 ## Analyzing Results[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/prompt-engineering)
 
 Most evaluation frameworks generate detailed reports showing how each test case performed. These reports typically include:
 
-![](https://academy.claude.com/assets/media/5c83046a90e65b8d86f42b83334b201c7b01071c9c7f88803dc2568a65ed45c5.png)
+![Prompt Evaluation Report with 50 test cases, average score 2.3 of 10 and a 0.0 percent pass rate, then a row per case.](https://academy.claude.com/assets/media/5c83046a90e65b8d86f42b83334b201c7b01071c9c7f88803dc2568a65ed45c5.png)
 
 - **Individual test case results** - See exactly what the model produced
 - **Scoring breakdown** - Understand why certain outputs scored poorly

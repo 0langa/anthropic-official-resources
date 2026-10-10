@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Name what Claude can and cannot access in a DM
 - Set up a routine that posts to you alone
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-tag%2Fclaude-in-a-dm)
 

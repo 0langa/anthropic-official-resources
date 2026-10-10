@@ -2,7 +2,7 @@
 
 Learn how Projects can streamline your workflow with Claude for more organized and efficient conversations.
 
-7 minClaude.ai
+7 minClaude
 
 Watch[Open Claude](https://claude.ai/new)
 

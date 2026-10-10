@@ -4,7 +4,7 @@ Lesson 46 of 66 · Claude with Google Cloud's Vertex AIPrompt caching
 
 Lesson 462 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fprompt-caching)
 
@@ -14,18 +14,18 @@ Prompt caching is a feature that speeds up Claude's responses and reduces the co
 
 To understand prompt caching, let's first look at what happens during a typical request without caching enabled.
 
-![](https://academy.claude.com/assets/media/f670a1e4bee760fe451429b9cf6ec359de06e991c8be6c3146336e1c6ac5ee2b.png)
+![A usual request: our server sends Claude one user message, "Summarize this long text:" plus a text placeholder.](https://academy.claude.com/assets/media/f670a1e4bee760fe451429b9cf6ec359de06e991c8be6c3146336e1c6ac5ee2b.png)
 
 When you send a message to Claude, it doesn't immediately start generating a response. Instead, Claude performs extensive preprocessing work on your input:
 
-![](https://academy.claude.com/assets/media/6a0ffdf4274c14682d46d6ad1ed46969113c5d04a593b3d81573b8dd0602a58e.png)
+![Diagram marking the first three of Claude's four steps as work done on the input message only, before it returns a summary.](https://academy.claude.com/assets/media/6a0ffdf4274c14682d46d6ad1ed46969113c5d04a593b3d81573b8dd0602a58e.png)
 
 - Tokenizes the prompt (breaks text into smaller units)
 - Creates embeddings for each token (mathematical representations)
 - Adds context based on surrounding text
 - Only then generates the actual output text
 
-![](https://academy.claude.com/assets/media/a9af83a2506539df02c2890f271e24de0692223c7432107bdb4a6dcb073250bc.png)
+![The four processing steps selected inside the Claude box, ready to be dragged into an empty dashed box labeled "Trash".](https://academy.claude.com/assets/media/a9af83a2506539df02c2890f271e24de0692223c7432107bdb4a6dcb073250bc.png)
 
 After sending you the response, Claude discards all this computational work. Everything gets thrown away, and Claude declares itself ready for the next request.
 
@@ -33,13 +33,13 @@ After sending you the response, Claude discards all this computational work. Eve
 
 Here's where things get inefficient. Imagine you're having a conversation with Claude, so your follow-up request includes:
 
-![](https://academy.claude.com/assets/media/119df7860755d40acb3f9deea04b461c748cb93134c6923f209a4deb0de0acec.png)
+![Follow up request with the same "Summarize this long text" message, Claude's summary, then "The summary needs more focus on".](https://academy.claude.com/assets/media/119df7860755d40acb3f9deea04b461c748cb93134c6923f209a4deb0de0acec.png)
 
 - The same original user message from before
 - Claude's previous response
 - Your new follow-up message
 
-![](https://academy.claude.com/assets/media/23a082b372fe8c501eb13986bda1cda0a544625ead4f5fb4fb645353e10fe28c.png)
+![In the follow-up request, Claude points back to the repeated first user message "Summarize this long text" it just processed.](https://academy.claude.com/assets/media/23a082b372fe8c501eb13986bda1cda0a544625ead4f5fb4fb645353e10fe28c.png)
 
 Claude has to reprocess that original message all over again, even though it just analyzed the exact same content moments earlier. As Claude might think: "I just processed that message and threw away all the work I did. I could have reused it!"
 
@@ -47,20 +47,20 @@ Claude has to reprocess that original message all over again, even though it jus
 
 Prompt caching changes this wasteful process. Instead of discarding the preprocessing work, Claude saves it in a cache.
 
-![](https://academy.claude.com/assets/media/eaa63fb826afc14522f6f30cfa355e8c1ac1044d11f46af4bb226fb5c2f956cf.png)
+![Initial request passing through Claude's four steps to a summary reply, next to an empty Trash box and empty Cache box.](https://academy.claude.com/assets/media/eaa63fb826afc14522f6f30cfa355e8c1ac1044d11f46af4bb226fb5c2f956cf.png)
 
 Here's how it works:
 
 1. **Initial request:** Claude processes your message and writes the computational work to a cache
 2. **Follow-up requests:** When Claude sees the same content again, it reads the previously processed work from the cache instead of starting over
 
-![](https://academy.claude.com/assets/media/cfa29c6ccc3b38c9f15403f6ab5eb2d52b600a9400d4dc7f2d39beeef30a7740.png)
+![Cache table pairing a user message that asks to summarize a long text with the saved tokenizing, embedding and context work.](https://academy.claude.com/assets/media/cfa29c6ccc3b38c9f15403f6ab5eb2d52b600a9400d4dc7f2d39beeef30a7740.png)
 
 The cache acts like a lookup table: "If I ever see this message again, I'll reuse this work I already did."
 
 ## Key Benefits and Limitations[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/prompt-caching)
 
-![](https://academy.claude.com/assets/media/5f97d3d94b77e04e07b60802a35f57d2d4743ee22174320bbd4feb24875b68ee.png)
+![Claude writes the work done on the prompt "Please summarize this" to the cache, then reads it on the follow-up request.](https://academy.claude.com/assets/media/5f97d3d94b77e04e07b60802a35f57d2d4743ee22174320bbd4feb24875b68ee.png)
 
 Prompt caching offers several advantages:
 

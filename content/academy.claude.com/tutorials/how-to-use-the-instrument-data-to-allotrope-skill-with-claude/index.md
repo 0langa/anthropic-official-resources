@@ -2,7 +2,7 @@
 
 How to use the Instrument Data to Allotrope Skill with Claude
 
-3 minClaude.ai
+3 minClaude
 
 [Open Claude](https://claude.ai/new)
 

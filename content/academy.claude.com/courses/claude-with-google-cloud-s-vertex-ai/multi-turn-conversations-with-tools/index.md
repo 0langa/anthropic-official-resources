@@ -4,13 +4,13 @@ Lesson 27 of 66 · Claude with Google Cloud's Vertex AIMulti-turn conversations 
 
 Lesson 2710 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fmulti-turn-conversations-with-tools)
 
 When building applications with multiple tools, you need to handle scenarios where Claude might need to call several tools in sequence to answer a single user question. For example, if a user asks "What day is 103 days from today?", Claude needs to first get the current date, then add 103 days to it.
 
-![](https://academy.claude.com/assets/media/b0e37c02f440c757e74cac66bc67b4bfffd1926e5b471b3840753714d7ee7c5c.png)
+![Four messages between our server and Claude, with the full message history omitted for clarity, described below.](https://academy.claude.com/assets/media/b0e37c02f440c757e74cac66bc67b4bfffd1926e5b471b3840753714d7ee7c5c.png)
 
 This creates a multi-turn conversation pattern where Claude makes multiple tool requests before providing a final answer. Your application needs to handle this automatically.
 
@@ -25,7 +25,7 @@ Here's what happens behind the scenes when Claude needs multiple tools:
 5. Your server calls that function and returns the result
 6. Claude now has enough information to provide the final answer
 
-![](https://academy.claude.com/assets/media/1af13eec2b4e2fa09cd63b9b1ab3c8efb4728b9c2581a26eb81fc924d9c2badd.png)
+![Diagram of the steps above as five messages between your server and Claude, using ToolUse and ToolResult blocks.](https://academy.claude.com/assets/media/1af13eec2b4e2fa09cd63b9b1ab3c8efb4728b9c2581a26eb81fc924d9c2badd.png)
 
 ## Building a Conversation Loop[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/multi-turn-conversations-with-tools)
 
@@ -50,7 +50,7 @@ def run_conversation(messages):
     return messages
 ```
 
-![](https://academy.claude.com/assets/media/f34e1f4fc8abec6af3ca66152b6ac22212d7fbc4c5602ce84c69f75f86c959e4.png)
+![The loop in the code above: if Claude isn't asking for a tool we have the final answer, otherwise run the tool and repeat.](https://academy.claude.com/assets/media/f34e1f4fc8abec6af3ca66152b6ac22212d7fbc4c5602ce84c69f75f86c959e4.png)
 
 ## Refactoring Helper Functions[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/multi-turn-conversations-with-tools)
 

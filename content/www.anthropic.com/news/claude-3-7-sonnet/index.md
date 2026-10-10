@@ -12,7 +12,7 @@ Claude 3.7 Sonnet shows particularly strong improvements in coding and front-end
 
 ![Screen showing Claude Code onboarding](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4a4df6b6629f9814aec4eb9323028130f43a8d70-1920x1080.png&w=3840&q=75)
 
-Claude 3.7 Sonnet is now available on all [Claude](https://claude.ai/redirect/website.v1.e15bde17-721f-4e4c-a78f-39cca327b23d/new) plans—including Free, Pro, Team, and Enterprise—as well as the [Claude Developer Platform](https://docs.claude.com/en/docs/about-claude/models), [Amazon Bedrock](https://aws.amazon.com/bedrock/claude/), and [Google Cloud’s Vertex AI](https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/use-claude). Extended thinking mode is available on all surfaces except the free Claude tier.
+Claude 3.7 Sonnet is now available on all [Claude](https://claude.ai/redirect/website.v1.3bcfcc8a-678e-4d55-a638-515c180259aa/new) plans—including Free, Pro, Team, and Enterprise—as well as the [Claude Developer Platform](https://docs.claude.com/en/docs/about-claude/models), [Amazon Bedrock](https://aws.amazon.com/bedrock/claude/), and [Google Cloud’s Vertex AI](https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/use-claude). Extended thinking mode is available on all surfaces except the free Claude tier.
 
 In both standard and extended thinking modes, Claude 3.7 Sonnet has the same price as its predecessors: $3 per million input tokens and $15 per million output tokens—which includes thinking tokens.
 
@@ -124,20 +124,20 @@ This results in a score of 70.3% on the subset of n=489 verified tasks which wor
 
 ## Related content
 
-### Expanding the Cyber Verification Program
+### 2026 Usage Policy update
 
-We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.
+We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
 
-[Read more](https://www.anthropic.com/news/cyber-verification-program)
+[Read more](https://www.anthropic.com/news/2026-usage-policy-update)
 
-### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
+### Building on our commitment to American scientific discovery
 
-Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
+Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
 
-[Read more](https://www.anthropic.com/news/claude-frontier-academy)
+[Read more](https://www.anthropic.com/news/genesis-mission-commitment)
 
-### Barclays scales Claude to upgrade operations and improve client experience
+### Introducing the Anthropic Cyber Mission
 
-Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
+We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.
 
-[Read more](https://www.anthropic.com/news/barclays-scales-claude)
+[Read more](https://www.anthropic.com/news/anthropic-cyber-mission)

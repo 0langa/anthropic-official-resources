@@ -1,6 +1,6 @@
 # Set up and govern Claude Code
 
-Deploying Claude Code across your org — setup, governance, and rollout, end to end.
+Guides for deploying Claude Code across your organization, from setup and governance to rollout.
 
 ## Plan your rollout
 
@@ -14,7 +14,7 @@ Open wizard](https://academy.claude.com/products/code/setup/wizard)
 
 [### Read the enterprise admin guide
 
-The four phases of a Claude Enterprise rollout—technical setup, launch, enablement, and scaling adoption.
+The four phases of an Enterprise plan rollout: technical setup, launch, enablement, and scaling adoption.
 
 Open the guide](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)[### Enterprise billing
 
@@ -32,9 +32,9 @@ Open toolkit
 
 ## Learn more
 
-- [Champion kit Help center
+- [Champion kit Help Center
 
-  Help center
+  Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/14555399-claude-code-champion-kit)
 - [Models, usage, and limits Guide

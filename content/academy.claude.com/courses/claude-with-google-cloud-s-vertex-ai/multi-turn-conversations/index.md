@@ -4,13 +4,13 @@ Lesson 4 of 66 · Claude with Google Cloud's Vertex AIMulti-turn conversations�
 
 Lesson 47 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fmulti-turn-conversations)
 
 When working with the Anthropic API and Claude, there's a crucial concept you need to understand: **Claude doesn't store any of your conversation history**. Each request you make is completely independent, with no memory of previous exchanges.
 
-![](https://academy.claude.com/assets/media/9c1dc4368828d62049ad0a2e94dbea0391952f9d4da7558e6c7679b8ad588dd0.png)
+![Chat window: a user asks "What's quantum computing? Answer in one sentence." then "Write another sentence", each answered.](https://academy.claude.com/assets/media/9c1dc4368828d62049ad0a2e94dbea0391952f9d4da7558e6c7679b8ad588dd0.png)
 
 This means if you want to have a multi-turn conversation where Claude remembers context from earlier messages, you need to handle the conversation state yourself.
 
@@ -18,7 +18,7 @@ This means if you want to have a multi-turn conversation where Claude remembers 
 
 Let's say you ask Claude "What is quantum computing?" and get a good response. Then you follow up with "Write another sentence" - Claude has no idea what you're referring to. It will write a sentence about something completely random because it has no memory of the quantum computing discussion.
 
-![](https://academy.claude.com/assets/media/299a47c5bc9dcb0ccb20b610b6721258dfc93a496c339edba7059d05902c1724.png)
+![The Anthropic API and Claude do not store any messages, so to have a "conversation" you need the two things listed below.](https://academy.claude.com/assets/media/299a47c5bc9dcb0ccb20b610b6721258dfc93a496c339edba7059d05902c1724.png)
 
 ## How Multi-Turn Conversations Work[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/multi-turn-conversations)
 
@@ -27,7 +27,7 @@ To maintain conversation context, you need to do two things:
 - Manually maintain a list of all messages in your code
 - Send the complete message history with every request
 
-![](https://academy.claude.com/assets/media/f3234489c46416119591e65b8035ca594afc90e22a07bea9b95ae8f799472485.png)
+![A user message goes to Claude, whose assistant reply starting "Quantum computing is a method" joins the message list.](https://academy.claude.com/assets/media/f3234489c46416119591e65b8035ca594afc90e22a07bea9b95ae8f799472485.png)
 
 Here's the flow that actually works:
 
@@ -36,7 +36,7 @@ Here's the flow that actually works:
 3. Add your follow-up question as another user message
 4. Send the entire conversation history to Claude
 
-![](https://academy.claude.com/assets/media/54d53af2c82f05b8dbdc5ba81ac55ee66452d42e40c45fa70fbfa076d20f1b5b.png)
+![Messages in request: the user question, Claude's assistant reply and the follow-up user message all go to Claude at once.](https://academy.claude.com/assets/media/54d53af2c82f05b8dbdc5ba81ac55ee66452d42e40c45fa70fbfa076d20f1b5b.png)
 
 ## Building Helper Functions[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/multi-turn-conversations)
 

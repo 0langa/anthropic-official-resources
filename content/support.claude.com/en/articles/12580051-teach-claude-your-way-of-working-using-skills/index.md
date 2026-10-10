@@ -2,7 +2,7 @@
 
 Learn how Claude Skills let you package proven work approaches so Claude automatically applies them across conversations.
 
-10 minClaude.ai
+10 minClaude
 
 Watch[Open Claude](https://claude.ai/new)
 

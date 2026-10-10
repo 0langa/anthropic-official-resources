@@ -8,7 +8,7 @@ In this lessonBy the end, you’ll be able to
 
 - Name the four building blocks that make Claude better at your work over time: global instructions, projects, skills, and plugins
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-cowork%2Fresearch-analysis-at-scale)
 

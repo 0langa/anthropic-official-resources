@@ -9,7 +9,7 @@ In this lessonBy the end, you’ll be able to
 - Explain how plugins get distributed across an Enterprise organization
 - Apply a few good habits for keeping a shared plugin healthy over time
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-cowork%2Fshare-what-you-build-with-your-team)
 

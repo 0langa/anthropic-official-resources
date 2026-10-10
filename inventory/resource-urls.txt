@@ -6,6 +6,7 @@ https://academy.claude.com/collections/build-with-claude
 https://academy.claude.com/collections/claude-for-work
 https://academy.claude.com/collections/claude-for-you
 https://academy.claude.com/collections/collaborating-with-ai
+https://academy.claude.com/collections/higher-education
 https://academy.claude.com/collections/how-ai-works
 https://academy.claude.com/collections/human-agent-teams
 https://academy.claude.com/collections/k-12
@@ -3470,12 +3471,14 @@ https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-securit
 https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-workers
 https://platform.claude.com/docs/en/managed-agents/session-observability
 https://platform.claude.com/docs/en/managed-agents/session-operations
+https://platform.claude.com/docs/en/managed-agents/session-threads
 https://platform.claude.com/docs/en/managed-agents/sessions
 https://platform.claude.com/docs/en/managed-agents/skills
 https://platform.claude.com/docs/en/managed-agents/tools
 https://platform.claude.com/docs/en/managed-agents/tools-web-restrictions
 https://platform.claude.com/docs/en/managed-agents/vaults
 https://platform.claude.com/docs/en/managed-agents/webhooks
+https://platform.claude.com/docs/en/managed-agents/workflow-runs
 https://platform.claude.com/docs/en/mcp
 https://platform.claude.com/docs/en/models/fable-5-1/migration-guide
 https://platform.claude.com/docs/en/models/fable-5-1/overview
@@ -4090,7 +4093,9 @@ https://support.claude.com/en/articles/17318731-use-claude-code-local-mode-and-c
 https://support.claude.com/en/articles/17440474
 https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude
 https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization
+https://support.claude.com/en/articles/17454700
 https://support.claude.com/en/articles/17454700-get-started-with-claude-dashboards
+https://support.claude.com/en/articles/17454997
 https://support.claude.com/en/articles/17454997-get-started-with-claude-motion
 https://support.claude.com/en/articles/17457950
 https://support.claude.com/en/articles/17457950-use-artifacts-with-a-keyboard-or-screen-reader
@@ -4765,6 +4770,7 @@ https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-c
 https://www.anthropic.com/research/interpretability-dreams
 https://www.anthropic.com/research/introducing-anthropic-science
 https://www.anthropic.com/research/introspection
+https://www.anthropic.com/research/investigating-unintended-model-actions
 https://www.anthropic.com/research/labor-market-impacts
 https://www.anthropic.com/research/language-models-mostly-know-what-they-know
 https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source

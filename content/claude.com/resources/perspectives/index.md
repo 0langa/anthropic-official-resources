@@ -24,7 +24,7 @@ Your career is yours. It always was - but when the market was hot, it didn't see
 
 Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)
 
-[WebinarUpcoming | Oct 8, 2026
+[WebinarOct 8, 2026
 
 ### AI as an Engineering Leadership Multiplier
 
@@ -32,20 +32,23 @@ Most conversations about AI in engineering focus on how the IC role is changing,
 
 Claude Platform](https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier)
 
-[ArticleOct 6, 2026
+[ArticleOct 8, 2026
 
-### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
+### How Block orchestrates Claude Fable across thousands of pull requests
 
-Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)
+Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
 
-[ArticleSep 29, 2026
+Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)
 
-### Agents you can coach: how Asana builds human-agent teams with Claude
+[Video33 min watch
 
-Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
-‍
+### Building secure agents for knowledge work
 
-Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)
+Katelyn Lesse, Head of Platform Engineering at Anthropic sat down with Dan Shipper, Co-Founder and CEO at Every and Willie Williams, Head of Platform at Every to talk about the AI coworker they built on Claude Managed Agents.
+
+Claude Platform
+
+(opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)
 
 [ArticleApr 29, 2026
 
@@ -59,7 +62,7 @@ Featured resource 1 of 5: Product development in the agentic era
 
 Advanced filters
 
-Showing 11 of 55 resources
+Showing 11 of 60 resources
 
 [WebinarUpcoming | Oct 13, 2026
 
@@ -67,13 +70,27 @@ Showing 11 of 55 resources
 
 Your career is yours. It always was - but when the market was hot, it didn't seem like you needed to think about it.
 
-Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)[WebinarUpcoming | Oct 8, 2026
+Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)[WebinarOct 8, 2026
 
 ### AI as an Engineering Leadership Multiplier
 
 Most conversations about AI in engineering focus on how the IC role is changing, but the engineering leadership role is adapting…
 
-Claude Platform](https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier)[ArticleOct 6, 2026
+Claude Platform](https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier)[ArticleOct 8, 2026
+
+### How Block orchestrates Claude Fable across thousands of pull requests
+
+Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
+
+Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)[Video33 min watch
+
+### Building secure agents for knowledge work
+
+Katelyn Lesse, Head of Platform Engineering at Anthropic sat down with Dan Shipper, Co-Founder and CEO at Every and Willie Williams, Head of Platform at Every to talk about the AI coworker they built on Claude Managed Agents.
+
+Claude Platform
+
+(opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)[ArticleOct 6, 2026
 
 ### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
 
@@ -118,20 +135,6 @@ Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-
 
 Many of the "best practices" of engineering leadership have been built around managing dates, timelines and priorities. However,…
 
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/9a769404-8a44-4f91-a54a-04769f055854)[WebinarOn demand
-
-### Enterprise Readiness: A CISO's Guide to Deploying Claude
-
-The best security teams don't block AI. They lead the rollout, with full visibility into who uses it, what data it touches, and…
-
-Claude Enterprise
-
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/b863dfc3-1f1d-4cb4-86af-fab76bc6e2c0)[ArticleSep 14, 2026
-
-### Deploying AI from pilot to production
-
-In this guide, written with Accenture, we share seven considerations for taking enterprise AI from pilot to production, and the decisions leadership needs to make to get there.
-
-Claude Enterprise](https://claude.com/resources/articles/deploying-ai-from-pilot-to-production)
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/9a769404-8a44-4f91-a54a-04769f055854)
 
 View more

@@ -4,13 +4,13 @@ Lesson 5 of 66 · Claude with Google Cloud's Vertex AISystem prompts
 
 Lesson 59 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fsystem-prompts)
 
 System prompts are a powerful way to customize how Claude responds to user input. Instead of getting generic answers, you can shape Claude's tone, style, and approach to match your specific use case.
 
-![](https://academy.claude.com/assets/media/0118ce8922f623441ea2d64984febb0aa8224932b3f8dafabc41999b06c5e189.png)
+![Math Tutor Specialist requirements, listed below, beside a chat window where the AI reply shows three dots.](https://academy.claude.com/assets/media/0118ce8922f623441ea2d64984febb0aa8224932b3f8dafabc41999b06c5e189.png)
 
 ## Why System Prompts Matter[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/system-prompts)
 
@@ -27,7 +27,7 @@ You definitely don't want Claude to:
 
 ## How System Prompts Work[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/system-prompts)
 
-![](https://academy.claude.com/assets/media/ad3b9ae04c6d043380c590fe8251279fc6664c44f784fade1efdb2a4b728969f.png)
+![Three benefits of system prompts, which customize Claude's tone and style of response, with the math tutor code shown below.](https://academy.claude.com/assets/media/ad3b9ae04c6d043380c590fe8251279fc6664c44f784fade1efdb2a4b728969f.png)
 
 System prompts provide Claude with guidance on how to respond. You define them as plain strings and pass them into the create function call. The key benefits are:
 

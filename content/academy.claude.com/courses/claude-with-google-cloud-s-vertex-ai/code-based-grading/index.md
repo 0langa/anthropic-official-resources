@@ -4,7 +4,7 @@ Lesson 15 of 66 · Claude with Google Cloud's Vertex AICode based grading
 
 Lesson 1515 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fcode-based-grading)
 
@@ -14,7 +14,7 @@ When evaluating AI models that generate code, you need more than just checking i
 
 Code grading validates two key aspects of AI-generated responses:
 
-![](https://academy.claude.com/assets/media/3c6bf7193334cab50f7910cb1452d6040adf5db458aee00aede282f8f941b232.png)
+![Format and Valid Syntax grouped under the code grader and Task Following under the model grader, described below.](https://academy.claude.com/assets/media/3c6bf7193334cab50f7910cb1452d6040adf5db458aee00aede282f8f941b232.png)
 
 - **Format** - The response should return only the requested code type (Python, JSON, or Regex) without explanations
 - **Valid Syntax** - The generated code should actually parse correctly as the intended language
@@ -26,7 +26,7 @@ The first two criteria are handled by the code grader, while task following is e
 
 To check if generated code has valid syntax, you can create three helper functions that attempt to parse the output:
 
-![](https://academy.claude.com/assets/media/e7c24c3b0c715e22948139bca5bef571b6ac38282b475fce938b9ae388e77ef5.png)
+![The three validators below parse output as JSON, parse it to a Python abstract syntax tree, or compile it as a regex.](https://academy.claude.com/assets/media/e7c24c3b0c715e22948139bca5bef571b6ac38282b475fce938b9ae388e77ef5.png)
 
 python
 

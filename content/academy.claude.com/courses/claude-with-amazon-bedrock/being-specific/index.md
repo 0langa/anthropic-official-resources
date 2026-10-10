@@ -4,13 +4,13 @@ Lesson 18 of 65 · Claude with Amazon BedrockBeing specific
 
 Lesson 185 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fbeing-specific)
 
 When working with Claude, one of the most effective ways to improve your results is to be specific about what you want. Instead of leaving everything up to the model's interpretation, you can provide clear guidelines or steps that direct Claude toward the kind of output you're looking for.
 
-![](https://academy.claude.com/assets/media/369e6e634eb42154aaf3f7556b6a44d2a40762bf7e657cf5798953211f0236c3.png)
+![The same short story prompt labeled "Not Great" beside a "Better!" version that adds three numbered guidelines.](https://academy.claude.com/assets/media/369e6e634eb42154aaf3f7556b6a44d2a40762bf7e657cf5798953211f0236c3.png)
 
 Think about it this way: if you ask Claude to "write a short story about a character who discovers a hidden talent," the model could go in countless directions. It might write 200 words or 2,000 words. It could focus on one character or introduce five. The story structure could vary wildly.
 
@@ -20,7 +20,7 @@ But if you add specific guidelines, you can shape the output to match your needs
 
 There are two main approaches to being specific in your prompts, and you'll often see both used together in professional applications.
 
-![](https://academy.claude.com/assets/media/559eb8d6c6972037d53b153f4d4982147cd2500c28b50a44607ba101d31a0afa.png)
+![The same short story prompt twice, once with a list of qualities the output should have and once with four steps to follow.](https://academy.claude.com/assets/media/559eb8d6c6972037d53b153f4d4982147cd2500c28b50a44607ba101d31a0afa.png)
 
 ### Quality Guidelines[](https://academy.claude.com/courses/claude-with-amazon-bedrock/being-specific)
 
@@ -77,7 +77,7 @@ While quality guidelines work well for most prompts, you should consider adding 
 - Critical thinking
 - Anytime you want to force Claude to consider a "wider" view
 
-![](https://academy.claude.com/assets/media/b2d486f7abc21edf5eff45f496e925048b9576561ce269c6a8befdf89fd3254c.png)
+![An example prompt asking for a one page decision report on a sales team's 30% drop, with five numbered steps to follow.](https://academy.claude.com/assets/media/b2d486f7abc21edf5eff45f496e925048b9576561ce269c6a8befdf89fd3254c.png)
 
 For example, if you're asking Claude to analyze why a sales team's numbers dropped 30% last quarter, you might want to provide steps that ensure it considers multiple angles - market conditions, individual performance, organizational changes, and customer feedback - rather than jumping to the first obvious explanation.
 

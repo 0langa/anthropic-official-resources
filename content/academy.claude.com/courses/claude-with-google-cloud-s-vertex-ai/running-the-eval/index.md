@@ -4,13 +4,13 @@ Lesson 13 of 66 · Claude with Google Cloud's Vertex AIRunning the eval
 
 Lesson 1315 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Frunning-the-eval)
 
 Now that we have our evaluation dataset ready, it's time to build the core evaluation pipeline. This involves taking each test case, merging it with our prompt, feeding it to Claude, and then grading the results.
 
-![](https://academy.claude.com/assets/media/64d40e95dac4305cfdda9bfc6ab60eee60d2528ac46b4b6674818d9311b900e3.png)
+![A prompt with a question placeholder, three test questions such as "What's 2+2?", and Claude's replies such as "2 + 2 = 4".](https://academy.claude.com/assets/media/64d40e95dac4305cfdda9bfc6ab60eee60d2528ac46b4b6674818d9311b900e3.png)
 
 The evaluation process follows a clear workflow: we take our dataset of test cases, combine each one with our prompt template, send it to Claude for processing, and then evaluate the output using a grader system.
 
@@ -109,7 +109,7 @@ python
 print(json.dumps(results, indent=2))
 ```
 
-![](https://academy.claude.com/assets/media/732c8965fceec81fbac30b178226d8a7d9567b0aed4572d2f277e63301663aa3.png)
+![A prompt with a question placeholder, three test questions such as "What's 2+2?", and Claude's replies such as "2 + 2 = 4".](https://academy.claude.com/assets/media/732c8965fceec81fbac30b178226d8a7d9567b0aed4572d2f277e63301663aa3.png)
 
 Each result contains three key pieces of information:
 
@@ -119,7 +119,7 @@ Each result contains three key pieces of information:
 
 As you can see in the output, Claude generates quite verbose responses since we haven't provided specific formatting instructions yet. This is exactly the kind of issue we'll address as we refine our prompts.
 
-![](https://academy.claude.com/assets/media/540a756ccda5e09456278d435f4a92449606bb5a96b40737918a11a25c3311c4.png)
+![Grader stage of the eval pipeline highlighted: the three question and answer pairs go into a grader, scored 10, 4 and 9.](https://academy.claude.com/assets/media/540a756ccda5e09456278d435f4a92449606bb5a96b40737918a11a25c3311c4.png)
 
 ## What We've Accomplished[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/running-the-eval)
 

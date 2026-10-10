@@ -54,6 +54,9 @@ Search
 
 DateCategoryTitle
 
+- [Oct 9, 2026Alignment
+
+  Investigating unintended model actions in our evaluations and internal use](https://www.anthropic.com/research/investigating-unintended-model-actions)
 - [Oct 8, 2026Science
 
    The missing map of the sky](https://www.anthropic.com/research/the-missing-map-of-the-sky)
@@ -81,9 +84,6 @@ DateCategoryTitle
 - [Sep 17, 2026Science
 
   How Claude is uplifting biomolecular modeling](https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling)
-- [Sep 10, 2026Frontier Red Team
-
-  Measuring tactical intelligence targeting and conventional weapons capabilities of AI models](https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities)
 
 [See more](https://www.anthropic.com/research)
 

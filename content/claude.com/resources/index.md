@@ -58,7 +58,7 @@ The latest news about Claude, including new products, features, and updates.
 
 [See more](https://claude.com/resources/product-announcements)
 
-![Video thumbnail](https://i.ytimg.com/vi/wYBVhI0AiFw/maxresdefault.jpg)
+Embedded media: https://assets.claude.com/28d114a882453eadcdceed9b3bb25c3264e27d0f.webm
 
 Article
 
@@ -66,7 +66,13 @@ Article
 
 [Learn more](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)
 
-[ArticleOct 7, 2026
+[ArticleOct 8, 2026
+
+### Build live dashboards and animate explainers with Claude
+
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
+
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 7, 2026
 
 ### Claude Haiku 5.5
 
@@ -98,11 +104,7 @@ Claude Design
 
 Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
-
-### Claude for Government is now generally available
-
-Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)
+Claude Code](https://claude.com/resources/articles/claude-code-mods)
 
 ## Best practices
 
@@ -118,19 +120,19 @@ Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teamm
 
 ### Measuring AI Fluency at Your Organization
 
-Seat counts don't show if AI is working. Kristen Swanson shares how to measure AI Fluency beyond usage, without a huge lift.](https://claude.com/resources/webinars/measuring-ai-fluency-at-your-organization)[Guide49 min read
+Seat counts don't show if AI is working. Kristen Swanson shares how to measure AI Fluency beyond usage, without a huge lift.](https://claude.com/resources/webinars/measuring-ai-fluency-at-your-organization)[ArticleOct 8, 2026
 
-### The AI investment firm
+### Building effective agent automations
 
-We draw from our work with investment firms to outline best practices for AI adoption, and the work Claude takes on for each team.](https://claude.com/resources/guides/the-ai-investment-firm)[ArticleOct 7, 2026
-
-### Automating eval design and hillclimbing with Claude
-
-Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
 
 Claude Platform
 
-(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[Guide49 min read
+
+### The AI investment firm
+
+We draw from our work with investment firms to outline best practices for AI adoption, and the work Claude takes on for each team.](https://claude.com/resources/guides/the-ai-investment-firm)
 
 Recurring webinars
 
@@ -140,7 +142,15 @@ Recurring webinars
 - [Building your first workflow with CoworkWebinar](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)
 - [Claude Code: FoundationsWebinar](https://claude.com/resources/webinars/claude-code-foundations-series)
 
-[ArticleOct 6, 2026
+[ArticleOct 7, 2026
+
+### Automating eval design and hillclimbing with Claude
+
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
 
 ### Claude Code in the cloud: a field guide to cloud sessions
 
@@ -148,13 +158,7 @@ What changes when Claude Code runs on its own machine, the workflows where that 
 
 Claude Code
 
-(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
-
-### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
-
-See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
-
-Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)
 
 ## Perspectives
 
@@ -162,28 +166,31 @@ Ideas and points of view on where AI is headed, from builders and leaders thinki
 
 [See more](https://claude.com/resources/perspectives)
 
+![Video thumbnail](https://i.ytimg.com/vi/z7cNbsr3b5s/maxresdefault.jpg)
+
+Video
+
+### Building secure agents for knowledge work
+
+Katelyn Lesse, Head of Platform Engineering at Anthropic sat down with Dan Shipper, Co-Founder and CEO at Every and Willie Williams, Head of Platform at Every to talk about the AI coworker they built on Claude Managed Agents.
+
 [ArticleOct 6, 2026
 
-### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)[WebinarUpcoming | Oct 13, 2026
+### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
+
+Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)[WebinarUpcoming | Oct 13, 2026
 
 ### DRI-ing Your Career
 
 Your career is yours. It always was - but when the market was hot, it didn't seem like you needed to think about it.
 
-Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)[WebinarUpcoming | Oct 8, 2026
+Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)[WebinarOct 8, 2026
 
 ### AI as an Engineering Leadership Multiplier
 
 Most conversations about AI in engineering focus on how the IC role is changing, but the engineering leadership role is adapting…
 
-Claude Platform](https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier)[ArticleSep 29, 2026
-
-### Agents you can coach: how Asana builds human-agent teams with Claude
-
-Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
-‍
-
-Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)
+Claude Platform](https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier)
 
 ## Insights
 
@@ -233,7 +240,27 @@ News, announcements, and stories from Anthropic about Claude and the people buil
 
 [See more](https://claude.com/resources/articles)
 
-[ArticleOct 7, 2026
+[ArticleOct 8, 2026
+
+### Build live dashboards and animate explainers with Claude
+
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
+
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 8, 2026
+
+### Building effective agent automations
+
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 8, 2026
+
+### How Block orchestrates Claude Fable across thousands of pull requests
+
+Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
+
+Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)[ArticleOct 7, 2026
 
 ### Claude Haiku 5.5
 
@@ -247,19 +274,7 @@ Principles for designing evals and hillclimbing against them without fooling you
 
 Claude Platform
 
-(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
-
-### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
-
-Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)[ArticleOct 6, 2026
-
-### Claude now works with Google Docs, Sheets, and Slides
-
-Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta).
-
-Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)[ArticleOct 6, 2026
-
-### We’re expanding the Claude Startups program to help founders build](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
 
 ## Guides
 
@@ -307,7 +322,11 @@ Live and recorded sessions with Anthropic and customer teams — demos, deep div
 
 ### Inside the Cyber Verification Program: Tiers, Migration, and Best Practices
 
-Join the teams behind the program for a walkthrough of the Cyber Verification Program.](https://claude.com/resources/webinars/inside-the-cyber-verification-program)[WebinarUpcoming | Oct 21, 2026
+Join the teams behind the program for a walkthrough of the Cyber Verification Program.](https://claude.com/resources/webinars/inside-the-cyber-verification-program)[WebinarUpcoming | Oct 29, 2026
+
+### Scaling AI Across the Portfolio: Anthropic and AWS for Private Equity
+
+AWS and Anthropic on how PE firms scale Claude across portfolios, what it costs, and how to get started.](https://claude.com/resources/webinars/scaling-ai-across-the-portfolio-anthropic-and-aws-for-private-equity)[WebinarUpcoming | Oct 21, 2026
 
 ### Tokenomics on AWS: Control and optimize your Claude spend
 
@@ -321,11 +340,7 @@ Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teamm
 
 ### Claude in Microsoft Foundry: control the cost, prove the value
 
-Claude adoption in Microsoft Foundry is moving from individual developers to entire organizations. Leaders want to know who's…](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[WebinarUpcoming | Oct 13, 2026
-
-### Measuring AI Fluency at Your Organization
-
-Seat counts don't show if AI is working. Kristen Swanson shares how to measure AI Fluency beyond usage, without a huge lift.](https://claude.com/resources/webinars/measuring-ai-fluency-at-your-organization)
+Claude adoption in Microsoft Foundry is moving from individual developers to entire organizations. Leaders want to know who's…](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)
 
 ## Videos
 
@@ -333,7 +348,15 @@ Watchable demos, talks, and tutorials from the teams building and using Claude.
 
 [See more](https://claude.com/resources/videos)
 
-[Video2 min watch
+[Video33 min watch
+
+### Building secure agents for knowledge work
+
+Katelyn Lesse, Head of Platform Engineering at Anthropic sat down with Dan Shipper, Co-Founder and CEO at Every and Willie Williams, Head of Platform at Every to talk about the AI coworker they built on Claude Managed Agents.
+
+Claude Platform
+
+(opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)[Video2 min watch
 
 ### How an Anthropic designer uses Claude Slides
 
@@ -363,12 +386,4 @@ Claude Code already runs your tests, type checks, and linters.
 
 Claude Code
 
-(opens in new tab)](https://www.youtube.com/watch?v=mQZB0l-rhxE)[Video18 min watch
-
-### Patrick Collison on Claude Code at Stripe
-
-Stripe CEO Patrick Collison joined Boris to talk about how Stripe builds with Claude Code.
-
-Claude Code
-
-(opens in new tab)](https://www.youtube.com/watch?v=S_lzYIvtEaQ)
+(opens in new tab)](https://www.youtube.com/watch?v=mQZB0l-rhxE)

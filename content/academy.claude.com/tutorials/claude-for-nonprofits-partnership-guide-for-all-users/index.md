@@ -2,7 +2,7 @@
 
 A self-paced guide to help nonprofit staff build confidence with Claude and discover practical applications for their role.
 
-2 minClaude.ai
+2 minClaude
 
 [Open Claude](https://claude.ai/new)
 
@@ -37,7 +37,6 @@ Welcome to the Claude for nonprofits community. This guide is a pathway to help 
 ### Key resources[](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-guide-for-all-users)
 
 - [Use case library(opens in new tab)](https://academy.claude.com/all)
-- [Claude artifact inspiration gallery(opens in new tab)](https://claude.ai/artifacts?category=learn)
 - [MCP connector directory(opens in new tab)](https://claude.com/connectors)
 
 ### Recommended actions[](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-guide-for-all-users)

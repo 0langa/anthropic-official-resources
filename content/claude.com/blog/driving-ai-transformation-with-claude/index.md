@@ -1,6 +1,6 @@
 # How enterprises are driving AI transformation with Claude
 
-- Category[Enterprise AI](https://claude.com/resources/articles/category/enterprise-ai)
+- Category[Perspectives](https://claude.com/resources/perspectives)
 - ProductClaude Enterprise
 - DateOctober 1, 2025
 - Reading time12 min
@@ -89,32 +89,32 @@ Whether you're just beginning to explore AI or already deploying agents at scale
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleSep 30, 2026
+[ArticleOct 8, 2026
 
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### How Block orchestrates Claude Fable across thousands of pull requests
 
-Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
+Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
 
-Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
+Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)[ArticleOct 6, 2026
 
-### How to prepare for AI-driven code modernization projects
+### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
 
-How to organize AI-driven modernization projects for critical systems and regulated enterprises.
+Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)[ArticleSep 29, 2026
 
-Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
+### Agents you can coach: how Asana builds human-agent teams with Claude
 
-### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
-
-CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
-
-Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
-
-### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
-
-Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
+Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
 ‍
 
-Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
+
+### Automating eval design and hillclimbing with Claude
+
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
 
 ## Transform how your organization operates with Claude
 

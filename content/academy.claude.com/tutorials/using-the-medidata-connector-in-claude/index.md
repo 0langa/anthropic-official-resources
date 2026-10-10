@@ -2,7 +2,7 @@
 
 Set up and use the Medidata integration with Claude to streamline platform support and optimize site selection for clinical trials.
 
-3 minClaude.ai
+3 minClaude
 
 [Open Claude](https://claude.ai/new)
 

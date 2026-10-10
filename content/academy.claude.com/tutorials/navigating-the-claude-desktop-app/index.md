@@ -2,7 +2,7 @@
 
 Learn what changes when you use Claude in the desktop app, and what it can do across your computer and tools.
 
-6 minClaude.ai
+6 minClaude
 
 [Open Claude](https://claude.ai/new)
 

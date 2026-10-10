@@ -4,7 +4,7 @@ Lesson 63 of 66 · Claude with Google Cloud's Vertex AIRouting workflows
 
 Lesson 632 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Frouting-workflows)
 
@@ -17,7 +17,7 @@ Consider a social media marketing tool that generates video scripts from user to
 - **Programming topic** - Educational script with clear definitions, examples, and structured explanations
 - **Surfing topic** - Entertainment-focused script with engaging hooks and trendy language, not technical definitions
 
-![](https://academy.claude.com/assets/media/1580d75445986d7c7622eda18603cd9077e70a3fe3c55046aba5a79a89a209a4.png)
+![Video scripts for the topics Programming and Surfing, each in five timed segments from 0-3 to 25-35 seconds.](https://academy.claude.com/assets/media/1580d75445986d7c7622eda18603cd9077e70a3fe3c55046aba5a79a89a209a4.png)
 
 Using the same generic prompt for both topics would produce mediocre results that don't match the content's natural style.
 
@@ -32,7 +32,7 @@ Start by defining the different types of content your application might need to 
 - Reviews
 - Storytelling
 
-![](https://academy.claude.com/assets/media/1fa6e445c825dbe4d1c4fe65b98843f5e3e5abd26bd023215aad36d6b8e7eeff.png)
+![Table giving a script generation prompt for each of the six video genres, including comedy, reviews and storytelling.](https://academy.claude.com/assets/media/1fa6e445c825dbe4d1c4fe65b98843f5e3e5abd26bd023215aad36d6b8e7eeff.png)
 
 ## Creating Specialized Prompts[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/routing-workflows)
 
@@ -52,7 +52,7 @@ A routing workflow uses two separate calls to Claude:
 
 Send the user's topic to Claude with a categorization prompt asking it to classify the content type.
 
-![](https://academy.claude.com/assets/media/bb151a9f0e4b2a2f5ebc0bbbc183d04c62e225706b0725e795e115a787e59fd2.png)
+![User message asking Claude to categorize the video topic "Python functions", and the assistant message reply "Educational".](https://academy.claude.com/assets/media/bb151a9f0e4b2a2f5ebc0bbbc183d04c62e225706b0725e795e115a787e59fd2.png)
 
 For example, "Python functions" would likely be categorized as "Educational".
 
@@ -60,13 +60,13 @@ For example, "Python functions" would likely be categorized as "Educational".
 
 Based on Claude's categorization, use the appropriate specialized prompt to generate the actual content.
 
-![](https://academy.claude.com/assets/media/8568c4c90e858a79b13237e9e553b0ff9ea4386de76ee87cf3b286137eb00884.png)
+![Server sends Claude the educational prompt with Python functions as the topic, and Claude replies with a placeholder script.](https://academy.claude.com/assets/media/8568c4c90e858a79b13237e9e553b0ff9ea4386de76ee87cf3b286137eb00884.png)
 
 ## Routing Workflow Architecture[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/routing-workflows)
 
 The general pattern looks like this:
 
-![](https://academy.claude.com/assets/media/2f9761cde059187081ce9d20c188c918b56223f28bc9107fc1be44f1b3a45ee4.png)
+![Routing diagram: a router sends user input to only one of three pipelines of workflow, prompt, tools, etc, described below.](https://academy.claude.com/assets/media/2f9761cde059187081ce9d20c188c918b56223f28bc9107fc1be44f1b3a45ee4.png)
 
 1. User provides input
 2. Router (usually Claude) categorizes the request

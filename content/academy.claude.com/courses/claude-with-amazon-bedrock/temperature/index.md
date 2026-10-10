@@ -4,7 +4,7 @@ Lesson 6 of 65 · Claude with Amazon BedrockTemperature
 
 Lesson 65 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Ftemperature)
 
@@ -18,11 +18,11 @@ Before diving into temperature, it's helpful to understand Claude's text generat
 - **Prediction:** Calculating probabilities for possible next tokens
 - **Sampling:** Selecting a token based on those probabilities
 
-![](https://academy.claude.com/assets/media/b83b845133d34175d2fa01b5bb5329ef596bb96b65c82bd5415a8bdf29f71d22.png)
+![Diagram of next token probabilities: "about" 0.3, "would" 0.2, "of", "is" and "when" 0.1 each, "makes" and "we" 0.05 each.](https://academy.claude.com/assets/media/b83b845133d34175d2fa01b5bb5329ef596bb96b65c82bd5415a8bdf29f71d22.png)
 
 In the diagram above, you can see how Claude might assign different probabilities to potential next tokens. The word "about" has a 30% chance, "would" has 20%, and so on. This process repeats for each token until the response is complete.
 
-![](https://academy.claude.com/assets/media/fd8b6aa732eb08b6b96b37f58cdfa4f457ad26b60606200f75490e64edee5bb5.png)
+![The token list turned into a bar chart: "about" 30%, "would" 20%, "of", "is" and "when" 10% each, "makes" and "we" 5%.](https://academy.claude.com/assets/media/fd8b6aa732eb08b6b96b37f58cdfa4f457ad26b60606200f75490e64edee5bb5.png)
 
 ## What Temperature Does[](https://academy.claude.com/courses/claude-with-amazon-bedrock/temperature)
 
@@ -31,7 +31,7 @@ Temperature is a decimal value between 0 and 1 that directly influences these to
 - **Low temperature (near 0):** Makes the highest probability token much more likely to be selected
 - **High temperature (near 1):** Distributes probability more evenly across all possible tokens
 
-![](https://academy.claude.com/assets/media/006332a5c3d92fa135d7a4910b5d622c9fc9793ab61f751103494a6f474e6b7d.png)
+![At low temperature "about" is 100% and the rest 0%; at high temperature the seven tokens get 23, 18, 15, 12, 12, 11 and 9%.](https://academy.claude.com/assets/media/006332a5c3d92fa135d7a4910b5d622c9fc9793ab61f751103494a6f474e6b7d.png)
 
 At temperature 0, Claude becomes deterministic - it will always pick the most probable token. At temperature 1, lower-probability tokens have a much better chance of being selected, leading to more creative and varied outputs.
 
@@ -39,7 +39,7 @@ At temperature 0, Claude becomes deterministic - it will always pick the most pr
 
 Different tasks call for different temperature settings:
 
-![](https://academy.claude.com/assets/media/939a7ade13434b2fa7c8d519d428465b1803736f5ef6432020a4a241aa14360d.png)
+![The three temperature ranges and their use cases, listed below, over an arrow from less creative to more creative.](https://academy.claude.com/assets/media/939a7ade13434b2fa7c8d519d428465b1803736f5ef6432020a4a241aa14360d.png)
 
 ### Low Temperature (0.0 - 0.3)[](https://academy.claude.com/courses/claude-with-amazon-bedrock/temperature)
 

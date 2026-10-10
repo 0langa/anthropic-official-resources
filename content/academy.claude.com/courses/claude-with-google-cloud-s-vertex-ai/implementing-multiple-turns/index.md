@@ -4,7 +4,7 @@ Lesson 28 of 66 · Claude with Google Cloud's Vertex AIImplementing multiple tur
 
 Lesson 2815 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fimplementing-multiple-turns)
 
@@ -49,7 +49,7 @@ This loop continues until Claude provides a final answer without requesting any 
 
 Claude can request multiple tools in a single response. The message content contains a list of blocks, and we need to process each tool use block separately:
 
-![](https://academy.claude.com/assets/media/619afcdd851e4c8d20f60d0ba548caa95d90e39ee978922512df9ee2edc3942c.png)
+![message.content holds a TextBlock and ToolUseBlocks for "10 + 10" and "30 + 30", each run and returned as a ToolResultBlock.](https://academy.claude.com/assets/media/619afcdd851e4c8d20f60d0ba548caa95d90e39ee978922512df9ee2edc3942c.png)
 
 The `run_tools` function handles this by filtering for tool use blocks and processing each one:
 
@@ -70,7 +70,7 @@ def run_tools(message):
 
 For each tool use block, we need to create a corresponding tool result block. These blocks have specific required fields:
 
-![](https://academy.claude.com/assets/media/20a806103af124ab925305059a2c5c803b4c6c95af29b2c5019418f5257267db.png)
+![Notebook cell where run_tools calls get_current_datetime when the tool name matches, then builds a tool result block.](https://academy.claude.com/assets/media/20a806103af124ab925305059a2c5c803b4c6c95af29b2c5019418f5257267db.png)
 
 The tool result block must include the same ID as the original tool use block, but in the `tool_use_id` field:
 

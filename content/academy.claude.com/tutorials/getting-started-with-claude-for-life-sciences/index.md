@@ -2,7 +2,7 @@
 
 Learn what Claude for Life Sciences offers and how to access the connectors and tools that support research, clinical operations, and regulatory workflows.
 
-4 minClaude.ai
+4 minClaude
 
 [Open Claude](https://claude.ai/new)
 

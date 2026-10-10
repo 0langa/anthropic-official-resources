@@ -4,13 +4,13 @@ Lesson 51 of 65 · Claude with Amazon BedrockDefining tools with MCP
 
 Lesson 519 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fdefining-tools-with-mcp)
 
 Building an MCP server becomes much simpler when you use the official MCP Python SDK. Instead of manually writing complex JSON schemas for tools, you can define them with decorators and let the SDK handle the heavy lifting.
 
-![](https://academy.claude.com/assets/media/dfb5af14ac360361a3e5034af52cffbaab9b7ff1559c84b7274fe8380b804ac7.png)
+![Our MCP server's read and update tools connected to four files: document.pdf, spreadsheet.xlsx, report.txt and spec.md.](https://academy.claude.com/assets/media/dfb5af14ac360361a3e5034af52cffbaab9b7ff1559c84b7274fe8380b804ac7.png)
 
 In this example, we're creating an MCP server that manages document operations. The server will have two main tools: one to read document contents and another to update them. All documents exist in memory as a simple dictionary where keys are document IDs and values are the content strings.
 
@@ -23,7 +23,7 @@ The MCP project provides official SDKs for building servers and clients across m
 - Simplifies tool definition through decorators
 - Handles type validation and error handling
 
-![](https://academy.claude.com/assets/media/6f3f040c71e2fbdc91c66358529c876029cf37b64d4815af9768c7f0192e717f.png)
+![Our MCP server's read and update tools connected to four files: document.pdf, spreadsheet.xlsx, report.txt and spec.md.](https://academy.claude.com/assets/media/6f3f040c71e2fbdc91c66358529c876029cf37b64d4815af9768c7f0192e717f.png)
 
 Here's how easy it is to define a tool with the SDK. The `@mcp.tool` decorator, combined with type hints and field descriptions, automatically creates the proper tool schema that Claude can understand and use.
 

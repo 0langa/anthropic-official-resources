@@ -4,7 +4,7 @@ Lesson 65 of 66 · Claude with Google Cloud's Vertex AIEnvironment inspection
 
 Lesson 652 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fenvironment-inspection)
 
@@ -14,7 +14,7 @@ Claude operates blindly - it needs to be able to observe the environment around 
 
 Think about Claude's perspective when using computer tools. When it clicks a button or types text, the interface changes, but Claude doesn't inherently know how. A button click might navigate to a new page or open a menu. Without being able to "see" what happened, Claude can't determine if its action was successful or plan its next move effectively.
 
-![](https://academy.claude.com/assets/media/440d67695a4fdb0a9333718ff71a2563bc43f5d4822dab26062ca6a45c0ed94f.png)
+![A computer tool call typing "Did you read @", then the returned screenshot showing "Did you re" in a browser text box.](https://academy.claude.com/assets/media/440d67695a4fdb0a9333718ff71a2563bc43f5d4822dab26062ca6a45c0ed94f.png)
 
 This is why computer use tools automatically return screenshots after each action. Claude uses these visual snapshots to understand the new state of the environment and gauge its progress toward completing tasks.
 
@@ -22,7 +22,7 @@ This is why computer use tools automatically return screenshots after each actio
 
 The same principle applies to file operations. Before Claude can modify code, it needs to understand what currently exists in the file. This might seem obvious, but it's a critical step that many developers overlook when building agents.
 
-![](https://academy.claude.com/assets/media/6fc74c29ee61fe153cde28fb9977be93390b8969c1842e97305696114bbcbf5b.png)
+![In a terminal, Claude reads 31 lines of main.py, then updates it with 5 additions adding an "/items" route returning items.](https://academy.claude.com/assets/media/6fc74c29ee61fe153cde28fb9977be93390b8969c1842e97305696114bbcbf5b.png)
 
 In this example, Claude first reads the contents of `main.py` to understand the current structure before safely adding new routes. This inspection step prevents errors and ensures the modifications fit properly with existing code.
 

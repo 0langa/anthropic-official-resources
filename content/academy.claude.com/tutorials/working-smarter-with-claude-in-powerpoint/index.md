@@ -2,7 +2,7 @@
 
 Claude for PowerPoint can pull in data from outside sources and help you analyze it directly in your deck. This video shows how to bring external data into your presentation and use Claude to surface insights, turning raw information into presentation-ready findings without switching between tools.
 
-2 minClaude in PowerPoint
+2 minClaude for PowerPoint
 
 Watch
 

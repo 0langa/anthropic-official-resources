@@ -4,21 +4,21 @@ Lesson 9 of 66 · Claude with Google Cloud's Vertex AIStructured data
 
 Lesson 99 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fstructured-data)
 
 When you need Claude to generate structured data like JSON, Python code, or bulleted lists, you'll often run into a common problem: Claude wants to be helpful and add explanatory text around your content. While this is usually great, sometimes you need just the raw data with nothing else.
 
-![](https://academy.claude.com/assets/media/f9a2ebeaa89109fd4f9b690a4a4e7587e8268c582c2ce1945205a184cbc49220.png)
+![EventBridge Rule Generator app: input "Rule to monitor EC2 instances", a Generate button, and clean JSON with a copy button.](https://academy.claude.com/assets/media/f9a2ebeaa89109fd4f9b690a4a4e7587e8268c582c2ce1945205a184cbc49220.png)
 
 Consider building a web app that generates AWS EventBridge rules. Users enter a description, click generate, and expect to see clean JSON they can immediately copy and use. If Claude returns the JSON wrapped in markdown code blocks with explanatory headers and footers, users can't simply hit "copy all" - they'd have to manually select just the JSON portion.
 
-![](https://academy.claude.com/assets/media/c1412adabb48a70babcbd4cbfaca02ddc2cc605505a225adfab0098d79ad1f9e.png)
+![Claude is asked for a user profile as JSON, a bulleted list of tasks and Python for data analysis, and returns only that.](https://academy.claude.com/assets/media/c1412adabb48a70babcbd4cbfaca02ddc2cc605505a225adfab0098d79ad1f9e.png)
 
 This pattern shows up whenever you're generating structured data. Claude naturally wants to explain its work, but in many cases, you want only the content you're asking for and nothing else.
 
-![](https://academy.claude.com/assets/media/fe78ee5b2f1d0628529af587d5c481c8d86bb36c24b6f34511b2ce2ad51e9fd8.png)
+![Claude is asked for a user profile as JSON, a bulleted list of tasks and Python for data analysis, and returns only that.](https://academy.claude.com/assets/media/fe78ee5b2f1d0628529af587d5c481c8d86bb36c24b6f34511b2ce2ad51e9fd8.png)
 
 ## Combining Stop Sequences with Assistant Message Prefilling[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/structured-data)
 
@@ -39,7 +39,7 @@ When you run this code, you get back just the JSON content without any markdown 
 
 ## How It Works Behind the Scenes[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/structured-data)
 
-![](https://academy.claude.com/assets/media/d46178d7619b14e8d9d2d2f417e6a49c407f09791f929e4e6e58d21e82375c2a.png)
+![A stop sequence and a prefilled assistant message that opens a json block make Claude write only the JSON, not a description.](https://academy.claude.com/assets/media/d46178d7619b14e8d9d2d2f417e6a49c407f09791f929e4e6e58d21e82375c2a.png)
 
 Here's what happens when Claude processes your request:
 

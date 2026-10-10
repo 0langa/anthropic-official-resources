@@ -4,23 +4,23 @@ Lesson 40 of 66 · Claude with Google Cloud's Vertex AIA Multi-index RAG pipelin
 
 Lesson 408 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fa-multi-index-rag-pipeline)
 
 When you have both semantic search (vector embeddings) and lexical search (BM25) working independently, the next step is combining them into a unified search pipeline. This hybrid approach leverages the strengths of both methods to deliver more accurate results.
 
-![](https://academy.claude.com/assets/media/961cd9717345a16435ab45da7572f0b9fa5c4125f4823018c271d8e33c7c9963.png)
+![The user question about INC-2023-Q4-011 runs through semantic and lexical search in parallel, then their results merge.](https://academy.claude.com/assets/media/961cd9717345a16435ab45da7572f0b9fa5c4125f4823018c271d8e33c7c9963.png)
 
 ## Creating a Unified Interface[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/a-multi-index-rag-pipeline)
 
 Both search implementations share nearly identical APIs - they both have `add_document()` and `search()` methods that work the same way. This consistency makes it straightforward to wrap them in a single `Retriever` class.
 
-![](https://academy.claude.com/assets/media/3fbfcb27eda153712dfac8bdf83d4a93171aa4507f63a2df44724e9fbf2de91a.png)
+![VectorIndex and BM25Index each have add_document, which adds a text chunk, and "search", which returns chunks and scores.](https://academy.claude.com/assets/media/3fbfcb27eda153712dfac8bdf83d4a93171aa4507f63a2df44724e9fbf2de91a.png)
 
 The Retriever acts as a coordinator that forwards user queries to both indexes, collects their results, and merges them into a single ranked list.
 
-![](https://academy.claude.com/assets/media/1aae9ddbb1781429d0c3797b675cc9d0fd9d9e1a8fba70b49aa7bc510c29e6ab.png)
+![Diagram of the Retriever: a user question goes to both the VectorIndex and the BM25Index, whose results are merged.](https://academy.claude.com/assets/media/1aae9ddbb1781429d0c3797b675cc9d0fd9d9e1a8fba70b49aa7bc510c29e6ab.png)
 
 ## Reciprocal Rank Fusion[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/a-multi-index-rag-pipeline)
 
@@ -28,11 +28,11 @@ The challenge is merging results from different search methods that use differen
 
 Instead, we use a technique called Reciprocal Rank Fusion (RRF). This method focuses on the rank position of results rather than their raw scores.
 
-![](https://academy.claude.com/assets/media/109886b19d3a59d7d11952d789c8b446ca014e7ccf8cd289eccd58490ba46451.png)
+![VectorIndex and BM25Index result tables for the example below, each with a score column, such as 0.234 and 0.184 at rank 1.](https://academy.claude.com/assets/media/109886b19d3a59d7d11952d789c8b446ca014e7ccf8cd289eccd58490ba46451.png)
 
 Here's how it works with an example. Say your vector search returns sections 2, 7, and 6 in that order, while BM25 returns sections 6, 2, and 7. To merge these:
 
-![](https://academy.claude.com/assets/media/938a17fa4eccbea3668f59c5a4e7ab822fa05a50e07afc5946a0e1bfecd44d75.png)
+![The ranked results from VectorIndex and BM25Index combined into one table of each text chunk's rank from both indexes.](https://academy.claude.com/assets/media/938a17fa4eccbea3668f59c5a4e7ab822fa05a50e07afc5946a0e1bfecd44d75.png)
 
 First, create a table showing each text chunk and its rank from both search methods:
 
@@ -40,7 +40,7 @@ First, create a table showing each text chunk and its rank from both search meth
 - Section 7: Rank 2 from vector, rank 3 from BM25
 - Section 6: Rank 3 from vector, rank 1 from BM25
 
-![](https://academy.claude.com/assets/media/93f690ee13cd14bf23375161fe02601f943f188bf4a73ee4f3510b012b9acf24.png)
+![Table of each section's ranks from vector and BM25 with its RRF score, noting a higher score means a more relevant chunk.](https://academy.claude.com/assets/media/93f690ee13cd14bf23375161fe02601f943f188bf4a73ee4f3510b012b9acf24.png)
 
 Then apply the RRF formula to calculate a combined score for each chunk:
 
@@ -52,7 +52,7 @@ RRF_score(d) = Σ(1 / (k + rank_i(d)))
 
 Where `k` is a constant (typically 60, but we'll use 1 for clearer results) and `rank_i(d)` is the rank of document `d` in the i-th search result.
 
-![](https://academy.claude.com/assets/media/e032f44934036a65174bc1b0c8242b99abd2a76736db1773f249121e3d192137.png)
+![Reciprocal Rank Fusion formula and a table of three sections' vector and BM25 ranks and score, where higher is more relevant.](https://academy.claude.com/assets/media/e032f44934036a65174bc1b0c8242b99abd2a76736db1773f249121e3d192137.png)
 
 For our example:
 
@@ -60,17 +60,17 @@ For our example:
 - Section 7: 1.0/(1+2) + 1.0/(1+3) = 0.583
 - Section 6: 1.0/(1+3) + 1.0/(1+1) = 0.75
 
-![](https://academy.claude.com/assets/media/ed4b193934439db2890a4065c7437248a2aa956b1b47fd68e795b0e1161aae70.png)
+![Table of each text chunk's rank from vector, rank from BM25, score and final rank, where a higher score is more relevant.](https://academy.claude.com/assets/media/ed4b193934439db2890a4065c7437248a2aa956b1b47fd68e795b0e1161aae70.png)
 
 The final ranking becomes: Section 2 (0.833), Section 6 (0.75), Section 7 (0.583). This makes intuitive sense - Section 2 performed well in both searches, Section 6 had mixed results, and Section 7 ranked lower overall.
 
-![](https://academy.claude.com/assets/media/c17e3349fd61b432b819c67d700780f96f20f8b86ba881907b3fb4e323bd45ea.png)
+![The RRF table described above, adding a "Final Rank" column and the note that higher score means more relevant text chunk.](https://academy.claude.com/assets/media/c17e3349fd61b432b819c67d700780f96f20f8b86ba881907b3fb4e323bd45ea.png)
 
 ## Implementation[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/a-multi-index-rag-pipeline)
 
 The Retriever class implementation is straightforward:
 
-![](https://academy.claude.com/assets/media/67939ad6d66d81afd52852de8afa576344c1e04479b9027686e67703f21eb2c9.png)
+![Retriever class in a notebook that raises errors for no indexes, non-string query text, non-positive k and negative k_rrf.](https://academy.claude.com/assets/media/67939ad6d66d81afd52852de8afa576344c1e04479b9027686e67703f21eb2c9.png)
 
 python
 
@@ -91,7 +91,7 @@ class Retriever:
         # ... merge logic here ...
 ```
 
-![](https://academy.claude.com/assets/media/4b4b00e88ea9cc48222bf33c52963ba38e5f677028dd06e87bcd5f5c80b8188b.png)
+![The merge logic left out of the code above: it builds doc_ranks, defines calc_rrf_score, then keeps docs scoring above 0.](https://academy.claude.com/assets/media/4b4b00e88ea9cc48222bf33c52963ba38e5f677028dd06e87bcd5f5c80b8188b.png)
 
 The merge logic tracks document ranks across all search results, calculates RRF scores, and returns the top-k documents sorted by their combined scores.
 
@@ -99,7 +99,7 @@ The merge logic tracks document ranks across all search results, calculates RRF 
 
 When testing with the query "what happened with INC-2023-Q4-011?", the hybrid approach delivers much better results than vector search alone:
 
-![](https://academy.claude.com/assets/media/1bf772a4caba54d5029b99c487a5b19f3cfef345ad09acf937d34f081a548c8c.png)
+![Vector search alone, returning Section 10: Cybersecurity Analysis at distance 0.634, Section 3: Financial Analysis at 0.809.](https://academy.claude.com/assets/media/1bf772a4caba54d5029b99c487a5b19f3cfef345ad09acf937d34f081a548c8c.png)
 
 The results now correctly prioritize:
 
@@ -107,7 +107,7 @@ The results now correctly prioritize:
 2. Section 2: Software Engineering (relevant context)
 3. Section 5: Legal Developments (less relevant but still related)
 
-![](https://academy.claude.com/assets/media/99e48f9eae840a3bddb1d226d4f9f4b0bfb372749ff212509f7b558d12a31dd6.png)
+![Notebook output: Section 10 Cybersecurity Analysis scores about 0.0325, Section 2 about 0.0320, Section 5 about 0.0308.](https://academy.claude.com/assets/media/99e48f9eae840a3bddb1d226d4f9f4b0bfb372749ff212509f7b558d12a31dd6.png)
 
 ## Benefits of the Hybrid Architecture[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/a-multi-index-rag-pipeline)
 
@@ -118,11 +118,11 @@ This design offers several advantages:
 - **Better accuracy**: Combines semantic understanding with exact keyword matching
 - **Flexible fusion**: The RRF algorithm works regardless of how many search indexes you combine
 
-![](https://academy.claude.com/assets/media/0732ae059a29273832ad2998053b9bbee80d6a69e22811007a9b03a87a663bb0.png)
+![Retriever sends the question to VectorIndex, BM25Index and a third box labeled ???Index, then merges the two result sets.](https://academy.claude.com/assets/media/0732ae059a29273832ad2998053b9bbee80d6a69e22811007a9b03a87a663bb0.png)
 
 The consistent API means you could easily add a third search index - perhaps one that specializes in named entity recognition or handles specific document types - and the Retriever would automatically incorporate its results into the final ranking.
 
-![](https://academy.claude.com/assets/media/1ed3bf11f055466c304302dbcaff88f3a787cadb7d0cdbdd35fbae9714a95f96.png)
+![Diagram of the Retriever: a user question goes to both the VectorIndex and the BM25Index, whose results are merged.](https://academy.claude.com/assets/media/1ed3bf11f055466c304302dbcaff88f3a787cadb7d0cdbdd35fbae9714a95f96.png)
 
 This hybrid search foundation provides significantly more robust retrieval than either method alone, setting up your RAG pipeline for better performance across a wider range of query types.
 

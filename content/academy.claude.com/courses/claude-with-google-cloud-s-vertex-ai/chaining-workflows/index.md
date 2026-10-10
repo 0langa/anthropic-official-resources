@@ -4,7 +4,7 @@ Lesson 62 of 66 · Claude with Google Cloud's Vertex AIChaining workflows
 
 Lesson 623 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fchaining-workflows)
 
@@ -14,7 +14,7 @@ Chaining workflows might seem obvious at first, but they're actually one of the 
 
 A chaining workflow breaks down one large task into smaller, sequential subtasks. Instead of asking Claude to handle everything at once, you split the work across multiple focused requests.
 
-![](https://academy.claude.com/assets/media/960cab5fe28e6710ba6a030fd4181773cae411c0e05354d7778e0808130019d9.png)
+![Timeline of six ordered steps to create and post a video to social media, three of them using Claude, listed below.](https://academy.claude.com/assets/media/960cab5fe28e6710ba6a030fd4181773cae411c0e05354d7778e0808130019d9.png)
 
 Here's a practical example: imagine building a social media marketing tool that creates and posts videos. Rather than one massive prompt, you could chain together these steps:
 
@@ -25,7 +25,7 @@ Here's a practical example: imagine building a social media marketing tool that 
 - Use an AI avatar and text-to-speech to create a video
 - Post the video to social media
 
-![](https://academy.claude.com/assets/media/8ca072ea4c7770f36e8739f7bfc5b6c8c52e24f37526c0b068a1e22fa5bfd429.png)
+![Chaining diagram in which "Input" flows through "Processing Task 1", "Processing Task 2" and "Processing Task 3" to "Output".](https://academy.claude.com/assets/media/8ca072ea4c7770f36e8739f7bfc5b6c8c52e24f37526c0b068a1e22fa5bfd429.png)
 
 The key benefits of this approach:
 
@@ -33,7 +33,7 @@ The key benefits of this approach:
 - Optionally do non-LLM processing between each task
 - Keep Claude focused on one aspect of the overall task
 
-![](https://academy.claude.com/assets/media/0fb97ecea57ebd4a5222cf32e91dc5c153ab1df022531938d13e4c05c9ca5010.png)
+![Chaining diagram in which "Input" flows through "Processing Task 1", "Processing Task 2" and "Processing Task 3" to "Output".](https://academy.claude.com/assets/media/0fb97ecea57ebd4a5222cf32e91dc5c153ab1df022531938d13e4c05c9ca5010.png)
 
 ## The Real-World Problem Chaining Solves[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/chaining-workflows)
 
@@ -41,11 +41,11 @@ Here's where chaining becomes invaluable: dealing with constraint violations in 
 
 Picture this scenario: you're using Claude to write technical articles. You start with a simple prompt, but the output isn't quite right. Claude might mention it's an AI, use too many emojis, or write in a cringey tone. So you add constraints to your prompt.
 
-![](https://academy.claude.com/assets/media/0f5e3145bbaf2ed8d858eb8b9dd44f577078739ccaf11408072e0b298d75b303.png)
+![User message to Claude: write an article on a programming technique, plus DO NOT constraints such as no condescending tone.](https://academy.claude.com/assets/media/0f5e3145bbaf2ed8d858eb8b9dd44f577078739ccaf11408072e0b298d75b303.png)
 
 Over time, your prompt grows into a long list of "DO NOT" instructions. But no matter how many constraints you add, Claude sometimes still violates them - using emojis, mentioning it's an AI, or maintaining that unprofessional tone.
 
-![](https://academy.claude.com/assets/media/0e81d5ce6ea37505c008b538270162054e94e54a535c00d0a8e829bac6eda857.png)
+![User message passed from the server to Claude: write an article on a programming technique, then seven "DO NOT" constraints.](https://academy.claude.com/assets/media/0e81d5ce6ea37505c008b538270162054e94e54a535c00d0a8e829bac6eda857.png)
 
 ## The Chaining Solution[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/chaining-workflows)
 
@@ -54,7 +54,7 @@ Instead of fighting this in one massive prompt, use a two-step chaining approach
 1. **First request:** Send your original prompt with all constraints, accepting that you'll get an imperfect article
 2. **Second request:** Ask Claude to revise the article with specific, focused instructions
 
-![](https://academy.claude.com/assets/media/147398a37e725bba8bd86f27f8c4e459b3e2851bb0949474c7e96aa469446bc1.png)
+![Server sends a long prompt, Claude replies violating many constraints, then the server sends the revise prompt shown below.](https://academy.claude.com/assets/media/147398a37e725bba8bd86f27f8c4e459b3e2851bb0949474c7e96aa469446bc1.png)
 
 Your follow-up prompt might look like:
 
@@ -62,7 +62,7 @@ Your follow-up prompt might look like:
 
 This approach works because it allows Claude to focus on one specific aspect at a time. Even if the initial response doesn't satisfy all your requirements, the follow-up prompt gives Claude a clear, focused task for improvement.
 
-![](https://academy.claude.com/assets/media/0fb97ecea57ebd4a5222cf32e91dc5c153ab1df022531938d13e4c05c9ca5010.png)
+![Chaining diagram in which "Input" flows through "Processing Task 1", "Processing Task 2" and "Processing Task 3" to "Output".](https://academy.claude.com/assets/media/0fb97ecea57ebd4a5222cf32e91dc5c153ab1df022531938d13e4c05c9ca5010.png)
 
 ## When to Use Chaining[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/chaining-workflows)
 

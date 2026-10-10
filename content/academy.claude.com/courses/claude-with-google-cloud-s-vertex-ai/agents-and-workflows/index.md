@@ -4,7 +4,7 @@ Lesson 60 of 66 · Claude with Google Cloud's Vertex AIAgents and workflows
 
 Lesson 602 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fagents-and-workflows)
 
@@ -14,7 +14,7 @@ You've actually been using these concepts throughout this course. Remember when 
 
 ## Choosing Between Workflows and Agents[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/agents-and-workflows)
 
-![](https://academy.claude.com/assets/media/5a8594e2bfd9b1903d53f7b84a26d691bf089f222d7159d535eebd66fb04c710.png)
+![Side-by-side definitions of workflows and agents and when to use each, described below.](https://academy.claude.com/assets/media/5a8594e2bfd9b1903d53f7b84a26d691bf089f222d7159d535eebd66fb04c710.png)
 
 The decision comes down to how well you understand the task:
 
@@ -25,11 +25,11 @@ Workflows are series of calls to Claude meant to solve a specific problem throug
 
 ## A Real-World Workflow Example[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/agents-and-workflows)
 
-![](https://academy.claude.com/assets/media/dae5c080943b0201efbb30b30f29f97963c6e3a6b260870836e7848f02fd8bec.png)
+![Mock "Image to CAD" web page with a drag and drop box and a photo of a metal bracket turned into a 3D model.](https://academy.claude.com/assets/media/dae5c080943b0201efbb30b30f29f97963c6e3a6b260870836e7848f02fd8bec.png)
 
 Let's look at a practical example: building an "Image to CAD" application. Users drag and drop an image of a metal part, and the app creates a STEP file (an industry standard for 3D models).
 
-![](https://academy.claude.com/assets/media/0715058392b261b4599104d99cbdf1bdda2f2297630a4bc7708b309e5687ef2f.png)
+![Four Image to CAD workflow steps, feed image to Claude, model with CadQuery, render, then grade and loop back to fix issues.](https://academy.claude.com/assets/media/0715058392b261b4599104d99cbdf1bdda2f2297630a4bc7708b309e5687ef2f.png)
 
 Here's how we might break this down into workflow steps:
 
@@ -42,7 +42,7 @@ This is a perfect workflow scenario because we have a pretty good idea of exactl
 
 ## The Evaluator-Optimizer Pattern[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/agents-and-workflows)
 
-![](https://academy.claude.com/assets/media/e314a2900b3392c4beecc471887bca82371afb84ea8ba0b9d77560e591bd93da.png)
+![Evaluator-optimizer workflow in which a Producer and a Grader trade submissions and feedback until output is accepted.](https://academy.claude.com/assets/media/e314a2900b3392c4beecc471887bca82371afb84ea8ba0b9d77560e591bd93da.png)
 
 The CAD example demonstrates a common workflow pattern called the evaluator-optimizer:
 

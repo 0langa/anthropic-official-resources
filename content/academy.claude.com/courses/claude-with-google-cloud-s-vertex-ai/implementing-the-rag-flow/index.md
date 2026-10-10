@@ -4,7 +4,7 @@ Lesson 38 of 66 · Claude with Google Cloud's Vertex AIImplementing the RAG flow
 
 Lesson 3815 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fimplementing-the-rag-flow)
 
@@ -82,7 +82,7 @@ for doc, distance in results:
 
 This returns the two most similar chunks along with their cosine distance scores.
 
-![](https://academy.claude.com/assets/media/4bee5dc249e2e187e3cbbc328b8ac07f5239ef6a39c502a991c151de3b061470.png)
+![The user query vector "0.1, 0.89" goes to the vector database, which returns the "closest" vector, "0.295, 0.955".](https://academy.claude.com/assets/media/4bee5dc249e2e187e3cbbc328b8ac07f5239ef6a39c502a991c151de3b061470.png)
 
 The diagram above illustrates how the vector database processes a user query. When we ask a question, it gets converted to an embedding vector, and the database finds the stored vectors that are "closest" to it in the high-dimensional space.
 

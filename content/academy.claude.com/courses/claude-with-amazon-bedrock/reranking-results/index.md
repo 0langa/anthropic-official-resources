@@ -4,7 +4,7 @@ Lesson 40 of 65 · Claude with Amazon BedrockReranking results
 
 Lesson 407 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Freranking-results)
 
@@ -14,7 +14,7 @@ The hybrid retrieval approach we've built works well, but there are still some r
 
 Re-ranking adds another post-processing step after merging results from your vector index and BM25 index. The concept is straightforward: take your search results and ask Claude to reorder them based on relevance to the user's question.
 
-![](https://academy.claude.com/assets/media/b552a90bd170afa738c7ecd5cf20ef671d579705fa948df0c83d999e20c2adac.png)
+![Re-ranking flow: VectorIndex and BM25Index results merge, the reranker prompts Claude, and Claude returns a re-ordered list.](https://academy.claude.com/assets/media/b552a90bd170afa738c7ecd5cf20ef671d579705fa948df0c83d999e20c2adac.png)
 
 Here's how the process works:
 

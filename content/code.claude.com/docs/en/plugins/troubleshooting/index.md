@@ -206,6 +206,23 @@ The fix differs for the owner and for everyone else:
 * **You own the marketplace**: put the file at that location and re-add the marketplace
 * **Someone else hosts it**: ask the owner for the exact source they publish
 
+### `Cannot add marketplace "<name>": Claude Code cannot install plugins from a marketplace with this name`
+
+You added a marketplace, and the [`name`](/docs/en/plugins/marketplace-reference#top-level-fields) in its `marketplace.json` isn't valid as the part after `@` in a [plugin id](/docs/en/plugins/loading#find-where-a-plugin-came-from) such as `my-plugin@my-marketplace`. Claude Code refuses the add and registers nothing.
+
+The rest of the message states the rule for the name. In this example, `_internal` breaks the rule by starting with `_`:
+
+```text theme={null}
+Cannot add marketplace "_internal": Claude Code cannot install plugins from a marketplace with this name. Each part of a plugin id (plugin@marketplace) may use only the letters a-z and A-Z, digits, ".", "_" and "-", and must start with a letter or digit. The name is set by "name" in the marketplace's marketplace.json; ask its maintainer to change it.
+```
+
+Give the marketplace a name that fits that rule, then add it again:
+
+* **You own the marketplace**: change `name` in `marketplace.json`, for example to `internal-tools`
+* **Someone else hosts it**: ask the owner to change the name
+
+Before v2.1.295, Claude Code reported the add in this example as successful.
+
 ### `SSH authentication failed` or `HTTPS authentication failed`
 
 You added or updated a marketplace from a git repository, and the clone failed with `Failed to clone marketplace repository:` followed by one of these lines.
@@ -687,6 +704,23 @@ A record in `installed_plugins.json` sat under a key that isn't a valid plugin i
 
 Claude Code copies the unusable records into the `.set-aside` file and drops them from the list. Claude Code never reads the copies back, and the copies age out on the [`cleanupPeriodDays`](/docs/en/settings-reference#cleanupperioddays) schedule.
 
+### `does not load (...), so Claude Code ignores the whole file`
+
+The command worked. The settings file the warning names has an error, so Claude Code ignores the whole file, including anything the command wrote there, until you fix it.
+
+Fix the error the warning names. For a value Claude Code doesn't accept, [Fix a broken settings file](/docs/en/settings#fix-a-broken-settings-file) says how. Then run the command again if its change is no longer in the file.
+
+The warning follows the success line of `claude plugin install`, `enable`, `disable`, or `claude plugin marketplace add` in your shell:
+
+```text theme={null}
+⚠ /home/user/.claude/settings.json does not load (its "permissions" is not valid), so Claude Code ignores the whole file, including anything this command wrote there. Fix the file, then run this command again if its change is missing. If a newer Claude Code wrote the file, update Claude Code instead.
+```
+
+The text in parentheses names the error:
+
+* **`its "<key>" is not valid`**: the quoted setting holds a value Claude Code doesn't accept. Look up the setting in the [settings reference](/docs/en/settings-reference) for the values it takes. When more than one value fails, the text names the first setting and counts the others, as in `its "permissions" and 1 other value are not valid`.
+* **`it is not a JSON object`**: the file's top level isn't a JSON object, such as a file whose top level is an array.
+
 ### `Disabled in ~/.claude/settings.json but still loads`
 
 You set a plugin to `false` in `~/.claude/settings.json`, and its row in `claude plugin list` or `/plugin` shows this message followed by the source that enables it, such as `— project settings enable it, which overrides your user setting`. A `true` in that higher-precedence source is overriding your user setting.
@@ -709,6 +743,22 @@ After you run `/reload-plugins` in your session, the **Errors** tab entry is gon
 
 If your organization pre-installs plugins for you, it does so through managed settings instead. See [Pre-install and require plugins](/docs/en/plugins/org#pre-install-and-require-plugins).
 
+### A plugin stays installed after `plugin uninstall` on Windows
+
+On Windows, you run `claude plugin uninstall` at project or local scope and it reports success, but `claude plugin list` or `/plugin` still lists the plugin.
+
+`installed_plugins.json` held two install records of the plugin for the project folder, each spelling the folder's path differently, and one uninstall removes one of them. To check, run `claude plugin list --json` in your shell. The plugin's remaining row has a `projectPath` that spells the folder differently from where you ran the uninstall, such as `c:\work\app` for `C:\work\app`.
+
+Run the same uninstall command again, with the same `--scope`, from the same folder. The second run finds no record under its own spelling of the path, so it removes the one under the other spelling. For a project-scope install:
+
+```shell theme={null}
+claude plugin uninstall <name>@<marketplace> --scope project
+```
+
+Then run `claude plugin list --json` again to confirm that the row is gone.
+
+Before v2.1.295, the second run fails with `Plugin "<name>" is not installed in project scope`. Run `claude update`, then run the uninstall again.
+
 ### `Failed to load hooks from <path>` and hooks that don't fire
 
 A plugin's hooks don't run, or one blocks an action. Either the **Errors** tab shows a load failure for them, the hooks load and you see `<Event> hook error` notices or a blocking error in the transcript, or a hook loads without error and never fires.
@@ -725,6 +775,8 @@ The **Errors** tab shows one of these messages:
 A notice of the form `... hook error: Failed with non-blocking status code: <stderr>` means the hook ran and its command failed. For example, `Stop hook error: Failed with non-blocking status code: /bin/sh: node: command not found` means the shell Claude Code spawned couldn't find `node`. Install it, or make sure it's on the `PATH` of the terminal you start `claude` from.
 
 If the stderr shows the plugin's path cut off at a space, the hook's shell-form command uses `${CLAUDE_PLUGIN_ROOT}` outside quotes and the install path contains a space. Wrap the variable in double quotes or use [exec form](/docs/en/hooks#exec-form-and-shell-form). To find the unquoted variable, run `claude plugin validate` on the plugin's directory and look for its [quoting warning](/docs/en/plugins/manifest-reference#quoting-and-path-separators).
+
+If the notice reads `Failed to run: Plugin directory does not exist: <path>`, see [`Plugin directory does not exist`](#plugin-directory-does-not-exist).
 
 For any other error, run the hook's command yourself from the plugin directory to see the full output, or capture the full stderr with [debug logging](/docs/en/hooks#debug-hooks).
 
@@ -755,6 +807,16 @@ If a hook loads without error but never fires, check its definition and then wat
     Open the [debug log](/docs/en/hooks#debug-hooks), which records which hooks matched. A hook that ran shows up there with its exit code.
   </Step>
 </Steps>
+
+### `Plugin directory does not exist: <path>`
+
+Run `/reload-plugins` at the Claude Code prompt first, even though the message says to reinstall. A plugin's hook fails with `Failed to run: Plugin directory does not exist: <path> (<plugin> — run /plugin to reinstall)`, and the hook doesn't run, when the directory your session loaded the plugin's hooks from is gone from disk. [`Plugin directory not found at path: <path>`](#plugin-directory-not-found-at-path) is a different message, about a marketplace entry.
+
+The reload loads the plugin's hooks from its current directory. The failure is shown once per session for each hook event and command, so the hook going quiet doesn't confirm the fix. Read the reload's output instead:
+
+* **`Reloaded:` with no errors line**: the plugin's hooks no longer point at the missing directory
+* **`N errors during load. Run /plugin for details.`**: open the **Errors** tab in `/plugin` and follow this page's entry for the message it shows
+* **A line that ends `Run /reload-plugins --force to apply.`**: nothing reloaded, and the hooks keep failing. Run `/reload-plugins --force` at the Claude Code prompt
 
 ### `Invalid MCP server config for "<server>"` and MCP servers that don't start
 
@@ -912,7 +974,7 @@ For a plugin that ships an [MCPB bundle file](/docs/en/plugins/components#includ
 
 You ran `claude plugin validate <path>`, or `/plugin validate <path>` in a session, and it printed `Found N errors` and `Validation failed`, then exited with code 1.
 
-The validator reads the manifest at the path you give it: `.claude-plugin/plugin.json` for a plugin directory, or `.claude-plugin/marketplace.json` for a marketplace directory. For a marketplace, it prefixes problems in an entry's own manifest with the entry index, as `plugins[1] plugin.json → json: ...`.
+The validator reads the manifest at the path you give it: `.claude-plugin/plugin.json` for a plugin directory, `.claude-plugin/marketplace.json` for a marketplace directory, or both for a directory that holds both. For a marketplace, it prefixes problems in an entry's own manifest with the entry index, as `plugins[1] plugin.json → json: ...`. Before v2.1.289, Claude Code validated a directory that holds both as a marketplace alone.
 
 The table covers the messages that stop validation and two warnings, `No frontmatter block found` and `Unknown field '<key>'`, which stop it only when you pass `--strict`. Other warnings, such as a missing description, aren't listed.
 

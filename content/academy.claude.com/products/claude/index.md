@@ -1,4 +1,4 @@
-# Claude.ai
+# Claude
 
 Your thinking partner for big ambitions: work through a problem, pressure-test a draft, or make sense of a dataset in conversation.
 
@@ -22,7 +22,7 @@ Learn how Projects can streamline your workflow with Claude for more organized a
 
 Tutorial·7 min](https://academy.claude.com/tutorials/intro-to-projects)
 
-[## For Admins and IT
+[## For admins and IT
 
 Rolling Claude out to your org? Admin guides for identity, governance, and enablement.
 

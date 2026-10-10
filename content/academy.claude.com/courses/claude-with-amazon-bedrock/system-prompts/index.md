@@ -4,13 +4,13 @@ Lesson 5 of 65 · Claude with Amazon BedrockSystem prompts
 
 Lesson 58 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fsystem-prompts)
 
 When building AI chatbots for specific use cases, you need a way to control how the AI responds. System prompts are the key to transforming a general-purpose AI into a specialized assistant that follows specific guidelines and stays on topic.
 
-![](https://academy.claude.com/assets/media/a8883fbe515bc8ea7e369f29e866caa10ed49af599dd529a3143bed87c9cd346.png)
+![Responses should mention Postgres hosting on AWS, setup steps and related AWS services, not competitors or non-cloud topics.](https://academy.claude.com/assets/media/a8883fbe515bc8ea7e369f29e866caa10ed49af599dd529a3143bed87c9cd346.png)
 
 ## The Problem with User-Level Instructions[](https://academy.claude.com/courses/claude-with-amazon-bedrock/system-prompts)
 
@@ -21,13 +21,13 @@ You might think the solution is to include all your requirements in the user mes
 - Users see all the internal instructions, making conversations cluttered
 - Requirements change based on the specific question being asked
 
-![](https://academy.claude.com/assets/media/0d5cb99bb7a6fcab168500308b061b008367df300bbd299edff265dbebf3805e.png)
+![Option 1 puts the requirements in the user message as "DO" and "DONT" lists of AWS rules, followed by the user's question.](https://academy.claude.com/assets/media/0d5cb99bb7a6fcab168500308b061b008367df300bbd299edff265dbebf3805e.png)
 
 ## System Prompts: A Better Approach[](https://academy.claude.com/courses/claude-with-amazon-bedrock/system-prompts)
 
 System prompts solve this problem by giving Claude a role to play. Instead of listing specific do's and don'ts, you tell Claude to act like a particular type of professional. The AI then responds as that person would naturally respond.
 
-![](https://academy.claude.com/assets/media/e8f3cc5bc734943a959be45a79ed9f50cd24eeee7976474ed9b1dbc33fd47b4c.png)
+![Option 2, provide a role via a system prompt: its benefits, with the AWS cloud support specialist code shown below.](https://academy.claude.com/assets/media/e8f3cc5bc734943a959be45a79ed9f50cd24eeee7976474ed9b1dbc33fd47b4c.png)
 
 System prompts provide several key benefits:
 
@@ -81,13 +81,13 @@ This approach lets you optionally include a system prompt. When no system prompt
 
 The difference is immediately apparent when you test the same question with and without a system prompt. Ask "How do I host a Postgres database?" without a system prompt, and you'll get a comprehensive answer covering multiple cloud providers and self-hosting options.
 
-![](https://academy.claude.com/assets/media/3068fd0afb53cb298b442ddf08066d861887d2ae5ec6cd1f965e801e9932c039.png)
+![Notebook chat function whose triple-quoted system_prompt is still empty, and a converse call with no system parameter.](https://academy.claude.com/assets/media/3068fd0afb53cb298b442ddf08066d861887d2ae5ec6cd1f965e801e9932c039.png)
 
 With an AWS support specialist system prompt, the response focuses exclusively on AWS solutions like RDS, Aurora, and EC2-based deployments. No competitors mentioned, and the answer includes AWS-specific setup steps.
 
 Even more impressive is how system prompts handle off-topic questions. Ask for a bread recipe with the AWS specialist prompt active, and Claude politely declines while staying in character:
 
-![](https://academy.claude.com/assets/media/23098f708f02781a4dd30a7c21b4d0d96413f6a22840b791a63d919a0aa22832.png)
+![Notebook chat function with the AWS cloud support specialist system prompt, then a call asking "Give me a bread recipe".](https://academy.claude.com/assets/media/23098f708f02781a4dd30a7c21b4d0d96413f6a22840b791a63d919a0aa22832.png)
 
 ## Important Technical Details[](https://academy.claude.com/courses/claude-with-amazon-bedrock/system-prompts)
 

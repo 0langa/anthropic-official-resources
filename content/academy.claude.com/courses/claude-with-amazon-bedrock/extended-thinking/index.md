@@ -4,13 +4,13 @@ Lesson 42 of 65 · Claude with Amazon BedrockExtended thinking
 
 Lesson 427 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fextended-thinking)
 
 Extended thinking is Claude's advanced feature that gives the model time to reason through complex problems before generating a final response. Think of it as Claude's internal monologue - you can see how it approaches your problem step by step.
 
-![](https://academy.claude.com/assets/media/0bd1c482a9cdf3617fbf43e2386eea9cd78fe67c3ad91b25908844201784558c.png)
+![Claude chat about closing JSON delimiters, with callouts labeling "User Query", "Thinking / Reasoning" and "Response".](https://academy.claude.com/assets/media/0bd1c482a9cdf3617fbf43e2386eea9cd78fe67c3ad91b25908844201784558c.png)
 
 ## How Extended Thinking Works[](https://academy.claude.com/courses/claude-with-amazon-bedrock/extended-thinking)
 
@@ -19,7 +19,7 @@ When you enable extended thinking, Claude's response includes two parts instead 
 - **Reasoning Content Part** - Claude's internal thinking process
 - **Text Part** - The final response you actually wanted
 
-![](https://academy.claude.com/assets/media/7737b60029d867e83be1ad7abaea1c521cfb6cedbbad66a74b5560b6aed71a0e.png)
+![With thinking, our server sends "Write a short guide on recursion" and Claude returns reasoning then the final text.](https://academy.claude.com/assets/media/7737b60029d867e83be1ad7abaea1c521cfb6cedbbad66a74b5560b6aed71a0e.png)
 
 The reasoning content shows you exactly how Claude breaks down your problem, what it considers, and how it arrives at its final answer. This transparency can be incredibly valuable for understanding and debugging complex tasks.
 
@@ -37,7 +37,7 @@ The key decision point is simple: use your evaluations. If you've already optimi
 
 One important detail you'll notice immediately is the cryptographic signature attached to reasoning content:
 
-![](https://academy.claude.com/assets/media/fd50c9e46194b656ccf7369d31035d2a5459e0e1adf556a39ed535c1e2b91ced.png)
+![Assistant message JSON: inside reasoningText, a highlighted "signature" field sits beside the thinking "text" field.](https://academy.claude.com/assets/media/fd50c9e46194b656ccf7369d31035d2a5459e0e1adf556a39ed535c1e2b91ced.png)
 
 This signature ensures you can't modify the thinking text. If you want to include Claude's previous reasoning in a follow-up conversation, the signature verifies the content hasn't been tampered with. This prevents potential safety issues from modified reasoning text.
 
@@ -45,7 +45,7 @@ This signature ensures you can't modify the thinking text. If you want to includ
 
 Sometimes Claude's thinking gets flagged by safety systems. When this happens, you'll receive a `redactedContent` field instead of readable thinking text:
 
-![](https://academy.claude.com/assets/media/78c6e80cb4759302f2168576aca51757419eaf3970c816d3e0c2775ffed8dfac.png)
+![Assistant message with redactedContent highlighted inside reasoningContent as an encrypted byte string, plus a text part.](https://academy.claude.com/assets/media/78c6e80cb4759302f2168576aca51757419eaf3970c816d3e0c2775ffed8dfac.png)
 
 The redacted content is encrypted but still functional - you can pass it back to Claude in future conversations without losing context. It's just not readable to you as a developer.
 

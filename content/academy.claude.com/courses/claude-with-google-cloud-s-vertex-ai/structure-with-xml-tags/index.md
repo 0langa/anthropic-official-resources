@@ -4,7 +4,7 @@ Lesson 19 of 66 · Claude with Google Cloud's Vertex AIStructure with XML tags�
 
 Lesson 197 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fstructure-with-xml-tags)
 
@@ -14,7 +14,7 @@ When you're building prompts that include a lot of content, Claude can sometimes
 
 Consider a prompt where you need to analyze 20 pages of sales records. Without clear boundaries, Claude might have trouble distinguishing between your instructions and the actual data you want analyzed.
 
-![](https://academy.claude.com/assets/media/31cfcf31ba1bc9fe15a2543c9236fc3509f70793a5414192e4bb642b9ddd5704.png)
+![A prompt with no XML tags: it asks for a decision report, interpolates sales_records, then lists five numbered steps.](https://academy.claude.com/assets/media/31cfcf31ba1bc9fe15a2543c9236fc3509f70793a5414192e4bb642b9ddd5704.png)
 
 The example above shows how unclear boundaries can make it difficult for Claude to parse your intent. By wrapping different content sections in XML tags, you create clear delimiters that help Claude understand the structure of your prompt.
 
@@ -22,7 +22,7 @@ The example above shows how unclear boundaries can make it difficult for Claude 
 
 XML tags act as containers that separate distinct portions of your prompt. You can create custom tag names that describe the content they contain:
 
-![](https://academy.claude.com/assets/media/36d7ff6d8c95678b923927f86e231dcb43dec2d8cffd63e4c7394e2334c25fd5.png)
+![Prompt for a one page decision report on a 30% sales drop, with the records in sales_records tags and five analysis steps.](https://academy.claude.com/assets/media/36d7ff6d8c95678b923927f86e231dcb43dec2d8cffd63e4c7394e2334c25fd5.png)
 
 In this case, wrapping the sales data in `<sales_records>` tags makes it immediately clear what that content represents. The tag name itself provides context about the data type.
 
@@ -30,7 +30,7 @@ In this case, wrapping the sales data in `<sales_records>` tags makes it immedia
 
 Here's a more dramatic example that shows why structure matters. On the left, you have a debugging request with mixed code and documentation:
 
-![](https://academy.claude.com/assets/media/06552fb30df1c3da1b204e2c362c55d78c2aa236d4c6a149b1e55bc594752e58.png)
+![The same debugging prompt twice: "Not Great" with code and docs run together, and "Better" with my_code and docs tags.](https://academy.claude.com/assets/media/06552fb30df1c3da1b204e2c362c55d78c2aa236d4c6a149b1e55bc594752e58.png)
 
 Without clear boundaries, Claude has to guess which parts are the buggy code and which parts are documentation. The improved version on the right uses XML tags to separate these concerns:
 

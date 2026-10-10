@@ -4,7 +4,7 @@ Lesson 3 of 13 · Claude Platform 101Choosing the right model
 
 Lesson 35 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-platform-101%2Fchoosing-the-right-model)
 
@@ -35,7 +35,7 @@ Opus 4.7 and Claude Sonnet 4.6). The code below uses the current model IDs;
 your latency and token numbers will differ.*
 
 - **Claude Fable** is our most capable model yet — a new tier that sits above Opus, built for your toughest challenges. It comes at a higher cost than Opus, so reserve it for work where that extra capability is worth paying for. The current Fable model is Claude Fable 5.1 (`claude-fable-5-1`).
-- **Claude Opus** is the most capable of the three core model families, but also the slowest and highest cost of the three. Use it for deep reasoning, complex analysis, multi-step coding, and nuanced writing. The current Opus model is Claude Opus 5 (`claude-opus-5`).
+- **Claude Opus** is the most capable of the three core model families, but also the slowest and highest cost of the three. Use it for deep reasoning, complex analysis, multi-step coding, and nuanced writing. The current Opus model is Claude Opus 5.5 (`claude-opus-5-5`).
 - **Claude Haiku** is the fastest and lowest cost, optimized for speed and cost efficiency rather than maximum intelligence. Use it for high-volume, low-complexity work like classification, extraction, and routing. The current Haiku model is Claude Haiku 4.5 (`claude-haiku-4-5`).
 - **Claude Sonnet** sits in the sweet spot: a balanced combination of intelligence, speed, and cost that works well for most production work. The current Sonnet model is Claude Sonnet 5 (`claude-sonnet-5`).
 
@@ -58,7 +58,7 @@ Let's see the difference between the tiers, not just talk about it. We'll send t
 python
 
 ```
-models = ["claude-haiku-4-5", "claude-sonnet-5", "claude-opus-5"]
+models = ["claude-haiku-4-5", "claude-sonnet-5", "claude-opus-5-5"]
 
 for model in models:
     response = client.messages.create(

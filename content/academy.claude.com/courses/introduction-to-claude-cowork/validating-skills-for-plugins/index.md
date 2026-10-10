@@ -9,7 +9,7 @@ In this lessonBy the end, you’ll be able to
 - Explain what an eval is and why it matters before you share or rely on a skill
 - Run a lightweight eval through skill-creator
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-cowork%2Fvalidating-skills-for-plugins)
 

@@ -4,13 +4,13 @@ Lesson 22 of 66 · Claude with Google Cloud's Vertex AIProject overview
 
 Lesson 222 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fproject-overview)
 
 We're going to build a practical project that teaches Claude how to set reminders for future dates. This might sound simple at first, but it reveals several interesting challenges that we'll solve using custom tools.
 
-![](https://academy.claude.com/assets/media/0b1a7a20c9a0a4d57723e9c95065d706990ddccabbba00944372d861507b1785.png)
+![In a chat, a user asks for a reminder for a doctor's appointment a week from Thursday, a goal that takes 3 to 4 custom tools.](https://academy.claude.com/assets/media/0b1a7a20c9a0a4d57723e9c95065d706990ddccabbba00944372d861507b1785.png)
 
 The goal is to have a conversation like this: you tell Claude "Set a reminder for my doctor's appointment. It's a week from Thursday," and Claude responds "OK, I will remind you." To make this work, we need to understand why this is actually harder than it looks.
 
@@ -22,7 +22,7 @@ Claude has some built-in knowledge about dates and times, but it also has some s
 - Claude doesn't always handle time-based addition well, especially if looking many days into the future
 - Claude doesn't know how to set a reminder!
 
-![](https://academy.claude.com/assets/media/5794a6fc8bd5562b3626d7108435489fd6c4eba4a3a300715c958b9ae766abae.png)
+![The three limitations above, beside a chat mockup of the reminder request and the reply "OK, I will remind you".](https://academy.claude.com/assets/media/5794a6fc8bd5562b3626d7108435489fd6c4eba4a3a300715c958b9ae766abae.png)
 
 These limitations mean that even a simple request like "set a reminder for 24 hours from now" becomes problematic. Claude doesn't know what "24 hours from now" actually means without knowing the current time. And even if it could calculate the right date, it has no mechanism to actually create a reminder.
 
@@ -30,7 +30,7 @@ These limitations mean that even a simple request like "set a reminder for 24 ho
 
 To solve these problems, we'll create three custom tools that work together:
 
-![](https://academy.claude.com/assets/media/d1042ce4670eec51e35842b37d919f53d8285a0da854a7661546e4e3b3ef62eb.png)
+![The three tools to build: get the current date time, add duration to date time, and set a reminder, described below.](https://academy.claude.com/assets/media/d1042ce4670eec51e35842b37d919f53d8285a0da854a7661546e4e3b3ef62eb.png)
 
 ## Get the Current Date Time[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/project-overview)
 

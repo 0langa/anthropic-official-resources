@@ -1,4 +1,4 @@
-# Browse Claude.ai courses
+# Browse Claude courses
 
 
 

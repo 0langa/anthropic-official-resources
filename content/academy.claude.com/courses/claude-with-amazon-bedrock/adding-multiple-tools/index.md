@@ -4,13 +4,13 @@ Lesson 28 of 65 · Claude with Amazon BedrockAdding multiple tools
 
 Lesson 287 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fadding-multiple-tools)
 
 Now that we have one tool working, it's time to add the remaining two tools to complete our project: `add_duration_to_datetime` and `set_reminder`. The good news is that once you have the foundation in place, adding new tools is straightforward.
 
-![](https://academy.claude.com/assets/media/91f4fc5203e3c1c26229c13016088eaf51bee660857c84c5fef4d90148b5b199.jpg)
+![Three tools needed: get the current date time, add duration to date time, which Claude isn't perfect at, and set a reminder.](https://academy.claude.com/assets/media/91f4fc5203e3c1c26229c13016088eaf51bee660857c84c5fef4d90148b5b199.jpg)
 
 ## Pre-built Functions and Schemas[](https://academy.claude.com/courses/claude-with-amazon-bedrock/adding-multiple-tools)
 
@@ -19,7 +19,7 @@ To save time, the implementations for both additional functions are already prov
 - **add\_duration\_to\_datetime** - Handles date arithmetic for various time units
 - **set\_reminder** - Creates reminders (currently just prints output, but could be extended to integrate with actual reminder systems)
 
-![](https://academy.claude.com/assets/media/ce5f610d33fa1b308e460383ebcd24b7ce46a410e71cf68fc72f3576d68f0c63.jpg)
+![Notebook cell defining add_duration_to_datetime, with branches for units such as "seconds", "days" and "months".](https://academy.claude.com/assets/media/ce5f610d33fa1b308e460383ebcd24b7ce46a410e71cf68fc72f3576d68f0c63.jpg)
 
 Each function comes with a corresponding JSON schema that defines the expected parameters and their types.
 
@@ -37,7 +37,7 @@ tools=[
 ]
 ```
 
-![](https://academy.claude.com/assets/media/57194c1c8700e889e86f892decc1168bf13fadb36e6cb0ce1bdf89d2aae6d34d.jpg)
+![The run_conversation cell passing the three schemas above to chat, then looping until the stop reason is not "tool_use".](https://academy.claude.com/assets/media/57194c1c8700e889e86f892decc1168bf13fadb36e6cb0ce1bdf89d2aae6d34d.jpg)
 
 ## Wiring Up the Tool Functions[](https://academy.claude.com/courses/claude-with-amazon-bedrock/adding-multiple-tools)
 
@@ -57,7 +57,7 @@ def run_tool(tool_name, tool_input):
         raise Exception(f"Unknown tool name: {tool_name}")
 ```
 
-![](https://academy.claude.com/assets/media/2ff12ab3be5565da2e0f1a73749609e5af1b4881d76a747fc3ff0c57a2dfcd05.jpg)
+![Notebook cell with the run_tool function shown above, followed by a run_tools function that collects toolUse parts.](https://academy.claude.com/assets/media/2ff12ab3be5565da2e0f1a73749609e5af1b4881d76a747fc3ff0c57a2dfcd05.jpg)
 
 ## Testing the Complete System[](https://academy.claude.com/courses/claude-with-amazon-bedrock/adding-multiple-tools)
 
@@ -67,7 +67,7 @@ With all tools connected, you can now test complex workflows that require multip
 2. Add 100 days to that date using `add_duration_to_datetime`
 3. Create the reminder using `set_reminder`
 
-![](https://academy.claude.com/assets/media/dcbabb51d3ac3d5a4f52172f10ffab8efd52e4d679360640b1f8ce94d861fbb5.jpg)
+![Notebook output: Claude plans the steps, then prints the reminder "Go to the doctor appointment" for 2025-07-12T00:00:00.](https://academy.claude.com/assets/media/dcbabb51d3ac3d5a4f52172f10ffab8efd52e4d679360640b1f8ce94d861fbb5.jpg)
 
 Claude automatically breaks down the request into logical steps and explains its plan before executing each tool call. The output shows the complete workflow, including the calculated future date and confirmation of the reminder being set.
 

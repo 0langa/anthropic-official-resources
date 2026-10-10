@@ -4,7 +4,7 @@ Lesson 56 of 65 · Claude with Amazon BedrockDefining prompts
 
 Lesson 569 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fdefining-prompts)
 
@@ -14,7 +14,7 @@ MCP servers can define prompts - pre-written, high-quality instructions that cli
 
 Let's say you want Claude to reformat a document into markdown. You could just ask "Convert report.pdf to markdown" and it would work fine. But you'd probably get much better results with a thoroughly tested, detailed prompt that covers edge cases and gives specific formatting instructions.
 
-![](https://academy.claude.com/assets/media/8a6e3914051996382d3542374f31a95d2dfb6ebf1787d5dba043a6e296a964ea.png)
+![Side by side: the user's one line prompt versus a long server prompt casting Claude as a document conversion specialist.](https://academy.claude.com/assets/media/8a6e3914051996382d3542374f31a95d2dfb6ebf1787d5dba043a6e296a964ea.png)
 
 The idea is simple: as MCP server developers, we can spend time crafting and testing really good prompts, then make them available to anyone using our server. Users get better results without having to become prompt engineering experts themselves.
 
@@ -75,7 +75,7 @@ Use the 'edit_document' tool to edit the document. After the document has been r
 
 Once you've defined your prompt, you can test it using the MCP Inspector. Navigate to the Prompts tab, select your prompt, and provide the required parameters.
 
-![](https://academy.claude.com/assets/media/7d2a3d6ba11961b48edb0000edda0417189a610aa968941dc0e9ccdc0d12ab7e.png)
+![MCP Inspector Prompts tab: the "format" prompt with doc_id set to outlook.pdf, and the generated user message.](https://academy.claude.com/assets/media/7d2a3d6ba11961b48edb0000edda0417189a610aa968941dc0e9ccdc0d12ab7e.png)
 
 The inspector will show you the generated messages that would be sent to Claude. You can verify that parameter interpolation works correctly and that your prompt contains all the necessary instructions.
 

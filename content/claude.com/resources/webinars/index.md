@@ -14,6 +14,12 @@ Live and recorded sessions with Anthropic and customer teams — demos, deep div
 
 Join the teams behind the program for a walkthrough of the Cyber Verification Program.](https://claude.com/resources/webinars/inside-the-cyber-verification-program)
 
+[WebinarUpcoming | Oct 29, 2026
+
+### Scaling AI Across the Portfolio: Anthropic and AWS for Private Equity
+
+AWS and Anthropic on how PE firms scale Claude across portfolios, what it costs, and how to get started.](https://claude.com/resources/webinars/scaling-ai-across-the-portfolio-anthropic-and-aws-for-private-equity)
+
 [WebinarUpcoming | Oct 21, 2026
 
 ### Tokenomics on AWS: Control and optimize your Claude spend
@@ -34,12 +40,6 @@ Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teamm
 
 Claude adoption in Microsoft Foundry is moving from individual developers to entire organizations. Leaders want to know who's…](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)
 
-[WebinarUpcoming | Oct 13, 2026
-
-### Measuring AI Fluency at Your Organization
-
-Seat counts don't show if AI is working. Kristen Swanson shares how to measure AI Fluency beyond usage, without a huge lift.](https://claude.com/resources/webinars/measuring-ai-fluency-at-your-organization)
-
 [WebinarUpcoming | Oct 14, 2026
 
 ### Inside the Cyber Verification Program: Tiers, Migration, and Best Practices
@@ -50,23 +50,13 @@ Featured resource 1 of 5: Inside the Cyber Verification Program: Tiers, Migratio
 
 Advanced filters
 
-Showing 26 of 110 resources
+Showing 25 of 111 resources
 
 ## Upcoming webinars
 
 Register for the live sessions with Anthropic and partner teams — bring your questions and get answers in real time.
 
-[WebinarUpcoming | Oct 8, 2026
-
-### Claude Corps Cohort 2: How to Become a Host Organization
-
-A lot has changed since you applied to host Claude Corps fellows, and we want you to have what you need for what comes next.…](https://claude.com/resources/webinars/claude-corps-cohort-2-how-to-become-a-host-organization)[WebinarUpcoming | Oct 8, 2026
-
-### AI as an Engineering Leadership Multiplier
-
-Most conversations about AI in engineering focus on how the IC role is changing, but the engineering leadership role is adapting…
-
-Claude Platform](https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier)[WebinarUpcoming | Oct 13, 2026
+[WebinarUpcoming | Oct 13, 2026
 
 ### DRI-ing Your Career
 
@@ -94,7 +84,11 @@ Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teamm
 
 ### Tokenomics on AWS: Control and optimize your Claude spend
 
-Learn how to control and optimize Claude spend on AWS, from admin controls and default models to cost per task for API agents.](https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend)
+Learn how to control and optimize Claude spend on AWS, from admin controls and default models to cost per task for API agents.](https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend)[WebinarUpcoming | Oct 29, 2026
+
+### Scaling AI Across the Portfolio: Anthropic and AWS for Private Equity
+
+AWS and Anthropic on how PE firms scale Claude across portfolios, what it costs, and how to get started.](https://claude.com/resources/webinars/scaling-ai-across-the-portfolio-anthropic-and-aws-for-private-equity)
 
 ## Recurring webinars
 
@@ -148,7 +142,17 @@ Claude Code](https://claude.com/resources/webinars/claude-code-foundations-serie
 
 Missed the session? Stream past sessions anytime and catch up at your own pace.
 
-[WebinarOn demand
+[WebinarOct 8, 2026
+
+### AI as an Engineering Leadership Multiplier
+
+Most conversations about AI in engineering focus on how the IC role is changing, but the engineering leadership role is adapting…
+
+Claude Platform](https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier)[WebinarOct 8, 2026
+
+### Claude Corps Cohort 2: How to Become a Host Organization
+
+A lot has changed since you applied to host Claude Corps fellows, and we want you to have what you need for what comes next.…](https://claude.com/resources/webinars/claude-corps-cohort-2-how-to-become-a-host-organization)[WebinarOn demand
 
 ### Building with the Claude 5.5 Family: Choosing the Right Model and Getting More from Every Token
 
@@ -200,21 +204,7 @@ Claude apps](https://claude.com/resources/webinars/opus-5-5-for-work)[WebinarOn 
 
 Most modernization programs stall before the new system ships. Legacy code is poorly documented, the people who wrote it have…
 
-Claude Code](https://claude.com/resources/webinars/modernizing-legacy-code-with-claude-code)[WebinarOn demand
-
-### How to Roadmap with Decisions Rather Than Dates
-
-Many of the "best practices" of engineering leadership have been built around managing dates, timelines and priorities. However,…
-
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/9a769404-8a44-4f91-a54a-04769f055854)[WebinarOn demand
-
-### Enterprise Readiness: A CISO's Guide to Deploying Claude
-
-The best security teams don't block AI. They lead the rollout, with full visibility into who uses it, what data it touches, and…
-
-Claude Enterprise
-
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/b863dfc3-1f1d-4cb4-86af-fab76bc6e2c0)
+Claude Code](https://claude.com/resources/webinars/modernizing-legacy-code-with-claude-code)
 
 View more
 

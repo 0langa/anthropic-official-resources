@@ -4,13 +4,13 @@ Lesson 41 of 65 · Claude with Amazon BedrockContextual retrieval
 
 Lesson 419 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fcontextual-retrieval)
 
 Contextual retrieval is a technique that improves RAG pipeline accuracy by solving a fundamental problem: when you split a document into chunks, each chunk loses its connection to the broader document context.
 
-![](https://academy.claude.com/assets/media/e3b6f9ccb54e4c38966ff1e694675a8d2227d273053cbaaffa2810417dd87faa.png)
+![Text chunks, two citing incident INC-2023-Q4-011, and the source document feed a prompt asking Claude to situate the chunk.](https://academy.claude.com/assets/media/e3b6f9ccb54e4c38966ff1e694675a8d2227d273053cbaaffa2810417dd87faa.png)
 
 The basic idea is simple. After chunking your source document, you ask Claude to add context to each chunk before storing it in your retriever database. This pre-processing step helps "situate" each chunk within the larger document.
 
@@ -39,7 +39,7 @@ Answer only with the succinct context and nothing else.
 
 Claude might generate context like: "This section is from a larger report about a cross-discipline group. It includes mention of INC-2023-04-011, which is also mentioned in the Cybersecurity Analysis section."
 
-![](https://academy.claude.com/assets/media/7f95046530589905e2e8e53619707a534e4b0c553c1712984a966f50018ac0e7.png)
+![Claude's context snippet plus an input chunk headed "Section 1: Software Engineering" merge into one contextualized chunk.](https://academy.claude.com/assets/media/7f95046530589905e2e8e53619707a534e4b0c553c1712984a966f50018ac0e7.png)
 
 You then combine this generated context with the original chunk text to create a "contextualized chunk" that gets stored in your vector and BM25 indexes.
 
@@ -47,7 +47,7 @@ You then combine this generated context with the original chunk text to create a
 
 If your source document is too large to fit in a single prompt, you can provide a reduced set of context instead of the entire document.
 
-![](https://academy.claude.com/assets/media/b49c017cccefae15428c772611ccadc13f896136a87b9f76dc976919ff761f88.png)
+![Nine chunks of a document, with only chunks 1 to 3 and 7 and 8 given as context for the target chunk 9, described below.](https://academy.claude.com/assets/media/b49c017cccefae15428c772611ccadc13f896136a87b9f76dc976919ff761f88.png)
 
 For any given chunk you're contextualizing, include:
 

@@ -111,31 +111,33 @@ A ticket can be assigned to a person or to a coding agent, and because the cycle
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleSep 28, 2026
+[ArticleOct 8, 2026
 
-### A new approach to agent security with Claude Managed Agents and NVIDIA
+### Building effective agent automations
 
-Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
 
-Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
+Claude Platform
 
-### Reducing cost and improving performance with Claude Platform
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 8, 2026
 
-Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
+### How Block orchestrates Claude Fable across thousands of pull requests
 
-Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
+Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
 
-### A guide to the anatomy of effective commerce agents
+Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)[ArticleOct 7, 2026
 
-The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
+### Automating eval design and hillclimbing with Claude
 
-Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)[ArticleAug 26, 2026
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-### How Warp builds self-improving agents on Claude
+Claude Platform
 
-Learn how Warp devised a simple development pattern that anyone can use to create self-improving agents.
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
 
-Claude Platform](https://claude.com/resources/articles/how-warp-builds-self-improving-agents-on-claude)
+### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
+
+Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)
 
 ## Transform how your organization operates with Claude
 

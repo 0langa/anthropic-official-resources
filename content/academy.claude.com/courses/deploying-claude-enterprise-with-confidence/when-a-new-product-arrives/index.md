@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Walk the three questions you re-run for the arrival of any new Claude surface
 - Answer the three questions on a surface you don’t use yet
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fwhen-a-new-product-arrives)
 

@@ -2,7 +2,7 @@
 
 Using the ICD-10 Connector in Claude
 
-5 minClaude.ai
+5 minClaude
 
 [Open Claude](https://claude.ai/new)
 

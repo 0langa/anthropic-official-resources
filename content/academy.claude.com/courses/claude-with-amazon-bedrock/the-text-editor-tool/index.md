@@ -4,7 +4,7 @@ Lesson 32 of 65 · Claude with Amazon BedrockThe text editor tool
 
 Lesson 327 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fthe-text-editor-tool)
 
@@ -26,7 +26,7 @@ This tool gives Claude the ability to work with files and directories like a sof
 
 The Text Editor Tool is different from custom tools because only the JSON schema is built into Claude. You still need to provide the actual implementation.
 
-![](https://academy.claude.com/assets/media/bdd9c2ad3349a4645fdba1babd3527ea810f72377369720f6ca911b571b7a946.png)
+![Each custom tool pairs a JSON schema with a function: add_duration_to_datetime, get_current_datetime, set_reminder.](https://academy.claude.com/assets/media/bdd9c2ad3349a4645fdba1babd3527ea810f72377369720f6ca911b571b7a946.png)
 
 When you create custom tools, you write both sides - the schema that tells Claude about the tool, and the function that actually does the work. With the Text Editor Tool, Claude already has the schema, but you must write functions to handle Claude's requests to view, edit, or create files.
 
@@ -52,7 +52,7 @@ You'll also need to modify your chat function to accept the text editor paramete
 
 When Claude wants to use the text editor, it sends back tool use requests with specific commands:
 
-![](https://academy.claude.com/assets/media/613a033d723bd2107764f31fbeb9d9f34483a57e89df4624ec31c0bdd1fa5ef2.png)
+![Notebook cell where run_tool handles str_replace_editor commands "view", "str_replace", "create", "insert" and "undo_edit".](https://academy.claude.com/assets/media/613a033d723bd2107764f31fbeb9d9f34483a57e89df4624ec31c0bdd1fa5ef2.png)
 
 Your implementation needs to handle all four commands: view, str\_replace, create, and insert. Here's the basic structure for processing these requests:
 
@@ -77,7 +77,7 @@ def run_tool(tool_name, tool_input):
 
 Here's how the tool works in practice. When you ask Claude to "Write a one sentence description of the code in the ./main.py file", this happens:
 
-![](https://academy.claude.com/assets/media/a78ad2fdb4336bd24170a56c9f156b5817000b4ac5f79b5a7fbc0e5059ce8b27.png)
+![ToolUse, ToolResult and Text parts: Claude gets a hello function printing "hi there" and replies it prints a greeting.](https://academy.claude.com/assets/media/a78ad2fdb4336bd24170a56c9f156b5817000b4ac5f79b5a7fbc0e5059ce8b27.png)
 
 Claude sends a tool use request with `{"command": "view", "path": "./main.py"}`. Your server uses the TextEditorTool class to read the file and returns the contents. Claude then provides its analysis based on the code it read.
 

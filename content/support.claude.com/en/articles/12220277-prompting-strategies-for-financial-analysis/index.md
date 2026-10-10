@@ -2,7 +2,7 @@
 
 Learn how to write effective prompts for Claude's financial analysis capabilities focusing on clarity, specificity, and data management.
 
-15 minClaude.ai
+15 minClaude
 
 [Open Claude](https://claude.ai/new)
 

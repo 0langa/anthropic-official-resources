@@ -10,7 +10,7 @@ Jobs that involve computer programming are a small sector of the modern economy,
 
 In our [previous Economic Index research](https://www.anthropic.com/news/the-anthropic-economic-index), we found very disproportionate use of Claude by US workers in computer-related occupations: that is, there were many more conversations with Claude about computer-related tasks than one would predict from the number of people working in relevant jobs. It’s the same in [the educational context](https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude): Computer Science degrees—which involve large amounts of coding—show highly disproportionate AI use.
 
-To understand these changes in more detail, we conducted an analysis of 500,000 coding-related interactions across [Claude.ai](http://claude.ai/redirect/website.v1.25fa3cca-ed98-4838-8e95-e4cb06f55e83) (the “default” way that most people interact with Claude) and [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) (our new specialist coding “agent” that can independently accomplish chains of complex tasks using a variety of digital tools).
+To understand these changes in more detail, we conducted an analysis of 500,000 coding-related interactions across [Claude.ai](http://claude.ai/redirect/website.v1.1ab9dc61-392d-46b7-8de1-4a942d8b2d89) (the “default” way that most people interact with Claude) and [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) (our new specialist coding “agent” that can independently accomplish chains of complex tasks using a variety of digital tools).
 
 We found three key patterns:
 
@@ -116,6 +116,12 @@ Compared to use cases that don’t involve software, software development is mor
 
 ## Related content
 
+### Investigating unintended model actions in our evaluations and internal use
+
+This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude.
+
+[Read more](https://www.anthropic.com/research/investigating-unintended-model-actions)
+
 ### The missing map of the sky
 
 Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.
@@ -127,9 +133,3 @@ Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at
 We’re making available OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem that’s informed by our experience using Claude to find vulnerabilities during Project Glasswing.
 
 [Read more](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source)
-
-### Claude-shaped science
-
-Guest author Prof. Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems: ones best suited to the capabilities of the current generation of LLM tools. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.
-
-[Read more](https://www.anthropic.com/research/claude-shaped-science)

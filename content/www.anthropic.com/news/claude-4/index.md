@@ -59,7 +59,7 @@ Beyond the IDE, we're releasing an extensible Claude Code SDK, so you can build 
 
 These models are a large step toward the virtual collaborator—maintaining full context, sustaining focus on longer projects, and driving transformational impact. They come with extensive testing and evaluation to minimize risk and maximize safety, including [implementing measures](https://www.anthropic.com/news/activating-asl3-protections) for higher AI Safety Levels like ASL-3.
 
-We're excited to see what you'll create. Get started today on [Claude](https://claude.ai/redirect/website.v1.31466ae4-c872-4b66-b2b9-5de75a4e13b2), [Claude Code](https://www.anthropic.com/claude-code), or the platform of your choice.
+We're excited to see what you'll create. Get started today on [Claude](https://claude.ai/redirect/website.v1.e6bde1b5-2053-46ab-acfd-28327852aab4), [Claude Code](https://www.anthropic.com/claude-code), or the platform of your choice.
 
 *As always, your [feedback](mailto: feedback@anthropic.com) helps us improve.*
 
@@ -101,20 +101,20 @@ This results in a score of 79.4% and 80.2% for Opus 4 and Sonnet 4 respectively.
 
 ## Related content
 
-### Expanding the Cyber Verification Program
+### 2026 Usage Policy update
 
-We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.
+We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
 
-[Read more](https://www.anthropic.com/news/cyber-verification-program)
+[Read more](https://www.anthropic.com/news/2026-usage-policy-update)
 
-### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
+### Building on our commitment to American scientific discovery
 
-Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
+Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
 
-[Read more](https://www.anthropic.com/news/claude-frontier-academy)
+[Read more](https://www.anthropic.com/news/genesis-mission-commitment)
 
-### Barclays scales Claude to upgrade operations and improve client experience
+### Introducing the Anthropic Cyber Mission
 
-Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
+We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.
 
-[Read more](https://www.anthropic.com/news/barclays-scales-claude)
+[Read more](https://www.anthropic.com/news/anthropic-cyber-mission)

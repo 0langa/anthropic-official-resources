@@ -1,4 +1,4 @@
-Oct 8, 2026 — 12:00 – 1:00 PM PT
+On demand
 
 # AI as an Engineering Leadership Multiplier
 
@@ -8,7 +8,7 @@ Most conversations about AI in engineering focus on how the IC role is changing,
 
 Register for the webinar
 
-Fill out the form below to reserve your seat.
+Fill out the form below to watch on demand.
 
 ## Featured speakers
 

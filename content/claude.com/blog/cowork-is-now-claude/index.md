@@ -10,13 +10,15 @@ You don’t have to choose where a task goes. Claude does more of the work.
 
 Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. It’s rolling out on Pro and Max plans over the next few weeks, with more plans to follow.
 
-What Claude makes doesn’t need its own place either. Claude Docs and Claude Slides are new today, and [Claude Design](https://claude.com/product/design) now works inside your conversations too. Ask for a document, and you and Claude write it together. Ask for a presentation, and Claude drafts the slides. You can edit directly, present straight from Claude, or download as PowerPoint or PDF. All three are in beta on paid plans, and Enterprise admins choose when to turn them on. If you use Claude Design on its own, it keeps working as before.
+What Claude makes doesn’t need its own place either. Claude Docs and Claude Slides are new today, and [Claude Design (opens in new tab)](https://claude.com/product/design) now works inside your conversations too. Ask for a document, and you and Claude write it together. Ask for a presentation, and Claude drafts the slides. You can edit directly, present straight from Claude, or download as PowerPoint or PDF. All three are in beta on paid plans, and Enterprise admins choose when to turn them on. If you use Claude Design on its own, it keeps working as before.
 
 Embedded media: https://www.youtube-nocookie.com/embed/qMUf-jwSpMo?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 We built Cowork as a separate place for bigger work, and Design for visual work. People used both, and told us the frustrating part was deciding where a task belonged. What they’d started in one also didn’t carry into the other. So we stopped making you choose. Claude can now figure out what a task needs, so what Cowork and Design can do is available from any conversation, with the context, skills, and connectors you already have.
 
-> ““I could have Claude pull up [my legal research database], and it would pull all the cases, read them, figure out which other cases I might need, download them, and store them in a folder for my personal review.” - Andrew Keller, Senior Economist”
+> “I could have Claude pull up [my legal research database], and it would pull all the cases, read them, figure out which other cases I might need, download them, and store them in a folder for my personal review.”
+
+Andrew KellerSenior Economist
 
 ## What it looks like
 
@@ -40,29 +42,27 @@ The full list of capabilities is in the [Help Center](https://support.claude.com
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 1, 2026
+[ArticleOct 8, 2026
 
-### Customize Claude Code with mods
+### Build live dashboards and animate explainers with Claude
 
-Change how Claude Code behaves and looks with a few lines of TypeScript.
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
 
-Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 7, 2026
 
-### Claude for Government is now generally available
+### Claude Haiku 5.5
 
-Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
+Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
 
-### Build plugins for Claude
+(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)[ArticleOct 6, 2026
 
-You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
+### Claude now works with Google Docs, Sheets, and Slides
 
-Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
+Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta).
 
-### Claude Tag now supports personal connectors in channels
+Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)[ArticleOct 6, 2026
 
-Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
-
-Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
+### We’re expanding the Claude Startups program to help founders build](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)
 
 ## Transform how your organization operates with Claude
 

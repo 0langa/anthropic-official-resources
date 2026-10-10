@@ -4,7 +4,7 @@ Lesson 41 of 66 · Claude with Google Cloud's Vertex AIReranking results
 
 Lesson 4110 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Freranking-results)
 
@@ -16,7 +16,7 @@ This is where re-ranking comes in - a post-processing technique that can signifi
 
 Re-ranking adds an extra step after your hybrid search process. Instead of just returning the merged results from your vector and BM25 indexes, you pass those results through an LLM for intelligent reordering.
 
-![](https://academy.claude.com/assets/media/b552a90bd170afa738c7ecd5cf20ef671d579705fa948df0c83d999e20c2adac.png)
+![Re-ranking flow: VectorIndex and BM25Index results merge, the reranker prompts Claude, and Claude returns a re-ordered list.](https://academy.claude.com/assets/media/b552a90bd170afa738c7ecd5cf20ef671d579705fa948df0c83d999e20c2adac.png)
 
 The process is straightforward:
 
@@ -57,7 +57,7 @@ Respond in the following format:
 
 A key optimization is using document IDs instead of asking Claude to return full text chunks. If you asked Claude to return the complete text of each relevant document, you'd waste time waiting for it to copy large amounts of text.
 
-![](https://academy.claude.com/assets/media/457382fdfe7e06e2f634616f9282ae5df52f77719206e833b9b59054751206bc.png)
+![Documents tagged with IDs "ab84", "51n3" and "1p5g" go to Claude, which returns the list "1p5g", "51n3", "ab83".](https://academy.claude.com/assets/media/457382fdfe7e06e2f634616f9282ae5df52f77719206e833b9b59054751206bc.png)
 
 Instead, assign each text chunk a unique ID ahead of time, then ask Claude to return just those IDs in the preferred order. This makes the re-ranking process much faster while still giving you the reordered results you need.
 

@@ -2,7 +2,7 @@
 
 Set up and use Claude's PubMed integration for access to millions of biomedical research articles and clinical studies.
 
-25 minClaude.ai
+25 minClaude
 
 [Open Claude](https://claude.ai/new)
 

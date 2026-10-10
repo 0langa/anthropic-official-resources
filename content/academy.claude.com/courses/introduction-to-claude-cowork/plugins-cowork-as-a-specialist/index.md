@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Recognize the two shapes plugins take
 - Install or customize a plugin against a real piece of your work
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-cowork%2Fplugins-cowork-as-a-specialist)
 
@@ -112,11 +112,6 @@ The skill starts a short interview. Claude asks about the type of work you do, t
 You've now made Cowork yours for one piece of your work. The next module is about extending Cowork beyond the desktop — into your browser, and into the M365 apps where a lot of the work lands.
 
 Was this helpful?
-
-
-## Transcript
-
-This lesson's video contains no spoken narration (screen demonstration with background audio only).
 
 
 ## Experiment Readout

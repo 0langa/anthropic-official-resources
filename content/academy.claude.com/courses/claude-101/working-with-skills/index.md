@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Identify Anthropic's built-in Skills for document creation
 - Enable and manage Skills
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-101%2Fworking-with-skills)
 

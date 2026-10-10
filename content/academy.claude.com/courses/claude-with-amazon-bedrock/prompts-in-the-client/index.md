@@ -4,7 +4,7 @@ Lesson 57 of 65 · Claude with Amazon BedrockPrompts in the client
 
 Lesson 577 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fprompts-in-the-client)
 
@@ -46,13 +46,13 @@ When you run the client and type a forward slash, you'll see available prompts a
 - Claude uses available tools to fetch the document content
 - Claude responds with the reformatted result
 
-![](https://academy.claude.com/assets/media/24f98aa7f06205838be82bfe92600a6964090589c0811bd7d5eced9f00b4ef01.png)
+![Typing a forward slash in the client lists "/format", which rewrites the contents of the document in Markdown format.](https://academy.claude.com/assets/media/24f98aa7f06205838be82bfe92600a6964090589c0811bd7d5eced9f00b4ef01.png)
 
 ## How Prompts Work[](https://academy.claude.com/courses/claude-with-amazon-bedrock/prompts-in-the-client)
 
 Prompts define a set of user and assistant messages that can be used by the client. These prompts should be high quality, well-tested, and relevant to the overall purpose of your MCP server.
 
-![](https://academy.claude.com/assets/media/746dff951e80556b72b3de46baca7a2ebc4171e5921b610ccc0bea3343f653c3.png)
+![MCP server code: @mcp.prompt names a "format" prompt that rewrites a document in Markdown, with a format_document function.](https://academy.claude.com/assets/media/746dff951e80556b72b3de46baca7a2ebc4171e5921b610ccc0bea3343f653c3.png)
 
 The workflow is:
 

@@ -4,13 +4,13 @@ Lesson 29 of 65 · Claude with Amazon BedrockBatch tool use
 
 Lesson 299 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fbatch-tool-use)
 
 Claude can natively run multiple tools at the same time, but some versions don't take advantage of this as much as you might wish. You can greatly increase the chances of Claude making multiple tool calls in a single message by implementing a batch tool.
 
-![](https://academy.claude.com/assets/media/76c7f6ecd92fc5f613252ceab2d351da5b581cce6b962f365ad7879945129897.png)
+![Claude returns one assistant message with two ToolUse parts, both add_duration: March 12th + 50 days and + 100 days.](https://academy.claude.com/assets/media/76c7f6ecd92fc5f613252ceab2d351da5b581cce6b962f365ad7879945129897.png)
 
 When Claude sends back tool use parts in a message, there can be more than one tool request in a single response. For example, if you ask "What is March 12th, 2025 + 50 days? Also, what is March 12th, 2025 + 100 days?", Claude could theoretically send back two separate tool use parts - one for each calculation. These operations are completely parallelizable since they don't depend on each other.
 

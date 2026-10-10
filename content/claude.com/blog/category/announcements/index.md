@@ -8,33 +8,13 @@ Unsubscribe at any time.
 
 News, announcements, and stories from Anthropic about Claude and the people building with it.
 
-[ArticleOct 7, 2026
+[ArticleOct 8, 2026
 
-### Automating eval design and hillclimbing with Claude
+### How Block orchestrates Claude Fable across thousands of pull requests
 
-Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
+Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
 
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
-
-[ArticleOct 6, 2026
-
-### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
-
-Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)
-
-[ArticleOct 6, 2026
-
-### Claude now works with Google Docs, Sheets, and Slides
-
-Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta).
-
-Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)
-
-[ArticleOct 6, 2026
-
-### We’re expanding the Claude Startups program to help founders build](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)
+Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)
 
 [ArticleOct 7, 2026
 
@@ -54,13 +34,45 @@ Claude Platform
 
 (opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
 
-Featured resource 1 of 5: Automating eval design and hillclimbing with Claude
+[ArticleOct 8, 2026
+
+### Build live dashboards and animate explainers with Claude
+
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
+
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
+
+[ArticleOct 8, 2026
+
+### Building effective agent automations
+
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
+
+[ArticleOct 8, 2026
+
+### How Block orchestrates Claude Fable across thousands of pull requests
+
+Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
+
+Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)
+
+Featured resource 1 of 5: How Block orchestrates Claude Fable across thousands of pull requests
 
 Advanced filters(1)
 
-Showing 12 of 139 resources
+Showing 12 of 140 resources
 
-[ArticleOct 7, 2026
+[ArticleOct 8, 2026
+
+### Build live dashboards and animate explainers with Claude
+
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
+
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 7, 2026
 
 ### Claude Haiku 5.5
 
@@ -90,7 +102,9 @@ Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 
 
 ### Claude for Government is now generally available
 
-Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 28, 2026
+Claude Code CLI and Claude for Microsoft 365 also now available in early access.
+
+Claude Code](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 28, 2026
 
 ### Claude Sonnet 5.5
 
@@ -122,12 +136,6 @@ Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-person
 
 Find the tools and services to do more with Claude, or list what you've built to grow alongside Claude customers.
 
-Claude Platform](https://claude.com/resources/articles/claude-marketplace)[ArticleSep 23, 2026
-
-### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
-
-CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
-
-Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)
+Claude Platform](https://claude.com/resources/articles/claude-marketplace)
 
 View more

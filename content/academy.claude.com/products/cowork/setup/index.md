@@ -1,12 +1,12 @@
 # Set up and govern Cowork
 
-The rollout, end to end — readable by your whole rollout team.
+Everything your rollout team needs to set up, govern, and roll out Cowork.
 
 ## Plan your rollout
 
 [## Setup checklist
 
-Get the fundamentals in place so your team can start using it.
+Get the fundamentals in place so your team can start using Cowork. Your progress saves in this browser.
 
 0 of 18 complete
 
@@ -24,11 +24,11 @@ Sequence training, office hours, and self-serve resources for each cohort.
 
 Plan enablement](https://academy.claude.com/tutorials/scaling-workflows-with-claude-cowork-at-your-organization)[### Share Anthropic courses
 
-Self-paced courses your team can take on their own time. Send the catalog alongside your launch comms so everyone has a place to keep learning.
+Self-paced courses your team can take on their own time. Send the catalog with your launch announcement so everyone has a place to keep learning.
 
 Browse courses](https://academy.claude.com/all)[### Explore AI Fluency behaviors
 
-The 4 Ds — Delegation, Description, Discernment, Diligence. What fluent Cowork use looks like, so you can coach toward it.
+The 4 Ds: Delegation, Description, Discernment, and Diligence. What fluent Cowork use looks like, so you can coach toward it.
 
 Read the framework](https://academy.claude.com/tutorials/the-4-ds-of-ai-fluency-behavioral-indicators)
 
@@ -47,29 +47,29 @@ Read the framework](https://academy.claude.com/tutorials/the-4-ds-of-ai-fluen
 
 ## Reference
 
-- [Deploy Claude Desktop for macOS Help center
+- [Deploy Claude for Mac Help Center
 
-  Help center
+  Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos)
-- [Deploy Claude Desktop for Windows Help center
+- [Deploy Claude for Windows Help Center
 
-  Help center
+  Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows)
-- [Restrict access with IP allowlisting Help center
+- [Restrict access with IP allowlisting Help Center
 
-  Help center
+  Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/13200993-restrict-access-to-claude-with-ip-allowlisting)
-- [Enforce tenant restrictions Help center
+- [Enforce tenant restrictions Help Center
 
-  Help center
+  Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/13198485-enforce-network-level-access-control-with-tenant-restrictions)
-- [Manage group spend limits Help center
+- [Manage group spend limits Help Center
 
-  Help center
+  Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/13799932-manage-groups-and-group-spend-limits-on-enterprise-plans)
 - [Monitor usage Guide
@@ -77,12 +77,12 @@ Read the framework](https://academy.claude.com/tutorials/the-4-ds-of-ai-fluen
   Guide
 
    (opens in new tab)](https://claude.com/docs/cowork/monitoring)
-- [Set organization preferences Help center
+- [Set organization preferences Help Center
 
-  Help center
+  Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/14546867-set-organization-preferences)
-- [Cowork on 3P docs Guide
+- [Cowork on third-party platforms Guide
 
   Guide
 

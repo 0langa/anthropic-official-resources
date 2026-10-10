@@ -16,7 +16,7 @@ By helping scientists access and increase their usage of Claude through subscrip
 
 ### **Ways to access Claude**
 
-To register for our Claude team plan for scientists, please [complete the verification form here](http://claude.ai/redirect/website.v1.b5e58d68-7379-4e59-9fbd-51809fba764a/labs-verification/attestation). You must be a principal investigator or equivalent at an academic or nonprofit research institution to qualify; once verified, you can add the researchers in your lab to your plan.
+To register for our Claude team plan for scientists, please [complete the verification form here](http://claude.ai/redirect/website.v1.689354e8-1a3b-4404-93e1-6d7f9e111ae6/labs-verification/attestation). You must be a principal investigator or equivalent at an academic or nonprofit research institution to qualify; once verified, you can add the researchers in your lab to your plan.
 
 As your lab makes use of your allotted credits and requires more usage than standard or premium plans provide, you can [apply to our AI for Science program](https://docs.google.com/forms/d/e/1FAIpQLSfwDGfVg2lHJ0cc0oF_ilEnjvr_r4_paYi7VLlr5cLNXASdvA/viewform?usp=dialog) for up to $50,000 in credits per project. Any researcher is eligible to apply.
 

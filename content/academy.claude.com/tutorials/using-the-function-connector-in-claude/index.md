@@ -2,7 +2,7 @@
 
 Set up and use the Function integration with Claude to securely view lab test results, ask health questions, and get nutrition plans.
 
-10 minClaude.ai
+10 minClaude
 
 [Open Claude](https://claude.ai/new)
 

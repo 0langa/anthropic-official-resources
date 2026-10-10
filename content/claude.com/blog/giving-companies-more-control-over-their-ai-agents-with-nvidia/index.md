@@ -52,32 +52,27 @@ Explore our [docs (opens in new tab)](https://platform.claude.com/docs/en/manage
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleSep 29, 2026
+[ArticleOct 8, 2026
 
-### Agents you can coach: how Asana builds human-agent teams with Claude
+### Build live dashboards and animate explainers with Claude
 
-Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
-‍
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
 
-Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 8, 2026
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 7, 2026
 
-### Reducing cost and improving performance with Claude Platform
+### Claude Haiku 5.5
 
-Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
+Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
 
-Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
+(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)[ArticleOct 6, 2026
 
-### A guide to the anatomy of effective commerce agents
+### Claude now works with Google Docs, Sheets, and Slides
 
-The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
+Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta).
 
-Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)[ArticleAug 26, 2026
+Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)[ArticleOct 6, 2026
 
-### How Warp builds self-improving agents on Claude
-
-Learn how Warp devised a simple development pattern that anyone can use to create self-improving agents.
-
-Claude Platform](https://claude.com/resources/articles/how-warp-builds-self-improving-agents-on-claude)
+### We’re expanding the Claude Startups program to help founders build](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)
 
 ## Transform how your organization operates with Claude
 

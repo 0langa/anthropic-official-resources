@@ -4,7 +4,7 @@ Lesson 6 of 66 · Claude with Google Cloud's Vertex AITemperature
 
 Lesson 67 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Ftemperature)
 
@@ -18,17 +18,17 @@ Before diving into temperature, it's helpful to understand Claude's text generat
 - **Prediction** - Calculating probabilities for possible next words
 - **Sampling** - Choosing a token based on those probabilities
 
-![](https://academy.claude.com/assets/media/d88e34ddc8dede2219a3b48dd70c0246d1d57f9421edbf5508b3ec17ca5596be.png)
+![Diagram of next token probabilities: "about" 0.3, "would" 0.2, "of", "is" and "when" 0.1 each, "makes" and "we" 0.05 each.](https://academy.claude.com/assets/media/d88e34ddc8dede2219a3b48dd70c0246d1d57f9421edbf5508b3ec17ca5596be.png)
 
 In this example, Claude might assign a 30% probability to "about", 20% to "would", 10% to "of", and so on. The model then selects one token and repeats this process to build complete responses.
 
-![](https://academy.claude.com/assets/media/066db96fb6fbe8c816070295886b62a7f4bfbcec4823836371de30b427e32f8d.png)
+![The token list turned into a bar chart: "about" 30%, "would" 20%, "of", "is" and "when" 10% each, "makes" and "we" 5%.](https://academy.claude.com/assets/media/066db96fb6fbe8c816070295886b62a7f4bfbcec4823836371de30b427e32f8d.png)
 
 ## What Temperature Does[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/temperature)
 
 Temperature is a decimal value between 0 and 1 that directly influences these selection probabilities. It's like adjusting the "creativity dial" on Claude's responses.
 
-![](https://academy.claude.com/assets/media/1345e847362297d980051e8fa1a09f75074f81aa372169ed04e5e6bbd1aa2c07.png)
+![At low temperature "about" is 100% and the rest 0%; at high temperature the seven tokens get 23, 18, 15, 12, 12, 11 and 9%.](https://academy.claude.com/assets/media/1345e847362297d980051e8fa1a09f75074f81aa372169ed04e5e6bbd1aa2c07.png)
 
 At low temperatures (near 0), Claude becomes very deterministic - it almost always picks the highest probability token. At high temperatures (near 1), Claude distributes probability more evenly across options, leading to more varied and creative outputs.
 
@@ -36,7 +36,7 @@ At low temperatures (near 0), Claude becomes very deterministic - it almost alwa
 
 Different tasks call for different temperature settings:
 
-![](https://academy.claude.com/assets/media/a7a05b01e4202fe72e12d28d91354ffae30d7343e648ef450cb8015e0418a8c9.png)
+![Low, medium and high temperature ranges and their uses, listed below, with an arrow from "Less creative" to "More creative".](https://academy.claude.com/assets/media/a7a05b01e4202fe72e12d28d91354ffae30d7343e648ef450cb8015e0418a8c9.png)
 
 ### Low Temperature (0.0 - 0.3)[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/temperature)
 

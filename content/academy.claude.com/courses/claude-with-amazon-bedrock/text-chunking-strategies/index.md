@@ -4,25 +4,25 @@ Lesson 34 of 65 · Claude with Amazon BedrockText chunking strategies
 
 Lesson 3410 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Ftext-chunking-strategies)
 
 Text chunking is one of the most critical steps in building a RAG (Retrieval Augmented Generation) pipeline. How you break up your documents directly impacts the quality of your entire system. A poor chunking strategy can lead to irrelevant context being inserted into your prompts, causing your AI to give completely wrong answers.
 
-![](https://academy.claude.com/assets/media/03ad074a9e3f24d799e4ac805037f211eb396dd141c2c6ac59fb2dc9d8b2bd6d.png)
+![One source document, an annual financial report, with an arrow to six boxes labeled "Chunk #1" through "Chunk #6".](https://academy.claude.com/assets/media/03ad074a9e3f24d799e4ac805037f211eb396dd141c2c6ac59fb2dc9d8b2bd6d.png)
 
 Consider this example: you have a document with sections on medical research and software engineering. If you chunk poorly, a user asking "How many bugs did engineers fix this year?" might get information about medical research instead of software engineering, simply because the medical section happened to contain the word "bug" in a different context.
 
-![](https://academy.claude.com/assets/media/0a0f4bb26fa8c6fb5cf0245c1124101e1c0bdcf835cef8d3b045d8c3e069ab5a.png)
+![Output chunks where the medical research section says a "bug" and the software engineering section says "infection vectors".](https://academy.claude.com/assets/media/0a0f4bb26fa8c6fb5cf0245c1124101e1c0bdcf835cef8d3b045d8c3e069ab5a.png)
 
 This demonstrates why chunking strategy matters so much. The goal is to create chunks that maintain semantic coherence and provide useful context when retrieved.
 
-![](https://academy.claude.com/assets/media/a62744c2b485f4fef2941da5905df33efe4b85939c8cc1d2871d48712c8cdabe.png)
+![The user's question and a chunk of the document calling XDR-47 a "bug" go into the prompt's user_question and report tags.](https://academy.claude.com/assets/media/a62744c2b485f4fef2941da5905df33efe4b85939c8cc1d2871d48712c8cdabe.png)
 
 ## Three Main Chunking Strategies[](https://academy.claude.com/courses/claude-with-amazon-bedrock/text-chunking-strategies)
 
-![](https://academy.claude.com/assets/media/6bbe9453171bfc5925e9574162beeba6e2c3d608d06d52bd8c2458edccb71a4a.png)
+![Size-based adds overlap for context, structure-based needs a known structure, semantic-based is costly but more relevant.](https://academy.claude.com/assets/media/6bbe9453171bfc5925e9574162beeba6e2c3d608d06d52bd8c2458edccb71a4a.png)
 
 There are three primary approaches to dividing text into chunks:
 
@@ -34,7 +34,7 @@ There are three primary approaches to dividing text into chunks:
 
 Size-based chunking is the most straightforward approach. You simply divide your document into chunks of roughly equal character or word count. It's easy to implement and works reliably across different document types.
 
-![](https://academy.claude.com/assets/media/35120558617205d6a68e8fc2799d33c104296832d923f4e5d75f378ee25929cd.png)
+![A 325-character document split into 3 chunks of about 108 characters, cutting words in two, such as "signific" then "ant".](https://academy.claude.com/assets/media/35120558617205d6a68e8fc2799d33c104296832d923f4e5d75f378ee25929cd.png)
 
 However, this approach has clear downsides:
 
@@ -42,13 +42,13 @@ However, this approach has clear downsides:
 - Chunks lose important context from surrounding text
 - Related content might be split across multiple chunks
 
-![](https://academy.claude.com/assets/media/fecf35c6b77511dff3a0cecc2efdae1dc26d80de1fb3c5803062e8d43c49ca7b.png)
+![Three size-based chunks cut mid-word: "signific" ends the first, "ant strides" starts the second, and "ng" starts the third.](https://academy.claude.com/assets/media/fecf35c6b77511dff3a0cecc2efdae1dc26d80de1fb3c5803062e8d43c49ca7b.png)
 
 ## Adding Overlap[](https://academy.claude.com/courses/claude-with-amazon-bedrock/text-chunking-strategies)
 
 To address the context problem, you can implement an overlap strategy. Each chunk includes some characters from neighboring chunks, providing additional context and ensuring important information isn't lost at chunk boundaries.
 
-![](https://academy.claude.com/assets/media/46f5d3dc0aaa3c2e1fcbd110dfffc8730112922367b3b5001531d29b3ba0116f.png)
+![Overlap widens a chunk in the source document so the output chunk keeps the whole Section 1 and Section 2 headers.](https://academy.claude.com/assets/media/46f5d3dc0aaa3c2e1fcbd110dfffc8730112922367b3b5001531d29b3ba0116f.png)
 
 While this creates some duplication, the trade-off is usually worth it for the improved context each chunk receives.
 
@@ -56,7 +56,7 @@ While this creates some duplication, the trade-off is usually worth it for the i
 
 When your documents have consistent formatting (like markdown with clear headers), structure-based chunking can produce excellent results. You split on structural elements like headers, creating chunks that align with the document's natural organization.
 
-![](https://academy.claude.com/assets/media/a07a9c97f7bdcfd571945d799a189043804e96751d509e2ec9e6f2e2ad4ab836.png)
+![Source document split at its markdown headers into three chunks: an opening line, Medical Research, and Software Engineering.](https://academy.claude.com/assets/media/a07a9c97f7bdcfd571945d799a189043804e96751d509e2ec9e6f2e2ad4ab836.png)
 
 This works beautifully for well-formatted documents but requires guarantees about document structure. It won't work reliably with plain text files or inconsistently formatted documents.
 

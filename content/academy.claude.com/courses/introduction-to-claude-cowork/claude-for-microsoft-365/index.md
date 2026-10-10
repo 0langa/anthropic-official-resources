@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Move work between the apps with one Claude conversation
 - Decide when to do the work in Cowork versus inside the document
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-cowork%2Fclaude-for-microsoft-365)
 

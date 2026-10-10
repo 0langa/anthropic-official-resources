@@ -196,11 +196,11 @@ DesignAccelerate design workflows — critique, design system management, UX wri
 
 `/ux-copy`Write or review UX copy — microcopy, error messages, empty states, CTAs.
 
-[Run](claude://cowork/new?q=%2Fux-copy)
+[Open in Cowork](claude://cowork/new?q=%2Fux-copy)
 
 `/design-system`Audit, document, or extend your design system.
 
-[Run](claude://cowork/new?q=%2Fdesign-system)
+[Open in Cowork](claude://cowork/new?q=%2Fdesign-system)
 
 Show all 7 skills
 
@@ -234,7 +234,7 @@ Read the design-tokens package so the skill stays in sync with what ships.
 
 [Connect](https://claude.ai/desktop/directory/github)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 
@@ -308,11 +308,11 @@ Make what we've done in this task so far into a skill, or edit the /on-brand ski
 
 ## Make it repeatable[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
-### Make it a live artifact[](https://academy.claude.com/use-cases/brand-guidelines-skill)
+### Share it as an artifact[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
-Guidelines change; the skill should too. Ask Cowork to publish a brand-compliance summary as a live artifact so anyone can see exactly what `/on-brand` enforces today. Re-run the skill (or schedule it) and the page reflects the latest guidelines.
+Guidelines change; the skill should too. Ask Cowork to publish a brand-compliance summary as an artifact so anyone can see exactly what `/on-brand` enforces today. Re-run the skill (or schedule it) and the page reflects the latest guidelines.
 
-Publish a one-page summary of what /on-brand enforces as a live artifact for the whole company.
+Publish a one-page summary of what /on-brand enforces as an artifact for the whole company.
 
 
 

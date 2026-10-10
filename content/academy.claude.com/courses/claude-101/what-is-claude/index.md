@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Describe Claude's core capabilities and how it differs from a simple chatbot
 - Identify the different ways to access Claude (web, desktop, and mobile)
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-101%2Fwhat-is-claude)
 

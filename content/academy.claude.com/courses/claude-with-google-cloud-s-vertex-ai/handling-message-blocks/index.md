@@ -4,7 +4,7 @@ Lesson 25 of 66 · Claude with Google Cloud's Vertex AIHandling message blocks�
 
 Lesson 257 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fhandling-message-blocks)
 
@@ -37,7 +37,7 @@ The `tools` parameter takes a list of JSON schemas that describe the available f
 
 When Claude decides to use a tool, it returns an assistant message with multiple blocks in the content list. This is a significant change from the simple text-only responses you've worked with before.
 
-![](https://academy.claude.com/assets/media/6214bef403068ab7fb0cc1ccf9bb27e7ed7bf1732410990af587fd4c92ac71b1.png)
+![An assistant message's Text Block and ToolUse Block with input date_format "%H:%M:%S"; blocks are also called "parts".](https://academy.claude.com/assets/media/6214bef403068ab7fb0cc1ccf9bb27e7ed7bf1732410990af587fd4c92ac71b1.png)
 
 A multi-block message typically contains:
 
@@ -72,7 +72,7 @@ This preserves both the text block and the tool use block, maintaining the full 
 
 The tool usage process follows this pattern:
 
-![](https://academy.claude.com/assets/media/9ec6ca3a38f9ba8b097b53f928990ae28fa557aea044899a6099222eafc1fef9.png)
+![Notebook cell with add_user_message and add_assistant_message adding "role" and "content" dictionaries, and a chat function.](https://academy.claude.com/assets/media/9ec6ca3a38f9ba8b097b53f928990ae28fa557aea044899a6099222eafc1fef9.png)
 
 1. Send user message with tool schema to Claude
 2. Receive multi-block assistant message (text + tool use)

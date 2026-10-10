@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Write a request Claude can succeed with
 - Verify Claude's output and give feedback that improves its future work
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-tag%2Fwrite-a-request-claude-can-work-with)
 

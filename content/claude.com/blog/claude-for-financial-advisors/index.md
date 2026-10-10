@@ -65,7 +65,7 @@ Here’s what customers and ecosystem partners have told us about working with C
 
 ![zocks](https://assets.claude.com/05a6a0c1132f543d0537102984022c0c90774dde.png)
 
-> “Good financial advice depends on knowing what's going on in a client’s life, not just what's in their accounts,” said Mark Gilbert, CEO and Co-founder of Zocks. “The expanded collaboration between Claude and Zocks brings together data and personal client context that used to be fragmented across sources and systems. Now, every task and analysis through Claude is grounded in a more complete understanding of the client. It also gives enterprise firms greater flexibility to build AI workflows around how their advisors actually work.”
+> “Good financial advice depends on knowing what’s going on in a client’s life, not just what’s in their accounts,” said Mark Gilbert, CEO and Co-founder of Zocks. “The expanded collaboration between Claude and Zocks brings together data and personal client context that used to be fragmented across sources and systems. Now, every task and analysis through Claude is grounded in a more complete understanding of the client. It also gives enterprise firms greater flexibility to build AI workflows around how their advisors actually work.”
 
 Mark Gilbert, CEO and Co-founder
 
@@ -89,31 +89,31 @@ Jaime Magyera, Head of US Wealth & Retirement Businesses
 
 ![Mercer Advisors](https://assets.claude.com/e417bbb81bf909eb4ebe19fe0dee25370dbfd28e.svg)
 
-> “Anthropic builds AI aligned with human values. Mercer Advisors builds family offices aligned with client interests. That shared obsession is core to both firms and anchors our partnership. Claude helps our teams to work seamlessly across clients' financial lives, while judgment and accountability stay with the advisor. That is how AI should work in any profession built on trust.””
+> “Anthropic builds AI aligned with human values. Mercer Advisors builds family offices aligned with client interests. That shared obsession is core to both firms and anchors our partnership. Claude helps our teams to work seamlessly across clients’ financial lives, while judgment and accountability stay with the advisor. That is how AI should work in any profession built on trust.””
 
 Daniel Gourvitch, President
 
 ![Rockefeller Capital Management](https://assets.claude.com/70a6a06de8cab56f6dea00611e665aa99e4d17a4.svg)
 
-> “We are pleased to see Anthropic's continued investment in capabilities tailored to the unique needs of financial advisors. Our collaboration is rooted in a shared belief that technology should support advisors, not replace them, helping them navigate complexity and more efficiently serve clients while keeping human judgment and discretion at the forefront.”
+> “We are pleased to see Anthropic’s continued investment in capabilities tailored to the unique needs of financial advisors. Our collaboration is rooted in a shared belief that technology should support advisors, not replace them, helping them navigate complexity and more efficiently serve clients while keeping human judgment and discretion at the forefront.”
 
 Ashley McCarthy, Chief Operating Officer & Counsel-Managing Director
 
 ![Vanguard](https://assets.claude.com/02f6ce25017d80f975786c571ae223b9da5eb42b.svg)
 
-> “Vanguard is committed to helping advisors spend more time with clients and less time navigating complexity. Our integration with Claude expands access to Vanguard investment solutions, freeing up advisors' time to deliver more personalized service.””
+> “Vanguard is committed to helping advisors spend more time with clients and less time navigating complexity. Our integration with Claude expands access to Vanguard investment solutions, freeing up advisors’ time to deliver more personalized service.””
 
 Sid Ratna, Head of Digital and Analytics, Financial Advisor Services
 
 ![Charles Schwab](https://assets.claude.com/ee30d9d9145114578de5ae6a8bdbf4d06f6b1848.svg)
 
-> “The future of advisor technology will be defined by how well firms can connect trusted data, powerful intelligence, and everyday workflows. Our collaboration with Anthropic reflects Schwab's commitment to helping registered investment advisors (RIAs) leverage innovation within the tools they already use, making it easier to serve clients, scale their practices, and grow with confidence."”
+> “The future of advisor technology will be defined by how well firms can connect trusted data, powerful intelligence, and everyday workflows. Our collaboration with Anthropic reflects Schwab’s commitment to helping registered investment advisors (RIAs) leverage innovation within the tools they already use, making it easier to serve clients, scale their practices, and grow with confidence."”
 
 Jon Beatty, Head of Schwab Advisor Services
 
 ![Ritholtz Wealth Management](https://assets.claude.com/7337a170485b3c8f7db6f39e25cbdb18e35dc6d7.png)
 
-> “AI is already part of the everyday workflow in the advice business. I don't want my CFPs spending hours every week laboring over CRM updates and task assignments. I want them talking to clients and engaged in the planning itself, because that's the part clients truly value. Claude for Financial Advisors is the first thing I've seen that sits on top of the whole stack and does that work across it, with the compliance controls we need built in.”
+> “AI is already part of the everyday workflow in the advice business. I don’t want my CFPs spending hours every week laboring over CRM updates and task assignments. I want them talking to clients and engaged in the planning itself, because that's the part clients truly value. Claude for Financial Advisors is the first thing I’ve seen that sits on top of the whole stack and does that work across it, with the compliance controls we need built in.”
 
 Josh Brown, CEO
 
@@ -149,13 +149,13 @@ Steve Leivent, Senior VP & Co-Head
 
 ![Addepar](https://assets.claude.com/fb76688c14d76e8ecea2860238c3074e4bf75a4e.svg)
 
-> “Addepar has built the data and intelligence foundation that the world's leading investment professionals rely on to manage nearly $10 trillion in assets, with the governance, rigor and controls built natively into our platform. Addepar's collaboration with Anthropic brings our uniquely deep understanding of sophisticated investment portfolios into Claude, giving clients access to Addepar's industry-leading portfolio intelligence wherever they work.”
+> “Addepar has built the data and intelligence foundation that the world’s leading investment professionals rely on to manage nearly $10 trillion in assets, with the governance, rigor and controls built natively into our platform. Addepar’s collaboration with Anthropic brings our uniquely deep understanding of sophisticated investment portfolios into Claude, giving clients access to Addepar’s industry-leading portfolio intelligence wherever they work.”
 
 Eric Poirier, CEO
 
 ![Wealth.com](https://assets.claude.com/7d2f8c61095816e9f787e52e70f871b8d7ebdfe8.svg)
 
-> “Estate and tax are the layers of a client's plan that have to be exact. Advisors already trust Wealth.com as the system of record for the estate and tax positions their clients actually have. Inside Claude, that record can answer questions directly, with every figure tracing back to the source document that produced it.”
+> “Estate and tax are the layers of a client’s plan that have to be exact. Advisors already trust Wealth.com as the system of record for the estate and tax positions their clients actually have. Inside Claude, that record can answer questions directly, with every figure tracing back to the source document that produced it.”
 
 Rafael Loureiro, CEO
 
@@ -173,7 +173,7 @@ Reed Colley, President
 
 ![zocks](https://assets.claude.com/05a6a0c1132f543d0537102984022c0c90774dde.png)
 
-> “Good financial advice depends on knowing what's going on in a client’s life, not just what's in their accounts,” said Mark Gilbert, CEO and Co-founder of Zocks. “The expanded collaboration between Claude and Zocks brings together data and personal client context that used to be fragmented across sources and systems. Now, every task and analysis through Claude is grounded in a more complete understanding of the client. It also gives enterprise firms greater flexibility to build AI workflows around how their advisors actually work.”
+> “Good financial advice depends on knowing what’s going on in a client’s life, not just what’s in their accounts,” said Mark Gilbert, CEO and Co-founder of Zocks. “The expanded collaboration between Claude and Zocks brings together data and personal client context that used to be fragmented across sources and systems. Now, every task and analysis through Claude is grounded in a more complete understanding of the client. It also gives enterprise firms greater flexibility to build AI workflows around how their advisors actually work.”
 
 Mark Gilbert, CEO and Co-founder
 
@@ -197,13 +197,13 @@ Jaime Magyera, Head of US Wealth & Retirement Businesses
 
 ![Mercer Advisors](https://assets.claude.com/e417bbb81bf909eb4ebe19fe0dee25370dbfd28e.svg)
 
-> “Anthropic builds AI aligned with human values. Mercer Advisors builds family offices aligned with client interests. That shared obsession is core to both firms and anchors our partnership. Claude helps our teams to work seamlessly across clients' financial lives, while judgment and accountability stay with the advisor. That is how AI should work in any profession built on trust.””
+> “Anthropic builds AI aligned with human values. Mercer Advisors builds family offices aligned with client interests. That shared obsession is core to both firms and anchors our partnership. Claude helps our teams to work seamlessly across clients’ financial lives, while judgment and accountability stay with the advisor. That is how AI should work in any profession built on trust.””
 
 Daniel Gourvitch, President
 
 ![Rockefeller Capital Management](https://assets.claude.com/70a6a06de8cab56f6dea00611e665aa99e4d17a4.svg)
 
-> “We are pleased to see Anthropic's continued investment in capabilities tailored to the unique needs of financial advisors. Our collaboration is rooted in a shared belief that technology should support advisors, not replace them, helping them navigate complexity and more efficiently serve clients while keeping human judgment and discretion at the forefront.”
+> “We are pleased to see Anthropic’s continued investment in capabilities tailored to the unique needs of financial advisors. Our collaboration is rooted in a shared belief that technology should support advisors, not replace them, helping them navigate complexity and more efficiently serve clients while keeping human judgment and discretion at the forefront.”
 
 Ashley McCarthy, Chief Operating Officer & Counsel-Managing Director
 
@@ -221,29 +221,27 @@ Learn more [at our solutions page](https://claude.com/solutions/financial-servic
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 1, 2026
+[ArticleOct 8, 2026
 
-### Customize Claude Code with mods
+### Build live dashboards and animate explainers with Claude
 
-Change how Claude Code behaves and looks with a few lines of TypeScript.
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
 
-Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 7, 2026
 
-### Claude for Government is now generally available
+### Claude Haiku 5.5
 
-Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
+Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
 
-### Build plugins for Claude
+(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)[ArticleOct 6, 2026
 
-You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
+### Claude now works with Google Docs, Sheets, and Slides
 
-Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
+Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta).
 
-### Claude Tag now supports personal connectors in channels
+Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)[ArticleOct 6, 2026
 
-Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
-
-Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
+### We’re expanding the Claude Startups program to help founders build](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)
 
 ## Transform how your organization operates with Claude
 

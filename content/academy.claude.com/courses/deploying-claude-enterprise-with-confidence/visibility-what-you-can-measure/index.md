@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Decide whether to route OpenTelemetry export to your observability stack as an operational complement to the Compliance API
 - Choose a retention window matched to your existing data policy and propose inference hooks for content that shouldn’t reach Claude at all
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fvisibility-what-you-can-measure)
 

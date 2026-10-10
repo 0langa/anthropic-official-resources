@@ -4,7 +4,7 @@ Lesson 5 of 11 · Model Context Protocol: Advanced topicsRoots
 
 Lesson 52 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fmodel-context-protocol-advanced-topics%2Froots)
 

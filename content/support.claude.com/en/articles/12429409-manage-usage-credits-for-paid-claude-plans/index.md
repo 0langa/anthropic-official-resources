@@ -4,9 +4,9 @@ This article explains how usage credits work on your paid Claude plan (Pro, Max 
 
 ## What are usage credits?
 
-Usage credits allow individuals subscribed to paid Claude plans (Pro, Max 5x, and Max 20x) to continue using Claude seamlessly after reaching their included usage limits. Instead of being blocked when you hit your session limits, you can switch to consumption-based pricing at standard API rates and continue your work without interruption.
+Usage credits allow individuals subscribed to paid Claude plans (Pro, Max 5x, and Max 20x) to continue using Claude after reaching their included usage limits. Paid plans have a session limit that resets every five hours and a weekly limit. Max plans also have a separate weekly limit for Fable. Instead of being blocked when you reach one of your plan's limits, you can switch to consumption-based pricing at standard API rates and continue your work without interruption.
 
-Usage credits are separate from the monthly API credits included with Max plans. Monthly API credits don’t apply to extra usage in Claude, Claude Code, or Claude Cowork. Learn more about **[monthly API credits for Max and Team plans](https://support.claude.com/en/articles/17154008)**.
+Usage credits are separate from the monthly API credits included with Max plans. Monthly API credits don’t apply to usage credits in Claude, Claude Code, or Claude Cowork. Learn more about **[monthly API credits for Max and Team plans](https://support.claude.com/en/articles/17154008)**.
 
 **Note:** If you subscribed through one of the Claude mobile apps, you can only enable usage credits on the web version of Claude. You will need to add your payment method before enabling and purchasing usage credits on the web.
 
@@ -14,15 +14,17 @@ Usage credits are separate from the monthly API credits included with Max plans.
 
 ## How usage credits work
 
-When you reach your plan’s usage limit with usage credits enabled:
+When you fully use your plan’s included usage limits (your five-hour session limit, your weekly limit, or your Fable weekly limit on Max plans) with usage credits enabled:
 
-- You’ll see a notification that you’ve reached your session usage limit.
+- Your requests switch to pay-as-you-go pricing on usage credits and keep working.
 
-- If usage credits are enabled and you have funds available, you can choose to continue working.
+- You may briefly still see the notification that you’re approaching your usage limit. Once your next request goes through on usage credits, it changes to “Now using credits.” You haven’t been cut off; your work continues.
 
 - Your subsequent usage will be billed at standard API pricing rates.
 
-- Your session limits reset every five hours as usual.
+- Your usage continues until you reach your monthly spend limit, or your balance runs out with auto-reload off.
+
+- Your session limit resets every five hours and your weekly limits reset once a week, as usual.
 
 **Note:** Usage credits are charged separately from your paid Claude subscription and appear as additional charges on your bill.
 
@@ -48,9 +50,7 @@ To enable usage credits on your paid Claude plan:
 
 8. You can also enable auto-reload to automatically make a purchase when your balance falls below a threshold you set:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1805819785/5e203c38e6ba3f76bfd1dab0d5ce/fe062e7c-18cb-48cc-a7e2-754ac6e6c4be?expires=1791462600&amp;signature=265dde8bcf9198e4f07977b0fb4ac79ec9bf19f2aaab1766a9842668b4eb8f63&amp;req=dSgnE8F%2FlIZXXPMW1HO4zYj2ABOdo%2FI%2BopE7m38Ydfe3RJL9R7PFAGtHeOqA%0A7giIpl7R6gKrcZFiQ58%3D%0A)
-
-**Note:** There is a daily redemption limit of $2000.
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1805819785/5e203c38e6ba3f76bfd1dab0d5ce/fe062e7c-18cb-48cc-a7e2-754ac6e6c4be?expires=1791632700&amp;signature=782e31d033bce462d5ee86b435f69cd7af380496ed193d05368ea88138b832bf&amp;req=dSgnE8F%2FlIZXXPMW1HO4zYj2ABOfpvI%2FopE7m38Ydfe7W90Iz1JA9BQFey8Z%0A%2FLP9rDhu8VemH%2FSjsKM%3D%0A)
 
 ---
 
@@ -126,7 +126,11 @@ Yes, you can disable usage credits at any time through **[Settings > Usage](http
 
 ### How quickly do my regular usage limits reset?
 
-Your plan’s included usage limit will reset every five hours once you reach it. Usage credits don’t affect this reset timing.
+Paid plans include two usage limits: a session limit that resets every five hours, and a weekly limit that resets once a week. Max plans also have a separate weekly limit for Fable that resets once a week. Usage credits don’t affect the reset timing of any of these limits.
+
+### Can I keep using Claude after I reach my weekly limit?
+
+Yes. With usage credits enabled, once one of your included limits is fully used (your five-hour session limit or one of your weekly limits), your requests switch to pay-as-you-go pricing on usage credits and keep working. Your usage continues until you reach your monthly spend limit or your usage credit balance runs out with auto-reload off.
 
 ### I subscribed to a paid Claude plan on the App or Play store; how can I access usage credits?
 
@@ -138,7 +142,7 @@ Yes, the usage dashboard clearly distinguishes between your included plan usage 
 
 ### Will I get a warning before switching to usage credits?
 
-Yes, you’ll see a clear notification when approaching and reaching your included usage limits, with a confirmation that you’ll continue with usage credits.
+Yes. You’ll see a notification when you’re approaching your session limit or one of your weekly limits. That notification may still be showing at the moment your usage switches to usage credits, so it can look like you’ve been cut off. If usage credits are enabled and you have funds available, your next request goes through on usage credits and the notification changes to “Now using credits.”
 
 ### Do usage credits expire?
 

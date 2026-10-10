@@ -2,7 +2,7 @@
 
 Integrate Claude with Databricks to access organizational data through Unity Catalog using custom functions, vector search, and natural language queries.
 
-15 minClaude.ai
+15 minClaude
 
 [Open Claude](https://claude.ai/new)
 

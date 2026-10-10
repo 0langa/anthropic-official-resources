@@ -9,7 +9,7 @@ In this lessonBy the end, you’ll be able to
 - Recall the arc of Cowork 101 and what each module gave you
 - Pick the next moves that keep you using Cowork after the course ends
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-cowork%2Ftroubleshooting-next-steps)
 

@@ -38,8 +38,6 @@
 
 [Claude Enterprise Admin API reference guide](https://support.claude.com/en/articles/15330651-claude-enterprise-admin-api-reference-guide)
 
-[Claude Enterprise activation promo for Claude Code and Cowork](https://support.claude.com/en/articles/15282265-claude-enterprise-activation-promo-for-claude-code-and-cowork)
-
 [Set a default model for your organization](https://support.claude.com/en/articles/15330088-set-a-default-model-for-your-organization)
 
 [Restrict verified-domain connectors to your Enterprise](https://support.claude.com/en/articles/15402193-restrict-verified-domain-connectors-to-your-enterprise)
@@ -53,3 +51,5 @@
 [Set up Claude for Intune](https://support.claude.com/en/articles/17203415-set-up-claude-for-intune)
 
 [Assign a program to custom roles on Enterprise plans](https://support.claude.com/en/articles/17118092-assign-a-program-to-custom-roles-on-enterprise-plans)
+
+[Set up and manage the new unified Claude experience for your Enterprise organization](https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization)

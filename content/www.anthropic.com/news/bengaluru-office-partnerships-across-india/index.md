@@ -6,7 +6,7 @@ Feb 16, 2026
 
 ![Anthropic opens Bengaluru office and announces new partnerships across India     ](https://www-cdn.anthropic.com/images/4zrzovbb/website/ffc0d7957a232518519f13c0d64896921ea215e2-1000x1000.svg)
 
-India is the second-largest market for [Claude.ai](http://claude.ai/redirect/website.v1.9564f685-8e77-4bcd-829d-a25a9673226a), home to a developer community doing some of the most technically intense AI work we see anywhere. [Nearly half of Claude usage](https://www.anthropic.com/research/india-brief-economic-index) in India comprises computer and mathematical tasks: building applications, modernizing systems, and shipping production software.
+India is the second-largest market for [Claude.ai](http://claude.ai/redirect/website.v1.911badbf-15e5-4a73-b91f-3ed3a6d13bf5), home to a developer community doing some of the most technically intense AI work we see anywhere. [Nearly half of Claude usage](https://www.anthropic.com/research/india-brief-economic-index) in India comprises computer and mathematical tasks: building applications, modernizing systems, and shipping production software.
 
 Today, as we officially open our Bengaluru office, we’re announcing partnerships across enterprise, education, and agriculture that deepen our commitment to India across a range of sectors.
 
@@ -56,20 +56,20 @@ For information about career opportunities at our Bengaluru office, visit our [c
 
 ## Related content
 
-### Expanding the Cyber Verification Program
+### 2026 Usage Policy update
 
-We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.
+We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
 
-[Read more](https://www.anthropic.com/news/cyber-verification-program)
+[Read more](https://www.anthropic.com/news/2026-usage-policy-update)
 
-### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
+### Building on our commitment to American scientific discovery
 
-Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
+Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
 
-[Read more](https://www.anthropic.com/news/claude-frontier-academy)
+[Read more](https://www.anthropic.com/news/genesis-mission-commitment)
 
-### Barclays scales Claude to upgrade operations and improve client experience
+### Introducing the Anthropic Cyber Mission
 
-Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
+We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.
 
-[Read more](https://www.anthropic.com/news/barclays-scales-claude)
+[Read more](https://www.anthropic.com/news/anthropic-cyber-mission)

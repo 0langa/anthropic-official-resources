@@ -11,7 +11,7 @@ In this lessonBy the end, you’ll be able to
 - Understand how Research uses Thinking to plan its approach before it gathers information
 - Write effective Research prompts for complex investigations
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-101%2Fresearch-mode-for-deep-dives)
 

@@ -2,7 +2,7 @@
 
 Claude for PowerPoint lets you build and edit presentations without leaving the app. You describe what you need, and Claude generates slides that match your brand guidelines. This video walks through the basics: creating a new deck from a prompt, editing slide content, and keeping everything on-brand from the start.
 
-4 minClaude in PowerPoint
+4 minClaude for PowerPoint
 
 Watch
 

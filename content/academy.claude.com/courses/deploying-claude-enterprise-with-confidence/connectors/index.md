@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Explain how enterprise-managed authorization (EMA) lets you provision connector access centrally
 - Explain read versus write access, and decide which connectors each group gets and at what depth
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fconnectors)
 

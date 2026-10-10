@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Connect the apps where your work lives
 - Recognize what Claude asks before doing — and what it doesn't — so you can hand off work with confidence
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-cowork%2Fgetting-set-up)
 

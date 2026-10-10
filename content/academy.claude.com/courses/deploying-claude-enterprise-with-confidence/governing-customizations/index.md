@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Explain why customizations need governance and how the settings that enforce a posture work together
 - Choose your governance posture, including whether one posture covers the whole organization, and recognize the signals that it doesn’t fit
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fgoverning-customizations)
 

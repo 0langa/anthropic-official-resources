@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Understand Cowork as Claude working in your environment — on your files, in your apps, with your tools
 - Know when to chat with Claude, when to hand work to Cowork, and when Claude Code is the right tool
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-cowork%2Fwhat-is-cowork)
 
@@ -143,11 +143,6 @@ Hold on to that task — you can come back to it in Lesson 3 when you start iden
 In the next lesson, you'll get Cowork set up: give Claude a place to work (a folder on your computer if you use the desktop app, or a project), add your first connectors, and learn the permissions model that keeps you in control of what Cowork can do.
 
 Was this helpful?
-
-
-## Transcript
-
-This lesson's video contains no spoken narration (screen demonstration with background audio only).
 
 
 ## Video transcript

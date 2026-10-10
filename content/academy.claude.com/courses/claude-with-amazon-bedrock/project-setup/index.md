@@ -4,7 +4,7 @@ Lesson 50 of 65 · Claude with Amazon BedrockProject setup
 
 Lesson 501 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fproject-setup)
 
@@ -20,7 +20,7 @@ Our chatbot will be a command-line interface that allows users to chat with a se
 - Command execution with `/command_name` syntax
 - A collection of fake documents stored in memory
 
-![](https://academy.claude.com/assets/media/d46a61c16751d7e35792bfa377ae844576ea6143bc2a3c771498df206e2c3de5.png)
+![Typing @ in a prompt lists deposition.md, design.md, financials.md, outlook.md, plan.md and spec.md, all labeled "Resource".](https://academy.claude.com/assets/media/d46a61c16751d7e35792bfa377ae844576ea6143bc2a3c771498df206e2c3de5.png)
 
 ## System Architecture[](https://academy.claude.com/courses/claude-with-amazon-bedrock/project-setup)
 
@@ -30,7 +30,7 @@ The project consists of three main components working together:
 - **Our MCP Server** - Provides tools for document operations
 - **Document Storage** - In-memory collection of various file types
 
-![](https://academy.claude.com/assets/media/1107d9787fc784464d22b16d654648dbe1d667fccc7aca95d7c85583c84285c8.png)
+![Our server holds our MCP client, which talks both ways with our MCP server, whose tools read and update four documents.](https://academy.claude.com/assets/media/1107d9787fc784464d22b16d654648dbe1d667fccc7aca95d7c85583c84285c8.png)
 
 The MCP server will implement two core tools:
 
@@ -46,7 +46,7 @@ In real-world projects, you typically implement either an MCP client or an MCP s
 - Build an MCP server to distribute a service to other developers
 - Build an MCP client that connects to existing third-party MCP servers
 
-![](https://academy.claude.com/assets/media/6909714683204404437ee6148c256e16adab43c03cc7f0bde89420a840cc1e7d.png)
+![Diagram of our server containing the MCP client, which connects both ways to a separate MCP server.](https://academy.claude.com/assets/media/6909714683204404437ee6148c256e16adab43c03cc7f0bde89420a840cc1e7d.png)
 
 Our project implements both components in a single codebase purely for educational purposes, so you can see how clients and servers interact with each other.
 

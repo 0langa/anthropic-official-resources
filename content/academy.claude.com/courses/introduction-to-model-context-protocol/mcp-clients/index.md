@@ -4,7 +4,7 @@ Lesson 2 of 10 · Introduction to Model Context ProtocolMCP clients
 
 Lesson 22 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-model-context-protocol%2Fmcp-clients)
 
@@ -14,7 +14,7 @@ The MCP client serves as the communication bridge between your server and MCP se
 
 One of MCP's key strengths is being transport agnostic - a fancy way of saying the client and server can communicate over different protocols depending on your setup.
 
-![](https://academy.claude.com/assets/media/b393bf3821c37b06d31300b588c291caa460db51353ebbfbc6a56b9c2a2c0160.png)
+![Our server holds the MCP client, talking both ways over standard input/output with a GitHub MCP server running locally.](https://academy.claude.com/assets/media/b393bf3821c37b06d31300b588c291caa460db51353ebbfbc6a56b9c2a2c0160.png)
 
 The most common setup runs both the MCP client and server on the same machine, communicating through standard input/output. But you can also connect them over:
 
@@ -22,17 +22,17 @@ The most common setup runs both the MCP client and server on the same machine, c
 - WebSockets
 - Various other network protocols
 
-![](https://academy.claude.com/assets/media/3a63d189484fd713cdaa1932e5b9638da2b20059ce414c288f77d915371b5f5c.png)
+![Our server contains the MCP client, which talks both ways with an MCP server for GitHub over WebSockets.](https://academy.claude.com/assets/media/3a63d189484fd713cdaa1932e5b9638da2b20059ce414c288f77d915371b5f5c.png)
 
 ## MCP Message Types[](https://academy.claude.com/courses/introduction-to-model-context-protocol/mcp-clients)
 
 Once connected, the client and server exchange specific message types defined in the MCP specification. The main ones you'll work with are:
 
-![](https://academy.claude.com/assets/media/4dbfe70297791ff32dced94d745d416ec7ec8c5889d3cbd45ef3328bbdb7f755.png)
+![The MCP client in our server sends ListToolsRequest to a GitHub MCP server, which replies with ListToolsResult.](https://academy.claude.com/assets/media/4dbfe70297791ff32dced94d745d416ec7ec8c5889d3cbd45ef3328bbdb7f755.png)
 
 **ListToolsRequest/ListToolsResult:** The client asks the server "what tools do you provide?" and gets back a list of available tools.
 
-![](https://academy.claude.com/assets/media/b94c5c441b196cce093af43405bb70be67728aeee37f7a526f6a022ce53e0ffe.png)
+![Our server holds the MCP client, which sends a CallToolRequest to an MCP server for GitHub and gets back a CallToolResult.](https://academy.claude.com/assets/media/b94c5c441b196cce093af43405bb70be67728aeee37f7a526f6a022ce53e0ffe.png)
 
 **CallToolRequest/CallToolResult:** The client asks the server to run a specific tool with given arguments, then receives the results.
 
@@ -55,7 +55,7 @@ Let's say a user asks "What repositories do I have?" Here's the step-by-step flo
 11. **Final Response:** Claude formulates a final answer using the repository data
 12. **User Gets Answer:** Your server delivers Claude's response back to the user
 
-![](https://academy.claude.com/assets/media/92b5f03a879df7c7bc870a7b08fe1f93aa1cc9398f4de4128089c213c19df24f.png)
+![Sequence diagram of the whole flow between the user, our server, MCP client, MCP server, Claude and GitHub, described above.](https://academy.claude.com/assets/media/92b5f03a879df7c7bc870a7b08fe1f93aa1cc9398f4de4128089c213c19df24f.png)
 
 Yes, this flow involves many steps, but each component has a clear responsibility. The MCP client abstracts away the complexity of server communication, letting you focus on your application logic while still getting access to powerful external tools and data sources.
 

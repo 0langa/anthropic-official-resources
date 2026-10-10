@@ -4,7 +4,7 @@ Lesson 17 of 66 · Claude with Google Cloud's Vertex AIBeing clear and direct
 
 Lesson 172 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fbeing-clear-and-direct)
 
@@ -14,7 +14,7 @@ The first line of your prompt is the most important part of your entire request.
 
 When crafting that crucial first line, you want to focus on two key principles: clarity and directness. This means using simple language that leaves no room for ambiguity about what you want Claude to do.
 
-![](https://academy.claude.com/assets/media/3aff74318725fd873feca04b57d26c3ab7c16c8ac1c47a6a71d9f1eeacdc4994.png)
+![Side-by-side rules for clear prompts and direct prompts, each with a weak prompt and a better one, described below.](https://academy.claude.com/assets/media/3aff74318725fd873feca04b57d26c3ab7c16c8ac1c47a6a71d9f1eeacdc4994.png)
 
 ## Clear Communication[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/being-clear-and-direct)
 

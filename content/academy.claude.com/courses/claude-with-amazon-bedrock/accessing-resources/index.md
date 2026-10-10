@@ -4,13 +4,13 @@ Lesson 55 of 65 · Claude with Amazon BedrockAccessing resources
 
 Lesson 559 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Faccessing-resources)
 
 Resources in MCP allow your server to expose data that can be directly included in prompts, rather than requiring tool calls to access information. This creates a more efficient way to provide context to AI models like Claude.
 
-![](https://academy.claude.com/assets/media/f2baa6225bba4675d0624954dbe38fc669f17916147b137fb01c305f825c0e83.png)
+![To fill the autocomplete, the MCP client reads docs://documents from the MCP server and returns doc names to our code.](https://academy.claude.com/assets/media/f2baa6225bba4675d0624954dbe38fc669f17916147b137fb01c305f825c0e83.png)
 
 ## Understanding the Resource Flow[](https://academy.claude.com/courses/claude-with-amazon-bedrock/accessing-resources)
 

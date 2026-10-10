@@ -106,7 +106,7 @@ You can hear more from our hosts below:
 
 ## Applications and timeline
 
-[Fellowship applications](https://anthropic.com/claude-corps/fellow) are open today, and will close on July 17th for the first cohort of 100, which begins in October 2026. Applications are open on a rolling basis for the next two cohorts, which begin in February 2027 and August 2027. Anyone over 18 with under two years of full-time work experience is welcome to apply, regardless of educational background. The only requirements are that you’re authorized to work in the US, are comfortable working with Claude, and are willing to relocate if necessary. (Relocation support is available as needed.)
+[Fellowship applications](https://anthropic.com/claude-corps/fellow) are open today, and will close on July 17th for the first cohort of 100, which begins in October 2026. Applications are open on a rolling basis for the next two cohorts, which begin in March 2027 and August 2027. Anyone over 18 with under two years of full-time work experience is welcome to apply, regardless of educational background. The only requirements are that you’re authorized to work in the US, are comfortable working with Claude, and are willing to relocate if necessary. (Relocation support is available as needed.)
 
 [Host organization applications](https://anthropic.com/claude-corps/host) are also open today for all cohort start dates. For more information about criteria for hosting and what’s involved, see the [Claude Corps website](https://anthropic.com/claude-corps).
 
@@ -116,20 +116,20 @@ Our ambition is for this program to scale far beyond 1,000 fellows, as we’ve o
 
 ## Related content
 
-### Expanding the Cyber Verification Program
+### 2026 Usage Policy update
 
-We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.
+We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
 
-[Read more](https://www.anthropic.com/news/cyber-verification-program)
+[Read more](https://www.anthropic.com/news/2026-usage-policy-update)
 
-### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
+### Building on our commitment to American scientific discovery
 
-Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
+Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
 
-[Read more](https://www.anthropic.com/news/claude-frontier-academy)
+[Read more](https://www.anthropic.com/news/genesis-mission-commitment)
 
-### Barclays scales Claude to upgrade operations and improve client experience
+### Introducing the Anthropic Cyber Mission
 
-Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
+We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.
 
-[Read more](https://www.anthropic.com/news/barclays-scales-claude)
+[Read more](https://www.anthropic.com/news/anthropic-cyber-mission)

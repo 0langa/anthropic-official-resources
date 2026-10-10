@@ -4,7 +4,7 @@ Lesson 14 of 65 · Claude with Amazon BedrockModel based grading
 
 Lesson 1415 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fmodel-based-grading)
 
@@ -12,7 +12,7 @@ When building prompt evaluation workflows, graders provide objective signals abo
 
 ## Types of Graders[](https://academy.claude.com/courses/claude-with-amazon-bedrock/model-based-grading)
 
-![](https://academy.claude.com/assets/media/c73deec1acccb2e12761043958b295af3ef2396638b72ef8d7225e7fe1930a98.png)
+![Code, model and human graders, each with its uses listed below; model and human graders can also compare two versions.](https://academy.claude.com/assets/media/c73deec1acccb2e12761043958b295af3ef2396638b72ef8d7225e7fe1930a98.png)
 
 There are three main approaches to grading model outputs:
 
@@ -53,7 +53,7 @@ Human graders provide the most flexibility but are time-intensive and tedious. T
 
 ## Defining Evaluation Criteria[](https://academy.claude.com/courses/claude-with-amazon-bedrock/model-based-grading)
 
-![](https://academy.claude.com/assets/media/a5a7c1966139c74db22bd467f0b89f86ff24e5dfebdc834f9ba8a28d9e4bcaed.png)
+![The question of how we will know if our prompt is producing good outputs, with the three criteria listed below.](https://academy.claude.com/assets/media/a5a7c1966139c74db22bd467f0b89f86ff24e5dfebdc834f9ba8a28d9e4bcaed.png)
 
 Before implementing any grader, you need clear evaluation criteria. For a code generation prompt, you might focus on:
 
@@ -61,7 +61,7 @@ Before implementing any grader, you need clear evaluation criteria. For a code g
 - **Valid Syntax** - Produced code should have valid syntax
 - **Task Following** - Response should directly address the user's task with accurate code
 
-![](https://academy.claude.com/assets/media/e466cc7dac9ed6cc795e85659394918ff03cb1d6808b6eb7243ed85aa84d67f9.png)
+![Format and valid syntax grouped under a code grader, and task following under a model grader, as described below.](https://academy.claude.com/assets/media/e466cc7dac9ed6cc795e85659394918ff03cb1d6808b6eb7243ed85aa84d67f9.png)
 
 The first two criteria work well with code graders, while task following is better suited for model graders due to their flexibility.
 

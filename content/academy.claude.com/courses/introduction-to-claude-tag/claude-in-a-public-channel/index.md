@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Explain how what Claude learns in a public channel is shared with everyone in it
 - Have Claude use one connected tool and check the result
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-tag%2Fclaude-in-a-public-channel)
 

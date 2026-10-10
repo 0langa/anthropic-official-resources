@@ -4,7 +4,7 @@ Lesson 31 of 65 · Claude with Amazon BedrockFlexible tool extraction
 
 Lesson 319 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fflexible-tool-extraction)
 
@@ -14,7 +14,7 @@ Writing detailed JSON schemas for structured data extraction can be a real pain 
 
 Instead of writing a detailed schema for every data extraction task, you can create one generic tool called `to_json` that accepts any object structure. The key is setting the input schema to allow additional properties, then specifying your exact requirements in the prompt itself.
 
-![](https://academy.claude.com/assets/media/ae6e50300afaaa0541e6dc1a17f5c31def4c29b3eb769e79da2266555d0881fd.png)
+![Tool spec for to_json whose input schema sets "json" to type "object" and "additionalProperties" to True, accepting any JSON.](https://academy.claude.com/assets/media/ae6e50300afaaa0541e6dc1a17f5c31def4c29b3eb769e79da2266555d0881fd.png)
 
 This approach removes a major pain point - constantly writing and managing large JSON schemas. The results won't be quite as good as a dedicated schema, but you'll still get high-quality JSON output with much less setup work.
 

@@ -4,7 +4,7 @@ Lesson 53 of 66 · Claude with Google Cloud's Vertex AIThe server inspector
 
 Lesson 534 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fthe-server-inspector)
 
@@ -22,13 +22,13 @@ mcp dev mcp_server.py
 
 This starts a development server and gives you a local URL (typically on port 6277) to access the inspector in your browser.
 
-![](https://academy.claude.com/assets/media/19b987b5529baeb03bed9b07e03fd0d0c56298a716b439dc896de8898f1d2b3f.png)
+![Terminal output: proxy server listening on port 6277 and MCP Inspector is up and running at http://127.0.0.1:6274.](https://academy.claude.com/assets/media/19b987b5529baeb03bed9b07e03fd0d0c56298a716b439dc896de8898f1d2b3f.png)
 
 ## Using the Inspector Interface[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/the-server-inspector)
 
 The MCP inspector is actively being developed, so the interface may look different when you use it. However, the core functionality remains consistent.
 
-![](https://academy.claude.com/assets/media/b71855041936bb82ba63e92710c498b45c405ca4965b1df73317262d3882ce88.png)
+![The MCP inspector before connecting, with standard input/output transport, a "Connect" button and status "Disconnected".](https://academy.claude.com/assets/media/b71855041936bb82ba63e92710c498b45c405ca4965b1df73317262d3882ce88.png)
 
 After clicking "Connect" to start your MCP server, you'll see a navigation bar with sections for:
 
@@ -41,7 +41,7 @@ After clicking "Connect" to start your MCP server, you'll see a navigation bar w
 
 The Tools section is where you'll spend most of your debugging time. Click "List Tools" to see all the tools your server provides.
 
-![](https://academy.claude.com/assets/media/f52575beb9b624156b5d72a5be3235a039335927125dcbefe10d99eef767f749.png)
+![MCP Inspector Tools tab after clicking "List Tools", listing read_doc_contents and edit_document with a description of each.](https://academy.claude.com/assets/media/f52575beb9b624156b5d72a5be3235a039335927125dcbefe10d99eef767f749.png)
 
 When you select a tool, the right panel shows its details and provides input fields for testing. For example, to test the `read_doc_contents` tool:
 
@@ -50,17 +50,17 @@ When you select a tool, the right panel shows its details and provides input fie
 3. Click "Run Tool"
 4. Check the results for success and expected output
 
-![](https://academy.claude.com/assets/media/cb9b3c821130bee229aefb94456017fd04d46e53b1d24a91aef58a83d49b31a4.png)
+![MCP Inspector Tools tab listing the read_doc_contents and edit_document tools, with a doc_id field and Run Tool button.](https://academy.claude.com/assets/media/cb9b3c821130bee229aefb94456017fd04d46e53b1d24a91aef58a83d49b31a4.png)
 
 ## Testing Tool Interactions[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/the-server-inspector)
 
 You can test multiple tools in sequence to verify they work together correctly. For instance, after using the `edit_document` tool to modify content:
 
-![](https://academy.claude.com/assets/media/768ecb1a50bbf0db37a9ba8dcc98e3147cac24f121fd043a0e530ee5d41dc96d.png)
+![MCP Inspector edit_document form with doc_id deposition.md, old_str "This" and new_str "A report", and Tool Result: Success.](https://academy.claude.com/assets/media/768ecb1a50bbf0db37a9ba8dcc98e3147cac24f121fd043a0e530ee5d41dc96d.png)
 
 Run the `read_doc_contents` tool again with the same document ID to confirm your changes were applied:
 
-![](https://academy.claude.com/assets/media/14cce52c52772af7b18d1a65cd32117d8883c297c738859ddf7b2aff22663d00.png)
+![MCP inspector: read_doc_contents on "deposition.md" shows Tool Result Success and text starting "A report deposition covers".](https://academy.claude.com/assets/media/14cce52c52772af7b18d1a65cd32117d8883c297c738859ddf7b2aff22663d00.png)
 
 ## Development Workflow[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/the-server-inspector)
 

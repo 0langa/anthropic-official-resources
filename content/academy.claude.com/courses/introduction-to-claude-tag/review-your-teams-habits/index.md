@@ -9,7 +9,7 @@ In this lessonBy the end, you’ll be able to
 - Check one channel against the habits from each lesson
 - Post the message that gets the missing habits started
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-tag%2Freview-your-teams-habits)
 

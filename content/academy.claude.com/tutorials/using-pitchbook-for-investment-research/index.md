@@ -2,7 +2,7 @@
 
 Set up and use PitchBook Premium's integration with Claude for accessing private capital market data, company profiles, investor information, and deal details.
 
-10 minClaude.ai
+10 minClaude
 
 [Open Claude](https://claude.ai/new)
 

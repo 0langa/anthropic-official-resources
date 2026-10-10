@@ -4,13 +4,13 @@ Lesson 23 of 66 · Claude with Google Cloud's Vertex AITool functions
 
 Lesson 237 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Ftool-functions)
 
 When building AI applications with Claude, you'll often need to give it access to real-time information or the ability to perform actions. This is where tool functions come in - they're Python functions that Claude can call when it needs additional data to help users.
 
-![](https://academy.claude.com/assets/media/dda5ecca119baaad2ad7715a7b3ff75b3dc2f78c066743b39ee8cf9729a6d999.png)
+![Claude needs to know the current date and time, isn't perfect with date time addition, and we need a way to set a reminder.](https://academy.claude.com/assets/media/dda5ecca119baaad2ad7715a7b3ff75b3dc2f78c066743b39ee8cf9729a6d999.png)
 
 The image above shows three essential tools we'll be implementing: getting the current date/time, adding duration to dates, and setting reminders. Let's start with the first one.
 
@@ -18,7 +18,7 @@ The image above shows three essential tools we'll be implementing: getting the c
 
 A tool function is a plain Python function that gets executed automatically when Claude determines it needs extra information to complete a task. For example, if a user asks "What time is it?", Claude would call your date/time tool to get the current time.
 
-![](https://academy.claude.com/assets/media/e09d448523765b2c0c8ad186a307550c52c7030fa50874ed420e3ff6e35080d6.png)
+![The get_weather function: it raises a ValueError if location is empty, then calls a weather API and returns JSON.](https://academy.claude.com/assets/media/e09d448523765b2c0c8ad186a307550c52c7030fa50874ed420e3ff6e35080d6.png)
 
 Here's an example of a weather tool function. Notice how it validates inputs and provides clear error messages - these are key best practices we'll follow.
 

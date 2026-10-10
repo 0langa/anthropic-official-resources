@@ -4,7 +4,7 @@ Lesson 37 of 65 · Claude with Amazon BedrockImplementing the RAG flow
 
 Lesson 3715 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fimplementing-the-rag-flow)
 
@@ -85,7 +85,7 @@ for doc, distance in results:
 
 This returns the two most relevant chunks along with their cosine distance scores. Lower distances indicate higher similarity.
 
-![](https://academy.claude.com/assets/media/ab085290667b6210b2b88469b29db119c1e53d58b2e2007f08e3206cdcc43494.png)
+![User query vector "0.1, 0.89" goes to the vector database, which returns "0.295, 0.955" for the software engineering section.](https://academy.claude.com/assets/media/ab085290667b6210b2b88469b29db119c1e53d58b2e2007f08e3206cdcc43494.png)
 
 ## Understanding the Results[](https://academy.claude.com/courses/claude-with-amazon-bedrock/implementing-the-rag-flow)
 

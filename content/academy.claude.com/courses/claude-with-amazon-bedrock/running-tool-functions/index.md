@@ -4,7 +4,7 @@ Lesson 25 of 65 · Claude with Amazon BedrockRunning tool functions
 
 Lesson 2510 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Frunning-tool-functions)
 
@@ -14,11 +14,11 @@ When Claude responds with a tool use request, your server needs to actually run 
 
 Claude can send multiple tool use parts in a single response. Your code needs to handle this possibility defensively. An assistant message might contain a text part followed by one, two, or even more tool use parts.
 
-![](https://academy.claude.com/assets/media/e9f8f672e5509df4a63b0041d4ad48d777486d186ca6f73b56b8175394ff93e6.png)
+![Assistant message parts: a "Text" part offering to find the current time and a "toolUse" part for get_current_datetime.](https://academy.claude.com/assets/media/e9f8f672e5509df4a63b0041d4ad48d777486d186ca6f73b56b8175394ff93e6.png)
 
 The flow works like this: Claude sends a request with JSON schema, receives a tool use part, then your server runs the tool and sends back a tool result part for Claude to provide a final response.
 
-![](https://academy.claude.com/assets/media/b14d578714a8d8f52cfdbac22c60e90e96b3b7176e5d7e50c20247c440d7f54d.png)
+![Our server sends Claude the user message "What time is it?", the assistant text and tool use part, then a tool result part.](https://academy.claude.com/assets/media/b14d578714a8d8f52cfdbac22c60e90e96b3b7176e5d7e50c20247c440d7f54d.png)
 
 ## Extracting Tool Use Parts[](https://academy.claude.com/courses/claude-with-amazon-bedrock/running-tool-functions)
 
@@ -59,7 +59,7 @@ The key detail here is using `**tool_input` to splat the dictionary of arguments
 
 After running a tool, you need to format the response as a tool result part:
 
-![](https://academy.claude.com/assets/media/9786d7c8d5df5bb39c53002577f5db87d936bd11141a76b1aa43c9989218f283.png)
+![An assistant message content list with a text part and two "toolUse" parts, for get_current_datetime and other_tool.](https://academy.claude.com/assets/media/9786d7c8d5df5bb39c53002577f5db87d936bd11141a76b1aa43c9989218f283.png)
 
 Tool result parts require three key properties:
 
@@ -71,7 +71,7 @@ Tool result parts require three key properties:
 
 The tool use ID system becomes important when Claude requests multiple tools in parallel. For example, if Claude wants to run a calculator tool twice:
 
-![](https://academy.claude.com/assets/media/eabb90a73e770a487df4094e034ea95de5c45c4add32f652c2a2626bccea1dc3.png) ![](https://academy.claude.com/assets/media/7bf844674b47f636d2c2908bb712dbc882ae2377fdcc392c546b8f45af5e453d.png)
+![Claude sends calculator tool uses ab3 for 10 + 10 and po9 for 30 + 30; our server returns po9 output 60 and ab3 output 20.](https://academy.claude.com/assets/media/eabb90a73e770a487df4094e034ea95de5c45c4add32f652c2a2626bccea1dc3.png) ![Claude sends calculator tool uses ab3 for 10 + 10 and po9 for 30 + 30; our server returns po9 output 60 and ab3 output 20.](https://academy.claude.com/assets/media/7bf844674b47f636d2c2908bb712dbc882ae2377fdcc392c546b8f45af5e453d.png)
 
 Each tool use gets a unique ID (like "ab3" and "po9"), and your tool results must include the matching IDs so Claude knows which result corresponds to which request.
 

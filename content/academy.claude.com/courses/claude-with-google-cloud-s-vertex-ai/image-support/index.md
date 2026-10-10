@@ -4,7 +4,7 @@ Lesson 44 of 66 · Claude with Google Cloud's Vertex AIImage support
 
 Lesson 4410 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fimage-support)
 
@@ -12,7 +12,7 @@ Claude's vision capabilities let you include images in your messages and ask Cla
 
 ## Image Handling Basics[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/image-support)
 
-![](https://academy.claude.com/assets/media/c7b1cb42c0c5f46b5bf09f44253dd36437835d6302d817dd9f04345498dbd6c0.png)
+![Claude image limits and the token formula listed below, beside the base64 image block code also shown below.](https://academy.claude.com/assets/media/c7b1cb42c0c5f46b5bf09f44253dd36437835d6302d817dd9f04345498dbd6c0.png)
 
 When working with images in Claude, you need to understand several key limitations:
 
@@ -53,13 +53,13 @@ add_user_message(messages, [
 
 ## Message Flow[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/image-support)
 
-![](https://academy.claude.com/assets/media/89621a94c5d850a7741c336f51d220402877da316e72bcc34de53826768d8cb8.png)
+![User message with an image block of raw image data and a text block to Claude, whose reply begins "I see a tall tree".](https://academy.claude.com/assets/media/89621a94c5d850a7741c336f51d220402877da316e72bcc34de53826768d8cb8.png)
 
 The conversation works just like text-only interactions. Your server sends a user message containing both image and text blocks to Claude, and Claude responds with a text message analyzing the image.
 
 ## Prompting Techniques[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/image-support)
 
-![](https://academy.claude.com/assets/media/7822fde09008ecaaef45a499a4c64544727208168ee8e58cb4b75ccc0151695f.png)
+![User message with a photo of 12 marbles and the counting question, then Claude's reply of 13 marbles marked with a red X.](https://academy.claude.com/assets/media/7822fde09008ecaaef45a499a4c64544727208168ee8e58cb4b75ccc0151695f.png)
 
 The most important thing to understand about Claude's vision capabilities is that good prompting techniques are absolutely critical. Simple prompts often produce poor results, even with clear images.
 
@@ -71,7 +71,7 @@ For example, asking "How many marbles are in this image?" with an image containi
 
 ### Step-by-Step Analysis[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/image-support)
 
-![](https://academy.claude.com/assets/media/5cd168f34e55480f8d3b7a9b76f65fcda3f8d4c498dca282a14c72a6c4f20947.png)
+![A marble photo and the step-by-step counting prompt go to Claude, whose reply "I count 12 marbles in this image" is correct.](https://academy.claude.com/assets/media/5cd168f34e55480f8d3b7a9b76f65fcda3f8d4c498dca282a14c72a6c4f20947.png)
 
 Instead of a simple question, provide Claude with a methodology:
 
@@ -89,7 +89,7 @@ This structured approach helps Claude get the correct count of 12 marbles.
 
 ### One-Shot Examples[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/image-support)
 
-![](https://academy.claude.com/assets/media/9b02f763819da04216b0ab891e75ffca026fc66cf28f979ce70269ce0c8d1274.png)
+![An example photo labeled as 11 marbles, then a target photo; Claude correctly replies "I count 12 marbles in this image".](https://academy.claude.com/assets/media/9b02f763819da04216b0ab891e75ffca026fc66cf28f979ce70269ce0c8d1274.png)
 
 You can also use one-shot prompting by including multiple image-text pairs in a single message:
 
@@ -107,7 +107,7 @@ Providing an example significantly improves Claude's accuracy on the target imag
 
 ## Real-World Example: Fire Risk Assessment[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/image-support)
 
-![](https://academy.claude.com/assets/media/d71061d0c67d9ece85db6c5a354f08bbb66dbc6ff83dd4a13d7d118d914841fa.png)
+![Annotated satellite photo of a house surrounded by dense trees, with arrows marking the three risk features listed below.](https://academy.claude.com/assets/media/d71061d0c67d9ece85db6c5a354f08bbb66dbc6ff83dd4a13d7d118d914841fa.png)
 
 Here's a practical application: automating fire risk assessments for home insurance. Insurance companies often require homeowners to trim trees around their property to reduce wildfire risk. Instead of sending inspectors to each property, you can use satellite imagery with Claude.
 

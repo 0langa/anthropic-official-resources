@@ -6,6 +6,6 @@ Answer a few questions about your environment and get a tailored Claude Code dep
 
    ## How will you deploy Claude Code?
 
-   Claude EnterpriseSSO via Claude.ai, seat-basedClaude PlatformConsole, API keysThird-party cloudBedrock / Vertex / Foundry / Claude Platform on AWSNot decided yetShow me the comparison
+   Claude EnterpriseDevelopers sign in with their Claude accounts and use your Enterprise plan seatsClaude PlatformConsole, API keysThird-party cloudAmazon Bedrock, Google Vertex AI, Microsoft Foundry, or Claude Platform on AWSNot decided yetShow me the comparison
 
-   ContinueAnswer the questions above to continue
+   ContinueAnswer every question in this step to continue.

@@ -173,29 +173,35 @@ Register for our [webinar](https://claude.com/resources/webinars/building-claude
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 1, 2026
+[ArticleOct 8, 2026
 
-### Customize Claude Code with mods
+### Building effective agent automations
 
-Change how Claude Code behaves and looks with a few lines of TypeScript.
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
 
-Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
+Claude Platform
 
-### Claude for Government is now generally available
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 8, 2026
 
-Claude Code CLI and Claude for Microsoft 365 also now available in early access.](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 25, 2026
+### Build live dashboards and animate explainers with Claude
 
-### Build plugins for Claude
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
 
-You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 7, 2026
 
-Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
+### Claude Haiku 5.5
 
-### Claude Tag now supports personal connectors in channels
+Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
 
-Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
+(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)[ArticleOct 7, 2026
 
-Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
+### Automating eval design and hillclimbing with Claude
+
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
 
 ## Transform how your organization operates with Claude
 

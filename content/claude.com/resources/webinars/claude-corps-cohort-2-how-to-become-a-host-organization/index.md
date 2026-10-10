@@ -1,4 +1,4 @@
-Oct 8, 2026 — 9:00 – 10:00 AM PT
+On demand
 
 # Claude Corps Cohort 2: How to Become a Host Organization
 
@@ -6,7 +6,7 @@ A lot has changed since you applied to host Claude Corps fellows, and we want yo
 
 Register for the webinar
 
-Fill out the form below to reserve your seat.
+Fill out the form below to watch on demand.
 
 ## Featured speakers
 

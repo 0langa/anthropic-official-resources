@@ -4,7 +4,7 @@ Lesson 34 of 66 · Claude with Google Cloud's Vertex AIIntroducing Retrieval Aug
 
 Lesson 342 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fintroducing-retrieval-augmented-generation)
 
@@ -14,13 +14,13 @@ Retrieval Augmented Generation (RAG) is a technique that helps you work with lar
 
 Imagine you have a massive financial document and want to ask Claude specific questions about it, like "What risk factors does this company have?" You face a fundamental challenge: how do you get the right information from the document into Claude so it can answer your question effectively?
 
-![](https://academy.claude.com/assets/media/aa2d6dcef1136beb3f94eac3d88c0e58c286f71cf7e6ba9c5711a9d75d987d86.png)
+![A private 800 plus page financial report with sections such as Executive Summary, Risk Factors and Future Outlook.](https://academy.claude.com/assets/media/aa2d6dcef1136beb3f94eac3d88c0e58c286f71cf7e6ba9c5711a9d75d987d86.png)
 
 ## Option 1: Include Everything in the Prompt[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/introducing-retrieval-augmented-generation)
 
 The first approach seems straightforward - extract all the text from the document and stuff it directly into your prompt along with the user's question.
 
-![](https://academy.claude.com/assets/media/38c79483e6c91a124d55658918a5ab20523aa8089d0e031360e5f45d25078624.png)
+![Prompt reading "Answer the user's question about the financial document." with the whole report in financial_document tags.](https://academy.claude.com/assets/media/38c79483e6c91a124d55658918a5ab20523aa8089d0e031360e5f45d25078624.png)
 
 This approach has several problems:
 
@@ -32,11 +32,11 @@ This approach has several problems:
 
 The second approach is more sophisticated. You break the document into smaller chunks during a preprocessing step, then find and include only the chunks relevant to each user question.
 
-![](https://academy.claude.com/assets/media/1a6d91701aed328e1e8a964098476303554d0ee3dbc081f14ea8c0c7184c3142.png)
+![The financial report split into six chunks such as "Auditor's Report", "Key Performance Indicators" and "Market Data".](https://academy.claude.com/assets/media/1a6d91701aed328e1e8a964098476303554d0ee3dbc081f14ea8c0c7184c3142.png)
 
 Here's how it works: when a user asks "What risks does this company face?", you search through your chunks to find the one about "Risk Factors" and include only that section in your prompt to Claude.
 
-![](https://academy.claude.com/assets/media/b28946e9396a7c6f9015727c34b282669ab472c30081b79cb1639c85df4c40e0.png)
+![The user's question and only the relevant chunks of six go into a prompt with user_question and financial_document tags.](https://academy.claude.com/assets/media/b28946e9396a7c6f9015727c34b282669ab472c30081b79cb1639c85df4c40e0.png)
 
 ## Benefits of the Chunking Approach[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/introducing-retrieval-augmented-generation)
 

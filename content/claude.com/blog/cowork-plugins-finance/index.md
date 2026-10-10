@@ -69,32 +69,35 @@ To get started with Claude working across Excel and PowerPoint, download the add
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleSep 30, 2026
+[ArticleOct 8, 2026
 
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### Building effective agent automations
 
-Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
 
-Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
+Claude Platform
 
-### How to prepare for AI-driven code modernization projects
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 8, 2026
 
-How to organize AI-driven modernization projects for critical systems and regulated enterprises.
+### Build live dashboards and animate explainers with Claude
 
-Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
 
-### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 7, 2026
 
-CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
+### Claude Haiku 5.5
 
-Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
+Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
 
-### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
+(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)[ArticleOct 7, 2026
 
-Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
-‍
+### Automating eval design and hillclimbing with Claude
 
-Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
 
 ## Transform how your organization operates with Claude
 

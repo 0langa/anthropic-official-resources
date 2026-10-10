@@ -4,7 +4,7 @@ Lesson 65 of 65 · Claude with Amazon BedrockQualities of agents
 
 Lesson 653 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fqualities-of-agents)
 
@@ -14,19 +14,19 @@ After exploring Claude Code and Computer Use, we can identify key patterns that 
 
 When Claude was asked to add a test for a specific corner case, it followed a clear pattern of tool usage. The agent made four distinct tool calls: two to read existing files, one to update a file, and one to run tests. This breakdown reveals something important about agent behavior.
 
-![](https://academy.claude.com/assets/media/f5ad5bff08977290779432f4bf7ad736a0a15f0ff27771903c6e10b0af9ecc32.png)
+![Claude Code adding a test for document_path_to_markdown, with the user input, tool calls and success criteria labeled.](https://academy.claude.com/assets/media/f5ad5bff08977290779432f4bf7ad736a0a15f0ff27771903c6e10b0af9ecc32.png)
 
 Three of these calls were purely about gathering information from the environment - understanding the existing codebase before making changes. Only one call actually modified the environment. This pattern of "observe first, then act" appears consistently across both Claude Code and Computer Use.
 
 Computer Use follows the same approach when testing web applications. Each tool call returns a screenshot, giving Claude immediate visual feedback about the current state of the interface. This constant feedback loop allows the agent to understand what's happening and adjust its next actions accordingly.
 
-![](https://academy.claude.com/assets/media/f729ca3174769335bba7632b5af7b9b40bcdc9463cab2c57e19c20e8008d841f.png)
+![Computer Use transcript: tool calls with actions "screenshot", "left_click" and "type", each returning a screenshot.](https://academy.claude.com/assets/media/f729ca3174769335bba7632b5af7b9b40bcdc9463cab2c57e19c20e8008d841f.png)
 
 ## Comparing Agent Approaches[](https://academy.claude.com/courses/claude-with-amazon-bedrock/qualities-of-agents)
 
 Both Claude Code and Computer Use share several fundamental characteristics that make them effective:
 
-![](https://academy.claude.com/assets/media/327fc00b2bcbbddd68c521a6666ea996e1e8fe62727634f0c9ec0c5584d57c7c.png)
+![Table comparing Claude Code and Computer Use on six questions, from tool use to cost of an error, described below.](https://academy.claude.com/assets/media/327fc00b2bcbbddd68c521a6666ea996e1e8fe62727634f0c9ec0c5584d57c7c.png)
 
 - **Tool-based execution:** Both systems use tools extensively and run them in loops until reaching success criteria or hitting an error
 - **Environmental context:** Rather than relying on detailed prompts or RAG processes, they gather context directly through tool interactions
@@ -54,7 +54,7 @@ Agents excel at complex, knowledge-intensive work where mistakes won't cause maj
 
 The only reliable way to build effective agents is through rigorous testing. Create evaluation criteria and continuously test your agent's performance against real scenarios. This feedback loop is essential for identifying weaknesses and improving reliability.
 
-![](https://academy.claude.com/assets/media/138be9580cf8b3ff3595fb0ff9355ca6dc8a61a70d7b13cae4fe0ce01be10a10.png)
+![Recap of the four qualities of effective agents described above, ending with testing your prompts and tool descriptions.](https://academy.claude.com/assets/media/138be9580cf8b3ff3595fb0ff9355ca6dc8a61a70d7b13cae4fe0ce01be10a10.png)
 
 Understanding these patterns helps explain why Claude Code and Computer Use work so well - they're designed around these fundamental principles of effective agent architecture. When building your own agents, keep these qualities in mind to create systems that are both powerful and reliable.
 

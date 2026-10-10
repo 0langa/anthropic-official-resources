@@ -18,6 +18,16 @@ Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude
 
 [ArticleOct 8, 2026
 
+### Building effective agent automations
+
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
+
+[ArticleOct 8, 2026
+
 ### How Block orchestrates Claude Fable across thousands of pull requests
 
 Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
@@ -42,12 +52,6 @@ Claude Platform
 
 (opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
 
-[ArticleOct 6, 2026
-
-### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
-
-Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)
-
 [ArticleOct 8, 2026
 
 ### Build live dashboards and animate explainers with Claude
@@ -60,9 +64,17 @@ Featured resource 1 of 5: Build live dashboards and animate explainers with Clau
 
 Advanced filters(1)
 
-Showing 12 of 94 resources
+Showing 12 of 95 resources
 
-[ArticleOct 7, 2026
+[ArticleOct 8, 2026
+
+### Building effective agent automations
+
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 7, 2026
 
 ### Automating eval design and hillclimbing with Claude
 
@@ -136,12 +148,6 @@ Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improvi
 
 Retailers running shopping agents on Claude have seen carts up to 35% larger and shoppers 60% more likely to complete a purchase.
 
-Claude Platform](https://claude.com/resources/articles/claude-for-commerce-agents)[ArticleSep 2, 2026
-
-### A guide to the anatomy of effective commerce agents
-
-The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
-
-Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
+Claude Platform](https://claude.com/resources/articles/claude-for-commerce-agents)
 
 View more

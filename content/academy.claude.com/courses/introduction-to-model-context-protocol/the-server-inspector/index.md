@@ -4,7 +4,7 @@ Lesson 4 of 10 · Introduction to Model Context ProtocolThe server inspector
 
 Lesson 43 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-model-context-protocol%2Fthe-server-inspector)
 

@@ -2,7 +2,7 @@
 
 Set up and use the Owkin integration with Claude to access Pathology Explorer, an Owkin AI agent that transforms H&E pathology slides into queryable insights for drug discovery and clinical research.
 
-15 minClaude.ai
+15 minClaude
 
 [Open Claude](https://claude.ai/new)
 

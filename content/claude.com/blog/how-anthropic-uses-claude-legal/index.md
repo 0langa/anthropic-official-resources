@@ -124,32 +124,37 @@ Mark envisions a future where new lawyers inherit their team's accumulated knowl
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleSep 30, 2026
+[ArticleOct 8, 2026
 
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### Building effective agent automations
 
-Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
 
-Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
+Claude Platform
 
-### How to prepare for AI-driven code modernization projects
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 7, 2026
 
-How to organize AI-driven modernization projects for critical systems and regulated enterprises.
+### Automating eval design and hillclimbing with Claude
 
-Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
+Claude Platform
 
-CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
 
-Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
+### Claude Code in the cloud: a field guide to cloud sessions
 
-### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
 
-Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
-‍
+Claude Code
 
-Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
+
+### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
+
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
+
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)
 
 ## Transform how your organization operates with Claude
 

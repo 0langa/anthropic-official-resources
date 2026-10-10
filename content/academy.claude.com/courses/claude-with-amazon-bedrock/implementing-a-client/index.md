@@ -4,7 +4,7 @@ Lesson 53 of 65 · Claude with Amazon BedrockImplementing a client
 
 Lesson 5310 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fimplementing-a-client)
 
@@ -14,11 +14,11 @@ Now that we have our MCP server working, it's time to build the client side. The
 
 Before diving into the code, let's clarify an important point about MCP projects. Normally, you'd implement either an MCP client or an MCP server - not both. We're building both in this project just so you can see how they work together.
 
-![](https://academy.claude.com/assets/media/e94731a8dca43d340b500f65cfb16000c821fe5e222b2b056639a2b575e7b8f3.png)
+![Diagram of our server containing the MCP client, which connects both ways to a separate MCP server.](https://academy.claude.com/assets/media/e94731a8dca43d340b500f65cfb16000c821fe5e222b2b056639a2b575e7b8f3.png)
 
 The MCP client consists of two main components working together:
 
-![](https://academy.claude.com/assets/media/cc4caa2d061790f9dd25575567a1a1a39f3b7665cce6019103004c86fd7c87e4.png)
+![Diagram of mcp_client.py containing the MCP Client and the Client Session, which connects to a separate MCP server.](https://academy.claude.com/assets/media/cc4caa2d061790f9dd25575567a1a1a39f3b7665cce6019103004c86fd7c87e4.png)
 
 - **MCP Client** - A custom class we create to make using the session easier
 - **Client Session** - The actual connection to the server (part of the MCP Python SDK)
@@ -29,7 +29,7 @@ The client session handles the low-level communication but requires careful reso
 
 Remember our application flow diagram? The client plays a crucial role in two key moments:
 
-![](https://academy.claude.com/assets/media/a2e0ebe2d4d156022ef0407cd8d9dfcbab01dfdfbec1a87875c82618902af67a.png)
+![Sequence diagram of the application flow, highlighting where our CLI code uses the client to list tools and to call a tool.](https://academy.claude.com/assets/media/a2e0ebe2d4d156022ef0407cd8d9dfcbab01dfdfbec1a87875c82618902af67a.png)
 
 Our CLI code uses the client to:
 

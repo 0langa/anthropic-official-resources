@@ -11,7 +11,7 @@ In this lessonBy the end, you’ll be able to
 - Weigh what it would cost to split or merge organizations once members are working
 - Explain how members arrive in the organization you land on, through just-in-time provisioning or directory sync
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fone-organization-or-many)
 

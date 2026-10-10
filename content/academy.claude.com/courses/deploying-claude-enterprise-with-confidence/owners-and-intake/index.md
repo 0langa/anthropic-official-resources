@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Identify the right owner for each decision at your company
 - Read your intake results to see which decisions need extra attention at your company
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fowners-and-intake)
 

@@ -2,7 +2,7 @@
 
 Connect Claude to Benevity's database of 2.5M+ nonprofits to discover and research charitable organizations.
 
-9 minClaude.ai
+9 minClaude
 
 [Open Claude](https://claude.ai/new)
 

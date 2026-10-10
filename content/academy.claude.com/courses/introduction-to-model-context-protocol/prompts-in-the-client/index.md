@@ -4,7 +4,7 @@ Lesson 9 of 10 · Introduction to Model Context ProtocolPrompts in the client
 
 Lesson 97 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-model-context-protocol%2Fprompts-in-the-client)
 

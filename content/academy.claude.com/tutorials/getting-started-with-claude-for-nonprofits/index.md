@@ -2,7 +2,7 @@
 
 Learn how to access Claude's nonprofit pricing, connect to fundraising and donor management tools, and get your team started.
 
-3 minClaude.ai
+3 minClaude
 
 [Open Claude](https://claude.ai/new)
 

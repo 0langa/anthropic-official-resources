@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Decide when a piece of work belongs in a project
 - Choose between the three ways to start a project
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-cowork%2Fgiving-cowork-context)
 

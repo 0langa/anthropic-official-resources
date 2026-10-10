@@ -259,11 +259,11 @@ Data10 skills for SQL generation, table profiling, dashboard specs, and metric n
 
 `/write-query`Read the warehouse model, write the SQL, and answer the business question
 
-[Run](claude://cowork/new?q=%2Fwrite-query)
+[Open in Cowork](claude://cowork/new?q=%2Fwrite-query)
 
 `/explore-data`Profile a table and summarize what's in it
 
-[Run](claude://cowork/new?q=%2Fexplore-data)
+[Open in Cowork](claude://cowork/new?q=%2Fexplore-data)
 
 Show all 9 skills
 
@@ -297,7 +297,7 @@ Query the warehouse directly when the answer isn't in the semantic model yet.
 
 [Connect](https://claude.ai/desktop/directory/snowflake)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 
@@ -409,7 +409,7 @@ You did this for one margin question. The same approach covers cohort retention,
 
 [![](https://academy.claude.com/surfaces/excel-icon.svg)
 
-Claude in Excel
+Claude for Excel
 
 Validate the numbers in a workbook
 

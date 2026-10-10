@@ -4,7 +4,7 @@ Lesson 60 of 65 · Claude with Amazon BedrockEnhancements with MCP servers
 
 Lesson 605 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fenhancements-with-mcp-servers)
 
@@ -14,11 +14,11 @@ Claude Code has an MCP client built right into it, which means you can connect M
 
 The Model Context Protocol allows Claude Code to connect to external services through MCP servers. Each server can provide tools, prompts, and resources that extend what Claude can do.
 
-![](https://academy.claude.com/assets/media/f6811880b277ed7bfb1a1d8680a08e31353b3de4f22b0114a964a98fc6582f76.png)
+![Claude Code's MCP client connects to two MCP servers with tools, prompts and resources, each calling an outside service.](https://academy.claude.com/assets/media/f6811880b277ed7bfb1a1d8680a08e31353b3de4f22b0114a964a98fc6582f76.png)
 
 In this example, we'll connect Claude Code to a custom MCP server that provides a document conversion tool. This will let Claude read and convert PDF and Word documents to markdown format.
 
-![](https://academy.claude.com/assets/media/0a249b24a1366e1ff3f1dfe3cb525d14f8453cc7f3f8d822304c53bf060ab5f2.png)
+![The MCP client inside Claude Code connects to our MCP server, which holds the document_path_to_markdown tool.](https://academy.claude.com/assets/media/0a249b24a1366e1ff3f1dfe3cb525d14f8453cc7f3f8d822304c53bf060ab5f2.png)
 
 ## Adding an MCP Server to Claude Code[](https://academy.claude.com/courses/claude-with-amazon-bedrock/enhancements-with-mcp-servers)
 
@@ -41,7 +41,7 @@ After adding the server, restart Claude Code and it will automatically connect t
 
 Once connected, Claude can use the tools provided by your MCP server. In our example, we can ask Claude to convert document files to markdown format, and it will automatically use the document conversion tool we created.
 
-![](https://academy.claude.com/assets/media/84fd59d8fe1fdec90ff03bf48b1f850a449680ad1e7c97b6b2d0716e8343e3b8.png)
+![Claude Code runs the MCP tool document_path_to_markdown on mcp_docs.docx, returning markdown with a primitives table.](https://academy.claude.com/assets/media/84fd59d8fe1fdec90ff03bf48b1f850a449680ad1e7c97b6b2d0716e8343e3b8.png)
 
 The tool successfully converts the document content, showing how MCP servers can add entirely new capabilities to Claude Code.
 
@@ -49,7 +49,7 @@ The tool successfully converts the document content, showing how MCP servers can
 
 There are many existing MCP servers that can enhance your development workflow:
 
-![](https://academy.claude.com/assets/media/e1fbfe9fdc0157c977156bc860ad86a16a82c1467c3135021efb0b90b9bff540.png)
+![Extending Claude with MCP: a table of six MCP servers and what each one lets Claude do, listed below.](https://academy.claude.com/assets/media/e1fbfe9fdc0157c977156bc860ad86a16a82c1467c3135021efb0b90b9bff540.png)
 
 - **sentry-mcp** - Automatically discover and fix bugs logged in Sentry
 - **playwright-mcp** - Gives Claude browser automation capabilities for testing and troubleshooting

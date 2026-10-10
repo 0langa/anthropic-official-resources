@@ -6189,6 +6189,9 @@
   "https://platform.claude.com/docs/en/managed-agents/session-operations": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/managed-agents/session-threads": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/managed-agents/sessions": [
     "Native source; upstream MDX components retained."
   ],
@@ -6205,6 +6208,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/managed-agents/webhooks": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/workflow-runs": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/models/fable-5-1/migration-guide": [
@@ -7383,6 +7389,9 @@
   "https://support.claude.com/en/articles/14447276-configure-a-custom-opentelemetry-collector-for-office-agents": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/14477985": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry": [
     "Native source; upstream MDX components retained."
   ],
@@ -7881,6 +7890,9 @@
   "https://support.claude.com/en/articles/17318731-use-claude-code-local-mode-and-claude-cowork-local-mode-on-a-hipaa-ready-enterprise-plan": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/17440474": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude": [
     "Native source; upstream MDX components retained."
   ],
@@ -7893,7 +7905,13 @@
   "https://support.claude.com/en/articles/17454997-get-started-with-claude-motion": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/17457950": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/17457950-use-artifacts-with-a-keyboard-or-screen-reader": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/17458093": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/17458093-claude-docs-keyboard-shortcuts": [
@@ -8329,27 +8347,13 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/anthropic-interviewer": [
-    "Could not read tab 'Creatives': TimeoutError",
-    "Could not read tab 'Scientists': TimeoutError",
-    "Could not read tab 'Computer & Math': TimeoutError",
-    "Could not read tab 'Art, Design, & Media': TimeoutError",
-    "Could not read tab 'Business & Financial': TimeoutError",
-    "Could not read tab 'Office & Admin': TimeoutError",
     "Could not read tab 'Sales': TimeoutError",
-    "Could not read tab 'Visual artists': TimeoutError",
     "Could not read tab 'Craftspeople': TimeoutError",
-    "Could not read tab 'Designers': TimeoutError",
     "Could not read tab 'Filmmakers': TimeoutError",
-    "Could not read tab 'Game developers': TimeoutError",
-    "Could not read tab 'Physicists': TimeoutError",
     "Could not read tab 'Chemical engineers': TimeoutError",
-    "Could not read tab 'Data scientists': TimeoutError",
-    "Could not read tab 'Mechanical engineers': TimeoutError",
-    "Could not read tab 'Astronomers': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/anthropic-public-record": [
-    "Could not read tab 'Support for gov involvement': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk": [
@@ -8375,8 +8379,6 @@
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/news/claude-opus-4-5": [
-    "Could not read tab 'BrowseComp-Plus': TimeoutError",
-    "Could not read tab 'Vending-Bench': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-opus-4-6": [
@@ -8388,17 +8390,12 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-opus-4-7": [
-    "Could not read tab 'Vision': TimeoutError",
-    "Could not read tab 'Document reasoning': TimeoutError",
-    "Could not read tab 'Long-context reasoning': TimeoutError",
-    "Could not read tab 'Biology': TimeoutError",
-    "Could not read tab 'Coding': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-opus-5": [
     "Could not read tab 'CursorBench': TimeoutError",
-    "Could not read tab 'GDPval-AA v2': TimeoutError",
-    "Could not read tab 'Cell artifact': TimeoutError",
+    "Could not read tab 'AutomationBench': TimeoutError",
+    "Could not read tab 'DeepSearchQA': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-sonnet-4-5": [
@@ -8484,10 +8481,7 @@
   ],
   "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench": [
     "Could not read tab 'Example 2': TimeoutError",
-    "Could not read tab 'Example 2': TimeoutError",
-    "Could not read tab 'Example 2': TimeoutError",
     "Could not read tab 'Example 3': TimeoutError",
-    "Could not read tab 'Example 2': TimeoutError",
     "Could not read tab 'Example 3': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
@@ -8502,22 +8496,13 @@
   ],
   "https://www.anthropic.com/research/anthropic-interviewer": [
     "Could not read tab 'Creatives': TimeoutError",
-    "Could not read tab 'Scientists': TimeoutError",
     "Could not read tab 'Computer & Math': TimeoutError",
-    "Could not read tab 'Art, Design, & Media': TimeoutError",
     "Could not read tab 'Business & Financial': TimeoutError",
-    "Could not read tab 'Office & Admin': TimeoutError",
     "Could not read tab 'Sales': TimeoutError",
-    "Could not read tab 'Visual artists': TimeoutError",
     "Could not read tab 'Craftspeople': TimeoutError",
-    "Could not read tab 'Designers': TimeoutError",
-    "Could not read tab 'Filmmakers': TimeoutError",
-    "Could not read tab 'Game developers': TimeoutError",
     "Could not read tab 'Physicists': TimeoutError",
     "Could not read tab 'Chemical engineers': TimeoutError",
     "Could not read tab 'Data scientists': TimeoutError",
-    "Could not read tab 'Mechanical engineers': TimeoutError",
-    "Could not read tab 'Astronomers': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/assistant-axis": [
@@ -8532,7 +8517,9 @@
   ],
   "https://www.anthropic.com/research/claude-opus-5": [
     "Could not read tab 'GDPval-AA v2': TimeoutError",
+    "Could not read tab 'OSWorld 2.0': TimeoutError",
     "Could not read tab 'HLE': TimeoutError",
+    "Could not read tab 'AutomationBench': TimeoutError",
     "Could not read tab 'DeepSearchQA': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
@@ -8543,16 +8530,12 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-sonnet-5": [
-    "Could not read tab 'Agentic computer use': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/research/claude-values-models-languages": [
-    "Could not read tab '': TimeoutError",
-    "Could not read tab '': TimeoutError",
-    "Could not read tab '': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/cyber-toolkits-update": [

@@ -62,14 +62,12 @@ https://support.claude.com/en/articles/13892150-work-across-microsoft-365-apps
 https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms
 https://support.claude.com/en/articles/13945233-use-claude-in-excel-and-powerpoint-with-an-llm-gateway
 https://support.claude.com/en/articles/14465370-use-claude-for-word
-https://support.claude.com/en/articles/14477985
 https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents
 https://support.claude.com/en/articles/14855664-use-claude-for-outlook
 https://support.claude.com/en/articles/15330089
 https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion
-https://support.claude.com/en/articles/17440474
-https://support.claude.com/en/articles/17457950
-https://support.claude.com/en/articles/17458093
+https://support.claude.com/en/articles/17454700
+https://support.claude.com/en/articles/17454997
 https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data
 https://support.claude.com/en/articles/9945670-using-the-github-integration
 https://support.claude.com/en/articles/9945689-claude-for-engineering

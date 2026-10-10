@@ -49,32 +49,33 @@ We're also finding that while coding has been the proving ground for AI agents,
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleSep 30, 2026
+[ArticleSep 25, 2026
 
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
+### What a task costs on Opus 5.5
 
-Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
+The same token price can cost very different amounts per task. Learn what Claude Code tasks cost on Opus 5.5 and which settings change the bill.
 
-Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 23, 2026
+Claude Code
 
-### How to prepare for AI-driven code modernization projects
+(opens in new tab)](https://claude.dev/blog/what-a-task-costs-on-opus-5-5/)[ArticleSep 24, 2026
 
-How to organize AI-driven modernization projects for critical systems and regulated enterprises.
+### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
 
-Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 23, 2026
+Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 2, 2026
 
-CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
+### Building commerce agents with Claude
 
-Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 17, 2026
+Retailers running shopping agents on Claude have seen carts up to 35% larger and shoppers 60% more likely to complete a purchase.
 
-### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
+Claude Platform](https://claude.com/resources/articles/claude-for-commerce-agents)[ArticleJul 7, 2026
 
-Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.
-‍
+### How people are using Claude Cowork
 
-Claude PlatformClaude Code](https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)
+In a sample of Claude Cowork sessions, we found that roughly half of all usage comprises “the work around the work”—tasks that are part of a broad swath of jobs, but are rarely a person’s core responsibility.
+
+Claude Cowork](https://claude.com/resources/articles/how-people-are-using-claude-cowork)
 
 ## Transform how your organization operates with Claude
 

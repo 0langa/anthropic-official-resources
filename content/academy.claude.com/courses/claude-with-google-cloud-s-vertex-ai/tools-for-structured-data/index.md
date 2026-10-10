@@ -4,7 +4,7 @@ Lesson 31 of 66 · Claude with Google Cloud's Vertex AITools for structured data
 
 Lesson 319 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Ftools-for-structured-data)
 
@@ -14,7 +14,7 @@ When you need structured data from Claude, you have two main approaches: prompt-
 
 The tool-based approach works by creating a JSON schema that defines the exact structure of data you want to extract. Instead of hoping Claude formats its response correctly, you're essentially giving Claude a function to call with specific parameters that match your desired output structure.
 
-![](https://academy.claude.com/assets/media/5166b9bc46d07c80818311c0fecceae36d74e3040b2c256a044984130862a863.png)
+![The financial_analysis_schema tool definition, with an integer "balance" and a "key_insights" array of strings.](https://academy.claude.com/assets/media/5166b9bc46d07c80818311c0fecceae36d74e3040b2c256a044984130862a863.png)
 
 Here's how the process works:
 
@@ -29,7 +29,7 @@ For example, if you want to extract a financial balance and key insights from a 
 
 A critical part of this technique is ensuring Claude actually calls your tool. You can control this behavior using the `tool_choice` parameter:
 
-![](https://academy.claude.com/assets/media/3a49b253e89c2f1d4b2df5b3b1ee796948c654630b73c9b09e3f178ffad689a1.png)
+![Three tool_choice options, "auto", "any" and "tool" with a tool name, and the effect of each on tool use, listed below.](https://academy.claude.com/assets/media/3a49b253e89c2f1d4b2df5b3b1ee796948c654630b73c9b09e3f178ffad689a1.png)
 
 - `{"type": "auto"}` - Model decides if it needs to use a tool (default)
 - `{"type": "any"}` - Model must use a tool, but can choose which one

@@ -4,7 +4,7 @@ Lesson 23 of 65 · Claude with Amazon BedrockJSON Schema for tools
 
 Lesson 235 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fjson-schema-for-tools)
 
@@ -14,7 +14,7 @@ After creating your tool function, the next step is writing a JSON schema to des
 
 JSON Schema isn't something invented just for AI tools - it's been around for years as a standard way to validate data. The schema has two main parts: the name and description at the top (which help Claude understand when to use the tool), and the actual schema that describes the function's arguments.
 
-![](https://academy.claude.com/assets/media/4f9eb92ac92c4d104bd4188885d3eff8ed7b78c962a75bf4c3b1cc456894aff1.png)
+![A get_weather toolSpec with its name and description boxed at the top and an inputSchema requiring "location" boxed below.](https://academy.claude.com/assets/media/4f9eb92ac92c4d104bd4188885d3eff8ed7b78c962a75bf4c3b1cc456894aff1.png)
 
 The top section contains the tool's name and description, which helps Claude understand when to use it. The bottom section is the actual schema that describes your function's arguments in detail.
 
@@ -35,19 +35,19 @@ def process_data(ids, profile, primary_id, value):
 
 Create a dictionary with sample values:
 
-![](https://academy.claude.com/assets/media/45dc10d709dd7a8967367cbec8a349090f3613e3ef8dc7c7633e761e30d2cde7.png)
+![Dictionary for process_data: "ids" is a list with 1, "profile" has "active" True, "primary_id" is "abc", "value" is 20.](https://academy.claude.com/assets/media/45dc10d709dd7a8967367cbec8a349090f3613e3ef8dc7c7633e761e30d2cde7.png)
 
 ### Step 2: Convert to JSON[](https://academy.claude.com/courses/claude-with-amazon-bedrock/json-schema-for-tools)
 
 Convert your Python dictionary to proper JSON format. The main difference is changing Python's `True` to JSON's `true`.
 
-![](https://academy.claude.com/assets/media/d177a699af0fe1303683ea4279df2ea3466ded1f78370ae949e062f3ddf260e0.png)
+![The step 1 dictionary as JSON, same values with ids 1, primary_id "abc" and value 20, except "active" is now lowercase true.](https://academy.claude.com/assets/media/d177a699af0fe1303683ea4279df2ea3466ded1f78370ae949e062f3ddf260e0.png)
 
 ### Step 3: Use an Online Converter[](https://academy.claude.com/courses/claude-with-amazon-bedrock/json-schema-for-tools)
 
 Search for "JSON to JSON Schema converter" and use one of the many free online tools. Paste your JSON data and let it generate the schema automatically.
 
-![](https://academy.claude.com/assets/media/fac5eb551cc26408c62aa5e1ea21ffa04b1b4dbeacb7312089a99b84ebad974e.png)
+![Online JSON to JSON Schema converter: the sample JSON pasted in, a Generate Schema button, and the inferred schema under it.](https://academy.claude.com/assets/media/fac5eb551cc26408c62aa5e1ea21ffa04b1b4dbeacb7312089a99b84ebad974e.png)
 
 The tool will analyze your sample data and create a proper schema structure. Remove any `$schema` declarations from the output - you don't need them.
 
@@ -55,7 +55,7 @@ The tool will analyze your sample data and create a proper schema structure. Rem
 
 The most important step is adding detailed descriptions to each property. These descriptions help Claude understand exactly what each argument does and how to use it.
 
-![](https://academy.claude.com/assets/media/1e49419e1af6a7f4e9b0ee35e6e2c01c0b85012d6819463b4f87122c3e915a97.png)
+![JSON schema where the ids array of numbers and the primary_id string each gain a "description" key set to three dots.](https://academy.claude.com/assets/media/1e49419e1af6a7f4e9b0ee35e6e2c01c0b85012d6819463b4f87122c3e915a97.png)
 
 ## Writing Good Descriptions[](https://academy.claude.com/courses/claude-with-amazon-bedrock/json-schema-for-tools)
 
@@ -68,7 +68,7 @@ When writing descriptions for your tools and properties, follow these best pract
 
 Here's an example of a well-described tool schema:
 
-![](https://academy.claude.com/assets/media/cf9af981071dbfc4414f4402c77be9c86a55a210fd62fb3daf543839d9685f4d.png)
+![JSON Schema for get_weather, returning temperature, conditions and humidity, with a required "location" such as "London,UK".](https://academy.claude.com/assets/media/cf9af981071dbfc4414f4402c77be9c86a55a210fd62fb3daf543839d9685f4d.png)
 
 Notice how the description clearly explains what the weather tool does, when to use it, what data it returns, and provides specific examples of valid location formats.
 
@@ -76,7 +76,7 @@ Notice how the description clearly explains what the weather tool does, when to 
 
 Your final JSON schema should look something like this structure, with the `toolSpec` containing the name, description, and `inputSchema` with the detailed argument specifications:
 
-![](https://academy.claude.com/assets/media/62744d87fb2e71403697f8f18ecf2be24fe1f1ffefff3c8ea39c04cc27652aec.png)
+![The get_weather toolSpec schema: name, a multi-sentence description, and inputSchema with a required location string.](https://academy.claude.com/assets/media/62744d87fb2e71403697f8f18ecf2be24fe1f1ffefff3c8ea39c04cc27652aec.png)
 
 The schema acts as a contract between your code and Claude, ensuring that when Claude decides to use your tool, it knows exactly what information to provide and in what format. This clear communication is what makes tool use reliable and effective.
 

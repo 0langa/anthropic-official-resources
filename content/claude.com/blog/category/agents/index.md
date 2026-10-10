@@ -8,23 +8,31 @@ Unsubscribe at any time.
 
 News, announcements, and stories from Anthropic about Claude and the people building with it.
 
-[ArticleOct 6, 2026
+[ArticleOct 8, 2026
 
-### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
+### Build live dashboards and animate explainers with Claude
 
-Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
 
-[ArticleOct 6, 2026
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
 
-### Claude now works with Google Docs, Sheets, and Slides
+[ArticleOct 8, 2026
 
-Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta).
+### Building effective agent automations
 
-Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
 
-[ArticleOct 6, 2026
+Claude Platform
 
-### We’re expanding the Claude Startups program to help founders build](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
+
+[ArticleOct 8, 2026
+
+### How Block orchestrates Claude Fable across thousands of pull requests
+
+Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
+
+Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)
 
 [ArticleOct 7, 2026
 
@@ -44,19 +52,29 @@ Claude Platform
 
 (opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
 
-[ArticleOct 6, 2026
+[ArticleOct 8, 2026
 
-### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
+### Build live dashboards and animate explainers with Claude
 
-Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
 
-Featured resource 1 of 5: How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
+
+Featured resource 1 of 5: Build live dashboards and animate explainers with Claude
 
 Advanced filters(1)
 
-Showing 12 of 94 resources
+Showing 12 of 95 resources
 
-[ArticleOct 7, 2026
+[ArticleOct 8, 2026
+
+### Building effective agent automations
+
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 7, 2026
 
 ### Automating eval design and hillclimbing with Claude
 
@@ -130,12 +148,6 @@ Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improvi
 
 Retailers running shopping agents on Claude have seen carts up to 35% larger and shoppers 60% more likely to complete a purchase.
 
-Claude Platform](https://claude.com/resources/articles/claude-for-commerce-agents)[ArticleSep 2, 2026
-
-### A guide to the anatomy of effective commerce agents
-
-The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
-
-Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
+Claude Platform](https://claude.com/resources/articles/claude-for-commerce-agents)
 
 View more

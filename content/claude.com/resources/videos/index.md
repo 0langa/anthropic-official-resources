@@ -8,6 +8,16 @@ Unsubscribe at any time.
 
 Watchable demos, talks, and tutorials from the teams building and using Claude.
 
+[Video2 min watch
+
+### How an Anthropic designer uses Claude Slides
+
+Make slides with Claude starting from a voice memo. Nate, a designer at Anthropic, talks through an idea on a walk and then turns it into a deck.
+
+Claude Design
+
+(opens in new tab)](https://www.youtube.com/watch?v=bVXiNb9RyyI)
+
 [Video3 min watch
 
 ### Getting started with Claude Tag
@@ -36,15 +46,15 @@ Claude Code
 
 (opens in new tab)](https://www.youtube.com/watch?v=mQZB0l-rhxE)
 
-[Video18 min watch
+[Video33 min watch
 
-### Patrick Collison on Claude Code at Stripe
+### Building secure agents for knowledge work
 
-Stripe CEO Patrick Collison joined Boris to talk about how Stripe builds with Claude Code.
+Katelyn Lesse, Head of Platform Engineering at Anthropic sat down with Dan Shipper, Co-Founder and CEO at Every and Willie Williams, Head of Platform at Every to talk about the AI coworker they built on Claude Managed Agents.
 
-Claude Code
+Claude Platform
 
-(opens in new tab)](https://www.youtube.com/watch?v=S_lzYIvtEaQ)
+(opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)
 
 [Video2 min watch
 
@@ -56,23 +66,21 @@ Claude Design
 
 (opens in new tab)](https://www.youtube.com/watch?v=bVXiNb9RyyI)
 
-[Video3 min watch
-
-### Getting started with Claude Tag
-
-Add Claude to a channel in a team workspace like Slack and it can keep up with your whole team in real time.
-
-Claude Tag
-
-(opens in new tab)](https://www.youtube.com/watch?v=_f_rtbW_uFM)
-
-Featured resource 1 of 5: Getting started with Claude Tag
+Featured resource 1 of 5: How an Anthropic designer uses Claude Slides
 
 Advanced filters
 
-Showing 11 of 51 resources
+Showing 11 of 52 resources
 
-[Video2 min watch
+[Video33 min watch
+
+### Building secure agents for knowledge work
+
+Katelyn Lesse, Head of Platform Engineering at Anthropic sat down with Dan Shipper, Co-Founder and CEO at Every and Willie Williams, Head of Platform at Every to talk about the AI coworker they built on Claude Managed Agents.
+
+Claude Platform
+
+(opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)[Video2 min watch
 
 ### How an Anthropic designer uses Claude Slides
 
@@ -142,12 +150,6 @@ Claude traced 2,781 points along the Moon's horizon in the 1968 Earthrise photo 
 
 Describe a model or drop in a photo, and Claude designs it in bricks where every piece connects, with a step-by-step manual.
 
-(opens in new tab)](https://www.youtube.com/watch?v=lCR9epzSNGc)[Video1 min watch
-
-### Claude Opus 5.5 turns graphite into gravity
-
-Claude read a hand-drawn catapult part by part and stood the sketch up as a wooden model, where every throw is simulated physics.
-
-(opens in new tab)](https://www.youtube.com/watch?v=uMsZ21ubIMM)
+(opens in new tab)](https://www.youtube.com/watch?v=lCR9epzSNGc)
 
 View more

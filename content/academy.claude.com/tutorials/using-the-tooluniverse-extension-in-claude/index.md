@@ -2,7 +2,7 @@
 
 Set up and use the ToolUniverse desktop extension to give Claude access to 600+ vetted scientific tools for hypothesis exploration, drug discovery, and multi-database research workflows.
 
-20 minClaude.ai
+20 minClaude
 
 [Open Claude](https://claude.ai/new)
 

@@ -4,13 +4,13 @@ Lesson 10 of 10 · Introduction to Model Context ProtocolMCP review
 
 Lesson 102 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-model-context-protocol%2Fmcp-review)
 
 Now that we've built our MCP server, let's review the three core server primitives and understand when to use each one. The key insight is that each primitive is controlled by a different part of your application stack.
 
-![](https://academy.claude.com/assets/media/bc7ee5fac91b20fa74fcc27bb9255bc41c9fb9c50a15ae60e3bfccc7a1cfad3e.png)
+![Tools, resources and prompts compared: Claude controls tools, our app controls resources, the user controls prompts.](https://academy.claude.com/assets/media/bc7ee5fac91b20fa74fcc27bb9255bc41c9fb9c50a15ae60e3bfccc7a1cfad3e.png)
 
 ## Tools: Model-Controlled[](https://academy.claude.com/courses/introduction-to-model-context-protocol/mcp-review)
 

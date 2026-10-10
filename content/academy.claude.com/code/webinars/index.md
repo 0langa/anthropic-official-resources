@@ -1,7 +1,7 @@
 
 
-# Not found
+# Page not found
 
-That page doesn’t exist. The slug may be unpublished or the URL may have a typo.
+This page doesn’t exist or has moved. Check the URL, or go to the home page.
 
-[Back to all content](https://academy.claude.com/)
+[Go home](https://academy.claude.com/)

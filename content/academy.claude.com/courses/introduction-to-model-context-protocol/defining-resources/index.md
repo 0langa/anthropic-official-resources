@@ -4,7 +4,7 @@ Lesson 6 of 10 · Introduction to Model Context ProtocolDefining resources
 
 Lesson 68 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-model-context-protocol%2Fdefining-resources)
 

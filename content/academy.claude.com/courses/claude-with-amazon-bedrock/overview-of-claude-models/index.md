@@ -4,13 +4,13 @@ Lesson 1 of 65 · Claude with Amazon BedrockOverview of Claude Models
 
 Lesson 12 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Foverview-of-claude-models)
 
 Claude offers three distinct model families, each optimized for different priorities. All three models share Claude's core capabilities - they can handle text generation, coding, image analysis, and other tasks. The key difference is how they balance intelligence, speed, and cost. The examples in this course use Claude Haiku 4.5.
 
-![](https://academy.claude.com/assets/media/d87ca18bfca0fadd839a95aa8eecb912a4b3cf1dbb1400081f2324be879509a9.png)
+![Claude model family table comparing Opus, Sonnet and Haiku on description, cost, latency, reasoning support and best uses.](https://academy.claude.com/assets/media/d87ca18bfca0fadd839a95aa8eecb912a4b3cf1dbb1400081f2324be879509a9.png)
 
 ## Claude Opus[](https://academy.claude.com/courses/claude-with-amazon-bedrock/overview-of-claude-models)
 
@@ -34,7 +34,7 @@ Haiku does support reasoning: Claude Haiku 4.5 can think through harder problems
 
 ## Choosing the Right Model[](https://academy.claude.com/courses/claude-with-amazon-bedrock/overview-of-claude-models)
 
-![](https://academy.claude.com/assets/media/6aad8c72323f0bce9bd4ab382bdaefdb0f3c387cc58446a2732184687afdee7d.png)
+![Claude Opus, Sonnet and Haiku placed along an arrow running from intelligence on the left to cost and speed on the right.](https://academy.claude.com/assets/media/6aad8c72323f0bce9bd4ab382bdaefdb0f3c387cc58446a2732184687afdee7d.png)
 
 Model selection comes down to understanding the trade-offs between intelligence and cost/speed. Here's how to decide:
 

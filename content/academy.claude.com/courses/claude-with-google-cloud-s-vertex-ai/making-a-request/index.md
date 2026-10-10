@@ -4,7 +4,7 @@ Lesson 3 of 66 · Claude with Google Cloud's Vertex AIMaking a request
 
 Lesson 310 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fmaking-a-request)
 
@@ -41,7 +41,7 @@ You'll need to replace `"your-project-id"` with your actual Google Cloud project
 
 The core of making requests to Claude is the `create` function, which requires three key parameters:
 
-![](https://academy.claude.com/assets/media/2bb00b866f804886bcdfb39e996abc128d1b51647f4de2d8a03fce3e6fce88de.png)
+![Annotated client.messages.create call with "model", "max_tokens" set to 1000 and "messages" parameters, described below.](https://academy.claude.com/assets/media/2bb00b866f804886bcdfb39e996abc128d1b51647f4de2d8a03fce3e6fce88de.png)
 
 - **model** - The name of the Claude model you want to use
 - **max\_tokens** - A safety limit on response length (Claude won't try to hit this target, it just won't exceed it)
@@ -53,7 +53,7 @@ Think of `max_tokens` as a budget rather than a goal. If you set it to 1000, Cla
 
 Messages represent the back-and-forth conversation between you and Claude, just like in a chat application:
 
-![](https://academy.claude.com/assets/media/7eb6f8c396ec3fcdd8568722972dbabed6cfa0c66ba0f19258f4138a1658a2a1.png)
+![Chat window where the user message asks "What is quantum computing?" and the assistant message is the AI reply defining it.](https://academy.claude.com/assets/media/7eb6f8c396ec3fcdd8568722972dbabed6cfa0c66ba0f19258f4138a1658a2a1.png)
 
 There are two types of messages:
 

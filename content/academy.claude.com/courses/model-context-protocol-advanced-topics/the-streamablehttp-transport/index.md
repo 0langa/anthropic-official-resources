@@ -4,17 +4,17 @@ Lesson 9 of 11 · Model Context Protocol: Advanced topicsThe StreamableHTTP tran
 
 Lesson 92 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fmodel-context-protocol-advanced-topics%2Fthe-streamablehttp-transport)
 
 The streamable HTTP transport enables MCP clients to connect to remotely hosted servers over HTTP connections. Unlike the standard I/O transport that requires both client and server on the same machine, this transport opens up possibilities for public MCP servers that anyone can access.
 
-![](https://academy.claude.com/assets/media/b92b78cda59328feffcb32e77408df22b6c94e3ee94b9077da7de42aece93f76.png)
+![The MCP client on your computer and the MCP server on a remote machine, talking both ways over streamable HTTP transport.](https://academy.claude.com/assets/media/b92b78cda59328feffcb32e77408df22b6c94e3ee94b9077da7de42aece93f76.png)
 
 However, there's an important caveat: some configuration settings can significantly limit your MCP server's functionality. If your application works perfectly with standard I/O transport locally but breaks when deployed with HTTP transport, this is likely the culprit.
 
-![](https://academy.claude.com/assets/media/75cfbece553b5f35edc67a839efeeff9027fa1d3d58fa84c95ecf1d374807319.png)
+![The MCP client and a remote MCP server exchange JSON over HTTP, which makes all four communication patterns challenging.](https://academy.claude.com/assets/media/75cfbece553b5f35edc67a839efeeff9027fa1d3d58fa84c95ecf1d374807319.png)
 
 ## Configuration Settings That Matter[](https://academy.claude.com/courses/model-context-protocol-advanced-topics/the-streamablehttp-transport)
 
@@ -29,14 +29,14 @@ By default, both settings are `false`, but certain deployment scenarios may forc
 
 To understand why these limitations exist, we need to review how HTTP communication works. In standard HTTP:
 
-![](https://academy.claude.com/assets/media/c294c167879d9aef5f58e0b6def54d78dfd04546172974e9891c117666c3bf02.png)
+![HTTP client sends a POST to https://my-server.com/api and the server responds; applies to all HTTP requests, not just MCP.](https://academy.claude.com/assets/media/c294c167879d9aef5f58e0b6def54d78dfd04546172974e9891c117666c3bf02.png)
 
 - Clients can easily initiate requests to servers (the server has a known URL)
 - Servers can easily respond to these requests
 - Servers cannot easily initiate requests to clients (clients don't have known URLs)
 - Response patterns from client back to server become problematic
 
-![](https://academy.claude.com/assets/media/453bc7c551e0d45a15632325326e930ff847e52156ddb69553b94f2c4166e411.png)
+![The server does not know the address of the client, and a note adds this applies to all HTTP requests, not just with MCP.](https://academy.claude.com/assets/media/453bc7c551e0d45a15632325326e930ff847e52156ddb69553b94f2c4166e411.png)
 
 ## MCP Message Types Affected[](https://academy.claude.com/courses/model-context-protocol-advanced-topics/the-streamablehttp-transport)
 
@@ -51,7 +51,7 @@ These are exactly the features that break when you enable the restrictive HTTP s
 
 The streamable HTTP transport does provide a clever solution to work around HTTP's limitations, but it comes with trade-offs. When you're forced to use `stateless_http=True` or `json_response=True`, you're essentially telling the transport to operate within HTTP's constraints rather than working around them.
 
-![](https://academy.claude.com/assets/media/d2b9ff4ddcfc40dd9d6e4f7c24166e59b7bef8aba1d0509fcffcfe6c139c4eee.png)
+![Checks on client requests and server responses, a cross on server-initiated requests, a question mark on client responses.](https://academy.claude.com/assets/media/d2b9ff4ddcfc40dd9d6e4f7c24166e59b7bef8aba1d0509fcffcfe6c139c4eee.png)
 
 Understanding these limitations helps you make informed decisions about:
 

@@ -4,7 +4,7 @@ Lesson 39 of 66 · Claude with Google Cloud's Vertex AIBM25 lexical search
 
 Lesson 395 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fbm25-lexical-search)
 
@@ -14,7 +14,7 @@ When building a RAG pipeline, you'll quickly discover that semantic search alone
 
 Let's say you're searching for a specific incident ID like "INC-2023-Q4-011" in a document. While this exact term appears multiple times in relevant sections, semantic search might return unrelated sections that are semantically similar but don't actually contain the specific term you're looking for.
 
-![](https://academy.claude.com/assets/media/ae16f186b3678b86bceb950af1750e6b11be3e1202d94ae3d02dbbf4ce9c0363.png)
+![We want the Cybersecurity and Software Engineering sections, but got Cybersecurity and Financial Analysis for this query.](https://academy.claude.com/assets/media/ae16f186b3678b86bceb950af1750e6b11be3e1202d94ae3d02dbbf4ce9c0363.png)
 
 This happens because semantic search focuses on meaning rather than exact matches. When you need precise term matching, you need a different approach.
 
@@ -22,7 +22,7 @@ This happens because semantic search focuses on meaning rather than exact matche
 
 The solution is to run two searches in parallel and merge the results:
 
-![](https://academy.claude.com/assets/media/02a7c7cadb95e5dd57b37ba6071ab25a60fb4c01524a9bd25d92a133699ecf79.png)
+![The user question about INC-2023-Q4-011 runs through semantic and lexical search in parallel, then their results merge.](https://academy.claude.com/assets/media/02a7c7cadb95e5dd57b37ba6071ab25a60fb4c01524a9bd25d92a133699ecf79.png)
 
 - **Semantic Search** - Uses embeddings and vector databases for meaning-based matching
 - **Lexical Search** - Uses classic text search for exact term matching
@@ -32,7 +32,7 @@ The solution is to run two searches in parallel and merge the results:
 
 BM25 (Best Match 25) is a popular algorithm for lexical search in RAG pipelines. Here's how it processes a search query:
 
-![](https://academy.claude.com/assets/media/e24396bf85a106a14d16e827ef1a9cc156f970c36bf4fe4eb6c071b4f5873d8c.png)
+![BM25 on "a INC-2023-Q4-011": "a" has frequency 5 and low importance, "INC-2023-Q4-011" has frequency 1 and high importance.](https://academy.claude.com/assets/media/e24396bf85a106a14d16e827ef1a9cc156f970c36bf4fe4eb6c071b4f5873d8c.png)
 
 The algorithm follows these key steps:
 
@@ -73,7 +73,7 @@ The algorithm correctly identifies that "INC-2023-Q4-011" is a rare, important t
 
 Now that you have both semantic and lexical search systems working independently, the next step is merging their results. This hybrid approach gives you the best of both worlds - the contextual understanding of semantic search combined with the precision of exact term matching from lexical search.
 
-![](https://academy.claude.com/assets/media/d08ed8f624060d523dead1ab28ff3dab4f31c13971dd19740d9bdcc80ddacc9d.png)
+![The user question about INC-2023-Q4-011 runs through semantic and lexical search in parallel, then their results merge.](https://academy.claude.com/assets/media/d08ed8f624060d523dead1ab28ff3dab4f31c13971dd19740d9bdcc80ddacc9d.png)
 
 Both search systems use similar APIs, making it straightforward to query both in parallel and combine their results into a single, more comprehensive result set.
 

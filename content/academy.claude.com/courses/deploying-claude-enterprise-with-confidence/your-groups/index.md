@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Predict what a member gets when they belong to two groups, and how to restrict capabilities purposefully
 - Choose the pattern your groups will follow, and know what it costs to change the mapping once members are working with Claude
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fyour-groups)
 

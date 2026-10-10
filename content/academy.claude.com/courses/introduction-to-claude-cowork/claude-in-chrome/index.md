@@ -9,7 +9,7 @@ In this lessonBy the end, you’ll be able to
 - Recognize the kinds of work Claude in Chrome unlocks
 - Use Chrome alongside Cowork on a real piece of work
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-cowork%2Fclaude-in-chrome)
 
@@ -177,15 +177,6 @@ Pick one task on your plate that lives in a browser-based tool that doesn't have
 In the next lesson, you'll see Claude show up inside the M365 apps where a lot of work actually lands — Word, Excel, PowerPoint, and Outlook.
 
 Was this helpful?
-
-
-## Transcript
-
-Claude for Chrome brings the power of Sonnet 4.5, our state-of-the-art model for computer use, directly to your browser. In this example, Claude is helping with a home renovation. It will organize your renovation budget, which is currently spread across a planning doc and several contractor email exchanges.
-
-Once prompted, Claude gets to work to collect the right context. In this case, finding all the relevant emails and receipts you've requested. Claude uses what it learns and actively works with your spreadsheet, tracking down the missing numbers and updating your budget in real time. Finally, Claude makes it easy for you to share your plans with your partner by drafting an email for you. But don't worry, you're still in control of the final edits before you send that email.
-
-We took many steps to build this product with safety and security at its core. For example, you control what actions Claude can take through granular permissions. We've also implemented protection against prompt injection attacks and added restrictions around what websites Claude can use. And it always asks before taking sensitive actions like making purchases. Bring Claude to your browser today.
 
 
 ## Video transcript

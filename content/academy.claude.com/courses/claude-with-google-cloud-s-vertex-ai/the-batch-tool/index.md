@@ -4,7 +4,7 @@ Lesson 30 of 66 · Claude with Google Cloud's Vertex AIThe batch tool
 
 Lesson 3010 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fthe-batch-tool)
 
@@ -14,17 +14,17 @@ When working with Claude's tool calling capabilities, you might notice that Clau
 
 Let's say you ask Claude to set two reminders for the same date. Theoretically, Claude should be able to send back a single response containing two tool use blocks - one for each reminder. But in reality, Claude often sends separate responses instead.
 
-![](https://academy.claude.com/assets/media/1914514b777e81c6e07d655a5e95c3c5798df9563b6b1b9cff592d5bf20bfda5.png)
+![The ideal exchange: one assistant message with two set_reminder tool uses for Jan 1, "Taxes due" and "Doctors appointment".](https://academy.claude.com/assets/media/1914514b777e81c6e07d655a5e95c3c5798df9563b6b1b9cff592d5bf20bfda5.png)
 
 What typically happens is Claude makes the first tool call, waits for the result, then makes the second tool call in a follow-up message. This creates unnecessary back-and-forth communication when the operations could have been done simultaneously.
 
-![](https://academy.claude.com/assets/media/60d1ad0ae8bef517444c482e9cea4a799882bd621eef455fd68cb9bbf76e207c.png)
+![Claude answers the two-reminder request from our server with one batch_tool call: set_reminder for "Dr appt" and "Taxes due".](https://academy.claude.com/assets/media/60d1ad0ae8bef517444c482e9cea4a799882bd621eef455fd68cb9bbf76e207c.png)
 
 ## The Batch Tool Solution[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/the-batch-tool)
 
 The solution is to implement a "batch tool" - a special tool that accepts a list of other tool calls to execute simultaneously. This is essentially a workaround that tricks Claude into making multiple tool calls at once.
 
-![](https://academy.claude.com/assets/media/f59259958953ae4278d1a8ce7d6132e0bf7c7f05481f3f42c1847f2c3e869398.png)
+![Claude answers the two-reminder request from our server with one batch_tool call: set_reminder for "Dr appt" and "Taxes due".](https://academy.claude.com/assets/media/f59259958953ae4278d1a8ce7d6132e0bf7c7f05481f3f42c1847f2c3e869398.png)
 
 Here's how it works:
 

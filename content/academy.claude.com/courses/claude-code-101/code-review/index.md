@@ -4,7 +4,7 @@ Lesson 7 of 12 · Claude Code 101Code review
 
 Lesson 710 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-code-101%2Fcode-review)
 

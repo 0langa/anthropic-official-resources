@@ -4,13 +4,13 @@ Lesson 59 of 66 · Claude with Google Cloud's Vertex AIMCP review
 
 Lesson 592 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fmcp-review)
 
 Now that we've built our MCP server, let's review the three core primitives and understand when to use each one. The key insight is understanding who controls each primitive and what purpose they serve in your application.
 
-![](https://academy.claude.com/assets/media/bc7ee5fac91b20fa74fcc27bb9255bc41c9fb9c50a15ae60e3bfccc7a1cfad3e.png)
+![Tools, resources and prompts compared: Claude controls tools, our app controls resources, the user controls prompts.](https://academy.claude.com/assets/media/bc7ee5fac91b20fa74fcc27bb9255bc41c9fb9c50a15ae60e3bfccc7a1cfad3e.png)
 
 ## Tools: Model-Controlled[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/mcp-review)
 
@@ -44,13 +44,13 @@ Use prompts for workflows that users should be able to trigger on demand. These 
 
 You can see all three primitives in action on Claude's official interface. The conversation starter buttons below the chat input are examples of prompts - user-controlled workflows that begin predefined interactions.
 
-![](https://academy.claude.com/assets/media/f4ab47cd26e0b181d30b237a6234281478a91b2fa1748c0e653965bcdd80db79.png)
+![Claude chat input with "Career chat" and "Connect apps" starter buttons and an open menu including "Add from Google Drive".](https://academy.claude.com/assets/media/f4ab47cd26e0b181d30b237a6234281478a91b2fa1748c0e653965bcdd80db79.png)
 
 The "Add from Google Drive" option demonstrates resources in action. When you click this button, the application fetches a list of your documents and displays them in the UI. This is app-controlled behavior that serves the interface.
 
 When you ask Claude to perform calculations or execute code, you're seeing tools at work. Claude automatically decides to use available tools like JavaScript execution to provide accurate results.
 
-![](https://academy.claude.com/assets/media/776ea69dbffaa14beef39f1eb2d94c67da5c13766343ae92bbe1d4ab636103fe.png)
+![The three MCP server primitives compared: Claude controls tools, our app controls resources and the user controls prompts.](https://academy.claude.com/assets/media/776ea69dbffaa14beef39f1eb2d94c67da5c13766343ae92bbe1d4ab636103fe.png)
 
 ## Choosing the Right Primitive[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/mcp-review)
 

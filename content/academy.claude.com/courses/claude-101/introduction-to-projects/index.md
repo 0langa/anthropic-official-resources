@@ -12,7 +12,7 @@ In this lessonBy the end, you’ll be able to
 - Write effective project instructions to guide Claude's behavior
 - Share projects with teammates (for Claude for Work (Team and Enterprise plan) users)
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-101%2Fintroduction-to-projects)
 

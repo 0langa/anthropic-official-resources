@@ -11,7 +11,7 @@ In this lessonBy the end, you’ll be able to
 - Upload files and images to provide Claude with additional context
 - Use follow-up messages to iterate and refine Claude's responses
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-101%2Fyour-first-conversation-with-claude)
 

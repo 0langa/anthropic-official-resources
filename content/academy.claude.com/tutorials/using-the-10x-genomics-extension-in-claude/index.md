@@ -2,7 +2,7 @@
 
 Set up and use the 10x Genomics integration with Claude for single cell and spatial genomics analysis through conversational workflows.
 
-3 minClaude.ai
+3 minClaude
 
 [Open Claude](https://claude.ai/new)
 

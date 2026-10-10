@@ -4,7 +4,7 @@ Lesson 54 of 66 · Claude with Google Cloud's Vertex AIImplementing a client
 
 Lesson 547 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fimplementing-a-client)
 
@@ -14,14 +14,14 @@ Now that we have our MCP server working, it's time to build the client side. The
 
 Before diving into the code, let's clarify an important point about MCP projects. Normally, you'd implement either an MCP client or an MCP server - not both. We're building both in this project just so you can see how they work together.
 
-![](https://academy.claude.com/assets/media/e05ff8cc824dbd58f3347d6af9f49b018dbd9f71ea5062186a6422b07300571a.png)
+![Diagram of our server containing the MCP client, which connects both ways to a separate MCP server.](https://academy.claude.com/assets/media/e05ff8cc824dbd58f3347d6af9f49b018dbd9f71ea5062186a6422b07300571a.png)
 
 The MCP client consists of two main components:
 
 - **MCP Client** - A custom class we create to make using the session easier
 - **Client Session** - The actual connection to the server (part of the MCP Python SDK)
 
-![](https://academy.claude.com/assets/media/8496bb45df0f912602045b5c8dc2d979174d4e85604a144a595996973b97bbd4.png)
+![Diagram of mcp_client.py containing the MCP Client and the Client Session, which connects to a separate MCP server.](https://academy.claude.com/assets/media/8496bb45df0f912602045b5c8dc2d979174d4e85604a144a595996973b97bbd4.png)
 
 The client session requires resource cleanup when we're done with it, which is why we wrap it in our custom class. This handles connection management and cleanup automatically.
 
@@ -29,7 +29,7 @@ The client session requires resource cleanup when we're done with it, which is w
 
 Remember our application flow? Our CLI code needs to interact with Claude in two key ways:
 
-![](https://academy.claude.com/assets/media/abd2d482edcac888b5dc91716804e873e2f93caeaef3524cd24c0098bb8221e1.png)
+![Sequence diagram of the application flow, highlighting where our CLI code uses the client to list tools and to call a tool.](https://academy.claude.com/assets/media/abd2d482edcac888b5dc91716804e873e2f93caeaef3524cd24c0098bb8221e1.png)
 
 The client enables both of these interactions by exposing the server's functionality to our codebase.
 

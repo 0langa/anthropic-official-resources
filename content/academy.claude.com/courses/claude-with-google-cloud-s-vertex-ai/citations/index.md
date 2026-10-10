@@ -4,7 +4,7 @@ Lesson 45 of 66 · Claude with Google Cloud's Vertex AICitations
 
 Lesson 457 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fcitations)
 
@@ -39,7 +39,7 @@ The `title` field gives your document a name that appears in citations. The `cit
 
 When citations are enabled, Claude's response becomes more complex. Instead of simple text, you get structured content with citation information:
 
-![](https://academy.claude.com/assets/media/56c7c5b70fa833eb8c6e322d4b92799c6ec48947be5d0d0298e94dcc8079e3d5.png)
+![Example values for the five citation fields listed below: a sentence of cited text, index 0, "earth.pdf", pages 4 and 5.](https://academy.claude.com/assets/media/56c7c5b70fa833eb8c6e322d4b92799c6ec48947be5d0d0298e94dcc8079e3d5.png)
 
 Each citation contains:
 
@@ -53,7 +53,7 @@ Each citation contains:
 
 The real power of citations comes from building user interfaces that display them. You can create numbered references in the text that link to detailed citation information:
 
-![](https://academy.claude.com/assets/media/af769f474a2d21de772a58efb7c96022ee63a6049009a79b9c7a6abaf724bc67.png)
+![Claude artifact on how Earth's atmosphere formed, with numbered references 1 to 7 and one cited sentence highlighted.](https://academy.claude.com/assets/media/af769f474a2d21de772a58efb7c96022ee63a6049009a79b9c7a6abaf724bc67.png)
 
 When users hover over or click citation numbers, they see exactly which document and pages Claude referenced. This transparency helps users verify information and builds confidence in Claude's responses.
 

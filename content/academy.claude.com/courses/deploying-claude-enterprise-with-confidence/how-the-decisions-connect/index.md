@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Predict how a change to one setting cascades across the other decisions
 - Turn your completed companion into the rollout plan you walk your stakeholders through at kickoff
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fhow-the-decisions-connect)
 

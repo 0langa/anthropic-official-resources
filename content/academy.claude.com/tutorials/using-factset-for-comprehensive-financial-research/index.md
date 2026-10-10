@@ -2,7 +2,7 @@
 
 Set up and use Claude's FactSet integration for institutional-grade financial analysis including pricing, fundamentals, estimates, M&A data, and ownership.
 
-15 minClaude.ai
+15 minClaude
 
 [Open Claude](https://claude.ai/new)
 

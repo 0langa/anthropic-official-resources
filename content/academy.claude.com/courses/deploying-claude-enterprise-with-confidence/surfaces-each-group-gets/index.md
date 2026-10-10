@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Grant a surface to a group through its roles
 - Decide which surfaces each group gets, and when to phase them in
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fsurfaces-each-group-gets)
 

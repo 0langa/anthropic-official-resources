@@ -1,4 +1,4 @@
-# Browse Claude.ai tutorials
+# Browse Claude tutorials
 
 
 

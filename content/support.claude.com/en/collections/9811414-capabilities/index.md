@@ -1,6 +1,6 @@
 # Capabilities
 
-7 articles
+8 articles
 
 [Manage project visibility and sharing](https://support.claude.com/en/articles/9519189-manage-project-visibility-and-sharing)
 
@@ -15,3 +15,5 @@
 [Get started with skill and plugin scanning](https://support.claude.com/en/articles/15927065-get-started-with-skill-and-plugin-scanning)
 
 [Artifacts admin guide for Team and Enterprise plans](https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans)
+
+[Get started with Claude Motion](https://support.claude.com/en/articles/17454997-get-started-with-claude-motion)

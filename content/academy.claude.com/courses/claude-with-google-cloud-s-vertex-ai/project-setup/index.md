@@ -4,7 +4,7 @@ Lesson 51 of 66 · Claude with Google Cloud's Vertex AIProject setup
 
 Lesson 517 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fproject-setup)
 
@@ -17,7 +17,7 @@ Our chatbot will allow users to interact with a collection of documents through 
 - An MCP client that handles user interactions and communicates with Claude
 - An MCP server that provides tools for reading and updating documents
 
-![](https://academy.claude.com/assets/media/64226d5d22dbeb8af1c41085ed118e4c1f7319166b5ab2f17945e8135bece6b0.png)
+![Our server holds our MCP client, which talks both ways with our MCP server, whose tools read and update four documents.](https://academy.claude.com/assets/media/64226d5d22dbeb8af1c41085ed118e4c1f7319166b5ab2f17945e8135bece6b0.png)
 
 The server will expose two tools to Claude:
 
@@ -33,7 +33,7 @@ In real-world projects, you typically implement either an MCP client or an MCP s
 - Just an MCP server to expose your service's capabilities to AI models
 - Just an MCP client to connect to existing MCP servers built by other developers
 
-![](https://academy.claude.com/assets/media/255c982da24359c7bf040bce9332b011a99def1dff920e38b1351a878881c9d4.png)
+![Diagram of our server containing the MCP client, which connects both ways to a separate MCP server.](https://academy.claude.com/assets/media/255c982da24359c7bf040bce9332b011a99def1dff920e38b1351a878881c9d4.png)
 
 We're building both components in this project purely for educational purposes - to understand how they communicate and work together.
 
@@ -48,7 +48,7 @@ The project includes a README.md file with detailed setup instructions. You'll n
 1. Add your Anthropic API key to the .env file
 2. Install dependencies using either UV (recommended) or pip
 
-![](https://academy.claude.com/assets/media/81b4c8f4398237590110db4cc2dc362374c422a62fc75ae99096a4d76d6dc00c.png)
+![The project README.md, with Step 1 to set ANTHROPIC_API_KEY in the .env file and Step 2 to install dependencies.](https://academy.claude.com/assets/media/81b4c8f4398237590110db4cc2dc362374c422a62fc75ae99096a4d76d6dc00c.png)
 
 The .env file should contain:
 

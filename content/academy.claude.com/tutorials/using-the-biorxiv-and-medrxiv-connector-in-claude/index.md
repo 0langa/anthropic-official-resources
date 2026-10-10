@@ -2,7 +2,7 @@
 
 Set up and use the bioRxiv integration with Claude to search, retrieve, and summarize preprints from the bioRxiv and medRxiv preprint servers.
 
-15 minClaude.ai
+15 minClaude
 
 [Open Claude](https://claude.ai/new)
 

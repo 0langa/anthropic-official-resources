@@ -4,7 +4,7 @@ Lesson 7 of 13 · Claude Platform 101Built-in tools
 
 Lesson 76 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-platform-101%2Fbuilt-in-tools)
 

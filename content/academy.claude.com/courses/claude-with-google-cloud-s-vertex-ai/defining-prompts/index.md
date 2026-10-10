@@ -4,7 +4,7 @@ Lesson 57 of 66 · Claude with Google Cloud's Vertex AIDefining prompts
 
 Lesson 579 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fdefining-prompts)
 
@@ -14,7 +14,7 @@ Prompts in MCP servers let you define pre-built, high-quality instructions that 
 
 Let's say you want Claude to reformat a document into markdown. A user could just type "convert report.pdf to markdown" and get decent results. But they'd probably get much better output if they used a thoroughly tested, specialized prompt that you've designed specifically for document formatting.
 
-![](https://academy.claude.com/assets/media/6ab55d7162ceb856be527d35317b17f5327a2e76d36ee4590d61c7f7292787a1.png)
+![The user's prompt "Convert report.pdf to markdown" beside a long prompt casting Claude as a document conversion specialist.](https://academy.claude.com/assets/media/6ab55d7162ceb856be527d35317b17f5327a2e76d36ee4590d61c7f7292787a1.png)
 
 The key insight is that while users can accomplish these tasks on their own, they'll get superior results when using prompts that have been carefully engineered and tested by the MCP server authors.
 
@@ -22,7 +22,7 @@ The key insight is that while users can accomplish these tasks on their own, the
 
 Prompts define a set of user and assistant messages that clients can use directly. When a client requests a prompt, your server returns a list of messages that can be sent straight to Claude.
 
-![](https://academy.claude.com/assets/media/6fbf83bdc5e673db7ea6f43b7fcadb48e29bfe3f48d49112f21693d7925845bb.png)
+![User prompt "Convert report.pdf to markdown" beside a long server prompt giving a role, Markdown rules and example output.](https://academy.claude.com/assets/media/6fbf83bdc5e673db7ea6f43b7fcadb48e29bfe3f48d49112f21693d7925845bb.png)
 
 The basic structure looks like this:
 
@@ -72,7 +72,7 @@ Use the 'edit_document' tool to edit the document. After the document has been r
 
 You can test prompts using the MCP Inspector. Navigate to the Prompts tab, select your prompt, and provide any required parameters.
 
-![](https://academy.claude.com/assets/media/fd582104701b532c711ad7cf51c3272fba51b68bf4999e36ea28c2823d4d4576.png)
+![MCP Inspector with the "format" prompt, doc_id set to "outlook.pdf", and the user message returned by Get Prompt.](https://academy.claude.com/assets/media/fd582104701b532c711ad7cf51c3272fba51b68bf4999e36ea28c2823d4d4576.png)
 
 The inspector shows you exactly what messages will be sent to Claude, including how any parameters get interpolated into the prompt text.
 

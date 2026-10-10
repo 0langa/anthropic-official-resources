@@ -4,7 +4,7 @@ Lesson 64 of 65 · Claude with Amazon BedrockHow Computer Use works
 
 Lesson 643 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fhow-computer-use-works)
 
@@ -14,7 +14,7 @@ Computer use in Claude works exactly like regular tool use - it's built on the s
 
 Before diving into computer use, let's quickly review how standard tool use works. When you want Claude to use a tool, you send a request that includes both a user message and a tool schema. The tool schema describes the additional functionality you want to expose to Claude.
 
-![](https://academy.claude.com/assets/media/f4d077c8292d0a37e95c2ddca623e45dbac42d8ef11e281a3d89e7b135059873.png)
+![Our server sends Claude the message "What's the weather in San Francisco?" and the get_weather_schema tool schema.](https://academy.claude.com/assets/media/f4d077c8292d0a37e95c2ddca623e45dbac42d8ef11e281a3d89e7b135059873.png)
 
 Here's the typical flow:
 
@@ -24,17 +24,17 @@ Here's the typical flow:
 4. Your server executes the tool function and returns the result
 5. You send the tool result back to Claude
 
-![](https://academy.claude.com/assets/media/d9d83a6056318aa99872c9bb70b721797ba4223cbf93c0144b7509b761317648.png)
+![Our server sends get_weather_schema; Claude replies with a toolUse naming get_weather, and our function returns "Sunny".](https://academy.claude.com/assets/media/d9d83a6056318aa99872c9bb70b721797ba4223cbf93c0144b7509b761317648.png)
 
 For example, if you ask about weather in San Francisco, Claude might call a `get_weather` function with the location parameter, your server fetches the weather data, and you return the result to Claude.
 
-![](https://academy.claude.com/assets/media/b58e95288655e5f2490b8be8b68ad763c8cbc0964b650cf39c9c78851ab87581.png)
+![Our server asks Claude a question with a list of tools, Claude decides to use a tool, we run code and send the result back.](https://academy.claude.com/assets/media/b58e95288655e5f2490b8be8b68ad763c8cbc0964b650cf39c9c78851ab87581.png)
 
 ## Computer Use: Same Flow, Different Tool[](https://academy.claude.com/courses/claude-with-amazon-bedrock/how-computer-use-works)
 
 Computer use follows this exact same pattern. The difference is in what the "tool" actually does - instead of fetching weather data, it simulates computer interactions like mouse clicks and keyboard input.
 
-![](https://academy.claude.com/assets/media/7c359ef8d7714fbf80176d332343ccebb580752c41150025ac825314669c02ee.png)
+![Three messages between our server and Claude for a tool that operates a computer, run in a Docker container with Firefox.](https://academy.claude.com/assets/media/7c359ef8d7714fbf80176d332343ccebb580752c41150025ac825314669c02ee.png)
 
 When you enable computer use, you send Claude a special tool schema that gets automatically expanded behind the scenes. What starts as a simple schema on your end becomes a comprehensive interface that tells Claude it can perform actions like:
 
@@ -43,11 +43,11 @@ When you enable computer use, you send Claude a special tool schema that gets au
 - Taking screenshots
 - Scrolling and other interface interactions
 
-![](https://academy.claude.com/assets/media/3cb7af73c4a24c1861183ce69a0372cbf06e92950c492e522512c7c9fccb8d07.png)
+![Our small computer_20250124 schema expands into a long one with action, coordinate, duration and text properties.](https://academy.claude.com/assets/media/3cb7af73c4a24c1861183ce69a0372cbf06e92950c492e522512c7c9fccb8d07.png)
 
 The tool schema you send is minimal, but it automatically converts into a detailed specification that includes all the computer interaction capabilities Claude needs.
 
-![](https://academy.claude.com/assets/media/106668c3e02cf97566f702349a7ac220bacc904b69c30f81009bc7ded4e5c8a0.png)
+![Minimal computer tool schema with display size, expanded into "action", "coordinate", "duration" and "text" properties.](https://academy.claude.com/assets/media/106668c3e02cf97566f702349a7ac220bacc904b69c30f81009bc7ded4e5c8a0.png)
 
 ## The Technical Implementation[](https://academy.claude.com/courses/claude-with-amazon-bedrock/how-computer-use-works)
 
@@ -61,7 +61,7 @@ The important thing to understand is that Claude isn't directly controlling a co
 
 You don't need to build this infrastructure from scratch. Anthropic provides a reference implementation that handles all the complex parts for you.
 
-![](https://academy.claude.com/assets/media/e8bf080606418b4207fb62709feecd446df055a93b12908794314c52df123bfc.png)
+![Install any Docker runtime, such as orbstack.dev, get your AWS profile name from the credentials file, then docker run.](https://academy.claude.com/assets/media/e8bf080606418b4207fb62709feecd446df055a93b12908794314c52df123bfc.png)
 
 To set up computer use, you need:
 
@@ -71,7 +71,7 @@ To set up computer use, you need:
 
 Once you have these prerequisites, you can start the Docker container with a single command. This gives you access to the same interface shown in the demonstrations - a chat interface on the left where you can talk to Claude, and a browser environment on the right where Claude can interact with web pages and applications.
 
-![](https://academy.claude.com/assets/media/95ea027141baec80d881a0cae3713ede1ad920c6a2dd8bdc65e1421b3f8e675c.png)
+![Claude Computer Use Demo: a chat panel warning never to give access to sensitive accounts or data, beside Firefox.](https://academy.claude.com/assets/media/95ea027141baec80d881a0cae3713ede1ad920c6a2dd8bdc65e1421b3f8e675c.png)
 
 The setup process is straightforward, and the full setup guide is available in the Anthropic quickstarts repository on GitHub. This reference implementation provides everything you need to start experimenting with Claude's computer use capabilities in a safe, contained environment.
 

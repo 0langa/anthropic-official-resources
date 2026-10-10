@@ -2,7 +2,7 @@
 
 Understand when to choose voice mode versus dictation while working with Claude.
 
-6 minClaude.ai
+6 minClaude
 
 [Open Claude](https://claude.ai/new)
 

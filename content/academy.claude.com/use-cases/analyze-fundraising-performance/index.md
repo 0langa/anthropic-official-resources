@@ -2,7 +2,7 @@
 
 Analyze performance across email, events, direct mail, social media, and other channels to identify highest-return investments and optimize resource allocation for maximum fundraising impact.
 
-15 minMarketingClaude.ai
+15 minMarketingClaude
 
 Try in ClaudeCopy prompt
 

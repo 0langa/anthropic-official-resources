@@ -132,6 +132,12 @@ Additionally, we thank Miriam Chaum, Ankur Rathi, Santi Ruiz, and David Saunders
 
 ## Related content
 
+### Investigating unintended model actions in our evaluations and internal use
+
+This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude.
+
+[Read more](https://www.anthropic.com/research/investigating-unintended-model-actions)
+
 ### The missing map of the sky
 
 Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.
@@ -143,9 +149,3 @@ Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at
 We’re making available OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem that’s informed by our experience using Claude to find vulnerabilities during Project Glasswing.
 
 [Read more](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source)
-
-### Claude-shaped science
-
-Guest author Prof. Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems: ones best suited to the capabilities of the current generation of LLM tools. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.
-
-[Read more](https://www.anthropic.com/research/claude-shaped-science)

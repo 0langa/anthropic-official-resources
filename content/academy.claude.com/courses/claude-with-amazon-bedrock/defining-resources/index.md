@@ -4,7 +4,7 @@ Lesson 54 of 65 · Claude with Amazon BedrockDefining resources
 
 Lesson 544 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fdefining-resources)
 
@@ -14,7 +14,7 @@ Resources in MCP servers allow you to expose data to clients, similar to GET req
 
 Think of resources as read-only endpoints that can return any type of data - strings, JSON, binary files, etc. You set a 'mime\_type' to give the client a hint about what kind of data you're returning.
 
-![](https://academy.claude.com/assets/media/bef714547cc3f86a4f566052ca3e2d3b7bba3694a823f2bbebd84e742c766e1b.png)
+![Diagram of an MCP server holding two resources, the direct list_docs and the templated fetch_doc, shown in the code below.](https://academy.claude.com/assets/media/bef714547cc3f86a4f566052ca3e2d3b7bba3694a823f2bbebd84e742c766e1b.png)
 
 Resources work by exposing data through URIs (essentially addresses). When a client needs data, it sends a ReadResourceRequest with the specific URI, and your server responds with the requested information.
 
@@ -25,7 +25,7 @@ There are two main types of resources you can create:
 - **Direct Resources** - Have static URIs that don't contain any parameters (like `docs://documents`)
 - **Templated Resources** - Include parameters in their URIs (like `docs://documents/{doc_id}`)
 
-![](https://academy.claude.com/assets/media/7fa0c5f6bafc5aec5ed6ff72d121e8b04986bc6379c9c4da1d042b7cca99ce50.png)
+![Direct Resource, no URI parameters, beside Templated Resource, whose URI parameters the Python SDK passes to your function.](https://academy.claude.com/assets/media/7fa0c5f6bafc5aec5ed6ff72d121e8b04986bc6379c9c4da1d042b7cca99ce50.png)
 
 For templated resources, the Python SDK automatically parses parameters from the URI and passes them as keyword arguments to your function. The parameter name in the URI becomes the argument name in your function.
 
@@ -59,7 +59,7 @@ The MCP Python SDK automatically serializes whatever you return. You don't need 
 
 You can test resources using the MCP Inspector tool. Start your server with `uv run mcp dev mcp_server.py` and navigate to the web interface.
 
-![](https://academy.claude.com/assets/media/aaba6fbd4b955f7b77e8a806c6ac6bc7c7b6a7406c9094b4bdddc93f146e8dcb.png)
+![MCP Inspector Resources tab: docs://documents resource, the fetch_doc template, and a JSON response listing six documents.](https://academy.claude.com/assets/media/aaba6fbd4b955f7b77e8a806c6ac6bc7c7b6a7406c9094b4bdddc93f146e8dcb.png)
 
 The inspector separates direct resources from templated ones. Direct resources appear in the main "Resources" section, while templated resources show up under "Resource Templates". You can click on any resource to test it and see the exact response structure your server returns.
 

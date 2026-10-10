@@ -2,7 +2,7 @@
 
 Set up and use the ChEMBL integration with Claude to access bioactive compound data, biological targets, and activity measurements for drug discovery.
 
-15 minClaude.ai
+15 minClaude
 
 [Open Claude](https://claude.ai/new)
 

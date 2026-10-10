@@ -2,7 +2,7 @@
 
 Set up and use the Benchling integration with Claude to connect to Benchling R&D platform data for experiments, notebooks, and structured records.
 
-10 minClaude.ai
+10 minClaude
 
 [Open Claude](https://claude.ai/new)
 

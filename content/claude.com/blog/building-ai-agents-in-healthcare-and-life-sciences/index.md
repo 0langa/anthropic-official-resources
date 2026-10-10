@@ -177,32 +177,37 @@ Accelerate your enterprise AI transformation with proven strategies from Anthrop
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleSep 29, 2026
+[ArticleOct 8, 2026
 
-### Agents you can coach: how Asana builds human-agent teams with Claude
+### Building effective agent automations
 
-Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
-‍
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
 
-Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
+Claude Platform
 
-### A new approach to agent security with Claude Managed Agents and NVIDIA
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 7, 2026
 
-Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
+### Automating eval design and hillclimbing with Claude
 
-Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 8, 2026
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-### Reducing cost and improving performance with Claude Platform
+Claude Platform
 
-Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
 
-Claude Platform](https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform)[ArticleSep 2, 2026
+### Claude Code in the cloud: a field guide to cloud sessions
 
-### A guide to the anatomy of effective commerce agents
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
 
-The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.
+Claude Code
 
-Claude Platform](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
+
+### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
+
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
+
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)
 
 ## Transform how your organization operates with Claude
 

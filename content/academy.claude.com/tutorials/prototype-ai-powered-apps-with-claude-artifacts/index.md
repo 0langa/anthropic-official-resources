@@ -2,7 +2,7 @@
 
 Learn how to rapidly build, test, and share AI-powered applications using Claude artifacts without API key management.
 
-8 minClaude.ai
+8 minClaude
 
 Watch[Open Claude](https://claude.ai/new)
 
@@ -39,19 +39,19 @@ The possibilities for creating artifacts that interact with Claude through an AP
 
 - **Learning & education tools** — Interactive tutors and study companions with AI can better understand the context of a user’s learning needs. Like a code reviewer that gives detailed feedback on style and best practices based on pre-configured guidelines, or this [language tutor(opens in new tab)](https://claude.ai/public/artifacts/2af221b6-367f-4b4f-9fe9-25710f5f8feb) that lets you chat and learn in a language of your choice.
 
-![](https://academy.claude.com/assets/media/b909e755e3f0fcf8631e0f47d269dad6642789ac160526cef1d41f3a5ffca413.png)
+![Language tutor artifact with Spanish selected and a "Beginner" badge, beside a sidebar of progress stats and learning goals.](https://academy.claude.com/assets/media/b909e755e3f0fcf8631e0f47d269dad6642789ac160526cef1d41f3a5ffca413.png)
 
 - **Content generation tools** — Collaborative assistants that help brainstorm, develop, and refine creative work and content according to some pre-configured guidelines can help you get work done faster. Like a writing tool designed to intake your internal slack posts and get them ready to share on LinkedIn, or this [one-page PRD maker(opens in new tab)](https://claude.ai/public/artifacts/3d81ba29-d1ad-4e9b-b58e-3e0f46ba8afd).
 
-![](https://academy.claude.com/assets/media/0bf232ba4fca7e1cb8100f08a2357d1261c38714231682f6a5f65e5f1504e4cb.png)
+![The one-page PRD maker asks three questions about the product, its users and key features, with a Generate PRD button.](https://academy.claude.com/assets/media/0bf232ba4fca7e1cb8100f08a2357d1261c38714231682f6a5f65e5f1504e4cb.png)
 
 - **Analysis & decision support** - Intelligent tools that process user data and help make informed decisions through conversation are great for organizational efficiency. Like [this tool(opens in new tab)](https://claude.ai/public/artifacts/fc64414e-76db-4876-8531-6e9794e4b1be) designed to help teams get to the root of problems through the “5 whys” framework.
 
-![](https://academy.claude.com/assets/media/79955e056d6ebd410f90228b4e3af1caba85ed643f057eb5b0366ebc928862d7.png)
+![5 whys artifact: a "What challenge are you facing?" field, examples such as "Family conflicts", and a "Start journey" button.](https://academy.claude.com/assets/media/79955e056d6ebd410f90228b4e3af1caba85ed643f057eb5b0366ebc928862d7.png)
 
 - **Apps for fun —** at the end of the day, the best apps are derived from a unique perspective and good idea. This [dream interpreter(opens in new tab)](https://claude.ai/public/artifacts/be6430eb-3710-447c-a8b6-da40792ed790) is a perfect example. If you can dream it, you can probably build it.
 
-![](https://academy.claude.com/assets/media/bf360df84dc808d986d1825e7b87ba0406edd030e66b6c983e424a2f68402286.png)
+![Dream interpreter artifact with a box to describe your dream and an "Interpret dream" button.](https://academy.claude.com/assets/media/bf360df84dc808d986d1825e7b87ba0406edd030e66b6c983e424a2f68402286.png)
 
 ## Tips for building artifacts with Claude[](https://academy.claude.com/tutorials/prototype-ai-powered-apps-with-claude-artifacts)
 
@@ -73,7 +73,7 @@ All you need to do is click the “Publish” button in the top right hand corne
 
 Note that this link is specific to the version of the artifact you shared, and that **anyone with this link can access** your creation until you unpublish it. (You can always come back to the “published” tab to see all artifacts you’ve previously shared.)
 
-![](https://academy.claude.com/assets/media/96051ee27068bc8fc64b170b8724d00591ba0c3aa8dd06a2e4366fc3f0769f2b.png)
+![Publish artifact dialog for the "Flashcard" artifact, noting your chat will remain private, with Cancel and Publish buttons.](https://academy.claude.com/assets/media/96051ee27068bc8fc64b170b8724d00591ba0c3aa8dd06a2e4366fc3f0769f2b.png)
 
 ### Moving from prototype to production[](https://academy.claude.com/tutorials/prototype-ai-powered-apps-with-claude-artifacts)
 
@@ -81,7 +81,7 @@ While artifacts are excellent for prototyping and sharing AI-powered apps, they'
 
 Whatever the reason, when you’re ready to take your artifact to the next level, you’ll be able to copy Claude’s code and paste it into your editor of choice. From there, [Claude Code(opens in new tab)](https://www.anthropic.com/claude-code) is ready to step in.
 
-![](https://academy.claude.com/assets/media/40b01eb44904c4ddaa36871d7c1c35da84e5ef04ac73c81954e7afdd69cf7fc5.png)
+![A cursor pointing at the "Copy" button in a Claude artifact panel showing HTML for a Cherry Blossom Tea Garden Explorer.](https://academy.claude.com/assets/media/40b01eb44904c4ddaa36871d7c1c35da84e5ef04ac73c81954e7afdd69cf7fc5.png)
 
 As you build, keep working with Claude as a brainstorming partner for next-steps and new ideas, using Claude Code for tactical execution. Before you know it, you’ll have a fully validated, production-ready app.
 

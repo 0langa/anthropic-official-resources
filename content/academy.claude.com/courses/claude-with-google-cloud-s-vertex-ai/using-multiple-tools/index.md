@@ -4,13 +4,13 @@ Lesson 29 of 66 · Claude with Google Cloud's Vertex AIUsing multiple tools
 
 Lesson 297 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fusing-multiple-tools)
 
 Adding multiple tools to your Claude implementation becomes straightforward once you have the core tool-handling infrastructure in place. This tutorial shows how to integrate additional tools by following a simple pattern.
 
-![](https://academy.claude.com/assets/media/a717f46eec75a1fd38b52f641b998d3b0877e98425f802cf5a5e8b0926b2e604.png)
+![The three tools we need: get the current date time, add duration to date time and set a reminder, described below.](https://academy.claude.com/assets/media/a717f46eec75a1fd38b52f641b998d3b0877e98425f802cf5a5e8b0926b2e604.png)
 
 ## The Tools We're Adding[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/using-multiple-tools)
 
@@ -22,7 +22,7 @@ We need three main capabilities for our reminder system:
 
 The good news is that most of the implementation work is already done. The `add_duration_to_datetime` function handles various time units (seconds, minutes, hours, days, weeks, months) and returns properly formatted datetime strings.
 
-![](https://academy.claude.com/assets/media/f585eb66f25d88933ce57160e314b69102d4d01502cfd38cfa944b674d858970.png)
+![Notebook defining set_reminder, which prints the timestamp and content, then the start of add_duration_to_datetime_schema.](https://academy.claude.com/assets/media/f585eb66f25d88933ce57160e314b69102d4d01502cfd38cfa944b674d858970.png)
 
 The `set_reminder` function is a simple placeholder that prints out confirmation details rather than actually setting system reminders.
 
@@ -40,7 +40,7 @@ response = chat(messages, tools=[
 ])
 ```
 
-![](https://academy.claude.com/assets/media/f321946e99ec905d8bdb68a743b2fa381d0ed4b92f9b72ab51a62d210eebf363.png)
+![Notebook cell where run_tool handles only get_current_datetime and run_tools calls it for each "tool_use" block in a message.](https://academy.claude.com/assets/media/f321946e99ec905d8bdb68a743b2fa381d0ed4b92f9b72ab51a62d210eebf363.png)
 
 This tells Claude about all available tools it can use during the conversation.
 
@@ -60,7 +60,7 @@ def run_tool(tool_name, tool_input):
         return set_reminder(**tool_input)
 ```
 
-![](https://academy.claude.com/assets/media/05708aae0b884802d4e2cecf8d1d0cee843a4a3fa77f3621030aeffb87c3930c.png)
+![Notebook cell with the run_tool function shown above, then the start of run_tools, which collects tool_use blocks.](https://academy.claude.com/assets/media/05708aae0b884802d4e2cecf8d1d0cee843a4a3fa77f3621030aeffb87c3930c.png)
 
 The pattern is consistent: check the tool name, call the corresponding function with the provided input, and return the result.
 
@@ -73,7 +73,7 @@ This request forces Claude to:
 1. Calculate the date 177 days after January 1st, 2050
 2. Set a reminder for that calculated date
 
-![](https://academy.claude.com/assets/media/d1666c8c7d26379c7ef52c5df390315ad9f3d22d441faad4789dc191c9cc6305.png)
+![Notebook output in which set_reminder prints "Setting the following reminder for 2050-06-27T00:00:00: Doctor's appointment".](https://academy.claude.com/assets/media/d1666c8c7d26379c7ef52c5df390315ad9f3d22d441faad4789dc191c9cc6305.png)
 
 Claude handles this by first explaining what it needs to do, then using the `add_duration_to_datetime` tool to calculate June 27, 2050, and finally calling `set_reminder` with the correct date.
 
@@ -81,7 +81,7 @@ Claude handles this by first explaining what it needs to do, then using the `add
 
 Looking at the conversation history reveals how Claude manages multiple tools in a single response. The assistant message contains both a text block explaining the process and a tool use block for the first calculation.
 
-![](https://academy.claude.com/assets/media/6df4844f75276d59c6643d37b695c25bf4b90dc18f45c596a4855d726bd01b82.png)
+![Messages list with the add_duration_to_datetime call, its result "Monday, June 27, 2050 12:00:00 AM", then set_reminder.](https://academy.claude.com/assets/media/6df4844f75276d59c6643d37b695c25bf4b90dc18f45c596a4855d726bd01b82.png)
 
 After receiving the tool result, Claude continues with another message containing both text and another tool use block for setting the reminder. This demonstrates how Claude can chain multiple tool calls together to complete complex tasks.
 

@@ -4,7 +4,7 @@ Lesson 12 of 66 · Claude with Google Cloud's Vertex AIGenerating test datasets�
 
 Lesson 1215 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fgenerating-test-datasets)
 
@@ -20,7 +20,7 @@ Our prompt needs to assist users in writing three specific types of output for A
 
 The key requirement is that when a user requests help with a task, we return clean output in one of these formats without any extra explanations, headers, or footers.
 
-![](https://academy.claude.com/assets/media/6d85c55bc852b848bbb2134be168cea47694efd00ca16c27d916ac5b42d693b3.png)
+![The goal, input and output for the AWS code prompt, and the prompt labeled Prompt v1, which is shown in the code below.](https://academy.claude.com/assets/media/6d85c55bc852b848bbb2134be168cea47694efd00ca16c27d916ac5b42d693b3.png)
 
 Here's our initial prompt template:
 
@@ -37,7 +37,7 @@ Please provide a solution to the following task:
 
 An evaluation dataset contains inputs that we'll feed into our prompt to test its performance. For our case, we need an array of JSON objects where each object has a "task" property describing what we want Claude to accomplish.
 
-![](https://academy.claude.com/assets/media/3cd11bc1bff4b671835524c61c0e5d23159f0cc6fe7b91e6a2e89171afd008a2.png)
+![JSON array of task objects, such as "Create a Python function to extract the AWS account ID from an ARN", then many more.](https://academy.claude.com/assets/media/3cd11bc1bff4b671835524c61c0e5d23159f0cc6fe7b91e6a2e89171afd008a2.png)
 
 You can create datasets in two ways:
 
@@ -50,7 +50,7 @@ For automatic generation, using a faster model like Haiku makes sense since we'r
 
 Let's build a function that asks Claude to generate test cases for us. The function will create a comprehensive prompt that requests specific types of AWS-related tasks.
 
-![](https://academy.claude.com/assets/media/29c157757d3f49015a28b462624ce38b16664176ab92ad171af3b4524421ed07.png)
+![Notebook cell that imports json and defines generate_dataset with the prompt shown in the code below.](https://academy.claude.com/assets/media/29c157757d3f49015a28b462624ce38b16664176ab92ad171af3b4524421ed07.png)
 
 Here's the core function structure:
 
@@ -104,7 +104,7 @@ After running the generation function, you should get back realistic test cases 
 - Write a JSON configuration for an AWS Lambda function
 - Develop a regular expression to validate an AWS S3 bucket name
 
-![](https://academy.claude.com/assets/media/79ae8e4c4158bc46d55ed44451fdc7f2e6198eb7f2259be9b5c8d5a10a351a60.png)
+![Notebook output with the three tasks in full, such as an S3 bucket name that is lowercase, alphanumeric and 3-63 characters.](https://academy.claude.com/assets/media/79ae8e4c4158bc46d55ed44451fdc7f2e6198eb7f2259be9b5c8d5a10a351a60.png)
 
 Save your generated dataset to a file for easy reuse:
 

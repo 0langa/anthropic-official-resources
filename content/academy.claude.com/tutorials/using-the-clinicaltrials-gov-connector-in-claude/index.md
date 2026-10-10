@@ -2,7 +2,7 @@
 
 Set up and use the ClinicalTrials.gov integration with Claude to search the NIH/NLM registry of 500,000+ clinical trials, analyze endpoints, and support research operations.
 
-15 minClaude.ai
+15 minClaude
 
 [Open Claude](https://claude.ai/new)
 

@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Explain what a member experiences at a cap and how their request reaches an Owner
 - Decide where caps sit for your organization and who owns the escalation
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fspend-caps)
 

@@ -4,7 +4,7 @@ Lesson 18 of 66 · Claude with Google Cloud's Vertex AIBeing specific
 
 Lesson 185 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fbeing-specific)
 
@@ -12,7 +12,7 @@ When working with Claude, one of the most effective ways to improve your results
 
 Think about it this way: if you ask Claude to "write a short story about a character who discovers a hidden talent," Claude could go in countless directions. The story might be 200 words or 2,000 words. It might have one character or five. It might focus on comedy or drama. Without guidance, you're rolling the dice on what you'll get.
 
-![](https://academy.claude.com/assets/media/369e6e634eb42154aaf3f7556b6a44d2a40762bf7e657cf5798953211f0236c3.png)
+![The same short story prompt labeled "Not Great" beside a "Better!" version that adds three numbered guidelines.](https://academy.claude.com/assets/media/369e6e634eb42154aaf3f7556b6a44d2a40762bf7e657cf5798953211f0236c3.png)
 
 ## Two Types of Guidelines[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/being-specific)
 
@@ -35,7 +35,7 @@ The second type provides specific steps for the model to follow. This approach m
 3. Outline a pivotal scene that reveals the talent
 4. Brainstorm 3 supporting character types that could increase the impact of this discovery
 
-![](https://academy.claude.com/assets/media/559eb8d6c6972037d53b153f4d4982147cd2500c28b50a44607ba101d31a0afa.png)
+![The same short story prompt twice, once with a list of qualities the output should have and once with four steps to follow.](https://academy.claude.com/assets/media/559eb8d6c6972037d53b153f4d4982147cd2500c28b50a44607ba101d31a0afa.png)
 
 ## Real-World Results[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/being-specific)
 
@@ -73,7 +73,7 @@ Process steps are particularly valuable when you're dealing with:
 
 For example, if you're asking Claude to analyze why a sales team's performance dropped 30% last quarter, you might want to force it to consider market conditions, individual performance, organizational changes, and customer feedback - areas it might not naturally explore without specific direction.
 
-![](https://academy.claude.com/assets/media/b2d486f7abc21edf5eff45f496e925048b9576561ce269c6a8befdf89fd3254c.png)
+![An example prompt asking for a one page decision report on a sales team's 30% drop, with five numbered steps to follow.](https://academy.claude.com/assets/media/b2d486f7abc21edf5eff45f496e925048b9576561ce269c6a8befdf89fd3254c.png)
 
 The key is recognizing that Claude, like any tool, works better when you give it clear instructions about both what you want and how to get there. Being specific isn't about micromanaging the AI - it's about setting up the conditions for success.
 

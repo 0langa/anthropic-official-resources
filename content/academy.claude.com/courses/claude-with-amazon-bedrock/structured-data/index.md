@@ -4,13 +4,13 @@ Lesson 9 of 65 · Claude with Amazon BedrockStructured data
 
 Lesson 915 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fstructured-data)
 
 When you need Claude to generate structured data like JSON, Python code, or bulleted lists, you'll often run into a common problem: Claude wants to be helpful and add explanatory text, headers, or markdown formatting around your content. This extra commentary breaks the user experience when you just need the raw data.
 
-![](https://academy.claude.com/assets/media/fd7eada8e946f7814168a30081fe8afc2734080877f55303659839b2c069d047.png)
+![EventBridge Rule Generator app: input "Rule to monitor EC2 instances", a Generate button, and clean JSON with a copy button.](https://academy.claude.com/assets/media/fd7eada8e946f7814168a30081fe8afc2734080877f55303659839b2c069d047.png)
 
 Consider building a web app that generates AWS EventBridge rules. Users enter a description, click generate, and expect to see clean JSON they can immediately copy and use. If Claude returns the JSON wrapped in markdown code blocks with explanatory text, users can't simply copy the entire response - they have to manually select just the JSON portion.
 
@@ -54,7 +54,7 @@ This technique works by:
 - Setting a stop sequence to halt generation when Claude tries to close the code block
 - Capturing only the content between these delimiters
 
-![](https://academy.claude.com/assets/media/f4aba84385c9911549de9816e5ce81c6e82c762274c9651b743ce48c9fff8fd3.png)
+![A stop sequence and a prefilled assistant message that opens a json block make Claude write only the JSON, not a description.](https://academy.claude.com/assets/media/f4aba84385c9911549de9816e5ce81c6e82c762274c9651b743ce48c9fff8fd3.png)
 
 ## How It Works Behind the Scenes[](https://academy.claude.com/courses/claude-with-amazon-bedrock/structured-data)
 

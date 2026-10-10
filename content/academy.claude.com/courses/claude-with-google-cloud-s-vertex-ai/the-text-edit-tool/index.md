@@ -4,7 +4,7 @@ Lesson 32 of 66 · Claude with Google Cloud's Vertex AIThe text edit tool
 
 Lesson 325 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fthe-text-edit-tool)
 
@@ -23,7 +23,7 @@ The text editor tool provides Claude with a comprehensive set of file manipulati
 - Insert text at specific lines in a file
 - Undo recent edits to files
 
-![](https://academy.claude.com/assets/media/e93b28d26689f660d471543d9ed35984562ffe4026dd43106fc3751d68443226.png)
+![The text editor tool is built into Claude, but only its schema, so you provide the implementation of the actual tool.](https://academy.claude.com/assets/media/e93b28d26689f660d471543d9ed35984562ffe4026dd43106fc3751d68443226.png)
 
 This dramatically expands Claude's abilities and essentially gives it the power to act as a software engineer right out of the gate.
 
@@ -31,7 +31,7 @@ This dramatically expands Claude's abilities and essentially gives it the power 
 
 Here's where things get a bit confusing: while the tool schema is built into Claude, you still need to provide the actual implementation. Think of it this way - Claude knows how to ask for file operations, but you need to write the code that actually performs those operations.
 
-![](https://academy.claude.com/assets/media/6587d7fcc5407e1914687ea326582f612d3dff47ade380815b7ca04b69f77ad4.png)
+![The text_editor_tool_schema JSON schema and a "Function" box showing three question marks, the function you must write.](https://academy.claude.com/assets/media/6587d7fcc5407e1914687ea326582f612d3dff47ade380815b7ca04b69f77ad4.png)
 
 When you use custom tools, you typically write both the JSON schema and the function implementation. With the text editor tool, Claude provides the schema knowledge, but you must write functions to handle Claude's requests to create files, read directories, replace text, and so on.
 
@@ -55,7 +55,7 @@ def get_text_edit_schema(model):
         }
 ```
 
-![](https://academy.claude.com/assets/media/9829572f7b029ad5b85287cd2f03a0ff0f2da6bdb09c4b48b51fec422a81b129.png)
+![Claude expands the small schema stub into a long one with "command", "path", view_range, old_str, new_str and file_text.](https://academy.claude.com/assets/media/9829572f7b029ad5b85287cd2f03a0ff0f2da6bdb09c4b48b51fec422a81b129.png)
 
 Claude automatically expands this small schema into a much larger, detailed specification that includes all the parameters and operations available.
 

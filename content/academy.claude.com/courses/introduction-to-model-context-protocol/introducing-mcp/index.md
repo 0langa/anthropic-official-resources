@@ -4,13 +4,13 @@ Lesson 1 of 10 · Introduction to Model Context ProtocolIntroducing MCP
 
 Lesson 12 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-model-context-protocol%2Fintroducing-mcp)
 
 Model Context Protocol (MCP) is a communication layer that provides Claude with context and tools without requiring you to write a bunch of tedious integration code. Think of it as a way to shift the burden of tool definitions and execution away from your server to specialized MCP servers.
 
-![](https://academy.claude.com/assets/media/756f4e95014aed5979d5f87c2da8ea56b75c516a1e6879becbf224de8c1c4803.png)
+![Our server's MCP Client connects to two MCP Servers that each hold tools, prompts and resources and call an outside service.](https://academy.claude.com/assets/media/756f4e95014aed5979d5f87c2da8ea56b75c516a1e6879becbf224de8c1c4803.png)
 
 When you first encounter MCP, you'll see diagrams showing the basic architecture: an MCP Client (your server) connecting to MCP Servers that contain tools, prompts, and resources. Each MCP Server acts as an interface to some outside service.
 
@@ -18,11 +18,11 @@ When you first encounter MCP, you'll see diagrams showing the basic architecture
 
 Let's say you're building a chat interface where users can ask Claude about their GitHub data. A user might ask "What open pull requests are there across all my repositories?" To handle this, Claude needs tools to access GitHub's API.
 
-![](https://academy.claude.com/assets/media/5148da8be952ac4f34dff0ecef9640cadcb7f14a249ac7890445fcda84dd6a81.png)
+![Mockup of the sample chat app: the user question quoted above, an AI reply showing three dots, and a Send button.](https://academy.claude.com/assets/media/5148da8be952ac4f34dff0ecef9640cadcb7f14a249ac7890445fcda84dd6a81.png)
 
 GitHub has massive functionality - repositories, pull requests, issues, projects, and tons more. Without MCP, you'd need to create an incredible number of tool schemas and functions to handle all of GitHub's features.
 
-![](https://academy.claude.com/assets/media/8a56e2bfc0864037ea772066e4ebe028a9b70455fcf69753f162234bc0791b30.png)
+![Our server holding eight GitHub tools such as get_repos and search_issues, each with its own schema and function.](https://academy.claude.com/assets/media/8a56e2bfc0864037ea772066e4ebe028a9b70455fcf69753f162234bc0791b30.png)
 
 This means writing, testing, and maintaining all that integration code yourself. That's a lot of effort and ongoing maintenance burden.
 
@@ -30,7 +30,7 @@ This means writing, testing, and maintaining all that integration code yourself.
 
 MCP shifts this burden by moving tool definitions and execution from your server to dedicated MCP servers. Instead of you authoring all those GitHub tools, an MCP Server for GitHub handles it.
 
-![](https://academy.claude.com/assets/media/4ae6049ccbd84c2451d768fc2bda25d2352d406e28e01124efe63d1339f26b62.png)
+![Our server holds the get_repos tool with its "schema" and "fn", and exchanges messages with an empty MCP Server and Claude.](https://academy.claude.com/assets/media/4ae6049ccbd84c2451d768fc2bda25d2352d406e28e01124efe63d1339f26b62.png)
 
 The MCP Server wraps up tons of functionality around GitHub and exposes it as a standardized set of tools. Your application connects to this MCP server instead of implementing everything from scratch.
 
@@ -38,7 +38,7 @@ The MCP Server wraps up tons of functionality around GitHub and exposes it as a 
 
 MCP Servers provide access to data or functionality implemented by outside services. They act as specialized interfaces that expose tools, prompts, and resources in a standardized way.
 
-![](https://academy.claude.com/assets/media/6007c0bb43df548f5718d979f8f3edf520d95cd5d9cd10924de5c1d115d0a274.png)
+![Our server talks both ways with Claude and a GitHub MCP server whose get_repos tool, a schema and a function, calls GitHub.](https://academy.claude.com/assets/media/6007c0bb43df548f5718d979f8f3edf520d95cd5d9cd10924de5c1d115d0a274.png)
 
 In our GitHub example, the MCP Server for GitHub contains tools like `get_repos()` and connects directly to GitHub's API. Your server communicates with the MCP server, which handles all the GitHub-specific implementation details.
 

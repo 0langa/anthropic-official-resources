@@ -2,7 +2,7 @@
 
 Set up and use the Egnyte connector with Claude for secure document management, search, analysis, and AI-powered content retrieval.
 
-15 minClaude.ai
+15 minClaude
 
 [Open Claude](https://claude.ai/new)
 

@@ -1,8 +1,8 @@
 # Tutorials
 
-Build your skills through written guides, and video lessons covering everything from quick tasks to complex workflows and best practices.
+Build your skills with written guides and video lessons, from quick tasks to complex workflows and best practices.
 
-## Claude.ai
+## Claude
 
 [View all](https://academy.claude.com/all)
 
@@ -168,11 +168,11 @@ Build your skills through written guides, and video lessons covering everything 
 
 ### Getting started with Claude in Excel
 
-Claude in Excel·7 min](https://academy.claude.com/tutorials/getting-started-with-claude-in-excel)[![](https://academy.claude.com/assets/v1/thumbnail.light-hwgnqzc8.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-i04sxjy4.png)
+Claude for Excel·7 min](https://academy.claude.com/tutorials/getting-started-with-claude-in-excel)[![](https://academy.claude.com/assets/v1/thumbnail.light-hwgnqzc8.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-i04sxjy4.png)
 
 ### Building a PowerPoint with Claude
 
-Claude in PowerPoint·4 min](https://academy.claude.com/tutorials/building-a-powerpoint-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.dark-b49emwd1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-b49emwd1.png)
+Claude for PowerPoint·4 min](https://academy.claude.com/tutorials/building-a-powerpoint-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.dark-b49emwd1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-b49emwd1.png)
 
 ### Simplify your browsing experience with Claude in Chrome
 

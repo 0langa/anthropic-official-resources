@@ -2,7 +2,7 @@
 
 How to use the Prior Auth Review sample skill with Claude
 
-3 minClaude.ai
+3 minClaude
 
 [Open Claude](https://claude.ai/new)
 

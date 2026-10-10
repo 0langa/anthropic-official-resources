@@ -4,7 +4,7 @@ Lesson 8 of 65 · Claude with Amazon BedrockControlling model output
 
 Lesson 810 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fcontrolling-model-output)
 
@@ -14,11 +14,11 @@ Beyond crafting better prompts, there are two powerful techniques for controllin
 
 Message prefilling lets you provide the beginning of Claude's response, which strongly influences the direction of its answer. Instead of letting Claude decide how to start its response, you give it a specific opening that steers the conversation.
 
-![](https://academy.claude.com/assets/media/d4b65a9763ef5ff6e4b30feda58698076d3752bcc687b4d19bd1a81f514c830b.png)
+![User message "Is tea or coffee better at breakfast?" goes to Claude, which returns an assistant message of "???".](https://academy.claude.com/assets/media/d4b65a9763ef5ff6e4b30feda58698076d3752bcc687b4d19bd1a81f514c830b.png)
 
 Here's how it works: you build your normal list of messages with the user's question, but then add an assistant message at the end containing the start of the response you want. When Claude processes this, it sees the assistant message and thinks "I've already started responding to this question, so I should continue from where I left off."
 
-![](https://academy.claude.com/assets/media/795076b1349f2da45f73e262ea5848c68d5e9911c9429d5580938a5e40eb0c2b.png)
+![Claude continues the prefilled text with "it has higher caffeine content which helps with alertness in the morning".](https://academy.claude.com/assets/media/795076b1349f2da45f73e262ea5848c68d5e9911c9429d5580938a5e40eb0c2b.png)
 
 For example, if you ask "Is tea or coffee better at breakfast?" and prefill with "Coffee is better because", Claude will continue from that point and build a response supporting coffee. The key insight is that Claude will pick up exactly where your prefilled text ends - it won't repeat what you've written.
 
@@ -45,7 +45,7 @@ You can steer Claude in any direction by changing your prefilled text:
 
 Stop sequences force Claude to end its response immediately when it generates specific text. This is useful when you want to truncate output at a particular point or prevent Claude from continuing past a certain marker.
 
-![](https://academy.claude.com/assets/media/c0e455bf7313803a54e64c88b33f018d6c005f987c99ac97f6c197929aada99e.png)
+![Diagram of the user message "Count from 1 to 10" sent to Claude with stop sequences set to "5", and the reply "1, 2, 3, 4,".](https://academy.claude.com/assets/media/c0e455bf7313803a54e64c88b33f018d6c005f987c99ac97f6c197929aada99e.png)
 
 The concept is straightforward: you provide a list of strings, and as soon as Claude generates any of those strings, it stops and returns whatever it has generated so far. The stop sequence itself is not included in the response.
 

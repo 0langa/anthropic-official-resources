@@ -14,14 +14,14 @@ Today, we’re releasing a set of connectors—tools that let Claude work alongs
 
 Connectors allow Claude to access other platforms and tools directly. We are adding several new connectors that are designed to make it easier to use Claude for creative work:
 
-- **[Ableton](https://claude.ai/redirect/website.v1.50a00dcb-f7e9-42c5-99f0-ba028d5a1d4f/directory/connectors/ant.dir.gh.ableton.ableton-knowledge)** grounds Claude’s answers in official product documentation for Live and Push.
-- **[Adobe for creativity](https://claude.ai/redirect/website.v1.50a00dcb-f7e9-42c5-99f0-ba028d5a1d4f/directory/connectors/adobe-creativity)** enables users to bring images, videos, and designs to life, drawing from 50+ tools across Creative Cloud apps including Photoshop, Premiere, Express, and more.
-- [**Affinity by Canva**](https://claude.ai/redirect/website.v1.50a00dcb-f7e9-42c5-99f0-ba028d5a1d4f/directory/connectors/ant.dir.gh.canva.affinity) automates repetitive production tasks across pro creative workflows - such as batch image adjustments, layer renaming, and file export - and generates custom features directly in the app.
-- **[Autodesk Fusion](https://claude.ai/redirect/website.v1.50a00dcb-f7e9-42c5-99f0-ba028d5a1d4f/directory/connectors/ant.dir.gh.autodesk.fusion-mcp)** allows designers and engineers with a Fusion subscription to create and modify 3D models through conversations with Claude.
-- **[Blender](https://claude.ai/redirect/website.v1.50a00dcb-f7e9-42c5-99f0-ba028d5a1d4f/directory/connectors/ant.dir.gh.blender.blender-mcp)** offers a natural-language interface to its Python API, allowing users to explore and understand complex setups and making it easier to access Blender’s documentation.
-- **[Resolume Arena](https://claude.ai/redirect/website.v1.50a00dcb-f7e9-42c5-99f0-ba028d5a1d4f/directory/connectors/ant.dir.gh.resolume.resolume-arena) and [Resolume Wire](https://claude.ai/redirect/website.v1.50a00dcb-f7e9-42c5-99f0-ba028d5a1d4f/directory/connectors/ant.dir.gh.resolume.resolume-wire)** let VJs and live visual artists control Arena, Avenue, and Wire in real time through natural language for live performance and AV production.
-- **[SketchUp](https://claude.ai/redirect/website.v1.50a00dcb-f7e9-42c5-99f0-ba028d5a1d4f/directory/connectors/sketchup)** turns a conversation with Claude into a starting point for 3D modeling—describe a room, a piece of furniture, or a site concept, then open it in SketchUp to refine**.**
-- **[Splice](https://claude.ai/redirect/website.v1.50a00dcb-f7e9-42c5-99f0-ba028d5a1d4f/directory/connectors/splice)** gives music producers the ability to search its catalog of royalty-free samples from within Claude.
+- **[Ableton](https://claude.ai/redirect/website.v1.7873c0e0-41e1-4ff2-9dfa-d64d1c747446/directory/connectors/ant.dir.gh.ableton.ableton-knowledge)** grounds Claude’s answers in official product documentation for Live and Push.
+- **[Adobe for creativity](https://claude.ai/redirect/website.v1.7873c0e0-41e1-4ff2-9dfa-d64d1c747446/directory/connectors/adobe-creativity)** enables users to bring images, videos, and designs to life, drawing from 50+ tools across Creative Cloud apps including Photoshop, Premiere, Express, and more.
+- [**Affinity by Canva**](https://claude.ai/redirect/website.v1.7873c0e0-41e1-4ff2-9dfa-d64d1c747446/directory/connectors/ant.dir.gh.canva.affinity) automates repetitive production tasks across pro creative workflows - such as batch image adjustments, layer renaming, and file export - and generates custom features directly in the app.
+- **[Autodesk Fusion](https://claude.ai/redirect/website.v1.7873c0e0-41e1-4ff2-9dfa-d64d1c747446/directory/connectors/ant.dir.gh.autodesk.fusion-mcp)** allows designers and engineers with a Fusion subscription to create and modify 3D models through conversations with Claude.
+- **[Blender](https://claude.ai/redirect/website.v1.7873c0e0-41e1-4ff2-9dfa-d64d1c747446/directory/connectors/ant.dir.gh.blender.blender-mcp)** offers a natural-language interface to its Python API, allowing users to explore and understand complex setups and making it easier to access Blender’s documentation.
+- **[Resolume Arena](https://claude.ai/redirect/website.v1.7873c0e0-41e1-4ff2-9dfa-d64d1c747446/directory/connectors/ant.dir.gh.resolume.resolume-arena) and [Resolume Wire](https://claude.ai/redirect/website.v1.7873c0e0-41e1-4ff2-9dfa-d64d1c747446/directory/connectors/ant.dir.gh.resolume.resolume-wire)** let VJs and live visual artists control Arena, Avenue, and Wire in real time through natural language for live performance and AV production.
+- **[SketchUp](https://claude.ai/redirect/website.v1.7873c0e0-41e1-4ff2-9dfa-d64d1c747446/directory/connectors/sketchup)** turns a conversation with Claude into a starting point for 3D modeling—describe a room, a piece of furniture, or a site concept, then open it in SketchUp to refine**.**
+- **[Splice](https://claude.ai/redirect/website.v1.7873c0e0-41e1-4ff2-9dfa-d64d1c747446/directory/connectors/splice)** gives music producers the ability to search its catalog of royalty-free samples from within Claude.
 
 ## Using Claude for creative work
 
@@ -49,20 +49,20 @@ We’re also working with art and design programs to support curricula that invo
 
 ## Related content
 
-### Expanding the Cyber Verification Program
+### 2026 Usage Policy update
 
-We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.
+We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
 
-[Read more](https://www.anthropic.com/news/cyber-verification-program)
+[Read more](https://www.anthropic.com/news/2026-usage-policy-update)
 
-### Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
+### Building on our commitment to American scientific discovery
 
-Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.
+Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
 
-[Read more](https://www.anthropic.com/news/claude-frontier-academy)
+[Read more](https://www.anthropic.com/news/genesis-mission-commitment)
 
-### Barclays scales Claude to upgrade operations and improve client experience
+### Introducing the Anthropic Cyber Mission
 
-Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
+We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.
 
-[Read more](https://www.anthropic.com/news/barclays-scales-claude)
+[Read more](https://www.anthropic.com/news/anthropic-cyber-mission)

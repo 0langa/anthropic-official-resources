@@ -2,13 +2,13 @@
 
 Learn to use AI safely, effectively, and with intention. Free courses, tutorials, and use cases from Anthropic’s education team.
 
-[Get started](https://academy.claude.com/start)[All resources](https://academy.claude.com/all)
+[Get started](https://academy.claude.com/start)[Browse all resources](https://academy.claude.com/all)
 
 ## Go deeper with Claude
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-khg817wt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-h1zlg9b3.png)
 
-### Claude.ai
+### Claude
 
 Your thinking partner for big ambitions: work through a problem, pressure-test a draft, or make sense of a dataset in conversation.](https://academy.claude.com/products/claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-it98jcz1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nkhyzydu.png)
 
@@ -18,7 +18,7 @@ Hand off work you can steer anywhere. Brief Claude on a task, step away, and com
 
 ### Claude Code
 
-Build software with Claude. Plan, write, debug and ship wherever you code.](https://academy.claude.com/products/code)[![](https://academy.claude.com/assets/v1/thumbnail.dark-cdigm2ac.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cdigm2ac.png)
+Build software with Claude. Plan, write, debug, and ship wherever you code.](https://academy.claude.com/products/code)[![](https://academy.claude.com/assets/v1/thumbnail.dark-cdigm2ac.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cdigm2ac.png)
 
 ### Claude Tag
 

@@ -4,7 +4,7 @@ Lesson 38 of 65 · Claude with Amazon BedrockBM25 lexical search
 
 Lesson 385 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fbm25-lexical-search)
 
@@ -14,7 +14,7 @@ When building a RAG pipeline, you'll quickly discover that semantic search alone
 
 Let's say you're searching for a specific incident ID like "INC-2023-Q4-011" in a document. While this exact term appears multiple times in relevant sections, semantic search might return unrelated sections that seem semantically similar but don't actually contain the specific information you need.
 
-![](https://academy.claude.com/assets/media/ae16f186b3678b86bceb950af1750e6b11be3e1202d94ae3d02dbbf4ce9c0363.png)
+![We want the Cybersecurity and Software Engineering sections, but got Cybersecurity and Financial Analysis for this query.](https://academy.claude.com/assets/media/ae16f186b3678b86bceb950af1750e6b11be3e1202d94ae3d02dbbf4ce9c0363.png)
 
 This happens because semantic search focuses on meaning rather than exact text matches. When you need precise keyword matching, you need a different approach.
 
@@ -22,7 +22,7 @@ This happens because semantic search focuses on meaning rather than exact text m
 
 The solution is to run both semantic and lexical searches in parallel, then merge the results. This gives you the best of both worlds:
 
-![](https://academy.claude.com/assets/media/02a7c7cadb95e5dd57b37ba6071ab25a60fb4c01524a9bd25d92a133699ecf79.png)
+![The user question about INC-2023-Q4-011 runs through semantic and lexical search in parallel, then their results merge.](https://academy.claude.com/assets/media/02a7c7cadb95e5dd57b37ba6071ab25a60fb4c01524a9bd25d92a133699ecf79.png)
 
 - **Semantic search** - Finds conceptually related content using embeddings
 - **Lexical search** - Finds exact keyword matches using classic text search
@@ -32,7 +32,7 @@ The solution is to run both semantic and lexical searches in parallel, then merg
 
 BM25 (Best Match 25) is a popular algorithm for lexical search in RAG pipelines. Here's how it processes a search query:
 
-![](https://academy.claude.com/assets/media/e24396bf85a106a14d16e827ef1a9cc156f970c36bf4fe4eb6c071b4f5873d8c.png)
+![BM25 on "a INC-2023-Q4-011": "a" has frequency 5 and low importance, "INC-2023-Q4-011" has frequency 1 and high importance.](https://academy.claude.com/assets/media/e24396bf85a106a14d16e827ef1a9cc156f970c36bf4fe4eb6c071b4f5873d8c.png)
 
 The algorithm follows these key steps:
 

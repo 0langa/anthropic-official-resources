@@ -2,7 +2,7 @@
 
 Overview of how Claude serves financial professionals with AI assistance for research, analysis, and document creation tasks.
 
-4 minClaude.ai
+4 minClaude
 
 [Open Claude](https://claude.ai/new)
 

@@ -166,31 +166,37 @@ Of everything above, four things are worth keeping an eye on, roughly in order o
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleSep 24, 2026
+[ArticleOct 8, 2026
 
-### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Building effective agent automations
 
-Our latest Opus model is priced and trained to optimize costs for how developers code now.
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
 
-Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 14, 2026
+Claude Platform
 
-### Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 7, 2026
 
-Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
+### Automating eval design and hillclimbing with Claude
 
-Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 24, 2026
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
+Claude Platform
 
-Adam Ward, on Anthropic’s marketing team, shares how he uses Claude to turn one weekly sales report into a personalized Monday briefing for every account executive he supports.
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
 
-Claude Code](https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep)[ArticleAug 20, 2026
+### Claude Code in the cloud: a field guide to cloud sessions
 
-### The Claude Code guide for startups
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
 
-How fast-growing startups use Claude Code to ship—five operating principles drawn from interviews with more than a dozen companies.
+Claude Code
 
-Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
+
+### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
+
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
+
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)
 
 ## Transform how your organization operates with Claude
 

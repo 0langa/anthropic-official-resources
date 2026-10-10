@@ -4,13 +4,13 @@ Lesson 22 of 65 · Claude with Amazon BedrockTool functions
 
 Lesson 225 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Ftool-functions)
 
 Building tools for Claude requires solving several challenges that aren't immediately obvious. When you want Claude to set reminders for future dates, you quickly discover that while Claude knows the current date, it doesn't always know the exact time, struggles with complex date arithmetic, and has no built-in way to actually set reminders.
 
-![](https://academy.claude.com/assets/media/59f1421b35b91a9e12d77fe6fc39b9aa25f631d512952ff9d558642a0644650e.png)
+![In a chat, a user asks for a reminder for a doctor's appointment a week from Thursday, a goal that takes 3 to 4 custom tools.](https://academy.claude.com/assets/media/59f1421b35b91a9e12d77fe6fc39b9aa25f631d512952ff9d558642a0644650e.png)
 
 The solution is to create custom tools that handle these specific tasks. For a reminder system, you'll need three separate tools: one to get the current date and time, another to add durations to dates, and a third to actually set the reminder.
 
@@ -22,7 +22,7 @@ Claude has some limitations when it comes to time-based tasks:
 - Claude doesn't always handle time-based addition well, especially when looking many days into the future
 - Claude doesn't know how to set a reminder
 
-![](https://academy.claude.com/assets/media/a7c479969f35c554cc2bbba8f8e3908cabc2f621e13b4068267e5c971b20692b.png)
+![A user asks "Set a reminder for my doctor's appointment. It's a week from Thursday." and AI replies "OK, I will remind you".](https://academy.claude.com/assets/media/a7c479969f35c554cc2bbba8f8e3908cabc2f621e13b4068267e5c971b20692b.png)
 
 ## The Tools You Need[](https://academy.claude.com/courses/claude-with-amazon-bedrock/tool-functions)
 
@@ -32,17 +32,17 @@ To solve these problems, you'll create three dedicated tools:
 - **Add duration to date time** - Claude isn't perfect with date time addition
 - **Set a reminder** - Need a way to set a reminder
 
-![](https://academy.claude.com/assets/media/ab568fe7efa0dc2e7418393d5d926dbca2ccc2840fa0ea0e396b4c786d2699c6.png)
+![The three tools needed for a reminder system and the reason for each, listed above.](https://academy.claude.com/assets/media/ab568fe7efa0dc2e7418393d5d926dbca2ccc2840fa0ea0e396b4c786d2699c6.png)
 
 ## How Tool Functions Work[](https://academy.claude.com/courses/claude-with-amazon-bedrock/tool-functions)
 
 The tool system follows a specific flow between your server and Claude. You write functions that Claude can call when it needs additional information, and Claude receives the results to help formulate its response.
 
-![](https://academy.claude.com/assets/media/5b0bb0502e2b58bf4e767efced7d0f7f7c385c57501d457c61769d5ede05a2a1.png)
+![Tool use flow marked with the code for each step, in order: JSON schema, ToolUse part, tool function, ToolResult part.](https://academy.claude.com/assets/media/5b0bb0502e2b58bf4e767efced7d0f7f7c385c57501d457c61769d5ede05a2a1.png)
 
 The process involves several steps: writing the tool function, creating a JSON schema specification, calling Claude with that schema, running the tool when Claude requests it, and providing the results back to Claude.
 
-![](https://academy.claude.com/assets/media/493213de9630b90abce40533716123bee8656cde00774668558a6aedcf045085.png)
+![Example get_weather tool function: it raises a ValueError if location is empty, then returns a weather API response as JSON.](https://academy.claude.com/assets/media/493213de9630b90abce40533716123bee8656cde00774668558a6aedcf045085.png)
 
 ## Writing Tool Functions[](https://academy.claude.com/courses/claude-with-amazon-bedrock/tool-functions)
 
@@ -54,7 +54,7 @@ Tool functions are plain Python functions that get executed when Claude decides 
 - Validate the inputs, raising an error if they fail validation
 - Return meaningful errors - Claude will try to call your function a second time if it gets an error
 
-![](https://academy.claude.com/assets/media/ab8e2ed3a5d133c180b9fb859d6d53a4c122fea7cef28570e948c20faa8dcd33.png)
+![Notebook cells that create a boto3 client for bedrock-runtime, then define add_user_message, add_assistant_message and chat.](https://academy.claude.com/assets/media/ab8e2ed3a5d133c180b9fb859d6d53a4c122fea7cef28570e948c20faa8dcd33.png)
 
 ## Creating Your First Tool[](https://academy.claude.com/courses/claude-with-amazon-bedrock/tool-functions)
 
@@ -75,7 +75,7 @@ This function is straightforward but follows the key principles: it has a descri
 
 Once you have your function, you need to write a JSON Schema that describes it to Claude. This schema tells Claude what arguments the function requires and helps it understand when and how to use the tool.
 
-![](https://academy.claude.com/assets/media/6ea349aba9b64c132b3081158284d2e6eecfc9fcba6b1b8a88aaec781d262097.png)
+![Notebook cell calling get_current_datetime with the date format "lkajsflkajsfd", whose output is "lkajsflkajsfd".](https://academy.claude.com/assets/media/6ea349aba9b64c132b3081158284d2e6eecfc9fcba6b1b8a88aaec781d262097.png)
 
 The JSON Schema serves two purposes: it helps Claude understand what arguments your function requires, and it's not just an LLM concept - JSON Schema is commonly used for data validation across many programming contexts. There are plenty of online tools to help you generate schemas.
 

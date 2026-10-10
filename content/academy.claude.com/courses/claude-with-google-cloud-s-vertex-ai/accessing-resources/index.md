@@ -4,7 +4,7 @@ Lesson 56 of 66 · Claude with Google Cloud's Vertex AIAccessing resources
 
 Lesson 569 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Faccessing-resources)
 
@@ -12,7 +12,7 @@ Resources in MCP allow your server to expose data that can be directly included 
 
 ## Understanding the Resource Flow[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/accessing-resources)
 
-![](https://academy.claude.com/assets/media/f2baa6225bba4675d0624954dbe38fc669f17916147b137fb01c305f825c0e83.png)
+![To fill the autocomplete, the MCP client reads docs://documents from the MCP server and returns doc names to our code.](https://academy.claude.com/assets/media/f2baa6225bba4675d0624954dbe38fc669f17916147b137fb01c305f825c0e83.png)
 
 When a user wants to access resource content, the flow works like this:
 
@@ -64,7 +64,7 @@ This approach handles two main scenarios:
 
 ## Testing Resource Access[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/accessing-resources)
 
-![](https://academy.claude.com/assets/media/f17435118f01fd2933aa7930a388730b916195763575e2034efcbd9175c00195.png)
+![MCP Inspector Resources tab: reading docs://documents/report.pdf returns mimeType "text/plain" and the report text.](https://academy.claude.com/assets/media/f17435118f01fd2933aa7930a388730b916195763575e2034efcbd9175c00195.png)
 
 You can verify your resource implementation works by testing it in your application. When you type "@" followed by a resource name, you should see an autocomplete list of available resources. Selecting one will include its contents directly in your prompt.
 

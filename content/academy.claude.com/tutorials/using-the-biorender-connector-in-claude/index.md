@@ -2,7 +2,7 @@
 
 Set up and use the BioRender integration with Claude to search scientific figure templates and icon collections.
 
-9 minClaude.ai
+9 minClaude
 
 [Open Claude](https://claude.ai/new)
 

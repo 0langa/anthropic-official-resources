@@ -4,7 +4,7 @@ Lesson 7 of 65 · Claude with Amazon BedrockStreaming
 
 Lesson 77 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fstreaming)
 
@@ -14,7 +14,7 @@ When building chat interfaces with AI models, users expect to see responses appe
 
 Instead of waiting for the entire response to be generated, streaming sends back pieces of text as soon as they're available. Here's how the flow changes:
 
-![](https://academy.claude.com/assets/media/77791ffb43d5b4b169cafc72d9d05c0db3cd65b01f57dc394ac9defe463e0846.png)
+![Claude returns an initial response, then events "You can", "host a" and "Postgres", which our server passes to the chat app.](https://academy.claude.com/assets/media/77791ffb43d5b4b169cafc72d9d05c0db3cd65b01f57dc394ac9defe463e0846.png)
 
 When you call `converse_stream`, you immediately get back an initial response that contains a `stream` object. This stream is a generator that yields events as the model generates text. Each event contains a small chunk of the overall response.
 
@@ -39,11 +39,11 @@ This will print out all the different events as they arrive. You'll see the resp
 
 The stream yields several types of events, each serving a different purpose:
 
-![](https://academy.claude.com/assets/media/e652a5f85512e95413552937a4205b09a51f3e2515ddf234e4911fbdac5c7ec2.png)
+![Table of the purpose of six event types, such as contentBlockStart for a new block, plus Claude yielding text chunk events.](https://academy.claude.com/assets/media/e652a5f85512e95413552937a4205b09a51f3e2515ddf234e4911fbdac5c7ec2.png)
 
 For basic text generation, you only need to care about `contentBlockDelta` events. These contain the actual generated text chunks that you want to display to users.
 
-![](https://academy.claude.com/assets/media/97a9dc1ff5a0c677b9b0d0cb85a69c47e7b4a2a43776ca19b1aa715c845f9f83.png)
+![Notebook output: a messageStart event, then contentBlockDelta events with text such as "The" and "XenonLin".](https://academy.claude.com/assets/media/97a9dc1ff5a0c677b9b0d0cb85a69c47e7b4a2a43776ca19b1aa715c845f9f83.png)
 
 The events always arrive in a predictable order: `messageStart`, multiple `contentBlockDelta` events containing your text, then `contentBlockStop`, `messageStop`, and finally `metadata`.
 

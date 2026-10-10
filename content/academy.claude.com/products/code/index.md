@@ -1,6 +1,6 @@
 # Claude Code
 
-Build software with Claude. Plan, write, debug and ship wherever you code.
+Build software with Claude. Plan, write, debug, and ship wherever you code.
 
 ## Start here
 
@@ -16,13 +16,13 @@ code.claude.com
 
  (opens in new tab)](https://code.claude.com/docs/en/quickstart)[### Giving Claude context 
 
-CLAUDE.md and prompting habits. The single highest-leverage setup step.
+CLAUDE.md and prompting habits that give Claude the context it needs.
 
 code.claude.com
 
  (opens in new tab)](https://code.claude.com/docs/en/memory)
 
-[## For Admins and IT
+[## For admins and IT
 
 Deploying Claude Code across your org? Guides for setup, governance, and rollout.
 

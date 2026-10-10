@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Write prompts that don't leave room for the wrong action
 - Recognize the moments when "stop and think" matters more than speed
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-cowork%2Fpermissions-usage-choosing-your-model)
 

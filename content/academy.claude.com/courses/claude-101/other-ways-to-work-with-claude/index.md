@@ -8,7 +8,7 @@ In this lessonBy the end, you’ll be able to
 
 - Understand when to use Claude Code, Claude Tag, Claude Design, Claude for Microsoft 365, and Claude in Chrome
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-101%2Fother-ways-to-work-with-claude)
 
@@ -191,11 +191,6 @@ Each of these tools extends Claude's capabilities into the specific environments
 Wrap up with a short recap of this course and a quiz to earn your completion badge that you can share on LinkedIn, and with your team.
 
 Was this helpful?
-
-
-## Transcript
-
-This lesson's video contains no spoken narration (screen demonstration with background audio only).
 
 
 ## Video transcript

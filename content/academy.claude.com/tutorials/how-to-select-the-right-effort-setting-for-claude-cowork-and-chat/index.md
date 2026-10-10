@@ -2,7 +2,7 @@
 
 Understand how effort settings work in claude.ai and why adjusting effort on a frontier model often costs less per task than switching to a cheaper model.
 
-6 minClaude.ai
+6 minClaude
 
 [Open Claude](https://claude.ai/new)
 

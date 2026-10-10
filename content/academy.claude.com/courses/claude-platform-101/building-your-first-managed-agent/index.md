@@ -4,7 +4,7 @@ Lesson 12 of 13 · Claude Platform 101Building your first managed agent
 
 Lesson 128 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-platform-101%2Fbuilding-your-first-managed-agent)
 

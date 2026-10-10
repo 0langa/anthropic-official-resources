@@ -4,13 +4,13 @@ Lesson 26 of 65 · Claude with Amazon BedrockSending tool results
 
 Lesson 267 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fsending-tool-results)
 
 Now we're at the final step of the tool use workflow. After running our tools and getting the results, we need to send everything back to Claude so it can provide a complete response to the user.
 
-![](https://academy.claude.com/assets/media/d86caccabc4e4c6ddc0dcae8462f8d5640bd46fe2d94d587859559942db42b3d.png)
+![Our server sends Claude "What time is it?", the assistant text and tool use part, then a user message with the tool result.](https://academy.claude.com/assets/media/d86caccabc4e4c6ddc0dcae8462f8d5640bd46fe2d94d587859559942db42b3d.png)
 
 The process is straightforward: take all the tool result parts we generated, package them into a user message, and send the entire conversation history back to Claude along with the original tool schemas.
 
@@ -18,7 +18,7 @@ The process is straightforward: take all the tool result parts we generated, pac
 
 First, we need to make sure our conversation history is complete. After Claude's initial response with the tool use request, we need to add that response to our message history using `add_assistant_message()`.
 
-![](https://academy.claude.com/assets/media/324a7d4f8396892078a136b4c7f5c825e71bcf103f221e99931f8fd7d08ddae7.png)
+![The assistant message, holding a text part and a toolUse part, highlighted in the history our server sends to Claude.](https://academy.claude.com/assets/media/324a7d4f8396892078a136b4c7f5c825e71bcf103f221e99931f8fd7d08ddae7.png)
 
 This ensures we have the complete conversation flow: user question → assistant tool request → tool results → final assistant response.
 
@@ -30,7 +30,7 @@ The `run_tools()` function processes all the tool use requests from Claude's res
 - The actual output from running the tool
 - A status indicating success or error
 
-![](https://academy.claude.com/assets/media/c79e6ca88e194c897d6995e4879e758488f3260ff18b52e2351d7ae4861230a6.png)
+![Notebook code calling run_tool in a try block and putting json.dumps of the output, or the error text, into each toolResult.](https://academy.claude.com/assets/media/c79e6ca88e194c897d6995e4879e758488f3260ff18b52e2351d7ae4861230a6.png)
 
 The function handles both successful tool executions and errors gracefully, wrapping everything in the correct JSON structure that Claude expects.
 
@@ -46,7 +46,7 @@ add_user_message(messages, run_tools(parts))
 
 This creates a user message containing all the tool result parts. The conversation now has the complete back-and-forth needed for Claude to provide a final response.
 
-![](https://academy.claude.com/assets/media/77b78dbac304525ac9ecebcb1fe7ee948aa41472fdac1cbbdc88157eff0f5b21.png)
+![The printed messages list has three messages, ending in a user tool result "2025-04-03 12:54:00" with status "success".](https://academy.claude.com/assets/media/77b78dbac304525ac9ecebcb1fe7ee948aa41472fdac1cbbdc88157eff0f5b21.png)
 
 ## Final Call to Claude[](https://academy.claude.com/courses/claude-with-amazon-bedrock/sending-tool-results)
 
@@ -63,7 +63,7 @@ text, parts = chat(messages, tools=[get_current_datetime_schema])
 
 Including the tool schemas is crucial. Without them, Claude would be confused about the tool references in the conversation history and wouldn't understand what `get_current_datetime` actually does.
 
-![](https://academy.claude.com/assets/media/a4ccdcec50f5f5bf96096ad864fd6d031f4e95644825e10973d4896fd14df91f.png)
+![The messages list ends with the tool result "2025-04-03 12:54:00" and status "success", then the cell calls chat again.](https://academy.claude.com/assets/media/a4ccdcec50f5f5bf96096ad864fd6d031f4e95644825e10973d4896fd14df91f.png)
 
 ## Success[](https://academy.claude.com/courses/claude-with-amazon-bedrock/sending-tool-results)
 

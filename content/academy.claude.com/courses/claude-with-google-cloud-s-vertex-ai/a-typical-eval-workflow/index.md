@@ -4,13 +4,13 @@ Lesson 11 of 66 · Claude with Google Cloud's Vertex AIA typical eval workflow�
 
 Lesson 118 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fa-typical-eval-workflow)
 
 A typical prompt evaluation workflow follows five key steps that help you systematically improve your prompts through objective measurement. While there are many different ways to assemble these workflows and various open source and paid tools available, understanding the core process helps you start small and scale up as needed.
 
-![](https://academy.claude.com/assets/media/c7dc99eee2300e25b5e601d4873fb6fc50dd72ef7781e054a2da3139d7087179.png)
+![The five steps of the prompt eval workflow, from drafting a prompt to changing the prompt and repeating, described below.](https://academy.claude.com/assets/media/c7dc99eee2300e25b5e601d4873fb6fc50dd72ef7781e054a2da3139d7087179.png)
 
 ## Step 1: Draft a Prompt[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/a-typical-eval-workflow)
 
@@ -26,7 +26,7 @@ Please answer the user's question:
 """
 ```
 
-![](https://academy.claude.com/assets/media/1d125564307d10c1fce46b50e731bd38b8ef51381dd330927f826d17d698f007.png)
+![The initial prompt draft shown above, with a note that we will not know if it is effective until we evaluate it objectively.](https://academy.claude.com/assets/media/1d125564307d10c1fce46b50e731bd38b8ef51381dd330927f826d17d698f007.png)
 
 This basic prompt will serve as our baseline for testing and improvement.
 
@@ -34,7 +34,7 @@ This basic prompt will serve as our baseline for testing and improvement.
 
 Your evaluation dataset contains sample inputs that you'll feed into your prompt. Since our prompt only has one input (the user's question), we need a collection of different questions to test with.
 
-![](https://academy.claude.com/assets/media/204aa70281126d75cbe56bb5b8925018ba22f69d862b09c5d33b05e508dc5620.png)
+![The eval workflow at the Create an Eval Dataset step: a "Question" column holding the three questions listed below.](https://academy.claude.com/assets/media/204aa70281126d75cbe56bb5b8925018ba22f69d862b09c5d33b05e508dc5620.png)
 
 The dataset contains questions that we will merge with our prompt. You can assemble these datasets by hand or generate them using Claude. In real-world evaluations, you might have tens, hundreds, or even thousands of different records, but we'll start with just three questions for this example:
 
@@ -46,7 +46,7 @@ The dataset contains questions that we will merge with our prompt. You can assem
 
 Take each question from your dataset and merge it with your prompt template to create complete prompts. Then send each one to Claude and collect the responses.
 
-![](https://academy.claude.com/assets/media/cbbc8e6ec17e34a40c891f578de10dbe3642a10e0de6a0a863df5db43759bed3.png)
+![A prompt with a question placeholder, three test questions such as "What's 2+2?", and Claude's replies such as "2 + 2 = 4".](https://academy.claude.com/assets/media/cbbc8e6ec17e34a40c891f578de10dbe3642a10e0de6a0a863df5db43759bed3.png)
 
 For example, the first question becomes a complete prompt that Claude processes and returns an answer like "2 + 2 = 4". You repeat this process for all questions in your dataset, building a collection of question-answer pairs.
 
@@ -54,7 +54,7 @@ For example, the first question becomes a complete prompt that Claude processes 
 
 Now comes the crucial step of objectively measuring the quality of Claude's responses. You take each question-answer pair and feed them into a grader that scores the responses.
 
-![](https://academy.claude.com/assets/media/d78f04e3f2294bee5d220762184603602cb18750c969c3e0c547d017f78a8068.png)
+![Grader stage of the eval pipeline highlighted: the three question and answer pairs go into a grader, scored 10, 4 and 9.](https://academy.claude.com/assets/media/d78f04e3f2294bee5d220762184603602cb18750c969c3e0c547d017f78a8068.png)
 
 The grader assigns scores (typically 1-10) based on answer quality:
 
@@ -64,13 +64,13 @@ The grader assigns scores (typically 1-10) based on answer quality:
 
 After scoring all responses, you average the scores together. In our example, scores of 10, 4, and 9 average to 7.66, giving you an objective measurement of your prompt's performance.
 
-![](https://academy.claude.com/assets/media/0e9f812d824c4b31dfaa72e4983983fa9c519b253da93fc2501323e178157ee1.png)
+![All four eval stages, with the grader scoring answers such as "Add hot water to dry oatmeal." and averaging the scores.](https://academy.claude.com/assets/media/0e9f812d824c4b31dfaa72e4983983fa9c519b253da93fc2501323e178157ee1.png)
 
 ## Step 5: Change Prompt and Repeat[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/a-typical-eval-workflow)
 
 With your baseline score established, you can now modify your prompt and run the entire process again to see if your changes improve performance.
 
-![](https://academy.claude.com/assets/media/8ea9ee875981cf215a529a826e10a560adeede1df88e88a22c4670ffce24845e.png)
+![The five-step eval workflow with the last step, "Change Prompt and Repeat", highlighted and the revised prompt shown below.](https://academy.claude.com/assets/media/8ea9ee875981cf215a529a826e10a560adeede1df88e88a22c4670ffce24845e.png)
 
 For example, you might enhance the original prompt by adding more specific instructions:
 
@@ -90,7 +90,7 @@ Answer the question with ample detail
 
 The power of this workflow lies in getting objective measurements of prompt performance. You can compare scores between different prompt versions to determine which performs better.
 
-![](https://academy.claude.com/assets/media/b0a62f4f11b13c7465479f01619c313baac6f88f43b133557f8a3dfd90faccad.png)
+![Prompt v1 scored 7.66, and prompt v2, which adds "Answer the question with ample detail", scored 8.7.](https://academy.claude.com/assets/media/b0a62f4f11b13c7465479f01619c313baac6f88f43b133557f8a3dfd90faccad.png)
 
 In our example:
 

@@ -4,7 +4,7 @@ Lesson 2 of 65 · Claude with Amazon BedrockAccessing the API
 
 Lesson 21 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Faccessing-the-api)
 
@@ -14,17 +14,17 @@ When building applications with AI models, you need to understand the flow of da
 
 Imagine you're building a web app with a simple chat interface. A user types "Define quantum computing" and clicks send. Here's what actually happens:
 
-![](https://academy.claude.com/assets/media/a9c72daeb24f83fa87d52cfed393802d1f0eec02321d33ca62ec1157b2209994.png)
+![Chat interface with a message from "You" reading "Define quantum computing", a blank input box and a "Send" button.](https://academy.claude.com/assets/media/a9c72daeb24f83fa87d52cfed393802d1f0eec02321d33ca62ec1157b2209994.png)
 
 The user sees a clean interface, but there's a whole system working behind the scenes to generate that response.
 
-![](https://academy.claude.com/assets/media/a284df9b084d1be4f287063287e0921d7d7a0b72b76b356133441a1ae560aefb.png)
+![Chat app where the AI reply says quantum computing can solve some problems much faster than classical computers.](https://academy.claude.com/assets/media/a284df9b084d1be4f287063287e0921d7d7a0b72b76b356133441a1ae560aefb.png)
 
 ## The Request Flow[](https://academy.claude.com/courses/claude-with-amazon-bedrock/accessing-the-api)
 
 When a user submits text, here's the journey that message takes:
 
-![](https://academy.claude.com/assets/media/b3679770256fc4a3265da2a03f6de06166c3e11bf774a363e346b490b342609e.png)
+![The user message going from the chat interface to the Bedrock client on your server, then to AWS Bedrock, described below.](https://academy.claude.com/assets/media/b3679770256fc4a3265da2a03f6de06166c3e11bf774a363e346b490b342609e.png)
 
 1. User submits their message through your web interface
 2. Your server receives the request containing that text
@@ -34,6 +34,6 @@ When a user submits text, here's the journey that message takes:
 6. AWS Bedrock sends back an assistant message containing the generated response
 7. Your server forwards this response back to the user's browser
 
-![](https://academy.claude.com/assets/media/690c3eacfdc89aa2c8ec08c3e65d62f3fbea86d0f6aa218b18c10b3031620d9e.png)
+![Round trip of "Define quantum computing" from a chat box through your server's Bedrock client to AWS Bedrock and back.](https://academy.claude.com/assets/media/690c3eacfdc89aa2c8ec08c3e65d62f3fbea86d0f6aa218b18c10b3031620d9e.png)
 
 Was this helpful?

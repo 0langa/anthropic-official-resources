@@ -4,13 +4,13 @@ Lesson 62 of 65 · Claude with Amazon BedrockAutomated debugging
 
 Lesson 623 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fautomated-debugging)
 
 Claude isn't just for writing code in your editor. It can also monitor your production applications and automatically fix errors as they occur. This creates a powerful automated debugging workflow that can catch and resolve issues before they impact your users.
 
-![](https://academy.claude.com/assets/media/4c6982735b6b5df20a3c8450b684655a460696eaa113810180297ea3a9e70fbb.png)
+![Path across five project stages, from onboarding through specs, tests and code to monitoring usage, then debugging errors.](https://academy.claude.com/assets/media/4c6982735b6b5df20a3c8450b684655a460696eaa113810180297ea3a9e70fbb.png)
 
 ## The Problem: Production-Only Errors[](https://academy.claude.com/courses/claude-with-amazon-bedrock/automated-debugging)
 
@@ -33,7 +33,7 @@ This process can be time-consuming, especially when dealing with cryptic error m
 
 Instead of manual debugging, you can create a GitHub Action that runs automatically every day to monitor your production environment. This workflow delegates the entire debugging process to Claude.
 
-![](https://academy.claude.com/assets/media/58759b32b5b99490e6f828b1348cabc5d3b3b4507be6d972d76d6b519dacdd5b.png)
+![Claude asks CloudWatch "What errors have occurred in the last 24 hours?" and gets back "List of errors", with GitHub unused.](https://academy.claude.com/assets/media/58759b32b5b99490e6f828b1348cabc5d3b3b4507be6d972d76d6b519dacdd5b.png)
 
 Here's how the automated workflow operates:
 
@@ -49,7 +49,7 @@ In the chatbot example, Claude discovered that the production environment was us
 
 Claude identified the issue, found the correct model ID format, and updated the configuration file. The fix was then committed with a clear explanation of what went wrong and how it was resolved.
 
-![](https://academy.claude.com/assets/media/85c27a7ce704064c8d83d5d4e291a6f67a9087b8a6bb9b990d80251711bdcd22.png)
+![Pull request with "Error", "Root Cause" and "Fix Implemented" sections giving the corrected model ID in lib/ai/providers.ts.](https://academy.claude.com/assets/media/85c27a7ce704064c8d83d5d4e291a6f67a9087b8a6bb9b990d80251711bdcd22.png)
 
 ## Benefits of Automated Debugging[](https://academy.claude.com/courses/claude-with-amazon-bedrock/automated-debugging)
 

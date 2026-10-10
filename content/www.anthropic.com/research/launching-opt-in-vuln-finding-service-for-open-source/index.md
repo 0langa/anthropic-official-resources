@@ -40,6 +40,12 @@ Core maintainers of eligible projects can enroll by submitting a PR to [this Git
 
 ## Related content
 
+### Investigating unintended model actions in our evaluations and internal use
+
+This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude.
+
+[Read more](https://www.anthropic.com/research/investigating-unintended-model-actions)
+
 ### The missing map of the sky
 
 Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.
@@ -51,12 +57,6 @@ Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at
 Guest author Prof. Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems: ones best suited to the capabilities of the current generation of LLM tools. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.
 
 [Read more](https://www.anthropic.com/research/claude-shaped-science)
-
-### What work can robots do?
-
-We built an index of how well today’s robots can perform US job tasks. Robots can already do three-quarters of physical tasks, mostly in limited settings, but are cost-competitive for just 0.3% of them.
-
-[Read more](https://www.anthropic.com/research/what-work-can-robots-do)
 
 ## Subscribe to the Frontier Red Team newsletter
 

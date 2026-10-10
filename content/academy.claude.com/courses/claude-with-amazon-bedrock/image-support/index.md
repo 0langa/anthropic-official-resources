@@ -4,7 +4,7 @@ Lesson 43 of 65 · Claude with Amazon BedrockImage support
 
 Lesson 439 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fimage-support)
 
@@ -19,7 +19,7 @@ When working with images in Claude, you need to understand a few key limitations
 - Max height/width of 8000px
 - Each image counts as a certain number of tokens: `tokens = (width px × height px) / 750`
 
-![](https://academy.claude.com/assets/media/526d6a757d8d880fe2d248896cf82c9fcab501795d46eed54dc629dcd228399f.png)
+![The image limits and token formula listed above, beside the Python code shown below that sends image.png bytes.](https://academy.claude.com/assets/media/526d6a757d8d880fe2d248896cf82c9fcab501795d46eed54dc629dcd228399f.png)
 
 To include an image, you add it as another type of message part. For each image you want to send, you include one image part in your user message. The structure looks like this:
 
@@ -44,13 +44,13 @@ add_user_message(messages, [
 
 You can send multiple images in a single message by adding multiple image parts. Claude can then analyze relationships between images, compare them, or answer questions that require understanding multiple visual inputs.
 
-![](https://academy.claude.com/assets/media/eb3d93da4c6eae9dfbb42c81d9af0310645c111350adb26c2940b3906eb97d9d.png)
+![User message of two image parts plus the text "Is there a common theme between both images?", then Claude's text reply.](https://academy.claude.com/assets/media/eb3d93da4c6eae9dfbb42c81d9af0310645c111350adb26c2940b3906eb97d9d.png)
 
 ## Prompting Techniques[](https://academy.claude.com/courses/claude-with-amazon-bedrock/image-support)
 
 The most important thing to understand about Claude's vision capabilities is that all the same prompting engineering techniques apply to images. You can dramatically increase Claude's vision accuracy by providing guidelines, analysis steps, or using one-shot/multi-shot examples.
 
-![](https://academy.claude.com/assets/media/a44d1b913150f04b56211cbb5236f2ea95cae516f182aa779715df8a4512d478.png)
+![Claude answers "I count 13 marbles in this image" for a photo labeled "Image has 12 marbles", marked wrong with a red X.](https://academy.claude.com/assets/media/a44d1b913150f04b56211cbb5236f2ea95cae516f182aa779715df8a4512d478.png)
 
 For example, instead of simply asking "How many marbles are in this image?", you can provide a structured approach:
 
@@ -63,17 +63,17 @@ What is the exact, verified number of marbles in this image?
 
 
 
-![](https://academy.claude.com/assets/media/6f2b0e93d9c939e8aaac277640ff521cfe27d54a8bc87a1b71b8e5dba06c61cf.png)
+![A marble photo and the step-by-step counting prompt go to Claude, whose reply "I count 12 marbles in this image" is correct.](https://academy.claude.com/assets/media/6f2b0e93d9c939e8aaac277640ff521cfe27d54a8bc87a1b71b8e5dba06c61cf.png)
 
 Another effective technique is one-shot prompting, where you provide an example image with the correct analysis before asking Claude to analyze your target image:
 
-![](https://academy.claude.com/assets/media/2c5f3cf4f134638be4f1040e7c813ec8a27d3fc0e8d68c5b995a8e7c265d32b0.png)
+![An example photo labeled as 11 marbles, then a target photo; Claude correctly replies "I count 12 marbles in this image".](https://academy.claude.com/assets/media/2c5f3cf4f134638be4f1040e7c813ec8a27d3fc0e8d68c5b995a8e7c265d32b0.png)
 
 ## Real-World Example: Fire Risk Assessments[](https://academy.claude.com/courses/claude-with-amazon-bedrock/image-support)
 
 A practical application of Claude's vision capabilities is automated fire risk assessment for insurance companies. Instead of sending inspectors to each property, companies can use high-resolution satellite imagery and ask Claude to evaluate fire risks.
 
-![](https://academy.claude.com/assets/media/80ed96dcab575198d37f2de1bf938f5613e751b5f7047e83eca7b57e2e4108dd.png)
+![Annotated satellite photo of a house surrounded by dense trees, with arrows marking the three risk features listed below.](https://academy.claude.com/assets/media/80ed96dcab575198d37f2de1bf938f5613e751b5f7047e83eca7b57e2e4108dd.png)
 
 The system can analyze several key factors:
 

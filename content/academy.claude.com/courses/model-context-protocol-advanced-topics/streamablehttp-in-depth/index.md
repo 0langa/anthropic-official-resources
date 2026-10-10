@@ -4,7 +4,7 @@ Lesson 10 of 11 · Model Context Protocol: Advanced topicsStreamableHTTP in dept
 
 Lesson 102 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fmodel-context-protocol-advanced-topics%2Fstreamablehttp-in-depth)
 
@@ -18,7 +18,7 @@ Some MCP features like sampling, notifications, and logging rely on the server i
 
 The magic happens through a multi-step process that establishes persistent connections between client and server.
 
-![](https://academy.claude.com/assets/media/672d7ee890f7d2e488ee062732d8008b8078bff2b894368a541d09a88be1cdbf.png)
+![The three initialization messages listed below; the Initialized Notification carries the session ID and gets no result back.](https://academy.claude.com/assets/media/672d7ee890f7d2e488ee062732d8008b8078bff2b894368a541d09a88be1cdbf.png)
 
 ### Initial Connection Setup[](https://academy.claude.com/courses/model-context-protocol-advanced-topics/streamablehttp-in-depth)
 
@@ -34,7 +34,7 @@ This session ID is crucial - it uniquely identifies the client and must be inclu
 
 After initialization, the client can make a GET request to establish a Server-Sent Events connection. This creates a long-lived HTTP response that the server can use to stream messages back to the client at any time.
 
-![](https://academy.claude.com/assets/media/1de391510a4e8d81ff4ffe1c2d5c6fb6fec62feb30774c185761940f89fa40bd.png)
+![GET mcp-server.com/mcp/ with an mcp-session-id header, answered by an SSE response that can be held open arbitrarily long.](https://academy.claude.com/assets/media/1de391510a4e8d81ff4ffe1c2d5c6fb6fec62feb30774c185761940f89fa40bd.png)
 
 This SSE connection is the key to allowing server-to-client communication. The server can now send requests, notifications, and other messages through this persistent channel.
 
@@ -42,7 +42,7 @@ This SSE connection is the key to allowing server-to-client communication. The s
 
 When the client makes a tool call, things get more complex. The system creates two separate SSE connections:
 
-![](https://academy.claude.com/assets/media/bc825054ffd31454af897765d4cb2449c4470ad2353473fb03a5e2939734f32c.png)
+![Between two SSE responses from the MCP server, the client sends a Call Tool Request POST with an mcp-session-id header.](https://academy.claude.com/assets/media/bc825054ffd31454af897765d4cb2449c4470ad2353473fb03a5e2939734f32c.png)
 
 - **Primary SSE Connection:** Used for server-initiated requests and stays open indefinitely
 - **Tool-Specific SSE Connection:** Created for each tool call and closes automatically when the tool result is sent
@@ -54,7 +54,7 @@ Different types of messages get routed through different connections:
 - **Progress notifications:** Sent through the primary SSE connection
 - **Logging messages and tool results:** Sent through the tool-specific SSE connection
 
-![](https://academy.claude.com/assets/media/857a3d847a1d27824d158e7c882db0524ea37819fe699d6c252317a92b9f57fb.png)
+![Call Tool Request POSTs to mcp-server.com/mcp/ with the mcp-session-id header; SSE responses can stay open arbitrarily long.](https://academy.claude.com/assets/media/857a3d847a1d27824d158e7c882db0524ea37819fe699d6c252317a92b9f57fb.png)
 
 ## Configuration Flags That Break the Workaround[](https://academy.claude.com/courses/model-context-protocol-advanced-topics/streamablehttp-in-depth)
 

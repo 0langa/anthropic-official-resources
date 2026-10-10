@@ -1,3 +1,5 @@
+![Anthropic x AWS](https://assets.claude.com/b8524184cc814e260750925c5a716e579992c66f.svg)
+
 Oct 21, 2026 — 10:00 – 11:00 AM PT
 
 # Tokenomics on AWS: Control and optimize your Claude spend

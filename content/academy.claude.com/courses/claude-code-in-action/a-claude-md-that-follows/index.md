@@ -4,7 +4,7 @@ Lesson 2 of 9 · Claude Code in actionA CLAUDE.md that follows
 
 Lesson 27 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-code-in-action%2Fa-claude-md-that-follows)
 

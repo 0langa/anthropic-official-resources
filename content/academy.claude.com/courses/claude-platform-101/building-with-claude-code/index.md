@@ -4,7 +4,7 @@ Lesson 13 of 13 · Claude Platform 101Building with Claude Code
 
 Lesson 135 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-platform-101%2Fbuilding-with-claude-code)
 

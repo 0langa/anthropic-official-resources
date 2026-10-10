@@ -4,7 +4,7 @@ Lesson 61 of 66 · Claude with Google Cloud's Vertex AIParallelization workflows
 
 Lesson 613 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fparallelization-workflows)
 
@@ -14,11 +14,11 @@ When building AI applications, you'll often encounter tasks that seem straightfo
 
 Imagine you're building a material designer application where users upload images of parts and get recommendations for the best material to use. Your first instinct might be to send the image to Claude with a simple prompt asking it to choose between metal, polymer, ceramic, composite, elastomer, or wood.
 
-![](https://academy.claude.com/assets/media/b5e0a49356627fe5f560ac4d034ec87d9c7e52b37d97ad3874708bad02d0ebd7.png)
+![Material Designer page with a dashed area that says to drop an image of your part for an analysis of the best material.](https://academy.claude.com/assets/media/b5e0a49356627fe5f560ac4d034ec87d9c7e52b37d97ad3874708bad02d0ebd7.png)
 
 This basic approach might work, but you're asking Claude to do a lot of analysis without giving it proper guidance. A natural improvement would be to expand the prompt with detailed criteria for each material type.
 
-![](https://academy.claude.com/assets/media/27bfff2b10cf2d759a97be5c82339cefebcf211cdcd8eae1667d3e03c139ec8c.png)
+![User message to Claude: an image block plus a text block of eight metal criteria, then the start of polymer criteria.](https://academy.claude.com/assets/media/27bfff2b10cf2d759a97be5c82339cefebcf211cdcd8eae1667d3e03c139ec8c.png)
 
 However, this creates a new problem: you end up with an enormous prompt that can confuse Claude because it has to juggle multiple complex analyses simultaneously. The model might get distracted trying to consider all the different pros and cons of each material at once.
 
@@ -26,7 +26,7 @@ However, this creates a new problem: you end up with an enormous prompt that can
 
 Instead of cramming everything into one request, you can split the task into multiple specialized requests that run in parallel. Here's how it works:
 
-![](https://academy.claude.com/assets/media/8255a868f703006a9e0ea92db9878615fa699f1cdfd8b6e24db19ba9258a0ddc.png)
+![Four parallel requests to Claude, each a user message with the image plus metal, polymer, ceramic or composite criteria.](https://academy.claude.com/assets/media/8255a868f703006a9e0ea92db9878615fa699f1cdfd8b6e24db19ba9258a0ddc.png)
 
 Send the same image to Claude multiple times, but with different specialized prompts. Each request focuses on evaluating the part for just one material type:
 
@@ -41,7 +41,7 @@ Each prompt can be highly specialized for its specific material, including relev
 
 Once you receive all the individual analysis results, you make a final request to Claude that acts as an aggregator. This request takes all the specialized analyses and asks Claude to compare them and make a final recommendation.
 
-![](https://academy.claude.com/assets/media/f0acc22d971a7896067bd752705778b0089b6beb63ff8c35d737d7c153374416.png)
+![Metal, polymer, ceramic and composite analysis results feed one Claude that gives the final material recommendation.](https://academy.claude.com/assets/media/f0acc22d971a7896067bd752705778b0089b6beb63ff8c35d737d7c153374416.png)
 
 Now Claude doesn't need to worry about comparing materials from scratch. Instead, it can focus on evaluating the analysis results and identifying the most promising option based on the detailed evaluations you've already gathered.
 
@@ -49,7 +49,7 @@ Now Claude doesn't need to worry about comparing materials from scratch. Instead
 
 This approach follows a general pattern called parallelization workflow:
 
-![](https://academy.claude.com/assets/media/932c5d0b1ab9439f60c461483e365fad7137c04c7e7f51c71620969791605356.png)
+![Parallelization workflow diagram in which a user task splits into three parallelizable sub-tasks feeding an aggregator.](https://academy.claude.com/assets/media/932c5d0b1ab9439f60c461483e365fad7137c04c7e7f51c71620969791605356.png)
 
 1. **Split** a single complex task into multiple specialized sub-tasks
 2. **Run** the sub-tasks in parallel (simultaneously)

@@ -2,7 +2,7 @@
 
 Introduction to six specialized AI skills for financial professionals including valuation modeling, competitive analysis, research reports, and due diligence.
 
-5 minClaude.ai
+5 minClaude
 
 [Open Claude](https://claude.ai/new)
 

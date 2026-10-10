@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Interpret each signal by asking how many members use Claude and how much they rely on it
 - Set the pace goal you’ll measure your rollout against
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fdeploying-claude-enterprise-with-confidence%2Fadoption-signals)
 

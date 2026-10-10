@@ -217,7 +217,15 @@ Written by Eugene Yan and Henna Dattani, with contributions from Michael Molash,
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 7, 2026
+[ArticleOct 8, 2026
+
+### Building effective agent automations
+
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 7, 2026
 
 ### Automating eval design and hillclimbing with Claude
 
@@ -239,13 +247,7 @@ Claude Code
 
 See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
 
-Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)[ArticleOct 1, 2026
-
-### Getting started with Claude Code mods
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)
 
 ## Transform how your organization operates with Claude
 

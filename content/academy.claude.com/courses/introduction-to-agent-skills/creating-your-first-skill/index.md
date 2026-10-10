@@ -11,7 +11,7 @@ In this lessonBy the end, you’ll be able to
 - Explain how Claude Code matches incoming requests to available skills
 - Describe the skill priority hierarchy (Enterprise, Personal, Project, Plugins)
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-agent-skills%2Fcreating-your-first-skill)
 
@@ -78,13 +78,13 @@ Brief context on why this change is needed
 
 The **name** identifies your skill. The **description** tells Claude when to use it — this is the matching criteria. Everything after the second set of dashes is the instructions Claude follows when the skill is activated.
 
-![](https://academy.claude.com/assets/media/23910a9d33eb5eb92d7e4c7852549dc9df48dfc6eb7338eb1850cf2c49e0ff55.png)
+![SKILL.md for pr-description open in an editor, beside commit-message, debugging and documentation skill folders.](https://academy.claude.com/assets/media/23910a9d33eb5eb92d7e4c7852549dc9df48dfc6eb7338eb1850cf2c49e0ff55.png)
 
 ## Testing Your Skill[](https://academy.claude.com/courses/introduction-to-agent-skills/creating-your-first-skill)
 
 Claude Code loads skills at startup, so restart your session after creating one. You can verify it's available by checking the available skills list.
 
-![](https://academy.claude.com/assets/media/d0528266edd1bb7977cdc3b270c851e43b1242dc0c8b83b45bb153181412358d.png)
+![Claude Code Available Skills output, with skills such as "documentation", "debugging", pr-description and commit-message.](https://academy.claude.com/assets/media/d0528266edd1bb7977cdc3b270c851e43b1242dc0c8b83b45bb153181412358d.png)
 
 You should see your skill listed. To test it, make some changes on a branch and say something like "write a PR description for my changes." Claude will indicate it's using the PR description skill, check your diff, and write a description following your template — same format every time.
 
@@ -96,7 +96,7 @@ When you send a request, Claude compares your message against the descriptions o
 
 Once a match is found, Claude asks you to confirm loading the skill. This confirmation step keeps you aware of what context Claude is pulling in. After you confirm, Claude reads the complete `SKILL.md` file and follows its instructions.
 
-![](https://academy.claude.com/assets/media/96c5355edb53bd0b8a74489bea21a53ba1738adb785e1be23192b19e9cf92553.png)
+![Frontmatter for a skill reviewing backend code for security issues and compliance mishaps, and "Use backend-review Skill?".](https://academy.claude.com/assets/media/96c5355edb53bd0b8a74489bea21a53ba1738adb785e1be23192b19e9cf92553.png)
 
 ## Skill Priority[](https://academy.claude.com/courses/introduction-to-agent-skills/creating-your-first-skill)
 
@@ -125,25 +125,6 @@ To update a skill, edit its `SKILL.md` file. To remove one, delete its directory
 In the next lesson, you'll learn about advanced configuration options including metadata fields, tool restrictions with `allowed-tools`, and how to structure larger skills using progressive disclosure and multi-file organization.
 
 Was this helpful?
-
-
-## Transcript
-
-So let's create a skill. This skill will teach Claude how we would like it to explain code using visual diagrams and analogies. Then we'll look at what happens under the hood when Claude uses it.
-
-First, let's create a directory for your skill. We're going to be making a personal skill so it'll live in many projects. So it will go in your home directory. Take into consideration that we're creating a directory with the skill name inside of the skills directory.
-
-Now create the skill. The name identifies your skill. The description tells Claude when to use it. This is the matching criteria. And then everything after the second dashes is the instructions that Claude follows.
-
-Claude Code loads skills at startup, so restart your session. Then verify it's available. You should see PR description in the list. Now test it. Make some changes on a branch and say, write a PR description for my changes. Claude will then show you that it's using the PR description skill. After that, it'll check your diff and write a description following your template. Same format every single time.
-
-When Claude Code starts, it scans four locations for skills. Enterprise paths, your personal Claude skills, the project's Claude skills, and installed plugins. It loads only the name and description of each skill, not the full content. This is important later. When you send a request, Claude compares it to the descriptions of your skills. Explain what this function does matches a skill described as explain code with visual diagrams, because the intent overlaps. It will then ask you to confirm loading up the skill. This confirmation step keeps you aware of what context Claude is using. After you confirm, Claude reads the complete file and follows its instructions.
-
-Now let's say you clone a Git repository and have an overlapping skill name. Well, which one wins? Here's the priority list. The highest is Enterprise, which lives in the managed settings. Two is the personal, which lives in your root directory configuration like we're doing right now. Three is the project, which is the .claude directory inside of your repository. And the lowest is the plugins, where you store your plugins that you got online. This lets organizations enforce standards while allowing individual customization through differently named skills. If your company has an enterprise code review skill, and you create a personal code review skill, the enterprise version of that takes precedence. To avoid conflicts, use descriptive names. Instead of review, use frontend PR review or security review.
-
-To update a skill, edit its SKILL.md file. Simple. To remove one, delete its directory. Restart Claude Code after changes for them to take effect.
-
-Creating a skill means making a directory with a SKILL.md file containing metadata and instructions. Claude loads skill names and descriptions at startup, matches incoming requests against those descriptions, and asks for confirmation before loading the full content. Priority rules handle name conflicts. Enterprise overrides personal. Personal overrides project. Project overrides plugins. Edit the SKILL.md file to update a skill and restart Claude Code for changes to take effect.
 
 
 ## Video transcript

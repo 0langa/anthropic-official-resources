@@ -4,7 +4,7 @@ Lesson 44 of 65 · Claude with Amazon BedrockPDF support
 
 Lesson 446 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fpdf-support)
 

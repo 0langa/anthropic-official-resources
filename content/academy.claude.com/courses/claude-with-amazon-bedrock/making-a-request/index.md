@@ -4,7 +4,7 @@ Lesson 3 of 65 · Claude with Amazon BedrockMaking a request
 
 Lesson 310 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fmaking-a-request)
 
@@ -26,27 +26,27 @@ client = boto3.client("bedrock-runtime", region_name="us-west-2")
 
 Here's where things get tricky. Not every model is available in every AWS region. If you try to run a model that doesn't exist in your chosen region, you'll get a cryptic error message saying the model doesn't exist.
 
-![](https://academy.claude.com/assets/media/c93ba7b7d44d11d5d029f2709c08988d47141b76038f1d025b299646d8b709a1.png)
+![Request to run model ID "anthropic.claude-v1" arriving at the AWS region us-west-2, where that model is named Claude Sonnet.](https://academy.claude.com/assets/media/c93ba7b7d44d11d5d029f2709c08988d47141b76038f1d025b299646d8b709a1.png)
 
 For example, if Claude Sonnet is available in us-west-2 but you're making requests from us-east-1, your request will fail.
 
-![](https://academy.claude.com/assets/media/bcba2fe357dd53df9ec27b5edeb98ede867d3615e0e291a9a17469c608bc80e2.png)
+![A request to run model ID "anthropic.claude-v1" returns an error in us-east-1, which has no model, but it is in us-west-2.](https://academy.claude.com/assets/media/bcba2fe357dd53df9ec27b5edeb98ede867d3615e0e291a9a17469c608bc80e2.png)
 
 ## Using Inference Profiles[](https://academy.claude.com/courses/claude-with-amazon-bedrock/making-a-request)
 
 Inference profiles solve the regional availability problem by automatically routing your requests to a region where your chosen model is actually hosted.
 
-![](https://academy.claude.com/assets/media/d4643acb25d958cd530ce9fe7ff978f7d5008aa65475bb0ca5f007a026115c27.png)
+![Example inference profile named US Anthropic Claude Sonnet: profile ID us.profile.claude-v1, model ID anthropic.claude-v1.](https://academy.claude.com/assets/media/d4643acb25d958cd530ce9fe7ff978f7d5008aa65475bb0ca5f007a026115c27.png)
 
 Instead of tracking which models are in which regions, you can use an inference profile that knows the model is available in multiple regions like us-west-2 and us-east-2.
 
-![](https://academy.claude.com/assets/media/4789ffaf0596fa27ae75b1d8b18808aebeb282677f9b7eac625a369f601208ac.png)
+![A request to run inference profile "us.profile.claude-v1" in us-east-1 is routed to anthropic.claude-v1 in us-west-2.](https://academy.claude.com/assets/media/4789ffaf0596fa27ae75b1d8b18808aebeb282677f9b7eac625a369f601208ac.png)
 
 When you make a request using an inference profile, AWS automatically routes it to the correct region where your model exists, even if you're connecting from a different region.
 
 To find inference profile IDs, go to the AWS Bedrock console and look under "Cross-region inference" rather than using the model ID from the main model catalog page.
 
-![](https://academy.claude.com/assets/media/8d6a91b2c2190a620782d010aa6f0e5343f8934d1809e2b673aa253d82daa4a8.png)
+![AWS Bedrock console, Cross-region inference page, listing inference profiles with a copy button beside each profile ID.](https://academy.claude.com/assets/media/8d6a91b2c2190a620782d010aa6f0e5343f8934d1809e2b673aa253d82daa4a8.png)
 
 Copy the inference profile ID for your chosen model. The examples in this course use Claude Haiku 4.5, whose inference profile ID is `us.anthropic.claude-haiku-4-5-20251001-v1:0`.
 
@@ -67,7 +67,7 @@ user_message = {
 
 The content is a list because a single message can contain different types of content - text, images, or other media types. This structure allows you to send multimodal requests.
 
-![](https://academy.claude.com/assets/media/224c2c12f355b33dfe64e5b1e5105b54154311b98b229085514f7598e67108bd.png)
+![A user message whose content list holds an image block, format png with source bytes, then the text "What's in this image?".](https://academy.claude.com/assets/media/224c2c12f355b33dfe64e5b1e5105b54154311b98b229085514f7598e67108bd.png)
 
 ## Making the Request[](https://academy.claude.com/courses/claude-with-amazon-bedrock/making-a-request)
 
@@ -97,7 +97,7 @@ There are two main message types you'll work with:
 - **User messages** - Content you want to feed into the model (role: "user")
 - **Assistant messages** - Content the model has produced (role: "assistant")
 
-![](https://academy.claude.com/assets/media/059b35dbd386649cbe09f243d35616c1df97af81e9519fbf3aaef5bb9f167d65.png)
+![Chat window labeling the message "Define quantum computing" as the user message and the AI reply as the assistant message.](https://academy.claude.com/assets/media/059b35dbd386649cbe09f243d35616c1df97af81e9519fbf3aaef5bb9f167d65.png)
 
 Both message types follow the same structure with a role and content list. This consistency makes it easy to build conversations by alternating between user and assistant messages.
 

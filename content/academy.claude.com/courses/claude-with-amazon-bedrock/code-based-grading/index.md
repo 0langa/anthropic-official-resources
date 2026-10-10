@@ -4,7 +4,7 @@ Lesson 15 of 65 · Claude with Amazon BedrockCode based grading
 
 Lesson 1510 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fcode-based-grading)
 
@@ -17,7 +17,7 @@ The code grader evaluates two main criteria:
 - **Format compliance** - Does the output contain only the requested format (Python, JSON, or regex) without explanations?
 - **Valid syntax** - Can the output actually be parsed or compiled successfully?
 
-![](https://academy.claude.com/assets/media/e5e431429f3a602232cc56ae326decafcbd088e3784552bbcaa4d3b496fce8e1.png)
+![The model grader covers task following: the response should address the user's task and the code should be accurate.](https://academy.claude.com/assets/media/e5e431429f3a602232cc56ae326decafcbd088e3784552bbcaa4d3b496fce8e1.png)
 
 The system uses separate validation functions for each format type. If the code parses successfully, it gets a perfect score of 10. If parsing fails with an error, it gets a score of 0.
 

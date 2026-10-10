@@ -103,7 +103,7 @@ Identify recurring issues in how transactions are recorded so you can fix the ro
 
 ### Use the sidebar panels to track progress[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
-The Artifacts panel shows files Claude creates, like your journal entries spreadsheet, as they're generated. The Context panel shows which source files Claude is referencing.
+The Outputs panel shows files Claude creates, like your journal entries spreadsheet, as they're generated. The Context panel shows which source files Claude is referencing.
 
 ### Grant folder access for seamless file output[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
