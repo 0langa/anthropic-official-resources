@@ -4,7 +4,7 @@ Lesson 36 of 67 · Building with the Claude APIImplementing the RAG flow
 
 Lesson 3615 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fimplementing-the-rag-flow)
 
@@ -20,7 +20,7 @@ Our implementation follows the same five steps we discussed previously:
 4. Generate an embedding for the user's question
 5. Search the store to find the most relevant chunks
 
-![](https://academy.claude.com/assets/media/d01ad508108acf9be182f919d40936aae58fa506b3ba7369de80ef3a07bb314b.jpg)
+![The user query embedded as "0.1, 0.89" goes to the vector database, which returns the "closest" vector, "0.295, 0.955".](https://academy.claude.com/assets/media/d01ad508108acf9be182f919d40936aae58fa506b3ba7369de80ef3a07bb314b.jpg)
 
 This diagram shows how we transform user queries into embeddings and search our vector database to find the most relevant content.
 
@@ -96,7 +96,7 @@ for doc, distance in results:
 
 This search returns the two most relevant chunks along with their similarity scores (cosine distances).
 
-![](https://academy.claude.com/assets/media/3e38c77065e6cd9eb3fe086e50825137c5cbdf94ec96e7e6e62fe779637ae295.jpg)
+![Notebook where step 3 adds each embedding and its chunk to the vector store, shown above; steps 4 and 5 are still comments.](https://academy.claude.com/assets/media/3e38c77065e6cd9eb3fe086e50825137c5cbdf94ec96e7e6e62fe779637ae295.jpg)
 
 The search results show us which sections of our document are most relevant to the user's question, along with similarity scores.
 

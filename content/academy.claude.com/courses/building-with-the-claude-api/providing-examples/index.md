@@ -4,7 +4,7 @@ Lesson 19 of 67 · Building with the Claude APIProviding examples
 
 Lesson 195 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fproviding-examples)
 
@@ -14,7 +14,7 @@ Providing examples in your prompts is one of the most effective prompt engineeri
 
 Let's look at a sentiment analysis example. Say you want Claude to categorize whether a tweet is positive or negative:
 
-![](https://academy.claude.com/assets/media/07550ea11708a358f557446c0e1d64478b7bf9bcaf6acb1fa9b1fb1795ad7d3c.png)
+![The prompt for the tweet quoted below: it wraps the tweet in input_tweet tags and asks for "Positive" or "Negative".](https://academy.claude.com/assets/media/07550ea11708a358f557446c0e1d64478b7bf9bcaf6acb1fa9b1fb1795ad7d3c.png)
 
 The challenge here is sarcasm. A tweet like "Yeah, sure, that was the best movie I've seen since 'Plan 9 from Outer Space'" appears positive on the surface, but it's actually sarcastic and negative (Plan 9 is famously one of the worst movies ever made).
 
@@ -22,7 +22,7 @@ The challenge here is sarcasm. A tweet like "Yeah, sure, that was the best movie
 
 To solve this, you can add examples that show Claude how to handle tricky cases:
 
-![](https://academy.claude.com/assets/media/d9149d7ef35a29ea692ee8fb875c5da77a86c357a87aa2cb7f173fd143fa7ef2.png)
+![The sentiment prompt, now with two examples: "Great game tonight!" to "Positive" and a sarcastic tweet to "Negative".](https://academy.claude.com/assets/media/d9149d7ef35a29ea692ee8fb875c5da77a86c357a87aa2cb7f173fd143fa7ef2.png)
 
 The improved prompt includes:
 
@@ -53,7 +53,7 @@ Use multi-shot when you need to handle various edge cases or want to show differ
 
 When running prompt evaluations, look for your highest-scoring outputs to use as examples:
 
-![](https://academy.claude.com/assets/media/fd159d6bcdc25f88c8a4617225a19ac38d830f70042fd53f7aa8236ec416042b.png)
+![Prompt Evaluation Report, each row giving a meal plan test case, its criteria, Claude's output and a score, here 10 and 8.](https://academy.claude.com/assets/media/fd159d6bcdc25f88c8a4617225a19ac38d830f70042fd53f7aa8236ec416042b.png)
 
 Find responses that scored 10 (or your highest available score) and use those input/output pairs as examples in your prompt. This helps Claude understand what "perfect" output looks like for your specific use case.
 

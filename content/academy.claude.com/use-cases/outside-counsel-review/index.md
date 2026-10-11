@@ -214,7 +214,7 @@ The variance table lands as Excel and the talking points as Word, ready for the 
 
 [Connect](https://claude.ai/desktop/directory/microsoft-365)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 ### Set the working folder[](https://academy.claude.com/use-cases/outside-counsel-review)
 
@@ -324,7 +324,7 @@ Your tools
 
 iManageNetDocuments![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23F25022'%20d='M1%201h10.5v10.5H1z'/%3e%3cpath%20fill='%237FBA00'%20d='M12.5%201H23v10.5H12.5z'/%3e%3cpath%20fill='%2300A4EF'%20d='M1%2012.5h10.5V23H1z'/%3e%3cpath%20fill='%23FFB900'%20d='M12.5%2012.5H23V23H12.5z'/%3e%3c/svg%3e)Microsoft 365
 
-Your workspace
+Your folder
 
 Legal-Ops
 

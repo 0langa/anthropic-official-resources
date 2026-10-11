@@ -464,11 +464,11 @@ DesignAccelerate design workflows — critique, design system management, UX wri
 
 `/design-handoff`Generate developer handoff specs from a design.
 
-[Run](claude://cowork/new?q=%2Fdesign-handoff)
+[Open in Cowork](claude://cowork/new?q=%2Fdesign-handoff)
 
 `/ux-copy`Write or review UX copy — microcopy, error messages, empty states, CTAs.
 
-[Run](claude://cowork/new?q=%2Fux-copy)
+[Open in Cowork](claude://cowork/new?q=%2Fux-copy)
 
 Show all 7 skills
 
@@ -502,7 +502,7 @@ Read the flow description and write the prototype link back to the project doc.
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 
@@ -572,11 +572,11 @@ Make what we've done in this task so far into a skill, or edit the /design-hando
 
 ## Make it repeatable[](https://academy.claude.com/use-cases/clickable-prototype)
 
-### Make it a live artifact[](https://academy.claude.com/use-cases/clickable-prototype)
+### Share it as an artifact[](https://academy.claude.com/use-cases/clickable-prototype)
 
-A prototype you have to email around gets stale. Ask Cowork to publish it as a live artifact and every reviewer and test participant has one link that stays current — re-run the skill (or schedule it) to refresh.
+A prototype you have to email around gets stale. Ask Cowork to publish it as an artifact and every reviewer and test participant has one link — re-run the skill (or schedule it) to refresh.
 
-Publish that prototype as a live artifact. Add a small "v2, v3" version stamp in the corner.
+Publish that prototype as an artifact. Add a small "v2, v3" version stamp in the corner.
 
 
 

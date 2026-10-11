@@ -4,7 +4,7 @@ Lesson 1 of 10 · AI Fluency for pK–12 educatorsHow this course was made
 
 Lesson 11 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-k-12-educators%2Fhow-this-course-was-made)
 

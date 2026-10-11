@@ -11,7 +11,7 @@ In this lessonBy the end, you’ll be able to
 - Edit an artifact directly, with a comment, or by asking in the conversation
 - Share an artifact and control who can see and edit it
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-101%2Fcreating-with-artifacts)
 

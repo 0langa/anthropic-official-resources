@@ -38,11 +38,15 @@ Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teamm
 
 Seat counts don't show if AI is working. Kristen Swanson shares how to measure AI Fluency beyond usage, without a huge lift.](https://claude.com/resources/webinars/measuring-ai-fluency-at-your-organization)
 
-[Guide49 min read
+[ArticleOct 8, 2026
 
-### The AI investment firm
+### Building effective agent automations
 
-We draw from our work with investment firms to outline best practices for AI adoption, and the work Claude takes on for each team.](https://claude.com/resources/guides/the-ai-investment-firm)
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
 
 [ArticleJul 16, 2026
 
@@ -56,7 +60,7 @@ Featured resource 1 of 5: Working with Claude Fable 5 in Claude Cowork
 
 Advanced filters
 
-Showing 11 of 215 resources
+Showing 11 of 216 resources
 
 [WebinarUpcoming | Oct 15, 2026
 
@@ -68,7 +72,15 @@ Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teamm
 
 ### Measuring AI Fluency at Your Organization
 
-Seat counts don't show if AI is working. Kristen Swanson shares how to measure AI Fluency beyond usage, without a huge lift.](https://claude.com/resources/webinars/measuring-ai-fluency-at-your-organization)[Guide49 min read
+Seat counts don't show if AI is working. Kristen Swanson shares how to measure AI Fluency beyond usage, without a huge lift.](https://claude.com/resources/webinars/measuring-ai-fluency-at-your-organization)[ArticleOct 8, 2026
+
+### Building effective agent automations
+
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[Guide49 min read
 
 ### The AI investment firm
 
@@ -118,13 +130,6 @@ Claude PlatformClaude Enterprise](https://claude.com/resources/webinars/enterpri
 
 Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
 
-Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)[ArticleSep 29, 2026
-
-### Agents you can coach: how Asana builds human-agent teams with Claude
-
-Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
-‍
-
-Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)
+Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)
 
 View more

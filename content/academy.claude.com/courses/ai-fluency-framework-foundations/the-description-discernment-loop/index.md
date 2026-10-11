@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Engage in productive Description-Discernment feedback loops
 - Create results through human-AI collaboration that exceed what either could achieve alone
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-framework-foundations%2Fthe-description-discernment-loop)
 

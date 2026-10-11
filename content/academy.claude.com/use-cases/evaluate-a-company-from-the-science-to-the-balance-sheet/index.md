@@ -2,7 +2,7 @@
 
 Claude Opus 5 runs due diligence across SEC filings, clinical trial data, and patent documents at once, evaluating the science, modeling the financials, and catching where one contradicts the other.
 
-15 minFinanceClaude.ai
+15 minFinanceClaude
 
 Try in ClaudeCopy prompt
 

@@ -4,19 +4,19 @@ Lesson 1 of 67 · Building with the Claude APIAccessing the API
 
 Lesson 13 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Faccessing-the-api)
 
 When building applications with Claude, understanding the complete request lifecycle helps you make better architectural decisions and debug issues more effectively. Let's walk through what happens from the moment a user clicks "send" in your chat interface to when Claude's response appears on screen.
 
-![](https://academy.claude.com/assets/media/2a8244ea430c62fdba1dc04c5a8be19c3521ef69da5867972b57cffa5330668a.png)
+![Chat window with a message from "You" reading "What is quantum computing?", a blank input box and a Send button.](https://academy.claude.com/assets/media/2a8244ea430c62fdba1dc04c5a8be19c3521ef69da5867972b57cffa5330668a.png)
 
 ## The Five-Step Request Flow[](https://academy.claude.com/courses/building-with-the-claude-api/accessing-the-api)
 
 Every interaction with Claude follows a predictable pattern with five distinct phases: request to server, request to Anthropic API, model processing, response to server, and response to client.
 
-![](https://academy.claude.com/assets/media/f2be1422feb4399a4ecba83971b60af28f5e24d17216187cc556c028010e81c0.png)
+![Step 1, Request to Server: a web or mobile app sends "What is quantum computing?" as a request to your server.](https://academy.claude.com/assets/media/f2be1422feb4399a4ecba83971b60af28f5e24d17216187cc556c028010e81c0.png)
 
 ## Why You Need a Server[](https://academy.claude.com/courses/building-with-the-claude-api/accessing-the-api)
 
@@ -32,7 +32,7 @@ Instead, your web or mobile app sends requests to your own server, which then co
 
 When your server contacts the Anthropic API, you can use either an official SDK or make plain HTTP requests. Anthropic provides SDKs for Python, TypeScript, JavaScript, Go, and Ruby.
 
-![](https://academy.claude.com/assets/media/0493a78d946db722b5fbc9f4159087862d456795fbf9fe40e36810953d7752d1.png)
+![Request to Anthropic API step: input text is placed inside a "user" message, which is then placed in a list of messages.](https://academy.claude.com/assets/media/0493a78d946db722b5fbc9f4159087862d456795fbf9fe40e36810953d7752d1.png)
 
 Every request must include these essential fields:
 
@@ -45,7 +45,7 @@ Every request must include these essential fields:
 
 Once Anthropic receives your request, Claude processes it through four main stages: tokenization, embedding, contextualization, and generation.
 
-![](https://academy.claude.com/assets/media/704feacd29e60dae08515ac27f3e9ddcb3eddb08106d4f7f3b002d15cd0b313f.png)
+![Tokenization: the user input "What is quantum computing?" split into tokens "What", "is", "quantum", "computing" and "?".](https://academy.claude.com/assets/media/704feacd29e60dae08515ac27f3e9ddcb3eddb08106d4f7f3b002d15cd0b313f.png)
 
 ### Tokenization[](https://academy.claude.com/courses/building-with-the-claude-api/accessing-the-api)
 
@@ -55,7 +55,7 @@ Claude first breaks your input text into smaller chunks called tokens. These can
 
 Each token gets converted into an embedding - a long list of numbers that represents all possible meanings of that word. Think of embeddings as numerical definitions that capture semantic relationships.
 
-![](https://academy.claude.com/assets/media/15f619b73e9b8952cc63089b361503b08988f46c87d5697006a6b3c9387ab916.png)
+![Diagram branching "quantum" to the four meanings listed below, plus its Latin root "quantus", meaning how much.](https://academy.claude.com/assets/media/15f619b73e9b8952cc63089b361503b08988f46c87d5697006a6b3c9387ab916.png)
 
 Words often have multiple meanings. For example, "quantum" could refer to:
 
@@ -68,13 +68,13 @@ Words often have multiple meanings. For example, "quantum" could refer to:
 
 Claude refines each embedding based on surrounding words to determine the most likely meaning in context. This process adjusts the numerical representations to highlight the appropriate definition.
 
-![](https://academy.claude.com/assets/media/e2001111a3cedb337f59a6d1768fef3e42b173f2d6179906efb70a5d30e72ded.png)
+![The Contextualization stage of the Anthropic API joined to five columns of decimals, such as -0.34 and 0.87, linked by arcs.](https://academy.claude.com/assets/media/e2001111a3cedb337f59a6d1768fef3e42b173f2d6179906efb70a5d30e72ded.png)
 
 ### Generation[](https://academy.claude.com/courses/building-with-the-claude-api/accessing-the-api)
 
 The contextualized embeddings pass through an output layer that calculates probabilities for each possible next word. Claude doesn't always pick the highest probability word - it uses a mix of probability and controlled randomness to create natural, varied responses.
 
-![](https://academy.claude.com/assets/media/05f4f7ac62981908ebfab9b6c1e9275063d2f9bbe9803e8044701d315659283a.png)
+![Next-word probabilities from the output layer: 30% "Quantum", 23% "Great", 19% "Are", 10% "What", 10% "This", 8% "To".](https://academy.claude.com/assets/media/05f4f7ac62981908ebfab9b6c1e9275063d2f9bbe9803e8044701d315659283a.png)
 
 After selecting each word, Claude adds it to the sequence and repeats the entire process for the next word.
 
@@ -82,7 +82,7 @@ After selecting each word, Claude adds it to the sequence and repeats the entire
 
 After each token, Claude checks several conditions to decide whether to continue:
 
-![](https://academy.claude.com/assets/media/03c7c33b48f1a1fa54cdc99021b279a5626fe6156e80a8bd122c9fef23799f16.png)
+![Output tokens "Quantum mechanics is a form of computing." end in an end-of-sequence token, with the three stop checks below.](https://academy.claude.com/assets/media/03c7c33b48f1a1fa54cdc99021b279a5626fe6156e80a8bd122c9fef23799f16.png)
 
 - **Max tokens reached** - Has it hit the limit you specified?
 - **Natural ending** - Did it generate an end-of-sequence token?
@@ -96,11 +96,11 @@ When generation completes, the API sends back a structured response containing:
 - **Usage** - Count of input and output tokens
 - **Stop Reason** - Why generation ended
 
-![](https://academy.claude.com/assets/media/e23c1a9b0b32516371d83b64dfa477347342a7de1fa33781bb3edacdfe9af1c6.png)
+![Response flowing from the Anthropic API back to the Anthropic SDK on your server, with output text in an "assistant" message.](https://academy.claude.com/assets/media/e23c1a9b0b32516371d83b64dfa477347342a7de1fa33781bb3edacdfe9af1c6.png)
 
 Your server receives this response and forwards the generated text back to your client application, where it appears in the user interface.
 
-![](https://academy.claude.com/assets/media/76fd18d820096e675367b412d908db48d94e83ba107b5fea7a7fa2495ea4dd47.png)
+![A chat app's question "What is quantum computing?" goes to your server's Anthropic SDK, then the Anthropic API, and back.](https://academy.claude.com/assets/media/76fd18d820096e675367b412d908db48d94e83ba107b5fea7a7fa2495ea4dd47.png)
 
 ## Key Takeaways[](https://academy.claude.com/courses/building-with-the-claude-api/accessing-the-api)
 

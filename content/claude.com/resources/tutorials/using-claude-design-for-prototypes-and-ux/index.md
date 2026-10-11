@@ -111,11 +111,11 @@ When a prototype is ready for implementation, Claude Design can hand off to Clau
 
 Click “Export” and “Hand off to Claude Code” to get started. By default, we bundle the project’s design files, chat, and a README which tells the model to interpret the designs for download, and give you a prompt you can paste into local Claude Code (or coding agent of your choice) that includes the bundle’s URL.
 
-![](https://academy.claude.com/assets/media/fdcc6c3270613c284d96f453d543b49c6dfca2d1479847ce095da330ade3d97d.png)
+!["Send to local coding agent" tab: prompt to fetch the design file and implement index_v2.html, with a "Copy command" button.](https://academy.claude.com/assets/media/fdcc6c3270613c284d96f453d543b49c6dfca2d1479847ce095da330ade3d97d.png)
 
 You’ll also have an option to hand off to Claude Code Web.
 
-![](https://academy.claude.com/assets/media/0dddc62e3118e544b752ab34ae09cb4379d414cec338fc0899907aded5564986.png)
+![Send to Claude Code Web tab, with a prompt asking Claude to implement index_v2.html and an Open in Claude Code Web button.](https://academy.claude.com/assets/media/0dddc62e3118e544b752ab34ae09cb4379d414cec338fc0899907aded5564986.png)
 
 This handoff is especially valuable when your codebase is linked, because Claude Code already understands the components and patterns the prototype was built with. As one design lead put it: "Including design intent in Claude Code handoffs has made the jump from prototype to production seamless."
 

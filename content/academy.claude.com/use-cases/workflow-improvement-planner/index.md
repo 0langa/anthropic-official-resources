@@ -2,7 +2,7 @@
 
 Turn process pain points into structured improvement plans. Claude helps nonprofits define workflow challenges and design AI-powered solutions that save time and increase capacity.
 
-15 minOperationsClaude.ai
+15 minOperationsClaude
 
 Try in ClaudeCopy prompt
 

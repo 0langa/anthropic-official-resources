@@ -220,11 +220,11 @@ SalesProspect, craft outreach, and build deal strategy faster. Prep for calls, m
 
 `/pipeline-review`Analyze pipeline health — prioritize deals, flag risks, get a weekly action plan.
 
-[Run](claude://cowork/new?q=%2Fpipeline-review)
+[Open in Cowork](claude://cowork/new?q=%2Fpipeline-review)
 
 `/call-prep`Prepare for a sales call with account context, attendee research, and suggested agenda.
 
-[Run](claude://cowork/new?q=%2Fcall-prep)
+[Open in Cowork](claude://cowork/new?q=%2Fcall-prep)
 
 Show all 9 skills
 
@@ -258,7 +258,7 @@ Factor open and recently escalated support tickets into the risk score.
 
 Custom connector
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 
@@ -285,8 +285,8 @@ In Cowork’s chat bar:Renewals / FY26-Q3
 Audit my Q3 renewal book. For every account renewing in the next 90 days,
 score renewal risk red/yellow/green based on product-usage
 trend, recent sentiment, and open exec commitments. Explain
-the signal that drove each score, and publish it as a
-live artifact I can share with leadership.
+the signal that drove each score, and publish it as an
+artifact I can share with leadership.
 
 
 
@@ -307,8 +307,8 @@ score so each red includes why it's at risk — something you can act on.
 
 Prompt
 
-**Say how you'll share the output.** A live artifact means leadership opens
-one link and it's current, not last Tuesday's spreadsheet.
+**Say how you'll share the output.** An artifact means leadership opens
+one link, not last Tuesday's spreadsheet.
 
 Source
 
@@ -344,12 +344,12 @@ Make what we've done in this task so far into a skill, or edit the
 
 ## 4. Make it repeatable[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
-### Make it a live artifact[](https://academy.claude.com/use-cases/renewal-risk-audit)
+### Share it as an artifact[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
-A spreadsheet is a snapshot. Ask Cowork to publish the audit as a live artifact and leadership opens one link that refreshes from CRM, with filters for segment, owner, and risk.
+A spreadsheet is a snapshot. Ask Cowork to publish the audit as an artifact and leadership opens one link, with filters for segment, owner, and risk.
 
-Publish that renewal-risk table as a live artifact for sales leadership,
-filterable by segment and owner, and refresh it nightly from Salesforce.
+Publish that renewal-risk table as an artifact for sales leadership,
+filterable by segment and owner.
 
 
 
@@ -360,7 +360,7 @@ filterable by segment and owner, and refresh it nightly from Salesforce.
 Risk moves week to week. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill rescores the book and refreshes the artifact before your Monday forecast call.
 
 **/schedule** Every Monday at 7am, rerun the renewal risk audit on the
-current 90-day book, refresh the live artifact, and DM me any account that
+current 90-day book, refresh the artifact, and DM me any account that
 moved to red since last week.
 
 
@@ -372,7 +372,7 @@ moved to red since last week.
 Weekly renewal risk audit
 
 Rescores the 90-day renewal book on usage, sentiment, and open commitments,
-refreshes the live artifact, and DMs new reds.
+refreshes the artifact, and DMs new reds.
 
 Every **Mondays at 7:00am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
 
@@ -390,7 +390,7 @@ with your instructions baked in, they don't repeat Steps 1-3.
 
 ## What changes for the renewal motion[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
-Every account in your renewal window has a risk score, the signal behind it, and an owner, in one shared view that stays current. You work the at-risk list instead of building it.
+Every account in your renewal window has a risk score, the signal behind it, and an owner, in one shared view. You work the at-risk list instead of building it.
 
 You did this for one renewal cycle. The same approach covers expansion reviews, forecast risk, and QBR prep — each one a skill in your team's plugin, run the same way every time.
 

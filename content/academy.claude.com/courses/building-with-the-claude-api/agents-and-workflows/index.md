@@ -4,7 +4,7 @@ Lesson 61 of 67 · Building with the Claude APIAgents and workflows
 
 Lesson 612 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fagents-and-workflows)
 
@@ -12,7 +12,7 @@ Workflows and agents are strategies for handling user tasks that can't be comple
 
 ## When to Use Workflows vs Agents[](https://academy.claude.com/courses/building-with-the-claude-api/agents-and-workflows)
 
-![](https://academy.claude.com/assets/media/6db9874df97b98ce0ce72868d34fec46e48fedd6d60dc3bef2d612cb85df09d0.jpg)
+![Side-by-side definitions of workflows and agents and when to use each, described below.](https://academy.claude.com/assets/media/6db9874df97b98ce0ce72868d34fec46e48fedd6d60dc3bef2d612cb85df09d0.jpg)
 
 The decision comes down to how well you understand the task:
 
@@ -23,13 +23,13 @@ Workflows are a series of calls to Claude meant to solve a specific problem thro
 
 ## Example: Image to CAD Workflow[](https://academy.claude.com/courses/building-with-the-claude-api/agents-and-workflows)
 
-![](https://academy.claude.com/assets/media/475ec94686fa222e4b1688c797ad1bca74ee0adfe97e64b87ae33db48eff75c4.jpg)
+![The four-step image to CAD workflow listed below, with the grading step looping back to the modeling step, then Done.](https://academy.claude.com/assets/media/475ec94686fa222e4b1688c797ad1bca74ee0adfe97e64b87ae33db48eff75c4.jpg)
 
 Let's look at a practical workflow example. Imagine building a web app where users drag and drop an image of a metal part, and you create a STEP file (an industry standard for 3D models) from it.
 
 Since we have a pretty good idea of exactly what to do when a user supplies an image file, and we can easily write all of this out with code as a predefined series of steps, this makes a perfect workflow candidate.
 
-![](https://academy.claude.com/assets/media/6e905a34d6fdbae76cacdeb9e1f4efe70582c873b356de4151035d80fc804d17.jpg)
+![The four-step image to CAD workflow listed below, with the grading step looping back to the modeling step, then Done.](https://academy.claude.com/assets/media/6e905a34d6fdbae76cacdeb9e1f4efe70582c873b356de4151035d80fc804d17.jpg)
 
 Here's how the workflow breaks down:
 
@@ -40,7 +40,7 @@ Here's how the workflow breaks down:
 
 ## The Evaluator-Optimizer Pattern[](https://academy.claude.com/courses/building-with-the-claude-api/agents-and-workflows)
 
-![](https://academy.claude.com/assets/media/6d5990ee32406b753772b80bf2b96404bf53c97163f62cc74afdd9f32d97368f.jpg)
+![Evaluator-optimizer loop: Input to Producer, Submission to Grader, then Feedback back to Producer or Accepted to Output.](https://academy.claude.com/assets/media/6d5990ee32406b753772b80bf2b96404bf53c97163f62cc74afdd9f32d97368f.jpg)
 
 This modeling workflow is an example of an evaluator-optimizer pattern. Here's how it works:
 

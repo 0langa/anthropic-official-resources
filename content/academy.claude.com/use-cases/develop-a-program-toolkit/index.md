@@ -2,7 +2,7 @@
 
 Generate complete program design frameworks for new initiatives with logic models, evaluation plans, and resource guides that transform concepts into implementation-ready programs.
 
-15 minClaude.ai
+15 minClaude
 
 Try in ClaudeCopy prompt
 

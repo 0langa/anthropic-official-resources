@@ -330,11 +330,11 @@ OperationsOptimize business operations — vendor management, process documentat
 
 `/runbook`Create or update an operational runbook for a recurring task or procedure.
 
-[Run](claude://cowork/new?q=%2Frunbook)
+[Open in Cowork](claude://cowork/new?q=%2Frunbook)
 
 `/status-report`Generate a status report with KPIs, risks, and action items.
 
-[Run](claude://cowork/new?q=%2Fstatus-report)
+[Open in Cowork](claude://cowork/new?q=%2Fstatus-report)
 
 Show all 9 skills
 
@@ -368,7 +368,7 @@ List the deploys and merged changes in the 24 hours before the incident started.
 
 [Connect](https://claude.ai/desktop/directory/github)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 

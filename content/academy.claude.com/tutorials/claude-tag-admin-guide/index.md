@@ -13,18 +13,18 @@ Claude Tag (public beta) is Claude working in your team's Slack channels, with i
 You will need:
 
 - **A Team or Enterprise plan:** individual plans and third-party deployments don't qualify ([the prerequisites(opens in new tab)](https://claude.com/docs/claude-tag/admins/setup-overview) cover what to do if you don't have one).
-- **An Owner (or Primary Owner) in the Claude organization that will hold the pairing:** pairing and access bundles are Owner-only writes (on Enterprise, a channel manager an Owner has delegated can also create a bundle for their assigned channel; section 4), and Owner status in another Claude organization does not apply.
+- **An Owner (or Primary Owner) in the Claude organization that will hold the pairing:** pairing is Owner-only, and so are access bundles unless you're on Enterprise, where a Claude Tag admin (a member whose custom role has the `Claude Tag Admin` permission) can manage them and a channel manager can create one for their assigned channel (section 4). Owner status in another Claude organization does not apply.
 - **A Slack workspace admin:** installs the app and generates the pairing code. On Enterprise Grid, a Grid org admin also qualifies. The code is single-use and expires 15 minutes after generation, so coordinate to be online at the same time. This person can be the same as the Owner.
-- **A funded usage balance:** on a Team plan, Claude Tag won't answer in channels until your organization's usage balance is funded, and a launch usage credit counts as funding. How channel work bills, and the card-billed vs. invoiced difference, is in [Set a spend limit(opens in new tab)](https://claude.com/docs/claude-tag/admins/set-spend-limit).
+- **A funded usage balance:** on a Team plan, Claude Tag won't answer in channels until your organization's usage balance is funded. How channel work bills, and the card-billed vs. invoiced difference, is in [Set a spend limit(opens in new tab)](https://claude.com/docs/claude-tag/admins/set-spend-limit).
 - **An IP allowlist entry, filed early:** if a connected service restricts by source IP, add Anthropic's published egress range now; enterprise allowlist changes can take days, and every connected service must be reachable from the internet ([network requirements(opens in new tab)](https://claude.com/docs/claude-tag/admins/network-requirements) has the range).
-- **A Claude organization without Zero Data Retention (ZDR) or customer-managed encryption keys (CMEK):** neither policy permits Claude Tag. If other Claude products need them, ask your account team about a separate Claude organization to hold the Slack pairing.
+- **A Claude organization without Zero Data Retention (ZDR), customer-managed encryption keys (CMEK), or Anthropic's HIPAA configuration for Claude Code and Cowork in local mode:** none of these permits Claude Tag. If other Claude products need them, ask your account team about a separate Claude organization to hold the Slack pairing.
 - **Routines enabled for your Claude organization (Admin settings › Capabilities):** Claude Tag requires the feature. Until an admin enables it, every mention and direct message (DM) gets an "unavailable" reply and no work happens.
 - **One Claude organization to hold the pairing:** a Slack workspace (or Enterprise Grid) pairs with one Claude organization at a time. If your company has multiple organizations, determine which one holds the pairing before you connect.
 
 ### The six decisions you own[](https://academy.claude.com/tutorials/claude-tag-admin-guide)
 
 1. **Where Claude Tag lives:** the paired workspace and which channels it works in (sections 3–4).
-2. **Who steers it:** Owners hold the admin controls; channel members shape their own channel from within it (sections 4–5).
+2. **Who steers it:** Owners hold the admin controls (on Enterprise, they can share most of them through a custom role); channel members shape their own channel from within it (sections 4–5).
 3. **What it can touch:** repositories, credentials, connections, and plugins, organized into access bundles and scoped to different levels (section 4).
 4. **How it behaves:** ambient or mention-only, controlled by a switch on each channel's `Configure` page, plus written instructions (section 5).
 5. **What it remembers:** channel and workspace memory that you can open, edit, and delete (section 5).
@@ -36,7 +36,7 @@ When a question about Claude Tag comes up later, start by working out which of t
 
 Claude Tag's settings are spread across several pages in claude.ai and Slack, each controlling a different type of configuration.
 
-<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">Surface</th><th class="border-b border-strong p-sm text-left font-medium">Who changes it</th><th class="border-b border-strong p-sm text-left font-medium">What it controls</th></tr></thead><tbody><tr><td class="border-b p-sm">The Claude Tag admin page, under Admin settings › Products</td><td class="border-b p-sm">An Owner</td><td class="border-b p-sm">Access, custom instructions, the default model, and where Claude Tag may operate, per scope, plus each channel's <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Respond automatically</code> switch</td></tr><tr><td class="border-b p-sm">The Usage page, under Admin settings › Usage</td><td class="border-b p-sm">An Owner or Admin</td><td class="border-b p-sm">The organization spend limit, per-channel limits, and the per-channel spend breakdown</td></tr><tr><td class="border-b p-sm">The <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Configure</code> link, in the footer of Claude's replies in Slack (Grid-shared channels have no <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Configure</code> link)</td><td class="border-b p-sm">Channel members in your Claude organization</td><td class="border-b p-sm">That one channel's <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Respond automatically</code> switch, its instructions, and its plugins (an Owner can block member edits to this page)</td></tr><tr><td class="border-b p-sm">Personal connectors, under Customize › Connectors on claude.ai</td><td class="border-b p-sm">Each user</td><td class="border-b p-sm">Which of their own tools apply in their direct messages with Claude Tag and, in organizations where Anthropic has enabled it, for their own tasks in a channel</td></tr><tr><td class="border-b p-sm">The Analytics page, under Analytics › Claude Tag</td><td class="border-b p-sm">Anyone who can view the Analytics dashboard</td><td class="border-b p-sm">Read-only: spend to date and projected, spend by channel, and spend by kind of work</td></tr></tbody></table>
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">Surface</th><th class="border-b border-strong p-sm text-left font-medium">Who changes it</th><th class="border-b border-strong p-sm text-left font-medium">What it controls</th></tr></thead><tbody><tr><td class="border-b p-sm">The Claude Tag admin page, under Admin settings › Products</td><td class="border-b p-sm">An Owner (on Enterprise, a Claude Tag admin can manage most of it; section 4)</td><td class="border-b p-sm">Access, custom instructions, the default model, and where Claude Tag may operate, per scope, plus each channel's <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Respond automatically</code> switch</td></tr><tr><td class="border-b p-sm">The Usage page, under Admin settings › Usage</td><td class="border-b p-sm">An Owner or Admin</td><td class="border-b p-sm">The organization spend limit, per-channel limits, and the per-channel spend breakdown</td></tr><tr><td class="border-b p-sm">The <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Configure</code> link, in the footer of Claude's replies in Slack (Grid-shared channels have no <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Configure</code> link)</td><td class="border-b p-sm">Channel members in your Claude organization</td><td class="border-b p-sm">That one channel's <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Respond automatically</code> switch, its instructions, and its plugins (an Owner or a Claude Tag admin can block member edits to this page)</td></tr><tr><td class="border-b p-sm">Personal connectors, under Customize › Connectors on claude.ai</td><td class="border-b p-sm">Each user</td><td class="border-b p-sm">Which of their own tools apply in their one-to-one direct messages with Claude Tag and, after they allow it, for their own tasks in a channel or group DM</td></tr><tr><td class="border-b p-sm">The Analytics page, under Analytics › Claude Tag</td><td class="border-b p-sm">Anyone who can view the Analytics dashboard</td><td class="border-b p-sm">Read-only: spend to date and projected, spend by channel, and spend by kind of work</td></tr></tbody></table>
 
 Channel memory and individual routines aren't created on a settings page: you shape both by talking to Claude Tag in the channel. An Owner can review both (memory files from the scope's menu, section 5; routines from the Activity page's Scheduled work tab, section 7), and the org-level Routines feature itself is switched on by an admin (see Before you start). The [settings map(opens in new tab)](https://claude.com/docs/claude-tag/concepts/settings-map) is the one-page reference.
 
@@ -87,17 +87,19 @@ Illustration: the pairing step of the Claude Tag setup flow, where an Owner past
 
 claude.ai/admin-settings/claude-tag
 
-Admin settings
-
-Organization
-
 Organization settings
+
+Organization and access
 
 Billing
 
 Usage
 
 Data and privacy
+
+Capabilities
+
+Git providers
 
 People
 
@@ -117,15 +119,13 @@ Access bundles
 
 Activity
 
-Libraries & Access
+Plugins
+
+Plugins & skills
 
 Connectors
 
-Plugins
-
-Skills
-
-GitHub
+Directory
 
 Personal settings
 
@@ -187,21 +187,21 @@ Pairing grants Claude Tag no one's existing access. It takes nothing from:
 - The Owner who redeems the code
 - Any workspace member's connected tools
 
-It creates a new participant in Slack, tied to your Claude organization, and that participant has no access to your external systems until an Owner (or, on Enterprise, a channel manager an Owner has delegated) adds connections.
+It creates a new participant in Slack, tied to your Claude organization, and that participant has no access to your external systems until an Owner (or, on Enterprise, a Claude Tag admin or a channel manager) adds connections. A member's own connectors are separate: they can serve that member's own requests once the member allows it (see Connections and connectors, in Step 2).
 
 #### Pairing on Enterprise Grid
 
-On Slack Enterprise Grid, the `@Claude connect` reply carries two codes: `workspace_…` pairs one workspace, and `enterprise_…` pairs the whole grid. DMs work only for people whose home workspace is paired, so pair the grid if DMs should work for everyone. [The pairing steps in the setup docs(opens in new tab)](https://claude.com/docs/claude-tag/admins/setup-overview) cover both codes and have the complete walkthrough.
+On Slack Enterprise Grid, the `@Claude connect` reply carries two codes: `workspace_…` pairs one workspace, and `enterprise_…` pairs the whole grid. One-to-one DMs work only for people whose home workspace is paired, so pair the grid if they should work for everyone. [The pairing steps in the setup docs(opens in new tab)](https://claude.com/docs/claude-tag/admins/setup-overview) cover both codes and have the complete walkthrough.
 
 ### Step 2. Choose Claude Tag's first tools[](https://academy.claude.com/tutorials/claude-tag-admin-guide)
 
-Claude Tag works in tools with its own account, so it acts as itself, not as you. Pick at least two tools your team actually works in to start (`Search all tools` finds ones not shown; GitHub has its own step next).
+In the tools you set up here, Claude Tag works with its own account, so it acts as itself, not as you. Pick at least two tools your team actually works in to start (`Search all tools` finds ones not shown; GitHub has its own step next).
 
 #### Connections and connectors
 
-**A connection is Claude Tag's; a connector is yours.** The tools you connect in this setup flow become connections: Claude Tag's own sign-ins, shared by the workspace or a channel, recording every action under Claude Tag's name for audit and revocation. A connector is a tool on your own claude.ai account, under Customize › Connectors: private to you, and used in your direct messages with Claude Tag.
+**A connection is Claude Tag's; a connector is yours.** The tools you connect in this setup flow become connections: Claude Tag's own sign-ins, shared by the workspace or a channel, recording every action under Claude Tag's name for audit and revocation. A connector is a tool on your own claude.ai account, under Customize › Connectors: private to you, and used in your one-to-one direct messages with Claude Tag.
 
-In organizations where Anthropic has enabled personal connectors in channels, Claude Tag can also offer to use your connectors for a task you asked for in a channel, after you allow it, and never for anyone else's request. The boundary otherwise runs both ways: your connectors don't do the channel's shared work, and a channel's connections don't follow anyone into their DMs.
+Claude Tag can also offer to use your connectors for a task you asked for in a channel or group DM, after you allow it, and never for anyone else's request. The boundary otherwise runs both ways: your connectors don't do the channel's shared work, and a channel's connections don't follow anyone into a DM.
 
 ### Step 3. Connect GitHub, then choose repositories[](https://academy.claude.com/tutorials/claude-tag-admin-guide)
 
@@ -217,7 +217,7 @@ You can skip this step and grant repositories from the admin page later. See [gr
 
 ### Step 4. Create accounts for Claude Tag's other tools[](https://academy.claude.com/tutorials/claude-tag-admin-guide)
 
-Claude Tag can't act in a tool until it has an account there, so a skipped tool stays out of Claude Tag's reach until you add it. The account is usually an email address Claude Tag can be invited with; some tools that do not support email accounts offer service accounts instead, which serve the same purpose.
+Claude Tag needs its own account in a tool before it can do the channel's shared work there, so a skipped tool stays out of that work until you add it. A member's own connector to that tool can still serve their requests once they allow it. The account is usually an email address Claude Tag can be invited with; some tools that do not support email accounts offer service accounts instead, which serve the same purpose.
 
 #### Create the account and paste its keys
 
@@ -234,17 +234,19 @@ Illustration: the create-accounts step of the Claude Tag setup flow, showing the
 
 claude.ai/admin-settings/claude-tag
 
-Admin settings
-
-Organization
-
 Organization settings
+
+Organization and access
 
 Billing
 
 Usage
 
 Data and privacy
+
+Capabilities
+
+Git providers
 
 People
 
@@ -264,15 +266,13 @@ Access bundles
 
 Activity
 
-Libraries & Access
+Plugins
+
+Plugins & skills
 
 Connectors
 
-Plugins
-
-Skills
-
-GitHub
+Directory
 
 Personal settings
 
@@ -346,8 +346,6 @@ Claude Tag runs on usage credits: its channel messages and tool actions draw fro
 2. Confirm the total.
 3. `Buy now` charges your saved card.
 
-If your organization has a launch usage credit, it counts as funding, so check what you already have before you buy.
-
 You can skip and fund later from the Usage page, but Claude Tag stays silent in channels until the balance is funded. See [Set a spend limit(opens in new tab)](https://claude.com/docs/claude-tag/admins/set-spend-limit).
 
 
@@ -373,7 +371,7 @@ After launch, come back to the Claude Tag page (claude.ai's Admin settings › P
 
 **Under Where Claude Tag works, click `Manage` next to Member access and set the restriction toggle: `Restrict to your organization` on a Team plan, `Restrict to roles with Claude Tag access` on Enterprise.** The toggle decides who in the paired workspace can use Claude Tag, and it applies to channels and direct messages alike:
 
-- **Off (the default):** anyone in the workspace can use Claude Tag in channels, whether or not they have a Claude account. A direct message still needs the person's own Claude account, because a DM runs on it (the identity model below).
+- **Off (the default):** anyone in the workspace can use Claude Tag in channels, whether or not they have a Claude account. Someone who hasn't connected a Claude account, other than a Slack guest, can also DM Claude Tag one-to-one for a limited time on your organization's bill (section 6); after that, Claude Tag asks them to connect one, and their one-to-one DMs then run on that account (the identity model below). In a group DM they can ask without connecting one, and the per-person limits in section 6 don't apply.
 - **On:** only Slack users with a Claude account in your organization can.
 
 On Enterprise, every built-in role already grants the `Claude Tag in Slack` capability, so in an organization with no custom roles, turning it on simply limits Claude Tag to your organization's members. To narrow further, create a custom role that grants or withholds the capability; see [restrict by role on Enterprise(opens in new tab)](https://claude.com/docs/claude-tag/admins/restrict-access).
@@ -382,15 +380,15 @@ If your organization sits under a parent enterprise organization, the Member acc
 
 ### Three settings that are easy to mix up[](https://academy.claude.com/tutorials/claude-tag-admin-guide)
 
-<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">#</th><th class="border-b border-strong p-sm text-left font-medium">Setting</th><th class="border-b border-strong p-sm text-left font-medium">What it controls</th><th class="border-b border-strong p-sm text-left font-medium">Where you set it</th></tr></thead><tbody><tr><td class="border-b p-sm">1</td><td class="border-b p-sm">Who can invoke it</td><td class="border-b p-sm">Which people can address Claude Tag at all</td><td class="border-b p-sm">The member-access toggle (above): <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Restrict to your organization</code> on Team, <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Restrict to roles with Claude Tag access</code> on Enterprise</td></tr><tr><td class="border-b p-sm">2</td><td class="border-b p-sm">Where it answers</td><td class="border-b p-sm">Which channels and workspaces respond</td><td class="border-b p-sm">Each scope's enable switch (<code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Enable Claude Tag in Slack</code>, <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Enable Claude Tag in this workspace</code>, or <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Enable Claude Tag in this channel</code>); its <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Claude Tag version</code> under <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Advanced</code>: New, Legacy (the earlier per-user generation of Claude in Slack, where still offered; see below), or Inherit (use the parent scope's value)</td></tr><tr><td class="border-b p-sm">3</td><td class="border-b p-sm">What it can touch</td><td class="border-b p-sm">Credentials and repositories</td><td class="border-b p-sm">Access bundles bound to scopes, the only one of the three that controls credentials</td></tr></tbody></table>
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">#</th><th class="border-b border-strong p-sm text-left font-medium">Setting</th><th class="border-b border-strong p-sm text-left font-medium">What it controls</th><th class="border-b border-strong p-sm text-left font-medium">Where you set it</th></tr></thead><tbody><tr><td class="border-b p-sm">1</td><td class="border-b p-sm">Who can invoke it</td><td class="border-b p-sm">Which people can address Claude Tag at all</td><td class="border-b p-sm">The member-access toggle (above): <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Restrict to your organization</code> on Team, <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Restrict to roles with Claude Tag access</code> on Enterprise</td></tr><tr><td class="border-b p-sm">2</td><td class="border-b p-sm">Where it answers</td><td class="border-b p-sm">Which channels and workspaces respond</td><td class="border-b p-sm">Each scope's enable switch (<code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Respond in all channels</code> on the Slack page, <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Enable Claude Tag in this workspace</code>, or <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Enable Claude Tag in this channel</code>; on the earlier admin page the first is <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Enable Claude Tag in Slack</code> on Default Slack access); its <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Claude Tag version</code> under <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Advanced</code>: New or Inherit (use the parent scope's value); a scope still on Legacy, the earlier per-user Claude in Slack, answers in channels only with a retirement notice (see below)</td></tr><tr><td class="border-b p-sm">3</td><td class="border-b p-sm">What it can touch</td><td class="border-b p-sm">Credentials and repositories</td><td class="border-b p-sm">Access bundles bound to scopes, the only one of the three that controls credentials</td></tr></tbody></table>
 
 #### Scope switches and Inherit
 
-Turning a scope's switch off stops Claude Tag there (on Default Slack access it turns off Legacy too); a workspace or channel with its own On setting stays on even when the scope above it is off. That includes a workspace you launched with `Entire workspace`, or each channel you chose in a `Specific channel` launch: the Launch step sets that scope's switch to On for you.
+Turning a scope's switch off stops Claude Tag there; a workspace or channel with its own On setting stays on even when the scope above it is off. That includes a workspace you launched with `Entire workspace`, or each channel you chose in a `Specific channel` launch: the Launch step sets that scope's switch to On for you.
 
 To make a scope follow the one above it again, set its `Claude Tag version` under `Advanced` back to `Inherit`, or use the inherited-setting link beside its switch (an "Inherited: On" or "Inherited: Off" byline there shows what the scope above passes down until you set the switch yourself).
 
-On the Team plan you instead see a single `Enable Claude Tag` switch on Default Slack and no per-scope switches; it turns Claude Tag on or off in every connected workspace at once.
+On the Team plan you instead see a single `Respond in channels` switch on the Slack page (`Enable Claude Tag` on Default Slack on the earlier admin page) and no per-scope switches; it turns Claude Tag on or off in the channels of every connected workspace at once.
 
 #### Guests and Slack Connect
 
@@ -404,9 +402,9 @@ Claude Tag answers in a channel shared across your Enterprise Grid's workspaces 
 
 #### The Legacy version
 
-Legacy is the earlier Claude in Slack; skip this if your organization never used it. Both versions answer through the same Claude app, so turning off `Enable Claude Tag in Slack` on Default Slack access turns off Legacy too; setting a scope's `Claude Tag version` to `Legacy` keeps the earlier generation answering there.
+Legacy is the earlier Claude in Slack; skip this if your organization never used it. Since October 5, 2026, Legacy no longer answers in the channels of a paired workspace, and you can't switch a scope to it. One-to-one direct messages aren't affected, but Claude Tag doesn't answer group DMs in a workspace still set to Legacy.
 
-Legacy is being deprecated; your account team has the cutover date, after which scopes still on Legacy stop responding until set to `New`. You can tell a scope is still answering with Legacy when pull requests it opens appear under the asker's name instead of its own. See [migrating from the earlier Claude in Slack(opens in new tab)](https://claude.com/docs/claude-tag/admins/restrict-access).
+A channel still set to Legacy, directly or by inheriting it, answers a mention only with a notice that the legacy bot is retired. To bring Claude Tag back there, set `Claude Tag version` to `New` on the channel, or on the scope it inherits from: its workspace, or the Slack page (Default Slack access on the earlier admin page). See [migrating from the earlier Claude in Slack(opens in new tab)](https://claude.com/docs/claude-tag/admins/migrate-from-earlier).
 
 ### The access editor: pick a scope, read its access[](https://academy.claude.com/tutorials/claude-tag-admin-guide)
 
@@ -426,11 +424,11 @@ Under Claude Tag's access, the Slack tab is a two-pane editor.
 - **Custom instructions:** the scope's standing guidance, in plain text.
 - **Access bundles:** the bundles attached to this scope, each with a remove, plus a `+` to attach another. What a bundle from a parent scope grants shows up in the lists above; to change it, edit the scope it comes from.
 
-Each row carries an origin line naming the scope or bundle it came from; select the name in it to open that scope or bundle (both forms of the origin line are explained under [attach a single repository or connector(opens in new tab)](https://claude.com/docs/claude-tag/admins/attach-to-scope)).
+Each row carries an origin line naming the scope or bundle it came from; select the name in it to open that scope or bundle (the docs explain where each item comes from under [check or remove what a place has(opens in new tab)](https://claude.com/docs/claude-tag/admins/attach-to-scope)).
 
 #### Reading a scope's lists
 
-A scope's lists are the resolved answer: every connector and repository this channel ends up with after the channel's bundles, the workspace's, and the root's are unioned together, each row labeled with where it came from. When someone asks "Can Claude reach Datadog from this channel?", open the scope and read its Connectors and Repositories lists instead of reasoning about inheritance.
+A scope's lists are the resolved answer: every connector and repository this channel ends up with after the channel's bundles, the workspace's, and the root's are unioned together, each row labeled with where it came from. When someone asks "Can Claude reach Datadog from this channel?", open the scope and read its Connectors and Repositories lists instead of reasoning about inheritance. They cover the channel's shared work; a member's own connectors aren't listed there.
 
 Which credential acts on a host is rule-governed: Claude Tag uses the narrowest scope's credential, with no fallback to a broader one. Keep the map just as legible within a scope by binding one credential per host per scope; then the Connectors list reads one-to-one, for you and for any security review.
 
@@ -438,17 +436,19 @@ Illustration: Claude Tag's access editor with one Slack channel selected, showin
 
 claude.ai/admin-settings/claude-tag
 
-Admin settings
-
-Organization
-
 Organization settings
+
+Organization and access
 
 Billing
 
 Usage
 
 Data and privacy
+
+Capabilities
+
+Git providers
 
 People
 
@@ -468,15 +468,13 @@ Access bundles
 
 Activity
 
-Libraries & Access
+Plugins
+
+Plugins & skills
 
 Connectors
 
-Plugins
-
-Skills
-
-GitHub
+Directory
 
 Personal settings
 
@@ -562,14 +560,14 @@ Platform team tools4 rules · 1 repo · 1 plugin×
 
 ### The rest of a scope's settings live under Advanced[](https://academy.claude.com/tutorials/claude-tag-admin-guide)
 
-The scope's `Advanced` section holds `Claude Tag version`: New or Legacy (where still offered), plus Inherit on workspaces and channels. The other `Advanced` settings:
+The scope's `Advanced` section holds `Claude Tag version`: New, plus Inherit on workspaces and channels (a scope can no longer be switched to Legacy; see The Legacy version, above). The other `Advanced` settings:
 
 - **Default model:** the model new sessions start on, drawn from the models your organization allows for Claude Code. A scope without its own setting inherits its parent's.
 - **Auto mode allow rules:** plain-sentence rules that pre-approve actions Claude Tag's permission checker would otherwise flag or stop. Rules inherit downward, so keep each one narrow ([auto mode allow rules(opens in new tab)](https://claude.com/docs/claude-tag/admins/customize) has the form and an example).
 - **Environment:** the cloud environment the scope's sessions run in, which sets their network access level (see Credentials never reach the sandbox, below).
 - **Channel name rules:** two pattern lists on the root and workspace scopes: blocked channel patterns keep Claude Tag out of channels whose names match, and auto-join channel patterns add it to new public ones.
 - **How should Claude work in channels with guests:** three values. `Restrict`, the default, means Claude Tag doesn't reply wherever a guest is present; `Channel only` lets it answer with only what's set directly on the channel (its own instructions and connections, plus a bundle attached to it whose attachment includes channels with guests; members-only is the default), with nothing inherited from the workspace or the organization, no memory or skills, and the standard environment in place of the scope's own ([how Channel only works(opens in new tab)](https://claude.com/docs/claude-tag/admins/restrict-access) has the full exclusion list); `Full access` lets Claude Tag use everything the scope gives it. Even on `Full access`, workspace search is unavailable while a guest is present, and `Channel only` takes effect only on scopes set to `New`.
-- **Channel member edits:** whether channel members can edit this channel's settings from the `Configure` link in Slack. `Block` at the workspace or root makes the whole `Configure` page read-only for members across every channel beneath it (section 5 has the details). A channel manager (on Enterprise, someone an Owner has delegated that channel's setup to) can still edit the channel's instructions and default model regardless of this setting.
+- **Channel member edits:** whether channel members can edit this channel's settings from the `Configure` link in Slack. `Block` at the workspace or root makes the whole `Configure` page read-only for members across every channel beneath it (section 5 has the details). A channel manager (on Enterprise, someone an Owner or a Claude Tag admin has delegated that channel's setup to) can still edit the channel's instructions and default model regardless of this setting.
 - **Respond automatically** (a per-channel setting; workspaces and the organization have no such switch): on by default; turn it off and Claude Tag replies in that channel only when mentioned. Channel members can also flip this by asking Claude Tag in Slack.
 
 The rows carry an Inherit option that shows what a scope currently resolves to. That is the place to look when one channel behaves differently from its siblings. See [which settings admins control(opens in new tab)](https://claude.com/docs/claude-tag/admins/customize).
@@ -594,9 +592,11 @@ The built-in Admin role in your Claude organization can't do any of these:
 - Manage access bundles
 - Open the Activity page or memory files
 
-Those need an Owner (the one delegation is the Enterprise channel manager below). Spend limits are the exception: an Owner or Admin can set those on the Usage page.
+Those need an Owner (on Enterprise, a Claude Tag admin can also manage access bundles; see below). Spend limits are the exception: an Owner or Admin can set those on the Usage page. On Enterprise, an Owner can delegate in two ways: a Claude Tag admin can administer most of Claude Tag, and a channel manager takes on the setup of the channels assigned to them (both below). [Delegate Claude Tag administration(opens in new tab)](https://claude.com/docs/claude-tag/admins/restrict-access) has the steps for giving a member the `Claude Tag Admin` permission, including the permissions to add for someone who is an Admin today, because changing their role to Custom takes them off the built-in Admin role.
 
-<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">Who</th><th class="border-b border-strong p-sm text-left font-medium">What they can do</th></tr></thead><tbody><tr><td class="border-b p-sm">A channel manager (Enterprise)</td><td class="border-b p-sm">Create a bundle for an assigned channel and edit that bundle's Credentials and Plugins tabs (not its Repositories, Domains, or Instructions tabs), plus the channel's own instructions and default model, and, from the channel's <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Configure</code> page, repositories their own GitHub account is an admin of; pairing a workspace and organization-wide settings stay with Owners</td></tr><tr><td class="border-b p-sm">Channel members</td><td class="border-b p-sm">Work from inside the channel: memory, routines, the <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Configure</code> page</td></tr></tbody></table>
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">Who</th><th class="border-b border-strong p-sm text-left font-medium">What they can do</th></tr></thead><tbody><tr><td class="border-b p-sm">A Claude Tag admin (Enterprise)</td><td class="border-b p-sm">Most of the Claude Tag admin page: access bundles (create, edit, and attach to the organization, a workspace, or a channel); workspace and channel settings, such as instructions and the default model; the switches that turn Claude Tag on or off for every channel, a workspace, or a channel; a channel's <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Managed by</code> setting (on the <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Admin</code> tab of its <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Configure</code> page), which lets other channels write its instructions; channel managers, if the admin's role also sets <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Identity &amp; Access</code> to <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Can manage</code>; and a scope's guest setting, to <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Restrict</code> or <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Channel only</code></td></tr><tr><td class="border-b p-sm">A channel manager (Enterprise)</td><td class="border-b p-sm">Create a bundle for an assigned channel and edit that bundle's Credentials and Plugins tabs (not its Repositories, Domains, or Instructions tabs), plus the channel's own instructions and default model, and, from the channel's <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Configure</code> page, repositories their own GitHub account is an admin of; organization and workspace settings are read-only for them, and they can't pair a workspace</td></tr><tr><td class="border-b p-sm">Channel members</td><td class="border-b p-sm">Work from inside the channel: memory, routines, the <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Configure</code> page</td></tr></tbody></table>
+
+Even on Enterprise, these stay Owner-only: the switch at the top of the Claude Tag page that turns Claude Tag on or off for the whole organization, `Allow direct messages`, the member-access restriction, pairing or disconnecting workspaces, channel name rules and the bundles on them, `Channels Claude can search`, and `Full access` or `Inherit` for guests.
 
 The full table is in the docs; see [permissions by role(opens in new tab)](https://claude.com/docs/claude-tag/admins/restrict-access).
 
@@ -608,13 +608,13 @@ In a channel, Claude Tag acts with its own service accounts:
 
 Claude Tag doesn't use the requester's own access for a channel's shared work. Two things follow: every action taken through the channel's connections is attributable to Claude Tag, which makes audit clean; and least privilege becomes a decision you make when you connect each tool. Three points to carry into that decision:
 
-- **Its own accounts:** the channel's own connections give everyone in it the same capability, so the shared work doesn't change based on who asked. (Where personal connectors in channels is enabled, a member's own connectors can additionally serve that member's own task, with their approval.)
+- **Its own accounts:** the channel's own connections give everyone in it the same capability, so the shared work doesn't change based on who asked. (A member's own connectors can additionally serve that member's own task, with their approval.)
 - **Grant read broadly, write narrowly:** read-only connections across the tools your teams work in are a sound day-one default. Add write access per team's bundle, only where you want Claude Tag changing things, and revisit as it earns trust.
 - **Keep a human as the approver:** pull requests Claude Tag opens are authored by the Claude GitHub App, so required-review branch protection still demands a human approval. But it no longer keeps the asker from approving their own request, because GitHub blocks only the PR's author (under Legacy, the asker was the author). To make sure a second person reviews Claude Tag's work, require two approving reviews in the branch protection rule, and dismiss stale approvals on new commits.
 
-**Direct messages are the exception.** A DM has no channel to scope it to, so it runs on that person's own claude.ai account, with their personal connectors, billed to their seat, and attributed to them, except for pull requests: the Claude GitHub App authors those from DMs too, though it can only reach repositories connected on that user's own account.
+**Direct messages are the exception.** A one-to-one DM has no channel to scope it to, so for someone who has connected a Claude account it runs on that account, with their personal connectors, billed to their seat, and attributed to them, except for pull requests: the Claude GitHub App authors those from DMs too, though it can only reach repositories connected on that user's own account. Someone who hasn't connected a Claude account, other than a Slack guest, can also DM Claude Tag one-to-one for a limited time, on your organization's bill (section 6). That DM runs as Claude Tag itself, with the access bundles a channel they created in that workspace would get and no personal connectors. A group DM, a Slack conversation among several people that includes Claude, works like a channel instead: Claude Tag uses its own service accounts with the workspace's and the organization's access (not any one channel's), and the work bills to your organization.
 
-Channels are the shared, service-identity surface; DMs are personal. See [how agent identity works(opens in new tab)](https://claude.com/docs/claude-tag/concepts/agent-identity).
+Channels and group DMs are the shared, service-identity surface and one-to-one DMs are personal, with two exceptions. When a member's own connectors serve their request in a channel or group DM, that work runs with their permissions and under their name. And a one-to-one DM from someone who hasn't connected a Claude account runs as Claude Tag. See [how agent identity works(opens in new tab)](https://claude.com/docs/claude-tag/concepts/agent-identity).
 
 ### Credentials never reach the sandbox[](https://academy.claude.com/tutorials/claude-tag-admin-guide)
 
@@ -632,7 +632,7 @@ Web search runs on Anthropic's servers, outside all these layers; [web search vs
 
 If anyone in your Slack workspace handles protected health information (PHI), configure Claude Tag so that it cannot read, search, or connect to places that might include PHI. Claude Tag is in public beta and is not a HIPAA-eligible service under Anthropic's Business Associate Agreement (BAA). Do not submit PHI to Claude Tag.
 
-In an organization on Anthropic's HIPAA-ready Enterprise offering, Claude Tag additionally starts switched off; an Owner can turn it on, and it remains outside BAA coverage. The Claude Tag documentation carries the fuller procedures: see [Use Claude Tag at a healthcare organization(opens in new tab)](https://claude.com/docs/claude-tag/admins/healthcare).
+If your Claude organization has Anthropic's HIPAA configuration applied to Claude Code and Cowork in local mode, Claude Tag isn't available in that organization; ask your account team about a separate Claude organization, without that configuration, to hold the Slack pairing (section 1). In any other organization on Anthropic's HIPAA-ready Enterprise offering, Claude Tag starts switched off; an Owner can turn it on, and it remains outside BAA coverage. The Claude Tag documentation carries the fuller procedures: see [Use Claude Tag at a healthcare organization(opens in new tab)](https://claude.com/docs/claude-tag/admins/healthcare).
 
 
 
@@ -652,28 +652,30 @@ If PHI does reach a channel, Anthropic recommends the following, alongside your 
 
 #### The recommended configuration
 
-- **Run Claude Tag as an allowlist:** turn off `Enable Claude Tag in Slack` on Default Slack access, set any workspace or channel that has its own On setting back to `Inherit` (the inherited-setting link beside its enable switch, or `Claude Tag version` under `Advanced`; a workspace you launched with `Entire workspace` has one, and so does each channel chosen in a `Specific channel` launch), then turn on `Enable Claude Tag in this channel` on only the channels you approve. A mention anywhere else gets a disabled notice instead of a reply. Choosing `Specific channel` when pairing starts you in this posture. Per-scope switches are an Enterprise-plan capability. A Team plan has name-based blocked channel patterns and `Specific channel` pairing (see [limiting Claude Tag to specific channels(opens in new tab)](https://claude.com/docs/claude-tag/admins/restrict-access)), and Team plans can't be HIPAA-enabled for any Anthropic service. If PHI may be present in your workspace and you're on a Team plan, don't deploy Claude Tag in that workspace. Whichever plan you're on, turn off `Allow direct messages` so every interaction happens in channels, where the controls and deletion ladder above apply; a DM runs on the member's personal account, with their personal connectors. See [allowing or disabling direct messages(opens in new tab)](https://claude.com/docs/claude-tag/admins/restrict-access).
-- **Keep Claude Tag out of PHI's path entirely:** Claude Tag can read a channel's full history only where it has been added, so never invite it to a PHI-bearing channel. It can, however, keyword-search public channels across the workspace from the guest-free channels it works in; that search is the same keyword search any workspace member has, so the allowlist only keeps PHI out of Claude Tag's reach if your workspace policy already keeps PHI out of public channels. If you can't rely on that policy, pair Claude Tag with a separate Slack workspace that has no PHI rather than one in which PHI may appear. Approve PHI-free channels only. Slack Connect channels, the ones shared with other organizations, are already covered: Claude Tag doesn't work in them at all (see "Guests and Slack Connect," above). And Claude Tag is off by default wherever a Slack guest is present; see [restricting guest channels(opens in new tab)](https://claude.com/docs/claude-tag/admins/restrict-access).
-- **Never connect PHI-bearing systems:** Claude Tag holds no credential for an external system until an Owner, or a channel manager an Owner has delegated, adds a connection, so the EHR and clinical tools simply never get one. Read each approved channel's Connectors and Repositories lists to confirm the resolved set. Also ask your account team whether personal connectors in channels is enabled for your organization; if it is, members' own claude.ai connectors count among the tools that must stay PHI-free. See [per-channel access(opens in new tab)](https://claude.com/docs/claude-tag/admins/attach-to-scope).
+- **Run Claude Tag as an allowlist:** turn off `Respond in all channels` at the top of the Slack page's `General` tab (Claude's access › Channels › Slack; on the earlier admin page, `Enable Claude Tag in Slack` on Default Slack access), set any workspace or channel that has its own On setting back to `Inherit` (the inherited-setting link beside its enable switch, or `Claude Tag version` under `Advanced`; a workspace you launched with `Entire workspace` has one, and so does each channel chosen in a `Specific channel` launch), then turn on `Enable Claude Tag in this channel` on only the channels you approve. A mention anywhere else gets a disabled notice instead of a reply. Choosing `Specific channel` when pairing starts you in this posture. Per-scope switches are an Enterprise-plan capability. A Claude Tag admin can change them and `Respond in all channels` too, so give the `Claude Tag Admin` permission only to people you trust to approve a channel as PHI-free. A Team plan has name-based blocked channel patterns and `Specific channel` pairing (see [limiting Claude Tag to specific channels(opens in new tab)](https://claude.com/docs/claude-tag/admins/restrict-access)), and Team plans can't be HIPAA-enabled for any Anthropic service. If PHI may be present in your workspace and you're on a Team plan, don't deploy Claude Tag in that workspace. Whichever plan you're on, turn off `Allow direct messages` so every interaction happens in channels, where the controls and deletion ladder above apply; the toggle covers group DMs too, and a one-to-one DM from a member who has connected a Claude account runs on that account, with their personal connectors. Turning DMs off doesn't keep members' own connectors out of channels (see "Never connect PHI-bearing systems," below). See [allowing or disabling direct messages(opens in new tab)](https://claude.com/docs/claude-tag/admins/restrict-access).
+- **Keep Claude Tag out of PHI's path entirely:** with its own Slack access, Claude Tag can read a channel's full history only where it has been added (a member's own Slack connector is covered in the next bullet), so never invite it to a PHI-bearing channel. It can, however, keyword-search public channels across the workspace from the guest-free channels it works in; that search is the same keyword search any workspace member has, so the allowlist only keeps PHI out of Claude Tag's reach if your workspace policy already keeps PHI out of public channels. If you can't rely on that policy, pair Claude Tag with a separate Slack workspace that has no PHI rather than one in which PHI may appear. Approve PHI-free channels only. Slack Connect channels, the ones shared with other organizations, are already covered: Claude Tag doesn't work in them at all (see "Guests and Slack Connect," above). And Claude Tag is off by default wherever a Slack guest is present; see [restricting guest channels(opens in new tab)](https://claude.com/docs/claude-tag/admins/restrict-access).
+- **Never connect PHI-bearing systems:** Claude Tag holds no credential of its own for an external system until an Owner (or, on Enterprise, a Claude Tag admin or a channel manager) adds a connection, so the EHR and clinical tools simply never get one. Read each approved channel's Connectors and Repositories lists to confirm the resolved set. Members' own claude.ai connectors are a separate path: once a member allows it, their connectors can serve their own requests in a channel, and each one, Slack included, reaches whatever that member's own account can. No organization setting turns personal connectors in channels off entirely, but a connector you block for your organization under Admin settings › Connectors stays blocked in channels too; count every connector you haven't blocked among the tools that must stay PHI-free. On an Enterprise plan, an Owner can require the requester to review every result before it posts (`Require human review of every message`, in the Personal connectors settings on the Claude Tag admin page); that limits what reaches the channel, not what Claude Tag reads. See [per-channel access(opens in new tab)](https://claude.com/docs/claude-tag/admins/attach-to-scope) and [personal connectors in channels(opens in new tab)](https://claude.com/docs/claude-tag/concepts/personal-connectors).
 - **Review what accumulates:** an Owner can open, edit, or delete each scope's memory files. The Activity page lists scheduled work, and actions in connected tools land in those tools' own logs under Claude Tag's service accounts (work done with a member's personal connectors is recorded under that member's name instead; section 7). Published artifacts are pages hosted on claude.ai, so anything that reaches one is held by Anthropic until the channel's entry is removed. See [audit and review(opens in new tab)](https://claude.com/docs/claude-tag/admins/audit).
 
 ## 5. What your members will do, and what you control[](https://academy.claude.com/tutorials/claude-tag-admin-guide)
 
 Claude Tag is an ambient, multiplayer presence: one Claude per channel, shared by everyone in it. Wherever Claude Tag is on, a mention guarantees a reply; it isn't required for one.
 
-What it can see follows the same shape: it reads the channels it has been added to, it can keyword-search public channels across the workspace (the same search any member has, though not from channels with guests; section 4), and it can't read private channels it isn't in.
+What it can see follows the same shape: it reads the channels it has been added to, it can keyword-search public channels across the workspace (the same search any member has, though not from channels with guests; section 4), and it can't read private channels it isn't in. The exception is a member's own request: once they allow it, their own connectors, Slack included, reach whatever their account can (section 4).
 
 ### When it replies on its own[](https://academy.claude.com/tutorials/claude-tag-admin-guide)
 
-<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">Where the message is</th><th class="border-b border-strong p-sm text-left font-medium">Does Claude Tag reply without a mention?</th></tr></thead><tbody><tr><td class="border-b p-sm">A direct message</td><td class="border-b p-sm">Yes, where DMs are enabled.</td></tr><tr><td class="border-b p-sm">A thread it's already in</td><td class="border-b p-sm">Yes, until someone quiets the thread.</td></tr><tr><td class="border-b p-sm">A channel, top-level</td><td class="border-b p-sm">Sometimes, when it judges it can answer the question or pick up the task.</td></tr></tbody></table>
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">Where the message is</th><th class="border-b border-strong p-sm text-left font-medium">Does Claude Tag reply without a mention?</th></tr></thead><tbody><tr><td class="border-b p-sm">A one-to-one direct message</td><td class="border-b p-sm">Yes, where DMs are enabled.</td></tr><tr><td class="border-b p-sm">A thread it's already in</td><td class="border-b p-sm">Yes, until someone quiets the thread.</td></tr><tr><td class="border-b p-sm">A channel, top-level</td><td class="border-b p-sm">Sometimes, when it judges it can answer the question or pick up the task.</td></tr><tr><td class="border-b p-sm">A group DM that includes Claude, top-level</td><td class="border-b p-sm">Sometimes, as in a channel.</td></tr></tbody></table>
 
-With Claude Tag enabled for your organization (section 4) and Routines enabled (section 1), four settings decide whether DMs work, and all four must allow it:
+With Claude Tag enabled for your organization (section 4) and Routines enabled (section 1), four settings decide whether one-to-one DMs work, and all four must allow it:
 
-<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">DMs work only if</th><th class="border-b border-strong p-sm text-left font-medium">Where that lives</th></tr></thead><tbody><tr><td class="border-b p-sm"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Allow direct messages</code> is on</td><td class="border-b p-sm">The Claude Tag page (section 4)</td></tr><tr><td class="border-b p-sm">The person has their own Claude account</td><td class="border-b p-sm">The identity model (section 4): a DM runs on their account</td></tr><tr><td class="border-b p-sm">The member-access restriction includes them</td><td class="border-b p-sm">The member-access toggle (section 4), which applies to DMs too</td></tr><tr><td class="border-b p-sm">Their home workspace is paired (Enterprise Grid only)</td><td class="border-b p-sm">Pairing, step 1 (section 3)</td></tr></tbody></table>
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">One-to-one DMs work only if</th><th class="border-b border-strong p-sm text-left font-medium">Where that lives</th></tr></thead><tbody><tr><td class="border-b p-sm"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Allow direct messages</code> is on</td><td class="border-b p-sm">The Claude Tag page (section 4)</td></tr><tr><td class="border-b p-sm">The person has connected a Claude account, or, in a workspace where Claude Tag is on, is a full workspace member (not a Slack guest) still within the limited time your organization pays for</td><td class="border-b p-sm">The identity model (section 4); the limited time is in section 6</td></tr><tr><td class="border-b p-sm">The member-access restriction includes them</td><td class="border-b p-sm">The member-access toggle (section 4), which applies to DMs too</td></tr><tr><td class="border-b p-sm">Their home workspace is paired (Enterprise Grid only)</td><td class="border-b p-sm">Pairing, step 1 (section 3)</td></tr></tbody></table>
+
+Group DMs follow the same `Allow direct messages` toggle and member-access restriction, and they stop wherever Claude Tag is switched off for the workspace; no setting covers group DMs alone. Claude Tag doesn't answer a group DM that includes someone from another company through Slack Connect, one in a workspace still set to Legacy, or, on Enterprise Grid, one whose members share no workspace. Outside Enterprise Grid, a group DM with a Slack guest in it follows the guest setting, so under the default, `Restrict`, Claude Tag posts its guest notice instead. See [group DMs(opens in new tab)](https://claude.com/docs/claude-tag/admins/restrict-access).
 
 ### Quieting a channel[](https://academy.claude.com/tutorials/claude-tag-admin-guide)
 
-The volume knob lives where the noise is heard. Anyone in the channel can turn it by telling Claude Tag there; a channel member in your Claude organization can also flip `Respond automatically` on the channel's `Configure` page (an Owner has the same switch under the channel scope's `Advanced` settings in Admin settings). Either way it applies to everyone's threads there.
+The volume knob lives where the noise is heard. Anyone in the channel can turn it by telling Claude Tag there; a channel member in your Claude organization can also flip `Respond automatically` on the channel's `Configure` page, and an Owner or a Claude Tag admin can switch it on the channel's page in Admin settings. Either way it applies to everyone's threads there.
 
 Quiet one noisy thread by saying so in that thread, and remove Claude Tag entirely with `/remove @Claude`. The exact prompts to paste are in [Control when Claude Tag responds(opens in new tab)](https://claude.com/docs/claude-tag/users/when-claude-responds).
 
@@ -685,7 +687,7 @@ Two behaviors surprise people before they read the docs: reacting 👎 to one of
 
 `Respond automatically` and the muting commands are guidance Claude Tag follows, and there is no organization-wide mention-only switch. If your security team wants an enforced boundary, use one of these:
 
-<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">Enforced control</th><th class="border-b border-strong p-sm text-left font-medium">What it stops</th></tr></thead><tbody><tr><td class="border-b p-sm">The spend limit</td><td class="border-b p-sm">New work in a channel once either limit is reached (section 6)</td></tr><tr><td class="border-b p-sm">The member-access toggle</td><td class="border-b p-sm">Who can use Claude Tag at all (section 4)</td></tr><tr><td class="border-b p-sm"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Enable Claude Tag for your organization</code>, turned off</td><td class="border-b p-sm">Everything, direct messages included</td></tr><tr><td class="border-b p-sm">A scope's enable switch (<code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Enable Claude Tag in this workspace</code> or <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Enable Claude Tag in this channel</code>), turned off</td><td class="border-b p-sm">That workspace or channel; a scope beneath it with its own On setting stays on until set back to <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Inherit</code> (section 4)</td></tr></tbody></table>
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">Enforced control</th><th class="border-b border-strong p-sm text-left font-medium">What it stops</th></tr></thead><tbody><tr><td class="border-b p-sm">The spend limit</td><td class="border-b p-sm">New work in a channel once either limit is reached (section 6)</td></tr><tr><td class="border-b p-sm">The member-access toggle</td><td class="border-b p-sm">Who can use Claude Tag at all (section 4)</td></tr><tr><td class="border-b p-sm">A connector your organization blocks under Admin settings › Connectors</td><td class="border-b p-sm">That connector, when a member's own connectors serve their request in a channel (section 4, For companies that handle PHI)</td></tr><tr><td class="border-b p-sm"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Enable Claude Tag in Slack</code>, at the top of the Claude Tag admin page (<code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Enable Claude Tag for your organization</code> on the earlier admin page), turned off</td><td class="border-b p-sm">Everything, direct messages included</td></tr><tr><td class="border-b p-sm">A scope's enable switch (<code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Enable Claude Tag in this workspace</code> or <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Enable Claude Tag in this channel</code>), turned off</td><td class="border-b p-sm">That workspace or channel; a scope beneath it with its own On setting stays on until set back to <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Inherit</code> (section 4)</td></tr></tbody></table>
 
 ### Channel members shape their own channel[](https://academy.claude.com/tutorials/claude-tag-admin-guide)
 
@@ -716,7 +718,9 @@ From any scope's menu, an Owner can open `View memory files` to read, edit, or d
 
 ## 6. Cost aligns with the work Claude Tag does[](https://academy.claude.com/tutorials/claude-tag-admin-guide)
 
-Channel work bills to your organization's usage balance, and a spend limit caps how much of that balance Claude Tag can draw each billing period. Direct messages are the one exception: a DM bills to that user's own seat, like the rest of their claude.ai usage.
+Channel work and group DM work bill to your organization's usage balance, and a spend limit caps how much of that balance Claude Tag can draw each billing period. One-to-one direct messages from someone who has connected a Claude account are the exception: they bill to that user's own seat, like the rest of their claude.ai usage.
+
+Someone in the workspace who hasn't connected a Claude account, other than a Slack guest, can DM Claude Tag one-to-one on your organization's balance for a limited time. That ends at whichever comes first: 7 days from their first such DM (or from starting the daily briefs Claude Tag offers them), $50 of usage (or your default limit for channels, if that's lower), or 50 sessions. After that, Claude Tag asks them to connect an account. The usage counts toward the organization-wide limit but doesn't show in the per-channel breakdown. Turning off `Allow direct messages`, turning on the member-access restriction, or switching Claude Tag off for the workspace stops these DMs; see [direct messages from members without a Claude account(opens in new tab)](https://claude.com/docs/claude-tag/admins/restrict-access).
 
 ### Where the limits live[](https://academy.claude.com/tutorials/claude-tag-admin-guide)
 
@@ -726,7 +730,7 @@ The money lives on the Usage page, not on the Claude Tag settings page, and that
 - The default limit for channels without their own
 - One row per channel with its spend against its own limit or the default; a channel whose limit you've set to none shows `No spend limit` and no usage bar, because only the organization-wide limit applies there
 
-Channel spend counts toward two limits at once, the organization-wide limit and each channel's own, and Claude Tag declines new work in a channel when either is reached.
+Channel spend counts toward two limits at once, the organization-wide limit and each channel's own, and Claude Tag declines new work in a channel when either is reached. Group DM work counts the same way, with your default limit for channels applying to each group DM.
 
 Limits are enforced at list price and reset each billing period; for the fine print (negotiated discounts apply on your invoice, and promotional-credit usage shows here as $0.00, so read the List price column on the Analytics page instead), see [Set a spend limit(opens in new tab)](https://claude.com/docs/claude-tag/admins/set-spend-limit).
 
@@ -734,17 +738,19 @@ Illustration: the Usage page for Claude Tag, showing the organization-wide spend
 
 claude.ai/admin-settings/usage/claude-tag
 
-Admin settings
-
-Organization
-
 Organization settings
+
+Organization and access
 
 Billing
 
 Usage
 
 Data and privacy
+
+Capabilities
+
+Git providers
 
 People
 
@@ -760,15 +766,13 @@ Claude Code
 
 Claude TagBeta
 
-Libraries & Access
+Plugins
+
+Plugins & skills
 
 Connectors
 
-Plugins
-
-Skills
-
-GitHub
+Directory
 
 Personal settings
 
@@ -870,7 +874,7 @@ Not organization-wide; the switch is per channel. **Turn off `Respond automatica
 
 ### Whose permissions does Claude Tag use?[](https://academy.claude.com/tutorials/claude-tag-admin-guide)
 
-Its own service accounts in channels; the asker's own claude.ai account in direct messages. Where Anthropic has enabled personal connectors in channels, the asker's own connectors can also serve their own request after they allow it, recorded under their name. Section 4 has the identity model.
+Its own service accounts in channels and group DMs. In one-to-one direct messages, the asker's own claude.ai account; someone who hasn't connected one gets Claude Tag's own accounts for a limited time (section 6). In a channel or group DM, the asker's own connectors can also serve their own request after they allow it, recorded under their name. Section 4 has the identity model.
 
 ### Can I block Claude Tag from a channel before someone invites it?[](https://academy.claude.com/tutorials/claude-tag-admin-guide)
 
@@ -882,7 +886,7 @@ Yes. An Owner can open a scope's memory files from the scope's menu, and can edi
 
 ### Can I cap spend per user, or bill back by user?[](https://academy.claude.com/tutorials/claude-tag-admin-guide)
 
-Caps, no: limits are per organization and per channel, and channel work bills to the organization balance. Bill-back, yes on Enterprise, through the Analytics API's cost report (section 6; the how is in [attributing costs to users(opens in new tab)](https://claude.com/docs/claude-tag/admins/attribute-costs)).
+Caps, no: limits are per organization and per channel, and channel and group DM work bill to the organization balance. (One-to-one DMs from people who haven't connected a Claude account have a built-in per-person limit; section 6.) Bill-back, yes on Enterprise, through the Analytics API's cost report (section 6; the how is in [attributing costs to users(opens in new tab)](https://claude.com/docs/claude-tag/admins/attribute-costs)).
 
 Not answered here? The full list of [controls that aren't available(opens in new tab)](https://claude.com/docs/claude-tag/admins/restrict-access) (third-party deployment, renaming the app, per-user caps, session-length enforcement, and more) is in the docs, alongside the [glossary(opens in new tab)](https://claude.com/docs/claude-tag/concepts/glossary).
 

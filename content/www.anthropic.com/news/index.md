@@ -4,15 +4,19 @@
 - Non-media inquiries[How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)
 - Media assets[Download press kit](https://anthropic.com/press-kit)
 
-![Introducing Claude Haiku 5.5](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa0a14bf0b6e0c82cdd1c3fad594dab33550cfc80-1920x1080.webp&w=3840&q=75)
+![Expanding the Cyber Verification Program](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa0a14bf0b6e0c82cdd1c3fad594dab33550cfc80-1920x1080.webp&w=3840&q=75)
 
-[## Introducing Claude Haiku 5.5
+[## Expanding the Cyber Verification Program
 
-AnnouncementsOct 7, 2026
+AnnouncementsOct 6, 2026
 
-Our fastest, cheapest, and most capable small model yet. It’s designed for high-volume, cost-sensitive work.](https://www.anthropic.com/claude-haiku-5-5)
+We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.](https://www.anthropic.com/news/cyber-verification-program)
 
-[AnnouncementsSep 28, 2026
+[AnnouncementsOct 7, 2026
+
+#### Introducing Claude Haiku 5.5
+
+Our fastest, cheapest, and most capable small model yet. It’s designed for high-volume, cost-sensitive work.](https://www.anthropic.com/claude-haiku-5-5)[AnnouncementsSep 28, 2026
 
 #### Introducing Claude Sonnet 5.5
 
@@ -20,11 +24,7 @@ A clear upgrade over Sonnet 5 that runs 30% faster and costs up to 30% less for 
 
 #### Introducing Claude Opus 5.5
 
-Opus 5.5 performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5.](https://www.anthropic.com/claude-opus-5-5)[AnnouncementsOct 6, 2026
-
-#### Expanding the Cyber Verification Program
-
-We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.](https://www.anthropic.com/news/cyber-verification-program)[FeaturesSep 22, 2026
+Opus 5.5 performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5.](https://www.anthropic.com/claude-opus-5-5)[FeaturesSep 22, 2026
 
 #### The Situation Report
 

@@ -2,7 +2,7 @@
 
 Test your ideas against opposing views through an interactive tool where you defend your position and get real-time pushback.
 
-15 minPersonalClaude.ai
+15 minPersonalClaude
 
 Try in ClaudeCopy prompt
 
@@ -32,9 +32,9 @@ Enable the right capabilities for Claude to build interactive tools.
 
 ### Required context[](https://academy.claude.com/use-cases/debate-practice-with-feedback)
 
-In Settings under [Capabilities(opens in new tab)](https://claude.ai/settings/capabilities), enable [AI-powered artifacts(opens in new tab)](https://www.anthropic.com/news/build-artifacts).
+The first time the artifact uses Claude, you see a request and choose whether to allow it.
 
-This lets Claude create interactive web applications that use Claude's reasoning—your debate simulator will generate counterarguments and evaluate your responses in real-time, all within the tool itself.
+Allowing it lets the artifact use Claude's reasoning—your debate simulator will generate counterarguments and evaluate your responses in real-time, all within the tool itself.
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/debate-practice-with-feedback)
 
@@ -107,11 +107,11 @@ Don't jump straight into the practice tool. Say: "Show me the research brief fir
 
 ### Customize the artifact's design[](https://academy.claude.com/use-cases/debate-practice-with-feedback)
 
-To add unique styling to your debate artifact, tell Claude about your favorite brands, design works, or aesthetic preferences—or paste in code snippets from designs you like. Browse the [artifact gallery(opens in new tab)](https://claude.ai/artifacts) to see what's possible and find inspiration. When you find an artifact you like, click on it and select "View full chat" to see the code used to build it. You can copy and paste this code into Claude and ask to adapt the style for your artifact
+To add unique styling to your debate artifact, tell Claude about your favorite brands, design works, or aesthetic preferences—or paste in code snippets from designs you like.
 
-### AI-powered artifacts[](https://academy.claude.com/use-cases/debate-practice-with-feedback)
+### Artifacts that use Claude[](https://academy.claude.com/use-cases/debate-practice-with-feedback)
 
-This debate simulator uses Claude within the tools in real-time, so the opposing arguments adapt to your specific position, generating intelligent counterarguments on demand—not pre-written responses. Learn more about [AI-powered artifacts(opens in new tab)](https://claude.ai/artifacts).
+This debate simulator uses Claude within the tools in real-time, so the opposing arguments adapt to your specific position, generating intelligent counterarguments on demand—not pre-written responses. Learn more about [artifacts that use Claude(opens in new tab)](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them).
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/debate-practice-with-feedback)
 

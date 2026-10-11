@@ -4,7 +4,7 @@ Lesson 13 of 14 · The AI-native SDLC playbookClosing the loop on metrics
 
 Lesson 139 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-native-sdlc-playbook%2Fclosing-the-loop-on-metrics)
 

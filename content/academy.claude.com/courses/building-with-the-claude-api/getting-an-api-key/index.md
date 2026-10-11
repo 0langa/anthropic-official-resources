@@ -4,7 +4,7 @@ Lesson 2 of 67 · Building with the Claude APIGetting an API key
 
 Lesson 21 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fgetting-an-api-key)
 
@@ -14,25 +14,25 @@ In the next video we will be making a request to the Anthropic API. To do so, yo
 
 In your browser, navigate to [https://platform.claude.com/(opens in new tab)](https://platform.claude.com/) and log in to your Anthropic account. You'll then see a page like this:
 
-![](https://academy.claude.com/assets/media/be41625a473644be23b9eeb1de0ab76f19aceb604fa88804bb6d7aab01716a68.png)
+![Anthropic Console dashboard with buttons "Create a prompt", "Generate a prompt" and "Get API Key".](https://academy.claude.com/assets/media/be41625a473644be23b9eeb1de0ab76f19aceb604fa88804bb6d7aab01716a68.png)
 
 ### Step Two: Click the 'Get API Keys' button[](https://academy.claude.com/courses/building-with-the-claude-api/getting-an-api-key)
 
 This button can be found towards the top right of the main dashboard page.
 
-![](https://academy.claude.com/assets/media/505fc14d064b929a775b8db52b90bf19fdb3e59592a738e3146466625a5398bf.png)
+![Anthropic Console dashboard with an arrow and outline marking the "Get API Key" button, the rightmost of three buttons.](https://academy.claude.com/assets/media/505fc14d064b929a775b8db52b90bf19fdb3e59592a738e3146466625a5398bf.png)
 
 ### Step Three: Click the 'Create Key' button[](https://academy.claude.com/courses/building-with-the-claude-api/getting-an-api-key)
 
 At the top right of the page, find the 'Create Key' button and click it.
 
-![](https://academy.claude.com/assets/media/61f3e2657dea6f2a1a28f1b34ccb15060f43252ee06d2a5a620b135914200a76.png)
+![Highlighted "Create Key" button at the right of a console panel headed "Create an API key" and its "client SDK" link.](https://academy.claude.com/assets/media/61f3e2657dea6f2a1a28f1b34ccb15060f43252ee06d2a5a620b135914200a76.png)
 
 ### Step Four: Enter a workspace and name for your key[](https://academy.claude.com/courses/building-with-the-claude-api/getting-an-api-key)
 
 Create the key in workspace 'Default' and enter a name for your key. This name is used to help you identify the keys you generate. Let's use a name of 'Anthropic Course'.
 
-![](https://academy.claude.com/assets/media/69df0e5c240cddc3d83c6709fe88376dae9fa2c905f6fdef859a1901d10df345.png)
+![Create API key dialog with workspace "Default" chosen, the name "Anthropic Course" typed in, and Cancel and Add buttons.](https://academy.claude.com/assets/media/69df0e5c240cddc3d83c6709fe88376dae9fa2c905f6fdef859a1901d10df345.png)
 
 ### Step Five: Copy the Key[](https://academy.claude.com/courses/building-with-the-claude-api/getting-an-api-key)
 

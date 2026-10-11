@@ -2,7 +2,7 @@
 
 Work through consulting cases with structured frameworks, guidance, and intelligent feedback
 
-15 minEducationClaude.ai
+15 minEducationClaude
 
 Try in ClaudeCopy prompt
 

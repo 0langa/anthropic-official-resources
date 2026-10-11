@@ -166,11 +166,11 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 
 `/journal-entry`Prepare journal entries with proper debits, credits, and supporting documentation for month-end close.
 
-[Run](claude://cowork/new?q=%2Fjournal-entry)
+[Open in Cowork](claude://cowork/new?q=%2Fjournal-entry)
 
 `/close-management`Manage the month-end close process with task sequencing, dependencies, and status tracking.
 
-[Run](claude://cowork/new?q=%2Fclose-management)
+[Open in Cowork](claude://cowork/new?q=%2Fclose-management)
 
 Show all 7 skills
 
@@ -204,7 +204,7 @@ Cross-check deal terms against what the opportunity record says was sold.
 
 [Connect](https://claude.ai/desktop/directory/salesforce-headless-360)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 
@@ -318,7 +318,7 @@ You did this for revenue recognition. The same approach covers lease abstraction
 
 [![](https://academy.claude.com/surfaces/excel-icon.svg)
 
-Claude in Excel
+Claude for Excel
 
 Review and adjust the intake sheet in place
 

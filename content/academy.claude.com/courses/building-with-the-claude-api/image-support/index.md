@@ -4,7 +4,7 @@ Lesson 40 of 67 · Building with the Claude APIImage support
 
 Lesson 4010 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fimage-support)
 
@@ -12,7 +12,7 @@ Claude's vision capabilities let you include images in your messages and ask Cla
 
 ## Image Handling Basics[](https://academy.claude.com/courses/building-with-the-claude-api/image-support)
 
-![](https://academy.claude.com/assets/media/98c768b5f76c2323de2b36964b308e2de4ad89ee155b489ac419e0aeab21b045.jpg)
+![Limits on images, such as 100 per request and 5MB each, beside code for an image block and text block, both below.](https://academy.claude.com/assets/media/98c768b5f76c2323de2b36964b308e2de4ad89ee155b489ac419e0aeab21b045.jpg)
 
 There are several important limitations to keep in mind when working with images:
 
@@ -51,13 +51,13 @@ add_user_message(messages, [
 
 ## Message Flow[](https://academy.claude.com/courses/building-with-the-claude-api/image-support)
 
-![](https://academy.claude.com/assets/media/2e3de7bc759472bad884263d83f216e3b4a429052afd5a01a1359acd4137788a.jpg)
+![Our server sends a user message with an image block of raw image data and a text block; Claude replies "I see a tall tree".](https://academy.claude.com/assets/media/2e3de7bc759472bad884263d83f216e3b4a429052afd5a01a1359acd4137788a.jpg)
 
 The conversation works just like text-only interactions. Your server sends a user message containing both image and text blocks to Claude, and Claude responds with a text block containing its analysis.
 
 ## Prompting Techniques[](https://academy.claude.com/courses/building-with-the-claude-api/image-support)
 
-![](https://academy.claude.com/assets/media/89054de9a3667eb929a019f59efb5db86e9f3a95713b6fa67925a98be65293ee.jpg)
+![A photo labeled "Image has 12 marbles" with a count question, and Claude's reply of 13 marbles marked wrong by a red X.](https://academy.claude.com/assets/media/89054de9a3667eb929a019f59efb5db86e9f3a95713b6fa67925a98be65293ee.jpg)
 
 The key to getting good results with images is applying the same prompting engineering techniques you'd use with text. Simple prompts often lead to poor results. For example, asking "How many marbles are in this image?" might return an incorrect count.
 
@@ -69,7 +69,7 @@ You can dramatically improve Claude's accuracy by:
 
 ### Step-by-Step Analysis[](https://academy.claude.com/courses/building-with-the-claude-api/image-support)
 
-![](https://academy.claude.com/assets/media/6cec588debfe41c1968153ee66e3a161fa086e614f9ef28ba0cfb5176e2cff58.jpg)
+![With the marbles photo and methodology prompt below, Claude replies "I count 12 marbles in this image", with a green check.](https://academy.claude.com/assets/media/6cec588debfe41c1968153ee66e3a161fa086e614f9ef28ba0cfb5176e2cff58.jpg)
 
 Instead of a simple question, provide Claude with a methodology:
 
@@ -85,13 +85,13 @@ What is the exact, verified number of marbles in this image?
 
 ### One-Shot Examples[](https://academy.claude.com/courses/building-with-the-claude-api/image-support)
 
-![](https://academy.claude.com/assets/media/0dd5c0bdeb2a02989bf35771a4fabb86e4c6cc8acc45ba3e74d887f1e9825931.jpg)
+![Prompt says a marble photo has 11 marbles, then asks about a second photo; Claude answers 12, with a green check.](https://academy.claude.com/assets/media/0dd5c0bdeb2a02989bf35771a4fabb86e4c6cc8acc45ba3e74d887f1e9825931.jpg)
 
 You can also improve accuracy by providing examples within your message. Include an image with a known count, state the correct answer, then ask about your target image. This gives Claude a reference point for the type of analysis you want.
 
 ## Real-World Example: Fire Risk Assessment[](https://academy.claude.com/courses/building-with-the-claude-api/image-support)
 
-![](https://academy.claude.com/assets/media/cee23b7082e886a69fbe447eb40637e2c9d1bb60fafbd7b04756588c3439f043.jpg)
+![Satellite photo of a house ringed by dense tree canopy, with arrows marking the three fire risks listed below.](https://academy.claude.com/assets/media/cee23b7082e886a69fbe447eb40637e2c9d1bb60fafbd7b04756588c3439f043.jpg)
 
 Here's a practical application: automating fire risk assessments for home insurance. Instead of sending inspectors to every property, insurance companies can use satellite imagery and Claude's analysis.
 

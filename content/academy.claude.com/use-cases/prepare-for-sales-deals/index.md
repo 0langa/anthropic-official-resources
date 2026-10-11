@@ -2,7 +2,7 @@
 
 Pull relevant CRM data, like details on comparable opportunities, to prepare for upcoming sales conversations.
 
-15 minSalesClaude.ai
+15 minSalesClaude
 
 Try in ClaudeCopy prompt
 
@@ -46,7 +46,7 @@ HubSpot
 
 [Connect](https://claude.ai/directory/hubspot)
 
-Browse all connectors[Open in Claude](https://claude.ai/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/customize/connectors)
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/prepare-for-sales-deals)
 

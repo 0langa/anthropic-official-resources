@@ -4,7 +4,7 @@ Lesson 4 of 4 · AI Fluency for pK-12 Train the TrainerLearner workbook
 
 Lesson 415 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-pk-12-train-the-trainer%2Flearner-workbook)
 

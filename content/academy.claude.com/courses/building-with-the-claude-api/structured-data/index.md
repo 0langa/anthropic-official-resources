@@ -4,7 +4,7 @@ Lesson 8 of 67 · Building with the Claude APIStructured data
 
 Lesson 815 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fstructured-data)
 
@@ -12,7 +12,7 @@ When you need Claude to generate structured data like JSON, Python code, or bull
 
 Consider building a web app that generates AWS EventBridge rules. Users enter a description, click generate, and expect to see clean JSON they can immediately copy and use. If Claude returns the JSON wrapped in markdown code blocks with explanatory text, users can't simply copy the entire response - they have to manually select just the JSON portion.
 
-![](https://academy.claude.com/assets/media/f9a2ebeaa89109fd4f9b690a4a4e7587e8268c582c2ce1945205a184cbc49220.png)
+![EventBridge Rule Generator app: input "Rule to monitor EC2 instances", a Generate button, and clean JSON with a copy button.](https://academy.claude.com/assets/media/f9a2ebeaa89109fd4f9b690a4a4e7587e8268c582c2ce1945205a184cbc49220.png)
 
 ## The Problem with Default Responses[](https://academy.claude.com/courses/building-with-the-claude-api/structured-data)
 
@@ -58,7 +58,7 @@ This technique works by:
 3. Claude continues by writing just the JSON content
 4. When Claude tries to close the code block with ```` ``` ````, the stop sequence immediately ends generation
 
-![](https://academy.claude.com/assets/media/d46178d7619b14e8d9d2d2f417e6a49c407f09791f929e4e6e58d21e82375c2a.png)
+![A stop sequence and a prefilled assistant message that opens a json block make Claude write only the JSON, not a description.](https://academy.claude.com/assets/media/d46178d7619b14e8d9d2d2f417e6a49c407f09791f929e4e6e58d21e82375c2a.png)
 
 The result is clean JSON with no extra formatting:
 

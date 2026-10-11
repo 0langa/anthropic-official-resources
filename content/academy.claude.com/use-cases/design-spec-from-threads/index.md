@@ -334,11 +334,11 @@ DesignAccelerate design workflows — critique, design system management, UX wri
 
 `/design-handoff`Generate developer handoff specs from a design.
 
-[Run](claude://cowork/new?q=%2Fdesign-handoff)
+[Open in Cowork](claude://cowork/new?q=%2Fdesign-handoff)
 
 `/research-synthesis`Synthesize user research into themes, insights, and recommendations.
 
-[Run](claude://cowork/new?q=%2Fresearch-synthesis)
+[Open in Cowork](claude://cowork/new?q=%2Fresearch-synthesis)
 
 Show all 7 skills
 
@@ -372,7 +372,7 @@ Reference the exploration frames and pull the screenshot annotations into the sp
 
 [Connect](https://claude.ai/desktop/directory/figma)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 
@@ -446,11 +446,11 @@ Make what we've done in this task so far into a skill, or edit the /design-hando
 
 ## Make it repeatable[](https://academy.claude.com/use-cases/design-spec-from-threads)
 
-### Make it a live artifact[](https://academy.claude.com/use-cases/design-spec-from-threads)
+### Share it as an artifact[](https://academy.claude.com/use-cases/design-spec-from-threads)
 
-A spec is out of date the moment someone replies in the channel. Ask Cowork to publish it as a live artifact and the cross-functional team has one link that stays current — re-run the skill or schedule it to refresh.
+A spec is out of date the moment someone replies in the channel. Ask Cowork to publish it as an artifact and the cross-functional team has one link — re-run the skill or schedule it to refresh.
 
-Publish that spec as a live artifact for the squad. Keep a "decisions changed since last version" section at the top.
+Publish that spec as an artifact for the squad. Keep a "decisions changed since last version" section at the top.
 
 
 

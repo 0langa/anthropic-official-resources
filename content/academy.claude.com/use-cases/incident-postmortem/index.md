@@ -290,11 +290,11 @@ EngineeringStreamline engineering workflows — standups, code review, architect
 
 `/incident-response`Run an incident response workflow — triage, communicate, and write postmortem.
 
-[Run](claude://cowork/new?q=%2Fincident-response)
+[Open in Cowork](claude://cowork/new?q=%2Fincident-response)
 
 `/standup`Generate a standup update from recent activity.
 
-[Run](claude://cowork/new?q=%2Fstandup)
+[Open in Cowork](claude://cowork/new?q=%2Fstandup)
 
 Show all 10 skills
 
@@ -328,7 +328,7 @@ Attach the error-rate and latency graphs for the impact window.
 
 [Connect](https://claude.ai/desktop/directory/datadog)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 

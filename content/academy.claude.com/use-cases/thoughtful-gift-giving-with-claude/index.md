@@ -2,7 +2,7 @@
 
 Turn last-minute gift panic into thoughtful, personalized presents. Claude can suggest items, search your notes for forgotten hints, find specific products you can buy locally, and help you coordinate the actual shopping.
 
-15 minPersonalClaude.ai
+15 minPersonalClaude
 
 Try in ClaudeCopy prompt
 

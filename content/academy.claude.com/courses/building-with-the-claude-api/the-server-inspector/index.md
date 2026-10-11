@@ -4,7 +4,7 @@ Lesson 51 of 67 · Building with the Claude APIThe server inspector
 
 Lesson 514 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fthe-server-inspector)
 
@@ -22,7 +22,7 @@ mcp dev mcp_server.py
 
 This starts a development server on port 6277 and gives you a local URL to open in your browser. The inspector interface will load, showing the MCP Inspector dashboard.
 
-![](https://academy.claude.com/assets/media/d5c53f9c21554c0e600c169c110b95a83b0a13d9859957eca93b5eff2ad2cb37.jpg)
+![MCP Inspector dashboard before connecting: transport type STDIO, command uv, a "Connect" button and status "Disconnected".](https://academy.claude.com/assets/media/d5c53f9c21554c0e600c169c110b95a83b0a13d9859957eca93b5eff2ad2cb37.jpg)
 
 ## Important Note About the Interface[](https://academy.claude.com/courses/building-with-the-claude-api/the-server-inspector)
 
@@ -32,7 +32,7 @@ The MCP inspector is actively being developed, so the interface you see might lo
 
 Click the "Connect" button on the left side to start your MCP server. Once connected, you'll see a navigation bar with sections for Resources, Prompts, Tools, and other features.
 
-![](https://academy.claude.com/assets/media/2bd396b5d7555ecf2b9b0717b004d5839ec0f1b48da39cfed4db5b6774fa0d77.jpg)
+![MCP inspector after connecting, showing Connected status and tabs Resources, Prompts, Tools, Ping, Sampling and Roots.](https://academy.claude.com/assets/media/2bd396b5d7555ecf2b9b0717b004d5839ec0f1b48da39cfed4db5b6774fa0d77.jpg)
 
 To test your tools:
 
@@ -42,13 +42,13 @@ To test your tools:
 - Fill in the required parameters
 - Click "Run Tool" to execute and see results
 
-![](https://academy.claude.com/assets/media/48c68f10cf289038f2174feb95524d83e867c2473cbe1b4858dd36a108978b64.jpg)
+![MCP Inspector Tools tab listing the tools read_doc_contents and edit_document, each with a short description.](https://academy.claude.com/assets/media/48c68f10cf289038f2174feb95524d83e867c2473cbe1b4858dd36a108978b64.jpg)
 
 ## Testing Document Operations[](https://academy.claude.com/courses/building-with-the-claude-api/the-server-inspector)
 
 For example, to test a document reading tool, you'd enter a document ID (like "deposition.md") and run the tool. The inspector shows the result, including any returned content or success messages.
 
-![](https://academy.claude.com/assets/media/a0a63118f39b5f6feffdbd45ea60891c378b7bd7b969718684b89c983c538d14.jpg)
+![MCP Inspector result for read_doc_contents on "deposition.md": "Success" and text starting "A report deposition covers".](https://academy.claude.com/assets/media/a0a63118f39b5f6feffdbd45ea60891c378b7bd7b969718684b89c983c538d14.jpg)
 
 You can chain operations to verify functionality. For instance, after editing a document by replacing text, you can immediately run the read tool again to confirm the changes were applied correctly.
 

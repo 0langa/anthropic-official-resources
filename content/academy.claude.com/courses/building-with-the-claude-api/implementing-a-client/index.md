@@ -4,7 +4,7 @@ Lesson 52 of 67 · Building with the Claude APIImplementing a client
 
 Lesson 5210 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fimplementing-a-client)
 
@@ -14,14 +14,14 @@ Now that we have our MCP server working, it's time to build the client side. The
 
 In most real-world projects, you'll either implement an MCP client OR an MCP server - not both. We're building both in this project just so you can see how they work together.
 
-![](https://academy.claude.com/assets/media/2cfccb3be6530d6842b3c60ca0fd32b40354127209fe9b3c31e74c20d37bde9d.jpg)
+![Our server contains the MCP client, which communicates both ways with a separate MCP server.](https://academy.claude.com/assets/media/2cfccb3be6530d6842b3c60ca0fd32b40354127209fe9b3c31e74c20d37bde9d.jpg)
 
 The MCP client consists of two main components:
 
 - **MCP Client** - A custom class we create to make using the session easier
 - **Client Session** - The actual connection to the server (part of the MCP Python SDK)
 
-![](https://academy.claude.com/assets/media/4b895d6d4b84708c60bdd4386f0f512a708d4ce366ed3b0e5109068eadd0e9a7.jpg)
+![In mcp_client.py, the MCP Client connects to the Client Session, which connects to the separate MCP server.](https://academy.claude.com/assets/media/4b895d6d4b84708c60bdd4386f0f512a708d4ce366ed3b0e5109068eadd0e9a7.jpg)
 
 The client session requires proper resource cleanup when we're done with it. That's why we wrap it in our custom MCP Client class - to handle all that cleanup automatically.
 
@@ -29,7 +29,7 @@ The client session requires proper resource cleanup when we're done with it. Tha
 
 Remember our application flow? Our CLI code needs to do two main things with the MCP server:
 
-![](https://academy.claude.com/assets/media/158467ac1d84668529172b9a9d600856aa36efc1b44160b8ef6423c9bb6c639b.jpg)
+![Sequence diagram of the two steps below: the MCP client sends ListToolsRequest then CallToolRequest and gets each result.](https://academy.claude.com/assets/media/158467ac1d84668529172b9a9d600856aa36efc1b44160b8ef6423c9bb6c639b.jpg)
 
 1. Get a list of available tools to send to Claude
 2. Execute tools when Claude requests them

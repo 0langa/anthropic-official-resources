@@ -1,30 +1,12 @@
-![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
-
 # Build responsive web layouts
 
 Generate responsive designs that work across all devices, without the trial and error.
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  Claude apps
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  October 10, 2025
-- Reading time
-
-  6
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/build-responsive-web-layouts)
-
-  https://claude.com/blog/build-responsive-web-layouts
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude apps, Claude Code
+- DateOctober 10, 2025
+- Reading time11 min
+- ShareCopy link
 
 Responsive layouts often behave unpredictably across viewport sizes. A three-column card grid that displays perfectly on desktop can become illegible on tablets, with text overflowing containers and navigation elements colliding. These layout failures typically surface during late-stage testing or, worse, in production.
 
@@ -37,6 +19,8 @@ Most responsive design workflows rely on manual media query authoring, extensive
 ### **Write media queries manually**
 
 You typically start with base styles, then add breakpoints at common device widths: 768px for tablets, 1024px for desktop, maybe 1440px for large screens. CSS media queries override properties at each breakpoint to adjust layouts, typography, and spacing.
+
+Copy
 
 ```
 1.container {
@@ -72,6 +56,8 @@ Device testing catches many real-world rendering issues, but the process is time
 
 Modern CSS frameworks like Bootstrap and Tailwind provide responsive class systems that abstract away media query logic. Developers add classes like col-md-6 or lg:flex-row that automatically apply styles at predefined breakpoints.
 
+Copy
+
 ```
 1<div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
 2  <div class="card">...</div>
@@ -98,8 +84,8 @@ This debugging process is iterative and can be tedious. Each fix requires re-tes
 
 You can integrate AI into your responsive design workflow for immediate layout generation and systematic refactoring. Claude works in two ways depending on your needs:
 
-- ‍[**Claude.ai**](http://claude.ai/)**:** Browser-based interface where you paste layout requirements and receive complete responsive HTML/CSS with proper viewport configuration and media queries. Accessible from any browser, no installation required. Good for learning responsive patterns and generating boilerplate.[**‍**](https://claude.com/product/claude-code)
-- [**Claude Code**](https://claude.com/product/claude-code)**:** Command-line tool that analyzes existing stylesheets across your codebase, identifies viewport-specific issues, and implements fixes directly in your files. Requires npm installation and API access. Built for refactoring responsive layouts in large codebases.
+- ‍**[Claude.ai](http://claude.ai/):** Browser-based interface where you paste layout requirements and receive complete responsive HTML/CSS with proper viewport configuration and media queries. Accessible from any browser, no installation required. Good for learning responsive patterns and generating boilerplate.[**‍**](https://claude.com/product/claude-code)
+- **[Claude Code](https://claude.com/product/claude-code):** Command-line tool that analyzes existing stylesheets across your codebase, identifies viewport-specific issues, and implements fixes directly in your files. Requires npm installation and API access. Built for refactoring responsive layouts in large codebases.
 
 ### **Start with Claude.ai**
 
@@ -120,6 +106,8 @@ These requests provide working examples that demonstrate responsive techniques y
 **Example request:** "Create a product landing page with fixed header, hero section, three feature cards, and footer. Cards should display in a row on desktop and stack on mobile."
 
 Claude.ai returns semantic HTML5 with responsive CSS that handles multiple viewport sizes. The generated code includes comments explaining breakpoint choices and layout decisions:
+
+Copy
 
 ```
 1<head>
@@ -176,11 +164,15 @@ When responsive issues span multiple stylesheets or affect an entire application
 
 **Installation:**
 
+Copy
+
 ```
 npm install -g @anthropic-ai/claude-code
 ```
 
 **Launch in your project:**
+
+Copy
 
 ```
 claude
@@ -194,31 +186,33 @@ Consider a product dashboard that breaks on tablet viewports. Navigation overlap
 
 Claude Code scans layout.css to identify fixed-width styles and layout patterns that cause overflow on smaller screens, finding 3 specific issues with line numbers and recommendations.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e9916bd14e952c94b20fc3_9.png)
+![](https://assets.claude.com/c1b9c017f8898ce9ad8743e3fa658269a7e2cfc6.png)
 
 #### **Implement targeted fixes**
 
 It then updates the CSS by replacing fixed widths with responsive alternatives (max-width, flex basis, grid-template-columns with auto-fit), adding media queries for breakpoint-specific adjustments.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e99333b9e2f7f78d4fcaf4_10.png)
+![](https://assets.claude.com/950fedbe350b19dd925c23980a344f659be2de8b.png)
 
 #### **Verify the fixes work**
 
 The code then tests the updated styles at viewport sizes 320px and 512px to confirm there's no horizontal overflow and the layout responds correctly at each breakpoint.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e993488eb39e32bd3735ed_11.png)
+![](https://assets.claude.com/cd88263af62d3189da842d22b9b2647efd5e661f.png)
 
 #### **Test across viewport ranges**
 
 Finally, Claude Code generates a comprehensive Playwright test suite that validates responsive behavior across real device sizes (iPhone SE, iPhone 12, iPad, iPad Pro, Desktop) to prevent future regressions.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e9948ce3a73be65bc92b00_12.png)
+![](https://assets.claude.com/b521e90923da15f5f1cb3ccf591e2855b4e025d1.png)
 
 ## ‍**Get started**
 
 **Quick prototyping:** Visit [**Claude.ai**](https://claude.ai/) to generate responsive layouts and learn design patterns without any setup. Describe your layout requirements—like a three-column card grid that stacks on mobile—and receive complete HTML and CSS with proper viewport configuration and media queries. It's ideal for understanding responsive techniques and creating boilerplate code you can adapt to your projects.
 
 **Codebase refactoring:** When responsive issues span multiple stylesheets or affect your entire application, install [**Claude Code**](https://claude.com/product/claude-code) to systematically analyze and fix layout problems across your project:
+
+Copy
 
 ```
 npm install -g @anthropic-ai/claude-code
@@ -228,112 +222,66 @@ Once installed, describe the layout issues you're facing and Claude Code scans y
 
 Stop guessing at breakpoints and testing layouts manually across dozens of devices. Whether you're learning responsive patterns or refactoring an existing codebase, Claude helps you build layouts that work predictably across every viewport.
 
-No items found.
+## FAQ
 
-[Prev](https://claude.com/blog/build-responsive-web-layouts)Prev
+Should I use CSS Grid or Flexbox for responsive card layouts?
 
-0/5
+CSS Grid works better for two-dimensional layouts where you need precise control over both rows and columns. Use Grid when cards need to align in both directions or when you want items to automatically fill available space with auto-fit and minmax(). Flexbox excels at one-dimensional layouts where cards should wrap naturally based on available width. For most card grids, Grid with grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) provides the most flexible responsive behavior without media queries. Claude can analyze your specific layout requirements and recommend which approach fits your design constraints.
 
-[Next](https://claude.com/blog/build-responsive-web-layouts)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-### Should I use CSS Grid or Flexbox for responsive card layouts?
-
-CSS Grid works better for two-dimensional layouts where you need precise control over both rows and columns. Use Grid when cards need to align in both directions or when you want items to automatically fill available space with auto-fit and minmax(). Flexbox excels at one-dimensional layouts where cards should wrap naturally based on available width. For most card grids, Grid with `grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))` provides the most flexible responsive behavior without media queries. Claude can analyze your specific layout requirements and recommend which approach fits your design constraints.
-
-### What causes layouts to break at specific viewport widths?
+What causes layouts to break at specific viewport widths?
 
 Layout breakpoints occur when fixed-width elements, inflexible grid configurations, or rigid container constraints can't adapt to narrower screens. Common culprits include containers with fixed pixel widths instead of max-width values, CSS Grid configurations using repeat() with fixed pixel columns, and absolute positioning that assumes specific viewport dimensions. [Claude Code](https://claude.com/product/claude-code) can analyze your stylesheets to identify these patterns and suggest fluid alternatives like max-width with percentage-based constraints or auto-fit Grid columns with minmax() functions.
 
-### What's the fastest way to fix responsive navigation that breaks on tablets?
+What's the fastest way to fix responsive navigation that breaks on tablets?
 
 Start by identifying the exact viewport width where navigation breaks using browser responsive mode. Common issues include navigation items wrapping unexpectedly, insufficient space for menu text, or dropdown menus extending beyond viewport boundaries. Ask [Claude](https://claude.com/product/claude-code) to analyze your navigation structure and it can suggest approaches like converting to hamburger menu with breakpoint, adjusting padding and font sizes to prevent wrapping, or restructuring navigation hierarchy to reduce horizontal space requirements. The solution depends on whether your navigation has too many items, items that are too wide, or container constraints that don't flex properly.
 
-### How can I improve responsive designs?
+How can I improve responsive designs?
 
 Start by auditing your breakpoints to ensure they align with your content needs rather than generic device widths. Many responsive layouts use standard breakpoints (768px, 1024px) but actually need adjustments at different widths where specific content wraps or overflows. For existing codebases with multiple stylesheets, Claude Code can systematically audit your responsive patterns and identify improvements. Ask it to "find rigid layouts and suggest flexible alternatives" and it examines grid configurations, fixed-width containers, and inflexible flexbox patterns across your project.
 
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+[ArticleOct 8, 2026
 
-Aug 21, 2026
+### Building effective agent automations
 
-### The AI-native SDLC playbook
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
 
-Enterprise AI
+Claude Platform
 
-[The AI-native SDLC playbook](https://claude.com/blog/build-responsive-web-layouts)The AI-native SDLC playbook
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 7, 2026
 
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+### Automating eval design and hillclimbing with Claude
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-Sep 24, 2026
+Claude Platform
 
-### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
+
+### Claude Code in the cloud: a field guide to cloud sessions
+
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
 
 Claude Code
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/build-responsive-web-layouts)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
 
-Sep 23, 2026
-
-### How to prepare for AI-driven code modernization projects
-
-Enterprise AI
-
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/build-responsive-web-layouts) How to prepare for AI-driven code modernization projects
-
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/build-responsive-web-layouts)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/build-responsive-web-layouts)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

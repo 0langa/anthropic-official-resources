@@ -1,4 +1,4 @@
-# Claude for personal
+# Claude for personal use
 
 Make Claude part of how you think, learn, and get things done, starting from your very first conversation.
 

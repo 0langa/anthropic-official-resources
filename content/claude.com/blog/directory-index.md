@@ -1,854 +1,137 @@
-Filter and sort
-
-Sort by
-
-Newest
-
-Alphabetically (A to Z)
-
-Alphabetically (Z to A)
-
-Category
-
-Agents
-
-Claude Code
-
-Enterprise AI
-
-Product announcements
-
-Product
-
-Claude for Small Business
-
-Claude Science
-
-Claude Tag
-
-Claude Design
-
-Claude Security
-
-Claude Cowork
-
-Claude Enterprise
-
-Claude apps
-
-Claude Platform
-
-Claude Code
-
-Use case
-
-Agents
-
-Business
-
-Coding
-
-Content Creation
-
-Design
-
-Education
-
-Financial services
-
-Government
-
-Health care and life sciences
-
-Learning
-
-Legal
-
-Productivity
-
-Sales
-
-Startups
-
-Work
-
-- Reset
-
-  [Reset](https://claude.com/blog/)Reset
-- Apply
-
-  [Apply](https://claude.com/blog/)Apply
-
-Thank you! Your submission has been received!
-
-Oops! Something went wrong while submitting the form.
-
-# Blog
-
-Product news and best practices for teams building with Claude.
-
-Try Claude
-
-[Try Claude](https://claude.ai/)Try Claude
-
-All
-
-1
-
-[## Agents](https://claude.com/blog-category/agents)
-
-[## Claude Code](https://claude.com/blog-category/claude-code)
-
-[## Enterprise AI](https://claude.com/blog-category/enterprise-ai)
-
-[## Product announcements](https://claude.com/blog-category/announcements)
-
-## Claude Cowork and chat are now one Claude
-
-September 16, 2026
-
-[Read more](https://claude.com/blog/cowork-is-now-claude)Read more
-
-## Claude for Small Business launches new workflows, integrations, and training programs
-
-September 15, 2026
-
-[Read more](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Read more
-
-## Claude in Chrome is generally available
-
-August 26, 2026
-
-[Read more](https://claude.com/blog/claude-in-chrome-generally-available)Read more
-
-## Claude gets its own browser in Cowork
-
-August 26, 2026
-
-[Read more](https://claude.com/blog/cowork-built-in-browser)Read more
-
-## Claude Code now supports artifacts
-
-June 18, 2026
-
-[Read more](https://claude.com/blog/artifacts-in-claude-code)Read more
-
-## Building intelligent apps for Apple platforms with Claude in the Foundation Models framework
-
-June 8, 2026
-
-[Read more](https://claude.com/blog/claude-for-foundation-models)Read more
-
-## New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels
-
-May 19, 2026
-
-[Read more](https://claude.com/blog/claude-managed-agents-updates)Read more
-
-## New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration
-
-May 19, 2026
-
-[Read more](https://claude.com/blog/new-in-claude-managed-agents)Read more
-
-## New connectors in Claude for everyday life
-
-April 23, 2026
-
-[Read more](https://claude.com/blog/connectors-for-everyday-life)Read more
-
-## Built-in memory for Claude Managed Agents
-
-April 23, 2026
-
-[Read more](https://claude.com/blog/claude-managed-agents-memory)Read more
-
-## Claude Cowork and chat are now one Claude
-
-September 16, 2026
-
-[Read more](https://claude.com/blog/cowork-is-now-claude)Read more
-
-## Claude for Small Business launches new workflows, integrations, and training programs
-
-September 15, 2026
-
-[Read more](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs)Read more
-
-## Claude in Chrome is generally available
-
-August 26, 2026
-
-[Read more](https://claude.com/blog/claude-in-chrome-generally-available)Read more
-
-## Claude gets its own browser in Cowork
-
-August 26, 2026
-
-[Read more](https://claude.com/blog/cowork-built-in-browser)Read more
-
-## Claude Code now supports artifacts
-
-June 18, 2026
-
-[Read more](https://claude.com/blog/artifacts-in-claude-code)Read more
-
-## Building intelligent apps for Apple platforms with Claude in the Foundation Models framework
-
-June 8, 2026
-
-[Read more](https://claude.com/blog/claude-for-foundation-models)Read more
-
-## New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels
-
-May 19, 2026
-
-[Read more](https://claude.com/blog/claude-managed-agents-updates)Read more
-
-## New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration
-
-May 19, 2026
-
-[Read more](https://claude.com/blog/new-in-claude-managed-agents)Read more
-
-## New connectors in Claude for everyday life
-
-April 23, 2026
-
-[Read more](https://claude.com/blog/connectors-for-everyday-life)Read more
-
-## Built-in memory for Claude Managed Agents
-
-April 23, 2026
-
-[Read more](https://claude.com/blog/claude-managed-agents-memory)Read more
-
-Filter and sort
-
-Sort by
-
-Sort byNewestAlphabetically (A to Z)Alphabetically (Z to A)
-
-Category
-
-Agents
-
-Claude Code
-
-Enterprise AI
-
-Product announcements
-
-Product
-
-Claude for Small Business
-
-Claude Science
-
-Claude Tag
-
-Claude Design
-
-Claude Security
-
-Claude Cowork
-
-Claude Enterprise
-
-Claude apps
-
-Claude Platform
-
-Claude Code
-
-Use case
-
-Agents
-
-Business
-
-Coding
-
-Content Creation
-
-Design
-
-Education
-
-Financial services
-
-Government
-
-Health care and life sciences
-
-Learning
-
-Legal
-
-Productivity
-
-Sales
-
-Startups
-
-Work
-
-Thank you! Your submission has been received!
-
-Oops! Something went wrong while submitting the form.
-
-Search
-
-Thank you! Your submission has been received!
-
-Oops! Something went wrong while submitting the form.
-
-Grid
-
-List
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2298840b2f6f9a40dc5_9a2bdeafe0f8f92dcc062ba47cc0a1014c4ecbc0-1000x1000.svg)
-
-Oct 5, 2026
-
-How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
-
-How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
-
-October 5, 2026
-
-[How Cresta turned CX expertise into an agent builder on the Claude Agent SDK](https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
-
-[How Cresta turned CX expertise into an agent builder on the Claude Agent SDK](https://claude.com/blog/)How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Oct 1, 2026
-
-Customize Claude Code with mods
-
-Product announcements
-
-Customize Claude Code with mods
-
-October 1, 2026
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/)Customize Claude Code with mods
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
-
-Sep 30, 2026
-
-Claude for Government is now generally available
-
-Product announcements
-
-Claude for Government is now generally available
-
-September 30, 2026
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/)Claude for Government is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-Sep 30, 2026
-
-How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-Enterprise AI
-
-How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-September 30, 2026
-
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 29, 2026
-
-Agents you can coach: how Asana builds human-agent teams with Claude
-
-Agents
-
-Agents you can coach: how Asana builds human-agent teams with Claude
-
-September 29, 2026
-
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
-
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/)Agents you can coach: how Asana builds human-agent teams with Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 28, 2026
-
-Giving companies more control over their AI agents, with NVIDIA
-
-Agents
-
-Giving companies more control over their AI agents, with NVIDIA
-
-September 28, 2026
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/)Giving companies more control over their AI agents, with NVIDIA
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-Sep 25, 2026
-
-Build plugins for Claude
-
-Product announcements
-
-Build plugins for Claude
-
-September 25, 2026
-
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
-
-[Build plugins for Claude](https://claude.com/blog/)Build plugins for Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22deea97e4a5b5e5739_8d339ae8ecedecc1409db8f5bbb99c958db56946-1000x1000.svg)
-
-Sep 24, 2026
-
-Claude Tag now supports personal connectors in channels
-
-Product announcements
-
-Claude Tag now supports personal connectors in channels
-
-September 24, 2026
-
-[Claude Tag now supports personal connectors in channels](https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels)Claude Tag now supports personal connectors in channels
-
-[Claude Tag now supports personal connectors in channels](https://claude.com/blog/)Claude Tag now supports personal connectors in channels
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
-
-Sep 24, 2026
-
-Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
-
-Claude Code
-
-Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
-
-September 24, 2026
-
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
-
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
-
-Sep 23, 2026
-
-How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
-
-Enterprise AI
-
-How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
-
-September 23, 2026
-
-[How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace](https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
-
-[How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace](https://claude.com/blog/)How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
-
-Sep 23, 2026
-
-How to prepare for AI-driven code modernization projects
-
-Enterprise AI
-
-How to prepare for AI-driven code modernization projects
-
-September 23, 2026
-
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
-
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/) How to prepare for AI-driven code modernization projects
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
-
-Sep 23, 2026
-
-Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Product announcements
-
-Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-September 23, 2026
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
-
-Sep 17, 2026
-
-Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
-
-Enterprise AI
-
-Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
-
-September 17, 2026
-
-[Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5](https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
-
-[Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5](https://claude.com/blog/)Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 17, 2026
-
-Projects redesigned: from folder to conversation
-
-Product announcements
-
-Projects redesigned: from folder to conversation
-
-September 17, 2026
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/)Projects redesigned: from folder to conversation
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aaaa060d1aec4a549c537ef_Object-Easel.svg)
-
-Sep 16, 2026
-
-Claude Cowork and chat are now one Claude
-
-Product announcements
-
-Claude Cowork and chat are now one Claude
-
-September 16, 2026
-
-[Claude Cowork and chat are now one Claude](https://claude.com/blog/cowork-is-now-claude)Claude Cowork and chat are now one Claude
-
-[Claude Cowork and chat are now one Claude](https://claude.com/blog/)Claude Cowork and chat are now one Claude
-
-[View more](https://claude.com/?b7eea976_page=2)
-
-1 / 17
-
-Category
-
-Product
-
-Usecase
-
-### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
-
-Category
-
-Product
-
-Usecase
-
-October 5, 2026
-
-[How Cresta turned CX expertise into an agent builder on the Claude Agent SDK](https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
-
-[How Cresta turned CX expertise into an agent builder on the Claude Agent SDK](https://claude.com/blog/)How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
-
-### Customize Claude Code with mods
-
-Category
-
-Product announcements
-
-Product
-
-Usecase
-
-October 1, 2026
-
-[Customize Claude Code with mods](https://claude.com/blog/claude-code-mods)Customize Claude Code with mods
-
-[Customize Claude Code with mods](https://claude.com/blog/)Customize Claude Code with mods
-
-### Claude for Government is now generally available
-
-Category
-
-Product announcements
-
-Product
-
-Usecase
-
-September 30, 2026
-
-[Claude for Government is now generally available](https://claude.com/blog/claude-for-government-is-now-generally-available)Claude for Government is now generally available
-
-[Claude for Government is now generally available](https://claude.com/blog/)Claude for Government is now generally available
-
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-Category
-
-Enterprise AI
-
-Product
-
-Usecase
-
-September 30, 2026
-
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-[How Anthropic's sales team rebuilt inbound with Claude Managed Agents](https://claude.com/blog/)How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-### Agents you can coach: how Asana builds human-agent teams with Claude
-
-Category
-
-Agents
-
-Product
-
-Usecase
-
-September 29, 2026
-
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
-
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/)Agents you can coach: how Asana builds human-agent teams with Claude
-
-### Giving companies more control over their AI agents, with NVIDIA
-
-Category
-
-Agents
-
-Product
-
-Usecase
-
-September 28, 2026
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/)Giving companies more control over their AI agents, with NVIDIA
-
-### Build plugins for Claude
-
-Category
-
-Product announcements
-
-Product
-
-Usecase
-
-September 25, 2026
-
-[Build plugins for Claude](https://claude.com/blog/build-plugins-for-claude)Build plugins for Claude
-
-[Build plugins for Claude](https://claude.com/blog/)Build plugins for Claude
-
-### Claude Tag now supports personal connectors in channels
-
-Category
-
-Product announcements
-
-Product
-
-Usecase
-
-September 24, 2026
-
-[Claude Tag now supports personal connectors in channels](https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels)Claude Tag now supports personal connectors in channels
-
-[Claude Tag now supports personal connectors in channels](https://claude.com/blog/)Claude Tag now supports personal connectors in channels
-
-### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
-
-Category
-
-Claude Code
-
-Product
-
-Usecase
-
-September 24, 2026
-
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
-
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
-
-### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
-
-Category
-
-Enterprise AI
-
-Product
-
-Usecase
-
-September 23, 2026
-
-[How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace](https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
-
-[How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace](https://claude.com/blog/)How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
-
-### How to prepare for AI-driven code modernization projects
-
-Category
-
-Enterprise AI
-
-Product
-
-Usecase
-
-September 23, 2026
-
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
-
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/) How to prepare for AI-driven code modernization projects
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Category
-
-Product announcements
-
-Product
-
-Usecase
-
-September 23, 2026
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/claude-marketplace)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-[Claude Marketplace: one place to discover plugins, agents, and services from our partners](https://claude.com/blog/)Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-### Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
-
-Category
-
-Enterprise AI
-
-Product
-
-Usecase
-
-September 17, 2026
-
-[Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5](https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5)Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
-
-[Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5](https://claude.com/blog/)Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5
-
-### Projects redesigned: from folder to conversation
-
-Category
-
-Product announcements
-
-Product
-
-Usecase
-
-September 17, 2026
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/)Projects redesigned: from folder to conversation
-
-### Claude Cowork and chat are now one Claude
-
-Category
-
-Product announcements
-
-Product
-
-Usecase
-
-September 16, 2026
-
-[Claude Cowork and chat are now one Claude](https://claude.com/blog/cowork-is-now-claude)Claude Cowork and chat are now one Claude
-
-[Claude Cowork and chat are now one Claude](https://claude.com/blog/)Claude Cowork and chat are now one Claude
-
-[View more](https://claude.com/?d7430fcd_page=2)
-
-1 / 17
-
-No posts for those filters
-
-Try another search or clear some of your filters.
-
-Clear all filters
-
-[Clear all filters](https://claude.com/blog/)Clear all filters
-
-eBook
-
-Webinar
-
-Link
-
-## The AI-Native SDLC playbook
-
-How to transform your software development lifecycle with AI—stage by stage.
-
-Read more
-
-[Read more](https://claude.com/blog/the-ai-native-sdlc-playbook)Read more
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a887fb7499f6c70801d5e42_illo-light.svg)![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a887fc0af0379f689797a01_illo-dark.svg)
-
-Embedded media:
-
-Search
-
-Thank you! Your submission has been received!
-
-Oops! Something went wrong while submitting the form.
-
-## Transform how your organization operates with Claude
-
-See pricing
-
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+## The developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/)Subscribe
+Unsubscribe at any time.
 
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+# Articles
 
-Thank you! You’re subscribed.
+News, announcements, and stories from Anthropic about Claude and the people building with it.
 
-Sorry, there was a problem with your submission, please try again later.
+[ArticleOct 8, 2026
+
+### Build live dashboards and animate explainers with Claude
+
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
+
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
+
+[ArticleOct 8, 2026
+
+### Building effective agent automations
+
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
+
+[ArticleOct 8, 2026
+
+### How Block orchestrates Claude Fable across thousands of pull requests
+
+Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
+
+Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)
+
+[ArticleOct 7, 2026
+
+### Claude Haiku 5.5
+
+Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
+
+(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)
+
+[ArticleOct 7, 2026
+
+### Automating eval design and hillclimbing with Claude
+
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
+
+[ArticleOct 8, 2026
+
+### Build live dashboards and animate explainers with Claude
+
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
+
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
+
+Featured resource 1 of 5: Build live dashboards and animate explainers with Claude
+
+Advanced filters
+
+Showing 11 of 280 resources
+
+[ArticleOct 8, 2026
+
+### Building effective agent automations
+
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 8, 2026
+
+### How Block orchestrates Claude Fable across thousands of pull requests
+
+Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
+
+Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)[ArticleOct 8, 2026
+
+### Build live dashboards and animate explainers with Claude
+
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
+
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 7, 2026
+
+### Claude Haiku 5.5
+
+Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
+
+(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)[ArticleOct 7, 2026
+
+### Automating eval design and hillclimbing with Claude
+
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
+
+### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
+
+Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)[ArticleOct 6, 2026
+
+### Claude now works with Google Docs, Sheets, and Slides
+
+Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta).
+
+Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)[ArticleOct 6, 2026
+
+### We’re expanding the Claude Startups program to help founders build](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)[ArticleOct 6, 2026
+
+### Expanding the Cyber Verification Program
+
+We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.
+
+(opens in new tab)](https://www.anthropic.com/news/cyber-verification-program)[ArticleOct 6, 2026
+
+### Claude Code in the cloud: a field guide to cloud sessions
+
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
+
+### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
+
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
+
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)
+
+View more

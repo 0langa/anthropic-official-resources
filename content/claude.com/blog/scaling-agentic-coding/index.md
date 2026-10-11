@@ -1,62 +1,22 @@
-Introducing Claude Code
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d2d09b203c164ad8e6_og-claude-education.jpg)
-
-See Claude Code in action—from concept to commit in one seamless workflow.
-
-Read more
-
-[Read more](https://claude.com/product/claude-code)Read more
-
-Introducing Claude Code
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b862e6ee6520aee5bc0741_vid-placeholder.avif)
-
-[Next](https://claude.com/blog/scaling-agentic-coding)Next
-
-See Claude Code in action—from concept to commit in one seamless workflow.
-
-Read more
-
-[Read more](https://claude.com/product/claude-code)Read more
-
-Introducing Claude Code
-
-See Claude Code in action—from concept to commit in one seamless workflow.
-
-Read more
-
-[Read more](https://claude.com/product/claude-code)Read more
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
-
 # How to scale agentic coding across your engineering organization
 
 As Agentic coding tools mature, technical leaders are wrestling with a practical challenge: moving beyond isolated experiments to organization-wide adoption.
 
-Try Claude Code
+[Try Claude Code](https://claude.com/products/claude-code)
 
-[Try Claude Code](https://claude.com/products/claude-code)Try Claude Code
+- Category[Best practices](https://claude.com/resources/best-practices), [Perspectives](https://claude.com/resources/perspectives)
+- ProductClaude Code
+- DateOctober 15, 2025
+- Reading time11 min
+- ShareCopy link
 
-- Category
+Introducing Claude Code
 
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
+![Introducing Claude Code](https://assets.claude.com/56575a2d86ba511e0095b0cb9a92cafe7079c820.jpg?w=2400&q=75&fm=webp&fit=max)
 
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
+See Claude Code in action—from concept to commit in one seamless workflow.
 
-  October 15, 2025
-- Reading time
-
-  6
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/scaling-agentic-coding)
-
-  https://claude.com/blog/scaling-agentic-coding
+[Read more](https://claude.com/product/claude-code)
 
 The difference between successful and struggling implementations often comes down to execution. Teams that deploy agentic coding thoughtfully see meaningful improvements in development velocity and engineer satisfaction. Those that rush deployment without proper planning encounter resistance, inconsistent results, and difficulty demonstrating value.
 
@@ -70,7 +30,7 @@ Agentic coding tools differ from basic code completion by understanding broader 
 
 Common applications include:
 
-**Legacy system modernization**: Development teams use these tools to help migrate [older codebases to current platforms](https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization). Projects that might have taken years can move faster, though they still require careful oversight and testing to preserve business logic correctly.
+**Legacy system modernization**: Development teams use these tools to help migrate [older codebases to current platforms](https://claude.com/resources/articles/how-ai-helps-break-cost-barrier-cobol-modernization). Projects that might have taken years can move faster, though they still require careful oversight and testing to preserve business logic correctly.
 
 **Faster onboarding**: New engineers can query codebases directly to understand architecture, dependencies, and implementation patterns. This complements traditional documentation and reduces the time before new hires contribute meaningfully.
 
@@ -138,7 +98,7 @@ Beyond lines of code written—which captures activity but not necessarily value
 
 **Task completion time**: Measure how long standard tasks take before and after implementation. This granular view shows where agentic coding provides the most value.
 
-**Migration velocity**: Track time required to [modernize legacy systems](https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization). Faster migrations free engineering resources for other priorities.
+**Migration velocity**: Track time required to [modernize legacy systems](https://claude.com/resources/articles/how-ai-helps-break-cost-barrier-cobol-modernization). Faster migrations free engineering resources for other priorities.
 
 **Developer satisfaction**: Survey engineers about time spent on repetitive versus creative work. Job satisfaction matters for retention and productivity.
 
@@ -180,24 +140,6 @@ Specify expected versus actual behavior clearly: "Expected: API returns 200 stat
 
 Include relevant file contents—the specific code, configuration, or data related to your issue.
 
-No items found.
-
-[Prev](https://claude.com/blog/scaling-agentic-coding)Prev
-
-0/5
-
-[Next](https://claude.com/blog/scaling-agentic-coding)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
 ### Develop effective prompting habits
 
 Communicating clearly with AI tools takes practice. Many developers expect immediate mind-reading and get frustrated when results miss the mark.
@@ -226,100 +168,62 @@ Start with a focused pilot group. Develop internal expertise. Build the infrastr
 
 The path from pilot to production requires patience and systematic planning. Organizations that invest in this foundation tend to see meaningful returns: faster development, higher engineer satisfaction, and capacity to tackle previously difficult projects.
 
-FAQ
+## FAQ
 
-### How do I use Claude Code?
+How do I use Claude Code?
 
 To start using Claude Code, you need to set up an API key and follow the documentation provided. This will guide you through the process of making requests and handling responses effectively.
 
-### What is Claude?
+What is Claude?
 
 Claude offers a range of features including natural language understanding, context awareness, and the ability to generate coherent and contextually relevant text. It can be used for various applications such as chatbots, content creation, and more.
 
-### How long can agentic coding tools work autonomously?
+How long can agentic coding tools work autonomously?
 
 Agentic coding tools like Claude Code can work for extended periods maintaining context and building on previous work. Rakuten's seven-hour autonomous refactoring session demonstrates sustained technical work without human intervention. The duration depends on your task complexity and project requirements.
 
-### Do I need to change my development workflow to use agentic coding?
+Do I need to change my development workflow to use agentic coding?
 
 [Claude Code](https://claude.com/product/claude-code) integrates with your existing development workflows through terminal integration. You can incorporate it into your current practices gradually, starting with specific tasks like testing or documentation before expanding to complete feature development.
 
-Scale agentic coding across your engineering organization today.
-
-Try Claude
-
-[Try Claude](https://claude.ai/)Try Claude
-
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+[ArticleOct 8, 2026
 
-Aug 21, 2026
+### Building effective agent automations
 
-### The AI-native SDLC playbook
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
 
-Enterprise AI
+Claude Platform
 
-[The AI-native SDLC playbook](https://claude.com/blog/scaling-agentic-coding)The AI-native SDLC playbook
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 8, 2026
 
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+### How Block orchestrates Claude Fable across thousands of pull requests
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
+Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
 
-Sep 24, 2026
+Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)[ArticleOct 7, 2026
 
-### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Automating eval design and hillclimbing with Claude
 
-Claude Code
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/scaling-agentic-coding)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+Claude Platform
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
 
-Sep 23, 2026
-
-### How to prepare for AI-driven code modernization projects
-
-Enterprise AI
-
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/scaling-agentic-coding) How to prepare for AI-driven code modernization projects
-
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/scaling-agentic-coding)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/scaling-agentic-coding)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

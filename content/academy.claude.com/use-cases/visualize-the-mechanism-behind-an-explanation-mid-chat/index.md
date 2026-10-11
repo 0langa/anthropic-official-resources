@@ -2,7 +2,7 @@
 
 Claude builds an interactive visual inline as you talk through the problem — shaped to the specific question you're asking, with controls you manipulate and buttons that drill deeper. Useful when a concept has moving parts text can't show.
 
-15 minEducationClaude.ai
+15 minEducationClaude
 
 Try in ClaudeCopy prompt
 

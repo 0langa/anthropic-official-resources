@@ -2,7 +2,7 @@
 
 Turn your saved design inspirations into a personalized cost-effective renovation plan with a balanced investment strategy.
 
-15 minPersonalClaude.ai
+15 minPersonalClaude
 
 Try in ClaudeCopy prompt
 

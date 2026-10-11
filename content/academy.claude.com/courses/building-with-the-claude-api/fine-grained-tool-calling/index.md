@@ -4,7 +4,7 @@ Lesson 29 of 67 · Building with the Claude APIFine grained tool calling
 
 Lesson 2915 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Ffine-grained-tool-calling)
 
@@ -14,7 +14,7 @@ When you combine tool use with streaming in Claude, you get real-time updates as
 
 With streaming enabled, Claude sends back different types of events as it processes your request. You're already familiar with events like `ContentBlockDelta` for regular text generation. For tool use, you'll also need to handle a new event type called `InputJsonEvent`.
 
-![](https://academy.claude.com/assets/media/a523a8aa5daccab15086057e7075c642ace65562eaa27d20b70eaefe984e6c5d.png)
+![Claude's streaming events in order, MessageStart to MessageStop, with the ContentBlockDelta events holding the text.](https://academy.claude.com/assets/media/a523a8aa5daccab15086057e7075c642ace65562eaa27d20b70eaefe984e6c5d.png)
 
 Each `InputJsonEvent` contains two key properties:
 
@@ -34,13 +34,13 @@ for chunk in stream:
         current_args = chunk.snapshot
 ```
 
-![](https://academy.claude.com/assets/media/9d672ffb05b98edeaa68f0fc2602f422e34cb20c57d12b85da784e0bab5fe2ba.png)
+![With streaming turned on, three InputJsonEvent replies whose partial_json chunks build the snapshot title "Vector Storage".](https://academy.claude.com/assets/media/9d672ffb05b98edeaa68f0fc2602f422e34cb20c57d12b85da784e0bab5fe2ba.png)
 
 ## How JSON Validation Works[](https://academy.claude.com/courses/building-with-the-claude-api/fine-grained-tool-calling)
 
 Here's where things get interesting. The Anthropic API doesn't immediately send you every chunk as Claude generates it. Instead, it buffers chunks and validates them first.
 
-![](https://academy.claude.com/assets/media/52f7af62354ad269806604388aa6c2e6e2c92b95ed9001030c6c809859add244.png)
+![Our server sends save_article_schema and a user message; the Anthropic API shows chunks "abstract", "This paper" and "pre".](https://academy.claude.com/assets/media/52f7af62354ad269806604388aa6c2e6e2c92b95ed9001030c6c809859add244.png)
 
 The API waits for complete top-level key-value pairs before sending anything. For example, if your tool expects this structure:
 
@@ -63,17 +63,17 @@ The API will:
 3. Send all the buffered chunks for `abstract` at once
 4. Repeat the process for the `meta` object
 
-![](https://academy.claude.com/assets/media/a60c092a4b7a3a3a10ba6d85763bf57830a6e072447c8c603dc82fbd0ed9827a.png)
+![Four buffered chunks join into one "abstract" key and value, which the Anthropic API checks against save_article_schema.](https://academy.claude.com/assets/media/a60c092a4b7a3a3a10ba6d85763bf57830a6e072447c8c603dc82fbd0ed9827a.png)
 
 This validation process explains why you see delays followed by bursts of text, even with streaming enabled. The chunks are being held back until a complete, valid top-level key-value pair is ready.
 
-![](https://academy.claude.com/assets/media/1a9a0fe5d50b398470a49ab69ceb09704550d9d506564747395eaeea81b84798.png)
+![The API buffers four chunks until the top level "abstract" key-value pair is valid, then sends all four to our server.](https://academy.claude.com/assets/media/1a9a0fe5d50b398470a49ab69ceb09704550d9d506564747395eaeea81b84798.png)
 
 ## Fine-Grained Tool Calling[](https://academy.claude.com/courses/building-with-the-claude-api/fine-grained-tool-calling)
 
 If you need faster, more granular streaming - perhaps to show users immediate updates or start processing partial results quickly - you can enable fine-grained tool calling.
 
-![](https://academy.claude.com/assets/media/ac9598d42c5f584a7312adf523b8dc95f8e43bf37c58603b5205601021e1a0f3.png)
+![Diagram of the Anthropic API sending groups of partial JSON chunks to the server, each group ending mid value, not at a key.](https://academy.claude.com/assets/media/ac9598d42c5f584a7312adf523b8dc95f8e43bf37c58603b5205601021e1a0f3.png)
 
 Fine-grained tool calling does one main thing: it disables JSON validation on the API side. This means:
 

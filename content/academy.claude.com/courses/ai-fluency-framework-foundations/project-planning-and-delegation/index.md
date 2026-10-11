@@ -8,7 +8,7 @@ In this lessonBy the end, you’ll be able to
 
 - Apply your understanding of Delegation to a practical multi-step project you'll work on throughout the rest of this course
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-framework-foundations%2Fproject-planning-and-delegation)
 

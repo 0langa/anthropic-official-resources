@@ -194,11 +194,11 @@ Engineering9 skills for postmortems, design docs, on-call handoffs, and cost rev
 
 `/debug`Find over-trend cloud spend and trace each spike to a cause
 
-[Run](claude://cowork/new?q=%2Fdebug)
+[Open in Cowork](claude://cowork/new?q=%2Fdebug)
 
 `/documentation`Write up the cost finding as a runbook entry the team can act on
 
-[Run](claude://cowork/new?q=%2Fdocumentation)
+[Open in Cowork](claude://cowork/new?q=%2Fdocumentation)
 
 Show all 10 skills
 
@@ -232,7 +232,7 @@ Check what merged into the owning service around the date the spend changed.
 
 [Connect](https://claude.ai/desktop/directory/github)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 
@@ -294,7 +294,7 @@ Compare this month's AWS costs to the trailing three-month average by service an
 
 [![](https://academy.claude.com/surfaces/excel-icon.svg)
 
-Claude in Excel
+Claude for Excel
 
 Compare savings against the budget
 

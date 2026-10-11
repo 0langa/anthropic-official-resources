@@ -45,7 +45,7 @@ Slack
 
 [Connect](https://claude.ai/desktop/directory/slack)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/handle-a-request-while-away-from-your-keyboard)
 

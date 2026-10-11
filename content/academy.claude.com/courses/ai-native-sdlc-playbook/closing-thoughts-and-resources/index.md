@@ -4,7 +4,7 @@ Lesson 14 of 14 · The AI-native SDLC playbookClosing thoughts and resources
 
 Lesson 142 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-native-sdlc-playbook%2Fclosing-thoughts-and-resources)
 

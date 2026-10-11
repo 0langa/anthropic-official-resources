@@ -4,7 +4,7 @@ Lesson 42 of 67 · Building with the Claude APICitations
 
 Lesson 427 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fcitations)
 
@@ -14,7 +14,7 @@ When Claude answers questions based on documents you provide, users might assume
 
 Imagine asking Claude about how Earth's atmosphere formed and getting a detailed answer. Without citations, users have no way to verify the information or understand that Claude is actually referencing a specific document you provided. Citations solve this transparency problem by creating a clear trail from Claude's response back to your source material.
 
-![](https://academy.claude.com/assets/media/acd587075d92213562edeea50e9dccc8a5ed4c4c8474f5e669bec3dc54e9702f.jpg)
+![The source document earth.pdf, page 1 of 4, showing the Wikipedia article on Earth, open over the notebook code.](https://academy.claude.com/assets/media/acd587075d92213562edeea50e9dccc8a5ed4c4c8474f5e669bec3dc54e9702f.jpg)
 
 ## Enabling Citations[](https://academy.claude.com/courses/building-with-the-claude-api/citations)
 
@@ -41,7 +41,7 @@ The `title` field gives your document a readable name, while `citations: {"enabl
 
 When citations are enabled, Claude's response becomes more complex. Instead of simple text, you get structured data that includes citation information for each claim.
 
-![](https://academy.claude.com/assets/media/8c3469eb501a1d2cdb2b07d59d3b83ed42c47b3636f0c413942887a57a502a9c.jpg)
+![Example citation values: a cited_text sentence about Earth's atmosphere, document_index 0, title earth.pdf, pages 4 to 5.](https://academy.claude.com/assets/media/8c3469eb501a1d2cdb2b07d59d3b83ed42c47b3636f0c413942887a57a502a9c.jpg)
 
 Each citation contains several key pieces of information:
 
@@ -51,13 +51,13 @@ Each citation contains several key pieces of information:
 - **start\_page\_number** - Where the cited text begins
 - **end\_page\_number** - Where the cited text ends
 
-![](https://academy.claude.com/assets/media/2b7dd19d40b53383e053c90045559770e559173fb4550acdcd0f8bd388eb60f8.jpg)
+![Example values for the citation fields above: a sentence about volcanic activity, document index 0, earth.pdf, pages 4 to 5.](https://academy.claude.com/assets/media/2b7dd19d40b53383e053c90045559770e559173fb4550acdcd0f8bd388eb60f8.jpg)
 
 ## Building User Interfaces with Citations[](https://academy.claude.com/courses/building-with-the-claude-api/citations)
 
 The real power of citations comes from building user interfaces that make this information accessible. You can create interactive elements where users can hover over citation markers to see exactly where information came from.
 
-![](https://academy.claude.com/assets/media/cf4ccf4c29402413b993b325a33c33bb63cafab2e27be3148430f9e37eee9613.jpg)
+![A page of text on how Earth's atmosphere and oceans formed, with blue citation markers numbered 1 to 7 after claims.](https://academy.claude.com/assets/media/cf4ccf4c29402413b993b325a33c33bb63cafab2e27be3148430f9e37eee9613.jpg)
 
 This creates a transparent experience where users can:
 

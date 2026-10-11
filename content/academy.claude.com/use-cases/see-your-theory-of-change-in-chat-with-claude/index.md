@@ -2,7 +2,7 @@
 
 Describe your program and Claude draws the causal chain inline, inputs through impact, with every arrow clickable to show the assumption behind it. For when you know what you do but have never drawn why it works.
 
-15 minClaude.ai
+15 minClaude
 
 Try in ClaudeCopy prompt
 

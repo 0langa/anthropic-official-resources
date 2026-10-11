@@ -250,11 +250,11 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 
 `/financial-statements`Generate financial statements (income statement, balance sheet, cash flow) with period-over-period comparison and variance analysis.
 
-[Run](claude://cowork/new?q=%2Ffinancial-statements)
+[Open in Cowork](claude://cowork/new?q=%2Ffinancial-statements)
 
 `/variance-analysis`Decompose financial variances into drivers with narrative explanations and waterfall analysis.
 
-[Run](claude://cowork/new?q=%2Fvariance-analysis)
+[Open in Cowork](claude://cowork/new?q=%2Fvariance-analysis)
 
 Show all 7 skills
 
@@ -288,7 +288,7 @@ Pull the actuals straight from the GL when there's no workbook yet.
 
 [Connect](https://claude.ai/desktop/directory/netsuite)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 
@@ -388,7 +388,9 @@ Your customized skill now carries your three-slide structure, your materiality l
 
 Share the skill
 
-In Cowork, open **Skills** → your saved skill → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your instructions baked in, they don't repeat Steps 1-3.
+In Cowork, open **Skills** → your saved skill → **Share** and pick your teammates or a group. They get the skill with your instructions baked in, they don't repeat Steps 1-3.
+
+Sharing with teammates requires a Team or Enterprise plan, where it's on by default, except in HIPAA-ready organizations, where it starts off. Sharing with a group is Enterprise only, and an organization Owner turns it on.
 
 ## What changes for board prep[](https://academy.claude.com/use-cases/variance-exec-slides)
 
@@ -400,13 +402,13 @@ You did this for one variance period. The same approach covers the cash bridge, 
 
 [![](https://academy.claude.com/surfaces/powerpoint-icon.svg)
 
-Claude in PowerPoint
+Claude for PowerPoint
 
 Polish the three pages in place
 
 Install](https://claude.com/claude-for-powerpoint)[![](https://academy.claude.com/surfaces/excel-icon.svg)
 
-Claude in Excel
+Claude for Excel
 
 Edit the underlying workbook
 

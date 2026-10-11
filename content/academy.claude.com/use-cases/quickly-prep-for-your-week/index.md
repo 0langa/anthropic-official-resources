@@ -2,7 +2,7 @@
 
 Prepare and prioritize for your upcoming week through connecting your calendar and mail platforms.
 
-15 minClaude.ai
+15 minClaude
 
 Try in ClaudeCopy prompt
 
@@ -44,7 +44,7 @@ Microsoft 365
 
 [Connect](https://claude.ai/directory/microsoft-365)
 
-Browse all connectors[Open in Claude](https://claude.ai/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/customize/connectors)
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/quickly-prep-for-your-week)
 

@@ -82,7 +82,7 @@ Finance
 
 How can I help you today?
 
-**/**journal-entry Reconcile March intercompany across both subledgers. Normalize FX to USD at the month-end rate, fuzzy-match by amount and reference, sort differences into timing, rounding and true breaks. Draft a JE per true break with Dr/Cr, memo and support reference.
+**/**journal-entry Reconcile March intercompany across both subledgers. Normalize FX to USD at the month-end rate, fuzzy-match by amount and reference, sort differences into timing, rounding and true breaks. Draft a JE per true break with Dr/Cr, memo and support reference, and write the recon workbook to this folder.
 
 Reading subledger-US-mar.xlsx0s
 
@@ -204,11 +204,11 @@ Every difference is sorted into your categories.
 
 Each draft entry balances and waits for you to post it.
 
-Schedule it, and Claude runs the match again whenever new ledger exports arrive in the folder.
+Schedule it, and Claude checks the folder every Monday and matches any new ledger exports.
 
 Your two ledgers agree, and you review each entry before it posts.
 
-Reconcile March intercompany across both subledgers. Normalize FX to USD at the month-end rate, fuzzy-match by amount and reference, sort differences into timing, rounding and true breaks. Draft a JE per true break with Dr/Cr, memo and support reference.
+Reconcile March intercompany across both subledgers. Normalize FX to USD at the month-end rate, fuzzy-match by amount and reference, sort differences into timing, rounding and true breaks. Draft a JE per true break with Dr/Cr, memo and support reference, and write the recon workbook to this folder.
 
 Below what amount is a difference just rounding? Under $25 is rounding, no entry / One clean-up entry for all
 
@@ -232,11 +232,11 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 
 `/journal-entry`Prepare journal entries with proper debits, credits, and supporting documentation for month-end close.
 
-[Run](claude://cowork/new?q=%2Fjournal-entry)
+[Open in Cowork](claude://cowork/new?q=%2Fjournal-entry)
 
 `/variance-analysis`Decompose financial variances into drivers with narrative explanations and waterfall analysis.
 
-[Run](claude://cowork/new?q=%2Fvariance-analysis)
+[Open in Cowork](claude://cowork/new?q=%2Fvariance-analysis)
 
 Show all 7 skills
 
@@ -270,7 +270,7 @@ Read the FX rate sheet and prior-period recon from the shared close folder.
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 
@@ -384,7 +384,7 @@ You did this for intercompany. The same approach covers bank reconciliations, ac
 
 [![](https://academy.claude.com/surfaces/excel-icon.svg)
 
-Claude in Excel
+Claude for Excel
 
 Review the breaks and reconcile in the workbook
 

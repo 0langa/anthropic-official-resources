@@ -132,7 +132,7 @@ Load test finally ran: rate limiter holds at 5×, p99 41 ms. Too late to cut ing
 
 Message #team-platform
 
-**/**standup Read the just-closed Linear cycle and two weeks of #team-platform and #oncall-platform. Write the sprint retro: shipped, slipped with reasons, themes worth discussing. Write a separate on-call handoff: open alerts, toil, what to watch. Keep each to a 30-minute meeting.
+**/**standup Read the just-closed Linear cycle and two weeks of #team-platform and #oncall-platform. Write the sprint retro: shipped, slipped with reasons, themes worth discussing. Write a separate on-call handoff: open alerts, toil, what to watch. Keep each short enough to cover in a 30-minute meeting. Draft the handoff post to #oncall-platform for me to approve.
 
 Reading the Sprint 08 cycle0s
 
@@ -164,7 +164,7 @@ Staging environment instability, 3 slips
 
 Staging instability and review wait time.
 
-Used 5 sources49s
+Used 5 sources47s
 
 I read Sprint 08’s 21 issues and two weeks of #team-platform and #oncall-platform: 16 closed, and each slipped issue has its reason from the channel. Your two themes are written up as questions for Monday; Lena’s handoff is separate, and the #oncall-platform post is drafted for you to approve.
 
@@ -285,11 +285,11 @@ Every slipped item comes with its reason and where it was said.
 
 The next on-call gets what to watch, once you approve it.
 
-You approve the post first, and can schedule both drafts for when each cycle closes.
+You approve the post first, and can schedule Claude to check each week for a closed cycle and draft both.
 
 The retro and the handoff are written from what actually happened this sprint.
 
-Read the just-closed Linear cycle and two weeks of #team-platform and #oncall-platform. Write the sprint retro: shipped, slipped with reasons, themes worth discussing. Write a separate on-call handoff: open alerts, toil, what to watch. Keep each to a 30-minute meeting.
+Read the just-closed Linear cycle and two weeks of #team-platform and #oncall-platform. Write the sprint retro: shipped, slipped with reasons, themes worth discussing. Write a separate on-call handoff: open alerts, toil, what to watch. Keep each short enough to cover in a 30-minute meeting. Draft the handoff post to #oncall-platform for me to approve.
 
 Which of these should the retro meeting discuss? Staging environment instability, 3 slips / Review wait time, 3-day waits / Mid-cycle scope, 3 late adds / Alert noise, already tuned
 
@@ -315,11 +315,11 @@ Engineering9 skills for postmortems, design docs, on-call handoffs, and cost rev
 
 `/tech-debt`Draft the sprint retro from the closed cycle and team channel
 
-[Run](claude://cowork/new?q=%2Ftech-debt)
+[Open in Cowork](claude://cowork/new?q=%2Ftech-debt)
 
 `/standup`Write the on-call handoff from the week's alerts and pages
 
-[Run](claude://cowork/new?q=%2Fstandup)
+[Open in Cowork](claude://cowork/new?q=%2Fstandup)
 
 Show all 10 skills
 
@@ -353,7 +353,7 @@ List every page in the rotation so toil is counted, not estimated.
 
 [Connect](https://claude.ai/desktop/directory/pagerduty)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 

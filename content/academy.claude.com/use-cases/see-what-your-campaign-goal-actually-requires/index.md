@@ -2,7 +2,7 @@
 
 Type a campaign goal and Claude draws the gift pyramid inline, tiered from the lead gift down, with each tier showing how many gifts you need and how many qualified prospects that realistically takes. Drag the goal and the whole shape rebuilds. For when you're wondering whether a campaign is feasible before you say yes to it.
 
-15 minClaude.ai
+15 minClaude
 
 Try in ClaudeCopy prompt
 

@@ -4,7 +4,7 @@ Lesson 3 of 4 · AI Fluency for pK-12 Train the TrainerDeck and facilitator guid
 
 Lesson 330 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-pk-12-train-the-trainer%2Fdeck-and-facilitator-guide)
 

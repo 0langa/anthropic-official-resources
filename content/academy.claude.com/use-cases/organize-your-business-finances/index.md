@@ -2,7 +2,7 @@
 
 Create spreadsheets that bring clarity to your finances. Spot trends, filter what matters, and understand what your numbers are telling you.
 
-15 minFinanceClaude.ai
+15 minFinanceClaude
 
 Try in ClaudeCopy prompt
 

@@ -2,7 +2,7 @@
 
 Pull status updates from your emails, Slack channels, meeting notes, and project tools to create a tracker that shows who's working on what, what's blocked, and where things stand—all in one place.
 
-15 minClaude.ai
+15 minClaude
 
 Try in ClaudeCopy prompt
 
@@ -62,7 +62,7 @@ Gmail
 
 [Connect](https://claude.ai/directory/gmail-gmailmcp)
 
-Browse all connectors[Open in Claude](https://claude.ai/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/customize/connectors)
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/generate-project-status-reports)
 

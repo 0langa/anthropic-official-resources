@@ -4,7 +4,7 @@ Lesson 54 of 67 · Building with the Claude APIAccessing resources
 
 Lesson 5410 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Faccessing-resources)
 
@@ -14,7 +14,7 @@ Resources in MCP allow your server to expose data that can be directly included 
 
 When you've defined resources on your MCP server, your client needs a way to request and use them. The client acts as a bridge between your application and the MCP server, handling the communication and data parsing automatically.
 
-![](https://academy.claude.com/assets/media/4507294b3bff7a349e92761aa2022bc45f4386d2464159f7025ad4cb14bf9357.jpg)
+![The MCP client sends a ReadResourceRequest for docs://documents and the MCP server returns a ReadResourceResult of doc names.](https://academy.claude.com/assets/media/4507294b3bff7a349e92761aa2022bc45f4386d2464159f7025ad4cb14bf9357.jpg)
 
 The flow is straightforward: when a user wants to reference a document (like typing "@report.pdf"), your application uses the MCP client to fetch that resource from the server and include its contents directly in the prompt sent to Claude.
 
@@ -70,7 +70,7 @@ Once implemented, you can test the functionality through your CLI application. W
 - Fetch the resource content automatically
 - Include that content in the prompt to Claude
 
-![](https://academy.claude.com/assets/media/ea5414c511b1692a66e775958203438247800a6dbc43ff2afaa4e001224cf20c.jpg)
+![MCP Inspector reading docs://documents/report.pdf, whose text is "The report details the state of a 20m condenser tower".](https://academy.claude.com/assets/media/ea5414c511b1692a66e775958203438247800a6dbc43ff2afaa4e001224cf20c.jpg)
 
 The key advantage is that Claude receives the document content directly in the prompt, eliminating the need for tool calls to access the information. This makes interactions faster and more efficient.
 

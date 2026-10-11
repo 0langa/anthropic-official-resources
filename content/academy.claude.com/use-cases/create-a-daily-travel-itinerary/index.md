@@ -2,7 +2,7 @@
 
 Create a customized travel itinerary with intelligent guidance, adapting to your preferences and desired activities.
 
-15 minPersonalClaude.ai
+15 minPersonalClaude
 
 Try in ClaudeCopy prompt
 
@@ -100,7 +100,7 @@ To add photos, tell Claude: "Include small thumbnail images at key locations wit
 
 ### Send to travel companions[](https://academy.claude.com/use-cases/create-a-daily-travel-itinerary)
 
-Claude creates artifacts that can be [published and shared(opens in new tab)](https://support.claude.com/en/articles/9547008-discovering-publishing-customizing-and-sharing-artifacts), and [files that open up directly in your work spaces(opens in new tab)](https://support.claude.com/en/articles/12143746-create-and-edit-files-with-claude-to-eliminate-hours-of-busy-work), like Google Drive. Easily share the itinerary with your group and collect their input. You can either make adjustments directly in your file or revisit your chat with Claude to conduct additional research or make changes.
+Claude creates artifacts that can be [shared(opens in new tab)](https://support.claude.com/en/articles/9547008-share-artifacts), and [files that open up directly in your work spaces(opens in new tab)](https://support.claude.com/en/articles/12143746-create-and-edit-files-with-claude-to-eliminate-hours-of-busy-work), like Google Drive. Easily share the itinerary with your group and collect their input. You can either make adjustments directly in your file or revisit your chat with Claude to conduct additional research or make changes.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/create-a-daily-travel-itinerary)
 

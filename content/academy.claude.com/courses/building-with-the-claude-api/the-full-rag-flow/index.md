@@ -4,7 +4,7 @@ Lesson 35 of 67 · Building with the Claude APIThe full RAG flow
 
 Lesson 356 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fthe-full-rag-flow)
 
@@ -21,7 +21,7 @@ First, we take our source document and break it into manageable chunks. For this
 
 Next, we convert each text chunk into numerical embeddings using an embedding model. To make this easier to understand, let's imagine we have a perfect embedding model that always returns exactly two numbers, and we know what each number represents.
 
-![](https://academy.claude.com/assets/media/1c6024225dad73fada93c00f906e21481bda277e98e164ee3908249d755c33f8.jpg)
+![The two text chunks pass through an imaginary embedding model that outputs the two-number embeddings described below.](https://academy.claude.com/assets/media/1c6024225dad73fada93c00f906e21481bda277e98e164ee3908249d755c33f8.jpg)
 
 In our imaginary model:
 
@@ -34,17 +34,17 @@ For the medical research section, we might get `[0.97, 0.34]` - very medical-foc
 
 The embedding API typically performs a normalization step that scales each vector to have a magnitude of 1.0. You don't need to worry about the math here - it's handled automatically. This gives us normalized vectors like `[0.944, 0.331]` and `[0.295, 0.955]`.
 
-![](https://academy.claude.com/assets/media/b0b0f52420d14c562fd858ebf39efc43183b404aff62060b54d31ca072c65f90.jpg)
+![Unit circle with Medical Research toward about medicine and Software Engineering toward about software, each arrow 1.0 long.](https://academy.claude.com/assets/media/b0b0f52420d14c562fd858ebf39efc43183b404aff62060b54d31ca072c65f90.jpg)
 
 We can visualize these embeddings on a unit circle, where each point represents one of our text chunks.
 
-![](https://academy.claude.com/assets/media/960fec87071810a0749f2e3ffe9bf1bb685528f49a0b7afb345a3243abb8c041.jpg)
+![Embeddings "0.944, 0.331" for medical research and "0.295, 0.955" for software engineering feeding a vector database.](https://academy.claude.com/assets/media/960fec87071810a0749f2e3ffe9bf1bb685528f49a0b7afb345a3243abb8c041.jpg)
 
 ## Step 3: Store in Vector Database[](https://academy.claude.com/courses/building-with-the-claude-api/the-full-rag-flow)
 
 We store these embeddings in a vector database - a specialized database optimized for storing, comparing, and searching through long lists of numbers like our embeddings.
 
-![](https://academy.claude.com/assets/media/ef6c3835ed29fe61ebd9a5d4370e1073f223a554dbf9a1b96f1f6abde34486c8.jpg)
+![The imaginary embedding model embeds the user's question as 0.1 and 0.89, kind of medicine related but focused on software.](https://academy.claude.com/assets/media/ef6c3835ed29fe61ebd9a5d4370e1073f223a554dbf9a1b96f1f6abde34486c8.jpg)
 
 At this point, we pause. All the work so far has been preprocessing that happens ahead of time. Now we wait for a user to submit a query.
 
@@ -52,7 +52,7 @@ At this point, we pause. All the work so far has been preprocessing that happens
 
 When a user asks a question like "I'm curious about the company. In particular, what did the software engineering dept do this year?", we run their query through the same embedding model.
 
-![](https://academy.claude.com/assets/media/2a20e27d81673e835dbf1c2255a27581ba285856bdc42fde513926c99743989f.jpg)
+![The embed user query and find closest embeddings stage, noting "Company" is kind of medicine related but focused on software.](https://academy.claude.com/assets/media/2a20e27d81673e835dbf1c2255a27581ba285856bdc42fde513926c99743989f.jpg)
 
 This query gets embedded as something like `[0.1, 0.89]` - low medical score, high software engineering score. After normalization, we get `[0.112, 0.993]`.
 
@@ -60,7 +60,7 @@ This query gets embedded as something like `[0.1, 0.89]` - low medical score, hi
 
 We send the user's query embedding to our vector database and ask it to find the most similar stored embeddings.
 
-![](https://academy.claude.com/assets/media/a4804e2a776df06830d99d10fcd91c12c6c8c838237aae8b70b01c06881ec656.jpg)
+![Unit circle where the user query vector nearly overlaps the Software Engineering vector and sits far from Medical Research.](https://academy.claude.com/assets/media/a4804e2a776df06830d99d10fcd91c12c6c8c838237aae8b70b01c06881ec656.jpg)
 
 The database returns the software engineering section because it's the closest match to what the user asked about.
 
@@ -68,7 +68,7 @@ The database returns the software engineering section because it's the closest m
 
 The vector database uses cosine similarity to determine which embeddings are most similar. This measures the cosine of the angle between two vectors.
 
-![](https://academy.claude.com/assets/media/dc431d596ad7aac6818c2c3a8f658b1a6863230b00d8f6c9a40ea2a9b0fa692e.jpg)
+![Unit circle with angle "a" from the user query to Software Engineering and "b" to Medical Research, plus cosine formulas.](https://academy.claude.com/assets/media/dc431d596ad7aac6818c2c3a8f658b1a6863230b00d8f6c9a40ea2a9b0fa692e.jpg)
 
 Key points about cosine similarity:
 
@@ -92,7 +92,7 @@ This adjustment makes the numbers easier to interpret in many contexts.
 
 Finally, we take the user's question and the most relevant text chunk we found, combine them into a prompt, and send it to Claude for a response.
 
-![](https://academy.claude.com/assets/media/002860bcc0873314dac1120a0de2a988889028fb121c3ccc0877edc75cf1aeec.jpg)
+![Diagram of the user's question and the retrieved software engineering chunk feeding the prompt template quoted below.](https://academy.claude.com/assets/media/002860bcc0873314dac1120a0de2a988889028fb121c3ccc0877edc75cf1aeec.jpg)
 
 The prompt might look like:
 

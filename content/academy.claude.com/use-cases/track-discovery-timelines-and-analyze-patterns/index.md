@@ -2,7 +2,7 @@
 
 Build chronologies and identify document patterns across large discovery productions.
 
-15 minLegalClaude.ai
+15 minLegalClaude
 
 Try in ClaudeCopy prompt
 
@@ -48,7 +48,7 @@ Google Drive
 
 [Connect](https://claude.ai/directory/google-drive-drivemcp)
 
-Browse all connectors[Open in Claude](https://claude.ai/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/customize/connectors)
 
 
 

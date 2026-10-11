@@ -4,7 +4,7 @@ Lesson 12 of 14 · The AI-native SDLC playbookCI/CD integration and deployment�
 
 Lesson 126 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-native-sdlc-playbook%2Fci-cd-integration-and-deployment)
 

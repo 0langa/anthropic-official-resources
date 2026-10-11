@@ -4,7 +4,7 @@ Lesson 13 of 67 · Building with the Claude APIModel based grading
 
 Lesson 1315 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fmodel-based-grading)
 
@@ -12,7 +12,7 @@ When building prompt evaluation workflows, grading systems provide objective sig
 
 ## Types of Graders[](https://academy.claude.com/courses/building-with-the-claude-api/model-based-grading)
 
-![](https://academy.claude.com/assets/media/4ddd6988ba49fadfcd2e95aeb3da98a4d9537d0bf0918d0223eaf0d97ce1bc50.png)
+![Code, model and human graders compared; model and human graders can also compare two versions of an output, described below.](https://academy.claude.com/assets/media/4ddd6988ba49fadfcd2e95aeb3da98a4d9537d0bf0918d0223eaf0d97ce1bc50.png)
 
 There are three main approaches to grading model outputs:
 
@@ -53,7 +53,7 @@ Human graders provide the most flexibility but are time-consuming and tedious. T
 
 ## Defining Evaluation Criteria[](https://academy.claude.com/courses/building-with-the-claude-api/model-based-grading)
 
-![](https://academy.claude.com/assets/media/73dbc7e22915d1004fcfe651c18a37312bbf0d5ed7e2973048ff77364e1ada21.png)
+!["How will we know if our prompt is producing good outputs?" answered by the three criteria described below.](https://academy.claude.com/assets/media/73dbc7e22915d1004fcfe651c18a37312bbf0d5ed7e2973048ff77364e1ada21.png)
 
 Before implementing any grader, you need clear evaluation criteria. For a code generation prompt, you might focus on:
 
@@ -61,7 +61,7 @@ Before implementing any grader, you need clear evaluation criteria. For a code g
 - **Valid Syntax** - Produced code should have valid syntax
 - **Task Following** - Response should directly address the user's task with accurate code
 
-![](https://academy.claude.com/assets/media/f105fac52c912c56853b65e239d1d3836e77b466273e5f0432528e6ed7098e61.png)
+!["Format" and "Valid Syntax" are grouped under a code grader and "Task Following" under a model grader, as explained below.](https://academy.claude.com/assets/media/f105fac52c912c56853b65e239d1d3836e77b466273e5f0432528e6ed7098e61.png)
 
 The first two criteria work well with code graders, while task following is better suited for model graders due to their flexibility.
 

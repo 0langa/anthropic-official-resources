@@ -4,13 +4,13 @@ Lesson 21 of 67 · Building with the Claude APIProject overview
 
 Lesson 212 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fproject-overview)
 
 We're going to build a practical project that teaches Claude how to set reminders for future dates. This might sound simple at first, but it reveals several interesting challenges that we'll solve using custom tools.
 
-![](https://academy.claude.com/assets/media/0b1a7a20c9a0a4d57723e9c95065d706990ddccabbba00944372d861507b1785.png)
+![In a chat, a user asks for a reminder for a doctor's appointment a week from Thursday, a goal that takes 3 to 4 custom tools.](https://academy.claude.com/assets/media/0b1a7a20c9a0a4d57723e9c95065d706990ddccabbba00944372d861507b1785.png)
 
 The goal is straightforward: we want to be able to tell Claude "Set a reminder for my doctor's appointment. It's a week from Thursday" and have Claude respond with "OK, I will remind you." But to make this work, we need to address some limitations in how Claude handles time and reminders.
 
@@ -26,7 +26,7 @@ Each of these limitations represents a gap between what Claude can do naturally 
 
 ## Tools We Need[](https://academy.claude.com/courses/building-with-the-claude-api/project-overview)
 
-![](https://academy.claude.com/assets/media/d1042ce4670eec51e35842b37d919f53d8285a0da854a7661546e4e3b3ef62eb.png)
+![The three tools to build: get the current date time, add duration to date time, and set a reminder, described below.](https://academy.claude.com/assets/media/d1042ce4670eec51e35842b37d919f53d8285a0da854a7661546e4e3b3ef62eb.png)
 
 We'll create three separate tools to handle each challenge:
 

@@ -1,6 +1,6 @@
 # All resources
 
-Every use case, tutorial, and course in the academy, in one place.
+Every use case, tutorial, and course in Claude Academy, in one place.
 
 AllCoursesTutorialsUse cases
 
@@ -115,7 +115,7 @@ Course·4 lessons·45 min](https://academy.claude.com/courses/introduction-to-su
 
 # All resources
 
-Every use case, tutorial, and course in the academy, in one place.
+Every use case, tutorial, and course in Claude Academy, in one place.
 
 AllCoursesTutorialsUse cases
 
@@ -230,7 +230,7 @@ Decompose complex tasks across parallel Claude subagents and orchestrate them de
 
 # All resources
 
-Every use case, tutorial, and course in the academy, in one place.
+Every use case, tutorial, and course in Claude Academy, in one place.
 
 AllCoursesTutorialsUse cases
 
@@ -391,7 +391,7 @@ Claude Cowork lets you delegate complete, multi-step work. You can work alongsid
 
 # All resources
 
-Every use case, tutorial, and course in the academy, in one place.
+Every use case, tutorial, and course in Claude Academy, in one place.
 
 AllCoursesTutorialsUse cases
 

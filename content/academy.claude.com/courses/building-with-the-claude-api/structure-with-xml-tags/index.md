@@ -4,7 +4,7 @@ Lesson 18 of 67 · Building with the Claude APIStructure with XML tags
 
 Lesson 184 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fstructure-with-xml-tags)
 
@@ -14,17 +14,17 @@ When you're building prompts that include a lot of content, Claude can sometimes
 
 Consider a prompt where you need to analyze 20 pages of sales records. Without clear boundaries, Claude might have trouble distinguishing between your instructions and the actual data you want analyzed.
 
-![](https://academy.claude.com/assets/media/31cfcf31ba1bc9fe15a2543c9236fc3509f70793a5414192e4bb642b9ddd5704.png)
+![A prompt with no XML tags: it asks for a decision report, interpolates sales_records, then lists five numbered steps.](https://academy.claude.com/assets/media/31cfcf31ba1bc9fe15a2543c9236fc3509f70793a5414192e4bb642b9ddd5704.png)
 
 The example above shows how unclear boundaries can make it difficult for Claude to parse your intent. By wrapping the sales records in XML tags like `<sales_records>` and `</sales_records>`, you create clear delimiters that help Claude understand the structure of your prompt.
 
-![](https://academy.claude.com/assets/media/36d7ff6d8c95678b923927f86e231dcb43dec2d8cffd63e4c7394e2334c25fd5.png)
+![Prompt for a one page decision report on a 30% sales drop, with the records in sales_records tags and five analysis steps.](https://academy.claude.com/assets/media/36d7ff6d8c95678b923927f86e231dcb43dec2d8cffd63e4c7394e2334c25fd5.png)
 
 ## Practical Example: Code and Documentation[](https://academy.claude.com/courses/building-with-the-claude-api/structure-with-xml-tags)
 
 Here's a more dramatic example of why XML tags matter. If you ask Claude to debug code using provided documentation, mixing everything together creates confusion:
 
-![](https://academy.claude.com/assets/media/06552fb30df1c3da1b204e2c362c55d78c2aa236d4c6a149b1e55bc594752e58.png)
+![The same debugging prompt twice: "Not Great" with code and docs run together, and "Better" with my_code and docs tags.](https://academy.claude.com/assets/media/06552fb30df1c3da1b204e2c362c55d78c2aa236d4c6a149b1e55bc594752e58.png)
 
 The "Not Great" version makes it nearly impossible to tell what's code versus documentation. The "Better" version uses `<my_code>` and `<docs>` tags to create clear boundaries.
 

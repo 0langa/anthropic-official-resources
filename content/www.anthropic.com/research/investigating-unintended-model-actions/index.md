@@ -45,7 +45,7 @@ Below, we describe four categories of behavior in which Claude acted on real web
 
 When Claude could not complete an evaluation task directly, either because its own tools were deliberately limited or because an outside service it needed was unavailable, it used other tools hosted on a third party’s site to achieve its goal. In some circumstances, it did this by exploiting basic flaws in that site’s software, using SQL or command injection (a way of sending input that the site mistakenly runs as instructions).
 
-For example, one evaluation asked Claude Mythos Preview to run a scientific analysis. The public tool it needed to perform that analysis was hosted by a university; when the model sought to access to it, the tool returned an error. Looking for another way to complete the task, Claude explored the tool’s website, found a script on the university’s server that would return any file it was asked for, and used it to copy files from the server, including the script’s own code. In that code Claude found the injection flaw that let it run commands on the server, and used it to run the calculation.
+For example, one evaluation asked Claude Mythos Preview to run a scientific analysis. The public tool it needed to perform that analysis was hosted by a university; when the model sought to access it, the tool returned an error. Looking for another way to complete the task, Claude explored the tool’s website, found a script on the university’s server that would return any file it was asked for, and used it to copy files from the server, including the script’s own code. In that code Claude found the injection flaw that let it run commands on the server, and used it to run the calculation.
 
 In another instance, the data Claude Mythos 5 needed was free, but Claude could not access it without accepting a data use agreement, which it did not have the tools to do. Claude used applications hosted on the website to load the page and accept the agreement on its behalf.
 
@@ -55,7 +55,7 @@ We saw this behavior on DeepSearchQA and BrowseComp (both public web research ev
 
 We saw instances where Claude submitted an online form when it shouldn’t have. Generally, this occurred when an evaluation’s instructions were ambiguous, or when a misconfiguration within the environment prevented Claude from working with dummy forms.
 
-For example, in a case which happened multiple times on the same evaluation, an unreleased, non-frontier research model was meant to fill out a practice copy of a government form. When the copy failed to load or the model closed it by mistake, the model instead navigated to the website where the real form is normally hosted and submitted the form there.
+For example, in a case that happened multiple times on the same evaluation, an unreleased, non-frontier research model was meant to fill out a practice copy of a government form. When the copy failed to load or the model closed it by mistake, the model instead navigated to the website where the real form is normally hosted and submitted the form there.
 
 In another evaluation, Claude Haiku 4.5 was instructed to complete a form up until the final submission stage, but to stop before actually submitting. Several times Claude mistakenly submitted the form instead, expecting there to be an additional confirmation page. In these instances, the model’s chain-of-thought stated that it was demonstrating the process, not submitting a real request.
 
@@ -67,7 +67,7 @@ We saw this behavior on OSWorld (a public computer use evaluation), on Odysseys 
 
 Claude sometimes worked around a restriction to reach data to which it did not have access. Generally, this occurred when a server refused Claude’s request, or when the data was offered only for a fee.
 
-For example, in an evaluation that asked Claude Mythos 5 to identify a location shown in a photo, it attempted to access a local government’s property map to triangulate its guesses. Claude could read webpage text, but the evaluation limited its ability to click through them as a person would. Instead, it read the settings file the site sends to browsers, found working access tokens, and used them to send requests directly to the server behind the map to access the data.
+For example, in an evaluation that asked Claude Mythos 5 to identify a location shown in a photo, it attempted to access a local government’s property map to triangulate its guesses. Claude could read webpage text, but the evaluation limited its ability to click through it as a person would. Instead, it read the settings file the site sends to browsers, found working access tokens, and used them to send requests directly to the server behind the map to access the data.
 
 In another example of this behavior, an Anthropic researcher used Claude Mythos 5 on a statistics project that required it to pull public data that was available from a state agency for a fee. Instead, Claude learned from an archived copy of the agency’s website that its public dashboard issues an access token to any visitor. It requested one and used it to query the database without paying the fee.
 
@@ -101,7 +101,7 @@ On dishonesty, the comparison is more mixed. In one case, tasked with generating
 
 ### **Lessons and next steps**
 
-None of the behaviors we’ve described here are new and they do not change our overall view of Claude’s alignment. In many of the cases where we observed these behaviors, Claude had been given tasks that were ambiguous or impossible to complete. We and others have observed that when models are given impossible-to-complete tasks, they will pursue unintended and sometimes misaligned strategies to achieve their goals.
+None of the behaviors we’ve described here are new, and they do not change our overall view of Claude’s alignment. In many of the cases where we observed these behaviors, Claude had been given tasks that were ambiguous or impossible to complete. We and others have observed that when models are given impossible-to-complete tasks, they will pursue unintended and sometimes misaligned strategies to achieve their goals.
 
 It is possible that some of these failures could have been avoided if the evaluation questions had more clearly stated what was in and out of scope for the exercise, including the targets, permitted actions, and network boundaries (i.e., what the model should and shouldn’t access). However, Claude encounters ambiguous and impossible tasks every day in real use, and, indeed, several of the cases we observed occurred during regular agentic use of Claude.
 
@@ -109,7 +109,7 @@ Behavioral and alignment training is the main technique we have at our disposal 
 
 We plan to keep reporting concerning behaviors as our scan and analysis continue. We hope these reports help other developers check for similar behaviors in their own models, since many of the evaluations involved are public and widely used. While these cases had minimal impact, we do not want to diminish the findings, because the same behaviors could do far more harm as models become more powerful. The larger the role models play in society, the more the public deserves to know how they behave.
 
-*Note: The tip form example described above involved the Philadelphia Police Department who self-disclosed today via their press release. We shared this finding with the department on October 8 as soon as our technical review was complete.*
+*Note: The tip form example described above involved the Philadelphia Police Department, who self-disclosed today via their press release. We shared this finding with the department on October 8 as soon as our technical review was complete.*
 
 ## Related content
 

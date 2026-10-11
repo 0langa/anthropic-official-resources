@@ -2,7 +2,7 @@
 
 With Claude as your research assistant, find relevant research, prioritize what to read, and organize evidence as you work through papers.
 
-15 minResearchClaude.ai
+15 minResearchClaude
 
 Try in ClaudeCopy prompt
 
@@ -44,7 +44,7 @@ PubMed
 
 [Connect](https://claude.ai/directory/pubmed)
 
-Browse all connectors[Open in Claude](https://claude.ai/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/customize/connectors)
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/plan-your-literature-review)
 

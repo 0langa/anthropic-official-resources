@@ -4,13 +4,13 @@ Lesson 9 of 67 · Building with the Claude APIPrompt evaluation
 
 Lesson 92 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fprompt-evaluation)
 
 When working with Claude, writing a good prompt is just the beginning. To build reliable AI applications, you need to understand two critical concepts: prompt engineering and prompt evaluation. Prompt engineering gives you techniques for writing better prompts, while prompt evaluation helps you measure how well those prompts actually work.
 
-![](https://academy.claude.com/assets/media/c1b0e1164b44e2de255137a6950d9a3795f2ab17eaa22cae93abba5aa021b66e.png)
+![Improving and evaluating prompts: side-by-side definitions of prompt engineering and prompt evaluation, described below.](https://academy.claude.com/assets/media/c1b0e1164b44e2de255137a6950d9a3795f2ab17eaa22cae93abba5aa021b66e.png)
 
 ## Prompt Engineering vs Prompt Evaluation[](https://academy.claude.com/courses/building-with-the-claude-api/prompt-evaluation)
 
@@ -32,7 +32,7 @@ Prompt evaluation takes a different approach. Instead of focusing on how to writ
 
 Once you've drafted a prompt, you typically face three options for what to do next:
 
-![](https://academy.claude.com/assets/media/332ba59ed8712471e1810909958b12131598e00e5640618a75b9b4ed2b0bdb3e.png)
+![Diagram branching from drafting a prompt into the three options and their tradeoffs, described below.](https://academy.claude.com/assets/media/332ba59ed8712471e1810909958b12131598e00e5640618a75b9b4ed2b0bdb3e.png)
 
 **Option 1:** Test the prompt once and decide it's good enough. This carries a significant risk of breaking in production when users provide unexpected inputs.
 

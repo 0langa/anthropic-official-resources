@@ -112,6 +112,14 @@ Explore more product news and best practices for teams building with Claude.
 
 [ArticleOct 8, 2026
 
+### Building effective agent automations
+
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 8, 2026
+
 ### How Block orchestrates Claude Fable across thousands of pull requests
 
 Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
@@ -128,15 +136,7 @@ Claude Platform
 
 ### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
 
-Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)[ArticleOct 6, 2026
-
-### Claude Code in the cloud: a field guide to cloud sessions
-
-What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)
+Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)
 
 ## Transform how your organization operates with Claude
 

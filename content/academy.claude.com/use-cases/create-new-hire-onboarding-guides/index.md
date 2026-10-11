@@ -2,7 +2,7 @@
 
 Turn standard company information and a new hire's specific details into a personalized welcome guide. Claude organizes logistics, schedules, and key contacts into one clear document that helps new employees feel prepared from day one.
 
-15 minHRClaude.ai
+15 minHRClaude
 
 Try in ClaudeCopy prompt
 
@@ -51,7 +51,7 @@ Google Drive
 
 [Connect](https://claude.ai/directory/google-drive-drivemcp)
 
-Browse all connectors[Open in Claude](https://claude.ai/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/customize/connectors)
 
 
 

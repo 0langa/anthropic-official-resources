@@ -4,7 +4,7 @@ Lesson 24 of 67 · Building with the Claude APIHandling message blocks
 
 Lesson 247 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fhandling-message-blocks)
 
@@ -37,7 +37,7 @@ The `tools` parameter takes a list of JSON schemas that describe the available f
 
 When Claude decides to use a tool, it returns an assistant message with multiple blocks in the content list. This is a significant change from the simple text-only responses you've worked with before.
 
-![](https://academy.claude.com/assets/media/fe809f26349ab86a54875e5fae4cad14367d99f5b2fc78c962049cd910bca91b.png)
+![An assistant message's Text Block and ToolUse Block with input date_format "%H:%M:%S"; blocks are also called "parts".](https://academy.claude.com/assets/media/fe809f26349ab86a54875e5fae4cad14367d99f5b2fc78c962049cd910bca91b.png)
 
 A multi-block message typically contains:
 
@@ -70,7 +70,7 @@ This preserves both the text block and the tool use block, which is crucial for 
 
 ## The Complete Tool Usage Flow[](https://academy.claude.com/courses/building-with-the-claude-api/handling-message-blocks)
 
-![](https://academy.claude.com/assets/media/9ec6ca3a38f9ba8b097b53f928990ae28fa557aea044899a6099222eafc1fef9.png)
+![Notebook cell with add_user_message and add_assistant_message adding "role" and "content" dictionaries, and a chat function.](https://academy.claude.com/assets/media/9ec6ca3a38f9ba8b097b53f928990ae28fa557aea044899a6099222eafc1fef9.png)
 
 The tool usage process follows this pattern:
 

@@ -240,11 +240,11 @@ Product ManagementWrite feature specs, plan roadmaps, and synthesize user resear
 
 `/metrics-review`Review and analyze product metrics with trend analysis and actionable insights.
 
-[Run](claude://cowork/new?q=%2Fmetrics-review)
+[Open in Cowork](claude://cowork/new?q=%2Fmetrics-review)
 
 `/stakeholder-update`Generate a stakeholder update tailored to audience and cadence.
 
-[Run](claude://cowork/new?q=%2Fstakeholder-update)
+[Open in Cowork](claude://cowork/new?q=%2Fstakeholder-update)
 
 Show all 8 skills
 
@@ -274,7 +274,7 @@ Linear
 
 [Connect](https://claude.ai/desktop/directory/linear)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 
@@ -382,7 +382,7 @@ In Cowork, open **Skills** → `/metrics-review` → **Share** and pick your tea
 
 ### Now in your Cowork
 
-Your processes
+Your plugins
 
 Product Management plugin
 
@@ -390,7 +390,7 @@ Your tools
 
 AmplitudeDatabricks![](data:image/svg+xml,%3csvg%20viewBox='0%200%20100%20100'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%235E6AD2'%20d='M1.225%2061.523c-.222-.949.908-1.546%201.597-.857l36.512%2036.512c.689.689.092%201.819-.857%201.597a50.06%2050.06%200%200%201-37.252-37.252Zm-1.22-13.59a.98.98%200%200%200%20.283.724l50.055%2050.055a.98.98%200%200%200%20.724.283%2049.9%2049.9%200%200%200%208.636-1.518.976.976%200%200%200%20.462-1.647L2.17%2038.835a.976.976%200%200%200-1.647.462%2049.9%2049.9%200%200%200-1.518%208.636Zm4.194-17.443a.988.988%200%200%200%20.184%201.152l63.975%2063.975a.988.988%200%200%200%201.152.184%2050.4%2050.4%200%200%200%206.08-3.495.993.993%200%200%200%20.161-1.53L9.224%2024.249a.993.993%200%200%200-1.53.161%2050.4%2050.4%200%200%200-3.495%206.08Zm9.723-13.067a.99.99%200%200%201-.026-1.377C23.068%206.08%2036.765-.002%2051.888-.002c27.59%200%2049.957%2022.367%2049.957%2049.957%200%2015.123-6.082%2028.82-16.048%2038.013a.99.99%200%200%201-1.377-.026z'/%3e%3c/svg%3e)Linear
 
-Your workspace
+Your folder
 
 Product / metrics
 

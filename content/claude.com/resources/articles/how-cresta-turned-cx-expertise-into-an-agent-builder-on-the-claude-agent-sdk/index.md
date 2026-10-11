@@ -97,7 +97,15 @@ See how [Conductor](https://cresta.com/blog/cresta-conductor-the-agent-for-ai-ag
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 7, 2026
+[ArticleOct 8, 2026
+
+### Building effective agent automations
+
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 7, 2026
 
 ### Automating eval design and hillclimbing with Claude
 
@@ -119,13 +127,7 @@ Claude Code
 
 Claude Code
 
-(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)[ArticleSep 30, 2026
-
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
-
-Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)
+(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)
 
 ## Transform how your organization operates with Claude
 

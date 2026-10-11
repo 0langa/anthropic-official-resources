@@ -4,7 +4,7 @@ Lesson 57 of 67 · Building with the Claude APIAnthropic apps
 
 Lesson 572 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fanthropic-apps)
 
@@ -12,7 +12,7 @@ In this module, we'll explore two powerful applications built by Anthropic: Clau
 
 ## Our Plan[](https://academy.claude.com/courses/building-with-the-claude-api/anthropic-apps)
 
-![](https://academy.claude.com/assets/media/cee9918e5c26d41e73d9c123d60219e2b3896030b46dca1fa7e3605e2b6bf82d.jpg)
+![Three-stage plan: Claude Code, then Computer Use, then Agents, with each stage described below.](https://academy.claude.com/assets/media/cee9918e5c26d41e73d9c123d60219e2b3896030b46dca1fa7e3605e2b6bf82d.jpg)
 
 We'll follow a progression that builds your understanding step by step:
 

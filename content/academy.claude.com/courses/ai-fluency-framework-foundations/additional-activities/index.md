@@ -4,7 +4,7 @@ Lesson 14 of 14 · AI Fluency: Framework and foundationsAdditional activities
 
 Lesson 145 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-framework-foundations%2Fadditional-activities)
 

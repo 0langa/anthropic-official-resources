@@ -48,6 +48,9 @@ Search
 
 DateCategoryTitle
 
+- [Oct 9, 2026Alignment
+
+  Investigating unintended model actions in our evaluations and internal use](https://www.anthropic.com/research/investigating-unintended-model-actions)
 - [Sep 9, 2026Alignment
 
   An alignment assessment of recent cybersecurity incidents](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents)
@@ -75,9 +78,6 @@ DateCategoryTitle
 - [Jan 29, 2026Alignment
 
   How AI assistance impacts the formation of coding skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
-- [Jan 28, 2026Alignment
-
-  Disempowerment patterns in real-world AI usage](https://www.anthropic.com/research/disempowerment-patterns)
 
 [See more](https://www.anthropic.com/research/team/alignment)
 

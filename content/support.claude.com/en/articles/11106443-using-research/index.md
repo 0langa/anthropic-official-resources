@@ -2,7 +2,7 @@
 
 Learn how to use Claude's Research feature for practical planning tasks. Available to users with paid Claude plans (Pro, Max, Team, or Enterprise).
 
-3 minClaude.ai
+3 minClaude
 
 Watch[Open Claude](https://claude.ai/new)
 

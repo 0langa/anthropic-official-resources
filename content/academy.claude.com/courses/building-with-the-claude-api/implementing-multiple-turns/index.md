@@ -4,7 +4,7 @@ Lesson 27 of 67 · Building with the Claude APIImplementing multiple turns
 
 Lesson 2715 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fimplementing-multiple-turns)
 
@@ -49,7 +49,7 @@ This loop continues until Claude provides a final answer without requesting any 
 
 Claude can request multiple tools in a single response. The message content contains a list of blocks, and we need to process each tool use block separately:
 
-![](https://academy.claude.com/assets/media/619afcdd851e4c8d20f60d0ba548caa95d90e39ee978922512df9ee2edc3942c.png)
+![message.content holds a TextBlock and ToolUseBlocks for "10 + 10" and "30 + 30", each run and returned as a ToolResultBlock.](https://academy.claude.com/assets/media/619afcdd851e4c8d20f60d0ba548caa95d90e39ee978922512df9ee2edc3942c.png)
 
 The `run_tools` function handles this by filtering for tool use blocks and processing each one:
 
@@ -70,7 +70,7 @@ def run_tools(message):
 
 Each tool use block must be answered with a corresponding tool result block. The connection between them is maintained through matching IDs:
 
-![](https://academy.claude.com/assets/media/20a806103af124ab925305059a2c5c803b4c6c95af29b2c5019418f5257267db.png)
+![Notebook cell where run_tools calls get_current_datetime when the tool name matches, then builds a tool result block.](https://academy.claude.com/assets/media/20a806103af124ab925305059a2c5c803b4c6c95af29b2c5019418f5257267db.png)
 
 The tool result block structure includes:
 

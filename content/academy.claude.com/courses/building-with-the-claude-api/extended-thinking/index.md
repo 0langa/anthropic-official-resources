@@ -4,7 +4,7 @@ Lesson 39 of 67 · Building with the Claude APIExtended thinking
 
 Lesson 3910 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fextended-thinking)
 
@@ -16,11 +16,11 @@ Extended thinking is Claude's advanced reasoning feature that gives the model ti
 
 When extended thinking is enabled, Claude's response changes from a simple text block to a structured response containing two parts:
 
-![](https://academy.claude.com/assets/media/60d09f38b5026991011add92839f1a4c9b0d63f9f915469028e6113a6bc9e50c.jpg)
+![Our server sends "Write a short guide on recursion" and Claude's assistant message has a thinking block then a text block.](https://academy.claude.com/assets/media/60d09f38b5026991011add92839f1a4c9b0d63f9f915469028e6113a6bc9e50c.jpg)
 
 With thinking enabled, you get both the reasoning process and the final answer:
 
-![](https://academy.claude.com/assets/media/a9c2236d86a958a619a6f9a637c7d3a09dad17867bac860f15be695d74286f07.jpg)
+![Assistant message JSON: a thinking block with a highlighted signature token, then a text block "A Guide to Recursion".](https://academy.claude.com/assets/media/a9c2236d86a958a619a6f9a637c7d3a09dad17867bac860f15be695d74286f07.jpg)
 
 The key benefits include:
 
@@ -42,7 +42,7 @@ The decision is straightforward: use your prompt evaluations. Run your prompts w
 
 Extended thinking responses include a special signature system for security:
 
-![](https://academy.claude.com/assets/media/a9c2236d86a958a619a6f9a637c7d3a09dad17867bac860f15be695d74286f07.jpg)
+![Assistant message JSON: a thinking block with a highlighted signature token, then a text block "A Guide to Recursion".](https://academy.claude.com/assets/media/a9c2236d86a958a619a6f9a637c7d3a09dad17867bac860f15be695d74286f07.jpg)
 
 The signature is a cryptographic token that ensures you haven't modified the thinking text. This prevents developers from tampering with Claude's reasoning process, which could potentially lead the model in unsafe directions.
 
@@ -50,7 +50,7 @@ The signature is a cryptographic token that ensures you haven't modified the thi
 
 Sometimes you'll receive a redacted thinking block instead of readable reasoning text:
 
-![](https://academy.claude.com/assets/media/8925b1f16a1ba3df971072e434b23066155a02e661f1c192f2c1515b0479b83a.jpg)
+![Notebook chat helper function with no thinking parameters, building params with max_tokens 1000 and adding tools if given.](https://academy.claude.com/assets/media/8925b1f16a1ba3df971072e434b23066155a02e661f1c192f2c1515b0479b83a.jpg)
 
 This happens when Claude's thinking process gets flagged by internal safety systems. The redacted content contains the actual thinking in encrypted form, allowing you to pass the complete message back to Claude in future conversations without losing context.
 

@@ -4,13 +4,13 @@ Lesson 58 of 67 · Building with the Claude APIClaude Code setup
 
 Lesson 581 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fclaude-code-setup)
 
 Claude Code is a terminal-based coding assistant that runs directly in your command line. Think of it as having Claude available right in your terminal to help with any coding task you're working on.
 
-![](https://academy.claude.com/assets/media/c84a726b55331870dddf0280c55847a4c95d02af3f8d14ef0766b1692d4a7df3.jpg)
+![Claude Code terminal welcoming you to the research preview, asking how it can help, and prompting Try "fix lint errors".](https://academy.claude.com/assets/media/c84a726b55331870dddf0280c55847a4c95d02af3f8d14ef0766b1692d4a7df3.jpg)
 
 ## What Claude Code Can Do[](https://academy.claude.com/courses/building-with-the-claude-api/claude-code-setup)
 
@@ -27,7 +27,7 @@ Claude Code works across MacOS, Windows WSL, and Linux, so you can use it regard
 
 ## Installation[](https://academy.claude.com/courses/building-with-the-claude-api/claude-code-setup)
 
-![](https://academy.claude.com/assets/media/640fa9f720b8896d0f4fd1fbe95de4f465c3383bd07829ec5e7996404613a967.jpg)
+![Timeline of the three Claude Code setup steps, listed below.](https://academy.claude.com/assets/media/640fa9f720b8896d0f4fd1fbe95de4f465c3383bd07829ec5e7996404613a967.jpg)
 
 Getting Claude Code set up takes just three steps:
 

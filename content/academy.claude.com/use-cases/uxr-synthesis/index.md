@@ -232,11 +232,11 @@ Design8 skills for research synthesis, spec drafting, brand enforcement, and pro
 
 `/research-synthesis`Cluster interview transcripts into themed findings with supporting quotes
 
-[Run](claude://cowork/new?q=%2Fresearch-synthesis)
+[Open in Cowork](claude://cowork/new?q=%2Fresearch-synthesis)
 
 `/design-handoff`Turn scattered threads and notes into a structured design spec
 
-[Run](claude://cowork/new?q=%2Fdesign-handoff)
+[Open in Cowork](claude://cowork/new?q=%2Fdesign-handoff)
 
 Show all 7 skills
 
@@ -270,7 +270,7 @@ Drop the themes onto a board as sticky clusters for the workshop debrief.
 
 [Connect](https://claude.ai/desktop/directory/miro)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 
@@ -344,11 +344,11 @@ Make what we've done in this task so far into a skill, or edit the /research-syn
 
 ## Make it repeatable[](https://academy.claude.com/use-cases/uxr-synthesis)
 
-### Make it a live artifact[](https://academy.claude.com/use-cases/uxr-synthesis)
+### Share it as an artifact[](https://academy.claude.com/use-cases/uxr-synthesis)
 
-A findings doc goes stale once the next round of interviews comes in. Ask Cowork to publish the themes as a live artifact and the product team has one link that stays current — re-run the skill or schedule it to refresh.
+A findings doc goes stale once the next round of interviews comes in. Ask Cowork to publish the themes as an artifact and the product team has one link — re-run the skill or schedule it to refresh.
 
-Publish those themes as a live artifact for the product team. Keep a "what shifted since last round" note at the top.
+Publish those themes as an artifact for the product team. Keep a "what shifted since last round" note at the top.
 
 
 

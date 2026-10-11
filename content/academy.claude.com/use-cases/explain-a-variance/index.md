@@ -225,15 +225,15 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 
 `/variance-analysis`Decompose financial variances into drivers with narrative explanations and waterfall analysis.
 
-[Run](claude://cowork/new?q=%2Fvariance-analysis)
+[Open in Cowork](claude://cowork/new?q=%2Fvariance-analysis)
 
 `/financial-statements`Generate financial statements (income statement, balance sheet, cash flow) with period-over-period comparison and variance analysis.
 
-[Run](claude://cowork/new?q=%2Ffinancial-statements)
+[Open in Cowork](claude://cowork/new?q=%2Ffinancial-statements)
 
 `/close-management`Manage the month-end close process with task sequencing, dependencies, and status tracking.
 
-[Run](claude://cowork/new?q=%2Fclose-management)
+[Open in Cowork](claude://cowork/new?q=%2Fclose-management)
 
 Show all 7 skills
 
@@ -267,7 +267,7 @@ Build and edit Excel models with working formulas, and draft Word memos and Powe
 
 [Connect](https://claude.ai/desktop/directory/microsoft-365)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 
@@ -339,11 +339,11 @@ Make what we've done in this task so far into a skill, or edit the /variance-ana
 
 ## Make it repeatable[](https://academy.claude.com/use-cases/explain-a-variance)
 
-### Make it a live artifact[](https://academy.claude.com/use-cases/explain-a-variance)
+### Share it as an artifact[](https://academy.claude.com/use-cases/explain-a-variance)
 
-A document is a snapshot. Ask Cowork to publish the same view as a live artifact and it becomes a link the CFO can open any time. Re-run the skill (or schedule it) and the link reflects the latest.
+A document is a snapshot. Ask Cowork to publish the same view as an artifact that reads the actuals through a connector, and it becomes a link the CFO can open any time to see the latest numbers. Everyone who opens it connects their own account.
 
-Publish that variance table as a live artifact for leadership.
+Publish that variance analysis as an artifact for leadership. Have it read the actuals through a connector so it shows the latest numbers each time it opens.
 
 
 
@@ -387,13 +387,13 @@ You did this for variance commentary. The same approach covers account reconcili
 
 [![](https://academy.claude.com/surfaces/excel-icon.svg)
 
-Claude in Excel
+Claude for Excel
 
 Edit the model in place
 
 Install](https://claude.com/claude-for-excel)[![](https://academy.claude.com/surfaces/powerpoint-icon.svg)
 
-Claude in PowerPoint
+Claude for PowerPoint
 
 Polish the board pages
 

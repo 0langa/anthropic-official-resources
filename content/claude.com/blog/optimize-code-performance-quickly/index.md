@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
-
 # Optimize code performance quickly
 
 Go from reactive profiling to proactive optimization. Find and fix bottlenecks in your codebase before they slow down production.
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  October 6, 2025
-- Reading time
-
-  4
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/optimize-code-performance-quickly)
-
-  https://claude.com/blog/optimize-code-performance-quickly
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code
+- DateOctober 6, 2025
+- Reading time9 min
+- ShareCopy link
 
 Performance bottlenecks sneak up on you. Your API was fast last week, but now it's timing out. User dashboards that load instantly are suddenly crawling. The payment flow that worked fine in testing chokes under real traffic.
 
@@ -71,6 +55,8 @@ Before setting up complex profiling environments or writing benchmark suites, pa
 
 The most straightforward approach with Claude.ai is copying a problematic function and asking for help. Developers typically paste anywhere from a few lines to entire functions that are causing bottlenecks in their applications. Claude analyzes the code structure, identifies inefficient patterns like nested loops or redundant operations, and suggests specific optimizations.
 
+Copy
+
 ```
 User: "This function is slowing down our user dashboard. How can I make it faster?"
 
@@ -89,7 +75,7 @@ Typical questions that work well:
 
 Sometimes you need to understand the root cause before jumping into optimization. Claude.ai excels at breaking down performance issues in accessible language, explaining exactly why certain code patterns become bottlenecks as your application scales. You can paste code that's consuming excessive memory, causing API timeouts, or degrading under load, then ask Claude to explain what's happening.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68f13857ee0625a58a13a7bd____.png)
+![](https://assets.claude.com/6de5665eb36da6aaf3911200f6f091621090d029.png)
 
 ## Scale optimizations with Claude Code
 
@@ -97,11 +83,15 @@ For performance challenges spanning multiple files or requiring architectural ch
 
 Install:
 
+Copy
+
 ```
 npm install -g @anthropic-ai/claude-code
 ```
 
 Launch in your project:
+
+Copy
 
 ```
 claude
@@ -109,13 +99,15 @@ claude
 
 Start asking Claude about ways to optimize your code:
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e9533ec45c4d79d1a6c54d_5.png)
+![](https://assets.claude.com/1ab4b29f3ea89384159509c6be72931fcf3eb4e3.png)
 
 Claude Code autonomously analyzes your entire codebase, correlates recent changes with performance degradation, and provides specific optimization recommendations targeting root causes rather than symptoms.
 
 ### Implement with automated testing
 
 Once Claude Code identifies bottlenecks, it orchestrates targeted fixes by automatically creating a step-by-step workflow to generate tests, validate improvements, and prevent regressions.
+
+Copy
 
 ```
 > Optimize this payment processing function and benchmark results
@@ -133,7 +125,7 @@ Claude Code optimizes workflows in large codebases, updating code to increase ef
 
 ### Example: eliminate N+1 database queries
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95463e1157246ac222647_6.png)
+![](https://assets.claude.com/2a0dc8ed98de270d46a25f0410031ac00bcb19c9.png)
 
 Claude Code scans your codebase for loops triggering database queries, identifies specific ORM patterns causing N+1 problems, implements eager loading or batch query solutions, measures query reduction and response time improvements, generates tests preventing N+1 regressions.
 
@@ -155,7 +147,7 @@ Results:
 - **80% reduction in incident triage time**
 - **50% weekly active usage** across engineering teams
 
-> "When we discovered Claude Code, our teams immediately recognized its potential and integrated it into our workflows"
+> “"When we discovered Claude Code, our teams immediately recognized its potential and integrated it into our workflows"”
 
 — Austin Ray, Senior Software Engineer at Ramp
 
@@ -165,118 +157,74 @@ Results:
 
 **Comprehensive optimization**: Install [Claude Code](https://claude.com/product/claude-code):
 
+Copy
+
 ```
 npm install -g @anthropic-ai/claude-code
 ```
 
 Whether you're targeting sub-100ms API response times, reducing memory consumption, or eliminating database bottlenecks, Claude serves as your thinking partner to ship faster, more efficient software without extending development cycles through manual optimization guesswork. Get started today.
 
-No items found.
+## FAQ
 
-[Prev](https://claude.com/blog/optimize-code-performance-quickly)Prev
-
-0/5
-
-[Next](https://claude.com/blog/optimize-code-performance-quickly)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-### What causes slow API response times?
+What causes slow API response times?
 
 Common causes include algorithmic bottlenecks like O(n²) complexity from nested loops, N+1 database query problems where you make database calls inside loops, inefficient database queries that don't use indexes properly, lack of caching for repeated operations, and redundant data processing.
 
-### How can I find performance bottlenecks in my code?
+How can I find performance bottlenecks in my code?
 
 You can identify bottlenecks by pasting suspicious functions into Claude.ai for immediate analysis, or use Claude Code to scan your entire codebase for performance issues. Traditional approaches involve profiling tools like Chrome DevTools, New Relic, or Datadog to examine flame graphs and CPU hotspots, but these show where time is spent without explaining why code is inefficient.
 
-### Should I use profiling tools or AI for code optimization?
+Should I use profiling tools or AI for code optimization?
 
 Use both approaches together for best results. Traditional profiling tools like Chrome DevTools or Datadog show where your application spends time and help identify hot spots in production environments. AI tools like Claude explain why specific code is slow and suggest concrete optimizations. Start with Claude.ai to quickly determine whether a performance issue is algorithmic, structural, or configuration-related before setting up complex profiling environments.
 
-### How much performance improvement should I expect from code optimization?
+How much performance improvement should I expect from code optimization?
 
 It depends on your starting point. Eliminating N+1 queries can reduce response times from seconds to milliseconds—often 10-100x improvements. Replacing O(n²) algorithms with O(n) implementations shows dramatic gains with large datasets but minimal difference with small ones. Tools like Claude Code can generate benchmark tests to measure improvements objectively, helping you validate whether optimizations actually deliver the expected gains.
 
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+[ArticleOct 8, 2026
 
-Aug 21, 2026
+### Building effective agent automations
 
-### The AI-native SDLC playbook
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
 
-Enterprise AI
+Claude Platform
 
-[The AI-native SDLC playbook](https://claude.com/blog/optimize-code-performance-quickly)The AI-native SDLC playbook
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 7, 2026
 
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+### Automating eval design and hillclimbing with Claude
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-Sep 24, 2026
+Claude Platform
 
-### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
+
+### Claude Code in the cloud: a field guide to cloud sessions
+
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
 
 Claude Code
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/optimize-code-performance-quickly)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
 
-Sep 23, 2026
-
-### How to prepare for AI-driven code modernization projects
-
-Enterprise AI
-
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/optimize-code-performance-quickly) How to prepare for AI-driven code modernization projects
-
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/optimize-code-performance-quickly)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/optimize-code-performance-quickly)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

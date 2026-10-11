@@ -2,7 +2,7 @@
 
 Build study reports by connecting to research platforms and compiling data across experiments.
 
-10 minClaude.ai
+10 minClaude
 
 Try in ClaudeCopy prompt
 
@@ -40,7 +40,7 @@ Benchling
 
 [Connect](https://claude.ai/directory/benchling)
 
-Browse all connectors[Open in Claude](https://claude.ai/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/customize/connectors)
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/preclinical-study-analysis)
 

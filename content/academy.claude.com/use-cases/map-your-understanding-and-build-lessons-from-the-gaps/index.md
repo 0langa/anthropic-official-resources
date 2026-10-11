@@ -2,7 +2,7 @@
 
 Claude Opus 5 traces your confusion to its source. It maps what you already understand, finds the specific misconception underneath, and builds personalized learning experiences around it.
 
-20 minPersonalClaude.ai
+20 minPersonalClaude
 
 Try in ClaudeCopy prompt
 

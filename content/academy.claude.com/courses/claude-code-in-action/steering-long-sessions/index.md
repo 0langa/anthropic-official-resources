@@ -4,7 +4,7 @@ Lesson 1 of 9 · Claude Code in actionSteering long sessions
 
 Lesson 16 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-code-in-action%2Fsteering-long-sessions)
 

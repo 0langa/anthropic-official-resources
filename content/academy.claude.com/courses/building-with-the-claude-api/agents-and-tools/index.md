@@ -4,13 +4,13 @@ Lesson 65 of 67 · Building with the Claude APIAgents and tools
 
 Lesson 653 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fagents-and-tools)
 
 Agents represent a shift from the structured workflows we've been working with. While workflows are perfect when you know the exact steps needed to complete a task, agents shine when you're not sure what those steps should be. Instead of defining a rigid sequence, you give Claude a goal and a set of tools, then let it figure out how to combine those tools to achieve the objective.
 
-![](https://academy.claude.com/assets/media/8478d80427e9081aa66a7084783dfb337ac19806a7d4a29e7c2705ac54474fc3.jpg)
+![Goal and tools feed into Claude, which plans to use them; reliable, economical task completion is often harder with agents.](https://academy.claude.com/assets/media/8478d80427e9081aa66a7084783dfb337ac19806a7d4a29e7c2705ac54474fc3.jpg)
 
 This flexibility makes agents attractive for building applications that need to handle varied, unpredictable tasks. You can create an agent once, ensure it works reasonably well, and then deploy it to solve a wide range of problems. However, this flexibility comes with trade-offs in reliability and cost that we'll explore later.
 
@@ -18,7 +18,7 @@ This flexibility makes agents attractive for building applications that need to 
 
 The real power of agents lies in their ability to combine simple tools in unexpected ways. Consider a basic set of datetime tools:
 
-![](https://academy.claude.com/assets/media/7d814984b14a8cf9d543c3f61882d8abac783e7ce893730b5fc78f059839182c.jpg)
+![Table of the three datetime tools listed below, under the point that we rely on Claude to combine different tools.](https://academy.claude.com/assets/media/7d814984b14a8cf9d543c3f61882d8abac783e7ce893730b5fc78f059839182c.jpg)
 
 - `get_current_datetime` - Gets the current date and time
 - `add_duration_to_datetime` - Adds time to a given date
@@ -26,7 +26,7 @@ The real power of agents lies in their ability to combine simple tools in unexpe
 
 These tools seem simple individually, but Claude can chain them together to handle surprisingly complex requests:
 
-![](https://academy.claude.com/assets/media/7c1d89fa8e71f13aa3a2e6f097bdf0c47ce192d6e716044928dd3b3012a67209.jpg)
+![Six tasks mapped to tool chains, such as a dated reminder to set_reminder and a 1000th birthday to add_duration_to_datetime.](https://academy.claude.com/assets/media/7c1d89fa8e71f13aa3a2e6f097bdf0c47ce192d6e716044928dd3b3012a67209.jpg)
 
 For "What's the time?", Claude simply calls `get_current_datetime`. But for "What day of the week is it in 11 days?", it chains `get_current_datetime` followed by `add_duration_to_datetime`. For setting a gym reminder next Wednesday, it might use all three tools in sequence.
 
@@ -36,7 +36,7 @@ Claude can even recognize when it needs more information. If you ask "When does 
 
 The key insight for building effective agents is providing reasonably abstract tools rather than hyper-specialized ones. Claude Code demonstrates this principle perfectly.
 
-![](https://academy.claude.com/assets/media/4f6caa40d08beb99072be1d57118d7d346bd5d52c2307242d249cf1819ba7de0.jpg)
+![Tools Claude Code has, including LS and WebFetch, versus tools it does not have such as Run Tests and Create Migration.](https://academy.claude.com/assets/media/4f6caa40d08beb99072be1d57118d7d346bd5d52c2307242d249cf1819ba7de0.jpg)
 
 Claude Code has access to generic, flexible tools like:
 
@@ -53,7 +53,7 @@ It notably doesn't have specialized tools like "refactor code" or "install depen
 
 When designing agents, provide tools that Claude can combine in creative ways. For example, a social media video agent might include:
 
-![](https://academy.claude.com/assets/media/39ba419929e69d84456f4ad31a7c3296b292eb15d7a64a5a158efc0e65291fc0.jpg)
+![The four tools for a social media video agent: bash, generate_image, text_to_speech and post_media, listed below.](https://academy.claude.com/assets/media/39ba419929e69d84456f4ad31a7c3296b292eb15d7a64a5a158efc0e65291fc0.jpg)
 
 - `bash` - Access to FFMPEG for video processing
 - `generate_image` - Create images from prompts
@@ -62,7 +62,7 @@ When designing agents, provide tools that Claude can combine in creative ways. F
 
 This tool set enables both simple workflows (create and post a video) and more interactive experiences where the agent might generate a sample image first, get user approval, then proceed with video creation.
 
-![](https://academy.claude.com/assets/media/0980bf9ff221f46f8d110f9a53eeea730ca1d487090685740bec60708bac5497.jpg)
+![Two Marketing Agent chats: one to create and post a Python video, one where the agent offers an image and asks if it works.](https://academy.claude.com/assets/media/0980bf9ff221f46f8d110f9a53eeea730ca1d487090685740bec60708bac5497.jpg)
 
 The agent can adapt its approach based on user feedback and preferences, something that would be difficult to achieve with a rigid workflow. This flexibility is what makes agents powerful for building dynamic, user-responsive applications.
 

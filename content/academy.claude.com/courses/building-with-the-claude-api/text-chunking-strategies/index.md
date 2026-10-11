@@ -4,27 +4,27 @@ Lesson 33 of 67 · Building with the Claude APIText chunking strategies
 
 Lesson 3310 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Ftext-chunking-strategies)
 
 Text chunking is one of the most critical steps in building a RAG (Retrieval Augmented Generation) pipeline. How you break up your documents directly impacts the quality of your entire system. A poor chunking strategy can lead to irrelevant context being inserted into your prompts, causing your AI to give completely wrong answers.
 
-![](https://academy.claude.com/assets/media/93d153d95565a34b8f54f369456c4867942a67313e604f11d87c7aa05bb41de0.jpg)
+![A source document, an annual financial report, split into six chunks labeled Chunk 1 through Chunk 6.](https://academy.claude.com/assets/media/93d153d95565a34b8f54f369456c4867942a67313e604f11d87c7aa05bb41de0.jpg)
 
 Consider this example: you have a document with sections on medical research and software engineering. If you chunk poorly, a user asking "How many bugs did engineers fix this year?" might get information about medical research instead of software engineering, simply because the medical section happened to contain the word "bug" in a different context.
 
-![](https://academy.claude.com/assets/media/4e200d418f2f0e07231825504d56487aa94f8ce6ba0baee92b87726603815a2e.jpg)
+![The user's question and a chunk are inserted into the prompt, where the chunk calls XDR-47 a "bug" we have not seen before.](https://academy.claude.com/assets/media/4e200d418f2f0e07231825504d56487aa94f8ce6ba0baee92b87726603815a2e.jpg)
 
 This is why choosing the right chunking strategy matters so much. Let's explore three main approaches.
 
 ## Size-Based Chunking[](https://academy.claude.com/courses/building-with-the-claude-api/text-chunking-strategies)
 
-![](https://academy.claude.com/assets/media/8258b5b1db40164bb6e4ecbce20307774f2ae37b64c3cef1efe1a0de0ff3c8f0.jpg)
+![Size-based, structure-based and semantic-based chunking compared side by side with tradeoffs, all described below.](https://academy.claude.com/assets/media/8258b5b1db40164bb6e4ecbce20307774f2ae37b64c3cef1efe1a0de0ff3c8f0.jpg)
 
 Size-based chunking is the simplest approach - you divide your text into strings of equal length. If you have a 325-character document, you might split it into three chunks of roughly 108 characters each.
 
-![](https://academy.claude.com/assets/media/3e4549a9b1cb208c34fae3610edfc3bfea3186dc7ccf6a13c23df5f098d95fbc.jpg)
+![Size-based chunking cuts words: chunk 1 ends "signific", chunk 2 starts "ant" and ends "Engineeri".](https://academy.claude.com/assets/media/3e4549a9b1cb208c34fae3610edfc3bfea3186dc7ccf6a13c23df5f098d95fbc.jpg)
 
 This method is easy to implement and works with any type of document, but it has clear downsides:
 
@@ -32,11 +32,11 @@ This method is easy to implement and works with any type of document, but it has
 - Chunks lose important context from surrounding text
 - Section headers might be separated from their content
 
-![](https://academy.claude.com/assets/media/ce9f3ba91e00a523dec9e8868bc25ced54d746bddb75f1c9504b58a5fb0584be.jpg)
+![Three size-based chunks that split words mid-word: "signific" then "ant", and "Software Engineeri" then "ng".](https://academy.claude.com/assets/media/ce9f3ba91e00a523dec9e8868bc25ced54d746bddb75f1c9504b58a5fb0584be.jpg)
 
 To address these issues, you can add overlap between chunks. This means each chunk includes some characters from the neighboring chunks, providing better context and ensuring complete words and sentences.
 
-![](https://academy.claude.com/assets/media/7aebd7018b93e601d2a19f227f84cf56ed2cd1b3a8cc72a32fe3a306d919f6bb.jpg)
+![The outlined chunk in the source document becomes an output chunk that spans both section headers and ends mid-sentence.](https://academy.claude.com/assets/media/7aebd7018b93e601d2a19f227f84cf56ed2cd1b3a8cc72a32fe3a306d919f6bb.jpg)
 
 Here's a basic implementation:
 
@@ -63,7 +63,7 @@ def chunk_by_char(text, chunk_size=150, chunk_overlap=20):
 
 Structure-based chunking divides text based on the document's natural structure - headers, paragraphs, and sections. This works great when you have well-formatted documents like Markdown files.
 
-![](https://academy.claude.com/assets/media/4fd57d1bcc54a111ec6ab2492c4211bc8442b21e92161a25a0f45c8bf9352d4f.jpg)
+![Source document split into three chunks: the opening line, Section 1 Medical Research, Section 2 Software Engineering.](https://academy.claude.com/assets/media/4fd57d1bcc54a111ec6ab2492c4211bc8442b21e92161a25a0f45c8bf9352d4f.jpg)
 
 For a Markdown document, you can split on header markers:
 

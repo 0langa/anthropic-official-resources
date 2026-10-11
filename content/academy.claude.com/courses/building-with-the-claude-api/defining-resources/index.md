@@ -4,7 +4,7 @@ Lesson 53 of 67 · Building with the Claude APIDefining resources
 
 Lesson 5310 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fdefining-resources)
 
@@ -17,23 +17,23 @@ Let's say you want to build a document mention feature where users can type `@do
 - Getting a list of all available documents (for autocomplete)
 - Fetching the contents of a specific document (when mentioned)
 
-![](https://academy.claude.com/assets/media/cd7019a12385a54b4089f63b6e975d484577eeb9af1ca129e405eec83744bf05.jpg)
+![An "@" typed in a chat prompt opens a list of documents, such as deposition.md and spec.md, each labeled "Resource".](https://academy.claude.com/assets/media/cd7019a12385a54b4089f63b6e975d484577eeb9af1ca129e405eec83744bf05.jpg)
 
 When a user types `@`, you need to show available documents. When they submit a message with a mention, you automatically inject that document's content into the prompt sent to Claude.
 
-![](https://academy.claude.com/assets/media/a170bf8f94380bcc029a6daead85c463cdc8e23ec71b8b2916d277a6408ced76.jpg)
+![Typing an at sign lists documents such as design.md, each labeled "Resource", and a mention injects report.pdf contents.](https://academy.claude.com/assets/media/a170bf8f94380bcc029a6daead85c463cdc8e23ec71b8b2916d277a6408ced76.jpg)
 
 ## How Resources Work[](https://academy.claude.com/courses/building-with-the-claude-api/defining-resources)
 
 Resources follow a request-response pattern. Your client sends a `ReadResourceRequest` with a URI, and the MCP server responds with the data. The URI acts like an address for the resource you want to access.
 
-![](https://academy.claude.com/assets/media/8bfda681993ad051a7e85469a51a31a92a3a9978db28b8ffcedf64bd1af0f8ea.jpg)
+![Diagram of one MCP server containing two resource definitions, list_docs and fetch_doc, shown in the code below.](https://academy.claude.com/assets/media/8bfda681993ad051a7e85469a51a31a92a3a9978db28b8ffcedf64bd1af0f8ea.jpg)
 
 ## Types of Resources[](https://academy.claude.com/courses/building-with-the-claude-api/defining-resources)
 
 There are two types of resources:
 
-![](https://academy.claude.com/assets/media/74cf80a71ba587ae82fa642f86a4d79b074d82eefd1428f88a74e51cfddc435d.jpg)
+![Decorator code for a direct resource with no parameters in its URI and a templated resource with doc_id, described below.](https://academy.claude.com/assets/media/74cf80a71ba587ae82fa642f86a4d79b074d82eefd1428f88a74e51cfddc435d.jpg)
 
 - **Direct Resources:** Static URIs that don't change, like `docs://documents`
 - **Templated Resources:** URIs with parameters, like `docs://documents/{doc_id}`
@@ -94,14 +94,14 @@ uv run mcp dev mcp_server.py
 
 Then connect to the inspector in your browser. You'll see:
 
-![](https://academy.claude.com/assets/media/b26f1ed0bfbe7f7c66d1cdd739b81c0255fbdf1fececc14917f410bc1a9fc24c.jpg)
+![MCP Inspector Resources tab, with docs://documents listed under Resources and nothing listed under Resource Templates.](https://academy.claude.com/assets/media/b26f1ed0bfbe7f7c66d1cdd739b81c0255fbdf1fececc14917f410bc1a9fc24c.jpg)
 
 - **Resources:** Lists your direct/static resources
 - **Resource Templates:** Shows templated resources that accept parameters
 
 Click on any resource to test it and see the exact response structure your client will receive.
 
-![](https://academy.claude.com/assets/media/d0d0f67385c33ac2744acab67a33e84d2c464bc3794ce05313c7e903ed281bce.jpg)
+![MCP Inspector Resources tab: reading docs://documents returns a JSON list of file names such as deposition.md and plan.md.](https://academy.claude.com/assets/media/d0d0f67385c33ac2744acab67a33e84d2c464bc3794ce05313c7e903ed281bce.jpg)
 
 ## Key Points[](https://academy.claude.com/courses/building-with-the-claude-api/defining-resources)
 

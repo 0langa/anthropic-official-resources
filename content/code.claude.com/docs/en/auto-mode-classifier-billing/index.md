@@ -1,10 +1,7 @@
-> ## Documentation Index
-> Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt
-> Use this file to discover all available pages before exploring further.
-
 # Auto mode classifier request charges
+Source: https://code.claude.com/docs/en/auto-mode-classifier-billing
 
-> Resolve the Claude Code notice saying this session isn't eligible for auto mode's no-charge classifier requests: what it means, why it appears, and what to do.
+Resolve the Claude Code notice saying this session isn't eligible for auto mode's no-charge classifier requests: what it means, why it appears, and what to do.
 
 In [auto mode](/docs/en/permission-modes#eliminate-prompts-with-auto-mode), a classifier checks actions such as shell commands and network requests before they run. Wherever [server-side checks are on](/docs/en/permission-modes#server-side-classifier-review), the server performs those checks as part of the session's own model requests, at no charge. This notice means the server's checks aren't reaching your session, so Claude Code is making its own classifier requests instead, and on your account those requests count toward your token usage:
 

@@ -2,7 +2,7 @@
 
 Type your budget split and the thing that might change, and Claude draws three scenarios next to each other with a toggle between dollars and percentages. Click any scenario for a one-line read on where the real pressure lands.
 
-15 minFinanceClaude.ai
+15 minFinanceClaude
 
 Try in ClaudeCopy prompt
 

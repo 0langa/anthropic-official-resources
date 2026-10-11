@@ -4,7 +4,7 @@ Lesson 3 of 14 · The AI-native SDLC playbookRequirements and design
 
 Lesson 35 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-native-sdlc-playbook%2Frequirements-and-design)
 
@@ -12,7 +12,7 @@ Once the product owner approves the `intent.md`, Claude takes it and produces a 
 
 The product owner reviews that spec, but doesn't write it. The goal of this process is to create a spec the engineering team can plan against, with flagged areas of concern.
 
-Front-end work is the clearest example. Once the `intent.md` is accepted, the product owner mocks the design up in [Claude Design(opens in new tab)](https://www.anthropic.com/news/claude-design-anthropic-labs) (beta) from the `intent.md`, iterates on the mock, and then exports it to Claude Code to build.
+Front-end work is the clearest example. Once the `intent.md` is accepted, the product owner mocks the design up in [Claude Design(opens in new tab)](https://claude.com/product/design) from the `intent.md`, iterates on the mock, and then exports it to Claude Code to build.
 
 ## What changes[](https://academy.claude.com/courses/ai-native-sdlc-playbook/requirements-and-design)
 

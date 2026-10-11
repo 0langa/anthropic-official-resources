@@ -180,11 +180,11 @@ DesignAccelerate design workflows — critique, design system management, UX wri
 
 `/design-handoff`Generate developer handoff specs from a design.
 
-[Run](claude://cowork/new?q=%2Fdesign-handoff)
+[Open in Cowork](claude://cowork/new?q=%2Fdesign-handoff)
 
 `/research-synthesis`Synthesize user research into themes, insights, and recommendations.
 
-[Run](claude://cowork/new?q=%2Fresearch-synthesis)
+[Open in Cowork](claude://cowork/new?q=%2Fresearch-synthesis)
 
 Show all 7 skills
 
@@ -218,7 +218,7 @@ Pull engagement and conversion for each surface so the recommendation is grounde
 
 [Connect](https://claude.ai/desktop/directory/amplitude)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 

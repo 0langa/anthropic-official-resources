@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
-
 # How to integrate APIs seamlessly
 
 Build resilient API integrations from the start. Handle authentication, rate limits, and edge cases before they break production.
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  October 27, 2025
-- Reading time
-
-  4
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/integrate-apis-seamlessly)
-
-  https://claude.com/blog/integrate-apis-seamlessly
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code
+- DateOctober 27, 2025
+- Reading time9 min
+- ShareCopy link
 
 API integration failures cost hours you can't afford. Authentication tokens expire during critical workflows, triggering 401 errors that cascade through your services. Rate limits silently throttle requests, causing timeout failures downstream. Schema changes in third-party APIs break production integrations without warning.
 
@@ -56,7 +40,7 @@ You can work with Claude in two different ways:
 
 [**Claude.ai**](https://claude.ai/) provides a free web interface where you can paste API specifications, explore authentication flows, and receive integration guidance with specific failure scenarios to prevent. Accessible from any browser, desktop, or mobile device.
 
-[**Claude Code**](https://claude.com/product/claude-code) integrates directly into your development environment as an [agentic](https://claude.com/blog/introduction-to-agentic-coding) terminal tool. It autonomously analyzes entire codebases, generates production-ready clients with comprehensive error handling, and implements authentication flows that match your existing patterns.
+[**Claude Code**](https://claude.com/product/claude-code) integrates directly into your development environment as an [agentic](https://claude.com/resources/articles/introduction-to-agentic-coding) terminal tool. It autonomously analyzes entire codebases, generates production-ready clients with comprehensive error handling, and implements authentication flows that match your existing patterns.
 
 ## Start with Claude.ai
 
@@ -88,11 +72,15 @@ When integrations span multiple services or require comprehensive error handling
 
 Install:
 
+Copy
+
 ```
 npm install -g @anthropic-ai/claude-code
 ```
 
 Launch in your project:
+
+Copy
 
 ```
 claude
@@ -100,7 +88,7 @@ claude
 
 Start integrating APIs with Claude:
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e9465ed858a46f5031e493_1.png)
+![](https://assets.claude.com/acb63b2b7269aaa86f9e3990c6ddc701d4c9f69c.png)
 
 Claude Code analyzes API specifications, creates typed clients matching your project patterns, implements retry mechanisms with your existing utilities. You reduce initial integration time by preventing common failure modes during implementation rather than discovering them in production.
 
@@ -126,6 +114,8 @@ Once implemented, ask Claude to generate and run tests verifying that the integr
 
 After tests pass, Claude Code handles the release process:
 
+Copy
+
 ```
 > Commit these API changes and open a PR
 ```
@@ -140,112 +130,66 @@ Generates descriptive commit messages, crafts clear PR descriptions linking chan
 
 Describe the integration you're trying to build, and [Claude Code](https://claude.com/product/claude-code) generates clients with proper error handling and production-ready authentication flows.
 
-No items found.
+## FAQ
 
-[Prev](https://claude.com/blog/integrate-apis-seamlessly)Prev
-
-0/5
-
-[Next](https://claude.com/blog/integrate-apis-seamlessly)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-### How can I identify API rate limiting issues before hitting production?
+How can I identify API rate limiting issues before hitting production?
 
 Analyzing API documentation upfront helps identify rate limit thresholds, counting methods (per user, per IP, per API key), and reset windows before deployment. AI tools like [Claude](https://claude.ai/) analyze specifications to suggest appropriate backoff strategies, request queuing patterns, and circuit breaker implementations based on your specific API requirements. This prevents the trial-and-error cycle of discovering rate limits through production failures.
 
-### What's the fastest way to understand a third-party API's authentication flow?
+What's the fastest way to understand a third-party API's authentication flow?
 
 Paste the API documentation into [Claude.ai](https://claude.ai/) and ask specific questions about the authentication requirements. Claude breaks down OAuth2 flows, token refresh cycles, and header requirements in plain language. You get concrete implementation guidance for handling token expiration, refresh logic, and credential rotation without parsing through pages of vendor documentation.
 
-### Should I use polling or webhooks for real-time data updates?
+Should I use polling or webhooks for real-time data updates?
 
 The choice depends on your latency requirements, data volume, and infrastructure constraints. Webhooks provide immediate updates but require webhook validation, idempotency handling, and retry logic for failed deliveries. Polling offers simpler implementation but increases API calls and introduces latency. [Claude](https://claude.ai/) can analyze your specific use case and API constraints to recommend the approach that fits your requirements, including hybrid strategies that combine both methods.
 
-### How do I handle API schema changes without breaking production?
+How do I handle API schema changes without breaking production?
 
 Implement versioned clients that support multiple API versions simultaneously, use schema validation to catch breaking changes early, and create adapter layers that translate between old and new response formats. [Claude Code](https://claude.com/product/claude-code) can analyze schema differences between API versions and generate migration code that maintains backward compatibility during transition periods.
 
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+[ArticleOct 8, 2026
 
-Aug 21, 2026
+### Building effective agent automations
 
-### The AI-native SDLC playbook
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
 
-Enterprise AI
+Claude Platform
 
-[The AI-native SDLC playbook](https://claude.com/blog/integrate-apis-seamlessly)The AI-native SDLC playbook
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 7, 2026
 
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+### Automating eval design and hillclimbing with Claude
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-Sep 24, 2026
+Claude Platform
 
-### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
+
+### Claude Code in the cloud: a field guide to cloud sessions
+
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
 
 Claude Code
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/integrate-apis-seamlessly)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
 
-Sep 23, 2026
-
-### How to prepare for AI-driven code modernization projects
-
-Enterprise AI
-
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/integrate-apis-seamlessly) How to prepare for AI-driven code modernization projects
-
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/integrate-apis-seamlessly)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/integrate-apis-seamlessly)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

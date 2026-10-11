@@ -289,11 +289,11 @@ DesignAccelerate design workflows — critique, design system management, UX wri
 
 `/design-critique`Get structured design feedback on usability, hierarchy, and consistency.
 
-[Run](claude://cowork/new?q=%2Fdesign-critique)
+[Open in Cowork](claude://cowork/new?q=%2Fdesign-critique)
 
 `/design-system`Audit, document, or extend your design system.
 
-[Run](claude://cowork/new?q=%2Fdesign-system)
+[Open in Cowork](claude://cowork/new?q=%2Fdesign-system)
 
 Show all 7 skills
 
@@ -327,7 +327,7 @@ Read the competitor docs folder and write the teardown back as a shareable Doc.
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 
@@ -401,11 +401,11 @@ Make what we've done in this task so far into a skill, or edit the /design-criti
 
 ## Make it repeatable[](https://academy.claude.com/use-cases/design-heuristic-audit)
 
-### Make it a live artifact[](https://academy.claude.com/use-cases/design-heuristic-audit)
+### Share it as an artifact[](https://academy.claude.com/use-cases/design-heuristic-audit)
 
-Competitors ship weekly; a static teardown ages fast. Ask Cowork to publish the scorecard as a live artifact and product leadership has one link that stays current — re-run the skill or schedule it to refresh.
+Competitors ship weekly; a static teardown ages fast. Ask Cowork to publish the scorecard as an artifact and product leadership has one link — re-run the skill or schedule it to refresh.
 
-Publish that teardown scorecard as a live artifact. Keep a "what changed since last quarter" note at the top.
+Publish that teardown scorecard as an artifact. Keep a "what changed since last quarter" note at the top.
 
 
 

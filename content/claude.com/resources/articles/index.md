@@ -18,6 +18,16 @@ Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude
 
 [ArticleOct 8, 2026
 
+### Building effective agent automations
+
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
+
+[ArticleOct 8, 2026
+
 ### How Block orchestrates Claude Fable across thousands of pull requests
 
 Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
@@ -42,12 +52,6 @@ Claude Platform
 
 (opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
 
-[ArticleOct 6, 2026
-
-### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
-
-Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)
-
 [ArticleOct 8, 2026
 
 ### Build live dashboards and animate explainers with Claude
@@ -60,9 +64,17 @@ Featured resource 1 of 5: Build live dashboards and animate explainers with Clau
 
 Advanced filters
 
-Showing 11 of 279 resources
+Showing 11 of 280 resources
 
 [ArticleOct 8, 2026
+
+### Building effective agent automations
+
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 8, 2026
 
 ### How Block orchestrates Claude Fable across thousands of pull requests
 
@@ -120,12 +132,6 @@ Claude Code
 
 See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
 
-Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)[ArticleOct 1, 2026
-
-### Getting started with Claude Code mods
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)
 
 View more

@@ -4,7 +4,7 @@ Lesson 2 of 4 · AI Fluency for pK-12 Train the TrainerHow to use the kit
 
 Lesson 21 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-pk-12-train-the-trainer%2Fhow-to-use-the-kit)
 

@@ -2,7 +2,7 @@
 
 Claude plots every funder in one view — odds, award, deadline, effort — and you filter, test scenarios, ask for a prioritization, narrow down together. For decisions where no single sort order shows the full picture.
 
-15 minResearchClaude.ai
+15 minResearchClaude
 
 Try in ClaudeCopy prompt
 

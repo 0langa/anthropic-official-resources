@@ -4,7 +4,7 @@ Lesson 9 of 13 · AI capabilities and limitationsTry It Out: Working Memory
 
 Lesson 910 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-capabilities-and-limitations%2Ftry-it-out-q7hdjm9twcbt)
 

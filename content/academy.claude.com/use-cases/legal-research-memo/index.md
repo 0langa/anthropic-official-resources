@@ -281,15 +281,15 @@ Litigation LegalManages the litigation portfolio — matters, deadlines, holds, 
 
 `/brief-section-drafter`Draft a brief section in house style, consistent with the case theory — every fact cited, every case checked, every argument tied to the theory.
 
-[Run](claude://cowork/new?q=%2Fbrief-section-drafter)
+[Open in Cowork](claude://cowork/new?q=%2Fbrief-section-drafter)
 
 `/chronology`Build or update a chronology from declared document sources and uploads — dated events extracted, de-duped, and tagged by significance per the matter theory.
 
-[Run](claude://cowork/new?q=%2Fchronology)
+[Open in Cowork](claude://cowork/new?q=%2Fchronology)
 
 `/cold-start-interview`House cold-start for the litigation plugin — branches by role (in-house, firm associate, solo) and side (plaintiff, defense, both), captures risk calibration, landscape, and house style, and writes the practice profile.
 
-[Run](claude://cowork/new?q=%2Fcold-start-interview)
+[Open in Cowork](claude://cowork/new?q=%2Fcold-start-interview)
 
 Show all 19 skills
 
@@ -329,7 +329,7 @@ Pull prior memos on the same question from the matter workspace so the answer bu
 
 [Connect](https://claude.ai/desktop/directory/imanage)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 ### Set the working folder[](https://academy.claude.com/use-cases/legal-research-memo)
 
@@ -435,7 +435,7 @@ In Cowork, open **Skills** → `/research-memo` → **Share** and pick your team
 
 ### Now in your Cowork
 
-Your processes
+Your plugins
 
 Litigation Legal plugin
 
@@ -443,7 +443,7 @@ Your tools
 
 CoCounsel Legal (Thomson Reuters)![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23F25022'%20d='M1%201h10.5v10.5H1z'/%3e%3cpath%20fill='%237FBA00'%20d='M12.5%201H23v10.5H12.5z'/%3e%3cpath%20fill='%2300A4EF'%20d='M1%2012.5h10.5V23H1z'/%3e%3cpath%20fill='%23FFB900'%20d='M12.5%2012.5H23V23H12.5z'/%3e%3c/svg%3e)Microsoft 365iManage
 
-Your workspace
+Your folder
 
 Research
 

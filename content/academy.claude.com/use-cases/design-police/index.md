@@ -372,11 +372,11 @@ DesignAccelerate design workflows — critique, design system management, UX wri
 
 `/design-system`Audit, document, or extend your design system.
 
-[Run](claude://cowork/new?q=%2Fdesign-system)
+[Open in Cowork](claude://cowork/new?q=%2Fdesign-system)
 
 `/ux-copy`Write or review UX copy — microcopy, error messages, empty states, CTAs.
 
-[Run](claude://cowork/new?q=%2Fux-copy)
+[Open in Cowork](claude://cowork/new?q=%2Fux-copy)
 
 Show all 7 skills
 
@@ -410,7 +410,7 @@ Post the daily drift summary to the design-system channel for triage.
 
 [Connect](https://claude.ai/desktop/directory/slack)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 
@@ -480,11 +480,11 @@ Make what we've done in this task so far into a skill, or edit the /design-syste
 
 ## Make it repeatable[](https://academy.claude.com/use-cases/design-police)
 
-### Make it a live artifact[](https://academy.claude.com/use-cases/design-police)
+### Share it as an artifact[](https://academy.claude.com/use-cases/design-police)
 
-Drift compounds quietly between sprints. Ask Cowork to publish the report as a live artifact and the design-system team has one link that stays current — re-run the skill or schedule it to refresh.
+Drift compounds quietly between sprints. Ask Cowork to publish the report as an artifact and the design-system team has one link — re-run the skill or schedule it to refresh.
 
-Publish that drift report as a live artifact for the design-system channel. Keep a running tally of high-severity items still open.
+Publish that drift report as an artifact for the design-system channel. Keep a running tally of high-severity items still open.
 
 
 

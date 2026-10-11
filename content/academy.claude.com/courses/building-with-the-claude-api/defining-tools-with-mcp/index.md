@@ -4,13 +4,13 @@ Lesson 50 of 67 · Building with the Claude APIDefining tools with MCP
 
 Lesson 5010 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fdefining-tools-with-mcp)
 
 Building an MCP server becomes much simpler when you use the official Python SDK. Instead of manually writing complex JSON schemas for tools, the SDK handles all that complexity for you with decorators and type hints.
 
-![](https://academy.claude.com/assets/media/082a7bf4d70a5440dbc71382538ecb6fd90826314c5f0e8571928b66e3fa580d.jpg)
+![Our MCP server with tools to read and update a doc, connected to document.pdf, spreadsheet.xlsx, report.txt and spec.md.](https://academy.claude.com/assets/media/082a7bf4d70a5440dbc71382538ecb6fd90826314c5f0e8571928b66e3fa580d.jpg)
 
 In this example, we're creating an MCP server that manages documents stored in memory. The server will provide two essential tools: one to read document contents and another to update them through find-and-replace operations.
 
@@ -43,7 +43,7 @@ docs = {
 
 ## Tool Definition with Decorators[](https://academy.claude.com/courses/building-with-the-claude-api/defining-tools-with-mcp)
 
-![](https://academy.claude.com/assets/media/489447300492aceda00605d30f46a8f7042c9a26a20d90e7c1ea7c704ab97b64.jpg)
+![Our MCP server with tools to read and update a doc, connected to document.pdf, spreadsheet.xlsx, report.txt and spec.md.](https://academy.claude.com/assets/media/489447300492aceda00605d30f46a8f7042c9a26a20d90e7c1ea7c704ab97b64.jpg)
 
 The SDK transforms tool creation from a verbose process into something clean and readable. Instead of writing lengthy JSON schemas, you use Python decorators and type hints.
 

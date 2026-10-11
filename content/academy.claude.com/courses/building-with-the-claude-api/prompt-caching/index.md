@@ -4,7 +4,7 @@ Lesson 43 of 67 · Building with the Claude APIPrompt caching
 
 Lesson 432 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fprompt-caching)
 
@@ -14,11 +14,11 @@ Prompt caching is a feature that speeds up Claude's responses and reduces the co
 
 To understand prompt caching, let's first look at what happens during a typical request without caching enabled.
 
-![](https://academy.claude.com/assets/media/f34cfa8bf918544d8a4e65f33ee2a4a05df4b0e28c320fe58209e698fe879d0f.jpg)
+![A typical request: our server sends Claude a user message, "Summarize this long text:" then a text placeholder.](https://academy.claude.com/assets/media/f34cfa8bf918544d8a4e65f33ee2a4a05df4b0e28c320fe58209e698fe879d0f.jpg)
 
 When you send a message to Claude, it doesn't immediately start generating a response. Instead, Claude does a tremendous amount of preprocessing work on your input:
 
-![](https://academy.claude.com/assets/media/2c5fc9b8ab8589af3aaf26b0c0665ec1a9e089f9179e38b8f8465d286c104709.jpg)
+![The first three of the steps below are work done on the input message only; the fourth generates the summary Claude returns.](https://academy.claude.com/assets/media/2c5fc9b8ab8589af3aaf26b0c0665ec1a9e089f9179e38b8f8465d286c104709.jpg)
 
 - Tokenizes the prompt into smaller pieces
 - Creates embeddings for each token
@@ -27,31 +27,31 @@ When you send a message to Claude, it doesn't immediately start generating a res
 
 After sending you the response, Claude throws away all this computational work - the tokenization, embeddings, and context analysis all get discarded.
 
-![](https://academy.claude.com/assets/media/c5670ac3a8561da33cfc6e7a1422f0ea6c4b3ff4be41950c6052ae130f608365.jpg)
+![Claude says "I'm ready to process the next request!" while the four steps listed above sit in a dashed box labeled "Trash".](https://academy.claude.com/assets/media/c5670ac3a8561da33cfc6e7a1422f0ea6c4b3ff4be41950c6052ae130f608365.jpg)
 
 ## The Problem with Discarding Work[](https://academy.claude.com/courses/building-with-the-claude-api/prompt-caching)
 
 This becomes inefficient when you make follow-up requests that include the same content. For example, in a conversation where you're asking Claude to refine a summary of the same long text:
 
-![](https://academy.claude.com/assets/media/162ab5f5fd0caa46c6da9ebc1b3027957dbd1134738199add3b54de2f830b602.jpg)
+![Follow up request sends Claude the same summarize message as before, its summary, and a user message asking for more focus.](https://academy.claude.com/assets/media/162ab5f5fd0caa46c6da9ebc1b3027957dbd1134738199add3b54de2f830b602.jpg)
 
 Claude has to repeat all the same preprocessing work on content it just analyzed moments ago. As Claude might think to itself: "I just processed that message and threw away all the work I did - I could have reused it!"
 
-![](https://academy.claude.com/assets/media/3e5343f6f0943e88aac09a6b77080067181f0f6a66a7248b75c87567b34c5d11.jpg)
+![Follow-up request of three messages: a user request to summarize a long text, the summary, then a request for more focus.](https://academy.claude.com/assets/media/3e5343f6f0943e88aac09a6b77080067181f0f6a66a7248b75c87567b34c5d11.jpg)
 
 ## How Prompt Caching Solves This[](https://academy.claude.com/courses/building-with-the-claude-api/prompt-caching)
 
 Prompt caching changes this workflow by saving the preprocessing work instead of discarding it:
 
-![](https://academy.claude.com/assets/media/c53467e87036b0620d17f59efb60a8f2f2901c8b45932d3cbb1a86d9d8385797.jpg)
+![Claude's preprocessing steps, such as tokenizing the prompt, now sit in the Cache box, and the Trash box is empty.](https://academy.claude.com/assets/media/c53467e87036b0620d17f59efb60a8f2f2901c8b45932d3cbb1a86d9d8385797.jpg)
 
 When you make an initial request, Claude performs all the usual preprocessing but stores the results in a cache instead of throwing them away. The cache acts like a lookup table that says "If I ever see this message again, I'll reuse this work I already did."
 
-![](https://academy.claude.com/assets/media/4bbeab1fdbfa0b11b72db93eb6bf1387decf17ac54318d1a57a341b731914bb9.jpg)
+![Cache table pairing a user message that asks Claude to summarize a long text with the three preprocessing steps it saves.](https://academy.claude.com/assets/media/4bbeab1fdbfa0b11b72db93eb6bf1387decf17ac54318d1a57a341b731914bb9.jpg)
 
 ## Key Benefits and Limitations[](https://academy.claude.com/courses/building-with-the-claude-api/prompt-caching)
 
-![](https://academy.claude.com/assets/media/78e580715d88f89b2704b59d9cf39db06990cf031d081efff2b72ba6df0d1603.jpg)
+![Diagram where the initial request writes "Work done to process message" into the cache and the follow up request reads it.](https://academy.claude.com/assets/media/78e580715d88f89b2704b59d9cf39db06990cf031d081efff2b72ba6df0d1603.jpg)
 
 Prompt caching offers several advantages:
 

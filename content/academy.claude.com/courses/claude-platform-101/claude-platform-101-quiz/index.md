@@ -6,6 +6,6 @@ Quiz 1 of 1 · Claude Platform 101Claude Platform 101 quiz
 
 ## Sign in to take the quiz
 
-Quizzes are graded on your account so your progress and completion-badge eligibility are saved. Sign in with your Claude account to start.
+Your quiz results and progress are saved to your Claude account.
 
 [Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-platform-101%2Fclaude-platform-101-quiz)

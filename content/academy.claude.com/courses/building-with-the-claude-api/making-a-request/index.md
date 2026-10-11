@@ -4,7 +4,7 @@ Lesson 3 of 67 · Building with the Claude APIMaking a request
 
 Lesson 315 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fmaking-a-request)
 
@@ -50,7 +50,7 @@ model = "claude-sonnet-4-5"
 
 The core of making API requests is the `client.messages.create()` function. This function requires three key parameters:
 
-![](https://academy.claude.com/assets/media/55f119c1083eb138edab083661b27282ea566c2ba8f0631589b49da134ab941e.png)
+![The client.messages.create call with callouts labeling its three parameters, model, max_tokens and messages, listed below.](https://academy.claude.com/assets/media/55f119c1083eb138edab083661b27282ea566c2ba8f0631589b49da134ab941e.png)
 
 - **model** - The name of the Claude model you want to use
 - **max\_tokens** - A safety limit on response length (not a target)
@@ -62,7 +62,7 @@ The `max_tokens` parameter acts as a safety mechanism. If you set it to 1000, Cl
 
 Messages represent the conversation between you and Claude, similar to a chat application. There are two types of messages:
 
-![](https://academy.claude.com/assets/media/2c405eb7735d611b01e3a8883390c6d64f8d0cc48cd3c00f078278e34a8e46fc.png)
+![Chat window where the user message asks "What is quantum computing?" and the assistant message is the AI reply defining it.](https://academy.claude.com/assets/media/2c405eb7735d611b01e3a8883390c6d64f8d0cc48cd3c00f078278e34a8e46fc.png)
 
 - **User messages** - Content you want to send to Claude (written by humans)
 - **Assistant messages** - Responses that Claude has generated

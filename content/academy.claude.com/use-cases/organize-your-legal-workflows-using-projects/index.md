@@ -2,7 +2,7 @@
 
 Stop explaining your review standards for every contract. Claude Projects let you upload your playbooks once and reference them automatically across hundreds of reviews.
 
-15 minLegalClaude.ai
+15 minLegalClaude
 
 Try in ClaudeCopy prompt
 

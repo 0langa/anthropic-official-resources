@@ -218,11 +218,11 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 
 `/close-management`Manage the month-end close process with task sequencing, dependencies, and status tracking.
 
-[Run](claude://cowork/new?q=%2Fclose-management)
+[Open in Cowork](claude://cowork/new?q=%2Fclose-management)
 
 `/variance-analysis`Decompose financial variances into drivers with narrative explanations and waterfall analysis.
 
-[Run](claude://cowork/new?q=%2Fvariance-analysis)
+[Open in Cowork](claude://cowork/new?q=%2Fvariance-analysis)
 
 Show all 7 skills
 
@@ -256,7 +256,7 @@ Read the approved headcount plan from the FP&A planning folder.
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 
@@ -370,7 +370,7 @@ You did this for one period. The same approach covers payroll-to-GL, contractor 
 
 [![](https://academy.claude.com/surfaces/excel-icon.svg)
 
-Claude in Excel
+Claude for Excel
 
 Pivot the differences by department in place
 

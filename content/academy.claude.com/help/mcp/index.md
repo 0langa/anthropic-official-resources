@@ -1,6 +1,6 @@
 # Use Claude Academy from Claude
 
-Claude Academy is Anthropic’s free learning site for Claude. The Claude Academy connector lets Claude search Academy’s courses, tutorials and use cases and read them for you in the conversation — read-only, free, no account or sign-in.
+Claude Academy is Anthropic’s free learning site for Claude. The Claude Academy connector lets Claude search Academy’s courses, tutorials, and use cases and read them for you in the conversation. It’s read-only, and you don’t need an account or sign-in.
 
 ## What the connector does
 
@@ -8,31 +8,31 @@ The connector is a Model Context Protocol (MCP) server at `https://academy.claud
 
 ### Search Claude Academy `search_academy`
 
-Keyword search across courses, lessons, tutorials and use cases, optionally limited to one kind of content or one product. Returns ranked results with links, and says which pages include video.
+Keyword search across courses, lessons, tutorials, and use cases, optionally limited to one kind of content or one product. Returns ranked results with links, and says which pages include video.
 
 ### Get a Claude Academy item `get_content`
 
-Reads one item by its Academy path or URL. Lessons, tutorials and use cases come back in full; a course returns its summary, objectives and ordered lesson list. A quiz or members-only lesson returns its summary, objectives and outline — open it on the site. A page with video says how many.
+Reads one item by its Academy path or URL. Lessons, tutorials, and use cases come back in full; a course returns its summary, objectives, and ordered lesson list. A quiz or members-only lesson returns its summary, objectives, and outline — open it on the site. A page with video says how many.
 
 ### List Claude Academy content `list_content`
 
 Lists everything published on Academy, optionally filtered by kind or product. Courses show their lesson count; lessons are listed only when you ask for kind=lesson (or through their course). Items with video say how many.
 
-Content is English-language; Academy’s translated pages are not searched. You can filter by kind (course, lesson, tutorial, use case) and by product — Claude.ai, Claude Cowork, Claude Code, the Claude Platform and the other products Academy covers.
+Content is English-language; Academy’s translated pages aren’t searched. You can filter by kind (course, lesson, tutorial, use case) and by product — Claude, Claude Cowork, Claude Code, the Claude Platform, and the other products Academy covers.
 
 ## How to add it
 
-### Claude.ai and Claude Desktop
+### Claude on the web and desktop
 
 1. Open [Customize → Connectors(opens in new tab)](https://claude.ai/customize/connectors) and choose **Discover**.
-2. Find **Claude Academy** and click **Connect**. There is nothing to sign in to — it is ready immediately.
+2. Find **Claude Academy** and click **Connect**. There is nothing to sign in to — it’s ready immediately.
 3. In a chat, open the tools menu and make sure Claude Academy is enabled.
 
 On Team and Enterprise plans an organization owner or admin may need to enable the connector for the organization first. If it is not in the directory yet, add it as a custom connector named “Claude Academy” with the URL `https://academy.claude.com/mcp`.
 
 ### Claude Cowork
 
-Cowork uses the same connectors as Claude.ai: connect it once under [Customize → Connectors(opens in new tab)](https://claude.ai/desktop/customize/connectors) and it is available in Cowork sessions.
+Cowork uses the same connectors as Claude on the web and desktop: connect it once under [Customize → Connectors(opens in new tab)](https://claude.ai/desktop/customize/connectors) and it is available in Cowork sessions.
 
 ### Claude Code
 
@@ -42,7 +42,7 @@ Then `/mcp` inside Claude Code shows it as connected.
 
 ### Other MCP clients
 
-It is a standard Streamable HTTP server. Opening [https://academy.claude.com/mcp(opens in new tab)](https://academy.claude.com/mcp) in a browser returns a ready-to-paste JSON configuration snippet.
+It’s a standard Streamable HTTP server. Opening [https://academy.claude.com/mcp(opens in new tab)](https://academy.claude.com/mcp) in a browser returns a ready-to-paste JSON configuration snippet.
 
 ## Try these prompts
 
@@ -74,19 +74,19 @@ Search covers English content only, and the index refreshes with each site relea
 
 ### A lesson came back as an outline only
 
-That lesson is a quiz, or is members-only on the site, so the connector carries its summary, objectives and outline but no text. Follow the link to open it on academy.claude.com.
+That lesson is a quiz, or is members-only on the site, so the connector carries its summary, objectives, and outline but no text. Follow the link to open it on academy.claude.com.
 
 ### “not\_found” or “invalid\_path” when opening a URL
 
-Reading an item uses the path of the link you give, for example `/tutorials/…`, `/courses/…` or `/use-cases/…` on academy.claude.com, or the full URL starting with https://; a typo gives not\_found. Check the link, or search first and use a result’s URL.
+Reading an item uses the path of the link you give, for example `/tutorials/…`, `/courses/…`, or `/use-cases/…` on academy.claude.com, or the full URL starting with https://; a typo gives not\_found. Check the link, or search first and use a result’s URL.
 
-### My progress, badges and certificates are missing
+### My progress and completion badges are missing
 
-The connector only reads public learning content. Sign in at academy.claude.com for your progress, badges and certificates.
+The connector only reads public learning content. Sign in at academy.claude.com to see your progress and completion badges.
 
 ## Privacy
 
-The connector is anonymous: there is no account, sign-in or token, and it does not know who you are or see your conversation. It receives only the search words or page path Claude sends for a tool call and returns public Academy content. Server logs record which tool was called, the filter values used, the Academy page that was read, how many results came back or an error code, and the MCP client’s reported name and version — never the search text or who you are.
+The connector is anonymous: there’s no account, sign-in, or token, and it doesn’t know who you are or see your conversation. It receives only the search words or page path Claude sends for a tool call and returns public Academy content. Server logs record which tool was called, the filter values used, the Academy page that was read, how many results came back or an error code, and the MCP client’s reported name and version — never the search text or who you are.
 
 Anthropic’s [Privacy Policy(opens in new tab)](https://www.anthropic.com/legal/privacy) and [Usage Policy(opens in new tab)](https://www.anthropic.com/legal/aup) apply.
 

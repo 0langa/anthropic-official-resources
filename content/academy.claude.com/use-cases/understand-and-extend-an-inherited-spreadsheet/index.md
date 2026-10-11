@@ -2,7 +2,7 @@
 
 Understand existing formulas and structure then add new data while preserving the original logic.
 
-15 minFinanceClaude.ai
+15 minFinanceClaude
 
 Try in ClaudeCopy prompt
 

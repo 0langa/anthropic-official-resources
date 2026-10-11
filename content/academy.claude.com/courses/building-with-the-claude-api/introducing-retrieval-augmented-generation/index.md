@@ -4,7 +4,7 @@ Lesson 32 of 67 · Building with the Claude APIIntroducing Retrieval Augmented G
 
 Lesson 325 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fintroducing-retrieval-augmented-generation)
 
@@ -14,7 +14,7 @@ Retrieval Augmented Generation (RAG) is a technique that helps you work with lar
 
 Imagine you have an 800-page financial document and want to ask Claude specific questions about it, like "What risk factors does this company have?" You need to get the relevant information from the document to Claude somehow, but there are limits to how much text you can include in a prompt.
 
-![](https://academy.claude.com/assets/media/9336e1577fd9c397b25891aef6ab72ae5cea185403ce12afb76a0566caf23337.jpg)
+![The document is private, so Claude has no idea what it contains, with sections such as Executive Summary and Risk Factors.](https://academy.claude.com/assets/media/9336e1577fd9c397b25891aef6ab72ae5cea185403ce12afb76a0566caf23337.jpg)
 
 ## Option 1: Include Everything in the Prompt[](https://academy.claude.com/courses/building-with-the-claude-api/introducing-retrieval-augmented-generation)
 
@@ -34,7 +34,7 @@ Answer the user's question about the financial document.
 
 
 
-![](https://academy.claude.com/assets/media/0796a27b99d2c77ccbc31d43070d0943b40e7fb8e1668fde77ab94a7a7d877b2.jpg)
+![The whole financial report fed into the prompt above, headed "Possibly not the best solution", with limitations listed below.](https://academy.claude.com/assets/media/0796a27b99d2c77ccbc31d43070d0943b40e7fb8e1668fde77ab94a7a7d877b2.jpg)
 
 This approach has serious limitations:
 
@@ -47,11 +47,11 @@ This approach has serious limitations:
 
 RAG takes a smarter approach. First, you break the document into smaller chunks during a preprocessing step. Then, when a user asks a question, you find the chunks most relevant to their question and only include those in your prompt.
 
-![](https://academy.claude.com/assets/media/4d4ba32470789119f07aa38a33c0cf0ab06879fcc0898efaa0a419d96ec941d7.jpg)
+![Financial report split into six chunks of text, such as Strategy Outlook, Balance Sheet and Auditor's Report.](https://academy.claude.com/assets/media/4d4ba32470789119f07aa38a33c0cf0ab06879fcc0898efaa0a419d96ec941d7.jpg)
 
 Here's how it works: if someone asks "What risks does this company face?" you'd search through your chunks, find the "Risk Factors" section, and include just that relevant chunk in your prompt.
 
-![](https://academy.claude.com/assets/media/c853f036f94bee925a22769e20c8725ceac55ea509fb3eb3541e39711327a239.jpg)
+![Six chunks such as Strategy Outlook, Balance Sheet and Market Data, with the user's question and a chunk fed into the prompt.](https://academy.claude.com/assets/media/c853f036f94bee925a22769e20c8725ceac55ea509fb3eb3541e39711327a239.jpg)
 
 ## Benefits of RAG[](https://academy.claude.com/courses/building-with-the-claude-api/introducing-retrieval-augmented-generation)
 

@@ -1,28 +1,12 @@
-![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
-
 # Introduction to agentic coding
 
 Move from fragmented AI code snippets to deploying integrated features with agentic coding that understands your entire codebase.
 
-- Category
-
-  [Claude Code](https://claude.com/blog/category/claude-code)
-- Product
-
-  [Claude Code](https://claude.com/product/claude-code)
-- Date
-
-  October 30, 2025
-- Reading time
-
-  6
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/introduction-to-agentic-coding)
-
-  https://claude.com/blog/introduction-to-agentic-coding
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude Code
+- DateOctober 30, 2025
+- Reading time11 min
+- ShareCopy link
 
 AI-assisted coding has evolved rapidly over the last few years. Tools that once suggested the next line now predict entire functions by analyzing patterns in your code.
 
@@ -72,17 +56,21 @@ This autonomous workflow transforms development from "write code, run tests, rea
 
 [**Claude Code**](https://claude.com/product/claude-code) brings agentic capabilities to your terminal environment. Unlike browser-based tools requiring constant code copying or IDE extensions analyzing only visible files, Claude Code operates directly within your project directory with full access to your codebase.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e957237e0e3c2bd4694735_CLI.png)
+![](https://assets.claude.com/28bee07bc13c3fd99bca98a1a6f9b3342f142c5f.png)
 
 ### Installation and launch
 
 Install Claude Code in your terminal:
+
+Copy
 
 ```
 npm install -g @anthropic-ai/claude-code
 ```
 
 Then launch it in your project directory to start coding:
+
+Copy
 
 ```
 claude
@@ -112,7 +100,7 @@ You can extend these capabilities further by connecting Model Context Protocol (
 
 [Rakuten's](https://www.claude.com/customers/rakuten) engineering team challenged Claude Code's agentic capabilities with implementing a specific activation vector extraction method in vLLM, an open-source library containing 12.5 million lines of code across Python, C++, and CUDA. Claude Code completed the entire implementation in seven hours of sustained autonomous work.
 
-> "I didn't write any code during those seven hours, I just provided occasional guidance"
+> “"I didn't write any code during those seven hours, I just provided occasional guidance"”
 
 - Kenta Naruse, Machine Learning Engineer at Rakuten
 
@@ -131,6 +119,8 @@ As Yusuke Kaji, General Manager of AI for Business at Rakuten, explained: "You c
 
 After installing [Claude Code](https://claude.com/product/claude-code) with npm, navigate to a project directory and start a session:
 
+Copy
+
 ```
 claude
 ```
@@ -138,6 +128,8 @@ claude
 Experiment with a few different tasks to see how Claude Code understands your codebase.
 
 ### Understand project architecture
+
+Copy
 
 ```
 Explain the structure of this codebase and how the main components interact
@@ -147,6 +139,8 @@ Claude Code reads your files and provides an architectural overview, helping you
 
 ### Analyze code quality
 
+Copy
+
 ```
 Review the authentication module for potential security issues
 ```
@@ -155,13 +149,15 @@ Claude Code examines the relevant code, identifies concerns like exposed credent
 
 ### Debug and fix errors
 
+Copy
+
 ```
 Find all N+1 query problems in our GraphQL resolvers and implement DataLoader batching
 ```
 
 Claude Code analyzes your entire codebase, identifies specific ORM patterns causing N+1 problems, and implements a fix.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e987d14948904419dfaa21_8.png)
+![](https://assets.claude.com/7e07257129d4da98f2d7d472c40cbb422e100c3d.png)
 
 ## Start slow, then expand
 
@@ -174,27 +170,9 @@ As you work with Claude Code, you develop intuition for which tasks benefit most
 
 Each interaction provides an opportunity to learn how Claude Code approaches problems within your specific codebase. Get started with [Claude Code](https://claude.com/product/claude-code) or visit our [docs](https://docs.claude.com/en/docs/claude-code/overview) to learn more.
 
-No items found.
+## FAQ
 
-[Prev](https://claude.com/blog/introduction-to-agentic-coding)Prev
-
-0/5
-
-[Next](https://claude.com/blog/introduction-to-agentic-coding)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-### What's the difference between agentic coding and traditional AI coding assistants?
+What's the difference between agentic coding and traditional AI coding assistants?
 
 Traditional AI coding tools suggest individual functions or code snippets based on immediate context. You handle integration, testing, and ensuring the code follows your project conventions.
 
@@ -202,15 +180,15 @@ Agentic coding tools understand your entire project, plan implementation approac
 
 ‍
 
-### How long can agentic coding tools work autonomously?
+How long can agentic coding tools work autonomously?
 
 Agentic coding tools like Claude Code can work for extended periods maintaining context and building on previous work. Rakuten's seven-hour autonomous refactoring session demonstrates sustained technical work without human intervention. The duration depends on your task complexity and project requirements.
 
-### Do I need to change my development workflow to use agentic coding?
+Do I need to change my development workflow to use agentic coding?
 
 [Claude Code](https://claude.com/product/claude-code) integrates with your existing development workflows through terminal integration. You can incorporate it into your current practices gradually, starting with specific tasks like testing or documentation before expanding to complete feature development.
 
-### What types of projects work best with agentic coding?
+What types of projects work best with agentic coding?
 
 Agentic coding works across project types and languages. It's particularly valuable for projects with established patterns and conventions, complex integration requirements, or routine development tasks that consume significant time.
 
@@ -218,80 +196,52 @@ Your TypeScript/JavaScript, Python, Go, and Rust projects see immediate benefits
 
 ‍
 
-### How does agentic coding handle project-specific requirements?
+How does agentic coding handle project-specific requirements?
 
 Claude Code uses **CLAUDE.md** configuration files that document your coding standards, architectural decisions, and project-specific requirements. These files persist across your sessions, ensuring consistent implementations that follow your established practices.
 
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+[ArticleOct 8, 2026
 
-Aug 21, 2026
+### Building effective agent automations
 
-### The AI-native SDLC playbook
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
 
-Enterprise AI
+Claude Platform
 
-[The AI-native SDLC playbook](https://claude.com/blog/introduction-to-agentic-coding)The AI-native SDLC playbook
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 7, 2026
 
-[The AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook)The AI-native SDLC playbook
+### Automating eval design and hillclimbing with Claude
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-Sep 24, 2026
+Claude Platform
 
-### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
+
+### Claude Code in the cloud: a field guide to cloud sessions
+
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
 
 Claude Code
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/introduction-to-agentic-coding)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
 
-[Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
 
-Sep 23, 2026
-
-### How to prepare for AI-driven code modernization projects
-
-Enterprise AI
-
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/introduction-to-agentic-coding) How to prepare for AI-driven code modernization projects
-
-[How to prepare for AI-driven code modernization projects](https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects) How to prepare for AI-driven code modernization projects
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
-
-Sep 17, 2026
-
-### Projects redesigned: from folder to conversation
-
-Product announcements
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/introduction-to-agentic-coding)Projects redesigned: from folder to conversation
-
-[Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned)Projects redesigned: from folder to conversation
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/introduction-to-agentic-coding)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

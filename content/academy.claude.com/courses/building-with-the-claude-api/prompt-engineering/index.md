@@ -4,19 +4,19 @@ Lesson 15 of 67 · Building with the Claude APIPrompt engineering
 
 Lesson 1515 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fprompt-engineering)
 
 Prompt engineering is about taking a prompt you've written and improving it to get more reliable, higher-quality outputs. This process involves iterative refinement - starting with a basic prompt, evaluating its performance, then systematically applying engineering techniques to improve it.
 
-![](https://academy.claude.com/assets/media/135340165a55b554a968a55352c565b5d180ee9d685cc339021feb685f620efa.png)
+![Prompt evaluation, automated testing of prompts, leads to prompt engineering practices such as structuring with XML tags.](https://academy.claude.com/assets/media/135340165a55b554a968a55352c565b5d180ee9d685cc339021feb685f620efa.png)
 
 ## The Iterative Improvement Process[](https://academy.claude.com/courses/building-with-the-claude-api/prompt-engineering)
 
 The approach follows a clear cycle that you can repeat until you achieve your desired results:
 
-![](https://academy.claude.com/assets/media/c932d83fda9997cf44eedfc316055d33807ac4050bf2818a482afb1bc4f96693.png)
+![Five prompt engineering steps, repeating the last two, and a note to use the improved eval pipeline in 001_prompting.ipynb.](https://academy.claude.com/assets/media/c932d83fda9997cf44eedfc316055d33807ac4050bf2818a482afb1bc4f96693.png)
 
 1. **Set a goal** - Define what you want your prompt to accomplish
 2. **Write an initial prompt** - Create a basic first attempt
@@ -30,7 +30,7 @@ You repeat the last two steps until you're satisfied with the performance. Each 
 
 To demonstrate this process, we'll work with a practical example: creating a prompt that generates one-day meal plans for athletes. The prompt needs to take into account an athlete's height, weight, goals, and dietary restrictions, then produce a comprehensive meal plan.
 
-![](https://academy.claude.com/assets/media/38a6bdc804f9e639fe11c3770baccc08aa7669075905278386f1f01cbd413ffe.png)
+![Input height 180cm, weight 75kg, goal "maintain weight and improve power", lactose intolerance, output about 3000 calories.](https://academy.claude.com/assets/media/38a6bdc804f9e639fe11c3770baccc08aa7669075905278386f1f01cbd413ffe.png)
 
 The evaluation setup uses a `PromptEvaluator` class that handles dataset generation and model grading. When creating your evaluator instance, you can control concurrency with the `max_concurrent_tasks` parameter:
 
@@ -113,11 +113,11 @@ This helps ensure your prompt is evaluated against the specific requirements tha
 
 After running an evaluation, you'll get both a numerical score and a detailed HTML report. The report shows you exactly how each test case performed, including the model's reasoning for each score.
 
-![](https://academy.claude.com/assets/media/2fd0f9ee259eec89733058334e131c87c93a044ab903477ced9e647b681c7a42.png)
+![Prompt Evaluation Report with 50 test cases, average score 2.3 of 10 and a 0.0 percent pass rate, then a row per case.](https://academy.claude.com/assets/media/2fd0f9ee259eec89733058334e131c87c93a044ab903477ced9e647b681c7a42.png)
 
 Don't be discouraged by low initial scores - a score of 2.3 out of 10 is typical for a first attempt. The goal is to see consistent improvement as you apply engineering techniques.
 
-![](https://academy.claude.com/assets/media/5c83046a90e65b8d86f42b83334b201c7b01071c9c7f88803dc2568a65ed45c5.png)
+![Prompt Evaluation Report with 50 test cases, average score 2.3 of 10 and a 0.0 percent pass rate, then a row per case.](https://academy.claude.com/assets/media/5c83046a90e65b8d86f42b83334b201c7b01071c9c7f88803dc2568a65ed45c5.png)
 
 The detailed evaluation report helps you understand exactly where your prompt is failing and what improvements are needed. Use this feedback to guide your next iteration.
 

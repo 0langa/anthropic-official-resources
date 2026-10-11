@@ -4,7 +4,7 @@ Lesson 5 of 13 · AI capabilities and limitationsTry It Out: Next Token Predicti
 
 Lesson 55 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-capabilities-and-limitations%2Ftry-it-out)
 

@@ -2,7 +2,7 @@
 
 With Claude as your research partner, analyze gene expression data to identify patterns and form testable hypotheses about biological mechanisms, while Claude handles the computational heavy lifting of bioinformatics and literature synthesis.
 
-10 minClaude.ai
+10 minClaude
 
 Try in ClaudeCopy prompt
 

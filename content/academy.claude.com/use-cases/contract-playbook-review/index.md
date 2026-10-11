@@ -257,15 +257,15 @@ Commercial LegalReviews vendor agreements, NDAs, and SaaS subscriptions against 
 
 `/review`Review a vendor agreement, NDA, or SaaS subscription against your playbook.
 
-[Run](claude://cowork/new?q=%2Freview)
+[Open in Cowork](claude://cowork/new?q=%2Freview)
 
 `/escalation-flagger`Route a contract issue to the right approver per the escalation matrix in your practice profile, and draft the ask.
 
-[Run](claude://cowork/new?q=%2Fescalation-flagger)
+[Open in Cowork](claude://cowork/new?q=%2Fescalation-flagger)
 
 `/cold-start-interview`Run the cold-start interview to learn your commercial contracts practice and write your team practice profile.
 
-[Run](claude://cowork/new?q=%2Fcold-start-interview)
+[Open in Cowork](claude://cowork/new?q=%2Fcold-start-interview)
 
 Show all 9 skills
 
@@ -313,7 +313,7 @@ Read the incoming draft and your playbook from the matter workspace; the clause 
 
 [Connect](https://claude.ai/desktop/directory/netdocuments)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 ### Set the working folder[](https://academy.claude.com/use-cases/contract-playbook-review)
 
@@ -387,11 +387,11 @@ Make what we've done in this task so far into a skill, or edit the /review skill
 
 ## Make it repeatable[](https://academy.claude.com/use-cases/contract-playbook-review)
 
-### Make it a live artifact[](https://academy.claude.com/use-cases/contract-playbook-review)
+### Share it as an artifact[](https://academy.claude.com/use-cases/contract-playbook-review)
 
-A review memo is stale the moment opposing counsel sends v4. Ask Cowork to publish the clause table as a live artifact and the deal team has one link that stays current — re-run the skill or schedule it to refresh.
+A review memo is stale the moment opposing counsel sends v4. Ask Cowork to publish the clause table as an artifact and the deal team has one link — re-run the skill or schedule it to refresh.
 
-Publish that clause table as a live artifact for the deal team. Re-run it against whatever the latest counterparty draft is in this folder, and keep a short "what changed since last turn" note at the top.
+Publish that clause table as an artifact for the deal team. Re-run it against whatever the latest counterparty draft is in this folder, and keep a short "what changed since last turn" note at the top.
 
 
 
@@ -435,7 +435,7 @@ You did this for one MSA. The same approach works for NDAs, DPAs, and vendor agr
 
 [![](https://academy.claude.com/surfaces/word-icon.svg)
 
-Claude in Word
+Claude for Word
 
 Draft the redline as tracked changes
 

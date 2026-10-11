@@ -4,7 +4,7 @@ Lesson 11 of 67 · Building with the Claude APIGenerating test datasets
 
 Lesson 1120 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fgenerating-test-datasets)
 
@@ -20,7 +20,7 @@ Our prompt needs to assist users in writing three specific types of output for A
 
 The key requirement is that when a user requests help with a task, we return clean output in one of these formats without any extra explanations, headers, or footers.
 
-![](https://academy.claude.com/assets/media/6d85c55bc852b848bbb2134be168cea47694efd00ca16c27d916ac5b42d693b3.png)
+![The goal, input and output for the AWS code prompt, and the prompt labeled Prompt v1, which is shown in the code below.](https://academy.claude.com/assets/media/6d85c55bc852b848bbb2134be168cea47694efd00ca16c27d916ac5b42d693b3.png)
 
 Here's our starting prompt (version 1):
 
@@ -39,7 +39,7 @@ An evaluation dataset contains inputs that we'll feed into our prompt. For each 
 
 Our dataset will be an array of JSON objects, where each object contains a "task" property describing what we want Claude to accomplish. We can either create this dataset by hand or generate it automatically using Claude.
 
-![](https://academy.claude.com/assets/media/3cd11bc1bff4b671835524c61c0e5d23159f0cc6fe7b91e6a2e89171afd008a2.png)
+![JSON array of task objects, such as "Create a Python function to extract the AWS account ID from an ARN", then many more.](https://academy.claude.com/assets/media/3cd11bc1bff4b671835524c61c0e5d23159f0cc6fe7b91e6a2e89171afd008a2.png)
 
 Since we're generating test data, this is a perfect opportunity to use a faster model like Haiku instead of the full Claude model.
 

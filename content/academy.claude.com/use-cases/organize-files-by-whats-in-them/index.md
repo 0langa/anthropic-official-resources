@@ -24,7 +24,7 @@ Please help organize my desktop. Evaluate all of the scattered files and organiz
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
-Cowork is a workspace in Claude, available in the [Claude Desktop(opens in new tab)](https://claude.com/download) app and, with remote sessions (in beta), on web and mobile. Run locally, it works directly with your local files: grant it access to your desktop and it navigates and moves files the same way you would, no uploading required. In a remote session, Cowork works in the cloud instead, so the files Claude uses leave your device for processing on Anthropic's servers.
+Cowork is a workspace in Claude, available in the [Claude Desktop(opens in new tab)](https://claude.com/download) app and on web and mobile. To organize files on your computer, start the task in Claude Desktop and grant it access to your desktop or a folder. Claude reaches those files through the desktop app while it's open, and the files it uses are processed on Anthropic's servers.
 
 ### Required context[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
@@ -98,9 +98,9 @@ Set up folder conventions you can maintain. One cleanup helps, but a system keep
 
 ## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
-### Local sessions keep your files on your computer[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
+### Where Cowork works on your files[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
-When Cowork organizes files right on your computer, it works locally and nothing gets uploaded anywhere. It can see and move your files on your machine, same as if you did it yourself. If you run Cowork tasks in the cloud instead, the files Claude uses leave your device and are processed on Anthropic's servers.
+Cowork reaches only the folders you've connected, with the permissions you've set. A task that runs in the cloud reads and writes those files through the Claude Desktop app, so start it from the desktop app and keep the app open. The files Claude uses in the cloud are processed on Anthropic's servers.
 
 ### Start with one area if you're nervous[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 

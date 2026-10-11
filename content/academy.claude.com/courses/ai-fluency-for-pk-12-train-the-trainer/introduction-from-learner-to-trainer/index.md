@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Understand why educator voice belongs at the center of AI decisions
 - Know what's in the kit and how to use it to run your own session
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-pk-12-train-the-trainer%2Fintroduction-from-learner-to-trainer)
 

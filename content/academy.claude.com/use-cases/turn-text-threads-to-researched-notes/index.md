@@ -2,7 +2,7 @@
 
 Search messages for information, research answers, and create organized notes directly in your Notes app.
 
-15 minPersonalClaude.ai
+15 minPersonalClaude
 
 Try in ClaudeCopy prompt
 
@@ -56,7 +56,7 @@ A desktop extension of the Claude app on a Mac — enable it under Desktop exten
 
 [Connect](https://claude.ai/customize/connectors)
 
-Browse all connectors[Open in Claude](https://claude.ai/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/customize/connectors)
 
 ### Optional context[](https://academy.claude.com/use-cases/turn-text-threads-to-researched-notes)
 

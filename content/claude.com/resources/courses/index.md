@@ -1,6 +1,6 @@
 # Courses
 
-Structured learning paths with video lessons and assessments to help you master AI collaboration, Claude development, and MCP.
+Courses on working with AI, building with Claude, and the Model Context Protocol (MCP).
 
 ## Start your journey
 

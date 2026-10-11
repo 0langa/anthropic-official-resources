@@ -4,7 +4,7 @@ Lesson 38 of 67 · Building with the Claude APIA Multi-Index RAG pipeline
 
 Lesson 388 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fa-multi-index-rag-pipeline)
 
@@ -14,7 +14,7 @@ We've built separate implementations for semantic search (using vector embedding
 
 Both our VectorIndex and BM25Index classes share nearly identical APIs - they both have `add_document()` and `search()` methods. This consistency makes it straightforward to wrap them together in a new class called Retriever.
 
-![](https://academy.claude.com/assets/media/841de3dd2498b6abea4ec4b1c8e249bf013c75fda5306e8ebb4291126d1adebd.jpg)
+![A user question goes to both semantic search, with embeddings and a vector database, and lexical search, then results merge.](https://academy.claude.com/assets/media/841de3dd2498b6abea4ec4b1c8e249bf013c75fda5306e8ebb4291126d1adebd.jpg)
 
 The Retriever acts as a coordinator that forwards user queries to both indexes, collects their results, and merges them using a technique called reciprocal rank fusion.
 
@@ -22,14 +22,14 @@ The Retriever acts as a coordinator that forwards user queries to both indexes, 
 
 Merging results from different search methods isn't as simple as just concatenating lists. Each method uses different scoring systems, so we need a way to normalize and combine their rankings fairly.
 
-![](https://academy.claude.com/assets/media/6a0de30359d580ae3cb7891111b887273e564ebedbb26b42ed70bbe1501a5dae.jpg)
+![Tables of ranks 1 to 3 from VectorIndex, scored 0.234, 0.913 and 1.327, and BM25Index, scored 0.184, 0.414 and 0.781.](https://academy.claude.com/assets/media/6a0de30359d580ae3cb7891111b887273e564ebedbb26b42ed70bbe1501a5dae.jpg)
 
 Here's how reciprocal rank fusion works with an example. Let's say we search for information about "INC-2023-Q4-011" and get these results:
 
 - VectorIndex returns: Section 2 (rank 1), Section 7 (rank 2), Section 6 (rank 3)
 - BM25Index returns: Section 6 (rank 1), Section 2 (rank 2), Section 7 (rank 3)
 
-![](https://academy.claude.com/assets/media/0e763ee4ad98f118835eae963cd07ebad356935b7b3572b60bd088caeba15ccc.jpg)
+![The VectorIndex and BM25Index ranked chunk lists merging into one table giving each text chunk its rank from both indexes.](https://academy.claude.com/assets/media/0e763ee4ad98f118835eae963cd07ebad356935b7b3572b60bd088caeba15ccc.jpg)
 
 We combine these into a single table showing each text chunk's rank from both indexes, then apply the RRF formula:
 
@@ -41,7 +41,7 @@ RRF_score(d) = Σ(1 / (k + rank_i(d)))
 
 Where k is a constant (often 60, but we'll use 1 for clearer results) and rank\_i(d) is the rank of document d in the i-th ranking.
 
-![](https://academy.claude.com/assets/media/391f12a30a1f250062b7bfa66a3877163f9dc5edfc1613ac0128a2ca3cc1c54a.jpg)
+![Table of each chunk's rank from vector and BM25 and its RRF score, noting a higher score means a more relevant chunk.](https://academy.claude.com/assets/media/391f12a30a1f250062b7bfa66a3877163f9dc5edfc1613ac0128a2ca3cc1c54a.jpg)
 
 For our example:
 
@@ -49,7 +49,7 @@ For our example:
 - Section 7: 1.0/(1+2) + 1.0/(1+3) = 0.583
 - Section 6: 1.0/(1+3) + 1.0/(1+1) = 0.75
 
-![](https://academy.claude.com/assets/media/d9bd5a5627706194dba4a8e65f051923d1048f3da5f26daabc0b2ba7e81f9e28.jpg)
+![Table of three text chunks with their vector and BM25 ranks, RRF score and final rank; higher score means more relevant.](https://academy.claude.com/assets/media/d9bd5a5627706194dba4a8e65f051923d1048f3da5f26daabc0b2ba7e81f9e28.jpg)
 
 The final ranking becomes: Section 2 (0.833), Section 6 (0.75), Section 7 (0.583). This makes intuitive sense - Section 2 performed well in both indexes, so it rises to the top.
 
@@ -96,11 +96,11 @@ This demonstrates how combining semantic and lexical search can overcome the lim
 
 ## Extensibility[](https://academy.claude.com/courses/building-with-the-claude-api/a-multi-index-rag-pipeline)
 
-![](https://academy.claude.com/assets/media/2dc7491d64f74713e58baf91cfb83fa2e0abc2bff8a962df866955ce0d2c5d68.jpg)
+![Retriever diagram: a user question goes to VectorIndex and BM25Index, whose results merge, plus a placeholder ???Index.](https://academy.claude.com/assets/media/2dc7491d64f74713e58baf91cfb83fa2e0abc2bff8a962df866955ce0d2c5d68.jpg)
 
 The beauty of this architecture is its extensibility. Since all indexes implement the same SearchIndex protocol with `add_document()` and `search()` methods, you can easily add new search methodologies:
 
-![](https://academy.claude.com/assets/media/b1af010519330112fe5663609bc83585f40020db179068956bae537d83fb5f13.jpg)
+![Retriever wrapping VectorIndex and BM25Index: the question about INC-2023-Q4-011 goes to both, whose results are merged.](https://academy.claude.com/assets/media/b1af010519330112fe5663609bc83585f40020db179068956bae537d83fb5f13.jpg)
 
 Want to add a keyword-based index? A graph-based search? A specialized domain index? Just implement the same interface and the Retriever will automatically incorporate it into the fusion process.
 

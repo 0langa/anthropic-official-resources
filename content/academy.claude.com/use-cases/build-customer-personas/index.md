@@ -2,7 +2,7 @@
 
 Create personas with demographics, goals, and pain points synthesized from your research data.
 
-15 minMarketingClaude.ai
+15 minMarketingClaude
 
 Try in ClaudeCopy prompt
 
@@ -46,7 +46,7 @@ Intercom
 
 [Connect](https://claude.ai/directory/intercom)
 
-Browse all connectors[Open in Claude](https://claude.ai/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/customize/connectors)
 
 
 

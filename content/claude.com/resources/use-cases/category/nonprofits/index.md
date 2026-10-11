@@ -1,10 +1,10 @@
 # Use cases
 
-Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you're working solo or with a team.
+Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you’re working solo or with a team.
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
-## Claude.ai
+## Claude
 
 [View all](https://academy.claude.com/all)
 
@@ -99,11 +99,11 @@ Claude Tag·Operations·10 min](https://academy.claude.com/use-cases/meeting-not
 
 # Use cases for Marketing
 
-Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you're working solo or with a team.
+Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you’re working solo or with a team.
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
-## Claude.ai
+## Claude
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-jiiwmich.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kfwebxwg.png)
 
@@ -164,11 +164,11 @@ Marketing·10 min](https://academy.claude.com/use-cases/repurpose-content)
 
 # Use cases for MarketingProduct
 
-Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you're working solo or with a team.
+Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you’re working solo or with a team.
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
-## Claude.ai
+## Claude
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-b9tjjlgm.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-c5dd1y7u.png)
 
@@ -223,7 +223,7 @@ Claude in Chrome·Product·10 min](https://academy.claude.com/use-cases/pull-met
 
 # Use cases for ProductEngineering
 
-Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you're working solo or with a team.
+Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you’re working solo or with a team.
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
@@ -280,11 +280,11 @@ Claude Tag·Engineering·10 min](https://academy.claude.com/use-cases/triage-on-
 
 # Use cases for EngineeringHR
 
-Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you're working solo or with a team.
+Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you’re working solo or with a team.
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
-## Claude.ai
+## Claude
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-e9dkyk9m.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bt4bz5c3.png)
 
@@ -321,11 +321,11 @@ HR·10 min](https://academy.claude.com/use-cases/performance-review-admin)
 
 # Use cases for HRFinance
 
-Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you're working solo or with a team.
+Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you’re working solo or with a team.
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
-## Claude.ai
+## Claude
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-kv9emaq4.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-oise4nkg.png)
 
@@ -388,11 +388,11 @@ Finance·10 min](https://academy.claude.com/use-cases/recon-journal-entries)
 
 # Use cases for FinanceOperations
 
-Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you're working solo or with a team.
+Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you’re working solo or with a team.
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
-## Claude.ai
+## Claude
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-lz7o5gud.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ithgdle4.png)
 
@@ -459,7 +459,7 @@ Claude Tag·Operations·10 min](https://academy.claude.com/use-cases/watch-the-e
 
 # Use cases for OperationsData
 
-Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you're working solo or with a team.
+Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you’re working solo or with a team.
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
@@ -486,11 +486,11 @@ Claude in Chrome·Product·10 min](https://academy.claude.com/use-cases/pull-met
 
 # Use cases for DataDesign
 
-Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you're working solo or with a team.
+Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you’re working solo or with a team.
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
-## Claude.ai
+## Claude
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-fboe5pt4.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ie2wjshc.png)
 
@@ -537,11 +537,11 @@ Design·15 min](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
 # Use cases for DesignLegal
 
-Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you're working solo or with a team.
+Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you’re working solo or with a team.
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
-## Claude.ai
+## Claude
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-kpyhwj19.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jva7o5v3.png)
 
@@ -592,11 +592,11 @@ Legal·15 min](https://academy.claude.com/use-cases/prep-scattered-documents-for
 
 # Use cases for LegalSales
 
-Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you're working solo or with a team.
+Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you’re working solo or with a team.
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
-## Claude.ai
+## Claude
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-h6tp8cgu.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-js7mbth9.png)
 
@@ -663,11 +663,11 @@ Claude in Chrome·Sales·10 min](https://academy.claude.com/use-cases/log-sales-
 
 # Use cases for SalesResearch
 
-Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you're working solo or with a team.
+Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you’re working solo or with a team.
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
-## Claude.ai
+## Claude
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-bfvgtn6m.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lunhnhkm.png)
 
@@ -714,11 +714,11 @@ Claude Tag·Research·10 min](https://academy.claude.com/use-cases/chart-a-metri
 
 # Use cases for ResearchEducation
 
-Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you're working solo or with a team.
+Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you’re working solo or with a team.
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
-## Claude.ai
+## Claude
 
 [View all](https://academy.claude.com/all)
 
@@ -761,11 +761,11 @@ Education·15 min](https://academy.claude.com/use-cases/adapt-a-standard-textboo
 
 # Use cases for EducationPersonal
 
-Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you're working solo or with a team.
+Browse practical examples across research, writing, coding, analysis, and everyday tasks, whether you’re working solo or with a team.
 
 GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearchEducationPersonal
 
-## Claude.ai
+## Claude
 
 [View all](https://academy.claude.com/all)
 

@@ -274,11 +274,11 @@ EngineeringStreamline engineering workflows — standups, code review, architect
 
 `/system-design`Design systems, services, and architectures.
 
-[Run](claude://cowork/new?q=%2Fsystem-design)
+[Open in Cowork](claude://cowork/new?q=%2Fsystem-design)
 
 `/architecture`Create or evaluate an architecture decision record (ADR).
 
-[Run](claude://cowork/new?q=%2Farchitecture)
+[Open in Cowork](claude://cowork/new?q=%2Farchitecture)
 
 Show all 10 skills
 
@@ -312,7 +312,7 @@ Pull the RFC template and publish the draft into your design-review database.
 
 [Connect](https://claude.ai/desktop/directory/notion)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 

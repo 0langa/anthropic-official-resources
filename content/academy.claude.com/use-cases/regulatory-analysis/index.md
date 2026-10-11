@@ -8,7 +8,7 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-btqx4o1h.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mbqnkmu3.png)
 
-Film: a self-playing walkthrough where the user asks Claude to check a new regulation against product descriptions and policies, producing an applicability brief with a dated action table, then shows scheduling the same check to rerun automatically for future rules.
+Film: a self-playing walkthrough where the user asks Claude to check a new regulation against product descriptions and policies, producing an applicability brief with a dated action table, then shows scheduling the same check to run every weekday on any new rules in a watched folder.
 
 eu-ai-act-final-text.pdf
 
@@ -152,7 +152,7 @@ Claude says what applies to each of your products, and why.
 
 Each rule that applies becomes a task with an owner and date.
 
-Run this every weekday: if a new file is in Regulatory / Watch, run the same brief against our product descriptions and policies and save it to a subfolder named for the rule.
+Run this every weekday: check Regulatory / Watch for new files. For each one, run the same brief against our product descriptions and policies and save it to a subfolder named for the rule.
 
 **New-regulation applicability brief**Weekdays at 9:00 AM
 
@@ -168,7 +168,7 @@ Claude Academy
 
 
 
-0:03 / 0:581×
+0:03 / 0:591×
 
 Illustration. Product screens are simplified.
 
@@ -188,7 +188,7 @@ Claude says what applies to each of your products, and why.
 
 Each rule that applies becomes a task with an owner and date.
 
-You can schedule the same brief for every new rule dropped into a watch folder.
+You can schedule the same brief to run every weekday on any new rules in a watch folder.
 
 You know which parts of the new rule apply, what to change, and by when.
 
@@ -218,15 +218,15 @@ Regulatory LegalWatches regulatory feeds, diffs new rules against your policy li
 
 `/policy-diff`Diff a specific regulatory change against the indexed policy library.
 
-[Run](claude://cowork/new?q=%2Fpolicy-diff)
+[Open in Cowork](claude://cowork/new?q=%2Fpolicy-diff)
 
 `/reg-feed-watcher`Check regulatory feeds now and report what's new since the last check, filtered by your materiality threshold.
 
-[Run](claude://cowork/new?q=%2Freg-feed-watcher)
+[Open in Cowork](claude://cowork/new?q=%2Freg-feed-watcher)
 
 `/cold-start-interview`Cold-start interview — builds your watchlist, indexes the policy library, and learns your materiality threshold so the monitor surfaces signal instead of noise.
 
-[Run](claude://cowork/new?q=%2Fcold-start-interview)
+[Open in Cowork](claude://cowork/new?q=%2Fcold-start-interview)
 
 Show all 8 skills
 
@@ -262,7 +262,7 @@ Ground the applicability brief in authoritative content with citations you can v
 
 [Connect](https://claude.ai/desktop/directory/cocounsel-legal)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 ### Set the working folder[](https://academy.claude.com/use-cases/regulatory-analysis)
 
@@ -370,7 +370,7 @@ In Cowork, open **Skills** → `/policy-diff` → **Share** and pick your teamma
 
 ### Now in your Cowork
 
-Your processes
+Your plugins
 
 Regulatory Legal plugin
 
@@ -378,7 +378,7 @@ Your tools
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)Google Drive![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23F25022'%20d='M1%201h10.5v10.5H1z'/%3e%3cpath%20fill='%237FBA00'%20d='M12.5%201H23v10.5H12.5z'/%3e%3cpath%20fill='%2300A4EF'%20d='M1%2012.5h10.5V23H1z'/%3e%3cpath%20fill='%23FFB900'%20d='M12.5%2012.5H23V23H12.5z'/%3e%3c/svg%3e)Microsoft 365
 
-Your workspace
+Your folder
 
 Regulatory
 

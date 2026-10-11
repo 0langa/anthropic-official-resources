@@ -4,7 +4,7 @@ Lesson 66 of 67 · Building with the Claude APIEnvironment inspection
 
 Lesson 662 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fenvironment-inspection)
 
@@ -14,7 +14,7 @@ When building AI agents, one crucial concept often gets overlooked: environment 
 
 Think about how Claude works with computer use. Every time Claude performs an action like typing text or clicking a button, it immediately receives a screenshot to understand what happened. This isn't just a nice-to-have feature - it's essential.
 
-![](https://academy.claude.com/assets/media/8fb6489f9d8bf216dc22ffefecae3dbdf9eb367a07f09ff53080d363473ab140.jpg)
+![Claude uses the computer tool to type "Did you read @", and the returned screenshot shows "Did you re" in the page text box.](https://academy.claude.com/assets/media/8fb6489f9d8bf216dc22ffefecae3dbdf9eb367a07f09ff53080d363473ab140.jpg)
 
 From Claude's perspective, clicking a button could navigate to a new page, open a menu, or trigger any number of changes. Without being able to see the results, Claude has no way to understand whether its action succeeded or what the new state of the environment looks like.
 
@@ -22,7 +22,7 @@ From Claude's perspective, clicking a button could navigate to a new page, open 
 
 This same principle applies to file operations. Before Claude can modify any file, it needs to understand the current contents. This might seem obvious, but it's a pattern you should always follow when building agents.
 
-![](https://academy.claude.com/assets/media/825e7df94d6e3891a5a84429752a55d1fd1e9235d055fd0dcc63749c409111a0.jpg)
+![Asked to add an "/items" route, Claude reads 31 lines of main.py, then updates it with 5 additions defining get_items.](https://academy.claude.com/assets/media/825e7df94d6e3891a5a84429752a55d1fd1e9235d055fd0dcc63749c409111a0.jpg)
 
 In the example above, when asked to add a new route to a Python file, Claude first reads the existing code to understand the current structure. Only then can it safely make the requested changes without breaking existing functionality.
 
@@ -30,7 +30,7 @@ In the example above, when asked to add a new route to a Python file, Claude fir
 
 You can guide Claude to inspect its environment through system prompts. For complex tasks like video generation, this becomes especially important.
 
-![](https://academy.claude.com/assets/media/e2c437773ebb87855e6b5aeca1780327e09ff202c87ef8850ca900132e1f5797.jpg)
+![The task to create a video on Python and post it to social media, tools such as bash, and a system prompt, sent to Claude.](https://academy.claude.com/assets/media/e2c437773ebb87855e6b5aeca1780327e09ff202c87ef8850ca900132e1f5797.jpg)
 
 Consider a video creation agent that needs to:
 

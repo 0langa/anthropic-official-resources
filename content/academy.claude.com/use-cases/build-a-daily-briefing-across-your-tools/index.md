@@ -114,7 +114,7 @@ Your first briefing request establishes context. Follow-up prompts can refine wi
 
 ### Briefings run remotely by default[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 
-A scheduled briefing runs on Anthropic's servers (remote sessions, in beta), so it's ready even while your laptop is closed and follows you across desktop, web, and mobile. If you're compiling something sensitive interactively, you can run that session locally and keep those files on your machine.
+A scheduled briefing runs on Anthropic's servers (remote sessions, in beta), so it's ready even while your laptop is closed and follows you across desktop, web, and mobile.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 

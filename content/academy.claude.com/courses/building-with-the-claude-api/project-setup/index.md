@@ -4,7 +4,7 @@ Lesson 49 of 67 · Building with the Claude APIProject setup
 
 Lesson 495 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fproject-setup)
 
@@ -19,7 +19,7 @@ Our chatbot will allow users to interact with a collection of documents through 
 - An MCP client that handles user interactions
 - A custom MCP server that manages document operations
 
-![](https://academy.claude.com/assets/media/d0ad72fc54e43e107b684b528bf7e47d626f4ae14b3be7462942e5c75f9772d8.jpg)
+![Our MCP client talks both ways with our MCP server, whose tools reach document.pdf, spreadsheet.xlsx, report.txt and spec.md.](https://academy.claude.com/assets/media/d0ad72fc54e43e107b684b528bf7e47d626f4ae14b3be7462942e5c75f9772d8.jpg)
 
 The server will provide two essential tools: one for reading document contents and another for updating them. All documents will be stored in memory for simplicity - no database required.
 
@@ -30,7 +30,7 @@ In real-world projects, you typically implement either an MCP client or an MCP s
 - An MCP server to expose your service to other developers
 - An MCP client to connect to existing MCP servers
 
-![](https://academy.claude.com/assets/media/7bfe22eedd2e29cbc789c11373941d64f342dd94001fcfa7a60b980315d6bd58.jpg)
+![Our server contains the MCP client, which communicates both ways with a separate MCP server.](https://academy.claude.com/assets/media/7bfe22eedd2e29cbc789c11373941d64f342dd94001fcfa7a60b980315d6bd58.jpg)
 
 We're building both components in this project purely for educational purposes - to understand how they communicate and work together.
 

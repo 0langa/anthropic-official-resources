@@ -2,7 +2,7 @@
 
 Build artifacts where the map is the menu. Select your state on an interactive map browse by category and export a printable reference.
 
-15 minPersonalClaude.ai
+15 minPersonalClaude
 
 Try in ClaudeCopy prompt
 
@@ -86,7 +86,7 @@ I've attached a photo of something I've found along the trail. Based on the imag
 
 ### Learn from what Claude builds—or reuse it directly[](https://academy.claude.com/use-cases/design-a-local-foraging-guide)
 
-Ask Claude to walk through the logic so you understand the pattern, not just the output. Or skip the explanation and copy the code directly from the artifact as a starting point for something new. See an example that reuses this pattern to create an [interactive gardening guide(opens in new tab)](https://claude.ai/public/artifacts/0a2e112a-90e2-4219-8d3e-5bfc12d26e2c).
+Ask Claude to walk through the logic so you understand the pattern, not just the output. Or skip the explanation and ask Claude for the code as a starting point for something new. See an example that reuses this pattern to create an [interactive gardening guide(opens in new tab)](https://claude.ai/public/artifacts/0a2e112a-90e2-4219-8d3e-5bfc12d26e2c).
 
 ### Keep refining in the same conversation[](https://academy.claude.com/use-cases/design-a-local-foraging-guide)
 

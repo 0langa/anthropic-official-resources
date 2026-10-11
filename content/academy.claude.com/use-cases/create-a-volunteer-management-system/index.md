@@ -2,7 +2,7 @@
 
 Create comprehensive volunteer documentation including role descriptions, onboarding processes, communication templates, and tracking tools that professionalize volunteer management and scale your program effectively.
 
-15 minOperationsClaude.ai
+15 minOperationsClaude
 
 Try in ClaudeCopy prompt
 

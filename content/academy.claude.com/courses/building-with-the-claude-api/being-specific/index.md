@@ -4,7 +4,7 @@ Lesson 17 of 67 · Building with the Claude APIBeing specific
 
 Lesson 175 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fbeing-specific)
 
@@ -12,7 +12,7 @@ When working with Claude, one of the most effective ways to improve your results
 
 Think about it this way: if you ask Claude to "write a short story about a character who discovers a hidden talent," Claude could go in countless directions. The story might be 200 words or 2,000 words. It might have one character or five. It could focus on any type of talent discovery scenario.
 
-![](https://academy.claude.com/assets/media/369e6e634eb42154aaf3f7556b6a44d2a40762bf7e657cf5798953211f0236c3.png)
+![The same short story prompt labeled "Not Great" beside a "Better!" version that adds three numbered guidelines.](https://academy.claude.com/assets/media/369e6e634eb42154aaf3f7556b6a44d2a40762bf7e657cf5798953211f0236c3.png)
 
 By adding specific guidelines, you give Claude a clearer target to aim for. This dramatically improves both the consistency and quality of the output.
 
@@ -20,7 +20,7 @@ By adding specific guidelines, you give Claude a clearer target to aim for. This
 
 There are two main approaches to being specific in your prompts, and you'll often see them used together in professional applications.
 
-![](https://academy.claude.com/assets/media/559eb8d6c6972037d53b153f4d4982147cd2500c28b50a44607ba101d31a0afa.png)
+![The same short story prompt twice, once with a list of qualities the output should have and once with four steps to follow.](https://academy.claude.com/assets/media/559eb8d6c6972037d53b153f4d4982147cd2500c28b50a44607ba101d31a0afa.png)
 
 ### Output Quality Guidelines[](https://academy.claude.com/courses/building-with-the-claude-api/being-specific)
 
@@ -77,7 +77,7 @@ Add step-by-step instructions when you're dealing with:
 - Critical thinking tasks
 - Any situation where you want Claude to consider multiple angles
 
-![](https://academy.claude.com/assets/media/b2d486f7abc21edf5eff45f496e925048b9576561ce269c6a8befdf89fd3254c.png)
+![An example prompt asking for a one page decision report on a sales team's 30% drop, with five numbered steps to follow.](https://academy.claude.com/assets/media/b2d486f7abc21edf5eff45f496e925048b9576561ce269c6a8befdf89fd3254c.png)
 
 For instance, if you're asking Claude to analyze why a sales team's performance dropped, you'd want to guide it through examining market metrics, industry changes, individual performance, organizational changes, and customer feedback - rather than letting it focus on just one potential cause.
 

@@ -1,32 +1,14 @@
-![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
-
 # What is Model Context Protocol? Connect AI to your world
 
 Connect AI assistants to your tools without custom integrations using Model Context Protocol.
 
-Explore Connectors
+[Explore Connectors](https://claude.com/partners/mcp)
 
-[Explore Connectors](https://claude.com/partners/mcp)Explore Connectors
-
-- Category
-
-  [Agents](https://claude.com/blog/category/agents)
-- Product
-
-  Claude apps
-- Date
-
-  October 31, 2025
-- Reading time
-
-  5
-
-  min
-- Share
-
-  [Copy link](https://claude.com/blog/what-is-model-context-protocol)
-
-  https://claude.com/blog/what-is-model-context-protocol
+- Category[Best practices](https://claude.com/resources/best-practices)
+- ProductClaude apps
+- DateOctober 31, 2025
+- Reading time10 min
+- ShareCopy link
 
 AI models are only as good as the context provided to them. AI assistants like [Claude](https://claude.ai/) can answer questions and perform an impressive range of tasks, but if they can't access the data or tools they need, they're limited in what they can do for you. You typically solve this by copying and pasting context from one tab to another, whether it's editing a document in Google Drive, replying to a thread in Slack, or updating code in an IDE. This process is slow, manual, and risks leaving out important context.
 
@@ -40,7 +22,7 @@ Think of MCP as **USB-C for LLMs**. Just as USB-C provides a universal connector
 
 MCP brings this same simplicity to AI integrations. Before MCP, every application and database required custom code to connect with LLMs. Google Drive needed its own integration, Slack needed another, Figma yet another. Now, MCP provides a single, standardized format for connecting these tools to Claude and other AI applications.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68f64b7d51a1d57549b3ad8e_What%20is%20MCP_%20Final%402x.png)
+![](https://assets.claude.com/3550e511af4336f4aba7c10df6c5ae18b3218a3b.png)
 
 ## Where did MCP come from?
 
@@ -50,7 +32,7 @@ MCP was created at Anthropic by David Soria Parra and Justin Spahr-Summers. The 
 
 MCP works through a two-sided approach. AI agents and chatbots like Claude create **MCP Clients**, so they can connect to applications like Notion, Canva, or Figma, who make their tools and data available through **MCP Servers**.
 
-By building an **MCP Client**, AI agents and chatbots can access thousands of MCP Servers built by the community, giving them a straightforward path to extend their capabilities. Agents can also reach MCP servers behind your firewall through [MCP tunnels](https://claude.com/blog/claude-managed-agents-updates). By building an **MCP Server**, companies and developers can make their products readily available to AI, creating a new avenue to provide value.
+By building an **MCP Client**, AI agents and chatbots can access thousands of MCP Servers built by the community, giving them a straightforward path to extend their capabilities. Agents can also reach MCP servers behind your firewall through [MCP tunnels](https://claude.com/resources/articles/claude-managed-agents-updates). By building an **MCP Server**, companies and developers can make their products readily available to AI, creating a new avenue to provide value.
 
 As MCP is open-source, anyone can build an MCP Server or Client.
 
@@ -102,19 +84,19 @@ The real value of MCP becomes clear when you see it in action with the tools you
 
 The Canva Connector allows Claude to generate new designs directly within Canva. Using MCP, Claude can connect to the tools Canva provides to generate designs on the canvas.
 
-Embedded media: https://www.youtube-nocookie.com/embed/wXC2u36w2Rc
+Embedded media: https://www.youtube-nocookie.com/embed/wXC2u36w2Rc?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 ### Notion and Linear in Claude
 
 Using the Notion and Linear Connectors, Claude can access your pages in Notion and use them to update tickets in Linear. Here MCP creates a seamless transfer of unstructured context into organized tickets in a separate project management system.
 
-Embedded media: https://www.youtube-nocookie.com/embed/xBV60h9\_lbw
+Embedded media: https://www.youtube-nocookie.com/embed/xBV60h9\_lbw?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 ### Figma in Claude Code
 
 The Figma Connector allows Claude to access designs within Figma. This lets Claude Code create working prototypes of websites, applications, or user interfaces based on designs created in Figma.
 
-Embedded media: https://www.youtube-nocookie.com/embed/dcKXca3Bs2o
+Embedded media: https://www.youtube-nocookie.com/embed/dcKXca3Bs2o?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
 ### Available Claude Connectors
 
@@ -130,7 +112,7 @@ Claude Connectors include integrations for:
 
 Each connector takes just a few seconds to configure to become part of Claude's working context. Outside of Claude, there is an ecosystem of MCP servers on the [open-source MCP Registry](https://modelcontextprotocol.io/).
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e948c50eec666207cdd811_2.png)
+![](https://assets.claude.com/f550b08fbbdb6cde2a8a6894dcaf89393d55a813.png)
 
 ## Start exploring MCP
 
@@ -150,112 +132,66 @@ If you want to try MCP, start by browsing for a Claude Connector you can immedia
 
 If an existing MCP server doesn't already exist, creating your own takes some work, but isn't too complex if you know TypeScript or Python. The [Model Context Protocol quickstart](https://modelcontextprotocol.io/quickstart) has working examples you can modify for your needs.
 
-No items found.
+## FAQ
 
-[Prev](https://claude.com/blog/what-is-model-context-protocol)Prev
-
-0/5
-
-[Next](https://claude.com/blog/what-is-model-context-protocol)Next
-
-eBook
-
-##
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
-
-Embedded media:
-
-FAQ
-
-### Is MCP only for Claude?
+Is MCP only for Claude?
 
 No. MCP is an open-source protocol. While Claude pioneered adoption of MCP, other AI providers have now adopted the same protocol, allowing anyone to connect to the same ecosystem of MCP servers.
 
-### Do I need programming skills to use MCP?
+Do I need programming skills to use MCP?
 
 Not for using [connectors](https://claude.com/partners/mcp). Browse, install, authenticate. That's it. Building custom MCP servers requires TypeScript or Python knowledge, but the growing [connector library](https://claude.com/partners/mcp) covers most mainstream tools.
 
-### How does security work for MCP?
+How does security work for MCP?
 
 Each server requests specific permissions to allow Claude to access it. You can approve or deny access and revoke permissions at any time.
 
-### What is the performance like for MCP?
+What is the performance like for MCP?
 
 MCP uses efficient protocols. Stdio transport for local servers provides minimal overhead. Server-sent events (SSE) and Streamable HTTP for remote servers maintain persistent connections. Response streaming prevents timeouts on large data operations. The protocol supports pagination, filtering, and partial responses to handle large datasets efficiently.
 
-## Related posts
+## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
+[ArticleOct 8, 2026
 
-Aug 26, 2026
+### Building effective agent automations
 
-### How Warp builds self-improving agents on Claude
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
 
-Agents
+Claude Platform
 
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/what-is-model-context-protocol)How Warp builds self-improving agents on Claude
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 7, 2026
 
-[How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude)How Warp builds self-improving agents on Claude
+### Automating eval design and hillclimbing with Claude
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
 
-Sep 29, 2026
+Claude Platform
 
-### Agents you can coach: how Asana builds human-agent teams with Claude
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
 
-Agents
+### Claude Code in the cloud: a field guide to cloud sessions
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/what-is-model-context-protocol)Agents you can coach: how Asana builds human-agent teams with Claude
+What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
 
-[Agents you can coach: how Asana builds human-agent teams with Claude](https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)Agents you can coach: how Asana builds human-agent teams with Claude
+Claude Code
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
 
-Sep 28, 2026
+### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
 
-### Giving companies more control over their AI agents, with NVIDIA
+See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
 
-Agents
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/what-is-model-context-protocol)Giving companies more control over their AI agents, with NVIDIA
-
-[Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia)Giving companies more control over their AI agents, with NVIDIA
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-Sep 8, 2026
-
-### Reducing cost and improving performance with Claude Platform
-
-Agents
-
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/what-is-model-context-protocol)Reducing cost and improving performance with Claude Platform
-
-[Reducing cost and improving performance with Claude Platform](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)Reducing cost and improving performance with Claude Platform
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)
 
 ## Transform how your organization operates with Claude
 
-See pricing
+[See pricing](https://claude.com/pricing)[Contact sales](https://claude.com/contact-sales)
 
-[See pricing](https://claude.com/pricing)See pricing
-
-Contact sales
-
-[Contact sales](https://claude.com/contact-sales)Contact sales
-
-Get the developer newsletter
+### Get the developer newsletter
 
 Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-[Subscribe](https://claude.com/blog/what-is-model-context-protocol)Subscribe
-
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
-
-Thank you! You’re subscribed.
-
-Sorry, there was a problem with your submission, please try again later.

@@ -2,7 +2,7 @@
 
 Learn to evaluate published statistics by checking them against raw data.
 
-15 minResearchClaude.ai
+15 minResearchClaude
 
 Try in ClaudeCopy prompt
 

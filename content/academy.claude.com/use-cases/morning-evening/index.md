@@ -232,11 +232,11 @@ Productivity6 skills for inbox sweeps, daily rundowns, meeting prep, and decisio
 
 `/start`Read calendar, inbox, and channels and write a one-page start-of-day briefing
 
-[Run](claude://cowork/new?q=%2Fstart)
+[Open in Cowork](claude://cowork/new?q=%2Fstart)
 
 `/update`Log what landed, what slipped, and queue tomorrow's opener
 
-[Run](claude://cowork/new?q=%2Fupdate)
+[Open in Cowork](claude://cowork/new?q=%2Fupdate)
 
 Show all 4 skills
 
@@ -282,7 +282,7 @@ Notion
 
 [Connect](https://claude.ai/desktop/directory/notion)
 
-Browse all connectors[Open in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
 
 

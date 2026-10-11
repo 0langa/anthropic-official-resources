@@ -4,7 +4,7 @@ Lesson 41 of 67 · Building with the Claude APIPDF support
 
 Lesson 414 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fpdf-support)
 
@@ -62,7 +62,7 @@ Claude's PDF processing capabilities go beyond simple text extraction. It can an
 
 This makes Claude essentially a one-stop solution for extracting any type of information from PDF documents, whether you need summaries, data analysis, or specific content extraction.
 
-![](https://academy.claude.com/assets/media/6cc28f96e5c7497f59f73de8868a22b1d33047ea4074f99dd4e0d993b16ebe90.jpg)
+![earth.pdf open over the notebook code, showing page 1 of 3 of the Wikipedia article Earth with a photo of Earth.](https://academy.claude.com/assets/media/6cc28f96e5c7497f59f73de8868a22b1d33047ea4074f99dd4e0d993b16ebe90.jpg)
 
 The example above shows Claude successfully processing a Wikipedia article about Earth that was saved as a PDF, demonstrating how it can understand and summarize complex document content in a single sentence.
 

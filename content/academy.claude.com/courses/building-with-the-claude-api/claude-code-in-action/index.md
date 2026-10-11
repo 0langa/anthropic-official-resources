@@ -4,13 +4,13 @@ Lesson 59 of 67 · Building with the Claude APIClaude Code in action
 
 Lesson 596 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fclaude-code-in-action)
 
 Claude Code isn't just a tool for writing code - it's designed to work alongside you throughout every phase of a software project. Think of it as another engineer on your team who can handle everything from initial setup to deployment and support.
 
-![](https://academy.claude.com/assets/media/75870c12a77b65c49c1dca513d3185f6c6b4ef834ec50693930c42ec9e6b22c7.jpg)
+![Five project phases, Discover, Design, Build, Deploy and "Support and Scale", each with three Claude Code tasks.](https://academy.claude.com/assets/media/75870c12a77b65c49c1dca513d3185f6c6b4ef834ec50693930c42ec9e6b22c7.jpg)
 
 ## The /init Command[](https://academy.claude.com/courses/building-with-the-claude-api/claude-code-in-action)
 
@@ -26,7 +26,7 @@ You can have multiple CLAUDE.md files for different scopes:
 
 When running `/init`, you can add special directions for areas you want Claude to focus on. The generated file will include build commands, coding guidelines, and project-specific patterns that Claude should follow.
 
-![](https://academy.claude.com/assets/media/8c58fa20841988d5575a0a2945a5c28c1b91de3e9dc219d7124bc7b1d00590b7.jpg)
+![Claude Code terminal with "/init" typed and the suggestion "Initialize a new CLAUDE.md file with codebase documentation".](https://academy.claude.com/assets/media/8c58fa20841988d5575a0a2945a5c28c1b91de3e9dc219d7124bc7b1d00590b7.jpg)
 
 You can also quickly add notes to your CLAUDE.md file using the `#` command. For example, typing `# Always use descriptive variable names` will prompt you to add this guideline to your project, local, or user memory.
 
@@ -34,7 +34,7 @@ You can also quickly add notes to your CLAUDE.md file using the `#` command. For
 
 Claude works best when you approach it as an effort multiplier. The more context and structure you provide, the better results you'll get. Here's the most effective workflow:
 
-![](https://academy.claude.com/assets/media/36bb6cefda973951d74b6802cbf419dcf534e0a4670600726efbd6c377a26b6d.jpg)
+![Three-step workflow: feed context into Claude, tell it to plan a solution, then ask it to implement, described below.](https://academy.claude.com/assets/media/36bb6cefda973951d74b6802cbf419dcf534e0a4670600726efbd6c377a26b6d.jpg)
 
 ### Step 1: Feed Context into Claude[](https://academy.claude.com/courses/building-with-the-claude-api/claude-code-in-action)
 
@@ -52,7 +52,7 @@ Once you have a solid plan, ask Claude to implement it. Claude will write code b
 
 For even better results, you can use a test-driven approach:
 
-![](https://academy.claude.com/assets/media/782fe3ea4ddc18e7561231913e54e244618f02b5f4a201102b46f298335854b5.jpg)
+![Claude Code terminal in VS Code with /clear typed, its help reading "Clear conversation history and free up context".](https://academy.claude.com/assets/media/782fe3ea4ddc18e7561231913e54e244618f02b5f4a201102b46f298335854b5.jpg)
 
 1. **Feed context into Claude** - Same as before, show Claude relevant files
 2. **Ask Claude to think of test cases** - Have Claude brainstorm what tests would validate your new feature

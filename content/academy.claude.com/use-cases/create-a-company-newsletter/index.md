@@ -2,7 +2,7 @@
 
 Stay informed with a publication-style digest that synthesizes company news from all your channels.
 
-10 minClaude.ai
+10 minClaude
 
 Try in ClaudeCopy prompt
 
@@ -58,7 +58,7 @@ Slack
 
 [Connect](https://claude.ai/directory/slack)
 
-Browse all connectors[Open in Claude](https://claude.ai/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/customize/connectors)
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/create-a-company-newsletter)
 
@@ -110,9 +110,9 @@ Add Chart.js visualizations: customer sentiment (positive vs issues, 4-week tren
 
 The prompt includes phrases like "Print-like typography" or "Institutional publishing elements". These descriptions help inspire Claude to design and format your information in a way that mimics digital publications and online news sites. Without them, Claude may default to more basic formatting.
 
-### Publish and share the artifact[](https://academy.claude.com/use-cases/create-a-company-newsletter)
+### Share the artifact[](https://academy.claude.com/use-cases/create-a-company-newsletter)
 
-After Claude creates an artifact, [publish and share it(opens in new tab)](https://support.claude.com/en/articles/9547008-discovering-publishing-customizing-and-sharing-artifacts) through the URL. Others can open it in the browser, without needing a Claude account. If someone requests changes, you can ask Claude to update the artifact and republish to display the new version.
+After Claude creates an artifact, [share it(opens in new tab)](https://support.claude.com/en/articles/9547008-share-artifacts) with a link. People you invite need a Claude account. If someone requests changes, you can ask Claude to update the artifact.
 
 ### Tune preferences over time and create skills[](https://academy.claude.com/use-cases/create-a-company-newsletter)
 

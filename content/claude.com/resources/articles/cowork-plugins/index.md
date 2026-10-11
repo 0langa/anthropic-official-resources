@@ -54,6 +54,14 @@ Explore more product news and best practices for teams building with Claude.
 
 [ArticleOct 8, 2026
 
+### Building effective agent automations
+
+A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
+
+Claude Platform
+
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 8, 2026
+
 ### Build live dashboards and animate explainers with Claude
 
 Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
@@ -72,13 +80,7 @@ Principles for designing evals and hillclimbing against them without fooling you
 
 Claude Platform
 
-(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
-
-### Claude now works with Google Docs, Sheets, and Slides
-
-Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta).
-
-Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
 
 ## Transform how your organization operates with Claude
 

@@ -2,7 +2,7 @@
 
 Create a visual comparison spreadsheet from research with images, ratings, and insights to simplify your travel planning.
 
-15 minPersonalClaude.ai
+15 minPersonalClaude
 
 Try in ClaudeCopy prompt
 

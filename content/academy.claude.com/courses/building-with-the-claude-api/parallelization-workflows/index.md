@@ -4,7 +4,7 @@ Lesson 62 of 67 · Building with the Claude APIParallelization workflows
 
 Lesson 623 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fparallelization-workflows)
 
@@ -14,19 +14,19 @@ When building AI applications, you'll often encounter tasks that seem simple on 
 
 Imagine you're building a material designer application where users upload images of parts and receive recommendations for the best material to use. Your first instinct might be to send the image to Claude with a simple prompt asking it to choose between metal, polymer, ceramic, composite, elastomer, or wood.
 
-![](https://academy.claude.com/assets/media/6134b073c1690e2611d33cfe57a507609803cf240b5121dd3a4ce25794ed7979.jpg)
+![A single message from the server to Claude with an image block and a text block asking which material suits the part.](https://academy.claude.com/assets/media/6134b073c1690e2611d33cfe57a507609803cf240b5121dd3a4ce25794ed7979.jpg)
 
 While this approach might work, you're asking Claude to do a lot of heavy lifting in a single request. Without specific criteria for each material type, the results won't be as reliable as they could be.
 
 You might think to improve this by adding detailed criteria for each material into one massive prompt. But this creates a new problem - Claude has to juggle all these different considerations simultaneously, which can lead to confusion and suboptimal results.
 
-![](https://academy.claude.com/assets/media/e330c0e6739aada8fe24e7e8d3ea5585ae19e889337ef841676d5c2c1f704630.jpg)
+![A single user message from the server to Claude with an image block and a text block of metal then polymer criteria.](https://academy.claude.com/assets/media/e330c0e6739aada8fe24e7e8d3ea5585ae19e889337ef841676d5c2c1f704630.jpg)
 
 ## A Better Approach: Parallelization[](https://academy.claude.com/courses/building-with-the-claude-api/parallelization-workflows)
 
 Instead of cramming everything into one request, you can split the task into multiple parallel requests. Each request focuses on evaluating the part for a single material type with specialized criteria.
 
-![](https://academy.claude.com/assets/media/63f8f53ec4207c51a5ab00d6c6ce131c5474111c70e4265c7d6bfaa12aa7fe67.jpg)
+![Four parallel user messages to Claude, each an image block and a text block of metal, polymer, ceramic or composite criteria.](https://academy.claude.com/assets/media/63f8f53ec4207c51a5ab00d6c6ce131c5474111c70e4265c7d6bfaa12aa7fe67.jpg)
 
 Here's how it works:
 
@@ -35,7 +35,7 @@ Here's how it works:
 - Claude evaluates the part's suitability for each material independently
 - Collect all the analysis results and feed them into a final aggregation step
 
-![](https://academy.claude.com/assets/media/f04eb0e6bb916a2feda6f38d2aaeacc77a9e5bd5b3691f98c490718822b5e716.jpg)
+![Four material criteria each go to Claude, and the four analysis results feed one Claude for a final material recommendation.](https://academy.claude.com/assets/media/f04eb0e6bb916a2feda6f38d2aaeacc77a9e5bd5b3691f98c490718822b5e716.jpg)
 
 The final step sends all the individual analysis results back to Claude with a request to compare them and make a final material recommendation.
 
@@ -43,7 +43,7 @@ The final step sends all the individual analysis results back to Claude with a r
 
 The parallelization pattern follows a simple structure:
 
-![](https://academy.claude.com/assets/media/a8cc3d1e7acd451749f86df00b2813bc473f08a6fe8dc0effd309bfaf1f736e1.jpg)
+![Diagram of one user task splitting into three parallelizable sub-tasks that feed an aggregator, with the steps listed below.](https://academy.claude.com/assets/media/a8cc3d1e7acd451749f86df00b2813bc473f08a6fe8dc0effd309bfaf1f736e1.jpg)
 
 - **Split a single task into multiple sub-tasks** - Break down the complex decision into focused, specialized evaluations
 - **Run the sub-tasks in parallel** - Execute all evaluations simultaneously for faster processing
