@@ -24,7 +24,7 @@ There was both an engineering challenge (the raw sizes of the models involved re
 
 As for the scientific risk, the proof is in the pudding.
 
-We successfully extracted millions of features from the middle layer of Claude 3.0 Sonnet, (a member of our current, state-of-the-art model family, currently available on [claude.ai](https://claude.ai/redirect/website.v1.7873c0e0-41e1-4ff2-9dfa-d64d1c747446)), providing a rough conceptual map of its internal states halfway through its computation. This is the first ever detailed look inside a modern, production-grade large language model.
+We successfully extracted millions of features from the middle layer of Claude 3.0 Sonnet, (a member of our current, state-of-the-art model family, currently available on [claude.ai](https://claude.ai/redirect/website.v1.687d30f0-4fa7-4b15-bb53-d1ce03049d65)), providing a rough conceptual map of its internal states halfway through its computation. This is the first ever detailed look inside a modern, production-grade large language model.
 
 Whereas the features we found in the toy language model were rather superficial, the features we found in Sonnet have a depth, breadth, and abstraction reflecting Sonnet's advanced capabilities.
 
@@ -86,20 +86,20 @@ For full details, please read our paper, "[Scaling Monosemanticity: Extracting I
 
 ## Related content
 
+### AI models may be capable of self-replicating without access to a datacenter
+
+Our experiments suggest that small AI models may be only months away from being capable enough to self-replicate on commercial IoT devices, like Android TVs and smart ovens.
+
+[Read more](https://www.anthropic.com/research/self-replicating-ai)
+
+### Strengthening our defenses against distillation attacks
+
+Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.
+
+[Read more](https://www.anthropic.com/research/distillation-defenses)
+
 ### Investigating unintended model actions in our evaluations and internal use
 
 This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude.
 
 [Read more](https://www.anthropic.com/research/investigating-unintended-model-actions)
-
-### The missing map of the sky
-
-Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.
-
-[Read more](https://www.anthropic.com/research/the-missing-map-of-the-sky)
-
-### Launching an opt-in vulnerability-finding service for open-source software
-
-We’re making available OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem that’s informed by our experience using Claude to find vulnerabilities during Project Glasswing.
-
-[Read more](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source)

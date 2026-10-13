@@ -38,6 +38,7 @@ https://platform.claude.com/docs/en/docs/build-with-claude/tool-useAnthropic
 https://platform.claude.com/docs/en/managed-agents/2000
 https://platform.claude.com/docs/en/mcp
 https://platform.claude.com/docs/en/release-notes/claude-code
+https://platform.claude.com/docs/mcp
 https://platform.claude.com/docs/videos/1
 https://platform.claude.com/docs/videos/3
 https://platform.claude.com/docs/videos/a

@@ -9,7 +9,7 @@ In this lessonBy the end, you’ll be able to
 - Describe 2-3 use-cases for claude.ai that you can try right away
 - Know where to go to find additional use-case inspiration
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-101%2Fclaude-in-action-use-cases-by-role)
 

@@ -22,7 +22,7 @@ There remain many open questions on what good guidance from AI really means or h
 
 ## **What kinds of guidance do people seek from Claude?**
 
-We sampled 1 million [claude.ai](http://claude.ai/redirect/website.v1.7873c0e0-41e1-4ff2-9dfa-d64d1c747446) conversations from March and April 2026 and filtered for unique users to get roughly 639,000 conversations. We then used a classifier to identify *personal guidance,* which we defined as conversations where people ask what *they specifically* should do in their personal lives—for example, questions that start with "Should I…?" or "What do I do about…?". We excluded questions that seek objective information or opinions in general terms.
+We sampled 1 million [claude.ai](http://claude.ai/redirect/website.v1.ab6d27e1-7974-4c13-96fd-570f93af0100) conversations from March and April 2026 and filtered for unique users to get roughly 639,000 conversations. We then used a classifier to identify *personal guidance,* which we defined as conversations where people ask what *they specifically* should do in their personal lives—for example, questions that start with "Should I…?" or "What do I do about…?". We excluded questions that seek objective information or opinions in general terms.
 
 We categorized these roughly 38,000 conversations into nine domains, drawing from previous research on AI and guidance-giving: relationships, career, personal development, financial, legal, health and wellness, parenting, ethics, and spirituality (see [Appendix](https://cdn.sanity.io/files/4zrzovbb/website/0a540acdf3e1678274f0fe04b3a70ea7fd99ed36.pdf) for more information). This taxonomy covered 98% of the conversations we saw.
 
@@ -100,20 +100,20 @@ Available [here.](https://cdn.sanity.io/files/4zrzovbb/website/0a540acdf3e167827
 
 ## Related content
 
+### AI models may be capable of self-replicating without access to a datacenter
+
+Our experiments suggest that small AI models may be only months away from being capable enough to self-replicate on commercial IoT devices, like Android TVs and smart ovens.
+
+[Read more](https://www.anthropic.com/research/self-replicating-ai)
+
+### Strengthening our defenses against distillation attacks
+
+Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.
+
+[Read more](https://www.anthropic.com/research/distillation-defenses)
+
 ### Investigating unintended model actions in our evaluations and internal use
 
 This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude.
 
 [Read more](https://www.anthropic.com/research/investigating-unintended-model-actions)
-
-### The missing map of the sky
-
-Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.
-
-[Read more](https://www.anthropic.com/research/the-missing-map-of-the-sky)
-
-### Launching an opt-in vulnerability-finding service for open-source software
-
-We’re making available OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem that’s informed by our experience using Claude to find vulnerabilities during Project Glasswing.
-
-[Read more](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source)

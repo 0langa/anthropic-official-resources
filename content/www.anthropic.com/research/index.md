@@ -54,6 +54,12 @@ Search
 
 DateCategoryTitle
 
+- [Oct 12, 2026Frontier Red Team
+
+  AI models may be capable of self-replicating without access to a datacenter](https://www.anthropic.com/research/self-replicating-ai)
+- [Oct 12, 2026
+
+  Strengthening our defenses against distillation attacks](https://www.anthropic.com/research/distillation-defenses)
 - [Oct 9, 2026Alignment
 
   Investigating unintended model actions in our evaluations and internal use](https://www.anthropic.com/research/investigating-unintended-model-actions)
@@ -78,12 +84,6 @@ DateCategoryTitle
 - [Sep 25, 2026Science
 
   Yes, Claude can do Nine Loops](https://www.anthropic.com/research/yes-claude-can-do-nine-loops)
-- [Sep 24, 2026Economics
-
-  Project Swap: What happens when agents trade for us?](https://www.anthropic.com/research/project-swap)
-- [Sep 17, 2026Science
-
-  How Claude is uplifting biomolecular modeling](https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling)
 
 [See more](https://www.anthropic.com/research)
 

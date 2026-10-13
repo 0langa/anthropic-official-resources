@@ -1,0 +1,107 @@
+[
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://js.hsforms.net/forms/embed/v2.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://assets.claude.ai/sdk/antalytics/atm/anthropic_com/latest.umd.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://assets.claude.ai/sdk/antalytics/latest.umd.js"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://a.anthropic.com/isolated-segment.html"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://www.googletagmanager.com/gtm.js"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/07-end-to-end-replication-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/04-inference-setup-grid-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/08-replication-with-setup-scripted-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/09-small-model-capability-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/10-learning-over-generations-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/11-advisor-access-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/12-single-attempt-vs-memento-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/13-memory-per-box-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/14-prefill-speed-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/15-decode-speed-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/16-context-window-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/17-tokens-per-memento-chain-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/19-device-population-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/20-spear-phishing-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/21-test-network-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/22-guidance-grid-light.html"
+  }
+]

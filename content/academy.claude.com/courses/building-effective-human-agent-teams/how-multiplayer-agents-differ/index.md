@@ -9,7 +9,7 @@ In this lessonBy the end, you’ll be able to
 - Distinguish the capabilities of a multiplayer agent from a traditional chatbot
 - Identify the specific team norms that help multiplayer agents support your team effectively
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-effective-human-agent-teams%2Fhow-multiplayer-agents-differ)
 

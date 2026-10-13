@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Recognize which shape of work a task calls for before you start it
 - Find where each way of working lives in the desktop app today
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-101%2Fclaude-desktop-app-chat-cowork-code)
 

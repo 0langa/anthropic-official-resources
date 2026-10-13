@@ -4,13 +4,13 @@ Lesson 28 of 67 · Building with the Claude APIUsing multiple tools
 
 Lesson 287 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fusing-multiple-tools)
 
 Adding multiple tools to your Claude implementation becomes straightforward once you have the core tool-handling infrastructure in place. This tutorial shows how to integrate additional tools by following a simple pattern.
 
-![](https://academy.claude.com/assets/media/a717f46eec75a1fd38b52f641b998d3b0877e98425f802cf5a5e8b0926b2e604.png)
+![The three tools we need: get the current date time, add duration to date time and set a reminder, described below.](https://academy.claude.com/assets/media/a717f46eec75a1fd38b52f641b998d3b0877e98425f802cf5a5e8b0926b2e604.png)
 
 ## The Tools We're Adding[](https://academy.claude.com/courses/building-with-the-claude-api/using-multiple-tools)
 
@@ -65,7 +65,7 @@ This request forces Claude to:
 1. Calculate the date (using `add_duration_to_datetime`)
 2. Set the reminder (using `set_reminder`)
 
-![](https://academy.claude.com/assets/media/d1666c8c7d26379c7ef52c5df390315ad9f3d22d441faad4789dc191c9cc6305.png)
+![Notebook output in which set_reminder prints "Setting the following reminder for 2050-06-27T00:00:00: Doctor's appointment".](https://academy.claude.com/assets/media/d1666c8c7d26379c7ef52c5df390315ad9f3d22d441faad4789dc191c9cc6305.png)
 
 Claude handles this by first explaining what it needs to do, then making the appropriate tool calls in sequence. The conversation shows Claude calculating June 27, 2050 as the target date, then setting the reminder for that date.
 
@@ -78,7 +78,7 @@ When you examine the conversation history, you'll see the complete message struc
 - Tool result messages
 - Follow-up assistant messages
 
-![](https://academy.claude.com/assets/media/8c76beac25f0c6a8dbe4d9a2aa9506676c93ce77e4fcc880f92c0c280f803abd.png)
+![Each assistant message pairs a TextBlock with a ToolUseBlock, and a tool result is "Monday, June 27, 2050 12:00:00 AM".](https://academy.claude.com/assets/media/8c76beac25f0c6a8dbe4d9a2aa9506676c93ce77e4fcc880f92c0c280f803abd.png)
 
 This demonstrates how Claude can include multiple blocks in a single message - combining explanatory text with tool usage requests.
 

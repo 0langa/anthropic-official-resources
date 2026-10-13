@@ -4,7 +4,7 @@ Lesson 23 of 67 · Building with the Claude APITool schemas
 
 Lesson 237 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Ftool-schemas)
 
@@ -14,7 +14,7 @@ After writing your tool function, the next step is creating a JSON schema that t
 
 JSON Schema isn't specific to AI or tool calling - it's a widely-used data validation specification that's been around for years. The AI community adopted it because it's a convenient way to describe function parameters and validate data.
 
-![](https://academy.claude.com/assets/media/7b614d403e976e500c5742d8337001a444f956a6cb079c01805d5d0da71d85d6.png)
+![JSON schema for a get_weather tool: input_schema is an object with a required string property "location".](https://academy.claude.com/assets/media/7b614d403e976e500c5742d8337001a444f956a6cb079c01805d5d0da71d85d6.png)
 
 The complete tool specification has three main parts:
 
@@ -31,7 +31,7 @@ Your tool description is crucial for helping Claude understand when to use your 
 - Explain what kind of data it returns
 - Provide detailed descriptions for each argument
 
-![](https://academy.claude.com/assets/media/770cad2cbde390cb5fabe30c8dd46046297c7491efdac77dce485f94c6580a5c.png)
+![Annotated get_weather tool schema with name, description and an input_schema describing a required location string.](https://academy.claude.com/assets/media/770cad2cbde390cb5fabe30c8dd46046297c7491efdac77dce485f94c6580a5c.png)
 
 ## The Easy Way to Generate Schemas[](https://academy.claude.com/courses/building-with-the-claude-api/tool-schemas)
 
@@ -44,7 +44,7 @@ Instead of writing JSON schemas from scratch, you can use Claude itself to gener
 
 The prompt should be something like: "Write a valid JSON schema spec for the purposes of tool calling for this function. Follow the best practices listed in the attached documentation."
 
-![](https://academy.claude.com/assets/media/99b70132340d9f18a0c4e56a6bcc5e1aae1e2d4625b4dc159ebc69131fad56f0.png)
+![Claude.ai new chat with the prompt and get_current_datetime function in the message box, and a tool use documentation tab.](https://academy.claude.com/assets/media/99b70132340d9f18a0c4e56a6bcc5e1aae1e2d4625b4dc159ebc69131fad56f0.png)
 
 ## Implementing the Schema in Code[](https://academy.claude.com/courses/building-with-the-claude-api/tool-schemas)
 

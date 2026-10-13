@@ -9,7 +9,7 @@ In this lessonBy the end, you’ll be able to
 - Explain how work changes when your team moves from single-player AI to multiplayer AI
 - Identify the specific team norms that help multiplayer agents support your team effectively
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-effective-human-agent-teams%2Fwhy-multiplayer-ai-matters)
 

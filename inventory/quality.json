@@ -265,6 +265,7 @@
     "https://www.anthropic.com/research/labor-market-impacts",
     "https://www.anthropic.com/research/measuring-agent-autonomy",
     "https://www.anthropic.com/research/project-swap",
+    "https://www.anthropic.com/research/self-replicating-ai",
     "https://www.anthropic.com/research/what-work-can-robots-do",
     "https://www.anthropic.com/research/your-thoughts-on-ai",
     "https://www.anthropic.com/transparency",
@@ -276,10 +277,10 @@
   ],
   "statuses": {
     "blocked": 27,
-    "complete": 4510,
+    "complete": 4512,
     "gone": 46,
-    "out_of_scope": 38,
-    "partial": 269
+    "out_of_scope": 39,
+    "partial": 270
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/dashboard",
@@ -322,6 +323,7 @@
     "https://platform.claude.com/docs/en/managed-agents/2000",
     "https://platform.claude.com/docs/en/mcp",
     "https://platform.claude.com/docs/en/release-notes/claude-code",
+    "https://platform.claude.com/docs/mcp",
     "https://platform.claude.com/docs/videos/1",
     "https://platform.claude.com/docs/videos/3",
     "https://platform.claude.com/docs/videos/a",
@@ -638,6 +640,7 @@
     "https://platform.claude.com/docs/en/managed-agents/2000",
     "https://platform.claude.com/docs/en/mcp",
     "https://platform.claude.com/docs/en/release-notes/claude-code",
+    "https://platform.claude.com/docs/mcp",
     "https://platform.claude.com/docs/videos/1",
     "https://platform.claude.com/docs/videos/3",
     "https://platform.claude.com/docs/videos/a",
@@ -742,6 +745,7 @@
     "https://www.anthropic.com/research/labor-market-impacts",
     "https://www.anthropic.com/research/measuring-agent-autonomy",
     "https://www.anthropic.com/research/project-swap",
+    "https://www.anthropic.com/research/self-replicating-ai",
     "https://www.anthropic.com/research/what-work-can-robots-do",
     "https://www.anthropic.com/research/your-thoughts-on-ai",
     "https://www.anthropic.com/resources",

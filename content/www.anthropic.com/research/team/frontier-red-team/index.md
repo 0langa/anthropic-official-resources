@@ -22,6 +22,9 @@ Search
 
 DateCategoryTitle
 
+- [Oct 12, 2026Frontier Red Team
+
+  AI models may be capable of self-replicating without access to a datacenter](https://www.anthropic.com/research/self-replicating-ai)
 - [Oct 8, 2026Frontier Red Team
 
   Launching an opt-in vulnerability-finding service for open-source software](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source)
@@ -49,8 +52,5 @@ DateCategoryTitle
 - [Jun 8, 2026Frontier Red Team
 
   Measuring LLMs’ impact on N-day exploits](https://www.anthropic.com/research/n-days)
-- [Jun 3, 2026Frontier Red Team
-
-  Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator](https://www.anthropic.com/research/attack-navigator)
 
 [See more](https://www.anthropic.com/research/team/frontier-red-team)

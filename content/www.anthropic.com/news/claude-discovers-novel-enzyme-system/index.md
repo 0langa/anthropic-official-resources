@@ -20,7 +20,7 @@ After reviewing the pre-print, Feng Zhang, one of the pioneers of CRISPR genome 
 
 We gave Claude a prompt to search through a massive database of DNA sequences for interesting new examples of RTs. Our involvement was limited to the initial prompt and the lab work, while Claude agents combed through the database, investigated the distinct RT families, and used their own judgment to identify interesting candidates. After 21 hours spent searching this data by roughly 950 agents using 210 million tokens, one of the agents spotted something remarkable: a repeating pattern of DNA sequences that occurs next to the gene for an odd-looking RT. After further analysis and testing in our lab, we recognized that this pattern marked a previously uncharacterized enzyme system found in bacteriophages (the viruses that infect bacteria) that we call array-associated reverse transcriptases (ART).
 
-Our work to understand the primary function of ARTs is ongoing. However, we think it is important to share such findings early, both to demonstrate Claude’s capabilities and to give the broader community insight into what we’re working on. We have released a pre-print ([here](https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf)) that discusses this in more detail.
+Our work to understand the primary function of ARTs is ongoing. However, we think it is important to share such findings early, both to demonstrate Claude’s capabilities and to give the broader community insight into what we’re working on. We have released a pre-print ([here](https://www.biorxiv.org/content/10.64898/2026.10.05.755809v1)) that discusses this in more detail.
 
 ## **About our lab**
 
@@ -54,7 +54,7 @@ The system it found, ART, is found mainly in bacteriophages and consists of thre
 
 Further experiments are underway to determine how ART works, and we are sharing these early findings to show the community that Claude can autonomously detect anomalies and drive analyses to initiate biological discoveries.
 
-You can find more detail in our technical report ([here](https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf)).
+You can find more detail in our technical report ([here](https://www.biorxiv.org/content/10.64898/2026.10.05.755809v1)).
 
 ## **Work with us**
 

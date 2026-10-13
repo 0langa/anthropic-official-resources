@@ -3547,6 +3547,8 @@ https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/miti
 https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations
 https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-latency
 https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-prompt-leak
+https://platform.claude.com/docs/mcp
+https://platform.claude.com/docs/mcp/server-card
 https://platform.claude.com/docs/videos/1
 https://platform.claude.com/docs/videos/3
 https://platform.claude.com/docs/videos/a
@@ -4733,6 +4735,7 @@ https://www.anthropic.com/research/diff-tool
 https://www.anthropic.com/research/discovering-cryptographic-weaknesses
 https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations
 https://www.anthropic.com/research/disempowerment-patterns
+https://www.anthropic.com/research/distillation-defenses
 https://www.anthropic.com/research/distributed-representations-composition-superposition
 https://www.anthropic.com/research/donating-open-source-petri
 https://www.anthropic.com/research/economic-index-geography
@@ -4813,6 +4816,7 @@ https://www.anthropic.com/research/reward-tampering
 https://www.anthropic.com/research/riemann-zeta
 https://www.anthropic.com/research/sabotage-evaluations
 https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data
+https://www.anthropic.com/research/self-replicating-ai
 https://www.anthropic.com/research/shade-arena-sabotage-monitoring
 https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training
 https://www.anthropic.com/research/small-samples-poison

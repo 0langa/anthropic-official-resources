@@ -38,7 +38,7 @@ Follow these steps to connect Claude in Chrome in your desktop app:
 
 4. Toggle the connector on, then download and install the extension if you haven’t already.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604933811/ae37c41fc808dbdf48d135338334/6cc9ba4b-9d31-43a2-ab80-8048b5f9d791?expires=1791632700&amp;signature=e758c4a4cdb3ae8227facc4272c28bf403f317d4e9e13ec1dce99fd6d5128f16&amp;req=diYnEsB9noleWPMW1HO4zUOPbf3AleCKnt%2F2nPMwUPjm0ZXc%2BAYNwlR77jMu%0AqVPzAjiGD2E%2B8zpJjSk%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604933811/ae37c41fc808dbdf48d135338334/6cc9ba4b-9d31-43a2-ab80-8048b5f9d791?expires=1791895500&amp;signature=fc5c37212ed3c10600c23d13086a4b6a1b432bae9b9e8e436961299ed2544ba8&amp;req=diYnEsB9noleWPMW1HO4zUOPbf3On%2BeInt%2F2nPMwUPgxHRidl4y5hgRpOqlA%0Aq0KOfF2U6kuYnAFF5Jo%3D%0A)
 
 Completing these steps will add Claude in Chrome to the “Connectors” drop-down on your chats with Claude. This is disabled by default, so you’ll need to enable it manually for each conversation.
 

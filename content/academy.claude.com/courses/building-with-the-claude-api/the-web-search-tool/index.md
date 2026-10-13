@@ -4,7 +4,7 @@ Lesson 31 of 67 · Building with the Claude APIThe web search tool
 
 Lesson 317 min
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fthe-web-search-tool)
 
@@ -12,7 +12,7 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding
 
 Claude includes a built-in web search tool that lets it search the internet for current or specialized information to answer user questions. Unlike other tools where you need to provide the implementation, Claude handles the entire search process automatically - you just need to provide a simple schema to enable it.
 
-![](https://academy.claude.com/assets/media/f1edc5de25d4a7012a5234100ec3f4c0b7e19dff55beb5188ab2fd847eecba51.png)
+![Our server asks about the latest quantum computing developments, then Claude searches the web and answers from three results.](https://academy.claude.com/assets/media/f1edc5de25d4a7012a5234100ec3f4c0b7e19dff55beb5188ab2fd847eecba51.png)
 
 ## Setting Up the Web Search Tool[](https://academy.claude.com/courses/building-with-the-claude-api/the-web-search-tool)
 
@@ -40,7 +40,7 @@ When Claude uses the web search tool, the response contains several types of blo
 - **WebSearchResultBlock** - Individual search results with titles and URLs
 - **Citation blocks** - Text that supports Claude's statements
 
-![](https://academy.claude.com/assets/media/a9c3f8db3229581f947e3413e39fb2dade885bdf4fcf5ee38cdc8877403d0bbf.png)
+![Response blocks with Claude's query "best exercises building leg muscle strength scientific research" and a nih.gov result.](https://academy.claude.com/assets/media/a9c3f8db3229581f947e3413e39fb2dade885bdf4fcf5ee38cdc8877403d0bbf.png)
 
 The response structure lets you see exactly what Claude searched for and which sources it found. Citations include the specific text Claude used to support its answers, along with the source URLs.
 
@@ -61,7 +61,7 @@ web_search_schema = {
 
 For example, when asking about medical or exercise advice, restricting to domains like PubMed (nih.gov) ensures you get evidence-based information rather than random blog content.
 
-![](https://academy.claude.com/assets/media/e9e7159ab9e9897fde75dba1dd0c89e889aa76e43600922c6e132d4701e7e4ef.png)
+![PubMed home page with a search box and a note that it comprises more than 38 million citations for biomedical literature.](https://academy.claude.com/assets/media/e9e7159ab9e9897fde75dba1dd0c89e889aa76e43600922c6e132d4701e7e4ef.png)
 
 ## Rendering Search Results[](https://academy.claude.com/courses/building-with-the-claude-api/the-web-search-tool)
 
@@ -71,7 +71,7 @@ The different block types in the response are designed for specific UI rendering
 - Display web search results as a list of sources at the top
 - Show citations inline with the text, including the source domain, page title, URL, and quoted text
 
-![](https://academy.claude.com/assets/media/cc9b802fe80ee655ec64e47e7fc881e8dc8078714bfcd536eeab5992ef94aea8.png)
+![Six nih.gov source cards at the top, then an Introduction paragraph ending in an inline citation of ncbi.nlm.nih.gov.](https://academy.claude.com/assets/media/cc9b802fe80ee655ec64e47e7fc881e8dc8078714bfcd536eeab5992ef94aea8.png)
 
 This structure helps users understand how Claude arrived at its answers and provides transparency about the sources being used. The citation format makes it clear which specific information came from which sources, building trust in the AI's responses.
 

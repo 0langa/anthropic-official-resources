@@ -4,7 +4,7 @@
 - Non-media inquiries[How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)
 - Media assets[Download press kit](https://anthropic.com/press-kit)
 
-![Expanding the Cyber Verification Program](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa0a14bf0b6e0c82cdd1c3fad594dab33550cfc80-1920x1080.webp&w=3840&q=75)
+![Expanding the Cyber Verification Program](https://www-cdn.anthropic.com/images/4zrzovbb/website/d3dd09ad16c68461dc3fb01df5e84cf7ccafda6c-1000x1000.svg)
 
 [## Expanding the Cyber Verification Program
 

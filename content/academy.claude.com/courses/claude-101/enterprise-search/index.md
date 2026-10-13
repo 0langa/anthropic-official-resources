@@ -10,7 +10,7 @@ In this lessonBy the end, you’ll be able to
 - Understand how the setup process works for both admins and users
 - Recognize how security and permissions protect organizational data
 
-Sign in to save your progressYou can keep reading without an account, but completed lessons won't be saved.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-101%2Fenterprise-search)
 
