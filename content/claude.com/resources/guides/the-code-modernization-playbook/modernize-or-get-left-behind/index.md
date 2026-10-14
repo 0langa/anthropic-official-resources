@@ -1,8 +1,8 @@
-Chapter 013 min read
+Table of contentsChapter 01
 
 # Modernize – or get left behind
 
-3 min read
+Chapter 01
 
 31 min remaining
 

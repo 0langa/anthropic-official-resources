@@ -1,8 +1,8 @@
-Chapter 057 min read
+Table of contentsChapter 05
 
 # Avoiding common challenges to adoption
 
-7 min read
+Chapter 05
 
 17 min remaining
 

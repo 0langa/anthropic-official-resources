@@ -1,8 +1,8 @@
-Chapter 035 min read
+Table of contentsChapter 03
 
 # Getting started
 
-5 min read
+Chapter 03
 
 19 min remaining
 

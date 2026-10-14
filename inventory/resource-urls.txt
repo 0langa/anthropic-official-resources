@@ -1364,6 +1364,7 @@ https://claude.com/resources/articles/token-saving-updates
 https://claude.com/resources/articles/tool-use-ga
 https://claude.com/resources/articles/trainium2-and-distillation
 https://claude.com/resources/articles/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams
+https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai
 https://claude.com/resources/articles/upgraded-anthropic-console
 https://claude.com/resources/articles/using-claude-code-session-management-and-1m-context
 https://claude.com/resources/articles/using-claude-md-files
@@ -3462,6 +3463,9 @@ https://platform.claude.com/docs/en/managed-agents/permission-policies
 https://platform.claude.com/docs/en/managed-agents/quickstart
 https://platform.claude.com/docs/en/managed-agents/reference
 https://platform.claude.com/docs/en/managed-agents/scheduled-deployments
+https://platform.claude.com/docs/en/managed-agents/secure-deployment
+https://platform.claude.com/docs/en/managed-agents/secure-deployment-monitoring
+https://platform.claude.com/docs/en/managed-agents/secure-deployment-risks
 https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes
 https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-custom-tools
 https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-memory
@@ -4335,6 +4339,7 @@ https://www.anthropic.com/engineering/infrastructure-noise
 https://www.anthropic.com/engineering/managed-agents
 https://www.anthropic.com/engineering/multi-agent-research-system
 https://www.anthropic.com/engineering/prompt-engineering-overview
+https://www.anthropic.com/engineering/redesigning-source-control
 https://www.anthropic.com/engineering/swe-bench-sonnet
 https://www.anthropic.com/engineering/writing-tools-for-agents
 https://www.anthropic.com/learn
@@ -4620,6 +4625,7 @@ https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem
 https://www.anthropic.com/news/series-h
 https://www.anthropic.com/news/servicenow-anthropic-claude
 https://www.anthropic.com/news/services-track-partner-hub
+https://www.anthropic.com/news/singapore-office-opening
 https://www.anthropic.com/news/skills
 https://www.anthropic.com/news/skt-partnership-announcement
 https://www.anthropic.com/news/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training

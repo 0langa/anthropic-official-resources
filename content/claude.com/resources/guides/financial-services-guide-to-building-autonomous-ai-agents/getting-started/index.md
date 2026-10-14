@@ -1,8 +1,8 @@
-Chapter 082 min read
+Table of contentsChapter 08
 
 # Getting started
 
-2 min read
+Chapter 08
 
 0 min remaining
 

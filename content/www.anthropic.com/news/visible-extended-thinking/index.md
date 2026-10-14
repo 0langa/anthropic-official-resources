@@ -94,7 +94,7 @@ The above is just a short summary of some of our extensive safety work on Claude
 
 ## **Using Claude**
 
-You can use Claude 3.7 Sonnet now at [Claude.ai](http://claude.ai/redirect/website.v1.d6b759b3-2883-448d-93c3-7a30a98d2f3a) or on [our API](https://docs.anthropic.com/en/api/getting-started). And just as Claude can now let you know what it thinks, we hope you’ll let us know what you think, too. Please send your feedback about the new model to [feedback@anthropic.com](mailto:feedback@anthropic.com).
+You can use Claude 3.7 Sonnet now at [Claude.ai](http://claude.ai/redirect/website.v1.9fec6c48-2ec7-41d9-81a8-668e49871a88) or on [our API](https://docs.anthropic.com/en/api/getting-started). And just as Claude can now let you know what it thinks, we hope you’ll let us know what you think, too. Please send your feedback about the new model to [feedback@anthropic.com](mailto:feedback@anthropic.com).
 
 #### Footnotes
 
@@ -108,6 +108,12 @@ You can use Claude 3.7 Sonnet now at [Claude.ai](http://claude.ai/redirect/websi
 
 ## Related content
 
+### Anthropic opens Singapore office and signs MOU with the Government of Singapore
+
+Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.
+
+[Read more](https://www.anthropic.com/news/singapore-office-opening)
+
 ### 2026 Usage Policy update
 
 We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
@@ -119,9 +125,3 @@ We’re publishing a new version of our Usage Policy. In this post, we summarize
 Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
 
 [Read more](https://www.anthropic.com/news/genesis-mission-commitment)
-
-### Introducing the Anthropic Cyber Mission
-
-We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.
-
-[Read more](https://www.anthropic.com/news/anthropic-cyber-mission)

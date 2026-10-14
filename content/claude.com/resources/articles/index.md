@@ -16,6 +16,12 @@ Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design ar
 
 Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
 
+[ArticleOct 13, 2026
+
+### Uber's CISO on building an insider threat program for AI
+
+Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)
+
 [ArticleOct 8, 2026
 
 ### Building effective agent automations
@@ -42,16 +48,6 @@ Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small mode
 
 (opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)
 
-[ArticleOct 7, 2026
-
-### Automating eval design and hillclimbing with Claude
-
-Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
-
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
-
 [ArticleOct 8, 2026
 
 ### Build live dashboards and animate explainers with Claude
@@ -64,9 +60,13 @@ Featured resource 1 of 5: Build live dashboards and animate explainers with Clau
 
 Advanced filters
 
-Showing 11 of 280 resources
+Showing 11 of 281 resources
 
-[ArticleOct 8, 2026
+[ArticleOct 13, 2026
+
+### Uber's CISO on building an insider threat program for AI
+
+Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)[ArticleOct 8, 2026
 
 ### Building effective agent automations
 
@@ -126,12 +126,6 @@ What changes when Claude Code runs on its own machine, the workflows where that 
 
 Claude Code
 
-(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
-
-### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
-
-See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
-
-Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)
 
 View more

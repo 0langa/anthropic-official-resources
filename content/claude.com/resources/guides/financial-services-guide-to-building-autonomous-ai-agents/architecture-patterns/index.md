@@ -1,8 +1,8 @@
-Chapter 052 min read
+Table of contentsChapter 05
 
 # Architecture patterns and agentic system design
 
-2 min read
+Chapter 05
 
 10 min remaining
 

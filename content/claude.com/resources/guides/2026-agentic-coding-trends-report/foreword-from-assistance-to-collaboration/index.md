@@ -1,8 +1,8 @@
-Chapter 014 min read
+Table of contentsChapter 01
 
 # Foreword: From assistance to collaboration
 
-4 min read
+Chapter 01
 
 21 min remaining
 

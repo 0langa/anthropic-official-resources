@@ -1,8 +1,8 @@
-Chapter 013 min read
+Table of contentsChapter 01
 
 # Foreword: The evolution of AI at work
 
-3 min read
+Chapter 01
 
 32 min remaining
 

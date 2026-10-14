@@ -1,8 +1,8 @@
-Chapter 072 min read
+Table of contentsChapter 07
 
 # Leveling up with Claude Cowork
 
-2 min read
+Chapter 07
 
 0 min remaining
 

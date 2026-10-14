@@ -57,7 +57,11 @@ As models with the capabilities of Claude Mythos become part of everyday securit
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 8, 2026
+[ArticleOct 13, 2026
+
+### Uber's CISO on building an insider threat program for AI
+
+Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)[ArticleOct 8, 2026
 
 ### How Block orchestrates Claude Fable across thousands of pull requests
 
@@ -78,15 +82,7 @@ Principles for designing evals and hillclimbing against them without fooling you
 
 Claude Platform
 
-(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleSep 25, 2026
-
-### Using Claude Code: Spending your effort
-
-What effort really is and when to use which level in Claude Code, from my own tests of three builds and a deep dive into Terminal-Bench 3.0 on Opus 5.5 and Fable 5.1.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/spending-your-effort/)
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
 
 ## Transform how your organization operates with Claude
 

@@ -1,8 +1,8 @@
-Chapter 032 min read
+Table of contentsChapter 03
 
 # Building an AI-first financial enterprise: real-world examples
 
-2 min read
+Chapter 03
 
 11 min remaining
 

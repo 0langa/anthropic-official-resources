@@ -44,7 +44,7 @@ For example, if you wanted Claude to solve a logic puzzle, you could say:
 
 It’s helpful to give Claude realistic and specific examples of the inputs and ideal outputs you’re hoping to see. It’s useful to include challenging examples and edge cases to help Claude understand exactly what you’re looking for.
 
-For a simple example, consider how Claude can help with removing personally-identifiable information (PII) from information, using 2 examples to help Claude understand different ways that PII could present itself in a prompt. A simplified example using [claude.ai](https://claude.ai/redirect/website.v1.54c2f747-6306-4bf3-a214-613963746ff5) may look something like this:
+For a simple example, consider how Claude can help with removing personally-identifiable information (PII) from information, using 2 examples to help Claude understand different ways that PII could present itself in a prompt. A simplified example using [claude.ai](https://claude.ai/redirect/website.v1.450986db-0798-40dd-a963-cef1ad26edca) may look something like this:
 
 *You are an expert redactor. I am going to provide you with some text. Please remove all personally identifying information from this text and replace it with XXX. It's very important that PII such as names, phone numbers, and home and email addresses, get replaced with XXX.*
 
@@ -144,6 +144,12 @@ To get started on optimizing Claude for your use case, read our [prompt engineer
 
 ## Related content
 
+### Anthropic opens Singapore office and signs MOU with the Government of Singapore
+
+Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.
+
+[Read more](https://www.anthropic.com/news/singapore-office-opening)
+
 ### 2026 Usage Policy update
 
 We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
@@ -155,9 +161,3 @@ We’re publishing a new version of our Usage Policy. In this post, we summarize
 Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
 
 [Read more](https://www.anthropic.com/news/genesis-mission-commitment)
-
-### Introducing the Anthropic Cyber Mission
-
-We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.
-
-[Read more](https://www.anthropic.com/news/anthropic-cyber-mission)

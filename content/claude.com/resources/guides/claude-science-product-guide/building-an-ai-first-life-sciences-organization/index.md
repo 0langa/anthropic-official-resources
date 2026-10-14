@@ -1,8 +1,8 @@
-Chapter 043 min read
+Table of contentsChapter 04
 
 # Building an AI-first life sciences organization: real-world examples
 
-3 min read
+Chapter 04
 
 19 min remaining
 

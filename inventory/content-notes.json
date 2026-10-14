@@ -756,6 +756,9 @@
   "https://claude.com/resources/articles/tool-use-ga": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
   "https://claude.com/resources/articles/web-search-api": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
@@ -6190,6 +6193,15 @@
   "https://platform.claude.com/docs/en/managed-agents/scheduled-deployments": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/managed-agents/secure-deployment": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/secure-deployment-monitoring": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/secure-deployment-risks": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes": [
     "Native source; upstream MDX components retained."
   ],
@@ -8393,7 +8405,6 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/anthropic-public-record": [
-    "Could not read tab 'Integrated users': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk": [

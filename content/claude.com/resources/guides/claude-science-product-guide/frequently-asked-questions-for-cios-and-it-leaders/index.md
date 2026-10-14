@@ -1,8 +1,8 @@
-Chapter 079 min read
+Table of contentsChapter 07
 
 # Frequently asked questions for CIOs and IT leaders
 
-9 min read
+Chapter 07
 
 0 min remaining
 

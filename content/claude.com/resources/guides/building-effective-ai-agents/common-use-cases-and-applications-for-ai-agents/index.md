@@ -1,8 +1,8 @@
-Chapter 025 min read
+Table of contentsChapter 02
 
 # Common use cases and applications for AI agents
 
-5 min read
+Chapter 02
 
 52 min remaining
 

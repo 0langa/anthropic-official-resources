@@ -56,6 +56,12 @@ We'll keep updating our Usage Policy as Claude’s capabilities and risks change
 
 ## Related content
 
+### Anthropic opens Singapore office and signs MOU with the Government of Singapore
+
+Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.
+
+[Read more](https://www.anthropic.com/news/singapore-office-opening)
+
 ### Building on our commitment to American scientific discovery
 
 Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
@@ -67,9 +73,3 @@ Anthropic is committing $150 million over three years to the Genesis Mission, a 
 We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.
 
 [Read more](https://www.anthropic.com/news/anthropic-cyber-mission)
-
-### Expanding the Cyber Verification Program
-
-We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.
-
-[Read more](https://www.anthropic.com/news/cyber-verification-program)

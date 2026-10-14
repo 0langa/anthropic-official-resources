@@ -6,7 +6,7 @@ Aug 14, 2026
 
 ![How Claude’s text watermark works](https://www-cdn.anthropic.com/images/4zrzovbb/website/33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
 
-What does this mean for users?
+Why are you watermarking Claude’s outputs?
 
 Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.
 
@@ -118,6 +118,12 @@ No. A watermark only helps test whether Claude might have produced or processed 
 
 ## Related content
 
+### Anthropic opens Singapore office and signs MOU with the Government of Singapore
+
+Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.
+
+[Read more](https://www.anthropic.com/news/singapore-office-opening)
+
 ### 2026 Usage Policy update
 
 We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
@@ -129,9 +135,3 @@ We’re publishing a new version of our Usage Policy. In this post, we summarize
 Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
 
 [Read more](https://www.anthropic.com/news/genesis-mission-commitment)
-
-### Introducing the Anthropic Cyber Mission
-
-We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.
-
-[Read more](https://www.anthropic.com/news/anthropic-cyber-mission)

@@ -1,34 +1,34 @@
 {
   "actionable_missing_pages": 0,
   "actionable_population_complete": true,
-  "archived_pages": 4806,
+  "archived_pages": 4812,
   "by_host": {
     "academy.claude.com": {
       "archived_pages": 851,
       "discovered_pages": 855
     },
     "claude.com": {
-      "archived_pages": 822,
-      "discovered_pages": 830
+      "archived_pages": 823,
+      "discovered_pages": 831
     },
     "code.claude.com": {
       "archived_pages": 248,
       "discovered_pages": 250
     },
     "platform.claude.com": {
-      "archived_pages": 1589,
-      "discovered_pages": 1619
+      "archived_pages": 1592,
+      "discovered_pages": 1622
     },
     "support.claude.com": {
       "archived_pages": 718,
       "discovered_pages": 751
     },
     "www.anthropic.com": {
-      "archived_pages": 578,
-      "discovered_pages": 589
+      "archived_pages": 580,
+      "discovered_pages": 591
     }
   },
-  "discovered_pages": 4894,
+  "discovered_pages": 4900,
   "exact_website_replica": false,
   "limitations": [
     "Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.",
@@ -368,7 +368,7 @@
     "https://www.anthropic.com/news/2028-ai-leadership": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/anthropic-economic-index-september-2025-report": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/anthropic-interviewer": "Could not read tab 'Scientists': TimeoutError; Could not read tab 'Art, Design, & Media': TimeoutError; Could not read tab 'Office & Admin': TimeoutError; Could not read tab 'Filmmakers': TimeoutError; Could not read tab 'Game developers': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
-    "https://www.anthropic.com/news/anthropic-public-record": "Could not read tab 'Integrated users': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/news/anthropic-public-record": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/claude-fable-5-mythos-5": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/claude-for-powerpoint": "HTTP 404: https://www.anthropic.com/news/claude-for-powerpoint",
     "https://www.anthropic.com/news/claude-opus-4-5": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
@@ -423,7 +423,7 @@
   },
   "missing_pages": 88,
   "page_inventory_complete": false,
-  "pages_with_content_notes": 2873,
+  "pages_with_content_notes": 2877,
   "retained_partial_pages": 270,
   "terminal_pages": 88,
   "terminal_statuses": {

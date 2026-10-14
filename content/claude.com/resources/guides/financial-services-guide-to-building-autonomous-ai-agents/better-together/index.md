@@ -1,8 +1,8 @@
-Chapter 039 min read
+Table of contentsChapter 03
 
 # Better together: How Anthropic and AWS power autonomous AI agents
 
-9 min read
+Chapter 03
 
 18 min remaining
 

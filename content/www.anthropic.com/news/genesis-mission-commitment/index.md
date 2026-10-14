@@ -26,6 +26,12 @@ This commitment is part of our broader effort to support scientific research. Ea
 
 ## Related content
 
+### Anthropic opens Singapore office and signs MOU with the Government of Singapore
+
+Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.
+
+[Read more](https://www.anthropic.com/news/singapore-office-opening)
+
 ### 2026 Usage Policy update
 
 We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
@@ -37,9 +43,3 @@ We’re publishing a new version of our Usage Policy. In this post, we summarize
 We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.
 
 [Read more](https://www.anthropic.com/news/anthropic-cyber-mission)
-
-### Expanding the Cyber Verification Program
-
-We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.
-
-[Read more](https://www.anthropic.com/news/cyber-verification-program)

@@ -1,8 +1,8 @@
-Chapter 025 min read
+Table of contentsChapter 02
 
 # Three trends blocking digital transformation
 
-5 min read
+Chapter 02
 
 26 min remaining
 

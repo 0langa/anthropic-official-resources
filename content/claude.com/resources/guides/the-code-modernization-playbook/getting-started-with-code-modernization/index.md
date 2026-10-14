@@ -1,8 +1,8 @@
-Chapter 076 min read
+Table of contentsChapter 07
 
 # Getting started with code modernization
 
-6 min read
+Chapter 07
 
 0 min remaining
 

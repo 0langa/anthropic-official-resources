@@ -49,9 +49,15 @@ We built this tool to be a reflection of how you use Claude. For some users, thi
 
 ## Getting started
 
-This tool is currently available in beta for Free, Pro, and Max users who have memory turned on. Open [Settings in Claude](https://claude.ai/redirect/website.v1.0a75f37c-b764-4f6a-a62c-72be288c8d18/settings/reflect) on the web or the desktop app, and select the option to reflect on your usage to generate your report. If you can't generate a report, it may be because you don’t have [Memory](https://claude.ai/redirect/website.v1.0a75f37c-b764-4f6a-a62c-72be288c8d18/settings/capabilities?modal=memory) turned on. Reflecting on your Cowork conversations will be available soon.
+This tool is currently available in beta for Free, Pro, and Max users who have memory turned on. Open [Settings in Claude](https://claude.ai/redirect/website.v1.22765007-908b-4aeb-b674-55d60e8b211c/settings/reflect) on the web or the desktop app, and select the option to reflect on your usage to generate your report. If you can't generate a report, it may be because you don’t have [Memory](https://claude.ai/redirect/website.v1.22765007-908b-4aeb-b674-55d60e8b211c/settings/capabilities?modal=memory) turned on. Reflecting on your Cowork conversations will be available soon.
 
 ## Related content
+
+### Anthropic opens Singapore office and signs MOU with the Government of Singapore
+
+Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.
+
+[Read more](https://www.anthropic.com/news/singapore-office-opening)
 
 ### 2026 Usage Policy update
 
@@ -64,9 +70,3 @@ We’re publishing a new version of our Usage Policy. In this post, we summarize
 Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
 
 [Read more](https://www.anthropic.com/news/genesis-mission-commitment)
-
-### Introducing the Anthropic Cyber Mission
-
-We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.
-
-[Read more](https://www.anthropic.com/news/anthropic-cyber-mission)

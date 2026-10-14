@@ -1,8 +1,8 @@
-Chapter 038 min read
+Table of contentsChapter 03
 
 # Capability trends: What agents can do
 
-8 min read
+Chapter 03
 
 8 min remaining
 

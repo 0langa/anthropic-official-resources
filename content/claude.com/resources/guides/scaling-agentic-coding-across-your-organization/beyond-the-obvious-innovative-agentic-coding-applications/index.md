@@ -1,8 +1,8 @@
-Chapter 074 min read
+Table of contentsChapter 07
 
 # Beyond the obvious: innovative agentic coding applications
 
-4 min read
+Chapter 07
 
 7 min remaining
 

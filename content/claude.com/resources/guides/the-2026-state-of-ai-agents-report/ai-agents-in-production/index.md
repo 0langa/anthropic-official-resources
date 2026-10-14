@@ -1,8 +1,8 @@
-Chapter 0527 min read
+Table of contentsChapter 05
 
 # AI agents in production
 
-27 min read
+Chapter 05
 
 10 min remaining
 

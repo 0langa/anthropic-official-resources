@@ -1,8 +1,8 @@
-Chapter 045 min read
+Table of contentsChapter 04
 
 # Impact trends: What agents may change in 2026
 
-5 min read
+Chapter 04
 
 3 min remaining
 

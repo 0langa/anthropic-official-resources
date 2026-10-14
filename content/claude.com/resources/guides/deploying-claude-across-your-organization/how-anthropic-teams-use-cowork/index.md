@@ -1,8 +1,8 @@
-Chapter 069 min read
+Table of contentsChapter 06
 
 # How teams at Anthropic use Claude Cowork
 
-9 min read
+Chapter 06
 
 2 min remaining
 

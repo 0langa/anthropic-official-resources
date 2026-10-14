@@ -1,8 +1,8 @@
-Chapter 023 min read
+Table of contentsChapter 02
 
 # Fundamentals
 
-3 min read
+Chapter 02
 
 25 min remaining
 

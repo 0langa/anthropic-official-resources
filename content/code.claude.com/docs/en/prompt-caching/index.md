@@ -108,7 +108,7 @@ The cost applies once per conversation. After the first fast mode turn, Claude C
 Tool definitions sit in the system prompt layer, so the cache invalidates when the set of tool definitions in the request changes between turns. Toggling the [advisor tool](/docs/en/advisor) is an exception: its definition sits after the cache breakpoint, so enabling or disabling `/advisor` keeps the cached prefix intact. Whether an [MCP server](/docs/en/mcp) change does this depends on whether [tool search](/docs/en/mcp#scale-with-mcp-tool-search) defers the session's MCP tools, the default on supported models:
 
 * **Tools deferred**: Claude Code keeps the tool list from the conversation's first request for the whole conversation, so a server connecting or disconnecting mid-session doesn't disturb anything already cached. A server that finishes connecting after the first request supplies its tools as deferred definitions that Claude loads on demand.
-* **Tools loaded upfront**: adding a definition invalidates the cache, and so does removing one on purpose. This applies when tool search is [below its `auto` threshold, disabled, or unavailable](/docs/en/mcp#configure-tool-search), such as on Google Cloud's Agent Platform models earlier than the Claude 4.5 generation, with a custom `ANTHROPIC_BASE_URL` gateway, or on a Microsoft Foundry [deployment hosted on Azure](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry#hosting-options) once Claude Code detects that the deployment rejects tool search.
+* **Tools loaded upfront**: adding a definition invalidates the cache, and so does removing one on purpose. This applies when tool search is [below its `auto` threshold, disabled, or unavailable](/docs/en/mcp#configure-tool-search), such as on Google Cloud's Agent Platform models earlier than Opus 4.5, Sonnet 4.5, and Haiku 4.5, with a custom `ANTHROPIC_BASE_URL` gateway, or on a Microsoft Foundry [deployment hosted on Azure](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry#hosting-options) once Claude Code detects that the deployment rejects tool search.
 
 Without tool search, whether a mid-session server change invalidates the cache depends on what changed. For each change, this table gives whether the cache is kept and what happens to the tool definitions in the next request.
 
@@ -177,6 +177,8 @@ After a break longer than the [cache lifetime](#cache-lifetime), there is no cac
 <Tip>
   Compaction works in your favor when the context you discard is content you no longer need. To choose when its overhead happens, run `/compact` at a natural break in your work, such as between tasks, instead of waiting for auto-compaction to trigger mid-task. If you've gone down a path you want to abandon entirely, [`/rewind`](#rewinding-the-conversation) to an earlier turn instead. Rewinding truncates back to a prefix that is already cached, rather than building a new one as compaction does.
 </Tip>
+
+If you leave a long conversation idle in a terminal session while it is on the [one-hour TTL](#which-ttl-each-request-gets), Claude Code can compact it shortly before the cache expires. To turn idle compaction off, set [`idleCompaction`](/docs/en/settings-reference#idlecompaction) to `false`, which requires Claude Code v2.1.290 or later.
 
 ### Accumulating many images
 

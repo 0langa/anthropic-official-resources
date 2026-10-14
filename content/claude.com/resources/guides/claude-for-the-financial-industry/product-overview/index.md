@@ -1,8 +1,8 @@
-Chapter 028 min read
+Table of contentsChapter 02
 
 # Product overview
 
-8 min read
+Chapter 02
 
 13 min remaining
 

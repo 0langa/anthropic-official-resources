@@ -1,8 +1,8 @@
-Chapter 073 min read
+Table of contentsChapter 07
 
 # Upleveling your work with Claude Cowork
 
-3 min read
+Chapter 07
 
 0 min remaining
 

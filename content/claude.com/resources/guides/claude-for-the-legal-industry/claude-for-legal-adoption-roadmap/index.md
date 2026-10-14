@@ -1,8 +1,8 @@
-Chapter 0412 min read
+Table of contentsChapter 04
 
 # Claude for legal adoption roadmap
 
-12 min read
+Chapter 04
 
 2 min remaining
 

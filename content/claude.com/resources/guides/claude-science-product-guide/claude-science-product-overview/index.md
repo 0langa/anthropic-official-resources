@@ -1,8 +1,8 @@
-Chapter 039 min read
+Table of contentsChapter 03
 
 # Claude Science product overview
 
-9 min read
+Chapter 03
 
 22 min remaining
 

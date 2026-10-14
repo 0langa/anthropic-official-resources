@@ -330,7 +330,7 @@
   "https://www.anthropic.com/news/2028-ai-leadership": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/news/anthropic-economic-index-september-2025-report": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/news/anthropic-interviewer": "Could not read tab 'Scientists': TimeoutError; Could not read tab 'Art, Design, & Media': TimeoutError; Could not read tab 'Office & Admin': TimeoutError; Could not read tab 'Filmmakers': TimeoutError; Could not read tab 'Game developers': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
-  "https://www.anthropic.com/news/anthropic-public-record": "Could not read tab 'Integrated users': TimeoutError; Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+  "https://www.anthropic.com/news/anthropic-public-record": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/news/claude-fable-5-mythos-5": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/news/claude-for-powerpoint": "HTTP 404: https://www.anthropic.com/news/claude-for-powerpoint",
   "https://www.anthropic.com/news/claude-opus-4-5": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",

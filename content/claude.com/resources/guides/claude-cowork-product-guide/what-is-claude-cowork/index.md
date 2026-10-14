@@ -1,8 +1,8 @@
-Chapter 012 min read
+Table of contentsChapter 01
 
 # What is Claude Cowork?
 
-2 min read
+Chapter 01
 
 26 min remaining
 

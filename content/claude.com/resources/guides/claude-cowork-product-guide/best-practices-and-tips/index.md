@@ -1,8 +1,8 @@
-Chapter 064 min read
+Table of contentsChapter 06
 
 # Best practices and tips
 
-4 min read
+Chapter 06
 
 3 min remaining
 

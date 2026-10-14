@@ -321,7 +321,7 @@ The geographic patterns of AI adoption—where it is used, for which tasks, and 
 
 Whether frontier AI capabilities make us more productive, reshape labor markets, and accelerate growth will depend on when and how firms choose to deploy AI. Even when businesses recognize the potential of AI, profitably adopting it may require costly restructuring of production processes, training new workers, and other sunk-cost investments to facilitate effective deployment.**1**
 
-To understand business adoption patterns of AI, we turn to a new data source: Anthropic's first-party (1P) API customers—again relying on [privacy-preserving methods](https://www.anthropic.com/research/clio).**2** Our API allows customers to integrate Claude directly into their own products and applications, and charges by the token used, rather than a flat subscription fee. This represents a fundamentally different product experience to [Claude.ai](http://claude.ai/redirect/website.v1.43556aa1-db3f-4c4e-82d1-5762dc76eae8), which we focused on in the previous two chapters.
+To understand business adoption patterns of AI, we turn to a new data source: Anthropic's first-party (1P) API customers—again relying on [privacy-preserving methods](https://www.anthropic.com/research/clio).**2** Our API allows customers to integrate Claude directly into their own products and applications, and charges by the token used, rather than a flat subscription fee. This represents a fundamentally different product experience to [Claude.ai](http://claude.ai/redirect/website.v1.f93f9729-773d-4916-9756-579c6e0f09c9), which we focused on in the previous two chapters.
 
 Institutional inertia, alongside fixed costs of adoption, suggests that early examples of enterprise use of AI is likely to be concentrated among specialized tasks where deployment is easy, capabilities are robust, and the economic benefits from adoption are high.
 
@@ -541,20 +541,20 @@ Copy
 
 ## Related content
 
+### AI models may be capable of self-replicating without access to a datacenter
+
+Our experiments suggest that small AI models may be only months away from being capable enough to self-replicate on commercial IoT devices, like Android TVs and smart ovens.
+
+[Read more](https://www.anthropic.com/research/self-replicating-ai)
+
+### Strengthening our defenses against distillation attacks
+
+Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.
+
+[Read more](https://www.anthropic.com/research/distillation-defenses)
+
 ### Investigating unintended model actions in our evaluations and internal use
 
 This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude.
 
 [Read more](https://www.anthropic.com/research/investigating-unintended-model-actions)
-
-### The missing map of the sky
-
-Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.
-
-[Read more](https://www.anthropic.com/research/the-missing-map-of-the-sky)
-
-### Launching an opt-in vulnerability-finding service for open-source software
-
-We’re making available OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem that’s informed by our experience using Claude to find vulnerabilities during Project Glasswing.
-
-[Read more](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source)

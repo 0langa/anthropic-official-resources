@@ -18,7 +18,7 @@ You’re always in control of this setting and whether we use your data in this 
 
 In-app notification for existing Claude app users
 
-Starting today, we’re rolling out notifications so you can review these updates and manage your settings. If you’re an existing user, you have until October 8, 2025 to accept the updated Consumer Terms and make your decision. If you choose to accept the new policies now, they will go into effect immediately. These updates will apply only to new or resumed chats and coding sessions. After October 8, you’ll need to make your selection on the model training setting in order to continue using Claude. You can change your choice in your [Privacy Settings](https://claude.ai/redirect/website.v1.9d2f9c47-60ad-4bbe-9c26-9dac1f1de283/settings/data-privacy-controls) at any time.
+Starting today, we’re rolling out notifications so you can review these updates and manage your settings. If you’re an existing user, you have until October 8, 2025 to accept the updated Consumer Terms and make your decision. If you choose to accept the new policies now, they will go into effect immediately. These updates will apply only to new or resumed chats and coding sessions. After October 8, you’ll need to make your selection on the model training setting in order to continue using Claude. You can change your choice in your [Privacy Settings](https://claude.ai/redirect/website.v1.b1ec76d1-c10f-4d32-a46a-1c5d814c7f66/settings/data-privacy-controls) at any time.
 
 ## Extended data retention
 
@@ -72,6 +72,12 @@ You can always update your selection in your Privacy Settings. If you decide to 
 
 ## Related content
 
+### Anthropic opens Singapore office and signs MOU with the Government of Singapore
+
+Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.
+
+[Read more](https://www.anthropic.com/news/singapore-office-opening)
+
 ### 2026 Usage Policy update
 
 We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
@@ -83,9 +89,3 @@ We’re publishing a new version of our Usage Policy. In this post, we summarize
 Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
 
 [Read more](https://www.anthropic.com/news/genesis-mission-commitment)
-
-### Introducing the Anthropic Cyber Mission
-
-We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.
-
-[Read more](https://www.anthropic.com/news/anthropic-cyber-mission)

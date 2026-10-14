@@ -42,7 +42,7 @@ You can verify multiple domains for a single organization, but all domains must 
 
 3. Enter the domain(s) you want to verify in the **Update organization email domains** modal and click the “+” button:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2498843282/561d5ceb1c3a5df75bdfee8bfc3f/d2491145-362d-490b-bdcf-66a0a7656ddc?expires=1791720000&amp;signature=7ddb1480b0bebc8a428ea4605557e6992053194e9a490927e85f11ad9cb4e2e3&amp;req=diQuHsF6noNXW%2FMW1HO4zSdmH30%2B%2BMSMe3H0OpmIzWHpjc5GSfCQ4LhlxLT%2F%0AO0Cl%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2498843282/561d5ceb1c3a5df75bdfee8bfc3f/d2491145-362d-490b-bdcf-66a0a7656ddc?expires=1792044000&amp;signature=0a80dd96a7b84d066d404d9da2b044995b749f5e3e54e481ac27e95056077f32&amp;req=diQuHsF6noNXW%2FMW3nq%2BgVKY2TIxzOnX%2FVk2K%2BjeP1%2F%2FE8w7OFWzkkixQeeY%0A%2FmH0YUW86ikAl30lPEDaVNQbt7c%3D%0A)
 
 4. Click “Save” when you’re finished adding domains.
 
@@ -50,7 +50,7 @@ You can verify multiple domains for a single organization, but all domains must 
 
 6. Enter your domain in the text box and click “Continue”:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047042630/0617a562cd28a7ff0e607d66a30b/6bd08e1d-2b65-40ab-bc79-a257153854c1?expires=1791720000&amp;signature=8d758fd464bfafab0ab1f1e7341f855550907faf46b08616f8ad279ce3636f6b&amp;req=diAjEcl6n4dcWfMW1HO4zWHctByQldGqyoyXAW0OlXqPo2TUuE6m36gzOEK0%0AmBl9%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047042630/0617a562cd28a7ff0e607d66a30b/6bd08e1d-2b65-40ab-bc79-a257153854c1?expires=1792044000&amp;signature=55e507cc013f064d4f92f36bc6de4a18725cc89b4f8e522c9ad0f7728a2f96c2&amp;req=diAjEcl6n4dcWfMW3nq%2BgU1ga4Piy21AME4J2wlNvc2NgqAuE%2B2zr04%2BTqly%0ATCOjHlO6KMAVmvMYTOanuStMnCg%3D%0A)
 
 7. The setup screen displays a TXT record. **Copy the full Value using the copy button**—it begins with `anthropic-domain-verification-` and is longer than what's visible in the box. In your DNS provider, add a TXT record to your domain and **Value** set to the copied string. The domain must match exactly what you entered in the previous step, including any subdomains. Add it alongside any existing TXT records; don't replace them. The value is case-sensitive, so paste it exactly. Please refer to your DNS provider's documentation on this topic.
 
@@ -76,7 +76,7 @@ Clicking "Refresh" re-checks your DNS; it won't show Verified until the publishe
 
 If the record is correct and propagated but the status still shows Pending, contact Support.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047044496/b8df54a0331784cc9ae8f00112aa/bf9609c1-dc93-4665-a066-4cae2fe4b002?expires=1791720000&amp;signature=db044a50a4c46a123858fb14765422f3b2aad80e14b0ca8a3cd039fae0b0d7c4&amp;req=diAjEcl6mYVWX%2FMW1HO4zVjmWCgHbXS5PM2D8Zcdgrig1jVHSqEqsVOUN%2Ffd%0AM%2FZl9oxs9CpAzKyZO%2FE%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047044496/b8df54a0331784cc9ae8f00112aa/bf9609c1-dc93-4665-a066-4cae2fe4b002?expires=1792044000&amp;signature=b7bbac58c1e0916366ef1f58cb53a272bfa78d54002553b9da26697469d35821&amp;req=diAjEcl6mYVWX%2FMW3nq%2BgRz1alCOLmZn%2Fq%2F4XWURBt6joTR9qMdkAeTqvbEu%0APshTjTH0CaBremi0Qulev26njR0%3D%0A)
 
 **Note:** Once your domain is verified, you'll see a **Restrict organization creation** toggle under **Security** on the Organization and access organization settings page. Enable this if you want to prevent users from creating new Claude or Console organizations—including personal accounts—using your verified domains.
 
@@ -116,7 +116,7 @@ For IdP-specific setup instructions, see:
 
 You can now choose to toggle on **Require SSO for Console** and/or **Require SSO for Claude,** on the **Organization and access** page, under the **Authentication** section:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312690200/bd2403586d4f6651ccd79e2a45af/b9f8d7ce-0def-49d9-bfb2-3a14352d7214?expires=1791720000&amp;signature=b957263478c76835fcc74e5b0045223ac539097d9450b1ade5b4dbd56a0093e6&amp;req=diMmFM93nYNfWfMW1HO4zdAICg6mAHwKItXtKivx6ZFZluqNmxax%2B8sGChN7%0AqUM3F2khXsQNnbOJpho%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312690200/bd2403586d4f6651ccd79e2a45af/b9f8d7ce-0def-49d9-bfb2-3a14352d7214?expires=1792044000&amp;signature=1c1491a2345db5545e5538645497f7892921f36213e2db06d362d2fade2ff406&amp;req=diMmFM93nYNfWfMW3nq%2BgRYH5xpBppTm%2FajEdawRDayFdRiQ90T6%2F2XIXjob%0ADHLMK%2FCPAlwyC0Ta5%2BMPhLIw25s%3D%0A)
 
 When SSO is required, users must use the “Continue with SSO” option to log in to their Claude/Console accounts. When SSO is not required, they will have the option to choose “Continue with SSO” or “Continue with email.”
 
@@ -146,29 +146,33 @@ For more control over provisioning, see **[Set up JIT or SCIM provisioning](http
 
 ---
 
-## Updating your SSO certificate
+## Update your SSO certificate or client secret
 
-When your Identity Provider's X.509 signing certificate expires or is rotated, you'll need to update it in Claude or Console to maintain SSO functionality.
+When your Identity Provider’s X.509 signing certificate (SAML) or client secret (OpenID Connect) expires or is rotated, you’ll need to update it in Claude or Console to maintain SSO functionality.
 
 1. Navigate to your settings:
 
   - For Team and Enterprise plans: **[claude.ai/admin-settings/organization](https://claude.ai/admin-settings/organization)**
 
-  - For Claude Console: **[platform.claude.com/settings/identity](https://platform.claude.com/settings/organization)**
+  - For Claude Console: **[platform.claude.com/settings/identity](https://platform.claude.com/settings/identity)**
 
 2. In the **Authentication** section, click “Manage SSO.”
 
-3. Find the **Metadata configuration** section and click “Edit.”
+3. Update the credential for your connection type:
 
-4. Update your certificate information and save your changes.
+  1. **SAML:** Find the **Metadata configuration** section, click “Edit,” and update your certificate information.
+
+  2. **OpenID Connect:** Replace the expired client secret with the new one from your Identity Provider. OpenID Connect connections don’t use a certificate.
+
+4. Save your changes.
 
 5. Click "Test sign-in" on the same page to confirm everything is working.
 
-**Important:** If **Require SSO** is turned on and your certificate has already expired, no one in your organization can sign in to update it, because every sign-in option routes through SSO. **[Contact Support](https://support.claude.com/en/articles/9015913)** from an Owner’s or Primary Owner’s email address and we’ll help you regain access so an Owner can update the certificate. To avoid this, note your certificate’s expiry date in your Identity Provider and rotate it ahead of time.
+**Important:** If **Require SSO** is turned on and your certificate or client secret has already expired, no one in your organization can sign in to update it, because every sign-in option routes through SSO. **[Contact Support](https://support.claude.com/en/articles/9015913)** from an Owner’s or Primary Owner’s email address and we’ll help you regain access so an Owner can update it. To avoid this, note the expiry date of your certificate or client secret in your Identity Provider and rotate it ahead of time.
 
 ---
 
-## Turning off SSO
+## Turn off SSO
 
 You can toggle **Require SSO for Claude** or **Require SSO for Console** off at any time. This will make SSO optional for all users.
 
@@ -176,4 +180,4 @@ To fully disconnect SSO, click “Manage SSO” then “Reset connection.” Thi
 
 ## Locked out of admin access?
 
-If none of your Owners or Admins can sign in (for example, after a certificate expiry, an Identity Provider change, or a group mapping that removed your administrators), contact Support from an Owner’s or Primary Owner’s email address. We’ll verify your ownership of the organization and help you regain access so you can correct the configuration.
+If none of your Owners or Admins can sign in (for example, after a certificate or client secret expiry, an Identity Provider change, or a group mapping that removed your administrators), contact Support from an Owner’s or Primary Owner’s email address. We’ll verify your ownership of the organization and help you regain access so you can correct the configuration.

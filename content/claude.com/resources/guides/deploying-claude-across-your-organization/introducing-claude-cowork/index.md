@@ -1,8 +1,8 @@
-Chapter 028 min read
+Table of contentsChapter 02
 
 # Introducing Claude Cowork
 
-8 min read
+Chapter 02
 
 24 min remaining
 

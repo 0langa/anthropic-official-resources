@@ -75,7 +75,11 @@ Of course not all of the feedback was glowing, and that's the point. Early teste
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 8, 2026
+[ArticleOct 13, 2026
+
+### Uber's CISO on building an insider threat program for AI
+
+Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)[ArticleOct 8, 2026
 
 ### How Block orchestrates Claude Fable across thousands of pull requests
 
@@ -92,15 +96,7 @@ Security teams at Comcast and Booz Allen used Claude Mythos-class models through
 Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
 ‍
 
-Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
-
-### Automating eval design and hillclimbing with Claude
-
-Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
-
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)
 
 ## Transform how your organization operates with Claude
 

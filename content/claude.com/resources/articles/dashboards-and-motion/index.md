@@ -20,7 +20,7 @@ Connect your company’s data platform, such as Amazon Redshift, BigQuery, Click
 
 ![Claude builds a bike share dashboard from a year of ride data, with trip totals and charts of rides per day and by hour.](https://assets.claude.com/7688d4d3b888c17cf4b3553f537f291882a92656.png)
 
-Dashboards work alongside your BI and analytics tools. When a question needs deeper analysis, send the dashboard from Claude straight to Amplitude, Grafana, Hex, Mixpanel, Omni, Perplexity, PostHog, or Sigma and pick up the analysis from there, with Looker, monday.com, and Tableau coming soon.
+Dashboards work alongside your BI and analytics tools. When a question needs deeper analysis, send the dashboard from Claude straight to Amplitude, Grafana, Hex, Mixpanel, Omni, Perplexity, PostHog, or Sigma and pick up the analysis from there, with Databricks Genie, Looker, monday.com, and Tableau coming soon.
 
 ## Claude Motion: explain your ideas with animation
 

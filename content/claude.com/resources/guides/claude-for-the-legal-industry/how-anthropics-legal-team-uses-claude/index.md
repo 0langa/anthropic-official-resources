@@ -1,8 +1,8 @@
-Chapter 034 min read
+Table of contentsChapter 03
 
 # How Anthropic's Legal team uses Claude
 
-4 min read
+Chapter 03
 
 14 min remaining
 

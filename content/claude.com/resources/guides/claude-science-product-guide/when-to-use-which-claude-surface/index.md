@@ -1,8 +1,8 @@
-Chapter 024 min read
+Table of contentsChapter 02
 
 # When to use which Claude surface
 
-4 min read
+Chapter 02
 
 31 min remaining
 

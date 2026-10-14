@@ -1,8 +1,8 @@
-Chapter 032 min read
+Table of contentsChapter 03
 
 # A maturity model: Claude Cowork in five levels
 
-2 min read
+Chapter 03
 
 22 min remaining
 

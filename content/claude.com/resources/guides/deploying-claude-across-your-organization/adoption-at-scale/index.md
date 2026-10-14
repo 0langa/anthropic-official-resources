@@ -1,8 +1,8 @@
-Chapter 056 min read
+Table of contentsChapter 05
 
 # Driving Claude Cowork adoption at scale
 
-6 min read
+Chapter 05
 
 11 min remaining
 

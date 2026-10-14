@@ -57,7 +57,7 @@ DateCategoryTitle
 - [Oct 12, 2026Frontier Red Team
 
   AI models may be capable of self-replicating without access to a datacenter](https://www.anthropic.com/research/self-replicating-ai)
-- [Oct 12, 2026
+- [Oct 12, 2026Policy
 
   Strengthening our defenses against distillation attacks](https://www.anthropic.com/research/distillation-defenses)
 - [Oct 9, 2026Alignment

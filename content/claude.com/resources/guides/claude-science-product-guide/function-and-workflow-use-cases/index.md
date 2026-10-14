@@ -1,8 +1,8 @@
-Chapter 064 min read
+Table of contentsChapter 06
 
 # Function and workflow use cases
 
-4 min read
+Chapter 06
 
 9 min remaining
 

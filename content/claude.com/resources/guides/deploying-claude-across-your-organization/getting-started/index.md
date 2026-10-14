@@ -1,8 +1,8 @@
-Chapter 045 min read
+Table of contentsChapter 04
 
 # Getting started with Claude Cowork
 
-5 min read
+Chapter 04
 
 17 min remaining
 

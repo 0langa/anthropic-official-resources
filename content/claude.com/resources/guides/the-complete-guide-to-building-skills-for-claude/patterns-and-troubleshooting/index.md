@@ -1,8 +1,8 @@
-Chapter 066 min read
+Table of contentsChapter 06
 
 # Patterns and troubleshooting
 
-6 min read
+Chapter 06
 
 4 min remaining
 

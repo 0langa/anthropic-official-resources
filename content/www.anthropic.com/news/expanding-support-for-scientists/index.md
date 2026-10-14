@@ -16,13 +16,19 @@ By helping scientists access and increase their usage of Claude through subscrip
 
 ### **Ways to access Claude**
 
-To register for our Claude team plan for scientists, please [complete the verification form here](http://claude.ai/redirect/website.v1.251d7365-7566-4a5e-81ba-a55818486e25/labs-verification/attestation). You must be a principal investigator or equivalent at an academic or nonprofit research institution to qualify; once verified, you can add the researchers in your lab to your plan.
+To register for our Claude team plan for scientists, please [complete the verification form here](http://claude.ai/redirect/website.v1.f7a3cbbb-f87b-494c-8f8b-31b0da73d8e5/labs-verification/attestation). You must be a principal investigator or equivalent at an academic or nonprofit research institution to qualify; once verified, you can add the researchers in your lab to your plan.
 
 As your lab makes use of your allotted credits and requires more usage than standard or premium plans provide, you can [apply to our AI for Science program](https://docs.google.com/forms/d/e/1FAIpQLSfwDGfVg2lHJ0cc0oF_ilEnjvr_r4_paYi7VLlr5cLNXASdvA/viewform?usp=dialog) for up to $50,000 in credits per project. Any researcher is eligible to apply.
 
 For now, researchers working in biology and chemistry will still be limited to our Opus-class models. Claude Fable models will [continue to block](https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards) professional biology and drug development queries because of their potential dual-use risks. We’re working in partnership with the US government to establish an access program for life sciences professionals to use Mythos-class models for life sciences research and development. We have now enrolled our first participants, and we expect to share more and increase access soon.
 
 ## Related content
+
+### Anthropic opens Singapore office and signs MOU with the Government of Singapore
+
+Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.
+
+[Read more](https://www.anthropic.com/news/singapore-office-opening)
 
 ### 2026 Usage Policy update
 
@@ -35,9 +41,3 @@ We’re publishing a new version of our Usage Policy. In this post, we summarize
 Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
 
 [Read more](https://www.anthropic.com/news/genesis-mission-commitment)
-
-### Introducing the Anthropic Cyber Mission
-
-We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.
-
-[Read more](https://www.anthropic.com/news/anthropic-cyber-mission)

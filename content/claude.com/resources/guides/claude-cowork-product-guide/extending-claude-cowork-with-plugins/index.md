@@ -1,8 +1,8 @@
-Chapter 044 min read
+Table of contentsChapter 04
 
 # Extending Claude Cowork with plugins
 
-4 min read
+Chapter 04
 
 15 min remaining
 

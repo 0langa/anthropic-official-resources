@@ -32,7 +32,7 @@ We open on an incident. An alert fires in a Slack channel and, without anyone ty
 
 Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)
 
-[WebinarUpcoming | Oct 13, 2026
+[WebinarOct 13, 2026
 
 ### Measuring AI Fluency at Your Organization
 
@@ -68,7 +68,7 @@ Showing 11 of 216 resources
 
 We open on an incident. An alert fires in a Slack channel and, without anyone typing a prompt, Claude reads the logs, repos and…
 
-Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)[WebinarUpcoming | Oct 13, 2026
+Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)[WebinarOct 13, 2026
 
 ### Measuring AI Fluency at Your Organization
 

@@ -1,8 +1,8 @@
-Chapter 064 min read
+Table of contentsChapter 06
 
 # Choosing the right agentic coding solution
 
-4 min read
+Chapter 06
 
 6 min remaining
 

@@ -1,8 +1,8 @@
-Chapter 038 min read
+Table of contentsChapter 03
 
 # The rise of code modernization
 
-8 min read
+Chapter 03
 
 18 min remaining
 

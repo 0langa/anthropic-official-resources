@@ -1,8 +1,8 @@
-Chapter 066 min read
+Table of contentsChapter 06
 
 # Security first: protecting your codebase
 
-6 min read
+Chapter 06
 
 11 min remaining
 

@@ -1,8 +1,8 @@
-Chapter 025 min read
+Table of contentsChapter 02
 
 # The current landscape
 
-5 min read
+Chapter 02
 
 48 min remaining
 

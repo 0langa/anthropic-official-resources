@@ -1,8 +1,8 @@
-Chapter 022 min read
+Table of contentsChapter 02
 
 # What is agentic coding?
 
-2 min read
+Chapter 02
 
 32 min remaining
 

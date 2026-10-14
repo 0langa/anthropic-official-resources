@@ -1,8 +1,8 @@
-Chapter 025 min read
+Table of contentsChapter 02
 
 # Foundation trends: The tectonic shift
 
-5 min read
+Chapter 02
 
 16 min remaining
 

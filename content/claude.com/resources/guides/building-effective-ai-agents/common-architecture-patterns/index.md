@@ -1,8 +1,8 @@
-Chapter 0348 min read
+Table of contentsChapter 03
 
 # Common architecture patterns
 
-48 min read
+Chapter 03
 
 4 min remaining
 
