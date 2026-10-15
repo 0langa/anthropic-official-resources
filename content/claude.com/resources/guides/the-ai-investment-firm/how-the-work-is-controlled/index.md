@@ -1,8 +1,8 @@
-Chapter 153 min read
+Table of contentsChapter 15
 
 # How the work is controlled
 
-3 min read
+Chapter 15
 
 6 min remaining
 

@@ -8,7 +8,7 @@ Unsubscribe at any time.
 
 Live and recorded sessions with Anthropic and customer teams — demos, deep dives, Q&A, and practical takeaways.
 
-[WebinarUpcoming | Oct 14, 2026
+[WebinarOct 14, 2026
 
 ### Inside the Cyber Verification Program: Tiers, Migration, and Best Practices
 
@@ -34,13 +34,15 @@ We open on an incident. An alert fires in a Slack channel and, without anyone ty
 
 Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)
 
-[WebinarUpcoming | Oct 14, 2026
+[WebinarUpcoming | Multiple dates
 
-### Claude in Microsoft Foundry: control the cost, prove the value
+### Claude Code: Foundations
 
-Claude adoption in Microsoft Foundry is moving from individual developers to entire organizations. Leaders want to know who's…](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)
+New to Claude Code? You’re in the right place. Join Anthropic's Claude Code specialist team for a hands-on introduction to…
 
-[WebinarUpcoming | Oct 14, 2026
+Claude Code](https://claude.com/resources/webinars/claude-code-foundations-series)
+
+[WebinarOct 14, 2026
 
 ### Inside the Cyber Verification Program: Tiers, Migration, and Best Practices
 
@@ -50,31 +52,13 @@ Featured resource 1 of 5: Inside the Cyber Verification Program: Tiers, Migratio
 
 Advanced filters
 
-Showing 25 of 111 resources
+Showing 21 of 111 resources
 
 ## Upcoming webinars
 
 Register for the live sessions with Anthropic and partner teams — bring your questions and get answers in real time.
 
-[WebinarUpcoming | Oct 13, 2026
-
-### DRI-ing Your Career
-
-Your career is yours. It always was - but when the market was hot, it didn't seem like you needed to think about it.
-
-Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)[WebinarUpcoming | Oct 13, 2026
-
-### Measuring AI Fluency at Your Organization
-
-Seat counts don't show if AI is working. Kristen Swanson shares how to measure AI Fluency beyond usage, without a huge lift.](https://claude.com/resources/webinars/measuring-ai-fluency-at-your-organization)[WebinarUpcoming | Oct 14, 2026
-
-### Inside the Cyber Verification Program: Tiers, Migration, and Best Practices
-
-Join the teams behind the program for a walkthrough of the Cyber Verification Program.](https://claude.com/resources/webinars/inside-the-cyber-verification-program)[WebinarUpcoming | Oct 14, 2026
-
-### Claude in Microsoft Foundry: control the cost, prove the value
-
-Claude adoption in Microsoft Foundry is moving from individual developers to entire organizations. Leaders want to know who's…](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[WebinarUpcoming | Oct 15, 2026
+[WebinarUpcoming | Oct 15, 2026
 
 ### Claude Tag on-call: A new teammate in your incident channel
 
@@ -142,13 +126,31 @@ Claude Code](https://claude.com/resources/webinars/claude-code-foundations-serie
 
 Missed the session? Stream past sessions anytime and catch up at your own pace.
 
-[WebinarOct 8, 2026
+[WebinarOct 14, 2026
+
+### Claude in Microsoft Foundry: control the cost, prove the value
+
+Claude adoption in Microsoft Foundry is moving from individual developers to entire organizations. Leaders want to know who's…](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[WebinarOct 14, 2026
+
+### Inside the Cyber Verification Program: Tiers, Migration, and Best Practices
+
+Join the teams behind the program for a walkthrough of the Cyber Verification Program.](https://claude.com/resources/webinars/inside-the-cyber-verification-program)[WebinarOn demand
+
+### Measuring AI Fluency at Your Organization
+
+Seat counts don't show if AI is working. Kristen Swanson shares how to measure AI Fluency beyond usage, without a huge lift.](https://claude.com/resources/webinars/measuring-ai-fluency-at-your-organization)[WebinarOct 13, 2026
+
+### DRI-ing Your Career
+
+Your career is yours. It always was - but when the market was hot, it didn't seem like you needed to think about it.
+
+Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)[WebinarOn demand
 
 ### AI as an Engineering Leadership Multiplier
 
 Most conversations about AI in engineering focus on how the IC role is changing, but the engineering leadership role is adapting…
 
-Claude Platform](https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier)[WebinarOct 8, 2026
+Claude Platform](https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier)[WebinarOn demand
 
 ### Claude Corps Cohort 2: How to Become a Host Organization
 
@@ -180,31 +182,7 @@ Claude PlatformClaude Enterprise](https://claude.com/resources/webinars/enterpri
 
 A single well-crafted prompt only gets an agent so far. This session shows how to take agents further with tool integrations…
 
-Claude Platform](https://claude.com/resources/webinars/claude-in-microsoft-foundry-tool-integrations-in-practice-emea-rebroadcast)[WebinarOn demand
-
-### How to control costs and show ROI for Claude Code on Google Cloud
-
-Teams running Claude Code at scale eventually get the same two questions. What is this costing us, and are the results worth the…
-
-Claude Code](https://claude.com/resources/webinars/how-to-control-costs-and-show-roi-for-claude-code-on-google-cloud-apac-rebroadcast)[WebinarOn demand
-
-### Claude in Microsoft Foundry: Tool Integrations in Practice
-
-A single well-crafted prompt only gets an agent so far. This session shows how to take agents further with tool integrations…
-
-Claude Platform](https://claude.com/resources/webinars/claude-in-microsoft-foundry-tool-integrations-in-practice-apac-rebroadcast)[WebinarOn demand
-
-### Opus 5.5 for Work
-
-Claude Opus 5.5 is now available, and it’s our most capable Opus model for everyday work. It communicates more naturally and it…
-
-Claude apps](https://claude.com/resources/webinars/opus-5-5-for-work)[WebinarOn demand
-
-### Modernizing Legacy Code with Claude Code
-
-Most modernization programs stall before the new system ships. Legacy code is poorly documented, the people who wrote it have…
-
-Claude Code](https://claude.com/resources/webinars/modernizing-legacy-code-with-claude-code)
+Claude Platform](https://claude.com/resources/webinars/claude-in-microsoft-foundry-tool-integrations-in-practice-emea-rebroadcast)
 
 View more
 

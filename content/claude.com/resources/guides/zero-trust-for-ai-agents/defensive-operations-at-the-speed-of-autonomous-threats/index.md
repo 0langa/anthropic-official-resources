@@ -1,8 +1,8 @@
-Chapter 076 min read
+Table of contentsChapter 07
 
 # Defensive operations at the speed of autonomous threats
 
-6 min read
+Chapter 07
 
 3 min remaining
 

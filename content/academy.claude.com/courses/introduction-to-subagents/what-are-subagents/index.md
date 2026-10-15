@@ -31,9 +31,9 @@ Subagents solve this by spinning up a separate context window. The subagent rece
 - **A custom system prompt** from your configuration file that defines the subagent's role and behavior
 - **A task description** written by the parent agent based on what you asked for
 
-The subagent then works on its own. It reads files, runs searches, edits code -- whatever it needs to do. When it's done, only a summary comes back to your main conversation. The entire subagent conversation is then discarded.
+The subagent then works on its own. It reads files, runs searches, edits code -- whatever it needs to do. When it's done, only a summary comes back to your main conversation. Claude Code saves the rest of the subagent's conversation in a separate transcript file.
 
-This means your main context stays clean. You get the answer without all the noise of the journey it took to find it. The tradeoff is that you lose visibility into how the subagent reached its conclusions.
+This means your main context stays clean. You get the answer without all the noise of the journey it took to find it. The tradeoff is that your main conversation doesn't see how the subagent reached its conclusions.
 
 ## A Practical Example[](https://academy.claude.com/courses/introduction-to-subagents/what-are-subagents)
 

@@ -1,8 +1,8 @@
-Chapter 164 min read
+Table of contentsChapter 16
 
 # The Claude stack on the buy side
 
-4 min read
+Chapter 16
 
 2 min remaining
 

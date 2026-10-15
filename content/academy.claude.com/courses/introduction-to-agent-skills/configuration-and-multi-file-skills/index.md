@@ -24,7 +24,7 @@ Configuration and multi-file skills · 4 min
 SummaryTranscript
 
 This video covers the advanced techniques that make skills more powerful:
-the full set of metadata fields, how to write descriptions that trigger
+the key metadata fields, how to write descriptions that trigger
 reliably, pre-approving the tools a skill needs, and
 organizing larger skills across multiple files using progressive
 disclosure. You'll learn how to keep your skills efficient while still
@@ -34,7 +34,7 @@ supporting complex use cases.
 
 ## Key takeaways[](https://academy.claude.com/courses/introduction-to-agent-skills/configuration-and-multi-file-skills)
 
-- **`name` and `description` are required** — `allowed-tools` and `model` are optional but powerful additions
+- **Every frontmatter field is optional in Claude Code**, and only `description` is recommended. `allowed-tools` and `model` are two of the most useful additions
 - A good description **answers two questions**: What does the skill do? When should Claude use it?
 - **`allowed-tools`** pre-approves the listed tools while the skill is active, so Claude can use them without asking, and it doesn't limit Claude to those tools
 - **Progressive disclosure**: keep SKILL.md under 500 lines and link to supporting files (references, scripts, assets) that Claude reads only when needed
@@ -44,10 +44,10 @@ A basic skill works with just a name and description, but there are several adva
 
 ## Skill Metadata Fields[](https://academy.claude.com/courses/introduction-to-agent-skills/configuration-and-multi-file-skills)
 
-The agent skills open standard defines the core fields in the SKILL.md frontmatter, and Claude Code adds a few of its own, such as `model`. Two are required, and the rest are optional:
+The agent skills open standard defines the core fields in the SKILL.md frontmatter, and Claude Code adds many of its own, such as `model`. In Claude Code, all fields are optional, and only `description` is recommended. These four are a good place to start (the [frontmatter reference(opens in new tab)](https://code.claude.com/docs/en/skills) lists the rest):
 
-- **name** (required) — Identifies your skill. Use lowercase letters, numbers, and hyphens only. Maximum 64 characters. Should match your directory name.
-- **description** (required) — Tells Claude when to use the skill. Maximum 1,024 characters. This is the most important field because Claude uses it for matching.
+- **name** (optional) — Identifies your skill. Defaults to the directory name. If you upload the skill to Claude.ai or the Claude API, it's required and limited to lowercase letters, numbers, and hyphens, up to 64 characters.
+- **description** (recommended) — Tells Claude when to use the skill. If you upload the skill to Claude.ai or the Claude API, it's required and capped at 1,024 characters. This is the most important field because Claude uses it for matching.
 - **allowed-tools** (optional) — Pre-approves the listed tools, so Claude can use them without asking permission while the skill is active.
 - **model** (optional) — Specifies which Claude model to use for the skill.
 

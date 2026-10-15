@@ -116,7 +116,7 @@ Proven workflows and practical guides to help your team get more out of Claude, 
 
 ### Claude Tag on-call: A new teammate in your incident channel
 
-Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)[WebinarUpcoming | Oct 13, 2026
+Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)[WebinarOn demand
 
 ### Measuring AI Fluency at Your Organization
 
@@ -178,19 +178,17 @@ Katelyn Lesse, Head of Platform Engineering at Anthropic sat down with Dan Shipp
 
 ### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
 
-Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)[WebinarUpcoming | Oct 13, 2026
+Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)[WebinarOct 13, 2026
 
 ### DRI-ing Your Career
 
 Your career is yours. It always was - but when the market was hot, it didn't seem like you needed to think about it.
 
-Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)[WebinarOct 8, 2026
+Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)[ArticleOct 13, 2026
 
-### AI as an Engineering Leadership Multiplier
+### Uber's CISO on building an insider threat program for AI
 
-Most conversations about AI in engineering focus on how the IC role is changing, but the engineering leadership role is adapting…
-
-Claude Platform](https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier)
+Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)
 
 ## Insights
 
@@ -246,7 +244,15 @@ News, announcements, and stories from Anthropic about Claude and the people buil
 
 Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
 
-Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 8, 2026
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 14, 2026
+
+### Agent observability on the Claude Platform
+
+Announcing OpenTelemetry traces from Claude Managed Agents, the Messages API, and Claude SDKs on the Claude Platform.](https://claude.com/resources/articles/agent-observability-on-the-claude-platform)[ArticleOct 13, 2026
+
+### Uber's CISO on building an insider threat program for AI
+
+Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)[ArticleOct 8, 2026
 
 ### Building effective agent automations
 
@@ -260,21 +266,7 @@ Claude Platform
 
 Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
 
-Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)[ArticleOct 7, 2026
-
-### Claude Haiku 5.5
-
-Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
-
-(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)[ArticleOct 7, 2026
-
-### Automating eval design and hillclimbing with Claude
-
-Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
-
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
+Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)
 
 ## Guides
 
@@ -318,7 +310,7 @@ Live and recorded sessions with Anthropic and customer teams — demos, deep div
 
 [See more](https://claude.com/resources/webinars)
 
-[WebinarUpcoming | Oct 14, 2026
+[WebinarOct 14, 2026
 
 ### Inside the Cyber Verification Program: Tiers, Migration, and Best Practices
 
@@ -336,7 +328,7 @@ Learn how to control and optimize Claude spend on AWS, from admin controls and d
 
 We open on an incident. An alert fires in a Slack channel and, without anyone typing a prompt, Claude reads the logs, repos and…
 
-Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)[WebinarUpcoming | Oct 14, 2026
+Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)[WebinarOct 14, 2026
 
 ### Claude in Microsoft Foundry: control the cost, prove the value
 

@@ -1,8 +1,8 @@
-Chapter 031 min read
+Table of contentsChapter 03
 
 # The new operating model
 
-1 min read
+Chapter 03
 
 40 min remaining
 

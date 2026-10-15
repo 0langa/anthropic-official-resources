@@ -1,4 +1,4 @@
-Intro
+Table of contents
 
 # The AI investment firm
 
@@ -7,5 +7,7 @@ This guide is for investment and trading firms: hedge funds, systematic managers
 When Claude takes the first pass on routine, time-consuming work like updating models after earnings or reconciling positions and cash, people can spend more of their time on decisions that determine returns and on carrying them out. Getting there is a people and process change as much as a technology change. Employees can take on work they used to delegate or never had time for. Firms add roles they didn't need before, such as embedded AI engineers who sit with the investment teams and build agents for the work analysts want to hand off, and owners for the skills Claude follows and the evals that test its work
 
 In this guide, we draw from our work with buy-side firms to outline best practices for AI adoption, and the work Claude takes on for each team.
+
+[Start reading](https://claude.com/resources/guides/the-ai-investment-firm/advancing-your-firm-s-ai-maturity)[Download now](https://assets.claude.com/7519a7c0a7b22f3de381f68da5eea3ecb9916e34.pdf?dl=)
 
 49 min read

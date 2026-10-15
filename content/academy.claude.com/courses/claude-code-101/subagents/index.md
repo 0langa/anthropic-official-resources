@@ -30,11 +30,15 @@ The result: you get the answer you were looking for, without the entire journey 
 
 ## Creating Your Own Subagent[](https://academy.claude.com/courses/claude-code-101/subagents)
 
-Subagents are defined in Markdown files with YAML frontmatter. The easiest way to get started is to let Claude generate one for you. Run:
+Subagents are defined in Markdown files with YAML frontmatter. The easiest way to get started is to let Claude generate one for you. Describe the subagent you want and where to save it:
 
-`/agents`
+Create a code-reviewer subagent in .claude/agents/ that reviews code for bugs and readability. Make it read-only.
 
-Then select "Create new agent." You'll walk through steps including choosing the scope of the agent, defining its purpose, selecting the tools it has access to, and even picking a color for it.
+
+
+Open in Claude Code
+
+A subagent in `.claude/agents/` works in the current project, and one in `~/.claude/agents/` works in all your projects. If the folder you chose didn't exist when your session started, restart Claude Code to load the new subagent.
 
 Claude will generate a name, description, and prompt for the subagent. This also tells Claude when to call the subagent based on the prompts you give it.
 

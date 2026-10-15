@@ -67,7 +67,7 @@ The core of headless mode is the `-p` flag (short for `--print`). It runs Claude
 
 `claude -p "summarize the changes in this diff"`
 
-One thing worth knowing: `-p` skips auto-discovery of hooks, skills, plugins, MCP servers, and the CLAUDE.md file. You get Claude plus the tools you allow explicitly, and nothing the local environment happens to load. The upside is that startup is much faster this way.
+One thing worth knowing: on its own, `-p` loads the same context an interactive session would, including hooks, skills, plugins, MCP servers, and the CLAUDE.md file. To skip all of that, add `--bare`, covered below.
 
 ## Getting structured output back[](https://academy.claude.com/courses/claude-code-in-action/routines-and-headless)
 
@@ -94,11 +94,11 @@ For work that happens across multiple steps, you don't have to cram everything i
 
 One script kicks off the work. Another resumes it later with full context. This is handy when the first pass produces a plan and a second pass carries it out.
 
-## Deterministic runs for CI[](https://academy.claude.com/courses/claude-code-in-action/routines-and-headless)
+## Consistent runs for CI[](https://academy.claude.com/courses/claude-code-in-action/routines-and-headless)
 
-When CI needs the same results every single run, there's a mode built for that.
+When CI needs the same setup on every machine, there's a mode built for that.
 
-The `--bare` flag gives you deterministic mode. It's the right choice when you're running Claude Code inside a pipeline and you want repeatable, predictable output rather than anything that varies run to run.
+The `--bare` flag skips auto-discovery of hooks, skills, plugins, MCP servers, and the CLAUDE.md file. You get Claude with the Bash, file read, and file edit tools, plus whatever you pass in with a flag like `--settings` or `--mcp-config`. So every machine starts from the same setup, and startup is faster. Bare mode doesn't use your subscription login, so set `ANTHROPIC_API_KEY` first.
 
 ## The Agent SDK: Claude Code inside your own app[](https://academy.claude.com/courses/claude-code-in-action/routines-and-headless)
 
@@ -118,7 +118,7 @@ Here's the quick decision guide:
 
 - **Routines** are the default for repeat work. They run on Anthropic's infrastructure with nothing for you to host.
 - **Headless mode with `-p`** is for when the job needs your pipeline and you want to pipe data through a script.
-- **`--bare`** is for when CI needs the same results every single run.
+- **`--bare`** is for when CI needs the same setup on every machine.
 - **The Agent SDK** is for when the work belongs inside your own product.
 
 Start with routines. Drop down the spectrum only when the job actually needs the extra control.

@@ -1,4 +1,4 @@
-Oct 13, 2026 — 12:00 – 12:45 PM PT
+On demand
 
 # Measuring AI Fluency at Your Organization
 
@@ -8,7 +8,7 @@ Join Anthropic's Kristen Swanson for a practical look at how to measure AI Fluen
 
 Register for the webinar
 
-Fill out the form below to reserve your seat.
+Fill out the form below to watch on demand.
 
 ## Featured speakers
 

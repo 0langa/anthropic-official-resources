@@ -1,8 +1,8 @@
-Chapter 029 min read
+Table of contentsChapter 02
 
 # Step 1: Lay the foundation
 
-9 min read
+Chapter 02
 
 22 min remaining
 

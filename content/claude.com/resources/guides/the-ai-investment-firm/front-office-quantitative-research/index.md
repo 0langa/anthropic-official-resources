@@ -1,8 +1,8 @@
-Chapter 063 min read
+Table of contentsChapter 06
 
 # Front office: Quantitative research
 
-3 min read
+Chapter 06
 
 33 min remaining
 

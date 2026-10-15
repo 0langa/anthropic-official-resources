@@ -1,8 +1,8 @@
-Chapter 053 min read
+Table of contentsChapter 05
 
 # Front office: Research and diligence
 
-3 min read
+Chapter 05
 
 36 min remaining
 

@@ -4,7 +4,7 @@ A playbook for rolling out Claude Cowork across your organization.
 
 15 minClaude Cowork
 
-[Open Cowork](claude://cowork/new)
+[Open Cowork](https://claude.ai/new?surface=cowork)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-bvn0kt1s.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iu3pg3zz.png)
 

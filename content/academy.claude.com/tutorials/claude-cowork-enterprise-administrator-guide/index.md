@@ -4,7 +4,7 @@ Claude Cowork brings Claude’s agentic capabilities to Claude.ai and the Claude
 
 20 minClaude Cowork
 
-[Open Cowork](claude://cowork/new)
+[Open Cowork](https://claude.ai/new?surface=cowork)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-epz8s4e9.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-oerjm7gu.png)
 

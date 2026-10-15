@@ -12,6 +12,19 @@ Register for the webinar
 
 Fill out the form below to reserve your seat.
 
+## Featured speakers
+
+- ![](https://assets.claude.com/5bebe6971b8da2852a6144685eb9a94a73dbaadd.jpg?w=128&h=128&fit=crop)
+
+  Scott Munson
+
+  Member of Technical Staff @ Anthropic
+- ![](https://assets.claude.com/b9d5ed77a3e88f2f92c8cc72e6f5524448f80f08.png?w=128&h=128&fit=crop)
+
+  Ayan Ray
+
+  Worldwide Tech Lead for Anthropic Partnership @ AWS
+
 ## What you’ll learn
 
 - How to optimize cost of Claude on AWS

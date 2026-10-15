@@ -1,6 +1,6 @@
 ![Anthropic x Microsoft](https://assets.claude.com/d0d490842b846c570e9358b4dd4773d548fd17a1.svg)
 
-Oct 14, 2026 — 10:00 – 11:00 AM PT
+On demand
 
 # Claude in Microsoft Foundry: control the cost, prove the value
 
@@ -8,7 +8,7 @@ Claude adoption in Microsoft Foundry is moving from individual developers to ent
 
 Register for the webinar
 
-Fill out the form below to reserve your seat.
+Fill out the form below to watch on demand.
 
 By submitting, you acknowledge the Anthropic [Privacy Policy](https://www.anthropic.com/legal/privacy).
 

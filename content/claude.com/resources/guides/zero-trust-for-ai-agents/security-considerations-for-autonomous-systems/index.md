@@ -1,8 +1,8 @@
-Chapter 034 min read
+Table of contentsChapter 03
 
 # Security considerations for autonomous systems
 
-4 min read
+Chapter 03
 
 59 min remaining
 

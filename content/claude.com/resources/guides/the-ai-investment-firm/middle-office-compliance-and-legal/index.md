@@ -1,8 +1,8 @@
-Chapter 103 min read
+Table of contentsChapter 10
 
 # Middle office: Compliance and legal
 
-3 min read
+Chapter 10
 
 21 min remaining
 

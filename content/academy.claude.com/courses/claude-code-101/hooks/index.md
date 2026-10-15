@@ -49,7 +49,7 @@ You configure them through the `/hooks` command inside Claude Code, or by editin
 
 ## A Practical Example[](https://academy.claude.com/courses/claude-code-101/hooks)
 
-The most common hook: auto-formatting after edits. Set a **PostToolUse** hook with a matcher of `"Edit|MultiEdit|Write"` so it fires whenever Claude modifies a file. The command checks the file extension and runs the appropriate formatter — Prettier for TypeScript, gofmt for Go, whatever your project uses.
+The most common hook: auto-formatting after edits. Set a **PostToolUse** hook with a matcher of `"Edit|Write"` so it fires after Claude uses the Edit or Write tool. The command checks the file extension and runs the appropriate formatter: Prettier for TypeScript, gofmt for Go, whatever your project uses.
 
 ## Blocking with PreToolUse[](https://academy.claude.com/courses/claude-code-101/hooks)
 

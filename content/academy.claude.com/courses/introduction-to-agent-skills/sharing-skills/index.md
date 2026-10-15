@@ -37,8 +37,8 @@ subagents don't inherit skills automatically.
 - **Project skills** in `.claude/skills` are shared automatically through Git — anyone who clones the repo gets them
 - **Plugins** let you distribute skills across repositories via marketplaces for broader community use
 - **Enterprise managed settings** deploy skills organization-wide with the highest priority, ideal for mandatory standards and compliance
-- **Subagents don't automatically see your skills** — you must explicitly list skills in a custom agent's frontmatter `skills` field
-- Built-in agents (Explorer, Plan, Verify) **can't access skills at all** — only custom subagents defined in `.claude/agents` can
+- **Subagents don't see the skills you've already invoked**. If they have the Skill tool, they can still find and invoke skills
+- Built-in agents (like Explore and Plan) **don't preload skills**. Only custom subagents can list skills to load at startup, in their `skills` field
 
 Skills become much more valuable when they're shared. A PR review skill that only you use is helpful, but that same skill shared across your entire team standardizes code review and creates a consistent experience across your organization. Let's look at the different ways you can distribute skills.
 
@@ -66,11 +66,11 @@ This approach is best when your skills aren't too project-specific and can be us
 
 ## Enterprise Deployment Through Managed Settings[](https://academy.claude.com/courses/introduction-to-agent-skills/sharing-skills)
 
-Administrators can deploy skills organization-wide through managed settings. Enterprise skills take the highest priority — they override personal, project, and plugin skills with the same name.
+Administrators can deploy skills organization-wide through managed settings. Each skill goes in `.claude/skills/` inside the managed settings directory on each machine, for example, `/etc/claude-code/.claude/skills/` on Linux. Enterprise skills take the highest priority: they override personal and project skills with the same name.
 
 ![managed-settings.json with telemetry environment variables, two company announcements, and a strictKnownMarketplaces list.](https://academy.claude.com/assets/media/2373313fe9e584333d54a9b2fced74895f23601919dfee21fc676e9f61ab2d74.png)
 
-The managed settings file supports features like `strictKnownMarketplaces` to control where plugins can be installed from:
+Managed settings also control plugins. For example, `strictKnownMarketplaces` limits which marketplaces people can add and install plugins from. The screenshot above includes an `npm` entry, which matches nothing, so this example uses a `url` entry instead:
 
 json
 
@@ -81,29 +81,29 @@ json
     "repo": "acme-corp/approved-plugins"
   },
   {
-    "source": "npm",
-    "package": "@acme-corp/compliance-plugins"
+    "source": "url",
+    "url": "https://plugins.example.com/marketplace.json"
   }
 ]
 ```
 
-This is the right choice for mandatory standards, security requirements, compliance workflows, and coding practices that *must* be consistent across the organization. The keyword here is "must."
+Enterprise deployment is the right choice for mandatory standards, security requirements, compliance workflows, and coding practices that *must* be consistent across the organization. The keyword here is "must."
 
 ## Skills and Subagents[](https://academy.claude.com/courses/introduction-to-agent-skills/sharing-skills)
 
-Here's something that surprises people: subagents don't automatically see your skills. When you delegate a task to a subagent, it starts with a fresh, clean context.
+Here's something that surprises people: a subagent doesn't see the skills you've already invoked. When you delegate a task to a subagent, it starts with a fresh, clean context, unless it's a [fork(opens in new tab)](https://code.claude.com/docs/en/sub-agents), which starts with a copy of your conversation. A subagent that starts fresh can still find and invoke skills through the Skill tool, as long as it has that tool.
 
 There are important distinctions to understand:
 
-- **Built-in agents** (like Explorer, Plan, and Verify) can't access skills at all
-- **Custom subagents** you define *can* use skills, but only when you explicitly list them
-- Skills are loaded when the subagent starts, not on demand like in the main conversation
+- **Built-in agents** (like Explore and Plan) don't preload skills
+- **Custom subagents** you define can preload the skills you list in their `skills` field. If you give one a `tools` list, keep `Skill` in it so the subagent can still invoke unlisted skills
+- Preloaded skills are loaded in full when the subagent starts, not on demand like in the main conversation
 
-To create a custom subagent with skills, add an agent markdown file in `.claude/agents`. You can use the `/agents` command in Claude Code to create one interactively:
+To create a custom subagent with skills, add an agent markdown file in `.claude/agents`. You can write the file yourself or ask Claude to create it for you. If `.claude/agents` didn't exist when your session started, restart Claude Code to load the new subagent. The screenshot below shows the `/agents` wizard, which was removed in Claude Code v2.1.198.
 
 ![Claude Code new agent prompt, typed text starting "I want you to review the frontend for any issues with accessibility".](https://academy.claude.com/assets/media/dc6b8b0e1a6076788a757058dc8e5af5ef8de682b5e2102d7ff72e6c774d845e.png)
 
-The generated agent file includes a `skills` field that lists which skills to load. Here's what the frontmatter looks like:
+The agent file's `skills` field lists which skills to load. Here's what the frontmatter looks like:
 
 yaml
 

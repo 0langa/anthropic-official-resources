@@ -44,10 +44,10 @@ The nice part is it deduplicates and ranks the findings. So instead of a wall of
 A couple of things to keep in mind about the boundaries here:
 
 - It never approves or blocks the PR. The judgment call stays with a human. Claude flags things; you decide.
-- There's no managed autofix. The service posts findings only.
+- It doesn't push fixes. The service posts findings only.
 - It's a research preview right now, available on team and enterprise plans, so expect the behavior to keep moving.
 
-Since there's no autofix in the service, applying a finding is a local move. From your own terminal, the `/code-review` command reviews a diff, and its `--fix` flag applies the findings to your working tree. So the flow is: Claude finds it in the PR, you pull it down and fix it locally.
+Since the service only posts findings, acting on one is your move: fix the code and push. To check your fix before you push, run `/code-review` from your own terminal. It runs its own review of your diff, and its `--fix` flag applies that review's findings to your working tree.
 
 ## The do-it-yourself path: the GitHub Action[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
 
@@ -98,7 +98,7 @@ The `claude_args` line is where the fine-tuning happens. A few knobs worth knowi
 
 Here's the short version:
 
-- For PR reviews, take the managed path. Enable Code Review, let the GitHub app post inline findings, and apply fixes locally with `/code-review --fix`.
+- For PR reviews, take the managed path. Enable Code Review, let the GitHub app post inline findings, then fix the code and push.
 - Reach for the action when the job is more than review. Use `/install-github-app` for setup, one workflow for `@claude` mentions, one for cron, and all the tuning lives in `claude_args`.
 
 Start with the managed service. Move to the action the moment you need Claude to actually do something in CI, not just comment on it.

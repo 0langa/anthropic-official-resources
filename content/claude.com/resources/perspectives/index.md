@@ -16,7 +16,7 @@ Jess Yan, Claude Managed Agents product manager, shares how she uses the product
 
 Claude Platform](https://claude.com/resources/articles/product-development-in-the-agentic-era)
 
-[WebinarUpcoming | Oct 13, 2026
+[WebinarOct 13, 2026
 
 ### DRI-ing Your Career
 
@@ -24,7 +24,13 @@ Your career is yours. It always was - but when the market was hot, it didn't see
 
 Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)
 
-[WebinarOct 8, 2026
+[ArticleOct 13, 2026
+
+### Uber's CISO on building an insider threat program for AI
+
+Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)
+
+[WebinarOn demand
 
 ### AI as an Engineering Leadership Multiplier
 
@@ -40,16 +46,6 @@ Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new la
 
 Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)
 
-[Video33 min watch
-
-### Building secure agents for knowledge work
-
-Katelyn Lesse, Head of Platform Engineering at Anthropic sat down with Dan Shipper, Co-Founder and CEO at Every and Willie Williams, Head of Platform at Every to talk about the AI coworker they built on Claude Managed Agents.
-
-Claude Platform
-
-(opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)
-
 [ArticleApr 29, 2026
 
 ### Product development in the agentic era
@@ -62,15 +58,19 @@ Featured resource 1 of 5: Product development in the agentic era
 
 Advanced filters
 
-Showing 11 of 60 resources
+Showing 11 of 61 resources
 
-[WebinarUpcoming | Oct 13, 2026
+[WebinarOct 13, 2026
 
 ### DRI-ing Your Career
 
 Your career is yours. It always was - but when the market was hot, it didn't seem like you needed to think about it.
 
-Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)[WebinarOct 8, 2026
+Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)[ArticleOct 13, 2026
+
+### Uber's CISO on building an insider threat program for AI
+
+Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)[WebinarOn demand
 
 ### AI as an Engineering Leadership Multiplier
 
@@ -129,12 +129,6 @@ Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-
 
 How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[WebinarOn demand
-
-### How to Roadmap with Decisions Rather Than Dates
-
-Many of the "best practices" of engineering leadership have been built around managing dates, timelines and priorities. However,…
-
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/9a769404-8a44-4f91-a54a-04769f055854)
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)
 
 View more

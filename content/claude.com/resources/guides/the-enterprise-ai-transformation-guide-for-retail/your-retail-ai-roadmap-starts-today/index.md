@@ -1,8 +1,8 @@
-Chapter 064 min read
+Table of contentsChapter 06
 
 # Your retail AI roadmap starts today
 
-4 min read
+Chapter 06
 
 0 min remaining
 

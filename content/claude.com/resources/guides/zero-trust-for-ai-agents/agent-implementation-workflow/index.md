@@ -1,8 +1,8 @@
-Chapter 0622 min read
+Table of contentsChapter 06
 
 # Agent implementation workflow
 
-22 min read
+Chapter 06
 
 9 min remaining
 

@@ -1,8 +1,8 @@
-Chapter 073 min read
+Table of contentsChapter 07
 
 # Front office: Portfolio management and deals
 
-3 min read
+Chapter 07
 
 30 min remaining
 

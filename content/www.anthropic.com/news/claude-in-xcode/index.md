@@ -35,6 +35,12 @@ For more details, see the [Xcode 26 release notes](https://developer.apple.com/d
 
 ## Related content
 
+### Preparing for the 2026 US midterms
+
+Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
+
+[Read more](https://www.anthropic.com/news/2026-us-midterms)
+
 ### Anthropic opens Singapore office and signs MOU with the Government of Singapore
 
 Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.
@@ -46,9 +52,3 @@ Anthropic has opened an office in Singapore and signed an MOU with the country�
 We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
 
 [Read more](https://www.anthropic.com/news/2026-usage-policy-update)
-
-### Building on our commitment to American scientific discovery
-
-Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
-
-[Read more](https://www.anthropic.com/news/genesis-mission-commitment)

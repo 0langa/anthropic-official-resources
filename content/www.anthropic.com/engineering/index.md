@@ -2,15 +2,21 @@
 
 [Start building](https://platform.claude.com/)[Developer docs](https://www.anthropic.com/docs)
 
-![How we contain Claude across products](https://www-cdn.anthropic.com/images/4zrzovbb/website/47d14a71a7a759af39e1bc36ee68d65eb16ad74d-1000x1000.svg)
+![ Redesigning source control at Anthropic](https://www-cdn.anthropic.com/images/4zrzovbb/website/282c56ae3ec0a72a15c5f4186744ce0ac940a2dd-2554x2554.svg)
 
-[![How we contain Claude across products](https://www-cdn.anthropic.com/images/4zrzovbb/website/47d14a71a7a759af39e1bc36ee68d65eb16ad74d-1000x1000.svg)
+[![ Redesigning source control at Anthropic](https://www-cdn.anthropic.com/images/4zrzovbb/website/282c56ae3ec0a72a15c5f4186744ce0ac940a2dd-2554x2554.svg)
 
 Featured
 
-## How we contain Claude across products
+## Redesigning source control at Anthropic
 
-As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve learned building containment for claude.ai, Claude Code, and Cowork.](https://www.anthropic.com/engineering/how-we-contain-claude)
+As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.](https://www.anthropic.com/engineering/redesigning-source-control)
+
+[![How we contain Claude across products](https://www-cdn.anthropic.com/images/4zrzovbb/website/641d32b3291956d595c7e820d5bf94c5f44baa28-500x500.svg)
+
+### How we contain Claude across products
+
+May 25, 2026](https://www.anthropic.com/engineering/how-we-contain-claude)
 
 [![An update on recent Claude Code quality reports](https://www-cdn.anthropic.com/images/4zrzovbb/website/259cb9466c31eee1bd312c230c1ab95c844da488-500x500.svg)
 

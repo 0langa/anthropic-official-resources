@@ -1,8 +1,8 @@
-Chapter 083 min read
+Table of contentsChapter 08
 
 # Front office: Trading and execution
 
-3 min read
+Chapter 08
 
 27 min remaining
 

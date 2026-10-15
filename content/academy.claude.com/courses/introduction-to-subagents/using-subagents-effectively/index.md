@@ -59,7 +59,7 @@ Claude Code's default system prompt emphasizes concise, code-focused responses. 
 Here are two cases where a custom system prompt makes the subagent genuinely better than the main thread:
 
 - **Copywriting subagent** -- Give it instructions about tone, audience, and style. Claude Code's default prompt tends toward concise technical writing, which really isn't what you want for a landing page or email campaign. A copywriting subagent can have completely different instructions about voice and structure.
-- **Styling subagent** -- Point it at your design system files. When the subagent runs, those files load into its context automatically, so it knows your color variables, spacing conventions, and component patterns before it even starts writing any CSS.
+- **Styling subagent** -- Tell it in its system prompt to read your design system files first, so it knows your color variables, spacing conventions, and component patterns before it starts writing any CSS.
 
 ## When Subagents Hurt[](https://academy.claude.com/courses/introduction-to-subagents/using-subagents-effectively)
 

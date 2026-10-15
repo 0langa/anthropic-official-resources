@@ -1,8 +1,8 @@
-Chapter 013 min read
+Table of contentsChapter 01
 
 # The startup lifecycle, rebooted for 2026
 
-3 min read
+Chapter 01
 
 82 min remaining
 

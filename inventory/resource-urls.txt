@@ -1132,6 +1132,7 @@ https://claude.com/resources/articles/a-field-guide-to-claude-fable-finding-your
 https://claude.com/resources/articles/a-guide-to-cost-visibility-and-control-in-claude
 https://claude.com/resources/articles/agent-capabilities-api
 https://claude.com/resources/articles/agent-identity-access-model
+https://claude.com/resources/articles/agent-observability-on-the-claude-platform
 https://claude.com/resources/articles/agent-view-in-claude-code
 https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic
 https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude
@@ -2038,6 +2039,7 @@ https://platform.claude.com/cookbook/tool-use-tool-use-with-pydantic
 https://platform.claude.com/cookbook/tool-use-vision-with-tools
 https://platform.claude.com/docs
 https://platform.claude.com/docs/en/about-claude/additional-resources
+https://platform.claude.com/docs/en/about-claude/api-credits-for-subscribers
 https://platform.claude.com/docs/en/about-claude/glossary
 https://platform.claude.com/docs/en/about-claude/model-deprecations
 https://platform.claude.com/docs/en/about-claude/models
@@ -2493,6 +2495,17 @@ https://platform.claude.com/docs/en/api/beta/organization/spend_limits/list
 https://platform.claude.com/docs/en/api/beta/organization/spend_limits/list_effective
 https://platform.claude.com/docs/en/api/beta/organization/spend_limits/retrieve
 https://platform.claude.com/docs/en/api/beta/organization/spend_limits/set
+https://platform.claude.com/docs/en/api/beta/organization/telemetry_destinations
+https://platform.claude.com/docs/en/api/beta/organization/telemetry_destinations/create
+https://platform.claude.com/docs/en/api/beta/organization/telemetry_destinations/delete
+https://platform.claude.com/docs/en/api/beta/organization/telemetry_destinations/list
+https://platform.claude.com/docs/en/api/beta/organization/telemetry_destinations/retrieve
+https://platform.claude.com/docs/en/api/beta/organization/telemetry_destinations/test
+https://platform.claude.com/docs/en/api/beta/organization/telemetry_destinations/update
+https://platform.claude.com/docs/en/api/beta/organization/telemetry_destinations/workspaces
+https://platform.claude.com/docs/en/api/beta/organization/telemetry_destinations/workspaces/add
+https://platform.claude.com/docs/en/api/beta/organization/telemetry_destinations/workspaces/list
+https://platform.claude.com/docs/en/api/beta/organization/telemetry_destinations/workspaces/remove
 https://platform.claude.com/docs/en/api/beta/organization/usage_report
 https://platform.claude.com/docs/en/api/beta/organization/usage_report/retrieve_claude_code
 https://platform.claude.com/docs/en/api/beta/organization/usage_report/retrieve_messages
@@ -3215,6 +3228,7 @@ https://platform.claude.com/docs/en/api/models
 https://platform.claude.com/docs/en/api/models-list
 https://platform.claude.com/docs/en/api/models/list
 https://platform.claude.com/docs/en/api/models/retrieve
+https://platform.claude.com/docs/en/api/opentelemetry/spans
 https://platform.claude.com/docs/en/api/organization
 https://platform.claude.com/docs/en/api/organization/api_keys
 https://platform.claude.com/docs/en/api/organization/api_keys/list
@@ -3425,6 +3439,10 @@ https://platform.claude.com/docs/en/manage-claude/data-residency
 https://platform.claude.com/docs/en/manage-claude/inference-hooks
 https://platform.claude.com/docs/en/manage-claude/inference-hooks-configuration
 https://platform.claude.com/docs/en/manage-claude/inference-hooks-endpoint
+https://platform.claude.com/docs/en/manage-claude/opentelemetry
+https://platform.claude.com/docs/en/manage-claude/opentelemetry/api
+https://platform.claude.com/docs/en/manage-claude/opentelemetry/sdk
+https://platform.claude.com/docs/en/manage-claude/opentelemetry?sdk_languages=http
 https://platform.claude.com/docs/en/manage-claude/plugins-api
 https://platform.claude.com/docs/en/manage-claude/rate-limits-api
 https://platform.claude.com/docs/en/manage-claude/spend-limits-api
@@ -4082,6 +4100,7 @@ https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-a
 https://support.claude.com/en/articles/17005973-manage-pooled-group-budgets-on-enterprise-plans
 https://support.claude.com/en/articles/17007452
 https://support.claude.com/en/articles/17007452-what-is-a-limit-reset
+https://support.claude.com/en/articles/17040437
 https://support.claude.com/en/articles/17118092
 https://support.claude.com/en/articles/17118092-assign-a-program-to-custom-roles-on-enterprise-plans
 https://support.claude.com/en/articles/17153992
@@ -4098,6 +4117,7 @@ https://support.claude.com/en/articles/17318731
 https://support.claude.com/en/articles/17318731-use-claude-code-local-mode-and-claude-cowork-local-mode-on-a-hipaa-ready-enterprise-plan
 https://support.claude.com/en/articles/17440474
 https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude
+https://support.claude.com/en/articles/17444462
 https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization
 https://support.claude.com/en/articles/17454700
 https://support.claude.com/en/articles/17454700-get-started-with-claude-dashboards
@@ -4348,6 +4368,7 @@ https://www.anthropic.com/learn/claude-for-work
 https://www.anthropic.com/learn/claude-for-you
 https://www.anthropic.com/news
 https://www.anthropic.com/news/100k-context-windows
+https://www.anthropic.com/news/2026-us-midterms
 https://www.anthropic.com/news/2026-usage-policy-update
 https://www.anthropic.com/news/2028-ai-leadership
 https://www.anthropic.com/news/3-5-models-and-computer-use

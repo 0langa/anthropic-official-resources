@@ -1,8 +1,8 @@
-Chapter 057 min read
+Table of contentsChapter 05
 
 # Building an AI-first enterprise: real-world examples
 
-7 min read
+Chapter 05
 
 6 min remaining
 

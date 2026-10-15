@@ -226,6 +226,7 @@
     "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues",
     "https://www.anthropic.com/engineering/building-c-compiler",
     "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+    "https://www.anthropic.com/news/2026-us-midterms",
     "https://www.anthropic.com/news/2028-ai-leadership",
     "https://www.anthropic.com/news/anthropic-economic-index-september-2025-report",
     "https://www.anthropic.com/news/anthropic-interviewer",
@@ -277,10 +278,10 @@
   ],
   "statuses": {
     "blocked": 27,
-    "complete": 4518,
+    "complete": 4535,
     "gone": 46,
     "out_of_scope": 39,
-    "partial": 270
+    "partial": 271
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/dashboard",
@@ -700,6 +701,7 @@
     "https://www.anthropic.com/engineering/building-effective-mcp-servers",
     "https://www.anthropic.com/engineering/harness-design-long-running-apps",
     "https://www.anthropic.com/engineering/prompt-engineering-overview",
+    "https://www.anthropic.com/news/2026-us-midterms",
     "https://www.anthropic.com/news/2028-ai-leadership",
     "https://www.anthropic.com/news/anthropic-economic-index-september-2025-report",
     "https://www.anthropic.com/news/anthropic-interviewer",

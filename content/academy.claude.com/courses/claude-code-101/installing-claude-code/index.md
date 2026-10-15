@@ -21,9 +21,9 @@ terminal, on the web, or in your IDE.
 
 ## Terminal[](https://academy.claude.com/courses/claude-code-101/installing-claude-code)
 
-On **macOS, Linux, or WSL**, use the curl command to install it in one go. If you prefer Homebrew, you can also use `brew install`, but note that this method doesn't support auto-updates.
+On **macOS, Linux, or WSL**, use the curl command to install it in one go. If you prefer Homebrew, you can also use `brew install`, but note that this method doesn't auto-update by default.
 
-On **Windows**, there are a few options. In PowerShell, use the `Invoke-RestMethod` command. In CMD, use the curl command. There's also a winget command available, though like Homebrew, it won't auto-update.
+On **Windows**, there are a few options. In PowerShell, use the `Invoke-RestMethod` command. In CMD, use the curl command. There's also a winget command available, though like Homebrew, it won't auto-update by default.
 
 ![Terminal showing Claude Code successfully installed via curl](https://academy.claude.com/assets/media/1d77aec524053a8a70e5fd7cc1513d9a179be737f93093001ca96f1f1aaa9fa2.jpg)
 
@@ -55,7 +55,7 @@ Install the Claude Code plugin from the JetBrains Marketplace. After installatio
 
 ## Desktop[](https://academy.claude.com/courses/claude-code-101/installing-claude-code)
 
-After installing and signing into Claude Desktop, you'll see a toggle at the top labeled "Code." The look and feel is similar to the chat side of things, but it lets you work in a specific folder, change permissions, and even work in a cloud environment.
+After installing and signing into Claude Desktop, you'll see a tab at the top labeled "Code." The look and feel is similar to the chat side of things, but it lets you work in a specific folder, change permissions, and even work in a cloud environment.
 
 ![Claude Desktop Code view showing recent project folders](https://academy.claude.com/assets/media/dbd3386c65f280868d1a71154b96ee0b1b80d1b44ad5019b7c40be353fc714a1.jpg)
 

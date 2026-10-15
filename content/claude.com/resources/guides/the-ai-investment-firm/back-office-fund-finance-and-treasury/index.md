@@ -1,8 +1,8 @@
-Chapter 123 min read
+Table of contentsChapter 12
 
 # Back office: Fund finance and treasury
 
-3 min read
+Chapter 12
 
 15 min remaining
 

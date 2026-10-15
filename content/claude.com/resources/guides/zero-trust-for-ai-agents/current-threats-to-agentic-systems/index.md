@@ -1,8 +1,8 @@
-Chapter 049 min read
+Table of contentsChapter 04
 
 # Current threats to agentic systems
 
-9 min read
+Chapter 04
 
 50 min remaining
 

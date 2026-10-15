@@ -1,8 +1,8 @@
-Chapter 024 min read
+Table of contentsChapter 02
 
 # The AI investment firm in practice
 
-4 min read
+Chapter 02
 
 41 min remaining
 

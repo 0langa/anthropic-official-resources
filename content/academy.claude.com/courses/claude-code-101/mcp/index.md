@@ -58,15 +58,15 @@ MCP servers can be scoped in three ways:
 
 ## Context Costs[](https://academy.claude.com/courses/claude-code-101/mcp)
 
-MCP servers add tool definitions to your context window — even when you're not actively using them. If you have a lot of servers configured, this eats into your available context. Run `/mcp` to see what's connected and disable anything you're not actively using.
+MCP servers add their tool names and instructions to your context window, even when you're not actively using them. Each connected server takes some space, so run `/mcp` to see what's connected and disable anything you're not actively using.
 
 ![The /mcp server detail view with options to view tools, reconnect, or disable a server](https://academy.claude.com/assets/media/f536fa89801900377bb63a689ae8e23c9b3b57a60c08dd04fef92e3fce3bf756.jpg)
 
-If a tool has a CLI equivalent (like `gh` for GitHub or `aws` for AWS), the CLI is more context-efficient because it doesn't add persistent tool definitions.
+If a tool has a CLI equivalent (like `gh` for GitHub or `aws` for AWS), the CLI is more context-efficient because it doesn't add a listing for each tool.
 
-You might also benefit from using a **Skill** instead. A Skill has a name and description loaded into context, and Claude only loads the full skill contents when it determines it needs to use it.
+You might also benefit from pairing an MCP server with a **Skill** that teaches Claude how to use the server's tools well. A Skill has a name and description loaded into context, and Claude only loads the full skill contents when it determines it needs to use it.
 
-If your MCP tools exceed 10% of your context window, Claude Code automatically switches to tool search mode, which discovers the right tools on demand — though this may not work as reliably.
+Tool search is on by default, so Claude Code keeps the full definition of each MCP tool out of your context until Claude needs it.
 
 ## Recap[](https://academy.claude.com/courses/claude-code-101/mcp)
 

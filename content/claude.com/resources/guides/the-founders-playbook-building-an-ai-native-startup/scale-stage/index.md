@@ -1,8 +1,8 @@
-Chapter 0619 min read
+Table of contentsChapter 06
 
 # Scale stage
 
-19 min read
+Chapter 06
 
 6 min remaining
 

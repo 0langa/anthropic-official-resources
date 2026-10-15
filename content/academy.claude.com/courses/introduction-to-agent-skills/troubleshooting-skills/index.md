@@ -85,9 +85,9 @@ For example, if there's an enterprise "code-review" skill and you also have a pe
 
 ## Plugin Skills Not Appearing[](https://academy.claude.com/courses/introduction-to-agent-skills/troubleshooting-skills)
 
-Installed a plugin but can't see its skills? Clear the cache, restart Claude Code, and reinstall.
+Installed a plugin but can't see its skills? Run `/plugin` and check that the plugin is listed and enabled under **Installed**, then read the **Errors** tab. If you installed it during this session, run `/reload-plugins`.
 
-If skills still don't appear after that, the plugin structure might be wrong. This is when the validator tool really earns its keep.
+If skills still don't appear after that, the plugin structure might be wrong. Skills load from a `skills/` directory at the plugin root, not from inside `.claude-plugin/`. In your shell, run `claude plugin validate` on the plugin's directory to check its manifest and the frontmatter of each skill.
 
 ## Runtime Errors[](https://academy.claude.com/courses/introduction-to-agent-skills/troubleshooting-skills)
 
@@ -103,7 +103,7 @@ The skill loads but fails during execution. A few common causes:
 - **Not loading?** Check your path, file name, and YAML syntax.
 - **Wrong skill used?** Make descriptions more distinct from each other.
 - **Being shadowed?** Check the priority hierarchy and rename if needed.
-- **Plugin skills missing?** Clear cache and reinstall.
+- **Plugin skills missing?** Check `/plugin` for errors, then run `/reload-plugins`.
 - **Runtime failure?** Check dependencies, permissions, and paths.
 
 ## Lesson reflection[](https://academy.claude.com/courses/introduction-to-agent-skills/troubleshooting-skills)

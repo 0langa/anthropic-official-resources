@@ -1,8 +1,8 @@
-Chapter 027 min read
+Table of contentsChapter 02
 
 # What it means to be a founder is changing
 
-7 min read
+Chapter 02
 
 75 min remaining
 

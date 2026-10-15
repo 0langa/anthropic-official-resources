@@ -1,8 +1,8 @@
-Chapter 041 min read
+Table of contentsChapter 04
 
 # Key implementations by strategy
 
-1 min read
+Chapter 04
 
 39 min remaining
 

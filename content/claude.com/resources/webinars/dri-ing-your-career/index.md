@@ -1,4 +1,4 @@
-Oct 13, 2026 — 10:00 – 11:00 AM PT
+On demand
 
 # DRI-ing Your Career
 
@@ -8,7 +8,7 @@ Your career is yours. It always was - but when the market was hot, it didn't see
 
 Register for the webinar
 
-Fill out the form below to reserve your seat.
+Fill out the form below to watch on demand.
 
 ## Featured speakers
 

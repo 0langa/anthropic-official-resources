@@ -1,4 +1,4 @@
-Oct 14, 2026 — 9:00 – 10:00 AM PT
+On demand
 
 # Inside the Cyber Verification Program: Tiers, Migration, and Best Practices
 
@@ -8,7 +8,7 @@ Join the team behind the program for a live walkthrough. You’ll see how verifi
 
 Register for the webinar
 
-Fill out the form below to reserve your seat.
+Fill out the form below to watch on demand.
 
 ## What you’ll learn
 

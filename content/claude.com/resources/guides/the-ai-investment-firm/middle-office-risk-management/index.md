@@ -1,8 +1,8 @@
-Chapter 093 min read
+Table of contentsChapter 09
 
 # Middle office: Risk management
 
-3 min read
+Chapter 09
 
 24 min remaining
 

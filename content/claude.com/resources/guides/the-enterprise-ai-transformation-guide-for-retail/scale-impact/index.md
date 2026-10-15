@@ -1,8 +1,8 @@
-Chapter 044 min read
+Table of contentsChapter 04
 
 # Step 3: Scale impact
 
-4 min read
+Chapter 04
 
 11 min remaining
 

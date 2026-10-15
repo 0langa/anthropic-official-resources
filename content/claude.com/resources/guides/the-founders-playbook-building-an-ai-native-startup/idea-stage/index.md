@@ -1,8 +1,8 @@
-Chapter 0321 min read
+Table of contentsChapter 03
 
 # Idea stage
 
-21 min read
+Chapter 03
 
 54 min remaining
 

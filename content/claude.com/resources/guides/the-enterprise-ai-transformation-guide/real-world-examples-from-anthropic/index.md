@@ -1,8 +1,8 @@
-Chapter 057 min read
+Table of contentsChapter 05
 
 # Building an AI-first enterprise: real-world examples from Anthropic
 
-7 min read
+Chapter 05
 
 3 min remaining
 

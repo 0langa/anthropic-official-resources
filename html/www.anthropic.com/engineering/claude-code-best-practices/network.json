@@ -2,21 +2,11 @@
   {
     "reason": "outside_scope",
     "type": "stylesheet",
-    "url": "https://d4tuoctqmanu0.cloudfront.net/katex.min.css"
-  },
-  {
-    "reason": "outside_scope",
-    "type": "stylesheet",
     "url": "https://fonts.googleapis.com/css2"
   },
   {
     "reason": "outside_scope",
     "type": "stylesheet",
     "url": "https://fonts.googleapis.com/css2"
-  },
-  {
-    "reason": "outside_scope",
-    "type": "stylesheet",
-    "url": "https://d4tuoctqmanu0.cloudfront.net/katex.min.css"
   }
 ]

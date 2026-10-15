@@ -1,8 +1,8 @@
-Chapter 057 min read
+Table of contentsChapter 05
 
 # Building AI-first retail operations: real-world examples from Shopify, L'Oréal, and Lotte Homeshopping
 
-7 min read
+Chapter 05
 
 4 min remaining
 

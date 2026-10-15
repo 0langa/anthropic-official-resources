@@ -122,6 +122,12 @@ Your employer sees your Academy data only if you enrolled through your company�
 
 You can delete your Academy data without deleting your Claude account. Click your avatar in the top right, choose Settings, then choose Delete your Academy data. This permanently removes your enrollments, progress, activity, quiz attempts, and completion badges, and shared badge links stop working. Deleting your Claude account also deletes your Academy data, so save any badges you want to keep first. Deleting your Academy data doesn’t change anything on Skilljar.
 
+### What happens to what I type in search?
+
+Academy’s search can match pages to the meaning of your search, not only its keywords. When it does, a line under the search box says “Search finds the most relevant pages for what you’re looking for.” Your search text is then sent as you type to Google Cloud, one of Anthropic’s service providers, and the result is used to rank pages. Anthropic doesn’t log your search text or save it to a database. The search service holds recent searches in memory to answer repeats faster. If you don’t see that line while you search, your search text isn’t sent to the search service or to Google Cloud, and search matches keywords only (for example, when you’re signed in, and semantic search isn’t available for your organization). Search also falls back to keywords when the service is unavailable.  
+  
+Where the search\_academy MCP tool ranks by meaning, searches an AI client makes with it go to Google Cloud, regardless of your organization, as the MCP server is unauthenticated. When you ask Claude a question from either the search box or the Ask Claude button in the corner of the page, your question is matched to pages the same way, if semantic search is available for your organization. Anthropic’s service providers are listed at [trust.anthropic.com/subprocessors(opens in new tab)](https://trust.anthropic.com/subprocessors).
+
 ## The “Claude in Academy” setting, for organization admins
 
 ### What does the “Claude in Academy” setting control?

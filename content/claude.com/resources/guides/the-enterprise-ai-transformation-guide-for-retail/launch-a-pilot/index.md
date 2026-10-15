@@ -1,8 +1,8 @@
-Chapter 038 min read
+Table of contentsChapter 03
 
 # Step 2: Launch a pilot
 
-8 min read
+Chapter 03
 
 15 min remaining
 

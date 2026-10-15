@@ -1,8 +1,8 @@
-Chapter 013 min read
+Table of contentsChapter 01
 
 # The AI imperative for life sciences
 
-3 min read
+Chapter 01
 
 32 min remaining
 

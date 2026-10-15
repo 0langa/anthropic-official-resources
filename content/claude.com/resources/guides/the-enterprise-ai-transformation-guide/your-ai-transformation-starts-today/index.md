@@ -1,8 +1,8 @@
-Chapter 063 min read
+Table of contentsChapter 06
 
 # Your AI transformation starts today
 
-3 min read
+Chapter 06
 
 0 min remaining
 

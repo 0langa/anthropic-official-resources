@@ -35,9 +35,9 @@ priority hierarchy that determines which skill wins when names conflict.
 
 - A skill is a **directory containing a `SKILL.md` file** with metadata (name, description) in frontmatter and instructions below
 - Claude loads **only skill names and descriptions at startup**, then matches incoming requests against those descriptions using semantic matching
-- You get a **confirmation prompt** before Claude loads the full skill content into context
-- Priority for name conflicts: **Enterprise → Personal → Project → Plugins**
-- To update a skill, edit its `SKILL.md`. To remove one, delete its directory. **Always restart Claude Code** for changes to take effect
+- On a match, a skill with only a name, description, and instructions **loads in full without asking you**. If a skill pre-approves tools or adds hooks, Claude Code may ask for your approval first
+- Priority for name conflicts: **Enterprise → Personal → Project**. Plugin skills are namespaced, so they load alongside a skill with the same name
+- To update a skill, edit its `SKILL.md`. To remove one, delete its directory. Claude Code **picks up the change in the current session**, without a restart
 
 Let's walk through creating a skill from scratch, then look at how Claude Code actually loads and matches skills behind the scenes.
 
@@ -82,7 +82,7 @@ The **name** identifies your skill. The **description** tells Claude when to use
 
 ## Testing Your Skill[](https://academy.claude.com/courses/introduction-to-agent-skills/creating-your-first-skill)
 
-Claude Code loads skills at startup, so restart your session after creating one. You can verify it's available by checking the available skills list.
+Claude Code watches your skills directories, so a new skill is available in the current session without a restart. If `~/.claude/skills` didn't exist when the session started, Claude Code isn't watching it yet, so run `/reload-skills` now, and again after each later change. You can verify your skill is available by checking the available skills list.
 
 ![Claude Code Available Skills output, with skills such as "documentation", "debugging", pr-description and commit-message.](https://academy.claude.com/assets/media/d0528266edd1bb7977cdc3b270c851e43b1242dc0c8b83b45bb153181412358d.png)
 
@@ -90,11 +90,11 @@ You should see your skill listed. To test it, make some changes on a branch and 
 
 ## How Skill Matching Works[](https://academy.claude.com/courses/introduction-to-agent-skills/creating-your-first-skill)
 
-When Claude Code starts, it scans four locations for skills but only loads the **name and description** — not the full content. This is an important detail.
+When Claude Code starts, it scans several locations for skills but only loads the **name and description**, not the full content. This is an important detail.
 
 When you send a request, Claude compares your message against the descriptions of all available skills. For example, "explain what this function does" would match a skill described as "explain code with visual diagrams" because the intent overlaps.
 
-Once a match is found, Claude asks you to confirm loading the skill. This confirmation step keeps you aware of what context Claude is pulling in. After you confirm, Claude reads the complete `SKILL.md` file and follows its instructions.
+Once a match is found, Claude reads the complete `SKILL.md` file and follows its instructions. A skill with only a name, description, and instructions (like `pr-description`) loads without asking you. If a skill pre-approves tools or adds hooks, Claude Code may ask you to approve it first, depending on your permission mode. The video above and the image below show the approval step that Claude Code v2.1.19 removed for skills like `pr-description`.
 
 ![Frontmatter for a skill reviewing backend code for security issues and compliance mishaps, and "Use backend-review Skill?".](https://academy.claude.com/assets/media/96c5355edb53bd0b8a74489bea21a53ba1738adb785e1be23192b19e9cf92553.png)
 
@@ -105,15 +105,14 @@ If you clone a repository that has a skill with the same name as one of your per
 1. **Enterprise** — managed settings, highest priority
 2. **Personal** — your home directory (`~/.claude/skills`)
 3. **Project** — the `.claude/skills` directory inside a repository
-4. **Plugins** — installed plugins, lowest priority
 
-This lets organizations enforce standards through enterprise skills while still allowing individual customization. If your company has an enterprise "code-review" skill and you create a personal "code-review" skill with the same name, the enterprise version takes precedence.
+This lets organizations enforce standards through enterprise skills while still allowing individual customization. If your company has an enterprise "code-review" skill and you create a personal "code-review" skill with the same name, the enterprise version takes precedence. Skills from installed plugins sit outside this order. They're namespaced as `/plugin-name:skill-name`, so a plugin skill and another skill with the same name both load.
 
 To avoid conflicts, use descriptive names. Instead of just "review," use something like "frontend-review" or "backend-review."
 
 ## Updating and Removing Skills[](https://academy.claude.com/courses/introduction-to-agent-skills/creating-your-first-skill)
 
-To update a skill, edit its `SKILL.md` file. To remove one, delete its directory. Restart Claude Code after any changes for them to take effect.
+To update a skill, edit its `SKILL.md` file. To remove one, delete its directory. Claude Code picks up the change in the current session, so you don't need to restart.
 
 ## Lesson reflection[](https://academy.claude.com/courses/introduction-to-agent-skills/creating-your-first-skill)
 
@@ -122,7 +121,7 @@ To update a skill, edit its `SKILL.md` file. To remove one, delete its directory
 
 ## What's next[](https://academy.claude.com/courses/introduction-to-agent-skills/creating-your-first-skill)
 
-In the next lesson, you'll learn about advanced configuration options including metadata fields, tool restrictions with `allowed-tools`, and how to structure larger skills using progressive disclosure and multi-file organization.
+In the next lesson, you'll learn about advanced configuration options including metadata fields, pre-approving tools with `allowed-tools`, and how to structure larger skills using progressive disclosure and multi-file organization.
 
 Was this helpful?
 

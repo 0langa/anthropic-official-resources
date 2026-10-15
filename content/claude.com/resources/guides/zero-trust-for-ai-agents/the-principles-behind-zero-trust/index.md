@@ -1,8 +1,8 @@
-Chapter 023 min read
+Table of contentsChapter 02
 
 # The principles behind Zero Trust
 
-3 min read
+Chapter 02
 
 63 min remaining
 

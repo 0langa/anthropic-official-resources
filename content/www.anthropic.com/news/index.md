@@ -36,6 +36,12 @@ Search
 
 DateCategoryTitle
 
+- [Oct 14, 2026Policy
+
+  Preparing for the 2026 US midterms](https://www.anthropic.com/news/2026-us-midterms)
+- [Oct 14, 2026Announcements
+
+  Anthropic opens Singapore office and signs MOU with the Government of Singapore](https://www.anthropic.com/news/singapore-office-opening)
 - [Oct 8, 2026Announcements
 
   2026 Usage Policy update](https://www.anthropic.com/news/2026-usage-policy-update)
@@ -60,11 +66,5 @@ DateCategoryTitle
 - [Sep 18, 2026Announcements
 
    Partnering with Accenture on embedded evaluation](https://www.anthropic.com/news/accenture-embedded-evaluation)
-- [Sep 17, 2026Announcements
-
-  Introducing the Life Sciences Verification Program](https://www.anthropic.com/news/life-sciences-verification-program)
-- [Sep 1, 2026Announcements
-
-  Developing Enterprise Frontier Safeguards with our customers](https://www.anthropic.com/news/enterprise-frontier-safeguards)
 
 [See more](https://www.anthropic.com/news)

@@ -1,8 +1,8 @@
-Chapter 013 min read
+Table of contentsChapter 01
 
 # Building for the next threat landscape
 
-3 min read
+Chapter 01
 
 66 min remaining
 

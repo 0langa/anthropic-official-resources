@@ -24,9 +24,9 @@ how the subagent should behave.
 
 ## Creating a Subagent[](https://academy.claude.com/courses/introduction-to-subagents/creating-a-subagent)
 
-The easiest way to create a subagent is with the `/agents` slash command. This opens the main interface for managing your subagents. From there, select **Create new agent**.
+The easiest way to create a subagent is to ask Claude to write it for you. Describe the subagent you want and where to save it, and Claude writes the file. The video and the first three screenshots in this lesson show the `/agents` wizard, which was removed in Claude Code v2.1.198. The subagent file and its fields are unchanged, so you still choose a scope, tools, a model, and a color. Include those choices in your request.
 
-You will first be asked to choose the scope of your subagent:
+First, choose the scope of your subagent. A file in `.claude/agents/` is project-level, and a file in `~/.claude/agents/` is user-level:
 
 - **Project-level** -- available only in the current project
 - **User-level** -- shared across all projects on your machine
@@ -51,7 +51,7 @@ Think about what your subagent actually needs. A code reviewer probably does not
 
 ## Choosing a Model and Color[](https://academy.claude.com/courses/introduction-to-subagents/creating-a-subagent)
 
-After configuring tools, you select which Claude model powers the subagent. Your options are:
+After configuring tools, you select which Claude model powers the subagent. Your options include:
 
 - **Haiku** -- best for fast, lightweight tasks
 - **Sonnet** -- a good middle ground between speed and depth
@@ -84,10 +84,10 @@ and identify issues that could impact reliability, security, maintainability, or
 
 Let's break down each field:
 
-- **`name`** -- A unique identifier for the subagent. This is how you reference it, either by asking Claude directly or by typing `@agent code-quality-reviewer` in your message.
+- **`name`** -- A unique identifier for the subagent. This is how you reference it, either by asking Claude directly or by typing `@agent-code-quality-reviewer` in your message.
 - **`description`** -- Controls when Claude decides to use the subagent. This must be a single line (use escaped newline characters `\n` if you need breaks). You can include example conversations here to help Claude understand when delegation is appropriate.
 - **`tools`** -- Lists which tools the subagent can access. This matches whatever you selected during generation, but you can edit the list here at any time.
-- **`model`** -- Specifies which Claude model to use: `sonnet`, `opus`, `haiku`, or `inherit`.
+- **`model`** -- Specifies which Claude model to use: an alias (`sonnet`, `opus`, `haiku`, or `fable`), a full model ID such as `claude-sonnet-5`, or `inherit`.
 - **`color`** -- The UI color for identifying the subagent.
 
 ## System Prompts[](https://academy.claude.com/courses/introduction-to-subagents/creating-a-subagent)
@@ -110,7 +110,7 @@ You can also add example conversations to the description to help Claude underst
 
 ## Testing Your Subagent[](https://academy.claude.com/courses/introduction-to-subagents/creating-a-subagent)
 
-After creating your subagent, test it by making some code changes and asking Claude to review them.
+After creating your subagent, test it by making some code changes and asking Claude to review them. If the `agents` folder didn't exist when your session started, restart Claude Code first to load the new subagent.
 
 ![A code editor with a FastAPI project open and Claude Code in a side panel, asked to use the code-reviewer subagent to review recent changes](https://academy.claude.com/assets/media/85a257e79af4d77a19515d552f217afbeb33ff0438cc0924a0df31dcbb35c605.png)
 
