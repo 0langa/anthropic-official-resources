@@ -316,11 +316,11 @@ MarketingCreate content, plan campaigns, and analyze performance across marketin
 
 `/performance-report`Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized recommendations.
 
-[Open in Cowork](claude://cowork/new?q=%2Fperformance-report)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fperformance-report)
 
 `/campaign-plan`Generate a full campaign brief with objectives, audience, messaging, channel strategy, content calendar, and success metrics.
 
-[Open in Cowork](claude://cowork/new?q=%2Fcampaign-plan)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcampaign-plan)
 
 Show all 7 skills
 

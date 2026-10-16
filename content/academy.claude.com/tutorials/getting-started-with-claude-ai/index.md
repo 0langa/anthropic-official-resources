@@ -14,7 +14,7 @@ Claude is an AI assistant made by Anthropic. It can read your documents, draft a
 
 Just write to Claude in plain language. The tips below help, and if anything in your request is unclear you can ask Claude to ask you questions before it starts. You can attach documents to give it more to go on.
 
-Explorer: a mock claude.ai composer with a worked example prompt and attached file, a legend explaining what each part gives Claude, and selectable controls revealing what adding files, connecting tools, choosing output, and picking a model do.
+Explorer: a mock Claude composer shows a sample first prompt with an attached file, a numbered legend explaining what each part gives Claude, and controls to explore for adding files, connecting tools, and choosing a model.
 
 planning-meeting-transcript.docx
 
@@ -26,11 +26,9 @@ Add files or photos⌘UAdd folderRecord a skillSkillsConnectorsDesign systemPlug
 
 Browse connectorsManage connectorsDriveEmailCalendarMessagingCRM
 
-DocumentPresentationDesignArtifactLet Claude pick the format
-
 ✓Claude FableFor your toughest challenges✓Claude OpusMost capable for ambitious work✓Claude SonnetMost efficient for everyday tasks✓Claude HaikuFastest for quick answersEffort
 
-ProjectOutputSonnet
+ProjectSonnet
 
 What this prompt gives Claude
 
@@ -41,7 +39,7 @@ What this prompt gives Claude
 
 A few controls to start with
 
-Add filesConnect your toolsOutputModel
+Add filesConnect your toolsModel
 
 Select a control to see where it is and what it does.
 
@@ -51,7 +49,7 @@ Your first prompt doesn't have to be perfect. If the answer isn't quite right, s
 
 Claude answers in whatever form the task calls for, and the list keeps growing. Ask for the thing you actually need, whether that is a plain answer, a chart drawn inline, a deck, a design or a doc made in the conversation, a spreadsheet for Excel, or a recipe you can cook from. Claude makes it, and you steer it.
 
-Explorer: a five-tab carousel showing the different forms a Claude response can take, from plain text and inline diagrams to editable artifacts, generated files, and ready-made cards, teaching that the right form depends on what's asked for.
+Explorer: a five-tab carousel showing the different forms a Claude response can take, from plain text and inline diagrams to editable artifacts, downloadable files, and ready-made cards, with sample prompts for each.
 
 Plain textInline visualsArtifactsFilesCards
 
@@ -105,9 +103,9 @@ Q3 board pre-readClaude Slides · Only youOpen
 
 Write this up as a doc the leadership team can comment on before Thursday’s readout.
 
-Drafted it as a doc and shared it with everyone at Halden so the leadership team can comment in place. Anything addressed to me in a comment, I’ll pick up and edit; the numbers stay linked to the Q3 model, so if FP&A restates, say so and I’ll refresh them.
+Drafted it as a doc. Other people can’t open it until you share it, so use Share to open it to the leadership team. Anything addressed to me in a comment, I’ll pick up and edit. The numbers are from the Q3 model as it stands today, so if FP&A restates, say so and I’ll refresh them.
 
-Q3 stakeholder briefClaude Docs · Anyone at HaldenOpen
+Q3 stakeholder briefClaude Docs · Only youOpen
 
 I’m rearranging my living room. It’s 14 by 18 feet, and I have a couch, coffee table, media console, reading chair, and an 8×10 rug. Build me something I can drag the pieces around in.
 
@@ -121,11 +119,11 @@ New-tier signup flowMCDPSaving…Share
 
 ShareExport
 
-Who has access
+General access
 
 Only people invited
 
-Anyone at HaldenCan view ▾
+Anyone at HaldenViewer ▾
 
 Anyone with the link
 
@@ -235,7 +233,7 @@ Heading 1BITableExport
 
 ###### Q3 stakeholder brief
 
-For the leadership readout, Thursday Oct 9 · Draft for comment · Numbers linked to Q3 model v3.2
+For the leadership readout, Thursday Oct 8 · Draft for comment · Numbers from Q3 model v3.2
 
 Q3 closed ahead of plan. Revenue rose 12% quarter over quarter on the strength of the new tier, which added $880K in bookings, nearly all of it net-new rather than upsell. Costs grew 4%, leaving net up 44%. Both operational bets from the Q2 plan are paying off; the open question is concentration, because one region, APAC, did not participate in the growth.
 
@@ -713,7 +711,7 @@ Ready-made answers for everyday asks, such as the weather, a recipe with a step-
 
 You've seen what Claude can give back. Now set up your first task. The walkthrough below covers what to give Claude, which controls to set, and how to ask for what you need.
 
-Simulation: a replica of the claude.ai message box where you pick a kind of work, then give Claude a tool or file, fill in a missing detail, and set the output, model, or effort.
+Simulation: a working replica of the claude.ai composer lets you pick a kind of work and follow a checklist to give Claude a tool or file, fill in a detail, and check the model or raise the effort, building toward a ready-to-send task.
 
 Try a task forgeneral work
 
@@ -731,9 +729,9 @@ Say who it’s for
 
 Claude pitches the update at that level.
 
-Ask for slides
+Check the model
 
-Ask for a deck in your message, or open Output under the box and pick Presentation. You get a deck you can present, edit and export. [Learn more →](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)
+Open the model selector. The default is enough for a short deck. [Learn more →](https://academy.claude.com/tutorials/choosing-the-right-claude-model)
 
 Ready to send.
 
@@ -744,8 +742,6 @@ Read across pick a tool
 DriveEmailCalendarMessagingCRMAll tools
 
  for the last month: where my time went, what got decided, what slipped. Turn it into my month-end update for , a few slides I can talk through in ten minutes.
-
-DocumentPresentationDesignArtifactLet Claude pick the format
 
 Add files or photos⌘UAdd folderRecord a skillSkillsConnectorsDesign systemPluginsResearchWeb searchMemory
 
@@ -759,7 +755,7 @@ Higher effort means more thorough responses, but takes longer and uses your limi
 
 ✓LowQuick replies to simple questions✓MediumLight, casual tasks✓HighDefaultBalanced for everyday work✓MaxThe hardest problems. Takes longest.Extended thinkingThink longer for complex tasks
 
-ProjectOutput×Sonnet
+ProjectSonnet
 
 The + menu has a few more options for when a task needs them:
 

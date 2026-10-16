@@ -1,6 +1,6 @@
 # Conversation management
 
-10 articles
+11 articles
 
 [Delete or rename a conversation](https://support.claude.com/en/articles/8230524-delete-or-rename-a-conversation)
 
@@ -21,3 +21,5 @@
 [Why Claude switched models in your conversation with Opus 5 or Opus 5.5](https://support.claude.com/en/articles/16049681-why-claude-switched-models-in-your-conversation-with-opus-5-or-opus-5-5)
 
 [Why Claude switched models in your conversation with Sonnet 5.5](https://support.claude.com/en/articles/17161993-why-claude-switched-models-in-your-conversation-with-sonnet-5-5)
+
+[Claude Haiku 4.5 is leaving the model selector](https://support.claude.com/en/articles/17444146-claude-haiku-4-5-is-leaving-the-model-selector)

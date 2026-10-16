@@ -32,7 +32,7 @@ How we handle your data, plus terms, policies, and compliance.
 
 [Does Anthropic crawl data from the web, and how can site owners block the crawler?](https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler)
 
-[Online Safety Contacts](https://support.claude.com/en/articles/11174660-online-safety-contacts)
+[Point of Contact for Authorities and Regulators](https://support.claude.com/en/articles/11174660-point-of-contact-for-authorities-and-regulators)
 
 [Claude 4 Invite Sweepstakes Official Rules](https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules)
 

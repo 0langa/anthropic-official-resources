@@ -4,7 +4,7 @@ Claude Cowork runs the gathering for your weekly review on a schedule, so you’
 
 15 minClaude Cowork
 
-Watch[Open Cowork](claude://cowork/new)
+Watch[Open Cowork](https://claude.ai/new?surface=cowork)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-cx9tbvoi.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k5ry1o36.png)
 

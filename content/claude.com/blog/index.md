@@ -16,6 +16,20 @@ Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design ar
 
 Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
 
+[ArticleOct 15, 2026
+
+### Code Review is now generally available
+
+Catch more bugs before they reach production.
+
+Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)
+
+[ArticleOct 14, 2026
+
+### Agent observability on the Claude Platform
+
+Announcing OpenTelemetry traces from Claude Managed Agents, the Messages API, and Claude SDKs on the Claude Platform.](https://claude.com/resources/articles/agent-observability-on-the-claude-platform)
+
 [ArticleOct 13, 2026
 
 ### Uber's CISO on building an insider threat program for AI
@@ -34,22 +48,6 @@ Claude Platform
 
 [ArticleOct 8, 2026
 
-### How Block orchestrates Claude Fable across thousands of pull requests
-
-Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
-
-Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)
-
-[ArticleOct 7, 2026
-
-### Claude Haiku 5.5
-
-Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
-
-(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)
-
-[ArticleOct 8, 2026
-
 ### Build live dashboards and animate explainers with Claude
 
 Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
@@ -60,9 +58,19 @@ Featured resource 1 of 5: Build live dashboards and animate explainers with Clau
 
 Advanced filters
 
-Showing 11 of 281 resources
+Showing 11 of 283 resources
 
-[ArticleOct 13, 2026
+[ArticleOct 15, 2026
+
+### Code Review is now generally available
+
+Catch more bugs before they reach production.
+
+Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)[ArticleOct 14, 2026
+
+### Agent observability on the Claude Platform
+
+Announcing OpenTelemetry traces from Claude Managed Agents, the Messages API, and Claude SDKs on the Claude Platform.](https://claude.com/resources/articles/agent-observability-on-the-claude-platform)[ArticleOct 13, 2026
 
 ### Uber's CISO on building an insider threat program for AI
 
@@ -112,20 +120,6 @@ Teams that run on Google Workspace can now bring Claude into their files or work
 
 Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)[ArticleOct 6, 2026
 
-### We’re expanding the Claude Startups program to help founders build](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)[ArticleOct 6, 2026
-
-### Expanding the Cyber Verification Program
-
-We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.
-
-(opens in new tab)](https://www.anthropic.com/news/cyber-verification-program)[ArticleOct 6, 2026
-
-### Claude Code in the cloud: a field guide to cloud sessions
-
-What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)
+### We’re expanding the Claude Startups program to help founders build](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)
 
 View more

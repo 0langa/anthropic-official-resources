@@ -240,11 +240,11 @@ Product ManagementWrite feature specs, plan roadmaps, and synthesize user resear
 
 `/metrics-review`Review and analyze product metrics with trend analysis and actionable insights.
 
-[Open in Cowork](claude://cowork/new?q=%2Fmetrics-review)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fmetrics-review)
 
 `/stakeholder-update`Generate a stakeholder update tailored to audience and cadence.
 
-[Open in Cowork](claude://cowork/new?q=%2Fstakeholder-update)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fstakeholder-update)
 
 Show all 8 skills
 

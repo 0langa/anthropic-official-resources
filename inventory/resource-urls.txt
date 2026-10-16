@@ -1222,6 +1222,7 @@ https://claude.com/resources/articles/claude-tag-now-supports-personal-connector
 https://claude.com/resources/articles/claude-team-updates
 https://claude.com/resources/articles/claudes-memory-works-everywhere-and-you-decide-whats-in-it
 https://claude.com/resources/articles/code-review
+https://claude.com/resources/articles/code-review-is-now-generally-available
 https://claude.com/resources/articles/code-w-claude-london-2026-rethinking-how-we-build
 https://claude.com/resources/articles/code-w-claude-sf-2026-sf
 https://claude.com/resources/articles/code-with-claude-san-francisco-london-tokyo
@@ -1625,6 +1626,7 @@ https://claude.com/resources/webinars/claude-in-microsoft-foundry-tool-integrati
 https://claude.com/resources/webinars/claude-it-setup-for-nonprofits
 https://claude.com/resources/webinars/claude-on-google-cloud-monitoring-and-securing-agents-at-scale
 https://claude.com/resources/webinars/claude-on-vertex-ai
+https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026
 https://claude.com/resources/webinars/claude-science-ama-how-to-accelerate-scientific-discovery
 https://claude.com/resources/webinars/claude-security-putting-claude-to-work-for-defenders
 https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel
@@ -1759,6 +1761,12 @@ https://code.claude.com/docs/en/cli-reference
 https://code.claude.com/docs/en/cli-usage
 https://code.claude.com/docs/en/cloud-environments
 https://code.claude.com/docs/en/code-review
+https://code.claude.com/docs/en/code-review-costs
+https://code.claude.com/docs/en/code-review-customize
+https://code.claude.com/docs/en/code-review-local
+https://code.claude.com/docs/en/code-review-pull-requests
+https://code.claude.com/docs/en/code-review-setup
+https://code.claude.com/docs/en/code-review-troubleshooting
 https://code.claude.com/docs/en/commands
 https://code.claude.com/docs/en/common-workflows
 https://code.claude.com/docs/en/communications-kit
@@ -2096,6 +2104,7 @@ https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/troubleshooting
 https://platform.claude.com/docs/en/agents-and-tools/remote-mcp-servers
 https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool
 https://platform.claude.com/docs/en/agents-and-tools/tool-use/bash-tool
+https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-sdk
 https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-tool
 https://platform.claude.com/docs/en/agents-and-tools/tool-use/build-a-tool-using-agent
 https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool
@@ -2111,11 +2120,13 @@ https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview
 https://platform.claude.com/docs/en/agents-and-tools/tool-use/parallel-tool-use
 https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling
 https://platform.claude.com/docs/en/agents-and-tools/tool-use/server-tools
+https://platform.claude.com/docs/en/agents-and-tools/tool-use/server-tools?sdk_languages=curl
 https://platform.claude.com/docs/en/agents-and-tools/tool-use/strict-tool-use
 https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool
 https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-combinations
 https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-reference
 https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-runner
+https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-runner?sdk_languages=curl
 https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool
 https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-use-with-prompt-caching
 https://platform.claude.com/docs/en/agents-and-tools/tool-use/troubleshooting-tool-use
@@ -2633,6 +2644,12 @@ https://platform.claude.com/docs/en/api/compliance/apps/chats/generated_files/re
 https://platform.claude.com/docs/en/api/compliance/apps/chats/list
 https://platform.claude.com/docs/en/api/compliance/apps/chats/messages
 https://platform.claude.com/docs/en/api/compliance/apps/chats/messages/list
+https://platform.claude.com/docs/en/api/compliance/apps/code
+https://platform.claude.com/docs/en/api/compliance/apps/code/artifacts
+https://platform.claude.com/docs/en/api/compliance/apps/code/artifacts/delete
+https://platform.claude.com/docs/en/api/compliance/apps/code/artifacts/download
+https://platform.claude.com/docs/en/api/compliance/apps/code/artifacts/list
+https://platform.claude.com/docs/en/api/compliance/apps/code/artifacts/retrieve_version
 https://platform.claude.com/docs/en/api/compliance/apps/projects
 https://platform.claude.com/docs/en/api/compliance/apps/projects/attachments
 https://platform.claude.com/docs/en/api/compliance/apps/projects/attachments/list
@@ -3224,11 +3241,13 @@ https://platform.claude.com/docs/en/api/messages/batches/results
 https://platform.claude.com/docs/en/api/messages/batches/retrieve
 https://platform.claude.com/docs/en/api/messages/count_tokens
 https://platform.claude.com/docs/en/api/messages/create
+https://platform.claude.com/docs/en/api/messages/create?sdk_languages=curl
 https://platform.claude.com/docs/en/api/models
 https://platform.claude.com/docs/en/api/models-list
 https://platform.claude.com/docs/en/api/models/list
 https://platform.claude.com/docs/en/api/models/retrieve
 https://platform.claude.com/docs/en/api/opentelemetry/spans
+https://platform.claude.com/docs/en/api/opentelemetry/spans?sdk_languages=curl
 https://platform.claude.com/docs/en/api/organization
 https://platform.claude.com/docs/en/api/organization/api_keys
 https://platform.claude.com/docs/en/api/organization/api_keys/list
@@ -3323,6 +3342,7 @@ https://platform.claude.com/docs/en/api/skills/versions/list
 https://platform.claude.com/docs/en/api/skills/versions/retrieve
 https://platform.claude.com/docs/en/api/supported-regions
 https://platform.claude.com/docs/en/api/versioning
+https://platform.claude.com/docs/en/api/versioning?sdk_languages=http
 https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking
 https://platform.claude.com/docs/en/build-with-claude/administration-api
 https://platform.claude.com/docs/en/build-with-claude/api-and-data-retention
@@ -3341,6 +3361,7 @@ https://platform.claude.com/docs/en/build-with-claude/compaction-keep-recent-tur
 https://platform.claude.com/docs/en/build-with-claude/compaction-on-demand
 https://platform.claude.com/docs/en/build-with-claude/compaction-thinking-blocks
 https://platform.claude.com/docs/en/build-with-claude/compaction-threshold
+https://platform.claude.com/docs/en/build-with-claude/compaction?sdk_languages=curl
 https://platform.claude.com/docs/en/build-with-claude/context-editing
 https://platform.claude.com/docs/en/build-with-claude/context-windows
 https://platform.claude.com/docs/en/build-with-claude/data-residency
@@ -3371,6 +3392,7 @@ https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompti
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5-5
 https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback
+https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback?sdk_languages=curl
 https://platform.claude.com/docs/en/build-with-claude/search-results
 https://platform.claude.com/docs/en/build-with-claude/skills-guide
 https://platform.claude.com/docs/en/build-with-claude/streaming
@@ -3419,6 +3441,7 @@ https://platform.claude.com/docs/en/manage-claude/admin-api
 https://platform.claude.com/docs/en/manage-claude/admin-api-keys
 https://platform.claude.com/docs/en/manage-claude/analytics-api
 https://platform.claude.com/docs/en/manage-claude/api-and-data-retention
+https://platform.claude.com/docs/en/manage-claude/api-and-data-retention?sdk_languages=curl
 https://platform.claude.com/docs/en/manage-claude/app-attest
 https://platform.claude.com/docs/en/manage-claude/authentication
 https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api
@@ -3441,12 +3464,16 @@ https://platform.claude.com/docs/en/manage-claude/inference-hooks-configuration
 https://platform.claude.com/docs/en/manage-claude/inference-hooks-endpoint
 https://platform.claude.com/docs/en/manage-claude/opentelemetry
 https://platform.claude.com/docs/en/manage-claude/opentelemetry/api
+https://platform.claude.com/docs/en/manage-claude/opentelemetry/api?sdk_languages=curl
 https://platform.claude.com/docs/en/manage-claude/opentelemetry/sdk
+https://platform.claude.com/docs/en/manage-claude/opentelemetry/sdk?sdk_languages=curl
+https://platform.claude.com/docs/en/manage-claude/opentelemetry?sdk_languages=curl
 https://platform.claude.com/docs/en/manage-claude/opentelemetry?sdk_languages=http
 https://platform.claude.com/docs/en/manage-claude/plugins-api
 https://platform.claude.com/docs/en/manage-claude/rate-limits-api
 https://platform.claude.com/docs/en/manage-claude/spend-limits-api
 https://platform.claude.com/docs/en/manage-claude/usage-cost-api
+https://platform.claude.com/docs/en/manage-claude/usage-cost-api?sdk_languages=curl
 https://platform.claude.com/docs/en/manage-claude/user-management
 https://platform.claude.com/docs/en/manage-claude/wif-admin-api
 https://platform.claude.com/docs/en/manage-claude/wif-providers/aws
@@ -3462,6 +3489,7 @@ https://platform.claude.com/docs/en/manage-claude/workspaces
 https://platform.claude.com/docs/en/managed-agents/2000
 https://platform.claude.com/docs/en/managed-agents/agent-setup
 https://platform.claude.com/docs/en/managed-agents/budgets
+https://platform.claude.com/docs/en/managed-agents/choosing-an-environment
 https://platform.claude.com/docs/en/managed-agents/cloud-sandboxes-reference
 https://platform.claude.com/docs/en/managed-agents/define-outcomes
 https://platform.claude.com/docs/en/managed-agents/dreams
@@ -3475,8 +3503,10 @@ https://platform.claude.com/docs/en/managed-agents/memory
 https://platform.claude.com/docs/en/managed-agents/migration
 https://platform.claude.com/docs/en/managed-agents/multi-agent
 https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration
+https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration?sdk_languages=curl
 https://platform.claude.com/docs/en/managed-agents/onboarding
 https://platform.claude.com/docs/en/managed-agents/overview
+https://platform.claude.com/docs/en/managed-agents/overview?sdk_languages=curl
 https://platform.claude.com/docs/en/managed-agents/permission-policies
 https://platform.claude.com/docs/en/managed-agents/quickstart
 https://platform.claude.com/docs/en/managed-agents/reference
@@ -3495,9 +3525,11 @@ https://platform.claude.com/docs/en/managed-agents/session-observability
 https://platform.claude.com/docs/en/managed-agents/session-operations
 https://platform.claude.com/docs/en/managed-agents/session-threads
 https://platform.claude.com/docs/en/managed-agents/sessions
+https://platform.claude.com/docs/en/managed-agents/sessions?sdk_languages=curl
 https://platform.claude.com/docs/en/managed-agents/skills
 https://platform.claude.com/docs/en/managed-agents/tools
 https://platform.claude.com/docs/en/managed-agents/tools-web-restrictions
+https://platform.claude.com/docs/en/managed-agents/tools?sdk_languages=curl
 https://platform.claude.com/docs/en/managed-agents/vaults
 https://platform.claude.com/docs/en/managed-agents/webhooks
 https://platform.claude.com/docs/en/managed-agents/workflow-runs
@@ -3655,6 +3687,7 @@ https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or
 https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan
 https://support.claude.com/en/articles/11174108-about-the-development-partner-program
 https://support.claude.com/en/articles/11174660-online-safety-contacts
+https://support.claude.com/en/articles/11174660-point-of-contact-for-authorities-and-regulators
 https://support.claude.com/en/articles/11175166
 https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp
 https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp
@@ -4101,6 +4134,7 @@ https://support.claude.com/en/articles/17005973-manage-pooled-group-budgets-on-e
 https://support.claude.com/en/articles/17007452
 https://support.claude.com/en/articles/17007452-what-is-a-limit-reset
 https://support.claude.com/en/articles/17040437
+https://support.claude.com/en/articles/17040437-claude-code-wrap-up-allowance
 https://support.claude.com/en/articles/17118092
 https://support.claude.com/en/articles/17118092-assign-a-program-to-custom-roles-on-enterprise-plans
 https://support.claude.com/en/articles/17153992
@@ -4117,6 +4151,7 @@ https://support.claude.com/en/articles/17318731
 https://support.claude.com/en/articles/17318731-use-claude-code-local-mode-and-claude-cowork-local-mode-on-a-hipaa-ready-enterprise-plan
 https://support.claude.com/en/articles/17440474
 https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude
+https://support.claude.com/en/articles/17444146-claude-haiku-4-5-is-leaving-the-model-selector
 https://support.claude.com/en/articles/17444462
 https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization
 https://support.claude.com/en/articles/17454700
@@ -4127,6 +4162,7 @@ https://support.claude.com/en/articles/17457950
 https://support.claude.com/en/articles/17457950-use-artifacts-with-a-keyboard-or-screen-reader
 https://support.claude.com/en/articles/17458093
 https://support.claude.com/en/articles/17458093-claude-docs-keyboard-shortcuts
+https://support.claude.com/en/articles/17603594-free-code-review-promotional-credits-for-claude-enterprise
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer
@@ -4387,6 +4423,7 @@ https://www.anthropic.com/news/ai-for-science-program
 https://www.anthropic.com/news/alberta-government-claude-cybersecurity
 https://www.anthropic.com/news/alignment-faking
 https://www.anthropic.com/news/an-ai-policy-tool-for-today-ambitiously-invest-in-nist
+https://www.anthropic.com/news/an-update-on-independent-evaluators
 https://www.anthropic.com/news/analysis-tool
 https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy
 https://www.anthropic.com/news/anthropic-accenture-partnership

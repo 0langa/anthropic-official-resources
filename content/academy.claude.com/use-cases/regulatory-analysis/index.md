@@ -218,15 +218,15 @@ Regulatory LegalWatches regulatory feeds, diffs new rules against your policy li
 
 `/policy-diff`Diff a specific regulatory change against the indexed policy library.
 
-[Open in Cowork](claude://cowork/new?q=%2Fpolicy-diff)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fpolicy-diff)
 
 `/reg-feed-watcher`Check regulatory feeds now and report what's new since the last check, filtered by your materiality threshold.
 
-[Open in Cowork](claude://cowork/new?q=%2Freg-feed-watcher)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Freg-feed-watcher)
 
 `/cold-start-interview`Cold-start interview — builds your watchlist, indexes the policy library, and learns your materiality threshold so the monitor surfaces signal instead of noise.
 
-[Open in Cowork](claude://cowork/new?q=%2Fcold-start-interview)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcold-start-interview)
 
 Show all 8 skills
 

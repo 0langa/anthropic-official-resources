@@ -218,11 +218,11 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 
 `/close-management`Manage the month-end close process with task sequencing, dependencies, and status tracking.
 
-[Open in Cowork](claude://cowork/new?q=%2Fclose-management)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fclose-management)
 
 `/variance-analysis`Decompose financial variances into drivers with narrative explanations and waterfall analysis.
 
-[Open in Cowork](claude://cowork/new?q=%2Fvariance-analysis)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fvariance-analysis)
 
 Show all 7 skills
 

@@ -19,7 +19,7 @@ The Model Context Protocol is an open standard that enables developers to build 
 Today, we're introducing three major components of the Model Context Protocol for developers:
 
 - The Model Context Protocol [specification and SDKs](https://github.com/modelcontextprotocol)
-- Local MCP server support in the [Claude Desktop apps](https://claude.ai/redirect/website.v1.fa28dbb9-ae9a-4a1b-87c1-89ffaa0a9c0f/download)
+- Local MCP server support in the [Claude Desktop apps](https://claude.ai/redirect/website.v1.7ac5a182-c8eb-4a5f-93b0-7f4b04ad5562/download)
 - An [open-source repository](https://github.com/modelcontextprotocol/servers) of MCP servers
 
 Claude 3.5 Sonnet is adept at quickly building MCP server implementations, making it easy for organizations and individuals to rapidly connect their most important datasets with a range of AI-powered tools. To help developers start exploring, we’re sharing pre-built MCP servers for popular enterprise systems like Google Drive, Slack, GitHub, Git, Postgres, and Puppeteer.
@@ -32,13 +32,13 @@ Instead of maintaining separate connectors for each data source, developers can 
 
 ## Getting started
 
-Developers can start building and testing MCP connectors today. All [Claude.ai](http://claude.ai/redirect/website.v1.fa28dbb9-ae9a-4a1b-87c1-89ffaa0a9c0f) plans support connecting MCP servers to the Claude Desktop app.
+Developers can start building and testing MCP connectors today. All [Claude.ai](http://claude.ai/redirect/website.v1.7ac5a182-c8eb-4a5f-93b0-7f4b04ad5562) plans support connecting MCP servers to the Claude Desktop app.
 
 Claude for Work customers can begin testing MCP servers locally, connecting Claude to internal systems and datasets. We'll soon provide developer toolkits for deploying remote production MCP servers that can serve your entire Claude for Work organization.
 
 To start building:
 
-- Install pre-built MCP servers through the [Claude Desktop app](https://claude.ai/redirect/website.v1.fa28dbb9-ae9a-4a1b-87c1-89ffaa0a9c0f/download)
+- Install pre-built MCP servers through the [Claude Desktop app](https://claude.ai/redirect/website.v1.7ac5a182-c8eb-4a5f-93b0-7f4b04ad5562/download)
 - Follow our [quickstart guide](https://modelcontextprotocol.io/quickstart) to build your first MCP server
 - Contribute to our [open-source repositories](https://github.com/modelcontextprotocol) of connectors and implementations
 
@@ -48,20 +48,20 @@ MCP was created at Anthropic by David Soria Parra and Justin Spahr-Summers. We�
 
 ## Related content
 
+### An update on independent evaluators
+
+To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
+
+[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
+
+### Preparing for the 2026 US midterms
+
+Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
+
+[Read more](https://www.anthropic.com/news/2026-us-midterms)
+
 ### Anthropic opens Singapore office and signs MOU with the Government of Singapore
 
 Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.
 
 [Read more](https://www.anthropic.com/news/singapore-office-opening)
-
-### 2026 Usage Policy update
-
-We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
-
-[Read more](https://www.anthropic.com/news/2026-usage-policy-update)
-
-### Building on our commitment to American scientific discovery
-
-Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
-
-[Read more](https://www.anthropic.com/news/genesis-mission-commitment)

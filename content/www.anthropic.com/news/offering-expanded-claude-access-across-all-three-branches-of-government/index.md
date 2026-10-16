@@ -16,7 +16,7 @@ Government partners are already using Claude to improve and accelerate their wor
 
 Our partnership with the General Services Administration has been instrumental in making Claude accessible to federal agencies. Building on [last week's](https://www.anthropic.com/news/federal-government-departments-and-agencies-can-now-purchase-claude-through-the-gsa-schedule) addition of Claude to the GSA schedule, which streamlined procurement, we're now able to further expand access through this offer.
 
-We're offering both [Claude for Government](https://www.anthropic.com/solutions/government), which supports FedRAMP High workloads that enable federal workers to use Claude for sensitive unclassified work, and [Claude for Enterprise](https://www.anthropic.com/news/claude-for-enterprise). Agencies will have access to our frontier models with continuous updates as new capabilities are released.
+We're offering both [Claude for Government](https://claude.com/solutions/government), which supports FedRAMP High workloads that enable federal workers to use Claude for sensitive unclassified work, and [Claude for Enterprise](https://www.anthropic.com/news/claude-for-enterprise). Agencies will have access to our frontier models with continuous updates as new capabilities are released.
 
 To ensure successful adoption, we are also providing technical support to help agencies rapidly implement AI into their productivity and mission workflows. This package will be available for one year.
 
@@ -38,24 +38,24 @@ We hope other companies will join us in taking similar steps to ensure the U.S. 
 
 **Getting started**
 
-To gain access, department or agency leadership at eligible organizations should contact us at [pubsec@anthropic.com](mailto:pubsec@anthropic.com).
+To gain access, department or agency leadership at eligible organizations should contact us at [pubsec@anthropic.com](mailto:pubsec@anthropic.com). Also learn more by reading the [Claude for Government](https://claude.com/docs/government/overview) documentation.
 
 ## Related content
+
+### An update on independent evaluators
+
+To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
+
+[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
+
+### Preparing for the 2026 US midterms
+
+Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
+
+[Read more](https://www.anthropic.com/news/2026-us-midterms)
 
 ### Anthropic opens Singapore office and signs MOU with the Government of Singapore
 
 Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.
 
 [Read more](https://www.anthropic.com/news/singapore-office-opening)
-
-### 2026 Usage Policy update
-
-We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
-
-[Read more](https://www.anthropic.com/news/2026-usage-policy-update)
-
-### Building on our commitment to American scientific discovery
-
-Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
-
-[Read more](https://www.anthropic.com/news/genesis-mission-commitment)

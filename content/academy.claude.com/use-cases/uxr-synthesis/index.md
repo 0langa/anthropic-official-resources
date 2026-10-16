@@ -232,11 +232,11 @@ Design8 skills for research synthesis, spec drafting, brand enforcement, and pro
 
 `/research-synthesis`Cluster interview transcripts into themed findings with supporting quotes
 
-[Open in Cowork](claude://cowork/new?q=%2Fresearch-synthesis)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fresearch-synthesis)
 
 `/design-handoff`Turn scattered threads and notes into a structured design spec
 
-[Open in Cowork](claude://cowork/new?q=%2Fdesign-handoff)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdesign-handoff)
 
 Show all 7 skills
 

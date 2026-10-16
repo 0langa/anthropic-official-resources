@@ -40,7 +40,7 @@ We’ve made substantial upgrades to [Claude in Excel](https://claude.com/claude
 
 ![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F4zrzovbb%2Fwebsite%2F810008fad362e0ba3c984c3de094f4527541bb89-3840x2160.png&w=3840&q=75)
 
-Claude Opus 4.6 is available today on [claude.ai](https://claude.ai/redirect/website.v1.64e55a79-6638-4ff0-8875-211379c6ed6d), our API, and all major cloud platforms. If you’re a developer, use `claude-opus-4-6` via the [Claude API](https://platform.claude.com/docs/en/about-claude/models/overview). Pricing remains the same at $5/$25 per million tokens; for full details, see our [pricing page](https://claude.com/pricing).
+Claude Opus 4.6 is available today on [claude.ai](https://claude.ai/redirect/website.v1.f66c81a9-8e13-49d6-9350-02d051914b6d), our API, and all major cloud platforms. If you’re a developer, use `claude-opus-4-6` via the [Claude API](https://platform.claude.com/docs/en/about-claude/models/overview). Pricing remains the same at $5/$25 per million tokens; for full details, see our [pricing page](https://claude.com/pricing).
 
 We cover the model, our new product updates, our evaluations, and our extensive safety testing in depth below.
 
@@ -241,6 +241,12 @@ Claude now also works better with the office tools you already use. Claude in Ex
 
 ## Related content
 
+### An update on independent evaluators
+
+To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
+
+[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
+
 ### Preparing for the 2026 US midterms
 
 Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
@@ -252,9 +258,3 @@ Earlier this year, we shared an update on our election safeguards. Here, we outl
 Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.
 
 [Read more](https://www.anthropic.com/news/singapore-office-opening)
-
-### 2026 Usage Policy update
-
-We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
-
-[Read more](https://www.anthropic.com/news/2026-usage-policy-update)

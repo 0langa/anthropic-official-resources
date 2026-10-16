@@ -1,6 +1,6 @@
 # Assign tasks from anywhere in Claude Cowork
 
-**Note:** Claude Cowork is now just Claude. Ask for what you need, and Claude decides whether that's a quick answer or a task. This is rolling out gradually to Pro and Max plans, with more plans to follow. If you're on a Pro or Max plan and your message box no longer shows "Chat" and "Cowork" options, you have the new experience, and some steps in this article may look different. Learn more in **[Claude Cowork and chat are one Claude](https://support.claude.com/en/articles/16761823)**, or read our **[blog post](https://claude.com/blog/cowork-is-now-claude)**.
+**Note:** Claude Cowork is now just Claude. Ask for what you need, and Claude decides whether that’s a quick answer or a task. This is rolling out gradually to Pro and Max plans, and it’s in beta for Enterprise plans, where an admin turns it on as **Chat and Cowork unified (beta)**. If your message box no longer shows “Chat” and “Cowork” options, you have the new experience, and some steps in this article may look different. Learn more in **[Claude Cowork and chat are one Claude](https://support.claude.com/en/articles/16761823)**, or read our **[blog post](https://claude.com/blog/cowork-is-now-claude)**. For Enterprise owners, see **[Set up and manage the new unified Claude experience for your Enterprise organization](https://support.claude.com/en/articles/17444462)**.
 
 Claude Cowork gives you one continuous conversation with Claude that you can reach from your phone or your desktop. With Dispatch, you can message Claude from your phone and have it work on your desktop computer, using your local files, connectors, plugins, and apps, then come back to the finished work.
 
@@ -16,7 +16,7 @@ This capability is in limited beta for Pro and Max plans on Claude Cowork, and i
 
 To use this capability, you need:
 
-- The most recent version of the **Claude Desktop app** installed and running on your computer (macOS, Windows x64, or Linux). Your computer must be awake and the app must be open for Claude to work on tasks. Download or update at **[claude.com/download](http://claude.com/download)**.
+- The most recent version of the **Claude Desktop app** installed and running on your computer (macOS, Windows x64, or Linux). Your computer must be awake and the app must be open for Claude to work on tasks. Download or update at **[claude.com/download](https://claude.com/download)**.
 
 - The most recent version of the **Claude mobile app** installed on your phone. Existing mobile app users will need to update to the latest version before using this capability.
 
@@ -52,11 +52,11 @@ Follow these steps to get started:
 
 5. You’ll land on a page describing the functionality. Click “Get started”:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2169954086/419674f781edb2977b93cce062b4/93b1893c-d79a-4eb6-b2f1-2fe3e043bd90?expires=1791974700&amp;signature=4812a569c63530bf94068eb51c18ea6da55e2cabaa0a4a63f6b571b22e5bd891&amp;req=diEhH8B7mYFXX%2FMW1HO4zSZP05OCEgr4B32drIe5EDnN98n2AMsLJc35Ncov%0AzXQK%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2169954086/419674f781edb2977b93cce062b4/93b1893c-d79a-4eb6-b2f1-2fe3e043bd90?expires=1792145700&amp;signature=28b93bc15b67e173168a8b67fd75992825ff3235b63a37ce6987965135e92521&amp;req=diEhH8B7mYFXX%2FMW1HO4zSZP05CKEQv4B32drIe5EDn8QF5Q%2FGRlqvDPddp6%0AZzKj%0A)
 
 6. On the next screen, you can give Claude access to your files and keep your computer awake by toggling those on:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2169955082/de4053ee0eab8fcb9263584bb171/d39b77da-1a69-4682-9fdb-7ed488f236b0?expires=1791974700&amp;signature=56b9cbeaa613151c39785e4b47a116db24e48b9751bc95c0445a8a4a737d51b2&amp;req=diEhH8B7mIFXW%2FMW1HO4zaZWstuRWgUZepuGRb1rD3Jg4S26Te458kq69rwS%0ARiT6%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2169955082/de4053ee0eab8fcb9263584bb171/d39b77da-1a69-4682-9fdb-7ed488f236b0?expires=1792145700&amp;signature=b4844281848abf71541e6ca8ddb8718771f5ecb4d8ceae2c5f0114de1738e7d3&amp;req=diEhH8B7mIFXW%2FMW1HO4zaZWstiZWQQZepuGRb1rD3Lj5xZpEkq8kZxT7zCt%0A73xS%0A)
 
 7. Click “Finish setup.”
 

@@ -65,7 +65,13 @@ We're proud of our partnership with Microsoft and aspire to help more people exp
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 8, 2026
+[ArticleOct 15, 2026
+
+### Code Review is now generally available
+
+Catch more bugs before they reach production.
+
+Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)[ArticleOct 8, 2026
 
 ### Building effective agent automations
 
@@ -85,15 +91,7 @@ Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude
 
 Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
 
-(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)[ArticleOct 7, 2026
-
-### Automating eval design and hillclimbing with Claude
-
-Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
-
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
+(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)
 
 ## Transform how your organization operates with Claude
 

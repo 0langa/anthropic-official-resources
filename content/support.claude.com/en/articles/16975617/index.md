@@ -120,6 +120,24 @@ The application doesn’t ask for program-level science, targets, or readouts. A
 
 ---
 
+## Provisioning access using your Grants
+
+After your application has been approved, the steps to provision access to your Grants vary depending on how you access Claude.
+
+| **How you access Claude**          | **Action required by organization Owner**                                                                                              |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Claude Console / API Organizations | **[Assign a program to workspaces](https://support.claude.com/en/articles/16764810-assign-a-program-to-workspaces-in-claude-console)** |
+| Claude Enterprise                  | **[Assign a program to a custom role](https://support.claude.com/en/articles/17118092)**                                               |
+| Claude Team                        | No action required (the Program attaches at the organization level)                                                                    |
+| Amazon Bedrock                     | Not yet supported                                                                                                                      |
+| Claude Platform on AWS             | Not yet supported                                                                                                                      |
+| Claude Platform on Google Cloud    | Not yet supported                                                                                                                      |
+| Google Cloud Agent Platform        | Not yet supported                                                                                                                      |
+| Microsoft Foundry                  | Not yet supported                                                                                                                      |
+| Third-party platform               | Not yet supported                                                                                                                      |
+
+---
+
 ## Data retention, safety review, and privacy
 
 ### Why is data retention required?

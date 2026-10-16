@@ -81,6 +81,12 @@ More people are turning to Claude for information about this year’s elections 
 
 ## Related content
 
+### An update on independent evaluators
+
+To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
+
+[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
+
 ### Anthropic opens Singapore office and signs MOU with the Government of Singapore
 
 Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.
@@ -92,9 +98,3 @@ Anthropic has opened an office in Singapore and signed an MOU with the country�
 We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
 
 [Read more](https://www.anthropic.com/news/2026-usage-policy-update)
-
-### Building on our commitment to American scientific discovery
-
-Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
-
-[Read more](https://www.anthropic.com/news/genesis-mission-commitment)

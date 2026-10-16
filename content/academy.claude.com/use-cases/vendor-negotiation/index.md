@@ -269,11 +269,11 @@ OperationsOptimize business operations — vendor management, process documentat
 
 `/vendor-review`Evaluate a vendor — cost analysis, risk assessment, and recommendation.
 
-[Open in Cowork](claude://cowork/new?q=%2Fvendor-review)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fvendor-review)
 
 `/risk-assessment`Identify, assess, and mitigate operational risks.
 
-[Open in Cowork](claude://cowork/new?q=%2Frisk-assessment)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Frisk-assessment)
 
 Show all 9 skills
 

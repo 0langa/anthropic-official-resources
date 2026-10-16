@@ -614,11 +614,11 @@ Productivity6 skills for inbox sweeps, daily rundowns, meeting prep, and decisio
 
 `/start`Walk next week's calendar and write a context-and-agenda brief per meeting
 
-[Open in Cowork](claude://cowork/new?q=%2Fstart)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fstart)
 
 `/task-management`Track the prep tasks and owners that fall out of the week-ahead
 
-[Open in Cowork](claude://cowork/new?q=%2Ftask-management)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Ftask-management)
 
 Show all 4 skills
 

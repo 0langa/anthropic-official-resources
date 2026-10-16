@@ -27,7 +27,7 @@ It gives us control of our data and control of the risk mitigation and the actio
 
 When your team walked us through the design, it was clear that you heard our feedback. You put us in the driver's seat. This allows us to protect our data while still being responsible stewards of the capabilities of these models.
 
-**How Enterprise Frontier Safeguards fit with the safety monitoring you already run on AI deployments Uber?**
+**How does Enterprise Frontier Safeguards fit with the safety monitoring you already run on AI deployments Uber?**
 
 We've done a ton of work since the very beginning on how we deploy AI safely within Uber. We recently open-sourced a product called [AI Detection and Response (ADR) (opens in new tab)](https://github.com/uber/ADR), designed to gather real-time telemetry and take real-time action in the agent harnesses we deploy.
 

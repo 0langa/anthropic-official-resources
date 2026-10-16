@@ -4,7 +4,7 @@ Build a Claude Cowork plugin from scratch to encode your team's workflows, insti
 
 15 minClaude Cowork
 
-[Open Cowork](claude://cowork/new)
+[Open Cowork](https://claude.ai/new?surface=cowork)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-iyu8ose6.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jnwlc3r7.png)
 

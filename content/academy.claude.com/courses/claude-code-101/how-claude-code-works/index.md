@@ -50,7 +50,7 @@ Claude Code has several permission modes:
 - **Plan mode:** Uses read-only tools to compile a plan of action before starting any work.
 - **Auto mode:** Claude works without permission prompts while a classifier checks each action in the background, targeted at blocking actions that are irreversible, destructive, or aimed outside your environment. When something is blocked, Claude usually finds a safer approach or asks you for the go-ahead.
 
-Which mode a new session starts in depends on your plan and settings.
+Which mode a new session starts in depends on your Claude Code version and settings.
 
 ![Claude Code asking for permission before running a bash command](https://academy.claude.com/assets/media/8d2d1170d15c7ba9eed77d9ec83eec23486de420931ab4901a67b771f9cbb4b7.jpg)
 

@@ -4,7 +4,7 @@ Connect Claude to Blender so it can read and work with your open scene directly.
 
 10 minClaude Cowork
 
-[Open Cowork](claude://cowork/new)
+[Open Cowork](https://claude.ai/new?surface=cowork)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-m4ibfqqy.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-n82pdpre.png)
 

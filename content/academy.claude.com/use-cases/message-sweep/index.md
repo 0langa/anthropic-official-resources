@@ -274,11 +274,11 @@ Productivity6 skills for inbox sweeps, daily rundowns, meeting prep, and decisio
 
 `/start`Sweep unreads across Slack, Teams, and email and group by topic
 
-[Open in Cowork](claude://cowork/new?q=%2Fstart)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fstart)
 
 `/update`Turn a long thread into a one-paragraph summary with owners
 
-[Open in Cowork](claude://cowork/new?q=%2Fupdate)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fupdate)
 
 Show all 4 skills
 

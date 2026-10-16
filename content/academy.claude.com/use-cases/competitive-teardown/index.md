@@ -352,11 +352,11 @@ Product ManagementWrite feature specs, plan roadmaps, and synthesize user resear
 
 `/competitive-brief`Create a competitive analysis brief for one or more competitors or a feature area.
 
-[Open in Cowork](claude://cowork/new?q=%2Fcompetitive-brief)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcompetitive-brief)
 
 `/roadmap-update`Update, create, or reprioritize your product roadmap.
 
-[Open in Cowork](claude://cowork/new?q=%2Froadmap-update)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Froadmap-update)
 
 Show all 8 skills
 

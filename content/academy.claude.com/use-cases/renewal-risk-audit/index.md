@@ -8,7 +8,7 @@ Try in CoworkCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-om42hzcu.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mj4bkeih.png)
 
-Film: the user asks Claude to score renewal accounts red, yellow, or green using CRM, usage, sentiment, and ticket data, then publishes a live, filterable risk board for leadership, which can be scheduled to refresh weekly.
+Film: the user asks Claude to score renewal risk across a sales book using a pipeline-review skill, pulling CRM, usage, call notes, and ticket data into one shareable, filterable risk board, and schedules it to refresh weekly.
 
 Find the renewals at risk
 
@@ -50,7 +50,7 @@ Sales
 
 How can I help you today?
 
-**/**pipeline-review For every account renewing in the next 90 days, score renewal risk red/yellow/green based on product-usage trend, recent sentiment, and open exec commitments. Explain the signal that drove each score, and publish it as a live artifact for leadership.
+**/**pipeline-review For every account renewing in the next 90 days, score renewal risk red/yellow/green based on product-usage trend, recent sentiment, and open exec commitments. Explain the signal that drove each score, and publish it as an artifact for leadership.
 
 Pulling the renewal book from Salesforce0s
 
@@ -84,7 +84,7 @@ Download
 
 ←→↻
 
-claude.ai/public/artifacts/9c41e7d2-5a0b-4c1e-8f3d-2b7e6a1c9d04
+claude.ai/artifact/Rn3wQ7kLs2VbT9xHd4MzPa
 
 *DC*⋮
 
@@ -186,7 +186,7 @@ Claude reads the renewal book from the CRM, then checks usage, notes and tickets
 
 Claude reads the renewal book from the CRM, then checks usage, notes and tickets per account.
 
-Claude tells you what it scored and found, then shows you the live board.
+Claude tells you what it scored and found, then shows you the board.
 
 Each score names its signal, so a red is something to act on.
 
@@ -196,7 +196,7 @@ Schedule it weekly, and the board is rescored from the CRM before your forecast 
 
 Everyone sees the same list of renewals at risk, and why each one is.
 
-For every account renewing in the next 90 days, score renewal risk red/yellow/green based on product-usage trend, recent sentiment, and open exec commitments. Explain the signal that drove each score, and publish it as a live artifact for leadership.
+For every account renewing in the next 90 days, score renewal risk red/yellow/green based on product-usage trend, recent sentiment, and open exec commitments. Explain the signal that drove each score, and publish it as an artifact for leadership.
 
 I scored the 38 accounts renewing by 29 November ($6.42M) against your rubric: six red ($1.31M), eleven yellow and twenty-one green, each with its driving signal. The board is published to filter and share, with a next action per red and two stale-notes accounts flagged.
 
@@ -220,11 +220,11 @@ SalesProspect, craft outreach, and build deal strategy faster. Prep for calls, m
 
 `/pipeline-review`Analyze pipeline health — prioritize deals, flag risks, get a weekly action plan.
 
-[Open in Cowork](claude://cowork/new?q=%2Fpipeline-review)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fpipeline-review)
 
 `/call-prep`Prepare for a sales call with account context, attendee research, and suggested agenda.
 
-[Open in Cowork](claude://cowork/new?q=%2Fcall-prep)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcall-prep)
 
 Show all 9 skills
 

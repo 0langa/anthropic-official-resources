@@ -4,7 +4,7 @@ Claude Cowork lets you hand off complete tasks to Claude — working directly wi
 
 4 minClaude Cowork
 
-Watch[Open Cowork](claude://cowork/new)
+Watch[Open Cowork](https://claude.ai/new?surface=cowork)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-8vlsk4u2.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mc3bn43s.png)
 

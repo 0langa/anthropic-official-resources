@@ -46,7 +46,13 @@ To edit Google files from Claude, turn on the [Google Docs, Sheets, and Slides c
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 8, 2026
+[ArticleOct 15, 2026
+
+### Code Review is now generally available
+
+Catch more bugs before they reach production.
+
+Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)[ArticleOct 8, 2026
 
 ### Build live dashboards and animate explainers with Claude
 
@@ -60,13 +66,7 @@ Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small mode
 
 (opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)[ArticleOct 6, 2026
 
-### We’re expanding the Claude Startups program to help founders build](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)[ArticleOct 6, 2026
-
-### Expanding the Cyber Verification Program
-
-We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.
-
-(opens in new tab)](https://www.anthropic.com/news/cyber-verification-program)
+### We’re expanding the Claude Startups program to help founders build](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)
 
 ## Transform how your organization operates with Claude
 

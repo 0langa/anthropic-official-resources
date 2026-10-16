@@ -292,11 +292,11 @@ Product Management7 skills to write specs, synthesize research, run competitive 
 
 `/stakeholder-update`Sweep launch readiness across PRD, epic, Slack, and GTM brief and make the go/no-go call
 
-[Open in Cowork](claude://cowork/new?q=%2Fstakeholder-update)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fstakeholder-update)
 
 `/metrics-review`Explain a metric move with segment isolation and ship correlation
 
-[Open in Cowork](claude://cowork/new?q=%2Fmetrics-review)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fmetrics-review)
 
 Show all 8 skills
 

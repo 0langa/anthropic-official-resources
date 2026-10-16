@@ -312,11 +312,11 @@ MarketingCreate content, plan campaigns, and analyze performance across marketin
 
 `/campaign-plan`Generate a full campaign brief with objectives, audience, messaging, channel strategy, content calendar, and success metrics.
 
-[Open in Cowork](claude://cowork/new?q=%2Fcampaign-plan)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcampaign-plan)
 
 `/draft-content`Draft blog posts, social media, email newsletters, landing pages, press releases, and case studies with channel-specific formatting and SEO recommendations.
 
-[Open in Cowork](claude://cowork/new?q=%2Fdraft-content)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdraft-content)
 
 Show all 7 skills
 

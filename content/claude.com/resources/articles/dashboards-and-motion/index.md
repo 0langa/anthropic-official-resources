@@ -60,7 +60,13 @@ Open Claude and ask for what you need, like “Build a dashboard of this quarter
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 7, 2026
+[ArticleOct 15, 2026
+
+### Code Review is now generally available
+
+Catch more bugs before they reach production.
+
+Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)[ArticleOct 7, 2026
 
 ### Claude Haiku 5.5
 
@@ -74,13 +80,7 @@ Teams that run on Google Workspace can now bring Claude into their files or work
 
 Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)[ArticleOct 6, 2026
 
-### We’re expanding the Claude Startups program to help founders build](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)[ArticleOct 6, 2026
-
-### Expanding the Cyber Verification Program
-
-We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.
-
-(opens in new tab)](https://www.anthropic.com/news/cyber-verification-program)
+### We’re expanding the Claude Startups program to help founders build](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)
 
 ## Transform how your organization operates with Claude
 

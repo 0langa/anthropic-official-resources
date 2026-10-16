@@ -267,11 +267,11 @@ Human Resources9 skills for recruiting, onboarding, performance reviews, comp an
 
 `/draft-offer`Assemble the offer email, filled offer fields, and screenshare deck for a finalist
 
-[Open in Cowork](claude://cowork/new?q=%2Fdraft-offer)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdraft-offer)
 
 `/comp-analysis`Benchmark a proposed offer against your comp bands and recent closes
 
-[Open in Cowork](claude://cowork/new?q=%2Fcomp-analysis)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcomp-analysis)
 
 Show all 9 skills
 

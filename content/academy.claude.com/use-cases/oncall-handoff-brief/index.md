@@ -294,11 +294,11 @@ EngineeringStreamline engineering workflows — standups, code review, architect
 
 `/standup`Generate a standup update from recent activity.
 
-[Open in Cowork](claude://cowork/new?q=%2Fstandup)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fstandup)
 
 `/incident-response`Run an incident response workflow — triage, communicate, and write postmortem.
 
-[Open in Cowork](claude://cowork/new?q=%2Fincident-response)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fincident-response)
 
 Show all 10 skills
 

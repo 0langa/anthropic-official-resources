@@ -27,7 +27,7 @@ The portal must be opened from within a Claude or Console web session:
 
 4. Click the portal link at the top of the panel (“Looking for your company’s conversations? Go to customer portal”).
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2545327968/cebd68e8fd893a51c8bdf3edcb10/2ebb320b-15cf-4e60-a380-c6bb173ea611?expires=1791974700&amp;signature=c54722fc963574c79f9ee8cd7d50bb60577bfb0dc6b178da7d2fca42ff9b2aa9&amp;req=diUjE8p8mohZUfMW1HO4zapwI0M9Y5XZ2xzTpDBjzI8VotAE7VPaw8nM8Waf%0ArKbuuwYWZ%2F8jE5OdYZY%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2545327968/cebd68e8fd893a51c8bdf3edcb10/2ebb320b-15cf-4e60-a380-c6bb173ea611?expires=1792145700&amp;signature=26336623d37c0445022ffc8cddbee5df682601a3fead3e265a397af5f23967d8&amp;req=diUjE8p8mohZUfMW1HO4zapwI0A1YJTZ2xzTpDBjzI%2Bnz5cggeVRdJpzi%2Bxf%0AX8vozs1c4c0%2BAL7vjXM%3D%0A)
 
 **Note:** The portal requires session authentication from the messenger, so opening the portal from a direct link or bookmark may not work reliably.
 
@@ -39,7 +39,7 @@ The portal must be opened from within a Claude or Console web session:
 
 3. Click any row to open the full conversation thread and see its status.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2545327970/e8e46b36c7e4ea25a7bcf621e024/e867f372-1192-4a1a-9345-d53ae985ca60?expires=1791974700&amp;signature=84e1eb21ab037f2cf5bc113503a0dfe731da78e32cffe95e62b464a1c37bd211&amp;req=diUjE8p8mohYWfMW1HO4zagalN70rUewUedsMn4pB%2BM3hnEuywbjS8Gd72Lp%0Afnswp6RvdOmGjZbyt6A%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2545327970/e8e46b36c7e4ea25a7bcf621e024/e867f372-1192-4a1a-9345-d53ae985ca60?expires=1792145700&amp;signature=a69ae4b3702469dc7cf604fcd133957c781bab73487c98080e0e557857bbf795&amp;req=diUjE8p8mohYWfMW1HO4zagalN38rkawUedsMn4pB%2BNHhh8PqsVyhFr9Z9L0%0A2eKdUhVX6ZCblAaGQ1c%3D%0A)
 
 ## Why is there an organization dropdown?
 
@@ -61,7 +61,7 @@ If there are multiple organizations tied to your company, the organization names
 
 ### The portal won't load or redirects to a login page.
 
-Sign in at **[claude.ai](http://claude.ai)** or **[platform.claude.com](https://platform.claude.com)** first, then open the portal through the support messenger. Authenticating directly from the portal isn't supported.
+Sign in at **[claude.ai](https://claude.ai)** or **[platform.claude.com](https://platform.claude.com)** first, then open the portal through the support messenger. Authenticating directly from the portal isn't supported.
 
 ---
 

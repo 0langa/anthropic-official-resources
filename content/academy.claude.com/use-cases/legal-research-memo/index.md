@@ -281,15 +281,15 @@ Litigation LegalManages the litigation portfolio — matters, deadlines, holds, 
 
 `/brief-section-drafter`Draft a brief section in house style, consistent with the case theory — every fact cited, every case checked, every argument tied to the theory.
 
-[Open in Cowork](claude://cowork/new?q=%2Fbrief-section-drafter)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fbrief-section-drafter)
 
 `/chronology`Build or update a chronology from declared document sources and uploads — dated events extracted, de-duped, and tagged by significance per the matter theory.
 
-[Open in Cowork](claude://cowork/new?q=%2Fchronology)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fchronology)
 
 `/cold-start-interview`House cold-start for the litigation plugin — branches by role (in-house, firm associate, solo) and side (plaintiff, defense, both), captures risk calibration, landscape, and house style, and writes the practice profile.
 
-[Open in Cowork](claude://cowork/new?q=%2Fcold-start-interview)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcold-start-interview)
 
 Show all 19 skills
 

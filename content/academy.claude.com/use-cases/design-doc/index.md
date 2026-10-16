@@ -274,11 +274,11 @@ EngineeringStreamline engineering workflows — standups, code review, architect
 
 `/system-design`Design systems, services, and architectures.
 
-[Open in Cowork](claude://cowork/new?q=%2Fsystem-design)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fsystem-design)
 
 `/architecture`Create or evaluate an architecture decision record (ADR).
 
-[Open in Cowork](claude://cowork/new?q=%2Farchitecture)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Farchitecture)
 
 Show all 10 skills
 

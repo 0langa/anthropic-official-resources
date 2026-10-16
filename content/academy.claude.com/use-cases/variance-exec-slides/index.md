@@ -250,11 +250,11 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 
 `/financial-statements`Generate financial statements (income statement, balance sheet, cash flow) with period-over-period comparison and variance analysis.
 
-[Open in Cowork](claude://cowork/new?q=%2Ffinancial-statements)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Ffinancial-statements)
 
 `/variance-analysis`Decompose financial variances into drivers with narrative explanations and waterfall analysis.
 
-[Open in Cowork](claude://cowork/new?q=%2Fvariance-analysis)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fvariance-analysis)
 
 Show all 7 skills
 

@@ -36,6 +36,9 @@ Search
 
 DateCategoryTitle
 
+- [Oct 15, 2026Announcements
+
+  An update on independent evaluators](https://www.anthropic.com/news/an-update-on-independent-evaluators)
 - [Oct 14, 2026Policy
 
   Preparing for the 2026 US midterms](https://www.anthropic.com/news/2026-us-midterms)
@@ -63,8 +66,5 @@ DateCategoryTitle
 - [Sep 23, 2026Science
 
    Claude discovers a novel enzyme system with CRISPR-like repeats](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
-- [Sep 18, 2026Announcements
-
-   Partnering with Accenture on embedded evaluation](https://www.anthropic.com/news/accenture-embedded-evaluation)
 
 [See more](https://www.anthropic.com/news)

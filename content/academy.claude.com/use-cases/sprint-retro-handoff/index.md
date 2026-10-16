@@ -315,11 +315,11 @@ Engineering9 skills for postmortems, design docs, on-call handoffs, and cost rev
 
 `/tech-debt`Draft the sprint retro from the closed cycle and team channel
 
-[Open in Cowork](claude://cowork/new?q=%2Ftech-debt)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Ftech-debt)
 
 `/standup`Write the on-call handoff from the week's alerts and pages
 
-[Open in Cowork](claude://cowork/new?q=%2Fstandup)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fstandup)
 
 Show all 10 skills
 

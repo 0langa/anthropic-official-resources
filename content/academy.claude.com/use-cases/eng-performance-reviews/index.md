@@ -343,11 +343,11 @@ Human ResourcesStreamline people operations — recruiting, onboarding, performa
 
 `/performance-review`Structure a performance review with self-assessment, manager template, and calibration prep.
 
-[Open in Cowork](claude://cowork/new?q=%2Fperformance-review)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fperformance-review)
 
 `/people-report`Generate headcount, attrition, diversity, or org health reports.
 
-[Open in Cowork](claude://cowork/new?q=%2Fpeople-report)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fpeople-report)
 
 Show all 9 skills
 

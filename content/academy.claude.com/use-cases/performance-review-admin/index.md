@@ -215,11 +215,11 @@ Human ResourcesStreamline people operations — recruiting, onboarding, performa
 
 `/performance-review`Structure a performance review with self-assessment, manager template, and calibration prep.
 
-[Open in Cowork](claude://cowork/new?q=%2Fperformance-review)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fperformance-review)
 
 `/org-planning`Headcount planning, org design, and team structure optimization.
 
-[Open in Cowork](claude://cowork/new?q=%2Forg-planning)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Forg-planning)
 
 Show all 9 skills
 

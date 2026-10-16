@@ -295,11 +295,11 @@ Marketing8 skills to draft content, plan campaigns, hold brand voice, and report
 
 `/competitive-brief`Read competitor materials against your positioning and write the win/lose/draw deck
 
-[Open in Cowork](claude://cowork/new?q=%2Fcompetitive-brief)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcompetitive-brief)
 
 `/campaign-plan`Draft the campaign brief from a goal and last quarter's results
 
-[Open in Cowork](claude://cowork/new?q=%2Fcampaign-plan)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcampaign-plan)
 
 Show all 7 skills
 

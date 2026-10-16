@@ -4,7 +4,7 @@ When a question comes up about a past decision, Claude Cowork answers it from yo
 
 15 minClaude Cowork
 
-Watch[Open Cowork](claude://cowork/new)
+Watch[Open Cowork](https://claude.ai/new?surface=cowork)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-cb32kcve.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nq1i2588.png)
 

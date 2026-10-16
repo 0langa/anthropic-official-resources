@@ -330,11 +330,11 @@ OperationsOptimize business operations — vendor management, process documentat
 
 `/runbook`Create or update an operational runbook for a recurring task or procedure.
 
-[Open in Cowork](claude://cowork/new?q=%2Frunbook)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Frunbook)
 
 `/status-report`Generate a status report with KPIs, risks, and action items.
 
-[Open in Cowork](claude://cowork/new?q=%2Fstatus-report)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fstatus-report)
 
 Show all 9 skills
 

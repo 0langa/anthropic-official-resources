@@ -272,11 +272,11 @@ Human Resources9 skills for recruiting, onboarding, performance reviews, comp an
 
 `/recruiting-pipeline`Run the hiring-manager intake and produce a complete role specification
 
-[Open in Cowork](claude://cowork/new?q=%2Frecruiting-pipeline)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Frecruiting-pipeline)
 
 `/interview-prep`Draft the external job description from an approved role spec
 
-[Open in Cowork](claude://cowork/new?q=%2Finterview-prep)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Finterview-prep)
 
 Show all 9 skills
 

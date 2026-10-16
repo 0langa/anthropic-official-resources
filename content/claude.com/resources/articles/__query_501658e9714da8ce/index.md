@@ -10,37 +10,25 @@ News, announcements, and stories from Anthropic about Claude and the people buil
 
 [ArticleOct 8, 2026
 
-### Building effective agent automations
-
-A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
-
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
-
-[ArticleOct 8, 2026
-
-### How Block orchestrates Claude Fable across thousands of pull requests
-
-Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
-
-Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)
-
-[ArticleOct 7, 2026
-
-### Claude Haiku 5.5
-
-Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
-
-(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)
-
-[ArticleOct 8, 2026
-
 ### Build live dashboards and animate explainers with Claude
 
 Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
 
 Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
+
+[ArticleOct 15, 2026
+
+### Code Review is now generally available
+
+Catch more bugs before they reach production.
+
+Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)
+
+[ArticleOct 14, 2026
+
+### Agent observability on the Claude Platform
+
+Announcing OpenTelemetry traces from Claude Managed Agents, the Messages API, and Claude SDKs on the Claude Platform.](https://claude.com/resources/articles/agent-observability-on-the-claude-platform)
 
 [ArticleOct 13, 2026
 
@@ -58,13 +46,27 @@ Claude Platform
 
 (opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
 
-Featured resource 1 of 5: Building effective agent automations
+[ArticleOct 8, 2026
+
+### Build live dashboards and animate explainers with Claude
+
+Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
+
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
+
+Featured resource 1 of 5: Build live dashboards and animate explainers with Claude
 
 Advanced filters(1)
 
-Showing 12 of 140 resources
+Showing 12 of 141 resources
 
-[ArticleOct 8, 2026
+[ArticleOct 15, 2026
+
+### Code Review is now generally available
+
+Catch more bugs before they reach production.
+
+Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)[ArticleOct 8, 2026
 
 ### Build live dashboards and animate explainers with Claude
 
@@ -128,12 +130,6 @@ Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[Art
 
 Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
 
-Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)[ArticleSep 23, 2026
-
-### Claude Marketplace: one place to discover plugins, agents, and services from our partners
-
-Find the tools and services to do more with Claude, or list what you've built to grow alongside Claude customers.
-
-Claude Platform](https://claude.com/resources/articles/claude-marketplace)
+Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
 
 View more

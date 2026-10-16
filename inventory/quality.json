@@ -278,9 +278,9 @@
   ],
   "statuses": {
     "blocked": 27,
-    "complete": 4535,
-    "gone": 46,
-    "out_of_scope": 39,
+    "complete": 4557,
+    "gone": 45,
+    "out_of_scope": 40,
     "partial": 271
   },
   "terminal_unarchived_urls": [

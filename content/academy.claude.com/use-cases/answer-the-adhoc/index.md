@@ -259,11 +259,11 @@ Data10 skills for SQL generation, table profiling, dashboard specs, and metric n
 
 `/write-query`Read the warehouse model, write the SQL, and answer the business question
 
-[Open in Cowork](claude://cowork/new?q=%2Fwrite-query)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fwrite-query)
 
 `/explore-data`Profile a table and summarize what's in it
 
-[Open in Cowork](claude://cowork/new?q=%2Fexplore-data)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fexplore-data)
 
 Show all 9 skills
 

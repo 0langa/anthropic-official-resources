@@ -194,11 +194,11 @@ Engineering9 skills for postmortems, design docs, on-call handoffs, and cost rev
 
 `/debug`Find over-trend cloud spend and trace each spike to a cause
 
-[Open in Cowork](claude://cowork/new?q=%2Fdebug)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdebug)
 
 `/documentation`Write up the cost finding as a runbook entry the team can act on
 
-[Open in Cowork](claude://cowork/new?q=%2Fdocumentation)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdocumentation)
 
 Show all 10 skills
 

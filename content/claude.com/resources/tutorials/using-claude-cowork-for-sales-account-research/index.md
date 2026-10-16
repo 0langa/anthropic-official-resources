@@ -4,7 +4,7 @@ Before a first call, Claude Cowork pulls everything you’d want to know about a
 
 15 minClaude Cowork
 
-Watch[Open Cowork](claude://cowork/new)
+Watch[Open Cowork](https://claude.ai/new?surface=cowork)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-d0zjjn2v.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hdd30gkj.png)
 

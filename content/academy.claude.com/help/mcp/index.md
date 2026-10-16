@@ -86,7 +86,7 @@ The connector only reads public learning content. Sign in at academy.claude.com 
 
 ## Privacy
 
-The connector is anonymous: there’s no account, sign-in, or token, and it doesn’t know who you are or see your conversation. It receives only the search words or page path Claude sends for a tool call and returns public Academy content. Server logs record which tool was called, the filter values used, the Academy page that was read, how many results came back or an error code, and the MCP client’s reported name and version — never the search text or who you are.
+The connector is anonymous: there’s no account, sign-in, or token, and it doesn’t know who you are or see your conversation. It receives only the search words or page path Claude sends for a tool call and returns public Academy content. Server logs record which tool was called, the filter values used, the Academy page that was read, how many results came back or an error code, and the MCP client’s reported name and version — never the search text or who you are. Where search ranks by meaning, one of Anthropic’s service providers also processes the search words. See [What happens to what I type in search?](https://academy.claude.com/help/faq)
 
 Anthropic’s [Privacy Policy(opens in new tab)](https://www.anthropic.com/legal/privacy) and [Usage Policy(opens in new tab)](https://www.anthropic.com/legal/aup) apply.
 

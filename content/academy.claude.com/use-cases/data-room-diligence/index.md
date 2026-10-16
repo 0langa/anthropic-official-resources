@@ -348,19 +348,19 @@ Corporate LegalRuns M&A diligence at scale with cited tabular review, builds dis
 
 `/diligence-issue-extraction`Read VDR documents and extract issues per house categories and materiality thresholds, producing findings in house memo format.
 
-[Open in Cowork](claude://cowork/new?q=%2Fdiligence-issue-extraction)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdiligence-issue-extraction)
 
 `/tabular-review`Tabular review — one row per document, one column per data point, every cell cited to source.
 
-[Open in Cowork](claude://cowork/new?q=%2Ftabular-review)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Ftabular-review)
 
 `/material-contract-schedule`Build the material contracts disclosure schedule from diligence findings, applying the purchase agreement's Material Contract definition and formatting per the agreement's schedule format.
 
-[Open in Cowork](claude://cowork/new?q=%2Fmaterial-contract-schedule)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fmaterial-contract-schedule)
 
 `/cold-start-interview`House cold-start interview (request list and prior memo), with a per-deal pass for deal-specific context.
 
-[Open in Cowork](claude://cowork/new?q=%2Fcold-start-interview)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcold-start-interview)
 
 Show all 13 skills
 

@@ -57,20 +57,20 @@ For more information on how to leverage Claude within your Salesforce environmen
 
 ## Related content
 
-### 2026 Usage Policy update
+### An update on independent evaluators
 
-We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
+To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
 
-[Read more](https://www.anthropic.com/news/2026-usage-policy-update)
+[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
 
-### Building on our commitment to American scientific discovery
+### Preparing for the 2026 US midterms
 
-Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.
+Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
 
-[Read more](https://www.anthropic.com/news/genesis-mission-commitment)
+[Read more](https://www.anthropic.com/news/2026-us-midterms)
 
-### Introducing the Anthropic Cyber Mission
+### Anthropic opens Singapore office and signs MOU with the Government of Singapore
 
-We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.
+Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.
 
-[Read more](https://www.anthropic.com/news/anthropic-cyber-mission)
+[Read more](https://www.anthropic.com/news/singapore-office-opening)

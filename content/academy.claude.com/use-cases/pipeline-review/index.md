@@ -269,11 +269,11 @@ SalesProspect, craft outreach, and build deal strategy faster. Prep for calls, m
 
 `/pipeline-review`Analyze pipeline health — prioritize deals, flag risks, get a weekly action plan.
 
-[Open in Cowork](claude://cowork/new?q=%2Fpipeline-review)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fpipeline-review)
 
 `/call-prep`Prepare for a sales call with account context, attendee research, and suggested agenda.
 
-[Open in Cowork](claude://cowork/new?q=%2Fcall-prep)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcall-prep)
 
 Show all 9 skills
 

@@ -289,11 +289,11 @@ DesignAccelerate design workflows — critique, design system management, UX wri
 
 `/design-critique`Get structured design feedback on usability, hierarchy, and consistency.
 
-[Open in Cowork](claude://cowork/new?q=%2Fdesign-critique)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdesign-critique)
 
 `/design-system`Audit, document, or extend your design system.
 
-[Open in Cowork](claude://cowork/new?q=%2Fdesign-system)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdesign-system)
 
 Show all 7 skills
 

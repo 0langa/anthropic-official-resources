@@ -430,11 +430,11 @@ Productivity6 skills for inbox sweeps, daily rundowns, meeting prep, and decisio
 
 `/task-management`Extract decision, owners, and open questions from a thread or chain
 
-[Open in Cowork](claude://cowork/new?q=%2Ftask-management)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Ftask-management)
 
 `/update`Turn a long thread into a one-paragraph summary with owners
 
-[Open in Cowork](claude://cowork/new?q=%2Fupdate)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fupdate)
 
 Show all 4 skills
 

@@ -196,11 +196,11 @@ DesignAccelerate design workflows — critique, design system management, UX wri
 
 `/ux-copy`Write or review UX copy — microcopy, error messages, empty states, CTAs.
 
-[Open in Cowork](claude://cowork/new?q=%2Fux-copy)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fux-copy)
 
 `/design-system`Audit, document, or extend your design system.
 
-[Open in Cowork](claude://cowork/new?q=%2Fdesign-system)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdesign-system)
 
 Show all 7 skills
 

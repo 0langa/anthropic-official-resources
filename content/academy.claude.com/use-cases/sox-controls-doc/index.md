@@ -196,11 +196,11 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 
 `/sox-testing`Generate SOX sample selections, testing workpapers, and control assessments.
 
-[Open in Cowork](claude://cowork/new?q=%2Fsox-testing)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fsox-testing)
 
 `/audit-support`Support SOX 404 compliance with control testing methodology, sample selection, and documentation standards.
 
-[Open in Cowork](claude://cowork/new?q=%2Faudit-support)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Faudit-support)
 
 Show all 7 skills
 

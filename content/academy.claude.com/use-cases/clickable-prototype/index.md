@@ -464,11 +464,11 @@ DesignAccelerate design workflows — critique, design system management, UX wri
 
 `/design-handoff`Generate developer handoff specs from a design.
 
-[Open in Cowork](claude://cowork/new?q=%2Fdesign-handoff)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdesign-handoff)
 
 `/ux-copy`Write or review UX copy — microcopy, error messages, empty states, CTAs.
 
-[Open in Cowork](claude://cowork/new?q=%2Fux-copy)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fux-copy)
 
 Show all 7 skills
 

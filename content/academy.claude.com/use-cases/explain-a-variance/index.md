@@ -225,15 +225,15 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 
 `/variance-analysis`Decompose financial variances into drivers with narrative explanations and waterfall analysis.
 
-[Open in Cowork](claude://cowork/new?q=%2Fvariance-analysis)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fvariance-analysis)
 
 `/financial-statements`Generate financial statements (income statement, balance sheet, cash flow) with period-over-period comparison and variance analysis.
 
-[Open in Cowork](claude://cowork/new?q=%2Ffinancial-statements)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Ffinancial-statements)
 
 `/close-management`Manage the month-end close process with task sequencing, dependencies, and status tracking.
 
-[Open in Cowork](claude://cowork/new?q=%2Fclose-management)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fclose-management)
 
 Show all 7 skills
 

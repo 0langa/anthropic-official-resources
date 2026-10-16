@@ -294,11 +294,11 @@ SalesProspect, craft outreach, and build deal strategy faster. Prep for calls, m
 
 `/account-research`Research a company or person and get actionable sales intel.
 
-[Open in Cowork](claude://cowork/new?q=%2Faccount-research)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Faccount-research)
 
 `/call-prep`Prepare for a sales call with account context, attendee research, and suggested agenda.
 
-[Open in Cowork](claude://cowork/new?q=%2Fcall-prep)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcall-prep)
 
 Show all 9 skills
 

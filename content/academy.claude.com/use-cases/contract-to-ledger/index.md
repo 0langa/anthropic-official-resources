@@ -166,11 +166,11 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 
 `/journal-entry`Prepare journal entries with proper debits, credits, and supporting documentation for month-end close.
 
-[Open in Cowork](claude://cowork/new?q=%2Fjournal-entry)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fjournal-entry)
 
 `/close-management`Manage the month-end close process with task sequencing, dependencies, and status tracking.
 
-[Open in Cowork](claude://cowork/new?q=%2Fclose-management)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fclose-management)
 
 Show all 7 skills
 

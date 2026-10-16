@@ -202,15 +202,15 @@ Commercial LegalReviews vendor agreements, NDAs, and SaaS subscriptions against 
 
 `/review`Review a vendor agreement, NDA, or SaaS subscription against your playbook.
 
-[Open in Cowork](claude://cowork/new?q=%2Freview)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Freview)
 
 `/stakeholder-summary`Translate a contract review into a summary the business stakeholder will actually read.
 
-[Open in Cowork](claude://cowork/new?q=%2Fstakeholder-summary)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fstakeholder-summary)
 
 `/cold-start-interview`Run the cold-start interview to learn your commercial contracts practice and write your team practice profile.
 
-[Open in Cowork](claude://cowork/new?q=%2Fcold-start-interview)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcold-start-interview)
 
 Show all 9 skills
 

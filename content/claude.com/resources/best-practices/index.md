@@ -24,7 +24,15 @@ Anthropic Deputy CISO, Jason Clinton, details how the Security Engineering team 
 
 Claude CodeClaude Tag1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/how-anthropic-secures-its-ai-native-software-development-lifecycle)
 
-[WebinarUpcoming | Oct 15, 2026
+[WebinarUpcoming | Oct 22, 2026
+
+### Claude Rearview Roadmap Review: October 2026
+
+Your rollout plan depends on knowing what's changed and what matters the most.
+
+Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
+
+[WebinarOct 15, 2026
 
 ### Claude Tag on-call: A new teammate in your incident channel
 
@@ -32,21 +40,11 @@ We open on an incident. An alert fires in a Slack channel and, without anyone ty
 
 Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)
 
-[WebinarOct 13, 2026
+[WebinarOn demand
 
 ### Measuring AI Fluency at Your Organization
 
 Seat counts don't show if AI is working. Kristen Swanson shares how to measure AI Fluency beyond usage, without a huge lift.](https://claude.com/resources/webinars/measuring-ai-fluency-at-your-organization)
-
-[ArticleOct 8, 2026
-
-### Building effective agent automations
-
-A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
-
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
 
 [ArticleJul 16, 2026
 
@@ -60,15 +58,21 @@ Featured resource 1 of 5: Working with Claude Fable 5 in Claude Cowork
 
 Advanced filters
 
-Showing 11 of 216 resources
+Showing 11 of 217 resources
 
-[WebinarUpcoming | Oct 15, 2026
+[WebinarUpcoming | Oct 22, 2026
+
+### Claude Rearview Roadmap Review: October 2026
+
+Your rollout plan depends on knowing what's changed and what matters the most.
+
+Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[WebinarOct 15, 2026
 
 ### Claude Tag on-call: A new teammate in your incident channel
 
 We open on an incident. An alert fires in a Slack channel and, without anyone typing a prompt, Claude reads the logs, repos and…
 
-Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)[WebinarOct 13, 2026
+Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)[WebinarOn demand
 
 ### Measuring AI Fluency at Your Organization
 
@@ -112,7 +116,9 @@ Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expe
 
 Teams running Claude Code at scale eventually get the same two questions. What is this costing us, and are the results worth the…
 
-Claude Code](https://claude.com/resources/webinars/how-to-control-costs-and-show-roi-for-claude-code-on-google-cloud-emea-rebroadcast)[ArticleOct 1, 2026
+Claude Code
+
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/235c7e08-cbdc-48f6-944b-af9bebfc80ac)[ArticleOct 1, 2026
 
 ### Getting started with Claude Code mods
 
@@ -124,12 +130,8 @@ Claude Code
 
 There's no single path to running Claude on AWS. What you build depends on what your compliance team needs, what your engineers…
 
-Claude PlatformClaude Enterprise](https://claude.com/resources/webinars/enterprise-transformation-with-claude-on-aws-paths-to-production-emea-rebroadcast)[ArticleSep 30, 2026
+Claude PlatformClaude Enterprise
 
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
-
-Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/ceba8af9-f89f-4c14-bfda-7b2bf684e185)
 
 View more

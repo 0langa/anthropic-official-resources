@@ -354,11 +354,11 @@ Product ManagementWrite feature specs, plan roadmaps, and synthesize user resear
 
 `/synthesize-research`Synthesize user research from interviews, surveys, and feedback into structured insights.
 
-[Open in Cowork](claude://cowork/new?q=%2Fsynthesize-research)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fsynthesize-research)
 
 `/roadmap-update`Update, create, or reprioritize your product roadmap.
 
-[Open in Cowork](claude://cowork/new?q=%2Froadmap-update)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Froadmap-update)
 
 Show all 8 skills
 

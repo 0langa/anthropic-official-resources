@@ -210,11 +210,11 @@ ProductivityManage tasks, plan your day, and build up memory of important contex
 
 `/memory-management`Two-tier memory system that makes Claude a true workplace collaborator.
 
-[Open in Cowork](claude://cowork/new?q=%2Fmemory-management)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fmemory-management)
 
 `/update`Sync tasks and refresh memory from your current activity.
 
-[Open in Cowork](claude://cowork/new?q=%2Fupdate)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fupdate)
 
 Show all 4 skills
 

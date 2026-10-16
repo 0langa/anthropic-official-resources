@@ -276,11 +276,11 @@ Sales8 skills for account research, call prep, pipeline review, and account heal
 
 `/call-summary`Cluster a folder of call transcripts into themes with counts and quotes
 
-[Open in Cowork](claude://cowork/new?q=%2Fcall-summary)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcall-summary)
 
 `/pipeline-review`Score account health from usage, tickets, NPS, and the success plan
 
-[Open in Cowork](claude://cowork/new?q=%2Fpipeline-review)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fpipeline-review)
 
 Show all 9 skills
 

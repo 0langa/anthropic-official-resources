@@ -170,11 +170,11 @@ EngineeringStreamline engineering workflows — standups, code review, architect
 
 `/documentation`Write and maintain technical documentation.
 
-[Open in Cowork](claude://cowork/new?q=%2Fdocumentation)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdocumentation)
 
 `/architecture`Create or evaluate an architecture decision record (ADR).
 
-[Open in Cowork](claude://cowork/new?q=%2Farchitecture)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Farchitecture)
 
 Show all 10 skills
 

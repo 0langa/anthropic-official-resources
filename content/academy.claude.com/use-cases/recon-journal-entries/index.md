@@ -232,11 +232,11 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 
 `/journal-entry`Prepare journal entries with proper debits, credits, and supporting documentation for month-end close.
 
-[Open in Cowork](claude://cowork/new?q=%2Fjournal-entry)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fjournal-entry)
 
 `/variance-analysis`Decompose financial variances into drivers with narrative explanations and waterfall analysis.
 
-[Open in Cowork](claude://cowork/new?q=%2Fvariance-analysis)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fvariance-analysis)
 
 Show all 7 skills
 

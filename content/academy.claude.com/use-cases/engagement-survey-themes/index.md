@@ -312,11 +312,11 @@ Human ResourcesStreamline people operations — recruiting, onboarding, performa
 
 `/org-planning`Headcount planning, org design, and team structure optimization.
 
-[Open in Cowork](claude://cowork/new?q=%2Forg-planning)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Forg-planning)
 
 `/people-report`Generate headcount, attrition, diversity, or org health reports.
 
-[Open in Cowork](claude://cowork/new?q=%2Fpeople-report)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fpeople-report)
 
 Show all 9 skills
 

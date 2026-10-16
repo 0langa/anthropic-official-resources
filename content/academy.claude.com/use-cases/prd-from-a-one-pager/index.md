@@ -248,7 +248,7 @@ Product Management7 skills to write specs, synthesize research, run competitive 
 
 `/write-spec`Interview the PM on a problem statement and draft a structured PRD
 
-[Open in Cowork](claude://cowork/new?q=%2Fwrite-spec)
+[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fwrite-spec)
 
 Show all 8 skills
 
