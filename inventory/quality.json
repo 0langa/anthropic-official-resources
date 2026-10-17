@@ -247,6 +247,7 @@
     "https://www.anthropic.com/research/2028-ai-leadership",
     "https://www.anthropic.com/research/AI-assistance-coding-skills",
     "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+    "https://www.anthropic.com/research/ai-expectations-gap",
     "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
     "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
     "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report",
@@ -261,6 +262,7 @@
     "https://www.anthropic.com/research/claude-values-models-languages",
     "https://www.anthropic.com/research/economic-index-june-2026-report",
     "https://www.anthropic.com/research/economic-index-march-2026-report",
+    "https://www.anthropic.com/research/employment-at-anthropic",
     "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
     "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
     "https://www.anthropic.com/research/labor-market-impacts",
@@ -278,10 +280,10 @@
   ],
   "statuses": {
     "blocked": 27,
-    "complete": 4557,
-    "gone": 45,
+    "complete": 4582,
+    "gone": 46,
     "out_of_scope": 40,
-    "partial": 271
+    "partial": 273
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/dashboard",
@@ -684,6 +686,7 @@
     "https://support.claude.com/en/articles/15282265-claude-enterprise-activation-promo-for-claude-code-and-cowork",
     "https://support.claude.com/en/articles/15330089",
     "https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion",
+    "https://support.claude.com/en/articles/17274727-artifact-usage-promotion",
     "https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data",
     "https://support.claude.com/en/articles/9945670-using-the-github-integration",
     "https://support.claude.com/en/articles/9945689-claude-for-engineering",
@@ -726,6 +729,7 @@
     "https://www.anthropic.com/research/2028-ai-leadership",
     "https://www.anthropic.com/research/AI-assistance-coding-skills",
     "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+    "https://www.anthropic.com/research/ai-expectations-gap",
     "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
     "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
     "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report",
@@ -742,6 +746,7 @@
     "https://www.anthropic.com/research/cqz@anthropic.com",
     "https://www.anthropic.com/research/economic-index-june-2026-report",
     "https://www.anthropic.com/research/economic-index-march-2026-report",
+    "https://www.anthropic.com/research/employment-at-anthropic",
     "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
     "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
     "https://www.anthropic.com/research/labor-market-impacts",

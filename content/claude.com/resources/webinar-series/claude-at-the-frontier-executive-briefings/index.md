@@ -11,7 +11,7 @@ Four sessions are scheduled this fall, starting September 18. Each runs live wit
 ## Webinars
 
 - [On demandEnterprise Readiness: A CISO's Guide to Deploying Claude(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/b863dfc3-1f1d-4cb4-86af-fab76bc6e2c0)
-- [Oct 14, 2026Inside the Cyber Verification Program: Tiers, Migration, and Best Practices](https://claude.com/resources/webinars/inside-the-cyber-verification-program)
+- [On demandInside the Cyber Verification Program: Tiers, Migration, and Best Practices](https://claude.com/resources/webinars/inside-the-cyber-verification-program)
 
 Register now
 

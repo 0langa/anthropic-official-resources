@@ -2182,6 +2182,9 @@
   "https://platform.claude.com/docs/en/agents-and-tools/tool-use/server-tools": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/server-tools?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/agents-and-tools/tool-use/strict-tool-use": [
     "Native source; upstream MDX components retained."
   ],
@@ -2195,6 +2198,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-runner": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-runner?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool": [
@@ -5536,6 +5542,9 @@
   "https://platform.claude.com/docs/en/api/messages/create": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/messages/create?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/models": [
     "Native source; upstream MDX components retained."
   ],
@@ -5549,6 +5558,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/opentelemetry/spans": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/opentelemetry/spans?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/organization": [
@@ -5830,6 +5842,9 @@
   "https://platform.claude.com/docs/en/api/versioning": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/versioning?sdk_languages=http": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking": [
     "Native source; upstream MDX components retained."
   ],
@@ -5882,6 +5897,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/build-with-claude/compaction-threshold": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/compaction?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/build-with-claude/context-editing": [
@@ -5969,6 +5987,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/build-with-claude/search-results": [
@@ -6103,6 +6124,9 @@
   "https://platform.claude.com/docs/en/manage-claude/api-and-data-retention": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/manage-claude/api-and-data-retention?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/manage-claude/app-attest": [
     "Native source; upstream MDX components retained."
   ],
@@ -6119,6 +6143,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/manage-claude/cmek-azure-key-vault": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/cmek-claude-platform-on-aws": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/manage-claude/cmek-google-cloud-kms": [
@@ -6169,7 +6196,16 @@
   "https://platform.claude.com/docs/en/manage-claude/opentelemetry/api": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/manage-claude/opentelemetry/api?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/manage-claude/opentelemetry/sdk": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/opentelemetry/sdk?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/opentelemetry?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/manage-claude/opentelemetry?sdk_languages=http": [
@@ -6185,6 +6221,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/manage-claude/usage-cost-api": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/usage-cost-api?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/manage-claude/user-management": [
@@ -6271,10 +6310,16 @@
   "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/managed-agents/onboarding": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/managed-agents/overview": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/overview?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/managed-agents/permission-policies": [
@@ -6331,6 +6376,9 @@
   "https://platform.claude.com/docs/en/managed-agents/sessions": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/managed-agents/sessions?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/managed-agents/skills": [
     "Native source; upstream MDX components retained."
   ],
@@ -6338,6 +6386,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/managed-agents/tools-web-restrictions": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/tools?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/managed-agents/vaults": [
@@ -7070,6 +7121,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/12618689-claude-code-on-the-web": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/12618689-use-claude-code-in-the-cloud": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/12622667": [
@@ -7993,6 +8047,9 @@
   "https://support.claude.com/en/articles/17040437": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/17040437-claude-code-wrap-up-allowance": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/17118092": [
     "Native source; upstream MDX components retained."
   ],
@@ -8072,6 +8129,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/17458093-claude-docs-keyboard-shortcuts": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/17603594-free-code-review-promotional-credits-for-claude-enterprise": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [
@@ -8521,7 +8581,6 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/anthropic-public-record": [
-    "Could not read tab 'Integrated users': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk": [
@@ -8647,6 +8706,9 @@
     "Could not read tab 'Example 2': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/ai-expectations-gap": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
@@ -8671,6 +8733,9 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html"
   ],
   "https://www.anthropic.com/research/claude-fable-5-mythos-5": [
+    "Could not read tab 'Factorio': TimeoutError",
+    "Could not read tab 'VibeCAD': TimeoutError",
+    "Could not read tab 'Fluid with Classical EDM': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-opus-5": [
@@ -8695,6 +8760,12 @@
   "https://www.anthropic.com/research/cyber-toolkits-update": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://www.anthropic.com/research/designing-efficient-quantum-circuits": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/research/ecdsa-curve-origins": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
   "https://www.anthropic.com/research/economic-index-geography": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
@@ -8702,6 +8773,10 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/economic-index-march-2026-report": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/employment-at-anthropic": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/formalizing-fermats-last-theorem": [

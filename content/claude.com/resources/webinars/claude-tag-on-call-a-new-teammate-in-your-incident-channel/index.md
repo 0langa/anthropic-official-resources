@@ -1,4 +1,4 @@
-Oct 15, 2026 — 10:00 – 10:45 AM PT
+On demand
 
 # Claude Tag on-call: A new teammate in your incident channel
 
@@ -6,7 +6,7 @@ We open on an incident. An alert fires in a Slack channel and, without anyone ty
 
 Register for the webinar
 
-Fill out the form below to reserve your seat.
+Fill out the form below to watch on demand.
 
 ## What you’ll learn
 

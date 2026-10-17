@@ -54,6 +54,21 @@ Search
 
 DateCategoryTitle
 
+- [Oct 16, 2026Science
+
+  Designing more efficient quantum circuits with Claude](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
+- [Oct 16, 2026Frontier Red Team
+
+  Claude reveals ECDSA curve origins](https://www.anthropic.com/research/ecdsa-curve-origins)
+- [Oct 16, 2026Economics
+
+  The AI expectations gap](https://www.anthropic.com/research/ai-expectations-gap)
+- [Oct 16, 2026Economics
+
+  How employment is changing at Anthropic](https://www.anthropic.com/research/employment-at-anthropic)
+- [Oct 16, 2026Economics
+
+  Working at the frontier shapes expectations for the future](https://www.anthropic.com/research/expectations-for-the-future)
 - [Oct 12, 2026Frontier Red Team
 
   AI models may be capable of self-replicating without access to a datacenter](https://www.anthropic.com/research/self-replicating-ai)
@@ -69,21 +84,6 @@ DateCategoryTitle
 - [Oct 8, 2026Frontier Red Team
 
   Launching an opt-in vulnerability-finding service for open-source software](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source)
-- [Oct 1, 2026Science
-
-  Claude-shaped science](https://www.anthropic.com/research/claude-shaped-science)
-- [Sep 30, 2026Economics
-
-  What work can robots do?](https://www.anthropic.com/research/what-work-can-robots-do)
-- [Sep 29, 2026Societal Impacts
-
-  What do you want from AI?](https://www.anthropic.com/research/your-thoughts-on-ai)
-- [Sep 29, 2026Frontier Red Team
-
-  GLM-5.3 and the spread of advanced cyber capabilities](https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities)
-- [Sep 25, 2026Science
-
-  Yes, Claude can do Nine Loops](https://www.anthropic.com/research/yes-claude-can-do-nine-loops)
 
 [See more](https://www.anthropic.com/research)
 

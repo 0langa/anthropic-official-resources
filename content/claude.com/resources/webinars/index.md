@@ -8,7 +8,7 @@ Unsubscribe at any time.
 
 Live and recorded sessions with Anthropic and customer teams — demos, deep dives, Q&A, and practical takeaways.
 
-[WebinarOct 14, 2026
+[WebinarOn demand
 
 ### Inside the Cyber Verification Program: Tiers, Migration, and Best Practices
 
@@ -20,29 +20,31 @@ Join the teams behind the program for a walkthrough of the Cyber Verification Pr
 
 AWS and Anthropic on how PE firms scale Claude across portfolios, what it costs, and how to get started.](https://claude.com/resources/webinars/scaling-ai-across-the-portfolio-anthropic-and-aws-for-private-equity)
 
-[WebinarUpcoming | Oct 21, 2026
+[WebinarUpcoming | Oct 28, 2026
 
-### Tokenomics on AWS: Control and optimize your Claude spend
+### Unified Claude: What it means for admins
 
-Learn how to control and optimize Claude spend on AWS, from admin controls and default models to cost per task for API agents.](https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend)
+Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
 
-[WebinarUpcoming | Oct 15, 2026
+Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
-### Claude Tag on-call: A new teammate in your incident channel
+[WebinarUpcoming | Oct 22, 2026
 
-We open on an incident. An alert fires in a Slack channel and, without anyone typing a prompt, Claude reads the logs, repos and…
+### Claude Rearview Roadmap Review: October 2026
 
-Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)
+Your rollout plan depends on knowing what's changed and what matters the most.
 
-[WebinarUpcoming | Multiple dates
+Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
-### Claude Code: Foundations
+[WebinarUpcoming | Oct 20, 2026
 
-New to Claude Code? You’re in the right place. Join Anthropic's Claude Code specialist team for a hands-on introduction to…
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
 
-Claude Code](https://claude.com/resources/webinars/claude-code-foundations-series)
+Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
 
-[WebinarOct 14, 2026
+Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+
+[WebinarOn demand
 
 ### Inside the Cyber Verification Program: Tiers, Migration, and Best Practices
 
@@ -52,23 +54,35 @@ Featured resource 1 of 5: Inside the Cyber Verification Program: Tiers, Migratio
 
 Advanced filters
 
-Showing 21 of 111 resources
+Showing 23 of 114 resources
 
 ## Upcoming webinars
 
 Register for the live sessions with Anthropic and partner teams — bring your questions and get answers in real time.
 
-[WebinarUpcoming | Oct 15, 2026
+[WebinarUpcoming | Oct 20, 2026
 
-### Claude Tag on-call: A new teammate in your incident channel
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
 
-We open on an incident. An alert fires in a Slack channel and, without anyone typing a prompt, Claude reads the logs, repos and…
+Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
 
-Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)[WebinarUpcoming | Oct 21, 2026
+Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)[WebinarUpcoming | Oct 21, 2026
 
 ### Tokenomics on AWS: Control and optimize your Claude spend
 
-Learn how to control and optimize Claude spend on AWS, from admin controls and default models to cost per task for API agents.](https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend)[WebinarUpcoming | Oct 29, 2026
+Learn how to control and optimize Claude spend on AWS, from admin controls and default models to cost per task for API agents.](https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend)[WebinarUpcoming | Oct 22, 2026
+
+### Claude Rearview Roadmap Review: October 2026
+
+Your rollout plan depends on knowing what's changed and what matters the most.
+
+Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[WebinarUpcoming | Oct 28, 2026
+
+### Unified Claude: What it means for admins
+
+Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
+
+Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarUpcoming | Oct 29, 2026
 
 ### Scaling AI Across the Portfolio: Anthropic and AWS for Private Equity
 
@@ -126,11 +140,17 @@ Claude Code](https://claude.com/resources/webinars/claude-code-foundations-serie
 
 Missed the session? Stream past sessions anytime and catch up at your own pace.
 
-[WebinarOct 14, 2026
+[WebinarOn demand
+
+### Claude Tag on-call: A new teammate in your incident channel
+
+We open on an incident. An alert fires in a Slack channel and, without anyone typing a prompt, Claude reads the logs, repos and…
+
+Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)[WebinarOct 14, 2026
 
 ### Claude in Microsoft Foundry: control the cost, prove the value
 
-Claude adoption in Microsoft Foundry is moving from individual developers to entire organizations. Leaders want to know who's…](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[WebinarOct 14, 2026
+Claude adoption in Microsoft Foundry is moving from individual developers to entire organizations. Leaders want to know who's…](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[WebinarOn demand
 
 ### Inside the Cyber Verification Program: Tiers, Migration, and Best Practices
 
@@ -158,13 +178,17 @@ A lot has changed since you applied to host Claude Corps fellows, and we want yo
 
 ### Building with the Claude 5.5 Family: Choosing the Right Model and Getting More from Every Token
 
-Claude Sonnet 5.5 joins Opus 5.5 on the Claude Platform as a faster, lower-cost complement. In this session, Anthropic’s…](https://claude.com/resources/webinars/building-with-the-claude-5-5-family-choosing-the-right-model-and-getting-more-from-every-token)[WebinarOn demand
+Claude Sonnet 5.5 joins Opus 5.5 on the Claude Platform as a faster, lower-cost complement. In this session, Anthropic’s…
+
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/feb0f842-19cc-48a2-9b52-ad5ad3b75f20)[WebinarOn demand
 
 ### How to control costs and show ROI for Claude Code on Google Cloud
 
 Teams running Claude Code at scale eventually get the same two questions. What is this costing us, and are the results worth the…
 
-Claude Code](https://claude.com/resources/webinars/how-to-control-costs-and-show-roi-for-claude-code-on-google-cloud-emea-rebroadcast)[WebinarOct 1, 2026
+Claude Code
+
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/235c7e08-cbdc-48f6-944b-af9bebfc80ac)[WebinarOct 1, 2026
 
 ### Enterprise Transformation with Claude on AWS: Paths to Production
 
@@ -176,13 +200,9 @@ Claude PlatformClaude Enterprise](https://claude.com/resources/webinars/enterpri
 
 There's no single path to running Claude on AWS. What you build depends on what your compliance team needs, what your engineers…
 
-Claude PlatformClaude Enterprise](https://claude.com/resources/webinars/enterprise-transformation-with-claude-on-aws-paths-to-production-emea-rebroadcast)[WebinarOn demand
+Claude PlatformClaude Enterprise
 
-### Claude in Microsoft Foundry: Tool Integrations in Practice
-
-A single well-crafted prompt only gets an agent so far. This session shows how to take agents further with tool integrations…
-
-Claude Platform](https://claude.com/resources/webinars/claude-in-microsoft-foundry-tool-integrations-in-practice-emea-rebroadcast)
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/ceba8af9-f89f-4c14-bfda-7b2bf684e185)
 
 View more
 

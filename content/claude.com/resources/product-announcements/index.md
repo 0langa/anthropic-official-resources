@@ -28,6 +28,14 @@ Claude Enterprise](https://claude.com/resources/articles/the-full-claude-desktop
 
 Claude apps](https://claude.com/resources/articles/connectors-for-everyday-life)
 
+[ArticleOct 15, 2026
+
+### Code Review is now generally available
+
+Catch more bugs before they reach production.
+
+Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)
+
 [ArticleOct 8, 2026
 
 ### Build live dashboards and animate explainers with Claude
@@ -35,14 +43,6 @@ Claude apps](https://claude.com/resources/articles/connectors-for-everyday-life)
 Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
 
 Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
-
-[ArticleOct 7, 2026
-
-### Claude Haiku 5.5
-
-Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
-
-(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)
 
 [ArticleJul 7, 2026
 
@@ -56,9 +56,15 @@ Featured resource 1 of 5: Claude Cowork is coming to mobile and web
 
 Advanced filters
 
-Showing 11 of 150 resources
+Showing 11 of 151 resources
 
-[ArticleOct 8, 2026
+[ArticleOct 15, 2026
+
+### Code Review is now generally available
+
+Catch more bugs before they reach production.
+
+Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)[ArticleOct 8, 2026
 
 ### Build live dashboards and animate explainers with Claude
 
@@ -118,12 +124,6 @@ Claude appsClaude Code
 
 Claude Sonnet 5.5 runs more than 30% faster than Sonnet 5 and writes more clearly, so it’s well suited to quick back-and-forth on the things you do most.
 
-(opens in new tab)](https://www.youtube.com/watch?v=s5nkj-L2vAw)[ArticleSep 28, 2026
-
-### A new approach to agent security with Claude Managed Agents and NVIDIA
-
-Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
-
-Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)
+(opens in new tab)](https://www.youtube.com/watch?v=s5nkj-L2vAw)
 
 View more

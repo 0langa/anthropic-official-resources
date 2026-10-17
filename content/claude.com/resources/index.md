@@ -72,7 +72,13 @@ Article
 
 Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
 
-Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 7, 2026
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 15, 2026
+
+### Code Review is now generally available
+
+Catch more bugs before they reach production.
+
+Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)[ArticleOct 7, 2026
 
 ### Claude Haiku 5.5
 
@@ -98,13 +104,7 @@ Make slides with Claude starting from a voice memo. Nate, a designer at Anthropi
 
 Claude Design
 
-(opens in new tab)](https://www.youtube.com/watch?v=bVXiNb9RyyI)[ArticleOct 1, 2026
-
-### Customize Claude Code with mods
-
-Change how Claude Code behaves and looks with a few lines of TypeScript.
-
-Claude Code](https://claude.com/resources/articles/claude-code-mods)
+(opens in new tab)](https://www.youtube.com/watch?v=bVXiNb9RyyI)
 
 ## Best practices
 
@@ -112,27 +112,35 @@ Proven workflows and practical guides to help your team get more out of Claude, 
 
 [See more](https://claude.com/resources/best-practices)
 
-[WebinarUpcoming | Oct 15, 2026
+![](https://assets.claude.com/d7e1342faad4757edac21e6024b6ccc4be878e39.svg)
 
-### Claude Tag on-call: A new teammate in your incident channel
+Article
 
-Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)[WebinarOn demand
+### How the Claude Code team does code review
 
-### Measuring AI Fluency at Your Organization
+How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.
 
-Seat counts don't show if AI is working. Kristen Swanson shares how to measure AI Fluency beyond usage, without a huge lift.](https://claude.com/resources/webinars/measuring-ai-fluency-at-your-organization)[ArticleOct 8, 2026
+[Learn more (opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)
 
-### Building effective agent automations
+[WebinarUpcoming | Oct 28, 2026
 
-A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
+### Unified Claude: What it means for admins
 
-Claude Platform
+Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
 
-(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[Guide49 min read
+Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarUpcoming | Oct 22, 2026
 
-### The AI investment firm
+### Claude Rearview Roadmap Review: October 2026
 
-We draw from our work with investment firms to outline best practices for AI adoption, and the work Claude takes on for each team.](https://claude.com/resources/guides/the-ai-investment-firm)
+Your rollout plan depends on knowing what's changed and what matters the most.
+
+Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[WebinarUpcoming | Oct 20, 2026
+
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
+
+Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
+
+Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
 
 Recurring webinars
 
@@ -142,23 +150,19 @@ Recurring webinars
 - [Building your first workflow with CoworkWebinar](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)
 - [Claude Code: FoundationsWebinar](https://claude.com/resources/webinars/claude-code-foundations-series)
 
-[ArticleOct 7, 2026
+[ArticleOct 16, 2026
 
-### Automating eval design and hillclimbing with Claude
+### How an Anthropic Japan BDR runs his day with a fleet of Claude agents
 
-Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
+How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
 
-Claude Platform
+Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)[WebinarOn demand
 
-(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
+### Claude Tag on-call: A new teammate in your incident channel
 
-### Claude Code in the cloud: a field guide to cloud sessions
+We open on an incident. An alert fires in a Slack channel and, without anyone typing a prompt, Claude reads the logs, repos and…
 
-What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)
+Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)
 
 ## Perspectives
 
@@ -244,29 +248,31 @@ News, announcements, and stories from Anthropic about Claude and the people buil
 
 Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
 
-Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 14, 2026
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 16, 2026
+
+### How an Anthropic Japan BDR runs his day with a fleet of Claude agents
+
+How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
+
+Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)[ArticleOct 16, 2026
+
+### How the Claude Code team does code review
+
+How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)[ArticleOct 15, 2026
+
+### Code Review is now generally available
+
+Catch more bugs before they reach production.
+
+Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)[ArticleOct 14, 2026
 
 ### Agent observability on the Claude Platform
 
-Announcing OpenTelemetry traces from Claude Managed Agents, the Messages API, and Claude SDKs on the Claude Platform.](https://claude.com/resources/articles/agent-observability-on-the-claude-platform)[ArticleOct 13, 2026
-
-### Uber's CISO on building an insider threat program for AI
-
-Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)[ArticleOct 8, 2026
-
-### Building effective agent automations
-
-A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
-
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 8, 2026
-
-### How Block orchestrates Claude Fable across thousands of pull requests
-
-Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
-
-Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)
+Announcing OpenTelemetry traces from Claude Managed Agents, the Messages API, and Claude SDKs on the Claude Platform.](https://claude.com/resources/articles/agent-observability-on-the-claude-platform)
 
 ## Guides
 
@@ -310,7 +316,13 @@ Live and recorded sessions with Anthropic and customer teams — demos, deep div
 
 [See more](https://claude.com/resources/webinars)
 
-[WebinarOct 14, 2026
+[WebinarUpcoming | Oct 20, 2026
+
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
+
+Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
+
+Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)[WebinarOn demand
 
 ### Inside the Cyber Verification Program: Tiers, Migration, and Best Practices
 
@@ -318,21 +330,19 @@ Join the teams behind the program for a walkthrough of the Cyber Verification Pr
 
 ### Scaling AI Across the Portfolio: Anthropic and AWS for Private Equity
 
-AWS and Anthropic on how PE firms scale Claude across portfolios, what it costs, and how to get started.](https://claude.com/resources/webinars/scaling-ai-across-the-portfolio-anthropic-and-aws-for-private-equity)[WebinarUpcoming | Oct 21, 2026
+AWS and Anthropic on how PE firms scale Claude across portfolios, what it costs, and how to get started.](https://claude.com/resources/webinars/scaling-ai-across-the-portfolio-anthropic-and-aws-for-private-equity)[WebinarUpcoming | Oct 28, 2026
 
-### Tokenomics on AWS: Control and optimize your Claude spend
+### Unified Claude: What it means for admins
 
-Learn how to control and optimize Claude spend on AWS, from admin controls and default models to cost per task for API agents.](https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend)[WebinarUpcoming | Oct 15, 2026
+Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
 
-### Claude Tag on-call: A new teammate in your incident channel
+Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarUpcoming | Oct 22, 2026
 
-We open on an incident. An alert fires in a Slack channel and, without anyone typing a prompt, Claude reads the logs, repos and…
+### Claude Rearview Roadmap Review: October 2026
 
-Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)[WebinarOct 14, 2026
+Your rollout plan depends on knowing what's changed and what matters the most.
 
-### Claude in Microsoft Foundry: control the cost, prove the value
-
-Claude adoption in Microsoft Foundry is moving from individual developers to entire organizations. Leaders want to know who's…](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)
+Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
 ## Videos
 

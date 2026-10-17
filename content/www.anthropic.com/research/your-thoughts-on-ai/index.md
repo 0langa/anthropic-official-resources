@@ -4,13 +4,13 @@ Societal Impacts
 
 Sep 29, 2026
 
-[Participate here](https://claude.ai/redirect/website.v1.1d719e44-3c68-4c0d-9e25-194b989d1b14/anthropic-interviewer/your-thoughts-on-ai?from=blog)
+[Participate here](https://claude.ai/redirect/website.v1.7f6b4146-685f-4e4f-8bc8-ed9bc7af3525/anthropic-interviewer/your-thoughts-on-ai?from=blog)
 
 ![What do you want from AI? ](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff11a2dcfffbb0f1e5913d794299b6857653413af-2000x1125.jpg&w=3840&q=75)
 
 What are the limitations of this study?
 
-*We’re launching a new study using [Anthropic Interviewer](https://www.anthropic.com/about-anthropic-interviewer) to learn from your experiences with AI, and we’d like you to participate. After you finish, you can decide to make your interview public, so that anyone, not just Anthropic, can read and learn from it. You can [participate here](https://claude.ai/redirect/website.v1.ff068d19-7909-4ee2-89ea-f5ae063a6a29/anthropic-interviewer/your-thoughts-on-ai?from=blog).*
+*We’re launching a new study using [Anthropic Interviewer](https://www.anthropic.com/about-anthropic-interviewer) to learn from your experiences with AI, and we’d like you to participate. After you finish, you can decide to make your interview public, so that anyone, not just Anthropic, can read and learn from it. You can [participate here](https://claude.ai/redirect/website.v1.2697a647-21eb-47f5-9224-a7df1d7c6b11/anthropic-interviewer/your-thoughts-on-ai?from=blog).*
 
 We are at a pivotal moment in the development of AI, as its growing capabilities mean it becomes potentially more useful and more dangerous. Frontier AI is rapidly accelerating discoveries in [science](https://www.anthropic.com/research/Claude-accelerates-protein-design) and [medicine](https://openai.com/index/diagnose-rare-childhood-diseases/), while at the same time the cost of its misuse grows [more consequential](https://darioamodei.com/post/we-must-pace-the-frontier)—[a single security incident](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) can cause far more damage than it did a year ago.
 
@@ -24,7 +24,7 @@ This project builds on a similar study conducted last December, in which [81,000
 
 AI and Anthropic have changed a lot since then. AI has improved, more people use Claude, and people’s feelings toward the technology have shifted. For the previous study, only the high-level results and a small number of quotes were made public. This time, we want your thoughts to be made widely available so that anyone can learn from them.
 
-We’ve written a FAQ so you can make an informed decision about whether to make your interview public and what to share. You can choose to [participate here](https://claude.ai/redirect/website.v1.ff068d19-7909-4ee2-89ea-f5ae063a6a29/anthropic-interviewer/your-thoughts-on-ai?from=blog).
+We’ve written a FAQ so you can make an informed decision about whether to make your interview public and what to share. You can choose to [participate here](https://claude.ai/redirect/website.v1.2697a647-21eb-47f5-9224-a7df1d7c6b11/anthropic-interviewer/your-thoughts-on-ai?from=blog).
 
 ## FAQ
 
@@ -106,20 +106,20 @@ Participants in this study will all be people who use Claude, which is not a rep
 
 ## Related content
 
-### AI models may be capable of self-replicating without access to a datacenter
+### Designing more efficient quantum circuits with Claude
 
-Our experiments suggest that small AI models may be only months away from being capable enough to self-replicate on commercial IoT devices, like Android TVs and smart ovens.
+We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
 
-[Read more](https://www.anthropic.com/research/self-replicating-ai)
+[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
 
-### Strengthening our defenses against distillation attacks
+### Claude reveals ECDSA curve origins
 
-Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.
+The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
 
-[Read more](https://www.anthropic.com/research/distillation-defenses)
+[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
 
-### Investigating unintended model actions in our evaluations and internal use
+### The AI expectations gap
 
-This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude.
+How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
 
-[Read more](https://www.anthropic.com/research/investigating-unintended-model-actions)
+[Read more](https://www.anthropic.com/research/ai-expectations-gap)

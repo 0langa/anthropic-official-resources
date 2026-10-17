@@ -8,7 +8,7 @@ Jun 5, 2024
 
 [Claude](https://www.anthropic.com/claude) is now available in Canada. Starting today, people and businesses across the country will be able to access Claude via:
 
-- [Claude.ai](http://claude.ai/redirect/website.v1.ab41499a-c5ff-4559-a801-4eaa5228db0c): the web-based version of our next-generation AI assistant.
+- [Claude.ai](http://claude.ai/redirect/website.v1.bcc456e0-4178-42a3-bd9b-6543f67fb7b6): the web-based version of our next-generation AI assistant.
 - The [Claude iOS app](https://apps.apple.com/app/claude/id6473753684): the free mobile app available in the Apple App Store that offers the same intuitive experience as mobile web.
 - The [Claude API](https://www.anthropic.com/api): an interface that allows developers to integrate Anthropic’s state-of-the-art AI models into their own applications, websites, or services.
 - The [Claude Team plan](https://www.anthropic.com/news/team-plan-and-ios): a secure workspace for teams to collaborate that offers increased usage for members.
@@ -18,6 +18,12 @@ For CA$28 + tax per month, users can subscribe to [Claude Pro](https://www.anthr
 We’re excited to expand our offerings to Canada—a country that has made significant contributions to the responsible development and deployment of AI—and look forward to seeing the different ways our users across Canada incorporate the Claude 3 model family into their workflows.
 
 ## Related content
+
+### An update on independent evaluators
+
+To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
+
+[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
 
 ### Preparing for the 2026 US midterms
 
@@ -30,9 +36,3 @@ Earlier this year, we shared an update on our election safeguards. Here, we outl
 Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.
 
 [Read more](https://www.anthropic.com/news/singapore-office-opening)
-
-### 2026 Usage Policy update
-
-We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.
-
-[Read more](https://www.anthropic.com/news/2026-usage-policy-update)

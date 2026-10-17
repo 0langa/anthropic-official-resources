@@ -34,7 +34,7 @@ Each play covers:
 
 Each play names its dependencies under "Prerequisites," which the dependency graph further illustrates.
 
-![Dependency graph of the twelve plays in five rows. Row 1, no prerequisites: Capture intent, CLAUDE.md, Skills, Feedback loop, Hooks, Plan mode. Row 2: Subagents (needs CLAUDE.md; the feedback loop helps), Evals (needs CLAUDE.md and the feedback loop). Row 3: Requirements and design (needs Capture intent and Skills), PR review (needs Evals and Subagents; Skills help). Row 4: CI/CD (needs PR review and Hooks). Row 5: Closing the loop (needs CI/CD and Capture intent). CLAUDE.md helps Skills but is not required.](https://academy.claude.com/assets/v1/fig-play-dependency-graph-li0n7bnt.png)
+![Dependency graph of the twelve plays in five rows. Row 1, no prerequisites: Capture intent, CLAUDE.md, Skills, Feedback loop, Hooks, Plan mode. Row 2: Subagents (needs CLAUDE.md; the feedback loop helps), Evals (needs CLAUDE.md and the feedback loop). Row 3: Requirements and design (needs Capture intent and Skills), PR review (needs Evals and Subagents; Skills help). Row 4: CI/CD (needs PR review and Hooks). Row 5: Closing the loop (needs CI/CD and Capture intent). CLAUDE.md helps Skills but is not required.](https://academy.claude.com/assets/media/ac5eed93671e2e848b24a89be351114f6bdec5c6546a4cfeb27115e6e3daf80c.png)
 
 *The play dependency graph. Plays in the top row have no prerequisites; a solid arrow points to the plays that build on it, a dotted arrow means it helps but is not required.*
 
