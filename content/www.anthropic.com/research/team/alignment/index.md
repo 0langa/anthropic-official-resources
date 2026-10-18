@@ -16,15 +16,19 @@ Alignment researchers validate that models are harmless and honest even under ve
 
 Alignment researchers also systematically look for situations in which models might behave badly, and check whether our existing safeguards are sufficient to deal with risks that human-level capabilities may bring.
 
-![An alignment assessment of recent cybersecurity incidents](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F25a7c99743ebfb3b79cb98ffa2b9e928ad7e712b-2000x1125.webp&w=3840&q=75)
+![Investigating unintended model actions in our evaluations and internal use](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa94af48d8258c0b7a4959d18e9c9ad44f9dc4ab3-1280x1280.jpg&w=3840&q=75)
 
-[## An alignment assessment of recent cybersecurity incidents
+[## Investigating unintended model actions in our evaluations and internal use
 
-AlignmentSep 9, 2026
+AlignmentOct 9, 2026
 
-We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents)
+This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude.](https://www.anthropic.com/research/investigating-unintended-model-actions)
 
-[AlignmentMay 8, 2026
+[AlignmentSep 9, 2026
+
+#### An alignment assessment of recent cybersecurity incidents
+
+We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents)[AlignmentMay 8, 2026
 
 #### Teaching Claude why
 
@@ -36,11 +40,7 @@ Can Claude develop, test, and analyze alignment ideas of its own? We ran an expe
 
 #### The persona selection model
 
-Why do AI assistants like Claude sometimes seem surprisingly human. We advance a theory.](https://www.anthropic.com/research/persona-selection-model)[AlignmentNov 21, 2025
-
-#### From shortcuts to sabotage: natural emergent misalignment from reward hacking
-
-We show for the first time that realistic AI training processes can accidentally produce misaligned models.](https://www.anthropic.com/research/emergent-misalignment-reward-hacking)
+Why do AI assistants like Claude sometimes seem surprisingly human. We advance a theory.](https://www.anthropic.com/research/persona-selection-model)
 
 ## Publications
 

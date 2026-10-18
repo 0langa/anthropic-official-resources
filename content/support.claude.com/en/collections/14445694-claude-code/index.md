@@ -20,7 +20,7 @@ Use Claude in your terminal to write, review, and ship code.
 
 [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
 
-[Claude Code on the web](https://support.claude.com/en/articles/12618689-claude-code-on-the-web)
+[Use Claude Code in the cloud](https://support.claude.com/en/articles/12618689-use-claude-code-in-the-cloud)
 
 [Set up Code Review for Claude Code](https://support.claude.com/en/articles/14233555-set-up-code-review-for-claude-code)
 

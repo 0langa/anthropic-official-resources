@@ -97,7 +97,21 @@ See how [Conductor](https://cresta.com/blog/cresta-conductor-the-agent-for-ai-ag
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 8, 2026
+[ArticleOct 16, 2026
+
+### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
+
+How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
+
+Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)[ArticleOct 16, 2026
+
+### How the Claude Code team does code review
+
+How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)[ArticleOct 8, 2026
 
 ### Building effective agent automations
 
@@ -113,21 +127,7 @@ Principles for designing evals and hillclimbing against them without fooling you
 
 Claude Platform
 
-(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
-
-### Claude Code in the cloud: a field guide to cloud sessions
-
-What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 1, 2026
-
-### Getting started with Claude Code mods
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
 
 ## Transform how your organization operates with Claude
 

@@ -341,6 +341,7 @@ Match the message you see to a section below.
 | `Can't open — this session is running in another terminal` | [Background session errors](#this-session-is-running-in-another-terminal) |
 | `This conversation is already open in another running Claude session` | [Background session errors](#this-session-is-running-in-another-terminal) |
 | `This session's saved conversation is no longer on disk` | [Background session errors](#this-sessions-saved-conversation-is-no-longer-on-disk) |
+| `Bypass permissions was requested at launch and ignored` | [Skip all checks with bypassPermissions mode](/docs/en/permission-modes#bypass-permissions-acceptance) |
 | `kept <id> — its worktree is still at <path>` | [Background session errors](#worktree-has-commits-that-are-not-pushed-anywhere) |
 | `kept <id> — <n> unpushed commits on <branch>` | [Background session errors](#worktree-has-commits-that-are-not-pushed-anywhere) |
 | `kept <id> — worktree has commits that are not pushed anywhere` | [Background session errors](#worktree-has-commits-that-are-not-pushed-anywhere) |
@@ -4159,6 +4160,7 @@ Agent 'code-reviewer' would be spawned with zero tools — refusing. Its tools l
 
 * Correct each entry the error names against the [tools available to subagents](/docs/en/sub-agents#available-tools)
 * Remove entries for tools the session doesn't have, such as MCP tools from a server that isn't connected
+* If the entry names a connected MCP server, compare the entry with that server's name as the server's [tool names](/docs/en/permissions#mcp) spell it, such as `reports__v2` in `mcp__reports__v2__get_totals`. For that server, write `mcp__reports__v2__*`, which is `mcp__` followed by the whole name and `__*`. With the shorter `mcp__reports`, which names a server called `reports`, the subagent gets none of the `reports__v2` tools
 * For a tool that [background subagents drop](/docs/en/sub-agents#available-tools), such as `CronCreate`, remove the entry. To keep the tool, [turn fork mode off](/docs/en/sub-agents#turn-fork-mode-on-or-off) and ask Claude to run the subagent in the foreground
 * Delete the `tools` field instead of listing tools to give the subagent every [tool available to subagents](/docs/en/sub-agents#available-tools)
 * For a `tools` list that contains only `Agent`, raise the [depth limit](/docs/en/sub-agents#let-subagents-spawn-their-own-subagents) or give the agent at least one other tool: Claude Code withholds `Agent` at that limit, so a list with nothing else in it resolves to no tools

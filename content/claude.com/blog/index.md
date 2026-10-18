@@ -16,6 +16,24 @@ Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design ar
 
 Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
 
+[ArticleOct 16, 2026
+
+### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
+
+How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
+
+Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)
+
+[ArticleOct 16, 2026
+
+### How the Claude Code team does code review
+
+How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)
+
 [ArticleOct 15, 2026
 
 ### Code Review is now generally available
@@ -30,22 +48,6 @@ Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-
 
 Announcing OpenTelemetry traces from Claude Managed Agents, the Messages API, and Claude SDKs on the Claude Platform.](https://claude.com/resources/articles/agent-observability-on-the-claude-platform)
 
-[ArticleOct 13, 2026
-
-### Uber's CISO on building an insider threat program for AI
-
-Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)
-
-[ArticleOct 8, 2026
-
-### Building effective agent automations
-
-A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
-
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
-
 [ArticleOct 8, 2026
 
 ### Build live dashboards and animate explainers with Claude
@@ -58,9 +60,23 @@ Featured resource 1 of 5: Build live dashboards and animate explainers with Clau
 
 Advanced filters
 
-Showing 11 of 283 resources
+Showing 11 of 285 resources
 
-[ArticleOct 15, 2026
+[ArticleOct 16, 2026
+
+### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
+
+How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
+
+Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)[ArticleOct 16, 2026
+
+### How the Claude Code team does code review
+
+How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)[ArticleOct 15, 2026
 
 ### Code Review is now generally available
 
@@ -112,14 +128,6 @@ Claude Platform
 
 ### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
 
-Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)[ArticleOct 6, 2026
-
-### Claude now works with Google Docs, Sheets, and Slides
-
-Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta).
-
-Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)[ArticleOct 6, 2026
-
-### We’re expanding the Claude Startups program to help founders build](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)
+Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)
 
 View more

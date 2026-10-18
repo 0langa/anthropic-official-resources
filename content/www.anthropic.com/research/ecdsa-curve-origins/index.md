@@ -10,7 +10,7 @@ Oct 16, 2026
 
 *Readers should take this as a fun closing chapter and the end of years of speculation. There is no action to be taken or things to do differently. Most researchers trusted the curves already. Enjoy.*
 
-ECDSA is the most widely used elliptic curve cryptography standard. It was adopted by NIST in 2000 as part of the [FIPS 186-2 Digital Signature Standard](https://csrc.nist.gov/files/pubs/fips/186-2/final/docs/fips186-2.pdf) which lists a set of standard elliptic curves of varying sizes and security levels. For curves over prime and binary fields, the specifications published a “seed” parameter whose hash value is used to define the coefficient b of the curve. The provenance of these seeds has been a long-standing question, as they were provided by the NSA with no explanation or justification. As an example, the NIST P-256 curve seed was `SEED = C49D3608 86E70493 6A6678E1 139D26B7 819F7E90` with no information where it came from.
+ECDSA is the most widely used elliptic curve cryptography standard. It was adopted by NIST in 2000 as part of the [FIPS 186-2 Digital Signature Standard](https://csrc.nist.gov/files/pubs/fips/186-2/final/docs/fips186-2.pdf) which lists a set of standard elliptic curves of varying sizes and security levels. For curves over prime and binary fields, the specifications published a “seed” parameter whose hash value is used to define the coefficient b of the curve. The provenance of these seeds has been a long-standing question, as they were provided by the NSA with no explanation or justification. As an example, the NIST P-256 curve seed was `SEED = C49D3608 86E70493 6A6678E1 139D26B7 819F7E90` with no information on where it came from.
 
 [Neal Koblitz](https://sites.math.washington.edu/~koblitz/) and [Alfred Menezes](https://uwaterloo.ca/scholar/ajmeneze) wrote an excellent summary on this controversy, “[A Riddle Wrapped in an Enigma](https://eprint.iacr.org/2015/1018.pdf)”, which discusses the history and concerns around the seed values. This mystery led to an [amateur investigation into the origin of the seeds](https://saweis.net/posts/nist-curve-seed-origins.html) and a [bounty for anyone who could find them](https://words.filippo.io/seeds-bounty/).
 
@@ -26,9 +26,9 @@ Unfortunately, Jerry died in 2023 and other colleagues at the time were not resp
 
 Several Anthropic employees had unsuccessfully chased the seeds following the tip about it being a hash of a humorous phrase. That turned out to be wrong. In October 2026, a curious Anthropic employee asked an internal research model if it could figure out how those seeds were generated without pointing at the clue.
 
-**In under half an hour**, Claude discovered the origins of the NIST P-192, P-224, P-256, P-384 and P-521 seeds. None of them were the results of any hash algorithm at all, but rather the output of the C library’s `lrand48` random-number generator, seeded with a Unix timestamp!
+**In under half an hour**, Claude discovered the origins of the NIST P-192, P-224, P-256, P-384, and P-521 seeds. None of them were the results of any hash algorithm at all, but rather the output of the C library’s `lrand48` random-number generator, seeded with a Unix timestamp!
 
-The algorithm used would sample bytes from the random number generator (RNG) initialized by a Unix timestamp (**t**) for some number of iterations (**n**). Each iteration would draw 20 bytes as a candidate seed. So, the first 20 bytes are candidate 1, the next 20 bytes are candidate 2, and so on. For example, P-256 required 1842 iterations to output the standardized seed.
+The algorithm used would sample bytes from the random number generator (RNG) initialized by a Unix timestamp (**t**) for some number of iterations (**n**). Each iteration would draw 20 bytes as a candidate seed. So, the first 20 bytes are candidate 1, the next 20 bytes are candidate 2, and so on. For example, P-256 required 1,842 iterations to output the standardized seed.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe4948d016f5879d721c3297b1ee1073b1e6b5734-2912x1064.png&w=3840&q=75)
 
@@ -42,7 +42,7 @@ This is not a cryptographic break, new attack, or weakness in the ECDSA curves. 
 
 Searches for the phrase, built from the rumors, had come up empty. Claude tried a different angle: anticipating how the software that generated the curves must have worked. Claude guessed the software used a pseudorandom number generator (PRNG) that shipped with 1990s C libraries. These old PRNGs are weak enough that their output can be recognized. Recognizing that output would reveal which PRNG was used and possibly allow recovery of its initialization state.
 
-Claude wrote a scanner that slid along each published seed one bit at a time and tested whether adjacent chunks were consecutive outputs of a 1990s-vintage generator. The scan covered 34 combinations of generator and output slices. At that point, Claude noticed a pattern in the top bits for some seeds: they were all zero. Written as five 32-bit words, four of the ten seeds have a 0 in the top bit for all 20 words. That would happen by chance with probability 1/5810. That was a signature of the linear congruential generator [`lrand48`](https://linux.die.net/man/3/lrand48), which only returns the top 31 bits of a 48-bit state. The pattern is visible by eye once you know to look for it. To recover the state, Claude took the first word, tried all 2¹⁷ values of the 17 hidden bits, and checked that the next four words followed. That worked for all four seeds under discussion.
+Claude wrote a scanner that slid along each published seed one bit at a time and tested whether adjacent chunks were consecutive outputs of a 1990s-vintage generator. The scan covered 34 combinations of generator and output slices. At that point, Claude noticed a pattern in the top bits for some seeds: they were all zero. Written as five 32-bit words, four of the ten seeds have a 0 in the top bit for all 20 words. That would happen by chance with probability 1/5,810. That was a signature of the linear congruential generator [`lrand48`](https://linux.die.net/man/3/lrand48), which only returns the top 31 bits of a 48-bit state. The pattern is visible by eye once you know to look for it. To recover the state, Claude took the first word, tried all 2¹⁷ values of the 17 hidden bits, and checked that the next four words followed. That worked for all four seeds under discussion.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff7bf17121dfacb0a5b39dfdcd035816fbb789874-2327x1836.jpg&w=3840&q=75)
 
@@ -64,7 +64,7 @@ Claude’s internal thinking at the time was:
 
 But wait, there’s more… Each curve also comes with a base point, G, the fixed point that every ECDSA public key is a multiple of. The seed found above does not determine this G, and so another question arises: how were these base points generated?
 
-While checking the seeds, Claude also found where some of the base points came from. The base points of the six curves generated in May 1997 (P-192 and the five ANSI X9.62 example curves prime192v2, prime192v3 and prime239v1 to v3) come from the random number generator in [FreeLIP](https://cr.yp.to/speed/mult/freelip.html), [Arjen Lenstra](https://en.wikipedia.org/wiki/Arjen_Lenstra)'s long-integer arithmetic package. Early versions of [Victor Shoup](https://shoup.net/)'s [NTL library](https://libntl.org/) shipped the same code.
+While checking the seeds, Claude also found where some of the base points came from. The base points of the six curves generated in May 1997 (P-192 and the five ANSI X9.62 example curves prime192v2, prime192v3, and prime239v1 to v3) come from the random number generator in [FreeLIP](https://cr.yp.to/speed/mult/freelip.html), [Arjen Lenstra](https://en.wikipedia.org/wiki/Arjen_Lenstra)'s long-integer arithmetic package. Early versions of [Victor Shoup](https://shoup.net/)'s [NTL library](https://libntl.org/) shipped the same code.
 
 The recipe here is simple:
 
@@ -73,15 +73,15 @@ The recipe here is simple:
 3. Generate candidate x-coordinates from 26-bit outputs reduced mod p.
 4. Repeat step 3 until x is on the curve.
 
-Claude found the generator seeds are 20000 for P-192, 20420, 20507 and 20509 for prime239v1 to v3, and 20512 and 20517 for prime192v2 and v3.
+Claude found the generator seeds are 20000 for P-192, 20420, 20507, and 20509 for prime239v1 to v3, and 20512 and 20517 for prime192v2 and v3.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2933f700c626b6495e90489ef644da08d9879e33-1168x977.jpg&w=3840&q=75)
 
-As far as we know, no NIST base point has been explained before. The base points of P-224, P-256, P-384 and P-521 don’t fit this recipe; we weren’t able to explain how they were selected.
+As far as we know, no NIST base point has been explained before. The base points of P-224, P-256, P-384, and P-521 don’t fit this recipe; we weren’t able to explain how they were selected.
 
 ## Open questions
 
-Not every 20-byte candidate seed could generate a viable curve and we observed that some potentially viable curves were skipped. For P-256, the published seed is candidate 1842, but candidate 876 of the same run also gives a prime-order curve of the right size and with parameters chosen the same way as on the published curve. P-224's run passed over three such curves, and the two runs behind the ANSI X9.62 example curves passed over seven more (see figure). We do not know what criteria may have been used, or whether this was an unintentional artifact.
+Not every 20-byte candidate seed could generate a viable curve, and we observed that some potentially viable curves were skipped. For P-256, the published seed is candidate 1,842, but candidate 876 of the same run also gives a prime-order curve of the right size and with parameters chosen the same way as on the published curve. P-224's run passed over three such curves, and the two runs behind the ANSI X9.62 example curves passed over seven more (see figure). We do not know what criteria may have been used, or whether this was an unintentional artifact.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7ca7925885873b75479af7573759d7b784cf67ac-2912x1880.png&w=3840&q=75)
 
@@ -99,7 +99,7 @@ The $36,864 for finding the seeds will be donated to the [Internet Security Rese
 
 This work was conducted at Anthropic by John Wood, Henry de Valence, Ava Howell, Zack Voase, Lucy Sweet, Amir Omidi, Paul Crowley, Iain McGinniss, Nicholas Carlini, and Steve Weis.
 
-## Acknowledgements
+## Acknowledgments
 
 We would like to posthumously recognize Jerry Solinas who took being labeled an “[evil Internet meme](https://cr.yp.to/papers/safecurves-20240809.pdf)” and the “[Yo La Tengo of NSA bogeymen](https://sockpuppet.org/blog/2015/08/04/is-extended-random-malicious/)” with good humor. Also thanks to [Filippo Valsorda](https://filippo.io/) for organizing the NIST Elliptic Curves Seeds Bounty.
 

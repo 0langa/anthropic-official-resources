@@ -173,7 +173,21 @@ Register for our [webinar](https://claude.com/resources/webinars/building-claude
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 15, 2026
+[ArticleOct 16, 2026
+
+### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
+
+How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
+
+Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)[ArticleOct 16, 2026
+
+### How the Claude Code team does code review
+
+How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)[ArticleOct 15, 2026
 
 ### Code Review is now generally available
 
@@ -187,19 +201,7 @@ A reference implementation walkthrough for a scheduled Claude Managed Agents aut
 
 Claude Platform
 
-(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 8, 2026
-
-### Build live dashboards and animate explainers with Claude
-
-Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
-
-Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 7, 2026
-
-### Claude Haiku 5.5
-
-Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
-
-(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
 
 ## Transform how your organization operates with Claude
 

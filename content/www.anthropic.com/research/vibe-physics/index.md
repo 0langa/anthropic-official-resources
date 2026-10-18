@@ -49,7 +49,7 @@ and out would pop the paper. We are not there yet, of course. I tried giving thi
 
 To go about this scientifically, I encapsulated all the work. The rules were strict:
 
-- Only give text prompts to [Claude Code](https://claude.ai/redirect/website.v1.f1cc24bb-8d0c-4bb6-97db-ecd31414d212/code). No editing files directly.
+- Only give text prompts to [Claude Code](https://claude.ai/redirect/website.v1.7a86efc8-e48b-432c-b6ba-507807911669/code). No editing files directly.
 - Don’t cut and paste my own calculations into the chat.
 - But pasting Gemini or GPT calculations was OK, as long as they were only text-prompted.
 
@@ -59,7 +59,7 @@ My question was: is there a set of prompts, like instructions to a talented G2, 
 
 I knew from experience that LLMs struggle with context and organization over long projects. So I started by asking Claude to come up with a plan of attack: what tasks needed to be done in what order. I also asked GPT 5.2 and Gemini 3.0. Then, I had all three LLMs merge the best ideas from each, using web interfaces and copying one to another. Next, I gave those merges to Claude, asking it to break the outline into detailed subsections. The result is [here](https://www-cdn.anthropic.com/2595299ccf7f8b9a9c74823c24faaa5d9b216804.pdf). There were 102 separate tasks across seven stages.
 
-From there, I turned to [Claude Code](https://claude.ai/redirect/website.v1.f1cc24bb-8d0c-4bb6-97db-ecd31414d212/code), using the extension in VS Code.
+From there, I turned to [Claude Code](https://claude.ai/redirect/website.v1.7a86efc8-e48b-432c-b6ba-507807911669/code), using the extension in VS Code.
 
 ![A screen grab of Claude code](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2277f287d82a9a6087bc70c6d16cfd6648634d7e-1600x967.jpg&w=3840&q=75)
 
@@ -240,23 +240,23 @@ In addition to the growth in interest, the tools themselves have been steadily i
 
 ## Related content
 
-### AI models may be capable of self-replicating without access to a datacenter
+### Designing more efficient quantum circuits with Claude
 
-Our experiments suggest that small AI models may be only months away from being capable enough to self-replicate on commercial IoT devices, like Android TVs and smart ovens.
+We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
 
-[Read more](https://www.anthropic.com/research/self-replicating-ai)
+[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
 
-### Strengthening our defenses against distillation attacks
+### Claude reveals ECDSA curve origins
 
-Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.
+The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
 
-[Read more](https://www.anthropic.com/research/distillation-defenses)
+[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
 
-### Investigating unintended model actions in our evaluations and internal use
+### The AI expectations gap
 
-This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude.
+How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
 
-[Read more](https://www.anthropic.com/research/investigating-unintended-model-actions)
+[Read more](https://www.anthropic.com/research/ai-expectations-gap)
 
 ## Subscribe to Anthropic Science
 

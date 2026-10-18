@@ -50,7 +50,7 @@ The organization default applies to every member. To set it:
 
 4. Click “Save changes.”
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514722139/d05c94072a41ea9090ecf386c53e/c32ee31d-954a-4551-a2da-91677fbd0b6f?expires=1792145700&amp;signature=d40b9eb84fe878abef97bd718b36f360e9cf02b875b1ce9e0f46e6a8ec39fcca&amp;req=diUmEs58n4BcUPMW1HO4zelOdjBBKU1AfdGVZ664dGG7uv9wCEDHrfYZja3y%0ANclnn49viTdKesYNQX4%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514722139/d05c94072a41ea9090ecf386c53e/c32ee31d-954a-4551-a2da-91677fbd0b6f?expires=1792318500&amp;signature=c3b3ddeb02e2a0ba35ba5808550212fc7abe60dbfc28ed5969c05c224a129d77&amp;req=diUmEs58n4BcUPMW1HO4zelOdjBDLEBCfdGVZ664dGESXilbELsx3PLetUMY%0A075%2BZt%2BYoe8qESULKso%3D%0A)
 
 ---
 
@@ -170,4 +170,4 @@ If your organization also configures Claude Code through `managed-settings.json`
 
 If `managed-settings.json` specifies `availableModels` that doesn't contain the default model, Claude CLI bypasses `availableModels` and starts on the selected default model unless `enforceAvailableModels` is set.
 
-Managed settings for models apply only to Claude Code CLI and IDE, not to Claude Code on web or desktop. For consistent behavior across all Claude Code surfaces, we recommend setting the default here alone. For more on managed settings, see **[Claude Code settings](https://code.claude.com/docs/en/settings#settings-files)**.
+Managed settings for models apply only to local Claude Code sessions in your terminal or IDE, not to cloud sessions or to Claude Code in Claude Desktop. For consistent behavior across all Claude Code surfaces, we recommend setting the default here alone. For more on managed settings, see **[Claude Code settings](https://code.claude.com/docs/en/settings#settings-files)**.

@@ -22,7 +22,7 @@ Because Anthropic employees experience AI’s effect on work so differently, it 
 
 The public expects AI capabilities to advance rapidly in the coming years; Anthropic staff tend to expect even faster progress. There are a number of questions with big gaps between staff and the public. For example, 39% of US adults—and 91% of staff—expect AI will be able to make a Nobel-level discovery by 2030. More than half of Anthropic staff expect AI to be able to do at least 80% of their current work by 2030; only 5% of Americans expect AI to be that capable.
 
-That said, there’s considerable variation in both groups: 2 out of 10 Anthropic staff have expectations similar to those of the typical US adult. And Anthropic staff and the public also agree on some key questions. In each bucket, people who expect AI to do comparably more of their own work anticipate similar increases in unemployment. In other words, both the public and Anthropic staff have similar economic models of how AI affects the labor market, but ultimately their personal experiences with AI lead them to different expectations for the economy of the future.
+That said, there’s considerable variation in both groups: two out of 10 Anthropic staff have expectations similar to those of the typical US adult. And Anthropic staff and the public also agree on some key questions. In each bucket, people who expect AI to do comparably more of their own work anticipate similar increases in unemployment. In other words, both the public and Anthropic staff have similar economic models of how AI affects the labor market, but ultimately their personal experiences with AI lead them to different expectations for the economy of the future.
 
 ## Related content
 

@@ -1,0 +1,495 @@
+---
+title: Fast mode
+url: https://platform.claude.com/docs/en/build-with-claude/fast-mode
+description: Get up to 2.5x higher output tokens per second from supported Claude models.
+---
+
+Fast mode delivers up to 2.5x higher output tokens per second from Claude Opus 5.5, Claude Opus 5, and Claude Opus 4.8 at premium pricing. Set `speed: "fast"` on your request to opt in.
+
+<Note>
+  Fast mode for Claude Opus 5.5 doesn't need the `fast-mode-2026-02-01` beta header or an access request. Requests that still send the header keep working. Fast mode for Claude Opus 5 and Claude Opus 4.8 is in research preview: contact your account manager or [join the waitlist](https://claude.com/fast-mode) to request access, and send the [beta header](https://platform.claude.com/docs/en/api/beta-headers?sdk_languages=curl) on your requests.
+</Note>
+
+<Note>
+  To learn how zero data retention (ZDR) applies to this feature, see [API and data retention](https://platform.claude.com/docs/en/manage-claude/api-and-data-retention?sdk_languages=curl).
+</Note>
+
+## Supported models and platforms
+
+Fast mode is supported on the following models and platforms:
+
+| Supported model                   | Supported platforms                                                                                                                                                                                                                                                                                     |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Claude Opus 5.5 (claude-opus-5-5) | Claude API, including [Claude Managed Agents](https://platform.claude.com/docs/en/managed-agents/overview?sdk_languages=curl)<br />[Claude in Microsoft Foundry](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry?sdk_languages=curl), for deployments hosted on Azure |
+| Claude Opus 5 (claude-opus-5)     | Claude API, including [Claude Managed Agents](https://platform.claude.com/docs/en/managed-agents/overview?sdk_languages=curl)                                                                                                                                                                           |
+| Claude Opus 4.8 (claude-opus-4-8) | Claude API, including [Claude Managed Agents](https://platform.claude.com/docs/en/managed-agents/overview?sdk_languages=curl)                                                                                                                                                                           |
+
+If you were using fast mode on an earlier model, [migrate to a model that supports fast mode](https://platform.claude.com/docs/en/models/opus-5-5/migration-guide?sdk_languages=curl).
+
+Fast mode is not available for Claude in Microsoft Foundry deployments [hosted on Anthropic](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry?sdk_languages=curl#hosting-options).
+
+## How fast mode works
+
+Fast mode runs the same model with a faster inference configuration. There is no change to intelligence or capabilities.
+
+* Up to 2.5x higher output tokens per second compared to standard speed
+* Speed benefits are focused on output tokens per second (OTPS), not time to first token (TTFT)
+* Same model weights and behavior (not a different model)
+* Compatible with [streaming](https://platform.claude.com/docs/en/build-with-claude/streaming?sdk_languages=curl), where the OTPS gain is most visible
+
+## Basic usage
+
+Models in research preview also need the `fast-mode-2026-02-01` [beta header](https://platform.claude.com/docs/en/api/beta-headers?sdk_languages=curl).
+
+<CodeGroup>
+  ```bash cURL
+  curl https://api.anthropic.com/v1/messages \
+    -H "x-api-key: $ANTHROPIC_API_KEY" \
+    -H "anthropic-version: 2023-06-01" \
+    -H "content-type: application/json" \
+    -d '{
+      "model": "claude-opus-5-5",
+      "max_tokens": 4096,
+      "speed": "fast",
+      "messages": [{
+        "role": "user",
+        "content": "Refactor this module to use dependency injection"
+      }]
+    }'
+  ```
+</CodeGroup>
+
+## Pricing
+
+Fast mode is priced at a multiplier on standard rates across the full context window, including requests over 200k input tokens. The following table shows fast mode pricing for the supported models:
+
+| Model                           | Input          | Output         |
+| ------------------------------- | -------------- | -------------- |
+| Claude Opus 5.5                 | $8 USD / MTok  | $40 USD / MTok |
+| Claude Opus 5 / Claude Opus 4.8 | $10 USD / MTok | $50 USD / MTok |
+
+Fast mode pricing stacks with other pricing modifiers:
+
+* [Prompt caching multipliers](https://platform.claude.com/docs/en/about-claude/pricing?sdk_languages=curl#prompt-caching) apply on top of fast mode pricing
+* [Data residency](https://platform.claude.com/docs/en/manage-claude/data-residency?sdk_languages=curl) multipliers apply on top of fast mode pricing
+
+For complete pricing details, see the [Pricing](https://platform.claude.com/docs/en/about-claude/pricing?sdk_languages=curl#fast-mode-pricing) page.
+
+## Rate limits
+
+Fast mode has a dedicated rate limit that is separate from standard Opus rate limits. When your fast mode rate limit is exceeded, the API returns a `429` error with a `retry-after` header indicating when capacity will be available.
+
+Claude Opus 5.5 has a default fast mode rate limit in the Start, Build, and Scale [usage tiers](https://platform.claude.com/docs/en/api/rate-limits?sdk_languages=curl), so you don't need to request access to use fast mode with it. Organizations in the Evaluation tier can use fast mode with Claude Opus 5.5 once they move to the Start, Build, or Scale tier.
+
+The response includes headers that indicate your fast mode rate limit status:
+
+| Header                                   | Description                                       |
+| ---------------------------------------- | ------------------------------------------------- |
+| `anthropic-fast-input-tokens-limit`      | Maximum fast mode input tokens per minute         |
+| `anthropic-fast-input-tokens-remaining`  | Remaining fast mode input tokens                  |
+| `anthropic-fast-input-tokens-reset`      | Time when the fast mode input token limit resets  |
+| `anthropic-fast-output-tokens-limit`     | Maximum fast mode output tokens per minute        |
+| `anthropic-fast-output-tokens-remaining` | Remaining fast mode output tokens                 |
+| `anthropic-fast-output-tokens-reset`     | Time when the fast mode output token limit resets |
+
+To see your fast mode rate limits, go to the [Rate limits](https://platform.claude.com/usage/limits) page in the Claude Console.
+
+## Checking which speed was used
+
+The response `usage` object includes a `speed` field that indicates which speed was used, either `"fast"` or `"standard"`. Requesting `speed: "fast"` on a [model that doesn't support fast mode](https://platform.claude.com/docs/en/build-with-claude/fast-mode?sdk_languages=curl#supported-models-and-platforms) returns an error, and so does exceeding fast mode's rate limits or capacity (a `429` or `529`). When a request with `speed: "fast"` succeeds, `usage.speed` is `"fast"`. Claude Opus 4.6 is an exception: instead of returning an error, a request with `speed: "fast"` and the `fast-mode-2026-02-01` beta header succeeds, but runs at standard speed. This behavior is correctly reflected in `usage.speed`, which shows `"standard"` in this situation.
+
+<CodeGroup>
+  ```bash cURL
+  curl https://api.anthropic.com/v1/messages \
+    -H "x-api-key: $ANTHROPIC_API_KEY" \
+    -H "anthropic-version: 2023-06-01" \
+    -H "content-type: application/json" \
+    -d '{
+      "model": "claude-opus-5-5",
+      "max_tokens": 1024,
+      "speed": "fast",
+      "messages": [{"role": "user", "content": "Hello"}]
+    }'
+  ```
+</CodeGroup>
+
+```json Output
+{
+  "id": "msg_01XFDUDYJgAACzvnptvVoYEL",
+  "type": "message",
+  "role": "assistant",
+// ...
+  "usage": {
+    "input_tokens": 8,
+    "output_tokens": 12,
+    "speed": "fast"
+  }
+}
+```
+
+To track fast mode usage and costs across your organization, see the [Usage and Cost API](https://platform.claude.com/docs/en/manage-claude/usage-cost-api?sdk_languages=curl).
+
+## Retries and fallback
+
+### Automatic retries
+
+When fast mode rate limits are exceeded, the API returns a `429` error with a `retry-after` header. The SDK automatically retries these requests up to 2 times by default (configurable with `max_retries`), waiting for the server-specified delay before each retry. Because fast mode uses continuous token replenishment, the `retry-after` delay is typically short and requests succeed once capacity is available.
+
+### Falling back to standard speed
+
+If you'd prefer to fall back to standard speed rather than wait for fast mode capacity, catch the rate limit error and retry without `speed: "fast"`. Set `max_retries` to `0` on the initial fast request to skip automatic retries and fail immediately on rate limit errors.
+
+<Note>
+  Falling back from fast to standard speed will result in a [prompt cache](https://platform.claude.com/docs/en/build-with-claude/prompt-caching?sdk_languages=curl) miss. Requests at different speeds do not share cached prefixes.
+</Note>
+
+Because setting `max_retries` to `0` also disables retries for other transient errors (overloaded, internal server errors), the following examples reissue the original request with default retries for those cases.
+
+<CodeGroup exclude="shell:cURL">
+  ```bash CLI
+  # `ant` retries 429/5xx automatically and has no per-request max_retries
+  # override, so on a fast-mode 429 the fallback runs after the built-in
+  # retries exhaust. --transform-error surfaces error.type for branching.
+  create_message_with_fast_fallback() {
+    local speed="$1" max_attempts="${2:-3}" body out
+    body=${3:-$(cat)}
+    out=$(
+      ant messages create \
+        ${speed:+--speed "$speed"} \
+        --transform-error error.type --format-error yaml <<<"$body" 2>/dev/null
+    ) && { printf '%s\n' "$out"; return; }
+    case "$out" in
+      rate_limit_error)
+        if [[ -n "$speed" ]]; then
+          create_message_with_fast_fallback "" "$max_attempts" "$body"
+          return
+        fi ;;
+      overloaded_error | api_error | "")
+        if (( max_attempts > 1 )); then
+          create_message_with_fast_fallback "$speed" $((max_attempts - 1)) "$body"
+          return
+        fi ;;
+    esac
+    printf '%s\n' "${out:-connection_error}" >&2
+    return 1
+  }
+
+  MESSAGE=$(
+    create_message_with_fast_fallback fast <<'YAML'
+  model: claude-opus-5-5
+  max_tokens: 1024
+  messages:
+    - role: user
+      content: Hello
+  YAML
+  )
+  ```
+
+  ```python Python
+  client = anthropic.Anthropic()
+
+
+  def create_message_with_fast_fallback(max_retries=0, max_attempts=3, **params):
+      try:
+          return client.with_options(max_retries=max_retries).messages.create(**params)
+      except anthropic.RateLimitError:
+          if params.get("speed") == "fast":
+              del params["speed"]
+              return create_message_with_fast_fallback(max_retries=max_retries, **params)
+          raise
+      except (
+          anthropic.APIStatusError,
+          anthropic.APIConnectionError,
+      ) as error:
+          if isinstance(error, anthropic.APIStatusError) and error.status_code < 500:
+              raise
+          if max_attempts > 1:
+              return create_message_with_fast_fallback(
+                  max_retries=max_retries, max_attempts=max_attempts - 1, **params
+              )
+          raise
+
+
+  message = create_message_with_fast_fallback(
+      model="claude-opus-5-5",
+      max_tokens=1024,
+      messages=[{"role": "user", "content": "Hello"}],
+      speed="fast",
+      max_retries=0,
+  )
+  ```
+
+  ```typescript TypeScript
+  const client = new Anthropic();
+
+  async function createMessageWithFastFallback(
+    params: Anthropic.MessageCreateParamsNonStreaming,
+    requestOptions?: Anthropic.RequestOptions,
+    maxAttempts: number = 3
+  ): Promise<Anthropic.Message> {
+    try {
+      return await client.messages.create(params, requestOptions);
+    } catch (e) {
+      if (e instanceof Anthropic.RateLimitError && params.speed === "fast") {
+        const { speed, ...rest } = params;
+        return createMessageWithFastFallback(rest);
+      }
+      if (
+        e instanceof Anthropic.InternalServerError ||
+        e instanceof Anthropic.APIConnectionError
+      ) {
+        if (maxAttempts > 1) {
+          return createMessageWithFastFallback(params, undefined, maxAttempts - 1);
+        }
+      }
+      throw e;
+    }
+  }
+
+  const message = await createMessageWithFastFallback(
+    {
+      model: "claude-opus-5-5",
+      max_tokens: 1024,
+      messages: [{ role: "user", content: "Hello" }],
+      speed: "fast"
+    },
+    { maxRetries: 0 }
+  );
+  ```
+
+  ```csharp C#
+  AnthropicClient client = new();
+
+  async Task<Message> CreateMessageWithFastFallback(
+      MessageCreateParams parameters,
+      int? maxRetries = null,
+      int maxAttempts = 3)
+  {
+      try
+      {
+          var requestClient = maxRetries is int retries
+              ? client.WithOptions(options => options with { MaxRetries = retries })
+              : client;
+          return await requestClient.Messages.Create(parameters);
+      }
+      catch (AnthropicRateLimitException)
+      {
+          if (parameters.Speed is not null)
+          {
+              return await CreateMessageWithFastFallback(
+                  parameters with { Speed = null });
+          }
+          throw;
+      }
+      catch (Anthropic5xxException)
+      {
+          if (maxAttempts > 1)
+          {
+              return await CreateMessageWithFastFallback(
+                  parameters, maxAttempts: maxAttempts - 1);
+          }
+          throw;
+      }
+  }
+
+  var message = await CreateMessageWithFastFallback(
+      new MessageCreateParams
+      {
+          Model = Model.ClaudeOpus5_5,
+          MaxTokens = 1024,
+          Messages = [new() { Role = Role.User, Content = "Hello" }],
+          Speed = Speed.Fast,
+      },
+      maxRetries: 0);
+  ```
+
+  ```go Go
+  func createMessageWithFastFallback(
+  	ctx context.Context,
+  	client *anthropic.Client,
+  	params anthropic.MessageNewParams,
+  	maxAttempts int,
+  	opts ...option.RequestOption,
+  ) (*anthropic.Message, error) {
+  	message, err := client.Messages.New(ctx, params, opts...)
+  	if err != nil {
+  		var apierr *anthropic.Error
+  		if errors.As(err, &apierr) && apierr.StatusCode == 429 && params.Speed != "" {
+  			params.Speed = ""
+  			return createMessageWithFastFallback(ctx, client, params, maxAttempts)
+  		}
+  		if (errors.As(err, &apierr) && apierr.StatusCode >= 500) || !errors.As(err, &apierr) {
+  			if maxAttempts > 1 {
+  				return createMessageWithFastFallback(ctx, client, params, maxAttempts-1)
+  			}
+  		}
+  		return nil, err
+  	}
+  	return message, nil
+  }
+
+  func main() {
+  	client := anthropic.NewClient()
+  	message, err := createMessageWithFastFallback(
+  		context.TODO(),
+  		&client,
+  		anthropic.MessageNewParams{
+  			Model:     anthropic.ModelClaudeOpus5_5,
+  			MaxTokens: 1024,
+  			Messages: []anthropic.MessageParam{
+  				anthropic.NewUserMessage(anthropic.NewTextBlock("Hello")),
+  			},
+  			Speed: anthropic.MessageNewParamsSpeedFast,
+  		},
+  		3,
+  		option.WithMaxRetries(0),
+  	)
+  	if err != nil {
+  		panic(err)
+  	}
+  	fmt.Println(message)
+  }
+  ```
+
+  ```java Java
+  import com.anthropic.errors.InternalServerException;
+  import com.anthropic.errors.RateLimitException;
+  // ...
+  // Disable SDK auto-retry so the fallback logic below handles it
+  AnthropicClient client =
+          AnthropicOkHttpClient.builder().fromEnv().maxRetries(0).build();
+
+  Message createMessageWithFastFallback(
+          MessageCreateParams params, int maxAttempts) {
+      try {
+          return client.messages().create(params);
+      } catch (RateLimitException e) {
+          if (params.speed().isPresent()) {
+              MessageCreateParams retryParams = params.toBuilder()
+                      .speed(Optional.empty())
+                      .build();
+              return createMessageWithFastFallback(retryParams, maxAttempts);
+          }
+          throw e;
+      } catch (InternalServerException e) {
+          if (maxAttempts > 1) {
+              return createMessageWithFastFallback(params, maxAttempts - 1);
+          }
+          throw e;
+      }
+  }
+
+  void main() {
+      Message message = createMessageWithFastFallback(
+              MessageCreateParams.builder()
+                      .model(Model.CLAUDE_OPUS_5_5)
+                      .maxTokens(1024L)
+                      .addUserMessage("Hello")
+                      .speed(MessageCreateParams.Speed.FAST)
+                      .build(),
+              3);
+      message.content().stream()
+              .flatMap(block -> block.text().stream())
+              .forEach(textBlock -> IO.println(textBlock.text()));
+  }
+  ```
+
+  ```php PHP
+  use Anthropic\Core\Exceptions\APIConnectionException;
+  use Anthropic\Core\Exceptions\InternalServerException;
+  use Anthropic\Core\Exceptions\RateLimitException;
+  use Anthropic\RequestOptions;
+  // ...
+  $client = new Client();
+
+  function createMessageWithFastFallback(
+      Client $client,
+      array $params,
+      ?RequestOptions $requestOptions = null,
+      int $maxAttempts = 3,
+  ) {
+      try {
+          return $client->messages->create(
+              ...$params,
+              requestOptions: $requestOptions,
+          );
+      } catch (RateLimitException $e) {
+          if (isset($params['speed'])) {
+              unset($params['speed']);
+              return createMessageWithFastFallback($client, $params);
+          }
+          throw $e;
+      } catch (InternalServerException | APIConnectionException $e) {
+          if ($maxAttempts > 1) {
+              return createMessageWithFastFallback(
+                  $client, $params, maxAttempts: $maxAttempts - 1
+              );
+          }
+          throw $e;
+      }
+  }
+
+  $message = createMessageWithFastFallback(
+      $client,
+      [
+          'model' => 'claude-opus-5-5',
+          'maxTokens' => 1024,
+          'messages' => [['role' => 'user', 'content' => 'Hello']],
+          'speed' => 'fast',
+      ],
+      RequestOptions::with(maxRetries: 0),
+  );
+  ```
+
+  ```ruby Ruby
+  client = Anthropic::Client.new
+
+  def create_message_with_fast_fallback(client, request_options: {}, max_attempts: 3, **params)
+    client.messages.create(**params, request_options: request_options)
+  rescue Anthropic::Errors::RateLimitError
+    raise unless params[:speed] == "fast"
+    params.delete(:speed)
+    create_message_with_fast_fallback(client, **params)
+  rescue Anthropic::Errors::InternalServerError, Anthropic::Errors::APIConnectionError
+    raise unless max_attempts > 1
+    create_message_with_fast_fallback(client, max_attempts: max_attempts - 1, **params)
+  end
+
+  message = create_message_with_fast_fallback(
+    client,
+    model: "claude-opus-5-5",
+    max_tokens: 1024,
+    messages: [{ role: "user", content: "Hello" }],
+    speed: "fast",
+    request_options: { max_retries: 0 }
+  )
+  ```
+</CodeGroup>
+
+## Considerations
+
+* **Prompt caching:** Switching between fast and standard speed invalidates the prompt cache. Requests at different speeds do not share cached prefixes.
+* **TTFT:** Fast mode's benefits are focused on output tokens per second (OTPS), not time to first token (TTFT).
+* **Batch API:** Fast mode is not available with the [Batch API](https://platform.claude.com/docs/en/build-with-claude/batch-processing?sdk_languages=curl).
+* **Priority Tier:** Fast mode is not available with a [Priority Tier](https://platform.claude.com/docs/en/api/service-tiers?sdk_languages=curl) commitment.
+* **Claude Platform on AWS:** Fast mode is not currently available on [Claude Platform on AWS](https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws?sdk_languages=curl).
+
+## Next steps
+
+<CardGroup cols={2}>
+  <Card title="Structured outputs" icon="code-brackets" href="https://platform.claude.com/docs/en/build-with-claude/structured-outputs?sdk_languages=curl">
+    Get validated JSON results from agent workflows.
+  </Card>
+
+  <Card title="Pricing" icon="calculator" href="https://platform.claude.com/docs/en/about-claude/pricing?sdk_languages=curl#fast-mode-pricing">
+    Learn about Anthropic's pricing structure for models and features.
+  </Card>
+
+  <Card title="Effort" icon="gauge" href="https://platform.claude.com/docs/en/build-with-claude/effort?sdk_languages=curl">
+    Control how many tokens Claude uses when responding with the effort parameter, trading off between response thoroughness and token efficiency.
+  </Card>
+
+  <Card title="Streaming messages" icon="arrow-right" href="https://platform.claude.com/docs/en/build-with-claude/streaming?sdk_languages=curl">
+    Stream Messages API responses incrementally with server-sent events, including text, tool use, and extended thinking deltas.
+  </Card>
+</CardGroup>

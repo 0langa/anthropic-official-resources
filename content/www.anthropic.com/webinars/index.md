@@ -20,6 +20,14 @@ Join the teams behind the program for a walkthrough of the Cyber Verification Pr
 
 AWS and Anthropic on how PE firms scale Claude across portfolios, what it costs, and how to get started.](https://claude.com/resources/webinars/scaling-ai-across-the-portfolio-anthropic-and-aws-for-private-equity)
 
+[WebinarUpcoming | Oct 28, 2026
+
+### Unified Claude: What it means for admins
+
+Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
+
+Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
+
 [WebinarUpcoming | Oct 22, 2026
 
 ### Claude Rearview Roadmap Review: October 2026
@@ -28,19 +36,13 @@ Your rollout plan depends on knowing what's changed and what matters the most.
 
 Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
-[WebinarUpcoming | Oct 21, 2026
+[WebinarUpcoming | Oct 20, 2026
 
-### Tokenomics on AWS: Control and optimize your Claude spend
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
 
-Learn how to control and optimize Claude spend on AWS, from admin controls and default models to cost per task for API agents.](https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend)
+Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
 
-[WebinarUpcoming | Multiple dates
-
-### Claude Code: Foundations
-
-New to Claude Code? You’re in the right place. Join Anthropic's Claude Code specialist team for a hands-on introduction to…
-
-Claude Code](https://claude.com/resources/webinars/claude-code-foundations-series)
+Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
 
 [WebinarOn demand
 
@@ -52,13 +54,19 @@ Featured resource 1 of 5: Inside the Cyber Verification Program: Tiers, Migratio
 
 Advanced filters
 
-Showing 21 of 112 resources
+Showing 23 of 114 resources
 
 ## Upcoming webinars
 
 Register for the live sessions with Anthropic and partner teams — bring your questions and get answers in real time.
 
-[WebinarUpcoming | Oct 21, 2026
+[WebinarUpcoming | Oct 20, 2026
+
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
+
+Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
+
+Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)[WebinarUpcoming | Oct 21, 2026
 
 ### Tokenomics on AWS: Control and optimize your Claude spend
 
@@ -68,7 +76,13 @@ Learn how to control and optimize Claude spend on AWS, from admin controls and d
 
 Your rollout plan depends on knowing what's changed and what matters the most.
 
-Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[WebinarUpcoming | Oct 29, 2026
+Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[WebinarUpcoming | Oct 28, 2026
+
+### Unified Claude: What it means for admins
+
+Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
+
+Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarUpcoming | Oct 29, 2026
 
 ### Scaling AI Across the Portfolio: Anthropic and AWS for Private Equity
 
@@ -126,7 +140,7 @@ Claude Code](https://claude.com/resources/webinars/claude-code-foundations-serie
 
 Missed the session? Stream past sessions anytime and catch up at your own pace.
 
-[WebinarOct 15, 2026
+[WebinarOn demand
 
 ### Claude Tag on-call: A new teammate in your incident channel
 

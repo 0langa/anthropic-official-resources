@@ -16,6 +16,24 @@ Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design ar
 
 Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
 
+[ArticleOct 16, 2026
+
+### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
+
+How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
+
+Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)
+
+[ArticleOct 16, 2026
+
+### How the Claude Code team does code review
+
+How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)
+
 [ArticleOct 15, 2026
 
 ### Code Review is now generally available
@@ -30,22 +48,6 @@ Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-
 
 Announcing OpenTelemetry traces from Claude Managed Agents, the Messages API, and Claude SDKs on the Claude Platform.](https://claude.com/resources/articles/agent-observability-on-the-claude-platform)
 
-[ArticleOct 13, 2026
-
-### Uber's CISO on building an insider threat program for AI
-
-Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)
-
-[ArticleOct 8, 2026
-
-### Building effective agent automations
-
-A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
-
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
-
 [ArticleOct 8, 2026
 
 ### Build live dashboards and animate explainers with Claude
@@ -58,9 +60,17 @@ Featured resource 1 of 5: Build live dashboards and animate explainers with Clau
 
 Advanced filters(1)
 
-Showing 12 of 102 resources
+Showing 12 of 103 resources
 
-[ArticleOct 15, 2026
+[ArticleOct 16, 2026
+
+### How the Claude Code team does code review
+
+How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)[ArticleOct 15, 2026
 
 ### Code Review is now generally available
 
@@ -134,14 +144,6 @@ Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-
 
 How to organize AI-driven modernization projects for critical systems and regulated enterprises.
 
-Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)[ArticleSep 22, 2026
-
-### Getting the most out of Opus 5.5 in Claude and Claude Code
-
-How to prompt Opus 5.5, steer a long run, and check your results in Claude apps and Claude Code.
-
-Claude CodeClaude apps
-
-(opens in new tab)](https://claude.dev/blog/getting-the-most-out-of-opus-5-5/)
+Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)
 
 View more

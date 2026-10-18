@@ -1,0 +1,105 @@
+---
+title: Create an Admin API key
+url: https://platform.claude.com/docs/en/manage-claude/admin-api-keys
+description: Create an Admin API key for your Claude Console or Claude Enterprise organization.
+---
+
+An Admin API key authenticates every API in the **Admin** section of this guide: the [Admin API](https://platform.claude.com/docs/en/manage-claude/admin-api?sdk_languages=curl), [Analytics APIs](https://platform.claude.com/docs/en/manage-claude/analytics-api?sdk_languages=curl), [Compliance API](https://platform.claude.com/docs/en/manage-claude/compliance-api?sdk_languages=curl), [Spend Limits API](https://platform.claude.com/docs/en/manage-claude/spend-limits-api?sdk_languages=curl), [Usage and Cost API](https://platform.claude.com/docs/en/manage-claude/usage-cost-api?sdk_languages=curl), and [Rate Limits API](https://platform.claude.com/docs/en/manage-claude/rate-limits-api?sdk_languages=curl). You do not need a separate key for each API. The one exception is the Admin API's service-account, federation-issuer, and federation-rule endpoints, which accept only an OAuth bearer token with the `org:admin` scope. See [Obtain an OAuth bearer token](https://platform.claude.com/docs/en/manage-claude/admin-api?sdk_languages=curl#oauth-bearer-token).
+
+Where you create the key depends on which Claude product your organization uses.
+
+## Which key do you need?
+
+| Your organization                                           | Create the key in                                                                                                                    | Key prefix           | Who can create it                                                                                                                                                                          | Works with                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Claude Console** (Claude Platform, `platform.claude.com`) | [Admin keys](https://platform.claude.com/settings/admin-keys) page (`platform.claude.com/settings/admin-keys`) in the Claude Console | `sk-ant-admin01-...` | Organization members with the **admin** role                                                                                                                                               | [Admin API](https://platform.claude.com/docs/en/manage-claude/admin-api?sdk_languages=curl), [Usage and Cost API](https://platform.claude.com/docs/en/manage-claude/usage-cost-api?sdk_languages=curl), [Rate Limits API](https://platform.claude.com/docs/en/manage-claude/rate-limits-api?sdk_languages=curl), [Claude Code Analytics API](https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api?sdk_languages=curl), and the Compliance API [Activity Feed](https://platform.claude.com/docs/en/manage-claude/compliance-activity-feed?sdk_languages=curl)                                                                                             |
+| **Claude Enterprise** (`claude.ai`)                         | [claude.ai > Organization settings > API](https://claude.ai/admin-settings/api-access)                                               | `sk-ant-api01-...`   | The parent organization's **primary owner** (all linked organizations). An **organization owner** can create one carrying Compliance API scopes only, restricted to their own organization | [User management](https://platform.claude.com/docs/en/manage-claude/user-management?sdk_languages=curl) (the Admin API's member, invite, and group endpoints), [Compliance API](https://platform.claude.com/docs/en/manage-claude/compliance-api?sdk_languages=curl), [Claude Enterprise Analytics API](https://platform.claude.com/docs/en/manage-claude/analytics-api?sdk_languages=curl), and [Spend Limits API](https://platform.claude.com/docs/en/manage-claude/spend-limits-api?sdk_languages=curl), according to the [scopes](https://platform.claude.com/docs/en/manage-claude/admin-api-keys?sdk_languages=curl#choose-scopes-for-a-claude-enterprise-key) you select |
+
+A key created in one organization cannot be used to manage a different organization. If your company uses both Claude Console and Claude Enterprise, create one key in each.
+
+## Create a key for a Claude Console organization
+
+<Steps>
+  <Step title="Sign in as an organization admin">
+    Only organization members with the **admin** role can create Admin API keys. See [Organization roles and permissions](https://platform.claude.com/docs/en/manage-claude/admin-api?sdk_languages=curl#organization-roles-and-permissions).
+  </Step>
+
+  <Step title="Open Admin keys settings">
+    In the Claude Console, go to the [Admin keys](https://platform.claude.com/settings/admin-keys) page (`platform.claude.com/settings/admin-keys`).
+  </Step>
+
+  <Step title="Create the key">
+    Click **Create admin key**, give it a name, choose a [key expiration](https://platform.claude.com/docs/en/manage-claude/authentication?sdk_languages=curl#key-expiration), and click **Add**. Claude Console keys do not have selectable scopes; every key carries full access to all endpoints that accept Admin API keys (the service-account and federation endpoints noted at the top of this page do not accept Admin API keys).
+  </Step>
+
+  <Step title="Copy and store the secret">
+    Copy the displayed secret (starting with `sk-ant-admin01-`) and store it in your secrets manager. The full secret is shown only once.
+  </Step>
+</Steps>
+
+## Create a key for a Claude Enterprise organization
+
+<Steps>
+  <Step title="Sign in as the primary owner or an organization owner">
+    The **primary owner** of the Claude Enterprise parent organization can create a key that can access every linked organization, or one restricted to a single organization. An **organization owner** can create a key with Compliance API scopes only, restricted to their own organization.
+  </Step>
+
+  <Step title="Open API settings">
+    Go to [claude.ai > Organization settings > API](https://claude.ai/admin-settings/api-access) and find the **Keys** section.
+  </Step>
+
+  <Step title="Click + Create key">
+    Name the key and select the scopes you need from the [scopes table](https://platform.claude.com/docs/en/manage-claude/admin-api-keys?sdk_languages=curl#choose-scopes-for-a-claude-enterprise-key). The primary owner can combine scopes from different APIs (for example, `read:analytics` and `read:spend_limits`) on a single key.
+  </Step>
+
+  <Step title="Copy and store the secret">
+    Copy the displayed secret (starting with `sk-ant-api01-`) and store it in your secrets manager. The full secret is shown only once.
+  </Step>
+</Steps>
+
+## Choose scopes for a Claude Enterprise key
+
+When you create a Claude Enterprise key, select every scope that the APIs you plan to call require. Scopes are fixed at creation; to add a scope later, create a new key.
+
+| To call...                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Select these scopes           |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
+| Admin API [user management](https://platform.claude.com/docs/en/manage-claude/user-management?sdk_languages=curl): list and look up members and invites; read custom roles and their permissions                                                                                                                                                                                                                                                                                | `read:members`                |
+| Admin API [user management](https://platform.claude.com/docs/en/manage-claude/user-management?sdk_languages=curl): change member roles, remove members, create and withdraw invites (to assign the `managed` role on a role change or an invite, also select `write:rbac_groups`)                                                                                                                                                                                               | `write:members`               |
+| Admin API [user management](https://platform.claude.com/docs/en/manage-claude/user-management?sdk_languages=curl): read groups and their members                                                                                                                                                                                                                                                                                                                                | `read:rbac_groups`            |
+| Admin API [user management](https://platform.claude.com/docs/en/manage-claude/user-management?sdk_languages=curl): create, rename, and delete groups; add and remove group members; with `write:members`, assign the `managed` role (on an invite or a role change) or assign groups on an invite                                                                                                                                                                               | `write:rbac_groups`           |
+| [Spend Limits API](https://platform.claude.com/docs/en/manage-claude/spend-limits-api?sdk_languages=curl): read members' effective spend limits and increase requests                                                                                                                                                                                                                                                                                                           | `read:spend_limits`           |
+| [Spend Limits API](https://platform.claude.com/docs/en/manage-claude/spend-limits-api?sdk_languages=curl): set or clear per-user spend limits; approve or deny increase requests                                                                                                                                                                                                                                                                                                | `write:spend_limits`          |
+| [Claude Enterprise Analytics API](https://platform.claude.com/docs/en/manage-claude/analytics-api?sdk_languages=curl): engagement, adoption, cost, and usage reports                                                                                                                                                                                                                                                                                                            | `read:analytics`              |
+| [Compliance API Activity Feed](https://platform.claude.com/docs/en/manage-claude/compliance-activity-feed?sdk_languages=curl): organization-wide activity events                                                                                                                                                                                                                                                                                                                | `read:compliance_activities`  |
+| [Compliance API chat, file, and project endpoints](https://platform.claude.com/docs/en/manage-claude/compliance-content-data?sdk_languages=curl) and [Compliance API session endpoints](https://platform.claude.com/docs/en/manage-claude/compliance-sessions?sdk_languages=curl): read chats, files, projects, session transcripts, and [organization users](https://platform.claude.com/docs/en/manage-claude/compliance-org-data?sdk_languages=curl#list-organization-users) | `read:compliance_user_data`   |
+| [Compliance API chat, file, and project endpoints](https://platform.claude.com/docs/en/manage-claude/compliance-content-data?sdk_languages=curl): delete chats, files, and projects                                                                                                                                                                                                                                                                                             | `delete:compliance_user_data` |
+| [Compliance API organization endpoints](https://platform.claude.com/docs/en/manage-claude/compliance-org-data?sdk_languages=curl): read organization metadata and effective settings                                                                                                                                                                                                                                                                                            | `read:compliance_org_data`    |
+| Admin API [user management](https://platform.claude.com/docs/en/manage-claude/user-management?sdk_languages=curl) read endpoints and every Compliance API read endpoint, with a single read-only scope (for security-audit integrations; does not include the Spend Limits or Analytics APIs)                                                                                                                                                                                   | `read:org_audit`              |
+
+The Compliance and Analytics APIs must be enabled for your organization before keys with those scopes can be used. See [Set up the Compliance API](https://platform.claude.com/docs/en/manage-claude/compliance-api-access?sdk_languages=curl#set-up-the-compliance-api) and [Get access to the Claude Enterprise Analytics API](https://platform.claude.com/docs/en/manage-claude/analytics-api?sdk_languages=curl#get-access-to-the-claude-enterprise-analytics-api).
+
+## Use the key
+
+Pass the key in the `x-api-key` header on every request. See each API's documentation for complete request examples.
+
+A call that exceeds the key's scopes returns `403 Forbidden` with a message listing the scopes the key has and the scopes the endpoint needs.
+
+## Next steps
+
+<CardGroup cols={2}>
+  <Card title="Admin API" href="https://platform.claude.com/docs/en/manage-claude/admin-api?sdk_languages=curl">
+    Manage organization members, workspaces, and API keys.
+  </Card>
+
+  <Card title="Spend Limits API" href="https://platform.claude.com/docs/en/manage-claude/spend-limits-api?sdk_languages=curl">
+    Set per-member spend limits and review increase requests for your Claude Enterprise organization.
+  </Card>
+
+  <Card title="Analytics APIs" href="https://platform.claude.com/docs/en/manage-claude/analytics-api?sdk_languages=curl">
+    Report on Claude Code productivity or Claude Enterprise engagement and adoption.
+  </Card>
+
+  <Card title="Compliance API" href="https://platform.claude.com/docs/en/manage-claude/compliance-api?sdk_languages=curl">
+    Audit activity and retrieve or delete user content across your organization.
+  </Card>
+</CardGroup>
