@@ -24,6 +24,14 @@ Anthropic Deputy CISO, Jason Clinton, details how the Security Engineering team 
 
 Claude CodeClaude Tag1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/how-anthropic-secures-its-ai-native-software-development-lifecycle)
 
+[WebinarUpcoming | Oct 28, 2026
+
+### Unified Claude: What it means for admins
+
+Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
+
+Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
+
 [WebinarUpcoming | Oct 22, 2026
 
 ### Claude Rearview Roadmap Review: October 2026
@@ -32,19 +40,13 @@ Your rollout plan depends on knowing what's changed and what matters the most.
 
 Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
-[WebinarOct 15, 2026
+[WebinarUpcoming | Oct 20, 2026
 
-### Claude Tag on-call: A new teammate in your incident channel
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
 
-We open on an incident. An alert fires in a Slack channel and, without anyone typing a prompt, Claude reads the logs, repos and…
+Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
 
-Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)
-
-[WebinarOn demand
-
-### Measuring AI Fluency at Your Organization
-
-Seat counts don't show if AI is working. Kristen Swanson shares how to measure AI Fluency beyond usage, without a huge lift.](https://claude.com/resources/webinars/measuring-ai-fluency-at-your-organization)
+Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
 
 [ArticleJul 16, 2026
 
@@ -58,15 +60,41 @@ Featured resource 1 of 5: Working with Claude Fable 5 in Claude Cowork
 
 Advanced filters
 
-Showing 11 of 217 resources
+Showing 11 of 221 resources
 
-[WebinarUpcoming | Oct 22, 2026
+[WebinarUpcoming | Oct 28, 2026
+
+### Unified Claude: What it means for admins
+
+Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
+
+Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarUpcoming | Oct 22, 2026
 
 ### Claude Rearview Roadmap Review: October 2026
 
 Your rollout plan depends on knowing what's changed and what matters the most.
 
-Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[WebinarOct 15, 2026
+Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[WebinarUpcoming | Oct 20, 2026
+
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
+
+Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
+
+Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)[ArticleOct 16, 2026
+
+### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
+
+How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
+
+Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)[ArticleOct 16, 2026
+
+### How the Claude Code team does code review
+
+How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)[WebinarOn demand
 
 ### Claude Tag on-call: A new teammate in your incident channel
 
@@ -104,34 +132,6 @@ What changes when Claude Code runs on its own machine, the workflows where that 
 
 Claude Code
 
-(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 5, 2026
-
-### How Cresta turned CX expertise into an agent builder on the Claude Agent SDK
-
-See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
-
-Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)[WebinarOn demand
-
-### How to control costs and show ROI for Claude Code on Google Cloud
-
-Teams running Claude Code at scale eventually get the same two questions. What is this costing us, and are the results worth the…
-
-Claude Code
-
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/235c7e08-cbdc-48f6-944b-af9bebfc80ac)[ArticleOct 1, 2026
-
-### Getting started with Claude Code mods
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)[WebinarOn demand
-
-### Enterprise Transformation with Claude on AWS: Paths to Production
-
-There's no single path to running Claude on AWS. What you build depends on what your compliance team needs, what your engineers…
-
-Claude PlatformClaude Enterprise
-
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/ceba8af9-f89f-4c14-bfda-7b2bf684e185)
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)
 
 View more

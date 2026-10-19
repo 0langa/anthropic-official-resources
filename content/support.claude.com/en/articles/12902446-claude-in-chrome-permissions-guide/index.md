@@ -28,7 +28,7 @@ In "Manually approve," Claude checks with you before it acts. What that looks li
 
 Claude creates a plan from your prompt, which you can approve before Claude starts. The plan specifies which websites you're allowing Claude to access, as well as the approach it will follow:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1792229400&amp;signature=73631650c8ac6b507fc3a49d2be5f7653dfedda818d10e9561a34f19ad9da6e3&amp;req=dSgjFcp8nYZdXvMW1HO4zYqyZMBP%2FouzgN0ADj5oqFA02SfotAMtK31GvIVB%0Ac9YLLtyi8Vp9I5Zc%2BXY%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1792407600&amp;signature=e9208b002ed0f1e3113ca072c0c5ab6e2e57a8c7dcd9a0873cda7d0a5d6fdddb&amp;req=dSgjFcp8nYZdXvMW1HO4zYqyZMBJ%2FIWxgN0ADj5oqFA16LWjGqlbVmfJSv7%2B%0AmQfSQBr3SrBelCgZdR8%3D%0A)
 
 Note that Claude will only use the websites listed in the plan, so you’ll need to manually approve any additional access requests.
 
@@ -62,7 +62,7 @@ When you choose "Skip all approvals," Claude doesn't pause to ask, and nothing c
 
 There are some websites on which Claude requires approval for every action. If you navigate to one of these sites, a **New permissions required** prompt will appear in the extension side panel, Claude Cowork, or Claude Code where Claude will ask for permission before accessing the page or taking any action.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1792229400&amp;signature=dc3c8ccecf7887709f6ac0ddae207db6c0a4d22422b225035a4bd4bfbb4a9147&amp;req=diYnEsB5nYldXPMW1HO4zZ3Nq2RyiiXo7A4lHPBihAW8D8abM%2BJ9jUGRsYIO%0AXtIW%2BZlxVoIfKxyYTWA%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1792407600&amp;signature=08efb4169b31f7c4cfe4a6a5b0a3ee11cdff01c57e27ae67c9d1bcef79439cf2&amp;req=diYnEsB5nYldXPMW1HO4zZ3Nq2R0iCvq7A4lHPBihAVvVuvu%2BX6kJ7E%2FwXxC%0Ap0B%2FwlmhUiPof9hf7mo%3D%0A)
 
 ### Permission options
 

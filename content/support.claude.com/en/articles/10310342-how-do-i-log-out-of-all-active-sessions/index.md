@@ -38,7 +38,7 @@ To regain access to your account on any device, you'll need to authenticate agai
 
 If you used your Claude account to authenticate into Claude Code, you can manage your authorization tokens by navigating to **[Settings > Claude Code](https://claude.ai/settings/claude-code)**. To remove a token and log out of Claude Code, click the trash can icon.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1608263923/b4fa7d6f6f08f2adffb4ea63bc58/image+%287%29.png?expires=1792228500&amp;signature=e85e7e165cb55ea57069dd4250514e54e527b6e3c05457b9b306b2b5afe72575&amp;req=dSYnHst4nohdWvMW1HO4zVuHix7%2F1G%2B%2BAQofdwM8qVeHkqAhKJ6GFMyw26ji%0AVrBU91jLqxQv6ARHgGg%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1608263923/b4fa7d6f6f08f2adffb4ea63bc58/image+%287%29.png?expires=1792405800&amp;signature=15371a75b1c9d904468f9efaea144848d96e592d696ad10b2920ea48de98357f&amp;req=dSYnHst4nohdWvMW1HO4zVuHix751mKzAQofdwM8qVeUf18JFYsVrmS9YT28%0ALeR08L54enOp0A0Gnlw%3D%0A)
 
 ## Unable to access your account?
 

@@ -395,7 +395,7 @@ Explore more product news and best practices for teams building with Claude.
 
 [ArticleOct 16, 2026
 
-### How an Anthropic Japan BDR runs his day with a fleet of Claude agents
+### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
 
 How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
 

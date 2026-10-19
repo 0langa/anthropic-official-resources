@@ -152,7 +152,7 @@ Recurring webinars
 
 [ArticleOct 16, 2026
 
-### How an Anthropic Japan BDR runs his day with a fleet of Claude agents
+### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
 
 How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
 
@@ -250,7 +250,7 @@ Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design ar
 
 Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 16, 2026
 
-### How an Anthropic Japan BDR runs his day with a fleet of Claude agents
+### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
 
 How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
 

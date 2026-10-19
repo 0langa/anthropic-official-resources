@@ -36,6 +36,9 @@ Search
 
 DateCategoryTitle
 
+- [Oct 18, 2026Announcements
+
+  Investing in the public benefit](https://www.anthropic.com/news/public-benefit-fund)
 - [Oct 15, 2026Announcements
 
   An update on independent evaluators](https://www.anthropic.com/news/an-update-on-independent-evaluators)
@@ -63,8 +66,5 @@ DateCategoryTitle
 - [Oct 1, 2026Announcements
 
   Barclays scales Claude to upgrade operations and improve client experience](https://www.anthropic.com/news/barclays-scales-claude)
-- [Sep 23, 2026Science
-
-   Claude discovers a novel enzyme system with CRISPR-like repeats](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
 
 [See more](https://www.anthropic.com/news)
