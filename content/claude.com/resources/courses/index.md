@@ -54,6 +54,6 @@ Courses on working with AI, building with Claude, and the Model Context Protocol
 
 67 lessons · 8 quizzes·9 hr·Completion badge](https://academy.claude.com/courses/building-with-the-claude-api)[### Claude with Amazon Bedrock
 
-65 lessons · 8 quizzes·8 hr·Completion badge](https://academy.claude.com/courses/claude-with-amazon-bedrock)[### Claude with Google Cloud's Vertex AI
+65 lessons · 8 quizzes·8 hr·Completion badge](https://academy.claude.com/courses/claude-with-amazon-bedrock)[### Claude on Google Cloud
 
 66 lessons · 9 quizzes·8.5 hr·Completion badge](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai)

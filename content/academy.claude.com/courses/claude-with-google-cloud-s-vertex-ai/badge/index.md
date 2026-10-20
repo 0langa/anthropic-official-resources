@@ -1,4 +1,4 @@
-Claude with Google Cloud's Vertex AICompletion badge
+Claude on Google CloudCompletion badge
 
 # Completion badge
 

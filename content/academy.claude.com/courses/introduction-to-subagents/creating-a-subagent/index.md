@@ -64,7 +64,7 @@ Finally, you pick a color. This shows up in the UI so you can quickly tell which
 
 ## The Config File[](https://academy.claude.com/courses/introduction-to-subagents/creating-a-subagent)
 
-Once creation is complete, the subagent config file is saved into your project (typically at `.claude/agents/your-agent-name.md`). Here is what a typical subagent config looks like:
+Once creation is complete, the subagent config file is saved in the folder for the scope you chose (for a project-level subagent, typically `.claude/agents/your-agent-name.md`). Here is what a typical subagent config looks like:
 
 markdown
 
@@ -86,7 +86,7 @@ Let's break down each field:
 
 - **`name`** -- A unique identifier for the subagent. This is how you reference it, either by asking Claude directly or by typing `@agent-code-quality-reviewer` in your message.
 - **`description`** -- Controls when Claude decides to use the subagent. This must be a single line (use escaped newline characters `\n` if you need breaks). You can include example conversations here to help Claude understand when delegation is appropriate.
-- **`tools`** -- Lists which tools the subagent can access. This matches whatever you selected during generation, but you can edit the list here at any time.
+- **`tools`** -- Lists which tools the subagent can access. Claude fills this in from your request, but you can edit the list here at any time.
 - **`model`** -- Specifies which Claude model to use: an alias (`sonnet`, `opus`, `haiku`, or `fable`), a full model ID such as `claude-sonnet-5`, or `inherit`.
 - **`color`** -- The UI color for identifying the subagent.
 

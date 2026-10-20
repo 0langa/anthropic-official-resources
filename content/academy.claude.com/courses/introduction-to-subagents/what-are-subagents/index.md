@@ -26,7 +26,7 @@ stay isolated and never clutter your main conversation.
 
 Every time you chat with Claude Code, you're adding to the main context window. Every tool call, every file read, every search result gets stored there. That space is finite, and once it fills up, Claude starts losing track of earlier parts of the conversation.
 
-Subagents solve this by spinning up a separate context window. The subagent receives two things:
+Subagents solve this by spinning up a separate context window. The subagent's starting context includes:
 
 - **A custom system prompt** from your configuration file that defines the subagent's role and behavior
 - **A task description** written by the parent agent based on what you asked for

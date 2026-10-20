@@ -16,6 +16,16 @@ Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design ar
 
 Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
 
+[ArticleOct 19, 2026
+
+### Redesigning source control at Anthropic
+
+As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
+
+Claude Code
+
+(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)
+
 [ArticleOct 16, 2026
 
 ### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
@@ -42,12 +52,6 @@ Catch more bugs before they reach production.
 
 Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)
 
-[ArticleOct 14, 2026
-
-### Agent observability on the Claude Platform
-
-Announcing OpenTelemetry traces from Claude Managed Agents, the Messages API, and Claude SDKs on the Claude Platform.](https://claude.com/resources/articles/agent-observability-on-the-claude-platform)
-
 [ArticleOct 8, 2026
 
 ### Build live dashboards and animate explainers with Claude
@@ -60,9 +64,17 @@ Featured resource 1 of 5: Build live dashboards and animate explainers with Clau
 
 Advanced filters
 
-Showing 11 of 285 resources
+Showing 11 of 286 resources
 
-[ArticleOct 16, 2026
+[ArticleOct 19, 2026
+
+### Redesigning source control at Anthropic
+
+As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
+
+Claude Code
+
+(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)[ArticleOct 16, 2026
 
 ### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
 
@@ -124,10 +136,6 @@ Principles for designing evals and hillclimbing against them without fooling you
 
 Claude Platform
 
-(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
-
-### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
-
-Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
 
 View more

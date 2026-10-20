@@ -452,7 +452,7 @@ A comprehensive directory of support, training, and enablement resources for Cla
 #### Getting Started Videos
 
 - [Getting started with Claude.ai(opens in new tab)](https://support.claude.com/en/articles/12997377-getting-started-with-claude-ai) — Interface walkthrough, first conversation, and key features
-- [Intro to Artifacts(opens in new tab)](https://academy.claude.com/tutorials/use-artifacts-to-visualize-and-create-ai-apps-without-ever-writing-a-line-of-code) — Creating and using artifacts in conversations
+- [Intro to Artifacts(opens in new tab)](https://academy.claude.com/tutorials/intro-to-artifacts) — Creating and using artifacts in conversations
 - [Intro to Projects(opens in new tab)](https://support.claude.com/en/articles/9945648-intro-to-projects) — Setting up and managing projects
 - [Intro to Connectors(opens in new tab)](https://support.claude.com/en/articles/13123742-intro-to-connectors) — Connecting external tools and data sources
 - [Using Research(opens in new tab)](https://support.claude.com/en/articles/11106443-using-research) — Demo of deep research capabilities
@@ -461,7 +461,7 @@ A comprehensive directory of support, training, and enablement resources for Cla
 
 - [Connect your tools for a smarter AI companion(opens in new tab)](https://support.claude.com/en/articles/11817150-connect-your-tools-to-unlock-a-smarter-more-capable-ai-companion) — Setting up integrations for enhanced capabilities
 - [Create and edit files to eliminate busy work(opens in new tab)](https://support.claude.com/en/articles/12143746-create-and-edit-files-with-claude-to-eliminate-hours-of-busy-work) — Document automation with Claude's file creation features
-- [Prototype AI apps with artifacts(opens in new tab)](https://support.claude.com/en/articles/11649438-prototype-ai-powered-apps-with-claude-artifacts) — Building functional app prototypes using artifacts
+- [Prototype AI apps with artifacts(opens in new tab)](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude) — Building functional app prototypes using artifacts
 - [Teach Claude your way of working using skills(opens in new tab)](https://support.claude.com/en/articles/12580051-teach-claude-your-way-of-working-using-skills) — Creating and applying skills for consistent outputs
 - [Create a skill through conversation(opens in new tab)](https://support.claude.com/en/articles/12599426-how-to-create-a-skill-with-claude-through-conversation) — Building skills via natural conversation
 - [Claude in Chrome(opens in new tab)](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome) — Walkthrough of the Claude in Chrome extension

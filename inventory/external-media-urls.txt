@@ -147,6 +147,7 @@ https://www.youtube-nocookie.com/embed/RyvXxApfHkk?enablejsapi=1&origin=https%3A
 https://www.youtube-nocookie.com/embed/SPkg5WRfnEE?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 https://www.youtube-nocookie.com/embed/Sj1yynxA9hw?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 https://www.youtube-nocookie.com/embed/TkSZqH0n7m0?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+https://www.youtube-nocookie.com/embed/To5nrYqvR44?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 https://www.youtube-nocookie.com/embed/To5nrYqvR44?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 https://www.youtube-nocookie.com/embed/TxS-1invhzg?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 https://www.youtube-nocookie.com/embed/U9jGOz
@@ -563,6 +564,7 @@ https://www.youtube.com/watch?v=S_lzYIvtEaQ
 https://www.youtube.com/watch?v=Sj1yynxA9hw
 https://www.youtube.com/watch?v=SlGRN8jh2RI
 https://www.youtube.com/watch?v=TkSZqH0n7m0
+https://www.youtube.com/watch?v=To5nrYqvR44
 https://www.youtube.com/watch?v=TxS-1invhzg
 https://www.youtube.com/watch?v=UAeTSBsK71A
 https://www.youtube.com/watch?v=UAmKyyZ-b9E

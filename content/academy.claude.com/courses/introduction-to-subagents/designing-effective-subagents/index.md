@@ -32,7 +32,7 @@ The description also plays a second role. When the main agent launches a subagen
 
 ## Writing Descriptions That Shape Input Prompts[](https://academy.claude.com/courses/introduction-to-subagents/designing-effective-subagents)
 
-Consider a code review subagent. With a generic description, the main agent might write an input prompt like "use get diff to find the current changes." That's vague. The subagent has to figure out which files matter on its own.
+Consider a code review subagent. With a generic description, the main agent might write an input prompt like "use git diff to find the current changes." That's vague. The subagent has to figure out which files matter on its own.
 
 If you update the description to include something like "You must tell the agent precisely which files you want it to review," the main agent will now write a much more specific input prompt that lists the actual files to review.
 

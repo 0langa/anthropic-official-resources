@@ -39,6 +39,10 @@ About this course
 - [Meet your instructors(opens in new tab)](https://www-cdn.anthropic.com/files/4zrzovbb/website/9b6a92af33b00bf2538bd02273dace9e06220dc2.pdf)
 - [How we used AI in building the course(opens in new tab)](https://www-cdn.anthropic.com/files/4zrzovbb/website/e1b94a544768df563bfe03fc6955f82a2d3a901e.pdf)
 
+#### Acknowledgments and license
+
+*Copyright 2025 Rick Dakan, Joseph Feller, and Anthropic. Released under the CC BY-NC-SA 4.0 license. This course is based on The AI Fluency Framework by Dakan and Feller. Supported in part by the Higher Education Authority, Ireland, through the National Forum for the Enhancement of Teaching and Learning.*
+
 ### Completion badge[](https://academy.claude.com/courses/teaching-ai-fluency)
 
 After finishing the course, you will have the opportunity to take a final assessment and earn a completion badge.

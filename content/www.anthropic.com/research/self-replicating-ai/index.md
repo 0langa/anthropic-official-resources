@@ -4,7 +4,7 @@ Frontier Red Team
 
 Oct 12, 2026
 
-Appendix
+B. Going viral: autonomous setup and replication across a GCP node fleet
 
 *William Zhou, Daniel Freeman*
 

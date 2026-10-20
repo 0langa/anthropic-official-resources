@@ -65,9 +65,17 @@ We're proud of our partnership with Microsoft and aspire to help more people exp
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 16, 2026
+[ArticleOct 19, 2026
 
-### How an Anthropic Japan BDR runs his day with a fleet of Claude agents
+### Redesigning source control at Anthropic
+
+As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
+
+Claude Code
+
+(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)[ArticleOct 16, 2026
+
+### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
 
 How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
 
@@ -85,15 +93,7 @@ Claude Code
 
 Catch more bugs before they reach production.
 
-Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)[ArticleOct 8, 2026
-
-### Building effective agent automations
-
-A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
-
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
+Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)
 
 ## Transform how your organization operates with Claude
 

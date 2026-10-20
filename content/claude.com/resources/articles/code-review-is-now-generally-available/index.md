@@ -14,7 +14,7 @@ Code Review is out of research preview and available to Claude Team and Enterpri
 
 ### What's new in Code Review
 
-Coding agents keep increasing the pace at which teams write code, and the review bottleneck hasn't eased. For general availability, we made Code Review faster, better at finding the bugs that matter, and easier to tune to each of your repositories.
+Coding agents keep increasing the pace at which teams write code, and [the review bottleneck](https://claude.com/resources/articles/the-ai-native-sdlc-playbook) hasn't eased. For general availability, we made Code Review faster, better at finding the bugs that matter, and easier to tune to each of your repositories.
 
 Since we released the [research preview](https://claude.com/resources/articles/code-review), Code Review has gotten sharper, catching more of the bugs that would otherwise reach production. We also run Code Review on pull requests at Anthropic, which shows us where reviews slow our own engineers down. Teams using Code Review during the preview told us the rest: it was catching real issues before a human reviewer looked at the PR, but they wanted reviews that were quieter, sized to each change, and faster. Here’s what we shipped:
 

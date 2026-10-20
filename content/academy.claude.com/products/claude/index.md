@@ -74,6 +74,9 @@ Use case·Education·15 min](https://academy.claude.com/use-cases/bring-your-whi
 
 [View all](https://academy.claude.com/all)
 
+- [Build and share tools in Claude with custom artifactsTutorial9 min
+
+  Tutorial·9 min](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)
 - [Choosing the right Claude model: Haiku, Sonnet, Opus, or FableTutorial5 min
 
   Tutorial·5 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)
@@ -89,9 +92,6 @@ Use case·Education·15 min](https://academy.claude.com/use-cases/bring-your-whi
 - [Claude for nonprofits partnership success guide for adminsTutorial4 min
 
   Tutorial·4 min](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-success-guide-for-admins)
-- [Connect your tools to unlock a smarter, more capable AI companionTutorial6 min
-
-  Tutorial·6 min](https://academy.claude.com/tutorials/connect-your-tools-to-unlock-a-smarter-more-capable-ai-companion)
 
 ## Browse it all
 

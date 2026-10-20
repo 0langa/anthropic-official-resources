@@ -12,7 +12,7 @@ Starting today, Claude can turn your data into a dashboard that stays current, a
 
 Embedded media: https://www.youtube-nocookie.com/embed/en0GuyhieQk?enablejsapi=1&rel=0&playsinline=1&modestbranding=1&autoplay=1&mute=1
 
-Asking questions about company data usually means filing a ticket or writing SQL. And ideas that would land better in motion usually end up as another static slide. So people wait, or skip it. Claude could already help with parts of this. Now you can ask for the dashboard or the animation itself, and see how Claude made it. Each chart shows the query behind it, and each animation is built as code you can edit. Claude makes the first version, and you decide what gets shared.
+[Asking questions about company data](https://claude.com/resources/articles/how-anthropic-enables-self-service-data-analytics-with-claude) usually means filing a ticket or writing SQL. And ideas that would land better in motion usually end up as another static slide. So people wait, or skip it. Claude could already help with parts of this. Now you can ask for the dashboard or the animation itself, and see how Claude made it. Each chart shows the query behind it, and each animation is built as code you can edit. Claude makes the first version, and you decide what gets shared.
 
 ## Claude Dashboards: ask quick questions of your company’s data
 
@@ -32,12 +32,12 @@ Claude Motion is built for explaining your own work. Claude writes code that ani
 
 ## Docs, Slides, and Design are ready for everyday work
 
-[Since we introduced Docs, Slides, and Design in every Claude conversation (opens in new tab)](https://claude.com/blog/cowork-is-now-claude), people have made more than 45 million docs, decks, and designs in Claude. Most of what we’ve shipped since came from your feedback, and it makes them easier to use every day. So we’re taking the beta label off.
+[Since we introduced Docs, Slides, and Design in every Claude conversation (opens in new tab)](https://claude.com/resources/articles/cowork-is-now-claude), people have made more than 45 million [docs, decks, and designs](https://claude.com/resources/articles/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them) in Claude. Most of what we’ve shipped since came from your feedback, and it makes them easier to use every day. So we’re taking the beta label off.
 
 - **Ready for enterprise.** Artifacts now support CMEK, and admins choose which artifact templates their organization uses.
 - **Edit with your team.** Your team and Claude can work on the same doc, deck, design, or dashboard.
 - **Share beyond your team.** Share slides, designs, dashboards, and animations with people outside your organization, or with anyone who has the link, if your admin allows it.
-- **Exports that keep your formatting.** PowerPoint and PDF downloads look like what you made in the editor, and decks go straight to Google Slides as editable files.
+- **Exports that keep your formatting.** PowerPoint and PDF downloads look like what you made in the editor, and decks [go straight to Google Slides](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides) as editable files.
 - **Edit on your phone.** Change a doc, deck, or design in the Claude mobile app.
 
 ## Claude Design has moved into Claude

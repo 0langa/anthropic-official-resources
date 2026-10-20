@@ -8,11 +8,11 @@ Sep 7, 2023
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2504af2b3cd3b1d254bb0fff79d8eefb0db037c7-2880x1620.jpg&w=3840&q=75)
 
-Today, we’re introducing a paid plan for our [Claude.ai](https://claude.ai/redirect/website.v1.00e485e0-5fe1-42fd-bfc6-c17d25296a49) chat experience, currently available in the US and UK.  
+Today, we’re introducing a paid plan for our [Claude.ai](https://claude.ai/redirect/website.v1.e270c9e5-0d0c-421f-8314-1522d1cf3032) chat experience, currently available in the US and UK.  
   
 Since launching in July, users tell us they’ve chosen Claude.ai as their day-to-day AI assistant for its longer context windows, faster outputs, complex reasoning capabilities, and more. Many also shared that they would value more file uploads and conversations over longer periods.  
   
-With [Claude Pro](https://claude.ai/redirect/website.v1.00e485e0-5fe1-42fd-bfc6-c17d25296a49/settings/billing?action=subscribe), subscribers can now gain **5x more usage** of our latest model, Claude 2, for a monthly price of $20 (US) or £18 (UK).  
+With [Claude Pro](https://claude.ai/redirect/website.v1.e270c9e5-0d0c-421f-8314-1522d1cf3032/settings/billing?action=subscribe), subscribers can now gain **5x more usage** of our latest model, Claude 2, for a monthly price of $20 (US) or £18 (UK).  
   
 This means you can level up your productivity across a range of tasks, including summarizing research papers, querying contracts, and iterating further on coding projects—like this recent [demo](https://www.youtube.com/watch?v=oVsHikXgK9Y) of building an interactive map.
 
@@ -28,6 +28,12 @@ We’re grateful for your support as we strive to build helpful, honest, and har
 
 ## Related content
 
+### Investing in the public benefit
+
+We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
+
+[Read more](https://www.anthropic.com/news/public-benefit-fund)
+
 ### An update on independent evaluators
 
 To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
@@ -39,9 +45,3 @@ To evaluate the safety of our systems, Anthropic is giving employee-like access 
 Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
 
 [Read more](https://www.anthropic.com/news/2026-us-midterms)
-
-### Anthropic opens Singapore office and signs MOU with the Government of Singapore
-
-Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.
-
-[Read more](https://www.anthropic.com/news/singapore-office-opening)

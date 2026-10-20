@@ -132,7 +132,7 @@ Where the search\_academy MCP tool ranks by meaning, searches an AI client makes
 
 ### What does the “Claude in Academy” setting control?
 
-This setting decides whether members of your organization can use the Claude-powered features in Claude Academy (academy.claude.com): asking Claude questions about what they’re learning, and the lesson tools that turn a passage into a diagram or quiz them on it. When it’s off, members don’t see those features. They can still sign in, take courses, and earn badges. For Team and Enterprise plans, an owner or admin can change the setting at any time in Admin settings > Claude Academy.
+This setting decides whether members of your organization can use the Claude-powered features in Claude Academy (academy.claude.com): asking Claude questions about what they’re learning, and the lesson tools that turn a passage into a diagram or quiz them on it. When it’s off, members don’t see those features. They can still sign in, take courses, and earn badges. For Team and Enterprise plans, the organization’s Primary owner or an Owner can change the setting at any time in Admin settings > Claude Academy.
 
 ### Does “Claude in Academy” cost extra or affect our usage?
 

@@ -14,14 +14,14 @@ Today, we’re releasing a set of connectors—tools that let Claude work alongs
 
 Connectors allow Claude to access other platforms and tools directly. We are adding several new connectors that are designed to make it easier to use Claude for creative work:
 
-- **[Ableton](https://claude.ai/redirect/website.v1.c30da87f-94d4-4dab-a27d-bd15c4c7d970/directory/connectors/ant.dir.gh.ableton.ableton-knowledge)** grounds Claude’s answers in official product documentation for Live and Push.
-- **[Adobe for creativity](https://claude.ai/redirect/website.v1.c30da87f-94d4-4dab-a27d-bd15c4c7d970/directory/connectors/adobe-creativity)** enables users to bring images, videos, and designs to life, drawing from 50+ tools across Creative Cloud apps including Photoshop, Premiere, Express, and more.
-- [**Affinity by Canva**](https://claude.ai/redirect/website.v1.c30da87f-94d4-4dab-a27d-bd15c4c7d970/directory/connectors/ant.dir.gh.canva.affinity) automates repetitive production tasks across pro creative workflows - such as batch image adjustments, layer renaming, and file export - and generates custom features directly in the app.
-- **[Autodesk Fusion](https://claude.ai/redirect/website.v1.c30da87f-94d4-4dab-a27d-bd15c4c7d970/directory/connectors/ant.dir.gh.autodesk.fusion-mcp)** allows designers and engineers with a Fusion subscription to create and modify 3D models through conversations with Claude.
-- **[Blender](https://claude.ai/redirect/website.v1.c30da87f-94d4-4dab-a27d-bd15c4c7d970/directory/connectors/ant.dir.gh.blender.blender-mcp)** offers a natural-language interface to its Python API, allowing users to explore and understand complex setups and making it easier to access Blender’s documentation.
-- **[Resolume Arena](https://claude.ai/redirect/website.v1.c30da87f-94d4-4dab-a27d-bd15c4c7d970/directory/connectors/ant.dir.gh.resolume.resolume-arena) and [Resolume Wire](https://claude.ai/redirect/website.v1.c30da87f-94d4-4dab-a27d-bd15c4c7d970/directory/connectors/ant.dir.gh.resolume.resolume-wire)** let VJs and live visual artists control Arena, Avenue, and Wire in real time through natural language for live performance and AV production.
-- **[SketchUp](https://claude.ai/redirect/website.v1.c30da87f-94d4-4dab-a27d-bd15c4c7d970/directory/connectors/sketchup)** turns a conversation with Claude into a starting point for 3D modeling—describe a room, a piece of furniture, or a site concept, then open it in SketchUp to refine**.**
-- **[Splice](https://claude.ai/redirect/website.v1.c30da87f-94d4-4dab-a27d-bd15c4c7d970/directory/connectors/splice)** gives music producers the ability to search its catalog of royalty-free samples from within Claude.
+- **[Ableton](https://claude.ai/redirect/website.v1.af2eefc4-f240-4963-92bc-60180c9661ee/directory/connectors/ant.dir.gh.ableton.ableton-knowledge)** grounds Claude’s answers in official product documentation for Live and Push.
+- **[Adobe for creativity](https://claude.ai/redirect/website.v1.af2eefc4-f240-4963-92bc-60180c9661ee/directory/connectors/adobe-creativity)** enables users to bring images, videos, and designs to life, drawing from 50+ tools across Creative Cloud apps including Photoshop, Premiere, Express, and more.
+- [**Affinity by Canva**](https://claude.ai/redirect/website.v1.af2eefc4-f240-4963-92bc-60180c9661ee/directory/connectors/ant.dir.gh.canva.affinity) automates repetitive production tasks across pro creative workflows - such as batch image adjustments, layer renaming, and file export - and generates custom features directly in the app.
+- **[Autodesk Fusion](https://claude.ai/redirect/website.v1.af2eefc4-f240-4963-92bc-60180c9661ee/directory/connectors/ant.dir.gh.autodesk.fusion-mcp)** allows designers and engineers with a Fusion subscription to create and modify 3D models through conversations with Claude.
+- **[Blender](https://claude.ai/redirect/website.v1.af2eefc4-f240-4963-92bc-60180c9661ee/directory/connectors/ant.dir.gh.blender.blender-mcp)** offers a natural-language interface to its Python API, allowing users to explore and understand complex setups and making it easier to access Blender’s documentation.
+- **[Resolume Arena](https://claude.ai/redirect/website.v1.af2eefc4-f240-4963-92bc-60180c9661ee/directory/connectors/ant.dir.gh.resolume.resolume-arena) and [Resolume Wire](https://claude.ai/redirect/website.v1.af2eefc4-f240-4963-92bc-60180c9661ee/directory/connectors/ant.dir.gh.resolume.resolume-wire)** let VJs and live visual artists control Arena, Avenue, and Wire in real time through natural language for live performance and AV production.
+- **[SketchUp](https://claude.ai/redirect/website.v1.af2eefc4-f240-4963-92bc-60180c9661ee/directory/connectors/sketchup)** turns a conversation with Claude into a starting point for 3D modeling—describe a room, a piece of furniture, or a site concept, then open it in SketchUp to refine**.**
+- **[Splice](https://claude.ai/redirect/website.v1.af2eefc4-f240-4963-92bc-60180c9661ee/directory/connectors/splice)** gives music producers the ability to search its catalog of royalty-free samples from within Claude.
 
 ## Using Claude for creative work
 
@@ -49,6 +49,12 @@ We’re also working with art and design programs to support curricula that invo
 
 ## Related content
 
+### Investing in the public benefit
+
+We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
+
+[Read more](https://www.anthropic.com/news/public-benefit-fund)
+
 ### An update on independent evaluators
 
 To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
@@ -60,9 +66,3 @@ To evaluate the safety of our systems, Anthropic is giving employee-like access 
 Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
 
 [Read more](https://www.anthropic.com/news/2026-us-midterms)
-
-### Anthropic opens Singapore office and signs MOU with the Government of Singapore
-
-Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.
-
-[Read more](https://www.anthropic.com/news/singapore-office-opening)

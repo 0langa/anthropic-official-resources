@@ -13,7 +13,7 @@ Decompose complex tasks across parallel Claude subagents and orchestrate them de
 What you’ll learnBy the end of this course, you’ll be able to
 
 - Explain how subagents work: how Claude Code spins up a separate context window, how inputs flow in, and how summaries come back
-- Create custom subagents with the /agents command for workflows like code review and documentation generation
+- Create custom subagents by asking Claude to write them, for workflows like code review and documentation generation
 - Design reliable subagents with structured output formats, obstacle reporting, and limited tool access
 - Decide when subagents help most and recognize the common anti-patterns to avoid
 

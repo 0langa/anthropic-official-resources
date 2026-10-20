@@ -4,7 +4,13 @@
 
 64 tutorials
 
-[![](https://academy.claude.com/assets/v1/thumbnail.light-bb0g5i6x.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j090lkdj.png)
+[![](https://academy.claude.com/assets/v1/thumbnail.light-oi1gl21n.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nqg67vsk.png)
+
+## Build and share tools in Claude with custom artifacts
+
+Ask Claude for an interactive page that fits your work, one that can save what your team enters.
+
+9 min](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-bb0g5i6x.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j090lkdj.png)
 
 ## Choosing the right Claude model: Haiku, Sonnet, Opus, or Fable
 
@@ -34,7 +40,13 @@ A self-paced guide to help nonprofit staff build confidence with Claude and disc
 
 A phased implementation framework to help nonprofit admins launch, scale, and sustain Claude adoption across their organization.
 
-4 min](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-success-guide-for-admins)[![](https://academy.claude.com/assets/v1/thumbnail.light-o61zk21d.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k41o64xt.png)
+4 min](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-success-guide-for-admins)[![](https://academy.claude.com/assets/v1/thumbnail.light-bbsyvsy0.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cyg3k7ot.png)
+
+## Collaborate with your team in Claude artifacts
+
+Build a doc, a deck, a design, a dashboard, or an animation with Claude, then share it so your team can work on it too.
+
+8 min](https://academy.claude.com/tutorials/intro-to-artifacts)[![](https://academy.claude.com/assets/v1/thumbnail.light-o61zk21d.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k41o64xt.png)
 
 ## Connect your tools to unlock a smarter, more capable AI companion
 
@@ -136,16 +148,4 @@ How to use the scVI-Tools bioinformatics skill bundle with Claude
 
 Learn how to use the single-cell-rna-qc skill to perform quality control analysis on single-cell RNA-seq data with MAD-based filtering and visualization capabilities.
 
-3 min](https://academy.claude.com/tutorials/how-to-use-the-single-cell-rna-qc-skill-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-ofwck6bq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-09in3lr8.png)
-
-## Intro to Projects
-
-Learn how Projects can streamline your workflow with Claude for more organized and efficient conversations.
-
-7 min](https://academy.claude.com/tutorials/intro-to-projects)[![](https://academy.claude.com/assets/v1/thumbnail.light-b9qlnr3z.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mpd67del.png)
-
-## Navigating the Claude desktop app
-
-Learn what changes when you use Claude in the desktop app, and what it can do across your computer and tools.
-
-6 min](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)Load more
+3 min](https://academy.claude.com/tutorials/how-to-use-the-single-cell-rna-qc-skill-with-claude)Load more

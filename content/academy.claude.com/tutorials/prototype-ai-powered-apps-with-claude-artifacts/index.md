@@ -1,115 +1,366 @@
-# Prototype AI-Powered Apps with Claude artifacts
+# Build and share tools in Claude with custom artifacts
 
-Learn how to rapidly build, test, and share AI-powered applications using Claude artifacts without API key management.
+Ask Claude for an interactive page that fits your work, one that can save what your team enters.
 
-8 minClaude
+9 minClaude
 
-Watch[Open Claude](https://claude.ai/new)
+[Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-e0a70awd.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lqlj31zf.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-oi1gl21n.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nqg67vsk.png)
 
-Traditionally, building AI applications has required a lot — managing API keys, stressing about costs, handling complex deployments, accidentally hitting rate limits, and more. With Claude’s artifacts, you can skip the hassle of configuration and build a fully functional, AI-powered application with Claude’s intelligence built right in. These artifacts use your existing usage limits—no API keys, no per-call charges, no deployment hassle — so you can focus on the fun stuff.
+Describe an interactive page your work needs, like a tracker, a quiz, or a planner, and Claude builds a working first version that opens beside your conversation. The page Claude builds this way, from scratch for your request, is a custom artifact. Each artifact also has its own link, so you can share it with your team and work in it together.
 
-In this guide, you’ll learn how to rapidly build, test, and share AI-powered applications using Claude.
+From there, ask Claude to:
 
-Embedded media: https://www.youtube-nocookie.com/embed/PBxwtabGltc?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+- **Change it**, in the conversation or in a comment you leave on the page.
+- **Save what people enter**, so your team works together in one artifact.
+- **Use your connected tools**, like Google Calendar or Asana, to bring live information into the artifact.
+- **Add Claude to the artifact itself**, so people can use Claude inside it.
 
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=PBxwtabGltc)
+## What are custom artifacts and when would you use them?[](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)
 
-## Configuring a Claude API inside Claude artifacts[](https://academy.claude.com/tutorials/prototype-ai-powered-apps-with-claude-artifacts)
+Claude has named kinds of artifacts for common work, like documents, presentations, and designs. When your work fits none of them, ask for a **custom artifact**, such as an interactive tool or tracker. You can specify which kind you want in your request, or describe the work and Claude picks what fits the task.
 
-Using a limited text-based completion inside [Claude.ai(opens in new tab)](http://claude.ai/) artifacts is quite simple.
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">Kind of artifact</th><th class="border-b border-strong p-sm text-left font-medium">Best for</th></tr></thead><tbody><tr><td class="border-b p-sm">Claude Docs</td><td class="border-b p-sm">A document that you, your teammates, and Claude all write in at the same time</td></tr><tr><td class="border-b p-sm"><a aria-describedby="_R_2k5nmd35kq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary" data-cds="TextLink" href="https://academy.claude.com/tutorials/using-claude-design-for-presentations-and-slide-decks" rel="noopener" target="_blank">Claude Slides<span class="sr-only" hidden="" id="_R_2k5nmd35kq_">(opens in new tab)</span></a></td><td class="border-b p-sm">A deck built from your conversation, to edit slide by slide and present from inside Claude</td></tr><tr><td class="border-b p-sm"><a aria-describedby="_R_2s5nmd35kq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary" data-cds="TextLink" href="https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux" rel="noopener" target="_blank">Claude Design<span class="sr-only" hidden="" id="_R_2s5nmd35kq_">(opens in new tab)</span></a></td><td class="border-b p-sm">A design or clickable prototype in your brand's colors and type</td></tr><tr><td class="border-b p-sm">Claude Dashboards (beta, paid plans)</td><td class="border-b p-sm">Charts and numbers from your data, for quick, exploratory questions</td></tr><tr><td class="border-b p-sm"><a aria-describedby="_R_bc5nmd35kq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary" data-cds="TextLink" href="https://support.claude.com/en/articles/17454997-get-started-with-claude-motion" rel="noopener" target="_blank">Claude Motion<span class="sr-only" hidden="" id="_R_bc5nmd35kq_">(opens in new tab)</span></a> (beta, Team and Enterprise)</td><td class="border-b p-sm">An animated explainer, chart, or product walkthrough</td></tr><tr><td class="border-b p-sm"><strong>Custom artifact</strong></td><td class="border-b p-sm">An interactive page built for your request, like a tracker or an intake form, that can save what people enter</td></tr></tbody></table>
 
-1. You can add AI capabilities to your artifact by simply **asking** Claude to use Claude, with additional instructions as needed.
-2. Optionally, test that it’s working as expected with the sample prompt below.
+[Collaborate with your team in Claude artifacts(opens in new tab)](https://academy.claude.com/tutorials/intro-to-artifacts) shows each kind.
 
-Use this simple prompt to test that the API embedded in the artifact is working as expected:
+## Create your first custom artifact[](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)
 
-Create a simple chatbot that uses Claude. Respond with compliments to every user input.
+Start in any conversation with what you want to do, then build on what Claude gives you.
 
-
+1. **Describe what you want to do.** Say what it's for and, if a problem is behind it, what gets in the way, like *"I want one place to see which launch tasks are behind, because right now they're spread across three spreadsheets."*
+2. **Let Claude interview you.** Claude often asks a few questions first, such as who will use it and what it needs to show. If it doesn't, ask it to.
+3. **Ask Claude to build it.** When the idea is clear, ask for it directly, for example *"Build this as an artifact."*
 
-Open in Claude
+The artifact opens beside your conversation. It's also saved on the Artifacts page in the sidebar, so you can open it again later on the web, the desktop app, or the mobile app.
 
-What you’ll see if you try this prompt, is that Claude will create a “compliment bot” where users can input anything and receive LLM-powered compliments in return!
+Simulation: a conversation with Claude beside the working priorities tracker it built from an attached doc and the user's answers. You can check priorities off or add one.
 
-## Inspiration for your first AI artifact[](https://academy.claude.com/tutorials/prototype-ai-powered-apps-with-claude-artifacts)
+Try the priorities tracker Claude built in this conversation
 
-The possibilities for creating artifacts that interact with Claude through an API are as endless as your imagination. Here’s four types of apps you could build to get started:
+You: 
 
-- **Learning & education tools** — Interactive tutors and study companions with AI can better understand the context of a user’s learning needs. Like a code reviewer that gives detailed feedback on style and best practices based on pre-configured guidelines, or this [language tutor(opens in new tab)](https://claude.ai/public/artifacts/2af221b6-367f-4b4f-9fe9-25710f5f8feb) that lets you chat and learn in a language of your choice.
+Attached file: This week.docx*DOCX*
 
-![Language tutor artifact with Spanish selected and a "Beginner" badge, beside a sidebar of progress stats and learning goals.](https://academy.claude.com/assets/media/b909e755e3f0fcf8631e0f47d269dad6642789ac160526cef1d41f3a5ffca413.png)
+I keep my team’s weekly priorities in a doc like this one, and by Wednesday they get lost. I’d like a tracker for them.
 
-- **Content generation tools** — Collaborative assistants that help brainstorm, develop, and refine creative work and content according to some pre-configured guidelines can help you get work done faster. Like a writing tool designed to intake your internal slack posts and get them ready to share on LinkedIn, or this [one-page PRD maker(opens in new tab)](https://claude.ai/public/artifacts/3d81ba29-d1ad-4e9b-b58e-3e0f46ba8afd).
+Step 1You: 
 
-![The one-page PRD maker asks three questions about the product, its users and key features, with a Generate PRD button.](https://academy.claude.com/assets/media/0bf232ba4fca7e1cb8100f08a2357d1261c38714231682f6a5f65e5f1504e4cb.png)
+Attached file: This week.docx*DOCX*
 
-- **Analysis & decision support** - Intelligent tools that process user data and help make informed decisions through conversation are great for organizational efficiency. Like [this tool(opens in new tab)](https://claude.ai/public/artifacts/fc64414e-76db-4876-8531-6e9794e4b1be) designed to help teams get to the root of problems through the “5 whys” framework.
+I keep my team’s weekly priorities in a doc like this one, and by Wednesday they get lost. I’d like a tracker for them.
 
-![5 whys artifact: a "What challenge are you facing?" field, examples such as "Family conflicts", and a "Start journey" button.](https://academy.claude.com/assets/media/79955e056d6ebd410f90228b4e3af1caba85ed643f057eb5b0366ebc928862d7.png)
+Step 2Claude: 
 
-- **Apps for fun —** at the end of the day, the best apps are derived from a unique perspective and good idea. This [dream interpreter(opens in new tab)](https://claude.ai/public/artifacts/be6430eb-3710-447c-a8b6-da40792ed790) is a perfect example. If you can dream it, you can probably build it.
+Two quick questions. Who checks off priorities during the week, just you or the whole team? And should it show who owns each priority?
 
-![Dream interpreter artifact with a box to describe your dream and an "Interpret dream" button.](https://academy.claude.com/assets/media/bf360df84dc808d986d1825e7b87ba0406edd030e66b6c983e424a2f68402286.png)
+Step 3You: 
 
-## Tips for building artifacts with Claude[](https://academy.claude.com/tutorials/prototype-ai-powered-apps-with-claude-artifacts)
+The whole team, and yes, show owners. **Build this as an artifact.**
 
-As you build with Claude, consider the following tips to get the best possible output.
+Claude: 
 
-- **Let Claude interview you**: Consider starting your conversation with an idea and letting Claude interview you to refine it into an artifact-worthy prompt. Claude can ask you questions and suggest features to make your vision a reality.
-- **Iterate with follow-up prompts**: Simply ask Claude to modify your artifact as needed. You can ask things like: make the buttons bigger, respond in less than 200 words each time, change the color scheme, and so on. Each request builds on previous versions while Claude maintains context about what you've built and why.
-- **Debug through conversation**: When something breaks, either click "Fix with Claude" or describe the problem in plain language ("the calculator isn't working with decimals," "the game crashes at level 3"). No need to understand technical error messages.
+Here it is: this week’s priorities by due day, each with an owner and a checkbox. The checkmarks don’t save yet. Want me to save them, so they’re still there tomorrow?
 
-**Experiment with forking**: Go back to any previous message, click "Edit" to create a new conversation branch, and try different approaches. You can always return to your original version, encouraging bold experimentation with styles, features, or entirely different directions.
+This weekArtifact · Only you
 
-## Sharing your Claude artifacts[](https://academy.claude.com/tutorials/prototype-ai-powered-apps-with-claude-artifacts)
+This weekShare
 
-Another benefit to prototyping with artifacts is that you can share your ideas without having to host them externally.
+Claude built this tracker from the attached doc and the answers in the conversation.
 
-### Share your prototype with just a few clicks[](https://academy.claude.com/tutorials/prototype-ai-powered-apps-with-claude-artifacts)
+## Customize your artifact further for you and your team[](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)
 
-All you need to do is click the “Publish” button in the top right hand corner of the artifact menu and distribute the link.
+Once Claude has built your artifact, you can improve or add additional features just by asking Claude. Saving entries and using connected tools need a [paid plan(opens in new tab)](https://academy.claude.com/tutorials/intro-to-artifacts).
 
-Note that this link is specific to the version of the artifact you shared, and that **anyone with this link can access** your creation until you unpublish it. (You can always come back to the “published” tab to see all artifacts you’ve previously shared.)
+### Change what Claude built[](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)
 
-![Publish artifact dialog for the "Flashcard" artifact, noting your chat will remain private, with Cancel and Publish buttons.](https://academy.claude.com/assets/media/96051ee27068bc8fc64b170b8724d00591ba0c3aa8dd06a2e4366fc3f0769f2b.png)
+- **A change to the whole artifact:** Ask in the conversation, for example *"Group the priorities by owner instead of by day."*
+- **A change to one part:** Click **Comment**, click the spot, write your request, and keep **Send to Claude** checked.
+- **Before a big change:** Choose **Duplicate** from the artifact's title menu, so you can compare the two or go back.
 
-### Moving from prototype to production[](https://academy.claude.com/tutorials/prototype-ai-powered-apps-with-claude-artifacts)
+### Save what people enter[](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)
 
-While artifacts are excellent for prototyping and sharing AI-powered apps, they're best for testing and demonstration. At some point, you'll likely want to implement proper API key management and build more robust infrastructure. Eventually, you’ll also run up against a few technical limitations in [claude.ai(opens in new tab)](http://claude.ai/) (like the lack of interleaved scripts).
+Saved entries are still there the next time anyone opens the artifact, even after Claude changes it.
 
-Whatever the reason, when you’re ready to take your artifact to the next level, you’ll be able to copy Claude’s code and paste it into your editor of choice. From there, [Claude Code(opens in new tab)](https://www.anthropic.com/claude-code) is ready to step in.
+- To save entries within your artifact, tell Claude what the artifact should keep.
+- Each artifact has a storage limit, which the [Help Center(opens in new tab)](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them) lists.
 
-![A cursor pointing at the "Copy" button in a Claude artifact panel showing HTML for a Cherry Blossom Tea Garden Explorer.](https://academy.claude.com/assets/media/40b01eb44904c4ddaa36871d7c1c35da84e5ef04ac73c81954e7afdd69cf7fc5.png)
+Animation: the user asks Claude to save the checkmarks on a team priorities tracker. When the tracker is opened the next day, yesterday's checkmarks are still there.
 
-As you build, keep working with Claude as a brainstorming partner for next-steps and new ideas, using Claude Code for tactical execution. Before you know it, you’ll have a fully validated, production-ready app.
+You ask Claude: **Save the checkmarks** as people check off tasks, so the whole team sees what’s done the next time we open the tracker.
 
-## FAQs[](https://academy.claude.com/tutorials/prototype-ai-powered-apps-with-claude-artifacts)
+Write a message…
 
-### What are artifacts and why use them for prototyping?[](https://academy.claude.com/tutorials/prototype-ai-powered-apps-with-claude-artifacts)
+This weekIRShare
 
-[Artifacts(opens in new tab)](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them) are self-contained pieces of code that Claude creates during conversations. They appear in a dedicated panel next to the chat, making them easy to view, edit, and interact with in real-time. Plus, they can be shared to the world in just a few clicks.
+This week**3** of 9 done
 
-For AI app prototyping, artifacts offer a few key advantages to traditional development flows.
+Write Friday update
 
-- **Instant feedback** — Test working code immediately as Claude generates it
-- **Rapid iteration** — Request changes based on your testing in real-time
-- **Built-in AI capabilities** — Add Claude API calls without additional costs or setup
+4 of 9 priorities are done this week. Two are overdue. One teammate is out Thursday and Friday, so someone needs to cover their Friday task.
 
-### Can I collaborate on artifacts with friends or teammates?[](https://academy.claude.com/tutorials/prototype-ai-powered-apps-with-claude-artifacts)
+MonR
 
-When someone with a Claude account clicks your shared link, they can customize and modify the artifact by talking to Claude. When they do so, they create their own copy rather than editing your original—so your version stays exactly as you made it while they develop their own variation. Great for quick iteration and record-keeping of past app ideas.
+I
 
-### What kinds of usage limits exist for AI in artifacts?[](https://academy.claude.com/tutorials/prototype-ai-powered-apps-with-claude-artifacts)
+TueTout Thu, Fri
 
-Whoever uses your app incurs usage on their plan. In other words, when you're building and testing the API usage counts against your plan, but when others use your shared app, the usage is on their plan instead.
+M
 
-In simplest terms, when someone uses your Claude-powered app:
+WedC
 
-- They authenticate with their existing Claude account
-- Their API usage counts against *their* subscription, not yours
-- You pay nothing for their usage
-- No one needs to manage API keys
+R
+
+ThuI
+
+C
+
+FriTout Thu, Fri
+
+**This week**
+
+Add peopleInvite
+
+People with access
+
+*(you)*Owner
+
+IContributor
+
+RContributor
+
+What changes: You open the tracker the next day, and yesterday’s checkmarks are still there.
+
+### Use your connected tools in the artifact[](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)
+
+An artifact can read from tools you've connected, like Asana, Google Calendar, or Slack, and make changes in them.
+
+- To connect a tool to your Claude account, like your calendar, email, or drive, see [connecting your tools to Claude(opens in new tab)](https://academy.claude.com/tutorials/getting-started-with-connectors).
+- [Each person connects their own tools(opens in new tab)](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them), even on a shared artifact. The artifact uses their connections, not yours, so if someone doesn't have access to a source, that part shows an error instead of your data.
+
+Animation: the user asks Claude to show who's out of office on a team priorities tracker. The artifact uses a connected tool, Google Calendar, to tag a teammate who is out.
+
+In the message box’s + menu, under Connectors, Google Calendar is on.
+
+You ask Claude: **Show who’s out of office this week**, using our team’s Google Calendar.
+
+ConnectorsGoogle CalendarWrite a message…
+
+This weekIRShare
+
+This week**4** of 9 done
+
+Write Friday update
+
+4 of 9 priorities are done this week. Two are overdue. One teammate is out Thursday and Friday, so someone needs to cover their Friday task.
+
+MonR
+
+I
+
+TueTout Thu, Fri
+
+M
+
+WedC
+
+R
+
+ThuI
+
+C
+
+FriTout Thu, Fri
+
+**This week**
+
+Add peopleInvite
+
+People with access
+
+*(you)*Owner
+
+IContributor
+
+RContributor
+
+What changes: The artifact uses a connected tool, in this case Google Calendar, to show who’s out.
+
+### Add Claude to your artifact[](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)
+
+Ask in the conversation to add Claude to your artifact, and people can use Claude inside it, with nothing to set up. Each person's use counts toward their own plan, like any other message.
+
+Animation: the user asks for a button on a team priorities tracker that uses Claude to write a team update. The button is pressed, and Claude drafts the update inside the artifact.
+
+You ask Claude: Add a “Write Friday update” button that **uses Claude to write a short team update** from what’s done and what’s overdue.
+
+Write a message…
+
+This weekIRShare
+
+This week**4** of 9 done
+
+Write Friday update
+
+4 of 9 priorities are done this week. Two are overdue. One teammate is out Thursday and Friday, so someone needs to cover their Friday task.
+
+MonR
+
+I
+
+TueTout Thu, Fri
+
+M
+
+WedC
+
+R
+
+ThuI
+
+C
+
+FriTout Thu, Fri
+
+**This week**
+
+Add peopleInvite
+
+People with access
+
+*(you)*Owner
+
+IContributor
+
+RContributor
+
+What changes: Claude works inside the artifact, in this case to draft a Friday update.
+
+### Download and upload files in the artifact[](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)
+
+An artifact can give people a file to save, like a spreadsheet or PDF of the entries. For example, try asking Claude, *"Add a button that downloads this week's priorities as a spreadsheet."*
+
+People in your organization who can edit the artifact can also upload files to it, such as images, PDFs, or spreadsheets saved as CSV.
+
+### Ask Claude about your team's entries[](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)
+
+Once an artifact saves entries, you can ask Claude about them in the conversation, or ask Claude to change the saved entries.
+
+- For example, before a meeting, ask *"Summarize what the team added this week."*
+- To fill a new tracker, attach a spreadsheet and ask *"Load these forty rows into the tracker."*
+- At the start of a month, ask *"Clear last month's entries."*
+
+## Share your artifact with your team[](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)
+
+Share your artifact with your team, and you can all view and edit the same one.
+
+- Click **Share** and add your teammates by email, or share it with everyone in your organization and send them the link.
+- To let teammates in your organization add and change the shared entries alongside you, give them more access in **Share**. People you add can comment at first.
+- To see each other's changes as they happen, without reloading, ask Claude.
+- People you share with see the artifact and its comments, but not your conversation with Claude.
+
+Animation: Share opens on a team priorities tracker, and two teammates are added. They open the tracker from its link and see the same checkmarks.
+
+You do this: Click Share at the top right, add your teammates, and give them access to change the shared entries.
+
+Write a message…
+
+This weekIRShare
+
+This week**4** of 9 done
+
+Write Friday update
+
+4 of 9 priorities are done this week. Two are overdue. One teammate is out Thursday and Friday, so someone needs to cover their Friday task.
+
+MonR
+
+I
+
+TueTout Thu, Fri
+
+M
+
+WedC
+
+R
+
+ThuI
+
+C
+
+FriTout Thu, Fri
+
+**This week**
+
+Add peopleInvite
+
+People with access
+
+*(you)*Owner
+
+IContributor
+
+RContributor
+
+What changes: Your teammates open the tracker from its link and see the same checkmarks.
+
+Read more Sharing outside your organization or by link
+
+People you invite need a Claude account. When you share an artifact with **Anyone with the link**, people outside your organization and people who aren't signed in to Claude can open it. Some parts, like the ones that use connected tools, don't work for them.
+
+To learn more, see [Share artifacts(opens in new tab)](https://support.claude.com/en/articles/9547008-share-artifacts) in the Help Center.
+
+## Inspiration for your first custom artifact[](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)
+
+These combine saved entries, files, and Claude in different ways.
+
+**Reviewers and checkers:** Build a submission portal where Claude checks each draft against your voice and writing standards.
+
+Illustration: a message to Claude beside the artifact it built, a page where teams submit drafts and Claude checks each one against your voice rules.
+
+You ask Claude: Build a page where teams submit drafts, Claude checks each one against my voice rules, and I approve it or send it back.
+
+Copy deskShare
+
+![Copy desk: an inbox of other teams' drafts, each checked by Claude against your voice rules](https://academy.claude.com/assets/media/9274d87c11be48baa808d9f45b01c5d0a2db9577d25c4f8e0e19d6b8e31058b9.png)
+
+**Content tools:** Build a page where Claude transforms your update for different channels.
+
+Illustration: a message to Claude beside the artifact it built, a page where one pasted update becomes an email, an in-app banner, and a social post.
+
+You ask Claude: Build a page where I paste an update once and Claude writes the email, in-app banner, and social post in our tone.
+
+One update, three channelsShare
+
+![One update, three channels: one pasted update becomes an email, an in-app banner, and a post](https://academy.claude.com/assets/media/870a86a7dca74e01bfdef06dd671a168a313f5cb2e6b220c5c055be58eda999a.png)
+
+**Analysis and decision support:** Give Claude your context, like your files, and see your options laid out side by side.
+
+Illustration: a message to Claude with vendors' quotes attached, beside the artifact it built, a page that compares the quotes, weighs them, and recommends one.
+
+Attached file: Vendor A quote.pdf*PDF*Attached file: Vendor B quote.pdf*PDF*Attached file: Vendor C quote.pdf*PDF*
+
+You ask Claude: Build a page that compares these quotes, lets me set what matters most, and recommends one I can defend.
+
+Help me pickShare
+
+![Help me pick: three quotes compared, weighted, and turned into a recommendation you can defend](https://academy.claude.com/assets/media/a6279596d0b33932044582d9ab3db817a6d2e77fe5cedb0313f0dc8d32141ee5.png)
+
+## Use your artifact outside Claude[](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)
+
+When the work has to leave Claude, export your artifact as a file, or build it as software you run yourself.
+
+- **As an HTML file:** Choose **Export** in the artifact's title menu and pick **HTML**. In the exported copy, the parts that save entries, use Claude, or use connected tools stop working.
+- **As software you run yourself:** Ask Claude for its code and build the full version in Claude Code.
+
+## More resources[](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)
+
+- Read [Collaborate with your team in Claude artifacts(opens in new tab)](https://academy.claude.com/tutorials/intro-to-artifacts) for docs, decks, designs, dashboards, and animations.
+- To make the same kind of artifact again for each project, see [how to create a skill through conversation(opens in new tab)](https://academy.claude.com/tutorials/how-to-create-a-skill-with-claude-through-conversation).
+- Read [connecting your tools to Claude(opens in new tab)](https://academy.claude.com/tutorials/getting-started-with-connectors) to set up the tools your artifacts use.
+- Visit the Help Center for more on [artifacts(opens in new tab)](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them) and [sharing(opens in new tab)](https://support.claude.com/en/articles/9547008-share-artifacts).
+- Artifacts you made in a chat before September 16, 2026 still work, and their published links still open. The Help Center explains [how to share or unpublish one(opens in new tab)](https://support.claude.com/en/articles/9547008-share-artifacts).
 
 Was this helpful?

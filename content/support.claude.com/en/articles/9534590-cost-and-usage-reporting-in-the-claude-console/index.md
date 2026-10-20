@@ -1,22 +1,18 @@
-# Cost and Usage Reporting in the Claude Console
-
-**Note:** Usage and Cost reporting is visible to the following user roles: **Developer, Billing, and Admin**. See [Claude Console Roles and Permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions) for more information.
+# Cost and usage reporting in the Claude Console
 
 The Claude Console provides detailed cost and usage reporting to help you effectively manage your API usage and associated costs. This guide walks you through these features and how to use them.
 
-## Accessing Cost and Usage Reports
+Usage and Cost reporting is visible to the following user roles: **Developer, Billing, and Admin**. See **[Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)** for more information.
 
-Users with access to these reports can click into them on the left navigation menu on the Console:
+## Access cost and usage reports
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1792315800&amp;signature=6422842fd1f0c0b603d1713ae59dbc73a299236d25a0d2a2dabcfff754d76045&amp;req=dSUvEs97mYNeXvMW1HO4zYCWiCYbgMOSuqqBX2puyxTr2%2BF6Y%2BV5w7NNv%2Ffc%0AAarA%2FYgFb3AmO8rpUrQ%3D%0A)
+Users with access can open these reports at the addresses below.
 
----
+## Usage reporting
 
-## Usage Reporting
+The **Usage** page (platform.claude.com/usage) offers a detailed breakdown of your API usage across different models and API keys.
 
-The [Usage page](https://platform.claude.com/usage) offers a detailed breakdown of your API usage across different models and API keys.
-
-### Key Features
+### Key features
 
 - **Detailed Breakdown**: View usage data by model, date/time, and API key. Click into the bars on the bar chart for hour and minute granularity.
 
@@ -32,7 +28,7 @@ The [Usage page](https://platform.claude.com/usage) offers a detailed breakdown 
 
 - **CSV Export**: Download your usage data for further analysis or reporting.
 
-### How to Use
+### How to use
 
 1. Select the Workspace you want to view (or choose "All Workspaces").
 
@@ -46,11 +42,7 @@ The [Usage page](https://platform.claude.com/usage) offers a detailed breakdown 
 
 6. Use the export button to download a CSV of the displayed data.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1792315800&amp;signature=529efcc5f4f96bbba7bb70571a5d823f629af45bc94ab81a7f99d3f199e5f0b0&amp;req=dSUvEs94mYJdWPMW1HO4zQwERnEpIIpuqMITUZbanFDKiGZjV8vXslRAr9sF%0A%2FQTfyMEZuhuqvS%2BYKIk%3D%0A)
-
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1792315800&amp;signature=9141aedec6f3a1b218b45e79208be48dd87034d0b7ced346464771990523097d&amp;req=dSUvEs93noJXX%2FMW1HO4zRxEwGlO51Rk21D6pckxWMZqcKxxr67D7foWtyon%0A97DB1xCDB2zpr5k7gm4%3D%0A)
-
-### Rate Limit Use
+### Rate limit use
 
 The Usage page also includes a separate section displaying rate limit use per-model for input and output tokens. You can click the dropdown in the upper left corner of this section to change the model and view related rate limit metrics. These visualizations can be used to determine when you’re hitting peak use for your organization, which specific rate limits need to be increased, and how you can increase your caching rate.
 
@@ -60,11 +52,11 @@ The Usage page also includes a separate section displaying rate limit use per-mo
 
 ---
 
-## Cost Reporting
+## Cost reporting
 
-The [Cost page](https://platform.claude.com/cost) helps you understand your spending across different models.
+The **Cost** page (platform.claude.com/cost) helps you understand your spending across different models.
 
-### Key Features
+### Key features
 
 - **Model-Specific Data**: View costs for individual models or all models combined.
 
@@ -76,7 +68,7 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 
 - **CSV Export**: Download cost data for your records for further analysis.
 
-### How to Use
+### How to use
 
 1. Choose the Workspace you want to view costs for (or select "All Workspaces").
 
@@ -87,7 +79,5 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 4. You can see the chart, token cost, and tool use costs, which will update based on your selections.
 
 5. Use the export button to download a CSV of the cost data.
-
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1792315800&amp;signature=ea05cf053b12c1876ff8656e6154fae1e1eb1c1aa5d5375b89922eb0a5ad0323&amp;req=dSUvEs95lIVfWPMW1HO4zUR%2Bhp7AUtVpCyIF5nuUsbxxKMmwx0gSrpEIfG6S%0Aowf7USgHyxBhlzXKUJg%3D%0A)
 
 **Note**: Currently, it's not possible to break down usage or cost by individual users.

@@ -26,11 +26,11 @@ Build your skills with written guides and video lessons, from quick tasks to com
 
 ### Teach Claude your way of working using skills
 
-10 min](https://academy.claude.com/tutorials/teach-claude-your-way-of-working-using-skills)[![](https://academy.claude.com/assets/v1/thumbnail.light-fug4apyj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-g8e7vz1g.png)
+10 min](https://academy.claude.com/tutorials/teach-claude-your-way-of-working-using-skills)[![](https://academy.claude.com/assets/v1/thumbnail.light-oi1gl21n.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nqg67vsk.png)
 
-### Claude Enterprise Administrator Guide
+### Build and share tools in Claude with custom artifacts
 
-20 min](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)
+9 min](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)
 
 ## Claude Cowork
 
@@ -180,9 +180,9 @@ Claude in Chrome·15 min](https://academy.claude.com/tutorials/simplify-your-bro
 
 ### Best practices for using Claude Tag
 
-Claude Tag·10 min](https://academy.claude.com/tutorials/best-practices-using-claude-tag)[![](https://academy.claude.com/assets/v1/thumbnail.light-bo89k5cy.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-g612q1rb.png)
+Claude Tag·10 min](https://academy.claude.com/tutorials/best-practices-using-claude-tag)[![](https://academy.claude.com/assets/v1/thumbnail.light-h7021hye.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ibapsq93.png)
 
-### Using Claude Design for presentations and slide decks
+### Making slides and presentations with Claude
 
 Claude Design·10 min](https://academy.claude.com/tutorials/using-claude-design-for-presentations-and-slide-decks)[![](https://academy.claude.com/assets/v1/thumbnail.light-h62nz1hq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jcrg0885.png)
 

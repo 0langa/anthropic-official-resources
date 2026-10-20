@@ -96,7 +96,7 @@ Installation takes just minutes and works in your terminal or IDE.
 
 ![Augment Code](https://assets.claude.com/7c991eec0ef2ebdbb312e3a55072965c105f343e.svg)
 
-> “Claude Sonnet 4.5's intelligence is immediately noticeable—it makes better use of Augment's codebase context, handles longer-horizon tasks, and opens up new agentic possibilities we're actively exploring.”
+> “Claude Sonnet 4.5’s intelligence is immediately noticeable—it makes better use of Augment’s codebase context, handles longer-horizon tasks, and opens up new agentic possibilities we’re actively exploring.”
 
 Guy Gur-Ari, Co-founder
 
@@ -126,7 +126,15 @@ Do I need to change my development workflow to use agentic coding?
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 16, 2026
+[ArticleOct 19, 2026
+
+### Redesigning source control at Anthropic
+
+As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
+
+Claude Code
+
+(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)[ArticleOct 16, 2026
 
 ### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
 
@@ -144,15 +152,7 @@ Claude Code
 
 ### Uber's CISO on building an insider threat program for AI
 
-Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)[ArticleOct 8, 2026
-
-### Building effective agent automations
-
-A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
-
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
+Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)
 
 ## Transform how your organization operates with Claude
 

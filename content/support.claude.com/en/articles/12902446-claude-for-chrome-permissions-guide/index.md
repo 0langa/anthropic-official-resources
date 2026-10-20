@@ -28,7 +28,7 @@ In "Manually approve," Claude checks with you before it acts. What that looks li
 
 Claude creates a plan from your prompt, which you can approve before Claude starts. The plan specifies which websites you're allowing Claude to access, as well as the approach it will follow:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1792317600&amp;signature=ed3afa573daef935f4e518fd4720fb49e052e1aee568520b0bf19fb1cdafd9e7&amp;req=dSgjFcp8nYZdXvMW1HO4zYqyZMBO%2FYWxgN0ADj5oqFCPxt8pQ%2FjbkCXjardV%0Ad%2F%2FkN8lHo1PLrmqkQhc%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1792492200&amp;signature=2e70e2c2f8bdb5350ae90d61bb7f72b5f26714e2117500b0d103b6c2aaff6bba&amp;req=dSgjFcp8nYZdXvMW1HO4zYqyZMBJ9YC1gN0ADj5oqFDTXpiLtP1jGjo7g5t9%0ArZElVMaG2Yw7eIF8TiU%3D%0A)
 
 Note that Claude will only use the websites listed in the plan, so you’ll need to manually approve any additional access requests.
 
@@ -62,7 +62,7 @@ When you choose "Skip all approvals," Claude doesn't pause to ask, and nothing c
 
 There are some websites on which Claude requires approval for every action. If you navigate to one of these sites, a **New permissions required** prompt will appear in the extension side panel, Claude Cowork, or Claude Code where Claude will ask for permission before accessing the page or taking any action.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1792317600&amp;signature=f88d025768d0bc61a4e96cdff89a95f7111d95e994b53bc6845681de8478b14b&amp;req=diYnEsB5nYldXPMW1HO4zZ3Nq2RziSvq7A4lHPBihAUWQZ54BHJkic4PDqlj%0A261GF2iWqUAIybiA39Y%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1792492200&amp;signature=49622973dac19e7b2eeb41b5c57e95440b0a05cd96af704e8b977891ee038df4&amp;req=diYnEsB5nYldXPMW1HO4zZ3Nq2R0gS7u7A4lHPBihAVMxEp8NhIAni7Xqme2%0AtRHofsd%2FjXUIk0mTe8U%3D%0A)
 
 ### Permission options
 

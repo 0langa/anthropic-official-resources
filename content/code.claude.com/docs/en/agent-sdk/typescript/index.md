@@ -527,7 +527,7 @@ Configuration object for the `query()` function.
 | `outputFormat` | `{ type: 'json_schema', schema: JSONSchema }` | `undefined` | Define output format for agent results. See [Structured outputs](/docs/en/agent-sdk/structured-outputs) for details |
 | `outputStyle` | `string` | `undefined` | Not an `Options` field. Set `outputStyle` in the inline [`settings`](/docs/en/settings) object or a settings file instead. See [Activate an output style](/docs/en/agent-sdk/modifying-system-prompts#activate-an-output-style) |
 | `pathToClaudeCodeExecutable` | `string` | Auto-resolved from bundled native binary | Path to Claude Code executable. Only needed if optional dependencies were skipped during install or your platform isn't in the supported set |
-| `permissionMode` | [`PermissionMode`](#permissionmode) | `undefined` | Permission mode for the session. If you omit it, the session can start in auto mode. See [Permission modes](/docs/en/agent-sdk/permissions#permission-modes) for how Claude Code picks the starting permission mode |
+| `permissionMode` | [`PermissionMode`](#permissionmode) | `undefined` | Permission mode for the session. If you omit it and nothing else sets a permission mode, such as a [`permissions.defaultMode`](/docs/en/settings-reference#permissions-defaultmode) setting, the session starts in `default`. See [Permission modes](/docs/en/agent-sdk/permissions#permission-modes) |
 | `permissionPromptToolName` | `string` | `undefined` | MCP tool name for permission prompts |
 | `permissionPrompts` | `'host' \| 'none'` | `'host'` | Who answers permission prompts: `'host'` routes them to your [`canUseTool`](#canusetool) callback or the `permissionPromptToolName` tool, and `'none'` [denies the calls that would have prompted](/docs/en/agent-sdk/permissions#how-permissions-are-evaluated). Requires Claude Code v2.1.259 or later |
 | `persistSession` | `boolean` | `true` | When `false`, disables session persistence to disk. Sessions cannot be resumed later |
@@ -577,7 +577,7 @@ const result = query({
 });
 ```
 
-* `API_TIMEOUT_MS`: per-request timeout on the Anthropic client, in milliseconds. Default `600000`. Applies to the main loop and all subagents.
+* [`API_TIMEOUT_MS`](/docs/en/env-vars): how long each request attempt can wait for response headers, in milliseconds. It doesn't limit how long a streaming response runs after the headers arrive. Default `600000`. Applies to the main loop and all subagents.
 * `CLAUDE_CODE_MAX_RETRIES`: maximum API retries. Default `10`, capped at `15`. Each retry gets its own `API_TIMEOUT_MS` window.
 
   For unattended runs that need to wait through longer outages, set [`CLAUDE_CODE_RETRY_WATCHDOG=1`](/docs/en/errors#tune-retry-behavior): it retries transient capacity errors indefinitely and, on Claude Code v2.1.199 or later, raises the default for other transient errors to `300` and removes the cap on this variable.

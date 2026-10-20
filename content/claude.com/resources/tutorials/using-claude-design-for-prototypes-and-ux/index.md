@@ -1,141 +1,153 @@
-# Using Claude Design for prototypes and UX
+# Using Claude for prototypes and UX
 
-Claude Design by Anthropic Labs is a powerful tool for product designers and product managers who need to move fast from concept to working prototype. This guide covers workflows specific to product work – rapid prototyping, connecting your codebase for production-aware designs, iterating on features with real components, and handing off to engineering through Claude Code.
+Turn a feature idea into a prototype your team can click through, then build from it in Claude Code.
 
 15 minClaude Design
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-k687t63t.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-btcr2j4a.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-h2vxzijh.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-b8l91frv.png)
 
-## Using Claude Design for prototypes and UX[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
+A feature idea is easier to judge when people can click through it. With Claude Design, you describe the feature in a conversation and Claude builds a prototype your team can open and try. If Claude has your design system, it builds the prototype from your own components, like your product's real buttons and forms.
 
-Claude Design by Anthropic Labs is a powerful tool for product designers and product managers who need to move fast from concept to working prototype. This guide covers workflows specific to product work – rapid prototyping, connecting your codebase for production-aware designs, iterating on features with real components, and handing off to engineering through Claude Code.
+
 
-## Product design workflows[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
+Claude Design is available on every plan. On Team and Enterprise, an owner can [turn it on or off(opens in new tab)](https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans). You can now start designs in a conversation with Claude. To move your design systems from the standalone site, claude.ai/design, see [Migrate from standalone Claude Design(opens in new tab)](https://academy.claude.com/tutorials/create-a-design-system-with-claude).
 
-#### Rapid feature prototyping
+## 1. Start a design[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
 
-The most common product use case: you have a feature idea and need to make it tangible before committing engineering resources. Claude Design lets you go from concept to interactive prototype in a single conversation.
+You can start a design from wherever you work with Claude.
 
-**Example prompts for feature prototyping:**
+- **In any conversation:** ask for a prototype, a mockup or a set of screens, on the web or in the desktop app.
+- **From the sidebar:** open **Artifacts**, choose **Design** under **Make something new**, and describe what you want in the conversation that opens.
+- **In Claude Code, inside your repository:** ask the same way. There, Claude can also read your product's code, as [section 3](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux) explains.
 
-Design a new settings page for our SaaS app with sections for account, billing, notifications, and integrations. Include a sidebar nav and make each section expandable.
+The design opens beside the conversation on a canvas you can pan and zoom. Each screen sits on its own artboard. The design is saved under **Artifacts**, and other people can't open it until you share it.
 
-Copy prompt
+
 
-Create an onboarding flow for a new user — 5 screens that walk them through connecting their data source, configuring their first dashboard, and inviting teammates.
+Say whether it should be clickable
 
-Copy prompt
+To get a more dynamic or interactive design, try asking for screens that are clickable, or a working prototype.
 
-Prototype a search experience with filters, faceted results, and a detail panel that slides in from the right when you click a result.
+## 2. Prototype the feature[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
 
-Copy prompt
+Here are some kinds of prototypes you can ask for, with prompts to try.
 
-Build an approval workflow UI where managers can review, comment on, and approve or reject submitted requests in a queue.
+### A new feature[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
 
-Copy prompt
+Describe the screen, its sections and how they behave.
 
-#### Design reviews and stakeholder alignment
+- *"Design a new settings page for our SaaS app with sections for account, billing, notifications, and integrations. Include a sidebar nav and make each section expandable."*
+- *"Prototype a search experience with filters, faceted results, and a detail panel that slides in from the right when you click a result. Make it clickable."*
+- *"Build an approval workflow UI where managers can review, comment on, and approve or reject submitted requests in a queue."*
 
-Before committing to a direction, you often need to get feedback from stakeholders who think better when they can see and interact with something. Claude Design is fast enough that you can generate 2–3 alternative approaches and present them side by side.
+### Alternatives for a design review[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
 
-**Example prompts:**
+Ask for each approach on its own artboard. You and your reviewers can then compare them side by side.
 
-Show me three different layouts for a user profile page — one card-based, one with a left sidebar, and one with a top tab navigation.
+- *"Show me three different layouts for a user profile page: one card-based, one with a left sidebar, and one with top tab navigation. Put each on its own artboard."*
+- *"Create two versions of this checkout flow on separate artboards, one single-page and one multi-step, so I can compare them in a design review."*
 
-Copy prompt
+### A whole flow[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
 
-Create two versions of this checkout flow — one single-page and one multi-step wizard — so I can compare them in a design review.
+Describe the journey step by step.
 
-Copy prompt
+*"Map out the flow for a user who wants to upgrade from a free plan to a paid plan. Start from the dashboard where they see the upgrade prompt, through the plan comparison page, payment form, confirmation, and the updated dashboard with premium features unlocked."*
 
-#### User flow mapping
+### Internal tools and admin panels[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
 
-You can use Claude Design to prototype complete user flows, not just individual screens. Walk Claude through the journey and it will generate each screen in context.
+Claude Design works well for internal tools, like admin panels and moderation queues. People can click through the prototype and see whether the steps work before the screens are polished.
 
-**Example prompt:**
+*"Design an admin panel for managing user accounts: a searchable table with filters for plan type and status, and a detail drawer that shows account history and lets you modify permissions."*
 
-Map out the flow for a user who wants to upgrade from a free plan to a paid plan. Start from the dashboard where they see the upgrade prompt, through the plan comparison page, payment form, confirmation, and the updated dashboard with premium features unlocked.
+Claude may not have every fact, such as your real pricing. It may ask you, or make an assumption. Always review Claude's work and check the details before you share the design. To learn more about evaluating Claude's output, read [How people check Claude's work(opens in new tab)](https://academy.claude.com/tutorials/discernment-toolkit), our education report.
 
-Copy prompt
+Loading
 
-#### Internal tools and admin panels
+## 3. Build with your own components[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
 
-Product teams often need internal tools quickly — admin dashboards, content moderation panels, ops workflows. These are great candidates for Claude Design because speed matters more than pixel perfection.
+Claude can build a prototype with your real components, the same buttons and forms your product already uses. The prototype then matches what engineers will build. Without your components, Claude draws its own version that only looks similar.
 
-**Example prompts:**
+You can get a prototype that matches your product in either of these ways:
 
-Design an admin panel for managing user accounts — searchable table with filters for plan type and status, with a detail drawer that shows account history and lets you modify permissions.
+- **Set up a design system (recommended):** a design system keeps your colors, type and components in one place in Claude. Once your organization has set a default, Claude uses it for any design your team starts. See [Setting up a design system in Claude(opens in new tab)](https://academy.claude.com/tutorials/create-a-design-system-with-claude).
+- **Work from Claude Code in the repository:** ask for the design from a Claude Code session inside your project. Claude can read the code and pick up the colors, type and spacing your product already uses. This needs no setup.
 
-Copy prompt
+Whichever you choose, these habits help:
 
-Create a content moderation queue where reviewers can see flagged items, view context, and take action (approve, reject, escalate) with keyboard shortcuts.
+- **Name components in your prompts:** "use the ProductCard component" or "follow the same layout as the settings page" tells Claude which ones to use.
+- **Point Claude at the interface code:** in a large repository, tell Claude which package or folder holds the components.
+- **To change a component, ask Claude:** your real components appear on the artboard exactly as they are in your code.
+- **Refresh after the library changes:** a design system synced from your code keeps a copy of your components from the last sync. Sync it again after a release.
 
-Copy prompt
+## 4. Refine on the artboards[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
 
-## Connecting your codebase[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
+You can change a design yourself, leave a comment for Claude, or ask in the conversation. Changes save as you make them, so there's no Save button.
 
-For product teams, connecting your codebase to Claude Design is where the tool gets significantly more useful. Instead of generic prototypes, Claude generates designs using your actual components, styling, and architecture.
+- **By hand:** click an element to select it, double-click text to retype it, and drag to move it. Use the toolbar to add text, notes, shapes and new artboards. **Properties** shows the settings for the element you selected.
+- **With a comment:** to change one element, turn on comments, click the element, write what you want, and keep **Send to Claude** checked. Claude makes the change and replies in the comment thread.
+- **By asking:** for a larger change, such as a new state or another alternative, ask in the conversation.
 
-### Why It matters for product work[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
+For example: *"Show how this page handles the empty state, the error state and a loading state. Put each on its own artboard next to the current one."*
 
-**Prototypes use your real components:** When Claude can see your component library, it designs with the buttons, cards, modals, and layouts that already exist in your codebase. No more "this looks great but we don't have that component" during handoff.
+
 
-**Architectural consistency:** Claude analyzes your styling patterns (CSS modules, Tailwind, styled-components, etc.), spacing scale, color system, and layout conventions. New designs stay aligned with what's already shipped.
+Duplicate before a big change
 
-**Faster handoff:** Since the prototype is already built with your real patterns, the gap between "prototype" and "shippable code" shrinks dramatically.
+To try a new direction without losing this one, choose **Duplicate** from the design's title menu and work on the copy.
 
-### How to connect a codebase[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
+Loading
 
-Claude Design allows you to both import from Github and attach via local directories via the Import button.
+## 5. Review it with your team[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
 
-Once linked, your codebase becomes part of the project context. You can reference specific components by name in your prompts — "use the ProductCard component" or "follow the same layout pattern as the settings page."
+With **Share**, you choose who can open the design and whether they can view, comment or edit. People you invite need a Claude account. For the options on each plan, see [Share artifacts(opens in new tab)](https://support.claude.com/en/articles/9547008-share-artifacts) in the Help Center.
 
-### What Claude understands from your code[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
+What each person can do depends on the access you give them:
 
-Claude analyzes your linked codebase to understand:
+- **Can view:** they open the design, click any element to read its size, spacing and colors, and run a clickable artboard with **Play**. They can't change anything.
+- **Can comment:** the same, plus comments on the elements they click.
+- **Can edit:** they change the design themselves and add notes on the canvas. People in your organization who can edit can also send a comment to Claude as a request.
 
-- **Component structure** — Your UI building blocks and how they compose together
-- **Styling and theming** — Your color system, spacing scale, typography, and CSS approach
-- **Framework patterns** — State management, hooks, data flow, and other conventions
-- **File organization** — How you name and structure components and directories
+People with edit access can work on the canvas at the same time, and you see each other's changes as they happen.
 
-### Performance considerations[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
+On Team and Enterprise plans, an owner of your organization decides whether you can share outside it. For someone who can't open the link, use **Export**. You can export:
 
-Linking very large repositories can cause lag or browser stability issues. If your codebase is a monorepo or if you’re working on a codebase with more than 100 people actively contributing, we recommend linking the specific package or directory that contains the relevant components rather than the entire repo.
+- One artboard as a PNG, PDF or HTML (.zip) file
+- The whole prototype as one web page (HTML), from **Share** > **Export**
+- Every artboard in one PDF
 
-We’ve also noticed that Chrome doesn’t handle attaching huge file trees well. You can avoid this by attaching folders within your repo, such that you do not include the .git folder, node\_modules/ folder, etc., which may contain very large numbers of files.
+## 6. Continue in Claude Code[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
 
-## Hand off to Claude Code[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
+Claude Code can open a prototype made in Claude Design. An engineer can then build from the actual artboards and the components in them, not from a screenshot.
 
-When a prototype is ready for implementation, Claude Design can hand off to Claude Code – preserving the design intent, component choices, and architectural decisions so engineers can build on your work instead of reinterpreting it.
+- **If you designed in Claude Code:** stay in the same session and ask Claude to build it. To come back later, open the design from **Artifacts** and use the button next to **Share** to reopen the session that made it.
+- **If you designed somewhere else:** give the engineer edit access to the design. In Claude Code, inside the repository, they paste the design's link and ask Claude to implement it.
 
-Click “Export” and “Hand off to Claude Code” to get started. By default, we bundle the project’s design files, chat, and a README which tells the model to interpret the designs for download, and give you a prompt you can paste into local Claude Code (or coding agent of your choice) that includes the bundle’s URL.
+Loading
 
-!["Send to local coding agent" tab: prompt to fetch the design file and implement index_v2.html, with a "Copy command" button.](https://academy.claude.com/assets/media/fdcc6c3270613c284d96f453d543b49c6dfca2d1479847ce095da330ade3d97d.png)
+### Before you start the build[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
 
-You’ll also have an option to hand off to Claude Code Web.
+A few steps make the design easier to build from:
 
-![Send to Claude Code Web tab, with a prompt asking Claude to implement index_v2.html and an Open in Claude Code Web button.](https://academy.claude.com/assets/media/0dddc62e3118e544b752ab34ae09cb4379d414cec338fc0899907aded5564986.png)
+- **Name artboards and components clearly:** Claude Code reads those names in the design.
+- **Write down decisions as you make them:** if you chose tabs over a sidebar, say why in a note on the artboard, where Claude Code can read it.
+- **Ask for the empty, error and loading states first:** also ask how the screen behaves with very little data and with far more than you expect.
 
-This handoff is especially valuable when your codebase is linked, because Claude Code already understands the components and patterns the prototype was built with. As one design lead put it: "Including design intent in Claude Code handoffs has made the jump from prototype to production seamless."
+## 7. An example from idea to implementation[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
 
-### Tips for a clean handoff[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
+1. **A PM describes the feature** in a conversation. It is a notification center with filtering and bulk actions.
+2. **Claude builds a first prototype** from the organization's design system, and a designer refines it on the artboards.
+3. **The PM shares the design** for an async review, and the team plays the prototype and comments.
+4. **An engineer opens the design in Claude Code** and asks Claude to implement it.
 
-- **`Name` things clearly in the prototype.** If you've referred to components by specific names during the design conversation, those names carry through to the handoff.
-- **Document decisions in the chat.** When you make a design decision during iteration ("we went with tabs instead of a sidebar because users need to see all sections at once"), that reasoning becomes context for implementation.
-- **Flag edge cases.** Before handing off, ask Claude to show how the design handles empty states, error states, loading states, and different data volumes. This gives engineering a more complete picture.
+Loading
 
-## Example: End-to-end product design workflow[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
+## If something looks off[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
 
-Here's how a product team might use Claude Design from idea to implementation:
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">What you see</th><th class="border-b border-strong p-sm text-left font-medium">What to do</th></tr></thead><tbody><tr><td class="border-b p-sm">You asked for a deck and got artboards with no Present button</td><td class="border-b p-sm">Decks are a separate kind of artifact, Claude Slides. Ask for slides or a deck, and Claude can turn a design into one in the same conversation. See <a aria-describedby="_R_kdlnmd35kq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary" data-cds="TextLink" href="https://academy.claude.com/tutorials/using-claude-design-for-presentations-and-slide-decks" rel="noopener" target="_blank">Making slides and presentations with Claude<span class="sr-only" hidden="" id="_R_kdlnmd35kq_">(opens in new tab)</span></a>.</td></tr><tr><td class="border-b p-sm">The prototype doesn't respond to clicks</td><td class="border-b p-sm">Press <strong>Play</strong> above the artboard. If the artboard has no <strong>Play</strong> button, ask Claude to make it clickable.</td></tr><tr><td class="border-b p-sm">The screens don't use your real components</td><td class="border-b p-sm">Claude doesn't have them yet. See <a class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary" data-cds="TextLink" href="https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux">section 3</a>.</td></tr><tr><td class="border-b p-sm">Claude Design isn't offered anywhere</td><td class="border-b p-sm">On Team and Enterprise plans, an owner <a aria-describedby="_R_l5lnmd35kq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary" data-cds="TextLink" href="https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans" rel="noopener" target="_blank">turns it on<span class="sr-only" hidden="" id="_R_l5lnmd35kq_">(opens in new tab)</span></a> under <strong>Organization settings &gt; Artifacts</strong>.</td></tr><tr><td class="border-b p-sm">A design system you made at claude.ai/design isn't in the <strong>+ &gt; Design system</strong> menu</td><td class="border-b p-sm">It has to be migrated first, from the <strong>Artifacts</strong> page. See <a aria-describedby="_R_15dlnmd35kq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary" data-cds="TextLink" href="https://academy.claude.com/tutorials/create-a-design-system-with-claude" rel="noopener" target="_blank">Migrate from standalone Claude Design<span class="sr-only" hidden="" id="_R_15dlnmd35kq_">(opens in new tab)</span></a>.</td></tr><tr><td class="border-b p-sm">Someone can't open the link you shared</td><td class="border-b p-sm">On Team and Enterprise plans, an owner of your organization decides whether you can share outside it. Use <strong>Export</strong> to send them a file instead. See <a aria-describedby="_R_15llnmd35kq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary" data-cds="TextLink" href="https://support.claude.com/en/articles/9547008-share-artifacts" rel="noopener" target="_blank">who can open a shared artifact<span class="sr-only" hidden="" id="_R_15llnmd35kq_">(opens in new tab)</span></a>.</td></tr></tbody></table>
 
-1. **PM writes a prompt** describing a new feature — e.g., a notification center with preferences, filtering, and bulk actions
-2. **Claude generates an initial prototype** using the org's design system and linked codebase components
-3. **Designer iterates** using inline comments and chat — adjusts layout, refines interactions, ensures accessibility
-4. **PM shares the prototype** with the team via a link for async design review
-5. **Team discusses and iterates** — Claude generates alternative approaches for the parts that aren't working
-6. **Design lead validates** that the prototype uses real components and patterns correctly
-7. **Handoff to Claude Code** — the prototype, design decisions, and codebase context transfer to engineering
-8. **Engineer uses Claude Code** to implement the feature, starting from the prototype rather than from scratch
+## More resources[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
 
-**Have questions about Claude Design prototypes?** Reach out to your Design Team or try building a prototype yourself – most people find the workflow intuitive once they create their first one.
+- [Making slides and presentations with Claude(opens in new tab)](https://academy.claude.com/tutorials/using-claude-design-for-presentations-and-slide-decks) for decks.
+- [Setting up a design system in Claude(opens in new tab)](https://academy.claude.com/tutorials/create-a-design-system-with-claude) so designs use your components and type.
+- [Collaborate with your team in Claude artifacts(opens in new tab)](https://academy.claude.com/tutorials/intro-to-artifacts) for how designs are shared and edited with your team.
+- Visit the [Help Center(opens in new tab)](https://support.claude.com/en/articles/14604416-get-started-with-claude-design) for more support and troubleshooting.

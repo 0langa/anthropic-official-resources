@@ -103,7 +103,7 @@ Ansh Nanda, Co-founder
 
 ![Sentry](https://assets.claude.com/410f375f04040180bb6545e287b4ad178b0d7767.svg)
 
-> “Turns out telling developers what's wrong with their code isn't enough: they want you to fix it too. Customers can now go from Seer's root cause analysis straight to a Claude-powered agent that writes the fix and opens a PR. We chose Claude Managed Agents because it gives us a secure, fully managed agent runtime, allowing us to focus our efforts on building a seamless developer experience around the handoff. Managed Agents not only allowed us to build the initial integration in weeks instead of months, but has also eliminated the ongoing operational overhead of maintaining bespoke agent infrastructure.”
+> “Turns out telling developers what’s wrong with their code isn’t enough: they want you to fix it too. Customers can now go from Seer’s root cause analysis straight to a Claude-powered agent that writes the fix and opens a PR. We chose Claude Managed Agents because it gives us a secure, fully managed agent runtime, allowing us to focus our efforts on building a seamless developer experience around the handoff. Managed Agents not only allowed us to build the initial integration in weeks instead of months, but has also eliminated the ongoing operational overhead of maintaining bespoke agent infrastructure.”
 
 Indragie Karunaratne, Senior Director of Engineering, AI/ML
 

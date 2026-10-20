@@ -28,7 +28,7 @@ Course·10 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduct
 - [Claude with Amazon BedrockCourse65 lessons · 8 quizzes
 
   Course·65 lessons · 8 quizzes](https://academy.claude.com/courses/claude-with-amazon-bedrock)
-- [Claude with Google Cloud's Vertex AICourse66 lessons · 9 quizzes
+- [Claude on Google CloudCourse66 lessons · 9 quizzes
 
   Course·66 lessons · 9 quizzes](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai)
 - [Building effective agents www.anthropic.com—

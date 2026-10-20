@@ -63,7 +63,7 @@ Here are two cases where a custom system prompt makes the subagent genuinely bet
 
 ## When Subagents Hurt[](https://academy.claude.com/courses/introduction-to-subagents/using-subagents-effectively)
 
-The overhead of launching a subagent -- losing visibility into its work and compressing its findings into a summary -- only makes sense when the subagent does something the main thread can't. There are three common anti-patterns to watch out for.
+The overhead of launching a subagent -- hiding its work from the main thread and compressing its findings into a summary -- only makes sense when the subagent does something the main thread can't. There are three common anti-patterns to watch out for.
 
 ### Expert Claims[](https://academy.claude.com/courses/introduction-to-subagents/using-subagents-effectively)
 
@@ -75,7 +75,7 @@ Sequential subagent pipelines create problems. Consider a three-agent flow: one 
 
 ### Test Runners[](https://academy.claude.com/courses/introduction-to-subagents/using-subagents-effectively)
 
-Test runner subagents tend to hide information you need. When tests fail, you want the full output to diagnose issues. A subagent that returns "tests failed" forces you to create additional debug scripts to get details that would have been visible in direct output. Testing has shown that the test runner pattern performed worse among all configurations.
+Test runner subagents tend to hide information you need. When tests fail, you want the full output to diagnose issues. A subagent that returns "tests failed" forces you to create additional debug scripts to get details that would have been visible in direct output. Testing has shown that the test runner pattern performed worst among all configurations.
 
 ## The Decision Rule[](https://academy.claude.com/courses/introduction-to-subagents/using-subagents-effectively)
 
