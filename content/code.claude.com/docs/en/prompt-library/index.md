@@ -7,8 +7,6 @@ This is a library of prompts to copy into Claude Code. Use it to explore ways of
 
 The prompts are collected from various Anthropic guides, including [Common workflows](/docs/en/common-workflows), [Best practices](/docs/en/best-practices), and [How Anthropic teams use Claude Code](https://claude.com/blog/how-anthropic-teams-use-claude-code). They're starting points rather than scripts. Open **Why this works** under any prompt to see the pattern behind it so you can write your own.
 
-<PromptLibrary />
-
 ## What makes these prompts work
 
 The prompts above share a few patterns. Recognizing them helps you adapt any prompt here to your own task.

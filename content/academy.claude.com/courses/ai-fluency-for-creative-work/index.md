@@ -33,6 +33,10 @@ This course lightly covers the foundational AI Fluency concepts. However, for de
 
 It is also recommended that learners have access to an AI tool for hands-on practice. Examples in this course will use [Claude.ai(opens in new tab)](https://claude.ai/), but any AI assistant will work.
 
+#### Acknowledgments and license
+
+*Copyright 2025 Rick Dakan, Joseph Feller, and Anthropic. Released under the CC BY-NC-SA 4.0 license. This course is based on The AI Fluency Framework by Dakan and Feller. Supported in part by the Higher Education Authority, Ireland, through the National Forum for the Enhancement of Teaching and Learning.*
+
 ## Inside the course
 
 ### Introduction

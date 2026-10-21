@@ -1,4 +1,4 @@
-Quiz 1 of 9 · Claude with Google Cloud's Vertex AIQuiz on accessing Claude with the API
+Quiz 1 of 9 · Claude on Google CloudQuiz on accessing Claude with the API
 
 # Quiz on accessing Claude with the API
 

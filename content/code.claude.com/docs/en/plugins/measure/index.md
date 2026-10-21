@@ -7,12 +7,12 @@ Every session where a plugin is enabled includes the names and descriptions of i
 
 This page is for plugin authors and maintainers. If you administer Claude Code for an organization, [Measure across a fleet](#measure-across-a-fleet) covers the same questions across every machine.
 
-<Note>
-  These cases are covered on other pages:
-
-  * **Testing how reliably the plugin changes Claude's behavior**: see [Test plugins with evals](/docs/en/plugin-evals)
-  * **Trimming your own session's context**: see [Manage installed plugins](/docs/en/plugins/install#manage-installed-plugins) and the [context window](/docs/en/context-window) page
-</Note>
+> [!NOTE]
+>
+> These cases are covered on other pages:
+>
+> * **Testing how reliably the plugin changes Claude's behavior**: see [Test plugins with evals](/docs/en/plugin-evals)
+> * **Trimming your own session's context**: see [Manage installed plugins](/docs/en/plugins/install#manage-installed-plugins) and the [context window](/docs/en/context-window) page
 
 Start with [Measure what a plugin costs](#measure-what-a-plugin-costs).
 

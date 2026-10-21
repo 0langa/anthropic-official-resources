@@ -55,6 +55,10 @@ All AI-generated and co-created content underwent thorough validation, editing, 
 
 This disclosure is made in the spirit of transparency advocated by the AI Fluency Framework and to acknowledge the evolving role of AI in educational content development and other creative and intellectual work.
 
+#### Acknowledgments and license
+
+*Copyright 2026 Anthropic. Created in partnership with Teach For America. Released under the CC BY-NC-SA 4.0 license.*
+
 ## Inside the course
 
 ### Introduction and AI Fluency framework

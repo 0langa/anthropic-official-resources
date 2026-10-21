@@ -1,10 +1,28 @@
-InterpretabilityResearch
-
 # Decomposing language models into understandable components
 
-Oct 5, 2023
+![Decomposing language models into understandable components](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8631a609a389098894e040fe7f23cde3bb8b7313-2000x1125.jpg&w=1920&q=75)
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F01458fcaec292524542130b0ccd91becc1e19ba7-2880x1620.png&w=3840&q=75)
+- Published
+
+  Oct 5, 2023
+- Team
+
+  [Interpretability](https://www.anthropic.com/research/team/interpretability)
+- Topics
+
+  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)
+  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)See more...
+
+Related articles
+
+- Interpretability
+
+  Oct 16, 2024
+
+  [Using dictionary learning features as classifiers](https://www.anthropic.com/research/features-as-classifiers)
+
+[View more](https://www.anthropic.com/search?topic=interpretability)
 
 Neural networks are trained on data, not programmed to follow rules. With each step of training, millions or billions of parameters are updated to make the model better at tasks, and by the end, the model is capable of a dizzying array of behaviors. We understand the math of the trained network exactly – each neuron in a neural network performs simple arithmetic – but we don't understand why those mathematical operations result in the behaviors we see. This makes it hard to diagnose failure modes, hard to know how to fix them, and hard to certify that a model is truly safe.
 

@@ -1,12 +1,36 @@
-Frontier Red Team
+### Chapter 07: A new era for MITRE ATT&CK
 
-# Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator
+# **Mapping AI-enabled cyber threats:**Insights from the LLM ATT&CK Navigator
 
-Jun 3, 2026
+![Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1f630e0abb6d51eefc0eea387946ae6cb0fc253e-2000x1125.jpg&w=1920&q=75)
+
+- Published
+
+  Jun 3, 2026
+- Team
+
+  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+- Topics
+
+  - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+
+Related articles
+
+- Security
+
+  Jun 3, 2026
+
+  [What we learned mapping a year’s worth of AI-enabled cyber threats](https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack)
+
+[View more](https://www.anthropic.com/search?topic=threat-intelligence)
 
 *Kyla Guru, Alex Moix, and Jacob Klein*
 
-*We’ve spent the past year investigating how threat actors are weaponizing AI to conduct cyber operations. Today, we’re sharing a new analysis that maps these real-world attacks onto the* *[MITRE ATT&CK® framework](https://attack.mitre.org/), a database of tactics and techniques used by cyberattackers. Doing so reveals patterns that challenge traditional assumptions about cybersecurity—for example, the level of risk a threat actor poses can be assessed via metrics like technical sophistication or breadth of techniques. We partnered with Verizon to include some of these results in the* *[2026 Verizon Data Breach Investigation Report (DBIR)](https://www.verizon.com/business/resources/reports/dbir/), and are publishing this report to offer a longer-form analysis of trends we are seeing in AI-enabled cyber operations.*[1]
+*We’ve spent the past year investigating how threat actors are weaponizing AI to conduct cyber operations. Today, we’re sharing a new analysis that maps these real-world attacks onto the* *[MITRE ATT&CK® framework](https://attack.mitre.org/), a database of tactics and techniques used by cyberattackers. Doing so reveals patterns that challenge traditional assumptions about cybersecurity—for example, the level of risk a threat actor poses can be assessed via metrics like technical sophistication or breadth of techniques. We partnered with Verizon to include some of these results in the* *[2026 Verizon Data Breach Investigation Report (DBIR)](https://www.verizon.com/business/resources/reports/dbir/), and are publishing this report to offer a longer-form analysis of trends we are seeing in AI-enabled cyber operations.*[1](https://www.anthropic.com/research/attack-navigator)
 
 Embedded media: https://assets.claude.ai/brand/artifacts/editorial/llm\_attack\_navigator.html
 
@@ -16,7 +40,7 @@ Open the [interactive Navigator in a new tab](https://red.anthropic.com/2026/att
 
 For this study, we analyzed 832 accounts associated with malicious cyber activity over the course of one year, from March 2025 to March 2026. Anthropic banned these accounts from using Claude for violating our [Usage Policy](https://www.anthropic.com/legal/aup). The accounts in this analysis are just a subset of those we investigated and banned during this time period; we selected them because we had enough detail about their malicious activities to map their techniques onto the MITRE ATT&CK framework.
 
-The 832 accounts in our analysis used AI models for all 14 tactics and 482 unique sub-techniques across the framework, from initial reconnaissance through final impact.[2] We also developed a risk-scoring framework (described later in this post) to assess how much AI assistance helped these actors plan their attacks. Most strikingly, we found that the percentage of actors labeled as being medium risk or higher jumped from 33% to 56% between the first and second halves of the year. This suggests that AI is helping attackers conduct increasingly sophisticated cyber operations with greater ease.
+The 832 accounts in our analysis used AI models for all 14 tactics and 482 unique sub-techniques across the framework, from initial reconnaissance through final impact.[2](https://www.anthropic.com/research/attack-navigator) We also developed a risk-scoring framework (described later in this post) to assess how much AI assistance helped these actors plan their attacks. Most strikingly, we found that the percentage of actors labeled as being medium risk or higher jumped from 33% to 56% between the first and second halves of the year. This suggests that AI is helping attackers conduct increasingly sophisticated cyber operations with greater ease.
 
 There are three key findings from our analysis:
 
@@ -160,32 +184,8 @@ We believe the next step is to add new cross-cutting categories to the ATT&CK fr
 
 At the same time, it is clear that defenders will need to use AI with the same sophistication and urgency as attackers, share threat intelligence between organizations, and shorten the time from identifying a software vulnerability to patching it. As an industry, we must become much less tolerant of insecure code. The transitional period will be difficult. But, if industry, government, and civil society treat the current moment with the urgency it warrants, we believe capable AI systems will benefit defenders more than attackers in the long run: finding bugs before new code ships, and making the systems societies depend on more secure. The result could be better-defended infrastructure, and a digital environment with materially less fraud and abuse. We will continue to publish what we learn as the threat landscape evolves.
 
-#### Footnotes
+## Footnotes
 
-[1] For the DBIR, we provided analysis of 11 months of threat actor data, and rounded this out to 12 months for this report.
+01For the DBIR, we provided analysis of 11 months of threat actor data, and rounded this out to 12 months for this report.
 
-[2] We observe sub-techniques from both the Enterprise and the Mobile technique matrices from MITRE. Enterprise techniques account for 99% of observations.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
-
-## Subscribe to the Frontier Red Team newsletter
-
-Get updates on our latest red-teaming research and findings.
+02We observe sub-techniques from both the Enterprise and the Mobile technique matrices from MITRE. Enterprise techniques account for 99% of observations.

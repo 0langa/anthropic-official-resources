@@ -109,7 +109,15 @@ Three things I'd pass on to anyone building their own fleet.
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 16, 2026
+[ArticleOct 19, 2026
+
+### Redesigning source control at Anthropic
+
+As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
+
+Claude Code
+
+(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)[ArticleOct 16, 2026
 
 ### How the Claude Code team does code review
 
@@ -133,15 +141,7 @@ Principles for designing evals and hillclimbing against them without fooling you
 
 Claude Platform
 
-(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
-
-### Claude Code in the cloud: a field guide to cloud sessions
-
-What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
 
 ## Transform how your organization operates with Claude
 

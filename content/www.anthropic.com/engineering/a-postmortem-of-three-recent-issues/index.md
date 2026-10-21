@@ -1,14 +1,32 @@
-[Engineering at Anthropic](https://www.anthropic.com/engineering)
-
-![](https://www-cdn.anthropic.com/images/4zrzovbb/website/0321b0ecbbf53535e93be1310ae1935157bcebdd-1000x1000.svg)
+### Chapter 06: What we're changing
 
 # A postmortem of three recent issues
 
-Published Sep 17, 2025
+![A postmortem of three recent issues](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F55f6ae5b6156f26c14695939ff77d4f4bc4e82f8-2000x1125.jpg&w=1920&q=75)
 
-This is a technical report on three bugs that intermittently degraded responses from Claude. Below we explain what happened, why it took time to fix, and what we're changing.
+- Published
 
-What we're changing
+  Sep 17, 2025
+- Team
+
+  [Engineering](https://www.anthropic.com/engineering)
+- Topics
+
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)See more...
+
+Related articles
+
+- Announcements
+
+  Sep 28, 2026
+
+  [Introducing Claude Sonnet 5.5](https://www.anthropic.com/claude-sonnet-5-5)
+
+[View more](https://www.anthropic.com/search?topic=transparency)
 
 Between August and early September, three infrastructure bugs intermittently degraded Claude's response quality. We've now resolved these issues and want to explain what happened.
 
@@ -60,7 +78,7 @@ This corruption affected requests made to Opus 4.1 and Opus 4 on August 25-28, a
 
 ### 3. Approximate top-k XLA:TPU miscompilation
 
-On August 25, we deployed code to improve how Claude selects tokens during text generation. This change inadvertently triggered a latent bug in the XLA:TPU[1] compiler, which has been confirmed to affect requests to Claude Haiku 3.5.
+On August 25, we deployed code to improve how Claude selects tokens during text generation. This change inadvertently triggered a latent bug in the XLA:TPU1 compiler, which has been confirmed to affect requests to Claude Haiku 3.5.
 
 We also believe this could have impacted a subset of Sonnet 4 and Opus 3 on the Claude API. Third-party platforms were not affected by this issue.
 
@@ -72,7 +90,7 @@ Simultaneously, we have (a) been working with the XLA:TPU team on a fix for the 
 
 To illustrate the complexity of these issues, here's how the XLA compiler bug manifested and why it proved particularly challenging to diagnose.
 
-When Claude generates text, it calculates probabilities for each possible next word, then randomly chooses a sample from this probability distribution. We use "top-p sampling" to avoid nonsensical outputs—only considering words whose cumulative probability reaches a threshold (typically 0.99 or 0.999). On TPUs, our models run across multiple chips, with probability calculations happening in different locations. To sort these probabilities, we need to coordinate data between chips, which is complex.[2]
+When Claude generates text, it calculates probabilities for each possible next word, then randomly chooses a sample from this probability distribution. We use "top-p sampling" to avoid nonsensical outputs—only considering words whose cumulative probability reaches a threshold (typically 0.99 or 0.999). On TPUs, our models run across multiple chips, with probability calculations happening in different locations. To sort these probabilities, we need to coordinate data between chips, which is complex.2
 
 In December 2024, we discovered our TPU implementation would occasionally drop the most probable token when [temperature](https://docs.claude.com/en/docs/about-claude/glossary) was zero. We deployed a workaround to fix this case.
 
@@ -90,7 +108,7 @@ On August 26, we deployed a rewrite of our sampling code to fix the precision is
 
 Code snippet showing a minimized reproducer merged as part of the August 11 change that root-caused the "bug" being worked around in December 2024. In reality, it’s expected behavior of the `xla_allow_excess_precision` flag.
 
-Our fix removed the December workaround because we believed we'd solved the root cause. This led to a deeper bug in the [approximate top-k](https://docs.jax.dev/en/latest/_autosummary/jax.lax.approx_max_k.html) operation—a performance optimization that quickly finds the highest probability tokens.[3] This approximation sometimes returned completely wrong results, but only for certain batch sizes and model configurations. The December workaround had been inadvertently masking this problem.
+Our fix removed the December workaround because we believed we'd solved the root cause. This led to a deeper bug in the [approximate top-k](https://docs.jax.dev/en/latest/_autosummary/jax.lax.approx_max_k.html) operation—a performance optimization that quickly finds the highest probability tokens.3 This approximation sometimes returned completely wrong results, but only for certain batch sizes and model configurations. The December workaround had been inadvertently masking this problem.
 
 ![Slack message showing reproducer of the underlying approximate top-k bug shared with the XLA:TPU engineers who developed the algorithm. The code returns correct results when run on CPUs.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7e42db934d0e84ea40fc56b416ddb09b2097a5ff-2400x1404.png&w=3840&q=75)
 
@@ -98,7 +116,7 @@ Reproducer of the underlying approximate top-k bug shared with the XLA:TPU engin
 
 The bug's behavior was frustratingly inconsistent. It changed depending on unrelated factors such as what operations ran before or after it, and whether debugging tools were enabled. The same prompt might work perfectly on one request and fail on the next.
 
-While investigating, we also discovered that the exact top-k operation no longer had the prohibitive performance penalty it once did. We switched from approximate to exact top-k and standardized some additional operations on fp32 precision.[4] Model quality is non-negotiable, so we accepted the minor efficiency impact.
+While investigating, we also discovered that the exact top-k operation no longer had the prohibitive performance penalty it once did. We switched from approximate to exact top-k and standardized some additional operations on fp32 precision.4 Model quality is non-negotiable, so we accepted the minor efficiency impact.
 
 ## Why detection was difficult
 
@@ -124,7 +142,9 @@ It remains particularly helpful for users to continue to send us their feedback 
 
 We remain grateful to our community for these contributions.
 
-#### Acknowledgments
+## Authors & Acknowledgments
+
+### Acknowledgements
 
 Written by Sam McAllister, with thanks to Stuart Ritchie, Jonathan Gray, Kashyap Murali, Brennan Saeta, Oliver Rausch, Alex Palcuie, and many others.
 
@@ -135,9 +155,3 @@ Written by Sam McAllister, with thanks to Stuart Ritchie, Jonathan Gray, Kashyap
 [3] We had been using this approximate operation because it yielded substantial performance improvements. The approximation works by accepting potential inaccuracies in the lowest probability tokens, which shouldn't affect quality—except when the bug caused it to drop the highest probability token instead.
 
 [4] Note that the now-correct top-k implementation may result in slight differences in the inclusion of tokens near the top-p threshold, and in rare cases users may benefit from re-tuning their choice of top-p.
-
-## Get the developer newsletter
-
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
-
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.

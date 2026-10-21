@@ -18,10 +18,5 @@
     "reason": "outside_scope",
     "type": "document",
     "url": "https://a.anthropic.com/isolated-segment.html"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "script",
-    "url": "https://www.youtube.com/iframe_api"
   }
 ]

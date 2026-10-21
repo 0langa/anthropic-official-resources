@@ -100,7 +100,15 @@ David Traina, Senior Software Engineer
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 16, 2026
+[ArticleOct 19, 2026
+
+### Redesigning source control at Anthropic
+
+As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
+
+Claude Code
+
+(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)[ArticleOct 16, 2026
 
 ### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
 
@@ -120,11 +128,7 @@ Claude Code
 
 Catch more bugs before they reach production.
 
-Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)[ArticleOct 13, 2026
-
-### Uber's CISO on building an insider threat program for AI
-
-Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)
+Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)
 
 ## Transform how your organization operates with Claude
 

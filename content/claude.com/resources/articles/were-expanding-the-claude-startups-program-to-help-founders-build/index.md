@@ -5,7 +5,7 @@
 - Reading time5 min
 - ShareCopy link
 
-***Update, October 13, 2026: Our current cohort is now full, and we’re not accepting new applications right now. Visit the [Claude Startups page](https://www.google.com/url?q=https://claude.com/programs/startups&sa=D&source=calendar&ust=1792350014472877&usg=AOvVaw2ROkBj9BosC-vxxhLPk1By) for more details and answers to common questions.***  
+***Update, October 13, 2026: Our current cohort is now full, and we’re not accepting new applications right now. Visit the [Claude Startups page](https://claude.com/programs/startups) for more details and answers to common questions.***  
   
 Today we’re expanding Claude Startups, our program for founders building companies on Claude. Member benefits include a year of the Claude Team plan, API credits, special offers on tools that help with running an AI-native company, office hours with Anthropic’s Applied AI team, and more.
 

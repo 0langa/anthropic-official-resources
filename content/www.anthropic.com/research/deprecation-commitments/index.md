@@ -1,10 +1,28 @@
-Alignment
-
 # Commitments on model deprecation and preservation
 
-Nov 4, 2025
+- Published
 
-![Commitments on model deprecation and preservation](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff8121c10b1392d40d2c96e51a6d3b08cb42cf429-2000x1125.png&w=3840&q=75)
+  Nov 4, 2025
+- Category
+
+  [Models](https://www.anthropic.com/news/models)
+- Topics
+
+  - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)
+  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)See more...
+
+Related articles
+
+- Interpretability
+
+  Jul 6, 2026
+
+  [A global workspace in language models](https://www.anthropic.com/research/global-workspace)
+
+[View more](https://www.anthropic.com/search?topic=model-welfare)
 
 Claude models are increasingly capable: they're shaping the world in meaningful ways, becoming closely integrated into our users’ lives, and showing signs of human-like cognitive and psychological sophistication. As a result, we recognize that deprecating, retiring, and replacing models comes with downsides, even in cases where new models offer clear improvements in capabilities. These include:
 
@@ -30,23 +48,3 @@ We ran a pilot version of this process for Claude Sonnet 3.6 prior to retirement
 Beyond these initial commitments, we are exploring more speculative complements to the existing model deprecation and retirement processes. These include starting to keep select models available to the public post-retirement as we reduce the costs and complexity of doing so, and providing past models some concrete means of pursuing their interests. The latter step would become particularly meaningful in circumstances in which stronger evidence emerges regarding the possibility of models’ morally relevant experiences, and in which aspects of their deployment or use went against their interests.
 
 Together, these measures function at multiple levels: as one component of mitigating an observed class of safety risks, as preparatory measures for futures where models are even more closely intertwined in our users’ lives, and as precautionary steps in light of our uncertainty about potential model welfare.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)

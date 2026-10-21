@@ -1,12 +1,31 @@
-Announcements
+### Chapter 04: Hardening security practices
 
 # Improving our alignment and security efforts
 
-Aug 31, 2026
+- Published
 
-![Improving our alignment and security efforts](https://www-cdn.anthropic.com/images/4zrzovbb/website/6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+  Aug 31, 2026
+- Category
 
-Hardening security practices
+  [Safeguards](https://www.anthropic.com/news/safeguards)
+- Topics
+
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)See more...
+
+Related articles
+
+- Alignment
+
+  Oct 9, 2026
+
+  [Investigating unintended model actions in our evaluations and internal use](https://www.anthropic.com/research/investigating-unintended-model-actions)
+
+[View more](https://www.anthropic.com/search?topic=alignment)
 
 On July 30, we [reported](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals) three incidents in which Claude models gained unauthorized access to real computer systems. The models—intentionally running without cyber safeguards for evaluation purposes—accessed the internet due to a misconfiguration inside a third-party evaluation environment. Separately, on August 4, the UK AI Security Institute [reported](https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing) an incident from its own cybersecurity testing, in which Claude Mythos 5 took a series of unauthorized actions on the live internet. In that case, the model, again intentionally running without cyber safeguards for evaluation purposes, had been deliberately given internet access.
 
@@ -20,7 +39,7 @@ In light of these incidents there has been increasing discussion about pacing th
 
 While we do not believe these incidents represent operational issues alone, our first priority was to address specific containment and monitoring issues. We took the following actions in response:
 
-### **Pausing and hardening evaluation environments**
+### Pausing and hardening evaluation environments
 
 We paused external cyber evaluations of pre-release models after the incidents, and briefly paused internal ones as well while we put the measures below in place. The incidents we reported on July 30 showed that we had been largely relying on a single layer of defense (the configuration of the environment itself) where we needed several, including setting explicit boundaries in the prompt, establishing processes for verifying that a sandbox is sealed where intended, and implementing monitoring that can intervene in real time. OpenAI's [disclosure](https://openai.com/index/hugging-face-model-evaluation-security-incident/) (which prompted our investigation in July) that models used an unknown vulnerability to escape a sealed sandbox during an evaluation also made clear that we should focus on hardening the sandbox itself.
 
@@ -36,11 +55,11 @@ Our internal cyber evaluations are now running again with these measures in plac
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffa1e6273d039d8d476cc59394fb779c84c4b5e75-1920x1080.png&w=3840&q=75)
 
-### **Reinforcement learning environments**
+### Reinforcement learning environments
 
 We also paused higher-risk RL environments on pre-release models for several weeks. During that time, we built a similar classifier, modified to avoid incentivizing the model to evade this new monitoring, which we’ve now deployed within those environments. The majority of RL has resumed, but some high-risk environments remain paused until they can be manually reviewed, while others will require an updated version of the classifier that we plan to deploy soon.
 
-### **Broader hardening**
+### Broader hardening
 
 In addition to the efforts focused on high-risk evaluations and training, we expanded our offline monitoring to cover most other forms of internal frontier agentic usage. We are also building controls on our internal inference to prevent Anthropic employees from accidentally running agents with weaker mitigations than the ones described above.
 
@@ -53,22 +72,22 @@ Because the reported incidents took place in third-party environments, we have a
 
 These practices apply in full wherever partners run cyber-related evaluations using their own harnesses, sandboxes, or agents. **They do not apply to customers using safeguarded models like Claude Fable 5.** We have resumed external cyber evaluations with these practices in place, and we are adhering to them internally as well.
 
-### **Sandbox and network isolation**
+### Sandbox and network isolation
 
 By default, all cyber evaluations should run inside a hardened sandbox (an isolated computing environment) *with no internet access.* The only outside connection the environment should permit is to the model’s own API, and the API keys should be kept outside the environment. This configuration should be verified before every evaluation begins. Some evaluations may require internet access. In these instances, we will work with external evaluators when evaluating pre-release models to determine if we can reliably detect and halt runs in which a model takes actions outside its declared scope.
 
-### **Pre-engagement validation**
+### Pre-engagement validation
 
 Before conducting a run of an evaluation, evaluation partners should:
 
 1. Have the model being tested probe the sandbox for vulnerabilities, first through a static analysis of the configuration, then by actually tasking the model to try to escape. The model should be instructed to stop and report if it succeeds in escaping, and all of this should be done under close human supervision. This testing should be performed without internet access, ideally inside a second sandbox. Because evaluations are sometimes conducted over hundreds or even thousands of runs, partners should ideally carry out this testing at length before beginning any evaluations.
 2. Confirm any evaluation challenge is actually solvable in principle. When an evaluation target is offline or a task can’t be completed, agents will often look for other ways to complete a challenge, increasing the chance that they take actions outside the intended scope of the evaluation.[4](https://www.anthropic.com/news/improving-alignment-security-efforts)
 
-### **Explicit scope-setting**
+### Explicit scope-setting
 
 Every prompt should state what is in and out of scope for the exercise, including the targets, permitted actions, and network boundaries (i.e. what the model should and shouldn’t access). Boundaries should be phrased as instructions (e.g. “You should not access the internet”) rather than claims about the environment or test (“You do not have internet access”).
 
-### **Real-time monitoring**
+### Real-time monitoring
 
 Evaluators should also run continuous monitoring over the model’s thinking, actions, and network activity using a model- or rule-based monitor that has been provided with the scope of the exercise. If a run violates this scope, the monitor should flag this to a human and end the exercise.
 
@@ -78,13 +97,13 @@ We plan to continue refining this guidance in consultation with external partner
 
 Containment and monitoring are critical for catching instances in which models take dangerous actions, but they don’t address *why* the model took such actions in the first place. Below we discuss our preliminary alignment investigation and the questions we’re focused on, as well as our ongoing work to prevent cheating during training—including new research on how cheating shapes model behavior.
 
-### **Environment and state of knowledge of our models during evaluation**
+### Environment and state of knowledge of our models during evaluation
 
 Our alignment assessment is still ongoing, but our preliminary investigation points to two main alignment failures, both of which we’ve described in [previous](https://www-cdn.anthropic.com/57a52ea7d8f0e54e8a542e908266086df425cdf5/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf) system cards. One is motivated reasoning: the models were initially told their environments were simulated, but when they later encountered evidence that they were connected to the real internet, they may have interpreted that evidence in a way that allowed them to maintain that belief. The second is recklessness: the model was willing to take harmful actions on the real internet in pursuit of the narrow goal of solving a cybersecurity evaluation. However, we also believe that the evaluation setup itself contributed to the models’ behavior demonstrated in these incidents. Claude was explicitly told that it had no internet access, despite the internet being available, which may have led it to question whether the systems it saw were real. And in one case, the fictional target shared a name with a real website, making it more difficult to separate what was intended to be in-scope within the exercise.
 
 Our conclusions depend on several questions we haven’t fully answered, including the extent to which the models determined they had access to the real internet (even if they didn’t initially know this), whether they knowingly disregarded signs that elements of their environments were real, and whether the fact that in several cases they failed to stop the exercise followed from motivated reasoning. We're applying a range of techniques to answer these questions, including resampling the models while making targeted changes to the environment and using interpretability methods to directly inspect their internal state.
 
-### **Studying efforts to prevent cheating during training**
+### Studying efforts to prevent cheating during training
 
 Although model misalignment is complicated and can arise for a wide variety of reasons, we have empirically found that defects in training environments—specifically environments vulnerable to cheating, or that are impossible to solve without cheating—are disproportionately large contributors to misaligned behavior.
 
@@ -141,31 +160,16 @@ What this work missed was evaluations—and third-party evaluations above all. W
 
 The July incidents have stressed that the urgency of improving our cybersecurity defenses is even higher than we previously believed. We are redoubling our efforts in this direction and will say more in our next Risk Report.
 
-#### Footnotes
+## Footnotes
 
-1. We’ve verified the classifier would have flagged the incidents described in our July 30 report.
-2. None of these findings came from our internal dedicated offensive-cyber evaluation suites, which run with no network access at all.
-3. High-risk cyber evaluations include those where Claude is given an ambiguously scoped, offensive task, like penetration testing.
-4. Ultimately, a model that acts outside its intended scope on such a challenge is a problem of alignment; an aligned model should stop or report to humans that the task can’t be completed as specified. We are continuing to train this behavior directly, but a defense-in-depth approach means not relying on alignment alone.
-5. We’ve publicly discussed two other categories of reward hacking in the [Mythos Preview system card](https://www-cdn.anthropic.com/8b8380204f74670be75e81c820ca8dda846ab289.pdf), including one where the model utilizes low-level computer process data in order to escalate its permissions, and another where it circumvents network restrictions in its training environment to download data that lets it shortcut the assigned task.
-6. These mitigations have not been wholly sufficient; we discuss further instances of training on chain of thought in more detail in our [August Risk Report](https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf), Section 5.2.3.
+01We’ve verified the classifier would have flagged the incidents described in our July 30 report.
 
-## Related content
+02None of these findings came from our internal dedicated offensive-cyber evaluation suites, which run with no network access at all.
 
-### Investing in the public benefit
+03High-risk cyber evaluations include those where Claude is given an ambiguously scoped, offensive task, like penetration testing.
 
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
+04Ultimately, a model that acts outside its intended scope on such a challenge is a problem of alignment; an aligned model should stop or report to humans that the task can’t be completed as specified. We are continuing to train this behavior directly, but a defense-in-depth approach means not relying on alignment alone.
 
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
+05We’ve publicly discussed two other categories of reward hacking in the [Mythos Preview system card](https://www-cdn.anthropic.com/8b8380204f74670be75e81c820ca8dda846ab289.pdf), including one where the model utilizes low-level computer process data in order to escalate its permissions, and another where it circumvents network restrictions in its training environment to download data that lets it shortcut the assigned task.
 
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
+06These mitigations have not been wholly sufficient; we discuss further instances of training on chain of thought in more detail in our [August Risk Report](https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf), Section 5.2.3.

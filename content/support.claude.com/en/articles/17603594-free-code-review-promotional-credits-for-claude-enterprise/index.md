@@ -2,7 +2,7 @@
 
 We're giving eligible Claude Enterprise organizations promotional credits: a dollar amount of free Code Review. An Owner or Primary Owner claims them on the Code Review settings page.
 
-Claim by the last day given under "How to get it." You can claim only once, and your amount is set when you claim, so read "How to get it" first. From the moment of the claim, your organization's reviews of pull requests on repositories hosted at github.com are paid for from these credits first. That lasts for 30 days or until the credits are used up, whichever comes first. After that, Code Review is billed as usual, within your organization's spend limits.
+Claim by the last day given under "How to get it." You can claim only once, and your amount is set when you claim, so read "How to get it" first. From the moment of the claim, your organization's reviews of pull requests are paid for from these credits first. That lasts for 30 days or until the credits are used up, whichever comes first. After that, Code Review is billed as usual, within your organization's spend limits.
 
 This article explains who's eligible, how to claim the credits, how they're counted, and what happens when they run out or their 30 days end.
 
@@ -18,8 +18,6 @@ The offer isn't available to:
 
 - Organizations billed through a reseller (paying through a cloud marketplace subscription does not count as a reseller)
 
-- Organizations that have connected a GitHub Enterprise Server instance or a GitHub Enterprise Cloud with data residency instance (a .ghe.com address)
-
 - Organizations on a trial, or whose subscription is canceled, unpaid, paused, or not yet fully set up
 
 - Claude Team, Pro, Max, and Free plans
@@ -28,9 +26,7 @@ The offer isn't available to:
 
 - Organizations that can't use Code Review (for example, those with zero data retention)
 
-Your organization's subscription must be active and in good standing throughout the offer. If your organization stops being eligible, reviews are billed as usual from then on. If your organization connects a GitHub Enterprise Server instance or a GitHub Enterprise Cloud with a data residency instance (a .ghe.com address), its credits stop applying for the whole organization. This includes reviews on github.com, and it applies even if your organization has already claimed the credits.
-
-If your organization claimed the earlier free Code Review offer, it can't claim this one, even after the earlier offer has ended. While the earlier offer still applies, the Code Review settings page shows that offer and not this one. The earlier offer keeps applying as before until it ends.
+Your organization's subscription must be active and in good standing throughout the offer. If your organization stops being eligible, reviews are billed as usual from then on. If your organization claimed the earlier free Code Review offer, it can't claim this one, even after the earlier offer has ended. While the earlier offer still applies, the Code Review settings page shows that offer and not this one. The earlier offer keeps applying as before until it ends.
 
 ## How to get it
 
@@ -158,9 +154,9 @@ It's set for your organization when you claim, between $10,000 and $50,000, base
 
 Not when the problem is on our side. A review that fails or is stopped because of a problem on our side isn't billed and doesn't count against the amount.
 
-### Does this cover GitHub Enterprise Server?
+### Does this cover GitHub Enterprise?
 
-No. Organizations that have connected a GitHub Enterprise Server instance aren't eligible, and reviews on GitHub Enterprise Server are billed as usual. If your organization connects one after claiming, its credits stop applying for the whole organization.
+Yes. Organizations that have connected a GitHub Enterprise Server instance or a GitHub Enterprise Cloud with data residency instance (a .ghe.com address) can claim the credits, and their reviews are paid for from the credits like any other organization's. Connecting one after you claim doesn't change your credits.
 
 ### Where can you get help?
 

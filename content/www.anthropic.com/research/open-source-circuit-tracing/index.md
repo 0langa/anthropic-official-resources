@@ -1,10 +1,29 @@
-Interpretability
-
 # Open-sourcing circuit tracing tools
 
-May 29, 2025
+![A hand-drawn image of three hands adjusting a neural network](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff4af531468ccc20d2edbfba7a0bf9dbb8d1f4a75-2000x1125.jpg&w=1920&q=75)
 
-![A hand-drawn image of three hands adjusting a neural network](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb2e4a8eb1a382e7c6c44119fbf04c0fd0c2bf415-2881x1621.png&w=3840&q=75)
+- Published
+
+  May 29, 2025
+- Team
+
+  [Interpretability](https://www.anthropic.com/research/team/interpretability)
+- Topics
+
+  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+  - [Open source](https://www.anthropic.com/search?topic=open-source)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+
+Related articles
+
+- Interpretability
+
+  Mar 13, 2026
+
+  [A “diff” tool for AI: Finding behavioral differences in new models](https://www.anthropic.com/research/diff-tool)
+
+[View more](https://www.anthropic.com/search?topic=interpretability)
 
 In our recent interpretability research, we introduced a new method to [trace the thoughts](https://www.anthropic.com/research/tracing-thoughts-language-model) of a large language model. Today, we’re open-sourcing the method so that anyone can build on our research.
 
@@ -27,23 +46,3 @@ We’ve already used these tools to study interesting behaviors like multi-step 
 Our CEO Dario Amodei [wrote recently](https://www.darioamodei.com/post/the-urgency-of-interpretability) about the urgency of interpretability research: at present, our understanding of the inner workings of AI lags far behind the progress we’re making in AI capabilities. By open-sourcing these tools, we're hoping to make it easier for the broader community to study what’s going on inside language models. We’re looking forward to seeing applications of these tools to understand model behaviors—as well as extensions that improve the tools themselves.
 
 *The open-source-circuit-finding library was developed by [Anthropic Fellows](https://alignment.anthropic.com/2024/anthropic-fellows-program/) Michael Hanna and Mateusz Piotrowski with mentorship from Emmanuel Ameisen and Jack Lindsey. The Neuronpedia integration was implemented by [Decode Research](https://www.decoderesearch.org/) (Neuronpedia lead: Johnny Lin; Science lead/director: Curt Tigges). Our Gemma graphs are based on transcoders trained as part of the [GemmaScope](https://ai.google.dev/gemma/docs/gemma_scope) project. For questions or feedback, please open an issue on GitHub.*
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)

@@ -56,7 +56,7 @@ Working agentically with Claude is a new way of working for many people. Instead
 **Reach for this when:**
 
 - **The task has several steps you'd normally do in sequence.** Pull the figures, compare them, draft the summary, format the doc. Handed off, that's one instruction, not four errands.
-- **The output is finished files, where you need them.** A batch of renamed files, a spreadsheet saved into the right folder, a formatted PDF on your desktop — delivered to your file system, not handed back for you to file away. (A deck or doc on its own doesn't need a hand-off: on paid plans you can make those as artifacts in any conversation — see the "Creating with artifacts" lesson.)
+- **The output is finished files, where you need them.** A batch of renamed files, a spreadsheet saved into the right folder, a formatted PDF on your desktop — delivered to your file system, not handed back for you to file away. (A deck or doc on its own doesn't need a hand-off: you can make those as artifacts in any conversation — see the "Creating with artifacts" lesson.)
 - **The work spans your tools.** Meeting notes in one place, the thread in Slack, last quarter's numbers in a spreadsheet. Set up a Friday roll-up as a scheduled task and Claude gathers all three itself every time it runs — nothing for you to round up first.
 - **It should happen on a schedule, or while you're doing something else.** A Friday review of what shipped. A Monday briefing that preps you for your next meeting.
 

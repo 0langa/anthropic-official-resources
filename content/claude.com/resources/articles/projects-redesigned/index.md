@@ -60,7 +60,7 @@ Projects can run several threads at once, and each one is a full Claude Code ses
 
 Threads run in the cloud today; running on your machine alongside your local tools and code and behind your network is coming very soon.
 
-Start using [projects](https://claude.com/projects).
+Start using [projects](https://claude.ai/projects).
 
 ## Related articles
 

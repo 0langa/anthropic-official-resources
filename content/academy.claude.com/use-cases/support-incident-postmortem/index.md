@@ -166,7 +166,7 @@ S
 
 Scheduled export timezone2 Mar
 
-**/**status-report Draft the customer-facing incident review for INC-4417 from #inc-4417, tickets in the impact window and the last day's deploys. Quantify customers impacted and for how long, quote them directly, and use our template with remediation owners.
+**/**status-report Draft the customer-facing incident review for INC-4417 from #inc-4417, tickets in the impact window and deploys from the prior 24 hours. Quantify customers impacted and for how long, quote them directly, list the affected accounts in a sheet, and use our template with remediation owners.
 
 Reading #inc-4417-export-failures0s
 
@@ -304,7 +304,7 @@ On a weekday schedule, Claude drafts the review for each war room closed the day
 
 Customers get a clear account of the outage, drafted from the tickets.
 
-Draft the customer-facing incident review for INC-4417 from #inc-4417, tickets in the impact window and the last day's deploys. Quantify customers impacted and for how long, quote them directly, and use our template with remediation owners.
+Draft the customer-facing incident review for INC-4417 from #inc-4417, tickets in the impact window and deploys from the prior 24 hours. Quantify customers impacted and for how long, quote them directly, list the affected accounts in a sheet, and use our template with remediation owners.
 
 How much should customers be told about the cause? Plain cause, no internal detail / Impact and fix only, no cause
 

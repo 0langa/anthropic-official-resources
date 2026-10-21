@@ -74,11 +74,9 @@ You can add up to four cache breakpoints total. For example, you might cache you
 
 ## Minimum Content Length[](https://academy.claude.com/courses/building-with-the-claude-api/rules-of-prompt-caching)
 
-There's a minimum threshold for caching: content must be at least 1024 tokens long to be cached. This is the sum of all messages and blocks you're trying to cache, not individual blocks.
+There's a minimum length for caching, and it depends on the model. For Claude Haiku 4.5, the model this course uses, content must be at least 4,096 tokens long to be cached. This is the sum of all messages and blocks you're trying to cache, not individual blocks.
 
-![Two conversation examples: one "Hi there!" block is not written to cache, while "Hi there!" repeated 500 times is cached.](https://academy.claude.com/assets/media/b76bb4d709ad0dd84747578292abb55f440e249148d9702363eae445d8fab796.jpg)
-
-A simple "Hi there!" message won't meet this threshold, but if you duplicate that content 500 times (or have a genuinely long prompt), it will exceed 1024 tokens and be eligible for caching.
+A message like "Hi there!" is far too short to be cached, but a genuinely long prompt reaches the minimum. Content under the minimum is simply processed without caching, and no error comes back. To tell, look at the response's usage: `cache_creation_input_tokens` and `cache_read_input_tokens` will both be 0.
 
 The key to effective prompt caching is identifying which parts of your requests stay consistent across multiple calls and placing breakpoints strategically to maximize reuse while minimizing cache invalidation.
 

@@ -5,8 +5,6 @@ An interactive simulation of how Claude Code's context window fills during a ses
 
 Claude Code's context window holds everything Claude knows about your session: your instructions, the files it reads, its own responses, and content that never appears in your terminal. The timeline below plays a full session from startup to compaction: what loads before you type, what each file read, rule, and hook adds as Claude works, and how a subagent keeps large reads out of your context. See [the written breakdown](#what-the-timeline-shows) for the same content as a list.
 
-<ContextWindow />
-
 ## What the timeline shows
 
 The session walks through a realistic flow with representative token counts:
@@ -25,6 +23,7 @@ When a long session compacts, Claude Code summarizes the conversation history to
 | System prompt and output style | Both still apply |
 | Project-root CLAUDE.md and unscoped rules | Re-injected from disk |
 | Auto memory | Re-injected from disk |
+| Skill descriptions | Rebuilt from your current [skills](/docs/en/skills) and re-injected. Requires Claude Code v2.1.304 or later |
 | [Git status snapshot](/docs/en/settings-reference#includegitinstructions) | If the session started with one, Claude Code reads a fresh one from your repository |
 | The plan Claude wrote in [plan mode](/docs/en/permission-modes#analyze-before-you-edit-with-plan-mode) | Re-injected from disk |
 | Rules with `paths:` frontmatter | Claude Code reloads them [on demand](/docs/en/memory#path-specific-rules) |

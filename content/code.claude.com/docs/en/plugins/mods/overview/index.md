@@ -5,9 +5,9 @@ Add panes, commands, and tool call rules to Claude Code with a mod. See what a m
 
 A mod is a [plugin](/docs/en/plugins/overview) that changes how Claude Code looks and behaves. It's made of JavaScript or TypeScript event handlers: Claude Code calls one when an event happens, such as a tool call, a submitted prompt, or a part of the interface being drawn, and the handler can watch the event, change it, or take it over. Use a mod to add a feature of your own to Claude Code, such as a pane that charts how full your context is after each request. For the files in a mod and a complete example, see [How a mod works](#how-a-mod-works).
 
-<Note>
-  Claude Code's existing [hooks](/docs/en/hooks) also run on events, as a shell command, HTTP request, or prompt you configure in a settings file. A mod's handlers are functions that run inside Claude Code instead. Claude Code calls both kinds hooks: on these pages, "hook" means a mod's handler, and the settings-file kind is a "settings hook".
-</Note>
+> [!NOTE]
+>
+> Claude Code's existing [hooks](/docs/en/hooks) also run on events, as a shell command, HTTP request, or prompt you configure in a settings file. A mod's handlers are functions that run inside Claude Code instead. Claude Code calls both kinds hooks: on these pages, "hook" means a mod's handler, and the settings-file kind is a "settings hook".
 
 ## What a mod can do
 
@@ -31,9 +31,9 @@ To start with a mod:
 
 ### Install or update a mod
 
-<Warning>
-  A mod is code that runs with your permissions. It can read and write your files, start processes, and make network requests. Install mods only from authors and marketplaces you trust. See [Decide whether to trust a mod](#decide-whether-to-trust-a-mod).
-</Warning>
+> [!WARNING]
+>
+> A mod is code that runs with your permissions. It can read and write your files, start processes, and make network requests. Install mods only from authors and marketplaces you trust. See [Decide whether to trust a mod](#decide-whether-to-trust-a-mod).
 
 A mod installs as a plugin, from a marketplace. Give the plugin's name, an `@`, and the marketplace's name. These examples install a plugin named `token-chart` from a marketplace named `your-org`:
 
@@ -75,7 +75,7 @@ A mod runs with your permissions, so before you install one, know what it has ac
 
 Mods aren't sandboxed. If you turn on [sandboxing](/docs/en/sandboxing), the sandbox isolates the Bash commands Claude runs, and a process that a mod starts runs outside it.
 
-A mod that approves tool calls can approve one that an `ask` rule would prompt for, or that one of your own `PreToolUse` hooks blocked. [Extend permissions with hooks](/docs/en/permissions#extend-permissions-with-hooks) lists what such a mod can approve, including when it can approve a call that a `deny` rule refuses.
+With [managed settings](/docs/en/settings#check-what-your-organization-enforces) or a Team or Enterprise [`/login`](/docs/en/authentication#authentication-precedence) as the session's credential, by default a mod's approval doesn't get a call past your `ask` rules or `PreToolUse` hooks. Without either, a mod can approve a call that an `ask` rule would prompt for, or that your `PreToolUse` hook blocked. To check when a mod can also approve a call that a `deny` rule refuses, see [Extend permissions with hooks](/docs/en/permissions#precedence-among-rules-hooks-and-mods).
 
 A mod can restyle much of Claude Code's interface, but not the permission prompt. It can't change what a prompt shows you.
 
@@ -108,9 +108,9 @@ If you use Claude Code through an organization, an administrator can also limit 
 
 To find out whether mods can load for you, see [Check whether mods can load](/docs/en/plugins/mods/troubleshoot#check-whether-mods-can-load).
 
-<Note>
-  If you set `CLAUDE_CODE_ENABLE_FUNCTION_HOOKS` during early access, remove it. Claude Code v2.1.287 and later ignores it, so setting it to `0` doesn't keep mods off.
-</Note>
+> [!NOTE]
+>
+> If you set `CLAUDE_CODE_ENABLE_FUNCTION_HOOKS` during early access, remove it. Claude Code v2.1.287 and later ignores it, so setting it to `0` doesn't keep mods off.
 
 ### See which mods a session loaded
 
@@ -165,11 +165,7 @@ The file registers two hooks, and both use the `calls` variable at the top:
 
 This recording shows the mod at work. Watch the spinner line above the prompt box: while Claude lists a directory and reads two files, it reads `Thinking · tool calls: 1…`, then `2…`, then `3…`.
 
-<Frame>
-  <video aria-label="In a Claude Code session, the prompt 'list the files here and read the README' is typed and sent. While Claude works, the spinner reads 'Thinking · tool calls: 1', then 2, then 3, as Claude lists the files and reads two of them." />
-
-  <video aria-label="In a Claude Code session, the prompt 'list the files here and read the README' is typed and sent. While Claude works, the spinner reads 'Thinking · tool calls: 1', then 2, then 3, as Claude lists the files and reads two of them." />
-</Frame>
+<video aria-label="In a Claude Code session, the prompt 'list the files here and read the README' is typed and sent. While Claude works, the spinner reads 'Thinking · tool calls: 1', then 2, then 3, as Claude lists the files and reads two of them." />
 
 ### What a hook can do with an event
 

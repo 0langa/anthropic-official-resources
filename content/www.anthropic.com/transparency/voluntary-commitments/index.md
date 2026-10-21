@@ -4,13 +4,7 @@ A look at Anthropic's key processes, programs, and practices for responsible AI 
 
 [01Model Report](https://www.anthropic.com/transparency/model-report)[02System Trust and Reporting](https://www.anthropic.com/transparency/system-trust-reporting)[03Voluntary Commitments](https://www.anthropic.com/transparency/voluntary-commitments)
 
-03Voluntary Commitments
-
-[01Model Report](https://www.anthropic.com/transparency/model-report)
-
-[02System Trust and Reporting](https://www.anthropic.com/transparency/system-trust-reporting)
-
-[03Voluntary Commitments](https://www.anthropic.com/transparency/voluntary-commitments)
+### Chapter 03: Voluntary Commitments
 
 ## Executive Summary
 
@@ -242,7 +236,7 @@ At the foundation of our Safeguards work is our [Usage Policy](https://www.anthr
 
 ## Child Safety & Image-Based Sexual Abuse
 
-[Claude.ai](http://claude.ai/redirect/website.v1.814e61be-3fa7-4724-bcdd-96b06dd3bb23) is 18+. Our Consumer Terms of Service require individuals to be at least 18 years old to use our services. When we detect signals that an account may belong to someone under 18, we disable the account and offer the user an opportunity to [verify their age through Yoti, a third-party age verification provider](https://support.claude.com/en/articles/15171100-age-assurance-on-claude), before reinstating access. Additionally, organizations building tools that serve minors (such as educational resources) that incorporate our API(s) must comply with the additional guidelines outlined in our [Help Center article](https://support.anthropic.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors).
+[Claude.ai](http://claude.ai/redirect/website.v1.57fb2131-f4ba-4b94-b33e-ee2d19175d23) is 18+. Our Consumer Terms of Service require individuals to be at least 18 years old to use our services. When we detect signals that an account may belong to someone under 18, we disable the account and offer the user an opportunity to [verify their age through Yoti, a third-party age verification provider](https://support.claude.com/en/articles/15171100-age-assurance-on-claude), before reinstating access. Additionally, organizations building tools that serve minors (such as educational resources) that incorporate our API(s) must comply with the additional guidelines outlined in our [Help Center article](https://support.anthropic.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors).
 
 ### Detection and Prevention Systems
 
@@ -317,247 +311,65 @@ We have developed crisis response protocols to guide our actions in the event of
 
 Below, you'll find a summary of our voluntary commitments. While we've highlighted the core aims of each commitment, we encourage you to review the complete commitment documents (linked) to fully understand their scope and context.
 
-01G7 Hiroshima Process International Code of Conduct
+### 01 G7 Hiroshima Process International Code of Conduct
 
-The [Hiroshima AI commitments](https://www.mofa.go.jp/ecm/ec/page5e_000076.html) were announced in October 2023 at the G7 Summit. They aim to promote safe, secure, and trustworthy AI worldwide and provide voluntary guidance for actions by organizations developing the most advanced AI systems, with an emphasis on taking a risk-based approach. Below are the aims of the commitments. Please review the commitment documents (linked) to fully understand their scope and context. Commitments toward:
+### 02 AI Seoul Summit's Frontier AI Safety Commitments
 
-1. Risk assessment and mitigation throughout the AI lifecycle.   
-   [See: Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)
-2. Post-deployment vulnerability monitoring and response.   
-   [See: Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)
-3. Public reporting of AI systems capabilities and limitations.   
-   [See: Public Awareness](https://www.anthropic.com/transparency/voluntary-commitments)
-4. Information sharing across industry and government.   
-   [See: Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)
-5. AI governance and risk management policy implementation.   
-   [See: Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)
-6. Security controls across physical, cyber, and insider threats.   
-   [See: Security & Privacy](https://www.anthropic.com/transparency/voluntary-commitments)
-7. AI content authentication, for example, through watermarking.   
-   [See: Public Awareness](https://www.anthropic.com/transparency/voluntary-commitments)
-8. Research on safety and societal risks.   
-   See: [Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments), [Societal Impact](https://www.anthropic.com/transparency/voluntary-commitments)
-9. AI development for global challenges.   
-   [See: Societal Impact](https://www.anthropic.com/transparency/voluntary-commitments)
-10. International technical standards development.   
-    [See: Public Awareness](https://www.anthropic.com/transparency/voluntary-commitments)
-11. Data protection for personal data and intellectual property.   
-    [See: Security & Privacy](https://www.anthropic.com/transparency/voluntary-commitments)
+### 03 Seoul AI Business Pledge
 
-02AI Seoul Summit's Frontier AI Safety Commitments
+### 04 White House's Voluntary Commitments for Safe, Secure, and Trustworthy AI
 
-The [2023 AI Safety Summit in Seoul produced voluntary commitments](https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024) for leading AI companies to develop and deploy their frontier AI models and systems responsibly. Below are the core aims of the commitments. Please review the commitment documents (linked) to fully understand their scope and context. Commitments toward:
+### 05 Munich AI Elections Accord
 
-1. Risk assessment across the AI model lifecycle.   
-   [See: Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)
-2. Setting and monitoring clear risk thresholds.   
-   [See: Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)
-3. Implementation plan for keeping risks below thresholds.   
-   [See: Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)
-4. Processes for threshold-exceeding risks.   
-   [See: Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)
-5. Continuous improvement of risk assessment capabilities.   
-   [See: Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)
-6. Internal governance framework and accountability.   
-   [See: Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)
-7. Public transparency on risk management implementation.   
-   See: [Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments), [Public Awareness](https://www.anthropic.com/transparency/voluntary-commitments)
-8. External stakeholder involvement in safety assessments.   
-   [See: Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)
+### 06 Thorn’s Safety by Design for Generative AI: Preventing Child Sexual Abuse
 
-03Seoul AI Business Pledge
+### 07 White House’s Image-Based Sexual Abuse Commitments
 
-At the 2023 AI Safety Summit, major AI companies also signed a voluntary [business pledge](https://aiseoulsummit.kr/press/?mod=document&uid=43) committing to responsible development of AI systems. Below are the core aims of the commitments. Please review the commitment documents (linked) to fully understand their scope and context. Commitments toward:
+### 08 Christchurch Call Commitments
 
-1. Research advancement for AI safety.   
-   [See: Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)
-2. Internal governance for risk management.   
-   [See: Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)
-3. Collaboration with government, industry, and civil society on AI safety standards.   
-   [See: Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)
-4. Earning and upholding public trust through safe development and content authentication.   
-   See: [Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments), [Public Awareness](https://www.anthropic.com/transparency/voluntary-commitments)
-5. Investment in beneficial AI development.   
-   [See: Societal Impact](https://www.anthropic.com/transparency/voluntary-commitments)
-6. Ecosystem support for AI R&D and industry partnerships with SMEs and startups.   
-   [See: Societal Impact](https://www.anthropic.com/transparency/voluntary-commitments)
-7. Professional talent development and academic collaboration.   
-   [See: Societal Impact](https://www.anthropic.com/transparency/voluntary-commitments)
-8. Support for equitable access to AI infrastructure.   
-   [See: Societal Impact](https://www.anthropic.com/transparency/voluntary-commitments)
-9. Inclusive AI development for underserved communities and marginalized regions.   
-   [See: Societal Impact](https://www.anthropic.com/transparency/voluntary-commitments)
+### 09 New Delhi Frontier AI Commitments
 
-04White House's Voluntary Commitments for Safe, Secure, and Trustworthy AI
+### 10 Trusted Tech Alliance
 
-In July 2023, the Biden-Harris administration established voluntary AI commitments which "underscore three principles that must be fundamental to the future of AI: safety, security, and trust." Below are the core aims of the commitments. Though these specific commitments are no longer formally maintained under the Trump administration, our organization continues to uphold all these principles. These commitments address:
-
-1. Security testing before model release. [See: Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)
-2. Information sharing on managing AI risks across industry and government. [See: Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)
-3. Cybersecurity protection of model weights. [See: Security & Privacy](https://www.anthropic.com/transparency/voluntary-commitments)
-4. Third-party vulnerability reporting systems. [See: Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)
-5. Technical watermarking of AI-generated content. [See: Public Awareness](https://www.anthropic.com/transparency/voluntary-commitments)
-6. Public reporting of AI capabilities and limitations. [See: Public Awareness](https://www.anthropic.com/transparency/voluntary-commitments)
-7. Research on bias, discrimination, and privacy risks. [See: Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)**,** [Societal Impact](https://www.anthropic.com/transparency/voluntary-commitments)
-8. AI deployment for major societal challenges. [See: Societal Impact](https://www.anthropic.com/transparency/voluntary-commitments)
-
-05Munich AI Elections Accord
-
-The [2024 Munich AI Elections Accord](https://securityconference.org/en/aielectionsaccord/accord/) establishes voluntary commitments for tech companies and governments to safeguard electoral processes from AI-enabled interference and misinformation. Below are the core aims of the commitments. Please review the commitment documents (linked) to fully understand their scope and context. Commitments toward:
-
-1. Developing technology to mitigate risks related to deceptive AI election content (for example content provenance or watermarking).   
-   [See: Public Awareness](https://www.anthropic.com/transparency/voluntary-commitments)
-2. Risk assessment for deceptive election content.   
-   [See: Election Integrity](https://www.anthropic.com/transparency/voluntary-commitments)
-3. Cross-industry collaboration on election integrity.   
-   [See: Election Integrity](https://www.anthropic.com/transparency/voluntary-commitments)
-4. Public transparency on election content policies.   
-   See: [Election Integrity](https://www.anthropic.com/transparency/voluntary-commitments), [Trust and Safety](https://www.anthropic.com/transparency/voluntary-commitments)
-5. Engagement with experts on global risk assessment.   
-   [See: Election Integrity](https://www.anthropic.com/transparency/voluntary-commitments)
-6. Public education on AI election content risks.   
-   [See: Election Integrity](https://www.anthropic.com/transparency/voluntary-commitments)
-
-06Thorn’s Safety by Design for Generative AI: Preventing Child Sexual Abuse
-
-The [Thorn Child Safety Commitments](https://www.anthropic.com/news/child-safety-principles) establish voluntary guidelines for AI companies to work toward protecting children from technology-facilitated abuse, emphasizing prevention and safety by design. Below are the core aims of the commitments. Please review the commitment documents (linked) to fully understand their scope and context. Commitments toward:
-
-1. Responsibly source our training data: avoid ingesting data into training that has a known risk - as identified by relevant experts in the space - of containing CSAM and CSEM.   
-   [See: Image-Based Sexual Abuse](https://www.anthropic.com/transparency/voluntary-commitments)
-2. Detect, remove, and report CSAM and CSEM from our training data at ingestion.   
-   [See: Image-Based Sexual Abuse](https://www.anthropic.com/transparency/voluntary-commitments)
-3. Conduct red teaming, incorporating structured, scalable, and consistent stress testing of our models for AIG-CSAM and CSEM.   
-   [See: Image-Based Sexual Abuse](https://www.anthropic.com/transparency/voluntary-commitments)
-4. Include content provenance on image and video outputs.   
-   [See: Public Awareness](https://www.anthropic.com/transparency/voluntary-commitments)
-5. Define specific training data and model development policies.   
-   See: [Security & Privacy](https://www.anthropic.com/transparency/voluntary-commitments), [Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)
-6. Prohibit customer use of our models to further sexual harms against children.   
-   [See: Trust and Safety](https://www.anthropic.com/transparency/voluntary-commitments)
-7. Detect abusive content (CSAM, AIG-CSAM, and CSEM) in inputs and outputs.   
-   [See: Image-Based Sexual Abuse](https://www.anthropic.com/transparency/voluntary-commitments)
-8. Include user reporting, feedback, or flagging options.   
-   See: [Image-Based Sexual Abuse](https://www.anthropic.com/transparency/voluntary-commitments), [Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments)
-9. Include an enforcement mechanism.   
-   [See: Trust and Safety](https://www.anthropic.com/transparency/voluntary-commitments)
-10. Include prevention messaging for CSAM solicitation using available tools.   
-    [See: Image-Based Sexual Abuse](https://www.anthropic.com/transparency/voluntary-commitments)
-11. Incorporate phased deployment, monitoring for abuse in early stages before launching broadly.   
-    [See: Image-Based Sexual Abuse](https://www.anthropic.com/transparency/voluntary-commitments)
-12. Incorporate a child safety section into our model cards.   
-    [See: Image-Based Sexual Abuse](https://www.anthropic.com/transparency/voluntary-commitments)
-13. When reporting to NCMEC, use the Generative AI File Annotation.
-14. Detect, report, remove, and prevent CSAM, AIG-CSAM and CSEM.   
-    [See: Image-Based Sexual Abuse](https://www.anthropic.com/transparency/voluntary-commitments)
-15. Invest in tools to protect content from AI-generated manipulation.   
-    [See: Image-Based Sexual Abuse](https://www.anthropic.com/transparency/voluntary-commitments)
-16. Maintain the quality of our mitigations.   
-    See: [Image-Based Sexual Abuse](https://www.anthropic.com/transparency/voluntary-commitments), [Trust and Safety](https://www.anthropic.com/transparency/voluntary-commitments)
-17. Disallow the use of generative AI to deceive others for the purpose of sexually harming children.   
-    [See: Trust and Safety](https://www.anthropic.com/transparency/voluntary-commitments)
-18. Leverage Open Source Intelligence (OSINT) capabilities to understand how our platforms, products and models are potentially being abused by bad actors.
-
-07White House’s Image-Based Sexual Abuse Commitments
-
-In September 2024, the Biden-Harris Administration announced [voluntary commitments](https://bidenwhitehouse.archives.gov/ostp/news-updates/2024/09/12/white-house-announces-new-private-sector-voluntary-commitments-to-combat-image-based-sexual-abuse/) from AI model developers and data providers to reduce AI-generated image-based sexual abuse. Below are the core aims of the commitments. Please review the commitment documents (linked) to fully understand their scope and context. Commitments toward:
-
-1. Responsible dataset sourcing to prevent image-based sexual abuse.   
-   [See: Image-Based Sexual Abuse](https://www.anthropic.com/transparency/voluntary-commitments)
-2. Feedback loops and stress testing against image-based sexual abuse.   
-   [See: Image-Based Sexual Abuse](https://www.anthropic.com/transparency/voluntary-commitments)
-3. When appropriate, nude image removal from training datasets.   
-   [See: Image-Based Sexual Abuse](https://www.anthropic.com/transparency/voluntary-commitments)
-
-08Christchurch Call Commitments
-
-[The Christchurch Call](https://www.christchurchcall.org/the-christchurch-call-commitments/), established in 2019, unites governments and technology companies in voluntary commitments to prevent the spread of terrorist and violent extremist content online, including through AI systems. Below are the core aims of the commitments for online service providers. Please review the commitment documents (linked) to fully understand their scope and context. Commitments toward:
-
-1. Transparency in terrorist and violent extremist content policies.   
-   [See: Trust and Safety](https://www.anthropic.com/transparency/voluntary-commitments)
-2. Human rights-aligned enforcement of content standards.   
-   [See: Trust and Safety](https://www.anthropic.com/transparency/voluntary-commitments)
-3. Cross-industry coordination on terrorist and violent extremist content.   
-   [See: Terrorist and Extremist Violent Content](https://www.anthropic.com/transparency/voluntary-commitments)
-4. Work with civil society to counter extremism.   
-   [See: Terrorist and Extremist Violent Content](https://www.anthropic.com/transparency/voluntary-commitments)
-5. Enabling lawful cooperation with enforcement agencies while protecting human rights.   
-   [See: Terrorist and Extremist Violent Content](https://www.anthropic.com/transparency/voluntary-commitments)
-6. Respect for human rights.   
-   [See: Societal Impact](https://www.anthropic.com/transparency/voluntary-commitments)
-7. Recognizing civil society's role in implementation, transparency, and user support.   
-   [See: Terrorist and Extremist Violent Content](https://www.anthropic.com/transparency/voluntary-commitments)
-8. Continued collaboration and building wider support for the call.   
-   [See: Terrorist and Extremist Violent Content](https://www.anthropic.com/transparency/voluntary-commitments)
-9. Developing practical, non-redundant initiatives to deliver on these commitments.   
-   [See: Terrorist and Extremist Violent Content](https://www.anthropic.com/transparency/voluntary-commitments)
-
-09New Delhi Frontier AI Commitments
-
-The [New Delhi Frontier AI Impact Commitments](https://d19ob9sqegt2wc.cloudfront.net/stage/uploads/New_Delhi_Frontier_AI_Impact_Commitments_f81b331b93.pdf) were announced in February 2026 at the India AI Impact Summit in New Delhi, committing frontier AI developers to promote greater understanding of AI usage and its impacts and to broaden access to AI's benefits across languages, cultures, and use cases. Below are the core aims of the commitments. Please review the commitment documents (linked) to fully understand their scope and context. Commitments toward:
-
-1. Advancing analysis of real-world AI usage to shed light on the future of work and support evidence-based policymaking.  
-   [See: Societal Impact](https://www.anthropic.com/transparency/voluntary-commitments)
-2. Publishing statistical insights derived from anonymised, aggregated, and taxonomized usage data by the next AI Summit.  
-   [See: Societal Impact](https://www.anthropic.com/transparency/voluntary-commitments)
-3. Evaluating multilingual capabilities across a subset of languages and cultural contexts.  
-   [See: Societal Impact](https://www.anthropic.com/transparency/voluntary-commitments), [Public Awareness](https://www.anthropic.com/transparency/voluntary-commitments)
-4. Collaborating with local ecosystems to develop and apply evaluations for under-represented languages and cultural contexts.  
-   [See: Societal Impact](https://www.anthropic.com/transparency/voluntary-commitments)
-
-010Trusted Tech Alliance
-
-The [Trusted Tech Alliance](https://www.trustedtechalliance.com/our-principles/), launched in February 2026, is a coalition of leading global technology providers committed to trusted, secure, and reliable technology development across the full stack. Below are the core principles of the alliance. Please review the commitment documents (linked) to fully understand their scope and context. Commitments toward:
-
-1. Transparent corporate governance and ethical conduct, including transparent financing and independent regulatory oversight.  
-   [See: Public Awareness](https://www.anthropic.com/transparency/voluntary-commitments)
-2. Operational transparency, secure development, and independent assessment, including vulnerability disclosure programs and internationally recognized certifications.  
-   See: [Risk Assessment and Mitigation](https://www.anthropic.com/transparency/voluntary-commitments), [Security & Privacy](https://www.anthropic.com/transparency/voluntary-commitments)
-3. Robust supply chain and security oversight, with contractually binding security and quality assurances from suppliers.  
-   See: [Security & Privacy](https://www.anthropic.com/transparency/voluntary-commitments)
-4. An open, cooperative, inclusive, and resilient digital ecosystem, including open standards and cross-border innovation.  
-   [See: Public Awareness](https://www.anthropic.com/transparency/voluntary-commitments), [Societal Impact](https://www.anthropic.com/transparency/voluntary-commitments)
-5. Respect for the rule of law and data protection, evidenced through independent regulatory oversight and transparent legal frameworks.  
-   [See: Public Awareness](https://www.anthropic.com/transparency/voluntary-commitments), [Security & Privacy](https://www.anthropic.com/transparency/voluntary-commitments)
-
-[![Open book with turning page, positioned against textured background](https://www-cdn.anthropic.com/images/4zrzovbb/website/71800a27b08a18e808de684513bb852c37b8a334-1000x1000.svg)
+![Archived content from January - June 2025](https://www-cdn.anthropic.com/images/4zrzovbb/website/71800a27b08a18e808de684513bb852c37b8a334-1000x1000.svg)
 
 ### Archived content from January - June 2025
 
-View PDF](https://www-cdn.anthropic.com/50384a465da97cce5cbd3abfa752f5b39d7b7f65.pdf)
+[View PDF](https://www-cdn.anthropic.com/50384a465da97cce5cbd3abfa752f5b39d7b7f65.pdf)
 
-[![Open book with turning page, positioned against textured background](https://www-cdn.anthropic.com/images/4zrzovbb/website/71800a27b08a18e808de684513bb852c37b8a334-1000x1000.svg)
+![Archived content from July - December 2025](https://www-cdn.anthropic.com/images/4zrzovbb/website/71800a27b08a18e808de684513bb852c37b8a334-1000x1000.svg)
 
 ### Archived content from July - December 2025
 
-Archived content from July to December 2025](https://www-cdn.anthropic.com/5fb26a6974468f83ce87b4799a7ac957ce9d8f96.pdf)
+[Archived content from July to December 2025](https://www-cdn.anthropic.com/5fb26a6974468f83ce87b4799a7ac957ce9d8f96.pdf)
 
-[![Open book with turning page, positioned against textured background](https://www-cdn.anthropic.com/images/4zrzovbb/website/71800a27b08a18e808de684513bb852c37b8a334-1000x1000.svg)
+![Archived content from January - June 2026](https://www-cdn.anthropic.com/images/4zrzovbb/website/71800a27b08a18e808de684513bb852c37b8a334-1000x1000.svg)
 
 ### Archived content from January - June 2026
 
-Archived content from July to December 2025](https://www-cdn.anthropic.com/5fb26a6974468f83ce87b4799a7ac957ce9d8f96.pdf)
+[Archived content from July to December 2025](https://www-cdn.anthropic.com/5fb26a6974468f83ce87b4799a7ac957ce9d8f96.pdf)
 
 ## Related content
 
-### RSP Updates
+### [RSP Updates](https://www.anthropic.com/rsp-updates)
 
 Overview of past capability and safeguard assessments, future plans, and other program updates.
 
 [Read more](https://www.anthropic.com/rsp-updates)
 
-### Privacy Center
+### [Privacy Center](https://privacy.anthropic.com/en/)
 
 A central hub for information related to data privacy at Anthropic.
 
 [Read more](https://privacy.anthropic.com/en/)
 
-### Trust center
+### [Trust center](https://trust.anthropic.com/)
 
 This page acts as an overview to demonstrate our commitment to compliance and security.
 
 [Read more](https://trust.anthropic.com/)
 
-### Developer Documentation
+### [Developer Documentation](https://docs.anthropic.com/en/home)
 
 Learn how to get started with the Anthropic API and Claude with our user guides, release notes, and system prompts.
 

@@ -15,9 +15,9 @@ Use evals to:
 
 This page is for plugin and skill authors who have a working plugin and want to test its behavior, and for teams that gate plugin changes in CI. For iterating on one skill inside a Claude Code conversation, the [skill-creator plugin](/docs/en/skills#run-evals-with-skill-creator) runs a similar comparison with its own `evals/evals.json` format, and neither tool reads the other's case files. To create a plugin, see [Create a plugin](/docs/en/plugins/create); to check a plugin's files for syntax and schema errors rather than its behavior, use [`claude plugin validate`](/docs/en/plugins/cli-reference#plugin-validate).
 
-<Note>
-  Every eval run and every judge grader is a real model call on your account, counted against your plan's usage or your API bill, so check the [requirements](#requirements) first. Then [create your first eval suite](#create-your-first-eval-suite), or go to [Run evals in CI](#run-evals-in-ci) if you already have one.
-</Note>
+> [!NOTE]
+>
+> Every eval run and every judge grader is a real model call on your account, counted against your plan's usage or your API bill, so check the [requirements](#requirements) first. Then [create your first eval suite](#create-your-first-eval-suite), or go to [Run evals in CI](#run-evals-in-ci) if you already have one.
 
 ## Requirements
 
@@ -56,66 +56,64 @@ This walkthrough writes one case for your own plugin, runs it, and reads the res
 * A terminal open at your plugin's root directory, the one containing `plugin.json` or `.claude-plugin/plugin.json`
 * One skill in the plugin you want to test, and a request a user would type that should trigger it
 
-<Steps>
-  <Step title="Create the cases">
-    From the plugin root, run:
+**1. Create the cases**
 
-    ```bash theme={null}
-    claude plugin eval init
-    ```
+From the plugin root, run:
 
-    If Claude Code doesn't already trust this directory it first asks `Trust this plugin directory?`; answer `y`.
+```bash theme={null}
+claude plugin eval init
+```
 
-    An interactive Claude Code session then opens. Claude reads your plugin and asks you what a good result looks like, proposes prompts that should and shouldn't trigger the plugin, designs graders for each, runs them once as a trial to check they behave, and writes one case directory per prompt under `evals/`, each named after its prompt.
+If Claude Code doesn't already trust this directory it first asks `Trust this plugin directory?`; answer `y`.
 
-    When Claude tells you the suite is ready, exit that session with `/exit` or Ctrl+D to return to your shell.
+An interactive Claude Code session then opens. Claude reads your plugin and asks you what a good result looks like, proposes prompts that should and shouldn't trigger the plugin, designs graders for each, runs them once as a trial to check they behave, and writes one case directory per prompt under `evals/`, each named after its prompt.
 
-    If you already have a Claude Code session open at the plugin root, you can instead ask Claude there to run `claude plugin eval init`. Claude runs the command and then asks you the same questions in that conversation.
+When Claude tells you the suite is ready, exit that session with `/exit` or Ctrl+D to return to your shell.
 
-    If you'd rather write a case yourself to see exactly what the files contain, follow [Write a case manually](#write-a-case-manually) and come back here to run it.
-  </Step>
+If you already have a Claude Code session open at the plugin root, you can instead ask Claude there to run `claude plugin eval init`. Claude runs the command and then asks you the same questions in that conversation.
 
-  <Step title="Run the suite">
-    Back at your shell in the plugin root, run every case under `evals/`:
+If you'd rather write a case yourself to see exactly what the files contain, follow [Write a case manually](#write-a-case-manually) and come back here to run it.
 
-    ```bash theme={null}
-    claude plugin eval .
-    ```
+**2. Run the suite**
 
-    You already trusted this directory during step 1, so the run starts immediately. If you wrote the case manually instead, the run first asks `Trust this plugin directory? [y/N]`; answer `y`. [What a run can access](#security) explains what you're agreeing to.
+Back at your shell in the plugin root, run every case under `evals/`:
 
-    Each case runs three times with your plugin and three times without it, so one case is six runs. A progress line prints as each run finishes, with that run's score and each grader's verdict.
-  </Step>
+```bash theme={null}
+claude plugin eval .
+```
 
-  <Step title="Read the summary">
-    When the suite finishes you see a summary table, followed by where the report went:
+You already trusted this directory during step 1, so the run starts immediately. If you wrote the case manually instead, the run first asks `Trust this plugin directory? [y/N]`; answer `y`. [What a run can access](#security) explains what you're agreeing to.
 
-    ```text theme={null}
-    CASE        WITH  W/OUT Δ      RUNS COST    NOTES
-    first-case  1.00  0.33  +0.67  6    $0.41
+Each case runs three times with your plugin and three times without it, so one case is six runs. A progress line prints as each run finishes, with that run's score and each grader's verdict.
 
-    1 case(s) · mean Δ +0.67 · 74s · $0.41
-    Report: /Users/you/my-plugin/evals/results/2026-09-10T17-02-11-482Z/report.html
-    Published: https://claude.ai/... · keep local next time with --no-publish
-    ```
+**3. Read the summary**
 
-    `WITH` is the case's score with your plugin loaded, `W/OUT` is the score without it, and a positive `Δ` means the plugin raised the score. `COST` is a list-price estimate of the model calls, and `NOTES` shows the highest-weight failing grader's explanation, or the run's error, from the with-arm.
-  </Step>
+When the suite finishes you see a summary table, followed by where the report went:
 
-  <Step title="Open the report and iterate">
-    Open the `Published:` URL, or the `Report:` path when no `Published:` line appears, to see each grader's verdict and explanation for every run, and for `llm` graders the judge's votes and the excerpt it judged. The `Published:` line appears only when your account can [publish reports](#html-report).
+```text theme={null}
+CASE        WITH  W/OUT Δ      RUNS COST    NOTES
+first-case  1.00  0.33  +0.67  6    $0.41
 
-    The most common first finding is a `Δ` near zero with the case's `tool_used: Skill` grader failing, which means Claude isn't choosing your skill on natural phrasing. Adjust the skill's [`description`](/docs/en/skills#frontmatter-reference), run `claude plugin eval .` again, and compare.
+1 case(s) · mean Δ +0.67 · 74s · $0.41
+Report: /Users/you/my-plugin/evals/results/2026-09-10T17-02-11-482Z/report.html
+Published: https://claude.ai/... · keep local next time with --no-publish
+```
 
-    To iterate on one case with fewer runs, run a single arm once. A single run is noisy, so confirm any change at the default three runs before you trust it. With one arm the table shows `SCORE` and `PASS%` columns instead of `WITH`, `W/OUT`, and `Δ`:
+`WITH` is the case's score with your plugin loaded, `W/OUT` is the score without it, and a positive `Δ` means the plugin raised the score. `COST` is a list-price estimate of the model calls, and `NOTES` shows the highest-weight failing grader's explanation, or the run's error, from the with-arm.
 
-    ```bash theme={null}
-    claude plugin eval . --case <case-name> --runs 1 --ablation none
-    ```
+**4. Open the report and iterate**
 
-    Replace `<case-name>` with one of the directory names under `evals/`.
-  </Step>
-</Steps>
+Open the `Published:` URL, or the `Report:` path when no `Published:` line appears, to see each grader's verdict and explanation for every run, and for `llm` graders the judge's votes and the excerpt it judged. The `Published:` line appears only when your account can [publish reports](#html-report).
+
+The most common first finding is a `Δ` near zero with the case's `tool_used: Skill` grader failing, which means Claude isn't choosing your skill on natural phrasing. Adjust the skill's [`description`](/docs/en/skills#frontmatter-reference), run `claude plugin eval .` again, and compare.
+
+To iterate on one case with fewer runs, run a single arm once. A single run is noisy, so confirm any change at the default three runs before you trust it. With one arm the table shows `SCORE` and `PASS%` columns instead of `WITH`, `W/OUT`, and `Δ`:
+
+```bash theme={null}
+claude plugin eval . --case <case-name> --runs 1 --ablation none
+```
+
+Replace `<case-name>` with one of the directory names under `evals/`.
 
 ## Write and refine cases
 
@@ -422,7 +420,7 @@ Every run with at least one case writes a `results/<timestamp>/` directory insid
 
 `report.html` is a single self-contained file that makes no external requests, so you can attach it to a CI job or open it from disk. This example is the top of a report for a three-case suite run with `--threshold 0.8`; the cost shown is a list-price estimate and varies with the model and the number of cases:
 
-<img alt="Top of an eval report: a verdict line reading &#x22;Plugin effect: +33.3 pts vs baseline, improved 2, flat 1, regressed 0 of 3 cases&#x22;, five summary tiles for suite score, ablation delta, baseline score, cases passing the threshold, and perfect runs, then the first case with its delta, score bar, and one run whose two graders both show pass" />
+![Top of an eval report: a verdict line reading "Plugin effect: +33.3 pts vs baseline, improved 2, flat 1, regressed 0 of 3 cases", five summary tiles for suite score, ablation delta, baseline score, cases passing the threshold, and perfect runs, then the first case with its delta, score bar, and one run whose two graders both show pass](https://mintcdn.com/claude-code/qq7LHDi_F0aeFHgk/images/plugin-eval-report.png?fit=max\&auto=format\&n=qq7LHDi_F0aeFHgk\&q=85\&s=106eb6e6a70a6565f891ea3a4564f87d)
 
 Read it from the top down:
 

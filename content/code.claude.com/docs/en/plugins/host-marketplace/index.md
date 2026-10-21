@@ -7,12 +7,12 @@ Hosting a marketplace means putting your `marketplace.json` catalog where other 
 
 This page is for the person who operates a marketplace.
 
-<Note>
-  These cases are covered on other pages:
-
-  * **You haven't written the catalog file yet**: start with [Create a marketplace](/docs/en/plugins/create-marketplace)
-  * **You're an admin requiring, restricting, or pre-installing marketplaces across your organization's machines**: read [Manage plugins for your organization](/docs/en/plugins/org)
-</Note>
+> [!NOTE]
+>
+> These cases are covered on other pages:
+>
+> * **You haven't written the catalog file yet**: start with [Create a marketplace](/docs/en/plugins/create-marketplace)
+> * **You're an admin requiring, restricting, or pre-installing marketplaces across your organization's machines**: read [Manage plugins for your organization](/docs/en/plugins/org)
 
 Start with [Host your marketplace](#host-your-marketplace) to pick a host and the command your users run. Read [Keep users up to date](#keep-users-up-to-date) before your first release. Read [Rename or remove a plugin](#rename-or-remove-a-plugin) before you change a plugin's `name`.
 

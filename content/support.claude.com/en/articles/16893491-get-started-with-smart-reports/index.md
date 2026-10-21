@@ -2,9 +2,13 @@
 
 Smart reports analyze how a team uses Claude and report on the work getting done, what it costs, where sessions run into friction, and which repeated patterns are worth packaging as shared skills. This guide explains how smart reports work, what appears in a smart report, and how to create, share, and delete them.
 
-During beta, each organization can run up to 10 reports per month for free, and the limit resets on the first day of every calendar month. If you need more reports during beta, please reach out to your account team or submit a request in the smart report page once you've hit the 10 report limit.
+During beta, each organization can run up to 10 reports per month for free. Reports that are queued or in progress count toward this limit, and reports that fail don't.
 
-Smart reports are available in beta on Claude Enterprise plans and aren’t available for organizations using customer-managed encryption keys (CMEK) or HIPAA configurations. Smart reports are also unavailable for Claude Code for Claude Enterprise organizations that use zero data retention.
+When your organization reaches its limit, you can’t create new reports. The smart reports page shows the date your limit resets, which is the first day of the next calendar month. If you need more reports before then, contact your account team.
+
+Smart reports are available in beta on Claude Enterprise plans and are off by default, so they must be turned on in your organization's settings. They aren't available on Claude Free, Pro, Max, or Team plans, or for Claude Platform (API) organizations.
+
+Claude Enterprise organizations can't use smart reports if they use customer-managed encryption keys (CMEK), a HIPAA configuration, or a hybrid deployment that runs inference on their own cloud provider. If your organization uses zero data retention for Claude Code, smart reports cover chat and Claude Cowork and leave out Claude Code.
 
 **Important:** Smart reports help you understand adoption and plan your investment in Claude. They aren't designed and should not be used for evaluating individual performance or making employment decisions.
 
@@ -24,13 +28,13 @@ Each report includes the following sections:
 
 Workstreams shows what the group used Claude for most, by sessions and by spend, side by side.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2671030907/7b62b605189fe8e9474a20c1eaf2/image.png?expires=1792406700&amp;signature=3ac38d8e45eb5c5a03147356ecd4842e4db13bb17b7f1cea9ec1941ac65e6160&amp;req=diYgF8l9nYhfXvMW1HO4zZse%2BmCYSw4LVa%2FWhnGS4GmW6XvM2PB0UxfdN768%0AE0nmNP%2FnQeBZPsK9bBw%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2671030907/7b62b605189fe8e9474a20c1eaf2/image.png?expires=1792627200&amp;signature=dd16aeb8143ddc833f2988c769b3a4d2238191ca893b71aefd2c52d773ded045&amp;req=diYgF8l9nYhfXvMW3nq%2BgYjLrMqCQHw2dzuueNPeNxxzsm2cFIrn0ZhivhqC%0AVjVAGCXqMVRBBL%2BRWOZjEVCqq5s%3D%0A)
 
 ### Deliverables produced
 
 Deliverables produced groups sessions by the type of output that was produced. For example, analysis, documentation, content drafts, and code.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2671035220/2a582bc047a6ba46e7dbd6f05d9f/e17881ac-874c-4747-94ca-8679e0301455?expires=1792406700&amp;signature=be5eb4fa09e22c1172fb784a4ee9e53d87a388e6a03639ae4ab63bcf6d822ab4&amp;req=diYgF8l9mINdWfMW1HO4zelj06Vfk9v1YDEFlKbF9Y9vqMG%2BKEgl4QVgVFaa%0AYVICiLW%2BlFpcgAc7Ncg%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2671035220/2a582bc047a6ba46e7dbd6f05d9f/e17881ac-874c-4747-94ca-8679e0301455?expires=1792627200&amp;signature=b3eedab3f97b5266f44d5446b84eb80add4bc1f90f5d921c939d0c3c104ccfad&amp;req=diYgF8l9mINdWfMW3nq%2BgarkVpAdyZx6sZzD4nw4%2FNUxkffikFPkTbIi4Ily%0AOcjmgrqq0hk4DOsxzIWkGL2%2BZfI%3D%0A)
 
 ### Cost per session by type of output
 
@@ -44,17 +48,17 @@ Task outcomes  shows what each session produced.
 
 Most common frictions shows what got in the way, by category. For example, a connector that wasn’t set up, output that didn’t match the ask, approval or sign-in gating, tool failures, or rework loops.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2671052365/b69f22b75729e5587563e7ab6830/b1647659-a7ea-403b-89fc-0b150ee97675?expires=1792406700&amp;signature=c2229bcefdd428cfc0c003de15509f48bcfd5fd0b0554c51b8f7041d29fb7b13&amp;req=diYgF8l7n4JZXPMW1HO4zdDitrgxVNtWjFK5P3Uf7RhkJIk0U6ef8e%2FMeQbs%0Ai2Ila8pRuGTrLg07rLI%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2671052365/b69f22b75729e5587563e7ab6830/b1647659-a7ea-403b-89fc-0b150ee97675?expires=1792627200&amp;signature=52e79b5769b658d61cfffd96c1928c1c15141a5c89a384f5cca86b4361a7625e&amp;req=diYgF8l7n4JZXPMW3nq%2BgelfR%2BcWVWDy787UYunlzgSwrn2SM%2BbAy5TrbLW6%0AEFSO8PNwCbseWG%2BIDc0oH4kUihU%3D%0A)
 
 Click into a category to see more information:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2671053199/b68936dd5d590c5fbcbbc092b332/5ec247b2-cd67-4f3f-97b5-23479b87a5c6?expires=1792406700&amp;signature=aeff573e116c6a9e33c20bb0a2c6c23ad2c960432dfa54eeb3b21cf1eba8fdce&amp;req=diYgF8l7noBWUPMW1HO4zbuGO4ksJr8bodOVMLl17PWF4gEsGCllIyYO%2BM8b%0AngjQwnJF3iK3OO58Hh0%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2671053199/b68936dd5d590c5fbcbbc092b332/5ec247b2-cd67-4f3f-97b5-23479b87a5c6?expires=1792627200&amp;signature=557ccacf2eb7e75f3240a72ab30c93afe552905e984e5f78d2a2897ceaf695ea&amp;req=diYgF8l7noBWUPMW3nq%2BgWyn0a4cxGGSfxLXzS32B3BXaBwdOyFqE0s2Zke8%0AEaPIGuPWOt0NTaXMVhP4jUAir7c%3D%0A)
 
 ### Inefficiencies
 
 Inefficiencies counts sessions that produced nothing usable and sessions that were personal or off-topic, with their cost (shown only as an aggregate count and cost, with no summaries or drilldown).
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2671036122/90dc848a7adf371a872bd89a2f5e/de86945b-ccfe-4e0f-892d-abacc475c5c4?expires=1792406700&amp;signature=03891c2849314980a57e6513bb6e032a49bc740c77a99a9788db9a67ae4399e7&amp;req=diYgF8l9m4BdW%2FMW1HO4zcYfhg2SDfIdBas8rgXn%2Fb2DQZqbKlb%2BcNyr6xZb%0AUZSQGHI804bRvCvrJ7c%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2671036122/90dc848a7adf371a872bd89a2f5e/de86945b-ccfe-4e0f-892d-abacc475c5c4?expires=1792627200&amp;signature=5176bc0670c72c924c7dfd6b6330a849b79f83f21b5cbd3abd48f64765a84327&amp;req=diYgF8l9m4BdW%2FMW3nq%2BgeoSslrziYRFEfVxx0rcKdED7EOdCXOnP5sXFG9A%0Acr7ucjSM1YLjivEg7wa8O%2FvR724%3D%0A)
 
 ### Reusable skills and workflows to build
 
@@ -64,13 +68,13 @@ Reusable skills and workflows to build identifies repeated patterns that could b
 
 Most expensive sessions lists where spend concentrates.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2671032083/2b075387a4a3473f884a8ba26436/image.png?expires=1792406700&amp;signature=fbb0bbaaacc921340015ce85a617cd7f271855c1a573fa37605605ec48fa2638&amp;req=diYgF8l9n4FXWvMW1HO4zdLkIm2h6kAunUoxuhUXEhgn%2FvX%2Fp1hQJzRDajbr%0AQFAifuWBjDIDdWrqUIo%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2671032083/2b075387a4a3473f884a8ba26436/image.png?expires=1792627200&amp;signature=44e3cc3aa77a948e3f3baa9eca081293124e28aba143b085715eaf3a4846abf4&amp;req=diYgF8l9n4FXWvMW3nq%2BgQL8lhi0YlkYgZWDH9GO2Sfvbw9dNrJ9IU7%2BhRf3%0A1Qoi0mczxyORQzCzo%2FYAySTG9a4%3D%0A)
 
 ### Complex, autonomous work
 
 Complex, autonomous work shows  sessions scoring highest on task complexity, time saved, how long Claude worked on its own, and the expertise required.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2671031695/3781b98c5cb9cdc069439aa3d9ab/image.png?expires=1792406700&amp;signature=c1849cd70abb996742291f05e5e779733ead1e9b06870c34a58a0cb1a5aba86e&amp;req=diYgF8l9nIdWXPMW1HO4zcPtgjD1C9nDtjDEKfEvx0Poo7Hom74TcQFGoMs7%0Ae55hK3eBGLr14Mfous4%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2671031695/3781b98c5cb9cdc069439aa3d9ab/image.png?expires=1792627200&amp;signature=467d1f5b56cbe4b38f6e1e6c2f56b0edae32685878c2b1ac2978488b817b352d&amp;req=diYgF8l9nIdWXPMW3nq%2BgWLYAa4d0Gz3Qw6RMc0VtCTldwtCvOOrok%2BR4K%2B2%0AYnNabvuVz07xlYpOguo9SOyr0j4%3D%0A)
 
 ### Answers to custom questions
 
@@ -142,7 +146,7 @@ To create a smart report:
 
 11. Click "Create report."
 
-Generating a report takes a few hours. You’ll get an email when the report is ready, and reports also appear in the "Smart reports" list in **[Analytics > Smart reports (beta)](https://claude.ai/analytics/insights)**.
+Reports usually take a few hours to generate, and they can take longer at busy times. You’ll get an email when the report is ready, and reports also appear in the "Smart reports" list in **[Analytics > Smart reports (beta)](https://claude.ai/analytics/insights)**.
 
 ## Pass department and cost center via SCIM
 

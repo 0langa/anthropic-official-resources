@@ -1,6 +1,6 @@
-Lesson 60 of 67 · Building with the Claude APIEnhancements with MCP servers
+Lesson 60 of 67 · Building with the Claude APIAdding MCP servers to Claude Code
 
-# Enhancements with MCP servers
+# Adding MCP servers to Claude Code
 
 Lesson 607 min
 

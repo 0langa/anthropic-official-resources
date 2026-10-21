@@ -16,6 +16,16 @@ Jess Yan, Claude Managed Agents product manager, shares how she uses the product
 
 Claude Platform](https://claude.com/resources/articles/product-development-in-the-agentic-era)
 
+[Video33 min watch
+
+### Building secure agents for knowledge work
+
+Katelyn Lesse sat down with Dan Shipper and Willie William at Every to talk about the AI coworker they built.
+
+Claude Platform
+
+(opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)
+
 [WebinarOct 13, 2026
 
 ### DRI-ing Your Career
@@ -38,14 +48,6 @@ Most conversations about AI in engineering focus on how the IC role is changing,
 
 Claude Platform](https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier)
 
-[ArticleOct 8, 2026
-
-### How Block orchestrates Claude Fable across thousands of pull requests
-
-Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
-
-Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)
-
 [ArticleApr 29, 2026
 
 ### Product development in the agentic era
@@ -60,7 +62,15 @@ Advanced filters
 
 Showing 11 of 61 resources
 
-[WebinarOct 13, 2026
+[Video33 min watch
+
+### Building secure agents for knowledge work
+
+Katelyn Lesse sat down with Dan Shipper and Willie William at Every to talk about the AI coworker they built.
+
+Claude Platform
+
+(opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)[WebinarOct 13, 2026
 
 ### DRI-ing Your Career
 
@@ -82,15 +92,7 @@ Claude Platform](https://claude.com/resources/webinars/ai-as-an-engineering-lead
 
 Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
 
-Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)[Video33 min watch
-
-### Building secure agents for knowledge work
-
-Katelyn Lesse, Head of Platform Engineering at Anthropic sat down with Dan Shipper, Co-Founder and CEO at Every and Willie Williams, Head of Platform at Every to talk about the AI coworker they built on Claude Managed Agents.
-
-Claude Platform
-
-(opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)[ArticleOct 6, 2026
+Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)[ArticleOct 6, 2026
 
 ### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
 

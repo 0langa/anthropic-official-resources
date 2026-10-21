@@ -1,4 +1,4 @@
-Quiz 3 of 9 · Claude with Google Cloud's Vertex AIQuiz on prompt engineering techniques
+Quiz 3 of 9 · Claude on Google CloudQuiz on prompt engineering techniques
 
 # Quiz on prompt engineering techniques
 

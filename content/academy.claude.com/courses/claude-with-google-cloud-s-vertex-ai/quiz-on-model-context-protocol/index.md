@@ -1,4 +1,4 @@
-Quiz 7 of 9 · Claude with Google Cloud's Vertex AIQuiz on Model Context Protocol
+Quiz 7 of 9 · Claude on Google CloudQuiz on Model Context Protocol
 
 # Quiz on Model Context Protocol
 

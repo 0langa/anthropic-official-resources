@@ -10,6 +10,14 @@ Live and recorded sessions with Anthropic and customer teams — demos, deep div
 
 [WebinarOn demand
 
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
+
+Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
+
+Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+
+[WebinarOn demand
+
 ### Inside the Cyber Verification Program: Tiers, Migration, and Best Practices
 
 Join the teams behind the program for a walkthrough of the Cyber Verification Program.](https://claude.com/resources/webinars/inside-the-cyber-verification-program)
@@ -36,7 +44,7 @@ Your rollout plan depends on knowing what's changed and what matters the most.
 
 Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
-[WebinarUpcoming | Oct 20, 2026
+[WebinarOn demand
 
 ### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
 
@@ -44,29 +52,17 @@ Your advisors want to use Claude for Financial Advisors. Before you turn on Cowo
 
 Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
 
-[WebinarOn demand
-
-### Inside the Cyber Verification Program: Tiers, Migration, and Best Practices
-
-Join the teams behind the program for a walkthrough of the Cyber Verification Program.](https://claude.com/resources/webinars/inside-the-cyber-verification-program)
-
-Featured resource 1 of 5: Inside the Cyber Verification Program: Tiers, Migration, and Best Practices
+Featured resource 1 of 5: Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
 
 Advanced filters
 
-Showing 23 of 114 resources
+Showing 22 of 114 resources
 
 ## Upcoming webinars
 
 Register for the live sessions with Anthropic and partner teams — bring your questions and get answers in real time.
 
-[WebinarUpcoming | Oct 20, 2026
-
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
-
-Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
-
-Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)[WebinarUpcoming | Oct 21, 2026
+[WebinarUpcoming | Oct 21, 2026
 
 ### Tokenomics on AWS: Control and optimize your Claude spend
 
@@ -142,6 +138,12 @@ Missed the session? Stream past sessions anytime and catch up at your own pace.
 
 [WebinarOn demand
 
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
+
+Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
+
+Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)[WebinarOn demand
+
 ### Claude Tag on-call: A new teammate in your incident channel
 
 We open on an incident. An alert fires in a Slack channel and, without anyone typing a prompt, Claude reads the logs, repos and…
@@ -194,15 +196,7 @@ Claude Code
 
 There's no single path to running Claude on AWS. What you build depends on what your compliance team needs, what your engineers…
 
-Claude PlatformClaude Enterprise](https://claude.com/resources/webinars/enterprise-transformation-with-claude-on-aws-paths-to-production-apac-rebroadcast)[WebinarOn demand
-
-### Enterprise Transformation with Claude on AWS: Paths to Production
-
-There's no single path to running Claude on AWS. What you build depends on what your compliance team needs, what your engineers…
-
-Claude PlatformClaude Enterprise
-
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/ceba8af9-f89f-4c14-bfda-7b2bf684e185)
+Claude PlatformClaude Enterprise](https://claude.com/resources/webinars/enterprise-transformation-with-claude-on-aws-paths-to-production-apac-rebroadcast)
 
 View more
 

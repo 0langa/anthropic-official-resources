@@ -13,8 +13,6 @@ Most users only edit `CLAUDE.md` and `settings.json`. If your repository already
 
 Click files in the tree to see what each one does, when it loads, and an example.
 
-<ClaudeExplorer />
-
 ## What's not shown
 
 The explorer covers files you author and edit. A few related files live elsewhere:
@@ -49,15 +47,15 @@ Different kinds of customization live in different files. Use this table to find
 
 This table lists every file the explorer covers. Project-scope files live in your repo under `.claude/` (or at the root for `CLAUDE.md`, `.mcp.json`, and `.worktreeinclude`). Global-scope files live in `~/.claude/` and apply across all projects.
 
-<Note>
-  Several things can override what you put in these files:
-
-  * [Managed settings](/docs/en/server-managed-settings) deployed by your organization take precedence over every settings file and `--settings` value, apart from the [exceptions under Settings precedence](/docs/en/settings#exceptions-to-managed-settings-precedence)
-  * CLI flags like `--permission-mode` or `--settings` override `settings.json` for that session
-  * Some environment variables take precedence over their equivalent setting, but this varies: check the [environment variables reference](/docs/en/env-vars) for each one
-
-  See [settings precedence](/docs/en/settings#settings-precedence) for the full order.
-</Note>
+> [!NOTE]
+>
+> Several things can override what you put in these files:
+>
+> * [Managed settings](/docs/en/server-managed-settings) deployed by your organization take precedence over every settings file and `--settings` value, apart from the [exceptions under Settings precedence](/docs/en/settings#exceptions-to-managed-settings-precedence)
+> * CLI flags like `--permission-mode` or `--settings` override `settings.json` for that session
+> * Some environment variables take precedence over their equivalent setting, but this varies: check the [environment variables reference](/docs/en/env-vars) for each one
+>
+> See [settings precedence](/docs/en/settings#settings-precedence) for the full order.
 
 Click a filename to open that node in the explorer above.
 

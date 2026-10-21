@@ -37,7 +37,7 @@ When your server contacts the Anthropic API, you can use either an official SDK 
 Every request must include these essential fields:
 
 - **API Key** - Identifies your request to Anthropic
-- **Model** - Name of the model to use (like "claude-sonnet-4-5")
+- **Model** - Name of the model to use (like "claude-haiku-4-5")
 - **Messages** - List containing the user's input text
 - **Max Tokens** - Limit for how many tokens Claude can generate
 

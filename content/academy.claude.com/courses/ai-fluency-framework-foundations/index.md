@@ -37,6 +37,10 @@ Our goal is to make AI Fluency accessible and useful to everyone, no matter what
 - [Meet your instructors(opens in new tab)](https://www-cdn.anthropic.com/e5f2470543977625bf82bbf74cd7898f47da4ae1.pdf)
 - [How we used AI in building the course(opens in new tab)](https://www-cdn.anthropic.com/0e37fa9da01fab7a5478a2194d352027794c1b89.pdf)
 
+#### Acknowledgments and license
+
+*Copyright 2025 Rick Dakan, Joseph Feller, and Anthropic. Released under the CC BY-NC-SA 4.0 license. This course is based on The AI Fluency Framework by Dakan and Feller. Supported in part by the Higher Education Authority, Ireland, through the National Forum for the Enhancement of Teaching and Learning.*
+
 ### Completion badge[](https://academy.claude.com/courses/ai-fluency-framework-foundations)
 
 After finishing the course, you will have the opportunity to take a final assessment and earn a completion badge.

@@ -10,7 +10,7 @@ In a sample of Claude Cowork sessions, we found that roughly half of all usage c
 
 When we released [Claude Code](https://claude.com/product/claude-code) in 2025, we were surprised at how many non-technical users started playing around with it. People who had never opened the terminal before were using it to create agents that organized folders, deduplicated files, and wrote spreadsheet formulas.
 
-But for others, the terminal remained a slightly intimidating place—a literal “black box.” We built [Claude Cowork](https://www.anthropic.com/product/claude-cowork) to extend the agentic capabilities of Claude Code to the same chat interface people were already using to talk to Claude.
+But for others, the terminal remained a slightly intimidating place—a literal “black box.” We built [Claude Cowork](https://www.anthropic.com/product/claude-cowork) to extend the agentic capabilities of Claude Code to [the same chat interface](https://claude.com/resources/articles/cowork-is-now-claude) people were already using to talk to Claude.
 
 Since we launched Claude Cowork in January, it’s become an especially potent tool for those whose work is focused on the creation and exchange of information, what many call “knowledge work.” People are using it for a variety of tasks that aren’t necessarily the hallmark of a specific role, but instead represent the connective work around a role that moves projects forward and keeps businesses running. That means tasks like drafting a status update, building a slide deck, or condensing reams of research into a single report.
 

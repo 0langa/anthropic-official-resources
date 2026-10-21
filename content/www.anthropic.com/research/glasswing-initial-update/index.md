@@ -1,10 +1,29 @@
-Announcements
+# **Project Glasswing:**An initial update
 
-# Project Glasswing: An initial update
+![Project Glasswing: An initial update](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9f76163fe710723283a55b9f60d5caca6697dffd-1920x1080.jpg&w=1920&q=75)
 
-May 22, 2026
+- Published
 
-![Project Glasswing: An initial update](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9f76163fe710723283a55b9f60d5caca6697dffd-1920x1080.jpg&w=3840&q=75)
+  May 22, 2026
+- Category
+
+  [Security](https://www.anthropic.com/news/security)
+- Topics
+
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Open source](https://www.anthropic.com/search?topic=open-source)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+
+Related articles
+
+- Security
+
+  Oct 8, 2026
+
+  [Introducing the Anthropic Cyber Mission](https://www.anthropic.com/news/anthropic-cyber-mission)
+
+[View more](https://www.anthropic.com/search?topic=cybersecurity)
 
 Last month, we launched [Project Glasswing](https://www.anthropic.com/glasswing), our collaborative effort to secure the world’s most critical software before increasingly capable AI models can be turned against it.
 
@@ -12,15 +31,15 @@ Since then, we and our approximately 50 partners have used Claude Mythos Preview
 
 In this post, we discuss what we’ve learned about this critical challenge for cybersecurity in the first weeks of Project Glasswing. We focus on the early public evidence of Mythos Preview’s performance, on the initial results of our effort to scan thousands of open-source software projects, and on what this progress means for cyberdefenders today. We also cover what to expect next from Project Glasswing, and how we’re thinking about releasing Mythos-class models in the future.
 
-## Our early results
+### Our early results
 
-### Our approach to discussing Mythos Preview’s findings
+#### Our approach to discussing Mythos Preview’s findings
 
 The software industry’s longstanding convention is to disclose new vulnerabilities 90 days after they’re discovered (or, if a patch is created before the 90 days is up, around 45 days after the patch becomes available). This allows time for end users to update their software before a vulnerability can be exploited by attackers. Our own [Coordinated Vulnerability Disclosure policy](https://www.anthropic.com/coordinated-vulnerability-disclosure) takes this approach.
 
 However, this means that disclosed vulnerabilities are a lagging indicator of the accelerating frontier of AI models’ cyber capabilities: we’re not yet at the point where we can fully detail our partners’ findings with Mythos Preview without putting end users at risk. Instead, we provide illustrative examples of the model’s performance, along with aggregate statistics on our progress to date. Once patches for the vulnerabilities that Mythos Preview has discovered are widely deployed, we’ll provide much more detail about what we’ve learned.
 
-### Evidence from our partners and external testers
+#### Evidence from our partners and external testers
 
 Project Glasswing’s initial partners build and maintain software that is fundamental to the functioning of the internet and other essential infrastructure. Fixing flaws in their code reduces risk for the many other organizations that rely on it, and therefore reduces risk for billions of end users.
 
@@ -37,7 +56,7 @@ More generally, we’re now seeing that patched software is being rolled out muc
 
 Mythos Preview has also proved useful for other kinds of security work. For example, at one of our Glasswing partner banks, Mythos Preview helped to detect and prevent a fraudulent $1.5 million wire transfer after a threat actor compromised a customer’s email account and made spoof phone calls.
 
-## Open-source software
+### Open-source software
 
 For the last few months, Anthropic has used Mythos Preview to scan more than 1,000 open-source projects, which collectively underpin much of the internet—and much of our own infrastructure.
 
@@ -63,7 +82,7 @@ We estimate that we’ve disclosed 530 high- or critical-severity bugs to mainta
 
 The relative ease of finding vulnerabilities compared with the difficulty of fixing them amounts to a major challenge for cybersecurity. Confronting this challenge successfully will make our software far safer than before. Below we discuss some ways that cyber defenders can adapt.
 
-## Adapting to a new phase of cybersecurity
+### Adapting to a new phase of cybersecurity
 
 Models with similar cybersecurity skills to Mythos Preview will soon be more broadly available. There is a clear need for a larger effort across the software industry to manage the volume of findings that these models will generate.
 
@@ -74,7 +93,7 @@ Software developers and users should act now to reduce their exposure to these r
 - **Software developers** should shorten their patch cycles and make security fixes available as quickly as possible. The thoughtful use of publicly available AI models can help here; we’re building tools and sharing our research to support this (more details below). Developers should also help their users stay up-to-date with their software by making it as easy as possible to install updates; to the extent feasible, they should be more persistent with users who are still running software with known vulnerabilities.
 - **Network defenders** should shorten their patch testing and deployment timelines. The critical controls laid out by organizations like the [National Institute of Standards and Technology](https://www.nist.gov/cyberframework) and the UK’s [National Cyber Security Centre](https://www.ncsc.gov.uk/collection/10-steps/risk-management) are now all the more important, since they improve security without depending on any single patch landing in time. These include steps like hardening networks’ default configurations, enforcing multi-factor authentication, and keeping comprehensive logs for detection and response.
 
-### Tools for cyberdefense with publicly available AI models
+#### Tools for cyberdefense with publicly available AI models
 
 Many generally-available models can already find large numbers of software vulnerabilities, even if they can’t find the most sophisticated vulnerabilities or exploit them as effectively as Claude Mythos Preview. Project Glasswing has already spurred many other organizations to take action on their own codebases with these generally-available models; we’re working to make this much easier to do.
 
@@ -90,13 +109,13 @@ Now, we’re making the tools that we and our partners have used with Mythos Pre
 
 Cisco, one of our Project Glasswing partners, has also recently open-sourced its [Foundry Security Spec](https://blogs.cisco.com/ai/announcing-foundry-security-spec) to help other defenders build an evaluation system similar to the one they use themselves.
 
-## Supporting the ecosystem
+### Supporting the ecosystem
 
 We’ve formed a [partnership](https://openssf.org/press-release/2026/03/17/linux-foundation-announces-12-5-million-in-grant-funding-from-leading-organizations-to-advance-open-source-security/) with the Open Source Security Foundation’s Alpha-Omega project, which will support the foundation’s efforts to assist maintainers in processing and triaging bug reports. We’re also continuing to publish research into how frontier model capabilities can best support cyberdefenders.
 
 We’ve also supported the development of [ExploitBench](http://exploitbench.ai/) and [ExploitGym](https://rdi.berkeley.edu/blog/exploitgym/), the two new benchmarks that allow researchers to track frontier AI models’ exploit development capabilities over time, as we discuss [here](https://red.anthropic.com/2026/exploit-evals/). We’re supporting the development of other high-quality quantitative benchmarks through our [External Researcher Access Program](https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program). Finally, [Claude for Open Source](https://claude.com/contact-sales/claude-for-oss) supports maintainers and contributors, and we’re committing to scan any open-source package that we adopt ourselves in the future.
 
-## What's next for Project Glasswing
+### What's next for Project Glasswing
 
 The speed of AI progress means that models as capable as Mythos Preview will soon be developed by many different AI companies. At present, no company—including Anthropic—has developed safeguards strong enough to prevent such models from being misused and potentially causing severe harm. That is why we have yet to release Mythos-class models to the public. But it’s also why we began Project Glasswing: if a similarly capable model is released *without* such safeguards, it will soon become dramatically cheaper and easier for almost anyone in the world to exploit flawed software.
 
@@ -105,23 +124,3 @@ Glasswing helps the most systemically important cyber defenders gain an asymmetr
 Next, we will work with critical partners—including US and allied governments—to expand Project Glasswing to additional partners. And in the near future, once we’ve developed the far stronger safeguards we need, we look forward to making Mythos-class models available through a general release.
 
 On the far side of these risks, there’s an encouraging world available to us: one in which important code is hardened far better than it is today, and in which hacking is far less prevalent. There are many obstacles, but we’re nonetheless confident that Project Glasswing can help get us there.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)

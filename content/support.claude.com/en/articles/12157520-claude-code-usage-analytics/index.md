@@ -26,11 +26,7 @@ Claude Code usage analytics are available to:
 
 1. Log in to your **[Claude Console account](https://platform.claude.com)**.
 
-2. Expand the left side panel.
-
-3. Click “Claude Code” under **Analytics**.
-
-4. View Claude Code usage analytics on **[Settings > Claude Code](https://platform.claude.com/claude-code)**.
+2. Go to the **Claude Code** page (platform.claude.com/claude-code).
 
 ---
 
@@ -50,7 +46,7 @@ The **Usage** tab displays the following metrics for your organization. Data on 
 
 - **Top commands**: The Claude Code commands used most often across your organization.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1717579277/46c512f4b3ed05c359cecd78ed5c/e0ce2c19-39e2-411f-9a1f-cb1d46439a42?expires=1792406700&amp;signature=5a4d2172c7c88c6b061e96360f65892554d4fa9b29640905d027cf44b95d899b&amp;req=dScmEcx5lINYXvMW1HO4zfiEPqRUj3%2FJCX9h5MbdDjP92lBehVE7q1hKcO2l%0A%2B2u3srzj%2BXhfC7tj8fs%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1717579277/46c512f4b3ed05c359cecd78ed5c/e0ce2c19-39e2-411f-9a1f-cb1d46439a42?expires=1792627200&amp;signature=b52c31a4540958b72902bef0417b236e65a9f362b435273a47a281b65dc8d34f&amp;req=dScmEcx5lINYXvMW3nq%2BgSdYtUT0OzSiF2Tl%2FBjUoqJP8xvEf0aHlTfjhNby%0AQ8iMFnhJJyDB%2BDNWQj6p3rxoBS4%3D%0A)
 
 ### User-level metrics
 
@@ -76,7 +72,7 @@ Every formula used on this tab is shown inline. Click any input to adjust it to 
 
 Contribution metrics are a new feature in public beta that helps Team and Enterprise organizations measure how Claude Code affects engineering velocity. By connecting to your organization's GitHub account, these metrics track code shipping activity with and without Claude Code, so you can see where it's making a difference.
 
-Contribution metrics require GitHub Cloud and are not available to Console users at this time.
+Contribution metrics require GitHub Cloud. They aren't available to Console users or to organizations with zero data retention (ZDR) enabled for Claude Code.
 
 For a more in-depth look at contribution metrics, see **[our Claude Code docs](https://code.claude.com/docs/en/analytics#enable-contribution-metrics)**.
 

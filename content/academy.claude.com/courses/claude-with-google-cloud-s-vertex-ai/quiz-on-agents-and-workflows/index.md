@@ -1,4 +1,4 @@
-Quiz 8 of 9 · Claude with Google Cloud's Vertex AIQuiz on agents and workflows
+Quiz 8 of 9 · Claude on Google CloudQuiz on agents and workflows
 
 # Quiz on agents and workflows
 

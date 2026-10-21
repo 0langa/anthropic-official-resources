@@ -1,14 +1,31 @@
-[Engineering at Anthropic](https://www.anthropic.com/engineering)
-
-![](https://www-cdn.anthropic.com/images/4zrzovbb/website/aad1e9f623eb01a3f43233255e731256bb28a927-2554x2554.svg)
+### Chapter 05: Appendix
 
 # Harness design for long-running application development
 
-Published Mar 24, 2026
+- Published
 
-Harness design is key to performance at the frontier of agentic coding. Here's how we pushed Claude further in frontend design and long-running autonomous software engineering.
+  Mar 24, 2026
+- Team
+
+  [Engineering](https://www.anthropic.com/engineering)
+- Topics
+
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)See more...
 
 *Written by Prithvi Rajasekaran, a member of our [Labs](https://www.anthropic.com/news/introducing-anthropic-labs) team.*
+
+Related articles
+
+- Engineering
+
+  Feb 5, 2026
+
+  [Building a C compiler with a team of parallel Claudes](https://www.anthropic.com/research/building-c-compiler)
+
+[View more](https://www.anthropic.com/search?topic=agents)
 
 Over the past several months I’ve been working on two interconnected problems: getting Claude to produce high-quality frontend designs, and getting it to build complete applications without human intervention. This work originated with earlier efforts on our [frontend design skill](https://github.com/anthropics/claude-code/blob/main/plugins/frontend-design/skills/frontend-design/SKILL.md) and [long-running coding agent harness](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents), where my colleagues and I were able to improve Claude’s performance well above baseline through prompt engineering and harness design—but both eventually hit ceilings.
 
@@ -73,8 +90,8 @@ For this work I built on the foundation from the original harness with a three-a
 
 **Generator:** The one-feature-at-a-time approach from the earlier harness worked well for scope management. I applied a similar model here, instructing the generator to work in sprints, picking up one feature at a time from the spec. Each sprint implemented the app with a React, Vite, FastAPI, and SQLite (later PostgreSQL) stack, and the generator was instructed to self-evaluate its work at the end of each sprint before handing off to QA. It also had git for version control.
 
-**Evaluator:** Applications from earlier harnesses often looked impressive but still had real bugs when you actually tried to use them. To catch these, the evaluator used the Playwright MCP to click through the running application the way a user would, testing UI features, API endpoints, and database states. It then graded each sprint against both the bugs it had found and a set of criteria modeled on the frontend experiment, adapted here to cover product depth, functionality, visual design, and code quality. Each criterion had a hard threshold, and if any one fell below it, the sprint failed and the generator got detailed feedback on what went wrong.  
-  
+**Evaluator:** Applications from earlier harnesses often looked impressive but still had real bugs when you actually tried to use them. To catch these, the evaluator used the Playwright MCP to click through the running application the way a user would, testing UI features, API endpoints, and database states. It then graded each sprint against both the bugs it had found and a set of criteria modeled on the frontend experiment, adapted here to cover product depth, functionality, visual design, and code quality. Each criterion had a hard threshold, and if any one fell below it, the sprint failed and the generator got detailed feedback on what went wrong.
+
 Before each sprint, the generator and evaluator negotiated a sprint contract: agreeing on what "done" looked like for that chunk of work before any code was written. This existed because the product spec was intentionally high-level, and I wanted a step to bridge the gap between user stories and testable implementation. The generator proposed what it would build and how success would be verified, and the evaluator reviewed that proposal to make sure the generator was building the right thing. The two iterated until they agreed.
 
 Communication was handled via files: one agent would write a file, another agent would read it and respond either within that file or with a new file that the previous agent would read in turn. The generator then built against the agreed-upon contract before handing the work off to QA. This kept the work faithful to the spec without over-specifying implementation too early.
@@ -89,7 +106,23 @@ I wrote the following prompt to generate a retro video game maker:
 
 The table below shows the harness type, length it ran for, and the total cost.
 
-<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><th class="body-3" role="columnheader"><strong>Harness</strong></th><th class="body-3" role="columnheader"><strong>Duration</strong></th><th class="body-3" role="columnheader"><strong>Cost</strong></th></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Solo</td><td class="body-3" role="cell">20 min</td><td class="body-3" role="cell">$9</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Full harness</td><td class="body-3" role="cell">6 hr</td><td class="body-3" role="cell">$200</td></tr></tbody></table>
+**Harness**
+
+**Duration**
+
+**Cost**
+
+Solo
+
+20 min
+
+$9
+
+Full harness
+
+6 hr
+
+$200
 
 The harness was over 20x more expensive, but the difference in output quality was immediately apparent.
 
@@ -145,7 +178,21 @@ The biggest difference was in play mode. I was actually able to move my entity a
 
 Reading through the logs, it was clear that the evaluator kept the implementation in line with the spec. Each sprint, it walked through the sprint contract's test criteria and exercised the running application through Playwright, filing bugs against anything that diverged from expected behavior. The contracts were granular—Sprint 3 alone had 27 criteria covering the level editor—and the evaluator's findings were specific enough to act on without extra investigation. The table below shows several examples of issues our evaluator identified:
 
-<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><th class="body-3" role="columnheader"><strong>Contract criterion</strong></th><th class="body-3" role="columnheader"><strong>Evaluator finding</strong></th></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Rectangle fill tool allows click-drag to fill a rectangular area with selected tile</td><td class="body-3" role="cell"><strong>FAIL</strong> — Tool only places tiles at drag start/end points instead of filling the region. <code class="InlineCodeBlock-module-scss-module__nsPAba__code">fillRectangle</code> function exists but isn't triggered properly on mouseUp.</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">User can select and delete placed entity spawn points</td><td class="body-3" role="cell"><strong>FAIL</strong> — Delete key handler at <code class="InlineCodeBlock-module-scss-module__nsPAba__code">LevelEditor.tsx:892</code> requires both <code class="InlineCodeBlock-module-scss-module__nsPAba__code">selection</code> and <code class="InlineCodeBlock-module-scss-module__nsPAba__code">selectedEntityId </code>to be set, but clicking an entity only sets <code class="InlineCodeBlock-module-scss-module__nsPAba__code">selectedEntityId</code>. Condition should be <code class="InlineCodeBlock-module-scss-module__nsPAba__code">selection || (selectedEntityId &amp;&amp; activeLayer === 'entity')</code>.</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">User can reorder animation frames via API</td><td class="body-3" role="cell"><strong>FAIL</strong> — <code class="InlineCodeBlock-module-scss-module__nsPAba__code">PUT /frames/reorder</code> route defined after <code class="InlineCodeBlock-module-scss-module__nsPAba__code">/{frame_id}</code> routes. FastAPI matches 'r<code class="InlineCodeBlock-module-scss-module__nsPAba__code">eorder</code>' as a frame_id integer and returns 422: "unable to parse string as an integer."</td></tr></tbody></table>
+**Contract criterion**
+
+**Evaluator finding**
+
+Rectangle fill tool allows click-drag to fill a rectangular area with selected tile
+
+**FAIL** — Tool only places tiles at drag start/end points instead of filling the region. `fillRectangle` function exists but isn't triggered properly on mouseUp.
+
+User can select and delete placed entity spawn points
+
+**FAIL** — Delete key handler at `LevelEditor.tsx:892` requires both `selection` and `selectedEntityId` to be set, but clicking an entity only sets `selectedEntityId`. Condition should be `selection || (selectedEntityId && activeLayer === 'entity')`.
+
+User can reorder animation frames via API
+
+**FAIL** — `PUT /frames/reorder` route defined after `/{frame_id}` routes. FastAPI matches 'r`eorder`' as a frame\_id integer and returns 422: "unable to parse string as an integer."
 
 Getting the evaluator to perform at this level took work. Out of the box, Claude is a poor QA agent. In early runs, I watched it identify legitimate issues, then talk itself into deciding they weren't a big deal and approve the work anyway. It also tended to test superficially, rather than probing edge cases, so more subtle bugs often slipped through. The tuning loop was to read the evaluator's logs, find examples where its judgment diverged from mine, and update the QAs prompt to solve for those issues. It took several rounds of this development loop before the evaluator was grading in a way that I found reasonable. Even then, the harness output showed the limits of the model’s QAing capabilities: small layout issues, interactions that felt unintuitive in places, and undiscovered bugs in more deeply nested features that the evaluator hadn't exercised thoroughly. There was clearly more verification headroom to capture with further tuning. But compared to the solo run, where the central feature of the application simply didn't work, the lift was obvious.
 
@@ -179,7 +226,59 @@ The run was still lengthy and expensive, at about 4 hours and $124 in token cost
 
 Most of the time went to the builder, which ran coherently for over two hours without the sprint decomposition that Opus 4.5 had needed.
 
-<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Agent &amp; Phase</strong></td><td class="body-3" role="cell"><strong>Duration</strong></td><td class="body-3" role="cell"><strong>Cost</strong></td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Planner</td><td class="body-3" role="cell">4.7 min</td><td class="body-3" role="cell">$0.46</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Build (Round 1)</td><td class="body-3" role="cell">2 hr 7 min</td><td class="body-3" role="cell">$71.08</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">QA (Round 1)</td><td class="body-3" role="cell">8.8 min</td><td class="body-3" role="cell">$3.24</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Build (Round 2)</td><td class="body-3" role="cell">1 hr 2 min</td><td class="body-3" role="cell">$36.89</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">QA (Round 2)</td><td class="body-3" role="cell">6.8 min</td><td class="body-3" role="cell">$3.09</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Build (Round 3)</td><td class="body-3" role="cell">10.9 min</td><td class="body-3" role="cell">$5.88</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">QA (Round 3)</td><td class="body-3" role="cell">9.6 min</td><td class="body-3" role="cell">$4.06</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Total V2 Harness</strong></td><td class="body-3" role="cell"><strong>3 hr 50 min</strong></td><td class="body-3" role="cell"><strong>$124.70</strong></td></tr></tbody></table>
+**Agent & Phase**
+
+**Duration**
+
+**Cost**
+
+Planner
+
+4.7 min
+
+$0.46
+
+Build (Round 1)
+
+2 hr 7 min
+
+$71.08
+
+QA (Round 1)
+
+8.8 min
+
+$3.24
+
+Build (Round 2)
+
+1 hr 2 min
+
+$36.89
+
+QA (Round 2)
+
+6.8 min
+
+$3.09
+
+Build (Round 3)
+
+10.9 min
+
+$5.88
+
+QA (Round 3)
+
+9.6 min
+
+$4.06
+
+**Total V2 Harness**
+
+**3 hr 50 min**
+
+**$124.70**
 
 As with the previous harness, the planner expanded the one-line prompt into a full spec. From the logs, I could see the generator model did a good job planning the app and the agent design, wiring the agent up, and testing it before handing off to QA.
 
@@ -212,15 +311,11 @@ With this in mind, there are a few lessons from this work worth carrying forward
 
 From this work, my conviction is that the space of interesting harness combinations doesn't shrink as models improve. Instead, it moves, and the interesting work for AI engineers is to keep finding the next novel combination.
 
-## Acknowledgements
-
-Special thanks to Mike Krieger, Michael Agaby, Justin Young, Jeremy Hadfield, David Hershey, Julius Tarng, Xiaoyi Zhang, Barry Zhang, Orowa Sidker, Michael Tingley, Ibrahim Madha, Martina Long, and Canyon Robbins for their contributions to this work.
-
-Thanks also to Jake Eaton, Alyssa Leonard, and Stef Sequeira for their help shaping the post.
-
 ## Appendix
 
 Example plan generated by planner agent.
+
+CopyExpand
 
 ```
 RetroForge - 2D Retro Game Maker
@@ -255,10 +350,10 @@ All associated sprites, tilesets, levels, and entity definitions
 ...
 ```
 
-CopyExpand
+## Authors & Acknowledgments
 
-## Get the developer newsletter
+### Acknowledgements
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+Special thanks to Mike Krieger, Michael Agaby, Justin Young, Jeremy Hadfield, David Hershey, Julius Tarng, Xiaoyi Zhang, Barry Zhang, Orowa Sidker, Michael Tingley, Ibrahim Madha, Martina Long, and Canyon Robbins for their contributions to this work.
 
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+Thanks also to Jake Eaton, Alyssa Leonard, and Stef Sequeira for their help shaping the post.

@@ -1,4 +1,4 @@
-Quiz 6 of 9 · Claude with Google Cloud's Vertex AIQuiz on features of Claude
+Quiz 6 of 9 · Claude on Google CloudQuiz on features of Claude
 
 # Quiz on features of Claude
 

@@ -1,27 +1,25 @@
-InterpretabilityResearch
-
 # In-context learning and induction heads
 
-Mar 8, 2022
+[Read the paper](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html)
 
-[Read Paper](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html)
+- Published
 
-## Related content
+  Mar 8, 2022
+- Team
 
-### Designing more efficient quantum circuits with Claude
+  [Interpretability](https://www.anthropic.com/research/team/interpretability)
+- Topics
 
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
+  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+  - [Training](https://www.anthropic.com/search?topic=training)
+  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)See more...
 
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
+Related articles
 
-### Claude reveals ECDSA curve origins
+- Alignment
 
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
+  Aug 8, 2023
 
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
+  [Tracing model outputs to the training data](https://www.anthropic.com/research/influence-functions)
 
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
+[View more](https://www.anthropic.com/search?topic=interpretability)

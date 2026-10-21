@@ -7,7 +7,7 @@ Lesson 6 of 13 · Claude 101Creating with artifacts
 In this lessonBy the end, you’ll be able to
 
 - Explain what artifacts are and where your outputs live
-- Create designs, decks, and living documents as artifacts (on paid plans)
+- Create designs, decks, and living documents as artifacts
 - Edit an artifact directly, with a comment, or by asking in the conversation
 - Share an artifact and control who can see and edit it
 
@@ -21,14 +21,14 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-1
 
 Claude creates an artifact when you ask for something that stands on its own — something you'll want to edit, reuse, or share rather than just read once. If you want to ensure Claude creates an artifact, just say so: "Create this as an artifact."
 
-On paid plans, an artifact isn't tied to the conversation that created it: everything you make is saved in the Artifacts tab, so you can come back to it later, keep editing it, and share it with others. Think of the conversation as where you create, and the Artifacts tab as where your outputs live. (On the Free plan, an artifact stays with the conversation that created it.)
+An artifact isn't tied to the conversation that created it: everything you make is saved in the Artifacts tab, so you can come back to it later, keep editing it, and share it with others. Think of the conversation as where you create, and the Artifacts tab as where your outputs live.
 
 ## Designs, decks, and living documents[](https://academy.claude.com/courses/claude-101/creating-with-artifacts)
 
 Claude has a dedicated way to make each of the most common work deliverables:
 
 - **Claude Design** creates visual work — landing pages, one-pagers, product mockups, interface prototypes. You can bring in your design system so drafts come back in your brand, and edit directly on the canvas: drag, resize, and align anything.
-- **Claude Slides** creates presentations. Share the notes, report, or conversation you already have, and Claude outlines, writes, and lays out every slide. You can edit any slide directly, add your own images, and present without leaving Claude — or export to PowerPoint or PDF when you're ready.
+- **Claude Slides** creates presentations. Share the notes, report, or conversation you already have, and Claude outlines, writes, and lays out every slide. You can edit any slide directly, add your own images, and present without leaving Claude — or export to PowerPoint, Google Slides, or PDF when you're ready.
 - **Claude Docs** creates living documents — rich-text pages you and Claude write together. Claude drafts in front of you, asks clarifying questions, and explains its choices in comments. You and your colleagues can edit the same doc at the same time, and changes save as you go. Claude can also pull data from your connected tools into charts and diagrams right in the page — a snapshot, not a live feed; ask Claude to refresh it when you need the latest. Export to Google Docs or as a .docx file anytime.
 
 These work together in one conversation, and you can ask for one from another: "turn this doc into a deck," or "make a one-pager from this deck."
@@ -37,30 +37,28 @@ These work together in one conversation, and you can ask for one from another: "
 
 Plan availability
 
-Claude Design, Claude Slides, and Claude Docs are in beta and available on
-paid plans (Pro, Max, Team, and Enterprise). On Pro and Max they're on by
-default, and you can turn each one off in Settings > Capabilities. On Team
-they're on by default, and an admin can turn them off. On Enterprise they're
-off by default until an admin turns them on in Organization settings >
-Artifacts. If you don't see them, ask your admin, who also controls whether
+Claude Design, Claude Slides, and Claude Docs are available on every plan,
+including Free. On Team an admin can turn them off, and on Enterprise an
+admin manages them in Organization settings > Artifacts. If you're on Team
+or Enterprise and don't see them, ask your admin, who also controls whether
 artifacts are on for your organization.
 
 ## Artifacts on every plan[](https://academy.claude.com/courses/claude-101/creating-with-artifacts)
 
-Not everything needs Claude Design, Claude Slides, or Claude Docs. Ask for a dashboard of your team's numbers, a tracker you update each week, a flowchart of your onboarding process, an interactive page, or working code, and Claude builds it as an artifact right in the conversation — on every plan, including Free.
+Not everything needs Claude Design, Claude Slides, or Claude Docs. Ask for a chart of your team's numbers, a tracker you update each week, a flowchart of your onboarding process, an interactive page, or working code, and Claude builds it as an artifact right in the conversation — on every plan, including Free.
 
 Artifacts are different from Claude's file creation, which produces downloadable Word documents, Excel spreadsheets, PowerPoint presentations, and PDF files. The practical difference: an artifact opens and updates right in Claude and is shared by link, while file creation hands you a file to download and open in other apps.
 
 ## Creating your first artifact[](https://academy.claude.com/courses/claude-101/creating-with-artifacts)
 
-Creating an artifact is as simple as having a conversation. Describe what you want in any conversation with Claude (the composer's Output menu lets you pick a design, slides, or a doc), or start from the Artifacts tab, where you can pick a design, a deck, or a doc and describe what you need.
+Creating an artifact is as simple as having a conversation. Describe what you want in any conversation with Claude, or start from the Artifacts tab, where you can pick a design, a deck, or a doc and describe what you need.
 
-For example, you might say (the first three assume your plan — and on Team and Enterprise, your admin — has the design, deck, and doc experiences turned on):
+For example, you might say (on Team and Enterprise, the first three assume your admin has Claude Design, Claude Slides, and Claude Docs turned on):
 
 - “Turn these meeting notes into a five-slide deck for my team meeting”Creates a deck you can edit slide by slide and present.
 - “Draft a one-page project brief for the onboarding revamp as a doc I can share with the team”Creates a living doc your team can edit with you.
 - “Design a landing page for a productivity app with a hero section and feature list”Creates a design on an editable canvas.
-- “Build an interactive dashboard that lets me input monthly expenses and see a breakdown”Creates an interactive dashboard — available on any plan.
+- “Build an interactive quiz that tests me on the twenty vocabulary words in this list”Creates an interactive tool you can use right away.
 
 When the artifact appears, you can copy it or download it — and keep going: everything stays editable.
 
@@ -74,17 +72,17 @@ Once an artifact exists, you have three ways to change it — and you can mix th
 - **Comment for Claude.** Leave a comment on the exact element, slide, or passage you want changed, and Claude makes the change there. In a doc, @-mention Claude in a comment and it replies explaining what it changed and why.
 - **Just ask.** Keep talking in the conversation and Claude takes the next pass on the artifact, showing you every change it makes.
 
-Fixing a typo or nudging a logo yourself means you don't have to describe the change and wait for a rewrite. One note on where this happens: editing directly, commenting, and changing sharing happen on desktop or web — on mobile, you can ask for an artifact in any conversation and open it full screen in the Artifacts tab.
+Fixing a typo or nudging a logo yourself means you don't have to describe the change and wait for a rewrite. You can also edit a doc, deck, or design in the Claude mobile app. To change who it's shared with, use desktop or web.
 
 ## Sharing your work[](https://academy.claude.com/courses/claude-101/creating-with-artifacts)
 
 Your artifacts are private until you share them. For designs, decks, and docs, add people by name or email and choose what each person can do — view, comment, or edit (docs offer view and edit) — or share a link with everyone in your organization. Anyone you share with needs a Claude account to open the artifact.
 
-- **On Pro and Max plans**, you choose between keeping an artifact to yourself or sharing it with anyone who has the link — and you can publish a design or a deck as a public artifact. Only the artifact becomes public — your conversation stays private.
+- **On Pro and Max plans**, you choose between keeping an artifact to yourself or sharing it with anyone who has the link. Only the artifact is shared — your conversation stays private.
 - **On Team and Enterprise plans**, links stay inside your organization by default. Sharing outside the organization ("anyone with the link") is available only after an Owner or Primary Owner turns on External sharing in Organization settings > Artifacts.
-- **On the Free plan**, you can copy your work, download it, or publish it so anyone with the link can view it.
+- **On the Free plan**, artifacts stay private to you.
 
-When the work needs to leave Claude, export it. Artifacts export to files that match what you've made: a deck to .pptx or .pdf, a design to .pptx, .pdf, or .html, a doc to Google Docs or .docx. You can also copy or download any artifact directly from the artifact window.
+When the work needs to leave Claude, export it. Artifacts export to files that match what you've made: a deck to .pptx, Google Slides, or .pdf, a design to .pptx, .pdf, or .html, a doc to Google Docs or .docx. You can also copy or download any artifact directly from the artifact window.
 
 ## Tips for getting the most from artifacts[](https://academy.claude.com/courses/claude-101/creating-with-artifacts)
 

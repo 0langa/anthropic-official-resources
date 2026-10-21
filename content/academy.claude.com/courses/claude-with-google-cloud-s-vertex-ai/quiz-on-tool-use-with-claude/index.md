@@ -1,4 +1,4 @@
-Quiz 4 of 9 · Claude with Google Cloud's Vertex AIQuiz on tool use with Claude
+Quiz 4 of 9 · Claude on Google CloudQuiz on tool use with Claude
 
 # Quiz on tool use with Claude
 

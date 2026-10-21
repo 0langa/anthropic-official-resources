@@ -1,14 +1,34 @@
-Societal Impacts
+### Chapter 08: Sharing your perspective: FAQ
 
-# Introducing Anthropic Interviewer: What 1,250 professionals told us about working with AI
+# **Introducing Anthropic Interviewer:**What 1,250 professionals told us about working with AI
 
-Dec 4, 2025
+![Introducing Anthropic Interviewer: What 1,250 professionals told us about working with AI](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F526bcb2a316e61dc94631d148e17b1ac155442ea-2000x1125.jpg&w=1920&q=75)
 
-![Introducing Anthropic Interviewer: What 1,250 professionals told us about working with AI ](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffcec45b6ce97123350c773f6897b83c7519f3ae7-2000x1125.png&w=3840&q=75)
+- Published
 
-Sharing your perspective: FAQ
+  Dec 4, 2025
+- Team
+
+  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
+- Topics
+
+  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+  - [Discovery](https://www.anthropic.com/search?topic=discovery)
+  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+  - [Productivity](https://www.anthropic.com/search?topic=productivity)See more...
 
 *We’re launching a new tool, Anthropic Interviewer, to help understand people’s perspectives on AI. In this research post, we introduce the tool, describe a test of it on a sample of professionals, and discuss our early findings. We also discuss future work in this direction that we can now explore with the development of this tool and through partnerships with creatives, scientists, and teachers.*
+
+Related articles
+
+- Economics
+
+  Oct 16, 2026
+
+  [The AI expectations gap](https://www.anthropic.com/research/ai-expectations-gap)
+
+[View more](https://www.anthropic.com/search?topic=how-people-use-ai)
 
 ## Introduction
 
@@ -39,21 +59,51 @@ The different topics people discussed in their interviews with Anthropic Intervi
 
 The different topics people discussed in their interviews with Anthropic Interviewer. Across all three samples we studied—the general workforce, scientists, and creatives—participants expressed predominantly positive sentiments about AI’s impact on their professional activities. Certain topics did introduce pause, particularly around questions of personal control, job displacement, and autonomy. In this diagram, topics are roughly ordered from more pessimistic to more optimistic.
 
-General workforce
+## General workforce
 
-<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><th class="body-3" role="columnheader">Pessmistic</th><th class="body-3" role="columnheader">Optimistic</th></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Career adaptation. </strong>Trucking dispatcher: “I'm always trying to figure out things that humans offer to the industry that can't be automated and really hone in on that aspect like the personalized human interactions. However, that is not something that I think will be necessary in the long run. I'm still trying to figure out what skills would be good to work on that AI can't ‘take over.’”</td><td class="body-3" role="cell"><strong>Societal perspectives</strong>. Office assistant: “It's a tool to me like a computer was, or a type writer was in the day—computers didn't get rid of mathematicians, they just made them able to do more and that is where I see AI going in the best possible future.”</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Writing independence. </strong>Salesperson: “I hear from colleagues that they can tell when email correspondence is AI generated and they have a slightly negative regard for the sender. They feel slighted that the sender is ‘too lazy’ to send them a personal note and push it onto AI to do it.”</td><td class="body-3" role="cell"><strong>Educational integration. </strong>Special education teacher: “I am hoping that AI will be a more collaborative partner that will help me better manage my time and help me expand creatively so I can offer my students a wide variety of activities and assignments that I may not have been able to come up with on my own.”</td></tr></tbody></table>
+Pessmistic
+
+Optimistic
+
+**Career adaptation.** Trucking dispatcher: “I'm always trying to figure out things that humans offer to the industry that can't be automated and really hone in on that aspect like the personalized human interactions. However, that is not something that I think will be necessary in the long run. I'm still trying to figure out what skills would be good to work on that AI can't ‘take over.’”
+
+**Societal perspectives**. Office assistant: “It's a tool to me like a computer was, or a type writer was in the day—computers didn't get rid of mathematicians, they just made them able to do more and that is where I see AI going in the best possible future.”
+
+**Writing independence.** Salesperson: “I hear from colleagues that they can tell when email correspondence is AI generated and they have a slightly negative regard for the sender. They feel slighted that the sender is ‘too lazy’ to send them a personal note and push it onto AI to do it.”
+
+**Educational integration.** Special education teacher: “I am hoping that AI will be a more collaborative partner that will help me better manage my time and help me expand creatively so I can offer my students a wide variety of activities and assignments that I may not have been able to come up with on my own.”
 
 Example quotations from professionals in the general workforce, organized by topic. This research aims to both unpack the optimism and navigate the underlying anxieties to better understand how AI is actually reshaping work across different professional contexts.
 
-Creatives
+## Creatives
 
-<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><th class="body-3" role="columnheader">Pessimistic</th><th class="body-3" role="columnheader">Optimistic</th></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Control boundaries. </strong>Gamebook writer: “During these storytelling sessions, I would say that there's only the illusion of collaboration for the most part… there’s rarely a point where I’ve really felt like the AI is driving the creative decision-making.”</td><td class="body-3" role="cell"><strong>Workflow automation.</strong> Social media manager: “I’m less stressed, honestly. It has created a ton of efficiency for me so I can focus on my favorite aspects of the job (filming and editing)”.</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Writer displacement. </strong>Creative fiction writer: “A novel written by AI might have a great plot and be technically brilliant. But it won’t have the deeper nuances that only a human can weave throughout the story.”</td><td class="body-3" role="cell"><strong>Music production. </strong>Music producer: “Sometimes, when it comes time to add lyrics, I’ll ask ChatGPT or Claude for lists of interesting word pairings. Just getting a long list to try out over the instrumental often leads to finding a hook or at least a seed for a song idea.”</td></tr></tbody></table>
+Pessimistic
+
+Optimistic
+
+**Control boundaries.** Gamebook writer: “During these storytelling sessions, I would say that there's only the illusion of collaboration for the most part… there’s rarely a point where I’ve really felt like the AI is driving the creative decision-making.”
+
+**Workflow automation.** Social media manager: “I’m less stressed, honestly. It has created a ton of efficiency for me so I can focus on my favorite aspects of the job (filming and editing)”.
+
+**Writer displacement.** Creative fiction writer: “A novel written by AI might have a great plot and be technically brilliant. But it won’t have the deeper nuances that only a human can weave throughout the story.”
+
+**Music production.** Music producer: “Sometimes, when it comes time to add lyrics, I’ll ask ChatGPT or Claude for lists of interesting word pairings. Just getting a long list to try out over the instrumental often leads to finding a hook or at least a seed for a song idea.”
 
 Example quotations from creatives, organized by topic.
 
-Scientists
+## Scientists
 
-<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><th class="body-3" role="columnheader">Pessimistic</th><th class="body-3" role="columnheader">Optimistic</th></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Security concerns. </strong>Medical scientist: “Our confidence in AI just isn’t high enough at the moment to trust it with our data. We’re also a commercial entity so there’s a bit of concern over confidentially with data that we might share with an AI system.”</td><td class="body-3" role="cell"><strong>Research assistance. </strong>Molecular biologist: “If AI could integrate and normalize all this data in a single repository, it could be a very exciting thing for biological discovery. You could see how expression dynamics change across cell models, tissue types, disease states, and more.”</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Content verification. </strong>Economist:<strong> </strong>“What I would really like from an AI would be the ability to accurately grab information, summarise it and use it to write the core of a funding application. AI generally writes well; the problem now is that I just can’t rely on it not hallucinating, or to put it bluntly, lying.”</td><td class="body-3" role="cell"><strong>Code development. </strong>Food scientist:<strong> “</strong>Honestly I wouldn’t have known how to help my student with her code if something was off without AI tools.”</td></tr></tbody></table>
+Pessimistic
+
+Optimistic
+
+**Security concerns.** Medical scientist: “Our confidence in AI just isn’t high enough at the moment to trust it with our data. We’re also a commercial entity so there’s a bit of concern over confidentially with data that we might share with an AI system.”
+
+**Research assistance.** Molecular biologist: “If AI could integrate and normalize all this data in a single repository, it could be a very exciting thing for biological discovery. You could see how expression dynamics change across cell models, tissue types, disease states, and more.”
+
+**Content verification.** Economist:“What I would really like from an AI would be the ability to accurately grab information, summarise it and use it to write the core of a funding application. AI generally writes well; the problem now is that I just can’t rely on it not hallucinating, or to put it bluntly, lying.”
+
+**Code development.** Food scientist: **“**Honestly I wouldn’t have known how to help my student with her code if something was off without AI tools.”
 
 Example quotations from scientists, organized by topic.
 
@@ -63,7 +113,7 @@ This initial test explored how workers integrate AI into their professional prac
 
 ### Participants
 
-We used Anthropic Interviewer to conduct interviews with 1,250 professionals. We intend for the tool to interview general [Claude.ai](http://claude.ai/redirect/website.v1.c0fa2ff0-466d-4182-ae11-dc3c55458b8b) users, but for this initial test, we sought participants working across a range of professions and engaged them through crowdworker platforms (all participants had an occupation other than crowdworking that was their main job).
+We used Anthropic Interviewer to conduct interviews with 1,250 professionals. We intend for the tool to interview general [Claude.ai](http://claude.ai/redirect/website.v1.c6c8d05b-72e0-47e9-9541-bc488d1e5e38) users, but for this initial test, we sought participants working across a range of professions and engaged them through crowdworker platforms (all participants had an occupation other than crowdworking that was their main job).
 
 1,000 of our participants were recruited from a general sample of occupations (that is, we did not select participants from specific jobs). Of that group, the largest subgroups came from educational instruction (17%), computer and mathematical occupations (16%), and arts, design, entertainment, and media (14%).
 
@@ -171,7 +221,7 @@ In a [previous analysis](https://arxiv.org/pdf/2503.04761), we categorized AI us
 
 Professionals envisioned a future with both augmentation and automation—the automation of routine, administrative tasks with the maintenance of human oversight. 48% of interviewees considered transitioning their careers toward positions that focus on managing and overseeing AI systems rather than performing direct technical work.
 
-...if I use AI and up my skills with it, it can save me so much time on the admin side which will free me up to be with the people.
+> “...if I use AI and up my skills with it, it can save me so much time on the admin side which will free me up to be with the people.”
 
 A pastor said that “...if I use AI and up my skills with it, it can save me so much time on the admin side which will free me up to be with the people”. They also emphasized the importance of “good boundaries”, and avoiding becoming “so dependent on AI that I can't live without [it] or do what I'm called to do.”
 
@@ -183,7 +233,7 @@ Our sample of creative professionals also reported that AI made them more produc
 
 Similarly to the general sample, 70% of creatives mentioned trying to manage peer judgment around AI use. One map artist said: “I don't want my brand and my business image to be so heavily tied to AI and the stigma that surrounds it.”
 
-Certain sectors of voice acting have essentially died due to the rise of AI.
+> “Certain sectors of voice acting have essentially died due to the rise of AI.”
 
 Economic anxiety appeared throughout creatives’ interviews. A voice actor stated that: “Certain sectors of voice acting have essentially died due to the rise of AI, such as industrial voice acting.” A composer worried about platforms that might “leverage AI tech along with their publishing libraries [to] infinitely generate new music,” flooding markets with cheap alternatives to human-produced music. Another artist captured similar concerns: “Realistically, I’m worried I'll need to keep using generative AI and even start selling generated content just to keep up in the marketplace so I can make a living.” A creative director said: “I fully understand that my gain is another creative’s loss. That product photographer that I used to have to pay $2,000 per day is now not getting my business.” (Note that Claude does not produce images, videos, or music—participants’ expressed anxieties are therefore about AI writ large, and not specific to Claude).
 
@@ -255,7 +305,7 @@ Scientists didn’t, in general, fear job displacement due to AI. Some pointed t
 
 External constraints also created barriers to AI replacement—researchers in classified environments noted that “there are a lot of ‘do's and don'ts’ with lots of security-oriented processes that must be put in place before the organization can allow us to use agentic frameworks, and even LLMs for example.” A mechanical engineer managing limited resources explained that, although “AI is good at coming up with an experimental design,” in reality “most of my research has budget/time/specimen limits so the ‘ideal’ design isn't always viable.” Nevertheless, regulatory compliance constraints, concerns about skill atrophy, and cost barriers were each brought up in less than 10% of interviews.
 
-I would love an AI which could feel like a valuable research partner… that could bring something new to the table.
+> “I would love an AI which could feel like a valuable research partner… that could bring something new to the table.”
 
 91% of scientists expressed a desire for more AI assistance in their research, even if they didn’t feel today’s products fit the bill. Roughly one-third envisioned assistance primarily with writing tasks, but the majority wanted support across all of their research: critiquing experimental design, accessing scientific databases, and running analyses. A common desire was for an AI that could produce new scientific ideas. One medical scientist said: “I wish AI could… help generate or support hypotheses or look for novel interactions/relationships that are not immediately evident for humans”. Another echoed this sentiment, saying: “I would love an AI which could feel like a valuable research partner… that could bring something new to the table.”
 
@@ -279,7 +329,7 @@ Using Anthropic Interviewer, we can conduct targeted research that informs speci
 
 We are continuing to use Anthropic Interviewer to better understand how people envision AI’s role in their lives and work. To that end, we are launching a public pilot interview, exploring what experiences, values and needs drive people’s vision for AI’s future role in their lives.
 
-**Ready to share your perspective?** You can participate in a 10-15 minute interview at [this link](http://claude.ai/redirect/website.v1.c0fa2ff0-466d-4182-ae11-dc3c55458b8b/interviewer) to take part in this research. We plan to analyze the anonymized insights from this study as part of our societal impacts research and publish a report on insights from this data. For more information on this study, please see the FAQ section below.
+**Ready to share your perspective?** You can participate in a 10-15 minute interview at [this link](http://claude.ai/redirect/website.v1.c6c8d05b-72e0-47e9-9541-bc488d1e5e38/interviewer) to take part in this research. We plan to analyze the anonymized insights from this study as part of our societal impacts research and publish a report on insights from this data. For more information on this study, please see the FAQ section below.
 
 ## Conclusions and limitations
 
@@ -303,25 +353,9 @@ Our initial use of Anthropic Interviewer has some important limitations that aff
 
 ## Contributions and acknowledgements
 
-Kunal Handa led the project, designed and prototyped Anthropic Interviewer, executed the surveys, interviews, and data analysis, plotted figures, and wrote the blog post. Michael Stern led the implementation of Anthropic Interviewer within [Claude.ai](http://claude.ai/redirect/website.v1.c0fa2ff0-466d-4182-ae11-dc3c55458b8b), managed the project timeline, and provided feedback throughout. Saffron Huang led the public pilot of Anthropic Interviewer. Jerry Hong led the visual design of Anthropic Interviewer and contributed to technical figures. Esin Durmus contributed to experimental design and provided key feedback. Miles McCain co-led implementation of technical infrastructure underlying prototypes of Anthropic Interviewer. Grace Yun, AJ Alt, and Thomas Millar implemented Anthropic Interviewer within [Claude.ai](http://claude.ai/redirect/website.v1.c0fa2ff0-466d-4182-ae11-dc3c55458b8b) and provided the technical infrastructure necessary for the public pilot. Alex Tamkin provided key feedback on early iterations of the project. Jane Leibrock contributed to all methodology for Anthropic Interviewer. Stuart Ritchie contributed to the framing and writing of the blog post. Deep Ganguli provided critical research guidance, feedback, and organizational support. All authors provided detailed guidance and feedback throughout.
+Kunal Handa led the project, designed and prototyped Anthropic Interviewer, executed the surveys, interviews, and data analysis, plotted figures, and wrote the blog post. Michael Stern led the implementation of Anthropic Interviewer within [Claude.ai](http://claude.ai/redirect/website.v1.c6c8d05b-72e0-47e9-9541-bc488d1e5e38), managed the project timeline, and provided feedback throughout. Saffron Huang led the public pilot of Anthropic Interviewer. Jerry Hong led the visual design of Anthropic Interviewer and contributed to technical figures. Esin Durmus contributed to experimental design and provided key feedback. Miles McCain co-led implementation of technical infrastructure underlying prototypes of Anthropic Interviewer. Grace Yun, AJ Alt, and Thomas Millar implemented Anthropic Interviewer within [Claude.ai](http://claude.ai/redirect/website.v1.c6c8d05b-72e0-47e9-9541-bc488d1e5e38) and provided the technical infrastructure necessary for the public pilot. Alex Tamkin provided key feedback on early iterations of the project. Jane Leibrock contributed to all methodology for Anthropic Interviewer. Stuart Ritchie contributed to the framing and writing of the blog post. Deep Ganguli provided critical research guidance, feedback, and organizational support. All authors provided detailed guidance and feedback throughout.
 
 Additionally, we thank Sally Aldous, Drew Bent, Shan Carter, Jack Clark, Miriam Chaum, Jake Eaton, Matt Galivan, Savina Hawkins, Sarah Heck, Hanah Ho, Mo Julapalli,Matthew Kearney, Mike Krieger, Chelsea Larsson, Joel Lewenstein, Jennifer Martinez, Wes Mitchell, Jared Mueller, Christopher Nulty, Adam Pearce, Sarah Pollack, Ankur Rathi, Drew Roper, David Saunders, Kevin Troy, Molly Villagra, Brett Wittmershaus, and Casey Yamaguma for their helpful ideas, discussion, feedback, and support. We also appreciate the comments, discussion, and feedback from Matthew Conlen, Deb Roy, and Diyi Yang.
-
-## Citation
-
-If you’d like to cite this post you can use the following Bibtex key:
-
-```
-@online{handa2025interviewer,
-author = {Kunal Handa and Michael Stern and Saffron Huang and Jerry Hong and Esin Durmus and Miles McCain and Grace Yun and AJ Alt and Thomas Millar and Alex Tamkin and Jane Leibrock and Stuart Ritchie and Deep Ganguli},
-title = {Introducing Anthropic Interviewer: What 1,250 professionals told us about working with AI},
-date = {2025-12-04},
-year = {2025},
-url = {https://anthropic.com/research/anthropic-interviewer},
-}
-```
-
-Copy
 
 ## Appendix
 
@@ -335,7 +369,7 @@ We found that participants were remarkably positive about Anthropic Interviewer.
 
 **1. How do we access the study?**
 
-Starting today, if you are a Free, Pro, or Max Claude.ai subscriber who signed up prior to two weeks ago, you might notice a pop-up in Claude.ai asking you to participate. You can access it at: [https://claude.ai/interviewer](https://claude.ai/redirect/website.v1.c0fa2ff0-466d-4182-ae11-dc3c55458b8b/interviewer). The study will be open for a week.
+Starting today, if you are a Free, Pro, or Max Claude.ai subscriber who signed up prior to two weeks ago, you might notice a pop-up in Claude.ai asking you to participate. You can access it at: [https://claude.ai/interviewer](https://claude.ai/redirect/website.v1.c6c8d05b-72e0-47e9-9541-bc488d1e5e38/interviewer). The study will be open for a week.
 
 **2. What will this study ask me?**
 
@@ -345,28 +379,32 @@ We will use Anthropic Interviewer to ask you about your vision for AI's role in 
 
 We will analyze the insights from this study as part of our Societal Impacts research, publish our findings, and use this to improve our models and services in a way that reflects what we've learned. The data we collect through this study will be treated as Feedback and will be processed according to our [Privacy Policy](https://www.anthropic.com/legal/privacy). We may also include anonymized responses in published findings. [**Learn more.**](https://privacy.claude.com/en/articles/12996960-how-does-anthropic-interviewer-collect-and-use-my-data)
 
-**4. Why don’t I see the Anthropic Interviewer invitation in [Claude.ai](http://claude.ai/redirect/website.v1.c0fa2ff0-466d-4182-ae11-dc3c55458b8b)?**
+**4. Why don’t I see the Anthropic Interviewer invitation in [Claude.ai](http://claude.ai/redirect/website.v1.c6c8d05b-72e0-47e9-9541-bc488d1e5e38)?**
 
-The interview is only available for existing [Claude.ai](http://claude.ai/redirect/website.v1.c0fa2ff0-466d-4182-ae11-dc3c55458b8b) Free, Pro, and Max users who signed up 2+ weeks ago.
+The interview is only available for existing [Claude.ai](http://claude.ai/redirect/website.v1.c6c8d05b-72e0-47e9-9541-bc488d1e5e38) Free, Pro, and Max users who signed up 2+ weeks ago.
 
 *If you have questions, reach out via the message icon in the lower right corner of our [Help Center](https://links.email.claude.com/s/c/cGkT1SXSNgcdo1m1Jg5ubLKEl9K6sdfmpEYqg1hKZUyGgcl4dwPfeO18GyKSSqXjh6VJYoL1jUZK6AD2BWJz4p6OxoEug7KO9W2Yl7UuTqBou7dHkuDUR9lSrGIwoWBHBu-wkEktomJDbUAT2u8a6E6foGoE2H3RIurvO9epWQ7AJsKe_0FNVxLk4ygbQL3j7y1jjTEiC2qM5p0y1YCjCVAFED8I6wYqldfi9BKBYq993W-nOs45JbAMQkT6sZUFTHhEwJTV__gENvsItJqLkEOWFL9lrz48UJTC33i6n3SqYgI6stnpAsjLF66P_qtdOX888L-0h2qzKpxlrtGvrvuqEtl5pLNkPQUulHsITd7MyVL3tf-Ubi3dJVc1h9rB7v04z5j16n5-Kbp-iwCpz3RIbNot86fAZNPdfMqyBxFRDZlAUH-iEQ7h8wY1x6k8mnegW7y77GhLsqTJiZxqIi9o511wHl1Ltu-XLpeOVd80/ql5MQfX8py3XUgI4Usb8PWvj6gyGGxly/16).*
 
-## Related content
+## Authors & Acknowledgments
 
-### Designing more efficient quantum circuits with Claude
+### Contributors
 
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
+Kunal Handa led the project, designed and prototyped Anthropic Interviewer, executed the surveys, interviews, and data analysis, plotted figures, and wrote the blog post. Michael Stern led the implementation of Anthropic Interviewer within [Claude.ai](http://claude.ai/), managed the project timeline, and provided feedback throughout. Saffron Huang led the public pilot of Anthropic Interviewer. Jerry Hong led the visual design of Anthropic Interviewer and contributed to technical figures. Esin Durmus contributed to experimental design and provided key feedback. Miles McCain co-led implementation of technical infrastructure underlying prototypes of Anthropic Interviewer. Grace Yun, AJ Alt, and Thomas Millar implemented Anthropic Interviewer within [Claude.ai](http://claude.ai/) and provided the technical infrastructure necessary for the public pilot. Alex Tamkin provided key feedback on early iterations of the project. Jane Leibrock contributed to all methodology for Anthropic Interviewer. Stuart Ritchie contributed to the framing and writing of the blog post. Deep Ganguli provided critical research guidance, feedback, and organizational support. All authors provided detailed guidance and feedback throughout.
 
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
+### Acknowledgements
 
-### Claude reveals ECDSA curve origins
+Additionally, we thank Sally Aldous, Drew Bent, Shan Carter, Jack Clark, Miriam Chaum, Jake Eaton, Matt Galivan, Savina Hawkins, Sarah Heck, Hanah Ho, Mo Julapalli,Matthew Kearney, Mike Krieger, Chelsea Larsson, Joel Lewenstein, Jennifer Martinez, Wes Mitchell, Jared Mueller, Christopher Nulty, Adam Pearce, Sarah Pollack, Ankur Rathi, Drew Roper, David Saunders, Kevin Troy, Molly Villagra, Brett Wittmershaus, and Casey Yamaguma for their helpful ideas, discussion, feedback, and support. We also appreciate the comments, discussion, and feedback from Matthew Conlen, Deb Roy, and Diyi Yang.
 
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
+### Citation
 
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
+Copy
 
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
+```
+@online{handa2025interviewer,
+author = {Kunal Handa and Michael Stern and Saffron Huang and Jerry Hong and Esin Durmus and Miles McCain and Grace Yun and AJ Alt and Thomas Millar and Alex Tamkin and Jane Leibrock and Stuart Ritchie and Deep Ganguli},
+title = {Introducing Anthropic Interviewer: What 1,250 professionals told us about working with AI},
+date = {2025-12-04},
+year = {2025},
+url = {https://anthropic.com/research/anthropic-interviewer},
+}
+```

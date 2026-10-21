@@ -1,22 +1,41 @@
-[Engineering at Anthropic](https://www.anthropic.com/engineering)
-
-![](https://www-cdn.anthropic.com/images/4zrzovbb/website/7e2e39544a35760367049072406377a54f2b58c0-2554x2554.svg)
+### Chapter 05: Looking forward
 
 # Building a C compiler with a team of parallel Claudes
 
-Published Feb 05, 2026
+![Building a C compiler with a team of parallel Claudes](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F194765a666e35f8c949cb75edce4e104ff98fda5-2000x1125.jpg&w=1920&q=75)
 
-We tasked Opus 4.6 using agent teams to build a C Compiler, and then (mostly) walked away. Here's what it taught us about the future of autonomous software development.
+- Published
 
-Looking forward
+  Feb 5, 2026
+- Team
+
+  [Engineering](https://www.anthropic.com/engineering)
+- Topics
+
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)See more...
 
 *Written by Nicholas Carlini, a researcher on our Safeguards team.*
+
+Related articles
+
+- Science
+
+  Mar 23, 2026
+
+  [Long-running Claude for scientific computing](https://www.anthropic.com/research/long-running-claude)
+
+[View more](https://www.anthropic.com/search?topic=agents)
 
 I've been experimenting with a new approach to supervising language models that we’re calling "agent teams."
 
 With agent teams, multiple Claude instances work in parallel on a shared codebase without active human intervention. This approach dramatically expands the scope of what's achievable with LLM agents.
 
 To stress test it, I tasked 16 agents with writing a Rust-based C compiler, from scratch, capable of compiling the Linux kernel. Over nearly 2,000 Claude Code sessions and $20,000 in API costs, the agent team produced a 100,000-line compiler that can build Linux 6.9 on x86, ARM, and RISC-V.
+
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvNeIQS9GsZ8%2Fsddefault.jpg&w=3840&q=75)
 
 [The compiler is an interesting artifact](https://github.com/anthropics/claudes-c-compiler) on its own, but I focus here on what I learned about designing harnesses for long-running autonomous agent teams: how to write tests that keep agents on track without human oversight, how to structure work so multiple agents can make progress in parallel, and where this approach hits its ceiling.
 
@@ -25,6 +44,8 @@ To stress test it, I tasked 16 agents with writing a Rust-based C compiler, from
 Existing agent scaffolds like Claude Code require an operator to be online and available to work jointly. If you ask for a solution to a long and complex problem, the model may solve part of it, but eventually it will stop and wait for continued input—a question, a status update, or a request for clarification.
 
 To elicit sustained, autonomous progress, I built a harness that sticks Claude in a simple loop (if you’ve seen Ralph-loop, this should look familiar). When it finishes one task, it immediately picks up the next. *(Run this in a container, not your actual machine).*
+
+Copy
 
 ```
 #!/bin/bash
@@ -38,8 +59,6 @@ while true; do
            --model claude-opus-X-Y &> "$LOGFILE"
 done
 ```
-
-Copy
 
 In the agent prompt, I tell Claude what problem to solve and ask it to approach the problem by breaking it into small pieces, tracking what it’s working on, figuring out what to work on next, and to effectively keep going until it’s perfect. (On this last point, Claude has no choice. The loop runs forever—although in one instance, I did see Claude `pkill -9 bash` on accident, thus killing itself and ending the loop. Whoops!).
 
@@ -133,12 +152,8 @@ We are still early, and fully autonomous development comes with real risks. When
 
 So, while this experiment excites me, it also leaves me feeling uneasy. Building this compiler has been some of the most fun I’ve had recently, but I did not expect this to be anywhere near possible so early in 2026. The rapid progress in both language models and the scaffolds we use to interact with them opens the door to writing an enormous amount of new code. I expect the positive applications to outweigh the negative, but we’re entering a new world which will require new strategies to navigate safely.
 
+## Authors & Acknowledgments
+
 ### Acknowledgements
 
 Special thanks to Josef Bacik, Edwin Chen, Bernardo Meurer Costa, Jake Eaton, Dan Kelley, Felix Klock, Jannet Park, Steve Weis, and many other people across Anthropic for their assistance and contributions.
-
-## Get the developer newsletter
-
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
-
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.

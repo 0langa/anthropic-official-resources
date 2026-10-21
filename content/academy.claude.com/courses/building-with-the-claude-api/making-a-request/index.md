@@ -43,7 +43,7 @@ load_dotenv()
 from anthropic import Anthropic
 
 client = Anthropic()
-model = "claude-sonnet-4-5"
+model = "claude-haiku-4-5"
 ```
 
 ## The Create Function[](https://academy.claude.com/courses/building-with-the-claude-api/making-a-request)

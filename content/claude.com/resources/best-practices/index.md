@@ -40,7 +40,7 @@ Your rollout plan depends on knowing what's changed and what matters the most.
 
 Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
-[WebinarUpcoming | Oct 20, 2026
+[WebinarOn demand
 
 ### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
 
@@ -60,7 +60,7 @@ Featured resource 1 of 5: Working with Claude Fable 5 in Claude Cowork
 
 Advanced filters
 
-Showing 11 of 221 resources
+Showing 11 of 222 resources
 
 [WebinarUpcoming | Oct 28, 2026
 
@@ -74,13 +74,21 @@ Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com
 
 Your rollout plan depends on knowing what's changed and what matters the most.
 
-Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[WebinarUpcoming | Oct 20, 2026
+Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[WebinarOn demand
 
 ### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
 
 Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
 
-Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)[ArticleOct 16, 2026
+Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)[ArticleOct 19, 2026
+
+### Redesigning source control at Anthropic
+
+As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
+
+Claude Code
+
+(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)[ArticleOct 16, 2026
 
 ### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
 
@@ -124,14 +132,6 @@ Principles for designing evals and hillclimbing against them without fooling you
 
 Claude Platform
 
-(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleOct 6, 2026
-
-### Claude Code in the cloud: a field guide to cloud sessions
-
-What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
 
 View more

@@ -890,7 +890,7 @@
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
   "https://claude.com/resources/guides/claude-for-the-legal-industry/claude-for-legal-adoption-roadmap": [
-    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+    "Network did not become idle within 8 seconds; content may still be loading."
   ],
   "https://claude.com/resources/guides/claude-for-the-legal-industry/foreword": [
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
@@ -2026,7 +2026,13 @@
   "https://platform.claude.com/docs/en/about-claude/api-credits-for-subscribers": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/about-claude/api-credits-for-subscribers?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/about-claude/glossary": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/glossary?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/about-claude/model-deprecations": [
@@ -2074,7 +2080,13 @@
   "https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-6": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-6?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-7": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-7?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/about-claude/pricing": [
@@ -2090,6 +2102,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/about-claude/use-case-guides/customer-support-chat": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/about-claude/use-case-guides/customer-support-chat?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/about-claude/use-case-guides/legal-summarization": [
@@ -3004,10 +3019,16 @@
   "https://platform.claude.com/docs/en/api/beta/memory_stores/memories/delete?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/memories/delete?sdk_languages=http": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/beta/memory_stores/memories/list": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/beta/memory_stores/memories/list?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/memories/list?sdk_languages=http": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/beta/memory_stores/memories/retrieve": [
@@ -3031,10 +3052,16 @@
   "https://platform.claude.com/docs/en/api/beta/memory_stores/memory_versions/list?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/memory_versions/list?sdk_languages=http": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/beta/memory_stores/memory_versions/redact": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/beta/memory_stores/memory_versions/redact?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/memory_stores/memory_versions/redact?sdk_languages=http": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/beta/memory_stores/memory_versions/retrieve": [
@@ -3215,6 +3242,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/beta/organization/api_keys/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/api_keys/list?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/beta/organization/api_keys/retrieve": [
@@ -3526,6 +3556,9 @@
   "https://platform.claude.com/docs/en/api/beta/organization/retrieve": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/beta/organization/retrieve?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/beta/organization/service_accounts": [
     "Native source; upstream MDX components retained."
   ],
@@ -3694,6 +3727,27 @@
   "https://platform.claude.com/docs/en/api/beta/organization/users/update": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/beta/organization/webhooks": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/webhooks/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/webhooks/delete": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/webhooks/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/webhooks/regenerate_signing_secret": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/webhooks/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/webhooks/update": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/beta/organization/workspaces": [
     "Native source; upstream MDX components retained."
   ],
@@ -3728,6 +3782,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/beta/organization/workspaces/rate_limits/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/workspaces/rate_limits/update": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/beta/organization/workspaces/retrieve": [
@@ -3850,6 +3907,9 @@
   "https://platform.claude.com/docs/en/api/beta/sessions/retrieve?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/beta/sessions/retrieve?sdk_languages=http": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/beta/sessions/threads": [
     "Native source; upstream MDX components retained."
   ],
@@ -3970,16 +4030,28 @@
   "https://platform.claude.com/docs/en/api/beta/tunnels/rotate_token": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/beta/tunnels?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/beta/tunnels?sdk_languages=http": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/beta/user_profiles": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/beta/user_profiles/action_urls": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/user_profiles/action_urls/create": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/beta/user_profiles/create": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/beta/user_profiles/create_enrollment_url": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/user_profiles/delete": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/beta/user_profiles/list": [
@@ -5329,6 +5401,9 @@
   "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_groups/members": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_groups/members/add": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_groups/members/create": [
     "Native source; upstream MDX components retained."
   ],
@@ -5336,6 +5411,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_groups/members/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_groups/members/remove": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/http/beta/organization/rbac_groups/retrieve": [
@@ -5401,6 +5479,9 @@
   "https://platform.claude.com/docs/en/api/http/beta/organization/spend_limits/delete": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/spend_limits/effective/list": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/http/beta/organization/spend_limits/increase_requests": [
     "Native source; upstream MDX components retained."
   ],
@@ -5420,6 +5501,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/http/beta/organization/spend_limits/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/beta/organization/spend_limits/set": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/http/beta/organization/telemetry_destinations": [
@@ -5785,6 +5869,9 @@
   "https://platform.claude.com/docs/en/api/http/compliance/apps/chats/messages/list": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/http/compliance/apps/code/artifacts/list": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/http/compliance/apps/projects": [
     "Native source; upstream MDX components retained."
   ],
@@ -5977,6 +6064,24 @@
   "https://platform.claude.com/docs/en/api/http/organization/api_keys/list": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/http/organization/api_keys/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/organization/federation/issuers": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/organization/federation/rules": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/organization/invites/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/organization/invites/delete": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/organization/invites/list": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/http/organization/invites/retrieve": [
     "Native source; upstream MDX components retained."
   ],
@@ -5986,7 +6091,19 @@
   "https://platform.claude.com/docs/en/api/http/organization/retrieve": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/http/organization/service_accounts": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/organization/users/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/organization/users/remove": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/http/organization/users/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/http/organization/users/update": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/http/organization/workspaces/list": [
@@ -6065,6 +6182,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/messages/batches/delete": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/messages/batches/delete?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/messages/batches/list": [
@@ -6379,6 +6499,9 @@
   "https://platform.claude.com/docs/en/api/organization/workspaces/rate_limits/list?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/organization/workspaces/rate_limits/update": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/organization/workspaces/retrieve": [
     "Native source; upstream MDX components retained."
   ],
@@ -6488,6 +6611,30 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/supported-regions?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/user_profiles": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/user_profiles/action_urls": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/user_profiles/action_urls/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/user_profiles/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/user_profiles/delete": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/user_profiles/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/user_profiles/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/user_profiles/update": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/versioning": [
@@ -6895,6 +7042,9 @@
   "https://platform.claude.com/docs/en/cli-sdks-libraries/cli/apply": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/cli-sdks-libraries/cli/apply?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/cli-sdks-libraries/cli/authentication": [
     "Native source; upstream MDX components retained."
   ],
@@ -7019,6 +7169,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/manage-claude/access-transparency-log": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/access-transparency-log?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/manage-claude/access-transparency?sdk_languages=curl": [
@@ -7195,6 +7348,9 @@
   "https://platform.claude.com/docs/en/manage-claude/opentelemetry?sdk_languages=http": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/manage-claude/organization-webhooks": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/manage-claude/plugins-api": [
     "Native source; upstream MDX components retained."
   ],
@@ -7226,6 +7382,12 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/manage-claude/user-management?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/user-profiles": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/user-profiles-verification-portal": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/manage-claude/wif-admin-api": [
@@ -7723,13 +7885,25 @@
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5-1?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-3": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-3-5": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-3-5?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-3?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-4-5": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-4-5?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-5-5": [
@@ -7741,22 +7915,43 @@
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-3": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-3?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-1": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-1?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-5": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-5?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-6": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-6?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-7": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-7?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-8": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-8?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-5": [
@@ -7768,10 +7963,19 @@
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-5-5?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-5?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-3-5": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-3-5?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-3-7": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-3-7?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4": [
@@ -7780,7 +7984,16 @@
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4-5": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4-5?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4-6": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4-6?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-5": [
@@ -7826,6 +8039,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-latency": [
@@ -9807,10 +10023,6 @@
   ],
   "https://www.anthropic.com/engineering/harness-design-long-running-apps": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
-    "Could not read tab 'Sprite editor': TimeoutError",
-    "Could not read tab 'Game play': TimeoutError",
-    "Could not read tab 'AI game design': TimeoutError",
-    "Could not read tab 'Game play': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/2026-us-midterms": [
@@ -9822,6 +10034,9 @@
   "https://www.anthropic.com/news/analysis-tool": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://www.anthropic.com/news/announcements": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/news/anthropic-economic-index-connector": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
@@ -9829,19 +10044,6 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/anthropic-interviewer": [
-    "Could not read tab 'Creatives': TimeoutError",
-    "Could not read tab 'Scientists': TimeoutError",
-    "Could not read tab 'Computer & Math': TimeoutError",
-    "Could not read tab 'Business & Financial': TimeoutError",
-    "Could not read tab 'Sales': TimeoutError",
-    "Could not read tab 'Craftspeople': TimeoutError",
-    "Could not read tab 'Filmmakers': TimeoutError",
-    "Could not read tab 'Game developers': TimeoutError",
-    "Could not read tab 'Physicists': TimeoutError",
-    "Could not read tab 'Chemical engineers': TimeoutError",
-    "Could not read tab 'Data scientists': TimeoutError",
-    "Could not read tab 'Mechanical engineers': TimeoutError",
-    "Could not read tab 'Astronomers': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/anthropic-public-record": [
@@ -9874,19 +10076,12 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-opus-4-6": [
-    "Could not read tab 'Coding': TimeoutError",
-    "Could not read tab 'Reasoning': TimeoutError",
-    "Could not read tab 'Long-context reasoning': TimeoutError",
-    "Could not read tab 'Long-term coherence': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-opus-4-7": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-opus-5": [
-    "Could not read tab 'CursorBench': TimeoutError",
-    "Could not read tab 'AA Coding Agent Index': TimeoutError",
-    "Could not read tab 'DeepSearchQA': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-sonnet-4-5": [
@@ -9909,6 +10104,9 @@
   ],
   "https://www.anthropic.com/news/evaluate-prompts": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/news/features": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/github-copilot": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -9938,6 +10136,18 @@
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/news/models": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/partnerships": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/policy": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/product": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/news/productivity-platforms": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
@@ -9946,6 +10156,12 @@
   ],
   "https://www.anthropic.com/news/research": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/news/safeguards": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/security": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/skills": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -9965,12 +10181,22 @@
   "https://www.anthropic.com/research/AI-assistance-coding-skills": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/AI-resistant-technical-evaluations": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/Claude-accelerates-protein-design": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench": [
-    "Could not read tab 'Example 2': TimeoutError",
-    "Could not read tab 'Example 2': TimeoutError",
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/a-postmortem-of-three-recent-issues": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/accelerating-scientific-research": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/advanced-tool-use": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/ai-expectations-gap": [
@@ -9985,12 +10211,16 @@
   "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/anthropic-education-report-how-university-students-use-claude": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/anthropic-interviewer": [
-    "Could not read tab 'Computer & Math': TimeoutError",
-    "Could not read tab 'Business & Financial': TimeoutError",
-    "Could not read tab 'Visual artists': TimeoutError",
-    "Could not read tab 'Designers': TimeoutError",
-    "Could not read tab 'Game developers': TimeoutError",
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/anthropic-public-record": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/april-23-postmortem": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/assistant-axis": [
@@ -10000,15 +10230,26 @@
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://assets.claude.ai/brand/artifacts/editorial/llm_attack_navigator.html"
   ],
+  "https://www.anthropic.com/research/building-c-compiler": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/claude-code-auto-mode": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/claude-code-best-practices": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/claude-code-sandboxing": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/claude-fable-5-mythos-5": [
     "Could not read tab 'VibeCAD': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-opus-5": [
-    "Could not read tab 'CursorBench': TimeoutError",
-    "Could not read tab 'AA Coding Agent Index': TimeoutError",
-    "Could not read tab 'GDPval-AA v2': TimeoutError",
-    "Could not read tab 'AutomationBench': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-personal-guidance": [
@@ -10017,7 +10258,13 @@
   "https://www.anthropic.com/research/claude-plays-robotics": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
   "https://www.anthropic.com/research/claude-sonnet-5": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/claude-think-tool": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling": [
@@ -10026,11 +10273,23 @@
   "https://www.anthropic.com/research/claude-values-models-languages": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/code-execution-with-mcp": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/contextual-retrieval": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/cyber-toolkits-update": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://www.anthropic.com/research/demystifying-evals-for-ai-agents": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/designing-efficient-quantum-circuits": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/research/desktop-extensions": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/ecdsa-curve-origins": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -10044,8 +10303,20 @@
   "https://www.anthropic.com/research/economic-index-march-2026-report": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/effective-context-engineering-for-ai-agents": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/effective-harnesses-for-long-running-agents": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/employment-at-anthropic": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/eval-awareness-browsecomp": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/formalizing-fermats-last-theorem": [
@@ -10054,7 +10325,20 @@
   "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/harness-design-long-running-apps": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/how-people-use-claude-for-support-advice-and-companionship": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/how-we-contain-claude": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/infrastructure-noise": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities": [
@@ -10063,7 +10347,19 @@
   "https://www.anthropic.com/research/labor-market-impacts": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/long-running-claude": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/managed-agents": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/measuring-agent-autonomy": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/multi-agent-research-system": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/political-even-handedness": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/project-fetch-phase-two": [
@@ -10089,10 +10385,16 @@
   "https://www.anthropic.com/research/smart-contracts": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://www.anthropic.com/research/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/the-missing-map-of-the-sky": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/research/what-work-can-robots-do": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/writing-tools-for-agents": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/your-thoughts-on-ai": [

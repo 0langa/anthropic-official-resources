@@ -4,13 +4,7 @@ A look at Anthropic's key processes, programs, and practices for responsible AI 
 
 [01Model Report](https://www.anthropic.com/transparency/model-report)[02System Trust and Reporting](https://www.anthropic.com/transparency/system-trust-reporting)[03Voluntary Commitments](https://www.anthropic.com/transparency/voluntary-commitments)
 
-02System Trust and Reporting
-
-[01Model Report](https://www.anthropic.com/transparency/model-report)
-
-[02System Trust and Reporting](https://www.anthropic.com/transparency/system-trust-reporting)
-
-[03Voluntary Commitments](https://www.anthropic.com/transparency/voluntary-commitments)
+### Chapter 02: System Trust and Reporting
 
 ## System Trust and Reporting
 
@@ -20,11 +14,11 @@ We are sharing more detail on our Usage Policy, some enforcement data, how we ha
 
 ### Banned Accounts
 
-- 11.4 million
+11.4 million
 
-  Banned Accounts
+Banned Accounts
 
-  January - June 2026
+January - June 2026
 
 Anthropic’s Safeguards Team designs and implements detections and monitoring to enforce our Usage Policy. If we learn that a user has violated our policies, including our [Usage Policy](https://www.anthropic.com/legal/aup), [Consumer Terms of Service](https://www.anthropic.com/legal/consumer-terms) or [Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms) (as applicable), or [Supported Region Policy](https://www.anthropic.com/supported-countries), we may take enforcement actions such as warning, suspending, or terminating their access to our products and services.
 
@@ -39,6 +33,12 @@ Anthropic’s Safeguards Team designs and implements detections and monitoring t
 
   January - June 2026
 
+01
+
+/
+
+02
+
 Banned users may file [appeals](https://support.anthropic.com/en/articles/8241253-trust-and-safety-warnings-and-appeals) to request a review of our decision to ban their account.
 
 [*July - December 2025 Reporting*](https://www-cdn.anthropic.com/96721850b17dfa09b4efe674ccf576a68906e508.pdf)
@@ -49,11 +49,11 @@ Banned users may file [appeals](https://support.anthropic.com/en/articles/824125
 
 ### Child Safety Reporting
 
-- 15,079
+15,079
 
-  Total reports submitted to NCMEC
+Total reports submitted to NCMEC
 
-  January - June 2026
+January - June 2026
 
 - 12,614
 
@@ -70,6 +70,12 @@ Banned users may file [appeals](https://support.anthropic.com/en/articles/824125
   Other CSAE reports
 
   January - June 2026
+
+01
+
+/
+
+03
 
 *Novel CSAM classifier refers to CSAM identified via machine-learning classification rather than hash comparison, capturing previously unconfirmed or unhashed material. Other CSAE (Child Sexual Abuse and Exploitation) reports refers to reports for grooming, enticement, trafficking, or imminent risk to a minor.*
 
@@ -121,25 +127,25 @@ For more information, see our full report and summary document here:
 
 ## Related content
 
-### RSP Updates
+### [RSP Updates](https://www.anthropic.com/rsp-updates)
 
 Overview of past capability and safeguard assessments, future plans, and other program updates.
 
 [Read more](https://www.anthropic.com/rsp-updates)
 
-### Privacy Center
+### [Privacy Center](https://privacy.anthropic.com/en/)
 
 A central hub for information related to data privacy at Anthropic.
 
 [Read more](https://privacy.anthropic.com/en/)
 
-### Trust center
+### [Trust center](https://trust.anthropic.com/)
 
 This page acts as an overview to demonstrate our commitment to compliance and security.
 
 [Read more](https://trust.anthropic.com/)
 
-### Developer Documentation
+### [Developer Documentation](https://docs.anthropic.com/en/home)
 
 Learn how to get started with the Anthropic API and Claude with our user guides, release notes, and system prompts.
 

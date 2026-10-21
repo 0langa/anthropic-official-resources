@@ -1,4 +1,4 @@
-Quiz 5 of 9 · Claude with Google Cloud's Vertex AIQuiz on Retrieval Augmented Generation
+Quiz 5 of 9 · Claude on Google CloudQuiz on Retrieval Augmented Generation
 
 # Quiz on Retrieval Augmented Generation
 

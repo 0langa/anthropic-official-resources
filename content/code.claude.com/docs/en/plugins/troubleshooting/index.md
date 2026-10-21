@@ -9,13 +9,13 @@ Where a message names a plugin or marketplace, the entry shows a placeholder suc
 
 Use this page whether you install plugins, build them, host a marketplace, or administer plugins for an organization.
 
-<Note>
-  These cases are covered on other pages:
-
-  * **Why scopes, the cache, and precedence behave the way they do**: read [Plugin loading reference](/docs/en/plugins/loading)
-  * **Looking up a flag, field, or command**: use the [plugin commands reference](/docs/en/plugins/cli-reference), the [manifest reference](/docs/en/plugins/manifest-reference), or the [marketplace reference](/docs/en/plugins/marketplace-reference)
-  * **A `hooks module not loaded` or `hooks module did not load` message**: the plugin is a [mod](/docs/en/plugins/mods/overview), so read [The mod doesn't load](/docs/en/plugins/mods/troubleshoot#the-mod-doesn’t-load)
-</Note>
+> [!NOTE]
+>
+> These cases are covered on other pages:
+>
+> * **Why scopes, the cache, and precedence behave the way they do**: read [Plugin loading reference](/docs/en/plugins/loading)
+> * **Looking up a flag, field, or command**: use the [plugin commands reference](/docs/en/plugins/cli-reference), the [manifest reference](/docs/en/plugins/manifest-reference), or the [marketplace reference](/docs/en/plugins/marketplace-reference)
+> * **A `hooks module not loaded` or `hooks module did not load` message**: the plugin is a [mod](/docs/en/plugins/mods/overview), so read [The mod doesn't load](/docs/en/plugins/mods/troubleshoot#the-mod-doesn’t-load)
 
 Search for the exact message you saw. Each message is listed under the stage that produces it, which isn't always the command you ran. For example, an install can fail because a marketplace is missing, so that message is under [Add a marketplace](#add-a-marketplace).
 
@@ -277,23 +277,21 @@ On Windows, you added a marketplace and Claude Code reported `Failed to clone ma
 
 Claude Code looks for `git` on your `PATH` and refuses to run one found only in the current directory. To fix it, install Git and retry:
 
-<Steps>
-  <Step title="Install Git for Windows">
-    Install Git for Windows so that `git` is on your `PATH`.
-  </Step>
+**1. Install Git for Windows**
 
-  <Step title="Open a new terminal">
-    Open a new terminal so the updated `PATH` applies.
-  </Step>
+Install Git for Windows so that `git` is on your `PATH`.
 
-  <Step title="Confirm git runs">
-    Confirm `git --version` prints a version.
-  </Step>
+**2. Open a new terminal**
 
-  <Step title="Retry the add">
-    Run the `marketplace add` command again.
-  </Step>
-</Steps>
+Open a new terminal so the updated `PATH` applies.
+
+**3. Confirm git runs**
+
+Confirm `git --version` prints a version.
+
+**4. Retry the add**
+
+Run the `marketplace add` command again.
 
 ### `Git clone timed out after 120s`
 
@@ -301,19 +299,17 @@ You added or updated a marketplace, and it failed with `Git clone timed out afte
 
 Cloning a marketplace, and re-cloning one to update it, gets 120 seconds by default. For a large repository or a slow connection, raise the limit. The value is in milliseconds:
 
-<Tabs>
-  <Tab title="Bash or Zsh">
-    ```bash theme={null}
-    export CLAUDE_CODE_PLUGIN_GIT_TIMEOUT_MS=300000
-    ```
-  </Tab>
+**Bash or Zsh**
 
-  <Tab title="PowerShell">
-    ```powershell theme={null}
-    $env:CLAUDE_CODE_PLUGIN_GIT_TIMEOUT_MS = "300000"
-    ```
-  </Tab>
-</Tabs>
+```bash theme={null}
+export CLAUDE_CODE_PLUGIN_GIT_TIMEOUT_MS=300000
+```
+
+**PowerShell**
+
+```powershell theme={null}
+$env:CLAUDE_CODE_PLUGIN_GIT_TIMEOUT_MS = "300000"
+```
 
 Then retry in the same shell.
 
@@ -327,19 +323,17 @@ Each session, for a marketplace with [auto-update on](/docs/en/plugins/loading#w
 
 Set this variable to skip the re-clone attempt and keep using the existing checkout when the check can't reach the host:
 
-<Tabs>
-  <Tab title="Bash or Zsh">
-    ```bash theme={null}
-    export CLAUDE_CODE_PLUGIN_KEEP_MARKETPLACE_ON_FAILURE=1
-    ```
-  </Tab>
+**Bash or Zsh**
 
-  <Tab title="PowerShell">
-    ```powershell theme={null}
-    $env:CLAUDE_CODE_PLUGIN_KEEP_MARKETPLACE_ON_FAILURE = "1"
-    ```
-  </Tab>
-</Tabs>
+```bash theme={null}
+export CLAUDE_CODE_PLUGIN_KEEP_MARKETPLACE_ON_FAILURE=1
+```
+
+**PowerShell**
+
+```powershell theme={null}
+$env:CLAUDE_CODE_PLUGIN_KEEP_MARKETPLACE_ON_FAILURE = "1"
+```
 
 With the variable set, Claude Code skips the re-clone only for a checkout that already contains `.claude-plugin/marketplace.json`. A marketplace that was never cloned or whose clone stopped partway still gets the clone attempt, so add it once while online.
 
@@ -626,19 +620,17 @@ You installed a plugin and typed `/` expecting its skills, or asked Claude to us
 
 Check the plugin's state before changing anything:
 
-<Steps>
-  <Step title="Confirm the plugin is installed and enabled">
-    Run `/plugin` and open **Installed**. Confirm the plugin is listed and enabled. `claude plugin list` in your shell prints the same list with each plugin's version, scope, and `Status: ✔ enabled`.
-  </Step>
+**1. Confirm the plugin is installed and enabled**
 
-  <Step title="Read the Errors tab">
-    Open the **Errors** tab in the same panel. Each entry pairs a message with a guidance line. Most messages in the rest of this section come from that tab.
-  </Step>
+Run `/plugin` and open **Installed**. Confirm the plugin is listed and enabled. `claude plugin list` in your shell prints the same list with each plugin's version, scope, and `Status: ✔ enabled`.
 
-  <Step title="Reload if you installed during this session">
-    If the plugin is installed and error-free but you installed it during this session, run `/reload-plugins`. It prints `Reloaded:` with counts of plugins, skills, agents, hooks, and servers. When something failed it adds `N errors during load. Run /plugin for details.`
-  </Step>
-</Steps>
+**2. Read the Errors tab**
+
+Open the **Errors** tab in the same panel. Each entry pairs a message with a guidance line. Most messages in the rest of this section come from that tab.
+
+**3. Reload if you installed during this session**
+
+If the plugin is installed and error-free but you installed it during this session, run `/reload-plugins`. It prints `Reloaded:` with counts of plugins, skills, agents, hooks, and servers. When something failed it adds `N errors during load. Run /plugin for details.`
 
 If the plugin loads with no error and its skills still don't appear, the next step differs for your own plugin and for someone else's:
 
@@ -779,6 +771,52 @@ Then run `claude plugin list --json` again to confirm that the row is gone.
 
 Before v2.1.295, the second run fails with `Plugin "<name>" is not installed in project scope`. Run `claude update`, then run the uninstall again.
 
+### A plugin installed from a git repository shows version `unknown`
+
+`Version: unknown` in `claude plugin list` can mean Claude Code couldn't read the commit it uses as a git-sourced plugin's version. The plugin may have its own repository or be inside a git-hosted marketplace.
+
+Run these commands in your shell, replacing `formatter@my-marketplace` with the plugin's `name@marketplace` line from `claude plugin list`:
+
+**1. Update Claude Code**
+
+[Update Claude Code](/docs/en/setup#update-claude-code) to v2.1.302 or later, which clones in a format it can read the commit from:
+
+```shell theme={null}
+claude update
+```
+
+**2. Update the marketplace**
+
+Update Claude Code's copy of the marketplace, which holds the commit for plugins inside the marketplace repository:
+
+```shell theme={null}
+claude plugin marketplace update my-marketplace
+```
+
+**3. Update the plugin**
+
+Update the plugin to rewrite its recorded version:
+
+```shell theme={null}
+claude plugin update formatter@my-marketplace
+```
+
+**4. Check the version**
+
+Check the `Version:` line for a value such as a [12-character commit ID](/docs/en/plugins/loading#how-claude-code-computes-the-version):
+
+```shell theme={null}
+claude plugin list
+```
+
+`claude plugin update` [changes one scope's block per run](/docs/en/plugins/cli-reference#which-scope-the-command-updates). For a block still showing `unknown`, rerun it with that block's `Scope:` value:
+
+```shell theme={null}
+claude plugin update formatter@my-marketplace --scope project
+```
+
+If the block still shows `unknown` after the rerun, see [Get more help](/docs/en/troubleshooting#get-more-help).
+
 ### `Failed to load hooks from <path>` and hooks that don't fire
 
 A plugin's hooks don't run, or one blocks an action. Either the **Errors** tab shows a load failure for them, the hooks load and you see `<Event> hook error` notices or a blocking error in the transcript, or a hook loads without error and never fires.
@@ -789,6 +827,7 @@ The **Errors** tab shows one of these messages:
 
 * **`Failed to load hooks from <path>: <reason>`**: `hooks/hooks.json` isn't valid JSON or fails the hooks schema. The reason names the parse or validation error. Fix the file. To catch a JSON syntax problem in `hooks/hooks.json` before you publish the plugin, run `claude plugin validate <plugin-directory>` in your shell
 * **`hooks path not found: <path>`**: the manifest's `hooks` field names a file that doesn't exist at that path relative to the plugin root. Fix the path or add the file
+* **`hooks path escapes plugin directory: <path>`**: see [Path escapes plugin directory](/docs/en/errors#path-escapes-plugin-directory)
 
 #### `hook error` notices in the transcript
 
@@ -810,23 +849,21 @@ If that message shows the plugin's path cut off at a space, apply the [unquoted 
 
 If a hook loads without error but never fires, first run `/plugin` in your session and open the plugin's details. A note there that begins `Its hooks.json hooks do not run` means another enabled plugin with the same name registered its hooks instead, and [Hooks when two enabled plugins share a name](/docs/en/plugins/loading#hooks-when-two-enabled-plugins-share-a-name) says which copy that is and how to switch. Otherwise, check the hook's definition and then watch it run:
 
-<Steps>
-  <Step title="Check the event name">
-    Event names are case-sensitive, so confirm yours matches exactly, for example `PostToolUse`.
-  </Step>
+**1. Check the event name**
 
-  <Step title="Check the matcher">
-    Confirm the hook's `matcher` matches the tool name.
-  </Step>
+Event names are case-sensitive, so confirm yours matches exactly, for example `PostToolUse`.
 
-  <Step title="Trigger the event on purpose">
-    For a `PostToolUse` hook, ask Claude to edit a file.
-  </Step>
+**2. Check the matcher**
 
-  <Step title="Read the debug log">
-    Open the [debug log](/docs/en/hooks#debug-hooks), which records which hooks matched. A hook that ran shows up there with its exit code.
-  </Step>
-</Steps>
+Confirm the hook's `matcher` matches the tool name.
+
+**3. Trigger the event on purpose**
+
+For a `PostToolUse` hook, ask Claude to edit a file.
+
+**4. Read the debug log**
+
+Open the [debug log](/docs/en/hooks#debug-hooks), which records which hooks matched. A hook that ran shows up there with its exit code.
 
 ### `Plugin directory does not exist: <path>`
 

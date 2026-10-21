@@ -34,6 +34,10 @@ This course lightly covers the foundational AI Fluency concepts. However, for de
 
 It is also recommended that learners have access to an AI chat tool for hands-on practice. Examples in this course will use [Claude.ai(opens in new tab)](http://claude.ai/), but any chatbot will work.
 
+#### Acknowledgments and license
+
+*Copyright 2026 Anthropic. Created in partnership with GivingTuesday. Released under the CC BY-NC-SA 4.0 license.*
+
 ## Inside the course
 
 ### Introduction and AI Fluency framework

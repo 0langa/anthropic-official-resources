@@ -1,4 +1,4 @@
-Oct 20, 2026 — 9:00 AM PT
+On demand
 
 # Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
 
@@ -6,7 +6,7 @@ Your advisors want to use Claude for Financial Advisors. Before you turn on Cowo
 
 Register for the webinar
 
-Fill out the form below to reserve your seat.
+Fill out the form below to watch on demand.
 
 ## Featured speakers
 

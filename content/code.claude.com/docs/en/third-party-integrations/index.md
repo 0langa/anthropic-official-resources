@@ -5,7 +5,10 @@ Learn how Claude Code can integrate with various third-party services and infras
 
 Organizations can deploy Claude Code through Anthropic directly or through a cloud provider. This page helps you choose the right configuration.
 
-<ContactSalesCard />
+**Deploying Claude Code across your organization?** Talk to sales about enterprise plans, SSO, and centralized billing.
+
+View plans
+Contact sales
 
 ## Compare deployment options
 
@@ -47,7 +50,8 @@ If your organization has specific infrastructure requirements, compare the optio
 
     <tr>
       <td>Billing</td>
-      <td><strong>Teams:</strong> per-seat subscription with PAYG available, see <a href="https://claude.com/pricing?utm_source=claude_code&utm_medium=docs&utm_content=third_party_pricing#team-&-enterprise">pricing</a><br /><strong>Enterprise:</strong> <a href="https://claude.com/contact-sales?utm_source=claude_code&utm_medium=docs&utm_content=third_party_enterprise">Contact Sales</a></td>
+      <td>**Teams:** per-seat subscription with PAYG available, see [pricing](https://claude.com/pricing?utm_source=claude_code\&utm_medium=docs\&utm_content=third_party_pricing#team-&-enterprise)\
+      **Enterprise:** [Contact Sales](https://claude.com/contact-sales?utm_source=claude_code\&utm_medium=docs\&utm_content=third_party_enterprise)</td>
       <td>PAYG</td>
       <td>PAYG through AWS</td>
       <td>PAYG through AWS Marketplace</td>

@@ -1,4 +1,4 @@
-Quiz 9 of 9 · Claude with Google Cloud's Vertex AIFinal assessment quiz
+Quiz 9 of 9 · Claude on Google CloudFinal assessment quiz
 
 # Final assessment quiz
 

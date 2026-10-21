@@ -1,10 +1,33 @@
-ProductAnnouncements
+### Chapter 05: Getting started
 
 # Introducing Claude Opus 5
 
-Jul 24, 2026
+![Introducing Claude Opus 5](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F54b7ab1d2c2521f83ae5d2da5f9d99321c370d24-2880x1620.png&w=1920&q=75)
 
-![Introducing Claude Opus 5](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F54b7ab1d2c2521f83ae5d2da5f9d99321c370d24-2880x1620.png&w=3840&q=75)
+- Published
+
+  Jul 24, 2026
+- Category
+
+  [Models](https://www.anthropic.com/news/models)
+- Topics
+
+  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)See more...
+
+Related articles
+
+- Frontier Red Team
+
+  Aug 13, 2026
+
+  [Patterns and problems in emerging multiagent systems](https://www.anthropic.com/research/multiagent-systems)
+
+[View more](https://www.anthropic.com/search?topic=claude-opus)
 
 Claude Opus 5 is available today. It’s a thoughtful and proactive model that comes close to the frontier intelligence of Claude Fable 5 at half the price.
 
@@ -56,7 +79,11 @@ Finally, Opus 5 is capable of producing much stronger visual outputs:
 
 Wind tunnelCell artifact
 
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F4WQd-8d5j4k%2Fmaxresdefault.jpg&w=3840&q=75)
+
 Opus 5 visualized the flow of air over aerodynamic (and non-aerodynamic) objects. Try different settings in the wind tunnel [here](https://assets.claude.ai/brand/artifacts/blog/opus/5-aeolus-demo.html).
+
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F2eiKnt9Hi6I%2Fmaxresdefault.jpg&w=3840&q=75)
 
 Opus 5 built a simplified, interactive illustration of a cell. Explore its elements [here](https://assets.claude.ai/brand/artifacts/blog/opus/5-sectio-demo.html).
 
@@ -70,103 +97,203 @@ Claude Opus 5 is much stronger at verifying its work and iterating carefully unt
 
 Below are further reports from our early-access customers on their experience of working with Opus 5:
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/ad249bca4e8e195e08764efc43ecbc586ca37482-143x64.svg)
+![Scott Wu logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/ad249bca4e8e195e08764efc43ecbc586ca37482-143x64.svg)
 
-> On FrontierCode 1.1, Claude Opus 5 approaches Fable-level performance at half the cost. Within Devin, it also shows particular strength on difficult debugging and root-cause analysis tasks.
+> “On FrontierCode 1.1, Claude Opus 5 approaches Fable-level performance at half the cost. Within Devin, it also shows particular strength on difficult debugging and root-cause analysis tasks.”
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f084c88e65466636019709c40cc477aadce2f718-151x64.svg)
+Scott Wu
 
-> Claude Opus 5 delivers near Fable 5 intelligence at Opus speed and cost. On CursorBench it’s just under Fable 5 and has many of the same behaviors. We are excited to see how developers use it in Cursor.
+CEO
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f343481e6a953bc7b5390e6d9f61cf387c2ceb11-103x64.svg)
+![Sualeh Asif logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f084c88e65466636019709c40cc477aadce2f718-151x64.svg)
 
-> Claude Opus 5 topped Zapier’s AutomationBench leaderboard without spending more tokens than prior Claude models. It took a raw account-health workbook and ran a full churn-prevention sequence end to end: flagging at-risk accounts, alerting the right owner, and summarizing for retention ops. Previous models didn’t pass; Opus 5 hit 100%.
+> “Claude Opus 5 delivers near Fable 5 intelligence at Opus speed and cost. On CursorBench it’s just under Fable 5 and has many of the same behaviors. We are excited to see how developers use it in Cursor.”
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/efde24e5691e04ed84cb9c3fb91c1033a2e65af0-145x64.svg)
+Sualeh Asif
 
-> On our genomics analysis work, Claude Opus 5 behaves more like a careful scientist than any model we’ve run. It reaches for the right statistical tests to rule out confounders, cross-checks its own results by independent methods, and stays on track through long multi-step analyses.
+Co-Founder
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/40a2a6a28afd8ac8fbf0e764b6bbf4ebf06a1977-133x64.svg)
+![Wade Foster logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f343481e6a953bc7b5390e6d9f61cf387c2ceb11-103x64.svg)
 
-> Claude Opus 5 came out ahead of every model in its family on our internal evals. It isn’t just better on our hardest agentic coding tasks, up 22% over Opus 4.7, it’s steadier, with far less variance run to run. For the millions of builders on Lovable, that consistency is the whole game. Reliable results, build after build.
+> “Claude Opus 5 topped Zapier’s AutomationBench leaderboard without spending more tokens than prior Claude models. It took a raw account-health workbook and ran a full churn-prevention sequence end to end: flagging at-risk accounts, alerting the right owner, and summarizing for retention ops. Previous models didn’t pass; Opus 5 hit 100%.”
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/e0731da5f669896ec6823e665df2c360ea03115d-140x64.svg)
+Wade Foster
 
-> Claude Opus 5 is the biggest leap in the Opus family since 4.5. On the same full-stack app builds, the front end shows it first: the best animations, games, and 3D work we have seen from an Opus model.
+CEO
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/7fbed01e869d6a4faf97317a1fc4b74f7997c66e-78x64.svg)
+![Alfredo Andere logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/efde24e5691e04ed84cb9c3fb91c1033a2e65af0-145x64.svg)
 
-> We’re loving Claude Opus 5. For the kind of open-ended analytical work our agent handles, it’s a strict upgrade over Opus 4.8, and the gains are biggest exactly where it matters: the harder, vaguer tasks. Responses are clearer and more concise, and we see improved efficiency at higher effort levels too.
+> “On our genomics analysis work, Claude Opus 5 behaves more like a careful scientist than any model we’ve run. It reaches for the right statistical tests to rule out confounders, cross-checks its own results by independent methods, and stays on track through long multi-step analyses.”
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/e360f8a29093a6b4fccdc006315035583e89f9ac-146x64.svg)
+Alfredo Andere
 
-> Claude Opus 5 is a striking improvement over Opus 4.8 for the financial research workflows our analysts run every day. It stands out on numerical reasoning, table work, and sharper critical thinking where precision matters.
+CEO
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/bf162513ba017e72d4e07b0cd7683b86c4c5bc88-60x64.svg)
+![Fabian Hedin logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/40a2a6a28afd8ac8fbf0e764b6bbf4ebf06a1977-133x64.svg)
 
-> Claude Opus 5 delivers the industry intelligence and accuracy that is essential for the analysis of specialized enterprise content. Box found that Opus 5 outperforms Opus 4.8 by 8% and delivers notable performance gains in the data analysis (11% improvement) and due diligence (17% improvement) workflows that technology, healthcare, and public sector organizations rely on daily.
+> “Claude Opus 5 came out ahead of every model in its family on our internal evals. It isn’t just better on our hardest agentic coding tasks, up 22% over Opus 4.7, it’s steadier, with far less variance run to run. For the millions of builders on Lovable, that consistency is the whole game. Reliable results, build after build.”
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/d514853a44cf69f069306c98b558f214112c4ef3-91x64.svg)
+Fabian Hedin
 
-> Claude Opus 5 is a clear generational step up from Opus 4.8. Over one weekend I gave it a chief-of-staff role over my dev environments: it built its own monitor, drove each box, and pulled me in only for the judgment calls.
+Co-Founder
 
-![ logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F04865ae02e70e9d8ca5a79fb49ae9263d58a7022-528x256.png&w=256&q=75)
+![Madhav Jha logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/e0731da5f669896ec6823e665df2c360ea03115d-140x64.svg)
 
-> Claude Opus 5 made large scale changes across our Fundamental Research Assistant codebase, adapting to feedback throughout an agentic workflow and explaining its reasoning more clearly than any model we’ve used. It handled work we would normally have broken into much smaller pieces.
+> “Claude Opus 5 is the biggest leap in the Opus family since 4.5. On the same full-stack app builds, the front end shows it first: the best animations, games, and 3D work we have seen from an Opus model.”
 
-![ logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F867075586d7f5ee37ee1c8c7b4bf0dadb34a54e2-666x192.png&w=256&q=75)
+Madhav Jha
 
-> On some of our hardest financial-modeling tasks, Claude Opus 5 is a clear step up from Opus 4.8 in both accuracy and efficiency. Its performance floor is materially higher, especially on deep finance domain logic. Across effort levels it averaged 9 percentage points higher accuracy with a third fewer turns and tool calls and 60% less time.
+Co-Founder and CTO
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/cc80b0a6f9534a34252756b93dd5a9bc26dd58f1-222x64.svg)
+![Izzy Miller logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/7fbed01e869d6a4faf97317a1fc4b74f7997c66e-78x64.svg)
 
-> Claude Opus 5 checks its own work the way a real frontend developer would. On our benchmark it opened its pages in a browser at desktop and phone widths, caught a product hidden below the mobile fold and an off-screen checkout button, and fixed both before handing the work back.
+> “We’re loving Claude Opus 5. For the kind of open-ended analytical work our agent handles, it’s a strict upgrade over Opus 4.8, and the gains are biggest exactly where it matters: the harder, vaguer tasks. Responses are clearer and more concise, and we see improved efficiency at higher effort levels too.”
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/6dfc3bd55cc5f9d5ebdd8d5437505ae4b8560412-120x64.svg)
+Izzy Miller
 
-> Claude Opus 5 is a clear step up in performance on legal agent work compared to prior Opus models, and we saw the biggest gains in practice areas like corporate governance and arbitration. We were also impressed with Opus 5’s ability to maintain quality at lower reasoning levels, achieving similar performance while generating 26% fewer tokens on average compared to Opus 4.8 at max reasoning.
+AI Research Lead
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/beb4f74e935e111be9a63875ae7743aaea2cb0a2-88x64.svg)
+![Shirley Zhang logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/e360f8a29093a6b4fccdc006315035583e89f9ac-146x64.svg)
 
-> Claude Opus 5’s biggest gains for us are on longer-horizon work: building a full deck, then revising it. Artifact quality is what decides which model we ship, and this is the clearest step up we’ve seen — better visual understanding, cleaner formatting, fewer slide issues.
+> “Claude Opus 5 is a striking improvement over Opus 4.8 for the financial research workflows our analysts run every day. It stands out on numerical reasoning, table work, and sharper critical thinking where precision matters.”
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/18f900625532e1baaa3302bdf9539f73592bdf60-164x64.svg)
+Shirley Zhang
 
-> Claude Opus 5’s judgment is what stands out. Handing off a PR, it doesn’t rush to publish: it verifies the branches, checks the template, and thinks through test implications so the handoff is clean. The older models tended to jump ahead and get caught on our checks.
+Senior AI Engineer, Applied AI
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f69ebaa2d39165a909def91e572e7d9ec0088a9a-154x64.svg)
+![Ben Kus logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/bf162513ba017e72d4e07b0cd7683b86c4c5bc88-60x64.svg)
 
-> During a rearchitecting session, Claude Opus 5 pushed back on a design I proposed, and it didn’t fold when I insisted. Instead, it explained exactly what was valuable in my idea, narrowed its objection to a single design question, and proposed a compromise that kept the good part while fixing the flaw. That’s the kind of judgment that lets us trust it with less oversight.
+> “Claude Opus 5 delivers the industry intelligence and accuracy that is essential for the analysis of specialized enterprise content. Box found that Opus 5 outperforms Opus 4.8 by 8% and delivers notable performance gains in the data analysis (11% improvement) and due diligence (17% improvement) workflows that technology, healthcare, and public sector organizations rely on daily.”
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/a0935a9396e8ec29b273be438cac14583c5999a6-130x64.svg)
+Ben Kus
 
-> On first-turn redlines, Claude Opus 5 scored the highest of any model we tested, nearly double Opus 4.8. Commenting is better too: on NDAs it gets to the redline in less time and with fewer passes, with accuracy maintained or better.
+CTO
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/428460e52876e1ec0159ee37b5f5df71eee6472f-106x64.svg)
+![Cristian Rivera logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/d514853a44cf69f069306c98b558f214112c4ef3-91x64.svg)
 
-> Claude Opus 5 writes clean, tight diffs with no dead code, and it’s the stronger hazard spotter on subtle, codebase-specific issues. We’re adopting it for production workloads.
+> “Claude Opus 5 is a clear generational step up from Opus 4.8. Over one weekend I gave it a chief-of-staff role over my dev environments: it built its own monitor, drove each box, and pulled me in only for the judgment calls.”
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f0dacc0d330bc402df7423a025a963b2a5e969d2-191x64.svg)
+Cristian Rivera
 
-> We will definitely migrate a number of use cases in Cosmos, our unified agent platform. We’re looking forward to increasingly using Claude Opus 5 for code review, and I am confident in saying we would rather people be using Opus 5 than Opus 4.8.
+Staff Software Engineer
 
-![ logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F921e6c04971bb083186c710c631b21946f39a96d-1280x275.webp&w=256&q=75)
+![Conor Kiernan logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F04865ae02e70e9d8ca5a79fb49ae9263d58a7022-528x256.png&w=640&q=75)
 
-> What stands out about Claude Opus 5 is judgment. It thinks harder before it writes a single line, catches its own logical faults during planning rather than after the fact, and reasons about why an answer is right, not just whether it works. It’s the clearest jump in problem-solving we’ve seen from one Claude model to the next, and we’re looking forward to seeing it adopted in JetBrains IDEs.
+> “Claude Opus 5 made large scale changes across our Fundamental Research Assistant codebase, adapting to feedback throughout an agentic workflow and explaining its reasoning more clearly than any model we’ve used. It handled work we would normally have broken into much smaller pieces.”
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/fbd45dbecde0ed6e7c3bf8551df0525d87efd4de-127x64.svg)
+Conor Kiernan
 
-> Claude Opus 5 is the strongest Opus model we’ve tested on our trading benchmark, and it gets there using roughly a seventh of the reasoning tokens and under half the latency of Opus 4.8. Better answers at a fraction of the compute.
+CTO
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/c40e0aa477d2cf411c9f13ffd51f4549938ba0aa-106x32.svg)
+![Richard Pham logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F867075586d7f5ee37ee1c8c7b4bf0dadb34a54e2-666x192.png&w=750&q=75)
 
-> Claude Opus 5 lets monitoring agents manage parts of their own memory in production, making them more autonomous and reliable over longer horizons. The agent treats its context as a living document: after flagging a potential anomaly in one of our services, it re-checked its own assumption against production, found the signal was benign, wrote the correction into its memory, and retired its monitoring queries on its own.
+> “On some of our hardest financial-modeling tasks, Claude Opus 5 is a clear step up from Opus 4.8 in both accuracy and efficiency. Its performance floor is materially higher, especially on deep finance domain logic. Across effort levels it averaged 9 percentage points higher accuracy with a third fewer turns and tool calls and 60% less time.”
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/198c9eb920db5dc4581daefd3dc19d9fb51f6637-125x32.svg)
+Richard Pham
 
-> Claude Opus 5 is a strong agentic coding model built for long-running, multi-step work. It deeply understands your codebase, holds the thread across complex tasks, and pins down requirements for feature development and bug-fixing more effectively than Opus 4.8. Developers can now build with Opus 5 in Kiro, accessing its advanced capabilities to tackle ambitious projects.
+Evals and Product Lead
 
-01 / 24
+![AJ Orbach logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/cc80b0a6f9534a34252756b93dd5a9bc26dd58f1-222x64.svg)
+
+> “Claude Opus 5 checks its own work the way a real frontend developer would. On our benchmark it opened its pages in a browser at desktop and phone widths, caught a product hidden below the mobile fold and an off-screen checkout button, and fixed both before handing the work back.”
+
+AJ Orbach
+
+Co-Founder and CEO
+
+![Niko Grupen logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/6dfc3bd55cc5f9d5ebdd8d5437505ae4b8560412-120x64.svg)
+
+> “Claude Opus 5 is a clear step up in performance on legal agent work compared to prior Opus models, and we saw the biggest gains in practice areas like corporate governance and arbitration. We were also impressed with Opus 5’s ability to maintain quality at lower reasoning levels, achieving similar performance while generating 26% fewer tokens on average compared to Opus 4.8 at max reasoning.”
+
+Niko Grupen
+
+Head of Applied Research
+
+![Alex Wang logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/beb4f74e935e111be9a63875ae7743aaea2cb0a2-88x64.svg)
+
+> “Claude Opus 5’s biggest gains for us are on longer-horizon work: building a full deck, then revising it. Artifact quality is what decides which model we ship, and this is the clearest step up we’ve seen — better visual understanding, cleaner formatting, fewer slide issues.”
+
+Alex Wang
+
+Applied AI
+
+![Zimu Li logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/18f900625532e1baaa3302bdf9539f73592bdf60-164x64.svg)
+
+> “Claude Opus 5’s judgment is what stands out. Handing off a PR, it doesn’t rush to publish: it verifies the branches, checks the template, and thinks through test implications so the handoff is clean. The older models tended to jump ahead and get caught on our checks.”
+
+Zimu Li
+
+Member of Technical Staff
+
+![Marquis Wang logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f69ebaa2d39165a909def91e572e7d9ec0088a9a-154x64.svg)
+
+> “During a rearchitecting session, Claude Opus 5 pushed back on a design I proposed, and it didn’t fold when I insisted. Instead, it explained exactly what was valuable in my idea, narrowed its objection to a single design question, and proposed a compromise that kept the good part while fixing the flaw. That’s the kind of judgment that lets us trust it with less oversight.”
+
+Marquis Wang
+
+Principal AI Engineer
+
+![Ryan Tanenholz logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/a0935a9396e8ec29b273be438cac14583c5999a6-130x64.svg)
+
+> “On first-turn redlines, Claude Opus 5 scored the highest of any model we tested, nearly double Opus 4.8. Commenting is better too: on NDAs it gets to the redline in less time and with fewer passes, with accuracy maintained or better.”
+
+Ryan Tanenholz
+
+Member of Technical Staff
+
+![Neeraj Deshmukh logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/428460e52876e1ec0159ee37b5f5df71eee6472f-106x64.svg)
+
+> “Claude Opus 5 writes clean, tight diffs with no dead code, and it’s the stronger hazard spotter on subtle, codebase-specific issues. We’re adopting it for production workloads.”
+
+Neeraj Deshmukh
+
+Director of Engineering
+
+![Igor Ostrovsky logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f0dacc0d330bc402df7423a025a963b2a5e969d2-191x64.svg)
+
+> “We will definitely migrate a number of use cases in Cosmos, our unified agent platform. We’re looking forward to increasingly using Claude Opus 5 for code review, and I am confident in saying we would rather people be using Opus 5 than Opus 4.8.”
+
+Igor Ostrovsky
+
+Co-Founder and CTO
+
+![Denis Shiryaev logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F921e6c04971bb083186c710c631b21946f39a96d-1280x275.webp%3Ffm%3Dwebp&w=1920&q=75)
+
+> “What stands out about Claude Opus 5 is judgment. It thinks harder before it writes a single line, catches its own logical faults during planning rather than after the fact, and reasons about why an answer is right, not just whether it works. It’s the clearest jump in problem-solving we’ve seen from one Claude model to the next, and we’re looking forward to seeing it adopted in JetBrains IDEs.”
+
+Denis Shiryaev
+
+Head of AI in IDE
+
+![Matt Nassr logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/fbd45dbecde0ed6e7c3bf8551df0525d87efd4de-127x64.svg)
+
+> “Claude Opus 5 is the strongest Opus model we’ve tested on our trading benchmark, and it gets there using roughly a seventh of the reasoning tokens and under half the latency of Opus 4.8. Better answers at a fraction of the compute.”
+
+Matt Nassr
+
+Head of Global Data Engineering and AI Transformation
+
+![Tanapat Ratanaruengjumrune logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/c40e0aa477d2cf411c9f13ffd51f4549938ba0aa-106x32.svg)
+
+> “Claude Opus 5 lets monitoring agents manage parts of their own memory in production, making them more autonomous and reliable over longer horizons. The agent treats its context as a living document: after flagging a potential anomaly in one of our services, it re-checked its own assumption against production, found the signal was benign, wrote the correction into its memory, and retired its monitoring queries on its own.”
+
+Tanapat Ratanaruengjumrune
+
+Manager, Applied AI
+
+![Deepak Singh logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/198c9eb920db5dc4581daefd3dc19d9fb51f6637-125x32.svg)
+
+> “Claude Opus 5 is a strong agentic coding model built for long-running, multi-step work. It deeply understands your codebase, holds the thread across complex tasks, and pins down requirements for feature development and bug-fixing more effectively than Opus 4.8. Developers can now build with Opus 5 in Kiro, accessing its advanced capabilities to tackle ambitious projects.”
+
+Deepak Singh
+
+VP of Agentic AI
+
+01
+
+/
+
+24
 
 ## Alignment and safety
 
@@ -174,7 +301,7 @@ Below are further reports from our early-access customers on their experience of
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F76d4af96516ffca2aceb4c1d0b0a83e2720d874b-3840x2160.png&w=3840&q=75)
 
-*On our automated behavioral audit, Opus 5 scores 2.3 on overall misaligned behavior, the lowest of our recent models.*
+On our automated behavioral audit, Opus 5 scores 2.3 on overall misaligned behavior, the lowest of our recent models.
 
 *Safety.* Opus 5 does not advance the frontier in risky, dual-use capabilities. In rigorous evaluations conducted alongside private-sector and government partners, we found it remains behind Mythos 5 in both biology research and offensive cybersecurity. More information about these evaluations can be found in our [System Card](https://www.anthropic.com/claude-opus-5-system-card).
 
@@ -186,19 +313,19 @@ This is illustrated by Opus 5’s performance on OSS-Fuzz, an evaluation we’ve
 
 *On OSS-Fuzz, one of our cybersecurity evaluations, Opus 5 is close to Mythos 5 at identifying software vulnerabilities (left), but is considerably less successful at developing exploits for them (right).*
 
-## **Safeguards for Opus 5**
+## Safeguards for Opus 5
 
 Claude Opus 5’s safeguards are designed to allow beneficial uses of the model in both cybersecurity and biology. They are similar to those we applied to Opus 4.8, with the exception of some stronger guardrails on a narrow range of cyber tasks.
 
 *Cybersecurity.* Opus 5’s cyber classifiers are proportionally less restrictive than those on Fable 5. They allow Opus 5 to find vulnerabilities in source code, but block “binary-based” vulnerability scanning (a method more likely to be associated with malicious actors), penetration testing, and exploit generation.
 
-Based on our testing, we expect the classifiers to intervene around 85% less often than they do for Fable 5. In [Claude.ai](http://claude.ai/redirect/website.v1.35ff692d-1148-405d-9431-b2d14729e542), Claude Code, and Claude Cowork, any flagged requests will fall back to Opus 4.8 by default. Fallbacks to Opus 4.8 can also be enabled on the API.
+Based on our testing, we expect the classifiers to intervene around 85% less often than they do for Fable 5. In [Claude.ai](http://claude.ai/redirect/website.v1.1c05b2b7-1752-4501-ba75-94472252a397), Claude Code, and Claude Cowork, any flagged requests will fall back to Opus 4.8 by default. Fallbacks to Opus 4.8 can also be enabled on the API.
 
 Our [Cyber Verification Program](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet) (CVP) facilitates cybersecurity work that would otherwise be impeded by the model’s safeguards. Enterprises and researchers who are already part of the CVP have immediate access to a version of Opus 5 with fewer security restrictions.
 
 *Biology.* Since Opus 5 has a similar suite of safeguards to Opus 4.8, it is now our most capable generally available model for scientific research. Nevertheless, the model still shows important limitations on long-running, autonomous research tasks, which is where we expect AI models to pose the most substantial biology-related risks. (Mythos 5 remains the stronger model for this type of biological work.) As part of this launch, biology-related requests that are blocked on Fable 5 will now route to Opus 5 rather than Opus 4.8.
 
-## **Getting started**
+## Getting started
 
 Claude Opus 5 is available today on all platforms, priced at $5 per million input tokens and $25 per million output tokens (the same as Opus 4.8). Developers can get started with claude-opus-5 on the Claude API.
 
@@ -213,26 +340,20 @@ Consistent with prior Opus models, Opus 5 does not have data retention requireme
 
 For more guidance on how to get the best out of Opus 5, see our [prompting guide](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5).
 
-#### Footnotes
+## Footnotes
 
 **Frontier-Bench v0.1, Effort plot:** These results are from an internal run of Frontier-Bench v0.1, on the mini-SWE-agent harness and a GKE backend, mean reward over 5 attempts per task. Opus 4.8 served as fallback on safety-classifier refusals for Opus 5 and Fable 5.
 
-## Related content
 
-### Investing in the public benefit
+## Frontier-Bench v0.1
 
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F4WQd-8d5j4k%2Fsddefault.jpg&w=3840&q=75)
 
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
+Opus 5 visualized the flow of air over aerodynamic (and non-aerodynamic) objects. Try different settings in the wind tunnel [here](https://assets.claude.ai/brand/artifacts/blog/opus/5-aeolus-demo.html).
 
-### An update on independent evaluators
 
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
+## Cell artifact
 
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F2eiKnt9Hi6I%2Fsddefault.jpg&w=3840&q=75)
 
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
+Opus 5 built a simplified, interactive illustration of a cell. Explore its elements [here](https://assets.claude.ai/brand/artifacts/blog/opus/5-sectio-demo.html).

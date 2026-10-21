@@ -1,29 +1,29 @@
-Interpretability
-
 # Using dictionary learning features as classifiers
-
-Oct 16, 2024
 
 [Read Transformer Circuits](https://transformer-circuits.pub/2024/features-as-classifiers/index.html)
 
+![Using dictionary learning features as classifiers](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdf3ad23faf91cbf57c0ce7245bee2b1b5eb9ec3a-2000x1125.jpg&w=1920&q=75)
+
+- Published
+
+  Oct 16, 2024
+- Team
+
+  [Interpretability](https://www.anthropic.com/research/team/interpretability)
+- Topics
+
+  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)See more...
+
 *At the link above, we report some developing work from the Anthropic interpretability team on developing feature-based classifiers, which might be of interest to researchers working actively in this space. We'd ask you to treat these results like those of a colleague sharing some thoughts or preliminary experiments for a few minutes at a lab meeting, rather than a mature paper.*
 
-## Related content
+Related articles
 
-### Designing more efficient quantum circuits with Claude
+- Societal Impacts
 
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
+  Oct 25, 2024
 
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
+  [Evaluating feature steering: A case study in mitigating social biases](https://www.anthropic.com/research/evaluating-feature-steering)
 
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
+[View more](https://www.anthropic.com/search?topic=interpretability)

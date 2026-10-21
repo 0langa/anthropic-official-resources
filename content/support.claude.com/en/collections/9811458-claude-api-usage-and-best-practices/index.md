@@ -10,6 +10,6 @@
 
 [I’ve been using other large language models (LLMs) to power my product. How should I alter my prompts when switching to Claude?](https://support.claude.com/en/articles/8114533-i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude)
 
-[API Key Best Practices: Keeping Your Keys Safe and Secure](https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure)
+[API key best practices: keep your keys safe and secure](https://support.claude.com/en/articles/9767949-api-key-best-practices-keep-your-keys-safe-and-secure)
 
 [How can I get higher rate limits on the Claude API?](https://support.claude.com/en/articles/10366389-how-can-i-get-higher-rate-limits-on-the-claude-api)

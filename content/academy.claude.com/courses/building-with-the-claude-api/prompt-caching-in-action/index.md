@@ -17,7 +17,7 @@ Prompt caching is a powerful optimization feature that makes your API requests b
 When you enable prompt caching, the first request writes content to a cache with a 5-minute default lifetime, and each time the cached content is used, that window refreshes at no extra cost. If you need a longer window, you can opt into a 1-hour cache duration for an additional cost. Follow-up requests read from this cache instead of processing the same content again. This is particularly valuable when you're sending:
 
 - Large system prompts (like a 6K token coding assistant prompt)
-- Complex tool schemas (around 1.7K tokens for multiple tools)
+- Complex tool schemas (like detailed definitions for several tools)
 - Repeated message content
 
 The key insight is that caching only helps if you're repeatedly sending identical content - but in many applications, this happens extremely frequently.
@@ -62,8 +62,8 @@ This converts your system prompt from a simple string into a structured format t
 
 When you run requests with caching enabled, you'll see different usage patterns in the response:
 
-- **First request:** `cache_creation_input_tokens=1772` - Claude writes to cache
-- **Follow-up requests:** `cache_read_input_tokens=1772` - Claude reads from cache
+- **First request:** `cache_creation_input_tokens` shows how many tokens were written - Claude writes to cache
+- **Follow-up requests:** `cache_read_input_tokens` shows the same number of tokens read back - Claude reads from cache
 - **Changed content:** New cache creation tokens appear
 
 The cache is extremely sensitive - changing even a single character in your tools or system prompt invalidates the entire cache for that component.
@@ -76,7 +76,7 @@ You can set multiple cache breakpoints in a single request. The order matters:
 2. System prompt (if provided)
 3. Messages
 
-If you change your system prompt but keep the same tools, you'll see a partial cache read (for tools) and a cache write (for the new system prompt). This granular caching means you only pay for processing the parts that actually changed.
+If you change your system prompt but keep the same tools, you'll see a partial cache read (for tools) and a cache write (for the new system prompt). You only get that partial read when the tools alone reach the minimum length, because a cache breakpoint whose content up to that point is under the minimum doesn't write anything. This granular caching means you only pay for processing the parts that actually changed.
 
 ## Practical Considerations[](https://academy.claude.com/courses/building-with-the-claude-api/prompt-caching-in-action)
 

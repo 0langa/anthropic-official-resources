@@ -702,7 +702,7 @@ An updated `CLAUDE.md` file from Stage 3: Build; skills if the review passes enf
 
 **Infrastructure**
 
-A repo with the Claude integration installed, either the managed [Code Review](https://code.claude.com/docs/en/code-review) (research preview) service enabled by an admin or the [claude-code-action](https://code.claude.com/docs/en/github-actions) running in your own CI, with model calls through AWS Bedrock, Google Vertex or Microsoft Foundry where needed (the CI/CD play covers the deployment options). Branch protection policies that require a code owner's approval are also worthwhile.
+A repo with the Claude integration installed, either the managed [Code Review](https://code.claude.com/docs/en/code-review) service enabled by an admin or the [claude-code-action](https://code.claude.com/docs/en/github-actions) running in your own CI, with model calls through AWS Bedrock, Google Vertex or Microsoft Foundry where needed (the CI/CD play covers the deployment options). Branch protection policies that require a code owner's approval are also worthwhile.
 
 #### How to execute it
 
@@ -1108,7 +1108,15 @@ Thanks to Jim Blackhurst, Will Steuk, and Jamal Arif for their contributions to 
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 16, 2026
+[ArticleOct 19, 2026
+
+### Redesigning source control at Anthropic
+
+As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
+
+Claude Code
+
+(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)[ArticleOct 16, 2026
 
 ### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
 
@@ -1130,15 +1138,7 @@ A reference implementation walkthrough for a scheduled Claude Managed Agents aut
 
 Claude Platform
 
-(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 7, 2026
-
-### Automating eval design and hillclimbing with Claude
-
-Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
-
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
 
 ## Transform how your organization operates with Claude
 

@@ -25,7 +25,7 @@ Claude starts, and steer it while it runs. Let's walk through both.
 
 ## Scope the work first with plan mode[](https://academy.claude.com/courses/claude-code-in-action/steering-long-sessions)
 
-Before Claude writes a single line, get it to lay out a plan. In plan mode, Claude does its research in read-only mode. It reads the code, figures out what needs to change, and hands you a plan to review.
+Before Claude writes a single line, get it to lay out a plan. In plan mode, Claude does its research without editing your source files. It reads the code, figures out what needs to change, and hands you a plan to review.
 
 When you get that plan, actually read it. Don't skim it. The more thorough the plan, the fewer surprises you'll hit once Claude starts executing. If something's off or missing, just ask Claude to add it where you want. Iterating on a plan is much faster than letting Claude run and hoping for the best, then cleaning up the mess.
 
@@ -71,9 +71,9 @@ To cancel it, run `/goal clear`. One important constraint: the evaluator only re
 
 ### Loop[](https://academy.claude.com/courses/claude-code-in-action/steering-long-sessions)
 
-Loop runs a prompt on an interval between turns, either fixed or self-paced. Use it to pull something external, like a CI run or a deploy, and act when the state changes.
+Loop runs a prompt on an interval between turns, either fixed or self-paced. Use it to poll something external, like a CI run or a deploy, and act when the state changes.
 
-To stop a loop, just press escape.
+To stop a self-paced loop while it waits for its next run, press escape. A loop on a fixed interval keeps running until you ask Claude to cancel it or seven days pass.
 
 ## Run parallel work with worktrees[](https://academy.claude.com/courses/claude-code-in-action/steering-long-sessions)
 

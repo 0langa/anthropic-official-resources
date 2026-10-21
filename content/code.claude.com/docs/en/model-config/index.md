@@ -16,9 +16,9 @@ For the `model` setting in Claude Code, you can configure either:
 
 For guidance on which model and effort level fit different kinds of work, see [Choosing a Claude model and effort level in Claude Code](https://claude.com/blog/claude-model-and-effort-level-in-claude-code) on the blog.
 
-<Note>
-  `ANTHROPIC_BASE_URL` changes where requests are sent, not which model answers them. To route Claude through an LLM gateway, see [LLM gateways](/docs/en/llm-gateway).
-</Note>
+> [!NOTE]
+>
+> `ANTHROPIC_BASE_URL` changes where requests are sent, not which model answers them. To route Claude through an LLM gateway, see [LLM gateways](/docs/en/llm-gateway).
 
 ### Model aliases
 
@@ -45,8 +45,6 @@ The `opus`, `sonnet`, and `haiku` aliases resolve to the newest version on the A
 | Amazon Bedrock, Google Cloud's Agent Platform | Opus 5.5 | Sonnet 4.5 | Haiku 4.5 |
 | Microsoft Foundry | Opus 4.6 | Sonnet 4.5 | Haiku 4.5 |
 
-<span />
-
 Unless you set `ANTHROPIC_DEFAULT_FABLE_MODEL`, the `fable` alias resolves to Fable 5.1, except in [Claude apps gateway](/docs/en/claude-apps-gateway) sessions, where `fable` and `best` resolve to Fable 5.
 
 A gateway that isn't configured to serve `claude-fable-5-1` rejects requests for that model. To use Fable 5.1 through a gateway that serves it, select it with `/model claude-fable-5-1`.
@@ -57,9 +55,9 @@ Earlier versions resolve these aliases to older models. For the version at which
 
 Aliases point to the recommended version for your provider and update over time. To pin to a specific version, use the full model name, for example `claude-opus-5-5`, or set the corresponding environment variable like `ANTHROPIC_DEFAULT_OPUS_MODEL`.
 
-<Note>
-  Sonnet 5.5 requires Claude Code v2.1.284 or later, and Opus 5.5 requires v2.1.280 or later. If a request for one of them from an older version fails, see [Claude Code does not support this model](/docs/en/errors#claude-code-does-not-support-this-model). Use v2.1.293 or later with Haiku 5.5. Run `claude update` to upgrade.
-</Note>
+> [!NOTE]
+>
+> Sonnet 5.5 requires Claude Code v2.1.284 or later, and Opus 5.5 requires v2.1.280 or later. If a request for one of them from an older version fails, see [Claude Code does not support this model](/docs/en/errors#claude-code-does-not-support-this-model). Use v2.1.293 or later with Haiku 5.5. Run `claude update` to upgrade.
 
 ### Work with Fable
 
@@ -81,9 +79,9 @@ To get the most from Fable:
 * **Skip the verification reminders**: it verifies its own work with less prompting, so reminders to test or check are usually unnecessary.
 * **Size up larger tasks**: give it work you would normally break into pieces. It holds long sessions without losing the thread.
 
-<Note>
-  Fable 5.1 requires Claude Code v2.1.257 or later. If a request for it from an older version fails, see [Claude Code does not support this model](/docs/en/errors#claude-code-does-not-support-this-model). Run `claude update` to upgrade. For availability under zero data retention, see [Model availability under ZDR](/docs/en/zero-data-retention#model-availability-under-zdr).
-</Note>
+> [!NOTE]
+>
+> Fable 5.1 requires Claude Code v2.1.257 or later. If a request for it from an older version fails, see [Claude Code does not support this model](/docs/en/errors#claude-code-does-not-support-this-model). Run `claude update` to upgrade. For availability under zero data retention, see [Model availability under ZDR](/docs/en/zero-data-retention#model-availability-under-zdr).
 
 On the Anthropic API, a Fable model appears in the `/model` picker unless [`availableModels`](#restrict-model-selection) or [organization model restrictions](#organization-model-restrictions) exclude it. When your organization can't use Fable at all, for example under [zero data retention](/docs/en/zero-data-retention#model-availability-under-zdr), the row stays in the picker grayed out, with a note on why.
 
@@ -619,11 +617,9 @@ Claude Code saves the level per model, under the [`modelSettings`](/docs/en/sett
 
 `max` is the deepest reasoning level. Unless you set it through the `CLAUDE_CODE_EFFORT_LEVEL` environment variable, Claude Code applies `max` to the current session only.
 
-<Note>
-  A level you pick from the effort control on a phone or browser connected through [Remote Control](/docs/en/remote-control#what-connected-devices-see) applies to that session only.
-</Note>
-
-<span />
+> [!NOTE]
+>
+> A level you pick from the effort control on a phone or browser connected through [Remote Control](/docs/en/remote-control#what-connected-devices-see) applies to that session only.
 
 When you set a level with `/effort` in a [`-p` run](/docs/en/headless), Claude Code applies it to that session only and doesn't save it as your default.
 
@@ -642,8 +638,6 @@ The `/effort ultracode off` form, the slider toggle, and keeping ultracode on at
 Passing `ultracode` to the `--effort` flag or the Agent SDK `effortLevel` value requires Claude Code v2.1.203 or later. Before v2.1.203, `--effort ultracode` printed `Unknown --effort value 'ultracode'` and the session started at the default effort.
 
 The persisted `effortLevel` setting and the `CLAUDE_CODE_EFFORT_LEVEL` environment variable don't accept `ultracode`. If `CLAUDE_CODE_EFFORT_LEVEL` or an [effort cap](#organization-effort-limits) sets the session's level, ultracode stays on at that level.
-
-<span />
 
 Ultracode is unavailable when:
 
@@ -715,8 +709,6 @@ You can't turn thinking off on Opus 5.5, Sonnet 5.5, Haiku 5.5, or the Fable mod
 
 Claude Code collapses thinking output by default. Press `Ctrl+O` to toggle verbose mode and see the reasoning as gray italic text. Interactive sessions on the Anthropic API receive redacted thinking blocks by default, so set `showThinkingSummaries: true` in [settings](/docs/en/settings) if you want the full summaries available when you expand. You are charged for all thinking tokens generated, even when collapsed or redacted.
 
-<span />
-
 ### Extended context
 
 Fable 5.1, Fable 5, Sonnet 5 and later, Haiku 5.5, Opus 4.6 and later, and Sonnet 4.6 support a [1 million token context window](https://platform.claude.com/docs/en/build-with-claude/context-windows#context-window-sizes-by-model) for long sessions with large codebases.
@@ -748,8 +740,6 @@ To select a 1M variant by name, append the `[1m]` suffix to a model alias or a f
 /model opus[1m]
 ```
 
-<span />
-
 #### Context window behind an LLM gateway
 
 If you set `ANTHROPIC_BASE_URL` to an [LLM gateway](/docs/en/llm-gateway) or another proxy, Claude Code gives each model it recognizes the same context window the model has on the Anthropic API. Fable 5.1, Fable 5, Sonnet 5 and later, Haiku 5.5, and Opus 4.7 and later get the 1M window with no `[1m]` variant to select, and a model that reaches 1M only through its `[1m]` variant, such as Opus 4.6, runs at 200K without it. Claude Code can't detect a lower limit that the gateway or the server behind it enforces. If your gateway rejects requests above 200K tokens, set [`CLAUDE_CODE_AUTO_COMPACT_WINDOW=200000`](/docs/en/env-vars) in the environment that starts Claude Code, so sessions on every model [compact at that boundary](#set-the-auto-compact-window).
@@ -775,12 +765,16 @@ The auto-compact window is how full the context window can get before Claude Cod
 
 ### Set the auto-compact window
 
+> [!NOTE]
+>
+> If Claude Code warned about the value of `CLAUDE_CODE_AUTO_COMPACT_WINDOW`, see [the variable's values and warnings](#claude_code_auto_compact_window-values).
+
 You can set the auto-compact window in these places:
 
 * **For the current model, in this session and later ones**: run `/autocompact` with a value, like `/autocompact 500k`. Claude Code saves it to your user settings under the current model in [`modelSettings`](/docs/en/settings-reference#modelsettings) and applies it to the current session. If a higher-priority [settings scope](/docs/en/settings#settings-precedence) such as managed settings sets its own window for that model or for every model, the command saves your value but the session keeps that scope's window, and the command says so. Run `/autocompact auto` to return to the window tuned for your model. Before v2.1.288, the command saved one window for every model, as the top-level `autoCompactWindow`.
 * **For every model**: set [`autoCompactWindow`](/docs/en/settings-reference#autocompactwindow) in a settings file, such as `"autoCompactWindow": 200000` in `~/.claude/settings.json`. A window you saved for a model with `/autocompact` takes precedence over this key in the same file for that model.
 * **For one launch**: pass [`--autocompact`](/docs/en/cli-reference#cli-flags) when starting Claude Code. The flag overrides your saved setting for that launch without changing it, and `claude --autocompact auto` runs the session at the tuned window even if your saved setting has a value. Unlike `/autocompact`, the flag isn't preempted by a higher-priority settings scope such as managed settings.
-* **In scripts and cloud environments**: set [`CLAUDE_CODE_AUTO_COMPACT_WINDOW`](/docs/en/env-vars). While it's set, it takes precedence over the command, the flag, and the setting, and `/autocompact` reports the override instead of changing the window.
+* **In scripts and cloud environments**: set [`CLAUDE_CODE_AUTO_COMPACT_WINDOW`](/docs/en/env-vars) to a token count such as `200000`. Unless Claude Code [ignores the value](#claude_code_auto_compact_window-values), the variable takes precedence over the command, the flag, and the `autoCompactWindow` setting. `/autocompact` then reports the override without saving. The status line's `used_percentage` measures against the model's full context window, so while the variable is set, that percentage doesn't indicate when compaction will run.
 * **For one subagent**: see [Set the auto-compact window for one subagent](/docs/en/sub-agents#subagent-auto-compact-window).
 
 The command and the flag accept a window size from 100K to 1M tokens, in any of these forms:
@@ -789,7 +783,21 @@ The command and the flag accept a window size from 100K to 1M tokens, in any of 
 * A `k` or `M` suffix, such as `500k` or `1M`
 * A bare number from 100 to 1000, meaning thousands, so `200` sets 200,000
 
-The environment variable accepts only the plain token count. Claude Code caps the window at the model's context window.
+Whichever way you set the window, Claude Code caps it at the model's context window.
+
+#### Values and warnings for `CLAUDE_CODE_AUTO_COMPACT_WINDOW`
+
+A warning that quotes your `CLAUDE_CODE_AUTO_COMPACT_WINDOW` value means the value falls outside 100,000 to 1,000,000 or isn't a token count. To stop the warning, set a number in that range, such as `CLAUDE_CODE_AUTO_COMPACT_WINDOW=200000`. On Claude Code v2.1.304 or later, you can also write the number with `k` for thousands or `M` for millions, as in `200k` or `1M`.
+
+Find your warning's wording in the first column, then read across for the window your session uses and what to change:
+
+| Your warning contains | Window the session uses | What to change |
+| :- | :- | :- |
+| `reads as <N> tokens, so Claude Code treats it as the 100k minimum` | The smaller of 100,000 tokens and your model's context window | Set at least `100000`, such as `200000`, or `200k` if you meant `200` as thousands |
+| `is too large, so Claude Code treats it as the 1M maximum` | The smaller of 1,000,000 tokens and your model's context window | You already have the largest window. To stop the warning, set `1M` or `1000000` |
+| `isn't a usable size, so Claude Code ignores it` | The window from `--autocompact`, `/autocompact`, or `autoCompactWindow`, or the [default](#default-auto-compact-thresholds) when none is set | Set a number such as `200000`, or unset the variable |
+
+A number with no suffix is read as that many tokens, so `CLAUDE_CODE_AUTO_COMPACT_WINDOW=200` means 200 tokens even though `/autocompact 200` means 200,000.
 
 ### Default auto-compact thresholds
 
@@ -898,9 +906,9 @@ Without pinning, Claude Code uses model aliases such as `fable`, `opus`, `sonnet
 
 On Amazon Bedrock and Google Cloud's Agent Platform, a user who starts the session on a specific Sonnet or Opus version, for example with `--model`, `ANTHROPIC_MODEL`, or the `model` setting, pins that version as the session's default for the matching alias: the startup check skips the built-in default it replaces and shows no fallback notice. Before v2.1.211, the check ran and could show a notice even when a session model was explicitly configured.
 
-<Warning>
-  Set the model environment variables to specific version IDs as part of your initial setup. Pinning lets you control when your users move to a new model.
-</Warning>
+> [!WARNING]
+>
+> Set the model environment variables to specific version IDs as part of your initial setup. Pinning lets you control when your users move to a new model.
 
 Use the following environment variables with version-specific model IDs for your provider:
 
@@ -928,11 +936,11 @@ With the `[1m]` suffix, the 1M context window applies to all usage of the pinned
 
 When you set an `ANTHROPIC_DEFAULT_*_MODEL` variable, the `/model` picker shows one row for that model in place of the family's built-in rows, including any 1M context rows. To reach the 1M window without adding the suffix to that variable, your users run `/model opus[1m]`, and Claude Code applies the suffix to the model the variable names. `/model sonnet[1m]` works the same way.
 
-<Note>
-  An `availableModels` allowlist delivered through [MDM or a managed settings file](/docs/en/managed-settings#delivery-mechanisms) still applies when using third-party providers; [server-managed settings are not delivered there](/docs/en/server-managed-settings#platform-availability).
-
-  Filtering matches on a model alias such as `opus`, a version prefix such as `claude-opus-4-8`, or the full provider-form model ID. Provider-specific prefixes such as `us.anthropic.` are not stripped, so to allow a specific model, list its full provider-form ID, or map it through [`modelOverrides`](#override-model-ids-per-version). For a pinned model, that ID is the value you set in its `ANTHROPIC_DEFAULT_*_MODEL` variable. Any `[1m]` suffix is stripped from both the allowlist entry and the requested model before matching.
-</Note>
+> [!NOTE]
+>
+> An `availableModels` allowlist delivered through [MDM or a managed settings file](/docs/en/managed-settings#delivery-mechanisms) still applies when using third-party providers; [server-managed settings are not delivered there](/docs/en/server-managed-settings#platform-availability).
+>
+> Filtering matches on a model alias such as `opus`, a version prefix such as `claude-opus-4-8`, or the full provider-form model ID. Provider-specific prefixes such as `us.anthropic.` are not stripped, so to allow a specific model, list its full provider-form ID, or map it through [`modelOverrides`](#override-model-ids-per-version). For a pinned model, that ID is the value you set in its `ANTHROPIC_DEFAULT_*_MODEL` variable. Any `[1m]` suffix is stripped from both the allowlist entry and the requested model before matching.
 
 ### Customize pinned model display and capabilities
 

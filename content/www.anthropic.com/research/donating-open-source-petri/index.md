@@ -1,10 +1,29 @@
-Alignment
-
 # Donating our open-source alignment tool
 
-May 7, 2026
+![Donating our open-source alignment tool](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Faaac5d1c34c77b073e41f078a32f5db5c52c9259-2000x1125.jpg&w=1920&q=75)
 
-![Donating our open-source alignment tool](https://www-cdn.anthropic.com/images/4zrzovbb/website/6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+- Published
+
+  May 7, 2026
+- Team
+
+  [Alignment](https://www.anthropic.com/research/team/alignment)
+- Topics
+
+  - [Open source](https://www.anthropic.com/search?topic=open-source)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Nonprofits](https://www.anthropic.com/search?topic=nonprofits)See more...
+
+Related articles
+
+- Interpretability
+
+  Jul 6, 2026
+
+  [A global workspace in language models](https://www.anthropic.com/research/global-workspace)
+
+[View more](https://www.anthropic.com/search?topic=open-source)
 
 In October 2025, we launched [Petri](https://www.anthropic.com/research/petri-open-source-auditing), an open-source toolbox of alignment tests that can be applied to any large language model. Petri, which was developed as part of our Anthropic Fellows program, can be used to rapidly and easily test AI models for concerning tendencies like deception, sycophancy, and cooperation with harmful requests. It’s part of our efforts to develop alignment tools that are open and useful for the whole AI development community.
 
@@ -25,23 +44,3 @@ As part of Meridian Labs, Petri joins other tools like [Inspect](https://inspect
 You can read more about Petri 3.0 on [the Meridian Labs blog](https://meridianlabs.ai/blog/posts/introducing-petri-3/).
 
 Instructions to install and use Petri can be found on the [Petri website](https://meridianlabs-ai.github.io/inspect_petri/).
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)

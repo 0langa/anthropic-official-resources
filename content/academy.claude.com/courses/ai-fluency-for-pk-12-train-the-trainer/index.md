@@ -34,6 +34,10 @@ It is also recommended that learners have access to an AI tool for hands-on prac
 
 This course was created in partnership between Anthropic and the American Federation of Teachers (AFT), built by educators, for educators. Anthropic is a frontier AI safety company and the maker of Claude. The AFT is a union of professionals in education, healthcare, and public service.
 
+#### Acknowledgments and license
+
+*Copyright 2026 Anthropic and the American Federation of Teachers. Based on the AI Fluency Framework developed by Prof. Rick Dakan (Ringling College of Art and Design) and Prof. Joseph Feller (University College Cork). Released under the CC BY-NC-SA 4.0 license.*
+
 ## Inside the course
 
 ### Welcome

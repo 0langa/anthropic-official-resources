@@ -1,14 +1,14 @@
-# Inviting members to the Claude Console
+# Invite members to the Claude Console
 
-The instructions in this article apply to your overall Console organization. If you are working within a specific Console Workspace, see this article: [Creating and managing Workspaces in the Claude Console](https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console).
+The instructions in this article apply to your overall Console organization. If you are working within a specific Console Workspace, see this article: **[Create and manage Workspaces in the Claude Console](https://support.claude.com/en/articles/9796807)**.
 
-**Note:** Only organization Admins can manage Console members and invitations. See [Claude Console Roles and Permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions).
+Only organization Admins can manage Console members and invitations. See **[Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)**.
 
-## Inviting members to your Console organization
+## Invite members to your Console organization
 
 1. Log in as a Admin.
 
-2. Navigate to [Settings > Members](https://platform.claude.com/settings/members).
+2. Go to the **Members** page (platform.claude.com/settings/members).
 
 3. Click the "+ Invite" button in the upper right corner of the page.
 
@@ -24,9 +24,9 @@ The instructions in this article apply to your overall Console organization. If 
 
 Yes, newly-invited members have three weeks to accept the invitation via email.
 
-## Revoking invitations to your Console organization
+## Revoke invitations to your Console organization
 
-1. Locate the "Pending" member in [Settings > Members](https://platform.claude.com/settings/members).
+1. Locate the "Pending" member on the **Members** page (platform.claude.com/settings/members).
 
 2. Click the trash can icon to the right of the listed user to revoke their invitation.
 

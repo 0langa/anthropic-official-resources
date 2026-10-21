@@ -9,11 +9,11 @@ Complete API reference for the TypeScript Agent SDK, including all functions, ty
 npm install @anthropic-ai/claude-agent-sdk
 ```
 
-<Note>
-  The SDK bundles a native Claude Code binary for your platform as an optional dependency such as `@anthropic-ai/claude-agent-sdk-darwin-arm64`. Most installs need no separate Claude Code install. The SDK version tracks the bundled Claude Code version. SDK v0.3.191 bundles Claude Code v2.1.191, so a feature on this page that requires a Claude Code version needs the SDK release with the same patch number or later. If your package manager skips optional dependencies, the SDK throws `Native CLI binary for <platform>-<arch> not found`; set [`pathToClaudeCodeExecutable`](#options) to a separately installed `claude` binary instead.
-
-  If your package manager doesn't apply npm's `libc` field, as Yarn 1.x doesn't, you get both the glibc and musl platform packages on Linux, roughly doubling the install size. On Agent SDK v0.2.141 or later, the SDK still launches the correct variant. To reclaim the space in a container image, delete the platform package that doesn't match the libc where your app runs; for a glibc runtime on x64, that's `rm -rf node_modules/@anthropic-ai/claude-agent-sdk-linux-x64-musl`. On a development machine the deletion is temporary, since Yarn reinstalls the package on the next dependency change.
-</Note>
+> [!NOTE]
+>
+> The SDK bundles a native Claude Code binary for your platform as an optional dependency such as `@anthropic-ai/claude-agent-sdk-darwin-arm64`. Most installs need no separate Claude Code install. The SDK version tracks the bundled Claude Code version. SDK v0.3.191 bundles Claude Code v2.1.191, so a feature on this page that requires a Claude Code version needs the SDK release with the same patch number or later. If your package manager skips optional dependencies, the SDK throws `Native CLI binary for <platform>-<arch> not found`; set [`pathToClaudeCodeExecutable`](#options) to a separately installed `claude` binary instead.
+>
+> If your package manager doesn't apply npm's `libc` field, as Yarn 1.x doesn't, you get both the glibc and musl platform packages on Linux, roughly doubling the install size. On Agent SDK v0.2.141 or later, the SDK still launches the correct variant. To reclaim the space in a container image, delete the platform package that doesn't match the libc where your app runs; for a glibc runtime on x64, that's `rm -rf node_modules/@anthropic-ai/claude-agent-sdk-linux-x64-musl`. On a development machine the deletion is temporary, since Yarn reinstalls the package on the next dependency change.
 
 ### Compile to a single executable
 
@@ -429,9 +429,9 @@ Returns `{ sessionId }`, the new session's UUID. Pass it as [`resume`](#options)
 
 Resolves the effective Claude Code settings for a given directory using the same merge engine as the CLI, without spawning the Claude CLI. Use it to inspect what configuration a `query()` call would see before invoking one.
 
-<Note>
-  This function is alpha and its API may change before stabilization.
-</Note>
+> [!NOTE]
+>
+> This function is alpha and its API may change before stabilization.
 
 The snapshot differs from what a live `query()` session applies:
 
@@ -657,7 +657,7 @@ interface Query extends AsyncGenerator<SDKMessage, void> {
 | `supportedModels()` | Returns available models with display info |
 | `supportedAgents()` | Returns available subagents as [`AgentInfo`](#agentinfo)`[]` |
 | `mcpServerStatus()` | Returns the status of connected MCP servers as [`McpServerStatus`](#mcpserverstatus)`[]` |
-| `getContextUsage(opts?)` | Returns an [`SDKControlGetContextUsageResponse`](#sdkcontrolgetcontextusageresponse) breaking down the session's context window usage by category, skill, and tool. With the default `detail`, it is the same data `/context` shows in an interactive session, computed with token-counting API requests that don't appear in the message stream; see [how these requests are handled](#sdkcontrolgetcontextusageresponse). The [`detail` option](#sdkcontrolgetcontextusageresponse) requires Agent SDK v0.3.257 or later |
+| `getContextUsage(opts?)` | Returns an [`SDKControlGetContextUsageResponse`](#sdkcontrolgetcontextusageresponse) breaking down the session's context window usage by category, skill, and tool. With the default `detail`, it includes the data `/context` shows in an interactive session, computed with token-counting API requests that don't appear in the message stream; see [how these requests are handled](#sdkcontrolgetcontextusageresponse). The [`detail` option](#sdkcontrolgetcontextusageresponse) requires Agent SDK v0.3.257 or later |
 | `readFile(path, options?)` | Reads a file from the session's filesystem. Claude Code resolves the path against `cwd`; [What `readFile()` can read](#what-readfile-can-read) lists the files it serves. Pass `{ maxBytes }` to change the read cap (default 1 MB, ceiling 10 MB) and `{ encoding: 'base64' }` for binary files such as images. Resolves with an [`SDKControlReadFileResponse`](#sdkcontrolreadfileresponse), or `null` on permission denial, a missing file, or a transport error. Requires TypeScript SDK v0.2.121 or later |
 | `reloadPlugins(options?)` | Reloads plugins from disk, so plugins you install or edit mid-session reach the running session. Resolves with an [`SDKControlReloadPluginsResponse`](#sdkcontrolreloadpluginsresponse) listing the session's commands, subagents, plugins, and MCP server status. Requires Agent SDK v0.2.85 or later. The [`holdOnCacheImpact` option](#sdkcontrolreloadpluginsresponse) requires Agent SDK v0.3.268 or later |
 | `reloadSkills()` | Reloads skills from disk, so skills you add or edit mid-session become available to the running session. Resolves with an [`SDKControlReloadSkillsResponse`](#sdkcontrolreloadskillsresponse) listing the skills available after the reload. Requires Agent SDK v0.3.163 or later |
@@ -711,9 +711,9 @@ await q.applyFlagSettings({ model: "claude-opus-4-6" });
 await q.applyFlagSettings({ model: null });
 ```
 
-<Note>
-  `applyFlagSettings()` is TypeScript-only. The Python SDK does not expose an equivalent method.
-</Note>
+> [!NOTE]
+>
+> `applyFlagSettings()` is TypeScript-only. The Python SDK does not expose an equivalent method.
 
 #### `updateSettings()`
 
@@ -850,7 +850,7 @@ Interpret the list with these caveats:
 
 * Only messages that were enqueued with a UUID appear. An empty array doesn't mean nothing else will run.
 * Only main-thread messages are listed. Messages addressed to a subagent are out of scope.
-* The list can include UUIDs your client never sent, such as [scheduled task](/docs/en/scheduled-tasks) triggers. Ignore UUIDs you don't recognize instead of treating them as an error.
+* The list can include UUIDs your client never sent, such as [session-scoped scheduled task](/docs/en/scheduled-tasks) triggers. Ignore UUIDs you don't recognize instead of treating them as an error.
 
 A client that drives the CLI's control protocol directly, rather than through `interrupt()`, can set `cancel_queued: true` on the `interrupt` control request. Claude Code v2.1.219 and later advertises support with the `interrupt_cancel_queued_v1` capability in [`SDKSystemMessage.capabilities`](#sdksystemmessage); older CLIs ignore the field and leave queued messages to run as usual. Such an interrupt also cancels every message that would otherwise be listed under `still_queued`: the receipt lists them under `cancelled` instead, `still_queued` is empty, and none of them run.
 
@@ -860,7 +860,7 @@ The receipt is a snapshot taken at the moment the interrupt is processed, and on
 
 ### `SDKControlGetContextUsageResponse`
 
-Return type of [`getContextUsage()`](#query-object). With the default `detail`, this is the same payload Claude Code renders for the `/context` command in an interactive session, so alongside the token counts it carries display fields such as `color` and `gridRows` that Claude Code uses to draw the `/context` usage grid.
+Return type of [`getContextUsage()`](#query-object). With the default `detail`, the response includes the payload Claude Code renders for the `/context` command in an interactive session. Alongside the token counts, that payload carries display fields such as `color` and `gridRows` that Claude Code uses to draw the `/context` usage grid.
 
 The method's optional `detail` argument chooses how Claude Code counts each category. The `detail` argument requires Agent SDK v0.3.257 or later.
 
@@ -869,9 +869,25 @@ The method's optional `detail` argument chooses how Claude Code counts each cate
 
 When you send `/context` as a prompt instead of calling the method, Claude Code attaches an [`SDKContextUsage`](#sdkcontextusage) payload to the `context_usage` field of the assistant message that delivers the result. That field requires Agent SDK v0.3.232 or later.
 
+In `SDKControlGetContextUsageResponse`, `categories[].id`, `mcpInstructions`, and the `pluginId` and `path` fields of `agents` and `skills.skillFrontmatter` entries require Agent SDK v0.3.304 or later.
+
 ```typescript theme={null}
 type SDKControlGetContextUsageResponse = {
   categories: {
+    id?:
+      | "system_prompt"
+      | "system_tools"
+      | "mcp_tools"
+      | "mcp_instructions"
+      | "mcp_tools_deferred"
+      | "system_tools_deferred"
+      | "custom_agents"
+      | "memory_files"
+      | "skills"
+      | "messages"
+      | "autocompact_buffer"
+      | "compact_buffer"
+      | "free_space";
     name: string;
     tokens: number;
     color: string;
@@ -902,6 +918,10 @@ type SDKControlGetContextUsageResponse = {
     tokens: number;
     isLoaded?: boolean;
   }[];
+  mcpInstructions?: {
+    serverName: string;
+    tokens: number;
+  }[];
   deferredBuiltinTools?: {
     name: string;
     tokens: number;
@@ -918,6 +938,8 @@ type SDKControlGetContextUsageResponse = {
   agents: {
     agentType: string;
     source: string;
+    pluginId?: string;
+    path?: string;
     tokens: number;
   }[];
   slashCommands?: {
@@ -932,6 +954,9 @@ type SDKControlGetContextUsageResponse = {
     skillFrontmatter: {
       name: string;
       source: string;
+      pluginName?: string;
+      pluginId?: string;
+      path?: string;
       tokens: number;
     }[];
   };
@@ -1687,7 +1712,12 @@ Use the reason code to explain why fast mode is off in your own UI instead of re
 
 The same pair of fields appears on [`SDKSystemMessage`](#sdksystemmessage) and on the [`SDKControlInitializeResponse`](#sdkcontrolinitializeresponse), so you can read the fast mode state before the first turn.
 
-The `origin` field forwards the [`SDKMessageOrigin`](#sdkmessageorigin) of the user message that triggered this result. When the SDK injects a synthetic follow-up turn, such as for a finished background task, the resulting `SDKResultMessage` carries `origin: { kind: "task-notification" }`. Routines whose trigger fired and server-verified messages from your other sessions arrive with this kind too, each with the `subkind` described in [Task-notification subkinds](#task-notification-subkinds). Check `kind` to distinguish results that answer your prompt from injected follow-ups before routing or suppressing them. If your application [declares scheduled runs](#declare-a-scheduled-run), their results carry `kind: "task-notification"` too, so don't suppress on `kind` alone.
+The `origin` field forwards the [`SDKMessageOrigin`](#sdkmessageorigin) of the user message that triggered this result. Results that carry `origin: { kind: "task-notification" }` include:
+
+* **Synthetic follow-up turns**: when the SDK injects a synthetic follow-up turn, such as for a finished background task, the resulting `SDKResultMessage` carries this kind
+* **Fired scheduled tasks and messages from other sessions**: cloud scheduled tasks whose trigger fired and server-verified messages from your other sessions arrive with this kind too, each with the `subkind` described in [Task-notification subkinds](#task-notification-subkinds)
+
+Check `kind` to distinguish results that answer your prompt from injected follow-ups before routing or suppressing them. If your application [declares scheduled runs](#declare-a-scheduled-run), their results carry `kind: "task-notification"` too, so don't suppress on `kind` alone.
 
 When several background-task completions are queued together, Claude Code can answer them in one turn rather than one turn each. Each completion still produces its own result with this origin. All but the last of the completions Claude Code answers together produce empty results with `num_turns: 0`, in order, and the last one's result carries the turn that answers them all.
 
@@ -2214,12 +2244,12 @@ type SDKMessageOrigin =
 
 When Claude Code delivers a task notification into a session, it sets `subkind` on the notification's `origin` if Anthropic servers verified where that notification came from. It also sets `subkind` when your application [declares the message as a scheduled run](#declare-a-scheduled-run) itself, which requires TypeScript Agent SDK v0.3.280 or later. `subkind` requires Claude Code v2.1.213 or later, and it takes one of two values:
 
-* `scheduled-trigger`: the notification is a [routine](/docs/en/routines)'s stored prompt, delivered because one of the routine's triggers fired: its schedule, its [API trigger](/docs/en/routines#add-an-api-trigger), its [GitHub trigger](/docs/en/routines#add-a-github-trigger), or **Run now**. A prompt your application [declares as a scheduled run](#declare-a-scheduled-run) carries this value too. Claude Code frames these to the model as the session's assigned task, with a different notice from the [notice that other task notifications carry](#sdktasknotificationmessage).
+* `scheduled-trigger`: the notification is a [cloud scheduled task](/docs/en/routines)'s stored prompt, delivered because one of the task's triggers fired: its schedule, its [API trigger](/docs/en/routines#add-an-api-trigger), its [GitHub trigger](/docs/en/routines#add-a-github-trigger), or **Run now**. A prompt your application [declares as a scheduled run](#declare-a-scheduled-run) carries this value too. Claude Code frames these to the model as the session's assigned task, with a different notice from the [notice that other task notifications carry](#sdktasknotificationmessage).
 * `peer-send-message`: the notification is a message that another of your sessions sent with the server-side `send_message` tool that [cloud sessions](/docs/en/claude-code-on-the-web) use to message each other, not the [cross-session `SendMessage` tool](/docs/en/cross-session-messaging), and Anthropic servers verified that both sessions belong to the same private group of sessions. Requires Claude Code v2.1.224 or later. A `send_message` delivery the servers didn't verify that way gets no subkind.
 
 Every other task notification has no `subkind`. That includes [PR activity](/docs/en/claude-code-on-the-web#how-claude-responds-to-pr-activity) delivered into a session and background events such as a finished task. Messages from the [cross-session `SendMessage` tool](/docs/en/cross-session-messaging) aren't task notifications at all: whether they come from a session on the same machine or through Anthropic servers from another machine, Claude Code gives them `kind: "peer"` and the [peer origin fields](#peer-origin-fields).
 
-`fireReason` says why a `scheduled-trigger` notification fired, as a short lowercase token such as `scheduled`, `manual`, `retry`, `catch_up`, or `api`. Anthropic servers set it on a [routine](/docs/en/routines)'s deliveries, and your application sets it when it declares a scheduled run. It's absent when neither sent one. Requires TypeScript Agent SDK v0.3.280 or later.
+`fireReason` says why a `scheduled-trigger` notification fired, as a short lowercase token such as `scheduled`, `manual`, `retry`, `catch_up`, or `api`. Anthropic servers set it on a [cloud scheduled task](/docs/en/routines)'s deliveries, and your application sets it when it declares a scheduled run. It's absent when neither sent one. Requires TypeScript Agent SDK v0.3.280 or later.
 
 A background task can run more than once under the same `task_id`, such as when Claude [resumes a subagent](/docs/en/agent-sdk/subagents#resume-subagents). Each run has its own [`run_id`](#sdktaskstartedmessage). When a run's notification reaches your session as a user message, `runId` on that message's `task-notification` origin holds the same value. A notification can arrive after the task's next run has started, and it still carries the earlier run's ID. To tell which run a turn belongs to, compare `runId`, not `task_id`. Requires TypeScript Agent SDK v0.3.292 or later.
 
@@ -2229,7 +2259,7 @@ If your application runs prompts on its own schedule, declare each run so Claude
 
 ### Peer origin fields
 
-A `peer` origin identifies which agent sent the message: an in-process [teammate](/docs/en/agent-teams) sending to `main` with `SendMessage`, or a [cross-session peer](/docs/en/cross-session-messaging), another of your Claude Code sessions. Cross-session peers require Claude Code v2.1.224 or later on macOS and Linux; see [cross-session messaging availability](/docs/en/cross-session-messaging#availability) for the native Windows requirement. A cross-session peer can run on the same machine, or on [another of your machines](/docs/en/cross-session-messaging#message-sessions-on-other-machines) or [in the cloud](/docs/en/claude-code-on-the-web) when its message arrives through Remote Control. The two kinds of sender fill the fields differently:
+A `peer` origin identifies which agent sent the message: an in-process [teammate](/docs/en/agent-teams) sending to `main` with `SendMessage`, or a [cross-session peer](/docs/en/cross-session-messaging), another of your Claude Code sessions. Cross-session peers require Claude Code v2.1.224 or later on macOS and Linux; see [cross-session messaging availability](/docs/en/cross-session-messaging#availability) for the native Windows requirement. A cross-session peer can run on the same machine, or on [another of your machines](/docs/en/cross-session-messaging#message-sessions-on-other-machines) when its message arrives through [Remote Control](/docs/en/remote-control).
 
 * `from`: the teammate's name, or the sender address for a cross-session peer. For a [one-way cross-machine message](/docs/en/cross-session-messaging#message-sessions-on-other-machines), the sender has no reply address and `from` is `"unknown"`. The value is sender-authored; `verifiedPeerPid` is the verified identity.
 * `fromMode`: the sending session's permission class, `bypass` or `prompting`, declared by a host that relays a peer message between your sessions, such as the [desktop app](/docs/en/desktop#work-across-sessions). Claude Code reads it in the receiving session when it applies the [inbound controls](/docs/en/cross-session-messaging#control-inbound-messages). Requires Agent SDK v0.3.234 or later.
@@ -3033,9 +3063,9 @@ type ToolInputSchemas =
 
 **Tool name:** `Agent`. The previous name `Task` is still accepted as an alias, and the `tools` array in the [`SDKSystemMessage`](#sdksystemmessage) init message currently lists this tool as `Task` for backward compatibility.
 
-<Note>
-  The `mode` field is deprecated and ignored on Claude Code v2.1.212 or later. A subagent runs in either the parent session's permission mode or its definition's [`permissionMode`](#agentdefinition), and the [subagent inheritance rules](/docs/en/agent-sdk/permissions#available-modes) decide which.
-</Note>
+> [!NOTE]
+>
+> The `mode` field is deprecated and ignored on Claude Code v2.1.212 or later. A subagent runs in either the parent session's permission mode or its definition's [`permissionMode`](#agentdefinition), and the [subagent inheritance rules](/docs/en/agent-sdk/permissions#available-modes) decide which.
 
 ```typescript theme={null}
 type AgentInput = {
@@ -3311,21 +3341,21 @@ type TodoWriteInput = {
 
 Creates and manages a structured task list for tracking progress.
 
-<Note>
-  The following tools are available by default only on Claude Opus 4.7, Claude Sonnet 4.6, Claude Haiku 4.5, and earlier models. On every other model, including model IDs Claude Code doesn't recognize, they aren't available unless you opt in:
-
-  * `TodoWrite`
-  * `TaskCreate`
-  * `TaskGet`
-  * `TaskUpdate`
-  * `TaskList`
-
-  Wherever the tools are available, Claude Code provides the four Task tools, or `TodoWrite` instead when you set `CLAUDE_CODE_ENABLE_TASKS=0`.
-
-  This default set applies in Claude Code v2.1.268 and later, which the TypeScript Agent SDK bundles from v0.3.268.
-
-  See [Model availability](/docs/en/agent-sdk/todo-tracking#model-availability) to opt in.
-</Note>
+> [!NOTE]
+>
+> The following tools are available by default only on Claude Opus 4.7, Claude Sonnet 4.6, Claude Haiku 4.5, and earlier models. On every other model, including model IDs Claude Code doesn't recognize, they aren't available unless you opt in:
+>
+> * `TodoWrite`
+> * `TaskCreate`
+> * `TaskGet`
+> * `TaskUpdate`
+> * `TaskList`
+>
+> Wherever the tools are available, Claude Code provides the four Task tools, or `TodoWrite` instead when you set `CLAUDE_CODE_ENABLE_TASKS=0`.
+>
+> This default set applies in Claude Code v2.1.268 and later, which the TypeScript Agent SDK bundles from v0.3.268.
+>
+> See [Model availability](/docs/en/agent-sdk/todo-tracking#model-availability) to opt in.
 
 ### TaskCreate
 
@@ -3475,7 +3505,7 @@ type CronCreateInput = {
 };
 ```
 
-Schedules a prompt to run on a 5-field cron schedule in local time. Set `recurring` to `false` to fire once at the next match. Jobs are session-scoped by default, and resuming with `--resume` or `--continue` restores jobs that haven't expired. See [Scheduled tasks](/docs/en/scheduled-tasks).
+Schedules a prompt to run on a 5-field cron schedule in local time. Set `recurring` to `false` to fire once at the next match. Jobs are session-scoped by default, and resuming with `--resume` or `--continue` restores jobs that haven't expired. See [Session-scoped scheduled tasks](/docs/en/scheduled-tasks).
 
 Setting `durable` to `true` requests persistence to `.claude/scheduled_tasks.json` so the job survives restarts. Durable scheduling isn't available in every session: when it isn't, Claude Code accepts `durable: true` but creates the job session-only. Read the output's `durable` field to see whether the job persisted.
 
@@ -3541,13 +3571,14 @@ type RemoteTriggerInput = {
 };
 ```
 
-Manages [Routines](/docs/en/routines), the scheduled and triggered Claude Code runs hosted in the cloud. This tool backs the `/schedule` command. `trigger_id` is required for the `get`, `update`, `run`, and `list_runs` actions. `body` is required for `create`, `update`, and `create_webhook_trigger`, and optional for `run`.
+Manages [cloud scheduled tasks](/docs/en/routines), formerly routines: the scheduled and triggered Claude Code runs hosted in the cloud. This tool backs the `/schedule` command. `trigger_id` is required for the `get`, `update`, `run`, and `list_runs` actions. `body` is required for `create`, `update`, and `create_webhook_trigger`, and optional for `run`.
 
-`create_webhook_trigger` attaches an event source to an existing routine, such as a [GitHub event](/docs/en/routines#add-a-github-trigger) that fires it. The `body` names the source, the events, and the routine to fire. Requires Claude Code v2.1.225 or later.
+`create_webhook_trigger`, `list_runs`, and `get_run_log` each require a minimum Claude Code version:
 
-`list_runs` lists a routine's recent runs, and `get_run_log` reads one run's log. `session_id` names the run to read, from a `list_runs` result, and `cursor` pages through either action's results. Both actions require Claude Code v2.1.227 or later.
+* **`create_webhook_trigger`**: attaches an event source to an existing scheduled task, such as a [GitHub event](/docs/en/routines#add-a-github-trigger) that fires it. The `body` names the source, the events, and the task to fire. Requires Claude Code v2.1.225 or later.
+* **`list_runs` and `get_run_log`**: `list_runs` lists a scheduled task's recent runs, and `get_run_log` reads one run's log. `session_id` names the run to read, from a `list_runs` result, and `cursor` pages through either action's results. Both actions require Claude Code v2.1.227 or later.
 
-This tool is available only when the session is authenticated with a claude.ai account on a plan with Routines enabled, and is absent when your organization's policy disables [cloud sessions](/docs/en/claude-code-on-the-web). On Claude Code v2.1.227 or later, the tool is also absent when an Owner has [turned off routines for the organization](/docs/en/routines#routines-are-disabled-by-your-organizations-policy). Before v2.1.227, a session with only the routines toggle turned off still showed the tool, and the server denied its calls.
+This tool is available only when the session is authenticated with a claude.ai account on a plan with cloud scheduled tasks enabled. It is absent when your organization's policy disables [cloud sessions](/docs/en/claude-code-on-the-web). On Claude Code v2.1.227 or later, the tool is also absent when an Owner has [turned off scheduled tasks for the organization](/docs/en/routines#routines-are-disabled-by-your-organizations-policy).
 
 ### PushNotification
 
@@ -4263,21 +4294,21 @@ type TodoWriteOutput = {
 
 Returns the previous and updated task lists.
 
-<Note>
-  The following tools are available by default only on Claude Opus 4.7, Claude Sonnet 4.6, Claude Haiku 4.5, and earlier models. On every other model, including model IDs Claude Code doesn't recognize, they aren't available unless you opt in:
-
-  * `TodoWrite`
-  * `TaskCreate`
-  * `TaskGet`
-  * `TaskUpdate`
-  * `TaskList`
-
-  Wherever the tools are available, Claude Code provides the four Task tools, or `TodoWrite` instead when you set `CLAUDE_CODE_ENABLE_TASKS=0`.
-
-  This default set applies in Claude Code v2.1.268 and later, which the TypeScript Agent SDK bundles from v0.3.268.
-
-  See [Model availability](/docs/en/agent-sdk/todo-tracking#model-availability) to opt in.
-</Note>
+> [!NOTE]
+>
+> The following tools are available by default only on Claude Opus 4.7, Claude Sonnet 4.6, Claude Haiku 4.5, and earlier models. On every other model, including model IDs Claude Code doesn't recognize, they aren't available unless you opt in:
+>
+> * `TodoWrite`
+> * `TaskCreate`
+> * `TaskGet`
+> * `TaskUpdate`
+> * `TaskList`
+>
+> Wherever the tools are available, Claude Code provides the four Task tools, or `TodoWrite` instead when you set `CLAUDE_CODE_ENABLE_TASKS=0`.
+>
+> This default set applies in Claude Code v2.1.268 and later, which the TypeScript Agent SDK bundles from v0.3.268.
+>
+> See [Model availability](/docs/en/agent-sdk/todo-tracking#model-availability) to opt in.
 
 ### TaskCreate
 
@@ -4835,9 +4866,9 @@ Available beta features that can be enabled via the `betas` option. See [Beta he
 type SdkBeta = "context-1m-2025-08-07";
 ```
 
-<Warning>
-  On the Claude API, the `context-1m-2025-08-07` beta is retired for Claude Sonnet 4.5 and Claude Sonnet 4. If you still pass it with either model, requests that exceed the standard 200K-token context window return an error, so remove it from `betas`. To run a session with a 1M-token context window, set `model` to a model that [runs with the 1M window by default](/docs/en/model-config#extended-context), such as `claude-sonnet-5-5` or `claude-opus-5-5`. For a model that reaches 1M only through its `[1m]` variant, append the suffix to the model ID, as in `claude-opus-4-6[1m]`.
-</Warning>
+> [!WARNING]
+>
+> On the Claude API, the `context-1m-2025-08-07` beta is retired for Claude Sonnet 4.5 and Claude Sonnet 4. If you still pass it with either model, requests that exceed the standard 200K-token context window return an error, so remove it from `betas`. To run a session with a 1M-token context window, set `model` to a model that [runs with the 1M window by default](/docs/en/model-config#extended-context), such as `claude-sonnet-5-5` or `claude-opus-5-5`. For a model that reaches 1M only through its `[1m]` variant, append the suffix to the model ID, as in `claude-opus-4-6[1m]`.
 
 ### `SlashCommand`
 
@@ -5174,11 +5205,11 @@ interface SpawnOptions {
 }
 ```
 
-<Note>
-  The `signal` field tells your spawn function when to tear down the process. Pass it as the `signal` option to Node's `spawn()`, or pass it to your VM or container teardown handler.
-
-  This signal does not fire the instant [`Options.abortController`](#options) aborts. The SDK first closes the process's stdin and waits about two seconds so the CLI can shut down cleanly, then aborts this signal. To react the moment the caller aborts instead, listen on your own `Options.abortController.signal`, which your spawn function can reference from its enclosing scope.
-</Note>
+> [!NOTE]
+>
+> The `signal` field tells your spawn function when to tear down the process. Pass it as the `signal` option to Node's `spawn()`, or pass it to your VM or container teardown handler.
+>
+> This signal does not fire the instant [`Options.abortController`](#options) aborts. The SDK first closes the process's stdin and waits about two seconds so the CLI can shut down cleanly, then aborts this signal. To react the moment the caller aborts instead, listen on your own `Options.abortController.signal`, which your spawn function can reference from its enclosing scope.
 
 ### `McpSetServersResult`
 
@@ -5725,11 +5756,11 @@ type SandboxSettings = {
 | `enableWeakerNestedSandbox` | `boolean` | `false` | Enable a weaker nested sandbox for compatibility |
 | `ripgrep` | `{ command: string; args?: string[] }` | `undefined` | Custom ripgrep binary configuration for sandbox environments |
 
-<Note>
-  The sandbox depends on platform support and, on Linux, tools like `bubblewrap` and `socat`. When `enabled` is `true` and the sandbox can't start, `query()` reports a `result` message with `subtype: "error_during_execution"` and the reason in `errors`. For a single message `query()` call, the SDK throws after yielding that error result, so wrap the loop in a try block to continue past it. See [Handle the result](/docs/en/agent-sdk/agent-loop#handle-the-result) for the error contract.
-
-  To run unsandboxed instead, set `failIfUnavailable: false`.
-</Note>
+> [!NOTE]
+>
+> The sandbox depends on platform support and, on Linux, tools like `bubblewrap` and `socat`. When `enabled` is `true` and the sandbox can't start, `query()` reports a `result` message with `subtype: "error_during_execution"` and the reason in `errors`. For a single message `query()` call, the SDK throws after yielding that error result, so wrap the loop in a try block to continue past it. See [Handle the result](/docs/en/agent-sdk/agent-loop#handle-the-result) for the error contract.
+>
+> To run unsandboxed instead, set `failIfUnavailable: false`.
 
 #### Example usage
 
@@ -5758,9 +5789,9 @@ try {
 }
 ```
 
-<Warning>
-  **Unix socket security:** The `allowUnixSockets` option can grant access to system services that reach outside the sandbox. For example, allowing `/var/run/docker.sock` effectively grants full host system access through the Docker API, bypassing sandbox isolation. Only allow Unix sockets that are strictly necessary and understand the security implications of each.
-</Warning>
+> [!WARNING]
+>
+> **Unix socket security:** The `allowUnixSockets` option can grant access to system services that reach outside the sandbox. For example, allowing `/var/run/docker.sock` effectively grants full host system access through the Docker API, bypassing sandbox isolation. Only allow Unix sockets that are strictly necessary and understand the security implications of each.
 
 ### `SandboxNetworkConfig`
 
@@ -5792,9 +5823,9 @@ type SandboxNetworkConfig = {
 | `httpProxyPort` | `number` | `undefined` | HTTP proxy port for network requests |
 | `socksProxyPort` | `number` | `undefined` | SOCKS proxy port for network requests |
 
-<Note>
-  The built-in sandbox proxy enforces `allowedDomains` based on the requested hostname and does not terminate or inspect TLS traffic, so techniques such as [domain fronting](https://en.wikipedia.org/wiki/Domain_fronting) can potentially bypass it. See [Sandboxing security limitations](/docs/en/sandboxing#security-limitations) for details and [Secure deployment](/docs/en/agent-sdk/secure-deployment#traffic-forwarding) for configuring a TLS-terminating proxy.
-</Note>
+> [!NOTE]
+>
+> The built-in sandbox proxy enforces `allowedDomains` based on the requested hostname and does not terminate or inspect TLS traffic, so techniques such as [domain fronting](https://en.wikipedia.org/wiki/Domain_fronting) can potentially bypass it. See [Sandboxing security limitations](/docs/en/sandboxing#security-limitations) for details and [Secure deployment](/docs/en/agent-sdk/secure-deployment#traffic-forwarding) for configuring a TLS-terminating proxy.
 
 ### `SandboxFilesystemConfig`
 
@@ -5855,11 +5886,11 @@ for await (const message of query({
 }
 ```
 
-<Warning>
-  Commands running with `dangerouslyDisableSandbox: true` have full system access. Ensure your `canUseTool` handler validates these requests carefully.
-
-  If `permissionMode` is set to `bypassPermissions` and `allowUnsandboxedCommands` is enabled, the model can autonomously execute commands outside the sandbox without approval prompts, apart from the [actions no mode auto-approves](/docs/en/permission-modes#actions-no-mode-auto-approves). This combination effectively allows the model to escape sandbox isolation silently.
-</Warning>
+> [!WARNING]
+>
+> Commands running with `dangerouslyDisableSandbox: true` have full system access. Ensure your `canUseTool` handler validates these requests carefully.
+>
+> If `permissionMode` is set to `bypassPermissions` and `allowUnsandboxedCommands` is enabled, the model can autonomously execute commands outside the sandbox without approval prompts, apart from the [actions no mode auto-approves](/docs/en/permission-modes#actions-no-mode-auto-approves). This combination effectively allows the model to escape sandbox isolation silently.
 
 ## See also
 

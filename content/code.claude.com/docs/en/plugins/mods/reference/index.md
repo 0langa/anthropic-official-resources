@@ -5,9 +5,9 @@ Complete reference for Claude Code mods: hooks module layout, events, mods API m
 
 Look up any event a [mod](/docs/en/plugins/mods/overview) can handle, mods API method it can call, or render site it can draw in. Entries cover the Claude Code CLI and the Desktop app as of v2.1.290, and the VS Code extension as of v2.1.299. Each entry gives the name and a one-line description, and links to the guide section that explains it where there is one.
 
-<Note>
-  The complete reference is Claude Code's [TypeScript declarations for mods](https://github.com/anthropics/claude-code/blob/main/mods/types/claude-code.d.ts), which describe every event, method, and element, with examples. The copy on GitHub can be older than the Claude Code version you have installed. When the two disagree, trust [the copy Claude Code writes for your version](/docs/en/plugins/mods/create#get-the-types-for-your-build).
-</Note>
+> [!NOTE]
+>
+> The complete reference is Claude Code's [TypeScript declarations for mods](https://github.com/anthropics/claude-code/blob/main/mods/types/claude-code.d.ts), which describe every event, method, and element, with examples. The copy on GitHub can be older than the Claude Code version you have installed. When the two disagree, trust [the copy Claude Code writes for your version](/docs/en/plugins/mods/create#get-the-types-for-your-build).
 
 ## Files
 
@@ -53,7 +53,7 @@ Tool events fire around each tool call Claude makes, from the description Claude
 | Event | Fires when | A hook can return |
 | :- | :- | :- |
 | [`tool.call`](/docs/en/plugins/mods/events#guard-or-change-a-tool-call) | A tool is about to run | `next(e)`, `{ deny: reason }`, or `{ result }` |
-| [`tool.check`](/docs/en/plugins/mods/events#where-settings-hooks-run-in-the-order) | Claude Code decides whether a tool call may run, after the `tool.call` and `PreToolUse` hooks. `next(e)` resolves to the decision the rules, the permission mode, and those hooks reached. | `{ decision }`, which is `allow`, `ask`, or `deny` |
+| [`tool.check`](/docs/en/plugins/mods/events#where-settings-hooks-run-in-the-order) | Claude Code decides whether a tool call may run, after the `tool.call` and `PreToolUse` hooks. `next(e)` resolves to the decision the rules, the permission mode, and those hooks reached. | `next(e)` or `{ decision }`, with `decision` set to `allow`, `ask`, or `deny` and an optional `reason` |
 | `tool.describe` | Once for each tool, when its description is first sent to Claude. A second time for an MCP tool when Claude loads it through [tool search](/docs/en/mcp#scale-with-mcp-tool-search), with `e.description` set to the text Claude reads for the loaded tool. | `{ description }`, optionally with `isDeferred` set to `true` to put the tool behind tool search or `false` to load it upfront |
 
 #### Agent and organization fields on `tool.check`
@@ -64,6 +64,12 @@ In a `tool.check` hook, read these fields to tell a subagent's call from the mai
 * **`e.ceiling`**: `ask` for a connector tool your organization set to `ask`, in [sessions where that setting reaches Claude Code](/docs/en/mcp#organization-controls-on-connector-tools)
 
 On `tool.check`, `e.agentId` and `e.ceiling` require Claude Code v2.1.290 or later.
+
+#### The `e.isReadOnly` field on `tool.check`
+
+In a `tool.check` hook, `e.isReadOnly` is `true` when the tool reports this call as read-only. Otherwise the field is absent, not `false`. The value is the tool's own report, so read [Check whether a tool call is read-only](/docs/en/plugins/mods/events#check-whether-a-tool-call-is-read-only) before you approve a call on this field alone.
+
+On `tool.check`, `e.isReadOnly` requires Claude Code v2.1.304 or later.
 
 ### Prompts and what Claude reads
 
@@ -263,7 +269,7 @@ Elements are the building blocks of a tree a `ui.render` hook returns, and you g
 | `Svg` | An SVG document, up to 131,072 characters | | ✓ | ✓ |
 | [`Client`](/docs/en/plugins/mods/interface#build-a-tree-from-elements) | `module`, `key` | ✓ | ✓ | |
 | [`Raster`](/docs/en/plugins/mods/interface#draw-a-grid-of-colored-cells) | `key`, `columns` up to 512, `rows` up to 256, `cells`. See [Draw a grid of colored cells](/docs/en/plugins/mods/interface#draw-a-grid-of-colored-cells). | ✓ | | |
-| `Image` | PNG or RGBA bytes up to 2 MiB, or a file path, `columns` and `rows` up to 255, and `alt` text. | ✓ | | |
+| `Image` | PNG or RGBA bytes up to 2 MiB, or a file path, `columns` and `rows` up to 255, and `alt` text. See [which terminals draw it](/docs/en/plugins/mods/gallery#image-and-client). | ✓ | | |
 
 More `Button` rules: `action` names one of Claude Code's own [keybinding actions](/docs/en/keybindings), and the user's binding for it presses the button when that binding is a chord or a modified key. A digit `hotkey` on a button in the band also fires when the user types that digit alone into an empty prompt and pauses. When two buttons in one drawing name the same `hotkey`, the later one gets it. `autoFocus` accepts only `true` on any control, so omit the prop to leave it off.
 
@@ -366,7 +372,7 @@ These are the settings and environment variables that affect mods. The Where col
 | :- | :- | :- |
 | `CLAUDE_CODE_PLUGIN_DIRS` | Environment, or `env` in `~/.claude/settings.json` | Plugin directories to load as `--plugin-dir` does, for apps you can't pass a flag to. Absolute paths separated by `:`, or `;` on Windows. |
 | `CLAUDE_CODE_PLUGIN_DIR_WATCH` | Environment | `1` makes a long-running non-interactive session reload `--plugin-dir` mods on save |
-| `prependPlugins`, `appendPlugins` | Managed settings. User settings only on a machine with no managed settings, for a user who isn't signed in with a Team or Enterprise plan. | Lists of plugin ids, such as `acme-guard@acme-tools`. Mods in `prependPlugins` run before every mod a user installs, and mods in `appendPlugins` run after, in the listed order. See [The order mods run in](/docs/en/plugins/mods/events#the-order-mods-run-in). |
+| `prependPlugins`, `appendPlugins` | Managed settings. User settings only on a machine with no managed settings, in a session whose credential isn't a Team or Enterprise `/login`. | Lists of plugin ids, such as `acme-guard@acme-tools`. Mods in `prependPlugins` run before every mod a user installs, and mods in `appendPlugins` run after, in the listed order. See [The order mods run in](/docs/en/plugins/mods/events#the-order-mods-run-in). |
 | `allowManagedModsOnly` | Managed settings, as an [option on the built-in guard](/docs/en/plugins/mods/admin#set-options-on-the-built-in-guard) | Only mods that [count as your organization's](/docs/en/plugins/mods/admin#install-your-organizations-mods), and mods built into Claude Code, run their hooks. Users' settings hooks keep running. |
 | `allowModsToOverrideDenyRules` | Managed settings, as an [option on the built-in guard](/docs/en/plugins/mods/admin#set-options-on-the-built-in-guard) | Lets a mod a user installed approve a tool call that a `deny` rule refuses |
 | `allowManagedHooksOnly` | Managed settings | Blocks hooks and installed mods that aren't your organization's. See [what keeps running](/docs/en/settings-reference#what-runs-under-allowmanagedhooksonly). |
@@ -374,7 +380,9 @@ These are the settings and environment variables that affect mods. The Where col
 | `disableSideloadFlags` | Managed settings | Rejects `--plugin-dir` and `--plugin-url` at startup |
 | `pluginConfigs` | User or managed settings | Holds `userConfig` values for a mod, keyed by the plugin's id, such as `acme-guard@acme-tools`, or its name and `@inline`, such as `first-mod@inline`, for one loaded with `--plugin-dir` |
 
-`sec-default@builtin` is a guard built into Claude Code, listed as `cc-plugin-sec-default` in `/plugin` and the debug log. It loads ahead of every mod a person installs on a machine with managed settings, or for a user signed in with a Team or Enterprise plan. If managed `prependPlugins` is set, the guard loads only when that list names it, at the position listed. Its source is in the [`mods/sec-default` directory of the Claude Code repository](https://github.com/anthropics/claude-code/tree/main/mods/sec-default).
+`sec-default@builtin` is a guard built into Claude Code, listed as `cc-plugin-sec-default` in `/plugin` and the debug log. It loads ahead of every mod a person installs on a machine with managed settings, or in a session whose credential is a Team or Enterprise [`/login`](/docs/en/authentication#authentication-precedence). If managed `prependPlugins` is set, the guard loads only when that list names it, at the position listed.
+
+Its source is in the [`mods/sec-default` directory of the Claude Code repository](https://github.com/anthropics/claude-code/tree/main/mods/sec-default).
 
 ## Commands
 

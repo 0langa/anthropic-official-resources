@@ -3,17 +3,15 @@ Source: https://code.claude.com/docs/en/claude-platform-on-aws
 
 Configure Claude Code to use the Anthropic-operated Claude API with AWS authentication, IAM access control, and AWS Marketplace billing.
 
-<Experiment />
-
 Claude Platform on AWS is the Anthropic-operated Claude API with AWS authentication, IAM access control, and AWS Marketplace billing. Requests reach Anthropic's API directly, so you get the same models and API features as the [Claude API](https://platform.claude.com/docs) on the same release schedule. You authenticate with AWS credentials or a workspace API key, and you pay through AWS Marketplace.
 
 Client-side features that Claude Code turns on through Anthropic's feature-flag service are off by default, and the [advisor tool](/docs/en/advisor) isn't available. See the [feature availability matrix](/docs/en/feature-availability#summary-by-provider) for the full list.
 
 Use this guide to point Claude Code at a workspace you've already provisioned through Claude Platform on AWS. For the AWS subscription and workspace setup that comes before this, see the [Claude Platform on AWS documentation](https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws).
 
-<Note>
-  Subscribing through AWS Marketplace provisions a new Anthropic organization tied to your AWS account. This organization is separate from any organization you already have with Anthropic, and credentials don't transfer between them. Use the workspace ID and API keys from the AWS-linked organization, not from a pre-existing Claude Console account.
-</Note>
+> [!NOTE]
+>
+> Subscribing through AWS Marketplace provisions a new Anthropic organization tied to your AWS account. This organization is separate from any organization you already have with Anthropic, and credentials don't transfer between them. Use the workspace ID and API keys from the AWS-linked organization, not from a pre-existing Claude Console account.
 
 ## Prerequisites
 
@@ -70,9 +68,9 @@ The key is sent as `x-api-key` and takes precedence over SigV4, so any AWS crede
 
 Treat workspace API keys like any other production credential. The [user settings file](/docs/en/settings) `env` block is a convenient way to scope the key to your machine without exporting it globally.
 
-<Note>
-  The `/login` and `/logout` commands don't sign you into a claude.ai subscription for Claude Platform on AWS. Authentication runs through your AWS credentials or workspace API key.
-</Note>
+> [!NOTE]
+>
+> The `/login` and `/logout` commands don't sign you into a claude.ai subscription for Claude Platform on AWS. Authentication runs through your AWS credentials or workspace API key.
 
 ### 2. Configure Claude Code
 

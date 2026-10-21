@@ -1,18 +1,41 @@
-Announcements
+### Chapter 04: Product and API updates
 
 # Introducing Claude Opus 4.6
 
-Feb 5, 2026
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FdPn3GBI8lII%2Fsddefault.jpg&w=3840&q=75)
 
-![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F4zrzovbb%2Fwebsite%2F5ac72c2c6509b4b6c41ac8f742636fe123b0ba1a-1920x1080.png&w=3840&q=75)
+- Published
+
+  Feb 5, 2026
+- Category
+
+  [Models](https://www.anthropic.com/news/models)
+- Topics
+
+  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+
+Related articles
+
+- Frontier Red Team
+
+  Jun 8, 2026
+
+  [Measuring LLMs’ impact on N-day exploits](https://www.anthropic.com/research/n-days)
+
+[View more](https://www.anthropic.com/search?topic=claude-opus)
 
 We’re upgrading our smartest model.
 
-The new Claude Opus 4.6 improves on its predecessor’s coding skills. It plans more carefully, sustains agentic tasks for longer, can operate more reliably in larger codebases, and has better code review and debugging skills to catch its own mistakes. And, in a first for our Opus-class models, Opus 4.6 features a 1M token context window in beta1.
+The new Claude Opus 4.6 improves on its predecessor’s coding skills. It plans more carefully, sustains agentic tasks for longer, can operate more reliably in larger codebases, and has better code review and debugging skills to catch its own mistakes. And, in a first for our Opus-class models, Opus 4.6 features a 1M token context window in beta[1](https://www.anthropic.com/news/claude-opus-4-6).
 
 Opus 4.6 can also apply its improved abilities to a range of everyday work tasks: running financial analyses, doing research, and using and creating documents, spreadsheets, and presentations. Within [Cowork](https://claude.com/blog/cowork-research-preview), where Claude can multitask autonomously, Opus 4.6 can put all these skills to work on your behalf.
 
-The model’s performance is state-of-the-art on several evaluations. For example, it achieves the highest score on the agentic coding evaluation [Terminal-Bench 2.0](https://www.tbench.ai/news/announcement-2-0) and leads all other frontier models on [Humanity’s Last Exam](https://agi.safe.ai/), a complex multidisciplinary reasoning test. On [GDPval-AA](https://artificialanalysis.ai/evaluations/gdpval-aa)—an evaluation of performance on economically valuable knowledge work tasks in finance, legal, and other domains2—Opus 4.6 outperforms the industry’s next-best model (OpenAI’s GPT-5.2) by around 144 Elo points,3 and its own predecessor (Claude Opus 4.5) by 190 points. Opus 4.6 also performs better than any other model on [BrowseComp](https://openai.com/index/browsecomp/), which measures a model’s ability to locate hard-to-find information online.
+The model’s performance is state-of-the-art on several evaluations. For example, it achieves the highest score on the agentic coding evaluation [Terminal-Bench 2.0](https://www.tbench.ai/news/announcement-2-0) and leads all other frontier models on [Humanity’s Last Exam](https://agi.safe.ai/), a complex multidisciplinary reasoning test. On [GDPval-AA](https://artificialanalysis.ai/evaluations/gdpval-aa)—an evaluation of performance on economically valuable knowledge work tasks in finance, legal, and other domains[2](https://www.anthropic.com/news/claude-opus-4-6)—Opus 4.6 outperforms the industry’s next-best model (OpenAI’s GPT-5.2) by around 144 Elo points,[3](https://www.anthropic.com/news/claude-opus-4-6) and its own predecessor (Claude Opus 4.5) by 190 points. Opus 4.6 also performs better than any other model on [BrowseComp](https://openai.com/index/browsecomp/), which measures a model’s ability to locate hard-to-find information online.
 
 As we show in our extensive [system card](https://www.anthropic.com/claude-opus-4-6-system-card), Opus 4.6 also shows an overall safety profile as good as, or better than, any other frontier model in the industry, with low rates of misaligned behavior across safety evaluations.
 
@@ -38,9 +61,9 @@ In [Claude Code](https://claude.com/product/claude-code), you can now assemble [
 
 We’ve made substantial upgrades to [Claude in Excel](https://claude.com/claude-in-excel), and we’re releasing [Claude in PowerPoint](https://claude.com/claude-in-powerpoint) in a research preview. This makes Claude much more capable for everyday work.
 
-![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F4zrzovbb%2Fwebsite%2F810008fad362e0ba3c984c3de094f4527541bb89-3840x2160.png&w=3840&q=75)
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2ForTd3grSYsQ%2Fsddefault.jpg&w=3840&q=75)
 
-Claude Opus 4.6 is available today on [claude.ai](https://claude.ai/redirect/website.v1.5bba4bdb-61a1-45ea-a110-199e0e38c1a5), our API, and all major cloud platforms. If you’re a developer, use `claude-opus-4-6` via the [Claude API](https://platform.claude.com/docs/en/about-claude/models/overview). Pricing remains the same at $5/$25 per million tokens; for full details, see our [pricing page](https://claude.com/pricing).
+Claude Opus 4.6 is available today on [claude.ai](https://claude.ai/redirect/website.v1.137dc163-0072-48c0-a564-dee18b1086dc), our API, and all major cloud platforms. If you’re a developer, use `claude-opus-4-6` via the [Claude API](https://platform.claude.com/docs/en/about-claude/models/overview). Pricing remains the same at $5/$25 per million tokens; for full details, see our [pricing page](https://claude.com/pricing).
 
 We cover the model, our new product updates, our evaluations, and our extensive safety testing in depth below.
 
@@ -54,85 +77,169 @@ Here are some of the things our Early Access partners told us about Claude Opus 
 
 ![Notion logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/1add7d4281e08801657b1a2cfb75a0adce536010-128x64.svg)
 
-> Claude Opus 4.6 is the strongest model Anthropic has shipped. It takes complicated requests and actually follows through, breaking them into concrete steps, executing, and producing polished work even when the task is ambitious. For Notion users, it feels less like a tool and more like a capable collaborator.
+> “Claude Opus 4.6 is the strongest model Anthropic has shipped. It takes complicated requests and actually follows through, breaking them into concrete steps, executing, and producing polished work even when the task is ambitious. For Notion users, it feels less like a tool and more like a capable collaborator.”
+
+Sarah Sachs
+
+AI Lead, Notion
 
 ![GitHub logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/fc55f4db8afa5db479127fde5be3e492940f513d-94x64.svg)
 
-> Early testing shows Claude Opus 4.6 delivering on the complex, multi-step coding work developers face every day—especially agentic workflows that demand planning and tool calling. This starts unlocking long-horizon tasks at the frontier.
+> “Early testing shows Claude Opus 4.6 delivering on the complex, multi-step coding work developers face every day—especially agentic workflows that demand planning and tool calling. This starts unlocking long-horizon tasks at the frontier.”
+
+Mario Rodriguez
+
+Chief Product Officer, GitHub
 
 ![Replit logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/0504471eb7da85317c6def349d315e2f8be00b0f-127x64.svg)
 
-> Claude Opus 4.6 is a huge leap for agentic planning. It breaks complex tasks into independent subtasks, runs tools and subagents in parallel, and identifies blockers with real precision.
+> “Claude Opus 4.6 is a huge leap for agentic planning. It breaks complex tasks into independent subtasks, runs tools and subagents in parallel, and identifies blockers with real precision.”
+
+Michele Catasta
+
+President, Replit
 
 ![Asana logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/6d031c0893b24dd00e9f207c7635d6b91d809729-124x24.svg)
 
-> Claude Opus 4.6 is the best model we've tested yet. Its reasoning and planning capabilities have been exceptional at powering our AI Teammates. It's also a fantastic coding model – its ability to navigate a large codebase and identify the right changes to make is state of the art.
+> “Claude Opus 4.6 is the best model we've tested yet. Its reasoning and planning capabilities have been exceptional at powering our AI Teammates. It's also a fantastic coding model – its ability to navigate a large codebase and identify the right changes to make is state of the art.”
+
+Amritansh Raghav
+
+Interim CTO, Asana
 
 ![Cognition logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/ad249bca4e8e195e08764efc43ecbc586ca37482-143x64.svg)
 
-> Claude Opus 4.6 reasons through complex problems at a level we haven't seen before. It considers edge cases that other models miss and consistently lands on more elegant, well-considered solutions. We're particularly impressed with Opus 4.6 in Devin Review, where it's increased our bug catching rates.
+> “Claude Opus 4.6 reasons through complex problems at a level we haven't seen before. It considers edge cases that other models miss and consistently lands on more elegant, well-considered solutions. We're particularly impressed with Opus 4.6 in Devin Review, where it's increased our bug catching rates.”
+
+Scott Wu
+
+CEO, Cognition
 
 ![Windsurf logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/31f81aea37256a9c1600e17eb8916ac158443073-145x64.svg)
 
-> Claude Opus 4.6 feels noticeably better than Opus 4.5 in Windsurf, especially on tasks that require careful exploration like debugging and understanding unfamiliar codebases. We’ve noticed Opus 4.6 thinks longer, which pays off when deeper reasoning is needed.
+> “Claude Opus 4.6 feels noticeably better than Opus 4.5 in Windsurf, especially on tasks that require careful exploration like debugging and understanding unfamiliar codebases. We’ve noticed Opus 4.6 thinks longer, which pays off when deeper reasoning is needed.”
+
+Jeff Wang
+
+CEO, Windsurf
 
 ![Thomson Reuters logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/efe6b287384573de696a70288b0418b9b4c3eebe-222x64.svg)
 
-> Claude Opus 4.6 represents a meaningful leap in long-context performance. In our testing, we saw it handle much larger bodies of information with a level of consistency that strengthens how we design and deploy complex research workflows. Progress in this area gives us more powerful building blocks to deliver truly expert-grade systems professionals can trust.
+> “Claude Opus 4.6 represents a meaningful leap in long-context performance. In our testing, we saw it handle much larger bodies of information with a level of consistency that strengthens how we design and deploy complex research workflows. Progress in this area gives us more powerful building blocks to deliver truly expert-grade systems professionals can trust.”
+
+Joel Hron
+
+Chief Technology Officer, Thomson Reuters
 
 ![NBIM logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/5d27d5fd738921411bb1e39bc27c396c6c075b4b-157x38.svg)
 
-> Across 40 cybersecurity investigations, Claude Opus 4.6 produced the best results 38 of 40 times in a blind ranking against Claude 4.5 models. Each model ran end to end on the same agentic harness with up to 9 subagents and 100+ tool calls.
+> “Across 40 cybersecurity investigations, Claude Opus 4.6 produced the best results 38 of 40 times in a blind ranking against Claude 4.5 models. Each model ran end to end on the same agentic harness with up to 9 subagents and 100+ tool calls.”
+
+Stian Kirkeberg
+
+Head of AI & ML, NBIM
 
 ![Cursor logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f084c88e65466636019709c40cc477aadce2f718-151x64.svg)
 
-> Claude Opus 4.6 is the new frontier on long-running tasks from our internal benchmarks and testing. It's also been highly effective at reviewing code.
+> “Claude Opus 4.6 is the new frontier on long-running tasks from our internal benchmarks and testing. It's also been highly effective at reviewing code.”
+
+Michael Truell
+
+Co-founder & CEO, Cursor
 
 ![Harvey logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/6dfc3bd55cc5f9d5ebdd8d5437505ae4b8560412-120x64.svg)
 
-> Claude Opus 4.6 achieved the highest BigLaw Bench score of any Claude model at 90.2%. With 40% perfect scores and 84% above 0.8, it’s remarkably capable for legal reasoning.
+> “Claude Opus 4.6 achieved the highest BigLaw Bench score of any Claude model at 90.2%. With 40% perfect scores and 84% above 0.8, it’s remarkably capable for legal reasoning.”
+
+Niko Grupen
+
+Head of AI Research, Harvey
 
 ![Rakuten logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/73b380711885c6beb5270575119dbf31d7f71236-107x64.svg)
 
-> Claude Opus 4.6 autonomously closed 13 issues and assigned 12 issues to the right team members in a single day, managing a ~50-person organization across 6 repositories. It handled both product and organizational decisions while synthesizing context across multiple domains, and it knew when to escalate to a human.
+> “Claude Opus 4.6 autonomously closed 13 issues and assigned 12 issues to the right team members in a single day, managing a ~50-person organization across 6 repositories. It handled both product and organizational decisions while synthesizing context across multiple domains, and it knew when to escalate to a human.”
+
+Yusuke Kaji
+
+General Manager, AI, Rakuten
 
 ![Lovable logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/40a2a6a28afd8ac8fbf0e764b6bbf4ebf06a1977-133x64.svg)
 
-> Claude Opus 4.6 is an uplift in design quality. It works beautifully with our design systems and it’s more autonomous, which is core to Lovable’s values. People should be creating things that matter, not micromanaging AI.
+> “Claude Opus 4.6 is an uplift in design quality. It works beautifully with our design systems and it’s more autonomous, which is core to Lovable’s values. People should be creating things that matter, not micromanaging AI.”
+
+Fabian Hedin
+
+Co-founder, Lovable
 
 ![Box logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/bf162513ba017e72d4e07b0cd7683b86c4c5bc88-60x64.svg)
 
-> Claude Opus 4.6 excels in high-reasoning tasks like multi-source analysis across legal, financial, and technical content. Box’s eval showed a 10% lift in performance, reaching 68% vs. a 58% baseline, and near-perfect scores in technical domains.
+> “Claude Opus 4.6 excels in high-reasoning tasks like multi-source analysis across legal, financial, and technical content. Box’s eval showed a 10% lift in performance, reaching 68% vs. a 58% baseline, and near-perfect scores in technical domains.”
+
+Yashodha Bhavnani
+
+Head of AI, Box
 
 ![Figma logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/1d9e0d7a5760165244bba057a622513bb75cb65d-80x64.svg)
 
-> Claude Opus 4.6 generates complex, interactive apps and prototypes in Figma Make with an impressive creative range. The model translates detailed designs and multi-layered tasks into code on the first try, making it a powerful starting point for teams to explore and build ideas.
+> “Claude Opus 4.6 generates complex, interactive apps and prototypes in Figma Make with an impressive creative range. The model translates detailed designs and multi-layered tasks into code on the first try, making it a powerful starting point for teams to explore and build ideas.”
+
+Loredana Crisan
+
+Chief Design Officer, Figma
 
 ![Shopify logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f78eb8e663df313f53156d3cea8d7ad2801df313-148x64.svg)
 
-> Claude Opus 4.6 is the best Anthropic model we’ve tested. It understands intent with minimal prompting and went above and beyond, exploring and creating details I didn’t even know I wanted until I saw them. It felt like I was working with the model, not waiting on it.
+> “Claude Opus 4.6 is the best Anthropic model we’ve tested. It understands intent with minimal prompting and went above and beyond, exploring and creating details I didn’t even know I wanted until I saw them. It felt like I was working with the model, not waiting on it.”
+
+Paulo Arruda
+
+Staff Engineer, Shopify
 
 ![Bolt.new logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/b6ba30deda95060f1a9ff19cf03b184d36529a2a-92x64.svg)
 
-> Both hands-on testing and evals show Claude Opus 4.6 is a meaningful improvement for design systems and large codebases, use cases that drive enormous enterprise value. It also one-shotted a fully functional physics engine, handling a large multi-scope task in a single pass.
+> “Both hands-on testing and evals show Claude Opus 4.6 is a meaningful improvement for design systems and large codebases, use cases that drive enormous enterprise value. It also one-shotted a fully functional physics engine, handling a large multi-scope task in a single pass.”
+
+Eric Simons
+
+CEO, Bolt.new
 
 ![Ramp logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/04280ffcf9a88b0f6fa85f2437b46102c8cb35e6-118x64.svg)
 
-> Claude Opus 4.6 is the biggest leap I’ve seen in months. I’m more comfortable giving it a sequence of tasks across the stack and letting it run. It’s smart enough to use subagents for the individual pieces.
+> “Claude Opus 4.6 is the biggest leap I’ve seen in months. I’m more comfortable giving it a sequence of tasks across the stack and letting it run. It’s smart enough to use subagents for the individual pieces.”
+
+Jerry Tsui
+
+Staff Software Engineer, Ramp
 
 ![SentinelOne logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/6e6ecfcd7c8ed79ef1c46cc27c4ecc4ab1ca7490-219x42.svg)
 
-> Claude Opus 4.6 handled a multi-million-line codebase migration like a senior engineer. It planned up front, adapted its strategy as it learned, and finished in half the time.
+> “Claude Opus 4.6 handled a multi-million-line codebase migration like a senior engineer. It planned up front, adapted its strategy as it learned, and finished in half the time.”
+
+Gregor Stewart
+
+Chief AI Officer, SentinelOne
 
 ![Vercel logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/50f4e92c08e3640d95f500c7126f78e109558c9b-120x64.svg)
 
-> We only ship models in v0 when developers will genuinely feel the difference. Claude Opus 4.6 passed that bar with ease. Its frontier-level reasoning, especially with edge cases, helps v0 to deliver on our number-one aim: to let anyone elevate their ideas from prototype to production.
+> “We only ship models in v0 when developers will genuinely feel the difference. Claude Opus 4.6 passed that bar with ease. Its frontier-level reasoning, especially with edge cases, helps v0 to deliver on our number-one aim: to let anyone elevate their ideas from prototype to production.”
+
+Zeb Hermann
+
+General Manager, v0, Vercel
 
 ![Shortcut.ai logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/b7787c9ab5714b0c1789da32a3a52daba81f6bef-63x64.svg)
 
-> The performance jump with Claude Opus 4.6 feels almost unbelievable. Real-world tasks that were challenging for Opus [4.5] suddenly became easy. This feels like a watershed moment for spreadsheet agents on Shortcut.
+> “The performance jump with Claude Opus 4.6 feels almost unbelievable. Real-world tasks that were challenging for Opus [4.5] suddenly became easy. This feels like a watershed moment for spreadsheet agents on Shortcut.”
 
-01 / 20
+Nico Christie
+
+Co-founder & CTO, Shortcut.ai
+
+01
+
+/
+
+20
 
 ## Evaluating Claude Opus 4.6
 
@@ -219,13 +326,13 @@ We’ve introduced [agent teams](https://code.claude.com/docs/en/agent-teams) in
 
 Claude now also works better with the office tools you already use. Claude in Excel handles long-running and harder tasks with improved performance, and can plan before acting, ingest unstructured data and infer the right structure without guidance, and handle multi-step changes in one pass. Pair that with Claude in PowerPoint, and you can first process and structure your data in Excel, then bring it to life visually in PowerPoint. Claude reads your layouts, fonts, and slide masters to stay on brand, whether you’re building from a template or generating a full deck from a description. Claude in PowerPoint is now available in research preview for Max, Team, and Enterprise plans.
 
-#### Footnotes
+## Footnotes
 
-[1] The 1M token context window is currently available in beta on the Claude Developer Platform only.
+01The 1M token context window is currently available in beta on the Claude Developer Platform only.
 
-[2] Run independently by Artificial Analysis. [See here](https://artificialanalysis.ai/methodology/intelligence-benchmarking) for full methodological details.
+02Run independently by Artificial Analysis. [See here](https://artificialanalysis.ai/methodology/intelligence-benchmarking) for full methodological details.
 
-[3] This translates into Claude Opus 4.6 obtaining a higher score than GPT-5.2 on this eval approximately 70% of the time (where 50% of the time would have implied parity in the scores).
+03This translates into Claude Opus 4.6 obtaining a higher score than GPT-5.2 on this eval approximately 70% of the time (where 50% of the time would have implied parity in the scores).
 
 - For GPT-5.2 and Gemini 3 Pro models, we compared the best reported model version in the charts and table.
 - **Terminal-Bench 2.0**: We report both scores reproduced on our infrastructure and published scores from other labs. All runs used the Terminus-2 harness, except for OpenAI’s Codex CLI. All experiments used 1× guaranteed / 3× ceiling resource allocation and 5–15 samples per task across staggered batches. See system card for details.
@@ -238,23 +345,3 @@ Claude now also works better with the office tools you already use. Claude in Ex
 - **OpenRCA**: For each failure case in OpenRCA, Claude receives 1 point if all generated root-cause elements match the ground-truth ones, and 0 points if any mismatch is identified. The overall accuracy is the average score across all failure cases. The benchmark was run on the benchmark author’s harness, graded using their official methodology, and has been submitted for official verification.
 
 [Feb 23, 2026] Updated reported score for Opus 4.6 for HLE with tools (53.1% to 53.0%). The update was caused by running an improved cheating detection pipeline which flagged 3 additional instances of cheating that our original pipeline had missed.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

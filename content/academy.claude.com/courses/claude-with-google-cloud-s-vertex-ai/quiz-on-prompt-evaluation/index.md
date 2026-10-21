@@ -1,4 +1,4 @@
-Quiz 2 of 9 · Claude with Google Cloud's Vertex AIQuiz on prompt evaluation
+Quiz 2 of 9 · Claude on Google CloudQuiz on prompt evaluation
 
 # Quiz on prompt evaluation
 

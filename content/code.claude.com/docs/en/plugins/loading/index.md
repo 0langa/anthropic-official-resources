@@ -5,12 +5,12 @@ Trace where Claude Code loads each plugin from, which settings file decides whet
 
 Use this page when a plugin didn't load, loaded a different copy than you expected, or didn't pick up an update, and you want to see which source, settings scope, or file on disk decided that. It gives the rules Claude Code applies when a session starts and each time you run `/reload-plugins`. You can also ask Claude to read this page and diagnose your setup.
 
-<Note>
-  These cases are covered on other pages:
-
-  * **Install, enable, disable, and update steps**: see [Install and manage plugins](/docs/en/plugins/install)
-  * **You have a specific error message**: see [Troubleshoot plugins](/docs/en/plugins/troubleshooting)
-</Note>
+> [!NOTE]
+>
+> These cases are covered on other pages:
+>
+> * **Install, enable, disable, and update steps**: see [Install and manage plugins](/docs/en/plugins/install)
+> * **You have a specific error message**: see [Troubleshoot plugins](/docs/en/plugins/troubleshooting)
 
 Start with [Check which stage a plugin reached](#check-which-stage-a-plugin-reached) for the three stages an installed plugin passes through, or go to the section that matches what you're seeing:
 

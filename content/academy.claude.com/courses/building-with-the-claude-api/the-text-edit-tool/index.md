@@ -21,7 +21,6 @@ The text editor tool provides Claude with a comprehensive set of file manipulati
 - Replace text in a file
 - Create new files
 - Insert text at specific lines in a file
-- Undo recent edits to files
 
 ![The text editor tool is built into Claude, but only its schema, so you provide the implementation of the actual tool.](https://academy.claude.com/assets/media/e93b28d26689f660d471543d9ed35984562ffe4026dd43106fc3751d68443226.png)
 
@@ -43,15 +42,15 @@ python
 
 ```
 def get_text_edit_schema(model):
-    if model.startswith("claude-3-7-sonnet"):
+    if model.startswith("claude-3"):
         return {
             "type": "text_editor_20250124",
             "name": "str_replace_editor",
         }
-    elif model.startswith("claude-3-5-sonnet"):
+    else:
         return {
-            "type": "text_editor_20241022", 
-            "name": "str_replace_editor",
+            "type": "text_editor_20250728",
+            "name": "str_replace_based_edit_tool",
         }
 ```
 

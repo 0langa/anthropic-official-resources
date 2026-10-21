@@ -10,7 +10,7 @@ ProductAll
 
 RoleAll
 
-308 resources
+309 resources
 
 [## AI capabilities and limitations
 
@@ -72,7 +72,11 @@ Course·12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-
 
 Run long, hands-off Claude Code sessions you can trust: steer, configure, automate, and verify
 
-Course·9 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/claude-code-in-action)[## Claude Platform 101
+Course·9 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/claude-code-in-action)[## Claude on Google Cloud
+
+Working with Anthropic models through Google Cloud's Agent Platform: setup, prompting, tool use, RAG, agents, and production deployment patterns.
+
+Course·66 lessons · 9 quizzes·8.5 hr](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai)[## Claude Platform 101
 
 This course teaches developers to build on the Claude Platform from the ground up, whether you've made a few API calls or have only used Claude through a chat window.
 
@@ -80,11 +84,7 @@ Course·13 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-
 
 Integrating and deploying Claude through Amazon Bedrock: API implementation, tool use, RAG pipelines, agents, and production-ready applications on AWS.
 
-Course·65 lessons · 8 quizzes·8 hr](https://academy.claude.com/courses/claude-with-amazon-bedrock)[## Claude with Google Cloud's Vertex AI
-
-Working with Anthropic models through Google Cloud's Vertex AI: setup, prompting, tool use, RAG, agents, and production deployment patterns.
-
-Course·66 lessons · 9 quizzes·8.5 hr](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai)[## Deploying Claude Enterprise with confidence: The five decisions that shape your rollout
+Course·65 lessons · 8 quizzes·8 hr](https://academy.claude.com/courses/claude-with-amazon-bedrock)[## Deploying Claude Enterprise with confidence: The five decisions that shape your rollout
 
 Make the five decisions that shape how Claude works for your organization — Structure & Identity, Access, Governance, Spend, Visibility — and record them in the rollout plan you keep.
 
@@ -187,7 +187,11 @@ An agentic coding tool that lives in your terminal. Learn what Claude Code is, h
 
 Run long, hands-off Claude Code sessions you can trust: steer, configure, automate, and verify
 
-9 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/claude-code-in-action)[## Claude Platform 101
+9 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/claude-code-in-action)[## Claude on Google Cloud
+
+Working with Anthropic models through Google Cloud's Agent Platform: setup, prompting, tool use, RAG, agents, and production deployment patterns.
+
+66 lessons · 9 quizzes·8.5 hr](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai)[## Claude Platform 101
 
 This course teaches developers to build on the Claude Platform from the ground up, whether you've made a few API calls or have only used Claude through a chat window.
 
@@ -195,11 +199,7 @@ This course teaches developers to build on the Claude Platform from the ground u
 
 Integrating and deploying Claude through Amazon Bedrock: API implementation, tool use, RAG pipelines, agents, and production-ready applications on AWS.
 
-65 lessons · 8 quizzes·8 hr](https://academy.claude.com/courses/claude-with-amazon-bedrock)[## Claude with Google Cloud's Vertex AI
-
-Working with Anthropic models through Google Cloud's Vertex AI: setup, prompting, tool use, RAG, agents, and production deployment patterns.
-
-66 lessons · 9 quizzes·8.5 hr](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai)[## Deploying Claude Enterprise with confidence: The five decisions that shape your rollout
+65 lessons · 8 quizzes·8 hr](https://academy.claude.com/courses/claude-with-amazon-bedrock)[## Deploying Claude Enterprise with confidence: The five decisions that shape your rollout
 
 Make the five decisions that shape how Claude works for your organization — Structure & Identity, Access, Governance, Spend, Visibility — and record them in the rollout plan you keep.
 
@@ -240,7 +240,7 @@ ProductAll
 
 RoleAll
 
-124 tutorials
+125 tutorials
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-blskv34c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bv9w6wt2.png)
 
@@ -266,7 +266,13 @@ Anthropic's AI Fluency Index measures 11 observable behaviors across thousands o
 
 How to work with Claude Tag across your org: setting up where it has context, writing a task that goes well, and moving from one-off requests to work it runs on its own.
 
-10 min](https://academy.claude.com/tutorials/best-practices-using-claude-tag)[![](https://academy.claude.com/assets/v1/thumbnail.light-hwgnqzc8.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-i04sxjy4.png)
+10 min](https://academy.claude.com/tutorials/best-practices-using-claude-tag)[![](https://academy.claude.com/assets/v1/thumbnail.light-oi1gl21n.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nqg67vsk.png)
+
+## Build and share tools in Claude with custom artifacts
+
+Ask Claude for an interactive page that fits your work, one that can save what your team enters.
+
+9 min](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-hwgnqzc8.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-i04sxjy4.png)
 
 ## Building a PowerPoint with Claude
 
@@ -348,7 +354,13 @@ Claude for Word works with you directly in your document. This video shows how t
 
 Pair your Slack workspace with Claude Tag and decide what systems it can access. This tutorial walks you through the setup flow, covers post-launch oversight, and links to the full documentation for each step.
 
-25 min](https://academy.claude.com/tutorials/claude-tag-admin-guide)[![](https://academy.claude.com/assets/v1/thumbnail.light-ctra72zy.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ktlv28wr.png)
+25 min](https://academy.claude.com/tutorials/claude-tag-admin-guide)[![](https://academy.claude.com/assets/v1/thumbnail.light-bbsyvsy0.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cyg3k7ot.png)
+
+## Collaborate with your team in Claude artifacts
+
+Build a doc, a deck, a design, a dashboard, or an animation with Claude, then share it so your team can work on it too.
+
+8 min](https://academy.claude.com/tutorials/intro-to-artifacts)[![](https://academy.claude.com/assets/v1/thumbnail.light-ctra72zy.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ktlv28wr.png)
 
 ## Configuration and multi-file skills
 
@@ -372,19 +384,7 @@ Learn how Claude creates and edits files directly including spreadsheets, docume
 
 A step-by-step walkthrough of creating your first skill in Claude Code, from setup to execution.
 
-4 min](https://academy.claude.com/tutorials/creating-your-first-skill)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
-
-## Customize Claude Cowork
-
-The set up that makes Claude Cowork specific to your work or team.
-
-7 min](https://academy.claude.com/tutorials/customize-claude-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-g4p7r6v4.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k4i3k0hw.png)
-
-## Delegating and scheduling tasks in Claude Cowork
-
-Claude Cowork lets you delegate complete, multi-step work. You can work alongside Claude when you want to provide input, or let tasks run on a schedule while you focus on other priorities. This video shows how to prepare for a major call by pulling context from your calendar, Slack, email, and past meeting notes. It also demonstrates how to set up recurring tasks that run automatically on your preferred schedule.
-
-4 min](https://academy.claude.com/tutorials/delegating-and-scheduling-tasks-in-claude-cowork)Load more
+4 min](https://academy.claude.com/tutorials/creating-your-first-skill)Load more
 
 
 ## Use cases

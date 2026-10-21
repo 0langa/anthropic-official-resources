@@ -1,29 +1,28 @@
-InterpretabilityResearch
-
-# Reflections on Qualitative Research
-
-Mar 8, 2024
+# Reflections on qualitative research
 
 [Read Transformer Circuits](https://transformer-circuits.pub/2024/qualitative-essay/index.html)
 
+![Reflections on qualitative research](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F07f7f1396d0e831b25e3fafda945c1f496c5248f-2000x1125.jpg&w=1920&q=75)
+
+- Published
+
+  Mar 8, 2024
+- Team
+
+  [Interpretability](https://www.anthropic.com/research/team/interpretability)
+- Topics
+
+  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+
+Related articles
+
+- Interpretability
+
+  Feb 20, 2025
+
+  [Insights on crosscoder model diffing](https://www.anthropic.com/research/crosscoder-model-diffing)
+
+[View more](https://www.anthropic.com/search?topic=interpretability)
+
 This note offers some opinionated thoughts on why interpretability research may have qualitative aspects be more central than we're used to in other fields. It also aims to describe some heuristics for research taste in qualitative work.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)

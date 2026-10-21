@@ -41,6 +41,10 @@ This course was created in partnership between Anthropic and CodePath. Anthropic
 
 ![CodePath](https://academy.claude.com/assets/media/ebf10e1a800a305503866ea3a98a14621bbd740172178e0b4c516e62804a7ff0.png)
 
+#### Acknowledgments and license
+
+*Copyright 2026 Anthropic. Created in partnership with CodePath. Released under the CC BY-NC-SA 4.0 license.*
+
 ## Inside the course
 
 ### Introduction and AI Fluency framework

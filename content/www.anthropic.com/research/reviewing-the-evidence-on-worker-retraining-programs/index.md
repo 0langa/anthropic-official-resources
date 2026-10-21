@@ -1,12 +1,31 @@
-Economics
-
 # Reviewing the evidence on worker retraining programs
-
-Aug 12, 2026
 
 [Download the report](https://www-cdn.anthropic.com/169e4adceebbab066b91e0b45127d73cb2bda24b/WorkerRetraining.pdf)
 
-![Reviewing the evidence on worker retraining programs](https://www-cdn.anthropic.com/images/4zrzovbb/website/f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)
+![Reviewing the evidence on worker retraining programs](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F46eef84db666a74a4013b4652d44cec7c46a3016-2000x1125.jpg&w=1920&q=75)
+
+- Published
+
+  Aug 12, 2026
+- Team
+
+  [Economics](https://www.anthropic.com/research/team/economics)
+- Topics
+
+  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+  - [Education](https://www.anthropic.com/search?topic=education)
+  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)See more...
+
+Related articles
+
+- Policy
+
+  Aug 11, 2026
+
+  [Supporting Governor Abbott’s Calls for Responsible Data Center Development](https://www.anthropic.com/news/tx-data-center-support)
+
+[View more](https://www.anthropic.com/search?topic=labor-market)
 
 We're sharing a review of the evidence on worker retraining programs, coauthored by independent researcher David Roodman and Anthropic's Maxim Massenkoff.
 
@@ -20,9 +39,13 @@ A small set of “sector programs”—programs that partner with employers in a
 
 Their central recommendation is to invest now in demonstrating, evaluating, and scaling the most promising programs, including through an effort to rapidly expand a leading program for a specific group of workers and rigorously measure the results. Our [Economic Futures Research Fund](https://www.anthropic.com/news/economic-futures-research-fund-agenda) is designed to fund investigations into questions like these.
 
-[Read the report here](https://cdn.sanity.io/files/4zrzovbb/website/169e4adceebbab066b91e0b45127d73cb2bda24b.pdf).
+[Read the report here](https://www-cdn.anthropic.com/files/4zrzovbb/website/169e4adceebbab066b91e0b45127d73cb2bda24b.pdf).
 
-## Citation
+## Authors & Acknowledgments
+
+### Citation
+
+Copy
 
 ```
 @techreport{roodman2026training,
@@ -35,25 +58,3 @@ Their central recommendation is to invest now in demonstrating, evaluating, and 
   url         = {https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs}
 }
 ```
-
-Copy
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)

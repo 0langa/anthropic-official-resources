@@ -3,17 +3,26 @@ Source: https://code.claude.com/docs/en/cloud-environments
 
 Configure cloud environments for Claude Code cloud sessions: network access levels, environment variables, setup scripts, and environment caching.
 
-<Note>
-  Cloud environments apply to [cloud sessions](/docs/en/claude-code-on-the-web), which are available on Pro, Max, and Team plans, and for Enterprise users with [premium seats or Chat + Claude Code seats](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan).
-</Note>
+> [!NOTE]
+>
+> Cloud environments apply to [cloud sessions](/docs/en/claude-code-on-the-web), which are available on Pro, Max, and Team plans, and for Enterprise users with [premium seats or Chat + Claude Code seats](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan).
 
 Each [cloud session](/docs/en/claude-code-on-the-web) runs in a cloud environment. You can configure an environment to allow or deny [network access](#access-levels), [set environment variables](#set-environment-variables) for the session, store [network secrets](#add-network-secrets) that sessions use without seeing them, and run a [setup script](#setup-scripts) before Claude starts working.
 
-The same environments apply wherever you start a cloud session: the [Desktop app](/docs/en/desktop), the [Claude mobile app](/docs/en/mobile), your browser at [claude.ai/code](https://claude.ai/code), the terminal with [`claude --cloud`](/docs/en/claude-code-on-the-web#from-terminal-to-cloud), [routines](/docs/en/routines), and [Claude Tag](https://claude.com/docs/claude-tag/overview). Each of these surfaces can also route to a [self-hosted environment](/docs/en/self-hosted-environments). [Availability and limitations](/docs/en/self-hosted-environments#availability-and-limitations) covers what Claude can't use yet when a Claude Tag session runs in one.
+The same environments apply wherever you start a cloud session:
 
-<Info>
-  [Remote Control](/docs/en/remote-control) sessions connect the web and mobile interfaces to a session on your own machine, which uses your machine's network and files, not a cloud environment. Claude Tag channel sessions use organization-level environments only, either [shared environments](#organization-shared-environments) or [self-hosted environments](/docs/en/self-hosted-environments).
-</Info>
+* The [Desktop app](/docs/en/desktop)
+* The [Claude mobile app](/docs/en/mobile)
+* Your browser at [claude.ai/code](https://claude.ai/code)
+* The terminal with [`claude --cloud`](/docs/en/claude-code-on-the-web#from-terminal-to-cloud)
+* [Cloud scheduled tasks](/docs/en/routines)
+* [Claude Tag](https://claude.com/docs/claude-tag/overview)
+
+Each of these surfaces can also route to a [self-hosted environment](/docs/en/self-hosted-environments). [Availability and limitations](/docs/en/self-hosted-environments#availability-and-limitations) covers what Claude can't use yet when a Claude Tag session runs in one.
+
+> [!NOTE]
+>
+> [Remote Control](/docs/en/remote-control) sessions connect the web and mobile interfaces to a session on your own machine, which uses your machine's network and files, not a cloud environment. Claude Tag channel sessions use organization-level environments only, either [shared environments](#organization-shared-environments) or [self-hosted environments](/docs/en/self-hosted-environments).
 
 ## The Default environment
 
@@ -41,18 +50,16 @@ Add, edit, and archive environments from the environment selector under the mess
 
 The selector appears only until you send a new session's first message. To edit the environment of a running cloud session of your own, select the caret after the session title at the top, then select **Edit cloud environment**.
 
-<Steps>
-  <Step title="Open the environment selector">
-    On the new-session screen, select the first control in the row under the message box.
-  </Step>
+**1. Open the environment selector**
 
-  <Step title="Add or edit an environment">
-    * **Add an environment**: select **New environment** at the bottom of the menu to open the **New environment** dialog. Fill in the form and select **Add environment**. Your new session then uses the environment you added.
-    * **Edit an environment**: find its row under **Cloud**. If **Cloud** is a single row, select it to open the list. If your environment isn't listed under **Cloud**, select the **More** row under that heading. Hover over the environment's row and select the settings icon that appears on its right to open its dialog.
+On the new-session screen, select the first control in the row under the message box.
 
-    The dialog includes the name, network access level, environment variables, and setup script. To store a key that sessions use without seeing it, see [Add network secrets](#add-network-secrets).
-  </Step>
-</Steps>
+**2. Add or edit an environment**
+
+* **Add an environment**: select **New environment** at the bottom of the menu to open the **New environment** dialog. Fill in the form and select **Add environment**. Your new session then uses the environment you added.
+* **Edit an environment**: find its row under **Cloud**. If **Cloud** is a single row, select it to open the list. If your environment isn't listed under **Cloud**, select the **More** row under that heading. Hover over the environment's row and select the settings icon that appears on its right to open its dialog.
+
+The dialog includes the name, network access level, environment variables, and setup script. To store a key that sessions use without seeing it, see [Add network secrets](#add-network-secrets).
 
 ### Set environment variables
 
@@ -79,8 +86,6 @@ A cloud session also sets some variables itself when it starts. For [`CLAUDE_AUT
 
 Anyone who uses the environment can read the values. In an Anthropic-hosted environment, use a [network secret](#add-network-secrets) instead for a key the agent proxy can attach to a request. The [requests that never get a secret](#requests-that-never-get-the-credential) are listed there.
 
-<span />
-
 ### Add network secrets
 
 A network secret is an API key or token you store on a cloud environment so Claude can call that API from any session in the environment without seeing the key. Anthropic's agent proxy adds the key to requests for the hosts you list, after each request leaves the session's VM, so the key itself stays outside the VM.
@@ -105,25 +110,23 @@ You add secrets one at a time, and you can't edit a secret after you add it. To 
 
 To add a secret to a [shared environment](#organization-shared-environments), open it for editing from the **Cloud environments** page in [admin settings](https://claude.ai/admin-settings), then continue step 1 from the **Network secrets** section. If you're on a Team plan and don't hold an [organization admin role](#requirements), follow step 1 on your own environment, then [fill in the shorter form](#add-a-secret-without-the-role).
 
-<Steps>
-  <Step title="Open the environment's network secrets">
-    [Open the environment for editing](#configure-your-environment) at [claude.ai/code](https://claude.ai/code). In the **Edit cloud environment** dialog, find the **Network secrets** section. You see the secrets already on the environment, each with the hosts it applies to.
-  </Step>
+**1. Open the environment's network secrets**
 
-  <Step title="Add the secret">
-    Select **Add secret** and fill in the form. Keep the default **Secret type**, **Bearer**, for an API key that travels in a request header, and fill in these fields:
+[Open the environment for editing](#configure-your-environment) at [claude.ai/code](https://claude.ai/code). In the **Edit cloud environment** dialog, find the **Network secrets** section. You see the secrets already on the environment, each with the hosts it applies to.
 
-    * **Name**: a label for the secret, such as `Internal billing API`
-    * **Allowed websites**: the API's hosts, such as `api.example.com`. A leading `*.` matches every subdomain
-    * **Custom headers**: one row for the header that carries the key. The row starts with `Authorization` as the header's **Name** and `Bearer` as its **Prefix**; paste the key itself as the **Value**. For a header like `X-Api-Key` that takes the bare value, change the name and clear the prefix
+**2. Add the secret**
 
-    For an API that authenticates another way, pick a different **Secret type**. The list is the same one [Claude Tag](https://claude.com/docs/claude-tag/overview), the Slack integration for Team and Enterprise plans, offers for [connections](https://claude.com/docs/claude-tag/admins/add-connections).
-  </Step>
+Select **Add secret** and fill in the form. Keep the default **Secret type**, **Bearer**, for an API key that travels in a request header, and fill in these fields:
 
-  <Step title="Save the secret">
-    Select **Add**. The secret appears in the list with its hosts, saved without the dialog's **Save changes** button. You can't view the value again after saving.
-  </Step>
-</Steps>
+* **Name**: a label for the secret, such as `Internal billing API`
+* **Allowed websites**: the API's hosts, such as `api.example.com`. A leading `*.` matches every subdomain
+* **Custom headers**: one row for the header that carries the key. The row starts with `Authorization` as the header's **Name** and `Bearer` as its **Prefix**; paste the key itself as the **Value**. For a header like `X-Api-Key` that takes the bare value, change the name and clear the prefix
+
+For an API that authenticates another way, pick a different **Secret type**. The list is the same one [Claude Tag](https://claude.com/docs/claude-tag/overview), the Slack integration for Team and Enterprise plans, offers for [connections](https://claude.com/docs/claude-tag/admins/add-connections).
+
+**3. Save the secret**
+
+Select **Add**. The secret appears in the list with its hosts, saved without the dialog's **Save changes** button. You can't view the value again after saving.
 
 To confirm the secret works, start a session in the environment and ask Claude to call the API, for example with `curl`. The API answers as if the key were in the request, and the key doesn't appear in the session's environment variables or in any file. If the list marks a secret **Not sent** instead, the note under it says why and what to do. Two secrets whose hosts overlap without matching exactly get no marker, and the agent proxy sends only one of them.
 
@@ -165,7 +168,9 @@ Archiving affects new sessions, not running ones:
 * Sessions already running in the environment continue to work.
 * The environment disappears from the selector and from `/remote-env`, so you can't pick it for new sessions.
 * Network secrets on the environment stay attached in its running sessions. Delete any you no longer want before you archive.
-* No new session can start in an archived environment, on any surface. If the environment was your saved [CLI default](#select-an-environment-from-the-cli), Claude Code starts CLI cloud sessions in the Anthropic-hosted environment when your list has one, and otherwise in the first environment in your list that isn't a [Remote Control bridge environment](#the-default-environment). Anything configured with the environment explicitly, such as a [routine](/docs/en/routines#environments-and-network-access), can't start new sessions in it. Point it at another environment.
+* No new session can start in an archived environment, on any surface:
+  * **Saved CLI default**: if the environment was your saved [CLI default](#select-an-environment-from-the-cli), Claude Code starts CLI cloud sessions in the Anthropic-hosted environment when your list has one. Otherwise, it starts them in the first environment in your list that isn't a [Remote Control bridge environment](#the-default-environment).
+  * **Configured explicitly**: anything configured with the environment explicitly, such as a [cloud scheduled task](/docs/en/routines#environments-and-network-access), can't start new sessions in it. Point it at another environment.
 
 ### Organization-shared environments
 
@@ -176,7 +181,7 @@ Shared environments appear in each member's [environment selector](#configure-yo
 An Owner makes an environment available to the organization in one of two ways:
 
 * **Create a shared environment**: use the **Cloud environments** page in [admin settings](https://claude.ai/admin-settings), which is also where Owners edit and archive shared environments. Each one has a name, a [network access level](#access-levels), [environment variables](#set-environment-variables) in `.env` format, and a [setup script](#setup-scripts).
-* **Share a personal environment**: open one of your own environments for editing in the environment selector, then share it from the **Who can use it** row. The environment keeps its ID, so sessions and routines that already use it aren't affected, and every member can then see it and start sessions in it.
+* **Share a personal environment**: open one of your own environments for editing in the environment selector, then share it from the **Who can use it** row. The environment keeps its ID, so sessions and scheduled tasks that already use it aren't affected, and every member can then see it and start sessions in it.
 
 Owners choose the organization's [default environment](#the-default-environment) separately, at [claude.ai/admin-settings/claude-code](https://claude.ai/admin-settings/claude-code).
 
@@ -193,13 +198,13 @@ In [Claude Tag](https://claude.com/docs/claude-tag/overview) channels, Claude wo
 
 Each environment sets one network access level, which controls the outbound connections its sessions can make. The default level, **Trusted**, allows package registries and other [allowlisted domains](#default-allowed-domains); **Custom** takes your own domain list.
 
-To change an environment's network access, [open it for editing](#configure-your-environment) and use the **Network access** selector in the dialog. A [shared environment](#organization-shared-environments) opens read-only there, so an Owner changes its network access from the **Cloud environments** page in [admin settings](https://claude.ai/admin-settings) instead. The control that opens the selector appears on the app surfaces listed under [The Default environment](#the-default-environment) and in the [routine editor](/docs/en/routines#environments-and-network-access); personal environments don't have a separate page in your claude.ai account settings.
+To change an environment's network access, [open it for editing](#configure-your-environment) and use the **Network access** selector in the dialog. A [shared environment](#organization-shared-environments) opens read-only there, so an Owner changes its network access from the **Cloud environments** page in [admin settings](https://claude.ai/admin-settings) instead. The control that opens the selector appears on the app surfaces listed under [The Default environment](#the-default-environment) and in the [cloud scheduled task editor](/docs/en/routines#environments-and-network-access). Personal environments don't have a separate page in your claude.ai account settings.
 
 When you change an Anthropic-hosted environment's network access, its existing sessions follow the new setting within about a minute, for requests that go through the session's [network allowlist](#access-levels). You don't need to start a new session.
 
-<Note>
-  MCP connectors you enable on a session or routine work without adding their hosts to **Allowed domains**, because connector traffic travels through Anthropic's servers rather than the session's network. This relies on the same Anthropic-bound channel noted under [Security and isolation](/docs/en/claude-code-on-the-web#security-and-isolation). Turn off any connector you don't need to limit which tools Claude can reach.
-</Note>
+> [!NOTE]
+>
+> MCP connectors you enable on a session or scheduled task work without adding their hosts to **Allowed domains**, because connector traffic travels through Anthropic's servers rather than the session's network. This relies on the same Anthropic-bound channel noted under [Security and isolation](/docs/en/claude-code-on-the-web#security-and-isolation). Turn off any connector you don't need to limit which tools Claude can reach.
 
 ### Access levels
 
@@ -261,9 +266,9 @@ Cloud sessions in Anthropic-hosted environments run behind an HTTP/HTTPS network
 
 In Anthropic-hosted environments, each session gets a fresh virtual machine (VM) running Ubuntu 24.04 on x86\_64, regardless of your own operating system and CPU architecture, with your repository cloned and common toolchains pre-installed. When a dependency provides precompiled binaries, such as Ruby gems with native extensions or prebuilt Python wheels, use its x86\_64 Linux build to match the VM. This section covers the Anthropic-hosted defaults, the built-in GitHub tools, how to [run tests and services](#run-tests-start-services-and-add-packages), the [resource limits](#resource-limits) each VM gets, and the [time limits](#time-limits) on long-running work.
 
-<Note>
-  Sessions your organization routes to a [self-hosted environment](/docs/en/self-hosted-environments) run on your own runners instead, with the tools your runner image provides.
-</Note>
+> [!NOTE]
+>
+> Sessions your organization routes to a [self-hosted environment](/docs/en/self-hosted-environments) run on your own runners instead, with the tools your runner image provides.
 
 ### What carries over from your setup
 
@@ -515,9 +520,9 @@ The `CLAUDE_CODE_REMOTE` check is what scopes the install to cloud sessions: the
 
 To confirm `npm install` succeeded, start a cloud session and ask Claude to show `node_modules/.install_pkgs.sha256`. The file lists a hash for each of the three files. If the file is missing, ask Claude to run `npm install` and report the error.
 
-<Note>
-  If `npm install` reads other files, such as a workspace's `package.json`, an `.npmrc`, or your `postinstall` script's inputs, add them to the `sha256sum` command that saves the hashes. Otherwise, you keep the old packages after one of those files changes.
-</Note>
+> [!NOTE]
+>
+> If `npm install` reads other files, such as a workspace's `package.json`, an `.npmrc`, or your `postinstall` script's inputs, add them to the `sha256sum` command that saves the hashes. Otherwise, you keep the old packages after one of those files changes.
 
 #### Limitations in cloud sessions
 
@@ -535,269 +540,267 @@ To customize the base image, use a setup script to install what you need on top 
 
 With **Trusted** network access, sessions can reach the following domains by default. Domains marked with `*` indicate wildcard subdomain matching, so `*.gcr.io` allows any subdomain of `gcr.io`.
 
-<AccordionGroup>
-  <Accordion title="Anthropic services">
-    * api.anthropic.com
-    * docs.claude.com
-    * platform.claude.com
-    * code.claude.com
-    * claude.ai
-    * claude.com
-    * support.claude.com
-    * anthropic.com
-    * [www.anthropic.com](http://www.anthropic.com)
-  </Accordion>
+> **Anthropic services**
+>
+> * api.anthropic.com
+> * docs.claude.com
+> * platform.claude.com
+> * code.claude.com
+> * claude.ai
+> * claude.com
+> * support.claude.com
+> * anthropic.com
+> * [www.anthropic.com](http://www.anthropic.com)
 
-  <Accordion title="Version control">
-    * github.com
-    * [www.github.com](http://www.github.com)
-    * api.github.com
-    * npm.pkg.github.com
-    * raw\.githubusercontent.com
-    * pkg-npm.githubusercontent.com
-    * objects.githubusercontent.com
-    * release-assets.githubusercontent.com
-    * codeload.github.com
-    * avatars.githubusercontent.com
-    * camo.githubusercontent.com
-    * gist.github.com
-    * gitlab.com
-    * [www.gitlab.com](http://www.gitlab.com)
-    * registry.gitlab.com
-    * bitbucket.org
-    * [www.bitbucket.org](http://www.bitbucket.org)
-    * api.bitbucket.org
-  </Accordion>
+> **Version control**
+>
+> * github.com
+> * [www.github.com](http://www.github.com)
+> * api.github.com
+> * npm.pkg.github.com
+> * raw\.githubusercontent.com
+> * pkg-npm.githubusercontent.com
+> * objects.githubusercontent.com
+> * release-assets.githubusercontent.com
+> * codeload.github.com
+> * avatars.githubusercontent.com
+> * camo.githubusercontent.com
+> * gist.github.com
+> * gitlab.com
+> * [www.gitlab.com](http://www.gitlab.com)
+> * registry.gitlab.com
+> * bitbucket.org
+> * [www.bitbucket.org](http://www.bitbucket.org)
+> * api.bitbucket.org
 
-  <Accordion title="Container registries">
-    * registry-1.docker.io
-    * auth.docker.io
-    * index.docker.io
-    * hub.docker.com
-    * [www.docker.com](http://www.docker.com)
-    * production.cloudflare.docker.com
-    * production.cloudfront.docker.com
-    * download.docker.com
-    * gcr.io
-    * \*.gcr.io
-    * ghcr.io
-    * mcr.microsoft.com
-    * \*.data.mcr.microsoft.com
-    * public.ecr.aws
-  </Accordion>
+> **Container registries**
+>
+> * registry-1.docker.io
+> * auth.docker.io
+> * index.docker.io
+> * hub.docker.com
+> * [www.docker.com](http://www.docker.com)
+> * production.cloudflare.docker.com
+> * production.cloudfront.docker.com
+> * download.docker.com
+> * gcr.io
+> * \*.gcr.io
+> * ghcr.io
+> * mcr.microsoft.com
+> * \*.data.mcr.microsoft.com
+> * public.ecr.aws
 
-  <Accordion title="Cloud platforms">
-    * cloud.google.com
-    * accounts.google.com
-    * gcloud.google.com
-    * \*.googleapis.com
-    * storage.googleapis.com
-    * compute.googleapis.com
-    * container.googleapis.com
-    * azure.com
-    * portal.azure.com
-    * microsoft.com
-    * [www.microsoft.com](http://www.microsoft.com)
-    * \*.microsoftonline.com
-    * packages.microsoft.com
-    * dotnet.microsoft.com
-    * dot.net
-    * visualstudio.com
-    * dev.azure.com
-    * \*.amazonaws.com
-    * \*.api.aws
-    * oracle.com
-    * [www.oracle.com](http://www.oracle.com)
-    * java.com
-    * [www.java.com](http://www.java.com)
-    * java.net
-    * [www.java.net](http://www.java.net)
-    * download.oracle.com
-    * yum.oracle.com
-    * \*.r2.cloudflarestorage.com
-  </Accordion>
+> **Cloud platforms**
+>
+> * cloud.google.com
+> * accounts.google.com
+> * gcloud.google.com
+> * \*.googleapis.com
+> * storage.googleapis.com
+> * compute.googleapis.com
+> * container.googleapis.com
+> * azure.com
+> * portal.azure.com
+> * microsoft.com
+> * [www.microsoft.com](http://www.microsoft.com)
+> * \*.microsoftonline.com
+> * packages.microsoft.com
+> * dotnet.microsoft.com
+> * dot.net
+> * visualstudio.com
+> * dev.azure.com
+> * \*.amazonaws.com
+> * \*.api.aws
+> * oracle.com
+> * [www.oracle.com](http://www.oracle.com)
+> * java.com
+> * [www.java.com](http://www.java.com)
+> * java.net
+> * [www.java.net](http://www.java.net)
+> * download.oracle.com
+> * yum.oracle.com
+> * \*.r2.cloudflarestorage.com
 
-  <Accordion title="JavaScript and Node package managers">
-    * registry.npmjs.org
-    * [www.npmjs.com](http://www.npmjs.com)
-    * [www.npmjs.org](http://www.npmjs.org)
-    * npmjs.com
-    * npmjs.org
-    * yarnpkg.com
-    * registry.yarnpkg.com
-    * jsr.io
-    * npm.jsr.io
-  </Accordion>
+> **JavaScript and Node package managers**
+>
+> * registry.npmjs.org
+> * [www.npmjs.com](http://www.npmjs.com)
+> * [www.npmjs.org](http://www.npmjs.org)
+> * npmjs.com
+> * npmjs.org
+> * yarnpkg.com
+> * registry.yarnpkg.com
+> * jsr.io
+> * npm.jsr.io
 
-  <Accordion title="Python package managers">
-    * pypi.org
-    * [www.pypi.org](http://www.pypi.org)
-    * files.pythonhosted.org
-    * pythonhosted.org
-    * test.pypi.org
-    * pypi.python.org
-    * pypa.io
-    * [www.pypa.io](http://www.pypa.io)
-  </Accordion>
+> **Python package managers**
+>
+> * pypi.org
+> * [www.pypi.org](http://www.pypi.org)
+> * files.pythonhosted.org
+> * pythonhosted.org
+> * test.pypi.org
+> * pypi.python.org
+> * pypa.io
+> * [www.pypa.io](http://www.pypa.io)
 
-  <Accordion title="Ruby package managers">
-    * rubygems.org
-    * [www.rubygems.org](http://www.rubygems.org)
-    * api.rubygems.org
-    * index.rubygems.org
-    * ruby-lang.org
-    * [www.ruby-lang.org](http://www.ruby-lang.org)
-    * rubyforge.org
-    * [www.rubyforge.org](http://www.rubyforge.org)
-    * rubyonrails.org
-    * [www.rubyonrails.org](http://www.rubyonrails.org)
-    * rvm.io
-    * get.rvm.io
-  </Accordion>
+> **Ruby package managers**
+>
+> * rubygems.org
+> * [www.rubygems.org](http://www.rubygems.org)
+> * api.rubygems.org
+> * index.rubygems.org
+> * ruby-lang.org
+> * [www.ruby-lang.org](http://www.ruby-lang.org)
+> * rubyforge.org
+> * [www.rubyforge.org](http://www.rubyforge.org)
+> * rubyonrails.org
+> * [www.rubyonrails.org](http://www.rubyonrails.org)
+> * rvm.io
+> * get.rvm.io
 
-  <Accordion title="Rust package managers">
-    * crates.io
-    * [www.crates.io](http://www.crates.io)
-    * index.crates.io
-    * static.crates.io
-    * rustup.rs
-    * static.rust-lang.org
-    * [www.rust-lang.org](http://www.rust-lang.org)
-  </Accordion>
+> **Rust package managers**
+>
+> * crates.io
+> * [www.crates.io](http://www.crates.io)
+> * index.crates.io
+> * static.crates.io
+> * rustup.rs
+> * static.rust-lang.org
+> * [www.rust-lang.org](http://www.rust-lang.org)
 
-  <Accordion title="Go package managers">
-    * proxy.golang.org
-    * sum.golang.org
-    * index.golang.org
-    * golang.org
-    * [www.golang.org](http://www.golang.org)
-    * goproxy.io
-    * pkg.go.dev
-  </Accordion>
+> **Go package managers**
+>
+> * proxy.golang.org
+> * sum.golang.org
+> * index.golang.org
+> * golang.org
+> * [www.golang.org](http://www.golang.org)
+> * goproxy.io
+> * pkg.go.dev
 
-  <Accordion title="JVM package managers">
-    * maven.org
-    * repo.maven.org
-    * central.maven.org
-    * repo1.maven.org
-    * repo.maven.apache.org
-    * maven.google.com
-    * jcenter.bintray.com
-    * gradle.org
-    * [www.gradle.org](http://www.gradle.org)
-    * services.gradle.org
-    * plugins.gradle.org
-    * plugins-artifacts.gradle.org
-    * kotlinlang.org
-    * [www.kotlinlang.org](http://www.kotlinlang.org)
-    * spring.io
-    * repo.spring.io
-  </Accordion>
+> **JVM package managers**
+>
+> * maven.org
+> * repo.maven.org
+> * central.maven.org
+> * repo1.maven.org
+> * repo.maven.apache.org
+> * maven.google.com
+> * jcenter.bintray.com
+> * gradle.org
+> * [www.gradle.org](http://www.gradle.org)
+> * services.gradle.org
+> * plugins.gradle.org
+> * plugins-artifacts.gradle.org
+> * kotlinlang.org
+> * [www.kotlinlang.org](http://www.kotlinlang.org)
+> * spring.io
+> * repo.spring.io
 
-  <Accordion title="Other package managers">
-    * packagist.org (PHP Composer)
-    * [www.packagist.org](http://www.packagist.org)
-    * repo.packagist.org
-    * nuget.org (.NET NuGet)
-    * [www.nuget.org](http://www.nuget.org)
-    * api.nuget.org
-    * pub.dev (Dart/Flutter)
-    * api.pub.dev
-    * hex.pm (Elixir/Erlang)
-    * [www.hex.pm](http://www.hex.pm)
-    * cpan.org (Perl CPAN)
-    * [www.cpan.org](http://www.cpan.org)
-    * metacpan.org
-    * [www.metacpan.org](http://www.metacpan.org)
-    * api.metacpan.org
-    * cocoapods.org (iOS/macOS)
-    * [www.cocoapods.org](http://www.cocoapods.org)
-    * cdn.cocoapods.org
-    * haskell.org
-    * [www.haskell.org](http://www.haskell.org)
-    * hackage.haskell.org
-    * swift.org
-    * [www.swift.org](http://www.swift.org)
-  </Accordion>
+> **Other package managers**
+>
+> * packagist.org (PHP Composer)
+> * [www.packagist.org](http://www.packagist.org)
+> * repo.packagist.org
+> * nuget.org (.NET NuGet)
+> * [www.nuget.org](http://www.nuget.org)
+> * api.nuget.org
+> * pub.dev (Dart/Flutter)
+> * api.pub.dev
+> * hex.pm (Elixir/Erlang)
+> * [www.hex.pm](http://www.hex.pm)
+> * cpan.org (Perl CPAN)
+> * [www.cpan.org](http://www.cpan.org)
+> * metacpan.org
+> * [www.metacpan.org](http://www.metacpan.org)
+> * api.metacpan.org
+> * cocoapods.org (iOS/macOS)
+> * [www.cocoapods.org](http://www.cocoapods.org)
+> * cdn.cocoapods.org
+> * haskell.org
+> * [www.haskell.org](http://www.haskell.org)
+> * hackage.haskell.org
+> * swift.org
+> * [www.swift.org](http://www.swift.org)
 
-  <Accordion title="Linux distributions">
-    * archive.ubuntu.com
-    * security.ubuntu.com
-    * ubuntu.com
-    * [www.ubuntu.com](http://www.ubuntu.com)
-    * \*.ubuntu.com
-    * ppa.launchpad.net
-    * launchpad.net
-    * [www.launchpad.net](http://www.launchpad.net)
-    * \*.nixos.org
-  </Accordion>
+> **Linux distributions**
+>
+> * archive.ubuntu.com
+> * security.ubuntu.com
+> * ubuntu.com
+> * [www.ubuntu.com](http://www.ubuntu.com)
+> * \*.ubuntu.com
+> * ppa.launchpad.net
+> * launchpad.net
+> * [www.launchpad.net](http://www.launchpad.net)
+> * \*.nixos.org
 
-  <Accordion title="Development tools and platforms">
-    * dl.k8s.io (Kubernetes)
-    * pkgs.k8s.io
-    * k8s.io
-    * [www.k8s.io](http://www.k8s.io)
-    * releases.hashicorp.com (HashiCorp)
-    * apt.releases.hashicorp.com
-    * rpm.releases.hashicorp.com
-    * archive.releases.hashicorp.com
-    * hashicorp.com
-    * [www.hashicorp.com](http://www.hashicorp.com)
-    * repo.anaconda.com (Anaconda/Conda)
-    * conda.anaconda.org
-    * anaconda.org
-    * [www.anaconda.com](http://www.anaconda.com)
-    * anaconda.com
-    * continuum.io
-    * apache.org (Apache)
-    * [www.apache.org](http://www.apache.org)
-    * archive.apache.org
-    * downloads.apache.org
-    * eclipse.org (Eclipse)
-    * [www.eclipse.org](http://www.eclipse.org)
-    * download.eclipse.org
-    * nodejs.org (Node.js)
-    * [www.nodejs.org](http://www.nodejs.org)
-    * developer.apple.com
-    * developer.android.com
-    * pkg.stainless.com
-    * binaries.prisma.sh
-  </Accordion>
+> **Development tools and platforms**
+>
+> * dl.k8s.io (Kubernetes)
+> * pkgs.k8s.io
+> * k8s.io
+> * [www.k8s.io](http://www.k8s.io)
+> * releases.hashicorp.com (HashiCorp)
+> * apt.releases.hashicorp.com
+> * rpm.releases.hashicorp.com
+> * archive.releases.hashicorp.com
+> * hashicorp.com
+> * [www.hashicorp.com](http://www.hashicorp.com)
+> * repo.anaconda.com (Anaconda/Conda)
+> * conda.anaconda.org
+> * anaconda.org
+> * [www.anaconda.com](http://www.anaconda.com)
+> * anaconda.com
+> * continuum.io
+> * apache.org (Apache)
+> * [www.apache.org](http://www.apache.org)
+> * archive.apache.org
+> * downloads.apache.org
+> * eclipse.org (Eclipse)
+> * [www.eclipse.org](http://www.eclipse.org)
+> * download.eclipse.org
+> * nodejs.org (Node.js)
+> * [www.nodejs.org](http://www.nodejs.org)
+> * developer.apple.com
+> * developer.android.com
+> * pkg.stainless.com
+> * binaries.prisma.sh
 
-  <Accordion title="Cloud services and monitoring">
-    * http-intake.logs.datadoghq.com
-    * \*.datadoghq.com
-    * \*.datadoghq.eu
-    * api.honeycomb.io
-  </Accordion>
+> **Cloud services and monitoring**
+>
+> * http-intake.logs.datadoghq.com
+> * \*.datadoghq.com
+> * \*.datadoghq.eu
+> * api.honeycomb.io
 
-  <Accordion title="Content delivery and mirrors">
-    * sourceforge.net
-    * \*.sourceforge.net
-    * packagecloud.io
-    * \*.packagecloud.io
-    * fonts.googleapis.com
-    * fonts.gstatic.com
-  </Accordion>
+> **Content delivery and mirrors**
+>
+> * sourceforge.net
+> * \*.sourceforge.net
+> * packagecloud.io
+> * \*.packagecloud.io
+> * fonts.googleapis.com
+> * fonts.gstatic.com
 
-  <Accordion title="Schema and configuration">
-    * json-schema.org
-    * [www.json-schema.org](http://www.json-schema.org)
-    * json.schemastore.org
-    * [www.schemastore.org](http://www.schemastore.org)
-  </Accordion>
+> **Schema and configuration**
+>
+> * json-schema.org
+> * [www.json-schema.org](http://www.json-schema.org)
+> * json.schemastore.org
+> * [www.schemastore.org](http://www.schemastore.org)
 
-  <Accordion title="Model Context Protocol">
-    * \*.modelcontextprotocol.io
-  </Accordion>
-</AccordionGroup>
+> **Model Context Protocol**
+>
+> * \*.modelcontextprotocol.io
 
 ## Related resources
 
 * [Cloud sessions reference](/docs/en/claude-code-on-the-web): start, manage, and share cloud sessions
 * [Cloud sessions quickstart](/docs/en/web-quickstart): connect GitHub and start your first cloud session
 * [Claude Tag](https://claude.com/docs/claude-tag/overview): sessions Claude starts from Slack run in the same environments
-* [Routines](/docs/en/routines): scheduled runs use the same environments and network access levels
+* [Cloud scheduled tasks](/docs/en/routines): scheduled runs use the same environments and network access levels
 * [Remote Control](/docs/en/remote-control): run sessions on your own machine's network and files instead
 * [Self-hosted environments](/docs/en/self-hosted-environments): run cloud sessions on your organization's own infrastructure
 * [SessionStart hooks](/docs/en/hooks#sessionstart): repo-committed setup that runs in local and cloud sessions

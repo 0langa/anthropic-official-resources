@@ -1,6 +1,6 @@
-Lesson 57 of 67 · Building with the Claude APIAnthropic apps
+Lesson 57 of 67 · Building with the Claude APIAnthropic apps: Claude Code and computer use
 
-# Anthropic apps
+# Anthropic apps: Claude Code and computer use
 
 Lesson 572 min
 
