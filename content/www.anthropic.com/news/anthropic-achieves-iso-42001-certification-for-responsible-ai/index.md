@@ -1,10 +1,27 @@
-Announcements
-
 # Anthropic achieves ISO 42001 certification for responsible AI
 
-Jan 13, 2025
+- Published
 
-![Four locks joined together](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F10d2b2627656111aae62a8ab7b299b4b73ee86a4-2880x1620.png&w=3840&q=75)
+  Jan 13, 2025
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+  - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)See more...
+
+Related articles
+
+- Policy
+
+  Oct 15, 2026
+
+  [An update on independent evaluators](https://www.anthropic.com/news/an-update-on-independent-evaluators)
+
+[View more](https://www.anthropic.com/search?topic=transparency)
 
 We are excited to announce that Anthropic has achieved accredited certification under the new [ISO/IEC 42001:2023 standard](https://www.iso.org/standard/81230.html) for our AI management system. ISO 42001 is the first international standard outlining requirements for AI governance and helps ensure AI systems are developed and used responsibly.
 
@@ -19,30 +36,10 @@ We're proud to be **one of the first frontier AI labs** to achieve this certific
 
 The [ISO 42001 certification](https://trust.anthropic.com/) builds on our existing work to develop AI safely and responsibly, including the release and recent update of our public [Responsible Scaling Policy](https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy) governance framework, deployment of [Constitutional AI](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback) to help models operate in alignment with human values, and active [research](https://www.anthropic.com/research) into AI safety and robustness. Schellman Compliance, LLC, an ISO certification body accredited by the ANSI National Accreditation Board, issued the certification.
 
-## Continuing our commitment to responsible AI leadership
+### Continuing our commitment to responsible AI leadership
 
 Beyond ISO 42001, we have made a number of [additional voluntary commitments](https://www.anthropic.com/voluntary-commitments) demonstrating our dedication to responsible AI development. These voluntary frameworks cover key areas such as risk assessment and mitigation, security and privacy safeguards, and public awareness efforts.
 
 As AI systems become increasingly powerful, safety and security are at the forefront of our ongoing research and innovation. The ISO 42001 certification is an exciting milestone in that journey.
 
 Information about our ISO certification is now available on our [Trust Center](https://trust.anthropic.com/). This includes the issued certificate, an overview of the standard, what it entails, and how it reinforces our commitments to responsible AI development.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

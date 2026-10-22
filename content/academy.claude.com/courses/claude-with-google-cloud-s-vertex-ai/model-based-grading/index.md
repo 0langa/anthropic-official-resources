@@ -1,4 +1,4 @@
-Lesson 14 of 66 · Claude with Google Cloud's Vertex AIModel based grading
+Lesson 14 of 66 · Claude on Google CloudModel based grading
 
 # Model based grading
 

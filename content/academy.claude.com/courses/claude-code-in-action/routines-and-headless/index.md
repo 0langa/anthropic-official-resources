@@ -57,11 +57,11 @@ Before you lean on routines for anything important, keep these three limits in m
 
 - **Routines are a research preview.** Behavior and limits will keep moving, so don't be surprised if things change.
 - **A recurring schedule runs at most hourly.** If you need something more frequent, routines aren't the tool.
-- **Runs start from a fresh clone of your default branch, push to `claude/` branches freely, and get checked before pushing anywhere else.** If your prompt names another branch, the check refuses the push when the branch is protected on GitHub, someone else has an open pull request from it, or it carries someone else's commits. Keep `main` protected and an autonomous run can't rewrite it.
+- **Runs start from a fresh clone of your default branch and push to a `claude/` branch, unless your prompt names another branch.** When a GitHub pull request event triggers the run, the pull request's repository starts from the pull request's head commit instead, as long as it's the first repository in the routine. To control which branches a run can push to, use branch protection rules or rulesets on GitHub. GitHub applies them to the GitHub access you connected, so a rule your access can bypass won't block the push.
 
 ## Headless mode: when you need your own environment[](https://academy.claude.com/courses/claude-code-in-action/routines-and-headless)
 
-Routines are great when the work fits in the cloud. But sometimes the job needs your environment, or logic wrapped around the run. That's when you drop to headless mode.
+Routines are great when the work fits in the cloud. But sometimes the job needs your environment, or logic wrapped around the run. That's when you drop to headless mode, which the docs now call non-interactive mode.
 
 The core of headless mode is the `-p` flag (short for `--print`). It runs Claude Code as a one-shot command with no interactive UI. It reads standard in and writes standard out, so it pipes like any other shell tool:
 

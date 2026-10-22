@@ -1,4 +1,4 @@
-Lesson 52 of 66 · Claude with Google Cloud's Vertex AIDefining tools with MCP
+Lesson 52 of 66 · Claude on Google CloudDefining tools with MCP
 
 # Defining tools with MCP
 

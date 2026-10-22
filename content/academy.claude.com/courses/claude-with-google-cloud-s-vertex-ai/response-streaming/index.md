@@ -1,4 +1,4 @@
-Lesson 7 of 66 · Claude with Google Cloud's Vertex AIResponse streaming
+Lesson 7 of 66 · Claude on Google CloudResponse streaming
 
 # Response streaming
 

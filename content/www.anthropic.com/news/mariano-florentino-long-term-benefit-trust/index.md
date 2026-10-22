@@ -1,10 +1,27 @@
-Announcements
-
 # Mariano-Florentino Cuéllar appointed to Anthropic’s Long-Term Benefit Trust
 
-Jan 21, 2026
+- Published
 
-![Mariano-Florentino Cuéllar appointed to Anthropic’s Long-Term Benefit Trust](https://www-cdn.anthropic.com/images/4zrzovbb/website/ffc0d7957a232518519f13c0d64896921ea215e2-1000x1000.svg)
+  Jan 21, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Leadership](https://www.anthropic.com/search?topic=leadership)
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+  - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
+  - [Global stability](https://www.anthropic.com/search?topic=global-stability)See more...
+
+Related articles
+
+- Announcements
+
+  Jul 9, 2026
+
+  [Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust](https://www.anthropic.com/news/ben-bernanke)
+
+[View more](https://www.anthropic.com/search?topic=leadership)
 
 Anthropic’s Long-Term Benefit Trust announced the appointment of Mariano-Florentino (Tino) Cuéllar as a new member of the Trust. The Long-Term Benefit Trust is an independent body designed to help Anthropic achieve its public benefit mission.
 
@@ -27,23 +44,3 @@ Buddy Shah, Chair of the Long-Term Benefit Trust, said: “I've been grateful fo
 Kanika Bahl, CEO & President of Evidence Action, said: “Serving on the Long-Term Benefit Trust has been a privilege during a pivotal time for both Anthropic and the broader AI field. I’ve been impressed by the seriousness with which Anthropic’s leadership approaches questions of safety and societal benefit. I wish the Trust and the entire Anthropic team continued success.”
 
 Zachary Robinson, CEO of the Centre for Effective Altruism, said: “I've been honored by the opportunity to serve on the Long-Term Benefit Trust during these formative years. I continue to admire the commitment Anthropic's leadership and Trustees make to safety and public benefit, and I have been impressed by the degree to which that commitment has endured as Anthropic has scaled and evolved. I am grateful to know Anthropic remains in the hands of leaders who care deeply about its mission, and I wish them all success.”
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

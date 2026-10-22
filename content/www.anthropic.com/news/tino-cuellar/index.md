@@ -1,8 +1,27 @@
-Announcements
-
 # Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer
 
-Aug 4, 2026
+- Published
+
+  Aug 4, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Leadership](https://www.anthropic.com/search?topic=leadership)
+  - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
+  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)See more...
+
+Related articles
+
+- Policy
+
+  Jul 27, 2026
+
+  [Our position on open-weights models](https://www.anthropic.com/news/position-open-weights-models)
+
+[View more](https://www.anthropic.com/search?topic=leadership)
 
 Mariano-Florentino (Tino) Cuéllar will join Anthropic as its first Chief Global Affairs Officer, leading the company’s work on policy, strategic international engagement, and government relationships worldwide.
 
@@ -17,23 +36,3 @@ Tino has served as a Trustee of Anthropic's Long-Term Benefit Trust since Januar
 “Tino has spent his career helping public institutions respond to times of change with thoughtfulness, pragmatism, and deep commitment to the common good,” said Daniela Amodei. “At all levels of government, the law, and academia, Tino has served with sound judgment and civic-mindedness, and we’re looking forward to him putting these principles to work at Anthropic. I can't think of anyone better prepared to partner with governments, civil society, and community groups as they engage with both the risks and opportunities presented by advanced AI.”
 
 Tino arrives at a pivotal moment for Anthropic's work with governments around the world. The questions AI raises for economies, for security, and for communities absorbing rapid change are being debated by leaders everywhere. Ensuring AI’s trajectory is shaped by democratic societies and its benefits reach people broadly is a critical priority. Tino will help steer this work while finding common cause with heads of state and policy leaders on the questions and possibilities AI is raising for communities everywhere.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

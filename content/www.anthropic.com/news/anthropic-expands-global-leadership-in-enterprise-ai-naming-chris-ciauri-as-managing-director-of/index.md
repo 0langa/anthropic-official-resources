@@ -1,10 +1,27 @@
-Announcements
-
 # Anthropic expands global leadership in enterprise AI, naming Chris Ciauri as Managing Director of International
 
-Sep 26, 2025
+- Published
 
-![Anthropic expands global leadership in enterprise AI, naming Chris Ciauri as Managing Director of International](https://www-cdn.anthropic.com/images/4zrzovbb/website/5f455d24ea80569b34eb4347f06152d8a5508722-1000x1000.svg)
+  Sep 26, 2025
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Leadership](https://www.anthropic.com/search?topic=leadership)
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+
+Related articles
+
+- Announcements
+
+  May 26, 2026
+
+  [Anthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea)
+
+[View more](https://www.anthropic.com/search?topic=leadership)
 
 Today we're announcing Anthropic's expanded global presence with key leadership appointments, enterprise customer momentum, and new international offices across multiple continents.
 
@@ -14,7 +31,7 @@ Building on Paul Smith's recent appointment as Anthropic’s first Chief Commerc
 
 Our international growth comes at a pivotal moment when enterprises are seeking AI models they can trust—systems that combine frontier performance with the safety and reliability required to support critical business operations. Anthropic’s global customer base has grown from under 1,000 business customers two years ago to over 300,000 today—representing more than 300x growth. This growth has been driven by our leading technical talent, our focus on safety, and our frontier research, including pioneering alignment and interpretability work, all of which contribute to Claude’s performance and reliability.
 
-## **Global leadership for worldwide expansion**
+### Global leadership for worldwide expansion
 
 Ciauri joins Paul Smith's international leadership group, working alongside Guillaume Princen as Head of EMEA, Hidetoshi Tojo as Head of Japan, and Kate Jensen as Head of Americas. Together, this team drives Anthropic's global go-to-market strategy and enterprise sales expansion across key markets.
 
@@ -24,7 +41,7 @@ Our EMEA expansion includes over 100 new roles across Dublin and London offices,
 
 "The global demand for Claude is extraordinary—from financial services in London to manufacturing in Tokyo, enterprises are trusting Claude to power their mission-critical operations,” said Chris Ciauri. “This is a key moment for Anthropic to expand the infrastructure and partnerships needed to serve this growing international customer base.”
 
-## **Enterprise momentum across continents**
+### Enterprise momentum across continents
 
 Our international expansion is driven by extraordinary customer momentum across industries and markets:
 
@@ -37,23 +54,3 @@ As we continue expanding globally, we remain committed to building reliable, int
 For more information about current career opportunities at Anthropic, visit anthropic.com/careers.
 
 \*Menlo Ventures: [*2025 Mid-Year LLM Market Update: Foundation Model Landscape + Economics*](https://menlovc.com/perspective/2025-mid-year-llm-market-update/)
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

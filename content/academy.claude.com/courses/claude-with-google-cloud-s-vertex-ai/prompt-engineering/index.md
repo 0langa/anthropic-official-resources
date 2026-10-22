@@ -1,4 +1,4 @@
-Lesson 16 of 66 · Claude with Google Cloud's Vertex AIPrompt engineering
+Lesson 16 of 66 · Claude on Google CloudPrompt engineering
 
 # Prompt engineering
 

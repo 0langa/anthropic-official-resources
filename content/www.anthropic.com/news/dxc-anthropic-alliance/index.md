@@ -1,10 +1,29 @@
-Announcements
-
 # DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on
 
-Jun 11, 2026
+- Published
 
-![DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on](https://www-cdn.anthropic.com/images/4zrzovbb/website/60d39963d844bc1104a780c762c540c9ba1baefe-1000x1000.svg)
+  Jun 11, 2026
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Financial services](https://www.anthropic.com/search?topic=financial-services)
+  - [Education](https://www.anthropic.com/search?topic=education)See more...
+
+Related articles
+
+- Announcements
+
+  Oct 2, 2026
+
+  [Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap](https://www.anthropic.com/news/claude-frontier-academy)
+
+[View more](https://www.anthropic.com/search?topic=partnerships)
 
 We’re announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies. DXC will train tens of thousands of Claude-certified forward-deployed engineers (FDEs)—engineers embedded directly inside customer organizations—to bring Claude into the systems DXC operates for the world’s largest banks, airlines, insurers, manufacturers, and government agencies.
 
@@ -12,7 +31,7 @@ These systems, which DXC has run for decades, handle the transactions, claims, a
 
 DXC is also now part of the [Claude Partner Network](https://claude.com/partners), our network of consulting and services firms that bring Claude to enterprise clients.
 
-## Bringing Claude to DXC's own operations
+### Bringing Claude to DXC's own operations
 
 DXC worked with Claude in its own systems before rolling it out to clients. For example, in April 2026, DXC launched DXC OASIS, its tool for running customers' IT systems, where AI agents handle much of the routine work. Claude is now the default foundation model powering the platform’s agentic workflows.
 
@@ -20,7 +39,7 @@ Claude was also the primary tool DXC used to *build* the platform. The firm esti
 
 “DXC helps the world’s largest banks, airlines, insurers, and government agencies put new technology to work,” said Paul Smith, Chief Commercial Officer, Anthropic. “They proved Claude inside their own operations first, under the same security and compliance requirements their customers face. Now we’re bringing Claude inside those environments together, industry by industry, with engineers who have already done it themselves.”
 
-## Building a team of Claude-certified engineers
+### Building a team of Claude-certified engineers
 
 For its FDE program, DXC will recruit engineers from its existing development teams and certify them through [Anthropic Academy](https://www.anthropic.com/learn), our training and certification program for partner engineers. DXC has added its own curriculum on top of Anthropic Academy, with training specific to the mission-critical systems its customers operate.
 
@@ -34,23 +53,3 @@ The alliance will begin in four areas where DXC already runs large operations fo
 “For more than 50 years, DXC and the companies it was built from run the systems that run the world,” said Raul Fernandez, President and CEO, DXC Technology. “We know what it takes to deliver in these environments. This alliance with Anthropic combines trust and experience with the most advanced AI technology available, and gives our customers something they cannot get anywhere else. We are already using Claude across our own operations and our new OASIS platform. Now we are scaling that capability directly into the mission-critical technology systems we run for our customers. This is a defining moment for DXC and for the industry.”
 
 To learn more about the Claude Partner Network, visit [anthropic.com/partners](http://anthropic.com/partners).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

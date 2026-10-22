@@ -1,12 +1,31 @@
-Announcements
-
 # Introducing the next generation of Claude
 
-Mar 4, 2024
+[Try Claude 3](https://anthropic.com/claude)Listen to this article
 
-[Try Claude 3](https://anthropic.com/claude)
+- Published
 
-![Claude 3 ](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4e78f69ef8d4186fb5691714abe36224483d91b0-2880x1620.png&w=3840&q=75)
+  Mar 4, 2024
+- Category
+
+  [Models](https://www.anthropic.com/news/models)
+- Topics
+
+  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+  - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
+  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+  - [Hallucination](https://www.anthropic.com/search?topic=hallucination)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+
+Related articles
+
+- Frontier Red Team
+
+  Jun 8, 2026
+
+  [Measuring LLMs’ impact on N-day exploits](https://www.anthropic.com/research/n-days)
+
+[View more](https://www.anthropic.com/search?topic=claude-opus)
 
 Today, we're announcing the Claude 3 model family, which sets new industry benchmarks across a wide range of cognitive tasks. The family includes three state-of-the-art models in ascending order of capability: Claude 3 Haiku, Claude 3 Sonnet, and Claude 3 Opus. Each successive model offers increasingly powerful performance, allowing users to select the optimal balance of intelligence, speed, and [cost](https://www.anthropic.com/api) for their specific application.
 
@@ -78,27 +97,67 @@ The Claude 3 models are better at following complex, multi-step instructions. Th
 
 **Claude 3 Opus** is our most intelligent model, with best-in-market performance on highly complex tasks. It can navigate open-ended prompts and sight-unseen scenarios with remarkable fluency and human-like understanding. Opus shows us the outer limits of what’s possible with generative AI.
 
-<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Cost<br/><br/></strong><em> [Input $/million tokens | Output $/million tokens]</em></td><td class="body-3" role="cell">$15 | $75</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Context window</strong></td><td class="body-3" role="cell">200K*</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Potential uses</strong></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Task automation: plan and execute complex actions across APIs and databases, interactive coding</li><li>R&amp;D: research review, brainstorming and hypothesis generation, drug discovery</li><li>Strategy: advanced analysis of charts &amp; graphs, financials and market trends, forecasting</li></ul></td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Differentiator</strong></td><td class="body-3" role="cell">Higher intelligence than any other model available.</td></tr></tbody></table>
+**Cost** *[Input $/million tokens | Output $/million tokens]*
 
-data
+$15 | $75
 
-*\*1M tokens available for specific use cases, please inquire.*
+**Context window**
 
-## 
+200K\*
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F08376f135c37fe029e2aea16fa55c4c83ec77b6b-1148x56.png&w=3840&q=75)
+**Potential uses**
+
+- Task automation: plan and execute complex actions across APIs and databases, interactive coding
+- R&D: research review, brainstorming and hypothesis generation, drug discovery
+- Strategy: advanced analysis of charts & graphs, financials and market trends, forecasting
+
+**Differentiator**
+
+Higher intelligence than any other model available.
+
+\*1M tokens available for specific use cases, please inquire.
 
 **Claude 3 Sonnet** strikes the ideal balance between intelligence and speed—particularly for enterprise workloads. It delivers strong performance at a lower cost compared to its peers, and is engineered for high endurance in large-scale AI deployments.
 
-<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Cost<br/><br/></strong><em> [Input $/million tokens | Output $/million tokens]</em></td><td class="body-3" role="cell">$3 | $15</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Context window</strong></td><td class="body-3" role="cell">200K</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Potential uses</strong></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Data processing: RAG or search &amp; retrieval over vast amounts of knowledge</li><li>Sales: product recommendations, forecasting, targeted marketing</li><li>Time-saving tasks: code generation, quality control, parse text from images</li></ul></td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Differentiator</strong></td><td class="body-3" role="cell">More affordable than other models with similar intelligence; better for scale.</td></tr></tbody></table>
+**Cost** *[Input $/million tokens | Output $/million tokens]*
+
+$3 | $15
+
+**Context window**
+
+200K
+
+**Potential uses**
+
+- Data processing: RAG or search & retrieval over vast amounts of knowledge
+- Sales: product recommendations, forecasting, targeted marketing
+- Time-saving tasks: code generation, quality control, parse text from images
+
+**Differentiator**
+
+More affordable than other models with similar intelligence; better for scale.
 
 data
 
-#### 
-
 **Claude 3 Haiku** is our fastest, most compact model for near-instant responsiveness. It answers simple queries and requests with unmatched speed. Users will be able to build seamless AI experiences that mimic human interactions.
 
-<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Cost<br/><br/></strong><em> [Input $/million tokens | Output $/million tokens]</em></td><td class="body-3" role="cell">$0.25 | $1.25</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Context window</strong></td><td class="body-3" role="cell">200K</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Potential uses</strong></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Customer interactions: quick and accurate support in live interactions, translations</li><li>Content moderation: catch risky behavior or customer requests</li><li>Cost-saving tasks: optimized logistics, inventory management, extract knowledge from unstructured data</li></ul></td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Differentiator</strong></td><td class="body-3" role="cell">Smarter, faster, and more affordable than other models in its intelligence category.</td></tr></tbody></table>
+**Cost** *[Input $/million tokens | Output $/million tokens]*
+
+$0.25 | $1.25
+
+**Context window**
+
+200K
+
+**Potential uses**
+
+- Customer interactions: quick and accurate support in live interactions, translations
+- Content moderation: catch risky behavior or customer requests
+- Cost-saving tasks: optimized logistics, inventory management, extract knowledge from unstructured data
+
+**Differentiator**
+
+Smarter, faster, and more affordable than other models in its intelligence category.
 
 data
 
@@ -108,8 +167,6 @@ Opus and Sonnet are available to use today in our API, which is now generally av
 
 Sonnet is also available today through Amazon Bedrock and in private preview on Google Cloud’s Vertex AI Model Garden—with Opus and Haiku coming soon to both.
 
-#### 
-
 ### Smarter, faster, safer
 
 We do not believe that model intelligence is anywhere near its limits, and we plan to release frequent updates to the Claude 3 model family over the next few months. We're also excited to release a series of features to enhance our models' capabilities, particularly for enterprise use cases and large-scale deployments. These new features will include Tool Use (aka function calling), interactive coding (aka REPL), and more advanced agentic capabilities.
@@ -118,6 +175,6 @@ As we push the boundaries of AI capabilities, we’re equally committed to ensur
 
 We’re excited to see what you create with Claude 3 and hope you will give us feedback to make Claude an even more useful assistant and creative companion. To start building with Claude, visit [anthropic.com/claude](https://www.anthropic.com/claude).
 
-#### Footnotes
+## Footnotes
 
-1. This table shows comparisons to models currently available commercially that have released evals. Our model card shows comparisons to models that have been announced but not yet released, such as Gemini 1.5 Pro. In addition, we’d like to note that engineers have worked to optimize prompts and few-shot samples for evaluations and reported higher scores for a newer GPT-4T model. [Source](https://github.com/microsoft/promptbase).
+01This table shows comparisons to models currently available commercially that have released evals. Our model card shows comparisons to models that have been announced but not yet released, such as Gemini 1.5 Pro. In addition, we’d like to note that engineers have worked to optimize prompts and few-shot samples for evaluations and reported higher scores for a newer GPT-4T model. [Source](https://github.com/microsoft/promptbase).

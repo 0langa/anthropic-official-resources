@@ -1,4 +1,4 @@
-Lesson 23 of 66 · Claude with Google Cloud's Vertex AITool functions
+Lesson 23 of 66 · Claude on Google CloudTool functions
 
 # Tool functions
 

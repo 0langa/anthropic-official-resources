@@ -1,4 +1,4 @@
-Lesson 30 of 66 · Claude with Google Cloud's Vertex AIThe batch tool
+Lesson 30 of 66 · Claude on Google CloudThe batch tool
 
 # The batch tool
 
@@ -80,7 +80,7 @@ def run_batch(invocations=[]):
     
     for invocation in invocations:
         name = invocation["name"]
-        args = json.loads(invocation["arguments"])
+        args = invocation["arguments"]
         
         tool_output = run_tool(name, args)
         

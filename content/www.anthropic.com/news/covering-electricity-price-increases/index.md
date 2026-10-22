@@ -1,10 +1,27 @@
-Policy
-
 # Covering electricity price increases from our data centers
 
-Feb 11, 2026
+- Published
 
-![Covering electricity price increases from our data centers](https://www-cdn.anthropic.com/images/4zrzovbb/website/6457c34fbcb012acf0f27f15a6006f700d0f50de-1000x1000.svg)
+  Feb 11, 2026
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)See more...
+
+Related articles
+
+- Policy
+
+  Aug 11, 2026
+
+  [Supporting Governor Abbott’s Calls for Responsible Data Center Development](https://www.anthropic.com/news/tx-data-center-support)
+
+[View more](https://www.anthropic.com/search?topic=compute-energy)
 
 As we continue to [invest in American AI infrastructure](https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure), Anthropic will cover electricity price increases that consumers face from our data centers.
 
@@ -22,23 +39,3 @@ Where we work with partners to develop data centers for handling our own workloa
 Of course, company-level action isn't enough. Keeping electricity affordable also requires systemic change. We support [federal policies](https://www.anthropic.com/news/build-ai-in-america)—including permitting reform and efforts to speed up transmission development and grid interconnection—that make it faster and cheaper to bring new energy online for everyone.
 
 Done right, AI infrastructure can be a catalyst for the broader energy investment the country needs. These commitments are the beginning of our efforts to address data centers’ impact on energy costs. We have more to do, and we’ll continue to share updates as this work develops.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

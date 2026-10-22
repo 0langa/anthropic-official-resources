@@ -1,12 +1,32 @@
-Policy
+### Chapter 08: Conclusion
 
-# 2028: Two scenarios for global AI leadership
+# **2028:**Two scenarios for global AI leadership
 
-May 14, 2026
+![2028: Two scenarios for global AI leadership](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2b05397d1ceac19b70a820a61d27dca4a5fba2e0-1920x1080.jpg&w=1920&q=75)
 
-![2028: Two scenarios for global AI leadership](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2b05397d1ceac19b70a820a61d27dca4a5fba2e0-1920x1080.jpg&w=3840&q=75)
+- Published
 
-Conclusion
+  May 14, 2026
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+  - [National security](https://www.anthropic.com/search?topic=national-security)
+  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+  - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)See more...
+
+Related articles
+
+- Policy
+
+  Jul 23, 2025
+
+  [Thoughts on America’s AI Action Plan](https://www.anthropic.com/news/thoughts-on-america-s-ai-action-plan)
+
+[View more](https://www.anthropic.com/search?topic=democratic-lead)
 
 We’re releasing a new paper that explains our views on the competition on AI between the US and China.
 
@@ -24,7 +44,7 @@ America and its allies approach AI competition from a position of great strength
 
 ## Two scenarios for the US and China in 2028
 
-## Summary
+### Summary
 
 Democracies, not authoritarian regimes, must lead in AI development and deployment. These countries and political systems can shape the rules and norms that govern these systems.
 
@@ -181,26 +201,6 @@ To ensure we land in scenario one, we support the following areas of policy acti
 
 America and its allies have developed both the world’s most capable frontier AI models and the world’s most advanced inputs to AI. This has provided a substantial advantage. If our superior access to that technology is defended, that advantage can be extended. But it will be lost if it is given directly to our competitors. The decisions made by policymakers this year will determine the future of transformative AI. We support those working to ensure that American and allied democracies are winning in 2028.
 
-#### Footnotes
+## Footnotes
 
-1. In January 2026, the House [passed a bipartisan bill](https://www.congress.gov/bill/119th-congress/house-bill/2683/all-actions) 369–22 to close that loophole; the bill has not passed the Senate.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
+01In January 2026, the House [passed a bipartisan bill](https://www.congress.gov/bill/119th-congress/house-bill/2683/all-actions) 369–22 to close that loophole; the bill has not passed the Senate.

@@ -25,9 +25,9 @@ reach for each.
 
 The simplest option is Code Review. It's an Anthropic-hosted service that reviews your pull requests through the Claude GitHub app. There's nothing for you to build or host. You turn it on, and it starts posting findings as inline comments right on the lines that matter.
 
-An organization admin enables it from the Claude Code admin settings. You'll find a Code review section with a Configure button that hooks it up to your repositories.
+An Owner of your Claude organization enables it from the Claude Code admin settings. You'll find a Code review section with an Allow code review switch that starts the setup.
 
-From there the admin installs the Claude GitHub app, picks which repos it watches, and decides when it runs. You have a few choices for timing:
+From there the Owner installs the Claude GitHub app, picks which repos it watches, and decides when it runs. If the Owner isn't also an owner of the GitHub organization, one has to install and link the app first. You have a few choices for timing:
 
 - Once when a PR opens
 - On every push to the PR
@@ -45,7 +45,7 @@ A couple of things to keep in mind about the boundaries here:
 
 - It never approves or blocks the PR. The judgment call stays with a human. Claude flags things; you decide.
 - It doesn't push fixes. The service posts findings only.
-- It's a research preview right now, available on team and enterprise plans, so expect the behavior to keep moving.
+- It's available on Team and Enterprise plans.
 
 Since the service only posts findings, acting on one is your move: fix the code and push. To check your fix before you push, run `/code-review` from your own terminal. It runs its own review of your diff, and its `--fix` flag applies that review's findings to your working tree.
 

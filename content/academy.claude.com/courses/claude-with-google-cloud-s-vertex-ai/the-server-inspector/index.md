@@ -1,4 +1,4 @@
-Lesson 53 of 66 · Claude with Google Cloud's Vertex AIThe server inspector
+Lesson 53 of 66 · Claude on Google CloudThe server inspector
 
 # The server inspector
 

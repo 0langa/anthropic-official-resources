@@ -80,7 +80,7 @@ Not every hook needs to speak JSON. For simpler hooks, exit codes do the job. Th
 
 The one that catches people out is exit code 1. It *feels* like an error, but it does not block. Claude runs the command anyway. So if you meant to stop something, exit 2, not 1.
 
-A couple more wrinkles. Exit 2 can even block Stop, which is how you tell Claude it's not done. But PostToolUse fires after the tool already ran, so blocking there is too late to stop the call, though it can still feed text back to Claude. And a few events ignore blocking entirely, like Notification and SessionStart. They'll show your standard error and carry on regardless.
+A couple more wrinkles. Exit 2 can even block Stop, which is how you tell Claude it's not done. But PostToolUse fires after the tool already ran, so blocking there is too late to stop the call, though it can still feed text back to Claude. And a few events ignore blocking entirely, like Notification and SessionStart. SessionStart shows your standard error to you only, Notification ignores it, and both carry on regardless.
 
 ## A real guardrail: redact instead of block[](https://academy.claude.com/courses/claude-code-in-action/hooks)
 

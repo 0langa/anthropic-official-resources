@@ -1,16 +1,33 @@
-Product
-
 # Claude Code and new admin controls for business plans
 
-Aug 20, 2025
+- Published
 
-![A hand and a graph, signaling growth](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4a3b1276cc8de8f453e3c7b7840b1b7a8b22ade5-2880x1620.png&w=3840&q=75)
+  Aug 20, 2025
+- Category
+
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Access](https://www.anthropic.com/search?topic=access)See more...
+
+Related articles
+
+- Security
+
+  Feb 20, 2026
+
+  [Making frontier cybersecurity capabilities available to defenders](https://www.anthropic.com/news/claude-code-security)
+
+[View more](https://www.anthropic.com/search?topic=claude-code)
 
 Enterprise and Team customers can now upgrade to premium seats that include more usage and Claude Code—bringing our app and powerful coding agent together under one subscription. Users can move seamlessly between ideation and implementation, while admins get the visibility and controls they need to scale Claude across their organization.
 
 We are also introducing a new Compliance API, giving organizations programmatic access to usage data and customer content for better observability, auditing, and governance.
 
-## Add Claude Code to your plan
+### Add Claude Code to your plan
 
 Admins have full flexibility to assign standard or premium seats according to individual user requirements and organizational roles. Premium seats give users access to both Claude and Claude Code, enabling them to partner with Claude throughout the entire development lifecycle.
 
@@ -20,13 +37,13 @@ Early customers like Behavox, a compliance and security company, have seen immed
 
 Altana, the AI-powered Product Network connecting the global supply chain, has experienced similar transformational results. “Claude Code and Claude have accelerated Altana's development velocity by 2-10x, transforming how we build sophisticated AI/ML systems that facilitate multi-party collaboration on large-scale knowledge graphs of global supply chains,” says Peter Swartz, Co-founder and Chief Science Officer. “We're taking on significantly more ambitious projects as a result.”
 
-## Flexible pricing, predictable costs
+### Flexible pricing, predictable costs
 
 Claude seats include enough usage for a typical workday, but for times when your teams need access to more intelligence and additional conversations with Claude–admins can enable extra usage for individual users at standard API rates. Admins have control over the maximum amount a user can spend with extra usage to ensure that users get flexibility and admins get predictable billing.
 
 This approach provides a simple way to scale with Claude, while offering centralized billing, management, and enterprise-grade administrative controls at every step.
 
-## Admin control and management
+### Admin control and management
 
 We've built new comprehensive controls that give organizations the visibility and management capabilities they need to enable employees to work productively with Claude.
 
@@ -35,34 +52,14 @@ We've built new comprehensive controls that give organizations the visibility an
 - **Usage analytics**: View Claude Code analytics in Claude, including metrics like lines of code accepted, suggestion accept rate, and usage patterns.
 - **Managed policy settings**: Deploy and enforce settings across all Claude Code users to match internal policies, including tool permissions, file access restrictions, and MCP server configurations.
 
-## Compliance API
+### Compliance API
 
 Enterprise organizations can now better meet regulatory requirements with our new Compliance API. Rather than manual exports and periodic reviews, compliance teams get real-time programmatic access to Claude usage data and customer content, enabling them to build continuous monitoring and automated policy enforcement systems.
 
 Administrators can integrate Claude data into existing compliance dashboards, automatically flag potential issues, and manage data retention through selective deletion capabilities. This provides the visibility and control organizations need to scale AI adoption while meeting regulatory obligations.
 
-## Getting started
+### Getting started
 
 Team and Enterprise plan admins can now upgrade to premium seats with Claude Code—and take advantage of flexible pricing with extra usage options. Both Team and Enterprise plans include granular spend caps, self-serve seat management, and Claude Code usage analytics.
 
 To explore how Claude for Enterprise can transform your organization's productivity and learn more about the Compliance API, [contact](https://www.anthropic.com/contact-sales) our sales team.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

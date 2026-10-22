@@ -2,7 +2,7 @@
 
 # Features
 
-1
+3
 
 ARTICLES
 
@@ -23,6 +23,24 @@ Date
   Sep 21, 2026
 
   [### The Situation Report](https://www.anthropic.com/features/ebola-response)[A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible.](https://www.anthropic.com/features/ebola-response)
+- [### The making of Claude Code](https://www.anthropic.com/features/making-of-claude-code)
+
+  [The inside story of how Claude Code went from an internal CLI to Anthropic's coding agent, told by researchers, engineers and early users who built it.](https://www.anthropic.com/features/making-of-claude-code)
+
+  Feb 23, 2026
+
+  Feb 23, 2026
+
+  [### The making of Claude Code](https://www.anthropic.com/features/making-of-claude-code)[The inside story of how Claude Code went from an internal CLI to Anthropic's coding agent, told by researchers, engineers and early users who built it.](https://www.anthropic.com/features/making-of-claude-code)
+- [### The first AI-planned drive on Mars](https://www.anthropic.com/features/claude-on-mars)
+
+  [The first AI-assisted drive on another planet. Claude helped NASA's Perseverance rover travel four hundred meters on Mars.](https://www.anthropic.com/features/claude-on-mars)
+
+  Jan 24, 2026
+
+  Jan 24, 2026
+
+  [### The first AI-planned drive on Mars](https://www.anthropic.com/features/claude-on-mars)[The first AI-assisted drive on another planet. Claude helped NASA's Perseverance rover travel four hundred meters on Mars.](https://www.anthropic.com/features/claude-on-mars)
 
 ## Contact us or download our press kit
 

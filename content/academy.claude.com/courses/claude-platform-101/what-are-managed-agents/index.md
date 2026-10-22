@@ -70,7 +70,7 @@ The agent also reads from and writes to a **memory store**. Before it starts, it
 
 ## Example 3: Incident response with multiple agents[](https://academy.claude.com/courses/claude-platform-101/what-are-managed-agents)
 
-Now imagine an alert fires from your monitoring stack. A **custom tool** on your back end receives the alert payload and sends it into a new session as a tool result. This session uses **multi-agent coordination**:
+Now imagine an alert fires from your monitoring stack. Your back end receives the alert payload and sends it into a new session as a user message. If an agent needs more from your monitoring stack, it calls a **custom tool**: your back end runs it and returns the result to the same session. This session uses **multi-agent coordination**:
 
 - A **coordinator agent** receives the alert and delegates to three specialists.
 - Each specialist runs in its own context window on the same shared file system.
@@ -78,7 +78,7 @@ Now imagine an alert fires from your monitoring stack. A **custom tool** on your
 
 ![An incident response dashboard for an API latency spike alert, with Diagnostics, Log Analysis, and Communications specialist panels pending while a Past Incidents panel searches memory for patterns](https://academy.claude.com/assets/media/3b13fbf85dfdb9de7661bacdcf8972dfe939bc9953b06563d22dcf72a4aff403.png)
 
-Before the summary goes to Slack, the **permissions policy** fires. You see the draft on screen, approve it, and the message goes out. Sensitive actions wait for a human.
+Before the summary goes to Slack, the **permission policy** fires. You see the draft on screen, approve it, and the message goes out. Sensitive actions wait for a human.
 
 Memory ties all of this together. The coordinator checks past incidents in the memory store and flags a pattern: "this looks like the DNS resolution issue from two weeks ago that was caused by a misconfigured TTL." The next time a similar alert fires, the agent starts with that context instead of diagnosing from scratch.
 
@@ -101,7 +101,7 @@ Across these examples, managed agents gives developers the tools to deliver a fu
 - It runs the familiar agent loop — reason, call a tool, read the result, repeat — inside an isolated container with file system access, bash execution, and web search.
 - Sessions run in environments you configure, work in parallel, and stream tool calls back to your app in real time.
 - Rubrics and separate graders let you define success criteria; Claude iterates until it meets them.
-- Memory, MCP servers, custom tools, permissions policies, and multi-agent coordination round out the stateful agent experience.
+- Memory, MCP servers, custom tools, permission policies, and multi-agent coordination round out the stateful agent experience.
 - You define what done looks like. Claude works until it gets there.
 
 Was this helpful?

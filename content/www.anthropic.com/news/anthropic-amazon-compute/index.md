@@ -1,10 +1,28 @@
-Announcements
-
 # Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute
 
-Apr 20, 2026
+- Published
 
-![Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute](https://www-cdn.anthropic.com/images/4zrzovbb/website/ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
+  Apr 20, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Funding](https://www.anthropic.com/search?topic=funding)
+  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)See more...
+
+Related articles
+
+- Announcements
+
+  May 28, 2026
+
+  [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)
+
+[View more](https://www.anthropic.com/search?topic=compute-energy)
 
 We have signed a new agreement with Amazon that will deepen our existing partnership and secure up to 5 gigawatts (GW) of capacity for training and deploying Claude, including new Trainium2 capacity coming online in the first half of this year and nearly 1GW total of Trainium2 and Trainium3 capacity coming online by the end of 2026.
 
@@ -31,23 +49,3 @@ Today’s agreement will quickly expand our available capacity, delivering meani
 To learn more about Anthropic on AWS, visit: <https://aws.amazon.com/bedrock/anthropic/>.
 
 *Updated April 21st to clarify Claude Platform on AWS is coming soon.*
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

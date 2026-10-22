@@ -1,16 +1,33 @@
-Announcements
-
 # Widening the conversation on frontier AI
 
-May 19, 2026
+- Published
 
-![Widening the conversation on frontier AI](https://www-cdn.anthropic.com/images/4zrzovbb/website/8d339ae8ecedecc1409db8f5bbb99c958db56946-1000x1000.svg)
+  May 19, 2026
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+  - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)
+  - [Human flourishing](https://www.anthropic.com/search?topic=human-flourishing)See more...
+
+Related articles
+
+- Policy
+
+  Jan 22, 2026
+
+  [Claude's new constitution](https://www.anthropic.com/news/claude-new-constitution)
+
+[View more](https://www.anthropic.com/search?topic=claude-s-character)
 
 At Anthropic, we want to build AI systems that advance humanity and act for the global good. To do so, we need to engage with those who see the world from a variety of different perspectives.
 
 Over the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI. Our first round of discussions has been with wisdom traditions—including scholars, clergy, philosophers, and ethicists from more than 15 religious and cross-cultural groups—and we look forward to engaging with a broader range of people going forward.
 
-## **Why we’re doing this**
+### Why we’re doing this
 
 Building safe, beneficial AI models requires deep technical work on alignment, interpretability, safeguards, evaluations, and more. But that work isn’t conducted—nor is AI deployed—in a vacuum. AI is already affecting many people and the questions it raises benefit from a range of perspectives.
 
@@ -18,7 +35,7 @@ We are thinking carefully about what a flourishing future could look like in a w
 
 This work is in its early phases, but we hope these conversations might inform the practical work of developing Claude, such as the content of Claude's constitution, the values we train Claude to embody, and the range of behaviors we choose to evaluate.
 
-## **Starting with moral formation**
+### Starting with moral formation
 
 When we wrote Claude’s constitution, we sought feedback and input on the values we laid out in the document from people from different fields and traditions. Those early exchanges have since grown into a broader research workstream on the *moral formation* of AI systems. Our first conversations have been with people from religious, philosophical, and cultural communities that have a long tradition of thinking about virtue, character, and what it means to live a good life.
 
@@ -30,28 +47,8 @@ Even at this early stage, these conversations are generating ideas to experiment
 
 These discussions are the first of many, and we're grateful to everyone who has already given us their time and honest perspective.
 
-## **What's next**
+### What's next
 
 In the months ahead, we plan to engage with more groups—including legal scholars, psychologists, writers, and civic institutions. Many of these conversations will move beyond moral formation toward broader questions about how AI is reshaping work, institutions, and the distribution of power.
 
 We’ll keep deepening the relationships we’ve already formed, testing what we’ve heard against our research, and sharing what we learn.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

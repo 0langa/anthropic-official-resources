@@ -1,8 +1,28 @@
-AnnouncementsPolicy
-
 # Statement from Dario Amodei on our discussions with the Department of War
 
-Feb 26, 2026
+- Published
+
+  Feb 26, 2026
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [National security](https://www.anthropic.com/search?topic=national-security)
+  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+  - [Privacy](https://www.anthropic.com/search?topic=privacy)
+  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)See more...
+
+Related articles
+
+- Policy
+
+  Feb 27, 2026
+
+  [Statement on the comments from Secretary of War Pete Hegseth](https://www.anthropic.com/news/statement-comments-secretary-war)
+
+[View more](https://www.anthropic.com/search?topic=national-security)
 
 I believe deeply in the existential importance of using AI to defend the United States and other democracies, and to defeat our autocratic adversaries.
 
@@ -26,23 +46,3 @@ Regardless, these threats do not change our position: we cannot in good conscien
 It is the Department’s prerogative to select contractors most aligned with their vision. But given the substantial value that Anthropic’s technology provides to our armed forces, we hope they reconsider. Our strong preference is to continue to serve the Department and our warfighters—with our two requested safeguards in place. Should the Department choose to offboard Anthropic, we will work to enable a smooth transition to another provider, avoiding any disruption to ongoing military planning, operations, or other critical missions. Our models will be available on the expansive terms we have proposed for as long as required.
 
 We remain ready to continue our work to support the national security of the United States.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

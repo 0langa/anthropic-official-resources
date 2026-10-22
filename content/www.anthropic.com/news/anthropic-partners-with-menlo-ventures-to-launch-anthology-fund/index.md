@@ -1,8 +1,27 @@
-Announcements
-
 # Anthropic partners with Menlo Ventures to launch Anthology Fund
 
-Jul 17, 2024
+- Published
+
+  Jul 17, 2024
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Funding](https://www.anthropic.com/search?topic=funding)
+  - [Access](https://www.anthropic.com/search?topic=access)
+  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+
+Related articles
+
+- Partnerships
+
+  Nov 18, 2025
+
+  [Microsoft, NVIDIA, and Anthropic announce strategic partnerships](https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships)
+
+[View more](https://www.anthropic.com/search?topic=partnerships)
 
 We’re launching the Anthology Fund in partnership with Menlo Ventures to accelerate the development of groundbreaking AI applications. The Fund is a $100 million initiative financed by Menlo to support startups innovating broadly with Anthropic technology.
 
@@ -17,23 +36,3 @@ Startups backed by the Anthology Fund will gain access to Anthropic products and
 We look forward to working with Menlo in supporting the startup ecosystem and driving responsible AI innovation.
 
 Interested startups can learn more and apply [here](https://menlovc.com/anthology-fund-application/).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

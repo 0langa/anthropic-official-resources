@@ -1,10 +1,31 @@
-Announcements
-
 # Expanding Project Glasswing
 
-Jun 2, 2026
+![Expanding Project Glasswing](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F19e93d85e033d3f992b78cbce2c5a3f60709bd3b-3840x2160.jpg&w=1920&q=75)
 
-![Expanding Project Glasswing](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F19e93d85e033d3f992b78cbce2c5a3f60709bd3b-3840x2160.jpg&w=3840&q=75)
+- Published
+
+  Jun 2, 2026
+- Category
+
+  [Security](https://www.anthropic.com/news/security)
+- Topics
+
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Access](https://www.anthropic.com/search?topic=access)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Open source](https://www.anthropic.com/search?topic=open-source)
+  - [National security](https://www.anthropic.com/search?topic=national-security)See more...
+
+Related articles
+
+- Security
+
+  Oct 8, 2026
+
+  [Introducing the Anthropic Cyber Mission](https://www.anthropic.com/news/anthropic-cyber-mission)
+
+[View more](https://www.anthropic.com/search?topic=cybersecurity)
 
 [Project Glasswing](https://www.anthropic.com/glasswing) is our collaborative effort to secure the world’s most important software. In early April, we announced that roughly 50 initial partners had access to Claude Mythos Preview, and since then, they’ve been deploying the model to scan their codebases for vulnerabilities. We recently [described](https://www.anthropic.com/research/glasswing-initial-update) how these partners have so far found more than 10,000 high- or critical-severity security flaws.
 
@@ -16,7 +37,7 @@ What each partner has in common is that a successful attack on their codebase co
 
 This expansion is the next step toward our long-term goals: for AI to make *all* software more secure, and for us to help the industry adjust to how AI could change many of the core assumptions of cybersecurity.
 
-## The role of Project Glasswing
+### The role of Project Glasswing
 
 Project Glasswing and the capabilities of Claude Mythos Preview have sparked broad conversations—both within the software industry and with governments—about how AI is changing cybersecurity. These conversations have informed how we’ve expanded the program. They’ve also shaped our thinking about the very purpose of Project Glasswing.
 
@@ -26,7 +47,7 @@ Mythos Preview continues a long-term trend that we’ve been warning about for s
 
 We see our role as twofold. First, to help the software industry adapt by safely providing wide access to better models, tools, and common infrastructure. Second, to steadily shift the support we provide, from finding vulnerabilities to disclosing, fixing, and deploying patched software. We’ll now discuss each of these in turn.
 
-### Supporting cyberdefenders
+#### Supporting cyberdefenders
 
 So far, companies, nonprofits, maintainers, and researchers have acted quickly. Within the first weeks of Project Glasswing, each member began using Mythos Preview at large scale, sharing information and best practices with other partners, and working with third parties to triage the model’s findings. These organizations’ methods for adapting to new tools can, and should, be replicated widely across the millions of organizations and developers who are vulnerable to cyberattacks.
 
@@ -34,7 +55,7 @@ To support this, we recently released [Claude Security](https://claude.com/produ
 
 We intend to go much further: our longer-term aim is to support the industry in creating new initiatives, standards, and infrastructure for the era of powerful cyber models.
 
-### Accelerating patching and the rest of security
+#### Accelerating patching and the rest of security
 
 As we’ve [previously discussed](https://www.anthropic.com/research/glasswing-initial-update), the bottleneck in cybersecurity is now verifying, disclosing, and patching the large numbers of vulnerabilities that Mythos-class models can surface.
 
@@ -42,7 +63,7 @@ Mythos Preview itself can help. Many of Project Glasswing’s partners now use t
 
 We’re in discussions with third parties about how we might substantially scale up the reviewing and patching of vulnerabilities in open-source software. We’re also working on sharing ideas and best practices for disclosing vulnerabilities to open-source maintainers, with the intent of making these reports easier to triage and to act upon.
 
-## The path ahead
+### The path ahead
 
 To address the scale of this coming challenge, hundreds of thousands of organizations, researchers, and maintainers will likely need access to the most advanced cyber capabilities and tools available.
 
@@ -51,23 +72,3 @@ We’re working as quickly as we can to safely release Mythos-level capabilities
 In the meantime, we plan to expand Project Glasswing even further—prioritizing additional essential infrastructure providers, maintainers of critical open-source software, and safety testers. We intend for future expansions to cover organizations in the US and overseas, just as this one does. We also intend to scale up our Cyber Verification Program, which would grant Mythos-class capabilities to many more organizations for specific cyberdefense tasks.
 
 In the future, frontier model releases will become increasingly high-stakes. Capabilities will continue to improve across all domains, including many that—like cybersecurity—can empower attackers and defenders alike. This will not be the last time we need to confront a challenge like this one. But Project Glasswing has taught us a great deal about how to respond when models cross important capability thresholds. If we’re successful, we hope to enable a permanent advantage for defenders.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

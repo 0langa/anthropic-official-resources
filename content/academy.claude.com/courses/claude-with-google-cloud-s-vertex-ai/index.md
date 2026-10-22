@@ -1,6 +1,6 @@
-# Claude with Google Cloud's Vertex AI
+# Claude on Google Cloud
 
-Working with Anthropic models through Google Cloud's Vertex AI: setup, prompting, tool use, RAG, agents, and production deployment patterns.
+Working with Anthropic models through Google Cloud's Agent Platform: setup, prompting, tool use, RAG, agents, and production deployment patterns.
 
 66 lessons8.5 hr9 quizzesCompletion badge
 
@@ -8,11 +8,11 @@ Working with Anthropic models through Google Cloud's Vertex AI: setup, prompting
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-i2dtezl2.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nlnnq0x4.png)
 
-66 lessons · 9 quizzesClaude with Google Cloud's Vertex AI
+66 lessons · 9 quizzesClaude on Google Cloud
 
 What you’ll learnBy the end of this course, you’ll be able to
 
-- Set up and configure Claude models through Google Cloud's Vertex AI
+- Set up and configure Claude models through Google Cloud's Agent Platform
 - Implement multi-turn conversations with proper message handling and context management
 - Design and evaluate prompts using systematic testing workflows and automated grading techniques
 - Apply prompt engineering principles including XML tag structuring, example-based learning, and output control
@@ -20,7 +20,6 @@ What you’ll learnBy the end of this course, you’ll be able to
 - Develop RAG pipelines using text chunking, embeddings, BM25 search, and contextual retrieval techniques
 - Utilize advanced Claude features including vision capabilities, PDF processing, citation generation, and prompt caching
 - Implement the Model Context Protocol for creating custom tools, resources, and prompt templates
-- Configure and deploy Anthropic Apps including Claude Code for automated development tasks and Computer Use for UI automation
 - Design agent-based workflows with parallelization, chaining, and routing patterns for complex AI systems
 
 Who it’s for
@@ -31,7 +30,8 @@ Before you start
 
 - Proficiency in Python programming
 - Basic knowledge of handling JSON data
-- A Google Cloud account with Vertex AI access
+- A Google Cloud account with Agent Platform access
+- A Claude API key alongside your Google Cloud account, because the project in the Model Context Protocol section calls the Claude API directly
 
 This course covers using Claude models on Google Cloud. You'll implement core API features like streaming and tool use, build systematic prompt evaluation pipelines, understand RAG systems, and investigate agent architectures.
 

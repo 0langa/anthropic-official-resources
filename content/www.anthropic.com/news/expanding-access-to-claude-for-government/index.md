@@ -1,14 +1,35 @@
-Announcements
-
 # Expanding access to Claude for government
 
-Jun 26, 2024
+- Published
+
+  Jun 26, 2024
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+  - [National security](https://www.anthropic.com/search?topic=national-security)
+  - [Access](https://www.anthropic.com/search?topic=access)
+  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+
+Related articles
+
+- Policy
+
+  Sep 4, 2025
+
+  [Updating restrictions of sales to unsupported regions](https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions)
+
+[View more](https://www.anthropic.com/search?topic=government-capacity)
 
 Anthropic's mission is to build reliable, interpretable, steerable AI systems. We have been excited to see our technology used in areas like coding, customer service, drug discovery, and medical research. We're eager to make these tools available through expanded offerings to government users. Leveraging the flexibility and security of Amazon Web Services [AWS], our AI models Claude 3 Haiku and Claude 3 Sonnet are now available in the AWS Marketplace for the US Intelligence Community [IC] and in AWS GovCloud.
 
 Claude offers a wide range of potential applications for government agencies, both in the present and looking toward the future. Government agencies can use Claude to provide improved citizen services, streamline document review and preparation, enhance policymaking with data-driven insights, and create realistic training scenarios. In the near future, AI could assist in disaster response coordination, enhance public health initiatives, or optimize energy grids for sustainability. Used responsibly, AI has the potential to transform how elected governments serve their constituents and promote peace and security.
 
-## Adapting to government needs
+### Adapting to government needs
 
 We have been carefully considering the needs of public servants about how Claude could be used to further their missions and the unique needs of government users. In addition to making our models available in the AWS marketplaces that meet stringent government security standards, we are also adapting our service agreements to the unique needs, missions, and legal authorities of governments.
 
@@ -16,26 +37,6 @@ For example, we have crafted a set of [contractual exceptions](https://support.a
 
 At present, this policy applies only to models that are at AI Safety Level 2 (ASL-2) under our [Responsible Scaling Policy](https://www.anthropic.com/news/anthropics-responsible-scaling-policy) (RSP). As we move forward, we commit to regularly evaluating our partnerships and their impacts. Our goal remains constant: ensuring that AI serves the public interest while maintaining our empirical approach to mitigating potential risks.
 
-## Commitment to responsible AI deployment
+### Commitment to responsible AI deployment
 
 Since our founding, we have been committed to working to support effective government policies about AI. We have stressed the importance of working with governments to develop [effective testing and measurement regimes](https://www.anthropic.com/news/third-party-testing) and recently provided [pre-release access](https://www.anthropic.com/news/claude-3-5-sonnet) of Claude 3.5 Sonnet to the UK Artificial Intelligence Safety Institute (UK AISI), which conducted pre deployment testing and shared their results with US AI Safety Institute (US AISI). We believe working with governments is essential to ensuring the world safely makes the transition toward transformative AI and are committed to working toward this goal.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

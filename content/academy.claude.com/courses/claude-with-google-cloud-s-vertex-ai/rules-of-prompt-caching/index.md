@@ -1,4 +1,4 @@
-Lesson 47 of 66 · Claude with Google Cloud's Vertex AIRules of prompt caching
+Lesson 47 of 66 · Claude on Google CloudRules of prompt caching
 
 # Rules of prompt caching
 
@@ -37,7 +37,7 @@ user_message = {
   "content": [
     {
       "type": "text",
-      "text": "",
+      "text": "Hi there!",
       "cache_control": {
         "type": "ephemeral"
       }

@@ -1,8 +1,25 @@
-Announcements
-
 # Jay Kreps appointed to Anthropic's Board of Directors
 
-May 29, 2024
+- Published
+
+  May 29, 2024
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Leadership](https://www.anthropic.com/search?topic=leadership)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+
+Related articles
+
+- Announcements
+
+  Nov 7, 2025
+
+  [New offices in Paris and Munich expand Anthropic’s European presence](https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence)
+
+[View more](https://www.anthropic.com/search?topic=leadership)
 
 Today, we're announcing that Jay Kreps, co-founder and CEO of Confluent, has joined Anthropic's Board of Directors. Jay's extensive experience in building and scaling highly successful tech companies will play an important role as Anthropic prepares for the next phase of growth. His deep expertise in data infrastructure and open-source software development will be particularly valuable as we build data-driven product experiences for our growing base of enterprise customers.
 
@@ -13,23 +30,3 @@ Jay was appointed to the board by Anthropic's Long-Term Benefit Trust. As a memb
 Daniela Amodei, co-founder and President of Anthropic, said, "As a seasoned founder, Jay brings a wealth of expertise in building and scaling highly technical businesses, serving customers, and leading fast-growing teams. His track record, coupled with his commitment to ensuring AI is developed and deployed responsibly make him an invaluable asset to our Board. At the same time, I would like to extend my deepest gratitude to Luke for his contributions to Anthropic. His guidance and thoughtfulness helped the company navigate our first phase of growth in line with our public benefit mission, and we wish him the very best."
 
 Neil Buddy Shah, Chair of Anthropic's Long-Term Benefit Trust and CEO of the Clinton Health Access Initiative, said, "Jay is an outstanding addition to the board, and I am confident that his expertise and leadership will guide Anthropic through the scale that is to come, while upholding the company’s deep and founding commitment to building safe and trustworthy AI systems."
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

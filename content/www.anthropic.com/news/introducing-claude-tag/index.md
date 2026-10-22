@@ -1,10 +1,30 @@
-Product
-
 # Introducing Claude Tag
 
-Jun 23, 2026
+![Introducing Claude Tag](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F301d5ee481a352435c048a9df7ce172b9617b05f-2400x1260.png&w=1920&q=75)
 
-![Introducing Claude Tag](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F301d5ee481a352435c048a9df7ce172b9617b05f-2400x1260.png&w=3840&q=75)
+- Published
+
+  Jun 23, 2026
+- Category
+
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+  - [Productivity](https://www.anthropic.com/search?topic=productivity)See more...
+
+Related articles
+
+- Partnerships
+
+  Jul 27, 2026
+
+  [Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients](https://www.anthropic.com/news/cognizant-anthropic)
+
+[View more](https://www.anthropic.com/search?topic=claude-for-enterprise)
 
 Claude Tag is a new way for teams to work with Claude.
 
@@ -16,7 +36,7 @@ We see Claude Tag as the beginning of an evolution of Claude Code: it makes the 
 
 We’re launching [Claude Tag on Slack](https://www.claude.com/product/tag), since it’s a natural home for collaborative work between teams and AI, and where much of Anthropic’s day-to-day work already happens. It’s available today in beta for Claude Enterprise and Team customers. Our goal is to expand where it’s available more widely, so that teams can tag @Claude in the many other places they work.
 
-## Working with @Claude
+### Working with @Claude
 
 If you’ve worked with Claude Code or Cowork before, Claude Tag will feel familiar. Tag @Claude with a request in simple terms and it’ll break its task down into stages and then work through them in turn, using the tools it has access to. Once it’s done, it’ll respond in a Slack thread with what it’s created.
 
@@ -32,7 +52,7 @@ But tagging Claude comes with a few new advantages:
 
 You can also send Claude direct messages: it’ll respond privately, using the personal tools and connectors you’ve set up.
 
-## Getting started
+### Getting started
 
 We’ve designed Claude Tag with teams and organizations in mind: @Claude’s access to sensitive data and task-specific tools can be very tightly controlled.
 
@@ -40,7 +60,7 @@ To get up and running, system administrators specify which tools and information
 
 Once permissions are set, everyone can begin tagging right away. Administrators can set limits for token spend (both for the organization and for individual channels), and can view a log of everything that @Claude has done, along with who requested each task.
 
-If you’re a Claude Enterprise or Team customer, you have access to Claude Tag in beta starting today. To get started, [visit here](http://claude.ai/redirect/website.v1.3e2fee3d-df52-41c4-ab3f-9af966bffb0b/admin-settings/claude-in-slack) and follow these four steps:
+If you’re a Claude Enterprise or Team customer, you have access to Claude Tag in beta starting today. To get started, [visit here](http://claude.ai/admin-settings/claude-in-slack) and follow these four steps:
 
 1. Pair Claude Tag with your Slack workspace
 2. Give Claude access to your tools
@@ -50,23 +70,3 @@ If you’re a Claude Enterprise or Team customer, you have access to Claude Tag 
 Claude Tag replaces the existing [Claude in Slack](https://support.claude.com/en/articles/11506255-get-started-with-claude-in-slack) app. To migrate, administrators can opt in within 30 days. We’re issuing an introductory [launch credit](https://support.claude.com/en/articles/15575654) to eligible Enterprise and Team organizations so that the whole company can try it out.
 
 Claude Tag works with Opus 4.8. You can [read our docs](https://www.claude.com/docs/claude-tag/overview) and [product page](https://www.claude.com/product/tag).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

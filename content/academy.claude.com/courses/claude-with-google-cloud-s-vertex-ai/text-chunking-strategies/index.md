@@ -1,4 +1,4 @@
-Lesson 35 of 66 · Claude with Google Cloud's Vertex AIText chunking strategies
+Lesson 35 of 66 · Claude on Google CloudText chunking strategies
 
 # Text chunking strategies
 

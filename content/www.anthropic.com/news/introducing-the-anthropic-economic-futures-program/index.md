@@ -1,10 +1,28 @@
-AnnouncementsPolicy
-
 # Introducing the Anthropic Economic Futures Program
 
-Jun 27, 2025
+- Published
 
-![A stock chart moving up and to the right](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7a472632580035058bc13bfea3b965fbb471a04e-1920x1079.png&w=3840&q=75)
+  Jun 27, 2025
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)See more...
+
+Related articles
+
+- Economics
+
+  Aug 12, 2026
+
+  [Reviewing the evidence on worker retraining programs](https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs)
+
+[View more](https://www.anthropic.com/search?topic=economic-futures)
 
 Today, we're announcing the [**Anthropic Economic Futures Program**](https://www.anthropic.com/economic-futures), a new initiative to support research and policy development focused on addressing AI’s economic impacts. We’re launching this initiative to understand how AI is reshaping the way we work and surface proposals on how to prepare for this shift. This program will serve as an extension of Anthropic’s Economic Index and its insights on AI usage across the workforce. Our goal for this program is to contribute to the development of new research and potential responses to the impacts of AI on the labor market and global economy. To accomplish this, the Economic Futures Program will focus on three pillars:
 
@@ -20,13 +38,13 @@ To start, the Economic Futures Program will fund research and bring together ind
 - **Economic Futures Symposia:** We are seeking evidence-based policy proposals that provide actionable recommendations for responding to AI’s effect on the labor market and economy. Authors of selected proposals will be invited to present at symposia events in Washington, DC (September 2025) and London (Novemberl 2025). Proposals for the Washington, DC symposia are due July 25, 2025. Proposals for the London symposia are due September 12, 2025. Learn more [here](https://www.anthropic.com/economic-futures) and apply [here](https://forms.gle/KLJ6FzBcpwUNxFVX7).
 - **Strategic Partnerships with Research Institutions:** We’re eager to partner with independent research institutions to expand the ecosystem of academics and research organizations who are contributing to this body of work. We will provide partners with API credits and other resources to support research into AI’s economic use and application. If you are an independent research institution interested in partnering with us on our Economic Futures work, please email a brief description of your organization and the specific research efforts you propose to support to [economicfutures@anthropic.com](mailto:economicfutures@anthropic.com).
 
-## Why This Matters Now
+### Why This Matters Now
 
 The economic questions raised by AI are both urgent and complex. Policymakers and industry leaders need a rigorous view of what’s *actually* happening as AI adoption continues to expand across global labor markets and workplaces. There's no shortage of opinions about AI's economic outcomes. We believe it's fundamental to ground these conversations in real-world data and invest in ongoing empirical analysis to track AI usage trends over time. That’s why we launched the [Economic Index](https://www.anthropic.com/economic-index) –publishing research and public datasets on AI usage across the economy–as a first step.
 
 But we recognize that publishing data alone is not enough. We must also discuss potential solutions for managing AI’s impact on the economy and work. The proposals and frameworks we’ll need for the AI-enabled economy will require policymakers to consider fundamental questions about work, meaning, and what we want from the economy. There are already [early signs](https://www.axios.com/2025/05/29/ai-college-grads-work-jobs) of AI’s impact on the workforce. This is why we need research that keeps pace with AI’s development, to understand in real-time where this technology is creating economic opportunity—new jobs, increased productivity, novel forms of value creation—as well as where it might be causing dramatic shifts in labor dynamics. We believe this kind of effort can equip policymakers and broader society to successfully navigate the future.
 
-## Looking Ahead
+### Looking Ahead
 
 Society’s response to AI is not predetermined. The decisions we make today about how to develop, deploy, and govern AI will have long-term ramifications.
 
@@ -35,23 +53,3 @@ The Anthropic Economic Futures Program represents our commitment to supporting t
 Visit [anthropic.com/economic-futures](https://www.anthropic.com/economic-futures) to submit your research proposal or learn more about the program. For questions, contact [economicfutures@anthropic.com](mailto:economicfutures@anthropic.com).
 
 *Learn more about our economic research through the [Anthropic Economic Index](https://www.anthropic.com/economic-index) and explore our broader research initiatives at [anthropic.com/research](https://www.anthropic.com/research).*
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

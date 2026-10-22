@@ -1,10 +1,29 @@
-Announcements
-
 # Salesforce teams up with Anthropic to enhance Einstein capabilities with Claude
 
-Sep 3, 2024
+- Published
 
-![Salesforce / Anthropic logo lockup](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcff347377415cb4297df91cbea409aedbaa4f311-2880x1621.png&w=3840&q=75)
+  Sep 3, 2024
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+  - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
+  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+
+Related articles
+
+- Partnerships
+
+  May 19, 2026
+
+  [KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance](https://www.anthropic.com/news/anthropic-kpmg)
+
+[View more](https://www.anthropic.com/search?topic=partnerships)
 
 Salesforce customers can now select [Claude models](https://www.anthropic.com/claude) for AI-powered Salesforce applications and experiences built with the Salesforce Platform. The latest Claude models—Claude 3.5 Sonnet, Claude 3 Opus, and Claude 3 Haiku—are now available to Salesforce customers using Amazon Bedrock.
 
@@ -16,7 +35,7 @@ Claude is designed for enterprise-grade security and accuracy, with industry-lea
 
 *– Kaushal Kurapati, Senior Vice President of Product for AI at Salesforce*
 
-## Use Cases Across Industries:
+### Use Cases Across Industries:
 
 - **Sales and Marketing**: Generate tailored pitches, analyze call transcripts, create personalized content, and evaluate campaign performance.
 - **Customer Service**: Summarize cases and generate personalized responses.
@@ -24,7 +43,7 @@ Claude is designed for enterprise-grade security and accuracy, with industry-lea
 - **Legal and Technology**: Analyze contracts and user feedback, generate product descriptions.
 - **Media and Entertainment**: Generate content ideas and create personalized recommendations.
 
-## Integration Details:
+### Integration Details:
 
 Salesforce customers can now access the latest Claude 3.5 Sonnet, Claude 3 Opus, and Claude 3 Haiku models through the Bring Your Own Large Language Model (BYO LLM) feature in Salesforce’s tools that make it easy for admins and developers to create and customize AI applications without needing advanced coding skills. These tools help Salesforce admins and developers customize, build, and extend their AI applications.
 
@@ -36,7 +55,7 @@ This integration allows users to:
 
 All interactions with Claude flow through Salesforce's secure AI systems, ensuring responsible AI use with safeguards like dynamic grounding and toxicity detection through the [Einstein Trust Layer](https://www.salesforce.com/products/secure-ai/?d=cta-body-promo-8).
 
-## Getting Started:
+### Getting Started:
 
 1. Access [Einstein Studio](https://www.salesforce.com/artificial-intelligence/ai-builder/) in Salesforce Data Cloud
 2. Select the Foundation Models tab and click "Add Foundation Model"
@@ -54,23 +73,3 @@ For more information on how to leverage Claude within your Salesforce environmen
 ![Salesforce product screen](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5d0eec6c2d66f65782d0700761e6b093ff9dc775-2880x1620.jpg&w=3840&q=75)
 
 ![Salesforce product screenshot](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8460665b8e289b2c80ad3cf9092193dec51274db-2880x1620.jpg&w=3840&q=75)
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

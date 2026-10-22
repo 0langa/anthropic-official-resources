@@ -203,7 +203,7 @@ The `store` block points the gateway at its PostgreSQL database, which holds dev
 | `postgres_url` | Yes | `postgres://` or `postgresql://` URL with one host, not a comma-separated list. The gateway runs its own schema migrations at boot and on upgrade, so the role needs rights to create and alter tables on the target schema. See [Upgrades](/docs/en/claude-apps-gateway-deploy#upgrades) and [Postgres](/docs/en/claude-apps-gateway-deploy#postgres). |
 | `username` | No | Overrides the user in `postgres_url` |
 | `password` | No | Database credential. Set it here rather than in `postgres_url` so the credential stays out of the URL. Accepts any characters and takes precedence over URL credentials. |
-| `max_connections` | No | Postgres connection-pool size per replica. Default `5`, which is conservative and friendly to shared databases. With [spend limits](#admin) enabled, the hot path does a few operations per inference request, so raise it for a dedicated database under load, and keep replicas × this below the database's `max_connections`. |
+| `max_connections` | No | Postgres connection-pool size per replica. Default `5`, which is conservative and friendly to shared databases. With [spend limits](#admin) enabled, the gateway makes a few database operations per inference request, so raise it for a dedicated database under load, within what [Size the connection pool](/docs/en/claude-apps-gateway-deploy#size-the-connection-pool) allows. |
 | `connect_timeout_seconds` | No | Seconds the gateway waits when it opens a Postgres connection. A whole number from `1` to `60`, default `5`. Raise it if connection attempts time out when a new gateway instance starts. Requires Claude Code v2.1.274 or later on the gateway server. Earlier versions refuse to start when the key is set. |
 | `readiness_grace_seconds` | No | How many seconds `/readyz` keeps reporting ready after Postgres stops answering. A whole number from `0` to `3600`, default `0`. See [Outage behavior](/docs/en/claude-apps-gateway-deploy#outage-behavior) for how to pick a value. Requires Claude Code v2.1.282 or later on the gateway server. Earlier versions refuse to start when the key is set. |
 
@@ -680,7 +680,7 @@ models:
 
 Failing over between cloud providers, or to the direct Anthropic API, changes which agreement, geography, and other terms govern the request.
 
-The CLI applies the same feature gating to gateways regardless of which upstream serves a given request, so failover doesn't send a body field an upstream would reject.
+The CLI applies the same feature gating to gateways regardless of which upstream serves a given request, so by default failover doesn't send a body field an upstream would reject. If you set the [one-hour cache TTL](#one-hour-prompt-cache) in a policy, it goes to every upstream in the list, so set it only if all of them accept it.
 
 ## Optional sections
 
@@ -824,7 +824,7 @@ managed:
 A `match: {}` catch-all, conventionally listed last, is treated as a base layer. Every other policy inherits any key it doesn't set from the catch-all, so per-role entries only need to list what differs from the org default. The merge rules depend on the key type:
 
 * **Allow-lists**: `availableModels` and `permissions.allow`. A specific policy's list fully replaces the base's.
-* **Deny-lists and hook arrays**: `permissions.deny`, `permissions.ask`, `disabledMcpjsonServers`, `deniedMcpServers`, `blockedMarketplaces`, and every `hooks` event-type array. These take the union of base and policy, so an org-wide deny or audit hook can't be accidentally dropped by a per-role override.
+* **Deny-lists and hook arrays**: `permissions.deny`, `permissions.ask`, `disabledMcpjsonServers`, `deniedMcpServers`, `blockedMarketplaces`, `deniedModels`, and every `hooks` event-type array. These take the union of base and policy, so an org-wide deny or audit hook can't be accidentally dropped by a per-role override.
 * **Record-typed keys**: `env`, `modelOverrides`, and `skillOverrides`. These shallow-merge, so a per-role `env` block overrides keys it sets and inherits the rest from the base.
 
 `availableModels` is also enforced server-side at `/v1/messages`, so a denied model returns `400` regardless of what the client sends. An empty list denies every model. The check also covers the model a session starts on before the developer picks one, so [start sessions on a model the policy allows](#start-sessions-on-a-model-the-policy-allows).
@@ -970,6 +970,7 @@ managed:
 | Key | Enforced by | Effect |
 | - | - | - |
 | `availableModels` | Gateway + CLI | Model allowlist. Also checked at `/v1/messages`, so a patched client can't bypass it. |
+| [`deniedModels`](/docs/en/settings-reference#deniedmodels), [`availableModelsMatch`](/docs/en/settings-reference#availablemodelsmatch) | Gateway + CLI | [Block specific models or versions](/docs/en/model-config#block-specific-models-or-versions) that `availableModels` would otherwise permit. A blocked model is rejected with a `400` at `/v1/messages` and is left out of `/v1/models`. The gateway's own check requires Claude Code v2.1.299 or later on the gateway server. The CLI's check requires v2.1.283 or later on clients, and earlier clients ignore both keys. |
 | `permissions.allow` / `.deny` | CLI | Tool and command rules. See [Permissions](/docs/en/permissions). |
 | `permissions.disableBypassPermissionsMode` | CLI | Set to `disable` to block [`bypassPermissions`](/docs/en/permission-modes#skip-all-checks-with-bypasspermissions-mode), the mode that skips permission prompts, and the `--dangerously-skip-permissions` flag |
 | `allowManagedPermissionRulesOnly` | CLI | When `true`, managed settings become the only settings source of permission rules. The [`allowManagedPermissionRulesOnly`](/docs/en/settings-reference#allowmanagedpermissionrulesonly) entry lists every source Claude Code then ignores. |
@@ -1018,6 +1019,29 @@ Claude Code applies this variable without showing the developer the approval dia
 
 To turn off 1M context instead, set [`CLAUDE_CODE_DISABLE_1M_CONTEXT: "1"`](/docs/en/model-config#extended-context) in the same `env` block. Claude Code then treats every model as having a 200K window. In interactive sessions, each developer approves this variable in the [approval dialog](#what-goes-in-cli) before it takes effect.
 
+#### One-hour prompt cache
+
+To request the one-hour [prompt cache TTL](/docs/en/prompt-caching#cache-lifetime) instead of the default five minutes, add these keys to a policy's existing [`code`, `cli`, or `settings` block](#choose-cli-or-code) and restart the gateway. The keys need Claude Code v2.1.242 or later on the gateway server and on clients.
+
+`promptCacheTtl` covers the main conversation. `subagentPromptCacheTtl` is optional and covers subagents, workflows, and background requests. This example adds both to a `match: {}` policy keyed `cli`:
+
+```yaml theme={null}
+managed:
+  policies:
+    - match: {}
+      cli:
+        promptCacheTtl: 1h
+        subagentPromptCacheTtl: 1h
+```
+
+> [!WARNING]
+>
+> Set the keys only if your upstreams offer the one-hour TTL for every model the gateway serves. If an upstream rejects the TTL, the request fails, and neither the gateway nor Claude Code retries it with the five-minute TTL. For Amazon Bedrock, check [supported models, regions, and limits](https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-caching.html#prompt-caching-models).
+
+To confirm `promptCacheTtl`, sign in to the gateway as a user the policy matches and [check which TTL your cache writes used](/docs/en/prompt-caching#choose-the-ttl-yourself). Pass `--model` to repeat the check for each model the gateway serves.
+
+One-hour cache writes [cost more](/docs/en/prompt-caching#cache-lifetime) than five-minute writes. For [spend limits](/docs/en/claude-apps-gateway-spend-limits#how-requests-are-priced) to count that higher rate, you need v2.1.286 or later on the gateway server.
+
 #### MCP servers in a policy
 
 To provide MCP servers to the Claude Code clients a policy matches, set [`managedMcpServers`](/docs/en/managed-mcp#provide-servers-through-managed-settings) in that policy's `cli` block. You need Claude Code v2.1.259 or later on the gateway server and on clients.
@@ -1042,7 +1066,7 @@ If you don't deploy Claude Desktop, leave `desktop` out of your policies entirel
 
 The gateway derives much of the bootstrap response from the matched policy's `cli` or `code` block and from top-level gateway config:
 
-* The model list, from `availableModels`. [Extended context in Claude Desktop](#extended-context-in-claude-desktop) covers each model's 1M context option
+* The model list, from `availableModels`. The list leaves out models that the policy blocks with [`deniedModels` or `availableModelsMatch: exact`](#what-goes-in-cli). This filter requires Claude Code v2.1.299 or later on the gateway server. [Extended context in Claude Desktop](#extended-context-in-claude-desktop) covers each model's 1M context option
 * Disabled tools, from bare tool-name `permissions.deny` entries. If you set `disabledBuiltinTools` in the policy's `desktop` block, the gateway serves the union of your value and the derived list, so you can disable more tools this way but can't re-enable one you disabled through `permissions.deny`
 * The egress allowlist, from `sandbox.network.allowedDomains`. If you set `coworkEgressAllowedHosts` in the policy's `desktop` block, the gateway uses that value instead of the derived list. If the allowlist the gateway serves includes `*` and the gateway doesn't also serve Claude Desktop's [`allowedWorkspaceFolders`](https://claude.com/docs/third-party/claude-desktop/code#applied-as-managed-policy), Claude Desktop doesn't turn on the [Bash sandbox](/docs/en/sandboxing) in the Code tab
 * An OTLP endpoint that points at the gateway itself, and the signed-in user's identity attributes. The gateway relays the exports it receives at that endpoint to your `forward_to` destinations. It includes the endpoint and the attributes when you set both [`telemetry.forward_to`](#telemetry) and `listen.public_url`.

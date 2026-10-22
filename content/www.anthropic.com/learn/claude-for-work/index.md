@@ -106,7 +106,7 @@ Use case·Engineering·10 min](https://academy.claude.com/use-cases/ask-the-comp
 - [Intro to ProjectsTutorial7 min
 
   Tutorial·7 min](https://academy.claude.com/tutorials/intro-to-projects)
-- [Using Claude Design for presentations and slide decksTutorial10 min
+- [Making slides and presentations with ClaudeTutorial10 min
 
   Tutorial·10 min](https://academy.claude.com/tutorials/using-claude-design-for-presentations-and-slide-decks)
 

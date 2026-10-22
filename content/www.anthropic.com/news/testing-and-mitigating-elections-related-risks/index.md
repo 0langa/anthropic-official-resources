@@ -1,10 +1,28 @@
-PolicySocietal Impacts
-
 # Testing and mitigating elections-related risks
 
-Jun 6, 2024
+- Published
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6b04f486cfe0b8a62e4632f3186f23afcd22a890-2880x1621.png&w=3840&q=75)
+  Jun 6, 2024
+- Category
+
+  [Safeguards](https://www.anthropic.com/news/safeguards)
+- Topics
+
+  - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+  - [Hallucination](https://www.anthropic.com/search?topic=hallucination)See more...
+
+Related articles
+
+- Frontier Red Team
+
+  Oct 12, 2026
+
+  [AI models may be capable of self-replicating without access to a datacenter](https://www.anthropic.com/research/self-replicating-ai)
+
+[View more](https://www.anthropic.com/search?topic=democratic-integrity)
 
 With global elections in 2024, we're often asked how we're safeguarding election integrity as AI evolves. This blog provides a snapshot of the work we've done since last summer to test our models for elections-related risks.
 
@@ -16,7 +34,7 @@ In this post, we’ll describe each stage of our testing process, how those test
 
 Our process for testing and improving AI models for use in elections combines in-depth qualitative insights from **Policy Vulnerability Testing (PVT)** with subject matter experts and scalable, comprehensive **Automated Evaluations**. Informed by those findings, we **Implement** **Mitigation Strategies** such as policy updates, tooling enhancements, and model fine-tuning. We then **Retest to Measure the Efficacy** of our interventions. This iterative approach provides both depth and breadth in understanding model behavior, mitigating risks, and verifying progress.
 
-## Policy Vulnerability Testing (PVT) gives us an in-depth view of model behavior
+### Policy Vulnerability Testing (PVT) gives us an in-depth view of model behavior
 
 PVT is a form of in-depth, qualitative testing we conduct in collaboration with external subject matter experts on a variety of policy topics covered under our [Usage Policy](https://www.anthropic.com/legal/aup). In the context of our work on elections, the goal is to rigorously test our models for two potential issues we’re concerned with: 1) people receiving harmful, outdated, or inaccurate information in response to well-intentioned questions, and 2) people using our models in ways that violate our [Usage Policy](https://www.anthropic.com/legal/aup). For our work on elections, we’ve partnered with researchers such as Isabelle Frances-Wright, Director of Technology and Society at the [Institute for Strategic Dialogue](https://www.isdglobal.org/).
 
@@ -28,7 +46,7 @@ PVT has three key stages that are carried out collaboratively between Anthropic 
 
 PVT is an iterative, ongoing, and critical part of our model testing process. By collaborating with external experts to test our models in depth, we gain actionable insights into where we need additional reinforcement.
 
-### Case Study # 1: Using PVT to test our models for accuracy on questions about election administration
+#### Case Study # 1: Using PVT to test our models for accuracy on questions about election administration
 
 First, we select the policy area we want to test: for example, election administration and the mechanics of voting.
 
@@ -36,7 +54,7 @@ Second, external subject matter experts conduct an in-depth testing exercise, pr
 
 Third, we collaborate closely with our external partners to understand the risks identified during PVT, discuss appropriate intervention points, and prioritize our remediations. **We identified ~10 remediations to mitigate the risk of providing incorrect, outdated, or inappropriate information in response to elections-related queries.** These include mitigations such as increasing the length of model responses to provide appropriate context and nuance for sensitive questions, and not providing personal “opinions” on controversial political topics, among several others. Later in this post, we highlight the testing results for two additional mitigations: model responses should reference Claude’s knowledge cutoff date and redirect users to authoritative sources where it is appropriate to do so.
 
-## Scalable, automated evaluations provide us with breadth in coverage
+### Scalable, automated evaluations provide us with breadth in coverage
 
 While PVT provides invaluable depth and qualitative insights, its reliance on manual testing by expert partners makes it challenging to scale. Conducting PVT is both time- and resource-intensive, limiting the breadth of issues and behaviors that can be tested efficiently.
 
@@ -44,7 +62,7 @@ To address these limitations, we develop automated evaluations informed by the t
 
 The key benefits of automated evaluations include:
 
-- **Scalability:** Automated evaluations can be run quickly and frequently, testing hundreds of prompts across multiple model variations in minutes.1
+- **Scalability:** Automated evaluations can be run quickly and frequently, testing hundreds of prompts across multiple model variations in minutes.[1](https://www.anthropic.com/news/testing-and-mitigating-elections-related-risks)
 - **Comprehensiveness:** By constructing large, targeted evaluation sets, automated evaluations can assess model performance across a more comprehensive range of scenarios.
 - **Consistency**: Automated evaluations apply a consistent process and set of questions across models, reducing variability and enabling more reliable comparisons.
 
@@ -63,23 +81,23 @@ For example, when we manually reviewed a random sample of 64 questions from an a
 
 Automated evaluations are a powerful complement to PVT. By leveraging these two approaches in tandem, we can gain a more comprehensive understanding of model behavior that is both deep and wide-ranging, enabling us to identify areas that require targeted interventions.
 
-## The findings and results from PVT and automated evaluations inform our risk mitigations
+### The findings and results from PVT and automated evaluations inform our risk mitigations
 
 The issues uncovered by PVT and automated testing directly shape our efforts to make our systems more robust. In response to the findings, we adapt our policies, enforcement controls, and the models themselves to address identified risks (as shown by the directional arrow moving between “Policy Vulnerability Testing” and “Scalable Automated Evaluations” to “Implement Mitigation Strategies” in the figure above). Based on this work, some changes we implemented include:
 
-- **Updating Claude’s system prompt:** System prompts provide our models with additional context on how we want them to respond and allow us to tweak model behavior after training. For example, we added language to Claude’s system prompt about its knowledge cutoff date, which can help contextualize responses to time-sensitive questions (about elections or otherwise) that may quickly become outdated (we show the results of this intervention below).2
+- **Updating Claude’s system prompt:** System prompts provide our models with additional context on how we want them to respond and allow us to tweak model behavior after training. For example, we added language to Claude’s system prompt about its knowledge cutoff date, which can help contextualize responses to time-sensitive questions (about elections or otherwise) that may quickly become outdated (we show the results of this intervention below).[2](https://www.anthropic.com/news/testing-and-mitigating-elections-related-risks)
 - **Augmenting model fine-tuning data:** In addition to enhancing our policies and enforcement tooling, we also make modifications to the underlying models that power our claude.ai and API services through a process called fine-tuning. Fine-tuning involves taking an existing model and carefully adjusting it with additional, specific training data to enhance its performance on particular tasks or to align its behaviors more closely with our policies. When testing revealed that an earlier version of Claude should have referred people to authoritative sources more frequently, we created a “reward” for this behavior during training, incentivizing the model to refer to authoritative sources in response to relevant questions. This fine-tuning resulted in the model suggesting users refer to authoritative sources more frequently (as shown in the results below).
 - **Refining our policies:** Insights gathered from PVT have led us to clarify and further refine our [Usage Policy](https://www.anthropic.com/legal/aup) in categories related to elections. For example, after testing how our models responded to elections-related queries, we [updated](https://www.anthropic.com/news/updating-our-usage-policy) our policies on election integrity and misinformation. Specifically, we added clarifying language that prohibits the use of our systems to generate misinformation, interfere with the election processes, and to advocate for specific political positions, parties, or candidates.
 - **Auditing platform use:** As a result of model testing, we have a more granular view into areas where we might need to reinforce our automated enforcement tools with manual audits of potentially violative model prompts. Users confirmed to be engaging in activity that violated our [Usage Policy](https://www.anthropic.com/legal/aup) were offboarded from all Claude services.
 - **Training our automated policy enforcement tooling:** Our automated enforcement tooling includes a fine-tuned version of Claude that evaluates model prompts and completions against our [Usage Policy](https://www.anthropic.com/legal/aup) in real-time. That evaluation then informs subsequent automated or manual enforcement actions.
 - **Updating our automated policy enforcement tooling:** As we refine our [Usage Policy](https://www.anthropic.com/legal/aup) based on insights from Policy Vulnerability Testing, we regularly retrain our automated enforcement tooling. This helps keep it aligned with our current policies, improving its ability to identify content that may violate our policies.
-- **Detecting and redirecting elections-related queries:** We also bolster our fine-tuning efforts to refer people to authoritative sources with our automated enforcement tooling. When our tooling detects that a user might be asking time-sensitive questions about elections on [claude.ai](http://claude.ai/redirect/website.v1.3062a07a-038b-4435-9d85-038203437a52), we serve a pop-up banner offering to redirect US-based users to [TurboVote](https://anthropic.turbovote.org/) (a resource from the nonpartisan organization [Democracy Works](https://www.democracy.works/)), and EU-based voters to [instructions from the European Parliament](https://elections.europa.eu/en/).
+- **Detecting and redirecting elections-related queries:** We also bolster our fine-tuning efforts to refer people to authoritative sources with our automated enforcement tooling. When our tooling detects that a user might be asking time-sensitive questions about elections on [claude.ai](http://claude.ai/), we serve a pop-up banner offering to redirect US-based users to [TurboVote](https://anthropic.turbovote.org/) (a resource from the nonpartisan organization [Democracy Works](https://www.democracy.works/)), and EU-based voters to [instructions from the European Parliament](https://elections.europa.eu/en/).
 
-## We also use these testing methods to measure the efficacy of our interventions
+### We also use these testing methods to measure the efficacy of our interventions
 
 Crucially, our testing methods serve not just to surface potential issues, but also as a way to measure the efficacy of our mitigations and track progress over time. After implementing changes based on the findings from PVT and automated evaluations, we can re-run the same testing protocols to measure whether applied interventions have had the desired effect. These techniques (and evaluations generally), serve as a way to verify and measure progress.
 
-### Case Study #2: System prompt intervention improves model references to knowledge cutoff date
+#### Case Study #2: System prompt intervention improves model references to knowledge cutoff date
 
 The results of Policy Vulnerability Testing and the automated evaluations we ran informed one of our priority mitigations: models should reference their knowledge cutoff date when responding to elections-related questions where the answers might easily become outdated. To do this, we updated Claude’s system prompt to include a clear reference to its knowledge cutoff date (August 2023).
 
@@ -87,11 +105,9 @@ To evaluate whether this change had a positive effect, we used an automated eval
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1cc70f79d5b63a3d743e7800f5a84cb5002b9d86-2200x1424.png&w=3840&q=75)
 
-#### 
+#### Case Study #3: Fine-tuning intervention improves model suggestions to refer to authoritative sources
 
-### Case Study #3: Fine-tuning intervention improves model suggestions to refer to authoritative sources
-
-The testing outlined above also informed our second priority mitigation: models should refer people to authoritative sources when asked about questions that may lead to outdated or inaccurate information. We did this both through model fine-tuning, as well as changes to our [claude.ai](http://claude.ai/redirect/website.v1.3062a07a-038b-4435-9d85-038203437a52) user interface.
+The testing outlined above also informed our second priority mitigation: models should refer people to authoritative sources when asked about questions that may lead to outdated or inaccurate information. We did this both through model fine-tuning, as well as changes to our [claude.ai](http://claude.ai/) user interface.
 
 To evaluate the efficacy of our fine-tuning intervention, we compared a legacy version of our model that was not fine-tuned to refer people to reliable sources (Claude 2) and one that was (Claude 3 Opus). We did this using an automated evaluation for accuracy on EU election information, and also calculated how often the model referred people to reliable sources when appropriate. We find that the fine-tuning led to a 10.4% improvement in how often the model refers people to authoritative sources of information in questions where it is appropriate to do so.
 
@@ -99,31 +115,12 @@ To evaluate the efficacy of our fine-tuning intervention, we compared a legacy v
 
 It's important to recognize (and our evaluations above demonstrate) that no single intervention is going to be completely effective in eliciting or preventing a specific behavior that we intend. That's why we adopt a "Swiss cheese model" for system safety, applying a set of layered and overlapping interventions, many of which are described above. This multi-faceted approach helps prevent our models from unintentionally providing inaccurate or misleading information to users, while also safeguarding against use that violates our policies.
 
-## Conclusion
+### Conclusion
 
 This process provides us with a more comprehensive understanding of our models through the depth and breadth of insights it offers, and a framework we can readily adapt to different topics and regions. While we cannot anticipate every way people might use our models during the election cycle, the foundation of proactive testing and mitigation we've built is part of our commitment to developing this technology responsibly and in line with our policies. We’ll continue to learn from and iterate on this process, testing and improving our models along the way.
 
-#### Footnotes
+## Footnotes
 
-1. Model-generated evaluations can be used in a variety of domains. See [*Discovering Language Model Behaviors with Model-Written Evaluations*](https://www.anthropic.com/news/discovering-language-model-behaviors-with-model-written-evaluations) for previous research into model-generated evaluations.  
-2. Claude’s system prompt includes the following language (in addition to other context on how it responds to model prompts): “...Claude's knowledge base was last updated on August 2023. It answers questions about events prior to and after August 2023 the way a highly informed individual in August 2023 would if they were talking to someone from the above date, and can let the human know this when relevant…”
+01Model-generated evaluations can be used in a variety of domains. See [*Discovering Language Model Behaviors with Model-Written Evaluations*](https://www.anthropic.com/news/discovering-language-model-behaviors-with-model-written-evaluations) for previous research into model-generated evaluations.
 
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
+02Claude’s system prompt includes the following language (in addition to other context on how it responds to model prompts): “...Claude's knowledge base was last updated on August 2023. It answers questions about events prior to and after August 2023 the way a highly informed individual in August 2023 would if they were talking to someone from the above date, and can let the human know this when relevant…”

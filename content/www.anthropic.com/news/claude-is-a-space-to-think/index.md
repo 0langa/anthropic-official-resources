@@ -1,10 +1,30 @@
-Announcements
-
 # Claude is a space to think
 
-Feb 4, 2026
+![Claude is a space to think](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd6b268b276e9e4b9c024aeeed7690d5bf25cbc12-2000x1125.png&w=1920&q=75)
 
-![Claude is a space to think](https://www-cdn.anthropic.com/images/4zrzovbb/website/cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
+- Published
+
+  Feb 4, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+  - [Wellbeing](https://www.anthropic.com/search?topic=wellbeing)
+  - [Access](https://www.anthropic.com/search?topic=access)
+  - [Privacy](https://www.anthropic.com/search?topic=privacy)See more...
+
+Related articles
+
+- Product
+
+  Jul 9, 2026
+
+  [Introducing a way to reflect on how you use Claude](https://www.anthropic.com/news/reflect-with-claude)
+
+[View more](https://www.anthropic.com/search?topic=claude-apps)
 
 There are many good places for advertising. A conversation with Claude is not one of them.
 
@@ -14,7 +34,7 @@ But including ads in conversations with Claude would be incompatible with what w
 
 We want Claude to act unambiguously in our users’ interests. So we’ve made a choice: Claude will remain ad-free. Our users won’t see “sponsored” links adjacent to their conversations with Claude; nor will Claude’s responses be influenced by advertisers or include third-party product placements our users did not ask for.
 
-## **The nature of AI conversations**
+### The nature of AI conversations
 
 When people use search engines or social media, they’ve come to expect a mixture of organic and sponsored content. Filtering signal from noise is part of the interaction.
 
@@ -24,7 +44,7 @@ Our [analysis of conversations](https://www.anthropic.com/news/how-people-use-cl
 
 We still have much to learn about the impact of AI models on the people who use them. [Early](https://www.jmir.org/2025/1/e67114) [research](https://hai.stanford.edu/news/exploring-the-dangers-of-ai-in-mental-health-care) suggests both benefits—like people finding support they couldn’t access elsewhere—and risks, including the potential for models to reinforce harmful beliefs in vulnerable users. Introducing advertising incentives at this stage would add another level of complexity. [Our understanding](https://www.anthropic.com/research/tracing-thoughts-language-model) of how models translate the goals we set them into specific behaviors is still developing; an ad-based system could therefore have unpredictable results.
 
-## **Incentive structures**
+### Incentive structures
 
 Being genuinely helpful is one of the core principles of [Claude’s Constitution](https://www.anthropic.com/constitution), the document that describes our vision for Claude’s character and guides how we train the model. An advertising-based business model would introduce incentives that could work against this principle.
 
@@ -34,13 +54,13 @@ Even ads that don’t directly influence an AI model’s responses and instead a
 
 We recognize that not all advertising implementations are equivalent. More transparent or opt-in approaches—where users explicitly choose to see sponsored content—might avoid some of the concerns outlined above. But the history of ad-supported products suggests that advertising incentives, once introduced, tend to expand over time as they become integrated into revenue targets and product development, blurring boundaries that were once more clear-cut. We’ve chosen not to introduce these dynamics into Claude.
 
-## **Our approach**
+### Our approach
 
 Anthropic is focused on businesses, developers, and helping our users flourish. Our business model is straightforward: we generate revenue through enterprise contracts and paid subscriptions, and we reinvest that revenue into improving Claude for our users. This is a choice with tradeoffs, and we respect that other AI companies might reasonably reach different conclusions.
 
 Expanding access to Claude is central to our public benefit mission, and we want to do it without selling our users’ attention or data to advertisers. To that end, we’ve [brought AI tools and training to educators](https://www.anthropic.com/news/anthropic-teach-for-all) in over 60 countries, begun national AI education pilots with [multiple](https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots) [governments](https://www.anthropic.com/news/rwandan-government-partnership-ai-education), and made Claude [available to nonprofits](https://www.anthropic.com/news/claude-for-nonprofits) at a significant discount. We continue to invest in our smaller models so that our free offering remains at the frontier of intelligence, and we may consider lower-cost subscription tiers and regional pricing where there is clear demand for it. Should we need to revisit this approach, we’ll be transparent about our reasons for doing so.
 
-## **Supporting commerce**
+### Supporting commerce
 
 AI will increasingly interact with commerce, and we look forward to supporting this in ways that help our users. We’re particularly interested in the potential of agentic commerce, where Claude acts on a user’s behalf to handle a purchase or booking end to end. And we’ll continue to build features that enable our users to find, compare, or buy products, connect with businesses, and more—when they choose to do so.
 
@@ -48,30 +68,10 @@ We’re also exploring more ways to make Claude a focused space to be at your mo
 
 All third-party interactions will be grounded in the same overarching design principle: they should be initiated by the *user* (where the AI is working for them) rather than an *advertiser* (where the AI is working, at least in part, for someone else). Today, whether someone asks Claude to research running shoes, compare mortgage rates, or recommend a restaurant for a special occasion, Claude’s only incentive is to give a helpful answer. We’d like to preserve that.
 
-## **A trusted tool for thought**
+### A trusted tool for thought
 
 We want our users to trust Claude to help them keep thinking—about their work, their challenges, and their ideas.
 
 Our experience of using the internet has made it easy to assume that advertising on the products we use is inevitable. But open a notebook, pick up a well-crafted tool, or stand in front of a clean chalkboard, and there are no ads in sight.
 
 We think Claude should work the same way.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

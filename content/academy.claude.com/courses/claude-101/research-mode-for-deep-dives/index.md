@@ -15,6 +15,12 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-101%2Fresearch-mode-for-deep-dives)
 
+
+
+Plan availability
+
+Research is available on paid plans (Pro, Max, Team, and Enterprise).
+
 ## Researching with Claude[](https://academy.claude.com/courses/claude-101/research-mode-for-deep-dives)
 
 ## Key takeaways[](https://academy.claude.com/courses/claude-101/research-mode-for-deep-dives)

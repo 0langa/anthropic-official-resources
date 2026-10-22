@@ -72,12 +72,12 @@ Read the framework](https://academy.claude.com/tutorials/the-4-ds-of-ai-fluen
   Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/13799932-manage-groups-and-group-spend-limits-on-enterprise-plans)
-- [Monitor usage Guide
+- [Cowork monitoring reference Guide
 
   Guide
 
    (opens in new tab)](https://claude.com/docs/cowork/monitoring)
-- [Set organization preferences Help Center
+- [Set organization instructions Help Center
 
   Help Center
 
@@ -86,7 +86,7 @@ Read the framework](https://academy.claude.com/tutorials/the-4-ds-of-ai-fluen
 
   Guide
 
-   (opens in new tab)](https://claude.com/docs/cowork/3p/overview)
+   (opens in new tab)](https://claude.com/docs/third-party/claude-desktop/overview)
 - [Claude Cowork Desktop Security Architecture Guide
 
   Guide

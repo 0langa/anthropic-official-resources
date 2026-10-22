@@ -1,10 +1,27 @@
-Announcements
-
 # Anthropic acquires Vercept to advance Claude's computer use capabilities
 
-Feb 25, 2026
+- Published
 
-![Anthropic acquires Vercept to advance Claude's computer use capabilities](https://www-cdn.anthropic.com/images/4zrzovbb/website/8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg)
+  Feb 25, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Computer use](https://www.anthropic.com/search?topic=computer-use)
+  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+
+Related articles
+
+- Models
+
+  Feb 17, 2026
+
+  [Introducing Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6)
+
+[View more](https://www.anthropic.com/search?topic=computer-use)
 
 People are using Claude for increasingly complex work—writing and running code across entire repositories, synthesizing research from dozens of sources, and managing workflows that span multiple tools and teams. Computer use enables Claude to do all of that inside live applications, the way a person at a keyboard would. That means Claude can take on multi-step tasks in live applications, and solve problems impossible with code alone. Today, we're announcing that Anthropic has acquired Vercept to help us push those capabilities further.
 
@@ -15,23 +32,3 @@ This acquisition follows the recent launch of Claude [Sonnet 4.6](https://www.an
 Vercept is the latest team we’ve brought into Anthropic, following the acquisition of [Bun](https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone). We look for teams whose technical ambitions match ours, whose work advances our capabilities, and whose approach to building AI is grounded in the same principles of safety and rigor that guide everything we do.
 
 We’re also looking for individuals. If you're interested in joining Anthropic’s engineering team, visit our [careers page](https://www.anthropic.com/jobs).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

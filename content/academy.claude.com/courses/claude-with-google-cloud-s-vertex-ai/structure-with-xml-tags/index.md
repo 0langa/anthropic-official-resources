@@ -1,4 +1,4 @@
-Lesson 19 of 66 · Claude with Google Cloud's Vertex AIStructure with XML tags
+Lesson 19 of 66 · Claude on Google CloudStructure with XML tags
 
 # Structure with XML tags
 

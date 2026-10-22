@@ -1,12 +1,29 @@
-Education
-
 # Introducing Claude for Education
-
-Apr 2, 2025
 
 [Claude for Education](https://www.anthropic.com/education)
 
-![Claude for Education ](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff5d0990ee33385000ff56ed82f3c5efb4e2d33da-2400x1260.png&w=3840&q=75)
+- Published
+
+  Apr 2, 2025
+- Category
+
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Education](https://www.anthropic.com/search?topic=education)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Access](https://www.anthropic.com/search?topic=access)See more...
+
+Related articles
+
+- Partnerships
+
+  Jun 3, 2026
+
+  [Introducing the Services Track and Partner Hub of the Claude Partner Network](https://www.anthropic.com/news/services-track-partner-hub)
+
+[View more](https://www.anthropic.com/search?topic=education)
 
 Today we're launching Claude for Education, a specialized version of Claude tailored for higher education institutions. This initiative equips universities to develop and implement AI-enabled approaches across teaching, learning, and administration—ensuring educators and students play a key role in actively shaping AI's role in society.
 
@@ -17,7 +34,7 @@ As part of announcing Claude for Education, we're introducing:
 3. **Academic partnerships**: Joining Internet2 and working with Instructure to embed AI into teaching & learning with Canvas LMS
 4. **Student programs**: A new Claude Campus Ambassadors program along with an initiative offering API credits for student projects
 
-## What’s possible with Claude for Education
+### What’s possible with Claude for Education
 
 Claude for Education gives academic institutions secure, reliable AI access for their entire community.
 
@@ -27,7 +44,7 @@ For example,
 - Faculty can create rubrics aligned to specific learning outcomes, provide individualized feedback on student essays efficiently, and generate chemistry equations with varying difficulty levels
 - Administrative staff can analyze enrollment trends across departments, automate repetitive email responses to common inquiries, and convert dense policy documents into accessible FAQ formats—all from a familiar chat interface with enterprise-grade security and privacy controls
 
-## Learning mode
+### Learning mode
 
 Claude for Education introduces our new Learning mode, a feature that works within [Projects](https://www.anthropic.com/news/projects) (saved conversations where students can organize their work with Claude around specific assignments or topics). In Learning mode, Claude helps students develop their independent thinking by:
 
@@ -38,14 +55,14 @@ Claude for Education introduces our new Learning mode, a feature that works with
 
 Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/38fccac4003a3181499bd3c8828dc09293862da2.mp4
 
-## Opportunities for students
+### Opportunities for students
 
 Today, we are also introducing two new student programs designed to nurture and empower our growing Claude student community:
 
 - [**Claude Campus Ambassadors**](https://www.anthropic.com/contact-sales/claude-campus-ambassadors): an opportunity for students to work directly with the Anthropic team to launch educational initiatives on their campus
 - [**For student builders**](https://www.anthropic.com/contact-sales/for-student-builders): an opportunity for students who are building projects with Claude to apply for funding in the form of API credits
 
-## Campus wide partnerships: Northeastern University, LSE and Champlain College
+### Campus wide partnerships: Northeastern University, LSE and Champlain College
 
 [Northeastern University](https://www.northeastern.edu/) is collaborating as Anthropic's first university design partner. This trail-blazing initiative aims to transform teaching, research and business practices across Northeastern’s global university system. The partnership provides 50,000 students, faculty, and staff across 13 global campuses with seamless access to Claude. We’re working with Northeastern University to build best practices for AI integration in higher education, new AI-powered education tools, and frameworks for responsible AI adoption in educational settings.
 
@@ -59,33 +76,13 @@ A world-leading university, specializing in the social sciences, [LSE](https://w
 
 “AI is changing what it means to be Ready for Work and, as a future-focused college, Champlain is giving students opportunities to use AI so they can hit the ground running when they graduate,” says Champlain College president Alex Hernandez. “The Anthropic collaboration is fueling a new wave of innovations at Champlain College, giving us an opportunity to learn lessons that can benefit all higher education.”
 
-## Industry partnerships
+### Industry partnerships
 
 We are also building partnerships with leading organizations to safely and reliably integrate Claude within higher education institutions' existing tools and workflows to help facilitate the use of trusted AI across academia. These partnerships include:
 
 - [Internet2](https://internet2.edu/): A non-profit organization that provides a secure high-speed network, cloud solutions, research support, and identity and access management (IAM) tools built specifically for research and education. Their community includes higher education institutions, research organizations, government entities, corporations, and cultural organizations like museums and libraries. We're proud to join Internet2, the member-driven advanced technology community developing solutions and solving shared challenges to support research and education, and are working with members to complete a NET+ service evaluation.
 - [Instructure](https://www.instructure.com/): The educational technology company behind the leading education software Canvas, that provides technological solutions specifically designed for higher education institutions to provide learners at every stage with tools that make educators more effective and students more successful, both in school and beyond. Anthropic and Instructure are working together to increase equitable access to tools that support universities as they integrate AI into their teaching & learning.
 
-## Get started
+### Get started
 
 To get started with Claude for Education and Learning mode, share your interest online [here](https://www.anthropic.com/education).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

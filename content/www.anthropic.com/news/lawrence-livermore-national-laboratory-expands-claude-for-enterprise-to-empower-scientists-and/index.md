@@ -1,14 +1,32 @@
-Announcements
-
 # Lawrence Livermore National Laboratory expands Claude for Enterprise use to empower scientists and researchers
 
-Jul 9, 2025
+- Published
 
-![A hand-drawn image of a hand with a set of nodes emerging above it, extending in several different directions](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd4b60fbc087e8ec3f47c69fbe03298fedcaebb9c-2880x1620.png&w=3840&q=75)
+  Jul 9, 2025
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+  - [National security](https://www.anthropic.com/search?topic=national-security)
+  - [Discovery](https://www.anthropic.com/search?topic=discovery)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+
+Related articles
+
+- Product
+
+  Aug 5, 2025
+
+  [Federal government departments and agencies can now purchase Claude through the GSA schedule](https://www.anthropic.com/news/federal-government-departments-and-agencies-can-now-purchase-claude-through-the-gsa-schedule)
+
+[View more](https://www.anthropic.com/search?topic=claude-for-enterprise)
 
 Lawrence Livermore National Laboratory (LLNL), one of the United States' premier research institutions, is expanding its deployment of Claude for Enterprise to its entire laboratory. This expansion will make advanced AI capabilities available to about 10,000 scientists, researchers, and staff. LLNL's expansion of Claude access will help bolster research across nuclear deterrence, energy, materials science, and energy security in one of the largest deployments of Claude for Enterprise within the U.S. Department of Energy's national laboratory system.
 
-## Building on proven partnership
+### Building on proven partnership
 
 This expanded partnership between LLNL and Anthropic serves as a blueprint for how AI can enhance government research operations by enabling scientists to process complex datasets, generate hypotheses, and explore new research directions with AI that understands scientific context. It demonstrates the transformative potential of AI in advancing scientific research and national security. It also helps develop approaches that other national labs in the Department of Energy network can learn from and adapt.
 
@@ -18,7 +36,7 @@ This expanded partnership between LLNL and Anthropic serves as a blueprint for h
 
 LLNL's Claude application suite [includes](https://www.anthropic.com/enterprise) robust security features designed specifically for government environments. The platform's expanded context window can process hundreds of documents, entire codebases with 100,000+ lines, or complex datasets in a single query — enabling scientists to analyze fusion experiments, or nuclear simulations comprehensively. Enterprise security features include single sign-on (SSO), audit logging, role-based access controls, and end-to-end encryption.
 
-## Accelerating scientific discovery with AI
+### Accelerating scientific discovery with AI
 
 LLNL scientists are using Claude across disciplines—from materials science to computational biology—with potential to drive scientific breakthroughs. By integrating Claude across their operations, LLNL researchers are able to:
 
@@ -26,7 +44,7 @@ LLNL scientists are using Claude across disciplines—from materials science to 
 - **Enhance Collaboration:** Share insights and build on collective knowledge across interdisciplinary teams potentially spanning classified and unclassified projects.
 - **Streamline Operations:** Reduce time spent on routine tasks and documentation, allowing scientists to focus on high-impact research that maintains American strategic advantage in critical areas from nuclear deterrence to energy security.
 
-## Security & compliance for national security missions
+### Security & compliance for national security missions
 
 Claude supports LLNL teams working on:
 
@@ -38,28 +56,8 @@ Claude supports LLNL teams working on:
 
 This expansion follows a successful pilot program, the first-ever [AI Jam](https://www.anthropic.com/news/anthropic-partners-with-u-s-national-labs-for-first-1-000-scientist-ai-jam) with U.S. National Labs, and the [aiEDGE for Innovation Day](https://www.llnl.gov/article/52701/llnl-employees-dive-ais-transformative-potential-aiedge-innovation-day) in March, where approximately 3,200 LLNL scientists and operational staff experienced firsthand how Claude can accelerate and enhance scientific national security research.
 
-## Getting started
+### Getting started
 
 Organizations interested in transforming their operations with Claude for Enterprise can [contact our public sector team](mailto:pubsec@anthropic.com) to learn more and get started.
 
 *This blog was updated on July 11, 2025 with additional information from LLNL.*
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

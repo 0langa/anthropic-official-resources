@@ -1,8 +1,27 @@
-Announcements
-
 # Anthropic appoints Hidetoshi Tojo as Head of Japan and announces hiring plans
 
-Aug 6, 2025
+- Published
+
+  Aug 6, 2025
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+  - [Leadership](https://www.anthropic.com/search?topic=leadership)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)See more...
+
+Related articles
+
+- Announcements
+
+  May 26, 2026
+
+  [Anthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea)
+
+[View more](https://www.anthropic.com/search?topic=global-expansion)
 
 Anthropic today announced the appointment of Hidetoshi Tojo as Head of Japan. The appointment comes as the company deepens its commitment to the Japanese market after choosing Tokyo as its first Asia office.
 
@@ -17,23 +36,3 @@ Anthropic plans to officially open its first office in Asia in the coming months
 The Japanese HQ will also allow Anthropic to deepen its partnerships with businesses, policymakers, platform partners like Amazon Bedrock and Google Cloud Vertex, and academic and creative industries in Japan and across Asia.
 
 For more information about current career opportunities at Anthropic Japan, visit [anthropic.com/careers](http://anthropic.com/careers).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

@@ -1,10 +1,28 @@
-Announcements
-
 # Anthropic partners with the University of Chicago’s Becker Friedman Institute on AI economic research
 
-Jul 23, 2025
+- Published
 
-![Anthropic partners with the University of Chicago’s Becker Friedman Institute on AI economic research](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7a472632580035058bc13bfea3b965fbb471a04e-1920x1079.png&w=3840&q=75)
+  Jul 23, 2025
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+  - [Productivity](https://www.anthropic.com/search?topic=productivity)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)See more...
+
+Related articles
+
+- Economics
+
+  Apr 22, 2026
+
+  [Announcing the Anthropic Economic Index Survey](https://www.anthropic.com/research/economic-index-survey-announcement)
+
+[View more](https://www.anthropic.com/search?topic=partnerships)
 
 Today, we’re announcing a partnership with the University of Chicago's Becker Friedman Institute for Economics (BFI) to study AI's impact on labor markets and the economy. As part of this, we will equip BFI faculty economists with Claude for Enterprise access, provide training sessions on applying AI in economic research, and offer virtual workshops on our research to measure AI’s economic impacts. This partnership is an extension of our [Economic Index](https://www.anthropic.com/economic-index) initiative, which is dedicated to tracking and understanding AI’s effects on the economy over time.
 
@@ -19,23 +37,3 @@ The rapid pace of technological advancement is increasing the challenges in anal
 "The Anthropic Economic Index provides a foundation of data, but maximizing its research value requires expertise from economists who understand labor markets, productivity dynamics, and policy implications," said Sarah Heck, Head of Policy, Programs and Partnerships. "BFI represents an ideal partner given the breadth of expertise and commitment to both insightful theory and empirical research that has made the University of Chicago economics community world-renowned."
 
 The partnership will help expand the methodologies used to study AI's economic impact, with the goal of providing policymakers and researchers with more robust insights. As our [Economic Index](https://www.anthropic.com/economic-index) shows, AI use is distributed unevenly across the economy–with complex patterns that defy simple narratives about automation. Working hand-in-hand with BFI economists, we hope to develop a more precise understanding of these patterns and their implications for economic policy, workforce development, and technology governance.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

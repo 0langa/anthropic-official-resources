@@ -1,4 +1,4 @@
-Lesson 28 of 66 · Claude with Google Cloud's Vertex AIImplementing multiple turns
+Lesson 28 of 66 · Claude on Google CloudImplementing multiple turns
 
 # Implementing multiple turns
 

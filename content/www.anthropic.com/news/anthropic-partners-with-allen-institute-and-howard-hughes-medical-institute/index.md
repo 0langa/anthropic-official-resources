@@ -1,10 +1,27 @@
-Societal ImpactsBeneficial Deployments
-
 # Anthropic partners with Allen Institute and Howard Hughes Medical Institute to accelerate scientific discovery
 
-Feb 2, 2026
+- Published
 
-![Anthropic partners with Allen Institute and Howard Hughes Medical Institute to accelerate scientific discovery](https://www-cdn.anthropic.com/images/4zrzovbb/website/d6058e0db8e477dc782dacae46e2ec6663d165d9-1000x1000.svg)
+  Feb 2, 2026
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Discovery](https://www.anthropic.com/search?topic=discovery)
+  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+
+Related articles
+
+- Science
+
+  Sep 23, 2026
+
+  [Claude discovers a novel enzyme system with CRISPR-like repeats](https://www.anthropic.com/research/claude-discovers-novel-enzyme-system)
+
+[View more](https://www.anthropic.com/search?topic=life-sciences)
 
 Modern biological research generates data at unprecedented scale—from single-cell sequencing to whole-brain connectomics—yet transforming that data into validated biological insights remains a fundamental bottleneck. Knowledge synthesis, hypothesis generation, and experimental interpretation still depend on manual processes that can't keep pace with the data being produced.
 
@@ -12,13 +29,13 @@ Today, Anthropic is announcing two flagship partnerships designed to close that 
 
 Both partnerships are committed to transparency and advances that will help the broader scientific community rigorously deploy AI tools across many scientific domains. Scientific AI systems must not only produce accurate predictions but also provide reasoning that researchers can evaluate, trace, and build upon. These collaborations position Claude as a tool that augments, rather than replaces, human scientific judgment — ensuring that AI-generated insights are grounded in evidence and legible to the scientists who use them.
 
-## **Howard Hughes Medical Institute: Building the infrastructure for AI-enabled scientific discovery**
+### Howard Hughes Medical Institute: Building the infrastructure for AI-enabled scientific discovery
 
 HHMI will partner with Anthropic to accelerate discovery in the biological sciences as one part of the Institute’s [AI@HHMI](https://ai.hhmi.org/) initiative. The collaboration is anchored at HHMI’s Janelia Research Campus, which has been developing transformative technologies—from genetically encoded calcium sensors to electron microscopes engineered for understanding the architecture of the brain—for two decades. This foundation uniquely positions HHMI to help shape how AI systems participate in and enhance the research process.
 
 The partnership with Anthropic will involve close collaboration on both the deployment and ongoing development of AI models, ensuring that AI tools evolve in direct response to real experimental needs. Since announcing AI@HHMI in 2024, HHMI has launched several projects that seek to use AI tools to solve longstanding scientific problems ranging from computational protein design to neural mechanisms of cognition. The collaboration with Anthropic will focus on developing specialized AI agents for use within labs. These will serve as a comprehensive source of experimental knowledge integrated with cutting-edge scientific instruments and analysis pipelines to speed the pace of discovery.
 
-## **Allen Institute: Multi-agent systems for mechanistic discovery**
+### Allen Institute: Multi-agent systems for mechanistic discovery
 
 The Allen Institute will collaborate with Anthropic to develop multi-agent AI systems for multi-modal data analysis and exploration across the institute's areas of scientific focus. The work will explore how multiple specialized AI agents—for multi-omic data integration, knowledge graph management, temporal dynamics modeling, and experimental design—can be coordinated to support the full arc of scientific investigation.
 
@@ -26,26 +43,6 @@ This collaboration will explore how agentic AI systems can compress months of ma
 
 For Anthropic, this collaboration provides in-depth feedback from real scientific use with day-to-day workflows where reliability and judgment matter. Working with the Allen Institute helps surface usability gaps and failure modes that don't appear in more controlled settings.
 
-## **Looking ahead**
+### Looking ahead
 
 These partnerships will inform the broader development of [Claude’s life science capabilities](https://claude.com/solutions/life-sciences), generating insights about how AI systems can most effectively support scientific workflows across diverse research contexts. Anthropic is committed to responsible development that prioritizes scientific rigor, interpretability, and researcher autonomy.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

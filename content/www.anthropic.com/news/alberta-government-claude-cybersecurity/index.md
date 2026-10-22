@@ -1,10 +1,29 @@
-Case Study
-
 # Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems
 
-Jul 6, 2026
+- Published
 
-![Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems](https://www-cdn.anthropic.com/images/4zrzovbb/website/802260d34a0653f23fd4944fae43064df367aa44-1000x1000.svg)
+  Jul 6, 2026
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
+  - [Coding](https://www.anthropic.com/search?topic=coding)See more...
+
+Related articles
+
+- Engineering
+
+  Oct 13, 2026
+
+  [Redesigning source control at Anthropic](https://www.anthropic.com/research/redesigning-source-control)
+
+[View more](https://www.anthropic.com/search?topic=cybersecurity)
 
 Since 2025, the Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them. A team inside Alberta’s Ministry of Technology and Innovation scanned 466 million lines of code in 20 hours, remediated security gaps across its systems, and built new tools to make those systems safer.
 
@@ -12,7 +31,7 @@ We’re sharing details of their experience as an example of how government agen
 
 “Albertans trust their government with some of the most sensitive information in their lives, and it is our responsibility to protect it,” said Nate Glubish, Alberta’s Minister of Technology and Innovation. “By using AI to find and fix vulnerabilities across our systems, we accomplished in hours what would have taken a traditional approach years to complete. This is what responsible government looks like in the AI era, and the best is still ahead of us.”
 
-## Alberta’s approach
+### Alberta’s approach
 
 Alberta’s Ministry of Technology and Innovation maintains the systems of all 27 provincial ministries, from social services to public safety to wildfire response. That includes roughly 1,280 applications and 3,400 code repositories. Most of it has never undergone a systematic security review, and the accumulated technical debt—insecure code, unaddressed bugs, outdated software—runs into the billions of dollars.
 
@@ -28,34 +47,14 @@ Already, the Ministry has used Claude to:
 
 In addition to scanning, securing, and modernizing its own systems, Alberta is training both government workers and the public in the use of AI through the Alberta AI Academy. Thousands of government employees and more than 10,000 members of the public have used the platform to learn the essentials of effective AI use, from prompting through enterprise application delivery. Through the Academy, the Ministry of Technology and Innovation aims to extend its approach beyond a single team or project to every ministry that needs it.
 
-## Looking ahead
+### Looking ahead
 
 Today, Claude helps the Ministry write, review, and deploy code that aids in its modernization efforts. Next, it plans to expand that work with AI agents that can build entirely new software and tools alongside engineers.
 
 The Government of Alberta also plans to continue its modernization work. One ministry, for example, has 185 legacy applications running in production, which are expensive to maintain and difficult to update. The Government plans to use Claude Code to analyze these systems, understand what they do, and consolidate them into 16 reusable applications built on modern coding languages and conventions. The goal is to reduce complexity, lower maintenance costs, and speed up modernization work that would otherwise take years to complete.
 
-## A case study for governments
+### A case study for governments
 
 The technical debt and security vulnerabilities the Government of Alberta is working to address are hardly unique. They exist in the systems of many provinces, states, and federal agencies across the world. The [technical white papers](https://thevelocitywhitepapers.com/) Alberta has released give other governments a blueprint for addressing these same issues.
 
 In addition to the white papers, Alberta is hosting [an industry day](https://luma.com/yzd00tir) in Edmonton in July to share what it has learned. And this fall, it will begin a program to scale its approach across the provincial government. We’ll keep working with Alberta as it expands these efforts, and we hope the approach it has documented can help other governments secure their own systems.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

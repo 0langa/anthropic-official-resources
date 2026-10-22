@@ -1,10 +1,29 @@
-Announcements
-
 # Australian government and Anthropic sign MOU for AI safety and research
 
-Mar 31, 2026
+- Published
 
-![Australian government and Anthropic sign MOU for AI safety and research ](https://www-cdn.anthropic.com/images/4zrzovbb/website/5f455d24ea80569b34eb4347f06152d8a5508722-1000x1000.svg)
+  Mar 31, 2026
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)See more...
+
+Related articles
+
+- Announcements
+
+  Jul 14, 2026
+
+  [Anthropic commits $10 million to Canadian AI research](https://www.anthropic.com/news/canadian-ai-research)
+
+[View more](https://www.anthropic.com/search?topic=international-cooperation)
 
 Today, Anthropic signed a Memorandum of Understanding with the Australian government to cooperate on AI safety research and support the goals of Australia’s National AI Plan. Our CEO, Dario Amodei, met with Prime Minister Anthony Albanese to formalize the agreement during a visit to Canberra, Australia. We also announced AUD$3 million in partnerships with leading Australian research institutions to use Claude to improve disease diagnosis and treatment and support computer science education and research.
 
@@ -12,7 +31,7 @@ Central to the MOU is a commitment to work with Australia’s AI Safety Institut
 
 “Australia’s investment in AI safety makes it a natural partner for responsible AI development. This MOU gives our collaboration a formal foundation,” said Anthropic CEO Dario Amodei. “ I'm particularly excited by the work Australian research institutions will be doing with Claude to advance disease diagnosis and treatment."
 
-### **Extending AI for Science to Australia’s research and innovation sector**
+#### **Extending AI for Science to Australia’s research and innovation sector**
 
 At Anthropic, we believe that AI has the potential to significantly accelerate scientific progress. To this end, we are extending our [AI for Science](https://www.anthropic.com/news/ai-for-science-program) program to Australia, starting with an investment of AUD$3 million in Claude API credits to four institutions applying AI to some of humanity’s most pressing challenges. New partnerships with the Australian National University, Murdoch Children’s Research Institute, the Garvan Institute of Medical Research, and Curtin University will support areas like clinical genomics and precision medicine, pediatric medical research, and computing education.
 
@@ -27,23 +46,3 @@ On Monday, we also announced that we are launching our first deep tech startup A
 These investments reflect the advanced work Australian researchers and startups are already doing with Claude, and directly contribute to supporting the goals outlined in Australia’s National AI Plan.
 
 The visit to Australia marks the beginning of long-term collaboration and investment into the Asia-Pacific region. We’ll share more about our local team and leadership in the coming weeks as we prepare to open our Sydney office. You can read the details of the Australian government’s MOU with Anthropic [here](https://www.industry.gov.au/publications/memorandum-understanding-between-australian-government-and-anthropic-collaboration-ai-opportunities).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

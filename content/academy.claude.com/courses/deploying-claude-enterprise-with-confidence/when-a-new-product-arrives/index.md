@@ -40,13 +40,13 @@ The edge case is a genuinely new kind of product, one that works somewhere your 
 
 Pluto is considering a rollout of Claude Tag, a new way for teams to work with Claude inside Slack, in beta on the Team and Enterprise plans.
 
-- **Setup and use**: a Primary Owner or Owner grants Claude access to selected channels and connects it to the tools, data, and codebases they choose; members then tag @Claude in the channel to delegate tasks while they focus on other work, and Claude builds context from the channels it’s in.
-- **In a channel**: Claude Tag works under its own identity rather than as the person who tagged it, with the access attached to that channel’s scope, so everyone in the channel gets the same capability.
-- **In direct messages and the assistant panel**: Claude carries the member’s own account capabilities, and the usage counts against the member’s own seat and its limits rather than the Claude Tag balance.
+- **Setup and use**: a Primary Owner or Owner sets it up, adds it to a first set of channels, and connects it to the tools, data, and codebases they choose; members can then add Claude to other channels and tag Claude there to delegate tasks while they focus on other work, and Claude builds context from the channels it’s in.
+- **In a channel**: Claude Tag works under its own identity rather than as the person who tagged it, with the access attached to that channel’s scope, so everyone in the channel gets the same capability; a member can also let it use their own connectors for their own tasks, and the results post where the whole channel can see them.
+- **In direct messages and the assistant panel**: Claude carries the member’s own account capabilities, and the usage counts against the member’s own seat and its limits rather than the Claude Tag balance; group DMs, and by default one-to-one DMs from members without a Claude account (other than Slack guests), for a limited time per member, bill to the organization like a channel.
 
 Pluto is four months into its Claude Enterprise rollout and ran Claude Tag through the three questions:
 
-<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium"><strong>Question</strong></th><th class="border-b border-strong p-sm text-left font-medium"><strong>What Pluto decided</strong></th><th class="border-b border-strong p-sm text-left font-medium"><strong>How it relates to Pluto’s objectives</strong></th></tr></thead><tbody><tr><td class="border-b p-sm"><strong>Who gets it?</strong></td><td class="border-b p-sm">Granted through Member Access (role-based, like any other surface), with Claude’s channel access chosen channel by channel, to the units whose work already runs in Slack threads</td><td class="border-b p-sm">The surface goes where the groups’ daily work already happens, not to every channel by default</td></tr><tr><td class="border-b p-sm"><strong>What does it carry?</strong></td><td class="border-b p-sm">Configured fresh for the channels that got it, because it is channel-scoped and inherits little from the per-member setup (model access and the role capability still apply); usage is billed to the organization rather than to individual seats and carries its own limits, organization-wide and per channel, with admin alerts at 75% and 95%, so the spend owner set those alongside the existing caps</td><td class="border-b p-sm">Channel-scoped access is new, so the earlier per-member grants can’t cover it; organization-level billing keeps it on the spend owner’s review rather than under member caps</td></tr><tr><td class="border-b p-sm"><strong>Does it move risk?</strong></td><td class="border-b p-sm">Yes: as the beta stands, Claude carries the channel’s access no matter who is talking to it, so Pluto kept the default that blocks Claude in channels with a guest present and kept Claude Tag off for Payments &amp; Trust, its regulated group, the same tighter posture it holds elsewhere; the risk owner signed the choice</td><td class="border-b p-sm">Guest channels put people outside the organization in front of Claude’s channel-scoped access — the kind of new reach that goes to the risk owner</td></tr></tbody></table>
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium"><strong>Question</strong></th><th class="border-b border-strong p-sm text-left font-medium"><strong>What Pluto decided</strong></th><th class="border-b border-strong p-sm text-left font-medium"><strong>How it relates to Pluto’s objectives</strong></th></tr></thead><tbody><tr><td class="border-b p-sm"><strong>Who gets it?</strong></td><td class="border-b p-sm">By default anyone in the Slack workspace can use Claude Tag, even without a Claude account, so Pluto turned on the role restriction to grant it by role, like any other surface (Lesson 6; every built-in role includes it, so only a custom role without it keeps a member group out), and switched Claude on only in the channels of the units whose work already runs in Slack threads</td><td class="border-b p-sm">The surface goes where the groups’ daily work already happens, rather than to every channel</td></tr><tr><td class="border-b p-sm"><strong>What does it carry?</strong></td><td class="border-b p-sm">Configured fresh for the channels that got it, because it is channel-scoped and little carries over from the per-member setup (your organization’s model access still applies); channel usage is billed to the organization rather than to individual seats, with its own limits and no upper bound until one is set, so the spend owner set those alongside the existing caps</td><td class="border-b p-sm">Channel-scoped access is new, so the earlier per-member grants can’t cover it; organization-level billing keeps it on the spend owner’s review rather than under member caps</td></tr><tr><td class="border-b p-sm"><strong>Does it move risk?</strong></td><td class="border-b p-sm">Yes: as the beta stands, Claude carries the channel’s access no matter who is talking to it, so Pluto kept the default that blocks Claude in channels with a guest present, which also keeps it out of channels shared with other companies through Slack Connect, and kept Claude Tag off for Payments &amp; Trust, its regulated group, the same tighter posture it holds elsewhere; the risk owner signed the choice</td><td class="border-b p-sm">Guest and Slack Connect channels put people outside the organization in front of Claude’s channel-scoped access — the kind of new reach that goes to the risk owner</td></tr></tbody></table>
 
 The interactive widget below runs Claude Tag through the three questions at Pluto and shows which of Pluto’s existing decisions reopen while the rest carry over.
 
@@ -56,9 +56,9 @@ Claude Tag arrives at Pluto: Claude inside Slack, scoped to a channel rather tha
 
 The three questions
 
-1 · Who gets it?The role decision, like any surfaceSome groups firstEvery group
+1 · Who gets it?The role decision, once you turn on role restrictionSome groups firstEvery group
 
-2 · Does it carry its own settings?Configuration that inherits little from the per-member setup: model access and the Claude Tag in Slack role capability still applyYes, its ownNo, on/off only
+2 · Does it carry its own settings?Settings that mostly start fresh rather than carrying over from the per-member setup: only your organization’s model access and, once access is restricted to roles, the “Claude Tag in Slack” role capability carry overYes, its ownNo, on/off only
 
 3 · Does it change any group’s risk?New reach: new data, new autonomy, new peopleYes, for a groupNo
 
@@ -74,11 +74,11 @@ A role grant, group by group: the units already working in Slack threads first, 
 
 3GovernanceReopens
 
-Payments & Trust stays off Claude Tag entirely — the same tighter posture it holds elsewhere — and Pluto kept the default that blocks Claude in channels with a guest present (the Allow Claude to respond to guests setting, default Restrict); the risk owner signed the choice.
+Payments & Trust stays off Claude Tag entirely — the same tighter posture it holds elsewhere — and Pluto kept the default that blocks Claude in channels with a guest present or shared with another company (the “How should Claude work in channels with guests” setting, default “Restrict”); the risk owner signed the choice.
 
 4SpendReopens
 
-Channel-scoped settings inherit little from the per-member setup; Claude Tag carries its own limits, organization-wide and per channel, with admin alerts at 75% and 95%, so the spend owner set those.
+Most channel-scoped settings don’t carry over from the per-member setup; Claude Tag carries its own limits, with no cap on the invoice until a limit is set, so the spend owner set those.
 
 5VisibilityCarries over
 
@@ -95,7 +95,7 @@ To learn more about Claude Tag and where to go when a new surface rolls out, you
 - **[What is Claude Tag?(opens in new tab)](https://support.claude.com/en/articles/15594475-what-is-claude-tag)**: what the surface does and the admin controls it ships with.
 - **[Work with Claude Tag(opens in new tab)](https://claude.com/docs/claude-tag/overview)**: the product overview in the docs: what the surface does, how admin-governed access works, and the entry point to the rest of the Claude Tag documentation.
 - **[Set up Claude Tag(opens in new tab)](https://claude.com/docs/claude-tag/admins/setup-overview)**: the admin setup overview and the entry point to the full Claude Tag admin set: per-channel access, restrictions, spend limits, and migration.
-- **[Manage model access for your organization(opens in new tab)](https://support.claude.com/en/articles/15694740-manage-model-access-for-your-organization)**: the organization-wide and per-role model settings a new surface inherits.
+- **[Manage model access for your organization(opens in new tab)](https://support.claude.com/en/articles/15694740-manage-model-access-for-your-organization)**: the organization-wide and per-role model settings. Claude Tag channels follow the organization-wide settings, not any member’s own model access.
 - **[Capabilities (Team and Enterprise plans)(opens in new tab)](https://support.claude.com/en/collections/9811414-capabilities)**: the collection where a new product’s article lands when it arrives.
 
 ## Lesson activity[](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/when-a-new-product-arrives)

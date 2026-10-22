@@ -1,4 +1,4 @@
-Lesson 17 of 66 · Claude with Google Cloud's Vertex AIBeing clear and direct
+Lesson 17 of 66 · Claude on Google CloudBeing clear and direct
 
 # Being clear and direct
 

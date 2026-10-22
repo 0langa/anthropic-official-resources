@@ -1,4 +1,4 @@
-Lesson 12 of 66 · Claude with Google Cloud's Vertex AIGenerating test datasets
+Lesson 12 of 66 · Claude on Google CloudGenerating test datasets
 
 # Generating test datasets
 

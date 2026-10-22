@@ -1,8 +1,30 @@
-AnnouncementsPolicy
-
 # Statement on the comments from Secretary of War Pete Hegseth
 
-Feb 27, 2026
+Listen to this article
+
+- Published
+
+  Feb 27, 2026
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [National security](https://www.anthropic.com/search?topic=national-security)
+  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+  - [Privacy](https://www.anthropic.com/search?topic=privacy)
+  - [Access](https://www.anthropic.com/search?topic=access)See more...
+
+Related articles
+
+- Policy
+
+  Mar 5, 2026
+
+  [Where things stand with the Department of War](https://www.anthropic.com/news/where-stand-department-war)
+
+[View more](https://www.anthropic.com/search?topic=national-security)
 
 Earlier today, Secretary of War Pete Hegseth [shared on X](https://x.com/SecWar/status/2027507717469049070?s=20) that he is directing the Department of War to designate Anthropic a supply chain risk. This action follows months of negotiations that reached an impasse over [two exceptions](https://www.anthropic.com/news/statement-department-of-war) we requested to the lawful use of our AI model, Claude: the mass domestic surveillance of Americans and fully autonomous weapons.
 
@@ -30,23 +52,3 @@ In practice, this means:
 Our sales and [support](https://support.claude.com/en/) teams are standing by to answer any questions you may have.
 
 We are deeply grateful to our users, and to the industry peers, policymakers, veterans, and members of the public who have voiced their support in recent days. Thank you. Above all else, our priorities are to protect our customers from any disruption caused by these extraordinary events and to work with the Department of War to ensure a smooth transition—for them, for our troops, and for American military operations.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

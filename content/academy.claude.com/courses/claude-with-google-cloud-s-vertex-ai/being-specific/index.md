@@ -1,4 +1,4 @@
-Lesson 18 of 66 · Claude with Google Cloud's Vertex AIBeing specific
+Lesson 18 of 66 · Claude on Google CloudBeing specific
 
 # Being specific
 

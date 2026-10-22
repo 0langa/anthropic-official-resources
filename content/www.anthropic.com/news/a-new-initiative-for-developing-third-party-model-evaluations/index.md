@@ -1,10 +1,29 @@
-Announcements
-
 # A new initiative for developing third-party model evaluations
 
-Jul 1, 2024
+- Published
 
-![A computer chip inside a flame](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fefd36fc64fd3b723e596406e5320161276017b57-2880x1620.png&w=3840&q=75)
+  Jul 1, 2024
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)See more...
+
+Related articles
+
+- Frontier Red Team
+
+  May 22, 2026
+
+  [Measuring LLMs’ ability to develop exploits](https://www.anthropic.com/research/exploit-evals)
+
+[View more](https://www.anthropic.com/search?topic=safety-evaluations)
 
 A [robust, third-party evaluation ecosystem](https://www.anthropic.com/news/third-party-testing) is essential for assessing AI capabilities and risks, but the current evaluations landscape is limited. Developing high-quality, safety-relevant evaluations remains challenging, and the demand is outpacing the supply. To address this, today we're introducing a new initiative to fund evaluations developed by third-party organizations that can effectively measure advanced capabilities in AI models. Our investment in these evaluations is intended to elevate the entire field of AI safety, providing valuable tools that benefit the whole ecosystem.
 
@@ -12,7 +31,7 @@ In this post, we describe our initiative to source new evaluations for measuring
 
 If you have a proposal,apply through our [**application form**](https://forms.gle/atw9KD3N9RPYeqoh6).
 
-## Our highest priority focus areas
+### Our highest priority focus areas
 
 We are interested in sourcing three key areas of evaluation development, which we'll describe further in the post:
 
@@ -20,7 +39,7 @@ We are interested in sourcing three key areas of evaluation development, which w
 2. Advanced capability and safety metrics
 3. Infrastructure, tools, and methods for developing evaluations
 
-### AI Safety Level assessments
+#### AI Safety Level assessments
 
 We're seeking evaluations that help us measure the AI Safety Levels (ASLs) defined in our [Responsible Scaling Policy](https://www.anthropic.com/news/anthropics-responsible-scaling-policy). These levels determine the safety and security requirements for models with specific capabilities. Robust ASL evaluations are crucial for ensuring we develop and deploy our models responsibly. This category includes:
 
@@ -38,7 +57,7 @@ We're seeking evaluations that help us measure the AI Safety Levels (ASLs) defin
   - Isolating and assessing the model's unique contribution to these risks
 - **Misalignment risks —** Our research shows that, under some circumstances, AI models can [learn dangerous goals and motivations](https://www.anthropic.com/research/reward-tampering), retain them [even after safety training](https://www.anthropic.com/news/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training), and deceive human users about actions taken in their pursuit. These abilities, in combination with the human-level [persuasiveness](https://www.anthropic.com/news/measuring-model-persuasiveness) and cyber capabilities of current AI models, increases our concern about the potential actions of future, more-capable models. For example, future models might be able to pursue sophisticated and hard-to-detect deception that bypasses or sabotages the security of an organization, either by causing humans to take actions they would not otherwise take or exfiltrating sensitive information. We propose to develop evaluations that would monitor such abilities.
 
-### Advanced capability and safety metrics
+#### Advanced capability and safety metrics
 
 Beyond our ASL assessments, we want to develop evaluations that assess advanced model capabilities and relevant safety criteria. These metrics will provide a more comprehensive understanding of our models' strengths and potential risks. This category includes:
 
@@ -58,7 +77,7 @@ Beyond our ASL assessments, we want to develop evaluations that assess advanced 
 - **Improved multilingual evaluations —** Capability benchmarks often aren’t available across most of the world’s languages. We’d like to support capability evaluations that support multiple languages.
 - **Societal impacts —** Evaluations that provide sophisticated, nuanced assessments that go beyond surface-level metrics to create rigorous assessments targeting concepts like harmful biases, discrimination, over-reliance, dependence, attachment, psychological influence, economic impacts, homogenization, and other broad societal impacts.
 
-### Infrastructure, tools, and methods for developing evaluations
+#### Infrastructure, tools, and methods for developing evaluations
 
 We're interested in funding tools and infrastructure that streamline the development of high-quality evaluations. These will be critical to achieve more efficient and effective testing across the AI community. This category includes:
 
@@ -68,7 +87,7 @@ We're interested in funding tools and infrastructure that streamline the develop
   - The development of networks of high-quality study populations who are motivated to complete the tasks
   - Tooling to easily run and analyze trials
 
-## Principles of good evaluations
+### Principles of good evaluations
 
 [Developing great evaluations is hard](https://www.anthropic.com/news/evaluating-ai-systems). Even some of the most experienced developers fall into common traps, and even the best evaluations are not always indicative of risks they purport to measure. Below we list some of the characteristics of good evaluations that we’ve learned through trial-and-error:
 
@@ -92,7 +111,7 @@ We're interested in funding tools and infrastructure that streamline the develop
 
 10. **Realistic, safety-relevant threat modeling:** Safety evaluations should ideally have the property that if a model scored highly, experts would believe that a major incident could be caused. Most of the time, when models have performed highly, experts have realized that high performance on that version of the evaluation is not sufficient to worry them.
 
-## How to submit a proposal
+### How to submit a proposal
 
 You can submit a proposal on our [**application form**](https://forms.gle/atw9KD3N9RPYeqoh6). For any questions, please reach out to [**eval-initiative@anthropic.com**](mailto:eval-initiative@anthropic.com).
 
@@ -101,23 +120,3 @@ Our team will review submissions on a rolling basis and follow up with selected 
 Our experience has shown that refining an evaluation typically requires several iterations. You will have the opportunity to interact directly with our domain experts from the Frontier Red Team, Finetuning, Trust & Safety, and other relevant teams. Our teams can provide guidance to help shape your evaluations for maximum impact.
 
 We hope this initiative serves as a catalyst for progress towards a future where comprehensive AI evaluation is an industry standard. We invite you to join us in this important work and help shape the path forward.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

@@ -1,4 +1,4 @@
-Lesson 6 of 66 · Claude with Google Cloud's Vertex AITemperature
+Lesson 6 of 66 · Claude on Google CloudTemperature
 
 # Temperature
 

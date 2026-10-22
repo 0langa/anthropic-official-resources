@@ -9,7 +9,7 @@ In this lessonBy the end, you’ll be able to
 - Create a skill from scratch with proper frontmatter structure
 - Test and verify that a skill loads correctly in Claude Code
 - Explain how Claude Code matches incoming requests to available skills
-- Describe the skill priority hierarchy (Enterprise, Personal, Project, Plugins)
+- Describe the skill priority hierarchy (Enterprise, Personal, Project) and why plugin skills sit outside it
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
@@ -37,7 +37,7 @@ priority hierarchy that determines which skill wins when names conflict.
 - Claude loads **only skill names and descriptions at startup**, then matches incoming requests against those descriptions using semantic matching
 - On a match, a skill with only a name, description, and instructions **loads in full without asking you**. If a skill pre-approves tools or adds hooks, Claude Code may ask for your approval first
 - Priority for name conflicts: **Enterprise → Personal → Project**. Plugin skills are namespaced, so they load alongside a skill with the same name
-- To update a skill, edit its `SKILL.md`. To remove one, delete its directory. Claude Code **picks up the change in the current session**, without a restart
+- To update a skill, edit its `SKILL.md`. To remove one, delete its directory. Claude Code **picks up the change in the current session**, without a restart. If `~/.claude/skills` is new in this session, run `/reload-skills` after each change
 
 Let's walk through creating a skill from scratch, then look at how Claude Code actually loads and matches skills behind the scenes.
 
@@ -112,7 +112,7 @@ To avoid conflicts, use descriptive names. Instead of just "review," use somethi
 
 ## Updating and Removing Skills[](https://academy.claude.com/courses/introduction-to-agent-skills/creating-your-first-skill)
 
-To update a skill, edit its `SKILL.md` file. To remove one, delete its directory. Claude Code picks up the change in the current session, so you don't need to restart.
+To update a skill, edit its `SKILL.md` file. To remove one, delete its directory. Claude Code picks up the change in the current session, so you don't need to restart. If you ran `/reload-skills` earlier in this session because `~/.claude/skills` was new, run it again after each change.
 
 ## Lesson reflection[](https://academy.claude.com/courses/introduction-to-agent-skills/creating-your-first-skill)
 

@@ -1,10 +1,29 @@
-Announcements
-
 # Apply for Anthropic’s AI for Science rare disease research grants
 
-Jul 20, 2026
+- Published
 
-![Apply for Anthropic’s AI for Science rare disease research grants](https://www-cdn.anthropic.com/images/4zrzovbb/website/b1ce510c468b2920d4f8f61c17a50906801f939a-1000x1000.svg)
+  Jul 20, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+  - [Funding](https://www.anthropic.com/search?topic=funding)
+  - [Discovery](https://www.anthropic.com/search?topic=discovery)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Healthcare](https://www.anthropic.com/search?topic=healthcare)See more...
+
+Related articles
+
+- Partnerships
+
+  Oct 8, 2026
+
+  [Building on our commitment to American scientific discovery](https://www.anthropic.com/news/genesis-mission-commitment)
+
+[View more](https://www.anthropic.com/search?topic=life-sciences)
 
 Last spring, we announced [Anthropic’s AI for Science program](https://www.anthropic.com/news/ai-for-science-program), an initiative designed to accelerate scientific research and discovery through access to our API. Since launching, we have supported researchers working on a variety of high-impact projects, ranging from drug repurposing to quantum simulation. Throughout this initiative, we have found that projects are more generative when multiple AI for Science grantees are working on related questions and exchanging tips. So we now plan to launch thematic calls for projects within the broader AI for Science program.
 
@@ -14,7 +33,7 @@ Rare disease research is an area where knowledge of fundamental science is limit
 
 We think AI can help with these and related challenges. AI makes it possible to accurately model rare genetic diseases and detect patterns across them. It also helps researchers synthesize findings across a large corpus of literature, quickly extract information from limited datasets, and create shared terminology, all of which informs how researchers can better use the information they *do* have, even as more work is done to generate more data and address challenges pertaining to access and geography. To explore where AI can be most helpful, we’ve made rare diseases the focus of our current call for AI for Science projects.
 
-### **Track one: Scaling our basic science partnerships**
+#### Track one: Scaling our basic science partnerships
 
 The first track of our rare disease research grants program aims to foster collaboration between clinical researchers, patient organizations, and data scientists to increase the pace of progress in basic science and the discovery of the mechanisms underlying rare diseases.
 
@@ -24,7 +43,7 @@ Most recently, Monarch contributors have been stitching data and knowledge toget
 
 Monarch’s work on improving the interoperability of rare disease data and knowledge is a place where Claude can already have a major impact. However, there’s more work to be done to gather better and more data, improve diagnostic infrastructure, and promote patient-led approaches across the rare disease ecosystem, and make the information accessible to agentic science. We will continue to partner with Monarch and others to approach this problem from the angles where AI is less obviously applicable, and we’ll share what we learn as we do.
 
-### **Track two: Scaling our biotech partnerships**
+#### Track two: Scaling our biotech partnerships
 
 The second track of our rare disease research grants program will support biotechnologists and early-stage biotechs working to accelerate drug development for rare diseases. Today, it takes [one to two years](https://www.nejm.org/doi/full/10.1056/NEJMoa1813279) to move from a confirmed genetic diagnosis to a treatment available to patients, with much of this time spent waiting in queues for certified manufacturing slots, running safety studies sequentially instead of in parallel, and hand-assembling the thousands of pages of chemistry and regulatory documentation required for in-patient testing.
 
@@ -34,7 +53,7 @@ Although many aspects of drug development are difficult to expedite because of m
 
 We also hope grantees will amplify and emulate the efforts of our other partners working in rare disease therapeutics. For example, [Every Cure](https://everycure.org/), one of our existing AI for Science grantees, is using Claude to identify drug repurposing opportunities across millions of candidates ; the [Centre for Population Genomics](https://populationgenomics.org.au/), a collaboration between the Garvan Institute and the Murdoch Children’s Research Institute, is building a Claude-based system that drafts variant classifications for expert review, one of the biggest bottlenecks in diagnosing rare genetic conditions; and the [Violet Research Institute,](https://www.violetresearch.org/) a small nonprofit researching ultra-rare genetic diseases (defined as extremely rare genetic disorders affecting fewer than 1 in 50,000 births), is using Claude to navigate FDA guidelines, run bioinformatics pipelines, analyze experimental data, draft regulatory filings, and more.
 
-### **Next steps**
+#### Next steps
 
 To apply to either track of the AI for Science rare disease research program, [fill out this application](https://docs.google.com/forms/d/e/1FAIpQLSfwDGfVg2lHJ0cc0oF_ilEnjvr_r4_paYi7VLlr5cLNXASdvA/viewform). We will be accepting applications through August 2, 2026 at 11:59 PM PST. Accepted applicants can use their credits to access Claude Opus or other generally available models approved for use in biology. Projects that may run up against our bio classifiers may be eligible for exemptions. Examples of track one projects include:
 
@@ -52,28 +71,8 @@ Examples of track two projects include:
 
 This rare disease grant program ties directly into our mission and work in beneficial deployments to extend the benefits of AI to areas that might not emerge naturally through market forces. However, rare disease is simply too big a problem for one organization or one approach. We also want to be honest about AI’s limitations in this space. Although Claude may help shorten therapeutic development timelines and curate biological data more efficiently than human teams alone, it cannot help in areas where the data is too paltry or too poorly organized for agents to reach. It may also struggle to address the aspects of the “diagnostic odyssey” that relate to challenges like insurance authorization or access to diagnostic facilities and infrastructure. We hope this program will be complemented by efforts by other organizations and research institutions to generate more high-quality, longitudinal data, as well as those that encourage robust public-private partnerships.
 
-We're looking forward to seeing how this new group of grantees will work together and with our other AI for Science partners to advance basic science and discovery in rare diseases, and how these projects can contribute to broader scientific initiatives.  
-  
-**Footnote**
+We're looking forward to seeing how this new group of grantees will work together and with our other AI for Science partners to advance basic science and discovery in rare diseases, and how these projects can contribute to broader scientific initiatives.
 
-1. Other [sources place the number of rare diseases as high as 10,000](https://pmc.ncbi.nlm.nih.gov/articles/PMC7771654/). There is also no agreed-upon definition of what a rare disease even is, despite the oft-cited claim that as many as [1 in 10 people](https://www.fda.gov/patients/rare-diseases-fda) in the US have a rare disease. Various terminologies (Orphanet, OMIM, GARD, ICD, the NCI Thesaurus, and dozens more) each define “disease” differently; some exclude chromosomal disorders (such as conditions like Pallister-Killian syndrome); some ignore diseases with environmental causes (such as congenital Zika syndrome); and some require a single anatomical system to classify them, ignoring the many multi-system rare diseases (such as Fanconi anemia, with its mix of bone marrow failure, congenital malformations, and cancer risk).
+## Footnotes
 
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
+01Other [sources place the number of rare diseases as high as 10,000](https://pmc.ncbi.nlm.nih.gov/articles/PMC7771654/). There is also no agreed-upon definition of what a rare disease even is, despite the oft-cited claim that as many as [1 in 10 people](https://www.fda.gov/patients/rare-diseases-fda) in the US have a rare disease. Various terminologies (Orphanet, OMIM, GARD, ICD, the NCI Thesaurus, and dozens more) each define “disease” differently; some exclude chromosomal disorders (such as conditions like Pallister-Killian syndrome); some ignore diseases with environmental causes (such as congenital Zika syndrome); and some require a single anatomical system to classify them, ignoring the many multi-system rare diseases (such as Fanconi anemia, with its mix of bone marrow failure, congenital malformations, and cancer risk).

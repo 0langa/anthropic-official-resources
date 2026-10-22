@@ -1,14 +1,14 @@
 ![Anthropic x Microsoft](https://assets.claude.com/d0d490842b846c570e9358b4dd4773d548fd17a1.svg)
 
-On demand
+Nov 12, 2026 — 10:00 – 11:00 AM PT
 
 # Claude in Microsoft Foundry: control the cost, prove the value
 
-Claude adoption in Microsoft Foundry is moving from individual developers to entire organizations. Leaders want to know who's using Claude, what it costs, and how it's paying off. This technical session answers all three, showing how Microsoft Foundry and Claude work together to keep spend visible, predictable, and under your control.
+Claude adoption in Microsoft Foundry is moving from pilots to production across entire organizations. Leaders want to know who's using Claude, what it costs, and how it's paying off. This technical session answers all three, starting with the choices on each Claude API call that lower cost, then showing how Microsoft Foundry and Claude work together to keep spend visible, predictable, and under your control.
 
 Register for the webinar
 
-Fill out the form below to watch on demand.
+Fill out the form below to reserve your seat.
 
 By submitting, you acknowledge the Anthropic [Privacy Policy](https://www.anthropic.com/legal/privacy).
 
@@ -29,11 +29,10 @@ Your registration data is processed by Microsoft to facilitate your attendance a
 
 ## What you’ll learn
 
-- How far your existing Azure controls take you, including Entra ID, quotas, and cost management.
-- How the Claude apps gateway replaces per-developer keys and adds per-use identity, dollar caps, and team attribution alongside your existing Azure cost and API management controls.
-- How to deploy on Azure Container Apps, including provisioning the Azure foundation, Container Apps setup, and Key Vault for your Foundry endpoint credentials.
-- How per-user spend caps with team and org defaults stop usage instantly, and how Entra ID groups decide which models each team can call.
-- How to prove what Claude returns, tracking adoption, spend by team, and cost per completed outcome like merged pull requests.
+- How to lower the cost of any Claude workload in Foundry by choosing the right model, setting effort, caching prompts, and trimming instructions.
+- How far your existing Azure controls take you for access, usage limits, and visibility.
+- Where the Claude apps Gateway fits alongside those controls, adding per-user identity, dollar caps, and team attribution for developer tools like Claude Code running on Foundry.
+- How to measure ROI by connecting spend to outcomes, such as cost per completed task for API workloads and commits and pull requests for developer teams.
 
 ## Transform how your organization operates with Claude
 

@@ -1,4 +1,4 @@
-Lesson 50 of 66 · Claude with Google Cloud's Vertex AIMCP clients
+Lesson 50 of 66 · Claude on Google CloudMCP clients
 
 # MCP clients
 

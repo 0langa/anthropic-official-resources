@@ -1,10 +1,28 @@
-Announcements
-
 # Expanding our model safety bug bounty program
 
-Aug 8, 2024
+- Published
 
-![Security locks](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F10d2b2627656111aae62a8ab7b299b4b73ee86a4-2880x1620.png&w=3840&q=75)
+  Aug 8, 2024
+- Category
+
+  [Safeguards](https://www.anthropic.com/news/safeguards)
+- Topics
+
+  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)See more...
+
+Related articles
+
+- Alignment
+
+  Jan 9, 2026
+
+  [Next-generation Constitutional Classifiers: More efficient protection against universal jailbreaks](https://www.anthropic.com/research/next-generation-constitutional-classifiers)
+
+[View more](https://www.anthropic.com/search?topic=jailbreaks)
 
 The rapid progression of AI model capabilities demands an equally swift advancement in safety protocols. As we work on developing the next generation of our AI safeguarding systems, we’re expanding our bug bounty program to introduce a new initiative focused on finding flaws in the mitigations we use to prevent misuse of our models.
 
@@ -12,37 +30,17 @@ Bug bounty programs play a crucial role in strengthening the security and safety
 
 We’re eager to work with the global community of security and safety researchers on this effort and invite interested applicants to apply to our program and assess our new safeguards.
 
-## Our approach
+### Our approach
 
 To date, we’ve operated an invite-only bug bounty program in partnership with [HackerOne](https://www.hackerone.com/) that rewards researchers for identifying model safety issues in our publicly released AI models. The bug bounty initiative we’re announcing today will test our next-generation system we've developed for AI safety mitigations, which we haven’t deployed publicly yet. Here’s how it will work:
 
 - **Early Access:** Participants will be given early access to test our latest safety mitigation system before its public deployment. As part of this, participants will be challenged to identify potential vulnerabilities or ways to circumvent our safety measures in a controlled environment.
 - **Program Scope:** We're offering bounty rewards up to $15,000 for novel, universal jailbreak attacks that could expose vulnerabilities in critical, high risk domains such as CBRN (chemical, biological, radiological, and nuclear) and cybersecurity. As we’ve [written](https://www.anthropic.com/research/many-shot-jailbreaking) about previously, a jailbreak attack in AI refers to a method used to circumvent an AI system's built-in safety measures and ethical guidelines, allowing a user to elicit responses or behaviors from the AI that would typically be restricted or prohibited. A universal jailbreak is a type of vulnerability in AI systems that allows a user to consistently bypass the safety measures across a wide range of topics. Identifying and mitigating universal jailbreaks is the key focus of this bug bounty initiative. If exploited, these vulnerabilities could have far-reaching consequences across a variety of harmful, unethical or dangerous areas. The jailbreak will be defined as universal if it can get the model to answer a defined number of specific harmful questions. Detailed instructions and feedback will be shared with the participants of the program.
 
-## Get involved
+### Get involved
 
 This model safety bug bounty initiative will begin as invite-only in partnership with HackerOne. While it will be invite-only to start, we plan to expand this initiative more broadly in the future. This initial phase will allow us to refine our processes and respond to submissions with timely and constructive feedback. If you're an experienced AI security researcher or have demonstrated expertise in identifying jailbreaks in language models, we encourage you to apply for an invitation through our **[application form](https://forms.gle/rSKrtJkXMcMCtWYcA) by Friday, August 16.** We will follow up with selected applicants in the fall.
 
 In the meantime, we actively seek any reports on model safety concerns to continually improve our current systems. If you've identified a potential safety issue in our current systems, please report it to usersafety@anthropic.com with sufficient details for us to replicate the issue. For more information, please refer to our [Responsible Disclosure Policy.](https://www.anthropic.com/responsible-disclosure-policy)
 
 This initiative aligns with commitments we’ve signed onto with other AI companies for developing responsible AI such as the [Voluntary AI Commitments](https://www.whitehouse.gov/wp-content/uploads/2023/09/Voluntary-AI-Commitments-September-2023.pdf) announced by the White House and the [Code of Conduct for Organizations Developing Advanced AI Systems](https://www.mofa.go.jp/files/100573473.pdf) developed through the G7 Hiroshima Process. Our goal is to help accelerate progress in mitigating universal jailbreaks and strengthen AI safety in high-risk areas. If you have expertise in this area, please join us in this crucial work. Your contributions could play a key role in ensuring that as AI capabilities advance, our safety measures keep pace.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

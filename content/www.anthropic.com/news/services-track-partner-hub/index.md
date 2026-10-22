@@ -1,10 +1,27 @@
-Announcements
-
 # Introducing the Services Track and Partner Hub of the Claude Partner Network
 
-Jun 3, 2026
+- Published
 
-![Introducing the Services Track and Partner Hub of the Claude Partner Network](https://www-cdn.anthropic.com/images/4zrzovbb/website/6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+  Jun 3, 2026
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Education](https://www.anthropic.com/search?topic=education)
+  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)See more...
+
+Related articles
+
+- Partnerships
+
+  Mar 12, 2026
+
+  [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
+
+[View more](https://www.anthropic.com/search?topic=partnerships)
 
 Almost every large enterprise is moving AI into production, and many have discovered something important: a successful pilot is not the same as a system a business can run on. The real work—and the real opportunity—is in the integration, the evaluation, and the way people's work evolves. That's why the companies getting AI integration right are doing it with partners who have done it before.
 
@@ -16,7 +33,7 @@ Today we’re announcing two things that make this ecosystem easier for customer
 
 The best partners have firsthand experience with Claude. They use the newest models for their own work before they put it in front of a client. This way, when they tell a customer what it takes, they’re speaking from experience. The Services Track is built to give customers confidence in a firm’s ability to help them bring Claude into their businesses.
 
-## **About the Services Track**
+### About the Services Track
 
 The Services Track has three tiers, each reflecting how deep a firm's Claude practice runs.
 
@@ -32,13 +49,13 @@ Every firm is measured against the same requirements, whether it's a ten-person 
 
 Every firm's dashboard shows the same numbers we see, and we verify standing every quarter. Detailed requirements for each tier are published at [claude.com/partners](http://claude.com/partners).
 
-## **About the Claude Partner Hub**
+### About the Claude Partner Hub
 
 The Claude Partner Hub allows each partner to see its own standing against the published requirements, refreshed daily. It’s also where customers looking for Claude expertise find the firms most qualified to help. Every partner’s standing—their tier, certified team, customer deployments, and public references—is visible in the Hub’s public directory, so anyone evaluating partners can see what a firm has built and delivered.
 
 Partners can connect the Partner Hub to Claude through a new [MCP connector](https://mcp.eulerapp.com/public/partner-capabilities), and from there information about the partnership becomes a conversation. For example, ask Claude where your firm stands against the next tier, the status of a registered deal, or how many of your consultants hold an active certification, and act on the answer within Claude.
 
-## **What this means for partners**
+### What this means for partners
 
 For firms building a Claude practice, this program is meant to reward real work and to be predictable enough to plan around. Four things hold true for every partner:
 
@@ -47,26 +64,6 @@ For firms building a Claude practice, this program is meant to reward real work 
 - **The ladder moves on a schedule you can see in advance.** Promotions are processed twice a year, on January 1 and July 1, with an additional review on October 1, 2026, in this first year. A firm moves down only at the annual review on December 31, only if it no longer meets its tier’s published requirements, and only after 90 days’ notice and a chance to close the gap. The narrow exceptions are spelled out in the Program Guide.
 - **The $100 million we committed in March funds** partner training, dedicated technical support, and shared marketing. Firms that join now also get priority access to new certifications as we introduce them.
 
-## **What’s next**
+### What’s next
 
 Specializations for specific industries and use cases are coming, along with rewards that grow as a partner’s deployments grow. Getting started is free. Firms gain Anthropic Partner Academy access, including certification exams, with tiered partners receiving discounted rates on their first attempt, and new applicants start at Registered, the program’s entry level, with a minimum commitment to 10 certified practitioners. Partnership begins at Select. The requirements are the same for every firm. Learn more at [claude.com/partners](http://claude.com/partners).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

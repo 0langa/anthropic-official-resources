@@ -1,4 +1,4 @@
-Lesson 66 of 66 · Claude with Google Cloud's Vertex AIWorkflows vs agents
+Lesson 66 of 66 · Claude on Google CloudWorkflows vs agents
 
 # Workflows vs agents
 

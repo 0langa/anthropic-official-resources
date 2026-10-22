@@ -1,4 +1,4 @@
-Lesson 45 of 66 · Claude with Google Cloud's Vertex AICitations
+Lesson 45 of 66 · Claude on Google CloudCitations
 
 # Citations
 

@@ -1,8 +1,25 @@
-Announcements
-
 # Chris Liddell appointed to Anthropic’s board of directors
 
-Feb 13, 2026
+- Published
+
+  Feb 13, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Leadership](https://www.anthropic.com/search?topic=leadership)
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+
+Related articles
+
+- Announcements
+
+  Jul 9, 2026
+
+  [Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust](https://www.anthropic.com/news/ben-bernanke)
+
+[View more](https://www.anthropic.com/search?topic=leadership)
 
 Chris Liddell has been appointed to Anthropic’s Board of Directors. He brings over 30 years of senior leadership experience across some of the world's largest and most complex organizations to the role. He previously served as Chief Financial Officer of Microsoft, General Motors, and International Paper, as well as the Deputy White House Chief of Staff during President Trump’s first term.
 
@@ -15,23 +32,3 @@ Liddell joins Dario Amodei, Daniela Amodei, [Yasmin Razavi](https://www.anthropi
 Liddell currently serves as a Director of both Commonwealth Fusion Systems and the Council on Foreign Relations. He has also been involved in several presidential transition teams, has written a book on that topic, and was the Director of the American Technology Council in the White House, focused on modernizing government technology.
 
 Beyond his corporate and public service career, Liddell has been recognized for his contributions to business and philanthropy. He currently serves as Chairman of New Zealand’s largest environmental foundation and has sat on several nonprofit boards, including the New Zealand Rugby Union. In 2016, he was appointed a Companion of the New Zealand Order of Merit for services to business and philanthropy.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

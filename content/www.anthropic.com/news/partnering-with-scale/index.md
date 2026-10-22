@@ -1,8 +1,26 @@
-Announcements
-
 # Partnering with Scale to bring generative AI to enterprises
 
-Apr 26, 2023
+- Published
+
+  Apr 26, 2023
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Access](https://www.anthropic.com/search?topic=access)See more...
+
+Related articles
+
+- Partnerships
+
+  Nov 18, 2025
+
+  [Microsoft, NVIDIA, and Anthropic announce strategic partnerships](https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships)
+
+[View more](https://www.anthropic.com/search?topic=partnerships)
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdf9f22e51ec2857161c30f0aa5f7c04eef0a84e0-5760x3240.png&w=3840&q=75)
 
@@ -17,23 +35,3 @@ Dario Amodei, CEO of Anthropic, says, “Partnering with Scale allows us to brin
 By combining Anthropic's Claude model and [Constitutional AI](https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback?token=91dScZBi-mOLCL2ht2JRXNaLktnej22N) system with Scale's robust tooling and functionality, customers gain an enterprise-ready solution to work with Generative AI. We look forward to sharing more details on our partnership to responsibly bring Claude to more organizations.
 
 The future of AI is collaborative. We are excited to collaborate with Scale.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

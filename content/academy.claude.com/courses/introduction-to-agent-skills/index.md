@@ -14,7 +14,7 @@ What you’ll learnBy the end of this course, you’ll be able to
 
 - Explain what skills are, where they live, and how Claude Code matches them to requests
 - Create a skill from scratch with valid SKILL.md frontmatter and verify it loads
-- Write effective skill descriptions and restrict tool access with allowed-tools
+- Write effective skill descriptions and pre-approve tools with allowed-tools
 - Organize larger skills using progressive disclosure, reference files, and executable scripts
 - Choose between skills, CLAUDE.md, subagents, hooks, and MCP servers for a given use case
 - Share skills through project repositories, plugins, enterprise managed settings, and custom subagents

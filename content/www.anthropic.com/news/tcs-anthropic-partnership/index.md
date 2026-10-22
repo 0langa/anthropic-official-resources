@@ -1,16 +1,35 @@
-Announcements
-
 # TCS and Anthropic partner to bring Claude to regulated industries
 
-Jun 12, 2026
+- Published
 
-![TCS and Anthropic partner to bring Claude to regulated industries](https://www-cdn.anthropic.com/images/4zrzovbb/website/1576ae23eaf481f33bd36ab468171cc69d12361a-1000x1000.svg)
+  Jun 12, 2026
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Financial services](https://www.anthropic.com/search?topic=financial-services)
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Healthcare](https://www.anthropic.com/search?topic=healthcare)See more...
+
+Related articles
+
+- Announcements
+
+  Oct 1, 2026
+
+  [Barclays scales Claude to upgrade operations and improve client experience](https://www.anthropic.com/news/barclays-scales-claude)
+
+[View more](https://www.anthropic.com/search?topic=partnerships)
 
 We’re announcing a partnership with [Tata Consultancy Services](https://www.tcs.com/) (TCS), one of the world’s largest technology services companies. TCS will provide Claude to 50,000 of its own employees across 56 countries; build Claude-powered products for clients in financial services, healthcare, the public sector, and other regulated industries; and join the [Claude Partner Network,](https://claude.com/partners) our network of consulting and services firms that help bring Claude to their enterprise clients.
 
 Regulated industries need their work to be highly accurate and auditable, and enterprises in these fields already use Claude for that reason. TCS brings decades of experience delivering technology that is compliant with companies’ regulatory requirements—and the reach to bring Claude to thousands of enterprises worldwide.
 
-## How TCS is using Claude
+### How TCS is using Claude
 
 As “customer zero,” TCS will put Claude to work across its own engineering, finance, legal, marketing, and sales teams, using what it learns to shape how it brings Claude to clients. It’s also building a dedicated practice for this partnership, bringing together consultants, engineers, and industry specialists who will design and run Claude-based systems for clients. TCS will package Claude into industry-specific offerings, such as claims processing for insurers and lending advisory for banks, and its teams will implement and run them for clients in financial services, public services, life sciences, healthcare, aviation, telecom, and medical technology.
 
@@ -28,23 +47,3 @@ This work is already underway. For example:
 “This partnership reflects our shared conviction that AI will be foundational and transformative for enterprises worldwide,” said N Chandrasekaran, Chairman, Tata Sons. “By combining Anthropic's capabilities with Tata Group’s scale, trusted relationships, and nation-building commitment, we will accelerate enterprise reinvention and equip India’s youth with the skills to lead in the AI era.”
 
 To learn more about the Claude Partner Network, visit [anthropic.com/partners](https://www.anthropic.com/partners).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

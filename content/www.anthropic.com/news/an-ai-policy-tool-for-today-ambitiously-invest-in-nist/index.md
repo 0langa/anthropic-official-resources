@@ -1,8 +1,28 @@
-Announcements
+# **An AI policy tool for today:**Ambitiously invest in NIST
 
-# An AI Policy Tool for Today: Ambitiously Invest in NIST
+- Published
 
-Apr 20, 2023
+  Apr 20, 2023
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)See more...
+
+Related articles
+
+- Policy
+
+  Jul 7, 2025
+
+  [The need for transparency in Frontier AI](https://www.anthropic.com/news/the-need-for-transparency-in-frontier-ai)
+
+[View more](https://www.anthropic.com/search?topic=government-capacity)
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe85c883654e0a7e6d096cfa0413b35bcb7ccad58-2880x1620.png&w=3840&q=75)
 
@@ -12,7 +32,7 @@ We were heartened by the bipartisan support for maintaining American leadership 
   
 In this post, we give an overview of why we think this, and we also share a policy proposal for what an ambitious funding program for NIST could look like in practice. This proposal is readily actionable and builds on a solid foundation of existing work at the agency; we view it as a complement to a suite of policy levers for stronger AI governance.
 
-## Background
+### Background
 
 In the course of just a few years, we’ve seen rapid technological progress in the kinds of tasks AI systems can complete, and a significant rise in the number of publicly deployed, AI-powered products. Researchers have also discovered that these systems display both significant capabilities and risks, some of which can emerge abruptly through training larger-scale models, and some of which are only discovered after deployment. In an attempt to address this, a variety of ideas have been put forward for how best to govern both the development and use of AI systems.  
   
@@ -22,7 +42,7 @@ NIST has for many years diligently worked on the science behind measuring AI sys
   
 Though the art of measurement may sound dry or possibly inconsequential, we believe it is both critical and urgent for helping us as a society better understand the advances and potential drawbacks of increasingly capable AI systems. As we’ve discussed in our [research](https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models), open-ended AI systems can act in unpredictable ways — we can’t reliably anticipate all potential risks during the development process. Even if we could, the field lacks widely-agreed upon methods to comprehensively measure and assess those risks.
 
-## Investing in Safety and Innovation
+### Investing in Safety and Innovation
 
 Despite NIST’s foundational work in measurement, we’ve seen a general under-resourcing and concerning stagnation in funding for AI-related programs at NIST over the past few years. This lack of support is especially acute against the backdrop of recent technological progress and the widespread adoption of AI systems. With an ambitious investment, NIST could build on fundamental measurement techniques and standardize them across the field. Additional resourcing would also allow NIST to build much-needed community resources, such as testbeds, to assess the capabilities and risks of today’s open-ended AI systems.
 
@@ -45,23 +65,3 @@ This proposal builds on our past advocacy for a more well-resourced NIST, includ
 *This blog post follows a policy memo we wrote that looks at past funding patterns and some specific proposals for what NIST might build with more resourcing. As Congress considers appropriations for FY 2024, we urge it to consider additional funding of NIST.*
 
 *View the [memo here](https://www-cdn.anthropic.com/c429f993f5a3a5ea1808414df6e67fcb8d36ca86/Anthropic_NIST_v3.pdf).*
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

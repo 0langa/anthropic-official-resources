@@ -1,4 +1,4 @@
-Lesson 56 of 66 · Claude with Google Cloud's Vertex AIAccessing resources
+Lesson 56 of 66 · Claude on Google CloudAccessing resources
 
 # Accessing resources
 

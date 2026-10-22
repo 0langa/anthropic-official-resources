@@ -1,30 +1,48 @@
-Announcements
-
 # Protecting the wellbeing of our users
 
-Dec 18, 2025
+- Published
 
-![Protecting the wellbeing of our users](https://www-cdn.anthropic.com/images/4zrzovbb/website/cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
+  Dec 18, 2025
+- Category
+
+  [Safeguards](https://www.anthropic.com/news/safeguards)
+- Topics
+
+  - [Wellbeing](https://www.anthropic.com/search?topic=wellbeing)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+
+Related articles
+
+- Frontier Red Team
+
+  May 22, 2026
+
+  [Measuring LLMs’ ability to develop exploits](https://www.anthropic.com/research/exploit-evals)
+
+[View more](https://www.anthropic.com/search?topic=wellbeing)
 
 People use AI for a wide variety of reasons, and for some that may include emotional support. Our Safeguards team leads our efforts to ensure that Claude handles these conversations appropriately—responding with empathy, being honest about its limitations as an AI, and being considerate of our users' wellbeing. When chatbots handle these questions without the appropriate safeguards in place, the stakes can be significant.
 
 In this post, we outline the measures we’ve taken to date, and how well Claude currently performs on a range of evaluations. We focus on two areas: how Claude handles conversations about suicide and self-harm, and how we’ve reduced “sycophancy”—the tendency of some AI models to tell users what they want to hear, rather than what is true and helpful. We also address Claude’s 18+ age requirement.
 
-## **Suicide and self-harm**
+### Suicide and self-harm
 
 Claude is not a substitute for professional advice or medical care. If someone expresses personal struggles with suicidal or self-harm thoughts, Claude should react with care and compassion while pointing users towards human support where possible: to helplines, to mental health professionals, or to trusted friends or family. To make this happen, we use a combination of model training and product interventions.
 
-### **Model behavior**
+#### Model behavior
 
-We shape Claude’s behavior in these situations through two ways. One is through our “system prompt”—the set of overarching instructions that Claude sees before the start of any conversation on [Claude.ai](http://claude.ai/redirect/website.v1.46f23827-6537-49c6-ba48-778f6891bf95/redirect/website.v1.573f09eb-0baa-472f-acf8-8c495939e2f7). These include guidance on how to handle sensitive conversations with care. Our system prompts are publicly available [here](https://platform.claude.com/docs/en/release-notes/system-prompts).
+We shape Claude’s behavior in these situations through two ways. One is through our “system prompt”—the set of overarching instructions that Claude sees before the start of any conversation on [Claude.ai](http://claude.ai/redirect/website.v1.573f09eb-0baa-472f-acf8-8c495939e2f7). These include guidance on how to handle sensitive conversations with care. Our system prompts are publicly available [here](https://platform.claude.com/docs/en/release-notes/system-prompts).
 
 We also train our models through a process called “reinforcement learning,” where the model learns how to respond to these topics by being “rewarded” for providing the appropriate answers in training. Generally, what we consider “appropriate” is defined by a combination of human preference data—that is, feedback we’ve collected from real people about how Claude should act—and data we’ve generated based on our own thinking about Claude’s ideal character. Our team of in-house experts help inform what behaviors Claude should and shouldn’t exhibit in sensitive conversations during this process.
 
-### **Product safeguards**
+#### Product safeguards
 
-We’ve also introduced new features to identify when a user might require professional support, and to direct users to that support where that may be necessary—including a suicide and self-harm “classifier” on conversations on [Claude.ai](http://claude.ai/redirect/website.v1.46f23827-6537-49c6-ba48-778f6891bf95). A classifier is a small AI model that scans the content of active conversations and, in this case, detects moments when further resources could be beneficial. For instance, it flags discussions involving potential suicidal ideation, or fictional scenarios centered on suicide or self-harm.
+We’ve also introduced new features to identify when a user might require professional support, and to direct users to that support where that may be necessary—including a suicide and self-harm “classifier” on conversations on [Claude.ai](http://claude.ai/). A classifier is a small AI model that scans the content of active conversations and, in this case, detects moments when further resources could be beneficial. For instance, it flags discussions involving potential suicidal ideation, or fictional scenarios centered on suicide or self-harm.
 
-When this happens, a banner will appear on [Claude.ai](http://claude.ai/redirect/website.v1.46f23827-6537-49c6-ba48-778f6891bf95), pointing users to where they can seek human support. Users are directed to chat with a trained professional, call a helpline, or access country-specific resources.
+When this happens, a banner will appear on [Claude.ai](http://claude.ai/), pointing users to where they can seek human support. Users are directed to chat with a trained professional, call a helpline, or access country-specific resources.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3eb430641fb43ca2df725a12f698f0726ee070c3-1920x1263.png&w=3840&q=75)
 
@@ -34,7 +52,7 @@ The resources that appear in this banner are provided by ThroughLine, a leader i
 
 We’ve also begun working with the International Association for Suicide Prevention (IASP), which is convening experts—including clinicians, researchers, and people with personal experiences coping with suicide and self-harm thoughts—to share guidance on how Claude should handle suicide-related conversations. This partnership will further inform how we train Claude, design our product interventions, and evaluate our approach.
 
-### **Evaluating Claude’s behavior**
+#### Evaluating Claude’s behavior
 
 Assessing how Claude handles these conversations is challenging. Users’ intentions are often genuinely ambiguous, and the appropriate response is not always clear-cut. To address this, we use a range of evaluations, studying Claude’s behavior and capabilities in different ways. These evaluations are run without Claude's system prompt to give us a clearer view of the model's underlying tendencies.
 
@@ -52,15 +70,17 @@ How often Claude models respond appropriately in multi-turn conversations about 
 
 **Stress-testing with real conversations.** Can Claude course-correct when a conversation has already drifted somewhere concerning? To test this, we use a technique called "prefilling:” we take real conversations (shared anonymously through the [Feedback](https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data) button[1](https://www.anthropic.com/news/protecting-well-being-of-users)) in which users expressed mental health struggles, suicide, or self-harm struggles, and ask Claude to continue the conversation mid-stream. Because the model reads this prior dialogue as its own and tries to maintain consistency, prefilling makes it harder for Claude to change direction—a bit like steering a ship that's already moving.[2](https://www.anthropic.com/news/protecting-well-being-of-users)
 
-These conversations come from older Claude models, which sometimes handled them less appropriately. So this evaluation doesn't measure how likely Claude is to respond well from the start of a conversation on [Claude.ai](http://claude.ai/redirect/website.v1.46f23827-6537-49c6-ba48-778f6891bf95)—it measures whether a newer model can recover from a less aligned version of itself. On this harder test, Opus 4.5 responded appropriately 91% of the time and Sonnet 4.5 73%, compared to 36% for Opus 4.1.
+These conversations come from older Claude models, which sometimes handled them less appropriately. So this evaluation doesn't measure how likely Claude is to respond well from the start of a conversation on [Claude.ai](http://claude.ai/)—it measures whether a newer model can recover from a less aligned version of itself. On this harder test, Opus 4.5 responded appropriately 91% of the time and Sonnet 4.5 73%, compared to 36% for Opus 4.1.
 
-## **Delusions and sycophancy**
+### Delusions and sycophancy
 
 *Sycophancy* means telling someone what they want to hear—making them feel good in the moment—rather than what’s really true, or what they would really benefit from hearing. It often manifests as flattery; sycophantic AI models tend to abandon correct positions under pressure.
 
 Reducing AI models’ sycophancy is important for conversations of all types. But it is an especially important concern in contexts where users might appear to be experiencing disconnection from reality. The following video explains why sycophancy matters, and how users can spot it.
 
-### **Evaluating and reducing sycophancy**
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2Fnvbq39yVYRk%2Fmaxresdefault.jpg&w=3840&q=75)
+
+#### Evaluating and reducing sycophancy
 
 We began [evaluating](https://arxiv.org/abs/2212.09251) Claude for sycophancy in 2022, prior to its first public release. Since then, we've steadily [refined](https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models) how we train, test, and reduce sycophancy. Our most recent models are the least sycophantic of any to date, and, as we’ll discuss below, perform better than any other frontier model on our recently released open source evaluation set, [Petri](https://www.anthropic.com/research/petri-open-source-auditing).
 
@@ -84,41 +104,22 @@ Recent Claude model performance for sycophancy on the open-source Petri evaluati
 
 Our current models course-corrected appropriately 10% (Opus 4.5), 16.5% (Sonnet 4.5) and 37% (Haiku 4.5) of the time. On face value, this evaluation shows there is significant room for improvement for all of our models. We think the results reflect a trade-off between model warmth or friendliness on the one hand, and sycophancy on the other. Haiku 4.5's relatively stronger performance is a result of training choices for this model that emphasized pushback—which in testing we found can sometimes feel excessive to the user. By contrast, we reduced this tendency in Opus 4.5 (while still performing extremely well on our multi-turn sycophancy benchmark, as above), which we think likely accounts for its lower score on this evaluation in particular.
 
-### **A note on age restrictions**
+#### A note on age restrictions
 
-Because younger users are at a heightened risk of adverse effects from conversations with AI chatbots, we require [Claude.ai](http://claude.ai/redirect/website.v1.46f23827-6537-49c6-ba48-778f6891bf95) users to be 18+ to use our product. All [Claude.ai](http://claude.ai/redirect/website.v1.46f23827-6537-49c6-ba48-778f6891bf95) users must affirm that they are 18 or over while setting up an account. If a user under 18 self-identifies their age in a conversation, our classifiers will flag this for review and we’ll disable accounts confirmed to belong to minors. And, we’re developing a new classifier to detect other, more subtle conversational signs that a user might be underage. We've joined the Family Online Safety Institute (FOSI), an advocate for safe online experiences for kids and families, to help strengthen industry progress on this work.
+Because younger users are at a heightened risk of adverse effects from conversations with AI chatbots, we require [Claude.ai](http://claude.ai/) users to be 18+ to use our product. All [Claude.ai](http://claude.ai/) users must affirm that they are 18 or over while setting up an account. If a user under 18 self-identifies their age in a conversation, our classifiers will flag this for review and we’ll disable accounts confirmed to belong to minors. And, we’re developing a new classifier to detect other, more subtle conversational signs that a user might be underage. We've joined the Family Online Safety Institute (FOSI), an advocate for safe online experiences for kids and families, to help strengthen industry progress on this work.
 
-## **Looking ahead**
+### Looking ahead
 
 We’ll continue to build new protections and safeguards to protect the wellbeing of our users, and we’ll continue iterating on our evaluations, too. We’re committed to publishing our methods and results transparently—and to working with others in the industry, including researchers and other experts, to improve how AI tools behave in these areas.
 
-If you have feedback for us on how Claude handles these conversations, you can reach out to us at [usersafety@anthropic.com](mailto:usersafety@anthropic.com), or use the “thumb” reactions inside [Claude.ai](http://claude.ai/redirect/website.v1.46f23827-6537-49c6-ba48-778f6891bf95).
+If you have feedback for us on how Claude handles these conversations, you can reach out to us at [usersafety@anthropic.com](mailto:usersafety@anthropic.com), or use the “thumb” reactions inside [Claude.ai](http://claude.ai/).
 
-### Footnotes
+## Footnotes
 
-1. At the bottom of every response on [Claude.ai](http://claude.ai/redirect/website.v1.46f23827-6537-49c6-ba48-778f6891bf95) is an option to send us [feedback](https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data) via a thumbs up or thumbs down button. This shares the conversation with Anthropic; we do not otherwise use [Claude.ai](http://claude.ai/redirect/website.v1.46f23827-6537-49c6-ba48-778f6891bf95) for training or research.
-2. Prefilling is only available via API, as developers often need more fine-grained control over model behavior, but is not possible on [Claude.ai](http://claude.ai/redirect/website.v1.46f23827-6537-49c6-ba48-778f6891bf95).
-3. In automated behavioral audits, we give a Claude auditor hundreds of different conversational scenarios in which we suspect models might show dangerous or surprising behavior, and score each conversation for Claude’s performance on around two dozen behaviors (see page 69 in the [Claude Opus 4.5 system card](https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf)). Not every conversation gives Claude the opportunity to exhibit every behavior. For instance, encouragement of user delusion requires a user to exhibit delusional behavior in the first place, but sycophancy can appear in many different contexts. Because we use the same denominator (total conversations) when we score each behavior, scores can vary widely. For this reason, these tests are most useful for comparing progress between Claude models, not between behaviors.
-4. The public release includes over 100 seed instructions and customizable scoring dimensions, though it doesn't yet include the realism filter we use internally to prevent models from recognizing they're being tested.
+01At the bottom of every response on [Claude.ai](http://claude.ai/) is an option to send us [feedback](https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data) via a thumbs up or thumbs down button. This shares the conversation with Anthropic; we do not otherwise use [Claude.ai](http://claude.ai/) for training or research.
 
-*Edited Feb. 3, 2025: This post originally stated that Opus 4.5 responded appropriately 70% of the time in our stress-testing evals for suicide and self-harm. That figure came from an earlier version of Opus 4.5, and has been corrected to 91%.*
+02Prefilling is only available via API, as developers often need more fine-grained control over model behavior, but is not possible on [Claude.ai](http://claude.ai/).
 
-## Related content
+03In automated behavioral audits, we give a Claude auditor hundreds of different conversational scenarios in which we suspect models might show dangerous or surprising behavior, and score each conversation for Claude’s performance on around two dozen behaviors (see page 69 in the [Claude Opus 4.5 system card](https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf)). Not every conversation gives Claude the opportunity to exhibit every behavior. For instance, encouragement of user delusion requires a user to exhibit delusional behavior in the first place, but sycophancy can appear in many different contexts. Because we use the same denominator (total conversations) when we score each behavior, scores can vary widely. For this reason, these tests are most useful for comparing progress between Claude models, not between behaviors.
 
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
+04The public release includes over 100 seed instructions and customizable scoring dimensions, though it doesn't yet include the realism filter we use internally to prevent models from recognizing they're being tested.

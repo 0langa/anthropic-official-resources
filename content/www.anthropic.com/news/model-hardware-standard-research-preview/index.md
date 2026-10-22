@@ -1,8 +1,31 @@
-AnnouncementsBeneficial Deployments
+### Chapter 03: Joining the research preview
 
 # Previewing the Model Hardware Standard
 
-Aug 27, 2026
+- Published
+
+  Aug 27, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Robotics](https://www.anthropic.com/search?topic=robotics)
+  - [Discovery](https://www.anthropic.com/search?topic=discovery)
+  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+
+Related articles
+
+- Announcements
+
+  May 18, 2026
+
+  [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless)
+
+[View more](https://www.anthropic.com/search?topic=robotics)
 
 We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers. MHS enables AI agents to operate multiple lab and manufacturing instruments, such as microscopes, liquid handlers, and robotic arms, in parallel, and perform intricate tasks ranging from routine drug discovery experiments to laser calibration on a quantum computer. The development of MHS began as a collaboration between Anthropic and [HHMI Janelia Research Campus](https://www.hhmi.org/research/janelia).
 
@@ -58,7 +81,11 @@ As we developed MHS, we shared it with a handful of labs and hardware manufactur
 
 *Researchers at Tetsuwan integrated MHS with its automated biology lab platform, ResearchOS. MHS helped orchestrate a qPCR workflow to contribute to citizen science efforts to characterize pollution in California’s San Pedro Creek.*
 
-01 / 06
+01
+
+/
+
+06
 
 Hardware vendors and the software companies that support them are also building MHS support into their equipment so AI agents can more easily discover and operate their devices. For example:
 
@@ -81,28 +108,10 @@ We will also use the research preview to build additional safety evaluations wit
 
 We’re inviting stakeholders across industries to join the waitlist for our research preview of MHS. If you’d like to participate, [submit your interest here](https://www.modelhardwarestandard.com/).
 
-## Acknowledgments
+## Authors & Acknowledgments
+
+### Acknowledgements
 
 MHS began as a collaboration between Alek Kemeny on Anthropic’s [Beneficial Deployments team](http://anthropic.com/beneficial-deployments) and Arco Bast, a postdoctoral scientist at HHMI Janelia Research Campus. Bast was running complex brain-imaging experiments on a rig that combined lasers, motorized focusers, and specialized cameras from different vendors with no common interface. To speed up his experiments, he developed a shared memory dictionary that enabled the instruments to communicate with one another at memory speed. Kemeny and Bast worked together to integrate AI models into that interface.
 
 We thank everyone who has contributed to this work so far, including, but not limited to, Aaron Boswell, Ben Arthur, Boaz Mohar, Gagan Bhat, Mark Kittisopikul, Nadine Yasser, Nick Purcell, Takashi Kawase, and Virginie Ruetten. We look forward to moving MHS forward with our industry partners and, soon, with the open-source community.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

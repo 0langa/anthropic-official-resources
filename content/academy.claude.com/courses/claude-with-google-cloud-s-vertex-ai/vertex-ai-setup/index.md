@@ -1,4 +1,4 @@
-Lesson 2 of 66 · Claude with Google Cloud's Vertex AIVertex AI Setup
+Lesson 2 of 66 · Claude on Google CloudVertex AI Setup
 
 # Vertex AI Setup
 

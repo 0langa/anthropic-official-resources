@@ -1,10 +1,29 @@
-Announcements
-
 # Testing our safety defenses with a new bug bounty program
 
-May 14, 2025
+- Published
 
-![A magnifying glass reviewing code](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F694207e39ea7be23e009bba6923809b5f2b1dbc6-1920x1079.png&w=3840&q=75)
+  May 14, 2025
+- Category
+
+  [Safeguards](https://www.anthropic.com/news/safeguards)
+- Topics
+
+  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+  - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
+  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)See more...
+
+Related articles
+
+- Alignment
+
+  Jan 9, 2026
+
+  [Next-generation Constitutional Classifiers: More efficient protection against universal jailbreaks](https://www.anthropic.com/research/next-generation-constitutional-classifiers)
+
+[View more](https://www.anthropic.com/search?topic=jailbreaks)
 
 Today, we're launching a new bug bounty program to stress-test our latest safety measures. Similar to the program we announced last [summer](https://www.anthropic.com/news/model-safety-bug-bounty), we're challenging researchers to find universal jailbreaks in safety classifiers that we haven't yet deployed publicly. These safeguards are part of the advanced protections we’ve developed to help us meet the AI Safety Level-3 (ASL-3) Deployment Standard as part of our [Responsible Scaling Policy](https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy), the framework that governs how we develop and deploy increasingly capable AI models safely.
 
@@ -18,28 +37,8 @@ We’ve kicked off this new bug bounty initiative with participation from the re
 
 We're grateful to the security community for its partnership in helping us make AI systems safer.
 
-## Update on May 22, 2025
+### Update on May 22, 2025
 
 The bug bounty program in this post has concluded. Participants will transition to a new bug bounty initiative we’re rolling out today that’s focused on stress-testing our [Constitutional Classifiers system](https://www.anthropic.com/news/constitutional-classifiers) on the new Claude Opus 4 model and testing other safety systems we may develop. We’re still accepting applications to participate in this new invite-only program. You can apply for an invite through our [application form](https://forms.gle/3ocTorSkkuvcGePn9).
 
 To further advance AI safety, we are also accepting reports of universal jailbreaks for ASL-3 uses of concern (meaning those which elicit information related to biological threats) found on public platforms or forums, such as social media. For more information, see [here](https://docs.google.com/forms/d/e/1FAIpQLSfJAE2lJC0uKkkrKemR2ef_Q0yFFqiwjzcSE4lzMTdDQDuPcQ/viewform).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

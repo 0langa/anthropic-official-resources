@@ -1,16 +1,34 @@
-Announcements
-
 # Announcing our updated Responsible Scaling Policy
-
-Oct 15, 2024
 
 [Read the Responsible Scaling Policy](http://anthropic.com/rsp)
 
-![A hand with a feather quill writing a policy document. ](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff1664b95be4e2e828a180cf9f015a0b6f8365472-5760x3240.png&w=3840&q=75)
+- Published
+
+  Oct 15, 2024
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)See more...
+
+Related articles
+
+- Policy
+
+  Feb 24, 2026
+
+  [Anthropic’s Responsible Scaling Policy: Version 3.0](https://www.anthropic.com/news/responsible-scaling-policy-v3)
+
+[View more](https://www.anthropic.com/search?topic=responsible-scaling-policy)
 
 **Today we are publishing a significant update to our Responsible Scaling Policy (RSP), the risk governance framework we use to mitigate potential catastrophic risks from frontier AI systems.** This update introduces a more flexible and nuanced approach to assessing and managing AI risks while maintaining our commitment not to train or deploy models unless we have implemented adequate safeguards. Key improvements include new capability thresholds to indicate when we will upgrade our safeguards, refined processes for evaluating model capabilities and the adequacy of our safeguards (inspired by [safety case methodologies](https://arxiv.org/abs/2403.10462)), and new measures for internal governance and external input. By learning from our implementation experiences and drawing on risk management practices used in other high-consequence industries, we aim to better prepare for the rapid pace of AI advancement.
 
-## The promise and challenge of advanced AI
+### The promise and challenge of advanced AI
 
 As frontier AI models advance, they have the potential to bring about transformative benefits for our society and economy. AI could accelerate scientific discoveries, revolutionize healthcare, enhance our education system, and create entirely new domains for human creativity and innovation. However, frontier AI systems also present new challenges and risks that warrant careful study and effective safeguards.
 
@@ -18,7 +36,7 @@ In September 2023, we [released](https://www.anthropic.com/news/anthropics-respo
 
 Although this policy focuses on catastrophic risks like the categories listed below, they are not the only risks that we monitor and prepare for. Our [Usage Policy](https://www.anthropic.com/legal/aup) sets forth our standards for the use of our products, including rules that prohibit using our models to spread misinformation, incite violence or hateful behavior, or engage in fraudulent or abusive practices. We continually refine our technical measures for enforcing our trust and safety standards at scale. Further, we conduct research to understand the broader [societal impacts](https://www.anthropic.com/research) of our models. Our Responsible Scaling Policy complements our work in these areas, contributing to our understanding of current and potential risks.
 
-## A framework for proportional safeguards
+### A framework for proportional safeguards
 
 As before, we maintain our core commitment: we will not train or deploy models unless we have implemented safety and security measures that keep risks below acceptable levels. Our RSP is based on the principle of proportional protection: safeguards that scale with potential risks. To do this, we use **AI Safety Level Standards (ASL Standards)**, graduated sets of safety and security measures that become more stringent as model capabilities increase. Inspired by [Biosafety Levels,](https://en.wikipedia.org/wiki/Biosafety_level) these begin at ASL-1 for models that have very basic capabilities (for example, chess-playing bots) and progress through ASL-2, ASL-3, and so on.
 
@@ -34,16 +52,16 @@ At present, all of our models operate under ASL-2 Standards, which reflect curre
 
 ASL-3 safeguards involve enhanced security measures and deployment controls. On the security side, this will include internal access controls and more robust protection of model weights. For deployment risks, we plan to implement a multi-layered approach to prevent misuse, including real-time and asynchronous monitoring, rapid response protocols, and thorough pre-deployment red teaming.
 
-## Implementation and oversight
+### Implementation and oversight
 
 To contribute to effective implementation of the policy, we have established:
 
 - **Capability assessments**: Routine model evaluations based on our Capability Thresholds to determine whether our current safeguards are still appropriate. (Summaries of past assessments are available [here](https://www.anthropic.com/rsp-updates).)
 - **Safeguard assessments:** Routine evaluation of the effectiveness of our security and deployment safety measures to assess whether we have met the Required Safeguards bar. (Summaries of these decisions will be available [here](https://www.anthropic.com/rsp-updates).)
 - **Documentation and decision-making:** Processes for documenting the capability and safeguard assessments, inspired by procedures (such as [safety case methodologies](https://arxiv.org/abs/2403.10462)) common in high-reliability industries.
-- **Measures for internal governance and external input:** Our assessment methodology will be backed up by internal stress-testing in addition to our existing internal reporting process for safety issues. We are also soliciting external expert feedback on our methodologies.1
+- **Measures for internal governance and external input:** Our assessment methodology will be backed up by internal stress-testing in addition to our existing internal reporting process for safety issues. We are also soliciting external expert feedback on our methodologies.[1](https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy)
 
-## Learning from experience
+### Learning from experience
 
 We have learned a lot in our first year with the previous RSP in effect, and are using this update as an opportunity to reflect on what has worked well and what makes sense to update in the policy. As part of this, we conducted our first review of how well we adhered to the framework and identified a small number of instances where we fell short of meeting the full letter of its requirements. These included procedural issues such as completing a set of evaluations three days later than scheduled or a lack of clarity on how and where we should note any changes to our placeholder evaluations. We also flagged some evaluations where we may have been able to elicit slightly better model performance through implementing standard techniques (such as chain-of-thought or best-of-N).
 
@@ -51,7 +69,7 @@ In all cases, we found these instances posed minimal risk to the safety of our m
 
 Since we first released the RSP a year ago, our goal has been to offer an example of a framework that others might draw inspiration from when crafting their own AI risk governance policies. We hope that proactively sharing our experiences implementing our own policy will help other companies in implementing their own risk management frameworks and contribute to the establishment of best practices across the AI ecosystem.
 
-## Looking ahead
+### Looking ahead
 
 The frontier of AI is advancing rapidly, making it challenging to anticipate what safety measures will be appropriate for future systems. All aspects of our safety program will continue to evolve: our policies, evaluation methodology, safeguards, and our research into potential risks and mitigations.
 
@@ -69,26 +87,6 @@ If you would like to contribute to AI risk management at Anthropic, [we are hiri
 
 *We extend our sincere gratitude to the many external groups that provided invaluable feedback on the development and refinement of our Responsible Scaling Policy.*
 
-#### Footnotes
+## Footnotes
 
-1 *We have also shared our assessment methodology with both AI Safety Institutes, as well as a selection of independent experts and organizations, for feedback. This does not represent an endorsement from either AI Safety Institute or the independent experts and organizations.*
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
+01 *We have also shared our assessment methodology with both AI Safety Institutes, as well as a selection of independent experts and organizations, for feedback. This does not represent an endorsement from either AI Safety Institute or the independent experts and organizations.*

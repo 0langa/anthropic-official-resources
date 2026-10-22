@@ -1,16 +1,36 @@
-ProductAnnouncements
-
 # Introducing Claude Design by Anthropic Labs
 
-Apr 17, 2026
+- Published
 
-![Introducing Claude Design by Anthropic Labs](https://www-cdn.anthropic.com/images/4zrzovbb/website/33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
+  Apr 17, 2026
+- Category
+
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+  - [Productivity](https://www.anthropic.com/search?topic=productivity)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)See more...
+
+Related articles
+
+- Announcements
+
+  Oct 1, 2026
+
+  [Barclays scales Claude to upgrade operations and improve client experience](https://www.anthropic.com/news/barclays-scales-claude)
+
+[View more](https://www.anthropic.com/search?topic=claude-apps)
 
 Today, we’re launching [Claude Design](https://claude.com/product/design), a new [Anthropic Labs](https://www.anthropic.com/news/introducing-anthropic-labs) product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.
 
 Claude Design is powered by our most capable vision model, [Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7), and is available in research preview for Claude Pro, Max, Team, and Enterprise subscribers. We’re rolling out to users gradually throughout the day.
 
-## Design with Claude
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2Ft_LBECIQQqs%2Fmaxresdefault.jpg&w=3840&q=75)
+
+### Design with Claude
 
 Even experienced designers have to ration exploration—there's rarely time to prototype a dozen directions, so you limit yourself to a few. And for founders, product managers, and marketers with an idea but not a design background, creating and sharing those ideas can be daunting.
 
@@ -25,7 +45,7 @@ Teams have been using Claude Design for:
 - **Marketing collateral:** Marketers can create landing pages, social media assets, and campaign visuals, then loop in designers to polish.
 - **Frontier design**: Anyone can build code-powered prototypes with voice, video, shaders, 3D and built-in AI.
 
-## How it works
+### How it works
 
 Claude Design follows a natural creative flow.
 
@@ -47,42 +67,38 @@ Over the coming weeks, we'll make it easier to build integrations with Claude De
 
 ![Canva logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/0c9cd50bbc3339f05cabef82f554eb2bb8db3ccd-96x64.svg)
 
-> We’ve loved collaborating with Anthropic over the past couple of years and share a deep focus on making complex things simple. At Canva, our mission has always been to empower the world to design, and that means bringing Canva to wherever ideas begin. We’re excited to build on our collaboration with Claude, making it seamless for people to bring ideas and drafts from Claude Design into Canva, where they instantly become fully editable and collaborative designs ready to refine, share, and publish.
+> “We’ve loved collaborating with Anthropic over the past couple of years and share a deep focus on making complex things simple. At Canva, our mission has always been to empower the world to design, and that means bringing Canva to wherever ideas begin. We’re excited to build on our collaboration with Claude, making it seamless for people to bring ideas and drafts from Claude Design into Canva, where they instantly become fully editable and collaborative designs ready to refine, share, and publish.”
+
+Melanie Perkins
+
+Co-Founder and CEO, Canva
 
 ![Brilliant logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/ee86aca1b1cceae67a2d309028a347329a44c2b6-138x33.svg)
 
-> Brilliant's intricate interactivity and animations are historically painful to prototype, but Claude Design's ability to turn static designs into interactive prototypes has been a step change for us. Our most complex pages, which took 20+ prompts to recreate in other tools, only required 2 prompts in Claude Design. Including design intent in Claude Code handoffs has made the jump from prototype to production seamless.
+> “Brilliant's intricate interactivity and animations are historically painful to prototype, but Claude Design's ability to turn static designs into interactive prototypes has been a step change for us. Our most complex pages, which took 20+ prompts to recreate in other tools, only required 2 prompts in Claude Design. Including design intent in Claude Code handoffs has made the jump from prototype to production seamless.”
+
+Olivia Xu
+
+Senior Product Designer, Brilliant
 
 ![Datadog logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/5d98f2428e66e7aa3c9f773818ef6231fa4602b4-146x36.svg)
 
-> Claude Design has made prototyping dramatically faster for our team, enabling live design during conversations. We've gone from a rough idea to a working prototype before anyone leaves the room, and the output stays true to our brand and design guidelines. What used to take a week of back-and-forth between briefs, mockups, and review rounds now happens in a single conversation.
+> “Claude Design has made prototyping dramatically faster for our team, enabling live design during conversations. We've gone from a rough idea to a working prototype before anyone leaves the room, and the output stays true to our brand and design guidelines. What used to take a week of back-and-forth between briefs, mockups, and review rounds now happens in a single conversation.”
 
-01 / 03
+Aneesh Kethini
 
-## Get started
+Product Manager, Datadog
+
+01
+
+/
+
+03
+
+### Get started
 
 Claude Design is available for Claude Pro, Max, Team, and Enterprise subscribers. Access is included with your plan and uses your subscription limits, with the option to continue beyond those limits by enabling [extra usage](https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans).
 
 For Enterprise organizations, Claude Design is off by default. Admins can enable it in [Organization settings](https://support.claude.com/en/articles/14604406-claude-design-admin-guide-for-team-and-enterprise-plans).
 
 Start designing at [claude.com/product/design](https://claude.com/product/design).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

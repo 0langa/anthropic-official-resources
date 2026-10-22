@@ -1,10 +1,28 @@
-Policy
-
 # Anthropic is donating $20 million to Public First Action
 
-Feb 12, 2026
+- Published
 
-![Anthropic is donating $20 million to Public First Action](https://www-cdn.anthropic.com/images/4zrzovbb/website/6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
+  Feb 12, 2026
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Funding](https://www.anthropic.com/search?topic=funding)
+  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)See more...
+
+Related articles
+
+- Policy
+
+  Jul 21, 2026
+
+  [Anthropic is donating another $20 million to Public First Action](https://www.anthropic.com/news/donation-public-first-action)
+
+[View more](https://www.anthropic.com/search?topic=funding)
 
 AI will bring enormous [benefits](https://darioamodei.com/essay/machines-of-loving-grace)—for science, technology, medicine, economic growth, and much more. But a technology this powerful also comes with considerable [risks](https://darioamodei.com/essay/the-adolescence-of-technology).
 
@@ -34,23 +52,3 @@ The organization will work with Republicans, Democrats, and Independents who sha
 These policies aren’t partisan. Nor are they for the benefit of Anthropic as an AI developer—effective AI governance means *more* scrutiny of companies like ours, not less. They’re also not an attempt to hold back smaller or less well-resourced developers: our view is that transparency regulation, for example, should apply only to companies developing the most powerful (and most dangerous) AI models.
 
 The companies building AI have a responsibility to help ensure the technology serves the public good, not just their own interests. Our contribution to Public First Action is part of our commitment to governance that enables AI’s transformative potential and helps proportionately manage its risks.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

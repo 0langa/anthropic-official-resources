@@ -27,7 +27,7 @@ Congratulations on completing Claude 101! You've built a solid foundation for wo
 **Organizing your work**
 
 - Projects create dedicated workspaces with persistent knowledge, custom instructions, and team collaboration
-- Your artifacts — designs, decks, living documents, code, diagrams, and interactive tools — are the outputs you create with Claude; on paid plans they're saved in the Artifacts tab so you can keep editing and sharing them (designs, decks, and living documents are on paid plans)
+- Your artifacts — designs, decks, living documents, code, diagrams, and interactive tools — are the outputs you create with Claude; they're saved in the Artifacts tab so you can keep editing and sharing them
 - Skills are instruction packages that teach Claude specialized workflows—including built-in document creation and custom skills you can create
 
 **Expanding Claude's reach**

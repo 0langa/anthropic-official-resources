@@ -1,8 +1,27 @@
-Announcements
-
 # National security expert Richard Fontaine appointed to Anthropic’s long-term benefit trust
 
-Jun 7, 2025
+- Published
+
+  Jun 7, 2025
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Leadership](https://www.anthropic.com/search?topic=leadership)
+  - [National security](https://www.anthropic.com/search?topic=national-security)
+  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+  - [Global stability](https://www.anthropic.com/search?topic=global-stability)See more...
+
+Related articles
+
+- Policy
+
+  Jul 27, 2026
+
+  [Our position on open-weights models](https://www.anthropic.com/news/position-open-weights-models)
+
+[View more](https://www.anthropic.com/search?topic=leadership)
 
 Anthropic's Long-Term Benefit Trust today announced the appointment of Richard Fontaine, CEO of the Center for a New American Security, as a new member of the Trust. The Long-Term Benefit Trust (LTBT) is an independent body designed to help Anthropic achieve its public benefit mission.
 
@@ -17,23 +36,3 @@ Richard Fontaine said: “With transformative AI on the near-term horizon, compa
 Fontaine’s appointment adds deep foreign policy and national security experience to the Trust’s range of expertise, reflecting Anthropic’s commitment to supporting democracy and global stability as a core pillar of its mission.
 
 “Richard’s expertise comes at a critical time as advanced AI capabilities increasingly intersect with national security considerations,” said Dario Amodei, CEO and Co-founder of Anthropic. “I've long believed that ensuring democratic nations maintain leadership in responsible AI development is essential for both global security and the common good. Richard’s appointment strengthens the Trust’s ability to guide Anthropic through the complex decisions that will shape not just our industry, but the global balance of power.”
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

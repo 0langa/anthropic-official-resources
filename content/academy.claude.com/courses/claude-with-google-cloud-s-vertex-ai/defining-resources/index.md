@@ -1,4 +1,4 @@
-Lesson 55 of 66 · Claude with Google Cloud's Vertex AIDefining resources
+Lesson 55 of 66 · Claude on Google CloudDefining resources
 
 # Defining resources
 

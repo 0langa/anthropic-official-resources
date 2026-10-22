@@ -1,4 +1,4 @@
-Lesson 44 of 66 · Claude with Google Cloud's Vertex AIImage support
+Lesson 44 of 66 · Claude on Google CloudImage support
 
 # Image support
 
@@ -20,7 +20,7 @@ When working with images in Claude, you need to understand several key limitatio
 - Max size of 5MB per image
 - When sending one image: max height/width of 8000px
 - When sending multiple images: max height/width of 2000px
-- Images can be included as base64 encoding or a URL to the image
+- Images can be included as base64 encoding only
 - Each image counts as tokens based on dimensions: `tokens = (width px × height px) / 750`
 
 To include an image, you add an image block to your user message alongside text blocks. Here's the structure:

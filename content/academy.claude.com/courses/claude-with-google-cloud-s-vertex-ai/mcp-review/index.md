@@ -1,4 +1,4 @@
-Lesson 59 of 66 · Claude with Google Cloud's Vertex AIMCP review
+Lesson 59 of 66 · Claude on Google CloudMCP review
 
 # MCP review
 

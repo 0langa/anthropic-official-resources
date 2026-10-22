@@ -1,4 +1,4 @@
-Lesson 36 of 66 · Claude with Google Cloud's Vertex AIText embeddings
+Lesson 36 of 66 · Claude on Google CloudText embeddings
 
 # Text embeddings
 

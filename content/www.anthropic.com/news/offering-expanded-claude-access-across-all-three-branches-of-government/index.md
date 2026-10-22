@@ -1,10 +1,27 @@
-Announcements
-
 # Offering expanded Claude access across all three branches of the U.S. government
 
-Aug 12, 2025
+- Published
 
-![Offering expanded Claude access across all three branches of the U.S. government](https://www-cdn.anthropic.com/images/4zrzovbb/website/6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
+  Aug 12, 2025
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+  - [Access](https://www.anthropic.com/search?topic=access)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+
+Related articles
+
+- Product
+
+  Aug 5, 2025
+
+  [Federal government departments and agencies can now purchase Claude through the GSA schedule](https://www.anthropic.com/news/federal-government-departments-and-agencies-can-now-purchase-claude-through-the-gsa-schedule)
+
+[View more](https://www.anthropic.com/search?topic=government-capacity)
 
 Today we are removing barriers to government AI adoption by offering Claude for Enterprise and Claude for Government to all three branches of government, including federal civilian executive branch agencies, as well as legislative and judiciary branches of government, for $1.
 
@@ -39,23 +56,3 @@ We hope other companies will join us in taking similar steps to ensure the U.S. 
 **Getting started**
 
 To gain access, department or agency leadership at eligible organizations should contact us at [pubsec@anthropic.com](mailto:pubsec@anthropic.com). Also learn more by reading the [Claude for Government](https://claude.com/docs/government/overview) documentation.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

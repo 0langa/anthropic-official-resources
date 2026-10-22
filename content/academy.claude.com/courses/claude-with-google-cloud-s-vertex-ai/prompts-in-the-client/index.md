@@ -1,4 +1,4 @@
-Lesson 58 of 66 · Claude with Google Cloud's Vertex AIPrompts in the client
+Lesson 58 of 66 · Claude on Google CloudPrompts in the client
 
 # Prompts in the client
 

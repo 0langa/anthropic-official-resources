@@ -1,10 +1,29 @@
-Announcements
-
 # Anthropic and Infosys collaborate to build AI agents for telecommunications and other regulated industries
 
-Feb 17, 2026
+- Published
 
-![Anthropic and Infosys collaborate to build AI agents for telecommunications and other regulated industries](https://www-cdn.anthropic.com/images/4zrzovbb/website/9f6a378a1e3592cf8d27447457409ba12284faef-1000x1000.svg)
+  Feb 17, 2026
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Financial services](https://www.anthropic.com/search?topic=financial-services)See more...
+
+Related articles
+
+- Partnerships
+
+  Jun 12, 2026
+
+  [TCS and Anthropic partner to bring Claude to regulated industries](https://www.anthropic.com/news/tcs-anthropic-partnership)
+
+[View more](https://www.anthropic.com/search?topic=partnerships)
 
 Anthropic and [Infosys](https://www.infosys.com/), a global leader in next-generation digital services and consulting founded and headquartered in Bengaluru, today announced a collaboration to develop and deliver enterprise AI solutions across telecommunications, financial services, manufacturing, and software development.
 
@@ -16,7 +35,7 @@ India is the second-largest market for Claude.ai, home to a developer community 
 
 “AI is not just transforming business, it is redefining the way industries operate and innovate. Our collaboration with Anthropic marks a strategic leap toward advancing enterprise AI, enabling organizations to unlock value and become more intelligent, resilient, and responsible. From modernizing financial services with intelligent risk management and compliance, to enabling engineering businesses to lead with AI-driven design and manufacturing, the goal is to leverage the joint expertise of Infosys and Anthropic to accelerate AI value realization for global enterprises,” saidSalil Parekh, Chief Executive Officer, Infosys.
 
-## Building agentic AI for regulated industries
+### Building agentic AI for regulated industries
 
 A core focus of the collaboration is agentic AI—systems that go beyond answering questions to independently handling multi-step tasks like processing claims, generating and testing code, or managing compliance reviews. Using tools like the Claude Agent SDK, Infosys and Anthropic will help clients build AI agents that work persistently across long, complex tasks and processes. The collaboration will also help organizations modernize legacy systems, combining Infosys Topaz and Claude to make migration faster and easier and reduce the cost of updating aging infrastructure.
 
@@ -28,28 +47,8 @@ Together, Infosys and Anthropic will develop AI agents tailored to specific indu
 - **Software development:** Teams will use Claude Code to write, test, and debug code, helping developers move faster from design to production.
 - **Enterprise operations:** Claude Cowork will help teams automate routine work like document summarization, status reporting, and review cycles.
 
-## Getting started
+### Getting started
 
 Visit our [Enterprise page](https://www.anthropic.com/enterprise) to learn more about Claude. Claude is the only frontier model available on all three of the world’s most prominent cloud services: Amazon Bedrock, Google Cloud Vertex AI, and Microsoft Azure.
 
 Learn more about Anthropic’s expanded presence in India [here](https://www.anthropic.com/news/bengaluru-office-partnerships-across-india).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

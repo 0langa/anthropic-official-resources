@@ -1,10 +1,27 @@
-Announcements
-
 # Lyft to bring Claude to more than 40 million riders and over 1 million drivers
 
-Feb 6, 2025
+- Published
 
-![Lyft + Anthropic logo lockup](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb735b997d44def324027a9790429b021b0949496-2880x1620.png&w=3840&q=75)
+  Feb 6, 2025
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Productivity](https://www.anthropic.com/search?topic=productivity)See more...
+
+Related articles
+
+- Announcements
+
+  Sep 15, 2026
+
+  [Introducing Claude Mythos and Fable 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1)
+
+[View more](https://www.anthropic.com/search?topic=partnerships)
 
 Lyft is working with Anthropic to introduce customer-first, AI-powered Lyft products. This is to enhance the rideshare experience for its community of more than 40 million annual riders and over 1 million drivers. The work includes early research testing of new models and technology, alongside initiatives to advance Lyft's engineering capabilities.
 
@@ -29,23 +46,3 @@ For the millions of people who rely on Lyft every day, this collaboration aims t
 **Forward-Looking Statements**
 
 *Certain statements contained in this blog are “forward-looking statements” about Lyft within the meaning of the securities laws, including statements about Lyft’s anticipated collaboration with Anthropic, its benefits, including for riders and drivers, access to and development of certain products, models and technologies, and training and education of Lyft’s engineering organization. Such statements, which are not of historical fact, involve estimates, assumptions, judgments and uncertainties. There are a number of factors that could cause actual results or outcomes to differ materially from those addressed in the forward-looking statements. Such factors are detailed in Lyft’s filings with the Securities and Exchange Commission. Lyft does not undertake an obligation to update its forward-looking statements to reflect future events, except as required by applicable law.*
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

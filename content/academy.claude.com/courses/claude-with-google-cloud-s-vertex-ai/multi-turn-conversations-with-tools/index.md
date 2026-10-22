@@ -1,4 +1,4 @@
-Lesson 27 of 66 · Claude with Google Cloud's Vertex AIMulti-turn conversations with tools
+Lesson 27 of 66 · Claude on Google CloudMulti-turn conversations with tools
 
 # Multi-turn conversations with tools
 

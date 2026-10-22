@@ -1,12 +1,32 @@
-Policy
+### Chapter 08: Conclusion
 
-# 2028: Two scenarios for global AI leadership
+# **2028:**Two scenarios for global AI leadership
 
-May 14, 2026
+![2028: Two scenarios for global AI leadership](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2b05397d1ceac19b70a820a61d27dca4a5fba2e0-1920x1080.jpg&w=1920&q=75)
 
-![2028: Two scenarios for global AI leadership](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2b05397d1ceac19b70a820a61d27dca4a5fba2e0-1920x1080.jpg&w=3840&q=75)
+- Published
 
-Conclusion
+  May 14, 2026
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+  - [National security](https://www.anthropic.com/search?topic=national-security)
+  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+  - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)See more...
+
+Related articles
+
+- Policy
+
+  Jul 23, 2025
+
+  [Thoughts on America’s AI Action Plan](https://www.anthropic.com/news/thoughts-on-america-s-ai-action-plan)
+
+[View more](https://www.anthropic.com/search?topic=democratic-lead)
 
 We’re releasing a new paper that explains our views on the competition on AI between the US and China.
 
@@ -24,7 +44,7 @@ America and its allies approach AI competition from a position of great strength
 
 ## Two scenarios for the US and China in 2028
 
-## Summary
+### Summary
 
 Democracies, not authoritarian regimes, must lead in AI development and deployment. These countries and political systems can shape the rules and norms that govern these systems.
 
@@ -133,7 +153,7 @@ China’s own AI leaders confirm the impact of export controls, and the critical
 
 While export controls have been effective in providing today’s advantage, they have not gone far enough. Despite the CCP’s inability to manufacture enough advanced chips domestically or purchase them legally abroad, AI labs in China have been able to stay close on intelligence through two workarounds: *illicit and evasive compute access*, by smuggling AI chips directly into China and accessing offshore data centers, and *illicit model access*, through which they carry out [distillation attacks](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks) on US frontier models and use those same models as tools to accelerate their own AI R&D.
 
-China’s evasion of US export controls is an open secret. For example, federal prosecutors [charged](https://www.cnn.com/2026/03/19/politics/super-micro-computer-founder-charged-ai-chips-china) a Supermicro co-founder and two others with diverting $2.5 billion worth of servers containing advanced US chips to China. According to [US government](https://www.reuters.com/world/china/chinas-deepseek-trained-ai-model-nvidias-best-chip-despite-us-ban-official-says-2026-02-24/) and [media](http://theinformation.com/articles/deepseek-using-banned-nvidia-chips-race-build-next-model) reports, DeepSeek trained its latest model on advanced US chips that are banned from sale to China. The *Financial Times* [reported](https://www.ft.com/content/96fe9898-a3a4-4a33-be1d-da06bdb6cb2b) that Alibaba and ByteDance now train their flagship models on export-controlled US chips in data centers located in Southeast Asia, a route current controls do not reach because US export law covers the sale of chips, not remote access to them.[1](https://www.anthropic.com/research/2028-ai-leadership) The US export control system is [struggling](http://chinaselectcommittee.house.gov/media/press-releases/chairman-moolenaar-s-opening-statement-china-s-chip-smuggling-is-a-threat-to-america) to prevent PRC AI labs’ access to advanced US-origin compute.
+China’s evasion of US export controls is an open secret. For example, federal prosecutors [charged](https://www.cnn.com/2026/03/19/politics/super-micro-computer-founder-charged-ai-chips-china) a Supermicro co-founder and two others with diverting $2.5 billion worth of servers containing advanced US chips to China. According to [US government](https://www.reuters.com/world/china/chinas-deepseek-trained-ai-model-nvidias-best-chip-despite-us-ban-official-says-2026-02-24/) and [media](http://theinformation.com/articles/deepseek-using-banned-nvidia-chips-race-build-next-model) reports, DeepSeek trained its latest model on advanced US chips that are banned from sale to China. The *Financial Times* [reported](https://www.ft.com/content/96fe9898-a3a4-4a33-be1d-da06bdb6cb2b) that Alibaba and ByteDance now train their flagship models on export-controlled US chips in data centers located in Southeast Asia, a route current controls do not reach because US export law covers the sale of chips, not remote access to them.[1](https://www.anthropic.com/news/2028-ai-leadership) The US export control system is [struggling](http://chinaselectcommittee.house.gov/media/press-releases/chairman-moolenaar-s-opening-statement-china-s-chip-smuggling-is-a-threat-to-america) to prevent PRC AI labs’ access to advanced US-origin compute.
 
 Distillation attacks, in which China-based labs create thousands of fraudulent accounts to circumvent access controls on US AI models and systematically harvest their outputs to replicate frontier capabilities, are another illicit technique used by PRC labs to catch up to their US counterparts and blunt the impact of export controls. The practice allows labs based in China to free-ride on decades of foundational research, billions of dollars in US investment, and the work of thousands of the world’s best engineers that produced US frontier models. The result is near-frontier capability at a fraction of the cost, subsidized by the United States. It is systematic industrial espionage of a technology critical to long-term US national security interests. [OpenAI](https://assets.bwbx.io/documents/users/iqjWHBFdfxIU/rRmql_jJcxb4/v0), [Google](https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use), [Anthropic](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks), and the [Frontier Model Forum](https://www.frontiermodelforum.org/issue-briefs/issue-brief-adversarial-distillation/) have all publicly condemned the practice of distillation attacks.
 
@@ -181,26 +201,6 @@ To ensure we land in scenario one, we support the following areas of policy acti
 
 America and its allies have developed both the world’s most capable frontier AI models and the world’s most advanced inputs to AI. This has provided a substantial advantage. If our superior access to that technology is defended, that advantage can be extended. But it will be lost if it is given directly to our competitors. The decisions made by policymakers this year will determine the future of transformative AI. We support those working to ensure that American and allied democracies are winning in 2028.
 
-#### Footnotes
+## Footnotes
 
-1. In January 2026, the House [passed a bipartisan bill](https://www.congress.gov/bill/119th-congress/house-bill/2683/all-actions) 369–22 to close that loophole; the bill has not passed the Senate.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
+01In January 2026, the House [passed a bipartisan bill](https://www.congress.gov/bill/119th-congress/house-bill/2683/all-actions) 369–22 to close that loophole; the bill has not passed the Senate.

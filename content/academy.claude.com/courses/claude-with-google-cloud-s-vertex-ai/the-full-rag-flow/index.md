@@ -1,4 +1,4 @@
-Lesson 37 of 66 · Claude with Google Cloud's Vertex AIThe full RAG flow
+Lesson 37 of 66 · Claude on Google CloudThe full RAG flow
 
 # The full RAG flow
 

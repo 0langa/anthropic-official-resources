@@ -1,12 +1,29 @@
-Policy
-
 # Build AI in America
-
-Jul 21, 2025
 
 [Report: Build AI in America](https://www-cdn.anthropic.com/0dc382a2086f6a054eeb17e8a531bd9625b8e6e5.pdf)
 
-![Lightning bolt](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8b7e77b565b733050684ddce84734a5c565bcd88-1920x1079.png&w=3840&q=75)
+- Published
+
+  Jul 21, 2025
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)See more...
+
+Related articles
+
+- Policy
+
+  Feb 11, 2026
+
+  [Covering electricity price increases from our data centers](https://www.anthropic.com/news/covering-electricity-price-increases)
+
+[View more](https://www.anthropic.com/search?topic=compute-energy)
 
 For the United States to lead the world in AI, we must make substantial investments in computing power and electricity that make it possible to build AI in America. As technology evolves, the required resources, infrastructure, and regulatory conditions need to change too. That’s why we are releasing a set of policy recommendations to support building the necessary domestic infrastructure to train the world’s most capable AI models in the U.S. and support the broad deployment of AI across sectors.
 
@@ -16,7 +33,7 @@ By acting decisively now we can ensure that the future is built here in America.
 
 Our full list of recommendations can be found in our new report, “Build AI in America.” Below, we summarize its contents.
 
-### **Energy needs for global AI leadership**
+### Energy needs for global AI leadership
 
 Frontier AI model training requires continuous access to firm, reliable power sources, and meeting this goal will require extraordinary U.S. energy capacity across a range of energy technologies. Data centers used to develop state-of-the-art models need stable power access to operate effectively, and given the energy demand for AI development, an “all of the above” approach is required to ensure American AI leadership. This approach will help the U.S. meet immediate energy needs, expand sources of firm power, and maximize opportunities for AI to catalyze emerging energy technologies, like next-generation geothermal and advanced nuclear technologies.
 
@@ -26,18 +43,18 @@ While the Trump Administration has already taken important steps toward removing
 
 The U.S. can enable the buildout of large-scale infrastructure for AI training in strategic locations, including by accelerating permitting, supporting targeted transmission projects, and collaborating with utilities to speed up grid interconnection processes. Beyond infrastructure for training AI, we propose broader reforms to support AI deployment nationwide and strengthen supply chains and workforce development. These include accelerating geothermal, natural gas, and nuclear permitting, developing a U.S. Army Corps of Engineers “nationwide permit” for AI data centers to speed Clean Water Act reviews, creating strategic reserves of critical grid components and gas turbines, and expanding technical training programs. Policymakers also have the opportunity through our proposals to keep prices low for ratepayers both through regulatory authority as well as by increasing overall supply.
 
-### **Two pillars of American AI infrastructure**
+### Two pillars of American AI infrastructure
 
 We propose two strategic pillars that will address the full spectrum of infrastructure challenges—from large-scale training facilities to infrastructure supporting nationwide AI deployment.
 
-**Pillar 1: Building large-scale AI training infrastructure**
+#### Pillar 1: Building large-scale AI training infrastructure
 
 - Make federal lands available as options for AI infrastructure construction, avoiding years-long state and local zoning processes;
 - Accelerate NEPA processes for AI infrastructure, including by conducting advance reviews of certain projects;
 - Partner with the private sector to expedite critical power line buildouts and upgrades; and
 - Support utilities in making key reforms to accelerate interconnection processes, including by deploying AI to boost efficiency. Where critical for national security, leverage existing federal authorities to ensure that AI training infrastructure receives timely interconnections.
 
-**Pillar 2: Building broad-based infrastructure for AI innovation nationwide**
+#### Pillar 2: Building broad-based infrastructure for AI innovation nationwide
 
 - Accelerate geothermal, natural gas, and nuclear permitting;
 - Establish National Interest Electric Transmission Corridors to speed transmission permitting in areas of significant AI data center growth;
@@ -49,23 +66,3 @@ America has the economic strength, technical prowess, and innovative spirit to m
 By partnering across government, industry, and communities, we can build the foundation for decades of American leadership in AI.
 
 Read the full [report](https://www-cdn.anthropic.com/0dc382a2086f6a054eeb17e8a531bd9625b8e6e5.pdf).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

@@ -1,10 +1,20 @@
-Announcements
-
 # Inviting hard questions
 
-Jul 9, 2026
+![Inviting hard questions](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3fe58a56e696628496e95871e00b8287035ea645-2000x1125.jpg&w=1920&q=75)
 
-![Inviting hard questions](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3fe58a56e696628496e95871e00b8287035ea645-2000x1125.jpg&w=3840&q=75)
+- Published
+
+  Jul 9, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+  - [Institute](https://www.anthropic.com/search?topic=institute)
+  - [Human flourishing](https://www.anthropic.com/search?topic=human-flourishing)
+  - [Labor market](https://www.anthropic.com/search?topic=labor-market)See more...
 
 *Who decides the rules for AI?*
 
@@ -14,6 +24,16 @@ Jul 9, 2026
 
 *Can AI help scientists cure diseases?*
 
+Related articles
+
+- Societal Impacts
+
+  Sep 29, 2026
+
+  [What do you want from AI?](https://www.anthropic.com/research/your-thoughts-on-ai)
+
+[View more](https://www.anthropic.com/search?topic=transparency)
+
 People have a lot of hard questions about AI. It’s our job to address them.
 
 Many people are positively disposed to AI. They already use it every day, and they see its potential for making our work and our lives less laborious, for changing the way we learn, for helping speed up scientific and technological progress, for creating new sources of prosperity, and for solving some of the biggest medical and social problems we face.
@@ -21,6 +41,8 @@ Many people are positively disposed to AI. They already use it every day, and th
 But many also hold serious concerns. Some are worried about AI’s potential contribution to job loss. Some fear that it could devalue creative work. Others are concerned about human agency: that AI might affect our ability to think for ourselves, to make human connections, and to have meaning in our lives. Many are concerned about what it means if AI’s capabilities fall into the wrong hands—and wonder whether the benefits outweigh the costs.
 
 In the film below, you can hear some of these hopes and concerns from people we’ve spoken with.
+
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FjVbGX7zJHi8%2Fmaxresdefault.jpg&w=3840&q=75)
 
 Anthropic is a [Public Benefit Corporation](https://www.anthropic.com/company)—it’s our mission to secure the benefits of advanced AI models and mitigate their risks. That public benefit mission has led us, for example, to invest in AI [safeguards](https://www.anthropic.com/news/building-safeguards-for-claude) to reduce the risk of misuse, to research the [behavior](https://www.anthropic.com/research/team/alignment) and [inner workings](https://www.anthropic.com/research/team/interpretability) of AI models to help us align them to beneficial goals, to give our AI models for free to [scientists](https://www.anthropic.com/news/ai-for-science-program), and to launch a fellowship program that [pairs early-career Claude users](https://www.anthropic.com/news/claude-corps) with nonprofits to help extend the benefits of AI.
 
@@ -40,23 +62,3 @@ Now, we’re explicitly asking you to send us your hardest questions on AI: ques
 In return, we’ll publicly track and report the specific actions we’re taking to address those questions—and we’ll be clear about the ways in which we might fall short of our stated goals.
 
 To see some of the questions others are asking, and to share your own, visit our [**hard questions website**](https://claude.com/hard-questions).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

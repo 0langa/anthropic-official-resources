@@ -1,10 +1,30 @@
-AnnouncementsPolicy
-
 # Detecting and preventing distillation attacks
 
-Feb 23, 2026
+![Detecting and preventing distillation attacks](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F18c5c47d69f58ed068a4254b011369de5cc9be8b-2000x1125.jpg&w=1920&q=75)
 
-![Detecting and preventing distillation attacks ](https://www-cdn.anthropic.com/images/4zrzovbb/website/e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+- Published
+
+  Feb 23, 2026
+- Category
+
+  [Security](https://www.anthropic.com/news/security)
+- Topics
+
+  - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
+  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+  - [National security](https://www.anthropic.com/search?topic=national-security)
+  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)See more...
+
+Related articles
+
+- Safeguards
+
+  Oct 12, 2026
+
+  [Strengthening our defenses against distillation attacks](https://www.anthropic.com/news/distillation-defenses)
+
+[View more](https://www.anthropic.com/search?topic=threat-intelligence)
 
 We have identified industrial-scale campaigns by three AI laboratories—DeepSeek, Moonshot, and MiniMax—to illicitly extract Claude’s capabilities to improve their own models. These labs generated over 16 million exchanges with Claude through approximately 24,000 fraudulent accounts, in violation of our terms of service and regional access restrictions.
 
@@ -12,25 +32,25 @@ These labs used a technique called “distillation,” which involves training a
 
 These campaigns are growing in intensity and sophistication. The window to act is narrow, and the threat extends beyond any single company or region. Addressing it will require rapid, coordinated action among industry players, policymakers, and the global AI community.
 
-## Why distillation matters
+### Why distillation matters
 
 Illicitly distilled models lack necessary safeguards, creating significant national security risks. Anthropic and other US companies build systems that prevent state and non-state actors from using AI to, for example, develop bioweapons or carry out malicious cyber activities. Models built through illicit distillation are unlikely to retain those safeguards, meaning that dangerous capabilities can proliferate with many protections stripped out entirely.
 
 Foreign labs that distill American models can then feed these unprotected capabilities into military, intelligence, and surveillance systems—enabling authoritarian governments to deploy frontier AI for offensive cyber operations, disinformation campaigns, and mass surveillance. If distilled models are open-sourced, this risk multiplies as these capabilities spread freely beyond any single government's control.
 
-## Distillation attacks and export controls
+### Distillation attacks and export controls
 
 Anthropic has [consistently supported](https://www.anthropic.com/news/securing-america-s-compute-advantage-anthropic-s-position-on-the-diffusion-rule) export controls to help maintain America’s lead in AI. Distillation attacks undermine those controls by allowing foreign labs, including those subject to the control of the Chinese Communist Party, to close the competitive advantage that export controls are designed to preserve through other means.
 
 Without visibility into these attacks, the apparently rapid advancements made by these labs are incorrectly taken as evidence that export controls are ineffective and able to be circumvented by innovation. In reality, these advancements depend in significant part on capabilities extracted from American models, and executing this extraction at scale requires access to advanced chips. Distillation attacks therefore reinforce the rationale for export controls: restricted chip access limits both direct model training and the scale of illicit distillation.
 
-## What we found
+### What we found
 
 The three distillation campaigns detailed below followed a similar playbook, using fraudulent accounts and proxy services to access Claude at scale while evading detection. The volume, structure, and focus of the prompts were distinct from normal usage patterns, reflecting deliberate capability extraction rather than legitimate use.
 
 We attributed each campaign to a specific lab with high confidence through IP address correlation, request metadata, infrastructure indicators, and in some cases corroboration from industry partners who observed the same actors and behaviors on their platforms. Each campaign targeted Claude's most differentiated capabilities: agentic reasoning, tool use, and coding.
 
-### DeepSeek
+#### DeepSeek
 
 *Scale: Over 150,000 exchanges*
 
@@ -44,7 +64,7 @@ DeepSeek generated synchronized traffic across accounts. Identical patterns, sha
 
 In one notable technique, their prompts asked Claude to imagine and articulate the internal reasoning behind a completed response and write it out step by step—effectively generating chain-of-thought training data at scale. We also observed tasks in which Claude was used to generate censorship-safe alternatives to politically sensitive queries like questions about dissidents, party leaders, or authoritarianism, likely in order to train DeepSeek’s own models to steer conversations away from censored topics. By examining request metadata, we were able to trace these accounts to specific researchers at the lab.
 
-### Moonshot AI
+#### Moonshot AI
 
 *Scale: Over 3.4 million exchanges*
 
@@ -57,7 +77,7 @@ The operation targeted:
 
 Moonshot (Kimi models) employed hundreds of fraudulent accounts spanning multiple access pathways. Varied account types made the campaign harder to detect as a coordinated operation. We attributed the campaign through request metadata, which matched the public profiles of senior Moonshot staff. In a later phase, Moonshot used a more targeted approach, attempting to extract and reconstruct Claude’s reasoning traces.
 
-### MiniMax
+#### MiniMax
 
 *Scale: Over 13 million exchanges*
 
@@ -68,7 +88,7 @@ The operation targeted:
 
 We attributed the campaign to MiniMax through request metadata and infrastructure indicators, and confirmed timings against their public product roadmap. We detected this campaign while it was still active—before MiniMax released the model it was training—giving us unprecedented visibility into the life cycle of distillation attacks, from data generation through to model launch. When we released a new model during MiniMax’s active campaign, they pivoted within 24 hours, redirecting nearly half their traffic to capture capabilities from our latest system.
 
-## How distillers access frontier models
+### How distillers access frontier models
 
 For national security reasons, Anthropic does not currently offer commercial access to Claude in China, or to [subsidiaries of their companies](https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions) located outside of the country.
 
@@ -80,7 +100,7 @@ Once access is secured, the labs generate large volumes of carefully crafted pro
 
 But when variations of that prompt arrive tens of thousands of times across hundreds of coordinated accounts, all targeting the same narrow capability, the pattern becomes clear. Massive volume concentrated in a few areas, highly repetitive structures, and content that maps directly onto what is most valuable for training an AI model are the hallmarks of a distillation attack.
 
-## How we’re responding
+### How we’re responding
 
 We continue to invest heavily in defenses that make such distillation attacks harder to execute and easier to identify. These include:
 
@@ -90,23 +110,3 @@ We continue to invest heavily in defenses that make such distillation attacks ha
 - **Countermeasures**. We are developing Product, API and model-level safeguards designed to reduce the efficacy of model outputs for illicit distillation, without degrading the experience for legitimate customers.
 
 But no company can solve this alone. As we noted above, distillation attacks at this scale require a coordinated response across the AI industry, cloud providers, and policymakers. We are publishing this to make the evidence available to everyone with a stake in the outcome.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

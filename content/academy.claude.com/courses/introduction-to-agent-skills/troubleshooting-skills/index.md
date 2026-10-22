@@ -8,7 +8,7 @@ In this lessonBy the end, you’ll be able to
 
 - Use the skills validator to catch structural issues before debugging
 - Diagnose and fix common skill triggering and loading problems
-- Resolve skill priority conflicts between enterprise, personal, project, and plugin skills
+- Resolve skill priority conflicts between enterprise, personal, and project skills
 - Debug runtime errors including missing dependencies, permissions, and path issues
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
@@ -44,9 +44,9 @@ When skills don't work, the problem usually falls into one of a few categories: 
 
 ## Use the Skills Validator[](https://academy.claude.com/courses/introduction-to-agent-skills/troubleshooting-skills)
 
-The first thing to try is the agent skills verifier command. Installation steps vary by operating system, but using `uv` is the easiest way to get it set up quickly.
+The first thing to try is the `claude plugin validate` command. In your shell, run `claude plugin validate ~/.claude/skills` for personal skills or `claude plugin validate .claude/skills` for project skills. It requires Claude Code v2.1.233 or later.
 
-Once installed, either navigate to your skill directory or run the command from anywhere. The validator will catch structural problems before you spend time debugging other things.
+The validator finds `SKILL.md` files whose frontmatter doesn't parse, so you catch that problem before you spend time debugging other things. The video above shows a separate verifier that you install with `uv`.
 
 ## Skill Doesn't Trigger[](https://academy.claude.com/courses/introduction-to-agent-skills/troubleshooting-skills)
 

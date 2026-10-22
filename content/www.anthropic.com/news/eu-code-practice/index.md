@@ -1,8 +1,27 @@
-Policy
-
 # Anthropic to sign the EU Code of Practice
 
-Jul 21, 2025
+- Published
+
+  Jul 21, 2025
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+  - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)See more...
+
+Related articles
+
+- Policy
+
+  Dec 19, 2025
+
+  [Sharing our compliance framework for California's Transparency in Frontier AI Act](https://www.anthropic.com/news/compliance-framework-SB53)
+
+[View more](https://www.anthropic.com/search?topic=transparency)
 
 After review, Anthropic intends to sign the European Union's General-Purpose AI Code of Practice. We believe the Code advances the principles of transparency, safety and accountability—values that have long been championed by Anthropic for frontier AI development. If thoughtfully implemented, the EU AI Act and Code will enable Europe to harness the most significant technology of our time to power innovation and competitiveness.
 
@@ -10,11 +29,11 @@ A recent analysis found that AI has the potential to add [more than a trillion e
 
 We're already seeing signs of what's possible, from Novo Nordisk [accelerating breakthrough drug discovery](https://www.youtube.com/watch?v=ENdUGHxsifM), to Legora [transforming legal work](https://www.anthropic.com/customers/legora), to the European Parliament [expanding access to decades of archives](https://www.anthropic.com/customers/european-parliament) to citizens. Ensuring these benefits materialize with minimal downside requires public visibility into AI safety and transparency practices while preserving private sector agility to deliver AI's transformative potential.
 
-## Building on our commitment to transparency
+### Building on our commitment to transparency
 
 As outlined [previously](https://www.anthropic.com/news/the-need-for-transparency-in-frontier-ai), Anthropic believes the frontier AI industry needs robust transparency frameworks that hold companies accountable for documenting how they identify, assess, and mitigate risks. The EU Code establishes this baseline through mandatory Safety and Security Frameworks that build upon Anthropic’s own [Responsible Scaling Policy](https://www.anthropic.com/rsp-updates) and will describe important processes for assessing and mitigating systemic risks. This includes assessment of catastrophic risks—particularly those from Chemical, Biological, Radiological, and Nuclear (CBRN) weapons.
 
-## Maintaining flexibility
+### Maintaining flexibility
 
 AI moves fast and changes constantly, which means the best policies are those that can be flexible and adapt alongside the technology.
 
@@ -23,23 +42,3 @@ Over the nearly two years since we first published our Responsible Scaling Polic
 As an industry, we're still developing best practices for assessing the systemic risks identified in the Code. Different risks require different methodologies. Third-party organizations like the [Frontier Model Forum](https://www.frontiermodelforum.org/) play a critical role, establishing common safety practices and evaluation standards that evolve with the technology. These groups bridge industry and government, translating technical insights into actionable policy.
 
 We're committed to working with the EU AI Office and safety organizations to ensure the Code remains both robust and responsive to emerging technologies. This collaborative approach—combining regulatory frameworks with flexibility—will be essential for Europe to harness AI's benefits while competing effectively on the global stage.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

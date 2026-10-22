@@ -1,10 +1,26 @@
-ProductAnnouncementsEconomics
-
 # Ask Claude about the Anthropic Economic Index
 
-Jul 22, 2026
+- Published
 
-![Ask Claude about the Anthropic Economic Index](https://www-cdn.anthropic.com/images/4zrzovbb/website/1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
+  Jul 22, 2026
+- Category
+
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+  - [Access](https://www.anthropic.com/search?topic=access)See more...
+
+Related articles
+
+- Jun 26, 2026
+
+  [Economic Index](https://www.anthropic.com/economic-index)
+
+[View more](https://www.anthropic.com/search?topic=economic-index)
 
 People have hard questions about AI and work: which jobs will change, which tasks are being automated, and what it means for their own field. The [Anthropic Economic Index](https://www.anthropic.com/economic-index) exists to help answer them with real data. Today we're launching the Anthropic Economic Index connector for Claude, which lets anyone explore that data directly.
 
@@ -22,23 +38,3 @@ You’ll get answers grounded directly in the Index data.
 Getting started takes about a minute. In claude.ai, open the connectors menu, find the Anthropic Economic Index in the directory, and enable it—it works in any conversation with any Claude model, and there's nothing to install. From there, just ask questions the way you'd ask a colleague: start broad (“What does the Index say about my industry?”), then drill into specifics, and ask Claude to show you the underlying data behind any answer.
 
 As always, the Index reflects patterns in Claude usage rather than the labor market as a whole, and Claude will point you back to the source data and its limitations as you explore. You can find the connector in claude.ai today, and the full datasets remain freely available on our website.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

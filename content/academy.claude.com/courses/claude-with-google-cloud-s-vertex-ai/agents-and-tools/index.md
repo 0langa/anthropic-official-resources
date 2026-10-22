@@ -1,4 +1,4 @@
-Lesson 64 of 66 · Claude with Google Cloud's Vertex AIAgents and tools
+Lesson 64 of 66 · Claude on Google CloudAgents and tools
 
 # Agents and tools
 

@@ -1,4 +1,4 @@
-Lesson 5 of 66 · Claude with Google Cloud's Vertex AISystem prompts
+Lesson 5 of 66 · Claude on Google CloudSystem prompts
 
 # System prompts
 

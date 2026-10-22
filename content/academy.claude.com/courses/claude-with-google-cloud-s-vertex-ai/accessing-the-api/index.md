@@ -1,4 +1,4 @@
-Lesson 1 of 66 · Claude with Google Cloud's Vertex AIAccessing the API
+Lesson 1 of 66 · Claude on Google CloudAccessing the API
 
 # Accessing the API
 
@@ -36,7 +36,7 @@ Your server communicates with Vertex using either Anthropic's SDKs or Google's o
 
 Every request must include these key fields:
 
-- **API Key** - Identifies your request to Anthropic
+- **Google Cloud Credentials** - Authorize your request on Google Cloud
 - **Model** - Name of the specific model to use
 - **Messages** - List containing the user's input text
 - **Max Tokens** - Limits how many tokens the model can generate

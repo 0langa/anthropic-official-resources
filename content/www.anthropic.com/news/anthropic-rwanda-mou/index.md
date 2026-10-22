@@ -1,10 +1,29 @@
-AnnouncementsBeneficial Deployments
-
 # Anthropic and the Government of Rwanda sign MOU for AI in health and education
 
-Feb 17, 2026
+- Published
 
-![Anthropic and the Government of Rwanda sign MOU for AI in health and education](https://www-cdn.anthropic.com/images/4zrzovbb/website/6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
+  Feb 17, 2026
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
+  - [Global health](https://www.anthropic.com/search?topic=global-health)
+  - [Education](https://www.anthropic.com/search?topic=education)
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)See more...
+
+Related articles
+
+- Partnerships
+
+  Jan 27, 2026
+
+  [Anthropic partners with the UK Government to bring AI assistance to GOV.UK services](https://www.anthropic.com/news/gov-UK-partnership)
+
+[View more](https://www.anthropic.com/search?topic=beneficial-deployments)
 
 The Government of Rwanda and Anthropic have signed a three-year Memorandum of Understanding to formalize and expand our partnership, bringing AI to Rwanda’s education, health, and public sector systems. This agreement builds on the [ALX education partnership we announced in November 2025](http://anthropic.com/news/rwandan-government-partnership-ai-education) and marks the first time Anthropic has formalized a multi-sector partnership through a government MOU on the African continent.
 
@@ -14,7 +33,7 @@ Our collaboration spans three areas:
 - **Enabling Rwanda’s public sector developers:** Developer teams across government institutions will use Claude and Claude Code. Along with hands-on training, capacity building, and API credits, this access will support Rwanda’s broader efforts to integrate AI into other public sector areas.
 - **Deepening our education partnership in Rwanda and throughout the region:** The MOU formally codifies [our fall 2025 education agreement](https://www.anthropic.com/news/rwandan-government-partnership-ai-education), which included 2,000 Claude Pro licenses for educators across Rwanda, AI literacy training for public servants, and the deployment of a Claude-powered AI learning companion across eight African countries.
 
-## Accelerating AI for health, education, and the public sector
+### Accelerating AI for health, education, and the public sector
 
 “This partnership with Anthropic is an important milestone in Rwanda’s AI journey. Our goal is to continue to design and deploy AI solutions that can be applied at a national level to strengthen education, advance health outcomes, and enhance governance with an emphasis on our context,” said Paula Ingabire, Minister of Information and Communications Technology (ICT) and Innovation in Rwanda.
 
@@ -22,28 +41,8 @@ Anthropic’s Beneficial Deployments team has worked closely with the Ministry o
 
 “Technology is only as valuable as its reach. We’re investing in training, technical support, and capacity building to expand access so that AI can be used safely and independently by teachers, health workers, and public servants throughout Rwanda,” said Elizabeth Kelly, Head of Beneficial Deployments at Anthropic.
 
-## A commitment to AI for the public good
+### A commitment to AI for the public good
 
 Today’s announcement builds on our education partnerships, which help students and educators interact with AI, and marks a significant expansion into the health sector.
 
 Together, these partnerships reflect a long-term collaboration that prioritizes capacity building, responsible deployment, and local autonomy over how new technologies are introduced. By investing in skills, infrastructure, and institutions, we hope to lay the groundwork for AI to deliver lasting value in the sectors that matter most to people’s lives.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

@@ -1,0 +1,63 @@
+import{Fm as e,Nm as t}from"../../../content-de-meta-e1frxw34.js";var n=t();function r(t){let r={a:"a",em:"em",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",ul:"ul",...e(),...t.components},{ResourceWidget:i,Video:o}=r;return i||a("ResourceWidget",!0),o||a("Video",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(o,{youtubeId:"To5nrYqvR44",title:"Meet Claude Slides, Claude Design and Claude Docs"}),`
+`,(0,n.jsx)(r.h2,{id:"what-artifacts-are",children:"What artifacts are"}),`
+`,(0,n.jsx)(r.p,{children:"Ask Claude for a document, a slide deck, a design, a dashboard, or an animation, and the result opens in a panel beside your conversation. The work Claude builds this way, and keeps open alongside your chat, is an artifact. Each artifact also has its own page and link, so you can share and collaborate with your team directly in Claude."}),`
+`,(0,n.jsx)(i,{name:"SameArtifactThreePlaces"}),`
+`,(0,n.jsx)(r.p,{children:"Not everything Claude makes beside the chat is an artifact. Claude can also build a file for you to download, or export to other places like PowerPoint or Google Docs. An artifact has a page you can share and edit with teammates right in Claude."}),`
+`,(0,n.jsx)(r.h2,{id:"ask-claude-for-an-artifact",children:"Ask Claude for an artifact"}),`
+`,(0,n.jsxs)(r.p,{children:["You can specify which kind you want, or describe the work and Claude picks what fits the task. When your work fits none of those kinds, like a tracker or a quiz, Claude builds a custom artifact for it. If Claude makes the wrong one, say which you wanted, for instance ",(0,n.jsx)(r.em,{children:'"make this a Claude Slides deck"'})," or ",(0,n.jsx)(r.em,{children:'"give me this as a file for PowerPoint."'})]}),`
+`,(0,n.jsx)(i,{name:"ArtifactKinds"}),`
+`,(0,n.jsxs)(r.p,{children:["For more on each kind, see the ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them#h_11d5a9a5fa",children:"Help Center"}),". To check which kinds your plan has, see ",(0,n.jsx)(r.a,{href:"#what-your-plan-includes",children:"What your plan includes"}),"."]}),`
+`,(0,n.jsx)(r.h3,{id:"build-from-the-conversation",children:"Build from the conversation"}),`
+`,(0,n.jsxs)(r.p,{children:["Starting right in the chat where you work, Claude can build artifacts. It can use any information you provide, like your connectors or ",(0,n.jsx)(r.a,{href:"#save-your-process-for-making-artifacts",children:"skills"}),", or what's already in the conversation:"]}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"The conversation itself"}),", when you talk an idea through or brainstorm with Claude first: ",(0,n.jsx)(r.em,{children:'"Mock up a landing page for the idea we just worked out, in Claude Design, using our design system."'})]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Files you attach"}),", like meeting notes, a report, or a photo of a whiteboard: ",(0,n.jsx)(r.em,{children:'"Make a six-slide Claude Slides deck from this report for my leadership team."'})]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:(0,n.jsx)(r.a,{href:"/tutorials/getting-started-with-connectors",children:"Tools you have connected"})}),", like your drive, calendar, or team chat: ",(0,n.jsx)(r.em,{children:`"Pull this quarter's numbers from [the tool] into a one-page update for my team, as a Claude Doc."`})]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Numbers that keep changing:"})," A doc shows the numbers as they were when Claude pulled them, and you can ask again for the latest. For numbers that stay current, ask for a dashboard or custom artifact that reads from your connected tools: ",(0,n.jsx)(r.em,{children:`"Build a dashboard of this quarter's revenue by region from [the tool]."`})]}),`
+`]}),`
+`,(0,n.jsx)(r.h3,{id:"get-a-better-first-version",children:"Get a better first version"}),`
+`,(0,n.jsx)(r.p,{children:"Claude does a better job with more information and context about your work. A few ways to give it that:"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Name the audience and the purpose:"})," ",(0,n.jsx)(r.em,{children:`"This is for my leadership team, who will use it to set next quarter's budget."`})]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Show an example:"})," Attach a deck, doc, or screenshot you like and say what to take from it: ",(0,n.jsx)(r.em,{children:'"Match the structure of this deck, not its colors."'})]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Use your design system:"})," Once your organization has set up its colors, type, and components in Claude, decks and designs come out on brand."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Teach Claude your taste once:"})," Put your house style (tone, layout habits, words to avoid) in a skill, so you don't have to repeat it. ",(0,n.jsx)(r.a,{href:"#save-your-process-for-making-artifacts",children:"Save your process for making artifacts"})," explains how."]}),`
+`]}),`
+`,(0,n.jsx)(r.h2,{id:"edit-it-yourself-or-ask-claude",children:"Edit it yourself or ask Claude"}),`
+`,(0,n.jsx)(r.p,{children:"You and Claude work on the same artifact. Change it yourself or ask Claude to, at any point, and pick the way that fits the size of the change."}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"A small fix, like a word or a number:"})," In a deck, doc, or design, click into it and type, drag, or resize. In an animation, open ",(0,n.jsx)(r.strong,{children:"Tweaks"})," to retype the on-screen text. It saves as you go."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"A change to one part:"})," Click ",(0,n.jsx)(r.strong,{children:"Comment"}),", click the spot, write the request, and keep ",(0,n.jsx)(r.strong,{children:"Send to Claude"})," checked. In a doc, select the text, add a comment, and mention ",(0,n.jsx)(r.strong,{children:"@Claude"}),"."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"A change to the whole thing:"})," Ask in the conversation, for example ",(0,n.jsx)(r.em,{children:'"Cut this to five slides"'})," or ",(0,n.jsx)(r.em,{children:'"Restyle this in our design system."'})]}),`
+`]}),`
+`,(0,n.jsxs)(r.p,{children:["To change a dashboard or a custom artifact, ask in the conversation, or leave a comment with ",(0,n.jsx)(r.strong,{children:"Send to Claude"})," checked. If you've edited a deck or design by hand, say what to keep when you ask Claude for a rework."]}),`
+`,(0,n.jsx)(i,{name:"SteerAnArtifact"}),`
+`,(0,n.jsxs)(r.p,{children:["Once you have one artifact, build the next from it without explaining the work again, for example ",(0,n.jsx)(r.em,{children:'"Turn this Claude Doc into a six-slide deck."'})]}),`
+`,(0,n.jsx)(r.h2,{id:"share-collaborate-and-export",children:"Share, collaborate, and export"}),`
+`,(0,n.jsx)(r.p,{children:"You can share an artifact and edit it directly with your team, on a page that Claude hosts. Everyone opens the same page and sees the artifact and its comments, not your conversation with Claude. In a doc, deck, or design, people with edit access can work at the same time and see each other's changes as they happen. Claude keeps working on it too, whenever you or a teammate with edit access asks for a change."}),`
+`,(0,n.jsxs)(r.p,{children:["Other people can't open an artifact until you share it. To share, click ",(0,n.jsx)(r.strong,{children:"Share"})," at the top right of the artifact and choose what each person can do. People you invite need a Claude account. For every sharing setting and the options on each plan, see ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/9547008-share-artifacts",children:"Share artifacts"})," in the Help Center."]}),`
+`,(0,n.jsx)(i,{name:"ShareWithYourTeam"}),`
+`,(0,n.jsxs)(r.p,{children:["When the work has to leave Claude, export a file in the format the destination needs, like PowerPoint or Google Slides for a deck, Word or Google Docs for a doc, or MP4 for an animation. Open ",(0,n.jsx)(r.strong,{children:"Share"})," or the artifact's title menu and choose ",(0,n.jsx)(r.strong,{children:"Export"}),"."]}),`
+`,(0,n.jsx)(r.h3,{id:"what-your-plan-includes",children:"What your plan includes"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Every plan, including Free:"})," you can ask for an artifact and make Claude Docs, Slides, and Design."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Paid plans (Pro, Max, Team, Enterprise):"})," Claude Dashboards (in beta), saving entries in an artifact, and connecting it to your tools."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Team and Enterprise:"})," Claude Motion (in beta). An owner of your organization decides ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans#h_6e06d8f1a8",children:"which kinds you can use"})," and whether you can share outside it."]}),`
+`]}),`
+`,(0,n.jsxs)(r.p,{children:["For the details on each plan, see ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",children:"What are artifacts and how do I use them"})," in the Help Center."]}),`
+`,(0,n.jsx)(r.h2,{id:"see-everything-youve-made-in-one-place",children:"See everything you've made in one place"}),`
+`,(0,n.jsxs)(r.p,{children:["Everything you make is saved on the Artifacts page in the sidebar, wherever you started it, so you can open each one again from any device. You can start an artifact on the web, in the desktop app, in the mobile app, or in Claude Code, and you can edit a doc, deck, or design in the mobile app. From the Artifacts page you can also start a new one by picking the kind you want under ",(0,n.jsx)(r.strong,{children:"Make something new"}),"."]}),`
+`,(0,n.jsx)(i,{name:"EverythingInOnePlace"}),`
+`,(0,n.jsx)(r.h2,{id:"save-your-process-for-making-artifacts",children:"Save your process for making artifacts"}),`
+`,(0,n.jsxs)(r.p,{children:["Using ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/12512176-what-are-skills",children:"skills"}),", you can save your format and your checks once, and Claude follows them each time you ask for that work. A skill is a set of instructions for one kind of work, like the Monday status deck or the monthly board update."]}),`
+`,(0,n.jsx)(i,{name:"SaveYourProcess"}),`
+`,(0,n.jsxs)(r.p,{children:["To make one, describe your process in a conversation, and Claude writes the skill. Say where the notes or numbers come from, the kind of artifact you want, who reads it, and what you'd check before sending it. For example: ",(0,n.jsx)(r.em,{children:`"Make a skill for my Monday status deck. Pull last week's updates from [the tool], make a five-slide Claude Slides deck for the team leads, and check each number against its source before you finish."`})]}),`
+`,(0,n.jsx)(r.h2,{id:"where-to-go-next",children:"Where to go next"}),`
+`,(0,n.jsx)(r.p,{children:"Start with work you have due this week: ask Claude for a first version, then share it with a teammate."}),`
+`,(0,n.jsx)(r.p,{children:"For more detail, see:"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Decks:"})," ",(0,n.jsx)(r.a,{href:"/tutorials/using-claude-design-for-presentations-and-slide-decks",children:"Making slides and presentations with Claude"})]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Prototypes:"})," ",(0,n.jsx)(r.a,{href:"/tutorials/using-claude-design-for-prototypes-and-ux",children:"Using Claude for prototypes and UX"})]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Decks and designs that match your brand:"})," ",(0,n.jsx)(r.a,{href:"/tutorials/create-a-design-system-with-claude",children:"Setting up a design system in Claude"})]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Trackers, quizzes, and other custom artifacts:"})," ",(0,n.jsx)(r.a,{href:"/tutorials/build-custom-artifacts-with-claude",children:"Build and share tools in Claude with custom artifacts"})]}),`
+`]})]})}function i(t={}){let{wrapper:i}={...e(),...t.components};return i?(0,n.jsx)(i,{...t,children:(0,n.jsx)(r,{...t})}):r(t)}function a(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{i as default};

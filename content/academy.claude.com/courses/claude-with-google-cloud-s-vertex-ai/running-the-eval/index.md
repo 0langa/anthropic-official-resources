@@ -1,4 +1,4 @@
-Lesson 13 of 66 · Claude with Google Cloud's Vertex AIRunning the eval
+Lesson 13 of 66 · Claude on Google CloudRunning the eval
 
 # Running the eval
 

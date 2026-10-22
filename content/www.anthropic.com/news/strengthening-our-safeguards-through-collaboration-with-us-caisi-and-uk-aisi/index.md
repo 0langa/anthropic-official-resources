@@ -1,10 +1,29 @@
-Announcements
-
 # Strengthening our safeguards through collaboration with US CAISI and UK AISI
 
-Sep 12, 2025
+- Published
 
-![Strengthening our safeguards through collaboration with US CAISI and UK AISI ](https://www-cdn.anthropic.com/images/4zrzovbb/website/74409af25137110ac04cc39e4d5ea0a2fbcea421-1000x1000.svg)
+  Sep 12, 2025
+- Category
+
+  [Safeguards](https://www.anthropic.com/news/safeguards)
+- Topics
+
+  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+  - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)See more...
+
+Related articles
+
+- Alignment
+
+  Jan 9, 2026
+
+  [Next-generation Constitutional Classifiers: More efficient protection against universal jailbreaks](https://www.anthropic.com/research/next-generation-constitutional-classifiers)
+
+[View more](https://www.anthropic.com/search?topic=red-teaming)
 
 Over the past year, we've collaborated with the US Center for AI Standards and Innovation (CAISI) and UK AI Security Institute (AISI), government bodies established to measure and improve the security of AI systems. Our voluntary work together began as initial consultations, but over time evolved to an ongoing partnership where CAISI and AISI teams were provided access to our systems at various stages of model development, allowing for ongoing testing of our systems.
 
@@ -12,7 +31,7 @@ Governments bring unique capabilities to this work, particularly deep expertise 
 
 Working with independent external experts to identify vulnerabilities in AI systems is a core part of Anthropic’s [Safeguards](https://www.anthropic.com/news/building-safeguards-for-claude) approach and is critical to preventing misuse of our models that could cause real-world harm.
 
-## Uncovering and addressing vulnerabilities
+### Uncovering and addressing vulnerabilities
 
 This collaboration has already led to key findings that helped us strengthen the tools we use to prevent malicious use of our models. As part of our respective agreements with CAISI and AISI, each organization evaluated several iterations of our [Constitutional Classifiers](https://www.anthropic.com/news/constitutional-classifiers)—a defense system we use to spot and prevent jailbreaks—on models like Claude Opus 4 and 4.1 prior to deployment to help identify vulnerabilities and build robust safeguards.
 
@@ -26,7 +45,7 @@ This collaboration has already led to key findings that helped us strengthen the
 
 **Evaluation and risk methodology.** Beyond identifying specific vulnerabilities, CAISI and AISI teams have helped strengthen our broader approach to security. Their external perspective on evidence requirements, deployment monitoring, and rapid response capabilities has been invaluable in pressure-testing our assumptions and identifying areas where additional evidence may be needed to support our threat models.
 
-## Key lessons for effective collaborations
+### Key lessons for effective collaborations
 
 Our experience has taught us several important lessons about how to engage effectively with government research and standards bodies to improve the safety and security of our models.
 
@@ -41,30 +60,10 @@ Our experience has taught us several important lessons about how to engage effec
 
 **Complementary approaches offer more robust security.** CAISI and AISI evaluations work synergistically with our broader ecosystem. [Public bug bounty](https://www.anthropic.com/news/testing-our-safety-defenses-with-a-new-bug-bounty-program) programs generate high-volume, diverse vulnerability reports from a wide talent pool, while specialized expert teams can help uncover complex, subtle attack vectors that require deep technical knowledge to identify. This multi-layered strategy helps ensure we catch both common exploits and sophisticated edge cases.
 
-## Ongoing collaboration
+### Ongoing collaboration
 
 Making powerful AI models secure and beneficial requires not just technical innovation but also new forms of collaboration between industry and government. Our experience demonstrates that public-private partnerships are most effective when technical teams work closely together to identify and address risk.
 
 As AI capabilities advance, the role of independent evaluations of mitigations is increasingly important. We are heartened that other AI developers are also working with these government bodies, and encourage more companies to do so and share their own lessons more widely.
 
 *We extend our gratitude to the technical teams at both US CAISI and UK AISI for their rigorous testing, thoughtful feedback, and ongoing collaboration. Their work has materially improved the security of our systems and advanced the field of measuring AI safeguard effectiveness.*
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

@@ -7,7 +7,7 @@ Lesson 9 of 14 · Deploying Claude Enterprise with confidence: The five decision
 In this lessonBy the end, you’ll be able to
 
 - Describe the three spend cap levels and predict which one applies to a given member
-- Explain what a member experiences at a cap and how their request reaches an Owner
+- Explain what a member experiences at a cap and who can approve their request for more
 - Decide where caps sit for your organization and who owns the escalation
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
@@ -24,13 +24,13 @@ Spend caps come in three levels, from widest to narrowest:
 2. **Group caps: per-member limits that every member of a group inherits, sized to that group’s typical usage.**
 3. **Per-member overrides**: a specific member’s own limit, set individually, above or below their group’s number.
 
-Under the group caps sits a seat default limit, set under Spending defaults — the number a member gets before setting any group cap or override. When a member belongs to two groups that both carry a cap, one organization-wide setting (Multi-group spend limit, under Spending defaults) decides which applies, and you choose whether the higher or the lower group cap wins. Set it deliberately, because unlike the permissions union rule from Lesson 5, where the broader grant always wins, here the decision is yours.
+Under the group caps sits a seat default limit, set under Spending defaults — the number a member gets before setting any group cap or override. When a member belongs to two groups that both carry a cap, one organization-wide setting (Member limit from groups, under Spending defaults) decides which applies, and you choose whether the higher or the lower group cap wins. The seat default counts in that comparison too, so with “Higher group limit” a seat default above a group’s cap is the number that member gets. Set it deliberately, because unlike the permissions union rule from Lesson 5, where the broader grant always wins, here the decision is yours.
 
 ## How caps work in practice[](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/spend-caps)
 
-When a member hits their cap, their usage is paused. A pause is not an outage, and no work is queued to run later. The member can’t use Claude beyond the cap until their limit resets with the new month, or until an approved request lifts it. The member also sees an in-app prompt to request more, and the request routes to your Admins and Owners to approve or deny.
+When a member hits their cap, their usage is paused. A pause is not an outage, and no work is queued to run later. The member can’t use Claude beyond the cap until their limit resets with the new month, or until an approved request lifts it. The member also sees an in-app prompt to request more. The request lands on the Usage page in Organization settings, where Owners, Primary Owners, and anyone whose custom role has Billing set to “Can manage” can approve or deny it.
 
-One thing to watch for at scale: approvals sit with your Owners, but the budget usually sits with someone else. This dynamic means that in-product requests can sometimes wait days for a decision. Large organizations commonly route cap increase requests through their own ticketing instead — the Spend Limits API can list, approve, and deny requests as well as set limits.
+One thing to watch for at scale: the people who can approve requests often aren’t the people who own the budget, so in-product requests can sometimes wait days for a decision. If your budget owner is on a custom role, a role with Billing set to “Can manage” lets them decide directly; give that permission only to a role held by the people who should approve spend. Large organizations commonly route cap increase requests through their own ticketing instead — the Spend Limits API can list, approve, and deny requests as well as set limits.
 
 Rather than setting caps one member at a time, use the group cap as your scale mechanism: size it to the group’s typical usage and let membership do the assignment. A group cap is not a pooled budget the group shares, and it is not necessarily proportional to headcount — it answers “how much does one member of this group typically need?” Overrides are for specific exceptions, such as the analyst who runs a heavy monthly data analysis job with Claude Code. This gives the analyst what they need without raising the cap for the entire group that contains them.
 
@@ -40,13 +40,13 @@ Where per-member overrides multiply, the Spend Limits API, part of the Claude En
 
 Pluto set an organization ceiling from the budget owner’s number and group caps sized to each unit’s typical member. After the first month’s usage review, the handful of Platform engineers whose Claude Code work ran well above the group’s typical usage got per-member overrides rather than a higher Platform cap. Raising the group cap would have lifted the ceiling for every engineer, including the ones already well within it, so the overrides target just the outliers who need the extra room. Payments & Trust reviews every request that touches its group.
 
-The interactive widget below shows how a group cap and a per-member override combine for one member, and which cap your Multi-group spend limit setting applies when she belongs to two groups.
+The interactive widget below shows how a group cap and a per-member override combine for one member, and which cap your Member limit from groups setting applies when she belongs to two groups.
 
 Exercise: the learner selects among four cases to see how a member's spending limit bar moves against fixed group-cap ticks, with or without an override, or across two groups. It teaches that group caps are per-member limits inherited through membership, not shared budgets.
 
 The bar is one member’s spending limit; the two ticks are the group caps. **Pick a case** and watch the bar move against them.
 
-No override — group cap appliesDevin · EngineeringOverride below the capSam · contractor, EngineeringOverride above the capPriya · PlatformIn two groups — your Multi-group spend limit setting decidesMaya · Engineering + Platform
+No override — group cap appliesDevin · EngineeringOverride below the capSam · contractor, EngineeringOverride above the capPriya · PlatformIn two groups — your Member limit from groups setting decidesMaya · Engineering + Platform
 
 Engineering cap$400
 
@@ -79,7 +79,7 @@ Setting a cap comes down to three considerations, plus one constraint if you pre
 3. **Planned room for spiky work:** a group with month-end analyses or seasonal load gets a higher cap or overrides you set for the spike and remove afterward, instead of repeated emergency approvals.
 4. **If you prepay usage credits:** the ceiling is your remaining prepaid credit. At zero, usage pauses organization-wide until credits are added, so the budget owner is on every ceiling change.
 
-Decide the escalation split when you set the caps, not after the first request lands. Name the Owner who approves routine requests and agree on the approval range with the budget owner up front; anything that would move a group cap or the ceiling is the budget owner’s call, with your usage story attached. Members knowing the loop exists matters more than the exact split.
+Decide the escalation split when you set the caps, not after the first request lands. Name who approves routine requests, from the approvers listed above, and agree on the approval range with the budget owner up front; anything that would move a group cap or the ceiling is the budget owner’s call, with your usage story attached. Members knowing the loop exists matters more than the exact split.
 
 ## 3 · If you change this later[](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/spend-caps)
 

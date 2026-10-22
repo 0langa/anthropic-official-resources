@@ -6,7 +6,7 @@ Lesson 6 of 14 · Deploying Claude Enterprise with confidence: The five decision
 
 In this lessonBy the end, you’ll be able to
 
-- Set the model defaults, organization-wide and per role, and the effort caps a role can use
+- Set the model defaults and the effort caps, organization-wide and per role
 - Grant a surface to a group through its roles
 - Decide which surfaces each group gets, and when to phase them in
 
@@ -67,8 +67,9 @@ To set the default yourself, choose an organization default:
 - It holds through model releases until you change it. An Owner, Primary Owner, or a custom role with the Identity & Access permission can set it.
 - Members can still switch models in their own conversations. That choice carries to their next one until you change the organization default, which resets those selections.
 - A custom role can carry its own default model, overriding the organization default for its members.
+- Alongside a default model, for the organization or for a role, you can set a default effort level, and a beta setting starts every new conversation on those defaults.
 
-You can also limit which models a role reaches. These model-access and effort limits are set per role and apply only to Custom roles (Lesson 5). Effort is how much work the model puts into a response; higher effort costs more tokens. Give a custom role a subset of models and its members see only those in the picker (e.g., Haiku is always available), and the same settings cap the highest effort level they can pick on each model. You can find resources on [choosing between models(opens in new tab)](https://academy.claude.com/tutorials/choosing-the-right-claude-model) and [model effort(opens in new tab)](https://academy.claude.com/tutorials/how-to-select-the-right-effort-setting-for-claude-cowork-and-chat) on Claude Academy.
+You can also limit which models members can reach and how much effort they can pick. Effort is how much work the model puts into a response; higher effort costs more tokens. Both limits work at two levels. Organization-wide, you turn each model on or off for everyone and set an effort cap on each model that applies to every member; no custom role can allow more than that model’s cap. Per role, you can narrow further: give a custom role a subset of models and its members see only those in the picker (Haiku models are always available and can’t be turned off), and cap the highest effort level they can pick on each model. Role-level limits apply only to Custom roles (Lesson 5). You can find resources on [choosing between models(opens in new tab)](https://academy.claude.com/tutorials/choosing-the-right-claude-model) and [model effort(opens in new tab)](https://academy.claude.com/tutorials/how-to-select-the-right-effort-setting-for-claude-cowork-and-chat) on Claude Academy.
 
 There are two main reasons to update the model default or restrict models for your organization:
 
@@ -115,8 +116,8 @@ Granting a surface later is cheap: it’s a role setting you can add any time. T
 When you’ve made the call, you’ll grant each surface through your organization’s roles. For any group getting Claude Code, loop in your platform lead at the same time, so the boundary configuration is ready when access is.
 
 - **[Set up role-based permissions on Enterprise plans(opens in new tab)](https://support.claude.com/en/articles/13930458-set-up-role-based-permissions-on-enterprise-plans)**: granting a surface to a group through its role.
-- **[Manage model access for your organization(opens in new tab)](https://support.claude.com/en/articles/15694740-manage-model-access-for-your-organization)**: the organization-wide default model, per-role defaults, and per-role model access and effort caps, including which surfaces those settings cover.
-- **[Set a default model for your organization(opens in new tab)](https://support.claude.com/en/articles/15330088-set-a-default-model-for-your-organization)**: the organization default and per-role defaults, and how the same default can resolve to different models by surface.
+- **[Manage model access for your organization(opens in new tab)](https://support.claude.com/en/articles/15694740-manage-model-access-for-your-organization)**: organization-wide model access and effort caps, the per-role version of each, and which products those settings cover.
+- **[Set a default model for your organization(opens in new tab)](https://support.claude.com/en/articles/15330088-set-a-default-model-for-your-organization)**: the organization default model and default effort level, per-role default models, and how the same default can resolve to different models by surface.
 - **[Choosing between models(opens in new tab)](https://academy.claude.com/tutorials/choosing-the-right-claude-model)**: guidance on model selection, from Claude Academy.
 - **[Model effort(opens in new tab)](https://academy.claude.com/tutorials/how-to-select-the-right-effort-setting-for-claude-cowork-and-chat)**: guidance on effort levels, from Claude Academy.
 - **[How usage and length limits work(opens in new tab)](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)**: how limits differ by plan and model.

@@ -1,10 +1,27 @@
-Announcements
-
 # Federal government departments and agencies can now purchase Claude through the GSA schedule
 
-Aug 5, 2025
+- Published
 
-![Federal government departments and agencies can now purchase Claude through the GSA schedule](https://www-cdn.anthropic.com/images/4zrzovbb/website/6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
+  Aug 5, 2025
+- Category
+
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+  - [Access](https://www.anthropic.com/search?topic=access)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [National security](https://www.anthropic.com/search?topic=national-security)See more...
+
+Related articles
+
+- Partnerships
+
+  Jul 14, 2025
+
+  [Anthropic and the Department of Defense to advance responsible AI in defense operations](https://www.anthropic.com/news/anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations)
+
+[View more](https://www.anthropic.com/search?topic=government-capacity)
 
 Claude is now available for purchase through the General Services Administration (GSA) schedule, making it easier for all U.S. federal government departments and agencies to quickly access Claude, with pre-negotiated pricing and terms that comply with federal acquisition regulations.
 
@@ -12,32 +29,12 @@ Our commitment to responsible AI deployment, including rigorous safety testing, 
 
 We will continue to work with our partners across the government to expand Claude access for federal teams by streamlining procurement processes and offering unique pricing.
 
-**Growing government partnerships**
+#### Growing government partnerships
 
 The deployment of AI across federal agencies enhances productivity, streamlines operations, and enables more effective and responsive government services. This partnership with GSA enables us to help government organizations harness the power of AI to modernize operations.
 
 Anthropic has recently announced partnerships with [national laboratories](https://www.anthropic.com/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and) for scientific research, integration into defense and intelligence workflows through technology partners, and [custom Claude Gov models](https://www.anthropic.com/news/claude-gov-models-for-u-s-national-security-customers) designed specifically for national security applications.
 
-**Get started**
+#### Get started
 
 Organizations interested in transforming their operations with Claude can [contact our public sector team](mailto:pubsec@anthropic.com) to learn more and get started.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

@@ -1,41 +1,39 @@
-Announcements
-
 # Claude 3 models on Vertex AI
 
-Mar 19, 2024
+- Published
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F02cb754c15691375b31f63ca61cb024898b77f52-2880x1620.png&w=3840&q=75)
+  Mar 19, 2024
+- Category
+
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
+  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+  - [Access](https://www.anthropic.com/search?topic=access)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)See more...
+
+Related articles
+
+- Partnerships
+
+  Aug 12, 2025
+
+  [Offering expanded Claude access across all three branches of the U.S. government](https://www.anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government)
+
+[View more](https://www.anthropic.com/search?topic=partnerships)
 
 Claude 3 Haiku and Claude 3 Sonnet are now generally available on Google Cloud’s Vertex AI platform. Enterprises can use our state-of-the-art models that optimize intelligence, speed, and cost with Google Cloud's robust infrastructure and tools. This collaboration enables businesses to quickly prototype and scale generative AI solutions with enterprise-grade data privacy and security. The benefits for Google Cloud customers include the ability to keep their data within their existing cloud environment, simplify data governance, reduce operational costs and complexities, and more easily manage access permissions.
 
 The general availability of our [Claude 3 models](https://www.anthropic.com/news/claude-3-family) will empower more organizations to access safer, more reliable AI solutions on the cloud platform of their choice.
 
-## Spotlight: Quora
+### Spotlight: Quora
 
 Quora, the popular question-and-answer platform, has already seen positive results from integrating Claude into the Poe app. Poe is a fast, helpful AI chat experience that offers users the ability to converse with Claude for a wide range of use cases.
 
 “At Poe, we’re helping shape how people interact with AI, providing millions of global users with one place to chat, explore and build with a wide variety of AI-powered bots,” said Spencer Chan, Product Lead at Poe by Quora. “Claude has become very popular on Poe due to its strengths in multiple areas, including creative writing and image understanding. Our users describe Claude’s answers as detailed and easily understood, and they like that exchanges feel like natural conversations. With millions of messages exchanged between our users and Anthropic’s Claude-based bots daily, we’re excited to work with Anthropic’s Claude 3 models on Vertex AI.”
 
-## Get started
+### Get started
 
 To start building with Claude 3 Haiku and Claude 3 Sonnet on Vertex AI, visit the [Model Garden console](https://cloud.google.com/model-garden) and select your desired model. Claude 3 Opus, our most capable and intelligent model to date, will be available on Vertex AI in the coming weeks.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

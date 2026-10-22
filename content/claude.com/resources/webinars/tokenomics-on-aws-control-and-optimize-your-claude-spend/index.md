@@ -1,6 +1,6 @@
 ![Anthropic x AWS](https://assets.claude.com/b8524184cc814e260750925c5a716e579992c66f.svg)
 
-Oct 21, 2026 — 10:00 – 11:00 AM PT
+On demand
 
 # Tokenomics on AWS: Control and optimize your Claude spend
 
@@ -10,7 +10,7 @@ In this technical session, Anthropic and AWS will walk through two before-and-af
 
 Register for the webinar
 
-Fill out the form below to reserve your seat.
+Fill out the form below to watch on demand.
 
 ## Featured speakers
 

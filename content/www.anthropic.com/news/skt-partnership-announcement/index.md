@@ -1,10 +1,27 @@
-Announcements
-
 # SKT partnership announcement
 
-Aug 15, 2023
+- Published
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F90c31d0ee08817d20f1ca2965a439585feac7093-2880x1620.png&w=3840&q=75)
+  Aug 15, 2023
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Funding](https://www.anthropic.com/search?topic=funding)
+  - [Training](https://www.anthropic.com/search?topic=training)
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)See more...
+
+Related articles
+
+- Announcements
+
+  Jul 14, 2026
+
+  [Anthropic commits $10 million to Canadian AI research](https://www.anthropic.com/news/canadian-ai-research)
+
+[View more](https://www.anthropic.com/search?topic=partnerships)
 
 We are pleased to announce that SK Telecom ("SKT"), the largest mobile operator in Korea rapidly integrating AI into its business, has become a commercial partner with Anthropic as well as a strategic investor.
 
@@ -15,23 +32,3 @@ Fine-tuning creates a custom version of our LLM Claude that can be tailored to a
 In addition to this commercial partnership, SKT has invested an additional $100 million in Anthropic, which follows the previous investment from SK Telecom Venture Capital (SKTVC) in Silicon Valley. “With our strategic investment in Anthropic, a global leading AI technology company, we will be working closely with Anthropic to promote AI innovation,” said Ryu Young-sang, CEO of SKT. “By combining our Korean language-based LLM with Anthropic's strong AI capabilities, we expect to create synergy and gain leadership in the AI ecosystem together with our global telco partners.”
 
 We are excited about the opportunities we will unlock by partnering with SKT to build safer, more reliable AI technology that will serve telcos around the world.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

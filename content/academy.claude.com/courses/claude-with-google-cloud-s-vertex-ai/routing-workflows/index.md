@@ -1,4 +1,4 @@
-Lesson 63 of 66 · Claude with Google Cloud's Vertex AIRouting workflows
+Lesson 63 of 66 · Claude on Google CloudRouting workflows
 
 # Routing workflows
 

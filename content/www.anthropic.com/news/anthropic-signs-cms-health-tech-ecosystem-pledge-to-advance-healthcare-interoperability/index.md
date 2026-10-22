@@ -1,16 +1,33 @@
-Policy
-
 # Anthropic Signs CMS Health Tech Ecosystem Pledge to Advance Healthcare Interoperability
 
-Jul 30, 2025
+- Published
 
-![ Hands building a shape ](https://www-cdn.anthropic.com/images/4zrzovbb/website/b1aeb70d1e0bd9933d6590e1bc9affd5fa3dd848-1000x1000.svg)
+  Jul 30, 2025
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Healthcare](https://www.anthropic.com/search?topic=healthcare)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)See more...
+
+Related articles
+
+- Partnerships
+
+  Jun 3, 2026
+
+  [Introducing the Services Track and Partner Hub of the Claude Partner Network](https://www.anthropic.com/news/services-track-partner-hub)
+
+[View more](https://www.anthropic.com/search?topic=healthcare)
 
 Anthropic is pleased to sign the Centers for Medicare & Medicaid Services (CMS) Health Tech Ecosystem pledge supporting conversational AI, a collaborative effort between government and industry to modernize healthcare data sharing and improve patient outcomes across America. CMS’s public-private collaboration recognizes that solving interoperability requires both technical innovation and coordinated partnership across the entire healthcare ecosystem.
 
 "We're pleased to join this critical effort with the White House and CMS in improving healthcare data sharing so patients and their doctors can access complete health information when and where it's needed," said Anthropic Chief Product Officer, Mike Krieger. "This is an issue that affects Americans of all backgrounds. Healthcare silos have persisted for far too long, and we believe Anthropic’s AI technology can play a transformative role in eliminating these silos to improve the delivery of care for millions of Americans."
 
-### **AI solutions for healthcare**
+#### AI solutions for healthcare
 
 As an AI company, Anthropic brings novel capabilities that can complement existing healthcare infrastructure. Our technology can help bridge data systems and make health information more accessible to patients, working alongside the healthcare providers and systems already serving millions of Americans.
 
@@ -19,23 +36,3 @@ Healthcare's interoperability challenge mirrors a problem we've already solved i
 At Anthropic, we are focused on creating a healthcare ecosystem of partners who can connect easily and securely so that users can leverage their clinical and non-clinical data to better understand their health. We will work with payers, providers, data platforms and consumer technology companies to aggregate patient data and make it usable and actionable in a responsible way with Claude.
 
 We look forward to continuing to work with policymakers across the U.S. government to ensure the opportunities AI unlocks support the American people. Sectors including healthcare, science, energy infrastructure, and citizen services can use this technology to keep the United States on the frontier of innovation—advancing our economy and communities in unprecedented ways.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

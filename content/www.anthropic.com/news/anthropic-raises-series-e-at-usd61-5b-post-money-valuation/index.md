@@ -1,10 +1,28 @@
-Announcements
-
 # Anthropic raises Series E at $61.5B post-money valuation
 
-Mar 3, 2025
+- Published
 
-![A hand-drawn image of a staircase with a line implying upward motion](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2184a9fa84dd346c38c7756242d76f34ef1b26b1-1920x1079.png&w=3840&q=75)
+  Mar 3, 2025
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Funding](https://www.anthropic.com/search?topic=funding)
+  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+
+Related articles
+
+- Announcements
+
+  Apr 20, 2026
+
+  [Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute](https://www.anthropic.com/news/anthropic-amazon-compute)
+
+[View more](https://www.anthropic.com/search?topic=funding)
 
 Anthropic has raised $3.5 billion at a $61.5 billion post-money valuation. The round was led by Lightspeed Venture Partners, with participation from Bessemer Venture Partners, Cisco Investments, D1 Capital Partners, Fidelity Management & Research Company, General Catalyst, Jane Street, Menlo Ventures and Salesforce Ventures, among other new and existing investors.
 
@@ -15,23 +33,3 @@ Today's announcement follows the launch of [Claude 3.7 Sonnet](https://www.anthr
 Businesses across industries—from fast-growing startups like Cursor and Codeium to global corporations like Zoom, Snowflake and Pfizer—are turning to Claude to transform their operations. [Replit](https://www.anthropic.com/customers/replit) integrated Claude into "Agent" to turn natural language into code, [driving 10X revenue growth](https://www.inc.com/ben-sherry/after-partnering-with-anthropic-replit-has-grown-revenue-by-10x/91147509); [Thomson Reuters](https://www.anthropic.com/customers/thomson-reuters)' tax platform CoCounsel uses Claude to assist tax professionals; [Novo Nordisk](https://www.theinformation.com/articles/ozempic-maker-says-ai-is-finally-reliable-enough-to-produce-sensitive-documents?rc=77swo1) has used Claude to reduce clinical study report writing from 12 weeks to 10 minutes; and [Claude now helps to power Alexa+](https://www.anthropic.com/news/claude-and-alexa-plus), bringing advanced AI capabilities to millions of households and Prime members.
 
 Continuing this trajectory, Anthropic remains focused on deepening our understanding of frontier AI systems and ensuring that artificial intelligence advances human progress.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

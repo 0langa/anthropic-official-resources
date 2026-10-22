@@ -1,10 +1,27 @@
-Announcements
-
 # Introducing Labs
 
-Jan 13, 2026
+- Published
 
-![Introducing Labs](https://www-cdn.anthropic.com/images/4zrzovbb/website/0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)
+  Jan 13, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Leadership](https://www.anthropic.com/search?topic=leadership)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+
+Related articles
+
+- Product
+
+  May 5, 2026
+
+  [Agents for financial services](https://www.anthropic.com/news/finance-agents)
+
+[View more](https://www.anthropic.com/search?topic=leadership)
 
 Our models are evolving at a rapid clip, and each new release brings another leap in capabilities. Building product experiences around these emerging capabilities requires different motions working in partnership: tinkering and experimenting at the edge of what Claude can do, testing unpolished versions with early users to find what works, and taking what lands and scaling it into products our customers can rely on.
 
@@ -15,23 +32,3 @@ Today we’re building on this approach with the expansion of Labs, a team focus
 “The speed of advancement in AI demands a different approach to how we build, how we organize, and where we focus. Labs gives us room to break the mold and explore,” said Daniela Amodei, President of Anthropic. “We now have the right structure in place to support the most critical motions for our product organization—discovering experimental products at the frontier of Claude’s capabilities, and scaling them responsibly to meet the needs of our enterprise customers and growing user base.”
 
 We're hiring builders with a track record of creating products people love and shaping emerging technology with care. If you’d like to build with us at the very frontier of AI capabilities, [we want to hear from you](https://www.anthropic.com/careers).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

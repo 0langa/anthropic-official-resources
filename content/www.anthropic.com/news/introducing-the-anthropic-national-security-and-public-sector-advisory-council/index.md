@@ -1,10 +1,28 @@
-Announcements
-
 # Introducing the Anthropic National Security and Public Sector Advisory Council
 
-Aug 27, 2025
+- Published
 
-![Introducing the Anthropic National Security and Public Sector Advisory Council](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F45c41da0a894deb7c2265fffc882caa4a716947d-1600x1203.png&w=3840&q=75)
+  Aug 27, 2025
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [National security](https://www.anthropic.com/search?topic=national-security)
+  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+  - [Leadership](https://www.anthropic.com/search?topic=leadership)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+
+Related articles
+
+- Policy
+
+  Oct 21, 2025
+
+  [A statement from Dario Amodei on Anthropic's commitment to American AI leadership](https://www.anthropic.com/news/statement-dario-amodei-american-ai-leadership)
+
+[View more](https://www.anthropic.com/search?topic=national-security)
 
 Today, we are announcing the formation of the Anthropic National Security and Public Sector Advisory Council, a group of leading bipartisan national security and public policy practitioners who will help Anthropic support the U.S. government and closely allied democracies in building and maintaining enduring technological advantages in an era of strategic competition.
 
@@ -12,7 +30,7 @@ The Advisory Council includes former Senators as well as former leaders from the
 
 The Advisory Council will help us identify and develop high-impact applications that strengthen U.S. and close allies’ capabilities in key areas ranging from cybersecurity to intelligence analysis to scientific research. Members will also help us deepen our public-private partnerships and support development of industry-leading standards to promote a “race to the top” for impactful, responsible national security applications.
 
-**Members of the Council**
+#### Members of the Council
 
 We look forward to announcing additional Council members in the coming months as our research and partnerships with public sector institutions advance. Today, we are honored to welcome the following inaugural members:
 
@@ -28,7 +46,7 @@ We look forward to announcing additional Council members in the coming months as
 - **Patrick M. Shanahan**, former Acting Secretary of Defense and former Deputy Secretary of Defense under the first Trump administration, current CEO of Spirit AeroSystems, and serves on the boards of Leidos and CAE. Mr. Shanahan spent over three decades at The Boeing Company. His expertise spans defense acquisition, large-scale product development and manufacturing, and global supply chain management. He served as the Chair of University of Washington Board of Regents.
 - **Jon Tester**, former U.S. Senator from Montana and former Chairman of the Appropriations Subcommittee on Defense, where he oversaw $800 billion in defense and intelligence spending. Senator Tester is also a fellow at the University of Chicago Institute of Politics and a political analyst at MSNBC.
 
-**Anthropic’s commitment to U.S. AI leadership**
+#### Anthropic’s commitment to U.S. AI leadership
 
 Deep public sector engagement is essential to Anthropic’s mission of ensuring the world safely makes the transition through transformative AI and that the United States and closely allied democracies continue to lead the development and deployment of powerful and trusted frontier AI, particularly for national security.
 
@@ -37,23 +55,3 @@ To that end, Anthropic has taken significant steps over the past several months 
 In addition, as AI systems grow more capable, understanding their national security implications is increasingly vital. Over the past year, we have voluntarily [partnered](https://www.axios.com/2024/11/14/anthropic-claude-nuclear-information-safety) with the Department of Energy’s nuclear experts to assess our models’ potential to divulge sensitive information about nuclear weapons and with the U.S. Center for AI Standards and Innovation and UK AI Security Institute to [test](https://www.nist.gov/news-events/news/2024/11/pre-deployment-evaluation-anthropics-upgraded-claude-35-sonnet) our models’ biological, cyber, and AI R&D capabilities.
 
 The Council will aid in the development of safe, effective, and cutting edge technology for the United States and closely allied democracies to establish and maintain enduring technological advantages in this vital era of strategic competition.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

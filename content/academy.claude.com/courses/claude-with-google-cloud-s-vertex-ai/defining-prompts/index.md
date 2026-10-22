@@ -1,4 +1,4 @@
-Lesson 57 of 66 · Claude with Google Cloud's Vertex AIDefining prompts
+Lesson 57 of 66 · Claude on Google CloudDefining prompts
 
 # Defining prompts
 

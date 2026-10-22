@@ -1,4 +1,4 @@
-Lesson 60 of 66 · Claude with Google Cloud's Vertex AIAgents and workflows
+Lesson 60 of 66 · Claude on Google CloudAgents and workflows
 
 # Agents and workflows
 

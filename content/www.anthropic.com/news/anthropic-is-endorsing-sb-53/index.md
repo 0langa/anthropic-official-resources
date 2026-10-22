@@ -1,16 +1,34 @@
-Announcements
-
 # Anthropic is endorsing SB 53
 
-Sep 8, 2025
+- Published
 
-![Anthropic is endorsing SB 53](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F220ba398ed2cdbc37f29ed14e0b153f55ce023a4-1900x1000.png&w=3840&q=75)
+  Sep 8, 2025
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+  - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)See more...
+
+Related articles
+
+- Policy
+
+  Feb 24, 2026
+
+  [Anthropic’s Responsible Scaling Policy: Version 3.0](https://www.anthropic.com/news/responsible-scaling-policy-v3)
+
+[View more](https://www.anthropic.com/search?topic=legal-guardrails)
 
 **Anthropic is endorsing SB 53**, the California bill that governs powerful AI systems built by frontier AI developers like Anthropic. We’ve [long advocated](https://www.anthropic.com/news/the-case-for-targeted-regulation) for thoughtful AI regulation and our support for this bill comes after careful consideration of the lessons learned from California's previous attempt at AI regulation ([SB 1047](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1047)). While we believe that frontier AI safety is best addressed at the federal level instead of a patchwork of state regulations, powerful AI advancements won’t wait for consensus in Washington.
 
 Governor Newsom assembled the [Joint California Policy Working Group](https://www.cafrontieraigov.org/)—a group of academics and industry experts—to provide recommendations on AI governance. The working group endorsed an approach of ['trust but verify](https://www.anthropic.com/news/anthropic-s-response-to-governor-newsom-s-ai-working-group-draft-report)’, and Senator Scott Wiener’s SB 53 implements this principle through disclosure requirements rather than the prescriptive technical mandates that plagued last year's efforts.
 
-**What SB 53 achieves**
+#### What SB 53 achieves
 
 SB 53 would require large companies developing the most powerful AI systems to:
 
@@ -24,7 +42,7 @@ These requirements would formalize practices that Anthropic and many other front
 
 SB 53’s transparency requirements will have an important impact on frontier AI safety. Without it, labs with increasingly powerful models could face growing incentives to dial back their own safety and disclosure programs in order to compete. But with SB 53, developers can compete while ensuring they remain transparent about AI capabilities that pose risks to public safety, creating a level playing field where disclosure is mandatory, not optional.
 
-**Looking ahead**
+#### Looking ahead
 
 SB 53 provides a strong regulatory foundation, but we can and should build upon this progress in the following areas and we look forward to working with policymakers to do so:
 
@@ -33,23 +51,3 @@ SB 53 provides a strong regulatory foundation, but we can and should build upon 
 - Lastly, regulations need to evolve as AI technology advances. Regulators should have the ability to update rules as needed to keep up with new developments and maintain the right balance between safety and innovation.
 
 We commend Senator Wiener and Governor Newsom for their leadership on responsible AI governance. The question isn't whether we need AI governance—it's whether we'll develop it thoughtfully today or reactively tomorrow. SB 53 offers a solid path toward the former. We encourage California to pass it, and we look forward to working with policymakers in Washington and around the world to develop comprehensive approaches that protect public interests while maintaining America's AI leadership.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

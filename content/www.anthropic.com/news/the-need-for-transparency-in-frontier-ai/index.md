@@ -1,12 +1,30 @@
-Policy
-
 # The need for transparency in Frontier AI
-
-Jul 7, 2025
 
 [Read the Transparency Framework](https://www-cdn.anthropic.com/19cc4bf9eb6a94f9762ac67368f3322cf82b09fe.pdf)
 
-![A building with a set of columns ](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa4b4c0066fe7b5761115569317b97259567e207c-1920x1079.png&w=3840&q=75)
+- Published
+
+  Jul 7, 2025
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+
+Related articles
+
+- Policy
+
+  Dec 19, 2025
+
+  [Sharing our compliance framework for California's Transparency in Frontier AI Act](https://www.anthropic.com/news/compliance-framework-SB53)
+
+[View more](https://www.anthropic.com/search?topic=transparency)
 
 Frontier AI development [needs greater transparency](https://www.nytimes.com/2025/06/05/opinion/anthropic-ceo-regulate-transparency.html) to ensure public safety and accountability for the companies developing this powerful technology. AI is advancing rapidly. While industry, governments, academia, and others work to develop agreed-upon safety standards and comprehensive evaluation methods—a process that could take months to years—we need interim steps to ensure that very powerful AI is developed securely, responsibly, and transparently.
 
@@ -14,7 +32,7 @@ We are therefore proposing a [targeted transparency framework](https://www-cdn.a
 
 Our approach deliberately avoids being heavily prescriptive. We recognize that as the science of AI continues to evolve, any regulatory effort must remain lightweight and flexible. **It should not impede AI innovation, nor should it slow our ability to realize AI's benefits—including lifesaving drug discovery, swift delivery of public benefits, and critical national security functions.** Rigid government-imposed standards would be especially counterproductive given that evaluation methods [become outdated within months](https://hai.stanford.edu/news/ai-benchmarks-hit-saturation) due to the pace of technological change.
 
-## Minimum Standards for AI Transparency
+### Minimum Standards for AI Transparency
 
 Below are the core tenets we believe should guide AI transparency policy:
 
@@ -30,23 +48,3 @@ This transparency approach sheds light on industry best practices for safety and
 Views differ on whether and when AI models could pose catastrophic risks. Transparency requirements for Secure Development Frameworks and system cards could help give policymakers the evidence they need to determine if further regulation is warranted, as well as provide the public with important information about this powerful new technology.
 
 As models advance, we have an unprecedented opportunity to accelerate scientific discovery, healthcare, and economic growth. Without safe and responsible development, a single catastrophic failure could halt progress for decades. **Our [proposed transparency framework](https://www-cdn.anthropic.com/19cc4bf9eb6a94f9762ac67368f3322cf82b09fe.pdf) offers a practical first step:** public visibility into safety practices while preserving private sector agility to deliver AI's transformative potential.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

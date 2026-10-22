@@ -1,10 +1,29 @@
-AnnouncementsProduct
-
 # Accenture and Anthropic launch multi-year partnership to move enterprises from AI pilots to production
 
-Dec 9, 2025
+- Published
 
-![Accenture and Anthropic launch multi-year partnership to move enterprises from AI pilots to production](https://www-cdn.anthropic.com/images/4zrzovbb/website/225a673c4c38ae4b0d89639836c93b27e363f185-1000x1000.svg)
+  Dec 9, 2025
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Financial services](https://www.anthropic.com/search?topic=financial-services)
+  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+  - [Productivity](https://www.anthropic.com/search?topic=productivity)See more...
+
+Related articles
+
+- Announcements
+
+  Oct 1, 2026
+
+  [Barclays scales Claude to upgrade operations and improve client experience](https://www.anthropic.com/news/barclays-scales-claude)
+
+[View more](https://www.anthropic.com/search?topic=partnerships)
 
 Anthropic and Accenture today announced a major expansion of their partnership to help enterprises move from AI pilots to full-scale deployment. Key elements of the announcement:
 
@@ -20,7 +39,7 @@ The announcement comes as Anthropic's enterprise market share has grown from 24%
 
 “This exciting expansion of our partnership with Anthropic will help our clients accelerate the shift from experimenting with AI to using it as a catalyst for reinvention across the enterprise,” said **Julie Sweet, Chair and CEO**, Accenture. “With the powerful combination of Anthropic’s Claude capabilities and Accenture’s AI expertise and industry and function domain knowledge, organizations can embed AI everywhere responsibly and at speed—from software development to customer experience—to drive innovation, unlock new sources of growth and build their confidence to lead in the age of AI.”
 
-## **Introducing the Accenture Anthropic Business Group**
+### Introducing the Accenture Anthropic Business Group
 
 The new Accenture Anthropic Business Group makes Anthropic one of Accenture’s select strategic partners. Accenture Business Groups are dedicated practices built around Accenture’s most important technology partnerships. Each has its own teams, go-to-market focus, and specialized expertise, reflecting the depth of investment and long-term commitment involved.
 
@@ -28,7 +47,7 @@ Approximately 30,000 Accenture professionals that will be trained on Claude, inc
 
 For Accenture’s enterprise customers, this means faster deployment with less risk. Instead of building AI capabilities from scratch, companies can tap into a ready-made bench of Claude experts to move from pilot to production immediately.
 
-## **Launching a product to help CIOs put Claude Code at the center of software development**
+### Launching a product to help CIOs put Claude Code at the center of software development
 
 Accenture and Anthropic are launching a new joint offering designed for CIOs to measure value and drive large-scale AI adoption across their engineering organizations. This is the first product from the partnership, providing a structured path to shift how enterprise software is designed, built, and maintained.
 
@@ -36,7 +55,7 @@ The offering puts Claude Code, which now holds over half\* of the AI coding mark
 
 Claude Code accelerates developer productivity at every level. Junior developers produce senior-level code, completing integration tasks faster and onboarding in weeks instead of months. Senior developers shift to higher-value work, including architecture, validation, and strategic oversight.
 
-## **Building AI offerings for regulated industries**
+### Building AI offerings for regulated industries
 
 Accenture and Anthropic are jointly developing industry offerings with an initial focus on highly regulated industries—including financial services, life sciences, healthcare, and public sector—where organizations face the dual challenge of modernizing legacy systems while maintaining strict security and governance requirements. For example:
 
@@ -44,7 +63,7 @@ Accenture and Anthropic are jointly developing industry offerings with an initia
 - Health and life sciences: Accenture’s expertise in life sciences R&D combined with Claude’s analytical capabilities helps researchers query proprietary datasets, generate experimental protocols, and streamline clinical trial processing.
 - Public sector: AI agents that help citizens navigate complex government services—providing accurate, accessible support while maintaining data privacy and compliance with statutory requirements.
 
-## **A partnership built on shared values**
+### A partnership built on shared values
 
 The partnership is grounded in a shared commitment to responsible AI, combining Anthropic's constitutional AI principles with Accenture's AI governance expertise so that enterprises can use AI safely with confidence, transparency, and accountability.
 
@@ -52,28 +71,8 @@ To support hands-on engagement with the world's largest enterprises, Accenture i
 
 Anthropic and Accenture will also co-invest in a Claude Center of Excellence inside Accenture, creating a dedicated environment for the joint design of new AI offerings tailored to specific enterprise needs, industry requirements, and regulatory contexts.
 
-## **Getting started**
+### Getting started
 
 Accenture clients can contact their account team to discuss deployment options. Enterprises can visit our [Enterprise page](https://www.anthropic.com/enterprise) to learn more about Claude. Claude is the only frontier model available on all three of the world's most prominent cloud services, including Amazon Bedrock, Google Cloud Vertex AI, and Microsoft Azure.
 
 *\*[Menlo Ventures’ 2025 State of Generative AI in the Enterprise report](https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/)*
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

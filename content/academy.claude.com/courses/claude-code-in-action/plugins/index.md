@@ -33,7 +33,7 @@ Where the plugin lives decides how you install it. Inside a session, you can ins
 
 `/plugin install github@claude-plugins-official`
 
-Claude Code installs it and prints a short summary. Either it says the plugin is already active in this session, or it mentions `/reload-plugins` and Claude Code runs that reload for you. You step in only if the reload warns that your next message would re-read the whole conversation: run `/reload-plugins --force` to activate the plugin anyway.
+The command opens the plugin's details first, so you can review it and choose a scope. Then Claude Code installs it and prints a short summary. Either it says the plugin is already active in this session, or it mentions `/reload-plugins` and Claude Code runs that reload for you. You step in only if the reload warns that your next message would re-read the whole conversation: run `/reload-plugins --force` to activate the plugin anyway.
 
 ## Adding a marketplace for your team[](https://academy.claude.com/courses/claude-code-in-action/plugins)
 

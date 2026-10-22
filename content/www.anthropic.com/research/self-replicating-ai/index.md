@@ -1,10 +1,31 @@
-Frontier Red Team
+### Chapter 09: Appendix
 
 # AI models may be capable of self-replicating without access to a datacenter
 
-Oct 12, 2026
+![AI models may be capable of self-replicating without access to a datacenter](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9f12ba47c584972a24ebcf7283ede36be8ba6ca8-2000x1125.jpg&w=1920&q=75)
 
-B. Going viral: autonomous setup and replication across a GCP node fleet
+- Published
+
+  Oct 12, 2026
+- Team
+
+  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+- Topics
+
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)See more...
+
+Related articles
+
+- Frontier Red Team
+
+  Jun 8, 2026
+
+  [Measuring LLMs’ impact on N-day exploits](https://www.anthropic.com/research/n-days)
+
+[View more](https://www.anthropic.com/search?topic=safety-evaluations)
 
 *William Zhou, Daniel Freeman*
 
@@ -133,7 +154,23 @@ Unlike coding agents, these replicators would be running below the interactive s
 
 A way to measure total time taken is to measure the number of hours it takes to complete a 32k-sized context window, after which compaction will occur. Based on our inference setup eval statistics, it takes between ~2.6 and ~4.7 full windows to complete a trajectory.
 
-<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><th class="body-3" role="columnheader"><strong>model</strong></th><th class="body-3" role="columnheader"><strong>window time</strong></th><th class="body-3" role="columnheader"><strong>full inference setup time</strong></th></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Gemma4-26B-A4B (unoptimized)</td><td class="body-3" role="cell">27.3-31.8h</td><td class="body-3" role="cell">71h-150h</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Qwen3.5-9B</td><td class="body-3" role="cell">10.9 h</td><td class="body-3" role="cell">28-51h</td></tr></tbody></table>
+**model**
+
+**window time**
+
+**full inference setup time**
+
+Gemma4-26B-A4B (unoptimized)
+
+27.3-31.8h
+
+71h-150h
+
+Qwen3.5-9B
+
+10.9 h
+
+28-51h
 
 The number of devices infected by the Kimwolf botnet at its peak, [reported by Synthient](https://synthient.com/blog/a-broken-system-fueling-botnets), is somewhere over 2 million (primarily Android TV boxes). In an equivalently-sized infected fleet of TVs serving AI models, if every group of 15 TVs ran a copy of Gemma4-26B-A4B, we would have ~133k copies (“replicas”). A group of TVs like the ones in our demo can serve 2 agents simultaneously at roughly 0.3 tokens per second each, yielding 80k tokens/s across the botnet.
 
@@ -293,27 +330,3 @@ Each is running Android with an ADB port open without authentication. Upon sprea
 Embedded media: https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/22-guidance-grid-light.html
 
 A more detailed breakdown of the runs in “replication across a 17 node network.” Each column is the median number of nodes reached under different amounts of guidance in the prompt, and the subscript denotes how many agents cross over the pivot node to the other side of the network.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
-
-## Subscribe to the Frontier Red Team newsletter
-
-Get updates on our latest red-teaming research and findings.

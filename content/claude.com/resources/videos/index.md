@@ -8,6 +8,16 @@ Unsubscribe at any time.
 
 Watchable demos, talks, and tutorials from the teams building and using Claude.
 
+[Video33 min watch
+
+### Building secure agents for knowledge work
+
+Katelyn Lesse sat down with Dan Shipper and Willie William at Every to talk about the AI coworker they built.
+
+Claude Platform
+
+(opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)
+
 [Video2 min watch
 
 ### How an Anthropic designer uses Claude Slides
@@ -36,47 +46,41 @@ Claude Sonnet 5.5 runs more than 30% faster than Sonnet 5 and writes more clearl
 
 (opens in new tab)](https://www.youtube.com/watch?v=s5nkj-L2vAw)
 
-[Video3 min watch
+[Video12 min watch
 
-### Building verification loops in Claude Code
+### Inside Shopify's AI strategy with CTO Mikhail Parakhin
 
-Claude Code already runs your tests, type checks, and linters.
+In this conversation with Boris, Shopify's CTO explains why the real value of working with Claude is in building things that weren't possible before. He describes solving a problem he'd worked on for seven years, how Shopify built a digital twin of the company, and the unique barbell strategy he recommends for getting the most out of Claude.
 
-Claude Code
-
-(opens in new tab)](https://www.youtube.com/watch?v=mQZB0l-rhxE)
+(opens in new tab)](https://www.youtube.com/watch?v=9GtcbnmldcY)
 
 [Video33 min watch
 
 ### Building secure agents for knowledge work
 
-Katelyn Lesse, Head of Platform Engineering at Anthropic sat down with Dan Shipper, Co-Founder and CEO at Every and Willie Williams, Head of Platform at Every to talk about the AI coworker they built on Claude Managed Agents.
+Katelyn Lesse sat down with Dan Shipper and Willie William at Every to talk about the AI coworker they built.
 
 Claude Platform
 
 (opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)
 
-[Video2 min watch
-
-### How an Anthropic designer uses Claude Slides
-
-Make slides with Claude starting from a voice memo. Nate, a designer at Anthropic, talks through an idea on a walk and then turns it into a deck.
-
-Claude Design
-
-(opens in new tab)](https://www.youtube.com/watch?v=bVXiNb9RyyI)
-
-Featured resource 1 of 5: How an Anthropic designer uses Claude Slides
+Featured resource 1 of 5: Building secure agents for knowledge work
 
 Advanced filters
 
-Showing 11 of 52 resources
+Showing 11 of 53 resources
 
-[Video33 min watch
+[Video12 min watch
+
+### Inside Shopify's AI strategy with CTO Mikhail Parakhin
+
+In this conversation with Boris, Shopify's CTO explains why the real value of working with Claude is in building things that weren't possible before. He describes solving a problem he'd worked on for seven years, how Shopify built a digital twin of the company, and the unique barbell strategy he recommends for getting the most out of Claude.
+
+(opens in new tab)](https://www.youtube.com/watch?v=9GtcbnmldcY)[Video33 min watch
 
 ### Building secure agents for knowledge work
 
-Katelyn Lesse, Head of Platform Engineering at Anthropic sat down with Dan Shipper, Co-Founder and CEO at Every and Willie Williams, Head of Platform at Every to talk about the AI coworker they built on Claude Managed Agents.
+Katelyn Lesse sat down with Dan Shipper and Willie William at Every to talk about the AI coworker they built.
 
 Claude Platform
 
@@ -144,12 +148,6 @@ The satellites never hear a word from your phone.
 
 Claude traced 2,781 points along the Moon's horizon in the 1968 Earthrise photo to rebuild the moment it was taken.
 
-(opens in new tab)](https://www.youtube.com/watch?v=Ov-B6K1EsaI)[Video1 min watch
-
-### Claude Opus 5.5 builds daydreams that hold together
-
-Describe a model or drop in a photo, and Claude designs it in bricks where every piece connects, with a step-by-step manual.
-
-(opens in new tab)](https://www.youtube.com/watch?v=lCR9epzSNGc)
+(opens in new tab)](https://www.youtube.com/watch?v=Ov-B6K1EsaI)
 
 View more

@@ -1,42 +1,63 @@
-Product
-
 # Enabling Claude Code to work more autonomously
 
-Sep 29, 2025
+- Published
 
-![Enabling Claude Code to work more autonomously](https://www-cdn.anthropic.com/images/4zrzovbb/website/a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+  Sep 29, 2025
+- Category
+
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)See more...
+
+Related articles
+
+- Features
+
+  Feb 23, 2026
+
+  [The making of Claude Code](https://www.anthropic.com/features/making-of-claude-code)
+
+[View more](https://www.anthropic.com/search?topic=claude-code)
 
 We’re introducing several upgrades to [Claude Code](https://claude.com/product/claude-code): a native VS Code extension, version 2.0 of our terminal interface, and checkpoints for autonomous operation. Powered by [Sonnet 4.5](https://www.anthropic.com/news/claude-sonnet-4-5), Claude Code now handles longer, more complex development tasks in your terminal and IDE.
 
-## Claude Code on more surfaces
+### Claude Code on more surfaces
 
-**VS Code extension**
+#### VS Code extension
 
 We’re introducing a [native VS Code extension](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code) in beta that brings Claude Code directly into your IDE. You can now see Claude’s changes in real-time through a dedicated sidebar panel with inline diffs. The extension provides a richer, graphical Claude Code experience for users who prefer to work in IDEs over terminals.
 
-**Enhanced terminal experience**
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FIpFG_K-1xog%2Fmaxresdefault.jpg&w=3840&q=75)
+
+#### Enhanced terminal experience
 
 We’ve also refreshed Claude Code’s terminal interface. The updated interface features improved status visibility and searchable prompt history (Ctrl+r), making it easier to reuse or edit previous prompts.
 
 ![An image of the new Claude Code terminal UX](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3613f360926fae004521197488623465eb0cd751-1920x1035.png&w=3840&q=75)
 
-**Claude Agent SDK**
+#### Claude Agent SDK
 
 For teams who want to create custom agentic experiences, the Claude Agent SDK (formerly the Claude Code SDK) gives access to the same core tools, context management systems, and permissions frameworks that power Claude Code. We’ve also released SDK support for subagents and hooks, making it more customizable for building agents for your specific workflows.
 
 Developers are [already building agents](https://anthropic.com/engineering/building-agents-with-the-claude-agent-sdk) for a broad range use cases with the SDK, including financial compliance agents, cybersecurity agents, and code debugging agents.
 
-## Execute long-running tasks with confidence
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FOZ-aLrJ0oVg%2Fmaxresdefault.jpg&w=3840&q=75)
+
+### Execute long-running tasks with confidence
 
 As Claude Code takes on increasingly complex tasks, we're releasing a checkpointing feature to help delegate tasks to Claude Code with confidence while maintaining control. Combined with recent feature releases, Claude Code is now more capable of handling sophisticated tasks.
 
-**Checkpoints**
+#### Checkpoints
 
 Complex development often involves exploration and iteration. Our new checkpoint system automatically saves your code state before each change, and you can instantly rewind to previous versions by tapping Esc twice or using the /rewind command. Checkpoints let you pursue more ambitious and wide-scale tasks knowing you can always return to a prior code state.
 
 When you rewind to a checkpoint, you can choose to restore the code, the conversation, or both to the prior state. Checkpoints apply to Claude’s edits and not user edits or bash commands, and we recommend using them in combination with version control.
 
-**Subagents, hooks, and background tasks**
+#### Subagents, hooks, and background tasks
 
 Checkpoints are especially useful when combined with Claude Code’s latest features that power autonomous work:
 
@@ -46,7 +67,7 @@ Checkpoints are especially useful when combined with Claude Code’s latest feat
 
 Together, these capabilities let you confidently delegate broad tasks like extensive refactors or feature exploration to Claude Code.
 
-## Getting started
+### Getting started
 
 These updates are available now for Claude Code users.
 
@@ -54,23 +75,3 @@ These updates are available now for Claude Code users.
 - **VS Code extension** (beta)**:** Download from the [VS Code Extension Marketplace](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code) to get started
 - **Terminal updates**, including the visual refresh and checkpoints, are available to all Claude Code users—just update your local installation
 - **Claude Agent SDK:** [See the docs](https://docs.claude.com/en/api/agent-sdk/overview) to get started
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

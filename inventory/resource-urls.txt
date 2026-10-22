@@ -1193,6 +1193,7 @@ https://claude.com/resources/articles/claude-code-on-the-web
 https://claude.com/resources/articles/claude-code-plugins
 https://claude.com/resources/articles/claude-code-remote-mcp
 https://claude.com/resources/articles/claude-design-stays-on-brand-for-daily-work
+https://claude.com/resources/articles/claude-duet
 https://claude.com/resources/articles/claude-enterprise-inference-hooks
 https://claude.com/resources/articles/claude-excel-powerpoint-updates
 https://claude.com/resources/articles/claude-for-chrome
@@ -1219,6 +1220,7 @@ https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-
 https://claude.com/resources/articles/claude-platform-compliance-api
 https://claude.com/resources/articles/claude-platform-on-aws
 https://claude.com/resources/articles/claude-powered-artifacts
+https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes
 https://claude.com/resources/articles/claude-security-public-beta
 https://claude.com/resources/articles/claude-tag-now-reads-even-more-of-the-room
 https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels
@@ -1266,6 +1268,7 @@ https://claude.com/resources/articles/getting-started-with-loops
 https://claude.com/resources/articles/giving-admins-more-visibility-and-control-over-claude-usage-and-spend
 https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia
 https://claude.com/resources/articles/harnessing-claudes-intelligence
+https://claude.com/resources/articles/hcltech-joins-claude-partner-network
 https://claude.com/resources/articles/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks
 https://claude.com/resources/articles/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents
 https://claude.com/resources/articles/how-ai-helps-break-cost-barrier-cobol-modernization
@@ -3474,6 +3477,7 @@ https://platform.claude.com/docs/en/api/messages/create
 https://platform.claude.com/docs/en/api/messages/create?sdk_languages=curl
 https://platform.claude.com/docs/en/api/messages?sdk_languages=curl
 https://platform.claude.com/docs/en/api/messages?sdk_languages=http
+https://platform.claude.com/docs/en/api/migration-2026-10-21
 https://platform.claude.com/docs/en/api/models
 https://platform.claude.com/docs/en/api/models-list
 https://platform.claude.com/docs/en/api/models/list
@@ -4664,6 +4668,12 @@ https://support.claude.com/en/articles/17457950-use-artifacts-with-a-keyboard-or
 https://support.claude.com/en/articles/17458093
 https://support.claude.com/en/articles/17458093-claude-docs-keyboard-shortcuts
 https://support.claude.com/en/articles/17603594-free-code-review-promotional-credits-for-claude-enterprise
+https://support.claude.com/en/articles/17631495
+https://support.claude.com/en/articles/17631495-get-started-with-claude-duet
+https://support.claude.com/en/articles/17666484
+https://support.claude.com/en/articles/17666484-how-to-use-link-by-stripe-with-claude-duet
+https://support.claude.com/en/articles/17666489
+https://support.claude.com/en/articles/17666489-how-to-use-shop-pay-with-claude-duet
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer
@@ -4991,6 +5001,7 @@ https://www.anthropic.com/news/charting-a-path-to-ai-accountability
 https://www.anthropic.com/news/child-safety-principles
 https://www.anthropic.com/news/chris-liddell-appointed-anthropic-board
 https://www.anthropic.com/news/chris-olah-pope-leo-encyclical
+https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust
 https://www.anthropic.com/news/claude-2
 https://www.anthropic.com/news/claude-2-1
 https://www.anthropic.com/news/claude-3-5-sonnet

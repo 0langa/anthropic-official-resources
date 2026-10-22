@@ -1,16 +1,35 @@
-AnnouncementsBeneficial Deployments
-
 # Anthropic and Teach For All launch global AI training initiative for educators
 
-Jan 21, 2026
+- Published
 
-![Anthropic and Teach For All launch global AI training initiative for educators](https://www-cdn.anthropic.com/images/4zrzovbb/website/77dd9077412abc790bf2bc6fa3383b37724d6305-1000x1000.svg)
+  Jan 21, 2026
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Education](https://www.anthropic.com/search?topic=education)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Nonprofits](https://www.anthropic.com/search?topic=nonprofits)
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+  - [Access](https://www.anthropic.com/search?topic=access)
+  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+
+Related articles
+
+- Announcements
+
+  Feb 16, 2026
+
+  [Anthropic opens Bengaluru office and announces new partnerships across India](https://www.anthropic.com/news/bengaluru-office-partnerships-across-india)
+
+[View more](https://www.anthropic.com/search?topic=education)
 
 Anthropic is partnering with Teach For All to bring AI tools and training to educators in 63 countries. Through the AI Literacy & Creator Collective (LCC), more than 100,000 teachers and alumni across Teach For All's network—which serves more than 1.5 million students—will have the opportunity to develop AI fluency and adapt Claude to serve real classroom needs.
 
 Building on the approach pioneered by Teach For America, Teach For All is a global network of independent organizations working to expand educational opportunity. Over the past 15 years, it has grown into one of the world's largest and most respected communities of educators serving students in under-resourced schools. Its network spans organizations like Teach For India, Enseña Chile, and Teach For Nigeria—each locally led but connected through a common mission and cross-network collaboration.
 
-## **Built on shared learning**
+### Built on shared learning
 
 What makes this partnership distinctive is its approach. Teachers are positioned not as passive consumers of AI tools, but as co-architects shaping how AI develops. Through the AI LCC, Anthropic provides access to Claude, while educators provide on-the-ground feedback to inform how the product evolves.
 
@@ -18,13 +37,13 @@ What makes this partnership distinctive is its approach. Teachers are positioned
 
 "The combination of real-world experience from the Teach For All network and technical insights from Anthropic has provided a fabulous learning opportunity," said Michael Gilmore, COO of Teach for Australia. "We look forward to continuing participation in 2026."
 
-## **What teachers are building**
+### What teachers are building
 
-One teacher in Liberia, new to AI, attended the AI LCC's live trainings on AI fluency. Within weeks, he had built an [interactive climate education curriculum](https://claude.ai/redirect/website.v1.96d76f20-a3a1-408a-9897-68e35b3ff1e0/public/artifacts/5a020adb-ab65-4637-bcf0-79e6d20c58d2) for Liberian schools using Claude Artifacts: interactive tools like apps, games, or visualizations that Claude can build on the spot.
+One teacher in Liberia, new to AI, attended the AI LCC's live trainings on AI fluency. Within weeks, he had built an [interactive climate education curriculum](https://claude.ai/public/artifacts/5a020adb-ab65-4637-bcf0-79e6d20c58d2) for Liberian schools using Claude Artifacts: interactive tools like apps, games, or visualizations that Claude can build on the spot.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8e2e99d8b3534d5e1c4dcc950b1b0e0bbcd768cd-1920x1080.png&w=3840&q=75)
 
-In Bangladesh, a teacher working with Grade 6 and 7 students—over half of whom struggled with basic numeracy—built a [gamified math learning app](https://claude.ai/redirect/website.v1.96d76f20-a3a1-408a-9897-68e35b3ff1e0/public/artifacts/e94bf439-b3a6-4087-87f2-dee5d8de99d8) complete with boss battles, a leaderboard, and XP rewards.
+In Bangladesh, a teacher working with Grade 6 and 7 students—over half of whom struggled with basic numeracy—built a [gamified math learning app](https://claude.ai/public/artifacts/e94bf439-b3a6-4087-87f2-dee5d8de99d8) complete with boss battles, a leaderboard, and XP rewards.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8745b5fa855dfeca249bdd8b7696b5440da72ac7-1920x1080.png&w=3840&q=75)
 
@@ -34,7 +53,7 @@ The pattern is consistent across the network: teachers who know their students b
 
 The impact extends beyond individual classrooms to leadership as well. "The partnership has connected us with a community of organizations navigating similar technical opportunities, and there's been significant learning around responsible AI implementation," said Oscar Onuoha, IT Lead at Teach For Nigeria. "We're grateful to Anthropic for their commitment to supporting non-profits as we explore these emerging technologies."
 
-## **How the AI Literacy and Creator Collective works**
+### How the AI Literacy and Creator Collective works
 
 The collective operates through three interconnected programs.
 
@@ -44,34 +63,14 @@ Claude Connect is the community's ongoing learning hub—more than 1,000 educato
 
 Claude Lab is for educators interested in going further. This innovation space gives teachers Claude Pro access to test practical implementations with advanced features. Participants have monthly office hours with the Anthropic team and the opportunity to directly inform Claude's product roadmap. Within four days of announcing the program, we received over 200 applications.
 
-## **Building on Anthropic's education work**
+### Building on Anthropic's education work
 
 This partnership builds on our growing work with educators and governments worldwide. In Iceland, we launched one of the world's first comprehensive national AI education pilots. In Rwanda, we partnered with the government and ALX to bring AI education to hundreds of thousands of learners across Africa. And through initiatives like our participation in the White House Taskforce on AI Education, we're working to ensure students and educators across America develop practical AI skills.
 
-## **Looking forward**
+### Looking forward
 
 As AI transforms how knowledge is created and shared, teachers will be essential guides for students navigating this transition. The educators in this partnership are already showing what's possible: a climate curriculum built in Liberia, a math game designed in Bangladesh, and digital workspaces taking shape in Argentina.
 
 This is our commitment—ensuring that educators in every community, not just the most well-resourced, can shape and benefit from AI's potential.
 
 For more on Anthropic's education initiatives, [see here](https://claude.com/solutions/education).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

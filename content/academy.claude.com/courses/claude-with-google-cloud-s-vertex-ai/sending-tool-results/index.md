@@ -1,4 +1,4 @@
-Lesson 26 of 66 · Claude with Google Cloud's Vertex AISending tool results
+Lesson 26 of 66 · Claude on Google CloudSending tool results
 
 # Sending tool results
 

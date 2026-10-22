@@ -1,4 +1,4 @@
-Lesson 24 of 66 · Claude with Google Cloud's Vertex AITool schemas
+Lesson 24 of 66 · Claude on Google CloudTool schemas
 
 # Tool schemas
 

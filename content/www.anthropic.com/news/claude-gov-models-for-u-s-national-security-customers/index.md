@@ -1,10 +1,27 @@
-Announcements
-
 # Claude Gov models for U.S. national security customers
 
-Jun 6, 2025
+- Published
 
-![Claude Gov models for U.S. national security customers](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa4b4c0066fe7b5761115569317b97259567e207c-1920x1079.png&w=3840&q=75)
+  Jun 6, 2025
+- Category
+
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [National security](https://www.anthropic.com/search?topic=national-security)
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+  - [Access](https://www.anthropic.com/search?topic=access)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+
+Related articles
+
+- Policy
+
+  Sep 4, 2025
+
+  [Updating restrictions of sales to unsupported regions](https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions)
+
+[View more](https://www.anthropic.com/search?topic=national-security)
 
 We’re introducing a custom set of Claude Gov models built exclusively for U.S. national security customers. The models are already deployed by agencies at the highest level of U.S. national security, and access to these models is limited to those who operate in such classified environments.
 
@@ -18,23 +35,3 @@ U.S. national security customers may choose to use our AI systems for a wide ran
 - Improved understanding and interpretation of complex cybersecurity data for intelligence analysis
 
 This builds on our commitment to bring responsible and safe AI solutions to our U.S. national security customers, with custom models that are built to address the unique needs of classified environments. To learn more about the Claude Gov models and see how they can support your agency's mission, you can reach our public sector team at [pubsec@anthropic.com](mailto:pubsec@anthropic.com).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

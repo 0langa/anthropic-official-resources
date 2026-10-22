@@ -143,7 +143,7 @@ A simple, one-line change often needs a quick glance at the diff and nothing els
 
 Read more Is this the same as Claude Code Review?
 
-No. [Claude Code Review(opens in new tab)](https://code.claude.com/docs/en/code-review) is a separate product for teams: an admin turns it on for a GitHub repository, and it posts its findings on pull requests. Nothing in this lesson needs it.
+No. [Claude Code Review(opens in new tab)](https://code.claude.com/docs/en/code-review) is a separate product for teams: an Owner of your Claude organization turns it on for a GitHub repository, and it posts its findings on pull requests. Nothing in this lesson needs it.
 
 ## Try it: sort the four findings[](https://academy.claude.com/courses/claude-code-101/code-review)
 

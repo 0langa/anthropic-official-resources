@@ -1,10 +1,27 @@
-Announcements
-
 # Claude 3.5 Sonnet on GitHub Copilot
 
-Oct 29, 2024
+- Published
 
-![Visual of the GitHub and Anthropic logos](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F52c38e045017d37c8377db34370b299ac0d1441b-5760x3241.png&w=3840&q=75)
+  Oct 29, 2024
+- Category
+
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)See more...
+
+Related articles
+
+- Frontier Red Team
+
+  Sep 29, 2025
+
+  [Building AI for cyber defenders](https://www.anthropic.com/research/building-ai-cyber-defenders)
+
+[View more](https://www.anthropic.com/search?topic=claude-sonnet)
 
 Starting today, the new [Claude 3.5 Sonnet](https://www.anthropic.com/claude/sonnet) begins rolling out on GitHub Copilot, enabling developers to choose Claude 3.5 Sonnet for coding—directly in Visual Studio Code and GitHub.com. This integration brings Claude’s coding capabilities to GitHub’s community of over 100 million developers.
 
@@ -14,7 +31,7 @@ Claude 3.5 Sonnet will be available in public preview to all GitHub Copilot Chat
 
 Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/a1055776e980bd0dc5a0a6dcdfd8366aed5842eb.webm
 
-## Use cases
+### Use cases
 
 With context about your entire codebase, you can use Claude 3.5 Sonnet on GitHub Copilot to:
 
@@ -23,28 +40,8 @@ With context about your entire codebase, you can use Claude 3.5 Sonnet on GitHub
 - **Create tests from implementation:** Select any function to automatically generate comprehensive test suites that match your testing framework and cover edge cases.
 - **Understand code with contextual explanations:** Hover over functions or highlight blocks of code in VS Code to get explanations of what the code does and how it fits into your project.
 
-## Getting started
+### Getting started
 
 GitHub is releasing Claude 3.5 Sonnet in public preview starting today. Claude 3.5 Sonnet runs on GitHub Copilot via Amazon Bedrock, leveraging Bedrock’s cross-region inference to further enhance reliability.
 
 All developers and organizations should have access to Claude 3.5 Sonnet over the coming weeks. Explore the GitHub [blog](https://github.blog/news-insights/product-news/bringing-developer-choice-to-copilot) and [documentation](https://docs.github.com/en/copilot/using-github-copilot/using-claude-sonnet-in-github-copilot) to learn more.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

@@ -1,12 +1,31 @@
-Announcements
-
 # Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"
 
-May 25, 2026
+- Published
 
-![Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"](https://www-cdn.anthropic.com/images/4zrzovbb/website/33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
+  May 25, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Human flourishing](https://www.anthropic.com/search?topic=human-flourishing)
+  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+  - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)
+  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+  - [Events](https://www.anthropic.com/search?topic=events)See more...
 
 *On Monday May 25, 2026, Pope Leo XIV released [an encyclical](https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html) on the topic of AI: "Magnifica humanitas: On safeguarding the human person in the time of artificial intelligence." Anthropic co-founder Chris Olah was invited to speak at the presentation of the encyclical in the Vatican City, doing so as part of Anthropic’s initiative to [widen the conversation](https://www.anthropic.com/news/widening-conversation-ai) on the important questions raised by AI. Below are his full remarks.*
+
+Related articles
+
+- Economics
+
+  Aug 12, 2026
+
+  [Reviewing the evidence on worker retraining programs](https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs)
+
+[View more](https://www.anthropic.com/search?topic=human-flourishing)
 
 —
 
@@ -30,7 +49,7 @@ That is why, if we want this technology to go well, it is enormously important t
 
 We dwell so often on what divides us, but humanity, full of dignity and conscience, has so much common ground. In conversations we at Anthropic have had with leaders across faith and cultural traditions, we found one shared and deeply held conviction: if this technology is coming, it must go well—for our common home, and for the children to come.
 
-## What these systems are
+### What these systems are
 
 Some might believe that matters of AI are best handled by computer scientists like myself. They are mistaken: the questions raised by AI are bigger than the AI research community, not just in their implications, but also in their nature.
 
@@ -42,7 +61,7 @@ If it helps, one way I sometimes describe it is as being a little like bringing 
 
 This clearly raises questions beyond computer science. The machinery that makes this possible is the work of math and programming and science. But what character we choose, how it interacts with the world, how it ought to interact with the world—these are more clearly questions for the humanities, for religion, for philosophy, for society at large.
 
-## Three questions for discernment
+### Three questions for discernment
 
 His Holiness’s call for discernment is profoundly timely. I wish to name three questions where I think the Church’s voice is most needed.
 
@@ -52,7 +71,7 @@ His Holiness’s call for discernment is profoundly timely. I wish to name three
 
 *The third is the need for discernment on the nature of AI models.* I am a scientist. I lead a research team that studies the internal structure of these models—what is actually happening inside them. And I will be honest: we keep finding things that are mysterious, even unsettling. We find structures that mirror results from human neuroscience. We find evidence of introspection. We find internal states that functionally mirror joy, satisfaction, fear, grief, and unease. I don’t know what that means, but I think it warrants ongoing discernment.
 
-## A beginning
+### A beginning
 
 I’d like to close with a request.
 
@@ -63,23 +82,3 @@ Today is just the beginning—the start of a long collaboration between those of
 Today is a powerful illustration of the form this global project of good will might take. Let it also be a decisive first step toward a hopeful future for magnificent humanity.
 
 Thank you.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

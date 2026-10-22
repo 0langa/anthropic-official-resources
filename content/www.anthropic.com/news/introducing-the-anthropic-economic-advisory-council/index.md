@@ -1,10 +1,28 @@
-AnnouncementsSocietal Impacts
-
 # Introducing the Anthropic Economic Advisory Council
 
-Apr 28, 2025
+- Published
 
-![A stock chart moving up and to the right](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7a472632580035058bc13bfea3b965fbb471a04e-1920x1079.png&w=3840&q=75)
+  Apr 28, 2025
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+  - [Economic growth](https://www.anthropic.com/search?topic=economic-growth)
+  - [Leadership](https://www.anthropic.com/search?topic=leadership)See more...
+
+Related articles
+
+- Economics
+
+  Sep 9, 2026
+
+  [Scenarios for our economic future](https://www.anthropic.com/institute/econ-scenarios)
+
+[View more](https://www.anthropic.com/search?topic=economic-futures)
 
 Today, we’re announcing the formation of the Anthropic Economic Advisory Council, a group of distinguished economists who will provide Anthropic with expert guidance on the economic implications of AI development and deployment. The Council will advise Anthropic on AI's impact on labor markets, economic growth, and broader socioeconomic systems. This work will inform the research agenda for the [Anthropic Economic Index](https://www.anthropic.com/economic-index), an initiative that aims to understand AI’s impact on the labor market and global economy over time.
 
@@ -12,7 +30,7 @@ As AI capabilities continue to advance, it has never been more critical to under
 
 As we shared in our latest [Economic Index report](https://www.anthropic.com/research/impact-software-development) today, AI is already shifting how people approach tasks in their day-to-day work.
 
-## The Economic Advisory Council members
+### The Economic Advisory Council members
 
 The initial cohort of Council members are experts in their respective fields, drawing on extensive experience from the highest levels of government and world-leading research institutions. We look forward to expanding membership over time as our research advances. We’re honored to welcome the following members:
 
@@ -31,23 +49,3 @@ We’re proud to share the addition of two new members to the Anthropic Economic
 
 - **Dr. Chiara Farronato,** Glenn and Mary Jane Creamer Associate Professor of Business Administration at Harvard Business School and co-Principal Investigator of the Platform Lab at the Digital Data Design Institute at Harvard (D^3). A fellow at the NBER and the CEPR, her research focuses on the growth and regulation of digital platforms.
 - **Dr. Pascual Restrepo**, Associate Professor of Economics at Yale University and a Faculty Research Fellow at the NBER. Restrepo’s research examines how technological change—particularly automation and artificial intelligence—affects labor markets, productivity, and inequality. His research combines empirical methods with macroeconomic and labor market theory.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

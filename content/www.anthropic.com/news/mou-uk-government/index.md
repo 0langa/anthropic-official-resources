@@ -1,10 +1,27 @@
-Announcements
-
 # Anthropic signs MOU with UK Government to explore how AI can transform UK public services
 
-Feb 14, 2025
+- Published
 
-![A hand-drawn image of a hand signing a piece of paper with a quill pen](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0809e7dba720790bc67fc2e244cd90ffccd024a6-1920x1079.png&w=3840&q=75)
+  Feb 14, 2025
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+
+Related articles
+
+- Partnerships
+
+  Feb 17, 2026
+
+  [Anthropic and the Government of Rwanda sign MOU for AI in health and education](https://www.anthropic.com/news/anthropic-rwanda-mou)
+
+[View more](https://www.anthropic.com/search?topic=government-capacity)
 
 Artificial Intelligence has the potential to transform how governments operate, driving efficiency and accessibility and revolutionizing the delivery of digital services to citizens worldwide.
 
@@ -18,7 +35,7 @@ DSIT and Anthropic plan to deepen their partnership by exploring additional oppo
 - Securing the supply chain for advanced AI and the UK’s future infrastructure;
 - Boosting the innovation economy with Anthropic’s AI systems and tools, supporting the UK’s world-leading startup community as well as universities and other organisations.
 
-The collaboration will also draw on Anthropic's recently released [Economic Index](https://www.anthropic.com/news/the-anthropic-economic-index)—which uses anonymized conversations on [Claude.ai](https://claude.ai/redirect/website.v1.3ca115df-f3fd-4cd5-928b-36ee4fd0417d) to understand AI's effects on labor markets and the economy over time—to provide insights to help the UK adapt its workforce and innovation strategies for an AI-enabled future.
+The collaboration will also draw on Anthropic's recently released [Economic Index](https://www.anthropic.com/news/the-anthropic-economic-index)—which uses anonymized conversations on [Claude.ai](https://claude.ai/) to understand AI's effects on labor markets and the economy over time—to provide insights to help the UK adapt its workforce and innovation strategies for an AI-enabled future.
 
 Anthropic will continue to work closely with the UK AI Security Institute to research and evaluate AI capabilities and potential security risks. Together, we're committed to developing robust safeguards that will help unlock the significant opportunities AI presents while ensuring its responsible and secure deployment.
 
@@ -28,23 +45,3 @@ Governments and public institutions worldwide are already using Claude to enhanc
 - [The European Parliament](https://www.anthropic.com/customers/european-parliament) uses Claude to make their archives more easily accessible, reducing document search and analysis time by 80%.
 - [Palantir](https://investors.palantir.com/news-details/2024/Anthropic-and-Palantir-Partner-to-Bring-Claude-AI-Models-to-AWS-for-U.S.-Government-Intelligence-and-Defense-Operations/) is partnering with Amazon Web Services and Anthropic to enable Claude in US classified environments to improve intelligence analysis, enable officials in their decision-making processes, streamline resource-intensive tasks, and boost operational efficiency across departments.
 - [Swindon Borough Council](https://aws.amazon.com/blogs/publicsector/swindon-borough-council-makes-vital-public-information-more-accessible-using-amazon-bedrock/) in the UK has launched 'Simply Readable', a free tool powered by Claude on Amazon Bedrock that transforms complex documents into accessible formats with larger fonts, increased spacing, and supporting images to help people with learning disabilities better understand important information.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

@@ -1,4 +1,4 @@
-Lesson 33 of 66 · Claude with Google Cloud's Vertex AIThe web search tool
+Lesson 33 of 66 · Claude on Google CloudThe web search tool
 
 # The web search tool
 

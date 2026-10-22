@@ -1,4 +1,4 @@
-Lesson 51 of 66 · Claude with Google Cloud's Vertex AIProject setup
+Lesson 51 of 66 · Claude on Google CloudProject setup
 
 # Project setup
 

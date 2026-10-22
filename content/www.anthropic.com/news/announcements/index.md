@@ -14,6 +14,15 @@ Description
 
 Date
 
+- [### Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust](https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust)
+
+  [Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement.](https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust)
+
+  Oct 21, 2026
+
+  Oct 21, 2026
+
+  [### Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust](https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust)[Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement.](https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust)
 - [### Investing in the public benefit](https://www.anthropic.com/news/public-benefit-fund)
 
   [We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.](https://www.anthropic.com/news/public-benefit-fund)
@@ -221,15 +230,6 @@ Date
   May 28, 2026
 
   [### Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)[Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.](https://www.anthropic.com/news/series-h)
-- [### Anthropic opens Milan office to support Italian enterprise, research, and developers](https://www.anthropic.com/news/milan-office-opening)
-
-  [We're opening a new office in Milan, our sixth in Europe.](https://www.anthropic.com/news/milan-office-opening)
-
-  May 27, 2026
-
-  May 27, 2026
-
-  [### Anthropic opens Milan office to support Italian enterprise, research, and developers](https://www.anthropic.com/news/milan-office-opening)[We're opening a new office in Milan, our sixth in Europe.](https://www.anthropic.com/news/milan-office-opening)
 
 See more
 

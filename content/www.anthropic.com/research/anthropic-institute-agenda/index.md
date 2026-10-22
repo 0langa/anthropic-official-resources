@@ -1,10 +1,31 @@
-Policy
-
 # Focus areas for The Anthropic Institute
 
-May 7, 2026
+![Focus areas for The Anthropic Institute](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F70882016231824c19ed88d5443739d56eb79587f-2000x1125.jpg&w=1920&q=75)
 
-![Focus areas for The Anthropic Institute](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc42198f224b5121361fd8f1339b3c9c84cdcdb80-2000x1125.png&w=3840&q=75)
+- Published
+
+  May 7, 2026
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Institute](https://www.anthropic.com/search?topic=institute)
+  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+  - [Economic growth](https://www.anthropic.com/search?topic=economic-growth)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)See more...
+
+Related articles
+
+- Economics
+
+  Sep 9, 2026
+
+  [Scenarios for our economic future](https://www.anthropic.com/institute/econ-scenarios)
+
+[View more](https://www.anthropic.com/search?topic=institute)
 
 At [The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute) (TAI), we’ll be using the information we can access from within a frontier lab to investigate AI’s impact on the world, and sharing our learnings with the public. Here, we’re sharing the questions that drive our research agenda.
 
@@ -35,11 +56,11 @@ This is a living agenda, rather than a fixed one. We'll continue to fine-tune th
 
 If you are interested in helping us answer some of these questions, we welcome your application to become an Anthropic Fellow. The Fellowship is a four-month funded opportunity to tackle one or more of these questions with mentorship from TAI team members. You can find out more and apply to the next cohort [here](https://job-boards.greenhouse.io/anthropic/jobs/5023394008).
 
-## **Our research agenda:**
+### Our research agenda:
 
 *Last updated: May 7, 2026*
 
-### Economic diffusion
+#### Economic diffusion
 
 It’s crucial to understand how the deployment of increasingly powerful AI systems changes the economy. We also need to develop the necessary economic data and predictive ability to choose to deploy AI in ways that benefit the public.
 
@@ -69,7 +90,7 @@ To answer the questions in this pillar of our research, we’ll further develop 
 - **Studying for the future:** What should people study today to be well positioned for the future? What are the professions of the future? How does AI change what it means to learn something and to develop expertise?
 - **The role of paid work:** If AI substantially reduces the centrality of paid work in human life, what conditions will allow people to reallocate their time and effort toward other sources of meaning, and what can we learn from historical or contemporary populations where work has been scarce or optional? How do societies navigate this transition?
 
-### Threats and resilience
+#### Threats and resilience
 
 AI systems tend to advance many capabilities at once, including [dual-use capabilities](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-1.ipd2.pdf). An AI system that gets better at biology also gets better at creating biological weapons. AI systems which are performant at computer programming also get better at hacking into computers. If we can better understand the potential for threats to be exacerbated by AI systems, society can more easily become resilient to this changed threat landscape.
 
@@ -90,7 +111,7 @@ We're asking these questions to help develop partnerships to improve the world's
 
 - **AI’s effect on surveillance:** How does AI change how surveillance works? Will it make surveillance cheaper, or more effective, or both?
 
-### AI systems in the wild
+#### AI systems in the wild
 
 The interaction of people and organizations with AI systems will be a major source of societal change. Understanding the ways AI systems might alter the people and institutions that interact with them is a core focus area for our [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts) team. To study these changes, we are advancing our existing tools and building new ones to carry out our research, ranging from software for better observability of our platform to tools for conducting large-scale qualitative surveys.
 
@@ -114,7 +135,7 @@ The interaction of people and organizations with AI systems will be a major sour
 - **AI governance of AI:** How effectively can we use AI to govern AI systems? What are areas of AI oversight where humans either have a comparative advantage or a legal or normative requirement to be 'in the loop'?
 - **Agent interactions:** What kinds of norms emerge in how AI agents interact with one another? How might different agents express different preferences, and how might these influence other agents?
 
-### AI-driven R&D
+#### AI-driven R&D
 
 As AI systems get more powerful, scientists are using them to carry out more of their research. This means that more scientific research is occurring autonomously or semi-autonomously with less and less active oversight from humans. In AI research itself, increasingly powerful systems may be used to help develop successor versions of themselves. We sometimes call this “AI-driven AI R&D.”
 
@@ -133,23 +154,3 @@ AI-driven AI R&D holds within itself the potential for significant danger. As po
 
 - **The tech tree:** AI is speeding up some sciences far faster than others, depending on data availability, evaluation signals, and how much knowledge is tacit or institutionally gated. How uneven is this gradient, and what does the changing composition of scientific progress imply for which human problems get solved first?
 - **The jagged frontier:** Model capabilities are stronger in some domains than in others. Domains with large positive externalities—like drug discovery and materials science—receive less investment than their value warrants. Markets steer the direction of model improvement according to private return, but can we improve how models perform to address social externalities?
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)

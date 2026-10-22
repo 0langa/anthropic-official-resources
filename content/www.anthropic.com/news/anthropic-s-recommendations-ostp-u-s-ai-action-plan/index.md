@@ -1,10 +1,29 @@
-Societal ImpactsPolicy
-
 # Anthropic’s recommendations to OSTP for the U.S. AI action plan
 
-Mar 6, 2025
+- Published
 
-![A hand-drawn image of a government building](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F29b9740c62c263dd5f71888be78a6d877353261b-1920x1079.png&w=3840&q=75)
+  Mar 6, 2025
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [National security](https://www.anthropic.com/search?topic=national-security)
+  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)See more...
+
+Related articles
+
+- Policy
+
+  Feb 11, 2026
+
+  [Covering electricity price increases from our data centers](https://www.anthropic.com/news/covering-electricity-price-increases)
+
+[View more](https://www.anthropic.com/search?topic=national-security)
 
 In response to the White House’s [Request for Information on an AI Action Plan](https://www.whitehouse.gov/briefings-statements/2025/02/public-comment-invited-on-artificial-intelligence-action-plan/), Anthropic [has submitted recommendations](https://assets.anthropic.com/m/4e20a4ab6512e217/original/Anthropic-Response-to-OSTP-RFI-March-2025-Final-Submission-v3.pdf) to the Office of Science and Technology Policy (OSTP). Our recommendations are designed to better prepare America to capture the economic benefits and national security implications of powerful AI systems.
 
@@ -29,23 +48,3 @@ We believe the United States must take decisive action to maintain technological
 These recommendations build on Anthropic's previous policy work, including our advocacy for [responsible scaling policies](https://www.anthropic.com/news/anthropics-responsible-scaling-policy) and [testing and evaluation](https://www.anthropic.com/news/third-party-testing). Our aim is to strike a balance—enabling innovation while mitigating serious risks posed by increasingly capable AI systems.
 
 Our full submission, found [here](https://assets.anthropic.com/m/4e20a4ab6512e217/original/Anthropic-Response-to-OSTP-RFI-March-2025-Final-Submission-v3.pdf), offers further detail into these recommendations and provides practical implementation strategies to help the U.S. government navigate this critical technological transition.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

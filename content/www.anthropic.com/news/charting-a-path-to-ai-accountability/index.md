@@ -1,8 +1,29 @@
-Announcements
-
 # Charting a path to AI accountability
 
-Jun 13, 2023
+- Published
+
+  Jun 13, 2023
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)See more...
+
+Related articles
+
+- Policy
+
+  Feb 12, 2026
+
+  [Anthropic is donating $20 million to Public First Action](https://www.anthropic.com/news/donate-public-first-action)
+
+[View more](https://www.anthropic.com/search?topic=informed-lawmakers)
 
 This week, Anthropic submitted [a response](https://www-cdn.anthropic.com/257e6352c677beeffcbce24233211887173a41dc/2023.06.06-Anthropic_NTIA_Comment_v2.pdf) to the National Telecommunications and Information Administration’s (NTIA) [Request for Comment on AI Accountability](https://ntia.gov/issues/artificial-intelligence/request-for-comments). Today, we want to share our recommendations as they capture some of Anthropic’s core AI policy proposals.
 
@@ -40,23 +61,3 @@ We believe this set of recommendations will bring us meaningfully closer to esta
 We believe that AI could have transformative effects in our lifetime and we want to ensure that these effects are positive. The creation of robust AI accountability and auditing mechanisms will be vital to realizing this goal. We are grateful for the chance to respond to this Request For Comment.
 
 You can read our submission in full [here](https://www-cdn.anthropic.com/257e6352c677beeffcbce24233211887173a41dc/2023.06.06-Anthropic_NTIA_Comment_v2.pdf).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

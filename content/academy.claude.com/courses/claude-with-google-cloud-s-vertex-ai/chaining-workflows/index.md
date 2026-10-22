@@ -1,4 +1,4 @@
-Lesson 62 of 66 · Claude with Google Cloud's Vertex AIChaining workflows
+Lesson 62 of 66 · Claude on Google CloudChaining workflows
 
 # Chaining workflows
 

@@ -1,14 +1,32 @@
-Societal Impacts
-
 # U.S. elections readiness
 
-Oct 8, 2024
+- Published
 
-![U.S. elections readiness](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd349f9f92aaf574702f002fbb2b01159e6e4c659-1200x631.png&w=3840&q=75)
+  Oct 8, 2024
+- Category
+
+  [Safeguards](https://www.anthropic.com/news/safeguards)
+- Topics
+
+  - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
+  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)See more...
+
+Related articles
+
+- Policy
+
+  Aug 15, 2025
+
+  [Usage policy update](https://www.anthropic.com/news/usage-policy-update)
+
+[View more](https://www.anthropic.com/search?topic=democratic-integrity)
 
 2024 marks the first United States (U.S.) election cycle where generative AI tools are widely available. Since July 2023, we have [taken concrete steps](https://www.anthropic.com/news/preparing-for-global-elections-in-2024) to [help detect and mitigate](https://www.anthropic.com/news/testing-and-mitigating-elections-related-risks) against the potential misuse of our tools and to direct users to authoritative election information. Ahead of federal, state, and local elections in the U.S. on November 5, 2024, we are sharing a summary of our work thus far.
 
-## Our policy approach
+### Our policy approach
 
 In May, we updated our [Usage Policy](https://www.anthropic.com/legal/aup) to provide clarity around prohibited uses when it comes to elections and voting:
 
@@ -24,7 +42,7 @@ We have also developed improved tools for detecting coordinated behavior or othe
   - In some extreme cases, suspending accounts
   - Working closely with Amazon Web Services (AWS) and Google Cloud Platform (GCP) to detect and mitigate election-related harms from users accessing Anthropic models on those platforms.
 
-## Evaluating and refining our interventions
+### Evaluating and refining our interventions
 
 We regularly conduct targeted red-teaming to examine how our systems respond to prompts related to election issues.
 
@@ -35,7 +53,7 @@ We regularly conduct targeted red-teaming to examine how our systems respond to 
   - How robust our systems are in preventing misinformation and voter profiling tactics
 - **Improving our controls:** In response to the findings, we continuously adapt our policies, strengthen our enforcement processes, and make technical refinements to the models themselves to address identified risks and make our systems more robust.
 
-## Providing accurate information and ensuring transparency
+### Providing accurate information and ensuring transparency
 
 Because our models are not trained frequently enough to provide real-time information about elections, we redirect users to accurate, up-to-date and authoritative voting information for elections-related queries.
 
@@ -58,23 +76,3 @@ Relevant safety work:
 
 - June 2024, [Claude 3.5 Sonnet launch](https://www.anthropic.com/news/claude-3-5-sonnet),
 - June 2024, [Claude 3.5 Model Card Addendum](https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf)
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

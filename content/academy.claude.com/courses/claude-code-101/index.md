@@ -33,7 +33,7 @@ The final section is about making Claude Code your own. You'll write a `CLAUDE.m
 
 ## Recommended prerequisites[](https://academy.claude.com/courses/claude-code-101)
 
-Basic familiarity with a code editor and the command line. You'll also need a Claude account (Pro, Max, or Enterprise) or an API key. No prior experience with AI tools is assumed.
+Basic familiarity with a code editor and the command line. You'll also need a Claude account (Pro, Max, Team, or Enterprise) or an API key. No prior experience with AI tools is assumed.
 
 ## Who this is for[](https://academy.claude.com/courses/claude-code-101)
 

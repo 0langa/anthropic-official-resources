@@ -26,13 +26,15 @@ Between any connector and a member actually using it there are three gates, and 
 
 <table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium"><strong>Gate</strong></th><th class="border-b border-strong p-sm text-left font-medium"><strong>What it controls</strong></th><th class="border-b border-strong p-sm text-left font-medium"><strong>Set by</strong></th><th class="border-b border-strong p-sm text-left font-medium"><strong>If it’s closed</strong></th></tr></thead><tbody><tr><td class="border-b p-sm"><strong>Organization gate</strong></td><td class="border-b p-sm">Whether the connector is available in your organization at all</td><td class="border-b p-sm">An Owner or Primary Owner</td><td class="border-b p-sm">Nobody sees the connector, regardless of role</td></tr><tr><td class="border-b p-sm"><strong>Role gate</strong></td><td class="border-b p-sm">Whether a group’s role includes the connector</td><td class="border-b p-sm">An Owner or Primary Owner</td><td class="border-b p-sm">Some groups have the connector; this member’s group doesn’t</td></tr><tr><td class="border-b p-sm"><strong>Member gate</strong></td><td class="border-b p-sm">Whether this member has connected their own account, authorizing Claude to act as them</td><td class="border-b p-sm">The member</td><td class="border-b p-sm">The connector is granted, but not usable until this member connects their account</td></tr></tbody></table>
 
+Each group’s connector access is set on its custom role’s Connectors tab. Custom roles that were already in place were set to “Always allow” on every connector, so members keep the access they had until you narrow a role; check each role’s Connectors tab. A role you create now starts at “Needs approval” (members confirm each call) on every connector.
+
 ## What you control[](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/connectors)
 
 Within your two gates you hold three controls:
 
 1. The connectors you add to your organization.
 2. Per-group scoping: which groups get each one.
-3. Where a connector offers it, the access depth: read-only or read-write. In the product, a connector’s write and delete tools are each set to Always allow, Needs approval, or Blocked, so blocking them holds it read-only.
+3. Where a connector offers it, the access depth: read-only or read-write. In the product, a connector’s write and delete tools are each set to “Always allow”, “Needs approval”, or “Blocked”, so blocking them holds it read-only.
 
 When accessing a connector, Claude inherits the member’s own permissions from the connected service: if a member can’t access a specific file, channel, or record in the source system, that permission boundary carries through the connector too.
 
@@ -132,6 +134,7 @@ When you’ve made the call, set up your organization’s connectors. The connec
 
 - **[Use connectors to extend Claude’s capabilities(opens in new tab)](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)**: what a connector is and does from the member side: the thing you are gating.
 - **[Get started with custom connectors using remote MCP(opens in new tab)](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)**: how a custom connector is built and added, so you know what you are approving.
+- **[Set up role-based permissions on Enterprise plans(opens in new tab)](https://support.claude.com/en/articles/13930458-set-up-role-based-permissions-on-enterprise-plans)**: how custom roles control which connectors each group can use.
 - **[Authorize MCP connectors for your entire organization(opens in new tab)](https://support.claude.com/en/articles/15537633-authorize-mcp-connectors-for-your-entire-organization)**: enterprise-managed authorization — what it does, which connectors and identity providers support it, and how to set it up.
 - **[Enterprise-managed authorization (MCP documentation)(opens in new tab)](https://modelcontextprotocol.io/extensions/auth/enterprise-managed-authorization)**: the standard behind EMA.
 - **[Configure the sandboxed Bash tool(opens in new tab)](https://code.claude.com/docs/en/sandboxing)**: Claude Code’s network reach: the sandbox’s allowed domains in its managed settings, which your platform lead owns.

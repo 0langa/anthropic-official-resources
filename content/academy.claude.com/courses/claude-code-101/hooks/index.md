@@ -43,7 +43,7 @@ Hooks are configured in your `settings.json`. You pick an event, optionally set 
 
 These are just a few of the events you can hook into — Claude Code supports many more. See the [hooks reference(opens in new tab)](https://code.claude.com/docs/en/hooks) for the full list.
 
-You configure them through the `/hooks` command inside Claude Code, or by editing `settings.json` directly.
+You configure them by editing `settings.json` directly. The `/hooks` command inside Claude Code opens a read-only list of your configured hooks, so you can check that a new one shows up.
 
 ![The settings.json file inside the .claude directory with hooks configuration](https://academy.claude.com/assets/media/de2ac2dab9f24bb445af53ec3f2dbb17f4399fb472247165532f814f350126d5.jpg)
 
@@ -69,7 +69,7 @@ Hooks configured in `.claude/settings.json` are project-level and can be checked
 
 ## Recap[](https://academy.claude.com/courses/claude-code-101/hooks)
 
-Hooks give you deterministic control over Claude Code's behavior. Use PostToolUse for auto-formatting and logging. Use PreToolUse to block dangerous operations. Configure them with `/hooks` or in `settings.json`. And check them into your repo so your team gets them too.
+Hooks give you deterministic control over Claude Code's behavior. Use PostToolUse for auto-formatting and logging. Use PreToolUse to block dangerous operations. Configure them in `settings.json` and view them with `/hooks`. And check them into your repo so your team gets them too.
 
 If something needs to happen every time without fail, don't put it in a prompt. Put it in a hook.
 

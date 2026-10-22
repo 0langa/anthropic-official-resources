@@ -1,18 +1,37 @@
-Announcements
-
 # Introducing Claude Pro
-
-Sep 7, 2023
 
 [Subscribe today](https://claude.ai/settings/billing?action=subscribe)
 
+- Published
+
+  Sep 7, 2023
+- Category
+
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+  - [Access](https://www.anthropic.com/search?topic=access)
+  - [Productivity](https://www.anthropic.com/search?topic=productivity)
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)See more...
+
+Related articles
+
+- Economics
+
+  Feb 16, 2026
+
+  [India Country Brief: The Anthropic Economic Index](https://www.anthropic.com/research/india-brief-economic-index)
+
+[View more](https://www.anthropic.com/search?topic=claude-apps)
+
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2504af2b3cd3b1d254bb0fff79d8eefb0db037c7-2880x1620.jpg&w=3840&q=75)
 
-Today, we’re introducing a paid plan for our [Claude.ai](https://claude.ai/redirect/website.v1.e270c9e5-0d0c-421f-8314-1522d1cf3032) chat experience, currently available in the US and UK.  
+Today, we’re introducing a paid plan for our [Claude.ai](https://claude.ai/) chat experience, currently available in the US and UK.  
   
 Since launching in July, users tell us they’ve chosen Claude.ai as their day-to-day AI assistant for its longer context windows, faster outputs, complex reasoning capabilities, and more. Many also shared that they would value more file uploads and conversations over longer periods.  
   
-With [Claude Pro](https://claude.ai/redirect/website.v1.e270c9e5-0d0c-421f-8314-1522d1cf3032/settings/billing?action=subscribe), subscribers can now gain **5x more usage** of our latest model, Claude 2, for a monthly price of $20 (US) or £18 (UK).  
+With [Claude Pro](https://claude.ai/settings/billing?action=subscribe), subscribers can now gain **5x more usage** of our latest model, Claude 2, for a monthly price of $20 (US) or £18 (UK).  
   
 This means you can level up your productivity across a range of tasks, including summarizing research papers, querying contracts, and iterating further on coding projects—like this recent [demo](https://www.youtube.com/watch?v=oVsHikXgK9Y) of building an interactive map.
 
@@ -25,23 +44,3 @@ Claude Pro offers:
 You can learn more about these benefits, including how to maximize your usage, [here](https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage).  
   
 We’re grateful for your support as we strive to build helpful, honest, and harmless systems that fuel productivity and inspire creativity.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

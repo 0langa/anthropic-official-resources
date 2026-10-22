@@ -25,7 +25,7 @@ things easier.
 You can choose how much oversight to keep while Claude works. Press `Shift + Tab` to cycle between modes.
 
 - **Manual mode:** Claude asks permission each time it wants to edit a file or run a command.
-- **Auto-accept mode:** File edits are automatically approved, but commands still require your permission.
+- **Auto-accept mode:** File edits and common filesystem commands like `mkdir`, `mv`, and `rm` are automatically approved, but other commands still require your permission.
 - **Auto mode:** Claude works without permission prompts while a background safety check screens each action; when something is blocked, Claude usually finds a safer approach or asks you for the go-ahead.
 
 There's no right or wrong answer — it's whatever you're comfortable with.
@@ -34,7 +34,7 @@ There's no right or wrong answer — it's whatever you're comfortable with.
 
 ## Plan Mode[](https://academy.claude.com/courses/claude-code-101/your-first-prompt)
 
-Within the `Shift + Tab` menu is **Plan Mode**. Plan mode takes your prompt and uses read-only tools to analyze your codebase and research your suggested implementation. It will ask clarifying questions along the way, then return a detailed plan it can execute.
+Within the `Shift + Tab` menu is **Plan Mode**. Plan mode takes your prompt, then reads files and runs shell commands to analyze your codebase and research your suggested implementation, without editing your source files. It will ask clarifying questions along the way, then return a detailed plan it can execute.
 
 Plan mode is great for planning complex changes or doing a safe code review. Many times you'll be asking Claude to handle multi-step implementations toward a feature, and this is exactly where Plan Mode excels.
 
@@ -42,7 +42,7 @@ Plan mode is great for planning complex changes or doing a safe code review. Man
 
 ## Example: Add a Dark Mode Toggle[](https://academy.claude.com/courses/claude-code-101/your-first-prompt)
 
-Let's walk through an example. Say you have an application that needs a dark mode toggle. Open the root directory of your project and run `claude`. Press `Shift + Tab` a couple of times to enter Plan Mode, then write a prompt like:
+Let's walk through an example. Say you have an application that needs a dark mode toggle. Open the root directory of your project and run `claude`. Press `Shift + Tab` until the status bar shows `plan mode on`, then write a prompt like:
 
 My app needs a dark mode implemented across the entire app. Can you create a toggle switch on the header that allows a user to toggle between light mode and dark mode? I need you to find a good contrast color that works based on my existing light theme.
 

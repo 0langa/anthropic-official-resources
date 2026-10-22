@@ -1,16 +1,33 @@
-Product
-
 # Claude is now generally available in Xcode
 
-Sep 15, 2025
+- Published
 
-![An abstract hand pulling down a screen with coding brackets on it](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6c1ec5a812d5af6113d277d86ded64f5400627d8-2880x1620.png&w=3840&q=75)
+  Sep 15, 2025
+- Category
+
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Access](https://www.anthropic.com/search?topic=access)See more...
+
+Related articles
+
+- Partnerships
+
+  Feb 13, 2026
+
+  [Anthropic partners with CodePath to bring Claude to the US’s largest collegiate computer science program](https://www.anthropic.com/news/anthropic-codepath-partnership)
+
+[View more](https://www.anthropic.com/search?topic=coding)
 
 Developers can now connect their Claude account to Xcode 26 to power coding intelligence features with Claude Sonnet 4. Xcode is Apple's integrated development environment (IDE) and offers the tools you need to develop, test, and distribute apps for Apple platforms. This integration lets developers use Claude's coding capabilities directly in their workflow, accelerating app development for Apple platforms.
 
 ![Zoomed in view of Claude Sonnet 4 in Xcode](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb980278079eb3c3ca177b99adf55e257696c13fd-1920x1080.png&w=3840&q=75)
 
-## Using Claude in Xcode
+### Using Claude in Xcode
 
 When you log into your Claude account in Xcode, you’ll have access to coding intelligence features powered by Claude Sonnet 4:
 
@@ -19,7 +36,7 @@ When you log into your Claude account in Xcode, you’ll have access to coding i
 
 Your Claude subscription usage limits are shared across platforms, with a portion available through Xcode.
 
-## Getting started
+### Getting started
 
 To start using Claude in Xcode:
 
@@ -32,23 +49,3 @@ To start using Claude in Xcode:
 Claude in Xcode works with all plans that include Claude Code—Pro and Max, plus premium seats for Team and Enterprise plans.
 
 For more details, see the [Xcode 26 release notes](https://developer.apple.com/documentation/xcode-release-notes/xcode-26-release-notes) and [Apple's documentation on writing code with intelligence in Xcode](https://developer.apple.com/documentation/Xcode/writing-code-with-intelligence-in-xcode).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

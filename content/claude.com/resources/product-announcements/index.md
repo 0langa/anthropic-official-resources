@@ -8,25 +8,21 @@ Unsubscribe at any time.
 
 The latest news about Claude, including new products, features, and updates.
 
-[ArticleJul 7, 2026
+[ArticleOct 21, 2026
 
-### Claude Cowork is coming to mobile and web
+### Introducing Claude Duet
 
-Your work goes everywhere with you, and keeps going without you.
+A research preview is available by waitlist today, starting with US Pro and Max subscribers.
 
-Claude Cowork](https://claude.com/resources/articles/cowork-web-mobile)
+![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleJun 22, 2026
+[ArticleOct 21, 2026
 
-### The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry
+### Claude Security now scans continuously and tracks fixes
 
-Claude Enterprise](https://claude.com/resources/articles/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry)
+Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.
 
-[ArticleApr 23, 2026
-
-### New connectors in Claude for everyday life
-
-Claude apps](https://claude.com/resources/articles/connectors-for-everyday-life)
+Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)
 
 [ArticleOct 15, 2026
 
@@ -44,21 +40,41 @@ Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design ar
 
 Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
 
-[ArticleJul 7, 2026
+[ArticleOct 21, 2026
 
-### Claude Cowork is coming to mobile and web
+### HCLTech joins the Claude Partner Network as a Global Premier partner
 
-Your work goes everywhere with you, and keeps going without you.
+HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)
 
-Claude Cowork](https://claude.com/resources/articles/cowork-web-mobile)
+[ArticleOct 21, 2026
 
-Featured resource 1 of 5: Claude Cowork is coming to mobile and web
+### Introducing Claude Duet
+
+A research preview is available by waitlist today, starting with US Pro and Max subscribers.
+
+![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
+
+Featured resource 1 of 5: Introducing Claude Duet
 
 Advanced filters
 
-Showing 11 of 151 resources
+Showing 11 of 154 resources
 
-[ArticleOct 15, 2026
+[ArticleOct 21, 2026
+
+### HCLTech joins the Claude Partner Network as a Global Premier partner
+
+HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)[ArticleOct 21, 2026
+
+### Introducing Claude Duet
+
+A research preview is available by waitlist today, starting with US Pro and Max subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleOct 21, 2026
+
+### Claude Security now scans continuously and tracks fixes
+
+Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.
+
+Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)[ArticleOct 15, 2026
 
 ### Code Review is now generally available
 
@@ -104,26 +120,6 @@ Claude Design
 
 Change how Claude Code behaves and looks with a few lines of TypeScript.
 
-Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
-
-### Claude for Government is now generally available
-
-Claude Code CLI and Claude for Microsoft 365 also now available in early access.
-
-Claude Code](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 28, 2026
-
-### Claude Sonnet 5.5
-
-Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.
-
-Claude appsClaude Code
-
-(opens in new tab)](https://www.anthropic.com/claude-sonnet-5-5)[Video1 min watch
-
-### Introducing Claude Sonnet 5.5
-
-Claude Sonnet 5.5 runs more than 30% faster than Sonnet 5 and writes more clearly, so it’s well suited to quick back-and-forth on the things you do most.
-
-(opens in new tab)](https://www.youtube.com/watch?v=s5nkj-L2vAw)
+Claude Code](https://claude.com/resources/articles/claude-code-mods)
 
 View more

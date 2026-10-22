@@ -1,8 +1,27 @@
-Announcements
-
 # Anthropic and the Department of Defense to advance responsible AI in defense operations
 
-Jul 14, 2025
+- Published
+
+  Jul 14, 2025
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [National security](https://www.anthropic.com/search?topic=national-security)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)See more...
+
+Related articles
+
+- Policy
+
+  Aug 27, 2025
+
+  [Introducing the Anthropic National Security and Public Sector Advisory Council](https://www.anthropic.com/news/introducing-the-anthropic-national-security-and-public-sector-advisory-council)
+
+[View more](https://www.anthropic.com/search?topic=national-security)
 
 The U.S. Department of Defense (DOD), through its Chief Digital and Artificial Intelligence Office (CDAO), has awarded Anthropic a two-year prototype other transaction agreement with a $200 million ceiling. As part of the agreement, Anthropic will prototype frontier AI capabilities that advance U.S. national security.
 
@@ -14,13 +33,13 @@ With CDAO and other DOD organizations and commands, we'll engage in:
 - Collaborating with defense experts to anticipate and mitigate potential adversarial uses of AI, drawing on our advanced risk forecasting capabilities
 - Exchanging technical insights, performance data, and operational feedback to accelerate responsible AI adoption across the defense enterprise
 
-## Our commitment to responsible AI deployment
+### Our commitment to responsible AI deployment
 
 At the heart of this work lies our conviction that the most powerful technologies carry the greatest responsibility. We're building AI systems to be reliable, interpretable, and steerable precisely because we recognize that in government contexts, where decisions affect millions and stakes couldn't be higher, these qualities are essential.
 
 We believe democracies must work together to ensure AI development strengthens democratic values globally by maintaining technological leadership to protect against authoritarian misuse.
 
-## Building on a strong foundation of government partnerships
+### Building on a strong foundation of government partnerships
 
 Our commitment to responsible AI deployment, including rigorous safety testing, collaborative governance development, and strict usage policies, makes Claude uniquely suited for sensitive national security applications.
 
@@ -31,23 +50,3 @@ We’ve accelerated mission impact across U.S. defense workflows with partners l
 [Claude Gov models](https://www.anthropic.com/news/claude-gov-models-for-u-s-national-security-customers), which we custom built for national security customers, already power deployments by agencies across the national security community atop infrastructure powered by Amazon Web Services(AWS).
 
 Organizations interested in transforming their operations with Claude can [contact our public sector team](mailto:pubsec@anthropic.com) to learn more and get started.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

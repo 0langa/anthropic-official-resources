@@ -1,35 +1,56 @@
-Announcements
+### Chapter 05: Availability
 
 # Claude Fable 5 and Claude Mythos 5
 
-Jun 9, 2026
+![The number five composed of several butterflies](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb7055119423427c40a0e4d84054aed17682b50a2-2880x1620.png&w=1920&q=75)
 
-![The number five composed of several butterflies](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb7055119423427c40a0e4d84054aed17682b50a2-2880x1620.png&w=3840&q=75)
+- Published
 
-- Update
+  Jun 9, 2026
+- Category
 
-  Claude Mythos 5 and Fable 5 redeployed
+  [Models](https://www.anthropic.com/news/models)
+- Topics
 
-  Jul 1, 2026
+  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Access](https://www.anthropic.com/search?topic=access)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)See more...
+
+Related articles
+
+- Frontier Red Team
+
+  Oct 8, 2026
+
+  [Launching an opt-in vulnerability-finding service for open-source software](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source)
+
+[View more](https://www.anthropic.com/search?topic=claude-opus)
+
+- UpdateJul 1, 2026
+
+  ### Claude Mythos 5 and Fable 5 redeployed
 
   Claude Fable 5 and Mythos 5 are now available.
 
-  [Read more](https://www.anthropic.com/news/redeploying-fable-5)
-- Claude Mythos 5 and Fable 5 access unavailable
+  [View more](https://www.anthropic.com/news/redeploying-fable-5)
+- Jun 12, 2026
 
-  Jun 12, 2026
+  ### Claude Mythos 5 and Fable 5 access unavailable
 
   We are suspending access to Claude Fable 5 and Claude Mythos 5. We apologize for this disruption to our customers and are working to restore access as soon as possible.
 
-  [Read more](https://www.anthropic.com/news/fable-mythos-access)
+  [View more](https://www.anthropic.com/news/fable-mythos-access)
 
-Today we’re launching **Claude Fable 5**: a Mythos-class[1](https://www.anthropic.com/research/claude-fable-5-mythos-5) model that we’ve made safe for general use.
+Today we’re launching **Claude Fable 5**: a Mythos-class[1](https://www.anthropic.com/news/claude-fable-5-mythos-5) model that we’ve made safe for general use.
 
 Fable 5’s capabilities exceed those of any model we’ve ever made generally available. It is state-of-the-art on nearly all tested benchmarks of AI capability, showing exceptional performance in software engineering, knowledge work, vision, scientific research, and many other areas. The longer and more complex the task, the larger Fable 5’s lead over our other models.
 
 Releasing a model this capable comes with risks. Without safeguards, Fable 5’s capabilities in areas like cybersecurity could be misused to cause serious damage. We’ve therefore launched the model with safeguards that mean queries on some topics will instead receive a response from our next-most-capable model, Claude Opus 4.8. To release the model both safely and quickly, we’ve tuned these safeguards conservatively—they’ll sometimes catch harmless requests, though they trigger, on average, in less than 5% of sessions. With more capable models arriving in the coming months, we’re working to improve our safeguards and reduce false positives as quickly as we can.
 
-For a small group of cyberdefenders and infrastructure providers, we’re also launching **Claude Mythos 5**. It’s the same underlying model as Fable 5, but with the safeguards lifted in some areas.[2](https://www.anthropic.com/research/claude-fable-5-mythos-5) Mythos 5 will initially be deployed through [Project Glasswing](https://www.anthropic.com/glasswing), in collaboration with the US government, as an upgrade to Claude Mythos Preview. It has the strongest cybersecurity capabilities of any model in the world. Soon, we intend to expand access to Mythos 5 through a broader trusted access program.
+For a small group of cyberdefenders and infrastructure providers, we’re also launching **Claude Mythos 5**. It’s the same underlying model as Fable 5, but with the safeguards lifted in some areas.[2](https://www.anthropic.com/news/claude-fable-5-mythos-5) Mythos 5 will initially be deployed through [Project Glasswing](https://www.anthropic.com/glasswing), in collaboration with the US government, as an upgrade to Claude Mythos Preview. It has the strongest cybersecurity capabilities of any model in the world. Soon, we intend to expand access to Mythos 5 through a broader trusted access program.
 
 The capabilities of models like Fable 5 and Mythos 5 have the potential to do profound good for the world. We’ve seen the beginnings of this in Project Glasswing, where the models have [helped cyber defenders](https://www.anthropic.com/research/glasswing-initial-update) secure critically important software. We’ve also seen it in life sciences research, where the models are positing novel hypotheses and speeding up the development of new therapeutics.
 
@@ -53,17 +74,27 @@ Fable 5 and Mythos 5 can work autonomously for longer than any previous Claude m
 
 *Vision.* Fable 5 is the new state-of-the-art model for tasks involving vision. It can extract precise numbers from detailed scientific figures and can perform complex vision-based tasks like rebuilding a web app’s source code from screenshots alone. It also needs less scaffolding: for example, previous Claude models struggled to play Pokémon FireRed even with harnesses that gave them additional helpful tools, but Fable 5 beat FireRed with a minimal, vision-only harness.
 
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FTy_50J84fMY%2Fmaxresdefault.jpg&w=3840&q=75)
+
 A time-lapse of Claude playing Pokémon FireRed from start to finish using only raw game screenshots—with no maps, navigation aids, or extra game-state information. Earlier Claude models needed a complex helper harness to play Pokémon; Claude Fable 5 completed the game with vision alone.
 
 *Memory and long-context.* Fable 5 stays focused across millions of tokens in long-running tasks and improves its outputs using its own notes. When we had the model play the deck-building game [*Slay the Spire*](https://en.wikipedia.org/wiki/Slay_the_Spire), giving it access to persistent file-based memory improved its performance three times more than for Opus 4.8; Fable also reached the game’s final act three times more often.
 
 Solar eclipsesFactorioVibeCADFluid with Classical EDM
 
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F5f5JYLZHdhw%2Fmaxresdefault.jpg&w=3840&q=75)
+
 Claude Fable 5 built this simulation of the solar system, deriving the planets' orbital motion from physics first principles and using it to predict solar eclipses.
+
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F6YPqoARpYuQ%2Fmaxresdefault.jpg&w=3840&q=75)
 
 Claude Fable 5 autonomously plays Factorio, the factory-building game beloved by engineers, strategizing and building an automated factory on its own.
 
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FtpjJeH1pPws%2Fmaxresdefault.jpg&w=3840&q=75)
+
 Claude Fable 5 designs a complete 3D-printable model in a browser-based CAD editor. The editor itself was also created by Fable 5, including the built-in AI copilot that does the modeling.
+
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FxmP7bhigCWE%2Fmaxresdefault.jpg&w=3840&q=75)
 
 A fluid simulation coded by Claude Fable 5 where the motion is synchronized to the beat of a classical music EDM remix—which Claude Fable 5 produced using code, having never heard music before.
 
@@ -87,63 +118,123 @@ Overall level of misaligned behaviors from our automated alignment assessment. S
 
 Customers with early access ran their own tests on Fable 5. Below, in their words, is a selection of what they’re seeing:
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f084c88e65466636019709c40cc477aadce2f718-151x64.svg)
+![Michael Truell logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f084c88e65466636019709c40cc477aadce2f718-151x64.svg)
 
-> Claude Fable 5 is the state of the art model on CursorBench. It's opened up a class of long-horizon problems that were out of reach for earlier models.
+> “Claude Fable 5 is the state of the art model on CursorBench. It's opened up a class of long-horizon problems that were out of reach for earlier models.”
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/fc55f4db8afa5db479127fde5be3e492940f513d-94x64.svg)
+Michael Truell
 
-> Claude Fable 5 is a real step forward for the developers GitHub serves. In our early testing, it took on complex, long-horizon coding tasks with a level of autonomy and reliability that exceeded previous benchmarks. But what excites us most is the direction it points: a future where developers can hand increasingly ambitious work to agents and trust the results across the software lifecycle.
+CEO and Co-founder
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/1d9e0d7a5760165244bba057a622513bb75cb65d-80x64.svg)
+![Mario Rodriguez logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/fc55f4db8afa5db479127fde5be3e492940f513d-94x64.svg)
 
-> These are the strongest results of any Claude model we've had the opportunity to test. Claude Fable 5 is a clear step forward on agentic coding and prototyping.
+> “Claude Fable 5 is a real step forward for the developers GitHub serves. In our early testing, it took on complex, long-horizon coding tasks with a level of autonomy and reliability that exceeded previous benchmarks. But what excites us most is the direction it points: a future where developers can hand increasingly ambitious work to agents and trust the results across the software lifecycle.”
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/046fc90b1e849e0ef96b6a9923d47ae13272b50f-173x64.svg)
+Mario Rodriguez
 
-> Claude Fable 5's reasoning is a clear step beyond Opus 4.8. It works at senior research scientist grade — picking directions, allocating resources, killing its incorrect beliefs, and producing novel first-principles outputs.
+Chief Product Officer
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/40a2a6a28afd8ac8fbf0e764b6bbf4ebf06a1977-133x64.svg)
+![Matt Colyer logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/1d9e0d7a5760165244bba057a622513bb75cb65d-80x64.svg)
 
-> Claude Fable 5 understands what builders mean, not just what they type. Apps that took a hundred prompts a year ago, it now one-shots. When a customer really hits a wall, it's the model we reach for to get them past it quickly, so they can finish what they set out to build.
+> “These are the strongest results of any Claude model we've had the opportunity to test. Claude Fable 5 is a clear step forward on agentic coding and prototyping.”
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/a0935a9396e8ec29b273be438cac14583c5999a6-130x64.svg)
+Matt Colyer
 
-> Claude Fable 5 feels materially different. In blind review, our lawyers found its redlines matched or beat our current model every time.
+Director of Product, Developers
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/73b380711885c6beb5270575119dbf31d7f71236-107x64.svg)
+![Sean Ward logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/046fc90b1e849e0ef96b6a9923d47ae13272b50f-173x64.svg)
 
-> At the highest effort, Claude Fable 5 reflects on and validates its own work. For us, that's what makes highly autonomous operations possible — the extra thinking pays for itself.
+> “Claude Fable 5's reasoning is a clear step beyond Opus 4.8. It works at senior research scientist grade — picking directions, allocating resources, killing its incorrect beliefs, and producing novel first-principles outputs.”
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/74f9dcd65076def29413e42e822da248590b68d3-145x64.svg)
+Sean Ward
 
-> Claude Fable 5 delivers more capable engineering in fewer turns than prior models — handling the complex multi-agent workflows our employees run daily in Claude Code.
+CEO and Co-founder
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/ad249bca4e8e195e08764efc43ecbc586ca37482-143x64.svg)
+![Fabian Hedin logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/40a2a6a28afd8ac8fbf0e764b6bbf4ebf06a1977-133x64.svg)
 
-> Claude Fable 5 is the highest-scoring model on FrontierBench, Cognition's frontier coding eval. It excels at long-horizon reasoning and generalizes to unfamiliar tools out of the box.
+> “Claude Fable 5 understands what builders mean, not just what they type. Apps that took a hundred prompts a year ago, it now one-shots. When a customer really hits a wall, it's the model we reach for to get them past it quickly, so they can finish what they set out to build.”
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/e360f8a29093a6b4fccdc006315035583e89f9ac-146x64.svg)
+Fabian Hedin
 
-> Claude Fable 5 is the strongest finance-first model we've tested, both on general finance and reasoning. It's a notable step up.
+CTO & Co-founder
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/7fbed01e869d6a4faf97317a1fc4b74f7997c66e-78x64.svg)
+![Aveek Duttagupta logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/a0935a9396e8ec29b273be438cac14583c5999a6-130x64.svg)
 
-> Claude Fable 5 is the first to break 90% on our core analytics benchmark of complex, long-running analytical tasks — a 10-point jump over Opus. On the hardest questions, it shows strong judgment and attention to nuance.
+> “Claude Fable 5 feels materially different. In blind review, our lawyers found its redlines matched or beat our current model every time.”
 
-![ logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F41fa2545bafc63f50148ce0d710dbdadb8c06f87-888x256.png&w=256&q=75)
+Aveek Duttagupta
 
-> Claude Fable 5 is the strongest model we've tested on frontier physics research while using a third of the reasoning tokens. In 36 hours it got nearly to where GPT-5.5 landed after four days.
+Member of Technical Staff
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/0504471eb7da85317c6def349d315e2f8be00b0f-127x64.svg)
+![Yusuke Kaji logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/73b380711885c6beb5270575119dbf31d7f71236-107x64.svg)
 
-> On ViBench, our end-to-end vibe-coding benchmark, Claude Fable 5 is the highest-performing model we've tested — nearly saturating our base use cases and building apps in less time with fewer tokens.
+> “At the highest effort, Claude Fable 5 reflects on and validates its own work. For us, that's what makes highly autonomous operations possible — the extra thinking pays for itself.”
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/b7787c9ab5714b0c1789da32a3a52daba81f6bef-63x64.svg)
+Yusuke Kaji
 
-> Claude Fable 5 beats Opus 4.8 on our everyday spreadsheet suite at every effort level — and it does it with fewer turns, finishing runs 25–30% faster.
+GM, AI for Business
 
-01 / 14
+![Luke Anderson logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/74f9dcd65076def29413e42e822da248590b68d3-145x64.svg)
+
+> “Claude Fable 5 delivers more capable engineering in fewer turns than prior models — handling the complex multi-agent workflows our employees run daily in Claude Code.”
+
+Luke Anderson
+
+CTO
+
+![Scott Wu logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/ad249bca4e8e195e08764efc43ecbc586ca37482-143x64.svg)
+
+> “Claude Fable 5 is the highest-scoring model on FrontierBench, Cognition's frontier coding eval. It excels at long-horizon reasoning and generalizes to unfamiliar tools out of the box.”
+
+Scott Wu
+
+CEO
+
+![Damian Miraglia logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/e360f8a29093a6b4fccdc006315035583e89f9ac-146x64.svg)
+
+> “Claude Fable 5 is the strongest finance-first model we've tested, both on general finance and reasoning. It's a notable step up.”
+
+Damian Miraglia
+
+Principal Engineer, Applied AI
+
+![Izzy Miller logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/7fbed01e869d6a4faf97317a1fc4b74f7997c66e-78x64.svg)
+
+> “Claude Fable 5 is the first to break 90% on our core analytics benchmark of complex, long-running analytical tasks — a 10-point jump over Opus. On the hardest questions, it shows strong judgment and attention to nuance.”
+
+Izzy Miller
+
+AI Research Lead
+
+![Matthew Pines logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F41fa2545bafc63f50148ce0d710dbdadb8c06f87-888x256.png&w=1080&q=75)
+
+> “Claude Fable 5 is the strongest model we've tested on frontier physics research while using a third of the reasoning tokens. In 36 hours it got nearly to where GPT-5.5 landed after four days.”
+
+Matthew Pines
+
+CEO
+
+![Michele Catasta logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/0504471eb7da85317c6def349d315e2f8be00b0f-127x64.svg)
+
+> “On ViBench, our end-to-end vibe-coding benchmark, Claude Fable 5 is the highest-performing model we've tested — nearly saturating our base use cases and building apps in less time with fewer tokens.”
+
+Michele Catasta
+
+President & Head of AI
+
+![Peter Wang logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/b7787c9ab5714b0c1789da32a3a52daba81f6bef-63x64.svg)
+
+> “Claude Fable 5 beats Opus 4.8 on our everyday spreadsheet suite at every effort level — and it does it with fewer turns, finishing runs 25–30% faster.”
+
+Peter Wang
+
+Chief Science Officer
+
+01
+
+/
+
+14
 
 ## Claude Fable 5’s new safeguards
 
@@ -151,7 +242,7 @@ Mythos-class models have reached a threshold where they present significant risk
 
 Over the past few months we have been improving these safeguards, and they are now robust enough for a general release. Because we have prioritized safety, we’ve deliberately tuned the safeguards to be cautious, and they are still stricter than would be ideal—for example, sometimes benign requests will trigger our classifiers. We recognize that this will be frustrating to some users, and our aim is to reduce false positives as we update and refine the safeguards after launch.
 
-Below we discuss each of Fable 5’s new safeguards in turn. Our wider suite of safeguards is discussed and evaluated in the model’s [system card](https://anthropic.com/claude-fable-5-mythos-5-system-card) and our most recent [risk report](https://cdn.sanity.io/files/4zrzovbb/website/097c63b5fe7dd8b14866e1f15bb1910ec713658a.pdf).
+Below we discuss each of Fable 5’s new safeguards in turn. Our wider suite of safeguards is discussed and evaluated in the model’s [system card](https://anthropic.com/claude-fable-5-mythos-5-system-card) and our most recent [risk report](https://www-cdn.anthropic.com/files/4zrzovbb/website/097c63b5fe7dd8b14866e1f15bb1910ec713658a.pdf).
 
 ### Safety classifiers
 
@@ -171,7 +262,7 @@ The following are the areas covered by the classifiers:
 
 Results of running cyber evaluations,3 with Fable 5 in a mode that blocks responses rather than falling back to Opus 4.8. Evaluations did not involve attempts to evade safeguards.
 
-We extensively red-teamed our classifiers to test their robustness against jailbreaks. As well as internal testing, we ran an external bug bounty that produced no universal jailbreaks in over 1,000 hours of testing. External red-teaming organizations we engaged also failed to find any universal jailbreaks on long-form agentic tasks so far—although the UK AISI has made progress towards one within a brief initial testing window.[4](https://www.anthropic.com/research/claude-fable-5-mythos-5) It is likely impossible to *completely* prevent universal jailbreaks, but our goal is to make any remaining jailbreaks sufficiently slow and costly that we can detect and prevent them before they are used at scale.
+We extensively red-teamed our classifiers to test their robustness against jailbreaks. As well as internal testing, we ran an external bug bounty that produced no universal jailbreaks in over 1,000 hours of testing. External red-teaming organizations we engaged also failed to find any universal jailbreaks on long-form agentic tasks so far—although the UK AISI has made progress towards one within a brief initial testing window.[4](https://www.anthropic.com/news/claude-fable-5-mythos-5) It is likely impossible to *completely* prevent universal jailbreaks, but our goal is to make any remaining jailbreaks sufficiently slow and costly that we can detect and prevent them before they are used at scale.
 
 The graph below, from one of our internal evaluations, illustrates how Fable 5’s safeguards give it greater resistance to jailbreaks than our previous generally accessible models.
 
@@ -221,29 +312,40 @@ Throughout this period, we’ll communicate any changes ahead of time so users k
 
 *Edit June 9, 2026: Updated the discussion of AAVs to note that the candidates were developed by Dyno Therapeutics.*
 
-#### Footnotes
+## Footnotes
 
-1. Mythos-class models are a tier of Claude models that sit above our Opus class in capability. The first, Claude Mythos Preview, was released in April through [Project Glasswing](https://www.anthropic.com/glasswing). That is followed today by Claude Fable 5 and Claude Mythos 5.
-2. Fable is from the Latin *fabula*, “that which is told,” akin to the Greek *mythos*. The safeguards are what distinguish the two models (Fable and Mythos) and are why we’ve given them different names.
-3. Metrics: Firefox = fraction of trials achieving arbitrary code execution (the exploit's full-success tier). OSS-Fuzz = severity-weighted mean of the five-tier score (0.2 crash → 1.0 control-flow hijack), so values are a weighted average rather than a success rate. CyberGym = fraction reproducing the target vulnerability (the public leaderboard metric). CyScenarioBench = success rate averaged equally across its challenges.
-4. A universal jailbreak can be defined as any prompt, script, or harness that allows a user to interact with a model as if its safeguards were not present. This is opposed to more minor jailbreaks that are only effective in very limited contexts or require additional effort to be adapted to each new situation.
+01Mythos-class models are a tier of Claude models that sit above our Opus class in capability. The first, Claude Mythos Preview, was released in April through [Project Glasswing](https://www.anthropic.com/glasswing). That is followed today by Claude Fable 5 and Claude Mythos 5.
 
-## Related content
+02Fable is from the Latin *fabula*, “that which is told,” akin to the Greek *mythos*. The safeguards are what distinguish the two models (Fable and Mythos) and are why we’ve given them different names.
 
-### Investing in the public benefit
+03Metrics: Firefox = fraction of trials achieving arbitrary code execution (the exploit's full-success tier). OSS-Fuzz = severity-weighted mean of the five-tier score (0.2 crash → 1.0 control-flow hijack), so values are a weighted average rather than a success rate. CyberGym = fraction reproducing the target vulnerability (the public leaderboard metric). CyScenarioBench = success rate averaged equally across its challenges.
 
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
+04A universal jailbreak can be defined as any prompt, script, or harness that allows a user to interact with a model as if its safeguards were not present. This is opposed to more minor jailbreaks that are only effective in very limited contexts or require additional effort to be adapted to each new situation.
 
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
 
-### An update on independent evaluators
+## Solar eclipses
 
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F5f5JYLZHdhw%2Fsddefault.jpg&w=3840&q=75)
 
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
+Claude Fable 5 built this simulation of the solar system, deriving the planets' orbital motion from physics first principles and using it to predict solar eclipses.
 
-### Preparing for the 2026 US midterms
 
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
+## Factorio
 
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F6YPqoARpYuQ%2Fsddefault.jpg&w=3840&q=75)
+
+Claude Fable 5 autonomously plays Factorio, the factory-building game beloved by engineers, strategizing and building an automated factory on its own.
+
+
+## VibeCAD
+
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FtpjJeH1pPws%2Fsddefault.jpg&w=3840&q=75)
+
+Claude Fable 5 designs a complete 3D-printable model in a browser-based CAD editor. The editor itself was also created by Fable 5, including the built-in AI copilot that does the modeling.
+
+
+## Fluid with Classical EDM
+
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FxmP7bhigCWE%2Fsddefault.jpg&w=3840&q=75)
+
+A fluid simulation coded by Claude Fable 5 where the motion is synchronized to the beat of a classical music EDM remix—which Claude Fable 5 produced using code, having never heard music before.

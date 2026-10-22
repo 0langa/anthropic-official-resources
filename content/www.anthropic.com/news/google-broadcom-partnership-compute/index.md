@@ -1,10 +1,26 @@
-Announcements
-
 # Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute
 
-Apr 6, 2026
+- Published
 
-![Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www-cdn.anthropic.com/images/4zrzovbb/website/c0af2a56f56cf298ce5904f2901e9a36facd0dbe-1000x1000.svg)
+  Apr 6, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)See more...
+
+Related articles
+
+- Announcements
+
+  Nov 12, 2025
+
+  [Anthropic invests $50 billion in American AI infrastructure](https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure)
+
+[View more](https://www.anthropic.com/search?topic=compute-energy)
 
 We have signed a new agreement with Google and Broadcom for multiple gigawatts of next-generation TPU capacity that we expect to come online starting in 2027. This significant expansion of our compute infrastructure will power our frontier Claude models and help us serve extraordinary demand from customers worldwide.
 
@@ -17,23 +33,3 @@ The vast majority of the new compute will be sited in the United States, making 
 The partnership deepens our existing work with Google Cloud—building on the increased [TPU capacity](https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services) we announced last October—as well as our relationship with Broadcom.
 
 We train and run Claude on a range of AI hardware—AWS Trainium, Google TPUs, and NVIDIA GPUs—which means we can match workloads to the chips best suited for them. This diversity of platforms translates to better performance and greater resilience for customers who depend on Claude for critical work. Amazon remains our primary cloud provider and training partner, and we continue to work closely with AWS on Project Rainier. Claude remains the only frontier AI model available to customers on all three of the world's largest cloud platforms: Amazon Web Services (Bedrock), Google Cloud (Vertex AI), and Microsoft Azure (Foundry).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

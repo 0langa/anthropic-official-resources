@@ -1,4 +1,4 @@
-Lesson 10 of 66 · Claude with Google Cloud's Vertex AIPrompt evaluation
+Lesson 10 of 66 · Claude on Google CloudPrompt evaluation
 
 # Prompt evaluation
 

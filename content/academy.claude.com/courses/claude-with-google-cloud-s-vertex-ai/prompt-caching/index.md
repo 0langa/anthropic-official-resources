@@ -1,4 +1,4 @@
-Lesson 46 of 66 · Claude with Google Cloud's Vertex AIPrompt caching
+Lesson 46 of 66 · Claude on Google CloudPrompt caching
 
 # Prompt caching
 

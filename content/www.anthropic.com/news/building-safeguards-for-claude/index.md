@@ -1,10 +1,29 @@
-Product
-
 # Building safeguards for Claude
 
-Aug 12, 2025
+- Published
 
-![Building safeguards for Claude](https://www-cdn.anthropic.com/images/4zrzovbb/website/cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
+  Aug 12, 2025
+- Category
+
+  [Safeguards](https://www.anthropic.com/news/safeguards)
+- Topics
+
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
+  - [Wellbeing](https://www.anthropic.com/search?topic=wellbeing)
+  - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)See more...
+
+Related articles
+
+- Security
+
+  Sep 10, 2026
+
+  [Detecting and countering misuse of AI: September 2026](https://www.anthropic.com/threat-intelligence-report-september-2026)
+
+[View more](https://www.anthropic.com/search?topic=safeguards)
 
 Claude empowers millions of users to tackle complex challenges, spark creativity, and deepen their understanding of the world. We want to amplify human potential while ensuring our models’ capabilities are channeled toward beneficial outcomes. This means continuously refining how we support our users’ learning and problem-solving, while preventing misuse that could cause real-world harm.
 
@@ -14,9 +33,9 @@ We operate across multiple layers: developing policies, influencing model traini
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0726b0ac8266805acac21dad8a6b32a5f976a987-7200x4050.png&w=3840&q=75)
 
-*Figure 1: Safeguards’ approach to building effective protections throughout the lifecycle of our models*
+Safeguards’ approach to building effective protections throughout the lifecycle of our models
 
-## **Policy development**
+### Policy development
 
 Safeguards designs our [Usage Policy](https://www.anthropic.com/legal/aup)—the framework that defines how Claude should and shouldn’t be used. The Usage Policy informs how we address critical areas like child safety, election integrity, and cybersecurity while providing nuanced guidance for Claude’s use in industries like healthcare and finance.
 
@@ -27,9 +46,9 @@ Two mechanisms guide our policy development and iteration process:
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd30b0034da7215fa55cce92db8e4a21e161a968f-7200x4050.png&w=3840&q=75)
 
-*Figure 2: Banner displayed during 2024 U.S. election cycle for accurate voting information as a result of our policy vulnerability testing with the Institute for Strategic Dialogue*
+Banner displayed during 2024 U.S. election cycle for accurate voting information as a result of our policy vulnerability testing with the Institute for Strategic Dialogue
 
-## **Claude’s training**
+### Claude’s training
 
 Safeguards works closely with our fine-tuning teams through a collaborative process to help prevent harmful behavior and responses from Claude. This involves extensive discussion about what behaviors Claude should and shouldn't exhibit, which helps to inform decisions about which traits to build into the model during training.
 
@@ -39,13 +58,13 @@ We also work with domain specialists and experts to refine Claude’s understand
 
 Through this collaborative process, Claude develops several important skills. It learns to decline assistance with harmful illegal activities, and it recognizes attempts to generate malicious code, create fraudulent content, or plan harmful activities. It learns how to discuss sensitive topics with care, and how to distinguish between these and attempts to cause actual harm.
 
-## **Testing and evaluation**
+### Testing and evaluation
 
 Before releasing a new model, we evaluate its performance and capabilities. Our evaluations include:
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fba37b3137323a8db3754822663a26dd0a41f2223-7200x4050.png&w=3840&q=75)
 
-*Figure 3: We test each model via safety evaluations, risk assessments, and bias evaluations prior to deployment*
+We test each model via safety evaluations, risk assessments, and bias evaluations prior to deployment
 
 - **Safety evaluations:** We assess Claude’s adherence to our Usage Policy on topics like child exploitation or self-harm. We test a variety of scenarios, including clear usage violations, ambiguous contexts, and extended multi-turn conversations. These evaluations leverage our models to grade Claude’s responses, with human review as an additional check for accuracy.
 - **Risk assessments:** For high-risk domains, such as those associated with cyber harm, or chemical, biological, radiological, and nuclear weapons and high-yield explosives (CBRNE), we conduct AI capability uplift testing in partnership with government entities and private industry. We define threat models that could arise from improved capabilities and assess the performance of our safeguards against these threat models.
@@ -55,7 +74,7 @@ This rigorous pre-deployment testing helps us verify whether training holds up u
 
 The results of our evaluations are reported in our [system cards](https://www.anthropic.com/transparency), released with each new model family.
 
-## **Real-time detection and enforcement**
+### Real-time detection and enforcement
 
 We use a combination of automated systems and human review to detect harm and enforce our Usage Policy once models are deployed.
 
@@ -68,7 +87,7 @@ These classifiers help us determine if and when we take enforcement actions incl
 
 Building these enforcement systems represents a considerable challenge, both in terms of machine learning research needed to design them and engineering solutions required to implement them. For instance, our classifiers must be able to process trillions of input and output tokens, while simultaneously limiting both compute overhead and enforcement on benign content.
 
-## **Ongoing monitoring and investigation**
+### Ongoing monitoring and investigation
 
 We also monitor harmful Claude traffic, going beyond single prompts and individual accounts, to understand the prevalence of particular harms and identify more sophisticated attack patterns. This work includes:
 
@@ -76,28 +95,8 @@ We also monitor harmful Claude traffic, going beyond single prompts and individu
 - **Hierarchical summarization:** To monitor computer use capabilities or potential harmful cyber use, we use [hierarchical summarization](https://alignment.anthropic.com/2025/summarization-for-monitoring/), a technique that condenses individual interactions into summaries and then analyzes these summaries to identify account-level concerns. This helps us spot behaviors that might appear violative only in aggregate, such as automated influence operations and other large-scale misuses.
 - **Threat intelligence:** We also study the most severe misuses of our models, identifying adversarial use and patterns that our existing detection systems might miss. We use methods like comparing indicators of abuse (such as unusual spikes in account activity) against typical account usage patterns to identify suspicious activity and cross-reference external threat data (like open source repositories or industry reporting) with our internal systems. We also monitor channels where bad actors might operate, including social media, messaging platforms, and hacker forums. We share our findings in our public [threat intelligence reports](https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025).
 
-## **Looking forward**
+### Looking forward
 
 Safeguarding AI use is too important for any one organization to tackle alone. We actively seek [feedback](https://support.anthropic.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude) and partnership from users, researchers, policymakers, and civil society organizations. We also build on feedback from the public, including via an ongoing [bug bounty program](https://www.anthropic.com/news/testing-our-safety-defenses-with-a-new-bug-bounty-program) for testing our defenses.
 
 To support our work, we’re actively looking to hire people who can help us tackle these problems. If you’re interested in working on our Safeguards team, we encourage you to check out our [Careers page](https://www.anthropic.com/jobs?team=4002065008).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

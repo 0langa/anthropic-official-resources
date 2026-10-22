@@ -1,4 +1,4 @@
-Lesson 41 of 66 · Claude with Google Cloud's Vertex AIReranking results
+Lesson 41 of 66 · Claude on Google CloudReranking results
 
 # Reranking results
 

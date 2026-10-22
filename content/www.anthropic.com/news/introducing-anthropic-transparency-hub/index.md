@@ -1,10 +1,27 @@
-Societal Impacts
-
 # Introducing Anthropic's Transparency Hub
 
-Feb 27, 2025
+- Published
 
-![Introducing Anthropic's Transparency Hub](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fafa967c5b3e44027494f744d397e5934fcf8bdd8-2881x1621.png&w=3840&q=75)
+  Feb 27, 2025
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)See more...
+
+Related articles
+
+- Policy
+
+  Oct 15, 2026
+
+  [An update on independent evaluators](https://www.anthropic.com/news/an-update-on-independent-evaluators)
+
+[View more](https://www.anthropic.com/search?topic=transparency)
 
 Today, we're launching Anthropic's [Transparency Hub](https://www.anthropic.com/transparency)—a detailed overview of concrete measures we're implementing to ensure our systems are safe, beneficial, and trustworthy.
 
@@ -19,32 +36,12 @@ Our Transparency Hub offers detailed information on:
 - Research initiatives advancing the field of AI safety
 - Security and privacy safeguards implemented throughout development
 
-**Beyond Basic Reporting**
+#### Beyond Basic Reporting
 
 We've designed our approach to address a key challenge in AI governance: the proliferation of diverse documentation requirements across multiple transparency initiatives and voluntary commitments. This hub represents a unified framework, aimed to address the spectrum of requirements. It allows users, policymakers, and stakeholders to have a clear view into our model development and deployment in a structured, accessible and accountable way.
 
-**An Ongoing Commitment**
+#### An Ongoing Commitment
 
 In keeping with our commitment to raising the bar on transparency, we'll continuously expand our reporting to reflect evolving best practices as AI capabilities advance and new challenges emerge.
 
 We invite you to explore the [Transparency Hub](https://www.anthropic.com/transparency) and see firsthand how we're working to build AI systems worthy of trust. We welcome your feedback at transparency@anthropic.com.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

@@ -1,4 +1,4 @@
-Lesson 21 of 66 · Claude with Google Cloud's Vertex AIIntroducing tool use
+Lesson 21 of 66 · Claude on Google CloudIntroducing tool use
 
 # Introducing tool use
 

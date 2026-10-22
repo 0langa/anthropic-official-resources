@@ -1,4 +1,4 @@
-Lesson 20 of 66 · Claude with Google Cloud's Vertex AIProviding examples
+Lesson 20 of 66 · Claude on Google CloudProviding examples
 
 # Providing examples
 

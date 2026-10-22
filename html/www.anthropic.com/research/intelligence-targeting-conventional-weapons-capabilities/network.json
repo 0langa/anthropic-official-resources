@@ -1,0 +1,32 @@
+[
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/blog/frt/Identity%20classification_%20picking%20out%20the%20cell%20members%20among%20linked%20people.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/blog/frt/Identity%20correlation_%20linking%20accounts%20that%20belong%20to%20the%20same%20person.html"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://assets.claude.ai/sdk/antalytics/atm/anthropic_com/latest.umd.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://assets.claude.ai/sdk/antalytics/latest.umd.js"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://a.anthropic.com/isolated-segment.html"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://www.googletagmanager.com/gtm.js"
+  }
+]

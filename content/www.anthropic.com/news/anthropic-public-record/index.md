@@ -1,10 +1,32 @@
-Announcements
+### Chapter 08: Appendix: Methodology
 
 # Results from the first Anthropic Public Record
 
-Jun 12, 2026
+![Results from the first Anthropic Public Record](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd5a7bcc25c2d829930625aa836441383924d22a7-2000x1125.jpg&w=1920&q=75)
 
-![Results from the first Anthropic Public Record](https://www-cdn.anthropic.com/images/4zrzovbb/website/b68cbb43d7c8f56f0b14cc867e8d4d74445f78b0-1000x1000.svg)
+- Published
+
+  Jun 12, 2026
+- Team
+
+  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
+- Topics
+
+  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)See more...
+
+Related articles
+
+- Societal Impacts
+
+  Aug 26, 2026
+
+  [Enabling independent research on how people use Claude](https://www.anthropic.com/research/enabling-independent-research)
+
+[View more](https://www.anthropic.com/search?topic=how-people-use-ai)
 
 We’re conducting a new survey series, Anthropic Public Record, to understand how the public thinks and feels about AI, and presenting a snapshot of the results from the first wave, fielded in November and December of 2025 with nearly 52,000 Americans.
 
@@ -30,17 +52,17 @@ This research builds on other work underway at Anthropic to understand how peopl
 
 The Anthropic Public Record will be repeated regularly, evolving in scope as new topics become more salient, and allowing us to track how the public’s attitudes towards AI change as model capabilities advance and adoption deepens. In the future, we plan to expand outside the US.
 
-### **Method in brief**
+## Method in brief
 
 We conducted a nationally representative online survey in November and December of 2025 of 51,993 Americans, sourced from YouGov and weighted to US Census benchmarks. State samples range from n=232 (Alaska) to n=1,902 (New York), with state-level margins of error between ±2.6 and ±9.1 percentage points. More details on the methodology are available in the Appendix.
 
-### **What Americans hope AI will deliver**
+## What Americans hope AI will deliver
 
 We asked Americans to choose their top three hopes for AI from a list of 17. Curing disease topped the list, with 48% of respondents putting it in their top three, 12 percentage points ahead of the second most commonly selected item, helping people with disabilities, at 36%. Items like therapy and reducing loneliness—or hopes that AI might substitute for human contact—were the lowest ranked of the options presented.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe8e083125487dcbc09340e15130901e2172c6754-2528x2372.png&w=3840&q=75)
 
-### **What Americans fear**
+## What Americans fear
 
 We gave respondents a list of 20 possible harms from AI, asked them to flag each one they felt personally concerned by and then to rate each on a five-point scale of how worried they were. We considered any response of 2 (somewhat worried) or higher as worried. (This methodology differs from the question above, in which we asked participants to rank *only* their three hopes; the numbers aren’t comparable.)
 
@@ -52,19 +74,19 @@ For all but three of the harms we mentioned, a majority of respondents described
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fef7aabafd7abdaae2892f9286877c788a52c9982-2528x2780.png&w=3840&q=75)
 
-## **Patterns with job loss**
+## Patterns with job loss
 
 Sixty-four percent of Americans are worried that AI will displace jobs. The concern is remarkably evenly distributed. It is the top-ranked fear among Democrats (67%) and Republicans (62%), in households with children (59%) and without (66%), and in every state from Iowa at the high end (71%) to Mississippi at the low end (57%).
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4653d27a2bfe64ecb26951b95083b1919753d67a-2528x2144.png&w=3840&q=75)
 
-### **Job loss concerns are higher among Americans with more education**
+### Job loss concerns are higher among Americans with more education
 
 Concerns over job displacement rise with a respondent’s education level. Americans with postgraduate degrees are nearly 10 percentage points more worried about job loss than those with a high school education or less. The workers most worried about displacement, in other words, are the ones whose work already overlaps more closely with what AI is being asked to do—a finding [reflected](https://www.anthropic.com/research/81k-economics) in our economic research team’s analysis of our global Anthropic Interviewer study.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa6adecdb6dcd4a10e8c131745de60b3423f07d9f-2528x1312.png&w=3840&q=75)
 
-### **Fear of job loss is heightened among those who use AI least**
+### Fear of job loss is heightened among those who use AI least
 
 At the same time, people who use AI at work every day are notably *less* worried about job loss than people who don’t use AI at all: 54% versus 70%.
 
@@ -72,7 +94,7 @@ At the same time, people who use AI at work every day are notably *less* worried
 
 There are many possible explanations for this trend. Hands-on experience with AI may help people develop skills and fluency that allow them to augment rather than automate parts of their job, making job loss seem like less of a looming threat. Hands-on experience may also reveal AI's limitations. Likely it’s a combination of these and other factors.
 
-### **Perceived capabilities and acceptance of AI at work**
+### Perceived capabilities and acceptance of AI at work
 
 We gave respondents a list of 14 workplace tasks and for each asked two questions: “How well do you think an AI tool or application could perform this task today?” and “Thinking about your own job, how much AI involvement would you prefer for each of the following work tasks/purposes?”
 
@@ -82,7 +104,7 @@ On most tasks, a majority of Americans did not want AI involvedin their jobs, an
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F50c5fe81fc536fb4cfb27022811ba8d841f2ca8d-2528x2432.png&w=3840&q=75)
 
-### **Cognitive dependency is an anticipatory fear**
+### Cognitive dependency is an anticipatory fear
 
 The second most common fear in our survey was cognitive dependency on AI. To better understand whether people might actually be experiencing dependency, we asked respondents how much disruption they would feel if AI became unavailable tomorrow, then compared the answers of those worried about dependency with those unconcerned by it.
 
@@ -96,7 +118,7 @@ Our qualitative research among [81,000 Claude users](https://www.anthropic.com/f
 
 As with job loss, the dependency fear falls steadily with usage. Americans who use AI daily at work are 16 points less worried about dependency (46%) than those who never do (62%).
 
-### **What the heaviest AI users tell us**
+## What the heaviest AI users tell us
 
 As of late 2025, about 6% of Americans used AI every day for bothwork and personal life. These *integrated users* are a preview of what more intensive adoption of AI looks like, and possibly of where mainstream opinion is headed as adoption grows.
 
@@ -108,35 +130,35 @@ Integrated users are less worried than the general public across each of the har
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2a4141655ac5dcbaff410f46fd9d13b9ecdbedc8-2528x1456.png&w=3840&q=75)
 
-### **What Americans want from AI governance**
+## What Americans want from AI governance
 
 71% of Americans say the government should be involved in the development and regulation of AI. The figure is 79% among Democrats, 68% among Republicans, and 69% among Independents—a bipartisan supermajority. A majority in every state and territory we surveyed supports government involvement in AI, from 81% in the District of Columbia to 63% in Hawaii.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff3e56b04f92bcb5ad89ae415ef23652f60f3057f-2528x2596.png&w=3840&q=75)
 
-### **Where Americans want government to act**
+### Where Americans want government to act
 
 We then asked about eight specific domains, and how heavily the government should be involved in each. Only two—privacy and child safety—draw outright majority support for more than a minimal role. National security, meanwhile, has the narrowest partisan gap of any domain, just three points between Democrats and Republicans.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb59aa2814c89f05f0fdcc01aca5bd86d7080b5d1-2528x2136.png&w=3840&q=75)
 
-### **What Americans want from the industry**
+### What Americans want from the industry
 
 When we asked what should happen to ensure AI is developed in humanity's interest, Americans converged on two answers: hold AI companies legally liable for harm (47% chose it among their top three) and prioritize safety over growth (44%). Independent watchdogs with real power (29%) and slowing AI development for safety (27%) followed.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fadd14f5405fd185ef6e0e523d1212fb46215c5a1-2528x2172.png&w=3840&q=75)
 
-### **The trust deficit**
+### The trust deficit
 
 Only 15% of Americans said they trust AI companies to make decisions about how the technology is developed and used. That was the lowest figure for any institution we tested, below the federal government (20%), state and local government (19%), and international bodies (20%), and far below independent experts (43%).
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F90be42bbfd5671adf2a1f621669d5f688df0abbc-2528x1536.png&w=3840&q=75)
 
-### **Integrated users have the same appetite for regulation and oversight**
+### Integrated users have the same appetite for regulation and oversight
 
 Integrated users were more trusting of every institution we asked about, including AI companies—and were markedly less inclined to say AI development should be slowed or stopped. However, they also support government involvement on AI at essentially the national rate (74% versus 71%), and across the eight specific governance domains we tested, their preferences are nearly indistinguishable from the public's.
 
-### **Anthropic initiatives and what comes next**
+## Anthropic initiatives and what comes next
 
 Public input is critical to ensuring that powerful AI serves humanity’s interests. Anthropic Public Record, Anthropic Interviewer, the Anthropic Economic Index, and many of our other research projects are all efforts to gain greater understanding and input from the public about how to make the AI transition go well.
 
@@ -144,7 +166,7 @@ We recently announced several [policy frameworks](https://www.anthropic.com/poli
 
 The direction AI takes should not be set only by the companies building it. The more clearly the public’s hopes and concerns are measured, the better we—and other companies—can meet them.
 
-### **Appendix: Methodology**
+## Appendix: Methodology
 
 **Population and mode:** Anthropic Public Record is an online survey of the US late-teen and adult internet population, age 16 and over, resident in the 50 states, the District of Columbia, or Puerto Rico. Fieldwork was conducted by YouGov from its online panel between November 1 and December 11, 2025.
 
@@ -157,23 +179,3 @@ The direction AI takes should not be set only by the companies building it. The 
 **Reporting conventions:** All percentages in this report are weighted. Unless noted otherwise, percentages use the full segment as the denominator (respondents who answered "don't know" or skipped remain in the base). "Worried" on the fears battery is the top four boxes of a five-point worry scale. "As good or better" on the capability battery is the top three boxes of a five-point performance scale. "Integrated users" are respondents who report using AI one or more times daily for work and one or more times daily for personal purposes (unweighted n=2,717). Party affiliation groups include leaners.
 
 **Limitations:** Anthropic Public Record captures what Americans believed about AI in late 2025. We are treating it as a baseline.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

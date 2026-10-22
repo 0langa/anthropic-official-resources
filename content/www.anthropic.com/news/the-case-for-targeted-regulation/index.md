@@ -1,10 +1,29 @@
-Policy
-
 # The case for targeted regulation
 
-Oct 31, 2024
+- Published
 
-![A building with columns](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6b04f486cfe0b8a62e4632f3186f23afcd22a890-2880x1621.png&w=3840&q=75)
+  Oct 31, 2024
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)See more...
+
+Related articles
+
+- Policy
+
+  Dec 19, 2025
+
+  [Sharing our compliance framework for California's Transparency in Frontier AI Act](https://www.anthropic.com/news/compliance-framework-SB53)
+
+[View more](https://www.anthropic.com/search?topic=legal-guardrails)
 
 Increasingly powerful AI systems have the potential to [accelerate scientific progress](https://darioamodei.com/machines-of-loving-grace), unlock new medical treatments, and grow the economy. But along with the remarkable new capabilities of these AIs come significant risks. **Governments should urgently take action on AI policy in the next eighteen months. The window for proactive risk prevention is closing fast.**
 
@@ -12,7 +31,7 @@ Judicious, narrowly-targeted regulation can allow us to get the best of both wor
 
 In this post, we suggest some principles for how governments can meaningfully reduce catastrophic risks while supporting innovation in AI’s thriving scientific and commercial sectors.
 
-## Urgency
+### Urgency
 
 In the last year, AI systems have grown dramatically better at math, graduate-level reasoning, and computer coding, along with many other capabilities. Inside AI companies, we see continued progress on as-yet undisclosed systems and results. These advances offer many positive applications. But progress in these same broad capabilities also brings with it the potential for destructive applications, either from the misuse of AI in domains such as cybersecurity or biology, or from the accidental or autonomous behavior of the AI system itself.
 
@@ -26,7 +45,7 @@ AI systems have progressed dramatically in their understanding of the sciences i
 
 About a year ago, we warned that frontier models might pose real risks in the cyber and CBRN domains within 2-3 years. Based on the progress described above, we believe we are now substantially closer to such risks. Surgical, careful regulation will soon be needed.
 
-## A year of Anthropic’s Responsible Scaling Policy
+### A year of Anthropic’s Responsible Scaling Policy
 
 Grappling with the catastrophic risks of AI systems is rife with uncertainty. We see the initial glimmers of risks that could become serious in the near future, but we don’t know exactly when the real dangers will arrive. We want to make the critical preparations well in advance.
 
@@ -46,7 +65,7 @@ Our Responsible Scaling Policy isn’t perfect, but as we’ve repeatedly deploy
 
 RSP-like mechanisms are an efficient, practical way of dealing with the serious risks of AI systems, and should be adopted voluntarily across the industry. However, enforceable regulation is also important, because society will demand reassurance that AI companies are keeping to their promises.
 
-## Responsible Scaling Policies and AI regulation
+### Responsible Scaling Policies and AI regulation
 
 RSPs are not intended as a substitute for regulation, but as a prototype for it. Based on our experience with RSPs, we believe there are three elements that are key for effective AI regulation:
 
@@ -56,13 +75,13 @@ RSPs are not intended as a substitute for regulation, but as a prototype for it.
 
 There are many different approaches that could meet these three criteria; we’re not wedded to any one in particular. Instead, we’re pragmatically interested in finding a reasonable proposal that a critical mass of stakeholders can get behind.
 
-## The importance of getting this right - and soon
+### The importance of getting this right - and soon
 
 It is critical over the next year that policymakers, the AI industry, safety advocates, civil society, and lawmakers work together to develop an effective regulatory framework that meets the conditions above and is agreeable to a wide range of stakeholders. In the US, this will ideally happen at the federal level, though urgency may demand it is instead developed by individual states. The same applies to other governments around the world who are simultaneously considering AI regulation.
 
 This regulatory framework won’t be perfect, and we are conscious that effective regulations are very hard to design. But getting this right is essential to realizing AI’s benefits and addressing its risks.
 
-## FAQ:
+### FAQ:
 
 Below, we address some questions we’ve heard from those who are either skeptical of any AI regulation, or who think it should take a different form. Some of them expand on points we made in the post above.
 
@@ -89,23 +108,3 @@ A: It is critical that the burden of AI regulations is proportionate and tailore
 *Q: Won’t regulation harm the open source ecosystem?*
 
 A: Our view is that regulation of frontier models should focus on empirically measured risks, not on whether a system is open-or closed-weights. Regulation should thus intrinsically neither favor nor disfavor open-weights models, except to the extent that uniform, empirically rigorous tests show them to present greater or less risk. If there are unique risks associated with open weights models—for instance, their ability to be arbitrarily finetuned onto new datasets—then regulation should be designed to incentivize developers to address those risks, just as with closed-weights models.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

@@ -1,12 +1,31 @@
-[Engineering at Anthropic](https://www.anthropic.com/engineering)
-
 # Redesigning source control at Anthropic
 
-Published Oct 13, 2026
+![Redesigning source control at Anthropic](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F797991dbd54214ea4bc68bfeba853ccd134f49ca-2000x1125.jpg&w=1920&q=75)
 
-As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.
+- Published
+
+  Oct 13, 2026
+- Team
+
+  [Engineering](https://www.anthropic.com/engineering)
+- Topics
+
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Productivity](https://www.anthropic.com/search?topic=productivity)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)See more...
 
 *Updated October 15 to include more detail on the projects that pioneered many of the techniques we use in Scion.*
+
+Related articles
+
+- Features
+
+  Feb 23, 2026
+
+  [The making of Claude Code](https://www.anthropic.com/features/making-of-claude-code)
+
+[View more](https://www.anthropic.com/search?topic=coding)
 
 At Anthropic, coding is no longer the bottleneck to building systems or doing research. Claude is able to autonomously iterate on research loops, micro-optimize complex programs, and build new services from the ground up at a speed and scale we haven’t seen before. The bottleneck, now, is all of the developer infrastructure built for human scale: source control, builds, and CI.
 
@@ -18,7 +37,7 @@ Changes merged to our monorepo per day, from January to September 2026.
 
 In order to support this growth, we built Scion, an in-house version control system, and fully migrated our monorepo from git in five months. We also built and shipped a code review surface (called Antique), code search, a rich source control IAM system, novel ways of managing and landing large amounts of reviewed code, and more, all in that same time period. In this post, we’ll focus on how we built Scion specifically. It makes for an interesting case study: Claude’s ability to write code was both what put us in this situation in the first place *and* how we were able to quickly build a high-quality, scalable system to deal with it.
 
-## Growing our monorepo
+### Growing our monorepo
 
 Before we explore what we built, we should acknowledge how unusual our workload is. Unsurprisingly, Anthropic uses Claude to write software far more than almost any other company, so we’re often the first to see where tools built for human scale start to strain. Source control is just one example of this. While we don’t expect many organizations to have these problems in the very near term, we suspect it won’t be too long before others who use AI coding tools experience these same pressure points, which is why we wanted to share what we built and what we learned.
 
@@ -34,9 +53,9 @@ The typical setup for scaling git checkouts.
 
 Taking a step back, we noticed that, like most companies, we were using git as a centralized system with one authoritative copy, but nearly all of our clients were agents and jobs that are online by definition. The properties that make git excellent for distributed, offline work were actively undermining our ability to scale as the repo grew. So we asked ourselves: if we designed source control with the fact that agents are always online in mind from the start, what would it look like?
 
-## Principles for agent-scale source control
+### Principles for agent-scale source control
 
-With agentic coding, many common assumptions about how software is developed are evolving. We embraced these changes when building Scion, which allowed us to take a fundamentally different approach than git on several core principles. Source control for huge monorepos has prior art, notably Google’s [Piper](https://en.wikipedia.org/wiki/Piper_(source_control_system)) and Meta’s [Sapling](https://sapling-scm.com/),[2](https://www.anthropic.com/engineering/redesigning-source-control) so we were able to build Scion with their hard-won lessons in mind. Our principles are:
+With agentic coding, many common assumptions about how software is developed are evolving. We embraced these changes when building Scion, which allowed us to take a fundamentally different approach than git on several core principles. Source control for huge monorepos has prior art, notably Google’s [Piper](https://en.wikipedia.org/wiki/Piper_(source_control_system)) and Meta’s [Sapling](https://sapling-scm.com/),[2](https://www.anthropic.com/research/redesigning-source-control) so we were able to build Scion with their hard-won lessons in mind. Our principles are:
 
 **Clients are always online.** Git assumes that clients work offline and need a complete copy of the repository. Since nearly all of our clients are agents and jobs, we designed Scion’s client and protocols around a server that is always reachable, and have clients fetch data when they need it.
 
@@ -50,13 +69,13 @@ With agentic coding, many common assumptions about how software is developed are
 
 **The working copy is optional, and sparse by design.** Because our monorepo is so large, and because we check out code tens of millions of times a day for CI, we wanted to avoid checkouts whenever we could. With Scion, a CI job that needs the diff between a commit and its merge base, for example, can ask the server for it. The same goes for writes: many write workloads can also skip the checkout and function entirely via API. Scion’s protocol is centered around sparse checkouts, which only contain the directories the client asks for, and virtualized checkouts, which materialize files on demand, so when a job does need files on disk, the client only pays for what it actually reads.
 
-## How Scion works
+### How Scion works
 
 It’s helpful to understand how these principles came together in practice when building Scion. These insights can apply to other source control systems or, more broadly, to other stages of the software development lifecycle.
 
-### Data structures
+#### Data structures
 
-In Scion, the unit of work is a “changeset,” an entry in a write-ahead log. A changeset stores most of what you’d expect from a commit in git. But where a git commit stores a pointer to the tree, a changeset stores a list of the files that changed relative to its first parent,[1](https://www.anthropic.com/engineering/redesigning-source-control) along with content-addressed pointers to the compressed file contents in blob storage. Changesets are created server-side and are available everywhere, instantly.
+In Scion, the unit of work is a “changeset,” an entry in a write-ahead log. A changeset stores most of what you’d expect from a commit in git. But where a git commit stores a pointer to the tree, a changeset stores a list of the files that changed relative to its first parent,[1](https://www.anthropic.com/research/redesigning-source-control) along with content-addressed pointers to the compressed file contents in blob storage. Changesets are created server-side and are available everywhere, instantly.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F71c83868210b4b571abb068ea4cd76de749566b1-3840x2995.png&w=3840&q=75)
 
@@ -68,7 +87,7 @@ A changeset records only what’s changed, so on its own, it can’t quickly ans
 
 This mechanism has three benefits. First, we can easily add a new type of derived data when a new data structure would make some operation faster. Second, for each type, we can choose whether to compute it eagerly or defer the work, so we avoid materializing data we don’t need. And third, because the client never sees the internals of these data structures, we can optimize them without changing the client. We’ve added new types of derived data many times as the system has grown, such as new indices for performing copy detection or path-based file search.
 
-### Scaling Scion
+#### Scaling Scion
 
 A small fleet of Scion servers provides source control APIs for any operation a client needs, such as getting changesets, computing diffs, finding merge bases, and fetching blobs. All source control data is content-addressed, so a piece of data never changes once it’s stored, and any server can cache it without checking with the others. As a result, the servers are horizontally scalable and require little coordination. They are essentially large caches that can also compute derived data on the fly and write the results back to Spanner.
 
@@ -86,7 +105,7 @@ Scion’s checkout architecture.
 
 Each tier of this system maintains a cache hit rate of over 99% and does not require long-lived state, so it’s easy to scale up if needed. Our Scion infrastructure footprint is now 200x smaller than our previous git mirroring infrastructure in terms of CPU and memory requirements. CI and research jobs check out code two orders of magnitude faster (in seconds rather than minutes), which frees up a sizable amount of capacity across the fleet; CI alone realized a 25% CPU capacity win. Neither clients nor caches need to perform repository maintenance, which simplifies the lifecycle management of our jobs.
 
-## What we learned building Scion
+### What we learned building Scion
 
 We started building Scion around the same time as [Claude Mythos Preview](https://www.anthropic.com/claude/mythos) and [Claude Tag](https://www.anthropic.com/news/introducing-claude-tag) became available internally. Both of these releases simultaneously amplified the need for Scionand meaningfully accelerated how quickly we could build it.
 
@@ -114,7 +133,7 @@ Observed performance improvements on native Scion repos.
 
 **We’re completely rethinking our priors.** This project prompted us to take a very hard look at other workflows designed for human scale. A proper merge queue, for example, doesn’t make much sense at agent scale. What does CI even mean when hundreds or even thousands of changes can merge while tests are running? We haven’t been able to effectively replicate the industry standard of a global repository lock on the merge queue, so instead, we’ve invested in post-merge and pre-deploy automated testing. This does mean that concurrent changes can conflict, but Claude can typically fix these conflicts faster than humans can even identify them.
 
-## Contributing to the wider ecosystem
+### Contributing to the wider ecosystem
 
 We see Scion as just one part of the answer to the scaling concerns that increasingly capable AI agents have raised. We’re sharing these details as an example of how teams can tackle similar challenges, though we don’t expect our solution, or our considerations, to suit every case.
 
@@ -126,17 +145,14 @@ However, we anticipate that this class of problems will become more commonplace 
 
 Lastly, we want to acknowledge that the git community has spent nearly two decades scaling the platform for millions of developers. Our contribution is far narrower: sharing our early view into how agentic software development interacts with these systems, so that we can partner with GitHub, GitLab, and the OSS community to support the changing needs of developers. We’re all in it together as the software development lifecycle intersects with the AI exponential.
 
-## Acknowledgements
-
-Written by Nick G. and the source control team: S.G., R.K., Dan C., Garrett H., Ben L., Colin M., Joe P. We’re grateful to Vilas J. and Sergiu D. for supporting the source control team on this ambitious journey and Amir O. for early contributions to Antique.
-
 ## Footnotes
 
-1. Storing changed files relative to the first parent of a merge is a stylistic choice; in practice, we’ve found that people only care about history or blame for commits on the main line in trunk-based development in a monorepo.
-2. Specifically, the server component of Sapling, [Mononoke](https://github.com/facebook/sapling/blob/main/eden/mononoke/README.md). It pioneered many of the techniques we use in Scion, in particular the [Bonsai](https://github.com/facebook/sapling/blob/79071c2a3ea20c36ed71332608535e5801101bba/eden/mononoke/mononoke_types/serialization/bonsai.thrift) data model.
+01Storing changed files relative to the first parent of a merge is a stylistic choice; in practice, we’ve found that people only care about history or blame for commits on the main line in trunk-based development in a monorepo.
 
-## Get the developer newsletter
+02Specifically, the server component of Sapling, [Mononoke](https://github.com/facebook/sapling/blob/main/eden/mononoke/README.md). It pioneered many of the techniques we use in Scion, in particular the [Bonsai](https://github.com/facebook/sapling/blob/79071c2a3ea20c36ed71332608535e5801101bba/eden/mononoke/mononoke_types/serialization/bonsai.thrift) data model.
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+## Authors & Acknowledgments
 
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+### Acknowledgements
+
+Written by Nick G. and the source control team: S.G., R.K., Dan C., Garrett H., Ben L., Colin M., Joe P. We’re grateful to Vilas J. and Sergiu D. for supporting the source control team on this ambitious journey and Amir O. for early contributions to Antique.

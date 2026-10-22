@@ -1,6 +1,6 @@
 # Features and capabilities
 
-34 articles
+36 articles
 
 [What are artifacts and how do I use them?](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them)
 
@@ -54,8 +54,6 @@
 
 [Available beta and research preview features](https://support.claude.com/en/articles/14503520-available-beta-and-research-preview-features)
 
-[Use Claude Security](https://support.claude.com/en/articles/14661296-use-claude-security)
-
 [See your monthly recap](https://support.claude.com/en/articles/15672559-see-your-monthly-recap)
 
 [Get started with Claude Science](https://support.claude.com/en/articles/16563838-get-started-with-claude-science)
@@ -69,3 +67,9 @@
 [Claude Docs keyboard shortcuts](https://support.claude.com/en/articles/17458093-claude-docs-keyboard-shortcuts)
 
 [Use artifacts with a keyboard or screen reader](https://support.claude.com/en/articles/17457950-use-artifacts-with-a-keyboard-or-screen-reader)
+
+[Get started with Claude Duet](https://support.claude.com/en/articles/17631495-get-started-with-claude-duet)
+
+[How to use Link by Stripe with Claude Duet](https://support.claude.com/en/articles/17666484-how-to-use-link-by-stripe-with-claude-duet)
+
+[How to use Shop Pay with Claude Duet](https://support.claude.com/en/articles/17666489-how-to-use-shop-pay-with-claude-duet)

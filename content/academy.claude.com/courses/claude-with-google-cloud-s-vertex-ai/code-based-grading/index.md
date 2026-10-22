@@ -1,4 +1,4 @@
-Lesson 15 of 66 · Claude with Google Cloud's Vertex AICode based grading
+Lesson 15 of 66 · Claude on Google CloudCode based grading
 
 # Code based grading
 

@@ -1,16 +1,33 @@
-Announcements
+# **Claude in Amazon Bedrock:**Approved for use in FedRAMP High and DoD IL4/5 workloads
 
-# Claude in Amazon Bedrock: Approved for use in FedRAMP High and DoD IL4/5 workloads
+- Published
 
-Jun 11, 2025
+  Jun 11, 2025
+- Category
 
-![A hand drawn illustration of a hand holding a white key vertically against a blue background. ](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4b7d06ee68925400d1e2444fa067ccb1eca95705-2881x1621.png&w=3840&q=75)
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+  - [National security](https://www.anthropic.com/search?topic=national-security)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Access](https://www.anthropic.com/search?topic=access)See more...
+
+Related articles
+
+- Product
+
+  Aug 5, 2025
+
+  [Federal government departments and agencies can now purchase Claude through the GSA schedule](https://www.anthropic.com/news/federal-government-departments-and-agencies-can-now-purchase-claude-through-the-gsa-schedule)
+
+[View more](https://www.anthropic.com/search?topic=government-capacity)
 
 Today, we're announcing that Claude models are approved for use in FedRAMP High and DoD Impact Level 4 and 5 workloads through [Amazon Bedrock](https://aws.amazon.com/bedrock/anthropic/) in AWS GovCloud (US) regions.
 
 Federal agencies and defense organizations can now access Claude's advanced AI capabilities while meeting the government’s stringent security requirements—opening new possibilities for mission-critical applications across defense, intelligence, and sensitive civilian operations.
 
-## **Enabling secure AI for the most sensitive workloads**
+### Enabling secure AI for the most sensitive workloads
 
 DoD Impact Level 4, 5, and FedRAMP High authorizations represent the highest levels of cloud security certification for unclassified and controlled unclassified information. Claude has received approval for use in Amazon Bedrock for workloads requiring FedRAMP and DoD authorization, enabling Anthropic and AWS to support users across the full spectrum of unclassified government workloads.
 
@@ -22,34 +39,14 @@ With Claude in Amazon Bedrock, federal agencies can now:
 - Build AI agents that process controlled unclassified information
 - Leverage Claude's advanced intelligence and 200K token context window for comprehensive analysis of large datasets
 
-## **Accelerating government AI adoption**
+### Accelerating government AI adoption
 
 Our goal is to enable commercial availability of Claude models across every region where public sector customers operate, meeting the security accreditations their mission-critical workloads require. Claude on Amazon Bedrock provides a fully managed service that eliminates infrastructure complexity while maintaining required security controls.
 
 Government customers now have flexibility to deploy some of the most capable AI systems across multiple secure platforms—including Google Cloud's Vertex AI for FedRAMP High and IL2, and Amazon Bedrock for FedRAMP Moderate and High and DoD IL2 and IL4/5.
 
-## **Getting started**
+### Getting started
 
 Federal agency employees, defense contractors, and approved partners can access Claude models through Amazon Bedrock in AWS GovCloud (US) regions using familiar AWS APIs and management tools.
 
 [Contact our public sector team](mailto:pubsec@anthropic.com) for guidance on implementing Claude in your federal environment while ensuring full compliance with government security requirements.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

@@ -74,7 +74,7 @@ Remember: the agent is reusable. Create it once and run it across many sessions.
 
 ## Step 2: Create the environment[](https://academy.claude.com/courses/claude-platform-101/building-your-first-managed-agent)
 
-Next, the environment. This spins up the container template — cloud, with unrestricted networking. This is the sandbox where the file actually gets written:
+Next, the environment. It defines the sandbox your agent runs in: cloud, with `limited` networking. With `limited`, the sandbox and the web tools reach only the hosts you list in `allowed_hosts`. This task needs no network, so we list none. Use `unrestricted` only when the agent must reach sites you can't list in advance. Each session gets its own sandbox, and that's where the file gets written:
 
 python
 
@@ -83,7 +83,7 @@ environment = client.beta.environments.create(
     name="line-counter-env",
     config={
         "type": "cloud",
-        "networking": {"type": "unrestricted"},
+        "networking": {"type": "limited"},
     },
 )
 ```
@@ -136,7 +136,9 @@ Finally, we consume the stream. There are three event types that matter for this
 
 - `agent.message` — Claude's text
 - `agent.tool_use` — what tool Claude picked
-- `session.status_idle` — the agent is done
+- `session.status_idle` — the agent has stopped and is waiting for input
+
+This demo stops at the first idle event. In your own app, check `event.stop_reason.type` before you treat the work as done: `end_turn` means the agent finished its turn or you interrupted it, and `requires_action` means a tool call needs an answer from you.
 
 python
 
@@ -159,7 +161,7 @@ Run it, and the output is the agent reasoning out loud — actual text, the tool
 
 ## The trade[](https://academy.claude.com/courses/claude-platform-101/building-your-first-managed-agent)
 
-Usually with agents, we have our own loop where we have to control everything. With managed agents, you delegate that loop, the sandbox, and the resumability — and just consume the event stream as it comes in.
+Usually with agents, we have our own loop where we have to control everything. With managed agents, you delegate that loop, the sandbox, and the resumability — and just consume the event stream as it comes in. The session's event history is stored on the server. So if your connection drops, open a new stream, list the past events to see what you missed, and skip any live event the list already returned. See [Reconnect without missing events(opens in new tab)](https://platform.claude.com/docs/en/managed-agents/events-and-streaming) for the code.
 
 In a production app, this is the shape for long-running, file-touching, "go organize this for me" tasks. Picture a file share cleanup: a managed agent reads a target directory structure spec, walks the messy incoming folder, moves files into the right project folders, archives duplicates and zero-byte garbage, and flags anything it can't confidently place — all in a session that can run for minutes against thousands of files. Here's what that looks like in a real app — a fileshare cleanup dashboard streaming the agent's activity live as it sorts, archives, and flags files:
 
@@ -171,7 +173,7 @@ In a production app, this is the shape for long-running, file-touching, "go orga
 - The flow is: **create an agent, create an environment, create a session, send events in, and stream events out**.
 - The **agent** (model, system prompt, toolset) is reusable across runs; the **session** is a single run; **events** are how everything flows.
 - Open the event stream **before** sending your kickoff message — it only delivers events that occur after it opens.
-- Watch for three events: `agent.message` (text), `agent.tool_use` (tool picks), and `session.status_idle` (done).
+- Watch for three events: `agent.message` (text), `agent.tool_use` (tool picks), and `session.status_idle` (stopped and waiting for input, with `stop_reason.type` saying why).
 - Reach for managed agents when the loop would run too long, do too much, or need to survive a hiccup. Reach for a manual loop when you want full control.
 
 Was this helpful?

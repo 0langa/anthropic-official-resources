@@ -10,7 +10,7 @@ A playbook for rolling out Claude Cowork across your organization.
 
 ## The scaling mindset[](https://academy.claude.com/tutorials/scaling-workflows-with-claude-cowork-at-your-organization)
 
-Skills, plugins, and connectors compose into an operating model that transforms work across departments. Once Cowork is set up and you’re ready to roll it out to your teams, the question becomes: "we've deployed Cowork, now how do we think about building and governing the workflows that make it valuable?"
+Skills, plugins, and connectors compose into an operating model that transforms work across departments. Once Cowork is set up and you're ready to roll it out to your teams, the question becomes: "we've deployed Cowork, now how do we think about building and governing the workflows that make it valuable?"
 
 The organizations getting the most from AI aren't the ones with the best prompts — they're the ones that treat adoption as an organizational design problem.
 
@@ -34,16 +34,16 @@ A finance team member asks Claude to reconcile the December cash account. The **
 
 ### Skill flywheel: from individual to the organization[](https://academy.claude.com/tutorials/scaling-workflows-with-claude-cowork-at-your-organization)
 
-Skills, connectors and plugins scale beyond unique workflows for individuals. Taking finance as an example, here’s the typical flow for individual expertise to become an organizational capability:
+Skills, connectors and plugins scale beyond unique workflows for individuals. Taking finance as an example, here's the typical flow for individual expertise to become an organizational capability:
 
 1. **Build:** An FP&A manager may workshop and build a skill to pull monthly variance reports, including instructions on how to analyze revenue. The manager shares the skill with teammates.
 2. **Vet:** They give it to a few FP&A analysts to test, screen and make sure the skill is effective and safe.
 3. **Promote:** Once vetted, the finance champion promotes it to the Finance team plugin which ensures distribution to every finance teammate. Now, every FP&A analyst can run the variance skill, or schedule a prompt that runs it on a cadence.
 4. **Spread:** Throughout the department, the goal is to form a mature library of vetted skills: Accounting builds skills for completing journal entries, Treasury for completing daily cash management. They all get screened and approved by a department champion or admin.
 
-Skills and plugins can drive horizontal workflows across your org, too. For example, an org-wide branding skill released by the design team could be provisioned by admins for every user of Cowork. Now when the Finance team creates charts, they always abide by the Org’s branding skill guidelines. Other workflows that cut across departments include Performance review skills that help managers draft self-reviews or compile peer feedback or a Company wiki built by connecting Claude Cowork to your knowledge base paired with skills that know how to search and synthesize it.
+Skills and plugins can drive horizontal workflows across your org, too. For example, an org-wide branding skill released by the design team could be provisioned by admins for every user of Cowork. Now when the Finance team creates charts, they always abide by the Org's branding skill guidelines. Other workflows that cut across departments include Performance review skills that help managers draft self-reviews or compile peer feedback or a Company wiki built by connecting Claude Cowork to your knowledge base paired with skills that know how to search and synthesize it.
 
-That’s the flywheel — personal expertise becoming organizational capability, and org capabilities and best-practices getting distributed across teams.
+That's the flywheel — personal expertise becoming organizational capability, and org capabilities and best-practices getting distributed across teams.
 
 ## 2. Choosing a governance posture[](https://academy.claude.com/tutorials/scaling-workflows-with-claude-cowork-at-your-organization)
 
@@ -51,18 +51,18 @@ Workflows scale when skills get distributed through departments and surface to t
 
 Your governance posture determines which of these paths are open. Think through the right skill and plugin management approach for your org as you select initial settings.
 
-<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">Posture</th><th class="border-b border-strong p-sm text-left font-medium">What it means</th><th class="border-b border-strong p-sm text-left font-medium">Organization settings &gt; Skills</th></tr></thead><tbody><tr><td class="border-b p-sm">Admin curated</td><td class="border-b p-sm"><strong>Admins provision; users consume</strong><br/>Users can't create personal skills. Peer-to-peer and peer-to-org sharing are both disabled.<br/><br/>Skills and plugins come from admins only.</td><td class="border-b p-sm"><strong>Skills:</strong> On<br/><strong>User-created skills:</strong> Off<br/><strong>Skill sharing:</strong> Off<br/><strong>Publishing:</strong> Off</td></tr><tr><td class="border-b p-sm">Guided creation</td><td class="border-b p-sm"><strong>Users create and share skills peer-to-peer; champions promote to plugins.</strong><br/><br/>Users can create personal skills and share skills with peers.<br/><br/>Sharing disabled peer-to-org. Champions review and promote the best skills to team plugins.</td><td class="border-b p-sm"><strong>Skills:</strong> On<br/><strong>User-created skills:</strong> On<br/><strong>Skill sharing:</strong> On<br/><strong>Publishing:</strong> Off</td></tr><tr><td class="border-b p-sm">Fully open</td><td class="border-b p-sm"><strong>Users create and share with each other and org-wide; admins monitor and curate plugins.</strong><br/><br/>Users can create personal skills and share skills with peers and the org.<br/><br/>Admins monitor skill adoption and usage. Champions run quarterly skill reviews.</td><td class="border-b p-sm"><strong>Skills:</strong> On<br/><strong>User-created skills:</strong> On<br/><strong>Skill sharing:</strong> On<br/><strong>Publishing:</strong> Open</td></tr></tbody></table>
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">Posture</th><th class="border-b border-strong p-sm text-left font-medium">What it means</th><th class="border-b border-strong p-sm text-left font-medium">Organization settings &gt; Plugins &amp; skills &gt; Policy</th></tr></thead><tbody><tr><td class="border-b p-sm">Admin curated</td><td class="border-b p-sm"><strong>Admins provision; users consume</strong><br/>Users can't create personal skills. Peer-to-peer and peer-to-org sharing are both disabled.<br/><br/>Skills and plugins come from admins only.</td><td class="border-b p-sm"><strong>Skills:</strong> On<br/><strong>User-created skills:</strong> Off<br/><strong>Skill sharing:</strong> Off<br/><strong>Publishing:</strong> Off</td></tr><tr><td class="border-b p-sm">Guided creation</td><td class="border-b p-sm"><strong>Users create and share skills peer-to-peer; champions promote to plugins.</strong><br/><br/>Users can create personal skills and share skills and their own plugins with peers.<br/><br/>Sharing disabled peer-to-org. Champions review and promote the best skills to team plugins.</td><td class="border-b p-sm"><strong>Skills:</strong> On<br/><strong>User-created skills:</strong> On<br/><strong>Skill sharing:</strong> On<br/><strong>Publishing:</strong> Off</td></tr><tr><td class="border-b p-sm">Fully open</td><td class="border-b p-sm"><strong>Users create and share with each other and org-wide; admins monitor and curate plugins.</strong><br/><br/>Users can create personal skills and share skills and their own plugins with peers and the org.<br/><br/>Admins monitor skill adoption and usage. Champions run quarterly skill reviews.</td><td class="border-b p-sm"><strong>Skills:</strong> On<br/><strong>User-created skills:</strong> On<br/><strong>Skill sharing:</strong> On<br/><strong>Publishing:</strong> Open</td></tr></tbody></table>
 
-Posture isn't one switch — it's three org-level settings in Organization settings > Skills, plus how you scope plugins:
+Posture isn't one switch. It's three org-level settings in Organization settings > Plugins & skills (Policy tab), plus how you scope plugins:
 
 - User-created skills — can users build their own?
-- Skill sharing — can users hand a skill to a teammate?
-- Publishing — can users publish to the org library: not at all (Off), once an owner approves each submission (Requires review), or freely (Open)?
+- Skill sharing — can users hand a skill or plugin they made to a teammate?
+- Publishing — can users publish to the org library: not at all ("Off"), once an owner, or anyone whose role has Libraries set to "Can manage", approves each submission ("Requires review"), or freely ("Open")?
 - Plugin group access — which groups see / auto-install each plugin?
 
 Plugin sharing to groups allows Admins to override a plugin's org-wide availability for specific groups, further scoping plugin access — e.g. make a plugin available only to the Legal group, or auto-install it for Engineering while keeping it hidden from everyone else.
 
-Governance posture does not currently control Connector access. Connectors are org-wide on/off today and you can't scope them per team. RBAC only governs capability access (Cowork, Code, etc.), not skill sharing.
+Governance posture does not currently control Connector access. Connectors are org-wide on/off and, on Enterprise plans, scoped per group through custom roles. RBAC governs capability access (Cowork, Code, etc.), including who can create and share skills, within the org-level settings above.
 
 **For how admins distribute skills and plugins (**admin-provisioned skills, group-scoped plugins, GitHub-synced marketplace), see [Provision and manage skills for your org(opens in new tab)](https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization), [Managing Cowork plugins,(opens in new tab)](https://support.claude.com/en/articles/13837433-manage-cowork-plugins-for-your-organization) and [Customize plugin access by group(opens in new tab)](https://support.claude.com/en/articles/13837433-manage-claude-cowork-plugins-for-your-organization)**.**
 
@@ -241,9 +241,9 @@ Lasting adoption means Claude Cowork is already running when users sit down in t
 
 ## 6. FAQ[](https://academy.claude.com/tutorials/scaling-workflows-with-claude-cowork-at-your-organization)
 
-**Can I control which connectors specific users see?** No. Currently, you can only enable connectors org-wide.
+**Can I control which connectors specific users see?** Yes, on Enterprise plans. Users on a custom role see only the connectors their roles include; users on a built-in role see every connector enabled org-wide.
 
-**If I enable a connector, does Claude automatically access everyone's data?** No. Connectors use a two-gate model: an admin enables the connector org-wide, then each user individually OAuths to link their own account. Claude can only access data within that user's existing permissions.
+**If I enable a connector, does Claude automatically access everyone's data?** No. Connectors use a three-gate model: an admin enables the connector org-wide, the user's role includes it, and each user links their own account, unless you set up managed authorization through your identity provider. Claude can only access data within that user's existing permissions.
 
 **Can users share skills that include API keys or credentials?** Skills should never contain credentials. If a skill needs authenticated access, it should use a connector. Include this in your champion training and skill-vetting process. We recommend creating a skill-audit skill that runs standard checks before approving skills for org-wide distribution or inclusion in plugins.
 

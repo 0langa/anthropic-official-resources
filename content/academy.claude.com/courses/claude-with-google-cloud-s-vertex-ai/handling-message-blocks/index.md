@@ -1,4 +1,4 @@
-Lesson 25 of 66 · Claude with Google Cloud's Vertex AIHandling message blocks
+Lesson 25 of 66 · Claude on Google CloudHandling message blocks
 
 # Handling message blocks
 

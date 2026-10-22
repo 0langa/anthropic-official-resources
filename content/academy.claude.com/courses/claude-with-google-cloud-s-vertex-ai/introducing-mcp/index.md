@@ -1,4 +1,4 @@
-Lesson 49 of 66 · Claude with Google Cloud's Vertex AIIntroducing MCP
+Lesson 49 of 66 · Claude on Google CloudIntroducing MCP
 
 # Introducing MCP
 

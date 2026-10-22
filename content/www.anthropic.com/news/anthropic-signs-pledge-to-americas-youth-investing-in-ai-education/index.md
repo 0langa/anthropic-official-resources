@@ -1,30 +1,48 @@
-Announcements
+# **Anthropic Signs White House Pledge to America's Youth:**Investing in AI Education
 
-# Anthropic Signs White House Pledge to America's Youth: Investing in AI Education
+- Published
 
-Sep 4, 2025
+  Sep 4, 2025
+- Category
 
-![Anthropic Signs White House Pledge to America's Youth: Investing in AI Education](https://www-cdn.anthropic.com/images/4zrzovbb/website/6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Education](https://www.anthropic.com/search?topic=education)
+  - [Funding](https://www.anthropic.com/search?topic=funding)
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)See more...
+
+Related articles
+
+- Partnerships
+
+  Mar 12, 2026
+
+  [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
+
+[View more](https://www.anthropic.com/search?topic=education)
 
 Following our August signing of the White House's '[Pledge to America's Youth: Investing in AI Education'](https://www.whitehouse.gov/edai/), today we joined companies across the country at the White House's AI Education Taskforce event, deepening our commitment to helping America's students build essential skills to excel and lead with AI.
 
 Anthropic has made three concrete commitments that will expand AI education access nationwide:
 
-### **$1 million investment in K-12 cybersecurity education:**
+#### $1 million investment in K-12 cybersecurity education:
 
 Anthropic is investing $1 million over three years to fund PicoCTF, Carnegie Mellon University's hands-on cybersecurity education program for middle and high school students. PicoCTF teaches critical problem-solving skills through interactive challenges, with a focus on reaching students from underserved communities where these programs can open doors to new career paths. This investment will help thousands more students develop the cybersecurity and critical thinking skills essential for the AI era.
 
-### **Support for the Presidential AI Challenge:**
+#### Support for the Presidential AI Challenge:
 
 We have signed up to support students and educators entering the White House’s newly launched Presidential AI Challenge, a national challenge where students, educators, mentors, and community teams come together to solve problems in their communities using AI-powered solutions. Students and educators looking to participate in the Presidential AI Challenge can get started [by clicking here](https://orise.orau.gov/ai-challenge/).
 
-### **Comprehensive AI Fluency curriculum for educators:**
+#### Comprehensive AI Fluency curriculum for educators:
 
 Anthropic is also developing and launching AI Fluency curriculum for instructors who teach K-12 and higher education. Building on our [existing courses](https://www.anthropic.com/learn), this comprehensive curriculum will help educators nationwide integrate AI thoughtfully into their classrooms. Critically, this curriculum is Creative Commons licensed— freely available for anyone to use, modify, and share—and designed to work with any AI system, ensuring equitable access regardless of school resources.
 
 All of these commitments build on the efforts we have already undertaken to ensure that students and educators across the country are harnessing and benefitting from AI.
 
-## **AI’s impact on learning across the country**
+### AI’s impact on learning across the country
 
 Through partnerships with leading education platforms, we're seeing how AI is helping to transform learning for millions of students and educators across America:
 
@@ -34,32 +52,12 @@ Through partnerships with leading education platforms, we're seeing how AI is he
 
 Beyond helping students learn with AI, we're helping them build with it. [Claude for Education](https://www.anthropic.com/solutions/education) serves 100,000+ students and faculty, including USF Law's first fully AI-integrated curriculum and Northeastern's 13-campus adoption. Additionally, [Claude Builder Clubs](https://www.anthropic.com/campus) are launching in over 60 U.S. universities this fall, empowering students to launch real startups and build tools that solve problems in their communities.
 
-## **Research-driven, educator-led development**
+### Research-driven, educator-led development
 
 How AI enters classrooms now will shape students’ relationship with technology and learning for years to come which is why ground our education initiatives in real-world evidence. We recently analyzed [over one million university student conversations](https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude) and [74,000 educator conversations](https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude) to understand how AI is actually being used in classrooms. Our research revealed that university students primarily use AI for complex tasks like creating and analyzing (70% of usage), while educators use it most for curriculum development (57%) and are building custom classroom tools with Claude Artifacts—from interactive simulations to grading rubrics.
 
 These findings directly shape our products: we designed Learning Mode in Claude to emphasize critical thinking in students, and we developed our AI Fluency curriculum to match how educators really integrate these tools into teaching. By studying usage patterns, we ensure our education tools enhance rather than compromise learning.
 
-## Looking forward
+### Looking forward
 
 Our participation in today's White House AI Education Taskforce meeting demonstrates our commitment to working alongside government and industry partners to ensure America's students and educators are prepared for an AI-powered future. Through initiatives like the White House Pledge to America's Youth: Investing in AI Education, we’ll continue to invest in America's next generation of leaders, innovators, and problem-solvers. Learn more about our education work at [anthropic.com/education](http://anthropic.com/education).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

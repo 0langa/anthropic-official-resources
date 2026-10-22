@@ -1,10 +1,28 @@
-Announcements
-
 # Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce
 
-Apr 24, 2026
+- Published
 
-![Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce](https://www-cdn.anthropic.com/images/4zrzovbb/website/4df0ff37e58fe70b216d31d8fcf6f0045a4d5694-1000x1000.svg)
+  Apr 24, 2026
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)See more...
+
+Related articles
+
+- Announcements
+
+  Jun 17, 2026
+
+  [Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem](https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem)
+
+[View more](https://www.anthropic.com/search?topic=partnerships)
 
 [NEC Corporation](https://www.nec.com/) will use Claude as it builds one of Japan’s largest AI-native engineering organizations, making it available to approximately 30,000 NEC Group employees worldwide.
 
@@ -12,40 +30,20 @@ As part of this strategic collaboration, NEC will become Anthropic’s first Jap
 
 “This long-term partnership with Anthropic enables NEC to maximize the potential of AI in the Japanese market,” said Toshifumi Yoshizaki, Executive Officer and COO of NEC Corporation. “Together, we aim to create solutions that meet the high safety, reliability, and quality standards demanded by companies and public administration in Japan.”
 
-### **Claude for NEC’s customers**
+#### Claude for NEC’s customers
 
 NEC and Anthropic will jointly develop secure, domain-specific AI products for Japanese customers in sectors like finance, manufacturing, and cybersecurity. In addition, NEC is already integrating Claude into its Security Operations Center services to help defend customers against increasingly sophisticated cybersecurity threats. Claude will also be integrated into the next-generation cybersecurity service NEC is currently providing.
 
 Claude, including Claude Opus 4.7, and [Claude Code](https://www.anthropic.com/claude-code) will be incorporated into [NEC BluStellar Scenario](https://www.nec.com/en/global/necblustellar/index.html), a program that provides consulting, AI tools, security, and digital infrastructure to businesses, starting with its offerings for data-driven management and customer experience, and gradually expanding to others.
 
-### **How NEC will use Claude internally**
+#### How NEC will use Claude internally
 
 Internally, NEC will establish a Center of Excellence to develop a highly skilled, AI-enabled engineering organization, supported by technical enablement and training from Anthropic. NEC aims to build one of Japan’s largest AI-native engineering teams, which will use Claude Code in their work.
 
 As part of its long-running Client Zero initiative, in which NEC serves as its own first customer before offering its technology to clients, NEC will also expand its use of [Claude Cowork](https://www.anthropic.com/claude) across its internal business operations.
 
-### **Availability**
+#### Availability
 
 Claude is now being deployed to NEC Group employees around the world, and our joint development of industry-specific AI solutions is underway. Learn more about NEC’s value-creation model at [NEC BluStellar](https://www.nec.com/en/global/necblustellar/index.html).
 
 *Claude, Claude Code, and Claude Cowork are Anthropic products. NEC BluStellar is an offering from NEC Corporation.*
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

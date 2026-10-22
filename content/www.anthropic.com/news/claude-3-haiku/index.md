@@ -1,10 +1,28 @@
-Announcements
+# **Claude 3 Haiku:**our fastest model yet
 
-# Claude 3 Haiku: our fastest model yet
+- Published
 
-Mar 13, 2024
+  Mar 13, 2024
+- Category
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc0fb44100d911f737e71165d9bf6a3551ba37757-2880x1620.png&w=3840&q=75)
+  [Models](https://www.anthropic.com/news/models)
+- Topics
+
+  - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
+  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+
+Related articles
+
+- Product
+
+  Nov 18, 2025
+
+  [Claude now available in Microsoft Foundry and Microsoft 365 Copilot](https://www.anthropic.com/news/claude-in-microsoft-foundry)
+
+[View more](https://www.anthropic.com/search?topic=claude-haiku)
 
 Today we’re releasing Claude 3 Haiku, the fastest and most affordable model in its intelligence class. With state-of-the-art vision capabilities and strong performance on industry benchmarks, Haiku is a versatile solution for a wide range of enterprise applications. The model is now available alongside Sonnet and Opus in the Claude API and on claude.ai for our Claude Pro subscribers.
 
@@ -18,32 +36,10 @@ Alongside its speed and affordability, Claude 3 Haiku prioritizes enterprise-gra
 
 Starting today, customers can use Claude 3 Haiku through our [API](https://www.anthropic.com/api) or with a Claude Pro subscription on claude.ai. Claude 3 Haiku is available on Amazon Bedrock and will be coming soon to Google Cloud Vertex AI.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9169d7976c74c5da28de0369cfaa85ab4268adc9-1148x272.png&w=3840&q=75)
+## Footnotes
 
-#### Footnotes
+01Prompts containing over 32K tokens may experience 30-60% slower ingestion speeds, which we expect to improve in the coming weeks. Customers may also experience additional latency when processing images.
 
-[1] Prompts containing over 32K tokens may experience 30-60% slower ingestion speeds, which we expect to improve in the coming weeks. Customers may also experience additional latency when processing images.
+02Each Supreme Court case is estimated at 10K tokens each. [Source](https://www.supremecourt.gov/opinions/slipopinion/23).
 
-[2] Each Supreme Court case is estimated at 10K tokens each. [Source](https://www.supremecourt.gov/opinions/slipopinion/23).
-
-[3] Each image is estimated at 1.6K tokens.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
+03Each image is estimated at 1.6K tokens.

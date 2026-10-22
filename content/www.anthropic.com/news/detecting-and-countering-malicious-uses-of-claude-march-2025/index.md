@@ -1,16 +1,34 @@
-AnnouncementsPolicy
+# **Detecting and countering malicious uses of Claude:**March 2025
 
-# Detecting and countering malicious uses of Claude: March 2025
+- Published
 
-Apr 23, 2025
+  Apr 23, 2025
+- Category
 
-![Profile with Claude sunburst ](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff16227567bc84029b2fa7933409557272e1503ab-1920x1079.png&w=3840&q=75)
+  [Security](https://www.anthropic.com/news/security)
+- Topics
+
+  - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
+  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+  - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)See more...
+
+Related articles
+
+- Safeguards
+
+  Oct 12, 2026
+
+  [Strengthening our defenses against distillation attacks](https://www.anthropic.com/news/distillation-defenses)
+
+[View more](https://www.anthropic.com/search?topic=threat-intelligence)
 
 We are committed to preventing misuse of our Claude models by adversarial actors while maintaining their utility for legitimate users. While our safety measures successfully prevent many harmful outputs, threat actors continue to explore methods to circumvent these protections. We are continuously using learnings to upgrade our safeguards.
 
 This report outlines several case studies on how actors have misused our models, as well as the steps we have taken to detect and counter such misuse. By sharing these insights, we hope to protect the safety of our users, prevent abuse or misuse of our services, enforce our Usage Policy and other terms, and share our learnings for the benefit of the wider online ecosystem. The case studies presented in this report, while specific, are representative of broader patterns we're observing across our monitoring systems. These examples were selected because they clearly illustrate emerging trends in how malicious actors are adapting to and leveraging frontier AI models. We hope to contribute to a broader understanding of the evolving threat landscape and help the wider AI ecosystem develop more robust safeguards.
 
-The most novel case of misuse detected was a professional 'influence-as-a-service' operation showcasing a distinct evolution in how certain actors are leveraging LLMs for influence operation campaigns. What is especially novel is that this operation used Claude not just for content generation, but also to decide when social media bot accounts would comment, like, or re-share posts from authentic social media users. As described in the full report, Claude was used as an orchestrator deciding what actions social media bot accounts should take based on politically motivated personas. **Read the full report [here](https://cdn.sanity.io/files/4zrzovbb/website/45bc6adf039848841ed9e47051fb1209d6bb2b26.pdf)**.
+The most novel case of misuse detected was a professional 'influence-as-a-service' operation showcasing a distinct evolution in how certain actors are leveraging LLMs for influence operation campaigns. What is especially novel is that this operation used Claude not just for content generation, but also to decide when social media bot accounts would comment, like, or re-share posts from authentic social media users. As described in the full report, Claude was used as an orchestrator deciding what actions social media bot accounts should take based on politically motivated personas. **Read the full report [here](https://www-cdn.anthropic.com/files/4zrzovbb/website/45bc6adf039848841ed9e47051fb1209d6bb2b26.pdf)**.
 
 We have also observed cases of credential stuffing operations, recruitment fraud campaigns, and a novice actor using AI to enhance their technical capabilities for malware generation beyond their skill level, among other activities not mentioned in this blog. The impact of these activities varies:
 
@@ -19,7 +37,7 @@ We have also observed cases of credential stuffing operations, recruitment fraud
 - A recruitment fraud campaign leveraged Claude to enhance the content of scams targeting job seekers in Eastern European countries. We have not confirmed successful deployment of these efforts.
 - An individual actor with limited technical skills developed malware that would typically require more advanced expertise. We have not confirmed successful deployment of these efforts.
 
-**Our key learnings include:**
+#### Our key learnings include:
 
 - Users are starting to use frontier models to semi-autonomously orchestrate complex abuse systems that involve many social media bots. As agentic AI systems improve we expect this trend to continue.
 - Generative AI can accelerate capability development for less sophisticated actors, potentially allowing them to operate at a level previously only achievable by more technically proficient individuals.
@@ -28,7 +46,7 @@ Our intelligence program is meant to be a safety net by both finding harms not c
 
 The case studies below highlight the types of threats we have detected and provide insights into how threat actors are adapting their operations to leverage generative AI.
 
-### **Case Study: Operating Multi-Client Influence Networks Across Platforms [full report available [here](https://cdn.sanity.io/files/4zrzovbb/website/45bc6adf039848841ed9e47051fb1209d6bb2b26.pdf)]**
+### Case Study: Operating Multi-Client Influence Networks Across Platforms [full report available [here](https://www-cdn.anthropic.com/files/4zrzovbb/website/45bc6adf039848841ed9e47051fb1209d6bb2b26.pdf)]
 
 We identified and banned an actor using Claude for a financially-motivated "influence-as-a-service" operation. This actor’s infrastructure leveraged Claude to orchestrate over a hundred social media bot accounts for the purpose of pushing their clients political narratives. These political narratives are consistent with what we expect from state affiliated campaigns, however we have not confirmed this attribution. Most significantly, the operation utilized Claude to make tactical engagement decisions such as determining whether social media bot accounts should like, share, comment on, or ignore specific posts created by other accounts based on political objectives aligned with their clients' interests.
 
@@ -45,7 +63,7 @@ The actor maintained distinct narrative portfolios for different clients, all ou
 
 **Impact**: The operation engaged with tens of thousands of authentic social media accounts. No content achieved viral status, however the actor strategically focused on sustained long-term engagement promoting moderate political perspectives rather than pursuing virality.
 
-### **Case Study: Scraping leaked credentials associated with internet of things security cameras.**
+### Case Study: Scraping leaked credentials associated with internet of things security cameras.
 
 We identified and banned a sophisticated actor using our models in an attempt to develop capabilities to scrape leaked passwords & usernames associated with security cameras and build capabilities to forcibly gain access to those security cameras. After identifying this usage we banned the account associated with building these capabilities. Although this was the actor's goal, we don’t know if they were ultimately successful deploying this capability.
 
@@ -62,7 +80,7 @@ Some of these techniques are dual use. In fact, a benign actor may use them for 
 
 **Impact:** The potential consequences of this group's activities include credential compromise, unauthorized access to IoT devices (particularly security cameras), and network penetration. We have not confirmed real-world success deploying this capability.
 
-### **Case Study: Recruitment Fraud Campaign: Real-Time Language Sanitization for Scamming**
+### Case Study: Recruitment Fraud Campaign: Real-Time Language Sanitization for Scamming
 
 We identified and banned an actor conducting recruitment fraud targeting job seekers primarily in Eastern European countries. This campaign demonstrates how threat actors are using AI for real-time language sanitization to make their scams more convincing.
 
@@ -92,30 +110,10 @@ We identified and banned a novice actor leveraging Claude to improve their techn
 
 **Impact:** This case illustrates how AI can potentially flatten the learning curve for malicious actors, allowing individuals with limited technical knowledge to develop sophisticated tools and potentially accelerate their progression from low-level activities to more serious cybercriminal endeavors. We have not confirmed real world deployment of this malware.
 
-**Next Steps**
+#### Next Steps
 
 As we continue to develop and deploy powerful AI systems, we remain committed to preventing their misuse while preserving their tremendous potential for beneficial applications. This requires continuous innovation in our safety approaches and close collaboration with the broader security and safety community.
 
 In all the above mentioned cases we banned the accounts associated with the violative activity. In addition we are always improving our detecting methods to detect adversarial use of our models, each case of abuse described fed into our broader set of controls to prevent and more quickly detect and prevent adversarial use of our models.
 
 We hope this report provides insights our industry, governments, and the wider research community can use to strengthen the AI industry’s collective defenses against online abuses.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

@@ -1,10 +1,27 @@
-Announcements
-
 # Anthropic opens Milan office to support Italian enterprise, research, and developers
 
-May 27, 2026
+- Published
 
-![Anthropic opens Milan office to support Italian enterprise, research, and developers](https://www-cdn.anthropic.com/images/4zrzovbb/website/60d57c0d0bf031e140de678692f7c3ef2d885ce3-1000x1000.svg)
+  May 27, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Productivity](https://www.anthropic.com/search?topic=productivity)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)See more...
+
+Related articles
+
+- Announcements
+
+  Oct 1, 2026
+
+  [Barclays scales Claude to upgrade operations and improve client experience](https://www.anthropic.com/news/barclays-scales-claude)
+
+[View more](https://www.anthropic.com/search?topic=global-expansion)
 
 Anthropic will open a new office in Milan, our sixth in Europe alongside London, Dublin, Paris, Zurich, and Munich. The Milan team will work with Italian companies and the country's developer community on building and scaling with Claude responsibly, and contribute to a conversation about AI that is already underway across Italian industry and public life.
 
@@ -19,23 +36,3 @@ Anthropic is also putting Claude in the hands of Italy’s leading designers. Du
 Chris Ciauri, MD International at Anthropic, commented: “We are here to support Italian enterprise, Italian research, and Italian culture through a safe AI transition. Italy is a country that has always embraced profound transformation and we are optimistic about what frontier AI can do for this country, from its largest industrial groups to its founders, its universities, and its cultural institutions.”
 
 The question of how AI reshapes work, design, knowledge, and human agency is not one the technology sector can or should answer alone. Anthropic was founded because we believe questions like these are among the most important of our time. Getting the AI transition right requires more voices, not fewer: from industry, civil society, and institutions that have thought carefully about human dignity for far longer than AI has existed. Our team in Milan will support the Italian companies, researchers, and builders shaping how this technology is used, and contribute, where we can, to that larger conversation about how it should be developed.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

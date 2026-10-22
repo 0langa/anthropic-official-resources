@@ -1,10 +1,29 @@
-Announcements
-
 # Working with the US Department of Energy to unlock the next era of scientific discovery
 
-Dec 18, 2025
+- Published
 
-![Working with the US Department of Energy to unlock the next era of scientific discovery](https://www-cdn.anthropic.com/images/4zrzovbb/website/c9d8dd2af6d065e1ace8bd4bb29c716eb53ffffb-1000x1000.svg)
+  Dec 18, 2025
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Discovery](https://www.anthropic.com/search?topic=discovery)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+
+Related articles
+
+- Product
+
+  Jun 30, 2026
+
+  [Claude Science, an AI workbench for scientists, is now available](https://www.anthropic.com/news/claude-science-ai-workbench)
+
+[View more](https://www.anthropic.com/search?topic=discovery)
 
 Anthropic and the US Department of Energy (DOE) are announcing a multi-year partnership as part of the Genesis Mission— the Department’s initiative to use AI to cement America’s leadership in science. Our partnership focuses on three domains—American energy dominance, the biological and life sciences, and scientific productivity—and has the potential to affect the work being done at all 17 of America’s national laboratories.
 
@@ -14,7 +33,7 @@ The Genesis Mission recognizes that we are at a critical moment: as global compe
 
 Brian Peters, Anthropic's Head of North America Government Affairs, attended the Genesis Mission launch event today at the White House. We are looking forward to contributing to the mission and continuing to collaborate with DOE.
 
-## The partnership
+### The partnership
 
 Anthropic seeks to provide DOE researchers access both to Claude and to a team of Anthropic engineers, who can develop purpose-built tools, including:
 
@@ -28,28 +47,8 @@ Claude can facilitate substantial advancements in:
 - **Biological and life sciences.** Claude can support the development of early-warning systems for future pandemics and biological threat detection, and be used to hasten the speed of drug discovery and development.
 - **Scientific productivity.** Claude has the capacity to access fifty years of DOE research, and use this context to accelerate the research cycle in strategically important domains and provide well-informed research support in the form of new ideas to trial out, or patterns in older data that humans might have missed.
 
-## **Our commitment to partner with the US Government**
+### Our commitment to partner with the US Government
 
 Scientific progress has always driven America’s prosperity and security. Anthropic aspires to expand existing arrangements with DOE to build the next chapter: using AI across America’s research institutions, with deep context on scientists’ work and active support from our engineers.
 
 Potential future arrangements would represent the next stage of Anthropic and DOE’s multi-year partnership. Past projects with DOE include co-development of a [nuclear risk classifier](https://red.anthropic.com/2025/nuclear-safeguards/) with the National Nuclear Security Administration and rolling out Claude at the [Lawrence Livermore national laboratory](https://www.anthropic.com/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and). As we learn from the current work with DOE’s, we’ll be able to develop a model for how AI and human researchers can work together—and feed this back into the development of the AI tools they use.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

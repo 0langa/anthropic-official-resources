@@ -1,10 +1,27 @@
-Announcements
-
 # Anthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening
 
-May 26, 2026
+- Published
 
-![Anthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening](https://www-cdn.anthropic.com/images/4zrzovbb/website/ffc0d7957a232518519f13c0d64896921ea215e2-1000x1000.svg)
+  May 26, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+  - [Leadership](https://www.anthropic.com/search?topic=leadership)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)See more...
+
+Related articles
+
+- Announcements
+
+  Mar 10, 2026
+
+  [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-fourth-office-asia-pacific)
+
+[View more](https://www.anthropic.com/search?topic=global-expansion)
 
 Korea is one of the most active markets in the world for Claude.ai. According to our latest [Economic Index](https://www.anthropic.com/economic-index), Koreans use Claude at more than 3.5 times the rate expected for the population size, with usage skewing heavily toward technical and creative work. To support that momentum, KiYoung Choi is joining Anthropic as Representative Director of Korea, ahead of the opening of our [Seoul office](https://www.anthropic.com/news/seoul-becomes-third-anthropic-office-in-asia-pacific). In the coming weeks, senior leadership from Anthropic will travel to Seoul to officially open the office and meet with customers.
 
@@ -19,23 +36,3 @@ At Anthropic, KiYoung will lead a go-to-market strategy that supports the unique
 Our Korea team will focus on building partnerships with enterprises and startups, engaging with government and research institutions, and supporting the vibrant developer community building with Claude.
 
 For more information about career opportunities in our Seoul office, visit [anthropic.com/careers](http://anthropic.com/careers).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

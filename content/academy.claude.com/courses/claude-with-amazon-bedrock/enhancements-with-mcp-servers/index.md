@@ -1,6 +1,6 @@
-Lesson 60 of 65 · Claude with Amazon BedrockEnhancements with MCP servers
+Lesson 60 of 65 · Claude with Amazon BedrockAdding MCP servers to Claude Code
 
-# Enhancements with MCP servers
+# Adding MCP servers to Claude Code
 
 Lesson 605 min
 

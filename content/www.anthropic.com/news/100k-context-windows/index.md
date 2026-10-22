@@ -1,10 +1,27 @@
-Announcements
-
 # Introducing 100K context windows
 
-May 11, 2023
+- Published
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F747fdccef62301bfa3538a9c6c8f8771fc2dceac-2880x1620.png&w=3840&q=75)
+  May 11, 2023
+- Category
+
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+  - [Productivity](https://www.anthropic.com/search?topic=productivity)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+
+Related articles
+
+- Announcements
+
+  Sep 28, 2026
+
+  [Introducing Claude Sonnet 5.5](https://www.anthropic.com/claude-sonnet-5-5)
+
+[View more](https://www.anthropic.com/search?topic=context-engineering)
 
 We’ve expanded Claude’s context window from 9K to 100K tokens, corresponding to around 75,000 words! This means businesses can now submit **hundreds of pages** of materials for Claude to digest and analyze, and conversations with Claude can go on for hours or even days.
 
@@ -23,4 +40,6 @@ Our partners are excited about what larger context windows means for their busin
 
 100K context windows are now available in our API. If you are working with Claude, you can read more about what model versions to call [here](https://console.anthropic.com/docs/api/reference). If you’re not working with Claude yet, you can request access [here](https://www.anthropic.com/claude).
 
-[1] [https://www.sciencedirect.com/...](https://www.sciencedirect.com/science/article/abs/pii/S0749596X19300786)
+## Footnotes
+
+01[https://www.sciencedirect.com/...](https://www.sciencedirect.com/science/article/abs/pii/S0749596X19300786)

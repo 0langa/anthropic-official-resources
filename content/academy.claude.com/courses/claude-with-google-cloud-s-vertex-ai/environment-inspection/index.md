@@ -1,4 +1,4 @@
-Lesson 65 of 66 · Claude with Google Cloud's Vertex AIEnvironment inspection
+Lesson 65 of 66 · Claude on Google CloudEnvironment inspection
 
 # Environment inspection
 

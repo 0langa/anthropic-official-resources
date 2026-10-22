@@ -1,4 +1,4 @@
-Lesson 11 of 66 · Claude with Google Cloud's Vertex AIA typical eval workflow
+Lesson 11 of 66 · Claude on Google CloudA typical eval workflow
 
 # A typical eval workflow
 

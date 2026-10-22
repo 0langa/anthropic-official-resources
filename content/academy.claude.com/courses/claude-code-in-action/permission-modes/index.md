@@ -32,7 +32,7 @@ Here's the full set. Each mode draws a different line between what runs freely a
 - **Accept edits** runs reads, file edits, and common file system bash commands without asking. This is for iterating on code that you review after the fact.
 - **Plan** researches and proposes changes without editing anything. Reads run freely, and when auto mode is available, auto's classifier reviews the commands Claude runs to explore and lets the approved ones run without a prompt.
 - **Auto** accepts everything, with a separate classifier model reviewing each action before it runs.
-- **Don't ask** allows only pre-approved tools. Everything else is auto-denied with no prompt.
+- **Don't ask** allows file reads inside your working directories and pre-approved tools. Anything that would prompt is auto-denied.
 - **Bypass permissions** skips all checks. This is the equivalent of the dangerously-skip-permissions flag. Only run it inside an isolated container or virtual machine.
 
 ## Cycling with shift-tab[](https://academy.claude.com/courses/claude-code-in-action/permission-modes)
@@ -65,7 +65,7 @@ One guards intent before each action, the other guards correctness after. Auto m
 
 ## Don't ask, for unattended runs[](https://academy.claude.com/courses/claude-code-in-action/permission-modes)
 
-Don't ask is the right move whenever no human is around to approve prompts: CI pipelines, scheduled jobs, overnight batches. Only pre-approved tools are allowed, and anything off that list gets auto-denied with no prompt. That's the whole point. Your pipeline keeps moving instead of hanging on an approval no one is there to give.
+Don't ask is the right move whenever no human is around to approve prompts: CI pipelines, scheduled jobs, overnight batches. Claude still runs what needs no approval in Manual mode, such as file reads inside your working directories, plus the tools you pre-approved. Anything that would otherwise prompt gets auto-denied. That's the whole point. Your pipeline keeps moving instead of hanging on an approval no one is there to give.
 
 ## Match the mode to the job[](https://academy.claude.com/courses/claude-code-in-action/permission-modes)
 

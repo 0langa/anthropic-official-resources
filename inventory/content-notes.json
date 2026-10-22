@@ -579,6 +579,9 @@
   "https://claude.com/resources/articles/claude-code-remote-mcp": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://claude.com/resources/articles/claude-duet": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
   "https://claude.com/resources/articles/claude-excel-powerpoint-updates": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
@@ -6223,6 +6226,9 @@
   "https://platform.claude.com/docs/en/api/messages?sdk_languages=http": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/migration-2026-10-21": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/models": [
     "Native source; upstream MDX components retained."
   ],
@@ -6770,6 +6776,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/build-with-claude/embeddings": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/embeddings?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/build-with-claude/extended-thinking": [
@@ -7537,6 +7546,9 @@
   "https://platform.claude.com/docs/en/managed-agents/memory?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/managed-agents/memory?sdk_languages=http": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/managed-agents/migration": [
     "Native source; upstream MDX components retained."
   ],
@@ -8030,6 +8042,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks": [
@@ -9604,6 +9619,15 @@
   "https://support.claude.com/en/articles/17603594-free-code-review-promotional-credits-for-claude-enterprise": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/17666484-how-to-use-link-by-stripe-with-claude-duet": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/17666489-how-to-use-shop-pay-with-claude-duet": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [
     "Native source; upstream MDX components retained."
   ],
@@ -10047,8 +10071,6 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/anthropic-public-record": [
-    "Could not read tab 'Integrated users': TimeoutError",
-    "Could not read tab 'Support for gov involvement': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk": [
@@ -10246,7 +10268,6 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-fable-5-mythos-5": [
-    "Could not read tab 'VibeCAD': TimeoutError",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-opus-5": [
@@ -10310,8 +10331,7 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/employment-at-anthropic": [
-    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
-    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
@@ -10380,7 +10400,7 @@
   ],
   "https://www.anthropic.com/research/self-replicating-ai": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
-    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/04-inference-setup-grid-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/07-end-to-end-replication-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/08-replication-with-setup-scripted-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/09-small-model-capability-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/10-learning-over-generations-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/11-advisor-access-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/12-single-attempt-vs-memento-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/13-memory-per-box-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/14-prefill-speed-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/15-decode-speed-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/16-context-window-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/17-tokens-per-memento-chain-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/19-device-population-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/20-spear-phishing-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/21-test-network-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/22-guidance-grid-light.html"
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/04-inference-setup-grid-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/07-end-to-end-replication-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/08-replication-with-setup-scripted-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/09-small-model-capability-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/19-device-population-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/20-spear-phishing-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/21-test-network-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/22-guidance-grid-light.html"
   ],
   "https://www.anthropic.com/research/smart-contracts": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."

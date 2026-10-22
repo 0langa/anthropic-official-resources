@@ -1,8 +1,28 @@
-Announcements
-
 # Aligning on child safety principles
 
-Apr 23, 2024
+- Published
+
+  Apr 23, 2024
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+  - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)See more...
+
+Related articles
+
+- Frontier Red Team
+
+  Aug 21, 2025
+
+  [Developing nuclear safeguards for AI](https://www.anthropic.com/research/nuclear-safeguards-for-ai)
+
+[View more](https://www.anthropic.com/search?topic=limits-on-abuse)
 
 Alongside other leading AI companies, we are committed to implementing robust child safety measures in the development, deployment, and maintenance of generative AI technologies. This new initiative, led by [Thorn](https://thorn.org/), a nonprofit dedicated to defending children from sexual abuse, and [All Tech Is Human](https://alltechishuman.org/), an organization dedicated to collectively tackling tech and society's complex problems, aims to mitigate the risks generative AI poses to children.
 
@@ -12,7 +32,7 @@ As a safety-focused organization, we have made it a priority to implement rigoro
 
 As part of this Safety by Design effort, Anthropic is [committed to the Safety by Design principles](https://www.thorn.org/blog/generative-ai-principles/). To ensure tangible action, Anthropic is also committing to the following mitigations, stemming from the principles. We are working towards the following:
 
-## Develop
+### Develop
 
 - Responsibly source our training data: avoid ingesting data into training that has a known risk - as identified by relevant experts in the space - of containing CSAM and CSEM.
 - Detect, remove, and report CSAM and CSEM from our training data at ingestion.
@@ -20,7 +40,7 @@ As part of this Safety by Design effort, Anthropic is [committed to the Safety b
 - Define specific training data and model development policies.
 - Prohibit customer use of our models to further sexual harms against children.
 
-## Deploy
+### Deploy
 
 - Detect abusive content (CSAM, AIG-CSAM, and CSEM) in inputs and outputs.
 - Include user reporting, feedback, or flagging options.
@@ -29,7 +49,7 @@ As part of this Safety by Design effort, Anthropic is [committed to the Safety b
 - Incorporate phased deployment, monitoring for abuse in early stages before launching broadly.
 - Incorporate a child safety section into our model cards.
 
-## Maintain
+### Maintain
 
 - When reporting to NCMEC, use the Generative AI File Annotation.
 - Detect, report, remove, and prevent CSAM, AIG-CSAM and CSEM.
@@ -39,23 +59,3 @@ As part of this Safety by Design effort, Anthropic is [committed to the Safety b
 - Leverage Open Source Intelligence (OSINT) capabilities to understand how our platforms, products and models are potentially being abused by bad actors.
 
 More detailed information about the principles which we and other organizations have signed up to can be found in the white paper: [Safety by Design for Generative AI: Preventing Child Sexual Abuse](https://info.thorn.org/hubfs/thorn-safety-by-design-for-generative-AI.pdf).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

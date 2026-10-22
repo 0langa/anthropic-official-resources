@@ -23,7 +23,7 @@ on.
 
 ## Explore and Plan[](https://academy.claude.com/courses/claude-code-101/the-explore-plan-code-commit-workflow)
 
-The fastest way to handle these first two steps is with **Plan Mode**. In plan mode, Claude can't edit files — it just reads files to gather information about how it will tackle the implementation.
+The fastest way to handle these first two steps is with **Plan Mode**. In plan mode, Claude can't edit files. It reads files and runs shell commands to explore, gathering information about how it will tackle the implementation.
 
 To enter plan mode, press `Shift + Tab` until you see "Plan Mode" under the text input. Then write a prompt like:
 

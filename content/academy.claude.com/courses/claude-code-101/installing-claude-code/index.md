@@ -31,7 +31,7 @@ After installation, you should be able to run the `claude` command. If not, rest
 
 `claude`
 
-You'll go through some initial setup steps like choosing your color theme and signing in with your Claude account (Pro, Max, or Enterprise) or using an API key. If your organization has a Claude Enterprise account, be sure to select that option.
+You'll go through some initial setup steps like choosing your color theme and signing in with your Claude account (Pro, Max, Team, or Enterprise) or using an API key. If your organization has a Claude Enterprise account, be sure to select that option.
 
 ![Claude Code login method selection: subscription, API, or third-party platform](https://academy.claude.com/assets/media/6000796786763c8a1862b6cbfbcb1d7b99a61503fd9faf6c39f6e2b98d644119.jpg)
 

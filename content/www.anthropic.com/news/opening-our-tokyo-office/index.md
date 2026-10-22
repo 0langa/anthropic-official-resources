@@ -1,16 +1,34 @@
-Announcements
-
 # Anthropic officially opens Tokyo office, signs Memorandum of Cooperation with the Japan AI Safety Institute
 
-Oct 29, 2025
+- Published
 
-![Anthropic officially opens Tokyo office, signs Memorandum of Cooperation with the Japan AI Safety Institute](https://www-cdn.anthropic.com/images/4zrzovbb/website/b68cbb43d7c8f56f0b14cc867e8d4d74445f78b0-1000x1000.svg)
+  Oct 29, 2025
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+  - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Productivity](https://www.anthropic.com/search?topic=productivity)See more...
+
+Related articles
+
+- Announcements
+
+  Oct 14, 2026
+
+  [Anthropic opens Singapore office and signs MOU with the Government of Singapore](https://www.anthropic.com/news/singapore-office-opening)
+
+[View more](https://www.anthropic.com/search?topic=global-expansion)
 
 This week, we opened our first Asia-Pacific office in Tokyo, a milestone in Anthropic's international expansion. Our CEO and co-founder Dario Amodei traveled to Tokyo to meet with Prime Minister Takaichi, address members of the LDP Digitization Headquarters Committee, meet customers and sign a Memorandum of Cooperation with the Japan AI Safety Institute. These actions deepen our partnership with Japanese government, enterprises, and cultural institutions.
 
 “Technology and human progress are not in tension, but advance together,” said Dario Amodei. “This principle, this Japanese notion of the purpose of technology, is at the heart of Anthropic. It’s how we view the world, and it’s the reason we see Japan as a vital hub for growing our business.”
 
-## Building shared standards for AI evaluation
+### Building shared standards for AI evaluation
 
 AI development transcends national borders. As these systems become more powerful, we need international cooperation on evaluation standards—shared ways to assess capabilities, test systems, and understand risks. This week, Anthropic signed a Memorandum of Cooperation with the Japan AI Safety Institute to collaborate on AI evaluation methodologies and to monitor emerging trends in the field.
 
@@ -18,7 +36,7 @@ This partnership builds on Anthropic's collaboration with AI safety institutes w
 
 Anthropic also joined the Hiroshima AI Process Friends Group this week, deepening our commitment to the framework we signed in 2023 promoting safe, secure, and trustworthy AI development globally while facilitating innovation.
 
-## Japan's approach to AI adoption
+### Japan's approach to AI adoption
 
 "What we're seeing in Japan validates our belief that the most successful AI deployments enhance human capabilities rather than replace them," said Hidetoshi Tojo, Representative Director and President of Anthropic in Japan. "Japanese businesses understand that AI should allow people to focus on what humans do best—creative problem-solving, nuanced communication, and building trusted relationships."
 
@@ -28,32 +46,12 @@ Leading Japanese enterprises are already seeing results. [Rakuten](https://www.c
 
 This week we also hosted our first Builder Summit in Tokyo, where we met more than 150 startups and founders building with Claude. All this reflects the extraordinary momentum we're seeing across Asia Pacific, where our run rate revenue has grown more than 10x in the past year.
 
-## Supporting Japan's creative community
+### Supporting Japan's creative community
 
 We also announced that we have extended our partnership with the Mori Art Museum. We will work long-term with the museum in a number of ways, including collaborating on the upcoming exhibition *Roppongi Crossing 2025: What Passes Is Time. We Are Eternal.* — the eighth edition of a series that was first launched in 2004 to provide a snapshot of Japan’s contemporary art scene at a particular moment in time. This follows our collaboration with the museum on the highly acclaimed *MACHINE LOVE: Video Game, AI and Contemporary Art* exhibition.
 
-## Looking forward
+### Looking forward
 
 The people and organizations we’ve met in Japan share our conviction that technological progress must enable human progress. We're building a team in Tokyo to work alongside partners across industry, government, and culture toward that goal. Over the coming months, we'll bring this same approach to Seoul and Bengaluru as we continue our Asia-Pacific expansion. We look forward to helping innovation flourish across the region.
 
 For information about career opportunities at our Tokyo office, [see here](https://www.anthropic.com/jobs?office=4035213008).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

@@ -1,4 +1,4 @@
-Lesson 61 of 66 · Claude with Google Cloud's Vertex AIParallelization workflows
+Lesson 61 of 66 · Claude on Google CloudParallelization workflows
 
 # Parallelization workflows
 

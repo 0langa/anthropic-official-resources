@@ -1,10 +1,29 @@
-AnnouncementsBeneficial Deployments
-
 # Introducing Claude for Small Business
 
-May 13, 2026
+- Published
 
-![Introducing Claude for Small Business](https://www-cdn.anthropic.com/images/4zrzovbb/website/8b8b97e4751b8167a04ce6c7fb7ad8d240c44ccf-1000x1000.svg)
+  May 13, 2026
+- Category
+
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Education](https://www.anthropic.com/search?topic=education)
+  - [Access](https://www.anthropic.com/search?topic=access)See more...
+
+Related articles
+
+- Product
+
+  Jul 14, 2026
+
+  [Introducing Claude for Teachers](https://www.anthropic.com/news/claude-for-teachers)
+
+[View more](https://www.anthropic.com/search?topic=claude-apps)
 
 We're launching [Claude for Small Business](https://claude.com/solutions/small-business)—a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses depend on—to help small business owners take full advantage of AI and cross off items on the to-do list.
 
@@ -16,7 +35,9 @@ Claude for Small Business is a toggle install that puts Claude to work inside th
 
 *—Daniela Amodei, Co-founder and President of Anthropic*
 
-## **How it works**
+### How it works
+
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FlserpKbUDjc%2Fmaxresdefault.jpg&w=3840&q=75)
 
 Toggle on Claude for Small Business inside Claude Cowork, connect the tools you already use, and pick the job. Claude does the work; you approve before anything sends, posts, or pays.
 
@@ -31,21 +52,37 @@ These include:
 
 There's also an invoice chaser, margin analyzer, month-end prepper, tax-season organizer, contract reviewer, lead triager, content strategist, and more.
 
-![Purity Coffee logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6e652b4a53149faa6fbba9866584e3bca6c113ec-917x853.png&w=256&q=75)
+![Purity Coffee logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6e652b4a53149faa6fbba9866584e3bca6c113ec-917x853.png&w=1080&q=75)
 
-> Not only could it problem-solve for me, it also showed me problems I didn't know I had.
+> “Not only could it problem-solve for me, it also showed me problems I didn't know I had.”
+
+Brian Ludviksen
+
+COO, Purity Coffee
 
 ![Simple Modern logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/4580f41e900eace291a4272a92e94920e9c41d6e-125x48.svg)
 
-> What we used to think were the constraints are just not constraints anymore. It's empowering. Hours of looking at stuff that doesn't matter are gone. I want an entire organization where everybody is using these tools daily.
+> “What we used to think were the constraints are just not constraints anymore. It's empowering. Hours of looking at stuff that doesn't matter are gone. I want an entire organization where everybody is using these tools daily.”
 
-![MidCentral Energy logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F67068cfb506dee23296d1f195f13ac0609242bb9-410x125.webp&w=256&q=75)
+Mike Beckham
 
-> It's freeing up things that used to be a lot of very tedious clerical work for more value-add tasks.
+CEO, Simple Modern
 
-01 / 03
+![MidCentral Energy logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F67068cfb506dee23296d1f195f13ac0609242bb9-410x125.webp%3Ffm%3Dwebp&w=640&q=75)
 
-### **Connect to your stack**
+> “It's freeing up things that used to be a lot of very tedious clerical work for more value-add tasks.”
+
+Ryan Olson
+
+Technology and Innovation Manager, MidCentral Energy
+
+01
+
+/
+
+03
+
+#### Connect to your stack
 
 Running through Claude Cowork, each connected tool handles a specific job:
 
@@ -57,21 +94,37 @@ Running through Claude Cowork, each connected tool handles a specific job:
 
 The full list of skills, automations, and connectors is available on [the solutions page](http://claude.com/solutions/small-business).
 
-![Intuit QuickBooks logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8b8585ff7c43d50c9b98099a3c8435076afbbc53-1100x300.png&w=256&q=75)
+![Intuit QuickBooks logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8b8585ff7c43d50c9b98099a3c8435076afbbc53-1100x300.png&w=1200&q=75)
 
-> Small and mid-market businesses fuel our economies, and for decades, QuickBooks has been proud to be their trusted financial partner. By integrating the agentic AI capabilities of our QuickBooks platform into Claude for Small Business, we're providing small businesses with AI-powered automations and experiences that allow them to remove the complexities of managing their finances, accelerate payroll workflows, and generate data-backed insights that help them grow and scale with speed and confidence.
+> “Small and mid-market businesses fuel our economies, and for decades, QuickBooks has been proud to be their trusted financial partner. By integrating the agentic AI capabilities of our QuickBooks platform into Claude for Small Business, we're providing small businesses with AI-powered automations and experiences that allow them to remove the complexities of managing their finances, accelerate payroll workflows, and generate data-backed insights that help them grow and scale with speed and confidence.”
 
-![HubSpot logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9d3cc48409d490a361b2ca9b37f4c32d506165f4-3840x1124.png&w=256&q=75)
+Joe Preston
 
-> At HubSpot, our mission is to help scaling companies grow with AI. We partnered with Anthropic to build the first CRM connector for Claude so go-to-market teams can access their HubSpot context wherever they work. For small businesses, that means getting tailored answers, summaries, and visualizations directly from their customer platform so they can segment smarter, run better campaigns, and drive more leads.
+VP, Product Management, Intuit QuickBooks
+
+![HubSpot logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9d3cc48409d490a361b2ca9b37f4c32d506165f4-3840x1124.png&w=3840&q=75)
+
+> “At HubSpot, our mission is to help scaling companies grow with AI. We partnered with Anthropic to build the first CRM connector for Claude so go-to-market teams can access their HubSpot context wherever they work. For small businesses, that means getting tailored answers, summaries, and visualizations directly from their customer platform so they can segment smarter, run better campaigns, and drive more leads.”
+
+Angela DeFranco
+
+GM and VP Product, Marketing Hub, HubSpot
 
 ![Canva logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/0c9cd50bbc3339f05cabef82f554eb2bb8db3ccd-96x64.svg)
 
-> Small businesses need AI that moves at the speed they do. With Canva powering content creation in Claude for Small Business, a business owner can go from idea to published, on-brand design in one flow, while AI streamlines the work in between. It's part of our vision to make complex AI workflows simple, so we can help people achieve their goals through design.
+> “Small businesses need AI that moves at the speed they do. With Canva powering content creation in Claude for Small Business, a business owner can go from idea to published, on-brand design in one flow, while AI streamlines the work in between. It's part of our vision to make complex AI workflows simple, so we can help people achieve their goals through design.”
 
-01 / 03
+Anwar Haneef
 
-## **Built for trust**
+GM and Head of Ecosystem, Canva
+
+01
+
+/
+
+03
+
+### Built for trust
 
 In a survey we ran with small business owners, half named data security as their single biggest hesitation about AI.
 
@@ -83,7 +136,7 @@ With Claude for Small Business:
 
 Full details are in the [Trust Center](https://trust.anthropic.com/).
 
-## **AI Fluency for Small Business**
+### AI Fluency for Small Business
 
 Tools aren't enough on their own. Owners and their teams need to know when and how to use them, and most haven’t had the opportunity to learn.
 
@@ -93,7 +146,7 @@ That's why we partnered with **PayPal** on **AI Fluency for Small Business**, a 
 
 The course is available [on-demand](https://anthropic.skilljar.com/ai-fluency-for-small-businesses) starting today.
 
-## **The Claude SMB Tour**
+### The Claude SMB Tour
 
 Starting May 14 in Chicago, we're taking Claude for Small Business on the road. The tour is a free, half-day live AI fluency training and hands-on workshop for 100 local small business leaders per stop. Anthropic and partner [Tenex.co](https://urldefense.com/v3/__http:/tenex.co__;!!O2kDR7mm-zSJ!v3-kRuVPOHD90OZIZdaen9CTKCNbgWvw86UQk0DD9QnsZhl71Q0nwBAUFehj3mP3kFmEMaIRlfU_$) are hosting the tour, with local partners at each stop. Attendees get a one-month Claude Max subscription to start integrating AI into their day-to-day workflows.
 
@@ -101,7 +154,7 @@ Spring stops include: [Chicago](https://anthropic.swoogo.com/smb-workshops-chica
 
 Thank you to the Greater Cleveland Partnership and the National Talent Collaborative for piloting the concept with us in March. More cities will be added in the fall.
 
-## **Partnering with small business–focused nonprofits**
+### Partnering with small business–focused nonprofits
 
 As a public benefit corporation, part of Anthropic's mission is to make sure the gains from AI reach all people and communities, especially those who have historically been last in line for new technology. Small business owners—and the local institutions that fund and advise them—are exactly that audience. So alongside Claude for Small Business, we're investing in partnerships that put Claude directly in the hands of small business owners and the organizations that help them grow.
 
@@ -109,26 +162,6 @@ We believe AI can meaningfully expand what's possible for the smallest businesse
 
 Small businesses also depend on an enabling environment, including access to capital. That's why we're partnering with three Community Development Financial Institutions (CDFIs) that are deploying AI in their own operations and services: [Accion Opportunity Fund](https://aofund.org/), [Community Reinvestment Fund USA](https://crfusa.com/), and [Pacific Community Ventures](https://www.pacificcommunityventures.org/). With Claude credits and hands-on technical support from our team, these CDFIs are building tools that help more small businesses get funded. Pacific Community Ventures, for example, is using Claude to power its Radiant Data Hub—a shared resource for a network of CDFIs—to collect and synthesize voice-based feedback from its small business clients and their workers to improve products and services.
 
-## **Getting started**
+### Getting started
 
 To learn more about Claude for Small Business and access the AI Fluency for Small Business course, get started [here](http://claude.com/solutions/small-business).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

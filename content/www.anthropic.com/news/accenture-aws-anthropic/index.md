@@ -1,10 +1,27 @@
-Announcements
-
 # Anthropic, AWS, and Accenture team up to build trusted solutions for enterprises
 
-Mar 20, 2024
+- Published
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F137ad44a7cae7a1363e683c561c57cf60ece8ab0-2880x1620.png&w=3840&q=75)
+  Mar 20, 2024
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)See more...
+
+Related articles
+
+- Product
+
+  Nov 18, 2025
+
+  [Claude now available in Microsoft Foundry and Microsoft 365 Copilot](https://www.anthropic.com/news/claude-in-microsoft-foundry)
+
+[View more](https://www.anthropic.com/search?topic=partnerships)
 
 Today we [announced a collaboration](https://www.businesswire.com/news/home/20240320450640/en/AWS-Accenture-and-Anthropic-Join-Forces-to-Help-Organizations-Scale-AI-Responsibly) with Amazon Web Services (AWS) and Accenture. All three organizations are providing key resources to take generative AI ideas from concept to production, especially those in regulated sectors where accuracy, reliability and data security are paramount. Enterprises will be able to deploy models to address their specific needs, while keeping their data private and secure.
 
@@ -13,23 +30,3 @@ Over 1,400 Accenture engineers will be trained as specialists in using Anthropic
 The initiative is already delivering impact in the public health sector. Powered by Claude through Amazon Bedrock, Accenture collaborated with the District of Columbia Department of Health to create a custom chatbot called Knowledge Assist. Available in both English and Spanish, this intelligent chatbot enables employees and residents to ask questions in natural language and receive quick, accurate responses about health programs and services.
 
 By combining Anthropic's technical AI expertise, AWS's approach to security and reliability, and Accenture's deep industry knowledge, we hope to provide tailored solutions for trust-driven sectors and streamline the adoption of powerful AI systems that put humans at the center.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

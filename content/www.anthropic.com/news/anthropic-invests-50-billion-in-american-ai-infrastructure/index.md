@@ -1,10 +1,27 @@
-Announcements
-
 # Anthropic invests $50 billion in American AI infrastructure
 
-Nov 12, 2025
+- Published
 
-![Anthropic invests $50 billion in American AI infrastructure](https://www-cdn.anthropic.com/images/4zrzovbb/website/c0af2a56f56cf298ce5904f2901e9a36facd0dbe-1000x1000.svg)
+  Nov 12, 2025
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+  - [Economic growth](https://www.anthropic.com/search?topic=economic-growth)See more...
+
+Related articles
+
+- Announcements
+
+  Apr 6, 2026
+
+  [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
+
+[View more](https://www.anthropic.com/search?topic=compute-energy)
 
 Today, we are announcing a $50 billion investment in American computing infrastructure, building data centers with [Fluidstack](https://www.fluidstack.io/) in Texas and New York, with more sites to come. These facilities are custom built for Anthropic with a focus on maximizing efficiency for our workloads, enabling continued research and development at the frontier.
 
@@ -17,23 +34,3 @@ Anthropic's trajectory is driven by our talent-dense technical team, our focus o
 We selected Fluidstack as our partner for its ability to move with exceptional agility, enabling rapid delivery of gigawatts of power. “Fluidstack was built for this moment,” said Gary Wu, co-founder and CEO of Fluidstack. "We're proud to partner with frontier AI leaders like Anthropic to accelerate and deploy the infrastructure necessary to realize their vision."
 
 The scale of this investment is necessary to meet the growing demand for Claude from hundreds of thousands of businesses while keeping our research at the frontier. We’ll continue to prioritize cost-effective, capital-efficient approaches to achieving this scale as our growth continues.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

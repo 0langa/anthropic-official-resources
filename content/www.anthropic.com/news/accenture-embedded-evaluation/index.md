@@ -1,8 +1,28 @@
-Announcements
-
 # Partnering with Accenture on embedded evaluation
 
-Sep 18, 2026
+- Published
+
+  Sep 18, 2026
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+  - [Funding](https://www.anthropic.com/search?topic=funding)See more...
+
+Related articles
+
+- Policy
+
+  Oct 15, 2026
+
+  [An update on independent evaluators](https://www.anthropic.com/news/an-update-on-independent-evaluators)
+
+[View more](https://www.anthropic.com/search?topic=partnerships)
 
 We're partnering with Accenture on independent evaluation of frontier AI. This is an important step toward the commitment, made in our CEO’s [essay](https://darioamodei.com/post/we-must-pace-the-frontier) “We Must Pace the Frontier,” to embed evaluators within Anthropic.
 
@@ -21,23 +41,3 @@ Given the importance and urgency of this work, Anthropic will fund Accenture's w
 We expect frontier labs to work with several organizations at once. Our partnership is non-exclusive; Anthropic will work with other evaluators to be announced in the coming weeks, and Accenture will work with other AI developers in similar capacities.
 
 We'll continue to train and release frontier models, and we want independent evaluators working alongside us as we do. We’re sharing these early efforts now so people and other AI developers can see our process. We expect our approach to evolve as the field matures, and we’ll share more as our work begins and as we bring on additional evaluators.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

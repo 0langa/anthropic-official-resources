@@ -1,4 +1,4 @@
-Lesson 42 of 66 · Claude with Google Cloud's Vertex AIContextual retrieval
+Lesson 42 of 66 · Claude on Google CloudContextual retrieval
 
 # Contextual retrieval
 
@@ -53,7 +53,7 @@ python
 
 ```
 def add_context(text_chunk, source_text):
-    prompt = """
+    prompt = f"""
 Write a short and succinct snippet of text to situate this chunk within the
 overall source document for the purposes of improving search retrieval of the chunk.
 
@@ -74,7 +74,7 @@ Answer only with the succinct context and nothing else.
     add_user_message(messages, prompt)
     result = chat(messages)
     
-    return result["text"] + "\n" + text_chunk
+    return text_from_message(result) + "\n" + text_chunk
 ```
 
 For large documents, you can implement a strategy that selects relevant context chunks:

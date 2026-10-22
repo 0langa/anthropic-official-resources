@@ -1,10 +1,28 @@
-Policy
-
 # Reflections on our Responsible Scaling Policy
 
-May 20, 2024
+- Published
 
-![Gavel](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6276c7f8e14b693c66836810242243bd8dfd03ce-2880x1620.png&w=3840&q=75)
+  May 20, 2024
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)See more...
+
+Related articles
+
+- Frontier Red Team
+
+  Sep 5, 2025
+
+  [Why do we take LLMs seriously as a potential source of biorisk?](https://www.anthropic.com/research/biorisk)
+
+[View more](https://www.anthropic.com/search?topic=responsible-scaling-policy)
 
 Last summer we published our first [Responsible Scaling Policy (RSP)](https://www.anthropic.com/news/anthropics-responsible-scaling-policy), which focuses on addressing catastrophic safety failures and misuse of frontier models. In adopting this policy, our primary goal is to help turn high-level safety concepts into practical guidelines for fast-moving technical organizations and demonstrate their viability as possible standards. As we operationalize the policy, we expect to learn a great deal and plan to share our findings. This post shares reflections from implementing the policy so far. We are also working on an updated RSP and will share this soon.
 
@@ -22,7 +40,7 @@ Our current framework for doing so is summarized below, as a set of five high-le
 4. **Iteratively extending this policy.** Before we proceed with activities which require the ASL-3 standard, we commit to publish a clear description of its upper bound of suitability: a new set of *Red Line Capabilities* for which we must build *Frontier Risk Evaluations*, and which would require a higher standard of safety and security (ASL-4) before proceeding with training and deployment. This includes maintaining a clear evaluation process and summary of our evaluations publicly.
 5. **Assurance Mechanisms.** We commit to ensuring this policy is executed as intended, by implementing *Assurance Mechanisms*. These should ensure that our evaluation process is stress-tested; our safety and security mitigations are validated publicly or by disinterested experts; our Board of Directors and [Long-Term Benefit Trust](https://www.anthropic.com/news/the-long-term-benefit-trust) have sufficient oversight over the policy implementation to identify any areas of non-compliance; and that the policy itself is updated via an appropriate process.
 
-## Threat Modeling and Evaluations
+### Threat Modeling and Evaluations
 
 Our Frontier Red Team and Alignment Science teams have focused on threat modeling and engaging with domain experts. They are primarily focused on (a) improving threat models to determine which capabilities would warrant the ASL-3 standard of security and safety, (b) working with teams developing ASL-3 controls to ensure that those controls are tailored to the correct risks, and (c) mapping capabilities which the ASL-3 standard would be insufficient to handle, and which we would continue to test for even once it is implemented. Some key reflections are:
 
@@ -30,7 +48,7 @@ Our Frontier Red Team and Alignment Science teams have focused on threat modelin
 - There is reasonable disagreement amongst experts over which risks to prioritize and how new capabilities might cause harm, even in relatively established Chemical, Biological, Radiological, and Nuclear (CBRN) domains. Talking to a wide variety of experts in different sub-domains has been valuable, given the lack of consensus view.
 - Attempting to make threat models quantitative has been helpful for deciding which capabilities and scenarios to prioritize.
 
-Our Frontier Red Team, Alignment Science, Finetuning, and Alignment Stress Testing teams are focused on building evaluations and improving our overall methodology. Currently, we conduct pre-deployment testing in the domains of cybersecurity, CBRN, and Model Autonomy for frontier models which have reached 4x the compute of our most recently tested model (you can read a more detailed description of our most recent set of evaluations on Claude 3 Opus [here](https://cdn.sanity.io/files/4zrzovbb/website/210523b8e11b09c704c5e185fd362fe9e648d457.pdf)). We also test models mid-training if they reach this threshold, and re-test our most capable model every 3 months to account for finetuning improvements. Teams are also focused on building evaluations in a number of new domains to monitor for capabilities for which the ASL-3 standard will still be unsuitable, and identifying ways to make the overall testing process more robust. Some key reflections are:
+Our Frontier Red Team, Alignment Science, Finetuning, and Alignment Stress Testing teams are focused on building evaluations and improving our overall methodology. Currently, we conduct pre-deployment testing in the domains of cybersecurity, CBRN, and Model Autonomy for frontier models which have reached 4x the compute of our most recently tested model (you can read a more detailed description of our most recent set of evaluations on Claude 3 Opus [here](https://www-cdn.anthropic.com/files/4zrzovbb/website/210523b8e11b09c704c5e185fd362fe9e648d457.pdf)). We also test models mid-training if they reach this threshold, and re-test our most capable model every 3 months to account for finetuning improvements. Teams are also focused on building evaluations in a number of new domains to monitor for capabilities for which the ASL-3 standard will still be unsuitable, and identifying ways to make the overall testing process more robust. Some key reflections are:
 
 - Fast iteration cycles with domain experts are especially valuable for recognizing when the difficulty level of a test is poorly calibrated or the task is divorced from the threat model in question.
 - We should increasingly aim to leverage and encourage the growing ecosystem of researchers and firms in this space. Many of the risks we aim to assess, particularly those involving autonomy or misalignment, are inherently complex and speculative, and our own testing and threat modeling is likely incomplete. It will also be valuable to develop a mature external ecosystem that can adequately assess the quality of our claims, as well as offer accessible evals as a service to less well-resourced companies. We have begun to test partnerships with external organizations in these areas.
@@ -44,7 +62,7 @@ Our Frontier Red Team, Alignment Science, Finetuning, and Alignment Stress Testi
   - Techniques can be used to help models complete tasks more effectively, including domain-specific reinforcement learning training, prompt engineering, and supervised fine-tuning. This makes it impossible to guarantee we are eliciting all the relevant model capabilities during testing. A good testing process involves a concerted effort to pass evaluations and invest in capability elicitation improvements. This is important to simulate scenarios where well-resourced malicious actors bypass security controls and gain access to model weights. However, there is no clear distinction between trying extremely hard to elicit a dangerous capability in some model and simply training a model to have that capability. We hope to make more precise and principled claims about what sufficient elicitation would look like in future versions of the policy.
   - There is significant value in making our risk assessment process externally legible. We have therefore aimed to pre-specify test results we think are indicative of an intolerable level of risk when left unmitigated. These clear commitments help avoid production pressures incentivizing the relaxation of standards, although they may inevitably result in somewhat crude or arbitrary thresholds. We would like to explore ways to better aggregate the different sources of evidence described above while maintaining external legibility for verifiable commitments. Similarly, we may explore whether to incorporate other sources of evidence, such as forecasting, which are common in [other domains](https://en.wikipedia.org/wiki/Delphi_method).
 
-## The ASL-3 Standard
+### The ASL-3 Standard
 
 Our Security, Alignment Science, and Trust and Safety teams have been focused on developing the ASL-3 standard. Their goal is to design and implement a set of controls that will sufficiently mitigate the risk of the model weights being stolen by non-state actors or models being misused via our product surfaces. This standard would be sufficient for many models with capabilities where even a low rate of misuse could be catastrophic. However, it would not be sufficient to handle capabilities which would enable state groups or groups with substantial state backing and resources. Some key reflections are:
 
@@ -56,7 +74,7 @@ Our Security, Alignment Science, and Trust and Safety teams have been focused on
   - Our threat modeling assumes that insider device compromise is our highest risk vector. Given this, one of our main areas of focus has been implementing multi-party authorization, time-bounded access controls in order to reduce the risk of model weights exfiltration. Under this system, employees are granted temporary access and only via the smallest set of necessary permissions. Fortunately, Anthropic has already adopted a culture of peer review across software engineering, research, comms, and finance teams, and so adopting multi-party controls as we approach the ASL-3 level has been a well-received extension of these existing cultural norms.
 - In such a fast-moving field, it is often difficult to define risk mitigations, or even the methods we will use to assess their effectiveness, upfront. We want to make binding commitments where possible while still allowing degrees of freedom when new information and situations arise. We expect it will be most practical, for both the ASL-3 standard and future standards, to provide a high-level sketch of expected mitigations and set clear “attestation” standards they must meet before use. For example, with our security standard, we can clarify the goal of defending against non-state actors without specifying detailed controls in advance, and pair this with a sensible attestation process involving detailed control lists, review from disinterested experts, and board approval.
 
-## Assurance Structures
+### Assurance Structures
 
 Lastly, our Responsible Scaling, Alignment Stress Testing, and Compliance teams have been focused on exploring possible governance, coordination, and assurance structures. We intend to introduce more independent checks over time and are looking to hire a [Risk Manager](https://boards.greenhouse.io/anthropic/jobs/4024668008) to develop these structures, drawing on best practices from other industries and relevant research. Some key reflections are:
 
@@ -65,23 +83,3 @@ Lastly, our Responsible Scaling, Alignment Stress Testing, and Compliance teams 
 - In addition to providing regular updates to our Board of Directors and the [Long-Term Benefit Trust](https://www.anthropic.com/news/the-long-term-benefit-trust), we have shared evaluations reports and quarterly updates on progress towards future mitigations to all employees. Encouraging employees to feel ownership over the RSP and share areas they would like to see us improve the policy has been immensely helpful, with staff drawing on diverse backgrounds to provide valuable insights. We also recently implemented a non-compliance reporting policy that allows employees to anonymously report concerns to our Responsible Scaling Officer about our implementation of our RSP.
 
 Ensuring future generations of frontier models are trained and deployed responsibly will require serious investment from both Anthropic and others across industry and governments. Our Responsible Scaling Policy has been a powerful rallying point with many teams' objectives over the past months connecting directly back to the major workstreams above. The progress we have made on operationalizing safety during this period has necessitated significant engagement from teams across Anthropic, and there is much more work to be done. Our goal in sharing these reflections ahead of the upcoming AI Seoul Summit is to continue the discussion on creating thoughtful, empirically-grounded frameworks for managing risks from frontier models. We are eager to see more companies adopt their own frameworks and share their own experiences, leading to the development of shared best practices and informing future efforts by governments.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

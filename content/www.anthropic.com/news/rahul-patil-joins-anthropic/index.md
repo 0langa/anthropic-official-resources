@@ -1,8 +1,27 @@
-Announcements
-
 # Rahul Patil joins Anthropic as Chief Technology Officer
 
-Oct 7, 2025
+- Published
+
+  Oct 7, 2025
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Leadership](https://www.anthropic.com/search?topic=leadership)
+  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Training](https://www.anthropic.com/search?topic=training)See more...
+
+Related articles
+
+- Announcements
+
+  Oct 23, 2025
+
+  [Expanding our use of Google Cloud TPUs and Services](https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services)
+
+[View more](https://www.anthropic.com/search?topic=leadership)
 
 We're excited to announce that Rahul Patil has joined Anthropic as our Chief Technology Officer. Rahul will oversee our engineering organization across product, compute, infrastructure, inference, data science, and security as we scale Claude to meet growing enterprise demand worldwide.
 
@@ -13,23 +32,3 @@ Rahul brings over 20 years of experience building and maintaining industry-leadi
 “Building AI systems that people can trust has been central to our work as we've grown to serve over 300,000 business customers,” said Daniela Amodei, co-founder and President of Anthropic. “Rahul brings a proven track record in building and scaling robust infrastructure that businesses can depend on as we work to make Claude the leading intelligence platform for enterprises.”
 
 For developers building with Claude, Rahul's appointment signals our commitment to world-class infrastructure and reliability at scale. As part of these changes, Sam McCandlish, one of Anthropic's co-founders and previously CTO, has taken on a new role as Chief Architect. In this role, Sam will deepen his focus on large-scale model training, continuing to lead pretraining while expanding his scope to include research productivity and RL infrastructure.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

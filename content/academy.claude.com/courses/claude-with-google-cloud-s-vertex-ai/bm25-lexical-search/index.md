@@ -1,4 +1,4 @@
-Lesson 39 of 66 · Claude with Google Cloud's Vertex AIBM25 lexical search
+Lesson 39 of 66 · Claude on Google CloudBM25 lexical search
 
 # BM25 lexical search
 

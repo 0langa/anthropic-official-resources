@@ -1,10 +1,31 @@
-Announcements
-
 # Our position on open-weights models
 
-Jul 27, 2026
+- Published
+
+  Jul 27, 2026
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Open source](https://www.anthropic.com/search?topic=open-source)
+  - [National security](https://www.anthropic.com/search?topic=national-security)
+  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Leadership](https://www.anthropic.com/search?topic=leadership)
+  - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)See more...
 
 *A post by Dario Amodei, Anthropic CEO*
+
+Related articles
+
+- Announcements
+
+  Aug 4, 2026
+
+  [Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer](https://www.anthropic.com/news/tino-cuellar)
+
+[View more](https://www.anthropic.com/search?topic=open-source)
 
 Over the last few days there has been a lot of discussion about open-weights models, especially those from China. Reports suggest that some US officials are [considering banning](https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi) the use of Chinese open-weights models by US companies. In response, many tech companies have signed [a letter](https://x.com/JensenHuang/status/2080643682408321103) supporting open-weights models, and some people have even accused Anthropic of wanting to ban open-weights models as a means of protecting our business. Anyone who has read my past writing should know that I don’t regard such bans as a useful measure, but let me state it clearly so that there is no doubt: **Anthropic has never advocated for a ban on open-weights models.**
 
@@ -27,30 +48,14 @@ To summarize my and Anthropic’s position, we have not and are not advocating f
 
 *\*Edit 28 July: Updated to note that the cited research on modular training strategies was a collaboration between Anthropic and [AE Studio](https://ae.studio/).*
 
-#### Footnotes
+## Footnotes
 
-1. See Sections 3 and 2 of that essay for discussion of misuse for seizing power and discussion of biological risks, respectively.
-2. See [this report](https://www.aisi.gov.uk/blog/how-far-behind-the-frontier-are-leading-open-weight-models-on-cyber) from the UK AI Security Institute, specifically: “The same openness underpinning these benefits precludes many of the safety measures that closed model developers can use to detect and disrupt misuse, iterate on safeguards as vulnerabilities emerge, control user access and withdraw models. Once open-weight models are released, these options are lost permanently: safeguards can be removed, and copies can be downloaded, redistributed, and run on private systems beyond monitoring. For models with dangerous capabilities – including highly cyber-capable models – open weight release therefore creates a persistent and irreversible risk of misuse.”
-3. See also [here](https://www.justice.gov/opa/pr/chinese-national-and-two-us-citizens-charged-conspiring-smuggle-artificial-intelligence), [here](https://www.justice.gov/opa/pr/us-citizens-and-chinese-nationals-arrested-exporting-artificial-intelligence-technology), and [here](https://www.justice.gov/opa/pr/us-authorities-shut-down-major-china-linked-ai-tech-smuggling-network) for more reports from the US Department of Justice.
-4. At Anthropic we’re committed to cracking down on industrial-scale distillation through our own practices, including identifying and banning accounts that use our models in this way. This is challenging—for instance, the relevant accounts can often only be identified *after* substantial distillation has occurred, and distillation often involves creating large numbers of fake accounts that form a moving target. The practices of any individual company cannot entirely solve the problem, which is why we have called for policy on this issue.
-5. See [Section 2 of *The Adolescence of Technology*](https://darioamodei.com/essay/the-adolescence-of-technology)for a more detailed discussion of biological threats and the offense-defense balance. To summarize, what I believe currently keeps us safe in biology is not “defenders”, or even the availability of materials, but a negative correlation between intellectual capability and desire to commit catastrophic harm. Previous technologies like internet search or even DNA synthesis were nowhere near powerful enough to break this correlation, but I worry that at its current rate of progress, AI will do so very soon. Another way to say it is that a sufficiently powerful technology removes all barriers and exposes whether the attacker or defender has an inherent structural advantage, and I worry in biology it is the attacker.
+01See Sections 3 and 2 of that essay for discussion of misuse for seizing power and discussion of biological risks, respectively.
 
-## Related content
+02See [this report](https://www.aisi.gov.uk/blog/how-far-behind-the-frontier-are-leading-open-weight-models-on-cyber) from the UK AI Security Institute, specifically: “The same openness underpinning these benefits precludes many of the safety measures that closed model developers can use to detect and disrupt misuse, iterate on safeguards as vulnerabilities emerge, control user access and withdraw models. Once open-weight models are released, these options are lost permanently: safeguards can be removed, and copies can be downloaded, redistributed, and run on private systems beyond monitoring. For models with dangerous capabilities – including highly cyber-capable models – open weight release therefore creates a persistent and irreversible risk of misuse.”
 
-### Investing in the public benefit
+03See also [here](https://www.justice.gov/opa/pr/chinese-national-and-two-us-citizens-charged-conspiring-smuggle-artificial-intelligence), [here](https://www.justice.gov/opa/pr/us-citizens-and-chinese-nationals-arrested-exporting-artificial-intelligence-technology), and [here](https://www.justice.gov/opa/pr/us-authorities-shut-down-major-china-linked-ai-tech-smuggling-network) for more reports from the US Department of Justice.
 
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
+04At Anthropic we’re committed to cracking down on industrial-scale distillation through our own practices, including identifying and banning accounts that use our models in this way. This is challenging—for instance, the relevant accounts can often only be identified *after* substantial distillation has occurred, and distillation often involves creating large numbers of fake accounts that form a moving target. The practices of any individual company cannot entirely solve the problem, which is why we have called for policy on this issue.
 
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
+05See [Section 2 of *The Adolescence of Technology*](https://darioamodei.com/essay/the-adolescence-of-technology)for a more detailed discussion of biological threats and the offense-defense balance. To summarize, what I believe currently keeps us safe in biology is not “defenders”, or even the availability of materials, but a negative correlation between intellectual capability and desire to commit catastrophic harm. Previous technologies like internet search or even DNA synthesis were nowhere near powerful enough to break this correlation, but I worry that at its current rate of progress, AI will do so very soon. Another way to say it is that a sufficiently powerful technology removes all barriers and exposes whether the attacker or defender has an inherent structural advantage, and I worry in biology it is the attacker.

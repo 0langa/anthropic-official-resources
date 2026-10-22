@@ -1,4 +1,4 @@
-Lesson 40 of 66 · Claude with Google Cloud's Vertex AIA Multi-index RAG pipeline
+Lesson 40 of 66 · Claude on Google CloudA Multi-index RAG pipeline
 
 # A Multi-index RAG pipeline
 

@@ -1,16 +1,34 @@
-Announcements
-
 # Higher usage limits for Claude and a compute deal with SpaceX
 
-May 6, 2026
+- Published
 
-![Higher usage limits for Claude and a compute deal with SpaceX](https://www-cdn.anthropic.com/images/4zrzovbb/website/5f455d24ea80569b34eb4347f06152d8a5508722-1000x1000.svg)
+  May 6, 2026
+- Category
+
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)See more...
+
+Related articles
+
+- Announcements
+
+  Apr 20, 2026
+
+  [Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute](https://www.anthropic.com/news/anthropic-amazon-compute)
+
+[View more](https://www.anthropic.com/search?topic=compute-energy)
 
 We’ve agreed to a partnership with SpaceX that will substantially increase our compute capacity. This, along with our other recent compute deals, means that we’ve been able to increase our usage limits for Claude Code and the Claude API.
 
 Below, we describe these changes and the progress we’re making on compute.
 
-## Higher usage limits
+### Higher usage limits
 
 The following three changes—all effective today—are aimed at improving the experience of using Claude for our most dedicated customers.
 
@@ -22,9 +40,9 @@ Third, we’re **raising our [API rate limits](https://platform.claude.com/docs/
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd8f4f661bde0f11088d087dcda98916becad077f-1920x801.png&w=3840&q=75)
 
-*Our updated API rate limits for Claude Opus models.*
+Our updated API rate limits for Claude Opus models.
 
-## New compute partnership with SpaceX
+### New compute partnership with SpaceX
 
 We’ve signed an agreement with SpaceX to use all of the compute capacity at their Colossus 1 data center. This gives us access to more than 300 megawatts of new capacity (over 220,000 NVIDIA GPUs) within the month. This additional capacity will directly improve capacity for Claude Pro and Claude Max subscribers.
 
@@ -39,30 +57,10 @@ We train and run Claude on a range of AI hardware—AWS Trainium, Google TPUs, a
 
 As part of this agreement, we have also expressed interest in partnering with SpaceX to develop multiple gigawatts of orbital AI compute capacity.
 
-## Expanding internationally
+### Expanding internationally
 
 Our enterprise customers—particularly those in regulated industries like financial services, healthcare, and government—increasingly need in-region infrastructure to meet compliance and data residency requirements. Accordingly, some of our capacity expansion will be international: our recently announced [collaboration with Amazon](https://www.anthropic.com/news/anthropic-amazon-compute) includes additional inference in Asia and Europe.
 
 We’re very intentional about where we’ll add capacity—partnering with democratic countries whose legal and regulatory frameworks support investments of this scale, and where the supply chain on which our compute depends—hardware, networking, and facilities—will be secure.
 
 Finally, we recently made a [commitment](https://www.anthropic.com/news/covering-electricity-price-increases) to cover any consumer electricity price increases caused by our data centers in the US. As part of our international expansion, we’re exploring ways to extend that commitment to new jurisdictions, as well as partnering with local leaders to invest back into the communities that host our facilities.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

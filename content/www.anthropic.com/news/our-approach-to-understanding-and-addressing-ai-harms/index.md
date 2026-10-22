@@ -1,10 +1,28 @@
-Policy
-
 # Our approach to understanding and addressing AI harms
 
-Apr 21, 2025
+- Published
 
-![Our approach to understanding and addressing AI harms](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff5ef83ede8e91631c0e152c01a5fc9dce484c52d-2880x1620.png&w=3840&q=75)
+  Apr 21, 2025
+- Category
+
+  [Safeguards](https://www.anthropic.com/news/safeguards)
+- Topics
+
+  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+  - [Computer use](https://www.anthropic.com/search?topic=computer-use)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+
+Related articles
+
+- Safeguards
+
+  Aug 12, 2025
+
+  [Building safeguards for Claude](https://www.anthropic.com/news/building-safeguards-for-claude)
+
+[View more](https://www.anthropic.com/search?topic=measurement-and-mitigation)
 
 As AI capabilities rapidly advance, understanding and addressing the full spectrum of potential impacts becomes increasingly important. Today, we're sharing insights into our evolving approach to assessing and mitigating various harms that could result from our systems, ranging from catastrophic scenarios like biological threats to critical concerns like child safety, disinformation and fraud.
 
@@ -14,7 +32,7 @@ Our approach complements our [Responsible Scaling Policy (RSP)](https://www-cdn.
 
 ***\*Important note**: This approach is still evolving. We're sharing our current thinking while acknowledging it will continue to develop as we learn more. We welcome collaboration from across the AI ecosystem as we work to make these systems benefit humanity.*
 
-### **Breaking down our approach:**
+### Breaking down our approach:
 
 We've developed an approach that helps our teams communicate clearly, make well-reasoned decisions, and develop targeted solutions for both known and emergent harms. This approach is designed to be both principled and adaptable to keep up with the evolving AI landscape. We examine potential AI impacts across multiple baseline dimensions, with room to grow and expand over time:
 
@@ -28,7 +46,7 @@ For each dimension, we consider factors like likelihood, scale, affected populat
 
 Depending on harm type and severity, we address and manage risks through a variety of policies and practices including developing and maintaining a comprehensive [Usage Policy](https://www.anthropic.com/legal/aup), conducting [evaluations](https://assets.anthropic.com/m/785e231869ea8b3b/original/claude-3-7-sonnet-system-card.pdf) (including red teaming and adversarial testing) before and after launch, sophisticated [detection](https://www.anthropic.com/research/clio) [techniques](https://alignment.anthropic.com/2025/summarization-for-monitoring/) to spot misuse and abuse, and [robust enforcement](https://www.anthropic.com/transparency/voluntary-commitments) ranging from prompt modifications to account blocking. This perspective helps us balance multiple considerations: addressing harms with proportionate safeguards while maintaining the helpfulness and functionality of our systems in everyday use cases. We’re excited to share more about this work in the near future.
 
-### **Some examples of how we’ve used our framework to inform our understanding of harm**
+### Some examples of how we’ve used our framework to inform our understanding of harm
 
 When exploring new capabilities or features, we examine how they might introduce additional considerations across different harm dimensions. For example:  
   
@@ -36,30 +54,10 @@ When exploring new capabilities or features, we examine how they might introduce
 
 **Model Response Boundaries:** When considering how models should respond to different types of user requests, we've found value in examining tradeoffs between helpfulness and appropriate limitations. Models that are trained to be more helpful and responsive to user requests may also lean towards harmful behaviors (e.g., sharing information that violates our AUP or could be used in dangerous ways). Conversely, models that over-index on harmlessness can tend towards not sharing any information with users, even when requests are harmless. By thinking about both individual and societal impacts, we can better understand where to focus our safety evaluations and training. For example, with Claude 3.7 Sonnet, we evaluated different types of requests along this spectrum and improved how our model handles ambiguous prompts by encouraging safe, helpful responses rather than simply refusing to engage. This resulted in a 45% reduction in unnecessary refusals while maintaining strong safeguards against truly harmful content. This approach helps us make more nuanced decisions about model behavior, particularly in scenarios where certain vulnerable populations—such as children, marginalized communities, or individuals in crisis—might be at heightened risk.
 
-### **Looking ahead**
+### Looking ahead
 
 There's still a lot to do. Our approach to understanding and addressing harms is just one input into our overall safety strategy, but we think it represents a useful step toward more systematic thinking about AI impacts.
 
 As AI systems become more capable, we expect new challenges will emerge that we haven't yet anticipated. We're committed to evolving our approach alongside these developments, including adapting our frameworks, refining our assessment methods, and learning from both successes and failures along the way.
 
 We know we can't do this work alone. We invite researchers, policy experts, and industry partners to collaborate with us as we continue exploring these important questions. You can connect with us on these issues via [usersafety@anthropic.com](mailto:usersafety@anthropic.com).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

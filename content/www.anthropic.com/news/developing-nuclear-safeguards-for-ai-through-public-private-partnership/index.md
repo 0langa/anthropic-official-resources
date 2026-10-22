@@ -1,12 +1,30 @@
-AnnouncementsFrontier Red Team
-
 # Developing nuclear safeguards for AI through public-private partnership
-
-Aug 21, 2025
 
 [Read the full post on red.anthropic.com](https://red.anthropic.com/2025/nuclear-safeguards/)
 
-![Developing nuclear safeguards for AI through public-private partnership ](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F94afaf41cf9c82fa9ac91653b37f44a43632681e-2400x1260.png&w=3840&q=75)
+- Published
+
+  Aug 21, 2025
+- Category
+
+  [Safeguards](https://www.anthropic.com/news/safeguards)
+- Topics
+
+  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [National security](https://www.anthropic.com/search?topic=national-security)
+  - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)See more...
+
+Related articles
+
+- Policy
+
+  Feb 24, 2026
+
+  [Anthropic’s Responsible Scaling Policy: Version 3.0](https://www.anthropic.com/news/responsible-scaling-policy-v3)
+
+[View more](https://www.anthropic.com/search?topic=cbrn-risks)
 
 Nuclear technology is inherently dual-use: the same physics principles that power nuclear reactors can be misused for weapons development. As AI models become more capable, we need to keep a close eye on whether they can provide users with dangerous technical knowledge in ways that could threaten national security.
 
@@ -21,27 +39,3 @@ We will share our approach with the [Frontier Model Forum](https://www.frontierm
 Along with the concrete importance of securing frontier AI models against nuclear misuse, this first-of-its-kind effort shows the power of public-private partnerships. These partnerships combine the complementary strengths of industry and government to address risks head-on, making AI models more reliable and trustworthy for all their users.
 
 *Full details about our NNSA partnership and the safeguards development can be found on our [red.anthropic.com](https://red.anthropic.com/) blog, the home for research from Anthropic’s Frontier Red Team (and occasionally other teams at Anthropic) on what frontier AI models mean for national security. Click [here](http://red.anthropic.com/2025/nuclear-safeguards/) to read more.*
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
-
-## Subscribe to the Frontier Red Team newsletter
-
-Get updates on our latest red-teaming research and findings.

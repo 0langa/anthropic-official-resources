@@ -1,10 +1,31 @@
-Policy
-
 # Strengthening our defenses against distillation attacks
 
-Oct 12, 2026
+![Strengthening our defenses against distillation attacks](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F46303b759b178149b34f19321645a0ede17b3f82-2000x1125.jpg&w=1920&q=75)
 
-![Strengthening our defenses against distillation attacks](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F46303b759b178149b34f19321645a0ede17b3f82-2000x1125.jpg&w=3840&q=75)
+- Published
+
+  Oct 12, 2026
+- Category
+
+  [Safeguards](https://www.anthropic.com/news/safeguards)
+- Topics
+
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+  - [National security](https://www.anthropic.com/search?topic=national-security)
+  - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
+  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)See more...
+
+Related articles
+
+- Security
+
+  Sep 10, 2026
+
+  [Detecting and countering misuse of AI: September 2026](https://www.anthropic.com/threat-intelligence-report-september-2026)
+
+[View more](https://www.anthropic.com/search?topic=safeguards)
 
 In recent months, we’ve made substantial progress on reducing the effectiveness of distillation attacks on Claude using new methods, as we outline in this blog. Early evidence suggests that these methods have reduced the amount of data harvested by distillers by around 90 to 99%.
 
@@ -20,7 +41,7 @@ In response to the increasing sophistication and scale of these attacks, we’ve
 
 Distillation is a problem that every model developer faces and must confront. We hope this post helps developers and platforms better understand how they can prevent these attacks, what the trade-offs with these measures might be, and why the costs are worth bearing.
 
-## Simple defenses are not enough
+### Simple defenses are not enough
 
 Distillers aim to generate millions of responses from a larger, more capable model (in this case, Claude), then use those responses to teach a smaller model to mimic the more capable model’s behavior. The most valuable kind of data for this purpose is transcripts of Claude’s reasoning—the thinking process that Claude writes out before it responds. This is much more useful than its output alone, since it helps the smaller model understand *how* Claude reaches its final answer. Our defenses against distillation therefore focus almost entirely on making Claude’s reasoning harder for distillers to access.
 
@@ -36,7 +57,7 @@ In general, requests like these are possible for us to spot because ordinary use
 
 Yet our initial, relatively simple designs for these safeguards weren’t sufficient. Distillers found ways around the first safeguards we built. They then scaled up these methods, creating proxy networks that control hundreds of thousands of fraudulent accounts, each of which would send requests that eluded our safeguards. These networks also resold access to Claude in regions where it is not offered, and [created accounts](https://www.anthropic.com/threat-intelligence-report-september-2026) with false identities and stolen payment details. As [we described in our February report](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks), one network managed more than 20,000 fraudulent accounts at once. The sheer magnitude and persistence of these distillation campaigns demonstrated that distillers would not be easily deterred, and that we would need much more sophisticated defenses.
 
-## Our new methods
+### Our new methods
 
 Our defenses against distillation now disrupt attacks in three separate ways, with minimal impacts to legitimate users:
 
@@ -52,7 +73,7 @@ The system we use is constantly being improved. We expect that attackers will fi
 
 **Making repeated attempts difficult.** It’s often possible for us to detect when a specific account is being used for distillation. Users who continually try to extract reasoning from Claude face stricter usage limits, and when we detect repeated and persistent attempts at distillation, we ban the associated accounts. Additionally, since September 24, we have [resumed charging for requests](https://x.com/ClaudeDevs/status/2103170368794185758) that are blocked by our safeguards before Claude responds, in the specific areas (including distillation) where they have a <0.1% false positive rate. These measures make attempts to circumvent our defenses more challenging for attackers.
 
-## How well our new methods work
+### How well our new methods work
 
 Overall, we believe that our new distillation defenses reliably prevent many more attempts to distill our frontier models. On our most capable generally available models, our two-stage classifier now catches all of the distillation techniques we described in our [September report](https://www.anthropic.com/threat-intelligence-report-september-2026).
 
@@ -66,7 +87,7 @@ We don’t yet know how long these gains will last. We expect that distillation 
 
 There are also trade-offs inherent in our techniques. In February, we wrote that we were working to make distillation harder [without affecting the experience](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks) for legitimate users. We haven’t met this goal completely: preserved thinking has required some developers to update their integrations, our classifiers can (in fewer than 0.1% of cases) misidentify or block benign requests, and we now charge users for those blocked requests.
 
-## Distillation is a problem for every developer and platform
+### Distillation is a problem for every developer and platform
 
 In spite of the trade-offs, we believe these measures are clearly worth the cost. Preventing distillation is important both for our national security and for ensuring that powerful models, especially publicly available ones, are released with adequate safeguards.
 
@@ -75,23 +96,3 @@ We’ve gone to great lengths to prevent our models from being misused by bad ac
 Distillers distribute traffic across Anthropic’s API, third-party cloud platforms, and other inference providers. For that reason, platforms—as well as developers—have a role to play in reducing distillation. They can materially slow down distillation by quickly detecting and disrupting abuse, and by offboarding fraudulent accounts.
 
 The incentives in the industry often cut the other way. Defenses are expensive, and illicit distillers are still paying customers. Against that backdrop, it would be easy for companies to do nothing, or not enough. We’re publishing our methods to show that there’s a workable alternative.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)

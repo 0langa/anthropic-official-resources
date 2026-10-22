@@ -65,7 +65,21 @@ We're proud of our partnership with Microsoft and aspire to help more people exp
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 19, 2026
+[ArticleOct 21, 2026
+
+### HCLTech joins the Claude Partner Network as a Global Premier partner
+
+HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)[ArticleOct 21, 2026
+
+### Introducing Claude Duet
+
+A research preview is available by waitlist today, starting with US Pro and Max subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleOct 21, 2026
+
+### Claude Security now scans continuously and tracks fixes
+
+Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.
+
+Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)[ArticleOct 19, 2026
 
 ### Redesigning source control at Anthropic
 
@@ -73,27 +87,7 @@ As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a da
 
 Claude Code
 
-(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)[ArticleOct 16, 2026
-
-### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
-
-How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
-
-Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)[ArticleOct 16, 2026
-
-### How the Claude Code team does code review
-
-How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)[ArticleOct 15, 2026
-
-### Code Review is now generally available
-
-Catch more bugs before they reach production.
-
-Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)
+(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)
 
 ## Transform how your organization operates with Claude
 

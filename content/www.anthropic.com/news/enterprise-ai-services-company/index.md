@@ -1,22 +1,39 @@
-Announcements
-
 # Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
 
-May 4, 2026
+- Published
 
-![Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs ](https://www-cdn.anthropic.com/images/4zrzovbb/website/1576ae23eaf481f33bd36ab468171cc69d12361a-1000x1000.svg)
+  May 4, 2026
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Funding](https://www.anthropic.com/search?topic=funding)
+  - [Healthcare](https://www.anthropic.com/search?topic=healthcare)See more...
+
+Related articles
+
+- Announcements
+
+  May 28, 2026
+
+  [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)
+
+[View more](https://www.anthropic.com/search?topic=partnerships)
 
 Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs announced the formation of a new AI services company. The organization will work with mid-sized companies across sectors to bring Claude into their most important operations. Applied AI engineers from Anthropic will work alongside the firm’s engineering team to identify where Claude can have the most impact, build custom solutions, and support customers over the long term.
 
 Alongside the founding partners, the new company is backed by a consortium of leading alternative asset managers including General Atlantic, Leonard Green, Apollo Global Management, GIC, and Sequoia Capital.
 
-**Why we’re building this**
+#### Why we’re building this
 
 Putting Claude to work in an organization’s core operations takes hands-on engineering and deep familiarity with how each business runs. Systems integrators in the [Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) lead that work for the world’s largest enterprises today, and we are continuing to invest deeply in those partnerships as Claude reaches more customers. This new firm extends that delivery capacity further. Companies from community banks to mid-sized manufacturers and regional health systems stand to gain from AI, but lack the in-house resources to build and run frontier deployments.
 
 “Enterprise demand for Claude is significantly outpacing any single delivery model. Our partnerships with the world's leading systems integrators are central to how Claude reaches large enterprises,” said Krishna Rao, Chief Financial Officer of Anthropic. “This new firm brings additional operating capability to the ecosystem and capital from leading alternative asset managers. We are proud to build it alongside Blackstone, Hellman & Friedman, Goldman Sachs, and our other partners.”
 
-**What the work will look like**
+#### What the work will look like
 
 A typical engagement starts with a small team working closely with the customer to understand where Claude can have the biggest impact. From there, the company's engineers—alongside Anthropic Applied AI staff—will develop Claude-powered systems tailored to each organization’s operations.
 
@@ -24,28 +41,8 @@ Consider a multi-site healthcare services group, like a network of physician pra
 
 Engagements like this will run across mid-sized companies across industries, each shaped by the people closest to the work.
 
-**Building the Claude Partner Network**
+#### Building the Claude Partner Network
 
 This company will also become a member of Anthropic’s growing Claude Partner Network.
 
 Our partnerships with Accenture, Deloitte, PwC, and the other consulting and systems integration firms in the Claude Partner Network are one of the ways Claude benefits the world’s largest enterprises today. These firms lead the complex transformation programs that shape how global enterprises operate, and they bring Claude expertise to their millions of practitioners across every major industry. We have been steadily expanding the Claude Partner Network since its launch, and we are continuing to invest in the programs, funding, and teams that support our partners.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

@@ -1,10 +1,28 @@
-Announcements
-
 # Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation
 
-Feb 12, 2026
+- Published
 
-![Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation](https://www-cdn.anthropic.com/images/4zrzovbb/website/e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
+  Feb 12, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Funding](https://www.anthropic.com/search?topic=funding)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)See more...
+
+Related articles
+
+- Announcements
+
+  May 28, 2026
+
+  [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)
+
+[View more](https://www.anthropic.com/search?topic=funding)
 
 We have raised $30 billion in Series G funding led by GIC and Coatue, valuing Anthropic at $380 billion post-money. The round was co-led by D. E. Shaw Ventures, Dragoneer, Founders Fund, ICONIQ, and MGX. The investment will fuel the frontier research, product development, and infrastructure expansions that have made Anthropic the market leader in enterprise AI and coding.
 
@@ -33,23 +51,3 @@ Claude’s frontier-setting intelligence continues to advance. Our newest model�
 The Series G will also power our infrastructure expansion as we make Claude available everywhere our customers are. Claude remains the only frontier AI model available to customers on all three of the world's largest cloud platforms: Amazon Web Services (Bedrock), Google Cloud (Vertex AI), and Microsoft Azure (Foundry). We train and run Claude on a diversified range of AI hardware—AWS Trainium, Google TPUs, and NVIDIA GPUs—which means we can match workloads to the chips best suited for them. This diversity of platforms translates to better performance and greater resilience for the enterprise customers that depend on Claude for critical work.
 
 The demand we are seeing from enterprises and developers reflects the trust they place in Claude for the work that matters most. As AI moves toward scaled implementation, we will continue to build the models, products, and partnerships to lead that transition.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

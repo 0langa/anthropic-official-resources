@@ -1,4 +1,4 @@
-Lesson 22 of 66 · Claude with Google Cloud's Vertex AIProject overview
+Lesson 22 of 66 · Claude on Google CloudProject overview
 
 # Project overview
 

@@ -1,8 +1,27 @@
-Announcements
-
 # Anthropic appoints Irina Ghose as Managing Director of India ahead of Bengaluru office opening
 
-Jan 16, 2026
+- Published
+
+  Jan 16, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+  - [Leadership](https://www.anthropic.com/search?topic=leadership)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)See more...
+
+Related articles
+
+- Announcements
+
+  May 26, 2026
+
+  [Anthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea)
+
+[View more](https://www.anthropic.com/search?topic=global-expansion)
 
 Irina Ghose is joining Anthropic as Managing Director of India as we prepare to open our first office in the country.
 
@@ -15,23 +34,3 @@ Irina brings more than three decades of experience in scaling technology busines
 Our India team will work closely with policymakers and academic institutions, strengthen developer engagement, and build partnerships with enterprises and organizations using AI to address local challenges.
 
 India ranks as the second-largest market globally for Claude.ai. Anthropic's fourth [Economic Index](https://www.anthropic.com/economic-index) showed that Indian users have a striking focus on technical applications, with nearly half of all Claude.ai usage concentrated in computer and mathematical tasks.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

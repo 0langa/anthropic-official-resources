@@ -10,7 +10,7 @@ You don’t have to choose where a task goes. Claude does more of the work.
 
 Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. It’s rolling out on Pro and Max plans over the next few weeks, with more plans to follow.
 
-What Claude makes doesn’t need its own place either. Claude Docs and Claude Slides are new today, and [Claude Design (opens in new tab)](https://claude.com/product/design) now works inside your conversations too. Ask for a document, and you and Claude write it together. Ask for a presentation, and Claude drafts the slides. You can edit directly, present straight from Claude, or download as PowerPoint or PDF. All three are in beta on paid plans, and Enterprise admins choose when to turn them on. If you use Claude Design on its own, it keeps working as before.
+What Claude makes doesn’t need its own place either. [Claude Docs and Claude Slides](https://claude.com/resources/articles/dashboards-and-motion) are new today, and [Claude Design (opens in new tab)](https://claude.com/product/design) now works inside your conversations too. Ask for a document, and you and Claude write it together. Ask for a presentation, and Claude drafts the slides. You can edit directly, present straight from Claude, or download as PowerPoint or PDF. All three are in beta on paid plans, and Enterprise admins choose when to turn them on. If you use Claude Design on its own, it keeps working as before.
 
 Embedded media: https://www.youtube-nocookie.com/embed/qMUf-jwSpMo?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
@@ -32,9 +32,9 @@ You can choose how Claude checks in with you. By default, Claude asks before tak
 
 ## Getting started
 
-If you mostly use chat, you don’t have to do anything different. When you want to hand over something bigger, try the next report or deck you’d normally build yourself. If you’ve been working in Cowork, everything is where you left it: your chats, projects, artifacts, connectors, and skills. When you open the app, pick up where you left off.
+If you mostly use chat, you don’t have to do anything different. When you want to hand over something bigger, try the next report or deck you’d normally build yourself. If you’ve been [working in Cowork](https://claude.com/resources/guides/claude-cowork-product-guide), everything is where you left it: your chats, projects, artifacts, connectors, and skills. When you open the app, pick up where you left off.
 
-This is rolling out to Pro and Max plans first, in the Claude app on web, desktop, and mobile over the coming weeks to existing and new users on these plans. There’s nothing to turn on. Team and Free plans will follow soon, and Enterprise admins will hear from us at least 30 days before anything changes for their organizations.
+This is rolling out to Pro and Max plans first, in the Claude app on web, desktop, and mobile over the coming weeks to existing and new users on these plans. There’s nothing to turn on. Team and Free plans will follow soon, and [Enterprise admins](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins) will hear from us at least 30 days before anything changes for their organizations.
 
 The full list of capabilities is in the [Help Center](https://support.claude.com/en/articles/16761823). If you’ve been saving up a big messy project, now’s the time.
 
@@ -42,31 +42,27 @@ The full list of capabilities is in the [Help Center](https://support.claude.com
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 15, 2026
+[ArticleOct 21, 2026
+
+### HCLTech joins the Claude Partner Network as a Global Premier partner
+
+HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)[ArticleOct 21, 2026
+
+### Introducing Claude Duet
+
+A research preview is available by waitlist today, starting with US Pro and Max subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleOct 21, 2026
+
+### Claude Security now scans continuously and tracks fixes
+
+Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.
+
+Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)[ArticleOct 15, 2026
 
 ### Code Review is now generally available
 
 Catch more bugs before they reach production.
 
-Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)[ArticleOct 8, 2026
-
-### Build live dashboards and animate explainers with Claude
-
-Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
-
-Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 7, 2026
-
-### Claude Haiku 5.5
-
-Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
-
-(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)[ArticleOct 6, 2026
-
-### Claude now works with Google Docs, Sheets, and Slides
-
-Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta).
-
-Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)
+Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)
 
 ## Transform how your organization operates with Claude
 

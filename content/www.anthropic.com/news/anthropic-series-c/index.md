@@ -1,8 +1,27 @@
-Announcements
-
 # Anthropic raises $450 million in Series C funding to scale reliable AI products
 
-May 23, 2023
+- Published
+
+  May 23, 2023
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Funding](https://www.anthropic.com/search?topic=funding)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Leadership](https://www.anthropic.com/search?topic=leadership)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)See more...
+
+Related articles
+
+- Partnerships
+
+  Mar 12, 2026
+
+  [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
+
+[View more](https://www.anthropic.com/search?topic=funding)
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8ba0c4c8ef64c1146e639d29b41400aad0f65ef3-2880x1620.png&w=3840&q=75)
 
@@ -17,23 +36,3 @@ In connection with the Series C round, Yasmin Razavi, a General Partner at Spark
 In addition to our technical work, during the past year we have been further refining our governance structure to better achieve our Public Benefit orientation. We are glad to have the support of our investors in developing different approaches to corporate governance, and we will have more to share about this in the coming months.
 
 We are excited to use the new funding to grow our world-class team across product and research, and aim to meet increasing demand for AI technologies that are reliable and trustworthy. Please get in touch if you’re interested in working with Claude.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

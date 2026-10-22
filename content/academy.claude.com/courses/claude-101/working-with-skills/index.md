@@ -53,7 +53,7 @@ The beauty of Skills is that you typically don't need to think about them—Clau
 - “Generate a PDF report summarizing this data”
 - “Build a financial model in Excel with scenario analysis”
 
-When Claude uses a Skill, you'll see it mentioned in Claude's chain of thought as it works. The output will be a downloadable file you can save to your computer or directly to Google Drive. (On paid plans where Claude Slides and Claude Docs are enabled, asking for a deck or a document can create an artifact instead — one you keep working on with Claude, then export when you're done. The "Creating with artifacts" lesson covers how the two differ.)
+When Claude uses a Skill, you'll see it mentioned in Claude's chain of thought as it works. The output will be a downloadable file you can save to your computer or directly to Google Drive. (If Claude Slides and Claude Docs are turned on for you, asking for a deck or a document can create an artifact instead — one you keep working on with Claude, then export when you're done. The "Creating with artifacts" lesson covers how the two differ.)
 
 ## File execution[](https://academy.claude.com/courses/claude-101/working-with-skills)
 
@@ -79,7 +79,7 @@ Because Skills can include executable code, it's important to use them thoughtfu
 
 - Only install custom Skills from trusted sources
 - Anthropic's built-in Skills are tested and maintained by Anthropic
-- Custom Skills you upload are private to your individual account
+- Custom Skills you upload aren't visible to colleagues until you share them
 - If you're installing a custom Skill from an external source, review its contents before use to understand what it does.
 
 ## Creating custom skills[](https://academy.claude.com/courses/claude-101/working-with-skills)

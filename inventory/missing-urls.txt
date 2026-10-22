@@ -30,17 +30,14 @@ https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/mark
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/product
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/sales
 https://platform.claude.com/docs/en/api/sessions-retrieve
-https://platform.claude.com/docs/en/build-with-claude/embeddings?sdk_languages=curl
 https://platform.claude.com/docs/en/build-with-claude/err
 https://platform.claude.com/docs/en/build-with-claude/watermark-detection
 https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/12
 https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/any
 https://platform.claude.com/docs/en/docs/build-with-claude/tool-useAnthropic
 https://platform.claude.com/docs/en/managed-agents/2000
-https://platform.claude.com/docs/en/managed-agents/memory?sdk_languages=http
 https://platform.claude.com/docs/en/mcp
 https://platform.claude.com/docs/en/release-notes/claude-code
-https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency?sdk_languages=curl
 https://platform.claude.com/docs/mcp
 https://platform.claude.com/docs/videos/1
 https://platform.claude.com/docs/videos/3
@@ -70,6 +67,9 @@ https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents
 https://support.claude.com/en/articles/14855664-use-claude-for-outlook
 https://support.claude.com/en/articles/15330089
 https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion
+https://support.claude.com/en/articles/17631495
+https://support.claude.com/en/articles/17666484
+https://support.claude.com/en/articles/17666489
 https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data
 https://support.claude.com/en/articles/9945670-using-the-github-integration
 https://support.claude.com/en/articles/9945689-claude-for-engineering
@@ -85,7 +85,6 @@ https://www.anthropic.com/engineering/prompt-engineering-overview
 https://www.anthropic.com/news/claude-for-powerpoint
 https://www.anthropic.com/news/max-plan
 https://www.anthropic.com/news/project-glasswing
-https://www.anthropic.com/news/tx-data-center-support
 https://www.anthropic.com/research/2
 https://www.anthropic.com/research/anthropic.com/research/anthropic-economic-index-january-2026-report
 https://www.anthropic.com/research/cqz@anthropic.com

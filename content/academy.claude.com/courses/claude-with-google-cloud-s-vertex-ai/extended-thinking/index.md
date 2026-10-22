@@ -1,4 +1,4 @@
-Lesson 43 of 66 · Claude with Google Cloud's Vertex AIExtended thinking
+Lesson 43 of 66 · Claude on Google CloudExtended thinking
 
 # Extended thinking
 

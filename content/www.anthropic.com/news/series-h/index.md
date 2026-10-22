@@ -1,10 +1,27 @@
-Announcements
-
 # Anthropic raises $65B in Series H funding at $965B post-money valuation
 
-May 28, 2026
+- Published
 
-![Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www-cdn.anthropic.com/images/4zrzovbb/website/c0af2a56f56cf298ce5904f2901e9a36facd0dbe-1000x1000.svg)
+  May 28, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Funding](https://www.anthropic.com/search?topic=funding)
+  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)See more...
+
+Related articles
+
+- Partnerships
+
+  Mar 12, 2026
+
+  [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
+
+[View more](https://www.anthropic.com/search?topic=funding)
 
 Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital, valuing the company at $965 billion post-money.
 
@@ -27,23 +44,3 @@ We have significantly expanded our compute capacity in recent weeks. We signed a
 “Startups and Global 5000 companies alike are deploying Claude to handle complex workflows, and in doing so, Claude is learning how businesses actually operate: the context, the processes, the judgment,” said Alfred Lin, Partner at Sequoia Capital. “Anthropic is building the bridge between where enterprise AI stands today and where it's headed.”
 
 We are grateful for the support of our investors and partners as we continue building Claude for people and organizations around the world.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

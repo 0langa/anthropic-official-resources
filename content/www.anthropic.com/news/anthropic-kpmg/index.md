@@ -1,10 +1,27 @@
-Announcements
-
 # KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance
 
-May 19, 2026
+- Published
 
-![KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance](https://www-cdn.anthropic.com/images/4zrzovbb/website/6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+  May 19, 2026
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Financial services](https://www.anthropic.com/search?topic=financial-services)
+  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+
+Related articles
+
+- Partnerships
+
+  Jun 11, 2026
+
+  [DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on](https://www.anthropic.com/news/dxc-anthropic-alliance)
+
+[View more](https://www.anthropic.com/search?topic=partnerships)
 
 KPMG—one of the world's largest professional services firms for audit, tax, legal, and advisory services across 138 countries and territories—has announced a global alliance with Anthropic to bring Claude into the heart of its business.
 
@@ -12,7 +29,7 @@ As part of this alliance, KPMG is embedding Claude inside Digital Gateway, the s
 
 Anthropic is also naming KPMG a preferred partner for private equity, and the two companies will build new Claude-powered products together for PE portfolio companies.
 
-### **KPMG and Claude**
+#### KPMG and Claude
 
 KPMG helps organizations in various industries work together to transform, innovate, and effectively compete in tomorrow’s fast-changing world. Integrating AI across its core business furthers this mission—and requires trust and diligence.
 
@@ -20,7 +37,7 @@ KPMG helps organizations in various industries work together to transform, innov
 
 “KPMG works in industries where accuracy, accountability, and trust aren’t optional, and they're applying the same standard to AI. They’re rolling Claude out to 276,000 people across the business, and using it for client work in tax and private equity. They're also bringing it into cybersecurity, where it helps find and fix vulnerabilities. That's what a firm-wide commitment to AI looks like, and we're proud to be the partner they chose,” said Daniela Amodei, Co-founder and President of Anthropic.
 
-### **Claude for 276,000+ KPMG people**
+#### Claude for 276,000+ KPMG people
 
 Beyond the client-facing platform, every KPMG employee—all 276,000+ of them—will have access to Claude. That builds on two years of adoption inside KPMG in the US, including its AI and Data Labs, and the firm's internal teams.
 
@@ -30,7 +47,7 @@ Cybersecurity is one of those areas. Across the alliance, KPMG and Anthropic tea
 
 “Our clients depend on us where accuracy, judgment, and knowledge matter most,” said Tim Walsh, Chair and CEO of KPMG US. “AI is changing how we deliver—trust and innovation are the core of this new offering and we’re proud to partner with Anthropic to deliver incredible value to our clients and our people. It’s one of the most important things we'll do.”
 
-### **Claude powers KPMG’s Digital Gateway platform**
+#### Claude powers KPMG’s Digital Gateway platform
 
 Digital Gateway is KPMG's main platform for client work—built on Microsoft Azure, it's where KPMG's tax expertise, proprietary tools, and client data live together, and where KPMG's people build the AI tools they use day to day.
 
@@ -38,38 +55,18 @@ With Claude Cowork and Managed Agents embedded inside it, KPMG professionals and
 
 “Building an AI agent to help clients adjust to changing tax regulations used to take weeks and required teams to switch between multiple tools and chat windows,” said Rema Serafi, Vice Chair, Tax at KPMG US. “With Cowork and Managed Agents integrated in Digital Gateway, that same capability takes minutes. This is a totally different way of working.”
 
-### **A preferred partner for private equity**
+#### A preferred partner for private equity
 
 PE firms are betting that AI will reshape how their portfolio companies run. KPMG becomes a preferred consultant for deploying Claude and Anthropic's agents into those portfolio companies—helping them with direct access to Claude to build new AI-driven products, processes, and services responsibly.
 
 This work lands with the employees and builders inside portfolio companies. To set them up for success, KPMG developed a new portfolio of PE-focused offerings, including KPMG Blaze, which can embed Claude Code to help teams modernize aging IT systems faster and ship new AI-enabled technology in a fraction of the usual time.
 
-### **“Human in the loop” in practice**
+#### “Human in the loop” in practice
 
 Joint research from KPMG and the McCombs School of Business at UT Austin is helping clarify how the value of AI deployments depends on what people do alongside the technology—not just the technology itself.
 
 “Organizations often talk about keeping a ‘human in the loop’ when using AI, but KPMG and UT Austin's research helps clarify what that human should be doing,” said Ethan Burris, Senior Associate Dean for Academic Affairs, McCombs School of Business at UT Austin. “We find that the greatest value comes not just from technical adoption, but from the ways employees exercise judgment, shape workflows, interface with the technology, evaluate its outputs, and make decisions with AI. As these tools become more embedded in consequential work, responsible deployment will require both capable technology and a much clearer understanding of the human role in creating value.”
 
-### **Getting started**
+#### Getting started
 
 KPMG clients can contact their KPMG account team to discuss how Claude inside Digital Gateway applies to their business. Enterprises can visit our [Enterprise page](https://www.anthropic.com/enterprise) to explore how Claude can transform their operations, and developers can access the Anthropic API at [claude.com/platform/api](https://www.claude.com/platform/api).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

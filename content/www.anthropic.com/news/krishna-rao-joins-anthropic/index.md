@@ -1,8 +1,26 @@
-Announcements
-
 # Krishna Rao joins Anthropic as Chief Financial Officer
 
-May 21, 2024
+- Published
+
+  May 21, 2024
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Leadership](https://www.anthropic.com/search?topic=leadership)
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+  - [Funding](https://www.anthropic.com/search?topic=funding)See more...
+
+Related articles
+
+- Announcements
+
+  Jan 16, 2026
+
+  [Anthropic appoints Irina Ghose as Managing Director of India ahead of Bengaluru office opening](https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india)
+
+[View more](https://www.anthropic.com/search?topic=leadership)
 
 We’re excited to announce that Krishna Rao has joined Anthropic as our Chief Financial Officer. With nearly 20 years of experience as a strategic finance leader for customer-centric, world-class brands and as an investor, Krishna will play a crucial role in shaping Anthropic's financial strategy and operations as we continue to build on our strong enterprise momentum and advance our international expansion.
 
@@ -13,23 +31,3 @@ Earlier in his career, Krishna spent time as a private equity investor at Blacks
 “I am thrilled to join Anthropic at such a pivotal moment in the company’s journey,” said Krishna. “Anthropic’s mission to build transformative AI systems that benefit humanity deeply resonates with me. I look forward to working with the exceptional team at Anthropic to build a strong financial foundation that will support the responsible development and deployment of our technology.”
 
 “Krishna is a world-class financial leader with an impressive history of driving strategic growth and operational excellence at innovative, mission-driven companies,” said Daniela Amodei, co-founder and President of Anthropic. “As we continue to grow our footprint and expand our impact, Krishna’s deep expertise in financial strategy and analysis, capital allocation, and scaling high-growth organizations will be essential. We’re thrilled to have him join our leadership team and help guide Anthropic through our next phase of growth.”
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

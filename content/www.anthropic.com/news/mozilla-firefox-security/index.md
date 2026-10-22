@@ -1,10 +1,28 @@
-PolicyFrontier Red Team
-
 # Partnering with Mozilla to improve Firefox’s security
 
-Mar 6, 2026
+- Published
 
-![Partnering with Mozilla to improve Firefox’s security](https://www-cdn.anthropic.com/images/4zrzovbb/website/589b94b913c4cee1c3c1ce2cb04f638d09c465b1-1000x1000.svg)
+  Mar 6, 2026
+- Category
+
+  [Security](https://www.anthropic.com/news/security)
+- Topics
+
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Open source](https://www.anthropic.com/search?topic=open-source)See more...
+
+Related articles
+
+- Security
+
+  Jul 30, 2026
+
+  [Investigating three real-world incidents in our cybersecurity evaluations](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals)
+
+[View more](https://www.anthropic.com/search?topic=cybersecurity)
 
 AI models can now independently identify high-severity vulnerabilities in complex software. As we recently documented, Claude found more than 500 [zero-day vulnerabilities](https://red.anthropic.com/2026/zero-days/) (security flaws that are unknown to the software’s maintainers) in well-tested open-source software.
 
@@ -12,11 +30,11 @@ In this post, we share details of a collaboration with researchers at Mozilla in
 
 ![A graph showing how Opus 4.6 was responsible for a substantial increase in the number of Firefox security vulnerabilities detected per month.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc3fe844b8a437af0e44027bad81523c88b89b1ab-4584x2580.png&w=3840&q=75)
 
-*Firefox security vulnerabilities reported from all sources, by month. Claude Opus 4.6 found 22 vulnerabilities in February 2026, more than were reported in any single month in 2025.*
+Firefox security vulnerabilities reported from all sources, by month. Claude Opus 4.6 found 22 vulnerabilities in February 2026, more than were reported in any single month in 2025.
 
 As part of this collaboration, Mozilla fielded a large number of reports from us, helped us understand what types of findings warranted submitting a bug report, and shipped fixes to hundreds of millions of users in [Firefox 148.0](https://www.firefox.com/en-US/firefox/148.0/releasenotes/). [Their partnership](https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/), and the technical lessons we learned, provides a model for how AI-enabled security researchers and maintainers can work together to meet this moment.
 
-## From model evaluations to a security partnership
+### From model evaluations to a security partnership
 
 In late 2025, we noticed that Opus 4.5 was close to solving all tasks in [CyberGym](https://www.cybergym.io/), a benchmark that tests whether LLMs can reproduce known security vulnerabilities. We wanted to construct a harder and more realistic evaluation that contained a higher concentration of technically complex vulnerabilities, like those present in modern web browsers. So we built a dataset of prior Firefox common vulnerabilities and exposures (CVEs) to see if Claude could reproduce those.
 
@@ -32,7 +50,7 @@ In the time it took us to validate and submit this first vulnerability to Firefo
 
 When doing this kind of bug hunting in external software, we’re always conscious of the fact that we may have missed something critical about the codebase that would make the discovery a false positive. We try to do the due diligence of validating the bugs ourselves, but there’s always room for error. We are extremely appreciative of Mozilla for being so transparent about their triage process, and for helping us adjust our approach to ensure we only submitted test cases they cared about (even if not all of them ended up being relevant to security). Mozilla researchers have since started experimenting with Claude for security purposes internally.
 
-## From identifying vulnerabilities to writing primitive exploits
+### From identifying vulnerabilities to writing primitive exploits
 
 To measure the upper limits of Claude’s cybersecurity abilities, we also developed a new evaluation to determine whether Claude was able to *exploit* any of the bugs we discovered. In other words, we wanted to understand whether Claude could also develop the sorts of tools that a hacker would use to take advantage of these bugs to execute malicious code.
 
@@ -42,7 +60,7 @@ We ran this test several hundred times with different starting points, spending 
 
 “Crude” is an important caveat here. The exploits Claude wrote only worked on our testing environment, which intentionally removed some of the security features found in modern browsers. This includes, most importantly, the [sandbox](https://wiki.mozilla.org/Security/Sandbox), the purpose of which is to reduce the impact of these types of vulnerabilities. Thus, Firefox’s “defense in depth” would have been effective at mitigating these particular exploits. But vulnerabilities that escape the sandbox are not unheard of, and Claude’s attack is one necessary component of an end-to-end exploit. You can read more about how Claude developed one of these Firefox exploits on our [Frontier Red Team blog](https://red.anthropic.com/2026/exploit/).
 
-## What's next for AI-enabled cybersecurity
+### What's next for AI-enabled cybersecurity
 
 These early signs of AI-enabled exploit development underscore the importance of accelerating the find-and-fix process for defenders. Towards that end, we want to share a few technical and procedural best practices we’ve found while performing this analysis.
 
@@ -64,7 +82,7 @@ We strongly encourage researchers who use LLM-powered vulnerability research too
 
 We’ve also published our [Coordinated Vulnerability Disclosure operating principles](https://www.anthropic.com/coordinated-vulnerability-disclosure)**,** where we describe the procedures we will use when working with maintainers. Our processes here follow standard industry norms for the time being, but as models improve we may need to adjust our processes to keep pace with capabilities.
 
-## The urgency of the moment
+### The urgency of the moment
 
 Frontier language models are now world-class vulnerability researchers. On top of the 22 CVEs we identified in Firefox, we’ve used Claude Opus 4.6 to discover vulnerabilities in other important software projects like the Linux kernel. Over the coming weeks and months, we will continue to report on how we’re using our models and working with the open-source community to improve security.
 
@@ -76,31 +94,8 @@ We urge developers to take advantage of this window to redouble their efforts to
 
 *If you’re interested in supporting our security efforts—writing new scaffolds to identify vulnerabilities in open-source software; triaging, patching, and reporting vulnerabilities; and developing a robust CVD process for the AI era—[apply to work at Anthropic here](https://job-boards.greenhouse.io/anthropic/jobs/5123011008).*
 
-#### Footnotes
+## Footnotes
 
-1. All the advice shared here is based on our use of Claude, but it should apply to whichever LLM you prefer.
-2. Which Mozilla patched independently.
+01All the advice shared here is based on our use of Claude, but it should apply to whichever LLM you prefer.
 
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
-
-## Subscribe to the Frontier Red Team newsletter
-
-Get updates on our latest red-teaming research and findings.
+02Which Mozilla patched independently.

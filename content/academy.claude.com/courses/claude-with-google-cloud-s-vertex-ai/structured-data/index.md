@@ -1,4 +1,4 @@
-Lesson 9 of 66 · Claude with Google Cloud's Vertex AIStructured data
+Lesson 9 of 66 · Claude on Google CloudStructured data
 
 # Structured data
 

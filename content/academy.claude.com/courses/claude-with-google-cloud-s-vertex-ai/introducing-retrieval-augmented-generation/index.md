@@ -1,4 +1,4 @@
-Lesson 34 of 66 · Claude with Google Cloud's Vertex AIIntroducing Retrieval Augmented Generation
+Lesson 34 of 66 · Claude on Google CloudIntroducing Retrieval Augmented Generation
 
 # Introducing Retrieval Augmented Generation
 

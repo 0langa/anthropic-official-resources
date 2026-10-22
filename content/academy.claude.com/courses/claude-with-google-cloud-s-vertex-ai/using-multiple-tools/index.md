@@ -1,4 +1,4 @@
-Lesson 29 of 66 · Claude with Google Cloud's Vertex AIUsing multiple tools
+Lesson 29 of 66 · Claude on Google CloudUsing multiple tools
 
 # Using multiple tools
 

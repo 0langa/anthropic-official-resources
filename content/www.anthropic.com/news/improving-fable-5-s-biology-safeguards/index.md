@@ -1,12 +1,31 @@
-ProductAnnouncements
-
 # Improving Fable 5's biology safeguards
 
-Aug 7, 2026
+- Published
 
-![Improving Fable 5's biology safeguards](https://www-cdn.anthropic.com/images/4zrzovbb/website/e253e6c4926deb09baf67f41e4e24e8028ea5f36-1000x1000.svg)
+  Aug 7, 2026
+- Category
 
-We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces false positives. Fable 5 users will now experience many fewer “fallbacks”—where the system switches to a less capable model after they make a biology-related query. In our testing, this update reduced *biology-related* fallbacks by about 85% across our product surfaces.1
+  [Safeguards](https://www.anthropic.com/news/safeguards)
+- Topics
+
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+  - [Healthcare](https://www.anthropic.com/search?topic=healthcare)
+  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+  - [Access](https://www.anthropic.com/search?topic=access)See more...
+
+Related articles
+
+- Announcements
+
+  Sep 17, 2026
+
+  [Introducing the Life Sciences Verification Program](https://www.anthropic.com/news/life-sciences-verification-program)
+
+[View more](https://www.anthropic.com/search?topic=safeguards)
+
+We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces false positives. Fable 5 users will now experience many fewer “fallbacks”—where the system switches to a less capable model after they make a biology-related query. In our testing, this update reduced *biology-related* fallbacks by about 85% across our product surfaces.[1](https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards)
 
 Fable 5 will thus be able to assist with a wider range of biology tasks.
 
@@ -22,7 +41,7 @@ It’s often difficult to tell apart beneficial and harmful uses of AI in biolog
 
 Sophisticated actors who wish to use our models to do harm know how to exploit this ambiguity to obscure their intent, making dangerous tasks look like ordinary research pursuits. The US Intelligence Community’s [2026 Annual Threat Assessment](https://www.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf) makes clear that such actors exist, and that advances in biotechnology including synthetic biology and genomic editing *“could lead to novel biological threats.”* It notes that several state actors likely maintain active offensive biological and chemical weapons programs—programs that could be accelerated by access to the raw capabilities of frontier AI models.
 
-Because of our concerns about these “dual-use” capabilities (those that could be used for beneficial or harmful purposes, and where the line between them is not always easy to draw), we intentionally launched Fable 5 with almost all biology queries blocked. This enabled us to make the model available for users in other domains. We knew this would be frustrating for legitimate biology users: it would result in a high number of false positives in the near term, where users asking biology-related questions would have their requests blocked and sent to a less capable model. Nevertheless, we chose to make this tradeoff because the cost of Fable being misused in a dual-use domain like biology could potentially be [catastrophic](https://cdn.sanity.io/files/4zrzovbb/website/0bacdc8440ea96e62a8766d99ebe1d4eea6d5f3a.pdf).
+Because of our concerns about these “dual-use” capabilities (those that could be used for beneficial or harmful purposes, and where the line between them is not always easy to draw), we intentionally launched Fable 5 with almost all biology queries blocked. This enabled us to make the model available for users in other domains. We knew this would be frustrating for legitimate biology users: it would result in a high number of false positives in the near term, where users asking biology-related questions would have their requests blocked and sent to a less capable model. Nevertheless, we chose to make this tradeoff because the cost of Fable being misused in a dual-use domain like biology could potentially be [catastrophic](https://www-cdn.anthropic.com/files/4zrzovbb/website/0bacdc8440ea96e62a8766d99ebe1d4eea6d5f3a.pdf).
 
 ### How our biology safeguards work
 
@@ -40,34 +59,14 @@ As is illustrated in the diagram below, these updates meant that—compared to a
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe6d3c7b32cc8a0798c0ad58a2340f846b3c8af42-3840x1855.png&w=3840&q=75)
 
-*Illustration of our biology classifiers. Content that falls on the left-hand side of the classifier boundary is allowed; content that falls on the right-hand side is safeguarded (and is therefore blocked and sent instead to a less capable model);. Clearly harmful content (red), and content that is dual-use (orange), triggers the classifier and is blocked. We include a safety margin that includes content that is very likely benign but which is still blocked out of an abundance of caution (light green). Clearly benign content is in darker green.**Upon its launch, Fable 5 had very broad classifiers (A) that triggered on a wide range of requests—even ones that were almost certainly benign (those in the safety margin). The classifier boundary is thus very far to the left-hand side of the diagram. The update we are announcing today (B) means that many more benign requests are allowed by the classifier, which has become better at discerning subtle differences between benign and dual-use queries. The classifier boundary in the diagram has therefore moved further to the right-hand side.*
+Illustration of our biology classifiers. Content that falls on the left-hand side of the classifier boundary is allowed; content that falls on the right-hand side is safeguarded (and is therefore blocked and sent instead to a less capable model);. Clearly harmful content (red), and content that is dual-use (orange), triggers the classifier and is blocked. We include a safety margin that includes content that is very likely benign but which is still blocked out of an abundance of caution (light green). Clearly benign content is in darker green.Upon its launch, Fable 5 had very broad classifiers (A) that triggered on a wide range of requests—even ones that were almost certainly benign (those in the safety margin). The classifier boundary is thus very far to the left-hand side of the diagram. The update we are announcing today (B) means that many more benign requests are allowed by the classifier, which has become better at discerning subtle differences between benign and dual-use queries. The classifier boundary in the diagram has therefore moved further to the right-hand side.
 
-## Conclusions
+### Conclusions
 
 There’s still much more to be done to refine our safeguards. There will inevitably remain false positives—requests that fall within the classifier’s safety margin where the request is very low-risk but where the classifier still fires. As we noted above, Fable will continue to block dual-use professional biology and drug development queries because of potential dual-use risk. We are fully committed to developing a safe, scalable path for researchers to use our most capable models via trusted access pathways.
 
 We hope you’ll continue to share your feedback with us so we can improve our safeguards even further.
 
-#### Footnotes
+## Footnotes
 
-1 As a result, we expect the total number of fallbacks—for biology–related or any other reasons—will also be reduced: by roughly 67% on [Claude.ai](http://claude.ai/), 55% on Cowork, 17% on Claude Code, and 7% on the Claude Platform.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
+01 As a result, we expect the total number of fallbacks—for biology–related or any other reasons—will also be reduced: by roughly 67% on [Claude.ai](http://claude.ai/), 55% on Cowork, 17% on Claude Code, and 7% on the Claude Platform.

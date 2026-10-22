@@ -1,10 +1,28 @@
-Announcements
-
 # Microsoft, NVIDIA, and Anthropic announce strategic partnerships
 
-Nov 18, 2025
+- Published
 
-![Microsoft, NVIDIA, and Anthropic announce strategic partnerships](https://www-cdn.anthropic.com/images/4zrzovbb/website/1576ae23eaf481f33bd36ab468171cc69d12361a-1000x1000.svg)
+  Nov 18, 2025
+- Category
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+  - [Funding](https://www.anthropic.com/search?topic=funding)
+  - [Access](https://www.anthropic.com/search?topic=access)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)See more...
+
+Related articles
+
+- Announcements
+
+  May 28, 2026
+
+  [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)
+
+[View more](https://www.anthropic.com/search?topic=partnerships)
 
 - **Anthropic to scale Claude on Azure**
 - **Anthropic to adopt NVIDIA architecture**
@@ -25,23 +43,3 @@ Anthropic co-founder and CEO Dario Amodei, Microsoft Chairman and CEO Satya Nade
 Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/101152a9467261958710e026d20f10cc7d08c24f.mp4
 
 Amazon remains Anthropic’s primary cloud provider and training partner.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

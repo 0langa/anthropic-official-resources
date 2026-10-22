@@ -31,21 +31,21 @@ Get the fundamentals in place so your team can start using Cowork. Your progress
 
    Before you turn on single sign-on (SSO) or provisioning
 
-   Domain claiming, account merging, and provisioning choices are hard to undo once people start signing in.
+   Understand parent organizations, merging organizations, and what happens to people’s existing accounts before you require SSO.
 
    [Read first (opens in new tab)](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
 2. 
 
-   Connect SSO and claim your domain
+   Verify your domain and connect SSO
 
-   Connect your identity provider (like Okta, Entra, or Google) and claim your domain so everyone signs in to the right organization.
+   Verify your domain, then connect your identity provider (like Okta, Entra, or Google) so your members sign in with single sign-on. On Enterprise plans, claiming the domain, which migrates existing personal accounts into your organization, is an optional, separate step that comes after single sign-on is enforced and provisioning is live, and it can’t be undone.
 
    [Set up SSO (opens in new tab)](https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso)
 3. 
 
    Set up provisioning
 
-   Choose just-in-time (JIT) provisioning or directory sync (SCIM) so accounts are created and deactivated automatically from your identity provider.
+   Choose just-in-time (JIT) provisioning, which creates accounts at first sign-in, or directory sync (SCIM, Enterprise plans), which also removes them automatically when you unassign people in your identity provider.
 
    [Set up provisioning (opens in new tab)](https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning)
 4. 
@@ -59,7 +59,7 @@ Get the fundamentals in place so your team can start using Cowork. Your progress
 
    Assign roles to groups
 
-   Map your identity provider’s groups to roles and decide which connectors and skills each group can use.
+   Assign custom roles to groups to decide which features and connectors each group can use.
 
    [Set up roles (opens in new tab)](https://support.claude.com/en/articles/13930458-set-up-role-based-permissions-on-enterprise-plans)
 6. 
@@ -78,7 +78,7 @@ Get the fundamentals in place so your team can start using Cowork. Your progress
 
    Set initial spend controls
 
-   Put guardrails on cost from day one. Set per-role usage limits so pilot teams can move fast without surprise bills.
+   Put guardrails on cost from day one. On usage-based Enterprise plans, set a per-user monthly spend limit for each group.
 
    [Configure limits (opens in new tab)](https://support.claude.com/en/articles/13930458-set-up-role-based-permissions-on-enterprise-plans)
 2. 
@@ -114,16 +114,16 @@ Get the fundamentals in place so your team can start using Cowork. Your progress
 
 1. 
 
-   Install Claude for Mac or Windows
+   Install the Claude desktop app
 
-   Get the Claude desktop app — Cowork runs in the desktop client, not the browser.
+   Cowork needs the desktop app open to work with local files and local connectors, and to use a browser during a task. It can also run on the web and mobile, in beta: that’s on by default for Team plans; on Enterprise plans an owner turns it on and then grants it to groups through custom roles, and it isn’t available with the HIPAA configuration applied.
 
    [Read the install guide (opens in new tab)](https://support.claude.com/en/articles/10065433-install-claude-desktop)
 2. 
 
    Configure Claude for Mac and Windows
 
-   Apply managed settings across your organization. Preconfigure connectors, defaults, and policies before people open the app.
+   Use managed policies to control updates, extensions, local MCP servers, and the folders Cowork can reach.
 
    [Set up managed settings (opens in new tab)](https://support.claude.com/en/articles/12622667-enterprise-configuration-for-claude-desktop)
 
@@ -135,14 +135,14 @@ Get the fundamentals in place so your team can start using Cowork. Your progress
 
    View usage analytics
 
-   Track seats, active users, and chat volume across your organization.
+   Track assigned seats, active members, and Cowork sessions across your organization.
 
    [Read the guide (opens in new tab)](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
 2. 
 
    Usage limit best practices
 
-   Understand how usage limits work and how to size them so teams stay productive without unexpected costs.
+   Share habits that help people get more from their usage limits, like planning conversations and batching related questions.
 
    [Read best practices (opens in new tab)](https://support.claude.com/en/articles/9797557-usage-limit-best-practices)
 3. 
@@ -151,11 +151,11 @@ Get the fundamentals in place so your team can start using Cowork. Your progress
 
    Query adoption and engagement data programmatically so you can pipe it into your own BI tools and dashboards.
 
-   [Read the API reference (opens in new tab)](https://support.claude.com/en/articles/13694757-claude-enterprise-analytics-api-access-engagement-and-adoption-data)
+   [Read the API reference (opens in new tab)](https://support.claude.com/en/articles/13694757-get-started-with-the-claude-enterprise-analytics-api)
 4. 
 
    Monitor Cowork with OpenTelemetry
 
-   Send Cowork traces, metrics, and audit events to your monitoring tools with OpenTelemetry.
+   Stream Cowork events, like prompts, tool calls, file access, and approval decisions, to your monitoring tools with OpenTelemetry.
 
    [Set up OpenTelemetry (opens in new tab)](https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry)

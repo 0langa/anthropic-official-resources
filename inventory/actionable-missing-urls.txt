@@ -1,5 +1,3 @@
-https://platform.claude.com/docs/en/build-with-claude/embeddings?sdk_languages=curl
-https://platform.claude.com/docs/en/managed-agents/memory?sdk_languages=http
-https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency?sdk_languages=curl
-https://www.anthropic.com/news/tx-data-center-support
-https://www.anthropic.com/research/team/alignment.anthropic.com
+https://support.claude.com/en/articles/17631495
+https://support.claude.com/en/articles/17666484
+https://support.claude.com/en/articles/17666489

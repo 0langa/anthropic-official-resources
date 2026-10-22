@@ -22,8 +22,8 @@ This guide walks you through the four phases of a successful Claude Enterprise d
 
 Claude Enterprise supports SAML 2.0 and OIDC (OpenID Connect) for single sign-on (SSO). See [Setting Up SSO(opens in new tab)](https://support.claude.com/en/articles/13132885-setting-up-single-sign-on-sso) for detailed configuration steps.
 
-1. **Test SSO:** Configure with a small pilot group before broad rollout.
-2. **Enable domain capture:** Automatically route users from your domain to your workspace. See [Domain Capture Setup(opens in new tab)](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning).
+1. **Verify your domain:** Single sign-on can't be configured until the domain is verified.
+2. **Test SSO:** Configure with a small pilot group before broad rollout.
 3. **Enforce SSO:** Require SSO for all access once configuration is validated.
 
 ### User Provisioning Options[](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)
@@ -33,6 +33,8 @@ Choose your provisioning method based on your organization's needs. See [User Pr
 1. **SCIM (recommended):** System for Cross-domain Identity Management enables automatic sync from your identity provider (IdP). See [SCIM Setup Guide(opens in new tab)](https://support.claude.com/en/articles/13133195-setting-up-jit-or-scim-provisioning).
 2. **Just-in-Time (JIT):** Users are created upon first SSO login. Simple to set up but offers less control over access.
 3. **Manual:** Admin-managed invitations via the [Admin Console(opens in new tab)](https://support.claude.com/en/articles/13133750-managing-members-on-team-and-enterprise-plans). Best for small, controlled pilots.
+
+Claiming is separate from verifying, and optional. **Decide whether to claim your domain:** Turning claiming on moves the personal accounts on your verified domain into your organization. Without it, those accounts stay outside your organization; restricted organization creation still stops new ones, so turn that setting on either way. Claiming needs restricted organization creation, enforced SSO, and SCIM or JIT provisioning, and it cannot be reversed. See [Claim and migrate accounts on your domain(opens in new tab)](https://support.claude.com/en/articles/14625619-claim-and-migrate-accounts-on-your-domain).
 
 
 
@@ -51,18 +53,18 @@ Claude Enterprise includes robust security and compliance features designed for 
 
 Review security details at the [Anthropic Trust Center(opens in new tab)](https://trust.anthropic.com/) and in the [Enterprise Plan Overview(opens in new tab)](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan).
 
-1. **Data retention:** Conversations are retained per your policy and exportable via the [Compliance API(opens in new tab)](https://trust.anthropic.com/) and [Audit Logs(opens in new tab)](https://support.claude.com/en/articles/9970975-how-to-access-audit-logs), which also provide full activity logging for security monitoring.
+1. **Data retention:** Conversations are retained per your policy and exportable via the [Compliance API(opens in new tab)](https://support.claude.com/en/articles/13015708-access-the-compliance-api), which also provides activity logging for security monitoring alongside [Audit Logs(opens in new tab)](https://support.claude.com/en/articles/9970975-how-to-access-audit-logs).
 2. **No model training:** Your organization's data is not used to train Claude models by default.
-3. **Role-based access:** Primary Owner, Owner, and Member roles provide granular permissions. See [Member Roles Guide(opens in new tab)](https://support.claude.com/en/articles/9267276-roles-and-permissions).
+3. **Role-based access:** Primary Owner, Owner, Admin, and User roles set each member's baseline permissions, and on Enterprise plans custom roles assigned to groups control feature access group by group. See [Member Roles Guide(opens in new tab)](https://support.claude.com/en/articles/9267276-roles-and-permissions).
 
 ### Pre-Launch Checklist[](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)
 
 - Important considerations before setting up Identity Management — [Important Considerations(opens in new tab)](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
-- SSO configured and tested — [Setting Up SSO(opens in new tab)](https://support.claude.com/en/articles/13132885-setting-up-single-sign-on-sso)
+- Domain verified, then SSO configured and tested — [Setting Up SSO(opens in new tab)](https://support.claude.com/en/articles/13132885-setting-up-single-sign-on-sso)
 - User provisioning configured — [Provisioning Guide(opens in new tab)](https://support.claude.com/en/articles/13133195-setting-up-jit-or-scim-provisioning)
 - Security review completed with IT and information security teams
 - Data retention policies documented
-- Compliance API and Audit log access configured — [Trust Center(opens in new tab)](https://trust.anthropic.com/) and [Audit Logs(opens in new tab)](https://support.claude.com/en/articles/9970975-how-to-access-audit-logs)
+- Compliance API and Audit log access configured — [Compliance API(opens in new tab)](https://support.claude.com/en/articles/13015708-access-the-compliance-api) and [Audit Logs(opens in new tab)](https://support.claude.com/en/articles/9970975-how-to-access-audit-logs)
 - Set up Connectors — [Information on Connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-pre-built-web-connectors-using-remote-mcp)
 - Admin roles assigned — [Member Roles(opens in new tab)](https://support.claude.com/en/articles/9267276-roles-and-permissions)
 - Claude Code seat configuration completed (see next section)
@@ -281,7 +283,7 @@ A comprehensive directory of support, training, and enablement resources for Cla
 ### User & Seat Management[](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)
 
 - [Managing members on Team and Enterprise plans(opens in new tab)](https://support.claude.com/en/articles/13133750-managing-members-on-team-and-enterprise-plans) — Inviting, removing, and managing user roles from the admin console
-- [Roles and Permissions(opens in new tab)](https://support.claude.com/en/articles/9267276-roles-and-permissions) — Owner, Admin, and Member permission levels
+- [Roles and Permissions(opens in new tab)](https://support.claude.com/en/articles/9267276-roles-and-permissions) — Primary Owner, Owner, Admin, and User permission levels
 - [Purchasing and managing seats(opens in new tab)](https://support.claude.com/en/articles/13393991-purchasing-and-managing-seats-on-enterprise-plans) — Seat allocation, scaling, and license management
 - [Find and join your organization(opens in new tab)](https://support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization) — How end users discover and join their company's Claude organization
 - [Migrating individual accounts to Enterprise(opens in new tab)](https://support.claude.com/en/articles/9267400-can-individuals-with-pro-or-max-plan-accounts-migrate-them-to-team-or-enterprise-plan-organizations) — Migration paths and data handling when transitioning plan types
@@ -291,8 +293,8 @@ A comprehensive directory of support, training, and enablement resources for Cla
 
 - [Exporting organization data(opens in new tab)](https://support.claude.com/en/articles/13346720-how-can-i-export-my-organization-s-data) — Bulk data export for compliance, migration, or backup
 - [Usage analytics(opens in new tab)](https://support.claude.com/en/articles/12883420-usage-analytics-for-team-and-enterprise-plans) — Dashboard for tracking adoption, usage patterns, and seat utilization
-- [Audit logs(opens in new tab)](https://support.claude.com/en/articles/9970975-how-to-access-audit-logs) — Track user activity, conversations, and admin changes
-- [Custom Data Retention Controls(opens in new tab)](https://support.claude.com/en/articles/10440198-custom-data-retention-controls-for-enterprise-plans) — Configure retention windows from 1 day to indefinite
+- [Audit logs(opens in new tab)](https://support.claude.com/en/articles/9970975-how-to-access-audit-logs) — Track user activity, conversation events, and admin changes
+- [Custom Data Retention Controls(opens in new tab)](https://support.claude.com/en/articles/10440198-custom-data-retention-controls-for-enterprise-plans) — Configure retention windows from 30 days to indefinite
 - [Compliance API(opens in new tab)](https://support.claude.com/en/articles/13015708-how-can-i-access-the-compliance-api) — Programmatic access for DLP, eDiscovery, and regulatory needs
 - [HIPAA-ready Enterprise plans(opens in new tab)](https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans) — HIPAA compliance capabilities, BAA availability, and healthcare configuration
 - [Business Associate Agreements (BAA)(opens in new tab)](https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers) — How to request and execute a BAA with Anthropic
@@ -301,13 +303,13 @@ A comprehensive directory of support, training, and enablement resources for Cla
 ### Billing & Usage[](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)
 
 - [Enterprise billing(opens in new tab)](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan) — Billing structure, invoicing, and payment options
-- [Extra usage controls(opens in new tab)](https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-seat-based-enterprise-plans) — Overage pricing and usage guardrails for organizational plans
+- [Usage credits(opens in new tab)](https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans) — Buying and tracking usage credits, and reviewing members' requests for more
 - [Usage limits and best practices(opens in new tab)](https://support.claude.com/en/articles/9797557-usage-limit-best-practices) — Tips for staying within limits and optimizing conversation efficiency
 
 ### Admin Controls[](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)
 
 - [Project visibility and sharing(opens in new tab)](https://support.claude.com/en/articles/9519189-project-visibility-and-sharing) — Admin controls for project sharing policies
-- [Disabling public projects(opens in new tab)](https://support.claude.com/en/articles/9927533-how-can-i-disable-public-projects) — Restrict project sharing to internal-only
+- [Control project sharing for your organization(opens in new tab)](https://support.claude.com/en/articles/9927533-control-project-sharing-for-your-organization) — Turn off project sharing or public projects, for the whole organization or by role
 - [Managing user feedback settings(opens in new tab)](https://support.claude.com/en/articles/10504844-managing-user-feedback-settings-on-team-and-enterprise-plans) — Configure whether user feedback is shared with Anthropic
 - [Cowork for Enterprise(opens in new tab)](https://support.claude.com/en/articles/13455879-cowork-for-team-and-enterprise-plans) — Enabling and configuring Cowork mode for your organization
 - [Visual and interactive content controls(opens in new tab)](https://support.claude.com/en/articles/13663666-visual-and-interactive-content-for-team-and-enterprise-plans) — Admin controls for visual content generation features
@@ -359,6 +361,7 @@ A comprehensive directory of support, training, and enablement resources for Cla
 
 - [When to use desktop vs. web connectors(opens in new tab)](https://support.claude.com/en/articles/11725091-when-to-use-desktop-and-web-connectors) — Comparison of web-based (Remote MCP) and desktop connector architectures
 - [Interactive Connectors(opens in new tab)](https://support.claude.com/en/articles/13454812-using-interactive-connectors-in-claude) — Connectors that let Claude take actions (not just read data) in external tools
+- [Claude Tag(opens in new tab)](https://claude.com/docs/claude-tag/overview) — Use Claude Tag to bring Claude into Slack
 
 ### Pre-Built Connectors[](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)
 
@@ -366,7 +369,6 @@ A comprehensive directory of support, training, and enablement resources for Cla
 
 - [Google Drive(opens in new tab)](https://support.claude.com/en/articles/10166901-using-the-google-drive-integration) — Access, search, and reference Google Drive files in conversations
 - [GitHub(opens in new tab)](https://support.claude.com/en/articles/10167454-using-the-github-integration) — Browse repos, review PRs, search code, and manage issues
-- [Slack(opens in new tab)](https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack) — Install and use the Claude Slack app in your workspace
 - [Microsoft 365(opens in new tab)](https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector) — Connect Outlook, OneDrive, Teams, and other M365 services
 - [Microsoft 365 Security Guide(opens in new tab)](https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide) — Data handling, permissions, and security architecture for the M365 connector
 - [All pre-built web connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-pre-built-web-connectors-using-remote-mcp) — Full list of available pre-built connectors using Remote MCP
@@ -434,7 +436,7 @@ A comprehensive directory of support, training, and enablement resources for Cla
 - [Data ownership for teams(opens in new tab)](https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team) — Data ownership policies for organizational plans
 - [Data Processor vs. Controller(opens in new tab)](https://support.claude.com/en/articles/9267385-does-anthropic-act-as-a-data-processor-or-controller) — GDPR role clarification for Anthropic's data handling
 - [Data deletion for Enterprise(opens in new tab)](https://support.claude.com/en/articles/9796617-can-you-delete-data-that-i-sent-via-team-and-enterprise-plans) — Data deletion requests and processes for organizational plans
-- [Data Processing Addendum (DPA)(opens in new tab)](https://support.claude.com/en/articles/7996862-how-do-i-view-and-sign-your-data-processing-addendum-dpa) — Self-service DPA signing for GDPR compliance
+- [Data Processing Addendum (DPA)(opens in new tab)](https://support.claude.com/en/articles/7996862-how-do-i-view-and-sign-your-data-processing-addendum-dpa) — Where to view the DPA, which is automatically incorporated into the Commercial Terms of Service
 - [Safeguards(opens in new tab)](https://support.claude.com/en/collections/4078535-safeguards) — Usage policy, safeguard appeals, agent guidelines, content reporting, and vulnerability reporting
 
 ### Troubleshooting[](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)

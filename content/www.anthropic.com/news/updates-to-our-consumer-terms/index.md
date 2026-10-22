@@ -1,10 +1,27 @@
-Product
-
 # Updates to Consumer Terms and Privacy Policy
 
-Aug 28, 2025
+- Published
 
-![Updates to Consumer Terms and Privacy Policy ](https://www-cdn.anthropic.com/images/4zrzovbb/website/653e7474811cf768b6b0f628e253f98c60e2747e-1000x1000.svg)
+  Aug 28, 2025
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Privacy](https://www.anthropic.com/search?topic=privacy)
+  - [Training](https://www.anthropic.com/search?topic=training)
+  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)See more...
+
+Related articles
+
+- Announcements
+
+  Feb 4, 2026
+
+  [Claude is a space to think](https://www.anthropic.com/news/claude-is-a-space-to-think)
+
+[View more](https://www.anthropic.com/search?topic=privacy)
 
 Today, we're rolling out updates to our Consumer Terms and Privacy Policy that will help us deliver even more capable, useful AI models. We're now giving users the choice to allow their data to be used to improve Claude and strengthen our safeguards against harmful usage like scams and abuse. Adjusting your preferences is easy and can be done at any time.
 
@@ -18,9 +35,9 @@ You’re always in control of this setting and whether we use your data in this 
 
 In-app notification for existing Claude app users
 
-Starting today, we’re rolling out notifications so you can review these updates and manage your settings. If you’re an existing user, you have until October 8, 2025 to accept the updated Consumer Terms and make your decision. If you choose to accept the new policies now, they will go into effect immediately. These updates will apply only to new or resumed chats and coding sessions. After October 8, you’ll need to make your selection on the model training setting in order to continue using Claude. You can change your choice in your [Privacy Settings](https://claude.ai/redirect/website.v1.8afea7bd-1bfe-4971-9fa9-b9dabe5b387a/settings/data-privacy-controls) at any time.
+Starting today, we’re rolling out notifications so you can review these updates and manage your settings. If you’re an existing user, you have until October 8, 2025 to accept the updated Consumer Terms and make your decision. If you choose to accept the new policies now, they will go into effect immediately. These updates will apply only to new or resumed chats and coding sessions. After October 8, you’ll need to make your selection on the model training setting in order to continue using Claude. You can change your choice in your [Privacy Settings](https://claude.ai/settings/data-privacy-controls) at any time.
 
-## Extended data retention
+### Extended data retention
 
 We are also extending data retention to five years, if you allow us to use your data for model training. This updated retention length will only apply to new or resumed chats and coding sessions, and will allow us to better support model development and safety improvements. If you delete a conversation with Claude it will not be used for future model training. If you do not choose to provide your data for model training, you’ll continue with our existing 30-day data retention period.
 
@@ -30,7 +47,7 @@ To protect users’ privacy, we use a combination of tools and [automated proces
 
 You can find more details about the Consumer Terms and Privacy Policy updates in our FAQ section below.
 
-#### FAQ
+---
 
 #### What’s changing?
 
@@ -69,23 +86,3 @@ If you're signing up for Claude today, you'll see this decision as part of the s
 #### What happens if I allow my data to be used for model training and then change my mind?
 
 You can always update your selection in your Privacy Settings. If you decide to turn off the model training setting, we will not use any new chats and coding sessions you have with Claude for future model training. Your data will still be included in model training that has already started and in models that have already been trained, but we will stop using your previously stored chats and coding sessions in future model training runs.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

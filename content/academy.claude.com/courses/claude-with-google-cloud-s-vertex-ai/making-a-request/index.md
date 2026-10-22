@@ -1,4 +1,4 @@
-Lesson 3 of 66 · Claude with Google Cloud's Vertex AIMaking a request
+Lesson 3 of 66 · Claude on Google CloudMaking a request
 
 # Making a request
 

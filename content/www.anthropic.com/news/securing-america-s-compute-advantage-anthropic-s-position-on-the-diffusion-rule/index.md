@@ -1,12 +1,30 @@
-Policy
-
-# Securing America's compute advantage: Anthropic’s position on the diffusion rule
-
-Apr 30, 2025
+# **Securing America's compute advantage:**Anthropic’s position on the diffusion rule
 
 [Read the submission here](https://www-cdn.anthropic.com/7449887b6715e3a35f362b1301e5b5d8a6b116e5.pdf)
 
-![Column with burst](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1fa171285ace9c40899647e1b68c8f66d0d7915d-1920x1079.png&w=3840&q=75)
+- Published
+
+  Apr 30, 2025
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+  - [National security](https://www.anthropic.com/search?topic=national-security)
+  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)See more...
+
+Related articles
+
+- Policy
+
+  May 14, 2026
+
+  [2028: Two scenarios for global AI leadership](https://www.anthropic.com/news/2028-ai-leadership)
+
+[View more](https://www.anthropic.com/search?topic=democratic-lead)
 
 In response to the Department of Commerce's "Framework for Artificial Intelligence Diffusion" interim final rule, Anthropic has [submitted detailed analysis and recommendations](https://www-cdn.anthropic.com/7449887b6715e3a35f362b1301e5b5d8a6b116e5.pdf) for maintaining and strengthening export controls on advanced semiconductors. At the heart of our recommendations is a clear message: maintaining America's compute advantage through export controls is essential for national security and economic prosperity as powerful new AI systems are developed in the coming years.
 
@@ -41,23 +59,3 @@ Anthropic’s leaders have previously outlined our position on competition with 
 - “[Trump Can Keep America’s AI Advantage,](https://www.wsj.com/opinion/trump-can-keep-americas-ai-advantage-china-chips-data-eccdce91)” Dario Amodei & Matthew Pottinger, Wall Street Journal, January 6, 2025.
 - “[On DeepSeek and Export Controls](https://www.darioamodei.com/post/on-deepseek-and-export-controls),” Dario Amodei, darioamodei.com, January 2025“[Anthropic's Dario Amodei on AI Competition](https://www.chinatalk.media/p/anthropics-dario-amodei-on-ai-competition),” China Talk Podcast, February 5, 2025
 - “[DeepSeek means AI proliferation is guaranteed](https://jack-clark.net/2025/01/27/import-ai-397-deepseek-means-ai-proliferation-is-guaranteed-maritime-wardrones-and-more-evidence-of-llm-capability-overhangs/),” Jack Clark Import AI 397
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

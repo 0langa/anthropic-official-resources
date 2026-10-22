@@ -1,4 +1,4 @@
-Lesson 31 of 66 · Claude with Google Cloud's Vertex AITools for structured data
+Lesson 31 of 66 · Claude on Google CloudTools for structured data
 
 # Tools for structured data
 

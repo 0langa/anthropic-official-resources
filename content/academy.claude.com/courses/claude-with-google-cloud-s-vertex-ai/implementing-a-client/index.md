@@ -1,4 +1,4 @@
-Lesson 54 of 66 · Claude with Google Cloud's Vertex AIImplementing a client
+Lesson 54 of 66 · Claude on Google CloudImplementing a client
 
 # Implementing a client
 

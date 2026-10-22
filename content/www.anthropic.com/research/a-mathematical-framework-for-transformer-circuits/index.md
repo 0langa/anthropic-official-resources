@@ -1,29 +1,26 @@
-InterpretabilityResearch
-
 # A Mathematical Framework for Transformer Circuits
 
-Dec 22, 2021
+[Read the paper](https://transformer-circuits.pub/2021/framework/index.html)
 
-[Read Paper](https://transformer-circuits.pub/2021/framework/index.html)
+- Published
 
-###
+  Dec 22, 2021
+- Team
 
-## Related content
+  [Interpretability](https://www.anthropic.com/research/team/interpretability)
+- Topics
 
-### Designing more efficient quantum circuits with Claude
+  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)
 
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
+Related articles
 
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
+- Interpretability
 
-### Claude reveals ECDSA curve origins
+  Oct 5, 2023
 
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
+  [Towards monosemanticity: Decomposing language models with dictionary learning](https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning)
 
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
+[View more](https://www.anthropic.com/search?topic=interpretability)
 
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
+####

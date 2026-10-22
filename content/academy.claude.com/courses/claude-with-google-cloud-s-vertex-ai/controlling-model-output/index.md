@@ -1,4 +1,4 @@
-Lesson 8 of 66 · Claude with Google Cloud's Vertex AIControlling model output
+Lesson 8 of 66 · Claude on Google CloudControlling model output
 
 # Controlling model output
 

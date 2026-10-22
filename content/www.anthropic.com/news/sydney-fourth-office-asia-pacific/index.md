@@ -1,10 +1,27 @@
-Announcements
-
 # Sydney will become Anthropic’s fourth office in Asia-Pacific
 
-Mar 10, 2026
+- Published
 
-![Sydney will become Anthropic’s fourth office in Asia-Pacific ](https://www-cdn.anthropic.com/images/4zrzovbb/website/b68cbb43d7c8f56f0b14cc867e8d4d74445f78b0-1000x1000.svg)
+  Mar 10, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)See more...
+
+Related articles
+
+- Announcements
+
+  May 28, 2026
+
+  [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)
+
+[View more](https://www.anthropic.com/search?topic=global-expansion)
 
 Anthropic is expanding to Australia and New Zealand. In the coming weeks, we will open an office in Sydney—our fourth office in Asia-Pacific, alongside Tokyo, Bengaluru, and Seoul. The expansion reflects strong demand from businesses in Australia and New Zealand and will help us better serve the countries’ unique AI ecosystems.
 
@@ -19,23 +36,3 @@ Australia and New Zealand rank 4th and 8th globally in Claude.ai usage, relative
 We're also exploring opportunities to expand our compute capacity in Australia—a natural fit given our longstanding belief that democracies should lead in AI development, and one that aligns with the Australian government's own ambitions to become a trusted destination for sustainable AI infrastructure. We're exploring adding local capacity through our third-party partners in Australia, using infrastructure already in place. This is among the most consistent requests we hear from Australian enterprises and government agencies, particularly those with data residency requirements. Beyond that, we're in early conversations about longer-term infrastructure in the region, and we'll share more as those plans take shape.
 
 For information about career opportunities at our new Sydney office, visit [anthropic.com/careers](http://anthropic.com/careers).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
