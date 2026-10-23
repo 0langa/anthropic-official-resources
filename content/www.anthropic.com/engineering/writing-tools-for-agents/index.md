@@ -1,12 +1,31 @@
-[Engineering at Anthropic](https://www.anthropic.com/engineering)
-
-![This is an abstract illustration for the Eng Blog article, Writing effective tools for agents -- with agents.](https://www-cdn.anthropic.com/images/4zrzovbb/website/876165247ba5668bd195854eef4631ad9a184001-1000x1000.svg)
+### Chapter 04: Looking ahead
 
 # Writing effective tools for agents — with agents
 
-Published Sep 11, 2025
+- Published
 
-Agents are only as effective as the tools we give them. We share how to write high-quality tools and evaluations, and how you can boost performance by using Claude to optimize its tools for itself.
+  Sep 11, 2025
+- Team
+
+  [Engineering](https://www.anthropic.com/engineering)
+- Topics
+
+  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)See more...
+
+Related articles
+
+- Engineering
+
+  Jan 9, 2026
+
+  [Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)
+
+[View more](https://www.anthropic.com/search?topic=tool-use)
 
 The [Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro) can empower LLM agents with potentially hundreds of tools to solve real-world tasks. But how do we make those tools maximally effective?
 
@@ -68,7 +87,7 @@ Next, you need to measure how well Claude uses your tools by running an evaluati
 
 Held-out test set performance of our internal Slack tools
 
-**Generating evaluation tasks**
+#### Generating evaluation tasks
 
 With your early prototype, Claude Code can quickly explore your tools and create dozens of prompt and response pairs. Prompts should be inspired by real-world uses and be based on realistic data sources and services (for example, internal knowledge bases and microservices). We recommend you avoid overly simplistic or superficial “sandbox” environments that don’t stress-test your tools with sufficient complexity. Strong evaluation tasks might require multiple tool calls—potentially dozens.
 
@@ -88,7 +107,7 @@ Each evaluation prompt should be paired with a verifiable response or outcome. Y
 
 For each prompt-response pair, you can optionally also specify the tools you expect an agent to call in solving the task, to measure whether or not agents are successful in grasping each tool’s purpose during evaluation. However, because there might be multiple valid paths to solving tasks correctly, try to avoid overspecifying or overfitting to strategies.
 
-**Running the evaluation**
+#### Running the evaluation
 
 We recommend running your evaluation programmatically with direct LLM API calls. Use simple agentic loops (`while`-loops wrapping alternating LLM API and tool calls): one loop for each evaluation task. Each evaluation agent should be given a single task prompt and your tools.
 
@@ -102,7 +121,8 @@ As well as top-level accuracy, we recommend collecting other metrics like the to
 
 Held-out test set performance of our internal Asana tools
 
-**Analyzing results**  
+#### Analyzing results
+
 Agents are your helpful partners in spotting issues and providing feedback on everything from contradictory tool descriptions to inefficient tool implementations and confusing tool schemas. However, keep in mind that what agents omit in their feedback and responses can often be more important than what they include. LLMs don’t always [say what they mean](https://www.anthropic.com/research/tracing-thoughts-language-model).
 
 Observe where your agents get stumped or confused. Read through your evaluation agents’ reasoning and feedback (or CoT) to identify rough edges. Review the raw transcripts (including tool calls and tool responses) to catch any behavior not explicitly described in the agent’s CoT. Read between the lines; remember that your evaluation agents don’t necessarily know the correct answers and strategies.
@@ -165,14 +185,14 @@ In some instances, agents may require the flexibility to interact with both natu
 
 You can add more formats for even greater flexibility, similar to GraphQL where you can choose exactly which pieces of information you want to receive. Here is an example ResponseFormat enum to control tool response verbosity:
 
+Copy
+
 ```
 enum ResponseFormat {
    DETAILED = "detailed",
    CONCISE = "concise"
 }
 ```
-
-Copy
 
 Here’s an example of a detailed tool response (206 tokens):
 
@@ -200,7 +220,7 @@ Here’s an example of a truncated tool response:
 
 Here’s an example of an unhelpful error response:
 
-![This image depicts an example of an unhelpful tool response. ](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2445187904704fec8c50af0b950e310ba743fac2-1920x733.png&w=3840&q=75)
+![This image depicts an example of an unhelpful tool response.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2445187904704fec8c50af0b950e310ba743fac2-1920x733.png&w=3840&q=75)
 
 Here’s an example of a helpful error response:
 
@@ -226,20 +246,10 @@ Through the iterative, evaluation-driven process we’ve described in this post,
 
 In the future, we expect the specific mechanisms through which agents interact with the world to evolve—from updates to the MCP protocol to upgrades to the underlying LLMs themselves. With a systematic, evaluation-driven approach to improving tools for agents, we can ensure that as agents become more capable, the tools they use will evolve alongside them.
 
-## Acknowledgements
+## Authors & Acknowledgments
+
+### Acknowledgements
 
 Written by Ken Aizawa with valuable contributions from colleagues across Research (Barry Zhang, Zachary Witten, Daniel Jiang, Sami Al-Sheikh, Matt Bell, Maggie Vo), MCP (Theodora Chu, John Welsh, David Soria Parra, Adam Jones), Product Engineering (Santiago Seira), Marketing (Molly Vorwerck), Design (Drew Roper), and Applied AI (Christian Ryan, Alexander Bricken).
 
 1Beyond training the underlying LLMs themselves.
-
-[![Interlocking puzzle piece with complex geometric shape and detailed surface texture](https://www-cdn.anthropic.com/images/4zrzovbb/website/43abe7e54b56a891e74a8542944dfbd33f07f49c-1000x1000.svg)
-
-### Looking to learn more?
-
-Explore courses](https://anthropic.skilljar.com/)
-
-## Get the developer newsletter
-
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
-
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.

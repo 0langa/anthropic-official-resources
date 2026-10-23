@@ -1,12 +1,30 @@
-[Engineering at Anthropic](https://www.anthropic.com/engineering)
+### Chapter 07: What's next
 
-![](https://www-cdn.anthropic.com/images/4zrzovbb/website/590360609ccdf39715a8ec6916b52447dcb31f16-1000x1000.svg)
+# **How we built Claude Code auto mode:**a safer way to skip permissions
 
-# How we built Claude Code auto mode: a safer way to skip permissions
+- Published
 
-Published Mar 25, 2026
+  Mar 25, 2026
+- Team
 
-Claude Code users approve 93% of permission prompts. We built classifiers to automate some decisions, increasing safety while reducing approval fatigue. Here's what it catches, and what it misses.
+  [Engineering](https://www.anthropic.com/engineering)
+- Topics
+
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)See more...
+
+Related articles
+
+- Engineering
+
+  May 25, 2026
+
+  [How we contain Claude across products](https://www.anthropic.com/research/how-we-contain-claude)
+
+[View more](https://www.anthropic.com/search?topic=claude-code)
 
 By default, Claude Code asks users for approval before running commands or modifying files. This keeps users safe, but it also means a lot of clicking "approve." Over time that leads to approval fatigue, where people stop paying close attention to what they're approving.
 
@@ -14,7 +32,7 @@ Users have two solutions for avoiding this fatigue: a built-in sandbox where too
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd6b34bdb92808fd5739e4d14340a1752d5607dda-1920x1920.png&w=3840&q=75)
 
-**Figure 1. The permission modes available in Claude Code, positioned by task autonomy and security**. Dot colour indicates maintenance friction. Auto mode targets high autonomy at low maintenance cost; the dashed arrow shows security improvement over time as classifier coverage and model judgment get better.
+**The permission modes available in Claude Code, positioned by task autonomy and security**. Dot colour indicates maintenance friction. Auto mode targets high autonomy at low maintenance cost; the dashed arrow shows security improvement over time as classifier coverage and model judgment get better.
 
 We keep an internal incident log focused on agentic misbehaviors. Past examples include deleting remote git branches from a misinterpreted instruction, uploading an engineer's GitHub auth token to an internal compute cluster, and attempting migrations against a production database. Each of these was the result of the model being overeager, taking initiative in a way the user didn't intend. We documented this pattern in the [Claude Opus 4.6 system card](https://www-cdn.anthropic.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf) (§6.2.1 and §6.2.3.3).
 
@@ -30,7 +48,7 @@ At the output layer, the transcript classifier (running on Sonnet 4.6) evaluates
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F05f268391243c60c3f725c26151eed7b0b531e86-1920x2002.png&w=3840&q=75)
 
-**Figure 2: System architecture**. The transcript classifier gates tool calls; the prompt-injection probe screens tool results. Subagents run the same pipeline recursively, with handoff classifiers at delegation (can deny) and at return (warns only).
+**System architecture**. The transcript classifier gates tool calls; the prompt-injection probe screens tool results. Subagents run the same pipeline recursively, with handoff classifiers at delegation (can deny) and at return (warns only).
 
 ## Threat model
 
@@ -100,9 +118,31 @@ We evaluated the full pipeline on three different datasets. Two datasets measure
 
 We report two metrics. False-negative rate (FNR) is the fraction of dangerous actions the classifier lets through; false positive rate (FPR) is the fraction of benign actions it blocks. A perfect classifier would score zero on both. In practice they trade off against each other. Stage 1 is fast and cheap, tuned for low FNR at the cost of high FPR. Stage 2 is more expensive and runs only on what stage 1 flagged. It cleans up the false positives but lets a few more dangerous actions through.
 
-<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"> </td><td class="body-3" role="cell"><strong>Real traffic</strong><br/>n=10,000</td><td class="body-3" role="cell"><strong>Real overeager</strong><br/>n=52</td><td class="body-3" role="cell"><strong>Synthetic exfil<br/></strong>n=1,000</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Stage 1 (fast filter)</td><td class="body-3" role="cell">8.5% FPR</td><td class="body-3" role="cell">6.6% FNR</td><td class="body-3" role="cell">1.8% FNR</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Stage 1-&gt;Stage 2 (full pipeline)</td><td class="body-3" role="cell">0.4% FPR</td><td class="body-3" role="cell">17% FNR</td><td class="body-3" role="cell">5.7% FNR</td></tr></tbody></table>
+**Real traffic**  
+n=10,000
 
-Table 1. Classifier performance by stage. Stage 2 runs only on actions stage 1 flags, so the second row reflects the deployed pipeline end to end: FPR drops from 8.5% to 0.4%, at the cost of some recall.
+**Real overeager**  
+n=52
+
+**Synthetic exfil**n=1,000
+
+Stage 1 (fast filter)
+
+8.5% FPR
+
+6.6% FNR
+
+1.8% FNR
+
+Stage 1->Stage 2 (full pipeline)
+
+0.4% FPR
+
+17% FNR
+
+5.7% FNR
+
+Classifier performance by stage. Stage 2 runs only on actions stage 1 flags, so the second row reflects the deployed pipeline end to end: FPR drops from 8.5% to 0.4%, at the cost of some recall.
 
 The 17% false-negative rate on real overeager actions is the honest number. The agent was trying to solve the user's problem and tried to execute a dangerous command past what was authorized.
 
@@ -122,7 +162,7 @@ Figure 3 shows an example where the classifier sees the user messages and the ba
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F411b97a06450b27b11f1f9a952ab03d37d8ca3a3-1920x1679.png&w=3840&q=75)
 
-**Figure 3. What the classifier sees**. Assistant prose, tool-call descriptions, and tool outputs are stripped; only user messages and the executable payload remain.
+**What the classifier sees**. Assistant prose, tool-call descriptions, and tool outputs are stripped; only user messages and the executable payload remain.
 
 This wasn't solely a first-principles choice, and we evaluated alternatives. Including assistant messages and tool results caused a drop in performance on our overeagerness testset. We think this is because a shorter transcript is easier to read and leaves less room for the agent's own framing to color the decision. A tool-calls-only variant had the lowest false-negative rate still but lost the user-intent anchor, blocking actions the user had plainly asked for. So user messages plus tool calls is where we landed.
 
@@ -134,7 +174,7 @@ A single-stage classifier faces a direct performance/cost trade-off. Thorough re
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F58a83df591dc5a2344a65216d4f8eaee3c074fa1-1920x1935.png&w=3840&q=75)
 
-**Figure 4: Two stage pipeline.** Allowlisted tools skip straight to execution; everything else goes to the classifier. Stage 1 is a fast filter tuned to cautious; only what it flags escalates to stage 2 with reasoning. Denials return to the agent with the reason, allowing retries up to a limit. After execution, the PI probe screens the result before the agent sees it.
+**Two stage pipeline.** Allowlisted tools skip straight to execution; everything else goes to the classifier. Stage 1 is a fast filter tuned to cautious; only what it flags escalates to stage 2 with reasoning. Denials return to the agent with the reason, allowing retries up to a limit. After execution, the PI probe screens the result before the agent sees it.
 
 ### Why the prompt-injection probe matters
 
@@ -164,12 +204,8 @@ It's also what makes false positives survivable. A 0.4% FPR sounds small, but if
 
 We'll continue expanding the real overeagerness testset and iterating on improving the safety and cost of the feature. The classifier doesn't need to be flawless to be valuable and the starting point is catching enough dangerous actions to make autonomous operation substantially safer than no guardrails. We encourage users to stay aware of residual risk, use judgment about which tasks and environments they run autonomously, and tell us when auto mode gets things wrong.
 
+## Authors & Acknowledgments
+
 ### Acknowledgements
 
 Written by John Hughes. Special thanks to Alex Isken, Alexander Glynn, Conner Phillippi, David Dworken, Emily To, Fabien Roger, Jake Eaton, Javier Rando, Shawn Moore, and Soyary Sunthorn for their contributions.
-
-## Get the developer newsletter
-
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
-
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.

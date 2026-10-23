@@ -1,10 +1,34 @@
-Alignment
+### Chapter 03: Work with us
 
 # Forecasting rare language model behaviors
 
-Feb 25, 2025
-
 [Read the paper](https://arxiv.org/abs/2502.16797)
+
+![Abstract illustration with a circular spiral pattern in red and yellow on the left, and geometric shapes with textured backgrounds on the right.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8de01300b3228d0f77c38883440e0e090f364242-2000x1125.jpg&w=1920&q=75)
+
+- Published
+
+  Feb 25, 2025
+- Team
+
+  [Alignment](https://www.anthropic.com/research/team/alignment)
+- Topics
+
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)
+  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)See more...
+
+Related articles
+
+- Alignment
+
+  Apr 2, 2024
+
+  [Many-shot jailbreaking](https://www.anthropic.com/research/many-shot-jailbreaking)
+
+[View more](https://www.anthropic.com/search?topic=safety-evaluations)
 
 One of the major goals of Alignment Science is to predict AI models’ propensity for dangerous behaviors *before* those behaviors occur. For instance, we run [experiments](https://www.anthropic.com/research/alignment-faking) to check for complex behaviors like deception, and attempt to identify early warning signs of misalignment.
 
@@ -14,7 +38,7 @@ A major difficulty in developing these evaluations is the problem of *scale*. Ev
 
 For example, perhaps a specific jailbreaking technique is attempted thousands of times in an evaluation and looks entirely ineffective, but it *does* work after (say) a million attempts in a real-world deployment. That is, given enough attempted jailbreaks, eventually one of them is likely to work. This renders pre-deployment evaluations much less useful—especially if one single failure could be catastrophic.
 
-## **Forecasting rare behaviors**
+## Forecasting rare behaviors
 
 What’s needed is a way to forecast the rare behaviors, extrapolating from the relatively small number of instances we’ve observed before deployment. This is the subject of [a new paper](https://arxiv.org/abs/2502.16797) from Anthropic’s Alignment Science team.
 
@@ -38,32 +62,12 @@ Our forecasts accurately predicted the risk that the model would pick the worst 
 
 Finally, we also applied our method to “[automated red-teaming](https://arxiv.org/abs/2202.03286)”. This is when a model is used to find and exploit the weaknesses of another model in an experimental setting. When doing so, one can hypothetically choose to use a small model that generates a very large number of queries or, for the same cost, a larger model that generates a smaller number of queries (but where those queries are likely of a higher quality). Our forecasts were useful in working out how to most efficiently allocate a compute budget while doing red-teaming—in settings where the choice is important, they identified the optimal model 79% of the time.
 
-## **Conclusions**
+## Conclusions
 
 Under normal circumstances, it simply isn’t feasible to use standard evaluations to test for all the rarest risks of AI models. Our method isn’t perfect—in the paper, we give a number of future directions that might improve the accuracy and practicality of our predictions—but it provides LLM developers with a new way to efficiently predict rare risks, allowing them to take action before deploying their models.
 
 Read [the full paper](https://arxiv.org/abs/2502.16797).
 
-## **Work with us**
+## Work with us
 
 If you’re interested in working on problems like deployment evaluations or jailbreak robustness, we’re currently recruiting for [Research Engineers / Scientists](https://boards.greenhouse.io/anthropic/jobs/4459012008) and we’d love to see your application.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)

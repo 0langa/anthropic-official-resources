@@ -3797,7 +3797,7 @@ This example blocks one GitHub repository as a marketplace source:
 }
 ```
 
-A `github` entry may use the [owner-wildcard form](#owner-wildcards) `"owner/*"` to block every repository under that GitHub owner, which requires Claude Code v2.1.223 or later. Add `{ "source": "skills-dir" }` to stop Claude Code loading [`@skills-dir` plugins](/docs/en/plugins/loading#plugins-shared-through-a-repository) from `~/.claude/skills/` without restricting any marketplace. See [Managed marketplace restrictions](/docs/en/plugins/org#restrict-what-users-can-install).
+A `github` entry may use the [owner-wildcard form](#owner-wildcards) `"owner/*"` to block every repository under that GitHub owner, which requires Claude Code v2.1.223 or later. Add `{ "source": "skills-dir" }` to stop Claude Code loading [`@skills-dir` plugins](/docs/en/plugins/loading#plugins-shared-through-a-repository) from both `~/.claude/skills/` and a project's `.claude/skills/`, without restricting any marketplace. See [Managed marketplace restrictions](/docs/en/plugins/org#restrict-what-users-can-install).
 
 ### `channelsEnabled`
 
@@ -3904,7 +3904,7 @@ Each entry below shows one allowlist entry per source type and the fields it acc
 | `pathPattern` | `{ "source": "pathPattern", "pathPattern": "^/opt/approved/" }` | `pathPattern` required, a regex matched anywhere in the `path` of `file` and `directory` sources; start it with `^` to pin a prefix |
 | `skills-dir` | `{ "source": "skills-dir" }` | No fields |
 
-Three source types carry rules beyond the table:
+Some source types carry rules beyond the table:
 
 * **`url`**: a URL marketplace downloads only the `marketplace.json` file, and Claude Code doesn't fetch plugin files by relative path from that server, so its plugins must use a [plugin source](/docs/en/plugins/marketplace-reference#plugin-sources) other than a relative path, such as an archive URL, which can be on the same host. For plugins with relative paths, use a Git-based marketplace instead. See [Plugins with relative paths fail in URL-based marketplaces](/docs/en/plugins/troubleshooting#plugins-with-relative-paths-fail-in-url-based-marketplaces).
 * **`hostPattern`**: use it to allow every marketplace on an internal GitHub Enterprise or GitLab server without listing each repository. Claude Code matches `github` sources against `github.com`, takes the hostname from `url` sources, and takes it from `git` sources depending on the [git URL](https://git-scm.com/docs/git-clone#_git_urls)'s form:
@@ -3915,8 +3915,7 @@ Three source types carry rules beyond the table:
 
   `file` and `directory` sources have no host and never match a `hostPattern` entry.
 * **`pathPattern`**: use it to allow filesystem marketplaces alongside `hostPattern` entries for network sources. `".*"` allows every local path; a narrower pattern such as `"^/opt/approved/"` restricts to a directory.
-
-Any allowlist, even an empty one, also stops Claude Code loading [`@skills-dir` plugins](/docs/en/plugins/loading#plugins-shared-through-a-repository) from `~/.claude/skills/`. To keep loading them, add the `{ "source": "skills-dir" }` entry and leave [`strictPluginOnlyCustomization`](#strictpluginonlycustomization) unset. The entry has no meaning outside this key and `blockedMarketplaces`.
+* **`skills-dir`**: any allowlist, even an empty one, stops Claude Code loading [`@skills-dir` plugins](/docs/en/plugins/loading#plugins-shared-through-a-repository) from both `~/.claude/skills/` and a project's `.claude/skills/`. To keep loading them, add the `{ "source": "skills-dir" }` entry and leave [`strictPluginOnlyCustomization`](#strictpluginonlycustomization) unset. The entry has no meaning outside this key and `blockedMarketplaces`.
 
 #### Owner wildcards
 
@@ -4332,7 +4331,7 @@ Allowlist the MCP servers people can add. Claude Code blocks any server that doe
 
 Built-in servers such as Claude in Chrome, the `ide` server Claude Code connects to in a running [VS Code](/docs/en/vs-code#the-built-in-ide-mcp-server) or [JetBrains](/docs/en/jetbrains#the-built-in-ide-mcp-server) IDE, and servers the CLI itself configures are exempt from the allowlist, and the denylist still applies to them. On Claude Code v2.1.268 or later, a [Claude Tag](/docs/en/claude-tag) session's Slack tools are also exempt from the allowlist, and the denylist still applies to them. In-process `type: "sdk"` servers are exempt from both lists; the [app that started the session](/docs/en/mcp#how-connectors-reach-claude-code) registers them.
 
-Servers your organization delivers are also exempt from the allowlist, and the denylist still applies to them. The exemption covers every [`managedMcpServers`](#managedmcpservers) entry, and any [`managed-mcp.json`](/docs/en/managed-mcp#exclusive-control-with-managed-mcp-json) entry whose values use no `${VAR}` expansion. See [How a server is evaluated](/docs/en/managed-mcp#how-a-server-is-evaluated) for the full check order. Before v2.1.259, servers from `managed-mcp.json` had to match too.
+Servers your organization delivers are also exempt from the allowlist, and the denylist still applies to them. The exemption covers every [`managedMcpServers`](#managedmcpservers) entry, and any [`managed-mcp.json`](/docs/en/managed-mcp#exclusive-control-with-managed-mcp-json) entry whose values use [no `${VAR}` expansion outside `env`](/docs/en/managed-mcp#how-allowlists-and-denylists-apply-to-the-managed-set). See [How a server is evaluated](/docs/en/managed-mcp#how-a-server-is-evaluated) for the full check order. Before v2.1.259, servers from `managed-mcp.json` had to match too.
 
 * **Scope**: [`Any file`](#scopes). Entries from every file merge into one allowlist unless [`allowManagedMcpServersOnly`](#allowmanagedmcpserversonly) is set. Deploy it in managed settings to enforce it.
 * **Type**: array of objects, each with exactly one key. Use `serverName`, a string limited to letters, numbers, hyphens, and underscores; `serverCommand`, an array of the command and its arguments matched exactly; or `serverUrl`, a URL pattern with `*` wildcards

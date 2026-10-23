@@ -1,18 +1,39 @@
-Announcements
+### Chapter 06: What comes next
 
 # Introducing the Life Sciences Verification Program
 
-Sep 17, 2026
+- Published
 
-![Introducing the Life Sciences Verification Program](https://www-cdn.anthropic.com/images/4zrzovbb/website/d6058e0db8e477dc782dacae46e2ec6663d165d9-1000x1000.svg)
+  Sep 17, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+  - [Access](https://www.anthropic.com/search?topic=access)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)See more...
+
+Related articles
+
+- Announcements
+
+  Aug 27, 2026
+
+  [Expanding our support for scientists](https://www.anthropic.com/news/expanding-support-for-scientists)
+
+[View more](https://www.anthropic.com/search?topic=life-sciences)
 
 Today, we are introducing the Life Sciences Verification Program (LSVP), which gives life science professionals access to our Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work. We have already onboarded dozens of organizations through an early-access program, and are now opening applications to the broader life science community ([join waitlist here](https://claude.com/form/life-sciences-verification-program)). The program is launching in beta, initially for teams and institutions. We will continue to improve the program and expand access to individual Pro and Max plans over time.
 
 The LSVP is designed to enable life science professionals to use our models across a wide range of tasks that are currently blocked in our generally available Fable models, like drug discovery, research biology, clinical development, and manufacturing. It’s built for teams of all kinds—from academic labs to startups, pharma companies, and more.
 
-## **Verification and access types**
+## Verification and access types
 
-To qualify for these grants, each applicant goes through a verification process that includes a review of their research credentials, security standards, and ethical research oversight. Once verified, teams may apply for two types of LSVP grants, “Standard Use” or “High-risk Use,” depending on their access needs. These grants can be used through all our product surfaces, including [Claude Science](https://claude.com/product/claude-science), [Claude.ai](http://claude.ai/redirect/website.v1.f219af6e-c80c-4d8d-bc04-7cde3c06f6fe), Claude Code and the API.  
+To qualify for these grants, each applicant goes through a verification process that includes a review of their research credentials, security standards, and ethical research oversight. Once verified, teams may apply for two types of LSVP grants, “Standard Use” or “High-risk Use,” depending on their access needs. These grants can be used through all our product surfaces, including [Claude Science](https://claude.com/product/claude-science), [Claude.ai](http://claude.ai/redirect/website.v1.064f8a14-c8c7-4988-a590-70bc2777d3e7), Claude Code and the API.  
   
 **Standard Use** grants are suitable for most life science work, including the majority of biology research and development workflows. These grants can be extended to entire teams for diverse, daily workloads, and are renewed once a year. They give those teams access to our Mythos, Opus, and Sonnet models, with refined classifiers that are more permissive for science tasks than our generally available models. Standard Use grants apply to Mythos 5.1, Opus 5, and Sonnet 5 today, and to future models as they launch. They’re specifically designed to enable the full breadth of life science activities in areas spanning basic science, R&D, supply chain and manufacturing, clinical development, quality assurance, regulatory affairs, investing and diligence, and more.
 
@@ -44,13 +65,23 @@ This data is strictly compartmentalized and cannot be used for model training or
 
 ## What researchers are saying
 
-> Xaira is making biology more computable, generating biological data at unprecedented scale and building foundation models of cell, protein and disease biology that turn it into the next generation of life-changing medicines. We’re excited to put Anthropic's frontier models to work across our drug discovery engine, and we believe pairing trusted access with intelligence is the right way to realize AI’s promise in biology.
+> “Xaira is making biology more computable, generating biological data at unprecedented scale and building foundation models of cell, protein and disease biology that turn it into the next generation of life-changing medicines. We’re excited to put Anthropic's frontier models to work across our drug discovery engine, and we believe pairing trusted access with intelligence is the right way to realize AI’s promise in biology.”
 
-> Edison’s mission is to accelerate science and the discovery and development of new medicines. With the Life Sciences Verification Program, we are excited to be able to bring Anthropic’s most intelligent models to bear on these problems. We look forward to collaborating with Anthropic further to end disease and improve the lives of patients everywhere.
+Xaira Therapeutics
 
-> At Manifold Bio, we’re building a massively parallel interface into living systems to enable powerful AI to create medicines. We look forward to putting frontier intelligence to work safely in our engine, and we welcome Anthropic’s approach of pairing access with accountability.
+> “Edison’s mission is to accelerate science and the discovery and development of new medicines. With the Life Sciences Verification Program, we are excited to be able to bring Anthropic’s most intelligent models to bear on these problems. We look forward to collaborating with Anthropic further to end disease and improve the lives of patients everywhere.”
 
-01 / 03
+Edison Scientific
+
+> “At Manifold Bio, we’re building a massively parallel interface into living systems to enable powerful AI to create medicines. We look forward to putting frontier intelligence to work safely in our engine, and we welcome Anthropic’s approach of pairing access with accountability.”
+
+Manifold Bio
+
+01
+
+/
+
+03
 
 ## Applications and availability
 
@@ -60,7 +91,7 @@ Today, LSVP is available in our first-party console for API usage, as well as in
 
 As a beta, LSVP is not available for BAA-enabled orgs. This means customers with PHI data should use separate non-BAA orgs with non-HIPAA.
 
-In API and Claude Science, users can switch between grants natively. In [Claude.ai](http://claude.ai/redirect/website.v1.f219af6e-c80c-4d8d-bc04-7cde3c06f6fe) and Claude Code, initially only a preselected default grant applies (except while using Claude Code with API authentication). This should be fine for the vast majority of users, who will only ever require a Standard Use grant. However, we will improve support and portability of these LSVP features over time.
+In API and Claude Science, users can switch between grants natively. In [Claude.ai](http://claude.ai/redirect/website.v1.064f8a14-c8c7-4988-a590-70bc2777d3e7) and Claude Code, initially only a preselected default grant applies (except while using Claude Code with API authentication). This should be fine for the vast majority of users, who will only ever require a Standard Use grant. However, we will improve support and portability of these LSVP features over time.
 
 ## What comes next
 
@@ -68,23 +99,3 @@ Providing these frontier capabilities is part of our broader efforts in supporti
 
 **Changelog:**  
 September 30th, 2026. We clarified that the form we link to is an expression of interest, not an application.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

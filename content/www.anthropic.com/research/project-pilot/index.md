@@ -1,8 +1,33 @@
-Frontier Red Team
+### Chapter 03: Looking ahead
 
-# Project Pilot: Can AI control a drone?
+# **Project Pilot:**Can AI control a drone?
 
-Jul 24, 2026
+![Project Pilot: Can AI control a drone?](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2282327e263b41fd874a74aa23e692f1b2b6df9f-2000x1125.jpg&w=1920&q=75)
+
+- Published
+
+  Jul 24, 2026
+- Team
+
+  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+- Topics
+
+  - [Robotics](https://www.anthropic.com/search?topic=robotics)
+  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Privacy](https://www.anthropic.com/search?topic=privacy)See more...
+
+Related articles
+
+- Frontier Red Team
+
+  May 22, 2026
+
+  [Measuring LLMs’ ability to develop exploits](https://www.anthropic.com/research/exploit-evals)
+
+[View more](https://www.anthropic.com/search?topic=robotics)
 
 *Anthropic and Andon Labs*
 
@@ -98,30 +123,6 @@ It is important to take seriously the parallel between AI models’ use of softw
 
 More generally, at low levels of capability and reliability, keeping a human in the loop is an easy decision because it saves time and resources by augmenting model capabilities or preventing costly mistakes. Once models pass capability and reliability thresholds (such as the human-AI team baseline we used in this experiment), there will be real pressure to treat human oversight as a cost rather than a safeguard. That is exactly why these decisions must be made deliberately, particularly in domains like this one that implicate physical security and privacy and where efficiency alone should not be the governing consideration. As Anthropic has long argued, the requirements for investing in AI alignment, governance, and safety increase with the scale of capabilities. Robotics is no different than other domains in this regard, especially since it implicates physical security and individual privacy.
 
-#### Footnotes
+## Footnotes
 
-1. Specifically, this work was done with a DJI Tello EDU, which currently retails for $129. The person being followed had consented to and was a member of the experiment team.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
-
-## Subscribe to the Frontier Red Team newsletter
-
-Get updates on our latest red-teaming research and findings.
+01Specifically, this work was done with a DJI Tello EDU, which currently retails for $129. The person being followed had consented to and was a member of the experiment team.

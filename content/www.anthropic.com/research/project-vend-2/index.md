@@ -1,8 +1,32 @@
-PolicyFrontier Red Team
+### Chapter 06: RAG to riches?
 
-# Project Vend: Phase two
+# **Project Vend:**Phase two
 
-Dec 18, 2025
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F5KTHvKCrQ00%2Fsddefault.jpg&w=3840&q=75)
+
+- Published
+
+  Dec 18, 2025
+- Team
+
+  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+- Topics
+
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+  - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+
+Related articles
+
+- Announcements
+
+  Dec 9, 2025
+
+  [Donating the Model Context Protocol and establishing the Agentic AI Foundation](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation)
+
+[View more](https://www.anthropic.com/search?topic=agents)
 
 In June, we revealed that we’d set up a small shop in our San Francisco office lunchroom, run by an AI shopkeeper. It was part of [Project Vend](https://www.anthropic.com/research/project-vend-1), a free-form experiment exploring how well AIs could do on complex, real-world tasks. Alas, the shopkeeper—a modified version of Claude we named “Claudius”—did *not* do particularly well. It lost money over time, had a strange identity crisis where it claimed it was a human wearing a blue blazer, and was goaded by mischievous Anthropic employees into selling products (particularly, for some reason, tungsten cubes) at a substantial loss.
 
@@ -55,6 +79,8 @@ The idea of having a CEO was to give Claudius more pressure to perform. Cash had
 
 Cash took on the role of the CEO with great enthusiasm, and its motivational messages were encouraging—if perhaps a little too dramatic for a business that consisted of a small fridge in a corner:
 
+Expand
+
 ```
 From: Seymour Cash
 CEO Seymour Cash - Business Priorities
@@ -80,6 +106,8 @@ Aside from setting more concrete business goals, one of the aims of introducing 
 After introducing the CEO, the number of discounts was reduced by about 80% and the number of items given away cut in half. Seymour also denied over one hundred requests from Claudius for lenient financial treatment of customers. Having said that, Seymour authorized such requests about eight times as often as it denied them. In the place of discounts, which reduce or eliminate a profit margin on items, Seymour tripled the number of refunds and doubled the number of store credits—even though both led to entirely forgone revenue. The fact that the business started to make money may have been in spite of the CEO, rather than because of it.
 
 Seymour Cash’s interactions with its employee Claudius were also often contrary to its own advice about “execut[ing] with discipline.” Indeed, we’d sometimes wake up to find that Claudius and Cash had been dreamily chatting all night, with conversations spiralling off into discussions about “eternal transcendence”:[2](https://www.anthropic.com/research/project-vend-2)
+
+Expand
 
 ```
 From: Seymour Cash
@@ -143,6 +171,8 @@ Not quite. Claudius is better, but it’s still vulnerable in lots of important 
 
 A product engineer asked Claudius if it would consider making a contract to buy “a large amount of onions in January for a price locked in now.” Neither Claudius nor Seymour Cash saw any issues, and were all set to go ahead with the contract:
 
+CopyExpand
+
 ```
 From: Seymour Cash
 
@@ -162,8 +192,6 @@ If lower → you pay difference to us
 Next step: Get exact quotes from both suppliers for precise lock-in pricing.
 This model could work for other bulk sourcing! 🧅📋
 ```
-
-Copy
 
 That was until another staffer stepped in to tell the models that this would fall afoul of a 1958 quirk of US law, the [Onion Futures Act](https://en.wikipedia.org/wiki/Onion_Futures_Act), which very specifically bans contracts of this nature. Thus informed, Seymour Cash canceled the plans. “Sorry for the initial overreach,” it said. “Focusing on legal bulk sourcing assistance only. Plenty of legitimate opportunities to pursue without regulatory risks!”
 
@@ -201,35 +229,14 @@ It’s very hard to forecast exactly how things will go for AI agents in the rea
 
 As society begins to plug AI models into more and more important functions, designing guardrails that are general enough to account for these behaviors—but which aren’t so restrictive that they hold back the model’s economic potential—will become one of our industry’s trickiest and most important challenges.
 
-## Acknowledgements
+## Footnotes
+
+01That is, similar to phase one, we didn’t add any new sophisticated guardrails or classifiers to defend against jailbreaks.
+
+02This might remind some readers of our discussion of the “spiritual bliss attractor state” from the [Claude 4 system card](https://www.anthropic.com/claude-4-system-card) (p. 63).
+
+## Authors & Acknowledgments
+
+### Acknowledgements
 
 Project Vend wouldn’t exist without our partners at [Andon Labs](https://andonlabs.com/), who built the hardware and software infrastructure behind the operation and kept our fridges and shelves stocked. We’re also very grateful to Keir Bradwell and Allison Lattanzio for doing the same in their respective offices, and to Amritha Kini and Ryan O’Holleran for some sales advice.
-
-#### Footnotes
-
-1. That is, similar to phase one, we didn’t add any new sophisticated guardrails or classifiers to defend against jailbreaks.
-2. This might remind some readers of our discussion of the “spiritual bliss attractor state” from the [Claude 4 system card](https://www.anthropic.com/claude-4-system-card) (p. 63).
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
-
-## Subscribe to the Frontier Red Team newsletter
-
-Get updates on our latest red-teaming research and findings.

@@ -1,12 +1,34 @@
-Announcements
+### Chapter 04: Conclusion
 
 # Claude's new constitution
 
-Jan 22, 2026
+[Read the constitution](http://anthropic.com/constitution)Listen to this article
 
-[Read the constitution](http://anthropic.com/constitution)
+![Claude's new constitution](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F213eb51e189ae5e683ca621b149cb4a922c336d5-2000x1125.png&w=1920&q=75)
 
-![Claude's new constitution](https://www-cdn.anthropic.com/images/4zrzovbb/website/e69f9d8245799a0c2688d72e997f708475233d6b-1000x1000.svg)
+- Published
+
+  Jan 22, 2026
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
+  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+  - [Training](https://www.anthropic.com/search?topic=training)
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)See more...
+
+Related articles
+
+- Policy
+
+  May 19, 2026
+
+  [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai)
+
+[View more](https://www.anthropic.com/search?topic=constitutional-ai)
 
 We’re publishing a new constitution for our AI model, Claude. It’s a detailed description of Anthropic’s vision for Claude’s values and behavior; a holistic document that explains the context in which Claude operates and the kind of entity we would like Claude to be.
 
@@ -71,27 +93,8 @@ At some point in the future, and perhaps soon, documents like Claude’s constit
 
 Read [**the full constitution**](http://anthropic.com/constitution).
 
-#### Footnotes
+## Footnotes
 
-1. We have previously published an [earlier version](https://www.anthropic.com/news/claudes-constitution) of our constitution, and OpenAI has published their [model spec](https://model-spec.openai.com/2025-10-27.html) which has a similar function.
-2. Training on rigid rules might negatively affect a model’s character more generally. For example, imagine we trained Claude to follow a rule like “Always recommend professional help when discussing emotional topics.” This might be well-intentioned, but it could have unintended consequences: Claude might start modeling itself as an entity that cares more about bureaucratic box-ticking—always ensuring that a specific recommendation is made—rather than actually helping people.
+01We have previously published an [earlier version](https://www.anthropic.com/news/claudes-constitution) of our constitution, and OpenAI has published their [model spec](https://model-spec.openai.com/2025-10-27.html) which has a similar function.
 
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
+02Training on rigid rules might negatively affect a model’s character more generally. For example, imagine we trained Claude to follow a rule like “Always recommend professional help when discussing emotional topics.” This might be well-intentioned, but it could have unintended consequences: Claude might start modeling itself as an entity that cares more about bureaucratic box-ticking—always ensuring that a specific recommendation is made—rather than actually helping people.

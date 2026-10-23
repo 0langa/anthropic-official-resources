@@ -8,49 +8,13 @@ Unsubscribe at any time.
 
 News, announcements, and stories from Anthropic about Claude and the people building with it.
 
-[ArticleOct 8, 2026
+[ArticleOct 21, 2026
 
-### Build live dashboards and animate explainers with Claude
+### Introducing Claude Duet
 
-Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
+A research preview is available by waitlist today, starting with US Pro and Max subscribers.
 
-Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
-
-[ArticleOct 19, 2026
-
-### Redesigning source control at Anthropic
-
-As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
-
-Claude Code
-
-(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)
-
-[ArticleOct 16, 2026
-
-### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
-
-How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
-
-Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)
-
-[ArticleOct 16, 2026
-
-### How the Claude Code team does code review
-
-How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)
-
-[ArticleOct 15, 2026
-
-### Code Review is now generally available
-
-Catch more bugs before they reach production.
-
-Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)
+![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
 [ArticleOct 8, 2026
 
@@ -60,13 +24,63 @@ Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design ar
 
 Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
 
-Featured resource 1 of 5: Build live dashboards and animate explainers with Claude
+[ArticleOct 22, 2026
+
+### The full Claude Platform, available on Google Cloud
+
+Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
+
+Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)
+
+[ArticleOct 21, 2026
+
+### HCLTech joins the Claude Partner Network as a Global Premier partner
+
+HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)
+
+[ArticleOct 22, 2026
+
+### Building agents: When to fold subagents into your main agent loop
+
+When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
+
+[ArticleOct 21, 2026
+
+### Introducing Claude Duet
+
+A research preview is available by waitlist today, starting with US Pro and Max subscribers.
+
+![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
+
+Featured resource 1 of 5: Introducing Claude Duet
 
 Advanced filters(1)
 
-Showing 12 of 141 resources
+Showing 12 of 145 resources
 
-[ArticleOct 15, 2026
+[ArticleOct 22, 2026
+
+### The full Claude Platform, available on Google Cloud
+
+Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
+
+Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)[ArticleOct 21, 2026
+
+### HCLTech joins the Claude Partner Network as a Global Premier partner
+
+HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)[ArticleOct 21, 2026
+
+### Introducing Claude Duet
+
+A research preview is available by waitlist today, starting with US Pro and Max subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleOct 21, 2026
+
+### Claude Security now scans continuously and tracks fixes
+
+Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.
+
+Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)[ArticleOct 15, 2026
 
 ### Code Review is now generally available
 
@@ -110,32 +124,6 @@ Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 
 
 Claude Code CLI and Claude for Microsoft 365 also now available in early access.
 
-Claude Code](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 28, 2026
-
-### Claude Sonnet 5.5
-
-Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.
-
-Claude appsClaude Code
-
-(opens in new tab)](https://www.anthropic.com/claude-sonnet-5-5)[ArticleSep 28, 2026
-
-### A new approach to agent security with Claude Managed Agents and NVIDIA
-
-Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
-
-Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 25, 2026
-
-### Build plugins for Claude
-
-You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.
-
-Claude apps](https://claude.com/resources/articles/build-plugins-for-claude)[ArticleSep 24, 2026
-
-### Claude Tag now supports personal connectors in channels
-
-Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.
-
-Claude Tag](https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels)
+Claude Code](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)
 
 View more

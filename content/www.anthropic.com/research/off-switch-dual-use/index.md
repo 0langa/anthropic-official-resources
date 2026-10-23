@@ -1,12 +1,35 @@
-Alignment
+### Chapter 03: Conclusions
 
 # An off switch for dual-use knowledge in AI models
 
-Jul 8, 2026
+![A neat grid of bright green dots on olive at left gives way, on beige at right, to a broken, halftone-textured grid with gaps and a single red dot.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F94652ec1a1b4342c52dc5588d9c899aee7f6ab97-2000x1125.jpg&w=1920&q=75)
 
-![An off switch for dual-use knowledge in AI models](https://www-cdn.anthropic.com/images/4zrzovbb/website/ba5df68fde631a953fcaca4ec56cd20d285bdd5d-1000x1000.svg)
+- Published
+
+  Jul 8, 2026
+- Team
+
+  [Alignment](https://www.anthropic.com/research/team/alignment)
+- Topics
+
+  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Training](https://www.anthropic.com/search?topic=training)
+  - [Access](https://www.anthropic.com/search?topic=access)See more...
 
 *This post describes research conducted by [AE Studio](https://ae.studio/alignment) in collaboration with Anthropic.*
+
+Related articles
+
+- Announcements
+
+  Oct 6, 2026
+
+  [Expanding the Cyber Verification Program](https://www.anthropic.com/news/cyber-verification-program)
+
+[View more](https://www.anthropic.com/search?topic=limits-on-abuse)
 
 A frontier AI model is, among other things, a large store of knowledge. Some of that knowledge is *dual use*, meaning it can be used for good or for bad. For example, knowledge of cybersecurity can help patch critical security vulnerabilities, or it can be used to exploit them. Knowledge of virology can help a researcher create a vaccine, but it can also help a malicious actor design a deadly pathogen. Ideally, we would be able to balance three separate goals: first, limiting access to dual-use capabilities in as surgical a way as possible; second, allowing trusted users to access those same capabilities for beneficial purposes; and third, doing all this without affecting the model’s performance on any other task.
 
@@ -20,7 +43,7 @@ In [new research](https://alignment.anthropic.com/2026/modular-pretraining/) car
 
 The idea behind GRAM is to give a model dedicated, removable compartments for each category of dual-use knowledge, and to update only those compartments when learning from dual-use data.
 
-Concretely, GRAM adds extra neurons to every layer of a standard Transformer (the neural network architecture on which large language models are based). These neurons are divided into groups (or “modules”), one per dual-use category. During training, when the model encounters general-purpose text, it learns in the usual way. But when it encounters text from a dual-use category—virology, for instance—the rules change: the model can *use* its general knowledge to make predictions, but only the virology module is allowed to *learn* from that text. The general-purpose weights are temporarily frozen.1
+Concretely, GRAM adds extra neurons to every layer of a standard Transformer (the neural network architecture on which large language models are based). These neurons are divided into groups (or “modules”), one per dual-use category. During training, when the model encounters general-purpose text, it learns in the usual way. But when it encounters text from a dual-use category—virology, for instance—the rules change: the model can *use* its general knowledge to make predictions, but only the virology module is allowed to *learn* from that text. The general-purpose weights are temporarily frozen.[1](https://www.anthropic.com/research/off-switch-dual-use)
 
 The consequence is that virology knowledge accumulates in the virology module rather than diffusing across the whole network. After training, the module can simply be deleted, and the capability goes with it. Or it can be left in place for trusted deployments, when virology knowledge is needed. The knowledge can be tailored very specifically to the type of deployment needed: in our experiments, we defined four dual-use categories, so that one training run with GRAM yielded a model that can be configured 16 different ways (“on” or “off” for each of the four categories).
 
@@ -44,26 +67,6 @@ This is early research, and there are clear limitations. We haven’t tested GRA
 
 *For further details on our experiments, read the [post](https://alignment.anthropic.com/2026/modular-pretraining/) on our Alignment Science blog.*
 
-#### Footnotes
+## Footnotes
 
-1. One technical detail is that the virology module is also sometimes turned on when learning from general-purpose text. We find this helps the modules “work together” more effectively.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
+01One technical detail is that the virology module is also sometimes turned on when learning from general-purpose text. We find this helps the modules “work together” more effectively.

@@ -22,7 +22,7 @@ The visual streams in alongside the text and the conversation keeps going. You c
 - **Interactive, often.** Sliders, draggable points, buttons, interactive elements, and even sound.
 - **Built from what you gave it** — can use context from the conversation, files you uploaded, or what Claude knows about you.
 - **Diagrams, charts, tools** — not image generation.
-- **Web and desktop**, on all plans.
+- **Web and desktop**, all plans while in beta.
 
 ## A few moments where this may help you[](https://academy.claude.com/tutorials/imagine-with-claude-student-guide)
 
@@ -192,7 +192,7 @@ Bring what you have — lab data, lecture notes, a difficult problem. As you cha
 
 - If you expected a visual and didn't get one, any version of "show me" or "visualize this" brings one in.
 - If the visual renders oddly — overlapping elements, cut-off labels — ask Claude to fix the formatting.
-- Works on [claude.ai(opens in new tab)](https://claude.ai/) web and the desktop apps.
+- Works on [claude.ai(opens in new tab)](https://claude.ai/) web and the desktop apps. Not on mobile yet.
 
 ## Go deeper — the full set of walkthroughs[](https://academy.claude.com/tutorials/imagine-with-claude-student-guide)
 

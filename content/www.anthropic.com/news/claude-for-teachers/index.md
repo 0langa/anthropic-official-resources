@@ -1,10 +1,31 @@
-ProductBeneficial Deployments
+### Chapter 07: Getting started
 
 # Introducing Claude for Teachers
 
-Jul 14, 2026
+- Published
 
-![Introducing Claude for Teachers](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc39f489c0763bac41638f8ea29a0ae1335c3ecb2-1200x630.jpg&w=3840&q=75)
+  Jul 14, 2026
+- Category
+
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Education](https://www.anthropic.com/search?topic=education)
+  - [Privacy](https://www.anthropic.com/search?topic=privacy)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)
+  - [Access](https://www.anthropic.com/search?topic=access)
+  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+
+Related articles
+
+- Product
+
+  May 13, 2026
+
+  [Introducing Claude for Small Business](https://www.anthropic.com/news/claude-for-small-business)
+
+[View more](https://www.anthropic.com/search?topic=education)
 
 We're introducing [Claude for Teachers](https://claude.com/solutions/teachers), providing verified K-12 educators in the US free access to premium Claude capabilities, a library of teaching skills, and a direct connection to evidence-based curricula, mapped to academic standards in all 50 states.
 
@@ -77,23 +98,3 @@ Claude for Teachers is for individual educators. On August 28, 2026 we launched 
 August 28, 2026: An earlier version of this post included examples of analyzing student data. Claude for Teachers is FERPA-configured to process student records, and using identifiable student information requires authorization from the school or district. To make this more clear, we've updated the examples to use de-identified classroom data. Schools and districts that want to authorize Claude for Teachers to handle student records on their behalf can set that up through our school and district offering.*
 
 J*uly 21, 2026: Added a note to emphasize that whether and how educational data may be used in Claude for Teachers is determined by district and state policies.*
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

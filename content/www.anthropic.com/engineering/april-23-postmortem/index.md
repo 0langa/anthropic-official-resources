@@ -1,12 +1,32 @@
-[Engineering at Anthropic](https://www.anthropic.com/engineering)
-
-![](https://www-cdn.anthropic.com/images/4zrzovbb/website/086ff66662046b073d309c2f8cbaec48fc0e4695-1000x1000.svg)
+### Chapter 04: Going forward
 
 # An update on recent Claude Code quality reports
 
-Published Apr 23, 2026
+![An update on recent Claude Code quality reports](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fab863ec09d7cd36cc90eebbbf3b124afdf552d28-2000x1125.jpg&w=1920&q=75)
 
-We traced recent reports of Claude Code quality issues to three separate changes. Here's what happened and what we're changing.
+- Published
+
+  Apr 23, 2026
+- Team
+
+  [Engineering](https://www.anthropic.com/engineering)
+- Topics
+
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
+  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)See more...
+
+Related articles
+
+- Science
+
+  Mar 23, 2026
+
+  [Long-running Claude for scientific computing](https://www.anthropic.com/research/long-running-claude)
+
+[View more](https://www.anthropic.com/search?topic=claude-code)
 
 Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted.
 
@@ -91,9 +111,3 @@ We recently created @ClaudeDevs on X to give us the room to explain product deci
 Finally, we’d like to thank our users: the people who used the `/feedback` command to share their issues with us (or who posted specific, reproducible examples online) are the ones who ultimately allowed us to identify and fix these problems. Today we are resetting usage limits for all subscribers.
 
 We’re immensely grateful for your feedback and for your patience.
-
-## Get the developer newsletter
-
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
-
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.

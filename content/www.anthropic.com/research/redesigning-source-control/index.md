@@ -19,7 +19,7 @@
 
 Related articles
 
-- Product
+- Features
 
   Feb 23, 2026
 

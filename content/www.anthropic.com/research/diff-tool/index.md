@@ -1,12 +1,34 @@
-Interpretability
+### Chapter 03: Conclusion
 
-# A “diff” tool for AI: Finding behavioral differences in new models
-
-Mar 13, 2026
+# **A “diff” tool for AI:**Finding behavioral differences in new models
 
 [Read the paper](https://arxiv.org/abs/2602.11729)
 
-![A “diff” tool for AI: Finding behavioral differences in new models ](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa93218bbcbc4a3ada031c78fb5fbd62d42fb7eb9-1920x1080.png&w=3840&q=75)
+![A “diff” tool for AI: Finding behavioral differences in new models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7c1c7d641ef0cc10ba8ba034b34adfcb742799a4-1920x1080.jpg&w=1920&q=75)
+
+- Published
+
+  Mar 13, 2026
+- Team
+
+  [Interpretability](https://www.anthropic.com/research/team/interpretability)
+- Topics
+
+  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+  - [Open source](https://www.anthropic.com/search?topic=open-source)
+  - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)See more...
+
+Related articles
+
+- Interpretability
+
+  May 7, 2026
+
+  [Natural Language Autoencoders: Turning Claude’s thoughts into text](https://www.anthropic.com/research/natural-language-autoencoders)
+
+[View more](https://www.anthropic.com/search?topic=interpretability)
 
 Every time a new AI model is released, its developers run a suite of evaluations to measure its performance and safety. These tests are essential, but they are somewhat limited. Because these benchmarks are human-authored, they can only test for risks we have already conceptualized and learned to measure.
 
@@ -28,7 +50,7 @@ Among the thousands of candidates our tool flagged, we've identified and validat
 
 To be clear, while our method identifies these model-exclusive features, it does not determine their origin. Such behaviors could be the result of deliberate training decisions on the part of the model developers, or they could emerge indirectly and unintentionally from the data the model was trained on. (We focused on open-source language models in this research as this was an Anthropic Fellows project.)
 
-## **A bilingual dictionary for AI models**
+## A bilingual dictionary for AI models
 
 Imagine you're the final editor for an award-winning encyclopedia. A team of writers has just handed you the complete manuscript for next year’s edition. The vast majority of the content is identical to the current, trusted version, but they’ve added new entries to reflect recent scientific and cultural developments. Your job is to vet this final product.
 
@@ -50,13 +72,13 @@ Because our bilingual dictionary has dedicated sections for words exclusive to e
 
 For a safety auditor, the DFC can identify "words" unique to a new AI model that may warrant closer review than those they've seen before.
 
-## Steering the model
+### Steering the model
 
 Once our method identifies a potential new feature, how do we know it actually controls the behavior we think it does? We can test this by artificially suppressing or amplifying the feature while the model runs, then observing how its output changes—a common technique known as“steering.”
 
 If we have a feature that we believe is responsible for, say, censorship, we can suppress it while the model is generating a response. If the model's output consistently becomes less censored, we have evidence that we've found a true cause-and-effect relationship between that feature and the model's behavior. Conversely, we can also amplify the feature to see if the behavior becomes more pronounced.
 
-## **Critical behavioral differences between major open-weight AI models**
+## Critical behavioral differences between major open-weight AI models
 
 ### Llama-3.1-8B-Instruct vs Qwen3-8B
 
@@ -98,30 +120,12 @@ By focusing on the differences, we can audit AI more intelligently, directing ou
 
 You can read the full paper[here](https://arxiv.org/abs/2602.11729).
 
-## Acknowledgements
+## Footnotes
+
+01As with all Anthropic Fellows interpretability research, this paper analyzes the behavior of open-source models. We chose the four models in the study—Llama-3.1-8B-Instruct, Qwen3-8B, GPT-OSS-20B, and DeepSeek-R1-0528-Qwen3-8B—on the basis they would be well-suited to testing whether our Dedicated Feature Crosscoder could detect notable differences in model behavior.
+
+## Authors & Acknowledgments
+
+### Acknowledgements
 
 This post was authored by Thomas Jiralerspong (Anthropic Fellows Program) and Trenton Bricken (Anthropic Alignment Science).
-
-#### Footnotes
-
-1. As with all Anthropic Fellows interpretability research, this paper analyzes the behavior of open-source models. We chose the four models in the study—Llama-3.1-8B-Instruct, Qwen3-8B, GPT-OSS-20B, and DeepSeek-R1-0528-Qwen3-8B—on the basis they would be well-suited to testing whether our Dedicated Feature Crosscoder could detect notable differences in model behavior.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)

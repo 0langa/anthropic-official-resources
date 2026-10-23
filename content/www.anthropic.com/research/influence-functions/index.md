@@ -1,10 +1,31 @@
-AlignmentResearch
+### Chapter 05: Further research
 
 # Tracing model outputs to the training data
 
-Aug 8, 2023
+![Tracing model outputs to the training data](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe49b184f66b36fa038d084aa80fa8624ec419a2f-2000x1125.jpg&w=1920&q=75)
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F46b187c34d5cadab4d68dfef12c918c2797f82b3-2880x1620.png&w=3840&q=75)
+- Published
+
+  Aug 8, 2023
+- Team
+
+  [Alignment](https://www.anthropic.com/research/team/alignment)
+- Topics
+
+  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+  - [Training](https://www.anthropic.com/search?topic=training)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)See more...
+
+Related articles
+
+- Alignment
+
+  Aug 8, 2023
+
+  [Studying large language model generalization with influence functions](https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions)
+
+[View more](https://www.anthropic.com/search?topic=interpretability)
 
 As large language models become more powerful and their risks become clearer, there is increasing value to figuring out what makes them tick. In our [previous](https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations) [work](https://www.anthropic.com/research/the-capacity-for-moral-self-correction-in-large-language-models), we have found that large language models change along many personality and behavioral dimensions as a function of both scale and the amount of fine-tuning. Understanding these changes requires seeing how models work, for instance to determine if a model’s outputs rely on memorization or more sophisticated processing. Understanding the inner workings of language models will have substantial implications for forecasting AI capabilities as well as for approaches to aligning AI systems with human preferences.
 
@@ -51,23 +72,3 @@ In addition to simply computing a scalar-valued influence score for a training s
 ## Further research
 
 The focus of this investigation was on pretrained models. We’re even more excited about extending influence functions to fine-tuning, since our alignment methods require fine-tuning the models on a variety of supervised and reinforcement learning objectives, any of which could have surprising consequences and challenges. Our aforementioned ability to localize influence to specific layers and tokens also suggests a way forward for connecting influence functions to mechanistic interpretability, with the goal of determining which neurons and circuits are responsible for any given pattern of generalization.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)

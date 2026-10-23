@@ -42,31 +42,27 @@ The full list of capabilities is in the [Help Center](https://support.claude.com
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 15, 2026
+[ArticleOct 22, 2026
 
-### Code Review is now generally available
+### The full Claude Platform, available on Google Cloud
 
-Catch more bugs before they reach production.
+Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
 
-Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)[ArticleOct 8, 2026
+Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)[ArticleOct 21, 2026
 
-### Build live dashboards and animate explainers with Claude
+### HCLTech joins the Claude Partner Network as a Global Premier partner
 
-Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
+HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)[ArticleOct 21, 2026
 
-Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 7, 2026
+### Introducing Claude Duet
 
-### Claude Haiku 5.5
+A research preview is available by waitlist today, starting with US Pro and Max subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleOct 21, 2026
 
-Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
+### Claude Security now scans continuously and tracks fixes
 
-(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)[ArticleOct 6, 2026
+Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.
 
-### Claude now works with Google Docs, Sheets, and Slides
-
-Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta).
-
-Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)
+Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)
 
 ## Transform how your organization operates with Claude
 

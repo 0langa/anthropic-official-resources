@@ -1,12 +1,29 @@
-[Engineering at Anthropic](https://www.anthropic.com/engineering)
-
-![](https://www-cdn.anthropic.com/images/4zrzovbb/website/5dfb835ad3cbbf76b85824e969146eac20329e72-1000x1000.svg)
+### Chapter 04: Future work
 
 # Effective harnesses for long-running agents
 
-Published Nov 26, 2025
+- Published
 
-Agents still face challenges working across many context windows. We looked to human engineers for inspiration in creating a more effective harness for long-running agents.
+  Nov 26, 2025
+- Team
+
+  [Engineering](https://www.anthropic.com/engineering)
+- Topics
+
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)See more...
+
+Related articles
+
+- Engineering
+
+  Mar 24, 2026
+
+  [Harness design for long-running application development](https://www.anthropic.com/research/harness-design-long-running-apps)
+
+[View more](https://www.anthropic.com/search?topic=agents)
 
 As AI agents become more capable, developers are increasingly asking them to take on complex tasks requiring work that spans hours, or even days. However, getting agents to make consistent progress across multiple context windows remains an open problem.
 
@@ -18,7 +35,7 @@ We developed a two-fold solution to enable the [Claude Agent SDK](https://platfo
 
 The Claude Agent SDK is a powerful, general-purpose agent harness adept at coding, as well as other tasks that require the model to use tools to gather context, plan, and execute. It has context management capabilities such as compaction, which enables an agent to work on a task without exhausting the context window. Theoretically, given this setup, it should be possible for an agent to continue to do useful work for an arbitrarily long time.
 
-However, compaction isn’t sufficient. Out of the box, even a frontier coding model like Opus 4.5 running on the Claude Agent SDK in a loop across multiple context windows will fall short of building a production-quality web app if it’s only given a high-level prompt, such as “build a clone of [claude.ai](http://claude.ai/redirect/website.v1.36414c17-f797-402a-a170-013c6d00e73c).”
+However, compaction isn’t sufficient. Out of the box, even a frontier coding model like Opus 4.5 running on the Claude Agent SDK in a loop across multiple context windows will fall short of building a production-quality web app if it’s only given a high-level prompt, such as “build a clone of [claude.ai](http://claude.ai/redirect/website.v1.9a702f97-af64-4b46-b494-bcdbbc7f7c6d).”
 
 Claude’s failures manifested in two patterns. First, the agent tended to try to do too much at once—essentially to attempt to one-shot the app. Often, this led to the model running out of context in the middle of its implementation, leaving the next session to start with a feature half-implemented and undocumented. The agent would then have to guess at what had happened, and spend substantial time trying to get the basic app working again. This happens even with compaction, which doesn’t always pass perfectly clear instructions to the next agent.
 
@@ -29,7 +46,7 @@ This decomposes the problem into two parts. First, we need to set up an initial 
 When experimenting internally, we addressed these problems using a two-part solution:
 
 1. Initializer agent: The very first agent session uses a specialized prompt that asks the model to set up the initial environment: an `init.sh` script, a claude-progress.txt file that keeps a log of what agents have done, and an initial git commit that shows what files were added.
-2. Coding agent: Every subsequent session asks the model to make incremental progress, then leave structured updates.1
+2. Coding agent: Every subsequent session asks the model to make incremental progress, then leave structured updates.[1](https://www.anthropic.com/research/effective-harnesses-for-long-running-agents)
 
 The key insight here was finding a way for agents to quickly understand the state of work when starting with a fresh context window, which is accomplished with the claude-progress.txt file alongside the git history. Inspiration for these practices came from knowing what effective software engineers do every day.
 
@@ -39,7 +56,9 @@ In the updated [Claude 4 prompting guide](https://docs.claude.com/en/docs/build-
 
 ### Feature list
 
-To address the problem of the agent one-shotting an app or prematurely considering the project complete, we prompted the initializer agent to write a comprehensive file of feature requirements expanding on the user’s initial prompt. In the [claude.ai](http://claude.ai/redirect/website.v1.36414c17-f797-402a-a170-013c6d00e73c) clone example, this meant over 200 features, such as “a user can open a new chat, type in a query, press enter, and see an AI response.” These features were all initially marked as “failing” so that later coding agents would have a clear outline of what full functionality looked like.
+To address the problem of the agent one-shotting an app or prematurely considering the project complete, we prompted the initializer agent to write a comprehensive file of feature requirements expanding on the user’s initial prompt. In the [claude.ai](http://claude.ai/redirect/website.v1.9a702f97-af64-4b46-b494-bcdbbc7f7c6d) clone example, this meant over 200 features, such as “a user can open a new chat, type in a query, press enter, and see an AI response.” These features were all initially marked as “failing” so that later coding agents would have a clear outline of what full functionality looked like.
+
+CopyExpand
 
 ```
 {
@@ -55,8 +74,6 @@ To address the problem of the agent one-shotting an app or prematurely consideri
     "passes": false
   }
 ```
-
-Copy
 
 We prompt coding agents to edit this file only by changing the status of a passes field, and we use strongly-worded instructions like “It is unacceptable to remove or edit tests because this could lead to missing or buggy functionality.” After some experimentation, we landed on using JSON for this, as the model is less likely to inappropriately change or overwrite JSON files compared to Markdown files.
 
@@ -74,7 +91,7 @@ One final major failure mode that we observed was Claude’s tendency to mark a 
 
 In the case of building a web app, Claude mostly did well at verifying features end-to-end once explicitly prompted to use browser automation tools and do all testing as a human user would.
 
-![ Screenshots taken by Claude through the Puppeteer MCP server as it tested the claude.ai clone. ](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff94c2257964fb2d623f1e81f874977ebfc0986bc-1920x1080.gif&w=3840&q=75)
+![Screenshots taken by Claude through the Puppeteer MCP server as it tested the claude.ai clone.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff94c2257964fb2d623f1e81f874977ebfc0986bc-1920x1080.gif&w=3840&q=75)
 
 Screenshots taken by Claude through the Puppeteer MCP server as it tested the claude.ai clone.
 
@@ -96,6 +113,8 @@ In the case of the claude.ai clone, this meant that the agent always started the
 
 Given all this, a typical session starts off with the following assistant messages:
 
+CopyExpand
+
 ```
 [Assistant] I'll start by getting my bearings and understanding the current state of the project.
 [Tool Use] <bash - pwd>
@@ -111,11 +130,37 @@ Given all this, a typical session starts off with the following assistant messag
 <Starts work on a new feature>
 ```
 
-Copy
+## Agent failure modes and solutions
 
-Agent failure modes and solutions
+**Problem**
 
-<table class="Table-module-scss-module__Z3bHXa__table Table-module-scss-module__Z3bHXa__fixedFirstColumn" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><th class="body-3" role="columnheader"><strong>Problem</strong></th><th class="body-3" role="columnheader"><strong>Initializer Agent Behavior </strong></th><th class="body-3" role="columnheader"><strong>Coding Agent Behavior</strong></th></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Claude declares victory on the entire project too early.</td><td class="body-3" role="cell">Set up a feature list file: based on the input spec, set up a structured JSON file with a list of end-to-end feature descriptions.</td><td class="body-3" role="cell">Read the feature list file at the beginning of a session. Choose a single feature to start working on.</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Claude leaves the environment in a state with bugs or undocumented progress.</td><td class="body-3" role="cell">An initial git repo and progress notes file is written.</td><td class="body-3" role="cell">Start the session by reading the progress notes file and git commit logs, and run a basic test on the development server to catch any undocumented bugs. End the session by writing a git commit and progress update.</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Claude marks features as done prematurely.</td><td class="body-3" role="cell">Set up a feature list file.</td><td class="body-3" role="cell">Self-verify all features. Only mark features as “passing” after careful testing.</td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">Claude has to spend time figuring out how to run the app.</td><td class="body-3" role="cell">Write an <code class="InlineCodeBlock-module-scss-module__nsPAba__code">init.sh</code> script that can run the development server.</td><td class="body-3" role="cell">Start the session by reading <code class="InlineCodeBlock-module-scss-module__nsPAba__code">init.sh</code>.</td></tr></tbody></table>
+**Initializer Agent Behavior**
+
+**Coding Agent Behavior**
+
+Claude declares victory on the entire project too early.
+
+Set up a feature list file: based on the input spec, set up a structured JSON file with a list of end-to-end feature descriptions.
+
+Read the feature list file at the beginning of a session. Choose a single feature to start working on.
+
+Claude leaves the environment in a state with bugs or undocumented progress.
+
+An initial git repo and progress notes file is written.
+
+Start the session by reading the progress notes file and git commit logs, and run a basic test on the development server to catch any undocumented bugs. End the session by writing a git commit and progress update.
+
+Claude marks features as done prematurely.
+
+Set up a feature list file.
+
+Self-verify all features. Only mark features as “passing” after careful testing.
+
+Claude has to spend time figuring out how to run the app.
+
+Write an `init.sh` script that can run the development server.
+
+Start the session by reading `init.sh`.
 
 Summarizing four common failure modes and solutions in long-running AI agents.
 
@@ -127,18 +172,14 @@ Most notably, it’s still unclear whether a single, general-purpose coding agen
 
 Additionally, this demo is optimized for full-stack web app development. A future direction is to generalize these findings to other fields. It’s likely that some or all of these lessons can be applied to the types of long-running agentic tasks required in, for example, scientific research or financial modeling.
 
+## Footnotes
+
+01We refer to these as separate agents in this context only because they have different initial user prompts. The system prompt, set of tools, and overall agent harness was otherwise identical.
+
+## Authors & Acknowledgments
+
 ### Acknowledgements
 
 Written by Justin Young. Special thanks to David Hershey, Prithvi Rajasakeran, Jeremy Hadfield, Naia Bouscal, Michael Tingley, Jesse Mu, Jake Eaton, Marius Buleandara, Maggie Vo, Pedram Navid, Nadine Yasser, and Alex Notov for their contributions.
 
 This work reflects the collective efforts of several teams across Anthropic who made it possible for Claude to safely do long-horizon autonomous software engineering, especially the code RL & Claude Code teams. Interested candidates who would like to contribute are welcome to apply at [anthropic.com/careers](http://anthropic.com/careers).
-
-### Footnotes
-
-1. We refer to these as separate agents in this context only because they have different initial user prompts. The system prompt, set of tools, and overall agent harness was otherwise identical.
-
-## Get the developer newsletter
-
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
-
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.

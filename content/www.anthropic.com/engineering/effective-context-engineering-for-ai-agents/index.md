@@ -1,12 +1,28 @@
-[Engineering at Anthropic](https://www.anthropic.com/engineering)
-
-![](https://www-cdn.anthropic.com/images/4zrzovbb/website/33b03d9dd1e6aec266ef22a616aec8f5676223f6-1000x1000.svg)
+### Chapter 05: Conclusion
 
 # Effective context engineering for AI agents
 
-Published Sep 29, 2025
+- Published
 
-Context is a critical but finite resource for AI agents. In this post, we explore strategies for effectively curating and managing the context that powers them.
+  Sep 29, 2025
+- Team
+
+  [Engineering](https://www.anthropic.com/engineering)
+- Topics
+
+  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Tool use](https://www.anthropic.com/search?topic=tool-use)See more...
+
+Related articles
+
+- Engineering
+
+  Nov 4, 2025
+
+  [Code execution with MCP: Building more efficient agents](https://www.anthropic.com/research/code-execution-with-mcp)
+
+[View more](https://www.anthropic.com/search?topic=context-engineering)
 
 After a few years of prompt engineering being the focus of attention in applied AI, a new term has come to prominence: **context engineering**. Building with language models is becoming less about finding the right words and phrases for your prompts, and more about answering the broader question of “what configuration of context is most likely to generate our model’s desired behavior?"
 
@@ -24,7 +40,7 @@ An agent running in a loop generates more and more data that *could* be relevant
 
 ![Prompt engineering vs. context engineering](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffaa261102e46c7f090a2402a49000ffae18c5dd6-2292x1290.png&w=3840&q=75)
 
-*In contrast to the discrete task of writing a prompt, context engineering is iterative and the curation phase happens each time we decide what to pass to the model.*
+In contrast to the discrete task of writing a prompt, context engineering is iterative and the curation phase happens each time we decide what to pass to the model.
 
 ## Why context engineering is important to building capable agents
 
@@ -48,7 +64,7 @@ Given that LLMs are constrained by a finite attention budget, *good* context eng
 
 ![Calibrating the system prompt in the process of context engineering.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0442fe138158e84ffce92bed1624dd09f37ac46f-2292x1288.png&w=3840&q=75)
 
-*At one end of the spectrum, we see brittle if-else hardcoded prompts, and at the other end we see prompts that are overly general or falsely assume shared context.*
+At one end of the spectrum, we see brittle if-else hardcoded prompts, and at the other end we see prompts that are overly general or falsely assume shared context.
 
 We recommend organizing prompts into distinct sections (like `<background_information>`, `<instructions>`, `## Tool guidance`, `## Output description`, etc) and using techniques like XML tagging or Markdown headers to delineate these sections, although the exact formatting of prompts is likely becoming less important as models become more capable.
 
@@ -90,7 +106,7 @@ Long-horizon tasks require agents to maintain coherence, context, and goal-direc
 
 Waiting for larger context windows might seem like an obvious tactic. But it's likely that for the foreseeable future, context windows of all sizes will be subject to context pollution and information relevance concerns—at least for situations where the strongest agent performance is desired. To enable agents to work effectively across extended time horizons, we've developed a few techniques that address these context pollution constraints directly: compaction, structured note-taking, and multi-agent architectures.
 
-**Compaction**
+#### Compaction
 
 Compaction is the practice of taking a conversation nearing the context window limit, summarizing its contents, and reinitiating a new context window with the summary. Compaction typically serves as the first lever in context engineering to drive better long-term coherence. At its core, compaction distills the contents of a context window in a high-fidelity manner, enabling the agent to continue with minimal performance degradation.
 
@@ -100,7 +116,7 @@ The art of compaction lies in the selection of what to keep versus what to disca
 
 An example of low-hanging superfluous content is clearing tool calls and results – once a tool has been called deep in the message history, why would the agent need to see the raw result again? One of the safest lightest touch forms of compaction is tool result clearing, most recently launched as a [feature on the Claude Developer Platform](https://www.anthropic.com/news/context-management).
 
-**Structured note-taking**
+#### Structured note-taking
 
 Structured note-taking, or agentic memory, is a technique where the agent regularly writes notes persisted to memory outside of the context window. These notes get pulled back into the context window at later times.
 
@@ -112,7 +128,7 @@ After context resets, the agent reads its own notes and continues multi-hour tra
 
 As part of our [Sonnet 4.5 launch](https://www.anthropic.com/effective-context-engineering-for-ai-agents), we released [a memory tool](http://anthropic.com/news/context-management) in public beta on the Claude Developer Platform that makes it easier to store and consult information outside the context window through a file-based system. This allows agents to build up knowledge bases over time, maintain project state across sessions, and reference previous work without keeping everything in context.
 
-**Sub-agent architectures**
+#### Sub-agent architectures
 
 Sub-agent architectures provide another way around context limitations. Rather than one agent attempting to maintain state across an entire project, specialized sub-agents can handle focused tasks with clean context windows. The main agent coordinates with a high-level plan while subagents perform deep technical work or use tools to find relevant information. Each subagent might explore extensively, using tens of thousands of tokens or more, but returns only a condensed, distilled summary of its work (often 1,000-2,000 tokens).
 
@@ -134,12 +150,8 @@ The techniques we've outlined will continue evolving as models improve. We're al
 
 Get started with context engineering in the Claude Developer Platform today, and access helpful tips and best practices via our [memory and context management](https://platform.claude.com/cookbook/tool-use-memory-cookbook) cookbook.
 
-## Acknowledgements
+## Authors & Acknowledgments
+
+### Acknowledgements
 
 Written by Anthropic's Applied AI team: Prithvi Rajasekaran, Ethan Dixon, Carly Ryan, and Jeremy Hadfield, with contributions from team members Rafi Ayub, Hannah Moran, Cal Rueb, and Connor Jennings. Special thanks to Molly Vorwerck, Stuart Ritchie, and Maggie Vo for their support.
-
-## Get the developer newsletter
-
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
-
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.

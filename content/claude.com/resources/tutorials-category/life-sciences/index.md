@@ -184,8 +184,8 @@ Claude Tag·10 min](https://academy.claude.com/tutorials/best-practices-using-cl
 
 ### Making slides and presentations with Claude
 
-Claude Design·10 min](https://academy.claude.com/tutorials/using-claude-design-for-presentations-and-slide-decks)[![](https://academy.claude.com/assets/v1/thumbnail.light-h62nz1hq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jcrg0885.png)
+Claude Design·10 min](https://academy.claude.com/tutorials/using-claude-design-for-presentations-and-slide-decks)[![](https://academy.claude.com/assets/v1/thumbnail.light-ec0g8s4j.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-niae113s.png)
 
 ### Getting started with Claude Security
 
-Claude Security·6 min](https://academy.claude.com/tutorials/getting-started-with-claude-security)
+Claude Security·8 min](https://academy.claude.com/tutorials/getting-started-with-claude-security)

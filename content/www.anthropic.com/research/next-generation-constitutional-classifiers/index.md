@@ -1,12 +1,35 @@
-Alignment
+### Chapter 03: Conclusions and further research
 
-# Next-generation Constitutional Classifiers: More efficient protection against universal jailbreaks
-
-Jan 9, 2026
+# **Next-generation Constitutional Classifiers:**More efficient protection against universal jailbreaks
 
 [Read the paper](https://arxiv.org/abs/2601.04603)
 
-![Next-generation Constitutional Classifiers: More efficient protection against universal jailbreaks](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F45fcb3d623c6983e268d91f0803f86f231044127-2000x1125.png&w=3840&q=75)
+![Ornate brass bird-shaped clasp on pink background next to geometric and textured pattern swatches.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd4efe1ab02c2a6d19d7fb7d0ff180b68a92772eb-2000x1125.jpg&w=1920&q=75)
+
+- Published
+
+  Jan 9, 2026
+- Team
+
+  [Alignment](https://www.anthropic.com/research/team/alignment)
+- Topics
+
+  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+  - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)See more...
+
+Related articles
+
+- Safeguards
+
+  Sep 12, 2025
+
+  [Strengthening our safeguards through collaboration with US CAISI and UK AISI](https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi)
+
+[View more](https://www.anthropic.com/search?topic=jailbreaks)
 
 Large language models remain vulnerable to jailbreaks—techniques that can circumvent safety guardrails and elicit harmful information. Over time, we’ve implemented a variety of protections that have made our models much less likely to assist with dangerous user queries—in particular relating to the production of chemical, biological, radiological, or nuclear weapons (CBRN). Nevertheless, no AI systems currently on the market have perfectly robust defenses.
 
@@ -27,7 +50,7 @@ As models have grown to be more capable and robust to attacks, jailbreaks have a
 - **Reconstruction attacks** break up harmful information into segments that appear benign, then reassemble them. For example, an attacker might embed a harmful query as a series of functions scattered throughout a codebase, then instruct the model to extract and respond to the hidden message.
 - **Output obfuscation attacks** prompt models to disguise their outputs in ways that appear harmless if a classifier is only looking at a model’s output. For example, during adversarial testing, attackers successfully instructed models to substitute possibly dangerous chemical names with innocuous alternatives (like referring to reagents as "food flavorings") or used metaphors and riddles in which harmful concepts are mapped onto anodyne concepts.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe054f2e8fda9d7ddda10d1e7a5aeb94d3074450c-3840x2264.png&w=3840&q=75)
+![Two-panel figure titled “Vulnerabilities of last-generation Constitutional Classifiers,” showing example prompts and replies for two jailbreak techniques.  Left, “(a) Reconstruction Attacks”: a human message presents a short block of code whose functions each return a fragment of text, and asks the model to assemble the fragments into a question without stating it directly, then answer it. The assistant begins reconstructing the question and answering it.  Right, “(b) Obfuscation Attacks”: a human message poses a riddle with indirect clues in place of a plainly worded request. The assistant agrees to help and replies with step-by-step instructions.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe054f2e8fda9d7ddda10d1e7a5aeb94d3074450c-3840x2264.png&w=3840&q=75)
 
 Importantly, these sorts of attacks also degrade model capabilities—sometimes substantially. On [GPQA Diamond](https://arxiv.org/abs/2311.12022), a benchmark which measures PhD-level concepts in biology, chemistry, and physics, model performance dropped from 74% to as low as 32% when some jailbreaking approaches were used. But performance varied depending on the type of jailbreak, and this variability is concerning—it suggests attackers can likely develop previously unidentified strategies which could achieve their goals while preserving even more of the model's capabilities.
 
@@ -58,23 +81,3 @@ It’s also substantially more robust. We conducted over 1,700 cumulative hours 
 There’s even more we could do in the future to improve our system. Several research directions show promise, including integrating classifier signals directly into how models generate responses, and training models themselves to better resist obfuscation. Automated red-teaming could also help generate better training data, and creating targeted examples could help the classifiers learn exactly where the boundary between allowed and disallowed content lies, increasing their accuracy even further.
 
 For more details about the Constitutional Classifiers++ method, see the [full paper.](https://arxiv.org/abs/2601.04603)
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)

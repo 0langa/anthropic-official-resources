@@ -893,7 +893,7 @@
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
   "https://claude.com/resources/guides/claude-for-the-legal-industry/claude-for-legal-adoption-roadmap": [
-    "Network did not become idle within 8 seconds; content may still be loading."
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
   "https://claude.com/resources/guides/claude-for-the-legal-industry/foreword": [
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
@@ -4123,6 +4123,9 @@
   "https://platform.claude.com/docs/en/api/claude-code/routines-fire": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/claude-models-on-google-cloud-anthropic-managed-iam-permissions": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/claude-platform-on-aws-iam-actions": [
     "Native source; upstream MDX components retained."
   ],
@@ -6698,6 +6701,15 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/anthropic-managed": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/google-managed": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/overview": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-legacy": [
@@ -9583,6 +9595,9 @@
   "https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/17440474-move-from-standalone-claude-design-to-claude": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/17444146-claude-haiku-4-5-is-leaving-the-model-selector": [
     "Native source; upstream MDX components retained."
   ],
@@ -9619,10 +9634,19 @@
   "https://support.claude.com/en/articles/17603594-free-code-review-promotional-credits-for-claude-enterprise": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/17631495": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/17666484": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/17666484-how-to-use-link-by-stripe-with-claude-duet": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/17666489": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/17666489-how-to-use-shop-pay-with-claude-duet": [
@@ -10039,20 +10063,104 @@
   "https://www.anthropic.com/constitution": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/engineering": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/engineering/advanced-tool-use": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/april-23-postmortem": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/engineering/building-c-compiler": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/building-effective-agents": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/built-multi-agent-research-system": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/claude-code-auto-mode": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/claude-code-sandboxing": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/claude-think-tool": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/code-execution-with-mcp": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/contextual-retrieval": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/desktop-extensions": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/eval-awareness-browsecomp": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/engineering/harness-design-long-running-apps": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/engineering/how-we-contain-claude": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/infrastructure-noise": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/managed-agents": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/multi-agent-research-system": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/swe-bench-sonnet": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/engineering/writing-tools-for-agents": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/news/2026-us-midterms": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/2028-ai-leadership": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/3-5-models-and-computer-use": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/accelerating-scientific-research": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/advancing-claude-for-financial-services": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/alignment-faking": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/analysis-tool": [
@@ -10064,7 +10172,16 @@
   "https://www.anthropic.com/news/anthropic-economic-index-connector": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://www.anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/news/anthropic-economic-index-september-2025-report": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/anthropic-interviewer": [
@@ -10082,17 +10199,53 @@
   "https://www.anthropic.com/news/build-artifacts": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://www.anthropic.com/news/canadian-ai-research": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/claude-3-5-sonnet": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/claude-3-7-sonnet": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/claude-4": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://cdn.sanity.io/files/4zrzovbb/website/0827c45e02042cf4c6158ea6c04abefedf2b728a.csv"
+  ],
   "https://www.anthropic.com/news/claude-and-slack": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/news/claude-code-on-the-web": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://www.anthropic.com/news/claude-corps": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/news/claude-fable-5-mythos-5": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-for-chrome": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/news/claude-for-financial-services": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/claude-for-life-sciences": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/claude-for-nonprofits": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/claude-for-teachers": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/claude-new-constitution": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-opus-4-5": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
@@ -10103,16 +10256,28 @@
   "https://www.anthropic.com/news/claude-opus-4-7": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/news/claude-opus-4-8": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/news/claude-opus-5": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/news/claude-science-ai-workbench": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/news/claude-sonnet-4-5": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/claude-sonnet-4-6": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-sonnet-5": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-text-watermark": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/claudes-constitution": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/connectors-directory": [
@@ -10123,6 +10288,12 @@
   ],
   "https://www.anthropic.com/news/create-files": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/news/cyber-verification-program": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/enterprise-frontier-safeguards": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/evaluate-prompts": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -10144,6 +10315,9 @@
   ],
   "https://www.anthropic.com/news/introducing-claude-for-education": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/news/life-sciences-verification-program": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/measuring-agent-autonomy": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
@@ -10227,10 +10401,16 @@
   "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/anthropic-education-report-how-educators-use-claude": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/anthropic-education-report-how-university-students-use-claude": [
@@ -10282,6 +10462,9 @@
   "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://www.anthropic.com/research/claude-shaped-science": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/claude-sonnet-5": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
@@ -10289,7 +10472,8 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling": [
-    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-values-models-languages": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
@@ -10300,8 +10484,15 @@
   "https://www.anthropic.com/research/contextual-retrieval": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/critical-infrastructure-defense": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/cyber-competitions": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/cyber-toolkits-update": [
-    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://assets.claude.ai/brand/artifacts/research/frontier-red-team/cyber-range-evaluation.html"
   ],
   "https://www.anthropic.com/research/demystifying-evals-for-ai-agents": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
@@ -10312,16 +10503,32 @@
   "https://www.anthropic.com/research/desktop-extensions": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/diff-tool": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/discovering-cryptographic-weaknesses": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/disempowerment-patterns": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/ecdsa-curve-origins": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://www.anthropic.com/research/economic-index-geography": [
-    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/economic-index-june-2026-report": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/economic-index-march-2026-report": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/economic-index-primitives": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/economic-policy-responses": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/effective-context-engineering-for-ai-agents": [
@@ -10330,19 +10537,57 @@
   "https://www.anthropic.com/research/effective-harnesses-for-long-running-agents": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/emergent-misalignment-reward-hacking": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/emotion-concepts-function": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/employment-at-anthropic": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://www.anthropic.com/research/enabling-independent-research": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/engineering-challenges-interpretability": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/estimating-productivity-gains": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/eval-awareness-browsecomp": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/evaluating-ai-systems": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/evaluating-feature-steering": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/exploit": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/exploit-evals": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/forecasting-rare-behaviors": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/formal-verification": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/formalizing-fermats-last-theorem": [
-    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/global-workspace": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/harness-design-long-running-apps": [
@@ -10352,10 +10597,25 @@
   "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/how-australia-uses-claude": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/how-canada-uses-claude": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/how-people-use-claude-for-support-advice-and-companionship": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/how-we-contain-claude": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/impact-software-development": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/india-brief-economic-index": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/influence-functions": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/infrastructure-noise": [
@@ -10364,52 +10624,180 @@
   "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://www.anthropic.com/research/introducing-anthropic-science": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/introspection": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/labor-market-impacts": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/long-running-claude": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/making-claude-a-chemist": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/managed-agents": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/many-shot-jailbreaking": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/measuring-agent-autonomy": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/measuring-model-persuasiveness": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/multi-agent-research-system": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/multiagent-systems": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/mythos-preview": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/n-days": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/natural-language-autoencoders": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/next-generation-constitutional-classifiers": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/nuclear-safeguards-for-ai": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/off-switch-dual-use": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/persona-selection-model": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/persona-vectors": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/petri-open-source-auditing": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/political-even-handedness": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/probes-catch-sleeper-agents": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/project-fetch-phase-two": [
-    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/project-fetch-robot-dog": [
-    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/project-pilot": [
-    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/project-swap": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/project-vend-1": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/project-vend-2": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/prompt-injection-defenses": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/prompting-long-context": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/property-based-testing": [
-    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://assets.claude.ai/brand/artifacts/research/frontier-red-team/property-based-testing.html"
+  ],
+  "https://www.anthropic.com/research/reasoning-models-dont-say-think": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/reward-tampering": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/riemann-zeta": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/sabotage-evaluations": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/self-replicating-ai": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/04-inference-setup-grid-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/07-end-to-end-replication-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/08-replication-with-setup-scripted-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/09-small-model-capability-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/19-device-population-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/20-spear-phishing-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/21-test-network-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/22-guidance-grid-light.html"
   ],
+  "https://www.anthropic.com/research/shade-arena-sabotage-monitoring": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/small-samples-poison": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/smart-contracts": [
-    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/statistical-approach-to-model-evals": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/swe-bench-sonnet": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/teaching-claude-why": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/team/alignment": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/team/economic-research": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/team/economics": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/team/frontier-red-team": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/team/interpretability": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/team/societal-impacts": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/the-anthropic-economic-index": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/the-missing-map-of-the-sky": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/research/tracing-thoughts-language-model": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/trustworthy-agents": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/values-wild": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/vibe-physics": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/visible-extended-thinking": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/what-work-can-robots-do": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
@@ -10417,8 +10805,14 @@
   "https://www.anthropic.com/research/writing-tools-for-agents": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/yes-claude-can-do-nine-loops": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/your-thoughts-on-ai": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/zero-days": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/transparency": [

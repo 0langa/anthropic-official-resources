@@ -1,10 +1,32 @@
-Interpretability
+### Chapter 04: FAQ
 
 # The engineering challenges of scaling interpretability
 
-Jun 13, 2024
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQar5NNGbw4%2Fsddefault.jpg&w=3840&q=75)
+
+- Published
+
+  Jun 13, 2024
+- Team
+
+  [Interpretability](https://www.anthropic.com/research/team/interpretability)
+- Topics
+
+  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)See more...
 
 *In this post, and in the above roundtable video, our researchers reflect on the close relationship between scientific and engineering progress, and discuss the technical challenges they encountered in scaling our interpretability research to much larger AI models.*
+
+Related articles
+
+- Interpretability
+
+  Feb 20, 2025
+
+  [Insights on crosscoder model diffing](https://www.anthropic.com/research/crosscoder-model-diffing)
+
+[View more](https://www.anthropic.com/search?topic=interpretability)
 
 Last October, the Anthropic Interpretability team published [Towards Monosemanticity](https://transformer-circuits.pub/2023/monosemantic-features), a paper applying the technique of dictionary learning to a small transformer model. In May this year, we published [Scaling Monosemanticity](https://transformer-circuits.pub/2024/scaling-monosemanticity/), where we applied the same technique to a model several orders of magnitude larger. We found tens of millions of “features”—combinations of neurons that relate to semantic concepts—in Claude 3 Sonnet, representing an important step forward in understanding the inner workings of AI models.
 
@@ -63,23 +85,3 @@ If you’re an engineer who fits this bill, and who is passionate about AI safet
 3. **How do you choose projects to work on?** We think about our research roadmap in terms of Anthropic’s [Responsible Scaling Policy](https://www.anthropic.com/news/anthropics-responsible-scaling-policy), which commits the company to hitting various safety milestones before developing or deploying models above corresponding capability levels. In thinking about research directions, we consider what the research landscape of interpretability looks like, what problems we’re in a position to address, and how the Interpretability team’s work could impact those safety milestones. On a day-to-day level, our research tends to be very exploratory, but it’s an exploration that’s guided by the above considerations.
 4. **What kinds of backgrounds do people on the Interpretability team have?** People have come to the Interpretability team from a wide range of professional backgrounds, including neuroscience, mathematics, biology, physics, data visualization, and software engineering.
 5. **Are you open to candidates outside of the Bay Area?** The team currently has members in San Francisco, Boston, New York, Seattle, and London. The largest concentration is in San Francisco, and those members come into the office several days a week. We are open to remote working, with a requirement to visit an Anthropic office about 25% of the year. See our [Careers page](https://www.anthropic.com/careers) for more information about all our open positions.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)

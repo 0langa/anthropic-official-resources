@@ -1,8 +1,32 @@
-Frontier Red Team
+### Chapter 02: Expanding public-private partnerships for AI and security
 
 # Experimenting with AI to defend critical infrastructure
 
-Jan 8, 2026
+![Experimenting with AI to defend critical infrastructure](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3611382c3eaaa77aa174b72f13e1a4061ea21903-2000x1125.jpg&w=1920&q=75)
+
+- Published
+
+  Jan 8, 2026
+- Team
+
+  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+- Topics
+
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [National security](https://www.anthropic.com/search?topic=national-security)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+
+Related articles
+
+- Security
+
+  Oct 8, 2026
+
+  [Introducing the Anthropic Cyber Mission](https://www.anthropic.com/news/anthropic-cyber-mission)
+
+[View more](https://www.anthropic.com/search?topic=cybersecurity)
 
 Cyber attacks have had severe real-world effects on critical infrastructure like power grids and fuel pipelines, and have breached water systems—creating the potential for serious harm. As capabilities advance, AI models could increase the number of attackers capable of pursuing these targets. But AI could also help defenders of critical infrastructure identify the vulnerabilities that attackers might exploit—and close them before they are exploited. Anthropic has [partnered](https://www.pnnl.gov/news-media/generative-ai-speeds-cybersecurity-defenses) with Pacific Northwest National Laboratory (PNNL) to explore this defensive application of AI. Using Claude, PNNL researchers emulated cyber attacks on a high-fidelity simulation of a water treatment plant in far less time than it would have taken a human expert, serving as a proof of concept for how AI can help cyber defenders iterate faster on red teaming exercises. This work demonstrates both the potential of AI-accelerated defense and the value of public-private partnerships in harnessing AI for national security.
 
@@ -24,32 +48,8 @@ It is also among a growing number of partnerships between frontier AI labs like 
 
 In this research effort, Anthropic provided access to the cutting edge of model intelligence through Claude, and PNNL had the expertise and the cyber-physical assets to provide more realistic testing environments than would have been available to an AI company. Put differently, neither party could have done this kind of experimentation without the other. This is the central logic of the public-private partnerships that we undertake. We will continue to look for these complementarities, and welcome the chance to continue working with exceptional institutions like the national labs on our shared mission of ensuring that AI is used to protect critical infrastructure and other pillars of security and stability.
 
-## Acknowledgments
+## Authors & Acknowledgments
+
+### Acknowledgements
 
 We are grateful to Loc Truong and Kristopher Willis at PNNL for leading this project and sharing data with us for this post. You can read more about the project on PNNL’s [website](https://www.pnnl.gov/news-media/generative-ai-speeds-cybersecurity-defenses).
-
-####
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
-
-## Subscribe to the Frontier Red Team newsletter
-
-Get updates on our latest red-teaming research and findings.

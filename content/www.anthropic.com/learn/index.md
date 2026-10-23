@@ -14,7 +14,7 @@ Your thinking partner for big ambitions: work through a problem, pressure-test a
 
 ### Claude Cowork
 
-Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.](https://academy.claude.com/products/cowork)[![](https://academy.claude.com/assets/v1/thumbnail.dark-oiww3nbb.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-oiww3nbb.png)
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results ready for your review.](https://academy.claude.com/products/cowork)[![](https://academy.claude.com/assets/v1/thumbnail.dark-oiww3nbb.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-oiww3nbb.png)
 
 ### Claude Code
 

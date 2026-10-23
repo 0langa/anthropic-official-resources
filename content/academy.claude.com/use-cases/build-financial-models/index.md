@@ -147,7 +147,7 @@ Once you connect S&P Capital IQ or Daloopa, refresh comparable company multiples
 
 ### Work directly in your spreadsheet with Claude[](https://academy.claude.com/use-cases/build-financial-models)
 
-Once Claude creates your financial model, download and open the file in Excel. With [Claude for Excel(opens in new tab)](http://claude.com/claude-for-excel), you can get instant explanations of any formula, test scenarios without breaking dependencies, or trace errors to their source. Claude provides cell-level citations for every calculation. Claude for Excel is currently in beta as a research preview. [Join the waitlist(opens in new tab)](https://www.claude.com/claude-for-excel) to get access.
+Once Claude creates your financial model, download and open the file in Excel. With [Claude for Excel(opens in new tab)](http://claude.com/claude-for-excel), you can get instant explanations of any formula, test scenarios without breaking dependencies, or trace errors to their source. Claude provides cell-level citations for every calculation. Claude for Excel is available on all paid plans.
 
 ### Unlock further capabilities[](https://academy.claude.com/use-cases/build-financial-models)
 

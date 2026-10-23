@@ -1,86 +1,238 @@
-[Back to Overview](https://www.anthropic.com/research)
+# The Alignment team works to understand the risks of AI models and develop ways to ensure that future ones remain helpful, honest, and harmless. We also work to develop and implement the ideal persona for our AI assistant, Claude.
 
-# Alignment
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FI9aGC6Ui3eE%2Fsddefault.jpg&w=3840&q=75)
 
-Future AI systems will be even more powerful than today’s, likely in ways that break key assumptions behind current safety techniques. That’s why it’s important to develop sophisticated safeguards to ensure models remain helpful, honest, and harmless. The Alignment team works to understand the challenges ahead and create protocols to train, evaluate, and monitor highly-capable models safely.
+Team blog
+:   [Visit](https://alignment.anthropic.com/)
 
-Research teams:[Alignment](https://www.anthropic.com/research/team/alignment)[Economics](https://www.anthropic.com/research/team/economics)[Interpretability](https://www.anthropic.com/research/team/interpretability)[Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)[Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+### Alignment training
 
-![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F4zrzovbb%2Fwebsite%2Fc351e05137a3da7d475af1c36f705cb4ff4b2179-1440x810.png&w=3840&q=75)
+Our researchers develop methods, environments, and datasets for training Claude to be helpful, harmless, and honest. We also research and attempt to implement the ideal “assistant” persona for our models.
 
 ### Evaluation and oversight
 
-Alignment researchers validate that models are harmless and honest even under very different circumstances than those under which they were trained. They also develop methods to allow humans to collaborate with language models to verify claims that humans might not be able to on their own.
+We test to ensure our models remain honest and harmless under a broad range of circumstances, and work to understand and manage the risks of unexpected model behavior, through work on the models themselves and the safety structures we build around them.
 
-### Stress-testing safeguards
+- [![Investigating unintended model actions in our evaluations and internal use](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff11d2325e688229de8a887ef7ece34f520ab7134-2000x1125.jpg&w=3840&q=75)](https://www.anthropic.com/research/investigating-unintended-model-actions)
+- [![An alignment assessment of recent cybersecurity incidents](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5683350e8c3e43c24541b0da195bca9d0d03491e-2000x1125.jpg&w=3840&q=75)](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents)
+- [![The persona selection model](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc527a0cf4cccc234cc7623fe5e1da6e9d82e10ac-2000x1125.jpg&w=3840&q=75)](https://www.anthropic.com/research/persona-selection-model)
 
-Alignment researchers also systematically look for situations in which models might behave badly, and check whether our existing safeguards are sufficient to deal with risks that human-level capabilities may bring.
+[Alignment](https://www.anthropic.com/research/team/alignment)
 
-![Investigating unintended model actions in our evaluations and internal use](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa94af48d8258c0b7a4959d18e9c9ad44f9dc4ab3-1280x1280.jpg&w=3840&q=75)
+Oct 9, 2026[## Investigating unintended model actions in our evaluations and internal use](https://www.anthropic.com/research/investigating-unintended-model-actions)
 
-[## Investigating unintended model actions in our evaluations and internal use
+This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude.
 
-AlignmentOct 9, 2026
+[Read more](https://www.anthropic.com/research/investigating-unintended-model-actions)
 
-This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude.](https://www.anthropic.com/research/investigating-unintended-model-actions)
+[Alignment](https://www.anthropic.com/research/team/alignment)
 
-[AlignmentSep 9, 2026
+Sep 9, 2026[## An alignment assessment of recent cybersecurity incidents](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents)
 
-#### An alignment assessment of recent cybersecurity incidents
+We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.
 
-We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents)[AlignmentMay 8, 2026
+[Read more](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents)
 
-#### Teaching Claude why
+[Alignment](https://www.anthropic.com/research/team/alignment)
 
-New research on how we've reduced agentic misalignment.](https://www.anthropic.com/research/teaching-claude-why)[AlignmentApr 14, 2026
+Feb 23, 2026[## The persona selection model](https://www.anthropic.com/research/persona-selection-model)
 
-#### Automated Alignment Researchers: Using large language models to scale scalable oversight
+Why would AI assistants behave like they’re human? We articulate a theory—drawing on ideas discussed by many others—that might help explain why modern AI training tends to create human-like AIs.
 
-Can Claude develop, test, and analyze alignment ideas of its own? We ran an experiment to find out.](https://www.anthropic.com/research/automated-alignment-researchers)[AlignmentFeb 23, 2026
+[Read more](https://www.anthropic.com/research/persona-selection-model)
 
-#### The persona selection model
+01
 
-Why do AI assistants like Claude sometimes seem surprisingly human. We advance a theory.](https://www.anthropic.com/research/persona-selection-model)
+/
 
-## Publications
+03
 
-Search
+47
 
-DateCategoryTitle
+ARTICLES
 
-- [Oct 9, 2026Alignment
+Most recentGrid view
 
-  Investigating unintended model actions in our evaluations and internal use](https://www.anthropic.com/research/investigating-unintended-model-actions)
-- [Sep 9, 2026Alignment
+Oct 9, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa94af48d8258c0b7a4959d18e9c9ad44f9dc4ab3-1280x1280.jpg&w=1080&q=75)
 
-  An alignment assessment of recent cybersecurity incidents](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents)
-- [Aug 28, 2026Alignment
+### [Investigating unintended model actions in our evaluations and internal use](https://www.anthropic.com/research/investigating-unintended-model-actions)
 
-  Automated researchers can reliably mitigate alignment failures](https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures)
-- [Jul 8, 2026Alignment
+Sep 17, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F949253a4fe1d64bb09bac48fd94a5110c2132916-1280x1280.jpg&w=1080&q=75)
 
-  An off switch for dual-use knowledge in AI models](https://www.anthropic.com/research/off-switch-dual-use)
-- [May 8, 2026Alignment
+### [Illuminating the frontier](https://www.anthropic.com/institute/measuring-pace-of-ai-development)
 
-  Teaching Claude why](https://www.anthropic.com/research/teaching-claude-why)
-- [May 7, 2026Alignment
+Sep 9, 2026![Lighthouse on textured gray background next to abstract red and dark curved lines with dotted dashes on right side.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F17793833909723858ffb056dd9f4a9071537ff2f-1280x1280.jpg&w=1080&q=75)
 
-  Donating our open-source alignment tool](https://www.anthropic.com/research/donating-open-source-petri)
-- [Apr 14, 2026Alignment
+### [An alignment assessment of recent cybersecurity incidents](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents)
 
-  Automated Alignment Researchers: Using large language models to scale scalable oversight](https://www.anthropic.com/research/automated-alignment-researchers)
-- [Feb 25, 2026Alignment
+Aug 28, 2026![Orderly five-by-five grid on blue grid paper at right.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb60cdf4c2dad438f6e862c7f6bb6fdb802b9e4a0-1280x1280.jpg&w=1080&q=75)
 
-  An update on our model deprecation commitments for Claude Opus 3](https://www.anthropic.com/research/deprecation-updates-opus-3)
-- [Feb 23, 2026Alignment
+### [Automated researchers can reliably mitigate alignment failures](https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures)
 
-  The persona selection model](https://www.anthropic.com/research/persona-selection-model)
-- [Jan 29, 2026Alignment
+Jul 8, 2026![Halftone-textured grid with gaps and a single red dot.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc182c5021565a3bf6260b31bc8361feb3a2a0558-1280x1280.jpg&w=1080&q=75)
 
-  How AI assistance impacts the formation of coding skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
+### [An off switch for dual-use knowledge in AI models](https://www.anthropic.com/research/off-switch-dual-use)
 
-[See more](https://www.anthropic.com/research/team/alignment)
+May 8, 2026![Green drafting stencil of cut-out shapes on a coral background.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffa414311c5db09487d3fa37f42c2a347e4b31f3b-1280x1280.jpg&w=1080&q=75)
 
-Join the Research team
+### [Teaching Claude why](https://www.anthropic.com/research/teaching-claude-why)
 
-[See open roles](https://www.anthropic.com/jobs)
+May 7, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb5347fea4e661cb601fc59fb1730557030b48e16-1280x1280.jpg&w=1080&q=75)
+
+### [Donating our open-source alignment tool](https://www.anthropic.com/research/donating-open-source-petri)
+
+Apr 14, 2026![Two sketches of geometric solids: a faceted polyhedron on pink paper beside a dense cluster of spiked forms in charcoal on orange.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa17db9d0ea50a08d440573e3da2c11ae4a422f24-1280x1280.jpg&w=1080&q=75)
+
+### [Automated Alignment Researchers: Using large language models to scale scalable oversight](https://www.anthropic.com/research/automated-alignment-researchers)
+
+Feb 23, 2026![A ginkgo leaf and architectural floor plans.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fbed5c44f64661de0cfa7ef5bea5536e0bc759002-1280x1280.jpg&w=1080&q=75)
+
+### [The persona selection model](https://www.anthropic.com/research/persona-selection-model)
+
+Jan 29, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F490e450f7bce5308f8270dd8a4d525f8f24d352f-1280x1280.jpg&w=1080&q=75)
+
+### [How AI assistance impacts the formation of coding skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
+
+Jan 28, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Feb91bd6fc9550d39bb244e37b6567bbdfbc5ef80-1280x1280.jpg&w=1080&q=75)
+
+### [Disempowerment patterns in real-world AI usage](https://www.anthropic.com/research/disempowerment-patterns)
+
+Jan 22, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F25b65ce247419a0be9331b3d7c6193b838ea93fa-1280x1280.jpg&w=1080&q=75)
+
+### [Claude's Constitution](https://www.anthropic.com/constitution)
+
+Jan 9, 2026![Ornate brass bird-shaped clasp on pink background next to geometric and textured pattern swatches.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa9ded83eaed05d4105799b71939f2a2d84275b1f-1280x1280.jpg&w=1080&q=75)
+
+### [Next-generation Constitutional Classifiers: More efficient protection against universal jailbreaks](https://www.anthropic.com/research/next-generation-constitutional-classifiers)
+
+Dec 19, 2025![Left: botanical illustration of a bare tree with branching root system labeled A, B, C, D. Right: cyanotype of delicate flowering plant with white and blue blossoms on dark blue background](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd91ee58344e2f9dd73eb9d42fa1b5d7e61da71fe-2000x2000.jpg&w=1080&q=75)
+
+### [Introducing Bloom: an open source tool for automated behavioral evaluations](https://www.anthropic.com/research/bloom)
+
+Nov 24, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F29944b6446e32c7ca68d21f0ece9e2878c0764b7-2000x2000.jpg&w=1080&q=75)
+
+### [Mitigating the risk of prompt injections in browser use](https://www.anthropic.com/research/prompt-injection-defenses)
+
+Nov 21, 2025![White abstract face profile with cracked lines on the right side against a green background.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F71a35dd254da9bf86dcced57632c94e63695b575-1280x1280.jpg&w=1080&q=75)
+
+### [From shortcuts to sabotage: Natural emergent misalignment from reward hacking](https://www.anthropic.com/research/emergent-misalignment-reward-hacking)
+
+Oct 9, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fab6e65d255469abf1426a46661c357488aa50c59-1280x1280.jpg&w=1080&q=75)
+
+### [A small number of samples can poison LLMs of any size](https://www.anthropic.com/research/small-samples-poison)
+
+Oct 6, 2025![Two circular petri dishes filled with black oval bacteria on yellow background.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7ea4d77cccb9e2c2c2571cecb4579e315e962513-1280x1280.jpg&w=1080&q=75)
+
+### [Petri: An open-source auditing tool to accelerate AI safety research](https://www.anthropic.com/research/petri-open-source-auditing)
+
+Aug 15, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8d23d7e8ee8e1d3af397c640c9da3f4d0a824f31-1280x1280.jpg&w=1080&q=75)
+
+### [Claude Opus 4 and 4.1 can now end a rare subset of conversations](https://www.anthropic.com/research/end-subset-conversations)
+
+Jun 27, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F811a53c72dc4b0acacbbef5ff2600fa288e4cd65-1280x1280.jpg&w=1080&q=75)
+
+### [How people use Claude for support, advice, and companionship](https://www.anthropic.com/research/how-people-use-claude-for-support-advice-and-companionship)
+
+Jun 20, 2025![A bright green grid with one small dark square embedded in the green grid.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F540b5e50cf0b167741cf9aca14766b75985f186e-1280x1280.jpg&w=1080&q=75)
+
+### [Agentic misalignment: How LLMs could be insider threats](https://www.anthropic.com/research/agentic-misalignment)
+
+Jun 16, 2025![Four colored panels containing geometric line drawings and abstract shapes including a polyhedra and curved lines with dots.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffe33bb4e9220712a330f7c656da7bed8a069fbd6-1280x1280.jpg&w=1080&q=75)
+
+### [SHADE-Arena: Evaluating sabotage and monitoring in LLM agents](https://www.anthropic.com/research/shade-arena-sabotage-monitoring)
+
+Apr 24, 2025![Collage featuring a white flower with green leaves, textured backgrounds in beige and blue, and marbled patterns in cream and navy](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1bf5fde31fe0e717d0a022b6b5b068c5d22e6c44-1280x1280.jpg&w=1080&q=75)
+
+### [Exploring model welfare](https://www.anthropic.com/research/exploring-model-welfare)
+
+Apr 3, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fda8fe89fe30757f2074b5cc7773c48d6cfc60e45-2000x2000.jpg&w=1080&q=75)
+
+### [Reasoning models don't always say what they think](https://www.anthropic.com/research/reasoning-models-dont-say-think)
+
+See more
+
+## Explore work from other teams
+
+[### Economics](https://www.anthropic.com/research/team/economics)
+
+25 posts
+
+Studies and monitors the impact of AI systems on individuals, firms, and economies.
+
+[### Engineering](https://www.anthropic.com/engineering)
+
+27 posts
+
+Builds the infrastructure and systems that make Claude reliable and trustworthy.
+
+[### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+
+34 posts
+
+Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
+
+[### Interpretability](https://www.anthropic.com/research/team/interpretability)
+
+35 posts
+
+Studies how large language models work internally as a foundation for AI safety.
+
+[### Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
+
+24 posts
+
+Studies how AI affects people, both individually and collectively.
+
+[### Science](https://www.anthropic.com/science)
+
+18 posts
+
+Explores how AI can increase the pace of scientific progress through both research and collaborations.
+
+[### Alignment](https://www.anthropic.com/research/team/alignment)
+
+47 posts
+
+Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
+
+[### Economics](https://www.anthropic.com/research/team/economics)
+
+25 posts
+
+Studies and monitors the impact of AI systems on individuals, firms, and economies.
+
+[### Engineering](https://www.anthropic.com/engineering)
+
+27 posts
+
+Builds the infrastructure and systems that make Claude reliable and trustworthy.
+
+[### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+
+34 posts
+
+Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
+
+[### Interpretability](https://www.anthropic.com/research/team/interpretability)
+
+35 posts
+
+Studies how large language models work internally as a foundation for AI safety.
+
+[### Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
+
+24 posts
+
+Studies how AI affects people, both individually and collectively.
+
+[### Science](https://www.anthropic.com/science)
+
+18 posts
+
+Explores how AI can increase the pace of scientific progress through both research and collaborations.
+
+[### Alignment](https://www.anthropic.com/research/team/alignment)
+
+47 posts
+
+Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.

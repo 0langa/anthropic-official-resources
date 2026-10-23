@@ -338,7 +338,13 @@ These insights come from your peers building at the frontier and we hope you fou
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 19, 2026
+[ArticleOct 22, 2026
+
+### Building agents: When to fold subagents into your main agent loop
+
+When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 19, 2026
 
 ### Redesigning source control at Anthropic
 
@@ -360,11 +366,7 @@ How do you review code at the volume agents produce it? The Claude Code team sha
 
 Claude Code
 
-(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)[ArticleOct 13, 2026
-
-### Uber's CISO on building an insider threat program for AI
-
-Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)
+(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)
 
 ## Transform how your organization operates with Claude
 

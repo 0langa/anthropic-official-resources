@@ -29,6 +29,7 @@ https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/fina
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/marketing
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/product
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/reference/sales
+https://platform.claude.com/docs/en/api/http/beta/user_profiles/delete
 https://platform.claude.com/docs/en/api/sessions-retrieve
 https://platform.claude.com/docs/en/build-with-claude/err
 https://platform.claude.com/docs/en/build-with-claude/watermark-detection
@@ -67,9 +68,6 @@ https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents
 https://support.claude.com/en/articles/14855664-use-claude-for-outlook
 https://support.claude.com/en/articles/15330089
 https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion
-https://support.claude.com/en/articles/17631495
-https://support.claude.com/en/articles/17666484
-https://support.claude.com/en/articles/17666489
 https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data
 https://support.claude.com/en/articles/9945670-using-the-github-integration
 https://support.claude.com/en/articles/9945689-claude-for-engineering

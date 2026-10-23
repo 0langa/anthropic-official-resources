@@ -1,10 +1,30 @@
-Announcements
+### Chapter 05: Getting started
 
 # Claude for Nonprofits
 
-Dec 2, 2025
+- Published
 
-![Nonprofit hero image](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0559e278df922571fb100197611b186a79aba8d1-1200x680.png&w=3840&q=75)
+  Dec 2, 2025
+- Category
+
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Nonprofits](https://www.anthropic.com/search?topic=nonprofits)
+  - [Access](https://www.anthropic.com/search?topic=access)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+  - [Education](https://www.anthropic.com/search?topic=education)See more...
+
+Related articles
+
+- Partnerships
+
+  Jun 3, 2026
+
+  [Introducing the Services Track and Partner Hub of the Claude Partner Network](https://www.anthropic.com/news/services-track-partner-hub)
+
+[View more](https://www.anthropic.com/search?topic=nonprofits)
 
 Nonprofits tackle some of society’s most difficult problems, often with limited resources. In partnership with the global generosity movement [GivingTuesday](https://www.givingtuesday.org/), we’re launching Claude for Nonprofits to help organizations across the world maximize their impact.
 
@@ -14,7 +34,7 @@ These organizations have taught us what works—and what doesn't. From our partn
 
 Claude for Nonprofits includes three things: discounted access of up to 75% to Claude, connectors to new nonprofit tools—Blackbaud, Candid, and Benevity—and a free course, [AI Fluency for Nonprofits](https://anthropic.skilljar.com/ai-fluency-for-nonprofits), designed to help teams use AI more effectively.
 
-## **Discounted access to Team and Enterprise plans**
+## Discounted access to Team and Enterprise plans
 
 Nonprofits are now eligible for a discount of up to 75% on Team and Enterprise plans.
 
@@ -22,7 +42,7 @@ Our Team plan is designed for smaller organizations looking to collaborate throu
 
 At the discounted price, Claude for Nonprofits includes access to Claude Opus 4.6, Claude Sonnet 4.5, and Claude Haiku 4.5. Opus 4.6 delivers the highest intelligence for the most complex tasks. Sonnet 4.5 is best suited to sophisticated tasks like grant writing and program analysis, while Haiku 4.5 offers near-frontier performance at much faster speed.
 
-## **Connecting new services to Claude**
+## Connecting new services to Claude
 
 Claude supports a number of connectors that link AI to the platforms that teams already use, including Microsoft 365, Google Workspace, Asana, Slack, and Box.
 
@@ -32,11 +52,13 @@ We’re now adding three open-source connectors to nonprofit tools, and we expec
 - **[Blackbaud](https://www.blackbaud.com/),** which provides CRM and fundraising tools for donor management, campaign tracking, and giving optimization; and
 - **[Candid](https://candid.org/),** which provides data on nonprofits and funders for the discovery of organizations, grants, and philanthropic opportunities.
 
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FptDCEHol0bA%2Fsddefault.jpg&w=3840&q=75)
+
 This video shows how Claude uses the Benevity Connector to discover key information and search for specific nonprofits.
 
 We’re also collaborating with [The Bridgespan Group](https://www.bridgespan.org/), [Idealist Consulting](https://idealistconsulting.com/), [Vera Solutions](https://verasolutions.org/), and [Slalom](https://www.slalom.com/us/en), who provide tailored expertise to nonprofits adopting new technologies. We’ll work together to support nonprofits with their overall strategy, impact measurement, and organization-wide implementation of AI.
 
-## **AI Fluency for Nonprofits**
+## AI Fluency for Nonprofits
 
 In partnership with [GivingTuesday](https://www.givingtuesday.org/), we’ve developed a free course, [AI Fluency for Nonprofits](https://anthropic.skilljar.com/ai-fluency-for-nonprofits). The curriculum focuses on how staff can use AI more effectively for grant writing, program evaluation, donor engagement, organizational efficiency, and more. It’s designed for those who are new to AI, and requires no technical background.
 
@@ -44,98 +66,146 @@ AI Fluency for Nonprofits is now available via our [Anthropic Academy](https://w
 
 ![Use case impact report](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9c7c7aa7021fbf1d1f8ab088772a8fd0b9864e6b-1920x1080.png&w=3840&q=75)
 
-## **Learning from our partners and customers**
+## Learning from our partners and customers
 
 We’ve partnered with the [Constellation Fund](https://constellationfund.org/), [Robin Hood](https://robinhood.org/), and [Tipping Point Community](https://tippingpoint.org/) to pilot Claude with more than 60 of their grantee organizations. This is helping us understand how to better support nonprofits as they produce grant proposals that align with funders’ interests, analyze program impact, provide large-scale donor stewardship, and generate board materials and compliance documentation.
 
 We've also been learning from dozens of our customers across the nonprofit sector:
 
-![ logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F47d6743f9102573aad37e41215d24768bd3d5347-2000x1112.png&w=256&q=75)
+![Carlos Sanvee logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F47d6743f9102573aad37e41215d24768bd3d5347-2000x1112.png&w=2048&q=75)
 
-> At a time when AI could divide or unite communities, we're choosing to lead with our values—using Claude to strengthen human connection and advance wellbeing for all communities.
+> “At a time when AI could divide or unite communities, we're choosing to lead with our values—using Claude to strengthen human connection and advance wellbeing for all communities.”
 
-![ logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe15aabd3822010b79c5544d282782bb827dd786a-1795x961.png&w=256&q=75)
+Carlos Sanvee
 
-> With global health funding shrinking, smart targeting is essential. Claude helped us build an interactive geospatial tool in three days versus weeks, mapping at-risk populations to identify where Guatemala's Ministry of Health could most cost-effectively deploy dengue prevention.
+World YMCA Secretary General
 
-![ logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1d47fbb4e6630e69ef961cfa9f1d4834c2b5240b-1347x606.png&w=256&q=75)
+![Justin Cohen logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe15aabd3822010b79c5544d282782bb827dd786a-1795x961.png&w=1920&q=75)
 
-> With AWS and Claude, we built Sage—an AI companion trained on 25,000+ pages of epilepsy expertise, now available 24/7 in 5 languages to 3.4 million Americans living with epilepsy. It embodies our promise that no one should ever have to face epilepsy alone.
+> “With global health funding shrinking, smart targeting is essential. Claude helped us build an interactive geospatial tool in three days versus weeks, mapping at-risk populations to identify where Guatemala's Ministry of Health could most cost-effectively deploy dengue prevention.”
 
-![ logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F00354a3281954cd67da0a6dd6e3435c9c182e853-2000x455.png&w=256&q=75)
+Justin Cohen
 
-> Claude enables 4× faster implementation, helping MyFriendBen connect families to unclaimed benefits and tax credits. Our Claude-powered agents track up to 40+ programs per state, identifying over $1.2 billion in value for 70,000+ households.
+VP Malaria & NTDs
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/380da5dda0e782fb5096b7303f99ee5a54d11e7b-600x208.svg)
+![David Jost logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1d47fbb4e6630e69ef961cfa9f1d4834c2b5240b-1347x606.png&w=1920&q=75)
 
-> With Claude Enterprise, we're equipping teams to work more efficiently—from streamlining data analysis to accelerating support for local partners building lasting, community-led solutions to humanitarian crises.
+> “With AWS and Claude, we built Sage—an AI companion trained on 25,000+ pages of epilepsy expertise, now available 24/7 in 5 languages to 3.4 million Americans living with epilepsy. It embodies our promise that no one should ever have to face epilepsy alone.”
 
-![ logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F74b157d30dfbbf68e10f3f32063595a73c84492c-378x196.png&w=256&q=75)
+David Jost
 
-> With more than 2 million New Yorkers living in poverty, we and our partners need to move at the speed of crisis. Claude helps us build that muscle—to move through grant recommendations more efficiently and to direct resources where they'll make the greatest difference when every day matters.
+Chief Technology Operations Officer
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/65e6277812667678ee027491f08846c65c7c7910-423x110.svg)
+![Sekhar Paladugu logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F00354a3281954cd67da0a6dd6e3435c9c182e853-2000x455.png&w=2048&q=75)
 
-> IDinsight helps global development leaders use data and evidence to maximize social impact. With Claude, our teams get surveys field-ready 16× faster, prototype dashboards in hours instead of weeks, and draft documentation 5× faster—spending less time on tedious tasks and more time driving impact that matters.
+> “Claude enables 4× faster implementation, helping MyFriendBen connect families to unclaimed benefits and tax credits. Our Claude-powered agents track up to 40+ programs per state, identifying over $1.2 billion in value for 70,000+ households.”
 
-![ logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4ffa9434d1187c2442e96d1e4ca7df12c7f64319-2301x459.png&w=256&q=75)
+Sekhar Paladugu
 
-> We've deployed Claude across strategic finance—lease analysis, reporting, reconciliations, audit summarization. Claude excels at strategic analysis compared to other LLMs, making it uniquely suited to our mission-critical work.
+CEO
 
-![ logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6453885030f862560f9744cbd1bde54f3240a515-2000x1048.png&w=256&q=75)
+![Jeannie Annan logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/380da5dda0e782fb5096b7303f99ee5a54d11e7b-600x208.svg)
 
-> SkillUp is building complex AI systems a normal company would need 20+ engineers for. Claude Code helps level the playing field for organizations that must be efficient, allowing them to build more with the team they have.
+> “With Claude Enterprise, we're equipping teams to work more efficiently—from streamlining data analysis to accelerating support for local partners building lasting, community-led solutions to humanitarian crises.”
 
-![ logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F039d103221cd7b1dc12403f478674208c7e7b997-2821x1323.png&w=256&q=75)
+Jeannie Annan
 
-> Our partnership with Anthropic has enabled our team and grantees to use AI to better understand the impacts of our grants, get more done faster, and explore new ways to tell our story to donors and the community.
+Chief Research & Innovation Officer
 
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/105526c2216be658eb8f3456c3f900696ae6eda2-400x400.svg)
+![Matt Klein logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F74b157d30dfbbf68e10f3f32063595a73c84492c-378x196.png&w=384&q=75)
 
-> At a time when nonprofits grapple with scarce resources, our collaboration with Claude for Nonprofits offers the most advanced technology to help them find funding. Our shared objective: provide greater access to trustworthy data and inspire confidence to explore AI.
+> “With more than 2 million New Yorkers living in poverty, we and our partners need to move at the speed of crisis. Claude helps us build that muscle—to move through grant recommendations more efficiently and to direct resources where they'll make the greatest difference when every day matters.”
 
-![ logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F811f6f983579f50daf37e0bee4aa2d46a5cc57af-1200x184.png&w=256&q=75)
+Matt Klein
 
-> Blackbaud's sector-specific data and expertise combined with Claude's frictionless experience will unlock new connections and make it easier to get work done. We couldn't be more excited to see the positive change our customers will drive.
+Chief Program & Impact Officer
 
-![ logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F151fe2117b51d023f672c2210efc2a7934de046c-262x248.png&w=256&q=75)
+![Rob Sampson logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/65e6277812667678ee027491f08846c65c7c7910-423x110.svg)
 
-> We're proud to integrate trusted Benevity nonprofit data with Claude for Nonprofits. Responsible AI should build trust, drive efficiency, and elevate human connection. Together we're empowering nonprofits to forge community connections and accelerate impact.
+> “IDinsight helps global development leaders use data and evidence to maximize social impact. With Claude, our teams get surveys field-ready 16× faster, prototype dashboards in hours instead of weeks, and draft documentation 5× faster—spending less time on tedious tasks and more time driving impact that matters.”
 
-![ logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fddebbe051a59fadadfdc741e0a1becefb2d7eeb4-1200x346.png&w=256&q=75)
+Rob Sampson
 
-> After 20 years in social impact, catching lightning in a bottle doesn't happen often. This partnership is that lightning: an alignment of ethics, purpose, and innovation. Together, we're building the foundation for nonprofits to adopt AI ethically, effectively, and with real impact.
+Senior Director of Transformation
 
-![ logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2ea572862baebbe2080d0054b0888d27adcc5bb1-2921x1192.png&w=256&q=75)
+![Rebecca Glover logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4ffa9434d1187c2442e96d1e4ca7df12c7f64319-2301x459.png&w=3840&q=75)
 
-> Civil society should be central in shaping how AI evolves and the people it benefits. Our collaboration with Anthropic is focused on equipping social sector leaders with the knowledge and skills they need to use AI responsibly in service of the public good.
+> “We've deployed Claude across strategic finance—lease analysis, reporting, reconciliations, audit summarization. Claude excels at strategic analysis compared to other LLMs, making it uniquely suited to our mission-critical work.”
 
-![ logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F23f24545a57b24869f1f6537c8f3858236a44f43-6250x1938.png&w=256&q=75)
+Rebecca Glover
 
-> Vera has spent years helping nonprofits build robust data systems. Now, as a Claude systems integrator, we're integrating AI into nonprofit workflows to help organizations measure what matters, learn faster, and scale impact more effectively.
+Global Director of Finance
 
-01 / 16
+![Steve Lee logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6453885030f862560f9744cbd1bde54f3240a515-2000x1048.png&w=2048&q=75)
 
-## **Getting started**
+> “SkillUp is building complex AI systems a normal company would need 20+ engineers for. Claude Code helps level the playing field for organizations that must be efficient, allowing them to build more with the team they have.”
+
+Steve Lee
+
+CEO
+
+![Andrew Dayton logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F039d103221cd7b1dc12403f478674208c7e7b997-2821x1323.png&w=3840&q=75)
+
+> “Our partnership with Anthropic has enabled our team and grantees to use AI to better understand the impacts of our grants, get more done faster, and explore new ways to tell our story to donors and the community.”
+
+Andrew Dayton
+
+Founder and CEO
+
+![Catherine Williams logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/105526c2216be658eb8f3456c3f900696ae6eda2-400x400.svg)
+
+> “At a time when nonprofits grapple with scarce resources, our collaboration with Claude for Nonprofits offers the most advanced technology to help them find funding. Our shared objective: provide greater access to trustworthy data and inspire confidence to explore AI.”
+
+Catherine Williams
+
+Chief Data Officer
+
+![Andy Snyder logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F811f6f983579f50daf37e0bee4aa2d46a5cc57af-1200x184.png&w=1200&q=75)
+
+> “Blackbaud's sector-specific data and expertise combined with Claude's frictionless experience will unlock new connections and make it easier to get work done. We couldn't be more excited to see the positive change our customers will drive.”
+
+Andy Snyder
+
+SVP, Technology and Innovation
+
+![Soraya Alexander logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F151fe2117b51d023f672c2210efc2a7934de046c-262x248.png&w=384&q=75)
+
+> “We're proud to integrate trusted Benevity nonprofit data with Claude for Nonprofits. Responsible AI should build trust, drive efficiency, and elevate human connection. Together we're empowering nonprofits to forge community connections and accelerate impact.”
+
+Soraya Alexander
+
+CEO
+
+![Rob Jordan logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fddebbe051a59fadadfdc741e0a1becefb2d7eeb4-1200x346.png&w=1200&q=75)
+
+> “After 20 years in social impact, catching lightning in a bottle doesn't happen often. This partnership is that lightning: an alignment of ethics, purpose, and innovation. Together, we're building the foundation for nonprofits to adopt AI ethically, effectively, and with real impact.”
+
+Rob Jordan
+
+CEO & Founder
+
+![William Foster logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2ea572862baebbe2080d0054b0888d27adcc5bb1-2921x1192.png&w=3840&q=75)
+
+> “Civil society should be central in shaping how AI evolves and the people it benefits. Our collaboration with Anthropic is focused on equipping social sector leaders with the knowledge and skills they need to use AI responsibly in service of the public good.”
+
+William Foster
+
+Managing Partner
+
+![Zak Kaufman logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F23f24545a57b24869f1f6537c8f3858236a44f43-6250x1938.png&w=3840&q=75)
+
+> “Vera has spent years helping nonprofits build robust data systems. Now, as a Claude systems integrator, we're integrating AI into nonprofit workflows to help organizations measure what matters, learn faster, and scale impact more effectively.”
+
+Zak Kaufman
+
+Co-Founder & CEO
+
+01
+
+/
+
+16
+
+## Getting started
 
 To learn more about Claude for Nonprofits and to access the AI Fluency for Nonprofits course, get started [here](http://claude.com/solutions/nonprofits).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

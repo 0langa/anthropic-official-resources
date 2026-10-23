@@ -42,7 +42,13 @@ You can turn on the analysis tool [feature preview](https://claude.ai/new?fp=1) 
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 21, 2026
+[ArticleOct 22, 2026
+
+### The full Claude Platform, available on Google Cloud
+
+Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
+
+Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)[ArticleOct 21, 2026
 
 ### HCLTech joins the Claude Partner Network as a Global Premier partner
 
@@ -56,13 +62,7 @@ A research preview is available by waitlist today, starting with US Pro and Max 
 
 Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.
 
-Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)[ArticleOct 15, 2026
-
-### Code Review is now generally available
-
-Catch more bugs before they reach production.
-
-Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)
+Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)
 
 ## Transform how your organization operates with Claude
 

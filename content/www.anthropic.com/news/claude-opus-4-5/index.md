@@ -309,11 +309,11 @@ We’re making our Developer Platform more composable over time. We want to give
 
 Products like Claude Code show what’s possible when the kinds of upgrades we’ve made to the Claude Developer Platform come together. Claude Code gains two upgrades with Opus 4.5. Plan Mode now builds more precise plans and executes more thoroughly—Claude asks clarifying questions upfront, then builds a user-editable plan.md file before executing.
 
-Claude Code is also now [available in our desktop app](https://claude.ai/redirect/website.v1.7de570e8-dba0-4591-9a4c-b9c20cc86d70/download), letting you run multiple local and remote sessions in parallel: perhaps one agent fixes bugs, another researches GitHub, and a third updates docs.
+Claude Code is also now [available in our desktop app](https://claude.ai/redirect/website.v1.191b4c33-cdc4-45a1-bbeb-66d36f85739d/download), letting you run multiple local and remote sessions in parallel: perhaps one agent fixes bugs, another researches GitHub, and a third updates docs.
 
 ![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FzrcCS9oHjtI%2Fsddefault.jpg&w=3840&q=75)
 
-For [Claude app](https://www.claude.com/product/overview) users, long conversations no longer hit a wall—Claude automatically summarizes earlier context as needed, so you can keep the chat going. [Claude for Chrome](https://claude.ai/redirect/website.v1.7de570e8-dba0-4591-9a4c-b9c20cc86d70/chrome), which lets Claude handle tasks across your browser tabs, is now available to all Max users. We announced [Claude for Excel](https://www.claude.com/claude-for-excel) in October, and as of today we've expanded beta access to all Max, Team, and Enterprise users. Each of these updates takes advantage of Claude Opus 4.5’s market-leading performance in using computers, spreadsheets, and handling long-running tasks.
+For [Claude app](https://www.claude.com/product/overview) users, long conversations no longer hit a wall—Claude automatically summarizes earlier context as needed, so you can keep the chat going. [Claude for Chrome](https://claude.ai/redirect/website.v1.191b4c33-cdc4-45a1-bbeb-66d36f85739d/chrome), which lets Claude handle tasks across your browser tabs, is now available to all Max users. We announced [Claude for Excel](https://www.claude.com/claude-for-excel) in October, and as of today we've expanded beta access to all Max, Team, and Enterprise users. Each of these updates takes advantage of Claude Opus 4.5’s market-leading performance in using computers, spreadsheets, and handling long-running tasks.
 
 ![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLpGpwhORWr0%2Fsddefault.jpg&w=3840&q=75)
 

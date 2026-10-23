@@ -22,6 +22,8 @@ Related articles
 
 [View more](https://www.anthropic.com/search?topic=model-welfare)
 
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FpyXouxa0WnY%2Fmaxresdefault.jpg&w=3840&q=75)
+
 Human welfare is at the heart of our work at Anthropic: our mission is to make sure that increasingly capable and sophisticated AI systems remain beneficial to humanity.
 
 But as we build those AI systems, and as they begin to approximate or surpass many human qualities, another question arises. Should we also be concerned about the potential consciousness and experiences of the models themselves? Should we be concerned about *model welfare*, too?

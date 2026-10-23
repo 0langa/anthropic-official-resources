@@ -1,84 +1,76 @@
-# Migrate from standalone Claude Design to Claude
+# Move from standalone Claude Design to Claude
 
-Claude Design now lives in Claude. The standalone Claude Design site (claude.ai/design) will close on December 14, 2026, and you can still access it until that date. This article explains what's changing and when, how to migrate your design systems today, and what happens to your projects.
+Claude Design now lives in Claude. The standalone Claude Design site (claude.ai/design) will close on December 14, 2026, and you can still access it until that date. This article explains what's changing and when, how to move your design systems today, and what happens to your projects.
 
 Claude Design is available on Free, Pro, Max, Team, and Enterprise plans.
 
 ## What's changing and when
 
-You can keep using the standalone version until it closes on December 14, 2026. After that, claude.ai/design will take you to Claude.
+You can keep using the standalone version until it closes on December 14, 2026. After that, it's read-only, and you can't start new projects there.
 
-When you start a new design, design system or slide deck in Claude, it's created as an artifact.
+When you start a new design, design system, or slide deck in Claude, it's created as an artifact.
 
 ## What happens to your work
 
-When you migrate a design system, the original stays in the standalone version, unchanged, until it closes.
+When you move a design system, the original stays in the standalone version. Your chats and comments can't move to Claude, so they stay in the standalone version until it closes.
+
+**Important:** Design systems that have already moved become read-only for everyone in the standalone version as soon as Move to Claude is available to your organization. If you've kept editing one there, those changes didn't move, so make them again in Claude.
 
 ## What you need to do
 
-- Migrate your design systems now.
+- Move your design systems now.
 
 - On Team and Enterprise plans, ask your organization's owner to set a default design system to get the most out of artifacts.
 
-- You don't need to do anything with your projects yet.
+- Moving projects to Claude is rolling out gradually to paid plans. Once you can, move the projects you want to keep. See What happens to your projects.
 
 - If you're a Team or Enterprise owner, check that artifacts and design systems are turned on. On Enterprise plans, design systems are off by default.
 
 ---
 
-## Migrate your design systems
+## Move your design systems
+
+**Note:** Once **Move to Claude** is available to your organization, design systems no longer have their own move. They move the same way as projects. Each design system's owner can move it, or an owner of your organization can move everything at once. See **[What happens to your projects](#h_1d425b60a1)**.
 
 ### Before you start
 
-- One migration brings over every design system in your organization, including other people's, so it only needs to be started once.
+- One move brings over every design system in your organization, including other people's, so it only needs to be started once.
 
 - Anyone who can use Claude Design can start it, not just your organization's owners.
 
 - Each design system keeps its owner and the people it's shared with. If the owner has left your organization, the Primary Owner becomes its owner.
 
-- Empty design systems aren't migrated, and neither are ones made from a built-in starter theme, even if you've edited them.
+- Empty design systems aren't moved, and neither are ones made from a built-in starter theme, even if you've edited them.
 
 **Important:** Published design systems that aren't private will be shared with everyone in your organization and appear in their design system menu. On individual plans, nothing is shared.
 
-### Start the migration
+### Start the move
 
 1. Open the **Artifacts** page in Claude.
 
-2. Click "Migrate team design systems" in the "Claude Design lives here now" banner. If you've closed the banner, choose it from the **Claude Design** menu at the top right.
+2. Click "Move team design systems" in the "Claude Design lives here now" banner. If you've closed the banner, choose it from the Claude Design menu. To open the menu, click the "…" button on the Design tile under "Make something new." If there's no Design tile, click the "…" button at the top right of the page.
 
-![The Artifacts page in Claude. A banner titled](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719865919/1000dcfcc75db94639d4650c820e/04b7b96c-8907-4801-b9a8-2e3315a02098?expires=1792493100&amp;signature=2eeeaa27fd1da46da64961a0f248262f31bbc73ed9e976388b233160656ef319&amp;req=dicmH8F4mIheUPMW1HO4zbwekeN4g6aDV9k56sT%2FLCtiQF0M1AtNSjibn8dT%0AlgPJ%0A)
+3. Click "Move" to confirm. On individual plans, there's no confirmation step, and the move starts right away.
 
-3. Click "Migrate" to confirm. On individual plans, there's no confirmation step, and the migration starts right away.
+4. Wait for the move to finish. If you close the window, it keeps running.
 
-![A dialog titled](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719866455/8f4c4298cd41912e86c0216ffbd2/117ddc52-188f-46b3-813e-38ad816b58ae?expires=1792493100&amp;signature=f9067d9517c83aa3a4eae633ee21af547b3fbfd2db18cb3d44679833eba8aee2&amp;req=dicmH8F4m4VaXPMW1HO4zcOBwGF%2FfG8mYAKZtkOJqEOmMCWYHB8cbTFjDz7O%0AusGg%0A)
+5. Check the results. Under Moved, the window lists each design system with its owner's name and an "Open" link. You'll see only the design systems you have access to, unless you're an owner of your organization.
 
-4. Wait for the migration to finish. If you close the window, it keeps running.
+## After the move
 
-5. Check the results. Under **Migrated**, the window lists each design system with its owner's name and an "Open" link. You'll see only the design systems you have access to, unless you're an owner of your organization.
-
-![The finished window. It says](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719867084/917977d41436e4fabdbbf92953a1/f31e264b-d0b4-46f9-bf3b-4fef8a317512?expires=1792493100&amp;signature=0687d14dbc2f7d4b049dd9325edf3429b0c620d6234bf915a3f17a1050056a74&amp;req=dicmH8F4moFXXfMW1HO4zSv7JHte2Unhk1OqHSr8yEdiGNYftA1BpYi4ULjD%0AGIGU%0A)
-
-### After you migrate
-
-Your migrated design systems appear in the design system menu when you make designs and slide decks in Claude. To see them all, choose "View design systems" from the **Claude Design** menu on the **Artifacts** page. The list opens in **Settings**.
-
-![The Design systems page in Settings. It lists four design systems, with who can use each one and when it was published. The first has a](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719869354/bcbf99c8812d288b961cc4b05be0/58745925-e29d-4efa-b7d5-ec0b97fdedf9?expires=1792493100&amp;signature=12529d1f0880a5af74662c6cab56bf6677dbe024d9f2751e4b847d65f8c57519&amp;req=dicmH8F4lIJaXfMW1HO4zXgMWVFPtoT14YYJPXU59QdqOD0O%2F5axofI0G8ta%0AeQMgZqVuXhYFWe28n50%3D%0A)
+Your moved design systems appear in the design system menu when you make designs and slide decks in Claude. To see them all, choose "View design systems" from the Claude Design menu on the Artifacts page. The list opens in Settings.
 
 Owners can set your organization's default design system here. Open a design system's menu and choose "Set as default." Click a design system's name to open it.
 
-![A migrated design system open in Claude as an artifact. A note at the top says](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719869983/f674728f8f9614b16502d0e7de66/bb4e7f2a-641c-439d-9ace-7546fe5d57b4?expires=1792493100&amp;signature=e4780a3896f82f0216c10c9b3306e266c9deff046804d7c6ac0d4a2b4c616a56&amp;req=dicmH8F4lIhXWvMW1HO4zSpxDRC2F4SvOMHH8PlIn12rfmBIaPHq%2B9XIs%2FAO%0Ah7QTrbo4ANQoEnLkNrw%3D%0A)
-
-A migrated design system keeps its files as they were, and you can't edit it yourself on its page yet. Its editors see a note at the top: "Migrated from the standalone version. Ask Claude to make changes."
+A moved design system keeps its files as they were, and you can't edit it yourself on its page yet. Its editors see a note at the top saying that it was moved and that they can ask Claude to make changes.
 
 Learn more about **[getting started with Claude Design](https://support.claude.com/en/articles/14604416-get-started-with-claude-design)**.
 
-### If a design system can't be migrated
+### If a design system can't move
 
-The window lists it under **Couldn't be migrated**, with its name, owner, and a short reason, such as "it's too large."
+The window lists it under **Didn't move**, with its name, owner, and a short reason, such as "it's too large."
 
-![The finished window. It says](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719871890/dda0fc8ec2a80b3552b6550746bd/b4644cc0-d990-4c69-a0c0-baeb0f683625?expires=1792493100&amp;signature=d44b74ae2d9d07d4458ced397326ce1d154158afc1afa0f2a0b18198061b4360&amp;req=dicmH8F5nIlWWfMW1HO4zaTzC30R5RQcftPbD3wWlhsSMASdLVcra5oqP7NT%0A%2BKLtV5XoSejfTLhUpPI%3D%0A)
-
-To reopen the results later, click the count in the banner on the **Artifacts** page, such as "6 of your 11 design systems couldn't be migrated."
+To reopen the results later, click the count in the banner on the Artifacts page, such as "6 of your 11 design systems couldn't move."
 
 Anyone who can edit the design system can fix problems with its own files or size. If you can't edit it, you won't be able to run the check, so ask its owner, who's named in the row.
 
@@ -86,17 +78,13 @@ Anyone who can edit the design system can fix problems with its own files or siz
 
 1. Click "Fix in Claude Design Standalone" in its row.
 
-2. Click "Check" on the "Check whether this design system can migrate to claude.ai" card.
-
-  ![A card in the standalone version that says](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719873400/3d92cdfd945fd79fb27084d39a22/f7748b4a-0227-4f40-9291-22bed9a1fbbc?expires=1792493100&amp;signature=2499c26d85691f431b84e2364a021a7e1c5e80ac55e3d1c5849b86a7adb9a43b&amp;req=dicmH8F5noVfWfMW1HO4zd1pibijbZ3z6fFmI7TN6dYV2oizE6vBVo6IXzNC%0AXZZZ%0A)
+2. Click "Check" on the **Check whether this design system can move to Claude** card.
 
 3. Fix the files the check lists, using the table below.
 
-  ![The card after a check. It says](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719873835/ea65e9a7b17ff1a6572138efbdf4/d63a5223-f80f-4bca-b487-0c0583487404?expires=1792493100&amp;signature=1dba228ee6e14ad5014c97b7651f1f70f126a7e91d7b9f3ee8b34b1c457f7100&amp;req=dicmH8F5nolcXPMW1HO4zXfm4KzA6aPca1x%2B95JDfxHdgOAWs2rhxU4uqrJ8%0ACmR8%0A)
-
 4. Click "Check again" until it says "Nothing found in the way."
 
-5. Migrate again from the **Artifacts** page in Claude.
+5. Move again from the **Artifacts** page in Claude.
 
 | **What the check says**              | **What to do**                    |
 | ------------------------------------ | --------------------------------- |
@@ -106,41 +94,71 @@ Anyone who can edit the design system can fix problems with its own files or siz
 | Can't go in a design system artifact | Remove them                       |
 | Can't be opened                      | Save them again, or remove them   |
 | With characters that can't be read   | Fix or remove them                |
-| Missing                              | Upload them again, or remove them |
+| Contents missing                     | Upload them again, or remove them |
 
 If the whole design system is too large, the card says "It's too large. Make it smaller." instead of listing files. Remove files you don't need, then check again.
 
 **Note:** The `uploads` folder often contains duplicate files, so it's an easy place to start trimming down a design system.
 
-Some reasons need your organization's owner to fix them: "design systems are turned off for your team," "your team can't publish artifacts," or "its owner's role doesn't include design systems." The first two stop the migration, and any design systems it hadn't started are listed under **Not started**. Once they're fixed, migrate again.
+Some reasons need your organization's owner to fix them: "design systems are turned off for your team," "your team can't publish artifacts," or "its owner's role doesn't include design systems." The first two stop the move, and any design systems it hadn't started are listed under **Not started**. Once they're fixed, move again.
 
-Sometimes the check says "The problem is in the migration, not your files. There's nothing for you to fix." If this happens, try again later.
+Sometimes the card says "Can't move this design system" without saying why. If this happens, click "Download design system" to keep a copy of its files. You can click "Check again" later, and if it still can't move, let us know. See **[Get help](#h_5acf964297)**.
 
-### Migrate again
+### Move again
 
-To migrate new, changed, or fixed design systems, choose "Migrate again" from the **Claude Design** menu on the **Artifacts** page. To reopen your last results, choose "View details," just below it.
+**Note:** Once **Move to Claude** is available to your organization, this section no longer applies. A later move doesn't update a design system that has already moved. To replace it with a fresh copy, its owner deletes it in Claude, then moves it again from the standalone version.
 
-![The Claude Design menu open on the Artifacts page. Under](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719876014/7313d3bd31db84db44312be66d15/ca108a7c-7143-4041-a6f8-70487dbf1c45?expires=1792493100&amp;signature=7d7274cdf57b23a9fa0577cfd6e1485946ea2b98a47ebc32895e37fe3356830e&amp;req=dicmH8F5m4FeXfMW1HO4zY8hP2yEtxS%2BmIfwq%2Bzc2Q%2B9t%2FQ4McXqp21vFi5%2F%0AEQW6JCnjoGcb79s%2Bx2E%3D%0A)
+To move new, changed, or fixed design systems, choose "Move again" from the Claude Design menu on the Artifacts page. To reopen your last results, choose "View last move," just below it.
 
-**When you migrate again:**
+**When you move again:**
 
-| **If the design system is**                                        | **What happens**                                                                                                      |
-| ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| New, or changed in the standalone version since the last migration | It's migrated                                                                                                         |
-| Unchanged in both places                                           | It's left alone and marked "already up to date"                                                                       |
-| Changed in Claude since it was migrated                            | It's listed under **Skipped** as "changed on claude.ai, left as they are," so your edits in Claude aren't overwritten |
+| **If the design system is**                                   | **What happens**                                                                                                  |
+| ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| New, or changed in the standalone version since the last move | It's moved                                                                                                        |
+| Unchanged in both places                                      | It's left alone and marked "already moved"                                                                        |
+| Changed in Claude since it was moved                          | It's listed under Skipped as "changed on claude.ai, left as they are," so your edits in Claude aren't overwritten |
 
-![The results of a second migration. Three design systems are marked](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719876766/45afd15b42b5160fa441f419a850/7c97998b-5da1-4804-b590-04d2c95d4d98?expires=1792493100&amp;signature=f7c0a275d4047261730ee70f6d4aef31c19532d0efe3995577de25d3bf566b36&amp;req=dicmH8F5m4ZZX%2FMW1HO4zTpBL%2B1e11hlspOwJUpK3x104jAn8h4d%2F2GkAXLF%0ARXJhOEFnSmOFTx4qXL8%3D%0A)
-
-To replace a migrated design system with a fresh copy, delete it in Claude, then migrate again. To keep any changes you've made to it, duplicate it first. Once nothing is left to migrate, the banner says "All of your design systems have migrated."
+To replace a moved design system with a fresh copy, delete it in Claude, then move again. To keep any changes you've made to it, duplicate it first.
 
 ## What happens to your projects
 
-Your projects stay in the standalone version and keep working until it closes. The **Artifacts** page in Claude also lists up to 60 of them, and they open in the standalone version. More details about moving your projects to Claude are coming soon.
+Until they're moved, your projects stay in the standalone version and keep working until it closes. The **Artifacts** page in Claude also lists up to 60 of them, and they open in the standalone version.
+
+Moving a project to Claude, where it becomes an artifact, is rolling out gradually to paid plans.
+
+- On Team and Enterprise plans, artifacts also need to be on for your organization. On Enterprise plans with custom roles, your role needs them too.
+
+- Organizations with customer-managed encryption keys (CMEK) can move one project at a time, but can't yet move lists of projects, design systems, or everything at once. Standalone Claude Design doesn't support CMEK, so its data won't be encrypted under your key until you move. Once a project moves to Claude, it's encrypted under your key.
+
+- Organizations with the HIPAA-ready configuration can't move projects right now.
+
+- Organizations with zero data retention (ZDR) can't move projects, so download your projects before the standalone version closes.
+
+To move a project:
+
+1. Open the project in the standalone version at claude.ai/design. Only the project's owner can move it.
+
+2. Start the review from the pop-up or from the banner at the top of the project.
+
+3. Read the review. It lists what moves, anything that will work differently, and what stays behind. You can also download a copy as a .zip file. Then confirm the move.
+
+4. Keep the tab open until the move finishes.
+
+5. Open the project in Claude. It's now an artifact on the Artifacts page.
+
+After the move, the copy in the standalone version is read-only for everyone, and this can't be undone. Your chats and comments stay in that copy, where you can read them until the standalone version closes. Sharing carries over where Claude supports it.
+
+You can also move all of your own projects at once, or only the ones you choose. On Team and Enterprise plans, your organization's owners can move everyone's projects at once with "Move everything."
+
+"Move everything" is on the Artifacts page in Claude, and it moves templates and design systems too. Only an Owner or the Primary Owner can start it, not an Admin.
+
+Most projects keep their owner, and private projects stay private. If a project's owner has left your organization, it goes to an owner of your organization, usually the Primary Owner, and Claude shows that person a list called "Projects moved to you." Anything that can't move stays in the standalone version, and the results say why. As with any move, the standalone copies of moved projects become read-only for everyone.
+
+**Important:** If your organization has a retention period that covers artifacts, a project or design system that moves, or has already moved, to Claude can be permanently deleted if nobody opens it for that period. The period starts on the day of the move and restarts when someone opens or edits the artifact. Learn more in **[Configure custom data retention controls for Enterprise plans](https://support.claude.com/en/articles/10440198)**.
 
 ## What isn't carried over
 
-These stay in the standalone version and deleted after it closes, per our **[data retention practices](https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data)**, in December 2026:
+These stay in the standalone version and are deleted some time after it closes, per our **[data retention practices](https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data)**:
 
 - Your chats with Claude
 
@@ -154,23 +172,23 @@ Public links to projects in the standalone version will no longer work after it 
 
 ## For Team and Enterprise owners
 
-Claude Design in Claude depends on artifacts. If artifacts are off for your organization, people can't create designs in Claude or migrate anything, and they won't see the "Claude Design lives here now" banner.
+Claude Design in Claude depends on artifacts. If artifacts are off for your organization, people can't create designs in Claude or move anything, and they won't see the "Claude Design lives here now" banner.
 
 To check your settings, navigate to **[Organization settings](https://claude.ai/admin-settings/artifacts)**[> **Artifacts**](https://claude.ai/admin-settings/artifacts):
 
 | **Setting**                                    | **What it's for**                              | **Default**                                 |
 | ---------------------------------------------- | ---------------------------------------------- | ------------------------------------------- |
 | **Artifacts**                                  | Everything below depends on it                 | On                                          |
-| **Design systems**, under **Templates**        | Migrating design systems and creating new ones | On for Team plans, off for Enterprise plans |
-| **Design** and **Slides**, under **Templates** | Creating new designs and slide decks in Claude | On for Team plans, off for Enterprise plans |
+| **Design systems**, under **Templates**        | Moving design systems and creating new ones    | On for Team plans, off for Enterprise plans |
+| **Design** and **Slides**, under **Templates** | Creating new designs and slide decks in Claude | On                                          |
 
-On Enterprise plans with custom roles, each role also needs these permissions, which the role editor lists under **Artifacts**. This lets you turn on artifacts for just the people who use Claude Design. A design system can't be migrated if its owner's role doesn't include design systems.
+On Enterprise plans with custom roles, each role also needs these permissions, which the role editor lists under **Artifacts**. This lets you turn on artifacts for just the people who use Claude Design. A design system can't move if its owner's role doesn't include design systems.
 
-While **Design systems** is off, owners who click "Migrate team design systems" see "Design systems are off for your organization" and an "Open Organization settings" button. Everyone else sees the button grayed out, with the reason "Ask your admin to turn on Design systems."
+While **Design systems** is off, owners who click "Move team design systems" see "Design systems are off for your organization" and an "Open Organization settings" button. Everyone else sees the button grayed out, with the reason "Design systems are turned off in your organization's Artifacts settings."
 
-If your organization's default design system migrates, it becomes the default in Claude too, unless you've already set one there.
+If your organization's default design system moves, it becomes the default in Claude too, unless you've already set one there.
 
-Organizations with zero data retention (ZDR) can't turn on artifacts, so they can't migrate. If that's your organization, download your projects before the standalone version closes. See **[Can I download all my projects?](#h_a676b76d76)**
+Organizations with zero data retention (ZDR) can't turn on artifacts, so they can't move. If that's your organization, download your projects before the standalone version closes. See **[Can I download all my projects?](#h_a676b76d76)**
 
 ---
 
@@ -178,15 +196,15 @@ Organizations with zero data retention (ZDR) can't turn on artifacts, so they ca
 
 ### What happens to my originals after the standalone version closes?
 
-Your originals keep working in the standalone version until it closes on December 14, 2026. After that, they're deleted, per our **[data retention practices](https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data)**.
+Your originals stay in the standalone version, and moved ones are read-only. After it closes on December 14, 2026, the rest become read-only too, with one exception. The owner of a project that hasn't moved can still change its files, so they can fix it and move it to Claude. Originals are deleted some time later, per our **[data retention practices](https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data)**.
 
 ### What if the owner of a design system or project has left my organization?
 
-Your organization's Primary Owner becomes its owner.
+When it moves to Claude, your organization's Primary Owner becomes its owner.
 
 ### Can I download all my projects?
 
-Not all at once. You can download them one at a time:
+A download of all the projects you own is rolling out together with **Move to Claude**. Once you have it, you'll find it on the home page of the standalone version. It includes your files, not your chats or comments. It isn't available to organizations with the HIPAA-ready configuration. If you don't have it, you can download your projects one at a time:
 
 1. Open the project in the standalone version.
 
@@ -194,10 +212,8 @@ Not all at once. You can download them one at a time:
 
 3. Keep "Project archive" selected and click "Export."
 
-![The](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719861358/b912b7e22b90376c8d9808f5f878/e12e91ec-7ced-4b05-bc31-c4e3fd88741b?expires=1792493100&amp;signature=45062e884e4c75e6d18a5d06e0b3f05726eb80a64a96070498a07d48b63c83f2&amp;req=dicmH8F4nIJaUfMW1HO4zViE97JBru0RGbLnQ1YWi092u1kCsQJ3BQ6XRcT9%0AxUu4%0A)
-
-You get a `.zip` file with every file in the project. It's free and doesn't count toward your usage limits.
+You get a .zip file with every file in the project. It's free and doesn't count toward your usage limits.
 
 ## Get help
 
-If something didn't come over right, your original is still in the standalone version. Please let us know if your design system can't be migrated and there's no way for you to fix it. Learn more about **[how to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)**.
+If something didn't come over right, your original is still in the standalone version. Please let us know if your design system can't move and there's no way for you to fix it. Learn more about **[how to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)**.

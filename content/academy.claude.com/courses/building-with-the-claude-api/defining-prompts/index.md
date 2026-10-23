@@ -38,7 +38,7 @@ Here's how to implement a document formatting prompt. First, you'll need to impo
 python
 
 ```
-from mcp.server.fastmcp import base
+from mcp.server.fastmcp.prompts import base
 ```
 
 Then define your prompt function:

@@ -1,12 +1,34 @@
-Societal Impacts
+### Chapter 04: Work with us
 
-# Values in the wild: Discovering and analyzing values in real-world language model interactions
-
-Apr 21, 2025
+# **Values in the wild:**Discovering and analyzing values in real-world language model interactions
 
 [Read the paper](https://assets.anthropic.com/m/18d20cca3cde3503/original/Values-in-the-Wild-Paper.pdf)
 
-![Values in the wild: Discovering and analyzing values in real-world language model interactions](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff10c4be60fa17dae2fbf01e18723ca8ee44e31f1-2000x1125.png&w=3840&q=75)
+![Split image showing minimalist line drawings on the left and white peonies against a brown background on the right.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Faf5d1cc2b7c0692c4f2e542f1cf8e4cabce5283f-2000x1125.jpg&w=1920&q=75)
+
+- Published
+
+  Apr 21, 2025
+- Team
+
+  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
+- Topics
+
+  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)
+  - [Privacy](https://www.anthropic.com/search?topic=privacy)
+  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)See more...
+
+Related articles
+
+- Societal Impacts
+
+  Jul 13, 2026
+
+  [Claude’s values across models and languages](https://www.anthropic.com/research/claude-values-models-languages)
+
+[View more](https://www.anthropic.com/search?topic=claude-s-character)
 
 People don’t just ask AIs for the answers to equations, or for purely factual information. Many of the questions they ask force the AI to make *value judgments*. Consider the following:
 
@@ -75,23 +97,3 @@ Download the dataset [here](https://huggingface.co/datasets/Anthropic/values-in-
 ## Work with us
 
 If you’re interested in working with us on these or related questions, you should consider applying for our Societal Impacts [Research Scientist](https://boards.greenhouse.io/anthropic/jobs/4524032008) and [Research Engineer](https://boards.greenhouse.io/anthropic/jobs/4251453008) roles.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)

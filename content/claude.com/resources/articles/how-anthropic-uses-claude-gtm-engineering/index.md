@@ -103,7 +103,13 @@ For sellers wondering whether they could build something similar, his advice is 
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 19, 2026
+[ArticleOct 22, 2026
+
+### Building agents: When to fold subagents into your main agent loop
+
+When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 19, 2026
 
 ### Redesigning source control at Anthropic
 
@@ -125,15 +131,7 @@ How do you review code at the volume agents produce it? The Claude Code team sha
 
 Claude Code
 
-(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)[ArticleOct 8, 2026
-
-### Building effective agent automations
-
-A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
-
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
+(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)
 
 ## Transform how your organization operates with Claude
 

@@ -194,7 +194,9 @@ Anthropic's directory reads the `icon`, `documentationUrl`, `supportUrl`, `priva
 
 Set `icon` to the path of an image file inside the plugin, such as `./logo.png`, and each of the four URL fields to an `https://` URL.
 
-`claude plugin validate` accepts these fields without a warning on Claude Code v2.1.281 or later. Earlier versions print an `Unknown field` warning for each one, so a `--strict` run fails on those versions.
+> [!NOTE]
+>
+> `claude plugin validate` doesn't report these fields in `plugin.json` as unknown on Claude Code v2.1.281 or later. Earlier versions print an `Unknown field` warning for each one, so a `--strict` run fails on those versions.
 
 ### `defaultEnabled`
 

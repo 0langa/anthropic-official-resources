@@ -1,26 +1,44 @@
-[Engineering at Anthropic](https://www.anthropic.com/engineering)
+### Chapter 11: Conclusion
 
-![](https://www-cdn.anthropic.com/images/4zrzovbb/website/1d7118b992792989576d23bb279bbf3e38c37618-1000x1000.svg)
+# **Desktop Extensions:**One-click MCP server installation for Claude Desktop
 
-# Desktop Extensions: One-click MCP server installation for Claude Desktop
+- Published
 
-Published Jun 26, 2025
+  Jun 26, 2025
+- Team
 
-Desktop Extensions make installing MCP servers as easy as clicking a button. We share the technical architecture and tips for creating good extensions.
+  [Engineering](https://www.anthropic.com/engineering)
+- Topics
 
-- File extension update
+  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+  - [Open source](https://www.anthropic.com/search?topic=open-source)
+  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)See more...
 
-  Sep 11, 2025
+Related articles
+
+- Product
+
+  Apr 28, 2026
+
+  [Claude for Creative Work](https://www.anthropic.com/news/claude-for-creative-work)
+
+[View more](https://www.anthropic.com/search?topic=model-context-protocol)
+
+- Sep 11, 2025
+
+  ### File extension update
 
   Claude Desktop Extensions now use the .mcpb (MCP Bundle) file extension instead of .dxt. Existing .dxt extensions will continue to work, but we recommend developers use .mcpb for new extensions going forward. All functionality remains the same - this is purely a naming convention update.
 
-—
+---
 
 When we released the Model Context Protocol (MCP) last year, we saw developers build amazing local servers that gave Claude access to everything from file systems to databases. But we kept hearing the same feedback: installation was too complex. Users needed developer tools, had to manually edit configuration files, and often got stuck on dependency issues.
 
 Today, we're introducing Desktop Extensions—a new packaging format that makes installing MCP servers as simple as clicking a button.
 
-### Addressing the MCP installation problem
+## Addressing the MCP installation problem
 
 Local MCP servers unlock powerful capabilities for Claude Desktop users. They can interact with local applications, access private data, and integrate with development tools—all while keeping data on the user's machine. However, the current installation process creates significant barriers:
 
@@ -32,11 +50,13 @@ Local MCP servers unlock powerful capabilities for Claude Desktop users. They ca
 
 These friction points meant that MCP servers, despite their power, remained largely inaccessible to non-technical users.
 
-### Introducing Desktop Extensions
+## Introducing Desktop Extensions
 
 Desktop Extensions (`.mcpb` files) solve these problems by bundling an entire MCP server—including all dependencies—into a single installable package. Here's what changes for users:
 
 **Before:**
+
+Copy
 
 ```
 # Install Node.js first 
@@ -45,8 +65,6 @@ npm install -g @example/mcp-server
 # Restart Claude Desktop 
 # Hope it works
 ```
-
-Copy
 
 **After:**
 
@@ -59,6 +77,8 @@ That's it. No terminal, no configuration files, no dependency conflicts.
 ## Architecture overview
 
 A Desktop Extension is a zip archive containing the local MCP server as well as a `manifest.json`, which describes everything Claude Desktop and other apps supporting desktop extensions need to know.
+
+CopyExpand
 
 ```
 extension.mcpb (ZIP archive)
@@ -88,8 +108,6 @@ extension.mcpb (ZIP file)
 └── icon.png              # Optional: Extension icon
 ```
 
-Copy
-
 The only required file in a Desktop Extension is a manifest.json. Claude Desktop handles all the complexity:
 
 - **Built-in runtime**: We ship Node.js with Claude Desktop, eliminating external dependencies
@@ -97,6 +115,8 @@ The only required file in a Desktop Extension is a manifest.json. Claude Desktop
 - **Secure secrets**: Sensitive configuration like API keys are stored in the OS keychain
 
 The manifest contains human-readable information (like the name, description, or author), a declaration of features (tools, prompts), user configuration, and runtime requirements. Most fields are optional, so the minimal version is quite short, although in practice, we expect all three supported extension types (Node.js, Python, and classic binaries/executables) to include files:
+
+CopyExpand
 
 ```
 {
@@ -120,11 +140,11 @@ The manifest contains human-readable information (like the name, description, or
 }
 ```
 
-Copy
-
 There are a number of convenience options [available in the manifest spec](https://github.com/anthropics/dxt/blob/main/MANIFEST.md) that aim to make the installation and configuration of local MCP servers easier. The server configuration object can be defined in a way that makes room both for user-defined configuration in the form of template literals as well as platform-specific overrides. Extension developers can define, in detail, what kind of configuration they want to collect from users.
 
 Let’s take a look at a concrete example of how the manifest aids with configuration. In the manifest below, the developer declares that the user needs to supply an `api_key`. Claude will not enable the extension until the user has supplied that value, keep it automatically in the operating system’s secret vault, and transparently replace the `${user_config.api_key}` with the user-supplied value when launching the server. Similarly, `${__dirname}` will be replaced with the full path to the extension’s unpacked directory.
+
+CopyExpand
 
 ```
 {
@@ -158,9 +178,9 @@ Let’s take a look at a concrete example of how the manifest aids with configur
 }
 ```
 
-Copy
-
 A full `manifest.json` with most of the optional fields might look like this:
+
+CopyExpand
 
 ```
 {
@@ -250,31 +270,31 @@ A full `manifest.json` with most of the optional fields might look like this:
 }
 ```
 
-Copy
-
 To see an extension and manifest, please refer [to the examples in the MCPB repository](https://github.com/anthropics/dxt/tree/main/examples).
 
 The full specification for all required and optional fields in the `manifest.json` can be found as part of our [open-source toolchain](https://github.com/anthropics/dxt/blob/main/MANIFEST.md).
 
-### Building your first extension
+## Building your first extension
 
 Let's walk through packaging an existing MCP server as a Desktop Extension. We'll use a simple file system server as an example.
 
-#### Step 1: Create the manifest
+### Step 1: Create the manifest
 
 First, initialize a manifest for your server:
+
+Copy
 
 ```
 npx @anthropic-ai/mcpb init
 ```
 
-Copy
-
 This interactive tool asks about your server and generates a complete manifest.json. If you want to speed-run your way to the most basic manifest.json, you can run the command with a --yes parameter.
 
-#### Step 2: Handle user configuration
+### Step 2: Handle user configuration
 
 If your server needs user input (like API keys or allowed directories), declare it in the manifest:
+
+Copy
 
 ```
 "user_config": {
@@ -289,8 +309,6 @@ If your server needs user input (like API keys or allowed directories), declare 
 }
 ```
 
-Copy
-
 Claude Desktop will:
 
 - Display a user-friendly configuration UI
@@ -299,6 +317,8 @@ Claude Desktop will:
 - Pass configuration to your server either as arguments or environment variables, depending on developer configuration
 
 In the example below, we’re passing the user configuration as an environment variable, but it could also be an argument.
+
+Copy
 
 ```
 "server": {
@@ -314,24 +334,22 @@ In the example below, we’re passing the user configuration as an environment v
 }
 ```
 
-Copy
-
-#### Step 3: Package the extension
+### Step 3: Package the extension
 
 Bundle everything into a `.mcpb` file:
+
+Copy
 
 ```
 npx @anthropic-ai/mcpb pack
 ```
-
-Copy
 
 This command:
 
 1. Validates your manifest
 2. Generates the `.mcpb` archive
 
-#### Step 4: Test locally
+### Step 4: Test locally
 
 Drag your `.mcpb` file into Claude Desktop's Settings window. You'll see:
 
@@ -339,11 +357,13 @@ Drag your `.mcpb` file into Claude Desktop's Settings window. You'll see:
 - Required permissions and configuration
 - A simple "Install" button
 
-### Advanced features
+## Advanced features
 
-#### Cross-platform support
+### Cross-platform support
 
 Extensions can adapt to different operating systems:
+
+CopyExpand
 
 ```
 "server": {
@@ -369,9 +389,7 @@ Extensions can adapt to different operating systems:
 }
 ```
 
-Copy
-
-#### Dynamic configuration
+### Dynamic configuration
 
 Use template literals for runtime values:
 
@@ -379,9 +397,11 @@ Use template literals for runtime values:
 - `${user_config.key}`: User-provided configuration
 - `${HOME}, ${TEMP}`: System environment variables
 
-#### Feature declaration
+### Feature declaration
 
 Help users understand capabilities upfront:
+
+CopyExpand
 
 ```
 "tools": [
@@ -399,9 +419,7 @@ Help users understand capabilities upfront:
 ]
 ```
 
-Copy
-
-### The extension directory
+## The extension directory
 
 We're launching with a curated directory of extensions built into Claude Desktop. Users can browse, search, and install with one click—no searching GitHub or vetting code.
 
@@ -414,7 +432,7 @@ To submit your extension:
 3. [Submit your extension](https://docs.google.com/forms/d/14_Dmcig4z8NeRMB_e7TOyrKzuZ88-BLYdLvS6LPhiZU/edit)
 4. Our team reviews for quality and security
 
-### Building an open ecosystem
+## Building an open ecosystem
 
 We are committed to the open ecosystem around MCP servers and believe that its ability to be universally adopted by multiple applications and services has benefitted the community. In line with this commitment, we’re open-sourcing the Desktop Extension specification, toolchain, and the schemas and key functions used by Claude for macOS and Windows to implement its own support of Desktop Extensions. It is our hope that the MCPB format doesn’t just make local MCP servers more portable for Claude, but other AI desktop applications, too.
 
@@ -433,17 +451,17 @@ This means:
 
 The specification and toolchain is on purpose versioned as 0.1, as we are looking forward to working with the greater community on evolving and changing the format. We look forward to hearing from you.
 
-### Security and enterprise considerations
+## Security and enterprise considerations
 
 We understand that extensions introduce new security considerations, particularly for enterprises. We've built in several safeguards with the preview release of Desktop Extensions:
 
-#### For users
+### For users
 
 - Sensitive data stays in the OS keychain
 - Automatic updates
 - Ability to audit what extensions are installed
 
-#### For enterprises
+### For enterprises
 
 - Group Policy (Windows) and MDM (macOS) support
 - Ability to pre-install approved extensions
@@ -453,11 +471,13 @@ We understand that extensions introduce new security considerations, particularl
 
 For more information about how to manage extensions within your organization, see our [documentation](https://support.anthropic.com/en/articles/10949351-getting-started-with-model-context-protocol-mcp-on-claude-for-desktop).
 
-### Getting started
+## Getting started
 
 Ready to build your own extension? Here's how to start:
 
 **For MCP server developers**: Review our [developer documentation](https://github.com/anthropics/dxt) – or dive right in by running the following commands in your local MCP servers’ directory:
+
+Copy
 
 ```
 npm install -g @anthropic-ai/mcpb
@@ -465,15 +485,15 @@ mcpb init
 mcpb pack
 ```
 
-Copy
-
 **For Claude Desktop users**: Update to the latest version and look for the Extensions section in Settings
 
 **For enterprises**: Review our enterprise documentation for deployment options
 
-### Building with Claude Code
+## Building with Claude Code
 
 Internally at Anthropic, we have found that Claude is great at building extensions with minimal intervention. If you too want to use Claude Code, we recommend that you briefly explain what you want your extension to do and then add the following context to the prompt:
+
+CopyExpand
 
 ```
 I want to build this as a Desktop Extension, abbreviated as "MCPB". Please follow these steps:
@@ -503,9 +523,7 @@ Generate complete, production-ready code that can be immediately tested. Focus o
 MCPB specifications to ensure compatibility with the ecosystem.
 ```
 
-Copy
-
-### Conclusion
+## Conclusion
 
 Desktop Extensions represent a fundamental shift in how users interact with local AI tools. By removing installation friction, we're making powerful MCP servers accessible to everyone—not just developers.
 
@@ -515,14 +533,8 @@ Internally, we’re using desktop extensions to share highly experimental MCP se
 
 We can't wait to see what you build. The same creativity that brought us thousands of MCP servers can now reach millions of users with just one click. Ready to share your MCP server? [Submit your extension for review](https://forms.gle/tyiAZvch1kDADKoP9).
 
-[![Interlocking puzzle piece with complex geometric shape and detailed surface texture](https://www-cdn.anthropic.com/images/4zrzovbb/website/43abe7e54b56a891e74a8542944dfbd33f07f49c-1000x1000.svg)
+![Looking to learn more?](https://www-cdn.anthropic.com/images/4zrzovbb/website/43abe7e54b56a891e74a8542944dfbd33f07f49c-1000x1000.svg)
 
 ### Looking to learn more?
 
-Explore courses](https://anthropic.skilljar.com/)
-
-## Get the developer newsletter
-
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
-
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+[Explore courses](https://anthropic.skilljar.com/)

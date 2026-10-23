@@ -74,7 +74,13 @@ The sample is collected at a capped rate—a fixed maximum number of sessions pe
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 13, 2026
+[ArticleOct 22, 2026
+
+### Building agents: When to fold subagents into your main agent loop
+
+When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 13, 2026
 
 ### Uber's CISO on building an insider threat program for AI
 
@@ -88,14 +94,7 @@ Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-
 
 ### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
 
-Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)[ArticleSep 29, 2026
-
-### Agents you can coach: how Asana builds human-agent teams with Claude
-
-Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
-‍
-
-Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)
+Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)
 
 ## Transform how your organization operates with Claude
 

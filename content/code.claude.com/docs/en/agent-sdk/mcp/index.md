@@ -491,7 +491,12 @@ For a complete working example of a remote server authenticated with headers, se
 
 ### OAuth2 authentication
 
-The [MCP specification supports OAuth 2.1](https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization) for authorization. The SDK doesn't open a browser or run an interactive OAuth flow. When a configured server returns an authorization challenge and no stored token is available, the agent run continues without that server's tools, and the server reports status `needs-auth`. The `mcp_servers` array of the [system init message](/docs/en/agent-sdk/typescript#sdksystemmessage) may still show `pending` for that server when it's emitted. To confirm whether a server needs credentials, poll `mcpServerStatus()` in the TypeScript SDK or [`get_mcp_status()`](/docs/en/agent-sdk/python#methods) in Python.
+The [MCP specification supports OAuth 2.1](https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization) for authorization. The SDK doesn't open a browser or run an interactive OAuth flow. When a configured server returns an authorization challenge and Claude Code has no token to send, the SDK reports the server as `needs-auth` or `failed`:
+
+* **`needs-auth`**: Claude Code found no sign-in it can use for the server. Pass a token in `headers`, or [sign in from an interactive Claude Code session](/docs/en/mcp#authenticate-with-remote-mcp-servers) on the same machine before the run.
+* **`failed`**, with an `error` in its [`McpServerStatus`](/docs/en/agent-sdk/typescript#mcpserverstatus) entry that starts with `Couldn't read the stored credentials` or `A request to MCP server`: Claude Code couldn't read its credential store. For what to do, see [Couldn't read the stored credentials for MCP server](/docs/en/errors#couldnt-read-the-stored-credentials-for-mcp-server). Before Claude Code v2.1.307, the status was `needs-auth` instead when a Mac's login keychain was locked.
+
+In either case, the agent run continues without that server's tools. The `mcp_servers` array of the [system init message](/docs/en/agent-sdk/typescript#sdksystemmessage) may still show `pending` for that server when it's emitted. To confirm whether a server needs credentials, poll `mcpServerStatus()` in the TypeScript SDK or [`get_mcp_status()`](/docs/en/agent-sdk/python#methods) in Python.
 
 To supply credentials, complete the OAuth flow in your own application and pass the resulting access token in the server's `headers`:
 

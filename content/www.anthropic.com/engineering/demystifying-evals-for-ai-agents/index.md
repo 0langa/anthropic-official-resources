@@ -1,12 +1,30 @@
-[Engineering at Anthropic](https://www.anthropic.com/engineering)
-
-![](https://www-cdn.anthropic.com/images/4zrzovbb/website/590360609ccdf39715a8ec6916b52447dcb31f16-1000x1000.svg)
+### Chapter 08: Appendix: Eval frameworks
 
 # Demystifying evals for AI agents
 
-Published Jan 09, 2026
+- Published
 
-The capabilities that make agents useful also make them difficult to evaluate. The strategies that work across deployments combine techniques to match the complexity of the systems they measure.
+  Jan 9, 2026
+- Team
+
+  [Engineering](https://www.anthropic.com/engineering)
+- Topics
+
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Tool use](https://www.anthropic.com/search?topic=tool-use)See more...
+
+Related articles
+
+- Frontier Red Team
+
+  Apr 9, 2026
+
+  [Trustworthy agents in practice](https://www.anthropic.com/research/trustworthy-agents)
+
+[View more](https://www.anthropic.com/search?topic=agents)
 
 ## Introduction
 
@@ -69,17 +87,89 @@ We see several common types of agents deployed at scale today, including coding 
 
 Agent evaluations typically combine three types of graders: code-based, model-based, and human. Each grader evaluates some portion of either the transcript or the outcome. An essential component of effective evaluation design is to choose the right graders for the job.
 
-Code-based graders
+## Code-based graders
 
-<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><th class="body-3" role="columnheader"><strong>Methods</strong></th><th class="body-3" role="columnheader"><strong>Strengths</strong></th><th class="body-3" role="columnheader"><strong>Weaknesses</strong></th></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell">•  String match checks (exact, regex, fuzzy, etc.)<br/>•  Binary tests (fail-to-pass, pass-to-pass)<br/>•  Static analysis (lint, type, security)<br/>•  Outcome verification<br/>•  Tool calls verification (tools used, parameters)<br/>•  Transcript analysis (turns taken, token usage)</td><td class="body-3" role="cell">•  Fast<br/>•  Cheap<br/>•  Objective<br/>•  Reproducible<br/>•  Easy to debug<br/>•  Verify specific conditions<br/></td><td class="body-3" role="cell">•  Brittle to valid variations that don’t match expected patterns exactly<br/>•  Lacking in nuance<br/>•  Limited for evaluating some more subjective tasks<br/></td></tr></tbody></table>
+**Methods**
 
-Model-based graders
+**Strengths**
 
-<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><th class="body-3" role="columnheader"><strong>Methods</strong></th><th class="body-3" role="columnheader"><strong>Strengths</strong></th><th class="body-3" role="columnheader"><strong>Weaknesses</strong></th></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Rubric-based scoring</li><li>Natural language assertions</li><li>Pairwise comparison</li><li>Reference-based evaluation</li><li>Multi-judge consensus</li></ul><br/></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Flexible</li><li>Scalable</li><li>Captures nuance</li><li>Handles open-ended tasks</li><li>Handles freeform output</li></ul><br/></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Non-deterministic</li><li>More expensive than code</li><li>Requires calibration with human graders for accuracy</li></ul><br/></td></tr></tbody></table>
+**Weaknesses**
 
-Human graders
+• String match checks (exact, regex, fuzzy, etc.)
 
-<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><th class="body-3" role="columnheader"><strong>Methods</strong></th><th class="body-3" role="columnheader"><strong>Strengths</strong></th><th class="body-3" role="columnheader"><strong>Weaknesses</strong></th></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>SME review</li><li>Crowdsourced judgment</li><li>Spot-check sampling</li><li>A/B testing</li><li>Inter-annotator agreement</li></ul><br/></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Gold standard quality</li><li>Matches expert user judgment</li><li>Used to calibrate model-based graders</li></ul><br/></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Expensive</li><li>Slow</li><li>Often requires access to human experts at scale</li></ul><br/></td></tr></tbody></table>
+• Binary tests (fail-to-pass, pass-to-pass)
+
+• Static analysis (lint, type, security)
+
+• Outcome verification
+
+• Tool calls verification (tools used, parameters)
+
+• Transcript analysis (turns taken, token usage)
+
+• Fast
+
+• Cheap
+
+• Objective
+
+• Reproducible
+
+• Easy to debug
+
+• Verify specific conditions
+
+• Brittle to valid variations that don’t match expected patterns exactly
+
+• Lacking in nuance
+
+• Limited for evaluating some more subjective tasks
+
+## Model-based graders
+
+**Methods**
+
+**Strengths**
+
+**Weaknesses**
+
+- Rubric-based scoring
+- Natural language assertions
+- Pairwise comparison
+- Reference-based evaluation
+- Multi-judge consensus
+
+- Flexible
+- Scalable
+- Captures nuance
+- Handles open-ended tasks
+- Handles freeform output
+
+- Non-deterministic
+- More expensive than code
+- Requires calibration with human graders for accuracy
+
+## Human graders
+
+**Methods**
+
+**Strengths**
+
+**Weaknesses**
+
+- SME review
+- Crowdsourced judgment
+- Spot-check sampling
+- A/B testing
+- Inter-annotator agreement
+
+- Gold standard quality
+- Matches expert user judgment
+- Used to calibrate model-based graders
+
+- Expensive
+- Slow
+- Often requires access to human experts at scale
 
 For each task, scoring can be weighted (combined grader scores must hit a threshold), binary (all graders must pass), or a hybrid.
 
@@ -102,6 +192,8 @@ Once you have a set of pass-or-fail tests for validating the key *outcomes* of a
 **Example: Theoretical evaluation for a coding agent**
 
 Consider a coding task where the agent must fix an authentication bypass vulnerability. As shown in the illustrative YAML file below, one could evaluate this agent using both graders and metrics.
+
+CopyExpand
 
 ```
 task:
@@ -135,8 +227,6 @@ task:
         - time_to_last_token
 ```
 
-Copy
-
 Note that this example showcases the full range of available graders for illustration. In practice, coding evaluations typically rely on unit tests for correctness verification and an LLM rubric for assessing overall code quality, with additional graders and metrics added only as needed.
 
 ### Evaluating conversational agents
@@ -148,6 +238,8 @@ Success for conversational agents can be multidimensional: is the ticket resolve
 **Example: Theoretical evaluation for a conversational agent**
 
 Consider a support task where the agent must handle a refund for a frustrated customer.
+
+CopyExpand
 
 ```
 graders:
@@ -180,8 +272,6 @@ tracked_metrics:
       - output_tokens_per_sec
       - time_to_last_token
 ```
-
-Copy
 
 As in our coding agent example, this task showcases multiple grader types for illustration. In practice, conversational agent evaluations typically use model-based graders to assess both communication quality and goal completion, because many tasks—like answering a question—may have multiple “correct” solutions.
 
@@ -239,7 +329,7 @@ Each task should be passable by an agent that follows instructions correctly. Th
 
 **Step 3: Build balanced problem sets**
 
-Test both the cases where a behavior *should* occur and where it *shouldn't*. One-sided evals create one-sided optimization. For instance, if you only test whether the agent searches when it should, you might end up with an agent that searches for almost everything. Try to avoid [class-imbalanced](https://developers.google.com/machine-learning/crash-course/overfitting/imbalanced-datasets) evals. We learned this firsthand when building evals for web search in [Claude.ai](http://claude.ai/redirect/website.v1.360e9f77-558b-427a-ab3d-5f93c07ffa60). The challenge was preventing the model from searching when it shouldn’t, while preserving its ability to do extensive research when appropriate. The team built evals covering both directions: queries where the model should search (like finding the weather) and queries where it should answer from existing knowledge (like “who founded Apple?”). Striking the right balance between undertriggering (not searching when it should) or overtriggering (searching when it shouldn’t) was difficult, and took many rounds of refinements to both the prompts and the eval. As more example problems come up, we continue to add to evals to improve our coverage.
+Test both the cases where a behavior *should* occur and where it *shouldn't*. One-sided evals create one-sided optimization. For instance, if you only test whether the agent searches when it should, you might end up with an agent that searches for almost everything. Try to avoid [class-imbalanced](https://developers.google.com/machine-learning/crash-course/overfitting/imbalanced-datasets) evals. We learned this firsthand when building evals for web search in [Claude.ai](http://claude.ai/redirect/website.v1.2c1a175d-1103-4303-8934-538212393147). The challenge was preventing the model from searching when it shouldn’t, while preserving its ability to do extensive research when appropriate. The team built evals covering both directions: queries where the model should search (like finding the weather) and queries where it should answer from existing knowledge (like “who founded Apple?”). Striking the right balance between undertriggering (not searching when it should) or overtriggering (searching when it shouldn’t) was difficult, and took many rounds of refinements to both the prompts and the eval. As more example problems come up, we continue to add to evals to improve our coverage.
 
 ### Design the eval harness and graders
 
@@ -289,15 +379,99 @@ The people closest to product requirements and users are best positioned to defi
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0db40cc0e14402222a179fc6297b9c8818e97c8a-4584x2580.png&w=3840&q=75)
 
-*The process of creating an effective evaluation.*
+The process of creating an effective evaluation.
 
 ## How evals fit with other methods for a holistic understanding of agents
 
 Automated evaluations can be run against an agent in thousands of tasks without deploying to production or affecting real users. But this is just one of many ways to understand agent performance. A complete picture includes production monitoring, user feedback, A/B testing, manual transcript review, and systematic human evaluation.
 
-An overview of approaches for understanding AI agent performance
+## An overview of approaches for understanding AI agent performance
 
-<table class="Table-module-scss-module__Z3bHXa__table" role="table"><tbody role="rowgroup"><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><th class="body-3" role="columnheader">Method</th><th class="body-3" role="columnheader">Pros</th><th class="body-3" role="columnheader">Cons</th></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Automated evals<br/></strong><em>Running tests programmatically without real users</em><br/></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Faster iteration</li><li>Fully reproducible</li><li>No user impact</li><li>Can run on every commit</li><li>Tests scenarios at scale without requiring a prod deployment</li></ul></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Requires more up-front investment to build</li><li>Requires ongoing maintenance as product and model evolves to avoid drift</li><li>Can create false confidence if it doesn’t match real usage patterns</li></ul></td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Production monitoring<br/></strong><em>Tracking metrics and errors in live systems</em><br/></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Reveals real user behavior at scale</li><li>Catches issues that synthetic evals miss</li><li>Provides ground truth on how agents actually perform</li></ul></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Reactive; problems reach users before you know about them</li><li>Signals can be noisy</li><li>Requires investment in instrumentation</li><li>Lacks ground truth for grading</li></ul></td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>A/B testing<br/></strong><em>Comparing variants with real user traffic</em><br/></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Measures actual user outcomes (retention, task completion)</li><li>Controls for confounds</li><li>Scalable and systematic</li></ul></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Slow; days or weeks to reach significance and requires sufficient traffic</li><li>Only tests changes you deploy</li><li>Less signal on the underlying “why” for changes in metrics without being able to thoroughly review the transcripts</li></ul></td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>User feedback<br/></strong><em>Explicit signals like thumbs-down or bug reports</em><br/></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Surfaces problems you didn't anticipate</li><li>Comes with real examples from actual human users</li><li>The feedback often correlates with product goals</li></ul></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Sparse and self-selected</li><li>Skews toward severe issues</li><li>Users rarely explain <em>why</em> something failed</li><li>Not automated</li><li>Relying primarily on users to catch issues can have negative user impact</li></ul></td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Manual transcript review<br/></strong><em>Humans reading through agent conversations</em><br/></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Builds intuition for failure modes</li><li>Catches subtle quality issues automated checks miss</li><li>Helps calibrate what "good" looks like and grasp details</li></ul></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Time-intensive</li><li>Doesn't scale</li><li>Coverage is inconsistent</li><li>Reviewer fatigue or different reviewers can affect the signal quality</li><li>Typically only gives qualitative signal rather than clear quantitative grading</li></ul></td></tr><tr class="Table-module-scss-module__Z3bHXa__row" role="row"><td class="body-3" role="cell"><strong>Systematic human studies<br/></strong><em>Structured grading of agent outputs by trained raters</em><br/></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Gold-standard quality judgements from multiple human raters</li><li>Handles subjective or ambiguous tasks</li><li>Provides signal for improving model-based graders</li></ul></td><td class="body-3" role="cell"><ul class="TextBlock-module-scss-module__YX8MMq__list body-2 body-3"><li>Relatively expensive and slow turnaround</li><li>Hard to run frequently</li><li>Inter-rater disagreement requires reconciliation</li><li>Complex domains (legal, finance, healthcare) require human experts to conduct studies</li></ul></td></tr></tbody></table>
+Method
+
+Pros
+
+Cons
+
+**Automated evals**
+
+*Running tests programmatically without real users*
+
+- Faster iteration
+- Fully reproducible
+- No user impact
+- Can run on every commit
+- Tests scenarios at scale without requiring a prod deployment
+
+- Requires more up-front investment to build
+- Requires ongoing maintenance as product and model evolves to avoid drift
+- Can create false confidence if it doesn’t match real usage patterns
+
+**Production monitoring**
+
+*Tracking metrics and errors in live systems*
+
+- Reveals real user behavior at scale
+- Catches issues that synthetic evals miss
+- Provides ground truth on how agents actually perform
+
+- Reactive; problems reach users before you know about them
+- Signals can be noisy
+- Requires investment in instrumentation
+- Lacks ground truth for grading
+
+**A/B testing**
+
+*Comparing variants with real user traffic*
+
+- Measures actual user outcomes (retention, task completion)
+- Controls for confounds
+- Scalable and systematic
+
+- Slow; days or weeks to reach significance and requires sufficient traffic
+- Only tests changes you deploy
+- Less signal on the underlying “why” for changes in metrics without being able to thoroughly review the transcripts
+
+**User feedback**
+
+*Explicit signals like thumbs-down or bug reports*
+
+- Surfaces problems you didn't anticipate
+- Comes with real examples from actual human users
+- The feedback often correlates with product goals
+
+- Sparse and self-selected
+- Skews toward severe issues
+- Users rarely explain *why* something failed
+- Not automated
+- Relying primarily on users to catch issues can have negative user impact
+
+**Manual transcript review**
+
+*Humans reading through agent conversations*
+
+- Builds intuition for failure modes
+- Catches subtle quality issues automated checks miss
+- Helps calibrate what "good" looks like and grasp details
+
+- Time-intensive
+- Doesn't scale
+- Coverage is inconsistent
+- Reviewer fatigue or different reviewers can affect the signal quality
+- Typically only gives qualitative signal rather than clear quantitative grading
+
+**Systematic human studies**
+
+*Structured grading of agent outputs by trained raters*
+
+- Gold-standard quality judgements from multiple human raters
+- Handles subjective or ambiguous tasks
+- Provides signal for improving model-based graders
+
+- Relatively expensive and slow turnaround
+- Hard to run frequently
+- Inter-rater disagreement requires reconciliation
+- Complex domains (legal, finance, healthcare) require human experts to conduct studies
 
 These methods map to different stages of agent development. Automated evals are especially useful pre-launch and in CI/CD, running on each agent change and model upgrade as the first line of defense against quality problems. Production monitoring kicks in post-launch to detect distribution drift and unanticipated real-world failures. A/B testing validates significant changes once you have sufficient traffic. User feedback and transcript review are ongoing practices to fill the gaps: triage feedback constantly, sample transcripts to read weekly, and dig deeper as needed. Reserve systematic human studies for calibrating LLM graders or evaluating subjective outputs where human consensus serves as the reference standard.
 
@@ -315,26 +489,22 @@ The patterns vary by agent type, but the fundamentals described here are constan
 
 AI agent evaluation is still a nascent, fast-evolving field. As agents take on longer tasks, collaborate in multi-agent systems, and handle increasingly subjective work, we will need to adapt our techniques. We’ll keep sharing best practices as we learn more.
 
-### **Acknowledgements**
-
-Written by Mikaela Grace, Jeremy Hadfield, Rodrigo Olivares, and Jiri De Jonghe. We're also grateful to David Hershey, Gian Segato, Mike Merrill, Alex Shaw, Nicholas Carlini, Ethan Dixon, Pedram Navid, Jake Eaton, Alyssa Baum, Lina Tawfik, Karen Zhou, Alexander Bricken, Sam Kennedy, Robert Ying, and others for their contributions. Special thanks to the customers and partners we have learned from through collaborating on evals, including iGent, Cognition, Bolt, Sierra, Vals.ai, Macroscope, PromptLayer, Stripe, Shopify, the Terminal Bench team, and more. This work reflects the collective efforts of several teams who helped develop the practice of evaluations at Anthropic.
-
 ## Appendix: Eval frameworks
 
-Several open-source and commercial frameworks can help teams implement agent evaluations without building infrastructure from scratch. The right choice depends on your agent type, existing stack, and whether you need offline evaluation, production observability, or both.  
-  
-[Harbor](https://harborframework.com/) is designed for running agents in containerized environments, with infrastructure for running trials at scale across cloud providers and a standardized format for defining tasks and graders. Popular benchmarks like Terminal-Bench 2.0 ship through the Harbor registry, making it easy to run established benchmarks along with custom eval suites.  
-  
-[Braintrust](https://www.braintrust.dev/) is a platform that combines offline evaluation with production observability and experiment tracking—useful for teams that need to both iterate during development and monitor quality in production. Its `autoevals` library includes pre-built scorers for factuality, relevance, and other common dimensions.   
-  
+Several open-source and commercial frameworks can help teams implement agent evaluations without building infrastructure from scratch. The right choice depends on your agent type, existing stack, and whether you need offline evaluation, production observability, or both.
+
+[Harbor](https://harborframework.com/) is designed for running agents in containerized environments, with infrastructure for running trials at scale across cloud providers and a standardized format for defining tasks and graders. Popular benchmarks like Terminal-Bench 2.0 ship through the Harbor registry, making it easy to run established benchmarks along with custom eval suites.
+
+[Braintrust](https://www.braintrust.dev/) is a platform that combines offline evaluation with production observability and experiment tracking—useful for teams that need to both iterate during development and monitor quality in production. Its `autoevals` library includes pre-built scorers for factuality, relevance, and other common dimensions.
+
 [LangSmith](https://docs.langchain.com/langsmith/evaluation) offers tracing, offline and online evaluations, and dataset management with tight integration into the LangChain ecosystem. [Langfuse](https://langfuse.com/) provides similar capabilities as a self-hosted open-source alternative for teams with data residency requirements.
 
-[Arize](https://arize.com/) offers Phoenix, an open-source platform for LLM tracing, debugging, and offline or online evaluations, and AX, a SaaS offering that extends Phoenix for scale, optimization and monitoring.  
-  
+[Arize](https://arize.com/) offers Phoenix, an open-source platform for LLM tracing, debugging, and offline or online evaluations, and AX, a SaaS offering that extends Phoenix for scale, optimization and monitoring.
+
 Many teams combine multiple tools, roll their own eval framework, or just use simple evaluation scripts as a starting point. We find that while frameworks can be a valuable way to accelerate progress and standardize, they’re only as good as the eval tasks you run through them. It’s often best to quickly pick a framework that fits your workflow, then invest your energy in the evals themselves by iterating on high-quality test cases and graders.
 
-## Get the developer newsletter
+## Authors & Acknowledgments
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+### Acknowledgements
 
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+Written by Mikaela Grace, Jeremy Hadfield, Rodrigo Olivares, and Jiri De Jonghe. We're also grateful to David Hershey, Gian Segato, Mike Merrill, Alex Shaw, Nicholas Carlini, Ethan Dixon, Pedram Navid, Jake Eaton, Alyssa Baum, Lina Tawfik, Karen Zhou, Alexander Bricken, Sam Kennedy, Robert Ying, and others for their contributions. Special thanks to the customers and partners we have learned from through collaborating on evals, including iGent, Cognition, Bolt, Sierra, Vals.ai, Macroscope, PromptLayer, Stripe, Shopify, the Terminal Bench team, and more. This work reflects the collective efforts of several teams who helped develop the practice of evaluations at Anthropic.

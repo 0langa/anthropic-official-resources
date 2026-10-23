@@ -4,13 +4,11 @@ Oct 29, 2026 — 8:00 – 9:00 AM PT
 
 # Scaling AI Across the Portfolio: Anthropic and AWS for Private Equity
 
+**Registration for this session is now closed.**
+
 Private equity firms are putting AI to work across their portfolios at scale. The next step is to build on that momentum with a repeatable approach to broadening adoption and capturing value, while accounting for the individual needs of every business.
 
 Join Renee Knee, Director of Worldwide Private Equity at AWS, and Jeff Boes, Head of Private Equity at Anthropic, for a practical look at how firms are creatively scaling Claude on AWS across their portfolios, how to build for the future, and how to accelerate your own AI journey.
-
-Register for the webinar
-
-Fill out the form below to reserve your seat.
 
 ## Featured speakers
 

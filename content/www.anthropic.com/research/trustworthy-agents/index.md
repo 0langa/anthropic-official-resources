@@ -1,10 +1,32 @@
-Policy
+### Chapter 03: What the broader ecosystem can do
 
 # Trustworthy agents in practice
 
-Apr 9, 2026
+![Trustworthy agents in practice](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Faa2f55dfd3024c507675ebb4a45969ca32ae005c-2000x1125.jpg&w=1920&q=75)
 
-![Trustworthy agents in practice](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8661c2e36375dd20b7910c4c26f0b8b17481337d-2000x1125.png&w=3840&q=75)
+- Published
+
+  Apr 9, 2026
+- Team
+
+  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+- Topics
+
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Tool use](https://www.anthropic.com/search?topic=tool-use)See more...
+
+Related articles
+
+- Engineering
+
+  May 25, 2026
+
+  [How we contain Claude across products](https://www.anthropic.com/research/how-we-contain-claude)
+
+[View more](https://www.anthropic.com/search?topic=agents)
 
 AI “agents” represent the latest major shift in how people and organizations are using AI. A couple of years ago, AI models were only broadly available as chatbots—simple question-and-answer machines. Now, through products like [Claude Code](https://claude.com/product/claude-code) and [Claude Cowork](https://claude.com/product/cowork), AI models can do much more: they can write and execute code, manage files, and complete tasks that span multiple applications. This represents a new frontier for governance.
 
@@ -68,23 +90,3 @@ The measures described above represent what we can do within our own products. B
 None of these measures replace the work that model developers have to do to build safe and secure agents, but this is the kind of infrastructure no single company can build alone. We go into greater technical detail on this topic in [our submission](https://www-cdn.anthropic.com/43ec7e770925deabc3f0bc1dbf0133769fd03812.pdf) to NIST's Center for AI Standards and Innovation (CAISI) on agentic security.
 
 Agents will reshape how people work, and whether that happens on a foundation that is secure and open depends on how industry, civil society, and government build it together.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)

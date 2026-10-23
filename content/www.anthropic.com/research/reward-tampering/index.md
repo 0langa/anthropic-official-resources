@@ -1,10 +1,33 @@
-Alignment
+### Chapter 04: Caveats and conclusions
 
-# Sycophancy to subterfuge: Investigating reward tampering in language models
-
-Jun 17, 2024
+# **Sycophancy to subterfuge:**Investigating reward tampering in language models
 
 [Read the paper](https://arxiv.org/abs/2406.10162)
+
+![Sycophancy to subterfuge: Investigating reward tampering in language models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4ad886df7d9e1ab71cfe1b329eaba57aa82822b2-2000x1125.jpg&w=1920&q=75)
+
+- Published
+
+  Jun 17, 2024
+- Team
+
+  [Alignment](https://www.anthropic.com/research/team/alignment)
+- Topics
+
+  - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
+  - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)
+  - [Training](https://www.anthropic.com/search?topic=training)See more...
+
+Related articles
+
+- Alignment
+
+  Aug 28, 2026
+
+  [Automated researchers can reliably mitigate alignment failures](https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures)
+
+[View more](https://www.anthropic.com/search?topic=reward-hacking)
 
 Perverse incentives are everywhere. Think of the concept of "teaching to the test", where teachers focus on the narrow goal of exam preparation and fail to give their students a broader education. Or think of scientists working in the "publish or perish" academic system, publishing large numbers of low-quality papers to advance their careers at the expense of what we actually want them to produce: rigorous research.
 
@@ -72,26 +95,6 @@ For full details, read our new paper: [Sycophancy to Subterfuge: Exploring Rewar
 
 If you’d like to help us address these questions, or questions of AI Alignment Science more generally, you should consider applying for our [Research Engineer/Scientist role](https://boards.greenhouse.io/anthropic/jobs/4009165008).
 
-## Policy memo
+### Policy memo
 
-[Investigating Reward Tampering in Language Models Policy Memo](https://cdn.sanity.io/files/4zrzovbb/website/bed8f247538cdfdd0caf8368f557adb73df0cb16.pdf)
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
+[Investigating Reward Tampering in Language Models Policy Memo](https://www-cdn.anthropic.com/files/4zrzovbb/website/bed8f247538cdfdd0caf8368f557adb73df0cb16.pdf)

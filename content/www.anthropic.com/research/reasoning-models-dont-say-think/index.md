@@ -1,10 +1,35 @@
-Alignment
+### Chapter 04: Conclusions
 
 # Reasoning models don't always say what they think
 
-Apr 3, 2025
-
 [Read the paper](https://assets.anthropic.com/m/71876fabef0f0ed4/original/reasoning_models_paper.pdf)
+
+![Reasoning models don't always say what they think](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F33702364f0b9ed261cd4329ae798e3533b9c0a2f-1920x1080.jpg&w=1920&q=75)
+
+- Published
+
+  Apr 3, 2025
+- Team
+
+  [Alignment](https://www.anthropic.com/research/team/alignment)
+- Topics
+
+  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)
+  - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+  - [Training](https://www.anthropic.com/search?topic=training)See more...
+
+Related articles
+
+- Alignment
+
+  Nov 21, 2025
+
+  [From shortcuts to sabotage: Natural emergent misalignment from reward hacking](https://www.anthropic.com/research/emergent-misalignment-reward-hacking)
+
+[View more](https://www.anthropic.com/search?topic=reasoning)
 
 Since late last year, “reasoning models” have been everywhere. These are AI models—such as Claude 3.7 Sonnet—that *show their working*: as well as their eventual answer, you can read the (often fascinating and convoluted) way that they got there, in what’s called their “Chain-of-Thought”.
 
@@ -20,7 +45,7 @@ This poses a problem if we want to monitor the Chain-of-Thought for misaligned b
 
 ## Testing for faithfulness
 
-How do you test for faithfulness? Following [Turpin et al. (2023)](https://arxiv.org/abs/2305.04388), we subtly fed a model a hint about the answer to an evaluation question we asked it, and then checked to see if it “admitted” using the hint when it explained its reasoning if it used the hint (we did this for the reasoning models Claude 3.7 Sonnet from Anthropic and R1 from DeepSeek1). Some of the hints were correct and some were deliberately incorrect; the point was to observe how the model responded when they were provided.
+How do you test for faithfulness? Following [Turpin et al. (2023)](https://arxiv.org/abs/2305.04388), we subtly fed a model a hint about the answer to an evaluation question we asked it, and then checked to see if it “admitted” using the hint when it explained its reasoning if it used the hint (we did this for the reasoning models Claude 3.7 Sonnet from Anthropic and R1 from DeepSeek[1](https://www.anthropic.com/research/reasoning-models-dont-say-think)). Some of the hints were correct and some were deliberately incorrect; the point was to observe how the model responded when they were provided.
 
 Think of it like slipping a student a note saying “the answer is [A]” before an exam. If they write in their exam that they chose [A] at least in part because of the note, that’s good news: they’re being honest and faithful. But if they write down what they claim to be their reasoning process *without* mentioning the note, we might have a problem.
 
@@ -76,30 +101,10 @@ Overall, our results point to the fact that advanced reasoning models very often
 
 Read [the full paper](https://assets.anthropic.com/m/71876fabef0f0ed4/original/reasoning_models_paper.pdf).
 
-## Work with us
+### Work with us
 
 If you’re interested in pursuing work on Alignment Science, including on Chain-of-Thought faithfulness, we’d be interested to see your application. We're recruiting [Research Scientists and Research Engineers](https://job-boards.greenhouse.io/anthropic/jobs/4009165008).
 
-#### Footnotes
+## Footnotes
 
-1. We also ran further analyses on non-reasoning models, specifically Claude 3.5 Sonnet from Anthropic and V3 from DeepSeek. See the [full paper](https://assets.anthropic.com/m/71876fabef0f0ed4/original/reasoning_models_paper.pdf) for these results.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
+01We also ran further analyses on non-reasoning models, specifically Claude 3.5 Sonnet from Anthropic and V3 from DeepSeek. See the [full paper](https://assets.anthropic.com/m/71876fabef0f0ed4/original/reasoning_models_paper.pdf) for these results.

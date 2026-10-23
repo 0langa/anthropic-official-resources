@@ -1,10 +1,30 @@
-Announcements
+### Chapter 03: Apply for access
 
 # Expanding the Cyber Verification Program
 
-Oct 6, 2026
+- Published
 
-![Expanding the Cyber Verification Program](https://www-cdn.anthropic.com/images/4zrzovbb/website/d3dd09ad16c68461dc3fb01df5e84cf7ccafda6c-1000x1000.svg)
+  Oct 6, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Access](https://www.anthropic.com/search?topic=access)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)See more...
+
+Related articles
+
+- Frontier Red Team
+
+  Mar 19, 2025
+
+  [Progress from our Frontier Red Team](https://www.anthropic.com/research/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team)
+
+[View more](https://www.anthropic.com/search?topic=cybersecurity)
 
 We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals. The program now consists of three access tiers, which allow security teams to apply for the level of access that best suits their work. Each tier includes access to our most capable models, including Claude Opus 5.5, Claude Sonnet 5.5, Claude Mythos 5.1, and new models moving forward. Interested customers can [apply here](https://portal.anthropic.com/programs/cvp).
 
@@ -14,7 +34,7 @@ But defenders also need access to the best tools and most powerful capabilities 
 
 Now, we’re integrating these programs into one expanded offering, designed to give more security organizations access to the capabilities they need to protect their systems.
 
-### New access tiers
+## New access tiers
 
 The updated access tiers make specific model capabilities available to security professionals based on the scope of their cyber work. Each has different verification requirements and security controls.
 
@@ -75,23 +95,3 @@ Interested organizations can [apply to CVP here](https://portal.anthropic.com/pr
 CVP is available on the Claude Platform, Google Cloud’s Vertex AI, and Microsoft Foundry. CVP is only available on Amazon Bedrock for customers eligible for [Enterprise Frontier Safeguards](https://www.anthropic.com/news/enterprise-frontier-safeguards).
 
 If you’re blocked on work you think your tier should allow, you can [report it here](https://claude.com/form/cyber-block-false-positive-report-cvp-rejection-appeal). Full details on each tier can be found in our [Help Center](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

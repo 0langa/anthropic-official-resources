@@ -1,8 +1,33 @@
-Frontier Red Team
+### Chapter 05: Conclusion
 
 # Patterns and problems in emerging multiagent systems
 
-Aug 13, 2026
+![Patterns and problems in emerging multiagent systems](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F25145b7d272a7685dd4a579d4d43de9622b6c833-2000x1125.jpg&w=1920&q=75)
+
+- Published
+
+  Aug 13, 2026
+- Team
+
+  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+- Topics
+
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)See more...
+
+Related articles
+
+- Models
+
+  Jul 24, 2026
+
+  [Introducing Claude Opus 5](https://www.anthropic.com/news/claude-opus-5)
+
+[View more](https://www.anthropic.com/search?topic=agents)
 
 Models are improving and AI agents are taking on more tasks in shared codebases, markets, and other social systems. As a result, an increase in real-world interactions between agents is imminent. We've already [begun studying this](https://www.anthropic.com/features/project-deal), but still have a lot of uncertainty regarding what this looks like at scale. The trajectory is easy to imagine and hard to slow: current institutions are designed by and for people, resting on assumptions about the sufficiency of oversight at human speed. Some institutions will become human-AI hybrids; others where agents outcompete on speed or cost will become agent-only. The volume of agent-agent interaction could plausibly exceed that of human-human and human-agent interactions before the world understands the conditions for making such interactions go well.
 
@@ -141,27 +166,3 @@ Nothing above suggests that these failures are permanent—but nothing suggests 
 The conditions that allow multiagent interaction to go well will be discovered one way or another: either deliberately and early, or—and by default—in production, after agents’ interactions far outnumber ours. We would prefer the former.
 
 *Corresponding author: [Carolyn Zou](https://www.anthropic.com/research/cqz@anthropic.com)*
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
-
-## Subscribe to the Frontier Red Team newsletter
-
-Get updates on our latest red-teaming research and findings.

@@ -411,6 +411,8 @@ spec:
             - /etc/claude/environment-secret
             - --capacity
             - "4"
+            - --base-dir
+            - /workspace
           volumeMounts:
             - name: environment-secret
               mountPath: /etc/claude
@@ -464,6 +466,8 @@ services:
       - /run/secrets/environment-secret
       - --capacity
       - "4"
+      - --base-dir
+      - /workspace
     secrets:
       - environment-secret
     restart: always
@@ -486,8 +490,6 @@ On `SIGTERM`, the runner stops accepting new sessions. It then begins a graceful
 
 The runner keeps polling Anthropic throughout the drain. That keeps its sessions assigned to it, so another runner doesn't pick one up while your `post-session` hook is still saving uncommitted work.
 
-Because `--drain-wait-sec` defaults to `0`, a rolling restart cuts off any turn that's still running, and the session resumes on another runner without its [unpushed work](#additional-limitations). To let turns finish first, set `--drain-wait-sec` and raise your stop timeout to match.
-
 The logged time is the sum of these values:
 
 * `--drain-wait-sec` for step 1, 0 seconds by default
@@ -502,6 +504,18 @@ Allow more time if you set either of these flags:
 
 * **With [`--retire-at`](/docs/en/self-hosted-environments-reference#runner-cli-flags)**: leave enough time between the retire time and the time the host stops for typical turns to finish, plus the wait for background tasks that [Runner lifecycle](/docs/en/self-hosted-environments#runner-lifecycle) describes, plus the logged time. Compute the retire time at each launch, for example `date +%s` plus the runner's intended lifetime.
 * **With [`--defer-shutdown-max-min`](#defer-the-drain-past-the-first-signal)**: the stop timeout must also cover the minutes you configure and a further wait before the drain starts, 75 seconds at default settings. [Defer the drain past the first signal](#defer-the-drain-past-the-first-signal) explains both. The runner logs this longer time at startup too.
+
+### Let running turns finish before a restart
+
+To let running turns finish before a rolling restart, set `--drain-wait-sec`, and raise your stop timeout to at least that wait plus 80 seconds. With the default wait of `0`, a restart cuts off any turn that's still running, and the session resumes on another runner without its [unpushed work](#additional-limitations).
+
+* **`--drain-wait-sec`**: about as long as the turns and background tasks you want to let finish. It's a maximum: the wait ends early if they finish first.
+* **Your stop timeout**: `terminationGracePeriodSeconds` in Kubernetes, `stop_grace_period` in Docker Compose. For example, with `--drain-wait-sec 120`, replace the `90` in the [Kubernetes](#kubernetes) or [Docker Compose](#docker-compose) recipe with `200`.
+* **If you changed other shutdown settings**: the 80 seconds are for default settings. Start one runner with your flags, and use at least the number in its startup line `This runner needs up to`, which includes the wait. With [`--defer-shutdown-max-min`](#defer-the-drain-past-the-first-signal) set, use the larger number in the next startup line, after `Size the stop timeout to at least`. [Shutdown timing](#shutdown-timing) lists what adds to these numbers.
+
+> [!WARNING]
+>
+> If the stop timeout runs out during the wait, your host kills the runner with work still running. Its sessions get no `post-session` hook. The runner also doesn't deregister, so the control plane can take a few minutes and sometimes longer to requeue them.
 
 ### Post a status message before a restart
 
@@ -542,7 +556,7 @@ When the drain starts, and again on a forced exit, the runner logs how many `pos
 
 If a runner dies mid-session, the server requeues the session and another runner in the environment picks it up. That runner derives the checkout path from its own `--base-dir` and `--capacity`: `--capacity 1` checks out directly under `--base-dir`, and a `--capacity` above `1` uses per-session worktrees instead. When runners in the same environment use different values for either flag, the resumed session's working directory changes, and absolute paths the agent recorded earlier, in edits, tool calls, or its own notes, point at a location that no longer exists.
 
-Use the same `--base-dir` and `--capacity` on every runner in an environment, and don't use a per-host value such as an instance ID or hostname.
+Use the same `--base-dir` and `--capacity` on every runner in an environment, and don't use a per-host value such as an instance ID or hostname. Pass both flags explicitly, as the [Kubernetes](#kubernetes) and [Docker Compose](#docker-compose) recipes do, so that neither value depends on a default.
 
 The base directory defaults to `/workspace`, with the exception the [`--base-dir` reference row](/docs/en/self-hosted-environments-reference#runner-cli-flags) records. The runner needs write access to it. At startup, before registering, the runner creates the directory and confirms it can write to it, and exits with `cannot create or write to base directory` when it can't. A runner started as root creates the default `/workspace` itself. For a non-root runner, create the directory and give the runner's user ownership before starting the runner, or point `--base-dir` at a directory that user already owns.
 
@@ -678,7 +692,7 @@ Common issues:
 
   Once the runner is upgraded or the cause is fixed, retry the session or start a new one. If none of these checks finds the cause, [report an issue](#report-an-issue).
 
-  For the source the session pushes results to, a deleted branch fails the session. For a git source the session only reads from, the runner skips that source and continues on the remaining ones. The runner fails the session with the same error when skipping would leave it with no repository at all. Before v2.1.228, such a session started in an empty directory.
+  For the source the session pushes results to, a deleted branch fails the session. For a git source the session only reads from, the runner skips that source and continues on the remaining ones. The runner fails the session when skipping would leave it with no repository at all. Before v2.1.228, such a session started in an empty directory.
 * **A session starts without one of its repositories**: on a runner with no [`checkout` hook](/docs/en/self-hosted-environments-configuration#checkout), the git host can refuse the runner's access check for a repository the session only reads from. The runner then skips that repository, logs a `[runner:warn] could not access context source` line naming the refusal, and starts the session on the remaining ones.
 
   The runner skips only a clear refusal: the host answers that the repository wasn't found, git finds no credentials for the host, or authentication fails. A network failure, a timeout, or an HTTP `403` still fails the session start, as does a refusal for a repository the session pushes results to. The runner still fails a session that skipping would leave with no repository at all. With [`--use-anthropic-git-proxy`](#use-the-anthropic-git-proxy), the runner skips only a repository the git proxy itself denies.
@@ -711,6 +725,8 @@ Don't restart an [on-demand runner](/docs/en/self-hosted-environments-configurat
 * **Lost contact**: a runner that can't reach Anthropic for longer than its [lease](/docs/en/self-hosted-environments#session-lifecycle), for example while its host sleeps, can be removed from the environment. When a removed runner reconnects, it exits. Its log can show a `[runner:fatal]` line that contains `runner record gone server-side` or, after a longer outage, [`poll auth failed`](/docs/en/self-hosted-environments-quickstart#set-up-an-environment-and-runner). The runner doesn't register again by itself, so restart it.
 
 Configure your supervisor to restart the runner whenever it exits, to wait longer between restarts when the runner keeps exiting right after it starts, and to tell someone when that keeps happening.
+
+For production, have your supervisor restart the runner on a fresh disk, in a new container or VM, as [Harden your deployment](#harden-your-deployment) recommends.
 
 #### Recognize a failed start
 

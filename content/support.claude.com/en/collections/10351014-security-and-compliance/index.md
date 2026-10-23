@@ -1,6 +1,6 @@
 # Security and compliance
 
-18 articles
+19 articles
 
 [Does Anthropic Act as a Data Processor or Controller?](https://support.claude.com/en/articles/9267385-does-anthropic-act-as-a-data-processor-or-controller)
 
@@ -37,3 +37,5 @@
 [What are customer-managed encryption keys (CMEK)?](https://support.claude.com/en/articles/15505325-what-are-customer-managed-encryption-keys-cmek)
 
 [Inference hooks overview](https://support.claude.com/en/articles/16059458-inference-hooks-overview)
+
+[Use Claude Security](https://support.claude.com/en/articles/14661296-use-claude-security)

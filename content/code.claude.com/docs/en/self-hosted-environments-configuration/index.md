@@ -37,7 +37,7 @@ The runner sets the following in the wrapper's environment:
 | `CLAUDE_CONFIG_DIR` | Per-session Claude config directory, written at session start from the snapshot of the runner host's config that the runner captures at startup; see [Permissions and tool approval](#permissions-and-tool-approval). Writes here are isolated to this session. The directory stays under `<base-dir>/_sessions/` after the session ends unless you start the runner with [`--remove-session-state`](/docs/en/self-hosted-environments-reference#runner-cli-flags); see [Reuse a pre-warmed checkout](/docs/en/self-hosted-environments-deploy#reuse-a-pre-warmed-checkout). |
 | `CLAUDE_CODE_REMOTE_MCP_CONFIG` | Path to a file in `CLAUDE_CONFIG_DIR` holding the MCP server definitions that Anthropic's control plane delivered for this session. If your wrapper rebuilds the child's environment, carry this variable over. Without it, when the control plane updates the delivered servers, the child shuts down any stdio, HTTP, or SSE server your wrapper adds with [`--mcp-config`](/docs/en/cli-reference#cli-flags) that isn't in the update. Requires Claude Code v2.1.299 or later. |
 | `ANTHROPIC_BASE_URL` | The API base URL the child will use, delivered by the control plane per session and normally `https://api.anthropic.com`. Don't override it: the session's inference credential is an Anthropic-issued OAuth token that other providers don't accept. |
-| `CLAUDE_CODE_OAUTH_TOKEN` | The short-lived OAuth access token the child uses for model inference, scoped to model inference and file upload only, with a lifetime of about 30 minutes. The runner re-mints it before expiry and delivers the rotation over the child's stdin, so a wrapper that doesn't [keep stdin attached](#keep-stdin-and-file-descriptor-3-attached) sees only the initial value. Don't rely on your organization's IP allowlist to bound this token's use: treat it as a bearer credential that stays usable for roughly 30 minutes if it leaks, and don't log it, write it to disk, or forward it outside the session container. |
+| `CLAUDE_CODE_OAUTH_TOKEN` | The short-lived OAuth access token the child uses for model inference, with a lifetime of about 30 minutes. The runner re-mints it before expiry and delivers the rotation over the child's stdin, so a wrapper that doesn't [keep stdin attached](#keep-stdin-and-file-descriptor-3-attached) sees only the initial value. Don't rely on your organization's IP allowlist to bound this token's use: treat it as a bearer credential that stays usable for roughly 30 minutes if it leaks, and don't log it, write it to disk, or forward it outside the session container. |
 
 The wrapper also inherits the rest of the child's managed environment, including any server-provided environment variables. `exec` propagates all of it automatically; if your wrapper spawns the child another way, forward the full environment.
 
@@ -145,7 +145,9 @@ The hook fails when it exits non-zero, or exits 0 without leaving a usable check
 * **A repository the session pushes results to**: the runner fails the session, and on a non-zero exit surfaces the tail of the script's stderr to the user. Write the reason to stderr as one short line, write it last, and then exit non-zero. Don't print secrets to stderr, and remove `set -x` before you deploy the hook.
 
   If git's `couldn't find remote ref` appears in roughly the last 4 KB of the hook's stderr, the runner reports a deleted branch instead. The session's error message then says the branch no longer exists on the remote and asks the user to restore it. If that branch exists, see [A session fails with `no longer exists on the remote` or `couldn't find remote ref`](/docs/en/self-hosted-environments-deploy#no-longer-exists-on-the-remote).
-* **A repository the session only reads from**, such as a repository added to a running session: the runner logs a `[runner:warn]` line with the failure detail, posts a `Skipped` step to the session, removes whatever the hook left at the checkout path, and continues with the remaining repositories. If skipping leaves the session with no repository at all, the runner fails the session anyway.
+* **A repository the session only reads from**, such as a repository added to a running session: the runner skips it and continues with the remaining repositories. The runner posts a `Skipped` step to the session and removes whatever the hook left at the checkout path.
+
+  When the `Skipped` step mentions the checkout hook, find the failure detail on the `[runner:warn] checkout hook failed` line in the runner's log. When the step says a source ref `no longer exists on remote`, see [A session fails with `no longer exists on the remote` or `couldn't find remote ref`](/docs/en/self-hosted-environments-deploy#no-longer-exists-on-the-remote). If skipping leaves the session with no repository at all, the runner fails the session anyway.
 
 When the hook succeeds, the runner removes the checkout path after the session ends.
 
@@ -275,7 +277,7 @@ The orchestrator runs `${hooks-dir}/spawn-runner` once per spawn request. The ho
 | :- | :- |
 | `CLAUDE_RUNNER_WORK_ORDER_FILE` | Path to a temp file containing the signed work-order JWT the new runner registers with. Deleted after the hook exits. Don't log the file's contents. |
 | `CLAUDE_RUNNER_ORDER_ID` | Opaque idempotency key, unique per spawn request and safe for Kubernetes resource names. Use only the order ID as your provisioner's dedup key. |
-| `CLAUDE_RUNNER_SESSION_ID` | The session this request is for. It repeats on every re-request for the session, so use it for logging and routing, not as a dedup key. Empty for pre-warming requests, which boot a standby runner ahead of any specific session when [`--min-idle`](/docs/en/self-hosted-environments-reference#orchestrator-cli-flags) is set, so don't assume the variable is set. |
+| `CLAUDE_RUNNER_SESSION_ID` | The session this request is for, as the `session_...` ID in the session's URL. It repeats on every re-request for the session, so use it for logging and routing, not as a dedup key. Empty for pre-warming requests, which boot a standby runner ahead of any specific session when [`--min-idle`](/docs/en/self-hosted-environments-reference#orchestrator-cli-flags) is set, so don't assume the variable is set. |
 | `CLAUDE_RUNNER_SESSION_UUID` | The same session ID in canonical UUID form. Empty for pre-warming requests. |
 | `CLAUDE_RUNNER_ATTEMPT` | A per-session counter to use for logging. It isn't a retry count or a request count. `0` for pre-warming requests, though a request for a session can carry `0` too. |
 | `CLAUDE_RUNNER_ORDER_SERVER_TIME` | Server time from the poll response's HTTP `Date` header. When the hook verifies the work-order JWT's `exp`, compare against this value instead of the local clock to tolerate skew. Empty when the gateway omitted the header. |
@@ -345,6 +347,15 @@ Before v2.1.305, a hook that had exited still reached [`--hook-timeout`](/docs/e
 
 * **Activity tab**, in a failed session's spawn error: `spawn-runner hook timed out after 60000ms`, or the last lines on the hook's stderr.
 * **Orchestrator log**: `timed out after 60000ms, sending SIGTERM to process tree`.
+
+#### Exit the hook without waiting for the runner
+
+If every on-demand runner stops about 60 seconds after its hook starts, and your hook runs again for the same session, check whether the hook waits for the runner. The 60 seconds are the default [`--hook-timeout`](/docs/en/self-hosted-environments-reference#orchestrator-cli-flags), so if you set your own, runners stop that long after the hook starts.
+
+A hook that starts `claude self-hosted-runner` on the orchestrator's host and waits for it, in the foreground or with `wait`, is still running when `--hook-timeout` ends. The orchestrator then stops the hook and the processes running under it, including that runner and the session's Claude process, so a turn that's still running is cut off.
+
+* **To confirm that the timeout is what stops your runners**: look in the orchestrator's log for `timed out after 60000ms, sending SIGTERM to process tree` on every spawn request. The `60000` is your `--hook-timeout` in milliseconds.
+* **To fix it**: have the hook submit the runner to your platform and exit 0. If you raise `--hook-timeout` instead, the runner only stops later.
 
 #### Keep transient failures retryable in a shell hook
 
@@ -592,6 +603,13 @@ case "$in" in *'"stop_hook_active":true'*) exit 0 ;; esac
 
 d="$CLAUDE_PROJECT_DIR"
 
+# Hardening: this script runs outside Claude Code's Bash sandbox, so its git
+# calls skip some features that can start a program named in the checkout's
+# git settings. They don't skip them all, so don't count on the sandbox alone.
+GIT_OPTIONAL_LOCKS=0
+export GIT_OPTIONAL_LOCKS
+git() { command git -c core.fsmonitor= -c core.hooksPath=/dev/null "$@"; }
+
 # Not a git repo → nothing to nudge.
 git -C "$d" rev-parse --git-dir >/dev/null 2>&1 || exit 0
 
@@ -602,7 +620,7 @@ git -C "$d" rev-parse --git-dir >/dev/null 2>&1 || exit 0
 # entirely — operator-seeded settings and CLI-written runtime state
 # (scheduler lock, worktrees, routine state) live there and neither is
 # "uncommitted work" the model needs to push.
-s=$(git -C "$d" status --porcelain -- . ':(exclude).claude/' 2>/dev/null)
+s=$(git -C "$d" status --porcelain --ignore-submodules=dirty -- . ':(exclude).claude/' 2>/dev/null)
 if [ -n "$s" ]; then
   printf '{"decision":"block","reason":"There are uncommitted changes in the repository. Please commit and push these changes to the remote branch."}'
   exit 0
@@ -646,6 +664,35 @@ exit 0
 ```
 
 The hook prompts Claude to commit and push before the session ends, and stays silent when the directory isn't a git repository or has no remote. For a session with several repositories, see [what `$CLAUDE_PROJECT_DIR` names](#repository-settings-in-sessions-with-several-repositories).
+
+The Stop hook only prompts Claude. For the commit and push to work, set up:
+
+* **A git identity**: set `user.name` and `user.email` in your runner image, or start the runner with [`--configure-git`](/docs/en/self-hosted-environments-deploy#let-the-runner-configure-git)
+* **Push credentials**: use [Anthropic-managed git](/docs/en/self-hosted-environments-deploy#use-the-anthropic-git-proxy), or supply credentials as [Ship git config in your image](/docs/en/self-hosted-environments-deploy#ship-git-config-in-your-image) describes
+* **For resumed sessions**: set [`--push-outcome-on-release`](/docs/en/self-hosted-environments-reference#runner-cli-flags) on every runner in the environment. A resumed session then starts from the commits that Claude pushed to the session's branch. For the flag's limits, see [Resumed sessions lose unpushed work](/docs/en/self-hosted-environments-deploy#additional-limitations).
+
+The Stop hook prompts at most once per turn. If the commit or push fails, the turn still ends. Look for git's error in the session and fix what it names.
+
+On a large checkout, raise `timeout` in the Stop hook settings and restart the runners. The script's `git status` skips `core.fsmonitor`, so it can take longer than the 10 seconds set there. A hook that times out ends the turn with no prompt.
+
+### Submodules and the Stop hook
+
+The Stop hook checks which commit each submodule is on, not the files inside it:
+
+* **A new commit in a submodule**: Claude is prompted until the parent repository records it, even if `.gitmodules` sets `ignore = all` for that submodule
+* **Uncommitted files in a submodule**: Claude isn't prompted, so that work stays only on the runner's disk
+* **Unpushed commits in a submodule**: the Stop hook doesn't check whether they're pushed, so the parent can point at a commit that nobody else can fetch
+
+### Replace an earlier copy of the Stop hook script
+
+Search your copy of `stop-hook-nudge.sh` for `GIT_OPTIONAL_LOCKS`. If it's missing, you have an earlier copy. Replace it with the [current script](#prompt-sessions-to-push-their-work) wherever you installed it, then restart the runners. Keep your Stop hook settings, except to raise `timeout` on a large checkout.
+
+* **When**: if your sessions run with the [Bash sandbox](/docs/en/sandboxing) on, replace it now. Otherwise, replace it at your next image build or runner restart.
+* **What changes**: uncommitted files in a submodule no longer prompt Claude. A new commit in a submodule that `.gitmodules` marks `ignore = all` now does.
+
+> [!WARNING]
+>
+> Hooks run outside the Bash sandbox, so the current script's git calls skip some git features that can start a program named in the checkout's git settings. They don't skip them all. Don't count on the sandbox alone, and isolate sessions as [Harden your deployment](/docs/en/self-hosted-environments-deploy#harden-your-deployment) describes.
 
 ## Permissions and tool approval
 

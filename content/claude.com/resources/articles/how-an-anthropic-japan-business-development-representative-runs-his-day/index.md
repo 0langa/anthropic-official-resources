@@ -109,7 +109,13 @@ Three things I'd pass on to anyone building their own fleet.
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 19, 2026
+[ArticleOct 22, 2026
+
+### Building agents: When to fold subagents into your main agent loop
+
+When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 19, 2026
 
 ### Redesigning source control at Anthropic
 
@@ -133,15 +139,7 @@ A reference implementation walkthrough for a scheduled Claude Managed Agents aut
 
 Claude Platform
 
-(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[ArticleOct 7, 2026
-
-### Automating eval design and hillclimbing with Claude
-
-Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
-
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
+(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
 
 ## Transform how your organization operates with Claude
 

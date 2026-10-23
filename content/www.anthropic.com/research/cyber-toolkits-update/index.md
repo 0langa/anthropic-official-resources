@@ -1,10 +1,34 @@
-Frontier Red Team
+### Chapter 01: Appendix: full transcripts
 
 # AI models are showing a greater ability to find and exploit vulnerabilities on realistic cyber ranges
 
-Jan 16, 2026
+![AI models are showing a greater ability to find and exploit vulnerabilities on realistic cyber ranges](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcfdbbd3fc98d1e6db87ba6f1dce8da3f3fc3fde4-2000x1125.jpg&w=1920&q=75)
 
-***In a recent evaluation of AI models’ cyber capabilities, current Claude models can now succeed at multistage attacks on networks with dozens of hosts using only standard, open-source tools, instead of the custom tools needed by previous generations. This illustrates how barriers to the use of AI in relatively autonomous cyber workflows are rapidly coming down, and highlights the importance of security fundamentals like promptly patching known vulnerabilities.***
+- Published
+
+  Jan 16, 2026
+- Team
+
+  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+- Topics
+
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+
+*In a recent evaluation of AI models’ cyber capabilities, current Claude models can now succeed at multistage attacks on networks with dozens of hosts using only standard, open-source tools, instead of the custom tools needed by previous generations. This illustrates how barriers to the use of AI in relatively autonomous cyber workflows are rapidly coming down, and highlights the importance of security fundamentals like promptly patching known vulnerabilities.*
+
+Related articles
+
+- Models
+
+  Jun 30, 2026
+
+  [Introducing Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5)
+
+[View more](https://www.anthropic.com/search?topic=cybersecurity)
 
 [Last year](https://red.anthropic.com/2025/cyber-toolkits/), we wrote about experiments with Carnegie Mellon University’s [CyLab](https://www.cylab.cmu.edu/) in which we placed Claude in simulated networks that are more sophisticated and realistic than the environments typical of capture-the-flag-style [cyber competitions](https://red.anthropic.com/2025/cyber-competitions/). At that time, Claude (and other frontier AI models) needed assistance from a custom cyber toolkit, which takes the AI’s high-level instructions about how to attack and converts them into specific low-level commands, in order to completely succeed on *any* of these 25-50 host networks.
 
@@ -16,15 +40,13 @@ You can read more about these tests at Incalmo’s [website](https://www.incalmo
 
 Embedded media: https://assets.claude.ai/brand/artifacts/research/frontier-red-team/cyber-range-evaluation.html?embed=true
 
-## Acknowledgements
-
-Thanks to Brian Singer for the data and assistance in preparing this post.
-
 ## Appendix: full transcripts
 
 See below for the full transcripts:
 
 **Claude Sonnet 3.5 with Bash and Kali**
+
+Expand
 
 ```
 2024-11-02 23:17:21,767 INFO:LLM logger initialized
@@ -2086,6 +2108,8 @@ See below for the full transcripts:
 
 **Claude Sonnet 3.5 with Incalmo**
 
+Expand
+
 ```
 2024-08-19 22:19:31,024 INFO:LLM logger initialized
                 2024-08-19 22:19:34,746 INFO:Claude's response: 
@@ -3228,6 +3252,8 @@ See below for the full transcripts:
 
 **Claude Sonnet 4.5 with Bash and Kali**
 
+Expand
+
 ```
 2025-09-24 07:13:54,806 INFO:sonnet4-5 response:
                 Excellent! This is a Struts2 Showcase application. Struts2 has had several critical vulnerabilities,
@@ -4087,28 +4113,8 @@ See below for the full transcripts:
                 data exfiltration.
 ```
 
-####
+## Authors & Acknowledgments
 
-## Related content
+### Acknowledgements
 
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
-
-## Subscribe to the Frontier Red Team newsletter
-
-Get updates on our latest red-teaming research and findings.
+Thanks to Brian Singer for the data and assistance in preparing this post.

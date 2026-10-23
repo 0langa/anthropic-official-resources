@@ -1,9 +1,9 @@
 # Coverage report
 
-Archived pages: **5436**
-Discovered resource pages: **5528**
-Unarchived pages: **92**
-Actionable missing pages: **3**
+Archived pages: **5449**
+Discovered resource pages: **5539**
+Unarchived pages: **90**
+Actionable missing pages: **1**
 Terminal unarchived pages: **89** (blocked 27, gone 39, out of scope 23)
 Archived pages retained with partial quality notes: **492**
 
@@ -12,8 +12,8 @@ Archived pages retained with partial quality notes: **492**
 | Host | Archived | Discovered |
 | --- | ---: | ---: |
 | academy.claude.com | 854 | 858 |
-| claude.com | 832 | 840 |
+| claude.com | 834 | 842 |
 | code.claude.com | 254 | 256 |
-| platform.claude.com | 2123 | 2153 |
-| support.claude.com | 735 | 771 |
-| www.anthropic.com | 638 | 650 |
+| platform.claude.com | 2127 | 2158 |
+| support.claude.com | 739 | 772 |
+| www.anthropic.com | 641 | 653 |

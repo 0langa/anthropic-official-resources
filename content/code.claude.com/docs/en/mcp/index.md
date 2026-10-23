@@ -762,7 +762,7 @@ Claude Code marks a remote server as needing authentication when the server resp
 * For a server whose `Authorization` header you configured, in `headers` or through a [`headersHelper`](#use-dynamic-headers-for-custom-authentication), a `401` or `403` while connecting doesn't flag the server, because the credential to fix is the one you configured. Claude Code reports the connection as failed instead. If you set that header from a `${VAR}` reference, check whether that variable is one Claude Code [reads as empty](#credential-variables-that-read-as-empty).
 * For a connector [delivered to a cloud session](#how-connectors-reach-claude-code), Claude Code doesn't run a sign-in flow, because the session's proxy authenticates to the connector with the authorization you granted in claude.ai. When a connector there needs authorizing again, reconnect it at [claude.ai/customize/connectors](https://claude.ai/customize/connectors) rather than from the session.
 
-When a request to an OAuth server you already signed in to returns `401 Unauthorized`, Claude Code refreshes the stored token, reconnects, and retries the request once. It flags the server in `/mcp` only if that retry also fails.
+When an OAuth server you already signed in to rejects your stored token with `401 Unauthorized`, Claude Code refreshes the token, reconnects, and retries the request once. It flags the server in `/mcp` only if that retry also fails. In a `claude -p` or Agent SDK run on macOS, a request that Claude Code sent while it couldn't read your stored token fails with a [stored-credentials error](/docs/en/errors#couldnt-read-the-stored-credentials-for-mcp-server) instead.
 
 When the server rejects the stored refresh token, Claude Code immediately shows a notice pointing at `/mcp`. Open `/mcp` and select **Re-authenticate** on the server to sign in again before the next tool call fails.
 
@@ -1401,6 +1401,26 @@ The following `tools/list` entry marks one tool as always requiring approval.
 Some surfaces, such as [Remote Control](/docs/en/remote-control) and applications built on the [Agent SDK](/docs/en/agent-sdk/overview), normally let you approve tool calls with one tap. For a tool marked with this annotation, Claude Code withholds the one-tap action and shows the tool's full permission prompt instead, so approval still comes from a person answering the prompt rather than a tap.
 
 Claude Code withholds one-tap approval the same way for any permission request that only the terminal dialog can render in full, such as one that carries a safety warning or an always-allow option the remote surface can't show. You answer that request in the terminal dialog rather than from Remote Control.
+
+## Mark tools that are safe to call twice
+
+If you build an MCP server, mark the tools that are safe to call twice so Claude Code can repeat a call that was pending when a connection closed. Claude Code can repeat such a call to an HTTP server or a [claude.ai connector](#use-mcp-servers-from-claude-ai) once, on a new connection. A call Claude Code doesn't repeat can fail with [`connection closed before the tool call was answered`](/docs/en/errors#connection-closed-before-the-tool-call-was-answered).
+
+To mark a tool, set one of these `annotations` to `true` in its `tools/list` entry:
+
+* **`idempotentHint`**: the tool can change something, and calling it again with the same arguments is safe
+* **`readOnlyHint`**: the tool changes nothing. Claude Code also runs the tool's calls in parallel with other read-only calls.
+
+For example, these fields in a `tools/list` entry mark the `set_issue_status` tool as safe to repeat:
+
+```json theme={null}
+{
+  "name": "set_issue_status",
+  "annotations": {
+    "idempotentHint": true
+  }
+}
+```
 
 ## Respond to MCP elicitation requests
 

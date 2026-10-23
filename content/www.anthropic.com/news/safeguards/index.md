@@ -34,11 +34,13 @@ Date
   [### Strengthening our defenses against distillation attacks](https://www.anthropic.com/news/distillation-defenses)[Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.](https://www.anthropic.com/news/distillation-defenses)
 - [### Developing Enterprise Frontier Safeguards with our customers](https://www.anthropic.com/news/enterprise-frontier-safeguards)
 
-  Sep 1, 2026
+  [We’re announcing Enterprise Frontier Safeguards (EFS), a solution that combines the privacy of zero data retention with state-of-the-art safeguards for detecting misuse. EFS works by storing data in cloud infrastructure controlled by the customer, not Anthropic.](https://www.anthropic.com/news/enterprise-frontier-safeguards)
 
   Sep 1, 2026
 
-  [### Developing Enterprise Frontier Safeguards with our customers](https://www.anthropic.com/news/enterprise-frontier-safeguards)
+  Sep 1, 2026
+
+  [### Developing Enterprise Frontier Safeguards with our customers](https://www.anthropic.com/news/enterprise-frontier-safeguards)[We’re announcing Enterprise Frontier Safeguards (EFS), a solution that combines the privacy of zero data retention with state-of-the-art safeguards for detecting misuse. EFS works by storing data in cloud infrastructure controlled by the customer, not Anthropic.](https://www.anthropic.com/news/enterprise-frontier-safeguards)
 - [### Improving our alignment and security efforts](https://www.anthropic.com/news/improving-alignment-security-efforts)
 
   [On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.](https://www.anthropic.com/news/improving-alignment-security-efforts)

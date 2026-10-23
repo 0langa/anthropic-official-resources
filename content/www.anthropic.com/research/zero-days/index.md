@@ -1,8 +1,32 @@
-Frontier Red Team
+### Chapter 04: Conclusion
 
 # Evaluating and mitigating the growing risk of LLM-discovered 0-days
 
-Feb 5, 2026
+![Evaluating and mitigating the growing risk of LLM-discovered 0-days](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F20fe001657324f2d75eccc9b8c1b9f43e5400d84-2000x1125.jpg&w=1920&q=75)
+
+- Published
+
+  Feb 5, 2026
+- Team
+
+  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+- Topics
+
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Open source](https://www.anthropic.com/search?topic=open-source)
+  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+
+Related articles
+
+- Frontier Red Team
+
+  Apr 9, 2026
+
+  [Trustworthy agents in practice](https://www.anthropic.com/research/trustworthy-agents)
+
+[View more](https://www.anthropic.com/search?topic=cybersecurity)
 
 *Nicholas Carlini\*, Keane Lucas\*, Evyatar Ben Asher\*, Newton Cheng, Hasnain Lakhani, David Forsythe, and Kyla Guru  
 \*indicates equal contribution*
@@ -71,6 +95,8 @@ Briefly, Claude found that this library assumes compressed data will always be 
 
 CGIF had implicitly assumed that the compressed size of a compressed string would always be less than the uncompressed size—something that is almost always true. However, Claude immediately recognized the vulnerability here:
 
+Expand
+
 ```
 To trigger overflow, we need:
 
@@ -125,28 +151,10 @@ This is ongoing work, and we'll have more to share soon—including what we're l
 
 - *Updated the author list*
 
-####
+## Authors & Acknowledgments
 
-## Related content
+### Contributors
 
-### Designing more efficient quantum circuits with Claude
+Nicholas Carlini\*, Keane Lucas\*, Evyatar Ben Asher\*, Newton Cheng, Hasnain Lakhani, David Forsythe, and Kyla Guru
 
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
-
-## Subscribe to the Frontier Red Team newsletter
-
-Get updates on our latest red-teaming research and findings.
+\*indicates equal contribution

@@ -320,9 +320,9 @@ Update **/my-voice** with what I just changed in that draft: I never open with "
 
 ### Refresh the profile monthly[](https://academy.claude.com/use-cases/my-voice)
 
-Your writing shifts as your role does. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and Cowork re-reads the last 90 days each month and merges what's new into the skill without losing the rules you've added by hand.
+Your writing shifts as your role does. Ask Cowork to schedule the refresh, or open **Scheduled** in the Cowork sidebar, and Cowork re-reads the last 90 days each month and merges what's new into the skill without losing the rules you've added by hand.
 
-**/schedule** Every Sunday at 6pm, re-read my sent mail and Slack from the last 90 days, update the /my-voice profile with anything new, and keep every rule I've added manually intact.
+Set up a scheduled task for every Sunday at 6pm: re-read my sent mail and Slack from the last 90 days, update the /my-voice profile with anything new, and keep every rule I've added manually intact.
 
 
 

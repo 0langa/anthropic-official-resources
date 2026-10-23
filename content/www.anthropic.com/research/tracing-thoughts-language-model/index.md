@@ -1,10 +1,35 @@
-Interpretability
+### Chapter 02: Work with us
 
 # Tracing the thoughts of a large language model
 
-Mar 27, 2025
-
 [Read the paper](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
+
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FBj9BD2D3DzA%2Fsddefault.jpg&w=3840&q=75)
+
+- Published
+
+  Mar 27, 2025
+- Team
+
+  [Interpretability](https://www.anthropic.com/research/team/interpretability)
+- Topics
+
+  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+  - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
+  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
+  - [Hallucination](https://www.anthropic.com/search?topic=hallucination)
+  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)See more...
+
+Related articles
+
+- Interpretability
+
+  Jul 6, 2026
+
+  [A global workspace in language models](https://www.anthropic.com/research/global-workspace)
+
+[View more](https://www.anthropic.com/search?topic=interpretability)
 
 Language models like Claude aren't programmed directly by humans—instead, they‘re trainedon large amounts of data. During that training process, they learn their own strategies to solve problems. These strategies are encoded in the billions of computations a model performs for every word it writes. They arrive inscrutable to us, the model’s developers. This means that we don’t understand how models do most of the things they do.
 
@@ -144,23 +169,3 @@ A description of our new interpretability methods can be found in our first pape
 ## Work with us
 
 If you are interested in working with us to help interpret and improve AI models, we have open roles on our team and we’d love for you to apply. We’re looking for [Research Scientists](https://job-boards.greenhouse.io/anthropic/jobs/4020159008) and [Research Engineers](https://job-boards.greenhouse.io/anthropic/jobs/4020305008).
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)

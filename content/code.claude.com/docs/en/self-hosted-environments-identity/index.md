@@ -193,7 +193,7 @@ The table below lists the session token claims relevant to verification. Read id
 | `iat` | number | Issued-at as a Unix timestamp. |
 | `jti` | string | Unique token identifier. |
 | `ccr:role` | string | Always `session_worker` for session tokens. |
-| `ccr:session_id` | string | The session ID. Same value as the suffix of `sub`. |
+| `ccr:session_id` | string | The session ID in `cse_...` form. Same value as the suffix of `sub`, and the same string as [`CLAUDE_CODE_REMOTE_SESSION_ID`](/docs/en/self-hosted-environments-configuration#wrapper-scripts). To match it to the `CLAUDE_RUNNER_SESSION_ID` that [lifecycle hooks](/docs/en/self-hosted-environments-configuration#lifecycle-hooks) receive, replace the `cse_` prefix with `session_`. |
 | `ccr:pool_id` | string | Your environment ID. Same value that appears in `aud`. |
 | `ccr:org_id` | string | Your Anthropic organization ID. |
 | `ccr:account_id` | string | The creating user's Anthropic account ID: the value of `act.sub` without the `user:` prefix, a tagged `user_...` ID. The same value the [spawn-runner hook](/docs/en/self-hosted-environments-configuration#the-spawn-runner-hook)'s `CLAUDE_RUNNER_ACCOUNT_ID` carries and [`--lock-to-account`](/docs/en/self-hosted-environments-reference#runner-cli-flags) accepts, so the three compare as equal strings. |

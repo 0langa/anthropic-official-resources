@@ -1,12 +1,34 @@
-Alignment
+### Chapter 05: Conclusion
 
 # Many-shot jailbreaking
 
-Apr 2, 2024
-
 [Read the paper](https://www-cdn.anthropic.com/af5633c94ed2beb282f6a53c595eb437e8e7b630/Many_Shot_Jailbreaking__2024_04_02_0936.pdf)
 
-![Many-shot jailbreaking](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F681e6c5e1a09eec211e4d7941deb739f31944331-2000x1125.png&w=3840&q=75)
+![Many-shot jailbreaking](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fbc17437cb56cf9eb126e457b3e5f1e2e66ca7b35-2000x1125.jpg&w=1920&q=75)
+
+- Published
+
+  Apr 2, 2024
+- Team
+
+  [Alignment](https://www.anthropic.com/research/team/alignment)
+- Topics
+
+  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)See more...
+
+Related articles
+
+- Alignment
+
+  Jan 9, 2026
+
+  [Next-generation Constitutional Classifiers: More efficient protection against universal jailbreaks](https://www.anthropic.com/research/next-generation-constitutional-classifiers)
+
+[View more](https://www.anthropic.com/search?topic=jailbreaks)
 
 We investigated a “jailbreaking” technique — a method that can be used to evade the safety guardrails put in place by the developers of large language models (LLMs). The technique, which we call “many-shot jailbreaking”, is effective on Anthropic’s own models, as well as those produced by other AI companies. We briefed other AI developers about this vulnerability in advance, and have implemented mitigations on our systems.
 
@@ -46,8 +68,6 @@ However, simply including a very large number of faux dialogues preceding the fi
 
 Many-shot jailbreaking is a simple long-context attack that uses a large number of demonstrations to steer model behavior. Note that each “...” stands in for a full answer to the query, which can range from a sentence to a few paragraphs long: these are included in the jailbreak, but were omitted in the diagram for space reasons.
 
-### 
-
 In our study, we showed that as the number of included dialogues (the number of “shots”) increases beyond a certain point, it becomes more likely that the model will produce a harmful response (see figure below).
 
 ![A graph showing the increasing effectiveness of many-shot jailbreaking with an increasing number of shots.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F54c6fa9a0cdb9510a35c88391d53dc11f608a9c7-2200x1408.png&w=3840&q=75)
@@ -70,8 +90,6 @@ This is illustrated in the two plots below: the left-hand plot shows the scaling
 
 The effectiveness of many-shot jailbreaking increases as we increase the number of “shots” (dialogues in the prompt) according to a scaling trend known as a power law (left-hand plot; lower on this metric indicates a greater number of harmful responses). This seems to be a general property of in-context learning: we also find that entirely benign examples of in-context learning follow similar power laws as the scale increases (right-hand plot). Please see the paper for a description of each of the benign tasks. The model for the demonstration is Claude 2.0.
 
-### 
-
 This idea about in-context learning might also help explain another result reported in our paper: that many-shot jailbreaking is often more effective—that is, it takes a shorter prompt to produce a harmful response—for larger models. The larger an LLM, the better it tends to be at in-context learning, at least on some tasks; if in-context learning is what underlies many-shot jailbreaking, it would be a good explanation for this empirical result. Given that larger models are those that are potentially the most harmful, the fact that this jailbreak works so well on them is particularly concerning.
 
 ## Mitigating many-shot jailbreaking
@@ -89,23 +107,3 @@ The ever-lengthening context window of LLMs is a double-edged sword. It makes th
 We hope that publishing on many-shot jailbreaking will encourage developers of powerful LLMs and the broader scientific community to consider how to prevent this jailbreak and other potential exploits of the long context window. As models become more capable and have more potential associated risks, it’s even more important to mitigate these kinds of attacks.
 
 All the technical details of our many-shot jailbreaking study are reported in our [full paper](https://www-cdn.anthropic.com/af5633c94ed2beb282f6a53c595eb437e8e7b630/Many_Shot_Jailbreaking__2024_04_02_0936.pdf). You can read Anthropic’s approach to safety and security [at this link.](https://www.anthropic.com/responsible-disclosure-policy)
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)

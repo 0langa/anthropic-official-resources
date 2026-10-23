@@ -2,7 +2,7 @@
 
 
 
-cURL
+API version 2026-10-21cURL
 
 # Analytics
 
@@ -10,7 +10,7 @@ cURL
 
 
 
-cURL
+API version 2026-10-21cURL
 
 ##### Models
 
@@ -885,7 +885,7 @@ BetaAnalyticsCostUsersItem object{ actor, amount, claude\_tag\_category, 15 more
 
 
 
-actor: [BetaAnalyticsUserActor](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { type: "user\_actor", deleted, email, 3 more }
+actor: [BetaAnalyticsUserActor](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { type: "user\_actor", deleted, email\_address, 2 more }
 
 The user this row's usage or cost is attributed to. Always a `user_actor`.
 
@@ -908,10 +908,6 @@ The user's full name. Null when the user has not set a name. Returns `"Deleted U
 user\_id: string
 
 Tagged user ID.
-
-email: string or null⁠Deprecated
-
-Deprecated: use `email_address`, which carries the same value.
 
 amount: string
 
@@ -2323,7 +2319,7 @@ BetaAnalyticsUsageUsersItem object{ actor, cache\_creation, cache\_read\_input\_
 
 
 
-actor: [BetaAnalyticsUserActor](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { type: "user\_actor", deleted, email, 3 more }
+actor: [BetaAnalyticsUserActor](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { type: "user\_actor", deleted, email\_address, 2 more }
 
 The user this row's usage or cost is attributed to. Always a `user_actor`.
 
@@ -2346,10 +2342,6 @@ The user's full name. Null when the user has not set a name. Returns `"Deleted U
 user\_id: string
 
 Tagged user ID.
-
-email: string or null⁠Deprecated
-
-Deprecated: use `email_address`, which carries the same value.
 
 
 
@@ -2665,7 +2657,7 @@ Email address of the user
 
 
 
-BetaAnalyticsUserActor object{ type: "user\_actor", deleted, email, 3 more }
+BetaAnalyticsUserActor object{ type: "user\_actor", deleted, email\_address, 2 more }
 
 type: "user\_actor"
 
@@ -2686,10 +2678,6 @@ The user's full name. Null when the user has not set a name. Returns `"Deleted U
 user\_id: string
 
 Tagged user ID.
-
-email: string or null⁠Deprecated
-
-Deprecated: use `email_address`, which carries the same value.
 
 #### Analytics[Summaries](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/summaries)
 

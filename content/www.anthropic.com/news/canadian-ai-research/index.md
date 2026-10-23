@@ -1,18 +1,39 @@
-Announcements
+### Chapter 04: Anthropic s’engage à verser 10 millions de dollars à la recherche canadienne en IA
 
 # Anthropic commits $10 million to Canadian AI research
 
-Jul 14, 2026
+- Published
 
-![Anthropic commits $10 million to Canadian AI research](https://www-cdn.anthropic.com/images/4zrzovbb/website/5f455d24ea80569b34eb4347f06152d8a5508722-1000x1000.svg)
+  Jul 14, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Funding](https://www.anthropic.com/search?topic=funding)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+  - [Healthcare](https://www.anthropic.com/search?topic=healthcare)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
 
 *Le français suit.*
+
+Related articles
+
+- Announcements
+
+  Jul 20, 2026
+
+  [Apply for Anthropic’s AI for Science rare disease research grants](https://www.anthropic.com/news/rare-disease-research-grants)
+
+[View more](https://www.anthropic.com/search?topic=funding)
 
 Canadian institutions and researchers have played a critical role in the modern AI era. During a period of broad skepticism about research into neural networks, the University of Toronto and the Université de Montréal were two of only a handful of institutions that incubated this crucial line of work, while researchers at the University of Alberta did pioneering work on reinforcement learning. And in the early 2010s, Canadian research institutions led the way in demonstrating that with the arrival of powerful new computing resources—in particular, general-purpose GPUs—deep neural networks could succeed at scale, kicking off the modern era.
 
 Today, Canadians both at home and abroad continue to play leading roles in AI research, safety, and policy—including at Anthropic. That’s why we’re committing $10 million CAD to Canadian research institutions to fund the next generation of this work. We’re also publishing our first Canadian country brief based on the Anthropic Economic Index, which provides a snapshot of how Canadians are putting Claude to work.
 
-### Investing in Canadian research
+## Investing in Canadian research
 
 The $10 million we’re committing will fund research into beneficial and responsible applications of AI. As part of this, we’re announcing partnerships with Canada’s three leading regional AI institutes—[Alberta Machine Intelligence Institute](https://www.amii.ca/) (Amii) in Edmonton, [Mila](https://mila.quebec/en) in Montréal, and the [Vector Institute](https://vectorinstitute.ai/) in Toronto—along with [CHEO](https://www.cheo.on.ca/en/index.aspx), [The Centre for Addiction and Mental Health](https://www.camh.ca/) (CAMH), [Université Laval](https://www.ulaval.ca/en/research/research-units/institutes/institute-intelligence-and-data-iid), [University of Toronto](https://datasciences.utoronto.ca/), and the [University of Saskatchewan](https://research.usask.ca/), with more partnerships to follow in the months ahead:
 
@@ -29,7 +50,7 @@ In addition to these donations, this summer Anthropic will add Amii, Mila, and V
 
 “Some of the foundations of modern AI came out of Toronto, Montréal, and Edmonton— and so, strikingly, did many of the researchers most committed to making it safe,” said Chris Olah one of Anthropic’s co-founders. “I was formed by that culture, and I’m proud Anthropic can support the next chapter.”
 
-### How Canada is using Claude
+## How Canada is using Claude
 
 We’re also [sharing data](https://www.anthropic.com/research/how-canada-uses-claude) that looks at how people across Canada are using Claude. This is drawn from the [March 2026 Anthropic Economic Index](https://www.anthropic.com/research/economic-index-march-2026-report), our ongoing analysis of how AI is being incorporated into work tasks across the economy. Our economic research is based on data from real-world Claude usage, using a privacy-preserving analysis tool that identifies patterns in use while keeping all user information anonymous.
 
@@ -43,7 +64,7 @@ Within Canada, Claude adoption tracks the kind of work people do. Per-person usa
 
 Looking closer, we can see that how people use Claude lines up with the local economy. Translation requests are most common in provinces where more people work in government, likely because Canada’s bilingualism regulations require federal services and communications to be in both English and French. New Brunswick, Nova Scotia, and Québec lead the country in both government employment and the share of conversations about translation.
 
-### A shared view on the future of AI
+## A shared view on the future of AI
 
 The countries that invest the most in advanced AI over the next few years will also shape the rules that govern it. We’ve long believed democracies should lead that work, and Canada has a place at the forefront. Canada published the world’s first national AI strategy in 2017, and this June published its next: AI for All, which commits to strengthening the country’s AI safety institute, expanding AI literacy, and reinforcing the three national institutes that have anchored Canadian research for nearly a decade.
 
@@ -95,23 +116,3 @@ Les pays qui investiront le plus dans l’IA de pointe au cours des prochaines a
 La semaine dernière, nous avons publié une étude de cas sur le ministère de la Technologie et de l’Innovation du gouvernement de l’Alberta, où une équipe a utilisé Claude Code pour passer en revue 466 millions de lignes de code dans l’ensemble des systèmes provinciaux en environ 20 heures, puis a [communiqué ses méthodes](https://thevelocitywhitepapers.com/) à d’autres gouvernements.
 
 Les huit partenariats annoncés aujourd’hui ne sont qu’un commencement pour nos investissements dans la recherche canadienne. Nous sommes ravis à l’idée d’apporter notre soutien à ces travaux dans les instituts de recherche, les hôpitaux et les universités pour de nombreuses années encore.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

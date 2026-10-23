@@ -1,10 +1,33 @@
-Evaluations
+### Chapter 06: Conclusion
 
 # A statistical approach to model evaluations
 
-Nov 19, 2024
-
 [Read the paper](https://arxiv.org/abs/2411.00640)
+
+![A statistical approach to model evaluations](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe4058a4ea106ee1ca0546080f2feb19f6fd25bf2-2000x1125.jpg&w=1920&q=75)
+
+- Published
+
+  Nov 19, 2024
+- Team
+
+  [Alignment](https://www.anthropic.com/research/team/alignment)
+- Topics
+
+  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)See more...
+
+Related articles
+
+- Science
+
+  Sep 25, 2026
+
+  [Yes, Claude can do Nine Loops](https://www.anthropic.com/research/yes-claude-can-do-nine-loops)
+
+[View more](https://www.anthropic.com/search?topic=benchmarks)
 
 Suppose an AI model outperforms another model on a benchmark of interest—testing its general knowledge, for example, or its ability to solve computer-coding questions. Is the difference in capabilities real, or could one model simply have gotten lucky in the choice of questions on the benchmark?
 
@@ -80,23 +103,3 @@ We believe that power analysis will prove helpful to researchers in a number of 
 ## Conclusion
 
 Statistics is the science of measurement in the presence of noise. Evals present a number of practical [challenges](https://www.anthropic.com/news/evaluating-ai-systems), and a true [science of evals](https://www.apolloresearch.ai/blog/we-need-a-science-of-evals) remains underdeveloped. Statistics can only form one aspect of a science of evals—but a critical one, as an empirical science is only as good as its measuring tools. We hope that the recommendations in our paper [**Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations**](https://arxiv.org/abs/2411.00640) will help AI researchers calculate, interpret, and communicate eval numbers with greater precision and clarity than before—and we encourage researchers in the AI community to explore other techniques from experiment design so that they may understand more exactly all the things that they want to measure.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)

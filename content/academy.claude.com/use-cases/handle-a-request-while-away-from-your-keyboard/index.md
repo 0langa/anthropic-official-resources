@@ -1,124 +1,223 @@
-# Handle a request while away from your keyboard
+Lesson 3 of 14 · Introduction to Claude CoworkWhat Claude Cowork can do for you
 
-Use Dispatch in Claude Cowork to respond to requests from the Claude mobile app using everything on your computer. Claude finds the file, drafts the reply, and waits for your approval before sending.
+# What Claude Cowork can do for you
 
-15 minClaude Cowork
+Lesson 310 min
 
-Try in CoworkCopy prompt
+In this lessonBy the end, you’ll be able to
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-lyytfhz3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jx0gutex.png)
+- Spot the three patterns of work that suit Cowork: multi-step, file-based, multi-tool
+- Set up a scheduled task with /schedule
+- Start or check on a Cowork task from your phone or any browser
 
-Embedded media: https://www.youtube-nocookie.com/embed/fVIV-L49eBs?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
-[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=fVIV-L49eBs)
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-claude-cowork%2Fscheduled-tasks)
 
-## 1. Describe the task[](https://academy.claude.com/use-cases/handle-a-request-while-away-from-your-keyboard)
+## What makes a task right for Claude Cowork[](https://academy.claude.com/courses/introduction-to-claude-cowork/scheduled-tasks)
 
-Work does not pause when you step away from your computer. A teammate asks for a file. A client sends a question that requires information from a document on your computer. A deadline moves up. Dispatch lets you respond using everything on your computer, from your phone.
+Not every task is a fit for Cowork, and you'll get more out of it when you can recognize the tasks that are. Three patterns cover most of the work Cowork is built for: tasks that take several steps, tasks that leverage context from real files, and tasks that span the tools you already use.
 
-This works when your computer is awake and the Claude desktop app is running. The keep-awake toggle in [Dispatch settings(opens in new tab)](https://support.claude.com/en/articles/13947068-assign-tasks-to-claude-from-anywhere-in-cowork) prevents your computer from sleeping when you step out. Turn it on once and your computer stays reachable whether you are in a car, at a coffee shop, on a plane with wifi, or simply across the office without your laptop.
+**Pattern 1: The task is multi-step.** If a task requires several steps, it's a good fit for Cowork. In one prompt, Claude gathers context, compares sources, does additional research, drafts a summary, and formats the deliverable. With Cowork, you can hand the whole arc to Claude.
 
-Dispatch is also useful when your computer is nearby but your phone is more practical. In tight spaces, on a call, or when opening a laptop would be awkward, you can send a quick instruction from your phone and Claude handles the rest on your computer.
+Examples:
 
-A teammate asks for a budget spreadsheet over Slack. From your phone, you tell Claude where the file is and where to send it — Claude finds it and posts it with your note.
+- Triage a week of customer-feedback emails into themes, with example quotes for each
+- Pull figures from three reports and a spreadsheet, then assemble them into a single interactive dashboard
 
-Jamie just asked me on Slack for the latest Q2 budget spreadsheet. Find it in my Documents/Finance folder on my computer — the file with “Q2” and “budget” in the name. Post it to Jamie in the #proj-planning Slack channel. Add a note that the tab labeled “Revised” has the current numbers.
+**Pattern 2: The task lives in real files on your computer.** Cowork is a great fit for when the objective of the task is to output a real artifact — a Word doc, a spreadsheet, a deck, a PDF — saved in the format you need. And the inputs are real too: Claude reads the existing files in your folder, edits them, and saves changes back. Claude can always draft something new; Cowork also works on the files you already have.
 
-
+Examples:
 
-Open in Cowork
+- A formatted client proposal that pulls from your standard template and the meeting notes
+- A monthly metrics report assembled from raw spreadsheets, complete with charts
 
-## 2. Give Claude context[](https://academy.claude.com/use-cases/handle-a-request-while-away-from-your-keyboard)
+**Pattern 3: The task spans multiple tools.** The work touches the systems where you already operate — Gmail, Slack, the M365 suite, your calendar, your CRM. Claude accesses them through your connectors (the integrations that link Claude to your apps), gathers context, and acts. Claude can reach those tools in an ordinary conversation too; the difference with Cowork is that it plans across them and runs the whole sequence as one delegation, instead of you stitching the steps together one prompt at a time.
 
-Claude reads the file from your computer and posts it through the [Slack connector(opens in new tab)](https://claude.com/connectors/slack). No file uploads, no cloud sync — Claude reads the document in place on your machine and sends it through the connected tool.
+Examples:
 
-### Required context[](https://academy.claude.com/use-cases/handle-a-request-while-away-from-your-keyboard)
+- Drafting follow-up emails in Outlook after a meeting based on the calendar invite, attendee list, and meeting notes
+- Searching Slack for everything the team has said about a launch and synthesizing it into an update
 
-For this task, Claude needs access to your local files and one connector:
+Explore the interactive below to see how Cowork performs across the three patterns.
 
-- Local files — to find and read the spreadsheet in your Documents/Finance folder.
-- Slack — to post the file and your note to the #proj-planning channel.
+Explorer: tabs let learners browse three patterns of work suited to Claude Cowork—multi-step, file-based, and multi-tool—each paired with a definition, examples, and a visual illustrating how Cowork handles that pattern.
 
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)
+Three patterns of work that suit Cowork
+
+Multi-stepFile-basedMulti-tool
+
+Pattern 1
+
+### The task is multi-step
+
+If a task requires several steps — gather, compare, draft, format — **hand the whole arc to Claude**, in one prompt.
+
+For example
+
+- Triage a week of customer-feedback emails into themes, with example quotes for each
+- Pull figures from three reports and a spreadsheet, then assemble them into a single dashboard
+
+What you’ll see: the Progress panel
+
+Progress
+
+Read the source files
+
+Compare and group
+
+3Draft the deliverable
+
+4Format
+
+5Self-review
+
+Cowork breaks the work into steps and shows you each one as it runs. **You can watch it work, or come back when it’s done.**
+
+The through-line across all three patterns is the same: work that used to mean juggling steps, files, and tools in your own head can now be handed off as a single task. When you spot that shape, give it to Cowork.
+
+## Scheduled tasks: have Claude work on a cadence[](https://academy.claude.com/courses/introduction-to-claude-cowork/scheduled-tasks)
+
+Embedded media: https://www.youtube-nocookie.com/embed/b-ntWZqHF78?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+Scheduled Tasks in Cowork: Set it once, Claude handles the rest
+
+SummaryTranscript
+
+This video was recorded in an earlier version of the app, so some screens
+may look different — setting up a scheduled task works the same way. Where a
+scheduled task runs, and whether your computer needs to be on, is covered
+just below.
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=b-ntWZqHF78)
+
+Scheduled tasks let you set up a task once and have Claude run it on a cadence.
+
+There are two ways to set up a scheduled task. You can start fresh: type /schedule, describe the task and the cadence, and Claude drafts a prompt for you to review and accept. Or — the more natural path — do the task once in Cowork, confirm the output looks right, then type /schedule to turn that exact process into a recurring one. Tell Claude your preferred cadence (hourly, daily, weekdays, or manual), review the prompt, and accept.
+
+Where a scheduled task runs depends on what it needs. A task that only uses your connectors can run remotely at its set time — your computer doesn't need to be on. A task that needs files or apps on your computer runs on your computer, so the desktop app has to be open at the time; if your laptop is closed, asleep, or off at the scheduled time, Claude picks the task up as soon as you're back and lets you know it was delayed.
+
+Some ideas worth scheduling:
+
+- A Friday afternoon review: what shipped during the week, a recap of the major decisions made in Slack or Teams, and a preview of next week's tasks
+- A monthly metrics roll-up pulled from your spreadsheets on the first of every month
+- A morning briefing for the meetings on your calendar that draws on past meeting notes in your folder and your email threads to surface necessary context
+
+## Work away from your desk[](https://academy.claude.com/courses/introduction-to-claude-cowork/scheduled-tasks)
+
+So far we've covered tasks you start at your desk and tasks Claude runs on a schedule. The third case is work you start while you're nowhere near your computer.
+
+Cowork also works on the web and in the Claude mobile app: start a task from your phone, check on it from any browser, and pick up the deliverable at your desk. A task started this way runs remotely rather than on your computer, so there's nothing to leave on or keep awake.
+
+Two things to know before you rely on it. First, a task you start from the web or your phone reaches your connectors, not the folders on your computer — if a task needs files that live only on your machine, start it from the desktop app. Second, a task stays where it started — to change where the work happens, start a new one.
+
+Examples:
+
+- On the way in, you remember today's client call needs a one-page summary of last quarter's support tickets. From the Claude app on your phone, ask Cowork to pull the quarter's tickets from your connected support tool and draft the one-pager. It gets started while you commute; you review the draft when you're at your desk.
+- A vendor sends revised contract terms while you're at an offsite. From your phone, ask Cowork to compare them against last year's agreement in your Drive and list every change. When it's done, read the comparison from your phone or any browser.
+
+Diagram: An animated timeline follows one Claude Cowork task across three surfaces, started from a phone, checked in a browser, and picked up finished at a desk, showing it's one continuous remote session, not separate ones.
+
+One task, any surface
+
+one session,any deviceSummarize lastquarter’s supporttickets intoone pagestartedWorking: step 3 of 5reading connected filesdoneStart from your phoneon your way inCheck from any browserlater that dayPick up at your deskthe deliverable is waiting
+
+If your organization manages Claude for you, your admin decides whether this is switched on.
+
+## Bringing it together[](https://academy.claude.com/courses/introduction-to-claude-cowork/scheduled-tasks)
+
+Multi-step, file-based, multi-tool — the patterns tell you what's worth handing off. Scheduled tasks and the mobile app mean the handoff doesn't have to wait until you're at your desk. The judgment stays with you: Claude plans, executes, and asks. You decide what gets sent, shared, or shipped.
+
+## Lesson reflection[](https://academy.claude.com/courses/introduction-to-claude-cowork/scheduled-tasks)
+
+Look at your calendar or to-do list for this week. Pick one piece of work that matches one or more of the three patterns above — multi-step, file-producing, or tool-using. Write it down. You'll hand it to Claude in Lesson 4.
+
+## What’s next[](https://academy.claude.com/courses/introduction-to-claude-cowork/scheduled-tasks)
+
+In the next lesson, you'll walk through delegating that task end to end — from prompt to finished deliverable.
+
+Was this helpful?
+
+
+## File-based
+
+Pattern 2
+
+### The task lives in real files
+
+The output is a real artifact — a Word doc, a spreadsheet, a deck — and the inputs are files you already have. **Cowork works on your real files, not just creating new ones.**
+
+For example
+
+- A formatted client proposal that pulls from your standard template and the meeting notes
+- A monthly metrics report assembled from raw spreadsheets, complete with charts
+
+What you’ll see: a real file saved to your folder
+
+Q4-Earnings
+
+Name
+
+Date Modified
+
+Size
+
+ACME-Q4-Transcript.pdf
+
+Feb 24, 2026
+
+2.1 MB
+
+Birch-Q4-Transcript.pdf
+
+Feb 25, 2026
+
+1.8 MB
+
+Coverage-Model-2026.xlsx
+
+Feb 20, 2026
+
+854 KB
+
+Q3-Research-Note.docx
+
+Nov 15, 2025
+
+342 KB
+
+Q4-Research-Note.docx
+
+Just now
+
+128 KB
+
+
+## Multi-tool
+
+Pattern 3
+
+### The task spans multiple tools
+
+The work touches Gmail, Slack, M365, your calendar, your CRM. Claude reaches them through your **connectors** and runs the whole sequence as one delegation.
+
+For example
+
+- Drafting follow-up emails in Outlook based on the calendar invite, attendee list, and meeting notes
+- Searching Slack for everything the team has said about a launch and synthesizing it into an update
+
+What you’ll see: connectors lighting up
+
+Gmail
 
 Slack
 
-[Connect](https://claude.ai/desktop/directory/slack)
+Microsoft 365
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
 
-## 3. What Claude creates[](https://academy.claude.com/use-cases/handle-a-request-while-away-from-your-keyboard)
+## Video transcript
 
-Claude locates the file, prepares the message, and — if you have Slack set to [needs-approval(opens in new tab)](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities) for sending — shows you the message before posting. Here is what the exchange looks like on your phone:
+# Scheduled Tasks in Cowork: Set it once, Claude handles the rest
 
-I found **Q2-Budget-Revised-v3.xlsx** in Documents/Finance.
+This lesson's video contains no spoken narration (screen demonstration with background audio only).
 
-Before I post, here is the message I will send to **#proj-planning**:
-
-*Hi Jamie — here is the Q2 budget spreadsheet you asked for. The tab labeled “Revised” has the latest numbers.*
-
-[Attached: Q2-Budget-Revised-v3.xlsx]
-
-Should I go ahead and post this?
-
-## 4. Follow up prompts[](https://academy.claude.com/use-cases/handle-a-request-while-away-from-your-keyboard)
-
-Continue the conversation with Claude to refine, expand, or explore further.
-
-### Draft a reply with approval before sending[](https://academy.claude.com/use-cases/handle-a-request-while-away-from-your-keyboard)
-
-Claude can draft messages using files on your computer, then wait for your approval before sending. This keeps you in control of what goes out while Claude does the research and writing.
-
-Draft a reply to the client email about pricing. Use the proposal in my Documents folder for the numbers, but don't send until I approve.
-
-
-
-Open in Cowork
-
-### Pick up the thread on your laptop[](https://academy.claude.com/use-cases/handle-a-request-while-away-from-your-keyboard)
-
-When you get back to your desk, continue in the same Dispatch conversation. Claude remembers everything it did while you were away — what it found, what it sent, and any requests that came in.
-
-I'm back at my desk. Show me what you sent and any other requests that came in while I was out.
-
-
-
-Open in Cowork
-
-### Use computer use to reach a desktop app[](https://academy.claude.com/use-cases/handle-a-request-while-away-from-your-keyboard)
-
-[Computer use(opens in new tab)](https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork) lets Claude operate desktop applications that have no connector and no web version. If the information you need lives in a native desktop app, Claude can open it and pull what you need.
-
-There's a report I need from the analytics dashboard app on my computer. Open it and screenshot the Q1 summary.
-
-
-
-Open in Cowork
-
-## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/handle-a-request-while-away-from-your-keyboard)
-
-### Set send permissions to needs-approval[](https://academy.claude.com/use-cases/handle-a-request-while-away-from-your-keyboard)
-
-For connectors like Slack and Gmail, set send access to needs-approval. Claude drafts the message and shows it to you before posting or emailing — so nothing goes out without your sign-off.
-
-### Turn on keep-awake before stepping away[](https://academy.claude.com/use-cases/handle-a-request-while-away-from-your-keyboard)
-
-The keep-awake toggle prevents your computer from sleeping while you are out. Turn it on before you leave so Claude can respond to requests on your machine at any time.
-
-### Files stay local when Claude reads them[](https://academy.claude.com/use-cases/handle-a-request-while-away-from-your-keyboard)
-
-Claude reads documents in place on your computer. When it posts a file to Slack or references data in an email, the source document stays on your machine — nothing gets uploaded to a cloud service.
-
-### Computer use is a separate toggle[](https://academy.claude.com/use-cases/handle-a-request-while-away-from-your-keyboard)
-
-Computer use is off by default and must be enabled in Dispatch settings. Claude asks for your approval before controlling each new application.
-
-## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/handle-a-request-while-away-from-your-keyboard)
-
-Get started with Dispatch: download the Claude desktop app and the Claude mobile app, open Claude Cowork, and tap Dispatch in the sidebar
-
-Jamie just asked me on Slack for the latest Q2 budget spreadsheet. Find it in my Documents/Finance folder on my computer — the file with “Q2” and “budget” in the name. Post it to Jamie in the #proj-planning Slack channel. Add a note that the tab labeled “Revised” has the current numbers.
-
-Try in Cowork
-
-Was this helpful?

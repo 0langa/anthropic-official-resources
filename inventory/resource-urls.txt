@@ -1164,6 +1164,7 @@ https://claude.com/resources/articles/build-artifacts
 https://claude.com/resources/articles/build-plugins-for-claude
 https://claude.com/resources/articles/build-responsive-web-layouts
 https://claude.com/resources/articles/building-agents-that-reach-production-systems-with-mcp
+https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop
 https://claude.com/resources/articles/building-agents-with-skills-equipping-agents-for-specialized-work
 https://claude.com/resources/articles/building-agents-with-the-claude-agent-sdk
 https://claude.com/resources/articles/building-ai-agents-for-startups
@@ -1213,6 +1214,7 @@ https://claude.com/resources/articles/claude-managed-agents-updates
 https://claude.com/resources/articles/claude-marketplace
 https://claude.com/resources/articles/claude-model-and-effort-level-in-claude-code
 https://claude.com/resources/articles/claude-models-explained-choosing-the-best-model-for-your-use-case
+https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed
 https://claude.com/resources/articles/claude-now-available-in-microsoft-365-copilot
 https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides
 https://claude.com/resources/articles/claude-on-google-cloud-fedramp-high
@@ -2776,6 +2778,7 @@ https://platform.claude.com/docs/en/api/beta/vaults/update
 https://platform.claude.com/docs/en/api/beta/webhooks
 https://platform.claude.com/docs/en/api/canceling-message-batches
 https://platform.claude.com/docs/en/api/claude-code/routines-fire
+https://platform.claude.com/docs/en/api/claude-models-on-google-cloud-anthropic-managed-iam-permissions
 https://platform.claude.com/docs/en/api/claude-platform-on-aws-iam-actions
 https://platform.claude.com/docs/en/api/claude-platform-on-aws-iam-actions?sdk_languages=curl
 https://platform.claude.com/docs/en/api/cli/beta/environments
@@ -3317,6 +3320,7 @@ https://platform.claude.com/docs/en/api/http/beta/tunnels/rotate_token
 https://platform.claude.com/docs/en/api/http/beta/user_profiles
 https://platform.claude.com/docs/en/api/http/beta/user_profiles/create
 https://platform.claude.com/docs/en/api/http/beta/user_profiles/create_enrollment_url
+https://platform.claude.com/docs/en/api/http/beta/user_profiles/delete
 https://platform.claude.com/docs/en/api/http/beta/user_profiles/list
 https://platform.claude.com/docs/en/api/http/beta/user_profiles/retrieve
 https://platform.claude.com/docs/en/api/http/beta/user_profiles/update
@@ -3636,6 +3640,9 @@ https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock
 https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock?sdk_languages=curl
 https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry
 https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry?sdk_languages=curl
+https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/anthropic-managed
+https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/google-managed
+https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/overview
 https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-legacy
 https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-legacy?sdk_languages=curl
 https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai
@@ -4656,6 +4663,7 @@ https://support.claude.com/en/articles/17318731
 https://support.claude.com/en/articles/17318731-use-claude-code-local-mode-and-claude-cowork-local-mode-on-a-hipaa-ready-enterprise-plan
 https://support.claude.com/en/articles/17440474
 https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude
+https://support.claude.com/en/articles/17440474-move-from-standalone-claude-design-to-claude
 https://support.claude.com/en/articles/17444146-claude-haiku-4-5-is-leaving-the-model-selector
 https://support.claude.com/en/articles/17444462
 https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization
@@ -5078,6 +5086,7 @@ https://www.anthropic.com/news/discovering-language-model-behaviors-with-model-w
 https://www.anthropic.com/news/disrupting-AI-espionage
 https://www.anthropic.com/news/distillation-defenses
 https://www.anthropic.com/news/donate-public-first-action
+https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation
 https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation
 https://www.anthropic.com/news/donation-public-first-action
 https://www.anthropic.com/news/driving-ai-transformation-with-claude
@@ -5166,6 +5175,7 @@ https://www.anthropic.com/news/national-security-expert-richard-fontaine-appoint
 https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence
 https://www.anthropic.com/news/next-generation-constitutional-classifiers
 https://www.anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government
+https://www.anthropic.com/news/open-call-guest-investigators-life-sciences
 https://www.anthropic.com/news/opening-our-tokyo-office
 https://www.anthropic.com/news/our-approach-to-understanding-and-addressing-ai-harms
 https://www.anthropic.com/news/our-framework-for-developing-safe-and-trustworthy-agents
@@ -5379,6 +5389,7 @@ https://www.anthropic.com/research/exploit-evals
 https://www.anthropic.com/research/exploring-model-welfare
 https://www.anthropic.com/research/features-as-classifiers
 https://www.anthropic.com/research/forecasting-rare-behaviors
+https://www.anthropic.com/research/formal-verification
 https://www.anthropic.com/research/formalizing-fermats-last-theorem
 https://www.anthropic.com/research/glasswing-initial-update
 https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities

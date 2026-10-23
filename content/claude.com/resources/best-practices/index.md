@@ -32,7 +32,7 @@ Chat and Cowork are coming together into a single, simpler Claude experience acr
 
 Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
-[WebinarUpcoming | Oct 22, 2026
+[WebinarOct 22, 2026
 
 ### Claude Rearview Roadmap Review: October 2026
 
@@ -40,13 +40,13 @@ Your rollout plan depends on knowing what's changed and what matters the most.
 
 Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
-[WebinarOn demand
+[ArticleOct 22, 2026
 
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
+### Building agents: When to fold subagents into your main agent loop
 
-Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
+When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
 
-Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
 
 [ArticleJul 16, 2026
 
@@ -60,7 +60,7 @@ Featured resource 1 of 5: Working with Claude Fable 5 in Claude Cowork
 
 Advanced filters
 
-Showing 11 of 222 resources
+Showing 11 of 223 resources
 
 [WebinarUpcoming | Oct 28, 2026
 
@@ -68,13 +68,19 @@ Showing 11 of 222 resources
 
 Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
 
-Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarUpcoming | Oct 22, 2026
+Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarOct 22, 2026
 
 ### Claude Rearview Roadmap Review: October 2026
 
 Your rollout plan depends on knowing what's changed and what matters the most.
 
-Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[WebinarOn demand
+Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[ArticleOct 22, 2026
+
+### Building agents: When to fold subagents into your main agent loop
+
+When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[WebinarOn demand
 
 ### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
 
@@ -124,14 +130,6 @@ Claude Platform
 
 ### The AI investment firm
 
-We draw from our work with investment firms to outline best practices for AI adoption, and the work Claude takes on for each team.](https://claude.com/resources/guides/the-ai-investment-firm)[ArticleOct 7, 2026
-
-### Automating eval design and hillclimbing with Claude
-
-Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
-
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
+We draw from our work with investment firms to outline best practices for AI adoption, and the work Claude takes on for each team.](https://claude.com/resources/guides/the-ai-investment-firm)
 
 View more

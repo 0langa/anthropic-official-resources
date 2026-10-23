@@ -1,12 +1,30 @@
-[Engineering at Anthropic](https://www.anthropic.com/engineering)
+### Chapter 05: Conclusion
 
-![](https://www-cdn.anthropic.com/images/4zrzovbb/website/282c56ae3ec0a72a15c5f4186744ce0ac940a2dd-2554x2554.svg)
+# **Scaling Managed Agents:**Decoupling the brain from the hands
 
-# Scaling Managed Agents: Decoupling the brain from the hands
+- Published
 
-Published Apr 08, 2026
+  Apr 8, 2026
+- Team
 
-Harnesses encode assumptions that go stale as models improve. Managed Agents—our hosted service for long-horizon agent work—is built around interfaces that stay stable as harnesses change.
+  [Engineering](https://www.anthropic.com/engineering)
+- Topics
+
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)See more...
+
+Related articles
+
+- Announcements
+
+  May 18, 2026
+
+  [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless)
+
+[View more](https://www.anthropic.com/search?topic=agents)
 
 *Get started with Claude Managed Agents by following our [docs](https://platform.claude.com/docs/en/managed-agents/overview).*  
   
@@ -80,12 +98,8 @@ Managed Agents is a meta-harness in the same spirit, unopinionated about the *sp
 
 Meta-harness design means being opinionated about the interfaces around Claude: we expect that Claude will need the ability to manipulate state (the session) and perform computation (the sandbox). We also expect that Claude will require the ability to scale to many brains and many hands. We designed the interfaces so that these can be run reliably and securely over long time horizons. But we make no assumptions about the number or location of brains or hands that Claude will need.
 
-## Acknowledgements
+## Authors & Acknowledgments
+
+### Acknowledgements
 
 Written by Lance Martin, Gabe Cemaj, and Michael Cohen. Thanks to Nodir Turakulov and Jeremy Fox for helpful conversations on these topics. Special thanks to the Agents API team and Jake Eaton for their contributions.
-
-## Get the developer newsletter
-
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
-
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.

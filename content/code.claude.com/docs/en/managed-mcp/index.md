@@ -111,9 +111,9 @@ The denylist can further filter the servers in `managed-mcp.json`:
 * `deniedMcpServers` applies to managed servers too, so a managed server that matches an entry won't load.
 * A user's own `deniedMcpServers` merges in from their settings, so users can block a managed server for themselves.
 
-`allowedMcpServers` doesn't apply to the servers in `managed-mcp.json`, with one exception: Claude Code still checks a server whose definition uses [`${VAR}` expansion](/docs/en/mcp#environment-variable-expansion-in-mcp-json) against the allowlist, because that server's effective configuration comes from each user's environment rather than from the file alone. Before v2.1.259, every managed server had to pass the allowlist whenever one was set. See [How a server is evaluated](#how-a-server-is-evaluated) for which fields trigger the `${VAR}` check and the full order of checks.
+The servers in `managed-mcp.json` need no `allowedMcpServers` entry, with one exception: Claude Code checks a server against the allowlist when it uses [`${VAR}` expansion](/docs/en/mcp#environment-variable-expansion-in-mcp-json) outside `env`. Before v2.1.305, it also checked a server that used `${VAR}` expansion only in `env`, and before v2.1.259, every managed server whenever an allowlist was set. See [How a server is evaluated](#how-a-server-is-evaluated) for which fields trigger the `${VAR}` check and the full order of checks.
 
-If you used `allowedMcpServers` to keep some of your own `managed-mcp.json` servers from loading, those servers start loading on each user's first launch of v2.1.259 or later unless they use `${VAR}` expansion, with no prompt or notice: only `deniedMcpServers` still subtracts from those servers. Add denylist entries for them, or deploy a separate `managed-mcp.json` per group, before your users upgrade.
+If you used `allowedMcpServers` to keep some of your `managed-mcp.json` servers from loading, add `deniedMcpServers` entries for them, or deploy a separate `managed-mcp.json` per group, before your users upgrade. Unless they use `${VAR}` expansion outside `env`, these servers start loading on each user's first launch of a version that doesn't check them, with no prompt or notice.
 
 ### Validate the configuration
 
@@ -364,11 +364,11 @@ Before loading a server, including one from `managed-mcp.json`, Claude Code runs
 
 Three groups of servers skip the allowlist check, in addition to the in-process `type: "sdk"` servers that skip [all three checks](#how-a-server-is-evaluated):
 
-* The organization's own servers: every `managedMcpServers` entry, and any `managed-mcp.json` entry whose values use no `${VAR}` expansion.
+* The organization's own servers: every `managedMcpServers` entry, and any `managed-mcp.json` entry whose values use no `${VAR}` expansion outside `env`.
 * Built-in servers, such as Claude in Chrome, the `ide` server Claude Code connects to in a running VS Code or JetBrains IDE, and servers the CLI itself configures.
 * A [Claude Tag](/docs/en/claude-tag) session's Slack tools: the servers it uses to read the thread and post its replies load without an allowlist entry.
 
-A `managed-mcp.json` server that uses `${VAR}` expansion in its command, arguments, `env`, URL, or headers is still checked. Claude Code also checks every server a user, a plugin, or claude.ai adds, and every server a user passes with `--mcp-config`.
+A `managed-mcp.json` server that uses `${VAR}` expansion in its command, arguments, URL, or headers is still checked. Claude Code also checks every server a user, a plugin, or claude.ai adds, and every server a user passes with `--mcp-config`. For the versions that changed which `managed-mcp.json` servers are checked, and how to keep one from loading, see [How allowlists and denylists apply to the managed set](#how-allowlists-and-denylists-apply-to-the-managed-set).
 
 ### Example configuration
 

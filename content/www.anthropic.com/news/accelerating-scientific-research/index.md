@@ -1,10 +1,32 @@
-Case StudyBeneficial Deployments
+### Chapter 03: Lundberg Lab: testing AI-led hypothesis generation for which genes to study
 
 # How scientists are using Claude to accelerate research and discovery
 
-Jan 15, 2026
+![How scientists are using Claude to accelerate research and discovery](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2163cca0ae5c9ed366f01711c1d4e244933ce922-2000x1125.jpg&w=1920&q=75)
 
-![How scientists are using Claude to accelerate research and discovery](https://www-cdn.anthropic.com/images/4zrzovbb/website/423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+- Published
+
+  Jan 15, 2026
+- Team
+
+  [Science](https://www.anthropic.com/science)
+- Topics
+
+  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+  - [Discovery](https://www.anthropic.com/search?topic=discovery)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+  - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)See more...
+
+Related articles
+
+- Science
+
+  Oct 20, 2026
+
+  [How Claude designed protein binders against scorpion neurotoxins](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design)
+
+[View more](https://www.anthropic.com/search?topic=life-sciences)
 
 Last October we launched Claude for Life Sciences—a suite of connectors and skills that made Claude a better scientific collaborator. Since then, [we've invested heavily in making Claude the most capable model for scientific work](https://www.anthropic.com/news/healthcare-life-sciences), with Opus 4.5 showing significant improvements in figure interpretation, computational biology, and protein understanding benchmarks. These advances, informed by our partnerships with researchers in academia and industry, reflect our commitment to understanding exactly how scientists are using AI to accelerate progress.
 
@@ -73,23 +95,3 @@ In speaking with these labs, a common theme emerged: the usefulness of the tools
 As tools advance and AI models continue to grow more intelligent, we’re continuing to watch and learn from how scientific discovery develops along with them.
 
 *For more detail on the expanded Claude for Life Sciences capabilities, [see here](https://claude.com/solutions/life-sciences), and our [tutorials here](https://claude.com/resources/tutorials-category/life-sciences). We’re also continuing to accept [applications](https://docs.google.com/forms/d/e/1FAIpQLSfwDGfVg2lHJ0cc0oF_ilEnjvr_r4_paYi7VLlr5cLNXASdvA/viewform) to our AI for Science program. Applications will be reviewed by our team, including subject matter experts in relevant fields.*
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

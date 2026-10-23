@@ -14,6 +14,15 @@ Description
 
 Date
 
+- [### Donating Agent Skills to the Agentic AI Foundation](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)
+
+  [We’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation. More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025.](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)
+
+  Oct 22, 2026
+
+  Oct 22, 2026
+
+  [### Donating Agent Skills to the Agentic AI Foundation](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)[We’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation. More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025.](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)
 - [### Ask Claude about the Anthropic Economic Index](https://www.anthropic.com/news/anthropic-economic-index-connector)
 
   [We're launching the Anthropic Economic Index connector for Claude, which lets anyone explore real data about AI and work.](https://www.anthropic.com/news/anthropic-economic-index-connector)
@@ -104,15 +113,6 @@ Date
   Apr 17, 2026
 
   [### Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)[Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.](https://www.anthropic.com/news/claude-design-anthropic-labs)
-- [### The making of Claude Code](https://www.anthropic.com/features/making-of-claude-code)
-
-  [The inside story of how Claude Code went from an internal CLI to Anthropic's coding agent, told by researchers, engineers and early users who built it.](https://www.anthropic.com/features/making-of-claude-code)
-
-  Feb 23, 2026
-
-  Feb 23, 2026
-
-  [### The making of Claude Code](https://www.anthropic.com/features/making-of-claude-code)[The inside story of how Claude Code went from an internal CLI to Anthropic's coding agent, told by researchers, engineers and early users who built it.](https://www.anthropic.com/features/making-of-claude-code)
 - [### Advancing Claude in healthcare and the life sciences](https://www.anthropic.com/news/healthcare-life-sciences)
 
   [Claude for Healthcare brings HIPAA-ready infrastructure, plus new life sciences tools and connectors to CMS, Medidata, and ClinicalTrials.gov.](https://www.anthropic.com/news/healthcare-life-sciences)

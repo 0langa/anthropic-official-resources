@@ -104,6 +104,8 @@ Match the message you see to a section below.
 | `(check the helper, then start a new task or chat)` / `(update it, then start a new task or chat)` | [Authentication](#mcp-credential-rejected-in-cowork) |
 | `MCP server "<name>" needs additional permissions (scope: "<scope>") — run /mcp to re-authenticate` | [Authentication](#mcp-server-needs-you-to-sign-in-again) |
 | `MCP server "<name>" requires re-authorization (token expired)` | [Authentication](#mcp-server-needs-you-to-sign-in-again) |
+| `Couldn't read the stored credentials for MCP server "<name>", so the request didn't run` | [Authentication](#couldnt-read-the-stored-credentials-for-mcp-server) |
+| `A request to MCP server "<name>" was sent without your stored credentials` | [Authentication](#couldnt-read-the-stored-credentials-for-mcp-server) |
 | `This server's URL is missing or not a valid URL, so sign-in can't start` | [Authentication](#mcp-server-url-is-missing-or-not-a-valid-url) |
 | `Issuer mismatch in authorization response (RFC 9207)` | [Authentication](#issuer-mismatch-in-authorization-response) |
 | `Refusing to send credentials to non-https token endpoint` / `<short-name> from the MCP SDK for <server-url>` | [Authentication](#refusing-to-send-credentials-to-non-https-token-endpoint) |
@@ -141,6 +143,7 @@ Match the message you see to a section below.
 | `N sessions ended while this machine was offline — the environment was cleaned up on the server and can't be resumed.` | [Network](#sessions-ended-while-this-machine-was-offline) |
 | `Couldn't share the transcript.` | [Network](#couldnt-share-the-transcript) |
 | `Couldn't send feedback` | [Network](#couldnt-send-feedback) |
+| `MCP server "<name>" connection timed out. Your computer went to sleep or its clock changed while connecting.` | [Network](#mcp-server-connection-timed-out-during-a-sleep-or-clock-change) |
 | `Prompt is too long` / `Input is too long for requested model` | [Request errors](#prompt-is-too-long) |
 | `Prompt is too long · automatic compaction failed:` | [Request errors](#prompt-is-too-long) |
 | `Prompt is too long · this conversation is a single exchange` / `A single-exchange conversation cannot be compacted` | [Request errors](#prompt-is-too-long) |
@@ -306,6 +309,7 @@ Match the message you see to a section below.
 | `Plugin "<plugin>" was not uninstalled: installed_plugins.json` | [Plugin troubleshooting](/docs/en/plugins/troubleshooting#installed-plugins-json-holds-a-record-this-version-cannot-read) |
 | `Plugin directory does not exist: <path>` | [Plugin troubleshooting](/docs/en/plugins/troubleshooting#plugin-directory-does-not-exist) |
 | `Error: No such tool available: <tool name>` | [Tool errors](#no-such-tool-available) |
+| `MCP server "<name>" connection closed before the tool call was answered` | [Tool errors](#connection-closed-before-the-tool-call-was-answered) |
 | `would be spawned with zero tools — refusing` | [Tool errors](#agent-would-be-spawned-with-zero-tools) |
 | `File is covered by a Read deny rule in your permission settings` | [Tool errors](#file-is-covered-by-a-read-deny-rule) |
 | `cannot contain null bytes (\0)` | [Tool errors](#path-cannot-contain-null-bytes) |
@@ -1574,6 +1578,43 @@ When the server's configuration sets neither [`oauth.scopes`](/docs/en/mcp#restr
 
 Before v2.1.274, this case showed the `needs you to sign in again` message, and before v2.1.273 it showed `requires re-authorization (token expired)` like the other cases.
 
+### Couldn't read the stored credentials for MCP server
+
+Claude Code keeps your sign-ins for OAuth [MCP servers](/docs/en/mcp) in a credential store. This message means Claude Code couldn't read that store, so a request to the server didn't run:
+
+```text theme={null}
+Couldn't read the stored credentials for MCP server "<name>", so the request didn't run. If your Mac's keychain is locked, unlock it, then try again.
+Couldn't read the stored credentials for MCP server "<name>", so the request didn't run. Try again.
+```
+
+Your stored sign-ins are unchanged: try again once the store can be read, and sign in again only if the server then asks you to.
+
+In a [`claude -p`](/docs/en/headless) or [Agent SDK](/docs/en/agent-sdk/overview) run on macOS, the keychain can become readable after a request has already gone out without the stored sign-in. That request fails with:
+
+```text theme={null}
+A request to MCP server "<name>" was sent without your stored credentials, so the server rejected it. The credentials are available now. Try again.
+```
+
+**What to do:**
+
+* If the message asks you to unlock your Mac's keychain, run [`claude doctor`](/docs/en/cli-reference#cli-commands) in the shell session you run Claude Code from, and check its report for a keychain warning:
+  * If the report lists a warning that starts with `macOS Keychain is not writable`, or your shell has no `claude` command, run this unlock command in that shell session:
+
+    ```bash theme={null}
+    security unlock-keychain ~/Library/Keychains/login.keychain-db
+    ```
+
+  * If the report lists no keychain warning, skip the unlock command
+
+* Try again where you saw the message:
+  * For `claude -p`, run the command again
+  * In an interactive session, reconnect the server from `/mcp` if it shows as failed there, then ask Claude to try again
+  * In an Agent SDK application that keeps running, call [`reconnectMcpServer()`](/docs/en/agent-sdk/typescript#methods) in TypeScript or [`ClaudeSDKClient.reconnect_mcp_server()`](/docs/en/agent-sdk/python#methods) in Python, or start a new session
+
+* If the server then reports that it needs authentication, Claude Code found no sign-in it can use for that server. Sign in interactively: run `/mcp` in a Claude Code session, or [`claude mcp login <name>`](/docs/en/mcp#authenticate-from-the-command-line) in your shell. In an Agent SDK application, see [OAuth2 authentication in the Agent SDK](/docs/en/agent-sdk/mcp#oauth2-authentication).
+
+Before v2.1.307, a `claude -p` or Agent SDK run on a Mac with a locked login keychain reported the server as needing authentication instead of showing either message.
+
 ### MCP server URL is missing or not a valid URL
 
 Claude Code refused to start an OAuth sign-in for a remote MCP server because the server's configured `url` doesn't parse as a URL. Unless Claude Code has a more specific configuration problem to report for the server, running [`claude mcp login <name>`](/docs/en/mcp#authenticate-from-the-command-line) in your shell prints the refusal as:
@@ -2138,6 +2179,27 @@ In the [feedback drafts queue](/docs/en/tools-reference#sendfeedback-tool-behavi
 * If it keeps failing, file the report at [github.com/anthropics/claude-code/issues](https://github.com/anthropics/claude-code/issues), as the message says
 
 Before v2.1.281, every send failed with this message once a Remote Control **Stop** or an urgent cross-session message had arrived while the dialog was open. On those versions, close the dialog, reopen it, and send again.
+
+### MCP server connection timed out during a sleep or clock change
+
+This message means a connection to an [MCP server](/docs/en/mcp) timed out, and Claude Code found that your system clock jumped forward during the attempt:
+
+```text theme={null}
+MCP server "<name>" connection timed out. Your computer went to sleep or its clock changed while connecting.
+```
+
+Claude Code can't tell whether your computer slept or its clock was set forward, so the message names both.
+
+**What to do:**
+
+Connect to the server again, and keep your computer awake until the attempt finishes. If the server connects, you have nothing to fix.
+
+* **In an interactive session**: run `/mcp`, select the server, and select **Reconnect**
+* **In your shell**: run the [`claude -p`](/docs/en/headless), [`claude mcp list`](/docs/en/mcp#managing-your-servers), or `claude mcp get` command again. If the server then fails with a message that starts `Skipping connection (recent failure cached`, wait 15 minutes and run the command again.
+* **In an [Agent SDK](/docs/en/agent-sdk/overview) application**: call [`reconnectMcpServer()`](/docs/en/agent-sdk/typescript#methods) in TypeScript or [`ClaudeSDKClient.reconnect_mcp_server()`](/docs/en/agent-sdk/python#methods) in Python
+* **If the server fails again**: if the message differs from this one, see [what to check when an MCP server doesn't connect](/docs/en/mcp-quickstart#troubleshooting). If this message comes back although your computer stayed awake and nothing changed its clock, see [Report an error](#report-an-error).
+
+Before v2.1.307, Claude Code showed a timeout message such as `MCP server "<name>" connection timed out after <N>ms` instead of this one.
 
 ## Request errors
 
@@ -4273,6 +4335,23 @@ A call whose tool name Claude Code [cut to 200 characters](#tool-use-name-over-2
 
 * If it happens once, you don't need to do anything. Claude reads the error and the turn continues.
 * If calls to an MCP server's tools keep failing with this error, run `/mcp` in the session or `claude mcp list` in your shell to check the server's [status](/docs/en/mcp#server-status), and reconnect a failed server from `/mcp`. In the Agent SDK, see [Error handling](/docs/en/agent-sdk/mcp#error-handling).
+
+### MCP server connection closed before the tool call was answered
+
+A tool call to an HTTP [MCP server](/docs/en/mcp) or a [claude.ai connector](/docs/en/mcp#use-mcp-servers-from-claude-ai) lost its connection before the server answered, so Claude Code can't tell whether the tool ran:
+
+```text theme={null}
+MCP server "<name>" connection closed before the tool call was answered. The tool may have run: check whether it did before running it again.
+```
+
+Repeating the call could repeat the tool's action, such as creating a second issue. Claude Code therefore repeats the call on its own, once, when the server marks the tool as safe to repeat.
+
+**What to do:**
+
+* Check in the service the tool acts on whether the action happened, for example whether the issue or record it was meant to create is there
+* If the action happened, don't run the tool again. Claude received this message in place of the tool's result, so tell Claude the outcome.
+* If the action didn't happen, ask Claude to run the tool again. You don't need to reconnect the server first, because Claude Code connects to it again for the next call to one of its tools. If that connection fails too, see [Mid-session drops of a remote server](/docs/en/mcp#mid-session-drops-of-a-remote-server).
+* If you build the server and the tool is safe to call twice, [mark it as safe to repeat](/docs/en/mcp#tool-calls-pending-when-a-connection-closes) so that Claude Code can repeat a lost call
 
 ### Agent would be spawned with zero tools
 

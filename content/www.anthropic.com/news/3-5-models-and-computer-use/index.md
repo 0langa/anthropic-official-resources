@@ -1,18 +1,41 @@
-Announcements
+### Chapter 04: Looking ahead
 
 # Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku
 
-Oct 22, 2024
+- Published
 
-![An illustration of Claude navigating a computer cursor](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdb3165778de297272875d36a822f671d8009aaec-2880x1620.png&w=3840&q=75)
+  Oct 22, 2024
+- Category
+
+  [Models](https://www.anthropic.com/news/models)
+- Topics
+
+  - [Computer use](https://www.anthropic.com/search?topic=computer-use)
+  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+  - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
 
 *Update (12/03/2024): We have revised the pricing for Claude 3.5 Haiku. The model is now priced at $0.80 MTok input / $4 MTok output.*
+
+Related articles
+
+- Announcements
+
+  Oct 7, 2026
+
+  [Introducing Claude Haiku 5.5](https://www.anthropic.com/claude-haiku-5-5)
+
+[View more](https://www.anthropic.com/search?topic=computer-use)
 
 Today, we’re announcing an **upgraded Claude 3.5 Sonnet**, and a new model, **Claude 3.5 Haiku**. The upgraded Claude 3.5 Sonnet delivers across-the-board improvements over its predecessor, with particularly significant gains in coding—an area where it already led the field. Claude 3.5 Haiku matches the performance of Claude 3 Opus, our prior largest model, on many evaluations at a similar speed to the previous generation of Haiku.
 
 We’re also introducing a groundbreaking new capability in public beta: **computer use**. Available [today on the API](https://docs.anthropic.com/en/docs/build-with-claude/computer-use), developers can direct Claude to use computers the way people do—by looking at a screen, moving a cursor, clicking buttons, and typing text. Claude 3.5 Sonnet is the first frontier AI model to offer computer use in public beta. At this stage, it is still [experimental](https://www.anthropic.com/news/developing-computer-use)—at times cumbersome and error-prone. We're releasing computer use early for feedback from developers, and expect the capability to improve rapidly over time.
 
 Asana, Canva, Cognition, DoorDash, Replit, and The Browser Company have already begun to explore these possibilities, carrying out tasks that require dozens, and sometimes even hundreds, of steps to complete. For example, Replit is using Claude 3.5 Sonnet's capabilities with computer use and UI navigation to develop a key feature that evaluates apps as they’re being built for their Replit Agent product.
+
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FODaHJzOyVCQ%2Fsddefault.jpg&w=3840&q=75)
 
 The upgraded Claude 3.5 Sonnet is now available for all users. Starting today, developers can build with the computer use beta on the Anthropic API, Amazon Bedrock, and Google Cloud’s Vertex AI. The new Claude 3.5 Haiku will be released later this month.
 
@@ -49,23 +72,3 @@ While we expect this capability to improve rapidly in the coming months, Claude'
 Learning from the initial deployments of this technology, which is still in its earliest stages, will help us better understand both the potential and the implications of increasingly capable AI systems.
 
 We’re excited for you to explore [our new models](https://assets.anthropic.com/m/1cd9d098ac3e6467/original/Claude-3-Model-Card-October-Addendum.pdf) and the public beta of computer use—and welcome you to [share your feedback](mailto:feedback@anthropic.com) with us. We believe these developments will open up new possibilities for how you work with Claude, and we look forward to seeing what you'll create.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

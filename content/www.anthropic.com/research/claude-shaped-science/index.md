@@ -1,12 +1,34 @@
-Science
+### Chapter 04: Outlook
 
 # Claude-shaped science
 
-Oct 1, 2026
+![Claude-shaped science](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5dca367673e615ac7abbbdac9f44733d1f52638a-2000x1125.jpg&w=1920&q=75)
 
-![collage of a physics diagram and trees](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5dca367673e615ac7abbbdac9f44733d1f52638a-2000x1125.jpg&w=3840&q=75)
+- Published
+
+  Oct 1, 2026
+- Team
+
+  [Science](https://www.anthropic.com/science)
+- Topics
+
+  - [Discovery](https://www.anthropic.com/search?topic=discovery)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Open source](https://www.anthropic.com/search?topic=open-source)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)See more...
 
 *Summary: In this guest post, Prof. Matthew Schwartz returns to describe a new approach to AI-accelerated science. In [Vibe Physics](https://www.anthropic.com/research/vibe-physics), Schwartz discussed similarities in capability between Claude and a physics graduate student. Here, he describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems: ones best suited to the capabilities of the current generation of LLM tools. This led him to build BootLoops, a toolkit for exact calculations in quantitative science. Because similar calculations often turn up across very disparate areas of science, Claude found connections to ecology, population genetics, and a dozen other fields. These connections were often technically correct but scientifically unremarkable at first, so Schwartz worked with domain experts to steer BootLoops toward questions those fields care about. Below, we share more about these projects and how BootLoops came about.*
+
+Related articles
+
+- Science
+
+  Oct 16, 2026
+
+  [Designing more efficient quantum circuits with Claude](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
+
+[View more](https://www.anthropic.com/search?topic=discovery)
 
 Agentic AI is improving rapidly. Everyone notices the models seem smarter: they know more, make fewer mistakes, and have better ideas. If you follow the trend lines, it is easy to speak confidently about the potential of AI to revolutionize science. However, academic scientists trying to use the models today in their own work often feel a disconnect. The models may be [solving challenging](https://openai.com/index/model-disproves-discrete-geometry-conjecture/) and [longstanding problems](https://www.anthropic.com/research/riemann-zeta), but so far these have mostly been well-scoped applications of existing techniques. Many of the headlines seem to be in mathematics, the one part of science where a problem can be stated completely and an answer checked absolutely. But most of science is not like that. And for many of us researchers and students, the distance between those headlines and what happens when we use these models can leave us frustrated and anxious.
 
@@ -18,7 +40,7 @@ I started looking for examples where the impedance mismatches are less acute. I 
 
 ![A visualization of the overlap between what AI can do, and what scientists want to do. Only some of the areas touch.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3597334d1c81f41606991f90305069407e2cbabd-1920x1080.jpg&w=3840&q=75)
 
-*The current generation of AI tools is not capable of solving most problems in science. However, they are astonishingly good at certain “agentic-AI-shaped” problems.*
+The current generation of AI tools is not capable of solving most problems in science. However, they are astonishingly good at certain “agentic-AI-shaped” problems.
 
 Once Claude had BootLoops, it kept noticing the same pattern: many fields have problems that a technique from mathematics, physics, or computer science would solve outright if anyone knew it existed. I started calling these “Claude-shaped” problems, and followed them outside high-energy theoretical physics—my home turf—into geology, biology, economics, and linguistics. In these other areas, I could not rely on my own expertise to know whether what Claude found was interesting. So I found some experts and asked. With their guidance, BootLoops was able to make substantive advances in many research areas.
 
@@ -62,7 +84,7 @@ James and I proceeded to work intensively with Claude to craft a successor model
 
 ![Graph of every forest inventory in the US color-coded by life history strategy](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fae837326f5eabe0015fdf773e96441e6c35a607a-1796x698.jpg&w=3840&q=75)
 
-*Every forest inventory plot in the United States, characterized by the life history strategy of its flora: hardy (long-lived), vigorous (fast-growing) or fruitful (prolific recruiters). The classification comes from a demographic model, built by Schwartz and O’Dwyer using Claude, that characterizes each species on longevity, growth, and recruitment after subtracting the fluctuations due to random chance (neutral biodiversity theory) to expose the species-dependent biology.*
+Every forest inventory plot in the United States, characterized by the life history strategy of its flora: hardy (long-lived), vigorous (fast-growing) or fruitful (prolific recruiters). The classification comes from a demographic model, built by Schwartz and O’Dwyer using Claude, that characterizes each species on longevity, growth, and recruitment after subtracting the fluctuations due to random chance (neutral biodiversity theory) to expose the species-dependent biology.
 
 Another project involved looking at exact calculations in population genetics, a field that studies how genes vary within a population and why. Claude first used methods imported from mathematical physics to solve a 30-year-old integral expression for how natural selection shapes rare mutations. We applied it to [gnomAD](https://gnomad.broadinstitute.org/), the largest public catalog of human genetic variation. Claude was very excited about this result, but I wasn’t so sure. I had to write to three different biologists for validation before one responded, but at last I was able to recruit my colleague Michael Desai, who works in the field, though not on this exact problem. As with James, Michael was impressed by the technical result but not compelled by the science.
 
@@ -114,7 +136,7 @@ A term I like that is sometimes used to discuss AI science is the **convex hull.
 
 ![Image of a convex hull with human knowledge at the center and gaps that are not filled in](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F13e6110b6209871e612616ad836c883d5cf283ea-1920x1320.jpg&w=3840&q=75)
 
-*Human knowledge today is jagged—particular scientists and subfields have pushed knowledge more in some directions than others. The middle regions, where humans could reach but no particular human has, are ideal for AI. Particular software packages like ACTUARY or NUMKIN within the BootLoops package help fill in the gaps.*
+Human knowledge today is jagged—particular scientists and subfields have pushed knowledge more in some directions than others. The middle regions, where humans could reach but no particular human has, are ideal for AI. Particular software packages like ACTUARY or NUMKIN within the BootLoops package help fill in the gaps.
 
 Things are changing fast, and it’s practically impossible to plan ahead. Why apply for a grant for three years of funding to compute a problem an AI model might end up solving overnight? I still don’t know how to train graduate students. Since I published my piece on [vibe physics](https://www.anthropic.com/research/vibe-physics), that feeling has only become more acute. In some fields, such as computer science, the disruption is downright scary. Two years ago, I would have recommended a course on “Python for engineers” as essential. Today, it’s unnecessary. I have spent a lot of time on machine learning, building models to study various physical phenomena. Now, all of those models can be built by AI, so even learning the ins and outs of neural networks is of limited utility. Just tell Claude to find the state-of-the-art ML approach and it will do it for you.
 
@@ -124,34 +146,12 @@ So where does this leave Joe Scientist? If you ask me, in a great place, actuall
 
 Details of the BootLoops harness and the science it has enabled can be found at [www.bootloops.ai](http://www.bootloops.ai/). The BootLoops harness is on [GitHub](https://github.com/BootLoops-ai/bootloops/tree/66b680ce742e654cfe86da4f072a69061fe182b1) for anyone to use and contribute to.
 
-## Acknowledgements
+## Authors & Acknowledgments
+
+### Acknowledgements
 
 The science I produced with Claude and BootLoops would not have been anywhere near as interesting without the guidance and collaboration from my fellow humans: Isaiah Andrews, Nima Arkani-Hamed, Michael Desai, Scott Edwards, Noam Elkies, Cecilia Garraffo, Matthew Gordon, Thomas Grimm, Martin Hemberg, Mikhail Ivanov, David Johnston, Gary King, Paul Lewis, Brendan Meade, Amara McCune, Joe Pater, Subhabrata Sen, Siddharth Mishra-Sharma, James O’Dwyer, Kevin Ryan, Jesse Shapiro, and Xiaoyuan Zhang.
 
-### **Disclosure**
+#### **Disclosure**
 
 During this project, Schwartz has been working as a visiting researcher at Anthropic. BootLoops is not an Anthropic project; it is owned and maintained by Matthew Schwartz.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
-
-## Subscribe to Anthropic Science
-
-Features on AI-assisted discoveries, practical workflows, and field notes across the sciences.

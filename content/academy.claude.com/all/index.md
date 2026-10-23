@@ -10,7 +10,7 @@ ProductAll
 
 RoleAll
 
-309 resources
+308 resources
 
 [## AI capabilities and limitations
 
@@ -401,7 +401,7 @@ ProductAll
 
 RoleAll
 
-157 use cases
+156 use cases
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-mtc5a1pi.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ha2dvss7.png)
 

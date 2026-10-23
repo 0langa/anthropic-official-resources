@@ -1,14 +1,39 @@
-Announcements
+### Chapter 04: Getting started
 
 # Introducing Claude 4
 
-May 22, 2025
+![Illustration of Claude juggling several tasks in parallel](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9890d1bb39c15c41772af22d2282eb612469051c-2880x1620.jpg&w=1920&q=75)
 
-![Illustration of Claude juggling several tasks in parallel](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9890d1bb39c15c41772af22d2282eb612469051c-2880x1620.jpg&w=3840&q=75)
+- Published
+
+  May 22, 2025
+- Category
+
+  [Models](https://www.anthropic.com/news/models)
+- Topics
+
+  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Tool use](https://www.anthropic.com/search?topic=tool-use)See more...
+
+Related articles
+
+- Product
+
+  Sep 29, 2025
+
+  [Enabling Claude Code to work more autonomously](https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously)
+
+[View more](https://www.anthropic.com/search?topic=claude-opus)
 
 Today, we’re introducing the next generation of Claude models: **Claude Opus 4** and **Claude Sonnet 4**, setting new standards for coding, advanced reasoning, and AI agents.
 
 Claude Opus 4 is the world’s best coding model, with sustained performance on complex, long-running tasks and agent workflows. Claude Sonnet 4 is a significant upgrade to Claude Sonnet 3.7, delivering superior coding and reasoning while responding more precisely to your instructions.
+
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FoqUclC3gqKs%2Fsddefault.jpg&w=3840&q=75)
 
 Alongside the models, we're also announcing:
 
@@ -55,15 +80,17 @@ New beta extensions for VS Code and JetBrains integrate Claude Code directly int
 
 Beyond the IDE, we're releasing an extensible Claude Code SDK, so you can build your own agents and applications using the same core agent as Claude Code. We're also releasing an example of what's possible with the SDK: Claude Code on GitHub, now in beta. Tag Claude Code on PRs to respond to reviewer feedback, fix CI errors, or modify code. To install, run /install-github-app from within Claude Code.
 
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FL_WFEgry87M%2Fsddefault.jpg&w=3840&q=75)
+
 ## Getting started
 
 These models are a large step toward the virtual collaborator—maintaining full context, sustaining focus on longer projects, and driving transformational impact. They come with extensive testing and evaluation to minimize risk and maximize safety, including [implementing measures](https://www.anthropic.com/news/activating-asl3-protections) for higher AI Safety Levels like ASL-3.
 
-We're excited to see what you'll create. Get started today on [Claude](https://claude.ai/redirect/website.v1.47ba46d9-3e03-4539-af32-721ccf9c8b2c), [Claude Code](https://www.anthropic.com/claude-code), or the platform of your choice.
+We're excited to see what you'll create. Get started today on [Claude](https://claude.ai/redirect/website.v1.ea732ca4-c681-4f46-aa4d-9641cef36695), [Claude Code](https://www.anthropic.com/claude-code), or the platform of your choice.
 
 *As always, your [feedback](mailto: feedback@anthropic.com) helps us improve.*
 
-#### Appendix
+---
 
 #### Performance benchmark data sources
 
@@ -98,23 +125,3 @@ For our “high compute” numbers we adopt additional complexity and parallel t
 - We then use an internal scoring model to select the best candidate from the remaining attempts.
 
 This results in a score of 79.4% and 80.2% for Opus 4 and Sonnet 4 respectively.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

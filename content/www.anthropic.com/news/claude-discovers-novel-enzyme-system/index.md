@@ -1,10 +1,31 @@
-Science
+### Chapter 03: Claude finds ART
 
 # Claude discovers a novel enzyme system with CRISPR-like repeats
 
-Sep 23, 2026
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FDdCEmlAydcw%2Fsddefault.jpg&w=3840&q=75)
 
-![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F4zrzovbb%2Fwebsite%2F394de337d8a5d8db93a1c048fa1cb53e16a09625-2048x1240.jpg&w=3840&q=75)
+- Published
+
+  Sep 23, 2026
+- Team
+
+  [Science](https://www.anthropic.com/science)
+- Topics
+
+  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+  - [Discovery](https://www.anthropic.com/search?topic=discovery)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)See more...
+
+Related articles
+
+- Science
+
+  Oct 20, 2026
+
+  [How Claude designed protein binders against scorpion neurotoxins](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design)
+
+[View more](https://www.anthropic.com/search?topic=life-sciences)
 
 *We’re introducing a new life sciences research group and laboratory at Anthropic. Our focus is on fundamental biology research using Claude: exploring datasets of DNA to identify uncharacterized protein families, generating hypotheses at scale, and testing them through experiments in the lab. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.*Many discoveries that have revolutionized biology and medicine started with a scientist noticing something odd in the staggering diversity of molecular machines found in nature. Restriction enzymes*,* proteins that cut DNA at specific short sequences*,* were found in bacterial immune systems, where they destroy the DNA of invading viruses. Researchers realized they could use these enzymes to cut DNA at chosen places and splice genes from one organism into another, which launched the biotechnology industry. Taq polymerase, an enzyme that copies DNA at high temperatures, was identified in a bacterium in a Yellowstone hot spring. It became the basis for PCR, the DNA-copying method used in much of modern diagnostics. CRISPR was first noticed as an unusual repeat sequence in the DNA of certain bacteria, and is now the foundation of gene editing-based medicines.  
   
@@ -22,13 +43,13 @@ We gave Claude a prompt to search through a massive database of DNA sequences fo
 
 Our work to understand the primary function of ARTs is ongoing. However, we think it is important to share such findings early, both to demonstrate Claude’s capabilities and to give the broader community insight into what we’re working on. We have released a pre-print ([here](https://www.biorxiv.org/content/10.64898/2026.10.05.755809v1)) that discusses this in more detail.
 
-## **About our lab**
+## About our lab
 
 We are a team of scientists who have spent our careers exploring unusual proteins, and specialize in using computational approaches to systematically read DNA, interpret its evolution, and pick out biological systems for further characterization. Our research prior to joining Anthropic has helped to better understand the [evolution](https://www.science.org/doi/10.1126/science.aei0498) and [regulation](https://www.nature.com/articles/s41586-018-0557-5) of CRISPR systems, discover new [enzymes](https://www.nature.com/articles/s41586-024-07552-4) for next-generation [cell and gene therapies](https://www.science.org/doi/10.1126/science.adz0276), and build [tools](https://www.nature.com/articles/s41586-026-10176-5) for accelerating the identification of anomalies in DNA, such as human pathogenic variants. We are part of Anthropic’s life sciences organization, alongside teams whose work includes drug discovery, and training Claude in biology and chemistry.
 
 Our lab, located in the Bay Area, looks like a typical molecular biology lab. We do research that involves only the lower levels of the biosafety risk level (BSL-1 and BSL-2) and we do not handle pathogens that can infect humans. All of the lab work is performed by human scientists. Although we’ve experimented with using AI to accelerate lab work with initiatives like the [Model Hardware Standard](https://www.anthropic.com/news/model-hardware-standard-research-preview), this approach is less conducive to the sort of ad hoc workflows that are involved in our molecular biology research.
 
-## **How we work**
+## How we work
 
 Many of our workflows involve having Claude search through the vast collection of DNA sequences associated with proteins without a known function. One typical pattern begins with a survey of a given protein family. Claude reads the relevant literature and reproduces the established results from public data to check its methods. It then searches for family members or genomic neighbors that fit no described system, and writes a short, human-readable report for each candidate that proposes a function and describes the evidence supporting its claims. In follow-up analyses, Claude critically evaluates the evidence—typically most candidates are eliminated at this stage. A survey may end with a single candidate worth testing, or with none.
 
@@ -36,7 +57,7 @@ When a candidate survives our review, we test it in the laboratory, expressing t
 
 Because Claude produces hypotheses so prolifically, the hypotheses themselves have become an object of study for us. With hundreds to thousands of candidate reports from a single campaign, we have been asking what distinguishes the proposals we judge worth testing from those we set aside. What we learn goes back into the instructions we give Claude and teaches it to mimic our own scientific taste.
 
-## **Claude finds ART**
+## Claude finds ART
 
 In the past few years, researchers have discovered many more reverse transcriptases (RTs), most of them in bacteria, where they act as part of the immune system. Nearly all RT families were found by genomic analysis, or genome mining, which requires researchers to search sequence databases for genes that no one has characterized, notice the unusual ones, and work out what they do.
 
@@ -46,7 +67,7 @@ During the course of its research, Claude noticed an unusual RT family and decid
 
 ![A graphic of Claude identifying patterns in DNA](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0f6064436a364b73ce0d2a80848ac56be7ae9ddd-1360x1160.gif&w=3840&q=75)
 
-*The raw DNA Claude was reading when it detected a repeat pattern that no one had noticed*
+The raw DNA Claude was reading when it detected a repeat pattern that no one had noticed
 
 It then proceeded much as a human scientist would when faced with a potential discovery. It counted the repeats and measured their spacing, compared the layout with the known RT systems, and searched the literature for any previous report of the pattern. After a thorough analysis it was convinced that it had found a new biological system, and filed a report for human review.
 
@@ -56,30 +77,6 @@ Further experiments are underway to determine how ART works, and we are sharing 
 
 You can find more detail in our technical report ([here](https://www.biorxiv.org/content/10.64898/2026.10.05.755809v1)).
 
-## **Work with us**
+### Work with us
 
 We hope this work demonstrates the value of AI-driven hypothesis generation to the wider scientific community, and we would like to work with other scientists to extend this approach to a broad range of problems, in genomics and in other fields. If you have a proposal for a research question, we would like to hear from you.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
-
-## Subscribe to Anthropic Science
-
-Features on AI-assisted discoveries, practical workflows, and field notes across the sciences.

@@ -1,10 +1,31 @@
-AnnouncementsSocietal Impacts
+### Chapter 09: Anthropic’s approach to education
 
-# Anthropic Education Report: How university students use Claude
+# **Anthropic Education Report:**How university students use Claude
 
-Apr 8, 2025
+![A lamp shining on a document](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd8f8769997101e424636cd0170091f9575c3583c-1996x1123.jpg&w=1920&q=75)
 
-![A lamp shining on a document ](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1f1187198617af2835239af187ce7125c05ba5e2-2400x1260.png&w=3840&q=75)
+- Published
+
+  Apr 8, 2025
+- Team
+
+  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
+- Topics
+
+  - [Education](https://www.anthropic.com/search?topic=education)
+  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+  - [Privacy](https://www.anthropic.com/search?topic=privacy)
+  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)See more...
+
+Related articles
+
+- Product
+
+  Jul 9, 2026
+
+  [Introducing a way to reflect on how you use Claude](https://www.anthropic.com/news/reflect-with-claude)
+
+[View more](https://www.anthropic.com/search?topic=education)
 
 AI systems are no longer just specialized research tools: they’re everyday academic companions. As AIs integrate more deeply into educational environments, we need to consider important questions about learning, assessment, and skill development. Until now, most discussions have relied on surveys and controlled experiments rather than direct evidence of how students naturally integrate AI into their academic work in real settings.
 
@@ -20,7 +41,7 @@ The key findings from our Education Report are:
 
 When researching how people use AI models, protecting user privacy is paramount. For this project, we used Claude Insights and Observations, or "[Clio](https://www.anthropic.com/research/clio)," our automated analysis tool that provides insights into how people are using Claude. Clio enables bottom-up discovery of AI usage patterns by distilling user conversations into high-level usage summaries, such as “troubleshoot code” or “explain economic concepts.” Clio uses a multi-layered, automated process that removes private user information from conversations. We built this process so it minimizes the information that passes from one layer to the next. We describe Clio’s privacy-first design in this [earlier blog](https://www.anthropic.com/research/clio).
 
-We used Clio to analyze approximately one million anonymized1 conversations from Claude.ai Free and Pro accounts tied to higher education email addresses.2 We then filtered these conversations for student and academic relevance—such as whether the conversation pertained to coursework or academic research—which yielded 574,740 conversations.3 Clio then grouped these conversations to derive aggregate education-related insights: how different academic subjects were represented; how students-AI interaction differed; and the types of cognitive tasks that students delegate to AI systems.
+We used Clio to analyze approximately one million anonymized[1](https://www.anthropic.com/research/anthropic-education-report-how-university-students-use-claude) conversations from Claude.ai Free and Pro accounts tied to higher education email addresses.[2](https://www.anthropic.com/research/anthropic-education-report-how-university-students-use-claude) We then filtered these conversations for student and academic relevance—such as whether the conversation pertained to coursework or academic research—which yielded 574,740 conversations.[3](https://www.anthropic.com/research/anthropic-education-report-how-university-students-use-claude) Clio then grouped these conversations to derive aggregate education-related insights: how different academic subjects were represented; how students-AI interaction differed; and the types of cognitive tasks that students delegate to AI systems.
 
 ## What are students using AI for?
 
@@ -34,7 +55,7 @@ Common student requests from the top four subject areas, based on the 15 most fr
 
 ## AI usage across academic disciplines
 
-We next examined which subjects showed *disproportionate* use of Claude. We did so by comparing Claude.ai usage patterns with the number of U.S. bachelor's degrees awarded.4 The most disproportionately heavy use of Claude was in Computer Science: despite representing only 5.4% of U.S. bachelor's degrees, Computer Science accounted for 38.6% of conversations on Claude.ai (this might reflect Claude’s particular strengths in computer coding). Natural Sciences and Mathematics also show higher representation in Claude.ai relative to student enrollment (15.2% vs. 9.2%, respectively).
+We next examined which subjects showed *disproportionate* use of Claude. We did so by comparing Claude.ai usage patterns with the number of U.S. bachelor's degrees awarded.[4](https://www.anthropic.com/research/anthropic-education-report-how-university-students-use-claude) The most disproportionately heavy use of Claude was in Computer Science: despite representing only 5.4% of U.S. bachelor's degrees, Computer Science accounted for 38.6% of conversations on Claude.ai (this might reflect Claude’s particular strengths in computer coding). Natural Sciences and Mathematics also show higher representation in Claude.ai relative to student enrollment (15.2% vs. 9.2%, respectively).
 
 Conversely, Business-related educational conversations accounted for just 8.9% of conversations despite constituting 18.6% of bachelor's degrees, showing a disproportionately low use of Claude. Health Professions (5.5% vs. 13.1%) and Humanities (6.4% vs. 12.5%) were also less represented relative to student enrollment in these disciplines.
 
@@ -48,7 +69,7 @@ Comparing the percentage of Claude.ai student conversations that are related to 
 
 There are many ways of interacting with AI, and they’ll affect the learning process differently. In our analysis of how students interact with AI, we identified four distinct patterns of interaction, which we categorized along two different axes, as shown in the figure below.
 
-The first axis was “mode of interaction”. This could involve:5 (1) **Direct** conversations, where the user is looking to resolve their query as quickly as possible, and (2) **Collaborative** conversations, where the user actively seeks to engage in dialogue with the model to achieve their goals. The second axis was the “desired outcome” of the interaction. This could involve: (1) **Problem Solving**, where the user seeks solutions or explanations to questions, and (2) **Output Creation**, where the user seeks to produce longer outputs like presentations or essays. Combining the two axes gives us the four patterns presented below.
+The first axis was “mode of interaction”. This could involve:[5](https://www.anthropic.com/research/anthropic-education-report-how-university-students-use-claude) (1) **Direct** conversations, where the user is looking to resolve their query as quickly as possible, and (2) **Collaborative** conversations, where the user actively seeks to engage in dialogue with the model to achieve their goals. The second axis was the “desired outcome” of the interaction. This could involve: (1) **Problem Solving**, where the user seeks solutions or explanations to questions, and (2) **Output Creation**, where the user seeks to produce longer outputs like presentations or essays. Combining the two axes gives us the four patterns presented below.
 
 ![Our taxonomy for student-AI conversations, along with sample conversation topics based on those surfaced by Clio.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5b3d52e53c95e4d3f7a3f5e3592f859c5358fd82-2400x1526.png&w=3840&q=75)
 
@@ -86,7 +107,7 @@ Distribution of conversations across interaction styles for each NCES subject.
 
 ## Cognitive tasks students delegate to AI
 
-We also explored how students delegate cognitive responsibilities to AI systems. We used [Bloom's Taxonomy](https://www.researchgate.net/publication/235465787_A_Taxonomy_for_Learning_Teaching_and_Assessing_A_Revision_of_Bloom's_Taxonomy_of_Educational_Objectives),6 a hierarchical framework used in education to classify cognitive processes from simpler to more complex. While the framework was initially intended for student thinking, we adapted it to analyze Claude’s responses when conversing with a student.
+We also explored how students delegate cognitive responsibilities to AI systems. We used [Bloom's Taxonomy](https://www.researchgate.net/publication/235465787_A_Taxonomy_for_Learning_Teaching_and_Assessing_A_Revision_of_Bloom's_Taxonomy_of_Educational_Objectives),[6](https://www.anthropic.com/research/anthropic-education-report-how-university-students-use-claude) a hierarchical framework used in education to classify cognitive processes from simpler to more complex. While the framework was initially intended for student thinking, we adapted it to analyze Claude’s responses when conversing with a student.
 
 We saw an inverted pattern of Bloom's Taxonomy domains exhibited by the AI:
 
@@ -129,9 +150,33 @@ These findings contribute to the ongoing discussions amongst educators, administ
 
 In addition to this Education Report, we are [partnering with universities](https://www.anthropic.com/news/introducing-claude-for-education) to better understand the role of AI in education. As an early step, we are experimenting with a Learning Mode that emphasizes the Socratic method and conceptual understanding over direct answers. We look forward to collaborating with universities on future research studies and more directly studying the effects that AI has on learning.
 
-## Bibtex
+## Footnotes
 
-If you’d like to cite this post, you can use the following Bibtex key:
+01 These spanned an 18-day period on Claude.ai to continue managing data according to our [privacy and retention policies](https://privacy.anthropic.com/en/articles/10023548-how-long-do-you-store-personal-data). For more information about how Clio protects privacy, see our [research blog](https://www.anthropic.com/research/clio).
+
+02 In particular, we limit the analysis to accounts with email addresses associated with higher education institutions globally, such as emails with .edu and .ac.uk domains. We recognize that not all educational email addresses may be those of students. For this reason, we then filter the associated conversations to those likely addressing students’ schoolwork.
+
+03 Clio uses Claude to filter conversations in an automated way. For this research, Clio filtered conversations to those “likely to be a student seeking help with academics, school work, studying, learning a new concept, academic research, etc?”. Our [previous paper on Clio](https://arxiv.org/abs/2412.13678) details and validates this filtering mechanism.
+
+04 Via the [National Center for Education Statistics (NCES)](https://nces.ed.gov/programs/digest/d23/tables/dt23_318.20.asp?current=yes).
+
+05 In our experiments, we used the terminology “Transactional” and “Dialogic” to classify conversations as we found those terms to most precisely capture the bottom-up interaction patterns surfaced by Clio. Specifically, we used Clio to classify a conversation as one of: Transactional Problem Solving, Transactional Output Creation, Dialogic Problem Solving, or Dialogic Output Creation; Clio was provided with an associated description for each interaction pattern. For ease of understanding, we use the terminology “Direct” and “Collaborative” in place of “Transactional” and “Dialogic” in this report.
+
+06 In particular, we use [Anderson and Krathwohl's (2001) revision](https://books.google.com/books/about/A_Taxonomy_for_Learning_Teaching_and_Ass.html?id=JPkXAQAAMAAJ&source=kp_book_description) of Bloom's Taxonomy and their taxonomy of cognitive processes.
+
+## Authors & Acknowledgments
+
+### Contributors
+
+Kunal Handa\* and Drew Bent\* designed and executed the experiments, made the figures, and wrote the blog post. Alex Tamkin proposed initial experiments and provided detailed direction and feedback. Miles McCain iterated on the technical infrastructure necessary for all experiments. Esin Durmus, Michael Stern, Mike Schiraldi, Saffron Huang, Stuart Ritchie, Steven Syverud, and Kamya Jagadish provided valuable feedback and discussion. Margaret Vo, Matt Bell, and Deep Ganguli provided detailed guidance, organizational support, and feedback throughout.
+
+### Acknowledgements
+
+Additionally, we appreciate helpful discussion and comments from Rose E. Wang, Laurence Holt, Michael Trucano, Ben Kornell, Patrick Methvin, Alexis Ross, and Joseph Feller.
+
+### Citation
+
+Copy
 
 ```
 @online{handa2025education,
@@ -142,45 +187,3 @@ year = {2025},
 url = {https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude},
 }
 ```
-
-Copy
-
-## Acknowledgements
-
-Kunal Handa\* and Drew Bent\* designed and executed the experiments, made the figures, and wrote the blog post. Alex Tamkin proposed initial experiments and provided detailed direction and feedback. Miles McCain iterated on the technical infrastructure necessary for all experiments. Esin Durmus, Michael Stern, Mike Schiraldi, Saffron Huang, Stuart Ritchie, Steven Syverud, and Kamya Jagadish provided valuable feedback and discussion. Margaret Vo, Matt Bell, and Deep Ganguli provided detailed guidance, organizational support, and feedback throughout.
-
-Additionally, we appreciate helpful discussion and comments from Rose E. Wang, Laurence Holt, Michael Trucano, Ben Kornell, Patrick Methvin, Alexis Ross, and Joseph Feller.
-
-#### Footnotes
-
-1 These spanned an 18-day period on Claude.ai to continue managing data according to our [privacy and retention policies](https://privacy.anthropic.com/en/articles/10023548-how-long-do-you-store-personal-data). For more information about how Clio protects privacy, see our [research blog](https://www.anthropic.com/research/clio).
-
-2 In particular, we limit the analysis to accounts with email addresses associated with higher education institutions globally, such as emails with .edu and .ac.uk domains. We recognize that not all educational email addresses may be those of students. For this reason, we then filter the associated conversations to those likely addressing students’ schoolwork.
-
-3 Clio uses Claude to filter conversations in an automated way. For this research, Clio filtered conversations to those “likely to be a student seeking help with academics, school work, studying, learning a new concept, academic research, etc?”. Our [previous paper on Clio](https://arxiv.org/abs/2412.13678) details and validates this filtering mechanism.
-
-4 Via the [National Center for Education Statistics (NCES)](https://nces.ed.gov/programs/digest/d23/tables/dt23_318.20.asp?current=yes).
-
-5 In our experiments, we used the terminology “Transactional” and “Dialogic” to classify conversations as we found those terms to most precisely capture the bottom-up interaction patterns surfaced by Clio. Specifically, we used Clio to classify a conversation as one of: Transactional Problem Solving, Transactional Output Creation, Dialogic Problem Solving, or Dialogic Output Creation; Clio was provided with an associated description for each interaction pattern. For ease of understanding, we use the terminology “Direct” and “Collaborative” in place of “Transactional” and “Dialogic” in this report.
-
-6 In particular, we use [Anderson and Krathwohl's (2001) revision](https://books.google.com/books/about/A_Taxonomy_for_Learning_Teaching_and_Ass.html?id=JPkXAQAAMAAJ&source=kp_book_description) of Bloom's Taxonomy and their taxonomy of cognitive processes.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

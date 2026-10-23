@@ -1,12 +1,33 @@
-Science
+### Chapter 02: Science at Anthropic
 
 # Introducing our Science Blog
 
-Mar 23, 2026
+![Introducing our Science Blog](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5875fb14fc38a748218bf5af9e693e290fec61b6-1920x1080.jpg&w=1920&q=75)
 
-![Introducing our Science Blog](https://www-cdn.anthropic.com/images/4zrzovbb/website/60a35c504cedb3e3f581b211e4b8aef372ffe031-1000x1000.svg)
+- Published
+
+  Mar 23, 2026
+- Team
+
+  [Science](https://www.anthropic.com/science)
+- Topics
+
+  - [Discovery](https://www.anthropic.com/search?topic=discovery)
+  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
 
 *We’re launching a new blog about AI and science. We’ll share work happening at Anthropic and elsewhere, our collaborations with external researchers and labs, and discuss practical workflows for scientists using AI in their research.*
+
+Related articles
+
+- Science
+
+  Oct 20, 2026
+
+  [How Claude designed protein binders against scorpion neurotoxins](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design)
+
+[View more](https://www.anthropic.com/search?topic=discovery)
 
 Increasing the pace of scientific progress is a core part of Anthropic’s mission. [*Machines of Loving Grace*](https://www.darioamodei.com/essay/machines-of-loving-grace) describes the prospect of a “compressed 21st century” in which decades of scientific progress occur over just a few years. We’re starting to see what the early stages of that compression look like: AI is helping mathematicians to [discover](https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf) [new proofs](https://www.math.inc/sphere-packing), individual researchers to [run computational analyses](https://scottdodelson.substack.com/p/evolving-dark-energy-and-ai) that once required dedicated teams, and biologists to [identify functional gene relationships](https://www.biorxiv.org/content/10.1101/2025.05.26.656231v1.full.pdf) across datasets of millions of cells.
 
@@ -16,7 +37,7 @@ Although the pace of improvement is rapid, some of these questions may feel prem
   
 AI will alter the scientific process in ways that are only starting to become apparent. This blog will discuss the upsides and challenges of the current moment for AI and science, exploring the excitement as it unfolds.
 
-### What we’ll cover
+## What we’ll cover
 
 In this blog, we’ll share three main types of posts:
 
@@ -26,16 +47,10 @@ In this blog, we’ll share three main types of posts:
 
 We’re publishing two pieces alongside this introduction: Matthew Schwartz’s “[Vibe physics: The AI grad student](https://www.anthropic.com/research/vibe-physics),” a spotlight on supervising Claude through a real theoretical physics calculation, and [a tutorial on orchestrating long-running tasks for scientific computation](https://www.anthropic.com/research/long-running-Claude).
 
-### **Science at Anthropic**
+## Science at Anthropic
 
 Anthropic has several initiatives aimed at accelerating scientific progress. Our [AI for Science](https://www.anthropic.com/news/ai-for-science-program) program provides API credits to researchers working on high-impact projects across biology, physics, chemistry, and other fields. [Claude for Life Sciences](https://www.anthropic.com/news/claude-for-life-sciences) is dedicated to making Claude useful for life sciences researchers and R&D teams, with partnerships across research institutions, pharma, and biotech. We recently shared some early [results of these programs](https://www.anthropic.com/news/accelerating-scientific-research). And we’re a [core partner](https://www.anthropic.com/news/genesis-mission-partnership) in the [Genesis Mission](http://genesis.energy.gov/), a multi-billion-dollar initiative across industry, academia, and government to accelerate American science with AI.
 
 Beyond these dedicated efforts, researchers across Anthropic are working to improve our models' core scientific capabilities and safely accelerate AI-assisted discovery. Many come from biophysics, chemistry, and neuroscience. We'll be reporting on their work and on efforts elsewhere in the field.
 
 If you have something you want to see covered here, please reach out to us at scienceblog@anthropic.com.
-
-####
-
-## Subscribe to Anthropic Science
-
-Features on AI-assisted discoveries, practical workflows, and field notes across the sciences.

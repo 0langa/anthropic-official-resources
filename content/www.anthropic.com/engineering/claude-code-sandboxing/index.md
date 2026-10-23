@@ -1,18 +1,38 @@
-[Engineering at Anthropic](https://www.anthropic.com/engineering)
+### Chapter 03: Getting started
 
-![](https://www-cdn.anthropic.com/images/4zrzovbb/website/0321b0ecbbf53535e93be1310ae1935157bcebdd-1000x1000.svg)
+# **Beyond permission prompts:**making Claude Code more secure and autonomous
 
-# Beyond permission prompts: making Claude Code more secure and autonomous
+![Beyond permission prompts: making Claude Code more secure and autonomous](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb95241b80efe872ba6f1c42ded721fffc3347154-2000x1125.jpg&w=1920&q=75)
 
-Published Oct 20, 2025
+- Published
 
-Claude Code's new sandboxing features, a bash tool and Claude Code on the web, reduce permission prompts and increase user safety by enabling two boundaries: filesystem and network isolation.
+  Oct 20, 2025
+- Team
+
+  [Engineering](https://www.anthropic.com/engineering)
+- Topics
+
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Open source](https://www.anthropic.com/search?topic=open-source)See more...
+
+Related articles
+
+- Engineering
+
+  May 25, 2026
+
+  [How we contain Claude across products](https://www.anthropic.com/research/how-we-contain-claude)
+
+[View more](https://www.anthropic.com/search?topic=claude-code)
 
 In [Claude Code](https://www.claude.com/product/claude-code), Claude writes, tests, and debugs code alongside you, navigating your codebase, editing multiple files, and running commands to verify its work. Giving Claude this much access to your codebase and files can introduce risks, especially in the case of prompt injection.
 
 To help address this, we’ve introduced two new features in Claude Code built on top of sandboxing, both of which are designed to provide a more secure place for developers to work, while also allowing Claude to run more autonomously and with fewer permission prompts. In our internal usage, we've found that sandboxing safely reduces permission prompts by 84%. By defining set boundaries within which Claude can work freely, they increase security and agency.
 
-### **Keeping users secure on Claude Code**
+## Keeping users secure on Claude Code
 
 Claude Code runs on a permission-based model: by default, it's read-only, which means it asks for permission before making modifications or running any commands. There are some exceptions to this: we auto-allow safe commands like echo or cat, but most operations still need explicit approval.
 
@@ -20,7 +40,7 @@ Constantly clicking "approve" slows down development cycles and can lead to ‘a
 
 To address this, we launched sandboxing for Claude Code.
 
-## **Sandboxing: a safer and more autonomous approach**
+## Sandboxing: a safer and more autonomous approach
 
 Sandboxing creates pre-defined boundaries within which Claude can work more freely, instead of asking for permission for each action. With sandboxing enabled, you get drastically fewer permission prompts and increased safety.
 
@@ -33,7 +53,7 @@ It is worth noting that effective sandboxing requires *both* filesystem and netw
 
 ### Two new sandboxing features in Claude Code
 
-#### **Sandboxed bash tool: safe bash execution without permission prompts**
+#### Sandboxed bash tool: safe bash execution without permission prompts
 
 We're introducing [a new sandbox runtime](https://docs.claude.com/en/docs/claude-code/sandboxing), available in beta as a research preview, that lets you define exactly which directories and network hosts your agent can access, without the overhead of spinning up and managing a container. This can be used to sandbox arbitrary processes, agents and MCP servers. It is also available as [an open source research preview](https://github.com/anthropic-experimental/sandbox-runtime).
 
@@ -56,7 +76,7 @@ To get started with this feature, run /sandbox in Claude Code and check out [mor
 
 To make it easier for other teams to build safer agents, we have [open sourced](https://github.com/anthropic-experimental/sandbox-runtime) this feature. We believe that others should consider adopting this technology for their own agents in order to enhance the security posture of their agents.
 
-#### **Claude Code on the web: running Claude Code securely in the cloud**
+#### Claude Code on the web: running Claude Code securely in the cloud
 
 Today, we're also releasing [Claude Code on the web](https://docs.claude.com/en/docs/claude-code/claude-code-on-the-web) enabling users to run Claude Code in an isolated sandbox in the cloud. Claude Code on the web executes each Claude Code session in an isolated sandbox where it has full access to its server in a safe and secure way. We've designed this sandbox to ensure that sensitive credentials (such as git credentials or signing keys) are never inside the sandbox with Claude Code. This way, even if the code running in the sandbox is compromised, the user is kept safe from further harm.
 
@@ -73,18 +93,18 @@ Our new sandboxed bash tool and Claude Code on the web offer substantial improve
 To get started with these tools:
 
 1. Run `/sandbox` in Claude and check out [our docs](https://docs.claude.com/en/docs/claude-code/sandboxing) on how to configure this sandbox.
-2. Go to [claude.com/code](http://claude.ai/redirect/website.v1.9f399e70-dbb7-41b0-a05c-c50c02c3adc8/code) to try out Claude Code on the web.
+2. Go to [claude.com/code](http://claude.ai/redirect/website.v1.5cbcf043-4418-48bb-bee9-7e7de15251ea/code) to try out Claude Code on the web.
 
 Or, if you're building your own agents, check out our [open-sourced sandboxing code](https://github.com/anthropic-experimental/sandbox-runtime), and consider integrating it into your work. We look forward to seeing what you build.
 
 To learn more about Claude Code on the web, check out our [launch blog post](https://www.anthropic.com/news/claude-code-on-the-web).
 
-## Acknowledgements
+## Authors & Acknowledgments
+
+### Contributors
 
 Article written by David Dworken and Oliver Weller-Davies, with contributions from Meaghan Choi, Catherine Wu, Molly Vorwerck, Alex Isken, Kier Bradwell, and Kevin Garcia
 
-## Get the developer newsletter
+### Acknowledgements
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
-
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+Article written by David Dworken and Oliver Weller-Davies, with contributions from Meaghan Choi, Catherine Wu, Molly Vorwerck, Alex Isken, Kier Bradwell, and Kevin Garcia

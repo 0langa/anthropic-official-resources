@@ -560,6 +560,8 @@ Keep these constraints in mind when you configure telemetry for cloud sessions:
 
 By default, metrics and events from a cloud session carry the [standard attributes](#standard-attributes), including `session.id`, `ccr.session.id`, and `organization.id`, so you can filter by session or organization without extra configuration. The `ccr.session.id` value is the session's `CLAUDE_CODE_REMOTE_SESSION_ID`. To turn it into the session's transcript URL, see [Link output back to the session](/docs/en/cloud-environments#link-output-back-to-the-session).
 
+To tell cloud sessions apart, group or filter on `ccr.session.id`, not `session.id`.
+
 To attribute telemetry in more detail, use these options:
 
 * **Identify Claude Tag sessions**: set `OTEL_METRICS_INCLUDE_ENTRYPOINT=true`, as described under [Metrics cardinality control](#metrics-cardinality-control). Metrics then carry `app.entrypoint`, whose value is `claude-in-slack` for Claude Tag sessions.
@@ -575,7 +577,7 @@ All metrics and events share these standard attributes:
 
 | Attribute | Description | Controlled By |
 | - | - | - |
-| `session.id` | Unique session identifier | `OTEL_METRICS_INCLUDE_SESSION_ID` (default: true) |
+| `session.id` | Claude Code's own session ID, which `/clear` replaces | `OTEL_METRICS_INCLUDE_SESSION_ID` (default: true) |
 | `ccr.session.id` | Cloud session identifier, the value of `CLAUDE_CODE_REMOTE_SESSION_ID`, on sessions that run in a [cloud environment](/docs/en/cloud-environments) | `OTEL_METRICS_INCLUDE_SESSION_ID` (default: true) |
 | `app.version` | Current Claude Code version | `OTEL_METRICS_INCLUDE_VERSION` (default: false) |
 | `app.entrypoint` | How the session was launched, such as `cli`, `sdk-cli`, `sdk-ts`, `sdk-py`, `claude-vscode`, or `claude-in-slack` for Claude Tag sessions | `OTEL_METRICS_INCLUDE_ENTRYPOINT` (default: false) |

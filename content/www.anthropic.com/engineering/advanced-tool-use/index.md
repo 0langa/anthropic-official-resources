@@ -1,12 +1,32 @@
-[Engineering at Anthropic](https://www.anthropic.com/engineering)
-
-![Illustration for advanced tool use article.](https://www-cdn.anthropic.com/images/4zrzovbb/website/151600be7f9c23247aad8dcb6aacb2e1ab024f44-1000x1000.svg)
+### Chapter 05: Getting started
 
 # Introducing advanced tool use on the Claude Developer Platform
 
-Published Nov 24, 2025
+![Introducing advanced tool use on the Claude Developer Platform](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdbce48f3e5326313a0ca293041ec47a2af9ff0c2-2000x1125.jpg&w=1920&q=75)
 
-We’ve added three new beta features that let Claude discover, learn, and execute tools dynamically. Here’s how they work.
+- Published
+
+  Nov 24, 2025
+- Team
+
+  [Engineering](https://www.anthropic.com/engineering)
+- Topics
+
+  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)See more...
+
+Related articles
+
+- Announcements
+
+  May 18, 2026
+
+  [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless)
+
+[View more](https://www.anthropic.com/search?topic=tool-use)
 
 The future of AI agents is one where models work seamlessly across hundreds or thousands of tools. An IDE assistant that integrates git operations, file manipulation, package managers, testing frameworks, and deployment pipelines. An operations coordinator that connects Slack, GitHub, Google Drive, Jira, company databases, and dozens of MCP servers simultaneously.
 
@@ -25,6 +45,8 @@ Today, we're releasing three features that make this possible:
 In internal testing, we’ve found these features have helped us build things that wouldn’t have been possible with conventional tool use patterns. For example, **[Claude for Excel](https://www.claude.com/claude-for-excel)** uses Programmatic Tool Calling to read and modify spreadsheets with thousands of rows without overloading the model’s context window.
 
 Based on our experience, we believe these features open up new possibilities for what you can build with Claude.
+
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F2MJDdzSXL74%2Fsddefault.jpg&w=3840&q=75)
 
 ## Tool Search Tool
 
@@ -48,7 +70,7 @@ Instead of loading all tool definitions upfront, the Tool Search Tool discovers 
 
 ![Tool Search Tool diagram](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff359296f770706608901eadaffbff4ca0b67874c-1999x1125.png&w=3840&q=75)
 
-*Tool Search Tool preserves 191,300 tokens of context compared to 122,800 with Claude’s traditional approach.*
+Tool Search Tool preserves 191,300 tokens of context compared to 122,800 with Claude’s traditional approach.
 
 Traditional approach:
 
@@ -78,6 +100,8 @@ This way, Claude has access to your full tool library while only paying the toke
 
 **Implementation:**
 
+CopyExpand
+
 ```
 {
   "tools": [
@@ -96,9 +120,9 @@ This way, Claude has access to your full tool library while only paying the toke
 }
 ```
 
-Copy
-
 For MCP servers, you can defer loading entire servers while keeping specific high-use tools loaded:
+
+Copy
 
 ```
 {
@@ -112,8 +136,6 @@ For MCP servers, you can defer loading entire servers while keeping specific hig
   }
 }
 ```
-
-Copy
 
 The Claude Developer Platform provides regex-based and BM25-based search tools out of the box, but you can also implement custom search tools using embeddings or other strategies.
 
@@ -178,6 +200,8 @@ Programmatic Tool Calling enables Claude to orchestrate tools through code rathe
 
 Here's what Claude's orchestration code looks like for the budget compliance task:
 
+CopyExpand
+
 ```
 team = await get_team_members("engineering")
 
@@ -210,8 +234,6 @@ for member, exp in zip(team, expenses):
 print(json.dumps(exceeded))
 ```
 
-Copy
-
 Claude's context receives only the final result: the two to three people who exceeded their budget. The 2,000+ line items, the intermediate sums, and the budget lookups do not affect Claude’s context, reducing consumption from 200KB of raw expense data to just 1KB of results.
 
 The efficiency gains are substantial:
@@ -227,6 +249,8 @@ Production workflows involve messy data, conditional logic, and operations that 
 #### 1. Mark tools as callable from code
 
 Add code\_execution to tools, and set allowed\_callers to opt-in tools for programmatic execution:
+
+CopyExpand
 
 ```
 {
@@ -253,13 +277,13 @@ Add code\_execution to tools, and set allowed\_callers to opt-in tools for progr
 }
 ```
 
-Copy
-
 The API converts these tool definitions into Python functions that Claude can call.
 
 #### 2. Claude writes orchestration code
 
 Instead of requesting tools one at a time, Claude generates Python code:
+
+Copy
 
 ```
 {
@@ -272,11 +296,11 @@ Instead of requesting tools one at a time, Claude generates Python code:
 }
 ```
 
-Copy
-
 #### 3. Tools execute without hitting Claude's context
 
 When the code calls get\_expenses(), you receive a tool request with a caller field:
+
+Copy
 
 ```
 {
@@ -291,13 +315,13 @@ When the code calls get\_expenses(), you receive a tool request with a caller fi
 }
 ```
 
-Copy
-
 You provide the result, which is processed in the Code Execution environment rather than Claude's context. This request-response cycle repeats for each tool call in the code.
 
 #### 4. Only final output enters context
 
 When the code finishes running, only the results of the code are returned to Claude:
+
+Copy
 
 ```
 {
@@ -308,8 +332,6 @@ When the code finishes running, only the results of the code are returned to Cla
   }
 }
 ```
-
-Copy
 
 This is all Claude sees, not the 2000+ expense line items processed along the way.
 
@@ -338,6 +360,8 @@ Programmatic Tool Calling adds a code execution step to your workflow. This extr
 JSON Schema excels at defining structure–types, required fields, allowed enums–but it can't express usage patterns: when to include optional parameters, which combinations make sense, or what conventions your API expects.
 
 Consider a support ticket API:
+
+CopyExpand
 
 ```
 {
@@ -376,8 +400,6 @@ Consider a support ticket API:
 }
 ```
 
-Copy
-
 The schema defines what's valid, but leaves critical questions unanswered:
 
 - **Format ambiguity:** Should `due_date` use "2024-11-06", "Nov 6, 2024", or "2024-11-06T00:00:00Z"?
@@ -390,6 +412,8 @@ These ambiguities can lead to malformed tool calls and inconsistent parameter us
 ### Our solution
 
 Tool Use Examples let you provide sample tool calls directly in your tool definitions. Instead of relying on schema alone, you show Claude concrete usage patterns:
+
+CopyExpand
 
 ```
 {
@@ -429,8 +453,6 @@ Tool Use Examples let you provide sample tool calls directly in your tool defini
     ]
   }
 ```
-
-Copy
 
 From these three examples, Claude learns:
 
@@ -477,6 +499,8 @@ Then layer additional features as needed. They're complementary: Tool Search Too
 
 Tool search matches against names and descriptions, so clear, descriptive definitions improve discovery accuracy.
 
+Copy
+
 ```
 // Good
 {
@@ -491,9 +515,9 @@ Tool search matches against names and descriptions, so clear, descriptive defini
 }
 ```
 
-Copy
-
 Add system prompt guidance so Claude knows what's available:
+
+Copy
 
 ```
 You have access to tools for Slack messaging, Google Drive file management, 
@@ -501,13 +525,13 @@ Jira ticket tracking, and GitHub repository operations. Use the tool search
 to find specific capabilities.
 ```
 
-Copy
-
 Keep your three to five most-used tools always loaded, defer the rest. This balances immediate access for common operations with on-demand discovery for everything else.
 
 ### Set up Programmatic Tool Calling for correct execution
 
 Since Claude writes code to parse tool outputs, document return formats clearly. This helps Claude write correct parsing logic:
+
+Copy
 
 ```
 {
@@ -522,8 +546,6 @@ Returns:
     - created_at (str): ISO 8601 timestamp"
 }
 ```
-
-Copy
 
 See below for opt-in tools that benefit from programmatic orchestration:
 
@@ -543,6 +565,8 @@ Craft examples for behavioral clarity:
 
 These features are available in beta. To enable them, add the beta header and include the tools you need:
 
+Copy
+
 ```
 client.beta.messages.create(
     betas=["advanced-tool-use-2025-11-20"],
@@ -556,8 +580,6 @@ client.beta.messages.create(
 )
 ```
 
-Copy
-
 For detailed API documentation and SDK examples, see our:
 
 - [Documentation](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool) and [cookbook](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/tool_search_with_embeddings.ipynb) for Tool Search Tool
@@ -568,12 +590,8 @@ These features move tool use from simple function calling toward intelligent orc
 
 We're excited to see what you build.
 
-## Acknowledgements
+## Authors & Acknowledgments
+
+### Acknowledgements
 
 Written by Bin Wu, with contributions from Adam Jones, Artur Renault, Henry Tay, Jake Noble, Noah Picard, Sam Jiang, and the Claude Developer Platform team. This work builds on foundational research by Chris Gorgolewski, Daniel Jiang, Jeremy Fox and Mike Lambert. We also drew inspiration from across the AI ecosystem, including [Joel Pobar's LLMVM](https://github.com/9600dev/llmvm), [Cloudflare's Code Mode](https://blog.cloudflare.com/code-mode/) and [Code Execution as MCP](https://www.anthropic.com/engineering/code-execution-with-mcp). Special thanks to Andy Schumeister, Hamish Kerr, Keir Bradwell, Matt Bleifer and Molly Vorwerck for their support.
-
-## Get the developer newsletter
-
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
-
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
